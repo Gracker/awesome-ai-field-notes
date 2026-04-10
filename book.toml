@@ -1,0 +1,13 @@
+[book]
+title = "AI Field Notes"
+description = "AI 领域精选资源导航 — 有观点、有评分、可被 Agent 消费"
+language = "zh"
+src = "site-src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "light"
+git-repository-url = "https://github.com/Gracker/awesome-ai-field-notes"
+edit-url-template = "https://github.com/Gracker/awesome-ai-field-notes/edit/main/{path}"

@@ -1,0 +1,21 @@
+name: Validate Entries Schema
+
+on:
+  push:
+    paths:
+      - 'data/entries.json'
+    branches: [main, develop]
+  pull_request:
+    paths:
+      - 'data/entries.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate entries.json
+        run: python3 scripts/validate-schema.py

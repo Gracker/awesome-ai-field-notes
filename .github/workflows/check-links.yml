@@ -1,0 +1,27 @@
+name: Check Dead Links
+
+on:
+  schedule:
+    - cron: '0 3 * * 3'  # 每周三 UTC 03:00 (北京 11:00)
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check links
+        run: python3 scripts/check-links.py
+      - name: Regenerate site
+        run: python3 scripts/generate-site.py
+      - name: Commit and push
+        run: |
+          git config user.name "openclaw-bot"
+          git config user.email "openclaw-bot@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || (git commit -m "[openclaw] maintain: weekly link check + archive" && git push)

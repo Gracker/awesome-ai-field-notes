@@ -1,0 +1,173 @@
+{
+  "models-providers": {
+    "name": "Models & Providers",
+    "name_zh": "模型与厂商",
+    "icon": "🧠",
+    "children": {
+      "frontier-models": { "name": "Frontier Models", "name_zh": "闭源前沿模型" },
+      "open-source-models": { "name": "Open Source Models", "name_zh": "开源模型" },
+      "model-architecture": { "name": "Model Architecture", "name_zh": "模型架构" },
+      "chinese-llm": { "name": "Chinese LLM Ecosystem", "name_zh": "国产大模型生态" }
+    }
+  },
+  "agent-frameworks": {
+    "name": "Agent Frameworks & Libraries",
+    "name_zh": "Agent 框架",
+    "icon": "🤖",
+    "children": {
+      "orchestration": { "name": "Orchestration", "name_zh": "编排框架" },
+      "single-agent": { "name": "Single-Agent", "name_zh": "单Agent框架" },
+      "multi-agent": { "name": "Multi-Agent", "name_zh": "多Agent框架" },
+      "lightweight": { "name": "Lightweight / Minimal", "name_zh": "极简实现" }
+    }
+  },
+  "agent-protocols": {
+    "name": "Agent Protocols & Interop",
+    "name_zh": "Agent 协议",
+    "icon": "🔗",
+    "children": {
+      "mcp": { "name": "MCP", "name_zh": "Model Context Protocol" },
+      "a2a": { "name": "A2A", "name_zh": "Agent-to-Agent" },
+      "acp-other": { "name": "ACP / Other", "name_zh": "其他协议" },
+      "tool-use": { "name": "Tool Use Standards", "name_zh": "工具调用规范" }
+    }
+  },
+  "agent-os": {
+    "name": "Agent OS & Platforms",
+    "name_zh": "Agent 操作系统",
+    "icon": "🖥️",
+    "children": {
+      "agent-os-concepts": { "name": "Agent OS Concepts", "name_zh": "系统级方案" },
+      "phone-ai": { "name": "Phone AI Agents", "name_zh": "手机AI助手" },
+      "desktop-agents": { "name": "Desktop Agents", "name_zh": "桌面Agent" },
+      "browser-agents": { "name": "Browser Agents", "name_zh": "浏览器Agent" }
+    }
+  },
+  "coding-ai": {
+    "name": "Coding AI",
+    "name_zh": "AI 编程",
+    "icon": "💻",
+    "children": {
+      "ide-editor": { "name": "IDE & Editor", "name_zh": "IDE与编辑器" },
+      "cli-terminal": { "name": "CLI & Terminal", "name_zh": "命令行工具" },
+      "review-devops": { "name": "Code Review & DevOps", "name_zh": "代码审查与DevOps" },
+      "skills-workflows": { "name": "Skills & Workflows", "name_zh": "技能与工作流" }
+    }
+  },
+  "benchmarks-evals": {
+    "name": "Benchmarks & Evals",
+    "name_zh": "评测与排行",
+    "icon": "📊",
+    "children": {
+      "general": { "name": "General", "name_zh": "综合评测" },
+      "coding": { "name": "Coding", "name_zh": "编程评测" },
+      "agent": { "name": "Agent", "name_zh": "Agent评测" },
+      "reasoning": { "name": "Reasoning", "name_zh": "推理评测" },
+      "chinese": { "name": "Chinese", "name_zh": "中文评测" },
+      "multimodal": { "name": "Multimodal", "name_zh": "多模态评测" },
+      "methodology": { "name": "Methodology", "name_zh": "评测方法论" }
+    }
+  },
+  "rag-knowledge": {
+    "name": "RAG & Knowledge Systems",
+    "name_zh": "RAG 与知识系统",
+    "icon": "📚",
+    "children": {
+      "rag-frameworks": { "name": "RAG Frameworks", "name_zh": "RAG框架" },
+      "vector-db": { "name": "Vector Databases", "name_zh": "向量数据库" },
+      "knowledge-graphs": { "name": "Knowledge Graphs", "name_zh": "知识图谱" },
+      "embedding-reranking": { "name": "Embedding & Reranking", "name_zh": "嵌入与重排序" }
+    }
+  },
+  "inference-serving": {
+    "name": "Inference & Serving",
+    "name_zh": "推理与部署",
+    "icon": "⚡",
+    "children": {
+      "inference-engines": { "name": "Inference Engines", "name_zh": "推理引擎" },
+      "quantization": { "name": "Quantization", "name_zh": "量化" },
+      "on-device-edge": { "name": "On-Device & Edge", "name_zh": "端侧与边缘" },
+      "serving-platforms": { "name": "Serving Platforms", "name_zh": "推理服务平台" }
+    }
+  },
+  "finetuning-training": {
+    "name": "Fine-tuning & Training",
+    "name_zh": "微调与训练",
+    "icon": "🔧",
+    "children": {
+      "methods": { "name": "Methods", "name_zh": "训练方法" },
+      "platforms-tools": { "name": "Platforms & Tools", "name_zh": "平台与工具" },
+      "data": { "name": "Data", "name_zh": "数据工程" }
+    }
+  },
+  "prompt-engineering": {
+    "name": "Prompt Engineering",
+    "name_zh": "提示工程",
+    "icon": "✨",
+    "children": {
+      "techniques": { "name": "Techniques", "name_zh": "提示技术" },
+      "system-prompts": { "name": "System Prompts", "name_zh": "系统提示词" },
+      "jailbreak-safety": { "name": "Jailbreak & Safety", "name_zh": "越狱与安全" }
+    }
+  },
+  "multimodal-ai": {
+    "name": "Multimodal AI",
+    "name_zh": "多模态AI",
+    "icon": "🎨",
+    "children": {
+      "vision-language": { "name": "Vision-Language", "name_zh": "视觉语言" },
+      "image-generation": { "name": "Image Generation", "name_zh": "图像生成" },
+      "video-generation": { "name": "Video Generation", "name_zh": "视频生成" },
+      "audio-speech": { "name": "Audio & Speech", "name_zh": "音频与语音" },
+      "world-models": { "name": "World Models", "name_zh": "世界模型" }
+    }
+  },
+  "ai-products": {
+    "name": "AI Products & Applications",
+    "name_zh": "AI 产品",
+    "icon": "📱",
+    "children": {
+      "chat-assistant": { "name": "Chat & Assistant", "name_zh": "对话助手" },
+      "search": { "name": "Search", "name_zh": "AI搜索" },
+      "writing-content": { "name": "Writing & Content", "name_zh": "写作与内容" },
+      "enterprise": { "name": "Enterprise", "name_zh": "企业AI" },
+      "vertical": { "name": "Vertical", "name_zh": "垂直应用" }
+    }
+  },
+  "industry-strategy": {
+    "name": "Industry & Strategy",
+    "name_zh": "行业与战略",
+    "icon": "🌍",
+    "children": {
+      "funding-valuation": { "name": "Funding & Valuation", "name_zh": "融资与估值" },
+      "big-tech": { "name": "Big Tech Strategy", "name_zh": "大厂战略" },
+      "china-ai": { "name": "China AI Landscape", "name_zh": "国内AI产业" },
+      "oem-device": { "name": "OEM & Device Strategy", "name_zh": "OEM与设备战略" },
+      "regulation": { "name": "Regulation & Policy", "name_zh": "法规与治理" },
+      "market-analysis": { "name": "Market Analysis", "name_zh": "市场分析" }
+    }
+  },
+  "research-papers": {
+    "name": "Research & Papers",
+    "name_zh": "重要论文",
+    "icon": "📝",
+    "children": {
+      "architecture-scaling": { "name": "Architecture & Scaling", "name_zh": "架构与扩展" },
+      "alignment-safety": { "name": "Alignment & Safety", "name_zh": "对齐与安全" },
+      "agents-planning": { "name": "Agents & Planning", "name_zh": "Agent与规划" },
+      "efficiency": { "name": "Efficiency", "name_zh": "效率优化" },
+      "survey-position": { "name": "Survey & Position", "name_zh": "综述与观点" }
+    }
+  },
+  "tutorials-learning": {
+    "name": "Tutorials & Learning",
+    "name_zh": "教程与学习",
+    "icon": "📖",
+    "children": {
+      "getting-started": { "name": "Getting Started", "name_zh": "入门指南" },
+      "best-practices": { "name": "Best Practices", "name_zh": "最佳实践" },
+      "talks-videos": { "name": "Talks & Videos", "name_zh": "演讲与视频" },
+      "newsletters-blogs": { "name": "Newsletters & Blogs", "name_zh": "信息源推荐" }
+    }
+  }
+}
