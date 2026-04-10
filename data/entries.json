@@ -3947,6 +3947,40 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "tbg7zh1f",
+      "title": "重磅！Google Gemma-4-31B 破解版终于发布",
+      "url": "https://x.com/jinglian/status/2041550804998365282",
+      "source": {
+        "platform": "x",
+        "author": "jinglian",
+        "original_date": "2026-04-06"
+      },
+      "category": "models-providers/open-source-models",
+      "tags": [
+        "gemma",
+        "jailbreak",
+        "open-source",
+        "harmbench",
+        "mlx",
+        "apple-silicon",
+        "multimodal"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "Google Gemma-4-31B 出现越狱破解版 Gemma-4-31B-JANG_4M-CRACK，HarmBench 合规率 93.7%（149/159）。基于超洁净基础模型，支持 18GB 混合精度 MLX 量化运行于 Apple Silicon，具备视觉/多模态支持。号称最纯净、最强大的无审查 31B 本地模型，适合研究和编程。",
+      "summary_en": null,
+      "one_liner": "Gemma-4-31B 越狱版又一来源帖，与已有 Lonely__MH 条目高度重复",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "archived",
+      "local_path": "X 文章/2026-04-06-1606-jinglian-Gemma-4-31B-破解版发布.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ]
 }

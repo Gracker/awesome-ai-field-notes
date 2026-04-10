@@ -1,8 +1,8 @@
 {
-  "total_entries": 123,
+  "total_entries": 124,
   "active_entries": 115,
-  "archived_entries": 8,
-  "this_week_added": 123,
+  "archived_entries": 9,
+  "this_week_added": 124,
   "category_distribution": {
     "coding-ai": 38,
     "industry-strategy": 25,
@@ -10,8 +10,8 @@
     "prompt-engineering": 7,
     "agent-os": 7,
     "tutorials-learning": 7,
+    "models-providers": 4,
     "agent-protocols": 4,
-    "models-providers": 3,
     "inference-serving": 3,
     "rag-knowledge": 3,
     "ai-products": 2,
@@ -19,12 +19,12 @@
     "research-papers": 1
   },
   "source_type_distribution": {
-    "x_post": 123
+    "x_post": 124
   },
   "language_distribution": {
-    "zh": 57,
+    "zh": 58,
     "both": 39,
     "en": 27
   },
-  "last_updated": "2026-04-10 13:14"
+  "last_updated": "2026-04-10 13:20"
 }

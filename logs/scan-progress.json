@@ -1,27 +1,10 @@
 {
-  "task": "X文章 scan",
-  "batches": [
-    {
-      "batch": 1,
-      "files": "1-60",
-      "status": "done",
-      "entries_added": 58
-    },
-    {
-      "batch": 2,
-      "files": "61-120",
-      "status": "done",
-      "entries_added": 44
-    },
-    {
-      "batch": 3,
-      "files": "121-188",
-      "status": "pending",
-      "entries_added": 0
-    }
-  ],
-  "total_files": 188,
-  "total_scanned": 120,
-  "total_entries": 102,
-  "last_updated": "2026-04-10"
+  "batch": "3/4",
+  "files_scanned": 60,
+  "entries_added": 21,
+  "entries_skipped_non_ai": 10,
+  "entries_skipped_existing": 9,
+  "entries_skipped_internal_dup": 0,
+  "total_entries": 123,
+  "timestamp": "2026-04-10T13:04:00+08:00"
 }
