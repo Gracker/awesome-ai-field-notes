@@ -33,7 +33,7 @@
 ## 数据
 
 - 结构化数据：[`data/entries.json`](data/entries.json)（Agent 可直接消费）
-- 在线站点：[mdbook 版](https://awesome-ai-field-notes.androidperformance.com/)
+- 在线站点：[godofgpt.com](https://godofgpt.com/)
 - 贡献资源：开 [Issue](../../issues/new/choose)
 
 由 [OpenClaw](https://github.com/openclaw/openclaw) 每日自动维护 — 采集、去重、分类、评分、死链检测、站点生成，全流程无人值守。
