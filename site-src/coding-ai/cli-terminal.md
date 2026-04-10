@@ -1,6 +1,6 @@
 # 命令行工具
 
-CLI & Terminal — 21 条活跃资源
+CLI & Terminal — 30 条活跃资源
 
 ### [Lessons from Building Claude Code: Seeing like an Agent](https://x.com/trq212/status/2027463795355095314) 
 by @Thariq (2026-02-28) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
@@ -184,6 +184,51 @@ Anthropic发布Claude Code auto mode，一种更安全地跳过权限确认的�
  `claude-code` `auto-mode` `safety` `permissions` `anthropic`
 
 ---
+### [Claude Code 之父自爆：Claude Code 的终极用法](https://mp.weixin.qq.com/s/a-KpOYR42DPX0Lr075KFmg?click_id=1) 
+ (2026-01-08) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Claude Code 编程工具相关实践与技巧**
+
+# Claude Code 之父自爆：Claude Code 的终极用法 Boris Cherny 作为 Claude Code 之父，他写了一篇非常详细的推文，分享了自己如何高效使用这款工具！ ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FE6YcKUBEibQGp83WuMkfiaIBCzfmGFRO32J4fAEibvBtDl23E7UK9rT53GoF4ImfMuPU6PCzBFOzKuzbdKRica55qw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D0) 你可能...
+ `[]` `claude`
+
+---
+### [Claude悄悄更新了Skills生成器，这绝对是一次史诗级升级。](https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680550&idx=1&sn=61057f16c042c8ffda4e6e2ebee0def6&chksm=f14c1d732a43c0222af710d1a6ec9e71a481c7c9dcf50cd3e36ad48bc7fa4cd1481c36808a50&mpshare=1&scene=1&srcid=03127RswCJFOPrybSAO3nRQj&sharer_shareinfo=60c22bf2c14cb3a0349503a53069c3dc&sharer_shareinfo_first=60c22bf2c14cb3a0349503a53069c3dc) 
+ (2026-03-12) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**关于Claude悄悄更新了Skills生成器，这绝对是一次史诗级的收藏文章**
+
+# Claude悄悄更新了Skills生成器，这绝对是一次史诗级升级。 上周直播的时候，发现Anthropic的skills仓库居然有更新了。 点进去一看，然后居然发现了一个超级刚需的Skills迎来了更新。 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2F2jjfQoZLoqUhLrqoibibM2xm1gDXVykOQuKxswXfPicIeoBSnA6zmSMhMuRBMnBGfGjakAPP7yDGGgT55icribA3NiabtBvHicWYjkey2ibRJjeQngA%2F640%3Fwx_fmt%3Dpng%26f...
+ `quantization` `anthropic` `[]` `agent` `claude`
+
+---
+### [GitHub - PlexPt/awesome-chatgpt-prompts-zh: ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) 
+ (2023-02-27) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**关于GitHub - PlexPt/awesome-chatgp的收藏文章**
+
+# GitHub - PlexPt/awesome-chatgpt-prompts-zh: ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。 ChatGPT是由OpenAI训练的一款大型语言模型，能够生成类人文本。 官网是 <https://ai.com/> 它能够生成类似于人类写作的文本。您只需要给出提示或提出问题，它就可以生成你想要的东西。 在此页面中，您将找到可与 ChatGPT 一起使用的各种提示。 只需按照README.md文件中的提示输入即可。 点击这里 可以将您自己的调教指南添加到列表中。 同时您也可以从这个文件中获取创作灵感来创建您自己的提示。 如果你想将...
+ `[]` `openai` `prompt` `chatgpt`
+
+---
+### [GitHub - Torantulino/Auto-GPT: An experimental ope...](https://github.com/torantulino/auto-gpt) 
+ (2023-04-13) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Auto-GPT 开源自主 Agent 的早期探索**
+
+# GitHub - Torantulino/Auto-GPT: An experimental ope... Auto-GPT: An Autonomous GPT-4 Experiment 💡 Get help - Q\&A or Discord 💬 🔴 USE `stable` not `master` 🔴 Download the latest `stable` release from here: <https://github.com/Significant-Gravitas/Auto-GPT/releases/latest>. The `master` branch is und...
+ `gpt-4` `[]` `llm`
+
+---
+### [GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents](https://github.com/vercel-labs/agent-browser) 
+ (2026-01-13) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏: GitHub - vercel-labs/agent-browser: Browser automa**
+
+# GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents Browser automation CLI for AI agents. Contribute to vercel-labs/agent-browser development by creating an account on GitHub. Headless browser automation CLI for AI agents. Fast Rust CLI with Node.js fallback. npm install -g ag...
+ `agent` `[]` `rag`
+
+---
 ### [oh my codex 使用教程](https://x.com/oragnes/status/2041876228949602347) 
 by @oragnes (2026-04-06) | ⭐⭐⭐ 3/5 | 🇨🇳
 
@@ -278,5 +323,41 @@ by @凡人小北 (2026-03-06) | ⭐⭐⭐ 3/5 | 🌍
 
 社区整理的Claude Code最佳实践指南，覆盖基础操作、常用命令、工作流配置、常见问题解答等。适合Claude Code新手快速上手参考。
  `claude-code` `best-practices` `tutorial` `cli`
+
+---
+### [Claude刚登顶，OpenAI就放出24小时不休息的编程AI，谁才是最强？](https://mp.weixin.qq.com/s/s31XsURGnSgpEK_RPnYB5g) 
+ (2025-12-06) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**关于Claude刚登顶，OpenAI就放出24小时不休息的编程A的收藏文章**
+
+# Claude刚登顶，OpenAI就放出24小时不休息的编程AI，谁才是最强？ ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FAG8L8wHialacMvjOhd5EIVojyoD7Rq74AK1riaDyiaFbYEnNL7q10W6Nr5FmrhCl7BAlLPjibEmLfY7gBOwUAQSCCw%2F300%3Fwx_fmt%3Dpng%26wxfrom%3D19&valid=false) 提供前沿、深入的AI知识与切实可行的应用技巧。 助你掌握AI核心概念、理解行业趋势，并将理论转化为实践。 2025年，AI领域出现...
+ `deepseek` `[]` `agent` `openai` `codex` `inference` `ai编程` `claude`
+
+---
+### [DeepSeek 赋能 A 股交易：用 AI 让你快人一步！](https://mp.weixin.qq.com/s/d5QjUdnRKBfMjOgldRGA0A) 
+ (2025-03-17) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**关于DeepSeek 赋能 A 股交易：用 AI 让你快人一步！的收藏文章**
+
+# DeepSeek 赋能 A 股交易：用 AI 让你快人一步！ 在这个信息爆炸的时代，A 股市场的风云变幻让人眼花缭乱。涨跌之间，机会与风险并存，而 真正的赢家，往往是那些能最快掌握市场动态的人。但问题是，你能看完每天几千条财经新闻？能分析市场情绪变化的细微波动？能精准判断哪些热点概念即将爆发？ Hello，大家好！我是X上的Bob。最近我自己利用deepseek分析市场和个股的工具在X引起了不少关注，也和一批又一批的推友进行了不同程度的交流。好多推友对此非常感兴趣，索性我就在深夜码字，把大家感兴趣的内容全部记录下来，分享出去。 在这个信息爆炸的时代，A 股市场的风云变幻让人眼花缭乱。涨跌之...
+ `deepseek` `[]` `prompt` `chatgpt`
+
+---
+### [GitHub - HW-whistleblower/True-Story-of-Pangu: 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。](https://github.com/HW-whistleblower/True-Story-of-Pangu) 
+ (2025-07-06) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**关于GitHub - HW-whistleblower/True的收藏文章**
+
+# GitHub - HW-whistleblower/True-Story-of-Pangu: 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。. Contribute to HW-whistleblower/True-Story-of-Pangu development by creating an account on GitHub. 盘古之殇：华为诺亚盘古大模型研发历程的心酸与黑暗 我是一名盘古大模型团队，华为诺亚方舟实验室的员工。 1. 现诺亚主任，前算法应用部部长，后改名为小模型实验室的主任王云鹤。前诺亚主任：姚骏（大家称姚老师）。...
+ `embedding` `[]` `大模型`
+
+---
+### [GitHub - knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang: 讨贼王云鹤檄文](https://github.com/knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang?s=09) 
+ (2025-07-08) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**关于GitHub - knemik97/Manifesto-ag的收藏文章**
+
+# GitHub - knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang: 讨贼王云鹤檄文 讨贼王云鹤檄文. Contribute to knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang development by creating an account on GitHub. 文章license和Qwen一样，apache-2.0。 王云鹤，1991年生于黑龙江。2018年博士毕业进入华为，经历不到7年时间，于2025年2月中旬，从小模型实验室主任任上，正式顶替姚骏，被任命为诺亚方舟...
+ `deepseek` `[]` `大模型`
 
 ---

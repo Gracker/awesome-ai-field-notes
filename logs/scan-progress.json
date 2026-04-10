@@ -1,5 +1,19 @@
 {
-  "last_scan": "2026-04-10",
+  "last_scan": {
+    "date": "2026-04-10",
+    "directories_scanned": [
+      "DeepResearch",
+      "Claude",
+      "Claude Code 文档",
+      "AutoResearchClaw研究",
+      "Manus"
+    ],
+    "files_scanned": 81,
+    "entries_added": 24,
+    "entries_skipped": 0,
+    "total_entries": 191,
+    "commit": "3189e7c"
+  },
   "directory": "调研/",
   "scanned": 39,
   "imported": 12,

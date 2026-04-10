@@ -1,33 +1,38 @@
 {
-  "total_entries": 191,
-  "active_entries": 176,
-  "archived_entries": 15,
-  "this_week_added": 191,
+  "total_entries": 351,
+  "active_entries": 320,
+  "archived_entries": 31,
+  "this_week_added": 351,
   "category_distribution": {
-    "coding-ai": 47,
-    "agent-frameworks": 46,
+    "coding-ai": 101,
+    "agent-frameworks": 51,
+    "tutorials-learning": 44,
     "industry-strategy": 26,
-    "tutorials-learning": 18,
+    "agent-protocols": 26,
+    "prompt-engineering": 22,
+    "models-providers": 17,
     "research-papers": 15,
+    "inference-serving": 9,
     "agent-os": 9,
-    "prompt-engineering": 7,
-    "inference-serving": 5,
-    "agent-protocols": 5,
-    "models-providers": 4,
-    "ai-products": 4,
-    "rag-knowledge": 3,
-    "uncategorized": 1,
-    "benchmarks-evals": 1
+    "rag-knowledge": 8,
+    "finetuning-training": 8,
+    "ai-products": 6,
+    "multimodal-ai": 5,
+    "benchmarks-evals": 3,
+    "uncategorized": 1
   },
   "source_type_distribution": {
+    "article": 168,
     "x_post": 124,
-    "article": 36,
-    "paper": 31
+    "paper": 33,
+    "github": 14,
+    "newsletter": 9,
+    "video": 3
   },
   "language_distribution": {
-    "zh": 119,
-    "both": 41,
-    "en": 31
+    "zh": 234,
+    "en": 72,
+    "both": 45
   },
-  "last_updated": "2026-04-10 13:52"
+  "last_updated": "2026-04-10 14:28"
 }

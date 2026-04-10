@@ -1,6 +1,6 @@
 # 入门指南
 
-Getting Started — 7 条活跃资源
+Getting Started — 9 条活跃资源
 
 ### [Don't Waste Your Money on OpenClaw Until You've Done These 3 Things](https://x.com/milesdeutscher/status/2026037201591787801) 
 by @Miles Deutscher (2026-02-25) | ⭐⭐⭐⭐ 4/5 | 🌐
@@ -27,6 +27,42 @@ by @hoeem (2026-03-05) | ⭐⭐⭐⭐ 4/5 | 🌐
 
 一篇 4800+ 字的 AI 工程师全栈学习指南，提出三层架构：Prompt Engineering（微语法，控制即时指令）→ Context Engineering（乘数，MCP + Context as Code + RAG 管道）→ Intent Engineering（差异化，组织目标编码）。用 Klarna 客服 AI 的失败案例（节省 $60M 但因 intent gap 被迫重新雇人）论证意图工程的重要性。提供 7 组件意图框架和大量可复用 prompt 模板，覆盖结构化格式、Few-Shot、CoT、元提示词、上下文审计、RAG 架构设计、MCP Server 蓝图等。
  `AI工程` `Prompt Engineering` `Context Engineering` `Intent Engineering` `MCP` `RAG`
+
+---
+### [Android×AI 技术刊#第11期——都是Android技术文](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650855010&idx=1&sn=653a5ee852cc1b087fe55fe5357aeec3&chksm=81fdcdc4754edaaccc61e4aff668ce33eff6390d0fad8ed0cbc85a23abc7557345aef8bf284a&mpshare=1&scene=1&srcid=0617VAUMUcL9legKvk0jq3zI&sharer_shareinfo=6f00f738a6a0a7d20b0d6bfc8373e244&sharer_shareinfo_first=6f00f738a6a0a7d20b0d6bfc8373e244) 
+ (2025-06-17) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Android × AI 交叉领域收藏**
+
+Android×AI 技术刊#第11期——都是Android技术文
+Read in Cubox  
+Read Original
+**本周 Android 技术动态聚焦三大核心方向：**
+**跨端框架突破** ：
+腾讯视频开源 **ovCompose 框架** ，实现 Android/iOS/鸿蒙**三端一码** 开发，基于 Compose Multiplatform 深度优化性能与原生混排能力；
+货拉拉开源 **TheRouter 鸿蒙路由** ，支持跨模块解耦与动态路由表下发。
+**性能优化实践** ：
+手机系统 **D-Vsync 渲染管线优化方案** 发布，实测掉帧率**降低 72.7%** ，功耗仅微增 0.13%；
+Flutter 复现 iOS 26 **"液态玻璃"效果** ，解析着色器与扭曲算法实现难点。
+ `Android` `Performance`
+
+---
+### [Android×鸿蒙×AI 技术刊#第14期——Compose动画深度解析、KMP多端实践落地、Android 16适配指南](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650855096&idx=1&sn=688c59c8edea33ba98cb03af0f61e51f&chksm=81face25ece90eee91041797c0bdf9f2adaceb9ac3f2c77b1f812fd96eecb89e5a9a733a27ad&mpshare=1&scene=1&srcid=070719TlWDjdxhX9yG4Y2aSq&sharer_shareinfo=3d4eb03316b182ebd8324807da5dc1bb&sharer_shareinfo_first=3d4eb03316b182ebd8324807da5dc1bb) 
+ (2025-07-07) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Android × AI 交叉领域收藏**
+
+Android×鸿蒙×AI 技术刊#第14期——Compose动画深度解析、KMP多端实践落地、Android 16适配指南
+Read in Cubox  
+Read Original
+**本周 Android 生态聚焦 UI 框架、跨平台方案与系统适配三大核心领域：**
+Compose 技术进阶
+共享元素动画剖析：解析 sharedElement() 与 sharedBounds() 的精准应用场景与渲染差异（ScaleToBounds vs RemeasureToBounds）；
+Modifier 底层机制：Slot Table 存储结构与重组优化策略全解读。
+**跨平台方案落地**
+**B站 KMP 实战：Bazel 构建 + FlowRedux 状态机实现** **三端逻辑层共享** （Android/iOS/鸿蒙）；
+Flutter 鸿蒙热...
+ `Android`
 
 ---
 ### [新手劝退 OpenClaw：99% 的人根本不需要它](https://x.com/LawrenceW_Zen/article/2026872793187627276) 

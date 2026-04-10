@@ -1,6 +1,6 @@
 # 🤖 Agent 框架
 
-Agent Frameworks & Libraries — 共 44 条活跃资源
+Agent Frameworks & Libraries — 共 48 条活跃资源
 
 ## 编排框架 (31)
 
@@ -36,10 +36,14 @@ Agent Frameworks & Libraries — 共 44 条活跃资源
 - [Agent实践知识图谱](#) by @高爷 — 实操导向的Agent知识图谱，从记忆、自我改进、工具、框架四个维度梳理可执行实践 `agent` `记忆系统` `自我改进` `LangGraph` `CrewAI` 🇨🇳
 - [OpenClaw深度调研报告](https://github.com/openclaw/openclaw) — OpenClaw架构全景调研，涵盖Agent/Memory/MCP/Skills核心机制 `openclaw` `agent` `deep-research` `architecture` `mcp` 🇨🇳
 
-## 单Agent框架 (2)
+## 单Agent框架 (6)
 
 - [Hermes 从 0 到 1 教程](https://x.com/Pluvio9yte/status/2041571378021986486) by @Pluvio9yte — Nous Research 开源自改进 Agent 框架，内置持久记忆与 Skill 进化 `hermes` `nous-research` `self-improving` `agent` `memory` 🇨🇳
+- [AI 正在推动程序员的进化，而不是灭亡 | 宝玉的分享](https://baoyu.io/blog/ai-is-evolving-programmers) — Cubox 收藏文章，single-agent 领域相关内容 `ChatGPT` `Agent` 🇨🇳
+- [AI 重构软件工程：OpenAI Harness Engineering，程序员不写代码的时代来了](https://mp.weixin.qq.com/s?__biz=MzIxMzE2OTA1NA==&mid=2247504549&idx=1&sn=1960d1b4f5adc272beafe02769b70080&chksm=9662df573f9f31d5e66ca65058639cc344e2a32d8650454025313de92c8dead3c053a30c7101&mpshare=1&scene=1&srcid=0310AcGnRt8mXm5THdB5S6Y3&sharer_shareinfo=8ce3a2d537351730960ccb449abb2755&sharer_shareinfo_first=d7497129c2be0b41a6e58b76c66a5a05) — Cubox 收藏文章，single-agent 领域相关内容 `OpenAI` `Agent` `RAG` 🇨🇳
+- [Anthropic：我们如何构建多智能体研究系统](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247489816&idx=1&sn=989928020101777361b9c63b8dbffe55&chksm=c20cbcb2151edc3ac638589b0596dd4fe44cd919c177b6033ee9dcefb168fe0edd78c4e5bebb&mpshare=1&scene=1&srcid=0618VxXV1qhfuDCmQJUMYfMO&sharer_shareinfo=da3ecd986cd6fcfad23734ec74fa6282&sharer_shareinfo_first=cd4cf214372e755c614fa457c6332cda) — 关于 AI Agent 的收藏文章 `Claude` `Anthropic` `Inference` `Performance` 🇨🇳
 - [Trace2Skill](https://arxiv.org/abs/2603.25158) — LLM 推理能力增强的新方法 `obsidian` `fine-tuning` `agent` `llm` `paper` 🇨🇳
+- [Android 系统上 AI Agent 的一些可能性](https://mp.weixin.qq.com/s?__biz=MjM5Njg5ODU2NA==&mid=2257503010&idx=1&sn=a1337986bbada15f63dbe267d3eed8b4&chksm=a4d3255f3f334e0c66fe400364a60299207afff6b4439a6478704ac5176681af7eaa202627af&mpshare=1&scene=1&srcid=1205CnGTws2OF7LnyRN95gYS&sharer_shareinfo=39c2afd703555e8ad0b770170b5eba98&sharer_shareinfo_first=564c134774d8cff2fe4b03464d899095) — 关于 AI Agent 的收藏文章 `Agent` `Android` `AI Safety` 🇨🇳
 
 ## 多Agent框架 (10)
 
