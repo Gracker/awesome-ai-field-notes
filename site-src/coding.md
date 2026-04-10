@@ -2,10 +2,10 @@
 
 IDE / CLI / 代码审查 / 工作流 — 共 **152** 条活跃资源
 
-## 📅 今天
+## 📅 昨天
 
-### [The third era of AI software development](https://x.com/mntruell/article/2026736314272591924)
-@Michael Truell · ⭐⭐⭐⭐⭐5 🌐 · 今天
+### [The third era of AI software development](/entry/tcmvafdf) 📄
+@Michael Truell · ⭐⭐⭐⭐⭐5 🌐 · 昨天
 
 Cursor CEO 定义 AI 编码三个时代：第一时代 Tab 自动补全、第二时代同步 Agent（提示→响应循环）、第三时代独立云 Agent（长任务自主完成）。Cursor 超 1/3 的 PR 由云端自主 Agent 创建。云 Agent 在独立虚拟机运行，交付日志/视频/预览而非 diff。人类角色从逐行指导变为定义问题和设置审查标准。
 
@@ -13,8 +13,8 @@ Cursor CEO 定义 AI 编码三个时代：第一时代 Tab 自动补全、第二
 
 ---
 
-### [Lessons from Building Claude Code: Seeing like an Agent](https://x.com/trq212/status/2027463795355095314)
-@Thariq · ⭐⭐⭐⭐⭐5 🌐 · 今天
+### [Lessons from Building Claude Code: Seeing like an Agent](/entry/9kc59m51) 📄
+@Thariq · ⭐⭐⭐⭐⭐5 🌐 · 昨天
 
 Claude Code 核心开发者分享构建经验。设计 Agent 工具的关键框架：想象自己面对数学题——纸笔（基础但受限）→计算器（更好但需知识）→电脑（最快最强但需技能）。工具要匹配 Agent 能力。AskUserQuestion 工具的三次迭代：修改 ExitPlanTool（Claude 困惑）→修改输出格式（不可靠）→独立工具（成功，可引导结构化输出、确保多选项、支持 SDK/Skill 集成）。
 
@@ -23,7 +23,7 @@ Claude Code 核心开发者分享构建经验。设计 Agent 工具的关键框�
 ---
 
 ### [从 Vibe Coding 到 Agentic Engineering：开发者角色正在重写](https://x.com/yanhua1010/status/2028737821855580662)
-@yanhua1010 · ⭐⭐⭐⭐⭐5  · 今天
+@yanhua1010 · ⭐⭐⭐⭐⭐5  · 昨天
 
 **By @yanhua1010** (Yanhua) · Tue Mar 03 07:42:43 +0000 2026
 📊 ❤️ 54 🔁 8 🔖 55 👁️ 4,683 💬 1
@@ -44,7 +44,7 @@ Claude Code 团队讲了一个特别生动的类比。
 ---
 
 ### [2026-03-05-0817-vista8-CC-Switch-Jason-Story-2027765124828905529](https://x.com/vista8/article/2027765124828905529")
-@vista8 · ⭐⭐⭐⭐⭐5  · 今天
+@vista8 · ⭐⭐⭐⭐⭐5  · 昨天
 
 如果你用Claude Code，大概率用过CC Switch这个软件。
 **今天邀请作者直播，了解工具背后的故事（以下内容由AI生成）**
@@ -63,7 +63,7 @@ Claude Code 团队讲了一个特别生动的类比。
 ---
 
 ### [The Ultimate Beginner&#x27;s Guide to Claude (March 2026)](https://x.com/aiedge_/status/2029233676111008061)
-@AIEdge · ⭐⭐⭐⭐⭐5  · 今天
+@AIEdge · ⭐⭐⭐⭐⭐5  · 昨天
 
 &gt; Source: [@aiedge_](https://x.com/aiedge_)
 The only guide you need to master Claude from zero.
@@ -78,7 +78,7 @@ Last week, Anthropic shipped its best suite of Claude features yet. If you&#x27;
 ---
 
 ### [Claude 终极入门指南：100 小时实测，一篇讲透](https://x.com/yanhua1010/status/2029748928091148665)
-@Yanhua · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@Yanhua · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
 
 **By @yanhua1010** (Yanhua) · Fri Mar 06 02:40:30 +0000 2026
 📊 ❤️ 145 🔁 43 🔖 259 👁️ 10,204 💬 1
@@ -94,7 +94,7 @@ Last week, Anthropic shipped its best suite of Claude features yet. If you&#x27;
 ---
 
 ### [How I&#x27;d Become a Quant If I Had to Start Over Tomorrow](https://x.com/gemchange_ltd/status/2028904166895112617)
-@gemchanger · ⭐⭐⭐⭐⭐5 🌐 · 今天
+@gemchanger · ⭐⭐⭐⭐⭐5 🌐 · 昨天
 
 **By @gemchange_ltd** (gemchanger) · Tue Mar 03 18:43:43 +0000 2026
 📊 ❤️ 11,346 🔁 1,198 🔖 42,679 👁️ 6,361,106 💬 159
@@ -110,7 +110,7 @@ Every concept builds on the last.
 ---
 
 ### [Your LLM Doesn&#x27;t Write Correct Code. It Writes Plausible Code.](https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code)
-@Hōrōshi バガボンド · ⭐⭐⭐⭐⭐5 🌐 · 今天
+@Hōrōshi バガボンド · ⭐⭐⭐⭐⭐5 🌐 · 昨天
 
 通过一个极端案例（LLM 重写的 Rust SQLite 实现比原版慢 20,171 倍）揭示 LLM 生成代码的核心问题：优化表面正确性而非实际正确性。详细拆解了两个关键 Bug（缺失 ipk 检查导致 O(n²) vs O(log n)、每次语句都 fsync），以及五个复合性能问题。引用 METR 随机对照试验（AI 用户慢 19%）、GitClear 分析（复制粘贴首次超过重构）等研究，论证 LLM 的 sycophancy 问题。结论：代码不是你的，直到你能自己找到其中的 bug。
 
@@ -119,7 +119,7 @@ Every concept builds on the last.
 ---
 
 ### [ClaudeCode 源码深度研究报告](https://x.com/tvytlx/status/2038939480892346699)
-@Xiao Tan · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@Xiao Tan · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
 
 从 Claude Code 泄露的 npm 包中提取 4756 个源码文件的深度拆解。核心发现：system prompt 是动态拼装的（静态宪法 + 动态当期政策），有 cache 边界设计（SYSTEM_PROMPT_DYNAMIC_BOUNDARY）优化 token 经济学；6 个内建 Agent（General、Explore 只读、Plan 只读、Verification adversarial、Guide、Statusline），实现者与验证者分离；工具调用经过 14 步 pipeline（输入校验→风险预判→权限决策→Hook→执行→post-processing）；三套扩展机制（Skill/Plugin/MCP）都让模型感知到自己的能力清单。五条设计原则：不信任模型自觉性、角色拆开、工具治理、上下文是预算、生态关键是模型感知。
 
@@ -128,14 +128,14 @@ Every concept builds on the last.
 ---
 
 ### [What Is ChatGPT Doing … and Why Does It Work?—Stephen Wolfram Writings](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/?s=09)
-⭐⭐⭐⭐⭐5 🌐 · 今天
+⭐⭐⭐⭐⭐5 🌐 · 昨天
 
 [需翻译] What Is ChatGPT Doing … and Why Does It Work?—Stephen Wolfram Writings
 
 ---
 
 ### [Waza：AI 时代工程师的 8 个核心技能工具集](https://x.com/HiTw93/status/2041053321851789629)
-@HiTw93 · ⭐⭐⭐⭐4 🇨🇳 · 今天
+@HiTw93 · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 作者开源了 Waza 技能集（日语&quot;技&quot;），包含 8 个核心 skill（/think、/design、/hunt、/check、/read、/write、/learn、/health），对应他认为 AI 时代工程师应具备的 8 个能力：会思考、会设计、会排查、会检查、会阅读、会写作、会学习、会维护。强调简单好用、清楚 Agent 在做什么，不多不少刚好够用。
 
@@ -144,7 +144,7 @@ Every concept builds on the last.
 ---
 
 ### [What spec-driven development gets wrong](https://x.com/augmentcode/status/2025993446633492725)
-@Augment Code · ⭐⭐⭐⭐4 🌐 · 今天
+@Augment Code · ⭐⭐⭐⭐4 🌐 · 昨天
 
 规范驱动开发比临时提示词更好，但若规范是静态文档仍会失败。过期设计文档误导工程师，过期规范误导 Agent 自信地做错事。Augment Code 的解法是&quot;共维护&quot;：人和 Agent 都从同一份规范读取并回写更新。执行前由协调 Agent 拆任务，执行中 Agent 持续回写新发现。核心结论：既然 Agent 能写代码，也应该维护计划本身。
 
@@ -153,7 +153,7 @@ Every concept builds on the last.
 ---
 
 ### [Codex, in Plain English](https://x.com/gabrielchua/article/2026832978056458383)
-@Gabriel Chua · ⭐⭐⭐⭐4 🌐 · 今天
+@Gabriel Chua · ⭐⭐⭐⭐4 🌐 · 昨天
 
 面向非程序员的 Codex 解释：大多数计算机工作是手动操作软件（点击菜单、复制粘贴、拖文件），理论上都可自动化但需要写代码。Codex 是 OpenAI 的编码 Agent，用自然语言描述需求，它能拆步骤、选工具、写代码、运行、交付结果。不再是程序员的专利，而是通用数字工作工具。
 
@@ -162,7 +162,7 @@ Every concept builds on the last.
 ---
 
 ### [Superpowers: 编码 Agent 的完整软件开发生命周期工作流](https://github.com/obra/superpowers)
-@Obra · ⭐⭐⭐⭐4 🌐 · 今天
+@Obra · ⭐⭐⭐⭐4 🌐 · 昨天
 
 完整的编码 Agent 软件开发工作流。先澄清目标、从对话抽取规格、设计拆成小段落确认。确认后生成遵循 TDD/YAGNI/DRY 的实现计划，再通过子 Agent 执行并进行分阶段审查。Claude 可自主工作数小时不偏离计划。支持 Claude Code、Cursor、Codex、OpenCode。技能自动触发，不需要特殊操作。
 
@@ -171,7 +171,7 @@ Every concept builds on the last.
 ---
 
 ### [Claude Code + Codex 双模型审查流程](https://x.com/runes_leo/status/2027269214524903892)
-@Leo · ⭐⭐⭐⭐4 🇨🇳 · 今天
+@Leo · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 写代码的模型永远不负责审自己的代码。Claude Code 跑 Opus 4.6 写完功能，通过 MCP 协议接入 Codex MCP Server 让 Codex 审查。审完列问题，回到 Opus 逐个修，循环到没新问题。原理：自己写的东西自己审永远有盲区，换一个不同思路的 AI 审你的 AI。成本多一轮对话的钱但省掉的返工时间远超。
 
@@ -180,7 +180,7 @@ Every concept builds on the last.
 ---
 
 ### [Claude Code 核心开发者分享：构建 Claude Code 的经验教训——像 Agent 一样看世界](https://x.com/fkysly/status/2027610329530712204)
-@马天翼 · ⭐⭐⭐⭐4 🇨🇳 · 今天
+@马天翼 · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 Thariq 原文的中文翻译。构建 agent 框架最难的部分是设计行动空间。工具设计要匹配 Agent 能力（纸笔→计算器→电脑的类比）。AskUserQuestion 工具三次迭代：修改 ExitPlanTool（Claude 困惑）→修改输出格式（不可靠）→独立工具（成功）。最终方案可引导结构化输出、确保多选项、支持 SDK 集成。
 
@@ -189,7 +189,7 @@ Thariq 原文的中文翻译。构建 agent 框架最难的部分是设计行动
 ---
 
 ### [130万次下载，2万Star开源项目CC Switch，36岁转行程序员Jason的第一个作品](https://x.com/wey_gu/status/2027772306458812757)
-@Wey Gu · ⭐⭐⭐⭐4 🇨🇳 · 今天
+@Wey Gu · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 CC Switch 是 Claude Code 的供应商管理和切换工具，GitHub 2 万 Star、130 万下载。作者 Jason 36 岁从进出口贸易转行编程，花 3 个月学 TypeScript/React/Node/Rust 后做出第一个项目。核心设计理念&quot;侵入性最小&quot;——即使卸载也不影响正常使用。从 Electron 重构为 Tauri（从 80MB→更轻量），编程语言从 TypeScript 转 Rust。第一版一周完成。
 
@@ -198,7 +198,7 @@ CC Switch 是 Claude Code 的供应商管理和切换工具，GitHub 2 万 Star�
 ---
 
 ### [从 MCP 到 SKILL：关于 Agent 扩展机制的思考](https://x.com/jolestar/status/2011461813767155828)
-@jolestar · ⭐⭐⭐⭐4  · 今天
+@jolestar · ⭐⭐⭐⭐4  · 昨天
 
 从 MCP 到 SKILL：关于 Agent 扩展机制的思考
 去年 MCP 爆火，大家一度有种感觉：只要把工具都接进来，AI Agent 就会“活”过来，像一个长了手脚的人，什么都能干。
@@ -214,7 +214,7 @@ MCP（Model Context Protocol）把这套机制做成了“标准插头”：以�
 ---
 
 ### [2026-03-02-0810-karpathy-AI-changed-programming-last-two-months-2026731645169185220](https://x.com/karpathy/status/2026731645169185220)
-@karpathy · ⭐⭐⭐⭐4  · 今天
+@karpathy · ⭐⭐⭐⭐4  · 昨天
 
 It is hard to communicate how much programming has changed due to AI in the last 2 months... coding agents basically did not work before December.
 过去两个月里，AI 对编程方式的改变非常剧烈；在作者看来，去年 12 月前后是关键拐点，编码代理开始真正可用。
@@ -226,7 +226,7 @@ Boundary: this is expert observation, not a controlled benchmark; validate with 
 ---
 
 ### [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU")
-@NevaMindAI · ⭐⭐⭐⭐4  · 今天
+@NevaMindAI · ⭐⭐⭐⭐4  · 昨天
 
 memU is a memory framework designed for always-on proactive agents, with the goal of reducing token costs and preserving long-term user context across sessions.
 memU 是一个面向 24/7 主动式 Agent 的记忆框架，目标是在跨会话场景下降低 token 成本并保留长期用户上下文。
@@ -238,7 +238,7 @@ It models memory like a file system (resources, items, categories), making memor
 ---
 
 ### [X-PLUG/MobileAgent](https://github.com/X-PLUG/MobileAgent")
-@XPLUG · ⭐⭐⭐⭐4  · 今天
+@XPLUG · ⭐⭐⭐⭐4  · 昨天
 
 MobileAgent is Alibaba Tongyi Lab’s GUI-agent project family, covering mobile, desktop, and browser automation through the GUI-Owl model line and multi-agent workflows.
 MobileAgent 是阿里通义实验室的 GUI Agent 项目家族，通过 GUI-Owl 模型系与多 Agent 工作流覆盖移动端、桌面端与浏览器自动化。
@@ -250,7 +250,7 @@ The repository serves as a unified hub of papers, code, demos, and benchmark upd
 ---
 
 ### [2026-03-04-0813-brucexu_eth-Deep-Research-盲测-ChatGPT-5.2-Pro-vs-Clau-2028796588039262505](https://x.com/brucexu_eth/status/2028796588039262505)
-@brucexu_eth · ⭐⭐⭐⭐4 🇨🇳 · 今天
+@brucexu_eth · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 **@brucexu_eth** (brucexu.eth ❤️🐼🦇🔊)
 🕐 Tue Mar 03 11:36:14 +0000 2026
@@ -264,7 +264,7 @@ The repository serves as a unified hub of papers, code, demos, and benchmark upd
 ---
 
 ### [Investigating how Codex context compaction works](https://x.com/Kangwook_Lee/status/2028955292025962534)
-@Kangwook_Lee · ⭐⭐⭐⭐4  · 今天
+@Kangwook_Lee · ⭐⭐⭐⭐4  · 昨天
 
 **By @Kangwook_Lee** (Kangwook Lee) · Tue Mar 03 22:06:52 +0000 2026
 **@Kangwook_Lee**（Kangwook Lee）· 3 月 3 日星期二 22:06:52 +0000 2026
@@ -278,7 +278,7 @@ For non-codex models, the open-source Codex CLI compacts context locally: an LLM
 ---
 
 ### [2026-03-04-1609-xin_pai88825-Vibe-Coding-高效工具清单-Codex-Paper-21st-Unicorn-Agentation-Axion-Apple-Docs-2029027642616496194](https://x.com/xin_pai88825/status/2029027642616496194)
-@xin_pai88825 · ⭐⭐⭐⭐4  · 今天
+@xin_pai88825 · ⭐⭐⭐⭐4  · 昨天
 
 **@xin_pai88825** (Paidax)
 🕐 Wed Mar 04 02:54:22 +0000 2026
@@ -299,7 +299,7 @@ For non-codex models, the open-source Codex CLI compacts context locally: an LLM
 ---
 
 ### [2026-03-04-2010-centurybbx-Writing-about-Agentic-Engineering-Patterns-2028322864798331292](https://x.com/centurybbx/status/2028322864798331292)
-@centurybbx · ⭐⭐⭐⭐4  · 今天
+@centurybbx · ⭐⭐⭐⭐4  · 昨天
 
 I’ve started a new project to collect and document Agentic Engineering Patterns—coding practices and patterns to help get the best results out of this new era of coding agent development we find ourselves entering.
 我启动了一个新项目，专门收集和整理 Agentic Engineering Patterns（代理式工程模式）——这是一套编码实践与方法，用来帮助我们在这个“代码智能体开发”新时代中获得更好的结果。
@@ -309,7 +309,7 @@ I’ve started a new project to collect and document Agentic Engineering Pattern
 ---
 
 ### [BestBlogs.dev 第 85 期：驾驭工程](https://x.com/hongming731/article/2029843882037715433)
-@ginobefun · ⭐⭐⭐⭐4 🇨🇳 · 今天
+@ginobefun · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 BestBlogs.dev 第 85 期以&quot;驾驭工程&quot;为核心关键词，提出开发者核心工作正从写代码转向构建 Agent 运行所依赖的驾驭工程体系。涵盖 GPT-5.4 发布（首次将推理、编程、计算机操作、深度搜索整合进单一模型）、Qwen3.5 小模型、FireRed-OCR、Martin Fowler 博客上关于 Harness Engineering 的系统性讨论（人在回路上 vs 人在回路中）、以及 Anthropic 设计负责人 Jenny Wen 对设计流程变革的判断。核心结论：执行力不再稀缺，稀缺的是知道该做什么以及判断什么是好的。
 
@@ -318,7 +318,7 @@ BestBlogs.dev 第 85 期以&quot;驾驭工程&quot;为核心关键词，提出�
 ---
 
 ### [My Chief of Staff, Claude Code](https://x.com/jimprosser/article/2029699731539255640)
-@Jim Prosser · ⭐⭐⭐⭐4 🌐 · 今天
+@Jim Prosser · ⭐⭐⭐⭐4 🌐 · 昨天
 
 一位非程序员的技术传播顾问用 Claude Code 在 36 小时内构建了完整的个人幕僚长系统：隔夜自动扫描日历和邮件、早晨 6:15 任务分类（绿/黄/红/灰四档）、6 个子 Agent 并行处理（邮件起草、Obsidian 客户笔记、会议安排、背景研究）、Stream Deck 一键时间块调度。核心设计原则：dispatch/prep/yours/skip 框架，系统从不发送邮件只起草，关键战略文档 100% 人工。月成本仅 $5-10 增量。文章价值在于展示了一个非程序员如何用系统思维（而非编程能力）设计 AI 自动化架构。
 
@@ -327,7 +327,7 @@ BestBlogs.dev 第 85 期以&quot;驾驭工程&quot;为核心关键词，提出�
 ---
 
 ### [How Coding Agents Are Reshaping Engineering, Product and Design](https://x.com/hwchase17/status/2031051115169808685)
-@Harrison Chase · ⭐⭐⭐⭐4 🌐 · 今天
+@Harrison Chase · ⭐⭐⭐⭐4 🌐 · 昨天
 
 LangChain 创始人 Harrison Chase 分析 Coding Agent 对工程、产品、设计三大职能的重塑：PRD 流程已死（不再需要 PRD→Mock→Code 的瀑布流），瓶颈从实现转向审查，通用型人才比以往更有价值。核心框架：Builder（用好 coding agent + 产品思维 + 基础设计直觉）vs Reviewer（深度系统思维 + 快速审查能力）。关键判断：coding agent 是必需品而非可选品；好人更好，坏人更坏（差的产品想法现在能快速产生原型但浪费更多审查资源）；系统思维是关键差异化能力。
 
@@ -336,7 +336,7 @@ LangChain 创始人 Harrison Chase 分析 Coding Agent 对工程、产品、设�
 ---
 
 ### [Claude Code .claude/ 文件夹完全指南](https://x.com/akshay_pachaar/status/2035341800739877091)
-@Akshay Pachaar · ⭐⭐⭐⭐4 🌐 · 今天
+@Akshay Pachaar · ⭐⭐⭐⭐4 🌐 · 昨天
 
 Claude Code .claude/ 文件夹的完整解剖指南：项目级 vs 全局级两个目录、CLAUDE.md（200 行以内，只写项目特有内容）、rules/（路径范围规则模块化）、commands/（自定义斜杠命令，支持嵌入 shell 命令和参数）、skills/（自动触发工作流，与 commands 区别是自动识别触发）、agents/（独立上下文窗口的子 agent，可限制工具和指定模型）、settings.json（allow/deny 权限控制）。推荐：95% 的项目只需要 CLAUDE.md + settings.json + 1-2 个 commands。
 
@@ -345,7 +345,7 @@ Claude Code .claude/ 文件夹的完整解剖指南：项目级 vs 全局级两�
 ---
 
 ### [你不知道的 Claude Code：架构、治理与工程实践](https://x.com/hitw93/status/2032091246588518683)
-@Tw93 · ⭐⭐⭐⭐4 🇨🇳 · 今天
+@Tw93 · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 Tw93基于半年深度使用Claude Code的踩坑总结。提出六层架构模型，核心洞察：Claude Code不是&#x27;回答&#x27;而是反复循环的代理过程（收集上下文→采取行动→验证结果）。上下文治理是关键——200K上下文中固定开销约15-20K（MCP工具定义是最大隐形杀手，5个Server占25K tokens即12.5%）。提出上下文分层加载策略：CLAUDE.md常驻→rules按路径加载→Skills按需加载→Subagents隔离加载→Hooks不进上下文。
 
@@ -354,7 +354,7 @@ Tw93基于半年深度使用Claude Code的踩坑总结。提出六层架构模�
 ---
 
 ### [Claude Code 官方中文文档](https://code.claude.com/docs/zh-CN/)
-@Anthropic · ⭐⭐⭐⭐4 🇨🇳 · 今天
+@Anthropic · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可理解整个代码库并跨多个文件和工具工作。支持macOS/Linux/WSL/Windows安装，核心功能包括：繁琐任务自动化（测试、lint修复、合并冲突）、自然语言描述→规划→编码→验证的工作流、git集成、MCP连接外部数据源、CLAUDE.md项目配置、自定义命令（Skills）和Hooks。
 
@@ -363,7 +363,7 @@ Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可�
 ---
 
 ### [三大 AI 编程框架对比调研：Superpowers vs GSD vs gstack](https://youtu.be/Y9hR2M4FE4I)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 三大Claude Code生态AI编程框架的深度对比。Superpowers(124K⭐)通过流程纪律约束过程——强制TDD、苏格拉底式需求澄清、Subagent驱动开发。GSD(47K⭐)通过上下文隔离约束环境——每个子任务独立200K token上下文，解决Context Rot问题。gstack(57K⭐)通过多角色约束视角——23个专业角色交叉验证。核心差异在哲学立场：Superpowers=工程师思维、GSD=创业者思维、gstack=CEO思维。三者共同短板在Build阶段。
 
@@ -372,7 +372,7 @@ Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可�
 ---
 
 ### [Anthropic 六层技术栈驱动 Claude Code 的统治地位](#)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 深度解析Claude Code背后的六层架构：基座模型、开放协议(MCP)、共享运行时、能力系统和扩展框架。这种垂直整合（Anthropic控制从模型训练到终端工具的每一层）创造了竞争对手难以复制的复合优势。Claude Code从内部原型到最受欢迎的AI编程工具仅用不到一年，2025年单年发布176次更新，每天产生135,000个GitHub commits。理解这六个组件的架构关系是理解Claude Code领先优势的关键。
 
@@ -381,7 +381,7 @@ Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可�
 ---
 
 ### [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps)
-@Anthropic Engineering · ⭐⭐⭐⭐4 🌐 · 今天
+@Anthropic Engineering · ⭐⭐⭐⭐4 🌐 · 昨天
 
 Anthropic工程团队分享长时间运行应用开发中的Harness设计经验。讨论如何在Agent驱动的开发流程中设计测试Harness，确保前端和全栈应用在长时间迭代中保持质量。涵盖自动化测试策略、CI/CD集成、以及Agent编程中的质量保障方法论。
 
@@ -390,7 +390,7 @@ Anthropic工程团队分享长时间运行应用开发中的Harness设计经验�
 ---
 
 ### [Claude Code auto mode: a safer way to skip permissions](https://www.anthropic.com/engineering/claude-code-auto-mode)
-@Anthropic Engineering · ⭐⭐⭐⭐4 🌐 · 今天
+@Anthropic Engineering · ⭐⭐⭐⭐4 🌐 · 昨天
 
 Anthropic发布Claude Code auto mode，一种更安全地跳过权限确认的方式。不同于直接--dangerously-skip-permissions，auto mode通过更细粒度的权限模型和上下文感知来减少不必要的确认弹窗，同时保持安全边界。这是Agent编程工具在自动化效率与安全控制之间的重要平衡设计。
 
@@ -399,7 +399,7 @@ Anthropic发布Claude Code auto mode，一种更安全地跳过权限确认的�
 ---
 
 ### [2023年最新AIGC绘画水平发展](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649776933&idx=1&sn=9dd0ae4b3c3a804eec1c5a33d49e0c78&chksm=beccf05e89bb7948ed4901021e2ebf25017594b86e3a9b4eb7be9de85724a96ec1c250e01d7d&mpshare=1&scene=1&srcid=0309spjbxy8PIocw0fZbCofN&sharer_sharetime=1678360311666&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
-@yiqiuzheng，腾讯 IEG 前端工程师 · ⭐⭐⭐⭐4 🇨🇳 · 今天
+@yiqiuzheng，腾讯 IEG 前端工程师 · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 Read in Cubox  
 Read Original
@@ -412,7 +412,7 @@ Read Original
 ---
 
 ### [2026 AI First 系列（一）：从助手到智能体——代理工程时代的到来](https://youmind.com/s/Q8qqsFCOAdt2sU)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 2026 AI First 系列（一）：从助手到智能体——代理工程时代的到来
 &gt; copyright x @ wquguru 欢迎转载，请注明出处
@@ -426,7 +426,7 @@ Read Original
 ---
 
 ### [2026 AI First 系列（四）：connecting the dots——你的独特人生路径](https://youmind.com/s/pG5sMT6W7UIdIe)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 2026 AI First 系列（四）：connecting the dots——你的独特人生路径
 这张图来自著名拖延症患者、作家Tim Urban——一个用灵魂画风讲述深刻道理的人。图很简单：一个巨大的方格表，每个格子代表一周
@@ -440,7 +440,7 @@ Read Original
 ---
 
 ### [4 段超神提示词解锁 Claude 3.7 能力上限](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485521&idx=1&sn=7f8a4ccdb2c61e761680aaca85aad946&chksm=c14a60671873016f5f6a76648caa6bd8814afdb1a9dcf750cbbed6687baa19ab84ba5c8f8e99&mpshare=1&scene=1&srcid=0317R6zGCWW70GaSXsPvnZ1m&sharer_shareinfo=e5f19e6a645beca53fa01f3902943939&sharer_shareinfo_first=e5f19e6a645beca53fa01f3902943939)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 4 段超神提示词解锁 Claude 3.7 能力上限
 一段AI提示词能实现什么让人吃惊的效果！？
@@ -461,7 +461,7 @@ Read Original
 ---
 
 ### [AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice](https://www.bestblogs.dev/en/article/d0229b57)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice
 This article systematically deconstructs AI programming tools from underlying principles (Token, tool calling, Codebase retrieval, Merkle Tree) to practical applications (dialogue optimization, best practices, tool alternatives), guiding developers to efficiently utilize AI-assisted coding.
@@ -472,7 +472,7 @@ Read...
 ---
 
 ### [AI copilot 能提升开发效率么？](https://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=2649829724&idx=1&sn=d2febca6d2bb9a5b93b153be5aa4f1d0&chksm=8704b340b0733a5688c2580ae825bf709beffb824ca60dbfe698dd42d2e3dbaef25fd0c712dc&mpshare=1&scene=1&srcid=0527uDxCmpDZGfrNzc66dQlD&sharer_shareinfo=87b3f1de832786b3172a5c9e5e092443&sharer_shareinfo_first=87b3f1de832786b3172a5c9e5e092443)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 可能是全网最完整的探讨关于 copilot 写代码优劣及使用场景注意事项的文章
 Read in Cubox  
@@ -485,7 +485,7 @@ Read Original
 ---
 
 ### [AI 和写作 | Randy&#x27;s Blog | Randy&#x27;s Blog](https://lutaonan.com/blog/ai-writing/)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 AI 和写作 | Randy&#x27;s Blog | Randy&#x27;s Blog
 到底什么样的形式是一个好的写作 Copilot, 我也没有答案，但我认为它一定不能是侵入式的。它应该在一旁默默地观察我写出来的想法，然后在合适的时候告诉我它对此的观点。它有比我多得多的知识量，可以做到：
@@ -499,7 +499,7 @@ Read Original
 ---
 
 ### [AI 编码代理(以 Cursor 和 Claude Code 为例)的崛起及其深远影响](https://limboy.me/docs/research-the-rise-of-ai-coding-agents-and-its-profound-impact?s=09)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 AI 编码代理(以 Cursor 和 Claude Code 为例)的崛起及其深远影响
 软件开发行业正处在一个根本性的范式转换之中，其驱动力是人工智能编码代理（AI Coding Agents）的强势崛起。以 AI 原生集成开发环境（IDE）**Cursor** 和基于终端的代理工具 **Claude Code** 为代表的新一代工具，标志着从被动的 AI *辅助*（Assistance）到主动的 AI *代理*（Agency）的决定性飞跃。这一转变不仅带来了前所未有的生产力提升——研究表明，在特定任务上，开发者的完成速度可提升高达 55.8%
@@ -513,7 +513,7 @@ Read Original
 ---
 
 ### [AI 辅助编码的残酷真相：它能帮你完成70%的工作，但最后30%令人非常沮丧](https://mp.weixin.qq.com/s/ZQA8quhAEwUUsT2p_IjG0g?token=1639803888&lang=zh_CN)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 AI 辅助编码的残酷真相：它能帮你完成70%的工作，但最后30%令人非常沮丧
 在过去几年深入参与 AI 辅助开发的过程中，我注意到一个非常有趣的现象：尽管许多工程师都表示自己在使用 AI 时生产力显著提升，但我们日常使用的软件却并没有明显变好。到底发生了什么？
@@ -527,7 +527,7 @@ Read Original
 ---
 
 ### [Agent Skills 终极指南：入门、精通、预测](https://mp.weixin.qq.com/s/jUylk813LYbKw0sLiIttTQ?scene=1&click_id=2)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 Agent Skills 终极指南：入门、精通、预测
 应该是全网最好的 Skills 中文指南与教程
@@ -543,7 +543,7 @@ Read Original
 ---
 
 ### [Building A Generative AI Platform](https://huyenchip.com/2024/07/25/genai-platform.html?s=09)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 # Building A Generative AI Platform After studying how companies deploy generative AI applications, I noticed many similarities in their platforms. This post outlines the common components of a... After studying how companies deploy generative AI applications, I noticed many similarities in their pl...
 
@@ -552,7 +552,7 @@ Read Original
 ---
 
 ### [Can GPT-4 *Actually* Write Code?](https://tylerglaiel.substack.com/p/can-gpt-4-actually-write-code)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 # Can GPT-4 *Actually* Write Code? I test GPT 4&#x27;s code-writing capabilities with some actual real world problems. Since ChatGPT came out I&#x27;ve seen quite a lot of people posting about its capability to write code. People have posted about how they had it design and implement a number puzzle game (wit...
 
@@ -561,7 +561,7 @@ Read Original
 ---
 
 ### [ChatGPT 在做什么… 以及它为何发挥作用？](https://mp.weixin.qq.com/s?__biz=Mzg3OTgxODY0Nw==&mid=2247483927&idx=1&sn=024c6b5fbb7e43a025eab9d6096b484f&chksm=cf7fe0eff80869f9eefa9fcff82e11910e9ab5ced03933f4040394b5a897003325eb7d601cc3&mpshare=1&scene=1&srcid=03092z2hM9JDktnp3XF30Tv2&sharer_sharetime=1678325853531&sharer_shareid=3fee492c0c6fb5a2da9e121bd1155214)
-@Stephen Wolfram，发表于 2023年2月14日原文链接：https://writing · ⭐⭐⭐⭐4 🇨🇳 · 今天
+@Stephen Wolfram，发表于 2023年2月14日原文链接：https://writing · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 # ChatGPT 在做什么… 以及它为何发挥作用？ 作者：Stephen Wolfram，发表于 2023年2月14日原文链接：https://writings 作者 ：Stephen Wolfram，发表于 2023年2月14日 原文链接 ：https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/ 文章字数 ：约 3.4 万字  建议收藏后阅读...... 提示：本文包括一百多张图片...... 微信公共账号的编辑器经常会出现图片处理错误（尤其是在使用 Markdown 处...
 
@@ -570,7 +570,7 @@ Read Original
 ---
 
 ### [Claude Code 之父自爆：Claude Code 的终极用法](https://mp.weixin.qq.com/s/a-KpOYR42DPX0Lr075KFmg?click_id=1)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 # Claude Code 之父自爆：Claude Code 的终极用法 Boris Cherny 作为 Claude Code 之父，他写了一篇非常详细的推文，分享了自己如何高效使用这款工具！ ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FE6YcKUBEibQGp83WuMkfiaIBCzfmGFRO32J4fAEibvBtDl23E7UK9rT53GoF4ImfMuPU6PCzBFOzKuzbdKRica55qw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D0) 你可能...
 
@@ -579,7 +579,7 @@ Read Original
 ---
 
 ### [Claude悄悄更新了Skills生成器，这绝对是一次史诗级升级。](https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680550&idx=1&sn=61057f16c042c8ffda4e6e2ebee0def6&chksm=f14c1d732a43c0222af710d1a6ec9e71a481c7c9dcf50cd3e36ad48bc7fa4cd1481c36808a50&mpshare=1&scene=1&srcid=03127RswCJFOPrybSAO3nRQj&sharer_shareinfo=60c22bf2c14cb3a0349503a53069c3dc&sharer_shareinfo_first=60c22bf2c14cb3a0349503a53069c3dc)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 # Claude悄悄更新了Skills生成器，这绝对是一次史诗级升级。 上周直播的时候，发现Anthropic的skills仓库居然有更新了。 点进去一看，然后居然发现了一个超级刚需的Skills迎来了更新。 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2F2jjfQoZLoqUhLrqoibibM2xm1gDXVykOQuKxswXfPicIeoBSnA6zmSMhMuRBMnBGfGjakAPP7yDGGgT55icribA3NiabtBvHicWYjkey2ibRJjeQngA%2F640%3Fwx_fmt%3Dpng%26f...
 
@@ -588,7 +588,7 @@ Read Original
 ---
 
 ### [Context Engineering for AI Agents: Lessons from Building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus?s=09)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 # Context Engineering for AI Agents: Lessons from Building Manus This post shares the local optima Manus arrived at through our own &quot;SGD&quot;. If you&#x27;re building your own AI agent, we hope these principles help you converge faster. 2025/7/18 Yichao &#x27;Peak&#x27; Ji At the very beginning of the Manus project, m...
 
@@ -597,7 +597,7 @@ Read Original
 ---
 
 ### [Cursor 深度评测：革命性提效工具还是过誉的玩具？](https://mp.weixin.qq.com/s?__biz=Mzg3OTYwMjcxMA==&mid=2247488520&idx=1&sn=ef118e85c062be821dd515269defd092&chksm=ce34fc0fb68ad4ab32a7185d689b14e5430d8097f0a65d22ecd922725c6e223548bcfd6e9196&mpshare=1&scene=1&srcid=1231FaULA3uHIqVWu3DOj1fO&sharer_shareinfo=aff83f5efe185cea5fc050be1b6100c6&sharer_shareinfo_first=aff83f5efe185cea5fc050be1b6100c6)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 # Cursor 深度评测：革命性提效工具还是过誉的玩具？ 客观地说，我认为目前还不必过度焦虑，Cursor 很强，是非常出色辅助编码工具，但还无法完全替代人类。 最近 Cursor 很火，火到我身边的程序员们已经不聊河北彩花，LOL，黑猴等，而是在各种场合讨论这个 Cursor 的辅助编程能力。各类内容平台也在以惊人的速度，迭代出了许多相关教学视频： ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2F3xDuJ3eiciblmg3WmibvWzug1TAAn6P3C1ediaUmlyQMqbDwDIF2o5SbliasElZZde6...
 
@@ -606,7 +606,7 @@ Read Original
 ---
 
 ### [Cursor｜软件开发行业新变革](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247510116&idx=1&sn=d5904abd8dfccc25500b2c795dd42b14&chksm=e84f2b75b4972ec14ed36558042c0156dbb7195dd95882d1e4a7de71849399cca2df5388292b&scene=126&sessionid=1726046291)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基于人工智能的代码编辑器，创建了一个集成开发环境 （IDE）。旨在帮助开发人员编写代码，并与 AI 进行实时互动，提供代码建议、错误检测和自动补全功能。 集成开发环境（IDE），支持多种编程语言（如 Python、JavaScript、Java 等）。 Cursor 团队表示，未来还会推出支持更多编程语言、增强调试功能等更新，让 Cursor 成为开发者的得力助手。 ✅参考数据（通过搜索获悉，2024 年软件市场的一组数据如下） 在软件开发行业，有超过 700 种编程语言可供选择。因此，在选择正确的编程语言时，企业和软件开发人员...
 
@@ -615,7 +615,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ---
 
 ### [Deploying Transformers on the Apple Neural Engine - Apple Machine Learning Research](https://machinelearning.apple.com/research/neural-engine-transformers)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 # Deploying Transformers on the Apple Neural Engine - Apple Machine Learning Research An increasing number of the machine learning (ML) models we build at Apple each year are either partly or fully adopting the [Transformer… An increasing number of the machine learning (ML) models we build at Apple ...
 
@@ -624,7 +624,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ---
 
 ### [Enhancing Cursor and CodeBuddy: A Structured AI Collaboration Methodology](https://www.bestblogs.dev/en/article/72c5e6)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 # Enhancing Cursor and CodeBuddy: A Structured AI Collaboration Methodology This article introduces a structured AI programming collaboration methodology, empowering developers to evolve from mere &#x27;users&#x27; into &#x27;architects&#x27; capable of systematically guiding AI, thus boosting development efficiency an...
 
@@ -633,7 +633,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ---
 
 ### [Fine-tuning - OpenAI API](https://platform.openai.com/docs/guides/fine-tuning)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 # Fine-tuning - OpenAI API Fine-tuning {#fine-tuning} Learn how to customize a model for your application. Introduction {#introduction} Fine-tuning lets you get more out of the models available through the API by providing: 1. Higher quality results than prompt design 2. Ability to train on more exa...
 
@@ -642,7 +642,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ---
 
 ### [GitHub - PacktPublishing/LLM-Engineers-Handbook: The LLM&#x27;s practical guide: From the fundamentals to...](https://github.com/PacktPublishing/LLM-Engineers-Handbook)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 # GitHub - PacktPublishing/LLM-Engineers-Handbook: The LLM&#x27;s practical guide: From the fundamentals to... The LLM&#x27;s practical guide: From the fundamentals to deploying advanced LLM and RAG apps to AWS using LLMOps best practices - PacktPublishing/LLM-Engineers-Handbook LLM Engineer&#x27;s Handbook: Maste...
 
@@ -651,7 +651,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ---
 
 ### [GitHub - PlexPt/awesome-chatgpt-prompts-zh: ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 # GitHub - PlexPt/awesome-chatgpt-prompts-zh: ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。 ChatGPT是由OpenAI训练的一款大型语言模型，能够生成类人文本。 官网是 &lt;https://ai.com/&gt; 它能够生成类似于人类写作的文本。您只需要给出提示或提出问题，它就可以生成你想要的东西。 在此页面中，您将找到可与 ChatGPT 一起使用的各种提示。 只需按照README.md文件中的提示输入即可。 点击这里 可以将您自己的调教指南添加到列表中。 同时您也可以从这个文件中获取创作灵感来创建您自己的提示。 如果你想将...
 
@@ -660,7 +660,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ---
 
 ### [GitHub - Torantulino/Auto-GPT: An experimental ope...](https://github.com/torantulino/auto-gpt)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 # GitHub - Torantulino/Auto-GPT: An experimental ope... Auto-GPT: An Autonomous GPT-4 Experiment 💡 Get help - Q\&amp;A or Discord 💬 🔴 USE `stable` not `master` 🔴 Download the latest `stable` release from here: &lt;https://github.com/Significant-Gravitas/Auto-GPT/releases/latest&gt;. The `master` branch is und...
 
@@ -669,7 +669,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ---
 
 ### [GitHub - getActivity/AiIndex: ChatGPT](https://github.com/getActivity/AiIndex)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 # GitHub - getActivity/AiIndex: ChatGPT ChatGPT. Contribute to getActivity/AiIndex development by creating an account on GitHub. * OpenAI 开发的 ChatGPT 在全球瞬间爆火，上线仅 5 天，ChatGPT 用户就超过 100 万，而在推出不到 3 个月，它的月活用户就突破了 1 亿，成为人类历史上最快用户破亿的软件产品；这使我对 ChatGPT 产生了非常浓厚的兴趣，当我第一次尝试使用它时，我被它的出色表现惊艳到了，我没想到它能真正理解我的话，并且能够将...
 
@@ -678,7 +678,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ---
 
 ### [GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents](https://github.com/vercel-labs/agent-browser)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 # GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents Browser automation CLI for AI agents. Contribute to vercel-labs/agent-browser development by creating an account on GitHub. Headless browser automation CLI for AI agents. Fast Rust CLI with Node.js fallback. npm install -g ag...
 
@@ -687,7 +687,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ---
 
 ### [Github Copilot 近期重要更新一览 (2025.4.9)Github Copilot 宣布推出 Pro+(3 - 掘金](https://juejin.cn/post/7490967893779431439)
-⭐⭐⭐⭐4  · 今天
+⭐⭐⭐⭐4  · 昨天
 
 # Github Copilot 近期重要更新一览 (2025.4.9)Github Copilot 宣布推出 Pro+(3 - 掘金 Github Copilot 宣布推出 Pro+(39🔪/月)，5月5日 开始限制 高级模型 (除4o外所有) 访问次数 ，原 Pro 每月 300点 (能问 Claude 3.7x240次 ) 离上一篇《Github Copilot 近期的一次重要更新 (2024.9.26)》已经过去半年多了，今天比较闲，刷下 Github Copilot 的 更新日志 → Github Copilot ChangeLog 看下都有哪些重要更新，这不刷不知道，一刷吓一跳 ❗...
 
@@ -696,7 +696,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ---
 
 ### [OpenClaw + Claude Code 超强教程：一个人就能搭建完整的开发团队！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247719868&idx=1&sn=c93e0542f8bebb653559315d02841b43)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 独立开发者用 OpenClaw + Codex/Claude Code 搭建 AI Agent 系统的完整案例。双层架构：OpenClaw 编排层持有业务上下文，Agent 执行层专注代码。8步从需求到 PR 合并，含自动监控、三 Agent Code Review、改进版 Ralph Loop（动态调整 prompt）。实测：单日 94 次提交，30 分钟 7 个 PR，月成本 $190。瓶颈是 RAM 不是 token。
 
@@ -705,7 +705,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ---
 
 ### [Promoting AI agents](https://world.hey.com/dhh/promoting-ai-agents-3ee04945)
-@DHH · ⭐⭐⭐⭐4 🌐 · 今天
+@DHH · ⭐⭐⭐⭐4 🌐 · 昨天
 
 DHH 分享对 AI Agent 编程的看法转变。从不喜欢编辑器自动补全到欣赏终端 Agent 协作模式。在 OpenCode 中使用 Claude Opus 4.5 等模型，认为 Agent 已能产出生产级代码。对&#x27;Agent写90%代码&#x27;持怀疑态度，强调监督式协作是当下最现实范式。
 
@@ -714,7 +714,7 @@ DHH 分享对 AI Agent 编程的看法转变。从不喜欢编辑器自动补全
 ---
 
 ### [SmartPerfetto AI Agent 的 Harness Engineering 实战分享](https://mp.weixin.qq.com/s?__biz=MzIwNTQxMjM5MA==&mid=2247487518&idx=1&sn=ec49eac761ffd13acc02cd5e6cea7b94)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 SmartPerfetto 的 Harness Engineering 实战记录。在 Perfetto UI 加 AI 分析面板，Claude Agent + MCP 调用 trace_processor 执行 SQL 自动分析 Android trace。演进到 20 个 MCP 工具 + 158 个 YAML Skill + 三层验证。含滑动性能分析完整 session log。计划开源。
 
@@ -723,210 +723,210 @@ SmartPerfetto 的 Harness Engineering 实战记录。在 Perfetto UI 加 AI 分�
 ---
 
 ### [The Cook and the Chef: Musk&#x27;s Secret Sauce — Wait ...](https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 [需翻译] The Cook and the Chef: Musk&#x27;s Secret Sauce — Wait ...
 
 ---
 
 ### [The Product-Minded Software Engineer - The Pragmatic Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/?s=09)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 [需翻译] The Product-Minded Software Engineer - The Pragmatic Engineer
 
 ---
 
 ### [TikTok and the Sorting Hat — Remains of the Day](https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 [需翻译] A network like Venmo or Uber, for example, is mostly about utility: I need to pay someone money, or I need to travel from here to there. A network like YouTube is more about entertainment. Amuse me. And some networks, what most people refer to when t...
 
 ---
 
 ### [Trae 重磅更新：AI编程+智能体+MCP，言出法随的新境界](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247486222&idx=1&sn=339091580bdb9e1c372b073a78861c5b&chksm=c1d2d2024d5c147c11e072376906ecdcb7ef26a854c3ab0147825fa422616bf9dd995e12fdf3&mpshare=1&scene=1&srcid=0422OnaWC5wn1l1tifvJXILS&sharer_shareinfo=41eb89afb4b51a8c7e426d8c25926a34&sharer_shareinfo_first=41eb89afb4b51a8c7e426d8c25926a34)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 ?imageUrl=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAACIAAAAqCAMAAADhynmdAAAAQlBMVEUAAACcnJycnJycnJyoqKicnJycnJycnJycnJycnJyfn5%2BcnJydnZ2enp6kpKSdnZ2cnJyenp6cnJycnJycnJybm5t8KrXMAAAAFXRSTlMAyeb3CNp3tJRvHIEtJhBgqztWRJ%2Bp5TqGAAABCklEQVQ4y5...
 
 ---
 
 ### [Unlimited Refill Cursor](https://bianyujie.cn/Unlimited-use-of-the-cursor)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 [需翻译] If you ask me what code editor to use in the AI era, I will undoubtedly answer you: Cursor Cursor Cursor!!!
 
 ---
 
 ### [Welcome to the Machine, a guide to building infra software for AI agents](https://me.0xffff.me/welcome_to_the_machine.html)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 [需翻译] Welcome to the Machine, a guide to building infra software for AI agents
 
 ---
 
 ### [Windsurf：面向未来的 AI编程工具详解](https://mp.weixin.qq.com/s?__biz=Mzg3OTYwMjcxMA==&mid=2247488634&idx=1&sn=5c07be393a21ec29c1e7b57432d5affd&chksm=ce5273e456a9e242cbcb5ddb42a2a732a84d6fba8b6e6a1c9d6e60c583e931a6150ff36e375a&mpshare=1&scene=1&srcid=0108YxgA7cywjKuymVzomsTE&sharer_shareinfo=4b4f4111efff99d418d52653b1a3ce05&sharer_shareinfo_first=4b4f4111efff99d418d52653b1a3ce05)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 我是范文杰，一个专注于 AI 辅助编程与前端工程化领域的切图仔，**近期有不少 HC，感兴趣的同学可联系我内推！**欢迎关注：
 
 ---
 
 ### [garrytan/gstack: Use Garry Tan&#x27;s exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA](https://github.com/garrytan/gstack)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 [需翻译] garrytan/gstack: Use Garry Tan&#x27;s exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
 
 ---
 
 ### [“10x Cursor”开发体验， Claude Code 如何带来 AI Coding 的 L4 时刻？｜Best Ideas | BestBlogs.dev](https://www.bestblogs.dev/article/a5ae61)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 “10x Cursor”开发体验， Claude Code 如何带来 AI Coding 的 L4 时刻？｜Best Ideas | BestBlogs.dev
 
 ---
 
 ### [“Progress is not achieved by luck or accident, but by working on yourself daily.” | Revue](https://newsletter.stoicallytyped.com/issues/progress-is-not-achieved-by-luck-or-accident-but-by-working-on-yourself-daily-558084)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 [需翻译] “Progress is not achieved by luck or accident, but by working on yourself daily.” | Revue
 
 ---
 
 ### [“聊天式编程”让代码听你的话：Cursor打造极致心流体验](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649792201&idx=1&sn=c2fc70c76233d2551484405021dc5726&chksm=bfa82012357eb1e74a06b747ba8f79ddd3448958cc046730f3c6699db34ad032a6a40b34c451&mpshare=1&scene=1&srcid=0329V4EPu92TJJRqTE6o9TfB&sharer_shareinfo=d844a10c77b90dcd2f4853ebdb8219f3&sharer_shareinfo_first=d844a10c77b90dcd2f4853ebdb8219f3)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg)
 
 ---
 
 ### [【文章翻译】Cursor 内部观察](https://mp.weixin.qq.com/s?__biz=MzkwOTMzMzk0MQ==&mid=2247498276&idx=1&sn=0f181e8e17a3464ec3e66416a8941aeb&chksm=c0d838827f9b0616d79fc7c4681f340eab3c2850261efe0b47035a254642ded72aae16729846&mpshare=1&scene=1&srcid=1111HId5z2dFa80oCTMTiyr8&sharer_shareinfo=54635e9e99cb1aa6d9613a92d8257014&sharer_shareinfo_first=8142a5dc718487d368dd06ea60237935)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 这篇文章是 Brie Wolfson 与这家 &quot;AI 编程十角兽&quot; Cursor 共度六十天的记录。是 Yuan 发给我的，我也借此学习一下当前发展最快、执行力最强的新型 AI 公司的样子。读的过程中，也带着我们自身的处境去想：哪些值得借鉴，哪些不一定适合。
 
 ---
 
 ### [【有嘴就能做开发】Cursor——AI编辑器 使用详解 - 知乎](https://zhuanlan.zhihu.com/p/27335614120)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 ?imageUrl=https%3A%2F%2Fpic4.zhimg.com%2Fv2-e16ddecead14b9bf72ee911ae24568b3_r.jpg&amp;valid=false) https://www.cursor.com
 
 ---
 
 ### [以小说 AI 工作流为例，Cursor和Windsurf ，为什么我最后选择Cursor（万字长文）](https://mp.weixin.qq.com/s?__biz=MjM5NjE3NjYzMw==&mid=2247485983&idx=1&sn=81ef74be43e7edffe6df692ae1168018&chksm=a7176d881ffceddd26322830c2175730f5638b4a2b2cd016325053ef6723891cbfdcfb683d0b&mpshare=1&scene=1&srcid=12286IKpGtFF1tFyDldWkGmh&sharer_shareinfo=e6e90ab99869772e9d7f656cb459cc58&sharer_shareinfo_first=b5933aa26e85bc6c8524796b9e18f4e7)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 以小说 AI 工作流为例，Cursor和Windsurf ，为什么我最后选择Cursor（万字长文）
 
 ---
 
 ### [你不知道的 Claude Code：架构、治理与工程实践 - Tw93](https://tw93.fun/2026-03-12/claude.html)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 我把我最近半年每个月氪金40刀2个账号的claude code 使用过程中，积累的一些实际经验分享给大伙。这篇文章主要围绕上下文管理、Skills、Hooks、Subagents、Prompt Caching 以及 CLAUDE.md 的设计展开，重点讨论怎样让协作过程更稳定、更可控，偏工程师技术视角的最佳实践，欢迎大伙一起最佳交流。
 
 ---
 
 ### [分享10个你可能不知道的Claude Code隐藏命令。](https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680919&idx=1&sn=95032bfc6270f229e713598805d26ebf&chksm=f18f60a2aad3f3a08e0d6dee996a13c72b5c47b89ee989b29b84899a4ff0da1606e47842c577&scene=126&sessionid=1774059013)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 我们公司很多很多的小伙伴，都在用Claude Code，因为这玩意，在很多时候，确实就是最牛逼的通用Agent。
 
 ---
 
 ### [刚刚，Cursor 1.0炸裂发布！4大亮点实战 - 知乎](https://zhuanlan.zhihu.com/p/1914015028316737933?locale=zh_CN)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 炸裂，炸裂，炸裂！时隔两年半，Cursor 终于正式发布了 1.0 版本。
 
 ---
 
 ### [创业者思考：如何做 AI Agent 喜欢的基础软件？](https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247521814&idx=1&sn=49ceeed78a26438ade5d5b706623e88f&chksm=c122bf12dfb7e37a12d166ff94f0c36e9a30070f10046c9fdfe61d49a74573ce5a5c696772ed&mpshare=1&scene=1&srcid=0311ISulrAqgkTLP1HK97xnT&sharer_shareinfo=c5f29fbc7bf04b537d92cb15e87fd53b&sharer_shareinfo_first=6215cfee527a230e6ac94c5123d5473d)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2FqpAK9iaV2O3sAVsSPfCN9UX44XiaoicbUJIrOGuaujdMNY6iaQewDZEX1GY3tcVk3QGeKJyUMMHBSMALvO8B7DZwsA%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg%23imgIndex%3D0) &gt; 本篇内容转载自「我世界的源代码」。 &gt; &gt; 作者黄东旭，是 PingCAP 的联合创始人兼 CTO...
 
 ---
 
 ### [吴恩达：从 Agent 到 Agentic Workflow ，AI 的未来何去何从？](https://mp.weixin.qq.com/s?__biz=MjM5NTg1ODg1OA==&mid=2459542397&idx=1&sn=e376ce196a41955734c48377cbc3cc18&chksm=b19f13b886e89aaec7ecb3f44f1de1300473b38346d6f8f54e8f87f4655cd87512eee06bae05&mpshare=1&scene=1&srcid=0623gOaBbHwBnL5vGTxNPHdK&sharer_shareinfo=11ba2c0c5006ec0d14971ced1c09c9c7&sharer_shareinfo_first=17a9447775b586d79d49eeec9285c317)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 [需翻译] *关注**AI 技能**，开启智能生活！* *?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2Fb96CibCt70iaajvl7fD4ZCicMcjhXMp1v6UibM134tIsO1j5yqHyNhh9arj090oAL7zGhRJRq6cFqFOlDZMleLl4pw%2F640%3Fwx_fmt%3Dpng%26wxfrom%3D5%26wx_lazy%3D1%26wx_co%3D1)*
 
 ---
 
 ### [如何利用cursor快速理解复杂代码工程？](https://www.zhihu.com/question/7468595725/answer/1910022134312460351)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 [需翻译] 这份rule来自Cursor官方论坛某大神，经实测既可以用在Cursor，也可以用在Windsurf和Roo code。
 
 ---
 
 ### [学习笔记：从 Agent 到 Skills — AI 智能体架构的范式转变](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559249&idx=1&sn=7cda1453a5f7f51c39f43b76027696a1&chksm=e8178b0b81a60cb0161a097e5da8dbc326a34f5b041404fa1f9e023950c003fbe9a394c1d0e0&mpshare=1&scene=1&srcid=0331R15fBYxYJco3uMTIEUTw&sharer_shareinfo=327719e3faec950e49ae3605678de77e&sharer_shareinfo_first=327719e3faec950e49ae3605678de77e)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FZ6bicxIx5naL7zVHZH429Po1HLpbichP9SLVicPtoxkI2WhMxUibFwG9U1dUOJu33R5KD9ib25hmibaaZLLldnh8dA4A%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0) &gt; 报告日期：2026-02-28 关键词： Agent Skills, MCP, OpenClaw,...
 
 ---
 
 ### [对标 Cursor 和 Windsurf，Trae 如何成为中文开发者的首选？](https://mp.weixin.qq.com/s?__biz=MzkwNDYyNTU1NQ==&mid=2247486179&idx=1&sn=29d9077dbaa879f1388fd628c102071d&chksm=c1329b416202d3c2b878117fa15650e0b184aca4708a565c5f0b32fb9322b228ccea74b95806&mpshare=1&scene=1&srcid=0120YaTXSgsBRNNrnmU70m2x&sharer_shareinfo=3aa172c89e335810c3379e7c47f7aaa3&sharer_shareinfo_first=46440f26bed307709ec73840f88cf5bb)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 字节跳动旗下对标 Cursor 和 Windsurf 的 AI IDE 产品 —— Trae，今天正式上线了！
 
 ---
 
 ### [抄 Apple Intelligence 作业的思路 文章从 LLM 的近况切入，探讨 Apple Intelligen - 掘金](https://juejin.cn/post/7407385581079396389)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 抄 Apple Intelligence 作业的思路 文章从 LLM 的近况切入，探讨 Apple Intelligen - 掘金
 
 ---
 
 ### [探索 AI 编程智能体](https://juejin.cn/post/7465031850969858088?share_token=95c52b62-bbc3-4074-96b5-b5fd64043cc6)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 [需翻译] 本文探讨AI编程智能体在软件开发中的应用，重点分析Cursor和Cline。二者通过自然语言处理和代码生成辅助编程，提升效率。Cursor 成熟但成本高，Cline 开源免费但可靠性待提升。
 
 ---
 
 ### [深入探讨GPTs和AI Assistant](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649781619&idx=1&sn=6051095ee8c98a93c255002f55dfb2c4&chksm=becce60889bb6f1ee66fdbcf1b5e2bc3e5a5ee7e2d95b59d0e6a913448b5ababd6a4b355d073&mpshare=1&scene=1&srcid=0102uzsvCe5iQSghneuVbOJ9&sharer_shareinfo=f939c224ab77495853e55fc84ad9d533&sharer_shareinfo_first=f939c224ab77495853e55fc84ad9d533)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 Cubox 收藏 — 深入探讨GPTs和AI Assistant
 
 ---
 
 ### [深度解析：Claude Code Cowork](https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ==&mid=2247491350&idx=1&sn=dd3046300378c493810b246656ef33cb&chksm=e9fe92501c4cf67b96861f0e309dd8f987d0d7f2850ce46ff5121da97ab9559a64b0ef64bd08&mpshare=1&scene=1&srcid=0113qsQNgBeulIsuY7h2mPOu&sharer_shareinfo=38fca9920c4a546ed251b9ec529f1811&sharer_shareinfo_first=38fca9920c4a546ed251b9ec529f1811)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个关键转折点（Cowork: Claude Code for the rest of your work^\[1\]^），它不仅是一个针对非编程人员的新工具，更宣告了 Anthropic 从单纯的模型提供商向综合性代理生态系统（Agentic Ecosystem）协调者的转型。我也算架构演变的见证者了，从早期写 MCP、到前段时间写 Skills（深度解析：Anthropic MCP 协议、从 Prompt Engineeri...
 
 ---
 
 ### [烧掉十亿 Token 后，我总结的 Coding Agent 高阶玩法](https://mp.weixin.qq.com/s?__biz=MzkzNTIzNTYzMA==&mid=2247485666&idx=1&sn=4b9a5ce20104b0473636bb183a4e6676&chksm=c39a7370a54ff219316b3e16c5eb710a23046d88f74ba97f182f6955b741ea4726c4b986851d&mpshare=1&scene=1&srcid=0812pCHh10Gz705xkCFootkZ&sharer_shareinfo=685c02c01d35d330b0df0751ca30333c&sharer_shareinfo_first=29b0caec343ef5be8524908a8e173e91)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 今天来继续聊聊如何用好 Claude Code，Codex，Cursor CLI 这类产品的一些经验和思考。
 
 ---
 
 ### [聊一聊豆包AI手机助手高度敏感权限CAPTURE_SECURE_VIDEO_OUTPUT](https://mp.weixin.qq.com/s?__biz=MzkzOTQ4NDUyNg==&mid=2247492985&idx=1&sn=7de6706287bdf7b35824ae4ef3183c48&chksm=c340cc1c38e05b16ca7b5fe720015a0bf917347d6e282b6d8093f327e0dc1ba5ed07bee02210&mpshare=1&scene=1&srcid=1212CFAxOpBJWjdb5FbsBni1&sharer_shareinfo=e35960f9ed207c81805690a8d7881d77&sharer_shareinfo_first=5647327a26081e2ca9e38616231d5794)
-⭐⭐⭐⭐4 🌐 · 今天
+⭐⭐⭐⭐4 🌐 · 昨天
 
 [需翻译] 近来手机界最火爆的话题莫过于豆包手机助手，很多博主拿到豆包手机后也开始对豆包手机助手进行一系列的实现原理调研和猜想，比如调研时候就涉及几个我们系统fw和应用开发中常用的一些权限
 
 ---
 
 ### [认知重建之后，步入Agentic Engineering的工程革命](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801026&idx=1&sn=3e12f0888b3c232ed7218caf90df5f0a&chksm=bf4c0f3ab8ef6ca21c04e80f8bfce44dae41e5b6e72e1f523bbcf88da8f6d03e4f1056efb689&mpshare=1&scene=1&srcid=0331LA6BLBJmhKZPFBdhCoO4&sharer_shareinfo=91bd93888a0e7958e77c5a12d0cbd198&sharer_shareinfo_first=91bd93888a0e7958e77c5a12d0cbd198)
-⭐⭐⭐⭐4 🇨🇳 · 今天
+⭐⭐⭐⭐4 🇨🇳 · 昨天
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg%23imgIndex%3D0)
 
 ---
 
 ### [oh my codex 使用教程](https://x.com/oragnes/status/2041876228949602347)
-@oragnes · ⭐⭐⭐3 🇨🇳 · 今天
+@oragnes · ⭐⭐⭐3 🇨🇳 · 昨天
 
 介绍 oh-my-codex 工具，用于增强 OpenAI Codex 的长任务能力。安装命令 npm install -g @openai/codex oh-my-codex。核心命令：$deep-interview（澄清）、$ralplan（方案审批）、$ralph（推进执行）、$team 3:executor（并行执行）。亲测可有效处理长任务。
 
@@ -935,7 +935,7 @@ Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个�
 ---
 
 ### [高级自主软件化身（Elite Autonomous Developer Agent）](https://x.com/123olp/status/2025704271921213731)
-@123olp · ⭐⭐⭐3 🇨🇳 · 今天
+@123olp · ⭐⭐⭐3 🇨🇳 · 昨天
 
 主任工程师级自主 Agent 角色设定模板，覆盖软件全生命周期而非仅写代码。以系统级操作守则保障交付质量、逻辑严密性、执行稳定性。借鉴 Claude Code 实践，强化工程流程与规范沉淀。适合用于团队 Agent 提示词基座、工程治理标准化、复杂任务自动化执行框架。
 
@@ -944,7 +944,7 @@ Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个�
 ---
 
 ### [Claude Code 半小时改出 Obsidian Minimal 风博客](https://x.com/onlyice0328/status/2026261405788405767)
-@zhl · ⭐⭐⭐3 🇨🇳 · 今天
+@zhl · ⭐⭐⭐3 🇨🇳 · 昨天
 
 直接让 Claude Code 按 Obsidian Minimal Theme 风格改 CSS 与布局，约半小时完成。关键要点：先给 AI 明确目标风格、限定可改范围（CSS/布局/装饰）、人工验收可读性/层级/移动端。低成本提质的高 ROI 实战经验。
 
@@ -953,7 +953,7 @@ Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个�
 ---
 
 ### [2026-03-02-1610-yyyole-AI-Robot-Phone！！-2028291669930717426](https://x.com/yyyole/status/2028291669930717426)
-@yyyole · ⭐⭐⭐3 🇨🇳 · 今天
+@yyyole · ⭐⭐⭐3 🇨🇳 · 昨天
 
 **@yyyole** (沐阳)
 🕐 Mon Mar 02 02:09:52 +0000 2026
@@ -973,7 +973,7 @@ AI Robot Phone！！
 ---
 
 ### [[ 个人经验及避坑 ] 从 0M -&gt; 5M 快速通过创作者收益门槛！](https://x.com/0xIanW/status/2027996447032152295)
-@0xIanW · ⭐⭐⭐3 🇨🇳 · 今天
+@0xIanW · ⭐⭐⭐3 🇨🇳 · 昨天
 
 **By @0xIanW** (𝙸𝚊𝚗 𝚆.) · Sun Mar 01 06:36:45 +0000 2026
 📊 ❤️ 16 🔁 0 🔖 8 👁️ 840 💬 11
@@ -997,7 +997,7 @@ AI Robot Phone！！
 ---
 
 ### [AI编程工具 System Prompt 大合集](https://x.com/frxiaobei/status/2029561950322168284)
-@凡人小北 · ⭐⭐⭐3  · 今天
+@凡人小北 · ⭐⭐⭐3  · 昨天
 
 &gt; 来源：[@frxiaobei](https://x.com/frxiaobei) | [GitHub 仓库](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
 这个仓库值一个亿。Cursor、Claude Code、Devin、Windsurf、v0... 所有你用过的 AI 编程工具，它们的 System Prompt 全被扒出来了。30000 行指令，30+ 个产品，0 元获取。
@@ -1022,7 +1022,7 @@ AI Robot Phone！！
 ---
 
 ### [CLAUDE CODE 橙皮书开源（75页）](https://x.com/AlchainHust/status/2039169585979539625)
-@AlchainHust · ⭐⭐⭐3 🇨🇳 · 今天
+@AlchainHust · ⭐⭐⭐3 🇨🇳 · 昨天
 
 AI 进化论-花生开源的 75 页《CLAUDE CODE 橙皮书》实战手册，面向想用 AI 编程但不知道从哪开始的人。10 章内容覆盖：核心工作流（Plan/Auto 模式、权限管理）、CLAUDE.md 写法、Skills/Hooks/MCP 扩展能力、多 Agent 并行协作、Computer Use 和 Voice Mode、一章完整的从零到上线产品实战。信息源来自 Claude 官方文档、Boris Cherny 分享、吴恩达 Claude Code 课程及作者用 CC 做十几个产品的经验。
 
@@ -1031,7 +1031,7 @@ AI 进化论-花生开源的 75 页《CLAUDE CODE 橙皮书》实战手册，面
 ---
 
 ### [graphify — Claude Code 的图谱 Skill](https://x.com/QingQ77/status/2041113437812511192)
-@Geek Lite · ⭐⭐⭐3 🇨🇳 · 今天
+@Geek Lite · ⭐⭐⭐3 🇨🇳 · 昨天
 
 Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知识图谱。多模态提取：tree-sitter 解析代码、Claude vision 看图片、LLM 读 PDF。每条边标注 EXTRACTED/INFERRED/AMBIGUOUS 三种可信度，在 52 文件场景下实现 71.5x token 压缩率。输出支持交互式 HTML、Obsidian vault、可 Agent 读取的 wiki、持久化 JSON 跨 session 可查询。
 
@@ -1040,7 +1040,7 @@ Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知�
 ---
 
 ### [Claude Code 这些功能，用了就回不去了](https://x.com/sitinme/status/2040622970432045350)
-@sitinme · ⭐⭐⭐3 🇨🇳 · 今天
+@sitinme · ⭐⭐⭐3 🇨🇳 · 昨天
 
 基于 Claude Code 创始人 Boris Cherny 分享的技巧整理的实战指南。核心要点：给 Claude 验证机会（装 Chrome 扩展/Playwright MCP 让它自己看效果，输出质量提升 2-3 倍）；同时开 3-5 个 git worktree 并行；/remote-control 手机遥控；/loop 定时循环和 /schedule 持久化任务；Hooks 是确定性的（绕不过去），CLAUDE.md 规则是建议性的（压力大可能跳过）；/btw 插队提问不进历史；/batch 大规模迁移神器（AI 军团式编程）；/model opus 切换模型省 token。
 
@@ -1049,7 +1049,7 @@ Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知�
 ---
 
 ### [Claude Code 基操指南](#)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 社区整理的Claude Code最佳实践指南，覆盖基础操作、常用命令、工作流配置、常见问题解答等。适合Claude Code新手快速上手参考。
 
@@ -1058,7 +1058,7 @@ Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知�
 ---
 
 ### [Claude Code 推荐 Skills 汇总](#)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 Claude Code推荐Skills汇总整理。Skills是Claude Code中的可复用能力（SOP），存放于.claude/skills/目录。收集了社区和官方推荐的高质量Skills清单，涵盖翻译、代码审查、文档生成等常用场景。
 
@@ -1067,7 +1067,7 @@ Claude Code推荐Skills汇总整理。Skills是Claude Code中的可复用能力�
 ---
 
 ### [AI降临](https://mp.weixin.qq.com/s?__biz=MzA4NjczOTY0Nw==&mid=2653064371&idx=1&sn=e4017d3b636753f498a328746f8e7fdc&chksm=84123363b365ba75736ff8f9f03aeb112f207458e316fef3eb4ce43d6301fc3bfa9f299da295&mpshare=1&scene=1&srcid=0102FROP3HDMYFjrvhLaxDyE&sharer_sharetime=1672672312908&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 Read in Cubox  
 Read Original
@@ -1080,7 +1080,7 @@ Read Original
 ---
 
 ### [All Things AI - The Complete Resource Of Artificial Intelligence Tools &amp; Services](https://allthingsai.com/)
-⭐⭐⭐3 🌐 · 今天
+⭐⭐⭐3 🌐 · 昨天
 
 All Things AI - The Complete Resource Of Artificial Intelligence Tools &amp; Services
 World&#x27;s Largest Resource Of Artificial Intelligence Tools &amp; Services
@@ -1094,7 +1094,7 @@ Follow @allthingsaihq
 ---
 
 ### [ChatGPT 正在杀死编程里的乐趣  | Piglei](https://www.piglei.com/articles/chatgpt-and-how-we-programming/)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # ChatGPT 正在杀死编程里的乐趣  | Piglei 多年以来，编程一直是我生命最重要的快乐来源之一，我从没细想过这份快乐能伴随我多久。但就在几天前，在观摩了 ChatGPT 替我编写一个 Python 程序的全过程后，我突然有种强烈的感觉：*不远的将来，人们能从编程中获得的乐趣可能会逐渐消失。* 换句话说，ChatGPT 正在缓慢地&quot;杀死&quot;编程里的乐趣。在解释这个观点之前，让我先带你简单回顾一下：ChatGPT 到底帮我写了个什么程序。 先简单介绍一下 ChatGPT。ChatGPT 是人工智能公司 OpenAI 在 2022 年 11 月份推出的基于 GPT 自然语言生成模型的聊天...
 
@@ -1103,7 +1103,7 @@ Follow @allthingsaihq
 ---
 
 ### [ChatGPT 问世两年，我在 AI 的辅助下成为了一名 iOS 业余开发者 - 少数派](https://sspai.com/post/91860?s=09)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # ChatGPT 问世两年，我在 AI 的辅助下成为了一名 iOS 业余开发者 - 少数派 我期望并相信，随着 AI 技术的发展，未来能让真正对编程一无所知的人能够通过 AI 完成自己的 app 创意。 2015 年，还在上大学的我买了一部 iPhone 5c。对，就是那款非常漂亮的聚碳酸酯外壳手机。 同年，我在网上看到了少数派，并投递了一篇关于 VSCO app 的 体验文章。正是那篇如今看来非常青涩的短文，让我开始不断地体验各式各样的 iOS 应用，写下了一篇又一篇的 app 体验文章。 我不曾想过，近十年后的今天，我有机会能利用业余时间，自己编写 iOS app，并且发布到 App S...
 
@@ -1112,7 +1112,7 @@ Follow @allthingsaihq
 ---
 
 ### [ChatGPT时代，我的新书《智慧共生》上市了. 祝你在人工智能时代，多一些轻松和愉悦，少一些烦恼和焦虑 | by Shuyi Wang | Jun, 2023 | Medium](https://wshuyi.medium.com/chatgpt%E6%97%B6%E4%BB%A3-%E6%88%91%E7%9A%84%E6%96%B0%E4%B9%A6-%E6%99%BA%E6%85%A7%E5%85%B1%E7%94%9F-%E4%B8%8A%E5%B8%82%E4%BA%86-88845c1ee86)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # ChatGPT时代，我的新书《智慧共生》上市了. 祝你在人工智能时代，多一些轻松和愉悦，少一些烦恼和焦虑 | by Shuyi Wang | Jun, 2023 | Medium 可 AI 对我们生活的影响，又岂止是绘图这么简单？你可能已经听说了，周围不少人悄悄用 ChatGPT 来写总结报告，再也不会因为几千字的写稿任务叫苦不迭了。研究生们曾经一想到论文翻译成英文投稿，就头痛不已。很多人甚至花费不菲，请专业人士翻译润色。现在这样的工作，可以由 GPT-4 在几分钟之内完成。风格统一、用词精当，语法句式更是无懈可击。 不久前我们还无法想象这些能力会在 20… 祝你在人工智能时代，多一些轻松...
 
@@ -1121,7 +1121,7 @@ Follow @allthingsaihq
 ---
 
 ### [Claude Code 免翻上手教程：以及国产模型也能吊打 Claude？](https://vonng.com/db/claude-code-intro/)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # Claude Code 免翻上手教程：以及国产模型也能吊打 Claude？ 如何不翻墙下载安装使用 Claude Code？如何用 Claude 十分之一的成本实现近似的效果？一行命令免翻装好 CC！以及 GLM 4.7 到底能不能吊打 Claude？ Claude Code 免翻墙安装使用教程 在《2025年度总结》里老冯提到过，过去一年 Claude Code 让我的生产力翻了 20 倍。 有朋友问我是不是吹牛真没有，其实老冯说的还保守了。 这玩意实际上相当于月薪5万的工程师全天候帮你干活，而只要 1800¥ 的工资。 前几个月有个刚毕业的师妹问我怎么找工作，我给她的建议就一个：去把 ...
 
@@ -1130,7 +1130,7 @@ Follow @allthingsaihq
 ---
 
 ### [Claude Code 订阅费太贵？这个工具让你0成本用上 Claude 和 Gemini](https://mp.weixin.qq.com/s?__biz=MzU3MjQ5MDEzNw==&mid=2247484767&idx=1&sn=aa39720e60168acc9c998273a16874c4&chksm=fd52567b607c44244505f28b24b9936447a1f35f802bc55f767fe85ba525f6afcd0ac1f1aa80&mpshare=1&scene=1&srcid=0106ng6saAeMNkdfAd1WPHb2&sharer_shareinfo=f7df7603186a861cc9006ecf5c672990&sharer_shareinfo_first=f7df7603186a861cc9006ecf5c672990)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # Claude Code 订阅费太贵？这个工具让你0成本用上 Claude 和 Gemini ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FAG8L8wHialadezcON25QJwRfiaCBqEvxXP0pmicQkkUmqKe0SM0OyrfJeS3GJuKg7PYlpBmsOf0OVVe7QM0WepDXg%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%26watermark%3D1%23imgIndex%3D0&amp;valid=false) 今天分享的这个开源工具简直神了，能把 Antigra...
 
@@ -1139,7 +1139,7 @@ Follow @allthingsaihq
 ---
 
 ### [Claude Code推荐的终端 - Ghostty](https://mp.weixin.qq.com/s?__biz=MzY4NzE5MzIwOQ==&mid=2247483852&idx=1&sn=dbc33dd09a667277f1c386ddd73379ea&chksm=f2b74a856e864f556790e4b85b2e5d7ba45afa25426f3a4ee8f32ca65dd085d9b09b94729157&mpshare=1&scene=1&srcid=0329XB3GoBCyxAOaWxxdWLQH&sharer_shareinfo=61b71d4cefceed66a68224d317e3c5d5&sharer_shareinfo_first=61b71d4cefceed66a68224d317e3c5d5)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # Claude Code推荐的终端 - Ghostty Claude Code推荐的终端：为什么Ghostty成了AI编程的新标配 最近有个有趣的发现：Claude ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FyaZJic7Y9oMtWgtmImLvXCC71PfEYRMjuZfLeYAFWiaCzLEiaicMibTYYibUjs4C2YdJNl9XpAtnRZV8gCOXRckPCm1VibH4M9RSoZFC2A5tCCYkw4%2F640%3Fwx_fmt%3Dpng%26watermark%3D1%23imgInde...
 
@@ -1148,7 +1148,7 @@ Follow @allthingsaihq
 ---
 
 ### [Claude刚登顶，OpenAI就放出24小时不休息的编程AI，谁才是最强？](https://mp.weixin.qq.com/s/s31XsURGnSgpEK_RPnYB5g)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # Claude刚登顶，OpenAI就放出24小时不休息的编程AI，谁才是最强？ ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FAG8L8wHialacMvjOhd5EIVojyoD7Rq74AK1riaDyiaFbYEnNL7q10W6Nr5FmrhCl7BAlLPjibEmLfY7gBOwUAQSCCw%2F300%3Fwx_fmt%3Dpng%26wxfrom%3D19&amp;valid=false) 提供前沿、深入的AI知识与切实可行的应用技巧。 助你掌握AI核心概念、理解行业趋势，并将理论转化为实践。 2025年，AI领域出现...
 
@@ -1157,7 +1157,7 @@ Follow @allthingsaihq
 ---
 
 ### [Cursor 常用提示词手册](https://baoyu.io/translations/cursor-prompt-manual)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 1. &quot;修复错误&quot;（Fix Errors）提示 有些时候，像 Sonnet 3.5 这样的 AI 模型会忽略一些重要细节，导致一连串的错误。 可以使用下面的提示来解决这个问题。它将帮助 AI 分析错误的核心原因，然后一步步制定修复计划。 @page.tsx I got this error: Use Chain of thought reasoning to find the core issue of this error, then create a step by step plan to fix the error. ?imageUrl=https%3A%2F%2Fbaoyu.io%2...
 
@@ -1166,7 +1166,7 @@ Follow @allthingsaihq
 ---
 
 ### [Cursor+Claude3.7的绝杀：从原型到app，两步完成app开发](https://mp.weixin.qq.com/s/8STi5CntEehPiwR8rS1-Ag)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # Cursor+Claude3.7的绝杀：从原型到app，两步完成app开发 最近在X上看到了一些人在用Claude 3.7 Sonnet生成 app原型图的尝试，受到启发，发现这么先生成不同界面的原型图再让Cursor基于原型图开发app会是很好的尝试。尤其是，你也可以不两步直接生成，而是在过程中更可视化地思考你要生产的原型，这对于非专业的产品经理来说，会是好得多的方式。 我今天做了些尝试后，效果让我感到惊艳。这里给大家介绍下具体的操作方式。 我想开发一个ai自动记账app，现在需要输出原型图，请通过以下方式帮我完成app所有原型图片的设计。1、思考用户需要ai记账app实现哪些功能2、作...
 
@@ -1175,7 +1175,7 @@ Follow @allthingsaihq
 ---
 
 ### [Cursor: 以每秒 1000 个 Token 的速度编辑文件 | 宝玉的分享](https://baoyu.io/translations/cursor-editing-1000-tokens-per-second)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # Cursor: 以每秒 1000 个 Token 的速度编辑文件 | 宝玉的分享 一种新的模型和推理方法，可在 1000 tokens/s 的速率下对整个文件进行高精度编辑。 当今的一些前沿模型（如 GPT-4o）在大规模编辑上表现不佳，主要问题在于懒惰、不准确以及高延迟。 在代码代理（coding agents）中，这种弱点尤为明显。需要准确编辑数百行代码时，往往需要多次调用模型，有时甚至会陷入无限循环。即使是小且隔离的编辑也同样可能出现许多错误： https://web.archive.org/web/20240914081141o*/https://ptht05hbb1ssoooe....
 
@@ -1184,7 +1184,7 @@ Follow @allthingsaihq
 ---
 
 ### [Daily Productive Sharing 1162 - Thoughts on AGI](https://letters.acacess.com/daily-productive-sharing-1162/)
-⭐⭐⭐3 🌐 · 今天
+⭐⭐⭐3 🌐 · 昨天
 
 # Daily Productive Sharing 1162 - Thoughts on AGI 1. o3 models excel at optimizing tasks for which a reward function can be defined. Tasks like math and programming are relatively easy to design reward functions for. 2. For those fully embracing large language models (LLMs), by the end of 2025, prog...
 
@@ -1193,7 +1193,7 @@ Follow @allthingsaihq
 ---
 
 ### [DeepSeek 赋能 A 股交易：用 AI 让你快人一步！](https://mp.weixin.qq.com/s/d5QjUdnRKBfMjOgldRGA0A)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # DeepSeek 赋能 A 股交易：用 AI 让你快人一步！ 在这个信息爆炸的时代，A 股市场的风云变幻让人眼花缭乱。涨跌之间，机会与风险并存，而 真正的赢家，往往是那些能最快掌握市场动态的人。但问题是，你能看完每天几千条财经新闻？能分析市场情绪变化的细微波动？能精准判断哪些热点概念即将爆发？ Hello，大家好！我是X上的Bob。最近我自己利用deepseek分析市场和个股的工具在X引起了不少关注，也和一批又一批的推友进行了不同程度的交流。好多推友对此非常感兴趣，索性我就在深夜码字，把大家感兴趣的内容全部记录下来，分享出去。 在这个信息爆炸的时代，A 股市场的风云变幻让人眼花缭乱。涨跌之...
 
@@ -1202,7 +1202,7 @@ Follow @allthingsaihq
 ---
 
 ### [DeepSeek-R1 发布，性能对标 OpenAI o1 正式版](https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&mid=2247485487&idx=1&sn=4a02ba0a0c6c0c7a05a0765ba9acb140&chksm=c2b4059f5db1e67a1a2455487f3f40c25536468f05a9d334088ff3307bdbecb877e1a91327d1&mpshare=1&scene=1&srcid=0120TGH3FtVtdrHpZcdIBp0I&sharer_shareinfo=b0a79b807940b68ebf40c8bf62fe1eb8&sharer_shareinfo_first=9b74903e663647ca9965bf0b619faf30)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # DeepSeek-R1 发布，性能对标 OpenAI o1 正式版 更新遵循 MIT License 开放API，训练技术同步公开 今天，我们正式发布 DeepSeek-R1，并同步开源模型权重。 DeepSeek-R1 遵循 MIT License，允许用户通过蒸馏技术借助 R1 训练其他模型。 DeepSeek-R1 上线API，对用户开放思维链输出，通过设置 \`model=&#x27;deepseek-reasoner&#x27;\` 即可调用。 DeepSeek 官网与 App 即日起同步更新上线。 DeepSeek-R1 在后训练阶段大规模使用了强化学习技术，在仅有极少标注数据的情况下，极大提升了...
 
@@ -1211,7 +1211,7 @@ Follow @allthingsaihq
 ---
 
 ### [Gemini API 最新进展：Gemini 2.5 Flash &amp; Pro、Live API、Veo 2](https://mp.weixin.qq.com/s?__biz=Mzk0NDIwMTExNw==&mid=2247596384&idx=1&sn=317a34c8fdbf2015e10f1557533b42de&subscene=0)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # Gemini API 最新进展：Gemini 2.5 Flash &amp; Pro、Live API、Veo 2 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FrFWVXwibLGtyLUabFRDcQ5XAsX8lrwhFZXZOibVAiaicP02RuGEau7c8odNAwXaabkOTxV8Cj1LbtQw00VKPunB4VA%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg) 作者 / DeepMind 高级开发者关系经理 Joana Carrasqueira 今年的 Cloud Next 大会上，我...
 
@@ -1220,7 +1220,7 @@ Follow @allthingsaihq
 ---
 
 ### [Gemini on Android, The story so far](https://iurysouza.dev/gemini-on-android/?s=09)
-⭐⭐⭐3 🌐 · 今天
+⭐⭐⭐3 🌐 · 昨天
 
 # Gemini on Android, The story so far How LLMs went from hype to a core Android OS component in less than a year. Right. Another article about AI. I&#x27;m sure you&#x27;ve read enough about it so far, but chances are that if you landed here, you have at least some vague interest in it. I, for one, am very in...
 
@@ -1229,7 +1229,7 @@ Follow @allthingsaihq
 ---
 
 ### [Generative AI in a Nutshell - how to survive and thrive in the age of AI](https://bearwith.ai/generative-ai-survive-thrive/?s=09)
-⭐⭐⭐3 🌐 · 今天
+⭐⭐⭐3 🌐 · 昨天
 
 # Generative AI in a Nutshell - how to survive and thrive in the age of AI How generative AI can transform your everyday tasks, making you more productive and creative in just a coffee break&#x27;s time. How generative AI can transform your everyday tasks, making you more productive and creative in just ...
 
@@ -1238,7 +1238,7 @@ Follow @allthingsaihq
 ---
 
 ### [GitHub - HW-whistleblower/True-Story-of-Pangu: 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。](https://github.com/HW-whistleblower/True-Story-of-Pangu)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # GitHub - HW-whistleblower/True-Story-of-Pangu: 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。. Contribute to HW-whistleblower/True-Story-of-Pangu development by creating an account on GitHub. 盘古之殇：华为诺亚盘古大模型研发历程的心酸与黑暗 我是一名盘古大模型团队，华为诺亚方舟实验室的员工。 1. 现诺亚主任，前算法应用部部长，后改名为小模型实验室的主任王云鹤。前诺亚主任：姚骏（大家称姚老师）。...
 
@@ -1247,7 +1247,7 @@ Follow @allthingsaihq
 ---
 
 ### [GitHub - knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang: 讨贼王云鹤檄文](https://github.com/knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang?s=09)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # GitHub - knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang: 讨贼王云鹤檄文 讨贼王云鹤檄文. Contribute to knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang development by creating an account on GitHub. 文章license和Qwen一样，apache-2.0。 王云鹤，1991年生于黑龙江。2018年博士毕业进入华为，经历不到7年时间，于2025年2月中旬，从小模型实验室主任任上，正式顶替姚骏，被任命为诺亚方舟...
 
@@ -1256,7 +1256,7 @@ Follow @allthingsaihq
 ---
 
 ### [GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.](https://github.com/yetone/openai-translator)
-⭐⭐⭐3 🌐 · 今天
+⭐⭐⭐3 🌐 · 昨天
 
 # GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API. 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ...
 
@@ -1265,7 +1265,7 @@ Follow @allthingsaihq
 ---
 
 ### [Google 新手机发布会：Android 14，「买手机，送 AI」](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653015221&idx=1&sn=cb78e3df56ad2c6d18cb5171208c47f1&chksm=7e54b10349233815aa19ae39534f9b3cd5bcc89267bcd4854f611781ab3d2f3ea8db4df242a9&mpshare=1&scene=1&srcid=1005sAegj41H9I3bexTVgA2x&sharer_shareinfo=fd84852bc5acdd1148e2bf914d4b76dd&sharer_shareinfo_first=e8d2c75be829964b1b603c7746f9b2ea)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 # Google 新手机发布会：Android 14，「买手机，送 AI」 美国当地时间 10 月 4 日上午 10 点，Google 在纽约举行「Made by Google」活动，Pixel 8、Pixel 8Pro、Pixel Watch 2、Pixel Buds 等硬件，以及最新的 Android 14 系统逐一曝光。 除了 Pixel 8 哑光磨砂后背和防爆盾造型的 5000 万像素摄像头，当天发布会最大的亮点，你能猜到的，就是 AIGoogle 如何在旗舰手机上集成它的各种 AI 理念和功能，更让人好奇。 从超级无痕修图、画质修正再到 AI 生成壁纸，AI 渗透进了 Google ...
 
@@ -1274,7 +1274,7 @@ Follow @allthingsaihq
 ---
 
 ### [Micro-optimizations in Kotlin — 1 · Romain Guy](https://www.romainguy.dev/posts/2024/micro-optimizations-in-kotlin-1/)
-⭐⭐⭐3 🌐 · 今天
+⭐⭐⭐3 🌐 · 昨天
 
 Android 框架团队传奇工程师 Romain Guy 分享 Kotlin 微优化实践。以 Jetpack Compose 中的 Int.sign 实现为案例，从 Kotlin 源码到 dex 字节码再到 AArch64 汇编逐层分析。发现 Kotlin 标准库的 when 表达式实现生成了冗余的比较指令。三种优化方案：1) 使用 java.lang.Integer.signum() 让 ART 提供优化 intrinsic；2) 用位运算实现无分支版本；3) 等待 Kotlin 2.0 修复。附带 kotlin-explorer 工具（可视化 dex 和 ARM64 汇编）。
 
@@ -1283,168 +1283,168 @@ Android 框架团队传奇工程师 Romain Guy 分享 Kotlin 微优化实践。�
 ---
 
 ### [Updated main function](https://t.co/WrzXZR9mxi?s=09)
-⭐⭐⭐3 🌐 · 今天
+⭐⭐⭐3 🌐 · 昨天
 
 [需翻译] One thing that fascinates me about the networking world is that each layer of abstraction provides a near-perfect illusion of harmony and niceties to the layers above. For example, in this section, we will place three nodes into our virtual network. ...
 
 ---
 
 ### [[Agentic AI] 使用Cursor作为AI的通用入口](https://yage.ai/cursor-ai-entry.html)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 * Agentic AI系列1：Devin和Agent Cursor使用体验对比 * Agentic AI系列2：从智者到行者------Agentic AI的范式革命与技术架构 * Agentic AI系列3：搏一搏，$20变$500：一小时魔改Cursor变身Devin * Agentic AI系列4：使用Cursor作为AI的通用入口（本文）
 
 ---
 
 ### [‌﻿⁡⁣​‌‬﻿‍‍​​​﻿‍⁣​‌﻿‬‬⁤⁢​​​⁢​⁣‬‌​​⁣﻿⁤​⁢‬​​​‬﻿⁡​​⁢⁡​AI编程蓝皮书 - 飞书云文档](https://superhuang.feishu.cn/wiki/CBBPwvgEuicVhFkx0s7cPmhpn4e)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 ‌﻿⁡⁣​‌‬﻿‍‍​​​﻿‍⁣​‌﻿‬‬⁤⁢​​​⁢​⁣‬‌​​⁣﻿⁤​⁢‬​​​‬﻿⁡​​⁢⁡​AI编程蓝皮书 - 飞书云文档
 
 ---
 
 ### [「代码艺术家」不会被 AI 取代 | Randy&#x27;s Blog](https://lutaonan.com/blog/code-artists/)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 最近大量地使用 Cursor 替代了VS Code,开始习惯直接在编辑器里告诉AI我的需求，让它来代替我写出代码段。
 
 ---
 
 ### [一个提示词 claude 生成一个 app 的 ui/ux](https://ew6rccvpnmz.feishu.cn/wiki/ILO2waqXLi1EvqkuKHvcceMOnVd?fromScene=spaceOverview&s=09)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 如果你是程序员开发者，我们也提供了公开免费的 api：流光卡片 API 使用文档
 
 ---
 
 ### [一人两月烧完 80 亿 token $5000，我想分享些 Agent 设计与 Vibe coding 的心法](https://mp.weixin.qq.com/s?__biz=MzI2MDE1NDE0MA==&mid=2652037912&idx=1&sn=474180f9f0f799b6c44419e3c3fbb526&chksm=f04ce3d4cf109a199bad13711d31ee43a7a64b260f0ea2143929823902d00f22c4ec240efe77&mpshare=1&scene=1&srcid=0330kvYxTtq2smJM4kI2gZjp&sharer_shareinfo=ebeda262b62aa730368be4931289ad20&sharer_shareinfo_first=ebeda262b62aa730368be4931289ad20)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 一人两月烧完 80 亿 token $5000，我想分享些 Agent 设计与 Vibe coding 的心法
 
 ---
 
 ### [一份关于 AI 编程的简明行为指南](https://www.piglei.com/articles/a-simple-ai-coding-guide-for-engineers/)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 AI 编程发展迅猛，Claude Code、Codex 等 AI Agent 已成为许多软件工程师工作时必不可少的得力助手。然而，对于如何在项目中更好地实践 AI 编程，目前仍然是一副&quot;八仙过海，各显神通&quot;的模样。
 
 ---
 
 ### [不秃也变强：让 AI 当大师傅，编程和写作效率提升两三倍 | 歌词经理](https://quail.ink/lyric/p/not-bald-but-stronger-let-ai-be-the-master?s=09)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 现在的情况是，可能 50% 的代码都是 AI 写的；50% 的文案都是 AI 写的。100% 的插图都是 AI 画的。
 
 ---
 
 ### [亚马逊 AI IDE Kiro “狙击”Cursor？实测心得](https://mp.weixin.qq.com/s?__biz=MzI1ODQ3NDA2Mg==&mid=2247486540&idx=1&sn=62f6538c0776027cda76b6bc4e2a3b77&chksm=eb07c8a7fb38455af9e0602356f45813df5c088f8c174bc927e38d28dcac4c7f3d14012eacc8&mpshare=1&scene=1&srcid=07178qURrlpgMWygDIkg1rDG&sharer_shareinfo=fad4806af7f5ec5affbb2baf42052b74&sharer_shareinfo_first=fad4806af7f5ec5affbb2baf42052b74)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 最近在程序员圈子里，有个词特别火，叫 Vibe Coding（&quot;氛围编程&quot;）。带火这个词的，是一款叫做 Cursor 的 AI 编程软件，它火到什么程度呢？背后的公司 Anysphere 刚拿到一笔融资，估值就冲到了近两百亿美元，可以说是资本追着喂饭。
 
 ---
 
 ### [从 Android 专家到 Agent 工程师：我的转型实战心得（附学习路线图）](https://mp.weixin.qq.com/s?__biz=MzI1ODQ3NDA2Mg==&mid=2247487076&idx=1&sn=a83fd3df987759505ae4b60ed7af9fb6&chksm=eb3c2e45e8afc969bb13fd0a4023f8b8d7d8704da905c84cfb7f021b76226ca056c353df86f8&mpshare=1&scene=1&srcid=0212Ax6rFa7qkBmsTEioZdjU&sharer_shareinfo=ba4c582e78c4bd5a42eda471a99f2fc2&sharer_shareinfo_first=a529aca758e03acaec4205b556be0aec)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 在 2022 年以前，我一直相信，在这个行业里，只要技术栈钻得深，比如精通三方框架、熟悉 Android Framework、搞定性能优化，就能端稳饭碗。
 
 ---
 
 ### [从混乱到可控，我重构了 Cursor 的开发流程（v0.1 实战）](https://mp.weixin.qq.com/s?__biz=MzU4MDQ3MTQ0Mw==&mid=2247484120&idx=1&sn=27a6b42271ec9723def98ffa873c3b62&chksm=fc259ee96b0676fb48d5c68532d0c7f23444d64e896f07dd144f7d878a52c23fe1c0697d7f6c&mpshare=1&scene=1&srcid=0424NMEk2pMCfoyqBlM9FECT&sharer_shareinfo=f19447f86f0ca3a0d2bcac7c9e0c795f&sharer_shareinfo_first=948307e3e0d29db47166f476a2f3651b)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 从瞎试到掌控，我只做了一件事：用 AI 帮我“写清楚要做什么 + 怎么做”一、为什么我要重构我的写代码方式？
 
 ---
 
 ### [以后请叫我cursor工程师](https://mp.weixin.qq.com/s?__biz=MzA4MDAxMzQxNw==&mid=2447632187&idx=1&sn=18ac224ff3c2d913ba05f366919be96f&chksm=8bbdf63dbcca7f2bad67d27ed9b9124bdafe30c624e7691b0d123404a30e3250fa09c536a19e&mpshare=1&scene=1&srcid=0323nu4V6VDhHIwHkCrAcq1p&sharer_sharetime=1679581651042&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
-⭐⭐⭐3 🌐 · 今天
+⭐⭐⭐3 🌐 · 昨天
 
 [需翻译] 最近chatgpt很火，我也使用了好久，感觉对我学习工作帮助很大，但是chatgpt需要科学上网+账号，挺麻烦的。
 
 ---
 
 ### [使用AI自动优化网站PageSpeed性能](https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247499929&idx=1&sn=4186f86bd4c620e6c404142c3ff067fc&chksm=e838388f89e6f8b9687345382669bc42d3e7453986c4947cfad7d488d0790e764eebb842add3&mpshare=1&scene=1&srcid=1211lwGuxKjNyqv9G5Znficn&sharer_shareinfo=cb7bbf1959cceaf7b43ecb6ec2340766&sharer_shareinfo_first=cb7bbf1959cceaf7b43ecb6ec2340766)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 今天一位学生来找我报喜，他从零编程基础开始，借助AI编程来做产品，现在已经取得了相当不错的成绩，上个月挣了四万多美元。
 
 ---
 
 ### [别再只写 CLAUDE.md 了：用 Rules 重构 Claude Code 的记忆系统](https://mp.weixin.qq.com/s?__biz=MzIxNTUxNDA5NQ==&mid=2247485928&idx=1&sn=042c59f7e6d9a5ab9cd251a70cae412f&chksm=96db6386a67d57503244639a65388c43c40c7e6670073c5ea1260431946a1fab4a45a1ba9150&mpshare=1&scene=1&srcid=1211ChEBUi9jyC7vCv2mgwRO&sharer_shareinfo=17ac304b7c4d4cde32f0c44fa3eeaeff&sharer_shareinfo_first=17ac304b7c4d4cde32f0c44fa3eeaeff)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 Claude Code 支持 Rules 了，Agent 的生态在大融合了，文本化的 Skills + Rules 要占领生态位了
 
 ---
 
 ### [大厂失业后，我被迫用cursor开发出了第一款海外产品谋生](https://mp.weixin.qq.com/s?__biz=MzkxMzMyMzgyMw==&mid=2247508235&idx=1&sn=f38e8af7e4a97f30d36bbf48644ff17b&chksm=c054c64d363b59a6f63697ae765e9cebf0592375336a05da8a36524485731c93b860d6ab0d78&mpshare=1&scene=1&srcid=05069dLjdVVzg152hJhRgpzS&sharer_shareinfo=0a8f11141bd98c60acfb5ea5efbffa6d&sharer_shareinfo_first=0a8f11141bd98c60acfb5ea5efbffa6d)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 现在的就业环境有多差，大家是知道的，虽然人到中年（32岁），上有老下有小，但是这几年的大厂经历还是让我攒下了一点余粮，所以我目前的想法是想自己做一些出海的小产品，赚点老外手里的美金来维持下家用。
 
 ---
 
 ### [如何配置Clion编写aosp的c++程序使用aidegen工具编译生成cmake文件，该方法适用于无法使用asfp I - 掘金](https://juejin.cn/post/7482769108523171879)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 如何配置Clion编写aosp的c++程序使用aidegen工具编译生成cmake文件，该方法适用于无法使用asfp I - 掘金
 
 ---
 
 ### [我目前正在使用的 AI 服务 | 肘子的Swift记事本](https://www.fatbobman.com/posts/AI-Services-I-am-currently-using)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 随着 ChatGPT 的火爆，生活中好像突然之间到处都充满了有关人工智能的话题。尽管对新技术、新事物已没有那么的狂热，同时对 AI 也持有谨慎的态度，但并不影响我将一些 AI 服务应用到自己的工作中，丰富自己的工具箱，提高工作效率。
 
 ---
 
 ### [浅谈Claude Skills，Github已经5.2k Star了](https://mp.weixin.qq.com/s?__biz=Mzg5MTU1NTE1OQ==&mid=2247496737&idx=1&sn=9629efe206466651a83311ad13742c58&chksm=ce92906609f4ad8d313e63d9f3a9cfa60bfa76a6c8ede08a0a0a7f10b51d867e62a5e4b3c69a&mpshare=1&scene=1&srcid=1020vw7J0m2UAIZgijWryasu&sharer_shareinfo=9e560ff6c7b0019f73b2284efd091348&sharer_shareinfo_first=9e560ff6c7b0019f73b2284efd091348)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 https://www.zhihu.com/question/1962512846630941008/answer/1963073531265913943     （已授权）
 
 ---
 
 ### [深入 Binder 之 AIDL - Cyrus Blog](https://www.dalvik.work/2022/06/08/binder-aidl/)
-⭐⭐⭐3 🌐 · 今天
+⭐⭐⭐3 🌐 · 昨天
 
 [需翻译] 应用层从 AIDL 说起，AIDL 全称 Android Interface Definition Language，是一个用以描述/定义 接口 的文本文件，有着与 java 类似的简单语法 下面是一个非常简单的 AIDL 文件，位于 &amp;123;projectPath&amp;125;/app/src/main/aidl/work/dalvik/binder/example/IAidlExampleI
 
 ---
 
 ### [让Claude 和 Codex 告诉我需要哪些工具才能更快地运行](https://blog.chensoul.cc/posts/what-tools-it-needs-for-claude-codex)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 让 Claude Code 与 Codex 自查本机开发环境：对比二者给出的缺失工具清单，并补齐 ripgrep、fd、fzf 等与 AI 协作相关的 CLI 工具链。
 
 ---
 
 ### [译：AI 正在创造一代文盲程序员 – 云谦的博客](https://sorrycc.com/ai-illiterate-programmers/)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 &gt; 原文：&lt;https://nmn.gl/blog/ai-illiterate-programmers&gt;   &gt; 作者：Namanyay   &gt; 译者：ChatGPT 4 Turbo
 
 ---
 
 ### [谈谈最近玩 AI 的体悟](https://www.bmms.me/blog/recent-insights-on-ai-exploration?s=09)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 本文探讨了AI工具在工作流中的应用及其潜在的边界。通过亲身实践与深度思考，我总结出在AI时代，定义和描述问题的软性能力将成为不可或缺的竞争力。
 
 ---
 
 ### [超级实用！这6大&quot;Skills&quot; 可把 Anthropic Claude Code生产力拉升 50%](https://mp.weixin.qq.com/s?__biz=MzA3MzgzMjA3NA==&mid=2650775721&idx=1&sn=2da480a7aabf68c6ba7d3fe16eccd352&chksm=86751d03275201593e8ef1374bfacd72eb6b7806b790c35874efcd6cf8601e941fc146341c3d&mpshare=1&scene=1&srcid=1229akw1HSF9lJwM5m8Co2hf&sharer_shareinfo=4b78a819a5900c81619edfa0e4b90516&sharer_shareinfo_first=4b78a819a5900c81619edfa0e4b90516)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 超级实用！这6大&quot;Skills&quot; 可把 Anthropic Claude Code生产力拉升 50%
 
 ---
 
 ### [闲谈 0005｜AI编程只会淘汰初级工程师？](https://mp.weixin.qq.com/s/X4oH_KrDjR2m-N6dtXYgag)
-⭐⭐⭐3 🇨🇳 · 今天
+⭐⭐⭐3 🇨🇳 · 昨天
 
 但是有个问题值得我们思考的：一个初中级的员工+好奇心/学习能力+AI编程工具，产生的价值是会不会可能大于等于一个“高工”呢？
 
