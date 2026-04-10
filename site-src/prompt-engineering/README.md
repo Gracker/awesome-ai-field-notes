@@ -1,12 +1,13 @@
 # ✨ 提示工程
 
-Prompt Engineering — 共 5 条活跃资源
+Prompt Engineering — 共 6 条活跃资源
 
-## 提示技术 (3)
+## 提示技术 (4)
 
 - [像 Rust Arena Allocator 一样管理上下文](https://x.com/blackanger/status/2027345330505924638) by @blackanger — Agent 上下文管理 = Rust Arena Allocator：append-only、空间局部性、批量释放 `context-management` `rust` `arena-allocator` `agent-design` `prompt-engineering` 🇨🇳
 - [Agent-Skills-for-Context-Engineering：面向上下文工程的开放技能库](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) by @泊舟 — 上下文工程的开放技能库，按需加载、平台无关 `context-engineering` `skills` `agent` `claude-code` `cursor` 🌍
 - [How to master prompt engineering](https://x.com/EXM7777/article/2011800604709175808) by @Machina — Prompt 工程的本质是精确的意图建模，不是文字技巧 `prompt-engineering` `mental-model` `precision` `structure` 🌐
+- [去 AI 味的方法 - Agent Skills 写作风格](https://x.com/gkxspace/status/2023173476702728479) by @余温 — 实用的去 AI 味方法论：用 Agent Skills 迭代逼近个人写作风格，比提示词更持久有效。 `AI写作` `Agent Skills` `去AI味` `写作风格` `Claude Code` 🇨🇳
 
 ## 系统提示词 (2)
 

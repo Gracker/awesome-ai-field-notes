@@ -1,6 +1,6 @@
 # 技能与工作流
 
-Skills & Workflows — 8 条活跃资源
+Skills & Workflows — 17 条活跃资源
 
 ### [从 Vibe Coding 到 Agentic Engineering：开发者角色正在重写](https://x.com/yanhua1010/status/2028737821855580662) 
 by @yanhua1010 (2026-03-03) | ⭐⭐⭐⭐⭐ 5/5 | 🌍
@@ -54,6 +54,24 @@ by @Yanhua (2026-03-06) | ⭐⭐⭐⭐⭐ 5/5 | 🇨🇳
  `claude` `memory` `skill` `context-management` `archive` `x-bookmarks`
 
 ---
+### [Your LLM Doesn't Write Correct Code. It Writes Plausible Code.](https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code) 
+by @Hōrōshi バガボンド (2026-03-07) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
+
+**用极端案例精准揭示了 LLM 代码生成的核心缺陷：表面正确 ≠ 实际正确。**
+
+通过一个极端案例（LLM 重写的 Rust SQLite 实现比原版慢 20,171 倍）揭示 LLM 生成代码的核心问题：优化表面正确性而非实际正确性。详细拆解了两个关键 Bug（缺失 ipk 检查导致 O(n²) vs O(log n)、每次语句都 fsync），以及五个复合性能问题。引用 METR 随机对照试验（AI 用户慢 19%）、GitClear 分析（复制粘贴首次超过重构）等研究，论证 LLM 的 sycophancy 问题。结论：代码不是你的，直到你能自己找到其中的 bug。
+ `LLM` `代码质量` `SQLite` `性能` `AI对齐` `sycophancy`
+
+---
+### [ClaudeCode 源码深度研究报告](https://x.com/tvytlx/status/2038939480892346699) 
+by @Xiao Tan (2026-04-05) | ⭐⭐⭐⭐⭐ 5/5 | 🇨🇳
+
+**4756 个源码文件拆出的 Claude Code 架构全景：prompt 动态拼装、Agent 分工、工具治理 pipeline。**
+
+从 Claude Code 泄露的 npm 包中提取 4756 个源码文件的深度拆解。核心发现：system prompt 是动态拼装的（静态宪法 + 动态当期政策），有 cache 边界设计（SYSTEM_PROMPT_DYNAMIC_BOUNDARY）优化 token 经济学；6 个内建 Agent（General、Explore 只读、Plan 只读、Verification adversarial、Guide、Statusline），实现者与验证者分离；工具调用经过 14 步 pipeline（输入校验→风险预判→权限决策→Hook→执行→post-processing）；三套扩展机制（Skill/Plugin/MCP）都让模型感知到自己的能力清单。五条设计原则：不信任模型自觉性、角色拆开、工具治理、上下文是预算、生态关键是模型感知。
+ `Claude Code` `源码分析` `Agent架构` `系统设计` `上下文管理`
+
+---
 ### [Waza：AI 时代工程师的 8 个核心技能工具集](https://x.com/HiTw93/status/2041053321851789629) 
 by @HiTw93 (2026-04-06) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
 
@@ -93,6 +111,42 @@ The repository serves as a unified hub of papers, code, demos, and benchmark upd
  `agent` `multi-agent` `benchmark` `automation` `github`
 
 ---
+### [BestBlogs.dev 第 85 期：驾驭工程](https://x.com/hongming731/article/2029843882037715433) 
+by @ginobefun (2026-03-06) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**目前对 AI 时代软件工程范式转移最全面的中文综述，信息密度极高。**
+
+BestBlogs.dev 第 85 期以"驾驭工程"为核心关键词，提出开发者核心工作正从写代码转向构建 Agent 运行所依赖的驾驭工程体系。涵盖 GPT-5.4 发布（首次将推理、编程、计算机操作、深度搜索整合进单一模型）、Qwen3.5 小模型、FireRed-OCR、Martin Fowler 博客上关于 Harness Engineering 的系统性讨论（人在回路上 vs 人在回路中）、以及 Anthropic 设计负责人 Jenny Wen 对设计流程变革的判断。核心结论：执行力不再稀缺，稀缺的是知道该做什么以及判断什么是好的。
+ `AI工程` `驾驭工程` `GPT-5.4` `Coding Agent` `Claude Code` `Agent架构`
+
+---
+### [My Chief of Staff, Claude Code](https://x.com/jimprosser/article/2029699731539255640) 
+by @Jim Prosser (2026-03-08) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**非程序员用 Claude Code 36 小时搭出完整幕僚长系统，证明系统思维 > 编程能力。**
+
+一位非程序员的技术传播顾问用 Claude Code 在 36 小时内构建了完整的个人幕僚长系统：隔夜自动扫描日历和邮件、早晨 6:15 任务分类（绿/黄/红/灰四档）、6 个子 Agent 并行处理（邮件起草、Obsidian 客户笔记、会议安排、背景研究）、Stream Deck 一键时间块调度。核心设计原则：dispatch/prep/yours/skip 框架，系统从不发送邮件只起草，关键战略文档 100% 人工。月成本仅 $5-10 增量。文章价值在于展示了一个非程序员如何用系统思维（而非编程能力）设计 AI 自动化架构。
+ `Claude Code` `自动化` `子Agent` `任务管理` ` productivity` `系统设计`
+
+---
+### [How Coding Agents Are Reshaping Engineering, Product and Design](https://x.com/hwchase17/status/2031051115169808685) 
+by @Harrison Chase (2026-03-09) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**LangChain 创始人对 Agent 时代 EPD 角色重塑的清晰判断：Builder vs Reviewer 二分法。**
+
+LangChain 创始人 Harrison Chase 分析 Coding Agent 对工程、产品、设计三大职能的重塑：PRD 流程已死（不再需要 PRD→Mock→Code 的瀑布流），瓶颈从实现转向审查，通用型人才比以往更有价值。核心框架：Builder（用好 coding agent + 产品思维 + 基础设计直觉）vs Reviewer（深度系统思维 + 快速审查能力）。关键判断：coding agent 是必需品而非可选品；好人更好，坏人更坏（差的产品想法现在能快速产生原型但浪费更多审查资源）；系统思维是关键差异化能力。
+ `Coding Agent` `EPD` `产品开发` `系统思维` `LangChain`
+
+---
+### [Claude Code .claude/ 文件夹完全指南](https://x.com/akshay_pachaar/status/2035341800739877091) 
+by @Akshay Pachaar (2026-03-23) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Claude Code .claude/ 目录的完整参考，从 CLAUDE.md 到 Skills/Agents/Commands 全覆盖。**
+
+Claude Code .claude/ 文件夹的完整解剖指南：项目级 vs 全局级两个目录、CLAUDE.md（200 行以内，只写项目特有内容）、rules/（路径范围规则模块化）、commands/（自定义斜杠命令，支持嵌入 shell 命令和参数）、skills/（自动触发工作流，与 commands 区别是自动识别触发）、agents/（独立上下文窗口的子 agent，可限制工具和指定模型）、settings.json（allow/deny 权限控制）。推荐：95% 的项目只需要 CLAUDE.md + settings.json + 1-2 个 commands。
+ `Claude Code` `CLAUDE.md` `配置指南` `Skills` `Commands` `Agents`
+
+---
 ### [Claude Code 半小时改出 Obsidian Minimal 风博客](https://x.com/onlyice0328/status/2026261405788405767) 
 by @zhl (2026-02-25) | ⭐⭐⭐ 3/5 | 🇨🇳
 
@@ -100,5 +154,32 @@ by @zhl (2026-02-25) | ⭐⭐⭐ 3/5 | 🇨🇳
 
 直接让 Claude Code 按 Obsidian Minimal Theme 风格改 CSS 与布局，约半小时完成。关键要点：先给 AI 明确目标风格、限定可改范围（CSS/布局/装饰）、人工验收可读性/层级/移动端。低成本提质的高 ROI 实战经验。
  `claude-code` `obsidian` `css` `blog` `vibe-coding`
+
+---
+### [CLAUDE CODE 橙皮书开源（75页）](https://x.com/AlchainHust/status/2039169585979539625) 
+by @AlchainHust (2026-04-06) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**75 页 Claude Code 实战手册开源，从安装到独立产品，面向 AI 编程入门者。**
+
+AI 进化论-花生开源的 75 页《CLAUDE CODE 橙皮书》实战手册，面向想用 AI 编程但不知道从哪开始的人。10 章内容覆盖：核心工作流（Plan/Auto 模式、权限管理）、CLAUDE.md 写法、Skills/Hooks/MCP 扩展能力、多 Agent 并行协作、Computer Use 和 Voice Mode、一章完整的从零到上线产品实战。信息源来自 Claude 官方文档、Boris Cherny 分享、吴恩达 Claude Code 课程及作者用 CC 做十几个产品的经验。
+ `Claude Code` `橙皮书` `实战手册` `开源` `AI编程`
+
+---
+### [graphify — Claude Code 的图谱 Skill](https://x.com/QingQ77/status/2041113437812511192) 
+by @Geek Lite (2026-04-06) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Claude Code 知识图谱 Skill，71.5x token 压缩率，多模态输入自动生成可查询图谱。**
+
+Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知识图谱。多模态提取：tree-sitter 解析代码、Claude vision 看图片、LLM 读 PDF。每条边标注 EXTRACTED/INFERRED/AMBIGUOUS 三种可信度，在 52 文件场景下实现 71.5x token 压缩率。输出支持交互式 HTML、Obsidian vault、可 Agent 读取的 wiki、持久化 JSON 跨 session 可查询。
+ `Claude Code` `知识图谱` `Skill` `tree-sitter` `代码分析`
+
+---
+### [Claude Code 这些功能，用了就回不去了](https://x.com/sitinme/status/2040622970432045350) 
+by @sitinme (2026-04-06) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Boris Cherny 亲授的 Claude Code 进阶技巧合集，验证 + 并行 + 自动化是三大关键。**
+
+基于 Claude Code 创始人 Boris Cherny 分享的技巧整理的实战指南。核心要点：给 Claude 验证机会（装 Chrome 扩展/Playwright MCP 让它自己看效果，输出质量提升 2-3 倍）；同时开 3-5 个 git worktree 并行；/remote-control 手机遥控；/loop 定时循环和 /schedule 持久化任务；Hooks 是确定性的（绕不过去），CLAUDE.md 规则是建议性的（压力大可能跳过）；/btw 插队提问不进历史；/batch 大规模迁移神器（AI 军团式编程）；/model opus 切换模型省 token。
+ `Claude Code` `Boris Cherny` `使用技巧` `worktree` `并行` `自动化`
 
 ---

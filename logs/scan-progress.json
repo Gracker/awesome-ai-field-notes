@@ -1,11 +1,27 @@
 {
-  "batch": "1/4",
-  "files_scanned": 60,
-  "entries_added": 58,
-  "files_skipped_non_ai": 2,
-  "skipped_files": [
-    "2026-02-26-2017-garyvee-The-Era-of-the-Individual-Empire-Is-Here (纯社交媒体/个人品牌,无AI技术内容)",
-    "2026-02-26-2017-jinglian-2026最新-X-收益曝光量详解 (X平台收益规则,无AI内容)"
+  "task": "X文章 scan",
+  "batches": [
+    {
+      "batch": 1,
+      "files": "1-60",
+      "status": "done",
+      "entries_added": 58
+    },
+    {
+      "batch": 2,
+      "files": "61-120",
+      "status": "done",
+      "entries_added": 44
+    },
+    {
+      "batch": 3,
+      "files": "121-188",
+      "status": "pending",
+      "entries_added": 0
+    }
   ],
-  "completed_at": "2026-04-10T12:50:00+08:00"
+  "total_files": 188,
+  "total_scanned": 120,
+  "total_entries": 102,
+  "last_updated": "2026-04-10"
 }

@@ -1,6 +1,6 @@
 # 💻 AI 编程
 
-Coding AI — 共 28 条活跃资源
+Coding AI — 共 37 条活跃资源
 
 ## IDE与编辑器 (2)
 
@@ -31,13 +31,22 @@ Coding AI — 共 28 条活跃资源
 - [Claude Code + Codex 双模型审查流程](https://x.com/runes_leo/status/2027269214524903892) by @Leo — 双模型代码审查：Opus 写、Codex 审，消除盲区 `claude-code` `codex` `code-review` `mcp` `dual-model` 🇨🇳
 - [从 MCP 到 SKILL：关于 Agent 扩展机制的思考](https://x.com/jolestar/status/2011461813767155828) by @jolestar — Agent 相关：从 MCP 到 SKILL：关于 Agent 扩展机制的思考 `mcp` `agent` `prompt-engineering` `skill` `coding` 🌍
 
-## 技能与工作流 (8)
+## 技能与工作流 (17)
 
 - [从 Vibe Coding 到 Agentic Engineering：开发者角色正在重写](https://x.com/yanhua1010/status/2028737821855580662) by @yanhua1010 — Agent 相关：从 Vibe Coding 到 Agentic Engineering：开发者角 `claude` `agent` `karpathy` `vibe-coding` `agentic` 🌍
 - [The Ultimate Beginner's Guide to Claude (March 2026)](https://x.com/aiedge_/status/2029233676111008061) by @AIEdge — Claude 相关：The Ultimate Beginner's Guide to Claude  `claude` `prompt-engineering` `skill` `context-management` `Claude` 🌍
 - [Claude 终极入门指南：100 小时实测，一篇讲透](https://x.com/yanhua1010/status/2029748928091148665) by @Yanhua — Claude 相关：Claude 终极入门指南：100 小时实测，一篇讲透 `claude` `memory` `skill` `context-management` `archive` 🇨🇳
+- [Your LLM Doesn't Write Correct Code. It Writes Plausible Code.](https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code) by @Hōrōshi バガボンド — 用极端案例精准揭示了 LLM 代码生成的核心缺陷：表面正确 ≠ 实际正确。 `LLM` `代码质量` `SQLite` `性能` `AI对齐` 🌐
+- [ClaudeCode 源码深度研究报告](https://x.com/tvytlx/status/2038939480892346699) by @Xiao Tan — 4756 个源码文件拆出的 Claude Code 架构全景：prompt 动态拼装、Agent 分工、工具治理 pipeline。 `Claude Code` `源码分析` `Agent架构` `系统设计` `上下文管理` 🇨🇳
 - [Waza：AI 时代工程师的 8 个核心技能工具集](https://x.com/HiTw93/status/2041053321851789629) by @HiTw93 — 一套面向 AI 时代工程师的 8 技能工具集，覆盖思考到维护全流程 `openclaw` `skills` `agent` `engineering` `workflow` 🇨🇳
 - [What spec-driven development gets wrong](https://x.com/augmentcode/status/2025993446633492725) by @Augment Code — 静态规范是 Agent 的陷阱，应该是人机共维护的活文档 `spec-driven` `agent` `software-development` `stale-specs` `co-maintenance` 🌐
 - [Superpowers: 编码 Agent 的完整软件开发生命周期工作流](https://github.com/obra/superpowers) by @Obra — 编码 Agent 的完整 SDLC 工作流，TDD+子Agent 自动执行 `superpowers` `skills` `tdd` `subagent` `software-development` 🌐
 - [X-PLUG/MobileAgent](https://github.com/X-PLUG/MobileAgent") by @XPLUG — Agent 相关：X-PLUG/MobileAgent `agent` `multi-agent` `benchmark` `automation` `github` 🌍
+- [BestBlogs.dev 第 85 期：驾驭工程](https://x.com/hongming731/article/2029843882037715433) by @ginobefun — 目前对 AI 时代软件工程范式转移最全面的中文综述，信息密度极高。 `AI工程` `驾驭工程` `GPT-5.4` `Coding Agent` `Claude Code` 🇨🇳
+- [My Chief of Staff, Claude Code](https://x.com/jimprosser/article/2029699731539255640) by @Jim Prosser — 非程序员用 Claude Code 36 小时搭出完整幕僚长系统，证明系统思维 > 编程能力。 `Claude Code` `自动化` `子Agent` `任务管理` ` productivity` 🌐
+- [How Coding Agents Are Reshaping Engineering, Product and Design](https://x.com/hwchase17/status/2031051115169808685) by @Harrison Chase — LangChain 创始人对 Agent 时代 EPD 角色重塑的清晰判断：Builder vs Reviewer 二分法。 `Coding Agent` `EPD` `产品开发` `系统思维` `LangChain` 🌐
+- [Claude Code .claude/ 文件夹完全指南](https://x.com/akshay_pachaar/status/2035341800739877091) by @Akshay Pachaar — Claude Code .claude/ 目录的完整参考，从 CLAUDE.md 到 Skills/Agents/Commands 全覆盖。 `Claude Code` `CLAUDE.md` `配置指南` `Skills` `Commands` 🌐
 - [Claude Code 半小时改出 Obsidian Minimal 风博客](https://x.com/onlyice0328/status/2026261405788405767) by @zhl — Claude Code 半小时搞定博客样式改造的实战案例 `claude-code` `obsidian` `css` `blog` `vibe-coding` 🇨🇳
+- [CLAUDE CODE 橙皮书开源（75页）](https://x.com/AlchainHust/status/2039169585979539625) by @AlchainHust — 75 页 Claude Code 实战手册开源，从安装到独立产品，面向 AI 编程入门者。 `Claude Code` `橙皮书` `实战手册` `开源` `AI编程` 🇨🇳
+- [graphify — Claude Code 的图谱 Skill](https://x.com/QingQ77/status/2041113437812511192) by @Geek Lite — Claude Code 知识图谱 Skill，71.5x token 压缩率，多模态输入自动生成可查询图谱。 `Claude Code` `知识图谱` `Skill` `tree-sitter` `代码分析` 🇨🇳
+- [Claude Code 这些功能，用了就回不去了](https://x.com/sitinme/status/2040622970432045350) by @sitinme — Boris Cherny 亲授的 Claude Code 进阶技巧合集，验证 + 并行 + 自动化是三大关键。 `Claude Code` `Boris Cherny` `使用技巧` `worktree` `并行` 🇨🇳

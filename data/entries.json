@@ -3253,6 +3253,700 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "bm07nb7r",
+      "title": "BestBlogs.dev 第 85 期：驾驭工程",
+      "url": "https://x.com/hongming731/article/2029843882037715433",
+      "source": {
+        "platform": "x",
+        "author": "ginobefun",
+        "original_date": "2026-03-06"
+      },
+      "category": "coding-ai/skills-workflows",
+      "tags": [
+        "AI工程",
+        "驾驭工程",
+        "GPT-5.4",
+        "Coding Agent",
+        "Claude Code",
+        "Agent架构"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "BestBlogs.dev 第 85 期以\"驾驭工程\"为核心关键词，提出开发者核心工作正从写代码转向构建 Agent 运行所依赖的驾驭工程体系。涵盖 GPT-5.4 发布（首次将推理、编程、计算机操作、深度搜索整合进单一模型）、Qwen3.5 小模型、FireRed-OCR、Martin Fowler 博客上关于 Harness Engineering 的系统性讨论（人在回路上 vs 人在回路中）、以及 Anthropic 设计负责人 Jenny Wen 对设计流程变革的判断。核心结论：执行力不再稀缺，稀缺的是知道该做什么以及判断什么是好的。",
+      "summary_en": null,
+      "one_liner": "目前对 AI 时代软件工程范式转移最全面的中文综述，信息密度极高。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/2026-03-06-2024-ginobefun-BestBlogs85期-驾驭工程-2029843882037715433.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ud05ywye",
+      "title": "Your LLM Doesn't Write Correct Code. It Writes Plausible Code.",
+      "url": "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code",
+      "source": {
+        "platform": "x",
+        "author": "Hōrōshi バガボンド",
+        "original_date": "2026-03-07"
+      },
+      "category": "coding-ai/skills-workflows",
+      "tags": [
+        "LLM",
+        "代码质量",
+        "SQLite",
+        "性能",
+        "AI对齐",
+        "sycophancy"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "通过一个极端案例（LLM 重写的 Rust SQLite 实现比原版慢 20,171 倍）揭示 LLM 生成代码的核心问题：优化表面正确性而非实际正确性。详细拆解了两个关键 Bug（缺失 ipk 检查导致 O(n²) vs O(log n)、每次语句都 fsync），以及五个复合性能问题。引用 METR 随机对照试验（AI 用户慢 19%）、GitClear 分析（复制粘贴首次超过重构）等研究，论证 LLM 的 sycophancy 问题。结论：代码不是你的，直到你能自己找到其中的 bug。",
+      "summary_en": "An extreme case study showing an LLM-rewritten Rust SQLite implementation running 20,171x slower than the original. Analyzes two critical bugs (missing ipk check causing O(n²), fsync on every statement) and five compound performance issues. Cites METR's RCT showing AI users were 19% slower, GitClear's analysis showing copy-pasted code exceeding refactoring for the first time, and Google's DORA 2024 report. Core insight: LLMs optimize for plausibility over correctness, a form of sycophancy.",
+      "one_liner": "用极端案例精准揭示了 LLM 代码生成的核心缺陷：表面正确 ≠ 实际正确。",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "X 文章/2026-03-07-1222-Hōrōshi-バガボンド-Your-LLM-Doesnt-Write-Correct-Code-It-Writes-Plaus-2029928471632224486.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aakm0n26",
+      "title": "My Chief of Staff, Claude Code",
+      "url": "https://x.com/jimprosser/article/2029699731539255640",
+      "source": {
+        "platform": "x",
+        "author": "Jim Prosser",
+        "original_date": "2026-03-08"
+      },
+      "category": "coding-ai/skills-workflows",
+      "tags": [
+        "Claude Code",
+        "自动化",
+        "子Agent",
+        "任务管理",
+        " productivity",
+        "系统设计"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "一位非程序员的技术传播顾问用 Claude Code 在 36 小时内构建了完整的个人幕僚长系统：隔夜自动扫描日历和邮件、早晨 6:15 任务分类（绿/黄/红/灰四档）、6 个子 Agent 并行处理（邮件起草、Obsidian 客户笔记、会议安排、背景研究）、Stream Deck 一键时间块调度。核心设计原则：dispatch/prep/yours/skip 框架，系统从不发送邮件只起草，关键战略文档 100% 人工。月成本仅 $5-10 增量。文章价值在于展示了一个非程序员如何用系统思维（而非编程能力）设计 AI 自动化架构。",
+      "summary_en": "A 43-year-old non-programmer built a complete chief-of-staff system in 36 hours using Claude Code: overnight calendar/email scanning, 6:15 AM task triage with 4 categories, 6 parallel sub-agents (drafting emails, Obsidian notes, scheduling, research), one-click time-block scheduling via Stream Deck. Key principle: dispatch/prep/yours/skip framework; system never sends emails, only drafts. Monthly incremental cost: $5-10. The value is showing how systems thinking (not coding skill) drives effective AI automation architecture.",
+      "one_liner": "非程序员用 Claude Code 36 小时搭出完整幕僚长系统，证明系统思维 > 编程能力。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/2026-03-08-0800-JimProsser-My-Chief-of-Staff-Claude-Code-2029699731539255640.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b75mu5rc",
+      "title": "I Want to Become an AI Engineer (Full Course)",
+      "url": "https://x.com/hooeem/status/2029660075774574660",
+      "source": {
+        "platform": "x",
+        "author": "hoeem",
+        "original_date": "2026-03-05"
+      },
+      "category": "tutorials-learning/getting-started",
+      "tags": [
+        "AI工程",
+        "Prompt Engineering",
+        "Context Engineering",
+        "Intent Engineering",
+        "MCP",
+        "RAG"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "一篇 4800+ 字的 AI 工程师全栈学习指南，提出三层架构：Prompt Engineering（微语法，控制即时指令）→ Context Engineering（乘数，MCP + Context as Code + RAG 管道）→ Intent Engineering（差异化，组织目标编码）。用 Klarna 客服 AI 的失败案例（节省 $60M 但因 intent gap 被迫重新雇人）论证意图工程的重要性。提供 7 组件意图框架和大量可复用 prompt 模板，覆盖结构化格式、Few-Shot、CoT、元提示词、上下文审计、RAG 架构设计、MCP Server 蓝图等。",
+      "summary_en": "A 4,800+ word full-stack AI engineer learning guide proposing three layers: Prompt Engineering (micro-syntax) → Context Engineering (multiplier, MCP + Context as Code + RAG) → Intent Engineering (differentiator, encoding organizational purpose). Uses Klarna's $60M AI failure as case study for the intent gap. Includes a 7-component intent framework and reusable prompt templates covering structural formatting, few-shot, CoT, meta-prompting, context auditing, RAG architecture, and MCP server blueprint.",
+      "one_liner": "从 Prompt 到 Intent 的三层 AI 工程架构图，附大量实战模板，适合系统性入门。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/2026-03-12-0804-hoeem-I want to become an AI engineer (full course)-2029660075774574660.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1y45plki",
+      "title": "How Coding Agents Are Reshaping Engineering, Product and Design",
+      "url": "https://x.com/hwchase17/status/2031051115169808685",
+      "source": {
+        "platform": "x",
+        "author": "Harrison Chase",
+        "original_date": "2026-03-09"
+      },
+      "category": "coding-ai/skills-workflows",
+      "tags": [
+        "Coding Agent",
+        "EPD",
+        "产品开发",
+        "系统思维",
+        "LangChain"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "LangChain 创始人 Harrison Chase 分析 Coding Agent 对工程、产品、设计三大职能的重塑：PRD 流程已死（不再需要 PRD→Mock→Code 的瀑布流），瓶颈从实现转向审查，通用型人才比以往更有价值。核心框架：Builder（用好 coding agent + 产品思维 + 基础设计直觉）vs Reviewer（深度系统思维 + 快速审查能力）。关键判断：coding agent 是必需品而非可选品；好人更好，坏人更坏（差的产品想法现在能快速产生原型但浪费更多审查资源）；系统思维是关键差异化能力。",
+      "summary_en": "LangChain founder Harrison Chase analyzes how coding agents reshape Engineering, Product, and Design: PRD process is dead, bottleneck shifts from implementation to review, generalists are more valuable than ever. Core framework: Builder (coding agent + product sense + baseline design) vs Reviewer (deep systems thinking + fast review). Key judgment: coding agents are a requirement; good PMs are great, bad PMs are terrible; system thinking is the differentiator.",
+      "one_liner": "LangChain 创始人对 Agent 时代 EPD 角色重塑的清晰判断：Builder vs Reviewer 二分法。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/2026-03-12-0804-Harrison Chase-How Coding Agents Are Reshaping Engineering, Product and Design-2031051115169808685.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ggh39whe",
+      "title": "搜索外脑接入龙虾生态 - SearxNG 方案",
+      "url": "https://x.com/YuLin807/status/2030996280051462609",
+      "source": {
+        "platform": "x",
+        "author": "QingYue",
+        "original_date": "2026-03-09"
+      },
+      "category": "agent-frameworks/orchestration",
+      "tags": [
+        "OpenClaw",
+        "SearxNG",
+        "搜索",
+        "MCP",
+        "隐私",
+        "本地部署"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "OpenClaw 用户分享将 SearxNG 聚合搜索引擎接入龙虾生态（Claude Code + MCP）的方案。核心判断：LLM 叠 LLM 是反模式（Perplexica 的搜索→小模型总结→返回链路等于让实习生帮主刀医生看片子），正确做法是 SearxNG 毫秒级返回原始搜索结果，让大模型自己判断哪条值得深入。方案特点：零 API key、零成本、全隐私，聚合 70+ 搜索源，含反爬实战经验（Reddit/知乎绕过方案）。",
+      "summary_en": null,
+      "one_liner": "OpenClaw + SearxNG 搜索外脑方案，核心洞察是\"LLM 叠 LLM 是反模式\"。",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-03-12-0804-QingYue-搜索外脑接入龙虾生态 - SearxNG 方案-2030996280051462609.md",
+      "images": [
+        "https://pbs.twimg.com/media/HC-Ln3GaUAAI4Nx.jpg?name=orig"
+      ],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ez9vv62c",
+      "title": "去 AI 味的方法 - Agent Skills 写作风格",
+      "url": "https://x.com/gkxspace/status/2023173476702728479",
+      "source": {
+        "platform": "x",
+        "author": "余温",
+        "original_date": "2026-02-15"
+      },
+      "category": "prompt-engineering/techniques",
+      "tags": [
+        "AI写作",
+        "Agent Skills",
+        "去AI味",
+        "写作风格",
+        "Claude Code"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "宝玉老师分享的去 AI 味方法：给 AI 一份持续更新的\"写作风格 Skill\"（几十到上百行），定义用词偏好、句式习惯、禁止清单、标点规范。具体步骤：1）用 AI 分析自己满意的原创文章生成初版 Skill；2）用 Skill 写一篇文章后自己逐句修改；3）把 AI 原文和修改版发给 AI 分析差异规律并更新 Skill；4）反复迭代，第一次改一半以上，第三次核心风格开始对，第十次 AI 的输出比你自己写的还像你的风格。核心观点：提示词是死的，Skill 是活的，越用越精确。",
+      "summary_en": null,
+      "one_liner": "实用的去 AI 味方法论：用 Agent Skills 迭代逼近个人写作风格，比提示词更持久有效。",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-03-12-0804-余温-去 AI 味的方法 - Agent Skills 写作风格-2023173476702728479.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9cbi80c7",
+      "title": "Claude Code .claude/ 文件夹完全指南",
+      "url": "https://x.com/akshay_pachaar/status/2035341800739877091",
+      "source": {
+        "platform": "x",
+        "author": "Akshay Pachaar",
+        "original_date": "2026-03-23"
+      },
+      "category": "coding-ai/skills-workflows",
+      "tags": [
+        "Claude Code",
+        "CLAUDE.md",
+        "配置指南",
+        "Skills",
+        "Commands",
+        "Agents"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "Claude Code .claude/ 文件夹的完整解剖指南：项目级 vs 全局级两个目录、CLAUDE.md（200 行以内，只写项目特有内容）、rules/（路径范围规则模块化）、commands/（自定义斜杠命令，支持嵌入 shell 命令和参数）、skills/（自动触发工作流，与 commands 区别是自动识别触发）、agents/（独立上下文窗口的子 agent，可限制工具和指定模型）、settings.json（allow/deny 权限控制）。推荐：95% 的项目只需要 CLAUDE.md + settings.json + 1-2 个 commands。",
+      "summary_en": null,
+      "one_liner": "Claude Code .claude/ 目录的完整参考，从 CLAUDE.md 到 Skills/Agents/Commands 全覆盖。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/2026-03-23-1055-Claude-Code-claude文件夹完全指南-2035341800739877091.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "nha3a46y",
+      "title": "LLM Knowledge Bases",
+      "url": "https://x.com/karpathy/status/2039805659525644595",
+      "source": {
+        "platform": "x",
+        "author": "Andrej Karpathy",
+        "original_date": "2026-04-05"
+      },
+      "category": "rag-knowledge/knowledge-graphs",
+      "tags": [
+        "LLM",
+        "知识库",
+        "Obsidian",
+        "Markdown",
+        "RAG",
+        "个人知识管理"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "Karpathy 分享他用 LLM 构建个人知识库的工作流：raw/ 目录存放原始文档，LLM 增量\"编译\"成 .md wiki（含摘要、反向链接、概念分类文章）；用 Obsidian 作为 IDE 前端查看原始数据、编译产物和可视化；wiki 达到约 100 篇文章/40 万字后，可以直接向 LLM agent 提问复杂问题。关键发现：不需要 fancy RAG，LLM 自己会维护索引文件和文档摘要。输出形式包括 Markdown 文件、幻灯片（Marp 格式）、matplotlib 图像。还会用 LLM 做 wiki 健康检查（不一致数据、缺失数据、新文章候选）。",
+      "summary_en": "Karpathy shares his workflow for building personal knowledge bases with LLMs: raw documents indexed into raw/, LLM incrementally compiles into .md wiki with summaries, backlinks, and categorized articles; Obsidian as IDE frontend; at ~100 articles/400K words, can ask complex questions against the wiki. Key finding: no fancy RAG needed, LLM auto-maintains index files. Output includes markdown, slides (Marp), matplotlib images. Also runs LLM health checks for inconsistencies and missing data.",
+      "one_liner": "Karpathy 的 LLM 知识库工作流：把 raw data 编译成 wiki，用 Obsidian 查看，不需要 fancy RAG。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/2026-04-05-1215-AndrejKarpathy-LLM-Knowledge-Bases.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "hjiptobw",
+      "title": "你不知道的大模型训练：原理、路径与新实践",
+      "url": "https://x.com/HiTw93/status/2040047268221608281",
+      "source": {
+        "platform": "x",
+        "author": "Tw93",
+        "original_date": "2026-04-05"
+      },
+      "category": "models-providers/model-architecture",
+      "tags": [
+        "大模型训练",
+        "预训练",
+        "后训练",
+        "RLHF",
+        "蒸馏",
+        "Agent训练",
+        "GRPO"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "Tw93 继 Claude Code 和 Agent 深度分析后的第三篇长文，系统梳理大模型训练全链路。核心判断：2026 年拉开差距的不再是预训练本身，而是后训练、评测、奖励、Agent 训练、蒸馏。详细拆解了预训练（数据配方、过训练、tokenizer 设计）、后训练多阶段流水线（冷启动 SFT → GRPO 强化学习 → 拒绝采样微调 → 对齐 RL）、评测-Grader-Reward 反馈回路、推理模型（o1/DeepSeek-R1）、Agent 训练（Kimi K2.5 PARL、Cursor Composer 2、Chroma Context-1）、Meta-Harness（只改 harness code 就能拉出 6x 性能差距）。含大量配图和 14 篇参考文献。",
+      "summary_en": null,
+      "one_liner": "2026 年最系统的大模型训练全链路中文长文，从预训练到 Agent 训练一网打尽。",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "X 文章/2026-04-05-1215-Tw93-你不知道的大模型训练原理路径与新实践.md",
+      "images": [
+        "https://pbs.twimg.com/media/HE-wXfVagAEO5Dt?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE-wqTjaMAApYhA?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HE-xsyAa8AAG-Bx?format=jpg&name=900x900"
+      ],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ca1ebffb",
+      "title": "ClaudeCode 源码深度研究报告",
+      "url": "https://x.com/tvytlx/status/2038939480892346699",
+      "source": {
+        "platform": "x",
+        "author": "Xiao Tan",
+        "original_date": "2026-04-05"
+      },
+      "category": "coding-ai/skills-workflows",
+      "tags": [
+        "Claude Code",
+        "源码分析",
+        "Agent架构",
+        "系统设计",
+        "上下文管理"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "从 Claude Code 泄露的 npm 包中提取 4756 个源码文件的深度拆解。核心发现：system prompt 是动态拼装的（静态宪法 + 动态当期政策），有 cache 边界设计（SYSTEM_PROMPT_DYNAMIC_BOUNDARY）优化 token 经济学；6 个内建 Agent（General、Explore 只读、Plan 只读、Verification adversarial、Guide、Statusline），实现者与验证者分离；工具调用经过 14 步 pipeline（输入校验→风险预判→权限决策→Hook→执行→post-processing）；三套扩展机制（Skill/Plugin/MCP）都让模型感知到自己的能力清单。五条设计原则：不信任模型自觉性、角色拆开、工具治理、上下文是预算、生态关键是模型感知。",
+      "summary_en": null,
+      "one_liner": "4756 个源码文件拆出的 Claude Code 架构全景：prompt 动态拼装、Agent 分工、工具治理 pipeline。",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "X 文章/2026-04-05-1215-XiaoTan-ClaudeCode源码深度研究报告.md",
+      "images": [
+        "https://pbs.twimg.com/media/HEvDkLMa4AAvTOw?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HEvV3_vakAAeQxW?format=jpg&name=small"
+      ],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "awh81ez0",
+      "title": "open-agent-sdk: 替代 claude-agent-sdk 的开源方案",
+      "url": "https://x.com/idoubicc/status/2039006326882546141",
+      "source": {
+        "platform": "x",
+        "author": "idoubi",
+        "original_date": "2026-04-05"
+      },
+      "category": "agent-frameworks/orchestration",
+      "tags": [
+        "Claude Code",
+        "开源",
+        "Agent SDK",
+        "替代方案",
+        "云端部署"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "基于 Claude Code 泄露源码抽离逻辑实现的开源 Agent SDK，用于替代官方 claude-agent-sdk。解决了官方 SDK 的两个核心问题：1）依赖不开源的 claude code 黑盒调用，出了问题没法修；2）需要创建 claude code 本地进程处理 query，开销大，不适合云端规模化。open-agent-sdk 完全兼容官方接口（只需换包名）、完全开源可定制、函数调用不依赖本地 cli 进程，适合云端高并发。MIT 协议。",
+      "summary_en": null,
+      "one_liner": "从泄露源码逆向工程的开源 Agent SDK，解决了官方 SDK 黑盒 + 进程开销问题。",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-04-05-1215-idoubi-open-agent-sdk替代claude-agent-sdk.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "x7fluovs",
+      "title": "CLAUDE CODE 橙皮书开源（75页）",
+      "url": "https://x.com/AlchainHust/status/2039169585979539625",
+      "source": {
+        "platform": "x",
+        "author": "AlchainHust",
+        "original_date": "2026-04-06"
+      },
+      "category": "coding-ai/skills-workflows",
+      "tags": [
+        "Claude Code",
+        "橙皮书",
+        "实战手册",
+        "开源",
+        "AI编程"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "AI 进化论-花生开源的 75 页《CLAUDE CODE 橙皮书》实战手册，面向想用 AI 编程但不知道从哪开始的人。10 章内容覆盖：核心工作流（Plan/Auto 模式、权限管理）、CLAUDE.md 写法、Skills/Hooks/MCP 扩展能力、多 Agent 并行协作、Computer Use 和 Voice Mode、一章完整的从零到上线产品实战。信息源来自 Claude 官方文档、Boris Cherny 分享、吴恩达 Claude Code 课程及作者用 CC 做十几个产品的经验。",
+      "summary_en": null,
+      "one_liner": "75 页 Claude Code 实战手册开源，从安装到独立产品，面向 AI 编程入门者。",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-04-06-1205-AlchainHust-CLAUDE-CODE橙皮书开源.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "j9u8xwq6",
+      "title": "graphify — Claude Code 的图谱 Skill",
+      "url": "https://x.com/QingQ77/status/2041113437812511192",
+      "source": {
+        "platform": "x",
+        "author": "Geek Lite",
+        "original_date": "2026-04-06"
+      },
+      "category": "coding-ai/skills-workflows",
+      "tags": [
+        "Claude Code",
+        "知识图谱",
+        "Skill",
+        "tree-sitter",
+        "代码分析"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知识图谱。多模态提取：tree-sitter 解析代码、Claude vision 看图片、LLM 读 PDF。每条边标注 EXTRACTED/INFERRED/AMBIGUOUS 三种可信度，在 52 文件场景下实现 71.5x token 压缩率。输出支持交互式 HTML、Obsidian vault、可 Agent 读取的 wiki、持久化 JSON 跨 session 可查询。",
+      "summary_en": null,
+      "one_liner": "Claude Code 知识图谱 Skill，71.5x token 压缩率，多模态输入自动生成可查询图谱。",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-04-06-1240-Geek Lite-graphify图谱skill.md",
+      "images": [
+        "https://pbs.twimg.com/card_img/2041308851593748480/dBbhHHgN?format=jpg&name=small"
+      ],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f71nn8lk",
+      "title": "用 Obsidian + Claude 搭个人知识库：核心架构实践",
+      "url": "https://x.com/yanhua1010/status/2041356233819767258",
+      "source": {
+        "platform": "x",
+        "author": "yanhua1010",
+        "original_date": "2026-04-06"
+      },
+      "category": "rag-knowledge/rag-frameworks",
+      "tags": [
+        "Obsidian",
+        "Claude",
+        "知识库",
+        "CLAUDE.md",
+        "个人知识管理"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "Obsidian + Claude 搭建个人知识库的核心架构实践。核心思路：把笔记库当代码仓库来\"编译\"。三层目录结构：原料/（只读，Claude 不可修改）→ 摘要/（Claude 结构化编译产物）→ 沉淀/（Query 高质量回答落文件）。两个元文件：CLAUDE.md（控制 AI 行为的最高宪法）和 index.md（全局目录 + TLDR，Claude 检索时先扫再深读）。日常工作流三个动作：Ingest（逐篇处理）、Query（好回答存文件）、Lint（定期健康检查）。防腐化底线：重要断言必须有来源、新旧冲突报 diff 不覆盖、区分事实和推论。",
+      "summary_en": null,
+      "one_liner": "Obsidian + Claude 知识库三层层架构，把笔记库当编译器而非堆积场。",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-04-06-1302-yanhua1010-Obsidian+Claude架构.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "zupjc5pe",
+      "title": "乔布斯.skill 开源 — 用女娲.skill 蒸馏的名人风格",
+      "url": "https://x.com/AlchainHust/status/2040755291831042511",
+      "source": {
+        "platform": "x",
+        "author": "花叔 (AlchainHust)",
+        "original_date": "2026-04-05"
+      },
+      "category": "prompt-engineering/techniques",
+      "tags": [
+        "Skill",
+        "蒸馏",
+        "乔布斯",
+        "Agent Skills",
+        "Claude Code"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "花叔开源了用 200 万 Opus 4.6 tokens 通过女娲.skill 蒸馏出的乔布斯.skill。展示了 Agent Skills 的一个高级用例：用大量 tokens 蒸馏出特定人物的思维风格和表达方式，形成可复用的 Skill 文件。开源在 GitHub 上，可作为 Skill 工程的参考案例。",
+      "summary_en": null,
+      "one_liner": "200 万 tokens 蒸馏出的乔布斯风格 Skill，展示了 Skill 工程的上限。",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "archived",
+      "local_path": "X 文章/2026-04-06-1240-花叔-乔布斯.skill开源.md",
+      "images": [
+        "https://pbs.twimg.com/media/HFI30OHXUAAttuo?format=jpg&name=small"
+      ],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5hd30k75",
+      "title": "V 神本地 LLM 环境配置",
+      "url": "https://x.com/fkysly/status/2040976089196167538",
+      "source": {
+        "platform": "x",
+        "author": "马天翼",
+        "original_date": "2026-04-06"
+      },
+      "category": "inference-serving/on-device-edge",
+      "tags": [
+        "本地LLM",
+        "Vitalik",
+        "隐私",
+        "离线",
+        "硬件配置"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "V 神分享的本地大模型环境配置博客。从硬件选型开始，详细讨论如何构建一套满足隐私、安全、离线要求的 Local LLM 环境。特别值得注意的细节：为了减少飞机上离线情况下的模型幻觉，他把 1GB 维基百科内容都存了下来方便模型自我核实。同时也考虑了预算有限朋友的硬件推荐方案。",
+      "summary_en": null,
+      "one_liner": "V 神的本地 LLM 全栈配置方案，从硬件到离线防幻觉策略。",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-04-06-1240-马天翼-V神本地LLM环境配置.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2rfmqygd",
+      "title": "Claude Code 这些功能，用了就回不去了",
+      "url": "https://x.com/sitinme/status/2040622970432045350",
+      "source": {
+        "platform": "x",
+        "author": "sitinme",
+        "original_date": "2026-04-06"
+      },
+      "category": "coding-ai/skills-workflows",
+      "tags": [
+        "Claude Code",
+        "Boris Cherny",
+        "使用技巧",
+        "worktree",
+        "并行",
+        "自动化"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "基于 Claude Code 创始人 Boris Cherny 分享的技巧整理的实战指南。核心要点：给 Claude 验证机会（装 Chrome 扩展/Playwright MCP 让它自己看效果，输出质量提升 2-3 倍）；同时开 3-5 个 git worktree 并行；/remote-control 手机遥控；/loop 定时循环和 /schedule 持久化任务；Hooks 是确定性的（绕不过去），CLAUDE.md 规则是建议性的（压力大可能跳过）；/btw 插队提问不进历史；/batch 大规模迁移神器（AI 军团式编程）；/model opus 切换模型省 token。",
+      "summary_en": null,
+      "one_liner": "Boris Cherny 亲授的 Claude Code 进阶技巧合集，验证 + 并行 + 自动化是三大关键。",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-04-06-1303-sitinme-ClaudeCode高级功能.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9w8qgqt5",
+      "title": "Claude Code 5 小时重置机制",
+      "url": "https://x.com/chenchengpro/status/2042082446871818746",
+      "source": {
+        "platform": "x",
+        "author": "chenchengpro",
+        "original_date": "2026-04-06"
+      },
+      "category": "coding-ai/skills-workflows",
+      "tags": [
+        "Claude Code",
+        "定时任务",
+        "token管理",
+        "使用技巧"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "Claude Code 有 5 小时重置机制，可通过云端定时任务卡重置节点。三步设置：用 cron-job.org 创建 Custom 任务，输入 cron 表达式（如 5 7,12,17,22 * * *），每天四个时段自动触发对话重置倒计时。关键优势：任务跑在云端，本地不用开电脑，比 crontab 更优雅。",
+      "summary_en": null,
+      "one_liner": "实用小技巧：用云端 cron 卡 Claude Code 5 小时重置，每个时段满血。",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "archived",
+      "local_path": "X 文章/2026-04-06-1601-chenchengpro-Claude-Code-5小时重置机制.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ti07g7fy",
+      "title": "98 页的 OpenClaw 橙皮书",
+      "url": "https://x.com/AlchainHust/status/2031212769694068775",
+      "source": {
+        "platform": "x",
+        "author": "AI进化论-花生",
+        "original_date": "2026-03-10"
+      },
+      "category": "agent-frameworks/orchestration",
+      "tags": [
+        "OpenClaw",
+        "橙皮书",
+        "AI Agent",
+        "实战手册",
+        "开源"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "AI 进化论-花生发布的 98 页 OpenClaw 橙皮书，浏览量超 175 万，书签数 5713。这是 OpenClaw（龙虾）生态的重要实战手册文档。",
+      "summary_en": null,
+      "one_liner": "OpenClaw 生态的 98 页实战手册，浏览量 175 万+。",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-03-12-0804-AI进化论-花生-98页的 OpenClaw橙皮书-2031212769694068775.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5kvcg2qn",
+      "title": "Lex Fridman 采访 Sam Altman - AI 播客深度对话",
+      "url": "https://x.com/FLMdongtianfudi/status/2031175084296253588",
+      "source": {
+        "platform": "x",
+        "author": "Fang知识分享",
+        "original_date": "2026-03-10"
+      },
+      "category": "tutorials-learning/talks-videos",
+      "tags": [
+        "Sam Altman",
+        "Lex Fridman",
+        "播客",
+        "AI行业",
+        "OpenAI"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "Fang 知识分享推荐的 Lex Fridman 采访 Sam Altman 的 AI 播客对话。作者强调信息源质量决定 AI 时代领先地位，但文件内容过短无法提取具体对话内容。",
+      "summary_en": null,
+      "one_liner": "Lex Fridman x Sam Altman 对话推荐，内容需跳转收听。",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "archived",
+      "local_path": "X 文章/2026-03-12-0804-Fang知识分享-Lex Fridman 采访 Sam Altman - AI播客深度对话-2031175084296253588.md",
+      "images": [],
+      "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ]
 }

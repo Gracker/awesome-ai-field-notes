@@ -1,6 +1,6 @@
 # 入门指南
 
-Getting Started — 3 条活跃资源
+Getting Started — 4 条活跃资源
 
 ### [Don't Waste Your Money on OpenClaw Until You've Done These 3 Things](https://x.com/milesdeutscher/status/2026037201591787801) 
 by @Miles Deutscher (2026-02-25) | ⭐⭐⭐⭐ 4/5 | 🌐
@@ -18,6 +18,15 @@ by @OneHopeA9 (2026-02-26) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
 
 面向已完成基础配置的 OpenClaw 用户的中高级教程。覆盖：AGENTS.md 工作规范、记忆优化（构建可靠记忆体系）、子 Agent 团队协作、Cron 自动化、Skill 开发、多渠道部署（全平台接入）、性能调优、实战练习清单、疑难解答。系统性的进阶指南。
  `openclaw` `tutorial` `agents-md` `memory` `cron` `skill` `multi-channel`
+
+---
+### [I Want to Become an AI Engineer (Full Course)](https://x.com/hooeem/status/2029660075774574660) 
+by @hoeem (2026-03-05) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**从 Prompt 到 Intent 的三层 AI 工程架构图，附大量实战模板，适合系统性入门。**
+
+一篇 4800+ 字的 AI 工程师全栈学习指南，提出三层架构：Prompt Engineering（微语法，控制即时指令）→ Context Engineering（乘数，MCP + Context as Code + RAG 管道）→ Intent Engineering（差异化，组织目标编码）。用 Klarna 客服 AI 的失败案例（节省 $60M 但因 intent gap 被迫重新雇人）论证意图工程的重要性。提供 7 组件意图框架和大量可复用 prompt 模板，覆盖结构化格式、Few-Shot、CoT、元提示词、上下文审计、RAG 架构设计、MCP Server 蓝图等。
+ `AI工程` `Prompt Engineering` `Context Engineering` `Intent Engineering` `MCP` `RAG`
 
 ---
 ### [新手劝退 OpenClaw：99% 的人根本不需要它](https://x.com/LawrenceW_Zen/article/2026872793187627276) 

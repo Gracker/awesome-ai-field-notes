@@ -1,6 +1,6 @@
 # 编排框架
 
-Orchestration — 13 条活跃资源
+Orchestration — 16 条活跃资源
 
 ### [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773) 
 by @RLanceMartin (2026-04-06) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
@@ -177,5 +177,32 @@ by @lxfater (2026-03-02) | ⭐⭐⭐ 3/5 | 🇨🇳
 这个问题目前还没见到官方有正式的解决方案。
 OpenClaw 的还有个问题是主动记忆的，也就是说，他记不记住你的东西，全看AI 的发挥。经常出现特别奇葩的情况，今天刚说的东西，转眼就忘记。
  `openclaw` `agent` `github`
+
+---
+### [搜索外脑接入龙虾生态 - SearxNG 方案](https://x.com/YuLin807/status/2030996280051462609) 
+by @QingYue (2026-03-09) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**OpenClaw + SearxNG 搜索外脑方案，核心洞察是"LLM 叠 LLM 是反模式"。**
+
+OpenClaw 用户分享将 SearxNG 聚合搜索引擎接入龙虾生态（Claude Code + MCP）的方案。核心判断：LLM 叠 LLM 是反模式（Perplexica 的搜索→小模型总结→返回链路等于让实习生帮主刀医生看片子），正确做法是 SearxNG 毫秒级返回原始搜索结果，让大模型自己判断哪条值得深入。方案特点：零 API key、零成本、全隐私，聚合 70+ 搜索源，含反爬实战经验（Reddit/知乎绕过方案）。
+ `OpenClaw` `SearxNG` `搜索` `MCP` `隐私` `本地部署`
+
+---
+### [open-agent-sdk: 替代 claude-agent-sdk 的开源方案](https://x.com/idoubicc/status/2039006326882546141) 
+by @idoubi (2026-04-05) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**从泄露源码逆向工程的开源 Agent SDK，解决了官方 SDK 黑盒 + 进程开销问题。**
+
+基于 Claude Code 泄露源码抽离逻辑实现的开源 Agent SDK，用于替代官方 claude-agent-sdk。解决了官方 SDK 的两个核心问题：1）依赖不开源的 claude code 黑盒调用，出了问题没法修；2）需要创建 claude code 本地进程处理 query，开销大，不适合云端规模化。open-agent-sdk 完全兼容官方接口（只需换包名）、完全开源可定制、函数调用不依赖本地 cli 进程，适合云端高并发。MIT 协议。
+ `Claude Code` `开源` `Agent SDK` `替代方案` `云端部署`
+
+---
+### [98 页的 OpenClaw 橙皮书](https://x.com/AlchainHust/status/2031212769694068775) 
+by @AI进化论-花生 (2026-03-10) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**OpenClaw 生态的 98 页实战手册，浏览量 175 万+。**
+
+AI 进化论-花生发布的 98 页 OpenClaw 橙皮书，浏览量超 175 万，书签数 5713。这是 OpenClaw（龙虾）生态的重要实战手册文档。
+ `OpenClaw` `橙皮书` `AI Agent` `实战手册` `开源`
 
 ---

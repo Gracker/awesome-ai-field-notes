@@ -1,8 +1,8 @@
 # 🤖 Agent 框架
 
-Agent Frameworks & Libraries — 共 18 条活跃资源
+Agent Frameworks & Libraries — 共 21 条活跃资源
 
-## 编排框架 (13)
+## 编排框架 (16)
 
 - [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773) by @RLanceMartin — Anthropic 官方托管 Agent 基础设施，大脑/手/记忆三层解耦架构 `claude` `managed-agents` `anthropic` `agent-sdk` `infrastructure` 🌐
 - [Agentic Software Engineering](https://x.com/ashpreetbedi/status/2028176285575594465) by @ashpreetbedi — Agent 相关：Agentic Software Engineering `openclaw` `claude` `codex` `mcp` `agent` 🌍
@@ -17,6 +17,9 @@ Agent Frameworks & Libraries — 共 18 条活跃资源
 - [使用一个月 OpenClaw 的门槛与成本复盘](https://x.com/LotusDecoder/status/2028272613919965585) by @LotusDecoder — OpenClaw 相关：使用一个月 OpenClaw 的门槛与成本复盘 `openclaw` `claude` `agent` `hermes` `docker` 🌍
 - [alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox") by @alibaba — AI 实践：alibaba/OpenSandbox `openclaw` `claude` `codex` `agent` `coding` 🌍
 - [OpenClaw 记忆外挂：Tokens 消耗降低 72%](https://x.com/lxfater/status/2028320139368714644) by @lxfater — OpenClaw 相关：OpenClaw 记忆外挂：Tokens 消耗降低 72% `openclaw` `agent` `github` 🇨🇳
+- [搜索外脑接入龙虾生态 - SearxNG 方案](https://x.com/YuLin807/status/2030996280051462609) by @QingYue — OpenClaw + SearxNG 搜索外脑方案，核心洞察是"LLM 叠 LLM 是反模式"。 `OpenClaw` `SearxNG` `搜索` `MCP` `隐私` 🇨🇳
+- [open-agent-sdk: 替代 claude-agent-sdk 的开源方案](https://x.com/idoubicc/status/2039006326882546141) by @idoubi — 从泄露源码逆向工程的开源 Agent SDK，解决了官方 SDK 黑盒 + 进程开销问题。 `Claude Code` `开源` `Agent SDK` `替代方案` `云端部署` 🇨🇳
+- [98 页的 OpenClaw 橙皮书](https://x.com/AlchainHust/status/2031212769694068775) by @AI进化论-花生 — OpenClaw 生态的 98 页实战手册，浏览量 175 万+。 `OpenClaw` `橙皮书` `AI Agent` `实战手册` `开源` 🇨🇳
 
 ## 单Agent框架 (1)
 
