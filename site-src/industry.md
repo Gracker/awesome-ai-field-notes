@@ -4,7 +4,7 @@ AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **51** 条活跃资源
 
 ## 📅 今天
 
-### [THE 2028 GLOBAL INTELLIGENCE CRISIS](https://www.citriniresearch.com/p/2028gic)
+### [THE 2028 GLOBAL INTELLIGENCE CRISIS](/entry/2xx72sp5) 📄
 @Citrini · ⭐⭐⭐⭐⭐5  · 今天
 
 情景推演（非预测）：假设到 2028 年，失业率达 10.2%，标普 500 自高点回撤 38%。核心概念&quot;幽灵 GDP&quot;：AI 驱动的产出计入国民经济账户但不流入真实经济循环。形成&quot;人类智能替代螺旋&quot;——没有自然刹车机制的负反馈循环。AI agent 几周内复刻中型 SaaS 产品核心功能，SaaS 定价权受压。单个公司应对理性，集体叠加灾难性。

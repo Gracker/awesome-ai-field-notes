@@ -4,7 +4,7 @@
 
 ## 📅 今天
 
-### [搞懂缓存机制，从Gemma4到Claude Code省80%Token](https://x.com/MinLiBuilds/status/2041178722230030384)
+### [搞懂缓存机制，从Gemma4到Claude Code省80%Token](/entry/otjpnj3j) 📄
 @MinLiBuilds · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
 
 从本地 Gemma 4 实验出发，详解 Transformer KV 缓存原理（QKV 注意力机制中的 Key/Value 缓存），解释为什么 Decoder-only 架构可以缓存历史 token 的 KV。逆向分析 Claude Code 的缓存实现，Anthropic 做了一整套精密的缓存工程。理解后可让同样的套餐多撑 3-5 倍。

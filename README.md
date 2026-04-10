@@ -36,6 +36,6 @@
 - 结构化数据：[`data/entries.json`](data/entries.json)（Agent 可直接消费）
 - 贡献资源：开 [Issue](../../issues/new/choose)
 
-由 [OpenClaw](https://github.com/openclaw/openclaw) 每日自动维护 — 采集、去重、分类、评分、死链检测、站点生成，全流程无人值守。
+由 [OpenClaw](https://github.com/openclaw/openclaw) 每日自动维护 — 采集、去重、分类、评分、全文抓取、翻译、站点生成，全流程无人值守。
 
 License: [CC BY-NC-SA 4.0](LICENSE)

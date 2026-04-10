@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 generate-site.py — 从 entries.json 生成 VitePress 站点
-按日期分组，最新在前，格式统一
+支持文章详情页（从 content/ 读取全文）
 """
 
 import json, os, sys, html as html_mod
@@ -15,6 +15,7 @@ META_DIR = BASE_DIR / "metadata"
 SRC_DIR = BASE_DIR / "site-src"
 README_PATH = BASE_DIR / "README.md"
 STATS_PATH = META_DIR / "stats.json"
+CONTENT_DIR = BASE_DIR / "content"
 
 def esc(text):
     return html_mod.escape(str(text)) if text else ""
@@ -34,14 +35,23 @@ yesterday_str = (now - timedelta(days=1)).strftime("%Y-%m-%d")
 week_ago = (now - timedelta(days=7)).strftime("%Y-%m-%d")
 this_week = [e for e in entries if e.get("added_date", "") >= week_ago]
 
+# === Check which entries have content ===
+CONTENT_DIR.mkdir(exist_ok=True)
+entries_with_content = set()
+for f in CONTENT_DIR.glob("*.md"):
+    if f.stem != "README":
+        entries_with_content.add(f.stem)
+
 # Stats
 cat_counter = Counter(e.get("category", "uncategorized") for e in entries)
 source_counter = Counter(e.get("source_type", "unknown") for e in entries)
+content_count = len(entries_with_content)
 stats = {
     "total_entries": len(entries),
     "active_entries": len([e for e in entries if e.get("status") == "active"]),
     "archived_entries": len([e for e in entries if e.get("status") == "archived"]),
     "this_week_added": len(this_week),
+    "entries_with_content": content_count,
     "category_distribution": dict(cat_counter.most_common()),
     "source_type_distribution": dict(source_counter.most_common()),
     "last_updated": now.strftime("%Y-%m-%d %H:%M"),
@@ -77,7 +87,7 @@ def build_sidebar():
         "    socialLinks: [",
         "      { icon: 'github', link: 'https://github.com/Gracker/awesome-ai-field-notes' },",
         "    ],",
-        "    footer: { message: '由 OpenClaw 每日自动维护' },",
+        "    footer: { message: '由 OpenClaw 每日自动维护 · " + str(content_count) + " 篇有全文' },",
         "  },",
         "  srcDir: '.',",
         "  outDir: '../dist',",
@@ -105,10 +115,9 @@ def date_label(date_str):
         return "今天"
     if date_str == yesterday_str:
         return "昨天"
-    return None  # will use raw date as header
+    return None
 
 def date_sort_key(date_str):
-    """For sorting: today=0, yesterday=1, then descending date"""
     if not date_str:
         return (999, "")
     if date_str == today_str:
@@ -117,10 +126,11 @@ def date_sort_key(date_str):
         return (1, "")
     return (2, date_str)
 
-# === Entry formatting ===
+# === Entry formatting for category pages ===
 def fmt_entry(e):
     title = esc(e["title"])
     url = e.get("url") or "#"
+    eid = e["id"]
     score = e.get("quality_score", 0)
     gh_stars = e.get("github_stars")
     stars_str = " ⭐{:,.0f}".format(gh_stars) if gh_stars else ""
@@ -129,12 +139,10 @@ def fmt_entry(e):
     author = esc(source.get("author", ""))
     added = e.get("added_date", "")
 
-    # Body: prefer summary, fallback to one_liner
     summary = (e.get("summary_zh", "") or e.get("summary_en", "") or "").strip()
     one_liner = e.get("one_liner", "").strip()
     body = esc(summary) if len(summary) >= 20 else esc(one_liner)
 
-    # Meta: author · score · date
     meta_parts = []
     if author:
         meta_parts.append("@{}".format(author))
@@ -144,8 +152,16 @@ def fmt_entry(e):
         meta_parts.append(dl if dl else added)
     meta_str = " · ".join(meta_parts)
 
+    # Link to detail page if content exists, otherwise external URL
+    if eid in entries_with_content:
+        link = "/entry/{}".format(eid)
+        badge = " 📄"
+    else:
+        link = url
+        badge = ""
+
     lines = [
-        "### [{}]({}){}".format(title, url, stars_str),
+        "### [{}]({}){}{}".format(title, link, stars_str, badge),
         meta_str,
     ]
     if body:
@@ -170,7 +186,7 @@ home = [
     "hero:",
     "  name: AI Field Notes",
     "  text: AI 领域精选资源导航",
-    "  tagline: 有观点 · 有评分 · 每日自动更新 · {} 条".format(stats['total_entries']),
+    "  tagline: 有观点 · 有评分 · 每日自动更新 · {} 条 · {} 篇有全文".format(stats['total_entries'], content_count),
     "  actions:",
     "    - theme: brand",
     "      text: 浏览全部",
@@ -195,19 +211,12 @@ for key, info in categories.items():
     cat_entries = [e for e in active if e.get("category") == key]
     
     if not cat_entries:
-        page = [
-            "# {} {}".format(info['icon'], info['name_zh']),
-            "",
-            "_暂无条目_",
-        ]
+        page = ["# {} {}".format(info['icon'], info['name_zh']), "", "_暂无条目_"]
     else:
-        # Group by date, sort groups newest first
         groups = OrderedDict()
         for e in cat_entries:
             d = e.get("added_date", "") or "unknown"
             groups.setdefault(d, []).append(e)
-        
-        # Sort groups: today first, yesterday second, then descending date
         sorted_dates = sorted(groups.keys(), key=date_sort_key)
         
         page = [
@@ -216,7 +225,6 @@ for key, info in categories.items():
             "{} — 共 **{}** 条活跃资源".format(info.get('desc', ''), len(cat_entries)),
             "",
         ]
-        
         for d in sorted_dates:
             label = date_label(d) or d
             group_entries = sorted(groups[d], key=lambda x: (-x.get("quality_score", 0), x.get("github_stars", 0) or 0))
@@ -227,11 +235,91 @@ for key, info in categories.items():
     
     (SRC_DIR / "{}.md".format(key)).write_text("\n".join(page), encoding="utf-8")
 
+# === Entry detail pages ===
+entry_dir = SRC_DIR / "entry"
+# Clean old entry pages
+if entry_dir.exists():
+    for old in entry_dir.glob("*.md"):
+        if old.stem not in entries_with_content:
+            old.unlink()
+entry_dir.mkdir(exist_ok=True)
+
+generated_detail = 0
+for e in active:
+    eid = e["id"]
+    if eid not in entries_with_content:
+        continue
+    
+    content_file = CONTENT_DIR / "{}.md".format(eid)
+    if not content_file.exists():
+        continue
+    
+    content_raw = content_file.read_text(encoding="utf-8").strip()
+    
+    # Strip YAML frontmatter from content
+    if content_raw.startswith("---"):
+        parts = content_raw.split("---", 2)
+        content_body = parts[2].strip() if len(parts) >= 3 else content_raw
+    else:
+        content_body = content_raw
+    
+    if not content_body:
+        continue
+    
+    generated_detail += 1
+    
+    title = esc(e["title"])
+    url = e.get("url") or "#"
+    score = e.get("quality_score", 0)
+    lang = "🇨🇳" if e.get("language") == "zh" else ("🌐" if e.get("language") == "en" else "")
+    source = e.get("source") or {}
+    author = esc(source.get("author", ""))
+    added = e.get("added_date", "")
+    one_liner = esc(e.get("one_liner", ""))
+    tags = [esc(t) for t in e.get("tags", [])[:8]]
+    category = e.get("category", "")
+    cat_info = categories.get(category, {})
+    cat_name = cat_info.get("name_zh", category)
+    
+    page = [
+        "---",
+        "title: '{}'".format(title.replace("'", "\\'")),
+        "sidebar: false",
+        "---",
+        "",
+        "::: info",
+        "[← 返回{}]({})".format(cat_name, "/{}".format(category)),
+        ":::",
+        "",
+        "# {}".format(title),
+        "",
+        "> {}".format(one_liner) if one_liner else "",
+        "",
+        "🔗 [原文链接]({}){}{}{} ⭐{} {}/5 📅 {}".format(
+            url,
+            " | @{}".format(author) if author else "",
+            " | {}".format(lang),
+            " | {} {}".format("⭐" * score, score) if score else "",
+            score, score,
+            added or "未知"
+        ),
+    ]
+    if tags:
+        page.append("")
+        page.append(" ".join("`{}`".format(t) for t in tags))
+    page.append("")
+    page.append("---")
+    page.append("")
+    page.append(content_body)
+    page.append("")
+    
+    (entry_dir / "{}.md".format(eid)).write_text("\n".join(page), encoding="utf-8")
+
 # === README.md ===
 readme = [
     "# AI Field Notes",
     "",
-    "> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。608 条，中英双语。",
+    "> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。{} 条，中英双语。".format(stats['total_entries']),
     "",
     "## ⭐ 精选 Top 10",
     "",
@@ -257,10 +345,11 @@ readme.extend([
     "- 结构化数据：[`data/entries.json`](data/entries.json)（Agent 可直接消费）",
     "- 贡献资源：开 [Issue](../../issues/new/choose)",
     "",
-    "由 [OpenClaw](https://github.com/openclaw/openclaw) 每日自动维护 — 采集、去重、分类、评分、死链检测、站点生成，全流程无人值守。",
+    "由 [OpenClaw](https://github.com/openclaw/openclaw) 每日自动维护 — 采集、去重、分类、评分、全文抓取、翻译、站点生成，全流程无人值守。",
     "",
     "License: [CC BY-NC-SA 4.0](LICENSE)",
 ])
 README_PATH.write_text("\n".join(readme), encoding="utf-8")
 
-print("✅ 站点生成完成: {} 条目, {} 活跃, {} 本周新增".format(stats['total_entries'], stats['active_entries'], stats['this_week_added']))
+print("✅ 站点生成完成: {} 条目, {} 活跃, {} 有全文, {} 本周新增".format(
+    stats['total_entries'], stats['active_entries'], generated_detail, stats['this_week_added']))
