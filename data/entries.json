@@ -12,7 +12,7 @@
         "author": "HiTw93",
         "original_date": "2026-04-06"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "openclaw",
         "skills",
@@ -45,7 +45,7 @@
         "author": "Lonely__MH",
         "original_date": "2026-04-06"
       },
-      "category": "models-providers/open-source-models",
+      "category": "models",
       "tags": [
         "gemma",
         "jailbreak",
@@ -77,7 +77,7 @@
         "author": "MinLiBuilds",
         "original_date": "2026-04-06"
       },
-      "category": "inference-serving/inference-engines",
+      "category": "infra",
       "tags": [
         "kv-cache",
         "claude-code",
@@ -110,7 +110,7 @@
         "author": "Pluvio9yte",
         "original_date": "2026-04-06"
       },
-      "category": "agent-frameworks/single-agent",
+      "category": "agents",
       "tags": [
         "hermes",
         "nous-research",
@@ -143,7 +143,7 @@
         "author": "RLanceMartin",
         "original_date": "2026-04-06"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "claude",
         "managed-agents",
@@ -176,7 +176,7 @@
         "author": "blackanger",
         "original_date": "2026-04-06"
       },
-      "category": "prompt-engineering/system-prompts",
+      "category": "learning",
       "tags": [
         "codex",
         "sycophancy",
@@ -208,7 +208,7 @@
         "author": "dotey",
         "original_date": "2026-04-06"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "claude",
         "managed-agents",
@@ -240,7 +240,7 @@
         "author": "oragnes",
         "original_date": "2026-04-06"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "codex",
         "oh-my-codex",
@@ -271,7 +271,7 @@
         "author": "yanhua1010",
         "original_date": "2026-04-06"
       },
-      "category": "rag-knowledge/knowledge-graphs",
+      "category": "infra",
       "tags": [
         "obsidian",
         "llm",
@@ -304,7 +304,7 @@
         "author": "Citrini",
         "original_date": "2026-02-23"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "ai-economy",
         "unemployment",
@@ -337,7 +337,7 @@
         "author": "Kevin He",
         "original_date": "2026-02-23"
       },
-      "category": "ai-products/chat-assistant",
+      "category": "industry",
       "tags": [
         "clawfeed",
         "information-filtering",
@@ -369,7 +369,7 @@
         "author": "李韭二",
         "original_date": "2026-02-23"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "openclaw",
         "memory",
@@ -400,7 +400,7 @@
         "author": "Muratcan Koylan",
         "original_date": "2026-02-23"
       },
-      "category": "agent-os/agent-os-concepts",
+      "category": "agents",
       "tags": [
         "file-system",
         "agent-os",
@@ -431,7 +431,7 @@
         "author": "0xJA",
         "original_date": "2026-02-24"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "conway",
         "on-chain-ai",
@@ -462,7 +462,7 @@
         "author": "泊舟",
         "original_date": "2026-02-24"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "context-engineering",
         "skills",
@@ -495,7 +495,7 @@
         "author": "123olp",
         "original_date": "2026-02-24"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "autonomous-agent",
         "system-prompt",
@@ -526,7 +526,7 @@
         "author": "Misbah Syed",
         "original_date": "2026-02-24"
       },
-      "category": "agent-os/agent-os-concepts",
+      "category": "agents",
       "tags": [
         "openclaw",
         "architecture",
@@ -557,7 +557,7 @@
         "author": "Augment Code",
         "original_date": "2026-02-24"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "spec-driven",
         "agent",
@@ -589,7 +589,7 @@
         "author": "Elvis",
         "original_date": "2026-02-24"
       },
-      "category": "agent-frameworks/multi-agent",
+      "category": "agents",
       "tags": [
         "openclaw",
         "codex",
@@ -622,7 +622,7 @@
         "author": "Miles Deutscher",
         "original_date": "2026-02-25"
       },
-      "category": "tutorials-learning/getting-started",
+      "category": "learning",
       "tags": [
         "openclaw",
         "setup",
@@ -654,7 +654,7 @@
         "author": "Neo Reid",
         "original_date": "2026-02-25"
       },
-      "category": "agent-os/browser-agents",
+      "category": "agents",
       "tags": [
         "agent-reach",
         "multi-platform",
@@ -686,7 +686,7 @@
         "author": "Lyric",
         "original_date": "2026-02-25"
       },
-      "category": "tutorials-learning/getting-started",
+      "category": "learning",
       "tags": [
         "agent",
         "openclaw",
@@ -747,7 +747,7 @@
         "author": "zhl",
         "original_date": "2026-02-25"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "claude-code",
         "obsidian",
@@ -779,7 +779,7 @@
         "author": "geekbb",
         "original_date": "2026-02-26"
       },
-      "category": "agent-os/desktop-agents",
+      "category": "agents",
       "tags": [
         "openclaw",
         "dashboard",
@@ -812,7 +812,7 @@
         "author": "岚叔",
         "original_date": "2026-02-26"
       },
-      "category": "prompt-engineering/system-prompts",
+      "category": "learning",
       "tags": [
         "openclaw",
         "system-prompt",
@@ -844,7 +844,7 @@
         "author": "歸藏",
         "original_date": "2026-02-26"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "ai-trends",
         "agent",
@@ -876,7 +876,7 @@
         "author": "Aravind Srinivas",
         "original_date": "2026-02-26"
       },
-      "category": "agent-os/agent-os-concepts",
+      "category": "agents",
       "tags": [
         "perplexity",
         "multi-model",
@@ -908,7 +908,7 @@
         "author": "Gabriel Chua",
         "original_date": "2026-02-26"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "codex",
         "openai",
@@ -940,7 +940,7 @@
         "author": "向阳乔木",
         "original_date": "2026-02-26"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "ai-trends",
         "model-flywheel",
@@ -973,7 +973,7 @@
         "author": "Machina",
         "original_date": "2026-02-26"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "prompt-engineering",
         "mental-model",
@@ -1004,7 +1004,7 @@
         "author": "傅盛",
         "original_date": "2026-02-26"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "ai-impact",
         "employment",
@@ -1036,7 +1036,7 @@
         "author": "Armin Ronacher",
         "original_date": "2026-02-26"
       },
-      "category": "agent-frameworks/lightweight",
+      "category": "agents",
       "tags": [
         "pi",
         "openclaw",
@@ -1069,7 +1069,7 @@
         "author": "劳伦斯",
         "original_date": "2026-02-26"
       },
-      "category": "tutorials-learning/getting-started",
+      "category": "learning",
       "tags": [
         "openclaw",
         "critique",
@@ -1100,7 +1100,7 @@
         "author": "Uncle J",
         "original_date": "2026-02-26"
       },
-      "category": "agent-os/desktop-agents",
+      "category": "agents",
       "tags": [
         "obsidian",
         "claude-code",
@@ -1132,7 +1132,7 @@
         "author": "Zephyr",
         "original_date": "2026-02-26"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "business-model",
         "ai-startup",
@@ -1164,7 +1164,7 @@
         "author": "indigo",
         "original_date": "2026-02-26"
       },
-      "category": "research-papers/survey-position",
+      "category": "learning",
       "tags": [
         "ai-science",
         "philosophy",
@@ -1196,7 +1196,7 @@
         "author": "Michael Truell",
         "original_date": "2026-02-26"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "cursor",
         "cloud-agent",
@@ -1228,7 +1228,7 @@
         "author": "OneHopeA9",
         "original_date": "2026-02-26"
       },
-      "category": "tutorials-learning/getting-started",
+      "category": "learning",
       "tags": [
         "openclaw",
         "tutorial",
@@ -1262,7 +1262,7 @@
         "author": "Bytedance",
         "original_date": "2026-02-27"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "deer-flow",
         "bytedance",
@@ -1295,7 +1295,7 @@
         "author": "D",
         "original_date": "2026-02-27"
       },
-      "category": "agent-os/browser-agents",
+      "category": "agents",
       "tags": [
         "scraping",
         "anti-bot",
@@ -1327,7 +1327,7 @@
         "author": "Obra",
         "original_date": "2026-02-27"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "superpowers",
         "skills",
@@ -1360,7 +1360,7 @@
         "author": "dotey",
         "original_date": "2026-02-27"
       },
-      "category": "industry-strategy/big-tech",
+      "category": "industry",
       "tags": [
         "anthropic",
         "dario-amodei",
@@ -1393,7 +1393,7 @@
         "author": "李韭二",
         "original_date": "2026-02-27"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "openclaw",
         "troubleshooting",
@@ -1425,7 +1425,7 @@
         "author": "TrevinPeterson",
         "original_date": "2026-02-28"
       },
-      "category": "inference-serving/on-device-edge",
+      "category": "infra",
       "tags": [
         "qwen",
         "mac-studio",
@@ -1458,7 +1458,7 @@
         "author": "迈克 Mike Chong",
         "original_date": "2026-02-28"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "layoff",
         "block",
@@ -1490,7 +1490,7 @@
         "author": "Leo",
         "original_date": "2026-02-28"
       },
-      "category": "coding-ai/review-devops",
+      "category": "coding",
       "tags": [
         "claude-code",
         "codex",
@@ -1524,7 +1524,7 @@
         "author": "苏里格",
         "original_date": "2026-02-28"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "software-engineering",
         "ai-coding",
@@ -1556,7 +1556,7 @@
         "author": "Shubham Saboo",
         "original_date": "2026-02-28"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "openclaw",
         "memory",
@@ -1588,7 +1588,7 @@
         "author": "Thariq",
         "original_date": "2026-02-28"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "claude-code",
         "agent-design",
@@ -1620,7 +1620,7 @@
         "author": "Nav Toor",
         "original_date": "2026-02-28"
       },
-      "category": "ai-products/chat-assistant",
+      "category": "industry",
       "tags": [
         "claude-cowork",
         "setup-guide",
@@ -1651,7 +1651,7 @@
         "author": "jack",
         "original_date": "2026-02-28"
       },
-      "category": "industry-strategy/big-tech",
+      "category": "industry",
       "tags": [
         "block",
         "layoff",
@@ -1683,7 +1683,7 @@
         "author": "blackanger",
         "original_date": "2026-02-28"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "context-management",
         "rust",
@@ -1715,7 +1715,7 @@
         "author": "马天翼",
         "original_date": "2026-02-28"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "claude-code",
         "agent-design",
@@ -1746,7 +1746,7 @@
         "author": "cryptoxiao",
         "original_date": "2026-02-28"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "mcp",
         "openclaw",
@@ -1781,7 +1781,7 @@
         "author": "Andrej Karpathy",
         "original_date": "2026-02-28"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "karpathy",
         "vibe-coding",
@@ -1813,7 +1813,7 @@
         "author": "Wey Gu",
         "original_date": "2026-03-01"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "cc-switch",
         "claude-code",
@@ -1846,7 +1846,7 @@
         "author": "Stanley",
         "original_date": "2026-03-01"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "ai-economy",
         "resources",
@@ -1879,7 +1879,7 @@
         "author": "Lory",
         "original_date": "2026-03-01"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "openclaw",
         "agent",
@@ -1911,7 +1911,7 @@
         "author": "Zephyr_hg",
         "original_date": "2026-03-01"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "automation"
       ],
@@ -1939,7 +1939,7 @@
         "author": "Gavriel_Cohen",
         "original_date": "2026-03-01"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "openclaw",
         "agent",
@@ -1969,7 +1969,7 @@
         "author": "jolestar",
         "original_date": "2026-03-01"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "mcp",
         "agent",
@@ -2002,7 +2002,7 @@
         "author": "jolestar",
         "original_date": "2026-03-01"
       },
-      "category": "coding-ai/review-devops",
+      "category": "coding",
       "tags": [
         "mcp",
         "agent",
@@ -2036,7 +2036,7 @@
         "author": "DLKFZWilliam2",
         "original_date": "2026-03-01"
       },
-      "category": "models-providers/open-source-models",
+      "category": "models",
       "tags": [
         "agent",
         "qwen",
@@ -2068,7 +2068,7 @@
         "author": "RichTerry123",
         "original_date": "2026-03-01"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "claude"
       ],
@@ -2096,7 +2096,7 @@
         "author": "ashpreetbedi",
         "original_date": "2026-03-02"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "openclaw",
         "claude",
@@ -2131,7 +2131,7 @@
         "author": "guoyu",
         "original_date": "2026-03-02"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "agent"
       ],
@@ -2159,7 +2159,7 @@
         "author": "karpathy",
         "original_date": "2026-03-02"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "agent",
         "karpathy",
@@ -2190,7 +2190,7 @@
         "author": "nazha",
         "original_date": "2026-03-02"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "openclaw",
         "agent"
@@ -2219,7 +2219,7 @@
         "author": "shing",
         "original_date": "2026-03-02"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [],
       "source_type": "x_post",
       "language": "zh",
@@ -2245,7 +2245,7 @@
         "author": "wangray",
         "original_date": "2026-03-02"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "openclaw",
         "codex",
@@ -2276,7 +2276,7 @@
         "author": "LotusDecoder",
         "original_date": "2026-03-02"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "openclaw",
         "claude",
@@ -2308,7 +2308,7 @@
         "author": "NevaMindAI",
         "original_date": "2026-03-02"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "agent",
         "memory",
@@ -2339,7 +2339,7 @@
         "author": "Stv_Lynn",
         "original_date": "2026-03-02"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "agent",
         "agentic"
@@ -2368,7 +2368,7 @@
         "author": "XPLUG",
         "original_date": "2026-03-02"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "agent",
         "multi-agent",
@@ -2400,7 +2400,7 @@
         "author": "alibaba",
         "original_date": "2026-03-02"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "openclaw",
         "claude",
@@ -2435,7 +2435,7 @@
         "author": "lxfater",
         "original_date": "2026-03-02"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "openclaw",
         "agent",
@@ -2465,7 +2465,7 @@
         "author": "ruvnet",
         "original_date": "2026-03-02"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "claude",
         "mcp",
@@ -2497,7 +2497,7 @@
         "author": "yyyole",
         "original_date": "2026-03-02"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "phone-ai"
       ],
@@ -2525,7 +2525,7 @@
         "author": "NavToor",
         "original_date": "2026-03-03"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "claude",
         "agent",
@@ -2558,7 +2558,7 @@
         "author": "WumingMr",
         "original_date": "2026-03-03"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "openclaw",
         "agent",
@@ -2592,7 +2592,7 @@
         "author": "evilcos",
         "original_date": "2026-03-03"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "openclaw",
         "skill",
@@ -2622,7 +2622,7 @@
         "author": "jakevin7",
         "original_date": "2026-03-03"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "openclaw",
         "agent",
@@ -2655,7 +2655,7 @@
         "author": "yibie",
         "original_date": "2026-03-03"
       },
-      "category": "agent-frameworks/multi-agent",
+      "category": "agents",
       "tags": [
         "openclaw",
         "claude",
@@ -2689,7 +2689,7 @@
         "author": "tonykipkemboi",
         "original_date": "2026-03-03"
       },
-      "category": "agent-frameworks/multi-agent",
+      "category": "agents",
       "tags": [
         "openclaw",
         "claude",
@@ -2722,7 +2722,7 @@
         "author": "0xIanW",
         "original_date": "2026-03-03"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "vibe-coding",
         "coding"
@@ -2751,7 +2751,7 @@
         "author": "yanhua1010",
         "original_date": "2026-03-03"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "claude",
         "agent",
@@ -2786,7 +2786,7 @@
         "author": "brucexu_eth",
         "original_date": "2026-03-04"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "claude"
       ],
@@ -2819,7 +2819,7 @@
         "author": "wangray",
         "original_date": "2026-03-04"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "agent"
       ],
@@ -2847,7 +2847,7 @@
         "author": "Kangwook_Lee",
         "original_date": "2026-03-04"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "codex",
         "system-prompt",
@@ -2878,7 +2878,7 @@
         "author": "rwayne",
         "original_date": "2026-03-04"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "claude",
         "phone-ai"
@@ -2907,7 +2907,7 @@
         "author": "vista8",
         "original_date": "2026-03-04"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "vibe-coding",
         "coding"
@@ -2936,7 +2936,7 @@
         "author": "xin_pai88825",
         "original_date": "2026-03-04"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "codex",
         "mcp",
@@ -2968,7 +2968,7 @@
         "author": "centurybbx",
         "original_date": "2026-03-04"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "claude",
         "codex",
@@ -3002,7 +3002,7 @@
         "author": "vista8",
         "original_date": "2026-03-05"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "claude",
         "github",
@@ -3036,7 +3036,7 @@
         "author": "JasonZhu",
         "original_date": "2026-03-05"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "claude",
         "rag",
@@ -3069,7 +3069,7 @@
         "author": "MasterPa",
         "original_date": "2026-03-05"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "AI",
         "人文工作者",
@@ -3100,7 +3100,7 @@
         "author": "凡人小北",
         "original_date": "2026-03-06"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "claude",
         "cursor",
@@ -3135,7 +3135,7 @@
         "author": "AIEdge",
         "original_date": "2026-03-06"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "claude",
         "prompt-engineering",
@@ -3170,7 +3170,7 @@
         "author": "GeekPlux",
         "original_date": "2026-03-06"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "archive",
         "x-bookmarks",
@@ -3200,7 +3200,7 @@
         "author": "Yanhua",
         "original_date": "2026-03-06"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "claude",
         "memory",
@@ -3233,7 +3233,7 @@
         "author": "gemchanger",
         "original_date": "2026-03-06"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "rag",
         "archive",
@@ -3263,7 +3263,7 @@
         "author": "ginobefun",
         "original_date": "2026-03-06"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "AI工程",
         "驾驭工程",
@@ -3296,7 +3296,7 @@
         "author": "Hōrōshi バガボンド",
         "original_date": "2026-03-07"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "LLM",
         "代码质量",
@@ -3329,7 +3329,7 @@
         "author": "Jim Prosser",
         "original_date": "2026-03-08"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "Claude Code",
         "自动化",
@@ -3362,7 +3362,7 @@
         "author": "hoeem",
         "original_date": "2026-03-05"
       },
-      "category": "tutorials-learning/getting-started",
+      "category": "learning",
       "tags": [
         "AI工程",
         "Prompt Engineering",
@@ -3395,7 +3395,7 @@
         "author": "Harrison Chase",
         "original_date": "2026-03-09"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "Coding Agent",
         "EPD",
@@ -3427,7 +3427,7 @@
         "author": "QingYue",
         "original_date": "2026-03-09"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "OpenClaw",
         "SearxNG",
@@ -3462,7 +3462,7 @@
         "author": "余温",
         "original_date": "2026-02-15"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "AI写作",
         "Agent Skills",
@@ -3494,7 +3494,7 @@
         "author": "Akshay Pachaar",
         "original_date": "2026-03-23"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "Claude Code",
         "CLAUDE.md",
@@ -3527,7 +3527,7 @@
         "author": "Andrej Karpathy",
         "original_date": "2026-04-05"
       },
-      "category": "rag-knowledge/knowledge-graphs",
+      "category": "infra",
       "tags": [
         "LLM",
         "知识库",
@@ -3560,7 +3560,7 @@
         "author": "Tw93",
         "original_date": "2026-04-05"
       },
-      "category": "models-providers/model-architecture",
+      "category": "models",
       "tags": [
         "大模型训练",
         "预训练",
@@ -3598,7 +3598,7 @@
         "author": "Xiao Tan",
         "original_date": "2026-04-05"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "Claude Code",
         "源码分析",
@@ -3633,7 +3633,7 @@
         "author": "idoubi",
         "original_date": "2026-04-05"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "Claude Code",
         "开源",
@@ -3665,7 +3665,7 @@
         "author": "AlchainHust",
         "original_date": "2026-04-06"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "Claude Code",
         "橙皮书",
@@ -3697,7 +3697,7 @@
         "author": "Geek Lite",
         "original_date": "2026-04-06"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "Claude Code",
         "知识图谱",
@@ -3731,7 +3731,7 @@
         "author": "yanhua1010",
         "original_date": "2026-04-06"
       },
-      "category": "rag-knowledge/rag-frameworks",
+      "category": "infra",
       "tags": [
         "Obsidian",
         "Claude",
@@ -3763,7 +3763,7 @@
         "author": "花叔 (AlchainHust)",
         "original_date": "2026-04-05"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "Skill",
         "蒸馏",
@@ -3797,7 +3797,7 @@
         "author": "马天翼",
         "original_date": "2026-04-06"
       },
-      "category": "inference-serving/on-device-edge",
+      "category": "infra",
       "tags": [
         "本地LLM",
         "Vitalik",
@@ -3829,7 +3829,7 @@
         "author": "sitinme",
         "original_date": "2026-04-06"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "Claude Code",
         "Boris Cherny",
@@ -3862,7 +3862,7 @@
         "author": "chenchengpro",
         "original_date": "2026-04-06"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "Claude Code",
         "定时任务",
@@ -3893,7 +3893,7 @@
         "author": "AI进化论-花生",
         "original_date": "2026-03-10"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "OpenClaw",
         "橙皮书",
@@ -3925,7 +3925,7 @@
         "author": "Fang知识分享",
         "original_date": "2026-03-10"
       },
-      "category": "tutorials-learning/talks-videos",
+      "category": "learning",
       "tags": [
         "Sam Altman",
         "Lex Fridman",
@@ -3957,7 +3957,7 @@
         "author": "jinglian",
         "original_date": "2026-04-06"
       },
-      "category": "models-providers/open-source-models",
+      "category": "models",
       "tags": [
         "gemma",
         "jailbreak",
@@ -3991,7 +3991,7 @@
         "author": "、26 页论文覆盖了大量工作，但对每个方法的批判性分析较浅",
         "original_date": "2025-03-27"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "safety",
         "agent",
@@ -4026,7 +4026,7 @@
         "author": null,
         "original_date": "2026-03-08"
       },
-      "category": "agent-frameworks/multi-agent",
+      "category": "agents",
       "tags": [
         "gui",
         "coding",
@@ -4061,7 +4061,7 @@
         "author": null,
         "original_date": "2026-03-08"
       },
-      "category": "inference-serving/on-device-edge",
+      "category": "infra",
       "tags": [
         "perfetto",
         "on-device",
@@ -4096,7 +4096,7 @@
         "author": null,
         "original_date": "2026-03-09"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "safety",
         "coding",
@@ -4131,7 +4131,7 @@
         "author": "允许动态投影、归一化、非线性映射这些复杂结构存在，以保证模型能学到足够好的知识表达；部署前，再把这些东西折叠到静态查表结构里。于是：",
         "original_date": "2026-03-09"
       },
-      "category": "inference-serving/on-device-edge",
+      "category": "infra",
       "tags": [
         "perfetto",
         "on-device",
@@ -4166,7 +4166,7 @@
         "author": "** | 人工预定义 | 自主生成 |",
         "original_date": "2026-03-10"
       },
-      "category": "agent-frameworks/multi-agent",
+      "category": "agents",
       "tags": [
         "gui",
         "fine-tuning",
@@ -4201,7 +4201,7 @@
         "author": null,
         "original_date": "2026-03-11"
       },
-      "category": "research-papers/agents-planning",
+      "category": "learning",
       "tags": [
         "gui",
         "on-device",
@@ -4236,7 +4236,7 @@
         "author": "：**",
         "original_date": "2026-03-12"
       },
-      "category": "agent-frameworks/multi-agent",
+      "category": "agents",
       "tags": [
         "agent",
         "llm",
@@ -4270,7 +4270,7 @@
         "author": null,
         "original_date": "2026-03-13"
       },
-      "category": "research-papers/agents-planning",
+      "category": "learning",
       "tags": [
         "fine-tuning",
         "coding",
@@ -4305,7 +4305,7 @@
         "author": null,
         "original_date": "2026-03-14"
       },
-      "category": "research-papers/agents-planning",
+      "category": "learning",
       "tags": [
         "obsidian",
         "agent",
@@ -4340,7 +4340,7 @@
         "author": null,
         "original_date": "2026-03-15"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "agent",
         "llm",
@@ -4373,7 +4373,7 @@
         "author": null,
         "original_date": "2026-03-16"
       },
-      "category": "agent-frameworks/multi-agent",
+      "category": "agents",
       "tags": [
         "safety",
         "coding",
@@ -4408,7 +4408,7 @@
         "author": null,
         "original_date": "2026-03-17"
       },
-      "category": "agent-frameworks/multi-agent",
+      "category": "agents",
       "tags": [
         "safety",
         "coding",
@@ -4443,7 +4443,7 @@
         "author": "**: arXiv:2504.19678",
         "original_date": "2026-03-19"
       },
-      "category": "agent-frameworks/multi-agent",
+      "category": "agents",
       "tags": [
         "coding",
         "agent",
@@ -4478,7 +4478,7 @@
         "author": null,
         "original_date": "2026-03-20"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "safety",
         "fine-tuning",
@@ -4513,7 +4513,7 @@
         "author": null,
         "original_date": "2026-03-21"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "tools",
         "safety",
@@ -4548,7 +4548,7 @@
         "author": "**：Stylianos Loukas Vasileiou, Antonio Rago, Francesca Toni, William Yeoh",
         "original_date": "2026-03-22"
       },
-      "category": "research-papers/agents-planning",
+      "category": "learning",
       "tags": [
         "obsidian",
         "safety",
@@ -4583,7 +4583,7 @@
         "author": "：arXiv",
         "original_date": "2026-03-23"
       },
-      "category": "agent-frameworks/multi-agent",
+      "category": "agents",
       "tags": [
         "safety",
         "agent",
@@ -4618,7 +4618,7 @@
         "author": "**：arXiv",
         "original_date": "2026-03-24"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "2026-03-24",
         "gui",
@@ -4653,7 +4653,7 @@
         "author": "**: arXiv (cs.MA, cs.LG)",
         "original_date": "2026-03-26"
       },
-      "category": "research-papers/agents-planning",
+      "category": "learning",
       "tags": [
         "analysis",
         "safety",
@@ -4688,7 +4688,7 @@
         "author": "**: Zichuan Lin 等（腾讯混元）",
         "original_date": "2026-03-27"
       },
-      "category": "research-papers/agents-planning",
+      "category": "learning",
       "tags": [
         "gui",
         "on-device",
@@ -4723,7 +4723,7 @@
         "author": "来自多个机构，行文风格和深度不够统一",
         "original_date": "2026-03-31"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "on-device",
         "safety",
@@ -4758,7 +4758,7 @@
         "author": "明确计划添加 Kotlin 任务，届时可对比 iOS/Android 平台差异。",
         "original_date": "2026-04-01"
       },
-      "category": "research-papers/agents-planning",
+      "category": "learning",
       "tags": [
         "tools",
         "on-device",
@@ -4793,7 +4793,7 @@
         "author": "、验证门和信任层级映射到渐进式部署权限——直接回应 26.1% 社区技能包含漏洞的严峻现实。",
         "original_date": "2026-04-02"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "safety",
         "agent",
@@ -4828,7 +4828,7 @@
         "author": "- 重叠（LLM 思考期间并行执行工具）提升 10x 以上——说明推测执行确实将原本串行的工具调用前移了",
         "original_date": "2026-04-03"
       },
-      "category": "research-papers/agents-planning",
+      "category": "learning",
       "tags": [
         "safety",
         "agent",
@@ -4863,7 +4863,7 @@
         "author": "**：Ming Zhang（北京大学）",
         "original_date": "2026-04-06"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "safety",
         "agent",
@@ -4898,7 +4898,7 @@
         "author": null,
         "original_date": "2026-04-07"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "gui",
         "safety",
@@ -4933,7 +4933,7 @@
         "author": null,
         "original_date": "2026-04-07"
       },
-      "category": "agent-frameworks/single-agent",
+      "category": "agents",
       "tags": [
         "obsidian",
         "fine-tuning",
@@ -4968,7 +4968,7 @@
         "author": "**：Souza et al. (ORNL/Argonne National Lab)",
         "original_date": "2026-04-08"
       },
-      "category": "research-papers/agents-planning",
+      "category": "learning",
       "tags": [
         "gui",
         "agent",
@@ -5002,7 +5002,7 @@
         "author": "完成，虽经两位作者审核确认，但主观偏差难以完全排除。",
         "original_date": "2026-04-09"
       },
-      "category": "research-papers/agents-planning",
+      "category": "learning",
       "tags": [
         "coding",
         "agent"
@@ -5031,7 +5031,7 @@
         "author": "**：Mathis Pink, Qinyuan Wu, Vy Ai Vo, Javier Turek, Jianing Mu, Alexander Huth, Mariya Toneva",
         "original_date": "2026-04-10"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "fine-tuning",
         "coding",
@@ -5064,7 +5064,7 @@
         "author": "高爷",
         "original_date": "2026-04-07"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "ai-agent",
         "落地案例",
@@ -5097,7 +5097,7 @@
         "author": "高爷",
         "original_date": "2026-03-29"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "agent",
         "记忆系统",
@@ -5132,7 +5132,7 @@
         "author": "Anthropic",
         "original_date": null
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "anthropic",
         "用户调研",
@@ -5166,7 +5166,7 @@
         "author": "高爷",
         "original_date": "2026-03-23"
       },
-      "category": "agent-os/browser-agents",
+      "category": "agents",
       "tags": [
         "browser-use",
         "浏览器自动化",
@@ -5199,7 +5199,7 @@
         "author": "高爷",
         "original_date": "2026-03-23"
       },
-      "category": "agent-os/browser-agents",
+      "category": "agents",
       "tags": [
         "browser-use",
         "OpenClaw",
@@ -5231,7 +5231,7 @@
         "author": "Tw93",
         "original_date": "2026-03-21"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "Claude-Code",
         "架构治理",
@@ -5265,7 +5265,7 @@
         "author": "Anthropic",
         "original_date": null
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "Claude-Code",
         "官方文档",
@@ -5299,7 +5299,7 @@
         "author": "Anthropic",
         "original_date": null
       },
-      "category": "tutorials-learning/getting-started",
+      "category": "learning",
       "tags": [
         "Claude-Code",
         "实战课程",
@@ -5333,7 +5333,7 @@
         "author": "高爷",
         "original_date": "2026-04-07"
       },
-      "category": "ai-products/writing-content",
+      "category": "industry",
       "tags": [
         "X",
         "Twitter",
@@ -5366,7 +5366,7 @@
         "author": "高爷",
         "original_date": "2026-03-21"
       },
-      "category": "ai-products/writing-content",
+      "category": "industry",
       "tags": [
         "X",
         "Twitter",
@@ -5400,7 +5400,7 @@
         "author": null,
         "original_date": "2026-04-02"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "Superpowers",
         "GSD",
@@ -5435,7 +5435,7 @@
         "author": "高爷",
         "original_date": "2026-04-02"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "Superpowers",
         "GSD",
@@ -5469,7 +5469,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "ai-engineer",
         "system-engineer",
@@ -5501,7 +5501,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "agent",
         "performance-agent",
@@ -5534,7 +5534,7 @@
         "author": "Shai Barack, Charles Munger (Google)",
         "original_date": null
       },
-      "category": "research-papers/efficiency",
+      "category": "learning",
       "tags": [
         "android-17",
         "deliqueue",
@@ -5568,7 +5568,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "anthropic",
         "claude-code",
@@ -5601,7 +5601,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "perfetto",
         "running-slice",
@@ -5634,7 +5634,7 @@
         "author": null,
         "original_date": "2026-03-17"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "openclaw",
         "agent",
@@ -5667,7 +5667,7 @@
         "author": "Anthropic Engineering",
         "original_date": "2026-03-11"
       },
-      "category": "benchmarks-evals/methodology",
+      "category": "infra",
       "tags": [
         "anthropic",
         "evaluation",
@@ -5701,7 +5701,7 @@
         "author": "Anthropic Engineering",
         "original_date": "2026-03-24"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "anthropic",
         "harness-design",
@@ -5734,7 +5734,7 @@
         "author": "Anthropic Engineering",
         "original_date": "2026-03-25"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "claude-code",
         "auto-mode",
@@ -5766,7 +5766,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "claude-code",
         "best-practices",
@@ -5797,7 +5797,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "claude-code",
         "skills",
@@ -5828,7 +5828,7 @@
         "author": "Lance Martin, Gabe Cemaj, Michael Cohen",
         "original_date": "2026-04-09"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "anthropic",
         "managed-agents",
@@ -5860,7 +5860,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "claude-code",
         "mcp",
@@ -5892,7 +5892,7 @@
         "author": "Manus AI",
         "original_date": null
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "android",
         "meminfo",
@@ -5925,7 +5925,7 @@
         "author": "Manus AI",
         "original_date": null
       },
-      "category": "research-papers/efficiency",
+      "category": "learning",
       "tags": [
         "android-16",
         "messagequeue",
@@ -5958,7 +5958,7 @@
         "author": "Manus AI",
         "original_date": null
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "android",
         "arm",
@@ -5992,7 +5992,7 @@
         "author": "Manus AI",
         "original_date": null
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "android",
         "vsync",
@@ -6026,7 +6026,7 @@
         "author": "Manus AI",
         "original_date": null
       },
-      "category": "tutorials-learning/getting-started",
+      "category": "learning",
       "tags": [
         "android",
         "framework",
@@ -6059,7 +6059,7 @@
         "author": "Manus AI",
         "original_date": null
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "android",
         "vsync",
@@ -6093,7 +6093,7 @@
         "author": "Manus AI",
         "original_date": null
       },
-      "category": "tutorials-learning/getting-started",
+      "category": "learning",
       "tags": [
         "android",
         "performance",
@@ -6125,7 +6125,7 @@
         "author": "Manus AI",
         "original_date": null
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "android",
         "native",
@@ -6158,7 +6158,7 @@
         "author": "Manus AI",
         "original_date": null
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "wechat",
         "mini-program",
@@ -6192,7 +6192,7 @@
         "author": "AutoResearchClaw",
         "original_date": "2026-03-17"
       },
-      "category": "research-papers/agents-planning",
+      "category": "learning",
       "tags": [
         "android",
         "power-optimization",
@@ -6225,7 +6225,7 @@
         "author": "AutoResearchClaw",
         "original_date": "2026-03-18"
       },
-      "category": "research-papers/efficiency",
+      "category": "learning",
       "tags": [
         "android",
         "thermal",
@@ -6257,7 +6257,7 @@
         "author": null,
         "original_date": "2023-04-01"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "ChatGPT",
         "GPT-4",
@@ -6291,7 +6291,7 @@
         "author": null,
         "original_date": "2023-02-21"
       },
-      "category": "multimodal-ai/image-generation",
+      "category": "infra",
       "tags": [
         "Stable Diffusion",
         "Diffusion"
@@ -6326,7 +6326,7 @@
         "author": null,
         "original_date": "2022-01-24"
       },
-      "category": "tutorials-learning/newsletters-blogs",
+      "category": "learning",
       "tags": [
         "Android",
         "Newsletter"
@@ -6361,7 +6361,7 @@
         "author": null,
         "original_date": "2022-01-24"
       },
-      "category": "tutorials-learning/newsletters-blogs",
+      "category": "learning",
       "tags": [
         "Android",
         "Newsletter"
@@ -6396,7 +6396,7 @@
         "author": null,
         "original_date": "2022-01-24"
       },
-      "category": "tutorials-learning/newsletters-blogs",
+      "category": "learning",
       "tags": [
         "Android",
         "Newsletter"
@@ -6431,7 +6431,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [
         "Newsletter"
       ],
@@ -6459,7 +6459,7 @@
         "author": null,
         "original_date": "2024-09-03"
       },
-      "category": "rag-knowledge/rag-frameworks",
+      "category": "infra",
       "tags": [
         "LLM",
         "RAG",
@@ -6497,7 +6497,7 @@
         "author": null,
         "original_date": "2022-12-05"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "ChatGPT",
         "OpenAI"
@@ -6532,7 +6532,7 @@
         "author": null,
         "original_date": "2023-12-12"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "ChatGPT",
         "GPT-4",
@@ -6572,7 +6572,7 @@
         "author": null,
         "original_date": "2023-12-26"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "ChatGPT",
         "LLM",
@@ -6608,7 +6608,7 @@
         "author": null,
         "original_date": "2023-12-26"
       },
-      "category": "multimodal-ai/image-generation",
+      "category": "infra",
       "tags": [
         "ChatGPT",
         "LLM",
@@ -6642,7 +6642,7 @@
         "author": "yiqiuzheng，腾讯 IEG 前端工程师",
         "original_date": "2023-03-09"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "ChatGPT",
         "OpenAI",
@@ -6682,7 +6682,7 @@
         "author": null,
         "original_date": "2025-12-22"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "LLM",
         "DeepSeek"
@@ -6714,7 +6714,7 @@
         "author": null,
         "original_date": "2025-02-23"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "Claude",
         "Gemini",
@@ -6746,7 +6746,7 @@
         "author": null,
         "original_date": "2026-01-04"
       },
-      "category": "ai-products/vertical",
+      "category": "industry",
       "tags": [
         "Android",
         "IndieDev",
@@ -6782,7 +6782,7 @@
         "author": null,
         "original_date": "2026-01-05"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "Anthropic",
         "Agent",
@@ -6819,7 +6819,7 @@
         "author": null,
         "original_date": "2026-01-05"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "Claude",
         "LLM",
@@ -6850,7 +6850,7 @@
         "author": null,
         "original_date": "2026-01-05"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -6876,7 +6876,7 @@
         "author": null,
         "original_date": "2026-01-05"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "Claude",
         "AI Coding",
@@ -6908,7 +6908,7 @@
         "author": null,
         "original_date": "2026-01-05"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "Claude",
         "Agent",
@@ -6941,7 +6941,7 @@
         "author": null,
         "original_date": "2026-01-05"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "Agent",
         "AI Coding",
@@ -6971,7 +6971,7 @@
         "author": null,
         "original_date": "2026-01-06"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "Claude",
         "Agent"
@@ -7006,7 +7006,7 @@
         "author": null,
         "original_date": "2025-03-01"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "Agent",
         "AI Coding",
@@ -7039,7 +7039,7 @@
         "author": null,
         "original_date": "2025-04-15"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "OpenAI",
         "Inference",
@@ -7076,7 +7076,7 @@
         "author": null,
         "original_date": "2025-03-17"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "Claude",
         "Cursor",
@@ -7112,7 +7112,7 @@
         "author": null,
         "original_date": "2023-05-17"
       },
-      "category": "benchmarks-evals/general",
+      "category": "infra",
       "tags": [
         "ChatGPT",
         "OpenAI",
@@ -7149,7 +7149,7 @@
         "author": null,
         "original_date": "2026-01-09"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "Claude",
         "LLM",
@@ -7189,7 +7189,7 @@
         "author": null,
         "original_date": "2024-05-20"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "LLM"
       ],
@@ -7220,7 +7220,7 @@
         "author": null,
         "original_date": "2024-05-27"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "Copilot"
       ],
@@ -7254,7 +7254,7 @@
         "author": null,
         "original_date": "2023-12-14"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "Agent"
       ],
@@ -7282,7 +7282,7 @@
         "author": null,
         "original_date": "2025-02-09"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "OpenAI",
         "Android",
@@ -7315,7 +7315,7 @@
         "author": "Guangya Liu (IBM), Sujay Solomon (Google)",
         "original_date": "2025-03-11"
       },
-      "category": "inference-serving/inference-engines",
+      "category": "infra",
       "tags": [
         "Anthropic",
         "LLM",
@@ -7352,7 +7352,7 @@
         "author": null,
         "original_date": "2025-04-21"
       },
-      "category": "agent-protocols/a2a",
+      "category": "agents",
       "tags": [
         "OpenAI",
         "AI Coding",
@@ -7389,7 +7389,7 @@
         "author": null,
         "original_date": "2025-07-21"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "ChatGPT",
         "Agent",
@@ -7426,7 +7426,7 @@
         "author": null,
         "original_date": "2024-10-10"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "ChatGPT",
         "Prompt Engineering",
@@ -7460,7 +7460,7 @@
         "author": null,
         "original_date": "2024-12-25"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [
         "ChatGPT",
         "OpenAI",
@@ -7499,7 +7499,7 @@
         "author": null,
         "original_date": "2025-03-26"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "AI Safety"
       ],
@@ -7530,7 +7530,7 @@
         "author": null,
         "original_date": "2025-07-09"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "MCP",
         "IndieDev",
@@ -7566,7 +7566,7 @@
         "author": null,
         "original_date": "2026-03-11"
       },
-      "category": "inference-serving/inference-engines",
+      "category": "infra",
       "tags": [
         "Inference"
       ],
@@ -7600,7 +7600,7 @@
         "author": null,
         "original_date": "2025-02-22"
       },
-      "category": "agent-frameworks/single-agent",
+      "category": "agents",
       "tags": [
         "ChatGPT",
         "Agent"
@@ -7632,7 +7632,7 @@
         "author": null,
         "original_date": "2025-06-18"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "Claude",
         "Gemini",
@@ -7667,7 +7667,7 @@
         "author": null,
         "original_date": "2025-02-03"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "Copilot",
         "Cursor",
@@ -7703,7 +7703,7 @@
         "author": null,
         "original_date": "2026-03-10"
       },
-      "category": "agent-frameworks/single-agent",
+      "category": "agents",
       "tags": [
         "OpenAI",
         "Agent",
@@ -7739,7 +7739,7 @@
         "author": null,
         "original_date": "2025-02-23"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "ChatGPT",
         "GPT-4",
@@ -7776,7 +7776,7 @@
         "author": null,
         "original_date": "2024-10-08"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "ChatGPT",
         "Claude",
@@ -7815,7 +7815,7 @@
         "author": null,
         "original_date": "2023-03-22"
       },
-      "category": "rag-knowledge/rag-frameworks",
+      "category": "infra",
       "tags": [
         "AIGC",
         "Stable Diffusion",
@@ -7854,7 +7854,7 @@
         "author": null,
         "original_date": "2023-12-04"
       },
-      "category": "multimodal-ai/image-generation",
+      "category": "infra",
       "tags": [
         "ChatGPT",
         "AIGC"
@@ -7885,7 +7885,7 @@
         "author": null,
         "original_date": "2025-02-17"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "Cursor",
         "IndieDev",
@@ -7917,7 +7917,7 @@
         "author": null,
         "original_date": "2025-03-19"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "Inference",
         "DeepSeek",
@@ -7954,7 +7954,7 @@
         "author": null,
         "original_date": "2024-12-15"
       },
-      "category": "agent-protocols/a2a",
+      "category": "agents",
       "tags": [
         "IndieDev"
       ],
@@ -7985,7 +7985,7 @@
         "author": null,
         "original_date": "2023-03-28"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "ChatGPT"
       ],
@@ -8019,7 +8019,7 @@
         "author": null,
         "original_date": "2025-12-11"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "Anthropic",
         "LLM",
@@ -8057,7 +8057,7 @@
         "author": null,
         "original_date": "2026-01-16"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "OpenAI",
         "Anthropic",
@@ -8093,7 +8093,7 @@
         "author": null,
         "original_date": "2022-08-08"
       },
-      "category": "multimodal-ai/image-generation",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -8125,7 +8125,7 @@
         "author": null,
         "original_date": "2025-04-10"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "OpenAI",
         "Anthropic",
@@ -8163,7 +8163,7 @@
         "author": null,
         "original_date": "2026-01-23"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "Android",
         "Performance"
@@ -8198,7 +8198,7 @@
         "author": null,
         "original_date": "2023-01-02"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "ChatGPT",
         "Midjourney",
@@ -8234,7 +8234,7 @@
         "author": null,
         "original_date": "2026-01-08"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "Claude",
         "Anthropic",
@@ -8272,7 +8272,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "Android"
       ],
@@ -8306,7 +8306,7 @@
         "author": null,
         "original_date": "2023-02-15"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "AI Coding"
       ],
@@ -8340,7 +8340,7 @@
         "author": null,
         "original_date": "2023-07-11"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -8366,7 +8366,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "Gemini",
         "Android"
@@ -8399,7 +8399,7 @@
         "author": null,
         "original_date": "2024-01-31"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "Prompt Engineering",
         "Android",
@@ -8432,7 +8432,7 @@
         "author": null,
         "original_date": "2026-01-04"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "Agent",
         "Prompt Engineering",
@@ -8469,7 +8469,7 @@
         "author": null,
         "original_date": "2025-12-05"
       },
-      "category": "agent-frameworks/single-agent",
+      "category": "agents",
       "tags": [
         "Agent",
         "Android",
@@ -8501,7 +8501,7 @@
         "author": null,
         "original_date": "2022-04-21"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "Android"
       ],
@@ -8529,7 +8529,7 @@
         "author": null,
         "original_date": "2023-12-27"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "Android",
         "Performance"
@@ -8563,7 +8563,7 @@
         "author": null,
         "original_date": "2025-06-17"
       },
-      "category": "tutorials-learning/getting-started",
+      "category": "learning",
       "tags": [
         "Android",
         "Performance"
@@ -8598,7 +8598,7 @@
         "author": null,
         "original_date": "2025-03-18"
       },
-      "category": "agent-frameworks/single-agent",
+      "category": "agents",
       "tags": [
         "Gemini",
         "Android",
@@ -8639,7 +8639,7 @@
         "author": null,
         "original_date": "2025-04-21"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "Android",
         "MCP",
@@ -8677,7 +8677,7 @@
         "author": null,
         "original_date": "2025-06-09"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "Gemini",
         "Android",
@@ -8716,7 +8716,7 @@
         "author": null,
         "original_date": "2025-06-23"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "Android",
         "Performance",
@@ -8752,7 +8752,7 @@
         "author": null,
         "original_date": "2025-06-30"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "Gemini",
         "Android",
@@ -8788,7 +8788,7 @@
         "author": null,
         "original_date": "2025-07-07"
       },
-      "category": "tutorials-learning/getting-started",
+      "category": "learning",
       "tags": [
         "Android"
       ],
@@ -8822,7 +8822,7 @@
         "author": null,
         "original_date": "2025-03-03"
       },
-      "category": "tutorials-learning/newsletters-blogs",
+      "category": "learning",
       "tags": [
         "Android",
         "Weekly"
@@ -8857,7 +8857,7 @@
         "author": null,
         "original_date": "2025-03-24"
       },
-      "category": "tutorials-learning/newsletters-blogs",
+      "category": "learning",
       "tags": [
         "Android",
         "Performance",
@@ -8893,7 +8893,7 @@
         "author": null,
         "original_date": "2025-03-31"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "Android",
         "Weekly"
@@ -8928,7 +8928,7 @@
         "author": null,
         "original_date": "2025-02-04"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "Android",
         "Performance"
@@ -8961,7 +8961,7 @@
         "author": null,
         "original_date": "2022-01-19"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "Android",
         "Performance"
@@ -8990,7 +8990,7 @@
         "author": null,
         "original_date": "2025-10-18"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "Claude",
         "Anthropic",
@@ -9021,7 +9021,7 @@
         "author": null,
         "original_date": "2026-03-02"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "Claude",
         "Anthropic"
@@ -9050,7 +9050,7 @@
         "author": null,
         "original_date": "2025-09-12"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "Claude",
         "Anthropic",
@@ -9088,7 +9088,7 @@
         "author": null,
         "original_date": "2025-10-20"
       },
-      "category": "inference-serving/inference-engines",
+      "category": "infra",
       "tags": [
         "Anthropic",
         "LLM",
@@ -9124,7 +9124,7 @@
         "author": null,
         "original_date": "2025-08-15"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "Claude",
         "Anthropic"
@@ -9159,7 +9159,7 @@
         "author": null,
         "original_date": "2025-06-18"
       },
-      "category": "agent-frameworks/single-agent",
+      "category": "agents",
       "tags": [
         "Claude",
         "Anthropic",
@@ -9194,7 +9194,7 @@
         "author": null,
         "original_date": "2024-07-07"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [],
       "source_type": "github",
       "language": "zh",
@@ -9226,7 +9226,7 @@
         "author": null,
         "original_date": "2025-12-26"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -9254,7 +9254,7 @@
         "author": null,
         "original_date": "2023-05-29"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "ChatGPT",
         "GPT-4",
@@ -9286,7 +9286,7 @@
         "author": null,
         "original_date": "2024-08-08"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "anthropic",
         "[]",
@@ -9333,7 +9333,7 @@
         "author": null,
         "original_date": "2023-03-03"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "llm",
         "[]",
@@ -9369,7 +9369,7 @@
         "author": null,
         "original_date": "2023-03-19"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "gpt-4",
         "[]",
@@ -9416,7 +9416,7 @@
         "author": null,
         "original_date": "2023-03-30"
       },
-      "category": "rag-knowledge/rag-frameworks",
+      "category": "infra",
       "tags": [
         "rag",
         "[]",
@@ -9447,7 +9447,7 @@
         "author": null,
         "original_date": "2023-03-26"
       },
-      "category": "prompt-engineering/system-prompts",
+      "category": "learning",
       "tags": [
         "[]",
         "chatgpt"
@@ -9489,7 +9489,7 @@
         "author": "Stephen Wolfram，发表于 2023年2月14日原文链接：https://writing",
         "original_date": "2023-03-09"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "[]",
         "llm",
@@ -9612,7 +9612,7 @@
         "author": null,
         "original_date": "2023-07-09"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "gpt-4",
         "[]",
@@ -9680,7 +9680,7 @@
         "author": null,
         "original_date": "2023-12-15"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "[]",
         "openai",
@@ -9715,7 +9715,7 @@
         "author": null,
         "original_date": "2023-02-14"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [
         "transformer",
         "fine-tuning",
@@ -9767,7 +9767,7 @@
         "author": null,
         "original_date": "2024-11-12"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "[]",
         "claude",
@@ -9810,7 +9810,7 @@
         "author": null,
         "original_date": "2023-03-20"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "[]",
         "prompt",
@@ -9853,7 +9853,7 @@
         "author": null,
         "original_date": "2022-12-05"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "大模型",
         "fine-tuning",
@@ -9899,7 +9899,7 @@
         "author": null,
         "original_date": "2022-12-09"
       },
-      "category": "prompt-engineering/jailbreak-safety",
+      "category": "learning",
       "tags": [
         "大模型",
         "fine-tuning",
@@ -9943,7 +9943,7 @@
         "author": null,
         "original_date": "2023-04-08"
       },
-      "category": "rag-knowledge/embedding-reranking",
+      "category": "infra",
       "tags": [
         "transformer",
         "llm",
@@ -9978,7 +9978,7 @@
         "author": null,
         "original_date": "2023-06-15"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "gpt-4",
         "[]",
@@ -10021,7 +10021,7 @@
         "author": null,
         "original_date": "2023-02-20"
       },
-      "category": "ai-products/chat-assistant",
+      "category": "industry",
       "tags": [
         "[]",
         "llm",
@@ -10144,7 +10144,7 @@
         "author": null,
         "original_date": "2023-02-12"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "[]",
         "chatgpt"
@@ -10256,7 +10256,7 @@
         "author": null,
         "original_date": "2023-02-07"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [
         "llm",
         "[]",
@@ -10318,7 +10318,7 @@
         "author": null,
         "original_date": "2023-05-07"
       },
-      "category": "inference-serving/quantization",
+      "category": "infra",
       "tags": [
         "[]",
         "chatgpt"
@@ -10351,7 +10351,7 @@
         "author": null,
         "original_date": "2026-01-09"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "mcp",
         "anthropic",
@@ -10389,7 +10389,7 @@
         "author": null,
         "original_date": "2026-01-08"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "[]",
         "claude"
@@ -10435,7 +10435,7 @@
         "author": null,
         "original_date": "2026-01-08"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "copilot",
         "anthropic",
@@ -10479,7 +10479,7 @@
         "author": null,
         "original_date": "2026-01-28"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "agent",
         "mcp",
@@ -10517,7 +10517,7 @@
         "author": null,
         "original_date": "2026-01-06"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "anthropic",
         "大模型",
@@ -10556,7 +10556,7 @@
         "author": null,
         "original_date": "2025-12-09"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "mcp",
         "transformer",
@@ -10591,7 +10591,7 @@
         "author": null,
         "original_date": "2026-03-29"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "[]",
         "ai编程",
@@ -10625,7 +10625,7 @@
         "author": null,
         "original_date": "2025-09-06"
       },
-      "category": "rag-knowledge/rag-frameworks",
+      "category": "infra",
       "tags": [
         "claude",
         "anthropic"
@@ -10661,7 +10661,7 @@
         "author": null,
         "original_date": "2025-12-06"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "deepseek",
         "[]",
@@ -10701,7 +10701,7 @@
         "author": null,
         "original_date": "2026-03-12"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "quantization",
         "anthropic",
@@ -10764,7 +10764,7 @@
         "author": null,
         "original_date": "2025-09-16"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "mcp",
         "anthropic",
@@ -10813,7 +10813,7 @@
         "author": null,
         "original_date": "2025-07-19"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "agent",
         "[]",
@@ -10851,7 +10851,7 @@
         "author": null,
         "original_date": "2024-12-30"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "[]",
         "prompt",
@@ -10890,7 +10890,7 @@
         "author": null,
         "original_date": "2024-12-31"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "[]",
         "llm",
@@ -10936,7 +10936,7 @@
         "author": null,
         "original_date": "2025-03-02"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "agent",
         "[]",
@@ -10979,7 +10979,7 @@
         "author": null,
         "original_date": "2025-02-16"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "coding",
         "[]",
@@ -11026,7 +11026,7 @@
         "author": null,
         "original_date": "2024-09-11"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "copilot",
         "[]",
@@ -11066,7 +11066,7 @@
         "author": null,
         "original_date": "2025-01-29"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "llm",
         "[]",
@@ -11098,7 +11098,7 @@
         "author": null,
         "original_date": "2025-03-17"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "deepseek",
         "[]",
@@ -11133,7 +11133,7 @@
         "author": null,
         "original_date": "2025-01-21"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "deepseek",
         "大模型",
@@ -11173,7 +11173,7 @@
         "author": null,
         "original_date": "2025-02-04"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [
         "deepseek",
         "llm",
@@ -11220,7 +11220,7 @@
         "author": null,
         "original_date": "2026-01-10"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "mcp",
         "llm",
@@ -11260,7 +11260,7 @@
         "author": null,
         "original_date": "2023-04-02"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "transformer",
         "[]",
@@ -11293,7 +11293,7 @@
         "author": null,
         "original_date": "2025-09-24"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "copilot",
         "[]",
@@ -11332,7 +11332,7 @@
         "author": null,
         "original_date": "2023-04-03"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "[]",
         "openai",
@@ -11363,7 +11363,7 @@
         "author": "qizailiu，腾讯 IEG 算法研究员",
         "original_date": "2023-03-16"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [
         "[]",
         "prompt",
@@ -11423,7 +11423,7 @@
         "author": null,
         "original_date": "2024-05-14"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [
         "[]",
         "gpt-4",
@@ -11491,7 +11491,7 @@
         "author": null,
         "original_date": "2023-03-15"
       },
-      "category": "prompt-engineering/jailbreak-safety",
+      "category": "learning",
       "tags": [
         "大模型",
         "[]",
@@ -11557,7 +11557,7 @@
         "author": "binnnliu",
         "original_date": "2025-07-08"
       },
-      "category": "benchmarks-evals/general",
+      "category": "infra",
       "tags": [
         "[]",
         "inference",
@@ -11616,7 +11616,7 @@
         "author": null,
         "original_date": "2024-12-13"
       },
-      "category": "prompt-engineering/jailbreak-safety",
+      "category": "learning",
       "tags": [
         "gemini",
         "[]",
@@ -11657,7 +11657,7 @@
         "author": null,
         "original_date": "2025-05-25"
       },
-      "category": "prompt-engineering/jailbreak-safety",
+      "category": "learning",
       "tags": [
         "gemini",
         "[]"
@@ -11686,7 +11686,7 @@
         "author": null,
         "original_date": "2025-04-13"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "[]",
         "prompt",
@@ -11723,7 +11723,7 @@
         "author": null,
         "original_date": "2024-10-21"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "llm",
         "[]",
@@ -11763,7 +11763,7 @@
         "author": null,
         "original_date": "2023-12-07"
       },
-      "category": "prompt-engineering/jailbreak-safety",
+      "category": "learning",
       "tags": [
         "gemini",
         "[]"
@@ -11805,7 +11805,7 @@
         "author": null,
         "original_date": "2024-07-03"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "[]"
       ],
@@ -11845,7 +11845,7 @@
         "author": null,
         "original_date": "2024-08-22"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "transformer",
         "llm",
@@ -11883,7 +11883,7 @@
         "author": null,
         "original_date": "2025-07-06"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "embedding",
         "[]",
@@ -11913,7 +11913,7 @@
         "author": null,
         "original_date": "2025-04-01"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "mcp",
         "[]",
@@ -12115,7 +12115,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "llm",
         "[]",
@@ -12150,7 +12150,7 @@
         "author": null,
         "original_date": "2023-02-27"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "[]",
         "openai",
@@ -12190,7 +12190,7 @@
         "author": null,
         "original_date": "2023-04-13"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "gpt-4",
         "[]",
@@ -12391,7 +12391,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "agent",
         "rag",
@@ -12428,7 +12428,7 @@
         "author": null,
         "original_date": "2023-03-27"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "[]",
         "cursor",
@@ -12503,7 +12503,7 @@
         "author": null,
         "original_date": "2025-07-08"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "deepseek",
         "[]",
@@ -12533,7 +12533,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "[]",
         "openai",
@@ -12570,7 +12570,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "mcp",
         "copilot",
@@ -12607,7 +12607,7 @@
         "author": null,
         "original_date": "2026-01-13"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "agent",
         "[]",
@@ -12637,7 +12637,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "[]",
         "openai",
@@ -12691,7 +12691,7 @@
         "author": null,
         "original_date": "2025-04-13"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "copilot",
         "[]",
@@ -12744,7 +12744,7 @@
         "author": null,
         "original_date": "2025-02-17"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "deepseek",
         "大模型",
@@ -12791,7 +12791,7 @@
         "author": null,
         "original_date": "2024-05-15"
       },
-      "category": "multimodal-ai/vision-language",
+      "category": "infra",
       "tags": [
         "gemini",
         "[]",
@@ -12828,7 +12828,7 @@
         "author": null,
         "original_date": "2023-10-05"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [
         "[]"
       ],
@@ -12875,7 +12875,7 @@
         "author": null,
         "original_date": "2025-10-19"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "deepseek",
         "llm",
@@ -12916,7 +12916,7 @@
         "author": null,
         "original_date": "2025-10-08"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "AI-workflow",
         "smart-brevity",
@@ -12947,7 +12947,7 @@
         "author": null,
         "original_date": "2025-04-16"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "reading",
         "knowledge-management",
@@ -12979,7 +12979,7 @@
         "author": null,
         "original_date": "2026-01-07"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "context-engineering",
         "filesystem",
@@ -13016,7 +13016,7 @@
         "author": null,
         "original_date": "2025-12-15"
       },
-      "category": "agent-frameworks/multi-agent",
+      "category": "agents",
       "tags": [
         "multi-agent",
         "research-system",
@@ -13054,7 +13054,7 @@
         "author": null,
         "original_date": "2026-04-05"
       },
-      "category": "rag-knowledge/rag-frameworks",
+      "category": "infra",
       "tags": [
         "Karpathy",
         "knowledge-management",
@@ -13088,7 +13088,7 @@
         "author": null,
         "original_date": "2024-03-21"
       },
-      "category": "models-providers/chinese-llm",
+      "category": "models",
       "tags": [
         "Kimi",
         "文心一言",
@@ -13121,7 +13121,7 @@
         "author": null,
         "original_date": "2025-03-21"
       },
-      "category": "research-papers/agents-planning",
+      "category": "learning",
       "tags": [
         "LLM-agent",
         "planning",
@@ -13162,7 +13162,7 @@
         "author": null,
         "original_date": "2025-01-08"
       },
-      "category": "agent-os/phone-ai",
+      "category": "agents",
       "tags": [
         "GUI-agent",
         "phone-automation",
@@ -13196,7 +13196,7 @@
         "author": null,
         "original_date": "2025-03-26"
       },
-      "category": "industry-strategy/big-tech",
+      "category": "industry",
       "tags": [
         "engineering-leadership",
         "GenAI",
@@ -13229,7 +13229,7 @@
         "author": null,
         "original_date": "2023-12-14"
       },
-      "category": "ai-products/chat-assistant",
+      "category": "industry",
       "tags": [
         "Gemini",
         "Android",
@@ -13263,7 +13263,7 @@
         "author": null,
         "original_date": "2025-03-06"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "MCP",
         "Model-Context-Protocol",
@@ -13296,7 +13296,7 @@
         "author": null,
         "original_date": "2025-04-14"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [
         "MCP",
         "Model-Context-Protocol",
@@ -13331,7 +13331,7 @@
         "author": null,
         "original_date": "2022-12-06"
       },
-      "category": "research-papers/efficiency",
+      "category": "learning",
       "tags": [
         "MLGO",
         "compiler-optimization",
@@ -13365,7 +13365,7 @@
         "author": null,
         "original_date": "2026-04-01"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "Claude-Code",
         "AI-Agent",
@@ -13396,7 +13396,7 @@
         "author": null,
         "original_date": "2024-01-16"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "Kotlin",
         "micro-optimization",
@@ -13430,7 +13430,7 @@
         "author": null,
         "original_date": "2026-04-06"
       },
-      "category": "inference-serving/on-device-edge",
+      "category": "infra",
       "tags": [
         "local-LLM",
         "privacy",
@@ -13465,7 +13465,7 @@
         "author": null,
         "original_date": "2023-02-20"
       },
-      "category": "tutorials-learning/newsletters-blogs",
+      "category": "learning",
       "tags": [
         "AI资源",
         "Twitter",
@@ -13502,7 +13502,7 @@
         "author": null,
         "original_date": "2023-12-01"
       },
-      "category": "ai-products/enterprise",
+      "category": "industry",
       "tags": [
         "Notion",
         "AI产品",
@@ -13541,7 +13541,7 @@
         "author": null,
         "original_date": "2025-12-08"
       },
-      "category": "agent-os/phone-ai",
+      "category": "agents",
       "tags": [
         "OPPO",
         "AI手机",
@@ -13582,7 +13582,7 @@
         "author": null,
         "original_date": "2025-03-13"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [
         "openai",
         "agents",
@@ -13616,7 +13616,7 @@
         "author": null,
         "original_date": "2024-10-31"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "openai",
         "o1",
@@ -13649,7 +13649,7 @@
         "author": "lencx",
         "original_date": "2025-02-03"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [
         "openai",
         "o3-mini",
@@ -13681,7 +13681,7 @@
         "author": null,
         "original_date": "2022-12-05"
       },
-      "category": "tutorials-learning/getting-started",
+      "category": "learning",
       "tags": [
         "chatgpt",
         "注册",
@@ -13712,7 +13712,7 @@
         "author": null,
         "original_date": "2026-02-26"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "openclaw",
         "claude-code",
@@ -13746,7 +13746,7 @@
         "author": "Founder Park",
         "original_date": "2026-03-29"
       },
-      "category": "industry-strategy/market-analysis",
+      "category": "industry",
       "tags": [
         "openclaw",
         "agent",
@@ -13780,7 +13780,7 @@
         "author": null,
         "original_date": "2026-02-03"
       },
-      "category": "research-papers/agents-planning",
+      "category": "learning",
       "tags": [
         "OS-R1",
         "强化学习",
@@ -13812,7 +13812,7 @@
         "author": "DHH",
         "original_date": "2026-01-07"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [
         "DHH",
         "AI-agents",
@@ -13844,7 +13844,7 @@
         "author": "Lee Boonstra",
         "original_date": "2025-04-12"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "prompt-engineering",
         "kaggle",
@@ -13876,7 +13876,7 @@
         "author": "Lilian Weng",
         "original_date": "2023-03-20"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [
         "prompt-engineering",
         "zero-shot",
@@ -13909,7 +13909,7 @@
         "author": "亦安",
         "original_date": "2025-12-03"
       },
-      "category": "inference-serving/on-device-edge",
+      "category": "infra",
       "tags": [
         "Qualcomm",
         "Snapdragon",
@@ -13941,7 +13941,7 @@
         "author": "Qualcomm",
         "original_date": "2023-07-24"
       },
-      "category": "inference-serving/on-device-edge",
+      "category": "infra",
       "tags": [
         "qualcomm",
         "meta",
@@ -13973,7 +13973,7 @@
         "author": null,
         "original_date": "2023-03-13"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [
         "Rust",
         "AOSP",
@@ -14006,7 +14006,7 @@
         "author": null,
         "original_date": "2026-01-28"
       },
-      "category": "industry-strategy/big-tech",
+      "category": "industry",
       "tags": [
         "sam-altman",
         "openai",
@@ -14039,7 +14039,7 @@
         "author": "Eugene Wei",
         "original_date": "2020-09-18"
       },
-      "category": "ai-products/chat-assistant",
+      "category": "industry",
       "tags": [
         "TikTok",
         "算法",
@@ -14072,7 +14072,7 @@
         "author": "Stephen Wolfram",
         "original_date": "2019-02-01"
       },
-      "category": "tutorials-learning/newsletters-blogs",
+      "category": "learning",
       "tags": [
         "Stephen-Wolfram",
         "生产力",
@@ -14104,7 +14104,7 @@
         "author": null,
         "original_date": "2026-03-30"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [
         "SmartPerfetto",
         "Perfetto",
@@ -14138,7 +14138,7 @@
         "author": null,
         "original_date": "2022-12-14"
       },
-      "category": "multimodal-ai/image-generation",
+      "category": "infra",
       "tags": [
         "stable-diffusion",
         "SD2.0",
@@ -14170,7 +14170,7 @@
         "author": "OpenRouter + a16z",
         "original_date": "2025-12-06"
       },
-      "category": "benchmarks-evals/methodology",
+      "category": "infra",
       "tags": [
         "OpenRouter",
         "a16z",
@@ -14204,7 +14204,7 @@
         "author": "CharlesCCC",
         "original_date": "2025-04-02"
       },
-      "category": "prompt-engineering/system-prompts",
+      "category": "learning",
       "tags": [
         "prompt",
         "AI味去除",
@@ -14236,7 +14236,7 @@
         "author": null,
         "original_date": "2025-01-04"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -14262,7 +14262,7 @@
         "author": null,
         "original_date": "2023-02-17"
       },
-      "category": "industry-strategy/big-tech",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -14292,7 +14292,7 @@
         "author": null,
         "original_date": "2023-10-07"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -14350,7 +14350,7 @@
         "author": null,
         "original_date": "2024-09-12"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -14376,7 +14376,7 @@
         "author": null,
         "original_date": "2023-07-11"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -14402,7 +14402,7 @@
         "author": null,
         "original_date": "2025-04-22"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -14434,7 +14434,7 @@
         "author": null,
         "original_date": "2024-10-30"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -14466,7 +14466,7 @@
         "author": null,
         "original_date": "2023-12-21"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -14494,7 +14494,7 @@
         "author": null,
         "original_date": "2026-01-07"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -14520,7 +14520,7 @@
         "author": null,
         "original_date": "2023-07-31"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -14552,7 +14552,7 @@
         "author": null,
         "original_date": "2025-01-08"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -14584,7 +14584,7 @@
         "author": null,
         "original_date": "2023-11-02"
       },
-      "category": "models-providers/open-source-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -14610,7 +14610,7 @@
         "author": null,
         "original_date": "2023-07-12"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -14639,7 +14639,7 @@
         "author": null,
         "original_date": "2025-05-26"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -14669,7 +14669,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -14695,7 +14695,7 @@
         "author": null,
         "original_date": "2024-02-29"
       },
-      "category": "industry-strategy/oem-device",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -14727,7 +14727,7 @@
         "author": null,
         "original_date": "2025-05-14"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -14758,7 +14758,7 @@
         "author": null,
         "original_date": "2025-04-06"
       },
-      "category": "inference-serving/inference-engines",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -14788,7 +14788,7 @@
         "author": null,
         "original_date": "2025-04-19"
       },
-      "category": "industry-strategy/big-tech",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -14820,7 +14820,7 @@
         "author": null,
         "original_date": "2025-03-19"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -14851,7 +14851,7 @@
         "author": null,
         "original_date": "2025-03-18"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -14882,7 +14882,7 @@
         "author": null,
         "original_date": "2025-03-21"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -14911,7 +14911,7 @@
         "author": null,
         "original_date": "2025-03-22"
       },
-      "category": "models-providers/model-architecture",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -14943,7 +14943,7 @@
         "author": null,
         "original_date": "2025-03-20"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -14974,7 +14974,7 @@
         "author": null,
         "original_date": "2025-03-19"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15000,7 +15000,7 @@
         "author": null,
         "original_date": "2024-08-26"
       },
-      "category": "rag-knowledge/rag-frameworks",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -15058,7 +15058,7 @@
         "author": null,
         "original_date": "2025-12-16"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -15116,7 +15116,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -15145,7 +15145,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15177,7 +15177,7 @@
         "author": null,
         "original_date": "2025-08-21"
       },
-      "category": "models-providers/chinese-llm",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15209,7 +15209,7 @@
         "author": null,
         "original_date": "2026-04-01"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -15235,7 +15235,7 @@
         "author": null,
         "original_date": "2024-09-19"
       },
-      "category": "models-providers/chinese-llm",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15267,7 +15267,7 @@
         "author": null,
         "original_date": "2025-03-18"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -15319,7 +15319,7 @@
         "author": null,
         "original_date": "2025-03-20"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15351,7 +15351,7 @@
         "author": null,
         "original_date": "2025-03-17"
       },
-      "category": "models-providers/open-source-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15383,7 +15383,7 @@
         "author": null,
         "original_date": "2025-01-16"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15415,7 +15415,7 @@
         "author": null,
         "original_date": "2025-07-15"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15447,7 +15447,7 @@
         "author": null,
         "original_date": "2022-01-24"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -15508,7 +15508,7 @@
         "author": null,
         "original_date": "2025-03-29"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15540,7 +15540,7 @@
         "author": null,
         "original_date": "2023-03-26"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15572,7 +15572,7 @@
         "author": null,
         "original_date": "2025-02-09"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15632,7 +15632,7 @@
         "author": null,
         "original_date": "2024-12-04"
       },
-      "category": "models-providers/model-architecture",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -15664,7 +15664,7 @@
         "author": null,
         "original_date": "2024-03-03"
       },
-      "category": "benchmarks-evals/general",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15696,7 +15696,7 @@
         "author": null,
         "original_date": "2022-01-20"
       },
-      "category": "multimodal-ai/audio-speech",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15760,7 +15760,7 @@
         "author": null,
         "original_date": "2025-11-11"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15786,7 +15786,7 @@
         "author": null,
         "original_date": "2025-04-17"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15818,7 +15818,7 @@
         "author": null,
         "original_date": "2026-03-10"
       },
-      "category": "tutorials-learning/talks-videos",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15850,7 +15850,7 @@
         "author": null,
         "original_date": "2023-11-12"
       },
-      "category": "industry-strategy/big-tech",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15882,7 +15882,7 @@
         "author": null,
         "original_date": "2025-03-11"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -15914,7 +15914,7 @@
         "author": null,
         "original_date": "2025-03-06"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -15978,7 +15978,7 @@
         "author": null,
         "original_date": "2025-08-11"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16007,7 +16007,7 @@
         "author": null,
         "original_date": "2025-03-04"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16039,7 +16039,7 @@
         "author": null,
         "original_date": "2026-03-30"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16071,7 +16071,7 @@
         "author": null,
         "original_date": "2026-03-22"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16097,7 +16097,7 @@
         "author": null,
         "original_date": "2025-04-12"
       },
-      "category": "agent-frameworks/lightweight",
+      "category": "agents",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16129,7 +16129,7 @@
         "author": null,
         "original_date": "2023-03-27"
       },
-      "category": "models-providers/model-architecture",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16155,7 +16155,7 @@
         "author": null,
         "original_date": "2024-02-21"
       },
-      "category": "multimodal-ai/video-generation",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16187,7 +16187,7 @@
         "author": null,
         "original_date": "2025-05-21"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16219,7 +16219,7 @@
         "author": null,
         "original_date": "2022-03-18"
       },
-      "category": "rag-knowledge/rag-frameworks",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16251,7 +16251,7 @@
         "author": null,
         "original_date": "2025-12-29"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16282,7 +16282,7 @@
         "author": null,
         "original_date": "2025-08-20"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16314,7 +16314,7 @@
         "author": null,
         "original_date": "2024-01-09"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16346,7 +16346,7 @@
         "author": null,
         "original_date": "2024-03-03"
       },
-      "category": "multimodal-ai/video-generation",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16410,7 +16410,7 @@
         "author": null,
         "original_date": "2023-03-09"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16439,7 +16439,7 @@
         "author": null,
         "original_date": "2023-08-09"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16469,7 +16469,7 @@
         "author": null,
         "original_date": "2025-01-03"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16501,7 +16501,7 @@
         "author": null,
         "original_date": "2025-07-17"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16533,7 +16533,7 @@
         "author": null,
         "original_date": "2026-02-13"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16565,7 +16565,7 @@
         "author": null,
         "original_date": "2023-02-20"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16597,7 +16597,7 @@
         "author": null,
         "original_date": "2025-10-18"
       },
-      "category": "ai-products/chat-assistant",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16627,7 +16627,7 @@
         "author": null,
         "original_date": "2025-05-25"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16659,7 +16659,7 @@
         "author": null,
         "original_date": "2025-04-24"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16688,7 +16688,7 @@
         "author": null,
         "original_date": "2025-12-09"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16716,7 +16716,7 @@
         "author": null,
         "original_date": "2023-03-23"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -16748,7 +16748,7 @@
         "author": null,
         "original_date": "2024-12-29"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16780,7 +16780,7 @@
         "author": null,
         "original_date": "2025-08-28"
       },
-      "category": "ai-products/enterprise",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16812,7 +16812,7 @@
         "author": null,
         "original_date": "2026-03-21"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16844,7 +16844,7 @@
         "author": null,
         "original_date": "2026-03-21"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16876,7 +16876,7 @@
         "author": null,
         "original_date": "2025-04-16"
       },
-      "category": "tutorials-learning/getting-started",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16908,7 +16908,7 @@
         "author": null,
         "original_date": "2025-02-23"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16937,7 +16937,7 @@
         "author": null,
         "original_date": "2024-02-05"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -16969,7 +16969,7 @@
         "author": null,
         "original_date": "2025-12-11"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17001,7 +17001,7 @@
         "author": null,
         "original_date": "2023-06-19"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17033,7 +17033,7 @@
         "author": null,
         "original_date": "2024-06-26"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17061,7 +17061,7 @@
         "author": null,
         "original_date": "2026-02-10"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17093,7 +17093,7 @@
         "author": null,
         "original_date": "2025-04-15"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -17125,7 +17125,7 @@
         "author": null,
         "original_date": "2026-02-22"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17157,7 +17157,7 @@
         "author": null,
         "original_date": "2025-08-08"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17189,7 +17189,7 @@
         "author": null,
         "original_date": "2025-03-05"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17215,7 +17215,7 @@
         "author": null,
         "original_date": "2024-08-23"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17244,7 +17244,7 @@
         "author": null,
         "original_date": null
       },
-      "category": "tutorials-learning/getting-started",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17273,7 +17273,7 @@
         "author": null,
         "original_date": "2023-03-24"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17299,7 +17299,7 @@
         "author": null,
         "original_date": "2023-02-11"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17331,7 +17331,7 @@
         "author": null,
         "original_date": "2026-03-21"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17363,7 +17363,7 @@
         "author": null,
         "original_date": "2025-06-15"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17395,7 +17395,7 @@
         "author": null,
         "original_date": "2026-03-11"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17427,7 +17427,7 @@
         "author": null,
         "original_date": "2025-12-11"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17488,7 +17488,7 @@
         "author": null,
         "original_date": "2025-10-20"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17514,7 +17514,7 @@
         "author": null,
         "original_date": "2024-06-24"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -17546,7 +17546,7 @@
         "author": null,
         "original_date": "2025-02-18"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17578,7 +17578,7 @@
         "author": null,
         "original_date": "2025-03-26"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17606,7 +17606,7 @@
         "author": null,
         "original_date": "2025-05-08"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -17638,7 +17638,7 @@
         "author": null,
         "original_date": "2025-05-06"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17697,7 +17697,7 @@
         "author": null,
         "original_date": "2025-01-08"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17726,7 +17726,7 @@
         "author": null,
         "original_date": "2025-08-21"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17758,7 +17758,7 @@
         "author": null,
         "original_date": "2024-05-02"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17790,7 +17790,7 @@
         "author": null,
         "original_date": "2026-01-03"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17819,7 +17819,7 @@
         "author": null,
         "original_date": "2025-05-26"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -17847,7 +17847,7 @@
         "author": null,
         "original_date": "2025-03-18"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17873,7 +17873,7 @@
         "author": null,
         "original_date": "2026-03-31"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17905,7 +17905,7 @@
         "author": null,
         "original_date": "2024-07-07"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -17934,7 +17934,7 @@
         "author": null,
         "original_date": "2025-01-20"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17966,7 +17966,7 @@
         "author": null,
         "original_date": "2025-02-01"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -17998,7 +17998,7 @@
         "author": null,
         "original_date": "2026-03-30"
       },
-      "category": "multimodal-ai/vision-language",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18030,7 +18030,7 @@
         "author": null,
         "original_date": "2024-12-14"
       },
-      "category": "multimodal-ai/vision-language",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18062,7 +18062,7 @@
         "author": null,
         "original_date": "2025-07-27"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18094,7 +18094,7 @@
         "author": null,
         "original_date": "2025-01-22"
       },
-      "category": "inference-serving/on-device-edge",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18126,7 +18126,7 @@
         "author": null,
         "original_date": "2023-02-13"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18184,7 +18184,7 @@
         "author": null,
         "original_date": "2024-05-07"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18216,7 +18216,7 @@
         "author": null,
         "original_date": "2025-05-18"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18242,7 +18242,7 @@
         "author": null,
         "original_date": "2023-02-25"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18270,7 +18270,7 @@
         "author": null,
         "original_date": "2025-12-23"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -18302,7 +18302,7 @@
         "author": null,
         "original_date": "2025-06-20"
       },
-      "category": "agent-protocols/a2a",
+      "category": "agents",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18362,7 +18362,7 @@
         "author": null,
         "original_date": "2024-02-01"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18392,7 +18392,7 @@
         "author": null,
         "original_date": "2023-04-11"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18424,7 +18424,7 @@
         "author": null,
         "original_date": "2024-06-13"
       },
-      "category": "ai-products/chat-assistant",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18456,7 +18456,7 @@
         "author": null,
         "original_date": "2025-01-18"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18488,7 +18488,7 @@
         "author": null,
         "original_date": "2024-06-12"
       },
-      "category": "models-providers/model-architecture",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18514,7 +18514,7 @@
         "author": null,
         "original_date": "2024-09-03"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18546,7 +18546,7 @@
         "author": null,
         "original_date": "2025-02-03"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -18578,7 +18578,7 @@
         "author": null,
         "original_date": "2024-09-27"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18610,7 +18610,7 @@
         "author": null,
         "original_date": "2023-03-09"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18642,7 +18642,7 @@
         "author": null,
         "original_date": "2025-09-26"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -18668,7 +18668,7 @@
         "author": null,
         "original_date": "2025-07-27"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18700,7 +18700,7 @@
         "author": null,
         "original_date": "2022-04-21"
       },
-      "category": "models-providers/model-architecture",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18732,7 +18732,7 @@
         "author": null,
         "original_date": "2023-02-07"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -18764,7 +18764,7 @@
         "author": null,
         "original_date": "2023-01-27"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -18793,7 +18793,7 @@
         "author": null,
         "original_date": "2025-09-17"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18825,7 +18825,7 @@
         "author": null,
         "original_date": "2025-05-07"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -18857,7 +18857,7 @@
         "author": null,
         "original_date": "2025-01-20"
       },
-      "category": "industry-strategy/big-tech",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18883,7 +18883,7 @@
         "author": null,
         "original_date": "2025-07-27"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18939,7 +18939,7 @@
         "author": null,
         "original_date": "2024-03-05"
       },
-      "category": "rag-knowledge/rag-frameworks",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18971,7 +18971,7 @@
         "author": null,
         "original_date": "2023-03-29"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -18997,7 +18997,7 @@
         "author": null,
         "original_date": "2022-12-05"
       },
-      "category": "ai-products/chat-assistant",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19029,7 +19029,7 @@
         "author": null,
         "original_date": "2025-03-12"
       },
-      "category": "agent-protocols/mcp",
+      "category": "agents",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19061,7 +19061,7 @@
         "author": null,
         "original_date": "2025-10-20"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19093,7 +19093,7 @@
         "author": null,
         "original_date": "2025-02-12"
       },
-      "category": "models-providers/model-architecture",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19125,7 +19125,7 @@
         "author": null,
         "original_date": "2023-12-06"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -19151,7 +19151,7 @@
         "author": null,
         "original_date": "2024-01-02"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19215,7 +19215,7 @@
         "author": null,
         "original_date": "2026-01-13"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19247,7 +19247,7 @@
         "author": null,
         "original_date": "2026-01-18"
       },
-      "category": "models-providers/model-architecture",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19279,7 +19279,7 @@
         "author": null,
         "original_date": "2025-05-07"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19311,7 +19311,7 @@
         "author": null,
         "original_date": "2023-07-31"
       },
-      "category": "industry-strategy/big-tech",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19337,7 +19337,7 @@
         "author": null,
         "original_date": "2025-08-12"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19369,7 +19369,7 @@
         "author": null,
         "original_date": "2025-07-25"
       },
-      "category": "ai-products/writing-content",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19397,7 +19397,7 @@
         "author": null,
         "original_date": "2023-03-20"
       },
-      "category": "agent-frameworks/lightweight",
+      "category": "agents",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19429,7 +19429,7 @@
         "author": null,
         "original_date": "2025-08-29"
       },
-      "category": "agent-frameworks/lightweight",
+      "category": "agents",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19492,7 +19492,7 @@
         "author": null,
         "original_date": "2024-12-08"
       },
-      "category": "models-providers/open-source-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19518,7 +19518,7 @@
         "author": null,
         "original_date": "2024-07-11"
       },
-      "category": "prompt-engineering/jailbreak-safety",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19550,7 +19550,7 @@
         "author": null,
         "original_date": "2024-06-14"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19582,7 +19582,7 @@
         "author": null,
         "original_date": "2023-03-22"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19614,7 +19614,7 @@
         "author": null,
         "original_date": "2024-07-29"
       },
-      "category": "industry-strategy/big-tech",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19640,7 +19640,7 @@
         "author": null,
         "original_date": "2024-03-01"
       },
-      "category": "tutorials-learning/newsletters-blogs",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19672,7 +19672,7 @@
         "author": null,
         "original_date": "2024-05-10"
       },
-      "category": "tutorials-learning/newsletters-blogs",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19704,7 +19704,7 @@
         "author": null,
         "original_date": "2024-05-24"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -19736,7 +19736,7 @@
         "author": null,
         "original_date": "2025-02-07"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -19768,7 +19768,7 @@
         "author": null,
         "original_date": "2025-03-21"
       },
-      "category": "tutorials-learning/newsletters-blogs",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19800,7 +19800,7 @@
         "author": null,
         "original_date": "2022-12-09"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19832,7 +19832,7 @@
         "author": null,
         "original_date": "2025-08-28"
       },
-      "category": "inference-serving/on-device-edge",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19864,7 +19864,7 @@
         "author": null,
         "original_date": "2024-06-20"
       },
-      "category": "inference-serving/on-device-edge",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19890,7 +19890,7 @@
         "author": null,
         "original_date": "2024-06-26"
       },
-      "category": "industry-strategy/oem-device",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19922,7 +19922,7 @@
         "author": null,
         "original_date": "2024-07-15"
       },
-      "category": "tutorials-learning/newsletters-blogs",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19954,7 +19954,7 @@
         "author": null,
         "original_date": "2026-02-27"
       },
-      "category": "models-providers/model-architecture",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -19986,7 +19986,7 @@
         "author": null,
         "original_date": "2026-02-27"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20012,7 +20012,7 @@
         "author": null,
         "original_date": "2025-05-07"
       },
-      "category": "models-providers/model-architecture",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20044,7 +20044,7 @@
         "author": null,
         "original_date": "2025-12-12"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -20076,7 +20076,7 @@
         "author": null,
         "original_date": "2023-03-09"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20102,7 +20102,7 @@
         "author": null,
         "original_date": "2024-02-04"
       },
-      "category": "prompt-engineering/jailbreak-safety",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20134,7 +20134,7 @@
         "author": null,
         "original_date": "2025-12-06"
       },
-      "category": "tutorials-learning/best-practices",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20166,7 +20166,7 @@
         "author": null,
         "original_date": "2023-02-07"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20198,7 +20198,7 @@
         "author": null,
         "original_date": "2026-03-31"
       },
-      "category": "coding-ai/review-devops",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20230,7 +20230,7 @@
         "author": null,
         "original_date": "2026-03-31"
       },
-      "category": "coding-ai/cli-terminal",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20262,7 +20262,7 @@
         "author": null,
         "original_date": "2025-02-09"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20288,7 +20288,7 @@
         "author": null,
         "original_date": "2025-01-08"
       },
-      "category": "ai-products/chat-assistant",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20314,7 +20314,7 @@
         "author": null,
         "original_date": "2024-11-10"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20340,7 +20340,7 @@
         "author": null,
         "original_date": "2023-02-06"
       },
-      "category": "models-providers/model-architecture",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20372,7 +20372,7 @@
         "author": null,
         "original_date": "2024-09-01"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20402,7 +20402,7 @@
         "author": null,
         "original_date": "2025-12-29"
       },
-      "category": "coding-ai/skills-workflows",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20492,7 +20492,7 @@
         "author": null,
         "original_date": "2024-10-10"
       },
-      "category": "agent-frameworks/orchestration",
+      "category": "agents",
       "tags": [],
       "source_type": "article",
       "language": "en",
@@ -20522,7 +20522,7 @@
         "author": null,
         "original_date": "2026-01-28"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20551,7 +20551,7 @@
         "author": null,
         "original_date": "2025-08-08"
       },
-      "category": "coding-ai/ide-editor",
+      "category": "coding",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20577,7 +20577,7 @@
         "author": null,
         "original_date": "2025-03-31"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20606,7 +20606,7 @@
         "author": null,
         "original_date": "2023-04-24"
       },
-      "category": "industry-strategy/china-ai",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20638,7 +20638,7 @@
         "author": null,
         "original_date": "2023-06-13"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20666,7 +20666,7 @@
         "author": null,
         "original_date": "2023-03-15"
       },
-      "category": "ai-products/chat-assistant",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20698,7 +20698,7 @@
         "author": null,
         "original_date": "2022-06-19"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20724,7 +20724,7 @@
         "author": null,
         "original_date": "2023-05-16"
       },
-      "category": "ai-products/chat-assistant",
+      "category": "industry",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20756,7 +20756,7 @@
         "author": null,
         "original_date": "2023-11-29"
       },
-      "category": "finetuning-training/methods",
+      "category": "infra",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20788,7 +20788,7 @@
         "author": null,
         "original_date": "2023-03-09"
       },
-      "category": "models-providers/frontier-models",
+      "category": "models",
       "tags": [],
       "source_type": "article",
       "language": "zh",
@@ -20814,7 +20814,7 @@
         "author": null,
         "original_date": "2023-04-09"
       },
-      "category": "prompt-engineering/techniques",
+      "category": "learning",
       "tags": [],
       "source_type": "article",
       "language": "zh",

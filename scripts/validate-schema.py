@@ -24,10 +24,7 @@ def load_categories():
         return json.load(f)
 
 def get_valid_categories(cats):
-    valid = set()
-    for cat_key, cat_info in cats.items():
-        for child_key in cat_info.get("children", {}):
-            valid.add(f"{cat_key}/{child_key}")
+    valid = set(cats.keys())
     valid.add("uncategorized")
     return valid
 
