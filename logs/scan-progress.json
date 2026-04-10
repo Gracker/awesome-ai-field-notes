@@ -1,17 +1,9 @@
 {
-  "batch": "3/4",
-  "files_scanned": 60,
-  "entries_added": 21,
-  "entries_skipped_non_ai": 10,
-  "entries_skipped_existing": 9,
-  "entries_skipped_internal_dup": 0,
-  "total_entries": 123,
-  "timestamp": "2026-04-10T13:04:00+08:00",
-  "x_articles": {
-    "status": "completed",
-    "total_files": 188,
-    "scanned": 188,
-    "last_batch": "2026-04-10",
-    "batches": 4
-  }
+  "last_scan": "2026-04-10",
+  "scanned_dirs": 33,
+  "added_entries": 31,
+  "skipped_duplicates": 2,
+  "total_entries": 155,
+  "scan_type": "AI papers from \u8bba\u6587/ directory",
+  "errors": []
 }

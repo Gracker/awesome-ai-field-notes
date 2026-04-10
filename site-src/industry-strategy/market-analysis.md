@@ -1,6 +1,6 @@
 # 市场分析
 
-Market Analysis — 21 条活跃资源
+Market Analysis — 22 条活跃资源
 
 ### [THE 2028 GLOBAL INTELLIGENCE CRISIS](https://www.citriniresearch.com/p/2028gic) 
 by @Citrini (2026-02-23) | ⭐⭐⭐⭐⭐ 5/5 | 🌍
@@ -109,6 +109,15 @@ tags: [archive, x-bookmarks]
 写得很好 -《拥抱黑盒：一个研究者 All in AI 的实录与反思》
 https://www.uscardforum.
  `archive` `x-bookmarks` `external-link`
+
+---
+### [What 81,000 People Want from AI（Anthropic 81K 访谈）](https://www.anthropic.com/features/81k-interviews) 
+by @Anthropic | ⭐⭐⭐⭐⭐ 5/5 | 🌍
+
+**迄今最大规模的AI用户定性调研，揭示全球用户对AI的九大期望和三层底层驱动力**
+
+Anthropic对80,508名Claude用户进行的大规模定性研究，覆盖159个国家、70种语言，是迄今最大规模的多语言定性AI调研。核心发现：人们希望从AI获得的九大愿景——专业卓越(18.8%)、个人转变(13.7%)、生活管理(13.5%)、时间自由(11.1%)、财务独立(9.7%)、社会转型(9.4%)、创业(8.7%)、学习成长(8.4%)、创意表达(5.6%)。81%的人认为AI已向愿景迈出一步。方法论创新在于用AI访谈员实现定性研究的规模化——兼顾深度与数量。
+ `anthropic` `用户调研` `AI期望` `定性研究` `AI应用` `用户需求` `大规模访谈`
 
 ---
 ### [AI的负面（2）你的知识在贬值，但房贷不会贬值](https://x.com/FuSheng_0306/article/2026910973030969477) 

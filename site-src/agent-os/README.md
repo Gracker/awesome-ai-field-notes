@@ -1,6 +1,6 @@
 # 🖥️ Agent 操作系统
 
-Agent OS & Platforms — 共 7 条活跃资源
+Agent OS & Platforms — 共 9 条活跃资源
 
 ## 系统级方案 (3)
 
@@ -17,7 +17,9 @@ _暂无条目_
 - [我的 Obsidian 不是笔记软件，是操作系统](https://x.com/UncleJAI/article/2026929169511362928) by @Uncle J — 非程序员用 Obsidian + Claude Code 搭建的完整个人操作系统 `obsidian` `claude-code` `automation` `file-over-app` `personal-os` 🇨🇳
 - [TenacitOS: OpenClaw Mission Control Dashboard](https://github.com/carlosazaustre/tenacitOS) by @geekbb — OpenClaw 的实时监控仪表盘，零后端依赖 `openclaw` `dashboard` `monitoring` `nextjs` `react` 🌍
 
-## 浏览器Agent (2)
+## 浏览器Agent (4)
 
 - [Scrapling: 自适应 Web 抓取框架](https://github.com/D4Vinci/Scrapling) by @D — 自适应网页抓取框架，自带反反爬和 MCP 支持 `scraping` `anti-bot` `cloudflare-bypass` `spider` `mcp` 🌐
 - [一句话让 Agent 接入全网语义搜索与多平台读取](https://github.com/Panniantong/Agent-Reach) by @Neo Reid — 一键给 Agent 接入多平台数据源，免费且模块可替换 `agent-reach` `multi-platform` `search` `mcp` `data-access` 🇨🇳
+- [Browser Use CLI 2.0 - AI 操作浏览器调研报告](#) by @高爷 — 为AI agent设计的浏览器自动化工具，零成本复用Chrome登录态，语义理解替代脆弱的CSS selectors `browser-use` `浏览器自动化` `AI-Agent` `Playwright` `CLI` 🇨🇳
+- [Browser Use 在 OpenClaw 环境的集成分析](#) by @高爷 — Browser Use集成OpenClaw的可行性分析，定位登录态复用和多步骤浏览器操作两大高价值场景 `browser-use` `OpenClaw` `浏览器自动化` `工具集成` `OpenCLI` 🇨🇳

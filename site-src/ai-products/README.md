@@ -1,6 +1,6 @@
 # 📱 AI 产品
 
-AI Products & Applications — 共 2 条活跃资源
+AI Products & Applications — 共 3 条活跃资源
 
 ## 对话助手 (2)
 
@@ -11,9 +11,9 @@ AI Products & Applications — 共 2 条活跃资源
 
 _暂无条目_
 
-## 写作与内容 (0)
+## 写作与内容 (1)
 
-_暂无条目_
+- [X 文章与收藏抓取工具调研](#) by @高爷 — 2026年X内容抓取方案全景对比，r.jina.ai是单篇最快路径，Smaug是持续归档最优解 `X` `Twitter` `抓取工具` `r.jina.ai` `OpenCLI` 🇨🇳
 
 ## 企业AI (0)
 

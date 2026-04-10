@@ -1,6 +1,6 @@
 # 编排框架
 
-Orchestration — 27 条活跃资源
+Orchestration — 28 条活跃资源
 
 ### [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773) 
 by @RLanceMartin (2026-04-06) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
@@ -384,5 +384,14 @@ LLM Agent 在长时间、动态交互环境中运行时，如何实现持续学�
 
 ---
  `fine-tuning` `coding` `agent` `llm` `reasoning` `memory`
+
+---
+### [Agent实践知识图谱](#) 
+by @高爷 (2026-03-29) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**实操导向的Agent知识图谱，从记忆、自我改进、工具、框架四个维度梳理可执行实践**
+
+AI Agent实践的知识图谱总结，涵盖四大核心主题：1）记忆系统优化——三层记忆架构（日记层→核心记忆层→向量层）、语义检索策略；2）自我改进机制——错误捕获系统、技能提取流程、任务改进周报；3）工具使用模式——OpenCLI多平台集成、多模型协作与容灾降级策略；4）框架对比——LangGraph（底层编排）、CrewAI（角色协作）、AutoGen（编程式多代理）的定位差异分析。提供了可执行的实践建议。
+ `agent` `记忆系统` `自我改进` `LangGraph` `CrewAI` `AutoGen` `框架对比` `OpenCLI`
 
 ---

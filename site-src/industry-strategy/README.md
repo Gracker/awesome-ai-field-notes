@@ -1,6 +1,6 @@
 # 🌍 行业与战略
 
-Industry & Strategy — 共 23 条活跃资源
+Industry & Strategy — 共 24 条活跃资源
 
 ## 融资与估值 (0)
 
@@ -23,7 +23,7 @@ _暂无条目_
 
 _暂无条目_
 
-## 市场分析 (21)
+## 市场分析 (22)
 
 - [THE 2028 GLOBAL INTELLIGENCE CRISIS](https://www.citriniresearch.com/p/2028gic) by @Citrini — AI 经济死亡螺旋的情景推演：幽灵 GDP 与人类智能替代螺旋 `ai-economy` `unemployment` `ghost-gdp` `saas` `automation` 🌍
 - [过了个年，AI 圈变天了？但没人告诉你为什么](https://x.com/op7418/article/2026520431700881816) by @歸藏 — 2026 年初 AI 变化的四层拆解：大脑/手脚/组织/进化，数据飞轮加速运转 `ai-trends` `agent` `model-evolution` `data-flywheel` `2026` 🇨🇳
@@ -34,6 +34,7 @@ _暂无条目_
 - [从 MCP 到 SKILL（II）：把调用层补齐](https://x.com/jolestar/status/2027717523379261489) by @jolestar — AI 实践：从 MCP 到 SKILL（II）：把调用层补齐 `mcp` `agent` `skill` `coding` `context-management` 🌍
 - [AI、矿产与澳洲经济：2026，澳洲能迎来“新国运”吗？](https://x.com/rwayne/status/2027720734211248573) by @rwayne — AI 实践：AI、矿产与澳洲经济：2026，澳洲能迎来“新国运”吗？ `claude` `phone-ai` 🇨🇳
 - [2026-03-06-1628-GeekPlux-拥抱黑盒：一个研究者 All in AI 的实录与反思-2029761486671712745](https://x.com/geekplux/status/2029761486671712745) by @GeekPlux — AI 实践：2026-03-06-1628-GeekPlux-拥抱黑盒：一个研究者 All  `archive` `x-bookmarks` `external-link` 🌍
+- [What 81,000 People Want from AI（Anthropic 81K 访谈）](https://www.anthropic.com/features/81k-interviews) by @Anthropic — 迄今最大规模的AI用户定性调研，揭示全球用户对AI的九大期望和三层底层驱动力 `anthropic` `用户调研` `AI期望` `定性研究` `AI应用` 🌍
 - [AI的负面（2）你的知识在贬值，但房贷不会贬值](https://x.com/FuSheng_0306/article/2026910973030969477) by @傅盛 — AI 正在打破几千年"智力溢价"的经济底层规则 `ai-impact` `employment` `knowledge-depreciation` `white-collar` `economy` 🇨🇳
 - [The Business Models That Will Dominate 2027 (That Don't Exist Yet)](https://x.com/Zephyr_hg/article/2026656410084258042) by @Zephyr — 2027 年 AI 新商业模式预测：零员工企业级服务公司 `business-model` `ai-startup` `one-person-company` `automation` `2027` 🌐
 - [別當金色尋回犬：Block 裁 4000 人，微軟暴跌後，我看到的三件事](https://x.com/mike_chong_zh/status/2027228656951803914) by @迈克 Mike Chong — Block 裁员背后的洞察："金色寻回犬"型员工的时代结束了 `layoff` `block` `golden-retriever` `ai-replacement` `salary-polarization` 🇨🇳

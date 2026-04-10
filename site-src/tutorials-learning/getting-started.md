@@ -1,6 +1,6 @@
 # 入门指南
 
-Getting Started — 4 条活跃资源
+Getting Started — 5 条活跃资源
 
 ### [Don't Waste Your Money on OpenClaw Until You've Done These 3 Things](https://x.com/milesdeutscher/status/2026037201591787801) 
 by @Miles Deutscher (2026-02-25) | ⭐⭐⭐⭐ 4/5 | 🌐
@@ -36,5 +36,14 @@ by @劳伦斯 (2026-02-26) | ⭐⭐⭐ 3/5 | 🇨🇳
 
 劝退文：99% 的人不需要自动化，更不需要 OpenClaw。连 chatbot 都玩不明白就想搞多 Agent 协作，连提示词都写不好就想自动决策。OpenClaw 是过渡产品，几大 AI 公司会推出更强大方案。与其烧 token 折腾 OpenClaw，不如先让 AI 介入日常工作。先学走再学跑。
  `openclaw` `critique` `transition-product` `expectation`
+
+---
+### [Claude Code in Action 实战课程（中文翻译版）](https://cholf5.com/claude-code-in-action/) 
+by @Anthropic | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Anthropic官方Claude Code课程的完整中文翻译，从入门到Hooks专题21章全覆盖**
+
+Anthropic官方Claude Code实战课程的中文翻译版，适合离线阅读。课程覆盖21个章节：基础部分（引言、编码助手概念、实战、安装配置、项目准备、添加上下文、修改代码）、进阶部分（控制上下文、自定义命令、MCP服务器、GitHub集成）、Hooks专题（认识/定义/实现Hooks及常见坑点）、高级主题（SDK、测验、总结）。
+ `Claude-Code` `实战课程` `教程` `Hooks` `MCP` `GitHub集成` `SDK`
 
 ---

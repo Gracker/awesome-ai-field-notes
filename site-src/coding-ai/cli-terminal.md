@@ -1,6 +1,6 @@
 # 命令行工具
 
-CLI & Terminal — 16 条活跃资源
+CLI & Terminal — 18 条活跃资源
 
 ### [Lessons from Building Claude Code: Seeing like an Agent](https://x.com/trq212/status/2027463795355095314) 
 by @Thariq (2026-02-28) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
@@ -146,6 +146,24 @@ by @centurybbx (2026-03-04) | ⭐⭐⭐⭐ 4/5 | 🌍
 I’ve started a new project to collect and document Agentic Engineering Patterns—coding practices and patterns to help get the best results out of this new era of coding agent development we find ourselves entering.
 我启动了一个新项目，专门收集和整理 Agentic Engineering Patterns（代理式工程模式）——这是一套编码实践与方法，用来帮助我们在这个“代码智能体开发”新时代中获得更好的结果。
  `claude` `codex` `agent` `vibe-coding` `agentic` `tdd` `coding`
+
+---
+### [你不知道的 Claude Code：架构、治理与工程实践](https://x.com/hitw93/status/2032091246588518683) 
+by @Tw93 (2026-03-21) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**半年深度使用的Claude Code六层架构拆解，MCP工具定义是上下文最大隐形杀手**
+
+Tw93基于半年深度使用Claude Code的踩坑总结。提出六层架构模型，核心洞察：Claude Code不是'回答'而是反复循环的代理过程（收集上下文→采取行动→验证结果）。上下文治理是关键——200K上下文中固定开销约15-20K（MCP工具定义是最大隐形杀手，5个Server占25K tokens即12.5%）。提出上下文分层加载策略：CLAUDE.md常驻→rules按路径加载→Skills按需加载→Subagents隔离加载→Hooks不进上下文。
+ `Claude-Code` `架构治理` `上下文管理` `Skills` `Hooks` `Subagents` `工程实践`
+
+---
+### [Claude Code 官方中文文档](https://code.claude.com/docs/zh-CN/) 
+by @Anthropic | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Claude Code官方中文文档，覆盖安装、核心功能、MCP、Skills和Hooks**
+
+Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可理解整个代码库并跨多个文件和工具工作。支持macOS/Linux/WSL/Windows安装，核心功能包括：繁琐任务自动化（测试、lint修复、合并冲突）、自然语言描述→规划→编码→验证的工作流、git集成、MCP连接外部数据源、CLAUDE.md项目配置、自定义命令（Skills）和Hooks。
+ `Claude-Code` `官方文档` `CLI` `MCP` `CLAUDE.md` `Skills` `Hooks`
 
 ---
 ### [oh my codex 使用教程](https://x.com/oragnes/status/2041876228949602347) 

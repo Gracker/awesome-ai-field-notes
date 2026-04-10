@@ -1,8 +1,8 @@
 # 🤖 Agent 框架
 
-Agent Frameworks & Libraries — 共 40 条活跃资源
+Agent Frameworks & Libraries — 共 41 条活跃资源
 
-## 编排框架 (27)
+## 编排框架 (28)
 
 - [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773) by @RLanceMartin — Anthropic 官方托管 Agent 基础设施，大脑/手/记忆三层解耦架构 `claude` `managed-agents` `anthropic` `agent-sdk` `infrastructure` 🌐
 - [Agentic Software Engineering](https://x.com/ashpreetbedi/status/2028176285575594465) by @ashpreetbedi — Agent 相关：Agentic Software Engineering `openclaw` `claude` `codex` `mcp` `agent` 🌍
@@ -31,6 +31,7 @@ Agent Frameworks & Libraries — 共 40 条活跃资源
 - [LLM Agent 方法论、应用与挑战综述](#) by @**：Ming Zhang（北京大学） — Agent 领域系统性综述，适合建立全景认知 `safety` `agent` `llm` `paper` `reasoning` 🇨🇳
 - [Large Language Model Agent: A Survey on Methodology, Applications and Challenges](#) — Agent 领域系统性综述，适合建立全景认知 `gui` `safety` `agent` `llm` `paper` 🇨🇳
 - [Position: Episodic Memory is the Missing Piece for Long-Term LLM Agents](#) by @**：Mathis Pink, Qinyuan Wu, Vy Ai Vo, Javier Turek, Jianing Mu, Alexander Huth, Mariya Toneva — LLM Agent 记忆机制的深入研究 `fine-tuning` `coding` `agent` `llm` `reasoning` 🇨🇳
+- [Agent实践知识图谱](#) by @高爷 — 实操导向的Agent知识图谱，从记忆、自我改进、工具、框架四个维度梳理可执行实践 `agent` `记忆系统` `自我改进` `LangGraph` `CrewAI` 🇨🇳
 
 ## 单Agent框架 (2)
 

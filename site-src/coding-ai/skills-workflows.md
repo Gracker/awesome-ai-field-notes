@@ -1,6 +1,6 @@
 # 技能与工作流
 
-Skills & Workflows — 17 条活跃资源
+Skills & Workflows — 18 条活跃资源
 
 ### [从 Vibe Coding 到 Agentic Engineering：开发者角色正在重写](https://x.com/yanhua1010/status/2028737821855580662) 
 by @yanhua1010 (2026-03-03) | ⭐⭐⭐⭐⭐ 5/5 | 🌍
@@ -145,6 +145,15 @@ by @Akshay Pachaar (2026-03-23) | ⭐⭐⭐⭐ 4/5 | 🌐
 
 Claude Code .claude/ 文件夹的完整解剖指南：项目级 vs 全局级两个目录、CLAUDE.md（200 行以内，只写项目特有内容）、rules/（路径范围规则模块化）、commands/（自定义斜杠命令，支持嵌入 shell 命令和参数）、skills/（自动触发工作流，与 commands 区别是自动识别触发）、agents/（独立上下文窗口的子 agent，可限制工具和指定模型）、settings.json（allow/deny 权限控制）。推荐：95% 的项目只需要 CLAUDE.md + settings.json + 1-2 个 commands。
  `Claude Code` `CLAUDE.md` `配置指南` `Skills` `Commands` `Agents`
+
+---
+### [三大 AI 编程框架对比调研：Superpowers vs GSD vs gstack](https://youtu.be/Y9hR2M4FE4I) 
+ (2026-04-02) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**三大AI编程框架的哲学立场对比：Superpowers约束过程、GSD约束环境、gstack约束视角**
+
+三大Claude Code生态AI编程框架的深度对比。Superpowers(124K⭐)通过流程纪律约束过程——强制TDD、苏格拉底式需求澄清、Subagent驱动开发。GSD(47K⭐)通过上下文隔离约束环境——每个子任务独立200K token上下文，解决Context Rot问题。gstack(57K⭐)通过多角色约束视角——23个专业角色交叉验证。核心差异在哲学立场：Superpowers=工程师思维、GSD=创业者思维、gstack=CEO思维。三者共同短板在Build阶段。
+ `Superpowers` `GSD` `gstack` `AI编程` `框架对比` `Context-Rot` `TDD` `Claude-Code`
 
 ---
 ### [Claude Code 半小时改出 Obsidian Minimal 风博客](https://x.com/onlyice0328/status/2026261405788405767) 
