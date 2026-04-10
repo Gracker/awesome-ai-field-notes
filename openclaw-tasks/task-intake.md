@@ -37,7 +37,7 @@
 - URL 精确去重
 - 标题相似度 > 0.85 去重
 - 写入 entries.json
-- `one_liner_author: "openclaw-pending"`（所有新条目待人工确认点评）
+- `one_liner_author: "openclaw"`（全自动点评）
 
 ### Phase 5: 验证 + 提交
 ```bash
