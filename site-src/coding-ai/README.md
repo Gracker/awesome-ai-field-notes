@@ -1,13 +1,13 @@
 # 💻 AI 编程
 
-Coding AI — 共 40 条活跃资源
+Coding AI — 共 45 条活跃资源
 
 ## IDE与编辑器 (2)
 
 - [The third era of AI software development](https://x.com/mntruell/article/2026736314272591924) by @Michael Truell — Cursor CEO 定义 AI 编码第三时代：云 Agent 自主完成长任务 `cursor` `cloud-agent` `coding-eras` `tab-to-agent` `software-development` 🌐
 - [130万次下载，2万Star开源项目CC Switch，36岁转行程序员Jason的第一个作品](https://x.com/wey_gu/status/2027772306458812757) by @Wey Gu — 36 岁转行程序员做出的 Claude Code 供应商切换工具，2 万 Star `cc-switch` `claude-code` `electron` `tauri` `open-source` 🇨🇳
 
-## 命令行工具 (18)
+## 命令行工具 (21)
 
 - [Lessons from Building Claude Code: Seeing like an Agent](https://x.com/trq212/status/2027463795355095314) by @Thariq — Claude Code 核心开发者：设计 Agent 工具要匹配模型能力，三次迭代的经验 `claude-code` `agent-design` `tool-calling` `elicitation` `agent-harness` 🌐
 - [2026-03-05-0817-vista8-CC-Switch-Jason-Story-2027765124828905529](https://x.com/vista8/article/2027765124828905529") by @vista8 — AI 实践：2026-03-05-0817-vista8-CC-Switch-Jason-S `claude` `github` `CC-Switch` `Claude-Code` `开源` 🌍
@@ -22,18 +22,21 @@ Coding AI — 共 40 条活跃资源
 - [2026-03-04-2010-centurybbx-Writing-about-Agentic-Engineering-Patterns-2028322864798331292](https://x.com/centurybbx/status/2028322864798331292) by @centurybbx — Agent 相关：2026-03-04-2010-centurybbx-Writing-about `claude` `codex` `agent` `vibe-coding` `agentic` 🌍
 - [你不知道的 Claude Code：架构、治理与工程实践](https://x.com/hitw93/status/2032091246588518683) by @Tw93 — 半年深度使用的Claude Code六层架构拆解，MCP工具定义是上下文最大隐形杀手 `Claude-Code` `架构治理` `上下文管理` `Skills` `Hooks` 🇨🇳
 - [Claude Code 官方中文文档](https://code.claude.com/docs/zh-CN/) by @Anthropic — Claude Code官方中文文档，覆盖安装、核心功能、MCP、Skills和Hooks `Claude-Code` `官方文档` `CLI` `MCP` `CLAUDE.md` 🇨🇳
+- [Anthropic 六层技术栈驱动 Claude Code 的统治地位](#) — Claude Code六层架构全解析：垂直整合造就的编程Agent统治力 `anthropic` `claude-code` `architecture` `tech-stack` `mcp` 🇨🇳
+- [Claude Code auto mode: a safer way to skip permissions](https://www.anthropic.com/engineering/claude-code-auto-mode) by @Anthropic Engineering — Claude Code auto mode：在自动化效率和安全控制间找到更好的平衡点 `claude-code` `auto-mode` `safety` `permissions` `anthropic` 🌐
 - [oh my codex 使用教程](https://x.com/oragnes/status/2041876228949602347) by @oragnes — Codex 长任务增强工具，内置分阶段执行与并行模式 `codex` `oh-my-codex` `coding-agent` `task-management` 🇨🇳
 - [高级自主软件化身（Elite Autonomous Developer Agent）](https://x.com/123olp/status/2025704271921213731) by @123olp — 主任工程师级 Agent 角色设定模板，覆盖软件全生命周期 `autonomous-agent` `system-prompt` `engineering-practice` `claude-code` 🇨🇳
 - [2026-03-02-1610-yyyole-AI-Robot-Phone！！-2028291669930717426](https://x.com/yyyole/status/2028291669930717426) by @yyyole — AI 实践：2026-03-02-1610-yyyole-AI-Robot-Phone！！- `phone-ai` 🇨🇳
 - [[ 个人经验及避坑 ] 从 0M -> 5M 快速通过创作者收益门槛！](https://x.com/0xIanW/status/2027996447032152295) by @0xIanW — AI 实践：[ 个人经验及避坑 ] 从 0M -> 5M 快速通过创作者收益门槛！ `vibe-coding` `coding` 🇨🇳
 - [AI编程工具 System Prompt 大合集](https://x.com/frxiaobei/status/2029561950322168284) by @凡人小北 — AI 实践：AI编程工具 System Prompt 大合集 `claude` `cursor` `agent` `system-prompt` `github` 🌍
+- [Claude Code 基操指南](#) — 社区版Claude Code基础操作速查手册 `claude-code` `best-practices` `tutorial` `cli` 🇨🇳
 
 ## 代码审查与DevOps (2)
 
 - [Claude Code + Codex 双模型审查流程](https://x.com/runes_leo/status/2027269214524903892) by @Leo — 双模型代码审查：Opus 写、Codex 审，消除盲区 `claude-code` `codex` `code-review` `mcp` `dual-model` 🇨🇳
 - [从 MCP 到 SKILL：关于 Agent 扩展机制的思考](https://x.com/jolestar/status/2011461813767155828) by @jolestar — Agent 相关：从 MCP 到 SKILL：关于 Agent 扩展机制的思考 `mcp` `agent` `prompt-engineering` `skill` `coding` 🌍
 
-## 技能与工作流 (18)
+## 技能与工作流 (20)
 
 - [从 Vibe Coding 到 Agentic Engineering：开发者角色正在重写](https://x.com/yanhua1010/status/2028737821855580662) by @yanhua1010 — Agent 相关：从 Vibe Coding 到 Agentic Engineering：开发者角 `claude` `agent` `karpathy` `vibe-coding` `agentic` 🌍
 - [The Ultimate Beginner's Guide to Claude (March 2026)](https://x.com/aiedge_/status/2029233676111008061) by @AIEdge — Claude 相关：The Ultimate Beginner's Guide to Claude  `claude` `prompt-engineering` `skill` `context-management` `Claude` 🌍
@@ -49,7 +52,9 @@ Coding AI — 共 40 条活跃资源
 - [How Coding Agents Are Reshaping Engineering, Product and Design](https://x.com/hwchase17/status/2031051115169808685) by @Harrison Chase — LangChain 创始人对 Agent 时代 EPD 角色重塑的清晰判断：Builder vs Reviewer 二分法。 `Coding Agent` `EPD` `产品开发` `系统思维` `LangChain` 🌐
 - [Claude Code .claude/ 文件夹完全指南](https://x.com/akshay_pachaar/status/2035341800739877091) by @Akshay Pachaar — Claude Code .claude/ 目录的完整参考，从 CLAUDE.md 到 Skills/Agents/Commands 全覆盖。 `Claude Code` `CLAUDE.md` `配置指南` `Skills` `Commands` 🌐
 - [三大 AI 编程框架对比调研：Superpowers vs GSD vs gstack](https://youtu.be/Y9hR2M4FE4I) — 三大AI编程框架的哲学立场对比：Superpowers约束过程、GSD约束环境、gstack约束视角 `Superpowers` `GSD` `gstack` `AI编程` `框架对比` 🇨🇳
+- [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps) by @Anthropic Engineering — Anthropic分享Agent编程中的Harness设计：长周期应用的质量保障 `anthropic` `harness-design` `agentic-coding` `frontend` `fullstack` 🌐
 - [Claude Code 半小时改出 Obsidian Minimal 风博客](https://x.com/onlyice0328/status/2026261405788405767) by @zhl — Claude Code 半小时搞定博客样式改造的实战案例 `claude-code` `obsidian` `css` `blog` `vibe-coding` 🇨🇳
 - [CLAUDE CODE 橙皮书开源（75页）](https://x.com/AlchainHust/status/2039169585979539625) by @AlchainHust — 75 页 Claude Code 实战手册开源，从安装到独立产品，面向 AI 编程入门者。 `Claude Code` `橙皮书` `实战手册` `开源` `AI编程` 🇨🇳
 - [graphify — Claude Code 的图谱 Skill](https://x.com/QingQ77/status/2041113437812511192) by @Geek Lite — Claude Code 知识图谱 Skill，71.5x token 压缩率，多模态输入自动生成可查询图谱。 `Claude Code` `知识图谱` `Skill` `tree-sitter` `代码分析` 🇨🇳
 - [Claude Code 这些功能，用了就回不去了](https://x.com/sitinme/status/2040622970432045350) by @sitinme — Boris Cherny 亲授的 Claude Code 进阶技巧合集，验证 + 并行 + 自动化是三大关键。 `Claude Code` `Boris Cherny` `使用技巧` `worktree` `并行` 🇨🇳
+- [Claude Code 推荐 Skills 汇总](#) — Claude Code社区推荐Skills清单，按场景分类 `claude-code` `skills` `recommended` `tools` 🇨🇳

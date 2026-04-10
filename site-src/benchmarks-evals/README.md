@@ -1,6 +1,6 @@
 # 📊 评测与排行
 
-Benchmarks & Evals — 共 0 条活跃资源
+Benchmarks & Evals — 共 1 条活跃资源
 
 ## 综合评测 (0)
 
@@ -26,6 +26,6 @@ _暂无条目_
 
 _暂无条目_
 
-## 评测方法论 (0)
+## 评测方法论 (1)
 
-_暂无条目_
+- [Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/engineering/infrastructure-noise) by @Anthropic Engineering — Agent评测结果不可复现？Anthropic量化了基础设施噪声的影响 `anthropic` `evaluation` `agentic-coding` `benchmarks` `noise` 🌐

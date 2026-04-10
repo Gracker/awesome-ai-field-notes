@@ -1,6 +1,6 @@
 # 📝 重要论文
 
-Research & Papers — 共 11 条活跃资源
+Research & Papers — 共 13 条活跃资源
 
 ## 架构与扩展 (0)
 
@@ -23,9 +23,10 @@ _暂无条目_
 - [PROV-AGENT: Provenance-Based AI Agent](#) by @**：Souza et al. (ORNL/Argonne National Lab) — 工具调用能力的新探索 `gui` `agent` `android` `llm` `paper` 🇨🇳
 - [Decoding the Configuration of AI Coding Agents: Insights from Claude Code Projects](#) by @完成，虽经两位作者审核确认，但主观偏差难以完全排除。 — 工具调用能力的新探索 `coding` `agent` 🇨🇳
 
-## 效率优化 (0)
+## 效率优化 (2)
 
-_暂无条目_
+- [Android 17 DeliQueue：二十年来最重要的消息队列架构重写](#) by @Shai Barack, Charles Munger (Google) — Android 17的核心架构重写：lock-free MessageQueue，丢帧降4-7.7%，启动快9.1% `android-17` `deliqueue` `messagequeue` `lock-free` `performance` 🇨🇳
+- [Android 16 MessageQueue 优化调研报告](#) by @Manus AI — Android 16 MessageQueue重构：lock-free数据结构消除锁竞争 `android-16` `messagequeue` `lock-free` `treiber-stack` `performance` 🇨🇳
 
 ## 综述与观点 (1)
 

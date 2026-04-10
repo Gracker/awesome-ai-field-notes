@@ -1,6 +1,6 @@
 # 命令行工具
 
-CLI & Terminal — 18 条活跃资源
+CLI & Terminal — 21 条活跃资源
 
 ### [Lessons from Building Claude Code: Seeing like an Agent](https://x.com/trq212/status/2027463795355095314) 
 by @Thariq (2026-02-28) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
@@ -166,6 +166,24 @@ Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可�
  `Claude-Code` `官方文档` `CLI` `MCP` `CLAUDE.md` `Skills` `Hooks`
 
 ---
+### [Anthropic 六层技术栈驱动 Claude Code 的统治地位](#) 
+ | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Claude Code六层架构全解析：垂直整合造就的编程Agent统治力**
+
+深度解析Claude Code背后的六层架构：基座模型、开放协议(MCP)、共享运行时、能力系统和扩展框架。这种垂直整合（Anthropic控制从模型训练到终端工具的每一层）创造了竞争对手难以复制的复合优势。Claude Code从内部原型到最受欢迎的AI编程工具仅用不到一年，2025年单年发布176次更新，每天产生135,000个GitHub commits。理解这六个组件的架构关系是理解Claude Code领先优势的关键。
+ `anthropic` `claude-code` `architecture` `tech-stack` `mcp` `agent-sdk`
+
+---
+### [Claude Code auto mode: a safer way to skip permissions](https://www.anthropic.com/engineering/claude-code-auto-mode) 
+by @Anthropic Engineering (2026-03-25) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Claude Code auto mode：在自动化效率和安全控制间找到更好的平衡点**
+
+Anthropic发布Claude Code auto mode，一种更安全地跳过权限确认的方式。不同于直接--dangerously-skip-permissions，auto mode通过更细粒度的权限模型和上下文感知来减少不必要的确认弹窗，同时保持安全边界。这是Agent编程工具在自动化效率与安全控制之间的重要平衡设计。
+ `claude-code` `auto-mode` `safety` `permissions` `anthropic`
+
+---
 ### [oh my codex 使用教程](https://x.com/oragnes/status/2041876228949602347) 
 by @oragnes (2026-04-06) | ⭐⭐⭐ 3/5 | 🇨🇳
 
@@ -251,5 +269,14 @@ by @凡人小北 (2026-03-06) | ⭐⭐⭐ 3/5 | 🌍
 - **NotionAI**
 - **Orchids.
  `claude` `cursor` `agent` `system-prompt` `github` `AI` `SystemPrompt` `GitHub`
+
+---
+### [Claude Code 基操指南](#) 
+ | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**社区版Claude Code基础操作速查手册**
+
+社区整理的Claude Code最佳实践指南，覆盖基础操作、常用命令、工作流配置、常见问题解答等。适合Claude Code新手快速上手参考。
+ `claude-code` `best-practices` `tutorial` `cli`
 
 ---

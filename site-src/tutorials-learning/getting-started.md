@@ -1,6 +1,6 @@
 # 入门指南
 
-Getting Started — 5 条活跃资源
+Getting Started — 7 条活跃资源
 
 ### [Don't Waste Your Money on OpenClaw Until You've Done These 3 Things](https://x.com/milesdeutscher/status/2026037201591787801) 
 by @Miles Deutscher (2026-02-25) | ⭐⭐⭐⭐ 4/5 | 🌐
@@ -45,5 +45,23 @@ by @Anthropic | ⭐⭐⭐ 3/5 | 🇨🇳
 
 Anthropic官方Claude Code实战课程的中文翻译版，适合离线阅读。课程覆盖21个章节：基础部分（引言、编码助手概念、实战、安装配置、项目准备、添加上下文、修改代码）、进阶部分（控制上下文、自定义命令、MCP服务器、GitHub集成）、Hooks专题（认识/定义/实现Hooks及常见坑点）、高级主题（SDK、测验、总结）。
  `Claude-Code` `实战课程` `教程` `Hooks` `MCP` `GitHub集成` `SDK`
+
+---
+### [Android Framework 面试题解答](#) 
+by @Manus AI | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Android Framework面试核心题库，系统工程师必备**
+
+Android Framework常见面试题解答集，包含socketpair与socket区别、Binder通信原理、Handler机制、Service生命周期等核心知识点。面向Android系统工程师面试准备。
+ `android` `framework` `interview` `socketpair` `binder` `handler`
+
+---
+### [Android 性能优化知识体系大纲](#) 
+by @Manus AI | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Android性能优化知识体系全景框架，从方法论到指标体系**
+
+Android性能优化完整知识体系大纲。从性能优化基础定义与目标出发，建立响应时间、流畅度、内存占用、功耗、稳定性等关键指标体系。覆盖测量-分析-优化-验证闭环方法论，以及系统性思考、全局视角、数据驱动的优化思维模式。
+ `android` `performance` `knowledge-map` `optimization` `methodology`
 
 ---

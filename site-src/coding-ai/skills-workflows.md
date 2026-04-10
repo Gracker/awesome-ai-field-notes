@@ -1,6 +1,6 @@
 # 技能与工作流
 
-Skills & Workflows — 18 条活跃资源
+Skills & Workflows — 20 条活跃资源
 
 ### [从 Vibe Coding 到 Agentic Engineering：开发者角色正在重写](https://x.com/yanhua1010/status/2028737821855580662) 
 by @yanhua1010 (2026-03-03) | ⭐⭐⭐⭐⭐ 5/5 | 🌍
@@ -156,6 +156,15 @@ Claude Code .claude/ 文件夹的完整解剖指南：项目级 vs 全局级两�
  `Superpowers` `GSD` `gstack` `AI编程` `框架对比` `Context-Rot` `TDD` `Claude-Code`
 
 ---
+### [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps) 
+by @Anthropic Engineering (2026-03-24) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Anthropic分享Agent编程中的Harness设计：长周期应用的质量保障**
+
+Anthropic工程团队分享长时间运行应用开发中的Harness设计经验。讨论如何在Agent驱动的开发流程中设计测试Harness，确保前端和全栈应用在长时间迭代中保持质量。涵盖自动化测试策略、CI/CD集成、以及Agent编程中的质量保障方法论。
+ `anthropic` `harness-design` `agentic-coding` `frontend` `fullstack` `long-running`
+
+---
 ### [Claude Code 半小时改出 Obsidian Minimal 风博客](https://x.com/onlyice0328/status/2026261405788405767) 
 by @zhl (2026-02-25) | ⭐⭐⭐ 3/5 | 🇨🇳
 
@@ -190,5 +199,14 @@ by @sitinme (2026-04-06) | ⭐⭐⭐ 3/5 | 🇨🇳
 
 基于 Claude Code 创始人 Boris Cherny 分享的技巧整理的实战指南。核心要点：给 Claude 验证机会（装 Chrome 扩展/Playwright MCP 让它自己看效果，输出质量提升 2-3 倍）；同时开 3-5 个 git worktree 并行；/remote-control 手机遥控；/loop 定时循环和 /schedule 持久化任务；Hooks 是确定性的（绕不过去），CLAUDE.md 规则是建议性的（压力大可能跳过）；/btw 插队提问不进历史；/batch 大规模迁移神器（AI 军团式编程）；/model opus 切换模型省 token。
  `Claude Code` `Boris Cherny` `使用技巧` `worktree` `并行` `自动化`
+
+---
+### [Claude Code 推荐 Skills 汇总](#) 
+ | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Claude Code社区推荐Skills清单，按场景分类**
+
+Claude Code推荐Skills汇总整理。Skills是Claude Code中的可复用能力（SOP），存放于.claude/skills/目录。收集了社区和官方推荐的高质量Skills清单，涵盖翻译、代码审查、文档生成等常用场景。
+ `claude-code` `skills` `recommended` `tools`
 
 ---

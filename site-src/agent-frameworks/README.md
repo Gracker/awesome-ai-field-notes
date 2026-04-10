@@ -1,14 +1,15 @@
 # 🤖 Agent 框架
 
-Agent Frameworks & Libraries — 共 41 条活跃资源
+Agent Frameworks & Libraries — 共 44 条活跃资源
 
-## 编排框架 (28)
+## 编排框架 (31)
 
 - [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773) by @RLanceMartin — Anthropic 官方托管 Agent 基础设施，大脑/手/记忆三层解耦架构 `claude` `managed-agents` `anthropic` `agent-sdk` `infrastructure` 🌐
 - [Agentic Software Engineering](https://x.com/ashpreetbedi/status/2028176285575594465) by @ashpreetbedi — Agent 相关：Agentic Software Engineering `openclaw` `claude` `codex` `mcp` `agent` 🌍
 - [ARTEMIS - LLM 智能体的自动化进化优化](#) — 工具调用能力的新探索 `safety` `coding` `agent` `tool-use` `llm` 🇨🇳
 - [迈向AI智能体可靠性科学](#) — AI Agent 领域值得关注的研究工作 `safety` `fine-tuning` `coding` `agent` `tool-use` 🇨🇳
 - [Agentic Code Reasoning](#) — LLM 推理能力增强的新方法 `tools` `safety` `github` `coding` `agent` 🇨🇳
+- [Scaling Managed Agents：解耦大脑与双手](https://www.anthropic.com/engineering/managed-agents) by @Lance Martin, Gabe Cemaj, Michael Cohen — Anthropic的Managed Agents：大脑与双手解耦的Agent扩展范式 `anthropic` `managed-agents` `agent-sdk` `orchestration` `scaling` 🌍
 - [Anthropic 今天发了一个新产品，可能会让一批做 AI 智能体基础设施的团队失业](https://x.com/dotey/status/2042017036931305667) by @dotey — 中文深度解析 Claude Managed Agents 的产品定位、架构设计与企业案例 `claude` `managed-agents` `anthropic` `enterprise` `agent-infrastructure` 🇨🇳
 - [DeerFlow 2.0: ByteDance 开源超级 Agent 运行底座](https://github.com/bytedance/deer-flow) by @Bytedance — 字节跳动的超级 Agent 底座，LangGraph 重写，支持子 Agent 并行编排 `deer-flow` `bytedance` `langgraph` `langchain` `super-agent` 🌐
 - [How to set up OpenClaw Agents that actually get better Over Time](https://x.com/Saboo_Shubham_/status/2027463195150131572) by @Shubham Saboo — OpenClaw Agent 自改进的 40 天实战：靠 markdown 文件栈而非调 prompt `openclaw` `memory` `self-improvement` `agent-stack` `markdown` 🌐
@@ -16,6 +17,7 @@ Agent Frameworks & Libraries — 共 41 条活跃资源
 - [Don't trust AI agents](https://x.com/Gavriel_Cohen/status/2027841164150178238) by @Gavriel_Cohen — Agent 相关：Don't trust AI agents `openclaw` `agent` `skill` 🌍
 - [工程师，开始给 Agent 打工了](https://x.com/wangray/status/2028132386756780220) by @wangray — Agent 相关：工程师，开始给 Agent 打工了 `openclaw` `codex` `agent` `memory` 🇨🇳
 - [LLM Agent推理必要性](https://arxiv.org/abs/2503.11074) — LLM 推理能力增强的新方法 `agent` `llm` `paper` `reinforcement-learning` `reasoning` 🇨🇳
+- [面向移动设备厂商团队的 Agent 体系与 PerformanceAgent 设计深度研究报告](#) — 面向手机厂商的Agent体系+PerformanceAgent落地设计，对齐Claude Agent SDK `agent` `performance-agent` `claude-agent-sdk` `multi-agent` `mobile` 🇨🇳
 - [OpenClaw Memory 终极指南](https://x.com/lijiuer92/status/2025678747509391664) by @李韭二 — OpenClaw 记忆系统实践指南，覆盖失忆、可发现性与长期维护 `openclaw` `memory` `agent` `long-term-context` 🇨🇳
 - [全面解析：如何部署 Conway Agent，开启链上 AI 生存游戏](https://x.com/JXiaoLoong/status/2024376180707905816) by @0xJA — 链上自主 AI Agent 的部署与运行指南，一体化沙盒平台 `conway` `on-chain-ai` `agent-deployment` `sandbox` 🇨🇳
 - [使用一个月 OpenClaw 的门槛与成本复盘](https://x.com/LotusDecoder/status/2028272613919965585) by @LotusDecoder — OpenClaw 相关：使用一个月 OpenClaw 的门槛与成本复盘 `openclaw` `claude` `agent` `hermes` `docker` 🌍
@@ -32,6 +34,7 @@ Agent Frameworks & Libraries — 共 41 条活跃资源
 - [Large Language Model Agent: A Survey on Methodology, Applications and Challenges](#) — Agent 领域系统性综述，适合建立全景认知 `gui` `safety` `agent` `llm` `paper` 🇨🇳
 - [Position: Episodic Memory is the Missing Piece for Long-Term LLM Agents](#) by @**：Mathis Pink, Qinyuan Wu, Vy Ai Vo, Javier Turek, Jianing Mu, Alexander Huth, Mariya Toneva — LLM Agent 记忆机制的深入研究 `fine-tuning` `coding` `agent` `llm` `reasoning` 🇨🇳
 - [Agent实践知识图谱](#) by @高爷 — 实操导向的Agent知识图谱，从记忆、自我改进、工具、框架四个维度梳理可执行实践 `agent` `记忆系统` `自我改进` `LangGraph` `CrewAI` 🇨🇳
+- [OpenClaw深度调研报告](https://github.com/openclaw/openclaw) — OpenClaw架构全景调研，涵盖Agent/Memory/MCP/Skills核心机制 `openclaw` `agent` `deep-research` `architecture` `mcp` 🇨🇳
 
 ## 单Agent框架 (2)
 

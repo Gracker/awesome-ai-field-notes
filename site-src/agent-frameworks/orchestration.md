@@ -1,6 +1,6 @@
 # 编排框架
 
-Orchestration — 28 条活跃资源
+Orchestration — 31 条活跃资源
 
 ### [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773) 
 by @RLanceMartin (2026-04-06) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
@@ -91,6 +91,15 @@ By now you've probably used a few agents, or at least heard of Claude Code, Code
 
 论文的核心创新：提出"Agentic Code Reasoni…
  `tools` `safety` `github` `coding` `agent` `llm` `paper` `reinforcement-learning`
+
+---
+### [Scaling Managed Agents：解耦大脑与双手](https://www.anthropic.com/engineering/managed-agents) 
+by @Lance Martin, Gabe Cemaj, Michael Cohen (2026-04-09) | ⭐⭐⭐⭐⭐ 5/5 | 🌍
+
+**Anthropic的Managed Agents：大脑与双手解耦的Agent扩展范式**
+
+Anthropic工程团队详解Managed Agents架构——将Agent的大脑（决策）与双手（执行）解耦的设计范式。Managed Agents允许将子任务委托给专门的Agent执行，主Agent负责协调。这种架构支持Agent的水平扩展，每个子Agent可以独立运行、使用不同工具、拥有独立的上下文窗口。文章详细讨论了委托机制、上下文传递、错误处理和成本控制等工程挑战。
+ `anthropic` `managed-agents` `agent-sdk` `orchestration` `scaling`
 
 ---
 ### [Anthropic 今天发了一个新产品，可能会让一批做 AI 智能体基础设施的团队失业](https://x.com/dotey/status/2042017036931305667) 
@@ -204,6 +213,15 @@ OpenAI 内部有个团队，5 个月，3 个工程师，几乎不靠手写代码
 
 大型推理模型（LRMs，如DeepSeek-R1, Claude3.7-sonnet）的兴起，对传统基于大型语言模型（LLMs）的智能体框架带来了范式转变。这些新一代模型在逻辑演绎上更强大，但也带…
  `agent` `llm` `paper` `reinforcement-learning` `reasoning` `ai`
+
+---
+### [面向移动设备厂商团队的 Agent 体系与 PerformanceAgent 设计深度研究报告](#) 
+ | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**面向手机厂商的Agent体系+PerformanceAgent落地设计，对齐Claude Agent SDK**
+
+面向移动设备厂商研发团队的Agent体系深度研究报告。系统梳理Agent定义谱系、架构范式与多智能体协作机制，给出可落地的PerformanceAgent（性能智能体）参考设计。重点对齐Claude Agent SDK的官方能力模型，涵盖工具调用、子智能体、Skills、Hooks、上下文压缩、权限沙箱、托管形态等。从移动厂商视角出发，设计性能优化专属Agent架构。
+ `agent` `performance-agent` `claude-agent-sdk` `multi-agent` `mobile` `android`
 
 ---
 ### [OpenClaw Memory 终极指南](https://x.com/lijiuer92/status/2025678747509391664) 
@@ -393,5 +411,14 @@ by @高爷 (2026-03-29) | ⭐⭐⭐ 3/5 | 🇨🇳
 
 AI Agent实践的知识图谱总结，涵盖四大核心主题：1）记忆系统优化——三层记忆架构（日记层→核心记忆层→向量层）、语义检索策略；2）自我改进机制——错误捕获系统、技能提取流程、任务改进周报；3）工具使用模式——OpenCLI多平台集成、多模型协作与容灾降级策略；4）框架对比——LangGraph（底层编排）、CrewAI（角色协作）、AutoGen（编程式多代理）的定位差异分析。提供了可执行的实践建议。
  `agent` `记忆系统` `自我改进` `LangGraph` `CrewAI` `AutoGen` `框架对比` `OpenCLI`
+
+---
+### [OpenClaw深度调研报告](https://github.com/openclaw/openclaw) 
+ (2026-03-17) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**OpenClaw架构全景调研，涵盖Agent/Memory/MCP/Skills核心机制**
+
+OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent、Memory、MCP、Skills、Cron）、运行机制、与其他Agent框架的对比分析。报告系统梳理了OpenClaw的技术栈和生态位，对理解个人AI Agent的工程化实现有参考价值。
+ `openclaw` `agent` `deep-research` `architecture` `mcp` `skills`
 
 ---
