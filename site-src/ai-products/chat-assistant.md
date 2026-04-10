@@ -1,6 +1,6 @@
 # 对话助手
 
-Chat & Assistant — 3 条活跃资源
+Chat & Assistant — 10 条活跃资源
 
 ### [How to set up Claude Cowork the right way](https://x.com/heynavtoor/status/2026717574776631556) 
 by @Nav Toor (2026-02-28) | ⭐⭐⭐⭐ 4/5 | 🌐
@@ -20,6 +20,51 @@ Claude Cowork 的完整设置指南。Cowork 不是聊天机器人——它在�
  `[]` `llm` `chatgpt`
 
 ---
+### [Seeing Like an Algorithm](https://www.eugenewei.com/blog/2020/9/18/seeing-like-an-algorithm) 
+by @Eugene Wei (2020-09-18) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**理解推荐系统与产品设计关系的经典文章，TikTok 算法闭环分析**
+
+Eugene Wei 从《Seeing Like a State》出发分析 TikTok 产品设计如何帮助算法'看见'。核心论点：TikTok 成为自己的训练数据来源，产品设计创造了训练数据闭环。为所有想利用 ML 算法的公司提供产品设计范式。
+ `TikTok` `算法` `推荐系统` `产品设计` `训练数据` `反馈循环`
+
+---
+### [从ChatGPT到AI Agent，一文讲透 Agent 的底层逻辑](https://mp.weixin.qq.com/s?__biz=MjM5MDgzNDUxMw==&mid=2650854097&idx=1&sn=cd83a491be6ad1b7b8f9e658c9b9c7d5&chksm=bcc04e56690831c0b2c0040c13564c4d484609728be1bd080079e0659bda8aecbab4dde1ada8&mpshare=1&scene=1&srcid=1018VkzUDQKJWONF0WXgdaoJ&sharer_shareinfo=26505e8c65d8831fe66fced92ca14dd5&sharer_shareinfo_first=26505e8c65d8831fe66fced92ca14dd5) 
+ (2025-10-18) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 从ChatGPT到AI Agent，一文讲透 Agent 的底层逻辑**
+
+和许多团队交流后我发现，对 agentic 循环过程的体感缺失和理解，让有人认为存在某种神迹让 Agent 有超越模型智力的表现，有人说无非是多调用几次 API，哪有那么神奇。本文旨在通过示例和理论来帮助大家理解 Agent的底层逻辑。
+
+
+---
+### [手搓AI智能体实战经验](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649784031&idx=1&sn=9b01de078e4c8c5a8b763ece5ce4fd86&chksm=becceda489bb64b2cde1e3e4a49d778b7eaaae1a20c514431a6234c3cb0e7c24056584a9f4f5&mpshare=1&scene=1&srcid=0613npL9L96z00VHzXJwsbCm&sharer_shareinfo=4d6a8fda33d8f296efafa774b9ab7420&sharer_shareinfo_first=4d6a8fda33d8f296efafa774b9ab7420) 
+ (2024-06-13) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 手搓AI智能体实战经验**
+
+
+
+
+---
+### [译：我是如何利用 LLM 进行编程的 – 云谦的博客](https://sorrycc.com/how-i-program-with-llms/) 
+ (2025-01-08) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 译：我是如何利用 LLM 进行编程的 – 云谦的博客**
+
+> 原文：<https://crawshaw.io/blog/programming-with-llms>   > 作者：David Crawshaw   > 译者：ChatGPT 4 Turbo
+
+
+---
+### [面向 ChatGPT 开发 ，我是如何被 AI 从 “逼疯” 到 “觉悟” ，未来又如何落地](https://mp.weixin.qq.com/s?__biz=Mzg3NTA3MDIxOA==&mid=2247489654&idx=1&sn=27b74f1a974dbacf606a402fa8186749&chksm=cec64e13f9b1c705d967677d2793f6b081cd0de2bc14a8858e71f097988423f4c248bebf78a8&mpshare=1&scene=1&srcid=03155DogT96ESccYOfMY8Owi&sharer_sharetime=1678862931089&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) 
+ (2023-03-15) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 面向 ChatGPT 开发 ，我是如何被 AI 从 “逼疯” 到 “觉悟” ，未来又如何落地**
+
+对于 ChatGPT 如今大家应该都不陌生，经过这么长时间的「调戏」，相信大家应该都感受用 ChatGPT
+
+
+---
 ### [别再刷了——ClawFeed 帮我每天 5 分钟搞定 5000 人的信息流](https://x.com/0xkevinhe/status/2025781752971809010) 
 by @Kevin He (2026-02-23) | ⭐⭐⭐ 3/5 | 🇨🇳
 
@@ -27,5 +72,23 @@ by @Kevin He (2026-02-23) | ⭐⭐⭐ 3/5 | 🇨🇳
 
 5000 followings 下的信息过载解决方案：用自动化筛选与分层阅读替代手动刷流。ClawFeed 帮助在极短时间内完成筛选与吸收，提升信息密度与决策效率。内容较简短，为摘要归档。
  `clawfeed` `information-filtering` `openclaw` `workflow` `automation`
+
+---
+### [注册ChatGPT全攻略 — Box ⛩️](https://mirror.xyz/0x6E12A28086548B11dfcc20c75440E0B3c10721f5/9O9CSqyKDj4BKUIil7NC1Sa1LJM-3hsPqaeW_QjfFBc) 
+ (2022-12-05) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 注册ChatGPT全攻略 — Box ⛩️**
+
+地址：https://mirror.xyz/0x6E12A28086548B11dfcc20c75440E0B3c10721f5/9O9CSqyKDj4BKUIil7NC1Sa1LJM-3hsPqaeW_QjfFBc
+
+
+---
+### [首批68款ChatGPT Plugins开放！我体验后推荐这4款实用插件！](https://good.news/html/65c9dd9d88f50e6b9403a1750c092a10.html) 
+ (2023-05-16) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 首批68款ChatGPT Plugins开放！我体验后推荐这4款实用插件！**
+
+前两天看到 Open AI 重磅官宣，这周起，ChatGPT Plus 用户无需排队，直接就能用上联网和插件功能。
+
 
 ---

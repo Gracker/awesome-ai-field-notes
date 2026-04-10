@@ -1,6 +1,6 @@
 # 命令行工具
 
-CLI & Terminal — 30 条活跃资源
+CLI & Terminal — 34 条活跃资源
 
 ### [Lessons from Building Claude Code: Seeing like an Agent](https://x.com/trq212/status/2027463795355095314) 
 by @Thariq (2026-02-28) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
@@ -229,6 +229,33 @@ Anthropic发布Claude Code auto mode，一种更安全地跳过权限确认的�
  `agent` `[]` `rag`
 
 ---
+### [Promoting AI agents](https://world.hey.com/dhh/promoting-ai-agents-3ee04945) 
+by @DHH (2026-01-07) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**DHH 的务实观点：监督式协作已到，纯 vibe coding 仍是梦想**
+
+DHH 分享对 AI Agent 编程的看法转变。从不喜欢编辑器自动补全到欣赏终端 Agent 协作模式。在 OpenCode 中使用 Claude Opus 4.5 等模型，认为 Agent 已能产出生产级代码。对'Agent写90%代码'持怀疑态度，强调监督式协作是当下最现实范式。
+ `DHH` `AI-agents` `coding` `OpenCode` `supervised-collaboration`
+
+---
+### [The Cook and the Chef: Musk's Secret Sauce — Wait ...](https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html) 
+ (2023-10-07) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — The Cook and the Chef: Musk's Secret Sauce — Wait **
+
+[需翻译] The Cook and the Chef: Musk's Secret Sauce — Wait ...
+
+
+---
+### [分享10个你可能不知道的Claude Code隐藏命令。](https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680919&idx=1&sn=95032bfc6270f229e713598805d26ebf&chksm=f18f60a2aad3f3a08e0d6dee996a13c72b5c47b89ee989b29b84899a4ff0da1606e47842c577&scene=126&sessionid=1774059013) 
+ (2026-03-21) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 分享10个你可能不知道的Claude Code隐藏命令。**
+
+我们公司很多很多的小伙伴，都在用Claude Code，因为这玩意，在很多时候，确实就是最牛逼的通用Agent。
+
+
+---
 ### [oh my codex 使用教程](https://x.com/oragnes/status/2041876228949602347) 
 by @oragnes (2026-04-06) | ⭐⭐⭐ 3/5 | 🇨🇳
 
@@ -359,5 +386,14 @@ by @凡人小北 (2026-03-06) | ⭐⭐⭐ 3/5 | 🌍
 
 # GitHub - knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang: 讨贼王云鹤檄文 讨贼王云鹤檄文. Contribute to knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang development by creating an account on GitHub. 文章license和Qwen一样，apache-2.0。 王云鹤，1991年生于黑龙江。2018年博士毕业进入华为，经历不到7年时间，于2025年2月中旬，从小模型实验室主任任上，正式顶替姚骏，被任命为诺亚方舟...
  `deepseek` `[]` `大模型`
+
+---
+### [让Claude 和 Codex 告诉我需要哪些工具才能更快地运行](https://blog.chensoul.cc/posts/what-tools-it-needs-for-claude-codex) 
+ (2026-03-31) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 让Claude 和 Codex 告诉我需要哪些工具才能更快地运行**
+
+让 Claude Code 与 Codex 自查本机开发环境：对比二者给出的缺失工具清单，并补齐 ripgrep、fd、fzf 等与 AI 协作相关的 CLI 工具链。
+
 
 ---

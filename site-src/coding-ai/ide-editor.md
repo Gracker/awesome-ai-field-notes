@@ -1,6 +1,6 @@
 # IDE与编辑器
 
-IDE & Editor — 42 条活跃资源
+IDE & Editor — 84 条活跃资源
 
 ### [The third era of AI software development](https://x.com/mntruell/article/2026736314272591924) 
 by @Michael Truell (2026-02-26) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
@@ -9,6 +9,15 @@ by @Michael Truell (2026-02-26) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
 
 Cursor CEO 定义 AI 编码三个时代：第一时代 Tab 自动补全、第二时代同步 Agent（提示→响应循环）、第三时代独立云 Agent（长任务自主完成）。Cursor 超 1/3 的 PR 由云端自主 Agent 创建。云 Agent 在独立虚拟机运行，交付日志/视频/预览而非 diff。人类角色从逐行指导变为定义问题和设置审查标准。
  `cursor` `cloud-agent` `coding-eras` `tab-to-agent` `software-development`
+
+---
+### [What Is ChatGPT Doing … and Why Does It Work?—Stephen Wolfram Writings](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/?s=09) 
+ (2023-07-31) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
+
+**Cubox 收藏 — What Is ChatGPT Doing … and Why Does It Work?—Step**
+
+[需翻译] What Is ChatGPT Doing … and Why Does It Work?—Stephen Wolfram Writings
+
 
 ---
 ### [130万次下载，2万Star开源项目CC Switch，36岁转行程序员Jason的第一个作品](https://x.com/wey_gu/status/2027772306458812757) 
@@ -272,6 +281,195 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
  `copilot` `[]` `cursor` `gpt-4` `claude`
 
 ---
+### [The Product-Minded Software Engineer - The Pragmatic Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/?s=09) 
+ (2024-09-12) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — The Product-Minded Software Engineer - The Pragmat**
+
+[需翻译] The Product-Minded Software Engineer - The Pragmatic Engineer
+
+
+---
+### [TikTok and the Sorting Hat — Remains of the Day](https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat) 
+ (2023-07-11) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — TikTok and the Sorting Hat — Remains of the Day**
+
+[需翻译] A network like Venmo or Uber, for example, is mostly about utility: I need to pay someone money, or I need to travel from here to there. A network like YouTube is more about entertainment. Amuse me. And some networks, what most people refer to when t...
+
+
+---
+### [Trae 重磅更新：AI编程+智能体+MCP，言出法随的新境界](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247486222&idx=1&sn=339091580bdb9e1c372b073a78861c5b&chksm=c1d2d2024d5c147c11e072376906ecdcb7ef26a854c3ab0147825fa422616bf9dd995e12fdf3&mpshare=1&scene=1&srcid=0422OnaWC5wn1l1tifvJXILS&sharer_shareinfo=41eb89afb4b51a8c7e426d8c25926a34&sharer_shareinfo_first=41eb89afb4b51a8c7e426d8c25926a34) 
+ (2025-04-22) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — Trae 重磅更新：AI编程+智能体+MCP，言出法随的新境界**
+
+?imageUrl=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAACIAAAAqCAMAAADhynmdAAAAQlBMVEUAAACcnJycnJycnJyoqKicnJycnJycnJycnJycnJyfn5%2BcnJydnZ2enp6kpKSdnZ2cnJyenp6cnJycnJycnJybm5t8KrXMAAAAFXRSTlMAyeb3CNp3tJRvHIEtJhBgqztWRJ%2Bp5TqGAAABCklEQVQ4y5...
+
+
+---
+### [Unlimited Refill Cursor](https://bianyujie.cn/Unlimited-use-of-the-cursor) 
+ (2024-10-30) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — Unlimited Refill Cursor**
+
+[需翻译] If you ask me what code editor to use in the AI era, I will undoubtedly answer you: Cursor Cursor Cursor!!!
+
+
+---
+### [Welcome to the Machine, a guide to building infra software for AI agents](https://me.0xffff.me/welcome_to_the_machine.html) 
+ (2026-01-07) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — Welcome to the Machine, a guide to building infra **
+
+[需翻译] Welcome to the Machine, a guide to building infra software for AI agents
+
+
+---
+### [Windsurf：面向未来的 AI编程工具详解](https://mp.weixin.qq.com/s?__biz=Mzg3OTYwMjcxMA==&mid=2247488634&idx=1&sn=5c07be393a21ec29c1e7b57432d5affd&chksm=ce5273e456a9e242cbcb5ddb42a2a732a84d6fba8b6e6a1c9d6e60c583e931a6150ff36e375a&mpshare=1&scene=1&srcid=0108YxgA7cywjKuymVzomsTE&sharer_shareinfo=4b4f4111efff99d418d52653b1a3ce05&sharer_shareinfo_first=4b4f4111efff99d418d52653b1a3ce05) 
+ (2025-01-08) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — Windsurf：面向未来的 AI编程工具详解**
+
+我是范文杰，一个专注于 AI 辅助编程与前端工程化领域的切图仔，**近期有不少 HC，感兴趣的同学可联系我内推！**欢迎关注：
+
+
+---
+### [garrytan/gstack: Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA](https://github.com/garrytan/gstack) 
+ | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — garrytan/gstack: Use Garry Tan's exact Claude Code**
+
+[需翻译] garrytan/gstack: Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
+
+
+---
+### [“10x Cursor”开发体验， Claude Code 如何带来 AI Coding 的 L4 时刻？｜Best Ideas | BestBlogs.dev](https://www.bestblogs.dev/article/a5ae61) 
+ (2025-07-15) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — “10x Cursor”开发体验， Claude Code 如何带来 AI Coding 的 L4 **
+
+“10x Cursor”开发体验， Claude Code 如何带来 AI Coding 的 L4 时刻？｜Best Ideas | BestBlogs.dev
+
+
+---
+### [“Progress is not achieved by luck or accident, but by working on yourself daily.” | Revue](https://newsletter.stoicallytyped.com/issues/progress-is-not-achieved-by-luck-or-accident-but-by-working-on-yourself-daily-558084) 
+ (2022-01-24) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — “Progress is not achieved by luck or accident, but**
+
+[需翻译] “Progress is not achieved by luck or accident, but by working on yourself daily.” | Revue
+
+
+---
+### [“聊天式编程”让代码听你的话：Cursor打造极致心流体验](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649792201&idx=1&sn=c2fc70c76233d2551484405021dc5726&chksm=bfa82012357eb1e74a06b747ba8f79ddd3448958cc046730f3c6699db34ad032a6a40b34c451&mpshare=1&scene=1&srcid=0329V4EPu92TJJRqTE6o9TfB&sharer_shareinfo=d844a10c77b90dcd2f4853ebdb8219f3&sharer_shareinfo_first=d844a10c77b90dcd2f4853ebdb8219f3) 
+ (2025-03-29) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — “聊天式编程”让代码听你的话：Cursor打造极致心流体验**
+
+?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg)
+
+
+---
+### [【文章翻译】Cursor 内部观察](https://mp.weixin.qq.com/s?__biz=MzkwOTMzMzk0MQ==&mid=2247498276&idx=1&sn=0f181e8e17a3464ec3e66416a8941aeb&chksm=c0d838827f9b0616d79fc7c4681f340eab3c2850261efe0b47035a254642ded72aae16729846&mpshare=1&scene=1&srcid=1111HId5z2dFa80oCTMTiyr8&sharer_shareinfo=54635e9e99cb1aa6d9613a92d8257014&sharer_shareinfo_first=8142a5dc718487d368dd06ea60237935) 
+ (2025-11-11) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 【文章翻译】Cursor 内部观察**
+
+这篇文章是 Brie Wolfson 与这家 "AI 编程十角兽" Cursor 共度六十天的记录。是 Yuan 发给我的，我也借此学习一下当前发展最快、执行力最强的新型 AI 公司的样子。读的过程中，也带着我们自身的处境去想：哪些值得借鉴，哪些不一定适合。
+
+
+---
+### [【有嘴就能做开发】Cursor——AI编辑器 使用详解 - 知乎](https://zhuanlan.zhihu.com/p/27335614120) 
+ (2025-04-17) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 【有嘴就能做开发】Cursor——AI编辑器 使用详解 - 知乎**
+
+?imageUrl=https%3A%2F%2Fpic4.zhimg.com%2Fv2-e16ddecead14b9bf72ee911ae24568b3_r.jpg&valid=false) https://www.cursor.com
+
+
+---
+### [以小说 AI 工作流为例，Cursor和Windsurf ，为什么我最后选择Cursor（万字长文）](https://mp.weixin.qq.com/s?__biz=MjM5NjE3NjYzMw==&mid=2247485983&idx=1&sn=81ef74be43e7edffe6df692ae1168018&chksm=a7176d881ffceddd26322830c2175730f5638b4a2b2cd016325053ef6723891cbfdcfb683d0b&mpshare=1&scene=1&srcid=12286IKpGtFF1tFyDldWkGmh&sharer_shareinfo=e6e90ab99869772e9d7f656cb459cc58&sharer_shareinfo_first=b5933aa26e85bc6c8524796b9e18f4e7) 
+ (2024-12-29) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 以小说 AI 工作流为例，Cursor和Windsurf ，为什么我最后选择Cursor（万字长文）**
+
+以小说 AI 工作流为例，Cursor和Windsurf ，为什么我最后选择Cursor（万字长文）
+
+
+---
+### [刚刚，Cursor 1.0炸裂发布！4大亮点实战 - 知乎](https://zhuanlan.zhihu.com/p/1914015028316737933?locale=zh_CN) 
+ (2025-06-15) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 刚刚，Cursor 1.0炸裂发布！4大亮点实战 - 知乎**
+
+炸裂，炸裂，炸裂！时隔两年半，Cursor 终于正式发布了 1.0 版本。
+
+
+---
+### [创业者思考：如何做 AI Agent 喜欢的基础软件？](https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247521814&idx=1&sn=49ceeed78a26438ade5d5b706623e88f&chksm=c122bf12dfb7e37a12d166ff94f0c36e9a30070f10046c9fdfe61d49a74573ce5a5c696772ed&mpshare=1&scene=1&srcid=0311ISulrAqgkTLP1HK97xnT&sharer_shareinfo=c5f29fbc7bf04b537d92cb15e87fd53b&sharer_shareinfo_first=6215cfee527a230e6ac94c5123d5473d) 
+ (2026-03-11) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 创业者思考：如何做 AI Agent 喜欢的基础软件？**
+
+?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2FqpAK9iaV2O3sAVsSPfCN9UX44XiaoicbUJIrOGuaujdMNY6iaQewDZEX1GY3tcVk3QGeKJyUMMHBSMALvO8B7DZwsA%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg%23imgIndex%3D0) > 本篇内容转载自「我世界的源代码」。 > > 作者黄东旭，是 PingCAP 的联合创始人兼 CTO...
+
+
+---
+### [如何利用cursor快速理解复杂代码工程？](https://www.zhihu.com/question/7468595725/answer/1910022134312460351) 
+ (2025-05-26) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — 如何利用cursor快速理解复杂代码工程？**
+
+[需翻译] 这份rule来自Cursor官方论坛某大神，经实测既可以用在Cursor，也可以用在Windsurf和Roo code。
+
+
+---
+### [对标 Cursor 和 Windsurf，Trae 如何成为中文开发者的首选？](https://mp.weixin.qq.com/s?__biz=MzkwNDYyNTU1NQ==&mid=2247486179&idx=1&sn=29d9077dbaa879f1388fd628c102071d&chksm=c1329b416202d3c2b878117fa15650e0b184aca4708a565c5f0b32fb9322b228ccea74b95806&mpshare=1&scene=1&srcid=0120YaTXSgsBRNNrnmU70m2x&sharer_shareinfo=3aa172c89e335810c3379e7c47f7aaa3&sharer_shareinfo_first=46440f26bed307709ec73840f88cf5bb) 
+ (2025-01-20) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 对标 Cursor 和 Windsurf，Trae 如何成为中文开发者的首选？**
+
+字节跳动旗下对标 Cursor 和 Windsurf 的 AI IDE 产品 —— Trae，今天正式上线了！
+
+
+---
+### [抄 Apple Intelligence 作业的思路 文章从 LLM 的近况切入，探讨 Apple Intelligen - 掘金](https://juejin.cn/post/7407385581079396389) 
+ (2024-09-03) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 抄 Apple Intelligence 作业的思路 文章从 LLM 的近况切入，探讨 Apple **
+
+抄 Apple Intelligence 作业的思路 文章从 LLM 的近况切入，探讨 Apple Intelligen - 掘金
+
+
+---
+### [探索 AI 编程智能体](https://juejin.cn/post/7465031850969858088?share_token=95c52b62-bbc3-4074-96b5-b5fd64043cc6) 
+ (2025-02-03) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — 探索 AI 编程智能体**
+
+[需翻译] 本文探讨AI编程智能体在软件开发中的应用，重点分析Cursor和Cline。二者通过自然语言处理和代码生成辅助编程，提升效率。Cursor 成熟但成本高，Cline 开源免费但可靠性待提升。
+
+
+---
+### [烧掉十亿 Token 后，我总结的 Coding Agent 高阶玩法](https://mp.weixin.qq.com/s?__biz=MzkzNTIzNTYzMA==&mid=2247485666&idx=1&sn=4b9a5ce20104b0473636bb183a4e6676&chksm=c39a7370a54ff219316b3e16c5eb710a23046d88f74ba97f182f6955b741ea4726c4b986851d&mpshare=1&scene=1&srcid=0812pCHh10Gz705xkCFootkZ&sharer_shareinfo=685c02c01d35d330b0df0751ca30333c&sharer_shareinfo_first=29b0caec343ef5be8524908a8e173e91) 
+ (2025-08-12) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 烧掉十亿 Token 后，我总结的 Coding Agent 高阶玩法**
+
+今天来继续聊聊如何用好 Claude Code，Codex，Cursor CLI 这类产品的一些经验和思考。
+
+
+---
+### [聊一聊豆包AI手机助手高度敏感权限CAPTURE_SECURE_VIDEO_OUTPUT](https://mp.weixin.qq.com/s?__biz=MzkzOTQ4NDUyNg==&mid=2247492985&idx=1&sn=7de6706287bdf7b35824ae4ef3183c48&chksm=c340cc1c38e05b16ca7b5fe720015a0bf917347d6e282b6d8093f327e0dc1ba5ed07bee02210&mpshare=1&scene=1&srcid=1212CFAxOpBJWjdb5FbsBni1&sharer_shareinfo=e35960f9ed207c81805690a8d7881d77&sharer_shareinfo_first=5647327a26081e2ca9e38616231d5794) 
+ (2025-12-12) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — 聊一聊豆包AI手机助手高度敏感权限CAPTURE_SECURE_VIDEO_OUTPUT**
+
+[需翻译] 近来手机界最火爆的话题莫过于豆包手机助手，很多博主拿到豆包手机后也开始对豆包手机助手进行一系列的实现原理调研和猜想，比如调研时候就涉及几个我们系统fw和应用开发中常用的一些权限
+
+
+---
 ### [AI降临](https://mp.weixin.qq.com/s?__biz=MzA4NjczOTY0Nw==&mid=2653064371&idx=1&sn=e4017d3b636753f498a328746f8e7fdc&chksm=84123363b365ba75736ff8f9f03aeb112f207458e316fef3eb4ce43d6301fc3bfa9f299da295&mpshare=1&scene=1&srcid=0102FROP3HDMYFjrvhLaxDyE&sharer_sharetime=1672672312908&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) 
  (2023-01-02) | ⭐⭐⭐ 3/5 | 🇨🇳
 
@@ -441,5 +639,185 @@ Follow @allthingsaihq
 
 # Google 新手机发布会：Android 14，「买手机，送 AI」 美国当地时间 10 月 4 日上午 10 点，Google 在纽约举行「Made by Google」活动，Pixel 8、Pixel 8Pro、Pixel Watch 2、Pixel Buds 等硬件，以及最新的 Android 14 系统逐一曝光。 除了 Pixel 8 哑光磨砂后背和防爆盾造型的 5000 万像素摄像头，当天发布会最大的亮点，你能猜到的，就是 AIGoogle 如何在旗舰手机上集成它的各种 AI 理念和功能，更让人好奇。 从超级无痕修图、画质修正再到 AI 生成壁纸，AI 渗透进了 Google ...
  `[]`
+
+---
+### [Updated main function](https://t.co/WrzXZR9mxi?s=09) 
+ (2023-12-21) | ⭐⭐⭐ 3/5 | 🌐
+
+**Cubox 收藏 — Updated main function**
+
+[需翻译] One thing that fascinates me about the networking world is that each layer of abstraction provides a near-perfect illusion of harmony and niceties to the layers above. For example, in this section, we will place three nodes into our virtual network. ...
+
+
+---
+### [[Agentic AI] 使用Cursor作为AI的通用入口](https://yage.ai/cursor-ai-entry.html) 
+ (2025-05-14) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — [Agentic AI] 使用Cursor作为AI的通用入口**
+
+* Agentic AI系列1：Devin和Agent Cursor使用体验对比 * Agentic AI系列2：从智者到行者------Agentic AI的范式革命与技术架构 * Agentic AI系列3：搏一搏，$20变$500：一小时魔改Cursor变身Devin * Agentic AI系列4：使用Cursor作为AI的通用入口（本文）
+
+
+---
+### [‌﻿⁡⁣​‌‬﻿‍‍​​​﻿‍⁣​‌﻿‬‬⁤⁢​​​⁢​⁣‬‌​​⁣﻿⁤​⁢‬​​​‬﻿⁡​​⁢⁡​AI编程蓝皮书 - 飞书云文档](https://superhuang.feishu.cn/wiki/CBBPwvgEuicVhFkx0s7cPmhpn4e) 
+ (2025-01-16) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — ‌﻿⁡⁣​‌‬﻿‍‍​​​﻿‍⁣​‌﻿‬‬⁤⁢​​​⁢​⁣‬‌​​⁣﻿⁤​⁢‬​​​‬﻿⁡​​⁢⁡​**
+
+‌﻿⁡⁣​‌‬﻿‍‍​​​﻿‍⁣​‌﻿‬‬⁤⁢​​​⁢​⁣‬‌​​⁣﻿⁤​⁢‬​​​‬﻿⁡​​⁢⁡​AI编程蓝皮书 - 飞书云文档
+
+
+---
+### [「代码艺术家」不会被 AI 取代 | Randy's Blog](https://lutaonan.com/blog/code-artists/) 
+ (2025-02-09) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 「代码艺术家」不会被 AI 取代 | Randy's Blog**
+
+最近大量地使用 Cursor 替代了VS Code,开始习惯直接在编辑器里告诉AI我的需求，让它来代替我写出代码段。
+
+
+---
+### [一个提示词 claude 生成一个 app 的 ui/ux](https://ew6rccvpnmz.feishu.cn/wiki/ILO2waqXLi1EvqkuKHvcceMOnVd?fromScene=spaceOverview&s=09) 
+ (2025-03-04) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 一个提示词 claude 生成一个 app 的 ui/ux**
+
+如果你是程序员开发者，我们也提供了公开免费的 api：流光卡片 API 使用文档
+
+
+---
+### [一人两月烧完 80 亿 token $5000，我想分享些 Agent 设计与 Vibe coding 的心法](https://mp.weixin.qq.com/s?__biz=MzI2MDE1NDE0MA==&mid=2652037912&idx=1&sn=474180f9f0f799b6c44419e3c3fbb526&chksm=f04ce3d4cf109a199bad13711d31ee43a7a64b260f0ea2143929823902d00f22c4ec240efe77&mpshare=1&scene=1&srcid=0330kvYxTtq2smJM4kI2gZjp&sharer_shareinfo=ebeda262b62aa730368be4931289ad20&sharer_shareinfo_first=ebeda262b62aa730368be4931289ad20) 
+ (2026-03-30) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 一人两月烧完 80 亿 token $5000，我想分享些 Agent 设计与 Vibe codin**
+
+一人两月烧完 80 亿 token $5000，我想分享些 Agent 设计与 Vibe coding 的心法
+
+
+---
+### [一份关于 AI 编程的简明行为指南](https://www.piglei.com/articles/a-simple-ai-coding-guide-for-engineers/) 
+ (2026-03-22) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 一份关于 AI 编程的简明行为指南**
+
+AI 编程发展迅猛，Claude Code、Codex 等 AI Agent 已成为许多软件工程师工作时必不可少的得力助手。然而，对于如何在项目中更好地实践 AI 编程，目前仍然是一副"八仙过海，各显神通"的模样。
+
+
+---
+### [不秃也变强：让 AI 当大师傅，编程和写作效率提升两三倍 | 歌词经理](https://quail.ink/lyric/p/not-bald-but-stronger-let-ai-be-the-master?s=09) 
+ (2023-08-09) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 不秃也变强：让 AI 当大师傅，编程和写作效率提升两三倍 | 歌词经理**
+
+现在的情况是，可能 50% 的代码都是 AI 写的；50% 的文案都是 AI 写的。100% 的插图都是 AI 画的。
+
+
+---
+### [亚马逊 AI IDE Kiro “狙击”Cursor？实测心得](https://mp.weixin.qq.com/s?__biz=MzI1ODQ3NDA2Mg==&mid=2247486540&idx=1&sn=62f6538c0776027cda76b6bc4e2a3b77&chksm=eb07c8a7fb38455af9e0602356f45813df5c088f8c174bc927e38d28dcac4c7f3d14012eacc8&mpshare=1&scene=1&srcid=07178qURrlpgMWygDIkg1rDG&sharer_shareinfo=fad4806af7f5ec5affbb2baf42052b74&sharer_shareinfo_first=fad4806af7f5ec5affbb2baf42052b74) 
+ (2025-07-17) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 亚马逊 AI IDE Kiro “狙击”Cursor？实测心得**
+
+最近在程序员圈子里，有个词特别火，叫 Vibe Coding（"氛围编程"）。带火这个词的，是一款叫做 Cursor 的 AI 编程软件，它火到什么程度呢？背后的公司 Anysphere 刚拿到一笔融资，估值就冲到了近两百亿美元，可以说是资本追着喂饭。
+
+
+---
+### [从 Android 专家到 Agent 工程师：我的转型实战心得（附学习路线图）](https://mp.weixin.qq.com/s?__biz=MzI1ODQ3NDA2Mg==&mid=2247487076&idx=1&sn=a83fd3df987759505ae4b60ed7af9fb6&chksm=eb3c2e45e8afc969bb13fd0a4023f8b8d7d8704da905c84cfb7f021b76226ca056c353df86f8&mpshare=1&scene=1&srcid=0212Ax6rFa7qkBmsTEioZdjU&sharer_shareinfo=ba4c582e78c4bd5a42eda471a99f2fc2&sharer_shareinfo_first=a529aca758e03acaec4205b556be0aec) 
+ (2026-02-13) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 从 Android 专家到 Agent 工程师：我的转型实战心得（附学习路线图）**
+
+在 2022 年以前，我一直相信，在这个行业里，只要技术栈钻得深，比如精通三方框架、熟悉 Android Framework、搞定性能优化，就能端稳饭碗。
+
+
+---
+### [从混乱到可控，我重构了 Cursor 的开发流程（v0.1 实战）](https://mp.weixin.qq.com/s?__biz=MzU4MDQ3MTQ0Mw==&mid=2247484120&idx=1&sn=27a6b42271ec9723def98ffa873c3b62&chksm=fc259ee96b0676fb48d5c68532d0c7f23444d64e896f07dd144f7d878a52c23fe1c0697d7f6c&mpshare=1&scene=1&srcid=0424NMEk2pMCfoyqBlM9FECT&sharer_shareinfo=f19447f86f0ca3a0d2bcac7c9e0c795f&sharer_shareinfo_first=948307e3e0d29db47166f476a2f3651b) 
+ (2025-04-24) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 从混乱到可控，我重构了 Cursor 的开发流程（v0.1 实战）**
+
+从瞎试到掌控，我只做了一件事：用 AI 帮我“写清楚要做什么 + 怎么做”一、为什么我要重构我的写代码方式？
+
+
+---
+### [以后请叫我cursor工程师](https://mp.weixin.qq.com/s?__biz=MzA4MDAxMzQxNw==&mid=2447632187&idx=1&sn=18ac224ff3c2d913ba05f366919be96f&chksm=8bbdf63dbcca7f2bad67d27ed9b9124bdafe30c624e7691b0d123404a30e3250fa09c536a19e&mpshare=1&scene=1&srcid=0323nu4V6VDhHIwHkCrAcq1p&sharer_sharetime=1679581651042&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) 
+ (2023-03-23) | ⭐⭐⭐ 3/5 | 🌐
+
+**Cubox 收藏 — 以后请叫我cursor工程师**
+
+[需翻译] 最近chatgpt很火，我也使用了好久，感觉对我学习工作帮助很大，但是chatgpt需要科学上网+账号，挺麻烦的。
+
+
+---
+### [使用AI自动优化网站PageSpeed性能](https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247499929&idx=1&sn=4186f86bd4c620e6c404142c3ff067fc&chksm=e838388f89e6f8b9687345382669bc42d3e7453986c4947cfad7d488d0790e764eebb842add3&mpshare=1&scene=1&srcid=1211lwGuxKjNyqv9G5Znficn&sharer_shareinfo=cb7bbf1959cceaf7b43ecb6ec2340766&sharer_shareinfo_first=cb7bbf1959cceaf7b43ecb6ec2340766) 
+ (2025-12-11) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 使用AI自动优化网站PageSpeed性能**
+
+今天一位学生来找我报喜，他从零编程基础开始，借助AI编程来做产品，现在已经取得了相当不错的成绩，上个月挣了四万多美元。
+
+
+---
+### [大厂失业后，我被迫用cursor开发出了第一款海外产品谋生](https://mp.weixin.qq.com/s?__biz=MzkxMzMyMzgyMw==&mid=2247508235&idx=1&sn=f38e8af7e4a97f30d36bbf48644ff17b&chksm=c054c64d363b59a6f63697ae765e9cebf0592375336a05da8a36524485731c93b860d6ab0d78&mpshare=1&scene=1&srcid=05069dLjdVVzg152hJhRgpzS&sharer_shareinfo=0a8f11141bd98c60acfb5ea5efbffa6d&sharer_shareinfo_first=0a8f11141bd98c60acfb5ea5efbffa6d) 
+ (2025-05-06) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 大厂失业后，我被迫用cursor开发出了第一款海外产品谋生**
+
+现在的就业环境有多差，大家是知道的，虽然人到中年（32岁），上有老下有小，但是这几年的大厂经历还是让我攒下了一点余粮，所以我目前的想法是想自己做一些出海的小产品，赚点老外手里的美金来维持下家用。
+
+
+---
+### [如何配置Clion编写aosp的c++程序使用aidegen工具编译生成cmake文件，该方法适用于无法使用asfp I - 掘金](https://juejin.cn/post/7482769108523171879) 
+ (2025-03-18) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 如何配置Clion编写aosp的c++程序使用aidegen工具编译生成cmake文件，该方法适用于**
+
+如何配置Clion编写aosp的c++程序使用aidegen工具编译生成cmake文件，该方法适用于无法使用asfp I - 掘金
+
+
+---
+### [我目前正在使用的 AI 服务 | 肘子的Swift记事本](https://www.fatbobman.com/posts/AI-Services-I-am-currently-using) 
+ (2023-04-11) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 我目前正在使用的 AI 服务 | 肘子的Swift记事本**
+
+随着 ChatGPT 的火爆，生活中好像突然之间到处都充满了有关人工智能的话题。尽管对新技术、新事物已没有那么的狂热，同时对 AI 也持有谨慎的态度，但并不影响我将一些 AI 服务应用到自己的工作中，丰富自己的工具箱，提高工作效率。
+
+
+---
+### [深入 Binder 之 AIDL - Cyrus Blog](https://www.dalvik.work/2022/06/08/binder-aidl/) 
+ (2023-12-06) | ⭐⭐⭐ 3/5 | 🌐
+
+**Cubox 收藏 — 深入 Binder 之 AIDL - Cyrus Blog**
+
+[需翻译] 应用层从 AIDL 说起，AIDL 全称 Android Interface Definition Language，是一个用以描述/定义 接口 的文本文件，有着与 java 类似的简单语法 下面是一个非常简单的 AIDL 文件，位于 &123;projectPath&125;/app/src/main/aidl/work/dalvik/binder/example/IAidlExampleI
+
+
+---
+### [译：AI 正在创造一代文盲程序员 – 云谦的博客](https://sorrycc.com/ai-illiterate-programmers/) 
+ (2025-02-09) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 译：AI 正在创造一代文盲程序员 – 云谦的博客**
+
+> 原文：<https://nmn.gl/blog/ai-illiterate-programmers>   > 作者：Namanyay   > 译者：ChatGPT 4 Turbo
+
+
+---
+### [谈谈最近玩 AI 的体悟](https://www.bmms.me/blog/recent-insights-on-ai-exploration?s=09) 
+ (2024-09-01) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 谈谈最近玩 AI 的体悟**
+
+本文探讨了AI工具在工作流中的应用及其潜在的边界。通过亲身实践与深度思考，我总结出在AI时代，定义和描述问题的软性能力将成为不可或缺的竞争力。
+
+
+---
+### [闲谈 0005｜AI编程只会淘汰初级工程师？](https://mp.weixin.qq.com/s/X4oH_KrDjR2m-N6dtXYgag) 
+ (2025-08-08) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 闲谈 0005｜AI编程只会淘汰初级工程师？**
+
+但是有个问题值得我们思考的：一个初中级的员工+好奇心/学习能力+AI编程工具，产生的价值是会不会可能大于等于一个“高工”呢？
+
 
 ---

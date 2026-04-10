@@ -1,6 +1,6 @@
 # 代码审查与DevOps
 
-Code Review & DevOps — 2 条活跃资源
+Code Review & DevOps — 3 条活跃资源
 
 ### [Claude Code + Codex 双模型审查流程](https://x.com/runes_leo/status/2027269214524903892) 
 by @Leo (2026-02-28) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
@@ -25,5 +25,14 @@ MCP（Model Context Protocol）把这套机制做成了“标准插头”：以�
 第一堵墙：容量瓶颈（上下文预算）
 工具的定义本身要进入系统 prompt 或等价的工具上下文；工具越多，占用越多，留给“干活”的空间越少。
  `mcp` `agent` `prompt-engineering` `skill` `coding` `context-management` `github`
+
+---
+### [认知重建之后，步入Agentic Engineering的工程革命](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801026&idx=1&sn=3e12f0888b3c232ed7218caf90df5f0a&chksm=bf4c0f3ab8ef6ca21c04e80f8bfce44dae41e5b6e72e1f523bbcf88da8f6d03e4f1056efb689&mpshare=1&scene=1&srcid=0331LA6BLBJmhKZPFBdhCoO4&sharer_shareinfo=91bd93888a0e7958e77c5a12d0cbd198&sharer_shareinfo_first=91bd93888a0e7958e77c5a12d0cbd198) 
+ (2026-03-31) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 认知重建之后，步入Agentic Engineering的工程革命**
+
+?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg%23imgIndex%3D0)
+
 
 ---

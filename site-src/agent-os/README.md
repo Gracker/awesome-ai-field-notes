@@ -1,6 +1,6 @@
 # 🖥️ Agent 操作系统
 
-Agent OS & Platforms — 共 9 条活跃资源
+Agent OS & Platforms — 共 11 条活跃资源
 
 ## 系统级方案 (3)
 
@@ -8,9 +8,10 @@ Agent OS & Platforms — 共 9 条活跃资源
 - [The File System Is the New Database: How I Built a Personal OS for AI Agents](https://x.com/koylanai/status/2025286163641118915) by @Muratcan Koylan — 用文件系统做 Agent 的持久化上下文管理，替代重复提示 `file-system` `agent-os` `context-management` `personal-os` 🌐
 - [Build Your Own Claw Empire: How OpenClaw and Emerging Claws Work Under the Hood](https://x.com/MisbahSy/status/2025570052108665231) by @Misbah Syed — OpenClaw 底层架构解析与真实部署的关键选择 `openclaw` `architecture` `agent-framework` `deployment` 🌍
 
-## 手机AI助手 (0)
+## 手机AI助手 (2)
 
-_暂无条目_
+- [LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects](https://www.preprints.org/manuscript/202501.0413/v1) — 手机 GUI Agent 领域最全面的综述论文，vivo 联合学术团队的系统性梳理 `GUI-agent` `phone-automation` `survey` `vivo` `MMLab` 🌍
+- [OPPO 姜昱辰：从 GUI 到 Agent，AI 手机交互革命的「终局」思考](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653093670&idx=1&sn=e77dce9b18a0b3b1fa4fe44815a787f5) — OPPO 对 AI 手机终局的产品思考，Agent to Agent 生态路线值得关注 `OPPO` `AI手机` `GUI-Agent` `记忆系统` `端侧计算` 🇨🇳
 
 ## 桌面Agent (2)
 

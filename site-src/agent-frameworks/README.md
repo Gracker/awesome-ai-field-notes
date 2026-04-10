@@ -1,8 +1,8 @@
 # 🤖 Agent 框架
 
-Agent Frameworks & Libraries — 共 48 条活跃资源
+Agent Frameworks & Libraries — 共 56 条活跃资源
 
-## 编排框架 (31)
+## 编排框架 (35)
 
 - [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773) by @RLanceMartin — Anthropic 官方托管 Agent 基础设施，大脑/手/记忆三层解耦架构 `claude` `managed-agents` `anthropic` `agent-sdk` `infrastructure` 🌐
 - [Agentic Software Engineering](https://x.com/ashpreetbedi/status/2028176285575594465) by @ashpreetbedi — Agent 相关：Agentic Software Engineering `openclaw` `claude` `codex` `mcp` `agent` 🌍
@@ -18,6 +18,9 @@ Agent Frameworks & Libraries — 共 48 条活跃资源
 - [工程师，开始给 Agent 打工了](https://x.com/wangray/status/2028132386756780220) by @wangray — Agent 相关：工程师，开始给 Agent 打工了 `openclaw` `codex` `agent` `memory` 🇨🇳
 - [LLM Agent推理必要性](https://arxiv.org/abs/2503.11074) — LLM 推理能力增强的新方法 `agent` `llm` `paper` `reinforcement-learning` `reasoning` 🇨🇳
 - [面向移动设备厂商团队的 Agent 体系与 PerformanceAgent 设计深度研究报告](#) — 面向手机厂商的Agent体系+PerformanceAgent落地设计，对齐Claude Agent SDK `agent` `performance-agent` `claude-agent-sdk` `multi-agent` `mobile` 🇨🇳
+- [How agents can use filesystems for context engineering](https://blog.langchain.com/how-agents-can-use-filesystems-for-context-engineering/) — 文件系统是 Agent 上下文工程最被低估的基础设施 `context-engineering` `filesystem` `agent` `langchain` `deep-agents` 🌐
+- [借助 AI Coding 快速打造 AI Agent 系统](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247558316&idx=1&sn=6a53c77fe9bdb8b35a1d513897c4a472&chksm=e842e7784cbd5d863e66d3cd9c7b473fb5f8defdb0bd171ead807408a0166b28963665f62dc2&mpshare=1&scene=1&srcid=0210sWl3n5BHTgBMJFMPVztS&sharer_shareinfo=49d4cda5f958e336f51b9bf2fbd8d2e4&sharer_shareinfo_first=49d4cda5f958e336f51b9bf2fbd8d2e4) — Cubox 收藏 — 借助 AI Coding 快速打造 AI Agent 系统 🇨🇳
+- [逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用](https://mp.weixin.qq.com/s?__biz=Mzk0NDIwMTExNw==&mid=2247586367&idx=1&sn=a8128ad7c9dd13c68a16dd8557b8b48a&chksm=c2fd69db26d4ad92b41d11adbf9d4051e3c35d2e8c1e7217e2daa19f3d2c23b90cd2a74bf802&mpshare=1&scene=1&srcid=1010Skzsacksq6yI5R5dwvTD&sharer_shareinfo=4c58689876490036f1e2b2aa5c7be9e4&sharer_shareinfo_first=4c58689876490036f1e2b2aa5c7be9e4) — Cubox 收藏 — 逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agenti 🌐
 - [OpenClaw Memory 终极指南](https://x.com/lijiuer92/status/2025678747509391664) by @李韭二 — OpenClaw 记忆系统实践指南，覆盖失忆、可发现性与长期维护 `openclaw` `memory` `agent` `long-term-context` 🇨🇳
 - [全面解析：如何部署 Conway Agent，开启链上 AI 生存游戏](https://x.com/JXiaoLoong/status/2024376180707905816) by @0xJA — 链上自主 AI Agent 的部署与运行指南，一体化沙盒平台 `conway` `on-chain-ai` `agent-deployment` `sandbox` 🇨🇳
 - [使用一个月 OpenClaw 的门槛与成本复盘](https://x.com/LotusDecoder/status/2028272613919965585) by @LotusDecoder — OpenClaw 相关：使用一个月 OpenClaw 的门槛与成本复盘 `openclaw` `claude` `agent` `hermes` `docker` 🌍
@@ -35,6 +38,7 @@ Agent Frameworks & Libraries — 共 48 条活跃资源
 - [Position: Episodic Memory is the Missing Piece for Long-Term LLM Agents](#) by @**：Mathis Pink, Qinyuan Wu, Vy Ai Vo, Javier Turek, Jianing Mu, Alexander Huth, Mariya Toneva — LLM Agent 记忆机制的深入研究 `fine-tuning` `coding` `agent` `llm` `reasoning` 🇨🇳
 - [Agent实践知识图谱](#) by @高爷 — 实操导向的Agent知识图谱，从记忆、自我改进、工具、框架四个维度梳理可执行实践 `agent` `记忆系统` `自我改进` `LangGraph` `CrewAI` 🇨🇳
 - [OpenClaw深度调研报告](https://github.com/openclaw/openclaw) — OpenClaw架构全景调研，涵盖Agent/Memory/MCP/Skills核心机制 `openclaw` `agent` `deep-research` `architecture` `mcp` 🇨🇳
+- [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) — OpenAI 官方 Agent 框架，三原语设计极简但覆盖核心场景 `openai` `agents` `sdk` `handoffs` `guardrails` 🌐
 
 ## 单Agent框架 (6)
 
@@ -45,7 +49,7 @@ Agent Frameworks & Libraries — 共 48 条活跃资源
 - [Trace2Skill](https://arxiv.org/abs/2603.25158) — LLM 推理能力增强的新方法 `obsidian` `fine-tuning` `agent` `llm` `paper` 🇨🇳
 - [Android 系统上 AI Agent 的一些可能性](https://mp.weixin.qq.com/s?__biz=MjM5Njg5ODU2NA==&mid=2257503010&idx=1&sn=a1337986bbada15f63dbe267d3eed8b4&chksm=a4d3255f3f334e0c66fe400364a60299207afff6b4439a6478704ac5176681af7eaa202627af&mpshare=1&scene=1&srcid=1205CnGTws2OF7LnyRN95gYS&sharer_shareinfo=39c2afd703555e8ad0b770170b5eba98&sharer_shareinfo_first=564c134774d8cff2fe4b03464d899095) — 关于 AI Agent 的收藏文章 `Agent` `Android` `AI Safety` 🇨🇳
 
-## 多Agent框架 (10)
+## 多Agent框架 (11)
 
 - [OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team](https://x.com/elvissun/status/2025920521871716562) by @Elvis — 一人开发团队的 Agent Swarm 实战：OpenClaw 编排 + 多模型协作 `openclaw` `codex` `claude-code` `agent-swarm` `orchestration` 🌐
 - [Agent Frameworks Are Getting Squeezed](https://x.com/tonykipkemboi/status/2028564120338063859) by @tonykipkemboi — Agent 相关：Agent Frameworks Are Getting Squeezed `openclaw` `claude` `agent` `agentic` `automation` 🌍
@@ -53,11 +57,15 @@ Agent Frameworks & Libraries — 共 48 条活跃资源
 - [Dr. MAMR：解决多智能体 LLM 推理中的惰性智能体问题](#) by @：** — 多智能体协作方向的前沿探索 `agent` `llm` `paper` `reinforcement-learning` `reasoning` 🇨🇳
 - [Agentic Reasoning](#) — 多智能体协作方向的前沿探索 `gui` `coding` `agent` `tool-use` `llm` 🇨🇳
 - [From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review](#) — 多智能体协作方向的前沿探索 `safety` `coding` `agent` `tool-use` `llm` 🇨🇳
+- [How we built our multi-agent research system \ Anthropic](https://www.anthropic.com/engineering/multi-agent-research-system) — Anthropic 多 Agent 研究系统的完整工程实践，从 prompt 到生产的全链路经验 `multi-agent` `research-system` `anthropic` `production` `prompt-engineering` 🌐
 - [2026-03-03-1210-yibie-Shipping-at-Inference-Speed-Notes-2028650995153314299](https://x.com/yibie/status/2028650995153314299) by @yibie — AI 实践：2026-03-03-1210-yibie-Shipping-at-Infere `openclaw` `claude` `codex` `cursor` `agent` 🌍
 - [Agentic Reasoning: LLM的智能体推理范式](https://arxiv.org/abs/2601.12538) — 多智能体协作方向的前沿探索 `safety` `coding` `agent` `tool-use` `llm` 🇨🇳
 - [从LLM到自主Agent综述](https://arxiv.org/abs/2504.19678) by @**: arXiv:2504.19678 — Agent 领域系统性综述，适合建立全景认知 `coding` `agent` `llm` `paper` `reinforcement-learning` 🇨🇳
 - [LLM Agent](https://arxiv.org/abs/2503.21460) by @：arXiv — 多智能体协作方向的前沿探索 `safety` `agent` `2026-03-23` `research` `llm` 🇨🇳
 
-## 极简实现 (1)
+## 极简实现 (4)
 
 - [Pi: The Minimal Agent Within OpenClaw](https://lucumr.pocoo.org/2026/1/31/pi/) by @Armin Ronacher — OpenClaw 底层 Pi 的极简哲学：让 Agent 自己扩展自己 `pi` `openclaw` `coding-agent` `mcp` `session-tree` 🌐
+- [一套宝藏提示词，彻底解放即梦AI的字体使用](https://mp.weixin.qq.com/s/H4Xd8H51SVNhgF_x-e-aOw) — Cubox 收藏 — 一套宝藏提示词，彻底解放即梦AI的字体使用 🇨🇳
+- [独立开发周记 #5 ：AI助力](https://mp.weixin.qq.com/s?__biz=MzI2MDk1NjE5Mw==&mid=2247484203&idx=1&sn=8f0feae67faf70d11fe7cab064e5e809&chksm=ea608a65dd17037365747eb32bcceb8222e67e59a29aa6228c697b8bf9a42424524391df279e&mpshare=1&scene=1&srcid=0320VUI3MHeloBsqLhlrMPh0&sharer_sharetime=1679302357071&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) — Cubox 收藏 — 独立开发周记 #5 ：AI助力 🇨🇳
+- [独立开发周记 130：GPT-5 的表现出乎意料​](https://w2solo.com/topics/6200) — Cubox 收藏 — 独立开发周记 130：GPT-5 的表现出乎意料​ 🇨🇳

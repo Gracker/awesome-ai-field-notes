@@ -1,6 +1,6 @@
 # 综合评测
 
-General — 2 条活跃资源
+General — 3 条活跃资源
 
 ### [70款ChatGPT插件评测：惊艳的开发过程与宏大的商业化愿景 - 知乎](https://zhuanlan.zhihu.com/p/629337429?utm_id=0&utm_source=wechat_session&utm_medium=social&s_r=0) 
  (2023-05-17) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
@@ -23,5 +23,14 @@ by @binnnliu (2025-07-08) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
 
 # GPU到底是如何工作的？这篇AI Infra入门全部告诉你 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg) > 大模型推理服务到底怎么跑起来的？大模型推理服务的运行过程中，CPU和GPU分别负责哪些工作？ > 用GPU一定比CPU跑的快么？哪些场景需要用GPU? GPU最初的使...
  `[]` `inference` `大模型`
+
+---
+### [【哥飞评站】AI贴纸生成网站 StickerBaker 的SEO评测报告和改进建议（4000字）](https://mp.weixin.qq.com/s/aCNzWnu09jQxPcPHMcswMA?s=09) 
+ (2024-03-03) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 【哥飞评站】AI贴纸生成网站 StickerBaker 的SEO评测报告和改进建议（4000字）**
+
+受社群里 @damo 老板的启发，哥飞决定从今天开始一个新栏目，不定期点评一些网站，说说他们有哪些做得好的地方，有哪些还值得改进的地方。
+
 
 ---

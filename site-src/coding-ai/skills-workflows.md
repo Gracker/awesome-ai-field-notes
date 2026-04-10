@@ -1,6 +1,6 @@
 # 技能与工作流
 
-Skills & Workflows — 20 条活跃资源
+Skills & Workflows — 31 条活跃资源
 
 ### [从 Vibe Coding 到 Agentic Engineering：开发者角色正在重写](https://x.com/yanhua1010/status/2028737821855580662) 
 by @yanhua1010 (2026-03-03) | ⭐⭐⭐⭐⭐ 5/5 | 🌍
@@ -165,6 +165,69 @@ Anthropic工程团队分享长时间运行应用开发中的Harness设计经验�
  `anthropic` `harness-design` `agentic-coding` `frontend` `fullstack` `long-running`
 
 ---
+### [OpenClaw + Claude Code 超强教程：一个人就能搭建完整的开发团队！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247719868&idx=1&sn=c93e0542f8bebb653559315d02841b43) 
+ (2026-02-26) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**最完整的 OpenClaw 多 Agent 编排实战案例，双层架构可直接复刻**
+
+独立开发者用 OpenClaw + Codex/Claude Code 搭建 AI Agent 系统的完整案例。双层架构：OpenClaw 编排层持有业务上下文，Agent 执行层专注代码。8步从需求到 PR 合并，含自动监控、三 Agent Code Review、改进版 Ralph Loop（动态调整 prompt）。实测：单日 94 次提交，30 分钟 7 个 PR，月成本 $190。瓶颈是 RAM 不是 token。
+ `openclaw` `claude-code` `codex` `agent` `编排` `双层架构` `tmux`
+
+---
+### [SmartPerfetto AI Agent 的 Harness Engineering 实战分享](https://mp.weixin.qq.com/s?__biz=MzIwNTQxMjM5MA==&mid=2247487518&idx=1&sn=ec49eac761ffd13acc02cd5e6cea7b94) 
+ (2026-03-30) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Android Perfetto trace 分析 AI Agent 完整工程实践，MCP+Skill 三层验证范本**
+
+SmartPerfetto 的 Harness Engineering 实战记录。在 Perfetto UI 加 AI 分析面板，Claude Agent + MCP 调用 trace_processor 执行 SQL 自动分析 Android trace。演进到 20 个 MCP 工具 + 158 个 YAML Skill + 三层验证。含滑动性能分析完整 session log。计划开源。
+ `SmartPerfetto` `Perfetto` `Android` `性能优化` `MCP` `Agent` `Harness-Engineering`
+
+---
+### [你不知道的 Claude Code：架构、治理与工程实践 - Tw93](https://tw93.fun/2026-03-12/claude.html) 
+ (2026-03-21) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 你不知道的 Claude Code：架构、治理与工程实践 - Tw93**
+
+我把我最近半年每个月氪金40刀2个账号的claude code 使用过程中，积累的一些实际经验分享给大伙。这篇文章主要围绕上下文管理、Skills、Hooks、Subagents、Prompt Caching 以及 CLAUDE.md 的设计展开，重点讨论怎样让协作过程更稳定、更可控，偏工程师技术视角的最佳实践，欢迎大伙一起最佳交流。
+
+
+---
+### [吴恩达：从 Agent 到 Agentic Workflow ，AI 的未来何去何从？](https://mp.weixin.qq.com/s?__biz=MjM5NTg1ODg1OA==&mid=2459542397&idx=1&sn=e376ce196a41955734c48377cbc3cc18&chksm=b19f13b886e89aaec7ecb3f44f1de1300473b38346d6f8f54e8f87f4655cd87512eee06bae05&mpshare=1&scene=1&srcid=0623gOaBbHwBnL5vGTxNPHdK&sharer_shareinfo=11ba2c0c5006ec0d14971ced1c09c9c7&sharer_shareinfo_first=17a9447775b586d79d49eeec9285c317) 
+ (2024-06-24) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — 吴恩达：从 Agent 到 Agentic Workflow ，AI 的未来何去何从？**
+
+[需翻译] *关注**AI 技能**，开启智能生活！* *?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2Fb96CibCt70iaajvl7fD4ZCicMcjhXMp1v6UibM134tIsO1j5yqHyNhh9arj090oAL7zGhRJRq6cFqFOlDZMleLl4pw%2F640%3Fwx_fmt%3Dpng%26wxfrom%3D5%26wx_lazy%3D1%26wx_co%3D1)*
+
+
+---
+### [学习笔记：从 Agent 到 Skills — AI 智能体架构的范式转变](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559249&idx=1&sn=7cda1453a5f7f51c39f43b76027696a1&chksm=e8178b0b81a60cb0161a097e5da8dbc326a34f5b041404fa1f9e023950c003fbe9a394c1d0e0&mpshare=1&scene=1&srcid=0331R15fBYxYJco3uMTIEUTw&sharer_shareinfo=327719e3faec950e49ae3605678de77e&sharer_shareinfo_first=327719e3faec950e49ae3605678de77e) 
+ (2026-03-31) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 学习笔记：从 Agent 到 Skills — AI 智能体架构的范式转变**
+
+?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FZ6bicxIx5naL7zVHZH429Po1HLpbichP9SLVicPtoxkI2WhMxUibFwG9U1dUOJu33R5KD9ib25hmibaaZLLldnh8dA4A%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0) > 报告日期：2026-02-28 关键词： Agent Skills, MCP, OpenClaw,...
+
+
+---
+### [深入探讨GPTs和AI Assistant](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649781619&idx=1&sn=6051095ee8c98a93c255002f55dfb2c4&chksm=becce60889bb6f1ee66fdbcf1b5e2bc3e5a5ee7e2d95b59d0e6a913448b5ababd6a4b355d073&mpshare=1&scene=1&srcid=0102uzsvCe5iQSghneuVbOJ9&sharer_shareinfo=f939c224ab77495853e55fc84ad9d533&sharer_shareinfo_first=f939c224ab77495853e55fc84ad9d533) 
+ (2024-01-02) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 深入探讨GPTs和AI Assistant**
+
+
+
+
+---
+### [深度解析：Claude Code Cowork](https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ==&mid=2247491350&idx=1&sn=dd3046300378c493810b246656ef33cb&chksm=e9fe92501c4cf67b96861f0e309dd8f987d0d7f2850ce46ff5121da97ab9559a64b0ef64bd08&mpshare=1&scene=1&srcid=0113qsQNgBeulIsuY7h2mPOu&sharer_shareinfo=38fca9920c4a546ed251b9ec529f1811&sharer_shareinfo_first=38fca9920c4a546ed251b9ec529f1811) 
+ (2026-01-13) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 深度解析：Claude Code Cowork**
+
+Anthropic 发布 "Cowork" 标志着人工智能产品战略的一个关键转折点（Cowork: Claude Code for the rest of your work^\[1\]^），它不仅是一个针对非编程人员的新工具，更宣告了 Anthropic 从单纯的模型提供商向综合性代理生态系统（Agentic Ecosystem）协调者的转型。我也算架构演变的见证者了，从早期写 MCP、到前段时间写 Skills（深度解析：Anthropic MCP 协议、从 Prompt Engineeri...
+
+
+---
 ### [Claude Code 半小时改出 Obsidian Minimal 风博客](https://x.com/onlyice0328/status/2026261405788405767) 
 by @zhl (2026-02-25) | ⭐⭐⭐ 3/5 | 🇨🇳
 
@@ -208,5 +271,41 @@ by @sitinme (2026-04-06) | ⭐⭐⭐ 3/5 | 🇨🇳
 
 Claude Code推荐Skills汇总整理。Skills是Claude Code中的可复用能力（SOP），存放于.claude/skills/目录。收集了社区和官方推荐的高质量Skills清单，涵盖翻译、代码审查、文档生成等常用场景。
  `claude-code` `skills` `recommended` `tools`
+
+---
+### [Micro-optimizations in Kotlin — 1 · Romain Guy](https://www.romainguy.dev/posts/2024/micro-optimizations-in-kotlin-1/) 
+ (2024-01-16) | ⭐⭐⭐ 3/5 | 🌐
+
+**Romain Guy 级别的 Kotlin 底层优化，从源码到汇编的逐层剖析**
+
+Android 框架团队传奇工程师 Romain Guy 分享 Kotlin 微优化实践。以 Jetpack Compose 中的 Int.sign 实现为案例，从 Kotlin 源码到 dex 字节码再到 AArch64 汇编逐层分析。发现 Kotlin 标准库的 when 表达式实现生成了冗余的比较指令。三种优化方案：1) 使用 java.lang.Integer.signum() 让 ART 提供优化 intrinsic；2) 用位运算实现无分支版本；3) 等待 Kotlin 2.0 修复。附带 kotlin-explorer 工具（可视化 dex 和 ARM64 汇编）。
+ `Kotlin` `micro-optimization` `Android` `Jetpack-Compose` `Romain-Guy` `ARM64` `性能优化`
+
+---
+### [别再只写 CLAUDE.md 了：用 Rules 重构 Claude Code 的记忆系统](https://mp.weixin.qq.com/s?__biz=MzIxNTUxNDA5NQ==&mid=2247485928&idx=1&sn=042c59f7e6d9a5ab9cd251a70cae412f&chksm=96db6386a67d57503244639a65388c43c40c7e6670073c5ea1260431946a1fab4a45a1ba9150&mpshare=1&scene=1&srcid=1211ChEBUi9jyC7vCv2mgwRO&sharer_shareinfo=17ac304b7c4d4cde32f0c44fa3eeaeff&sharer_shareinfo_first=17ac304b7c4d4cde32f0c44fa3eeaeff) 
+ (2025-12-11) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 别再只写 CLAUDE.md 了：用 Rules 重构 Claude Code 的记忆系统**
+
+Claude Code 支持 Rules 了，Agent 的生态在大融合了，文本化的 Skills + Rules 要占领生态位了
+
+
+---
+### [浅谈Claude Skills，Github已经5.2k Star了](https://mp.weixin.qq.com/s?__biz=Mzg5MTU1NTE1OQ==&mid=2247496737&idx=1&sn=9629efe206466651a83311ad13742c58&chksm=ce92906609f4ad8d313e63d9f3a9cfa60bfa76a6c8ede08a0a0a7f10b51d867e62a5e4b3c69a&mpshare=1&scene=1&srcid=1020vw7J0m2UAIZgijWryasu&sharer_shareinfo=9e560ff6c7b0019f73b2284efd091348&sharer_shareinfo_first=9e560ff6c7b0019f73b2284efd091348) 
+ (2025-10-20) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 浅谈Claude Skills，Github已经5.2k Star了**
+
+https://www.zhihu.com/question/1962512846630941008/answer/1963073531265913943     （已授权）
+
+
+---
+### [超级实用！这6大"Skills" 可把 Anthropic Claude Code生产力拉升 50%](https://mp.weixin.qq.com/s?__biz=MzA3MzgzMjA3NA==&mid=2650775721&idx=1&sn=2da480a7aabf68c6ba7d3fe16eccd352&chksm=86751d03275201593e8ef1374bfacd72eb6b7806b790c35874efcd6cf8601e941fc146341c3d&mpshare=1&scene=1&srcid=1229akw1HSF9lJwM5m8Co2hf&sharer_shareinfo=4b78a819a5900c81619edfa0e4b90516&sharer_shareinfo_first=4b78a819a5900c81619edfa0e4b90516) 
+ (2025-12-29) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 超级实用！这6大"Skills" 可把 Anthropic Claude Code生产力拉升 50%**
+
+超级实用！这6大"Skills" 可把 Anthropic Claude Code生产力拉升 50%
+
 
 ---

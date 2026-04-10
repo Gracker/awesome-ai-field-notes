@@ -1,8 +1,8 @@
 # 📖 教程与学习
 
-Tutorials & Learning — 共 37 条活跃资源
+Tutorials & Learning — 共 49 条活跃资源
 
-## 入门指南 (9)
+## 入门指南 (11)
 
 - [Don't Waste Your Money on OpenClaw Until You've Done These 3 Things](https://x.com/milesdeutscher/status/2026037201591787801) by @Miles Deutscher — OpenClaw 上车前三步前置：思考→验证→再扩张 `openclaw` `setup` `roi` `workflow` `automation` 🌐
 - [OpenClaw 从中级到高级完整教程](https://x.com/onehopeA9/article/2026905651088339408) by @OneHopeA9 — OpenClaw 最系统的中高级教程，覆盖记忆/子Agent/Cron/Skill/多渠道 `openclaw` `tutorial` `agents-md` `memory` `cron` 🇨🇳
@@ -13,8 +13,10 @@ Tutorials & Learning — 共 37 条活跃资源
 - [Claude Code in Action 实战课程（中文翻译版）](https://cholf5.com/claude-code-in-action/) by @Anthropic — Anthropic官方Claude Code课程的完整中文翻译，从入门到Hooks专题21章全覆盖 `Claude-Code` `实战课程` `教程` `Hooks` `MCP` 🇨🇳
 - [Android Framework 面试题解答](#) by @Manus AI — Android Framework面试核心题库，系统工程师必备 `android` `framework` `interview` `socketpair` `binder` 🇨🇳
 - [Android 性能优化知识体系大纲](#) by @Manus AI — Android性能优化知识体系全景框架，从方法论到指标体系 `android` `performance` `knowledge-map` `optimization` `methodology` 🇨🇳
+- [你在为AI工具付费？我只花了100美元就解锁了一大堆牛逼工具，详细教程在这里](https://mp.weixin.qq.com/s?__biz=MzAwODIyOTQ4Mw==&mid=2649442806&idx=1&sn=d4175e57e1966d6d0241424ed129531e&chksm=82ff75ded2086520c0e552ecf5ee01539bf56598fbc0a46c3a2c641d83dd1d3cc28a1cca6081&mpshare=1&scene=1&srcid=0416CbTSRLUKYxW2rCCdCodi&sharer_shareinfo=bf5c9fb733fd9253cc4cb3e7d13aacf4&sharer_shareinfo_first=99aa800042625851fe8603840fe4a7eb) — Cubox 收藏 — 你在为AI工具付费？我只花了100美元就解锁了一大堆牛逼工具，详细教程在这里 🇨🇳
+- [关于如何在 Slack 上免费使用 GPT4 和 GPT3.5 的一个简单教程： 0、全程不需要科学上网； 1、注册一个 Slack 帐号 https://slack.com/intl/zh-cn/ ； 2、创建一个工作区，随便起一个名字，如果你已经有工作区了，跳过此步； 3、点开 https://www.springworks.in/albus/ 这个页面，安装 AIbus 到 Slack； 4、在 Slack 直接点开 AIbus 与它对话； 5、也可以在频道里把 AIbus 拉进来，之后就...](https://m.okjike.com/originalPosts/642675a1005a6157f60d8139?s=eyJ1IjoiNTY3YTUwZDQ2ZWY4OWMxMjAwOGE3NTc1In0%3D&utm_source=wechat_session) — Cubox 收藏 — 关于如何在 Slack 上免费使用 GPT4 和 GPT3.5 的一个简单教程： 0、全程不需要科学 🇨🇳
 
-## 最佳实践 (25)
+## 最佳实践 (29)
 
 - [Running Slice 全栈分析手册](#) — Perfetto Running Slice六层诊断框架，从Java到SoC全覆盖 `perfetto` `running-slice` `cpu` `performance` `android` 🇨🇳
 - [OpenClaw 运行报错指南（上篇）](https://x.com/lijiuer92/status/2026639705933328582) by @李韭二 — OpenClaw macOS 运行报错排查指南，覆盖 Gateway 全链路 `openclaw` `troubleshooting` `gateway` `macos` `debug` 🇨🇳
@@ -41,13 +43,22 @@ Tutorials & Learning — 共 37 条活跃资源
 - [Avoid Mini-frameworks - laike9m's blog](https://laike9m.com/blog/avoid-mini-frameworks,171/) — Cubox 收藏文章，best-practices 领域相关内容 🌐
 - [微信小程序技术调研报告](#) by @Manus AI — 微信小程序7维度技术调研：从架构到启动到滑动的性能全分析 `wechat` `mini-program` `android` `performance` `startup` 🇨🇳
 - [AI is about to completely change how you use compu...](https://www.gatesnotes.com/AI-agents) — Cubox 收藏文章，best-practices 领域相关内容 `Agent` 🌐
+- [How To Remember Everything You Read With AI - Dan Koe](https://thedankoe.com/letters/how-to-remember-everything-you-read-with-ai/) — 反对 AI 摘要替代阅读，提倡用 AI 深化理解的阅读方法论 `reading` `knowledge-management` `AI-learning` `personal-growth` `Dan-Koe` 🌐
+- [Rust写aosp13的AIDL系统级服务](https://mp.weixin.qq.com/s?__biz=Mzk0MjQwMDYyOQ==&mid=2247483679&idx=1&sn=307d2b53c501bcb300c6bee355ffc1e0) — AOSP 13 Rust AIDL 系统服务实战教程，代码完整可直接复用 `Rust` `AOSP` `AIDL` `Android` `系统服务` 🇨🇳
+- [我用Coze来掘金 | AI Agent 创意征文大赛来啦！ - 掘金](https://juejin.cn/post/7330295644281962530) — Cubox 收藏 — 我用Coze来掘金 | AI Agent 创意征文大赛来啦！ - 掘金 🇨🇳
+- [解读 Anthropic 博文：适用于长期运行 Agents 的有效框架](https://mp.weixin.qq.com/s/UgTbCsVMcG8N9VC3VRZbMg) — Cubox 收藏 — 解读 Anthropic 博文：适用于长期运行 Agents 的有效框架 🇨🇳
 
-## 演讲与视频 (0)
+## 演讲与视频 (1)
 
-_暂无条目_
+- [【李宏毅】解剖小龙虾 — 以 OpenClaw 为例介绍 AI Agent 的运作原理](https://mp.weixin.qq.com/s?__biz=MzI4MzU3MDU0Mw==&mid=2247484937&idx=1&sn=068e2db1972eb1e85bd89a30802aa676&chksm=eada3ff5582e1ed56db4e129069d3779bb5c934509ac77f249d7476ade5d9083dea52d0edaca&mpshare=1&scene=1&srcid=0309Nkzy7B2QwDEwKQU0I6vr&sharer_shareinfo=d690b64e4035383addea68fe7c336822&sharer_shareinfo_first=d609148a3af6b61bfec98db5ba438f10) — Cubox 收藏 — 【李宏毅】解剖小龙虾 — 以 OpenClaw 为例介绍 AI Agent 的运作原理 🇨🇳
 
-## 信息源推荐 (3)
+## 信息源推荐 (8)
 
 - ["If something is humanly possible, it's attainable by you too." | Revue](https://newsletter.stoicallytyped.com/issues/if-something-is-humanly-possible-it-s-attainable-by-you-too-617462#/) — Cubox 收藏文章，newsletters-blogs 领域相关内容 `Android` `Newsletter` 🌐
+- [科技爱好者周刊#291：AI 没有护城河](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650236249&idx=1&sn=ad6869c997076468676d999fb100354a&chksm=f3e09099c497198f43b7ba1362f806e83e314fafba600024fb594d8560c42679522517c84d02&mpshare=1&scene=1&srcid=0301xwyhqrYojSgesGrFcpVL&sharer_shareinfo=c5938565c739f0cf7ce9afe4844e2bac&sharer_shareinfo_first=c5938565c739f0cf7ce9afe4844e2bac) — Cubox 收藏 — 科技爱好者周刊#291：AI 没有护城河 🇨🇳
+- [科技爱好者周刊#299：AI 的关键是语料](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650236793&idx=1&sn=bde7c85110ac5e2176c77170951d06bb&chksm=f3e092b9c4971bafb87028fcc42c6f23de8c7e9e2739706255adabdd165dc7fa5cf42578c5c3&mpshare=1&scene=1&srcid=0510oiRR05jTKW7W65jp9QFt&sharer_shareinfo=492338933a46988baa1775a0c21e42a2&sharer_shareinfo_first=492338933a46988baa1775a0c21e42a2) — Cubox 收藏 — 科技爱好者周刊#299：AI 的关键是语料 🇨🇳
+- [科技爱好者周刊#342：面试的 AI 作弊——用数字人去面试](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650240283&idx=1&sn=e74c7c337a40760a10e1e9707e9310aa&chksm=f2aaee15ba120da6928d66d8120d706f90b6aad6b63ff03a02e843bfc1a384f892be51308818&mpshare=1&scene=1&srcid=0321eCPp5WZxUcBObAJv1aBz&sharer_shareinfo=fbb1ce85b03c61875f7fd2824548ec8e&sharer_shareinfo_first=fbb1ce85b03c61875f7fd2824548ec8e) — Cubox 收藏 — 科技爱好者周刊#342：面试的 AI 作弊——用数字人去面试 🇨🇳
 - ["Acquire the habit of attending carefully to what is being said by another." | Revue](https://newsletter.stoicallytyped.com/issues/acquire-the-habit-of-attending-carefully-to-what-is-being-said-by-another-426218#/) — Cubox 收藏文章，newsletters-blogs 领域相关内容 `Android` `Newsletter` 🌐
 - ["Get back up when you fail. Celebrate behaving like a human." | Revue](https://newsletter.stoicallytyped.com/issues/get-back-up-when-you-fail-celebrate-behaving-like-a-human-773397#/) — Cubox 收藏文章，newsletters-blogs 领域相关内容 `Android` `Newsletter` 🌐
+- [Seeking the Productive Life: My Personal Infrastructure](https://writings.stephenwolfram.com/2019/02/seeking-the-productive-life-some-details-of-my-personal-infrastructure/) by @Stephen Wolfram — Wolfram 个人生产力系统全景，极客级知识管理参考 `Stephen-Wolfram` `生产力` `知识管理` `工作流` `Wolfram-Language` 🌐
+- [第10期：OpenAI正研发代号“草莓”的突破性AI推理技术 | 信息差——独立开发者出海周刊](https://gapis.money/weekly/2024-07-15_010?utm_source=x2&s=09) — Cubox 收藏 — 第10期：OpenAI正研发代号“草莓”的突破性AI推理技术 | 信息差——独立开发者出海周刊 🇨🇳

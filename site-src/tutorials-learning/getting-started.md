@@ -1,6 +1,6 @@
 # 入门指南
 
-Getting Started — 9 条活跃资源
+Getting Started — 11 条活跃资源
 
 ### [Don't Waste Your Money on OpenClaw Until You've Done These 3 Things](https://x.com/milesdeutscher/status/2026037201591787801) 
 by @Miles Deutscher (2026-02-25) | ⭐⭐⭐⭐ 4/5 | 🌐
@@ -99,5 +99,23 @@ by @Manus AI | ⭐⭐⭐ 3/5 | 🇨🇳
 
 Android性能优化完整知识体系大纲。从性能优化基础定义与目标出发，建立响应时间、流畅度、内存占用、功耗、稳定性等关键指标体系。覆盖测量-分析-优化-验证闭环方法论，以及系统性思考、全局视角、数据驱动的优化思维模式。
  `android` `performance` `knowledge-map` `optimization` `methodology`
+
+---
+### [你在为AI工具付费？我只花了100美元就解锁了一大堆牛逼工具，详细教程在这里](https://mp.weixin.qq.com/s?__biz=MzAwODIyOTQ4Mw==&mid=2649442806&idx=1&sn=d4175e57e1966d6d0241424ed129531e&chksm=82ff75ded2086520c0e552ecf5ee01539bf56598fbc0a46c3a2c641d83dd1d3cc28a1cca6081&mpshare=1&scene=1&srcid=0416CbTSRLUKYxW2rCCdCodi&sharer_shareinfo=bf5c9fb733fd9253cc4cb3e7d13aacf4&sharer_shareinfo_first=99aa800042625851fe8603840fe4a7eb) 
+ (2025-04-16) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 你在为AI工具付费？我只花了100美元就解锁了一大堆牛逼工具，详细教程在这里**
+
+著名产品Newsletter主理人、播客主播Lenny ，靠自己的人脉关系，联合一大堆牛逼AI工具产品搞捆绑销售。 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FjibL99tg2bCUZEegNUjLOOAKCsvGCY4lPuh2DSHoyFjuE90XxiaesckU00Tceibz4ePw0c2cMzic2ia8Jbc4CSPJiabA%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg "null") Le...
+
+
+---
+### [关于如何在 Slack 上免费使用 GPT4 和 GPT3.5 的一个简单教程： 0、全程不需要科学上网； 1、注册一个 Slack 帐号 https://slack.com/intl/zh-cn/ ； 2、创建一个工作区，随便起一个名字，如果你已经有工作区了，跳过此步； 3、点开 https://www.springworks.in/albus/ 这个页面，安装 AIbus 到 Slack； 4、在 Slack 直接点开 AIbus 与它对话； 5、也可以在频道里把 AIbus 拉进来，之后就...](https://m.okjike.com/originalPosts/642675a1005a6157f60d8139?s=eyJ1IjoiNTY3YTUwZDQ2ZWY4OWMxMjAwOGE3NTc1In0%3D&utm_source=wechat_session) 
+ | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 关于如何在 Slack 上免费使用 GPT4 和 GPT3.5 的一个简单教程： 0、全程不需要科学**
+
+关于如何在 Slack 上免费使用 GPT4 和 GPT3.5 的一个简单教程： 0、全程不需要科学上网； 1、注册一个 Slack 帐号 https://slack.com/intl/zh-cn/ ； 2、创建一个工作区，随便起一个名字，如果你已经有工作区了，跳过此步； 3、点开 https://www.springworks.in/albus/ 这个页面，安装 AIbus 到 Slack； 4、在 Slack 直接点开 AIbus 与它对话； 5、也可以在频道里把 AIbus 拉进来，之后就...
+
 
 ---

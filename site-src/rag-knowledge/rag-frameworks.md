@@ -1,6 +1,6 @@
 # RAG框架
 
-RAG Frameworks — 5 条活跃资源
+RAG Frameworks — 9 条活跃资源
 
 ### [0x1 Underlying LLMs](https://juejin.cn/post/7312243176834809908) 
  (2024-09-03) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
@@ -34,6 +34,33 @@ GAN 系列算法开启了图片生成的新起点。GAN的主要灵感来源于�
  `AIGC` `Stable Diffusion` `Embedding` `Transformer` `Diffusion` `Vision`
 
 ---
+### [Karpathy 最新方法论：把 LLM 当编译器用，知识管理该换个思路了](https://mp.weixin.qq.com/s?__biz=Mzk4ODkzOTY3MA==&mid=2247484735&idx=1&sn=6c93e0c324588762e10a99e915a04678) 
+ (2026-04-05) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Karpathy 的知识编译方案是对 RAG 思维的范式转换，个人知识管理新方向**
+
+解读 Andrej Karpathy 2026 年 4 月提出的 LLM 知识库方法论。核心类比：把 LLM 当编译器，原始资料当源代码，生成 Wiki 当可执行文件。三层目录结构：raw/（原始素材）、wiki/（LLM 编译产出的结构化 Markdown）、output/（查询结果和衍生输出）。四步工作流：摄入（Ingest）到编译（Compile）到查询（Query）到健康检查（Lint）。与 RAG 的关键区别：RAG 是查询时实时检索（临时性），Karpathy 的方法是提前编译（持久性），查询结果自动回写 Wiki。适用规模约 40 万字，不需要向量数据库。
+ `Karpathy` `knowledge-management` `LLM` `wiki` `obsidian` `knowledge-compile` `RAG`
+
+---
+### [一文读懂 Fragment 的方方面面](https://mp.weixin.qq.com/s?__biz=MzAxMTYzNTIyMA==&mid=2247492557&idx=1&sn=bae1e6b48f166d6d72e95e5608ec2a70&chksm=9bbcbcb6accb35a018e8f0fd173080168663e35735a3fbb27fdb609ce8ab594ad2aa8cacc1c1&mpshare=1&scene=1&srcid=0318iVNE7oNFxaYcBYAgzZke&sharer_sharetime=1647594344743&sharer_shareid=60bd7acea7881a97fbf9a6126d3e88d3) 
+ (2022-03-18) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 一文读懂 Fragment 的方方面面**
+
+Fragment 是 Android 中历史十分悠久的一个组件，在 Android 3.0 （API 级别 11）的时候推出，时至今日已成为 Android 开发中最常用的组件之一。在一开始的时候，引入 Fragment 的目的是为了在大屏
+
+
+---
+### [查看浏览器Browsers的内核版本, 可以用 navigator.userAgent - 掘金](https://juejin.cn/post/7147526675536969742) 
+ (2024-03-05) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 查看浏览器Browsers的内核版本, 可以用 navigator.userAgent - 掘金**
+
+查看浏览器Browsers的内核版本, 可以用 navigator.userAgent 在浏览器控制台输入:navigator.userAgent 几乎所有主要浏览器都支持 navigator.use
+
+
+---
 ### [用 Obsidian + Claude 搭个人知识库：核心架构实践](https://x.com/yanhua1010/status/2041356233819767258) 
 by @yanhua1010 (2026-04-06) | ⭐⭐⭐ 3/5 | 🇨🇳
 
@@ -59,5 +86,14 @@ Obsidian + Claude 搭建个人知识库的核心架构实践。核心思路：�
 
 # Claude for Chrome 一手体验！自动回复微信、发Twitter、做调研……做AI浏览器的创业者该慌了，比赛已经结束 Anthropic 这家公司虽然人品不咋地，但是产品能力是真强啊。国产AI得加油了。 今天早上，有幸在朋友的帮助下，用上了Claude for Chrome使用权限，根据全球只有1000人收到了邀请。 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2F607DKnuWzlFHEAiaNibvnpL4MscUY0SMDlicTPj2bqseStSPOnGNuNdqM3lwhX30GcHadSafQKBFDCfC...
  `claude` `anthropic`
+
+---
+### [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) 
+ (2024-08-26) | ⭐⭐⭐ 3/5 | 🌐
+
+**Cubox 收藏 — abhisheknaiidu/awesome-github-profile-readme**
+
+[需翻译] * Todoist Stats in Readme - Daily Todoist Stats on your Profile Readme * Visitor Badge - Count visitors for your README.md, Issues, PRs in GitHub * 1990s style Visitor Counter - Add a 1990s style visitor counter with one line of markdown. * Vistor Co...
+
 
 ---

@@ -1,6 +1,6 @@
 # 最佳实践
 
-Best Practices — 25 条活跃资源
+Best Practices — 29 条活跃资源
 
 ### [Running Slice 全栈分析手册](#) 
  | ⭐⭐⭐⭐⭐ 5/5 | 🇨🇳
@@ -311,5 +311,41 @@ Read in Cubox
 Read Original
 I still love software as much today as I did when Paul Allen and I started Microsoft. But---even though it has improved a lot in the decades since then...
  `Agent`
+
+---
+### [How To Remember Everything You Read With AI - Dan Koe](https://thedankoe.com/letters/how-to-remember-everything-you-read-with-ai/) 
+ (2025-04-16) | ⭐⭐⭐ 3/5 | 🌐
+
+**反对 AI 摘要替代阅读，提倡用 AI 深化理解的阅读方法论**
+
+Dan Koe 探讨了如何用 AI 深化阅读理解而非替代阅读。核心观点：阅读的价值不在于获取信息（AI 更擅长），而在于改变思维方式。提出两层阅读法：Consumption（摄入）和 Digestion（消化）。具体 AI 用法：1) 用 AI 作为阅读伙伴，在阅读前生成问题框架；2) 阅读后用 AI 撰写结构化摘要和个人反思；3) 让 AI 帮助发现认知盲区和限制性信念；4) 将笔记转化为行动方案。强调 AI 应用于加深理解而非替代思考。
+ `reading` `knowledge-management` `AI-learning` `personal-growth` `Dan-Koe`
+
+---
+### [Rust写aosp13的AIDL系统级服务](https://mp.weixin.qq.com/s?__biz=Mzk0MjQwMDYyOQ==&mid=2247483679&idx=1&sn=307d2b53c501bcb300c6bee355ffc1e0) 
+ (2023-03-13) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**AOSP 13 Rust AIDL 系统服务实战教程，代码完整可直接复用**
+
+在 AOSP 13 中用 Rust 实现 AIDL 系统级服务的完整教程。包括 AIDL 接口定义、Android.bp 配置（Rust backend）、服务端/客户端实现、编译运行。Google 已建议放弃 HIDL 统一使用 AIDL。
+ `Rust` `AOSP` `AIDL` `Android` `系统服务` `Binder`
+
+---
+### [我用Coze来掘金 | AI Agent 创意征文大赛来啦！ - 掘金](https://juejin.cn/post/7330295644281962530) 
+ (2024-02-01) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 我用Coze来掘金 | AI Agent 创意征文大赛来啦！ - 掘金**
+
+2月1日，扣子国内版已经正式上线啦~赶快来体验一下吧！将使用 扣子 搭建 AI bot 的实践心得和思路分享到掘金，更有 iPhone15、雷蛇机械键盘、京东卡等好礼待你领取！🎁
+
+
+---
+### [解读 Anthropic 博文：适用于长期运行 Agents 的有效框架](https://mp.weixin.qq.com/s/UgTbCsVMcG8N9VC3VRZbMg) 
+ (2025-12-06) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 解读 Anthropic 博文：适用于长期运行 Agents 的有效框架**
+
+> 基于 Anthropic 的 "Effective harnesses for long-running agents" 最佳实践
+
 
 ---

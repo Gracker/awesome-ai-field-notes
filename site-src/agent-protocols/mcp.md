@@ -1,6 +1,6 @@
 # Model Context Protocol
 
-MCP — 21 条活跃资源
+MCP — 27 条活跃资源
 
 ### [如何从零开始写一个 OpenClaw -- 关于我用 Rust 写一只🦀🦞(CrabClaw)的开发手记](https://x.com/jakevin7/status/2028499952973099363) 
 by @jakevin7 (2026-03-03) | ⭐⭐⭐⭐⭐ 5/5 | 🌍
@@ -162,6 +162,42 @@ Read Original
  `agent` `rag` `[]` `claude`
 
 ---
+### [【科普】程序员必看，AI时代新协议 MCP 正在连接吞噬一切，20+资源全收录！](https://mp.weixin.qq.com/s/UF8Tz3VuhUA2v3ds7k53cw) 
+ (2025-03-06) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — 【科普】程序员必看，AI时代新协议 MCP 正在连接吞噬一切，20+资源全收录！**
+
+[需翻译] X（Twitter）上，AI 圈 10w+ 关注大V橘子兄这么评价： ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FjibL99tg2bCXsWIicK2X1vJ0pxkaMibsVvO39oxf8HCwdCh9xggPv7Fzh1LKlcxKN5TNDeJ0lte3IJnMMIUIC8ruw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg "null") 不少独立开发圈的朋友们，对MCP技术也很感兴趣。   ?...
+
+
+---
+### [基于 MCP 的 AI Agent 应用开发实践](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247514365&idx=1&sn=dd898cc5dfe8ab4fe7c48442a2d7fc35&chksm=e82cdfc64103948773b39bc1cdd18051bc935cdcbdad9990335b12f4401dbd67d0a5f6e162ad&mpshare=1&scene=1&srcid=0508JMd4ApDVP5Sk45FwTZuO&sharer_shareinfo=346fd11813fa570c425fefb3cdbb9b0e&sharer_shareinfo_first=346fd11813fa570c425fefb3cdbb9b0e) 
+ (2025-05-08) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — 基于 MCP 的 AI Agent 应用开发实践**
+
+[需翻译] 最近大家都在聊 MCP，发现有个最重要的点被忽略了： 通过标准化协议，将工具提供方与应用研发者解耦，这一点带
+
+
+---
+### [最近爆火的MCP究竟有多大魅力？MCP开发初体验｜得物技术](https://mp.weixin.qq.com/s?__biz=MzkxNTE3ODU0NA==&mid=2247539225&idx=1&sn=811dee1e2b17f5b1249d14f19b69f171&chksm=c0410dd7305597ba3c7f3dc6d1f7ee85808d38011bd376b42cace90a0fbc6c687a1be00c888f&mpshare=1&scene=1&srcid=0507se7oCab5JJoikWmzE8I5&sharer_shareinfo=634900176f4a7a250585116a09ea6b5f&sharer_shareinfo_first=634900176f4a7a250585116a09ea6b5f) 
+ (2025-05-07) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — 最近爆火的MCP究竟有多大魅力？MCP开发初体验｜得物技术**
+
+[需翻译] 组合多个 MCP Server 的工作流可以自主完成非常复杂的任务，关键是这协议统一了连接标准，有大量现成的 MCP Server 可以即插即用，大幅降低建设成本。
+
+
+---
+### [浅谈 Agent、MCP、OpenAI Responses API](https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ==&mid=2247489654&idx=1&sn=6e3820486124182688ebfeb296b395af&chksm=e933ade78907c108f8ca19416a225107a2679c2882d7a88366c8ad812d738da54c647ba740fb&mpshare=1&scene=1&srcid=03124z9ByYy482nSTotR3dqO&sharer_shareinfo=d954468b273c8f291c5eba01e555ea2d&sharer_shareinfo_first=d954468b273c8f291c5eba01e555ea2d) 
+ (2025-03-12) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 浅谈 Agent、MCP、OpenAI Responses API**
+
+> 今天本想写篇关于 OpenAI Responses API 的文章，但近期 AI 热门话题挺多，感觉有必要简单聊聊。
+
+
+---
 ### [6551 开源 X + 全网新闻源 MCP + Skill](https://x.com/cryptoxiao/status/2026956308092453360) 
 by @cryptoxiao (2026-02-28) | ⭐⭐⭐ 3/5 | 🇨🇳
 
@@ -266,5 +302,23 @@ Read Original
 
 # GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login. Show usage stats for OpenAI Codex and Claude Code, without having to login. - steipete/CodexBar CodexBar 🎚️ - May your tokens never run out. Tiny macOS 14+ menu bar app that keeps your Codex, Cl...
  `mcp` `copilot` `[]` `cursor` `openai` `codex` `gemini` `claude`
+
+---
+### [MCP协议深度解读：技术创新正以前所未有的速度突破](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649792738&idx=1&sn=337f992522daacb8eb68bd61043ac255) 
+ (2025-04-14) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**MCP 协议最完整的中文技术解读，Timeline 梳理和架构分析都很到位**
+
+MCP 协议的深度技术解读文章。对比 Function Call（Langchain Tools 模式）与 MCP（微内核架构）的设计差异，MCP 号称工具调用的 USB-C 标准。完整梳理 MCP Timeline：2024.11 Anthropic 发布到 2025.3 生态规模化到 3.17 Streamable HTTP 新传输方案到 3.27 OpenAI 宣布支持。介绍 MCP 的协议架构（Client-Host-Server 三层）、语义映射机制、安全模型。附业务实践案例和 2025H1 Roadmap（Remote MCP、OAuth 2.1 等）。内容有技术深度，适合理解 MCP 全貌。
+ `MCP` `Model-Context-Protocol` `Anthropic` `OpenAI` `Streamable-HTTP` `Function-Call` `工具调用` `协议标准`
+
+---
+### [sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Talk To Figma MCP](https://github.com/sonnylazuardi/cursor-talk-to-figma-mcp) 
+ (2025-03-18) | ⭐⭐⭐ 3/5 | 🌐
+
+**Cubox 收藏 — sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Tal**
+
+[需翻译] sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Talk To Figma MCP
+
 
 ---

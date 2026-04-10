@@ -1,6 +1,6 @@
 # Agent与规划
 
-Agents & Planning — 10 条活跃资源
+Agents & Planning — 12 条活跃资源
 
 ### [∇-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space](#) 
  (2026-03-11) | ⭐⭐⭐⭐⭐ 5/5 | 🇨🇳
@@ -54,6 +54,15 @@ Agents & Planning — 10 条活跃资源
 1. **效率问题：** 如何在拥有大量工具（数千个）时高效选择合适的工具？
 2. **泛化问题：** 如何处理训…
  `fine-tuning` `coding` `agent` `tool-use` `llm` `paper` `reinforcement-learning` `reasoning`
+
+---
+### [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/) 
+ (2025-03-21) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
+
+**Agent 领域必读经典综述，Lilian Weng 的文章至今仍是最好的入门基石**
+
+Lilian Weng 的经典综述文章，系统阐述以 LLM 为核心的自主 Agent 系统架构。三大核心组件：Planning（任务分解、自我反思，涵盖 CoT、ToT、ReAct、Reflexion、CoH、AD 等方法）、Memory（短期上下文学习、长期向量存储）、Tool Use（API 调用、代码执行、外部知识访问）。文章深入分析了每种方法的原理和适用场景，包括多 Agent 协作框架。该文是 Agent 领域被引用最多的综述之一，适合作为系统性理解 Agent 设计的入门基石。
+ `LLM-agent` `planning` `memory` `tool-use` `ReAct` `Reflexion` `Chain-of-Hindsight` `Lilian-Weng`
 
 ---
 ### [论证型人机决策（Deliberative Human-AI Decision Making）](https://arxiv.org/abs/2603.15946v1) 
@@ -183,5 +192,14 @@ by @完成，虽经两位作者审核确认，但主观偏差难以完全排除�
 
 Agentic code assistants（Claude Code、Codex、Jules）是 2024 年兴起的新一代 AI 编程工具，能自主完成端到端软件工程任务。但这类工具的行为和效果高度依赖配置文件（Claude.md），目前缺乏对这类配置文件的结构、内容和最佳实践的系统性研究。
  `coding` `agent`
+
+---
+### [Paper摘要：基于强化学习的AI Agent调整内核configuration选项](https://mp.weixin.qq.com/s?__biz=Mzk0NzcwMTUwNQ==&mid=2247484774&idx=1&sn=0023092ce8a595928fddc60dd1c7a296) 
+ (2026-02-03) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**RL Agent 调内核 config 的学术尝试，技术新颖但脱离工程实际**
+
+论文 OS-R1 提出用 RL Agent 自动配置 Linux 内核 18000+ configuration 选项。Rule-Guided Agent 设计，两阶段训练（Warm-up + Exploration），3000+ 配置样本数据集。在 Nginx/PostgreSQL/Redis 上取得性能提升。但生产环境极少为调优重编译内核，严重脱离工程实际。
+ `OS-R1` `强化学习` `Linux内核` `kernel-tuning` `AI-agent`
 
 ---

@@ -1,6 +1,6 @@
 # 市场分析
 
-Market Analysis — 22 条活跃资源
+Market Analysis — 23 条活跃资源
 
 ### [THE 2028 GLOBAL INTELLIGENCE CRISIS](https://www.citriniresearch.com/p/2028gic) 
 by @Citrini (2026-02-23) | ⭐⭐⭐⭐⭐ 5/5 | 🌍
@@ -275,5 +275,14 @@ I’ve been using Claude Cowork since January 12, the day it launched.
 In seven weeks, I’ve run over 400 Cowork sessions. I tested plugins, connectors, and slash commands, and measured what actually changes outcomes.
 在 7 周里，我运行了 400+ 次 Cowork 会话，测试了插件、连接器和斜杠命令，并关注哪些做法真正改变结果。
  `claude` `agent` `skill` `subagent` `context-management` `rag`
+
+---
+### [OpenClaw 闭门局：和 30 位创业者一起聊聊，真正值得关注的 Agent 生态位在哪？](https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247523427&idx=1&sn=dbf618ec7e136f6a1d2f1f161ef86ca0) 
+by @Founder Park (2026-03-29) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Agent 生态创业全景扫描，支付/身份/记忆/硬件四大方向**
+
+Founder Park 组织 30+ 创业者闭门讨论 Agent 生态创业机会。核心议题：Agent 支付基础设施、身份与担责、硬件环境感知（眼镜/声音）、Memory 存取难题、不要抢护城河要开新市场。关键洞察：给 Agent 造产品而非给人做工具。
+ `openclaw` `agent` `创业` `生态位` `支付` `记忆` `硬件`
 
 ---

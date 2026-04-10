@@ -1,6 +1,6 @@
 # Agent-to-Agent
 
-A2A — 2 条活跃资源
+A2A — 3 条活跃资源
 
 ### [AI 傻傻分不清楚？那么多 AI 变体究竟怎么选？这里快速简单理清！](https://mp.weixin.qq.com/s?__biz=Mzg3NTA3MDIxOA==&mid=2247493551&idx=1&sn=d079783a37abb37dc245603c9a27f925&chksm=cfd52840d5e2ee9f3b734bfeafc599da31ff691da117d0de04ba2a727b45e6563a5035aa725d&mpshare=1&scene=1&srcid=0421kItMrKcUVf8qAo4vQL0u&sharer_shareinfo=bf9c7449498c1b07e960d4b4e368ea18&sharer_shareinfo_first=bf9c7449498c1b07e960d4b4e368ea18) 
  (2025-04-21) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
@@ -27,5 +27,14 @@ Last edited about 8 hours ago
 如果你还没有发布过自己人生的第一个产品，那么我相信今天的演讲可能会对你有所帮助。在过去一年里，我做了一大堆的东西。你可以想象一个中年男人坐在一个椅子上没日没夜写代码的场景。但我最开始三年前一行代码都不会写，我离AI行业其实非常遥远。
 在这些应用里面有两块已经上线了，有两款是做着做着觉得没意思了，有点下头就没再继续。还有一款非常可惜，就是打磨了很久，但是账算不过来，不敢上线。所以...
  `IndieDev`
+
+---
+### [我是如何使用 Claude Code 的](https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247497937&idx=1&sn=756f11046f0183ae37aa47341f8f0c8a&chksm=e8a98f9389f9016bd13ee26bcecadac65fd8ea3c0571102a2a044916867dba581643991c4a95&mpshare=1&scene=1&srcid=0620K6JldF92PkP0VcXalYWX&sharer_shareinfo=68602cc4f40b549f70dde957725524f2&sharer_shareinfo_first=68602cc4f40b549f70dde957725524f2) 
+ (2025-06-20) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 我是如何使用 Claude Code 的**
+
+?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F607DKnuWzlECrRUn1wYC3BvLWMHKHWGcSNMpBKjV1Qic0toiaZ60IwiaM0Riac6Dq77e2iaj2FMyibiarLDibSJUOtnCibQ%2F640%3Fwx_fmt%3Dother%26from%3Dappmsg)
+
 
 ---

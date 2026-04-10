@@ -1,6 +1,6 @@
 # 提示技术
 
-Techniques — 12 条活跃资源
+Techniques — 25 条活跃资源
 
 ### [像 Rust Arena Allocator 一样管理上下文](https://x.com/blackanger/status/2027345330505924638) 
 by @blackanger (2026-02-28) | ⭐⭐⭐⭐⭐ 5/5 | 🇨🇳
@@ -9,6 +9,15 @@ by @blackanger (2026-02-28) | ⭐⭐⭐⭐⭐ 5/5 | 🇨🇳
 
 将 Agent 上下文管理类比 Rust Arena Allocator：预留大块连续内存→每次分配指针向前推→所有分配连续排列→整块一起释放。Agent 上下文窗口就是一块有限的、昂贵的内存空间。Prompt Engineering 的核心不是写好文字，而是内存管理。Arena 的核心特性（Append-only、空间局部性、批量释放）直接对应 Agent 上下文设计原则。Pruning 和 RAG 是技巧不是原则。
  `context-management` `rust` `arena-allocator` `agent-design` `prompt-engineering`
+
+---
+### [Prompt Engineering (Lilian Weng)](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) 
+by @Lilian Weng (2023-03-20) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
+
+**Prompt Engineering 领域最经典综述，所有从业者必读**
+
+Lilian Weng 经典 Prompt Engineering 综述。系统梳理 zero/few-shot、Instruction Prompting、CoT、Self-Consistency、ToT 等技术，深入分析 few-shot 示例选择策略（k-NN、图方法、对比学习）。还涵盖 ReAct、PAL 等外部工具范式。引用最广的入门文献之一。
+ `prompt-engineering` `zero-shot` `few-shot` `CoT` `self-consistency` `ReAct`
 
 ---
 ### [Agent-Skills-for-Context-Engineering：面向上下文工程的开放技能库](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) 
@@ -49,6 +58,42 @@ Read Original
 
 # Google《智能体设计模式》之 智能体推理引擎的内部视角 - 附录F 中翻版 让大模型自己从内部视角讲解「推理引擎」的运作机制，哪家模型更合你心意？ ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FwV3O1yUmU2QIt4G7kicG7ZdH56SOsxLDLY4HDgOLaMnhxL3gXEo8O23QtLg6sCBIQnWckmxsFcyg0ap6MwecmtQ%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0) 前言：这本由谷歌资深工程主管Antonio Gulli免...
  `deepseek` `llm` `大模型` `[]` `agent` `rag` `inference` `gemini`
+
+---
+### [The 2025 AI Engineering Reading List](https://www.latent.space/p/2025-papers) 
+ (2025-01-04) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — The 2025 AI Engineering Reading List**
+
+[需翻译] We picked 50 paper/models/blogs across 10 fields in AI Eng: LLMs, Benchmarks, Prompting, RAG, Agents, CodeGen, Vision, Voice, Diffusion, Finetuning. If you're starting from scratch, start here.
+
+
+---
+### [做AI产品两年，我得出的实操经验](https://mp.weixin.qq.com/s/HsFhXMLejsQWjTghUYdKFA) 
+ (2025-04-15) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — 做AI产品两年，我得出的实操经验**
+
+[需翻译] **观众反响特别好，想着要不把分享的内容公开出来，所以整理了这篇文章。本篇内容是对我过去两年时间，做了无数个AI产品demo的一个阶段性的总结，主要聚焦这三个方面的经验：**
+
+
+---
+### [我如何夺冠新加坡首届 GPT-4 提示工程大赛 [译] | 宝玉的分享](https://baoyu.io/translations/prompt-engineering/how-i-won-singapores-gpt-4-prompt-engineering-competition?s=09) 
+ (2024-05-07) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 我如何夺冠新加坡首届 GPT-4 提示工程大赛 [译] | 宝玉的分享**
+
+深度探索我在驾驭大语言模型（LLMs）中学到的策略 ?imageUrl=https%3A%2F%2Fbaoyu.io%2Fimages%2Fprompt-engineering%2Fhow-i-won-singapores-gpt-4-prompt-engineering-competition%2F1_RAI4cBXe1_zaxVykHz79oA.webp&valid=true) 庆祝这一里程碑 --- 真正的胜利在于宝贵的学习经历！
+
+
+---
+### [文本和概念分析专家 prompt](https://gist.github.com/kevinz/a191dfd758971bf31207484c34c86f30) 
+ (2025-09-26) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — 文本和概念分析专家 prompt**
+
+[需翻译] GitHub Gist: instantly share code, notes, and snippets.
+
 
 ---
 ### [去 AI 味的方法 - Agent Skills 写作风格](https://x.com/gkxspace/status/2023173476702728479) 
@@ -112,5 +157,77 @@ by @余温 (2026-02-15) | ⭐⭐⭐ 3/5 | 🇨🇳
 
 # Google Gemini 如何加速 Android 开发？ > 《10. 揭秘 Compose 原理》 > 《2 小时入门 Jetpack Compose》 > 《深入理解 Jetpack Lifecycle（原理篇）》 你好，我是朱涛。今天我们来聊聊 AI 和 Android 开发。近些年，基于大模型的人工智能发展迅猛，OpenAI 有 ChatGPT，国内有 Deepseek。然后，我因为和 Google 接触比较多，有幸成为了 Gemini 的第一批使用者，这些年一直用下来，感觉也非常不错。 Android Studio 在最新的版本迭代中，也在积极引入 Gemini 来强化它的 ...
  `deepseek` `大模型` `[]` `openai` `gemini` `chatgpt`
+
+---
+### [Prompt Engineering | Kaggle Whitepaper](https://www.kaggle.com/whitepaper-prompt-engineering) 
+by @Lee Boonstra (2025-04-12) | ⭐⭐⭐ 3/5 | 🌐
+
+**Google 官方 Prompt Engineering 白皮书，Gemini 生态入门参考**
+
+Google/Kaggle 发布的 Prompt Engineering 白皮书，面向 Gemini 模型的提示工程方法。涵盖各种提示技术、最佳实践和挑战。面向 Vertex AI 和 API 用户，适合入门参考。
+ `prompt-engineering` `kaggle` `google` `gemini` `whitepaper`
+
+---
+### [https://learningprompt.wiki/docs/insight/AI%20%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E4%BA%BA%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E5%90%97%EF%BC%9F/%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E4%BA%BA%E7%9A%84%E9%98%85%E8%AF%BB%E6%9...](https://learningprompt.wiki/docs/insight/AI%20%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E4%BA%BA%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E5%90%97%EF%BC%9F/%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E4%BA%BA%E7%9A%84%E9%98%85%E8%AF%BB%E6%96%B9%E5%BC%8F%E5%90%97%EF%BC%9F) 
+ | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — https://learningprompt.wiki/docs/insight/AI%20%E6%**
+
+https://learningprompt.wiki/docs/insight/AI%20%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E4%BA%BA%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E5%90%97%EF%BC%9F/%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E4%BA%BA%E7%9A%84%E9%98%85%E8%AF%BB%E6%9...
+
+
+---
+### [公众号爆款文章提示词：让AI写出有"人味"的深度长文（附完整提示词）](https://mp.weixin.qq.com/s?__biz=MzI0MjcwNDMwMg==&mid=2247483699&idx=1&sn=10c8c1155e0b30e46e3c68aec878b766&chksm=e8bce5b0172b0871c5e13619dd2baaa4eb8e0f24828b82b78b383162fe9a11b17181d629f31a&mpshare=1&scene=1&srcid=02223hwJCIhxKRfo6AHPu9BH&sharer_shareinfo=e27400efeb1f474b3e79f8ee17b510d5&sharer_shareinfo_first=e27400efeb1f474b3e79f8ee17b510d5) 
+ (2026-02-22) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 公众号爆款文章提示词：让AI写出有"人味"的深度长文（附完整提示词）**
+
+这是「写作提示词全家桶」系列第2篇，共7篇。上一篇讲了底层逻辑，这一篇直接给你两套拿走就能用的公众号写作提示词。
+
+
+---
+### [失業半年，我用 AI 打造每日輸出系統，結果 AI 公司主動找上門](https://calpa.me/blog/ai-daily-output-jobless-to-opportunity/) 
+ (2025-08-21) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 失業半年，我用 AI 打造每日輸出系統，結果 AI 公司主動找上門**
+
+又一次失業，這次長達半年。這樣的狀態對我來說早已不陌生。在這個充滿變數的年代，擁有穩定高薪反而成了少數人的特權。我並不是逃避工作，而是更清楚自己不想為了履歷、安全感而犧牲真正想投入的東西。這半年來，我既沒投遞履歷，也沒請人內推，更沒有煩惱要不要找獵頭。我選擇建立一套屬於自己的每日輸出流程，透過 ChatGPT 和各種 AI 工具，把每個產品概念具體化，並持續記錄與反覆優化。每一個專案，從 Prompt GUI、自動摘要，到 Git commit 精靈與紫微斗數生成器，我都拆解成模組，系統化整理成...
+
+
+---
+### [宝玉的科技文章翻译GPT](https://bearwith.ai/baoyu-translation-gpt/) 
+ (2024-07-07) | ⭐⭐⭐ 3/5 | 🌐
+
+**Cubox 收藏 — 宝玉的科技文章翻译GPT**
+
+[需翻译] Learn how to enhance your translations using AI by providing context and leveraging prompts for better accuracy. 如何通过提供上下文和提示来提高AI翻译的准确性，使用“科技文章翻译”这个GPT来快速准确地翻译。
+
+
+---
+### [提示艺术：PromptPerfect 提示优化器测试体验（一）](https://zhuanlan.zhihu.com/p/611970732?utm_medium=social&utm_oi=27871238160384&utm_psn=1617109692114690048&utm_source=wechat_session) 
+ (2023-03-09) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 提示艺术：PromptPerfect 提示优化器测试体验（一）**
+
+看到jina发布了PromptPerfect，专为大型语言模型 (LLM)、大型模型 (LM) 和 LMOps 设计的提示优化器。
+
+
+---
+### [欢迎 | Learn Prompting](https://learnprompting.org/zh-Hans/docs/intro) 
+ (2023-03-29) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 欢迎 | Learn Prompting**
+
+我会将提示工程（prompt engineering, PE）介绍为：**如何同人工智能交流，并得到你要的结果**。
+
+
+---
+### [🧭 Midjourney 学习导航 | Learning Prompt](https://learningprompt.wiki/docs/midjourney-learning-path) 
+ (2023-04-09) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 🧭 Midjourney 学习导航 | Learning Prompt**
+
+本教程部分图片并没有保存在 GitHub 上，而是保存在 Craft 上，所以如果你没法看到教程里的图片，请检查一下你的网络环境。
+
 
 ---

@@ -1,6 +1,6 @@
 # 编排框架
 
-Orchestration — 31 条活跃资源
+Orchestration — 35 条活跃资源
 
 ### [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773) 
 by @RLanceMartin (2026-04-06) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
@@ -224,6 +224,33 @@ OpenAI 内部有个团队，5 个月，3 个工程师，几乎不靠手写代码
  `agent` `performance-agent` `claude-agent-sdk` `multi-agent` `mobile` `android`
 
 ---
+### [How agents can use filesystems for context engineering](https://blog.langchain.com/how-agents-can-use-filesystems-for-context-engineering/) 
+ (2026-01-07) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**文件系统是 Agent 上下文工程最被低估的基础设施**
+
+LangChain 博客阐述文件系统作为 Agent 上下文工程核心工具的价值。四个关键场景：1) 大 token 消耗时，文件系统作为 scratch pad 存储工具结果，按需 grep 读取；2) 需要大量上下文时，通过文件持久化计划和子 Agent 知识，避免 context window 限制；3) 寻找小众信息时，glob/grep 比语义搜索更适合技术文档和代码文件；4) 持续学习时，Agent 可将用户偏好和经验写入自身文件。核心观点：文件系统提供统一接口，让 Agent 灵活存储、检索和更新无限量上下文。
+ `context-engineering` `filesystem` `agent` `langchain` `deep-agents` `scratch-pad` `memory`
+
+---
+### [借助 AI Coding 快速打造 AI Agent 系统](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247558316&idx=1&sn=6a53c77fe9bdb8b35a1d513897c4a472&chksm=e842e7784cbd5d863e66d3cd9c7b473fb5f8defdb0bd171ead807408a0166b28963665f62dc2&mpshare=1&scene=1&srcid=0210sWl3n5BHTgBMJFMPVztS&sharer_shareinfo=49d4cda5f958e336f51b9bf2fbd8d2e4&sharer_shareinfo_first=49d4cda5f958e336f51b9bf2fbd8d2e4) 
+ (2026-02-10) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 借助 AI Coding 快速打造 AI Agent 系统**
+
+?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FZ6bicxIx5naJ92fSX0GbcKeLprRiaibf3urmibOHJpPnmXBhWcxTzViaWhxiaeooj6cMYv3QcTy32rocngPbz7fCljgw%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0)
+
+
+---
+### [逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用](https://mp.weixin.qq.com/s?__biz=Mzk0NDIwMTExNw==&mid=2247586367&idx=1&sn=a8128ad7c9dd13c68a16dd8557b8b48a&chksm=c2fd69db26d4ad92b41d11adbf9d4051e3c35d2e8c1e7217e2daa19f3d2c23b90cd2a74bf802&mpshare=1&scene=1&srcid=1010Skzsacksq6yI5R5dwvTD&sharer_shareinfo=4c58689876490036f1e2b2aa5c7be9e4&sharer_shareinfo_first=4c58689876490036f1e2b2aa5c7be9e4) 
+ (2024-10-10) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Cubox 收藏 — 逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agenti**
+
+[需翻译] 逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用
+
+
+---
 ### [OpenClaw Memory 终极指南](https://x.com/lijiuer92/status/2025678747509391664) 
 by @李韭二 (2026-02-23) | ⭐⭐⭐ 3/5 | 🇨🇳
 
@@ -420,5 +447,14 @@ AI Agent实践的知识图谱总结，涵盖四大核心主题：1）记忆系�
 
 OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent、Memory、MCP、Skills、Cron）、运行机制、与其他Agent框架的对比分析。报告系统梳理了OpenClaw的技术栈和生态位，对理解个人AI Agent的工程化实现有参考价值。
  `openclaw` `agent` `deep-research` `architecture` `mcp` `skills`
+
+---
+### [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) 
+ (2025-03-13) | ⭐⭐⭐ 3/5 | 🌐
+
+**OpenAI 官方 Agent 框架，三原语设计极简但覆盖核心场景**
+
+OpenAI 发布 Agents SDK，是 Swarm 实验项目的生产级升级版。核心原语三个：Agent、Handoffs、Guardrails。Python-first 设计，内置 agent loop、自动 schema 生成的函数工具、可视化调试的 tracing。设计理念：功能够用但原语少，开箱即用但可定制。
+ `openai` `agents` `sdk` `handoffs` `guardrails` `python` `tracing`
 
 ---

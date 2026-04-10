@@ -1,6 +1,6 @@
 # 训练方法
 
-Methods — 8 条活跃资源
+Methods — 15 条活跃资源
 
 ### [2026 AI First 系列（三）：在被替代之前变得有价值——新经济下的生存法则](https://youmind.com/s/ZncQVsVULbYTWU) 
  (2026-01-05) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
@@ -66,6 +66,24 @@ by @qizailiu，腾讯 IEG 算法研究员 (2023-03-16) | ⭐⭐⭐⭐ 4/5 | 🇨
  `[]` `gpt-4` `gpt-4o` `openai` `chatgpt`
 
 ---
+### [真·万字长文:可能是全网最晚的chatgpt技术总结](https://zhuanlan.zhihu.com/p/613698929?utm_campaign=shareopn&utm_medium=social&utm_oi=761310487785783296&utm_psn=1621196363999485952&utm_source=wechat_session) 
+ (2023-03-22) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 真·万字长文:可能是全网最晚的chatgpt技术总结**
+
+最近ChatGPT可以说是火遍了全世界，作为由知名人工智能研究机构OpenAI于2022年11月30日发布的一个大型语言预训练模型，他的核心在于能够理解人类的自然语言，并使用贴近人类语言风格的方式来进行回复。模型开放使用以来，在人工智能领域引起了巨大的轰动，也成功火出了技术圈。从数据上看，ChatGPT用户数在5天内就达到了100万，2个月就达到了1亿；另外，在很多非人工智能领域，已经有机构在尝试用ChatGPT去做一些智能生成的事。…
+
+
+---
+### [黄仁勋领导的 Nvidia 如何推动 AI 革命 [译]](https://baoyu.io/translations/new-yorker/how-jensen-huangs-nvidia-is-powering-the-ai-revolution) 
+ (2023-11-29) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Cubox 收藏 — 黄仁勋领导的 Nvidia 如何推动 AI 革命 [译]**
+
+这家公司的 CEO，黄仁勋，把所有筹码压在了一种全新的芯片上。如今 Nvidia 已跻身世界最大公司之列，他的下一步会怎样？
+
+
+---
 ### ["Philosophers warn us not to be satisfied with mere learning, but to add practice and then training." | Revue](https://newsletter.stoicallytyped.com/issues/philosophers-warn-us-not-to-be-satisfied-with-mere-learning-but-to-add-practice-and-then-training-725262#/) 
  | ⭐⭐⭐ 3/5 | 🌐
 
@@ -86,5 +104,50 @@ Read Original
 
 # DeepSeek-R1 论文解析——人工智能领域的 RL LLM 新时代？ DeepSeek-R1 论文解析——人工智能领域的 RL LLM 新时代？ 近年来，人工智能 (AI) 领域取得了快速发展，大型语言模型 (LLM) 为通用人工智能 (AGI) 铺平了道路。OpenAI的 o1 是 一个出色的模型，它引入了创新的推理时间扩展技术，可显著增强推理能力。然而，它仍然是闭源的。 今天，我们深入研究了 DeepSeek 推出的开创性研究论文 DeepSeek-R1。这篇题为"DeepSeek-R1：通过强化学习激励大型语言模型中的推理能力"的 论文介绍了一种最先进的开源推理模型，以及使用大...
  `deepseek` `llm` `fine-tuning` `[]` `openai` `inference`
+
+---
+### [YOLOv8 模型训练入门指南：手把手搞定目标检测AI](https://mp.weixin.qq.com/s?__biz=MzAxNTA3MDY1NA==&mid=2455889075&idx=2&sn=0b6d2d319183839da8e78fc3787e5cca&chksm=8de8a6e86f55184c2662e5fa24ffd44dcd2ada03059001d473f9fed42d33b3a1b8827f9153b2&mpshare=1&scene=1&srcid=0526AJKtvTBUcyEeSZbjIhJ7&sharer_shareinfo=a9e2fbbc1caacc3a594e52fa5d232d42&sharer_shareinfo_first=386794d521a0d57b35661b763fec48de) 
+ (2025-05-26) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — YOLOv8 模型训练入门指南：手把手搞定目标检测AI**
+
+我原本觉得 AI 很高深，直到偶然接触了 YOLOv8 ------ 一款"傻瓜式"的目标检测模型。封装良好、文档详尽，甚至不需要理解太多数学公式，也能训练出能用的视觉模型。
+
+
+---
+### [关于AI的一些实践和思考 - Rolen's Blog](https://rolen.wiki/some-practices-and-thoughts-on-ai/) 
+ (2025-03-05) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 关于AI的一些实践和思考 - Rolen's Blog**
+
+这几年，由于AI的出现，我感觉生活节奏开始加速，加速，因为可以做的事情更多了，欲望也更多了，人反而变得更加焦虑了。任何事情都有两面性，好的方面是AI的出现满足了很多我曾经无法完成的事情，或者要掉好几层皮才能完成的事情，现在确实可以很轻松地解决。
+
+
+---
+### [凯哥  |  当ERP遇到ChatGPT，新世界的大门被打开](https://mp.weixin.qq.com/s?__biz=MzU3MTkwMDU1NQ==&mid=2247485023&idx=1&sn=4e73a266370216e5350f92d4acfa4c30&chksm=fcd851bbcbafd8ad13a331d14fb0d34ee7474047a53ebc1b2c2ad6de4be0ba45b2c56b36ffb0&mpshare=1&scene=1&srcid=0211zF7t32ICNtkwoAGzpEk3&sharer_sharetime=1676079405528&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) 
+ (2023-02-11) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 凯哥  |  当ERP遇到ChatGPT，新世界的大门被打开**
+
+关键发现：ChatGPT可以导入私有数据进行训练，从而指导业务优化ChatGPT能够记住每一个回话的内容，从
+
+
+---
+### [深蹲VS大齿比：力量训练的终极选择题！哪个更好呢？](https://mp.weixin.qq.com/s?__biz=MzI4MDEyMDI2OQ==&mid=2247484717&idx=1&sn=6e1b8f337185004eb961c28b15837476&chksm=eaffa30cfbdc151800bd3947a7413a149599167b72cac924a5ec520971c2d6f2dabfa15cdd8c&mpshare=1&scene=1&srcid=0507tDXMgLXAE0G3ILaueOul&sharer_shareinfo=44c2dbb330282eeaa064ce98c54b0197&sharer_shareinfo_first=44c2dbb330282eeaa064ce98c54b0197) 
+ (2025-05-07) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 深蹲VS大齿比：力量训练的终极选择题！哪个更好呢？**
+
+?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2Fic4cXMRs0WRtzjrWqaZibg11zc4BSbnaiaryP1JuaFcbuiaT8LZwAU1JKic2qzibsdNO9iaevzRo4vfbJRv7v9Hy4vtkw%2F640%3Fwx_fmt%3Dpng)
+
+
+---
+### [面试随想 | tsaiggo's blog](https://www.tsaiggo.life/posts/thinking-in-interview/) 
+ (2022-06-19) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Cubox 收藏 — 面试随想 | tsaiggo's blog**
+
+20年本科毕业后就加入了滴滴，今年算是自己的第一次社招面试跳槽吧，感觉还挺奇妙的，随手记录一下自己关于社招的随想吧。 **永远谨记：Fake it till you make it.**
+
 
 ---

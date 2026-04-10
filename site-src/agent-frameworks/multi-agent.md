@@ -1,6 +1,6 @@
 # 多Agent框架
 
-Multi-Agent — 10 条活跃资源
+Multi-Agent — 11 条活跃资源
 
 ### [OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team](https://x.com/elvissun/status/2025920521871716562) 
 by @Elvis (2026-02-24) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
@@ -165,6 +165,15 @@ Agentic Reasoning 论文的核心价值在于"多智能体协作"和"结构化�
 
 ### 1…
  `safety` `coding` `agent` `tool-use` `llm` `paper` `reasoning` `multi-agent`
+
+---
+### [How we built our multi-agent research system \ Anthropic](https://www.anthropic.com/engineering/multi-agent-research-system) 
+ (2025-12-15) | ⭐⭐⭐⭐ 4/5 | 🌐
+
+**Anthropic 多 Agent 研究系统的完整工程实践，从 prompt 到生产的全链路经验**
+
+Anthropic 详细分享其 Research 功能的多 Agent 系统从原型到生产的过程。架构采用 orchestrator-worker 模式：LeadResearcher 规划和协调，Subagents 并行搜索。8 条 prompt 工程原则：像 Agent 一样思考、教会 orchestrator 如何委派、按复杂度缩放资源、工具设计至关重要、让 Agent 自我改进、先宽后窄搜索、引导思考过程、并行工具调用。评测方面：LLM-as-judge + 人工测试互补。生产挑战：有状态错误累积、调试困难、需要 rainbow deployment。BrowseComp 评测中 token 使用量解释了 80% 的性能方差。
+ `multi-agent` `research-system` `anthropic` `production` `prompt-engineering` `evaluation` `subagent`
 
 ---
 ### [2026-03-03-1210-yibie-Shipping-at-Inference-Speed-Notes-2028650995153314299](https://x.com/yibie/status/2028650995153314299) 
