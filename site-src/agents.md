@@ -4,7 +4,7 @@ Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **97** 条活跃资源
 
 ## 📅 今天
 
-### [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773)
+### [Launching Claude Managed Agents](/entry/mpkvzkl8) 📄
 @RLanceMartin · ⭐⭐⭐⭐⭐5 🌐 · 今天
 
 Anthropic 发布 Claude Managed Agents：预构建的可配置 Agent 运行底座，运行在托管基础设施上。三大核心概念：Agent（版本化配置）、Environment（沙盒模板）、Session（有状态运行）。四种用法：事件触发、定时、即发即忘、长时间任务。架构上将&quot;大脑&quot;（Claude+调度框架）、&quot;手&quot;（沙盒工具）、&quot;记忆&quot;（会话日志）解耦，支持独立故障恢复。
@@ -13,7 +13,7 @@ Anthropic 发布 Claude Managed Agents：预构建的可配置 Agent 运行底�
 
 ---
 
-### [OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team](https://x.com/elvissun/status/2025920521871716562)
+### [OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team](/entry/x88lksbo) 📄
 @Elvis · ⭐⭐⭐⭐⭐5 🌐 · 今天
 
 以 OpenClaw 为编排层，Codex/Claude Code 为编码执行层的双层架构。编排助手 Zoe 负责分配任务、生成提示、跟踪进度、Telegram 通知。核心思想是上下文专业化：编码 Agent 拿代码上下文，编排层掌握业务上下文。94 次提交/日峰值，30 分钟 7 个 PR。流程包含隔离 worktree、tmux 控制、JSON 任务注册、周期巡检、三模型审查（Codex/Gemini/Claude）。
@@ -22,7 +22,7 @@ Anthropic 发布 Claude Managed Agents：预构建的可配置 Agent 运行底�
 
 ---
 
-### [Pi: The Minimal Agent Within OpenClaw](https://lucumr.pocoo.org/2026/1/31/pi/)
+### [Pi: The Minimal Agent Within OpenClaw](/entry/fvwtcwdn) 📄
 @Armin Ronacher · ⭐⭐⭐⭐⭐5 🌐 · 今天
 
 OpenClaw 底层的编码 Agent Pi 详解。Pi 由 Mario Zechner 开发，理念是让 Agent 自己扩展自己而非下载扩展。刻意不支持 MCP（可用 mcporter 桥接），强调代码生成和运行。核心设计：会话是树结构（可分支/回退/导航），内置热重载让 Agent 自己写代码→重载→测试循环。多模型支持、可移植性优先。扩展可注册工具给 LLM 调用，也可渲染自定义 TUI 组件。
