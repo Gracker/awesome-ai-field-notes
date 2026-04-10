@@ -1,0 +1,10 @@
+{
+  "title": "AI Field Notes",
+  "description": "AI 领域精选资源导航 — 有观点、有评分、每日自动更新",
+  "language": "zh",
+  "gitbook": "3.2.3",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  }
+}
