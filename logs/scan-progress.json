@@ -29,5 +29,15 @@
       "graphify-out/GRAPH_REPORT.md"
     ],
     "skipped_sub_pages_note": "Anthropic 81K zh/reading merged into main entry; 21 course chapters covered by 02-实战课程中文版"
+  },
+  "cubox": {
+    "batch2": {
+      "status": "done",
+      "date": "2026-04-10",
+      "scanned": 90,
+      "added": 72,
+      "skipped": 18,
+      "total_entries": 351
+    }
   }
 }
