@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """
-generate-site.py — 从 entries.json 生成 mdbook 站点 + README
-扁平分类模式：6 个顶层分类，无子分类
+generate-site.py — 从 entries.json 生成 VitePress 站点
+
+用法: python3 scripts/generate-site.py
+读取: data/entries.json, metadata/categories.json
+输出: site-src/ 下的 index.md + 各分类 .md
 """
 
-import json, os, sys
+import json, os, sys, html as html_mod
 from datetime import datetime, timedelta
 from collections import Counter
 from pathlib import Path
@@ -15,6 +18,10 @@ META_DIR = BASE_DIR / "metadata"
 SRC_DIR = BASE_DIR / "site-src"
 README_PATH = BASE_DIR / "README.md"
 STATS_PATH = META_DIR / "stats.json"
+
+def esc(text):
+    """Escape HTML special chars in user content"""
+    return html_mod.escape(str(text)) if text else ""
 
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
@@ -43,125 +50,167 @@ stats = {
 }
 STATS_PATH.write_text(json.dumps(stats, indent=2, ensure_ascii=False), encoding="utf-8")
 
-# === mdbook site ===
-SRC_DIR.mkdir(exist_ok=True)
+# === VitePress sidebar config ===
+def build_sidebar():
+    lines = [
+        "import { defineConfig } from 'vitepress'",
+        "",
+        "export default defineConfig({",
+        "  title: 'AI Field Notes',",
+        "  description: 'AI 领域精选资源导航 — 有观点、有评分、每日自动更新',",
+        "  lang: 'zh-CN',",
+        "  head: [",
+        "    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],",
+        "  ],",
+        "  themeConfig: {",
+        "    logo: '/favicon.svg',",
+        "    nav: [",
+        "      { text: 'GitHub', link: 'https://github.com/Gracker/awesome-ai-field-notes' },",
+        "    ],",
+        "    sidebar: [",
+        "      { text: '首页', link: '/' },",
+    ]
+    for key, info in categories.items():
+        count = cat_counter.get(key, 0)
+        lines.append("      { text: '%s %s (%s)', link: '/%s' }," % (info['icon'], info['name_zh'], count, key))
+    lines.extend([
+        "    ],",
+        "    search: { provider: 'local' },",
+        "    socialLinks: [",
+        "      { icon: 'github', link: 'https://github.com/Gracker/awesome-ai-field-notes' },",
+        "    ],",
+        "    footer: { message: '由 OpenClaw 每日自动维护' },",
+        "  },",
+        "  srcDir: '.',",
+        "  outDir: '../dist',",
+        "  cleanUrls: true,",
+        "})",
+        "",
+    ])
+    return "\n".join(lines)
 
+config_path = SRC_DIR / ".vitepress" / "config.ts"
+config_path.parent.mkdir(exist_ok=True)
+config_path.write_text(build_sidebar(), encoding="utf-8")
+
+# === Favicon ===
+favicon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><text y="28" font-size="28">⚡</text></svg>'
+pub_dir = SRC_DIR / "public"
+pub_dir.mkdir(exist_ok=True)
+(pub_dir / "favicon.svg").write_text(favicon, encoding="utf-8")
+
+# === Entry formatting (pure Markdown, no HTML) ===
 def fmt_entry(e):
-    title = e["title"]
+    """Format as a Markdown list item with inline metadata"""
+    title = esc(e["title"])
     url = e.get("url") or "#"
-    one_liner = e.get("one_liner", "")
-    stars = f" ⭐{e['github_stars']:,}" if e.get("github_stars") else ""
-    tags = " ".join(f"`{t}`" for t in e.get("tags", [])[:5])
-    tag_str = f" {tags}" if tags else ""
-    lang = "🇨🇳" if e.get("language") == "zh" else ("🌐" if e.get("language") == "en" else "")
-    source = e.get("source") or {}
-    author = source.get("author", "")
-    author_str = f" by @{author}" if author else ""
-    return f"- [{title}]({url}){author_str} — {one_liner}{stars}{tag_str} {lang}"
-
-def fmt_detail(e):
-    title = e["title"]
-    url = e.get("url") or "#"
-    one_liner = e.get("one_liner", "")
+    one_liner = esc(e.get("one_liner", ""))
     score = e.get("quality_score", 0)
-    summary = e.get("summary_zh", "") or e.get("summary_en", "")
-    stars = f" ⭐{e['github_stars']:,}" if e.get("github_stars") else ""
-    tags = " ".join(f"`{t}`" for t in e.get("tags", [])[:8])
-    tag_str = f" {tags}" if tags else ""
+    gh_stars = e.get("github_stars")
+    stars_str = " ⭐{:,}".format(gh_stars) if gh_stars else ""
     lang = "🇨🇳" if e.get("language") == "zh" else ("🌐" if e.get("language") == "en" else "")
     source = e.get("source") or {}
-    author = source.get("author", "")
-    orig_date = source.get("original_date", "")
-    author_str = f"by @{author}" if author else ""
-    date_str = f" ({orig_date})" if orig_date else ""
-    return (
-        f"### [{title}]({url}) {stars}\n"
-        f"{author_str}{date_str} | {'⭐' * score} {score}/5 | {lang}\n\n"
-        f"**{one_liner}**\n\n"
-        f"{summary}\n\n"
-        f"{tag_str}\n"
-    )
+    author = esc(source.get("author", ""))
+    author_str = " by @{}".format(author) if author else ""
+    summary = e.get("summary_zh", "") or e.get("summary_en", "")
+    summary = esc(summary)
+    
+    lines = [
+        "### [{}]({}){}".format(title, url, stars_str),
+        "**{}**{} · ⭐{} {}/5 · {}".format(one_liner, author_str, "⭐" * score, score, lang),
+    ]
+    if summary:
+        lines.append("")
+        lines.append("> {}".format(summary))
+    tags = [esc(t) for t in e.get("tags", [])[:6]]
+    if tags:
+        lines.append("")
+        lines.append("{}".format(" ".join("`{}`".format(t) for t in tags)))
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+    return "\n".join(lines)
 
-# SUMMARY.md
-summary = ["# Summary", "", "- [首页](README.md)", ""]
+def fmt_list_item(e):
+    title = esc(e["title"])
+    url = e.get("url") or "#"
+    one_liner = esc(e.get("one_liner", ""))
+    score = e.get("quality_score", 0)
+    lang = "🇨🇳" if e.get("language") == "zh" else ("🌐" if e.get("language") == "en" else "")
+    return "- [{}]({}) — {} {} {} {}/5".format(title, url, one_liner, "⭐" * score, lang, score)
+
+# === Homepage ===
+top10 = sorted(active, key=lambda x: (-x.get("quality_score", 0), x.get("github_stars", 0) or 0))[:10]
+
+home = [
+    "---",
+    "layout: home",
+    "",
+    "hero:",
+    "  name: AI Field Notes",
+    "  text: AI 领域精选资源导航",
+    "  tagline: 有观点 · 有评分 · 每日自动更新 · {} 条".format(stats['total_entries']),
+    "  actions:",
+    "    - theme: brand",
+    "      text: 浏览全部",
+    "      link: /models",
+    "    - theme: alt",
+    "      text: GitHub",
+    "      link: https://github.com/Gracker/awesome-ai-field-notes",
+    "",
+    "features:",
+]
 for key, info in categories.items():
     count = cat_counter.get(key, 0)
-    summary.append(f"- [{info['icon']} {info['name_zh']} ({count})]({key}/README.md)")
-summary.append("")
-(SRC_DIR / "SUMMARY.md").write_text("\n".join(summary), encoding="utf-8")
+    home.append("  - title: '{} {}'".format(info['icon'], info['name_zh']))
+    home.append("    details: '{} · {} 条'".format(info.get('desc', ''), count))
+    home.append("    link: /{}".format(key))
+home.append("---")
+home.append("")
 
-# 各分类页面
+(SRC_DIR / "index.md").write_text("\n".join(home), encoding="utf-8")
+
+# === Category pages ===
 for key, info in categories.items():
-    cat_dir = SRC_DIR / key
-    cat_dir.mkdir(exist_ok=True)
     cat_entries = sorted(
         [e for e in active if e.get("category") == key],
         key=lambda x: (-x.get("quality_score", 0), x.get("added_date", ""))
     )
-    lines = [
-        f"# {info['icon']} {info['name_zh']}",
+    
+    page = [
+        "# {} {}".format(info['icon'], info['name_zh']),
         "",
-        f"{info.get('desc', '')} — 共 {len(cat_entries)} 条活跃资源",
+        "{} — 共 **{}** 条活跃资源".format(info.get('desc', ''), len(cat_entries)),
         "",
     ]
+    
     if not cat_entries:
-        lines.append("_暂无条目_")
+        page.append("_暂无条目_")
     else:
         for e in cat_entries:
-            lines.append(fmt_detail(e))
-            lines.append("---")
-            lines.append("")
-    (cat_dir / "README.md").write_text("\n".join(lines), encoding="utf-8")
+            page.append(fmt_entry(e))
+    
+    (SRC_DIR / "{}.md".format(key)).write_text("\n".join(page), encoding="utf-8")
 
-# Site README
-top10 = sorted(active, key=lambda x: (-x.get("quality_score", 0), x.get("github_stars", 0) or 0))[:10]
-site_home = [
+# === 仓库 README.md ===
+readme = [
     "# AI Field Notes",
     "",
-    "> AI 领域精选资源导航 — 有观点、有评分、每日自动更新",
-    "",
-    f"**{stats['total_entries']}** 条 | **{stats['this_week_added']}** 条本周新增 | {now.strftime('%Y-%m-%d')}",
+    "> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。608 条，中英双语。",
     "",
     "## ⭐ 精选 Top 10",
     "",
 ]
 for e in top10:
-    site_home.append(fmt_entry(e))
-site_home.extend(["", "## 分类导航", ""])
-for key, info in categories.items():
-    count = cat_counter.get(key, 0)
-    site_home.append(f"- [{info['icon']} {info['name_zh']} ({count})]({key}/README.md) — {info.get('desc', '')}")
-site_home.extend([
-    "",
-    "## 评分标准",
-    "",
-    "⭐⭐⭐⭐⭐ 必读 | ⭐⭐⭐⭐ 优秀 | ⭐⭐⭐ 值得一看 | ≤2 仅存档不展示",
-    "",
-    "---",
-    "",
-    f"*数据: [entries.json](../data/entries.json) · 由 [OpenClaw](https://github.com/openclaw/openclaw) 每日自动维护*",
-])
-(SRC_DIR / "README.md").write_text("\n".join(site_home), encoding="utf-8")
-
-# === 仓库 README.md ===
-readme_lines = [
-    "# AI Field Notes",
-    "",
-    "> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。608 条，中英双语。",
-    "",
-    "## ⭐ 本周精选",
-    "",
-]
-for e in top10:
-    title = e["title"]
+    title = esc(e["title"])
     url = e.get("url") or "#"
-    one_liner = e.get("one_liner", "")
-    readme_lines.append(f"- [{title}]({url}) — {one_liner}")
-readme_lines.extend(["", "## 分类导航", "", "| 分类 | 数量 | 说明 |", "|------|------|------|"])
+    one_liner = esc(e.get("one_liner", ""))
+    readme.append("- [{}]({}) — {}".format(title, url, one_liner))
+readme.extend(["", "## 分类导航", "", "| 分类 | 数量 | 说明 |", "|------|------|------|"])
 for key, info in categories.items():
     count = cat_counter.get(key, 0)
-    readme_lines.append(f"| {info['icon']} {info['name_zh']} | {count} | {info.get('desc', '')} |")
-readme_lines.extend([
+    readme.append("| {} {} | {} | {} |".format(info['icon'], info['name_zh'], count, info.get('desc', '')))
+readme.extend([
     "",
     "## 评分标准",
     "",
@@ -169,28 +218,14 @@ readme_lines.extend([
     "",
     "## 数据",
     "",
+    "- 在线站点：[godofgpt.com](https://godofgpt.com/)",
     "- 结构化数据：[`data/entries.json`](data/entries.json)（Agent 可直接消费）",
-    "- 在线站点：[mdbook 版](https://awesome-ai-field-notes.androidperformance.com/)",
     "- 贡献资源：开 [Issue](../../issues/new/choose)",
     "",
     "由 [OpenClaw](https://github.com/openclaw/openclaw) 每日自动维护 — 采集、去重、分类、评分、死链检测、站点生成，全流程无人值守。",
     "",
     "License: [CC BY-NC-SA 4.0](LICENSE)",
 ])
-README_PATH.write_text("\n".join(readme_lines), encoding="utf-8")
+README_PATH.write_text("\n".join(readme), encoding="utf-8")
 
-# book.toml
-(BASE_DIR / "book.toml").write_text(
-    '[book]\n'
-    'title = "AI Field Notes"\n'
-    'description = "AI 领域精选资源导航"\n'
-    'language = "zh"\n'
-    'src = "site-src"\n\n'
-    '[build]\nbuild-dir = "book"\n\n'
-    '[output.html]\n'
-    'default-theme = "light"\n'
-    'git-repository-url = "https://github.com/Gracker/awesome-ai-field-notes"\n',
-    encoding="utf-8"
-)
-
-print(f"✅ 站点生成完成: {stats['total_entries']} 条目, {stats['active_entries']} 活跃, {stats['this_week_added']} 本周新增")
+print("✅ 站点生成完成: {} 条目, {} 活跃, {} 本周新增".format(stats['total_entries'], stats['active_entries'], stats['this_week_added']))

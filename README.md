@@ -2,7 +2,7 @@
 
 > AI 领域精选资源导航 — 有观点、有评分、每日自动更新。608 条，中英双语。
 
-## ⭐ 本周精选
+## ⭐ 精选 Top 10
 
 - [搞懂缓存机制，从Gemma4到Claude Code省80%Token](https://x.com/MinLiBuilds/status/2041178722230030384) — 从 KV 缓存原理到 Claude Code 实战，系统讲透 token 省钱机制
 - [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773) — Anthropic 官方托管 Agent 基础设施，大脑/手/记忆三层解耦架构
@@ -32,8 +32,8 @@
 
 ## 数据
 
-- 结构化数据：[`data/entries.json`](data/entries.json)（Agent 可直接消费）
 - 在线站点：[godofgpt.com](https://godofgpt.com/)
+- 结构化数据：[`data/entries.json`](data/entries.json)（Agent 可直接消费）
 - 贡献资源：开 [Issue](../../issues/new/choose)
 
 由 [OpenClaw](https://github.com/openclaw/openclaw) 每日自动维护 — 采集、去重、分类、评分、死链检测、站点生成，全流程无人值守。
