@@ -1,30 +1,31 @@
 {
-  "total_entries": 124,
-  "active_entries": 115,
+  "total_entries": 155,
+  "active_entries": 146,
   "archived_entries": 9,
-  "this_week_added": 124,
+  "this_week_added": 155,
   "category_distribution": {
+    "agent-frameworks": 41,
     "coding-ai": 38,
     "industry-strategy": 25,
-    "agent-frameworks": 22,
+    "research-papers": 11,
     "prompt-engineering": 7,
     "agent-os": 7,
     "tutorials-learning": 7,
+    "inference-serving": 5,
     "models-providers": 4,
     "agent-protocols": 4,
-    "inference-serving": 3,
     "rag-knowledge": 3,
     "ai-products": 2,
-    "uncategorized": 1,
-    "research-papers": 1
+    "uncategorized": 1
   },
   "source_type_distribution": {
-    "x_post": 124
+    "x_post": 124,
+    "paper": 31
   },
   "language_distribution": {
-    "zh": 58,
+    "zh": 89,
     "both": 39,
     "en": 27
   },
-  "last_updated": "2026-04-10 13:20"
+  "last_updated": "2026-04-10 13:29"
 }

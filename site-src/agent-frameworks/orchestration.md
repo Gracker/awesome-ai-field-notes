@@ -1,6 +1,6 @@
 # 编排框架
 
-Orchestration — 16 条活跃资源
+Orchestration — 27 条活跃资源
 
 ### [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773) 
 by @RLanceMartin (2026-04-06) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
@@ -21,6 +21,76 @@ Note: this post is about building your own agents (agentic software engineering)
 By now you've probably used a few agents, or at least heard of Claude Code, Codex, or OpenClaw. Ever wondered what it takes to build your own?
 到目前为止，你可能已经使用过几个代理，或者至少听说过Claude Code、Codex或OpenClaw。
  `openclaw` `claude` `codex` `mcp` `agent` `agentic` `memory` `coding`
+
+---
+### [ARTEMIS - LLM 智能体的自动化进化优化](#) 
+ (2026-03-09) | ⭐⭐⭐⭐⭐ 5/5 | 🇨🇳
+
+**工具调用能力的新探索**
+
+**论文**: Evolving Excellence: Automated Optimization of LLM-based Agents  
+**精读日期**: 2026-03-09  
+**阅读者**: 高爷（AI 应用探索者）
+
+---
+
+## 一、核心问题
+
+### 1.1 论文要解决什么问题？
+
+**研究问题**: 如何自动化地优化基于 LLM 的智能体配置，以提升性能并降低成本？
+
+**子问题**:
+1. 智能体的哪些组件可以优化？（提示词、工具描述、参数）
+2. 如何联合优化多个相互依赖的组件？
+3. 如何在巨大的配置空间中高效搜索？
+4. 如何让非专家用户也能使用优化工具？…
+ `safety` `coding` `agent` `tool-use` `llm` `paper` `reasoning` `multi-agent`
+
+---
+### [迈向AI智能体可靠性科学](#) 
+ (2026-03-20) | ⭐⭐⭐⭐⭐ 5/5 | 🇨🇳
+
+**AI Agent 领域值得关注的研究工作**
+
+**论文标题**: Towards a Science of AI Agent Reliability
+
+**精读时间**: 2026-03-20
+**论文类型**: AI agent、 可靠性工程、 评估方法
+**技术栈**: LLM、 AI agent、 评估框架
+
+---
+## 1. 核心问题
+### 1.1 研究问题
+**如何系统化地评估AI智能体的可靠性？**
+### 1.2 问题背景
+**现实痛点**:
+1. **能力与可靠性的脱节**:
+   - 噩点:AI智能体在基准测试中表现优秀
+   - 现实:实际部署中频繁失败
+   - 原因:评估方法只关注准确率,忽略了行为的一致性、鲁…
+ `safety` `fine-tuning` `coding` `agent` `tool-use` `llm` `paper` `ai`
+
+---
+### [Agentic Code Reasoning](#) 
+ (2026-03-21) | ⭐⭐⭐⭐⭐ 5/5 | 🇨🇳
+
+**LLM 推理能力增强的新方法**
+
+论文试图解决什么问题？
+
+大语言模型（LLM）在代码生成和理解任务上表现出色（如 GitHub Copilot、GPT-4 Code Interpreter），但在深度代码推理方面仍有明显局限。具体问题包括：
+
+1. 表面模式匹配：LLM 往往基于关键词和表面模式，而非深度语义理解。例如，对代码 `if (x > 0) return x; else return -x;`，LLM 可能识别出"返回绝对值"，但无法推理出"如果 x 是负数，返回 -x 的数学意义"。
+
+2. 推理不一致：对同一代码的不同提问，LLM 可能给出矛盾答案。例如，问"这个函数的时间复杂度？"可能回答 O(n)，问"这个函数会超时吗？"可能回答"不会"，但两者矛盾。
+
+3. 缺乏可解释性：LLM 的推理过程是黑盒，难以验证结论正确性。开发者无法判断 LLM 的结论是基于真实理解还是表面模式。
+
+4. 执行依赖：部分方法（如 Program-of-Thought）依赖代码执行来验证推理，但存在安全风险（执行恶意代码）和环境限制（无法执行系统级操作）。
+
+论文的核心创新：提出"Agentic Code Reasoni…
+ `tools` `safety` `github` `coding` `agent` `llm` `paper` `reinforcement-learning`
 
 ---
 ### [Anthropic 今天发了一个新产品，可能会让一批做 AI 智能体基础设施的团队失业](https://x.com/dotey/status/2042017036931305667) 
@@ -115,6 +185,27 @@ OpenAI 内部有个团队，5 个月，3 个工程师，几乎不靠手写代码
  `openclaw` `codex` `agent` `memory`
 
 ---
+### [LLM Agent推理必要性](https://arxiv.org/abs/2503.11074) 
+ (2026-03-15) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**LLM 推理能力增强的新方法**
+
+# Exploring the Necessity of Reasoning in LLM-based Agent Scenarios
+
+**论文链接**：https://arxiv.org/abs/2503.11074  
+**阅读日期**：2026-03-15  
+**论文类型**：智能体框架 / 推理评估
+
+---
+
+## 一、核心问题（Core Problem）
+
+### 1.1 研究背景
+
+大型推理模型（LRMs，如DeepSeek-R1, Claude3.7-sonnet）的兴起，对传统基于大型语言模型（LLMs）的智能体框架带来了范式转变。这些新一代模型在逻辑演绎上更强大，但也带…
+ `agent` `llm` `paper` `reinforcement-learning` `reasoning` `ai`
+
+---
 ### [OpenClaw Memory 终极指南](https://x.com/lijiuer92/status/2025678747509391664) 
 by @李韭二 (2026-02-23) | ⭐⭐⭐ 3/5 | 🇨🇳
 
@@ -204,5 +295,94 @@ by @AI进化论-花生 (2026-03-10) | ⭐⭐⭐ 3/5 | 🇨🇳
 
 AI 进化论-花生发布的 98 页 OpenClaw 橙皮书，浏览量超 175 万，书签数 5713。这是 OpenClaw（龙虾）生态的重要实战手册文档。
  `OpenClaw` `橙皮书` `AI Agent` `实战手册` `开源`
+
+---
+### [LLM Agent 综述](#) 
+by @、26 页论文覆盖了大量工作，但对每个方法的批判性分析较浅 (2025-03-27) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Agent 领域系统性综述，适合建立全景认知**
+
+LLM Agent 领域研究碎片化严重：架构设计、协作模式、进化机制散落在不同工作中，缺乏统一的方法论框架来理解"Agent 如何构建、如何协作、如何进化"这一完整生命周期。
+
+---
+ `safety` `agent` `tool-use` `llm` `paper` `reinforcement-learning` `reasoning` `multi-agent`
+
+---
+### [Agent Skills综述](https://arxiv.org/abs/2602.12430) 
+by @**：arXiv (2026-03-24) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Agent 领域系统性综述，适合建立全景认知**
+
+如何将大型语言模型从单体模型转变为模块化、可动态扩展的智能体系统，同时确保安全性和可维护性。
+
+创新点
+1. 技能抽象层：提出基于SKILL.md的技能范式，实现渐进式披露
+2. 系统性综述：从架构、获取、部署、安全四个维度全面梳理Agent Skills生态
+3. 安全治理框架：提出技能信任与生命周期治理框架（四层门控权限模型）
+4. 实证分析：26.1%的社区技能包含漏洞，揭示安全紧迫性
+
+方法解读
+1. SKILL.md规范：YAML frontmatter + 三级渐进式披露（元数据→指令→资源）
+2. 技能获取方法：
+   - 人类创作（Anthropic Skills）
+   - 带技能库的强化学习（SAGE）
+   - 自主技能发现（SEAgent）
+   - 组合式技能合成
+3. 计算机使用智能体技术栈：GUI接地技术 + 多平台基准测试
+4. 安全分析：大规模漏洞扫描 + 恶意技能识别
+
+实验结果
+技能获取性能：
+- SAGE：任务完成率+8.9%，token消耗-59%
+- SEAgent：成功率从11.3%提升至34.5%
+- CUA-Skill：WindowsA…
+ `2026-03-24` `gui` `safety` `agent` `research` `llm` `reinforcement-learning` `survey`
+
+---
+### [Large Language Model Agent: A Survey](#) 
+by @来自多个机构，行文风格和深度不够统一 (2026-03-31) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Agent 领域系统性综述，适合建立全景认知**
+
+LLM Agent 领域研究碎片化严重，缺乏统一的分类框架。本文提出"构建-协作-进化"三维方法论体系，系统梳理 LLM Agent 从个体设计到多 Agent 协作再到持续进化的全生命周期。
+ `on-device` `safety` `agent` `llm` `paper` `reasoning` `multi-agent` `memory`
+
+---
+### [Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward](#) 
+by @、验证门和信任层级映射到渐进式部署权限——直接回应 26.1% 社区技能包含漏洞的严峻现实。 (2026-04-02) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**工具调用能力的新探索**
+
+LLM Agent 如何从"通用模型"进化为"可动态扩展专业技能的模块化系统"？ Agent Skills 作为一种新兴的抽象层，通过可组合的指令-代码-资源包，使 Agent 无需重训练即可按需加载专业能力。但这一范式在架构、获取、部署和安全方面面临系统性挑战。
+ `safety` `agent` `llm` `paper` `reinforcement-learning` `reasoning` `survey` `ai`
+
+---
+### [LLM Agent 方法论、应用与挑战综述](#) 
+by @**：Ming Zhang（北京大学） (2026-04-06) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Agent 领域系统性综述，适合建立全景认知**
+
+LLM Agent 正在从研究概念走向实际部署，但目前的研究呈现碎片化状态：构建方法、协作模式、进化机制分散在不同工作中，缺乏统一的方法论框架。如何系统化地理解和设计 LLM Agent 系统？
+ `safety` `agent` `llm` `paper` `reasoning` `multi-agent` `memory` `survey`
+
+---
+### [Large Language Model Agent: A Survey on Methodology, Applications and Challenges](#) 
+ (2026-04-07) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**Agent 领域系统性综述，适合建立全景认知**
+
+LLM Agent 到底是什么、怎么构建、怎么协作、怎么演化？ 本文试图用一套统一的方法论分类体系回答这个正在快速碎片化的领域的核心架构问题。这不是第 N 篇 "Agent 综述"——它的价值在于提出"构建-协作-演化"三维框架，把散落的研究线索串成了一条可追溯的架构演进路径。
+ `gui` `safety` `agent` `llm` `paper` `reinforcement-learning` `reasoning` `multi-agent`
+
+---
+### [Position: Episodic Memory is the Missing Piece for Long-Term LLM Agents](#) 
+by @**：Mathis Pink, Qinyuan Wu, Vy Ai Vo, Javier Turek, Jianing Mu, Alexander Huth, Mariya Toneva (2026-04-10) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**LLM Agent 记忆机制的深入研究**
+
+LLM Agent 在长时间、动态交互环境中运行时，如何实现持续学习和自适应？现有方法（长上下文、外部记忆、参数更新）为何无法完整支撑真正长期化的 Agent？
+
+---
+ `fine-tuning` `coding` `agent` `llm` `reasoning` `memory`
 
 ---
