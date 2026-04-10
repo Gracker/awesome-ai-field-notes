@@ -1,36 +1,55 @@
-# OpenClaw Task: 数据入库 (Intake)
+# OpenClaw Task: 存量阶段 — 日常入库 (Intake)
+
+## 前置条件
+初始化阶段完成（Phase 1-3 全部完成）。
 
 ## 目标
-从 RSS / X / Newsletter / 研究素材中提取有价值条目，写入 `data/entries.json`。
+增量发现新的 AI 内容，完整提取后写入 entries.json。
+
+## 执行频率
+每日 08:00 + 20:00
+
+## 与初始化阶段的核心区别
+初始化 scan：批量暴力提取，不分类不评分
+存量 intake：增量逐条处理，**完整提取（来源+摘要+图片+本地路径）+ 分类 + 评分**
 
 ## 执行流程
 
-### Phase 1: 信息源扫描
-- 检查 `intake/` 目录是否有待处理素材
-- 扫描 Obsidian 知识库中最近 24h 的 AI 相关内容
-- 检查本地收藏/书签中的新增内容
+### Phase 1: 信息发现
+- 检查 `intake/` 目录待处理素材
+- 扫描 Obsidian 中最近 24h 新增/修改的 AI 相关 .md 文件
+- RSS / Newsletter 抓取（如有配置）
 
-### Phase 2: 入库判断
-对每个候选条目执行：
-1. **去重**: URL 精确匹配 entries.json + 标题相似度 > 0.85
-2. **分类**: 根据 title + content 匹配 `metadata/categories.json` 中的二级分类
-   - 置信度 ≥ 0.7 → 自动分类
-   - 置信度 < 0.7 → `category: "uncategorized"`
-3. **评分**: 根据内容质量给出 1-5 分候选
-4. **one_liner**: 生成一句话点评候选（必须是判断性语句）
+### Phase 2: 完整提取（严格从文件提取，禁止捏造）
+读取 `data/SCHEMA.md` 获取字段定义，对每个候选：
 
-### Phase 3: 写入
-- 更新 `data/entries.json`
-- 新增条目默认 `status: "active"`
-- GitHub 项目: 尝试获取 stars（调用 refresh-stars.py 逻辑）
-- 运行 `python3 scripts/validate-schema.py` 确保合规
+1. **元数据提取**：title / url / source(platform, author, original_date)
+2. **内容提取**：summary_zh（100-300字）+ summary_en（英文原文时）
+3. **图片提取**：正则 `!\[.*?\]\((https?://[^)]+)\)`
+4. **本地路径**：`local_path` 相对 Obsidian 根
 
-### Phase 4: 日志
-- 在 `logs/` 下写入当日入库日志
-- 更新 `metadata/stats.json`
+### Phase 3: 分类 + 评分
+- 根据 title + summary_zh + tags 自动匹配分类
+- 根据 SCHEMA.md 评分依据给出 quality_score
+- 生成 one_liner 候选
+
+### Phase 4: 去重 + 写入
+- URL 精确去重
+- 标题相似度 > 0.85 去重
+- 写入 entries.json
+- `one_liner_author: "openclaw-pending"`（所有新条目待人工确认点评）
+
+### Phase 5: 验证 + 提交
+```bash
+python3 scripts/validate-schema.py
+python3 scripts/generate-site.py
+git add -A
+git commit -m "[openclaw] intake: daily — N entries added"
+git push origin main
+```
 
 ## 约束
-- 不修改已有条目的 quality_score（除非人工明确指示）
-- one_liner 是核心壁垒，生成候选后需标记待人工审核
-- GitHub 项目 stars 为 null 时标记待刷新
-- 单次入库不超过 20 条（避免数据质量下降）
+- 单次 ≤ 20 条
+- 不修改已有条目的 score/one_liner（除非人工指示）
+- 提取不到的字段设为 null，不编造
+- 英文原文必须提供中英双语摘要

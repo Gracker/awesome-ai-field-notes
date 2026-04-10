@@ -84,16 +84,48 @@ def score_badge(score):
 
 def format_entry(e):
     title = e["title"]
-    url = e["url"]
+    url = e.get("url") or "#"
     one_liner = e.get("one_liner", "")
     score = e.get("quality_score", 0)
     stars_str = f" ⭐{e['github_stars']:,}" if e.get("github_stars") else ""
     tags = " ".join(f"`{t}`" for t in e.get("tags", [])[:5])
     tag_str = f" {tags}" if tags else ""
     lang_badge = "🇨🇳" if e.get("language") == "zh" else ("🌐" if e.get("language") == "en" else "🌍")
+    source = e.get("source") or {}
+    author = source.get("author", "")
+    author_str = f" by @{author}" if author else ""
     
-    line = f"- [{title}]({url}) — {one_liner}{stars_str}{tag_str} {lang_badge}"
+    line = f"- [{title}]({url}){author_str} — {one_liner}{stars_str}{tag_str} {lang_badge}"
     return line
+
+def format_entry_detail(e):
+    """生成详细条目（含摘要），用于子分类页面"""
+    title = e["title"]
+    url = e.get("url") or "#"
+    one_liner = e.get("one_liner", "")
+    score = e.get("quality_score", 0)
+    summary = e.get("summary_zh", "")
+    stars_str = f" ⭐{e['github_stars']:,}" if e.get("github_stars") else ""
+    tags = " ".join(f"`{t}`" for t in e.get("tags", [])[:8])
+    tag_str = f" {tags}" if tags else ""
+    lang_badge = "🇨🇳" if e.get("language") == "zh" else ("🌐" if e.get("language") == "en" else "🌍")
+    source = e.get("source") or {}
+    author = source.get("author", "")
+    orig_date = source.get("original_date", "")
+    author_str = f"by @{author}" if author else ""
+    date_str = f" ({orig_date})" if orig_date else ""
+    
+    lines = [
+        f"### [{title}]({url}) {stars_str}",
+        f"{author_str}{date_str} | {'⭐' * score} {score}/5 | {lang_badge}",
+        f"",
+        f"**{one_liner}**",
+        f"",
+        summary,
+        f"{tag_str}",
+        f"",
+    ]
+    return "\n".join(lines)
 
 # 生成 overview.md
 overview_lines = [
@@ -178,8 +210,8 @@ for cat_key, cat_info in categories.items():
             child_lines.append("_暂无条目_")
         else:
             for e in child_entries:
-                child_lines.append(format_entry(e))
-                child_lines.append("")
+                child_lines.append(format_entry_detail(e))
+                child_lines.append("---")
         
         (cat_dir / f"{child_key}.md").write_text("\n".join(child_lines), encoding="utf-8")
 

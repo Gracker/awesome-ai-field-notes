@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-import-entries.py — 从 CSV/JSON 批量导入条目到 entries.json
+import-entries.py — 从 CSV/JSON/JSONL 批量导入条目到 entries.json (v2 schema)
 
 用法:
   python3 scripts/import-entries.py input.csv
@@ -8,7 +8,7 @@ import-entries.py — 从 CSV/JSON 批量导入条目到 entries.json
   python3 scripts/import-entries.py input.jsonl
 
 CSV 格式要求（表头）:
-  title, url, category, tags, source_type, language, one_liner, quality_score
+  title, url, platform, author, original_date, category, tags, source_type, language, summary_zh
 
 JSON/JSONL 格式: 每条与 entries.json entry schema 一致（id 可选，自动生成）
 """
@@ -16,7 +16,6 @@ JSON/JSONL 格式: 每条与 entries.json entry schema 一致（id 可选，自�
 import json
 import csv
 import sys
-import os
 from pathlib import Path
 from datetime import datetime
 
@@ -24,132 +23,107 @@ BASE_DIR = Path(__file__).parent.parent
 ENTRIES_PATH = BASE_DIR / "data" / "entries.json"
 
 def generate_id():
-    """生成 8 位简易 ID"""
     import random, string
     return "".join(random.choices(string.ascii_letters + string.digits, k=8))
-
-def load_categories():
-    with open(BASE_DIR / "metadata" / "categories.json", "r", encoding="utf-8") as f:
-        return json.load(f)
-
-def get_valid_categories(cats):
-    valid = set()
-    for cat_key, cat_info in cats.items():
-        for child_key in cat_info.get("children", {}):
-            valid.add(f"{cat_key}/{child_key}")
-    return valid
 
 def load_existing_entries():
     if ENTRIES_PATH.exists():
         with open(ENTRIES_PATH, "r", encoding="utf-8") as f:
             data = json.load(f)
         return data, data.get("entries", [])
-    return {"version": "1.0.0", "last_updated": "", "entries": []}, []
+    return {"version": "2.0.0", "schema_description": "", "last_updated": "", "entries": []}, []
 
 def dedup_check(entries, url, title):
-    """检查是否重复"""
-    for e in entries:
-        if e.get("url") == url:
-            return True
-        # 简单标题相似度
-        if e.get("title", "").lower() == title.lower():
-            return True
+    if url and any(e.get("url") == url for e in entries):
+        return True
+    if any(e.get("title", "").lower() == title.lower() for e in entries):
+        return True
     return False
 
+def make_entry(**kwargs):
+    """补全默认值的 entry 工厂"""
+    return {
+        "id": kwargs.get("id", generate_id()),
+        "title": kwargs.get("title", ""),
+        "url": kwargs.get("url") or None,
+        "source": {
+            "platform": kwargs.get("platform", "unknown"),
+            "author": kwargs.get("author") or None,
+            "original_date": kwargs.get("original_date") or None,
+        },
+        "category": kwargs.get("category", "uncategorized"),
+        "tags": kwargs.get("tags", []),
+        "source_type": kwargs.get("source_type", "article"),
+        "language": kwargs.get("language", "en"),
+        "summary_zh": kwargs.get("summary_zh", ""),
+        "summary_en": kwargs.get("summary_en") or None,
+        "one_liner": kwargs.get("one_liner", "待人工点评"),
+        "one_liner_author": kwargs.get("one_liner_author", "openclaw"),
+        "quality_score": kwargs.get("quality_score", 3),
+        "status": kwargs.get("status", "score-pending"),
+        "local_path": kwargs.get("local_path") or "",
+        "images": kwargs.get("images", []),
+        "added_date": kwargs.get("added_date", datetime.now().strftime("%Y-%m-%d")),
+        "updated_date": kwargs.get("updated_date") or None,
+        "github_stars": kwargs.get("github_stars") or None,
+        "related": kwargs.get("related", []),
+    }
+
 def import_csv(filepath, entries):
-    added = 0
-    skipped = 0
+    added, skipped = 0, 0
     with open(filepath, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
             url = row.get("url", "").strip()
             title = row.get("title", "").strip()
-            if not url or not title:
-                skipped += 1
-                continue
+            if not title:
+                skipped += 1; continue
             if dedup_check(entries, url, title):
-                skipped += 1
-                continue
-            
+                skipped += 1; continue
             tags = [t.strip() for t in row.get("tags", "").split(",") if t.strip()]
-            
-            entry = {
-                "id": generate_id(),
-                "title": title,
-                "url": url,
-                "category": row.get("category", "uncategorized").strip(),
-                "tags": tags,
-                "source_type": row.get("source_type", "article").strip(),
-                "language": row.get("language", "en").strip(),
-                "added_date": datetime.now().strftime("%Y-%m-%d"),
-                "updated_date": None,
-                "one_liner": row.get("one_liner", "").strip(),
-                "quality_score": int(row.get("quality_score", 3)),
-                "status": "active",
-                "github_stars": None,
-                "related": [],
-            }
+            entry = make_entry(
+                title=title, url=url,
+                platform=row.get("platform", "").strip() or "unknown",
+                author=row.get("author", "").strip() or None,
+                original_date=row.get("original_date", "").strip() or None,
+                category=row.get("category", "uncategorized").strip(),
+                tags=tags,
+                source_type=row.get("source_type", "article").strip(),
+                language=row.get("language", "en").strip(),
+                summary_zh=row.get("summary_zh", "").strip(),
+                summary_en=row.get("summary_en", "").strip() or None,
+            )
             entries.append(entry)
             added += 1
-    
     return added, skipped
 
 def import_json(filepath, entries):
-    added = 0
-    skipped = 0
+    added, skipped = 0, 0
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read().strip()
-    
-    if content.startswith("["):
-        items = json.loads(content)
-    else:
-        # JSONL
-        items = [json.loads(line) for line in content.split("\n") if line.strip()]
+    items = json.loads(content) if content.startswith("[") else [json.loads(l) for l in content.split("\n") if l.strip()]
     
     for item in items:
-        url = item.get("url", "").strip()
-        title = item.get("title", "").strip()
-        if not url or not title:
-            skipped += 1
-            continue
+        url = item.get("url", "")
+        title = item.get("title", "")
+        if not title:
+            skipped += 1; continue
         if dedup_check(entries, url, title):
-            skipped += 1
-            continue
-        
-        # 保留原有字段，补充默认值
-        entry = {
-            "id": item.get("id", generate_id()),
-            "title": title,
-            "url": url,
-            "category": item.get("category", "uncategorized"),
-            "tags": item.get("tags", []),
-            "source_type": item.get("source_type", "article"),
-            "language": item.get("language", "en"),
-            "added_date": item.get("added_date", datetime.now().strftime("%Y-%m-%d")),
-            "updated_date": item.get("updated_date", None),
-            "one_liner": item.get("one_liner", ""),
-            "quality_score": item.get("quality_score", 3),
-            "status": item.get("status", "active"),
-            "github_stars": item.get("github_stars", None),
-            "related": item.get("related", []),
-        }
+            skipped += 1; continue
+        entry = make_entry(**{k: v for k, v in item.items() if k != "id"})
         entries.append(entry)
         added += 1
-    
     return added, skipped
 
 def main():
     if len(sys.argv) < 2:
         print("用法: python3 scripts/import-entries.py <input.csv|json|jsonl>")
         sys.exit(1)
-    
     filepath = Path(sys.argv[1])
     if not filepath.exists():
-        print(f"❌ 文件不存在: {filepath}")
-        sys.exit(1)
+        print(f"❌ 文件不存在: {filepath}"); sys.exit(1)
     
     data, entries = load_existing_entries()
-    
     suffix = filepath.suffix.lower()
     print(f"📥 导入 {filepath.name} (当前 {len(entries)} 条)...")
     
@@ -158,16 +132,14 @@ def main():
     elif suffix in (".json", ".jsonl"):
         added, skipped = import_json(filepath, entries)
     else:
-        print(f"❌ 不支持的格式: {suffix}")
-        sys.exit(1)
+        print(f"❌ 不支持的格式: {suffix}"); sys.exit(1)
     
     data["entries"] = entries
     data["last_updated"] = datetime.now().strftime("%Y-%m-%d")
-    
     with open(ENTRIES_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     
-    print(f"✅ 导入完成: +{added} 新增, {skipped} 跳过(重复/缺失), 共 {len(entries)} 条")
+    print(f"✅ 导入完成: +{added} 新增, {skipped} 跳过, 共 {len(entries)} 条")
 
 if __name__ == "__main__":
     main()

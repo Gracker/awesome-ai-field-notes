@@ -1,10 +1,13 @@
-# OpenClaw Task: 数据维护 (Maintain)
+# OpenClaw Task: 存量阶段 — 周维护 (Maintain)
+
+## 前置条件
+初始化阶段完成。
 
 ## 目标
-定期维护 entries.json 的数据质量。
+维护 entries.json 数据质量。
 
 ## 执行频率
-每周一 02:00（OpenClaw cron）
+每周一 02:00
 
 ## 执行流程
 
@@ -14,24 +17,24 @@ GITHUB_TOKEN=<token> python3 scripts/refresh-stars.py
 ```
 
 ### 2. 时效归档
-扫描所有 `status: "active"` 条目：
-- `source_type` 为 `article` 或 `x_post`
-- `added_date` 距今 > 180 天
+- `source_type` 为 article 或 x_post
+- `added_date` > 180 天
 - `quality_score ≤ 3`
-→ 设置 `status: "archived"`
+→ `status: "archived"`
 
-### 3. 分类修正
-扫描 `category: "uncategorized"` 条目，尝试重新分类。
+### 3. 本地路径校验
+- 检查所有 active 条目的 `local_path` 是否在 Obsidian 中存在
+- 不存在的标记 `local_path_valid: false`（不删除条目）
 
-### 4. 统计更新
-运行 `python3 scripts/generate-site.py` 更新 stats.json + README。
+### 4. 图片校验（抽样）
+- 随机抽 20 条含 images 的条目
+- HTTP HEAD 检测图片 URL 是否可访问
+- 失效的标记但保留
 
-### 5. 日志
-在 `logs/` 下写入维护日志，包含：
-- 刷新了多少 stars
-- 归档了多少条目
-- 修正了多少分类
-
-## 约束
-- 归档操作需谨慎，只归档不删除
-- deprecated 项目（GitHub archived）不自动恢复
+### 5. 统计 + 提交
+```bash
+python3 scripts/generate-site.py
+git add -A
+git commit -m "[openclaw] maintain: weekly — N stars refreshed, M archived"
+git push origin main
+```
