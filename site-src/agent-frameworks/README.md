@@ -1,23 +1,32 @@
 # 🤖 Agent 框架
 
-Agent Frameworks & Libraries — 共 9 条活跃资源
+Agent Frameworks & Libraries — 共 18 条活跃资源
 
-## 编排框架 (6)
+## 编排框架 (13)
 
 - [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773) by @RLanceMartin — Anthropic 官方托管 Agent 基础设施，大脑/手/记忆三层解耦架构 `claude` `managed-agents` `anthropic` `agent-sdk` `infrastructure` 🌐
+- [Agentic Software Engineering](https://x.com/ashpreetbedi/status/2028176285575594465) by @ashpreetbedi — Agent 相关：Agentic Software Engineering `openclaw` `claude` `codex` `mcp` `agent` 🌍
 - [Anthropic 今天发了一个新产品，可能会让一批做 AI 智能体基础设施的团队失业](https://x.com/dotey/status/2042017036931305667) by @dotey — 中文深度解析 Claude Managed Agents 的产品定位、架构设计与企业案例 `claude` `managed-agents` `anthropic` `enterprise` `agent-infrastructure` 🇨🇳
 - [DeerFlow 2.0: ByteDance 开源超级 Agent 运行底座](https://github.com/bytedance/deer-flow) by @Bytedance — 字节跳动的超级 Agent 底座，LangGraph 重写，支持子 Agent 并行编排 `deer-flow` `bytedance` `langgraph` `langchain` `super-agent` 🌐
 - [How to set up OpenClaw Agents that actually get better Over Time](https://x.com/Saboo_Shubham_/status/2027463195150131572) by @Shubham Saboo — OpenClaw Agent 自改进的 40 天实战：靠 markdown 文件栈而非调 prompt `openclaw` `memory` `self-improvement` `agent-stack` `markdown` 🌐
+- [OpenClaw丨我的龙虾为自己种了一棵会迭代的记忆树](https://x.com/loryoncloud/status/2027865988558164186) by @Lory — OpenClaw 相关：OpenClaw丨我的龙虾为自己种了一棵会迭代的记忆树 `openclaw` `agent` `memory` `context-management` `github` 🌍
+- [Don't trust AI agents](https://x.com/Gavriel_Cohen/status/2027841164150178238) by @Gavriel_Cohen — Agent 相关：Don't trust AI agents `openclaw` `agent` `skill` 🌍
+- [工程师，开始给 Agent 打工了](https://x.com/wangray/status/2028132386756780220) by @wangray — Agent 相关：工程师，开始给 Agent 打工了 `openclaw` `codex` `agent` `memory` 🇨🇳
 - [OpenClaw Memory 终极指南](https://x.com/lijiuer92/status/2025678747509391664) by @李韭二 — OpenClaw 记忆系统实践指南，覆盖失忆、可发现性与长期维护 `openclaw` `memory` `agent` `long-term-context` 🇨🇳
 - [全面解析：如何部署 Conway Agent，开启链上 AI 生存游戏](https://x.com/JXiaoLoong/status/2024376180707905816) by @0xJA — 链上自主 AI Agent 的部署与运行指南，一体化沙盒平台 `conway` `on-chain-ai` `agent-deployment` `sandbox` 🇨🇳
+- [使用一个月 OpenClaw 的门槛与成本复盘](https://x.com/LotusDecoder/status/2028272613919965585) by @LotusDecoder — OpenClaw 相关：使用一个月 OpenClaw 的门槛与成本复盘 `openclaw` `claude` `agent` `hermes` `docker` 🌍
+- [alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox") by @alibaba — AI 实践：alibaba/OpenSandbox `openclaw` `claude` `codex` `agent` `coding` 🌍
+- [OpenClaw 记忆外挂：Tokens 消耗降低 72%](https://x.com/lxfater/status/2028320139368714644) by @lxfater — OpenClaw 相关：OpenClaw 记忆外挂：Tokens 消耗降低 72% `openclaw` `agent` `github` 🇨🇳
 
 ## 单Agent框架 (1)
 
 - [Hermes 从 0 到 1 教程](https://x.com/Pluvio9yte/status/2041571378021986486) by @Pluvio9yte — Nous Research 开源自改进 Agent 框架，内置持久记忆与 Skill 进化 `hermes` `nous-research` `self-improving` `agent` `memory` 🇨🇳
 
-## 多Agent框架 (1)
+## 多Agent框架 (3)
 
 - [OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team](https://x.com/elvissun/status/2025920521871716562) by @Elvis — 一人开发团队的 Agent Swarm 实战：OpenClaw 编排 + 多模型协作 `openclaw` `codex` `claude-code` `agent-swarm` `orchestration` 🌐
+- [Agent Frameworks Are Getting Squeezed](https://x.com/tonykipkemboi/status/2028564120338063859) by @tonykipkemboi — Agent 相关：Agent Frameworks Are Getting Squeezed `openclaw` `claude` `agent` `agentic` `automation` 🌍
+- [2026-03-03-1210-yibie-Shipping-at-Inference-Speed-Notes-2028650995153314299](https://x.com/yibie/status/2028650995153314299) by @yibie — AI 实践：2026-03-03-1210-yibie-Shipping-at-Infere `openclaw` `claude` `codex` `cursor` `agent` 🌍
 
 ## 极简实现 (1)
 

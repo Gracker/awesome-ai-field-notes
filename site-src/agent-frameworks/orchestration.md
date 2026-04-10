@@ -1,6 +1,6 @@
 # 编排框架
 
-Orchestration — 6 条活跃资源
+Orchestration — 13 条活跃资源
 
 ### [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773) 
 by @RLanceMartin (2026-04-06) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
@@ -9,6 +9,18 @@ by @RLanceMartin (2026-04-06) | ⭐⭐⭐⭐⭐ 5/5 | 🌐
 
 Anthropic 发布 Claude Managed Agents：预构建的可配置 Agent 运行底座，运行在托管基础设施上。三大核心概念：Agent（版本化配置）、Environment（沙盒模板）、Session（有状态运行）。四种用法：事件触发、定时、即发即忘、长时间任务。架构上将"大脑"（Claude+调度框架）、"手"（沙盒工具）、"记忆"（会话日志）解耦，支持独立故障恢复。
  `claude` `managed-agents` `anthropic` `agent-sdk` `infrastructure` `cloud-agent`
+
+---
+### [Agentic Software Engineering](https://x.com/ashpreetbedi/status/2028176285575594465) 
+by @ashpreetbedi (2026-03-02) | ⭐⭐⭐⭐⭐ 5/5 | 🌍
+
+**Agent 相关：Agentic Software Engineering**
+
+Note: this post is about building your own agents (agentic software engineering), not about using coding agents.
+注意：本文讨论的是构建自己的代理（代理软件工程），而不是使用编码代理。
+By now you've probably used a few agents, or at least heard of Claude Code, Codex, or OpenClaw. Ever wondered what it takes to build your own?
+到目前为止，你可能已经使用过几个代理，或者至少听说过Claude Code、Codex或OpenClaw。
+ `openclaw` `claude` `codex` `mcp` `agent` `agentic` `memory` `coding`
 
 ---
 ### [Anthropic 今天发了一个新产品，可能会让一批做 AI 智能体基础设施的团队失业](https://x.com/dotey/status/2042017036931305667) 
@@ -38,6 +50,71 @@ by @Shubham Saboo (2026-02-28) | ⭐⭐⭐⭐ 4/5 | 🌐
  `openclaw` `memory` `self-improvement` `agent-stack` `markdown`
 
 ---
+### [OpenClaw丨我的龙虾为自己种了一棵会迭代的记忆树](https://x.com/loryoncloud/status/2027865988558164186) 
+by @Lory (2026-03-01) | ⭐⭐⭐⭐ 4/5 | 🌍
+
+**OpenClaw 相关：OpenClaw丨我的龙虾为自己种了一棵会迭代的记忆树**
+
+文章较长 感谢阅读 或者直接把这篇推文的链接扔给你的龙虾
+最推荐看本文的「后话」这一部分
+前言
+如果你也用OpenClaw
+也在不停按照X上各种大佬的架构给它「优化」
+（三层架构/AI Agent的第N代/异步任务处理系统/龙虾的自我迭代...）
+那你一定对下面的场景不陌生：
+装了一堆架构，全是空文件夹📁
+熟悉吗？那些架构确实被引进了 或者说 那些优质架构的目录确实被引进了
+然后就没有然后了。
+文件夹空空如也，Agent 根本不会主动往里面写东西。你以为搭好了骨架，结果只是搭了个空壳。
+你的龙虾不会主动用这些架构
+你告诉 🦞：「你整理一下我们的东西吧哈哈 记得用新架构噢」。
+🦞 说：「好的！」
+然后它继续把所有东西都塞进一个巨大的 context 里，完全无视你精心设计的架构。
+为什么？我也不知道。
+迭代？还是你在手动帮他传宗接代❓
+你发现你的龙虾犯了同样的错误N次。
+你忍无可忍 问他：
+「你第几次犯这个错了 能不能记住 很烦啊」
+又或者说
+你打开记忆文件，手动添加一条规则。
+这确实可能帮你的龙虾迭代了
+问题是：你得自己去做这件事。
+ `openclaw` `agent` `memory` `context-management` `github`
+
+---
+### [Don't trust AI agents](https://x.com/Gavriel_Cohen/status/2027841164150178238) 
+by @Gavriel_Cohen (2026-03-01) | ⭐⭐⭐⭐ 4/5 | 🌍
+
+**Agent 相关：Don't trust AI agents**
+
+When you're building with AI agents, they should be treated as untrusted and potentially malicious. Whether it's prompt injection, a model trying to escape its sandbox, or something nobody's thought of yet, you shouldn't be trusting the agent. The right approach isn't better permission checks or smarter allowlists. It's architecture that assumes agents will misbehave and contains the damage when they do.
+当您使用人工智能代理进行构建时，它们应该被视为不受信任且可能是恶意的。无论是即时注入、试图逃离沙箱的模型，还是还没有人想到的东西，你都不应该信任代理。
+ `openclaw` `agent` `skill`
+
+---
+### [工程师，开始给 Agent 打工了](https://x.com/wangray/status/2028132386756780220) 
+by @wangray (2026-03-02) | ⭐⭐⭐⭐ 4/5 | 🇨🇳
+
+**Agent 相关：工程师，开始给 Agent 打工了**
+
+OpenAI 内部有个团队，5 个月，3 个工程师，几乎不靠手写代码，做出了一个内部产品。
+约 100 万行代码，约 1500 个 PR，人均每天 3.5 个 PR。
+这是什么概念？
+正常工程师一天能稳定交付一个 PR，已经算高效。3.5 个 PR，意味着产出被直接拉高到了另一个数量级。更夸张的是，这些代码大部分都不是工程师亲手敲出来的。
+这篇文章是 OpenAI 工程师写的，讲他们怎么用 Codex 从零构建一个叫 Harness 的内部工具。读完之后，我沉默了挺久。
+因为它把一件正在发生的事，讲得非常清楚：
+工程师的核心工作，正在从写代码，转向设计让 Agent 持续工作的环境。
+这句话很重要。
+这不是一句夸张的口号，也不是某种抽象比喻。它描述的是一个已经开始发生的角色迁移。
+他们实际在做什么？
+这 3 个工程师，日常工作的重点并不是埋头写实现，而是三件事：
+把需求拆成 Agent 可以执行的任务。
+把上下文整理成 Agent 能理解的环境。
+把反馈机制搭出来，让 Agent 的输出可以被验证、被纠正、被持续改进。
+写代码当然还在发生。只是它已经不再是最稀缺、最核心的那部分工作。
+ `openclaw` `codex` `agent` `memory`
+
+---
 ### [OpenClaw Memory 终极指南](https://x.com/lijiuer92/status/2025678747509391664) 
 by @李韭二 (2026-02-23) | ⭐⭐⭐ 3/5 | 🇨🇳
 
@@ -54,5 +131,51 @@ by @0xJA (2026-02-24) | ⭐⭐⭐ 3/5 | 🇨🇳
 
 介绍 Conway Agent 部署方法。Conway 把服务器（Conway Cloud/Sandbox）、AI 推理（Conway Compute）和域名封装到统一平台，使用 Credit 计费。定位为完全自主运行的 AI 系统。内容较简短，为归档节选。
  `conway` `on-chain-ai` `agent-deployment` `sandbox`
+
+---
+### [使用一个月 OpenClaw 的门槛与成本复盘](https://x.com/LotusDecoder/status/2028272613919965585) 
+by @LotusDecoder (2026-03-02) | ⭐⭐⭐ 3/5 | 🌍
+
+**OpenClaw 相关：使用一个月 OpenClaw 的门槛与成本复盘**
+
+这是一个一线使用者的一个月复盘，核心结论是：OpenClaw 当前更适合有技术维护能力、愿意投入基础设施与 API 成本、并能容忍不稳定性的用户。
+**@LotusDecoder** (LotusDecoder)
+🕐 Mon Mar 02 00:54:09 +0000 2026
+📊 ❤️ 52 🔁 3 🔖 27 👁️ 5,479 💬 11
+使用了一个月的openclaw，
+发现适合的人群相对较窄。
+- 有一定技术维护能力，部署和维修都需要动手，包括请得到人和使用 claude code 来拯救。
+- 对错误、掉线、杀自己包容性大，经常卡顿是很恼火的。
+- 愿意投入，硬件上隔离运行，云服务器，容器，独立mac。软件上花钱买优质api token。
+这一个月里，经过了，将小龙虾，从linux云服务器，开一个claudeflare的docker容器，搬到mac studio主用户下，再从主用户迁移到隔离用户。
+ `openclaw` `claude` `agent` `hermes` `docker`
+
+---
+### [alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox") 
+by @alibaba (2026-03-02) | ⭐⭐⭐ 3/5 | 🌍
+
+**AI 实践：alibaba/OpenSandbox**
+
+OpenSandbox is a general-purpose sandbox platform for AI applications. It provides unified sandbox lifecycle and execution APIs, and supports coding agents, GUI agents, evaluation, and RL training scenarios.
+OpenSandbox 是一个面向 AI 应用的通用沙箱平台，提供统一的沙箱生命周期与执行 API，覆盖编码 Agent、GUI Agent、评测和强化学习训练等场景。
+ `openclaw` `claude` `codex` `agent` `coding` `docker` `kubernetes` `github`
+
+---
+### [OpenClaw 记忆外挂：Tokens 消耗降低 72%](https://x.com/lxfater/status/2028320139368714644) 
+by @lxfater (2026-03-02) | ⭐⭐⭐ 3/5 | 🇨🇳
+
+**OpenClaw 相关：OpenClaw 记忆外挂：Tokens 消耗降低 72%**
+
+这篇 X Article 介绍了通过 MemOS Cloud 插件给 OpenClaw 增加外部记忆层，以降低 token 消耗并提升跨会话记忆稳定性，并进一步讨论了多 Agent 共享/分层记忆的协作模式。
+**By @lxfater** (铁锤人) · Mon Mar 02 04:03:00 +0000 2026
+📊 ❤️ 9 🔁 1 🔖 17 👁️ 612 💬 1
+📐 163 words
+你在用小龙虾时候有没有遇到这么个问题：
+小龙虾用久后，它老是记不住重要的东西，反而一些无关紧要的事情记得贼清楚。更要命的是，明明还搞点小任务，但是没过几天账单就爆炸了。
+究其原因，是 OpenClaw 的记忆机制的问题
+他每次对话都会把之前的对话附带上去，比如说像下面这个老哥，让 AI 写个代码。但是每聊一句，都要附带这个 python 代码上去，直接每次对话都干掉 15w token。
+这个问题目前还没见到官方有正式的解决方案。
+OpenClaw 的还有个问题是主动记忆的，也就是说，他记不记住你的东西，全看AI 的发挥。经常出现特别奇葩的情况，今天刚说的东西，转眼就忘记。
+ `openclaw` `agent` `github`
 
 ---
