@@ -40,7 +40,7 @@ HR 出身的非程序员，用 Obsidian + Claude Code 搭建了复杂个人工�
 
 ---
 
-### [Agentic Software Engineering](https://x.com/ashpreetbedi/status/2028176285575594465)
+### [Agentic Software Engineering](/entry/59mukx8s) 📄
 @ashpreetbedi · ⭐⭐⭐⭐⭐5  · 昨天
 
 Note: this post is about building your own agents (agentic software engineering), not about using coding agents.

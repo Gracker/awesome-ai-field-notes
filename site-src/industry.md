@@ -31,7 +31,7 @@ AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **51** 条活跃资源
 
 ---
 
-### [Karpathy：高度定制软件时代的到来](https://x.com/karpathy/status/2024583544157458452)
+### [Karpathy：高度定制软件时代的到来](/entry/rnjpbgtm) 📄
 @Andrej Karpathy · ⭐⭐⭐⭐⭐5 🌐 · 昨天
 
 Karpathy 用 1 小时 vibe code 了一个个人有氧运动追踪仪表板（~300 行代码），Claude 逆向了 Woodway 跑步机云 API。核心观点：1）App Store 的离散应用长尾概念已过时，LLM Agent 可以当场即兴创建定制应用；2）行业需要重配置为 Agent 原生的传感器和执行器服务。现在 1 小时完成的事，2 年前需要 10 小时，但理想状态应该是 1 分钟。99% 的产品还没有 AI 原生 CLI。
@@ -40,7 +40,7 @@ Karpathy 用 1 小时 vibe code 了一个个人有氧运动追踪仪表板（~30
 
 ---
 
-### [AI、矿产与澳洲经济：2026，澳洲能迎来&quot;新国运&quot;吗？](https://x.com/Stanleysobest/status/2027726669814136976)
+### [AI、矿产与澳洲经济：2026，澳洲能迎来&quot;新国运&quot;吗？](/entry/c3xq8hlt) 📄
 @Stanley · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
 
 约 8000 字深度分析 AI 重塑全球价值链利润分配。微笑曲线正在被 AI 改写：S&amp;P 500 无形资产占比从 1975 年的 17% 翻转到 2025 年的 92%。AI 推理成本 18 个月降 280 倍。杰文斯悖论在这一轮仍然成立但溢价分配方向彻底改变。&quot;会写代码&quot;从稀缺高薪技能变成廉价可复制能力。蛋糕变大了但切蛋糕的刀换了方向——切向物理世界（矿/电/芯片）。
@@ -49,7 +49,7 @@ Karpathy 用 1 小时 vibe code 了一个个人有氧运动追踪仪表板（~30
 
 ---
 
-### [The Businesses That Will Own 2028 (And the Ones That Won&#x27;t Survive)](https://x.com/Zephyr_hg/status/2027774076673028371)
+### [The Businesses That Will Own 2028 (And the Ones That Won&#x27;t Survive)](/entry/9z9o90bz) 📄
 @Zephyr_hg · ⭐⭐⭐⭐⭐5  · 昨天
 
 There&#x27;s a quiet shift happening right now. Some business models are about to explode. Others are already dying, they just don&#x27;t know it yet. Here&#x27;s how to tell the difference.
@@ -61,7 +61,7 @@ Two years from now, the business landscape is going to look completely different
 
 ---
 
-### [从 MCP 到 SKILL（II）：把调用层补齐](https://x.com/jolestar/status/2027717523379261489)
+### [从 MCP 到 SKILL（II）：把调用层补齐](/entry/re3mcqtn) 📄
 @jolestar · ⭐⭐⭐⭐⭐5  · 昨天
 
 从 MCP 到 SKILL（II）：把调用层补齐
