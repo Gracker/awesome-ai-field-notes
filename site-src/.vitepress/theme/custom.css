@@ -1,89 +1,87 @@
 /* AI Field Notes — Custom Theme */
 
 /* Entry cards */
-.content h3 {
+.content > h3 {
   border-bottom: none !important;
   margin-top: 0 !important;
-  margin-bottom: 4px !important;
-  padding-bottom: 0 !important;
-  font-size: 1.15em !important;
+  margin-bottom: 0 !important;
+  padding: 14px 18px !important;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px 8px 0 0;
+  transition: border-color 0.25s, box-shadow 0.25s;
+  font-size: 1.1em !important;
+  padding-top: 14px !important;
 }
 
-.content h3 a {
+.content > h3:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+.content > h3 a {
   color: var(--vp-c-brand-1) !important;
   text-decoration: none;
   font-weight: 600;
 }
 
-.content h3 a:hover {
+.content > h3 a:hover {
   text-decoration: underline;
 }
 
-.content h3 strong {
-  font-weight: 600;
-}
-
-/* Wrap each entry block (h3 + following content until hr) as a card */
-.content > h3 {
-  position: relative;
-  padding: 16px 20px;
-  margin-bottom: 0 !important;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
-  transition: border-color 0.25s, box-shadow 0.25s;
-}
-
-.content > h3:hover {
-  border-color: var(--vp-c-brand-1);
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
-}
-
-/* Meta line (bold one-liner) */
+/* Meta line (author · score · date) */
 .content > h3 + p:first-of-type {
-  margin-top: 4px !important;
+  margin-top: 0 !important;
   margin-bottom: 0 !important;
-  padding: 0 20px 8px 20px;
-  color: var(--vp-c-text-2) !important;
-  font-size: 0.88em !important;
-}
-
-/* Summary blockquote */
-.content > h3 + p:first-of-type + blockquote {
-  margin: 0 20px 8px 20px !important;
-  padding: 10px 14px !important;
-  background: var(--vp-c-bg) !important;
-  border-left: 3px solid var(--vp-c-brand-2) !important;
-  border-radius: 0 6px 6px 0;
-  font-size: 0.88em !important;
-  line-height: 1.7 !important;
-  color: var(--vp-c-text-2) !important;
-}
-
-/* Tags line */
-.content > h3 + p:first-of-type + blockquote + p,
-.content > h3 + p:first-of-type + p {
-  margin: 0 20px 0 20px !important;
-  padding: 0 20px 8px 20px;
+  padding: 0 18px 6px 18px !important;
+  background: var(--vp-c-bg-soft);
+  border-left: 1px solid var(--vp-c-divider);
+  border-right: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-3) !important;
   font-size: 0.82em !important;
 }
 
-/* Horizontal rule — invisible card separator */
+/* Body text (summary) */
+.content > h3 + p:first-of-type + p {
+  margin: 0 !important;
+  padding: 8px 18px 10px 18px !important;
+  background: var(--vp-c-bg-soft);
+  border-left: 1px solid var(--vp-c-divider);
+  border-right: 1px solid var(--vp-c-divider);
+  font-size: 0.9em !important;
+  line-height: 1.65 !important;
+  color: var(--vp-c-text-1) !important;
+}
+
+/* Tags */
+.content > h3 + p:first-of-type + p + p {
+  margin: 0 !important;
+  padding: 0 18px 10px 18px !important;
+  background: var(--vp-c-bg-soft);
+  border-left: 1px solid var(--vp-c-divider);
+  border-right: 1px solid var(--vp-c-divider);
+  border-bottom: 1px solid var(--vp-c-divider);
+  border-radius: 0 0 8px 8px;
+  font-size: 0.8em !important;
+}
+
+/* Invisible hr between cards */
 .content > h3 + hr,
 .content > h3 + p + hr,
 .content > h3 + p + p + hr,
-.content > h3 + p + blockquote + hr {
+.content > h3 + p + p + p + hr {
   border: none !important;
   margin: 0 !important;
-  height: 12px;
+  height: 10px;
 }
 
-/* Spacing between cards */
-.content > h3 + hr + h3,
-.content > h3 + p + hr + h3,
-.content > h3 + p + p + hr + h3,
-.content > h3 + p + blockquote + hr + h3 {
-  margin-top: 12px !important;
+/* Date group headers */
+.content > h2 {
+  margin-top: 28px !important;
+  margin-bottom: 12px !important;
+  padding-bottom: 6px !important;
+  border-bottom: 2px solid var(--vp-c-divider) !important;
+  font-size: 1.2em !important;
+  color: var(--vp-c-text-2) !important;
 }
 
 /* Category page title */
@@ -95,7 +93,7 @@
 .content > h1:first-child + p {
   color: var(--vp-c-text-2) !important;
   font-size: 0.95em !important;
-  margin-bottom: 24px !important;
+  margin-bottom: 20px !important;
 }
 
 /* Homepage hero tweaks */

@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
 """
 generate-site.py — 从 entries.json 生成 VitePress 站点
-
-用法: python3 scripts/generate-site.py
-读取: data/entries.json, metadata/categories.json
-输出: site-src/ 下的 index.md + 各分类 .md
+按日期分组，最新在前，格式统一
 """
 
 import json, os, sys, html as html_mod
 from datetime import datetime, timedelta
-from collections import Counter
+from collections import Counter, OrderedDict
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
@@ -20,7 +17,6 @@ README_PATH = BASE_DIR / "README.md"
 STATS_PATH = META_DIR / "stats.json"
 
 def esc(text):
-    """Escape HTML special chars in user content"""
     return html_mod.escape(str(text)) if text else ""
 
 def load_json(path):
@@ -33,6 +29,8 @@ entries = entries_data.get("entries", [])
 active = [e for e in entries if e.get("status") == "active" and e.get("quality_score", 0) >= 3]
 
 now = datetime.now()
+today_str = now.strftime("%Y-%m-%d")
+yesterday_str = (now - timedelta(days=1)).strftime("%Y-%m-%d")
 week_ago = (now - timedelta(days=7)).strftime("%Y-%m-%d")
 this_week = [e for e in entries if e.get("added_date", "") >= week_ago]
 
@@ -50,7 +48,7 @@ stats = {
 }
 STATS_PATH.write_text(json.dumps(stats, indent=2, ensure_ascii=False), encoding="utf-8")
 
-# === VitePress sidebar config ===
+# === VitePress config ===
 def build_sidebar():
     lines = [
         "import { defineConfig } from 'vitepress'",
@@ -93,51 +91,74 @@ config_path = SRC_DIR / ".vitepress" / "config.ts"
 config_path.parent.mkdir(exist_ok=True)
 config_path.write_text(build_sidebar(), encoding="utf-8")
 
-# === Favicon ===
+# Favicon
 favicon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><text y="28" font-size="28">⚡</text></svg>'
 pub_dir = SRC_DIR / "public"
 pub_dir.mkdir(exist_ok=True)
 (pub_dir / "favicon.svg").write_text(favicon, encoding="utf-8")
 
-# === Entry formatting (pure Markdown, no HTML) ===
+# === Date helpers ===
+def date_label(date_str):
+    if not date_str:
+        return None
+    if date_str == today_str:
+        return "今天"
+    if date_str == yesterday_str:
+        return "昨天"
+    return None  # will use raw date as header
+
+def date_sort_key(date_str):
+    """For sorting: today=0, yesterday=1, then descending date"""
+    if not date_str:
+        return (999, "")
+    if date_str == today_str:
+        return (0, "")
+    if date_str == yesterday_str:
+        return (1, "")
+    return (2, date_str)
+
+# === Entry formatting ===
 def fmt_entry(e):
-    """Format as a Markdown list item with inline metadata"""
     title = esc(e["title"])
     url = e.get("url") or "#"
-    one_liner = esc(e.get("one_liner", ""))
     score = e.get("quality_score", 0)
     gh_stars = e.get("github_stars")
-    stars_str = " ⭐{:,}".format(gh_stars) if gh_stars else ""
+    stars_str = " ⭐{:,.0f}".format(gh_stars) if gh_stars else ""
     lang = "🇨🇳" if e.get("language") == "zh" else ("🌐" if e.get("language") == "en" else "")
     source = e.get("source") or {}
     author = esc(source.get("author", ""))
-    author_str = " by @{}".format(author) if author else ""
-    summary = e.get("summary_zh", "") or e.get("summary_en", "")
-    summary = esc(summary)
-    
+    added = e.get("added_date", "")
+
+    # Body: prefer summary, fallback to one_liner
+    summary = (e.get("summary_zh", "") or e.get("summary_en", "") or "").strip()
+    one_liner = e.get("one_liner", "").strip()
+    body = esc(summary) if len(summary) >= 20 else esc(one_liner)
+
+    # Meta: author · score · date
+    meta_parts = []
+    if author:
+        meta_parts.append("@{}".format(author))
+    meta_parts.append("{}{} {}".format("⭐" * score, score, lang))
+    if added:
+        dl = date_label(added)
+        meta_parts.append(dl if dl else added)
+    meta_str = " · ".join(meta_parts)
+
     lines = [
         "### [{}]({}){}".format(title, url, stars_str),
-        "**{}**{} · ⭐{} {}/5 · {}".format(one_liner, author_str, "⭐" * score, score, lang),
+        meta_str,
     ]
-    if summary:
+    if body:
         lines.append("")
-        lines.append("> {}".format(summary))
-    tags = [esc(t) for t in e.get("tags", [])[:6]]
+        lines.append(body)
+    tags = [esc(t) for t in e.get("tags", [])[:5]]
     if tags:
         lines.append("")
-        lines.append("{}".format(" ".join("`{}`".format(t) for t in tags)))
+        lines.append(" ".join("`{}`".format(t) for t in tags))
     lines.append("")
     lines.append("---")
     lines.append("")
     return "\n".join(lines)
-
-def fmt_list_item(e):
-    title = esc(e["title"])
-    url = e.get("url") or "#"
-    one_liner = esc(e.get("one_liner", ""))
-    score = e.get("quality_score", 0)
-    lang = "🇨🇳" if e.get("language") == "zh" else ("🌐" if e.get("language") == "en" else "")
-    return "- [{}]({}) — {} {} {} {}/5".format(title, url, one_liner, "⭐" * score, lang, score)
 
 # === Homepage ===
 top10 = sorted(active, key=lambda x: (-x.get("quality_score", 0), x.get("github_stars", 0) or 0))[:10]
@@ -167,32 +188,46 @@ for key, info in categories.items():
     home.append("    link: /{}".format(key))
 home.append("---")
 home.append("")
-
 (SRC_DIR / "index.md").write_text("\n".join(home), encoding="utf-8")
 
-# === Category pages ===
+# === Category pages (grouped by date) ===
 for key, info in categories.items():
-    cat_entries = sorted(
-        [e for e in active if e.get("category") == key],
-        key=lambda x: (-x.get("quality_score", 0), x.get("added_date", ""))
-    )
-    
-    page = [
-        "# {} {}".format(info['icon'], info['name_zh']),
-        "",
-        "{} — 共 **{}** 条活跃资源".format(info.get('desc', ''), len(cat_entries)),
-        "",
-    ]
+    cat_entries = [e for e in active if e.get("category") == key]
     
     if not cat_entries:
-        page.append("_暂无条目_")
+        page = [
+            "# {} {}".format(info['icon'], info['name_zh']),
+            "",
+            "_暂无条目_",
+        ]
     else:
+        # Group by date, sort groups newest first
+        groups = OrderedDict()
         for e in cat_entries:
-            page.append(fmt_entry(e))
+            d = e.get("added_date", "") or "unknown"
+            groups.setdefault(d, []).append(e)
+        
+        # Sort groups: today first, yesterday second, then descending date
+        sorted_dates = sorted(groups.keys(), key=date_sort_key)
+        
+        page = [
+            "# {} {}".format(info['icon'], info['name_zh']),
+            "",
+            "{} — 共 **{}** 条活跃资源".format(info.get('desc', ''), len(cat_entries)),
+            "",
+        ]
+        
+        for d in sorted_dates:
+            label = date_label(d) or d
+            group_entries = sorted(groups[d], key=lambda x: (-x.get("quality_score", 0), x.get("github_stars", 0) or 0))
+            page.append("## 📅 {}".format(label))
+            page.append("")
+            for e in group_entries:
+                page.append(fmt_entry(e))
     
     (SRC_DIR / "{}.md".format(key)).write_text("\n".join(page), encoding="utf-8")
 
-# === 仓库 README.md ===
+# === README.md ===
 readme = [
     "# AI Field Notes",
     "",
