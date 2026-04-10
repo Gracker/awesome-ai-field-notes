@@ -1,14 +1,16 @@
 # 📖 教程与学习
 
-Tutorials & Learning — 共 0 条活跃资源
+Tutorials & Learning — 共 4 条活跃资源
 
-## 入门指南 (0)
+## 入门指南 (3)
 
-_暂无条目_
+- [Don't Waste Your Money on OpenClaw Until You've Done These 3 Things](https://x.com/milesdeutscher/status/2026037201591787801) by @Miles Deutscher — OpenClaw 上车前三步前置：思考→验证→再扩张 `openclaw` `setup` `roi` `workflow` `automation` 🌐
+- [OpenClaw 从中级到高级完整教程](https://x.com/onehopeA9/article/2026905651088339408) by @OneHopeA9 — OpenClaw 最系统的中高级教程，覆盖记忆/子Agent/Cron/Skill/多渠道 `openclaw` `tutorial` `agents-md` `memory` `cron` 🇨🇳
+- [新手劝退 OpenClaw：99% 的人根本不需要它](https://x.com/LawrenceW_Zen/article/2026872793187627276) by @劳伦斯 — 冷静的 OpenClaw 劝退文：先让 AI 介入日常工作，再考虑自动化 `openclaw` `critique` `transition-product` `expectation` 🇨🇳
 
-## 最佳实践 (0)
+## 最佳实践 (1)
 
-_暂无条目_
+- [OpenClaw 运行报错指南（上篇）](https://x.com/lijiuer92/status/2026639705933328582) by @李韭二 — OpenClaw macOS 运行报错排查指南，覆盖 Gateway 全链路 `openclaw` `troubleshooting` `gateway` `macos` `debug` 🇨🇳
 
 ## 演讲与视频 (0)
 

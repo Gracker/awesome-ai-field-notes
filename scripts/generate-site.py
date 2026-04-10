@@ -147,7 +147,7 @@ overview_lines = [
 if stats["category_distribution"]:
     overview_lines.append("### 分类分布")
     overview_lines.append("")
-    for cat, count in stats["category_distribution"].most_common():
+    for cat, count in sorted(stats["category_distribution"].items(), key=lambda x: -x[1]):
         name = categories.get(cat, {}).get("name_zh", cat)
         overview_lines.append(f"- **{name}**: {count} 条")
     overview_lines.append("")
@@ -155,7 +155,7 @@ if stats["category_distribution"]:
 if stats["source_type_distribution"]:
     overview_lines.append("### 来源分布")
     overview_lines.append("")
-    for src, count in stats["source_type_distribution"].most_common():
+    for src, count in sorted(stats["source_type_distribution"].items(), key=lambda x: -x[1]):
         overview_lines.append(f"- **{src}**: {count} 条")
     overview_lines.append("")
 
