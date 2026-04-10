@@ -1,43 +1,9 @@
 {
-  "last_scan": {
-    "date": "2026-04-10",
-    "directories_scanned": [
-      "DeepResearch",
-      "Claude",
-      "Claude Code 文档",
-      "AutoResearchClaw研究",
-      "Manus"
-    ],
-    "files_scanned": 81,
-    "entries_added": 24,
-    "entries_skipped": 0,
-    "total_entries": 191,
-    "commit": "3189e7c"
-  },
-  "directory": "调研/",
-  "scanned": 39,
-  "imported": 12,
-  "skipped_ai_unrelated": 4,
-  "skipped_sub_pages": 23,
-  "skipped_dup": 0,
-  "details": {
-    "skipped_android_perf": [
-      "Skill和 SOP 区别/SKILL.md",
-      "Skill和 SOP 区别/sop-cold-launch-analysis.md"
-    ],
-    "skipped_auto_generated": [
-      "graphify-out/GRAPH_REPORT.md"
-    ],
-    "skipped_sub_pages_note": "Anthropic 81K zh/reading merged into main entry; 21 course chapters covered by 02-实战课程中文版"
-  },
-  "cubox": {
-    "batch2": {
-      "status": "done",
-      "date": "2026-04-10",
-      "scanned": 90,
-      "added": 72,
-      "skipped": 18,
-      "total_entries": 351
-    }
-  }
+  "scanned_dirs": ["X 文章", "论文", "调研", "DeepResearch", "Claude", "Claude Code 文档", "AutoResearchClaw研究", "Manus", "Cubox"],
+  "current_batch": "初始化完成",
+  "total_scanned": 5100,
+  "total_imported": 608,
+  "total_skipped": 4492,
+  "last_scan": "2026-04-10 14:55",
+  "status": "initialization_complete"
 }
