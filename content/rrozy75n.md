@@ -1,11 +1,13 @@
+# TenacitOS: OpenClaw Mission Control Dashboard
+
+## English
 A real-time dashboard and control center for OpenClaw AI agent instances. Built with Next.js, React 19, and Tailwind CSS v4.
 
 TenacitOS lives inside your OpenClaw workspace and reads its configuration, agents, sessions, memory, and logs directly from the host. No extra database or backend required — OpenClaw is the backend.
 
-### Features
-
+**Core Features:**
 - 📊 System Monitor — Real-time VPS metrics (CPU, RAM, Disk, Network) + PM2/Docker status
-- 🤖 Agent Dashboard — All agents, their sessions, token usage, model, and activity status  
+- 🤖 Agent Dashboard — All agents, their sessions, token usage, model, and activity status
 - 💰 Cost Tracking — Real cost analytics from OpenClaw sessions (SQLite)
 - ⏰ Cron Manager — Visual cron manager with weekly timeline, run history, and manual triggers
 - 📋 Activity Feed — Real-time log of agent actions with heatmap and charts
@@ -17,141 +19,80 @@ TenacitOS lives inside your OpenClaw workspace and reads its configuration, agen
 - 📺 Terminal — Read-only terminal for safe status commands
 - 🔐 Auth — Password-protected with rate limiting and secure cookie
 
-### Requirements
+**Architecture:**
+- Reads directly from OpenClaw workspace at /root/.openclaw/
+- Auto-discovers agents from openclaw.json
+- No database required — uses SQLite for cost tracking
+- Built with Next.js 15, React 19, and Tailwind CSS v4
+- 3D office powered by React Three Fiber
 
-- Node.js 18+ (tested with v22)
-- OpenClaw installed and running on the same host
-- PM2 or systemd (recommended for production)
-- Caddy or another reverse proxy (for HTTPS in production)
+**Installation:**
+```bash
+cd /root/.openclaw/workspace
+git clone https://github.com/carlosazaustre/tenacitOS.git mission-control
+cd mission-control
+npm install
+cp .env.example .env.local
+# Edit .env.local with your configuration
+npm run build
+npm start
+```
 
-### Installation
-
-1. Clone the repository:
-
-up to date, audited 576 packages in 2s
-
-218 packages are looking for funding
-  run `npm fund` for details
-
-9 vulnerabilities (4 moderate, 5 high)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues, run:
-  npm audit fix --force
-
-Run `npm audit` for details.
-
-2. Copy and edit environment:
-
-
-3. Set authentication:
-hRUC2huCvFk0WuMimO27/3QzJ3pnMAHtG0TDUy81UfI=
-JIMoX524uFaU6wMMs4n75zdR
-
-4. Copy example data files:
-
-
-5. Start the application:
-
-
-### Technology Stack
-
-- **Framework**: Next.js 15 (App Router)
-- **UI**: React 19 + Tailwind CSS v4
-- **3D**: React Three Fiber + Drei
-- **Charts**: Recharts
-- **Icons**: Lucide React
-- **Database**: SQLite (better-sqlite3)
-- **Runtime**: Node.js 22
+**Authentication:**
+- Password-protected with strong password requirement
+- Rate limiting: 5 failed attempts → 15-minute lockout per IP
+- Secure cookies with httpOnly, sameSite: lax, secure in production
 
 ## 中文
+OpenClaw AI 实例的实时仪表板和控制中心。使用 Next.js、React 19 和 Tailwind CSS v4 构建。
 
-TenacitOS 是一个用于 OpenClaw AI Agent 实例的实时仪表板和控制中心。使用 Next.js、React 19 和 Tailwind CSS v4 构建。
+TenacitOS 位于您的 OpenClaw 工作区内，直接从主机读取其配置、代理、会话、内存和日志。不需要额外的数据库或后端——OpenClaw 就是后端。
 
-TenacitOS 驻留在您的 OpenClaw 工作区内，直接从主机读取其配置、Agent、会话、记忆和日志。无需额外的数据库或后端——OpenClaw 就是后端。
+**核心功能：**
+- 📊 系统监控器 - 实时 VPS 指标（CPU、RAM、磁盘、网络）+ PM2/Docker 状态
+- 🤖 代理仪表板 - 所有代理、其会话、令牌使用、模型和活动状态
+- 💰 成本跟踪 - 来自 OpenClaw 会话的实时成本分析（SQLite）
+- ⏰ Cron 管理器 - 可视化 cron 管理器，包含周时间线、运行历史和手动触发器
+- 📋 活动源 - 代理操作的实时日志，包含热力图和图表
+- 🧠 内存浏览器 - 探索、搜索和编辑代理内存文件
+- 📁 文件浏览器 - 浏览工作区文件，支持预览和浏览器内编辑
+- 🔎 全局搜索 - 在内存和工作区文件中全文搜索
+- 🔔 通知中心 - 实时通知中心，带有未读标记
+- 🏢 3D 办公室 - 每个代理一个桌面的交互式 3D 办公室（React Three Fiber）
+- 📺 终端 - 用于安全状态命令的只读终端
+- 🔐 身份验证 - 密码保护，带有速率限制和安全 cookie
 
-### 功能特性
+**架构特点：**
+- 直接从 /root/.openclaw/ 读取 OpenClaw 工作区
+- 从 openclaw.json 自动发现代理
+- 不需要数据库 - 使用 SQLite 进行成本跟踪
+- 使用 Next.js 15、React 19 和 Tailwind CSS v4 构建
+- 3D 办公室由 React Three Fiber 驱动
 
-- 📊 系统监控器 — 实时 VPS 指标（CPU、RAM、磁盘、网络）+ PM2/Docker 状态
-- 🤖 Agent 仪表板 — 所有 Agent、其会话、Token 使用量、模型和活动状态
-- 💰 成本追踪 — 来自 OpenClaw 会话的实时成本分析（SQLite）
-- ⏰ Cron 管理器 — 可视化 Cron 管理器，包含时间线、运行历史和手动触发
-- 📋 活动源 — Agent 操作的实时日志，包含热图和图表
-- 🧠 记忆浏览器 — 探索、搜索和编辑 Agent 记忆文件
-- 📁 文件浏览器 — 浏览工作区文件，支持预览和浏览器内编辑
-- 🔎 全局搜索 — 跨记忆和工作区文件的全文搜索
-- 🔔 通知中心 — 实时通知中心，包含未读标记
-- 🏢 3D 办公室 — 每个 Agent 一个桌面的交互式 3D 办公室（React Three Fiber）
-- 📺 终端 — 安全状态命令的只读终端
-- 🔐 身份验证 — 带有速率限制和安全 Cookie 的密码保护
+**安装步骤：**
+```bash
+cd /root/.openclaw/workspace
+git clone https://github.com/carlosazaustre/tenacitOS.git mission-control
+cd mission-control
+npm install
+cp .env.example .env.local
+# 编辑 .env.local 配置文件
+npm run build
+npm start
+```
 
-### 要求
+**身份验证：**
+- 密码保护，需要强密码
+- 速率限制：5次失败尝试 → 每IP 15分钟锁定
+- 安全 cookie，生产环境中启用 httpOnly、sameSite: lax、secure
 
-- Node.js 18+（已在 v22 上测试）
-- OpenClaw 安装并在同一主机上运行
-- PM2 或 systemd（生产环境推荐）
-- Caddy 或其他反向代理（生产环境 HTTPS）
+**技术栈：**
+- 框架：Next.js 15（应用路由器）
+- UI：React 19 + Tailwind CSS v4
+- 3D：React Three Fiber + Drei
+- 图表：Recharts
+- 图标：Lucide React
+- 数据库：SQLite（better-sqlite3）
+- 运行时：Node.js 22
 
-### 安装
-
-1. 克隆仓库：
-
-up to date, audited 576 packages in 2s
-
-218 packages are looking for funding
-  run `npm fund` for details
-
-9 vulnerabilities (4 moderate, 5 high)
-
-To address issues that do not require attention, run:
-  npm audit fix
-
-To address all issues, run:
-  npm audit fix --force
-
-Run `npm audit` for details.
-
-2. 复制并编辑环境变量：
-
-
-3. 设置身份验证：
-neUIblZo3JpMoN0jJQifeKwV/To4oq1+dc9/XR0nCKU=
-ZzFZMGnnAyUNI5iZXyuUT9Zk
-
-4. 复制示例数据文件：
-
-
-5. 启动应用程序：
-
-
-### 技术栈
-
-- **框架**: Next.js 15 (App Router)
-- **UI**: React 19 + Tailwind CSS v4
-- **3D**: React Three Fiber + Drei
-- **图表**: Recharts
-- **图标**: Lucide React
-- **数据库**: SQLite (better-sqlite3)
-- **运行时**: Node.js 22
-
-### 安全特性
-
-- 所有路由（包括所有 /api/*）都需要身份验证
-- 登录被限制：5 次失败尝试 → 每个 IP 锁定 15 分钟
-- Auth cookie 是 httpOnly、sameSite: lax，生产环境中是安全的
-- 终端 API 使用严格的命令允许列表 - 阻止 env、curl、wget、node、python
-- 永远不要提交 .env.local - 它包含您的凭据
-
-## 许可证
-
-MIT - 查看 [LICENSE](https://github.com/carlosazaustre/tenacitOS/blob/main/LICENSE)
-
----
-
-相关链接：
-- [OpenClaw](https://openclaw.ai) — 这个仪表板构建的 AI Agent 运行时
-- [OpenClaw 文档](https://docs.openclaw.ai)
-- [Discord 社区](https://discord.com/invite/clawd)
-- [GitHub 问题](https://github.com/carlosazaustre/tenacitOS/issues) — 错误报告和功能请求
+该项目是 OpenClaw 的官方监控仪表板，提供了全面的管理界面，让用户能够实时监控和管理他们的 AI 代理实例。

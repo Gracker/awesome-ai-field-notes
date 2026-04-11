@@ -1,108 +1,70 @@
+# Agent-Skills-for-Context-Engineering：面向上下文工程的开放技能库
+
+## English
 A comprehensive, open collection of Agent Skills focused on context engineering principles for building production-grade AI agent systems. These skills teach the art and science of curating context to maximize agent effectiveness across any agent platform.
 
-[DeepWiki: Learn more here](https://deepwiki.com/muratcankoylan/Agent-Skills-for-Context-Engineering)
+**Context Engineering Fundamentals:**
+- Context engineering is the discipline of managing the language model's context window
+- Unlike prompt engineering, context engineering addresses holistic curation of all information that enters the model's limited attention budget
+- Fundamental challenge: context windows are constrained by attention mechanics, not raw token capacity
+- Effective context engineering means finding the smallest possible set of high-signal tokens
 
-Context engineering is the discipline of managing the language model's context window. Unlike prompt engineering, which focuses on crafting effective instructions, context engineering addresses the holistic curation of all information that enters the model's limited attention budget: system prompts, tool definitions, retrieved documents, message history, and tool outputs.
+**Core Skill Categories:**
+1. **Context Fundamentals** - Understanding what context is, why it matters, and anatomy of context in agent systems
+2. **Context Degradation** - Recognizing patterns of context failure: lost-in-middle, poisoning, distraction, and clash
+3. **Context Compression** - Designing compression strategies for long-running sessions
+4. **Multi-Agent Patterns** - Mastering orchestrator, peer-to-peer, and hierarchical multi-agent architectures
+5. **Memory Systems** - Designing short-term, long-term, and graph-based memory architectures
+6. **Tool Design** - Building tools that agents can use effectively
 
-The fundamental challenge is that context windows are constrained not by raw token capacity but by attention mechanics. As context length increases, models exhibit predictable degradation patterns: the "lost-in-the-middle" phenomenon, U-shaped attention curves, and attention scarcity. Effective context engineering means finding the smallest possible set of high-signal tokens that maximize the likelihood of desired outcomes.
+**Key Features:**
+- Each skill is structured for efficient context use
+- Agents load only skill names and descriptions at startup
+- Full content loads only when a skill is activated for relevant tasks
+- Platform-agnostic principles work across Claude Code, Cursor, and any agent platform
+- Skills are automatically discovered and activated based on task context
 
-This repository is cited in academic research as foundational work on static skill architecture:
+**Integration Examples:**
+- Digital Brain Skill: Complete personal operating system with 6 modules and 4 automation scripts
+- X-to-Book System: Multi-agent system that monitors X accounts and generates daily synthesized books
+- LLM-as-Judge Skills: Production-ready LLM evaluation tools with TypeScript implementation
 
-"While static skills are well-recognized [Anthropic, 2025b; Muratcan Koylan, 2025], MCE is among the first to dynamically evolve them, bridging manual skill engineering and autonomous self-improvement."
+## 中文
+面向上下文工程的开放技能库，专注于构建生产级 AI 代理系统的原则和最佳实践。这些技能教授艺术和科学，用于策划上下文以在任何代理平台上最大化代理的有效性。
 
-— [Meta Context Engineering via Agentic Skill Evolution](https://arxiv.org/pdf/2601.21557), Peking University State Key Laboratory of General Artificial Intelligence (2026)
+**上下文工程基础：**
+- 上下文工程是管理语言模型上下文窗口的学科
+- 与提示工程不同，上下文工程处理进入模型有限注意力预算的所有信息的整体策划
+- 根本挑战：上下文窗口受到注意力机制的限制，而非原始令牌容量
+- 有效的上下文工程意味着找到最小的高信号令牌集合
 
-These skills establish the foundational understanding required for all subsequent context engineering work.
+**核心技能类别：**
+1. **上下文基础** - 理解什么是上下文、为什么重要以及代理系统中上下文的构成
+2. **上下文退化** - 识别上下文失败的模式：中间丢失、中毒、分心和冲突
+3. **上下文压缩** - 为长时间运行的会话设计压缩策略
+4. **多代理模式** - 掌握编排器、对等和分层多代理架构
+5. **记忆系统** - 设计短期、长期和基于图的记忆架构
+6. **工具设计** - 构建代理可以有效使用的工具
 
-### 基础技能 (Fundamental Skills)
+**主要特性：**
+- 每个技能都结构化为高效使用上下文
+- 代理在启动时只加载技能名称和描述
+- 仅在为相关任务激活技能时才加载完整内容
+- 平台无关的原则适用于 Claude Code、Cursor 和任何代理平台
+- 技能根据任务上下文自动发现和激活
 
-| Skill | Description |
-|-------|-------------|
-| [context-fundamentals](/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-fundamentals) | 理解上下文是什么、为什么重要，以及 Agent 系统中上下文的结构 |
-| [context-degradation](/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-degradation) | 识别上下文失效的模式：丢失在中间、毒化、干扰和冲突 |
-| [context-compression](/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-compression) | 为长时间运行的会话设计并评估压缩策略 |
+**集成示例：**
+- 数字大脑技能：包含6个模块和4个自动化脚本的完整个人操作系统
+- X转书系统：监控X账户并生成每日合成书籍的多代理系统
+- LLM作为评判者技能：带有TypeScript实现的生产就绪LLM评估工具
 
-### 架构技能 (Architecture Skills)
+**安装和使用：**
+```bash
+# 在 Claude Code 中添加插件市场
+/plugin marketplace add muratcankoylan/Agent-Skills-for-Context-Engineering
 
-| Skill | Description |
-|-------|-------------|
-| [multi-agent-patterns](/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/multi-agent-patterns) | 掌握编排器、点对点和分层多 Agent 架构 |
-| [memory-systems](/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/memory-systems) | 设计短期、长期和基于图的记忆架构 |
-| [tool-design](/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/tool-design) | 构建 Agent 可以有效使用的工具 |
-| [filesystem-context](/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/filesystem-context) | 使用文件系统进行动态上下文发现、工具输出卸载和计划持久化 |
-| [hosted-agents](/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/hosted-agents) | NEW 在沙盒 VM 中构建后台编码 Agent，支持预构建镜像、多人游戏支持和多客户端接口 |
+# 安装插件
+/plugin install context-engineering@context-engineering-marketplace
+```
 
-### 优化技能 (Optimization Skills)
-
-| Skill | Description |
-|-------|-------------|
-| [context-optimization](/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/context-optimization) | 应用压缩、掩蔽和缓存策略 |
-| [evaluation](/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/evaluation) | 构建 Agent 系统的评估框架 |
-| [advanced-evaluation](/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/advanced-evaluation) | 掌握 LLM 作为法官的技术：直接评分、成对比较、评分标准生成和偏见缓解 |
-
-### 元级技能 (Meta-level Skills)
-
-| Skill | Description |
-|-------|-------------|
-| [project-development](/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/project-development) | 从概念到部署设计并构建 LLM 项目，包括任务模型匹配分析、流水线架构和结构化输出设计 |
-
-### 认知建模技能 (Cognitive Modeling Skills)
-
-| Skill | Description |
-|-------|-------------|
-| [bdi-mental-states](/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/main/skills/bdi-mental-states) | NEW 使用正式的 BDI 本体模式将外部 RDF 上下文转换为 Agent 心智状态（信念、愿望、意图），用于推理和可解释性 |
-
-## 技能结构 (Skill Structure)
-
-每个技能都为高效的上下文使用而设计。在启动时，Agent 只加载技能名称和描述。仅在激活相关任务时才加载完整内容。
-
-这些技能专注于可转移的原则，而非供应商特定的实现。这些模式适用于 Claude Code、Cursor 以及任何支持技能或允许自定义指令的 Agent 平台。
-
-## 快速开始 (Quick Start)
-
-### 步骤 1：添加市场 (Step 1: Add the Marketplace)
-
-在 Claude Code 中运行以下命令将此存储库注册为插件源：
-
-
-
-### 步骤 2：安装插件 (Step 2: Install the Plugin)
-
-**选项 A - 浏览并安装：**
-- 选择浏览和安装插件
-- 选择 context-engineering-marketplace
-- 选择 context-engineering
-- 选择立即安装
-
-**选项 B - 直接安装命令：**
-
-
-
-这将安装所有 13 个技能的单个插件。技能会根据您的任务上下文自动激活。
-
-## 示例与案例研究 (Examples & Case Studies)
-
-这个存储库包含完整的系统设计，展示了多个技能在实践中如何协同工作。
-
-### 数字大脑技能 (Digital Brain Skill)
-一个创始人和创造者的个人操作系统，包含 6 个模块和 4 个自动化脚本。
-
-### X 到书籍系统 (X-to-Book System)
-监控 X 账户并生成日常合成书籍的多 Agent 系统。
-
-### LLM 作为法官技能 (LLM-as-Judge Skills)
-具有 TypeScript 实现和生产就绪的 LLM 评估工具，包含 19 个通过测试。
-
-### 书本 SFT 流水线 (Book SFT Pipeline)
-训练模型以任何作者的写作风格，包括使用 70% 人类分数在 Pangram 上的格特鲁德·斯坦案例研究，总成本 2 美元。
-
-## 贡献指南 (Contributing)
-
-此存储库遵循 Agent 开源开发模型。欢迎来自更广泛生态系统的贡献。当做出贡献时：
-
-- 遵循 Agent 技能规范
-- 确保新技能与现有技能一致
-- 提供清晰的文档和示例
-- 进行适当的测试和验证
-
-这个项目旨在成为上下文工程实践的综合资源，帮助开发人员构建更有效、更可靠的 AI Agent 系统。
+该库已被学术界引用为静态技能架构的基础工作，是构建和优化代理系统的重要资源。
