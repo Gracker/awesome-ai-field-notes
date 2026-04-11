@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema_description": "每条记录必须基于实际文件内容提取，禁止捏造。英文原文需提供中英双语摘要。",
-  "last_updated": "2026-04-10",
+  "last_updated": "2026-04-11",
   "entries": [
     {
       "id": "7n5hkzn5",
@@ -20827,6 +20827,81 @@
       "local_path": "Cubox/🧭 Midjourney 学习导航 - Learning Prompt-2023-04-09.md",
       "images": [],
       "added_date": "2026-04-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cc15hq4t",
+      "title": "万字干货：理解 Harness Engineering，看这一篇就够了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMTY4NTAyNQ==&mid=2247508809&idx=1&sn=960d705ab56f992ed504a2b735a2a515&chksm=c01058c5a61218b4325b419bb9aef60912b08ceee3d806aed873428b472303d88a9473e4ed3d",
+      "source": {
+        "platform": "wechat",
+        "author": "咸鱼（TRAE 开发者用户）",
+        "original_date": "2026-04-11"
+      },
+      "category": "agent-frameworks/harness-engineering",
+      "tags": [
+        "harness-engineering",
+        "ai-agent",
+        "prompt-engineering",
+        "context-engineering",
+        "llm",
+        "sandbox",
+        "observability"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Harness Engineering 是继 Prompt Engineering 和 Context Engineering 之后 2026 年 AI 领域的核心工程方法论，由 HashiCorp 联合创始人 Mitchell Hashimoto 提出。核心比喻是缰绳：AI Agent = SOTA 模型（野马）+ Harness（驾驭系统）= 千里马。文章系统性拆解了 Harness 的设计目标（R.E.S.T 模型：可靠性、效率、安全性、可观测性）、四层架构（控制平面+数据平面）、核心运行机制（REPL 容器抽象、Token 转化流水线、Function Calling 生命周期）、规划模式（Plan-and-Execute 为主）、沙盒执行框架（从进程级到 VM 级四档隔离）以及度量体系。适合 Agent 系统工程师建立完整的工程化框架认知。",
+      "summary_en": null,
+      "one_liner": "2026 年最系统的 Harness Engineering 中文解析，从理论框架到工程落地覆盖完整，Agent 工程师必读",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/万字干货：理解 Harness Engineering，看这一篇就够了-2026-04-11.md",
+      "images": [
+        "https://mmbiz.qpic.cn/sz_mmbiz_png/5lJ4HUd9eVOFzfibCXf4FF14mIibnCibpsBuFtepI8COqT9XiagLUxGRo4d9Pkp62QznuBV1aP5RZ3Qr8ulStSMiaQDloPw5ZUIXdnUEibGaeKO3g/640",
+        "https://mmbiz.qpic.cn/mmbiz_png/5lJ4HUd9eVPpl007laEwZxRefQ7yre0JzrUMZ1zlMUjZ1zUjSkZIjR2ibXAoTDR49ELccYVCAtQQOCeTpWQTyUFsgtMOoiaM41cQg4mxqLkMw/640"
+      ],
+      "added_date": "2026-04-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "n3m8itb5",
+      "title": "破局Agent时代：ARIES RISCV+AI架构分析",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUzNzg4Nzc3MQ==&mid=2247485969&idx=1&sn=32449a8c2513a5cb53f1ad2360b58e4a&chksm=fb5995ca0659939a19e7e4ecd431eae703978643af53d7f9345980de179d6c692ed620b8982d",
+      "source": {
+        "platform": "wechat",
+        "author": null,
+        "original_date": "2026-04-11"
+      },
+      "category": "ai-hardware/chip-architecture",
+      "tags": [
+        "risc-v",
+        "ai-chip",
+        "npu",
+        "llm-inference",
+        "agent",
+        "hardware",
+        "cim",
+        "isscc-2026"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "本文深度分析 ISSCC 2026 展示的 ARIES 芯片架构，这是一款专为 AI Agent 时代设计的 RISC-V+AI 异构 SoC。核心创新三点：第一，将 RISC-V CPU 直接集成进 SoC 核心区作为调度单元，解决传统 NPU 控制流跳回 Host CPU 的 PCIe 时延问题；第二，采用统一 Tile + 独立时钟域替代 PD/AF 物理分离，同一硬件动态切换算力密集和访存密集模式；第三，堆 280MB 片内 SRAM + CIM 存内计算消灭访存瓶颈，通过 LUT-based 多精度量化在 14nm 工艺实现超越 4nm GPU 的能效比（YOLO 系列 10.12x FPS/W 提升）。ARIES 代表了 Agent 时代逻辑控制与极致算力耦合的实用主义芯片设计路线。",
+      "summary_en": null,
+      "one_liner": "ISSCC 2026 ARIES 芯片深度解析：RISC-V 调度 + CIM 存内计算，14nm 打败 4nm 的 Agent 时代实用主义架构",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/破局Agent时代：ARIES RISCV+AI架构分析-2026-04-11.md",
+      "images": [
+        "https://mmbiz.qpic.cn/mmbiz_png/Z9iazku4kibdDGOqXnqREGczOY0q3hnjsvCX4rjIAN868osPIuFicG3ictWbazO3kbapf8pjb1Jk9AFyCkxOW7q8AOqZlJ0mBGOgj3nNen2PvXE/640",
+        "https://mmbiz.qpic.cn/sz_mmbiz_png/Z9iazku4kibdCaMM8CXQk74oU5T4ybiafKZcOz9qFMSIHZhYg7eEOOkf8ug4gdtUbRcGkjpbqt4VEV0OHgMeOtMxOp0rhjXJMLGIFbjBFM6r54/640"
+      ],
+      "added_date": "2026-04-11",
       "updated_date": null,
       "github_stars": null,
       "related": []
