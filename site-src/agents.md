@@ -52,7 +52,7 @@ By now you&#x27;ve probably used a few agents, or at least heard of Claude Code,
 
 ---
 
-### [如何从零开始写一个 OpenClaw -- 关于我用 Rust 写一只🦀🦞(CrabClaw)的开发手记](https://x.com/jakevin7/status/2028499952973099363)
+### [如何从零开始写一个 OpenClaw -- 关于我用 Rust 写一只🦀🦞(CrabClaw)的开发手记](/entry/huopxfae) 📄
 @jakevin7 · ⭐⭐⭐⭐⭐5  · 昨天
 
 **By @jakevin7** (卡比卡比) · Mon Mar 02 15:57:31 +0000 2026
@@ -84,7 +84,7 @@ When you look at what most agent frameworks actually do, it&#x27;s workflow orch
 
 ---
 
-### [ARTEMIS - LLM 智能体的自动化进化优化](#)
+### [ARTEMIS - LLM 智能体的自动化进化优化](/entry/2vsxzg1f) 📄
 ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
 
 **论文**: Evolving Excellence: Automated Optimization of LLM-based Agents  
@@ -109,7 +109,7 @@ When you look at what most agent frameworks actually do, it&#x27;s workflow orch
 
 ---
 
-### [构建自主 LLM 智能体基础](#)
+### [构建自主 LLM 智能体基础](/entry/bdzl4vyf) 📄
 @** | 人工预定义 | 自主生成 | · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
 
 这篇论文要解决什么问题？

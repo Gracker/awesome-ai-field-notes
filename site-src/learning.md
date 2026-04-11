@@ -22,7 +22,7 @@
 
 ---
 
-### [∇-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space](#)
+### [∇-Reasoner: LLM Reasoning via Test-Time Gradient Descent in Latent Space](/entry/o70e53hy) 📄
 ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
 
 ## 一、核心问题

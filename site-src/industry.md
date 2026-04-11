@@ -77,7 +77,7 @@ SKILL 里用 curl 来演示当然能跑通，但这种方式可维护性差：�
 
 ---
 
-### [AI、矿产与澳洲经济：2026，澳洲能迎来“新国运”吗？](https://x.com/rwayne/status/2027720734211248573)
+### [AI、矿产与澳洲经济：2026，澳洲能迎来“新国运”吗？](/entry/lxpbe6h3) 📄
 @rwayne · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
 
 **By @rwayne** (Roland的思考日记) · Sat Feb 28 12:21:10 +0000 2026
@@ -93,7 +93,7 @@ AI、矿产与澳洲经济：2026，澳洲能迎来“新国运”吗？
 
 ---
 
-### [2026-03-06-1628-GeekPlux-拥抱黑盒：一个研究者 All in AI 的实录与反思-2029761486671712745](https://x.com/geekplux/status/2029761486671712745)
+### [2026-03-06-1628-GeekPlux-拥抱黑盒：一个研究者 All in AI 的实录与反思-2029761486671712745](/entry/ov4yw4c3) 📄
 @GeekPlux · ⭐⭐⭐⭐⭐5  · 昨天
 
 title: &quot;Tweet by @geekplux (Fri Mar 06 03:30:24 +0000 2026)&quot;
@@ -113,7 +113,7 @@ https://www.uscardforum.
 
 ---
 
-### [What 81,000 People Want from AI（Anthropic 81K 访谈）](https://www.anthropic.com/features/81k-interviews)
+### [What 81,000 People Want from AI（Anthropic 81K 访谈）](/entry/l92x6515) 📄
 @Anthropic · ⭐⭐⭐⭐⭐5  · 昨天
 
 Anthropic对80,508名Claude用户进行的大规模定性研究，覆盖159个国家、70种语言，是迄今最大规模的多语言定性AI调研。核心发现：人们希望从AI获得的九大愿景——专业卓越(18.8%)、个人转变(13.7%)、生活管理(13.5%)、时间自由(11.1%)、财务独立(9.7%)、社会转型(9.4%)、创业(8.7%)、学习成长(8.4%)、创意表达(5.6%)。81%的人认为AI已向愿景迈出一步。方法论创新在于用AI访谈员实现定性研究的规模化——兼顾深度与数量。

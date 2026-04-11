@@ -43,7 +43,7 @@ Claude Code 团队讲了一个特别生动的类比。
 
 ---
 
-### [2026-03-05-0817-vista8-CC-Switch-Jason-Story-2027765124828905529](https://x.com/vista8/article/2027765124828905529")
+### [2026-03-05-0817-vista8-CC-Switch-Jason-Story-2027765124828905529](/entry/sdqxy470) 📄
 @vista8 · ⭐⭐⭐⭐⭐5  · 昨天
 
 如果你用Claude Code，大概率用过CC Switch这个软件。
@@ -62,7 +62,7 @@ Claude Code 团队讲了一个特别生动的类比。
 
 ---
 
-### [The Ultimate Beginner&#x27;s Guide to Claude (March 2026)](https://x.com/aiedge_/status/2029233676111008061)
+### [The Ultimate Beginner&#x27;s Guide to Claude (March 2026)](/entry/jp7jaeos) 📄
 @AIEdge · ⭐⭐⭐⭐⭐5  · 昨天
 
 &gt; Source: [@aiedge_](https://x.com/aiedge_)
@@ -77,7 +77,7 @@ Last week, Anthropic shipped its best suite of Claude features yet. If you&#x27;
 
 ---
 
-### [Claude 终极入门指南：100 小时实测，一篇讲透](https://x.com/yanhua1010/status/2029748928091148665)
+### [Claude 终极入门指南：100 小时实测，一篇讲透](/entry/5jgujmll) 📄
 @Yanhua · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
 
 **By @yanhua1010** (Yanhua) · Fri Mar 06 02:40:30 +0000 2026
@@ -93,7 +93,7 @@ Last week, Anthropic shipped its best suite of Claude features yet. If you&#x27;
 
 ---
 
-### [How I&#x27;d Become a Quant If I Had to Start Over Tomorrow](https://x.com/gemchange_ltd/status/2028904166895112617)
+### [How I&#x27;d Become a Quant If I Had to Start Over Tomorrow](/entry/u4y5t085) 📄
 @gemchanger · ⭐⭐⭐⭐⭐5 🌐 · 昨天
 
 **By @gemchange_ltd** (gemchanger) · Tue Mar 03 18:43:43 +0000 2026
@@ -109,7 +109,7 @@ Every concept builds on the last.
 
 ---
 
-### [Your LLM Doesn&#x27;t Write Correct Code. It Writes Plausible Code.](https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code)
+### [Your LLM Doesn&#x27;t Write Correct Code. It Writes Plausible Code.](/entry/ud05ywye) 📄
 @Hōrōshi バガボンド · ⭐⭐⭐⭐⭐5 🌐 · 昨天
 
 通过一个极端案例（LLM 重写的 Rust SQLite 实现比原版慢 20,171 倍）揭示 LLM 生成代码的核心问题：优化表面正确性而非实际正确性。详细拆解了两个关键 Bug（缺失 ipk 检查导致 O(n²) vs O(log n)、每次语句都 fsync），以及五个复合性能问题。引用 METR 随机对照试验（AI 用户慢 19%）、GitClear 分析（复制粘贴首次超过重构）等研究，论证 LLM 的 sycophancy 问题。结论：代码不是你的，直到你能自己找到其中的 bug。
@@ -118,7 +118,7 @@ Every concept builds on the last.
 
 ---
 
-### [ClaudeCode 源码深度研究报告](https://x.com/tvytlx/status/2038939480892346699)
+### [ClaudeCode 源码深度研究报告](/entry/ca1ebffb) 📄
 @Xiao Tan · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
 
 从 Claude Code 泄露的 npm 包中提取 4756 个源码文件的深度拆解。核心发现：system prompt 是动态拼装的（静态宪法 + 动态当期政策），有 cache 边界设计（SYSTEM_PROMPT_DYNAMIC_BOUNDARY）优化 token 经济学；6 个内建 Agent（General、Explore 只读、Plan 只读、Verification adversarial、Guide、Statusline），实现者与验证者分离；工具调用经过 14 步 pipeline（输入校验→风险预判→权限决策→Hook→执行→post-processing）；三套扩展机制（Skill/Plugin/MCP）都让模型感知到自己的能力清单。五条设计原则：不信任模型自觉性、角色拆开、工具治理、上下文是预算、生态关键是模型感知。
