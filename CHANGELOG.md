@@ -50,13 +50,6 @@
 本周无评分调整记录
 
 ### 📊 统计
-- 总条目: 656 → 674 (+18)
-- 活跃条目: 656 → 674 (+18)
+- 总条目: 14 → 18 (+4)
+- 活跃条目: 14 → 18 (+4)
 - 本周最高分新增: [Project Glasswing: Securing critical software for the AI era](https://red.anthropic.com/blog/project-glasswing) ⭐4
-
----
-
-## 2026-04-06 ~ 2026-04-12
-
-### 📈 新增 (1)
-
