@@ -1,321 +1,157 @@
-A real-time dashboard and control center for [OpenClaw](https://openclaw.ai) AI agent instances. Built with Next.js, React 19, and Tailwind CSS v4.
+A real-time dashboard and control center for OpenClaw AI agent instances. Built with Next.js, React 19, and Tailwind CSS v4.
 
 TenacitOS lives inside your OpenClaw workspace and reads its configuration, agents, sessions, memory, and logs directly from the host. No extra database or backend required — OpenClaw is the backend.
 
+### Features
+
 - 📊 System Monitor — Real-time VPS metrics (CPU, RAM, Disk, Network) + PM2/Docker status
-
-- 🤖 Agent Dashboard — All agents, their sessions, token usage, model, and activity status
-
+- 🤖 Agent Dashboard — All agents, their sessions, token usage, model, and activity status  
 - 💰 Cost Tracking — Real cost analytics from OpenClaw sessions (SQLite)
-
 - ⏰ Cron Manager — Visual cron manager with weekly timeline, run history, and manual triggers
-
 - 📋 Activity Feed — Real-time log of agent actions with heatmap and charts
-
 - 🧠 Memory Browser — Explore, search, and edit agent memory files
-
 - 📁 File Browser — Navigate workspace files with preview and in-browser editing
-
 - 🔎 Global Search — Full-text search across memory and workspace files
-
 - 🔔 Notifications — Real-time notification center with unread badge
-
 - 🏢 Office 3D — Interactive 3D office with one desk per agent (React Three Fiber)
-
 - 📺 Terminal — Read-only terminal for safe status commands
-
 - 🔐 Auth — Password-protected with rate limiting and secure cookie
 
-Dashboard — activity overview, agent status, and weather widget
-
-/carlosazaustre/tenacitOS/blob/main/docs/screenshots/dashboard.jpg
-
-Session History — all OpenClaw sessions with token usage and context tracking
-
-/carlosazaustre/tenacitOS/blob/main/docs/screenshots/sessions.jpg
-
-Costs & Analytics — daily cost trends and breakdown per agent
-
-/carlosazaustre/tenacitOS/blob/main/docs/screenshots/costs.jpg
-
-System Monitor — real-time CPU, RAM, Disk, and Network metrics
-
-/carlosazaustre/tenacitOS/blob/main/docs/screenshots/system.jpg
-
-Office 3D — interactive 3D office with one voxel avatar per agent (React Three Fiber)
-
-/carlosazaustre/tenacitOS/blob/main/docs/screenshots/office3d.jpg
+### Requirements
 
 - Node.js 18+ (tested with v22)
-
-- [OpenClaw](https://openclaw.ai) installed and running on the same host
-
+- OpenClaw installed and running on the same host
 - PM2 or systemd (recommended for production)
-
 - Caddy or another reverse proxy (for HTTPS in production)
 
-TenacitOS reads directly from your OpenClaw installation:
-
-/root/.openclaw/ ← OPENCLAW_DIR (configurable)
-├── openclaw.json ← agents list, channels, models config
-├── workspace/ ← main agent workspace (MEMORY.md, SOUL.md, etc.)
-├── workspace-studio/ ← sub-agent workspaces
-├── workspace-infra/
-├── ...
-└── workspace/mission-control/ ← TenacitOS lives here
+### Installation
 
-The app uses OPENCLAW_DIR to locate openclaw.json and all workspaces. No manual agent configuration needed — agents are auto-discovered from openclaw.json.
+1. Clone the repository:
 
-cd /root/.openclaw/workspace # or your OPENCLAW_DIR/workspace
-git clone https://github.com/carlosazaustre/tenacitOS.git mission-control
-cd mission-control
-npm install
+up to date, audited 576 packages in 2s
 
-cp .env.example .env.local
+218 packages are looking for funding
+  run `npm fund` for details
 
-Edit .env.local:
+9 vulnerabilities (4 moderate, 5 high)
 
-# --- Auth (required) ---
-# Strong password to log in to the dashboard
-ADMIN_PASSWORD=your-secure-password-here
+To address issues that do not require attention, run:
+  npm audit fix
 
-# Random secret used to sign the auth cookie
-# Generate with: openssl rand -base64 32
-AUTH_SECRET=your-random-32-char-secret-here
+To address all issues, run:
+  npm audit fix --force
 
-# --- OpenClaw paths (optional — defaults work for standard installs) ---
-# OPENCLAW_DIR=/root/.openclaw
+Run `npm audit` for details.
 
-# --- Branding (customize for your instance) ---
-NEXT_PUBLIC_AGENT_NAME=Mission Control
-NEXT_PUBLIC_AGENT_EMOJI=🤖
-NEXT_PUBLIC_AGENT_DESCRIPTION=Your AI co-pilot, powered by OpenClaw
-NEXT_PUBLIC_AGENT_LOCATION= # e.g. "Madrid, Spain"
-NEXT_PUBLIC_BIRTH_DATE= # ISO date, e.g. "2026-01-01"
-NEXT_PUBLIC_AGENT_AVATAR= # path to image in /public, e.g. "/avatar.jpg"
-
-NEXT_PUBLIC_OWNER_USERNAME=your-username
-NEXT_PUBLIC_OWNER_EMAIL=your-email@example.com
-NEXT_PUBLIC_TWITTER_HANDLE=@username
-NEXT_PUBLIC_COMPANY_NAME=MISSION CONTROL, INC.
-NEXT_PUBLIC_APP_TITLE=Mission Control
-
-Tip: OPENCLAW_DIR defaults to /root/.openclaw. If your OpenClaw is installed elsewhere, set this variable.
-
-cp data/cron-jobs.example.json data/cron-jobs.json
-cp data/activities.example.json data/activities.json
-cp data/notifications.example.json data/notifications.json
-cp data/configured-skills.example.json data/configured-skills.json
-cp data/tasks.example.json data/tasks.json
-
-# Auth secret
-openssl rand -base64 32
+2. Copy and edit environment:
 
-# Password (or use a password manager)
-openssl rand -base64 18
 
-# Development
-npm run dev
-# → http://localhost:3000
+3. Set authentication:
+hRUC2huCvFk0WuMimO27/3QzJ3pnMAHtG0TDUy81UfI=
+JIMoX524uFaU6wMMs4n75zdR
 
-# Production build
-npm run build
-npm start
+4. Copy example data files:
 
-Login at http://localhost:3000 with the ADMIN_PASSWORD you set.
-
-npm run build
-
-pm2 start npm --name "mission-control" -- start
-pm2 save
-pm2 startup # enable auto-restart on reboot
-
-Create /etc/systemd/system/mission-control.service:
-
-[Unit]
-Description=TenacitOS — OpenClaw Mission Control
-After=network.target
-
-[Service]
-Type=simple
-User=root
-WorkingDirectory=/root/.openclaw/workspace/mission-control
-ExecStart=/usr/bin/npm start
-Restart=always
-RestartSec=10
-Environment=NODE_ENV=production
-
-[Install]
-WantedBy=multi-user.target
-
-sudo systemctl daemon-reload
-sudo systemctl enable mission-control
-sudo systemctl start mission-control
-
-mission-control.yourdomain.com {
- reverse_proxy localhost:3000
-}
 
-When behind HTTPS, secure: true is set automatically on the auth cookie.
+5. Start the application:
 
-All personal data stays in .env.local (gitignored). The src/config/branding.ts file reads from env vars — never edit it directly with your personal data.
 
-Agents are auto-discovered from openclaw.json at startup. The /api/agents endpoint reads:
+### Technology Stack
 
-{
- "agents": {
- "list": [
- { "id": "main", "name": "...", "workspace": "...", "model": {...} },
- { "id": "studio", "name": "...", "workspace": "..."}
- ]
- }
-}
+- **Framework**: Next.js 15 (App Router)
+- **UI**: React 19 + Tailwind CSS v4
+- **3D**: React Three Fiber + Drei
+- **Charts**: Recharts
+- **Icons**: Lucide React
+- **Database**: SQLite (better-sqlite3)
+- **Runtime**: Node.js 22
 
-Each agent can define its own visual appearance in openclaw.json:
+## 中文
 
-{
- "id": "studio",
- "name": "My Studio Agent",
- "ui": {
- "emoji": "🎬",
- "color": "#E91E63"
- }
-}
+TenacitOS 是一个用于 OpenClaw AI Agent 实例的实时仪表板和控制中心。使用 Next.js、React 19 和 Tailwind CSS v4 构建。
 
-The 3D office has default positions for up to 6 agents. To customize positions, names, and colors for your own agents, edit src/components/Office3D/agentsConfig.ts:
+TenacitOS 驻留在您的 OpenClaw 工作区内，直接从主机读取其配置、Agent、会话、记忆和日志。无需额外的数据库或后端——OpenClaw 就是后端。
 
-export const AGENTS: AgentConfig[] = [
- {
- id: "main", // must match workspace ID
- name: "...", // display name (can also come from API)
- emoji: "🤖",
- position: [0, 0, 0],
- color: "#FFCC00",
- role: "Main Agent",
- },
- // add your sub-agents here
-];
+### 功能特性
 
-To add custom 3D avatars (Ready Player Me GLB format), place them in public/models/:
+- 📊 系统监控器 — 实时 VPS 指标（CPU、RAM、磁盘、网络）+ PM2/Docker 状态
+- 🤖 Agent 仪表板 — 所有 Agent、其会话、Token 使用量、模型和活动状态
+- 💰 成本追踪 — 来自 OpenClaw 会话的实时成本分析（SQLite）
+- ⏰ Cron 管理器 — 可视化 Cron 管理器，包含时间线、运行历史和手动触发
+- 📋 活动源 — Agent 操作的实时日志，包含热图和图表
+- 🧠 记忆浏览器 — 探索、搜索和编辑 Agent 记忆文件
+- 📁 文件浏览器 — 浏览工作区文件，支持预览和浏览器内编辑
+- 🔎 全局搜索 — 跨记忆和工作区文件的全文搜索
+- 🔔 通知中心 — 实时通知中心，包含未读标记
+- 🏢 3D 办公室 — 每个 Agent 一个桌面的交互式 3D 办公室（React Three Fiber）
+- 📺 终端 — 安全状态命令的只读终端
+- 🔐 身份验证 — 带有速率限制和安全 Cookie 的密码保护
 
-public/models/
-├── main.glb ← main agent avatar
-├── studio.glb ← workspace-studio agent
-└── infra.glb ← workspace-infra agent
+### 要求
 
-Filename must match the agent id. If no file is found, a colored sphere is shown as fallback.
+- Node.js 18+（已在 v22 上测试）
+- OpenClaw 安装并在同一主机上运行
+- PM2 或 systemd（生产环境推荐）
+- Caddy 或其他反向代理（生产环境 HTTPS）
 
-See public/models/README.md for full instructions.
+### 安装
 
-Usage is collected from OpenClaw's SQLite databases via a script:
+1. 克隆仓库：
 
-# Collect once
-npx tsx scripts/collect-usage.ts
+up to date, audited 576 packages in 2s
 
-# Auto-collect every hour (adds a cron job)
-./scripts/setup-cron.sh
+218 packages are looking for funding
+  run `npm fund` for details
 
-See [docs/COST-TRACKING.md](/carlosazaustre/tenacitOS/blob/main/docs/COST-TRACKING.md) for details.
+9 vulnerabilities (4 moderate, 5 high)
 
-mission-control/
-├── src/
-│ ├── app/
-│ │ ├── (dashboard)/ # Dashboard pages (protected)
-│ │ ├── api/ # API routes
-│ │ ├── login/ # Login page
-│ │ └── office/ # 3D office (unprotected route)
-│ ├── components/
-│ │ ├── TenacitOS/ # OS-style UI shell (topbar, dock, status bar)
-│ │ └── Office3D/ # React Three Fiber 3D office
-│ ├── config/
-│ │ └── branding.ts # Branding constants (reads from env vars)
-│ └── lib/ # Utilities (pricing, queries, activity logger...)
-├── data/ # JSON data files (gitignored — use .example versions)
-├── docs/ # Extended documentation
-├── public/
-│ └── models/ # GLB avatar models (add your own)
-├── scripts/ # Setup and data collection scripts
-├── .env.example # Environment variable template
-└── middleware.ts # Auth guard for all routes
+To address issues that do not require attention, run:
+  npm audit fix
 
-- All routes (including all /api/*) require authentication — handled by src/middleware.ts
+To address all issues, run:
+  npm audit fix --force
 
-- /api/auth/login and /api/health are the only public endpoints
+Run `npm audit` for details.
 
-- Login is rate-limited: 5 failed attempts → 15-minute lockout per IP
+2. 复制并编辑环境变量：
 
-- Auth cookie is httpOnly, sameSite: lax, and secure in production
 
-- Terminal API uses a strict command allowlist — env, curl, wget, node, python are blocked
+3. 设置身份验证：
+neUIblZo3JpMoN0jJQifeKwV/To4oq1+dc9/XR0nCKU=
+ZzFZMGnnAyUNI5iZXyuUT9Zk
 
-- Never commit .env.local — it contains your credentials
+4. 复制示例数据文件：
 
-Generate fresh secrets:
 
-openssl rand -base64 32 # AUTH_SECRET
-openssl rand -base64 18 # ADMIN_PASSWORD
+5. 启动应用程序：
 
-"Gateway not reachable" / agent data missing
 
-openclaw status
-openclaw gateway start # if not running
+### 技术栈
 
-"Database not found" (cost tracking)
+- **框架**: Next.js 15 (App Router)
+- **UI**: React 19 + Tailwind CSS v4
+- **3D**: React Three Fiber + Drei
+- **图表**: Recharts
+- **图标**: Lucide React
+- **数据库**: SQLite (better-sqlite3)
+- **运行时**: Node.js 22
 
-npx tsx scripts/collect-usage.ts
+### 安全特性
 
-Build errors after pulling updates
+- 所有路由（包括所有 /api/*）都需要身份验证
+- 登录被限制：5 次失败尝试 → 每个 IP 锁定 15 分钟
+- Auth cookie 是 httpOnly、sameSite: lax，生产环境中是安全的
+- 终端 API 使用严格的命令允许列表 - 阻止 env、curl、wget、node、python
+- 永远不要提交 .env.local - 它包含您的凭据
 
-rm -rf .next node_modules
-npm install
-npm run build
+## 许可证
 
-Scripts not executable
+MIT - 查看 [LICENSE](https://github.com/carlosazaustre/tenacitOS/blob/main/LICENSE)
 
-chmod +x scripts/*.sh
+---
 
-Layer
-Tech
-
-Framework
-Next.js 15 (App Router)
-
-UI
-React 19 + Tailwind CSS v4
-
-3D
-React Three Fiber + Drei
-
-Charts
-Recharts
-
-Icons
-Lucide React
-
-Database
-SQLite (better-sqlite3)
-
-Runtime
-Node.js 22
-
-- Fork the repo
-
-- Create a feature branch (git checkout -b feat/my-feature)
-
-- Keep personal data out of commits — use .env.local and data/ (both gitignored)
-
-- Write clear commit messages
-
-- Open a PR
-
-See [CONTRIBUTING.md](/carlosazaustre/tenacitOS/blob/main/CONTRIBUTING.md) for more details.
-
-MIT — see [LICENSE](/carlosazaustre/tenacitOS/blob/main/LICENSE)
-
-- [OpenClaw](https://openclaw.ai) — the AI agent runtime this dashboard is built for
-
-- [OpenClaw Docs](https://docs.openclaw.ai)
-
-- [Discord Community](https://discord.com/invite/clawd)
-
-- [GitHub Issues](/carlosazaustre/tenacitOS/issues) — bug reports and feature requests
+相关链接：
+- [OpenClaw](https://openclaw.ai) — 这个仪表板构建的 AI Agent 运行时
+- [OpenClaw 文档](https://docs.openclaw.ai)
+- [Discord 社区](https://discord.com/invite/clawd)
+- [GitHub 问题](https://github.com/carlosazaustre/tenacitOS/issues) — 错误报告和功能请求

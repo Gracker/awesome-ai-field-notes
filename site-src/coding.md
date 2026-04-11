@@ -225,7 +225,7 @@ Boundary: this is expert observation, not a controlled benchmark; validate with 
 
 ---
 
-### [NevaMind-AI/memU](https://github.com/NevaMind-AI/memU")
+### [NevaMind-AI/memU](/entry/myf43gs4) 📄
 @NevaMindAI · ⭐⭐⭐⭐4  · 昨天
 
 memU is a memory framework designed for always-on proactive agents, with the goal of reducing token costs and preserving long-term user context across sessions.
@@ -237,7 +237,7 @@ It models memory like a file system (resources, items, categories), making memor
 
 ---
 
-### [X-PLUG/MobileAgent](https://github.com/X-PLUG/MobileAgent")
+### [X-PLUG/MobileAgent](/entry/vsi0528w) 📄
 @XPLUG · ⭐⭐⭐⭐4  · 昨天
 
 MobileAgent is Alibaba Tongyi Lab’s GUI-agent project family, covering mobile, desktop, and browser automation through the GUI-Owl model line and multi-agent workflows.
