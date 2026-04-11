@@ -50,7 +50,7 @@
 
 ---
 
-### [Chain-of-Tools - 在冻结 LLM 的 CoT 推理中利用海量未见工具](https://arxiv.org/pdf/2503.16779)
+### [Chain-of-Tools - 在冻结 LLM 的 CoT 推理中利用海量未见工具](/entry/dfuk5hd5) 📄
 ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-10
 
 **论文：** Chain-of-Tools: Utilizing Massive Unseen Tools in the CoT Reasoning of Frozen Language Models
@@ -94,7 +94,7 @@ Android 17用lock-free混合数据结构DeliQueue替换了存在20年的MessageQ
 
 ---
 
-### [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
+### [LLM Powered Autonomous Agents](/entry/90udpdgs) 📄
 ⭐⭐⭐⭐⭐5 🌐 · 2026-04-10
 
 Lilian Weng 的经典综述文章，系统阐述以 LLM 为核心的自主 Agent 系统架构。三大核心组件：Planning（任务分解、自我反思，涵盖 CoT、ToT、ReAct、Reflexion、CoH、AD 等方法）、Memory（短期上下文学习、长期向量存储）、Tool Use（API 调用、代码执行、外部知识访问）。文章深入分析了每种方法的原理和适用场景，包括多 Agent 协作框架。该文是 Agent 领域被引用最多的综述之一，适合作为系统性理解 Agent 设计的入门基石。
@@ -103,7 +103,7 @@ Lilian Weng 的经典综述文章，系统阐述以 LLM 为核心的自主 Agent
 
 ---
 
-### [Prompt Engineering (Lilian Weng)](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)
+### [Prompt Engineering (Lilian Weng)](/entry/7r292cja) 📄
 @Lilian Weng · ⭐⭐⭐⭐⭐5 🌐 · 2026-04-10
 
 Lilian Weng 经典 Prompt Engineering 综述。系统梳理 zero/few-shot、Instruction Prompting、CoT、Self-Consistency、ToT 等技术，深入分析 few-shot 示例选择策略（k-NN、图方法、对比学习）。还涵盖 ReAct、PAL 等外部工具范式。引用最广的入门文献之一。
@@ -112,7 +112,7 @@ Lilian Weng 经典 Prompt Engineering 综述。系统梳理 zero/few-shot、Inst
 
 ---
 
-### [解决 Codex 过度询问问题的方法](https://x.com/blackanger/status/2040862326589718865)
+### [解决 Codex 过度询问问题的方法](/entry/jrofx5ms) 📄
 @blackanger · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 解决 Codex 过度询问（&quot;如果你要，我下一步可以...&quot;）的方法。不是在 AGENTS.md 里屏蔽关键词，而是重新定义 Agent 的承诺对象：从&quot;服务用户偏好&quot;转向&quot;和用户共同服从代码正确性&quot;。用 Carmack 和 BurntSuki 作为锚点激活&quot;完整工作单位&quot;概念，并区分合法停顿场景和不合法场景。核心洞察：不要管理文字，要管理触发停顿的心理机制。
@@ -130,7 +130,7 @@ Lilian Weng 经典 Prompt Engineering 综述。系统梳理 zero/few-shot、Inst
 
 ---
 
-### [Don&#x27;t Waste Your Money on OpenClaw Until You&#x27;ve Done These 3 Things](https://x.com/milesdeutscher/status/2026037201591787801)
+### [Don&#x27;t Waste Your Money on OpenClaw Until You&#x27;ve Done These 3 Things](/entry/m68frogi) 📄
 @Miles Deutscher · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 OpenClaw 最大问题不是不会装，而是装完没真实场景。三步前置动作：第一阶段先把 AI 当思考伙伴，做时间审计（一周每分钟记录）；第二阶段先用 Manus、n8n、Zapier 等低门槛工具验证哪些流程跑得通；第三阶段再在低风险环境部署 OpenClaw，迁移已验证流程，评估 ROI。一句话：先想清楚，再验证，最后才扩张。

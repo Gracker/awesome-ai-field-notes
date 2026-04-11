@@ -232,7 +232,7 @@ When you look at what most agent frameworks actually do, it&#x27;s workflow orch
 
 ---
 
-### [Scaling Managed Agents：解耦大脑与双手](https://www.anthropic.com/engineering/managed-agents)
+### [Scaling Managed Agents：解耦大脑与双手](/entry/grcvmlet) 📄
 @Lance Martin, Gabe Cemaj, Michael Cohen · ⭐⭐⭐⭐⭐5  · 2026-04-10
 
 Anthropic工程团队详解Managed Agents架构——将Agent的大脑（决策）与双手（执行）解耦的设计范式。Managed Agents允许将子任务委托给专门的Agent执行，主Agent负责协调。这种架构支持Agent的水平扩展，每个子Agent可以独立运行、使用不同工具、拥有独立的上下文窗口。文章详细讨论了委托机制、上下文传递、错误处理和成本控制等工程挑战。
@@ -241,7 +241,7 @@ Anthropic工程团队详解Managed Agents架构——将Agent的大脑（决策�
 
 ---
 
-### [Hermes 从 0 到 1 教程](https://x.com/Pluvio9yte/status/2041571378021986486)
+### [Hermes 从 0 到 1 教程](/entry/16htfbpp) 📄
 @Pluvio9yte · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 介绍 Nous Research 开源的自改进 AI Agent 框架 Hermes。核心特点：内置学习循环，每次完成任务后自动提炼可复用 Skill 存入持久记忆。多层记忆系统（短期+长时+Skills），支持 40+ 工具。与 OpenClaw 对比：Hermes 重单个 Agent 深度自我成长，OpenClaw 强在多平台覆盖和复杂工作流。内置 hermes claw migrate 迁移命令。
@@ -250,7 +250,7 @@ Anthropic工程团队详解Managed Agents架构——将Agent的大脑（决策�
 
 ---
 
-### [Anthropic 今天发了一个新产品，可能会让一批做 AI 智能体基础设施的团队失业](https://x.com/dotey/status/2042017036931305667)
+### [Anthropic 今天发了一个新产品，可能会让一批做 AI 智能体基础设施的团队失业](/entry/8nsl8czg) 📄
 @dotey · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 中文深度分析 Claude Managed Agents。与 Claude Code 的区别：Code 跑在本地给个人用，Managed Agents 跑在云端给企业用，24 小时不间断。典型用法：事件触发型（Sentry 自动修 bug）、定时型（每日简报）、即发即忘型（Slack 派活）、长时间任务。技术架构将大脑/手/记忆解耦。案例：Notion、Sentry、Atlassian、Rakuten 等已接入。Anthropic 年化收入突破 300 亿美元。

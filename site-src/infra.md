@@ -13,7 +13,7 @@
 
 ---
 
-### [State of AI | OpenRouter](https://openrouter.ai/state-of-ai)
+### [State of AI | OpenRouter](/entry/1iaxb3xe) 📄
 @OpenRouter + a16z · ⭐⭐⭐⭐⭐5 🌐 · 2026-04-10
 
 OpenRouter 联合 a16z 的 100 万亿 token LLM 使用分析。核心发现：开源模型采用率提升、创意角色扮演和编程是最热门任务、Agent 推理模式兴起、&#x27;Glass Slipper&#x27;留存效应。含开源 vs 闭源、地理分布、成本动态等多维度数据。
@@ -22,7 +22,7 @@ OpenRouter 联合 a16z 的 100 万亿 token LLM 使用分析。核心发现：�
 
 ---
 
-### [用 LLM + Obsidian 构建个人知识库：基于 Karpathy 的&quot;LLM Knowledge Bases&quot;工作流](https://x.com/yanhua1010/status/2039966047378583815)
+### [用 LLM + Obsidian 构建个人知识库：基于 Karpathy 的&quot;LLM Knowledge Bases&quot;工作流](/entry/n28eerxp) 📄
 @yanhua1010 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 基于 Karpathy 的 LLM Knowledge Bases 工作流，将知识库管理类比为 CI/CD：原始资料→编译产物→运行时输出三层分离。用 Obsidian + Claude Code 实现三层目录结构：raw/（摄取）、wiki/（编译成品）、平台目录（发布）。三个摄取入口（Web Clipper、Podwise、手动剪藏），编译环节包含逐篇摘要、概念抽取、索引更新。强调增量编译和质量保障。

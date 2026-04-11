@@ -134,7 +134,7 @@ Every concept builds on the last.
 
 ---
 
-### [Waza：AI 时代工程师的 8 个核心技能工具集](https://x.com/HiTw93/status/2041053321851789629)
+### [Waza：AI 时代工程师的 8 个核心技能工具集](/entry/7n5hkzn5) 📄
 @HiTw93 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 作者开源了 Waza 技能集（日语&quot;技&quot;），包含 8 个核心 skill（/think、/design、/hunt、/check、/read、/write、/learn、/health），对应他认为 AI 时代工程师应具备的 8 个能力：会思考、会设计、会排查、会检查、会阅读、会写作、会学习、会维护。强调简单好用、清楚 Agent 在做什么，不多不少刚好够用。

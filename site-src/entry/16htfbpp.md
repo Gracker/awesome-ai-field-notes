@@ -1,0 +1,67 @@
+---
+title: 'Hermes 从 0 到 1 教程'
+sidebar: false
+---
+
+::: info
+[← 返回智能体](/agents)
+:::
+
+# Hermes 从 0 到 1 教程
+
+> Nous Research 开源自改进 Agent 框架，内置持久记忆与 Skill 进化
+
+🔗 [原文链接](https://x.com/Pluvio9yte/status/2041571378021986486) | @Pluvio9yte | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+
+`hermes` `nous-research` `self-improving` `agent` `memory` `openclaw`
+
+---
+
+# Hermes 从 0 到 1 教程
+
+Author: Pluvio9yte
+URL: https://x.com/Pluvio9yte/status/2041571378021986486
+
+Hermes Agent 是 Nous Research 开源的自改进 AI Agent 框架
+
+它最大的特点是内置学习循环：每次完成任务后，它会自动从经验中提炼出可复用的 Skill，存入持久记忆，下次遇到类似任务时会自动改进和调用。
+
+这个记忆是持久的，能逐步构建对你的用户模型。它是一个能自主成长的代理，常用于长期项目辅助、自动化任务、研究等。
+
+很多从 OpenClaw 转过来的用户，就是看中它的记忆和自我进化能力。
+
+下面是使用教程：
+
+快速安装（1-2 分钟）
+
+使用官方一键安装脚本：
+
+安装后的其他步骤和OpenClaw的配置差不多，根据引导按部就班完成即可
+
+核心特性速览
+
+- 持久记忆 + 自我改进：多层记忆系统（短期 + 长时 + Skills），自动从经验中学习。
+
+- Skills 系统：可复用 Markdown 技能，Agent 自己生成和优化。
+
+- Tools：内置浏览器自动化、代码执行、文件管理等 40+ 工具。
+
+- Profiles：支持运行多个隔离的 Agent 实例。
+
+- 迁移 OpenClaw：内置命令 hermes claw migrate，可快速导入原有技能、记忆和设置。
+
+与 OpenClaw 的简单对比
+
+- Hermes：更注重 单个 Agent 的深度自我成长 和记忆，适合个人长期陪伴式使用。
+
+- OpenClaw：更强在 多平台覆盖（50+） 和复杂工作流生态，适合需要广泛集成或团队协作的场景。
+
+- 许多用户两者结合使用，或从 OpenClaw 迁移到 Hermes 以获得更好的学习能力。
+
+官方资源：
+
+- 主站与文档：https://hermes-agent.nousresearch.com/docs/
+
+- Quickstart：https://hermes-agent.nousresearch.com/docs/getting-started/quickstart/
+
+- GitHub：https://github.com/NousResearch/hermes-agent
