@@ -22,7 +22,7 @@ Claude Code 核心开发者分享构建经验。设计 Agent 工具的关键框�
 
 ---
 
-### [从 Vibe Coding 到 Agentic Engineering：开发者角色正在重写](https://x.com/yanhua1010/status/2028737821855580662)
+### [从 Vibe Coding 到 Agentic Engineering：开发者角色正在重写](/entry/bjwxklv4) 📄
 @yanhua1010 · ⭐⭐⭐⭐⭐5  · 昨天
 
 **By @yanhua1010** (Yanhua) · Tue Mar 03 07:42:43 +0000 2026

@@ -70,7 +70,7 @@ By now you&#x27;ve probably used a few agents, or at least heard of Claude Code,
 
 ---
 
-### [Agent Frameworks Are Getting Squeezed](https://x.com/tonykipkemboi/status/2028564120338063859)
+### [Agent Frameworks Are Getting Squeezed](/entry/7az6rlg5) 📄
 @tonykipkemboi · ⭐⭐⭐⭐⭐5  · 昨天
 
 **By @tonykipkemboi (Tony Kipkemboi)**
