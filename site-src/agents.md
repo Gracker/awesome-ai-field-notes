@@ -286,7 +286,7 @@ Perplexity CEO 的核心观点：没有一个模型家族能独立做到最好�
 
 ---
 
-### [Scrapling: 自适应 Web 抓取框架](https://github.com/D4Vinci/Scrapling)
+### [Scrapling: 自适应 Web 抓取框架](/entry/qky6krnb) 📄
 @D · ⭐⭐⭐⭐4 🌐 · 昨天
 
 自适应网页抓取框架，从单次请求到全量并发爬取。解析器能在页面结构变化后重新定位元素，抓取器提供反反爬能力（如 Cloudflare 绕过）。Spider 系统支持并发、多会话路由、断点续跑、代理轮换和流式输出。适合生产级数据流水线。支持 MCP 集成。
@@ -763,7 +763,7 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 
 ---
 
-### [一句话让 Agent 接入全网语义搜索与多平台读取](https://github.com/Panniantong/Agent-Reach)
+### [一句话让 Agent 接入全网语义搜索与多平台读取](/entry/4uiownze) 📄
 @Neo Reid · ⭐⭐⭐3 🇨🇳 · 昨天
 
 Agent Reach：一句安装指令快速获得 Web、Twitter/X、YouTube、Reddit、B站、RSS 等读取与搜索能力。免费优先、可替换渠道实现、带 doctor 诊断命令。每个平台独立模块，便于后续替换底层工具。降低 Agent 联网能力搭建门槛。

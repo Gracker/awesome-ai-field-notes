@@ -143,7 +143,7 @@ Every concept builds on the last.
 
 ---
 
-### [What spec-driven development gets wrong](https://x.com/augmentcode/status/2025993446633492725)
+### [What spec-driven development gets wrong](/entry/bzd1cdlg) 📄
 @Augment Code · ⭐⭐⭐⭐4 🌐 · 昨天
 
 规范驱动开发比临时提示词更好，但若规范是静态文档仍会失败。过期设计文档误导工程师，过期规范误导 Agent 自信地做错事。Augment Code 的解法是&quot;共维护&quot;：人和 Agent 都从同一份规范读取并回写更新。执行前由协调 Agent 拆任务，执行中 Agent 持续回写新发现。核心结论：既然 Agent 能写代码，也应该维护计划本身。
@@ -161,7 +161,7 @@ Every concept builds on the last.
 
 ---
 
-### [Superpowers: 编码 Agent 的完整软件开发生命周期工作流](https://github.com/obra/superpowers)
+### [Superpowers: 编码 Agent 的完整软件开发生命周期工作流](/entry/8qb7y6ic) 📄
 @Obra · ⭐⭐⭐⭐4 🌐 · 昨天
 
 完整的编码 Agent 软件开发工作流。先澄清目标、从对话抽取规格、设计拆成小段落确认。确认后生成遵循 TDD/YAGNI/DRY 的实现计划，再通过子 Agent 执行并进行分阶段审查。Claude 可自主工作数小时不偏离计划。支持 Claude Code、Cursor、Codex、OpenCode。技能自动触发，不需要特殊操作。

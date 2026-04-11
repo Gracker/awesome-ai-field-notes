@@ -10,7 +10,11 @@
         "original_date": "2026-04-10"
       },
       "category": "infra/security",
-      "tags": ["security", "ai-safety", "critical-infrastructure"],
+      "tags": [
+        "security",
+        "ai-safety",
+        "critical-infrastructure"
+      ],
       "source_type": "article",
       "language": "en",
       "summary_zh": "Anthropic 推出 Project Glasswing，利用 Claude Mythos Preview AI 模型来识别和修复关键软件中的安全漏洞。该项目涉及多家科技公司，目标是保护关键基础设施免受网络威胁，体现了 AI 在网络安全防御方面的前沿应用。",
@@ -36,7 +40,11 @@
         "original_date": "2026-04-10"
       },
       "category": "agents/frameworks",
-      "tags": ["managed-agents", "claude-platform", "long-horizon"],
+      "tags": [
+        "managed-agents",
+        "claude-platform",
+        "long-horizon"
+      ],
       "source_type": "article",
       "language": "en",
       "summary_zh": "Anthropic 介绍了 Claude 平台中的托管代理服务，探讨如何将推理大脑与执行能力解耦，以支持长期的多步骤任务执行。文章分析了代理系统随模型演进而发展的架构变化。",
@@ -62,7 +70,11 @@
         "original_date": "2026-03-10"
       },
       "category": "models/architecture",
-      "tags": ["instruction-following", "frontier-models", "hierarchy"],
+      "tags": [
+        "instruction-following",
+        "frontier-models",
+        "hierarchy"
+      ],
       "source_type": "article",
       "language": "en",
       "summary_zh": "OpenAI 研究前沿语言模型中的指令层次结构改进方法，探索如何提升模型对复杂指令的理解和执行能力，为多步骤任务处理提供更好的支持。",
@@ -88,7 +100,11 @@
         "original_date": "2026-03-05"
       },
       "category": "models/reasoning",
-      "tags": ["chain-of-thought", "reasoning-models", "control"],
+      "tags": [
+        "chain-of-thought",
+        "reasoning-models",
+        "control"
+      ],
       "source_type": "article",
       "language": "en",
       "summary_zh": "研究揭示推理模型难以控制思维链的内在原因，发现这种'失控'实际上可能是模型的固有特性，而非缺陷。这一发现对理解模型行为有重要启示。",
@@ -114,7 +130,11 @@
         "original_date": "2026-04-09"
       },
       "category": "agents/simulation",
-      "tags": ["user-simulators", "realism", "evaluation"],
+      "tags": [
+        "user-simulators",
+        "realism",
+        "evaluation"
+      ],
       "source_type": "article",
       "language": "en",
       "summary_zh": "Google Research 提出 ConvApparel 框架，用于测量和改善用户模拟器的真实感差距。该方法通过定量化评估帮助构建更准确的用户行为模型。",
@@ -140,7 +160,11 @@
         "original_date": "2026-04-08"
       },
       "category": "coding/research",
-      "tags": ["academic-workflow", "peer-review", "figure-generation"],
+      "tags": [
+        "academic-workflow",
+        "peer-review",
+        "figure-generation"
+      ],
       "source_type": "article",
       "language": "en",
       "summary_zh": "Google Research 推出两个 AI 代理工具，专门用于改进学术工作流程中的图表生成和同行评审过程，提升科研效率和质量。",
@@ -166,7 +190,12 @@
         "original_date": "2026-04-01"
       },
       "category": "industry/strategy",
-      "tags": ["openai", "agi", "self-improvement", "computing-power"],
+      "tags": [
+        "openai",
+        "agi",
+        "self-improvement",
+        "computing-power"
+      ],
       "source_type": "article",
       "language": "zh",
       "summary_zh": "OpenAI 总裁 Greg Brockman 深度探讨 AI 自我改进机制、Super App 战略规划、AGI 发展路径以及算力扩张等核心议题，展现了对未来 AI 发展的战略思考。",
@@ -192,7 +221,11 @@
         "original_date": "2026-04-01"
       },
       "category": "coding/development",
-      "tags": ["claude-code", "source-leak", "engineering-insights"],
+      "tags": [
+        "claude-code",
+        "source-leak",
+        "engineering-insights"
+      ],
       "source_type": "article",
       "language": "zh",
       "summary_zh": "分析 Claude Code 源码泄漏事件，探讨其对 AI 开发工具生态的影响，以及从工程角度理解开源工具的价值和风险。",
@@ -218,7 +251,12 @@
         "original_date": "2026-03-28"
       },
       "category": "coding/cli",
-      "tags": ["feishu", "cli-tools", "ai-agents", "workflow"],
+      "tags": [
+        "feishu",
+        "cli-tools",
+        "ai-agents",
+        "workflow"
+      ],
       "source_type": "article",
       "language": "zh",
       "summary_zh": "深度分析飞书CLI开源现象，探讨AI Agent时代命令行工具重新兴起的趋势，以及CLI在智能体工作流中的核心作用。",
@@ -244,7 +282,12 @@
         "original_date": "2026-04-10"
       },
       "category": "agents/frameworks",
-      "tags": ["mcp", "interoperability", "standards", "enterprise-ai"],
+      "tags": [
+        "mcp",
+        "interoperability",
+        "standards",
+        "enterprise-ai"
+      ],
       "source_type": "article",
       "language": "en",
       "summary_zh": "深入探讨 Model Context Protocol 作为 AI 系统互操作标准的重要性，它就像 AI 领域的 USB-C 端口，正在成为企业 AI 基础设施的标准配置。",
@@ -270,7 +313,12 @@
         "original_date": "2026-04-10"
       },
       "category": "agents/frameworks",
-      "tags": ["multi-agent", "collaboration", "architectures", "2026-trends"],
+      "tags": [
+        "multi-agent",
+        "collaboration",
+        "architectures",
+        "2026-trends"
+      ],
       "source_type": "article",
       "language": "en",
       "summary_zh": "分析2026年多智能体系统的兴起趋势，探讨从单体语言模型向协作架构的转变，以及这对企业工作流程自动化决策的根本性改变。",
@@ -296,7 +344,11 @@
         "original_date": "2026-04-03"
       },
       "category": "models/alignment",
-      "tags": ["alignment", "llm-evaluation", "behavioral-dispositions"],
+      "tags": [
+        "alignment",
+        "llm-evaluation",
+        "behavioral-dispositions"
+      ],
       "source_type": "article",
       "language": "en",
       "summary_zh": "Google Research 提出新的对齐评估方法，专门针对大型语言模型中的行为倾向对齐问题，为AI安全和可靠性提供更精准的评估工具。",
@@ -322,7 +374,12 @@
         "original_date": "2026-04-08"
       },
       "category": "agents/frameworks",
-      "tags": ["a2a", "agent-communication", "protocols", "interoperability"],
+      "tags": [
+        "a2a",
+        "agent-communication",
+        "protocols",
+        "interoperability"
+      ],
       "source_type": "article",
       "language": "en",
       "summary_zh": "介绍 Agent2Agent Protocol 作为智能体间通信的新标准，探讨其在多智能体系统中的作用以及与MCP协议的协同关系。",
@@ -348,7 +405,12 @@
         "original_date": "2026-03-31"
       },
       "category": "models/multimodal",
-      "tags": ["video-generation", "cost-optimization", "veo", "multimodal"],
+      "tags": [
+        "video-generation",
+        "cost-optimization",
+        "veo",
+        "multimodal"
+      ],
       "source_type": "article",
       "language": "en",
       "summary_zh": "Google DeepMind 发布 Veo 3.1 Lite 模型，这是成本优化的视频生成解决方案，在保持高质量的同时大幅降低了计算成本，为更广泛的应用场景提供支持。",
@@ -358,6 +420,133 @@
       "quality_score": 3,
       "status": "active",
       "local_path": null,
+      "images": [],
+      "added_date": "2026-04-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aUQZTeYG",
+      "title": "Pi: The Minimal Agent Within OpenClaw",
+      "url": "https://lucumr.pocoo.org/2026/1/31/pi/",
+      "source": {
+        "platform": "blog",
+        "author": "Armin Ronacher",
+        "original_date": "2026-01-31"
+      },
+      "category": "coding/development",
+      "tags": [
+        "openclaw",
+        "coding-agent",
+        "minimal-design",
+        "armin-ronacher"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Pi 是 OpenClaw 中的极简编程 Agent，仅使用系统提示词、文件读取、文件写入和一个 LLM 主循环驱动。不同于复杂的智能体框架，Pi 追求「做少做精」——读取文件、做修改、由 LLM 决定执行命令。UI 参考 Codex，支持分支会话用于代码审查，以及快速查看最近提到的文件。",
+      "summary_en": "Pi is a minimal coding agent for OpenClaw that uses a simple system prompt, a file reader, a file writer, and a main loop running an LLM that interprets observations and decides whether to execute commands. Rather than building complex orchestration, Pi focuses on doing one thing well: reading files, making changes, and letting the LLM drive everything. The UI is modeled after Codex with easy-to-review commits, diffs, and uncommitted changes. The agent supports branching sessions for review and uses shift+ctrl+r for quick-look of recently mentioned files.",
+      "one_liner": "极简设计哲学的编程 Agent，或将成为 AI 辅助开发的主流范式",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fvwtcwdn.md",
+      "images": [],
+      "added_date": "2026-04-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1xSCucCg",
+      "title": "DeerFlow 2.0: ByteDance Open-Source AI Agent Harness",
+      "url": "https://github.com/bytedance/deer-flow",
+      "source": {
+        "platform": "github",
+        "author": "ByteDance Engineering",
+        "original_date": "2026-02-28"
+      },
+      "category": "agents/frameworks",
+      "tags": [
+        "deerflow",
+        "bytedance",
+        "multi-agent",
+        "deep-research",
+        "agent-harness"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "DeerFlow（深度探索高效研究流）是字节跳动开源的 AI Agent 工具，通过编排子 Agent、记忆和沙箱执行深度研究任务。2.0 版本于 2026 年 2 月 28 日登顶 GitHub Trending #1，支持豆宝-Seed-2.0-Code、DeepSeek v3.2 和 Kimi 2.5 等模型，集成了自研智能搜索和爬虫工具集。",
+      "summary_en": "DeerFlow (Deep Exploration and Efficient Research Flow) is an open-source AI agent harness by ByteDance that orchestrates sub-agents, memory, and sandboxes for deep research tasks. Version 2.0 is a ground-up rewrite that became GitHub Trending #1 on Feb 28, 2026. It recommends using Doubao-Seed-2.0-Code, DeepSeek v3.2 and Kimi 2.5 models. The framework integrates a proprietary intelligent search and crawling toolset, supports both standard mode with LangGraph Platform and local development mode.",
+      "one_liner": "字节跳动开源的深度研究 Agent 框架，2.0 重写登顶 GitHub Trending",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/finwgv5v.md",
+      "images": [],
+      "added_date": "2026-04-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "yBcdRHjK",
+      "title": "PhoneDriver: 使用 Qwen3-VL 的 Android 手机控制",
+      "url": "https://github.com/OminousIndustries/PhoneDriver",
+      "source": {
+        "platform": "github",
+        "author": null,
+        "original_date": null
+      },
+      "category": "agents/applications",
+      "tags": [
+        "phone-automation",
+        "qwen3-vl",
+        "android",
+        "vision-language-model",
+        "gradio"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "PhoneDriver 是一个基于 Python 的移动自动化 Agent，使用 Qwen3-VL 视觉-语言模型通过视觉分析和 ADB 命令来理解和控制 Android 设备。具有视觉驱动的自动化、自然语言任务描述、内置 Gradio 界面和实时反馈等特点，支持 Qwen3-VL 4B/8B 稠密模型和 MoE 变体。",
+      "summary_en": "PhoneDriver is a Python-based mobile automation agent using Qwen3-VL vision-language models to understand and interact with Android devices through visual analysis and ADB commands. It features vision-powered automation that understands phone screens, natural language task descriptions, a built-in Gradio interface, and real-time feedback. Supports both dense Qwen3-VL 4B/8B models and MoE variants. Installation is via pip with HuggingFace Transformers.",
+      "one_liner": "Qwen3-VL 视觉驱动 Android 控制，LLM Agent 在移动端自动化的新尝试",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/ik7vx8cy.md",
+      "images": [],
+      "added_date": "2026-04-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ULNdA6kA",
+      "title": "Superpowers: 编码 Agent 的完整软件开发生命周期工作流",
+      "url": "https://github.com/obra/superpowers",
+      "source": {
+        "platform": "github",
+        "author": null,
+        "original_date": null
+      },
+      "category": "coding/development",
+      "tags": [
+        "coding-agent",
+        "sdlc",
+        "workflow",
+        "spec-driven",
+        "tdd"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "Superpowers 是一个面向编程 Agent 的完整软件开发周期工作流，构建在可组合的技能之上。它先让用户明确真正要做什么，然后展示分块规格说明供审核，审核通过后生成 junior 工程师级别的实现计划，强调红/绿 TDD、YAGNI 和 DRY 原则。包含提问、规格说明、项目引导、计划实现、代码审查、测试运行和 Git 提交等技能。",
+      "summary_en": "Superpowers is a complete software development lifecycle workflow for coding agents, built on composable skills. When activated, it asks the user what they are really trying to build, then shows a chunked spec for review. After sign-off, it creates an implementation plan for a junior-engineer-level agent to follow, emphasizing red/green TDD, YAGNI, and DRY principles. It includes skills for asking clarifying questions, writing specs, bootstrapping projects, planning implementations, reviewing code, running tests, and managing git commits.",
+      "one_liner": "Spec 驱动的编程 Agent 工作流，强调先理解需求再动手",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8qb7y6ic.md",
       "images": [],
       "added_date": "2026-04-11",
       "updated_date": null,

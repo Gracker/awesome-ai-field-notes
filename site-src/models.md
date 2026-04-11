@@ -13,7 +13,7 @@ Tw93 继 Claude Code 和 Agent 深度分析后的第三篇长文，系统梳理�
 
 ---
 
-### [该项目在github上：https://github.com/OminousIndustries/PhoneDriver](https://github.com/OminousIndustries/PhoneDriver)
+### [该项目在github上：https://github.com/OminousIndustries/PhoneDriver](/entry/ik7vx8cy) 📄
 @DLKFZWilliam2 · ⭐⭐⭐⭐4  · 昨天
 
 **@DLKFZWilliam2** (独立开发者William)
@@ -341,7 +341,7 @@ Cubox 收藏 — 谈谈ChatGPT 背后的核心技术论文
 
 ---
 
-### [Google Gemma-4-31B 模型被彻底破解](https://x.com/Lonely__MH/status/2040832951206961413)
+### [Google Gemma-4-31B 模型被彻底破解](/entry/zokld58k) 📄
 @Lonely__MH · ⭐⭐⭐3 🇨🇳 · 昨天
 
 Google 最新 Gemma-4-31B 基础模型出现越狱版本 Gemma-4-31B-JANG_4M-CRACK，HarmBench 得分 93.7%（149/159）。采用 18GB 混合精度 MLX 量化，支持 Apple Silicon，原生支持视觉多模态。已在 Hugging Face 开放下载。
