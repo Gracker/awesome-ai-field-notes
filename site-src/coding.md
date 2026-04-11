@@ -152,7 +152,7 @@ Every concept builds on the last.
 
 ---
 
-### [Codex, in Plain English](https://x.com/gabrielchua/article/2026832978056458383)
+### [Codex, in Plain English](/entry/u4186wlk) 📄
 @Gabriel Chua · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 面向非程序员的 Codex 解释：大多数计算机工作是手动操作软件（点击菜单、复制粘贴、拖文件），理论上都可自动化但需要写代码。Codex 是 OpenAI 的编码 Agent，用自然语言描述需求，它能拆步骤、选工具、写代码、运行、交付结果。不再是程序员的专利，而是通用数字工作工具。

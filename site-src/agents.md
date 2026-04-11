@@ -268,7 +268,7 @@ OpenClaw 实时监控与控制中心，基于 Next.js、React 19 和 Tailwind CS
 
 ---
 
-### [The AI is the Computer](https://x.com/AravSrinivas/article/2026710957272207490)
+### [The AI is the Computer](/entry/izm2nhfr) 📄
 @Aravind Srinivas · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Perplexity CEO 的核心观点：没有一个模型家族能独立做到最好，多模型编排远超任何单一模型。介绍了内部实验 ASI（后端 19 个模型），本质上是一台计算机——有文件系统、shell、浏览器。类比 Chromebook：Google 没错理解网络是最重要的部分，但低估了网络的 READ 功能。AI 是把 READ 能力真正补上的关键。
