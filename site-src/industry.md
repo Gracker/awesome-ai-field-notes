@@ -240,7 +240,7 @@ LLM（大语言模型）的提示词处理速度快了 6.9 倍，AI 图像生成
 
 ---
 
-### [Anthropic 官方出品 Claude 101：一份从入门到上手的完整学习指南](https://x.com/GoSailGlobal/status/2029427735807050002)
+### [Anthropic 官方出品 Claude 101：一份从入门到上手的完整学习指南](/entry/bfk5atxz) 📄
 @JasonZhu · ⭐⭐⭐⭐4  · 2026-04-10
 
 Anthropic 最近在自家的教育平台 Anthropic Academy 上线了一门免费课程叫 Claude 101，总共 13 节课，从最基础的&quot;Claude 是什么&quot;一路讲到企业搜索、深度研究、自定义技能，覆盖了一个普通用户上手 Claude 需要知道的几乎所有东西。
@@ -253,7 +253,7 @@ Anthropic 最近在自家的教育平台 Anthropic Academy 上线了一门免费
 
 ---
 
-### [给人文工作者的 AI 使用指南](https://x.com/HanyangWang/status/2029362155607474359)
+### [给人文工作者的 AI 使用指南](/entry/rx7t9zxg) 📄
 @MasterPa · ⭐⭐⭐⭐4  · 2026-04-10
 
 人文工作者没有创造世界变化，但他们却在承受世界变化。

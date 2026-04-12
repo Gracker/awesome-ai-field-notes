@@ -175,7 +175,7 @@ macOS 上 OpenClaw 运行报错的系统性排查指南。Gateway 是中枢神�
 
 ---
 
-### [I Want to Become an AI Engineer (Full Course)](https://x.com/hooeem/status/2029660075774574660)
+### [I Want to Become an AI Engineer (Full Course)](/entry/b75mu5rc) 📄
 @hoeem · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 一篇 4800+ 字的 AI 工程师全栈学习指南，提出三层架构：Prompt Engineering（微语法，控制即时指令）→ Context Engineering（乘数，MCP + Context as Code + RAG 管道）→ Intent Engineering（差异化，组织目标编码）。用 Klarna 客服 AI 的失败案例（节省 $60M 但因 intent gap 被迫重新雇人）论证意图工程的重要性。提供 7 组件意图框架和大量可复用 prompt 模板，覆盖结构化格式、Few-Shot、CoT、元提示词、上下文审计、RAG 架构设计、MCP Server 蓝图等。

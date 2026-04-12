@@ -308,7 +308,7 @@ I’ve started a new project to collect and document Agentic Engineering Pattern
 
 ---
 
-### [BestBlogs.dev 第 85 期：驾驭工程](https://x.com/hongming731/article/2029843882037715433)
+### [BestBlogs.dev 第 85 期：驾驭工程](/entry/bm07nb7r) 📄
 @ginobefun · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 BestBlogs.dev 第 85 期以&quot;驾驭工程&quot;为核心关键词，提出开发者核心工作正从写代码转向构建 Agent 运行所依赖的驾驭工程体系。涵盖 GPT-5.4 发布（首次将推理、编程、计算机操作、深度搜索整合进单一模型）、Qwen3.5 小模型、FireRed-OCR、Martin Fowler 博客上关于 Harness Engineering 的系统性讨论（人在回路上 vs 人在回路中）、以及 Anthropic 设计负责人 Jenny Wen 对设计流程变革的判断。核心结论：执行力不再稀缺，稀缺的是知道该做什么以及判断什么是好的。
@@ -317,7 +317,7 @@ BestBlogs.dev 第 85 期以&quot;驾驭工程&quot;为核心关键词，提出�
 
 ---
 
-### [My Chief of Staff, Claude Code](https://x.com/jimprosser/article/2029699731539255640)
+### [My Chief of Staff, Claude Code](/entry/aakm0n26) 📄
 @Jim Prosser · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 一位非程序员的技术传播顾问用 Claude Code 在 36 小时内构建了完整的个人幕僚长系统：隔夜自动扫描日历和邮件、早晨 6:15 任务分类（绿/黄/红/灰四档）、6 个子 Agent 并行处理（邮件起草、Obsidian 客户笔记、会议安排、背景研究）、Stream Deck 一键时间块调度。核心设计原则：dispatch/prep/yours/skip 框架，系统从不发送邮件只起草，关键战略文档 100% 人工。月成本仅 $5-10 增量。文章价值在于展示了一个非程序员如何用系统思维（而非编程能力）设计 AI 自动化架构。
@@ -326,7 +326,7 @@ BestBlogs.dev 第 85 期以&quot;驾驭工程&quot;为核心关键词，提出�
 
 ---
 
-### [How Coding Agents Are Reshaping Engineering, Product and Design](https://x.com/hwchase17/status/2031051115169808685)
+### [How Coding Agents Are Reshaping Engineering, Product and Design](/entry/1y45plki) 📄
 @Harrison Chase · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 LangChain 创始人 Harrison Chase 分析 Coding Agent 对工程、产品、设计三大职能的重塑：PRD 流程已死（不再需要 PRD→Mock→Code 的瀑布流），瓶颈从实现转向审查，通用型人才比以往更有价值。核心框架：Builder（用好 coding agent + 产品思维 + 基础设计直觉）vs Reviewer（深度系统思维 + 快速审查能力）。关键判断：coding agent 是必需品而非可选品；好人更好，坏人更坏（差的产品想法现在能快速产生原型但浪费更多审查资源）；系统思维是关键差异化能力。
