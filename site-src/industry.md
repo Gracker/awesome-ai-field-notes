@@ -158,7 +158,7 @@ Block 裁 4000 人的三个观察：一、&quot;金色寻回犬&quot;时代结�
 
 ---
 
-### [软件的未来并非你所想](https://x.com/szslg/status/2027198886981587407)
+### [软件的未来并非你所想](/entry/pxejvdmr) 📄
 @苏里格 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 前 Meta AI 负责人、现 Airbnb CTO Ahmad Al-Dahle 的观点。AI 不会取代软件工程师但职业将剧烈变化。三个转变：工程师-产品思考者崛起（理解为什么比如何实现更重要）、系统思维胜过代码流利度（跨基础设施/分布/激励/二阶效应推理）、品味作为技术技能（工具变好后有品味的工程师价值只增不减）。代码始终是媒介，判断力始终是手艺。
@@ -167,7 +167,7 @@ Block 裁 4000 人的三个观察：一、&quot;金色寻回犬&quot;时代结�
 
 ---
 
-### [How to set up Claude Cowork the right way](https://x.com/heynavtoor/status/2026717574776631556)
+### [How to set up Claude Cowork the right way](/entry/n7gu2chx) 📄
 @Nav Toor · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Claude Cowork 的完整设置指南。Cowork 不是聊天机器人——它在你离开时帮你完成工作。作者三年构建 AI 工作流的经验总结，覆盖每个功能、每个设置步骤、第一个提示词、以及诚实的不足之处。Cowork 成了每天早上打开的第一件事。17,837 likes / 81,645 bookmarks。
@@ -176,7 +176,7 @@ Claude Cowork 的完整设置指南。Cowork 不是聊天机器人——它在�
 
 ---
 
-### [Jack Dorsey Block 裁员备忘录：AI 让组织变小](https://x.com/jack/status/2027129697092731343)
+### [Jack Dorsey Block 裁员备忘录：AI 让组织变小](/entry/kr3zm1t7) 📄
 @jack · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Jack Dorsey 裁员 4000+ 人（10000→6000）的内部备忘录。不是因为公司亏损（毛利在涨），而是 AI 让更小更扁平的团队成为可能。选择一次性到位而非分批裁员。对未来团队的定位：以智能为核心构建公司的一切方式。50,414 likes / 60M+ views。
@@ -185,7 +185,7 @@ Jack Dorsey 裁员 4000+ 人（10000→6000）的内部备忘录。不是因为�
 
 ---
 
-### [Agent工程=分布式系统工程（6支柱速读）](https://x.com/Stv_Lynn/status/2028288139777986713)
+### [Agent工程=分布式系统工程（6支柱速读）](/entry/26qoyo1c) 📄
 @Stv_Lynn · ⭐⭐⭐⭐4  · 2026-04-10
 
 这条长推文将 Agent 工程映射为分布式系统工程，强调 durability、isolation、governance、persistence、scale、composability 六个支柱，适合作为团队架构评审清单。
@@ -199,7 +199,7 @@ Agent 工程 = 分布式系统工程。这些问题（持久化、隔离、容�
 
 ---
 
-### [同一场 AI 革命，中美创业者却走向了两条路](https://x.com/wangray/status/2028817237411610964)
+### [同一场 AI 革命，中美创业者却走向了两条路](/entry/p2d1wlm8) 📄
 @wangray · ⭐⭐⭐⭐4  · 2026-04-10
 
 **By @wangray** (Ray Wang) · Tue Mar 03 12:58:17 +0000 2026

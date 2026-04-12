@@ -179,7 +179,7 @@ Every concept builds on the last.
 
 ---
 
-### [Claude Code 核心开发者分享：构建 Claude Code 的经验教训——像 Agent 一样看世界](https://x.com/fkysly/status/2027610329530712204)
+### [Claude Code 核心开发者分享：构建 Claude Code 的经验教训——像 Agent 一样看世界](/entry/sgqyc174) 📄
 @马天翼 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Thariq 原文的中文翻译。构建 agent 框架最难的部分是设计行动空间。工具设计要匹配 Agent 能力（纸笔→计算器→电脑的类比）。AskUserQuestion 工具三次迭代：修改 ExitPlanTool（Claude 困惑）→修改输出格式（不可靠）→独立工具（成功）。最终方案可引导结构化输出、确保多选项、支持 SDK 集成。
@@ -197,7 +197,7 @@ CC Switch 是 Claude Code 的供应商管理和切换工具，GitHub 2 万 Star�
 
 ---
 
-### [从 MCP 到 SKILL：关于 Agent 扩展机制的思考](https://x.com/jolestar/status/2011461813767155828)
+### [从 MCP 到 SKILL：关于 Agent 扩展机制的思考](/entry/cuvjviqp) 📄
 @jolestar · ⭐⭐⭐⭐4  · 2026-04-10
 
 从 MCP 到 SKILL：关于 Agent 扩展机制的思考
@@ -213,7 +213,7 @@ MCP（Model Context Protocol）把这套机制做成了“标准插头”：以�
 
 ---
 
-### [2026-03-02-0810-karpathy-AI-changed-programming-last-two-months-2026731645169185220](https://x.com/karpathy/status/2026731645169185220)
+### [2026-03-02-0810-karpathy-AI-changed-programming-last-two-months-2026731645169185220](/entry/4y9bper3) 📄
 @karpathy · ⭐⭐⭐⭐4  · 2026-04-10
 
 It is hard to communicate how much programming has changed due to AI in the last 2 months... coding agents basically did not work before December.
@@ -249,7 +249,7 @@ The repository serves as a unified hub of papers, code, demos, and benchmark upd
 
 ---
 
-### [2026-03-04-0813-brucexu_eth-Deep-Research-盲测-ChatGPT-5.2-Pro-vs-Clau-2028796588039262505](https://x.com/brucexu_eth/status/2028796588039262505)
+### [2026-03-04-0813-brucexu_eth-Deep-Research-盲测-ChatGPT-5.2-Pro-vs-Clau-2028796588039262505](/entry/2k9hctuc) 📄
 @brucexu_eth · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 **@brucexu_eth** (brucexu.eth ❤️🐼🦇🔊)

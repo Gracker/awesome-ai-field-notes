@@ -295,7 +295,7 @@ Perplexity CEO 的核心观点：没有一个模型家族能独立做到最好�
 
 ---
 
-### [How to set up OpenClaw Agents that actually get better Over Time](https://x.com/Saboo_Shubham_/status/2027463195150131572)
+### [How to set up OpenClaw Agents that actually get better Over Time](/entry/pfrs4w73) 📄
 @Shubham Saboo · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 40 天实践：Agent 变聪明靠的不是调 prompt 或换模型，而是持续对话反馈让它们自己写下来。三层操作系统：内容 Agent 学会了作者的声音、研究 Agent 每天交付 7 个值得读的故事、8 个 Agent 24/7 运行。核心是越来越丰富的 markdown 文件栈。同一模型第 1 天和第 40 天输出质量天差地别。
@@ -304,7 +304,7 @@ Perplexity CEO 的核心观点：没有一个模型家族能独立做到最好�
 
 ---
 
-### [OpenClaw丨我的龙虾为自己种了一棵会迭代的记忆树](https://x.com/loryoncloud/status/2027865988558164186)
+### [OpenClaw丨我的龙虾为自己种了一棵会迭代的记忆树](/entry/5cqwee83) 📄
 @Lory · ⭐⭐⭐⭐4  · 2026-04-10
 
 文章较长 感谢阅读 或者直接把这篇推文的链接扔给你的龙虾
@@ -336,7 +336,7 @@ Perplexity CEO 的核心观点：没有一个模型家族能独立做到最好�
 
 ---
 
-### [Don&#x27;t trust AI agents](https://x.com/Gavriel_Cohen/status/2027841164150178238)
+### [Don&#x27;t trust AI agents](/entry/p327t0g8) 📄
 @Gavriel_Cohen · ⭐⭐⭐⭐4  · 2026-04-10
 
 When you&#x27;re building with AI agents, they should be treated as untrusted and potentially malicious. Whether it&#x27;s prompt injection, a model trying to escape its sandbox, or something nobody&#x27;s thought of yet, you shouldn&#x27;t be trusting the agent. The right approach isn&#x27;t better permission checks or smarter allowlists. It&#x27;s architecture that assumes agents will misbehave and contains the damage when they do.
@@ -346,7 +346,7 @@ When you&#x27;re building with AI agents, they should be treated as untrusted an
 
 ---
 
-### [工程师，开始给 Agent 打工了](https://x.com/wangray/status/2028132386756780220)
+### [工程师，开始给 Agent 打工了](/entry/s3r7a5ia) 📄
 @wangray · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 OpenAI 内部有个团队，5 个月，3 个工程师，几乎不靠手写代码，做出了一个内部产品。
