@@ -31,7 +31,7 @@ OpenRouter 联合 a16z 的 100 万亿 token LLM 使用分析。核心发现：�
 
 ---
 
-### [Qwen3.5-122B-A10B Pooled on Dual Mac Studio M4 Max with Exo + Thunderbolt 5 RDMA](https://x.com/TrevinPeterson/status/2027404303749546459)
+### [Qwen3.5-122B-A10B Pooled on Dual Mac Studio M4 Max with Exo + Thunderbolt 5 RDMA](/entry/3pu0nwgt) 📄
 @TrevinPeterson · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 24+ 小时调试后，在两台 Mac Studio M4 Max 上通过 Exo + Thunderbolt 5 RDMA 实现了 Qwen3.5-122B-A10B 的完整池化运行。持续吞吐约 52 tok/s，并发 c=2 稳定（p95 约 10.37 秒）。提供了完整的 Day-0 实操指南，包含精确命令与失败检查关卡。

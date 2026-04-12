@@ -148,7 +148,7 @@ OpenClaw 最大问题不是不会装，而是装完没真实场景。三步前�
 
 ---
 
-### [How to master prompt engineering](https://x.com/EXM7777/article/2011800604709175808)
+### [How to master prompt engineering](/entry/r5io6o5x) 📄
 @Machina · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 核心观点：prompt 工程不是写好的文字，而是精确知道自己想要什么。差距在于你脑中的模糊想法 vs 你能精确表达的程度。文章覆盖了从心理模型到输出精度的完整方法论，强调&quot;看不见的工作&quot;——在坐下来提示之前，先建立清晰的意图模型。
@@ -157,7 +157,7 @@ OpenClaw 最大问题不是不会装，而是装完没真实场景。三步前�
 
 ---
 
-### [OpenClaw 从中级到高级完整教程](https://x.com/onehopeA9/article/2026905651088339408)
+### [OpenClaw 从中级到高级完整教程](/entry/swprvijb) 📄
 @OneHopeA9 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 面向已完成基础配置的 OpenClaw 用户的中高级教程。覆盖：AGENTS.md 工作规范、记忆优化（构建可靠记忆体系）、子 Agent 团队协作、Cron 自动化、Skill 开发、多渠道部署（全平台接入）、性能调优、实战练习清单、疑难解答。系统性的进阶指南。
@@ -166,7 +166,7 @@ OpenClaw 最大问题不是不会装，而是装完没真实场景。三步前�
 
 ---
 
-### [OpenClaw 运行报错指南（上篇）](https://x.com/lijiuer92/status/2026639705933328582)
+### [OpenClaw 运行报错指南（上篇）](/entry/gey4i36q) 📄
 @李韭二 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 macOS 上 OpenClaw 运行报错的系统性排查指南。Gateway 是中枢神经，所有消息收发/LLM 调用/工具调度都经过它，挂了=系统瘫痪。覆盖 Gateway 启动失败排查（Node.js 版本、端口占用、launchd 服务注册、JSON 配置）、各类报错的根因分析。适用 macOS Apple Silicon/Intel。

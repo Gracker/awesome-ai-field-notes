@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema_description": "每条记录必须基于实际文件内容提取，禁止捏造。英文原文需提供中英双语摘要。",
-  "last_updated": "2026-04-11",
+  "last_updated": "2026-04-12T08:15:06.707044",
   "entries": [
     {
       "id": "7n5hkzn5",
@@ -20902,6 +20902,85 @@
         "https://mmbiz.qpic.cn/sz_mmbiz_png/Z9iazku4kibdCaMM8CXQk74oU5T4ybiafKZcOz9qFMSIHZhYg7eEOOkf8ug4gdtUbRcGkjpbqt4VEV0OHgMeOtMxOp0rhjXJMLGIFbjBFM6r54/640"
       ],
       "added_date": "2026-04-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "72x6hfdeebbo",
+      "title": "万字干货：理解 Harness Engineering，看这一篇就够了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkxMTY4NTAyNQ==&mid=2247508809&idx=1&sn=960d705ab56f992ed504a2b735a2a515",
+      "source": {
+        "platform": "wechat",
+        "author": "咸鱼（TRAE 开发者用户）",
+        "original_date": "2026-04-11"
+      },
+      "category": "agent-frameworks/harness-engineering",
+      "tags": [
+        "harness-engineering",
+        "agent-frameworks",
+        "prompt-engineering",
+        "context-engineering",
+        "reliability",
+        "agent-infrastructure"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Harness Engineering 是继 Prompt Engineering、Context Engineering 之后，由 Mitchell Hashimoto（HashiCorp 联合创始人）提出并因 OpenAI 报告而广为人知的第三类 AI 工程化方法。其核心隐喻是为 AI Agent 这匹野马套上缰绳，通过约束、引导与纠正确保其稳定运行。该框架以 R.E.S.T 四目标（可靠性、效率、安全性、可追溯性）为基石，通过上下文管理、Function Calling 降级策略、沙盒隔离与多层度量体系，将 Agent 从有趣的玩具变为可规模化的可靠生产力工具。",
+      "summary_en": null,
+      "one_liner": "Harness Engineering 是将 AI Agent 从好玩具变可靠工具的完整工程框架，为 Agent 系统提供约束、引导与纠正机制",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/万字干货：理解 Harness Engineering，看这一篇就够了-2026-04-11.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "jvblhpoud3ey",
+      "title": "破局Agent时代：ARIES RISCV+AI架构分析",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzUzNzg4Nzc3MQ==&mid=2247485969&idx=1&sn=32449a8c2513a5cb53f1ad2360b58e4a",
+      "source": {
+        "platform": "wechat",
+        "author": null,
+        "original_date": "2026-04-11"
+      },
+      "category": "hardware-chips/risc-v-ai",
+      "tags": [
+        "risc-v",
+        "ai-chip",
+        "agent-era",
+        "in-memory-computing",
+        "cim",
+        "aries",
+        "isscc"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "ISSCC 2026 展示的 ARIES 架构代表了 AI 芯片从算力怪兽向有脑子的行动派的进化路线。ARIES 通过 RISC-V CPU 集成（调度控制前额叶）+ 280MB 大容量 SRAM + CIM 存内计算，实现 PD/AF 融合方案（拒绝 NVIDIA/Groq 的物理分离路线），以 14nm 工艺在能效比上超越 4nm GPU。其三引擎 NPU Core（TCE/TME/VCE）+ 相似性感知 TCAM + LUT 非均匀量化，构成 Agent 时代芯片的差异化竞争力。",
+      "summary_en": null,
+      "one_liner": "Harness Engineering 是将 AI Agent 从好玩具变可靠工具的完整工程框架，为 Agent 系统提供约束、引导与纠正机制",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/破局Agent时代：ARIES RISCV+AI架构分析-2026-04-11.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-12",
       "updated_date": null,
       "github_stars": null,
       "related": []

@@ -1,9 +1,9 @@
 {
-  "total_entries": 610,
-  "active_entries": 566,
+  "total_entries": 612,
+  "active_entries": 568,
   "archived_entries": 44,
-  "this_week_added": 610,
-  "entries_with_content": 58,
+  "this_week_added": 612,
+  "entries_with_content": 74,
   "category_distribution": {
     "coding": 161,
     "learning": 115,
@@ -12,16 +12,17 @@
     "infra": 60,
     "industry": 55,
     "uncategorized": 19,
-    "agent-frameworks/harness-engineering": 1,
-    "ai-hardware/chip-architecture": 1
+    "agent-frameworks/harness-engineering": 2,
+    "ai-hardware/chip-architecture": 1,
+    "hardware-chips/risc-v-ai": 1
   },
   "source_type_distribution": {
-    "article": 426,
+    "article": 428,
     "x_post": 124,
     "paper": 34,
     "github": 14,
     "newsletter": 9,
     "video": 3
   },
-  "last_updated": "2026-04-12 03:10"
+  "last_updated": "2026-04-12 08:15"
 }

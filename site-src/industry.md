@@ -122,7 +122,7 @@ Anthropic对80,508名Claude用户进行的大规模定性研究，覆盖159个�
 
 ---
 
-### [AI的负面（2）你的知识在贬值，但房贷不会贬值](https://x.com/FuSheng_0306/article/2026910973030969477)
+### [AI的负面（2）你的知识在贬值，但房贷不会贬值](/entry/2z4h3cnl) 📄
 @傅盛 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 讨论 AI 对白领阶层&quot;智力溢价&quot;的冲击。过去几千年的经济游戏底层规则是人的智慧是稀缺资源，AI 打破了这个前提。AI Agent 月费约 200 元，7×24 不停歇，能替代年薪 30 万白领的大部分工作。国家已将 AI 列入突发事件应急预案的重大潜在风险。核心警告：你的知识在贬值，但房贷不会。
@@ -131,7 +131,7 @@ Anthropic对80,508名Claude用户进行的大规模定性研究，覆盖159个�
 
 ---
 
-### [The Business Models That Will Dominate 2027 (That Don&#x27;t Exist Yet)](https://x.com/Zephyr_hg/article/2026656410084258042)
+### [The Business Models That Will Dominate 2027 (That Don&#x27;t Exist Yet)](/entry/8wchcs0s) 📄
 @Zephyr · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 预测 2027 年将主导的 AI 新商业模式。包括：企业级单人服务公司（AI 处理重复工作、自动化交付、人做战略和客户关系）、AI 驱动微型机构、按结果付费定价、AI 原生服务市场等。核心：如果懂得构建系统，单人服务公司是目前杠杆最高的商业模式。
@@ -140,7 +140,7 @@ Anthropic对80,508名Claude用户进行的大规模定性研究，覆盖159个�
 
 ---
 
-### [Anthropic CEO Dario Amodei：海啸已在地平线上，但没人在看](https://x.com/dotey/status/2027265200781402351)
+### [Anthropic CEO Dario Amodei：海啸已在地平线上，但没人在看](/entry/tdztvvhy) 📄
 @dotey · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Anthropic CEO Dario Amodei 在印度班加罗尔的深度访谈要点：2019 年 GPT-2 阶段就看到 scaling laws；2022 年 ChatGPT 发布前 Anthropic 有 Claude 早期版本但选择不发避免军备竞赛；技术安全比预期好但社会认知比预期差；写代码率先被 AI 替代；创业者不要做 Claude 套壳要建壁垒；看好 AI 驱动的生物科技。Anthropic 估值 3800 亿美元，年化收入 140 亿。
@@ -149,7 +149,7 @@ Anthropic CEO Dario Amodei 在印度班加罗尔的深度访谈要点：2019 年
 
 ---
 
-### [別當金色尋回犬：Block 裁 4000 人，微軟暴跌後，我看到的三件事](https://x.com/mike_chong_zh/status/2027228656951803914)
+### [別當金色尋回犬：Block 裁 4000 人，微軟暴跌後，我看到的三件事](/entry/25ntvqhu) 📄
 @迈克 Mike Chong · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Block 裁 4000 人的三个观察：一、&quot;金色寻回犬&quot;时代结束——听话勤快按流程做事的人恰是 LLM 最强能力；二、薪资正在两极分化且速度吓人，AI coding 占比从 20-30% 到接近 99%；三、未来是能做判断的人 vs 只能跑流程的人的分野。作者前微软 5 年员工的一线观察。
