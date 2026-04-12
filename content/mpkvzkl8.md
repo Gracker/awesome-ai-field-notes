@@ -1,81 +1,141 @@
 ## English
+Launching Claude Managed Agents
 
-Anthropic launches Claude Managed Agents: a pre-built, configurable agent harness running on managed infrastructure. Three core concepts: Agent (versioned config), Environment (sandbox template), Session (stateful run). Patterns include event-triggered, scheduled, fire-and-forget, and long-horizon tasks. Architecture decouples brain (Claude+harness), hands (sandbox+tools), and memory (session logs).
+TL;DR – Claude Managed Agents is a pre-built, configurable agent harness that runs in managed infrastructure. You define an agent as a template – tools, skills, files / repos, etc. The agent harness and the infrastructure are provided for you. The system is designed to keep pace with Claude's rapidly growing intelligence and support long horizon tasks. Some useful links:
 
-@RLanceMartin just computer use :) managed agent calls back to my local machine where I'm logged in, though @gcemaj has some fun examples using containers for this.
+- Claude blog: Usage patterns and customer examples
+- Engineering blog: The design of Claude Managed Agents
+- Docs: Onboarding, quickstart, overview of the CLI and SKDs
 
-The "decouple brain from hands" framing clicks. been running 6+ hour Claude Code sessions — failure mode isn't model quality, it's state loss. session drops, tool context gone, no resume. versioned Agent config solves a real ops problem. one question: rollback story when a config updates mid-task?
+Why Claude Managed Agents
 
-@RLanceMartin Anyone pursuing this fucking garbage is a god damn moron. There are no short cuts to critical thinking. Stop trying to short cut it.
+The Claude messages API is a direct gateway to the model: it accepts messages and returns content blocks. Agents built on the messages API use a harness to route Claude's tool calls to handlers and manage context. This poses a few challenges:
 
-@RLanceMartin Meta-harness with stable interfaces framing resonates deeply. I've been building the same layer independently, a harness for harnesses, and arrived at identical conclusions about decoupling. The one area I'd love to see explored next: self-learning. A harness that captures user corrections and injects them as prevention rules in future sessions. Static resilience is table stakes. Compound intelligence is the next layer.
+- Harnesses need to keep up with Claude – I recently wrote a blog here focused on building agents using Claude API primitives to handle tool orchestration and context management. But agent harnesses encode assumptions about what Claude can't do. These assumptions grow stale as Claude gets more capable and can bottleneck Claude's performance. Harnesses need to be continually updated to keep pace with Claude.
 
-@RLanceMartin managed agents sound like a solid step forward, though i'm curious how much complexity gets hidden behind that 'managed' label
+- Claude is running for longer – Claude's task horizon is growing exponentially, already exceeding over 10 human-hours of work on the METR benchmark. This puts pressure on the infrastructure around an agent: it needs to be safe, resilient to infrastructure failures that happen over long horizon tasks, and support scaling (e.g., to many agent teams).
 
-@RLanceMartin You need to add the ability to pass in chat history / state to the agents sdk for long-term persistence memory~ otherwise the agent sdk is not usable in production, everything is coupled to the file system way too much. Even the tool exec run-time like you've mentioned
+Addressing these challenges is important because we expect future Claude to run over days, weeks, or months on humanity's greatest challenges. The Claude Agent SDK was a first step, providing an excellent general purpose agent harness. Claude Managed Agents is the next step in this progression: a system with the harness and managed infrastructure designed to support safe, reliable execution over the time-horizon that we expect Claude to work.
 
-@RLanceMartin The engineering blog link to designing harnesses goes to your staging blog and as such not accessible.
+How to get started
 
-@RLanceMartin @grok explain how this stacks up against existing harnesses like Deep Agents built in LangChain.
+An easy way to onboard is to use our open source claude-api skill, which works out of the box in Claude Code. Get the latest version of Claude Code and run the following sub-command for Claude Managed Agents onboarding. I'm excited about skills as a way to onboard to new features, and have used this skill extensively:
 
-@RLanceMartin @RLanceMartin what did you use to give the agent access to X content?
+Also see our docs for quickstart with the SDKs or CLI, and prototype agents in Claude Console.
 
-@RLanceMartin A detailed video with a few use cases would be great
+Use cases
 
-@RLanceMartin 🫡 ... one coming tmrw.
+You can see our Claude blog for a number of interesting examples. Some of the common patterns I've noticed across these examples and my own work:
 
-@RLanceMartin ya, supports both!
+- Event-triggered: A service triggers the Managed Agent to do a task. For example, a system flags a bug and a managed agent writes the patch and opens the PR. No human in the loop between flag and action.
 
-@RLanceMartin Does this mean that if my company creates an Agent using Claude Cowork...that my team's Claude users can access and run the tool + there is some sort of git-based changelog for making sure there aren't rogue changes to the agent / agent framework?
+- Scheduled: Managed Agent is scheduled to do a task. For example, I and many others use this pattern for scheduled daily briefs (e.g., of X or Github activity, what a team of agents is working on). Here's an example daily brief of X activity that I use.
 
-@RLanceMartin What's the difference between long horizon tasks and a normal task? What makes something long horizon?
+- Fire-and-forget: Humans trigger the Managed Agent to do a task. For example, assign tasks to the Managed Agent via Slack or Teams and get back deliverables (spreadsheets, slides, apps).
 
-@RLanceMartin just the time horizon over which the agent is working. see the METR benchmark.
+- Long-horizon tasks: Long-running tasks are an area where I think Managed Agents will be particularly useful. I've explored this by forking @karpathy's auto-research repo and exploring a few different ideas. For example, I recently took @_chenglou's excellent pretext library and had a Managed Agent explore ways to apply it to our engineering blog content.
 
-@RLanceMartin Does this mean AWS Agentcore is no longer required?
+Key concepts
 
-@RLanceMartin managed agents are just a fancy name for 'we'll run your janky script on our servers so you don't have to have to'
+When onboarding, there's three central concepts to understand:
+
+- Agent — A versioned config that houses the agent's identity: model, system prompt, tools, skills, MCP servers, etc. You create it once and reference it by ID.
+
+- Environment — A template describing how to provision the sandbox the agent's tools run in (e.g., runtime type, networking policy, and package config).
+
+- Session — A stateful run using the pre-created agent config and environment. It provisions a fresh sandbox from the environment template, mounts any per-run resources (files, GitHub repos), stores auth in a secure vault (MCP credentials).
+
+Think about an agent as a configuration, an environment as a template describing the sandbox you want the agent to access for code execution, and the session as any agent execution. One agent can have many sessions.
+
+Usage
+
+See docs here:
+
+- SDKs – These are code-facing: import them in your app to drive sessions at runtime. Six languages have Managed Agents support: Python, TypeScript, Java, Go, Ruby, PHP.
+
+- CLI – Terminal-facing: every API resource (agents, environments, sessions, vaults, skills, files) is exposed as a subcommand.
+
+- Common patterns – Use the CLI for setup and SDK for runtime. Agents templates are persistent: you create one, store it (e.g., as a YAML with model, system prompt, tools, MCP servers, skills in git) and have the CLI apply it in your deploy pipeline.
+
+How it works
+
+I wrote an Anthropic engineering blog post with @mc_anthropic, @gcemaj, and @jkeatn on the process of building Claude Managed Agents: a lesson we share in the post is that building agents to scale with Claude's intelligence is an infrastructure challenge, not strictly a matter of harness design.
+
+With this in mind, we didn't design a particular agent harness; we expect agent harnesses to constantly evolve. Instead we decouple what we thought of as the brain (Claude and its harness) from both the hands (sandboxes and tools that perform actions) and the session (the log of session events).
+
+Each became an interface that made few assumptions about the others, and each could fail or be replaced independently. We share how this gives the system reliability, security, and flexibility to add future harnesses, sandboxes, or infrastructure to house sessions.
+
+Conclusion
+
+I'm excited about projects exploring different patterns of multi-agent orchestration or long-running tasks. One of the frustrations I've written about in the past is keeping agent harnesses up with model capabilities. Claude Managed Agents handles the agent harness and infrastructure for you, allowing for explorations on top of the agent as a new core primitive in the Claude API.
 
 ## 中文
+发布 Claude 托管智能体
 
-Anthropic 发布 Claude Managed Agents：预构建的可配置 Agent 运行底座，运行在托管基础设施上。三大核心概念：Agent（版本化配置）、Environment（沙盒模板）、Session（有状态运行）。四种用法：事件触发、定时、即发即忘、长时间任务。架构上将"大脑"（Claude+调度框架）、"手"（沙盒工具）、"记忆"（会话日志）解耦，支持独立故障恢复。
+TL;DR —— Claude 托管智能体是一个预构建的可配置智能体运行底座，运行在托管基础设施上。你将智能体定义为模板——工具、技能、文件/仓库等。智能体运行底座和基础设施都为你提供。该系统设计为能够跟上 Claude 快速增长的智能并支持长时间任务。一些有用的链接：
 
-@RLanceMartin 只需计算机使用 :) managed agent 回调到本地登录机器，尽管 @gcemaj 有使用容器的有趣示例。
+- Claude 博客：使用模式和客户案例
+- 工程博客：Claude 托管智能体的设计
+- 文档：入门、快速入门、CLI 和 SDK 概览
 
-"大脑与手分离"框架很有意义。运行6小时+的 Claude Code 会话——失败模式不是模型质量，而是状态丢失。会话中断，工具上下文消失，无法恢复。版本化的 Agent 配置解决了真正的运维问题。一个疑问：配置在任务中途更新时的回滚故事？
+为什么需要 Claude 托管智能体
 
-@RLanceMartin 追求这个该死垃圾的人是个该死的白痴。没有批判性思维的捷径。别试图走捷径。
+Claude 消息 API 是模型的直接网关：它接受消息并返回内容块。基于消息 API 构建的智能体使用运行底座将 Claude 的工具调用路由到处理器并管理上下文。这带来了一些挑战：
 
-@RLanceMartin Meta-harness 带稳定接口的框架引起深度共鸣。我一直在独立构建相同的层，一个层的层架，并得出了关于解耦的相同结论。我渴望探索的下一个领域是自学习。一个能够捕获用户修正并将其作为预防规则注入到未来会话中的层。静态弹性是基本要求。复合智能是下一层。
+- 运行底座需要跟上 Claude —— 我最近在这里写了一篇博客，专注于使用 Claude API 原语来构建智能体以处理工具编排和上下文管理。但智能体运行底座编码了关于 Claude 不能做什么的假设。这些假设随着 Claude 能力增强而变得过时，可能成为 Claude 性能的瓶颈。运行底座需要不断更新以跟上 Claude 的步伐。
 
-@RLanceMartin managed agents 听起来是坚实的一步，不过我很好奇"managed"标签背后隐藏了多少复杂性
+- Claude 运行时间更长 —— Claude 的任务范围呈指数级增长，在 METR 基准测试中已经超过了超过 10 个人类工作小时。这给智能体周围的基础设施带来压力：它需要安全，能够承受长时间任务中发生的基础设施故障，并支持扩展（例如，扩展到许多智能体团队）。
 
-@RLanceMartin 你需要添加将聊天历史/状态传递给 agent sdk 的功能以实现长期持久化记忆~ 否则 agent sdk 在生产环境中不可用，一切都与文件系统耦合得太紧。即使是工具执行时也是如此
+解决这些挑战很重要，因为我们期望未来的 Claude 能够在人类最伟大的挑战上运行数天、数周或数月。Claude 智能体 SDK 是第一步，提供了优秀的通用智能体运行底座。Claude 托管智能体是这一进程的下一步：一个具有运行底座和托管基础设施的系统，旨在支持我们期望 Claude 工作的长时间范围内的安全可靠执行。
 
-@RLanceMartin 设计层架的工程博客链接指向你的暂存博客，无法访问。
+如何开始入门
 
-@RLanceMartin @grok 解释一下这与现有的 LangChain 构建的 Deep Agents 层架相比如何。
+一个简单的方法是使用我们的开源 claude-api 技能，它在 Claude Code 中开箱即用。获取最新版本的 Claude Code 并运行以下子命令来为 Claude 托管智能体入门。我对技能作为新功能入门的方式感到兴奋，并且大量使用了这个技能：
 
-@RLanceMartin @RLanceMartin 你用什么来让 agent 访问 X 内容？
+另请参阅我们的文档，了解 SDK 或 CLI 的快速入门，以及在 Claude Console 中原型化智能体。
 
-@RLanceMartin 希望有一些用例的详细视频。
+使用场景
 
-@RLanceMartin 🫡 ... 明天就来。
+您可以在我们的 Claude 博客中看到许多有趣的例子。在这些例子和我自己的工作中，我注意到的一些常见模式：
 
-@RLanceMartin 支持！
+- 事件触发：服务触发托管智能体执行任务。例如，系统标记一个错误，托管智能体编写补丁并打开 PR。在标记和操作之间没有人工参与。
 
-@RLanceMartin 这是说，如果我的公司使用 Claude Cowork... 创建一个 Agent，我们团队的 Claude 用户可以访问并运行该工具 + 有某种基于 git 的变更日志来确保没有恶意更改 agent / agent framework？
+- 定时：托管智能体被安排执行任务。例如，我和许多其他人使用这种模式进行定时每日简报（例如，X 或 GitHub 活动，智能体团队正在做什么）。这是我使用的 X 活动每日简报示例。
 
-@RLanceMartin 长期任务和普通任务有什么区别？什么让某个任务成为长期任务？
+- 即发即忘：人工触发托管智能体执行任务。例如，通过 Slack 或 Teams 向托管智能体分配任务并获取可交付成果（电子表格、幻灯片、应用程序）。
 
-@RLanceMartin 只是 agent 工作的时间范围。参见 METR 基准测试。
+- 长时间任务：长时间运行是我认为托管智能体特别有用的领域。我通过分叉 @karpathy 的自动研究仓库并探索一些不同的想法来探索这一点。例如，我最近采用了 @_chenglou 优秀的 pretext 库，并让托管智能体探索将其应用于我们工程博客内容的方法。
 
-@RLanceMartin 这是说 AWS Agentcore 不再需要了吗？
+核心概念
 
-@RLanceMartin managed agents 只是我们将在服务器上运行你的垃圾脚本让你不用这么做的花哨名称
+入门时，需要理解三个核心概念：
 
----
+- 智能体 —— 一个版本化的配置，包含智能体的身份：模型、系统提示、工具、技能、MCP 服务器等。你创建一次并通过 ID 引用。
 
-*来源：Twitter/X @RLanceMartin*
-*发布日期：2026-04-06*
-*分类：Agents*
+- 环境 —— 描述如何配置智能体工具运行的沙盒的模板（例如，运行时类型、网络策略和包配置）。
+
+- 会话 —— 使用预先创建的智能体配置和环境的运行状态执行。它从环境模板配置一个全新的沙盒，挂载任何运行时资源（文件、GitHub 仓库），将身份验证存储在安全保险库中（MCP 凭据）。
+
+将智能体视为配置，将环境视为描述你希望智能体访问用于代码执行的沙盒的模板，将会话视为任何智能体执行。一个智能体可以有许多会话。
+
+使用方式
+
+请在此处查看文档：
+
+- SDK —— 这些是面向代码的：在你的应用中导入它们以在运行时驱动会话。六种语言支持托管智能体：Python、TypeScript、Java、Go、Ruby、PHP。
+
+- CLI —— 面向终端：每个 API 资源（智能体、环境、会话、保险库、技能、文件）都作为子命令暴露。
+
+- 常见模式 —— 使用 CLI 进行设置，使用 SDK 进行运行时。智能体模板是持久的：你创建一个，存储它（例如，作为包含模型、系统提示、工具、MCP 服务器、技能的 YAML 文件）并在部署管道中使用 CLI 应用它。
+
+工作原理
+
+我与 @mc_anthropic、@gcemaj 和 @jkeatn 一起撰写了一篇 Anthropic 工程博客文章，介绍了构建 Claude 托管智能体的过程：我们在文章中分享的一个教训是，构建能够扩展 Claude 智能的智能体是一个基础设施挑战，而不仅仅是运行底座设计的问题。
+
+考虑到这一点，我们没有设计特定的智能体运行底座；我们期望智能体运行底座不断演进。相反，我们将所谓的大脑（Claude 及其运行底座）与双手（执行动作的沙盒和工具）以及会话（会话事件的日志）解耦。
+
+每个都成为对其他方面假设很少的接口，并且每个都可以独立失败或替换。我们分享了如何为系统提供可靠性、安全性和灵活性，以添加未来的运行底座、沙盒或基础设施来承载会话。
+
+结论
+
+我对探索多智能体编排或长时间任务的不同模式的项目感到兴奋。我过去写过的沮丧之一是让智能体运行底座跟上模型能力。Claude 托管智能体为你处理智能体运行底座和基础设施，允许你在智能体之上进行探索，将其作为 Claude API 中的新核心原语。
