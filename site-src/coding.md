@@ -335,7 +335,7 @@ LangChain 创始人 Harrison Chase 分析 Coding Agent 对工程、产品、设�
 
 ---
 
-### [Claude Code .claude/ 文件夹完全指南](https://x.com/akshay_pachaar/status/2035341800739877091)
+### [Claude Code .claude/ 文件夹完全指南](/entry/9cbi80c7) 📄
 @Akshay Pachaar · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Claude Code .claude/ 文件夹的完整解剖指南：项目级 vs 全局级两个目录、CLAUDE.md（200 行以内，只写项目特有内容）、rules/（路径范围规则模块化）、commands/（自定义斜杠命令，支持嵌入 shell 命令和参数）、skills/（自动触发工作流，与 commands 区别是自动识别触发）、agents/（独立上下文窗口的子 agent，可限制工具和指定模型）、settings.json（allow/deny 权限控制）。推荐：95% 的项目只需要 CLAUDE.md + settings.json + 1-2 个 commands。
@@ -344,7 +344,7 @@ Claude Code .claude/ 文件夹的完整解剖指南：项目级 vs 全局级两�
 
 ---
 
-### [你不知道的 Claude Code：架构、治理与工程实践](https://x.com/hitw93/status/2032091246588518683)
+### [你不知道的 Claude Code：架构、治理与工程实践](/entry/efaw158d) 📄
 @Tw93 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Tw93基于半年深度使用Claude Code的踩坑总结。提出六层架构模型，核心洞察：Claude Code不是&#x27;回答&#x27;而是反复循环的代理过程（收集上下文→采取行动→验证结果）。上下文治理是关键——200K上下文中固定开销约15-20K（MCP工具定义是最大隐形杀手，5个Server占25K tokens即12.5%）。提出上下文分层加载策略：CLAUDE.md常驻→rules按路径加载→Skills按需加载→Subagents隔离加载→Hooks不进上下文。
@@ -353,7 +353,7 @@ Tw93基于半年深度使用Claude Code的踩坑总结。提出六层架构模�
 
 ---
 
-### [Claude Code 官方中文文档](https://code.claude.com/docs/zh-CN/)
+### [Claude Code 官方中文文档](/entry/xl381umc) 📄
 @Anthropic · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可理解整个代码库并跨多个文件和工具工作。支持macOS/Linux/WSL/Windows安装，核心功能包括：繁琐任务自动化（测试、lint修复、合并冲突）、自然语言描述→规划→编码→验证的工作流、git集成、MCP连接外部数据源、CLAUDE.md项目配置、自定义命令（Skills）和Hooks。
@@ -362,7 +362,7 @@ Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可�
 
 ---
 
-### [三大 AI 编程框架对比调研：Superpowers vs GSD vs gstack](https://youtu.be/Y9hR2M4FE4I)
+### [三大 AI 编程框架对比调研：Superpowers vs GSD vs gstack](/entry/qde6w2jn) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 三大Claude Code生态AI编程框架的深度对比。Superpowers(124K⭐)通过流程纪律约束过程——强制TDD、苏格拉底式需求澄清、Subagent驱动开发。GSD(47K⭐)通过上下文隔离约束环境——每个子任务独立200K token上下文，解决Context Rot问题。gstack(57K⭐)通过多角色约束视角——23个专业角色交叉验证。核心差异在哲学立场：Superpowers=工程师思维、GSD=创业者思维、gstack=CEO思维。三者共同短板在Build阶段。

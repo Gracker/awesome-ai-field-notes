@@ -184,7 +184,7 @@ macOS 上 OpenClaw 运行报错的系统性排查指南。Gateway 是中枢神�
 
 ---
 
-### [论证型人机决策（Deliberative Human-AI Decision Making）](https://arxiv.org/abs/2603.15946v1)
+### [论证型人机决策（Deliberative Human-AI Decision Making）](/entry/fpmdn3mj) 📄
 @**：Stylianos Loukas Vasileiou, Antonio Rago, Francesca Toni, William Yeoh · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 论文试图解决什么问题？

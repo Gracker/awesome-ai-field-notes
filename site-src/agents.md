@@ -401,7 +401,7 @@ Agentic Reasoning 论文的核心价值在于&quot;多智能体协作&quot;和&q
 
 ---
 
-### [LLM Agent推理必要性](https://arxiv.org/abs/2503.11074)
+### [LLM Agent推理必要性](/entry/gpbo0rtm) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # Exploring the Necessity of Reasoning in LLM-based Agent Scenarios

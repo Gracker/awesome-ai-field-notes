@@ -40,7 +40,7 @@ OpenRouter 联合 a16z 的 100 万亿 token LLM 使用分析。核心发现：�
 
 ---
 
-### [LLM Knowledge Bases](https://x.com/karpathy/status/2039805659525644595)
+### [LLM Knowledge Bases](/entry/nha3a46y) 📄
 @Andrej Karpathy · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Karpathy 分享他用 LLM 构建个人知识库的工作流：raw/ 目录存放原始文档，LLM 增量&quot;编译&quot;成 .md wiki（含摘要、反向链接、概念分类文章）；用 Obsidian 作为 IDE 前端查看原始数据、编译产物和可视化；wiki 达到约 100 篇文章/40 万字后，可以直接向 LLM agent 提问复杂问题。关键发现：不需要 fancy RAG，LLM 自己会维护索引文件和文档摘要。输出形式包括 Markdown 文件、幻灯片（Marp 格式）、matplotlib 图像。还会用 LLM 做 wiki 健康检查（不一致数据、缺失数据、新文章候选）。
@@ -72,7 +72,7 @@ Karpathy 分享他用 LLM 构建个人知识库的工作流：raw/ 目录存放�
 
 ---
 
-### [Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/engineering/infrastructure-noise)
+### [Quantifying infrastructure noise in agentic coding evals](/entry/itikhf3n) 📄
 @Anthropic Engineering · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Anthropic工程团队量化了Agent编程评测中的基础设施噪声问题。发现即使在相同环境下重复运行相同的Agent评测，结果也会因网络延迟、API负载、容器调度等因素产生显著波动。这对SWE-Bench、Terminal-Bench等评测的可靠性提出了挑战。提出了减少噪声的方法论建议。
