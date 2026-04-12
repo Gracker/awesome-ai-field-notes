@@ -642,24 +642,6 @@ Read Original
 
 ---
 
-### [GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers](https://github.com/MobinX/awesome-mcp-list)
-⭐⭐⭐⭐4 🌐 · 2026-04-10
-
-# GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers A concise list for mcp servers. Contribute to MobinX/awesome-mcp-list development by creating an account on GitHub. Awesome MCP Servers - Concise List Note that this list is continuously updating and improving. Please star this repo ...
-
-`mcp` `[]` `openai`
-
----
-
-### [GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault](https://github.com/YishenTu/claudian)
-⭐⭐⭐⭐4 🌐 · 2026-04-10
-
-# GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault - YishenTu/claudian ?imageUrl=https%3A%2F%2Fcamo.githubusercontent.com%2Fbbccb46c3e40e6f6bbd14f744f3796c76fdfd9e...
-
-`agent` `rag` `[]` `claude`
-
----
-
 ### [How agents can use filesystems for context engineering](https://blog.langchain.com/how-agents-can-use-filesystems-for-context-engineering/)
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
@@ -724,6 +706,24 @@ Anthropic 详细分享其 Research 功能的多 Agent 系统从原型到生产�
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] 逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用
+
+---
+
+### [GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers](https://github.com/MobinX/awesome-mcp-list) ⭐881
+⭐⭐⭐⭐4 🌐 · 2026-04-10
+
+# GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers A concise list for mcp servers. Contribute to MobinX/awesome-mcp-list development by creating an account on GitHub. Awesome MCP Servers - Concise List Note that this list is continuously updating and improving. Please star this repo ...
+
+`mcp` `[]` `openai`
+
+---
+
+### [GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault](https://github.com/YishenTu/claudian) ⭐7,553
+⭐⭐⭐⭐4 🌐 · 2026-04-10
+
+# GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault - YishenTu/claudian ?imageUrl=https%3A%2F%2Fcamo.githubusercontent.com%2Fbbccb46c3e40e6f6bbd14f744f3796c76fdfd9e...
+
+`agent` `rag` `[]` `claude`
 
 ---
 
@@ -1205,15 +1205,6 @@ Read Original
 
 ---
 
-### [GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login.](https://github.com/steipete/CodexBar)
-⭐⭐⭐3 🌐 · 2026-04-10
-
-# GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login. Show usage stats for OpenAI Codex and Claude Code, without having to login. - steipete/CodexBar CodexBar 🎚️ - May your tokens never run out. Tiny macOS 14+ menu bar app that keeps your Codex, Cl...
-
-`mcp` `copilot` `[]` `cursor` `openai`
-
----
-
 ### [LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects](https://www.preprints.org/manuscript/202501.0413/v1)
 ⭐⭐⭐3  · 2026-04-10
 
@@ -1275,5 +1266,14 @@ OpenAI 发布 Agents SDK，是 Swarm 实验项目的生产级升级版。核心�
 ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 2025,0804-0810 这周我才知道，不同的 Mac/iPad 放在一起，可以通过一套键鼠无缝切换控制，而这个「通用控制」的功能在 2022 年 3 月就加入了……这对我来说可太重要了，我前些天还差点就想给 MacBook 配一...
+
+---
+
+### [GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login.](https://github.com/steipete/CodexBar) ⭐10,549
+⭐⭐⭐3 🌐 · 2026-04-10
+
+# GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login. Show usage stats for OpenAI Codex and Claude Code, without having to login. - steipete/CodexBar CodexBar 🎚️ - May your tokens never run out. Tiny macOS 14+ menu bar app that keeps your Codex, Cl...
+
+`mcp` `copilot` `[]` `cursor` `openai`
 
 ---

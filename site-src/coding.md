@@ -380,7 +380,7 @@ Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可�
 
 ---
 
-### [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps)
+### [Harness design for long-running application development](/entry/bl4udth8) 📄
 @Anthropic Engineering · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Anthropic工程团队分享长时间运行应用开发中的Harness设计经验。讨论如何在Agent驱动的开发流程中设计测试Harness，确保前端和全栈应用在长时间迭代中保持质量。涵盖自动化测试策略、CI/CD集成、以及Agent编程中的质量保障方法论。
@@ -389,7 +389,7 @@ Anthropic工程团队分享长时间运行应用开发中的Harness设计经验�
 
 ---
 
-### [Claude Code auto mode: a safer way to skip permissions](https://www.anthropic.com/engineering/claude-code-auto-mode)
+### [Claude Code auto mode: a safer way to skip permissions](/entry/jmsjfthh) 📄
 @Anthropic Engineering · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Anthropic发布Claude Code auto mode，一种更安全地跳过权限确认的方式。不同于直接--dangerously-skip-permissions，auto mode通过更细粒度的权限模型和上下文感知来减少不必要的确认弹窗，同时保持安全边界。这是Agent编程工具在自动化效率与安全控制之间的重要平衡设计。
@@ -641,51 +641,6 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 
 ---
 
-### [GitHub - PacktPublishing/LLM-Engineers-Handbook: The LLM&#x27;s practical guide: From the fundamentals to...](https://github.com/PacktPublishing/LLM-Engineers-Handbook)
-⭐⭐⭐⭐4 🌐 · 2026-04-10
-
-# GitHub - PacktPublishing/LLM-Engineers-Handbook: The LLM&#x27;s practical guide: From the fundamentals to... The LLM&#x27;s practical guide: From the fundamentals to deploying advanced LLM and RAG apps to AWS using LLMOps best practices - PacktPublishing/LLM-Engineers-Handbook LLM Engineer&#x27;s Handbook: Maste...
-
-`llm` `[]` `prompt` `rag` `inference`
-
----
-
-### [GitHub - PlexPt/awesome-chatgpt-prompts-zh: ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
-⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
-
-# GitHub - PlexPt/awesome-chatgpt-prompts-zh: ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。 ChatGPT是由OpenAI训练的一款大型语言模型，能够生成类人文本。 官网是 &lt;https://ai.com/&gt; 它能够生成类似于人类写作的文本。您只需要给出提示或提出问题，它就可以生成你想要的东西。 在此页面中，您将找到可与 ChatGPT 一起使用的各种提示。 只需按照README.md文件中的提示输入即可。 点击这里 可以将您自己的调教指南添加到列表中。 同时您也可以从这个文件中获取创作灵感来创建您自己的提示。 如果你想将...
-
-`[]` `openai` `prompt` `chatgpt`
-
----
-
-### [GitHub - Torantulino/Auto-GPT: An experimental ope...](https://github.com/torantulino/auto-gpt)
-⭐⭐⭐⭐4 🌐 · 2026-04-10
-
-# GitHub - Torantulino/Auto-GPT: An experimental ope... Auto-GPT: An Autonomous GPT-4 Experiment 💡 Get help - Q\&amp;A or Discord 💬 🔴 USE `stable` not `master` 🔴 Download the latest `stable` release from here: &lt;https://github.com/Significant-Gravitas/Auto-GPT/releases/latest&gt;. The `master` branch is und...
-
-`gpt-4` `[]` `llm`
-
----
-
-### [GitHub - getActivity/AiIndex: ChatGPT](https://github.com/getActivity/AiIndex)
-⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
-
-# GitHub - getActivity/AiIndex: ChatGPT ChatGPT. Contribute to getActivity/AiIndex development by creating an account on GitHub. * OpenAI 开发的 ChatGPT 在全球瞬间爆火，上线仅 5 天，ChatGPT 用户就超过 100 万，而在推出不到 3 个月，它的月活用户就突破了 1 亿，成为人类历史上最快用户破亿的软件产品；这使我对 ChatGPT 产生了非常浓厚的兴趣，当我第一次尝试使用它时，我被它的出色表现惊艳到了，我没想到它能真正理解我的话，并且能够将...
-
-`[]` `cursor` `gpt-4` `openai` `chatgpt`
-
----
-
-### [GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents](https://github.com/vercel-labs/agent-browser)
-⭐⭐⭐⭐4 🌐 · 2026-04-10
-
-# GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents Browser automation CLI for AI agents. Contribute to vercel-labs/agent-browser development by creating an account on GitHub. Headless browser automation CLI for AI agents. Fast Rust CLI with Node.js fallback. npm install -g ag...
-
-`agent` `[]` `rag`
-
----
-
 ### [Github Copilot 近期重要更新一览 (2025.4.9)Github Copilot 宣布推出 Pro+(3 - 掘金](https://juejin.cn/post/7490967893779431439)
 ⭐⭐⭐⭐4  · 2026-04-10
 
@@ -922,6 +877,51 @@ Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个�
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg%23imgIndex%3D0)
+
+---
+
+### [GitHub - getActivity/AiIndex: ChatGPT](https://github.com/getActivity/AiIndex) ⭐420
+⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
+
+# GitHub - getActivity/AiIndex: ChatGPT ChatGPT. Contribute to getActivity/AiIndex development by creating an account on GitHub. * OpenAI 开发的 ChatGPT 在全球瞬间爆火，上线仅 5 天，ChatGPT 用户就超过 100 万，而在推出不到 3 个月，它的月活用户就突破了 1 亿，成为人类历史上最快用户破亿的软件产品；这使我对 ChatGPT 产生了非常浓厚的兴趣，当我第一次尝试使用它时，我被它的出色表现惊艳到了，我没想到它能真正理解我的话，并且能够将...
+
+`[]` `cursor` `gpt-4` `openai` `chatgpt`
+
+---
+
+### [GitHub - PacktPublishing/LLM-Engineers-Handbook: The LLM&#x27;s practical guide: From the fundamentals to...](https://github.com/PacktPublishing/LLM-Engineers-Handbook) ⭐4,901
+⭐⭐⭐⭐4 🌐 · 2026-04-10
+
+# GitHub - PacktPublishing/LLM-Engineers-Handbook: The LLM&#x27;s practical guide: From the fundamentals to... The LLM&#x27;s practical guide: From the fundamentals to deploying advanced LLM and RAG apps to AWS using LLMOps best practices - PacktPublishing/LLM-Engineers-Handbook LLM Engineer&#x27;s Handbook: Maste...
+
+`llm` `[]` `prompt` `rag` `inference`
+
+---
+
+### [GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents](https://github.com/vercel-labs/agent-browser) ⭐28,807
+⭐⭐⭐⭐4 🌐 · 2026-04-10
+
+# GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents Browser automation CLI for AI agents. Contribute to vercel-labs/agent-browser development by creating an account on GitHub. Headless browser automation CLI for AI agents. Fast Rust CLI with Node.js fallback. npm install -g ag...
+
+`agent` `[]` `rag`
+
+---
+
+### [GitHub - PlexPt/awesome-chatgpt-prompts-zh: ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ⭐58,989
+⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
+
+# GitHub - PlexPt/awesome-chatgpt-prompts-zh: ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。 ChatGPT是由OpenAI训练的一款大型语言模型，能够生成类人文本。 官网是 &lt;https://ai.com/&gt; 它能够生成类似于人类写作的文本。您只需要给出提示或提出问题，它就可以生成你想要的东西。 在此页面中，您将找到可与 ChatGPT 一起使用的各种提示。 只需按照README.md文件中的提示输入即可。 点击这里 可以将您自己的调教指南添加到列表中。 同时您也可以从这个文件中获取创作灵感来创建您自己的提示。 如果你想将...
+
+`[]` `openai` `prompt` `chatgpt`
+
+---
+
+### [GitHub - Torantulino/Auto-GPT: An experimental ope...](https://github.com/torantulino/auto-gpt) ⭐183,343
+⭐⭐⭐⭐4 🌐 · 2026-04-10
+
+# GitHub - Torantulino/Auto-GPT: An experimental ope... Auto-GPT: An Autonomous GPT-4 Experiment 💡 Get help - Q\&amp;A or Discord 💬 🔴 USE `stable` not `master` 🔴 Download the latest `stable` release from here: &lt;https://github.com/Significant-Gravitas/Auto-GPT/releases/latest&gt;. The `master` branch is und...
+
+`gpt-4` `[]` `llm`
 
 ---
 
@@ -1237,33 +1237,6 @@ Follow @allthingsaihq
 
 ---
 
-### [GitHub - HW-whistleblower/True-Story-of-Pangu: 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。](https://github.com/HW-whistleblower/True-Story-of-Pangu)
-⭐⭐⭐3 🇨🇳 · 2026-04-10
-
-# GitHub - HW-whistleblower/True-Story-of-Pangu: 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。. Contribute to HW-whistleblower/True-Story-of-Pangu development by creating an account on GitHub. 盘古之殇：华为诺亚盘古大模型研发历程的心酸与黑暗 我是一名盘古大模型团队，华为诺亚方舟实验室的员工。 1. 现诺亚主任，前算法应用部部长，后改名为小模型实验室的主任王云鹤。前诺亚主任：姚骏（大家称姚老师）。...
-
-`embedding` `[]` `大模型`
-
----
-
-### [GitHub - knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang: 讨贼王云鹤檄文](https://github.com/knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang?s=09)
-⭐⭐⭐3 🇨🇳 · 2026-04-10
-
-# GitHub - knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang: 讨贼王云鹤檄文 讨贼王云鹤檄文. Contribute to knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang development by creating an account on GitHub. 文章license和Qwen一样，apache-2.0。 王云鹤，1991年生于黑龙江。2018年博士毕业进入华为，经历不到7年时间，于2025年2月中旬，从小模型实验室主任任上，正式顶替姚骏，被任命为诺亚方舟...
-
-`deepseek` `[]` `大模型`
-
----
-
-### [GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.](https://github.com/yetone/openai-translator)
-⭐⭐⭐3 🌐 · 2026-04-10
-
-# GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API. 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ...
-
-`[]` `openai` `chatgpt`
-
----
-
 ### [Google 新手机发布会：Android 14，「买手机，送 AI」](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653015221&idx=1&sn=cb78e3df56ad2c6d18cb5171208c47f1&chksm=7e54b10349233815aa19ae39534f9b3cd5bcc89267bcd4854f611781ab3d2f3ea8db4df242a9&mpshare=1&scene=1&srcid=1005sAegj41H9I3bexTVgA2x&sharer_shareinfo=fd84852bc5acdd1148e2bf914d4b76dd&sharer_shareinfo_first=e8d2c75be829964b1b603c7746f9b2ea)
 ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
@@ -1447,5 +1420,32 @@ https://www.zhihu.com/question/1962512846630941008/answer/1963073531265913943   
 ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 但是有个问题值得我们思考的：一个初中级的员工+好奇心/学习能力+AI编程工具，产生的价值是会不会可能大于等于一个“高工”呢？
+
+---
+
+### [GitHub - knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang: 讨贼王云鹤檄文](https://github.com/knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang?s=09) ⭐1,103
+⭐⭐⭐3 🇨🇳 · 2026-04-10
+
+# GitHub - knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang: 讨贼王云鹤檄文 讨贼王云鹤檄文. Contribute to knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang development by creating an account on GitHub. 文章license和Qwen一样，apache-2.0。 王云鹤，1991年生于黑龙江。2018年博士毕业进入华为，经历不到7年时间，于2025年2月中旬，从小模型实验室主任任上，正式顶替姚骏，被任命为诺亚方舟...
+
+`deepseek` `[]` `大模型`
+
+---
+
+### [GitHub - HW-whistleblower/True-Story-of-Pangu: 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。](https://github.com/HW-whistleblower/True-Story-of-Pangu) ⭐11,419
+⭐⭐⭐3 🇨🇳 · 2026-04-10
+
+# GitHub - HW-whistleblower/True-Story-of-Pangu: 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。. Contribute to HW-whistleblower/True-Story-of-Pangu development by creating an account on GitHub. 盘古之殇：华为诺亚盘古大模型研发历程的心酸与黑暗 我是一名盘古大模型团队，华为诺亚方舟实验室的员工。 1. 现诺亚主任，前算法应用部部长，后改名为小模型实验室的主任王云鹤。前诺亚主任：姚骏（大家称姚老师）。...
+
+`embedding` `[]` `大模型`
+
+---
+
+### [GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.](https://github.com/yetone/openai-translator) ⭐24,891
+⭐⭐⭐3 🌐 · 2026-04-10
+
+# GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API. 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ...
+
+`[]` `openai` `chatgpt`
 
 ---

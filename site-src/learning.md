@@ -263,7 +263,7 @@ Android ARM平台上Running耗时分析方法论与工具链的完整报告。�
 
 ---
 
-### [&quot;If something is humanly possible, it&#x27;s attainable by you too.&quot; | Revue](https://newsletter.stoicallytyped.com/issues/if-something-is-humanly-possible-it-s-attainable-by-you-too-617462#/)
+### [&quot;If something is humanly possible, it&#x27;s attainable by you too.&quot; | Revue](/entry/xm27wqh4) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 &quot;If something is humanly possible, it&#x27;s attainable by you too.&quot; | Revue
@@ -508,18 +508,6 @@ Read Original
 
 ---
 
-### [Articels/腹背受敌的中国经济（3 万字长文）.md at main · foreveryh/Articels · GitHub](https://github.com/foreveryh/Articels/blob/main/%E8%85%B9%E8%83%8C%E5%8F%97%E6%95%8C%E7%9A%84%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%EF%BC%883%20%E4%B8%87%E5%AD%97%E9%95%BF%E6%96%87%EF%BC%89.md)
-⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
-
-Articels/腹背受敌的中国经济（3 万字长文）.md at main · foreveryh/Articels · GitHub
-文章转载分享. Contribute to foreveryh/Articels development by creating an account on GitHub.
-Read in Cubox  
-Read Original
-繁华渐逝：腹背受敌的中国经济（3 万字长文）
-全文约 3 万字，撰写花了我 14 个月。阅读需要 60 分钟。如果完全读懂，能受益 30 年。
-
----
-
 ### [Avoid Mini-frameworks - laike9m&#x27;s blog](https://laike9m.com/blog/avoid-mini-frameworks,171/)
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
@@ -632,6 +620,18 @@ Google 介绍 MLGO 框架，首个工业级将 ML 系统性集成到 LLVM 编译
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 **Tailor**\[1\]是西瓜视频 Android 团队开发的一款内存快照裁剪压缩工具，广泛用于字节跳动旗下各大 App 的 OOM 治理及异常排查，收益显著，在西瓜视频上更是取得 OOM 降低95%以上的好成绩。Tailor 工具现已开源，本文将通过原理、方案和实践来剖析 Tailor 的相关细节。
+
+---
+
+### [Articels/腹背受敌的中国经济（3 万字长文）.md at main · foreveryh/Articels · GitHub](https://github.com/foreveryh/Articels/blob/main/%E8%85%B9%E8%83%8C%E5%8F%97%E6%95%8C%E7%9A%84%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%EF%BC%883%20%E4%B8%87%E5%AD%97%E9%95%BF%E6%96%87%EF%BC%89.md) ⭐25
+⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
+
+Articels/腹背受敌的中国经济（3 万字长文）.md at main · foreveryh/Articels · GitHub
+文章转载分享. Contribute to foreveryh/Articels development by creating an account on GitHub.
+Read in Cubox  
+Read Original
+繁华渐逝：腹背受敌的中国经济（3 万字长文）
+全文约 3 万字，撰写花了我 14 个月。阅读需要 60 分钟。如果完全读懂，能受益 30 年。
 
 ---
 
@@ -915,15 +915,6 @@ I still love software as much today as I did when Paul Allen and I started Micro
 
 ---
 
-### [GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。](https://github.com/rockbenben/ChatGPT-Shortcut)
-⭐⭐⭐3 🇨🇳 · 2026-04-10
-
-# GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。 ChatGPT Shortcut 是根据领域和功能划分的 ChatGPT 快捷指令表，可通过标签筛选、关键词搜索和一键复制来使用提示词，旨在简化你的工作流程并提高生产力。即使是初学者，你只需复制提示词，稍加修改后发送给 ChatGPT，就能获得指定输出，让你的生产力加倍！ 提示词（即 Prompt）通常是用户提供的问题或文本，以激活模型生成回复。简单来说，prompt 就是用户想要询问的内容，作为输入送到 ...
-
-`[]` `openai` `prompt` `chatgpt`
-
----
-
 ### [Google Gemini 如何加速 Android 开发？](https://juejin.cn/post/7472037829506383906)
 ⭐⭐⭐3  · 2026-04-10
 
@@ -1066,5 +1057,14 @@ Knowledge is power, info-gap is money!「信息差——独立开发者出海周
 ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 本教程部分图片并没有保存在 GitHub 上，而是保存在 Craft 上，所以如果你没法看到教程里的图片，请检查一下你的网络环境。
+
+---
+
+### [GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。](https://github.com/rockbenben/ChatGPT-Shortcut) ⭐8,348
+⭐⭐⭐3 🇨🇳 · 2026-04-10
+
+# GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。 ChatGPT Shortcut 是根据领域和功能划分的 ChatGPT 快捷指令表，可通过标签筛选、关键词搜索和一键复制来使用提示词，旨在简化你的工作流程并提高生产力。即使是初学者，你只需复制提示词，稍加修改后发送给 ChatGPT，就能获得指定输出，让你的生产力加倍！ 提示词（即 Prompt）通常是用户提供的问题或文本，以激活模型生成回复。简单来说，prompt 就是用户想要询问的内容，作为输入送到 ...
+
+`[]` `openai` `prompt` `chatgpt`
 
 ---

@@ -27,7 +27,7 @@ A Python-based mobile automation agent that uses Qwen3-VL vision-language models
 
 ---
 
-### [OpenAI CEO 详解 GPT-4与AI的未来（播客笔记）](https://havefun.zhubai.love/posts/2251759131969024000?push_source_id=2186477799991361536&push_source_type=email)
+### [OpenAI CEO 详解 GPT-4与AI的未来（播客笔记）](/entry/jok2gv0b) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 #67 OpenAI CEO 详解 GPT-4与AI的未来（播客笔记）
