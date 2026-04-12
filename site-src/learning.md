@@ -276,7 +276,7 @@ Happy Monday! Here is Issue #10! This issue will be a special issue that focuses
 
 ---
 
-### [2023: AI 的一年 [译]](https://baoyu.io/translations/ai/2023-the-year-of-ai)
+### [2023: AI 的一年 [译]](/entry/toln3leb) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 2023 年是 AI 领域的关键年份，我们在此聚焦今年对该行业未来发展具有重大影响的主要事件

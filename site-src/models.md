@@ -41,7 +41,7 @@ Read Original
 
 ---
 
-### [2023 年，我患上了 AI 焦虑症](https://baoyu.io/blog/ai/i-am-suffering-from-ai-anxiety-in-2023)
+### [2023 年，我患上了 AI 焦虑症](/entry/wej5ryog) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 2023 年对我来说是神奇的一年，我意外的从一个程序员变成了一个 AI 资讯届的“网红”，到年底的时候我在 X 平台的阅读量超过 1 亿，微博上的阅读量则超过 10 亿，很多人通过我的微博或者 X 了解最新的 AI 资讯、教程和 Prompt 使用技巧。而这一切其实是从我患上了 AI 焦虑症开始的。我将向你分享我的故事，如何患上了 AI 焦虑症，又是如何克服它，并且成功的把 AI 变成自己的得力助手，让自己成为善用 AI 的人。
@@ -53,7 +53,7 @@ Read Original
 
 ---
 
-### [2025 LLM Year in Review](https://karpathy.bearblog.dev/year-in-review-2025/)
+### [2025 LLM Year in Review](/entry/crdmzre5) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 2025 LLM Year in Review

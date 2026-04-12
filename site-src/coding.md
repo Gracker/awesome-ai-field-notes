@@ -398,7 +398,7 @@ Anthropic发布Claude Code auto mode，一种更安全地跳过权限确认的�
 
 ---
 
-### [2023年最新AIGC绘画水平发展](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649776933&idx=1&sn=9dd0ae4b3c3a804eec1c5a33d49e0c78&chksm=beccf05e89bb7948ed4901021e2ebf25017594b86e3a9b4eb7be9de85724a96ec1c250e01d7d&mpshare=1&scene=1&srcid=0309spjbxy8PIocw0fZbCofN&sharer_sharetime=1678360311666&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [2023年最新AIGC绘画水平发展](/entry/1kxhgva3) 📄
 @yiqiuzheng，腾讯 IEG 前端工程师 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Read in Cubox  
@@ -925,7 +925,7 @@ Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个�
 
 ---
 
-### [oh my codex 使用教程](https://x.com/oragnes/status/2041876228949602347)
+### [oh my codex 使用教程](/entry/mpn920xb) 📄
 @oragnes · ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 介绍 oh-my-codex 工具，用于增强 OpenAI Codex 的长任务能力。安装命令 npm install -g @openai/codex oh-my-codex。核心命令：$deep-interview（澄清）、$ralplan（方案审批）、$ralph（推进执行）、$team 3:executor（并行执行）。亲测可有效处理长任务。

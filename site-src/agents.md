@@ -138,7 +138,7 @@ When you look at what most agent frameworks actually do, it&#x27;s workflow orch
 
 ---
 
-### [Dr. MAMR：解决多智能体 LLM 推理中的惰性智能体问题](#)
+### [Dr. MAMR：解决多智能体 LLM 推理中的惰性智能体问题](/entry/00r7muqm) 📄
 @：** · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-10
 
 问题来源：
@@ -745,7 +745,7 @@ Anthropic 详细分享其 Research 功能的多 Agent 系统从原型到生产�
 
 ---
 
-### [全面解析：如何部署 Conway Agent，开启链上 AI 生存游戏](https://x.com/JXiaoLoong/status/2024376180707905816)
+### [全面解析：如何部署 Conway Agent，开启链上 AI 生存游戏](/entry/z5yx2tcn) 📄
 @0xJA · ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 介绍 Conway Agent 部署方法。Conway 把服务器（Conway Cloud/Sandbox）、AI 推理（Conway Compute）和域名封装到统一平台，使用 Credit 计费。定位为完全自主运行的 AI 系统。内容较简短，为归档节选。
@@ -772,7 +772,7 @@ Agent Reach：一句安装指令快速获得 Web、Twitter/X、YouTube、Reddit�
 
 ---
 
-### [6551 开源 X + 全网新闻源 MCP + Skill](https://x.com/cryptoxiao/status/2026956308092453360)
+### [6551 开源 X + 全网新闻源 MCP + Skill](/entry/gtcaz1r1) 📄
 @cryptoxiao · ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 6551 团队开源了积累一年的数据基础架构：X 数据 + 全网 50+ 实时新闻 + 链上数据的 MCP 和 Skill。Agent 可直接连上 X 数据和全网新闻源，24h 监控分析并触发 Telegram 提醒。无需配置 API 密钥。几分钟部署。

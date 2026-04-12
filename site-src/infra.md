@@ -96,7 +96,7 @@ LLM (Large Language Models) 的风头一时无两，席卷万千行业。业内�
 
 ---
 
-### [2023: The Year of AI](https://t.co/3yCKuXTIKp)
+### [2023: The Year of AI](/entry/f4uptczq) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Explore the significant AI advancements, impactful partnerships, and legal debates that defined 2023.
