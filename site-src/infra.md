@@ -81,7 +81,7 @@ Anthropic工程团队量化了Agent编程评测中的基础设施噪声问题。
 
 ---
 
-### [0x1 Underlying LLMs](https://juejin.cn/post/7312243176834809908)
+### [0x1 Underlying LLMs](/entry/4u7v4niw) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Read in Cubox  
