@@ -188,7 +188,7 @@ Thariq 原文的中文翻译。构建 agent 框架最难的部分是设计行动
 
 ---
 
-### [130万次下载，2万Star开源项目CC Switch，36岁转行程序员Jason的第一个作品](https://x.com/wey_gu/status/2027772306458812757)
+### [130万次下载，2万Star开源项目CC Switch，36岁转行程序员Jason的第一个作品](/entry/6wwa66of) 📄
 @Wey Gu · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 CC Switch 是 Claude Code 的供应商管理和切换工具，GitHub 2 万 Star、130 万下载。作者 Jason 36 岁从进出口贸易转行编程，花 3 个月学 TypeScript/React/Node/Rust 后做出第一个项目。核心设计理念&quot;侵入性最小&quot;——即使卸载也不影响正常使用。从 Electron 重构为 Tauri（从 80MB→更轻量），编程语言从 TypeScript 转 Rust。第一版一周完成。
@@ -263,7 +263,7 @@ The repository serves as a unified hub of papers, code, demos, and benchmark upd
 
 ---
 
-### [Investigating how Codex context compaction works](https://x.com/Kangwook_Lee/status/2028955292025962534)
+### [Investigating how Codex context compaction works](/entry/4to0ey4g) 📄
 @Kangwook_Lee · ⭐⭐⭐⭐4  · 2026-04-10
 
 **By @Kangwook_Lee** (Kangwook Lee) · Tue Mar 03 22:06:52 +0000 2026
@@ -277,7 +277,7 @@ For non-codex models, the open-source Codex CLI compacts context locally: an LLM
 
 ---
 
-### [2026-03-04-1609-xin_pai88825-Vibe-Coding-高效工具清单-Codex-Paper-21st-Unicorn-Agentation-Axion-Apple-Docs-2029027642616496194](https://x.com/xin_pai88825/status/2029027642616496194)
+### [2026-03-04-1609-xin_pai88825-Vibe-Coding-高效工具清单-Codex-Paper-21st-Unicorn-Agentation-Axion-Apple-Docs-2029027642616496194](/entry/g0l3fstx) 📄
 @xin_pai88825 · ⭐⭐⭐⭐4  · 2026-04-10
 
 **@xin_pai88825** (Paidax)
@@ -298,7 +298,7 @@ For non-codex models, the open-source Codex CLI compacts context locally: an LLM
 
 ---
 
-### [2026-03-04-2010-centurybbx-Writing-about-Agentic-Engineering-Patterns-2028322864798331292](https://x.com/centurybbx/status/2028322864798331292)
+### [2026-03-04-2010-centurybbx-Writing-about-Agentic-Engineering-Patterns-2028322864798331292](/entry/1wbifupp) 📄
 @centurybbx · ⭐⭐⭐⭐4  · 2026-04-10
 
 I’ve started a new project to collect and document Agentic Engineering Patterns—coding practices and patterns to help get the best results out of this new era of coding agent development we find ourselves entering.

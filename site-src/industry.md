@@ -217,7 +217,7 @@ a16z 合伙人 Alex Immerman 最近写了一篇很有代表性的文章。他的
 
 ---
 
-### [苹果2026年新品：M5 Max MacBook Pro来了，AI性能提升很多啊！](https://x.com/vista8/status/2029044686133051414)
+### [苹果2026年新品：M5 Max MacBook Pro来了，AI性能提升很多啊！](/entry/3jzgfsym) 📄
 @vista8 · ⭐⭐⭐⭐4  · 2026-04-10
 
 **By @vista8** (向阳乔木) · Wed Mar 04 04:02:05 +0000 2026
