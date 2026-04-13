@@ -508,7 +508,7 @@ Read Original
 
 ---
 
-### [AI 傻傻分不清楚？那么多 AI 变体究竟怎么选？这里快速简单理清！](https://mp.weixin.qq.com/s?__biz=Mzg3NTA3MDIxOA==&mid=2247493551&idx=1&sn=d079783a37abb37dc245603c9a27f925&chksm=cfd52840d5e2ee9f3b734bfeafc599da31ff691da117d0de04ba2a727b45e6563a5035aa725d&mpshare=1&scene=1&srcid=0421kItMrKcUVf8qAo4vQL0u&sharer_shareinfo=bf9c7449498c1b07e960d4b4e368ea18&sharer_shareinfo_first=bf9c7449498c1b07e960d4b4e368ea18)
+### [AI 傻傻分不清楚？那么多 AI 变体究竟怎么选？这里快速简单理清！](/entry/zo5tepps) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 AI 傻傻分不清楚？那么多 AI 变体究竟怎么选？这里快速简单理清！

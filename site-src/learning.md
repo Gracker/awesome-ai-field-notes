@@ -303,7 +303,7 @@ Read Original
 
 ---
 
-### [AI 也能&quot;看懂&quot;图片： 移动端相册 AI 搜图的奥秘PicQuery 通过创新的多模态搜索技术，为移动设备上的图片检索 - 掘金](https://juejin.cn/post/7467859145792405531)
+### [AI 也能&quot;看懂&quot;图片： 移动端相册 AI 搜图的奥秘PicQuery 通过创新的多模态搜索技术，为移动设备上的图片检索 - 掘金](/entry/owxj3v91) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 AI 也能&quot;看懂&quot;图片： 移动端相册 AI 搜图的奥秘PicQuery 通过创新的多模态搜索技术，为移动设备上的图片检索 - 掘金

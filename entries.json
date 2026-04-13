@@ -1077,6 +1077,107 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "vRL5DXymei",
+      "title": "How I built a real marketing team on OpenClaw that's better than most marketers I've hired",
+      "url": "https://x.com/ericosiu/status/2043083581824827584",
+      "source": {
+        "platform": "x",
+        "author": "ericosiu",
+        "original_date": "2026-04-06"
+      },
+      "category": "agent-frameworks/openclaw",
+      "tags": [
+        "openclaw",
+        "multi-agent",
+        "marketing",
+        "case-study",
+        "harness",
+        "world-model",
+        "organization"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "[英] 内容过短，待补充",
+      "summary_en": "内容过短，待补充",
+      "one_liner": "将 AI Agent 组成完整公司运营系统（5 agent + Single Brain）是目前最有深度的实战复盘，验证了 Harness Engineering 在真实业务中的有效性",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "X 文章/2026-04-13-1607-ericosiu-How I built a real marketing team on OpenClaw.md",
+      "images": [],
+      "added_date": "2026-04-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "EJmI50WVkg",
+      "title": "Claude Code 5 小时重置机制使用技巧",
+      "url": "https://x.com/chenchengpro/status/2042082446871818746",
+      "source": {
+        "platform": "x",
+        "author": "chenchengpro",
+        "original_date": "2026-04-06"
+      },
+      "category": "agent-frameworks/codex-claude-code",
+      "tags": [
+        "claude-code",
+        "codex",
+        "tip",
+        "reset",
+        "cron"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "内容过短，待补充",
+      "summary_en": null,
+      "one_liner": "用 cron job 卡 Claude Code 5 小时重置节点是保持满血状态的工程 trick，简单有效",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "active",
+      "local_path": "X 文章/2026-04-12-1200-chenchengpro-Claude Code 5 小时重置机制使用技巧.md",
+      "images": [],
+      "added_date": "2026-04-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "B6On33CwCf",
+      "title": "深度调研：DroidClaw vs Open-AutoGLM — Android AI Phone Agent 对比分析",
+      "url": null,
+      "source": {
+        "platform": "article",
+        "author": null,
+        "original_date": "2026-04-12"
+      },
+      "category": "android-agents/phone-agents",
+      "tags": [
+        "android-agent",
+        "phone-agent",
+        "droidclaw",
+        "open-autoglm",
+        "gui-automation",
+        "adb",
+        "comparison"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "> 调研时间：2026-04-12 > 耗时：约 15 分钟 > 类型：对比分析（开源 Android AI Phone Agent） DroidClaw 和 Open-AutoGLM 是 2025-2026 年两个最具代表性的开源 Android AI Phone Agent 项目，均通过「感知屏幕 → LLM 推理 → ADB 执行」的循环实现手机自动化。但二者在架构哲学、感知方式、模型策略、生态定位上差异显著：DroidClaw 走「轻量实用主义」路线——Bun/TypeScript、accessibility tree 为主、任意 LLM、旧机复用；Open-AutoGLM 走「学术工…",
+      "summary_en": null,
+      "one_liner": "DroidClaw 与 Open-AutoGLM 代表了 Android AI Agent 两条路线：轻量实用 vs 学术工程化，各有适用场景",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "调研/2026-04-12-DroidClaw-vs-Open-AutoGLM-深度调研.md",
+      "images": [],
+      "added_date": "2026-04-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
-  ]
+  ],
+  "last_updated": "2026-04-13T23:46:43.679772"
 }

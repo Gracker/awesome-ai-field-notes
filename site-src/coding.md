@@ -471,7 +471,7 @@ Read...
 
 ---
 
-### [AI copilot 能提升开发效率么？](https://mp.weixin.qq.com/s?__biz=MzA3NDM0ODQwMw==&mid=2649829724&idx=1&sn=d2febca6d2bb9a5b93b153be5aa4f1d0&chksm=8704b340b0733a5688c2580ae825bf709beffb824ca60dbfe698dd42d2e3dbaef25fd0c712dc&mpshare=1&scene=1&srcid=0527uDxCmpDZGfrNzc66dQlD&sharer_shareinfo=87b3f1de832786b3172a5c9e5e092443&sharer_shareinfo_first=87b3f1de832786b3172a5c9e5e092443)
+### [AI copilot 能提升开发效率么？](/entry/6e1u2aox) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 可能是全网最完整的探讨关于 copilot 写代码优劣及使用场景注意事项的文章
