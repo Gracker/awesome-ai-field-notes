@@ -493,7 +493,7 @@ Read Original
 
 ---
 
-### [2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期](https://youmind.com/s/hPiqSBPU4tVa7o)
+### [2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期](/entry/l5ysgz2n) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期

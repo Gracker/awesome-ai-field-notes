@@ -425,7 +425,7 @@ Read Original
 
 ---
 
-### [2026 AI First 系列（四）：connecting the dots——你的独特人生路径](https://youmind.com/s/pG5sMT6W7UIdIe)
+### [2026 AI First 系列（四）：connecting the dots——你的独特人生路径](/entry/ezlw451n) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 2026 AI First 系列（四）：connecting the dots——你的独特人生路径
@@ -439,7 +439,7 @@ Read Original
 
 ---
 
-### [4 段超神提示词解锁 Claude 3.7 能力上限](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485521&idx=1&sn=7f8a4ccdb2c61e761680aaca85aad946&chksm=c14a60671873016f5f6a76648caa6bd8814afdb1a9dcf750cbbed6687baa19ab84ba5c8f8e99&mpshare=1&scene=1&srcid=0317R6zGCWW70GaSXsPvnZ1m&sharer_shareinfo=e5f19e6a645beca53fa01f3902943939&sharer_shareinfo_first=e5f19e6a645beca53fa01f3902943939)
+### [4 段超神提示词解锁 Claude 3.7 能力上限](/entry/jqlapdk9) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 4 段超神提示词解锁 Claude 3.7 能力上限
@@ -460,7 +460,7 @@ Read Original
 
 ---
 
-### [AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice](https://www.bestblogs.dev/en/article/d0229b57)
+### [AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice](/entry/8lwuhhmb) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice
