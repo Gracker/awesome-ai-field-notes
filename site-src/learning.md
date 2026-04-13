@@ -318,7 +318,7 @@ Read Original
 
 ---
 
-### [AI 时代下的工程领导力：如何打造高效团队 - 来自谷歌工程负责人、Chrome 开发者的宝贵经验分享](https://mp.weixin.qq.com/s/W56P_HMprc6WVEiCdR8OKw)
+### [AI 时代下的工程领导力：如何打造高效团队 - 来自谷歌工程负责人、Chrome 开发者的宝贵经验分享](/entry/vu8j87wr) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 AI 时代下的工程领导力：如何打造高效团队 - 来自谷歌工程负责人、Chrome 开发者的宝贵经验分享

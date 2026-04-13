@@ -521,7 +521,7 @@ Read Original
 
 ---
 
-### [AI 时代如何做独立开发](https://mp.weixin.qq.com/s?__biz=MzU0NDk4OTk2Mg==&mid=2247485247&idx=1&sn=e4ca3b067e64a4a98a7efdc763e42415&chksm=faeba4ceb694e84c3ae559d5669792288e682f8ecd822e982e48090d3fc022a7afdb471e9140&mpshare=1&scene=1&srcid=0709UarWRBnAKMiyroqUzGSl&sharer_shareinfo=32b4247038a414ec6aa48b91d378db26&sharer_shareinfo_first=32b4247038a414ec6aa48b91d378db26)
+### [AI 时代如何做独立开发](/entry/4jv028mx) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Read in Cubox  
@@ -535,7 +535,7 @@ Read Original
 
 ---
 
-### [AI 正在推动程序员的进化，而不是灭亡 | 宝玉的分享](https://baoyu.io/blog/ai-is-evolving-programmers)
+### [AI 正在推动程序员的进化，而不是灭亡 | 宝玉的分享](/entry/290hawev) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 AI 正在推动程序员的进化，而不是灭亡 | 宝玉的分享

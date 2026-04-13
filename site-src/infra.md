@@ -163,7 +163,7 @@ Read Original
 
 ---
 
-### [AI 是一块“五层蛋糕”](https://blogs.nvidia.cn/blog/ai-5-layer-cake/)
+### [AI 是一块“五层蛋糕”](/entry/nivhloc2) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Read in Cubox  

@@ -67,7 +67,7 @@ Read Original
 
 ---
 
-### [AI 助力网站出海：只靠聊天，做高颜值网站，你也行！](https://mp.weixin.qq.com/s?__biz=MzkzNzYzNzE3Mg==&mid=2247483748&idx=1&sn=1ec554ab4a29e791730c817fd0b408d1&chksm=c3ca20b722a5f8e2350c619173322441e10b452d8c0276b50b1f323548d27c1fec67f03d1d1a&mpshare=1&scene=1&srcid=0721WglomWFD42rjEiBgwLx8&sharer_shareinfo=634abb09676bc24bd5e12e2f4ca54b48&sharer_shareinfo_first=634abb09676bc24bd5e12e2f4ca54b48)
+### [AI 助力网站出海：只靠聊天，做高颜值网站，你也行！](/entry/2nr4s3iv) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 AI 助力网站出海：只靠聊天，做高颜值网站，你也行！

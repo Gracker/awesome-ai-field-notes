@@ -484,7 +484,7 @@ Read Original
 
 ---
 
-### [AI 和写作 | Randy&#x27;s Blog | Randy&#x27;s Blog](https://lutaonan.com/blog/ai-writing/)
+### [AI 和写作 | Randy&#x27;s Blog | Randy&#x27;s Blog](/entry/8j0fqkj3) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 AI 和写作 | Randy&#x27;s Blog | Randy&#x27;s Blog
@@ -498,7 +498,7 @@ Read Original
 
 ---
 
-### [AI 编码代理(以 Cursor 和 Claude Code 为例)的崛起及其深远影响](https://limboy.me/docs/research-the-rise-of-ai-coding-agents-and-its-profound-impact?s=09)
+### [AI 编码代理(以 Cursor 和 Claude Code 为例)的崛起及其深远影响](/entry/io49f422) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 AI 编码代理(以 Cursor 和 Claude Code 为例)的崛起及其深远影响
@@ -512,7 +512,7 @@ Read Original
 
 ---
 
-### [AI 辅助编码的残酷真相：它能帮你完成70%的工作，但最后30%令人非常沮丧](https://mp.weixin.qq.com/s/ZQA8quhAEwUUsT2p_IjG0g?token=1639803888&lang=zh_CN)
+### [AI 辅助编码的残酷真相：它能帮你完成70%的工作，但最后30%令人非常沮丧](/entry/apm1yd3g) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 AI 辅助编码的残酷真相：它能帮你完成70%的工作，但最后30%令人非常沮丧
