@@ -109,7 +109,7 @@ AI has undoubtedly made waves in 2023 and here we spotlight the most significant
 
 ---
 
-### [2026 AI First 系列（三）：在被替代之前变得有价值——新经济下的生存法则](https://youmind.com/s/ZncQVsVULbYTWU)
+### [2026 AI First 系列（三）：在被替代之前变得有价值——新经济下的生存法则](/entry/6nrmpv7z) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 2026 AI First 系列（三）：在被替代之前变得有价值——新经济下的生存法则

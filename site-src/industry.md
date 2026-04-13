@@ -265,7 +265,7 @@ Anthropic 最近在自家的教育平台 Anthropic Academy 上线了一门免费
 
 ---
 
-### [2025年的年终总结 | MkSaaS - Make Your AI SaaS Product in a Weekend](https://mksaas.com/blog/2025)
+### [2025年的年终总结 | MkSaaS - Make Your AI SaaS Product in a Weekend](/entry/9j1ds5wp) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 2025年的年终总结 | MkSaaS - Make Your AI SaaS Product in a Weekend

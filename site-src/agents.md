@@ -463,7 +463,7 @@ Agentic Reasoning 论文的核心价值在于&quot;多智能体协作&quot;和&q
 
 ---
 
-### [2025，MCP、Agent、AI Coding](https://mp.weixin.qq.com/s/obkKXZAEIsR3_DCup_kEsA)
+### [2025，MCP、Agent、AI Coding](/entry/oihs1hkc) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 2025，MCP、Agent、AI Coding
@@ -479,7 +479,7 @@ Read Original
 
 ---
 
-### [2026 AI First 系列（二）：Vibe Coding——思维速度编程的民主化革命](https://youmind.com/s/3iWn21PVIlNg7V)
+### [2026 AI First 系列（二）：Vibe Coding——思维速度编程的民主化革命](/entry/694ono0s) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 2026 AI First 系列（二）：Vibe Coding——思维速度编程的民主化革命

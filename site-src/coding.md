@@ -411,7 +411,7 @@ Read Original
 
 ---
 
-### [2026 AI First 系列（一）：从助手到智能体——代理工程时代的到来](https://youmind.com/s/Q8qqsFCOAdt2sU)
+### [2026 AI First 系列（一）：从助手到智能体——代理工程时代的到来](/entry/igg73zsz) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 2026 AI First 系列（一）：从助手到智能体——代理工程时代的到来

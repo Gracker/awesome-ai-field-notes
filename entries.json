@@ -770,8 +770,8 @@
       ],
       "source_type": "x_post",
       "language": "en",
-      "summary_en": "Anthropic's RLance Martin announces Claude Managed Agents, a pre-built configurable agent harness running on managed infrastructure. Key concepts: Agent (versioned config with model, system prompt, tools, skills, MCP servers), Environment (sandbox template), Session (stateful run). Supports 6 SDK languages (Python, TypeScript, Java, Go, Ruby, PHP). Common patterns include event-triggered, scheduled, fire-and-forget, and long-horizon tasks. The engineering approach decouples the 'brain' (Claude + harness) from 'hands' (sandboxes/tools) and 'session' (event log), each as independent interfaces.",
       "summary_zh": "Anthropic 的 RLance Martin 官方发布 Claude Managed Agents，这是一个预构建的可配置 Agent Harness，运行在托管基础设施上。核心概念：Agent（版本化配置，包含模型、系统提示、工具、技能、MCP 服务器）、Environment（沙盒模板）、Session（有状态运行实例）。支持 6 种 SDK 语言。常见模式包括事件触发、定时执行、即发即忘和长时任务。工程方法将「大脑」（Claude + Harness）与「手」（沙盒/工具）和「会话」（事件日志）解耦为独立接口。",
+      "summary_en": "Anthropic's RLance Martin announces Claude Managed Agents, a pre-built configurable agent harness running on managed infrastructure. Key concepts: Agent (versioned config with model, system prompt, tools, skills, MCP servers), Environment (sandbox template), Session (stateful run). Supports 6 SDK languages. Common patterns include event-triggered, scheduled, fire-and-forget, and long-horizon tasks. The engineering approach decouples the 'brain' (Claude + harness) from 'hands' (sandboxes/tools) and 'session' (event log), each as independent interfaces.",
       "one_liner": "Claude Managed Agents 的官方发布说明，三核心概念（Agent/Environment/Session）定义清晰",
       "one_liner_author": "openclaw",
       "quality_score": 4,
@@ -916,6 +916,167 @@
       "github_stars": null,
       "related": [],
       "id": "83650874"
+    },
+    {
+      "id": "antigravity-2026-001",
+      "title": "Build with Google Antigravity, our new agentic development platform",
+      "url": "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/",
+      "source": {
+        "platform": "google",
+        "author": "Google Developers Team",
+        "original_date": "2025-11-20"
+      },
+      "category": "agents/frameworks",
+      "tags": [
+        "antigravity",
+        "google",
+        "agentic-development",
+        "platform",
+        "IDE"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google 发布 Antigravity 新一代智能体开发平台，将传统 AI 编码体验与智能体优先界面结合。平台提供 Editor View（AI 驱动的 IDE）和 Manager Surface（智能体调度界面）两种交互方式。支持将复杂多工具任务委托给 Agent 自动执行，通过 Artifacts（任务清单、实现计划、截图等）验证代理工作成果。支持多语言 SDK，兼容 Gemini 3 Pro、Claude Sonnet 4.5 和 GPT-OSS，跨平台支持 macOS、Windows、Linux。",
+      "summary_en": "Google launches Antigravity, a new agentic development platform combining AI-powered coding experience with agent-first interface. Features Editor View (AI-powered IDE) and Manager Surface (agent orchestration interface). Supports delegating complex multi-tool tasks to agents, verified through Artifacts. Compatible with multiple models and languages, cross-platform support available.",
+      "one_liner": "Google Antigravity 将传统 IDE 与智能体调度完美融合，代表开发平台的下一代演进",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "real-world-agents-2026-002",
+      "title": "Real-World Agent Examples with Gemini 3",
+      "url": "https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/",
+      "source": {
+        "platform": "google",
+        "author": "Google Research Team",
+        "original_date": "2025-12-19"
+      },
+      "category": "agents/frameworks",
+      "tags": [
+        "gemini-3",
+        "agent-examples",
+        "multi-agent",
+        "frameworks",
+        "open-source"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google 与六个开源框架合作展示 Gemini 3 在实际智能体工作流中的应用。涵盖 ADK（零售位置策略分析）、Agno（金融研究）、Browser Use（表单填写自动化）、Eigent（企业浏览器自动化）、Letta（社交代理管理）和 Mem0（持久化代理）。每个示例展示如何利用 Gemini 3 的精确推理控制和状态管理解决可部署性挑战，涵盖深度搜索、多智能体系统、浏览器自动化和企业应用等场景。",
+      "summary_en": "Google collaborates with six open-source frameworks to showcase Gemini 3 applications in real-world agent workflows. Covers ADK (retail strategy), Agno (financial research), Browser Use (form automation), Eigent (enterprise automation), Letta (social agents), and Mem0 (persistent agents). Each example demonstrates how Gemini 3's precise reasoning and state management address deployment challenges for deep search, multi-agent systems, browser automation, and enterprise applications.",
+      "one_liner": "Gemini 3 六大开源框架实战案例，涵盖从零售到企业级的全栈智能体应用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "mcp-standards-2026-003",
+      "title": "Model Context Protocol (MCP): The USB-C Port Standard for AI Applications in 2026",
+      "url": "https://getstream.io/blog/agent-frameworks-guide-2026/",
+      "source": {
+        "platform": "industry",
+        "author": "Industry Analysis",
+        "original_date": "2026-04-13"
+      },
+      "category": "agents/frameworks",
+      "tags": [
+        "mcp",
+        "standards",
+        "interoperability",
+        "frameworks",
+        "enterprise-ai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "MCP 正在成为 2026 年 AI 框架互操作性的关键标准，被誉为'AI 应用的 USB-C 端口'。微软 Agent Framework 1.0、CrewAI、Claude Agent SDK、mcp-agent、LangGraph 等主流框架已采用 MCP 支持。MCP 通过 OAuth 2.1 等安全标准解决企业级安全问题，减少集成复杂度，推动 AI 代理生态系统丰富化发展。标志着 AI 技术从简单聊天提示向高级自动工作流的重要转变。",
+      "summary_en": "MCP emerges as a crucial interoperability standard for AI frameworks in 2026, likened to 'USB-C port for AI applications'. Major frameworks like Microsoft Agent Framework 1.0, CrewAI, Claude Agent SDK, mcp-agent, and LangGraph have adopted MCP support. MCP solves enterprise security challenges with OAuth 2.1, reduces integration complexity, and drives richer AI agent ecosystem development.",
+      "one_liner": "MCP 正在重塑 AI 框架的互操作性标准，为 2026 年企业级 AI 部署奠定基础",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "gemini-cli-flash-2026-004",
+      "title": "Gemini 3 Flash: Pro-Grade Coding Performance with Low Latency and Cost",
+      "url": "https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/",
+      "source": {
+        "platform": "google",
+        "author": "Google AI Team",
+        "original_date": "2026-04-13"
+      },
+      "category": "models/coding",
+      "tags": [
+        "gemini-3-flash",
+        "cli",
+        "coding-performance",
+        "cost-optimization",
+        "agentic-coding"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Gemini 3 Flash 现已集成到 Gemini CLI 中，提供 Pro 级编码性能的同时具有低延迟和低成本优势。SWE-bench 验证得分达到 76%，与 Gemini 3 Pro 相当，显著优于 2.5 Pro 版本。特别适合高频开发任务，能够处理复杂代码生成、大上下文窗口（如处理 1000 条评论的 PR）、快速生成负载测试脚本等场景。已面向 Google AI Ultra 和付费 Gemini API 用户开放（需 CLI 升级至 0.16.x）。",
+      "summary_en": "Gemini 3 Flash integrated into Gemini CLI delivers Pro-grade coding performance with low latency and cost. Matches Gemini 3 Pro's SWE-bench Verified score of 76%, significantly outperforming 2.5 Pro. Ideal for high-frequency development tasks handling complex code generation, large context windows, and quick load test script generation. Available for Google AI Ultra and paid Gemini API users (CLI upgrade to 0.16.x required).",
+      "one_liner": "Gemini 3 Flash 在 Gemini CLI 中实现性能与成本的完美平衡",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "litert-2026-005",
+      "title": "LiteRT: The Universal Framework for On-Device AI",
+      "url": "https://developers.googleblog.com/litert-the-universal-framework-for-on-device-ai/",
+      "source": {
+        "platform": "google",
+        "author": "Google AI Team",
+        "original_date": "2026-04-13"
+      },
+      "category": "models/inference",
+      "tags": [
+        "litert",
+        "on-device",
+        "tflite",
+        "mobile-ai",
+        "inference",
+        "gemma"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google 发布 LiteRT，这是 TFLite 的演进版本，现在成为设备端 AI 的统一框架。提供最多 1.4 倍更快的 GPU 性能，新增 NPU 支持，并为 Gemma 等模型提供简化的 GenAI 部署流程。标志着移动设备 AI 推理的重大进步，为开发者在手机、嵌入式设备上运行 AI 模型提供了更高效、更统一的解决方案。",
+      "summary_en": "Google releases LiteRT, the evolution of TFLite, now serving as the universal framework for on-device AI. Delivers up to 1.4x faster GPU performance, adds NPU support, and provides streamlined GenAI deployment for models like Gemma. Represents significant advancement in mobile device AI inference.",
+      "one_liner": "LiteRT 将移动设备 AI 推理性能提升至新高度，统一框架加速 GenAI 部署",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ]
 }
