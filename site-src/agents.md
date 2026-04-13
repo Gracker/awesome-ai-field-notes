@@ -187,7 +187,7 @@ When you look at what most agent frameworks actually do, it&#x27;s workflow orch
 
 ---
 
-### [迈向AI智能体可靠性科学](#)
+### [迈向AI智能体可靠性科学](/entry/egu78302) 📄
 ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-10
 
 **论文标题**: Towards a Science of AI Agent Reliability
@@ -211,7 +211,7 @@ When you look at what most agent frameworks actually do, it&#x27;s workflow orch
 
 ---
 
-### [Agentic Code Reasoning](#)
+### [Agentic Code Reasoning](/entry/l9nwgb3o) 📄
 ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-10
 
 论文试图解决什么问题？
@@ -369,7 +369,7 @@ OpenAI 内部有个团队，5 个月，3 个工程师，几乎不靠手写代码
 
 ---
 
-### [Agentic Reasoning](#)
+### [Agentic Reasoning](/entry/a26ppn58) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 一句话概括：如何让 LLM 在处理复杂研究任务时，能够有效利用外部工具、维护推理上下文，并生成可解释的推理路径？

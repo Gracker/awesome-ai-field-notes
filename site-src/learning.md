@@ -76,7 +76,7 @@
 
 ---
 
-### [Android 17 DeliQueue：二十年来最重要的消息队列架构重写](#)
+### [Android 17 DeliQueue：二十年来最重要的消息队列架构重写](/entry/ng74ojns) 📄
 @Shai Barack, Charles Munger (Google) · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-10
 
 Android 17用lock-free混合数据结构DeliQueue替换了存在20年的MessageQueue实现。实际用户设备上实现丢帧率降低4%-7.7%、应用启动速度提升9.1%。这不是Binder IPC改造，而是对Android所有UI线程运行核心——Looper/Handler消息调度机制的根本性重构。每个应用的main线程、SystemUI、Launcher乃至system_server中的HandlerThread都依赖MessageQueue，这个单点性能改进具有全局传导效应。面向SDK 37及以上默认启用。
@@ -85,7 +85,7 @@ Android 17用lock-free混合数据结构DeliQueue替换了存在20年的MessageQ
 
 ---
 
-### [Running Slice 全栈分析手册](#)
+### [Running Slice 全栈分析手册](/entry/54zsncaa) 📄
 ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-10
 
 为Android性能工程师提供的系统化分层框架，用于精确诊断Perfetto中Running片段的CPU消耗位置和原因。涵盖六个层级：Java方法追踪→ART虚拟机→内核调度器→CPU微架构→缓存层级→SoC内存子系统。每个层级有独特工具、指标和故障模式。长Running片段可分解为指令供给问题、数据访问延迟、非最优核心放置、频率调节延迟或算法冗余。
@@ -635,7 +635,7 @@ Read Original
 
 ---
 
-### [新手劝退 OpenClaw：99% 的人根本不需要它](https://x.com/LawrenceW_Zen/article/2026872793187627276)
+### [新手劝退 OpenClaw：99% 的人根本不需要它](/entry/q7qmybqr) 📄
 @劳伦斯 · ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 劝退文：99% 的人不需要自动化，更不需要 OpenClaw。连 chatbot 都玩不明白就想搞多 Agent 协作，连提示词都写不好就想自动决策。OpenClaw 是过渡产品，几大 AI 公司会推出更强大方案。与其烧 token 折腾 OpenClaw，不如先让 AI 介入日常工作。先学走再学跑。

@@ -121,7 +121,7 @@ Read Original
 
 ---
 
-### [70款ChatGPT插件评测：惊艳的开发过程与宏大的商业化愿景 - 知乎](https://zhuanlan.zhihu.com/p/629337429?utm_id=0&utm_source=wechat_session&utm_medium=social&s_r=0)
+### [70款ChatGPT插件评测：惊艳的开发过程与宏大的商业化愿景 - 知乎](/entry/wvhfogqr) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 70款ChatGPT插件评测：惊艳的开发过程与宏大的商业化愿景 - 知乎
@@ -135,7 +135,7 @@ Shimmer: Nutrition Coach
 
 ---
 
-### [AI 代理可观测性 - 演变标准与最佳实践](https://mp.weixin.qq.com/s?__biz=MzI5ODk5ODI4Nw==&mid=2247553129&idx=2&sn=b096969e9b11351ee311f13f4cb15c1b&chksm=ed4dcaeea8eed4db84fd7e26c9216b026b402f2de5aa869c09b82f22cc5e1666c3803f56a84f&mpshare=1&scene=1&srcid=0311AblXeZcZnhw5hMg3o7xI&sharer_shareinfo=38ca43ce0163ec0a3d17cf759565d2af&sharer_shareinfo_first=65f12cd27132058e786435d42b931d6c)
+### [AI 代理可观测性 - 演变标准与最佳实践](/entry/piwjuvv3) 📄
 @Guangya Liu (IBM), Sujay Solomon (Google) · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 AI 代理可观测性 - 演变标准与最佳实践
@@ -149,7 +149,7 @@ AI 代理将在 2025 年成为人工智能的下一个重大飞跃。从自主�
 
 ---
 
-### [AI 技术的停滞，是革命的开始 – 虹线](https://1q43.blog/post/10727/)
+### [AI 技术的停滞，是革命的开始 – 虹线](/entry/zlsa1lat) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Read in Cubox  
