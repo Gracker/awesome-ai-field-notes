@@ -17,4 +17,59 @@ sidebar: false
 
 ---
 
-搞懂缓存机制，从Gemma4到Claude Code省80%Token 作者：MinLiBuilds 本文比较长，按兴趣挑着看，只想了解省钱的直接翻到第六章： - 一~二：本地实验 + 原理揭秘（核心故事线，所有人） - 三 ： 缓存的细节追问（想深入理解的人） - 四~五 ： 逆向 Claude Code 源码（开发者 / Claude Code 用户） - 六~七 ：使用姿势 + 省钱技巧（Claude Code 用户，没时间的直接看这里） ## 一、实验：同一段对话，为什么有时 30 秒有时 0.2 秒？ 起因很简单：我想在本地体验一下大模型的 context caching，看到底能快多少。 先拿 Ollama 在 Mac (Apple Silicon, 16GB) 上跑 Gemma 4（8B 总参数，9.6GB 模型），写了个测试脚本做多轮对话：先喂一篇 670 token 的文章，然后连续追问 5 个问题。 每轮 API 返回两个关键指标：prompt 处理时间（消化输入）和生成时间（吐出回答）。我把 prompt 处理时间单独拎出来，结果不出所料： Turn 2 到 Turn 3，prompt 处理从 31 秒直降到 0.25 秒——100 倍加速。 而生成速度始终稳定在 13-20 tok/s，丝毫不受影响。 这说明加速只发生在"消化输入"阶段，和"吐出回答"无关。 Gemma 4 有 9.6GB，16GB 内存跑起来比较吃力。我又换了个小模型 Qwen3.5（0.8B，~1GB）做同样的测试，想看看模型大小是否会影响这个现象： 小模型全程 200ms 上下，波澜不惊。没有 Gemma 4 那种"突然快 100 倍"的戏剧性变化。 两个问题浮出水面： 1. 那个 100x 加速到底是什么？ 2. 为什么大模型受益巨大，小模型却无感？ ## 二、答案：KV 缓存——注意力的 QKV 中的 KV 大模型生成文本时，用的是 Transformer 注意力机制。核心公式： Attention(Q, K, V) = softmax(Q · Kᵀ / √d) · V Q、K、V 三个角色： - Q (Query) — 当前新 token 的，"我要找什么？" → 每次不同，不能缓存 - K (Key) — 历史 token 的，"我这有什么？"（索引） → 算完就固定，可以缓存 - V (Value) — 历史 token 的，"具体内容是什么？" → 算完就固定，可以缓存 KV 缓存就是把历史 token 的 Key 和 Value 存起来，新 token 只需要算自己的 Q，然后查已有的 KV。 这之所以可行，是因为当前所有主流大模型（Claude、GPT、Gemini、Llama、Gemma、Qwen）都是 Decoder-only 架构——单向注意力，每个 token 只看前面的 token。前面 token 的 KV 算完就固定了，后面怎么追加都不影响。 因果掩码（causal mask）： T₁ T₂ T₃ T₄ T₁ ✅ ❌ ❌ ❌ T₂ ✅ ✅ ❌ ❌ T₃ ✅ ✅ ✅ ❌ ← T₃ 的 KV 永远不变 T₄ ✅ ✅ ✅ ✅ ← 新增 T₄ 不影响 T₁₂₃ 如果是双向注意力（BERT），加一个新 token 会改变所有 token 的表示，缓存全废。这也是为什么 BERT 做不了生成式AI。 回到实验数据 Turn 1-2 慢（24-31 秒）：模型在逐层计算 670+ 个 token 的 KV 张量，60 层 × 670 token × 2(K+V) = 巨量计算。 Turn 3 突然快（0.25 秒）：之前算好的 KV 全部缓存住了！只需从内存加载，不用重算。瓶颈从GPU计算变成了内存读取。 小模型无感：Qwen3.5 只有 0.8B 参数，算 KV 本来就只要 200ms，缓存省不了多少。 模型越大，KV 计算越昂贵，缓存收益越大： 注意命中时两个模型速度几乎一样，都是从内存读取。 ## 三、缓存是无损的吗？生成结果会进缓存吗？ 无损。 Transformer 的计算是确定性的，KV 从缓存加载和现场计算的结果完全一致。 生成结果不进 prompt 缓存。 模型吐出的 output token 的 KV 在请求结束后丢弃——因为每次生成内容不同（temperature > 0），存了也没法复用。 但有个精妙之处：在下一轮对话中，上轮的生成结果被拼回 prompt，变成了"输入"的一部分，自然被缓存覆盖。 对话越长，缓存覆盖比例越高，每轮新增计算量越小。这就是为什么多轮对话是缓存的最佳场景，也是为何 Opus 现在拿 1m 当默认项。 多轮对话的上下文累计：有缓存 vs 没缓存 对比：255K vs 60K，缓存省了 76%。 这就是为什么"一个 session 持续对话"比"频繁开新 session"省钱的根本原因。 新 session 每次从 Turn 1 开始，永远在付全价写入缓存的钱。老 session 继续对话，前面的全是缓存，只有末尾新增的一点点是全价。 不过实验中也发现，Ollama 的缓存是概率性的——同样的 prompt 跑两次，缓存命中的轮次不同，而且连续命中几次后可能突然失效（内存压力导致 KV 被淘汰）。效果惊人，但不可靠。 那 Claude API 的缓存呢？有没有更确定性的方案？我翻了 Claude Code 的源码。 ## 四、 Claude Code：一套精密的缓存工程 用Claude Code 翻了它自己的源码后发现，Anthropic 在缓存上做了大量精细工程——远不是"自动缓存"这么简单。 Prompt 不是一整块发出去的 每次 API 调用，Claude Code 发送的是一个精心拼接的多层结构： 关键函数（源码位置）： - getSystemPrompt() (prompts.ts:444) — 组装系统提示词 - splitSysPromptPrefix() (api.ts:321) — 按 DYNAMIC_BOUNDARY 切分 - buildSystemPromptBlocks() (claude.ts:3214) — 加 cache_control 标记 - addCacheBreakpoints() (claude.ts:3064) — 在最后一条消息上标记缓存断点 缓存是前缀匹配的：只要从头开始的 token 序列一致，就能复用。这就是为什么系统提示词放最前面、保持不变如此重要。 两档 TTL - 默认 5 分钟 — 所有用户 - 扩展 1 小时 — Pro/Max 订阅用户（未超额）、Anthropic 员工 源码 claude.ts:408-413： 缓存断裂检测 Claude Code 会监控每次调用的 cache_read_input_tokens，如果比上次下降 >5% 且绝对值 >2000 tokens，判定为断裂，并分析原因：系统提示词变了？工具增减了？TTL 过期了？模型切了？ Claude Code 的缓存设计还是很清晰的，和 Ollama "缓存没了你自己猜" 形成鲜明对比。 ## 五、缓存像链条：断在哪里，后面全废 缓存是前缀匹配。理解这个就理解了一切： 切换模型也是完全失效——Opus 和 Sonnet 的权重不同，KV 张量不能互用。切一次模型，50K tokens 的上下文要全价重算。在 TTL 内切回可能还能命中旧缓存（promptCacheBreakDetection.ts 追踪了 modelChanged）。所以这点也要注意，下班前的最后半小时，不要切模型。 Sub-agent 能复用主线程的缓存吗？ Claude Code 在处理复杂任务时会启动 sub-agent（比如 Explore agent 搜代码、Plan agent 做规划）。每个 sub-agent 是一次独立的 API 调用，它能复用主线程的缓存吗？ 答案：几乎不能。 源码里，缓存状态是按 querySource + agentId 分开追踪的——每个 agent 有自己独立的缓存链。而且 sub-agent 和主线程有三个关键不同： 1. 工具集不同 — 主线程有全套工具（Read, Write, Edit, Bash, Agent...），Explore agent 只有子集（Read, Grep, Glob, Bash）。工具 schema 不同 → 缓存前缀不同 → tools 之后的部分全部无法复用。 2. 消息历史完全独立 — sub-agent 有自己的对话上下文，和主线程的历史没有交集。 3. 可能用不同模型 — sub-agent 可能用 Haiku 或 Sonnet（更便宜），而主线程用 Opus。不同模型 = 不同权重 = KV 张量完全不同 = 零复用。 所以每启动一个 sub-agent，基本等于一次"迷你冷启动"。这也是为什么 Claude Code 不会滥用 sub-agent——简单的文件搜索直接用 Grep/Glob 工具就行，不必每次都启动 Explore agent。如果你在 CLAUDE.md 里写了 "多用 agent 并行处理"，要意识到每个 agent 都有独立的缓存开销。 ## 六、保护你的缓存：Claude Code 使用姿势 理解了缓存机制，就知道什么习惯省钱、什么烧钱。 核心原则：别碰前缀，只在末尾追加 保护缓存的（绿灯）： - 连续对话 — 前缀不变，增量缓存，一个 session 持续对话 - btw — 使用 btw 共享 session，可共享缓存 - Claude.md — 定期整理这个文件，但不要在工作到一半的时候整理 破坏缓存的（红灯）： - 开新 session — 冷缓存，~20K tokens 全价重算 - 改 CLAUDE.md — Block 4 起全部失效，配好就别动 - 加减 MCP 工具 — 工具 schema 变化 = 缓存断裂，session 前配好，禁用不用的MCP - 切换模型 — 完全失效，按阶段切，别频繁切 - /compact — 消息历史变了 = 断裂，对话 >100K 时再用 - 发呆超过 TTL — 缓存过期，1h 内说句话 缓存差异有多大？ 假设系统提示词 20K tokens，对话 10 轮： - 一个 session 持续对话：1 次全价 + 9 次 1/10 = 1.9 份 - 每次开新 session：10 次全价 = 10 份 差了 5 倍。对 Pro/Max 订阅用户，这意味着同样的套餐能多干 3-5 倍的活。 ## 结论 Context caching 不是魔法，而是对 Transformer 注意力机制的深刻理解。通过缓存 KV 张量，我们可以大幅减少重复计算，提升性能和降低成本。 关键要点： 1. 缓存主要是 KV 缓存，Q 每次都要重新计算 2. Decoder-only 架构支持缓存，BERT 不支持 3. 缓存是前缀匹配，任何改动都会导致后续失效 4. Claude Code 的缓存设计精密，但需要用户正确使用 5. 连续对话比频繁开新 session 省钱得多 6. Sub-agent 基本不能复用主线程缓存 正确使用缓存机制，可以显著提升 AI 应用的效率和成本效益。
+搞懂缓存机制，从Gemma4到Claude Code省80%Token
+
+从本地 Gemma 4 实验出发，详解 Transformer KV 缓存原理（QKV 注意力机制中的 Key/Value 缓存），解释为什么 Decoder-only 架构可以缓存历史 token 的 KV。逆向分析 Claude Code 的缓存实现，Anthropic 做了一整套精密的缓存工程。理解后可让同样的套餐多撑 3-5 倍。
+
+## LLM 缓存机制
+
+Caching in LLMs primarily aims to avoid redundant computations and API calls by storing and reusing previous results. Several types of caching are employed:
+
+* **Prompt Caching (KV Cache Reuse / Prefix Matching)**:
+  * When an LLM processes a prompt, it generates key-value (KV) cache entries in its attention layers. These represent the relationships between tokens. Normally, this KV cache is recomputed for every request.
+  * Prompt caching stores these KV cache entries so that if a subsequent request shares the same prefix (the beginning of the prompt), the model can reuse the cached computation for that portion. This skips redundant "prefill" work, reducing latency and input costs.
+  * Providers like Anthropic (for Claude) offer prompt caching, with cache reads priced at a significant discount (e.g., 0.1x the base input cost, equating to a 90% discount). OpenAI also offers automatic caching, leading to up to 50% cost savings.
+  * This works best when prompts are structured with stable content (like tool definitions, system prompts, reference documents) first, and variable content (user query) last.
+
+* **Exact Match Caching (Request/Response Caching)**:
+  * This is the simplest form, storing the entire LLM response for a specific, identical prompt. If the exact same prompt (and other parameters) is received again, the cached response is returned immediately, bypassing the LLM call entirely.
+  * It's highly effective for frequently asked questions or deterministic queries.
+
+* **Semantic Caching**:
+  * A more sophisticated approach that understands the *meaning* behind queries, not just exact wording.
+  * When a new prompt arrives, its embedding (numerical representation) is generated and compared against cached embeddings. If a sufficiently similar query is found (based on a similarity threshold), the cached response is returned.
+  * Semantic caching can bypass LLM calls entirely for similar questions, saving both input and output token costs, making it generally more cost-effective for workloads with varied phrasing of similar questions. It can achieve significant cost reductions, with some reports indicating up to 86%.
+
+## Token Saving Strategies
+
+While "Gemma4" likely refers to Google's Gemma models (e.g., Gemma 1.5 Pro) and "Claude Code" refers to Anthropic's Claude models used for coding, the principles of token optimization are broadly applicable across LLMs. The goal is to reduce the number of tokens processed and generated, which directly impacts cost and latency.
+
+**Strategies for Token Reduction, particularly in a coding context like Claude Code:**
+
+* **Leverage Provider-Side Caching**:
+  * Enable and utilize prompt caching features offered by LLM providers. For Anthropic's Claude, this means using `cache_control` markers for explicit caching or benefiting from automatic caching.
+  * Anthropic's prompt caching can lead to up to 90% cost reduction for long prompts and 85% latency reduction.
+
+* **Effective Context Management**:
+  * **Minimize Input Context**: Only provide the necessary information. Stale or irrelevant context wastes tokens on every message.
+  * **Clear Between Tasks**: For interactive environments like Claude Code, use commands like `/clear` to reset the accumulated context when switching to unrelated work.
+  * **Summarization/Compaction**: For long conversation histories, summarize them to preserve critical information while reducing token count. Claude Code offers `auto-compaction` to summarize conversation history when approaching context limits.
+  * **Structured Documentation (MinLiBuilds/Claude Code)**: Structure documentation so that Claude only loads what's needed. For example, essential files at startup, with other topic-based learnings loaded on demand. This approach can lead to significantly reduced initial context tokens.
+
+* **Prompt Engineering**:
+  * **Concise Prompts**: Write prompts that are direct and to the point, avoiding unnecessary verbosity.
+  * **Request Concise Output**: Explicitly ask the LLM to "be concise" in its responses to reduce output token count.
+  * **Optimize Prompt Structure**: Place stable information (system prompts, tool definitions) at the beginning of your prompt to maximize cache hit rates for prefix matching.
+
+* **Model Selection**:
+  * Use the most cost-effective model for the task. For example, using a smaller, cheaper model (like Claude Haiku) for simple tasks and reserving more powerful, expensive models (like Claude Opus) for complex reasoning or architecture reviews. This alone can save 40-70%.
+
+* **Reduce "Thinking" Tokens (Claude Code Specific)**:
+  * Claude's "thinking" process consumes tokens you don't directly see. Reducing `MAX_THINKING_TOKENS` from default values (e.g., 31,999) to a lower, sufficient amount (e.g., 10,000 for most coding tasks) can significantly cut hidden costs.
+
+* **Disable Unused Features**:
+  * In environments like Claude Code, disable unused tools and connectors, as their definitions can consume thousands of tokens per message.
+
+* **Layered Caching**: Combine multiple caching strategies for maximum benefit. For instance, start with exact-match, then add semantic caching, and leverage provider-level prompt caching for system prompts.
+
+By diligently applying these caching mechanisms and token optimization strategies, developers can achieve significant cost savings and latency improvements, potentially reaching the 80% token reduction target mentioned in the query. MinLiBuilds emphasizes that understanding caching is crucial for managing LLM costs in production, with savings potentially ranging from thousands to tens of thousands of dollars monthly.

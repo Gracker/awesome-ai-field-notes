@@ -332,7 +332,7 @@ Read Original
 
 ---
 
-### [AI狂飙的时代，人还有价值吗？](https://mp.weixin.qq.com/s/7H1FrwbQvsh0HD9z90L0wg)
+### [AI狂飙的时代，人还有价值吗？](/entry/s4niyx5b) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Read in Cubox  

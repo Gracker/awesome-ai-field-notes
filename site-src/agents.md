@@ -549,7 +549,7 @@ Read Original
 
 ---
 
-### [AI 重构软件工程：OpenAI Harness Engineering，程序员不写代码的时代来了](https://mp.weixin.qq.com/s?__biz=MzIxMzE2OTA1NA==&mid=2247504549&idx=1&sn=1960d1b4f5adc272beafe02769b70080&chksm=9662df573f9f31d5e66ca65058639cc344e2a32d8650454025313de92c8dead3c053a30c7101&mpshare=1&scene=1&srcid=0310AcGnRt8mXm5THdB5S6Y3&sharer_shareinfo=8ce3a2d537351730960ccb449abb2755&sharer_shareinfo_first=d7497129c2be0b41a6e58b76c66a5a05)
+### [AI 重构软件工程：OpenAI Harness Engineering，程序员不写代码的时代来了](/entry/0o7typwh) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 AI 重构软件工程：OpenAI Harness Engineering，程序员不写代码的时代来了
@@ -563,7 +563,7 @@ Read Original
 
 ---
 
-### [AI编程：从Copilot到Autopilot](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485992&idx=1&sn=914ba456441e9f4aa9e0c91b7858ed91&chksm=c194b3cb3c9bf246aaf1fe3496dd875af6cecfc69aac570e037e7104b34b19435b4d96908c01&mpshare=1&scene=1&srcid=0410puyzU835T521O5yUhmE6&sharer_shareinfo=ef12f65716c3400823400c5f7548e41a&sharer_shareinfo_first=ef12f65716c3400823400c5f7548e41a)
+### [AI编程：从Copilot到Autopilot](/entry/noymctov) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 AI编程：从Copilot到Autopilot

@@ -1099,8 +1099,8 @@
       ],
       "source_type": "x_post",
       "language": "en",
-      "summary_zh": "[英] 内容过短，待补充",
-      "summary_en": "内容过短，待补充",
+      "summary_zh": "一位创始人分享了用 OpenClaw 构建 AI 营销团队的真实经验：5 个专用 Agent（Alfred/Oracle/Arrow/Cyborg/Flash）各司其职，通过\"Single Brain\"统一向量数据库汇聚全公司数据，实现跨 Agent 协同。展示了从线索发现、内容工厂、销售 pipeline 到招聘自动化的完整案例，强调系统需三个月才能进入\"飞轮\"阶段，前期痛苦但长期复利巨大。",
+      "summary_en": "A founder shares how he built a real marketing team using OpenClaw: 5 specialized agents (Alfred/Oracle/Arrow/Cyborg/Flash) each own a function, coordinated through a \"Single Brain\" unified vector database ingesting all company data. Complete case study covering lead generation, content factory, sales pipeline automation, and recruiting. Key insight: the system takes 3 months to enter the \"flywheel\" phase—painful early, compounding long-term.",
       "one_liner": "将 AI Agent 组成完整公司运营系统（5 agent + Single Brain）是目前最有深度的实战复盘，验证了 Harness Engineering 在真实业务中的有效性",
       "one_liner_author": "openclaw",
       "quality_score": 5,
@@ -1108,7 +1108,7 @@
       "local_path": "X 文章/2026-04-13-1607-ericosiu-How I built a real marketing team on OpenClaw.md",
       "images": [],
       "added_date": "2026-04-13",
-      "updated_date": null,
+      "updated_date": "2026-04-14",
       "github_stars": null,
       "related": []
     },
@@ -1131,7 +1131,7 @@
       ],
       "source_type": "x_post",
       "language": "zh",
-      "summary_zh": "内容过短，待补充",
+      "summary_zh": "Claude Code 有 5 小时重置机制，通过 cron job 在云端定时触发对话可卡重置节点，让每个工作时段都从满血状态开始。利用在线 cron 服务（无需本地电脑）设置 5 7,12,17,22 * * *，每天 7:05、12:05、17:05、22:05 自动触发，覆盖上午/下午/傍晚/深夜四个时段，每个时段都能用满 token 额度。比本地 crontab 更优雅。",
       "summary_en": null,
       "one_liner": "用 cron job 卡 Claude Code 5 小时重置节点是保持满血状态的工程 trick，简单有效",
       "one_liner_author": "openclaw",
@@ -1140,7 +1140,7 @@
       "local_path": "X 文章/2026-04-12-1200-chenchengpro-Claude Code 5 小时重置机制使用技巧.md",
       "images": [],
       "added_date": "2026-04-13",
-      "updated_date": null,
+      "updated_date": "2026-04-14",
       "github_stars": null,
       "related": []
     },
@@ -1177,7 +1177,114 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "litert-2026-006",
+      "title": "LiteRT: The Universal Framework for On-Device AI",
+      "url": "https://developers.googleblog.com/litert-the-universal-framework-for-on-device-ai/",
+      "source": {
+        "platform": "google",
+        "author": "Google AI Team",
+        "original_date": "2026-01-28"
+      },
+      "category": "models/inference",
+      "tags": [
+        "litert",
+        "on-device",
+        "tflite",
+        "mobile-ai",
+        "inference",
+        "gemma",
+        "cross-platform",
+        "npu",
+        "gpu"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google 发布 LiteRT，这是 TFLite 的演进版本，现在成为设备端 AI 的统一框架。提供最多 1.4 倍更快的 GPU 性能，新增 NPU 支持，并为 Gemma 等模型提供简化的 GenAI 部署流程。标志着移动设备 AI 推理的重大进步，为开发者在手机、嵌入式设备上运行 AI 模型提供了更高效、更统一的解决方案。支持跨平台部署，包括 Android、iOS、macOS、Windows、Linux 和 Web。",
+      "summary_en": "Google releases LiteRT, the evolution of TFLite, now serving as the universal framework for on-device AI. Delivers up to 1.4x faster GPU performance, adds NPU support, and provides streamlined GenAI deployment for models like Gemma. Represents significant advancement in mobile device AI inference with cross-platform support across Android, iOS, macOS, Windows, Linux, and Web.",
+      "one_liner": "LiteRT 将移动设备 AI 推理性能提升至新高度，统一框架加速 GenAI 部署",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "mcp-ecosystem-2026-007",
+      "title": "MCP 2026：AI 生态系统的基础设施标准正在形成",
+      "url": null,
+      "source": {
+        "platform": "industry",
+        "author": "Industry Analysis",
+        "original_date": "2026-04-14"
+      },
+      "category": "agents/frameworks",
+      "tags": [
+        "mcp",
+        "standards",
+        "ecosystem",
+        "interoperability",
+        "agent-internet",
+        "infrastructure",
+        "2026-trends"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "2026年标志着 MCP（Model Context Protocol）成为AI生态系统的关键基础设施标准。MCP 已从简单的工具连接协议演变为 AI 同步连结的基础，被 Linux Foundation 接管后确立了中立开放标准的地位。主要发展趋势包括：服务器功能自动发现（MCP Server Cards）、通信方式进化（Streamable HTTP）、非同步任务处理增强（Tasks 功能）、触发器功能和原生流式传输。微软 Agent Framework 1.0、CrewAI、Claude Agent SDK 等主流框架已采用 MCP 支持。MCP 正在推动 AI 技术从简单聊天提示向高级自动工作流的重要转变，解决企业级安全问题并减少集成复杂度。",
+      "summary_en": "2026 marks MCP's emergence as critical infrastructure standard for AI ecosystems. MCP has evolved from simple tool connection protocol to AI interconnection foundation, establishing neutral open standard status under Linux Foundation. Key trends include automatic server discovery, streamable HTTP communication, enhanced async task processing, and native streaming. Major frameworks like Microsoft Agent Framework 1.0, CrewAI, and Claude Agent SDK have adopted MCP support, driving AI from simple chat prompts to advanced automated workflows.",
+      "one_liner": "MCP 正在重塑 AI 框架的互操作性标准，为 2026 年企业级 AI 部署奠定基础",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "agent-framework-landscape-2026-008",
+      "title": "AI Agent Framework 景观 2026 年 4 月：多智能体编排与生产就绪",
+      "url": null,
+      "source": {
+        "platform": "industry",
+        "author": "Industry Analysis",
+        "original_date": "2026-04-14"
+      },
+      "category": "agents/frameworks",
+      "tags": [
+        "agent-framework",
+        "multi-agent",
+        "orchestration",
+        "production-ready",
+        "mcp",
+        "a2a",
+        "enterprise",
+        "2026-trends",
+        "finops",
+        "hitl"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "2026年4月AI Agent框架格局呈现六大关键趋势：多智能体编排（微服务化）、协议标准化（MCP/A2A）、企业级扩展与生产就绪、治理与安全（核心竞争差异化）、AI Agent成本优化（FinOps策略）、人机协同（HITL架构化）。主流框架包括LangGraph（复杂生产系统）、CrewAI（快速原型）、OpenAI Agents SDK（安全护栏）、Claude Agent SDK（沙盒执行）、Microsoft Agent Framework（工作流图）等。市场预计从78亿美元增长到530亿美元，Gartner预测40%企业应用将嵌入AI Agent。新模型如MiniMax M2.7（自我进化）、Qwen3.6-Plus（百万token）、Claude Opus 4.6（复杂推理）推动能力边界。",
+      "summary_en": "April 2026 AI Agent landscape shows six key trends: multi-agent orchestration (microservices moment), protocol standardization (MCP/A2A), enterprise scaling and production readiness, governance and security, FinOps for cost optimization, and human-in-the-loop architectures. Leading frameworks include LangGraph, CrewAI, OpenAI Agents SDK, Claude Agent SDK, and Microsoft Agent Framework. Market projected to grow from $7.8B to $52B, with 40% of enterprise applications embedding AI agents by end of 2026. New models like MiniMax M2.7, Qwen3.6-Plus, and Claude Opus 4.6 are expanding capabilities.",
+      "one_liner": "多智能体编排与生产就绪成为2026年AI Agent框架的核心趋势，市场即将爆发式增长",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-04-13T23:46:43.679772"
+  "last_updated": "2026-04-14T00:00:00.000Z"
 }

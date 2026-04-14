@@ -82,7 +82,7 @@ Read Original
 
 ---
 
-### [AI时代的性能分析：GPU Profiling初探](https://mp.weixin.qq.com/s?__biz=Mzg3NzkxMjA1MA==&mid=2247485458&idx=1&sn=e89083065a47e152defab580b4077026&chksm=ceae35c59470314123b01f4e7e2ce8201836f31e49700cb47e7f258803ee4cade16e7ad3cb2a&mpshare=1&scene=1&srcid=0319EMzL3T65dFgSivIhMGYi&sharer_shareinfo=9ff43dcbc2c5751665d34ede932c8e44&sharer_shareinfo_first=9ff43dcbc2c5751665d34ede932c8e44)
+### [AI时代的性能分析：GPU Profiling初探](/entry/6qxs3b18) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 AI时代的性能分析：GPU Profiling初探

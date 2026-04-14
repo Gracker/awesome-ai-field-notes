@@ -177,7 +177,7 @@ AI 依托真实的硬件、能源和经济体系运行。它可以将原材料�
 
 ---
 
-### [AIGC图像生成的原理综述与落地畅想](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650503986&idx=1&sn=f92c8986e13e30184cb43e6f76f985d2&chksm=8397b32ab4e03a3c9f6e03e8b03aed5db17f4834d0435c6ac40311ff8d882531682211c5ad3d&mpshare=1&scene=1&srcid=0322KCccdeScAxL5DF5t0BvM&sharer_sharetime=1679479393566&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [AIGC图像生成的原理综述与落地畅想](/entry/onqk9vx5) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 基于Stable Diffusion扩散模型的综述
