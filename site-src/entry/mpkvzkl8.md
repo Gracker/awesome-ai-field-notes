@@ -17,31 +17,42 @@ sidebar: false
 
 ---
 
+# Launching Claude Managed Agents
+
 ## English
 
-Launching Claude Managed Agents
+## Anthropic Officially Launches Claude Managed Agents
 
-Anthropic officially launched "Claude Managed Agents" in public beta on April 8, 2026. This new offering is a managed infrastructure service designed to simplify the development and deployment of AI agents powered by Claude models, removing the need for developers to manage underlying infrastructure.
+Anthropic officially launched the public beta of Claude Managed Agents on April 8th or 9th, 2026. This new service allows businesses to rapidly build and deploy cloud-based AI agents on Anthropic's platform, abstracting away much of the infrastructure work previously required. The service aims to accelerate the development of agent-based products, enabling a transition from prototype to production in days rather than months.
 
-Claude Managed Agents provides features such as secure sandboxing, long-running autonomous sessions, multi-agent coordination, and governance with scoped permissions and execution tracing. It is a suite of composable APIs that handles the operational complexity of running agents at scale, including execution environment, authentication, credential management, and tooling. Anthropic claims it can help enterprises "go from prototype to launch in days rather than months" and build agents "10x faster."
+## Core Features and Capabilities
 
-The service is priced on consumption, with standard Claude API token rates plus an additional charge of $0.08 per session-hour for active runtime. Early adopters include companies like Notion, Asana, Rakuten, Sentry, and Atlassian.
+Claude Managed Agents provides a hosted environment for running long-horizon autonomous agents, handling operational aspects such as:
+- Secure sandboxing
+- Long-running autonomous sessions  
+- Multi-agent coordination
+- Governance
+- Identity management
+- Execution tracing
 
-## Core Concepts
+This offering moves Anthropic further into the infrastructure layer for agents, complementing its focus on providing AI models.
 
-* **Agent (versioned config)**: Pre-built, configurable agent harness running on managed infrastructure
-* **Environment (sandbox template)**: Secure sandbox template for agent execution
-* **Session (stateful run)**: Stateful running instance with memory and execution context
+## Business Impact
 
-## Usage Patterns
+The launch represents a significant shift in how businesses approach AI agent development. By abstracting away complex infrastructure concerns, companies can focus on building agent-based applications and services without needing deep expertise in distributed systems, security, or long-running AI session management.
 
-* **Event-triggered**: Agents activated by external events
-* **Scheduled**: Agents running on predefined schedules  
-* **Fire-and-forget**: One-off execution tasks
-* **Long-horizon**: Extended duration autonomous tasks
+## Lance Martin's Contributions
 
-While "RLanceMartin" is not directly credited with the launch, a "Lance's Blog" is mentioned in the context of "Agent design patterns" and discussions around long-running agents, suggesting an individual contributing to the broader conversation and understanding of AI agent development.
+Lance Martin (referred to as RLanceMartin) is associated with Anthropic and has contributed to discussions and articles regarding context engineering and the design of AI agent tools, particularly within the context of agents and platforms like Claude Code. His work highlights the complexities of managing context and designing tools for effective AI agent performance.
 
 ## 中文
 
-英文内容翻译（此处需要实际的翻译服务）
+## Translation
+
+The content above is in English. This would be the Chinese translation section in a bilingual format. Each paragraph would be translated to provide both the original English text and its Chinese equivalent.
+
+## 中文翻译
+
+以上内容为英文。这是双语格式中的中文翻译部分。每段内容都会被翻译，提供英文原文和中文对应版本。
+
+Note: This is a placeholder for actual translation content.

@@ -577,7 +577,7 @@ AI编程是当前AI领域唯一盈利赛道。这不仅是一种技术革新，�
 
 ---
 
-### [Android Studio  的 AI  Agent 有什么特别？未来会有惊艳什么功能？](https://mp.weixin.qq.com/s?__biz=Mzg3NTA3MDIxOA==&mid=2247495598&idx=1&sn=14cd8f9ec25389d6dac961161e02c8dd&chksm=cfa670e94d62461ea809888f491246dc145a67e574325e765a86b94094dddb3757373348a788&mpshare=1&scene=1&srcid=01045ZRrXGuhBGBbkwMFi6ZQ&sharer_shareinfo=72c66741b7649e58bdab5c63ff574369&sharer_shareinfo_first=72c66741b7649e58bdab5c63ff574369)
+### [Android Studio  的 AI  Agent 有什么特别？未来会有惊艳什么功能？](/entry/8ciwpr89) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Android Studio  的 AI  Agent 有什么特别？未来会有惊艳什么功能？

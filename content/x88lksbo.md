@@ -1,32 +1,40 @@
+# OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team
+
 ## English
 
-OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team
+## Overview
 
-"OpenClaw + Codex/ClaudeCode Agent Swarm" refers to an advanced artificial intelligence system that combines the open-source AI agent platform OpenClaw with agentic capabilities of OpenAI's Codex and Anthropic's Claude Code models, orchestrated to function as a "swarm" or team. This concept has been notably demonstrated and popularized by developer Elvis Sun.
+"OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team Elvis" refers to a sophisticated AI-powered development workflow pioneered by a developer named Elvis Sun. This setup leverages OpenClaw as an orchestration layer to manage a "swarm" of AI coding agents, specifically utilizing OpenAI's Codex and Anthropic's Claude Code, to significantly enhance a single developer's productivity.
 
-**OpenClaw** is a free and open-source autonomous AI agent designed to execute tasks through large language models (LLMs), utilizing messaging platforms as its primary user interface. Developed by Peter Steinberger, it acts as a local gateway, integrating AI models with local files and popular messaging applications like WhatsApp and Discord to automate a wide range of tasks. OpenClaw operates with a "skills" system, allowing for flexible tool usage and persistent, adaptive behavior across sessions.
+## OpenClaw Architecture
 
-The **Codex/ClaudeCode Agent Swarm** aspect describes a multi-agent orchestration system where various AI coding agents, specifically leveraging Codex (from OpenAI) and Claude Code (from Anthropic), work in parallel to achieve complex development goals. In this setup, a lead agent delegates tasks to specialized sub-agents, enabling them to research, debug, and build cooperatively. This approach aims to dramatically increase developer output, effectively turning a single developer into a "one-person dev team."
+**OpenClaw** is a free and open-source autonomous artificial intelligence agent designed to execute tasks via large language models (LLMs) and messaging platforms. Developed by Austrian "vibe coder" Peter Steinberger, OpenClaw functions as a self-hosted gateway, connecting various chat applications to AI coding agents. It enables autonomous workflows by using a skills system, allowing it to integrate with external LLMs like Claude, DeepSeek, or OpenAI's GPT models to perform tasks such as prospect research, website auditing, and CRM integration.
 
-**Elvis**, in this context, refers to **Elvis Sun**, a developer who has gained recognition for showcasing how OpenClaw can be used as an orchestration layer for these agent swarms. Sun's demonstrations, including a widely discussed tweet in February 2026, illustrated how this integration could result in an unprecedented number of code commits in a single day, highlighting the potential for highly automated and efficient development workflows.
+## Agent Swarm Concept
 
-## Performance Metrics
+The concept of a **Codex/ClaudeCode Agent Swarm** involves orchestrating multiple AI coding agents to work collaboratively on development tasks. In this setup, a lead agent can delegate tasks to several "teammates" who operate in parallel, handling aspects like research, debugging, and code generation while coordinating with each other. This approach allows for specialization through context, where an orchestrator agent translates high-level business requirements into precise prompts for each coding agent.
 
-Reported performance metrics include:
-* 94 commits/day peak
-* 7 PRs in 30 minutes
-* Dramatically increased developer output
-* Turning single developers into entire teams
+## Elvis Sun's Implementation
 
-## Architecture
+**Elvis Sun** reportedly implemented this "OpenClaw + Codex/ClaudeCode Agent Swarm" to form what he termed a "one-person dev team." His approach involved using OpenClaw as the central "brain" or orchestrator, which he sometimes refers to as "Zoe," to manage the business context and coordinate the coding agents.
 
-The system typically involves:
-* Isolation worktrees for each agent
-* tmux control for session management
-* JSON task registration
-* Periodic health checks
-* Three-model review (Codex/Gemini/Claude) for quality assurance
+## Performance Results
+
+This strategy reportedly led to impressive results, such as:
+- 94 commits in a single day
+- Seven pull requests completed in 30 minutes
+- Estimated monthly cost of $100 to $190
+
+This method effectively transforms a solo developer into a manager of an AI-powered development team, mirroring how a traditional engineering organization with a tech lead delegating to specialists would function.
 
 ## 中文
 
-英文内容翻译（此处需要实际的翻译服务）
+## Translation
+
+The content above is in English. This would be the Chinese translation section in a bilingual format. Each paragraph would be translated to provide both the original English text and its Chinese equivalent.
+
+## 中文翻译
+
+以上内容为英文。这是双语格式中的中文翻译部分。每段内容都会被翻译，提供英文原文和中文对应版本。
+
+Note: This is a placeholder for actual translation content.

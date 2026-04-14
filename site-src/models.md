@@ -97,7 +97,7 @@ Read Original
 
 ---
 
-### [Android×鸿蒙×AI 技术刊#第10期——端侧AI · Kuikly性能 · Flow避坑 · 脱壳 · Dex解析...](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650854884&idx=1&sn=15514c8bcbef7f22626e86dfdbe5e171&chksm=81ca60264bd804ba5969ea8d4381f8200d25de952161dcc49dd0e939113941b868d2892e04ba&mpshare=1&scene=1&srcid=0609mO9zQWaaOwk5Y7aIw64m&sharer_shareinfo=6a6b9402cd8423734a8e8535d1ddebf5&sharer_shareinfo_first=6a6b9402cd8423734a8e8535d1ddebf5)
+### [Android×鸿蒙×AI 技术刊#第10期——端侧AI · Kuikly性能 · Flow避坑 · 脱壳 · Dex解析...](/entry/8uey92b2) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Android×鸿蒙×AI 技术刊#第10期——端侧AI · Kuikly性能 · Flow避坑 · 脱壳 · Dex解析...
@@ -111,7 +111,7 @@ Google全新 MLKit端上生成式API 现已开放！只需几行代码，就能�
 
 ---
 
-### [Android×鸿蒙×AI 技术刊#第13期——APK极速瘦身策略、MVI架构实践与AI工具链新动态](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650855083&idx=1&sn=6258dddad6e4c5ea10b6648c4e6ce428&chksm=812ae789ee60865948e8658c3605f896fc764e6c0deaa68eac64d340fff76d09b827127f8776&mpshare=1&scene=1&srcid=0630gpAnMcnEGXxDHb8Jw4Ny&sharer_shareinfo=02a7898975efb7a29bfd6459e0f202ca&sharer_shareinfo_first=02a7898975efb7a29bfd6459e0f202ca)
+### [Android×鸿蒙×AI 技术刊#第13期——APK极速瘦身策略、MVI架构实践与AI工具链新动态](/entry/vjxgeej5) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Android×鸿蒙×AI 技术刊#第13期——APK极速瘦身策略、MVI架构实践与AI工具链新动态

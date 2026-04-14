@@ -526,7 +526,7 @@ Read Original
 
 ---
 
-### [Agent Skills 终极指南：入门、精通、预测](https://mp.weixin.qq.com/s/jUylk813LYbKw0sLiIttTQ?scene=1&click_id=2)
+### [Agent Skills 终极指南：入门、精通、预测](/entry/e7p65p2m) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Agent Skills 终极指南：入门、精通、预测

@@ -344,7 +344,7 @@ Read Original
 
 ---
 
-### [AI辅助下的性能逆向分析](https://zhuanlan.zhihu.com/p/1995678473558176184?share_code=3ev51WrgxnxE&utm_psn=1998177044245271161)
+### [AI辅助下的性能逆向分析](/entry/pj7y4se0) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 我在知乎发现了一篇值得思考的文章，一起来看看吧。
@@ -358,7 +358,7 @@ Read Original
 
 ---
 
-### [Airbnb’s Page Performance Score on Android | by Luping Lin | The Airbnb Tech Blog | Dec, 2021 | Medium](https://medium.com/airbnb-engineering/airbnbs-page-performance-score-on-android-f9fd5e733e)
+### [Airbnb’s Page Performance Score on Android | by Luping Lin | The Airbnb Tech Blog | Dec, 2021 | Medium](/entry/r5jbtfwg) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Airbnb’s Page Performance Score on Android | by Luping Lin | The Airbnb Tech Blog | Dec, 2021 | Medium
@@ -371,7 +371,7 @@ Read Original
 
 ---
 
-### [American Idle — Remains of the Day](https://www.eugenewei.com/blog/2021/2/15/american-idle)
+### [American Idle — Remains of the Day](/entry/e9lw9q80) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 American Idle — Remains of the Day
@@ -382,7 +382,7 @@ All the points I wanted to cover seem hyperlinked in a sprawling loose tangle. T
 
 ---
 
-### [Android 车载应用开发与分析 （4）- 编写基于AIDL 的 SDK - 掘金](https://juejin.cn/post/7083140299916050468)
+### [Android 车载应用开发与分析 （4）- 编写基于AIDL 的 SDK - 掘金](/entry/9uwhf8gu) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Android 车载应用开发与分析 （4）- 编写基于AIDL 的 SDK - 掘金
@@ -398,7 +398,7 @@ Human Machine Interface，显示UI信息，进行人机交互。
 
 ---
 
-### [Android11+ AIDL：专为提升应用性能而生！](https://mp.weixin.qq.com/s?__biz=MzU2NTI3NDI5MQ==&mid=2247485515&idx=1&sn=518a69ed57f50e2a6675a8bc0410df2d&chksm=fcbf7b97cbc8f2810e7cbb013767378563937226c743baca48d671b434fc55d195ea9948b28a&mpshare=1&scene=1&srcid=1227pxgVglGnado7UkDIzguc&sharer_shareinfo=da081d1cd009b4bc161160a43b2c28e9&sharer_shareinfo_first=b45e7a2ede5c265c0ade4a6ccf27bd06)
+### [Android11+ AIDL：专为提升应用性能而生！](/entry/x4e5l5ie) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Android11+ AIDL：专为提升应用性能而生！
@@ -412,7 +412,7 @@ Read Original
 
 ---
 
-### [Android×AI 技术刊#第11期——都是Android技术文](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650855010&idx=1&sn=653a5ee852cc1b087fe55fe5357aeec3&chksm=81fdcdc4754edaaccc61e4aff668ce33eff6390d0fad8ed0cbc85a23abc7557345aef8bf284a&mpshare=1&scene=1&srcid=0617VAUMUcL9legKvk0jq3zI&sharer_shareinfo=6f00f738a6a0a7d20b0d6bfc8373e244&sharer_shareinfo_first=6f00f738a6a0a7d20b0d6bfc8373e244)
+### [Android×AI 技术刊#第11期——都是Android技术文](/entry/pt2nps34) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Android×AI 技术刊#第11期——都是Android技术文
@@ -430,7 +430,7 @@ Flutter 复现 iOS 26 **&quot;液态玻璃&quot;效果** ，解析着色器与�
 
 ---
 
-### [Android×鸿蒙×AI 技术刊#第12期：Android 16新特性、Compose与Flutter对比、ART机制揭秘](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650855054&idx=1&sn=f94e827e2edbcf601307e0af1a02daf8&chksm=81487e4a5b6eec8ab351548a8e639839480b7a15077f5d7d3bc7bd3ba2038fef12baf2f426b7&mpshare=1&scene=1&srcid=0623wmsG2IWAIhURcGT5AL7j&sharer_shareinfo=d36fb92e8ce207ed7f0596daf77fc0d8&sharer_shareinfo_first=d36fb92e8ce207ed7f0596daf77fc0d8)
+### [Android×鸿蒙×AI 技术刊#第12期：Android 16新特性、Compose与Flutter对比、ART机制揭秘](/entry/2lrsppi0) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Android×鸿蒙×AI 技术刊#第12期：Android 16新特性、Compose与Flutter对比、ART机制揭秘
@@ -448,7 +448,7 @@ Read Original
 
 ---
 
-### [Android×鸿蒙×AI 技术刊#第14期——Compose动画深度解析、KMP多端实践落地、Android 16适配指南](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650855096&idx=1&sn=688c59c8edea33ba98cb03af0f61e51f&chksm=81face25ece90eee91041797c0bdf9f2adaceb9ac3f2c77b1f812fd96eecb89e5a9a733a27ad&mpshare=1&scene=1&srcid=070719TlWDjdxhX9yG4Y2aSq&sharer_shareinfo=3d4eb03316b182ebd8324807da5dc1bb&sharer_shareinfo_first=3d4eb03316b182ebd8324807da5dc1bb)
+### [Android×鸿蒙×AI 技术刊#第14期——Compose动画深度解析、KMP多端实践落地、Android 16适配指南](/entry/jzvwn07d) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Android×鸿蒙×AI 技术刊#第14期——Compose动画深度解析、KMP多端实践落地、Android 16适配指南
@@ -466,7 +466,7 @@ Flutter 鸿蒙热...
 
 ---
 
-### [Android中AIDL和HIDL的区别，Google为什么更推荐AIDL？](https://mp.weixin.qq.com/s?__biz=Mzg5OTMwOTQ3MQ==&mid=2247484134&idx=1&sn=6db5ce7eaabef40dc5404faa160c1506&chksm=c19544c4be5953b5ca97df8e15d4c129f8dbf4b7784d166286fba2707d5a67c36771dc84799e&mpshare=1&scene=1&srcid=0204XY7LY08hRUEx9L00mj8e&sharer_shareinfo=06b8d9404f5eab0b11011016f8206341&sharer_shareinfo_first=06b8d9404f5eab0b11011016f8206341)
+### [Android中AIDL和HIDL的区别，Google为什么更推荐AIDL？](/entry/2g8km7k7) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Android中AIDL和HIDL的区别，Google为什么更推荐AIDL？
@@ -480,7 +480,7 @@ Read Original
 
 ---
 
-### [Android滚动组件图片加载优化与滚动速度的精确监听 | Paincker](https://www.paincker.com/android-scroll-velocity/#/)
+### [Android滚动组件图片加载优化与滚动速度的精确监听 | Paincker](/entry/z10ujypt) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Android滚动组件图片加载优化与滚动速度的精确监听 | Paincker
