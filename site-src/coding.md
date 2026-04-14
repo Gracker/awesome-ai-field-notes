@@ -668,7 +668,7 @@ DHH 分享对 AI Agent 编程的看法转变。从不喜欢编辑器自动补全
 
 ---
 
-### [SmartPerfetto AI Agent 的 Harness Engineering 实战分享](https://mp.weixin.qq.com/s?__biz=MzIwNTQxMjM5MA==&mid=2247487518&idx=1&sn=ec49eac761ffd13acc02cd5e6cea7b94)
+### [SmartPerfetto AI Agent 的 Harness Engineering 实战分享](/entry/2xhpnq6s) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 SmartPerfetto 的 Harness Engineering 实战记录。在 Perfetto UI 加 AI 分析面板，Claude Agent + MCP 调用 trace_processor 执行 SQL 自动分析 Android trace。演进到 20 个 MCP 工具 + 158 个 YAML Skill + 三层验证。含滑动性能分析完整 session log。计划开源。
@@ -831,7 +831,7 @@ SmartPerfetto 的 Harness Engineering 实战记录。在 Perfetto UI 加 AI 分�
 
 ---
 
-### [抄 Apple Intelligence 作业的思路 文章从 LLM 的近况切入，探讨 Apple Intelligen - 掘金](https://juejin.cn/post/7407385581079396389)
+### [抄 Apple Intelligence 作业的思路 文章从 LLM 的近况切入，探讨 Apple Intelligen - 掘金](/entry/1QP6Q8RY) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 抄 Apple Intelligence 作业的思路 文章从 LLM 的近况切入，探讨 Apple Intelligen - 掘金
@@ -880,7 +880,7 @@ Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个�
 
 ---
 
-### [GitHub - getActivity/AiIndex: ChatGPT](https://github.com/getActivity/AiIndex) ⭐420
+### [GitHub - getActivity/AiIndex: ChatGPT](/entry/1ivp4s60) ⭐420 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # GitHub - getActivity/AiIndex: ChatGPT ChatGPT. Contribute to getActivity/AiIndex development by creating an account on GitHub. * OpenAI 开发的 ChatGPT 在全球瞬间爆火，上线仅 5 天，ChatGPT 用户就超过 100 万，而在推出不到 3 个月，它的月活用户就突破了 1 亿，成为人类历史上最快用户破亿的软件产品；这使我对 ChatGPT 产生了非常浓厚的兴趣，当我第一次尝试使用它时，我被它的出色表现惊艳到了，我没想到它能真正理解我的话，并且能够将...

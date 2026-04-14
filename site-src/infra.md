@@ -208,7 +208,7 @@ Read Original
 
 ---
 
-### [ChatGPT 算法原理](https://zhuanlan.zhihu.com/p/605835778?utm_medium=social&utm_oi=27871238160384&utm_psn=1608822750822518785&utm_source=ZHShareTargetIDMore)
+### [ChatGPT 算法原理](/entry/02qyib4a) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 每一代GPT模型的参数量都爆炸式增长，堪称“越大越好”。2019年2月发布的GPT-2参数量为15亿，而2020年5月的GPT-3，参数量达到了1750亿。 还是有很多读者对于ChatGPT充满期待（幻想？梦想），今天给大家分享技术层… 每一代GPT模型的参数量都爆炸式增长，堪称&quot;越大越好&quot;。2019年2月发布的GPT-2参数量为15亿，而2020年5月的GPT-3，参数量达到了1750亿。 还是有很多读者对于ChatGPT充满期待（幻想？梦想），今天给大家分享技术层面的拆解，读完之后是否是会理性一点呢？enjoy～ 文末推荐几篇直接采访ChatGPT创始人视角的文章，共赏enjoy～ 去年1...
