@@ -254,7 +254,7 @@ Android ARM平台上Running耗时分析方法论与工具链的完整报告。�
 
 ---
 
-### [Android Native 内存泄漏深度调研报告](#)
+### [Android Native 内存泄漏深度调研报告](/entry/fcaeud36) 📄
 @Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 深入探讨Android Native内存泄漏问题，涵盖基本原理、检测与分析方法、常用工具（Valgrind、AddressSanitizer、heapprofd等）及库。结合实际案例分析Android内存管理机制和Native层内存泄漏成因，为开发者提供全面的Native内存泄漏解决方案。

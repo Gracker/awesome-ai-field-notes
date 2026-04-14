@@ -569,7 +569,7 @@ Read Original
 
 ---
 
-### [Claude Code 之父自爆：Claude Code 的终极用法](https://mp.weixin.qq.com/s/a-KpOYR42DPX0Lr075KFmg?click_id=1)
+### [Claude Code 之父自爆：Claude Code 的终极用法](/entry/be2lx9fi) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # Claude Code 之父自爆：Claude Code 的终极用法 Boris Cherny 作为 Claude Code 之父，他写了一篇非常详细的推文，分享了自己如何高效使用这款工具！ ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FE6YcKUBEibQGp83WuMkfiaIBCzfmGFRO32J4fAEibvBtDl23E7UK9rT53GoF4ImfMuPU6PCzBFOzKuzbdKRica55qw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D0) 你可能...
@@ -578,7 +578,7 @@ Read Original
 
 ---
 
-### [Claude悄悄更新了Skills生成器，这绝对是一次史诗级升级。](https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680550&idx=1&sn=61057f16c042c8ffda4e6e2ebee0def6&chksm=f14c1d732a43c0222af710d1a6ec9e71a481c7c9dcf50cd3e36ad48bc7fa4cd1481c36808a50&mpshare=1&scene=1&srcid=03127RswCJFOPrybSAO3nRQj&sharer_shareinfo=60c22bf2c14cb3a0349503a53069c3dc&sharer_shareinfo_first=60c22bf2c14cb3a0349503a53069c3dc)
+### [Claude悄悄更新了Skills生成器，这绝对是一次史诗级升级。](/entry/p69exx48) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # Claude悄悄更新了Skills生成器，这绝对是一次史诗级升级。 上周直播的时候，发现Anthropic的skills仓库居然有更新了。 点进去一看，然后居然发现了一个超级刚需的Skills迎来了更新。 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2F2jjfQoZLoqUhLrqoibibM2xm1gDXVykOQuKxswXfPicIeoBSnA6zmSMhMuRBMnBGfGjakAPP7yDGGgT55icribA3NiabtBvHicWYjkey2ibRJjeQngA%2F640%3Fwx_fmt%3Dpng%26f...
@@ -587,7 +587,7 @@ Read Original
 
 ---
 
-### [Context Engineering for AI Agents: Lessons from Building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus?s=09)
+### [Context Engineering for AI Agents: Lessons from Building Manus](/entry/zybyi5t5) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # Context Engineering for AI Agents: Lessons from Building Manus This post shares the local optima Manus arrived at through our own &quot;SGD&quot;. If you&#x27;re building your own AI agent, we hope these principles help you converge faster. 2025/7/18 Yichao &#x27;Peak&#x27; Ji At the very beginning of the Manus project, m...
@@ -596,7 +596,7 @@ Read Original
 
 ---
 
-### [Cursor 深度评测：革命性提效工具还是过誉的玩具？](https://mp.weixin.qq.com/s?__biz=Mzg3OTYwMjcxMA==&mid=2247488520&idx=1&sn=ef118e85c062be821dd515269defd092&chksm=ce34fc0fb68ad4ab32a7185d689b14e5430d8097f0a65d22ecd922725c6e223548bcfd6e9196&mpshare=1&scene=1&srcid=1231FaULA3uHIqVWu3DOj1fO&sharer_shareinfo=aff83f5efe185cea5fc050be1b6100c6&sharer_shareinfo_first=aff83f5efe185cea5fc050be1b6100c6)
+### [Cursor 深度评测：革命性提效工具还是过誉的玩具？](/entry/wyqaalah) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # Cursor 深度评测：革命性提效工具还是过誉的玩具？ 客观地说，我认为目前还不必过度焦虑，Cursor 很强，是非常出色辅助编码工具，但还无法完全替代人类。 最近 Cursor 很火，火到我身边的程序员们已经不聊河北彩花，LOL，黑猴等，而是在各种场合讨论这个 Cursor 的辅助编程能力。各类内容平台也在以惊人的速度，迭代出了许多相关教学视频： ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2F3xDuJ3eiciblmg3WmibvWzug1TAAn6P3C1ediaUmlyQMqbDwDIF2o5SbliasElZZde6...
