@@ -371,7 +371,7 @@ Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可�
 
 ---
 
-### [Anthropic 六层技术栈驱动 Claude Code 的统治地位](#)
+### [Anthropic 六层技术栈驱动 Claude Code 的统治地位](/entry/7nmmn49m) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 深度解析Claude Code背后的六层架构：基座模型、开放协议(MCP)、共享运行时、能力系统和扩展框架。这种垂直整合（Anthropic控制从模型训练到终端工具的每一层）创造了竞争对手难以复制的复合优势。Claude Code从内部原型到最受欢迎的AI编程工具仅用不到一年，2025年单年发布176次更新，每天产生135,000个GitHub commits。理解这六个组件的架构关系是理解Claude Code领先优势的关键。

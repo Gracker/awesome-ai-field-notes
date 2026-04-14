@@ -49,7 +49,7 @@ Karpathy 分享他用 LLM 构建个人知识库的工作流：raw/ 目录存放�
 
 ---
 
-### [MeKi —— 用 ROM 扩展端侧 LLM，而不是继续硬堆计算](#)
+### [MeKi —— 用 ROM 扩展端侧 LLM，而不是继续硬堆计算](/entry/3cd7qdt3) 📄
 @允许动态投影、归一化、非线性映射这些复杂结构存在，以保证模型能学到足够好的知识表达；部署前，再把这些东西折叠到静态查表结构里。于是： · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 **论文**：MeKi: Memory-based Expert Knowledge Injection for Efficient LLM Scaling  

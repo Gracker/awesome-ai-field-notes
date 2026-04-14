@@ -422,7 +422,7 @@ Agentic Reasoning 论文的核心价值在于&quot;多智能体协作&quot;和&q
 
 ---
 
-### [From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review](#)
+### [From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review](/entry/zkmmaa8x) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 **阅读日期**: 2026-03-16
@@ -454,7 +454,7 @@ Agentic Reasoning 论文的核心价值在于&quot;多智能体协作&quot;和&q
 
 ---
 
-### [面向移动设备厂商团队的 Agent 体系与 PerformanceAgent 设计深度研究报告](#)
+### [面向移动设备厂商团队的 Agent 体系与 PerformanceAgent 设计深度研究报告](/entry/110qhnsv) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 面向移动设备厂商研发团队的Agent体系深度研究报告。系统梳理Agent定义谱系、架构范式与多智能体协作机制，给出可落地的PerformanceAgent（性能智能体）参考设计。重点对齐Claude Agent SDK的官方能力模型，涵盖工具调用、子智能体、Skills、Hooks、上下文压缩、权限沙箱、托管形态等。从移动厂商视角出发，设计性能优化专属Agent架构。
