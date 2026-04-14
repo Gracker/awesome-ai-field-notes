@@ -217,7 +217,7 @@ Read Original
 
 ---
 
-### [ChatGPT背后的经济账](https://mp.weixin.qq.com/s?__biz=MzU5ODY2MTk3Nw==&mid=2247490676&idx=1&sn=f3f98a7b3b0670e4274dd681dcb44430&chksm=fe419242c9361b5425dd7205f30ceba365dbb05ee0a6f6d8a676357b1295fc341c7371a33860&mpshare=1&scene=1&srcid=0207AYBBvxIgd1vR12H4ipEz&sharer_sharetime=1675754807931&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [ChatGPT背后的经济账](/entry/u2o9qdqv) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 ChatGPT能否取代Google、百度这样的传统搜索引擎？为什么中国不能很快做出ChatGPT？当前，对这些问题的探讨大多囿于大型语言模型（LLM）的技术可行性，忽略或者非常粗糙地估计了实现这些目标背后的经济成本，从而造成对LLM的开发和应用偏离实际的误判。 本文作者从经济学切入，详细推导了类ChatGPT模型搜索的成本、训练GPT-3以及绘制LLM成本轨迹的通用框架，为探讨LLM成本结构和其未来发展提供了可贵的参考视角。 * LLM驱动的搜索已经在经济上可行 ：粗略估计，在现有搜索成本结构的基础上，高性能LLM驱动搜索的成本约占当下预估广告收入/查询的15%。 * 但经济可行并不意味着经济...
@@ -226,7 +226,7 @@ ChatGPT能否取代Google、百度这样的传统搜索引擎？为什么中国�
 
 ---
 
-### [ChatGPT背后的语言模型简史](https://www.bmpi.dev/dev/deep-learning/nlp-language-models/)
+### [ChatGPT背后的语言模型简史](/entry/c6i3ddwj) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 ChatGPT的火爆出圈，让大家对NLP语言模型的发展历程产生了浓厚的兴趣。本文将从深度学习在NLP领域的发展历程，到大语言模型的发展历程，再到大语言模型的未来展望，带你一起了解NLP语言模型的发展历史。 本文处于初稿状态，可能存在很多错误，如果你有不同的看法，欢迎不吝赐教，先行感谢！ ChatGPT的火爆出圈，让大家对自然语言处理（Natural Language Processing）语言模型的发展历程产生了浓厚的兴趣。本文将从深度学习在NLP领域的发展历程，到大语言模型的发展历程，再到大语言模型的未来展望，带你一起了解NLP语言模型的发展历史。 想必很多人对ChatGPT涌现出的多领域能...

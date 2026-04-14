@@ -279,7 +279,7 @@ Read Original
 
 ---
 
-### [ChatGPT的工作原理，这篇文章说清楚了](https://mp.weixin.qq.com/s?__biz=Mzg5Mjc3MjIyMA==&mid=2247559664&idx=1&sn=f5278b02015b4eb6b01787c035ca051c&chksm=c03aa3e3f74d2af5ad0a0564919d1d4b6b3516731f82c1e5084d8fc3282e1ae87a6b937d162e&mpshare=1&scene=1&srcid=0219oul5fQOneTCeX4NZ0vLe&sharer_sharetime=1676856831108&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [ChatGPT的工作原理，这篇文章说清楚了](/entry/z8jjvpnw) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # ChatGPT的工作原理，这篇文章说清楚了 ChatGPT 能够自动生成一些读起来表面上甚至像人写的文字的东西，这非常了不起，而且出乎意料。但它是如何做到的？为什么它能发挥作用？我在这里的目的是大致介绍一下 ChatGPT 内部的情况，然后探讨一下为什么它能很好地生成我们认为是有意义的文本。 我首先要说明一下，我将把重点放在正在发生的事情的大的方向上，虽然我会提到一些工程细节，但我不会深入研究它们。（我所说的实质内容也同样适用于目前其他的 &quot;大型语言模型&quot; LLM 和 ChatGPT）。 首先要解释的是，ChatGPT 从根本上说总是试图对它目前得到的任何文本进行 &quot;合理的延续&quot;，这里的 ...

@@ -508,7 +508,7 @@ Read Original
 
 ---
 
-### [Avoid Mini-frameworks - laike9m&#x27;s blog](https://laike9m.com/blog/avoid-mini-frameworks,171/)
+### [Avoid Mini-frameworks - laike9m&#x27;s blog](/entry/se8oa9cc) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Avoid Mini-frameworks - laike9m&#x27;s blog
@@ -524,7 +524,7 @@ I work in Google Ads infrastructure in the past four years. Over time, I&#x27;ve
 
 ---
 
-### [ChatGPT内核：InstructGPT，基于反馈指令的PPO强化学习](https://zhuanlan.zhihu.com/p/589747432?utm_medium=social&utm_oi=27871238160384&utm_psn=1584539471382519808&utm_source=wechat_session)
+### [ChatGPT内核：InstructGPT，基于反馈指令的PPO强化学习](/entry/b6bs8e91) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # ChatGPT内核：InstructGPT，基于反馈指令的PPO强化学习 聊天机器人 ChatGPT 在诱导下写出「毁灭人类计划书」，并给出... 5.1 对准性研究（Alignment Research）的启发 &gt; 聊天机器人 ChatGPT 在诱导下写出「毁灭人类计划书」，并给出代码，AI 发展有哪些问题需关注？ 泻药。开发GPT也有两年了，看到这样的新闻确实是欣慰而震撼的。GPT Family刚提出的时候并没有受到很大的关注度，因此GPT-1也是不温不火。到GPT-2的时候auto-regressive paradigm终于开始有一群大佬研究，到现在也在学术界被广泛研究，很多大模型都...
