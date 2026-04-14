@@ -1,3 +1,10 @@
+# Anthropic 官方分享：为 AI 智能体打造高效工具——让 AI 智能体来帮忙
+
+> 公众号: 宝玉AI
+> 发布时间: 1970-01-01 08:33:45
+> 原文链接: https://mp.weixin.qq.com/s/Oe3J_phfjwSVBqI46yIVCA?clicktag=bar_praise&scene=294&clickpos=0&from_safari=0
+
+---
 来自 Anthropic 工程团队
 
 ![Image](images/img_001.png)
@@ -14,6 +21,7 @@
 
 -   • 与像 Claude Code 这样的智能体协作，自动提升你的工具性能
 
+
 最后，我们会总结一路走来发现的几条核心原则，帮你写出高质量的工具：
 
 -   • 选择哪些工具该做（哪些不该做）
@@ -25,6 +33,7 @@
 -   • 优化工具的响应，以节省 token
 
 -   • 通过提示词工程优化工具的描述和规格
+
 
 ![这张图片描绘了一位工程师如何使用 Claude Code 来评估智能体工具的效能。](https://mmbiz.qpic.cn/sz_mmbiz_jpg/Sib7IezOlBcvSHsViaibvPiaVTqPSF6bP9mTmbLCbpkoQBZTRVicEbKrOUdMXBIybib8HYzNTFhYDH7wtY01kp9tSpSw/640?wx_fmt=other&from=appmsg&watermark=1#imgIndex=1 "null")
 
@@ -84,6 +93,7 @@
 
 -   • 客户 Sarah Chen 刚刚提交了取消服务的请求。为她准备一个挽留方案。需要确定：(1) 他们离开的原因，(2) 哪种挽留方案最有吸引力，以及 (3) 在提出方案前，我们需要注意哪些风险因素。
 
+
 而这些则是一些比较弱的任务：
 
 -   • 下周和 jane@acme.corp 安排一个会议。
@@ -91,6 +101,7 @@
 -   • 在支付日志中搜索 `purchase_complete` 和 `customer_id=9182`。
 
 -   • 通过客户 ID 45892 查找取消服务的请求。
+
 
 每个评估提示词都应该配有一个可验证的响应或结果。你的验证器可以很简单，比如精确比较标准答案和模型生成的响应是否完全一致；也可以很高级，比如让 Claude 来评判响应的质量。要避免使用过于严格的验证器，它可能会因为一些无关紧要的差异（如格式、标点符号或有效的替代说法）而拒绝正确的响应。
 
@@ -152,6 +163,7 @@
 -   • 不要实现一个 `read_logs` 工具，可以考虑实现一个 `search_logs` 工具，它只返回相关的日志行和一些上下文。
 
 -   • 不要分别实现 `get_customer_by_id`、`list_transactions` 和 `list_notes` 这三个工具，可以实现一个 `get_customer_context` 工具，它能一次性汇编客户所有近期和相关的信息。
+
 
 确保你构建的每个工具都有一个清晰、独特的目标。工具应该让智能体能够像人类一样，在拥有相同底层资源的情况下，对任务进行细分和解决，同时减少那些本会被中间输出消耗掉的上下文。
 

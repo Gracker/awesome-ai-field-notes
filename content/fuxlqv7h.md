@@ -1,3 +1,10 @@
+# Anthropic全网追杀的人，可能是我……
+
+> 公众号: 刘小排r
+> 发布时间: 1970-01-01 08:33:45
+> 原文链接: https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247498537&idx=1&sn=23cafdfedc8297dfa05d46a5bce8db11&chksm=e83b872acc893f6ffb867f3fd3bd14634ae32630344f698f941bfa2f5b65d9f7755e82b8bd9c&mpshare=1&scene=1&srcid=0815evfjgbXaGDetZApIQOyX&sharer_shareinfo=fd637b036a75822befde463b74963297&sharer_shareinfo_first=fd637b036a75822befde463b74963297
+
+---
 上个月，Anthropic官方发布了信息，有一个用户，只花了$200美元订阅套餐，却在一个月内消耗了数万美金的(tens of thousands)的token。从而决定对所有人进行限速……
 
 全世界的程序员都在好奇，这位每个月花数万美金的老哥是谁？
@@ -36,9 +43,11 @@
 
 只需要在命令行执行
 
+
 ```css
 npx claude-code-leaderboard
 ```
+
 
 再通过Twitter账号授权。就可以了。
 

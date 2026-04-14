@@ -1,3 +1,12 @@
+# Anthropic 揭秘：上下文工程如何让 Agent 专注核心任务
+
+> 公众号: 愚蠢的猴子
+> 发布时间: 1970-01-01 08:33:45
+> 原文链接: https://mp.weixin.qq.com/s?__biz=MzU3NDQ3MDg2MA==&mid=2247484117&idx=1&sn=761c1843850dc13fba1a9ed4f912292c&chksm=fc67b8d086be885fa36535bb6597eb3e56e04234c66ea06f9e387c62c727918252dae421197f&mpshare=1&scene=1&srcid=102051f2hEfpd15fJFVYIXe1&sharer_shareinfo=3b9de612d2a8b9241d53cfcc940ed665&sharer_shareinfo_first=3b9de612d2a8b9241d53cfcc940ed665
+
+---
+> https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
+
 你有没有过这样的体验？跟 AI 聊得久了，它突然 “失忆”—— 前面提过的关键信息没了下文，甚至答非所问；让它处理复杂任务，比如分析大数据库、写长代码，它越往后越混乱…… 其实不是 AI “不认真”，而是它的 “注意力” 有限。
 
 ![Image](images/img_001.png)
@@ -27,6 +36,7 @@ Anthropic 发现一个关键问题：Context Rot **上下文衰减**。AI 的上
 
 2.  AI 更熟悉短任务：训练 AI 的数据里，短文本比长文本多，它处理长序列信息的经验本就少。
 
+
 所以，上下文工程的核心不是给AI 越多信息越好，而是用最少的关键信息，让 AI 刚好能完成任务，把AI 的注意力用在刀刃上。
 
 ### 三、如何做好上下文工程？
@@ -38,6 +48,7 @@ AI 的上下文窗口是有限资源，每加一条信息都要算性价比。�
 -   别写太复杂的硬逻辑：比如 “如果用户问 A 就答 1，问 B 就答 2，问 C……”，这样 AI 灵活度低，改起来还麻烦；
 
 -   别写太模糊的空话：比如 “帮我处理一下这个需求”，AI 根本不知道要做什么。
+
 
 ![图片](images/img_003.png)
 

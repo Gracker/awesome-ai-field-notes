@@ -1,3 +1,10 @@
+# Anthropic Skills 深度解析：当通用 Agent 学会专业技能
+
+> 公众号: AGENT橘
+> 发布时间: 1970-01-01 08:33:45
+> 原文链接: https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247487766&idx=1&sn=ea329ba58ab2e73678923746c88e704e&chksm=c18fea664612591eb5c9a3641e5c4befcf77c48029ad4606e3d5451e49a3668b614f7b7213e7&mpshare=1&scene=1&srcid=1018jUA9gxU80yxBFKx57a4U&sharer_shareinfo=95ee7ed355fcd780e612a6864836496f&sharer_shareinfo_first=95ee7ed355fcd780e612a6864836496f
+
+---
 Anthropic Skills
 
 深度解析
