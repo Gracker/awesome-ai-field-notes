@@ -542,7 +542,7 @@ Read Original
 
 ---
 
-### [Building A Generative AI Platform](https://huyenchip.com/2024/07/25/genai-platform.html?s=09)
+### [Building A Generative AI Platform](/entry/c4is4wst) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # Building A Generative AI Platform After studying how companies deploy generative AI applications, I noticed many similarities in their platforms. This post outlines the common components of a... After studying how companies deploy generative AI applications, I noticed many similarities in their pl...
@@ -551,7 +551,7 @@ Read Original
 
 ---
 
-### [Can GPT-4 *Actually* Write Code?](https://tylerglaiel.substack.com/p/can-gpt-4-actually-write-code)
+### [Can GPT-4 *Actually* Write Code?](/entry/wu00h8om) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # Can GPT-4 *Actually* Write Code? I test GPT 4&#x27;s code-writing capabilities with some actual real world problems. Since ChatGPT came out I&#x27;ve seen quite a lot of people posting about its capability to write code. People have posted about how they had it design and implement a number puzzle game (wit...
@@ -560,7 +560,7 @@ Read Original
 
 ---
 
-### [ChatGPT 在做什么… 以及它为何发挥作用？](https://mp.weixin.qq.com/s?__biz=Mzg3OTgxODY0Nw==&mid=2247483927&idx=1&sn=024c6b5fbb7e43a025eab9d6096b484f&chksm=cf7fe0eff80869f9eefa9fcff82e11910e9ab5ced03933f4040394b5a897003325eb7d601cc3&mpshare=1&scene=1&srcid=03092z2hM9JDktnp3XF30Tv2&sharer_sharetime=1678325853531&sharer_shareid=3fee492c0c6fb5a2da9e121bd1155214)
+### [ChatGPT 在做什么… 以及它为何发挥作用？](/entry/ftvnh74m) 📄
 @Stephen Wolfram，发表于 2023年2月14日原文链接：https://writing · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # ChatGPT 在做什么… 以及它为何发挥作用？ 作者：Stephen Wolfram，发表于 2023年2月14日原文链接：https://writings 作者 ：Stephen Wolfram，发表于 2023年2月14日 原文链接 ：https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/ 文章字数 ：约 3.4 万字  建议收藏后阅读...... 提示：本文包括一百多张图片...... 微信公共账号的编辑器经常会出现图片处理错误（尤其是在使用 Markdown 处...

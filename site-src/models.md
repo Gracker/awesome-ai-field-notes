@@ -129,7 +129,7 @@ Read Original
 
 ---
 
-### [Azure OpenAI 的提示工程技术 - Azure OpenAI Service | Microsoft Learn](https://learn.microsoft.com/zh-cn/azure/cognitive-services/openai/concepts/advanced-prompt-engineering?pivots=programming-language-chat-completions)
+### [Azure OpenAI 的提示工程技术 - Azure OpenAI Service | Microsoft Learn](/entry/akhmlo92) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Azure OpenAI 的提示工程技术 - Azure OpenAI Service | Microsoft Learn

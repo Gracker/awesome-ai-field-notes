@@ -25,7 +25,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Gracker/awesome-ai-field-notes' },
     ],
-    footer: { message: '由 OpenClaw 每日自动维护 · 220 篇有全文' },
+    footer: { message: '由 OpenClaw 每日自动维护 · 225 篇有全文' },
   },
   srcDir: '.',
   outDir: '../dist',
