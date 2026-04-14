@@ -591,7 +591,7 @@ Read Original
 
 ---
 
-### [Anthropic Skills 深度解析：当通用 Agent 学会专业技能](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247487766&idx=1&sn=ea329ba58ab2e73678923746c88e704e&chksm=c18fea664612591eb5c9a3641e5c4befcf77c48029ad4606e3d5451e49a3668b614f7b7213e7&mpshare=1&scene=1&srcid=1018jUA9gxU80yxBFKx57a4U&sharer_shareinfo=95ee7ed355fcd780e612a6864836496f&sharer_shareinfo_first=95ee7ed355fcd780e612a6864836496f)
+### [Anthropic Skills 深度解析：当通用 Agent 学会专业技能](/entry/s4t21yew) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Anthropic Skills 深度解析：当通用 Agent 学会专业技能
@@ -605,7 +605,7 @@ Read Original
 
 ---
 
-### [Anthropic 官方分享：为 AI 智能体打造高效工具——让 AI 智能体来帮忙](https://mp.weixin.qq.com/s/Oe3J_phfjwSVBqI46yIVCA?clicktag=bar_praise&scene=294&clickpos=0&from_safari=0)
+### [Anthropic 官方分享：为 AI 智能体打造高效工具——让 AI 智能体来帮忙](/entry/pkzeuz1r) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Anthropic 官方分享：为 AI 智能体打造高效工具——让 AI 智能体来帮忙
@@ -619,7 +619,7 @@ Read Original
 
 ---
 
-### [Anthropic：我们如何构建多智能体研究系统](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247489816&idx=1&sn=989928020101777361b9c63b8dbffe55&chksm=c20cbcb2151edc3ac638589b0596dd4fe44cd919c177b6033ee9dcefb168fe0edd78c4e5bebb&mpshare=1&scene=1&srcid=0618VxXV1qhfuDCmQJUMYfMO&sharer_shareinfo=da3ecd986cd6fcfad23734ec74fa6282&sharer_shareinfo_first=cd4cf214372e755c614fa457c6332cda)
+### [Anthropic：我们如何构建多智能体研究系统](/entry/ru2zdr01) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Anthropic：我们如何构建多智能体研究系统

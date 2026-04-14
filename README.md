@@ -2,18 +2,18 @@
 
 > AI 领域精选资源导航 — 有观点、有评分、每日自动更新。612 条，中英双语。
 
-## ⭐ 精选 Top 10
+## 🆕 今日推荐 Top 10
 
-- [搞懂缓存机制，从Gemma4到Claude Code省80%Token](https://x.com/MinLiBuilds/status/2041178722230030384) — 从 KV 缓存原理到 Claude Code 实战，系统讲透 token 省钱机制
-- [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773) — Anthropic 官方托管 Agent 基础设施，大脑/手/记忆三层解耦架构
-- [THE 2028 GLOBAL INTELLIGENCE CRISIS](https://www.citriniresearch.com/p/2028gic) — AI 经济死亡螺旋的情景推演：幽灵 GDP 与人类智能替代螺旋
-- [OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team](https://x.com/elvissun/status/2025920521871716562) — 一人开发团队的 Agent Swarm 实战：OpenClaw 编排 + 多模型协作
-- [过了个年，AI 圈变天了？但没人告诉你为什么](https://x.com/op7418/article/2026520431700881816) — 2026 年初 AI 变化的四层拆解：大脑/手脚/组织/进化，数据飞轮加速运转
-- [2026年AI趋势观察：模型飞轮、应用爆发与个人发展](https://mp.weixin.qq.com/s/D98rfJX1NZmAD4xxs1h-Xg?scene=1) — 2026 AI 趋势全景：模型飞轮加速，应用爆发，创作门槛消失
-- [Pi: The Minimal Agent Within OpenClaw](https://lucumr.pocoo.org/2026/1/31/pi/) — OpenClaw 底层 Pi 的极简哲学：让 Agent 自己扩展自己
-- [我的 Obsidian 不是笔记软件，是操作系统](https://x.com/UncleJAI/article/2026929169511362928) — 非程序员用 Obsidian + Claude Code 搭建的完整个人操作系统
-- [科学家的消亡 / AI 会终结科学，还是会引发一场新的革命？](https://x.com/indigox/article/2026911299494449635) — 从科学哲学角度追问：AI 能执行方法，但科学不仅仅是方法
-- [The third era of AI software development](https://x.com/mntruell/article/2026736314272591924) — Cursor CEO 定义 AI 编码第三时代：云 Agent 自主完成长任务
+- [万字干货：理解 Harness Engineering，看这一篇就够了](https://mp.weixin.qq.com/s?__biz=MzkxMTY4NTAyNQ==&mid=2247508809&idx=1&sn=960d705ab56f992ed504a2b735a2a515) ⭐4 · 2026-04-12 — Harness Engineering 是将 AI Agent 从好玩具变可靠工具的完整工程框架，为 Agent 系统提供约束、引导与纠正机制
+- [破局Agent时代：ARIES RISCV+AI架构分析](https://mp.weixin.qq.com/s?__biz=MzUzNzg4Nzc3MQ==&mid=2247485969&idx=1&sn=32449a8c2513a5cb53f1ad2360b58e4a) ⭐4 · 2026-04-12 — Harness Engineering 是将 AI Agent 从好玩具变可靠工具的完整工程框架，为 Agent 系统提供约束、引导与纠正机制
+- [万字干货：理解 Harness Engineering，看这一篇就够了](https://mp.weixin.qq.com/s?__biz=MzkxMTY4NTAyNQ==&mid=2247508809&idx=1&sn=960d705ab56f992ed504a2b735a2a515&chksm=c01058c5a61218b4325b419bb9aef60912b08ceee3d806aed873428b472303d88a9473e4ed3d) ⭐4 · 2026-04-11 — 2026 年最系统的 Harness Engineering 中文解析，从理论框架到工程落地覆盖完整，Agent 工程师必读
+- [破局Agent时代：ARIES RISCV+AI架构分析](https://mp.weixin.qq.com/s?__biz=MzUzNzg4Nzc3MQ==&mid=2247485969&idx=1&sn=32449a8c2513a5cb53f1ad2360b58e4a&chksm=fb5995ca0659939a19e7e4ecd431eae703978643af53d7f9345980de179d6c692ed620b8982d) ⭐4 · 2026-04-11 — ISSCC 2026 ARIES 芯片深度解析：RISC-V 调度 + CIM 存内计算，14nm 打败 4nm 的 Agent 时代实用主义架构
+- [GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.](https://github.com/yetone/openai-translator) ⭐3 · 2026-04-10 — Cubox 收藏: GitHub - yetone/openai-translator: 基于 ChatGPT API 
+- [GitHub - HW-whistleblower/True-Story-of-Pangu: 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。](https://github.com/HW-whistleblower/True-Story-of-Pangu) ⭐3 · 2026-04-10 — 关于GitHub - HW-whistleblower/True的收藏文章
+- [GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login.](https://github.com/steipete/CodexBar) ⭐3 · 2026-04-10 — Claude Code 编程工具相关实践与技巧
+- [GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。](https://github.com/rockbenben/ChatGPT-Shortcut) ⭐3 · 2026-04-10 — 关于GitHub - rockbenben/ChatGPT-Sh的收藏文章
+- [GitHub - knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang: 讨贼王云鹤檄文](https://github.com/knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang?s=09) ⭐3 · 2026-04-10 — 关于GitHub - knemik97/Manifesto-ag的收藏文章
+- [Google Gemma-4-31B 模型被彻底破解](https://x.com/Lonely__MH/status/2040832951206961413) ⭐3 · 2026-04-10 — Gemma-4-31B 越狱版本出炉，HarmBench 93.7%，本地无审查新选择
 
 ## 分类导航
 

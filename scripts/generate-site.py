@@ -108,6 +108,10 @@ pub_dir.mkdir(exist_ok=True)
 (pub_dir / "favicon.svg").write_text(favicon, encoding="utf-8")
 
 # === Date helpers ===
+# 优先用 published_date，没有则用 added_date
+def entry_date(e):
+    return e.get("published_date") or e.get("added_date") or ""
+
 def date_label(date_str):
     if not date_str:
         return None
@@ -117,14 +121,11 @@ def date_label(date_str):
         return "昨天"
     return None
 
+# 日期字符串直接排序：降序 = 新的在前
 def date_sort_key(date_str):
-    if not date_str:
-        return (999, "")
-    if date_str == today_str:
-        return (0, "")
-    if date_str == yesterday_str:
-        return (1, "")
-    return (2, date_str)
+    if not date_str or date_str == "unknown":
+        return "0000-00-00"
+    return date_str
 
 # === Entry formatting for category pages ===
 def fmt_entry(e):
@@ -137,7 +138,7 @@ def fmt_entry(e):
     lang = "🇨🇳" if e.get("language") == "zh" else ("🌐" if e.get("language") == "en" else "")
     source = e.get("source") or {}
     author = esc(source.get("author", ""))
-    added = e.get("added_date", "")
+    added = entry_date(e)
 
     summary = (e.get("summary_zh", "") or e.get("summary_en", "") or "").strip()
     one_liner = e.get("one_liner", "").strip()
@@ -177,7 +178,11 @@ def fmt_entry(e):
     return "\n".join(lines)
 
 # === Homepage ===
-top10 = sorted(active, key=lambda x: (-x.get("quality_score", 0), x.get("github_stars", 0) or 0))[:10]
+# README 推荐：按日期降序（新的在前），同日期按质量分降序
+featured10 = sorted(active, key=lambda x: (entry_date(x), -x.get("quality_score", 0), x.get("github_stars", 0) or 0), reverse=True)[:10]
+
+# 网站首页最新 10 篇：同样逻辑
+latest10 = featured10[:]
 
 home = [
     "---",
@@ -202,23 +207,31 @@ for key, info in categories.items():
     home.append("  - title: '{} {}'".format(info['icon'], info['name_zh']))
     home.append("    details: '{} · {} 条'".format(info.get('desc', ''), count))
     home.append("    link: /{}".format(key))
-home.append("---")
-home.append("")
+home.extend([
+    "---",
+    "",
+    "## 🆕 最新 10 篇",
+    "",
+])
+for e in latest10:
+    home.append(fmt_entry(e))
+
 (SRC_DIR / "index.md").write_text("\n".join(home), encoding="utf-8")
 
-# === Category pages (grouped by date) ===
+# === Category pages (grouped by date, newest first) ===
 for key, info in categories.items():
     cat_entries = [e for e in active if e.get("category") == key]
-    
+
     if not cat_entries:
         page = ["# {} {}".format(info['icon'], info['name_zh']), "", "_暂无条目_"]
     else:
         groups = OrderedDict()
         for e in cat_entries:
-            d = e.get("added_date", "") or "unknown"
+            d = entry_date(e) or "unknown"
             groups.setdefault(d, []).append(e)
-        sorted_dates = sorted(groups.keys(), key=date_sort_key)
-        
+        # 日期降序，新的在前
+        sorted_dates = sorted(groups.keys(), key=date_sort_key, reverse=True)
+
         page = [
             "# {} {}".format(info['icon'], info['name_zh']),
             "",
@@ -227,17 +240,17 @@ for key, info in categories.items():
         ]
         for d in sorted_dates:
             label = date_label(d) or d
+            # 同日期内按质量分降序
             group_entries = sorted(groups[d], key=lambda x: (-x.get("quality_score", 0), x.get("github_stars", 0) or 0))
             page.append("## 📅 {}".format(label))
             page.append("")
             for e in group_entries:
                 page.append(fmt_entry(e))
-    
+
     (SRC_DIR / "{}.md".format(key)).write_text("\n".join(page), encoding="utf-8")
 
 # === Entry detail pages ===
 entry_dir = SRC_DIR / "entry"
-# Clean old entry pages
 if entry_dir.exists():
     for old in entry_dir.glob("*.md"):
         if old.stem not in entries_with_content:
@@ -249,38 +262,38 @@ for e in active:
     eid = e["id"]
     if eid not in entries_with_content:
         continue
-    
+
     content_file = CONTENT_DIR / "{}.md".format(eid)
     if not content_file.exists():
         continue
-    
+
     content_raw = content_file.read_text(encoding="utf-8").strip()
-    
+
     # Strip YAML frontmatter from content
     if content_raw.startswith("---"):
         parts = content_raw.split("---", 2)
         content_body = parts[2].strip() if len(parts) >= 3 else content_raw
     else:
         content_body = content_raw
-    
+
     if not content_body:
         continue
-    
+
     generated_detail += 1
-    
+
     title = esc(e["title"])
     url = e.get("url") or "#"
     score = e.get("quality_score", 0)
     lang = "🇨🇳" if e.get("language") == "zh" else ("🌐" if e.get("language") == "en" else "")
     source = e.get("source") or {}
     author = esc(source.get("author", ""))
-    added = e.get("added_date", "")
+    added = entry_date(e)
     one_liner = esc(e.get("one_liner", ""))
     tags = [esc(t) for t in e.get("tags", [])[:8]]
     category = e.get("category", "")
     cat_info = categories.get(category, {})
     cat_name = cat_info.get("name_zh", category)
-    
+
     page = [
         "---",
         "title: '{}'".format(title.replace("'", "\\'")),
@@ -312,7 +325,7 @@ for e in active:
     page.append("")
     page.append(content_body)
     page.append("")
-    
+
     (entry_dir / "{}.md".format(eid)).write_text("\n".join(page), encoding="utf-8")
 
 # === README.md ===
@@ -321,15 +334,23 @@ readme = [
     "",
     "> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。{} 条，中英双语。".format(stats['total_entries']),
     "",
-    "## ⭐ 精选 Top 10",
+    "## 🆕 今日推荐 Top 10",
     "",
 ]
-for e in top10:
+for e in featured10:
     title = esc(e["title"])
     url = e.get("url") or "#"
     one_liner = esc(e.get("one_liner", ""))
-    readme.append("- [{}]({}) — {}".format(title, url, one_liner))
-readme.extend(["", "## 分类导航", "", "| 分类 | 数量 | 说明 |", "|------|------|------|"])
+    added = entry_date(e)
+    score = e.get("quality_score", 0)
+    readme.append("- [{}]({}) ⭐{} · {} — {}".format(title, url, score, added, one_liner))
+readme.extend([
+    "",
+    "## 分类导航",
+    "",
+    "| 分类 | 数量 | 说明 |",
+    "|------|------|------|",
+])
 for key, info in categories.items():
     count = cat_counter.get(key, 0)
     readme.append("| {} {} | {} | {} |".format(info['icon'], info['name_zh'], count, info.get('desc', '')))
