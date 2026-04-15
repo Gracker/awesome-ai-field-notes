@@ -1227,7 +1227,7 @@ Read Original
 
 ## 📅 2025-05-08
 
-### [基于 MCP 的 AI Agent 应用开发实践](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247514365&idx=1&sn=dd898cc5dfe8ab4fe7c48442a2d7fc35&chksm=e82cdfc64103948773b39bc1cdd18051bc935cdcbdad9990335b12f4401dbd67d0a5f6e162ad&mpshare=1&scene=1&srcid=0508JMd4ApDVP5Sk45FwTZuO&sharer_shareinfo=346fd11813fa570c425fefb3cdbb9b0e&sharer_shareinfo_first=346fd11813fa570c425fefb3cdbb9b0e)
+### [基于 MCP 的 AI Agent 应用开发实践](/entry/ZpcfjBM5) 📄
 ⭐⭐⭐⭐4 🌐 · 2025-05-08
 
 [需翻译] 最近大家都在聊 MCP，发现有个最重要的点被忽略了： 通过标准化协议，将工具提供方与应用研发者解耦，这一点带

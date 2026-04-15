@@ -180,7 +180,7 @@ Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知�
 
 ## 📅 2026-03-31
 
-### [学习笔记：从 Agent 到 Skills — AI 智能体架构的范式转变](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559249&idx=1&sn=7cda1453a5f7f51c39f43b76027696a1&chksm=e8178b0b81a60cb0161a097e5da8dbc326a34f5b041404fa1f9e023950c003fbe9a394c1d0e0&mpshare=1&scene=1&srcid=0331R15fBYxYJco3uMTIEUTw&sharer_shareinfo=327719e3faec950e49ae3605678de77e&sharer_shareinfo_first=327719e3faec950e49ae3605678de77e)
+### [学习笔记：从 Agent 到 Skills — AI 智能体架构的范式转变](/entry/TgmFvCIT) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-31
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FZ6bicxIx5naL7zVHZH429Po1HLpbichP9SLVicPtoxkI2WhMxUibFwG9U1dUOJu33R5KD9ib25hmibaaZLLldnh8dA4A%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0) &gt; 报告日期：2026-02-28 关键词： Agent Skills, MCP, OpenClaw,...
@@ -310,7 +310,7 @@ Tw93基于半年深度使用Claude Code的踩坑总结。提出六层架构模�
 
 ## 📅 2026-03-11
 
-### [创业者思考：如何做 AI Agent 喜欢的基础软件？](https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247521814&idx=1&sn=49ceeed78a26438ade5d5b706623e88f&chksm=c122bf12dfb7e37a12d166ff94f0c36e9a30070f10046c9fdfe61d49a74573ce5a5c696772ed&mpshare=1&scene=1&srcid=0311ISulrAqgkTLP1HK97xnT&sharer_shareinfo=c5f29fbc7bf04b537d92cb15e87fd53b&sharer_shareinfo_first=6215cfee527a230e6ac94c5123d5473d)
+### [创业者思考：如何做 AI Agent 喜欢的基础软件？](/entry/pbEBrpNe) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-11
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2FqpAK9iaV2O3sAVsSPfCN9UX44XiaoicbUJIrOGuaujdMNY6iaQewDZEX1GY3tcVk3QGeKJyUMMHBSMALvO8B7DZwsA%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg%23imgIndex%3D0) &gt; 本篇内容转载自「我世界的源代码」。 &gt; &gt; 作者黄东旭，是 PingCAP 的联合创始人兼 CTO...
@@ -1052,7 +1052,7 @@ Read Original
 
 ## 📅 2025-05-26
 
-### [如何利用cursor快速理解复杂代码工程？](https://www.zhihu.com/question/7468595725/answer/1910022134312460351)
+### [如何利用cursor快速理解复杂代码工程？](/entry/v9wtMdrp) 📄
 ⭐⭐⭐⭐4 🌐 · 2025-05-26
 
 [需翻译] 这份rule来自Cursor官方论坛某大神，经实测既可以用在Cursor，也可以用在Windsurf和Roo code。
@@ -1268,7 +1268,7 @@ Read Original
 
 ## 📅 2025-01-20
 
-### [对标 Cursor 和 Windsurf，Trae 如何成为中文开发者的首选？](https://mp.weixin.qq.com/s?__biz=MzkwNDYyNTU1NQ==&mid=2247486179&idx=1&sn=29d9077dbaa879f1388fd628c102071d&chksm=c1329b416202d3c2b878117fa15650e0b184aca4708a565c5f0b32fb9322b228ccea74b95806&mpshare=1&scene=1&srcid=0120YaTXSgsBRNNrnmU70m2x&sharer_shareinfo=3aa172c89e335810c3379e7c47f7aaa3&sharer_shareinfo_first=46440f26bed307709ec73840f88cf5bb)
+### [对标 Cursor 和 Windsurf，Trae 如何成为中文开发者的首选？](/entry/SGfLS1cX) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-01-20
 
 字节跳动旗下对标 Cursor 和 Windsurf 的 AI IDE 产品 —— Trae，今天正式上线了！
@@ -1433,7 +1433,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 
 ## 📅 2024-06-24
 
-### [吴恩达：从 Agent 到 Agentic Workflow ，AI 的未来何去何从？](https://mp.weixin.qq.com/s?__biz=MjM5NTg1ODg1OA==&mid=2459542397&idx=1&sn=e376ce196a41955734c48377cbc3cc18&chksm=b19f13b886e89aaec7ecb3f44f1de1300473b38346d6f8f54e8f87f4655cd87512eee06bae05&mpshare=1&scene=1&srcid=0623gOaBbHwBnL5vGTxNPHdK&sharer_shareinfo=11ba2c0c5006ec0d14971ced1c09c9c7&sharer_shareinfo_first=17a9447775b586d79d49eeec9285c317)
+### [吴恩达：从 Agent 到 Agentic Workflow ，AI 的未来何去何从？](/entry/kTN3RZ28) 📄
 ⭐⭐⭐⭐4 🌐 · 2024-06-24
 
 [需翻译] *关注**AI 技能**，开启智能生活！* *?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2Fb96CibCt70iaajvl7fD4ZCicMcjhXMp1v6UibM134tIsO1j5yqHyNhh9arj090oAL7zGhRJRq6cFqFOlDZMleLl4pw%2F640%3Fwx_fmt%3Dpng%26wxfrom%3D5%26wx_lazy%3D1%26wx_co%3D1)*

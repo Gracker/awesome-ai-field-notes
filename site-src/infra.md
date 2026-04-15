@@ -86,7 +86,7 @@ Karpathy 分享他用 LLM 构建个人知识库的工作流：raw/ 目录存放�
 
 ## 📅 2026-03-30
 
-### [当 AI Agent 开始直接调用数据，基础设施该如何进化？Data for AI Meetup 深圳站回顾](https://mp.weixin.qq.com/s?__biz=MzYzNTQ2OTExNw==&mid=2247483952&idx=1&sn=1b3d79e6954c2ca1c16c29fc4b3da50d&chksm=f126d2bf48847f1c244e82eca9f178a5ca7af229ef8a3bd072d75ac6fdd4141a9001e2acdc87&mpshare=1&scene=1&srcid=033058z9ZM14LnIIEveX4EM1&sharer_shareinfo=58564e21a16753dff1b07f4dd170e28c&sharer_shareinfo_first=52440a3d750e438e1c8d8bc7c90a65c1)
+### [当 AI Agent 开始直接调用数据，基础设施该如何进化？Data for AI Meetup 深圳站回顾](/entry/nMGRQWXE) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-30
 
 当 AI Agent 开始直接调用数据，基础设施该如何进化？Data for AI Meetup 深圳站回顾

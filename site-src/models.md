@@ -459,7 +459,7 @@ Read Original
 
 ## 📅 2025-02-18
 
-### [图解DeepSeek-R1的创新训练和推理模型实现原理](https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&mid=2650404859&idx=1&sn=ae3624a55773965e57a2f8603a08a8ca&chksm=823646847cbd28ef37d4c13497cd4bb4861475b17ff78eeca0450743b90a078a21dbcedc15c2&mpshare=1&scene=1&srcid=0218QFgghs13qkTGL6jLqcL8&sharer_shareinfo=0f4e98644652ce570575135ac9363788&sharer_shareinfo_first=cfceb1fa7455bf04f72440b375ab2a98)
+### [图解DeepSeek-R1的创新训练和推理模型实现原理](/entry/jiClprfo) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-02-18
 
 DeepSeek-R1的成功标志着AI在推理能力方面的重要突破。它不仅展示了如何构建高性能的推理模型，更重要的是提供了一套可复现的技术方案，为整个AI社区带来了宝贵的经验。
@@ -497,7 +497,7 @@ o3-mini 定位最具成本效益的推理模型，数学/科学/编程全面超�
 
 ## 📅 2025-02-01
 
-### [应战DeepSeek， OpenAI紧急上线o3-mini！价格打骨折，免费用户也能用](https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247514104&idx=1&sn=07eb020881add9b79950c13ec51f8968&chksm=c1a0c36fc0581c86a3be572f745410002e9e4a169cb373cad6f3854b6b17082ef058c7c585f0&mpshare=1&scene=1&srcid=0201HFb19mFKXngp9YUq9Bjc&sharer_shareinfo=922aea2c688553534e1e6a50250c05e3&sharer_shareinfo_first=922aea2c688553534e1e6a50250c05e3)
+### [应战DeepSeek， OpenAI紧急上线o3-mini！价格打骨折，免费用户也能用](/entry/NoFTnFnJ) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-02-01
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FqpAK9iaV2O3udFibzXZiaM3RWnnARYZbTyUooMUia19GzOiaICsibHeaEYib9Hw3ACnstRHq0pNbIL3D0FocWhUy1CgBw%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg)
@@ -625,7 +625,7 @@ Understanding how LLM inference works with llama.cpp
 
 ## 📅 2024-05-02
 
-### [奥特曼斯坦福对话万字实录来了！关于GPT5、AGI、核聚变发电、人类未来](https://mp.weixin.qq.com/s/7xWTf84wMIFK_fwT1l4mtg?s=09)
+### [奥特曼斯坦福对话万字实录来了！关于GPT5、AGI、核聚变发电、人类未来](/entry/lsdwlVlb) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-05-02
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2Fow6przZuPIHP0Gcz8TtJwy0VIHUUhJra1aW5D0F2bmWNQbUkhNqhaGWHUej0QQDoVoTdz2k8Tu00jjHviaVYlSQ%2F300%3Fwx_fmt%3Dpng%26wxfrom%3D19&amp;valid=true)
