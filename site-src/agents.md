@@ -676,7 +676,7 @@ LangChain 博客阐述文件系统作为 Agent 上下文工程核心工具的价
 
 ---
 
-### [How we built our multi-agent research system \ Anthropic](https://www.anthropic.com/engineering/multi-agent-research-system)
+### [How we built our multi-agent research system \ Anthropic](/entry/y1pyhae8) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Anthropic 详细分享其 Research 功能的多 Agent 系统从原型到生产的过程。架构采用 orchestrator-worker 模式：LeadResearcher 规划和协调，Subagents 并行搜索。8 条 prompt 工程原则：像 Agent 一样思考、教会 orchestrator 如何委派、按复杂度缩放资源、工具设计至关重要、让 Agent 自我改进、先宽后窄搜索、引导思考过程、并行工具调用。评测方面：LLM-as-judge + 人工测试互补。生产挑战：有状态错误累积、调试困难、需要 rainbow deployment。BrowseComp 评测中 token 使用量解释了 80% 的性能方差。

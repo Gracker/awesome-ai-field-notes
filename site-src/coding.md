@@ -685,7 +685,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 
 ---
 
-### [Github Copilot 近期重要更新一览 (2025.4.9)Github Copilot 宣布推出 Pro+(3 - 掘金](https://juejin.cn/post/7490967893779431439)
+### [Github Copilot 近期重要更新一览 (2025.4.9)Github Copilot 宣布推出 Pro+(3 - 掘金](/entry/7i9ufapk) 📄
 ⭐⭐⭐⭐4  · 2026-04-10
 
 # Github Copilot 近期重要更新一览 (2025.4.9)Github Copilot 宣布推出 Pro+(3 - 掘金 Github Copilot 宣布推出 Pro+(39🔪/月)，5月5日 开始限制 高级模型 (除4o外所有) 访问次数 ，原 Pro 每月 300点 (能问 Claude 3.7x240次 ) 离上一篇《Github Copilot 近期的一次重要更新 (2024.9.26)》已经过去半年多了，今天比较闲，刷下 Github Copilot 的 更新日志 → Github Copilot ChangeLog 看下都有哪些重要更新，这不刷不知道，一刷吓一跳 ❗...

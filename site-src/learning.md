@@ -557,7 +557,7 @@ I work in Google Ads infrastructure in the past four years. Over time, I&#x27;ve
 
 ---
 
-### [Google《智能体设计模式》之 智能体推理引擎的内部视角 - 附录F 中翻版](https://mp.weixin.qq.com/s?__biz=MjM5MDExNTY2Nw==&mid=2447768331&idx=1&sn=355262c43a479776e1502d0ca95ae868&chksm=b362dee6a9e871cee8010db2395e017cfccb130cfe10ca12354b043b2dfeb48344dbe8c103ce&mpshare=1&scene=1&srcid=1019OkOWOErLjvi70dEM5m9n&sharer_shareinfo=e0d6e5879044b1fa2169e3ff2bb90d76&sharer_shareinfo_first=e0d6e5879044b1fa2169e3ff2bb90d76)
+### [Google《智能体设计模式》之 智能体推理引擎的内部视角 - 附录F 中翻版](/entry/yj96fkem) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # Google《智能体设计模式》之 智能体推理引擎的内部视角 - 附录F 中翻版 让大模型自己从内部视角讲解「推理引擎」的运作机制，哪家模型更合你心意？ ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FwV3O1yUmU2QIt4G7kicG7ZdH56SOsxLDLY4HDgOLaMnhxL3gXEo8O23QtLg6sCBIQnWckmxsFcyg0ap6MwecmtQ%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0) 前言：这本由谷歌资深工程主管Antonio Gulli免...
@@ -566,7 +566,7 @@ I work in Google Ads infrastructure in the past four years. Over time, I&#x27;ve
 
 ---
 
-### [MLGO: A Machine Learning Framework for Compiler Optimization – Google AI Blog](https://ai.googleblog.com/2022/07/mlgo-machine-learning-framework-for.html)
+### [MLGO: A Machine Learning Framework for Compiler Optimization – Google AI Blog](/entry/k27e2ufv) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Google 介绍 MLGO 框架，首个工业级将 ML 系统性集成到 LLVM 编译器的通用框架。使用强化学习训练神经网络替代编译器中的启发式决策。两个具体优化：1) Inlining-for-size：通过 RL 策略替代内联启发式，在 30k 模块上训练的策略可泛化到其他软件，实现 3%-7% 代码体积缩减（Fuchsia OS 上达 6.3%）；2) Regalloc-for-performance：寄存器分配优化，提升 0.3%-1.5% QPS。训练后的策略通过 XLA AOT 嵌入编译器，无运行时依赖。

@@ -262,7 +262,7 @@ ChatGPT的火爆出圈，让大家对NLP语言模型的发展历程产生了浓�
 
 ---
 
-### [Karpathy 最新方法论：把 LLM 当编译器用，知识管理该换个思路了](https://mp.weixin.qq.com/s?__biz=Mzk4ODkzOTY3MA==&mid=2247484735&idx=1&sn=6c93e0c324588762e10a99e915a04678)
+### [Karpathy 最新方法论：把 LLM 当编译器用，知识管理该换个思路了](/entry/ryn4vd8o) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 解读 Andrej Karpathy 2026 年 4 月提出的 LLM 知识库方法论。核心类比：把 LLM 当编译器，原始资料当源代码，生成 Wiki 当可执行文件。三层目录结构：raw/（原始素材）、wiki/（LLM 编译产出的结构化 Markdown）、output/（查询结果和衍生输出）。四步工作流：摄入（Ingest）到编译（Compile）到查询（Query）到健康检查（Lint）。与 RAG 的关键区别：RAG 是查询时实时检索（临时性），Karpathy 的方法是提前编译（持久性），查询结果自动回写 Wiki。适用规模约 40 万字，不需要向量数据库。
