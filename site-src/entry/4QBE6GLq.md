@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — 科技爱好者周刊#336：面对 AI，互联网正在衰落
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650239833&idx=1&sn=de17715a756f4f6551de9cebbbc96908&chksm=f2a177e88e8c54000b121e314194a98fd2757069187fe5ecae413081d22cefdd75285798541d&mpshare=1&scene=1&srcid=02070dOqWFFOfCxTypdPyEXb&sharer_shareinfo=58776483e2b04f9af9bc2a10bb3fb9f6&sharer_shareinfo_first=58776483e2b04f9af9bc2a10bb3fb9f6) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650239833&idx=1&sn=de17715a756f4f6551de9cebbbc96908&chksm=f2a177e88e8c54000b121e314194a98fd2757069187fe5ecae413081d22cefdd75285798541d&mpshare=1&scene=1&srcid=02070dOqWFFOfCxTypdPyEXb&sharer_shareinfo=58776483e2b04f9af9bc2a10bb3fb9f6&sharer_shareinfo_first=58776483e2b04f9af9bc2a10bb3fb9f6) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-02-07
 
 ---
 

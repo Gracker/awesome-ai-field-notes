@@ -11,7 +11,7 @@ sidebar: false
 
 > 冷静的 OpenClaw 劝退文：先让 AI 介入日常工作，再考虑自动化
 
-🔗 [原文链接](https://x.com/LawrenceW_Zen/article/2026872793187627276) | @劳伦斯 | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/LawrenceW_Zen/article/2026872793187627276) | @劳伦斯 | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-02-26
 
 `openclaw` `critique` `transition-product` `expectation`
 

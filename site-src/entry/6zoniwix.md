@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于 AI Agent 的收藏文章
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzU3NDQ3MDg2MA==&mid=2247484117&idx=1&sn=761c1843850dc13fba1a9ed4f912292c&chksm=fc67b8d086be885fa36535bb6597eb3e56e04234c66ea06f9e387c62c727918252dae421197f&mpshare=1&scene=1&srcid=102051f2hEfpd15fJFVYIXe1&sharer_shareinfo=3b9de612d2a8b9241d53cfcc940ed665&sharer_shareinfo_first=3b9de612d2a8b9241d53cfcc940ed665) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzU3NDQ3MDg2MA==&mid=2247484117&idx=1&sn=761c1843850dc13fba1a9ed4f912292c&chksm=fc67b8d086be885fa36535bb6597eb3e56e04234c66ea06f9e387c62c727918252dae421197f&mpshare=1&scene=1&srcid=102051f2hEfpd15fJFVYIXe1&sharer_shareinfo=3b9de612d2a8b9241d53cfcc940ed665&sharer_shareinfo_first=3b9de612d2a8b9241d53cfcc940ed665) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-10-20
 
 `Anthropic` `LLM` `Agent` `Inference` `Transformer`
 

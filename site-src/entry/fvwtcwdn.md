@@ -11,7 +11,7 @@ sidebar: false
 
 > OpenClaw 底层 Pi 的极简哲学：让 Agent 自己扩展自己
 
-🔗 [原文链接](https://lucumr.pocoo.org/2026/1/31/pi/) | @Armin Ronacher | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://lucumr.pocoo.org/2026/1/31/pi/) | @Armin Ronacher | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-02-26
 
 `pi` `openclaw` `coding-agent` `mcp` `session-tree` `hot-reload`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > 从 Prompt 到 Intent 的三层 AI 工程架构图，附大量实战模板，适合系统性入门。
 
-🔗 [原文链接](https://x.com/hooeem/status/2029660075774574660) | @hoeem | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/hooeem/status/2029660075774574660) | @hoeem | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-05
 
 `AI工程` `Prompt Engineering` `Context Engineering` `Intent Engineering` `MCP` `RAG`
 

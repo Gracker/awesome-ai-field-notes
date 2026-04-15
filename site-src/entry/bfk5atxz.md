@@ -11,7 +11,7 @@ sidebar: false
 
 > Claude 相关：Anthropic 官方出品 Claude 101：一份从入门到上手的完整学习指
 
-🔗 [原文链接](https://x.com/GoSailGlobal/status/2029427735807050002) | @JasonZhu |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/GoSailGlobal/status/2029427735807050002) | @JasonZhu |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-05
 
 `claude` `rag` `Claude` `AI` `学习指南` `Anthropic`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > 从 System 2 视角全面解读 o1 技术路线，理解推理模型演进的好材料
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650536638&idx=1&sn=d3fdddf772957edf8b7247626f8db979) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650536638&idx=1&sn=d3fdddf772957edf8b7247626f8db979) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-10-31
 
 `openai` `o1` `reasoning` `system-2` `chain-of-thought` `STEM`
 

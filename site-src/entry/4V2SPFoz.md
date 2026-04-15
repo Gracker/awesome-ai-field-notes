@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — 探索更强中文Embedding模型：Conan-Embedding
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649785880&idx=1&sn=cfc72ed90f9a0b808b41b7390fc6cbab&chksm=bf316b85bf8a88055db7443ccd1c06f58eae09bf54c8281b24f7180c74031657a11c79be4d52&mpshare=1&scene=1&srcid=0927ITIRBGmccXietngR8Byb&sharer_shareinfo=edeea358a584d0dc46e3d7d720564906&sharer_shareinfo_first=edeea358a584d0dc46e3d7d720564906) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649785880&idx=1&sn=cfc72ed90f9a0b808b41b7390fc6cbab&chksm=bf316b85bf8a88055db7443ccd1c06f58eae09bf54c8281b24f7180c74031657a11c79be4d52&mpshare=1&scene=1&srcid=0927ITIRBGmccXietngR8Byb&sharer_shareinfo=edeea358a584d0dc46e3d7d720564906&sharer_shareinfo_first=edeea358a584d0dc46e3d7d720564906) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-09-27
 
 ---
 

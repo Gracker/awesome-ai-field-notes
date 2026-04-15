@@ -11,7 +11,7 @@ sidebar: false
 
 > Anthropic的Managed Agents：大脑与双手解耦的Agent扩展范式
 
-🔗 [原文链接](https://www.anthropic.com/engineering/managed-agents) | @Lance Martin, Gabe Cemaj, Michael Cohen |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://www.anthropic.com/engineering/managed-agents) | @Lance Martin, Gabe Cemaj, Michael Cohen |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-09
 
 `anthropic` `managed-agents` `agent-sdk` `orchestration` `scaling`
 

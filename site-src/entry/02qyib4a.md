@@ -11,7 +11,7 @@ sidebar: false
 
 > ChatGPT 技术原理的中文解读
 
-🔗 [原文链接](https://zhuanlan.zhihu.com/p/605835778?utm_medium=social&utm_oi=27871238160384&utm_psn=1608822750822518785&utm_source=ZHShareTargetIDMore) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://zhuanlan.zhihu.com/p/605835778?utm_medium=social&utm_oi=27871238160384&utm_psn=1608822750822518785&utm_source=ZHShareTargetIDMore) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-02-14
 
 `transformer` `fine-tuning` `[]` `gpt-4` `openai` `chatgpt`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > GPT/ChatGPT 相关收藏
 
-🔗 [原文链接](https://havefun.zhubai.love/posts/2251759131969024000?push_source_id=2186477799991361536&push_source_type=email) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://havefun.zhubai.love/posts/2251759131969024000?push_source_id=2186477799991361536&push_source_type=email) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-04-01
 
 `ChatGPT` `GPT-4` `OpenAI` `AI Safety`
 

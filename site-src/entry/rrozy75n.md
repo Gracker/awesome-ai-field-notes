@@ -11,7 +11,7 @@ sidebar: false
 
 > OpenClaw 的实时监控仪表盘，零后端依赖
 
-🔗 [原文链接](https://github.com/carlosazaustre/tenacitOS) | @geekbb |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://github.com/carlosazaustre/tenacitOS) | @geekbb |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-26
 
 `openclaw` `dashboard` `monitoring` `nextjs` `react` `tailwind`
 

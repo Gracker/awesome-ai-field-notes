@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏: GitHub - vercel-labs/agent-browser: Browser automa
 
-🔗 [原文链接](https://github.com/vercel-labs/agent-browser) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://github.com/vercel-labs/agent-browser) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-01-13
 
 `agent` `[]` `rag`
 

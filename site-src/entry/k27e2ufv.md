@@ -11,7 +11,7 @@ sidebar: false
 
 > ML for compiler optimization 的工业级实践，RL 替代启发式决策的里程碑
 
-🔗 [原文链接](https://ai.googleblog.com/2022/07/mlgo-machine-learning-framework-for.html) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://ai.googleblog.com/2022/07/mlgo-machine-learning-framework-for.html) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2022-12-06
 
 `MLGO` `compiler-optimization` `LLVM` `reinforcement-learning` `inlining` `register-allocation` `Google`
 

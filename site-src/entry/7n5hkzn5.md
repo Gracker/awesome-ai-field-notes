@@ -11,7 +11,7 @@ sidebar: false
 
 > 一套面向 AI 时代工程师的 8 技能工具集，覆盖思考到维护全流程
 
-🔗 [原文链接](https://x.com/HiTw93/status/2041053321851789629) | @HiTw93 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/HiTw93/status/2041053321851789629) | @HiTw93 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-06
 
 `openclaw` `skills` `agent` `engineering` `workflow` `context-engineering`
 

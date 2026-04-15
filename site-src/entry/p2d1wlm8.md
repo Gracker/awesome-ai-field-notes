@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 实践：同一场 AI 革命，中美创业者却走向了两条路
 
-🔗 [原文链接](https://x.com/wangray/status/2028817237411610964) | @wangray |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/wangray/status/2028817237411610964) | @wangray |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-04
 
 `agent`
 

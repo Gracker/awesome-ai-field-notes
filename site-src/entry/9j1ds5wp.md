@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，vertical 领域相关内容
 
-🔗 [原文链接](https://mksaas.com/blog/2025) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mksaas.com/blog/2025) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-01-04
 
 `Android` `IndieDev` `Global`
 

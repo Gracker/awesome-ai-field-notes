@@ -11,7 +11,7 @@ sidebar: false
 
 > 自适应网页抓取框架，自带反反爬和 MCP 支持
 
-🔗 [原文链接](https://github.com/D4Vinci/Scrapling) | @D | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://github.com/D4Vinci/Scrapling) | @D | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-27
 
 `scraping` `anti-bot` `cloudflare-bypass` `spider` `mcp`
 

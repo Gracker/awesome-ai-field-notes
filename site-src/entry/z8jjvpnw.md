@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于ChatGPT的工作原理，这篇文章说清楚了的收藏文章
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg5Mjc3MjIyMA==&mid=2247559664&idx=1&sn=f5278b02015b4eb6b01787c035ca051c&chksm=c03aa3e3f74d2af5ad0a0564919d1d4b6b3516731f82c1e5084d8fc3282e1ae87a6b937d162e&mpshare=1&scene=1&srcid=0219oul5fQOneTCeX4NZ0vLe&sharer_sharetime=1676856831108&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg5Mjc3MjIyMA==&mid=2247559664&idx=1&sn=f5278b02015b4eb6b01787c035ca051c&chksm=c03aa3e3f74d2af5ad0a0564919d1d4b6b3516731f82c1e5084d8fc3282e1ae87a6b937d162e&mpshare=1&scene=1&srcid=0219oul5fQOneTCeX4NZ0vLe&sharer_sharetime=1676856831108&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-02-20
 
 `[]` `llm` `chatgpt`
 

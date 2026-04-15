@@ -11,7 +11,7 @@ sidebar: false
 
 > 对 Cursor AI 编程工具的深度使用评测
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg3OTYwMjcxMA==&mid=2247488520&idx=1&sn=ef118e85c062be821dd515269defd092&chksm=ce34fc0fb68ad4ab32a7185d689b14e5430d8097f0a65d22ecd922725c6e223548bcfd6e9196&mpshare=1&scene=1&srcid=1231FaULA3uHIqVWu3DOj1fO&sharer_shareinfo=aff83f5efe185cea5fc050be1b6100c6&sharer_shareinfo_first=aff83f5efe185cea5fc050be1b6100c6) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg3OTYwMjcxMA==&mid=2247488520&idx=1&sn=ef118e85c062be821dd515269defd092&chksm=ce34fc0fb68ad4ab32a7185d689b14e5430d8097f0a65d22ecd922725c6e223548bcfd6e9196&mpshare=1&scene=1&srcid=1231FaULA3uHIqVWu3DOj1fO&sharer_shareinfo=aff83f5efe185cea5fc050be1b6100c6&sharer_shareinfo_first=aff83f5efe185cea5fc050be1b6100c6) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-12-31
 
 `[]` `llm` `cursor` `大模型`
 

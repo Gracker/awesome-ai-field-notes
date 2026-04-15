@@ -11,7 +11,7 @@ sidebar: false
 
 > 理解推荐系统与产品设计关系的经典文章，TikTok 算法闭环分析
 
-🔗 [原文链接](https://www.eugenewei.com/blog/2020/9/18/seeing-like-an-algorithm) | @Eugene Wei | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://www.eugenewei.com/blog/2020/9/18/seeing-like-an-algorithm) | @Eugene Wei | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2020-09-18
 
 `TikTok` `算法` `推荐系统` `产品设计` `训练数据` `反馈循环`
 

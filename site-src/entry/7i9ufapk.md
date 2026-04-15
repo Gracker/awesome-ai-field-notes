@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏: Github Copilot 近期重要更新一览 (2025.4.9)Github Copilot 宣
 
-🔗 [原文链接](https://juejin.cn/post/7490967893779431439) |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://juejin.cn/post/7490967893779431439) |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-04-13
 
 `copilot` `[]` `cursor` `gpt-4` `claude`
 

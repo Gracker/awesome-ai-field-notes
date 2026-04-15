@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 实践：从 MCP 到 SKILL（II）：把调用层补齐
 
-🔗 [原文链接](https://x.com/jolestar/status/2027717523379261489) | @jolestar |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/jolestar/status/2027717523379261489) | @jolestar |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-01
 
 `mcp` `agent` `skill` `coding` `context-management` `github`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > Android × AI 交叉领域收藏
 
-🔗 [原文链接](https://juejin.cn/post/7083140299916050468) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://juejin.cn/post/7083140299916050468) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2022-04-21
 
 `Android`
 

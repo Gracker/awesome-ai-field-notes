@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，newsletters-blogs 领域相关内容
 
-🔗 [原文链接](https://newsletter.stoicallytyped.com/issues/if-something-is-humanly-possible-it-s-attainable-by-you-too-617462#/) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://newsletter.stoicallytyped.com/issues/if-something-is-humanly-possible-it-s-attainable-by-you-too-617462#/) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2022-01-24
 
 `Android` `Newsletter`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > 一键给 Agent 接入多平台数据源，免费且模块可替换
 
-🔗 [原文链接](https://github.com/Panniantong/Agent-Reach) | @Neo Reid | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-04-10
+🔗 [原文链接](https://github.com/Panniantong/Agent-Reach) | @Neo Reid | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-02-25
 
 `agent-reach` `multi-platform` `search` `mcp` `data-access`
 

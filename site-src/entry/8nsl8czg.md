@@ -11,7 +11,7 @@ sidebar: false
 
 > 中文深度解析 Claude Managed Agents 的产品定位、架构设计与企业案例
 
-🔗 [原文链接](https://x.com/dotey/status/2042017036931305667) | @dotey | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/dotey/status/2042017036931305667) | @dotey | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-06
 
 `claude` `managed-agents` `anthropic` `enterprise` `agent-infrastructure`
 

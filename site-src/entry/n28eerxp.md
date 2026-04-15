@@ -11,7 +11,7 @@ sidebar: false
 
 > 将 Karpathy 的 LLM 知识库方法论落地到 Obsidian，类比 CI/CD 的增量编译
 
-🔗 [原文链接](https://x.com/yanhua1010/status/2039966047378583815) | @yanhua1010 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/yanhua1010/status/2039966047378583815) | @yanhua1010 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-06
 
 `obsidian` `llm` `knowledge-base` `karpathy` `compile` `ci-cd`
 

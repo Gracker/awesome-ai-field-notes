@@ -11,7 +11,7 @@ sidebar: false
 
 > Codex 长任务增强工具，内置分阶段执行与并行模式
 
-🔗 [原文链接](https://x.com/oragnes/status/2041876228949602347) | @oragnes | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/oragnes/status/2041876228949602347) | @oragnes | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-04-06
 
 `codex` `oh-my-codex` `coding-agent` `task-management`
 

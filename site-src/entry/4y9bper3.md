@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 实践：2026-03-02-0810-karpathy-AI-changed-prog
 
-🔗 [原文链接](https://x.com/karpathy/status/2026731645169185220) | @karpathy |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/karpathy/status/2026731645169185220) | @karpathy |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-02
 
 `agent` `karpathy` `benchmark` `coding`
 

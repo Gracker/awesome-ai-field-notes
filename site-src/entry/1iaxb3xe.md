@@ -11,7 +11,7 @@ sidebar: false
 
 > 100 万亿 token 的 LLM 使用全景分析，当前最权威真实世界 AI 使用报告
 
-🔗 [原文链接](https://openrouter.ai/state-of-ai) | @OpenRouter + a16z | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://openrouter.ai/state-of-ai) | @OpenRouter + a16z | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2025-12-06
 
 `OpenRouter` `a16z` `LLM` `100T-tokens` `agentic` `开源模型` `retention`
 

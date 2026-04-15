@@ -11,7 +11,7 @@ sidebar: false
 
 > 从 KV 缓存原理到 Claude Code 实战，系统讲透 token 省钱机制
 
-🔗 [原文链接](https://x.com/MinLiBuilds/status/2041178722230030384) | @MinLiBuilds | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/MinLiBuilds/status/2041178722230030384) | @MinLiBuilds | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-06
 
 `kv-cache` `claude-code` `token-optimization` `transformer` `caching` `prompt-caching`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏: Building A Generative AI Platform
 
-🔗 [原文链接](https://huyenchip.com/2024/07/25/genai-platform.html?s=09) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://huyenchip.com/2024/07/25/genai-platform.html?s=09) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-08-08
 
 `anthropic` `[]` `prompt` `rag` `openai`
 

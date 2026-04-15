@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于 AI Agent 的收藏文章
 
-🔗 [原文链接](https://youmind.com/s/Q8qqsFCOAdt2sU) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://youmind.com/s/Q8qqsFCOAdt2sU) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-01-05
 
 `Claude` `LLM` `Agent` `Prompt Engineering`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > Agent 相关：从 Vibe Coding 到 Agentic Engineering：开发者角
 
-🔗 [原文链接](https://x.com/yanhua1010/status/2028737821855580662) | @yanhua1010 |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/yanhua1010/status/2028737821855580662) | @yanhua1010 |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-03
 
 `claude` `agent` `karpathy` `vibe-coding` `agentic` `skill` `coding` `rag`
 

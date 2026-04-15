@@ -11,7 +11,7 @@ sidebar: false
 
 > OpenClaw macOS 运行报错排查指南，覆盖 Gateway 全链路
 
-🔗 [原文链接](https://x.com/lijiuer92/status/2026639705933328582) | @李韭二 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/lijiuer92/status/2026639705933328582) | @李韭二 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-27
 
 `openclaw` `troubleshooting` `gateway` `macos` `debug`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > 工具调用能力的新探索
 
-🔗 [原文链接](#) | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](#) | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-09
 
 `safety` `coding` `agent` `tool-use` `llm` `paper` `reasoning` `multi-agent`
 

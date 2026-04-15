@@ -110,7 +110,7 @@ pub_dir.mkdir(exist_ok=True)
 # === Date helpers ===
 # 优先用 published_date，没有则用 added_date
 def entry_date(e):
-    return e.get("published_date") or e.get("added_date") or ""
+    return e.get("published_date") or (e.get("source") or {}).get("original_date") or e.get("added_date") or ""
 
 def date_label(date_str):
     if not date_str:

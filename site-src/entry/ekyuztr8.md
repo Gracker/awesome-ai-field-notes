@@ -11,7 +11,7 @@ sidebar: false
 
 > GPT-4 多模态发布时的行业震动记录
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650870948&idx=1&sn=3212389008c3c47d4394b0400bc143f9&chksm=84e4d0dab39359cc4277e2b1388951c589fb79b48b62d2b38d3c66b0d5e4c9cca34d769a0bc6&mpshare=1&scene=1&srcid=0315pVGBWZU16nNnNhVws0Gr&sharer_sharetime=1678834483962&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650870948&idx=1&sn=3212389008c3c47d4394b0400bc143f9&chksm=84e4d0dab39359cc4277e2b1388951c589fb79b48b62d2b38d3c66b0d5e4c9cca34d769a0bc6&mpshare=1&scene=1&srcid=0315pVGBWZU16nNnNhVws0Gr&sharer_sharetime=1678834483962&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-03-15
 
 `大模型` `[]` `gpt-4` `openai` `chatgpt`
 

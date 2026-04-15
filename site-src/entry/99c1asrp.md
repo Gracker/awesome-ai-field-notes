@@ -11,7 +11,7 @@ sidebar: false
 
 > 信息过载的自动化筛选方案，5 分钟处理 5000 人信息流
 
-🔗 [原文链接](https://x.com/0xkevinhe/status/2025781752971809010) | @Kevin He | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/0xkevinhe/status/2025781752971809010) | @Kevin He | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-02-23
 
 `clawfeed` `information-filtering` `openclaw` `workflow` `automation`
 

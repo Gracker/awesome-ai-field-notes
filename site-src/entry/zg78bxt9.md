@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于Cursor｜软件开发行业新变革的收藏文章
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247510116&idx=1&sn=d5904abd8dfccc25500b2c795dd42b14&chksm=e84f2b75b4972ec14ed36558042c0156dbb7195dd95882d1e4a7de71849399cca2df5388292b&scene=126&sessionid=1726046291) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247510116&idx=1&sn=d5904abd8dfccc25500b2c795dd42b14&chksm=e84f2b75b4972ec14ed36558042c0156dbb7195dd95882d1e4a7de71849399cca2df5388292b&scene=126&sessionid=1726046291) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-09-11
 
 `copilot` `[]` `claude` `cursor`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > Claude Code 编程工具相关实践与技巧
 
-🔗 [原文链接](https://mp.weixin.qq.com/s/a-KpOYR42DPX0Lr075KFmg?click_id=1) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s/a-KpOYR42DPX0Lr075KFmg?click_id=1) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-01-08
 
 `[]` `claude`
 

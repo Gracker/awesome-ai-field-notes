@@ -11,7 +11,7 @@ sidebar: false
 
 > 2027 年 AI 新商业模式预测：零员工企业级服务公司
 
-🔗 [原文链接](https://x.com/Zephyr_hg/article/2026656410084258042) | @Zephyr | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/Zephyr_hg/article/2026656410084258042) | @Zephyr | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-26
 
 `business-model` `ai-startup` `one-person-company` `automation` `2027`
 

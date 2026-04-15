@@ -11,7 +11,7 @@ sidebar: false
 
 > LangChain 创始人对 Agent 时代 EPD 角色重塑的清晰判断：Builder vs Reviewer 二分法。
 
-🔗 [原文链接](https://x.com/hwchase17/status/2031051115169808685) | @Harrison Chase | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/hwchase17/status/2031051115169808685) | @Harrison Chase | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-09
 
 `Coding Agent` `EPD` `产品开发` `系统思维` `LangChain`
 

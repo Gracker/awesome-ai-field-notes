@@ -11,7 +11,7 @@ sidebar: false
 
 > 上下文工程的开放技能库，按需加载、平台无关
 
-🔗 [原文链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | @泊舟 |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | @泊舟 |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-24
 
 `context-engineering` `skills` `agent` `claude-code` `cursor` `lost-in-the-middle`
 

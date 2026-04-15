@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 正在打破几千年&quot;智力溢价&quot;的经济底层规则
 
-🔗 [原文链接](https://x.com/FuSheng_0306/article/2026910973030969477) | @傅盛 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/FuSheng_0306/article/2026910973030969477) | @傅盛 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-26
 
 `ai-impact` `employment` `knowledge-depreciation` `white-collar` `economy`
 

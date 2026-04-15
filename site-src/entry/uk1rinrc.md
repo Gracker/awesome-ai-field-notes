@@ -11,9 +11,19 @@ sidebar: false
 
 > 从科学哲学角度追问：AI 能执行方法，但科学不仅仅是方法
 
-🔗 [原文链接](https://x.com/indigox/article/2026911299494449635) | @indigo | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/indigox/article/2026911299494449635) | @indigo | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-02-26
 
 `ai-science` `philosophy` `consciousness` `alphaFold` `scientific-method`
+
+---
+
+# The Death of the Scientist
+
+> **来源**: Noema Magazine
+> **URL**: https://www.noemamag.com/the-death-of-the-scientist/
+> **作者**: Sara Imari Walker (Arizona State University / Santa Fe Institute)
+> **日期**: 2025-12-11
+> **状态**: ✅ 原文完整抓取
 
 ---
 

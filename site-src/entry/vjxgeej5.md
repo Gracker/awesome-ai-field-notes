@@ -11,7 +11,7 @@ sidebar: false
 
 > Android × AI 交叉领域收藏
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650855083&idx=1&sn=6258dddad6e4c5ea10b6648c4e6ce428&chksm=812ae789ee60865948e8658c3605f896fc764e6c0deaa68eac64d340fff76d09b827127f8776&mpshare=1&scene=1&srcid=0630gpAnMcnEGXxDHb8Jw4Ny&sharer_shareinfo=02a7898975efb7a29bfd6459e0f202ca&sharer_shareinfo_first=02a7898975efb7a29bfd6459e0f202ca) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650855083&idx=1&sn=6258dddad6e4c5ea10b6648c4e6ce428&chksm=812ae789ee60865948e8658c3605f896fc764e6c0deaa68eac64d340fff76d09b827127f8776&mpshare=1&scene=1&srcid=0630gpAnMcnEGXxDHb8Jw4Ny&sharer_shareinfo=02a7898975efb7a29bfd6459e0f202ca&sharer_shareinfo_first=02a7898975efb7a29bfd6459e0f202ca) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-06-30
 
 `Gemini` `Android` `Performance`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — 抄 Apple Intelligence 作业的思路 文章从 LLM 的近况切入，探讨 Apple 
 
-🔗 [原文链接](https://juejin.cn/post/7407385581079396389) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://juejin.cn/post/7407385581079396389) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-09-03
 
 ---
 

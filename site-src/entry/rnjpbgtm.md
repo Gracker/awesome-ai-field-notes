@@ -11,7 +11,7 @@ sidebar: false
 
 > Karpathy：App Store 概念已过时，未来是 Agent 即兴创建的定制软件
 
-🔗 [原文链接](https://x.com/karpathy/status/2024583544157458452) | @Andrej Karpathy | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/karpathy/status/2024583544157458452) | @Andrej Karpathy | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-02-28
 
 `karpathy` `vibe-coding` `bespoke-software` `app-store` `agent-native`
 

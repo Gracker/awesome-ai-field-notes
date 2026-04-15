@@ -11,7 +11,7 @@ sidebar: false
 
 > Google 官方智能体设计模式的中文译版
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MjM5MDExNTY2Nw==&mid=2447768331&idx=1&sn=355262c43a479776e1502d0ca95ae868&chksm=b362dee6a9e871cee8010db2395e017cfccb130cfe10ca12354b043b2dfeb48344dbe8c103ce&mpshare=1&scene=1&srcid=1019OkOWOErLjvi70dEM5m9n&sharer_shareinfo=e0d6e5879044b1fa2169e3ff2bb90d76&sharer_shareinfo_first=e0d6e5879044b1fa2169e3ff2bb90d76) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MjM5MDExNTY2Nw==&mid=2447768331&idx=1&sn=355262c43a479776e1502d0ca95ae868&chksm=b362dee6a9e871cee8010db2395e017cfccb130cfe10ca12354b043b2dfeb48344dbe8c103ce&mpshare=1&scene=1&srcid=1019OkOWOErLjvi70dEM5m9n&sharer_shareinfo=e0d6e5879044b1fa2169e3ff2bb90d76&sharer_shareinfo_first=e0d6e5879044b1fa2169e3ff2bb90d76) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-10-19
 
 `deepseek` `llm` `大模型` `[]` `agent` `rag` `inference` `gemini`
 

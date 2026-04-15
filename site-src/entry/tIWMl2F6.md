@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — funstory-ai/BabelDOC: Yet Another Document Transla
 
-🔗 [原文链接](https://github.com/funstory-ai/BabelDOC) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://github.com/funstory-ai/BabelDOC) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-04-03
 
 ---
 

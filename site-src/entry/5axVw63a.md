@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — 探索 AI 编程智能体
 
-🔗 [原文链接](https://juejin.cn/post/7465031850969858088?share_token=95c52b62-bbc3-4074-96b5-b5fd64043cc6) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://juejin.cn/post/7465031850969858088?share_token=95c52b62-bbc3-4074-96b5-b5fd64043cc6) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-02-03
 
 ---
 

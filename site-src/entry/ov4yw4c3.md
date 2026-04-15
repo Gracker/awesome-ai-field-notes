@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 实践：2026-03-06-1628-GeekPlux-拥抱黑盒：一个研究者 All 
 
-🔗 [原文链接](https://x.com/geekplux/status/2029761486671712745) | @GeekPlux |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/geekplux/status/2029761486671712745) | @GeekPlux |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-06
 
 `archive` `x-bookmarks` `external-link`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > 非程序员用 Claude Code 36 小时搭出完整幕僚长系统，证明系统思维 &gt; 编程能力。
 
-🔗 [原文链接](https://x.com/jimprosser/article/2029699731539255640) | @Jim Prosser | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/jimprosser/article/2029699731539255640) | @Jim Prosser | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-08
 
 `Claude Code` `自动化` `子Agent` `任务管理` ` productivity` `系统设计`
 

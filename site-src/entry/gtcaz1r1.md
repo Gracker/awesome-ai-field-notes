@@ -11,7 +11,7 @@ sidebar: false
 
 > 6551 开源 X/新闻/链上数据 MCP，几分钟给 Agent 接入全网信息源
 
-🔗 [原文链接](https://x.com/cryptoxiao/status/2026956308092453360) | @cryptoxiao | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/cryptoxiao/status/2026956308092453360) | @cryptoxiao | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-02-28
 
 `mcp` `openclaw` `news-source` `x-api` `skill` `open-source`
 

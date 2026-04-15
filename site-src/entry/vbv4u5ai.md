@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，best-practices 领域相关内容
 
-🔗 [原文链接](https://github.com/foreveryh/Articels/blob/main/%E8%85%B9%E8%83%8C%E5%8F%97%E6%95%8C%E7%9A%84%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%EF%BC%883%20%E4%B8%87%E5%AD%97%E9%95%BF%E6%96%87%EF%BC%89.md) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://github.com/foreveryh/Articels/blob/main/%E8%85%B9%E8%83%8C%E5%8F%97%E6%95%8C%E7%9A%84%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%EF%BC%883%20%E4%B8%87%E5%AD%97%E9%95%BF%E6%96%87%EF%BC%89.md) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-07-07
 
 ---
 

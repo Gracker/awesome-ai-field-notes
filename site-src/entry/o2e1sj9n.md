@@ -11,7 +11,7 @@ sidebar: false
 
 > 2026 AI 趋势全景：模型飞轮加速，应用爆发，创作门槛消失
 
-🔗 [原文链接](https://mp.weixin.qq.com/s/D98rfJX1NZmAD4xxs1h-Xg?scene=1) | @向阳乔木 | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s/D98rfJX1NZmAD4xxs1h-Xg?scene=1) | @向阳乔木 | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-02-26
 
 `ai-trends` `model-flywheel` `agent` `multimodal` `career` `2026`
 

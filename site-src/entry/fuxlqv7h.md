@@ -11,7 +11,7 @@ sidebar: false
 
 > Anthropic 公司动态与分析收藏
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247498537&idx=1&sn=23cafdfedc8297dfa05d46a5bce8db11&chksm=e83b872acc893f6ffb867f3fd3bd14634ae32630344f698f941bfa2f5b65d9f7755e82b8bd9c&mpshare=1&scene=1&srcid=0815evfjgbXaGDetZApIQOyX&sharer_shareinfo=fd637b036a75822befde463b74963297&sharer_shareinfo_first=fd637b036a75822befde463b74963297) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247498537&idx=1&sn=23cafdfedc8297dfa05d46a5bce8db11&chksm=e83b872acc893f6ffb867f3fd3bd14634ae32630344f698f941bfa2f5b65d9f7755e82b8bd9c&mpshare=1&scene=1&srcid=0815evfjgbXaGDetZApIQOyX&sharer_shareinfo=fd637b036a75822befde463b74963297&sharer_shareinfo_first=fd637b036a75822befde463b74963297) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-08-15
 
 `Claude` `Anthropic`
 

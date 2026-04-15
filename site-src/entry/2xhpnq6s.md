@@ -11,7 +11,7 @@ sidebar: false
 
 > Android Perfetto trace 分析 AI Agent 完整工程实践，MCP+Skill 三层验证范本
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzIwNTQxMjM5MA==&mid=2247487518&idx=1&sn=ec49eac761ffd13acc02cd5e6cea7b94) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzIwNTQxMjM5MA==&mid=2247487518&idx=1&sn=ec49eac761ffd13acc02cd5e6cea7b94) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-30
 
 `SmartPerfetto` `Perfetto` `Android` `性能优化` `MCP` `Agent` `Harness-Engineering`
 

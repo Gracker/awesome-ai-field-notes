@@ -11,7 +11,7 @@ sidebar: false
 
 > Anthropic 多 Agent 研究系统的完整工程实践，从 prompt 到生产的全链路经验
 
-🔗 [原文链接](https://www.anthropic.com/engineering/multi-agent-research-system) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://www.anthropic.com/engineering/multi-agent-research-system) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-12-15
 
 `multi-agent` `research-system` `anthropic` `production` `prompt-engineering` `evaluation` `subagent`
 

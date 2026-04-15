@@ -11,7 +11,7 @@ sidebar: false
 
 > Claude Code auto mode：在自动化效率和安全控制间找到更好的平衡点
 
-🔗 [原文链接](https://www.anthropic.com/engineering/claude-code-auto-mode) | @Anthropic Engineering | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://www.anthropic.com/engineering/claude-code-auto-mode) | @Anthropic Engineering | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-25
 
 `claude-code` `auto-mode` `safety` `permissions` `anthropic`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > 36 岁转行程序员做出的 Claude Code 供应商切换工具，2 万 Star
 
-🔗 [原文链接](https://x.com/wey_gu/status/2027772306458812757) | @Wey Gu | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/wey_gu/status/2027772306458812757) | @Wey Gu | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-01
 
 `cc-switch` `claude-code` `electron` `tauri` `open-source` `career-switch`
 

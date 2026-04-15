@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 编程工具与实践相关收藏
 
-🔗 [原文链接](https://mp.weixin.qq.com/s/ZQA8quhAEwUUsT2p_IjG0g?token=1639803888&lang=zh_CN) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s/ZQA8quhAEwUUsT2p_IjG0g?token=1639803888&lang=zh_CN) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-02-03
 
 `Copilot` `Cursor` `IndieDev`
 

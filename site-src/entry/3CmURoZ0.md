@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — 最近爆火的MCP究竟有多大魅力？MCP开发初体验｜得物技术
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzkxNTE3ODU0NA==&mid=2247539225&idx=1&sn=811dee1e2b17f5b1249d14f19b69f171&chksm=c0410dd7305597ba3c7f3dc6d1f7ee85808d38011bd376b42cace90a0fbc6c687a1be00c888f&mpshare=1&scene=1&srcid=0507se7oCab5JJoikWmzE8I5&sharer_shareinfo=634900176f4a7a250585116a09ea6b5f&sharer_shareinfo_first=634900176f4a7a250585116a09ea6b5f) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzkxNTE3ODU0NA==&mid=2247539225&idx=1&sn=811dee1e2b17f5b1249d14f19b69f171&chksm=c0410dd7305597ba3c7f3dc6d1f7ee85808d38011bd376b42cace90a0fbc6c687a1be00c888f&mpshare=1&scene=1&srcid=0507se7oCab5JJoikWmzE8I5&sharer_shareinfo=634900176f4a7a250585116a09ea6b5f&sharer_shareinfo_first=634900176f4a7a250585116a09ea6b5f) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-05-07
 
 ---
 

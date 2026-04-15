@@ -11,7 +11,7 @@ sidebar: false
 
 > Jack Dorsey 亲笔：不是因为亏损裁 4000 人，是 AI 让小团队成为可能
 
-🔗 [原文链接](https://x.com/jack/status/2027129697092731343) | @jack | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/jack/status/2027129697092731343) | @jack | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-28
 
 `block` `layoff` `jack-dorsey` `ai-restructuring` `future-of-work`
 

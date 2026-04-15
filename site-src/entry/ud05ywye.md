@@ -11,7 +11,7 @@ sidebar: false
 
 > 用极端案例精准揭示了 LLM 代码生成的核心缺陷：表面正确 ≠ 实际正确。
 
-🔗 [原文链接](https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code) | @Hōrōshi バガボンド | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code) | @Hōrōshi バガボンド | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-07
 
 `LLM` `代码质量` `SQLite` `性能` `AI对齐` `sycophancy`
 

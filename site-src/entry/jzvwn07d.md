@@ -11,7 +11,7 @@ sidebar: false
 
 > Android × AI 交叉领域收藏
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650855096&idx=1&sn=688c59c8edea33ba98cb03af0f61e51f&chksm=81face25ece90eee91041797c0bdf9f2adaceb9ac3f2c77b1f812fd96eecb89e5a9a733a27ad&mpshare=1&scene=1&srcid=070719TlWDjdxhX9yG4Y2aSq&sharer_shareinfo=3d4eb03316b182ebd8324807da5dc1bb&sharer_shareinfo_first=3d4eb03316b182ebd8324807da5dc1bb) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650855096&idx=1&sn=688c59c8edea33ba98cb03af0f61e51f&chksm=81face25ece90eee91041797c0bdf9f2adaceb9ac3f2c77b1f812fd96eecb89e5a9a733a27ad&mpshare=1&scene=1&srcid=070719TlWDjdxhX9yG4Y2aSq&sharer_shareinfo=3d4eb03316b182ebd8324807da5dc1bb&sharer_shareinfo_first=3d4eb03316b182ebd8324807da5dc1bb) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-07-07
 
 `Android`
 

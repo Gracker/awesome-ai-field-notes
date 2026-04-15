@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 实践：该项目在github上：https://github.com/OminousIn
 
-🔗 [原文链接](https://github.com/OminousIndustries/PhoneDriver) | @DLKFZWilliam2 |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://github.com/OminousIndustries/PhoneDriver) | @DLKFZWilliam2 |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-01
 
 `agent` `qwen` `phone-ai` `automation` `github`
 

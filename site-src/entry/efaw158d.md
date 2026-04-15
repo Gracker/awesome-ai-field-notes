@@ -11,7 +11,7 @@ sidebar: false
 
 > 半年深度使用的Claude Code六层架构拆解，MCP工具定义是上下文最大隐形杀手
 
-🔗 [原文链接](https://x.com/hitw93/status/2032091246588518683) | @Tw93 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/hitw93/status/2032091246588518683) | @Tw93 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-21
 
 `Claude-Code` `架构治理` `上下文管理` `Skills` `Hooks` `Subagents` `工程实践`
 

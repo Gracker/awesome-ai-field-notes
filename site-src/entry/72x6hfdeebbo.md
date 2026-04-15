@@ -11,7 +11,7 @@ sidebar: false
 
 > Harness Engineering 是将 AI Agent 从好玩具变可靠工具的完整工程框架，为 Agent 系统提供约束、引导与纠正机制
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzkxMTY4NTAyNQ==&mid=2247508809&idx=1&sn=960d705ab56f992ed504a2b735a2a515) | @咸鱼（TRAE 开发者用户） | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-12
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzkxMTY4NTAyNQ==&mid=2247508809&idx=1&sn=960d705ab56f992ed504a2b735a2a515) | @咸鱼（TRAE 开发者用户） | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-11
 
 `harness-engineering` `agent-frameworks` `prompt-engineering` `context-engineering` `reliability` `agent-infrastructure`
 

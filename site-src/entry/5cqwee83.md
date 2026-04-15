@@ -11,7 +11,7 @@ sidebar: false
 
 > OpenClaw 相关：OpenClaw丨我的龙虾为自己种了一棵会迭代的记忆树
 
-🔗 [原文链接](https://x.com/loryoncloud/status/2027865988558164186) | @Lory |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/loryoncloud/status/2027865988558164186) | @Lory |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-01
 
 `openclaw` `agent` `memory` `context-management` `github`
 

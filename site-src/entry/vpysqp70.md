@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于GitHub - PlexPt/awesome-chatgp的收藏文章
 
-🔗 [原文链接](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-02-27
 
 `[]` `openai` `prompt` `chatgpt`
 

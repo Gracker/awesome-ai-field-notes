@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — Writing my own ChatGPT Code Interpreter
 
-🔗 [原文链接](https://ricklamers.io/posts/gpt-code) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://ricklamers.io/posts/gpt-code) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-07-12
 
 ---
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > Agent 相关：Agent工程=分布式系统工程（6支柱速读）
 
-🔗 [原文链接](https://x.com/Stv_Lynn/status/2028288139777986713) | @Stv_Lynn |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/Stv_Lynn/status/2028288139777986713) | @Stv_Lynn |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-02
 
 `agent` `agentic`
 

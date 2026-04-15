@@ -11,7 +11,7 @@ sidebar: false
 
 > 文件系统是 Agent 上下文工程最被低估的基础设施
 
-🔗 [原文链接](https://blog.langchain.com/how-agents-can-use-filesystems-for-context-engineering/) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://blog.langchain.com/how-agents-can-use-filesystems-for-context-engineering/) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-01-07
 
 `context-engineering` `filesystem` `agent` `langchain` `deep-agents` `scratch-pad` `memory`
 

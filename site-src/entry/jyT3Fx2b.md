@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — o1发布后，信息量最大的圆桌对话：杨植麟、姜大昕、朱军探讨大模型技术路径
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247508205&idx=1&sn=f9d2e8157c3239edfb9ced742402ab6b&chksm=c1ba504955b9e2a7d655ce0cef53a866fb1c8bcb94af3a12ca163660b45b491b9ffe5aa7c72f&mpshare=1&scene=1&srcid=0919VXMU59Hz06bWzhnRmFBV&sharer_shareinfo=543abc86b66833bf72da2cb94298502f&sharer_shareinfo_first=543abc86b66833bf72da2cb94298502f) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247508205&idx=1&sn=f9d2e8157c3239edfb9ced742402ab6b&chksm=c1ba504955b9e2a7d655ce0cef53a866fb1c8bcb94af3a12ca163660b45b491b9ffe5aa7c72f&mpshare=1&scene=1&srcid=0919VXMU59Hz06bWzhnRmFBV&sharer_shareinfo=543abc86b66833bf72da2cb94298502f&sharer_shareinfo_first=543abc86b66833bf72da2cb94298502f) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-09-19
 
 ---
 

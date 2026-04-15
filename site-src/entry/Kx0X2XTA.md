@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — The Cook and the Chef: Musk&#x27;s Secret Sauce — Wait 
 
-🔗 [原文链接](https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-10-07
 
 ---
 

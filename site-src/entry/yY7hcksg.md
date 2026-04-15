@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — TikTok and the Sorting Hat — Remains of the Day
 
-🔗 [原文链接](https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-07-11
 
 ---
 

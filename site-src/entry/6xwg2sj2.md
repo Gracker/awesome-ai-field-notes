@@ -11,7 +11,7 @@ sidebar: false
 
 > Apple Neural Engine 上部署 Transformer 的技术方案
 
-🔗 [原文链接](https://machinelearning.apple.com/research/neural-engine-transformers) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://machinelearning.apple.com/research/neural-engine-transformers) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-04-02
 
 `transformer` `[]` `inference`
 

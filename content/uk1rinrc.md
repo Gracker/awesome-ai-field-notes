@@ -1,3 +1,13 @@
+# The Death of the Scientist
+
+> **来源**: Noema Magazine
+> **URL**: https://www.noemamag.com/the-death-of-the-scientist/
+> **作者**: Sara Imari Walker (Arizona State University / Santa Fe Institute)
+> **日期**: 2025-12-11
+> **状态**: ✅ 原文完整抓取
+
+---
+
 A persistent hubris infects every age of our species’ scientific and technological development. It usually takes the form of individuals or institutions who are confident that — after thousands of years of human cultural evolution and billions of years of biological evolution — we have finally gotten to the bottom of reality. We are finally at the precipice to explain  everything .
 
 The newest incarnation is found in discourse around artificial intelligence. Here, at least, it is acknowledged that humans, with our limited memory and information processing capacity, will never really  know  everything. Still, this newfound and humbler stance is supplemented with the assumption that we are the single superior biological species who can build the technologies that will.

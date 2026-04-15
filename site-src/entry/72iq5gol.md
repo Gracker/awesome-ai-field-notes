@@ -11,7 +11,7 @@ sidebar: false
 
 > 双模型代码审查：Opus 写、Codex 审，消除盲区
 
-🔗 [原文链接](https://x.com/runes_leo/status/2027269214524903892) | @Leo | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/runes_leo/status/2027269214524903892) | @Leo | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-28
 
 `claude-code` `codex` `code-review` `mcp` `dual-model`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > OpenClaw 相关：如何从零开始写一个 OpenClaw -- 关于我用 Rust 写一只🦀🦞(Cr
 
-🔗 [原文链接](https://x.com/jakevin7/status/2028499952973099363) | @jakevin7 |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/jakevin7/status/2028499952973099363) | @jakevin7 |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-03
 
 `openclaw` `agent` `agentic` `skill` `context-management` `github`
 

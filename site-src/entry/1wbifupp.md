@@ -11,7 +11,7 @@ sidebar: false
 
 > Agent 相关：2026-03-04-2010-centurybbx-Writing-about
 
-🔗 [原文链接](https://x.com/centurybbx/status/2028322864798331292) | @centurybbx |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/centurybbx/status/2028322864798331292) | @centurybbx |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-04
 
 `claude` `codex` `agent` `vibe-coding` `agentic` `tdd` `coding`
 

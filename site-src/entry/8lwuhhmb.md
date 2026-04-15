@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 编程工具与实践相关收藏
 
-🔗 [原文链接](https://www.bestblogs.dev/en/article/d0229b57) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://www.bestblogs.dev/en/article/d0229b57) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-01-09
 
 `Claude` `LLM` `Prompt Engineering` `AI Coding` `Cursor` `Qwen` `AI Safety`
 

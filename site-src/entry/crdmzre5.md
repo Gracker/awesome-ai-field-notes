@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，frontier-models 领域相关内容
 
-🔗 [原文链接](https://karpathy.bearblog.dev/year-in-review-2025/) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://karpathy.bearblog.dev/year-in-review-2025/) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-12-22
 
 `LLM` `DeepSeek`
 

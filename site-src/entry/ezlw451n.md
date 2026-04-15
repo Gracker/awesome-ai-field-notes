@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，ide-editor 领域相关内容
 
-🔗 [原文链接](https://youmind.com/s/pG5sMT6W7UIdIe) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://youmind.com/s/pG5sMT6W7UIdIe) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-01-05
 
 `Agent` `AI Coding` `Vibe Coding`
 

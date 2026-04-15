@@ -11,7 +11,7 @@ sidebar: false
 
 > Harness Engineering 是将 AI Agent 从好玩具变可靠工具的完整工程框架，为 Agent 系统提供约束、引导与纠正机制
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzUzNzg4Nzc3MQ==&mid=2247485969&idx=1&sn=32449a8c2513a5cb53f1ad2360b58e4a) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-12
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzUzNzg4Nzc3MQ==&mid=2247485969&idx=1&sn=32449a8c2513a5cb53f1ad2360b58e4a) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-11
 
 `risc-v` `ai-chip` `agent-era` `in-memory-computing` `cim` `aries` `isscc`
 

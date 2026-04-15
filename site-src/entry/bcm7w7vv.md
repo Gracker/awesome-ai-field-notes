@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于Enhancing Cursor and CodeBuddy的收藏文章
 
-🔗 [原文链接](https://www.bestblogs.dev/en/article/72c5e6) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://www.bestblogs.dev/en/article/72c5e6) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-09-24
 
 `copilot` `[]` `prompt` `cursor` `agent` `inference` `ai编程` `claude`
 

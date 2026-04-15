@@ -11,7 +11,7 @@ sidebar: false
 
 > 前 Meta AI 负责人：代码是媒介，判断力是手艺，品味是护城河
 
-🔗 [原文链接](https://x.com/szslg/status/2027198886981587407) | @苏里格 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/szslg/status/2027198886981587407) | @苏里格 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-28
 
 `software-engineering` `ai-coding` `judgment` `taste` `career`
 

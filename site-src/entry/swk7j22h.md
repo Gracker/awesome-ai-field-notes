@@ -11,7 +11,7 @@ sidebar: false
 
 > GPU 工作原理与 AI 基础设施入门
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649794406&idx=1&sn=a82bddefd373ede0e74b469c424c3ea8&chksm=bf32955ebe2ab04b75d0aa853f7a99280f643248ea9b612833cfcc6bee8ef622a37e4757c15b&mpshare=1&scene=1&srcid=0708WHfDSRgLGj8rXTzQcwtz&sharer_shareinfo=25bd203985012df350edcae33fa026fd&sharer_shareinfo_first=25bd203985012df350edcae33fa026fd) | @binnnliu | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649794406&idx=1&sn=a82bddefd373ede0e74b469c424c3ea8&chksm=bf32955ebe2ab04b75d0aa853f7a99280f643248ea9b612833cfcc6bee8ef622a37e4757c15b&mpshare=1&scene=1&srcid=0708WHfDSRgLGj8rXTzQcwtz&sharer_shareinfo=25bd203985012df350edcae33fa026fd&sharer_shareinfo_first=25bd203985012df350edcae33fa026fd) | @binnnliu | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-07-08
 
 `[]` `inference` `大模型`
 

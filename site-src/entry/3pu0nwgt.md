@@ -11,7 +11,7 @@ sidebar: false
 
 > 双 Mac Studio RDMA 池化跑 Qwen3.5-122B，52 tok/s 稳定吞吐
 
-🔗 [原文链接](https://x.com/TrevinPeterson/status/2027404303749546459) | @TrevinPeterson | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/TrevinPeterson/status/2027404303749546459) | @TrevinPeterson | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-28
 
 `qwen` `mac-studio` `rdma` `exo` `local-inference` `thunderbolt`
 

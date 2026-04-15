@@ -11,7 +11,7 @@ sidebar: false
 
 > LLM 推理能力增强的新方法
 
-🔗 [原文链接](https://arxiv.org/pdf/2503.16779) | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://arxiv.org/pdf/2503.16779) | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-13
 
 `fine-tuning` `coding` `agent` `tool-use` `llm` `paper` `reinforcement-learning` `reasoning`
 

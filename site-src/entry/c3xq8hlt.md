@@ -11,7 +11,7 @@ sidebar: false
 
 > 8000 字深度分析 AI 如何改写全球价值链：微笑曲线翻转，溢价切向物理世界
 
-🔗 [原文链接](https://x.com/Stanleysobest/status/2027726669814136976) | @Stanley | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/Stanleysobest/status/2027726669814136976) | @Stanley | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-01
 
 `ai-economy` `resources` `australia` `smile-curve` `jevons-paradox` `value-chain`
 

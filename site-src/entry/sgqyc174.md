@@ -11,7 +11,7 @@ sidebar: false
 
 > Claude Code 核心开发经验的中文翻译版
 
-🔗 [原文链接](https://x.com/fkysly/status/2027610329530712204) | @马天翼 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/fkysly/status/2027610329530712204) | @马天翼 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-28
 
 `claude-code` `agent-design` `tool-calling` `chinese-translation`
 

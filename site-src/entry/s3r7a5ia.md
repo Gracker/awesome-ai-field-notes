@@ -11,7 +11,7 @@ sidebar: false
 
 > Agent 相关：工程师，开始给 Agent 打工了
 
-🔗 [原文链接](https://x.com/wangray/status/2028132386756780220) | @wangray | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/wangray/status/2028132386756780220) | @wangray | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-02
 
 `openclaw` `codex` `agent` `memory`
 

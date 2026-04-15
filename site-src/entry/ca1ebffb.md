@@ -11,7 +11,7 @@ sidebar: false
 
 > 4756 个源码文件拆出的 Claude Code 架构全景：prompt 动态拼装、Agent 分工、工具治理 pipeline。
 
-🔗 [原文链接](https://x.com/tvytlx/status/2038939480892346699) | @Xiao Tan | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/tvytlx/status/2038939480892346699) | @Xiao Tan | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-05
 
 `Claude Code` `源码分析` `Agent架构` `系统设计` `上下文管理`
 

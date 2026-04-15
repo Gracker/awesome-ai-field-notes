@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — Windsurf：面向未来的 AI编程工具详解
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg3OTYwMjcxMA==&mid=2247488634&idx=1&sn=5c07be393a21ec29c1e7b57432d5affd&chksm=ce5273e456a9e242cbcb5ddb42a2a732a84d6fba8b6e6a1c9d6e60c583e931a6150ff36e375a&mpshare=1&scene=1&srcid=0108YxgA7cywjKuymVzomsTE&sharer_shareinfo=4b4f4111efff99d418d52653b1a3ce05&sharer_shareinfo_first=4b4f4111efff99d418d52653b1a3ce05) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg3OTYwMjcxMA==&mid=2247488634&idx=1&sn=5c07be393a21ec29c1e7b57432d5affd&chksm=ce5273e456a9e242cbcb5ddb42a2a732a84d6fba8b6e6a1c9d6e60c583e931a6150ff36e375a&mpshare=1&scene=1&srcid=0108YxgA7cywjKuymVzomsTE&sharer_shareinfo=4b4f4111efff99d418d52653b1a3ce05&sharer_shareinfo_first=4b4f4111efff99d418d52653b1a3ce05) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-01-08
 
 ---
 

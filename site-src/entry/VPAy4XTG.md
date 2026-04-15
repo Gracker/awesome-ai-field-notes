@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — The Product-Minded Software Engineer - The Pragmat
 
-🔗 [原文链接](https://blog.pragmaticengineer.com/the-product-minded-engineer/?s=09) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://blog.pragmaticengineer.com/the-product-minded-engineer/?s=09) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-09-12
 
 ---
 

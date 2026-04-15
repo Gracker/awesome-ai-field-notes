@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — “Progress is not achieved by luck or accident, but
 
-🔗 [原文链接](https://newsletter.stoicallytyped.com/issues/progress-is-not-achieved-by-luck-or-accident-but-by-working-on-yourself-daily-558084) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://newsletter.stoicallytyped.com/issues/progress-is-not-achieved-by-luck-or-accident-but-by-working-on-yourself-daily-558084) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2022-01-24
 
 ---
 

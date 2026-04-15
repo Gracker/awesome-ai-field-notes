@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，best-practices 领域相关内容
 
-🔗 [原文链接](https://laike9m.com/blog/avoid-mini-frameworks,171/) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://laike9m.com/blog/avoid-mini-frameworks,171/) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-12-26
 
 ---
 

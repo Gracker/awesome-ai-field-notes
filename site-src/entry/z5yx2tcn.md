@@ -11,7 +11,7 @@ sidebar: false
 
 > 链上自主 AI Agent 的部署与运行指南，一体化沙盒平台
 
-🔗 [原文链接](https://x.com/JXiaoLoong/status/2024376180707905816) | @0xJA | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/JXiaoLoong/status/2024376180707905816) | @0xJA | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-02-24
 
 `conway` `on-chain-ai` `agent-deployment` `sandbox`
 

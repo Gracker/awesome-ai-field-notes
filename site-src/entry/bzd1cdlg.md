@@ -11,7 +11,7 @@ sidebar: false
 
 > 静态规范是 Agent 的陷阱，应该是人机共维护的活文档
 
-🔗 [原文链接](https://x.com/augmentcode/status/2025993446633492725) | @Augment Code | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/augmentcode/status/2025993446633492725) | @Augment Code | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-24
 
 `spec-driven` `agent` `software-development` `stale-specs` `co-maintenance`
 

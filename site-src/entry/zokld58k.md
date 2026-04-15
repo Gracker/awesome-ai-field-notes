@@ -11,7 +11,7 @@ sidebar: false
 
 > Gemma-4-31B 越狱版本出炉，HarmBench 93.7%，本地无审查新选择
 
-🔗 [原文链接](https://x.com/Lonely__MH/status/2040832951206961413) | @Lonely__MH | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/Lonely__MH/status/2040832951206961413) | @Lonely__MH | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2026-04-06
 
 `gemma` `jailbreak` `open-source` `harmbench` `safety`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > 目前对 AI 时代软件工程范式转移最全面的中文综述，信息密度极高。
 
-🔗 [原文链接](https://x.com/hongming731/article/2029843882037715433) | @ginobefun | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/hongming731/article/2029843882037715433) | @ginobefun | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-06
 
 `AI工程` `驾驭工程` `GPT-5.4` `Coding Agent` `Claude Code` `Agent架构`
 

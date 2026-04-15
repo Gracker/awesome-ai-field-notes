@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于ChatGPT背后的经济账的收藏文章
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzU5ODY2MTk3Nw==&mid=2247490676&idx=1&sn=f3f98a7b3b0670e4274dd681dcb44430&chksm=fe419242c9361b5425dd7205f30ceba365dbb05ee0a6f6d8a676357b1295fc341c7371a33860&mpshare=1&scene=1&srcid=0207AYBBvxIgd1vR12H4ipEz&sharer_sharetime=1675754807931&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzU5ODY2MTk3Nw==&mid=2247490676&idx=1&sn=f3f98a7b3b0670e4274dd681dcb44430&chksm=fe419242c9361b5425dd7205f30ceba365dbb05ee0a6f6d8a676357b1295fc341c7371a33860&mpshare=1&scene=1&srcid=0207AYBBvxIgd1vR12H4ipEz&sharer_sharetime=1675754807931&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-02-07
 
 `llm` `[]` `prompt` `inference` `chatgpt`
 

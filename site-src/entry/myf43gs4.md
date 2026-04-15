@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 实践：NevaMind-AI/memU
 
-🔗 [原文链接](https://github.com/NevaMind-AI/memU") | @NevaMindAI |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://github.com/NevaMind-AI/memU") | @NevaMindAI |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-02
 
 `agent` `memory` `context-management` `github`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > 一人开发团队的 Agent Swarm 实战：OpenClaw 编排 + 多模型协作
 
-🔗 [原文链接](https://x.com/elvissun/status/2025920521871716562) | @Elvis | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/elvissun/status/2025920521871716562) | @Elvis | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-02-24
 
 `openclaw` `codex` `claude-code` `agent-swarm` `orchestration` `tmux`
 

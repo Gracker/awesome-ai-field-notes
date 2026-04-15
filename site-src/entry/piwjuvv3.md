@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，inference-engines 领域相关内容
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzI5ODk5ODI4Nw==&mid=2247553129&idx=2&sn=b096969e9b11351ee311f13f4cb15c1b&chksm=ed4dcaeea8eed4db84fd7e26c9216b026b402f2de5aa869c09b82f22cc5e1666c3803f56a84f&mpshare=1&scene=1&srcid=0311AblXeZcZnhw5hMg3o7xI&sharer_shareinfo=38ca43ce0163ec0a3d17cf759565d2af&sharer_shareinfo_first=65f12cd27132058e786435d42b931d6c) | @Guangya Liu (IBM), Sujay Solomon (Google) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzI5ODk5ODI4Nw==&mid=2247553129&idx=2&sn=b096969e9b11351ee311f13f4cb15c1b&chksm=ed4dcaeea8eed4db84fd7e26c9216b026b402f2de5aa869c09b82f22cc5e1666c3803f56a84f&mpshare=1&scene=1&srcid=0311AblXeZcZnhw5hMg3o7xI&sharer_shareinfo=38ca43ce0163ec0a3d17cf759565d2af&sharer_shareinfo_first=65f12cd27132058e786435d42b931d6c) | @Guangya Liu (IBM), Sujay Solomon (Google) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-03-11
 
 `Anthropic` `LLM` `Agent` `Inference`
 

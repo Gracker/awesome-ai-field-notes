@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 实践：2026-03-05-0817-vista8-CC-Switch-Jason-S
 
-🔗 [原文链接](https://x.com/vista8/article/2027765124828905529") | @vista8 |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/vista8/article/2027765124828905529") | @vista8 |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-05
 
 `claude` `github` `CC-Switch` `Claude-Code` `开源` `转行` `AI编程`
 

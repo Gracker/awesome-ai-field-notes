@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于ChatGPT 在做什么… 以及它为何发挥作用？的收藏文章
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg3OTgxODY0Nw==&mid=2247483927&idx=1&sn=024c6b5fbb7e43a025eab9d6096b484f&chksm=cf7fe0eff80869f9eefa9fcff82e11910e9ab5ced03933f4040394b5a897003325eb7d601cc3&mpshare=1&scene=1&srcid=03092z2hM9JDktnp3XF30Tv2&sharer_sharetime=1678325853531&sharer_shareid=3fee492c0c6fb5a2da9e121bd1155214) | @Stephen Wolfram，发表于 2023年2月14日原文链接：https://writing | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg3OTgxODY0Nw==&mid=2247483927&idx=1&sn=024c6b5fbb7e43a025eab9d6096b484f&chksm=cf7fe0eff80869f9eefa9fcff82e11910e9ab5ced03933f4040394b5a897003325eb7d601cc3&mpshare=1&scene=1&srcid=03092z2hM9JDktnp3XF30Tv2&sharer_sharetime=1678325853531&sharer_shareid=3fee492c0c6fb5a2da9e121bd1155214) | @Stephen Wolfram，发表于 2023年2月14日原文链接：https://writing | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-03-09
 
 `[]` `llm` `chatgpt`
 

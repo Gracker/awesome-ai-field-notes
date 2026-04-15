@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于ChatGPT背后的语言模型简史的收藏文章
 
-🔗 [原文链接](https://www.bmpi.dev/dev/deep-learning/nlp-language-models/) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://www.bmpi.dev/dev/deep-learning/nlp-language-models/) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-05-07
 
 `[]` `chatgpt`
 

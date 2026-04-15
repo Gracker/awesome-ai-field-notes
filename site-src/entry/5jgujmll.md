@@ -11,7 +11,7 @@ sidebar: false
 
 > Claude 相关：Claude 终极入门指南：100 小时实测，一篇讲透
 
-🔗 [原文链接](https://x.com/yanhua1010/status/2029748928091148665) | @Yanhua | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/yanhua1010/status/2029748928091148665) | @Yanhua | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-06
 
 `claude` `memory` `skill` `context-management` `archive` `x-bookmarks`
 

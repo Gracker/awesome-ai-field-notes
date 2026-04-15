@@ -11,7 +11,7 @@ sidebar: false
 
 > OpenClaw Agent 自改进的 40 天实战：靠 markdown 文件栈而非调 prompt
 
-🔗 [原文链接](https://x.com/Saboo_Shubham_/status/2027463195150131572) | @Shubham Saboo | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/Saboo_Shubham_/status/2027463195150131572) | @Shubham Saboo | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-28
 
 `openclaw` `memory` `self-improvement` `agent-stack` `markdown`
 

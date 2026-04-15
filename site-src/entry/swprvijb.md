@@ -11,7 +11,7 @@ sidebar: false
 
 > OpenClaw 最系统的中高级教程，覆盖记忆/子Agent/Cron/Skill/多渠道
 
-🔗 [原文链接](https://x.com/onehopeA9/article/2026905651088339408) | @OneHopeA9 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/onehopeA9/article/2026905651088339408) | @OneHopeA9 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-26
 
 `openclaw` `tutorial` `agents-md` `memory` `cron` `skill` `multi-channel`
 

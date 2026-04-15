@@ -11,7 +11,7 @@ sidebar: false
 
 > Anthropic 官方托管 Agent 基础设施，大脑/手/记忆三层解耦架构
 
-🔗 [原文链接](https://x.com/RLanceMartin/status/2041927992986009773) | @RLanceMartin | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/RLanceMartin/status/2041927992986009773) | @RLanceMartin | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-06
 
 `claude` `managed-agents` `anthropic` `agent-sdk` `infrastructure` `cloud-agent`
 

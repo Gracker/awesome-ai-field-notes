@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于 AI Agent 的收藏文章
 
-🔗 [原文链接](https://mp.weixin.qq.com/s/obkKXZAEIsR3_DCup_kEsA) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s/obkKXZAEIsR3_DCup_kEsA) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-01-05
 
 `Anthropic` `Agent` `AI Coding` `MCP`
 

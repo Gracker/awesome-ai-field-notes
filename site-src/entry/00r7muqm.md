@@ -11,7 +11,7 @@ sidebar: false
 
 > 多智能体协作方向的前沿探索
 
-🔗 [原文链接](#) | @：** | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](#) | @：** | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-12
 
 `agent` `llm` `paper` `reinforcement-learning` `reasoning` `multi-agent` `ai`
 

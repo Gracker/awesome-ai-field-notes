@@ -11,7 +11,7 @@ sidebar: false
 
 > Agent 相关：从 MCP 到 SKILL：关于 Agent 扩展机制的思考
 
-🔗 [原文链接](https://x.com/jolestar/status/2011461813767155828) | @jolestar |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/jolestar/status/2011461813767155828) | @jolestar |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-01
 
 `mcp` `agent` `prompt-engineering` `skill` `coding` `context-management` `github`
 

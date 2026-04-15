@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，a2a 领域相关内容
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg3NTA3MDIxOA==&mid=2247493551&idx=1&sn=d079783a37abb37dc245603c9a27f925&chksm=cfd52840d5e2ee9f3b734bfeafc599da31ff691da117d0de04ba2a727b45e6563a5035aa725d&mpshare=1&scene=1&srcid=0421kItMrKcUVf8qAo4vQL0u&sharer_shareinfo=bf9c7449498c1b07e960d4b4e368ea18&sharer_shareinfo_first=bf9c7449498c1b07e960d4b4e368ea18) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg3NTA3MDIxOA==&mid=2247493551&idx=1&sn=d079783a37abb37dc245603c9a27f925&chksm=cfd52840d5e2ee9f3b734bfeafc599da31ff691da117d0de04ba2a727b45e6563a5035aa725d&mpshare=1&scene=1&srcid=0421kItMrKcUVf8qAo4vQL0u&sharer_shareinfo=bf9c7449498c1b07e960d4b4e368ea18&sharer_shareinfo_first=bf9c7449498c1b07e960d4b4e368ea18) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-04-21
 
 `OpenAI` `AI Coding` `Inference` `DeepSeek`
 

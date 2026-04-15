@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，single-agent 领域相关内容
 
-🔗 [原文链接](https://baoyu.io/blog/ai-is-evolving-programmers) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://baoyu.io/blog/ai-is-evolving-programmers) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-02-22
 
 `ChatGPT` `Agent`
 

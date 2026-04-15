@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 实践：2026-03-04-0813-brucexu_eth-Deep-Researc
 
-🔗 [原文链接](https://x.com/brucexu_eth/status/2028796588039262505) | @brucexu_eth | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/brucexu_eth/status/2028796588039262505) | @brucexu_eth | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-04
 
 `claude`
 

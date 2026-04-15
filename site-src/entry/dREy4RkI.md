@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — What Is ChatGPT Doing … and Why Does It Work?—Step
 
-🔗 [原文链接](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/?s=09) | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/?s=09) | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2023-07-31
 
 ---
 

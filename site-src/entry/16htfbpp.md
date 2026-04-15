@@ -11,7 +11,7 @@ sidebar: false
 
 > Nous Research 开源自改进 Agent 框架，内置持久记忆与 Skill 进化
 
-🔗 [原文链接](https://x.com/Pluvio9yte/status/2041571378021986486) | @Pluvio9yte | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/Pluvio9yte/status/2041571378021986486) | @Pluvio9yte | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-06
 
 `hermes` `nous-research` `self-improving` `agent` `memory` `openclaw`
 

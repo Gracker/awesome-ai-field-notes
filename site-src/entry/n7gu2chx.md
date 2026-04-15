@@ -11,7 +11,7 @@ sidebar: false
 
 > Claude Cowork 最完整设置指南，81K bookmarks 的病毒级教程
 
-🔗 [原文链接](https://x.com/heynavtoor/status/2026717574776631556) | @Nav Toor | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/heynavtoor/status/2026717574776631556) | @Nav Toor | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-28
 
 `claude-cowork` `setup-guide` `workflow` `productivity`
 

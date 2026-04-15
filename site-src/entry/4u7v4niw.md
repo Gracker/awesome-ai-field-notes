@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，rag-frameworks 领域相关内容
 
-🔗 [原文链接](https://juejin.cn/post/7312243176834809908) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://juejin.cn/post/7312243176834809908) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-09-03
 
 `LLM` `RAG` `Inference` `LLaMA` `Multimodal`
 

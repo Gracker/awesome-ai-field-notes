@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，inference-engines 领域相关内容
 
-🔗 [原文链接](https://blogs.nvidia.cn/blog/ai-5-layer-cake/) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://blogs.nvidia.cn/blog/ai-5-layer-cake/) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-11
 
 `Inference`
 

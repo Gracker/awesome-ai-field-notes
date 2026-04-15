@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于 AI Agent 的收藏文章
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247489816&idx=1&sn=989928020101777361b9c63b8dbffe55&chksm=c20cbcb2151edc3ac638589b0596dd4fe44cd919c177b6033ee9dcefb168fe0edd78c4e5bebb&mpshare=1&scene=1&srcid=0618VxXV1qhfuDCmQJUMYfMO&sharer_shareinfo=da3ecd986cd6fcfad23734ec74fa6282&sharer_shareinfo_first=cd4cf214372e755c614fa457c6332cda) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247489816&idx=1&sn=989928020101777361b9c63b8dbffe55&chksm=c20cbcb2151edc3ac638589b0596dd4fe44cd919c177b6033ee9dcefb168fe0edd78c4e5bebb&mpshare=1&scene=1&srcid=0618VxXV1qhfuDCmQJUMYfMO&sharer_shareinfo=da3ecd986cd6fcfad23734ec74fa6282&sharer_shareinfo_first=cd4cf214372e755c614fa457c6332cda) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-06-18
 
 `Claude` `Anthropic` `Inference` `Performance`
 

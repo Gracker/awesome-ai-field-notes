@@ -11,7 +11,7 @@ sidebar: false
 
 > 从 Manus 构建经验总结的 Agent 上下文工程方法论
 
-🔗 [原文链接](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus?s=09) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus?s=09) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-07-19
 
 `agent` `[]` `llm` `prompt`
 

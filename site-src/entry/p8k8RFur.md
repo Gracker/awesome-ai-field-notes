@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — “10x Cursor”开发体验， Claude Code 如何带来 AI Coding 的 L4 
 
-🔗 [原文链接](https://www.bestblogs.dev/article/a5ae61) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://www.bestblogs.dev/article/a5ae61) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-07-15
 
 ---
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > Auto-GPT 开源自主 Agent 的早期探索
 
-🔗 [原文链接](https://github.com/torantulino/auto-gpt) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://github.com/torantulino/auto-gpt) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-04-13
 
 `gpt-4` `[]` `llm`
 

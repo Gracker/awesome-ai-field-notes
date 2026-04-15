@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，single-agent 领域相关内容
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzIxMzE2OTA1NA==&mid=2247504549&idx=1&sn=1960d1b4f5adc272beafe02769b70080&chksm=9662df573f9f31d5e66ca65058639cc344e2a32d8650454025313de92c8dead3c053a30c7101&mpshare=1&scene=1&srcid=0310AcGnRt8mXm5THdB5S6Y3&sharer_shareinfo=8ce3a2d537351730960ccb449abb2755&sharer_shareinfo_first=d7497129c2be0b41a6e58b76c66a5a05) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzIxMzE2OTA1NA==&mid=2247504549&idx=1&sn=1960d1b4f5adc272beafe02769b70080&chksm=9662df573f9f31d5e66ca65058639cc344e2a32d8650454025313de92c8dead3c053a30c7101&mpshare=1&scene=1&srcid=0310AcGnRt8mXm5THdB5S6Y3&sharer_shareinfo=8ce3a2d537351730960ccb449abb2755&sharer_shareinfo_first=d7497129c2be0b41a6e58b76c66a5a05) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-10
 
 `OpenAI` `Agent` `RAG`
 

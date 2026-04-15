@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — Writing a storage engine for Postgres: an in-memor
 
-🔗 [原文链接](https://notes.eatonphil.com/2023-11-01-postgres-table-access-methods.html?s=09) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://notes.eatonphil.com/2023-11-01-postgres-table-access-methods.html?s=09) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-11-02
 
 ---
 

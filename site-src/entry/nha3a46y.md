@@ -11,7 +11,7 @@ sidebar: false
 
 > Karpathy 的 LLM 知识库工作流：把 raw data 编译成 wiki，用 Obsidian 查看，不需要 fancy RAG。
 
-🔗 [原文链接](https://x.com/karpathy/status/2039805659525644595) | @Andrej Karpathy | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/karpathy/status/2039805659525644595) | @Andrej Karpathy | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-05
 
 `LLM` `知识库` `Obsidian` `Markdown` `RAG` `个人知识管理`
 

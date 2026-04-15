@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，frontier-models 领域相关内容
 
-🔗 [原文链接](https://learn.microsoft.com/zh-cn/azure/cognitive-services/openai/concepts/advanced-prompt-engineering?pivots=programming-language-chat-completions) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://learn.microsoft.com/zh-cn/azure/cognitive-services/openai/concepts/advanced-prompt-engineering?pivots=programming-language-chat-completions) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-05-29
 
 `ChatGPT` `GPT-4` `GPT-3` `OpenAI` `Prompt Engineering`
 

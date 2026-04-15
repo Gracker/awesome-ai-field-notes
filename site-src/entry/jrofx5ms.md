@@ -11,7 +11,7 @@ sidebar: false
 
 > 治 Codex 过度询问的根本方法：重定义承诺对象，而非屏蔽关键词
 
-🔗 [原文链接](https://x.com/blackanger/status/2040862326589718865) | @blackanger | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/blackanger/status/2040862326589718865) | @blackanger | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-06
 
 `codex` `sycophancy` `agent-behavior` `system-prompt` `context-engineering`
 

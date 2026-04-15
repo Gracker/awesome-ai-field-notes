@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，best-practices 领域相关内容
 
-🔗 [原文链接](https://mp.weixin.qq.com/s/7H1FrwbQvsh0HD9z90L0wg) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s/7H1FrwbQvsh0HD9z90L0wg) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-03-28
 
 `ChatGPT`
 

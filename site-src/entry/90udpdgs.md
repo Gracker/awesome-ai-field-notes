@@ -11,7 +11,7 @@ sidebar: false
 
 > Agent 领域必读经典综述，Lilian Weng 的文章至今仍是最好的入门基石
 
-🔗 [原文链接](https://lilianweng.github.io/posts/2023-06-23-agent/) | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://lilianweng.github.io/posts/2023-06-23-agent/) | 🌐 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2025-03-21
 
 `LLM-agent` `planning` `memory` `tool-use` `ReAct` `Reflexion` `Chain-of-Hindsight` `Lilian-Weng`
 

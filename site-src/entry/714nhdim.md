@@ -11,7 +11,7 @@ sidebar: false
 
 > 最完整的 OpenClaw 多 Agent 编排实战案例，双层架构可直接复刻
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247719868&idx=1&sn=c93e0542f8bebb653559315d02841b43) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247719868&idx=1&sn=c93e0542f8bebb653559315d02841b43) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-26
 
 `openclaw` `claude-code` `codex` `agent` `编排` `双层架构` `tmux`
 

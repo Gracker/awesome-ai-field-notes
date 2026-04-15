@@ -11,7 +11,7 @@ sidebar: false
 
 > Agent 相关：Agentic Software Engineering
 
-🔗 [原文链接](https://x.com/ashpreetbedi/status/2028176285575594465) | @ashpreetbedi |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/ashpreetbedi/status/2028176285575594465) | @ashpreetbedi |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-02
 
 `openclaw` `claude` `codex` `mcp` `agent` `agentic` `memory` `coding`
 

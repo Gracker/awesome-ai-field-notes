@@ -11,7 +11,7 @@ sidebar: false
 
 > Agent评测结果不可复现？Anthropic量化了基础设施噪声的影响
 
-🔗 [原文链接](https://www.anthropic.com/engineering/infrastructure-noise) | @Anthropic Engineering | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://www.anthropic.com/engineering/infrastructure-noise) | @Anthropic Engineering | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-11
 
 `anthropic` `evaluation` `agentic-coding` `benchmarks` `noise` `swebench` `terminal-bench`
 

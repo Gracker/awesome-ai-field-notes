@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — 【GDE 分享】移植 Mediapipe LLM Demo 到 Kotlin Multiplatfo
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzAwODY4OTk2Mg==&mid=2652156697&idx=1&sn=55617f0f36a5140e1ccab81cf2e993b9&chksm=81804ccb4b9c2d5d5e40eef52b4d3e36c917a8e522c7665caed454c946c38eea60214e574b31&mpshare=1&scene=1&srcid=1204O1Ui5CICYKzzZcL52qZd&sharer_shareinfo=8c320679059dc8cc7a3ae79087deb163&sharer_shareinfo_first=8c320679059dc8cc7a3ae79087deb163) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzAwODY4OTk2Mg==&mid=2652156697&idx=1&sn=55617f0f36a5140e1ccab81cf2e993b9&chksm=81804ccb4b9c2d5d5e40eef52b4d3e36c917a8e522c7665caed454c946c38eea60214e574b31&mpshare=1&scene=1&srcid=1204O1Ui5CICYKzzZcL52qZd&sharer_shareinfo=8c320679059dc8cc7a3ae79087deb163&sharer_shareinfo_first=8c320679059dc8cc7a3ae79087deb163) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-12-04
 
 ---
 

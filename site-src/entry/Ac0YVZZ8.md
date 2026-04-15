@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — The 2025 AI Engineering Reading List
 
-🔗 [原文链接](https://www.latent.space/p/2025-papers) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://www.latent.space/p/2025-papers) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-01-04
 
 ---
 

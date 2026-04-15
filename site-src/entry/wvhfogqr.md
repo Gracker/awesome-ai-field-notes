@@ -11,7 +11,7 @@ sidebar: false
 
 > GPT/ChatGPT 相关收藏
 
-🔗 [原文链接](https://zhuanlan.zhihu.com/p/629337429?utm_id=0&utm_source=wechat_session&utm_medium=social&s_r=0) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://zhuanlan.zhihu.com/p/629337429?utm_id=0&utm_source=wechat_session&utm_medium=social&s_r=0) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-05-17
 
 `ChatGPT` `OpenAI` `Prompt Engineering` `Benchmark`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，methods 领域相关内容
 
-🔗 [原文链接](https://1q43.blog/post/10727/) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://1q43.blog/post/10727/) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-12-25
 
 `ChatGPT` `OpenAI` `Fine-tuning` `Inference` `Speech` `Performance` `Sora`
 

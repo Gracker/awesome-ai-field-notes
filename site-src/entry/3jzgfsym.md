@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 实践：苹果2026年新品：M5 Max MacBook Pro来了，AI性能提升很多啊
 
-🔗 [原文链接](https://x.com/vista8/status/2029044686133051414) | @vista8 |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/vista8/status/2029044686133051414) | @vista8 |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-04
 
 `vibe-coding` `coding`
 

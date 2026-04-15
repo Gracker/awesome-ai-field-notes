@@ -11,7 +11,7 @@ sidebar: false
 
 > Agent 相关：Agent Frameworks Are Getting Squeezed
 
-🔗 [原文链接](https://x.com/tonykipkemboi/status/2028564120338063859) | @tonykipkemboi |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/tonykipkemboi/status/2028564120338063859) | @tonykipkemboi |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-03
 
 `openclaw` `claude` `agent` `agentic` `automation` `rag`
 

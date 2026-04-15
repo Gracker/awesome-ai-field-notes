@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，frontier-models 领域相关内容
 
-🔗 [原文链接](https://baoyu.io/blog/ai/i-am-suffering-from-ai-anxiety-in-2023) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://baoyu.io/blog/ai/i-am-suffering-from-ai-anxiety-in-2023) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-12-12
 
 `ChatGPT` `GPT-4` `OpenAI` `Stable Diffusion` `Midjourney` `Prompt Engineering` `Inference` `Diffusion`
 

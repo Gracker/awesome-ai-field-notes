@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于GPT-4o：OpenAI 发布最强人机交互模型的收藏文章
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ==&mid=2247488719&idx=1&sn=6cd1de66286c6c2d450dde995e542b4a&chksm=e8dd553bdfaadc2d0771fbfb6e676774bdfeccbf4f2d0dded73ccaba49bc26dccb2614304186&mpshare=1&scene=1&srcid=0514msC8tfZenjjKIc24Fyfn&sharer_shareinfo=997aa8739f3d28dbe9bde441d73ff9a2&sharer_shareinfo_first=997aa8739f3d28dbe9bde441d73ff9a2) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ==&mid=2247488719&idx=1&sn=6cd1de66286c6c2d450dde995e542b4a&chksm=e8dd553bdfaadc2d0771fbfb6e676774bdfeccbf4f2d0dded73ccaba49bc26dccb2614304186&mpshare=1&scene=1&srcid=0514msC8tfZenjjKIc24Fyfn&sharer_shareinfo=997aa8739f3d28dbe9bde441d73ff9a2&sharer_shareinfo_first=997aa8739f3d28dbe9bde441d73ff9a2) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-05-14
 
 `[]` `gpt-4` `gpt-4o` `openai` `chatgpt`
 

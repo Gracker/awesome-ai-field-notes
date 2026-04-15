@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏文章，mcp 领域相关内容
 
-🔗 [原文链接](https://youmind.com/s/hPiqSBPU4tVa7o) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://youmind.com/s/hPiqSBPU4tVa7o) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-01-05
 
 `Claude` `Agent` `Prompt Engineering` `AI Coding` `MCP` `Vibe Coding`
 

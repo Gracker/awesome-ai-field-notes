@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于GPT-4 重磅发布，有哪些升级和变化？的收藏文章
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649777032&idx=1&sn=703080786e6ce1033dcf237163980010&chksm=beccf0f389bb79e5305da9f2d70830b899516280cc68956c252448d00ce17fd9243bdee6dec7&mpshare=1&scene=1&srcid=0316kvEpO62cz6unedKKfTaC&sharer_sharetime=1678932028379&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) | @qizailiu，腾讯 IEG 算法研究员 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649777032&idx=1&sn=703080786e6ce1033dcf237163980010&chksm=beccf0f389bb79e5305da9f2d70830b899516280cc68956c252448d00ce17fd9243bdee6dec7&mpshare=1&scene=1&srcid=0316kvEpO62cz6unedKKfTaC&sharer_sharetime=1678932028379&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) | @qizailiu，腾讯 IEG 算法研究员 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2023-03-16
 
 `[]` `prompt` `gpt-4` `openai` `chatgpt`
 

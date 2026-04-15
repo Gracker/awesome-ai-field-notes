@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 实践：给人文工作者的 AI 使用指南
 
-🔗 [原文链接](https://x.com/HanyangWang/status/2029362155607474359) | @MasterPa |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/HanyangWang/status/2029362155607474359) | @MasterPa |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-05
 
 `AI` `人文工作者` `使用指南` `工作方法`
 

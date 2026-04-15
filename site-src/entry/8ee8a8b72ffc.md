@@ -11,7 +11,7 @@ sidebar: false
 
 > 不点 GUI 按钮、直接复现底层 API，是 Agent 浏览器自动化的正确工程路径
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559535&idx=1&sn=8eb95438291e8594d674652f6bb7c1df) | @阿里妹 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-15
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559535&idx=1&sn=8eb95438291e8594d674652f6bb7c1df) | @阿里妹 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-14
 
 `browser-automation` `opencli` `api-mimicry` `agent-tooling` `web-scraping`
 

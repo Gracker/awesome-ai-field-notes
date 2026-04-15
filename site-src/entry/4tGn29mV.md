@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — 科技爱好者周刊（第234期）：AI 聊天有多强？
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650232570&idx=1&sn=a3bfbcd8e8f0759297e517ce70ada1c3&chksm=f3e0a33ac4972a2c11dfdc289bf4f29c966b573844cb215ae3cc9f9fadf1ab2391bba18d6f5b&mpshare=1&scene=1&srcid=1209t5UX5rOPpatlp0ytcnlJ&sharer_sharetime=1670547432202&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650232570&idx=1&sn=a3bfbcd8e8f0759297e517ce70ada1c3&chksm=f3e0a33ac4972a2c11dfdc289bf4f29c966b573844cb215ae3cc9f9fadf1ab2391bba18d6f5b&mpshare=1&scene=1&srcid=1209t5UX5rOPpatlp0ytcnlJ&sharer_sharetime=1670547432202&sharer_shareid=b7cc12eb3054f40795517e846030e3c8) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2022-12-09
 
 ---
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > Claude 相关：The Ultimate Beginner&#x27;s Guide to Claude 
 
-🔗 [原文链接](https://x.com/aiedge_/status/2029233676111008061) | @AIEdge |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/aiedge_/status/2029233676111008061) | @AIEdge |  | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-06
 
 `claude` `prompt-engineering` `skill` `context-management` `Claude` `Anthropic` `AI` `Guide`
 

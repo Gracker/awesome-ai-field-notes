@@ -11,7 +11,7 @@ sidebar: false
 
 > 三大AI编程框架的哲学立场对比：Superpowers约束过程、GSD约束环境、gstack约束视角
 
-🔗 [原文链接](https://youtu.be/Y9hR2M4FE4I) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://youtu.be/Y9hR2M4FE4I) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-02
 
 `Superpowers` `GSD` `gstack` `AI编程` `框架对比` `Context-Rot` `TDD` `Claude-Code`
 

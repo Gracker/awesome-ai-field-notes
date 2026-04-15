@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 实践：Investigating how Codex context compacti
 
-🔗 [原文链接](https://x.com/Kangwook_Lee/status/2028955292025962534) | @Kangwook_Lee |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/Kangwook_Lee/status/2028955292025962534) | @Kangwook_Lee |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-04
 
 `codex` `system-prompt` `context-management` `open-source`
 

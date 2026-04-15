@@ -11,7 +11,7 @@ sidebar: false
 
 > AI 实践：AI、矿产与澳洲经济：2026，澳洲能迎来“新国运”吗？
 
-🔗 [原文链接](https://x.com/rwayne/status/2027720734211248573) | @rwayne | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/rwayne/status/2027720734211248573) | @rwayne | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-04
 
 `claude` `phone-ai`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > Anthropic分享Agent编程中的Harness设计：长周期应用的质量保障
 
-🔗 [原文链接](https://www.anthropic.com/engineering/harness-design-long-running-apps) | @Anthropic Engineering | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://www.anthropic.com/engineering/harness-design-long-running-apps) | @Anthropic Engineering | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-24
 
 `anthropic` `harness-design` `agentic-coding` `frontend` `fullstack` `long-running`
 

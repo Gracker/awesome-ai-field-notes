@@ -11,7 +11,7 @@ sidebar: false
 
 > DHH 的务实观点：监督式协作已到，纯 vibe coding 仍是梦想
 
-🔗 [原文链接](https://world.hey.com/dhh/promoting-ai-agents-3ee04945) | @DHH | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://world.hey.com/dhh/promoting-ai-agents-3ee04945) | @DHH | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-01-07
 
 `DHH` `AI-agents` `coding` `OpenCode` `supervised-collaboration`
 

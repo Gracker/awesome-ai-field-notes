@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于 AI Agent 的收藏文章
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg3NTA3MDIxOA==&mid=2247495598&idx=1&sn=14cd8f9ec25389d6dac961161e02c8dd&chksm=cfa670e94d62461ea809888f491246dc145a67e574325e765a86b94094dddb3757373348a788&mpshare=1&scene=1&srcid=01045ZRrXGuhBGBbkwMFi6ZQ&sharer_shareinfo=72c66741b7649e58bdab5c63ff574369&sharer_shareinfo_first=72c66741b7649e58bdab5c63ff574369) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=Mzg3NTA3MDIxOA==&mid=2247495598&idx=1&sn=14cd8f9ec25389d6dac961161e02c8dd&chksm=cfa670e94d62461ea809888f491246dc145a67e574325e765a86b94094dddb3757373348a788&mpshare=1&scene=1&srcid=01045ZRrXGuhBGBbkwMFi6ZQ&sharer_shareinfo=72c66741b7649e58bdab5c63ff574369&sharer_shareinfo_first=72c66741b7649e58bdab5c63ff574369) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-01-04
 
 `Agent` `Prompt Engineering` `Android` `MCP`
 

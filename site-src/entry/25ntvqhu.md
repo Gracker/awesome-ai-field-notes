@@ -11,7 +11,7 @@ sidebar: false
 
 > Block 裁员背后的洞察：&quot;金色寻回犬&quot;型员工的时代结束了
 
-🔗 [原文链接](https://x.com/mike_chong_zh/status/2027228656951803914) | @迈克 Mike Chong | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/mike_chong_zh/status/2027228656951803914) | @迈克 Mike Chong | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-28
 
 `layoff` `block` `golden-retriever` `ai-replacement` `salary-polarization`
 

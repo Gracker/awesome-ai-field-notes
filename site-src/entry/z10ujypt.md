@@ -11,7 +11,7 @@ sidebar: false
 
 > Android × AI 交叉领域收藏
 
-🔗 [原文链接](https://www.paincker.com/android-scroll-velocity/#/) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://www.paincker.com/android-scroll-velocity/#/) | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2022-01-19
 
 `Android` `Performance`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > 编码 Agent 的完整 SDLC 工作流，TDD+子Agent 自动执行
 
-🔗 [原文链接](https://github.com/obra/superpowers) | @Obra | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://github.com/obra/superpowers) | @Obra | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-27
 
 `superpowers` `skills` `tdd` `subagent` `software-development` `claude-code`
 

@@ -11,7 +11,7 @@ sidebar: false
 
 > 关于 AI Agent 的收藏文章
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247487766&idx=1&sn=ea329ba58ab2e73678923746c88e704e&chksm=c18fea664612591eb5c9a3641e5c4befcf77c48029ad4606e3d5451e49a3668b614f7b7213e7&mpshare=1&scene=1&srcid=1018jUA9gxU80yxBFKx57a4U&sharer_shareinfo=95ee7ed355fcd780e612a6864836496f&sharer_shareinfo_first=95ee7ed355fcd780e612a6864836496f) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247487766&idx=1&sn=ea329ba58ab2e73678923746c88e704e&chksm=c18fea664612591eb5c9a3641e5c4befcf77c48029ad4606e3d5451e49a3668b614f7b7213e7&mpshare=1&scene=1&srcid=1018jUA9gxU80yxBFKx57a4U&sharer_shareinfo=95ee7ed355fcd780e612a6864836496f&sharer_shareinfo_first=95ee7ed355fcd780e612a6864836496f) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-10-18
 
 `Claude` `Anthropic` `Agent` `MCP`
 

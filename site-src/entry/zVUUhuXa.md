@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — Trae 重磅更新：AI编程+智能体+MCP，言出法随的新境界
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247486222&idx=1&sn=339091580bdb9e1c372b073a78861c5b&chksm=c1d2d2024d5c147c11e072376906ecdcb7ef26a854c3ab0147825fa422616bf9dd995e12fdf3&mpshare=1&scene=1&srcid=0422OnaWC5wn1l1tifvJXILS&sharer_shareinfo=41eb89afb4b51a8c7e426d8c25926a34&sharer_shareinfo_first=41eb89afb4b51a8c7e426d8c25926a34) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247486222&idx=1&sn=339091580bdb9e1c372b073a78861c5b&chksm=c1d2d2024d5c147c11e072376906ecdcb7ef26a854c3ab0147825fa422616bf9dd995e12fdf3&mpshare=1&scene=1&srcid=0422OnaWC5wn1l1tifvJXILS&sharer_shareinfo=41eb89afb4b51a8c7e426d8c25926a34&sharer_shareinfo_first=41eb89afb4b51a8c7e426d8c25926a34) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-04-22
 
 ---
 

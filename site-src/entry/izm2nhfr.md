@@ -11,7 +11,7 @@ sidebar: false
 
 > Perplexity CEO：多模型编排是 AI 的未来，AI 本身就是计算机
 
-🔗 [原文链接](https://x.com/AravSrinivas/article/2026710957272207490) | @Aravind Srinivas | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/AravSrinivas/article/2026710957272207490) | @Aravind Srinivas | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-26
 
 `perplexity` `multi-model` `orchestration` `asi` `computer-as-agent`
 

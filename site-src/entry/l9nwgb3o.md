@@ -11,7 +11,7 @@ sidebar: false
 
 > LLM 推理能力增强的新方法
 
-🔗 [原文链接](#) | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](#) | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-03-21
 
 `tools` `safety` `github` `coding` `agent` `llm` `paper` `reinforcement-learning`
 

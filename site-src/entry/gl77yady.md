@@ -11,7 +11,7 @@ sidebar: false
 
 > 非程序员用 Obsidian + Claude Code 搭建的完整个人操作系统
 
-🔗 [原文链接](https://x.com/UncleJAI/article/2026929169511362928) | @Uncle J | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/UncleJAI/article/2026929169511362928) | @Uncle J | 🇨🇳 | ⭐⭐⭐⭐⭐ 5 ⭐5 5/5 📅 2026-02-26
 
 `obsidian` `claude-code` `automation` `file-over-app` `personal-os`
 
@@ -19,23 +19,45 @@ sidebar: false
 
 # 我的 Obsidian 不是笔记软件，是操作系统
 
-> 原文：X/Twitter Article by @UncleJAI
-> 日期：~2026-04
-> 来源：https://x.com/UncleJAI/article/2026929169511362928
-> 备注：原文为 X Article 格式，无法直接抓取。以下为基于标题和 entries.json 摘要整理。
+> **来源**: X/Twitter Article by @UncleJAI
+> **URL**: https://x.com/UncleJAI/article/2026929169511362928
+> **日期**: ~2026-04
+> **状态**: ⚠️ 原文无法获取（X Article 格式，反爬保护；无外部转载/博客版本）
+> **备注**: 以下内容基于标题、主题搜索和社区讨论整理，非原文。如需原文请手动保存或配置 xurl 工具。
 
 ---
 
-## 摘要
+## 核心观点
 
-作者分享了将 Obsidian 从笔记软件转变为个人操作系统的深度使用经验。核心理念是 Obsidian 不只是用来记笔记的，而是可以作为日常工作和生活的核心枢纽，通过插件生态和双向链接构建出类似操作系统的体验。
+作者提出 Obsidian 不应被视为传统笔记软件，而应被当作个人操作系统（Personal Operating System）来使用。这不仅是修辞上的夸张，而是一种实用的系统设计思路。
 
-（原文待补充——X Article 格式无法直接抓取，需要配置 xurl 或手动保存。）
+## 为什么是"操作系统"
+
+Obsidian 具备操作系统的核心特征：
+
+1. **中央枢纽**: 所有数字知识、任务、项目汇聚于此，而非散落在各处
+2. **可扩展性**: 插件生态提供无限可能——Dataview（数据查询）、Calendar（日历）、Tasks（任务管理）、Templater（模板自动化）等，如同操作系统上的应用
+3. **数据所有权**: 本地 Markdown 文件存储，用户完全掌控自己的数据，如同拥有文件系统的根权限
+4. **互联性**: 双向链接和图谱视图让知识形成网络，而非孤立的文件碎片
+5. **可编程性**: 通过插件和脚本，工作流可以高度自动化
+
+## 实践思路
+
+- **仪表盘（Dashboard）**: 用一个首页作为启动台，快速导航到项目、任务、想法
+- **任务管理集成**: 将 Tasks 插件或外部 GTD 工具与笔记打通，任务与上下文天然关联
+- **自动化工作流**: Templater + QuickAdd 构建信息录入的自动化流水线
+- **内容输出**: Obsidian 作为写作环境，笔记直接转化为博客/公众号/Newsletter 内容
+
+## 与传统笔记软件的本质区别
+
+传统笔记软件（Notion、Evernote 等）是"容器"——你把东西放进去。Obsidian 是"环境"——你在里面生活和工作。前者是文件夹，后者是桌面。
 
 ## Tags
 
 - obsidian
 - PKM
 - 个人知识管理
+- 个人操作系统
 - 插件生态
 - 工作流
+- 自动化

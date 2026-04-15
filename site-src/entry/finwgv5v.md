@@ -11,7 +11,7 @@ sidebar: false
 
 > 字节跳动的超级 Agent 底座，LangGraph 重写，支持子 Agent 并行编排
 
-🔗 [原文链接](https://github.com/bytedance/deer-flow) | @Bytedance | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://github.com/bytedance/deer-flow) | @Bytedance | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-27
 
 `deer-flow` `bytedance` `langgraph` `langchain` `super-agent` `sub-agent`
 

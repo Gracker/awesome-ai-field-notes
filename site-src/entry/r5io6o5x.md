@@ -11,7 +11,7 @@ sidebar: false
 
 > Prompt 工程的本质是精确的意图建模，不是文字技巧
 
-🔗 [原文链接](https://x.com/EXM7777/article/2011800604709175808) | @Machina | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/EXM7777/article/2011800604709175808) | @Machina | 🌐 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-26
 
 `prompt-engineering` `mental-model` `precision` `structure`
 

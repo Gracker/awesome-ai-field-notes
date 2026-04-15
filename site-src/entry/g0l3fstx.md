@@ -11,7 +11,7 @@ sidebar: false
 
 > Agent 相关：2026-03-04-1609-xin_pai88825-Vibe-Coding
 
-🔗 [原文链接](https://x.com/xin_pai88825/status/2029027642616496194) | @xin_pai88825 |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/xin_pai88825/status/2029027642616496194) | @xin_pai88825 |  | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-03-04
 
 `codex` `mcp` `agent` `vibe-coding` `coding`
 

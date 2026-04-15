@@ -11,7 +11,7 @@ sidebar: false
 
 > 逆向分析 OpenClaw 16K token 系统提示词的完整构成与优化方向
 
-🔗 [原文链接](https://x.com/LufzzLiz/article/2026669714072809755) | @岚叔 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/LufzzLiz/article/2026669714072809755) | @岚叔 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-26
 
 `openclaw` `system-prompt` `token-analysis` `modelbox` `context-window`
 

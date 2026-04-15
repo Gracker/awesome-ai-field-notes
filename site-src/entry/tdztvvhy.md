@@ -11,7 +11,7 @@ sidebar: false
 
 > Dario Amodei 深度访谈：AI 海啸已在地平线上，技术安全好于预期但社会认知差
 
-🔗 [原文链接](https://x.com/dotey/status/2027265200781402351) | @dotey | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://x.com/dotey/status/2027265200781402351) | @dotey | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-02-27
 
 `anthropic` `dario-amodei` `interview` `safety` `scaling-laws` `biotech`
 
