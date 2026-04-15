@@ -1,6 +1,21 @@
 # 🧠 模型
 
-GPT / Claude / Gemini / 开源模型 / 架构 — 共 **89** 条活跃资源
+GPT / Claude / Gemini / 开源模型 / 架构 — 共 **90** 条活跃资源
+
+## 📅 今天
+
+### [Decoding Transformer Architecture](/entry/0bf2b5b84701) 📄
+@amitiitbhu · ⭐⭐⭐⭐4 🌐 · 今天
+
+[EN] - **来源**：X/Twitter
+- **原文链接**：https://x.com/augmentcode/status/2043740459256951158
+- **作者**：amitiitbhu
+- **日期**：2026-04-14
+- **抓取时间**：2026-04-14 12:00...
+
+`transformer` `attention` `llm` `architecture` `encoder`
+
+---
 
 ## 📅 2026-04-10
 

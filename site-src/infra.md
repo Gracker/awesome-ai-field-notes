@@ -271,7 +271,7 @@ ChatGPT的火爆出圈，让大家对NLP语言模型的发展历程产生了浓�
 
 ---
 
-### [My self-sovereign / local / private / secure LLM setup, April 2026](https://vitalik.eth.limo/general/2026/04/02/secure_llms.html)
+### [My self-sovereign / local / private / secure LLM setup, April 2026](/entry/4abfo505) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Vitalik Buterin 分享其本地私有 LLM 使用方案。隐私安全目标：防止远程模型获取隐私数据、防止 LLM 越狱攻击、防止后门和软件漏洞。硬件测试：NVIDIA 5090 (90 tok/s)、AMD 128GB 统一内存 (51 tok/s)、DGX Spark (60 tok/s)，推荐 5090 或 AMD 方案。软件栈：NixOS + llama-server（替代 Ollama，因能更好利用 GPU）+ llama-swap。Agent 工具方面讨论了 OpenClaw 的安全问题，强调沙箱隔离的重要性。附带 ComfyUI 本地图像/视频生成测试。

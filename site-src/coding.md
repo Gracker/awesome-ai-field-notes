@@ -1,6 +1,50 @@
 # 💻 AI编程
 
-IDE / CLI / 代码审查 / 工作流 — 共 **152** 条活跃资源
+IDE / CLI / 代码审查 / 工作流 — 共 **156** 条活跃资源
+
+## 📅 今天
+
+### [深度拆解 Claude Code：12 个可复用的 Agentic Harness 设计模式](/entry/480a4f5679ff) 📄
+@技术极简主义 · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+
+这次 Claude Code 的泄露，让我们第一次比较完整地看到，这些模式在一个真实、大规模使用的 agent 里是怎么落地的。这样的窗口可能不会一直存在，但这些经验会留下来。
+
+`claude-code` `agentic-harness` `design-patterns` `coding-agent` `bilgin-lbryam`
+
+---
+
+### [2026 年，AI 编程 Agent 的真正分水岭——Harness 详解](/entry/89fa848ed0d4) 📄
+@Ai学习的老章 · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+
+[Read in Cubox](https://cubox.pro/web/card/7443555361631504701)  
+[Read Original](https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&amp;mid=2649012185&amp;idx=1&amp;sn=e613849d8e706a95d4a3c292b5881a1e&amp;chksm=86dfe794b8bbe007e9e98feae10f476d336e026e8df0819088fa8639d3385dfe3ce872cacff2&amp;mpshare=
+
+`harness-engineering` `oh-my-claudecode` `oh-my-pi` `hashline` `coding-agent`
+
+---
+
+### [Augment Code: The Era of Multi-Model Engineering](/entry/013eb7fd5ab9) 📄
+@augmentcode · ⭐⭐⭐⭐4 🌐 · 今天
+
+[EN] - **来源**：X/Twitter
+- **原文链接**：https://x.com/augmentcode/status/2043740459256951158
+- **作者**：augmentcode
+- **日期**：2026-04-14
+- **抓取时间**：2026-04-14 12:0...
+
+`augment-code` `multi-model` `coding-agent` `harness` `model-agnostic`
+
+---
+
+### [浏览器自动化：从GUI到OpenCLI](/entry/8ee8a8b72ffc) 📄
+@阿里妹 · ⭐⭐⭐⭐4 🇨🇳 · 今天
+
+[Read in Cubox](https://cubox.pro/web/card/7443547423802132834)  
+[Read Original](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247559535&amp;idx=1&amp;sn=8eb95438291e8594d674652f6bb7c1df&amp;chksm=e8fb4fcf80f86a815cc31cd017098a604bb2b948524d8652ee631027f8542d6de98f4e06f7d3&amp;mpshare=
+
+`browser-automation` `opencli` `api-mimicry` `agent-tooling` `web-scraping`
+
+---
 
 ## 📅 2026-04-10
 
@@ -659,7 +703,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 
 ---
 
-### [Promoting AI agents](https://world.hey.com/dhh/promoting-ai-agents-3ee04945)
+### [Promoting AI agents](/entry/4ldjersc) 📄
 @DHH · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 DHH 分享对 AI Agent 编程的看法转变。从不喜欢编辑器自动补全到欣赏终端 Agent 协作模式。在 OpenCode 中使用 Claude Opus 4.5 等模型，认为 Agent 已能产出生产级代码。对&#x27;Agent写90%代码&#x27;持怀疑态度，强调监督式协作是当下最现实范式。
@@ -775,7 +819,7 @@ SmartPerfetto 的 Harness Engineering 实战记录。在 Perfetto UI 加 AI 分�
 
 ---
 
-### [你不知道的 Claude Code：架构、治理与工程实践 - Tw93](https://tw93.fun/2026-03-12/claude.html)
+### [你不知道的 Claude Code：架构、治理与工程实践 - Tw93](/entry/Gw50izXi) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 我把我最近半年每个月氪金40刀2个账号的claude code 使用过程中，积累的一些实际经验分享给大伙。这篇文章主要围绕上下文管理、Skills、Hooks、Subagents、Prompt Caching 以及 CLAUDE.md 的设计展开，重点讨论怎样让协作过程更稳定、更可控，偏工程师技术视角的最佳实践，欢迎大伙一起最佳交流。

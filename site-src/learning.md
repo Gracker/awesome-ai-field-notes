@@ -1,6 +1,21 @@
 # 📖 学习资源
 
-教程 / 论文 / 提示工程 / 演讲 — 共 **100** 条活跃资源
+教程 / 论文 / 提示工程 / 演讲 — 共 **101** 条活跃资源
+
+## 📅 今天
+
+### [深度研究Prompt方法论：横纵分析法](/entry/6a2113a2d9ca) 📄
+@Khazix0918 · ⭐⭐⭐⭐4 🇨🇳 · 今天
+
+- **来源**：X/Twitter
+- **原文链接**：https://x.com/augmentcode/status/2043740459256951158
+- **作者**：Khazix0918
+- **日期**：2026-04-14
+- **抓取时间**：2026-04-14 12:00
+
+`prompt-engineering` `research-methodology` `ai-tools` `横纵分析法` `deep-research`
+
+---
 
 ## 📅 2026-04-10
 
@@ -560,7 +575,7 @@ Google 介绍 MLGO 框架，首个工业级将 ML 系统性集成到 LLVM 编译
 
 ---
 
-### [The 2025 AI Engineering Reading List](https://www.latent.space/p/2025-papers)
+### [The 2025 AI Engineering Reading List](/entry/Ac0YVZZ8) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] We picked 50 paper/models/blogs across 10 fields in AI Eng: LLMs, Benchmarks, Prompting, RAG, Agents, CodeGen, Vision, Voice, Diffusion, Finetuning. If you&#x27;re starting from scratch, start here.

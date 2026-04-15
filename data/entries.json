@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema_description": "每条记录必须基于实际文件内容提取，禁止捏造。英文原文需提供中英双语摘要。",
-  "last_updated": "2026-04-14T20:16:00Z",
+  "last_updated": "2026-04-15T08:09:35.769553",
   "entries": [
     {
       "id": "7n5hkzn5",
@@ -20981,6 +20981,306 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-04-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0bf2b5b84701",
+      "title": "Decoding Transformer Architecture",
+      "url": "https://x.com/amitiitbhu/status/2041479290580287543",
+      "source": {
+        "platform": "x",
+        "author": "amitiitbhu",
+        "original_date": "2026-04-14"
+      },
+      "category": "models",
+      "tags": [
+        "transformer",
+        "attention",
+        "llm",
+        "architecture",
+        "encoder",
+        "decoder",
+        "nlp"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "[EN] - **来源**：X/Twitter\n- **原文链接**：https://x.com/augmentcode/status/2043740459256951158\n- **作者**：amitiitbhu\n- **日期**：2026-04-14\n- **抓取时间**：2026-04-14 12:00...",
+      "summary_en": "- **来源**：X/Twitter\n- **原文链接**：https://x.com/augmentcode/status/2043740459256951158\n- **作者**：amitiitbhu\n- **日期**：2026-04-14\n- **抓取时间**：2026-04-14 12:00",
+      "one_liner": "目前最完整的 Transformer 架构白话解析，从 Tokenization 到 Decoder 生成一文讲透",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/20240414-amitiitbhu-Decoding Transformer Architecture.md",
+      "images": [],
+      "added_date": "2026-04-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c9567fc80a61",
+      "title": "LLM长期记忆问题",
+      "url": "https://x.com/chrysb/status/2043020014035570784",
+      "source": {
+        "platform": "x",
+        "author": "chrysb",
+        "original_date": "2026-04-14"
+      },
+      "category": "agents",
+      "tags": [
+        "llm",
+        "memory",
+        "context-window",
+        "retrieval",
+        "summarization",
+        "conversation-ai"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "[EN] - **来源**：X/Twitter\n- **原文链接**：https://x.com/augmentcode/status/2043740459256951158\n- **作者**：chrysb\n- **日期**：2026-04-14\n- **抓取时间**：2026-04-14 12:00...",
+      "summary_en": "- **来源**：X/Twitter\n- **原文链接**：https://x.com/augmentcode/status/2043740459256951158\n- **作者**：chrysb\n- **日期**：2026-04-14\n- **抓取时间**：2026-04-14 12:00",
+      "one_liner": "首次系统梳理 LLM 记忆系统的全设计空间，指出 Raw/Derived 权衡是结构性问题",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "X 文章/20240414-chrysb-LLM长期记忆问题.md",
+      "images": [
+        "https://pbs.twimg.com/media/HFo5bZ6acAAoAdC?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFo5iVFaMAAdcTO?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFo5yK8bgAAZIde?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFo56x8akA4iVwk?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFo6Qw3akAIxgKj?format=jpg&name=small"
+      ],
+      "added_date": "2026-04-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6a2113a2d9ca",
+      "title": "深度研究Prompt方法论：横纵分析法",
+      "url": "https://x.com/Khazix0918/status/2043555868902637845",
+      "source": {
+        "platform": "x",
+        "author": "Khazix0918",
+        "original_date": "2026-04-14"
+      },
+      "category": "learning",
+      "tags": [
+        "prompt-engineering",
+        "research-methodology",
+        "ai-tools",
+        "横纵分析法",
+        "deep-research"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "- **来源**：X/Twitter\n- **原文链接**：https://x.com/augmentcode/status/2043740459256951158\n- **作者**：Khazix0918\n- **日期**：2026-04-14\n- **抓取时间**：2026-04-14 12:00",
+      "summary_en": null,
+      "one_liner": "历时+共时双轴研究框架，配合 AI 可在 30 分钟内输出一篇完整领域报告",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/20240414-Khazix0918-深度研究Prompt方法论.md",
+      "images": [
+        "https://pbs.twimg.com/media/HFwot7bbkAEthcd?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFwpGq3bQAA5piZ?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFwqA6YagAAvBiC?format=jpg&name=large",
+        "https://pbs.twimg.com/media/HFwqeKca0AAuf29?format=png&name=small",
+        "https://pbs.twimg.com/media/HFwqh3saoAA07uN?format=jpg&name=small"
+      ],
+      "added_date": "2026-04-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "013eb7fd5ab9",
+      "title": "Augment Code: The Era of Multi-Model Engineering",
+      "url": "https://x.com/augmentcode/status/2043740459256951158",
+      "source": {
+        "platform": "x",
+        "author": "augmentcode",
+        "original_date": "2026-04-14"
+      },
+      "category": "coding",
+      "tags": [
+        "augment-code",
+        "multi-model",
+        "coding-agent",
+        "harness",
+        "model-agnostic"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "[EN] - **来源**：X/Twitter\n- **原文链接**：https://x.com/augmentcode/status/2043740459256951158\n- **作者**：augmentcode\n- **日期**：2026-04-14\n- **抓取时间**：2026-04-14 12:0...",
+      "summary_en": "- **来源**：X/Twitter\n- **原文链接**：https://x.com/augmentcode/status/2043740459256951158\n- **作者**：augmentcode\n- **日期**：2026-04-14\n- **抓取时间**：2026-04-14 12:00",
+      "one_liner": "多模型策略而非单一模型绑定，是 2026 年 AI 编程工具的正确打开方式",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/20240414-augmentcode-Augment Code.md",
+      "images": [
+        "https://pbs.twimg.com/media/HFzS5C9asAIFNUc?format=jpg&name=small",
+        "https://pbs.twimg.com/media/HFzSdx_asAA8pet?format=jpg&name=small"
+      ],
+      "added_date": "2026-04-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "480a4f5679ff",
+      "title": "深度拆解 Claude Code：12 个可复用的 Agentic Harness 设计模式",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5NzA1NzMyOQ==&mid=2247486928&idx=1&sn=c3d87ed82df6cc194cddbb69e95ddc9a",
+      "source": {
+        "platform": "wechat",
+        "author": "技术极简主义",
+        "original_date": "2026-04-14"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "agentic-harness",
+        "design-patterns",
+        "coding-agent",
+        "bilgin-lbryam"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "这次 Claude Code 的泄露，让我们第一次比较完整地看到，这些模式在一个真实、大规模使用的 agent 里是怎么落地的。这样的窗口可能不会一直存在，但这些经验会留下来。",
+      "summary_en": null,
+      "one_liner": "从 Claude Code 源码提炼的 12 个 Harness 设计模式，是 Agent 工程化的里程碑式总结",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "Cubox/深度拆解 Claude Code：12 个可复用的 Agentic Harness 设计模式-2026-04-14.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "89fa848ed0d4",
+      "title": "2026 年，AI 编程 Agent 的真正分水岭——Harness 详解",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&mid=2649012185&idx=1&sn=e613849d8e706a95d4a3c292b5881a1e",
+      "source": {
+        "platform": "wechat",
+        "author": "Ai学习的老章",
+        "original_date": "2026-04-14"
+      },
+      "category": "coding",
+      "tags": [
+        "harness-engineering",
+        "oh-my-claudecode",
+        "oh-my-pi",
+        "hashline",
+        "coding-agent",
+        "model-agnostic"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "[Read in Cubox](https://cubox.pro/web/card/7443555361631504701)  \n[Read Original](https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&mid=2649012185&idx=1&sn=e613849d8e706a95d4a3c292b5881a1e&chksm=86dfe794b8bbe007e9e98feae10f476d336e026e8df0819088fa8639d3385dfe3ce872cacff2&mpshare=",
+      "summary_en": null,
+      "one_liner": "Hashline 编辑格式证明：改 harness 不改模型，弱模型效果可翻十倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "Cubox/2026 年，AI 编程 Agent 的真正分水岭——Harness 详解-2026-04-14.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8ee8a8b72ffc",
+      "title": "浏览器自动化：从GUI到OpenCLI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559535&idx=1&sn=8eb95438291e8594d674652f6bb7c1df",
+      "source": {
+        "platform": "wechat",
+        "author": "阿里妹",
+        "original_date": "2026-04-14"
+      },
+      "category": "coding",
+      "tags": [
+        "browser-automation",
+        "opencli",
+        "api-mimicry",
+        "agent-tooling",
+        "web-scraping"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "[Read in Cubox](https://cubox.pro/web/card/7443547423802132834)  \n[Read Original](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559535&idx=1&sn=8eb95438291e8594d674652f6bb7c1df&chksm=e8fb4fcf80f86a815cc31cd017098a604bb2b948524d8652ee631027f8542d6de98f4e06f7d3&mpshare=",
+      "summary_en": null,
+      "one_liner": "不点 GUI 按钮、直接复现底层 API，是 Agent 浏览器自动化的正确工程路径",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/浏览器自动化：从GUI到OpenCLI-2026-04-14.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "73831b80fee8",
+      "title": "OpenClaw vs Hermes：一文深入理解两大通用 Agent",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&mid=2650409010&idx=1&sn=04b9836fa07ff877c459e300707ddcff",
+      "source": {
+        "platform": "wechat",
+        "author": "架构师",
+        "original_date": "2026-04-14"
+      },
+      "category": "agents",
+      "tags": [
+        "openclaw",
+        "hermes-agent",
+        "nous-research",
+        "agent-framework",
+        "memory",
+        "skills"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "[Read in Cubox](https://cubox.pro/web/card/7443555272636761265)  \n[Read Original](https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&mid=2650409010&idx=1&sn=04b9836fa07ff877c459e300707ddcff&chksm=82e0d2bc0316714983894d249271a025550cdea2e2386283a92323167d29ae7a7879ea919fa0&mpshare=",
+      "summary_en": null,
+      "one_liner": "首次系统梳理 LLM 记忆系统的全设计空间，指出 Raw/Derived 权衡是结构性问题",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/OpenClaw vs Hermes：一文深入理解两大通用 Agent-2026-04-14.md",
+      "images": [
+        "https://image.cubox.pro/cardImg/2e5qapdplhtb36pkfe4nw7io8tvhaapel2p4rpys2d7i53470r?imageMogr2/quality/90/ignore-error/1",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-15",
       "updated_date": null,
       "github_stars": null,
       "related": []

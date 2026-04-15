@@ -1,14 +1,14 @@
 {
-  "total_entries": 612,
-  "active_entries": 568,
+  "total_entries": 620,
+  "active_entries": 576,
   "archived_entries": 44,
-  "this_week_added": 612,
-  "entries_with_content": 240,
+  "this_week_added": 620,
+  "entries_with_content": 253,
   "category_distribution": {
-    "coding": 161,
-    "learning": 115,
-    "agents": 104,
-    "models": 94,
+    "coding": 165,
+    "learning": 116,
+    "agents": 106,
+    "models": 95,
     "infra": 60,
     "industry": 55,
     "uncategorized": 19,
@@ -17,12 +17,12 @@
     "hardware-chips/risc-v-ai": 1
   },
   "source_type_distribution": {
-    "article": 428,
-    "x_post": 124,
+    "article": 432,
+    "x_post": 128,
     "paper": 34,
     "github": 14,
     "newsletter": 9,
     "video": 3
   },
-  "last_updated": "2026-04-15 04:33"
+  "last_updated": "2026-04-15 08:09"
 }
