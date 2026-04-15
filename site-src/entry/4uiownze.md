@@ -19,162 +19,94 @@ sidebar: false
 
 ## English
 
-A Python-based mobile automation agent that uses Qwen3-VL vision-language models to understand and interact with Android devices through visual analysis and ADB commands.
-
-- 🤖 Vision-powered automation: Uses Qwen3-VL to visually understand phone screens
-
-- 📱 ADB integration: Controls Android devices via ADB commands
-
-- 🎯 Natural language tasks: Describe what you want in plain English
-
-- 🖥️ Web UI: Built-in Gradio interface for easy control
-
-- 📊 Real-time feedback: Live screenshots and execution logs
-
 ## 中文
 
-一个基于 Python 的移动自动化代理，使用 Qwen3-VL 视觉语言模型通过视觉分析和 ADB 命令来理解和交互 Android 设备。
+Agent-Reach：给 AI Agent 一键装上互联网能力
 
-- 🤖 视觉驱动的自动化：使用 Qwen3-VL 视觉理解手机屏幕
-- 📱 ADB 集成：通过 ADB 命令控制 Android 设备
-- 🎯 自然语言任务：用简单的英语描述你想要什么
-- 🖥️ Web 界面：内置 Gradio 界面，便于控制
-- 📊 实时反馈：实时截图和执行日志
+Agent-Reach 是一个开源项目，让你的 AI Agent 能够轻松访问整个互联网。通过一个 CLI 命令零 API 费用地读取和搜索 Twitter、Reddit、YouTube、GitHub、B站、小红书等平台。
 
-## 系统要求
+## 问题背景
 
-- Python 3.10+
-- 启用 USB 调试和开发者模式的 Android 设备
-- 已安装 ADB (Android Debug Bridge)
-- 具有足够 VRAM 的 GPU（在 24GB GPU 上使用 Qwen3-VL-8B 模型测试）
+AI Agent 已经能帮你写代码、改文档、管项目——但你让它去网上找点东西，它就抓瞎了：
 
-## 安装步骤
+- 📺 "帮我看看这个 YouTube 教程讲了什么" → 看不了，拿不到字幕
+- 🐦 "帮我搜一下推特上大家怎么评价这个产品" → 搜不了，Twitter API 要付费
+- 📖 "去 Reddit 上看看有没有人遇到过同样的 bug" → 403 被封，服务器 IP 被拒
+- 📕 "帮我看看小红书上这个品的口碑" → 打不开，必须登录才能看
+- 📺 "B站上有个技术视频，帮我总结一下" → 连不上，海外/服务器 IP 被屏蔽
+- 🔍 "帮我在网上搜一下最新的 LLM 框架对比" → 没有好用的搜索，要么付费要么质量差
 
-### Linux/Ubuntu
+## 解决方案
 
+Agent-Reach 把这件事变成一句话：帮我安装 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/install.md
 
+复制给你的 Agent，几分钟后它就能读推特、搜 Reddit、看 YouTube、刷小红书了。
 
-创建虚拟环境
+## 核心特性
 
+💰 完全免费
+所有工具开源、所有 API 免费。唯一可能花钱的是服务器代理（$1/月），本地电脑不需要
 
+🔒 隐私安全
+Cookie 只存在你本地，不上传不外传。代码完全开源，随时可审查
 
-安装 Python 依赖
+🔄 持续更新
+底层工具（yt-dlp、twitter-cli、rdt-cli、Jina Reader 等）定期追踪更新到最新版，你不用自己盯
 
-Collecting git+https://github.com/huggingface/transformers
-  Cloning https://github.com/huggingface/transformers to /private/var/folders/8b/z1bl0hq97679dkgkj95c9ts00000gn/T/pip-req-build-2URhg9
-  Installing build dependencies: started
-  Installing build dependencies: finished with status 'done'
-  Getting requirements to build wheel: started
-  Getting requirements to build wheel: finished with status 'error'
-Collecting pillow
-  Downloading Pillow-6.2.2-cp27-cp27m-macosx_10_6_intel.whl (3.9 MB)
-Collecting gradio
-  Downloading gradio-3.0.12.tar.gz (5.1 MB)
+🤖 兼容所有 Agent
+Claude Code、OpenClaw、Cursor、Windsurf……任何能跑命令行的 Agent 都能用
 
-## 配置
+🩺 自带诊断
+agent-reach doctor 一条命令告诉你哪个通、哪个不通、怎么修
 
-### Android 设备设置
+## 支持的平台
 
-- 在 Android 设备上启用 USB 调试（设置 → 开发者选项）
-- 通过 USB 连接
-- 验证连接：
-
-
-
-你应该看到你的设备被列出。
-
-### 模型配置
-
-编辑 qwen_vl_agent.py 选择你的模型：
-
-
-
-你还需要更改第 61 行：
-
-
-
-将其更改为：
-
-
-
-### 分辨率配置
-
-代理可以从 Web UI 设置标签页自动检测你的设备分辨率，但也可以在 config.json 中手动配置：
-
-
-
-获取设备分辨率：
-
-
+| 平台 | 状态 | 说明 |
+|------|------|------|
+| 🌐 网页 | 装好即用 | 阅读任意网页，无需配置 |
+| 📺 YouTube | 装好即用 | 字幕提取 + 视频搜索，无需配置 |
+| 📡 RSS | 装好即用 | 阅读任意 RSS/Atom 源，无需配置 |
+| 🔍 全网搜索 | 装好即用 | 全网语义搜索，自动配置（MCP 接入，免费无需 Key） |
+| 📦 GitHub | 装好即用 | 读公开仓库 + 搜索，私有仓库需配置 |
+| 🐦 Twitter/X | 配置后解锁 | 读单条推文、搜索推文、浏览时间线、发推 |
+| 📺 B站 | 配置后解锁 | 本地：字幕提取 + 搜索，服务器也能用 |
+| 📖 Reddit | 配置后解锁 | 搜索 + 读帖子和评论，需要登录认证 |
+| 📕 小红书 | 配置后解锁 | 阅读、搜索、发帖、评论、点赞 |
+| 🎵 抖音 | 配置后解锁 | 视频解析、无水印下载链接获取 |
+| 💼 LinkedIn | 配置后解锁 | Jina Reader 读公开页面，Profile详情、公司页面 |
+| 💬 微信公众号 | 装好即用 | 搜索 + 阅读公众号文章（全文 Markdown） |
+| 📰 微博 | 装好即用 | 热搜、搜索内容/用户/话题、用户动态、评论 |
+| 💻 V2EX | 装好即用 | 热门帖子、节点帖子、帖子详情+回复、用户信息 |
+| 📈 雪球 | 配置后解锁 | 股票行情、搜索股票、热门帖子、热门股票排行 |
+| 🎙️ 小宇宙播客 | 配置后解锁 | 播客音频转文字（Whisper 转录，免费 Key） |
 
 ## 使用方法
 
-### Web 界面启动
+复制这句话给你的 AI Agent（Claude Code、OpenClaw、Cursor 等）：
 
+帮我安装 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/install.md
 
+就这一步。Agent 会自己完成剩下的所有事情。
 
-导航到 http://localhost:7860 并输入任务：
+🔄 已安装过？更新也是一句话：
+帮我更新 Agent Reach：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/update.md
 
-- "Open Chrome"
-- "Search for weather in New York"
-- "Open Settings and enable WiFi"
+## 安全模式
 
-### 命令行使用
+担心安全？可以用安全模式——不会自动装系统包，只告诉你需要什么：
+帮我安装 Agent Reach（安全模式）：https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/install.md
+安装时使用 --safe 参数
 
+## 常用指令
 
+不需要任何配置，告诉 Agent 就行：
+- "帮我看看这个链接" → curl https://r.jina.ai/URL 读任意网页
+- "这个 GitHub 仓库是做什么的" → gh repo view owner/repo
+- "这个视频讲了什么" → yt-dlp --dump-json URL 提取字幕
+- "帮我看看这条推文" → twitter tweet URL
+- "订阅这个 RSS" → feedparser 解析
+- "搜一下 GitHub 上有什么 LLM 框架" → gh search repos "LLM framework"
 
-示例：
+不需要记命令。Agent 读了 SKILL.md 之后自己知道该调什么。
 
-
-
-## 工作流程
-
-1. **截图捕获**：通过 ADB 获取手机截图
-2. **视觉分析**：Qwen3-VL 分析屏幕以理解 UI 元素
-3. **动作规划**：确定最佳动作（点击、滑动、输入等）
-4. **执行**：发送 ADB 命令执行动作
-5. **重复**：继续直到任务完成或达到最大循环次数
-
-## 关键配置
-
-config.json 中的关键设置：
-
-- **temperature**: 模型创造力（0.0-1.0，默认：0.1）
-- **max_tokens**: 最大响应长度（默认：512）
-- **step_delay**: 动作间等待时间（秒，默认：1.5）
-- **max_retries**: 最大重试次数（默认：3）
-- **use_flash_attention**: 启用 Flash Attention 2 以加快推理
-
-## 故障排除
-
-### 设备未检测到
-
-- 确保 USB 调试已启用
-- 运行 adb devices 验证连接
-- 尝试 adb kill-server && adb start-server
-
-### 点击位置错误
-
-- 在 UI 的设置标签页中自动检测分辨率
-- 或手动验证 adb shell wm size
-
-### 模型加载错误
-
-- 确保你有足够的 VRAM
-- 尝试使用 8B 模型以降低内存需求
-- 检查 transformers 是否从源代码安装
-
-### 内存不足
-
-- 使用 8B 模型而不是 30B
-- 减少 config 中的 max_tokens
-- 关闭使用 GPU 内存的其他应用程序
-
-## 许可证
-
-Apache License 2.0 - 详见 LICENSE 文件
-
-## 技术栈
-
-- 基于 [Qwen3-VL](https://github.com/QwenLM/Qwen-VL) 由阿里云构建
-- 使用 [Gradio](https://gradio.app/) 作为 Web 界面
+Agent Reach 是一个脚手架（scaffolding），目标是让 AI Agent 能看到整个互联网，而不需要你一个个去踩坑装工具。

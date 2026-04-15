@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — “聊天式编程”让代码听你的话：Cursor打造极致心流体验
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649792201&idx=1&sn=c2fc70c76233d2551484405021dc5726&chksm=bfa82012357eb1e74a06b747ba8f79ddd3448958cc046730f3c6699db34ad032a6a40b34c451&mpshare=1&scene=1&srcid=0329V4EPu92TJJRqTE6o9TfB&sharer_shareinfo=d844a10c77b90dcd2f4853ebdb8219f3&sharer_shareinfo_first=d844a10c77b90dcd2f4853ebdb8219f3) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649792201&idx=1&sn=c2fc70c76233d2551484405021dc5726&chksm=bfa82012357eb1e74a06b747ba8f79ddd3448958cc046730f3c6699db34ad032a6a40b34c451&mpshare=1&scene=1&srcid=0329V4EPu92TJJRqTE6o9TfB&sharer_shareinfo=d844a10c77b90dcd2f4853ebdb8219f3&sharer_shareinfo_first=d844a10c77b90dcd2f4853ebdb8219f3) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-03-29
 
 ---
 

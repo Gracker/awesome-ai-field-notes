@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — 【文章翻译】Cursor 内部观察
 
-🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzkwOTMzMzk0MQ==&mid=2247498276&idx=1&sn=0f181e8e17a3464ec3e66416a8941aeb&chksm=c0d838827f9b0616d79fc7c4681f340eab3c2850261efe0b47035a254642ded72aae16729846&mpshare=1&scene=1&srcid=1111HId5z2dFa80oCTMTiyr8&sharer_shareinfo=54635e9e99cb1aa6d9613a92d8257014&sharer_shareinfo_first=8142a5dc718487d368dd06ea60237935) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzkwOTMzMzk0MQ==&mid=2247498276&idx=1&sn=0f181e8e17a3464ec3e66416a8941aeb&chksm=c0d838827f9b0616d79fc7c4681f340eab3c2850261efe0b47035a254642ded72aae16729846&mpshare=1&scene=1&srcid=1111HId5z2dFa80oCTMTiyr8&sharer_shareinfo=54635e9e99cb1aa6d9613a92d8257014&sharer_shareinfo_first=8142a5dc718487d368dd06ea60237935) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-11-11
 
 ---
 

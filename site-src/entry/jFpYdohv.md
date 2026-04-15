@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — 一个半月高强度 Claude Code 使用后感受
 
-🔗 [原文链接](https://onevcat.com/2025/08/claude-code/) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://onevcat.com/2025/08/claude-code/) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2025-08-11
 
 ---
 

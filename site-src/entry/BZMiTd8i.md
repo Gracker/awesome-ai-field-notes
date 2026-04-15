@@ -11,7 +11,7 @@ sidebar: false
 
 > Cubox 收藏 — 【哥飞评站】AI贴纸生成网站 StickerBaker 的SEO评测报告和改进建议（4000字）
 
-🔗 [原文链接](https://mp.weixin.qq.com/s/aCNzWnu09jQxPcPHMcswMA?s=09) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-10
+🔗 [原文链接](https://mp.weixin.qq.com/s/aCNzWnu09jQxPcPHMcswMA?s=09) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-03-03
 
 ---
 
