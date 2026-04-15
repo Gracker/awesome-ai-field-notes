@@ -933,7 +933,7 @@ Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个�
 
 ---
 
-### [GitHub - PacktPublishing/LLM-Engineers-Handbook: The LLM&#x27;s practical guide: From the fundamentals to...](https://github.com/PacktPublishing/LLM-Engineers-Handbook) ⭐4,901
+### [GitHub - PacktPublishing/LLM-Engineers-Handbook: The LLM&#x27;s practical guide: From the fundamentals to...](/entry/oa7ahj95) ⭐4,901 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # GitHub - PacktPublishing/LLM-Engineers-Handbook: The LLM&#x27;s practical guide: From the fundamentals to... The LLM&#x27;s practical guide: From the fundamentals to deploying advanced LLM and RAG apps to AWS using LLMOps best practices - PacktPublishing/LLM-Engineers-Handbook LLM Engineer&#x27;s Handbook: Maste...
@@ -942,7 +942,7 @@ Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个�
 
 ---
 
-### [GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents](https://github.com/vercel-labs/agent-browser) ⭐28,807
+### [GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents](/entry/kzmt6xpw) ⭐28,807 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents Browser automation CLI for AI agents. Contribute to vercel-labs/agent-browser development by creating an account on GitHub. Headless browser automation CLI for AI agents. Fast Rust CLI with Node.js fallback. npm install -g ag...
@@ -951,7 +951,7 @@ Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个�
 
 ---
 
-### [GitHub - PlexPt/awesome-chatgpt-prompts-zh: ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ⭐58,989
+### [GitHub - PlexPt/awesome-chatgpt-prompts-zh: ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。](/entry/vpysqp70) ⭐58,989 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # GitHub - PlexPt/awesome-chatgpt-prompts-zh: ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。 ChatGPT是由OpenAI训练的一款大型语言模型，能够生成类人文本。 官网是 &lt;https://ai.com/&gt; 它能够生成类似于人类写作的文本。您只需要给出提示或提出问题，它就可以生成你想要的东西。 在此页面中，您将找到可与 ChatGPT 一起使用的各种提示。 只需按照README.md文件中的提示输入即可。 点击这里 可以将您自己的调教指南添加到列表中。 同时您也可以从这个文件中获取创作灵感来创建您自己的提示。 如果你想将...
@@ -960,7 +960,7 @@ Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个�
 
 ---
 
-### [GitHub - Torantulino/Auto-GPT: An experimental ope...](https://github.com/torantulino/auto-gpt) ⭐183,343
+### [GitHub - Torantulino/Auto-GPT: An experimental ope...](/entry/4sl0bq8x) ⭐183,343 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # GitHub - Torantulino/Auto-GPT: An experimental ope... Auto-GPT: An Autonomous GPT-4 Experiment 💡 Get help - Q\&amp;A or Discord 💬 🔴 USE `stable` not `master` 🔴 Download the latest `stable` release from here: &lt;https://github.com/Significant-Gravitas/Auto-GPT/releases/latest&gt;. The `master` branch is und...

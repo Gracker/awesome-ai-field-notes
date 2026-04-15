@@ -667,7 +667,7 @@ Read Original
 
 ---
 
-### [How agents can use filesystems for context engineering](https://blog.langchain.com/how-agents-can-use-filesystems-for-context-engineering/)
+### [How agents can use filesystems for context engineering](/entry/qx9guy83) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 LangChain 博客阐述文件系统作为 Agent 上下文工程核心工具的价值。四个关键场景：1) 大 token 消耗时，文件系统作为 scratch pad 存储工具结果，按需 grep 读取；2) 需要大量上下文时，通过文件持久化计划和子 Agent 知识，避免 context window 限制；3) 寻找小众信息时，glob/grep 比语义搜索更适合技术文档和代码文件；4) 持续学习时，Agent 可将用户偏好和经验写入自身文件。核心观点：文件系统提供统一接口，让 Agent 灵活存储、检索和更新无限量上下文。
@@ -734,7 +734,7 @@ Anthropic 详细分享其 Research 功能的多 Agent 系统从原型到生产�
 
 ---
 
-### [GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers](https://github.com/MobinX/awesome-mcp-list) ⭐881
+### [GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers](/entry/np6822c5) ⭐881 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers A concise list for mcp servers. Contribute to MobinX/awesome-mcp-list development by creating an account on GitHub. Awesome MCP Servers - Concise List Note that this list is continuously updating and improving. Please star this repo ...
@@ -743,7 +743,7 @@ Anthropic 详细分享其 Research 功能的多 Agent 系统从原型到生产�
 
 ---
 
-### [GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault](https://github.com/YishenTu/claudian) ⭐7,553
+### [GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault](/entry/c3dc5hz4) ⭐7,553 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault - YishenTu/claudian ?imageUrl=https%3A%2F%2Fcamo.githubusercontent.com%2Fbbccb46c3e40e6f6bbd14f744f3796c76fdfd9e...

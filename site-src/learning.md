@@ -548,7 +548,7 @@ I work in Google Ads infrastructure in the past four years. Over time, I&#x27;ve
 
 ---
 
-### [GPT-4震撼发布：多模态大模型，直接升级ChatGPT、必应，开放API，游戏终结了？](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650870948&idx=1&sn=3212389008c3c47d4394b0400bc143f9&chksm=84e4d0dab39359cc4277e2b1388951c589fb79b48b62d2b38d3c66b0d5e4c9cca34d769a0bc6&mpshare=1&scene=1&srcid=0315pVGBWZU16nNnNhVws0Gr&sharer_sharetime=1678834483962&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [GPT-4震撼发布：多模态大模型，直接升级ChatGPT、必应，开放API，游戏终结了？](/entry/ekyuztr8) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # GPT-4震撼发布：多模态大模型，直接升级ChatGPT、必应，开放API，游戏终结了？ &gt; ChatGPT 点燃了科技行业的明灯，GPT-4 能燎原吗？ 谁能革得了 ChatGPT 的命？现在看来还是 OpenAI 自己。 在 ChatGPT 引爆科技领域之后，人们一直在讨论 AI「下一步」的发展会是什么，很多学者都提到了多模态，我们并没有等太久。今天凌晨，OpenAI 发布了多模态预训练大模型 GPT-4。 GPT-4 实现了以下几个方面的飞跃式提升：强大的识图能力；文字输入限制提升至 2.5 万字；回答准确性显著提高；能够生成歌词、创意文本，实现风格变化。 「GPT-4 是世界第一款...

@@ -253,7 +253,7 @@ ChatGPT的火爆出圈，让大家对NLP语言模型的发展历程产生了浓�
 
 ---
 
-### [GPU到底是如何工作的？这篇AI Infra入门全部告诉你](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649794406&idx=1&sn=a82bddefd373ede0e74b469c424c3ea8&chksm=bf32955ebe2ab04b75d0aa853f7a99280f643248ea9b612833cfcc6bee8ef622a37e4757c15b&mpshare=1&scene=1&srcid=0708WHfDSRgLGj8rXTzQcwtz&sharer_shareinfo=25bd203985012df350edcae33fa026fd&sharer_shareinfo_first=25bd203985012df350edcae33fa026fd)
+### [GPU到底是如何工作的？这篇AI Infra入门全部告诉你](/entry/swk7j22h) 📄
 @binnnliu · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # GPU到底是如何工作的？这篇AI Infra入门全部告诉你 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg) &gt; 大模型推理服务到底怎么跑起来的？大模型推理服务的运行过程中，CPU和GPU分别负责哪些工作？ &gt; 用GPU一定比CPU跑的快么？哪些场景需要用GPU? GPU最初的使...
