@@ -849,7 +849,7 @@ Cubox 收藏 — 我们仍未知道那天所见的ChatGPT有多可怕
 
 ## 📅 2023-02-06
 
-### [谈谈ChatGPT 背后的核心技术论文](https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&mid=2650377122&idx=1&sn=93a827c374dc898dca2dfede2ee3c133&chksm=8300ff40b4777656a813cd432537e281fb734609c0750ddae096722047cdf8f570f6a3d3cdea&mpshare=1&scene=1&srcid=02061ns2lWgqoyAfe6wGZ7Uj&sharer_sharetime=1675698966629&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [谈谈ChatGPT 背后的核心技术论文](/entry/x1S56IGx) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-02-06
 
 Cubox 收藏 — 谈谈ChatGPT 背后的核心技术论文

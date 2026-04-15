@@ -442,7 +442,7 @@ Read Original
 
 ## 📅 2025-01-08
 
-### [译：我是如何利用 LLM 进行编程的 – 云谦的博客](https://sorrycc.com/how-i-program-with-llms/)
+### [译：我是如何利用 LLM 进行编程的 – 云谦的博客](/entry/DdX7I8qz) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-01-08
 
 &gt; 原文：&lt;https://crawshaw.io/blog/programming-with-llms&gt;   &gt; 作者：David Crawshaw   &gt; 译者：ChatGPT 4 Turbo
@@ -534,7 +534,7 @@ Cubox 收藏 — 陆奇最新演讲实录：我的大模型世界观
 
 ## 📅 2023-03-15
 
-### [面向 ChatGPT 开发 ，我是如何被 AI 从 “逼疯” 到 “觉悟” ，未来又如何落地](https://mp.weixin.qq.com/s?__biz=Mzg3NTA3MDIxOA==&mid=2247489654&idx=1&sn=27b74f1a974dbacf606a402fa8186749&chksm=cec64e13f9b1c705d967677d2793f6b081cd0de2bc14a8858e71f097988423f4c248bebf78a8&mpshare=1&scene=1&srcid=03155DogT96ESccYOfMY8Owi&sharer_sharetime=1678862931089&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [面向 ChatGPT 开发 ，我是如何被 AI 从 “逼疯” 到 “觉悟” ，未来又如何落地](/entry/nkDGIhK7) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-03-15
 
 对于 ChatGPT 如今大家应该都不陌生，经过这么长时间的「调戏」，相信大家应该都感受用 ChatGPT

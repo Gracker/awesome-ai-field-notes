@@ -187,7 +187,7 @@ Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知�
 
 ---
 
-### [认知重建之后，步入Agentic Engineering的工程革命](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801026&idx=1&sn=3e12f0888b3c232ed7218caf90df5f0a&chksm=bf4c0f3ab8ef6ca21c04e80f8bfce44dae41e5b6e72e1f523bbcf88da8f6d03e4f1056efb689&mpshare=1&scene=1&srcid=0331LA6BLBJmhKZPFBdhCoO4&sharer_shareinfo=91bd93888a0e7958e77c5a12d0cbd198&sharer_shareinfo_first=91bd93888a0e7958e77c5a12d0cbd198)
+### [认知重建之后，步入Agentic Engineering的工程革命](/entry/dB7RnCtb) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-31
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg%23imgIndex%3D0)

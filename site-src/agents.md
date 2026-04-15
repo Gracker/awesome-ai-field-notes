@@ -1401,7 +1401,7 @@ Last edited about 8 hours ago
 
 ## 📅 2024-10-10
 
-### [逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用](https://mp.weixin.qq.com/s?__biz=Mzk0NDIwMTExNw==&mid=2247586367&idx=1&sn=a8128ad7c9dd13c68a16dd8557b8b48a&chksm=c2fd69db26d4ad92b41d11adbf9d4051e3c35d2e8c1e7217e2daa19f3d2c23b90cd2a74bf802&mpshare=1&scene=1&srcid=1010Skzsacksq6yI5R5dwvTD&sharer_shareinfo=4c58689876490036f1e2b2aa5c7be9e4&sharer_shareinfo_first=4c58689876490036f1e2b2aa5c7be9e4)
+### [逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用](/entry/xx4T4d34) 📄
 ⭐⭐⭐⭐4 🌐 · 2024-10-10
 
 [需翻译] 逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用
