@@ -882,7 +882,7 @@ SmartPerfetto 的 Harness Engineering 实战记录。在 Perfetto UI 加 AI 分�
 
 ---
 
-### [探索 AI 编程智能体](https://juejin.cn/post/7465031850969858088?share_token=95c52b62-bbc3-4074-96b5-b5fd64043cc6)
+### [探索 AI 编程智能体](/entry/5axVw63a) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] 本文探讨AI编程智能体在软件开发中的应用，重点分析Cursor和Cline。二者通过自然语言处理和代码生成辅助编程，提升效率。Cursor 成熟但成本高，Cline 开源免费但可靠性待提升。

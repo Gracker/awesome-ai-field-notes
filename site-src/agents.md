@@ -699,7 +699,7 @@ Anthropic 详细分享其 Research 功能的多 Agent 系统从原型到生产�
 
 ---
 
-### [借助 AI Coding 快速打造 AI Agent 系统](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247558316&idx=1&sn=6a53c77fe9bdb8b35a1d513897c4a472&chksm=e842e7784cbd5d863e66d3cd9c7b473fb5f8defdb0bd171ead807408a0166b28963665f62dc2&mpshare=1&scene=1&srcid=0210sWl3n5BHTgBMJFMPVztS&sharer_shareinfo=49d4cda5f958e336f51b9bf2fbd8d2e4&sharer_shareinfo_first=49d4cda5f958e336f51b9bf2fbd8d2e4)
+### [借助 AI Coding 快速打造 AI Agent 系统](/entry/7gpoqruF) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FZ6bicxIx5naJ92fSX0GbcKeLprRiaibf3urmibOHJpPnmXBhWcxTzViaWhxiaeooj6cMYv3QcTy32rocngPbz7fCljgw%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0)

@@ -272,7 +272,7 @@ DeepSeek-R1的成功标志着AI在推理能力方面的重要突破。它不仅�
 
 ---
 
-### [探索更强中文Embedding模型：Conan-Embedding](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649785880&idx=1&sn=cfc72ed90f9a0b808b41b7390fc6cbab&chksm=bf316b85bf8a88055db7443ccd1c06f58eae09bf54c8281b24f7180c74031657a11c79be4d52&mpshare=1&scene=1&srcid=0927ITIRBGmccXietngR8Byb&sharer_shareinfo=edeea358a584d0dc46e3d7d720564906&sharer_shareinfo_first=edeea358a584d0dc46e3d7d720564906)
+### [探索更强中文Embedding模型：Conan-Embedding](/entry/4V2SPFoz) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg)
@@ -328,7 +328,7 @@ DeepSeek-R1的成功标志着AI在推理能力方面的重要突破。它不仅�
 
 ---
 
-### [科技爱好者周刊（第234期）：AI 聊天有多强？](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650232570&idx=1&sn=a3bfbcd8e8f0759297e517ce70ada1c3&chksm=f3e0a33ac4972a2c11dfdc289bf4f29c966b573844cb215ae3cc9f9fadf1ab2391bba18d6f5b&mpshare=1&scene=1&srcid=1209t5UX5rOPpatlp0ytcnlJ&sharer_sharetime=1670547432202&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [科技爱好者周刊（第234期）：AI 聊天有多强？](/entry/4tGn29mV) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Cubox 收藏 — 科技爱好者周刊（第234期）：AI 聊天有多强？
