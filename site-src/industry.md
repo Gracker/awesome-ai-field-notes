@@ -288,7 +288,7 @@ Read Original
 
 ---
 
-### [Sam Altman 与开发者的一小时：GPT-5 搞砸了、招聘放缓、以及 2026 年最担心的事](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247492537&idx=1&sn=6d7033b1f9d94c9b77977840e039d4c1)
+### [Sam Altman 与开发者的一小时：GPT-5 搞砸了、招聘放缓、以及 2026 年最担心的事](/entry/af561ck4) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 Sam Altman 在 OpenAI 开发者 Town Hall 上的坦率对话，23个话题。承认 GPT-5 写作翻车、大幅放缓招聘、警告生物安全。核心观点：软件工程杰文斯悖论、GTM 仍是最大挑战、多 Agent 编排界面未定、AI 大规模通缩。个性化软件是未来方向。
@@ -297,7 +297,7 @@ Sam Altman 在 OpenAI 开发者 Town Hall 上的坦率对话，23个话题。承
 
 ---
 
-### [Seeing Like an Algorithm](https://www.eugenewei.com/blog/2020/9/18/seeing-like-an-algorithm)
+### [Seeing Like an Algorithm](/entry/qi4k0joz) 📄
 @Eugene Wei · ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 Eugene Wei 从《Seeing Like a State》出发分析 TikTok 产品设计如何帮助算法&#x27;看见&#x27;。核心论点：TikTok 成为自己的训练数据来源，产品设计创造了训练数据闭环。为所有想利用 ML 算法的公司提供产品设计范式。
@@ -306,7 +306,7 @@ Eugene Wei 从《Seeing Like a State》出发分析 TikTok 产品设计如何帮
 
 ---
 
-### [The AI Arms Race Is On. Start Worrying](https://time.com/6255952/ai-impact-chatgpt-microsoft-google/)
+### [The AI Arms Race Is On. Start Worrying](/entry/eW0H313o) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] Tech companies are moving fast on AI. That could prove catastrophic

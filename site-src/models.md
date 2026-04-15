@@ -158,7 +158,7 @@ Read Original
 
 ---
 
-### [OpenAI o1模型的前世今生](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650536638&idx=1&sn=d3fdddf772957edf8b7247626f8db979)
+### [OpenAI o1模型的前世今生](/entry/6nr7xpx1) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 深度解析 OpenAI o1 模型技术路线。从 System 1/System 2 思维框架切入，指出此前 LLM 都用快思考模式，o1 引入慢思考多步推理。核心创新在预训练、后训练（强化学习）和推理阶段突破，代表从 pattern completion 到 structured reasoning 的范式转变。

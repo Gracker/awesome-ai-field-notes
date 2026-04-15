@@ -694,7 +694,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 
 ---
 
-### [OpenClaw + Claude Code 超强教程：一个人就能搭建完整的开发团队！](https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247719868&idx=1&sn=c93e0542f8bebb653559315d02841b43)
+### [OpenClaw + Claude Code 超强教程：一个人就能搭建完整的开发团队！](/entry/714nhdim) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 独立开发者用 OpenClaw + Codex/Claude Code 搭建 AI Agent 系统的完整案例。双层架构：OpenClaw 编排层持有业务上下文，Agent 执行层专注代码。8步从需求到 PR 合并，含自动监控、三 Agent Code Review、改进版 Ralph Loop（动态调整 prompt）。实测：单日 94 次提交，30 分钟 7 个 PR，月成本 $190。瓶颈是 RAM 不是 token。
@@ -721,42 +721,42 @@ SmartPerfetto 的 Harness Engineering 实战记录。在 Perfetto UI 加 AI 分�
 
 ---
 
-### [The Cook and the Chef: Musk&#x27;s Secret Sauce — Wait ...](https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html)
+### [The Cook and the Chef: Musk&#x27;s Secret Sauce — Wait ...](/entry/Kx0X2XTA) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] The Cook and the Chef: Musk&#x27;s Secret Sauce — Wait ...
 
 ---
 
-### [The Product-Minded Software Engineer - The Pragmatic Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/?s=09)
+### [The Product-Minded Software Engineer - The Pragmatic Engineer](/entry/VPAy4XTG) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] The Product-Minded Software Engineer - The Pragmatic Engineer
 
 ---
 
-### [TikTok and the Sorting Hat — Remains of the Day](https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat)
+### [TikTok and the Sorting Hat — Remains of the Day](/entry/yY7hcksg) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] A network like Venmo or Uber, for example, is mostly about utility: I need to pay someone money, or I need to travel from here to there. A network like YouTube is more about entertainment. Amuse me. And some networks, what most people refer to when t...
 
 ---
 
-### [Trae 重磅更新：AI编程+智能体+MCP，言出法随的新境界](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247486222&idx=1&sn=339091580bdb9e1c372b073a78861c5b&chksm=c1d2d2024d5c147c11e072376906ecdcb7ef26a854c3ab0147825fa422616bf9dd995e12fdf3&mpshare=1&scene=1&srcid=0422OnaWC5wn1l1tifvJXILS&sharer_shareinfo=41eb89afb4b51a8c7e426d8c25926a34&sharer_shareinfo_first=41eb89afb4b51a8c7e426d8c25926a34)
+### [Trae 重磅更新：AI编程+智能体+MCP，言出法随的新境界](/entry/zVUUhuXa) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 ?imageUrl=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAACIAAAAqCAMAAADhynmdAAAAQlBMVEUAAACcnJycnJycnJyoqKicnJycnJycnJycnJycnJyfn5%2BcnJydnZ2enp6kpKSdnZ2cnJyenp6cnJycnJycnJybm5t8KrXMAAAAFXRSTlMAyeb3CNp3tJRvHIEtJhBgqztWRJ%2Bp5TqGAAABCklEQVQ4y5...
 
 ---
 
-### [Unlimited Refill Cursor](https://bianyujie.cn/Unlimited-use-of-the-cursor)
+### [Unlimited Refill Cursor](/entry/z1r6uGXC) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] If you ask me what code editor to use in the AI era, I will undoubtedly answer you: Cursor Cursor Cursor!!!
 
 ---
 
-### [Welcome to the Machine, a guide to building infra software for AI agents](https://me.0xffff.me/welcome_to_the_machine.html)
+### [Welcome to the Machine, a guide to building infra software for AI agents](/entry/p03L1Cm5) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] Welcome to the Machine, a guide to building infra software for AI agents
