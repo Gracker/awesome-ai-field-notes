@@ -1340,7 +1340,7 @@ OpenAI 发布 Agents SDK，是 Swarm 实验项目的生产级升级版。核心�
 
 ## 📅 2025-03-12
 
-### [浅谈 Agent、MCP、OpenAI Responses API](https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ==&mid=2247489654&idx=1&sn=6e3820486124182688ebfeb296b395af&chksm=e933ade78907c108f8ca19416a225107a2679c2882d7a88366c8ad812d738da54c647ba740fb&mpshare=1&scene=1&srcid=03124z9ByYy482nSTotR3dqO&sharer_shareinfo=d954468b273c8f291c5eba01e555ea2d&sharer_shareinfo_first=d954468b273c8f291c5eba01e555ea2d)
+### [浅谈 Agent、MCP、OpenAI Responses API](/entry/XkYDSpBp) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-03-12
 
 &gt; 今天本想写篇关于 OpenAI Responses API 的文章，但近期 AI 热门话题挺多，感觉有必要简单聊聊。

@@ -88,7 +88,7 @@ A Python-based mobile automation agent that uses Qwen3-VL vision-language models
 
 ## 📅 2026-02-27
 
-### [终端大模型操作系统的架构、优化与展望](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651276357&idx=2&sn=a74eb8bce0c3e2c2d571cd9af9748f79&chksm=bc3786a015b5157f1ce63125bafd486c3b340297bdb95686bd0d51c7fdcce995063df9bdcab3&mpshare=1&scene=1&srcid=0227shFs3Pxc6UMqtfFfkgyV&sharer_shareinfo=96987b5b581933cac38ba61f902c902e&sharer_shareinfo_first=6e9be421a0aabaee8a20ae4b9202de22)
+### [终端大模型操作系统的架构、优化与展望](/entry/ZUqMvPQK) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-02-27
 
 通过本地化搭载大模型，终端设备的智能能力将获得飞跃式提升，铸造移动计算的下一个黄金时代，对学术界和产业界都是巨大的机遇。
@@ -113,7 +113,7 @@ A Python-based mobile automation agent that uses Qwen3-VL vision-language models
 
 ## 📅 2026-01-18
 
-### [深度解析：算力巨轮的引擎 —— 从SIMD到SIMT以及GPU如何统治AI时代](https://mp.weixin.qq.com/s?__biz=MzUzNzg4Nzc3MQ==&mid=2247485767&idx=1&sn=27b229237f911d17b8afa7b604eb570c&chksm=fbfb8d759720197a63a353e93af5afe93e4fdc571cee56b756400b0cd539ae7f412ceb95512e&mpshare=1&scene=1&srcid=0118PfORCCPOBzum5MdJssKn&sharer_shareinfo=34c1dfad5c5d7980579b8566bcaacf38&sharer_shareinfo_first=34c1dfad5c5d7980579b8566bcaacf38)
+### [深度解析：算力巨轮的引擎 —— 从SIMD到SIMT以及GPU如何统治AI时代](/entry/LyeEG95Z) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-18
 
 **摘要：** 当我们在《赛博朋克2077》的夜之城中流连忘返，或者惊叹于 ChatGPT 生成的精妙回答时，很少有人意识到这背后正在进行着怎样规模的数字狂欢。为了支撑现代图形渲染和人工智能，GPU 架构经历了一场从&quot;方阵士兵&quot;到&quot;特种部队&quot;的静默革命。本文将深入解剖 GPU 的微观架构，从 SIMD 的物理局限到 SIMT 的逻辑突围，并揭示 GPGPU 是如何凭借&quot;极度并行&quot;的哲学，成为现代 AI 产业的心脏。
