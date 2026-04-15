@@ -235,7 +235,7 @@ ChatGPT的火爆出圈，让大家对NLP语言模型的发展历程产生了浓�
 
 ---
 
-### [GPT-4 重磅发布，有哪些升级和变化？](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649777032&idx=1&sn=703080786e6ce1033dcf237163980010&chksm=beccf0f389bb79e5305da9f2d70830b899516280cc68956c252448d00ce17fd9243bdee6dec7&mpshare=1&scene=1&srcid=0316kvEpO62cz6unedKKfTaC&sharer_sharetime=1678932028379&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [GPT-4 重磅发布，有哪些升级和变化？](/entry/7pp7rfh8) 📄
 @qizailiu，腾讯 IEG 算法研究员 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # GPT-4 重磅发布，有哪些升级和变化？ 作者：qizailiu，腾讯 IEG 算法研究员 &gt; 昨天 OpenAI 发布最新里程碑 AI 语言模型 GPT-4，GPT-4 是一个大型多模态模型（接受图像和文本输入，输出为文本），目前虽然在许多现实世界场景中的能力不如人类，但在各种专业和学术基准上表现出人类水平。 本文主要参考 OpenAI 关于 GPT4 的官方 Blog，目前各公众号关于 GPT4 的内容基本来自官方 Blog、技术报告和官方视频内容。相关内容传送门： 官方 ChatGPT Plus 体验地址：&lt;https://chat.openai.com/auth/login?nex...
@@ -244,7 +244,7 @@ ChatGPT的火爆出圈，让大家对NLP语言模型的发展历程产生了浓�
 
 ---
 
-### [GPT-4o：OpenAI 发布最强人机交互模型](https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ==&mid=2247488719&idx=1&sn=6cd1de66286c6c2d450dde995e542b4a&chksm=e8dd553bdfaadc2d0771fbfb6e676774bdfeccbf4f2d0dded73ccaba49bc26dccb2614304186&mpshare=1&scene=1&srcid=0514msC8tfZenjjKIc24Fyfn&sharer_shareinfo=997aa8739f3d28dbe9bde441d73ff9a2&sharer_shareinfo_first=997aa8739f3d28dbe9bde441d73ff9a2)
+### [GPT-4o：OpenAI 发布最强人机交互模型](/entry/gjncoa3h) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # GPT-4o：OpenAI 发布最强人机交互模型 ChatGPT 免费版持续升级中，模型更强，交互更流畅... 早在 5 月 11 日，Sam 就在推文中表示：OpenAI 并没有推出 GPT-5，或搜索引擎，但团队一直在努力研发一些认为大家会喜欢的新东西（感觉就像是魔法一样）！ ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2F90Kxd0FAJJeDZbFzQkrjxIfcnRxziahTJZPicyxQOgbg5C88suDBEfiaZg2mjE226NZDIEOxWDr27kHz7fMvNEkSA%2F640%3Fwx_fmt%...

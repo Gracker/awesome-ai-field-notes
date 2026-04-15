@@ -667,7 +667,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 
 ---
 
-### [Enhancing Cursor and CodeBuddy: A Structured AI Collaboration Methodology](https://www.bestblogs.dev/en/article/72c5e6)
+### [Enhancing Cursor and CodeBuddy: A Structured AI Collaboration Methodology](/entry/bcm7w7vv) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 # Enhancing Cursor and CodeBuddy: A Structured AI Collaboration Methodology This article introduces a structured AI programming collaboration methodology, empowering developers to evolve from mere &#x27;users&#x27; into &#x27;architects&#x27; capable of systematically guiding AI, thus boosting development efficiency an...
@@ -676,7 +676,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 
 ---
 
-### [Fine-tuning - OpenAI API](https://platform.openai.com/docs/guides/fine-tuning)
+### [Fine-tuning - OpenAI API](/entry/56u6sev2) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # Fine-tuning - OpenAI API Fine-tuning {#fine-tuning} Learn how to customize a model for your application. Introduction {#introduction} Fine-tuning lets you get more out of the models available through the API by providing: 1. Higher quality results than prompt design 2. Ability to train on more exa...
