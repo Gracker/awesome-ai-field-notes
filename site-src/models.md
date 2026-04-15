@@ -643,7 +643,7 @@ Understanding how LLM inference works with llama.cpp
 
 ## 📅 2024-01-09
 
-### [万字盘点 2023 年 Android 领域的重要技术：AI，14，Compose，鸿蒙...](https://mp.weixin.qq.com/s?__biz=MzIwNTkwNTk3OQ==&mid=2247487007&idx=1&sn=29d8e6907d8a4793f7f12d5ddf7afdc7&chksm=9728874ba05f0e5d8d24ae3f38efadc19cd55476e87d0c0b1e678a5bc0f98c2350b8152be0e0&mpshare=1&scene=1&srcid=0109u8PWuphqRVBNSYgr0I4z&sharer_shareinfo=abb165365e6cb945db385a656da0e430&sharer_shareinfo_first=abb165365e6cb945db385a656da0e430)
+### [万字盘点 2023 年 Android 领域的重要技术：AI，14，Compose，鸿蒙...](/entry/ZxKiEcO1) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-01-09
 
 AICore2022 年底横空出世的 GPT-3.5 引发了全球的大模型 LLM 狂潮。作为在 AI 领域耕
@@ -754,7 +754,7 @@ Read Original
 
 ## 📅 2023-03-26
 
-### [《GPT-4 ，通用人工智能的火花》论文内容精选与翻译](https://orangeblog.notion.site/GPT-4-8fc50010291d47efb92cbbd668c8c893)
+### [《GPT-4 ，通用人工智能的火花》论文内容精选与翻译](/entry/E1s71i0w) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-03-26
 
 《通用人工智能的火花：GPT-4早期实验》是3月最重要的一篇论文，引起了广泛的关注和讨论，但是论文长达 154页，中文版本还无人翻译。

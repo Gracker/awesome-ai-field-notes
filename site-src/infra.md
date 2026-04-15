@@ -643,7 +643,7 @@ Read Original
 
 ## 📅 2022-03-18
 
-### [一文读懂 Fragment 的方方面面](https://mp.weixin.qq.com/s?__biz=MzAxMTYzNTIyMA==&mid=2247492557&idx=1&sn=bae1e6b48f166d6d72e95e5608ec2a70&chksm=9bbcbcb6accb35a018e8f0fd173080168663e35735a3fbb27fdb609ce8ab594ad2aa8cacc1c1&mpshare=1&scene=1&srcid=0318iVNE7oNFxaYcBYAgzZke&sharer_sharetime=1647594344743&sharer_shareid=60bd7acea7881a97fbf9a6126d3e88d3)
+### [一文读懂 Fragment 的方方面面](/entry/VkExTygi) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2022-03-18
 
 Fragment 是 Android 中历史十分悠久的一个组件，在 Android 3.0 （API 级别 11）的时候推出，时至今日已成为 Android 开发中最常用的组件之一。在一开始的时候，引入 Fragment 的目的是为了在大屏
@@ -652,7 +652,7 @@ Fragment 是 Android 中历史十分悠久的一个组件，在 Android 3.0 （A
 
 ## 📅 2022-01-20
 
-### [【开放阅读】2021 年度十大数字应用（服务） – Dailyio](https://iois.me/archives/12964.html)
+### [【开放阅读】2021 年度十大数字应用（服务） – Dailyio](/entry/XBaDFs3i) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2022-01-20
 
 本文选自付费邮件通讯「iPad Power User」，这是一份聚焦 iPad、iPadOS 与个人生产力的邮件通讯产品，通过不断探索与生活、工作息息相关的数字工具与方法论，为订阅读者提供中文互联网领域最优质的数字工具使用技巧、应用（服务）推荐以及数字化思考，欢迎试读、订阅。
