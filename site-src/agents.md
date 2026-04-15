@@ -1349,7 +1349,7 @@ OpenAI 发布 Agents SDK，是 Swarm 实验项目的生产级升级版。核心�
 
 ## 📅 2025-03-06
 
-### [【科普】程序员必看，AI时代新协议 MCP 正在连接吞噬一切，20+资源全收录！](https://mp.weixin.qq.com/s/UF8Tz3VuhUA2v3ds7k53cw)
+### [【科普】程序员必看，AI时代新协议 MCP 正在连接吞噬一切，20+资源全收录！](/entry/g2XhdceF) 📄
 ⭐⭐⭐⭐4 🌐 · 2025-03-06
 
 [需翻译] X（Twitter）上，AI 圈 10w+ 关注大V橘子兄这么评价： ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FjibL99tg2bCXsWIicK2X1vJ0pxkaMibsVvO39oxf8HCwdCh9xggPv7Fzh1LKlcxKN5TNDeJ0lte3IJnMMIUIC8ruw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg &quot;null&quot;) 不少独立开发圈的朋友们，对MCP技术也很感兴趣。   ?...

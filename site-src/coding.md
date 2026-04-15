@@ -1097,7 +1097,7 @@ Read Original
 
 ## 📅 2025-04-17
 
-### [【有嘴就能做开发】Cursor——AI编辑器 使用详解 - 知乎](https://zhuanlan.zhihu.com/p/27335614120)
+### [【有嘴就能做开发】Cursor——AI编辑器 使用详解 - 知乎](/entry/KUhDnaSh) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-04-17
 
 ?imageUrl=https%3A%2F%2Fpic4.zhimg.com%2Fv2-e16ddecead14b9bf72ee911ae24568b3_r.jpg&amp;valid=false) https://www.cursor.com
