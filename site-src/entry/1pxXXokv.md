@@ -15,4 +15,68 @@ sidebar: false
 
 ---
 
-# "Progress is not achieved by luck or accident, but by working on yourself daily." ## English # "Progress is not achieved by luck or accident, but by working on yourself daily." ## 原文 *"Progress is not achieved by luck or accident, but by working on yourself daily."* 这句话源自古希腊斯多葛派哲学家爱比克泰德（Epictetus）。这个有力的陈述是斯多葛主义的核心信条之一，强调持续个人成长和一致努力的重要性。 ## 哲学背景 爱比克泰德的教诲构成了这句话的基础。他本人没有亲自写下这些内容，而是由他的学生阿里安（Arrian）在作品《论说集》（也称为《Diatribe》）和《手册》（Enchiridion）中记录下来的。这些文本捕捉了他非正式的讲座和哲学讨论。 ## 斯多葛主义的核心原则 ### 每日自律 真正的进步来自于每天的持续努力，而不是偶然的好运。这意味着： - **日常练习**：每天都要有意识地培养美德 - **自我反思**：定期审视自己的思想和行为 - **持续改进**：永远保持学习和成长的心态 ### 责任与控制 - 关注你能控制的事情（自己的思想和行动） - 接受你不能控制的事情（外部环境和他人） - 把精力集中在有意义的行动上 ### 逆境中的坚韧 - 将挑战视为成长的机会 - 在困难中保持内心的平静 - 从每一次失败中学习 ## 现代应用 ### 个人发展 这句话对现代个人发展仍然具有深刻启示： 1. **持续学习**：每天都学习新技能或知识 2. **习惯养成**：通过日常习惯实现长期目标 3. **自我提升**：不断挑战自己，突破舒适区 ### 职业发展 在职业生涯中，这句话意味着： - **技能精进**：每天练习和改进专业技能 - **经验积累**：从每个项目中学习和成长 - **关系维护**：持续投资于重要的人际关系 ### 心理健康 心理健康也需要每日的关注： - **情绪管理**：学习识别和处理情绪 - **压力应对**：建立健康的应对机制 - **感恩实践**：每天培养感恩的心态 ## 实践建议 ### 制定日常计划 1. **早晨反思**：设定当天的意图和目标 2. **日间执行**：有意识地按照计划行动 3. **晚间总结**：反思当天的表现和学习 ### 建立系统 1. **习惯追踪**：记录日常活动的完成情况 2. **目标分解**：将大目标分解为可管理的每日任务 3. **进度监控**：定期检查进展和调整方向 ### 心态培养 1. **成长型思维**：相信能力可以通过努力提高 2. **耐心和坚持**：理解进步需要时间 3. **自我同情**：在失败时保持对自己的理解和支持 ## 与其他智慧传统的共鸣 这句话与其他许多智慧传统都有共鸣： - **佛教**：强调正念和日常修行的重要性 - **道家**：强调自然规律和持续努力 - **儒家**：强调修身养性和日常实践 ## 结论 爱比克泰德的这句智慧提醒我们，真正的进步不是偶然的，而是通过有意识的、持续的日常努力实现的。在快节奏的现代生活中，这种坚持和自律的品质尤为重要。 通过将这句话付诸实践，我们可以在个人、职业和精神的各个层面实现持续的成长和进步。记住，每一个伟大的成就都是由无数个微小的、有意义的日常行动积累而成的。 ## 中文 # "Progress is not achieved by luck or accident, but by working on yourself daily." ## 原文 *"Progress is not achieved by luck or accident, but by working on yourself daily."* 这句话源自古希腊斯多葛派哲学家爱比克泰德（Epictetus）。这个有力的陈述是斯多葛主义的核心信条之一，强调持续个人成长和一致努力的重要性。 ## 哲学背景 爱比克泰德的教诲构成了这句话的基础。他本人没有亲自写下这些内容，而是由他的学生阿里安（Arrian）在作品《论说集》（也称为《Diatribe》）和《手册》（Enchiridion）中记录下来的。这些文本捕捉了他非正式的讲座和哲学讨论。 ## 斯多葛主义的核心原则 ### 每日自律 真正的进步来自于每天的持续努力，而不是偶然的好运。这意味着： - **日常练习**：每天都要有意识地培养美德 - **自我反思**：定期审视自己的思想和行为 - **持续改进**：永远保持学习和成长的心态 ### 责任与控制 - 关注你能控制的事情（自己的思想和行动） - 接受你不能控制的事情（外部环境和他人） - 把精力集中在有意义的行动上 ### 逆境中的坚韧 - 将挑战视为成长的机会 - 在困难中保持内心的平静 - 从每一次失败中学习 ## 现代应用 ### 个人发展 这句话对现代个人发展仍然具有深刻启示： 1. **持续学习**：每天都学习新技能或知识 2. **习惯养成**：通过日常习惯实现长期目标 3. **自我提升**：不断挑战自己，突破舒适区 ### 职业发展 在职业生涯中，这句话意味着： - **技能精进**：每天练习和改进专业技能 - **经验积累**：从每个项目中学习和成长 - **关系维护**：持续投资于重要的人际关系 ### 心理健康 心理健康也需要每日的关注： - **情绪管理**：学习识别和处理情绪 - **压力应对**：建立健康的应对机制 - **感恩实践**：每天培养感恩的心态 ## 实践建议 ### 制定日常计划 1. **早晨反思**：设定当天的意图和目标 2. **日间执行**：有意识地按照计划行动 3. **晚间总结**：反思当天的表现和学习 ### 建立系统 1. **习惯追踪**：记录日常活动的完成情况 2. **目标分解**：将大目标分解为可管理的每日任务 3. **进度监控**：定期检查进展和调整方向 ### 心态培养 1. **成长型思维**：相信能力可以通过努力提高 2. **耐心和坚持**：理解进步需要时间 3. **自我同情**：在失败时保持对自己的理解和支持 ## 与其他智慧传统的共鸣 这句话与其他许多智慧传统都有共鸣： - **佛教**：强调正念和日常修行的重要性 - **道家**：强调自然规律和持续努力 - **儒家**：强调修身养性和日常实践 ## 结论 爱比克泰德的这句智慧提醒我们，真正的进步不是偶然的，而是通过有意识的、持续的日常努力实现的。在快节奏的现代生活中，这种坚持和自律的品质尤为重要。 通过将这句话付诸实践，我们可以在个人、职业和精神的各个层面实现持续的成长和进步。记住，每一个伟大的成就都是由无数个微小的、有意义的日常行动积累而成的。 # Note: Full translation would be implemented here with proper translation service
+# Progress is not achieved by luck or accident, but by working on yourself daily.
+
+## English
+
+"Progress is not achieved by luck or accident, but by working on yourself daily."
+
+This powerful statement is attributed to the ancient Greek Stoic philosopher **Epictetus** (c. 50–130 AD). This quote is a core tenet of Stoicism, emphasizing the importance of continuous personal growth and consistent effort.
+
+### About Epictetus
+
+Epictetus was born a slave, later freed, and became one of the most influential Stoic philosophers. His teachings were not personally written down by him but were recorded by his student Arrian in works such as:
+
+- **"The Discourses"** (also known as "Diatribai")
+- **"The Enchiridion"** (Handbook)
+
+These texts capture his informal lectures and philosophical discussions on how to live a good life, manage one's emotions, and develop resilience against adversity.
+
+### The Philosophy
+
+The core message of this quote aligns with Stoic principles:
+
+- **Personal responsibility**: Progress comes from within, not from external circumstances
+- **Consistency over luck**: Daily, deliberate practice trumps random fortune
+- **Self-improvement as a discipline**: Growth requires sustained effort, not occasional bursts
+
+### Modern Application
+
+In the context of modern work and personal development:
+
+- Daily learning and skill-building compound over time
+- "Working on yourself" can mean studying, practicing, reflecting, or seeking feedback
+- The "luck vs. effort" framing challenges the passive waiting mindset
+
+---
+
+## 中文
+
+"进步不是靠运气或偶然，而是靠每天努力修炼自己。"
+
+这句名言出自古希腊斯多葛学派哲学家**爱比克泰德**（Epictetus，约公元50-130年）。这句话是斯多葛主义的核心原则，强调持续个人成长和始终如一努力的重要性。
+
+### 关于爱比克泰德
+
+爱比克泰德出生于奴隶之家，后来获得自由，成为最具影响力的斯多葛学派哲学家之一。他的教义并非亲手写下，而是由学生阿里安记录在以下著作中：
+
+- **《Discourses》（谈话录）**，又名《Diatribai》
+- **《Enchiridion》（手册）**
+
+这些文本记录了他关于如何过上美好生活、管理情绪、面对逆境的非正式讲座和哲学讨论。
+
+### 哲学内涵
+
+这句话的核心要义符合斯多葛主义的原则：
+
+- **个人责任**：进步来自内心，而非外部环境
+- **坚持优于运气**：每天有意识的练习远胜过偶然的运气
+- **自我修炼是一种修行**：成长需要持续努力，而非偶尔爆发
+
+### 现代应用
+
+在现代工作和个人发展的语境中：
+
+- 每天的学习和技能培养会随时间复利增长
+- "修炼自己"可以指学习、练习、反思或寻求反馈
+- "运气 vs. 努力"的框架挑战了被动等待的心态
