@@ -909,7 +909,7 @@ Read Original
 
 ## 📅 2024-03-01
 
-### [科技爱好者周刊#291：AI 没有护城河](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650236249&idx=1&sn=ad6869c997076468676d999fb100354a&chksm=f3e09099c497198f43b7ba1362f806e83e314fafba600024fb594d8560c42679522517c84d02&mpshare=1&scene=1&srcid=0301xwyhqrYojSgesGrFcpVL&sharer_shareinfo=c5938565c739f0cf7ce9afe4844e2bac&sharer_shareinfo_first=c5938565c739f0cf7ce9afe4844e2bac)
+### [科技爱好者周刊#291：AI 没有护城河](/entry/dp1D5lbH) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-03-01
 
 本杂志开源^\[1\]^，欢迎投稿^\[2\]^。另有《谁在招人》^\[3\]^服务，发布程序员招聘信息。合作请邮件联系^\[4\]^（yifeng.ruan@gmail.com^\[5\]^）。
@@ -918,7 +918,7 @@ Read Original
 
 ## 📅 2024-02-04
 
-### [西瓜视频稳定性治理体系建设一：Tailor 原理及实践](https://mp.weixin.qq.com/s/DWOQ9MSTkKSCBFQjPswPIQ)
+### [西瓜视频稳定性治理体系建设一：Tailor 原理及实践](/entry/emQlKmiB) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-02-04
 
 **Tailor**\[1\]是西瓜视频 Android 团队开发的一款内存快照裁剪压缩工具，广泛用于字节跳动旗下各大 App 的 OOM 治理及异常排查，收益显著，在西瓜视频上更是取得 OOM 降低95%以上的好成绩。Tailor 工具现已开源，本文将通过原理、方案和实践来剖析 Tailor 的相关细节。

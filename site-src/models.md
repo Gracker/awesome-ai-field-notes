@@ -331,7 +331,7 @@ Google全新 MLKit端上生成式API 现已开放！只需几行代码，就能�
 
 ## 📅 2025-05-07
 
-### [编译器优化那些事儿（22）：LLM for Vectorization](https://mp.weixin.qq.com/s?__biz=MzkyNTMwMjI2Mw==&mid=2247503443&idx=1&sn=284875bc09501173f8ea5800a37b2908&chksm=c028560f091ce304398380309cbf0f2a82bb0bcd37414abd83492228cee5103006cd87107eb4&mpshare=1&scene=1&srcid=0507ZK3YgOxubtbDQrAeykZT&sharer_shareinfo=c3ed28bfb00b1d769ca0d8792a8b04d7&sharer_shareinfo_first=c3ed28bfb00b1d769ca0d8792a8b04d7)
+### [编译器优化那些事儿（22）：LLM for Vectorization](/entry/e7QC8TYz) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-05-07
 
 随着大语言模型（Large Language Model, LLM）技术的迅猛发展，其应用已从通用领域快速渗透至编译技术等专业场景。本文将聚焦大模型在编译优化中的创新实践，重点探讨基于大模型的自动向量化的优化方法及其实现机制。
@@ -616,7 +616,7 @@ Understanding how LLM inference works with llama.cpp
 
 ## 📅 2024-05-24
 
-### [科技爱好者周刊#301：OpenAI 的图书馆工位](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650236958&idx=1&sn=a75c8717cd10fe563c9011a191d1cff2&chksm=f3e09ddec49714c8e0275fb3318ab386fbef694c7d2d0f83b059791a7eddbc1566301763fc51&mpshare=1&scene=1&srcid=0524oJ4YctbRmcRuCjXdvfvz&sharer_shareinfo=ff643bce4d41866ce44a3fccd3a0a40c&sharer_shareinfo_first=ff643bce4d41866ce44a3fccd3a0a40c)
+### [科技爱好者周刊#301：OpenAI 的图书馆工位](/entry/j6bD6nKv) 📄
 ⭐⭐⭐⭐4 🌐 · 2024-05-24
 
 [需翻译] 本杂志开源^\[1\]^，欢迎投稿^\[2\]^。另有《谁在招人》^\[3\]^服务，发布程序员招聘信息。合作请邮件联系^\[4\]^（yifeng.ruan@gmail.com^\[5\]^）。

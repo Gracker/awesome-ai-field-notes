@@ -893,7 +893,7 @@ Read Original
 
 ## 📅 2025-12-12
 
-### [聊一聊豆包AI手机助手高度敏感权限CAPTURE_SECURE_VIDEO_OUTPUT](https://mp.weixin.qq.com/s?__biz=MzkzOTQ4NDUyNg==&mid=2247492985&idx=1&sn=7de6706287bdf7b35824ae4ef3183c48&chksm=c340cc1c38e05b16ca7b5fe720015a0bf917347d6e282b6d8093f327e0dc1ba5ed07bee02210&mpshare=1&scene=1&srcid=1212CFAxOpBJWjdb5FbsBni1&sharer_shareinfo=e35960f9ed207c81805690a8d7881d77&sharer_shareinfo_first=5647327a26081e2ca9e38616231d5794)
+### [聊一聊豆包AI手机助手高度敏感权限CAPTURE_SECURE_VIDEO_OUTPUT](/entry/qGL1H9gQ) 📄
 ⭐⭐⭐⭐4 🌐 · 2025-12-12
 
 [需翻译] 近来手机界最火爆的话题莫过于豆包手机助手，很多博主拿到豆包手机后也开始对豆包手机助手进行一系列的实现原理调研和猜想，比如调研时候就涉及几个我们系统fw和应用开发中常用的一些权限

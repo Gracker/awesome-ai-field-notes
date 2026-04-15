@@ -1,19 +1,17 @@
 ---
-title: 'Waza：AI 时代工程师的 8 个核心技能工具集'
+title: '科技爱好者周刊#291：AI 没有护城河'
 sidebar: false
 ---
 
 ::: info
-[← 返回AI编程](/coding)
+[← 返回学习资源](/learning)
 :::
 
-# Waza：AI 时代工程师的 8 个核心技能工具集
+# 科技爱好者周刊#291：AI 没有护城河
 
-> 一套面向 AI 时代工程师的 8 技能工具集，覆盖思考到维护全流程
+> Cubox 收藏 — 科技爱好者周刊#291：AI 没有护城河
 
-🔗 [原文链接](https://x.com/HiTw93/status/2041053321851789629) | @HiTw93 | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2026-04-06
-
-`openclaw` `skills` `agent` `engineering` `workflow` `context-engineering`
+🔗 [原文链接](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650236249&idx=1&sn=ad6869c997076468676d999fb100354a&chksm=f3e09099c497198f43b7ba1362f806e83e314fafba600024fb594d8560c42679522517c84d02&mpshare=1&scene=1&srcid=0301xwyhqrYojSgesGrFcpVL&sharer_shareinfo=c5938565c739f0cf7ce9afe4844e2bac&sharer_shareinfo_first=c5938565c739f0cf7ce9afe4844e2bac) | 🇨🇳 | ⭐⭐⭐⭐ 4 ⭐4 4/5 📅 2024-03-01
 
 ---
 
