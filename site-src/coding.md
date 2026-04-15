@@ -763,28 +763,28 @@ SmartPerfetto 的 Harness Engineering 实战记录。在 Perfetto UI 加 AI 分�
 
 ---
 
-### [Windsurf：面向未来的 AI编程工具详解](https://mp.weixin.qq.com/s?__biz=Mzg3OTYwMjcxMA==&mid=2247488634&idx=1&sn=5c07be393a21ec29c1e7b57432d5affd&chksm=ce5273e456a9e242cbcb5ddb42a2a732a84d6fba8b6e6a1c9d6e60c583e931a6150ff36e375a&mpshare=1&scene=1&srcid=0108YxgA7cywjKuymVzomsTE&sharer_shareinfo=4b4f4111efff99d418d52653b1a3ce05&sharer_shareinfo_first=4b4f4111efff99d418d52653b1a3ce05)
+### [Windsurf：面向未来的 AI编程工具详解](/entry/3emIE5H6) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 我是范文杰，一个专注于 AI 辅助编程与前端工程化领域的切图仔，**近期有不少 HC，感兴趣的同学可联系我内推！**欢迎关注：
 
 ---
 
-### [garrytan/gstack: Use Garry Tan&#x27;s exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA](https://github.com/garrytan/gstack)
+### [garrytan/gstack: Use Garry Tan&#x27;s exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA](/entry/Js9Ltvmf) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] garrytan/gstack: Use Garry Tan&#x27;s exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
 
 ---
 
-### [“10x Cursor”开发体验， Claude Code 如何带来 AI Coding 的 L4 时刻？｜Best Ideas | BestBlogs.dev](https://www.bestblogs.dev/article/a5ae61)
+### [“10x Cursor”开发体验， Claude Code 如何带来 AI Coding 的 L4 时刻？｜Best Ideas | BestBlogs.dev](/entry/p8k8RFur) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 “10x Cursor”开发体验， Claude Code 如何带来 AI Coding 的 L4 时刻？｜Best Ideas | BestBlogs.dev
 
 ---
 
-### [“Progress is not achieved by luck or accident, but by working on yourself daily.” | Revue](https://newsletter.stoicallytyped.com/issues/progress-is-not-achieved-by-luck-or-accident-but-by-working-on-yourself-daily-558084)
+### [“Progress is not achieved by luck or accident, but by working on yourself daily.” | Revue](/entry/1pxXXokv) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] “Progress is not achieved by luck or accident, but by working on yourself daily.” | Revue

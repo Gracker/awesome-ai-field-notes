@@ -167,21 +167,21 @@ Read Original
 
 ---
 
-### [Writing a storage engine for Postgres: an in-memor...](https://notes.eatonphil.com/2023-11-01-postgres-table-access-methods.html?s=09)
+### [Writing a storage engine for Postgres: an in-memor...](/entry/bB9VugZ9) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] Writing a storage engine for Postgres: an in-memor...
 
 ---
 
-### [Writing my own ChatGPT Code Interpreter](https://ricklamers.io/posts/gpt-code)
+### [Writing my own ChatGPT Code Interpreter](/entry/zPLRBWtX) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] It&#x27;s called GPT-Code UI and is now available on GitHub and PyPI
 
 ---
 
-### [o1发布后，信息量最大的圆桌对话：杨植麟、姜大昕、朱军探讨大模型技术路径](https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247508205&idx=1&sn=f9d2e8157c3239edfb9ced742402ab6b&chksm=c1ba504955b9e2a7d655ce0cef53a866fb1c8bcb94af3a12ca163660b45b491b9ffe5aa7c72f&mpshare=1&scene=1&srcid=0919VXMU59Hz06bWzhnRmFBV&sharer_shareinfo=543abc86b66833bf72da2cb94298502f&sharer_shareinfo_first=543abc86b66833bf72da2cb94298502f)
+### [o1发布后，信息量最大的圆桌对话：杨植麟、姜大昕、朱军探讨大模型技术路径](/entry/jyT3Fx2b) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2FqpAK9iaV2O3sAVsSPfCN9UX44XiaoicbUJIrOGuaujdMNY6iaQewDZEX1GY3tcVk3QGeKJyUMMHBSMALvO8B7DZwsA%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg)
@@ -195,7 +195,7 @@ Read Original
 
 ---
 
-### [【GDE 分享】移植 Mediapipe LLM Demo 到 Kotlin Multiplatform](https://mp.weixin.qq.com/s?__biz=MzAwODY4OTk2Mg==&mid=2652156697&idx=1&sn=55617f0f36a5140e1ccab81cf2e993b9&chksm=81804ccb4b9c2d5d5e40eef52b4d3e36c917a8e522c7665caed454c946c38eea60214e574b31&mpshare=1&scene=1&srcid=1204O1Ui5CICYKzzZcL52qZd&sharer_shareinfo=8c320679059dc8cc7a3ae79087deb163&sharer_shareinfo_first=8c320679059dc8cc7a3ae79087deb163)
+### [【GDE 分享】移植 Mediapipe LLM Demo 到 Kotlin Multiplatform](/entry/4Syg5zaw) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] 【GDE 分享】移植 Mediapipe LLM Demo 到 Kotlin Multiplatform
@@ -321,7 +321,7 @@ DeepSeek-R1的成功标志着AI在推理能力方面的重要突破。它不仅�
 
 ---
 
-### [科技爱好者周刊#336：面对 AI，互联网正在衰落](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650239833&idx=1&sn=de17715a756f4f6551de9cebbbc96908&chksm=f2a177e88e8c54000b121e314194a98fd2757069187fe5ecae413081d22cefdd75285798541d&mpshare=1&scene=1&srcid=02070dOqWFFOfCxTypdPyEXb&sharer_shareinfo=58776483e2b04f9af9bc2a10bb3fb9f6&sharer_shareinfo_first=58776483e2b04f9af9bc2a10bb3fb9f6)
+### [科技爱好者周刊#336：面对 AI，互联网正在衰落](/entry/4QBE6GLq) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] 本杂志开源^\[1\]^，欢迎投稿^\[2\]^。另有《谁在招人》^\[3\]^服务，发布程序员招聘信息。合作请邮件联系^\[4\]^（yifeng.ruan@gmail.com^\[5\]^）。

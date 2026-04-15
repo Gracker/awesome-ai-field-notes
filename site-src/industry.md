@@ -313,7 +313,7 @@ Eugene Wei 从《Seeing Like a State》出发分析 TikTok 产品设计如何帮
 
 ---
 
-### [[AI里程碑] AiPhone is coming | AI+手机时代已来](https://mp.weixin.qq.com/s?__biz=Mzk0MDUyNzkzMw==&mid=2247485322&idx=1&sn=0934935b31701e9ab3f140cdd9c9c2ca&chksm=c2e11fd8f59696ce3930016c852212c42ac273940c3e75eccbe632f126ed7c9ee00385524102&mpshare=1&scene=1&srcid=0229JJfXHfjlzQNRrE2pVsJX&sharer_shareinfo=ea86b377405c484f019a88b9b7aefdc1&sharer_shareinfo_first=ea86b377405c484f019a88b9b7aefdc1)
+### [[AI里程碑] AiPhone is coming | AI+手机时代已来](/entry/iXcRwjIp) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 **\[AI Milestone\] AiPhone is coming \| AI+手机时代已来** &gt; **2024年1月18日，三星正式推出了Galaxy S24系列机型，成为全球首款AI手机，从此Galaxy S24超越智能手机时代，将开创新的移动AI手机时代。这是自2007年苹果创始人史蒂夫·乔布斯发布首款iPhone后，智能手机的最强进化。**本文主要介绍三星AI手机中涉及到的AI黑科技及原理，以及对AiPhone（AI+Phone）的未来趋势的一点点思考。

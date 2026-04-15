@@ -280,7 +280,7 @@ Vitalik Buterin 分享其本地私有 LLM 使用方案。隐私安全目标：�
 
 ---
 
-### [[译] AI计算民主化 第七部分：如何看待Triton与Python eDSLs？](https://mp.weixin.qq.com/s?__biz=MzI4MTQyNzkxNw==&mid=2247484077&idx=1&sn=a9ea8f707fe733c43f8c5e8b119efd95&chksm=eaa3bb549d34d9b69fa713d6f5a05ee7aebbe587ddbcc7105cdfb25ececa5bd138a5a140cde0&mpshare=1&scene=1&srcid=0406EAJwfSBv8kNBXXR6T3mD&sharer_shareinfo=1285f5c35b21a56bde53198b6074ed60&sharer_shareinfo_first=1285f5c35b21a56bde53198b6074ed60)
+### [[译] AI计算民主化 第七部分：如何看待Triton与Python eDSLs？](/entry/MIOvnhLW) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 AI编译器的根本性权衡：既要通过抽象底层细节来实现易用性和可扩展性，但现代生成式AI工作负载又需要可编程性和硬件控制来实现极致性能。

@@ -713,7 +713,7 @@ Anthropic 详细分享其 Research 功能的多 Agent 系统从原型到生产�
 
 ---
 
-### [最近爆火的MCP究竟有多大魅力？MCP开发初体验｜得物技术](https://mp.weixin.qq.com/s?__biz=MzkxNTE3ODU0NA==&mid=2247539225&idx=1&sn=811dee1e2b17f5b1249d14f19b69f171&chksm=c0410dd7305597ba3c7f3dc6d1f7ee85808d38011bd376b42cace90a0fbc6c687a1be00c888f&mpshare=1&scene=1&srcid=0507se7oCab5JJoikWmzE8I5&sharer_shareinfo=634900176f4a7a250585116a09ea6b5f&sharer_shareinfo_first=634900176f4a7a250585116a09ea6b5f)
+### [最近爆火的MCP究竟有多大魅力？MCP开发初体验｜得物技术](/entry/3CmURoZ0) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 [需翻译] 组合多个 MCP Server 的工作流可以自主完成非常复杂的任务，关键是这协议统一了连接标准，有大量现成的 MCP Server 可以即插即用，大幅降低建设成本。
