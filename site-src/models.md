@@ -63,7 +63,7 @@ Tw93 继 Claude Code 和 Agent 深度分析后的第三篇长文，系统梳理�
 
 ## 📅 2026-03-21
 
-### [你不知道的 Agent：原理、架构与工程实践 - Tw93](https://tw93.fun/2026-03-21/agent.html)
+### [你不知道的 Agent：原理、架构与工程实践 - Tw93](/entry/h9wlwPdj) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-21
 
 研究完 Claude Code 的架构之后，发现自己对 Agent 底层的理解还不够深入，加上团队在 Agent 方向已经有不少业务落地，但一直缺少一份系统梳理，所以又补了一轮资料、开源实现和轻量实验，把控制流、上下文工程、工具设计、记忆、评测和安全这些问题重新串了一遍。
@@ -228,7 +228,7 @@ Read Original
 
 ## 📅 2025-08-08
 
-### [关于 GPT-5，你需要知道的一些事](https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ==&mid=2247490441&idx=1&sn=b6c382fca65d99823111d0d535f4b917&chksm=e9dd65b4e2529a5bf9f4eb6a9e05296066a6b64c703d7e75309c60ccb48df205db11ffbe0ef8&mpshare=1&scene=1&srcid=0808qDtJYle30xmSqVCkDG9f&sharer_shareinfo=848ce1bc201886d036c7a4057d480e65&sharer_shareinfo_first=848ce1bc201886d036c7a4057d480e65)
+### [关于 GPT-5，你需要知道的一些事](/entry/xhQBNSWG) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-08-08
 
 当大模型基座开始下场卷 Agent，卷应用（你还别说，vibe coding 渐变色真挺“炫”）...
@@ -804,7 +804,7 @@ PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最�
 
 ## 📅 2023-02-20
 
-### [从 ChatGPT 看 AI 未来的 7 种场景可能性](https://mp.weixin.qq.com/s?__biz=MjM5NDkyNTUzOA==&mid=2657927144&idx=1&sn=3a7fe5e7b5fc7a9122568be10af16ede&chksm=bd1841658a6fc87360629cffe9950e320be5cb7c3a2d65bbc2d8306a0db56814b91cee0abb79&mpshare=1&scene=1&srcid=0220UhKJMafUatrSeE8Kn45t&sharer_sharetime=1676892627489&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [从 ChatGPT 看 AI 未来的 7 种场景可能性](/entry/InpU8e9h) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-02-20
 
 Cubox 收藏 — 从 ChatGPT 看 AI 未来的 7 种场景可能性

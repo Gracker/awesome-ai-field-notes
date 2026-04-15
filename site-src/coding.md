@@ -290,7 +290,7 @@ Tw93基于半年深度使用Claude Code的踩坑总结。提出六层架构模�
 
 ---
 
-### [分享10个你可能不知道的Claude Code隐藏命令。](https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680919&idx=1&sn=95032bfc6270f229e713598805d26ebf&chksm=f18f60a2aad3f3a08e0d6dee996a13c72b5c47b89ee989b29b84899a4ff0da1606e47842c577&scene=126&sessionid=1774059013)
+### [分享10个你可能不知道的Claude Code隐藏命令。](/entry/NAA9ai9n) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-21
 
 我们公司很多很多的小伙伴，都在用Claude Code，因为这玩意，在很多时候，确实就是最牛逼的通用Agent。
@@ -1043,7 +1043,7 @@ Read Original
 
 ## 📅 2025-06-15
 
-### [刚刚，Cursor 1.0炸裂发布！4大亮点实战 - 知乎](https://zhuanlan.zhihu.com/p/1914015028316737933?locale=zh_CN)
+### [刚刚，Cursor 1.0炸裂发布！4大亮点实战 - 知乎](/entry/U5fxthHm) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-06-15
 
 炸裂，炸裂，炸裂！时隔两年半，Cursor 终于正式发布了 1.0 版本。
@@ -1317,7 +1317,7 @@ Read Original
 
 ## 📅 2024-12-29
 
-### [以小说 AI 工作流为例，Cursor和Windsurf ，为什么我最后选择Cursor（万字长文）](https://mp.weixin.qq.com/s?__biz=MjM5NjE3NjYzMw==&mid=2247485983&idx=1&sn=81ef74be43e7edffe6df692ae1168018&chksm=a7176d881ffceddd26322830c2175730f5638b4a2b2cd016325053ef6723891cbfdcfb683d0b&mpshare=1&scene=1&srcid=12286IKpGtFF1tFyDldWkGmh&sharer_shareinfo=e6e90ab99869772e9d7f656cb459cc58&sharer_shareinfo_first=b5933aa26e85bc6c8524796b9e18f4e7)
+### [以小说 AI 工作流为例，Cursor和Windsurf ，为什么我最后选择Cursor（万字长文）](/entry/qDDLoE0z) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-12-29
 
 以小说 AI 工作流为例，Cursor和Windsurf ，为什么我最后选择Cursor（万字长文）

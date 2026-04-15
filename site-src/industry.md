@@ -386,7 +386,7 @@ Read Original
 
 ## 📅 2025-10-18
 
-### [从ChatGPT到AI Agent，一文讲透 Agent 的底层逻辑](https://mp.weixin.qq.com/s?__biz=MjM5MDgzNDUxMw==&mid=2650854097&idx=1&sn=cd83a491be6ad1b7b8f9e658c9b9c7d5&chksm=bcc04e56690831c0b2c0040c13564c4d484609728be1bd080079e0659bda8aecbab4dde1ada8&mpshare=1&scene=1&srcid=1018VkzUDQKJWONF0WXgdaoJ&sharer_shareinfo=26505e8c65d8831fe66fced92ca14dd5&sharer_shareinfo_first=26505e8c65d8831fe66fced92ca14dd5)
+### [从ChatGPT到AI Agent，一文讲透 Agent 的底层逻辑](/entry/P4BtzGJn) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-10-18
 
 和许多团队交流后我发现，对 agentic 循环过程的体感缺失和理解，让有人认为存在某种神迹让 Agent 有超越模型智力的表现，有人说无非是多调用几次 API，哪有那么神奇。本文旨在通过示例和理论来帮助大家理解 Agent的底层逻辑。
