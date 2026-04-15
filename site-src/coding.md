@@ -958,7 +958,7 @@ https://www.zhihu.com/question/1962512846630941008/answer/1963073531265913943   
 
 ## 📅 2025-08-12
 
-### [烧掉十亿 Token 后，我总结的 Coding Agent 高阶玩法](https://mp.weixin.qq.com/s?__biz=MzkzNTIzNTYzMA==&mid=2247485666&idx=1&sn=4b9a5ce20104b0473636bb183a4e6676&chksm=c39a7370a54ff219316b3e16c5eb710a23046d88f74ba97f182f6955b741ea4726c4b986851d&mpshare=1&scene=1&srcid=0812pCHh10Gz705xkCFootkZ&sharer_shareinfo=685c02c01d35d330b0df0751ca30333c&sharer_shareinfo_first=29b0caec343ef5be8524908a8e173e91)
+### [烧掉十亿 Token 后，我总结的 Coding Agent 高阶玩法](/entry/pAE2ddQw) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-08-12
 
 今天来继续聊聊如何用好 Claude Code，Codex，Cursor CLI 这类产品的一些经验和思考。

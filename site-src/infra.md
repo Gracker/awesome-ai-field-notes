@@ -413,7 +413,7 @@ LLM (Large Language Models) 的风头一时无两，席卷万千行业。业内�
 
 ## 📅 2024-03-05
 
-### [查看浏览器Browsers的内核版本, 可以用 navigator.userAgent - 掘金](https://juejin.cn/post/7147526675536969742)
+### [查看浏览器Browsers的内核版本, 可以用 navigator.userAgent - 掘金](/entry/j4Ev6hzf) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-03-05
 
 查看浏览器Browsers的内核版本, 可以用 navigator.userAgent 在浏览器控制台输入:navigator.userAgent 几乎所有主要浏览器都支持 navigator.use
@@ -553,7 +553,7 @@ GAN 系列算法开启了图片生成的新起点。GAN的主要灵感来源于�
 
 ---
 
-### [真·万字长文:可能是全网最晚的chatgpt技术总结](https://zhuanlan.zhihu.com/p/613698929?utm_campaign=shareopn&utm_medium=social&utm_oi=761310487785783296&utm_psn=1621196363999485952&utm_source=wechat_session)
+### [真·万字长文:可能是全网最晚的chatgpt技术总结](/entry/qiwV8Dd1) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-03-22
 
 最近ChatGPT可以说是火遍了全世界，作为由知名人工智能研究机构OpenAI于2022年11月30日发布的一个大型语言预训练模型，他的核心在于能够理解人类的自然语言，并使用贴近人类语言风格的方式来进行回复。模型开放使用以来，在人工智能领域引起了巨大的轰动，也成功火出了技术圈。从数据上看，ChatGPT用户数在5天内就达到了100万，2个月就达到了1亿；另外，在很多非人工智能领域，已经有机构在尝试用ChatGPT去做一些智能生成的事。…

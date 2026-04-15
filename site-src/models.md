@@ -468,7 +468,7 @@ DeepSeek-R1的成功标志着AI在推理能力方面的重要突破。它不仅�
 
 ## 📅 2025-02-12
 
-### [淘宝订单列表Fragment转场动画卡顿解决方案](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650538013&idx=1&sn=1b172c2a216668a0b02a2736bf56c878&chksm=823cfadf8a74ae2766cb4d5dd2ae304acd2e5d59bfe97e7b9f1f84bc7cbdac3386e6b5e9265e&mpshare=1&scene=1&srcid=0212dBTzACIePQyi14FEgjgP&sharer_shareinfo=2dec2d49d477e94590f516b0b60b2a84&sharer_shareinfo_first=2dec2d49d477e94590f516b0b60b2a84)
+### [淘宝订单列表Fragment转场动画卡顿解决方案](/entry/qrMXH6mW) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-02-12
 
 如何应对产品形态与产品节奏相对确定情况下转变为『在业务需求与产品形态高度不确定性的情况下，如何实现业务交付时间与交付质量的确定性』。本专题《淘宝交易终端架构探索》是我们摸索出的部分实践总结，欢迎大家一起交流进步。
