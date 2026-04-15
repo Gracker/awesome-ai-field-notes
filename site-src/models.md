@@ -2,10 +2,10 @@
 
 GPT / Claude / Gemini / 开源模型 / 架构 — 共 **90** 条活跃资源
 
-## 📅 昨天
+## 📅 2026-04-14
 
 ### [Decoding Transformer Architecture](/entry/0bf2b5b84701) 📄
-@amitiitbhu · ⭐⭐⭐⭐4 🌐 · 昨天
+@amitiitbhu · ⭐⭐⭐⭐4 🌐 · 2026-04-14
 
 [EN] - **来源**：X/Twitter
 - **原文链接**：https://x.com/augmentcode/status/2043740459256951158

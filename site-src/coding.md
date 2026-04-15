@@ -2,10 +2,10 @@
 
 IDE / CLI / 代码审查 / 工作流 — 共 **156** 条活跃资源
 
-## 📅 昨天
+## 📅 2026-04-14
 
 ### [深度拆解 Claude Code：12 个可复用的 Agentic Harness 设计模式](/entry/480a4f5679ff) 📄
-@技术极简主义 · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
+@技术极简主义 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-14
 
 这次 Claude Code 的泄露，让我们第一次比较完整地看到，这些模式在一个真实、大规模使用的 agent 里是怎么落地的。这样的窗口可能不会一直存在，但这些经验会留下来。
 
@@ -14,7 +14,7 @@ IDE / CLI / 代码审查 / 工作流 — 共 **156** 条活跃资源
 ---
 
 ### [2026 年，AI 编程 Agent 的真正分水岭——Harness 详解](/entry/89fa848ed0d4) 📄
-@Ai学习的老章 · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
+@Ai学习的老章 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-14
 
 [Read in Cubox](https://cubox.pro/web/card/7443555361631504701)  
 [Read Original](https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&amp;mid=2649012185&amp;idx=1&amp;sn=e613849d8e706a95d4a3c292b5881a1e&amp;chksm=86dfe794b8bbe007e9e98feae10f476d336e026e8df0819088fa8639d3385dfe3ce872cacff2&amp;mpshare=
@@ -24,7 +24,7 @@ IDE / CLI / 代码审查 / 工作流 — 共 **156** 条活跃资源
 ---
 
 ### [Augment Code: The Era of Multi-Model Engineering](/entry/013eb7fd5ab9) 📄
-@augmentcode · ⭐⭐⭐⭐4 🌐 · 昨天
+@augmentcode · ⭐⭐⭐⭐4 🌐 · 2026-04-14
 
 [EN] - **来源**：X/Twitter
 - **原文链接**：https://x.com/augmentcode/status/2043740459256951158
@@ -37,7 +37,7 @@ IDE / CLI / 代码审查 / 工作流 — 共 **156** 条活跃资源
 ---
 
 ### [浏览器自动化：从GUI到OpenCLI](/entry/8ee8a8b72ffc) 📄
-@阿里妹 · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+@阿里妹 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-14
 
 [Read in Cubox](https://cubox.pro/web/card/7443547423802132834)  
 [Read Original](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247559535&amp;idx=1&amp;sn=8eb95438291e8594d674652f6bb7c1df&amp;chksm=e8fb4fcf80f86a815cc31cd017098a604bb2b948524d8652ee631027f8542d6de98f4e06f7d3&amp;mpshare=
@@ -758,7 +758,7 @@ Cursor CEO 定义 AI 编码三个时代：第一时代 Tab 自动补全、第二
 
 ## 📅 2026-01-13
 
-### [深度解析：Claude Code Cowork](https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ==&mid=2247491350&idx=1&sn=dd3046300378c493810b246656ef33cb&chksm=e9fe92501c4cf67b96861f0e309dd8f987d0d7f2850ce46ff5121da97ab9559a64b0ef64bd08&mpshare=1&scene=1&srcid=0113qsQNgBeulIsuY7h2mPOu&sharer_shareinfo=38fca9920c4a546ed251b9ec529f1811&sharer_shareinfo_first=38fca9920c4a546ed251b9ec529f1811)
+### [深度解析：Claude Code Cowork](/entry/BduNmS5g) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-13
 
 Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个关键转折点（Cowork: Claude Code for the rest of your work^\[1\]^），它不仅是一个针对非编程人员的新工具，更宣告了 Anthropic 从单纯的模型提供商向综合性代理生态系统（Agentic Ecosystem）协调者的转型。我也算架构演变的见证者了，从早期写 MCP、到前段时间写 Skills（深度解析：Anthropic MCP 协议、从 Prompt Engineeri...
@@ -1468,7 +1468,7 @@ Android 框架团队传奇工程师 Romain Guy 分享 Kotlin 微优化实践。�
 
 ## 📅 2024-01-02
 
-### [深入探讨GPTs和AI Assistant](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649781619&idx=1&sn=6051095ee8c98a93c255002f55dfb2c4&chksm=becce60889bb6f1ee66fdbcf1b5e2bc3e5a5ee7e2d95b59d0e6a913448b5ababd6a4b355d073&mpshare=1&scene=1&srcid=0102uzsvCe5iQSghneuVbOJ9&sharer_shareinfo=f939c224ab77495853e55fc84ad9d533&sharer_shareinfo_first=f939c224ab77495853e55fc84ad9d533)
+### [深入探讨GPTs和AI Assistant](/entry/JT8QPECH) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-01-02
 
 Cubox 收藏 — 深入探讨GPTs和AI Assistant

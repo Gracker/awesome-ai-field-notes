@@ -347,7 +347,7 @@ Read Original
 
 ## 📅 2024-12-14
 
-### [微信正式发布多模态大模型POINTS1.5](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649787907&idx=1&sn=e37095afd62e779e0d2b0b6356201b80&chksm=bf24d99626cf63fb1cf142d6740b5321f0853a1de019f1210500b7f57fd948c0b1a87feb0251&mpshare=1&scene=1&srcid=1214l9Q9sgMr56MjXRxwjfGh&sharer_shareinfo=8eed771cea5ad1691bbb03ff4506784c&sharer_shareinfo_first=8eed771cea5ad1691bbb03ff4506784c)
+### [微信正式发布多模态大模型POINTS1.5](/entry/BZwVgqGU) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-12-14
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg)

@@ -2,10 +2,10 @@
 
 教程 / 论文 / 提示工程 / 演讲 — 共 **101** 条活跃资源
 
-## 📅 昨天
+## 📅 2026-04-14
 
 ### [深度研究Prompt方法论：横纵分析法](/entry/6a2113a2d9ca) 📄
-@Khazix0918 · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+@Khazix0918 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-14
 
 - **来源**：X/Twitter
 - **原文链接**：https://x.com/augmentcode/status/2043740459256951158
@@ -768,7 +768,7 @@ Lilian Weng 的经典综述文章，系统阐述以 LLM 为核心的自主 Agent
 
 ---
 
-### [科技爱好者周刊#342：面试的 AI 作弊——用数字人去面试](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650240283&idx=1&sn=e74c7c337a40760a10e1e9707e9310aa&chksm=f2aaee15ba120da6928d66d8120d706f90b6aad6b63ff03a02e843bfc1a384f892be51308818&mpshare=1&scene=1&srcid=0321eCPp5WZxUcBObAJv1aBz&sharer_shareinfo=fbb1ce85b03c61875f7fd2824548ec8e&sharer_shareinfo_first=fbb1ce85b03c61875f7fd2824548ec8e)
+### [科技爱好者周刊#342：面试的 AI 作弊——用数字人去面试](/entry/AAbj5iB9) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-03-21
 
 本杂志开源^\[1\]^，欢迎投稿^\[2\]^。另有《谁在招人》^\[3\]^服务，发布程序员招聘信息。合作请邮件联系^\[4\]^（yifeng.ruan@gmail.com^\[5\]^）。
@@ -891,7 +891,7 @@ Read Original
 
 ## 📅 2024-05-10
 
-### [科技爱好者周刊#299：AI 的关键是语料](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650236793&idx=1&sn=bde7c85110ac5e2176c77170951d06bb&chksm=f3e092b9c4971bafb87028fcc42c6f23de8c7e9e2739706255adabdd165dc7fa5cf42578c5c3&mpshare=1&scene=1&srcid=0510oiRR05jTKW7W65jp9QFt&sharer_shareinfo=492338933a46988baa1775a0c21e42a2&sharer_shareinfo_first=492338933a46988baa1775a0c21e42a2)
+### [科技爱好者周刊#299：AI 的关键是语料](/entry/GLLemXIU) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-05-10
 
 本杂志开源^\[1\]^，欢迎投稿^\[2\]^。另有《谁在招人》^\[3\]^服务，发布程序员招聘信息。合作请邮件联系^\[4\]^（yifeng.ruan@gmail.com^\[5\]^）。
@@ -900,7 +900,7 @@ Read Original
 
 ## 📅 2024-05-07
 
-### [我如何夺冠新加坡首届 GPT-4 提示工程大赛 [译] | 宝玉的分享](https://baoyu.io/translations/prompt-engineering/how-i-won-singapores-gpt-4-prompt-engineering-competition?s=09)
+### [我如何夺冠新加坡首届 GPT-4 提示工程大赛 [译] | 宝玉的分享](/entry/DJotrA2L) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-05-07
 
 深度探索我在驾驭大语言模型（LLMs）中学到的策略 ?imageUrl=https%3A%2F%2Fbaoyu.io%2Fimages%2Fprompt-engineering%2Fhow-i-won-singapores-gpt-4-prompt-engineering-competition%2F1_RAI4cBXe1_zaxVykHz79oA.webp&amp;valid=true) 庆祝这一里程碑 --- 真正的胜利在于宝贵的学习经历！

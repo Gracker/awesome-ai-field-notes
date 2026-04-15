@@ -2,10 +2,10 @@
 
 Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **99** 条活跃资源
 
-## 📅 昨天
+## 📅 2026-04-14
 
 ### [LLM长期记忆问题](/entry/c9567fc80a61) 📄
-@chrysb · ⭐⭐⭐⭐⭐5 🌐 · 昨天
+@chrysb · ⭐⭐⭐⭐⭐5 🌐 · 2026-04-14
 
 [EN] - **来源**：X/Twitter
 - **原文链接**：https://x.com/augmentcode/status/2043740459256951158
@@ -18,7 +18,7 @@ Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **99** 条活跃资源
 ---
 
 ### [OpenClaw vs Hermes：一文深入理解两大通用 Agent](/entry/73831b80fee8) 📄
-@架构师 · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+@架构师 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-14
 
 [Read in Cubox](https://cubox.pro/web/card/7443555272636761265)  
 [Read Original](https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&amp;mid=2650409010&amp;idx=1&amp;sn=04b9836fa07ff877c459e300707ddcff&amp;chksm=82e0d2bc0316714983894d249271a025550cdea2e2386283a92323167d29ae7a7879ea919fa0&amp;mpshare=
