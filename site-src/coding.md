@@ -649,7 +649,7 @@ Read Original
 
 ---
 
-### [Cursor｜软件开发行业新变革](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247510116&idx=1&sn=d5904abd8dfccc25500b2c795dd42b14&chksm=e84f2b75b4972ec14ed36558042c0156dbb7195dd95882d1e4a7de71849399cca2df5388292b&scene=126&sessionid=1726046291)
+### [Cursor｜软件开发行业新变革](/entry/zg78bxt9) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基于人工智能的代码编辑器，创建了一个集成开发环境 （IDE）。旨在帮助开发人员编写代码，并与 AI 进行实时互动，提供代码建议、错误检测和自动补全功能。 集成开发环境（IDE），支持多种编程语言（如 Python、JavaScript、Java 等）。 Cursor 团队表示，未来还会推出支持更多编程语言、增强调试功能等更新，让 Cursor 成为开发者的得力助手。 ✅参考数据（通过搜索获悉，2024 年软件市场的一组数据如下） 在软件开发行业，有超过 700 种编程语言可供选择。因此，在选择正确的编程语言时，企业和软件开发人员...
@@ -658,7 +658,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 
 ---
 
-### [Deploying Transformers on the Apple Neural Engine - Apple Machine Learning Research](https://machinelearning.apple.com/research/neural-engine-transformers)
+### [Deploying Transformers on the Apple Neural Engine - Apple Machine Learning Research](/entry/6xwg2sj2) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # Deploying Transformers on the Apple Neural Engine - Apple Machine Learning Research An increasing number of the machine learning (ML) models we build at Apple each year are either partly or fully adopting the [Transformer… An increasing number of the machine learning (ML) models we build at Apple ...

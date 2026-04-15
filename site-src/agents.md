@@ -658,7 +658,7 @@ Read Original
 
 ---
 
-### [Demystifying evals for AI agents \ Anthropic](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
+### [Demystifying evals for AI agents \ Anthropic](/entry/ghekus0k) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # Demystifying evals for AI agents \ Anthropic Demystifying evals for AI agents Good evaluations help teams ship AI agents more confidently. Without them, it&#x27;s easy to get stuck in reactive loopscatching issues only in production, where fixing one failure creates others. Evals make problems and beha...
