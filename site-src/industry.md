@@ -469,7 +469,7 @@ Microsoft：Phi-3 Vision 4.2b，支持 文本、图像输入，可以运行在 s
 
 ## 📅 2024-06-13
 
-### [手搓AI智能体实战经验](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649784031&idx=1&sn=9b01de078e4c8c5a8b763ece5ce4fd86&chksm=becceda489bb64b2cde1e3e4a49d778b7eaaae1a20c514431a6234c3cb0e7c24056584a9f4f5&mpshare=1&scene=1&srcid=0613npL9L96z00VHzXJwsbCm&sharer_shareinfo=4d6a8fda33d8f296efafa774b9ab7420&sharer_shareinfo_first=4d6a8fda33d8f296efafa774b9ab7420)
+### [手搓AI智能体实战经验](/entry/bbKeXzN9) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-06-13
 
 Cubox 收藏 — 手搓AI智能体实战经验

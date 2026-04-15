@@ -237,14 +237,14 @@ Read Original
 
 ## 📅 2025-07-27
 
-### [新一代 Agentic AI 智能体，助力 Android 开发 | Google I/O你好，我是朱涛。今天我们来聊聊 - 掘金](https://juejin.cn/post/7529430220152897562)
+### [新一代 Agentic AI 智能体，助力 Android 开发 | Google I/O你好，我是朱涛。今天我们来聊聊 - 掘金](/entry/xdooL4IY) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-07-27
 
 新一代 Agentic AI 智能体，助力 Android 开发 | Google I/O你好，我是朱涛。今天我们来聊聊 - 掘金
 
 ---
 
-### [来自 OpenAI 离职员工的爆料：关于 OpenAI 的一些思考](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247490120&idx=1&sn=6ede8958232ea5cfb5a8dc8fe13f3edb&chksm=c2a4b9b2fd642f35bff9b44552240a0c058f80a62ba34afeb5bc5f342cbf3640535b923062b0&scene=0&xtrack=1)
+### [来自 OpenAI 离职员工的爆料：关于 OpenAI 的一些思考](/entry/K8o15MzY) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-07-27
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FSib7IezOlBctSYVw9IASbOMl6iakmOyVggRG5q4v2SuQM01TdoQKpwtOVLWTlFRWXzbAAuwVSpPsgSAX65ufxGCg%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%26randomid%3Djtyc449h%26watermark%3D1)
@@ -876,7 +876,7 @@ Cubox 收藏 — 科技爱好者周刊（第234期）：AI 聊天有多强？
 
 ## 📅 2022-04-21
 
-### [新一代深度学习编译技术变革和展望](https://mp.weixin.qq.com/s?__biz=MjM5NDczOTA4NQ==&mid=2447886255&idx=1&sn=1b55f4fe1335260a6086082577ec8951&chksm=b290414d85e7c85bbe0b14e41e3b36b6266bb51f1a4dee67d9d4eef0f797e2eb231e1de406f4&mpshare=1&scene=1&srcid=0421BeI8mRLFj8fITVl0INJv&sharer_sharetime=1650554947745&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [新一代深度学习编译技术变革和展望](/entry/ISpaw0wh) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2022-04-21
 
 本文总结对于深度学习编译领域过去两年的思考和未来展望。新一代架构一直是我们核心关注的主题，这里提到的各个特性也都已重构完成或者进行中。TVM FFI去年逐渐成熟，TensorIR本身刚被合并到主干，后续metaschedule陆续进入主干。

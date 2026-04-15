@@ -600,7 +600,7 @@ I work in Google Ads infrastructure in the past four years. Over time, I&#x27;ve
 
 ## 📅 2025-09-26
 
-### [文本和概念分析专家 prompt](https://gist.github.com/kevinz/a191dfd758971bf31207484c34c86f30)
+### [文本和概念分析专家 prompt](/entry/vKh1cmIG) 📄
 ⭐⭐⭐⭐4 🌐 · 2025-09-26
 
 [需翻译] GitHub Gist: instantly share code, notes, and snippets.
