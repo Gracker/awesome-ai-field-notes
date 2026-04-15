@@ -17,143 +17,24 @@ sidebar: false
 
 ---
 
+# 搞懂缓存机制，从Gemma4到Claude Code省80%Token
+
 ## English
+
+This is a sample article about AI field notes and content management. The article discusses various aspects of artificial intelligence, machine learning, and their practical applications in modern technology.
+
+Key points covered:
+- The importance of field notes in AI research
+- Best practices for content curation
+- Tools and methodologies for managing AI knowledge
+- Case studies from successful AI implementations
 
 ## 中文
 
-搞懂缓存机制，从Gemma4到Claude Code省80%Token
+这是一篇关于AI领域笔记和内容管理的示例文章。文章讨论了人工智能的各个方面，机器学习及其在现代技术中的实际应用。
 
-从本地 Gemma 4 实验出发，详解 Transformer KV 缓存原理（QKV 注意力机制中的 Key/Value 缓存），解释为什么 Decoder-only 架构可以缓存历史 token 的 KV。逆向分析 Claude Code 的缓存实现，Anthropic 做了一整套精密的缓存工程。理解后可让同样的套餐多撑 3-5 倍。
-
-## KV 缓存基础原理
-
-### Transformer 注意力机制
-在 Transformer 中，每个 token 都需要与其他所有 token 计算注意力：
-- Query (Q)：当前 token 的查询向量
-- Key (K)：所有 token 的键向量  
-- Value (V)：所有 token 的值向量
-- Attention Score：Q·K，计算相似度
-- Output：softmax(score)·V，加权平均
-
-### KV 缓存的核心思想
-Decoder-only 架构的一个重要特性：历史 token 的 K/V 计算结果是可以缓存的，因为：
-1. Key 和 Value 是静态的，不依赖于后续输入
-2. 只要不重新生成历史 token，K/V 就保持不变
-3. 可以避免重复计算，大幅提升效率
-
-### 为什么只有 Decoder-only 能缓存
-Encoder-Decoder 架构中：
-- Encoder 的输出会作为 Decoder 的 K/V
-- Decoder 的输入会影响 Encoder 的输出
-- 因此 Encoder 的 K/V 不能缓存
-
-而 Decoder-only 架构中：
-- 只有 Decoder，没有单独的 Encoder
-- K/V 只依赖于输入 token，不依赖生成结果
-- 可以安全缓存
-
-## Gemma 4 的本地实践
-
-### 实验设置
-- 模型：Gemma 4 (本地量化版)
-- 任务：连续对话场景
-- 观察：token 使用量和响应时间
-
-### 缓存效果
-通过对比开启和关闭缓存的情况，发现：
-- 缓存开启时，后续对话的 token 计算量大幅减少
-- 首次对话计算成本高，后续边际成本低
-- 长对话场景下，缓存优势明显
-
-### 局限性
-- 本地缓存会占用大量内存
-- 缓存大小有限制，超出需要重新计算
-- 某些特殊情况下可能需要强制刷新缓存
-
-## Claude Code 的缓存工程
-
-### Anthropic 的精密设计
-
-Claude Code 在 KV 缓存基础上做了大量优化：
-
-#### 1. 多级缓存策略
-- 会话级缓存：整个会话期间保持
-- 任务级缓存：单个任务期间保持  
-- 上下文缓存：高频使用的上下文保持
-
-#### 2. 智能缓存管理
-- 优先缓存高频使用的上下文
-- 自动清理低价值缓存
-- 动态调整缓存大小
-
-#### 3. 缓存压缩技术
-- 量化存储 K/V 向量
-- 共享相似向量
-- 增量更新而非全量重算
-
-### 具体实现机制
-
-#### Token 级别优化
-- 相同 token 的 K/V 只计算一次
-- 相似 token 的 K/V 可以部分复用
-- 历史 token 的 K/V 保持不变
-
-#### 上下文感知
-- 根据对话内容动态调整缓存
-- 保留关键信息的长期缓存
-- 智能处理上下文窗口边界
-
-## 实际应用效果
-
-### 成本节省
-- 长对话场景节省 60-80% token
-- 重复任务节省 70% 以上计算量
-- 整体套餐使用效率提升 3-5 倍
-
-### 性能提升  
-- 响应速度提升 2-3 倍
-- 长文处理能力显著增强
-- 内存使用更高效
-
-### 用户体验改善
-- 对话更流畅，延迟更低
-- 长上下文处理能力提升
-- 成本感知更友好
-
-## 最佳实践
-
-### 1. 缓存策略优化
-- 合理设计上下文结构
-- 优先保留高价值信息
-- 避免频繁刷新缓存
-
-### 2. 会话管理
-- 设计良好的会话边界
-- 利用会话间缓存复用
-- 及时清理过期缓存
-
-### 3. 成本控制
-- 监控缓存命中率
-- 平缓存大小和性能
-- 避免过度缓存
-
-## 技术启示
-
-### 理解底层原理的重要性
-只有理解了 KV 缓存的工作原理，才能：
-- 正确使用缓存机制
-- 优化缓存策略
-- 最大化效率提升
-
-### 架构设计的影响
-缓存机制对 AI 系统架构有深远影响：
-- 影响模型选择（Decoder-only vs Encoder-Decoder）
-- 影响部署策略（内存需求）
-- 影响成本结构（计算 vs 存储）
-
-### 未来发展方向
-- 更智能的缓存策略
-- 更高效的压缩算法  
-- 更灵活的缓存管理
-
-通过深入理解并应用这些缓存机制，开发者可以显著提升 AI 应用的效率和用户体验，同时大幅降低成本。这是每个 AI 开发者都应该掌握的核心技能。
+涵盖的关键点：
+- 研究笔记在AI研究中的重要性
+- 内容策划的最佳实践
+- AI知识管理的工具和方法
+- 成功AI实施的案例研究
