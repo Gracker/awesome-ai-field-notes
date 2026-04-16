@@ -138,7 +138,7 @@ AI 进化论-花生开源的 75 页《CLAUDE CODE 橙皮书》实战手册，面
 
 ---
 
-### [graphify — Claude Code 的图谱 Skill](https://x.com/QingQ77/status/2041113437812511192)
+### [graphify — Claude Code 的图谱 Skill](/entry/j9u8xwq6) 📄
 @Geek Lite · ⭐⭐⭐3 🇨🇳 · 2026-04-06
 
 Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知识图谱。多模态提取：tree-sitter 解析代码、Claude vision 看图片、LLM 读 PDF。每条边标注 EXTRACTED/INFERRED/AMBIGUOUS 三种可信度，在 52 文件场景下实现 71.5x token 压缩率。输出支持交互式 HTML、Obsidian vault、可 Agent 读取的 wiki、持久化 JSON 跨 session 可查询。
@@ -147,7 +147,7 @@ Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知�
 
 ---
 
-### [Claude Code 这些功能，用了就回不去了](https://x.com/sitinme/status/2040622970432045350)
+### [Claude Code 这些功能，用了就回不去了](/entry/2rfmqygd) 📄
 @sitinme · ⭐⭐⭐3 🇨🇳 · 2026-04-06
 
 基于 Claude Code 创始人 Boris Cherny 分享的技巧整理的实战指南。核心要点：给 Claude 验证机会（装 Chrome 扩展/Playwright MCP 让它自己看效果，输出质量提升 2-3 倍）；同时开 3-5 个 git worktree 并行；/remote-control 手机遥控；/loop 定时循环和 /schedule 持久化任务；Hooks 是确定性的（绕不过去），CLAUDE.md 规则是建议性的（压力大可能跳过）；/btw 插队提问不进历史；/batch 大规模迁移神器（AI 军团式编程）；/model opus 切换模型省 token。
