@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI Field Notes
   text: AI 领域精选资源导航
-  tagline: 有观点 · 有评分 · 每日自动更新 · 622 条 · 410 篇有全文
+  tagline: 有观点 · 有评分 · 每日自动更新 · 627 条 · 415 篇有全文
   actions:
     - theme: brand
       text: 浏览全部
@@ -36,8 +36,44 @@ features:
 
 ## 🆕 最新 10 篇
 
+### [使用 Claude Code：会话管理与 100 万 上下文](/entry/keqFU4_v) 📄
+@Thariq（Anthropic员工） · ⭐⭐⭐3 🇨🇳 · 昨天
+
+Anthropic 官方员工 Thariq 发布的产品使用指南，系统讲解 Claude Code 100 万上下文下的会话管理策略。覆盖：Continue（继续）、Rewind（回溯，纠正错误的最佳方式）、Clear（清空新会话）、Compact（上下文压缩，有损摘要）、Subagents（委派干净上下文的子任务）五种决策路口。好压缩的关键是让模型知道下一步往哪走；子智能体适合阅后即焚型大量中间结果；100 万上下文让主动提前压缩成为可能。
+
+`Claude Code` `context-window` `session-management` `Compact` `Rewind`
+
+---
+
+### [字节最火的开源Agent项目，如何思考Agent的自我进化？](/entry/0qPTtvSb) 📄
+@Daniel（DeerFlow联合作者） · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+
+基于 DeerFlow（字节开源多智能体框架，GitHub 6万+ Stars）和 LangChain 创始人 Harrison Chase 的文章，系统梳理 Agent 自我进化的三层框架：Model（权重更新，最重）、Harness（执行机制，2026年核心竞争点）、Context（记忆与个性化，最先落地）。核心判断：2026 年 Agent 的分水岭不在模型在 Harness；Context 层会最先普及；traces 是三层学习的统一燃料；未来更强的 Agent 不来自更大模型，而来自更会复盘、记忆、重构的系统。
+
+`Agent` `self-evolution` `Harness` `Context` `Model`
+
+---
+
+### [KV Cache 深度解析：为什么 LLM 第一个 Token 最慢](/entry/N7uUaY82) 📄
+⭐⭐⭐⭐4 🇨🇳 · 昨天
+
+从注意力机制原理出发，详解 KV Cache 的工作原理与工程权衡。自回归生成中 Token 1-49 的 K/V 每次都重算是 O(n^2) 浪费；KV Cache 把历史 K/V 只算一次并缓存，新 Token 只追加自己的 K/V，实现约 5x 提速；代价是显存占用，context window 翻倍意味着单请求 cache 翻倍。Prefill 阶段（首个 Token）最贵，因为要一次性算完所有历史 K/V，这就是 TTFT 瓶颈的来源。GQA/MQA 通过共享 K/V head 显著降内存，是大规模服务必用方案。
+
+`KV-Cache` `LLM` `inference` `TTFT` `prefill`
+
+---
+
+### [OpenClaw 落地到生产实际应用的一种可能的路径](/entry/9eJpiC4m) 📄
+@Ding Junjie（vivo互联网项目团队） · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+
+文章分析 OpenClaw 进入真实生产场景还缺的四层能力：可视化层（Agent 在做什么必须清晰可见）、封闭层（把开放业务动作重构为边界明确的工作单元）、验证层（垂直领域的 gate，不通过不能进入完成态）、回滚层（沙盘机制，Amazon agent canvas 的实践）。核心判断：Coding Agent 成功是因为代码世界天然具备可视化/封闭/可验证/可回滚四个特征；业务 Agent 要落地必须先把这四层能力构建出来。
+
+`OpenClaw` `production` `Agent` `visualization` `sandbox`
+
+---
+
 ### [The AI Knowledge Layer: Making Every Agent Smarter](/entry/iplvrqyc) 📄
-@shannholmberg · ⭐⭐⭐3 🌐 · 昨天
+@shannholmberg · ⭐⭐⭐3 🌐 · 2026-04-15
 
 作者提出 AI Knowledge Layer 的两层架构：动态知识库层（KBL）和静态品牌基础层（BF）。KBL 让用户将推文、文章、书签等原始素材导入文件夹，由 AI Agent 自动分类、构建结构化 Wiki 页面并维护主索引；BF 则存储用户的声音规则、视觉风格、定位等静态信息，Agent 只读不改。灵感来自 Karpathy 关于将 token 消耗从代码转向知识管理的观点。开源框架，20 分钟即可部署。
 
@@ -46,7 +82,7 @@ features:
 ---
 
 ### [Agent Memory 架构本质](/entry/hqm6txq4) 📄
-⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
+⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-15
 
 深度解析 Agent Memory 的工程架构。核心观点：Memory 的难点不在容量，在治理。文章厘清了 Memory 与 State/Policy/Profile 的边界，指出蒸馏只是管理链路中的一个操作而非记忆本身。提出四个建模对象：用户模型、任务模型、世界模型、自我模型。定义了记忆的六个维度（内容/类型/置信度/来源/作用域/时间衰减），以及写入-管理-读取三条链路。强调进化=修正+遗忘，评测从 recall 转向 update/abstain/drift/forget。
 
@@ -100,47 +136,5 @@ features:
 [Read Original](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247559535&amp;idx=1&amp;sn=8eb95438291e8594d674652f6bb7c1df&amp;chksm=e8fb4fcf80f86a815cc31cd017098a604bb2b948524d8652ee631027f8542d6de98f4e06f7d3&amp;mpshare=
 
 `browser-automation` `opencli` `api-mimicry` `agent-tooling` `web-scraping`
-
----
-
-### [OpenClaw vs Hermes：一文深入理解两大通用 Agent](/entry/73831b80fee8) 📄
-@架构师 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-14
-
-[Read in Cubox](https://cubox.pro/web/card/7443555272636761265)  
-[Read Original](https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&amp;mid=2650409010&amp;idx=1&amp;sn=04b9836fa07ff877c459e300707ddcff&amp;chksm=82e0d2bc0316714983894d249271a025550cdea2e2386283a92323167d29ae7a7879ea919fa0&amp;mpshare=
-
-`openclaw` `hermes-agent` `nous-research` `agent-framework` `memory`
-
----
-
-### [LLM长期记忆问题](/entry/c9567fc80a61) 📄
-@chrysb · ⭐⭐⭐⭐⭐5 🌐 · 2026-04-14
-
-[EN] - **来源**：X/Twitter
-- **原文链接**：https://x.com/augmentcode/status/2043740459256951158
-- **作者**：chrysb
-- **日期**：2026-04-14
-- **抓取时间**：2026-04-14 12:00...
-
-`llm` `memory` `context-window` `retrieval` `summarization`
-
----
-
-### [深度拆解 Claude Code：12 个可复用的 Agentic Harness 设计模式](/entry/480a4f5679ff) 📄
-@技术极简主义 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-14
-
-这次 Claude Code 的泄露，让我们第一次比较完整地看到，这些模式在一个真实、大规模使用的 agent 里是怎么落地的。这样的窗口可能不会一直存在，但这些经验会留下来。
-
-`claude-code` `agentic-harness` `design-patterns` `coding-agent` `bilgin-lbryam`
-
----
-
-### [2026 年，AI 编程 Agent 的真正分水岭——Harness 详解](/entry/89fa848ed0d4) 📄
-@Ai学习的老章 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-14
-
-[Read in Cubox](https://cubox.pro/web/card/7443555361631504701)  
-[Read Original](https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&amp;mid=2649012185&amp;idx=1&amp;sn=e613849d8e706a95d4a3c292b5881a1e&amp;chksm=86dfe794b8bbe007e9e98feae10f476d336e026e8df0819088fa8639d3385dfe3ce872cacff2&amp;mpshare=
-
-`harness-engineering` `oh-my-claudecode` `oh-my-pi` `hashline` `coding-agent`
 
 ---

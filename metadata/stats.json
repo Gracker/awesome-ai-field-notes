@@ -1,9 +1,9 @@
 {
-  "total_entries": 622,
-  "active_entries": 578,
+  "total_entries": 627,
+  "active_entries": 583,
   "archived_entries": 44,
-  "this_week_added": 622,
-  "entries_with_content": 410,
+  "this_week_added": 627,
+  "entries_with_content": 415,
   "category_distribution": {
     "coding": 165,
     "learning": 116,
@@ -16,15 +16,20 @@
     "ai-hardware/chip-architecture": 1,
     "hardware-chips/risc-v-ai": 1,
     "agent-frameworks/knowledge-management": 1,
-    "agent-frameworks/memory": 1
+    "agent-frameworks/memory": 1,
+    "agent-frameworks/evolution": 1,
+    "llm-engineering/inference-optimization": 1,
+    "coding-agents/claude-code": 1,
+    "ai-safety/alignment": 1,
+    "agent-frameworks/production": 1
   },
   "source_type_distribution": {
-    "article": 433,
+    "article": 437,
     "x_post": 129,
-    "paper": 34,
+    "paper": 35,
     "github": 14,
     "newsletter": 9,
     "video": 3
   },
-  "last_updated": "2026-04-16 21:18"
+  "last_updated": "2026-04-17 00:13"
 }

@@ -536,7 +536,7 @@ Read Original
 
 ---
 
-### [98 页的 OpenClaw 橙皮书](/entry/ti07g7fy) 📄
+### [98 页的 OpenClaw 橙皮书](https://x.com/AlchainHust/status/2031212769694068775)
 @AI进化论-花生 · ⭐⭐⭐3 🇨🇳 · 2026-03-10
 
 AI 进化论-花生发布的 98 页 OpenClaw 橙皮书，浏览量超 175 万，书签数 5713。这是 OpenClaw（龙虾）生态的重要实战手册文档。
