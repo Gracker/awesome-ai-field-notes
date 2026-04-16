@@ -600,7 +600,7 @@ The repository serves as a unified hub of papers, code, demos, and benchmark upd
 
 ---
 
-### [2026-03-02-1610-yyyole-AI-Robot-Phone！！-2028291669930717426](https://x.com/yyyole/status/2028291669930717426)
+### [2026-03-02-1610-yyyole-AI-Robot-Phone！！-2028291669930717426](/entry/159yb5wo) 📄
 @yyyole · ⭐⭐⭐3 🇨🇳 · 2026-03-02
 
 **@yyyole** (沐阳)
@@ -718,7 +718,7 @@ Cursor CEO 定义 AI 编码三个时代：第一时代 Tab 自动补全、第二
 
 ## 📅 2026-02-25
 
-### [Claude Code 半小时改出 Obsidian Minimal 风博客](https://x.com/onlyice0328/status/2026261405788405767)
+### [Claude Code 半小时改出 Obsidian Minimal 风博客](/entry/kbzn2ti1) 📄
 @zhl · ⭐⭐⭐3 🇨🇳 · 2026-02-25
 
 直接让 Claude Code 按 Obsidian Minimal Theme 风格改 CSS 与布局，约半小时完成。关键要点：先给 AI 明确目标风格、限定可改范围（CSS/布局/装饰）、人工验收可读性/层级/移动端。低成本提质的高 ROI 实战经验。
@@ -738,7 +738,7 @@ Cursor CEO 定义 AI 编码三个时代：第一时代 Tab 自动补全、第二
 
 ---
 
-### [高级自主软件化身（Elite Autonomous Developer Agent）](https://x.com/123olp/status/2025704271921213731)
+### [高级自主软件化身（Elite Autonomous Developer Agent）](/entry/6dn2q2or) 📄
 @123olp · ⭐⭐⭐3 🇨🇳 · 2026-02-24
 
 主任工程师级自主 Agent 角色设定模板，覆盖软件全生命周期而非仅写代码。以系统级操作守则保障交付质量、逻辑严密性、执行稳定性。借鉴 Claude Code 实践，强化工程流程与规范沉淀。适合用于团队 Agent 提示词基座、工程治理标准化、复杂任务自动化执行框架。

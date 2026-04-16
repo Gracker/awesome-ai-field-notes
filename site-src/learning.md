@@ -113,7 +113,7 @@ Read Original
 
 ---
 
-### [Claude Code in Action 实战课程（中文翻译版）](https://cholf5.com/claude-code-in-action/)
+### [Claude Code in Action 实战课程（中文翻译版）](/entry/4etnysar) 📄
 @Anthropic · ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 Anthropic官方Claude Code实战课程的中文翻译版，适合离线阅读。课程覆盖21个章节：基础部分（引言、编码助手概念、实战、安装配置、项目准备、添加上下文、修改代码）、进阶部分（控制上下文、自定义命令、MCP服务器、GitHub集成）、Hooks专题（认识/定义/实现Hooks及常见坑点）、高级主题（SDK、测验、总结）。
@@ -231,7 +231,7 @@ LLM Agent 串行执行&quot;LLM 推理 → 工具调用&quot;循环，工具执�
 
 ## 📅 2026-03-27
 
-### [UI-Voyager: 自进化 GUI 智能体](https://arxiv.org/abs/2603.24533)
+### [UI-Voyager: 自进化 GUI 智能体](/entry/1xg0s8up) 📄
 @**: Zichuan Lin 等（腾讯混元） · ⭐⭐⭐3 🇨🇳 · 2026-03-27
 
 移动 GUI 智能体在训练中面临两个根本性挑战：1）失败轨迹学习效率低——失败轨迹占绝大多数但未被有效利用；2）长程任务的信用分配模糊——轨迹级稀疏奖励（成功/失败）无法告知智能体哪一步做错了。
@@ -1100,7 +1100,7 @@ Lilian Weng 经典 Prompt Engineering 综述。系统梳理 zero/few-shot、Inst
 
 ## 📅 2023-03-03
 
-### [CHATGPT API（降价 90%）对 LLM 领域的影响 | 高策](http://gaocegege.com/Blog/chatgpt-api)
+### [CHATGPT API（降价 90%）对 LLM 领域的影响 | 高策](/entry/6zezxy4x) 📄
 ⭐⭐⭐3 🇨🇳 · 2023-03-03
 
 # CHATGPT API（降价 90%）对 LLM 领域的影响 | 高策 最近人工智能领域一个礼拜一个大新闻，毫不夸张。今天 OpenAI 宣布上线 ChatGPT API，并且相比于 GPT3 davinci 要便宜 90%，跟 curie 价格相同。OpenAI 相当于在 Chat Model 这个领域推出了 ChatGPT 能力的模型，但是价格只有之前的 90%。 因为身处相关行业，所以对这次降价的动作很感兴趣。我想知道这次降价会对 LLM 领域有什么影响，以及对于其他的 AI 产品会有什么影响。以下纯属个人在得知新闻的三个小时内形成的观点，仅供参考。 在 Hacker News 上 ...

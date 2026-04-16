@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI Field Notes
   text: AI 领域精选资源导航
-  tagline: 有观点 · 有评分 · 每日自动更新 · 622 条 · 378 篇有全文
+  tagline: 有观点 · 有评分 · 每日自动更新 · 622 条 · 390 篇有全文
   actions:
     - theme: brand
       text: 浏览全部

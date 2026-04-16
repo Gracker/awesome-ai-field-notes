@@ -145,7 +145,7 @@ LLM（大语言模型）的提示词处理速度快了 6.9 倍，AI 图像生成
 
 ## 📅 2026-03-03
 
-### [2026-03-03-0805-NavToor-Claude-Cowork-17-Best-Practices-2028148844891152554](https://x.com/heynavtoor/status/2028148844891152554)
+### [2026-03-03-0805-NavToor-Claude-Cowork-17-Best-Practices-2028148844891152554](/entry/ozubfvu1) 📄
 @NavToor · ⭐⭐⭐3  · 2026-03-03
 
 &gt; 归档说明：本次通过 X 已登录页面抓取到长文正文大段文本。受页面动态加载限制，末尾少量段落可能存在缺失，**待核实**。

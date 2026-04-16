@@ -89,7 +89,7 @@ LLM Agent 到底是什么、怎么构建、怎么协作、怎么演化？ 本文
 
 ---
 
-### [Trace2Skill](https://arxiv.org/abs/2603.25158)
+### [Trace2Skill](/entry/yno49t26) 📄
 ⭐⭐⭐3 🇨🇳 · 2026-04-07
 
 LLM Agent 需要领域特定技能（skills）才能高效处理复杂任务。但技能创建面临三重困境：
@@ -374,7 +374,7 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 
 ---
 
-### [OpenClaw深度调研报告](https://github.com/openclaw/openclaw)
+### [OpenClaw深度调研报告](/entry/ui7ss4vj) 📄
 ⭐⭐⭐3 🇨🇳 · 2026-03-17
 
 OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent、Memory、MCP、Skills、Cron）、运行机制、与其他Agent框架的对比分析。报告系统梳理了OpenClaw的技术栈和生态位，对理解个人AI Agent的工程化实现有参考价值。
@@ -938,7 +938,7 @@ Agent Reach：一句安装指令快速获得 Web、Twitter/X、YouTube、Reddit�
 
 ---
 
-### [Build Your Own Claw Empire: How OpenClaw and Emerging Claws Work Under the Hood](https://x.com/MisbahSy/status/2025570052108665231)
+### [Build Your Own Claw Empire: How OpenClaw and Emerging Claws Work Under the Hood](/entry/i4ujbfte) 📄
 @Misbah Syed · ⭐⭐⭐3  · 2026-02-24
 
 OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 OpenClaw 与新一代 Claw 类系统底层如何构建，以及真实部署里哪些架构选择最关键。用户在旧游戏电脑上运行自治 Agent、自动化个人工作流。内容为摘要归档。
@@ -949,7 +949,7 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 
 ## 📅 2026-02-23
 
-### [OpenClaw Memory 终极指南](https://x.com/lijiuer92/status/2025678747509391664)
+### [OpenClaw Memory 终极指南](/entry/ednt9rlv) 📄
 @李韭二 · ⭐⭐⭐3 🇨🇳 · 2026-02-23
 
 围绕 Agent 失忆、记忆可发现性、长期上下文维护与工程化落地展开，强调通过结构化记忆机制降低重复输入和推理成本。适合作为 OpenClaw/Agent 记忆系统设计的实践参考。内容为摘要归档，待补全全文。
@@ -958,7 +958,7 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 
 ---
 
-### [The File System Is the New Database: How I Built a Personal OS for AI Agents](https://x.com/koylanai/status/2025286163641118915)
+### [The File System Is the New Database: How I Built a Personal OS for AI Agents](/entry/qr4q3vtj) 📄
 @Muratcan Koylan · ⭐⭐⭐3 🌐 · 2026-02-23
 
 把&quot;上下文管理&quot;从一次性对话输入转为可持久化的文件系统结构，让 Agent 读写统一的项目记忆与规则，减少重复提示、降低上下文漂移，提高长期任务稳定性。内容为摘要归档。
