@@ -129,7 +129,7 @@ Claude Code推荐Skills汇总整理。Skills是Claude Code中的可复用能力�
 
 ---
 
-### [CLAUDE CODE 橙皮书开源（75页）](https://x.com/AlchainHust/status/2039169585979539625)
+### [CLAUDE CODE 橙皮书开源（75页）](/entry/x7fluovs) 📄
 @AlchainHust · ⭐⭐⭐3 🇨🇳 · 2026-04-06
 
 AI 进化论-花生开源的 75 页《CLAUDE CODE 橙皮书》实战手册，面向想用 AI 编程但不知道从哪开始的人。10 章内容覆盖：核心工作流（Plan/Auto 模式、权限管理）、CLAUDE.md 写法、Skills/Hooks/MCP 扩展能力、多 Agent 并行协作、Computer Use 和 Voice Mode、一章完整的从零到上线产品实战。信息源来自 Claude 官方文档、Boris Cherny 分享、吴恩达 Claude Code 课程及作者用 CC 做十几个产品的经验。
