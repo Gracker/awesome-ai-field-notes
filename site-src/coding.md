@@ -408,7 +408,7 @@ BestBlogs.dev 第 85 期以&quot;驾驭工程&quot;为核心关键词，提出�
 
 ---
 
-### [AI编程工具 System Prompt 大合集](https://x.com/frxiaobei/status/2029561950322168284)
+### [AI编程工具 System Prompt 大合集](/entry/na4z0qvz) 📄
 @凡人小北 · ⭐⭐⭐3  · 2026-03-06
 
 &gt; 来源：[@frxiaobei](https://x.com/frxiaobei) | [GitHub 仓库](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
@@ -538,7 +538,7 @@ Claude Code 团队讲了一个特别生动的类比。
 
 ---
 
-### [[ 个人经验及避坑 ] 从 0M -&gt; 5M 快速通过创作者收益门槛！](https://x.com/0xIanW/status/2027996447032152295)
+### [[ 个人经验及避坑 ] 从 0M -&gt; 5M 快速通过创作者收益门槛！](/entry/lbks005n) 📄
 @0xIanW · ⭐⭐⭐3 🇨🇳 · 2026-03-03
 
 **By @0xIanW** (𝙸𝚊𝚗 𝚆.) · Sun Mar 01 06:36:45 +0000 2026

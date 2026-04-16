@@ -174,7 +174,7 @@ Agent 工程 = 分布式系统工程。这些问题（持久化、隔离、容�
 
 ---
 
-### [ruvnet/ruflo](https://github.com/ruvnet/ruflo")
+### [ruvnet/ruflo](/entry/e4of4uf4) 📄
 @ruvnet · ⭐⭐⭐3  · 2026-03-02
 
 Ruflo (formerly Claude Flow) positions itself as a production-ready multi-agent orchestration framework, with claims around 60+ specialized agents, swarm coordination, consensus, and self-learning loops.
@@ -223,7 +223,7 @@ SKILL 里用 curl 来演示当然能跑通，但这种方式可维护性差：�
 
 ---
 
-### [读霍华德·马克斯的《AI Hurtles Ahead》有感](https://x.com/RichTerry123/status/2027639530820669704)
+### [读霍华德·马克斯的《AI Hurtles Ahead》有感](/entry/7j2ija36) 📄
 @RichTerry123 · ⭐⭐⭐3  · 2026-03-01
 
 **By @RichTerry123** (Terry) · Sat Feb 28 06:58:30 +0000 2026
