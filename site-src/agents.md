@@ -186,7 +186,7 @@ AI Agent实践的知识图谱总结，涵盖四大核心主题：1）记忆系�
 
 ## 📅 2026-03-24
 
-### [Agent Skills综述](https://arxiv.org/abs/2602.12430)
+### [Agent Skills综述](/entry/q38vahjk) 📄
 @**：arXiv · ⭐⭐⭐3 🇨🇳 · 2026-03-24
 
 如何将大型语言模型从单体模型转变为模块化、可动态扩展的智能体系统，同时确保安全性和可维护性。
@@ -219,7 +219,7 @@ AI Agent实践的知识图谱总结，涵盖四大核心主题：1）记忆系�
 
 ## 📅 2026-03-23
 
-### [LLM Agent](https://arxiv.org/abs/2503.21460)
+### [LLM Agent](/entry/msn7omkf) 📄
 @：arXiv · ⭐⭐⭐3 🇨🇳 · 2026-03-23
 
 论文系统梳理基于大语言模型（LLM）的智能 Agent 系统，从方法论、应用和挑战三个维度构建统一分类体系，揭示 Agent 设计原则与复杂环境中涌现行为之间的基本联系。
@@ -314,7 +314,7 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 
 ## 📅 2026-03-19
 
-### [从LLM到自主Agent综述](https://arxiv.org/abs/2504.19678)
+### [从LLM到自主Agent综述](/entry/vlib0lxg) 📄
 @**: arXiv:2504.19678 · ⭐⭐⭐3 🇨🇳 · 2026-03-19
 
 如何系统性地理解和评估从LLM推理到自主AI Agent的演进？
@@ -357,7 +357,7 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 
 ## 📅 2026-03-17
 
-### [Agentic Reasoning: LLM的智能体推理范式](https://arxiv.org/abs/2601.12538)
+### [Agentic Reasoning: LLM的智能体推理范式](/entry/ag5671fq) 📄
 ⭐⭐⭐3 🇨🇳 · 2026-03-17
 
 如何将大型语言模型（LLM）从被动的文本生成器，转变为能够自主规划、行动和学习的智能体？
