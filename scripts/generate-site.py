@@ -26,7 +26,7 @@ def load_json(path):
 
 entries_data = load_json(DATA_DIR / "entries.json")
 categories = load_json(META_DIR / "categories.json")
-entries = entries_data.get("entries", [])
+entries = entries_data.get("entries", entries_data) if isinstance(entries_data, dict) else entries_data
 active = [e for e in entries if e.get("status") == "active" and e.get("quality_score", 0) >= 3]
 
 now = datetime.now()
