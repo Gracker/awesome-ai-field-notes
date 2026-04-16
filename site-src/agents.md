@@ -58,7 +58,7 @@ LLM Agent 在长时间、动态交互环境中运行时，如何实现持续学�
 
 ---
 
-### [GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login.](https://github.com/steipete/CodexBar) ⭐10,549
+### [GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login.](/entry/26prcruq) ⭐10,549 📄
 ⭐⭐⭐3 🌐 · 2026-04-10
 
 # GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login. Show usage stats for OpenAI Codex and Claude Code, without having to login. - steipete/CodexBar CodexBar 🎚️ - May your tokens never run out. Tiny macOS 14+ menu bar app that keeps your Codex, Cl...
@@ -1118,7 +1118,7 @@ OPPO ColorOS 智慧产品研发总监姜昱辰在极客公园创新大会 2026 �
 
 ## 📅 2025-12-05
 
-### [Android 系统上 AI Agent 的一些可能性](https://mp.weixin.qq.com/s?__biz=MjM5Njg5ODU2NA==&mid=2257503010&idx=1&sn=a1337986bbada15f63dbe267d3eed8b4&chksm=a4d3255f3f334e0c66fe400364a60299207afff6b4439a6478704ac5176681af7eaa202627af&mpshare=1&scene=1&srcid=1205CnGTws2OF7LnyRN95gYS&sharer_shareinfo=39c2afd703555e8ad0b770170b5eba98&sharer_shareinfo_first=564c134774d8cff2fe4b03464d899095)
+### [Android 系统上 AI Agent 的一些可能性](/entry/0dqwkocc) 📄
 ⭐⭐⭐3 🇨🇳 · 2025-12-05
 
 Android 系统上 AI Agent 的一些可能性

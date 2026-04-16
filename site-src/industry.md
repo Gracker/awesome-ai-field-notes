@@ -498,7 +498,7 @@ Notion 联合创始人回顾 Notion AI 从原型到发布的关键决策。2019 
 
 ## 📅 2023-11-12
 
-### [【活动报名】DevFest23&#x27;日程公布：Android、Web、机器学习分会场](https://mp.weixin.qq.com/s?__biz=MzA5MDg3MjczMg==&mid=2652008346&idx=1&sn=f1163d489dafcef7556c3132775971d1&chksm=8be3c169bc94487f4a453f432100fffd6bbfffcc0cb73f666290d8e0aada8c4bd27f5eb84bf9&mpshare=1&scene=1&srcid=1112uPYwzwRS34sZufElsmG7&sharer_shareinfo=04b553e40c35860f7446972755f949ad&sharer_shareinfo_first=04b553e40c35860f7446972755f949ad)
+### [【活动报名】DevFest23&#x27;日程公布：Android、Web、机器学习分会场](/entry/zRr0rcvY) 📄
 ⭐⭐⭐3 🇨🇳 · 2023-11-12
 
 Cubox 收藏 — 【活动报名】DevFest23&#x27;日程公布：Android、Web、机器学习分会场

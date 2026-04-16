@@ -163,7 +163,7 @@ https://learningprompt.wiki/docs/insight/AI%20%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%
 
 ---
 
-### [GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。](https://github.com/rockbenben/ChatGPT-Shortcut) ⭐8,348
+### [GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。](/entry/7ypeivbn) ⭐8,348 📄
 ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 # GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。 ChatGPT Shortcut 是根据领域和功能划分的 ChatGPT 快捷指令表，可通过标签筛选、关键词搜索和一键复制来使用提示词，旨在简化你的工作流程并提高生产力。即使是初学者，你只需复制提示词，稍加修改后发送给 ChatGPT，就能获得指定输出，让你的生产力加倍！ 提示词（即 Prompt）通常是用户提供的问题或文本，以激活模型生成回复。简单来说，prompt 就是用户想要询问的内容，作为输入送到 ...
@@ -1058,7 +1058,7 @@ Lilian Weng 经典 Prompt Engineering 综述。系统梳理 zero/few-shot、Inst
 
 ---
 
-### [ChatGPT-Siri/README-zh_CN.md at main · Yue-Yang/ChatGPT-Siri · GitHub](https://github.com/Yue-Yang/ChatGPT-Siri/blob/main/README-zh_CN.md)
+### [ChatGPT-Siri/README-zh_CN.md at main · Yue-Yang/ChatGPT-Siri · GitHub](/entry/m56axpoa) 📄
 ⭐⭐⭐3 🇨🇳 · 2023-03-20
 
 # ChatGPT-Siri/README-zh_CN.md at main · Yue-Yang/ChatGPT-Siri · GitHub 通过 Siri 启动「快捷指令」连接 ChatGPT API，让 Siri 变身 AI 聊天助手。你可以直接和 Siri 说出你的问题，Siri 会回答你。现在我们的 Siri 终于变得智能了，可以和我们对答如流！而这一切只需要一个快捷指令和 API key 就可以做到了。 * 确保网络能正常访问 https://api.openai.com 域名 * 确保 API 帐户有足够余额：&lt;https://platform.openai.com/accoun...
@@ -1133,7 +1133,7 @@ Google 介绍 MLGO 框架，首个工业级将 ML 系统性集成到 LLVM 编译
 
 ## 📅 2022-12-05
 
-### [ChatGPT为什么这么强](https://mp.weixin.qq.com/s?__biz=Mzg5MTczODA1OQ==&mid=2247485543&idx=1&sn=979d9efdff1990fb86e2830aadf147b6&chksm=cfc98ac3f8be03d53c15684f7f5afa5a8c24e0a7d70f0092b5d84d8026ac7fee8f6e1b4ead45&mpshare=1&scene=1&srcid=1204kbvTtohAet6jNyPx5e7P&sharer_sharetime=1670221323965&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [ChatGPT为什么这么强](/entry/pflm2lpg) 📄
 ⭐⭐⭐3 🇨🇳 · 2022-12-05
 
 1. 从周五到周末ChatGPT已经疯传开来，其对话能力让人惊艳。从玩梗、写诗、写剧本，到给程序找bug，帮人设计网页，甚至帮你生成AIGC的提示词，一副无所不能的样子。可以去Twitter上看Ben Tossell梳理的一些例子，或者自己去试试！一位MBA老师让ChatGPT回答自己的管理学题目，结论是以后不能再布置可以带回家的作业了。很多人用了以后无法自拔，就如这位所见： Musk问ChatGPT怎么设计Twitter(不得不说还挺有创意）： 2. 有人让ChatGPT参加了智商测试，得分83; SAT测试得分1020，对应人类考生52%分位。要知道ChatGPT并没有对数学方面做过优化，...

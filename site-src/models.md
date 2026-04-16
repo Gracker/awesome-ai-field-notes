@@ -684,7 +684,7 @@ Read Original
 
 ## 📅 2023-07-09
 
-### [ChatGPT 探索：Code Interpreter 高级指南](https://mp.weixin.qq.com/s/K_csi1oWDv5tEaeeKSlvwA)
+### [ChatGPT 探索：Code Interpreter 高级指南](/entry/qivuzz8c) 📄
 ⭐⭐⭐3 🇨🇳 · 2023-07-09
 
 # ChatGPT 探索：Code Interpreter 高级指南 Code Interpreter (Alpha) 是一个实验性的 ChatGPT 模型，具备以下功能（如何开启，请参考 ChatGPT 重大更新：代码解释器即将推出，GPT-4 API 全面开放！）： * 使用 Python 进行编程：模型内置一个 Python 解释器，可以运行 Python 代码。 * 处理上传和下载：支持将文件上传到当前对话工作区，并下载工作结果。 * 沙箱化执行环境：解释器插件在一个受保护的执行环境中运行，包括防火墙和临时磁盘空间。 * 持久会话：代码由解释器插件在一个持久的会话中进行评估，会话在聊天...

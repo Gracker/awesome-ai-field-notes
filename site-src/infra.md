@@ -373,7 +373,7 @@ LLM (Large Language Models) 的风头一时无两，席卷万千行业。业内�
 
 ## 📅 2024-08-26
 
-### [abhisheknaiidu/awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme)
+### [abhisheknaiidu/awesome-github-profile-readme](/entry/h5buHi48) 📄
 ⭐⭐⭐3 🌐 · 2024-08-26
 
 [需翻译] * Todoist Stats in Readme - Daily Todoist Stats on your Profile Readme * Visitor Badge - Count visitors for your README.md, Issues, PRs in GitHub * 1990s style Visitor Counter - Add a 1990s style visitor counter with one line of markdown. * Vistor Co...
@@ -620,7 +620,7 @@ ChatGPT能否取代Google、百度这样的传统搜索引擎？为什么中国�
 
 ## 📅 2022-08-08
 
-### [AI绘画会不会抢画师饭碗](https://mp.weixin.qq.com/s?__biz=MjM5MjAzODU2MA==&mid=2652789693&idx=1&sn=bc16194dca73c8472ed7bbb149585879&chksm=bd4690728a311964aaa3234e175b0c3523f168be7230a8f20d13e8c49cb88d764a34a042877c&mpshare=1&scene=1&srcid=0808RVMuXMWPK4gL1C3CsZ3l&sharer_sharetime=1659925286253&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [AI绘画会不会抢画师饭碗](/entry/478aml99) 📄
 ⭐⭐⭐3 🇨🇳 · 2022-08-08
 
 还差10天，我成为艺术家这件事就要满3个月了。近3个月以来，几乎每天都会有人留言问我：AI绘画会不会取代画家？

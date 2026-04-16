@@ -100,7 +100,7 @@ Claude Code推荐Skills汇总整理。Skills是Claude Code中的可复用能力�
 
 ---
 
-### [GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.](https://github.com/yetone/openai-translator) ⭐24,891
+### [GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.](/entry/1bsbph2h) ⭐24,891 📄
 ⭐⭐⭐3 🌐 · 2026-04-10
 
 # GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API. 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ...
@@ -1005,7 +1005,7 @@ https://www.zhihu.com/question/1962512846630941008/answer/1963073531265913943   
 
 ## 📅 2025-07-08
 
-### [GitHub - knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang: 讨贼王云鹤檄文](https://github.com/knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang?s=09) ⭐1,103
+### [GitHub - knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang: 讨贼王云鹤檄文](/entry/wssa4dxk) ⭐1,103 📄
 ⭐⭐⭐3 🇨🇳 · 2025-07-08
 
 # GitHub - knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang: 讨贼王云鹤檄文 讨贼王云鹤檄文. Contribute to knemik97/Manifesto-against-the-Plagiarist-Yunhe-Wang development by creating an account on GitHub. 文章license和Qwen一样，apache-2.0。 王云鹤，1991年生于黑龙江。2018年博士毕业进入华为，经历不到7年时间，于2025年2月中旬，从小模型实验室主任任上，正式顶替姚骏，被任命为诺亚方舟...
@@ -1016,7 +1016,7 @@ https://www.zhihu.com/question/1962512846630941008/answer/1963073531265913943   
 
 ## 📅 2025-07-06
 
-### [GitHub - HW-whistleblower/True-Story-of-Pangu: 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。](https://github.com/HW-whistleblower/True-Story-of-Pangu) ⭐11,419
+### [GitHub - HW-whistleblower/True-Story-of-Pangu: 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。](/entry/49uxvb6b) ⭐11,419 📄
 ⭐⭐⭐3 🇨🇳 · 2025-07-06
 
 # GitHub - HW-whistleblower/True-Story-of-Pangu: 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。 诺亚盘古大模型研发背后的真正的心酸与黑暗的故事。. Contribute to HW-whistleblower/True-Story-of-Pangu development by creating an account on GitHub. 盘古之殇：华为诺亚盘古大模型研发历程的心酸与黑暗 我是一名盘古大模型团队，华为诺亚方舟实验室的员工。 1. 现诺亚主任，前算法应用部部长，后改名为小模型实验室的主任王云鹤。前诺亚主任：姚骏（大家称姚老师）。...
@@ -1515,7 +1515,7 @@ Cubox 收藏 — 深入探讨GPTs和AI Assistant
 
 ## 📅 2023-10-05
 
-### [Google 新手机发布会：Android 14，「买手机，送 AI」](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653015221&idx=1&sn=cb78e3df56ad2c6d18cb5171208c47f1&chksm=7e54b10349233815aa19ae39534f9b3cd5bcc89267bcd4854f611781ab3d2f3ea8db4df242a9&mpshare=1&scene=1&srcid=1005sAegj41H9I3bexTVgA2x&sharer_shareinfo=fd84852bc5acdd1148e2bf914d4b76dd&sharer_shareinfo_first=e8d2c75be829964b1b603c7746f9b2ea)
+### [Google 新手机发布会：Android 14，「买手机，送 AI」](/entry/zd6x1q13) 📄
 ⭐⭐⭐3 🇨🇳 · 2023-10-05
 
 # Google 新手机发布会：Android 14，「买手机，送 AI」 美国当地时间 10 月 4 日上午 10 点，Google 在纽约举行「Made by Google」活动，Pixel 8、Pixel 8Pro、Pixel Watch 2、Pixel Buds 等硬件，以及最新的 Android 14 系统逐一曝光。 除了 Pixel 8 哑光磨砂后背和防爆盾造型的 5000 万像素摄像头，当天发布会最大的亮点，你能猜到的，就是 AIGoogle 如何在旗舰手机上集成它的各种 AI 理念和功能，更让人好奇。 从超级无痕修图、画质修正再到 AI 生成壁纸，AI 渗透进了 Google ...
@@ -1688,7 +1688,7 @@ Follow @allthingsaihq
 
 ## 📅 2023-01-02
 
-### [AI降临](https://mp.weixin.qq.com/s?__biz=MzA4NjczOTY0Nw==&mid=2653064371&idx=1&sn=e4017d3b636753f498a328746f8e7fdc&chksm=84123363b365ba75736ff8f9f03aeb112f207458e316fef3eb4ce43d6301fc3bfa9f299da295&mpshare=1&scene=1&srcid=0102FROP3HDMYFjrvhLaxDyE&sharer_sharetime=1672672312908&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [AI降临](/entry/fzv3l7o9) 📄
 ⭐⭐⭐3 🇨🇳 · 2023-01-02
 
 Read in Cubox  
