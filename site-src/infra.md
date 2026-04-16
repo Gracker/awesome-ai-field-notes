@@ -478,7 +478,7 @@ Read Original
 
 ## 📅 2023-11-29
 
-### [黄仁勋领导的 Nvidia 如何推动 AI 革命 [译]](https://baoyu.io/translations/new-yorker/how-jensen-huangs-nvidia-is-powering-the-ai-revolution)
+### [黄仁勋领导的 Nvidia 如何推动 AI 革命 [译]](/entry/iE9BadvV) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-11-29
 
 这家公司的 CEO，黄仁勋，把所有筹码压在了一种全新的芯片上。如今 Nvidia 已跻身世界最大公司之列，他的下一步会怎样？
