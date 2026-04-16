@@ -1,29 +1,59 @@
-# 科技爱好者周刊#291：AI 没有护城河
+# OpenClaw Memory 终极指南
 
-## English
+## 概述
+@lijiuer92 撰写了一份关于 OpenClaw Memory 的终极指南，详细介绍了其工作原理、存在的问题以及解决方案。
 
-This article from Issue 291 of "Tech Enthusiast Weekly" titled "AI Has No Moat" was published on March 1, 2024. The core argument is derived from an alleged report written by a Google internal researcher, which points out that even giants like Google and OpenAI struggle to build "moats" - persistent competitive advantages and monopoly profits - in the field of AI.
+## 当前内存架构
+OpenClaw 的当前内存架构主要依赖于 Markdown 文件和向量搜索：
+- 内存存储在  目录下的 Markdown 文件中
+-  是短期日志
+-  是长期记忆
+-  定义了代理的个性
+- 检索使用向量嵌入和 BM25 混合搜索
 
-The main arguments include:
+## 存在的问题
+1. **扁平、无差别且被动**：所有记忆都具有相同的权重，无论其重要性如何
+2. **缺乏遗忘机制**：只能手动删除记忆
+3. **自动组织能力不足**：完全依赖手动整理
+4. **检索仅基于语义相似性**：无法评估重要性或表达记忆之间的关系
+5. **会话失忆症**：代理在会话之间会忘记所有内容
+6. **上下文流失**：不同项目之间的上下文可能会混淆
+7. **决策漂移**：重要的决策可能会被遗忘或重新审视
+8. **丢失工件**：生成的文件或信息可能无法持久保存
 
-*   **Open Source Core Technologies** Most generative AI core technologies are open source, accessible to anyone, making it difficult for exclusive technologies to become key advantages.
-*   **High Model Substitutability** Although AI models from different companies vary in strength, their core functions are similar and easily substitutable. New features are quickly caught up by other companies.
-*   **Competitiveness Depends on Computing Power and Data** The core competitiveness of AI lies in the richness of computing power and training data, both of which depend on financial strength.
-*   **High Mobility of Researchers** AI researchers change jobs frequently, and many come from academia where they can freely publish their findings, which不利于 companies to conserve core technologies.
+## 解决方案
 
-In conclusion, the article argues that no aspect of the AI industry has formed effective moats. The companies that will ultimately survive are likely to be those with the richest resources, while smaller companies rushing in will find it even harder to succeed.
+### 第三方内存项目
+1. **Mem0**：知名的内存层 SDK，提供自动记忆捕获和召回功能
+   - 每次响应前搜索相关记忆并注入上下文
+   - 支持会话和用户双层记忆
+   - 声称能将延迟提高 91%，Token 节省 90%
 
-## 中文
+2. **Hindsight**：专注于本地长期记忆
+   - 自动注入记忆，解决模型不总是使用  工具的问题
 
-这是《科技爱好者周刊》第291期题为"AI 没有护城河"的文章，于2024年3月1日发布。
+3. **MemClaw**：通过项目范围的工作区、上下文隔离和持久化知识库来管理内存
 
-这篇文章的核心观点源于一份据称是谷歌内部研究员撰写的报告，该报告指出，即使是谷歌和OpenAI这样的巨头，在AI领域也难以构建"护城河"，即难以形成持久的竞争优势和垄断利润。
+### 内置内存管理机制
+1. **内存工具**：
+   - ：通过语义搜索查找相关笔记
+   - ：读取特定记忆文件或行范围
 
-文章主要论点包括：
+2. **预压缩内存刷新**：在上下文被压缩之前，静默运行代理式回合
 
-*   **核心技术开源** 生成式AI的核心技术大部分是开源的，任何人都可以获取和使用，这使得独家技术难以成为关键优势。
-*   **模型替代性强** 各公司的AI模型虽然有强弱之分，但核心功能类似，容易被替代，新功能也很快会被其他公司追赶。
-*   **竞争力依赖算力和语料** AI的核心竞争力在于算力和训练语料的丰富程度，这两者都取决于经济实力。
-*   **研究人员流动性高** AI科学家跳槽频繁，且许多研究人员来自学术界，可以自由发表成果，这不利于公司保守核心技术。
+3. **记忆文件**：
+   - ：长期记忆
+   - ：每日笔记
+   - ：梦想日记和梦想整理摘要
 
-综上所述，文章认为AI行业的各个方面都没有形成有效的护城河，最终能存活下来的公司很可能是资源最丰富的那些，而小公司匆忙入局则更难获得成功。
+4. **梦想（Dreaming）**：后台整合过程，收集短期信号并提升符合条件的条目到长期记忆
+
+## 实践建议
+- 将持久性规则放入文件中（如  和 ）
+- 确保启用内存刷新且有足够的触发缓冲区
+- 强制检索记忆
+- 经验丰富的用户会通过手动保存来补充自动化可能遗漏的部分
+
+---
+
+*本文内容基于 @lijiuer92 的 X 文章转载整理*
