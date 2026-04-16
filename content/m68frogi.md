@@ -1,0 +1,3 @@
+# Don't Waste Your Money on OpenClaw Until You've Done These 3 Things
+
+JavaScript is not available.We’ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center.Help CenterTerms of ServicePrivacy PolicyCookie PolicyImprintAds info© 2026 X Corp.Something went wrong, but don’t fret — let’s give it another shot.Try againSome privacy related extensions may cause issues on x.com. Please disable them and try again.
