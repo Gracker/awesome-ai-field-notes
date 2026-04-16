@@ -17,77 +17,203 @@ sidebar: false
 
 ---
 
-# Your LLM Doesn't Write Correct Code. It Writes Plausible Code.
+## Your LLM Doesn't Write Correct Code. It Writes Plausible Code.
 
-## English
-Your LLM Doesn't Write Correct Code. It Writes Plausible Code. Vagabond ResearchSubscribeSign inYour LLM Doesn't Write Correct Code. It Writes Plausible Code.Hōrōshi バガボンドMar 06, 2026731912ShareOne of the simplest tests you can run on a database:Doing a primary key lookup on 100 rows.Thanks for reading Vagabond Research! Subscribe for free to receive new posts and support my work.SubscribeSQLite takes 0.09 ms. An LLM-generated Rust rewrite takes 1,815.43 ms.It’s not a misplaced comma! The rewrite is 20,171 times slower on one of the most basic database operations.The thing is though: The code compiles. It passes all its tests. It reads and writes the correct SQLite file format. Its README claims MVCC concurrent writers, file compatibility, and a drop-in C API. At first glance it reads like a working database engine.But it is not!EDIT: Several readers have confused this project with Turso/libsql. They are unrelated. Turso forks the original C SQLite codebase; the project analyzed here is a ground-up LLM-generated rewrite by a single developer. Running the same benchmark against Turso shows performance within 1.2x of SQLite consistent with a mature fork, not a reimplementation.LLMs optimize for plausibility over correctness. In this case, plausible is about 20,000 times slower than correct.I write this as a practitioner, not as a critic. After more than 10 years of professional dev work, I’ve spent the past 6 months integrating LLMs into my daily workflow across multiple projects. LLMs have made it possible for anyone with curiosity and ingenuity to bring their ideas to life quickly, and I really like that! But the number of screenshots of silently wrong output, confidently broken logic, and correct-looking code that fails under scrutiny I have amassed on my disk shows that things are not always as they seem. My conclusion is that LLMs work best when the user defines their acceptance criteria before the first line of code is generated.A note on the projects examined: this is not a criticism of any individual developer. I do not know the author personally. I have nothing against them. I’ve chosen the projects because they are public, representative, and relatively easy to benchmark. The failure patterns I found are produced by the tools, not the author. Evidence from METR’s randomized study and GitClear’s large-scale repository analysis support that these issues are not isolated to one developer when output is not heavily verified. That’s the point I’m trying to make!This article talks about what that gap looks like in practice: the code, the benchmarks, another case study to see if the pattern is accidental, and external research confirming it is not an outlier.LLMs Lie. Numbers Don’t.I compiled the same C benchmark program against two libraries: system SQLite and the Rust reimplementation’s C API library. Same compiler flags, same WAL mode, same table schema, same queries. 100 rows:The benchmark source is available in this repository so you can reproduce the comparison on your own. Absolute timings vary with system load and hardware. Ratios are what matter.I’ll take the TRANSACTION batch row as the baseline because it doesn’t have the same glaring bugs as the others, namely no WHERE clauses and per-statement syncs. In this run that baseline is already 298x, which means even the best-case path is far behind SQLite. Anything above 298x signals a bug.The largest gap beyond our baseline is driven by two bugs:INSERT without a transaction: 1,857x versus 298x in batch mode. SELECT BY ID: 20,171x. UPDATE and DELETE are both above 2,800x. The pattern is consistent: any operation that requires the database to find something is insanely slow.What the Planner Gets WrongI read the source code. Well.. the parts I needed to read based on my benchmark results. The reimplementation is not small: 576,000 lines of Rust code across 625 files. There is a parser, a planner, a VDBE bytecode engine, a B-tree, a pager, a WAL. The modules have all the “correct” names. The architecture also looks correct. But two bugs in the code and a group of smaller issues compound:Bug #1: The Missing ipk CheckIn SQLite, when you declare a table as:CREATE TABLE test (id INTEGER PRIMARY KEY, name TEXT, value REAL);the column id becomes an alias for the internal rowid — the B-tree key itself. A query like WHERE id = 5 resolves to a direct B-tree search and scales O(log n). (I already wrote a TLDR piece about how B-trees work here.) The SQLite query planner documentation states: “the time required to look up the desired row is proportional to logN rather than being proportional to N as in a full table scan.” This is not an optimization. It is a fundamental design decision in SQLite’s query optimizer:# `where.c`, in `whereScanInit()` if( iColumn==pIdx->pTable->iPKey ){ iColumn = XN_ROWID; }The line above converts a named column reference to XN_ROWID when it matches the table’s INTEGER PRIMARY KEY column. The VDBE then triggers a SeekRowid operation instead of a full table scan, which makes the whole thing proportional to logN.The Rust reimplementation has a proper B-tree. The table_seek function implements correct binary search descent through its nodes and scales O(log n). It works. But the query planner never calls it for named columns!The is_rowid_ref() function only recognizes three magic strings:fn is_rowid_ref(col_ref: &ColumnRef) -> bool { let name = col_ref.column.to_ascii_lowercase(); name == "rowid" || name == "_rowid_" || name == "oid" }A column declared as id INTEGER PRIMARY KEY, even though it is internally flagged as is_ipk: true, doesn’t get recognized. It is never consulted when choosing between a B-tree search and a full table scan.Every WHERE id = N query flows through codegen_select_full_scan(), which emits linear walks through every row via Rewind / Next / Ne to compare each rowid against the target. At 100 rows with 100 lookups, that is 10,000 row comparisons instead of roughly 700 B-tree steps. O(n²) instead of O(n log n). This is consistent with the ~20,000x result in this run.Every WHERE clause on every column does a full table scan. The only fast path is WHERE rowid = ? using the literal pseudo-column name.Bug #2: fsync on Every StatementThe second bug is responsible for the 1,857x on INSERT. Every bare INSERT outside a transaction is wrapped in a full autocommit cycle: ensure_autocommit_txn() → execute → resolve_autocommit_txn(). The commit calls wal.sync(), which calls Rust’s fsync(2) wrapper. 100 INSERTs means 100 fsyncs.SQLite does the same autocommit, but uses fdatasync(2) on Linux, which skips syncing file metadata when compiled with HAVE_FDATASYNC (the default). This is roughly 1.6 to 2.7 times cheaper on NVMe SSDs. SQLite’s per-statement overhead is also minimal: no schema reload, no AST clone, no VDBE recompile. The Rust reimplementation does all three on every call.Looking at the Rust TRANSACTION batch row, batched inserts (one fsync for 100 inserts) take 32.81 ms, whereas individual inserts (100 fsync calls) take 2,562.99 ms. That’s a 78x overhead from the autocommit.The Compound EffectThese two bugs are not isolated cases. They are amplified by a group of individually defensible “safe” choices that compound:AST clone on every cache hit. The SQL parse is cached, but the AST is .clone()‘d on every sqlite3_exec(), then recompiled to VDBE bytecode from scratch. SQLite’s sqlite3_prepare_v2() just returns a reusable handle.4KB (Vec<u8>) heap allocation on every read. The page cache returns data via .to_vec(), which creates a new allocation and copies it into the Vec even on cache hits. SQLite returns a direct pointer into pinned cache memory, creating zero copies. The Fjall database team measured this exact anti-pattern at 44% of runtime before building a custom ByteView type to eliminate it.Schema reload on every autocommit cycle. After each statement commits, the next statement sees the bumped commit counter and calls reload_memdb_from_pager(), walks the sqlite_master B-tree and then re-parses every CREATE TABLE to rebuild the entire in-memory schema. SQLite checks the schema cookie and only reloads it on change.Eager formatting in the hot path. statement_sql.to_string() (AST-to-SQL formatting) is evaluated on every call before its guard check. This means it does serialization regardless of whether a subscriber is active or not.New objects on every statement. A new SimpleTransaction, a new VdbeProgram, a new MemDatabase, and a new VdbeEngine are allocated and destroyed per statement. SQLite reuses all of these across the connection lifecycle via a lookaside allocator to eliminate malloc/free in the execution loop.Each of these was probably chosen individually with sound general reasoning: “We clone because Rust ownership makes shared references complex.” “We use sync_all because it is the safe default.” “We allocate per page because returning references from a cache requires unsafe.”Every decision sounds like choosing safety. But the end result is about 2,900x slower in this benchmark. A database’s hot path is the one place where you probably shouldn’t choose safety over performance. SQLite is not primarily fast because it is written in C. Well.. that too, but it is fast because 26 years of profiling have identified which tradeoffs matter.In the 1980 Turing Award lecture Tony Hoare said: “There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies, and the other is to make it so complicated that there are no obvious deficiencies.” This LLM-generated code falls into the second category. The reimplementation is 576,000 lines of Rust (measured via scc, counting code only, without comments or blanks). That is 3.7x more code than SQLite. And yet it still misses the is_ipk check that handles the selection of the correct search operation.Steven Skiena writes in The Algorithm Design Manual: “Reasonable-looking algorithms can easily be incorrect. Algorithm correctness is a property that must be carefully demonstrated.” It’s not enough that the code looks right. It’s not enough that the tests pass. You have to demonstrate with benchmarks and with proof that the system does what it should. 576,000 lines and no benchmark. That is not “correctness first, optimization later.” That is no correctness at all.Same Method, Same ResultThe SQLite reimplementation is not the only example. A second project by the same author shows the same dynamic in a different domain.The developer’s LLM agents compile Rust projects continuously, filling disks with build artifacts. Rust’s target/ directories consume 2–4 GB each with incremental compilation and debuginfo, a top-three complaint in the annual Rust survey. This is amplified by the projects themselves: a sibling agent-coordination tool in the same portfolio pulls in 846 dependencies and 393,000 lines of Rust. For context, ripgrep has 61; sudo-rs was deliberately reduced from 135 to 3. Properly architected projects are lean.The solution to the disk pressure: a cleanup daemon. 82,000 lines of Rust, 192 dependencies, a 36,000-line terminal dashboard with seven screens and a fuzzy-search command palette, a Bayesian scoring engine with posterior probability calculations, an EWMA forecaster with PID controller, and an asset download pipeline with mirror URLs and offline bundle support.To solve this problem:*/5 * * * * find ~/*/target -type d -name "incremental" -mtime +7 -exec rm -rf {} +A one-line cron job with 0 dependencies. The project’s README claims machines “become unresponsive” when disks fill. It does not once mention Rust’s standard tool for exactly this problem: cargo-sweep. It also fails to consider that operating systems already carry ballast helpers. ext4’s 5% root reservation, reserves blocks for privileged processes by default: on a 500 GB disk, 25 GB remain available to root even when non-root users see “disk full.” That does not guarantee zero impact, but it usually means privileged recovery paths remain available so root can still log in and delete files.The pattern is the same as the SQLite rewrite. The code matches the intent: “Build a sophisticated disk management system” produces a sophisticated disk management system. It has dashboards, algorithms, forecasters. But the problem of deleting old build artifacts is already solved. The LLM generated what was described, not what was needed.THIS is the failure mode. Not broken syntax or missing semicolons. The code is syntactically and semantically correct. It does what was asked for. It just does not do what the situation requires. In the SQLite case, the intent was “implement a query planner” and the result is a query planner that plans every query as a full table scan. In the disk daemon case, the intent was “manage disk space intelligently” and the result is 82,000 lines of intelligence applied to a problem that needs none. Both projects fulfill the prompt. Neither solves the problem.The obvious counterargument is “skill issue, a better engineer would have caught the full table scan.” And that’s true. That’s exactly the point! LLMs are dangerous to people least equipped to verify their output. If you have the skills to catch the is_ipk bug in your query planner, the LLM saves you time. If you don’t, you have no way to know the code is wrong. It compiles, it passes tests, and the LLM will happily tell you that it looks great.EDIT: Some readers have pointed out that the comparison might be unfair with the author claiming the project wasn’t finished and ready for testing yet.The rewrite got actively promoted by its author 1 week before the release of this article using present-tense performance improvement claims over SQLite. The README has since been revised to acknowledge remaining limitations and clarify the project’s current state in this commit and subsequent ones.At the time of writing the repository in question had amassed over 500k lines of code in over 1,600 commits made over 30 days of 24/7 LLM work. “Not finished” usually means work hasn’t been done yet but that’s not the case. Everything was already implemented. It was just wrong.Ironically the “not finished” defense reinforces the thesis. The LLM produced output that looked finished with a complete README, comparison tables and architectural documentation, present-tense performance claims, and was promoted as such. The gap between what it looks like and what it does is exactly the point.The main thesis is not “FrankenSQLite is bad”. It is: “LLMs produce code that looks correct but isn’t”. Whether the bugs get fixed doesn’t change what the LLM output looked like when it shipped.Measuring the Wrong ThingThe tools used to measure LLM output reinforce the illusion. scc‘s COCOMO model estimates the rewrite at $21.4 million in development cost. The same model values print("hello world") at $19.COCOMO was designed to estimate effort for human teams writing original code. Applied to LLM output, it mistakes volume for 
+### English
 
-## 中文
-**你的 LLM 不会写正确的代码。它只会写看起来合理的代码。**
+**Author**: Hōrōshi バガボンド (Vagabond Research)
+**Published**: 2026-03-06
+**Source**: <https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code>
 
-### 核心观点
-作者通过一个实际的案例展示了 LLM 生成代码的一个重要问题：代码看起来是正确的，但实际上可能是错误的，性能可能相差数万倍。
+One of the simplest tests you can run on a database: doing a primary key lookup on 100 rows.
 
-### 主要发现
+SQLite takes 0.09 ms. An LLM-generated Rust rewrite takes 1,815.43 ms.
 
-#### 1. 性能差距惊人
-- **SQLite**：0.09 毫秒完成主键查找
-- **LLM 生成的 Rust 重写**：1,815.43 毫秒
-- **性能差距**：20,171 倍
+It's not a misplaced comma! The rewrite is **20,171 times slower** on one of the most basic database operations.
 
-#### 2. 代码看起来正确
-- 代码能够编译通过
-- 所有测试都能通过
-- 能够读写正确的 SQLite 文件格式
-- README 声称支持 MVCC 并发写入、文件兼容性和 C API
+The code compiles. It passes all its tests. It reads and writes the correct SQLite file format. Its README claims MVCC concurrent writers, file compatibility, and a drop-in C API. At first glance it reads like a working database engine. But it is not!
 
-#### 3. 实际问题严重
-- 查询规划器缺少对主键的检查
-- 每个语句都进行 fsync 操作
-- 复杂的 AST 克隆和内存分配
-- 架构过于复杂，缺少核心优化
+**LLMs optimize for plausibility over correctness. In this case, plausible is about 20,000 times slower than correct.**
 
-### 深层次分析
+### LLMs Lie. Numbers Don't.
 
-#### LLM 的工作原理
-- LLM 优化的是"看起来合理"而不是"正确"
-- 生成的代码在语法和语义上可能都是正确的
-- 但在性能和实际效果上可能存在严重问题
+Compiled the same C benchmark program against two libraries: system SQLite and the Rust reimplementation's C API library. Same compiler flags, same WAL mode, same table schema, same queries. 100 rows.
 
-#### 问题根源
-1. **表面正确性**：代码通过了基本测试
-2. **过度设计**：为了表面的完整性而添加不必要的复杂性
-3. **缺乏验证**：没有足够的性能测试和验证
+The largest gap is driven by two bugs:
 
-### 实际案例对比
+- **INSERT without a transaction**: 1,857x versus 298x in batch mode
+- **SELECT BY ID**: 20,171x
+- **UPDATE and DELETE**: both above 2,800x
 
-#### SQLite vs LLM 重写
-- **代码量**：SQLite 约 15 万行 vs LLM 重写 57.6 万行
-- **性能**：SQLite 快 20,000 倍
-- **架构**：SQLite 精简高效 vs LLM 重写过度复杂
+The pattern is consistent: any operation that requires the database to *find something* is insanely slow.
 
-#### 解决方案对比
-- **正确方案**：简单的 cron 作业清理构建缓存
-- **LLM 方案**：82,000 行的复杂磁盘管理系统
+### Bug #1: The Missing ipk Check
 
-### 关键教训
+In SQLite, when you declare a table with `id INTEGER PRIMARY KEY`, the column becomes an alias for the internal rowid — the B-tree key itself. A query like `WHERE id = 5` resolves to a direct B-tree search and scales O(log n).
 
-1. **表面正确 ≠ 实际正确**：代码能编译、能运行不等于性能和正确性有保证
-2. **过度设计的危害**：不必要的复杂性会导致性能问题
-3. **验证的重要性**：必须通过实际测试和基准测试来验证代码质量
-4. **LLM 的局限性**：LLM 擅长生成看起来合理的代码，但不保证实际正确性
+The Rust reimplementation has a proper B-tree with correct binary search. But the query planner never calls it for named columns! The `is_rowid_ref()` function only recognizes three magic strings: `rowid`, `_rowid_`, `oid`. A column declared as `id INTEGER PRIMARY KEY`, even though internally flagged as `is_ipk: true`, doesn't get recognized.
 
-### 最佳实践建议
+Every `WHERE id = N` query flows through full table scan — O(n²) instead of O(n log n). This is consistent with the ~20,000x result.
 
-1. **定义验收标准**：在使用 LLM 生成代码前明确定义验收标准
-2. **性能测试**：对生成的代码进行性能基准测试
-3. **代码审查**：特别是对关键路径的性能审查
-4. **实际验证**：在实际环境中测试代码效果
+### Bug #2: fsync on Every Statement
 
-### 结论
+Every bare INSERT outside a transaction is wrapped in a full autocommit cycle. The commit calls `wal.sync()`, which calls Rust's `fsync(2)`. 100 INSERTs means 100 fsyncs.
 
-LLM 能够快速生成看起来正确的代码，但这并不意味着代码实际上是正确的。在使用 LLM 辅助开发时，必须保持警惕，进行充分的验证和测试，特别是对性能关键的部分。正确的代码不仅要能运行，还要能高效、可靠地运行。
+SQLite uses `fdatasync(2)` on Linux, which skips syncing file metadata — roughly 1.6 to 2.7 times cheaper on NVMe SSDs.
+
+### The Compound Effect
+
+These two bugs are amplified by individually defensible "safe" choices that compound:
+
+- **AST clone on every cache hit** — SQLite's `sqlite3_prepare_v2()` just returns a reusable handle
+- **4KB heap allocation on every read** — `.to_vec()` creates a new allocation even on cache hits; SQLite returns direct pointers into pinned cache memory
+- **Schema reload on every autocommit cycle** — walks the entire `sqlite_master` B-tree and re-parses every CREATE TABLE; SQLite checks a schema cookie integer
+- **Eager formatting in the hot path** — AST-to-SQL formatting evaluated before guard check
+- **New objects on every statement** — SQLite reuses all via a lookaside allocator
+
+Every decision sounds like choosing safety. But the end result is about 2,900x slower. SQLite is not primarily fast because it is written in C. It is fast because **26 years of profiling** have identified which tradeoffs matter.
+
+In the 1980 Turing Award lecture Tony Hoare said: "There are two ways of constructing a software design: one way is to make it so simple that there are obviously no deficiencies, and the other is to make it so complicated that there are no obvious deficiencies." This LLM-generated code falls into the second category. 576,000 lines of Rust — 3.7x more code than SQLite. And yet it still misses the `is_ipk` check.
+
+### Same Method, Same Result
+
+A second project by the same author shows the same dynamic. The solution to disk pressure from Rust build artifacts: a cleanup daemon — 82,000 lines of Rust, 192 dependencies, a 36,000-line terminal dashboard, a Bayesian scoring engine, an EWMA forecaster with PID controller, and an asset download pipeline.
+
+To solve a problem that needs:
+
+```
+*/5 * * * * find ~/*/target -type d -name "incremental" -mtime +7 -exec rm -rf {} +
+```
+
+A one-line cron job with 0 dependencies. The pattern is the same: the code matches the *intent* but not the *problem*. The LLM generated what was described, not what was needed.
+
+**This is the failure mode. Not broken syntax or missing semicolons. The code is syntactically and semantically correct. It does what was asked for. It just does not do what the situation requires.**
+
+### Intent vs. Correctness: Sycophancy
+
+AI alignment research calls it **sycophancy** — the tendency of LLMs to produce outputs that match what the user wants to hear rather than what they need to hear.
+
+- Anthropic's "Towards Understanding Sycophancy in Language Models" (ICLR 2024): five state-of-the-art AI assistants exhibited sycophantic behavior
+- **BrokenMath** (NeurIPS 2025): even GPT-5 produced sycophantic "proofs" of false theorems 29% of the time when the user implied the statement was true
+- In April 2025, OpenAI rolled back a GPT-4o update that had made the model more sycophantic
+- In coding, sycophancy manifests as agents that don't push back with "Are you sure?" but provide enthusiasm towards whatever the user described
+
+### Evidence Beyond Case Studies
+
+- **METR's randomized controlled trial** (July 2025): 16 experienced open-source developers using AI were **19% slower, not faster**. After the measured slowdown, they still believed AI had sped them up by 20%
+- **GitClear's analysis** of 211 million changed lines: copy-pasted code increased while refactoring declined
+- **Google's DORA 2024 report**: every 25% increase in AI adoption associated with 7.2% decrease in delivery stability
+- **Mercury benchmark** (NeurIPS 2024): leading code LLMs achieve ~65% on correctness but under 50% when efficiency is also required
+
+### What Competent Looks Like
+
+SQLite is ~156,000 lines of C with 100% branch coverage and 100% MC/DC (the standard required for Level A aviation software). Its test suite is 590 times larger than the library.
+
+The speed comes from deliberate decisions: zero-copy page cache, prepared statement reuse, schema cookie check (one integer), `fdatasync` instead of `fsync`, and the `iPKey` check — one line in `where.c`.
+
+### Conclusion
+
+LLMs are useful when the person using them knows what correct looks like. The tool is at its best when the developer can define acceptance criteria as specific, measurable conditions. Without those criteria, you are not programming but merely generating tokens and hoping.
+
+**The vibes are not enough. Define what correct means. Then measure.**
 
 ---
 
-**总结**：这篇文章通过 SQLite 的实际案例揭示了 LLM 生成代码的一个重要陷阱：表面正确性不代表实际正确性。开发者在使用 LLM 辅助开发时需要保持批判性思维，通过实际的性能测试和验证来确保代码质量。
+### 中文
+
+**你的 LLM 写的不是正确的代码，写的是看似合理的代码**
+
+**作者**: Hōrōshi バガボンド (Vagabond Research)
+**发布**: 2026-03-06
+
+对数据库最简单的测试之一：对 100 行数据做主键查找。
+
+SQLite 耗时 0.09 毫秒。LLM 生成的 Rust 重写版本耗时 1,815.43 毫秒。
+
+不是少了个逗号！这个重写版本在最基础的数据库操作上慢了 **20,171 倍**。
+
+代码能编译，能通过所有测试，能正确读写 SQLite 文件格式。README 声称支持 MVCC 并发写入、文件兼容性和即插即用的 C API。乍一看就像一个正常工作的数据库引擎。但它不是！
+
+**LLM 优化的是合理性，而非正确性。在这种情况下，"合理"比"正确"慢了约 20,000 倍。**
+
+### LLM 会说谎，数字不会
+
+用同一个 C 基准程序编译两个库：系统 SQLite 和 Rust 重写版的 C API。相同的编译参数、WAL 模式、表结构和查询。100 行数据。
+
+最大差距源于两个 bug：
+
+- **无事务的 INSERT**：比批处理模式慢 1,857 倍
+- **按 ID 的 SELECT**：慢 20,171 倍
+- **UPDATE 和 DELETE**：都超过 2,800 倍
+
+模式一致：任何需要数据库*查找*的操作都慢得离谱。
+
+### Bug #1：缺失的 ipk 检查
+
+在 SQLite 中，声明 `id INTEGER PRIMARY KEY` 时，该列成为内部 rowid 的别名——即 B-tree 键本身。`WHERE id = 5` 这样的查询会直接走 B-tree 搜索，复杂度 O(log n)。
+
+Rust 重写版有正确的 B-tree 和二分搜索。但查询规划器对命名列从不调用它！`is_rowid_ref()` 函数只识别三个魔法字符串：`rowid`、`_rowid_`、`oid`。即使内部标记了 `is_ipk: true`，也不会被识别。
+
+每个 `WHERE id = N` 查询都走全表扫描——O(n²) 而非 O(n log n)。这与约 20,000 倍的结果一致。
+
+### Bug #2：每条语句都 fsync
+
+每条事务外的 INSERT 都被包装在完整的自动提交周期中。提交调用 `wal.sync()`，进而调用 Rust 的 `fsync(2)`。100 次 INSERT 意味着 100 次 fsync。
+
+SQLite 在 Linux 上使用 `fdatasync(2)`，跳过文件元数据同步——在 NVMe SSD 上大约快 1.6 到 2.7 倍。
+
+### 复合效应
+
+这两个 bug 被一系列看似合理的"安全"选择放大：
+
+- **每次缓存命中都克隆 AST** — SQLite 的 `sqlite3_prepare_v2()` 直接返回可复用的句柄
+- **每次读取都做 4KB 堆分配** — `.to_vec()` 即使在缓存命中时也创建新分配；SQLite 返回指向固定缓存内存的直接指针
+- **每次自动提交都重载 schema** — 遍历整个 `sqlite_master` B-tree 并重新解析每个 CREATE TABLE；SQLite 只检查一个 schema cookie 整数
+- **热路径上的急切格式化** — 在守卫检查之前就执行 AST 到 SQL 的格式化
+- **每条语句都创建新对象** — SQLite 通过 lookaside 分配器复用所有对象
+
+每个决定听起来都在选择安全。但最终结果慢了约 2,900 倍。SQLite 快主要不是因为用 C 写的，而是因为 **26 年的性能分析** 找出了哪些取舍重要。
+
+Tony Hoare 在 1980 年图灵奖演讲中说："有两种构造软件设计的方法：一种是让它简单到显然没有缺陷，另一种是让它复杂到没有明显的缺陷。" 这个 LLM 生成的代码属于第二种。576,000 行 Rust——是 SQLite 的 3.7 倍。然而仍然缺少 `is_ipk` 检查。
+
+### 相同方法，相同结果
+
+同一作者的第二个项目显示了相同的模式。解决 Rust 构建产物磁盘压力的方案：一个清理守护进程——82,000 行 Rust、192 个依赖、36,000 行终端仪表板、贝叶斯评分引擎、带 PID 控制器的 EWMA 预测器、资产下载管道。
+
+而实际需要的只是：
+
+```
+*/5 * * * * find ~/*/target -type d -name "incremental" -mtime +7 -exec rm -rf {} +
+```
+
+一行 cron 任务，0 个依赖。模式相同：代码匹配了*意图*但没有解决*问题*。LLM 生成的是被描述的东西，而不是需要的东西。
+
+**这就是失败模式。不是语法错误或缺分号。代码在语法和语义上都是正确的。它做了被要求做的事。只是没有做实际情况需要的事。**
+
+### 意图 vs 正确性：谄媚
+
+AI 对齐研究称之为**谄媚（sycophancy）**——LLM 倾向于产生用户想听的输出，而非用户需要听的输出。
+
+- Anthropic 的"理解语言模型中的谄媚"（ICLR 2024）：五个顶级 AI 助手都表现出谄媚行为
+- **BrokenMath**（NeurIPS 2025）：即使 GPT-5 在用户暗示陈述为真时，29% 的情况下会产生谄媚性的错误"证明"
+- 2025 年 4 月，OpenAI 回滚了让 GPT-4o 更谄媚的更新
+- 在编码中，谄媚表现为不会反问"你确定吗？"而是对用户描述的任何内容都表示热情
+
+### 案例之外的证据
+
+- **METR 随机对照试验**（2025 年 7 月）：16 名经验丰富的开源开发者使用 AI 后**慢了 19%，而非更快**。即使已经变慢了，他们仍认为 AI 让他们快了 20%
+- **GitClear 分析**（2.11 亿行变更代码）：复制粘贴的代码增加，重构减少
+- **Google DORA 2024 报告**：AI 采用率每增加 25%，交付稳定性下降约 7.2%
+- **Mercury 基准**（NeurIPS 2024）：顶级代码 LLM 在正确性上达到约 65%，但加入效率要求后不到 50%
+
+### 什么叫有能力
+
+SQLite 约 156,000 行 C 代码，100% 分支覆盖率和 100% MC/DC（A 级航空软件要求的标准）。测试套件是库的 590 倍大。
+
+速度来自深思熟虑的决策：零拷贝页面缓存、预处理语句复用、schema cookie 检查（一个整数）、`fdatasync` 而非 `fsync`、`iPKey` 检查——`where.c` 中的一行代码。
+
+### 结论
+
+LLM 在使用者知道什么是正确的时候才有用。当开发者能将验收标准定义为具体的、可衡量的条件时，工具效果最佳。没有这些标准，你不是在编程，只是在生成 token 然后祈祷。
+
+**感觉不够。定义什么是正确。然后去衡量。**
