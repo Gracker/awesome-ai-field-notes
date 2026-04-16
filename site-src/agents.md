@@ -142,7 +142,7 @@ LLM Agent 正在从研究概念走向实际部署，但目前的研究呈现碎�
 
 ## 📅 2026-04-05
 
-### [open-agent-sdk: 替代 claude-agent-sdk 的开源方案](https://x.com/idoubicc/status/2039006326882546141)
+### [open-agent-sdk: 替代 claude-agent-sdk 的开源方案](/entry/awh81ez0) 📄
 @idoubi · ⭐⭐⭐3 🇨🇳 · 2026-04-05
 
 基于 Claude Code 泄露源码抽离逻辑实现的开源 Agent SDK，用于替代官方 claude-agent-sdk。解决了官方 SDK 的两个核心问题：1）依赖不开源的 claude code 黑盒调用，出了问题没法修；2）需要创建 claude code 本地进程处理 query，开销大，不适合云端规模化。open-agent-sdk 完全兼容官方接口（只需换包名）、完全开源可定制、函数调用不依赖本地 cli 进程，适合云端高并发。MIT 协议。
@@ -572,7 +572,7 @@ AI 进化论-花生发布的 98 页 OpenClaw 橙皮书，浏览量超 175 万，
 
 ---
 
-### [搜索外脑接入龙虾生态 - SearxNG 方案](https://x.com/YuLin807/status/2030996280051462609)
+### [搜索外脑接入龙虾生态 - SearxNG 方案](/entry/ggh39whe) 📄
 @QingYue · ⭐⭐⭐3 🇨🇳 · 2026-03-09
 
 OpenClaw 用户分享将 SearxNG 聚合搜索引擎接入龙虾生态（Claude Code + MCP）的方案。核心判断：LLM 叠 LLM 是反模式（Perplexica 的搜索→小模型总结→返回链路等于让实习生帮主刀医生看片子），正确做法是 SearxNG 毫秒级返回原始搜索结果，让大模型自己判断哪条值得深入。方案特点：零 API key、零成本、全隐私，聚合 70+ 搜索源，含反爬实战经验（Reddit/知乎绕过方案）。
