@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema_description": "每条记录必须基于实际文件内容提取，禁止捏造。英文原文需提供中英双语摘要。",
-  "last_updated": "2026-04-15T08:09:35.769553",
+  "last_updated": "2026-04-16T08:01:00.000000",
   "entries": [
     {
       "id": "7n5hkzn5",
@@ -21281,6 +21281,77 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-04-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "iplvrqyc",
+      "title": "The AI Knowledge Layer: Making Every Agent Smarter",
+      "url": "https://x.com/shannholmberg/status/2044111115878326444",
+      "source": {
+        "platform": "x",
+        "author": "shannholmberg",
+        "original_date": "2026-04-15"
+      },
+      "category": "agent-frameworks/knowledge-management",
+      "tags": [
+        "knowledge-layer",
+        "agent-memory",
+        "karpathy",
+        "wiki",
+        "context-engineering",
+        "brand-foundation"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "作者提出 AI Knowledge Layer 的两层架构：动态知识库层（KBL）和静态品牌基础层（BF）。KBL 让用户将推文、文章、书签等原始素材导入文件夹，由 AI Agent 自动分类、构建结构化 Wiki 页面并维护主索引；BF 则存储用户的声音规则、视觉风格、定位等静态信息，Agent 只读不改。灵感来自 Karpathy 关于将 token 消耗从代码转向知识管理的观点。开源框架，20 分钟即可部署。",
+      "summary_en": "The article introduces a two-layer AI Knowledge Layer: a dynamic Knowledge Base Layer (KBL) that ingests raw sources and compiles structured wiki pages with cross-references, and a static Brand Foundation (BF) that anchors voice, style, and positioning. Inspired by Karpathy's shift of token spend from code to knowledge management. Open source, 20-minute setup. The author compiled 230+ structured wiki pages from personal data.",
+      "one_liner": "Karpathy 式知识管理的工程化落地：20 分钟搭建让 Agent 真正'认识你'的知识层",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/20260415-1202-shannholmberg-httpstcogBw9GqU.md",
+      "images": [],
+      "added_date": "2026-04-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "hqm6txq4",
+      "title": "Agent Memory 架构本质",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ==&mid=2247491781&idx=1&sn=3ff0a8d934f8fc9f4175b8c789b946f1",
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": "2026-04-15"
+      },
+      "category": "agent-frameworks/memory",
+      "tags": [
+        "agent-memory",
+        "memory-architecture",
+        "distillation",
+        "knowledge-management",
+        "belief-revision",
+        "context-engineering"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "深度解析 Agent Memory 的工程架构。核心观点：Memory 的难点不在容量，在治理。文章厘清了 Memory 与 State/Policy/Profile 的边界，指出蒸馏只是管理链路中的一个操作而非记忆本身。提出四个建模对象：用户模型、任务模型、世界模型、自我模型。定义了记忆的六个维度（内容/类型/置信度/来源/作用域/时间衰减），以及写入-管理-读取三条链路。强调进化=修正+遗忘，评测从 recall 转向 update/abstain/drift/forget。",
+      "summary_en": null,
+      "one_liner": "Memory 的难点从来不在容量，在治理——把 Agent 记忆从字符串变成可追溯可修正可过期的结构化对象",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "Cubox/Agent Memory 架构本质-2026-04-15.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale()?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FoghJwiaPb1Cv8O4jm4Jt36vlzCHdNZmzk1jJePzYMlG7M25UDFmmCFc1yQaTFgkEmd9DGv9uEUScdIrdhuQ7hHUU7GuXpVibodFYIJjd4iaX1g%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%26watermark%3D1%23imgIndex%3D0",
+        "https://cubox.pro/c/filters:no_upscale()?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FoghJwiaPb1CvCSvJbunpY95xrgu8ZAH5ynxpzwu8Iu96MbshzooHADCREtedbpt3dUFDlLkSCfgEVChMfb9wlIn4ftv7mviaDymjafNr38icick%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%26watermark%3D1%23imgIndex%3D1",
+        "https://cubox.pro/c/filters:no_upscale()?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FoghJwiaPb1CuUGQ1xjLFGoyQDmv5754V3HxtLQstVuevuyibE6EbYTj3nl9ERlEibbiarXlNXnwpqvibaswexVu2DKyhPUrYGyKxz86Z8lhozAGg%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%26watermark%3D1%23imgIndex%3D2",
+        "https://cubox.pro/c/filters:no_upscale()?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FoghJwiaPb1CuQE6WFW9NlYXoj0a7LosxJiaL4zWAtPXOxGibaURV6MgHStqpsfYfOia1ghAf8axeRuJcpfTfOT4v6tfKzRt2JdicKde01CSw0Tzo%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%26watermark%3D1%23imgIndex%3D3"
+      ],
+      "added_date": "2026-04-16",
       "updated_date": null,
       "github_stars": null,
       "related": []

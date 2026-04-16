@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI Field Notes
   text: AI 领域精选资源导航
-  tagline: 有观点 · 有评分 · 每日自动更新 · 620 条 · 365 篇有全文
+  tagline: 有观点 · 有评分 · 每日自动更新 · 622 条 · 367 篇有全文
   actions:
     - theme: brand
       text: 浏览全部
@@ -35,6 +35,24 @@ features:
 ---
 
 ## 🆕 最新 10 篇
+
+### [The AI Knowledge Layer: Making Every Agent Smarter](/entry/iplvrqyc) 📄
+@shannholmberg · ⭐⭐⭐3 🌐 · 昨天
+
+作者提出 AI Knowledge Layer 的两层架构：动态知识库层（KBL）和静态品牌基础层（BF）。KBL 让用户将推文、文章、书签等原始素材导入文件夹，由 AI Agent 自动分类、构建结构化 Wiki 页面并维护主索引；BF 则存储用户的声音规则、视觉风格、定位等静态信息，Agent 只读不改。灵感来自 Karpathy 关于将 token 消耗从代码转向知识管理的观点。开源框架，20 分钟即可部署。
+
+`knowledge-layer` `agent-memory` `karpathy` `wiki` `context-engineering`
+
+---
+
+### [Agent Memory 架构本质](/entry/hqm6txq4) 📄
+⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
+
+深度解析 Agent Memory 的工程架构。核心观点：Memory 的难点不在容量，在治理。文章厘清了 Memory 与 State/Policy/Profile 的边界，指出蒸馏只是管理链路中的一个操作而非记忆本身。提出四个建模对象：用户模型、任务模型、世界模型、自我模型。定义了记忆的六个维度（内容/类型/置信度/来源/作用域/时间衰减），以及写入-管理-读取三条链路。强调进化=修正+遗忘，评测从 recall 转向 update/abstain/drift/forget。
+
+`agent-memory` `memory-architecture` `distillation` `knowledge-management` `belief-revision`
+
+---
 
 ### [Decoding Transformer Architecture](/entry/0bf2b5b84701) 📄
 @amitiitbhu · ⭐⭐⭐⭐4 🌐 · 2026-04-14
@@ -124,23 +142,5 @@ features:
 [Read Original](https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&amp;mid=2649012185&amp;idx=1&amp;sn=e613849d8e706a95d4a3c292b5881a1e&amp;chksm=86dfe794b8bbe007e9e98feae10f476d336e026e8df0819088fa8639d3385dfe3ce872cacff2&amp;mpshare=
 
 `harness-engineering` `oh-my-claudecode` `oh-my-pi` `hashline` `coding-agent`
-
----
-
-### [万字干货：理解 Harness Engineering，看这一篇就够了](/entry/cc15hq4t) 📄
-@咸鱼（TRAE 开发者用户） · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-11
-
-Harness Engineering 是继 Prompt Engineering 和 Context Engineering 之后 2026 年 AI 领域的核心工程方法论，由 HashiCorp 联合创始人 Mitchell Hashimoto 提出。核心比喻是缰绳：AI Agent = SOTA 模型（野马）+ Harness（驾驭系统）= 千里马。文章系统性拆解了 Harness 的设计目标（R.E.S.T 模型：可靠性、效率、安全性、可观测性）、四层架构（控制平面+数据平面）、核心运行机制（REPL 容器抽象、Token 转化流水线、Function Calling 生命周期）、规划模式（Plan-and-Execute 为主）、沙盒执行框架（从进程级到 VM 级四档隔离）以及度量体系。适合 Agent 系统工程师建立完整的工程化框架认知。
-
-`harness-engineering` `ai-agent` `prompt-engineering` `context-engineering` `llm`
-
----
-
-### [破局Agent时代：ARIES RISCV+AI架构分析](/entry/n3m8itb5) 📄
-⭐⭐⭐⭐4 🇨🇳 · 2026-04-11
-
-本文深度分析 ISSCC 2026 展示的 ARIES 芯片架构，这是一款专为 AI Agent 时代设计的 RISC-V+AI 异构 SoC。核心创新三点：第一，将 RISC-V CPU 直接集成进 SoC 核心区作为调度单元，解决传统 NPU 控制流跳回 Host CPU 的 PCIe 时延问题；第二，采用统一 Tile + 独立时钟域替代 PD/AF 物理分离，同一硬件动态切换算力密集和访存密集模式；第三，堆 280MB 片内 SRAM + CIM 存内计算消灭访存瓶颈，通过 LUT-based 多精度量化在 14nm 工艺实现超越 4nm GPU 的能效比（YOLO 系列 10.12x FPS/W 提升）。ARIES 代表了 Agent 时代逻辑控制与极致算力耦合的实用主义芯片设计路线。
-
-`risc-v` `ai-chip` `npu` `llm-inference` `agent`
 
 ---
