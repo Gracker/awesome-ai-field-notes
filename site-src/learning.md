@@ -967,7 +967,7 @@ Read Original
 
 ## 📅 2023-12-14
 
-### [AI is about to completely change how you use compu...](https://www.gatesnotes.com/AI-agents)
+### [AI is about to completely change how you use compu...](/entry/cz2bo7ig) 📄
 ⭐⭐⭐3 🌐 · 2023-12-14
 
 AI is about to completely change how you use compu...

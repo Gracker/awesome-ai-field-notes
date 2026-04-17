@@ -1320,7 +1320,7 @@ LLM Agent 领域研究碎片化严重：架构设计、协作模式、进化机�
 
 ## 📅 2025-03-18
 
-### [sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Talk To Figma MCP](https://github.com/sonnylazuardi/cursor-talk-to-figma-mcp)
+### [sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Talk To Figma MCP](/entry/sYGvrjjl) 📄
 ⭐⭐⭐3 🌐 · 2025-03-18
 
 [需翻译] sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Talk To Figma MCP
