@@ -140,7 +140,7 @@ OpenCLI 提供 5 级认证策略。使用 cascade 命令自动探测：
 ### 适配器
 
 
-    你的 pipeline 里有 evaluate 步骤（内嵌 JS 代码）？  → ✅ 用 TypeScript (src/clis/`site`/`name`.ts)，保存即自动动态注册  → ❌ 纯声明式（navigate + tap + map + limit）？       → ✅ 用 YAML (src/clis/`site`/`name`.yaml)，保存即自动注册
+    你的 pipeline 里有 evaluate 步骤（内嵌 JS 代码）？  → ✅ 用 TypeScript (src/clis/`site`>/`name`>.ts)，保存即自动动态注册  → ❌ 纯声明式（navigate + tap + map + limit）？       → ✅ 用 YAML (src/clis/`site`>/`name`>.yaml)，保存即自动注册
 
 
 ![](https://cubox.pro/c/filters:no_upscale()?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2Fj7RlD5l5q1ypXTOXfK87ArFYuDaPNT9e2MicRG7kOLpx0jibKgTHlGw0ScTQu0c6AYic1YuRNMjicxsgFNOAdYZdAk1ENxxhee9iahAF196aYWPs%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D2)

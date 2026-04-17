@@ -22,9 +22,13 @@ sidebar: false
 > 原文链接: https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649785880&idx=1&sn=cfc72ed90f9a0b808b41b7390fc6cbab&chksm=bf316b85bf8a88055db7443ccd1c06f58eae09bf54c8281b24f7180c74031657a11c79be4d52&mpshare=1&scene=1&srcid=0927ITIRBGmccXietngR8Byb&sharer_shareinfo=edeea358a584d0dc46e3d7d720564906&sharer_shareinfo_first=edeea358a584d0dc46e3d7d720564906
 
 ---
+
+
 作者：ethanntang
 
 > 本文主要分享我们近期在Embedding模型训练上的工作「Conan-Embedding」。目前，Conan-Embedding已在最全面、最大规模的中文语义向量评测榜单C-MTEB上达到SOTA，超越了阿里、百川、OpenAI等众多Embedding模型。
+
+
 
 图片由Venus-AI Draw平台生成并进行风格化
 
@@ -35,6 +39,8 @@ sidebar: false
 随着大模型时代的爆发，检索增强生成技术（RAG）在大语言模型中广泛应用。RAG是一种性价比极高的方案，在大语言模型中占据重要地位。Embedding模型作为RAG中检索召回的重要一环，扮演着极其关键的角色。更加准确的Embedding模型在抑制模型幻觉、增强新热知识表现、提升封闭领域回答能力等方面都能发挥优势。
 
 为了提升RAG系统的性能表现，我们近期针对如何训练更强的Embedding模型进行探索，训练得到了目前最强中文Embedding模型「Conan-Embedding」，该模型已在C-MTEB上达到SOTA。
+
+
 
 图1 C-MTEB榜单结果
 
@@ -52,6 +58,8 @@ Embedding是一种将高维数据转换为低维向量表示的技术，它在�
 
 ### **主要方法**
 
+
+
 图2 训练方法概览
 
 在弱监督训练阶段，我们收集了 7.5 亿对数据集，并从中挑选出 4 亿对。在有监督训练阶段，使用动态难负例挖掘策略来更精确地微调模型。
@@ -68,11 +76,15 @@ bge-large-zh-v1.5 是由智源发布的广泛使用的基础embedding 模型。�
 
 在预训练阶段，为了高效且充分地利用数据，我们使用InfoNCE Loss with In-Batch Negative：
 
+
+
 其中是title，input，question，prompt等，是对应的 content，output，answer，response等，认为是正样本；是同 batch 其他样本的content，output，answer，response，认为是负样本。In-Batch Negative InfoNCE Loss 是一种用于对比学习的损失函数，它利用了 mini-batch 中的其他样本作为负样本来优化模型。具体来说，在每个 mini-batch 中，除了目标样本的正样本对外，其余样本都被视为负样本。通过最大化正样本对的相似度并最小化负样本对的相似度，In-Batch Negative InfoNCE Loss 能够有效地提高模型的判别能力和表征学习效果。这种方法通过充分利用 mini-batch 中的样本，提升了训练效率并减少了对额外负样本生成的需求。
 
 ##### **有监督精调**
 
 微调阶段，我们针对不同的下游任务进行特定任务的微调。如图2(b)所示，我们参考以往的工作，并在其基础上移除了分类（CLS）任务，将任务分为两类：检索（Retrieval）和语义文本相似性（STS）。检索任务包括查询、正样本和负样本，经典的损失函数是InfoNCE Loss。STS任务涉及区分两段文本之间的相似性，经典的损失函数是交叉熵损失。在STS任务上，根据以往工作的结论，CoSENT损失略优于交叉熵损失。因此，我们也采用CoSENT损失来优化STS任务：
+
+
 
 其中是缩放温度，是余弦相似度函数，是 和之间的相似性。
 
@@ -86,11 +98,15 @@ bge-large-zh-v1.5 是由智源发布的广泛使用的基础embedding 模型。�
 
 图3 展示了动态难负例挖掘与标准难负例挖掘的样本正负例Score - Steps 变化曲线。可以看到，随着步数的增加，Standard-HNM的负例评分不再下降，而是出现震荡，这表明模型对该批负例的学习已完成。而Dynamic-HDM在检测到负例学习完毕后，会进行难负例的替换。
 
+
+
 图3 动态难负例挖掘与标准难负例挖掘的样本正负例Score-Steps变化曲线。
 
 在训练过程中，每 100steps 检查一次难负例。当分数的 1.15 倍小于初始得分，且分数绝对值小于 0.8 时，我们认为该负例不再困难，并替换成新的难负例。
 
 #### **跨GPU的Batch均衡训练**
+
+
 
 图4 跨 GPU 的Batch均衡训练的示意图。
 
@@ -99,6 +115,8 @@ bge-large-zh-v1.5 是由智源发布的广泛使用的基础embedding 模型。�
 为了更好地利用难样本，我们采用了跨 GPU 批次平衡损失 (CBB)。之前的方案通常在训练流程中随机的在每个Batch中分配一个任务。例如：在iter0中采样STS的样本，并使用STS对应Loss进行反向传播获取梯度并更新权重，而iter1中分配了Retri任务或者CLS任务，我们称之为顺序随机任务训练。这样训练几乎一定会导致单次的优化搜索空间与Embedding模型的全局优化搜索空间不一致，从而导致训练过程的震荡以及无法求得全局最优解。我们在之后的分析中展现了这一现象。
 
 为此，我们考虑在每次的Forward-Loss-Backward-Update的更新过程中都均衡的引入每一个任务，以此来获得稳定的搜索空间，并尽可能的缩小单次模型更新方向和全局最优解的一致性。因此，CBB策略不仅考虑了不同 GPU 之间的通信，还考虑了不同任务之间的通信，从而实现了更好的Batch均衡。如图4所示，为了在检索任务中利用更多难样本，我们确保 GPU（gpu0、gpu1、gpu2、gpu3）各自具有不同的负样本，同时共享相同的查询和相同的正样本。对于Retri任务，每个 GPU 计算对应Batch的Loss，然后将结果汇总到 gpu1 上。对于STS任务，在gpu4上，运行STS任务并获得对应Loss。最终汇总并计算当前Iter的合并 CBB Loss。对应公式如下：
+
+
 
 其中是 Query 和正样本段落之间的评分函数，通常定义为余弦相似度，是查询和正样本段落共享的GPU数量，是缩放温度。根据经验，我们将设置为 0.8。
 
@@ -120,9 +138,13 @@ bge-large-zh-v1.5 是由智源发布的广泛使用的基础embedding 模型。�
 
 表1 预训练数据概览
 
+
+
 在精调阶段，为了让模型更适应各种任务，我们选择了常见的Retri、CLS和 STS数据集。对于CLS任务，我们将它与Retri合并，将同一类别的数据视为文本正例，将不同类别的数据视为文本负例。微调阶段使用的数据量如下表所示：
 
 表2 精调训练数据概览
+
+
 
 #### **结果**
 
@@ -142,9 +164,13 @@ MTEB（Massive Text Embedding Benchmark）是评估大规模文本Embedding模�
 
 表4 C-MTEB结果
 
+
+
 #### **分析**
 
 为了更好地评估跨GPU多任务批次均衡的效果，我们在图5展示了使用CBB策略前后的Loss-Iter曲线。loss\_retri和loss\_STS代表在不启用CBB策略时，多个任务随机按Iter进行训练时，两个任务的独立Loss。可以观察到，在不启用CBB策略时，每个独立任务的Loss震荡都比较严重，并且下降缓慢，且不同步。以上现象说明，不同的任务之间优化目标存在GAP，优化方向不一致，且每个单一优化目标和全局优化目标不一致。因此，顺序随机任务训练不能在优化中取得近似的全局最优结果。loss\_cross代表启用CBB策略时训练过程中的Loss-Iter曲线，可以看到，随着训练的进行，Loss在几乎在非常平稳地持续的下降，最终的Loss（0.08）远小于Retri和STS Loss之和（0.38）。CBB策略可以看作是一种正则化策略。
+
+
 
 图5 使用跨GPU多任务批次均衡（CBB）方法前后的损失曲线比较
 
@@ -161,5 +187,7 @@ MTEB（Massive Text Embedding Benchmark）是评估大规模文本Embedding模�
 [带你认识微信多模态大模型 POINTS](http://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649785755&idx=1&sn=0430955f9461803f2f702812659d81b8&chksm=becc16e089bb9ff6ac189cfcd3a16815f6067e11923468dabc68879f6d510a2cb8afd312b926&scene=21#wechat_redirect)
 
 [求了他3天，才肯告诉我的...](http://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649785828&idx=1&sn=5973edd7a6b197f1ebed8eae0038470b&chksm=becc169f89bb9f89fb946e628cc8e6d0475a41411db2beee78a221d22087628f87bbed443747&scene=21#wechat_redirect)
+
+
 
 

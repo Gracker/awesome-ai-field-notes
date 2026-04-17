@@ -23,7 +23,7 @@ sidebar: false
 
 **Author**: Armin Ronacher
 **Published**: 2026-01-31
-**Source**: <https://lucumr.pocoo.org/2026/1/31/pi/>
+**Source**: `https`://lucumr.pocoo.org/2026/1/31/pi/>
 
 If you haven't been living under a rock, you will have noticed this week that a project of my friend Peter went viral on the internet. It went by many names. The most recent one is OpenClaw but in the news you might have encountered it as ClawdBot or MoltBot depending on when you read about it. It is an agent connected to a communication channel of your choice that just runs code.
 

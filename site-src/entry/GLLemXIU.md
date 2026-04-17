@@ -26,7 +26,9 @@ sidebar: false
 > 原文链接: https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247514365&idx=1&sn=dd898cc5dfe8ab4fe7c48442a2d7fc35&chksm=e82cdfc64103948773b39bc1cdd18051bc935cdcbdad9990335b12f4401dbd67d0a5f6e162ad&mpshare=1&scene=1&srcid=0508JMd4ApDVP5Sk45FwTZuO&sharer_shareinfo=346fd11813fa570c425fefb3cdbb9b0e&sharer_shareinfo_first=346fd11813fa570c425fefb3cdbb9b0e
 
 ---
-# 最近大家都在聊 MCP，发现有个最重要的点被忽略了： 通过标准化协议，将工具提供方与应用研发者解耦，这一点带来的将是 AI Agent 应用研发范式的转移（类似 Web 应用研发的前后端分离）。
+# 
+
+最近大家都在聊 MCP，发现有个最重要的点被忽略了： 通过标准化协议，将工具提供方与应用研发者解耦，这一点带来的将是 AI Agent 应用研发范式的转移（类似 Web 应用研发的前后端分离）。
 
 本文以开发 Agent TARS（https://agent-tars.com/） 应用为例，尽可能详细地介绍 MCP 在开发范式、工具生态扩展上起到的作用。
 
@@ -57,12 +59,16 @@ AI 从最初只能对话的 Chatbot，辅助人类决策的 Copilot，再到能�
 3.  生态碎片化：工具提供方能提供的只有 OpenAPI，由于缺乏标准使得不同 Agent 生态中的工具 Tool 互不兼容。
 
 
+
+
 目标
 
 "All problems in computer science can be solved by another level of indirection" -- Butler Lampson
 在计算机科学中，任何问题都可以通过一个抽象层解决。
 
 将工具从 Agent 层解耦出来，单独变成一层 MCP Server 层，并对开发、调用进行标准化。MCP Server 为上层 Agent 提供上下文、工具的标准化调用方式。
+
+
 
 演示
 
@@ -74,7 +80,9 @@ AI 从最初只能对话的 Chatbot，辅助人类决策的 Copilot，再到能�
 
 -   回放：
 
-    -   使用的 MCP Servers:
+    
+
+-   使用的 MCP Servers:
 
 
 -   券商 MCP：https://github.com/longportapp/openapi/tree/main/mcp
@@ -88,7 +96,9 @@ AI 从最初只能对话的 Chatbot，辅助人类决策的 Copilot，再到能�
 
 -   回放：
 
-    -   使用的 MCP Servers：
+    
+
+-   使用的 MCP Servers：
 
 
 -   命令行 MCP：https://github.com/g0t4/mcp-server-commands
@@ -102,7 +112,9 @@ AI 从最初只能对话的 Chatbot，辅助人类决策的 Copilot，再到能�
 
 -   回放：
 
-    -   使用的 MCP Servers：
+    
+
+-   使用的 MCP Servers：
 
 
 -   浏览器操作 MCP：https://github.com/bytedance/UI-TARS-desktop/tree/fb2932afbdd54da757b9fae61e888fc8804e648f/packages/agent-infra/mcp-servers/browser
@@ -113,7 +125,9 @@ AI 从最初只能对话的 Chatbot，辅助人类决策的 Copilot，再到能�
 -   指令：根据[这篇文章](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650533088&idx=1&sn=74b233244fb1a692fd6397d2312553d4&scene=21#wechat_redirect)，调研下各个 Agent 框架的各维度对比，并生成一个报告 markdown
 
 -   回放：
-    -   使用的 MCP Servers：Link Reader
+    
+
+-   使用的 MCP Servers：Link Reader
 
 
 已支持自定义 MCP Servers !415（https://github.com/bytedance/UI-TARS-desktop/pull/415） !489（https://github.com/bytedance/UI-TARS-desktop/pull/489），可以添加 Stdio、Streamable HTTP、SSE 类型的 MCP Server。
@@ -128,7 +142,11 @@ Model Context Protocol（模型上下文协议）是 Anthropic 在推出的用�
 
 可以把 MCP 想象成 AI 应用程序的 USB-C 接口，规范了应用程序如何为 LLMs 提供上下文。
 
+
+
 架构图如下：
+
+
 
 -   MCP Client：通过 MCP 协议与 Servers 通信，并保持 1:1 连接。
 
@@ -140,6 +158,8 @@ Model Context Protocol（模型上下文协议）是 Anthropic 在推出的用�
 流程图
 
 一句话解释就是 MCP 提供给 LLM 所需的上下文：Resources 资源、Prompts 提示词、Tools 工具。
+
+
 
 MCP 和 Function Call 区别？
 
@@ -166,7 +186,11 @@ Function Call
 
 JSON-RPC，支持双向通信（但目前使用不多）、可发现性、更新通知能力
 
+
+
 JSON-Schema，静态函数调用
+
+
 
 调用方式
 
@@ -203,11 +227,15 @@ AJAX、Node.js、RESTful API 推动前后端分离，对应 MCP 也正在实现 
 -   MCP 分层：让工具开发者和 Agent 开发者各司其职，工具质量和功能的迭代不需要 Agent 开发者感知。这种分层让 AI Agent 开发者能像搭积木一样组合工具，快速构建复杂 AI 应用。
 
 
+
+
 实践
 
 整体设计
 
 以 MCP Browser 浏览器工具（https://github.com/bytedance/UI-TARS-desktop/tree/main/packages/agent-infra/mcp-servers/browser）开发和接入为例，逐步解析具体实现。
+
+
 
 在设计 Browser MCP Server 时，并没有采用官方的 stdio call 方式（即通过 `npx` 方式跨进程调用）。原因是为了降低使用门槛，避免用户在首次使用时先安装 Npm、Node.js 或 UV，从而影响 Agent 开箱即用的体验（相关 issue[#64](javascript:;)：https://github.com/modelcontextprotocol/servers/issues/64）。
 
@@ -244,6 +272,8 @@ MCP Server 开发
 
 `$ npx -y @modelcontextprotocol/inspector tsx src/index.ts Starting MCP inspector... New SSE connection Spawned stdio transport Connected MCP client to backing server transport Created web app transport Set up MCP proxy 🔍 MCP Inspector is up and running at http://localhost:5173 🚀 `
 
+
+
 注：用 Inspector 调试开发 Server 时，console.log 是无法显示的，这点 debug 确实有点麻烦。
 
 实现（Implement）
@@ -259,7 +289,7 @@ MCP Server 开发
 -   `close`：Server 不使用后的清理函数
 
 
-`// src/server.ts export const client: Pick<Client, 'callTool' | 'listTools' | 'close'> = {   callTool,   listTools,   close, }; `
+`// src/server.ts export const client: Pick`Client`, 'callTool' | 'listTools' | 'close'> = {   callTool,   listTools,   close, }; `
 
 同时 Stdio 调用支持，直接在 `src/index.ts` 导入模块即可使用。
 
@@ -293,7 +323,7 @@ MCP Client 的核心任务是集成不同调用方式（Stdio / SSE / Streamable
 
 Function Call 调用
 
-`exporttype MCPServer<ServerNames extends string = string> = {   name: ServerNames;   status: 'activate' | 'error';   description?: string;   env?: Record<string, string>; + /** in-process call, same as function call */ + localClient?: Pick<Client, 'callTool' | 'listTools' | 'close'>;   /** Stdio server */   command?: string;   args?: string[]; }; `
+`exporttype MCPServer`ServerNames` extends string = string> = {   name: ServerNames;   status: 'activate' | 'error';   description?: string;   env?: Record`string`, string>; + /** in-process call, same as function call */ + localClient?: Pick`Client`, 'callTool' | 'listTools' | 'close'>;   /** Stdio server */   command?: string;   args?: string[]; }; `
 
 MCP Client 调用方式如下：
 
@@ -312,6 +342,8 @@ Remote 远程调用
 
 如果是 Web 应用（无法使用 Stdio MCP Server），可以用 FaaS 将 Stdio 转成 SSE MCP Server，从而在 Function Call 的基础上无缝支持 MCP 类型的 Tools，这个过程换句话讲是「MCP Servers 云化」。
 
+
+
 调用代码示例：
 
 `import asyncio import openai import json from agents.mcp import MCPUtil from agents.mcp import MCPServerSse from agents import set_tracing_disabled set_tracing_disabled(True) async def chat():     client = openai.AzureOpenAI(         azure_endpoint=base_url,         api_version=api_version,         api_key=ak,     ) +   async with MCPServerSse( +       name="fetch", params={"url": "https://{mcp_faas_id}.mcp.bytedance.net/sse"} +   ) as mcp_server: +       tools = await MCPUtil.get_function_tools( +           mcp_server, convert_schemas_to_strict=False +       )         prompt = "请求下 https://agent-tars.com/，主要是做什么的？"         completion = client.chat.completions.create(             model=model_name,             messages=[{"role": "user", "content": prompt}],             max_tokens=max_tokens, +           tools=[ +               { +                   "type": "function", +                   "function": { +                       "name": tool.name, +                       "description": tool.description, +                       "parameters": tool.params_json_schema, +                   }, +               } +               for tool in tools +           ],         )         for choice in completion.choices:             if isinstance(choice.message.tool_calls, list):                 for tool_call in choice.message.tool_calls:                     if tool_call.function: +                       tool_result = await mcp_server.call_tool( +                           tool_name=tool_call.function.name, +                           arguments=json.loads( +                               tool_call.function.arguments +                           ), # or jsonrepair +                       ) +                       print("tool_result", tool_result.content) if __name__ == '__main__':     asyncio.run(chat()) `
@@ -321,6 +353,8 @@ Remote 远程调用
 生态
 
 MCP 生态不断发展壮大，越来越多的应用支持 MCP，同时开放平台也提供 MCP Server。同时也有像 Cloudflare、Composio、Zapier 使用 SSE 方式将 MCP 进行托管（即接入一个 MCP Endpoint 即接入一批 MCP Servers），通过 Stdio 方式最理想场景是 MCP Servers 和 Agent 系统跑在同一 Docker 容器中（类似 Sidecar 模式）。
+
+
 
 MCP 生态图
 

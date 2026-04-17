@@ -432,8 +432,8 @@ ARM 处理器的 PMU 是一组硬件计数器，可以对 CPU 运行过程中的
         *   `MEM_ACCESS_RD`, `MEM_ACCESS_WR`: 内存读/写访问次数。
 *   **使用 Simpleperf 收集 PMU 数据**：
     *   `simpleperf list [pmu]`：查看当前设备支持的 PMU 事件列表。
-    *   `simpleperf stat -e event1,event2,... -p `pid`` 或 `simpleperf stat -e event1,event2,... `command``：统计指定进程或命令运行期间的事件计数。
-    *   `simpleperf record -e event1,event2,... -p `pid`` 或 `simpleperf record -e event1,event2,... `command``：进行采样，记录事件发生时的调用栈信息，用于生成火焰图或进行更细致的分析。
+    *   `simpleperf stat -e event1,event2,... -p `pid`>` 或 `simpleperf stat -e event1,event2,... `command`>`：统计指定进程或命令运行期间的事件计数。
+    *   `simpleperf record -e event1,event2,... -p `pid`>` 或 `simpleperf record -e event1,event2,... `command`>`：进行采样，记录事件发生时的调用栈信息，用于生成火焰图或进行更细致的分析。
 *   **解读 PMU 数据**：
     *   **计算衍生指标**：如 CPI, IPC, Cache Miss Rates, Branch Miss Rate。
     *   **关联到代码**：通过 `simpleperf report` 或火焰图，将高事件计数的区域定位到具体的函数或代码行。
@@ -610,7 +610,7 @@ Perfetto 的核心优势在于其强大的系统级追踪能力，能够从多�
 
 *   **其他数据源**：
     *   Perfetto 支持多种数据源，包括：
-        *   **进程内存计数器 (`/proc/`pid`/statm`, `/proc/meminfo`)**：周期性采样进程和系统的内存使用情况。
+        *   **进程内存计数器 (`/proc/`pid`>/statm`, `/proc/meminfo`)**：周期性采样进程和系统的内存使用情况。
         *   **应用内 Heap Profiler (Native & Java)**：可以进行低开销的堆内存分配分析，甚至捕获 Java 堆转储。
         *   **Android HAL 模块**：例如电池和功耗计数器。
         *   **Android Logcat**：可以将 Logcat 日志集成到 Perfetto 追踪中。
@@ -670,7 +670,7 @@ Simpleperf 可以在设备上直接对运行中的应用或进程进行性能剖
     *   Simpleperf 支持对运行在 ART 虚拟机上的 Java/Kotlin 代码进行剖析。它可以记录 Java 方法的调用栈。
     *   为了获得准确的 Java 调用栈，通常需要 ART 运行时提供必要的符号信息。在 Android P (9.0) 及更高版本中，ART 默认会生成用于性能剖析的调试信息。对于旧版本，可能需要特定的系统属性或配置。
     *   使用 `app_profiler.py` 脚本可以简化对应用的剖析过程，它会自动处理应用包名、启动 Activity 等细节。
-    *   命令示例：`simpleperf record -p `pid` --call-graph dwarf -e cpu-cycles -f 1000 --duration 10 -o perf.data` (剖析指定进程，记录调用栈，基于 CPU 周期采样，频率 1000Hz，持续 10 秒)。
+    *   命令示例：`simpleperf record -p `pid`> --call-graph dwarf -e cpu-cycles -f 1000 --duration 10 -o perf.data` (剖析指定进程，记录调用栈，基于 CPU 周期采样，频率 1000Hz，持续 10 秒)。
     *   对于 Java 代码，有时需要配合 `--trace-offcpu` 来分析线程由于等待 I/O 或锁而离开 CPU 的情况，但这主要关注的是非 "Running" 状态。
 
 *   **剖析 Native C/C++ 代码**：
@@ -680,14 +680,14 @@ Simpleperf 可以在设备上直接对运行中的应用或进程进行性能剖
 *   **数据采集 (`record` 命令)**：
     *   `simpleperf record` 命令用于在设备上采集性能数据，并将其保存到 `perf.data` 文件中。
     *   常用选项：
-        *   `-p `pid`` 或 `-t `tid``：指定要剖析的进程 ID 或线程 ID。
+        *   `-p `pid`>` 或 `-t `tid`>`：指定要剖析的进程 ID 或线程 ID。
         *   `-a`：剖析系统范围内的所有进程 (需要 root 权限)。
-        *   `-e `event``：指定采样事件，如 `cpu-cycles`, `instructions`, `cache-misses:u` (用户空间缓存未命中)。
-        *   `-f `frequency`` 或 `-c `count``：设置采样频率 (每秒样本数) 或采样周期 (每发生 N 个事件采样一次)。
+        *   `-e `event`>`：指定采样事件，如 `cpu-cycles`, `instructions`, `cache-misses:u` (用户空间缓存未命中)。
+        *   `-f `frequency`>` 或 `-c `count`>`：设置采样频率 (每秒样本数) 或采样周期 (每发生 N 个事件采样一次)。
         *   `--call-graph dwarf` 或 `--call-graph fp`：指定记录调用栈的方式。`dwarf` 基于 DWARF 调试信息展开调用栈，更准确但开销稍大；`fp` (Frame Pointer) 基于帧指针展开，开销小但可能不准确（尤其在优化编译后）。
-        *   `--duration `seconds``：指定剖析持续时间。
-        *   `-o `output_file``：指定输出文件名。
-        *   `--symfs `directory``：指定包含符号文件的目录路径，用于在设备上进行初步的符号解析。
+        *   `--duration `seconds`>`：指定剖析持续时间。
+        *   `-o `output_file`>`：指定输出文件名。
+        *   `--symfs `directory`>`：指定包含符号文件的目录路径，用于在设备上进行初步的符号解析。
 
 #### 3.3.2 PMU 事件与 SPE 数据采集
 
@@ -722,7 +722,7 @@ Simpleperf 采集到的 `perf.data` 文件可以通过 `simpleperf report` 命�
 *   **生成火焰图的步骤**：
     1.  **采集数据**：使用 `simpleperf record` 命令采集性能数据，确保包含调用栈信息 (如 `--call-graph dwarf`)。
         ```bash
-        simpleperf record -p `pid` --call-graph dwarf -e cpu-cycles -f 1000 --duration 10 -o /data/local/tmp/perf.data
+        simpleperf record -p <pid> --call-graph dwarf -e cpu-cycles -f 1000 --duration 10 -o /data/local/tmp/perf.data
         ```
     2.  **生成报告脚本 (可选但推荐)**：Simpleperf 提供了 Python 脚本来生成交互式的 HTML 火焰图，或者生成可供 `flamegraph.pl` (Brendan Gregg 的标准火焰图工具) 使用的折叠栈文本。
         *   `report_html.py`：可以直接生成包含火焰图的 HTML 报告。
@@ -730,7 +730,7 @@ Simpleperf 采集到的 `perf.data` 文件可以通过 `simpleperf report` 命�
             # 将 perf.data 和符号文件拉取到主机
             adb pull /data/local/tmp/perf.data
             # (假设符号文件在本地的 obj/local/arm64-v8a 等目录下)
-            python3 `NDK_PATH`/simpleperf/report_html.py --add_symbols_for_apps `app_package_name` --ndk_path `NDK_PATH` -i perf.data -o report.html
+            python3 <NDK_PATH>/simpleperf/report_html.py --add_symbols_for_apps <app_package_name> --ndk_path <NDK_PATH> -i perf.data -o report.html
             ```
         *   `inferno.bat` / `inferno.sh` (旧版 NDK 中的脚本，或可自行集成 `flamegraph.pl`)：
             ```bash
@@ -859,7 +859,7 @@ Simpleperf 是 Android 平台上进行底层 CPU 性能分析的利器，尤其�
 *   **`ndk-stack` (来自 Android NDK)**：
     *   **功能概览**：用于解析 Native 代码崩溃时的堆栈跟踪 (tombstone 文件或 logcat 输出中的堆栈)。虽然主要用于崩溃分析，但其符号解析能力对性能分析也有帮助。
     *   **与 "Running" 耗时分析的关联**：如果性能分析工具（如 Simpleperf 未配置好符号路径时）只输出了地址，`ndk-stack` 可以帮助将这些地址快速转换成函数名和代码行号，前提是有对应的带符号的库文件。
-    *   **使用建议**：`ndk-stack -sym `path_to_symbols_dir` -dump `tombstone_file``。
+    *   **使用建议**：`ndk-stack -sym `path_to_symbols_dir`> -dump `tombstone_file`>`。
 
 *   **Ghidra**：
     *   **功能概览**：由 NSA 开发并开源的一款功能强大的逆向工程套件，支持多种处理器架构（包括 ARM）。它集成了反汇编器、反编译器（可将汇编代码尝试转换为类似 C 的伪代码）、脚本引擎、图形化界面等。

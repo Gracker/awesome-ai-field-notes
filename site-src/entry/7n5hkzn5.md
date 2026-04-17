@@ -79,7 +79,7 @@ additionally include modalities such as images or audio, and use "LLM-powered so
 on top of LLMs or that combine LLMs with other generative AI models.
 ∗ Corresponding author (pamela@openai.com). Authors contributed equally and are listed alphabetically.
 
-WORKING PAPER
+WORKING PAPER
 
 Figure 1: Taken directly from GPT-4 Technical Report (OpenAI, 2023b). To get a sense of how quickly
 model capabilities are progressing – consider the jump in exam performance between GPT-3.5 and GPT-4
@@ -108,7 +108,7 @@ et al., 2022)
 motivated by our observed capabilities of GPT-4 and the suite of capabilities we saw in development with OpenAI’s launch partners
 (OpenAI, 2023b).
 
-WORKING PAPER
+WORKING PAPER
 
 levels in GPT-4 responses and between human and machine evaluations, when aggregated to the task level.
 This exposure measure reflects an estimate of the technical capacity to make human labor more efficient;
@@ -159,7 +159,7 @@ increase in productivity or efficiency in these service industries. Therefore, t
 more expensive compared to other goods and services in the economy.
 4For the remainder of the paper we spell out general-purpose technologies when it is used outside of stating "GPTs are GPTs."
 
-WORKING PAPER
+WORKING PAPER
 
 policymakers to predict and regulate. As with other general-purpose technologies, much of these algorithms’
 potential will emerge across a broad range of economically valuable use cases, including the creation of new
@@ -213,7 +213,7 @@ employs LLMs to generate code snippets and auto-complete code, which users can t
 on their expertise. In other words, while it’s true that on its own GPT-4 does not "know what time it is," it’s
 easy enough to give it a watch.
 
-WORKING PAPER
+WORKING PAPER
 
 Furthermore, a positive feedback loop may emerge as LLMs surpass a specific performance threshold,
 allowing them to assist in building the very tooling that enhances their u

@@ -26,6 +26,8 @@ sidebar: false
 ---
 来自 Anthropic 工程团队
 
+
+
 模型上下文协议（Model Context Protocol, MCP）可以让 AI 智能体（AI Agent）拥有数百种工具，去解决真实世界里的各种任务。但问题是，我们如何让这些工具发挥出最大的效用呢？
 
 在这篇文章里，我们将分享一些我们总结出来的，能有效提升各种 AI 智能体系统性能的独家秘诀 1。
@@ -80,7 +82,7 @@ sidebar: false
 
 将你的工具封装在一个本地 MCP 服务器或桌面扩展程序（DXT）中，这样你就可以在 Claude Code 或 Claude 桌面应用里连接并测试它们了。
 
-要将你的本地 MCP 服务器连接到 Claude Code，运行 `claude mcp add `name` `command` [args...]`。
+要将你的本地 MCP 服务器连接到 Claude Code，运行 `claude mcp add `name`> `command`> [args...]`。
 
 要将你的本地 MCP 服务器或 DXT 连接到 Claude 桌面应用，分别导航到 `设置 > 开发者` 或 `设置 > 扩展程序`。
 
@@ -218,6 +220,8 @@ sidebar: false
 
 这是一个简洁工具响应的例子（72 个 token）：
 
+
+
 这张图片展示了一个简洁工具响应的例子。
 
 这张图片展示了一个简洁工具响应的例子。
@@ -249,6 +253,8 @@ sidebar: false
 这张图片展示了一个没有帮助的工具响应的例子。
 
 这是一个有帮助的错误响应的例子：
+
+
 
 这张图片展示了一个有帮助的工具响应的例子。
 

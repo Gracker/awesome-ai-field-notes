@@ -23,7 +23,7 @@ sidebar: false
 
 **Author**: Hōrōshi バガボンド (Vagabond Research)
 **Published**: 2026-03-06
-**Source**: <https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code>
+**Source**: `https`://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code>
 
 One of the simplest tests you can run on a database: doing a primary key lookup on 100 rows.
 

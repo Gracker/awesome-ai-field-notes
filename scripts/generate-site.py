@@ -7,7 +7,7 @@ generate-site.py — 从 entries.json 生成 VitePress 站点
 VitePress 把 markdown 当 Vue 模板解析，content 必须做防御性转义。
 """
 
-import json, os, sys, html as html_mod, re as _re, re
+import json, os, sys, html as html_mod, re as _re
 from datetime import datetime, timedelta
 from collections import Counter, OrderedDict
 from pathlib import Path
@@ -17,46 +17,75 @@ DATA_DIR = BASE_DIR / "data"
 META_DIR = BASE_DIR / "metadata"
 SRC_DIR = BASE_DIR / "site-src"
 README_PATH = BASE_DIR / "README.md"
-def escape_html_like_tags(text):
-    """Escape bare <xxx> tags and {{ }} Vue expressions outside code blocks."""
-    def tag_replacer(m):
-        return "`{}`".format(m.group(1))
-    text = _re.sub(r'</?([a-zA-Z][-a-zA-Z0-9_]*)>', tag_replacer, text)
-    # Escape {{ and }} outside fenced code blocks
-    parts, in_code = [], False
+def sanitize_content(content):
+    """
+    防御性内容清洗 pipeline — content 写入 VitePress 前必须通过。
+
+    处理：
+    1. 二进制检测（>5% 非打印字符 → 拒绝）
+    2. 失效本地图片引用清理
+    3. HTML 标签转义（代码外）
+    4. Vue {{ }} 插值转义（代码外）
+    5. 控制字符清理
+    """
+    # 1. Binary check
+    if isinstance(content, bytes):
+        content = content.decode('utf-8', errors='replace')
+    binary_count = sum(1 for c in content if ord(c) < 32 and c not in '\t\n\r')
+    if binary_count > len(content) * 0.05:
+        return "[内容含二进制数据，已自动跳过]"
+
+    # 2. Strip broken local image refs
+    content = _re.sub(r'!\[.*?\]\(\.?/?(?:[^)]*/)?images/[^)]+\)', '', content)
+
+    # 3+4. Process char by char: escape HTML tags and {{ }} outside fenced code blocks
+    result, in_fence = [], False
     i = 0
-    while i < len(text):
-        # Detect fenced code block boundaries (``` at line start or with language hint)
-        if text[i] == '`' and i + 2 < len(text) and text[i:i+3] == '```':
-            # Find end of backtick run
-            j = i + 3
-            while j < len(text) and text[j] == '`':
-                j += 1
-            n = j - i
-            if not in_code:
-                parts.append(text[i:j])
-                in_code = True
-                i = j
-            elif n >= 3:
-                parts.append(text[i:j])
-                in_code = False
-                i = j
-            else:
-                parts.append(text[i])
-                i += 1
+    while i < len(content):
+        # Enter/exit fenced code blocks (``` ... ```)
+        if not in_fence and i + 2 < len(content) and content[i:i+3] == '```':
+            result.append('```')
+            in_fence = True
+            i += 3
             continue
-        if not in_code and i + 1 < len(text):
-            if text[i:i+2] == '{{':
-                parts.append('&#123;&#123;')
+        if in_fence and i + 2 < len(content) and content[i:i+3] == '```':
+            result.append('```')
+            in_fence = False
+            i += 3
+            continue
+        if in_fence:
+            result.append(content[i])
+            i += 1
+            continue
+
+        # Outside fences: Vue interpolation
+        if i + 1 < len(content):
+            two = content[i:i+2]
+            if two == '{{':
+                result.append('&#123;&#123;')
                 i += 2
                 continue
-            if text[i:i+2] == '}}':
-                parts.append('&#125;&#125;')
+            if two == '}}':
+                result.append('&#125;&#125;')
                 i += 2
                 continue
-        parts.append(text[i])
+
+        # Outside fences: HTML-like tags
+        if content[i] == '<':
+            m = _re.match(r'</?([a-zA-Z][-a-zA-Z0-9_]*)', content[i:])
+            if m:
+                result.append('`{}`'.format(m.group(1)))
+                i += m.end()
+                continue
+
+        # Strip control chars
+        if ord(content[i]) < 32 and content[i] not in '\t\n\r':
+            i += 1
+            continue
+
+        result.append(content[i])
         i += 1
-    return ''.join(parts)
+    return ''.join(result)
 
 
 STATS_PATH = META_DIR / "stats.json"
@@ -371,8 +400,7 @@ for e in active:
     page.append("---")
     page.append("")
     # Strip broken relative image refs (images/xxx) that don't exist
-    content_body = _re.sub(r'!\[.*?\]\(\.?/?images/[^)]+\)\s*', '', content_body)
-    content_body = escape_html_like_tags(content_body)
+    content_body = sanitize_content(content_body)
     page.append(content_body)
     page.append("")
 

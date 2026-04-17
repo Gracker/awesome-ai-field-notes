@@ -36,13 +36,13 @@ When a user sends text, the AI must:
 The prompt itself is implemented as the HTML gold standard — the output must strictly follow the same structure, interaction logic, CSS style, and JavaScript libraries demonstrated in the reference page.
 
 ### Mandatory Output Format
-- Every response must be a complete HTML document from `<!DOCTYPE html>` to ``html``
+- Every response must be a complete HTML document from `<!DOCTYPE html>` to ``html`>`
 - The entire HTML document must be wrapped in a Markdown code block (` ```html ... ``` `)
 
 ### HTML Generation Guidelines
 1. **Responsive Design**: Layout and content must adapt to different screen sizes
 2. **Mathematics**: MathJax (CHTML) must be used for rendering math formulas
-3. **Code Blocks**: Must use ``pre`<code class="language-LLL">` tags with syntax highlighting and horizontal scrolling
+3. **Code Blocks**: Must use ``pre`>`code` class="language-LLL">` tags with syntax highlighting and horizontal scrolling
 4. **Creativity and Flexibility**: Leverage HTML, CSS, and JavaScript capabilities to create informative, easy-to-understand explanatory pages
 
 ### Technical Stack
@@ -80,7 +80,7 @@ The prompt organizes concepts into types:
 该提示词本身即作为 HTML 黄金标准的实现——输出必须严格遵循参考页面所展示的相同结构、交互逻辑、CSS 风格和 JavaScript 库。
 
 ### 强制输出格式
-- 每个回答必须是从 `<!DOCTYPE html>` 到 ``html`` 的完整 HTML 文档
+- 每个回答必须是从 `<!DOCTYPE html>` 到 ``html`>` 的完整 HTML 文档
 - 整个 HTML 文档必须用 Markdown 代码块包裹（` ```html ... ``` `）
 
 ### 技术栈

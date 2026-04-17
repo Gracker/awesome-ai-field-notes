@@ -19,12 +19,12 @@ sidebar: false
 
 ## English
 <!DOCTYPE html>
-`html`
-	`head`
-		<meta http-equiv="content-type" content="text/html;charset=utf8">
-		<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
-		`title`未知错误`title`
-		`style`	
+`html`>
+	`head`>
+		`meta` http-equiv="content-type" content="text/html;charset=utf8">
+		`meta` id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+		`title`>未知错误`title`>
+		`style`>	
 			html,body{
 				height:100%;
 				padding:0px;
@@ -46,15 +46,15 @@ sidebar: false
 				text-shadow: 0px 1px 0px #FFF;
 				text-align:center;
 			}
-		`style`
-	`head`
-	`body`
-		<div class="panel">
-			<div class="mesg-block">
-				`p`未知错误，请稍后再试`p`
-			`div`	
-		`div`
-		<script  nonce="" reportloaderror>
+		`style`>
+	`head`>
+	`body`>
+		`div` class="panel">
+			`div` class="mesg-block">
+				`p`>未知错误，请稍后再试`p`>
+			`div`>	
+		`div`>
+		`script`  nonce="" reportloaderror>
 			(function(){
 			 	
 				document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
@@ -103,10 +103,10 @@ sidebar: false
 					WeixinJSBridge.call('hideOptionMenu');
 				}, false);
 			})();
-		`script`
-		`body`
-	`head`
-`html`
+		`script`>
+		`body`>
+	`head`>
+`html`>
 
 
 ## 中文
