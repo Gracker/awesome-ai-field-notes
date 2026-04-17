@@ -880,7 +880,7 @@ Read Original
 
 ## 📅 2024-07-03
 
-### [Generative AI for Beginners](https://microsoft.github.io/generative-ai-for-beginners/?s=09#/translations/cn/)
+### [Generative AI for Beginners](/entry/13l53rvc) 📄
 ⭐⭐⭐3  · 2024-07-03
 
 # Generative AI for Beginners 通过 12 章的课程，开启构建生成式 AI 应用程序之路 通过微软云技术布道师团队提供的十二章系列课程，了解构建生成式 AI 应用程序的基础知识。 每章都涵盖了生成式人工智能原理和应用程序开发的一个关键方面。 在整个系列课程中，我们将建立我们自己的生成式人工智能初创公司，以便您可以了解如何实现您的想法。 首先，将 整个 repo fork 到您自己的 GitHub 帐户，以便能够更改任何代码并完成相关学习。 您还可以(🌟)该 Fork以便稍后更容易地找到它！ 前往课程学习环境设置 找到最适合您的设置指南！ 我们相信最好的学习方式之一就...

@@ -763,7 +763,7 @@ Read Original
 
 ## 📅 2023-03-24
 
-### [其实关于 ChatGPT plugins 的大部分 myth](https://m.okjike.com/originalPosts/641d6715d9519fa8bcea34d9?s=eyJ1IjoiNWYyMmRlNTAwZDVjZGMwMDE3Nzg2NmI4IiwiZCI6MX0%3D&utm_source=wechat_session)
+### [其实关于 ChatGPT plugins 的大部分 myth](/entry/1SQPSwRR) 📄
 ⭐⭐⭐3 🇨🇳 · 2023-03-24
 
 其实关于 ChatGPT plugins 的大部分 myth，读 OpenAI 这个简短的开发文档都可以得到解答 \[1\]。

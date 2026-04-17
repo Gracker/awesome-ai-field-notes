@@ -1000,7 +1000,7 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 
 ## 📅 2026-01-09
 
-### [Claude Code 2.1 发布：一口气更新了80多个功能特性](https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA==&mid=2247487828&idx=1&sn=034951b9b8e19a685149754b8d3c21cb&chksm=cf0f3accae59b6ec7c6ff6c44a36dae7b31e89ec48b31ac557989d09e36c0241719f48a16d07&mpshare=1&scene=1&srcid=0108dzRFNTXJEYatj8DqtQNO&sharer_shareinfo=a8e7e4a0ba12af7a110455a2315cbaec&sharer_shareinfo_first=a8e7e4a0ba12af7a110455a2315cbaec)
+### [Claude Code 2.1 发布：一口气更新了80多个功能特性](/entry/19vlqasa) 📄
 ⭐⭐⭐3 🇨🇳 · 2026-01-09
 
 # Claude Code 2.1 发布：一口气更新了80多个功能特性 最近这一周我几乎都是每天10小时+的在疯狂用Claude Code，又找到了一些做产品的乐趣。 最近这一周我几乎都是每天10小时+的在疯狂用Claude Code，又找到了一些做产品的乐趣。尤其是昨天「小猫相册」app在AppStore上线后，我又收到不少反馈，已经在继续疯狂🤪改bug、修体验了。 然后，用着用着，突然发现Claude Code 已经跳到2.1版本了。 我去查了下，他们是昨天（1月7日）发布的2.1.0，今天又跟了个2.1.1小修复。2026年第一个大版本，这次更新的内容多得离谱，changelog里列了8...
@@ -1385,7 +1385,7 @@ vivo AI Lab 联合香港中文大学 MMLab 发布的手机 GUI Agent 综述论�
 
 ## 📅 2024-12-15
 
-### [AI时代的独立开发之路](https://gamma.app/docs/AI-tm9iylxab38rinb?mode=doc)
+### [AI时代的独立开发之路](/entry/94ocqfsx) 📄
 ⭐⭐⭐3 🇨🇳 · 2024-12-15
 
 Read in Cubox  

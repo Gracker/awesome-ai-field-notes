@@ -462,7 +462,7 @@ AI has undoubtedly made waves in 2023 and here we spotlight the most significant
 
 ## 📅 2023-12-04
 
-### [AIGC对程序员的影响 - Thoughtworks洞见](https://qapodcast.typlog.io/episodes/how-aigc-impact-programmers?s=09)
+### [AIGC对程序员的影响 - Thoughtworks洞见](/entry/0qrukb4i) 📄
 ⭐⭐⭐3 🇨🇳 · 2023-12-04
 
 AIGC对程序员的影响 - Thoughtworks洞见
@@ -573,7 +573,7 @@ GAN 系列算法开启了图片生成的新起点。GAN的主要灵感来源于�
 
 ## 📅 2023-02-21
 
-### [(1 条消息) 如何评价 2023 年 2 月 AI 绘画的最新水平？ - 知乎](https://www.zhihu.com/question/584053473/answer/2900010564)
+### [(1 条消息) 如何评价 2023 年 2 月 AI 绘画的最新水平？ - 知乎](/entry/uyp02il6) 📄
 ⭐⭐⭐3 🌐 · 2023-02-21
 
 (1 条消息) 如何评价 2023 年 2 月 AI 绘画的最新水平？ - 知乎

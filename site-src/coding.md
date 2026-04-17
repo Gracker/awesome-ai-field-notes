@@ -1196,7 +1196,7 @@ Read Original
 
 ## 📅 2025-02-16
 
-### [Cursor: 以每秒 1000 个 Token 的速度编辑文件 | 宝玉的分享](https://baoyu.io/translations/cursor-editing-1000-tokens-per-second)
+### [Cursor: 以每秒 1000 个 Token 的速度编辑文件 | 宝玉的分享](/entry/10lq9q12) 📄
 ⭐⭐⭐3 🇨🇳 · 2025-02-16
 
 # Cursor: 以每秒 1000 个 Token 的速度编辑文件 | 宝玉的分享 一种新的模型和推理方法，可在 1000 tokens/s 的速率下对整个文件进行高精度编辑。 当今的一些前沿模型（如 GPT-4o）在大规模编辑上表现不佳，主要问题在于懒惰、不准确以及高延迟。 在代码代理（coding agents）中，这种弱点尤为明显。需要准确编辑数百行代码时，往往需要多次调用模型，有时甚至会陷入无限循环。即使是小且隔离的编辑也同样可能出现许多错误： https://web.archive.org/web/20240914081141o*/https://ptht05hbb1ssoooe....
@@ -1402,7 +1402,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 
 ## 📅 2024-09-01
 
-### [谈谈最近玩 AI 的体悟](https://www.bmms.me/blog/recent-insights-on-ai-exploration?s=09)
+### [谈谈最近玩 AI 的体悟](/entry/1MjQuVzp) 📄
 ⭐⭐⭐3 🇨🇳 · 2024-09-01
 
 本文探讨了AI工具在工作流中的应用及其潜在的边界。通过亲身实践与深度思考，我总结出在AI时代，定义和描述问题的软性能力将成为不可或缺的竞争力。
