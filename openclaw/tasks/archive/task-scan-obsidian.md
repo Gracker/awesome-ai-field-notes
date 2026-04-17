@@ -74,8 +74,8 @@ entry = {
 
 ### Step 5: 验证 + 提交
 ```bash
-python3 scripts/validate-schema.py
-python3 scripts/generate-site.py
+python3 ../scripts/validate-schema.py
+python3 ../scripts/generate-site.py
 git add -A
 git commit -m "[openclaw] scan: <目录名> batch N — X entries added"
 git push origin main

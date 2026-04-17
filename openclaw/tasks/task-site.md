@@ -15,7 +15,7 @@
 
 ```bash
 cd <仓库路径>
-python3 scripts/generate-site.py
+python3 ../scripts/generate-site.py
 npx vitepress build site-src
 ```
 
