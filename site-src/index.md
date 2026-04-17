@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI Field Notes
   text: AI 领域精选资源导航
-  tagline: 有观点 · 有评分 · 每日自动更新 · 633 条 · 452 篇有全文
+  tagline: 有观点 · 有评分 · 每日自动更新 · 633 条 · 453 篇有全文
   actions:
     - theme: brand
       text: 浏览全部
@@ -36,7 +36,7 @@ features:
 
 ## 🆕 最新 10 篇
 
-### [Research we co-authored on subliminal learning—...](https://x.com/AnthropicAI/status/2044493337835802948)
+### [Research we co-authored on subliminal learning—...](/entry/354d4da8) 📄
 @@AnthropicAI · ⭐⭐⭐⭐4 🇨🇳 · 今天
 
 Research we co-authored on subliminal learning—how LLMs can pass on traits like preferences or misalignment through hidden signals in data—was published today in Quote Owain Evans
