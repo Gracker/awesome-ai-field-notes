@@ -2,6 +2,9 @@
 """
 generate-site.py — 从 entries.json 生成 VitePress 站点
 支持文章详情页（从 content/ 读取全文）
+
+⚠️ 修改后必须本地运行 `npx vitepress build` 验证通过再 push。
+VitePress 把 markdown 当 Vue 模板解析，content 必须做防御性转义。
 """
 
 import json, os, sys, html as html_mod, re as _re, re
