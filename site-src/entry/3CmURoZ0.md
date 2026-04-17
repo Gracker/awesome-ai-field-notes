@@ -128,9 +128,9 @@ _需要自行购买 API Key（https://platform.deepseek.com/api\_keys）_
 
 
 ```xml
-<dependency>
-    <groupId>org.springframework.ai</groupId>
-    <artifactId>spring-ai-starter-mcp-server-webmvc</artifactId>
+`dependency`
+    `groupId`org.springframework.ai</groupId>
+    `artifactId`spring-ai-starter-mcp-server-webmvc</artifactId>
 </dependency>
 ```
 
@@ -296,8 +296,8 @@ public String searchByQuery(
         String method,
         String queryJson) {
     String url = String.format("%s/%s", System.getEnv("esBaseUrl"), path);
-    HttpEntity<String> request = buildEsRequest(queryJson);
-    ResponseEntity<String> response = restTemplate.exchange(
+    HttpEntity`String` request = buildEsRequest(queryJson);
+    ResponseEntity`String` response = restTemplate.exchange(
             url, HttpMethod.valueOf(method), request, String.class);
     return response.getBody();
 }

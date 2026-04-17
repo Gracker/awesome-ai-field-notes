@@ -19,11 +19,11 @@ sidebar: false
 
 ## English
 <!DOCTYPE html>
-<html>
-  <head>
+`html`
+  `head`
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="canonical" href="https://notes.eatonphil.com/2023-11-01-postgres-table-access-methods.html">
-    <title>Writing a storage engine for Postgres: an in-memory Table Access Method | notes.eatonphil.com</title>
+    `title`Writing a storage engine for Postgres: an in-memory Table Access Method | notes.eatonphil.com</title>
     <meta name="description" content="Writing a storage engine for Postgres: an in-memory Table Access Method" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="/style.css" />
@@ -31,7 +31,7 @@ sidebar: false
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono">
 
     <script async onload="loadGA()" src="https://www.googletagmanager.com/gtag/js?id=UA-58109156-2"></script>
-    <script>
+    `script`
       function loadGA() {
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
@@ -41,8 +41,8 @@ sidebar: false
     </script>
     <script defer src="https://cdn.usefathom.com/script.js" data-site="CEPUOLOQ"></script>
   </head>
-  <body>
-    <header>
+  `body`
+    `header`
       <div class="lfw">
 	<div class="container">
 	  <div class="row">
@@ -51,9 +51,9 @@ sidebar: false
 	</div>
       </div>
       <div class="container">
-        <div>
+        `div`
           <div class="row">
-	    <div>
+	    `div`
 	      <a href="https://eatonphil.com" class="sm-link">
 		Home
               </a>
@@ -78,8 +78,8 @@ sidebar: false
 	  </div>
 	  <hr />
 	  <div class="">
-            <h2>November 1, 2023</h2>
-            <h1>Writing a storage engine for Postgres: an in-memory Table Access Method</h1>
+            `h2`November 1, 2023</h2>
+            `h1`Writing a storage engine for Postgres: an in-memory Table Access Method</h1>
 	    
             <div class="row" style="padding-bottom: 5px">
               <div class="tags"><a href="/tags/c.html" class="tag">c</a><a href="/tags/postgres.html" class="tag">postgres</a><a href="/tags/databases.html" class="tag">databases</a></div>
@@ -91,35 +91,35 @@ sidebar: false
     <div class="container">
       <div class="col-6">
 	<div class="post">
-          <p>With <a href="https://www.postgresql.org/docs/release/12.0/">Postgres 12</a>,
+          `p`With <a href="https://www.postgresql.org/docs/release/12.0/">Postgres 12</a>,
 released in 2019, it became possible to <a href="https://www.pgcon.org/2019/schedule/attachments/536_pgcon2019_pluggable_table_AM_V1.3.pdf">swap out Postgres's storage
 engine</a>.</p>
-<p>This is a feature MySQL has supported for a long time. There are at
-least <a href="https://github.com/eatonphil/pgtam">8 different</a> <em>built-in</em>
+`p`This is a feature MySQL has supported for a long time. There are at
+least <a href="https://github.com/eatonphil/pgtam">8 different</a> `em`built-in</em>
 engines you can pick from. <a href="https://myrocks.io/">MyRocks</a>, MySQL on
 RocksDB, is another popular third-party distribution.</p>
-<p>I assume there will be a renaissance of Postgres storage engines. To
+`p`I assume there will be a renaissance of Postgres storage engines. To
 date, the efforts are
 nascent. <a href="https://github.com/orioledb/orioledb">OrioleDB</a> and <a href="https://github.com/citusdata/citus/blob/main/src/backend/columnar/README.md">Citus
 Columnar</a>
 are two promising third-party table access methods being actively
 developed.</p>
-<h3 id="why-alternative-storage-engines?">Why alternative storage engines?</h3><p>The ability to swap storage engines is useful because different
+<h3 id="why-alternative-storage-engines?">Why alternative storage engines?</h3>`p`The ability to swap storage engines is useful because different
 workloads sometimes benefit from different storage
 approaches. Analytics workloads and columnar storage layouts <a href="https://docs.aws.amazon.com/redshift/latest/dg/c_columnar_storage_disk_mem_mgmnt.html">go well
 together</a>. Write-heavy
 workloads and LSM trees <a href="https://github.com/wiredtiger/wiredtiger/wiki/Btree-vs-LSM">go well
 together</a>. And
 some people like in-memory storage for running integration tests.</p>
-<p>By swapping out only the storage engine, you get the benefit of the
+`p`By swapping out only the storage engine, you get the benefit of the
 rest of the Postgres or MySQL infrastructure. The query language, the
 wire protocol, the ecosystem, etc.</p>
-<h3 id="why-not-foreign-data-wrappers?">Why not foreign data wrappers?</h3><p>Very little has been written about the difference between foreign data
+<h3 id="why-not-foreign-data-wrappers?">Why not foreign data wrappers?</h3>`p`Very little has been written about the difference between foreign data
 wrappers (FDWs) and table access methods. Table access methods seems
 to be the lower-level layer where presumably you get better
 performance and cleaner integration. But there is clearly overlap
 between these two extension options.</p>
-<p>For example there is a <a href="https://github.com/ildus/clickhouse_fdw">FDW for
+`p`For example there is a <a href="https://github.com/ildus/clickhouse_fdw">FDW for
 ClickHouse</a> so when you
 create tables and rows and query the tables you are really creating
 and querying rows in a ClickHouse server. Similarly there's a <a href="https://github.com/vidardb/pgrocks-fdw">FDW for
@@ -127,27 +127,27 @@ RocksDB</a>. And Citus's columnar
 engine works
 <a href="https://www.citusdata.com/blog/2021/03/06/citus-10-columnar-compression-for-postgres/#:~:text=What%20About%20cstore_fdw%3F">either</a>
 as a foreign data wrapper or a table access method.</p>
-<p>The Citus page draws the clearest distinction between FDWs and table
+`p`The Citus page draws the clearest distinction between FDWs and table
 access methods, but even that page is vague. Performance doesn't seem
 to be the main difference. Closer integration, and thus the ability to
 look more like vanilla Postgres from the outside, seems to be the
 gist.</p>
-<p>In any case, I wanted to explore the table access method API.</p>
-<h3 id="digging-in">Digging in</h3><p>I haven't written Postgres extensions before and I've never written C
+`p`In any case, I wanted to explore the table access method API.</p>
+<h3 id="digging-in">Digging in</h3>`p`I haven't written Postgres extensions before and I've never written C
 professionally. If you're familiar with Postgres internals or C and
 notice something funky, please <a href="mailto:me@eatonphil.com">let me know</a>!</p>
-<p>It turns out that almost no one has written how to implement the
+`p`It turns out that almost no one has written how to implement the
 minimal table access methods for various storage engine operations. So
 after quite a bit of stumbling to get the basics of an in-memory
 storage engine working, I'm going to walk you through my approach.</p>
-<p>This is prototype-quality code which hopefully will be a useful base
+`p`This is prototype-quality code which hopefully will be a useful base
 for further exploration.</p>
-<p>All code for this post is <a href="https://github.com/eatonphil/pgtam">available on
+`p`All code for this post is <a href="https://github.com/eatonphil/pgtam">available on
 GitHub</a>.</p>
-<h3 id="a-debug-postgres-build">A debug Postgres build</h3><p>First off, let's make a <a href="https://wiki.postgresql.org/wiki/Developer_FAQ#Compile-time">debug
+<h3 id="a-debug-postgres-build">A debug Postgres build</h3>`p`First off, let's make a <a href="https://wiki.postgresql.org/wiki/Developer_FAQ#Compile-time">debug
 build</a> of
 Postgres.</p>
-<div class="highlight"><pre><span></span><span class="n">$</span><span class="w"> </span><span class="n">git</span><span class="w"> </span><span class="k">clone</span><span class="w"> </span><span class="n">https</span><span class="o">://</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">postgres</span><span class="o">/</span><span class="n">postgres</span>
+<div class="highlight">`pre``span`</span><span class="n">$</span><span class="w"> </span><span class="n">git</span><span class="w"> </span><span class="k">clone</span><span class="w"> </span><span class="n">https</span><span class="o">://</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">postgres</span><span class="o">/</span><span class="n">postgres</span>
 <span class="n">$</span><span class="w"> </span><span class="c1"># An arbitrary commit from `master` after Postgres 16 I am on</span>
 <span class="n">$</span><span class="w"> </span><span class="n">git</span><span class="w"> </span><span class="n">checkout</span><span class="w"> </span><span class="n">849172ff4883d44168f96f39d3fde96d0aa34c99</span>
 <span class="n">$</span><span class="w"> </span><span class="n">cd</span><span class="w"> </span><span class="n">postgres</span>
@@ -155,29 +155,29 @@ Postgres.</p>
 <span class="n">$</span><span class="w"> </span><span class="n">make</span><span class="w"> </span><span class="o">-</span><span class="n">j8</span>
 <span class="n">$</span><span class="w"> </span><span class="n">sudo</span><span class="w"> </span><span class="n">make</span><span class="w"> </span><span class="k">install</span>
 </pre></div>
-<p>This will install Postgres binaries (e.g. <code>psql</code>, <code>pg_ctl</code>, <code>initdb</code>,
-<code>pg_config</code>) into <code>/usr/local/pgsql/bin</code>.</p>
-<p>I'm going to reference those absolute paths throughout this post
+`p`This will install Postgres binaries (e.g. `code`psql</code>, `code`pg_ctl</code>, `code`initdb</code>,
+`code`pg_config</code>) into `code`/usr/local/pgsql/bin</code>.</p>
+`p`I'm going to reference those absolute paths throughout this post
 because you might have a system (package manager) install of Postgres
 already.</p>
-<p>Let's create a database and start up this debug build:</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>/usr/local/pgsql/bin/initdb<span class="w"> </span>test-db
+`p`Let's create a database and start up this debug build:</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>/usr/local/pgsql/bin/initdb<span class="w"> </span>test-db
 <span class="gp">$ </span>/usr/local/pgsql/bin/pg_ctl<span class="w"> </span>-D<span class="w"> </span>test-db<span class="w"> </span>-l<span class="w"> </span>logfile<span class="w"> </span>start
 </pre></div>
-<h3 id="extension-infrastructure">Extension infrastructure</h3><p>Since we installed Postgres from scratch,
-<code>/usr/local/pgsql/bin/pg_config</code> will supply all of the infrastructure
+<h3 id="extension-infrastructure">Extension infrastructure</h3>`p`Since we installed Postgres from scratch,
+`code`/usr/local/pgsql/bin/pg_config</code> will supply all of the infrastructure
 we need.</p>
-<p>The "infrastructure" is basically just
+`p`The "infrastructure" is basically just
 <a href="https://www.postgresql.org/docs/current/extend-pgxs.html">PGXS</a>:
 Postgres Makefile utilities.</p>
-<p>It's convention-heavy. So in a new <code>Makefile</code> for this project we'll
+`p`It's convention-heavy. So in a new `code`Makefile</code> for this project we'll
 specify:</p>
-<ol>
-<li><code>MODULES</code>: Any C sources to build, without the <code>.c</code> file extension</li>
-<li><code>EXTENSION</code>: Extension metadata file, without the <code>.control</code> file extension</li>
-<li><code>DATA</code>: A SQL file that is executed when the extension is loaded, this time with the <code>.sql</code> extension</li>
+`ol`
+`li``code`MODULES</code>: Any C sources to build, without the `code`.c</code> file extension</li>
+`li``code`EXTENSION</code>: Extension metadata file, without the `code`.control</code> file extension</li>
+`li``code`DATA</code>: A SQL file that is executed when the extension is loaded, this time with the `code`.sql</code> extension</li>
 </ol>
-<div class="highlight"><pre><span></span><span class="nv">MODULES</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>pgtam
+<div class="highlight">`pre``span`</span><span class="nv">MODULES</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>pgtam
 <span class="nv">EXTENSION</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>pgtam
 <span class="nv">DATA</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>pgtam--0.0.1.sql
 
@@ -185,14 +185,14 @@ specify:</p>
 <span class="nv">PGXS</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">$(</span>shell<span class="w"> </span><span class="k">$(</span>PG_CONFIG<span class="k">)</span><span class="w"> </span>--pgxs<span class="k">)</span>
 <span class="cp">include $(PGXS)</span>
 </pre></div>
-<p>The final three lines set up the PGXS Makefile library based on the
+`p`The final three lines set up the PGXS Makefile library based on the
 particular installed Postgres build we want to build the extension
 against and install the extension to.</p>
-<p>PGXS gives us a few important targets like <code>make distclean</code>, <code>make</code>,
-and <code>make install</code> we'll use later on.</p>
-<h4 id="<code>pgtam.c</code>"><code>pgtam.c</code></h4><p>A minimal C file that registers a function capable of serving as a
+`p`PGXS gives us a few important targets like `code`make distclean</code>, `code`make</code>,
+and `code`make install</code> we'll use later on.</p>
+<h4 id="`code`pgtam.c</code>">`code`pgtam.c</code></h4>`p`A minimal C file that registers a function capable of serving as a
 table access method is:</p>
-<div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;postgres.h&quot;</span>
+<div class="highlight">`pre``span`</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;postgres.h&quot;</span>
 <span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;fmgr.h&quot;</span>
 <span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;access/tableam.h&quot;</span>
 
@@ -215,40 +215,40 @@ table access method is:</p>
   you can follow a
   <a href="https://github.com/IshaanAdarsh/Postgres-extension-tutorial/blob/main/SGML/intro_and_toc.md">larger
     tutorial</a>.
-</p><p>The workflow for registering a table access method is to first run
-<code>CREATE EXTENSION pgtam</code>. This assumes <code>pgtam</code> is an extension that
-has a function that returns a <code>TableAmRoutine</code> struct instance, a
+</p>`p`The workflow for registering a table access method is to first run
+`code`CREATE EXTENSION pgtam</code>. This assumes `code`pgtam</code> is an extension that
+has a function that returns a `code`TableAmRoutine</code> struct instance, a
 table of table access methods.</p>
-<p>Then you must run <code>CREATE ACCESS METHOD mem TYPE TABLE HANDLER
+`p`Then you must run `code`CREATE ACCESS METHOD mem TYPE TABLE HANDLER
 mem_tableam_handler</code>. And finally you can use the access method when
-creating a table with <code>USING mem</code>: <code>CREATE TABLE x(a INT) USING mem</code>.</p>
-<h4 id="<code>pgtam.control</code>"><code>pgtam.control</code></h4><p>This file contains extension metadata. At a minimum, the version of
+creating a table with `code`USING mem</code>: `code`CREATE TABLE x(a INT) USING mem</code>.</p>
+<h4 id="`code`pgtam.control</code>">`code`pgtam.control</code></h4>`p`This file contains extension metadata. At a minimum, the version of
 the extension and the filename for the extension where it should be
 installed.</p>
-<div class="highlight"><pre><span></span>default_version = &#39;0.0.1&#39;
+<div class="highlight">`pre``span`</span>default_version = &#39;0.0.1&#39;
 module_pathname = &#39;$libdir/pgtam&#39;
 </pre></div>
-<h4 id="<code>pgtam--0.0.1.sql</code>"><code>pgtam--0.0.1.sql</code></h4><p>Finally, in <code>pgtam--0.0.1.sql</code> (which is executed when we call <code>CREATE
+<h4 id="`code`pgtam--0.0.1.sql</code>">`code`pgtam--0.0.1.sql</code></h4>`p`Finally, in `code`pgtam--0.0.1.sql</code> (which is executed when we call `code`CREATE
 EXTENSION pgtam</code>), we register the handler function as a foreign
 function, and then we register the function as an access method.</p>
-<div class="highlight"><pre><span></span><span class="k">CREATE</span><span class="w"> </span><span class="k">OR</span><span class="w"> </span><span class="k">REPLACE</span><span class="w"> </span><span class="k">FUNCTION</span><span class="w"> </span><span class="n">mem_tableam_handler</span><span class="p">(</span><span class="n">internal</span><span class="p">)</span>
+<div class="highlight">`pre``span`</span><span class="k">CREATE</span><span class="w"> </span><span class="k">OR</span><span class="w"> </span><span class="k">REPLACE</span><span class="w"> </span><span class="k">FUNCTION</span><span class="w"> </span><span class="n">mem_tableam_handler</span><span class="p">(</span><span class="n">internal</span><span class="p">)</span>
 <span class="k">RETURNS</span><span class="w"> </span><span class="n">table_am_handler</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="s1">&#39;pgtam&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;mem_tableam_handler&#39;</span>
 <span class="k">LANGUAGE</span><span class="w"> </span><span class="k">C</span><span class="w"> </span><span class="k">STRICT</span><span class="p">;</span>
 
 <span class="k">CREATE</span><span class="w"> </span><span class="k">ACCESS</span><span class="w"> </span><span class="k">METHOD</span><span class="w"> </span><span class="n">mem</span><span class="w"> </span><span class="k">TYPE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="k">HANDLER</span><span class="w"> </span><span class="n">mem_tableam_handler</span><span class="p">;</span>
 </pre></div>
-<h4 id="build">Build</h4><p>Now that we've got all the pieces in place, we can build and install
+<h4 id="build">Build</h4>`p`Now that we've got all the pieces in place, we can build and install
 the extension.</p>
-<div class="highlight"><pre><span></span>$<span class="w"> </span>make
+<div class="highlight">`pre``span`</span>$<span class="w"> </span>make
 $<span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
 </pre></div>
-<p>Let's add a <code>test.sql</code> script to exercise the extension:</p>
-<div class="highlight"><pre><span></span><span class="k">DROP</span><span class="w"> </span><span class="n">EXTENSION</span><span class="w"> </span><span class="k">IF</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="n">pgtam</span><span class="w"> </span><span class="k">CASCADE</span><span class="p">;</span>
+`p`Let's add a `code`test.sql</code> script to exercise the extension:</p>
+<div class="highlight">`pre``span`</span><span class="k">DROP</span><span class="w"> </span><span class="n">EXTENSION</span><span class="w"> </span><span class="k">IF</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="n">pgtam</span><span class="w"> </span><span class="k">CASCADE</span><span class="p">;</span>
 <span class="k">CREATE</span><span class="w"> </span><span class="n">EXTENSION</span><span class="w"> </span><span class="n">pgtam</span><span class="p">;</span>
 <span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">x</span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="nb">INT</span><span class="p">)</span><span class="w"> </span><span class="k">USING</span><span class="w"> </span><span class="n">mem</span><span class="p">;</span>
 </pre></div>
-<p>And run it:</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
+`p`And run it:</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
 <span class="go">DROP EXTENSION</span>
 <span class="go">CREATE EXTENSION</span>
 <span class="go">psql:test.sql:3: server closed the connection unexpectedly</span>
@@ -256,23 +256,23 @@ $<span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span
 <span class="go">        before or while processing the request.</span>
 <span class="go">psql:test.sql:3: error: connection to server was lost</span>
 </pre></div>
-<p>Ok, so <code>psql</code> crashed! Let's look at the server logs. When we started
-Postgres with <code>pg_ctl</code> we specified the log file as <code>logfile</code> in the
-directory where we ran <code>pg_ctl</code>.</p>
-<p>If we look through it we'll spot an assertion failure:</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>grep<span class="w"> </span>Assert<span class="w"> </span>logfile
+`p`Ok, so `code`psql</code> crashed! Let's look at the server logs. When we started
+Postgres with `code`pg_ctl</code> we specified the log file as `code`logfile</code> in the
+directory where we ran `code`pg_ctl</code>.</p>
+`p`If we look through it we'll spot an assertion failure:</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>grep<span class="w"> </span>Assert<span class="w"> </span>logfile
 <span class="go">TRAP: failed Assert(&quot;routine-&gt;scan_begin != NULL&quot;), File: &quot;tableamapi.c&quot;, Line: 52, PID: 2906922</span>
 </pre></div>
-<p>That's a great sign! This is Postgres's debug infrastructure helping
+`p`That's a great sign! This is Postgres's debug infrastructure helping
 to make sure the table access method is correctly implemented.</p>
-<h3 id="table-access-method-stubs">Table access method stubs</h3><p>The next step is to add function stubs for all the non-optional
-methods of the <a href="https://github.com/postgres/postgres/blob/849172ff4883d44168f96f39d3fde96d0aa34c99/src/include/access/tableam.h#L282"><code>TableAmRoutine</code>
+<h3 id="table-access-method-stubs">Table access method stubs</h3>`p`The next step is to add function stubs for all the non-optional
+methods of the <a href="https://github.com/postgres/postgres/blob/849172ff4883d44168f96f39d3fde96d0aa34c99/src/include/access/tableam.h#L282">`code`TableAmRoutine</code>
 struct</a>.</p>
-<p>I've done all the work for you already so you can just copy this over
-the existing <code>pgtam.c</code>. It's a big file, but don't worry. There's
+`p`I've done all the work for you already so you can just copy this over
+the existing `code`pgtam.c</code>. It's a big file, but don't worry. There's
 nothing to explain. Just a bunch of blank functions returning default
 values when required.</p>
-<div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;postgres.h&quot;</span>
+<div class="highlight">`pre``span`</span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;postgres.h&quot;</span>
 <span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;fmgr.h&quot;</span>
 <span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;access/tableam.h&quot;</span>
 <span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;access/heapam.h&quot;</span>
@@ -646,19 +646,19 @@ values when required.</p>
 <span class="w">  </span><span class="n">PG_RETURN_POINTER</span><span class="p">(</span><span class="o">&amp;</span><span class="n">memam_methods</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
-<p>Let's build and test it!</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
+`p`Let's build and test it!</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
 <span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
 <span class="go">psql:test.sql:1: NOTICE:  drop cascades to table x</span>
 <span class="go">DROP EXTENSION</span>
 <span class="go">CREATE EXTENSION</span>
 <span class="go">CREATE TABLE</span>
 </pre></div>
-<p>Hey we're getting somewhere! It successfully created the table with
+`p`Hey we're getting somewhere! It successfully created the table with
 our custom table access method.</p>
-<h3 id="querying-rows">Querying rows</h3><p>Next, let's try querying the table by adding a <code>SELECT a FROM x</code> to
-<code>test.sql</code> and running it:</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
+<h3 id="querying-rows">Querying rows</h3>`p`Next, let's try querying the table by adding a `code`SELECT a FROM x</code> to
+`code`test.sql</code> and running it:</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
 <span class="go">psql:test.sql:1: NOTICE:  drop cascades to table x</span>
 <span class="go">DROP EXTENSION</span>
 <span class="go">CREATE EXTENSION</span>
@@ -668,8 +668,8 @@ our custom table access method.</p>
 <span class="go">        before or while processing the request.</span>
 <span class="go">psql:test.sql:6: error: connection to server was lost</span>
 </pre></div>
-<p>This time there's nothing in <code>logfile</code> that helps:</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>tail<span class="w"> </span>-n15<span class="w"> </span>logfile
+`p`This time there's nothing in `code`logfile</code> that helps:</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>tail<span class="w"> </span>-n15<span class="w"> </span>logfile
 <span class="go">2023-11-01 18:43:32.449 UTC [2906199] LOG:  database system is ready to accept connections</span>
 <span class="go">2023-11-01 18:58:32.572 UTC [2907997] LOG:  checkpoint starting: time</span>
 <span class="go">2023-11-01 18:58:35.305 UTC [2907997] LOG:  checkpoint complete: wrote 28 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=2.712 s, sync=0.015 s, total=2.733 s; sync files=23, longest=0.004 s, average=0.001 s; distance=128 kB, estimate=150 kB; lsn=0/15F88E0, redo lsn=0/15F8888</span>
@@ -686,16 +686,16 @@ our custom table access method.</p>
 <span class="go">2023-11-01 19:08:14.532 UTC [2908254] LOG:  checkpoint complete: wrote 35 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.001 s, sync=0.010 s, total=0.012 s; sync files=27, longest=0.003 s, average=0.001 s; distance=149 kB, estimate=149 kB; lsn=0/161DE70, redo lsn=0/161DE70</span>
 <span class="go">2023-11-01 19:08:14.533 UTC [2906199] LOG:  database system is ready to accept connections</span>
 </pre></div>
-<p>This was the first place I got stuck. How on earth do I figure out
+`p`This was the first place I got stuck. How on earth do I figure out
 what methods to implement? I mean, it's clearly one or more of these
 methods from the struct. But there are so many methods.</p>
-<p>I tried setting a breakpoint in <code>gdb</code> on the process returned by
-<code>SELECT pg_backend_pid()</code> for a <code>psql</code> session, but the breakpoint
+`p`I tried setting a breakpoint in `code`gdb</code> on the process returned by
+`code`SELECT pg_backend_pid()</code> for a `code`psql</code> session, but the breakpoint
 never seemed to be hit for any of my methods.</p>
-<p>So I did the low-tech solution and opened a file, <code>/tmp/pgtam.log</code>,
+`p`So I did the low-tech solution and opened a file, `code`/tmp/pgtam.log</code>,
 turned off buffering on it, and added a log to every method on the
-<code>TableAmRoutine</code> struct:</p>
-<div class="highlight"><pre><span></span><span class="gu">@@ -12,9 +12,13 @@</span>
+`code`TableAmRoutine</code> struct:</p>
+<div class="highlight">`pre``span`</span><span class="gu">@@ -12,9 +12,13 @@</span>
 
 <span class="w"> </span>const TableAmRoutine memam_methods;
 
@@ -960,8 +960,8 @@ turned off buffering on it, and added a log to every method on the
 <span class="w"> </span>  return false;
 <span class="w"> </span>}
 </pre></div>
-<p>And then in the entrypoint, initialize the file for logging.</p>
-<div class="highlight"><pre><span></span><span class="gu">@@ -369,5 +408,9 @@</span>
+`p`And then in the entrypoint, initialize the file for logging.</p>
+<div class="highlight">`pre``span`</span><span class="gu">@@ -369,5 +408,9 @@</span>
 <span class="w"> </span>PG_FUNCTION_INFO_V1(mem_tableam_handler);
 
 <span class="w"> </span>Datum mem_tableam_handler(PG_FUNCTION_ARGS) {
@@ -972,8 +972,8 @@ turned off buffering on it, and added a log to every method on the
 <span class="w"> </span>  PG_RETURN_POINTER(&amp;memam_methods);
 <span class="w"> </span>}
 </pre></div>
-<p>Let's give it a shot!</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
+`p`Let's give it a shot!</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
 <span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
 <span class="go">psql:test.sql:1: NOTICE:  drop cascades to table x</span>
 <span class="go">DROP EXTENSION</span>
@@ -984,8 +984,8 @@ turned off buffering on it, and added a log to every method on the
 <span class="go">        before or while processing the request.</span>
 <span class="go">psql:test.sql:6: error: connection to server was lost</span>
 </pre></div>
-<p>And let's check our log file:</p>
-<div class="highlight"><pre><span></span><span class="o">$</span><span class="w"> </span><span class="n">cat</span><span class="w"> </span><span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">pgtam</span><span class="o">.</span><span class="n">log</span>
+`p`And let's check our log file:</p>
+<div class="highlight">`pre``span`</span><span class="o">$</span><span class="w"> </span><span class="n">cat</span><span class="w"> </span><span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">pgtam</span><span class="o">.</span><span class="n">log</span>
 
 
 <span class="n">mem_tableam</span><span class="w"> </span><span class="n">handler</span><span class="w"> </span><span class="n">loaded</span>
@@ -1003,36 +1003,36 @@ turned off buffering on it, and added a log to every method on the
 <span class="ow">in</span><span class="w"> </span><span class="n">memam_estimate_rel_size</span>
 <span class="ow">in</span><span class="w"> </span><span class="n">memam_slot_callbacks</span>
 </pre></div>
-<p>Now we're getting somewhere!</p>
+`p`Now we're getting somewhere!</p>
 <p class="note">
-  I later realized <code>elog()</code> is the way most people log
+  I later realized `code`elog()</code> is the way most people log
   within Postgres/within extensions. I didn't know that when I was
   getting started though. This separate logging was a simple way to
   get the info out.
-</p><h4 id="<code>slot_callbacks</code>"><code>slot_callbacks</code></h4><p>Since the request crashes and the last logged function is
-<code>memam_slot_callbacks</code>, it seems like that is where we should
+</p><h4 id="`code`slot_callbacks</code>">`code`slot_callbacks</code></h4>`p`Since the request crashes and the last logged function is
+`code`memam_slot_callbacks</code>, it seems like that is where we should
 concentrate. The <a href="https://www.postgresql.org/docs/current/tableam.html">table access method
 docs</a> suggest
-looking at the default <code>heap</code> access method for inspiration.</p>
-<p>Its
+looking at the default `code`heap</code> access method for inspiration.</p>
+`p`Its
 <a href="https://github.com/postgres/postgres/blob/849172ff4883d44168f96f39d3fde96d0aa34c99/src/backend/access/heap/heapam_handler.c#L67">version</a>
-of <code>slot_callbacks</code> returns <code>&amp;TTSOpsBufferHeapTuple</code>:</p>
-<div class="highlight"><pre><span></span><span class="k">static</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">TupleTableSlotOps</span><span class="w"> </span><span class="o">*</span>
+of `code`slot_callbacks</code> returns `code`&amp;TTSOpsBufferHeapTuple</code>:</p>
+<div class="highlight">`pre``span`</span><span class="k">static</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="n">TupleTableSlotOps</span><span class="w"> </span><span class="o">*</span>
 <span class="nf">heapam_slot_callbacks</span><span class="p">(</span><span class="n">Relation</span><span class="w"> </span><span class="n">relation</span><span class="p">)</span>
 <span class="p">{</span>
 <span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="o">&amp;</span><span class="n">TTSOpsBufferHeapTuple</span><span class="p">;</span>
 <span class="p">}</span>
 </pre></div>
-<p>I have no idea what that means, but since it is defined in
-<a href="https://github.com/postgres/postgres/blob/849172ff4883d44168f96f39d3fde96d0aa34c99/src/backend/executor/execTuples.c#L1080"><code>src/backend/executor/execTuples.c</code></a>
-it doesn't seem to be tied to the <code>heap</code> access method
+`p`I have no idea what that means, but since it is defined in
+<a href="https://github.com/postgres/postgres/blob/849172ff4883d44168f96f39d3fde96d0aa34c99/src/backend/executor/execTuples.c#L1080">`code`src/backend/executor/execTuples.c</code></a>
+it doesn't seem to be tied to the `code`heap</code> access method
 implementation. Let's try it.</p>
 <p class="note">
   While it works initially, I noticed later on that
-  <code>TTSOpsBufferHeapTuple</code> turns out not to be the right
-  choice here. <code>TTSOpsVirtual</code> seems to be the right
+  `code`TTSOpsBufferHeapTuple</code> turns out not to be the right
+  choice here. `code`TTSOpsVirtual</code> seems to be the right
   implementation.
-</p><div class="highlight"><pre><span></span><span class="gu">@@ -19,7 +19,7 @@</span>
+</p><div class="highlight">`pre``span`</span><span class="gu">@@ -19,7 +19,7 @@</span>
 <span class="w"> </span>  Relation relation
 <span class="w"> </span>) {
 <span class="w"> </span>  DEBUG_FUNC();
@@ -1042,8 +1042,8 @@ implementation. Let's try it.</p>
 
 <span class="w"> </span>static TableScanDesc memam_beginscan(
 </pre></div>
-<p>Build and run:</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
+`p`Build and run:</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
 <span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
 <span class="go">psql:test.sql:1: NOTICE:  drop cascades to table x</span>
 <span class="go">DROP EXTENSION</span>
@@ -1054,9 +1054,9 @@ implementation. Let's try it.</p>
 <span class="go">        before or while processing the request.</span>
 <span class="go">psql:test.sql:6: error: connection to server was lost</span>
 </pre></div>
-<p>It still crashes. But this time in <code>/tmp/pgtam.log</code> we made it into a
+`p`It still crashes. But this time in `code`/tmp/pgtam.log</code> we made it into a
 new method!</p>
-<div class="highlight"><pre><span></span><span class="n">$</span><span class="w"> </span><span class="n">cat</span><span class="w"> </span><span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">pgtam</span><span class="p">.</span><span class="n">log</span>
+<div class="highlight">`pre``span`</span><span class="n">$</span><span class="w"> </span><span class="n">cat</span><span class="w"> </span><span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">pgtam</span><span class="p">.</span><span class="n">log</span>
 
 
 <span class="n">mem_tableam</span><span class="w"> </span><span class="n">handler</span><span class="w"> </span><span class="n">loaded</span>
@@ -1075,8 +1075,8 @@ new method!</p>
 <span class="n">in</span><span class="w"> </span><span class="n">memam_slot_callbacks</span>
 <span class="n">in</span><span class="w"> </span><span class="n">memam_beginscan</span>
 </pre></div>
-<h4 id="<code>scan_begin</code>"><code>scan_begin</code></h4><p>The function signature is:</p>
-<div class="highlight"><pre><span></span><span class="n">TableScanDesc</span><span class="w"> </span><span class="nf">heap_beginscan</span><span class="p">(</span>
+<h4 id="`code`scan_begin</code>">`code`scan_begin</code></h4>`p`The function signature is:</p>
+<div class="highlight">`pre``span`</span><span class="n">TableScanDesc</span><span class="w"> </span><span class="nf">heap_beginscan</span><span class="p">(</span>
 <span class="w">  </span><span class="n">Relation</span><span class="w"> </span><span class="n">relation</span><span class="p">,</span>
 <span class="w">  </span><span class="n">Snapshot</span><span class="w"> </span><span class="n">snapshot</span><span class="p">,</span>
 <span class="w">  </span><span class="kt">int</span><span class="w"> </span><span class="n">nkeys</span><span class="p">,</span>
@@ -1085,15 +1085,15 @@ new method!</p>
 <span class="w">  </span><span class="n">uint32</span><span class="w"> </span><span class="n">flags</span>
 <span class="p">);</span>
 </pre></div>
-<p>Since we just implemented stub versions of all the methods, we've been
-returning <code>NULL</code>. Since we're failing in this function, maybe we
-should try returning something that isn't <code>NULL</code>.</p>
-<p>By looking at the definition of <code>TableScanDesc</code>, we can see it is a
-pointer to the <code>TableScanDescData</code> struct defined in
-<a href="https://github.com/postgres/postgres/blob/849172ff4883d44168f96f39d3fde96d0aa34c99/src/include/access/relscan.h#L52"><code>src/include/access/relscan.h</code></a>.</p>
-<p>Let's <code>malloc</code> a <code>TableScanDescData</code>, free it in <code>endscan</code>, and return
-the <code>TableScanDescData</code> instance in <code>beginscan</code>:</p>
-<div class="highlight"><pre><span></span><span class="gu">@@ -30,8 +30,12 @@</span>
+`p`Since we just implemented stub versions of all the methods, we've been
+returning `code`NULL</code>. Since we're failing in this function, maybe we
+should try returning something that isn't `code`NULL</code>.</p>
+`p`By looking at the definition of `code`TableScanDesc</code>, we can see it is a
+pointer to the `code`TableScanDescData</code> struct defined in
+<a href="https://github.com/postgres/postgres/blob/849172ff4883d44168f96f39d3fde96d0aa34c99/src/include/access/relscan.h#L52">`code`src/include/access/relscan.h</code></a>.</p>
+`p`Let's `code`malloc</code> a `code`TableScanDescData</code>, free it in `code`endscan</code>, and return
+the `code`TableScanDescData</code> instance in `code`beginscan</code>:</p>
+<div class="highlight">`pre``span`</span><span class="gu">@@ -30,8 +30,12 @@</span>
 <span class="w"> </span>  ParallelTableScanDesc parallel_scan,
 <span class="w"> </span>  uint32 flags
 <span class="w"> </span>) {
@@ -1114,11 +1114,11 @@ the <code>TableScanDescData</code> instance in <code>beginscan</code>:</p>
 <span class="gi">+  free(sscan);</span>
 <span class="w"> </span>}
 </pre></div>
-<p>Build and run (you can do it on your own). No difference.</p>
-<p>I got stuck for a while here too. Clearly something must be filled out
+`p`Build and run (you can do it on your own). No difference.</p>
+`p`I got stuck for a while here too. Clearly something must be filled out
 in this struct but it could be anything. Through trial and error I
-realized the one field that must be filled out is <code>scan-&gt;rs_rd</code>.</p>
-<div class="highlight"><pre><span></span><span class="gu">@@ -34,6 +34,7 @@</span>
+realized the one field that must be filled out is `code`scan-&gt;rs_rd</code>.</p>
+<div class="highlight">`pre``span`</span><span class="gu">@@ -34,6 +34,7 @@</span>
 <span class="w"> </span>  DEBUG_FUNC();
 
 <span class="w"> </span>  scan = (TableScanDescData*)malloc(sizeof(TableScanDescData));
@@ -1127,8 +1127,8 @@ realized the one field that must be filled out is <code>scan-&gt;rs_rd</code>.</
 <span class="w"> </span>  return (TableScanDesc)scan;
 <span class="w"> </span>}
 </pre></div>
-<p>We build and run:</p>
-<div class="highlight"><pre><span></span>$<span class="w"> </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
+`p`We build and run:</p>
+<div class="highlight">`pre``span`</span>$<span class="w"> </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
 $<span class="w"> </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
 psql:test.sql:1:<span class="w"> </span>NOTICE:<span class="w">  </span>drop<span class="w"> </span>cascades<span class="w"> </span>to<span class="w"> </span>table<span class="w"> </span>x
 DROP<span class="w"> </span>EXTENSION
@@ -1138,11 +1138,11 @@ CREATE<span class="w"> </span>TABLE
 ---
 <span class="o">(</span><span class="m">0</span><span class="w"> </span>rows<span class="o">)</span>
 </pre></div>
-<p>And it works! It doesn't return anything but that's correct. There's
+`p`And it works! It doesn't return anything but that's correct. There's
 nothing to return.</p>
-<p>So what if we actually want to return something? Let's check our logs
-in <code>/tmp/pgtam.log</code>.</p>
-<div class="highlight"><pre><span></span><span class="o">$</span><span class="w"> </span><span class="n">cat</span><span class="w"> </span><span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">pgtam</span><span class="o">.</span><span class="n">log</span>
+`p`So what if we actually want to return something? Let's check our logs
+in `code`/tmp/pgtam.log</code>.</p>
+<div class="highlight">`pre``span`</span><span class="o">$</span><span class="w"> </span><span class="n">cat</span><span class="w"> </span><span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">pgtam</span><span class="o">.</span><span class="n">log</span>
 
 
 <span class="n">mem_tableam</span><span class="w"> </span><span class="n">handler</span><span class="w"> </span><span class="n">loaded</span>
@@ -1163,32 +1163,32 @@ in <code>/tmp/pgtam.log</code>.</p>
 <span class="ow">in</span><span class="w"> </span><span class="n">memam_getnextslot</span>
 <span class="ow">in</span><span class="w"> </span><span class="n">memam_endscan</span>
 </pre></div>
-<p>Ok, I'm getting the gist of the API. A full table scan (which this is,
+`p`Ok, I'm getting the gist of the API. A full table scan (which this is,
 because there are no indexes at play) starts with an initialization
-for a slot, then the scan begins, then <code>getnextslot</code> is called for
-each row, and then <code>endscan</code> is called to allow for cleanup.</p>
-<p>So let's try returning a row in <code>getnextslot</code>.</p>
-<h4 id="<code>getnextslot</code>"><code>getnextslot</code></h4><p>The <code>getnextslot</code> signature is:</p>
-<div class="highlight"><pre><span></span><span class="kt">bool</span><span class="w"> </span><span class="nf">memam_getnextslot</span><span class="p">(</span>
+for a slot, then the scan begins, then `code`getnextslot</code> is called for
+each row, and then `code`endscan</code> is called to allow for cleanup.</p>
+`p`So let's try returning a row in `code`getnextslot</code>.</p>
+<h4 id="`code`getnextslot</code>">`code`getnextslot</code></h4>`p`The `code`getnextslot</code> signature is:</p>
+<div class="highlight">`pre``span`</span><span class="kt">bool</span><span class="w"> </span><span class="nf">memam_getnextslot</span><span class="p">(</span>
 <span class="w">  </span><span class="n">TableScanDesc</span><span class="w"> </span><span class="n">sscan</span><span class="p">,</span>
 <span class="w">  </span><span class="n">ScanDirection</span><span class="w"> </span><span class="n">direction</span><span class="p">,</span>
 <span class="w">  </span><span class="n">TupleTableSlot</span><span class="w"> </span><span class="o">*</span><span class="n">slot</span>
 <span class="p">);</span>
 </pre></div>
-<p>So the <code>sscan</code> should be what we returned from <code>beginscan</code> and the
+`p`So the `code`sscan</code> should be what we returned from `code`beginscan</code> and the
 <a href="https://github.com/postgres/postgres/blob/849172ff4883d44168f96f39d3fde96d0aa34c99/src/include/access/tableam.h#L341">interface
 docs</a>
-say the current row gets stored in <code>slot</code>.</p>
+say the current row gets stored in `code`slot</code>.</p>
 <p class="note">
   The return value seems to indicate whether or not we've reached the
   end of the scan. However, the scan will still end even if you
-  <code>return true</code> if the <code>slot</code> is not filled out correctly. If the
-  <code>slot</code> is filled out correctly and you unconditionally <code>return
+  `code`return true</code> if the `code`slot</code> is not filled out correctly. If the
+  `code`slot</code> is filled out correctly and you unconditionally `code`return
   true</code>, you will crash the process.
-</p><p>Let's take a look at the
+</p>`p`Let's take a look at the
 <a href="https://github.com/postgres/postgres/blob/849172ff4883d44168f96f39d3fde96d0aa34c99/src/include/executor/tuptable.h#L114">definition</a>
-of <code>TupleTableSlot</code>:</p>
-<div class="highlight"><pre><span></span><span class="k">typedef</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="nc">TupleTableSlot</span>
+of `code`TupleTableSlot</code>:</p>
+<div class="highlight">`pre``span`</span><span class="k">typedef</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="nc">TupleTableSlot</span>
 <span class="p">{</span>
 <span class="w">    </span><span class="n">NodeTag</span><span class="w">     </span><span class="n">type</span><span class="p">;</span>
 <span class="cp">#define FIELDNO_TUPLETABLESLOT_FLAGS 1</span>
@@ -1207,20 +1207,20 @@ of <code>TupleTableSlot</code>:</p>
 <span class="w">    </span><span class="n">Oid</span><span class="w">         </span><span class="n">tts_tableOid</span><span class="p">;</span><span class="w">   </span><span class="cm">/* table oid of tuple */</span>
 <span class="p">}</span><span class="w"> </span><span class="n">TupleTableSlot</span><span class="p">;</span>
 </pre></div>
-<p><code>tts_values</code> is an array of <code>Datum</code> (which is a Postgres value). So
-that sounds like the actual values of the row. The <code>tts_isnull</code> field
+`p``code`tts_values</code> is an array of `code`Datum</code> (which is a Postgres value). So
+that sounds like the actual values of the row. The `code`tts_isnull</code> field
 also looks important since that seems to be whether each value in the
-row is null or not. And <code>tts_nvalid</code> sounds important too since
-presumably it's the length of the <code>tts_isnull</code> and <code>tts_values</code>
+row is null or not. And `code`tts_nvalid</code> sounds important too since
+presumably it's the length of the `code`tts_isnull</code> and `code`tts_values</code>
 arrays.</p>
-<p>The rest of it may or may not be important. Let's try filling out
+`p`The rest of it may or may not be important. Let's try filling out
 these three fields though and see what happens.</p>
-<h4 id="datum">Datum</h4><p>Back in the <a href="https://www.postgresql.org/docs/current/xfunc-c.html">Postgres C extension
+<h4 id="datum">Datum</h4>`p`Back in the <a href="https://www.postgresql.org/docs/current/xfunc-c.html">Postgres C extension
 documentation</a>,
 we can see some simple examples of converting between C types and
 Postgres's Datum type.</p>
-<p>For example:</p>
-<div class="highlight"><pre><span></span><span class="n">Datum</span>
+`p`For example:</p>
+<div class="highlight">`pre``span`</span><span class="n">Datum</span>
 <span class="nf">add_one</span><span class="p">(</span><span class="n">PG_FUNCTION_ARGS</span><span class="p">)</span>
 <span class="p">{</span>
 <span class="w">    </span><span class="n">int32</span><span class="w">   </span><span class="n">arg</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">PG_GETARG_INT32</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
@@ -1228,14 +1228,14 @@ Postgres's Datum type.</p>
 <span class="w">    </span><span class="n">PG_RETURN_INT32</span><span class="p">(</span><span class="n">arg</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
 <span class="p">}</span>
 </pre></div>
-<p>If we look at the definition of <code>PG_RETURN_INT32</code> in
-<a href="https://github.com/postgres/postgres/blob/849172ff4883d44168f96f39d3fde96d0aa34c99/src/include/fmgr.h#L354"><code>src/include/fmgr.h</code></a>,
+`p`If we look at the definition of `code`PG_RETURN_INT32</code> in
+<a href="https://github.com/postgres/postgres/blob/849172ff4883d44168f96f39d3fde96d0aa34c99/src/include/fmgr.h#L354">`code`src/include/fmgr.h</code></a>,
 we see:</p>
-<div class="highlight"><pre><span></span><span class="cp">#define PG_RETURN_INT32(x)   return Int32GetDatum(x)</span>
+<div class="highlight">`pre``span`</span><span class="cp">#define PG_RETURN_INT32(x)   return Int32GetDatum(x)</span>
 </pre></div>
-<p>So <code>Int32GetDatum()</code> is the function we'll use to set a <code>Datum</code> for a
+`p`So `code`Int32GetDatum()</code> is the function we'll use to set a `code`Datum</code> for a
 cell in a row.</p>
-<div class="highlight"><pre><span></span><span class="gu">@@ -54,13 +54,26 @@</span>
+<div class="highlight">`pre``span`</span><span class="gu">@@ -54,13 +54,26 @@</span>
 <span class="w"> </span>  DEBUG_FUNC();
 <span class="w"> </span>}
 
@@ -1264,12 +1264,12 @@ cell in a row.</p>
 
 <span class="w"> </span>static IndexFetchTableData* memam_index_fetch_begin(Relation rel) {
 </pre></div>
-<p>The goal is that we return a single row and then exit the scan. It
+`p`The goal is that we return a single row and then exit the scan. It
 will have one 32-bit integer cell (remember we created the table
-<code>CREATE TABLE x (a INT)</code>; <code>INT</code> is shorthand for <code>INT4</code> which is a
-32-bit integer) that will have the value <code>314</code>.</p>
-<p>But if we build and run this, we get no rows.</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
+`code`CREATE TABLE x (a INT)</code>; `code`INT</code> is shorthand for `code`INT4</code> which is a
+32-bit integer) that will have the value `code`314</code>.</p>
+`p`But if we build and run this, we get no rows.</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
 <span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
 <span class="go">psql:test.sql:1: NOTICE:  drop cascades to table x</span>
 <span class="go">DROP EXTENSION</span>
@@ -1279,16 +1279,16 @@ will have one 32-bit integer cell (remember we created the table
 <span class="go">---</span>
 <span class="gp gp-VirtualEnv">(0 rows)</span>
 </pre></div>
-<p>I got stuck for a while here. Plugging my <code>getnextslot</code> code into
+`p`I got stuck for a while here. Plugging my `code`getnextslot</code> code into
 ChatGPT helped. One thing it gave me to try was calling
-<code>ExecStoreVirtualTuple</code> on the <code>slot</code>. I noticed that the built-in
-<code>heap</code> access method <a href="https://github.com/postgres/postgres/blob/849172ff4883d44168f96f39d3fde96d0aa34c99/src/backend/access/heap/heapam.c#L1159">also called a function like
+`code`ExecStoreVirtualTuple</code> on the `code`slot</code>. I noticed that the built-in
+`code`heap</code> access method <a href="https://github.com/postgres/postgres/blob/849172ff4883d44168f96f39d3fde96d0aa34c99/src/backend/access/heap/heapam.c#L1159">also called a function like
 this</a>
-in <code>getnextslot</code>.</p>
-<p>And I realized that <code>tts_nvalid</code> is already set up and the memory for
-<code>tts_values</code> and <code>tts_isnull</code> is already allocated. So the code became
+in `code`getnextslot</code>.</p>
+`p`And I realized that `code`tts_nvalid</code> is already set up and the memory for
+`code`tts_values</code> and `code`tts_isnull</code> is already allocated. So the code became
 a little simpler.</p>
-<div class="highlight"><pre><span></span><span class="gu">@@ -66,11 +66,9 @@</span>
+<div class="highlight">`pre``span`</span><span class="gu">@@ -66,11 +66,9 @@</span>
 <span class="w"> </span>    return false;
 <span class="w"> </span>  }
 
@@ -1302,8 +1302,8 @@ a little simpler.</p>
 
 <span class="w"> </span>  return true;
 </pre></div>
-<p>Build and run:</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
+`p`Build and run:</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
 <span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
 <span class="go">psql:test.sql:1: NOTICE:  drop cascades to table x</span>
 <span class="go">DROP EXTENSION</span>
@@ -1314,10 +1314,10 @@ a little simpler.</p>
 <span class="go"> 314</span>
 <span class="gp gp-VirtualEnv">(1 row)</span>
 </pre></div>
-<p>Fantastic!</p>
-<h3 id="creating-a-table">Creating a table</h3><p>Now that we've proven we can return random data, let's set up
+`p`Fantastic!</p>
+<h3 id="creating-a-table">Creating a table</h3>`p`Now that we've proven we can return random data, let's set up
 infrastructure for storing tables in memory.</p>
-<div class="highlight"><pre><span></span><span class="gu">@@ -15,6 +15,41 @@</span>
+<div class="highlight">`pre``span`</span><span class="gu">@@ -15,6 +15,41 @@</span>
 <span class="w"> </span>FILE* fd;
 <span class="w"> </span>#define DEBUG_FUNC() fprintf(fd, &quot;in %s\n&quot;, __func__);
 
@@ -1360,10 +1360,10 @@ infrastructure for storing tables in memory.</p>
 <span class="w"> </span>  Relation relation
 <span class="w"> </span>) {
 </pre></div>
-<p>Based on what we logged in <code>/tmp/pgtam.log</code> it seems like
-<code>memam_relation_set_new_filelocator</code> is called when a new table is
+`p`Based on what we logged in `code`/tmp/pgtam.log</code> it seems like
+`code`memam_relation_set_new_filelocator</code> is called when a new table is
 created. So let's handle adding a new table there.</p>
-<div class="highlight"><pre><span></span><span class="gu">@@ -233,7 +268,16 @@</span>
+<div class="highlight">`pre``span`</span><span class="gu">@@ -233,7 +268,16 @@</span>
 <span class="w"> </span>  TransactionId *freezeXid,
 <span class="w"> </span>  MultiXactId *minmulti
 <span class="w"> </span>) {
@@ -1381,9 +1381,9 @@ created. So let's handle adding a new table there.</p>
 
 <span class="w"> </span>static void memam_relation_nontransactional_truncate(
 </pre></div>
-<p>Finally, we'll initialize the in-memory <code>Database*</code> when the handler is
+`p`Finally, we'll initialize the in-memory `code`Database*</code> when the handler is
 loaded.</p>
-<div class="highlight"><pre><span></span><span class="gu">@@ -428,5 +472,11 @@</span>
+<div class="highlight">`pre``span`</span><span class="gu">@@ -428,5 +472,11 @@</span>
 <span class="w"> </span>  setvbuf(fd, NULL, _IONBF, 0); // Prevent buffering
 <span class="w"> </span>  fprintf(fd, &quot;\n\nmem_tableam handler loaded\n&quot;);
 
@@ -1396,8 +1396,8 @@ loaded.</p>
 <span class="w"> </span>  PG_RETURN_POINTER(&amp;memam_methods);
 <span class="w"> </span>}
 </pre></div>
-<p>If we build and run, we won't notice anything new.</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
+`p`If we build and run, we won't notice anything new.</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
 <span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
 <span class="go">psql:test.sql:1: NOTICE:  drop cascades to table x</span>
 <span class="go">DROP EXTENSION</span>
@@ -1408,9 +1408,9 @@ loaded.</p>
 <span class="go"> 314</span>
 <span class="gp gp-VirtualEnv">(1 row)</span>
 </pre></div>
-<p>But we should see a message in <code>/tmp/pgtam.log</code> about the new table
+`p`But we should see a message in `code`/tmp/pgtam.log</code> about the new table
 being created.</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>cat<span class="w"> </span>/tmp/pgtam.log
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>cat<span class="w"> </span>/tmp/pgtam.log
 
 
 <span class="go">mem_tableam handler loaded</span>
@@ -1433,10 +1433,10 @@ being created.</p>
 <span class="go">in memam_getnextslot</span>
 <span class="go">in memam_endscan</span>
 </pre></div>
-<p>And there it is! Creation looks good.</p>
-<h3 id="inserting-rows">Inserting rows</h3><p>Let's add <code>INSERT INTO x VALUES (23), (101);</code> to <code>test.sql</code> and run
+`p`And there it is! Creation looks good.</p>
+<h3 id="inserting-rows">Inserting rows</h3>`p`Let's add `code`INSERT INTO x VALUES (23), (101);</code> to `code`test.sql</code> and run
 the SQL script.</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
 <span class="go">psql:test.sql:1: NOTICE:  drop cascades to table x</span>
 <span class="go">DROP EXTENSION</span>
 <span class="go">CREATE EXTENSION</span>
@@ -1447,9 +1447,9 @@ the SQL script.</p>
 <span class="go"> 314</span>
 <span class="gp gp-VirtualEnv">(1 row)</span>
 </pre></div>
-<p>And let's check the log to see what method is called when we try to
-<code>INSERT</code>.</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>cat<span class="w"> </span>/tmp/pgtam.log
+`p`And let's check the log to see what method is called when we try to
+`code`INSERT</code>.</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>cat<span class="w"> </span>/tmp/pgtam.log
 
 
 <span class="go">mem_tableam handler loaded</span>
@@ -1475,10 +1475,10 @@ the SQL script.</p>
 <span class="go">in memam_getnextslot</span>
 <span class="go">in memam_endscan</span>
 </pre></div>
-<p><code>tuple_insert</code> seems to be the method! Looks like it gets called once
+`p``code`tuple_insert</code> seems to be the method! Looks like it gets called once
 for each row to insert. Perfect.</p>
-<p>The signature for <code>tuple_insert</code> is:</p>
-<div class="highlight"><pre><span></span><span class="kt">void</span><span class="w"> </span><span class="nf">memam_tuple_insert</span><span class="p">(</span>
+`p`The signature for `code`tuple_insert</code> is:</p>
+<div class="highlight">`pre``span`</span><span class="kt">void</span><span class="w"> </span><span class="nf">memam_tuple_insert</span><span class="p">(</span>
 <span class="w">  </span><span class="n">Relation</span><span class="w"> </span><span class="n">relation</span><span class="p">,</span>
 <span class="w">  </span><span class="n">TupleTableSlot</span><span class="w"> </span><span class="o">*</span><span class="n">slot</span><span class="p">,</span>
 <span class="w">  </span><span class="n">CommandId</span><span class="w"> </span><span class="n">cid</span><span class="p">,</span>
@@ -1486,9 +1486,9 @@ for each row to insert. Perfect.</p>
 <span class="w">  </span><span class="n">BulkInsertState</span><span class="w"> </span><span class="n">bistate</span>
 <span class="p">);</span>
 </pre></div>
-<p>We can get the table name from <code>relation</code>, and instead of writing to
-<code>slot</code> we can read from <code>slot-&gt;tts_values</code> instead.</p>
-<div class="highlight"><pre><span></span><span class="gu">@@ -141,7 +141,38 @@</span>
+`p`We can get the table name from `code`relation</code>, and instead of writing to
+`code`slot</code> we can read from `code`slot-&gt;tts_values</code> instead.</p>
+<div class="highlight">`pre``span`</span><span class="gu">@@ -141,7 +141,38 @@</span>
 <span class="w"> </span>  int options,
 <span class="w"> </span>  BulkInsertState bistate
 <span class="w"> </span>) {
@@ -1528,8 +1528,8 @@ for each row to insert. Perfect.</p>
 
 <span class="w"> </span>static void memam_tuple_insert_speculative(
 </pre></div>
-<p>Build and run and again we won't notice anything new.</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
+`p`Build and run and again we won't notice anything new.</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
 <span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
 <span class="go">psql:test.sql:1: NOTICE:  drop cascades to table x</span>
 <span class="go">DROP EXTENSION</span>
@@ -1541,9 +1541,9 @@ for each row to insert. Perfect.</p>
 <span class="go"> 314</span>
 <span class="gp gp-VirtualEnv">(1 row)</span>
 </pre></div>
-<p>But if we check the logs, we should see the two column values we
+`p`But if we check the logs, we should see the two column values we
 inserted, one for each row.</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>cat<span class="w"> </span>/tmp/pgtam.log
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>cat<span class="w"> </span>/tmp/pgtam.log
 
 
 <span class="go">mem_tableam handler loaded</span>
@@ -1571,12 +1571,12 @@ inserted, one for each row.</p>
 <span class="go">in memam_getnextslot</span>
 <span class="go">in memam_endscan</span>
 </pre></div>
-<p>Woohoo!</p>
-<h3 id="un-hardcoding-the-scan">Un-hardcoding the scan</h3><p>The final thing we need to do is drop the hardcoded <code>314</code> we returned
-from <code>getnextslot</code> and instead we need to look up the current table
+`p`Woohoo!</p>
+<h3 id="un-hardcoding-the-scan">Un-hardcoding the scan</h3>`p`The final thing we need to do is drop the hardcoded `code`314</code> we returned
+from `code`getnextslot</code> and instead we need to look up the current table
 and return rows from it. This also means we need to keep track of
-which row we're on. So <code>beginscan</code> will also need to change slightly.</p>
-<div class="highlight"><pre><span></span><span class="gu">@@ -57,6 +56,14 @@</span>
+which row we're on. So `code`beginscan</code> will also need to change slightly.</p>
+<div class="highlight">`pre``span`</span><span class="gu">@@ -57,6 +56,14 @@</span>
 <span class="w"> </span>  return &amp;TTSOpsVirtual;
 <span class="w"> </span>}
 
@@ -1641,8 +1641,8 @@ which row we're on. So <code>beginscan</code> will also need to change slightly.
 <span class="w"> </span>  return true;
 <span class="w"> </span>}
 </pre></div>
-<p>Let's try it out.</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
+`p`Let's try it out.</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>make<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>make<span class="w"> </span>install
 <span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
 <span class="go">psql:test.sql:1: NOTICE:  drop cascades to table x</span>
 <span class="go">DROP EXTENSION</span>
@@ -1655,11 +1655,11 @@ which row we're on. So <code>beginscan</code> will also need to change slightly.
 <span class="go"> 101</span>
 <span class="gp gp-VirtualEnv">(2 rows)</span>
 </pre></div>
-<p>And there we have it. :)</p>
-<h3 id="awesome-sql-power">Awesome SQL power</h3><p>So we tried one table and we tried a <code>SELECT</code> without anything else.</p>
-<p>What happens if we use more of SQL? Let's create another table
-and try some more complex queries. Edit <code>test.sql</code>:</p>
-<div class="highlight"><pre><span></span><span class="k">DROP</span><span class="w"> </span><span class="n">EXTENSION</span><span class="w"> </span><span class="k">IF</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="n">pgtam</span><span class="w"> </span><span class="k">CASCADE</span><span class="p">;</span>
+`p`And there we have it. :)</p>
+<h3 id="awesome-sql-power">Awesome SQL power</h3>`p`So we tried one table and we tried a `code`SELECT</code> without anything else.</p>
+`p`What happens if we use more of SQL? Let's create another table
+and try some more complex queries. Edit `code`test.sql</code>:</p>
+<div class="highlight">`pre``span`</span><span class="k">DROP</span><span class="w"> </span><span class="n">EXTENSION</span><span class="w"> </span><span class="k">IF</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="n">pgtam</span><span class="w"> </span><span class="k">CASCADE</span><span class="p">;</span>
 <span class="k">CREATE</span><span class="w"> </span><span class="n">EXTENSION</span><span class="w"> </span><span class="n">pgtam</span><span class="p">;</span>
 <span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">x</span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="nb">INT</span><span class="p">)</span><span class="w"> </span><span class="k">USING</span><span class="w"> </span><span class="n">mem</span><span class="p">;</span>
 <span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">y</span><span class="p">(</span><span class="n">b</span><span class="w"> </span><span class="nb">INT</span><span class="p">)</span><span class="w"> </span><span class="k">USING</span><span class="w"> </span><span class="n">mem</span><span class="p">;</span>
@@ -1669,8 +1669,8 @@ and try some more complex queries. Edit <code>test.sql</code>:</p>
 <span class="k">SELECT</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span>
 <span class="k">SELECT</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">y</span><span class="p">;</span>
 </pre></div>
-<p>Run it:</p>
-<div class="highlight"><pre><span></span><span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
+`p`Run it:</p>
+<div class="highlight">`pre``span`</span><span class="gp">$ </span>/usr/local/pgsql/bin/psql<span class="w"> </span>postgres<span class="w"> </span>-f<span class="w"> </span>test.sql
 <span class="go">psql:test.sql:1: NOTICE:  drop cascades to 2 other objects</span>
 <span class="go">DETAIL:  drop cascades to table x</span>
 <span class="go">drop cascades to table y</span>
@@ -1700,21 +1700,21 @@ and try some more complex queries. Edit <code>test.sql</code>:</p>
 <span class="go">---</span>
 <span class="gp gp-VirtualEnv">(0 rows)</span>
 </pre></div>
-<p>Pretty sweet!</p>
-<h3 id="next-steps">Next steps</h3><p>It would be neat to build a storage engine that reads from and writes
+`p`Pretty sweet!</p>
+<h3 id="next-steps">Next steps</h3>`p`It would be neat to build a storage engine that reads from and writes
 to a CSV a la MySQL's CSV storage engine. Or a storage engine that
 uses RocksDB.</p>
-<p>It would also be good to figure out how indexes work, how deletions
-work, how updates and DDL beyond <code>CREATE</code> works.</p>
-<p>And I should probably contribute some of this to the <a href="https://www.postgresql.org/docs/current/tableam.html">table access
+`p`It would also be good to figure out how indexes work, how deletions
+work, how updates and DDL beyond `code`CREATE</code> works.</p>
+`p`And I should probably contribute some of this to the <a href="https://www.postgresql.org/docs/current/tableam.html">table access
 method</a> docs
 which are pretty sparse at the moment.</p>
-<p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve been working this week to understand Postgres Table Access Methods for alternative storage engines.<br><br>Especially challenging because the documentation is pretty sparse and few minimal implementations exist.<br><br>I wrote up my approach!<a href="https://t.co/LQGglRkev5">https://t.co/LQGglRkev5</a> <a href="https://t.co/v0MeOu4Hbr">pic.twitter.com/v0MeOu4Hbr</a></p>&mdash; Phil Eaton (@eatonphil) <a href="https://twitter.com/eatonphil/status/1719873793693221157?ref_src=twsrc%5Etfw">November 2, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-<style>.feedback{display:initial;}</style>
+`p`<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve been working this week to understand Postgres Table Access Methods for alternative storage engines.`br``br`Especially challenging because the documentation is pretty sparse and few minimal implementations exist.`br``br`I wrote up my approach!<a href="https://t.co/LQGglRkev5">https://t.co/LQGglRkev5</a> <a href="https://t.co/v0MeOu4Hbr">pic.twitter.com/v0MeOu4Hbr</a></p>&mdash; Phil Eaton (@eatonphil) <a href="https://twitter.com/eatonphil/status/1719873793693221157?ref_src=twsrc%5Etfw">November 2, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+`style`.feedback{display:initial;}</style>
 	</div>
 	<div class="feedback">
-	  <h4>Feedback</h4>
-	  <p>As always,
+	  `h4`Feedback</h4>
+	  `p`As always,
 	      please <a href="mailto:phil@eatonphil.com">email</a>
 	      or <a href="https://twitter.com/eatonphil">tweet me</a>
 	      with questions, corrections, or ideas!</p>
@@ -1722,9 +1722,9 @@ which are pretty sparse at the moment.</p>
 	</div>
       </div>
     </div>
-    <footer>
+    `footer`
       <div class="container">
-	<div>
+	`div`
 	  <div id="subscribe">
 	    <iframe frameBorder="0" src="https://cdn.forms-content-1.sg-form.com/e8ed4c3b-dd46-11f0-b6e6-ce075f2c5f80"></iframe>
 

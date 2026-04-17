@@ -398,7 +398,7 @@ expect class LLMOperatorFactory {
 }
 val sharedModule = module {
    // 从不同的 LLMOperatorFactory 创建出 Common 层所需的 LLMOperator
-  single<LLMOperator> { get<LLMOperatorFactory>().create() }
+  single`LLMOperator` { get`LLMOperatorFactory`().create() }
 }
 
 // Android

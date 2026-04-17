@@ -82,7 +82,7 @@ sidebar: false
 
 将你的工具封装在一个本地 MCP 服务器或桌面扩展程序（DXT）中，这样你就可以在 Claude Code 或 Claude 桌面应用里连接并测试它们了。
 
-要将你的本地 MCP 服务器连接到 Claude Code，运行 `claude mcp add <name> <command> [args...]`。
+要将你的本地 MCP 服务器连接到 Claude Code，运行 `claude mcp add `name` `command` [args...]`。
 
 要将你的本地 MCP 服务器或 DXT 连接到 Claude 桌面应用，分别导航到 `设置 > 开发者` 或 `设置 > 扩展程序`。
 

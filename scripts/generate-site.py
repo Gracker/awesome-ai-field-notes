@@ -4,7 +4,7 @@ generate-site.py — 从 entries.json 生成 VitePress 站点
 支持文章详情页（从 content/ 读取全文）
 """
 
-import json, os, sys, html as html_mod
+import json, os, sys, html as html_mod, re as _re, re
 from datetime import datetime, timedelta
 from collections import Counter, OrderedDict
 from pathlib import Path
@@ -14,6 +14,13 @@ DATA_DIR = BASE_DIR / "data"
 META_DIR = BASE_DIR / "metadata"
 SRC_DIR = BASE_DIR / "site-src"
 README_PATH = BASE_DIR / "README.md"
+def escape_html_like_tags(text):
+    """Escape bare <xxx> patterns so VitePress doesn't treat them as HTML tags."""
+    def replacer(m):
+        return "`{}`".format(m.group(0)[1:-1])
+    return _re.sub(r'<([a-zA-Z][-a-zA-Z0-9_]*?)>', replacer, text)
+
+
 STATS_PATH = META_DIR / "stats.json"
 CONTENT_DIR = BASE_DIR / "content"
 
@@ -323,6 +330,7 @@ for e in active:
     page.append("")
     page.append("---")
     page.append("")
+    content_body = escape_html_like_tags(content_body)
     page.append(content_body)
     page.append("")
 

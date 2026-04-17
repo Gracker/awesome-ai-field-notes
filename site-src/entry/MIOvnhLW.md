@@ -19,12 +19,12 @@ sidebar: false
 
 ## English
 <!DOCTYPE html>
-<html>
-	<head>
+`html`
+	`head`
 		<meta http-equiv="content-type" content="text/html;charset=utf8">
 		<meta id="viewport" name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
-		<title>未知错误</title>
-		<style>	
+		`title`未知错误</title>
+		`style`	
 			html,body{
 				height:100%;
 				padding:0px;
@@ -48,10 +48,10 @@ sidebar: false
 			}
 		</style>
 	</head>
-	<body>
+	`body`
 		<div class="panel">
 			<div class="mesg-block">
-				<p>未知错误，请稍后再试</p>
+				`p`未知错误，请稍后再试</p>
 			</div>	
 		</div>
 		<script  nonce="" reportloaderror>

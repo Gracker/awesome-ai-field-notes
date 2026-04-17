@@ -356,7 +356,7 @@ Claude Code 的 Prompt 顺序：
 - 在静态系统 Prompt 中放入带时间戳的内容（让它每次都变）
 - 非确定性地打乱工具定义顺序
 - 会话中途增删工具
-那像当前时间这种动态信息怎么办？别去动系统 Prompt，放到下一条消息里传进去就行。Claude Code 自己也是这么做的，用户消息里加 <system-reminder>
+那像当前时间这种动态信息怎么办？别去动系统 Prompt，放到下一条消息里传进去就行。Claude Code 自己也是这么做的，用户消息里加 `system-reminder`
 标签，系统 Prompt 不动，缓存也就不会被打坏。
 会话中途不要切换模型
 Prompt 缓存是模型唯一的。假如你已经和 Opus 对话了 100K tokens，想问个简单问题，切换到 Haiku 实际上比继续用 Opus 更贵，因为要为 Haiku 重建整个缓存。确实需要切换的话，用 Subagent 交接：Opus 准备一条”交接消息”给另一个模型，说明需要完成的任务就行。

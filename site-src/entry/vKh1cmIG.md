@@ -42,7 +42,7 @@ The prompt itself is implemented as the HTML gold standard — the output must s
 ### HTML Generation Guidelines
 1. **Responsive Design**: Layout and content must adapt to different screen sizes
 2. **Mathematics**: MathJax (CHTML) must be used for rendering math formulas
-3. **Code Blocks**: Must use `<pre><code class="language-LLL">` tags with syntax highlighting and horizontal scrolling
+3. **Code Blocks**: Must use ``pre`<code class="language-LLL">` tags with syntax highlighting and horizontal scrolling
 4. **Creativity and Flexibility**: Leverage HTML, CSS, and JavaScript capabilities to create informative, easy-to-understand explanatory pages
 
 ### Technical Stack

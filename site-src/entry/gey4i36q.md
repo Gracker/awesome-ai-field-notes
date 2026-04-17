@@ -77,7 +77,7 @@ sidebar: false
         *   **原因 A: 端口被占用 (`EADDRINUSE`)**: OpenClaw 默认使用 18789 端口，如果该端口已被其他进程占用，会导致启动失败。
         *   **解决方案 A**:
             *   查看占用端口的进程：`lsof -i :18789`。
-            *   杀死占用进程：`kill -9 <PID>`。
+            *   杀死占用进程：`kill -9 `PID``。
             *   或者在配置文件中修改端口：`~/.openclaw/openclaw.json` 中设置 `gateway: { port: 18790 }`。
         *   **原因 B: 缺少 `gateway.mode` 配置**: `openclaw.json` 中未设置 `gateway.mode=local`，导致 Gateway 无法初始化。
         *   **解决方案 B**: 运行 `openclaw config set gateway.mode local`。
