@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema_description": "每条记录必须基于实际文件内容提取，禁止捏造。英文原文需提供中英双语摘要。",
-  "last_updated": "2026-04-16",
+  "last_updated": "2026-04-17",
   "entries": [
     {
       "id": "7n5hkzn5",
@@ -21525,6 +21525,192 @@
       "local_path": "Cubox/OpenClaw 落地到生产实际应用的一种可能的路径-2026-04-16.md",
       "images": [],
       "added_date": "2026-04-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "01d74b95",
+      "title": "AI开发者瓶颈：Agent时代软件工程的未来",
+      "url": "https://x.com/AndrewYNg/status/2043742105852621052",
+      "source": {
+        "platform": "x",
+        "author": "@AndrewYNg",
+        "original_date": "2026-04-14"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "ai-tools",
+        "software-engineering",
+        "ai-agents"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "AI加速编程，软件工程面临未来转型。产品管理瓶颈理论：约束主要来自决定建什么而非实际建造。AI开发者需要重新思考工作方法和价值定位。",
+      "summary_en": "As AI agents accelerate coding, software engineering faces transformation. Product Management Bottleneck theory suggests constraints come from deciding what to build rather than the building process itself.",
+      "one_liner": "AI开发者需要重新思考工作方法和价值定位",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4dc06f7b",
+      "title": "There's a difference between using AI and build...",
+      "url": "https://x.com/alliekmiller/status/1985834763677286606",
+      "source": {
+        "platform": "x",
+        "author": "@alliekmiller",
+        "original_date": "2026-04-17"
+      },
+      "category": "prompt",
+      "tags": [
+        "x",
+        "ai-tools",
+        "ai-news",
+        "daily-digest"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "There's a difference between using AI and building with it. Copy-pasting ChatGPT prompts will only get you so far. I want to help you learn to build personal AI software, automations, and tools tha...",
+      "summary_en": "There's a difference between using AI and building with it. Copy-pasting ChatGPT prompts will only get you so far. I want to help you learn to build p",
+      "one_liner": "There's a difference betwee...",
+      "one_liner_author": "openclaw",
+      "quality_score": 12,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5c8c9b14",
+      "title": "Our most expressive and steerable TTS model yet...",
+      "url": "https://x.com/demishassabis/status/2044599020690010217",
+      "source": {
+        "platform": "x",
+        "author": "@demishassabis",
+        "original_date": "2026-04-17"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "ai-news",
+        "daily-digest"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Our most expressive and steerable TTS model yet! Designed to give builders granular control over AI-generated speech, Gemini 3.1 Flash TTS is really fun to play with! Available in preview today - f...",
+      "summary_en": "Our most expressive and steerable TTS model yet! Designed to give builders granular control over AI-generated speech, Gemini 3.1 Flash TTS is really f",
+      "one_liner": "Our most expressive and ste...",
+      "one_liner_author": "openclaw",
+      "quality_score": 6,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4be25f79",
+      "title": "This is a great report that provides a thoughtf...",
+      "url": "https://x.com/geoffreyhinton/status/2019532085233611207",
+      "source": {
+        "platform": "x",
+        "author": "@geoffreyhinton",
+        "original_date": "2026-04-17"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "ai-news",
+        "daily-digest"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "This is a great report that provides a thoughtful, detailed and very well researched description of the risks of AI. It is essential reading for anyone who wants to write or talk about AI risks. Qu...",
+      "summary_en": "This is a great report that provides a thoughtful, detailed and very well researched description of the risks of AI. It is essential reading for anyon",
+      "one_liner": "This is a great report that...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4409adc4",
+      "title": "Movement Matters – A Turing Test for Robot Inte...",
+      "url": "https://x.com/petitegeek/status/1953082338029781441",
+      "source": {
+        "platform": "x",
+        "author": "@petitegeek",
+        "original_date": "2026-04-17"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "ai-news",
+        "daily-digest"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Movement Matters – A Turing Test for Robot Interaction 2.6K ](",
+      "summary_en": "Movement Matters – A Turing Test for Robot Interaction 2.6K ](",
+      "one_liner": "Movement Matters – A Turing...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "354d4da8",
+      "title": "Research we co-authored on subliminal learning—...",
+      "url": "https://x.com/AnthropicAI/status/2044493337835802948",
+      "source": {
+        "platform": "x",
+        "author": "@AnthropicAI",
+        "original_date": "2026-04-17"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "ai-news",
+        "daily-digest"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Research we co-authored on subliminal learning—how LLMs can pass on traits like preferences or misalignment through hidden signals in data—was published today in Quote Owain Evans",
+      "summary_en": "Research we co-authored on subliminal learning—how LLMs can pass on traits like preferences or misalignment through hidden signals in data—was publish",
+      "one_liner": "Research we co-authored on ...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
       "related": []

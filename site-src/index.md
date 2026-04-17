@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI Field Notes
   text: AI 领域精选资源导航
-  tagline: 有观点 · 有评分 · 每日自动更新 · 627 条 · 446 篇有全文
+  tagline: 有观点 · 有评分 · 每日自动更新 · 633 条 · 452 篇有全文
   actions:
     - theme: brand
       text: 浏览全部
@@ -35,6 +35,51 @@ features:
 ---
 
 ## 🆕 最新 10 篇
+
+### [Research we co-authored on subliminal learning—...](https://x.com/AnthropicAI/status/2044493337835802948)
+@@AnthropicAI · ⭐⭐⭐⭐4 🇨🇳 · 今天
+
+Research we co-authored on subliminal learning—how LLMs can pass on traits like preferences or misalignment through hidden signals in data—was published today in Quote Owain Evans
+
+`x` `ai-tools` `ai-news` `daily-digest`
+
+---
+
+### [This is a great report that provides a thoughtf...](/entry/4be25f79) 📄
+@@geoffreyhinton · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+
+This is a great report that provides a thoughtful, detailed and very well researched description of the risks of AI. It is essential reading for anyone who wants to write or talk about AI risks. Qu...
+
+`x` `ai-tools` `ai-news` `daily-digest`
+
+---
+
+### [Movement Matters – A Turing Test for Robot Inte...](/entry/4409adc4) 📄
+@@petitegeek · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+
+Movement Matters – A Turing Test for Robot Interaction 2.6K ](
+
+`x` `ai-tools` `ai-news` `daily-digest`
+
+---
+
+### [Our most expressive and steerable TTS model yet...](/entry/5c8c9b14) 📄
+@@demishassabis · ⭐⭐⭐⭐⭐⭐6 🇨🇳 · 今天
+
+Our most expressive and steerable TTS model yet! Designed to give builders granular control over AI-generated speech, Gemini 3.1 Flash TTS is really fun to play with! Available in preview today - f...
+
+`x` `ai-tools` `ai-news` `daily-digest`
+
+---
+
+### [There&#x27;s a difference between using AI and build...](/entry/4dc06f7b) 📄
+@@alliekmiller · ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐12 🇨🇳 · 今天
+
+There&#x27;s a difference between using AI and building with it. Copy-pasting ChatGPT prompts will only get you so far. I want to help you learn to build personal AI software, automations, and tools tha...
+
+`x` `ai-tools` `ai-news` `daily-digest`
+
+---
 
 ### [使用 Claude Code：会话管理与 100 万 上下文](/entry/keqFU4_v) 📄
 @Thariq（Anthropic员工） · ⭐⭐⭐3 🇨🇳 · 昨天
@@ -78,63 +123,5 @@ Anthropic 官方员工 Thariq 发布的产品使用指南，系统讲解 Claude 
 作者提出 AI Knowledge Layer 的两层架构：动态知识库层（KBL）和静态品牌基础层（BF）。KBL 让用户将推文、文章、书签等原始素材导入文件夹，由 AI Agent 自动分类、构建结构化 Wiki 页面并维护主索引；BF 则存储用户的声音规则、视觉风格、定位等静态信息，Agent 只读不改。灵感来自 Karpathy 关于将 token 消耗从代码转向知识管理的观点。开源框架，20 分钟即可部署。
 
 `knowledge-layer` `agent-memory` `karpathy` `wiki` `context-engineering`
-
----
-
-### [Agent Memory 架构本质](/entry/hqm6txq4) 📄
-⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-15
-
-深度解析 Agent Memory 的工程架构。核心观点：Memory 的难点不在容量，在治理。文章厘清了 Memory 与 State/Policy/Profile 的边界，指出蒸馏只是管理链路中的一个操作而非记忆本身。提出四个建模对象：用户模型、任务模型、世界模型、自我模型。定义了记忆的六个维度（内容/类型/置信度/来源/作用域/时间衰减），以及写入-管理-读取三条链路。强调进化=修正+遗忘，评测从 recall 转向 update/abstain/drift/forget。
-
-`agent-memory` `memory-architecture` `distillation` `knowledge-management` `belief-revision`
-
----
-
-### [Decoding Transformer Architecture](/entry/0bf2b5b84701) 📄
-@amitiitbhu · ⭐⭐⭐⭐4 🌐 · 2026-04-14
-
-[EN] - **来源**：X/Twitter
-- **原文链接**：https://x.com/augmentcode/status/2043740459256951158
-- **作者**：amitiitbhu
-- **日期**：2026-04-14
-- **抓取时间**：2026-04-14 12:00...
-
-`transformer` `attention` `llm` `architecture` `encoder`
-
----
-
-### [深度研究Prompt方法论：横纵分析法](/entry/6a2113a2d9ca) 📄
-@Khazix0918 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-14
-
-- **来源**：X/Twitter
-- **原文链接**：https://x.com/augmentcode/status/2043740459256951158
-- **作者**：Khazix0918
-- **日期**：2026-04-14
-- **抓取时间**：2026-04-14 12:00
-
-`prompt-engineering` `research-methodology` `ai-tools` `横纵分析法` `deep-research`
-
----
-
-### [Augment Code: The Era of Multi-Model Engineering](/entry/013eb7fd5ab9) 📄
-@augmentcode · ⭐⭐⭐⭐4 🌐 · 2026-04-14
-
-[EN] - **来源**：X/Twitter
-- **原文链接**：https://x.com/augmentcode/status/2043740459256951158
-- **作者**：augmentcode
-- **日期**：2026-04-14
-- **抓取时间**：2026-04-14 12:0...
-
-`augment-code` `multi-model` `coding-agent` `harness` `model-agnostic`
-
----
-
-### [浏览器自动化：从GUI到OpenCLI](/entry/8ee8a8b72ffc) 📄
-@阿里妹 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-14
-
-[Read in Cubox](https://cubox.pro/web/card/7443547423802132834)  
-[Read Original](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247559535&amp;idx=1&amp;sn=8eb95438291e8594d674652f6bb7c1df&amp;chksm=e8fb4fcf80f86a815cc31cd017098a604bb2b948524d8652ee631027f8542d6de98f4e06f7d3&amp;mpshare=
-
-`browser-automation` `opencli` `api-mimicry` `agent-tooling` `web-scraping`
 
 ---
