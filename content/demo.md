@@ -1,0 +1,41 @@
+## English
+There's a difference between using AI and building with AI.
+
+Using AI is like having a super smart assistant - you tell it what to do and it helps you get things done faster. It's a tool that enhances your existing capabilities.
+
+Building with AI is different - you're creating systems that can think, learn, and act autonomously. You're not just using AI as a tool, you're creating AI-powered systems that can operate independently.
+
+This distinction matters because:
+
+1. Using AI: Focuses on productivity and efficiency
+   - You remain in control
+   - AI assists with specific tasks
+   - The relationship is hierarchical (human > AI)
+
+2. Building with AI: Focuses on autonomy and agency
+   - AI systems can make decisions
+   - The relationship is more collaborative
+   - AI has its own goals and capabilities
+
+The future belongs to those who learn to build with AI, not just use it.
+
+## 中文
+使用AI和用AI构建是有区别的。
+
+使用AI就像有一个超级聪明的助手 - 你告诉它该做什么，它就能帮你更快地完成任务。这是一种增强你现有能力的工具。
+
+用AI构建则不同 - 你正在创建能够独立思考、学习和行动的系统。你不仅把AI当作工具使用，你还在创建能够自主运行的AI驱动系统。
+
+这种区别很重要，因为：
+
+1. 使用AI：专注于生产力和效率
+   - 你保持控制权
+   - AI协助处理特定任务
+   - 关系是等级制的（人类 > AI）
+
+2. 用AI构建：专注于自主性和能动性
+   - AI系统能够做决策
+   - 关系更加协作
+   - AI有自己的目标和能力
+
+未来属于那些学会用AI构建的人，而不仅仅是使用AI的人。
