@@ -1,9 +1,9 @@
 {
-  "total_entries": 633,
-  "active_entries": 589,
+  "total_entries": 637,
+  "active_entries": 593,
   "archived_entries": 44,
-  "this_week_added": 633,
-  "entries_with_content": 466,
+  "this_week_added": 637,
+  "entries_with_content": 0,
   "category_distribution": {
     "coding": 165,
     "learning": 116,
@@ -13,6 +13,7 @@
     "industry": 55,
     "uncategorized": 19,
     "ai-tools": 4,
+    "coding-ai/claude-code": 3,
     "agent-frameworks/harness-engineering": 2,
     "ai-hardware/chip-architecture": 1,
     "hardware-chips/risc-v-ai": 1,
@@ -24,16 +25,17 @@
     "ai-safety/alignment": 1,
     "agent-frameworks/production": 1,
     "workflow": 1,
-    "prompt": 1
+    "prompt": 1,
+    "agent-frameworks/agent-infrastructure": 1
   },
   "source_type_distribution": {
     "article": 437,
-    "x_post": 129,
+    "x_post": 133,
     "paper": 35,
     "github": 14,
     "newsletter": 9,
     "tweet": 6,
     "video": 3
   },
-  "last_updated": "2026-04-17 20:32"
+  "last_updated": "2026-04-17 23:57"
 }

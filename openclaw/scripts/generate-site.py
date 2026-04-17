@@ -217,7 +217,7 @@ def fmt_entry(e):
     added = entry_date(e)
 
     summary = (e.get("summary_zh", "") or e.get("summary_en", "") or "").strip()
-    one_liner = e.get("one_liner", "").strip()
+    one_liner = (e.get("one_liner") or "").strip()
     body = esc(summary) if len(summary) >= 20 else esc(one_liner)
 
     meta_parts = []

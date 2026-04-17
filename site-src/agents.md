@@ -4,7 +4,7 @@ Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **99** 条活跃资源
 
 ## 📅 2026-04-14
 
-### [LLM长期记忆问题](/entry/c9567fc80a61) 📄
+### [LLM长期记忆问题](https://x.com/chrysb/status/2043020014035570784)
 @chrysb · ⭐⭐⭐⭐⭐5 🌐 · 2026-04-14
 
 [EN] - **来源**：X/Twitter
@@ -17,7 +17,7 @@ Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **99** 条活跃资源
 
 ---
 
-### [OpenClaw vs Hermes：一文深入理解两大通用 Agent](/entry/73831b80fee8) 📄
+### [OpenClaw vs Hermes：一文深入理解两大通用 Agent](https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&mid=2650409010&idx=1&sn=04b9836fa07ff877c459e300707ddcff)
 @架构师 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-14
 
 [Read in Cubox](https://cubox.pro/web/card/7443555272636761265)  
@@ -29,7 +29,7 @@ Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **99** 条活跃资源
 
 ## 📅 2026-04-10
 
-### [面向移动设备厂商团队的 Agent 体系与 PerformanceAgent 设计深度研究报告](/entry/110qhnsv) 📄
+### [面向移动设备厂商团队的 Agent 体系与 PerformanceAgent 设计深度研究报告](#)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 面向移动设备厂商研发团队的Agent体系深度研究报告。系统梳理Agent定义谱系、架构范式与多智能体协作机制，给出可落地的PerformanceAgent（性能智能体）参考设计。重点对齐Claude Agent SDK的官方能力模型，涵盖工具调用、子智能体、Skills、Hooks、上下文压缩、权限沙箱、托管形态等。从移动厂商视角出发，设计性能优化专属Agent架构。
@@ -38,7 +38,7 @@ Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **99** 条活跃资源
 
 ---
 
-### [GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault](/entry/c3dc5hz4) ⭐7,553 📄
+### [GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault](https://github.com/YishenTu/claudian) ⭐7,553
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault - YishenTu/claudian ?imageUrl=https%3A%2F%2Fcamo.githubusercontent.com%2Fbbccb46c3e40e6f6bbd14f744f3796c76fdfd9e...
@@ -58,7 +58,7 @@ LLM Agent 在长时间、动态交互环境中运行时，如何实现持续学�
 
 ---
 
-### [GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login.](/entry/26prcruq) ⭐10,549 📄
+### [GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login.](https://github.com/steipete/CodexBar) ⭐10,549
 ⭐⭐⭐3 🌐 · 2026-04-10
 
 # GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login. Show usage stats for OpenAI Codex and Claude Code, without having to login. - steipete/CodexBar CodexBar 🎚️ - May your tokens never run out. Tiny macOS 14+ menu bar app that keeps your Codex, Cl...
@@ -69,7 +69,7 @@ LLM Agent 在长时间、动态交互环境中运行时，如何实现持续学�
 
 ## 📅 2026-04-09
 
-### [Scaling Managed Agents：解耦大脑与双手](/entry/grcvmlet) 📄
+### [Scaling Managed Agents：解耦大脑与双手](https://www.anthropic.com/engineering/managed-agents)
 @Lance Martin, Gabe Cemaj, Michael Cohen · ⭐⭐⭐⭐⭐5  · 2026-04-09
 
 Anthropic工程团队详解Managed Agents架构——将Agent的大脑（决策）与双手（执行）解耦的设计范式。Managed Agents允许将子任务委托给专门的Agent执行，主Agent负责协调。这种架构支持Agent的水平扩展，每个子Agent可以独立运行、使用不同工具、拥有独立的上下文窗口。文章详细讨论了委托机制、上下文传递、错误处理和成本控制等工程挑战。
@@ -89,7 +89,7 @@ LLM Agent 到底是什么、怎么构建、怎么协作、怎么演化？ 本文
 
 ---
 
-### [Trace2Skill](/entry/yno49t26) 📄
+### [Trace2Skill](https://arxiv.org/abs/2603.25158)
 ⭐⭐⭐3 🇨🇳 · 2026-04-07
 
 LLM Agent 需要领域特定技能（skills）才能高效处理复杂任务。但技能创建面临三重困境：
@@ -104,7 +104,7 @@ LLM Agent 需要领域特定技能（skills）才能高效处理复杂任务。�
 
 ## 📅 2026-04-06
 
-### [Launching Claude Managed Agents](/entry/mpkvzkl8) 📄
+### [Launching Claude Managed Agents](https://x.com/RLanceMartin/status/2041927992986009773)
 @RLanceMartin · ⭐⭐⭐⭐⭐5 🌐 · 2026-04-06
 
 Anthropic 发布 Claude Managed Agents：预构建的可配置 Agent 运行底座，运行在托管基础设施上。三大核心概念：Agent（版本化配置）、Environment（沙盒模板）、Session（有状态运行）。四种用法：事件触发、定时、即发即忘、长时间任务。架构上将&quot;大脑&quot;（Claude+调度框架）、&quot;手&quot;（沙盒工具）、&quot;记忆&quot;（会话日志）解耦，支持独立故障恢复。
@@ -113,7 +113,7 @@ Anthropic 发布 Claude Managed Agents：预构建的可配置 Agent 运行底�
 
 ---
 
-### [Hermes 从 0 到 1 教程](/entry/16htfbpp) 📄
+### [Hermes 从 0 到 1 教程](https://x.com/Pluvio9yte/status/2041571378021986486)
 @Pluvio9yte · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-06
 
 介绍 Nous Research 开源的自改进 AI Agent 框架 Hermes。核心特点：内置学习循环，每次完成任务后自动提炼可复用 Skill 存入持久记忆。多层记忆系统（短期+长时+Skills），支持 40+ 工具。与 OpenClaw 对比：Hermes 重单个 Agent 深度自我成长，OpenClaw 强在多平台覆盖和复杂工作流。内置 hermes claw migrate 迁移命令。
@@ -122,7 +122,7 @@ Anthropic 发布 Claude Managed Agents：预构建的可配置 Agent 运行底�
 
 ---
 
-### [Anthropic 今天发了一个新产品，可能会让一批做 AI 智能体基础设施的团队失业](/entry/8nsl8czg) 📄
+### [Anthropic 今天发了一个新产品，可能会让一批做 AI 智能体基础设施的团队失业](https://x.com/dotey/status/2042017036931305667)
 @dotey · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-06
 
 中文深度分析 Claude Managed Agents。与 Claude Code 的区别：Code 跑在本地给个人用，Managed Agents 跑在云端给企业用，24 小时不间断。典型用法：事件触发型（Sentry 自动修 bug）、定时型（每日简报）、即发即忘型（Slack 派活）、长时间任务。技术架构将大脑/手/记忆解耦。案例：Notion、Sentry、Atlassian、Rakuten 等已接入。Anthropic 年化收入突破 300 亿美元。
@@ -142,7 +142,7 @@ LLM Agent 正在从研究概念走向实际部署，但目前的研究呈现碎�
 
 ## 📅 2026-04-05
 
-### [open-agent-sdk: 替代 claude-agent-sdk 的开源方案](/entry/awh81ez0) 📄
+### [open-agent-sdk: 替代 claude-agent-sdk 的开源方案](https://x.com/idoubicc/status/2039006326882546141)
 @idoubi · ⭐⭐⭐3 🇨🇳 · 2026-04-05
 
 基于 Claude Code 泄露源码抽离逻辑实现的开源 Agent SDK，用于替代官方 claude-agent-sdk。解决了官方 SDK 的两个核心问题：1）依赖不开源的 claude code 黑盒调用，出了问题没法修；2）需要创建 claude code 本地进程处理 query，开销大，不适合云端规模化。open-agent-sdk 完全兼容官方接口（只需换包名）、完全开源可定制、函数调用不依赖本地 cli 进程，适合云端高并发。MIT 协议。
@@ -186,7 +186,7 @@ AI Agent实践的知识图谱总结，涵盖四大核心主题：1）记忆系�
 
 ## 📅 2026-03-24
 
-### [Agent Skills综述](/entry/q38vahjk) 📄
+### [Agent Skills综述](https://arxiv.org/abs/2602.12430)
 @**：arXiv · ⭐⭐⭐3 🇨🇳 · 2026-03-24
 
 如何将大型语言模型从单体模型转变为模块化、可动态扩展的智能体系统，同时确保安全性和可维护性。
@@ -219,7 +219,7 @@ AI Agent实践的知识图谱总结，涵盖四大核心主题：1）记忆系�
 
 ## 📅 2026-03-23
 
-### [LLM Agent](/entry/msn7omkf) 📄
+### [LLM Agent](https://arxiv.org/abs/2503.21460)
 @：arXiv · ⭐⭐⭐3 🇨🇳 · 2026-03-23
 
 论文系统梳理基于大语言模型（LLM）的智能 Agent 系统，从方法论、应用和挑战三个维度构建统一分类体系，揭示 Agent 设计原则与复杂环境中涌现行为之间的基本联系。
@@ -265,7 +265,7 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 
 ## 📅 2026-03-21
 
-### [Agentic Code Reasoning](/entry/l9nwgb3o) 📄
+### [Agentic Code Reasoning](#)
 ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-21
 
 论文试图解决什么问题？
@@ -288,7 +288,7 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 
 ## 📅 2026-03-20
 
-### [迈向AI智能体可靠性科学](/entry/egu78302) 📄
+### [迈向AI智能体可靠性科学](#)
 ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-20
 
 **论文标题**: Towards a Science of AI Agent Reliability
@@ -314,7 +314,7 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 
 ## 📅 2026-03-19
 
-### [从LLM到自主Agent综述](/entry/vlib0lxg) 📄
+### [从LLM到自主Agent综述](https://arxiv.org/abs/2504.19678)
 @**: arXiv:2504.19678 · ⭐⭐⭐3 🇨🇳 · 2026-03-19
 
 如何系统性地理解和评估从LLM推理到自主AI Agent的演进？
@@ -357,7 +357,7 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 
 ## 📅 2026-03-17
 
-### [Agentic Reasoning: LLM的智能体推理范式](/entry/ag5671fq) 📄
+### [Agentic Reasoning: LLM的智能体推理范式](https://arxiv.org/abs/2601.12538)
 ⭐⭐⭐3 🇨🇳 · 2026-03-17
 
 如何将大型语言模型（LLM）从被动的文本生成器，转变为能够自主规划、行动和学习的智能体？
@@ -374,7 +374,7 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 
 ---
 
-### [OpenClaw深度调研报告](/entry/ui7ss4vj) 📄
+### [OpenClaw深度调研报告](https://github.com/openclaw/openclaw)
 ⭐⭐⭐3 🇨🇳 · 2026-03-17
 
 OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent、Memory、MCP、Skills、Cron）、运行机制、与其他Agent框架的对比分析。报告系统梳理了OpenClaw的技术栈和生态位，对理解个人AI Agent的工程化实现有参考价值。
@@ -385,7 +385,7 @@ OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent�
 
 ## 📅 2026-03-16
 
-### [From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review](/entry/zkmmaa8x) 📄
+### [From LLM Reasoning to Autonomous AI Agents: A Comprehensive Review](#)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-16
 
 **阅读日期**: 2026-03-16
@@ -419,7 +419,7 @@ OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent�
 
 ## 📅 2026-03-15
 
-### [LLM Agent推理必要性](/entry/gpbo0rtm) 📄
+### [LLM Agent推理必要性](https://arxiv.org/abs/2503.11074)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-15
 
 # Exploring the Necessity of Reasoning in LLM-based Agent Scenarios
@@ -442,7 +442,7 @@ OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent�
 
 ## 📅 2026-03-12
 
-### [Dr. MAMR：解决多智能体 LLM 推理中的惰性智能体问题](/entry/00r7muqm) 📄
+### [Dr. MAMR：解决多智能体 LLM 推理中的惰性智能体问题](#)
 @：** · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-12
 
 问题来源：
@@ -493,7 +493,7 @@ OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent�
 
 ## 📅 2026-03-10
 
-### [构建自主 LLM 智能体基础](/entry/bdzl4vyf) 📄
+### [构建自主 LLM 智能体基础](#)
 @** | 人工预定义 | 自主生成 | · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-10
 
 这篇论文要解决什么问题？
@@ -522,7 +522,7 @@ OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent�
 
 ---
 
-### [AI 重构软件工程：OpenAI Harness Engineering，程序员不写代码的时代来了](/entry/0o7typwh) 📄
+### [AI 重构软件工程：OpenAI Harness Engineering，程序员不写代码的时代来了](https://mp.weixin.qq.com/s?__biz=MzIxMzE2OTA1NA==&mid=2247504549&idx=1&sn=1960d1b4f5adc272beafe02769b70080&chksm=9662df573f9f31d5e66ca65058639cc344e2a32d8650454025313de92c8dead3c053a30c7101&mpshare=1&scene=1&srcid=0310AcGnRt8mXm5THdB5S6Y3&sharer_shareinfo=8ce3a2d537351730960ccb449abb2755&sharer_shareinfo_first=d7497129c2be0b41a6e58b76c66a5a05)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-10
 
 AI 重构软件工程：OpenAI Harness Engineering，程序员不写代码的时代来了
@@ -536,7 +536,7 @@ Read Original
 
 ---
 
-### [98 页的 OpenClaw 橙皮书](/entry/ti07g7fy) 📄
+### [98 页的 OpenClaw 橙皮书](https://x.com/AlchainHust/status/2031212769694068775)
 @AI进化论-花生 · ⭐⭐⭐3 🇨🇳 · 2026-03-10
 
 AI 进化论-花生发布的 98 页 OpenClaw 橙皮书，浏览量超 175 万，书签数 5713。这是 OpenClaw（龙虾）生态的重要实战手册文档。
@@ -547,7 +547,7 @@ AI 进化论-花生发布的 98 页 OpenClaw 橙皮书，浏览量超 175 万，
 
 ## 📅 2026-03-09
 
-### [ARTEMIS - LLM 智能体的自动化进化优化](/entry/2vsxzg1f) 📄
+### [ARTEMIS - LLM 智能体的自动化进化优化](#)
 ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-09
 
 **论文**: Evolving Excellence: Automated Optimization of LLM-based Agents  
@@ -572,7 +572,7 @@ AI 进化论-花生发布的 98 页 OpenClaw 橙皮书，浏览量超 175 万，
 
 ---
 
-### [搜索外脑接入龙虾生态 - SearxNG 方案](/entry/ggh39whe) 📄
+### [搜索外脑接入龙虾生态 - SearxNG 方案](https://x.com/YuLin807/status/2030996280051462609)
 @QingYue · ⭐⭐⭐3 🇨🇳 · 2026-03-09
 
 OpenClaw 用户分享将 SearxNG 聚合搜索引擎接入龙虾生态（Claude Code + MCP）的方案。核心判断：LLM 叠 LLM 是反模式（Perplexica 的搜索→小模型总结→返回链路等于让实习生帮主刀医生看片子），正确做法是 SearxNG 毫秒级返回原始搜索结果，让大模型自己判断哪条值得深入。方案特点：零 API key、零成本、全隐私，聚合 70+ 搜索源，含反爬实战经验（Reddit/知乎绕过方案）。
@@ -583,7 +583,7 @@ OpenClaw 用户分享将 SearxNG 聚合搜索引擎接入龙虾生态（Claude C
 
 ## 📅 2026-03-08
 
-### [Agentic Reasoning](/entry/a26ppn58) 📄
+### [Agentic Reasoning](#)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-08
 
 一句话概括：如何让 LLM 在处理复杂研究任务时，能够有效利用外部工具、维护推理上下文，并生成可解释的推理路径？
@@ -617,7 +617,7 @@ Agentic Reasoning 论文的核心价值在于&quot;多智能体协作&quot;和&q
 
 ## 📅 2026-03-03
 
-### [如何从零开始写一个 OpenClaw -- 关于我用 Rust 写一只🦀🦞(CrabClaw)的开发手记](/entry/huopxfae) 📄
+### [如何从零开始写一个 OpenClaw -- 关于我用 Rust 写一只🦀🦞(CrabClaw)的开发手记](https://x.com/jakevin7/status/2028499952973099363)
 @jakevin7 · ⭐⭐⭐⭐⭐5  · 2026-03-03
 
 **By @jakevin7** (卡比卡比) · Mon Mar 02 15:57:31 +0000 2026
@@ -635,7 +635,7 @@ Agentic Reasoning 论文的核心价值在于&quot;多智能体协作&quot;和&q
 
 ---
 
-### [Agent Frameworks Are Getting Squeezed](/entry/7az6rlg5) 📄
+### [Agent Frameworks Are Getting Squeezed](https://x.com/tonykipkemboi/status/2028564120338063859)
 @tonykipkemboi · ⭐⭐⭐⭐⭐5  · 2026-03-03
 
 **By @tonykipkemboi (Tony Kipkemboi)**
@@ -649,7 +649,7 @@ When you look at what most agent frameworks actually do, it&#x27;s workflow orch
 
 ---
 
-### [或](/entry/pvee10h3) 📄
+### [或](https://x.com/Wuming_Mr_/status/2028419040847249428)
 @WumingMr · ⭐⭐⭐3  · 2026-03-03
 
 **@Wuming_Mr_** (無名先生)
@@ -674,7 +674,7 @@ ClawHub 现在下载量≠安全，别太天真。
 
 ---
 
-### [2026-03-03-1210-evilcos-OpenClaw-Security-Practice-Guide-2028458311801274671](/entry/01qaflpz) 📄
+### [2026-03-03-1210-evilcos-OpenClaw-Security-Practice-Guide-2028458311801274671](https://x.com/evilcos/status/2028458311801274671)
 @evilcos · ⭐⭐⭐3 🇨🇳 · 2026-03-03
 
 **@evilcos** (Cos(余弦)😶‍🌫️)
@@ -689,7 +689,7 @@ ClawHub 现在下载量≠安全，别太天真。
 
 ---
 
-### [2026-03-03-1210-yibie-Shipping-at-Inference-Speed-Notes-2028650995153314299](/entry/5hv63unh) 📄
+### [2026-03-03-1210-yibie-Shipping-at-Inference-Speed-Notes-2028650995153314299](https://x.com/yibie/status/2028650995153314299)
 @yibie · ⭐⭐⭐3  · 2026-03-03
 
 **@yibie** (yibie)
@@ -704,7 +704,7 @@ Perter 在 AI 辅助编程的范式转变，是来自他亲自开发的项目 Vi
 
 ## 📅 2026-03-02
 
-### [Agentic Software Engineering](/entry/59mukx8s) 📄
+### [Agentic Software Engineering](https://x.com/ashpreetbedi/status/2028176285575594465)
 @ashpreetbedi · ⭐⭐⭐⭐⭐5  · 2026-03-02
 
 Note: this post is about building your own agents (agentic software engineering), not about using coding agents.
@@ -716,7 +716,7 @@ By now you&#x27;ve probably used a few agents, or at least heard of Claude Code,
 
 ---
 
-### [工程师，开始给 Agent 打工了](/entry/s3r7a5ia) 📄
+### [工程师，开始给 Agent 打工了](https://x.com/wangray/status/2028132386756780220)
 @wangray · ⭐⭐⭐⭐4 🇨🇳 · 2026-03-02
 
 OpenAI 内部有个团队，5 个月，3 个工程师，几乎不靠手写代码，做出了一个内部产品。
@@ -739,7 +739,7 @@ OpenAI 内部有个团队，5 个月，3 个工程师，几乎不靠手写代码
 
 ---
 
-### [使用一个月 OpenClaw 的门槛与成本复盘](/entry/ln2oy72e) 📄
+### [使用一个月 OpenClaw 的门槛与成本复盘](https://x.com/LotusDecoder/status/2028272613919965585)
 @LotusDecoder · ⭐⭐⭐3  · 2026-03-02
 
 这是一个一线使用者的一个月复盘，核心结论是：OpenClaw 当前更适合有技术维护能力、愿意投入基础设施与 API 成本、并能容忍不稳定性的用户。
@@ -757,7 +757,7 @@ OpenAI 内部有个团队，5 个月，3 个工程师，几乎不靠手写代码
 
 ---
 
-### [alibaba/OpenSandbox](/entry/f7cndt4r) 📄
+### [alibaba/OpenSandbox](https://github.com/alibaba/OpenSandbox")
 @alibaba · ⭐⭐⭐3  · 2026-03-02
 
 OpenSandbox is a general-purpose sandbox platform for AI applications. It provides unified sandbox lifecycle and execution APIs, and supports coding agents, GUI agents, evaluation, and RL training scenarios.
@@ -767,7 +767,7 @@ OpenSandbox 是一个面向 AI 应用的通用沙箱平台，提供统一的沙�
 
 ---
 
-### [OpenClaw 记忆外挂：Tokens 消耗降低 72%](/entry/oprzewvb) 📄
+### [OpenClaw 记忆外挂：Tokens 消耗降低 72%](https://x.com/lxfater/status/2028320139368714644)
 @lxfater · ⭐⭐⭐3 🇨🇳 · 2026-03-02
 
 这篇 X Article 介绍了通过 MemOS Cloud 插件给 OpenClaw 增加外部记忆层，以降低 token 消耗并提升跨会话记忆稳定性，并进一步讨论了多 Agent 共享/分层记忆的协作模式。
@@ -787,7 +787,7 @@ OpenClaw 的还有个问题是主动记忆的，也就是说，他记不记住�
 
 ## 📅 2026-03-01
 
-### [OpenClaw丨我的龙虾为自己种了一棵会迭代的记忆树](/entry/5cqwee83) 📄
+### [OpenClaw丨我的龙虾为自己种了一棵会迭代的记忆树](https://x.com/loryoncloud/status/2027865988558164186)
 @Lory · ⭐⭐⭐⭐4  · 2026-03-01
 
 文章较长 感谢阅读 或者直接把这篇推文的链接扔给你的龙虾
@@ -819,7 +819,7 @@ OpenClaw 的还有个问题是主动记忆的，也就是说，他记不记住�
 
 ---
 
-### [Don&#x27;t trust AI agents](/entry/p327t0g8) 📄
+### [Don&#x27;t trust AI agents](https://x.com/Gavriel_Cohen/status/2027841164150178238)
 @Gavriel_Cohen · ⭐⭐⭐⭐4  · 2026-03-01
 
 When you&#x27;re building with AI agents, they should be treated as untrusted and potentially malicious. Whether it&#x27;s prompt injection, a model trying to escape its sandbox, or something nobody&#x27;s thought of yet, you shouldn&#x27;t be trusting the agent. The right approach isn&#x27;t better permission checks or smarter allowlists. It&#x27;s architecture that assumes agents will misbehave and contains the damage when they do.
@@ -831,7 +831,7 @@ When you&#x27;re building with AI agents, they should be treated as untrusted an
 
 ## 📅 2026-02-28
 
-### [How to set up OpenClaw Agents that actually get better Over Time](/entry/pfrs4w73) 📄
+### [How to set up OpenClaw Agents that actually get better Over Time](https://x.com/Saboo_Shubham_/status/2027463195150131572)
 @Shubham Saboo · ⭐⭐⭐⭐4 🌐 · 2026-02-28
 
 40 天实践：Agent 变聪明靠的不是调 prompt 或换模型，而是持续对话反馈让它们自己写下来。三层操作系统：内容 Agent 学会了作者的声音、研究 Agent 每天交付 7 个值得读的故事、8 个 Agent 24/7 运行。核心是越来越丰富的 markdown 文件栈。同一模型第 1 天和第 40 天输出质量天差地别。
@@ -840,7 +840,7 @@ When you&#x27;re building with AI agents, they should be treated as untrusted an
 
 ---
 
-### [6551 开源 X + 全网新闻源 MCP + Skill](/entry/gtcaz1r1) 📄
+### [6551 开源 X + 全网新闻源 MCP + Skill](https://x.com/cryptoxiao/status/2026956308092453360)
 @cryptoxiao · ⭐⭐⭐3 🇨🇳 · 2026-02-28
 
 6551 团队开源了积累一年的数据基础架构：X 数据 + 全网 50+ 实时新闻 + 链上数据的 MCP 和 Skill。Agent 可直接连上 X 数据和全网新闻源，24h 监控分析并触发 Telegram 提醒。无需配置 API 密钥。几分钟部署。
@@ -851,7 +851,7 @@ When you&#x27;re building with AI agents, they should be treated as untrusted an
 
 ## 📅 2026-02-27
 
-### [DeerFlow 2.0: ByteDance 开源超级 Agent 运行底座](/entry/finwgv5v) 📄
+### [DeerFlow 2.0: ByteDance 开源超级 Agent 运行底座](https://github.com/bytedance/deer-flow)
 @Bytedance · ⭐⭐⭐⭐4 🌐 · 2026-02-27
 
 字节跳动开源 DeerFlow 2.0，基于 LangGraph 和 LangChain 完全重写的超级 Agent 运行底座。可编排子 Agent、记忆、工具与沙箱以完成长链路多步骤任务。核心能力：任务分解（主 Agent 并行派发子 Agent）、中间结果汇总、跨会话持久化记忆。默认提供文件系统、技能、执行环境。
@@ -860,7 +860,7 @@ When you&#x27;re building with AI agents, they should be treated as untrusted an
 
 ---
 
-### [Scrapling: 自适应 Web 抓取框架](/entry/qky6krnb) 📄
+### [Scrapling: 自适应 Web 抓取框架](https://github.com/D4Vinci/Scrapling)
 @D · ⭐⭐⭐⭐4 🌐 · 2026-02-27
 
 自适应网页抓取框架，从单次请求到全量并发爬取。解析器能在页面结构变化后重新定位元素，抓取器提供反反爬能力（如 Cloudflare 绕过）。Spider 系统支持并发、多会话路由、断点续跑、代理轮换和流式输出。适合生产级数据流水线。支持 MCP 集成。
@@ -871,7 +871,7 @@ When you&#x27;re building with AI agents, they should be treated as untrusted an
 
 ## 📅 2026-02-26
 
-### [Pi: The Minimal Agent Within OpenClaw](/entry/fvwtcwdn) 📄
+### [Pi: The Minimal Agent Within OpenClaw](https://lucumr.pocoo.org/2026/1/31/pi/)
 @Armin Ronacher · ⭐⭐⭐⭐⭐5 🌐 · 2026-02-26
 
 OpenClaw 底层的编码 Agent Pi 详解。Pi 由 Mario Zechner 开发，理念是让 Agent 自己扩展自己而非下载扩展。刻意不支持 MCP（可用 mcporter 桥接），强调代码生成和运行。核心设计：会话是树结构（可分支/回退/导航），内置热重载让 Agent 自己写代码→重载→测试循环。多模型支持、可移植性优先。扩展可注册工具给 LLM 调用，也可渲染自定义 TUI 组件。
@@ -880,7 +880,7 @@ OpenClaw 底层的编码 Agent Pi 详解。Pi 由 Mario Zechner 开发，理念�
 
 ---
 
-### [我的 Obsidian 不是笔记软件，是操作系统](/entry/gl77yady) 📄
+### [我的 Obsidian 不是笔记软件，是操作系统](https://x.com/UncleJAI/article/2026929169511362928)
 @Uncle J · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-02-26
 
 HR 出身的非程序员，用 Obsidian + Claude Code 搭建了复杂个人工作台。506 次 git commit、85+ AI Skills、3 个生命周期钩子、435 条自动 session logs、7 个平台同步分发。核心理念&quot;File over App&quot;：文件属于你，系统和 AI 是过客。原料从四面八方进来，经过流水线加工，变成成品出去。强调本地优先、数据自主。
@@ -889,7 +889,7 @@ HR 出身的非程序员，用 Obsidian + Claude Code 搭建了复杂个人工�
 
 ---
 
-### [TenacitOS: OpenClaw Mission Control Dashboard](/entry/rrozy75n) 📄
+### [TenacitOS: OpenClaw Mission Control Dashboard](https://github.com/carlosazaustre/tenacitOS)
 @geekbb · ⭐⭐⭐⭐4  · 2026-02-26
 
 OpenClaw 实时监控与控制中心，基于 Next.js、React 19 和 Tailwind CSS v4。部署在 OpenClaw 工作区内，直接读取主机配置/代理/会话/记忆/日志，不需额外后端。核心模块：系统监控、代理看板、成本追踪、定时任务管理、活动流、记忆/文件浏览、全局搜索、通知中心、只读终端。强调&quot;OpenClaw 本身就是后端&quot;。
@@ -898,7 +898,7 @@ OpenClaw 实时监控与控制中心，基于 Next.js、React 19 和 Tailwind CS
 
 ---
 
-### [The AI is the Computer](/entry/izm2nhfr) 📄
+### [The AI is the Computer](https://x.com/AravSrinivas/article/2026710957272207490)
 @Aravind Srinivas · ⭐⭐⭐⭐4 🌐 · 2026-02-26
 
 Perplexity CEO 的核心观点：没有一个模型家族能独立做到最好，多模型编排远超任何单一模型。介绍了内部实验 ASI（后端 19 个模型），本质上是一台计算机——有文件系统、shell、浏览器。类比 Chromebook：Google 没错理解网络是最重要的部分，但低估了网络的 READ 功能。AI 是把 READ 能力真正补上的关键。
@@ -909,7 +909,7 @@ Perplexity CEO 的核心观点：没有一个模型家族能独立做到最好�
 
 ## 📅 2026-02-25
 
-### [一句话让 Agent 接入全网语义搜索与多平台读取](/entry/4uiownze) 📄
+### [一句话让 Agent 接入全网语义搜索与多平台读取](https://github.com/Panniantong/Agent-Reach)
 @Neo Reid · ⭐⭐⭐3 🇨🇳 · 2026-02-25
 
 Agent Reach：一句安装指令快速获得 Web、Twitter/X、YouTube、Reddit、B站、RSS 等读取与搜索能力。免费优先、可替换渠道实现、带 doctor 诊断命令。每个平台独立模块，便于后续替换底层工具。降低 Agent 联网能力搭建门槛。
@@ -920,7 +920,7 @@ Agent Reach：一句安装指令快速获得 Web、Twitter/X、YouTube、Reddit�
 
 ## 📅 2026-02-24
 
-### [OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team](/entry/x88lksbo) 📄
+### [OpenClaw + Codex/ClaudeCode Agent Swarm: The One-Person Dev Team](https://x.com/elvissun/status/2025920521871716562)
 @Elvis · ⭐⭐⭐⭐⭐5 🌐 · 2026-02-24
 
 以 OpenClaw 为编排层，Codex/Claude Code 为编码执行层的双层架构。编排助手 Zoe 负责分配任务、生成提示、跟踪进度、Telegram 通知。核心思想是上下文专业化：编码 Agent 拿代码上下文，编排层掌握业务上下文。94 次提交/日峰值，30 分钟 7 个 PR。流程包含隔离 worktree、tmux 控制、JSON 任务注册、周期巡检、三模型审查（Codex/Gemini/Claude）。
@@ -929,7 +929,7 @@ Agent Reach：一句安装指令快速获得 Web、Twitter/X、YouTube、Reddit�
 
 ---
 
-### [全面解析：如何部署 Conway Agent，开启链上 AI 生存游戏](/entry/z5yx2tcn) 📄
+### [全面解析：如何部署 Conway Agent，开启链上 AI 生存游戏](https://x.com/JXiaoLoong/status/2024376180707905816)
 @0xJA · ⭐⭐⭐3 🇨🇳 · 2026-02-24
 
 介绍 Conway Agent 部署方法。Conway 把服务器（Conway Cloud/Sandbox）、AI 推理（Conway Compute）和域名封装到统一平台，使用 Credit 计费。定位为完全自主运行的 AI 系统。内容较简短，为归档节选。
@@ -938,7 +938,7 @@ Agent Reach：一句安装指令快速获得 Web、Twitter/X、YouTube、Reddit�
 
 ---
 
-### [Build Your Own Claw Empire: How OpenClaw and Emerging Claws Work Under the Hood](/entry/i4ujbfte) 📄
+### [Build Your Own Claw Empire: How OpenClaw and Emerging Claws Work Under the Hood](https://x.com/MisbahSy/status/2025570052108665231)
 @Misbah Syed · ⭐⭐⭐3  · 2026-02-24
 
 OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 OpenClaw 与新一代 Claw 类系统底层如何构建，以及真实部署里哪些架构选择最关键。用户在旧游戏电脑上运行自治 Agent、自动化个人工作流。内容为摘要归档。
@@ -949,7 +949,7 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 
 ## 📅 2026-02-23
 
-### [OpenClaw Memory 终极指南](/entry/ednt9rlv) 📄
+### [OpenClaw Memory 终极指南](https://x.com/lijiuer92/status/2025678747509391664)
 @李韭二 · ⭐⭐⭐3 🇨🇳 · 2026-02-23
 
 围绕 Agent 失忆、记忆可发现性、长期上下文维护与工程化落地展开，强调通过结构化记忆机制降低重复输入和推理成本。适合作为 OpenClaw/Agent 记忆系统设计的实践参考。内容为摘要归档，待补全全文。
@@ -958,7 +958,7 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 
 ---
 
-### [The File System Is the New Database: How I Built a Personal OS for AI Agents](/entry/qr4q3vtj) 📄
+### [The File System Is the New Database: How I Built a Personal OS for AI Agents](https://x.com/koylanai/status/2025286163641118915)
 @Muratcan Koylan · ⭐⭐⭐3 🌐 · 2026-02-23
 
 把&quot;上下文管理&quot;从一次性对话输入转为可持久化的文件系统结构，让 Agent 读写统一的项目记忆与规则，减少重复提示、降低上下文漂移，提高长期任务稳定性。内容为摘要归档。
@@ -969,7 +969,7 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 
 ## 📅 2026-02-10
 
-### [借助 AI Coding 快速打造 AI Agent 系统](/entry/7gpoqruF) 📄
+### [借助 AI Coding 快速打造 AI Agent 系统](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247558316&idx=1&sn=6a53c77fe9bdb8b35a1d513897c4a472&chksm=e842e7784cbd5d863e66d3cd9c7b473fb5f8defdb0bd171ead807408a0166b28963665f62dc2&mpshare=1&scene=1&srcid=0210sWl3n5BHTgBMJFMPVztS&sharer_shareinfo=49d4cda5f958e336f51b9bf2fbd8d2e4&sharer_shareinfo_first=49d4cda5f958e336f51b9bf2fbd8d2e4)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-02-10
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FZ6bicxIx5naJ92fSX0GbcKeLprRiaibf3urmibOHJpPnmXBhWcxTzViaWhxiaeooj6cMYv3QcTy32rocngPbz7fCljgw%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0)
@@ -989,7 +989,7 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 
 ## 📅 2026-01-10
 
-### [Demystifying evals for AI agents \ Anthropic](/entry/ghekus0k) 📄
+### [Demystifying evals for AI agents \ Anthropic](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 ⭐⭐⭐⭐4 🌐 · 2026-01-10
 
 # Demystifying evals for AI agents \ Anthropic Demystifying evals for AI agents Good evaluations help teams ship AI agents more confidently. Without them, it&#x27;s easy to get stuck in reactive loopscatching issues only in production, where fixing one failure creates others. Evals make problems and beha...
@@ -1000,7 +1000,7 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 
 ## 📅 2026-01-09
 
-### [Claude Code 2.1 发布：一口气更新了80多个功能特性](/entry/19vlqasa) 📄
+### [Claude Code 2.1 发布：一口气更新了80多个功能特性](https://mp.weixin.qq.com/s?__biz=Mzg2OTA1OTAxNA==&mid=2247487828&idx=1&sn=034951b9b8e19a685149754b8d3c21cb&chksm=cf0f3accae59b6ec7c6ff6c44a36dae7b31e89ec48b31ac557989d09e36c0241719f48a16d07&mpshare=1&scene=1&srcid=0108dzRFNTXJEYatj8DqtQNO&sharer_shareinfo=a8e7e4a0ba12af7a110455a2315cbaec&sharer_shareinfo_first=a8e7e4a0ba12af7a110455a2315cbaec)
 ⭐⭐⭐3 🇨🇳 · 2026-01-09
 
 # Claude Code 2.1 发布：一口气更新了80多个功能特性 最近这一周我几乎都是每天10小时+的在疯狂用Claude Code，又找到了一些做产品的乐趣。 最近这一周我几乎都是每天10小时+的在疯狂用Claude Code，又找到了一些做产品的乐趣。尤其是昨天「小猫相册」app在AppStore上线后，我又收到不少反馈，已经在继续疯狂🤪改bug、修体验了。 然后，用着用着，突然发现Claude Code 已经跳到2.1版本了。 我去查了下，他们是昨天（1月7日）发布的2.1.0，今天又跟了个2.1.1小修复。2026年第一个大版本，这次更新的内容多得离谱，changelog里列了8...
@@ -1011,7 +1011,7 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 
 ## 📅 2026-01-07
 
-### [How agents can use filesystems for context engineering](/entry/qx9guy83) 📄
+### [How agents can use filesystems for context engineering](https://blog.langchain.com/how-agents-can-use-filesystems-for-context-engineering/)
 ⭐⭐⭐⭐4 🌐 · 2026-01-07
 
 LangChain 博客阐述文件系统作为 Agent 上下文工程核心工具的价值。四个关键场景：1) 大 token 消耗时，文件系统作为 scratch pad 存储工具结果，按需 grep 读取；2) 需要大量上下文时，通过文件持久化计划和子 Agent 知识，避免 context window 限制；3) 寻找小众信息时，glob/grep 比语义搜索更适合技术文档和代码文件；4) 持续学习时，Agent 可将用户偏好和经验写入自身文件。核心观点：文件系统提供统一接口，让 Agent 灵活存储、检索和更新无限量上下文。
@@ -1022,7 +1022,7 @@ LangChain 博客阐述文件系统作为 Agent 上下文工程核心工具的价
 
 ## 📅 2026-01-05
 
-### [2025，MCP、Agent、AI Coding](/entry/oihs1hkc) 📄
+### [2025，MCP、Agent、AI Coding](https://mp.weixin.qq.com/s/obkKXZAEIsR3_DCup_kEsA)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-05
 
 2025，MCP、Agent、AI Coding
@@ -1038,7 +1038,7 @@ Read Original
 
 ---
 
-### [2026 AI First 系列（二）：Vibe Coding——思维速度编程的民主化革命](/entry/694ono0s) 📄
+### [2026 AI First 系列（二）：Vibe Coding——思维速度编程的民主化革命](https://youmind.com/s/3iWn21PVIlNg7V)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-05
 
 2026 AI First 系列（二）：Vibe Coding——思维速度编程的民主化革命
@@ -1052,7 +1052,7 @@ Read Original
 
 ---
 
-### [2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期](/entry/l5ysgz2n) 📄
+### [2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期](https://youmind.com/s/hPiqSBPU4tVa7o)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-05
 
 2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期
@@ -1069,7 +1069,7 @@ Read Original
 
 ## 📅 2026-01-04
 
-### [Android Studio  的 AI  Agent 有什么特别？未来会有惊艳什么功能？](/entry/8ciwpr89) 📄
+### [Android Studio  的 AI  Agent 有什么特别？未来会有惊艳什么功能？](https://mp.weixin.qq.com/s?__biz=Mzg3NTA3MDIxOA==&mid=2247495598&idx=1&sn=14cd8f9ec25389d6dac961161e02c8dd&chksm=cfa670e94d62461ea809888f491246dc145a67e574325e765a86b94094dddb3757373348a788&mpshare=1&scene=1&srcid=01045ZRrXGuhBGBbkwMFi6ZQ&sharer_shareinfo=72c66741b7649e58bdab5c63ff574369&sharer_shareinfo_first=72c66741b7649e58bdab5c63ff574369)
 ⭐⭐⭐⭐4 🌐 · 2026-01-04
 
 Android Studio  的 AI  Agent 有什么特别？未来会有惊艳什么功能？
@@ -1085,7 +1085,7 @@ Read Original
 
 ## 📅 2025-12-15
 
-### [How we built our multi-agent research system \ Anthropic](/entry/y1pyhae8) 📄
+### [How we built our multi-agent research system \ Anthropic](https://www.anthropic.com/engineering/multi-agent-research-system)
 ⭐⭐⭐⭐4 🌐 · 2025-12-15
 
 Anthropic 详细分享其 Research 功能的多 Agent 系统从原型到生产的过程。架构采用 orchestrator-worker 模式：LeadResearcher 规划和协调，Subagents 并行搜索。8 条 prompt 工程原则：像 Agent 一样思考、教会 orchestrator 如何委派、按复杂度缩放资源、工具设计至关重要、让 Agent 自我改进、先宽后窄搜索、引导思考过程、并行工具调用。评测方面：LLM-as-judge + 人工测试互补。生产挑战：有状态错误累积、调试困难、需要 rainbow deployment。BrowseComp 评测中 token 使用量解释了 80% 的性能方差。
@@ -1118,7 +1118,7 @@ OPPO ColorOS 智慧产品研发总监姜昱辰在极客公园创新大会 2026 �
 
 ## 📅 2025-12-05
 
-### [Android 系统上 AI Agent 的一些可能性](/entry/0dqwkocc) 📄
+### [Android 系统上 AI Agent 的一些可能性](https://mp.weixin.qq.com/s?__biz=MjM5Njg5ODU2NA==&mid=2257503010&idx=1&sn=a1337986bbada15f63dbe267d3eed8b4&chksm=a4d3255f3f334e0c66fe400364a60299207afff6b4439a6478704ac5176681af7eaa202627af&mpshare=1&scene=1&srcid=1205CnGTws2OF7LnyRN95gYS&sharer_shareinfo=39c2afd703555e8ad0b770170b5eba98&sharer_shareinfo_first=564c134774d8cff2fe4b03464d899095)
 ⭐⭐⭐3 🇨🇳 · 2025-12-05
 
 Android 系统上 AI Agent 的一些可能性
@@ -1134,7 +1134,7 @@ Read Original
 
 ## 📅 2025-10-18
 
-### [Anthropic Skills 深度解析：当通用 Agent 学会专业技能](/entry/s4t21yew) 📄
+### [Anthropic Skills 深度解析：当通用 Agent 学会专业技能](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247487766&idx=1&sn=ea329ba58ab2e73678923746c88e704e&chksm=c18fea664612591eb5c9a3641e5c4befcf77c48029ad4606e3d5451e49a3668b614f7b7213e7&mpshare=1&scene=1&srcid=1018jUA9gxU80yxBFKx57a4U&sharer_shareinfo=95ee7ed355fcd780e612a6864836496f&sharer_shareinfo_first=95ee7ed355fcd780e612a6864836496f)
 ⭐⭐⭐⭐4 🇨🇳 · 2025-10-18
 
 Anthropic Skills 深度解析：当通用 Agent 学会专业技能
@@ -1161,7 +1161,7 @@ Read Original
 
 ## 📅 2025-09-12
 
-### [Anthropic 官方分享：为 AI 智能体打造高效工具——让 AI 智能体来帮忙](/entry/pkzeuz1r) 📄
+### [Anthropic 官方分享：为 AI 智能体打造高效工具——让 AI 智能体来帮忙](https://mp.weixin.qq.com/s/Oe3J_phfjwSVBqI46yIVCA?clicktag=bar_praise&scene=294&clickpos=0&from_safari=0)
 ⭐⭐⭐⭐4 🇨🇳 · 2025-09-12
 
 Anthropic 官方分享：为 AI 智能体打造高效工具——让 AI 智能体来帮忙
@@ -1186,7 +1186,7 @@ Read Original
 
 ## 📅 2025-07-09
 
-### [AI 时代如何做独立开发](/entry/4jv028mx) 📄
+### [AI 时代如何做独立开发](https://mp.weixin.qq.com/s?__biz=MzU0NDk4OTk2Mg==&mid=2247485247&idx=1&sn=e4ca3b067e64a4a98a7efdc763e42415&chksm=faeba4ceb694e84c3ae559d5669792288e682f8ecd822e982e48090d3fc022a7afdb471e9140&mpshare=1&scene=1&srcid=0709UarWRBnAKMiyroqUzGSl&sharer_shareinfo=32b4247038a414ec6aa48b91d378db26&sharer_shareinfo_first=32b4247038a414ec6aa48b91d378db26)
 ⭐⭐⭐⭐4 🇨🇳 · 2025-07-09
 
 Read in Cubox  
@@ -1211,7 +1211,7 @@ Read Original
 
 ## 📅 2025-06-18
 
-### [Anthropic：我们如何构建多智能体研究系统](/entry/ru2zdr01) 📄
+### [Anthropic：我们如何构建多智能体研究系统](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247489816&idx=1&sn=989928020101777361b9c63b8dbffe55&chksm=c20cbcb2151edc3ac638589b0596dd4fe44cd919c177b6033ee9dcefb168fe0edd78c4e5bebb&mpshare=1&scene=1&srcid=0618VxXV1qhfuDCmQJUMYfMO&sharer_shareinfo=da3ecd986cd6fcfad23734ec74fa6282&sharer_shareinfo_first=cd4cf214372e755c614fa457c6332cda)
 ⭐⭐⭐⭐4 🇨🇳 · 2025-06-18
 
 Anthropic：我们如何构建多智能体研究系统
@@ -1227,7 +1227,7 @@ Read Original
 
 ## 📅 2025-05-08
 
-### [基于 MCP 的 AI Agent 应用开发实践](/entry/ZpcfjBM5) 📄
+### [基于 MCP 的 AI Agent 应用开发实践](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247514365&idx=1&sn=dd898cc5dfe8ab4fe7c48442a2d7fc35&chksm=e82cdfc64103948773b39bc1cdd18051bc935cdcbdad9990335b12f4401dbd67d0a5f6e162ad&mpshare=1&scene=1&srcid=0508JMd4ApDVP5Sk45FwTZuO&sharer_shareinfo=346fd11813fa570c425fefb3cdbb9b0e&sharer_shareinfo_first=346fd11813fa570c425fefb3cdbb9b0e)
 ⭐⭐⭐⭐4 🌐 · 2025-05-08
 
 [需翻译] 最近大家都在聊 MCP，发现有个最重要的点被忽略了： 通过标准化协议，将工具提供方与应用研发者解耦，这一点带
@@ -1236,7 +1236,7 @@ Read Original
 
 ## 📅 2025-05-07
 
-### [最近爆火的MCP究竟有多大魅力？MCP开发初体验｜得物技术](/entry/3CmURoZ0) 📄
+### [最近爆火的MCP究竟有多大魅力？MCP开发初体验｜得物技术](https://mp.weixin.qq.com/s?__biz=MzkxNTE3ODU0NA==&mid=2247539225&idx=1&sn=811dee1e2b17f5b1249d14f19b69f171&chksm=c0410dd7305597ba3c7f3dc6d1f7ee85808d38011bd376b42cace90a0fbc6c687a1be00c888f&mpshare=1&scene=1&srcid=0507se7oCab5JJoikWmzE8I5&sharer_shareinfo=634900176f4a7a250585116a09ea6b5f&sharer_shareinfo_first=634900176f4a7a250585116a09ea6b5f)
 ⭐⭐⭐⭐4 🌐 · 2025-05-07
 
 [需翻译] 组合多个 MCP Server 的工作流可以自主完成非常复杂的任务，关键是这协议统一了连接标准，有大量现成的 MCP Server 可以即插即用，大幅降低建设成本。
@@ -1245,7 +1245,7 @@ Read Original
 
 ## 📅 2025-04-21
 
-### [AI 傻傻分不清楚？那么多 AI 变体究竟怎么选？这里快速简单理清！](/entry/zo5tepps) 📄
+### [AI 傻傻分不清楚？那么多 AI 变体究竟怎么选？这里快速简单理清！](https://mp.weixin.qq.com/s?__biz=Mzg3NTA3MDIxOA==&mid=2247493551&idx=1&sn=d079783a37abb37dc245603c9a27f925&chksm=cfd52840d5e2ee9f3b734bfeafc599da31ff691da117d0de04ba2a727b45e6563a5035aa725d&mpshare=1&scene=1&srcid=0421kItMrKcUVf8qAo4vQL0u&sharer_shareinfo=bf9c7449498c1b07e960d4b4e368ea18&sharer_shareinfo_first=bf9c7449498c1b07e960d4b4e368ea18)
 ⭐⭐⭐⭐4 🇨🇳 · 2025-04-21
 
 AI 傻傻分不清楚？那么多 AI 变体究竟怎么选？这里快速简单理清！
@@ -1271,7 +1271,7 @@ MCP 协议的深度技术解读文章。对比 Function Call（Langchain Tools �
 
 ## 📅 2025-04-12
 
-### [一套宝藏提示词，彻底解放即梦AI的字体使用](/entry/fCZaU0p7) 📄
+### [一套宝藏提示词，彻底解放即梦AI的字体使用](https://mp.weixin.qq.com/s/H4Xd8H51SVNhgF_x-e-aOw)
 ⭐⭐⭐⭐4 🇨🇳 · 2025-04-12
 
 嗨大家好！周末愉快！每天脑子里都有很多想法转瞬即逝，不赶紧记录下来就会懒到不想再实践，于是在周五依然好好更新
@@ -1280,7 +1280,7 @@ MCP 协议的深度技术解读文章。对比 Function Call（Langchain Tools �
 
 ## 📅 2025-04-10
 
-### [AI编程：从Copilot到Autopilot](/entry/noymctov) 📄
+### [AI编程：从Copilot到Autopilot](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247485992&idx=1&sn=914ba456441e9f4aa9e0c91b7858ed91&chksm=c194b3cb3c9bf246aaf1fe3496dd875af6cecfc69aac570e037e7104b34b19435b4d96908c01&mpshare=1&scene=1&srcid=0410puyzU835T521O5yUhmE6&sharer_shareinfo=ef12f65716c3400823400c5f7548e41a&sharer_shareinfo_first=ef12f65716c3400823400c5f7548e41a)
 ⭐⭐⭐⭐4 🇨🇳 · 2025-04-10
 
 AI编程：从Copilot到Autopilot
@@ -1296,7 +1296,7 @@ AI编程是当前AI领域唯一盈利赛道。这不仅是一种技术革新，�
 
 ## 📅 2025-04-01
 
-### [GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers](/entry/np6822c5) ⭐881 📄
+### [GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers](https://github.com/MobinX/awesome-mcp-list) ⭐881
 ⭐⭐⭐⭐4 🌐 · 2025-04-01
 
 # GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers A concise list for mcp servers. Contribute to MobinX/awesome-mcp-list development by creating an account on GitHub. Awesome MCP Servers - Concise List Note that this list is continuously updating and improving. Please star this repo ...
@@ -1320,7 +1320,7 @@ LLM Agent 领域研究碎片化严重：架构设计、协作模式、进化机�
 
 ## 📅 2025-03-18
 
-### [sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Talk To Figma MCP](/entry/sYGvrjjl) 📄
+### [sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Talk To Figma MCP](https://github.com/sonnylazuardi/cursor-talk-to-figma-mcp)
 ⭐⭐⭐3 🌐 · 2025-03-18
 
 [需翻译] sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Talk To Figma MCP
@@ -1340,7 +1340,7 @@ OpenAI 发布 Agents SDK，是 Swarm 实验项目的生产级升级版。核心�
 
 ## 📅 2025-03-12
 
-### [浅谈 Agent、MCP、OpenAI Responses API](/entry/XkYDSpBp) 📄
+### [浅谈 Agent、MCP、OpenAI Responses API](https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ==&mid=2247489654&idx=1&sn=6e3820486124182688ebfeb296b395af&chksm=e933ade78907c108f8ca19416a225107a2679c2882d7a88366c8ad812d738da54c647ba740fb&mpshare=1&scene=1&srcid=03124z9ByYy482nSTotR3dqO&sharer_shareinfo=d954468b273c8f291c5eba01e555ea2d&sharer_shareinfo_first=d954468b273c8f291c5eba01e555ea2d)
 ⭐⭐⭐⭐4 🇨🇳 · 2025-03-12
 
 &gt; 今天本想写篇关于 OpenAI Responses API 的文章，但近期 AI 热门话题挺多，感觉有必要简单聊聊。
@@ -1349,7 +1349,7 @@ OpenAI 发布 Agents SDK，是 Swarm 实验项目的生产级升级版。核心�
 
 ## 📅 2025-03-06
 
-### [【科普】程序员必看，AI时代新协议 MCP 正在连接吞噬一切，20+资源全收录！](/entry/g2XhdceF) 📄
+### [【科普】程序员必看，AI时代新协议 MCP 正在连接吞噬一切，20+资源全收录！](https://mp.weixin.qq.com/s/UF8Tz3VuhUA2v3ds7k53cw)
 ⭐⭐⭐⭐4 🌐 · 2025-03-06
 
 [需翻译] X（Twitter）上，AI 圈 10w+ 关注大V橘子兄这么评价： ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FjibL99tg2bCXsWIicK2X1vJ0pxkaMibsVvO39oxf8HCwdCh9xggPv7Fzh1LKlcxKN5TNDeJ0lte3IJnMMIUIC8ruw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg &quot;null&quot;) 不少独立开发圈的朋友们，对MCP技术也很感兴趣。   ?...
@@ -1358,7 +1358,7 @@ OpenAI 发布 Agents SDK，是 Swarm 实验项目的生产级升级版。核心�
 
 ## 📅 2025-02-22
 
-### [AI 正在推动程序员的进化，而不是灭亡 | 宝玉的分享](/entry/290hawev) 📄
+### [AI 正在推动程序员的进化，而不是灭亡 | 宝玉的分享](https://baoyu.io/blog/ai-is-evolving-programmers)
 ⭐⭐⭐⭐4 🇨🇳 · 2025-02-22
 
 AI 正在推动程序员的进化，而不是灭亡 | 宝玉的分享
@@ -1385,7 +1385,7 @@ vivo AI Lab 联合香港中文大学 MMLab 发布的手机 GUI Agent 综述论�
 
 ## 📅 2024-12-15
 
-### [AI时代的独立开发之路](/entry/94ocqfsx) 📄
+### [AI时代的独立开发之路](https://gamma.app/docs/AI-tm9iylxab38rinb?mode=doc)
 ⭐⭐⭐3 🇨🇳 · 2024-12-15
 
 Read in Cubox  
@@ -1401,7 +1401,7 @@ Last edited about 8 hours ago
 
 ## 📅 2024-10-10
 
-### [逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用](/entry/xx4T4d34) 📄
+### [逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用](https://mp.weixin.qq.com/s?__biz=Mzk0NDIwMTExNw==&mid=2247586367&idx=1&sn=a8128ad7c9dd13c68a16dd8557b8b48a&chksm=c2fd69db26d4ad92b41d11adbf9d4051e3c35d2e8c1e7217e2daa19f3d2c23b90cd2a74bf802&mpshare=1&scene=1&srcid=1010Skzsacksq6yI5R5dwvTD&sharer_shareinfo=4c58689876490036f1e2b2aa5c7be9e4&sharer_shareinfo_first=4c58689876490036f1e2b2aa5c7be9e4)
 ⭐⭐⭐⭐4 🌐 · 2024-10-10
 
 [需翻译] 逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用
