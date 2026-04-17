@@ -1,0 +1,26 @@
+---
+title: 'ChatGPT时代，我的新书《智慧共生》上市了. 祝你在人工智能时代，多一些轻松和愉悦，少一些烦恼和焦虑 | by Shuyi Wang | Jun, 2023 | Medium'
+sidebar: false
+---
+
+::: info
+[← 返回AI编程](/coding)
+:::
+
+# ChatGPT时代，我的新书《智慧共生》上市了. 祝你在人工智能时代，多一些轻松和愉悦，少一些烦恼和焦虑 | by Shuyi Wang | Jun, 2023 | Medium
+
+> 关于ChatGPT时代，我的新书《智慧共生》上市了. 祝你在人工的收藏文章
+
+🔗 [原文链接](https://wshuyi.medium.com/chatgpt%E6%97%B6%E4%BB%A3-%E6%88%91%E7%9A%84%E6%96%B0%E4%B9%A6-%E6%99%BA%E6%85%A7%E5%85%B1%E7%94%9F-%E4%B8%8A%E5%B8%82%E4%BA%86-88845c1ee86) | 🇨🇳 | ⭐⭐⭐ 3 ⭐3 3/5 📅 2023-06-15
+
+`gpt-4` `[]` `chatgpt`
+
+---
+
+# ChatGPT时代，我的新书《智慧共生》上市了. 祝你在人工智能时代，多一些轻松和愉悦，少一些烦恼和焦虑 | by Shuyi Wang | Jun, 2023 | Medium
+
+Just a moment...*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width Enable JavaScript and cookies to continue(function(){window._cf_chl_opt = {cFPWv: 'g',cH: '9oTusKqQt5SZxJFNcB1YNkx1LFtH63Yv2E89gQ2R03w-1776386411-1.2.1.1-IKcMptx_3yYbR3a_I85aow.ANW98nJ0nae6AXhuR56f5W0JPLrs6Gz_mxXdmYnKa',cITimeS: '1776386411',cRay: '9ed760824a7178dd',cTplB: '0',cTplC:0,cTplO:0,cTplV:5,cType: 'managed',cUPMDTk:"/chatgpt%E6%97%B6%E4%BB%A3-%E6%88%91%E7%9A%84%E6%96%B0%E4%B9%A6-%E6%99%BA%E6%85%A7%E5%85%B1%E7%94%9F-%E4%B8%8A%E5%B8%82%E4%BA%86-88845c1ee86?__cf_chl_tk=i.yQoSUqx8BMu6aZHIeiXfcvtynhu8uBHjXG3coolCg-1776386411-1.0.1.1-qivbeetGdbW61GbTpsU3rxfKJeyp5Qe4K.ma3Tu3rtM",cvId: '3',cZone: 'wshuyi.medium.com',fa:"/chatgpt%E6%97%B6%E4%BB%A3-%E6%88%91%E7%9A%84%E6%96%B0%E4%B9%A6-%E6%99%BA%E6%85%A7%E5%85%B1%E7%94%9F-%E4%B8%8A%E5%B8%82%E4%BA%86-88845c1ee86?__cf_chl_f_tk=i.yQoSUqx8BMu6aZHIeiXfcvtynhu8uBHjXG3coolCg-1776386411-1.0.1.1-qivbeetGdbW61GbTpsU3rxfKJeyp5Qe4K.ma3Tu3rtM",md: 'ANr.BPOBYKWSm2OBGKDNVzmgBgJXDeJ9xNgmnJ.jXdA-1776386411-1.2.1.1-VCNTFZaaMEXJ1qZGb6n2yTEn5hKLRx.8MHtMuIEZ_aMyZ.kmYTAHpSdJad_2NJK.v4OIVTTG8qkDt0NYIZD4qEzf.YMuY8av.SEN94hgNsFWPz4UO5C5sv6OhkHh2wo1ouH38x5gL2S1ZaDIF56k5IOD8g5qFQM7i0q5PM8kprXiJhGIFj4RJtKSiLqjF4chSx1QnvfrufQR8Exrn8Obi6aWlZD8PPkkSg4wJ5HL84D57aKdRa7yzy7nKKgpEogKM4QmfO23F_b08lN7YORi4Oj3b7kpc5WKBMa1l0lsUvMOZdVvqewP0j7sv_6gnwTmXDeb8NsGrUdtN7Alcsro7.0PHmyQGcZwPbDAiJTT7d9TxktruzflXvgFjzsp7_jqCh6aMaMAa66xYR.3_77hqljzVwXu2vA.ShQ.Ptv8QlXc8sB6XPQ0mSzsDPw7Xcjs_sUthKFtGv1qFpYtpExhxlX3Y4yqHMNiqXbCHcjNRX4KspdthsPVMiZ7l5sJncj.pCANmqBjW0jSDRMePgPcQ7WQ07icXW8sDIwq_hha_34jq2tA4pxxxV9v.jpd5Uk19pulSlUELD6RYsQJG_rnGAQkaBLH8fGmURvKgFeCRq6VCC6l3mx8eUtmeWkNLN7kRtJt9.k77xZo3TKlRD1.vZpBMUyrJryFrx_GSo.PsRonxpa60QsXV0wMgyz7swUB54nq4ykXXoscvthUnY.mSnRh1Tvfyo5gIrFmtpTgYUQnjIPv1Zq.XbN4Cdbqnm0XXCc8Nub2HyqKYrElgu7ffD7ELStxNy01v1FoJ6xMFYx1F7U7jgSP0R_roKgE1GFo3ZS4iQqOlDe.VlEWhwzeZ24f1v38wUTgQJY3MCn4R0W7wludvCrFatQVgA3QJz4lWko8fjQoFTYJu7rmgqhe1IRBPJ_aa57BlqcaGBMjZXUgGmeuCKSrfgevw4itn5G0fyh0IWpLPo.Ef9Y3qb2P4kytgeY0TWmvR6uOyLmeTPETAaDmNs.LoMLr0bH1yX4dtC7MgsqvvqbcD5hd.qNcbq9gCGBOaf0l1FdRFnO0H579rqRbWgrQbqNoJUwoiQaqbG1yXzx6VlyXv1PrTg_MRg',mdrd: 'Nc.qLOkmTbgZWV7JVa0yk8WiOmocjlG5W30qP388bpg-1776386411-1.2.1.1-Eaqso7jEz.nzU8RCV501L05YDJqk2R1SfEWhUbKaR_aNgACcrK5ojD6P3LypTpTma47bdYHB9vtNWT9_CYiTBxmILCTr34M261vc0jYx0FIme3SeXGn2cm7IO6LFauVMAh35PsVhZvVjCBsNTK9PQApoYgGBsVtzEXClfk6uuAEBTkz.2MmYLPDNYwA.DiaFG73MzE4PMRWSCWnPoi5U0L7Xlj6fJVy_idhofgZlmXw8jeCFr2SoMCM__x2ToqK85kzNpHNEidbj2.va67qL9A',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9ed760824a7178dd';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"/chatgpt%E6%97%B6%E4%BB%A3-%E6%88%91%E7%9A%84%E6%96%B0%E4%B9%A6-%E6%99%BA%E6%85%A7%E5%85%B1%E7%94%9F-%E4%B8%8A%E5%B8%82%E4%BA%86-88845c1ee86?__cf_chl_rt_tk=i.yQoSUqx8BMu6aZHIeiXfcvtynhu8uBHjXG3coolCg-1776386411-1.0.1.1-qivbeetGdbW61GbTpsU3rxfKJeyp5Qe4K.ma3Tu3rtM"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());
+
+---
+*来源：https://wshuyi.medium.com/chatgpt%E6%97%B6%E4%BB%A3-%E6%88%91%E7%9A%84%E6%96%B0%E4%B9%A6-%E6%99%BA%E6%85%A7%E5%85%B1%E7%94%9F-%E4%B8%8A%E5%B8%82%E4%BA%86-88845c1ee86*
+*抓取时间：2026-04-17*
