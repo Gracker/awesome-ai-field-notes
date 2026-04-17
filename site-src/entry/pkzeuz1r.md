@@ -26,8 +26,6 @@ sidebar: false
 ---
 来自 Anthropic 工程团队
 
-![Image](images/img_001.png)
-
 模型上下文协议（Model Context Protocol, MCP）可以让 AI 智能体（AI Agent）拥有数百种工具，去解决真实世界里的各种任务。但问题是，我们如何让这些工具发挥出最大的效用呢？
 
 在这篇文章里，我们将分享一些我们总结出来的，能有效提升各种 AI 智能体系统性能的独家秘诀 1。
@@ -220,8 +218,6 @@ sidebar: false
 
 这是一个简洁工具响应的例子（72 个 token）：
 
-![This code snippet depicts an example of a detailed tool response.](images/img_006.other)
-
 这张图片展示了一个简洁工具响应的例子。
 
 这张图片展示了一个简洁工具响应的例子。
@@ -253,8 +249,6 @@ sidebar: false
 这张图片展示了一个没有帮助的工具响应的例子。
 
 这是一个有帮助的错误响应的例子：
-
-![This image depicts an example of a helpful error response.](images/img_009.other)
 
 这张图片展示了一个有帮助的工具响应的例子。
 

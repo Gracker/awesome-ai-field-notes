@@ -22,8 +22,6 @@ sidebar: false
 > 原文链接: https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247558316&idx=1&sn=6a53c77fe9bdb8b35a1d513897c4a472&chksm=e842e7784cbd5d863e66d3cd9c7b473fb5f8defdb0bd171ead807408a0166b28963665f62dc2&mpshare=1&scene=1&srcid=0210sWl3n5BHTgBMJFMPVztS&sharer_shareinfo=49d4cda5f958e336f51b9bf2fbd8d2e4&sharer_shareinfo_first=49d4cda5f958e336f51b9bf2fbd8d2e4
 
 ---
-![Image](images/img_001.jpeg)
-
 #
 
 一、前言
@@ -51,8 +49,6 @@ sidebar: false
 5\. 持久化：存储用户生成的场景和商品、支持对接会场搭建、存储工作流状态等；
 
 6\. 企业级部署：支持多机部署，日志查询，trace追踪等。
-
-![Image](images/img_002.png)
 
 **2.2 技术挑战**
 
@@ -95,8 +91,6 @@ LangGraph的核心优势在于它将复杂的AI工作流抽象为有向图结构
 -   条件分支：支持基于 LLM 输出或业务规则的动态路由。例如，根据 LLM 是否返回 tool\_calls 来决定下一步是执行工具还是结束流程。
 
 
-![Image](images/img_003.png)
-
 **3.2 Agent Skills：标准化的能力封装**
 
 Agent Skills 是本次架构升级的核心。我们将 Agent 的能力模块化为一个个独立的 Skill，每个 Skill 负责一个特定领域的功能，通过标准接口对外暴露，采用渐进式披露的思想，优化上下文，提高复用性。
@@ -131,9 +125,6 @@ tools = [
 4\. 协议异构：本地函数、远程 API、MCP 服务混杂，调用方式不统一。
 
 Skills 体系的解决方案： 将工具按照业务领域分组，每组形成一个 Skill：
-
-![Image](images/img_004.png)
-
 
 ```bash
 app/skills/
@@ -256,8 +247,6 @@ PLANNER_PROMPT = """你是场景导购任务规划器。请先生成一个结构
 
 基于实际使用经验，我们采用了双工具协同的策略：
 
-![Image](images/img_005.png)
-
 面对快速完成迁移的紧迫时间线，我决定充分利用AI Coding工具来加速开发过程。在工具选择上，我选择采用了Cursor和AoneCopilot相结合的策略：Cursor负责复杂的系统架构设计和核心代码生成，AoneCopilot则承担日常的代码优化和调试任务，同时使用AoneCopilot方便查阅内部文档保障信息安全。
 
 为了保证迁移后功能的一致性，我决定根据线上流程编排平台导出的DSL文件复现LangGraph工程，从 DSL（领域特定语言）工作流定义转换为可执行的 Python 代码，然后进行进一步的架构升级和扩展。﻿
@@ -273,11 +262,7 @@ PLANNER_PROMPT = """你是场景导购任务规划器。请先生成一个结构
 
 1.根据线上原有的流程编排，导出dsl的yaml文件，DSL (Domain Specific Language) 领域特定语言，指原有低代码/零代码平台用于描述业务流程的配置语言，通常以JSON或YAML格式存在。它定义了节点（Nodes）、边（Edges）、条件分支（Branches）以及每个节点的配置参数（如Prompt、模型参数等），是业务逻辑的“数字蓝图”。它连接“旧系统”与“新LangGraph工程”的桥梁，保证了业务逻辑迁移的准确性，避免了人工重新梳理逻辑的遗漏。
 
-![Image](images/img_006.png)
-
 2.根据文档和dsl设计项目架构，这一步至关重要，AI需要结合两类信息：一是DSL中的业务流程逻辑（有哪些节点、如何跳转），二是新平台的技术规范（TPP平台的接口要求、LangGraph的图结构定义）。通过AI的分析，将线性的或树状的DSL结构映射为LangGraph的有向循环图（Graph），并设计出符合架构的工程目录结构，确定State状态对象的字段定义，为后续的代码生成打下坚实的地基。
-
-![Image](images/img_007.png)
 
 **4.3 AI Coding工具使用策略详解**
 
@@ -423,8 +408,6 @@ edges:
 ```
 
 
-![Image](images/img_008.other)
-
 -   Rule：模板和规范遵循规则
 
 
@@ -516,11 +499,7 @@ DSL文件分析
 
 • 生成新项目架构文档，生成技术方案文档﻿
 
-![Image](images/img_009.png)
-
 • AI设计6层架构（平台→应用→工作流→服务→持久化→外部）﻿﻿
-
-![Image](images/img_010.png)
 
 技术选型
 
@@ -544,15 +523,11 @@ Cursor分析项目架构和需求生成项目结构
 
 项目结构
 
-![Image](images/img_011.png)
-
 状态定义
 
 AI基于DSL生成TypedDict
 
 SceneGuideState类型定义
-
-![Image](images/img_012.png)
 
 基础配置
 
@@ -588,8 +563,6 @@ AI输出
 
 自动生成修复代码﻿
 
-![Image](images/img_013.png)
-
 性能优化
 
 执行时间 + 资源使用
@@ -598,8 +571,6 @@ AI输出
 
 代码重构建议
 
-![Image](images/img_014.png)
-
 逻辑完善
 
 业务日志 + 用户反馈
@@ -607,8 +578,6 @@ AI输出
 逻辑漏洞 + 改进建议
 
 工作流优化﻿
-
-![Image](images/img_015.png)
 
 五、总结与回顾
 

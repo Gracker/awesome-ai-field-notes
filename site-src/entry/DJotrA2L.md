@@ -148,25 +148,25 @@ GPT-4 的输出正如请求的那样，仅给出情绪分类：
 使用 XML 标签作为分隔符是一种方法。XML 标签是被尖括号包围的，包括开启标签和结束标签。例如，
 `tag`
 和
-</tag>
+`tag`
 。这种方法非常有效，因为大语言模型已经接受了大量包含 XML 格式的网页内容的训练，因此能够理解其结构。
 以下是利用 XML 标签作为分隔符对同一提示进行结构化的例子：
 分类以下对话的情感，分为正面和负面两类，根据给出的例子进行分类。请直接给出情感分类结果，不需要添加任何引导性文本。
 `classes`
 正面
 负面
-</classes>
+`classes`
 `example-conversations`
 [Agent]: 早上好，今天我能如何帮助您？
 [Customer]: 这个产品太糟糕了，一点都不像广告上说的那样！
 [Customer]: 我非常失望，希望全额退款。
 [Agent]: 早上好，今天我能怎么帮您？
 [Customer]: 嗨，我只是想说我真的对你们的产品印象深刻。它超出了我的期望！
-</example-conversations>
+`example-conversations`
 `example-classes`
 负面
 正面
-</example-classes>
+`example-classes`
 `conversations`
 [Agent]: 你好！欢迎来到我们的支持。今天我能怎么帮您？
 [Customer]: 嗨，我只是想让你知道我收到我的订单了，它太棒了！
@@ -176,7 +176,7 @@ GPT-4 的输出正如请求的那样，仅给出情绪分类：
 [Customer]: 我对我最近的购买非常失望。这完全不是我所期待的。
 [Agent]: 很遗憾听到这些。您能提供更多细节以便我帮助您吗？
 [Customer]: 产品质量差，而且到货晚。我对这次经历非常不满。
-</conversations>
+`conversations`
 在指令中使用的名词与 XML 标签的名词一致，如
 conversations
 、
@@ -242,8 +242,8 @@ Enterprise DNA Blog
 改为
 您需要使用提供的文本来回答问题。
 如此，每个用户提示将包括要问答的文本和问题，例如：
-`text` [插入文本] </text>
-`question` [插入问题] </question>
+`text` [插入文本] `text`
+`question` [插入问题] `question`
 此处，我们使用 XML 标签来分隔信息，以便以结构化方式向 LLM 提供所需的两个信息。XML 标签中的名词，
 text
 和

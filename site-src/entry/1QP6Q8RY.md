@@ -90,10 +90,6 @@ from [Jim Fan](https://link.juejin.cn?target=https%3A%2F%2Fx.com%2FDrJimFan%2Fst
 
 from [Maxime Labonne](https://link.juejin.cn?target=https%3A%2F%2Fx.com%2Fmaximelabonne%2Fstatus%2F1816416043511808259 "https://x.com/maximelabonne/status/1816416043511808259")
 
-![](images/img_001.jpg)
-
-![](images/img_002.jpg)
-
 Scale Up 依然是 2024 年毋庸置疑的主旋律。闭源方向上，Anthropic Claude、Google Gemini 和 OpenAI GPT-4 的旗舰模型一再扩大，在 Benchmark 榜单上争抢头把交椅，却没谁坐得安稳；开源方向上，[X 314b Grok-1](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fxai-org%2Fgrok-1 "https://github.com/xai-org/grok-1") 先吹响了号角，NVIDIA 迅速跟进 [Nemotron 340b](https://link.juejin.cn?target=https%3A%2F%2Fresearch.nvidia.com%2Fpublication%2F2024-06_nemotron-4-340b "https://research.nvidia.com/publication/2024-06_nemotron-4-340b") 狠狠秀了把肌肉，Meta 又凭借 405b 身躯的 [Llama 3.1](https://link.juejin.cn?target=https%3A%2F%2Fai.meta.com%2Fblog%2Fmeta-llama-3-1%2F "https://ai.meta.com/blog/meta-llama-3-1/") 挤开了一众豪杰，不甘寂寞的 Mistral 在 Llama 3.1 登场的第二天就放出了 [123b 的 Large2](https://link.juejin.cn?target=https%3A%2F%2Fmistral.ai%2Fnews%2Fmistral-large-2407%2F "https://mistral.ai/news/mistral-large-2407/") 并略有针对地表示 "Large Enough"。
 
 狂欢之余，还需要保持清醒。虽然新闻报道多只津津乐道模型参数规模再创新高，毕竟参数规模最易于公众理解和比较，但 Scaling Law 并不只提升参数规模 —— Llama 3.1 在[论文](https://link.juejin.cn?target=https%3A%2F%2Fai.meta.com%2Fresearch%2Fpublications%2Fthe-llama-3-herd-of-models%2F "https://ai.meta.com/research/publications/the-llama-3-herd-of-models/")中着重强调了`data, scale, and managing complexity`，**数据**、**规模**和**复杂度**。露出水面的参数规模之下是一整座冰山。
@@ -111,17 +107,7 @@ Scale Up 依然是 2024 年毋庸置疑的主旋律。闭源方向上，Anthropi
 -   可见，可得，但是不免费的采标数据
 -   可见、可得、免费但是数量少的可怜的开源数据
 
-![](images/img_003.jpg)
-
-![](images/img_004.jpg)
-
-![](images/img_005.jpg)
-
-![](images/img_006.jpg)
-
 高质量数据是否会耗尽的学术争论还没有结束，不分赛道，工业应用的数据饕餮已然甚嚣尘上，比如[媒体买买买的 OpenAI](https://link.juejin.cn?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzI3MTA0MTk1MA%3D%3D%26mid%3D2652504068%26idx%3D3%26sn%3Ddda30c86836b4dc845bac01b2b121c27%26scene%3D21%23wechat_redirect "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652504068&idx=3&sn=dda30c86836b4dc845bac01b2b121c27&scene=21#wechat_redirect")、[重金求声的 Meta](https://link.juejin.cn?target=https%3A%2F%2Fwww.ithome.com%2F0%2F785%2F971.htm "https://www.ithome.com/0/785/971.htm")；也不乏有游走在合法与非法的边缘的事，比如[惨遭多轮光顾的 YouTube](https://link.juejin.cn?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FfNL8MOGOAWLvN0sMy-i_Lw "https://mp.weixin.qq.com/s/fNL8MOGOAWLvN0sMy-i_Lw")，以及[被大型唱片公司起诉 Udio & Suno](https://link.juejin.cn?target=https%3A%2F%2Fwww.cls.cn%2Fdetail%2F1713321 "https://www.cls.cn/detail/1713321")。
-
-![](images/img_007.jpg)
 
 不过，也不要以为爬虫数据是免费的午餐，例如 [Google 就着过 Reddit 和 Quora 的道](https://link.juejin.cn?target=https%3A%2F%2Fwww.ithome.com%2F0%2F782%2F165.htm "https://www.ithome.com/0/782/165.htm")，在搜索「google cheese not sticking to pizza」的结果里赫然建议「adding 1/8 cup of Elmer's glue」。是 Google 先动的手，自然也只能砸碎钢牙肚里吞了 🐶🐶🐶
 
@@ -131,15 +117,11 @@ Llama 3.1 405B + 15.6T tokens 预训练的开销是 3.8 × 10^25 次浮点运算
 
 万卡集群就是这样成为标配的。相较于传统分布式集群，大模型训练集群对计算、存储、传输的性能压榨更极致，乃至需要专门的供电和散热保障，对拓展性、可靠性的要求也都更严苛，新的设计也随之诞生。字节的 [MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs](https://link.juejin.cn?target=https%3A%2F%2Farxiv.org%2Fabs%2F2402.15627 "https://arxiv.org/abs/2402.15627") 也相应介绍了在算法设计、算子加速、计算调度、网络传输、容灾容错等方面的优化，按需了解吧。架构的迭代肯定不会止步于此，[小扎说 Llama4 训练算力得再乘 10](https://link.juejin.cn?target=https%3A%2F%2Fwallstreetcn.com%2Farticles%2F3722168 "https://wallstreetcn.com/articles/3722168")，而[马斯克干脆已经备好了 10 万块 H100](https://link.juejin.cn?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FQf_p8-0FdgcNNsp5crYaHg "https://mp.weixin.qq.com/s/Qf_p8-0FdgcNNsp5crYaHg")，十万卡集群 is coming。
 
-[Analysis of NVIDIA’s Latest Hardware: B100/B200/GH200/NVL72/SuperPod](https://link.juejin.cn?target=https%3A%2F%2Fwww.fibermall.com%2Fblog%2Fnvidia-b100-b200-gh200-nvl72-superpod.htm "https://www.fibermall.com/blog/nvidia-b100-b200-gh200-nvl72-superpod.htm") ![](images/img_008.jpg)
-
-集群架构之下，计算和存储硬件也在快速迭代。上图为 fibermall 统计的 NVIDIA GPU 单卡性能，以稠密 FP16 计算性能为标尺，从 2020 年的 A100 到 2024 年的 B200 性能提升约 7 倍，功耗提升约 2.5 倍，提升速度甚至还超越了两年翻一番的黄氏定律。饶是如此，依然有 ASIC 玩家想要分 NVIDIA 的蛋糕，先有 [Groq Llama2 70B 刷出 300+ tokens/s 的闪电速度](https://link.juejin.cn?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FtMDJP234MksYeUu_RUPzBA "https://mp.weixin.qq.com/s/tMDJP234MksYeUu_RUPzBA")，[引得 Yann LeCun 青眼](https://link.juejin.cn?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FV0AteHwAAP-xFPc-y5BocQ "https://mp.weixin.qq.com/s/V0AteHwAAP-xFPc-y5BocQ")；后有 [Etched 梭哈 Transformer 8xSohu Llama 70b 上 500000 tokens/s](https://link.juejin.cn?target=https%3A%2F%2Fx.com%2FEtched%2Fstatus%2F1805625693113663834 "https://x.com/Etched/status/1805625693113663834")，如果模型结构基本定型，推理加速硬件恐怕还得有一场血战。出于众所周知的原因，此处还得给昇腾的训练和推理鼓鼓劲。
+[Analysis of NVIDIA’s Latest Hardware: B100/B200/GH200/NVL72/SuperPod](https://link.juejin.cn?target=https%3A%2F%2Fwww.fibermall.com%2Fblog%2Fnvidia-b100-b200-gh200-nvl72-superpod.htm "https://www.fibermall.com/blog/nvidia-b100-b200-gh200-nvl72-superpod.htm") 集群架构之下，计算和存储硬件也在快速迭代。上图为 fibermall 统计的 NVIDIA GPU 单卡性能，以稠密 FP16 计算性能为标尺，从 2020 年的 A100 到 2024 年的 B200 性能提升约 7 倍，功耗提升约 2.5 倍，提升速度甚至还超越了两年翻一番的黄氏定律。饶是如此，依然有 ASIC 玩家想要分 NVIDIA 的蛋糕，先有 [Groq Llama2 70B 刷出 300+ tokens/s 的闪电速度](https://link.juejin.cn?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FtMDJP234MksYeUu_RUPzBA "https://mp.weixin.qq.com/s/tMDJP234MksYeUu_RUPzBA")，[引得 Yann LeCun 青眼](https://link.juejin.cn?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FV0AteHwAAP-xFPc-y5BocQ "https://mp.weixin.qq.com/s/V0AteHwAAP-xFPc-y5BocQ")；后有 [Etched 梭哈 Transformer 8xSohu Llama 70b 上 500000 tokens/s](https://link.juejin.cn?target=https%3A%2F%2Fx.com%2FEtched%2Fstatus%2F1805625693113663834 "https://x.com/Etched/status/1805625693113663834")，如果模型结构基本定型，推理加速硬件恐怕还得有一场血战。出于众所周知的原因，此处还得给昇腾的训练和推理鼓鼓劲。
 
 运行于硬件上的训练和推理同样有大幅优化的空间。以推理为例，[无问芯穹与清华、上交联合研究出品的大模型高效推理综述](https://link.juejin.cn?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F7LKfamTnCyFih6_grf9m3A "https://mp.weixin.qq.com/s/7LKfamTnCyFih6_grf9m3A")，就将大模型的高效推理划分成关注输入输出的数据层优化、关注模型结构和压缩的模型层优化、关注服务调度和推理引擎优化的系统层优化。
 
 单就模型层中的 Transformer 替代架构，就又能延伸出许多研究 —— Mamba、RWKV、TTT 都试图挑战 Transformer，尝试以更低的计算复杂度，更好地 Scale Up 和泛化；而每一个细分模型结构在论文发布后，又往往会激发出更多的研究和探讨。
-
-![](images/img_009.jpg)
 
 #### 复杂性
 

@@ -20,13 +20,9 @@ sidebar: false
 # Claude Code 之父自爆：Claude Code 的终极用法
 
 ---
-![Image](images/img_001.png)
-
 你可能听过 Claude Code，甚至用过它来写点代码、改点文档。但你有没有想过：如果 AI 不是“临时用一下的工具”，而是你开发流程中的正式成员，甚至是一个自动化协作系统——它会怎样改变你的工作方式？
 
 Boris Cherny 作为 Claude Code 之父，他写了一篇非常详细的推文，分享了自己如何高效使用这款工具，以及他和团队在实际工作中如何将 Claude 深度集成进整个工程流程。
-
-![Image](images/img_002.png)
 
 这篇文章将对他的经验做一次系统的整理和通俗的解读。
 
@@ -35,8 +31,6 @@ Boris 是怎么让 AI 成为他工作流中的自动化伙伴的？
 ## 核心要点
 
 他介绍了自己的工作流程，包括：
-
-![Image](images/img_003.png)
 
 ### ✅ 怎么用 Claude：
 
@@ -98,8 +92,6 @@ Boris 使用 Claude 的旗舰模型 Opus 4.5 + 思维模式（“with thinking�
 3.  3.确认每个步骤
 4.  4.才让 Claude 动手写
 
-![Image](images/img_004.png)
-
 每当需要实现一个新功能，比如“为某个 API 添加限流”，他会和 Claude 一步步确认：
 
 -   是用中间件实现，还是逻辑内嵌？
@@ -125,10 +117,6 @@ Boris 并不只用一个 Claude。他的日常是这样的：
 -   终端里开 5 个本地 Claude，会话分配给不同任务（比如重构、写测试、调 bug）
 -   浏览器中再开 5–10 个 Claude，与本地并行
 -   手机上用 Claude iOS app，随时发起任务
-
-![Image](images/img_005.png)
-
-![Image](images/img_006.png)
 
 每个 Claude 实例，就像是一个“专属助手”：有的负责写代码，有的负责文档补全，有的长期挂后台执行测试任务。
 
@@ -164,8 +152,6 @@ Boris不希望每次都提示 Claude：“请你先 commit，再 push，然后�
 
 这些命令背后是 Bash 脚本逻辑，存放在 .claude/commands/ 文件夹，加入 Git 管理，团队成员都可以使用。
 
-![Image](images/img_007.png)
-
 ### Claude 怎么用这些命令？
 
 当 Claude 遇到这个命令，它不只是“执行指令”，而是知道这个命令代表的工作流，并能自动执行中间步骤、预填参数、避免反复沟通。
@@ -196,8 +182,6 @@ Claude 会自动参考这个知识库来理解上下文、判断代码风格。
 -   每个团队维护自己的版本。
 -   所有人协同编辑，Claude 会实时参考这份知识库做判断。
 
-![Image](images/img_008.png)
-
 👉 举个例子：
 如果 Claude 老是把分页逻辑写错，只需要团队将正确的分页标准写进知识库，后续每个使用者都能自动受益。
 
@@ -221,8 +205,6 @@ Boris 在做代码审查时，常常在 PR 上 @Claude，比如：
 @.claude 将这个函数写法加进知识库
 ```
 
-![Image](images/img_009.png)
-
 配合 GitHub Action，Claude 会自动学习这段改动背后的意图，并更新内部知识。
 
 这类似于“持续训练 Claude”，每次评审不仅合代码，也提升了 AI 能力。
@@ -243,8 +225,6 @@ Subagents 是一些自动运行的模块，比如：
 -   verify-app：跑完整测试，验证新代码是否可用
 -   log-analyzer：分析错误日志，快速定位问题
 
-![Image](images/img_010.png)
-
 这些子代理像插件一样，自动接入 Claude 的工作流，自动协作运行，不需要重复提示。
 
 👉 启示：子代理就是 Claude 的“团队成员”，把 Claude 从一个助手升级为“项目指挥官”。
@@ -257,8 +237,6 @@ Claude 不只是一个人，而是你可以带团队的小总管。
 
 Boris 的做法是设置一个 PostToolUse Hook ——
 简单理解，这就是 Claude 在“完成任务”之后自动调用的“后处理钩子”。
-
-![Image](images/img_011.png)
 
 ### 🛠 它的作用包括：
 
@@ -282,8 +260,6 @@ Boris 明确表示他不使用 --dangerously-skip-permissions —— 这是 Clau
 2.  2.将这些权限配置写入 .claude/settings.json
 3.  3.让整个团队共享这些安全设定
 
-![Image](images/img_012.png)
-
 这就像是为 Claude 预先开了一批“白名单”操作，比如：
 
 ```
@@ -303,8 +279,6 @@ Boris 不是只让 Claude 在本地写代码。他配置了 Claude 能通过 MCP
 -   自动发 Slack 通知（比如构建结果）
 -   查询 BigQuery 数据（比如用户行为指标）
 -   抓取 Sentry 日志（比如线上异常追踪）
-
-![Image](images/img_013.png)
 
 ### 🔗 如何实现？
 
@@ -339,8 +313,6 @@ Boris 的处理方式非常工程化：
 1.  1.Claude 在完成后，用后台 Agent 验证结果
 2.  2.使用 Stop Hook，任务结束时自动触发后续动作
 3.  3.使用 ralph-wiggum 插件（由 @GeoffreyHuntley 提出）来管理长流程状态
-
-![Image](images/img_014.png)
 
 在这些场景中，Boris 会使用：
 
@@ -403,7 +375,7 @@ Claude 可以是一个合格的实习生，也可以是一个稳定可靠的工�
 ****加入XiaoHu.ai 日报社群 每天获取最新的AI信息
 ****
 
-**![图片](images/img_015.other)**
+****
 
 **\_\_\_\_\_\_\_\_\_\_\_\_**
 

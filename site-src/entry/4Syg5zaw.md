@@ -28,8 +28,6 @@ sidebar: false
 ---
 以下文章来源于Android高效开发，作者2BAB
 
-![Image](images/img_001.png)
-
 _作者 / Android 谷歌开发者专家 El Zhang (2BAB)_
 
 在今年的厦门和广州 Google I/O Extended 上，我分享了《On-Device Model 集成 (KMP) 与用例》。本文是当时 Demo 的深入细节分析，同时也是后面几篇同类型文章的开头。通过本文你将了解到:
@@ -49,8 +47,6 @@ _作者 / Android 谷歌开发者专家 El Zhang (2BAB)_
 5.  **O****n-Device Model 与 LLM 模型 Gemma 1.1 2B 的简单背景。**
 
 
-![Image](images/img_002.jpeg)
-
 **On-Device Model 本地模型**
 
 大语言模型 (LLM) 持续火热了很长一段时间，而今年开始这股风正式吹到了移动端，包括 Google 在内的最新手机与系统均深度集成了此类 On-Device Model 的相关功能。对于 Google 目前的公开战略中，On-Device Model 这块的大语言模型主要分为两个:
@@ -61,8 +57,6 @@ _作者 / Android 谷歌开发者专家 El Zhang (2BAB)_
 
 
 目前多数移动端开发者尚无法直接基于 Gemini Nano 开发，所以今天的主角便是 Gemma 1 的 2B 版本。想在移动平台上直接使用 Gemma，Google 已给我们提供一个开箱即用的工具: Mediapipe。MediaPipe 是一个跨平台的框架，它封装了一系列预构建的 On-Device 机器学习模型和工具，支持实时的手势识别、面部检测、姿态估计等任务，还可应用于生成图片、聊天机器人等各种应用场景。感兴趣的朋友可以试玩它的 Web 版 Demo，以及相关文档。
-
-![Image](images/img_003.jpeg)
 
 -   Demo
 
@@ -75,8 +69,6 @@ _作者 / Android 谷歌开发者专家 El Zhang (2BAB)_
 
 而其中的 LLM Inference API (上表第一行)，用于运行大语言模型推理的组件，支持 Gemma 2B/7B，Phi-2，Falcon-RW-1B，StableLM-3B 等模型。针对 Gemma 的预转换模型 (基于 TensorFlow Lite) 可在 Kaggle 下载，并在稍后直接放入 Mediapipe 中加载。
 
-![Image](images/img_004.png)
-
 -   下载
 
     https://www.kaggle.com/models/google/gemma/tfLite/gemma-1.1-2b-it-gpu-int4
@@ -87,8 +79,6 @@ _作者 / Android 谷歌开发者专家 El Zhang (2BAB)_
 **Android Sample**
 
 Mediapipe 官方的 LLM Inference Demo 包含了 Android/iOS/Web 前端等平台。
-
-![Image](images/img_005.png)
 
 -   LLM Inference Demo
 
@@ -117,23 +107,17 @@ Mediapipe 官方的 LLM Inference Demo 包含了 Android/iOS/Web 前端等平台
 
 移植工程所使用的技术叫做 Kotlin Multiplatform (缩写为 **KMP**)，它是 Kotlin 团队开发的一种支持跨平台开发的技术，允许开发者使用相同的代码库来构建 Android、iOS、Web 等多个平台的应用程序。通过共享业务逻辑代码，KMP 能显著减少开发时间和维护成本，同时尽量保留每个平台的原生性能和体验。Google 在今年的 I/O 大会上也宣布对 KMP 提供一等的支持，把一些 Android 平台上的库和工具迁移到了多平台，KMP 的开发者可以方便的使用它到 iOS 等其他平台。
 
-![Image](images/img_006.jpeg)_\*图片来源:_ _Kotlin 官网__: http__s://kotlinlang.org/docs/multiplatform-intro.html_
-
-![Image](images/img_007.jpeg)
+_\*图片来源:_ _Kotlin 官网__: http__s://kotlinlang.org/docs/multiplatform-intro.html_
 
 _\*图片来源__: Android Blog: https://android-developers.googleblog.com/2024/05/android-support-for-kotlin-multiplatform-to-share-business-logic-across-mobile-web-server-desktop.html_
 
 尽管 Mediapipe 也支持多个平台，但我们这次主要聚焦在 Android 和 iOS。一方面更贴近现实，各行各业使用 KMP 的公司的用例更多在移动端上；另外一方面也更方便对标其他移动端开发技术栈。
-
-![Image](images/img_008.png)
 
 **移植流程**
 
 **初始化**
 
 使用 IDEA 或 Android Studio 创建一个 KMP 的基础工程，你可以借助 KMP Wizard 或者第三方 KMP App 的模版。如果你没有 KMP 的相关经验，可以看到它其实就是一个非常类似 Android 工程的结构，只不过这一次我们把 iOS 的壳工程也放到根目录，并且在 app 模块的 build.gradle.kts 内同时配置了 iOS 的相关依赖。
-
-![Image](images/img_009.jpeg)
 
 **封装和调用 LLM Inference**
 
@@ -428,8 +412,6 @@ module {
 
 原项目里的 InferenceMode 已经被上一节的 LLMOperator 所取代，因此我们拷贝除 Activity 的剩下 5 个类:
 
-![Image](images/img_010.png)
-
 下面我们修改几处代码使 Jetpack Compose 的代码可以方便的迁移到 Compose Multiplatform。
 
 首先是外围的 ViewModel，KMP 版本我在这里使用了 Voyage，因此替换为 ScreenModel。不过官方 ViewModel 的方案也在实验中了，请参考这个文档。
@@ -570,8 +552,6 @@ Text(stringResource(Res.string.chat_label))
 
 
 首先我们测试一个简单的逻辑: "芦笋是不是一种动物"？可以看到下图的 CPU 版本答案比两个 GPU (iOS 和 Android) 更合理。而下一个测试是翻译答案为中文，则是三个尝试都不太行。
-
-![Image](images/img_011.jpeg)
 
 接着我们提高了测试问题的难度，让它执行区分动植物的单词分类: 不管是 GP
 

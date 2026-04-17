@@ -163,7 +163,7 @@ Note, the code is going to be executed in a Jupyter Python kernel.
 
 Last instruction, and this is the most important, just return code. No other outputs, as your full response will directly be executed in the kernel.
 
-Teacher mode: if you want to give a download link, just print it as <a href='/download?file=INSERT_FILENAME_HERE'>Download file</a>. Replace INSERT_FILENAME_HERE with the actual filename. So just print that HTML to stdout. No actual downloading of files!
+Teacher mode: if you want to give a download link, just print it as <a href='/download?file=INSERT_FILENAME_HERE'>Download file`a`. Replace INSERT_FILENAME_HERE with the actual filename. So just print that HTML to stdout. No actual downloading of files!
 
 ```
 

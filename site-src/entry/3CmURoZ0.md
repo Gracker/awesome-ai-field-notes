@@ -26,8 +26,6 @@ sidebar: false
 > 原文链接: https://mp.weixin.qq.com/s?__biz=MzkxNTE3ODU0NA==&mid=2247539225&idx=1&sn=811dee1e2b17f5b1249d14f19b69f171&chksm=c0410dd7305597ba3c7f3dc6d1f7ee85808d38011bd376b42cace90a0fbc6c687a1be00c888f&mpshare=1&scene=1&srcid=0507se7oCab5JJoikWmzE8I5&sharer_shareinfo=634900176f4a7a250585116a09ea6b5f&sharer_shareinfo_first=634900176f4a7a250585116a09ea6b5f
 
 ---
-![Image](images/img_001.gif)
-
 **目录**
 
 一、前言
@@ -60,8 +58,6 @@ sidebar: false
 
 MCP 全称 Model Context Protocol，是由 Anthropic 公司在 2024 年 11 月推出一个开放协议，主要用于标准化应用程序向大语言模型提供上下文的方式。可以将 MCP 想象成 AI 应用程序的 USB-C 接口。就像 USB-C 为设备连接各种外设和配件提供了标准化方式一样，MCP 为 AI 模型连接不同的数据源和工具提供了标准化方式。
 
-![Image](images/img_002.png)
-
 近期 MCP 的热度持续上升，网上也是喷涌出大量相关文章，相信在不远的将来 MCP 将成为每个开发者必备的技能之一，非常值得投入时间学习一下。下面会通过简单的实践来带大家理解一下 MCP 的工作原理，以及展望下 MCP 在未来可能的一些应用场景。
 
 **二**
@@ -71,8 +67,6 @@ MCP 全称 Model Context Protocol，是由 Anthropic 公司在 2024 年 11 月�
 **基础架构**
 
 在开始实践之前，还是简单介绍一下 MCP 的基本架构和一些基础组件：
-
-![Image](images/img_003.jpeg)
 
 -   **MCP Host**：需要通过MCP访问数据的程序，例如 Claude Desktop、Cursor、Cline等桌面工具。
 
@@ -92,8 +86,6 @@ MCP 全称 Model Context Protocol，是由 Anthropic 公司在 2024 年 11 月�
 
 从用户提问，到最终完成任务的完整流程可参考下图：
 
-![Image](images/img_004.png)
-
 百闻不如一见，百见不如一练。下面我们手把手开发一个 MCP Server，并且通过 Cline 来使用它，实践过程中会容易帮助我们去理解 MCP。
 
 **三**
@@ -106,17 +98,11 @@ MCP 全称 Model Context Protocol，是由 Anthropic 公司在 2024 年 11 月�
 
 _其实更推荐使用 Claude，但是 Claude注册流程相对复杂一点，对网络环境要求也更高（需要科学上网）。_
 
-![Image](images/img_005.png)
-
 安装好后，第一步就是需要配置大模型，这里我选择的是 DeepSeek。
 
 _需要自行购买 API Key（https://platform.deepseek.com/api\_keys）_
 
-![Image](images/img_006.png)
-
 然后就可以开始配置 MCP server 了，点击右上角的第二个图标。
-
-![Image](images/img_007.png)
 
 这里可以使用开源的 MCP Server，也可以使用自己开发的 MCP Server，下面我们尝试自己动手开发一个简单的 MCP Server。
 
@@ -129,9 +115,9 @@ _需要自行购买 API Key（https://platform.deepseek.com/api\_keys）_
 
 ```xml
 `dependency`
-    `groupId`org.springframework.ai</groupId>
-    `artifactId`spring-ai-starter-mcp-server-webmvc</artifactId>
-</dependency>
+    `groupId`org.springframework.ai`groupId`
+    `artifactId`spring-ai-starter-mcp-server-webmvc`artifactId`
+`dependency`
 ```
 
 
@@ -212,13 +198,9 @@ public class McpServerApplication {
 
 到这里一个简单的 MCP Server 就已经开发完成了，下面只需要执行 mvn clean package 打成可执行 jar 包就能配置到 Cline 中了。
 
-![Image](images/img_008.png)
-
 **配置MCP Server**
 
 回到 VSCode 的 Cline 插件，点击第二个图标，然后点击下面的 Configure MCP Servers，然后开始编辑右侧的配置文件：
-
-![Image](images/img_009.png)
 
 这里的配置文件是 MCP 标准化的，下面基于我们这个 MCP Server 介绍下几个核心配置的含义：
 
@@ -261,23 +243,13 @@ public class McpServerApplication {
 
 这里配置好了后，如果右上角的点变成了绿色说明 MCP Server 加载成功，而且在下面还可以看到 MCP Server 提供的所有 Tools，以及每个 Tool 的参数跟描述。
 
-![Image](images/img_010.png)
-
 **开始体验**
 
 点击右上角的+号开始聊天：**给我发一条下午好的飞书卡片消息，附带一下今日的热点新闻。**
 
-![Image](images/img_011.png)
-
 可以看到 Cline 调用了大模型开始思考，并且根据 MCP Server 提供的 Tools 开始选择发送消息接口并执行。
 
-![Image](images/img_012.png)
-
 而且如果第一次尝试失败，还会自动纠错，最后成功调用了我们 MCP Server 提供的 Tools，发送了一条消息给我。
-
-![Image](images/img_013.png)
-
-![Image](images/img_014.png)
 
 **进阶体验**
 
@@ -306,15 +278,9 @@ public String searchByQuery(
 
 配置好后，在对话中发送：**分析一下 es 集群目前的索引分布，重点分析一下哪些索引的分片设置不合理，最终整理后飞书发给我。**
 
-![Image](images/img_015.png)
-
 然后会根据请求 ES 返回的结果，再次吐给模型进行分析。
 
-![Image](images/img_016.png)
-
 最终整理后通过飞书发送一份简单报告。
-
-![Image](images/img_017.jpeg)
 
 **联想一下**
 
@@ -367,8 +333,6 @@ public String searchByQuery(
 **扫码添加小助手微信**
 
 如有任何疑问，或想要了解更多技术资讯，请添加小助手微信：
-
-![Image](images/img_018.jpeg)
 
 ## 中文
 

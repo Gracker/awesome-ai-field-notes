@@ -26,7 +26,7 @@ sidebar: false
 > 原文链接: https://mp.weixin.qq.com/s?__biz=MjM5NTg1ODg1OA==&mid=2459542397&idx=1&sn=e376ce196a41955734c48377cbc3cc18&chksm=b19f13b886e89aaec7ecb3f44f1de1300473b38346d6f8f54e8f87f4655cd87512eee06bae05&mpshare=1&scene=1&srcid=0623gOaBbHwBnL5vGTxNPHdK&sharer_shareinfo=11ba2c0c5006ec0d14971ced1c09c9c7&sharer_shareinfo_first=17a9447775b586d79d49eeec9285c317
 
 ---
-_关注 **AI 技能**，开启智能生活！__![Image](images/img_001.png)_
+_关注 **AI 技能**，开启智能生活！___
 
 # 摘要
 

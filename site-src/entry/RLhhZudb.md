@@ -22,8 +22,6 @@ sidebar: false
 > 原文链接: https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649792201&idx=1&sn=c2fc70c76233d2551484405021dc5726&chksm=bfa82012357eb1e74a06b747ba8f79ddd3448958cc046730f3c6699db34ad032a6a40b34c451&mpshare=1&scene=1&srcid=0329V4EPu92TJJRqTE6o9TfB&sharer_shareinfo=d844a10c77b90dcd2f4853ebdb8219f3&sharer_shareinfo_first=d844a10c77b90dcd2f4853ebdb8219f3
 
 ---
-![Image](images/img_001.gif)
-
 作者：吕昊俣
 
 > 最近半年深度体验了Cursor，享受到了很多乐趣，这篇文章将分享对于Cursor的一些实践与思考。
@@ -243,4 +241,4 @@ AI生态发展发展令人震惊，传统的工具类服务如果只停留在页
 
 最后也祝愿大家，可以享受编程的乐趣，获得心流。
 
-![Image](images/img_026.gif)
+

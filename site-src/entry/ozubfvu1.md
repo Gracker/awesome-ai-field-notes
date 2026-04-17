@@ -277,7 +277,7 @@ input::-webkit-search-cancel-button,input::-webkit-search-decoration,input::-web
 .r-z7pwl0{max-width:700px;}
 .r-z80fyv{height:20px;}
 .r-zchlnj{right:0px;}
-@-webkit-keyframes r-11cv4x{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}
+@-webkit-keyframes r-11cv4x{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);&#125;&#125;
 @-webkit-keyframes r-imtty0{0%{opacity:0;}100%{opacity:1
 
 ## 中文

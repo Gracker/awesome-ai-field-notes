@@ -30,4 +30,6 @@ export default defineConfig({
   srcDir: '.',
   outDir: '../dist',
   cleanUrls: true,
+  markdown: { html: false },
+  ignoreDeadLinks: true,
 })

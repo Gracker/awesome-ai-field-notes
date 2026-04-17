@@ -15,10 +15,45 @@ META_DIR = BASE_DIR / "metadata"
 SRC_DIR = BASE_DIR / "site-src"
 README_PATH = BASE_DIR / "README.md"
 def escape_html_like_tags(text):
-    """Escape bare <xxx> patterns so VitePress doesn't treat them as HTML tags."""
-    def replacer(m):
-        return "`{}`".format(m.group(0)[1:-1])
-    return _re.sub(r'<([a-zA-Z][-a-zA-Z0-9_]*?)>', replacer, text)
+    """Escape bare <xxx> tags and {{ }} Vue expressions outside code blocks."""
+    def tag_replacer(m):
+        return "`{}`".format(m.group(1))
+    text = _re.sub(r'</?([a-zA-Z][-a-zA-Z0-9_]*)>', tag_replacer, text)
+    # Escape {{ and }} outside fenced code blocks
+    parts, in_code = [], False
+    i = 0
+    while i < len(text):
+        # Detect fenced code block boundaries (``` at line start or with language hint)
+        if text[i] == '`' and i + 2 < len(text) and text[i:i+3] == '```':
+            # Find end of backtick run
+            j = i + 3
+            while j < len(text) and text[j] == '`':
+                j += 1
+            n = j - i
+            if not in_code:
+                parts.append(text[i:j])
+                in_code = True
+                i = j
+            elif n >= 3:
+                parts.append(text[i:j])
+                in_code = False
+                i = j
+            else:
+                parts.append(text[i])
+                i += 1
+            continue
+        if not in_code and i + 1 < len(text):
+            if text[i:i+2] == '{{':
+                parts.append('&#123;&#123;')
+                i += 2
+                continue
+            if text[i:i+2] == '}}':
+                parts.append('&#125;&#125;')
+                i += 2
+                continue
+        parts.append(text[i])
+        i += 1
+    return ''.join(parts)
 
 
 STATS_PATH = META_DIR / "stats.json"
@@ -99,6 +134,8 @@ def build_sidebar():
         "  srcDir: '.',",
         "  outDir: '../dist',",
         "  cleanUrls: true,",
+        "  markdown: { html: false },",
+        "  ignoreDeadLinks: true,",
         "})",
         "",
     ])
@@ -330,6 +367,8 @@ for e in active:
     page.append("")
     page.append("---")
     page.append("")
+    # Strip broken relative image refs (images/xxx) that don't exist
+    content_body = _re.sub(r'!\[.*?\]\(\.?/?images/[^)]+\)\s*', '', content_body)
     content_body = escape_html_like_tags(content_body)
     page.append(content_body)
     page.append("")
