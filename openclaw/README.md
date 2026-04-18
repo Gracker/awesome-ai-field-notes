@@ -1,19 +1,19 @@
 # AI Field Notes
 
-> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。637 条，中英双语。
+> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。648 条，中英双语。
 
 ## 🆕 今日推荐 Top 10
 
-- [AI开发工具链完整方案推荐](https://x.com/RookieRicardoR/status/2044630408894271549) ⭐3 · 2026-04-17 — 
+- [2026 AI First 系列（四）：connecting the dots——你的独特人生路径](https://youmind.com/s/pG5sMT6W7UIdIe) ⭐3 · 2026-04-18 — 在AI时代规划人生，核心是让AI成为connecting dots的放大器，而非被它替代
+- [Allie Miller推出免费5天课程：从AI用户进化为AI建造者](https://x.com/alliekmiller/status/1985834763677286606) ⭐3 · 2026-04-18 — 「用AI」和「用AI建造」之间隔着一个认知跃迁，Fast Track课程填补了实操教育的空白
+- [做AI产品两年，我得出的实操经验](https://mp.weixin.qq.com/s/HsFhXMLejsQWjTghUYdKFA) ⭐4 · 2026-04-18 — AI产品的难点不在于技术而在于不确定性管理，提示词工程是产品特性而非辅助工具
+- [2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期](https://youmind.com/s/hPiqSBPU4tVa7o) ⭐4 · 2026-04-18 — Level 3的AI用户和Level 1之间的差距是认知和行动力，而不仅仅是工具使用
+- [Google推出企业版Android Studio Gemini：隐私保护的企业级AI编程辅助](#) ⭐4 · 2026-04-18 — 企业级AI编程工具的竞争已从能力比拼转向数据安全与合规能力的比拼
+- [Gemini Agentic Vision：LLM自己写代码，完成复杂视觉推理任务](https://x.com/realmadhuguru/status/2016267285342847137) ⭐4 · 2026-04-18 — Gemini Agentic Vision标志视觉推理从固定流程向LLM自主规划的重要范式转变
+- [The Business Models That Will Dominate 2027 (That Don&#x27;t Exist Yet)](#) ⭐4 · 2026-04-18 — AI正在催生「零员工、百万营收」的新商业物种，2026年是入场窗口期
+- [AI的负面（2）：你的知识在贬值，但房贷不会贬值](#) ⭐4 · 2026-04-18 — AI对普通人最致命的威胁不是失业，而是让你的收入配不上你的刚性负债
 - [Claude Code 最强配置单: 12个 GitHub 项目推荐](https://x.com/wsl8297/status/2044582054780895599) ⭐3 · 2026-04-17 — 
-- [Research we co-authored on subliminal learning—...](https://x.com/AnthropicAI/status/2044493337835802948) ⭐4 · 2026-04-17 — Research we co-authored on ...
-- [Claude Code vs Codex: 两种AI编程助手的深度对比](https://x.com/shao__meng/status/2044769904608604295) ⭐4 · 2026-04-17 — 
-- [Claude Opus 4.7 实用技巧与工作流程](https://x.com/dotey/status/2044868344256381254) ⭐4 · 2026-04-17 — 
-- [This is a great report that provides a thoughtf...](https://x.com/geoffreyhinton/status/2019532085233611207) ⭐5 · 2026-04-17 — This is a great report that...
-- [Movement Matters – A Turing Test for Robot Inte...](https://x.com/petitegeek/status/1953082338029781441) ⭐5 · 2026-04-17 — Movement Matters – A Turing...
-- [Our most expressive and steerable TTS model yet...](https://x.com/demishassabis/status/2044599020690010217) ⭐6 · 2026-04-17 — Our most expressive and ste...
-- [There&#x27;s a difference between using AI and build...](https://x.com/alliekmiller/status/1985834763677286606) ⭐12 · 2026-04-17 — There&#x27;s a difference betwee...
-- [使用 Claude Code：会话管理与 100 万 上下文](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494620&idx=1&sn=21e3dd0dff3cf2c79222351ff4f5e4fb) ⭐3 · 2026-04-16 — Claude Code 官方出品的最完整会话管理指南，/rewind 和 /compact 的用法细节是日常高频操作，值得反复看。
+- [AI开发工具链完整方案推荐](https://x.com/RookieRicardoR/status/2044630408894271549) ⭐3 · 2026-04-17 — 
 
 ## 分类导航
 

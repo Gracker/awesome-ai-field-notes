@@ -4,6 +4,16 @@ IDE / CLI / 代码审查 / 工作流 — 共 **156** 条活跃资源
 
 ## 📅 2026-04-14
 
+### [2026 年，AI 编程 Agent 的真正分水岭——Harness 详解](https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&mid=2649012185&idx=1&sn=e613849d8e706a95d4a3c292b5881a1e)
+@Ai学习的老章 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-14
+
+[Read in Cubox](https://cubox.pro/web/card/7443555361631504701)  
+[Read Original](https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&amp;mid=2649012185&amp;idx=1&amp;sn=e613849d8e706a95d4a3c292b5881a1e&amp;chksm=86dfe794b8bbe007e9e98feae10f476d336e026e8df0819088fa8639d3385dfe3ce872cacff2&amp;mpshare=
+
+`harness-engineering` `oh-my-claudecode` `oh-my-pi` `hashline` `coding-agent`
+
+---
+
 ### [深度拆解 Claude Code：12 个可复用的 Agentic Harness 设计模式](https://mp.weixin.qq.com/s?__biz=MjM5NzA1NzMyOQ==&mid=2247486928&idx=1&sn=c3d87ed82df6cc194cddbb69e95ddc9a)
 @技术极简主义 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-14
 
@@ -13,13 +23,13 @@ IDE / CLI / 代码审查 / 工作流 — 共 **156** 条活跃资源
 
 ---
 
-### [2026 年，AI 编程 Agent 的真正分水岭——Harness 详解](https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&mid=2649012185&idx=1&sn=e613849d8e706a95d4a3c292b5881a1e)
-@Ai学习的老章 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-14
+### [浏览器自动化：从GUI到OpenCLI](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559535&idx=1&sn=8eb95438291e8594d674652f6bb7c1df)
+@阿里妹 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-14
 
-[Read in Cubox](https://cubox.pro/web/card/7443555361631504701)  
-[Read Original](https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&amp;mid=2649012185&amp;idx=1&amp;sn=e613849d8e706a95d4a3c292b5881a1e&amp;chksm=86dfe794b8bbe007e9e98feae10f476d336e026e8df0819088fa8639d3385dfe3ce872cacff2&amp;mpshare=
+[Read in Cubox](https://cubox.pro/web/card/7443547423802132834)  
+[Read Original](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247559535&amp;idx=1&amp;sn=8eb95438291e8594d674652f6bb7c1df&amp;chksm=e8fb4fcf80f86a815cc31cd017098a604bb2b948524d8652ee631027f8542d6de98f4e06f7d3&amp;mpshare=
 
-`harness-engineering` `oh-my-claudecode` `oh-my-pi` `hashline` `coding-agent`
+`browser-automation` `opencli` `api-mimicry` `agent-tooling` `web-scraping`
 
 ---
 
@@ -36,16 +46,6 @@ IDE / CLI / 代码审查 / 工作流 — 共 **156** 条活跃资源
 
 ---
 
-### [浏览器自动化：从GUI到OpenCLI](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559535&idx=1&sn=8eb95438291e8594d674652f6bb7c1df)
-@阿里妹 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-14
-
-[Read in Cubox](https://cubox.pro/web/card/7443547423802132834)  
-[Read Original](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247559535&amp;idx=1&amp;sn=8eb95438291e8594d674652f6bb7c1df&amp;chksm=e8fb4fcf80f86a815cc31cd017098a604bb2b948524d8652ee631027f8542d6de98f4e06f7d3&amp;mpshare=
-
-`browser-automation` `opencli` `api-mimicry` `agent-tooling` `web-scraping`
-
----
-
 ## 📅 2026-04-10
 
 ### [Claude Code 官方中文文档](https://code.claude.com/docs/zh-CN/)
@@ -54,6 +54,13 @@ IDE / CLI / 代码审查 / 工作流 — 共 **156** 条活跃资源
 Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可理解整个代码库并跨多个文件和工具工作。支持macOS/Linux/WSL/Windows安装，核心功能包括：繁琐任务自动化（测试、lint修复、合并冲突）、自然语言描述→规划→编码→验证的工作流、git集成、MCP连接外部数据源、CLAUDE.md项目配置、自定义命令（Skills）和Hooks。
 
 `Claude-Code` `官方文档` `CLI` `MCP` `CLAUDE.md`
+
+---
+
+### [garrytan/gstack: Use Garry Tan&#x27;s exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA](https://github.com/garrytan/gstack)
+⭐⭐⭐⭐4 🌐 · 2026-04-10
+
+[需翻译] garrytan/gstack: Use Garry Tan&#x27;s exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
 
 ---
 
@@ -66,13 +73,6 @@ Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可�
 
 ---
 
-### [garrytan/gstack: Use Garry Tan&#x27;s exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA](https://github.com/garrytan/gstack)
-⭐⭐⭐⭐4 🌐 · 2026-04-10
-
-[需翻译] garrytan/gstack: Use Garry Tan&#x27;s exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
-
----
-
 ### [GitHub - PacktPublishing/LLM-Engineers-Handbook: The LLM&#x27;s practical guide: From the fundamentals to...](https://github.com/PacktPublishing/LLM-Engineers-Handbook) ⭐4,901
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
@@ -82,21 +82,21 @@ Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可�
 
 ---
 
-### [Claude Code 基操指南](#)
-⭐⭐⭐3 🇨🇳 · 2026-04-10
-
-社区整理的Claude Code最佳实践指南，覆盖基础操作、常用命令、工作流配置、常见问题解答等。适合Claude Code新手快速上手参考。
-
-`claude-code` `best-practices` `tutorial` `cli`
-
----
-
 ### [Claude Code 推荐 Skills 汇总](#)
 ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 Claude Code推荐Skills汇总整理。Skills是Claude Code中的可复用能力（SOP），存放于.claude/skills/目录。收集了社区和官方推荐的高质量Skills清单，涵盖翻译、代码审查、文档生成等常用场景。
 
 `claude-code` `skills` `recommended` `tools`
+
+---
+
+### [Claude Code 基操指南](#)
+⭐⭐⭐3 🇨🇳 · 2026-04-10
+
+社区整理的Claude Code最佳实践指南，覆盖基础操作、常用命令、工作流配置、常见问题解答等。适合Claude Code新手快速上手参考。
+
+`claude-code` `best-practices` `tutorial` `cli`
 
 ---
 
@@ -120,21 +120,21 @@ Claude Code推荐Skills汇总整理。Skills是Claude Code中的可复用能力�
 
 ---
 
-### [oh my codex 使用教程](https://x.com/oragnes/status/2041876228949602347)
-@oragnes · ⭐⭐⭐3 🇨🇳 · 2026-04-06
-
-介绍 oh-my-codex 工具，用于增强 OpenAI Codex 的长任务能力。安装命令 npm install -g @openai/codex oh-my-codex。核心命令：$deep-interview（澄清）、$ralplan（方案审批）、$ralph（推进执行）、$team 3:executor（并行执行）。亲测可有效处理长任务。
-
-`codex` `oh-my-codex` `coding-agent` `task-management`
-
----
-
 ### [CLAUDE CODE 橙皮书开源（75页）](https://x.com/AlchainHust/status/2039169585979539625)
 @AlchainHust · ⭐⭐⭐3 🇨🇳 · 2026-04-06
 
 AI 进化论-花生开源的 75 页《CLAUDE CODE 橙皮书》实战手册，面向想用 AI 编程但不知道从哪开始的人。10 章内容覆盖：核心工作流（Plan/Auto 模式、权限管理）、CLAUDE.md 写法、Skills/Hooks/MCP 扩展能力、多 Agent 并行协作、Computer Use 和 Voice Mode、一章完整的从零到上线产品实战。信息源来自 Claude 官方文档、Boris Cherny 分享、吴恩达 Claude Code 课程及作者用 CC 做十几个产品的经验。
 
 `Claude Code` `橙皮书` `实战手册` `开源` `AI编程`
+
+---
+
+### [oh my codex 使用教程](https://x.com/oragnes/status/2041876228949602347)
+@oragnes · ⭐⭐⭐3 🇨🇳 · 2026-04-06
+
+介绍 oh-my-codex 工具，用于增强 OpenAI Codex 的长任务能力。安装命令 npm install -g @openai/codex oh-my-codex。核心命令：$deep-interview（澄清）、$ralplan（方案审批）、$ralph（推进执行）、$team 3:executor（并行执行）。亲测可有效处理长任务。
+
+`codex` `oh-my-codex` `coding-agent` `task-management`
 
 ---
 
@@ -180,17 +180,17 @@ Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知�
 
 ## 📅 2026-03-31
 
-### [学习笔记：从 Agent 到 Skills — AI 智能体架构的范式转变](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559249&idx=1&sn=7cda1453a5f7f51c39f43b76027696a1&chksm=e8178b0b81a60cb0161a097e5da8dbc326a34f5b041404fa1f9e023950c003fbe9a394c1d0e0&mpshare=1&scene=1&srcid=0331R15fBYxYJco3uMTIEUTw&sharer_shareinfo=327719e3faec950e49ae3605678de77e&sharer_shareinfo_first=327719e3faec950e49ae3605678de77e)
-⭐⭐⭐⭐4 🇨🇳 · 2026-03-31
-
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FZ6bicxIx5naL7zVHZH429Po1HLpbichP9SLVicPtoxkI2WhMxUibFwG9U1dUOJu33R5KD9ib25hmibaaZLLldnh8dA4A%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0) &gt; 报告日期：2026-02-28 关键词： Agent Skills, MCP, OpenClaw,...
-
----
-
 ### [认知重建之后，步入Agentic Engineering的工程革命](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801026&idx=1&sn=3e12f0888b3c232ed7218caf90df5f0a&chksm=bf4c0f3ab8ef6ca21c04e80f8bfce44dae41e5b6e72e1f523bbcf88da8f6d03e4f1056efb689&mpshare=1&scene=1&srcid=0331LA6BLBJmhKZPFBdhCoO4&sharer_shareinfo=91bd93888a0e7958e77c5a12d0cbd198&sharer_shareinfo_first=91bd93888a0e7958e77c5a12d0cbd198)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-31
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg%23imgIndex%3D0)
+
+---
+
+### [学习笔记：从 Agent 到 Skills — AI 智能体架构的范式转变](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559249&idx=1&sn=7cda1453a5f7f51c39f43b76027696a1&chksm=e8178b0b81a60cb0161a097e5da8dbc326a34f5b041404fa1f9e023950c003fbe9a394c1d0e0&mpshare=1&scene=1&srcid=0331R15fBYxYJco3uMTIEUTw&sharer_shareinfo=327719e3faec950e49ae3605678de77e&sharer_shareinfo_first=327719e3faec950e49ae3605678de77e)
+⭐⭐⭐⭐4 🇨🇳 · 2026-03-31
+
+?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FZ6bicxIx5naL7zVHZH429Po1HLpbichP9SLVicPtoxkI2WhMxUibFwG9U1dUOJu33R5KD9ib25hmibaaZLLldnh8dA4A%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0) &gt; 报告日期：2026-02-28 关键词： Agent Skills, MCP, OpenClaw,...
 
 ---
 
@@ -283,17 +283,17 @@ Tw93基于半年深度使用Claude Code的踩坑总结。提出六层架构模�
 
 ---
 
-### [你不知道的 Claude Code：架构、治理与工程实践 - Tw93](https://tw93.fun/2026-03-12/claude.html)
-⭐⭐⭐⭐4 🇨🇳 · 2026-03-21
-
-我把我最近半年每个月氪金40刀2个账号的claude code 使用过程中，积累的一些实际经验分享给大伙。这篇文章主要围绕上下文管理、Skills、Hooks、Subagents、Prompt Caching 以及 CLAUDE.md 的设计展开，重点讨论怎样让协作过程更稳定、更可控，偏工程师技术视角的最佳实践，欢迎大伙一起最佳交流。
-
----
-
 ### [分享10个你可能不知道的Claude Code隐藏命令。](https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680919&idx=1&sn=95032bfc6270f229e713598805d26ebf&chksm=f18f60a2aad3f3a08e0d6dee996a13c72b5c47b89ee989b29b84899a4ff0da1606e47842c577&scene=126&sessionid=1774059013)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-21
 
 我们公司很多很多的小伙伴，都在用Claude Code，因为这玩意，在很多时候，确实就是最牛逼的通用Agent。
+
+---
+
+### [你不知道的 Claude Code：架构、治理与工程实践 - Tw93](https://tw93.fun/2026-03-12/claude.html)
+⭐⭐⭐⭐4 🇨🇳 · 2026-03-21
+
+我把我最近半年每个月氪金40刀2个账号的claude code 使用过程中，积累的一些实际经验分享给大伙。这篇文章主要围绕上下文管理、Skills、Hooks、Subagents、Prompt Caching 以及 CLAUDE.md 的设计展开，重点讨论怎样让协作过程更稳定、更可控，偏工程师技术视角的最佳实践，欢迎大伙一起最佳交流。
 
 ---
 
@@ -352,6 +352,22 @@ LangChain 创始人 Harrison Chase 分析 Coding Agent 对工程、产品、设�
 
 ## 📅 2026-03-06
 
+### [How I&#x27;d Become a Quant If I Had to Start Over Tomorrow](https://x.com/gemchange_ltd/status/2028904166895112617)
+@gemchanger · ⭐⭐⭐⭐⭐5 🌐 · 2026-03-06
+
+**By @gemchange_ltd** (gemchanger) · Tue Mar 03 18:43:43 +0000 2026
+📊 ❤️ 11,346 🔁 1,198 🔖 42,679 👁️ 6,361,106 💬 159
+📐 2,585 words
+In 2025, entry-level quants at top firms pulled $300K-$500K total comp.
+AI/ML hiring in finance grew 88% year-over-year.
+This article is everything I wish someone had handed me when i started my path laid out in the exact order you should learn it.
+The path is like layers of a video game, where you can&#x27;t skip levels.
+Every concept builds on the last.
+
+`rag` `archive` `x-bookmarks`
+
+---
+
 ### [The Ultimate Beginner&#x27;s Guide to Claude (March 2026)](https://x.com/aiedge_/status/2029233676111008061)
 @AIEdge · ⭐⭐⭐⭐⭐5  · 2026-03-06
 
@@ -380,22 +396,6 @@ Last week, Anthropic shipped its best suite of Claude features yet. If you&#x27;
 跳过那些产品介绍式的废话，这里只有实践验证过的干货。新手能快速上手，老用户也能查漏补缺。
 
 `claude` `memory` `skill` `context-management` `archive`
-
----
-
-### [How I&#x27;d Become a Quant If I Had to Start Over Tomorrow](https://x.com/gemchange_ltd/status/2028904166895112617)
-@gemchanger · ⭐⭐⭐⭐⭐5 🌐 · 2026-03-06
-
-**By @gemchange_ltd** (gemchanger) · Tue Mar 03 18:43:43 +0000 2026
-📊 ❤️ 11,346 🔁 1,198 🔖 42,679 👁️ 6,361,106 💬 159
-📐 2,585 words
-In 2025, entry-level quants at top firms pulled $300K-$500K total comp.
-AI/ML hiring in finance grew 88% year-over-year.
-This article is everything I wish someone had handed me when i started my path laid out in the exact order you should learn it.
-The path is like layers of a video game, where you can&#x27;t skip levels.
-Every concept builds on the last.
-
-`rag` `archive` `x-bookmarks`
 
 ---
 
@@ -456,34 +456,6 @@ BestBlogs.dev 第 85 期以&quot;驾驭工程&quot;为核心关键词，提出�
 
 ## 📅 2026-03-04
 
-### [2026-03-04-0813-brucexu_eth-Deep-Research-盲测-ChatGPT-5.2-Pro-vs-Clau-2028796588039262505](https://x.com/brucexu_eth/status/2028796588039262505)
-@brucexu_eth · ⭐⭐⭐⭐4 🇨🇳 · 2026-03-04
-
-**@brucexu_eth** (brucexu.eth ❤️🐼🦇🔊)
-🕐 Tue Mar 03 11:36:14 +0000 2026
-📊 ❤️ 91 🔁 10 🔖 74 👁️ 20,264 💬 7
-我这两天用真实且有深度的实际问题（一个行业市场调研）深度盲测了 ChatGPT 5.2 Thinking、Gemini 3.1 Pro、Claude Opus 4.6 的普通付费版（20 USD）账号的 Deep Research，结果开始令我大跌眼镜，后来发现不对又正常了。然后又加了 ChatGPT 5.2 Pro 的 Deep research 和 Extended Pro 做对比。
-避免卖关子，先说结论：ChatGPT 5.2 Pro &gt; Claude Opus 4.6 &gt; ChatGPT 5.2 Thinking (plus) &gt; Gemini 3.1 Pro &gt;&gt; ChatGPT 5.2 限流版。感觉 AI 时代，要么就用最好的，要么干脆别用，差点的模型除了浪费时间，生成的内容可能还有误导性。
-如果你只买得起 20 USD 方案，那么 Claude 是研究层面最好的。
-
-`claude`
-
----
-
-### [Investigating how Codex context compaction works](https://x.com/Kangwook_Lee/status/2028955292025962534)
-@Kangwook_Lee · ⭐⭐⭐⭐4  · 2026-03-04
-
-**By @Kangwook_Lee** (Kangwook Lee) · Tue Mar 03 22:06:52 +0000 2026
-**@Kangwook_Lee**（Kangwook Lee）· 3 月 3 日星期二 22:06:52 +0000 2026
-📊 ❤️ 864 🔁 82 🔖 1,960 👁️ 244,078 💬 16
-📐 543 words
-📐 543 个字
-For non-codex models, the open-source Codex CLI compacts context locally: an LLM summarizes the conversation using a compaction prompt. When the compacted context is later used, responses.create() receives it with a handoff prompt that frames the summary. Both prompts are visible in the source code.
-
-`codex` `system-prompt` `context-management` `open-source`
-
----
-
 ### [2026-03-04-1609-xin_pai88825-Vibe-Coding-高效工具清单-Codex-Paper-21st-Unicorn-Agentation-Axion-Apple-Docs-2029027642616496194](https://x.com/xin_pai88825/status/2029027642616496194)
 @xin_pai88825 · ⭐⭐⭐⭐4  · 2026-03-04
 
@@ -502,6 +474,34 @@ For non-codex models, the open-source Codex CLI compacts context locally: an LLM
 5、Agentation
 
 `codex` `mcp` `agent` `vibe-coding` `coding`
+
+---
+
+### [Investigating how Codex context compaction works](https://x.com/Kangwook_Lee/status/2028955292025962534)
+@Kangwook_Lee · ⭐⭐⭐⭐4  · 2026-03-04
+
+**By @Kangwook_Lee** (Kangwook Lee) · Tue Mar 03 22:06:52 +0000 2026
+**@Kangwook_Lee**（Kangwook Lee）· 3 月 3 日星期二 22:06:52 +0000 2026
+📊 ❤️ 864 🔁 82 🔖 1,960 👁️ 244,078 💬 16
+📐 543 words
+📐 543 个字
+For non-codex models, the open-source Codex CLI compacts context locally: an LLM summarizes the conversation using a compaction prompt. When the compacted context is later used, responses.create() receives it with a handoff prompt that frames the summary. Both prompts are visible in the source code.
+
+`codex` `system-prompt` `context-management` `open-source`
+
+---
+
+### [2026-03-04-0813-brucexu_eth-Deep-Research-盲测-ChatGPT-5.2-Pro-vs-Clau-2028796588039262505](https://x.com/brucexu_eth/status/2028796588039262505)
+@brucexu_eth · ⭐⭐⭐⭐4 🇨🇳 · 2026-03-04
+
+**@brucexu_eth** (brucexu.eth ❤️🐼🦇🔊)
+🕐 Tue Mar 03 11:36:14 +0000 2026
+📊 ❤️ 91 🔁 10 🔖 74 👁️ 20,264 💬 7
+我这两天用真实且有深度的实际问题（一个行业市场调研）深度盲测了 ChatGPT 5.2 Thinking、Gemini 3.1 Pro、Claude Opus 4.6 的普通付费版（20 USD）账号的 Deep Research，结果开始令我大跌眼镜，后来发现不对又正常了。然后又加了 ChatGPT 5.2 Pro 的 Deep research 和 Extended Pro 做对比。
+避免卖关子，先说结论：ChatGPT 5.2 Pro &gt; Claude Opus 4.6 &gt; ChatGPT 5.2 Thinking (plus) &gt; Gemini 3.1 Pro &gt;&gt; ChatGPT 5.2 限流版。感觉 AI 时代，要么就用最好的，要么干脆别用，差点的模型除了浪费时间，生成的内容可能还有误导性。
+如果你只买得起 20 USD 方案，那么 Claude 是研究层面最好的。
+
+`claude`
 
 ---
 
@@ -564,15 +564,15 @@ Claude Code 团队讲了一个特别生动的类比。
 
 ## 📅 2026-03-02
 
-### [2026-03-02-0810-karpathy-AI-changed-programming-last-two-months-2026731645169185220](https://x.com/karpathy/status/2026731645169185220)
-@karpathy · ⭐⭐⭐⭐4  · 2026-03-02
+### [X-PLUG/MobileAgent](https://github.com/X-PLUG/MobileAgent")
+@XPLUG · ⭐⭐⭐⭐4  · 2026-03-02
 
-It is hard to communicate how much programming has changed due to AI in the last 2 months... coding agents basically did not work before December.
-过去两个月里，AI 对编程方式的改变非常剧烈；在作者看来，去年 12 月前后是关键拐点，编码代理开始真正可用。
-Boundary: this is expert observation, not a controlled benchmark; validate with your own repo metrics.
-边界：这是专家经验判断而非严格对照实验，落地时应先用自有仓库指标验证。
+MobileAgent is Alibaba Tongyi Lab’s GUI-agent project family, covering mobile, desktop, and browser automation through the GUI-Owl model line and multi-agent workflows.
+MobileAgent 是阿里通义实验室的 GUI Agent 项目家族，通过 GUI-Owl 模型系与多 Agent 工作流覆盖移动端、桌面端与浏览器自动化。
+The repository serves as a unified hub of papers, code, demos, and benchmark updates (e.g., GUI-Owl 1.5, Mobile-Agent-v3/v3.5, UI-S1, and PC-Agent).
+该仓库是论文、代码、演示与基准进展的统一入口（如 GUI-Owl 1.5、Mobile-Agent-v3/v3.5、UI-S1、PC-Agent）。
 
-`agent` `karpathy` `benchmark` `coding`
+`agent` `multi-agent` `benchmark` `automation` `github`
 
 ---
 
@@ -588,15 +588,15 @@ It models memory like a file system (resources, items, categories), making memor
 
 ---
 
-### [X-PLUG/MobileAgent](https://github.com/X-PLUG/MobileAgent")
-@XPLUG · ⭐⭐⭐⭐4  · 2026-03-02
+### [2026-03-02-0810-karpathy-AI-changed-programming-last-two-months-2026731645169185220](https://x.com/karpathy/status/2026731645169185220)
+@karpathy · ⭐⭐⭐⭐4  · 2026-03-02
 
-MobileAgent is Alibaba Tongyi Lab’s GUI-agent project family, covering mobile, desktop, and browser automation through the GUI-Owl model line and multi-agent workflows.
-MobileAgent 是阿里通义实验室的 GUI Agent 项目家族，通过 GUI-Owl 模型系与多 Agent 工作流覆盖移动端、桌面端与浏览器自动化。
-The repository serves as a unified hub of papers, code, demos, and benchmark updates (e.g., GUI-Owl 1.5, Mobile-Agent-v3/v3.5, UI-S1, and PC-Agent).
-该仓库是论文、代码、演示与基准进展的统一入口（如 GUI-Owl 1.5、Mobile-Agent-v3/v3.5、UI-S1、PC-Agent）。
+It is hard to communicate how much programming has changed due to AI in the last 2 months... coding agents basically did not work before December.
+过去两个月里，AI 对编程方式的改变非常剧烈；在作者看来，去年 12 月前后是关键拐点，编码代理开始真正可用。
+Boundary: this is expert observation, not a controlled benchmark; validate with your own repo metrics.
+边界：这是专家经验判断而非严格对照实验，落地时应先用自有仓库指标验证。
 
-`agent` `multi-agent` `benchmark` `automation` `github`
+`agent` `karpathy` `benchmark` `coding`
 
 ---
 
@@ -622,15 +622,6 @@ AI Robot Phone！！
 
 ## 📅 2026-03-01
 
-### [130万次下载，2万Star开源项目CC Switch，36岁转行程序员Jason的第一个作品](https://x.com/wey_gu/status/2027772306458812757)
-@Wey Gu · ⭐⭐⭐⭐4 🇨🇳 · 2026-03-01
-
-CC Switch 是 Claude Code 的供应商管理和切换工具，GitHub 2 万 Star、130 万下载。作者 Jason 36 岁从进出口贸易转行编程，花 3 个月学 TypeScript/React/Node/Rust 后做出第一个项目。核心设计理念&quot;侵入性最小&quot;——即使卸载也不影响正常使用。从 Electron 重构为 Tauri（从 80MB→更轻量），编程语言从 TypeScript 转 Rust。第一版一周完成。
-
-`cc-switch` `claude-code` `electron` `tauri` `open-source`
-
----
-
 ### [从 MCP 到 SKILL：关于 Agent 扩展机制的思考](https://x.com/jolestar/status/2011461813767155828)
 @jolestar · ⭐⭐⭐⭐4  · 2026-03-01
 
@@ -647,6 +638,15 @@ MCP（Model Context Protocol）把这套机制做成了“标准插头”：以�
 
 ---
 
+### [130万次下载，2万Star开源项目CC Switch，36岁转行程序员Jason的第一个作品](https://x.com/wey_gu/status/2027772306458812757)
+@Wey Gu · ⭐⭐⭐⭐4 🇨🇳 · 2026-03-01
+
+CC Switch 是 Claude Code 的供应商管理和切换工具，GitHub 2 万 Star、130 万下载。作者 Jason 36 岁从进出口贸易转行编程，花 3 个月学 TypeScript/React/Node/Rust 后做出第一个项目。核心设计理念&quot;侵入性最小&quot;——即使卸载也不影响正常使用。从 Electron 重构为 Tauri（从 80MB→更轻量），编程语言从 TypeScript 转 Rust。第一版一周完成。
+
+`cc-switch` `claude-code` `electron` `tauri` `open-source`
+
+---
+
 ## 📅 2026-02-28
 
 ### [Lessons from Building Claude Code: Seeing like an Agent](https://x.com/trq212/status/2027463795355095314)
@@ -658,21 +658,21 @@ Claude Code 核心开发者分享构建经验。设计 Agent 工具的关键框�
 
 ---
 
-### [Claude Code + Codex 双模型审查流程](https://x.com/runes_leo/status/2027269214524903892)
-@Leo · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-28
-
-写代码的模型永远不负责审自己的代码。Claude Code 跑 Opus 4.6 写完功能，通过 MCP 协议接入 Codex MCP Server 让 Codex 审查。审完列问题，回到 Opus 逐个修，循环到没新问题。原理：自己写的东西自己审永远有盲区，换一个不同思路的 AI 审你的 AI。成本多一轮对话的钱但省掉的返工时间远超。
-
-`claude-code` `codex` `code-review` `mcp` `dual-model`
-
----
-
 ### [Claude Code 核心开发者分享：构建 Claude Code 的经验教训——像 Agent 一样看世界](https://x.com/fkysly/status/2027610329530712204)
 @马天翼 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-28
 
 Thariq 原文的中文翻译。构建 agent 框架最难的部分是设计行动空间。工具设计要匹配 Agent 能力（纸笔→计算器→电脑的类比）。AskUserQuestion 工具三次迭代：修改 ExitPlanTool（Claude 困惑）→修改输出格式（不可靠）→独立工具（成功）。最终方案可引导结构化输出、确保多选项、支持 SDK 集成。
 
 `claude-code` `agent-design` `tool-calling` `chinese-translation`
+
+---
+
+### [Claude Code + Codex 双模型审查流程](https://x.com/runes_leo/status/2027269214524903892)
+@Leo · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-28
+
+写代码的模型永远不负责审自己的代码。Claude Code 跑 Opus 4.6 写完功能，通过 MCP 协议接入 Codex MCP Server 让 Codex 审查。审完列问题，回到 Opus 逐个修，循环到没新问题。原理：自己写的东西自己审永远有盲区，换一个不同思路的 AI 审你的 AI。成本多一轮对话的钱但省掉的返工时间远超。
+
+`claude-code` `codex` `code-review` `mcp` `dual-model`
 
 ---
 
@@ -825,19 +825,19 @@ Read Original
 
 ## 📅 2026-01-07
 
+### [Welcome to the Machine, a guide to building infra software for AI agents](https://me.0xffff.me/welcome_to_the_machine.html)
+⭐⭐⭐⭐4 🌐 · 2026-01-07
+
+[需翻译] Welcome to the Machine, a guide to building infra software for AI agents
+
+---
+
 ### [Promoting AI agents](https://world.hey.com/dhh/promoting-ai-agents-3ee04945)
 @DHH · ⭐⭐⭐⭐4 🌐 · 2026-01-07
 
 DHH 分享对 AI Agent 编程的看法转变。从不喜欢编辑器自动补全到欣赏终端 Agent 协作模式。在 OpenCode 中使用 Claude Opus 4.5 等模型，认为 Agent 已能产出生产级代码。对&#x27;Agent写90%代码&#x27;持怀疑态度，强调监督式协作是当下最现实范式。
 
 `DHH` `AI-agents` `coding` `OpenCode` `supervised-collaboration`
-
----
-
-### [Welcome to the Machine, a guide to building infra software for AI agents](https://me.0xffff.me/welcome_to_the_machine.html)
-⭐⭐⭐⭐4 🌐 · 2026-01-07
-
-[需翻译] Welcome to the Machine, a guide to building infra software for AI agents
 
 ---
 
@@ -902,17 +902,17 @@ Read Original
 
 ## 📅 2025-12-11
 
-### [使用AI自动优化网站PageSpeed性能](https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247499929&idx=1&sn=4186f86bd4c620e6c404142c3ff067fc&chksm=e838388f89e6f8b9687345382669bc42d3e7453986c4947cfad7d488d0790e764eebb842add3&mpshare=1&scene=1&srcid=1211lwGuxKjNyqv9G5Znficn&sharer_shareinfo=cb7bbf1959cceaf7b43ecb6ec2340766&sharer_shareinfo_first=cb7bbf1959cceaf7b43ecb6ec2340766)
-⭐⭐⭐3 🇨🇳 · 2025-12-11
-
-今天一位学生来找我报喜，他从零编程基础开始，借助AI编程来做产品，现在已经取得了相当不错的成绩，上个月挣了四万多美元。
-
----
-
 ### [别再只写 CLAUDE.md 了：用 Rules 重构 Claude Code 的记忆系统](https://mp.weixin.qq.com/s?__biz=MzIxNTUxNDA5NQ==&mid=2247485928&idx=1&sn=042c59f7e6d9a5ab9cd251a70cae412f&chksm=96db6386a67d57503244639a65388c43c40c7e6670073c5ea1260431946a1fab4a45a1ba9150&mpshare=1&scene=1&srcid=1211ChEBUi9jyC7vCv2mgwRO&sharer_shareinfo=17ac304b7c4d4cde32f0c44fa3eeaeff&sharer_shareinfo_first=17ac304b7c4d4cde32f0c44fa3eeaeff)
 ⭐⭐⭐3 🇨🇳 · 2025-12-11
 
 Claude Code 支持 Rules 了，Agent 的生态在大融合了，文本化的 Skills + Rules 要占领生态位了
+
+---
+
+### [使用AI自动优化网站PageSpeed性能](https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247499929&idx=1&sn=4186f86bd4c620e6c404142c3ff067fc&chksm=e838388f89e6f8b9687345382669bc42d3e7453986c4947cfad7d488d0790e764eebb842add3&mpshare=1&scene=1&srcid=1211lwGuxKjNyqv9G5Znficn&sharer_shareinfo=cb7bbf1959cceaf7b43ecb6ec2340766&sharer_shareinfo_first=cb7bbf1959cceaf7b43ecb6ec2340766)
+⭐⭐⭐3 🇨🇳 · 2025-12-11
+
+今天一位学生来找我报喜，他从零编程基础开始，借助AI编程来做产品，现在已经取得了相当不错的成绩，上个月挣了四万多美元。
 
 ---
 
@@ -1207,17 +1207,17 @@ Read Original
 
 ## 📅 2025-02-09
 
-### [「代码艺术家」不会被 AI 取代 | Randy&#x27;s Blog](https://lutaonan.com/blog/code-artists/)
-⭐⭐⭐3 🇨🇳 · 2025-02-09
-
-最近大量地使用 Cursor 替代了VS Code,开始习惯直接在编辑器里告诉AI我的需求，让它来代替我写出代码段。
-
----
-
 ### [译：AI 正在创造一代文盲程序员 – 云谦的博客](https://sorrycc.com/ai-illiterate-programmers/)
 ⭐⭐⭐3 🇨🇳 · 2025-02-09
 
 &gt; 原文：&lt;https://nmn.gl/blog/ai-illiterate-programmers&gt;   &gt; 作者：Namanyay   &gt; 译者：ChatGPT 4 Turbo
+
+---
+
+### [「代码艺术家」不会被 AI 取代 | Randy&#x27;s Blog](https://lutaonan.com/blog/code-artists/)
+⭐⭐⭐3 🇨🇳 · 2025-02-09
+
+最近大量地使用 Cursor 替代了VS Code,开始习惯直接在编辑器里告诉AI我的需求，让它来代替我写出代码段。
 
 ---
 
@@ -1637,6 +1637,15 @@ Cubox 收藏 — 深入探讨GPTs和AI Assistant
 
 ## 📅 2023-03-09
 
+### [ChatGPT 在做什么… 以及它为何发挥作用？](https://mp.weixin.qq.com/s?__biz=Mzg3OTgxODY0Nw==&mid=2247483927&idx=1&sn=024c6b5fbb7e43a025eab9d6096b484f&chksm=cf7fe0eff80869f9eefa9fcff82e11910e9ab5ced03933f4040394b5a897003325eb7d601cc3&mpshare=1&scene=1&srcid=03092z2hM9JDktnp3XF30Tv2&sharer_sharetime=1678325853531&sharer_shareid=3fee492c0c6fb5a2da9e121bd1155214)
+@Stephen Wolfram，发表于 2023年2月14日原文链接：https://writing · ⭐⭐⭐⭐4 🇨🇳 · 2023-03-09
+
+# ChatGPT 在做什么… 以及它为何发挥作用？ 作者：Stephen Wolfram，发表于 2023年2月14日原文链接：https://writings 作者 ：Stephen Wolfram，发表于 2023年2月14日 原文链接 ：https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/ 文章字数 ：约 3.4 万字  建议收藏后阅读...... 提示：本文包括一百多张图片...... 微信公共账号的编辑器经常会出现图片处理错误（尤其是在使用 Markdown 处...
+
+`[]` `llm` `chatgpt`
+
+---
+
 ### [2023年最新AIGC绘画水平发展](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649776933&idx=1&sn=9dd0ae4b3c3a804eec1c5a33d49e0c78&chksm=beccf05e89bb7948ed4901021e2ebf25017594b86e3a9b4eb7be9de85724a96ec1c250e01d7d&mpshare=1&scene=1&srcid=0309spjbxy8PIocw0fZbCofN&sharer_sharetime=1678360311666&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
 @yiqiuzheng，腾讯 IEG 前端工程师 · ⭐⭐⭐⭐4 🇨🇳 · 2023-03-09
 
@@ -1647,15 +1656,6 @@ Read Original
 但是这些早期的 AI 绘画模型要么被大公司长久把持(例如`OpenAI`公司，他们早在 2021 年就推出了`Dall-E1AI`绘画模型，并未开源。直到`Stability AI`公司于 2022 年 8 月...
 
 `ChatGPT` `OpenAI` `AIGC` `Stable Diffusion` `Copilot`
-
----
-
-### [ChatGPT 在做什么… 以及它为何发挥作用？](https://mp.weixin.qq.com/s?__biz=Mzg3OTgxODY0Nw==&mid=2247483927&idx=1&sn=024c6b5fbb7e43a025eab9d6096b484f&chksm=cf7fe0eff80869f9eefa9fcff82e11910e9ab5ced03933f4040394b5a897003325eb7d601cc3&mpshare=1&scene=1&srcid=03092z2hM9JDktnp3XF30Tv2&sharer_sharetime=1678325853531&sharer_shareid=3fee492c0c6fb5a2da9e121bd1155214)
-@Stephen Wolfram，发表于 2023年2月14日原文链接：https://writing · ⭐⭐⭐⭐4 🇨🇳 · 2023-03-09
-
-# ChatGPT 在做什么… 以及它为何发挥作用？ 作者：Stephen Wolfram，发表于 2023年2月14日原文链接：https://writings 作者 ：Stephen Wolfram，发表于 2023年2月14日 原文链接 ：https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/ 文章字数 ：约 3.4 万字  建议收藏后阅读...... 提示：本文包括一百多张图片...... 微信公共账号的编辑器经常会出现图片处理错误（尤其是在使用 Markdown 处...
-
-`[]` `llm` `chatgpt`
 
 ---
 

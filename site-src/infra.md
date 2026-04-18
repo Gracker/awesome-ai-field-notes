@@ -66,21 +66,21 @@ V 神分享的本地大模型环境配置博客。从硬件选型开始，详细
 
 ## 📅 2026-04-05
 
-### [LLM Knowledge Bases](https://x.com/karpathy/status/2039805659525644595)
-@Andrej Karpathy · ⭐⭐⭐⭐4 🌐 · 2026-04-05
-
-Karpathy 分享他用 LLM 构建个人知识库的工作流：raw/ 目录存放原始文档，LLM 增量&quot;编译&quot;成 .md wiki（含摘要、反向链接、概念分类文章）；用 Obsidian 作为 IDE 前端查看原始数据、编译产物和可视化；wiki 达到约 100 篇文章/40 万字后，可以直接向 LLM agent 提问复杂问题。关键发现：不需要 fancy RAG，LLM 自己会维护索引文件和文档摘要。输出形式包括 Markdown 文件、幻灯片（Marp 格式）、matplotlib 图像。还会用 LLM 做 wiki 健康检查（不一致数据、缺失数据、新文章候选）。
-
-`LLM` `知识库` `Obsidian` `Markdown` `RAG`
-
----
-
 ### [Karpathy 最新方法论：把 LLM 当编译器用，知识管理该换个思路了](https://mp.weixin.qq.com/s?__biz=Mzk4ODkzOTY3MA==&mid=2247484735&idx=1&sn=6c93e0c324588762e10a99e915a04678)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-05
 
 解读 Andrej Karpathy 2026 年 4 月提出的 LLM 知识库方法论。核心类比：把 LLM 当编译器，原始资料当源代码，生成 Wiki 当可执行文件。三层目录结构：raw/（原始素材）、wiki/（LLM 编译产出的结构化 Markdown）、output/（查询结果和衍生输出）。四步工作流：摄入（Ingest）到编译（Compile）到查询（Query）到健康检查（Lint）。与 RAG 的关键区别：RAG 是查询时实时检索（临时性），Karpathy 的方法是提前编译（持久性），查询结果自动回写 Wiki。适用规模约 40 万字，不需要向量数据库。
 
 `Karpathy` `knowledge-management` `LLM` `wiki` `obsidian`
+
+---
+
+### [LLM Knowledge Bases](https://x.com/karpathy/status/2039805659525644595)
+@Andrej Karpathy · ⭐⭐⭐⭐4 🌐 · 2026-04-05
+
+Karpathy 分享他用 LLM 构建个人知识库的工作流：raw/ 目录存放原始文档，LLM 增量&quot;编译&quot;成 .md wiki（含摘要、反向链接、概念分类文章）；用 Obsidian 作为 IDE 前端查看原始数据、编译产物和可视化；wiki 达到约 100 篇文章/40 万字后，可以直接向 LLM agent 提问复杂问题。关键发现：不需要 fancy RAG，LLM 自己会维护索引文件和文档摘要。输出形式包括 Markdown 文件、幻灯片（Marp 格式）、matplotlib 图像。还会用 LLM 做 wiki 健康检查（不一致数据、缺失数据、新文章候选）。
+
+`LLM` `知识库` `Obsidian` `Markdown` `RAG`
 
 ---
 
@@ -95,15 +95,6 @@ Karpathy 分享他用 LLM 构建个人知识库的工作流：raw/ 目录存放�
 
 ## 📅 2026-03-11
 
-### [Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/engineering/infrastructure-noise)
-@Anthropic Engineering · ⭐⭐⭐⭐4 🌐 · 2026-03-11
-
-Anthropic工程团队量化了Agent编程评测中的基础设施噪声问题。发现即使在相同环境下重复运行相同的Agent评测，结果也会因网络延迟、API负载、容器调度等因素产生显著波动。这对SWE-Bench、Terminal-Bench等评测的可靠性提出了挑战。提出了减少噪声的方法论建议。
-
-`anthropic` `evaluation` `agentic-coding` `benchmarks` `noise`
-
----
-
 ### [AI 是一块“五层蛋糕”](https://blogs.nvidia.cn/blog/ai-5-layer-cake/)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-11
 
@@ -115,6 +106,15 @@ AI 依托真实的硬件、能源和经济体系运行。它可以将原材料�
 要理解 AI 为何以这种方式发展，我们需要从基本原理进行推理，并了解计算领域发生了哪些根本性变化。
 
 `Inference`
+
+---
+
+### [Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/engineering/infrastructure-noise)
+@Anthropic Engineering · ⭐⭐⭐⭐4 🌐 · 2026-03-11
+
+Anthropic工程团队量化了Agent编程评测中的基础设施噪声问题。发现即使在相同环境下重复运行相同的Agent评测，结果也会因网络延迟、API负载、容器调度等因素产生显著波动。这对SWE-Bench、Terminal-Bench等评测的可靠性提出了挑战。提出了减少噪声的方法论建议。
+
+`anthropic` `evaluation` `agentic-coding` `benchmarks` `noise`
 
 ---
 
@@ -536,6 +536,13 @@ ChatGPT的火爆出圈，让大家对NLP语言模型的发展历程产生了浓�
 
 ## 📅 2023-03-22
 
+### [真·万字长文:可能是全网最晚的chatgpt技术总结](https://zhuanlan.zhihu.com/p/613698929?utm_campaign=shareopn&utm_medium=social&utm_oi=761310487785783296&utm_psn=1621196363999485952&utm_source=wechat_session)
+⭐⭐⭐⭐4 🇨🇳 · 2023-03-22
+
+最近ChatGPT可以说是火遍了全世界，作为由知名人工智能研究机构OpenAI于2022年11月30日发布的一个大型语言预训练模型，他的核心在于能够理解人类的自然语言，并使用贴近人类语言风格的方式来进行回复。模型开放使用以来，在人工智能领域引起了巨大的轰动，也成功火出了技术圈。从数据上看，ChatGPT用户数在5天内就达到了100万，2个月就达到了1亿；另外，在很多非人工智能领域，已经有机构在尝试用ChatGPT去做一些智能生成的事。…
+
+---
+
 ### [AIGC图像生成的原理综述与落地畅想](https://mp.weixin.qq.com/s?__biz=MzAxNDEwNjk5OQ==&mid=2650503986&idx=1&sn=f92c8986e13e30184cb43e6f76f985d2&chksm=8397b32ab4e03a3c9f6e03e8b03aed5db17f4834d0435c6ac40311ff8d882531682211c5ad3d&mpshare=1&scene=1&srcid=0322KCccdeScAxL5DF5t0BvM&sharer_sharetime=1679479393566&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
 ⭐⭐⭐⭐4 🇨🇳 · 2023-03-22
 
@@ -550,13 +557,6 @@ GAN 系列算法开启了图片生成的新起点。GAN的主要灵感来源于�
    D是一个判别网络，判别一张图片是不是&quot;真实的&quot;。它的输入参数是x，x代表一张图片，输出D（x）代表x为真实图片的概率，如果为1，就代表100%是真实的图片。
 
 `AIGC` `Stable Diffusion` `Embedding` `Transformer` `Diffusion`
-
----
-
-### [真·万字长文:可能是全网最晚的chatgpt技术总结](https://zhuanlan.zhihu.com/p/613698929?utm_campaign=shareopn&utm_medium=social&utm_oi=761310487785783296&utm_psn=1621196363999485952&utm_source=wechat_session)
-⭐⭐⭐⭐4 🇨🇳 · 2023-03-22
-
-最近ChatGPT可以说是火遍了全世界，作为由知名人工智能研究机构OpenAI于2022年11月30日发布的一个大型语言预训练模型，他的核心在于能够理解人类的自然语言，并使用贴近人类语言风格的方式来进行回复。模型开放使用以来，在人工智能领域引起了巨大的轰动，也成功火出了技术圈。从数据上看，ChatGPT用户数在5天内就达到了100万，2个月就达到了1亿；另外，在很多非人工智能领域，已经有机构在尝试用ChatGPT去做一些智能生成的事。…
 
 ---
 

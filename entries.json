@@ -1892,5 +1892,280 @@
     "updated_date": null,
     "github_stars": null,
     "related": []
+  },
+  {
+    "id": "rcQer5WL",
+    "title": "Claude Code vs Codex：两种AI编程助手的深度对比",
+    "url": "https://x.com/shao__meng/status/2044769904608604295",
+    "source": {
+      "platform": "x",
+      "author": "shao__meng",
+      "original_date": "2026-04-17"
+    },
+    "category": "coding-agents/evaluation",
+    "tags": [
+      "claude-code",
+      "codex",
+      "AI编程",
+      "工具对比",
+      "harness"
+    ],
+    "source_type": "x_post",
+    "language": "zh",
+    "summary_zh": "Reddit 上看到的「Claude Code (Opus 4.6) ~100 小时」和「Codex (GPT-5.4) ~20 小时」，经历 8 万行 Python/TypeScript 代码，2800 个测试用例的数据分析应用深度对比。\nhttps://t.co/JJvwbEaZ0e\n关键发现：两种截然不同的\"工程师人格\"\nClaude Code (Opus 4.6) 的特征：\n工程师画像：赶工期的资深工程师\n工作风格：快速推进，先跑起来再说\n交互模式：高度互动，需要持续监督\n速度：快（3-4 倍于 Codex）\n",
+    "summary_en": null,
+    "one_liner": "目前最详尽的 Claude Code vs Codex 实证对比，揭示了速度与质量、互动模式与自主性的本质权衡",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "X 文章/2026-04-17-1200-shao__meng-Claude-Code-vs-Codex.md",
+    "images": [],
+    "added_date": "2026-04-17",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "62mEGRno",
+    "title": "Claude Opus 4.7 实用技巧与工作流程",
+    "url": "https://x.com/dotey/status/2044868344256381254",
+    "source": {
+      "platform": "x",
+      "author": "dotey",
+      "original_date": "2026-04-17"
+    },
+    "category": "coding-agents/usage",
+    "tags": [
+      "claude",
+      "opus-4.7",
+      "工作流",
+      "效率",
+      "AI编程"
+    ],
+    "source_type": "x_post",
+    "language": "zh",
+    "summary_zh": "首先是新上线的\"自动模式\"(Auto mode)。\nOpus 4.7 很适合复杂且长期运行的任务，比如深度调研、代码重构或功能迭代。\n以前，你要么得不断地确认权限请求，要么不得已使用危险的\"跳过权限\"模式。\n现在，新推出的自动模式让 Claude 自己判断命令的安全性，自动批准执行。这意味着你不用再频繁确认，也能同时运行更多任务，效率大幅提升。\n如果你不喜欢用自动模式，官方还推出了一个叫做 /fewer-permission-prompts (减少权限提示) 的技能。它会自动检查历史操作，找到那些安全但经常触发权限提示的命令，并建议你加入权限白名单。",
+    "summary_en": null,
+    "one_liner": "Opus 4.7 自动模式、回顾功能、专注模式等新特性让长时间复杂任务的体验大幅提升",
+    "one_liner_author": "openclaw",
+    "quality_score": 3,
+    "status": "active",
+    "local_path": "X 文章/2026-04-17-1200-dotey-Claude-Opus-47-实用技巧与.md",
+    "images": [],
+    "added_date": "2026-04-17",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "y7OOcWxk",
+    "title": "Claude Code 最强配置单：12个 GitHub 项目推荐",
+    "url": "https://x.com/wsl8297/status/2044582054780895599",
+    "source": {
+      "platform": "x",
+      "author": "wsl8297",
+      "original_date": "2026-04-17"
+    },
+    "category": "coding-agents/resources",
+    "tags": [
+      "claude-code",
+      "github",
+      "工具推荐",
+      "知识图谱",
+      "MCP"
+    ],
+    "source_type": "x_post",
+    "language": "zh",
+    "summary_zh": "LightRAG - 知识图谱，Claude 秒变专家\nhttps://t.co/KQoeel4gwM\nSuperpowers - 给 Claude 装上超能力\nhttps://t.co/QcmU27yJE2\nObsidian Skills - 让 Claude 真正理解你的上下文\nhttps://t.co/xetm6Gjbz2\nEverything Claude Code - 你需要的功能都在这\nhttps://t.co/TAnz5G322b\nClaude Mem - 给 Claude 装记忆，不用重复描述需求\n",
+    "summary_en": null,
+    "one_liner": "精选 12 个 GitHub 项目，从知识图谱到 UI 设计覆盖 Claude Code 扩展生态",
+    "one_liner_author": "openclaw",
+    "quality_score": 3,
+    "status": "active",
+    "local_path": "X 文章/2026-04-17-1200-wsl8297-Claude-Code最强配置单12个G.md",
+    "images": [],
+    "added_date": "2026-04-17",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "xsClIflu",
+    "title": "AI 开发工具链完整方案推荐",
+    "url": "https://x.com/RookieRicardoR/status/2044630408894271549",
+    "source": {
+      "platform": "x",
+      "author": "RookieRicardoR",
+      "original_date": "2026-04-17"
+    },
+    "category": "coding-agents/toolchain",
+    "tags": [
+      "AI开发",
+      "工具链",
+      "Claude-Agent-SDK",
+      "openai-agent-sdk",
+      "n8n-MCP"
+    ],
+    "source_type": "x_post",
+    "language": "zh",
+    "summary_zh": "Claude Agent Sdk 依然是最快方案，可以通过子进程设置环境变量的方式，兼容所有支持 Claude 协议的模型，比如 GLM、Minimax 之类的，换言之，Claude Code 能支持的用它也都能支持。\nOpenai 系的模型可以看看 Openai Agent Sdk 或者 Vercel AI SDK，或者直接用整套的 Pi-mono。\n上面讲的都是底层，上层是 CLI or 桌面端事件，一般叫做 Runtime，可以用 assistant-ui + 配套的 tools ui。\n",
+    "summary_en": null,
+    "one_liner": "从底层 SDK 到上层 Runtime，提供了完整的开源 AI 开发工具链方案",
+    "one_liner_author": "openclaw",
+    "quality_score": 3,
+    "status": "active",
+    "local_path": "X 文章/2026-04-17-1200-RookieRicardoR-AI开发工具链完整方案推荐.md",
+    "images": [],
+    "added_date": "2026-04-17",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "5YxDIJQJ",
+    "title": "从 Vibe Coding 到 Agentic Engineering：重构后台开发全流程",
+    "url": null,
+    "source": {
+      "platform": "cubox",
+      "author": "seanguo",
+      "original_date": "2026-04-17"
+    },
+    "category": "coding-agents/engineering",
+    "tags": [
+      "vibe-coding",
+      "agentic-engineering",
+      "Claude-Code",
+      "MCP",
+      "backend"
+    ],
+    "source_type": "article",
+    "language": "zh",
+    "summary_zh": "做后台开发的同事应该都有这个体会：从接到需求到最终发布，我们要在 PM、GitPlatform、编辑器、DevOps 平台、Galileo 之间来回横跳。每次切换都在丢上下文------刚在 PM 看完需求描述，切到编辑器就忘了某个细节；部署完测试环境去查日志，又得回忆刚才改了哪几行代码。\n你可能听过 Vibe Coding 这个说法------打开 AI 对话框，用自然语言描述需求，让模型直接生成代码，跑通就算完。原型验证很爽，但一旦要上生产，问题就来了：生成的代码质量不可控、没有审查流程、改完了 commit message 也是乱的。",
+    "summary_en": null,
+    "one_liner": "Agentic Engineering 理念在后台开发中的完整实践范本，展示了人机协同工程化的可行路径",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "Cubox/从Vibe Coding到Agentic Engineering：重构后台开发全流程-2026-04-17.md",
+    "images": [
+      "https://cubox.pro/c/filters:no_upscale(",
+      "https://cubox.pro/c/filters:no_upscale(",
+      "https://cubox.pro/c/filters:no_upscale(",
+      "https://cubox.pro/c/filters:no_upscale(",
+      "https://cubox.pro/c/filters:no_upscale("
+    ],
+    "added_date": "2026-04-17",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "LKIok5Fn",
+    "title": "Anthropic 发布 Claude Opus 4.7，性能如何？",
+    "url": null,
+    "source": {
+      "platform": "cubox",
+      "author": "桔了个仔",
+      "original_date": "2026-04-17"
+    },
+    "category": "llm-models/evaluation",
+    "tags": [
+      "claude",
+      "opus-4.7",
+      "benchmark",
+      "SWE-bench",
+      "Anthropic"
+    ],
+    "source_type": "article",
+    "language": "zh",
+    "summary_zh": "***作者：桔了个仔，Datawhale成员\n一个专注于AI领域的开源组织，汇聚了众多优秀学习者，使命-for the learner，和学习者一起成长。\n对于 A 社，该骂骂，但该用的时候，还是得用。刚躺在床上，看到opus 4.7的消息，马上弹起来滚进书房开始用了。\n先说结论，opus 4.7性能上有不少提升，但我看下来，进步体感应该没有从 4.5 到 4.6 那么大，但毕竟 Opus 4.6 都这么好用了，4.7只会更好用，而且经常写代码的朋友都知道，当模型的某个Benchmark很高的时候，提升一点点，在使用感受上会更不一样，毕竟意味着新的模型能...",
+    "summary_en": null,
+    "one_liner": "Datawhale 深度分析 Opus 4.7 vs 4.6 vs 4.5 的 Benchmark 变化，SWE-bench Verified 跃升 6.8% 最为显著",
+    "one_liner_author": "openclaw",
+    "quality_score": 3,
+    "status": "active",
+    "local_path": "Cubox/Anthropic 发布 Claude Opus 4.7，性能如何？-2026-04-17.md",
+    "images": [
+      "https://image.cubox.pro/cardImg/4g5jg44vorr0nor7ihsu8rjnka145v99khl6b4azfjg6o58v1y?imageMogr2/quality/90/ignore-error/1",
+      "https://cubox.pro/c/filters:no_upscale(",
+      "https://cubox.pro/c/filters:no_upscale(",
+      "https://cubox.pro/c/filters:no_upscale(",
+      "https://cubox.pro/c/filters:no_upscale("
+    ],
+    "added_date": "2026-04-17",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "iD8xIy0b",
+    "title": "Mobicom-26 论文：移动和车载系统上大型应用冷启动的内存调度框架",
+    "url": null,
+    "source": {
+      "platform": "cubox",
+      "author": null,
+      "original_date": "2026-04-17"
+    },
+    "category": "mobile-systems/performance",
+    "tags": [
+      "AppFlow",
+      "冷启动",
+      "内存调度",
+      "Mobicom",
+      "Android",
+      "移动优化"
+    ],
+    "source_type": "paper",
+    "language": "zh",
+    "summary_zh": "本公众号由西北工业大学\"智能感知与计算工信部重点实验室\"，\"陕西省嵌入式系统技术重点实验室\"联合创建，面向人机物融合智能计算系统，聚焦学科前沿最新发展，关注产学研协同融合，发布领域内学术动态。\n针对现代手机在GB级别大型应用条件下，应用启动慢且多任务体验差的问题。我们发现，尽管多任务处理使得系统运行时行为变得复杂，但每个应用的文件访问模式仍然是可预测的 。挑战在于如何利用这种可预测性：即在不耗尽内存的前提下进行预加载，在不抵消预加载收益的前提下进行回收，以及为了保留后台存活能力而进行选择性查杀 。",
+    "summary_en": null,
+    "one_liner": "AppFlow 将 GB 级应用冷启动延迟降低 66.5%，100 天测试 95% 启动维持 1 秒以内",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "Cubox/Mobicom-26论文-移动和车载系统上大型应用冷启动的内存调度框架-2026-04-17.md",
+    "images": [
+      "https://cubox.pro/c/filters:no_upscale(",
+      "https://cubox.pro/c/filters:no_upscale(",
+      "https://cubox.pro/c/filters:no_upscale(",
+      "https://cubox.pro/c/filters:no_upscale(",
+      "https://cubox.pro/c/filters:no_upscale("
+    ],
+    "added_date": "2026-04-17",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "7I0ONJqt",
+    "title": "AI 让我们重新开始享受自己的职业",
+    "url": "https://yage.ai/share/ai-profession-mechanical-judgment-spectrum-20260417.html",
+    "source": {
+      "platform": "blog",
+      "author": "grapeot",
+      "original_date": "2026-04-17"
+    },
+    "category": "ai-society/philosophy",
+    "tags": [
+      "AI职业",
+      "机械劳动",
+      "判断力",
+      "工业化分工",
+      "AI与人"
+    ],
+    "source_type": "article",
+    "language": "zh",
+    "summary_zh": "我有两个朋友，一个做美工，一个做数据科学家。\n做美工的那位当初学设计是因为审美。她喜欢那种把一种模糊的情绪落到画面上的感觉，喜欢研究颜色怎么配、光怎么打、构图怎么让一张广告在两秒内抓住人的眼神。她选这个职业是因为这些东西让她兴奋。结果入职之后她的日常变成了什么呢？老板丢过来一个标好尺寸的 brief，她打开 Photoshop 按照既定风格把素材抠出来、排进去、导三个尺寸的切图。重复半年之后，她说自己像一台慢速的 Photoshop 脚本。\n那位做数据科学家的朋友也一样。她当初选这条路是因为觉得数据可以直接决定商业判断，这件事重要。",
+    "summary_en": null,
+    "one_liner": "将职业重解构为'机械+判断'的光谱，揭示 AI 让工作回归判断本质的深层逻辑",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "Clippings/AI 让我们重新开始享受自己的职业.md",
+    "images": [],
+    "added_date": "2026-04-17",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
   }
 ]

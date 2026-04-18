@@ -59,6 +59,18 @@ https://www.uscardforum.
 
 ## 📅 2026-03-05
 
+### [给人文工作者的 AI 使用指南](https://x.com/HanyangWang/status/2029362155607474359)
+@MasterPa · ⭐⭐⭐⭐4  · 2026-03-05
+
+人文工作者没有创造世界变化，但他们却在承受世界变化。
+有的时候我感觉，那些卖人工智能教程的号总是把 AI 当成一种魔法：给你一个神奇的 prompt，你就能做任何事儿。现实当然不是这样。过去的一段时间里，因为创立了 [FUNES](https://funes.world/), 我们必须每天大量的通过 AI 进行生产。加之还有&quot;[《蜉蝣天地》](https://www.youtube.com/@FuyoutiandiMeanders)、我自己的写作等内容生产，光靠人力已经不够了。所以我们大量的尝试如何使用 AI 辅助我们的内容市场与人文学科研究工作。
+后来公司有新同事入职，我就做了个简单的 Keynote。又一次得到的贾行家老师听说后，就邀请我去做个分享。我和合伙人可达给这个分享起名《给人文工作者的 AI 使用指南》。当时是纯私下的分享，主要是一些大方向上的原则。后来又做过几次，逐渐扩充。
+不过这个分享一直没公开做过，正好今年和重轻启动了[《诗梳风》](https://shishufeng.com/)这档节目，所以第一次完整公开的聊了一遍。
+
+`AI` `人文工作者` `使用指南` `工作方法`
+
+---
+
 ### [Anthropic 官方出品 Claude 101：一份从入门到上手的完整学习指南](https://x.com/GoSailGlobal/status/2029427735807050002)
 @JasonZhu · ⭐⭐⭐⭐4  · 2026-03-05
 
@@ -69,18 +81,6 @@ Anthropic 最近在自家的教育平台 Anthropic Academy 上线了一门免费
 具体来说，Claude 能跟你一起阅读文档、分析电子表格、制作演示文稿，把你脑子里的想法从&quot;文字和幻灯片&quot;变成真实可执行的条目、更新、行动。课程里举了一个很生动的例子：你在办公桌前跟 Claude 讨论了一个计划，等你离开办公桌的时候，想法已经同步到了手机上，日历记录了时间，地图标注了地点，提醒事项安排了待办，到了晚上事情就已经推进完了。
 
 `claude` `rag` `Claude` `AI` `学习指南`
-
----
-
-### [给人文工作者的 AI 使用指南](https://x.com/HanyangWang/status/2029362155607474359)
-@MasterPa · ⭐⭐⭐⭐4  · 2026-03-05
-
-人文工作者没有创造世界变化，但他们却在承受世界变化。
-有的时候我感觉，那些卖人工智能教程的号总是把 AI 当成一种魔法：给你一个神奇的 prompt，你就能做任何事儿。现实当然不是这样。过去的一段时间里，因为创立了 [FUNES](https://funes.world/), 我们必须每天大量的通过 AI 进行生产。加之还有&quot;[《蜉蝣天地》](https://www.youtube.com/@FuyoutiandiMeanders)、我自己的写作等内容生产，光靠人力已经不够了。所以我们大量的尝试如何使用 AI 辅助我们的内容市场与人文学科研究工作。
-后来公司有新同事入职，我就做了个简单的 Keynote。又一次得到的贾行家老师听说后，就邀请我去做个分享。我和合伙人可达给这个分享起名《给人文工作者的 AI 使用指南》。当时是纯私下的分享，主要是一些大方向上的原则。后来又做过几次，逐渐扩充。
-不过这个分享一直没公开做过，正好今年和重轻启动了[《诗梳风》](https://shishufeng.com/)这档节目，所以第一次完整公开的聊了一遍。
-
-`AI` `人文工作者` `使用指南` `工作方法`
 
 ---
 
@@ -186,6 +186,22 @@ Ruflo（前身 Claude Flow）将自己定位为生产可用的多 Agent 编排�
 
 ## 📅 2026-03-01
 
+### [从 MCP 到 SKILL（II）：把调用层补齐](https://x.com/jolestar/status/2027717523379261489)
+@jolestar · ⭐⭐⭐⭐⭐5  · 2026-03-01
+
+从 MCP 到 SKILL（II）：把调用层补齐
+我在《从 MCP 到 SKILL：关于 Agent 扩展机制的思考 https://x.com/jolestar/status/2011461813767155828 》里提过一个很直觉的分工：
+- MCP（Model Context Protocol）更像“标准插头”，解决连接标准化
+- SKILL 更像“操作手册 + 工作流”，解决编排、状态与闭环
+当时我以为，这两者拼起来就会很自然。
+但真把它落到工程里，很快会发现：缺的不是理念，而是最后那一段“可执行、可迁移、对 Agent 友好”的、适合写进 SKILL 的通用调用入口。
+首先没有一个通用的 SKILL 友好的 MCP CLI。理论上可以用 `curl` 调 MCP HTTP，但对 Agent 来说参数、认证、错误处理都太复杂，稳定性差。于是很多服务放弃了 MCP，直接退化成“纯 REST 接口”。
+SKILL 里用 curl 来演示当然能跑通，但这种方式可维护性差：接口变化 AI 无法感知，接口数量多了也很难展示与发现。
+
+`mcp` `agent` `skill` `coding` `context-management`
+
+---
+
 ### [AI、矿产与澳洲经济：2026，澳洲能迎来&quot;新国运&quot;吗？](https://x.com/Stanleysobest/status/2027726669814136976)
 @Stanley · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-01
 
@@ -204,22 +220,6 @@ Two years from now, the business landscape is going to look completely different
 两年后，商业格局将完全不同。
 
 `automation`
-
----
-
-### [从 MCP 到 SKILL（II）：把调用层补齐](https://x.com/jolestar/status/2027717523379261489)
-@jolestar · ⭐⭐⭐⭐⭐5  · 2026-03-01
-
-从 MCP 到 SKILL（II）：把调用层补齐
-我在《从 MCP 到 SKILL：关于 Agent 扩展机制的思考 https://x.com/jolestar/status/2011461813767155828 》里提过一个很直觉的分工：
-- MCP（Model Context Protocol）更像“标准插头”，解决连接标准化
-- SKILL 更像“操作手册 + 工作流”，解决编排、状态与闭环
-当时我以为，这两者拼起来就会很自然。
-但真把它落到工程里，很快会发现：缺的不是理念，而是最后那一段“可执行、可迁移、对 Agent 友好”的、适合写进 SKILL 的通用调用入口。
-首先没有一个通用的 SKILL 友好的 MCP CLI。理论上可以用 `curl` 调 MCP HTTP，但对 Agent 来说参数、认证、错误处理都太复杂，稳定性差。于是很多服务放弃了 MCP，直接退化成“纯 REST 接口”。
-SKILL 里用 curl 来演示当然能跑通，但这种方式可维护性差：接口变化 AI 无法感知，接口数量多了也很难展示与发现。
-
-`mcp` `agent` `skill` `coding` `context-management`
 
 ---
 
@@ -252,15 +252,6 @@ Karpathy 用 1 小时 vibe code 了一个个人有氧运动追踪仪表板（~30
 
 ---
 
-### [別當金色尋回犬：Block 裁 4000 人，微軟暴跌後，我看到的三件事](https://x.com/mike_chong_zh/status/2027228656951803914)
-@迈克 Mike Chong · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-28
-
-Block 裁 4000 人的三个观察：一、&quot;金色寻回犬&quot;时代结束——听话勤快按流程做事的人恰是 LLM 最强能力；二、薪资正在两极分化且速度吓人，AI coding 占比从 20-30% 到接近 99%；三、未来是能做判断的人 vs 只能跑流程的人的分野。作者前微软 5 年员工的一线观察。
-
-`layoff` `block` `golden-retriever` `ai-replacement` `salary-polarization`
-
----
-
 ### [软件的未来并非你所想](https://x.com/szslg/status/2027198886981587407)
 @苏里格 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-28
 
@@ -288,6 +279,15 @@ Jack Dorsey 裁员 4000+ 人（10000→6000）的内部备忘录。不是因为�
 
 ---
 
+### [別當金色尋回犬：Block 裁 4000 人，微軟暴跌後，我看到的三件事](https://x.com/mike_chong_zh/status/2027228656951803914)
+@迈克 Mike Chong · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-28
+
+Block 裁 4000 人的三个观察：一、&quot;金色寻回犬&quot;时代结束——听话勤快按流程做事的人恰是 LLM 最强能力；二、薪资正在两极分化且速度吓人，AI coding 占比从 20-30% 到接近 99%；三、未来是能做判断的人 vs 只能跑流程的人的分野。作者前微软 5 年员工的一线观察。
+
+`layoff` `block` `golden-retriever` `ai-replacement` `salary-polarization`
+
+---
+
 ## 📅 2026-02-27
 
 ### [Anthropic CEO Dario Amodei：海啸已在地平线上，但没人在看](https://x.com/dotey/status/2027265200781402351)
@@ -301,15 +301,6 @@ Anthropic CEO Dario Amodei 在印度班加罗尔的深度访谈要点：2019 年
 
 ## 📅 2026-02-26
 
-### [过了个年，AI 圈变天了？但没人告诉你为什么](https://x.com/op7418/article/2026520431700881816)
-@歸藏 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-02-26
-
-系统拆解 2026 年初 AI 变化的四层结构：大脑（推理模型→agentic能力→agent team 内化到模型）、手脚（工具/沙箱/浏览器）、组织（多 Agent 协作与上下文专业化）、进化（数据飞轮：模型→agent→反馈→更强模型）。核心规律：模型与脚手架关系是循环，模型先出→agent→multi agent→内化到模型。AI 自我迭代已开始（Claude Code 用 Claude Code 迭代自己）。应用层方向：通用/垂直 Agent、Agent 基建、多模态内容。
-
-`ai-trends` `agent` `model-evolution` `data-flywheel` `2026`
-
----
-
 ### [2026年AI趋势观察：模型飞轮、应用爆发与个人发展](https://mp.weixin.qq.com/s/D98rfJX1NZmAD4xxs1h-Xg?scene=1)
 @向阳乔木 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-02-26
 
@@ -319,12 +310,12 @@ Anthropic CEO Dario Amodei 在印度班加罗尔的深度访谈要点：2019 年
 
 ---
 
-### [AI的负面（2）你的知识在贬值，但房贷不会贬值](https://x.com/FuSheng_0306/article/2026910973030969477)
-@傅盛 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-26
+### [过了个年，AI 圈变天了？但没人告诉你为什么](https://x.com/op7418/article/2026520431700881816)
+@歸藏 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-02-26
 
-讨论 AI 对白领阶层&quot;智力溢价&quot;的冲击。过去几千年的经济游戏底层规则是人的智慧是稀缺资源，AI 打破了这个前提。AI Agent 月费约 200 元，7×24 不停歇，能替代年薪 30 万白领的大部分工作。国家已将 AI 列入突发事件应急预案的重大潜在风险。核心警告：你的知识在贬值，但房贷不会。
+系统拆解 2026 年初 AI 变化的四层结构：大脑（推理模型→agentic能力→agent team 内化到模型）、手脚（工具/沙箱/浏览器）、组织（多 Agent 协作与上下文专业化）、进化（数据飞轮：模型→agent→反馈→更强模型）。核心规律：模型与脚手架关系是循环，模型先出→agent→multi agent→内化到模型。AI 自我迭代已开始（Claude Code 用 Claude Code 迭代自己）。应用层方向：通用/垂直 Agent、Agent 基建、多模态内容。
 
-`ai-impact` `employment` `knowledge-depreciation` `white-collar` `economy`
+`ai-trends` `agent` `model-evolution` `data-flywheel` `2026`
 
 ---
 
@@ -334,6 +325,15 @@ Anthropic CEO Dario Amodei 在印度班加罗尔的深度访谈要点：2019 年
 预测 2027 年将主导的 AI 新商业模式。包括：企业级单人服务公司（AI 处理重复工作、自动化交付、人做战略和客户关系）、AI 驱动微型机构、按结果付费定价、AI 原生服务市场等。核心：如果懂得构建系统，单人服务公司是目前杠杆最高的商业模式。
 
 `business-model` `ai-startup` `one-person-company` `automation` `2027`
+
+---
+
+### [AI的负面（2）你的知识在贬值，但房贷不会贬值](https://x.com/FuSheng_0306/article/2026910973030969477)
+@傅盛 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-26
+
+讨论 AI 对白领阶层&quot;智力溢价&quot;的冲击。过去几千年的经济游戏底层规则是人的智慧是稀缺资源，AI 打破了这个前提。AI Agent 月费约 200 元，7×24 不停歇，能替代年薪 30 万白领的大部分工作。国家已将 AI 列入突发事件应急预案的重大潜在风险。核心警告：你的知识在贬值，但房贷不会。
+
+`ai-impact` `employment` `knowledge-depreciation` `white-collar` `economy`
 
 ---
 

@@ -80,15 +80,6 @@ Anthropic工程团队详解Managed Agents架构——将Agent的大脑（决策�
 
 ## 📅 2026-04-07
 
-### [Large Language Model Agent: A Survey on Methodology, Applications and Challenges](#)
-⭐⭐⭐3 🇨🇳 · 2026-04-07
-
-LLM Agent 到底是什么、怎么构建、怎么协作、怎么演化？ 本文试图用一套统一的方法论分类体系回答这个正在快速碎片化的领域的核心架构问题。这不是第 N 篇 &quot;Agent 综述&quot;——它的价值在于提出&quot;构建-协作-演化&quot;三维框架，把散落的研究线索串成了一条可追溯的架构演进路径。
-
-`gui` `safety` `agent` `llm` `paper`
-
----
-
 ### [Trace2Skill](https://arxiv.org/abs/2603.25158)
 ⭐⭐⭐3 🇨🇳 · 2026-04-07
 
@@ -99,6 +90,15 @@ LLM Agent 需要领域特定技能（skills）才能高效处理复杂任务。�
 3. 在线顺序更新导致碎片化：现有在线范式（如 ExpeL、Skill-Gen）按顺序处理每条轨迹，一条轨迹学一个教训就更新一次技能，导致技能碎片化且容易过拟合
 
 `obsidian` `fine-tuning` `agent` `llm` `paper`
+
+---
+
+### [Large Language Model Agent: A Survey on Methodology, Applications and Challenges](#)
+⭐⭐⭐3 🇨🇳 · 2026-04-07
+
+LLM Agent 到底是什么、怎么构建、怎么协作、怎么演化？ 本文试图用一套统一的方法论分类体系回答这个正在快速碎片化的领域的核心架构问题。这不是第 N 篇 &quot;Agent 综述&quot;——它的价值在于提出&quot;构建-协作-演化&quot;三维框架，把散落的研究线索串成了一条可追溯的架构演进路径。
+
+`gui` `safety` `agent` `llm` `paper`
 
 ---
 
@@ -113,21 +113,21 @@ Anthropic 发布 Claude Managed Agents：预构建的可配置 Agent 运行底�
 
 ---
 
-### [Hermes 从 0 到 1 教程](https://x.com/Pluvio9yte/status/2041571378021986486)
-@Pluvio9yte · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-06
-
-介绍 Nous Research 开源的自改进 AI Agent 框架 Hermes。核心特点：内置学习循环，每次完成任务后自动提炼可复用 Skill 存入持久记忆。多层记忆系统（短期+长时+Skills），支持 40+ 工具。与 OpenClaw 对比：Hermes 重单个 Agent 深度自我成长，OpenClaw 强在多平台覆盖和复杂工作流。内置 hermes claw migrate 迁移命令。
-
-`hermes` `nous-research` `self-improving` `agent` `memory`
-
----
-
 ### [Anthropic 今天发了一个新产品，可能会让一批做 AI 智能体基础设施的团队失业](https://x.com/dotey/status/2042017036931305667)
 @dotey · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-06
 
 中文深度分析 Claude Managed Agents。与 Claude Code 的区别：Code 跑在本地给个人用，Managed Agents 跑在云端给企业用，24 小时不间断。典型用法：事件触发型（Sentry 自动修 bug）、定时型（每日简报）、即发即忘型（Slack 派活）、长时间任务。技术架构将大脑/手/记忆解耦。案例：Notion、Sentry、Atlassian、Rakuten 等已接入。Anthropic 年化收入突破 300 亿美元。
 
 `claude` `managed-agents` `anthropic` `enterprise` `agent-infrastructure`
+
+---
+
+### [Hermes 从 0 到 1 教程](https://x.com/Pluvio9yte/status/2041571378021986486)
+@Pluvio9yte · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-06
+
+介绍 Nous Research 开源的自改进 AI Agent 框架 Hermes。核心特点：内置学习循环，每次完成任务后自动提炼可复用 Skill 存入持久记忆。多层记忆系统（短期+长时+Skills），支持 40+ 工具。与 OpenClaw 对比：Hermes 重单个 Agent 深度自我成长，OpenClaw 强在多平台覆盖和复杂工作流。内置 hermes claw migrate 迁移命令。
+
+`hermes` `nous-research` `self-improving` `agent` `memory`
 
 ---
 
@@ -219,6 +219,15 @@ AI Agent实践的知识图谱总结，涵盖四大核心主题：1）记忆系�
 
 ## 📅 2026-03-23
 
+### [Browser Use CLI 2.0 - AI 操作浏览器调研报告](#)
+@高爷 · ⭐⭐⭐3 🇨🇳 · 2026-03-23
+
+Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动化工具。核心特点：AI-First设计（语义理解替代CSS selectors）、自然语言驱动、持久化Daemon（50ms延迟）、支持复用本地Chrome登录态。与Playwright/Selenium对比，在AI集成和登录态复用上有显著优势。支持OpenAI/Anthropic/Google/本地模型。工作流集成潜力：SaaS控制台自动化、电商后台、招聘网站、财务录入等场景。
+
+`browser-use` `浏览器自动化` `AI-Agent` `Playwright` `CLI`
+
+---
+
 ### [LLM Agent](https://arxiv.org/abs/2503.21460)
 @：arXiv · ⭐⭐⭐3 🇨🇳 · 2026-03-23
 
@@ -242,15 +251,6 @@ AI Agent实践的知识图谱总结，涵盖四大核心主题：1）记忆系�
    - 混合架构：KnowAgent、T…
 
 `safety` `agent` `2026-03-23` `research` `llm`
-
----
-
-### [Browser Use CLI 2.0 - AI 操作浏览器调研报告](#)
-@高爷 · ⭐⭐⭐3 🇨🇳 · 2026-03-23
-
-Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动化工具。核心特点：AI-First设计（语义理解替代CSS selectors）、自然语言驱动、持久化Daemon（50ms延迟）、支持复用本地Chrome登录态。与Playwright/Selenium对比，在AI集成和登录态复用上有显著优势。支持OpenAI/Anthropic/Google/本地模型。工作流集成潜力：SaaS控制台自动化、电商后台、招聘网站、财务录入等场景。
-
-`browser-use` `浏览器自动化` `AI-Agent` `Playwright` `CLI`
 
 ---
 
@@ -357,6 +357,15 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 
 ## 📅 2026-03-17
 
+### [OpenClaw深度调研报告](https://github.com/openclaw/openclaw)
+⭐⭐⭐3 🇨🇳 · 2026-03-17
+
+OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent、Memory、MCP、Skills、Cron）、运行机制、与其他Agent框架的对比分析。报告系统梳理了OpenClaw的技术栈和生态位，对理解个人AI Agent的工程化实现有参考价值。
+
+`openclaw` `agent` `deep-research` `architecture` `mcp`
+
+---
+
 ### [Agentic Reasoning: LLM的智能体推理范式](https://arxiv.org/abs/2601.12538)
 ⭐⭐⭐3 🇨🇳 · 2026-03-17
 
@@ -371,15 +380,6 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 ---
 
 `safety` `coding` `agent` `tool-use` `llm`
-
----
-
-### [OpenClaw深度调研报告](https://github.com/openclaw/openclaw)
-⭐⭐⭐3 🇨🇳 · 2026-03-17
-
-OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent、Memory、MCP、Skills、Cron）、运行机制、与其他Agent框架的对比分析。报告系统梳理了OpenClaw的技术栈和生态位，对理解个人AI Agent的工程化实现有参考价值。
-
-`openclaw` `agent` `deep-research` `architecture` `mcp`
 
 ---
 
@@ -674,6 +674,19 @@ ClawHub 现在下载量≠安全，别太天真。
 
 ---
 
+### [2026-03-03-1210-yibie-Shipping-at-Inference-Speed-Notes-2028650995153314299](https://x.com/yibie/status/2028650995153314299)
+@yibie · ⭐⭐⭐3  · 2026-03-03
+
+**@yibie** (yibie)
+🕐 Tue Mar 03 01:57:42 +0000 2026
+📊 ❤️ 2 🔁 0 🔖 5 👁️ 153 💬 0
+重读 OpenClaw 缔造者 Perter Steinberger 的这篇雄文《Shipping at Inference-Speed》，还有很深的启发，这篇文章是 Perter 说明自己 AI 辅助编程时，他自己工作流、方法、工具选择的转变，而这个转变让他打开与 AI 协作新的大门。
+Perter 在 AI 辅助编程的范式转变，是来自他亲自开发的项目 VibeTunnel。年初他花了两个月时间，尝试用Rust、Go 甚至 Zig 重写核心模块，但旧模型一直失败，最终没完成。隔了一段时间，他重新打开这个项目，只给了 codex 两句提示让它把整个转发系统转成 Zig，模型自己跑了五个小时，经过多轮代码压缩，一次就交付了可用的转换。这种事在去年是不可想象的。
+
+`openclaw` `claude` `codex` `cursor` `agent`
+
+---
+
 ### [2026-03-03-1210-evilcos-OpenClaw-Security-Practice-Guide-2028458311801274671](https://x.com/evilcos/status/2028458311801274671)
 @evilcos · ⭐⭐⭐3 🇨🇳 · 2026-03-03
 
@@ -686,19 +699,6 @@ ClawHub 现在下载量≠安全，别太天真。
 于是，这份面向 OpenClaw 的极简安全实践指南诞生了，目前是 v2.7 版本，此前我们内测了许多版本，也踩了不少坑。
 
 `openclaw` `skill` `github`
-
----
-
-### [2026-03-03-1210-yibie-Shipping-at-Inference-Speed-Notes-2028650995153314299](https://x.com/yibie/status/2028650995153314299)
-@yibie · ⭐⭐⭐3  · 2026-03-03
-
-**@yibie** (yibie)
-🕐 Tue Mar 03 01:57:42 +0000 2026
-📊 ❤️ 2 🔁 0 🔖 5 👁️ 153 💬 0
-重读 OpenClaw 缔造者 Perter Steinberger 的这篇雄文《Shipping at Inference-Speed》，还有很深的启发，这篇文章是 Perter 说明自己 AI 辅助编程时，他自己工作流、方法、工具选择的转变，而这个转变让他打开与 AI 协作新的大门。
-Perter 在 AI 辅助编程的范式转变，是来自他亲自开发的项目 VibeTunnel。年初他花了两个月时间，尝试用Rust、Go 甚至 Zig 重写核心模块，但旧模型一直失败，最终没完成。隔了一段时间，他重新打开这个项目，只给了 codex 两句提示让它把整个转发系统转成 Zig，模型自己跑了五个小时，经过多轮代码压缩，一次就交付了可用的转换。这种事在去年是不可想象的。
-
-`openclaw` `claude` `codex` `cursor` `agent`
 
 ---
 
@@ -739,6 +739,24 @@ OpenAI 内部有个团队，5 个月，3 个工程师，几乎不靠手写代码
 
 ---
 
+### [OpenClaw 记忆外挂：Tokens 消耗降低 72%](https://x.com/lxfater/status/2028320139368714644)
+@lxfater · ⭐⭐⭐3 🇨🇳 · 2026-03-02
+
+这篇 X Article 介绍了通过 MemOS Cloud 插件给 OpenClaw 增加外部记忆层，以降低 token 消耗并提升跨会话记忆稳定性，并进一步讨论了多 Agent 共享/分层记忆的协作模式。
+**By @lxfater** (铁锤人) · Mon Mar 02 04:03:00 +0000 2026
+📊 ❤️ 9 🔁 1 🔖 17 👁️ 612 💬 1
+📐 163 words
+你在用小龙虾时候有没有遇到这么个问题：
+小龙虾用久后，它老是记不住重要的东西，反而一些无关紧要的事情记得贼清楚。更要命的是，明明还搞点小任务，但是没过几天账单就爆炸了。
+究其原因，是 OpenClaw 的记忆机制的问题
+他每次对话都会把之前的对话附带上去，比如说像下面这个老哥，让 AI 写个代码。但是每聊一句，都要附带这个 python 代码上去，直接每次对话都干掉 15w token。
+这个问题目前还没见到官方有正式的解决方案。
+OpenClaw 的还有个问题是主动记忆的，也就是说，他记不记住你的东西，全看AI 的发挥。经常出现特别奇葩的情况，今天刚说的东西，转眼就忘记。
+
+`openclaw` `agent` `github`
+
+---
+
 ### [使用一个月 OpenClaw 的门槛与成本复盘](https://x.com/LotusDecoder/status/2028272613919965585)
 @LotusDecoder · ⭐⭐⭐3  · 2026-03-02
 
@@ -767,25 +785,17 @@ OpenSandbox 是一个面向 AI 应用的通用沙箱平台，提供统一的沙�
 
 ---
 
-### [OpenClaw 记忆外挂：Tokens 消耗降低 72%](https://x.com/lxfater/status/2028320139368714644)
-@lxfater · ⭐⭐⭐3 🇨🇳 · 2026-03-02
+## 📅 2026-03-01
 
-这篇 X Article 介绍了通过 MemOS Cloud 插件给 OpenClaw 增加外部记忆层，以降低 token 消耗并提升跨会话记忆稳定性，并进一步讨论了多 Agent 共享/分层记忆的协作模式。
-**By @lxfater** (铁锤人) · Mon Mar 02 04:03:00 +0000 2026
-📊 ❤️ 9 🔁 1 🔖 17 👁️ 612 💬 1
-📐 163 words
-你在用小龙虾时候有没有遇到这么个问题：
-小龙虾用久后，它老是记不住重要的东西，反而一些无关紧要的事情记得贼清楚。更要命的是，明明还搞点小任务，但是没过几天账单就爆炸了。
-究其原因，是 OpenClaw 的记忆机制的问题
-他每次对话都会把之前的对话附带上去，比如说像下面这个老哥，让 AI 写个代码。但是每聊一句，都要附带这个 python 代码上去，直接每次对话都干掉 15w token。
-这个问题目前还没见到官方有正式的解决方案。
-OpenClaw 的还有个问题是主动记忆的，也就是说，他记不记住你的东西，全看AI 的发挥。经常出现特别奇葩的情况，今天刚说的东西，转眼就忘记。
+### [Don&#x27;t trust AI agents](https://x.com/Gavriel_Cohen/status/2027841164150178238)
+@Gavriel_Cohen · ⭐⭐⭐⭐4  · 2026-03-01
 
-`openclaw` `agent` `github`
+When you&#x27;re building with AI agents, they should be treated as untrusted and potentially malicious. Whether it&#x27;s prompt injection, a model trying to escape its sandbox, or something nobody&#x27;s thought of yet, you shouldn&#x27;t be trusting the agent. The right approach isn&#x27;t better permission checks or smarter allowlists. It&#x27;s architecture that assumes agents will misbehave and contains the damage when they do.
+当您使用人工智能代理进行构建时，它们应该被视为不受信任且可能是恶意的。无论是即时注入、试图逃离沙箱的模型，还是还没有人想到的东西，你都不应该信任代理。
+
+`openclaw` `agent` `skill`
 
 ---
-
-## 📅 2026-03-01
 
 ### [OpenClaw丨我的龙虾为自己种了一棵会迭代的记忆树](https://x.com/loryoncloud/status/2027865988558164186)
 @Lory · ⭐⭐⭐⭐4  · 2026-03-01
@@ -819,16 +829,6 @@ OpenClaw 的还有个问题是主动记忆的，也就是说，他记不记住�
 
 ---
 
-### [Don&#x27;t trust AI agents](https://x.com/Gavriel_Cohen/status/2027841164150178238)
-@Gavriel_Cohen · ⭐⭐⭐⭐4  · 2026-03-01
-
-When you&#x27;re building with AI agents, they should be treated as untrusted and potentially malicious. Whether it&#x27;s prompt injection, a model trying to escape its sandbox, or something nobody&#x27;s thought of yet, you shouldn&#x27;t be trusting the agent. The right approach isn&#x27;t better permission checks or smarter allowlists. It&#x27;s architecture that assumes agents will misbehave and contains the damage when they do.
-当您使用人工智能代理进行构建时，它们应该被视为不受信任且可能是恶意的。无论是即时注入、试图逃离沙箱的模型，还是还没有人想到的东西，你都不应该信任代理。
-
-`openclaw` `agent` `skill`
-
----
-
 ## 📅 2026-02-28
 
 ### [How to set up OpenClaw Agents that actually get better Over Time](https://x.com/Saboo_Shubham_/status/2027463195150131572)
@@ -851,15 +851,6 @@ When you&#x27;re building with AI agents, they should be treated as untrusted an
 
 ## 📅 2026-02-27
 
-### [DeerFlow 2.0: ByteDance 开源超级 Agent 运行底座](https://github.com/bytedance/deer-flow)
-@Bytedance · ⭐⭐⭐⭐4 🌐 · 2026-02-27
-
-字节跳动开源 DeerFlow 2.0，基于 LangGraph 和 LangChain 完全重写的超级 Agent 运行底座。可编排子 Agent、记忆、工具与沙箱以完成长链路多步骤任务。核心能力：任务分解（主 Agent 并行派发子 Agent）、中间结果汇总、跨会话持久化记忆。默认提供文件系统、技能、执行环境。
-
-`deer-flow` `bytedance` `langgraph` `langchain` `super-agent`
-
----
-
 ### [Scrapling: 自适应 Web 抓取框架](https://github.com/D4Vinci/Scrapling)
 @D · ⭐⭐⭐⭐4 🌐 · 2026-02-27
 
@@ -869,16 +860,16 @@ When you&#x27;re building with AI agents, they should be treated as untrusted an
 
 ---
 
-## 📅 2026-02-26
+### [DeerFlow 2.0: ByteDance 开源超级 Agent 运行底座](https://github.com/bytedance/deer-flow)
+@Bytedance · ⭐⭐⭐⭐4 🌐 · 2026-02-27
 
-### [Pi: The Minimal Agent Within OpenClaw](https://lucumr.pocoo.org/2026/1/31/pi/)
-@Armin Ronacher · ⭐⭐⭐⭐⭐5 🌐 · 2026-02-26
+字节跳动开源 DeerFlow 2.0，基于 LangGraph 和 LangChain 完全重写的超级 Agent 运行底座。可编排子 Agent、记忆、工具与沙箱以完成长链路多步骤任务。核心能力：任务分解（主 Agent 并行派发子 Agent）、中间结果汇总、跨会话持久化记忆。默认提供文件系统、技能、执行环境。
 
-OpenClaw 底层的编码 Agent Pi 详解。Pi 由 Mario Zechner 开发，理念是让 Agent 自己扩展自己而非下载扩展。刻意不支持 MCP（可用 mcporter 桥接），强调代码生成和运行。核心设计：会话是树结构（可分支/回退/导航），内置热重载让 Agent 自己写代码→重载→测试循环。多模型支持、可移植性优先。扩展可注册工具给 LLM 调用，也可渲染自定义 TUI 组件。
-
-`pi` `openclaw` `coding-agent` `mcp` `session-tree`
+`deer-flow` `bytedance` `langgraph` `langchain` `super-agent`
 
 ---
+
+## 📅 2026-02-26
 
 ### [我的 Obsidian 不是笔记软件，是操作系统](https://x.com/UncleJAI/article/2026929169511362928)
 @Uncle J · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-02-26
@@ -886,6 +877,15 @@ OpenClaw 底层的编码 Agent Pi 详解。Pi 由 Mario Zechner 开发，理念�
 HR 出身的非程序员，用 Obsidian + Claude Code 搭建了复杂个人工作台。506 次 git commit、85+ AI Skills、3 个生命周期钩子、435 条自动 session logs、7 个平台同步分发。核心理念&quot;File over App&quot;：文件属于你，系统和 AI 是过客。原料从四面八方进来，经过流水线加工，变成成品出去。强调本地优先、数据自主。
 
 `obsidian` `claude-code` `automation` `file-over-app` `personal-os`
+
+---
+
+### [Pi: The Minimal Agent Within OpenClaw](https://lucumr.pocoo.org/2026/1/31/pi/)
+@Armin Ronacher · ⭐⭐⭐⭐⭐5 🌐 · 2026-02-26
+
+OpenClaw 底层的编码 Agent Pi 详解。Pi 由 Mario Zechner 开发，理念是让 Agent 自己扩展自己而非下载扩展。刻意不支持 MCP（可用 mcporter 桥接），强调代码生成和运行。核心设计：会话是树结构（可分支/回退/导航），内置热重载让 Agent 自己写代码→重载→测试循环。多模型支持、可移植性优先。扩展可注册工具给 LLM 调用，也可渲染自定义 TUI 组件。
+
+`pi` `openclaw` `coding-agent` `mcp` `session-tree`
 
 ---
 
@@ -949,21 +949,21 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 
 ## 📅 2026-02-23
 
-### [OpenClaw Memory 终极指南](https://x.com/lijiuer92/status/2025678747509391664)
-@李韭二 · ⭐⭐⭐3 🇨🇳 · 2026-02-23
-
-围绕 Agent 失忆、记忆可发现性、长期上下文维护与工程化落地展开，强调通过结构化记忆机制降低重复输入和推理成本。适合作为 OpenClaw/Agent 记忆系统设计的实践参考。内容为摘要归档，待补全全文。
-
-`openclaw` `memory` `agent` `long-term-context`
-
----
-
 ### [The File System Is the New Database: How I Built a Personal OS for AI Agents](https://x.com/koylanai/status/2025286163641118915)
 @Muratcan Koylan · ⭐⭐⭐3 🌐 · 2026-02-23
 
 把&quot;上下文管理&quot;从一次性对话输入转为可持久化的文件系统结构，让 Agent 读写统一的项目记忆与规则，减少重复提示、降低上下文漂移，提高长期任务稳定性。内容为摘要归档。
 
 `file-system` `agent-os` `context-management` `personal-os`
+
+---
+
+### [OpenClaw Memory 终极指南](https://x.com/lijiuer92/status/2025678747509391664)
+@李韭二 · ⭐⭐⭐3 🇨🇳 · 2026-02-23
+
+围绕 Agent 失忆、记忆可发现性、长期上下文维护与工程化落地展开，强调通过结构化记忆机制降低重复输入和推理成本。适合作为 OpenClaw/Agent 记忆系统设计的实践参考。内容为摘要归档，待补全全文。
+
+`openclaw` `memory` `agent` `long-term-context`
 
 ---
 
@@ -1038,20 +1038,6 @@ Read Original
 
 ---
 
-### [2026 AI First 系列（二）：Vibe Coding——思维速度编程的民主化革命](https://youmind.com/s/3iWn21PVIlNg7V)
-⭐⭐⭐⭐4 🇨🇳 · 2026-01-05
-
-2026 AI First 系列（二）：Vibe Coding——思维速度编程的民主化革命
-&gt; copyright x @ wquguru 欢迎转载，请注明出处
-&quot;IDE？我试过一堆。以前我特别依赖其中一个。但现在它那些额外的功能，我根本不需要，也不在乎。我只
-Read in Cubox  
-Read Original
-&gt; copyright x @ wquguru 欢迎转载，请注明出处
-
-`Claude` `AI Coding` `Cursor` `MCP` `Vibe Coding`
-
----
-
 ### [2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期](https://youmind.com/s/hPiqSBPU4tVa7o)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-05
 
@@ -1064,6 +1050,20 @@ Read Original
 &gt; copyright x @ wquguru 欢迎转载，请注明出处
 
 `Claude` `Agent` `Prompt Engineering` `AI Coding` `MCP`
+
+---
+
+### [2026 AI First 系列（二）：Vibe Coding——思维速度编程的民主化革命](https://youmind.com/s/3iWn21PVIlNg7V)
+⭐⭐⭐⭐4 🇨🇳 · 2026-01-05
+
+2026 AI First 系列（二）：Vibe Coding——思维速度编程的民主化革命
+&gt; copyright x @ wquguru 欢迎转载，请注明出处
+&quot;IDE？我试过一堆。以前我特别依赖其中一个。但现在它那些额外的功能，我根本不需要，也不在乎。我只
+Read in Cubox  
+Read Original
+&gt; copyright x @ wquguru 欢迎转载，请注明出处
+
+`Claude` `AI Coding` `Cursor` `MCP` `Vibe Coding`
 
 ---
 

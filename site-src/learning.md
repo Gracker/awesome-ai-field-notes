@@ -37,6 +37,64 @@ Android 17用lock-free混合数据结构DeliQueue替换了存在20年的MessageQ
 
 ---
 
+### [Android 16 MessageQueue 优化调研报告](#)
+@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
+
+调研Android 16对MessageQueue的重构优化。采用lock-free数据结构（Treiber stack和ConcurrentSkipListSet）解决优先级翻转问题。新实现几乎完全消除锁竞争，显著提升系统响应性和用户体验，特别是在冷启动等关键场景中。
+
+`android-16` `messagequeue` `lock-free` `treiber-stack` `performance`
+
+---
+
+### [Android App 帧渲染流程深度解析：从 Vsync 到屏幕](#)
+@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
+
+从Vsync-App信号接收开始，深度解析Android应用帧渲染的完整流程。涵盖Choreographer调度、Input/Animation/Traversals回调、Draw/Measure/Layout流程、RenderThread与GPU协作、BufferQueue流转、SurfaceFlinger合成、直至最终屏幕显示。包含详细的时序图和性能关键路径分析。
+
+`android` `vsync` `rendering` `frame` `choreographer`
+
+---
+
+### [Airbnb’s Page Performance Score on Android | by Luping Lin | The Airbnb Tech Blog | Dec, 2021 | Medium](https://medium.com/airbnb-engineering/airbnbs-page-performance-score-on-android-f9fd5e733e)
+⭐⭐⭐⭐4 🌐 · 2026-04-10
+
+Airbnb’s Page Performance Score on Android | by Luping Lin | The Airbnb Tech Blog | Dec, 2021 | Medium
+Airbnb’s home grown Page Performance Score (PPS) is designed to capture the rich, complex realities of performance by collecting a multitude of user-centric performance metrics and formulating them…
+Read in Cubox  
+Read Original
+?imageUrl=https%3A%2F%2Fmiro.medium.com%2Ffit%2F...
+
+`Android`
+
+---
+
+### [Android 应用性能优化：Vsync 与 Buffer 深度研究报告](#)
+@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
+
+深入研究Android应用中Vsync和Buffer相关机制。涵盖Vsync信号产生与分发、Vsync-app/Vsync-sf/Vsync-appsf分类、BufferQueue及BlastBufferQueue工作原理、UI线程与RenderThread协作、app duration与sf duration分析、GPU Fence和HWC Fence同步机制。为Android性能优化提供理论基础和实践指导。
+
+`android` `vsync` `buffer` `blastbufferqueue` `surfaceflinger`
+
+---
+
+### [Android ARM 平台 Running 耗时分析方法论与工具链报告](#)
+@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
+
+Android ARM平台上Running耗时分析方法论与工具链的完整报告。定义Running耗时为CPU实际执行时间，区分等待I/O和阻塞时间。涵盖simpleperf、Perfetto、ARM DSU/ETM等工具链，从方法级到指令级的分层分析框架。包含big.LITTLE核心调度、频率DVFS、Cache Miss等底层因素的量化分析方法。
+
+`android` `arm` `running-time` `cpu` `perfetto`
+
+---
+
+### [Android Native 内存泄漏深度调研报告](#)
+@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
+
+深入探讨Android Native内存泄漏问题，涵盖基本原理、检测与分析方法、常用工具（Valgrind、AddressSanitizer、heapprofd等）及库。结合实际案例分析Android内存管理机制和Native层内存泄漏成因，为开发者提供全面的Native内存泄漏解决方案。
+
+`android` `native` `memory-leak` `valgrind` `asan`
+
+---
+
 ### [AI时代系统工程师的硬技能升级路线图](#)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
@@ -55,70 +113,12 @@ Android 17用lock-free混合数据结构DeliQueue替换了存在20年的MessageQ
 
 ---
 
-### [Android 16 MessageQueue 优化调研报告](#)
-@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
+### [Android 性能优化知识体系大纲](#)
+@Manus AI · ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
-调研Android 16对MessageQueue的重构优化。采用lock-free数据结构（Treiber stack和ConcurrentSkipListSet）解决优先级翻转问题。新实现几乎完全消除锁竞争，显著提升系统响应性和用户体验，特别是在冷启动等关键场景中。
+Android性能优化完整知识体系大纲。从性能优化基础定义与目标出发，建立响应时间、流畅度、内存占用、功耗、稳定性等关键指标体系。覆盖测量-分析-优化-验证闭环方法论，以及系统性思考、全局视角、数据驱动的优化思维模式。
 
-`android-16` `messagequeue` `lock-free` `treiber-stack` `performance`
-
----
-
-### [Android ARM 平台 Running 耗时分析方法论与工具链报告](#)
-@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
-
-Android ARM平台上Running耗时分析方法论与工具链的完整报告。定义Running耗时为CPU实际执行时间，区分等待I/O和阻塞时间。涵盖simpleperf、Perfetto、ARM DSU/ETM等工具链，从方法级到指令级的分层分析框架。包含big.LITTLE核心调度、频率DVFS、Cache Miss等底层因素的量化分析方法。
-
-`android` `arm` `running-time` `cpu` `perfetto`
-
----
-
-### [Android App 帧渲染流程深度解析：从 Vsync 到屏幕](#)
-@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
-
-从Vsync-App信号接收开始，深度解析Android应用帧渲染的完整流程。涵盖Choreographer调度、Input/Animation/Traversals回调、Draw/Measure/Layout流程、RenderThread与GPU协作、BufferQueue流转、SurfaceFlinger合成、直至最终屏幕显示。包含详细的时序图和性能关键路径分析。
-
-`android` `vsync` `rendering` `frame` `choreographer`
-
----
-
-### [Android 应用性能优化：Vsync 与 Buffer 深度研究报告](#)
-@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
-
-深入研究Android应用中Vsync和Buffer相关机制。涵盖Vsync信号产生与分发、Vsync-app/Vsync-sf/Vsync-appsf分类、BufferQueue及BlastBufferQueue工作原理、UI线程与RenderThread协作、app duration与sf duration分析、GPU Fence和HWC Fence同步机制。为Android性能优化提供理论基础和实践指导。
-
-`android` `vsync` `buffer` `blastbufferqueue` `surfaceflinger`
-
----
-
-### [Android Native 内存泄漏深度调研报告](#)
-@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
-
-深入探讨Android Native内存泄漏问题，涵盖基本原理、检测与分析方法、常用工具（Valgrind、AddressSanitizer、heapprofd等）及库。结合实际案例分析Android内存管理机制和Native层内存泄漏成因，为开发者提供全面的Native内存泄漏解决方案。
-
-`android` `native` `memory-leak` `valgrind` `asan`
-
----
-
-### [Airbnb’s Page Performance Score on Android | by Luping Lin | The Airbnb Tech Blog | Dec, 2021 | Medium](https://medium.com/airbnb-engineering/airbnbs-page-performance-score-on-android-f9fd5e733e)
-⭐⭐⭐⭐4 🌐 · 2026-04-10
-
-Airbnb’s Page Performance Score on Android | by Luping Lin | The Airbnb Tech Blog | Dec, 2021 | Medium
-Airbnb’s home grown Page Performance Score (PPS) is designed to capture the rich, complex realities of performance by collecting a multitude of user-centric performance metrics and formulating them…
-Read in Cubox  
-Read Original
-?imageUrl=https%3A%2F%2Fmiro.medium.com%2Ffit%2F...
-
-`Android`
-
----
-
-### [Claude Code in Action 实战课程（中文翻译版）](https://cholf5.com/claude-code-in-action/)
-@Anthropic · ⭐⭐⭐3 🇨🇳 · 2026-04-10
-
-Anthropic官方Claude Code实战课程的中文翻译版，适合离线阅读。课程覆盖21个章节：基础部分（引言、编码助手概念、实战、安装配置、项目准备、添加上下文、修改代码）、进阶部分（控制上下文、自定义命令、MCP服务器、GitHub集成）、Hooks专题（认识/定义/实现Hooks及常见坑点）、高级主题（SDK、测验、总结）。
-
-`Claude-Code` `实战课程` `教程` `Hooks` `MCP`
+`android` `performance` `knowledge-map` `optimization` `methodology`
 
 ---
 
@@ -128,15 +128,6 @@ Anthropic官方Claude Code实战课程的中文翻译版，适合离线阅读。
 Android Framework常见面试题解答集，包含socketpair与socket区别、Binder通信原理、Handler机制、Service生命周期等核心知识点。面向Android系统工程师面试准备。
 
 `android` `framework` `interview` `socketpair` `binder`
-
----
-
-### [Android 性能优化知识体系大纲](#)
-@Manus AI · ⭐⭐⭐3 🇨🇳 · 2026-04-10
-
-Android性能优化完整知识体系大纲。从性能优化基础定义与目标出发，建立响应时间、流畅度、内存占用、功耗、稳定性等关键指标体系。覆盖测量-分析-优化-验证闭环方法论，以及系统性思考、全局视角、数据驱动的优化思维模式。
-
-`android` `performance` `knowledge-map` `optimization` `methodology`
 
 ---
 
@@ -160,6 +151,15 @@ https://learningprompt.wiki/docs/insight/AI%20%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%
 ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 关于如何在 Slack 上免费使用 GPT4 和 GPT3.5 的一个简单教程： 0、全程不需要科学上网； 1、注册一个 Slack 帐号 https://slack.com/intl/zh-cn/ ； 2、创建一个工作区，随便起一个名字，如果你已经有工作区了，跳过此步； 3、点开 https://www.springworks.in/albus/ 这个页面，安装 AIbus 到 Slack； 4、在 Slack 直接点开 AIbus 与它对话； 5、也可以在频道里把 AIbus 拉进来，之后就...
+
+---
+
+### [Claude Code in Action 实战课程（中文翻译版）](https://cholf5.com/claude-code-in-action/)
+@Anthropic · ⭐⭐⭐3 🇨🇳 · 2026-04-10
+
+Anthropic官方Claude Code实战课程的中文翻译版，适合离线阅读。课程覆盖21个章节：基础部分（引言、编码助手概念、实战、安装配置、项目准备、添加上下文、修改代码）、进阶部分（控制上下文、自定义命令、MCP服务器、GitHub集成）、Hooks专题（认识/定义/实现Hooks及常见坑点）、高级主题（SDK、测验、总结）。
+
+`Claude-Code` `实战课程` `教程` `Hooks` `MCP`
 
 ---
 
@@ -439,12 +439,12 @@ macOS 上 OpenClaw 运行报错的系统性排查指南。Gateway 是中枢神�
 
 ---
 
-### [抽丝剥茧：深度解析 OpenClaw 万字系统提示词构成](https://x.com/LufzzLiz/article/2026669714072809755)
-@岚叔 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-26
+### [OpenClaw 从中级到高级完整教程](https://x.com/onehopeA9/article/2026905651088339408)
+@OneHopeA9 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-26
 
-通过自研 modelbox 工具模拟模型提供商，抓取 OpenClaw 发给模型的完整系统提示词（约 16K token/34062 字符）。逐一解析：第一段源码硬注入（身份、工具清单、安全规则、子代理机制），第二段工具调用风格与安全约束，第三段 CLI 命令参考，第四段 skill 加载机制。帮助理解系统提示词结构以进行瘦身优化。
+面向已完成基础配置的 OpenClaw 用户的中高级教程。覆盖：AGENTS.md 工作规范、记忆优化（构建可靠记忆体系）、子 Agent 团队协作、Cron 自动化、Skill 开发、多渠道部署（全平台接入）、性能调优、实战练习清单、疑难解答。系统性的进阶指南。
 
-`openclaw` `system-prompt` `token-analysis` `modelbox` `context-window`
+`openclaw` `tutorial` `agents-md` `memory` `cron`
 
 ---
 
@@ -457,12 +457,12 @@ macOS 上 OpenClaw 运行报错的系统性排查指南。Gateway 是中枢神�
 
 ---
 
-### [OpenClaw 从中级到高级完整教程](https://x.com/onehopeA9/article/2026905651088339408)
-@OneHopeA9 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-26
+### [抽丝剥茧：深度解析 OpenClaw 万字系统提示词构成](https://x.com/LufzzLiz/article/2026669714072809755)
+@岚叔 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-26
 
-面向已完成基础配置的 OpenClaw 用户的中高级教程。覆盖：AGENTS.md 工作规范、记忆优化（构建可靠记忆体系）、子 Agent 团队协作、Cron 自动化、Skill 开发、多渠道部署（全平台接入）、性能调优、实战练习清单、疑难解答。系统性的进阶指南。
+通过自研 modelbox 工具模拟模型提供商，抓取 OpenClaw 发给模型的完整系统提示词（约 16K token/34062 字符）。逐一解析：第一段源码硬注入（身份、工具清单、安全规则、子代理机制），第二段工具调用风格与安全约束，第三段 CLI 命令参考，第四段 skill 加载机制。帮助理解系统提示词结构以进行瘦身优化。
 
-`openclaw` `tutorial` `agents-md` `memory` `cron`
+`openclaw` `system-prompt` `token-analysis` `modelbox` `context-window`
 
 ---
 

@@ -376,17 +376,17 @@ Google全新 MLKit端上生成式API 现已开放！只需几行代码，就能�
 
 ## 📅 2025-03-20
 
-### [[译]AI算力民主化 第四部分：CUDA虽为现有主导者，但它真的完美吗？](https://mp.weixin.qq.com/s?__biz=MzI4MTQyNzkxNw==&mid=2247484053&idx=1&sn=50ac219fc15a96d47d8fe7f5c13b8589&chksm=ea472c500e2f435c2d659ba684727e9b10e994ff9fba8f6059563888a04f1716fdf46fe2d910&mpshare=1&scene=1&srcid=0320l9T6Mditu0Zf92c2RRGr&sharer_shareinfo=8245be77c5dfa5b4729ad2da9218f46d&sharer_shareinfo_first=8245be77c5dfa5b4729ad2da9218f46d)
-⭐⭐⭐3 🇨🇳 · 2025-03-20
-
-要回答CUDA是否&quot;优秀&quot;这个问题，实际比听上去困难得多。我们讨论的是其原始性能？功能集？还是其对AI发展领域的更广泛影响？**CUDA是否&quot;优秀&quot;取决于你询问的对象以及他们的具体需求**。
-
----
-
 ### [vLLM 深度解析：Deekseek and vLLM -1](https://mp.weixin.qq.com/s?__biz=MzUzNzg4Nzc3MQ==&mid=2247485194&idx=1&sn=7f8f1fd311b3afa4d428923c161c0d49&chksm=fb96535b02ec909dd92fbb8bf9e14a30e6b470f4ebb2d5646d62059936ae04ff120f4600458e&mpshare=1&scene=1&srcid=0320kw4CJX136LPcEcqRDfi8&sharer_shareinfo=4e348e8e0eaa44389ddda81fca00d637&sharer_shareinfo_first=b4bab0d6a6efc29824b49ba7a3b5cc95)
 ⭐⭐⭐3 🇨🇳 · 2025-03-20
 
 本文资料来自vLLM Office Hours第20次会议的记录，时间是2025年2月27日，主题是要讨论vllm 对于deepseek的更新，内容丰富。
+
+---
+
+### [[译]AI算力民主化 第四部分：CUDA虽为现有主导者，但它真的完美吗？](https://mp.weixin.qq.com/s?__biz=MzI4MTQyNzkxNw==&mid=2247484053&idx=1&sn=50ac219fc15a96d47d8fe7f5c13b8589&chksm=ea472c500e2f435c2d659ba684727e9b10e994ff9fba8f6059563888a04f1716fdf46fe2d910&mpshare=1&scene=1&srcid=0320l9T6Mditu0Zf92c2RRGr&sharer_shareinfo=8245be77c5dfa5b4729ad2da9218f46d&sharer_shareinfo_first=8245be77c5dfa5b4729ad2da9218f46d)
+⭐⭐⭐3 🇨🇳 · 2025-03-20
+
+要回答CUDA是否&quot;优秀&quot;这个问题，实际比听上去困难得多。我们讨论的是其原始性能？功能集？还是其对AI发展领域的更广泛影响？**CUDA是否&quot;优秀&quot;取决于你询问的对象以及他们的具体需求**。
 
 ---
 
@@ -772,17 +772,17 @@ Read Original
 
 ## 📅 2023-03-09
 
-### [不用数学和代码，解释下ChatGPT算法原理](https://mp.weixin.qq.com/s?__biz=MzI4NDAyOTI0Ng==&mid=2656001143&idx=1&sn=1401ced807aefdc0487fbae19d487518&chksm=f03a4426c74dcd30d8022f09e9b5a8898ccc678a8b3407b3aefeaf6bba7920d52c2bb6504d3e&mpshare=1&scene=1&srcid=0309Pisz67AX4q1KF1YdJhED&sharer_sharetime=1678325918761&sharer_shareid=3fee492c0c6fb5a2da9e121bd1155214)
-⭐⭐⭐3 🇨🇳 · 2023-03-09
-
-这一段时间花了挺长的时间开始看ChatGPT的算法原理，有了一些新的认知，mark了一些算法书，对ChatGPT和OpenAI有了更多的尊重。
-
----
-
 ### [聊天GPT 3.5 api chatGPT私有化部署](https://www.chatgoo.com/zh/20231391/)
 ⭐⭐⭐3 🇨🇳 · 2023-03-09
 
 PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最新的gpt-3.5-turbo模型, ChatGPT3.5 API 服务 (那是, OpenAI 网页上使用的模型), 允许多个ChatGPT账号协同工作，构建对外API接口服务.
+
+---
+
+### [不用数学和代码，解释下ChatGPT算法原理](https://mp.weixin.qq.com/s?__biz=MzI4NDAyOTI0Ng==&mid=2656001143&idx=1&sn=1401ced807aefdc0487fbae19d487518&chksm=f03a4426c74dcd30d8022f09e9b5a8898ccc678a8b3407b3aefeaf6bba7920d52c2bb6504d3e&mpshare=1&scene=1&srcid=0309Pisz67AX4q1KF1YdJhED&sharer_sharetime=1678325918761&sharer_shareid=3fee492c0c6fb5a2da9e121bd1155214)
+⭐⭐⭐3 🇨🇳 · 2023-03-09
+
+这一段时间花了挺长的时间开始看ChatGPT的算法原理，有了一些新的认知，mark了一些算法书，对ChatGPT和OpenAI有了更多的尊重。
 
 ---
 
