@@ -12,7 +12,13 @@ from datetime import datetime, timedelta
 from collections import Counter, OrderedDict
 from pathlib import Path
 
-BASE_DIR = Path(__file__).parent.parent
+SCRIPT_PATH = Path(__file__).resolve()
+BASE_DIR = SCRIPT_PATH.parent.parent
+if not (BASE_DIR / "data" / "entries.json").exists() and BASE_DIR.name == "openclaw":
+    candidate = BASE_DIR.parent
+    if (candidate / "data" / "entries.json").exists():
+        BASE_DIR = candidate
+
 DATA_DIR = BASE_DIR / "data"
 META_DIR = BASE_DIR / "metadata"
 SRC_DIR = BASE_DIR / "site-src"
