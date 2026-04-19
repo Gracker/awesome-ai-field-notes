@@ -1,6 +1,6 @@
 # 📖 学习资源
 
-教程 / 论文 / 提示工程 / 演讲 — 共 **101** 条活跃资源
+教程 / 论文 / 提示工程 / 演讲 — 共 **100** 条活跃资源
 
 ## 📅 2026-04-14
 
@@ -163,7 +163,7 @@ Anthropic官方Claude Code实战课程的中文翻译版，适合离线阅读。
 
 ---
 
-### [GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。](https://github.com/rockbenben/ChatGPT-Shortcut) ⭐8,348
+### [GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。](https://github.com/rockbenben/ChatGPT-Shortcut) ⭐8,387
 ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 # GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。 ChatGPT Shortcut 是根据领域和功能划分的 ChatGPT 快捷指令表，可通过标签筛选、关键词搜索和一键复制来使用提示词，旨在简化你的工作流程并提高生产力。即使是初学者，你只需复制提示词，稍加修改后发送给 ChatGPT，就能获得指定输出，让你的生产力加倍！ 提示词（即 Prompt）通常是用户提供的问题或文本，以激活模型生成回复。简单来说，prompt 就是用户想要询问的内容，作为输入送到 ...
@@ -718,15 +718,6 @@ Dan Koe 探讨了如何用 AI 深化阅读理解而非替代阅读。核心观�
 ⭐⭐⭐3 🇨🇳 · 2025-04-16
 
 著名产品Newsletter主理人、播客主播Lenny ，靠自己的人脉关系，联合一大堆牛逼AI工具产品搞捆绑销售。 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FjibL99tg2bCUZEegNUjLOOAKCsvGCY4lPuh2DSHoyFjuE90XxiaesckU00Tceibz4ePw0c2cMzic2ia8Jbc4CSPJiabA%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg &quot;null&quot;) Le...
-
----
-
-## 📅 2025-04-15
-
-### [做AI产品两年，我得出的实操经验](https://mp.weixin.qq.com/s/HsFhXMLejsQWjTghUYdKFA)
-⭐⭐⭐⭐4 🌐 · 2025-04-15
-
-[需翻译] **观众反响特别好，想着要不把分享的内容公开出来，所以整理了这篇文章。本篇内容是对我过去两年时间，做了无数个AI产品demo的一个阶段性的总结，主要聚焦这三个方面的经验：**
 
 ---
 

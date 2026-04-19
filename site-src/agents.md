@@ -1,6 +1,6 @@
 # 🤖 智能体
 
-Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **99** 条活跃资源
+Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **98** 条活跃资源
 
 ## 📅 2026-04-14
 
@@ -38,7 +38,7 @@ Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **99** 条活跃资源
 
 ---
 
-### [GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault](https://github.com/YishenTu/claudian) ⭐7,553
+### [GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault](https://github.com/YishenTu/claudian) ⭐8,584
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault - YishenTu/claudian ?imageUrl=https%3A%2F%2Fcamo.githubusercontent.com%2Fbbccb46c3e40e6f6bbd14f744f3796c76fdfd9e...
@@ -58,7 +58,7 @@ LLM Agent 在长时间、动态交互环境中运行时，如何实现持续学�
 
 ---
 
-### [GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login.](https://github.com/steipete/CodexBar) ⭐10,549
+### [GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login.](https://github.com/steipete/CodexBar) ⭐10,933
 ⭐⭐⭐3 🌐 · 2026-04-10
 
 # GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login. Show usage stats for OpenAI Codex and Claude Code, without having to login. - steipete/CodexBar CodexBar 🎚️ - May your tokens never run out. Tiny macOS 14+ menu bar app that keeps your Codex, Cl...
@@ -1038,21 +1038,6 @@ Read Original
 
 ---
 
-### [2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期](https://youmind.com/s/hPiqSBPU4tVa7o)
-⭐⭐⭐⭐4 🇨🇳 · 2026-01-05
-
-2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期
-&gt; copyright x @ wquguru 欢迎转载，请注明出处
-**第一篇：代理工程时代的到来**\
-我们看到AI正在从助手
-Read in Cubox  
-Read Original
-&gt; copyright x @ wquguru 欢迎转载，请注明出处
-
-`Claude` `Agent` `Prompt Engineering` `AI Coding` `MCP`
-
----
-
 ### [2026 AI First 系列（二）：Vibe Coding——思维速度编程的民主化革命](https://youmind.com/s/3iWn21PVIlNg7V)
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-05
 
@@ -1296,7 +1281,7 @@ AI编程是当前AI领域唯一盈利赛道。这不仅是一种技术革新，�
 
 ## 📅 2025-04-01
 
-### [GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers](https://github.com/MobinX/awesome-mcp-list) ⭐881
+### [GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers](https://github.com/MobinX/awesome-mcp-list) ⭐879
 ⭐⭐⭐⭐4 🌐 · 2025-04-01
 
 # GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers A concise list for mcp servers. Contribute to MobinX/awesome-mcp-list development by creating an account on GitHub. Awesome MCP Servers - Concise List Note that this list is continuously updating and improving. Please star this repo ...

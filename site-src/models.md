@@ -1,6 +1,6 @@
 # 🧠 模型
 
-GPT / Claude / Gemini / 开源模型 / 架构 — 共 **90** 条活跃资源
+GPT / Claude / Gemini / 开源模型 / 架构 — 共 **89** 条活跃资源
 
 ## 📅 2026-04-14
 
@@ -18,19 +18,6 @@ GPT / Claude / Gemini / 开源模型 / 架构 — 共 **90** 条活跃资源
 ---
 
 ## 📅 2026-04-10
-
-### [Android Developers Blog: Gemini in Android Studio for businesses: Develop with confidence, powered b...](https://android-developers.googleblog.com/2025/04/gemini-in-android-studio-for-business.html)
-⭐⭐⭐3 🌐 · 2026-04-10
-
-Android Developers Blog: Gemini in Android Studio for businesses: Develop with confidence, powered b...
-Read in Cubox  
-Read Original
-*Posted by Sandhya Mohan -- Product Manager*
-To empower Android developers at work, we&#x27;re excited to announce a new offering of **Gemini in Android Studio for businesses**. This offering is specifically designed to meet the added privacy, securit...
-
-`Gemini` `Android`
-
----
 
 ### [[2303.10130] GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models](https://arxiv.org/abs/2303.10130)
 ⭐⭐⭐3 🌐 · 2026-04-10

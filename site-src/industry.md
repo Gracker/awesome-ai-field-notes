@@ -1,6 +1,6 @@
 # 🌍 行业观察
 
-AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **51** 条活跃资源
+AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **49** 条活跃资源
 
 ## 📅 2026-04-10
 
@@ -316,24 +316,6 @@ Anthropic CEO Dario Amodei 在印度班加罗尔的深度访谈要点：2019 年
 系统拆解 2026 年初 AI 变化的四层结构：大脑（推理模型→agentic能力→agent team 内化到模型）、手脚（工具/沙箱/浏览器）、组织（多 Agent 协作与上下文专业化）、进化（数据飞轮：模型→agent→反馈→更强模型）。核心规律：模型与脚手架关系是循环，模型先出→agent→multi agent→内化到模型。AI 自我迭代已开始（Claude Code 用 Claude Code 迭代自己）。应用层方向：通用/垂直 Agent、Agent 基建、多模态内容。
 
 `ai-trends` `agent` `model-evolution` `data-flywheel` `2026`
-
----
-
-### [The Business Models That Will Dominate 2027 (That Don&#x27;t Exist Yet)](https://x.com/Zephyr_hg/article/2026656410084258042)
-@Zephyr · ⭐⭐⭐⭐4 🌐 · 2026-02-26
-
-预测 2027 年将主导的 AI 新商业模式。包括：企业级单人服务公司（AI 处理重复工作、自动化交付、人做战略和客户关系）、AI 驱动微型机构、按结果付费定价、AI 原生服务市场等。核心：如果懂得构建系统，单人服务公司是目前杠杆最高的商业模式。
-
-`business-model` `ai-startup` `one-person-company` `automation` `2027`
-
----
-
-### [AI的负面（2）你的知识在贬值，但房贷不会贬值](https://x.com/FuSheng_0306/article/2026910973030969477)
-@傅盛 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-26
-
-讨论 AI 对白领阶层&quot;智力溢价&quot;的冲击。过去几千年的经济游戏底层规则是人的智慧是稀缺资源，AI 打破了这个前提。AI Agent 月费约 200 元，7×24 不停歇，能替代年薪 30 万白领的大部分工作。国家已将 AI 列入突发事件应急预案的重大潜在风险。核心警告：你的知识在贬值，但房贷不会。
-
-`ai-impact` `employment` `knowledge-depreciation` `white-collar` `economy`
 
 ---
 
