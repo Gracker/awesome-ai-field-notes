@@ -94,6 +94,47 @@ def sanitize_content(content):
     return ''.join(result)
 
 
+def strip_leading_h1_and_metadata(content):
+    """移除正文里重复的 H1 和紧随其后的元数据块。"""
+    content = content.lstrip()
+    lines = content.splitlines()
+    if not lines or not lines[0].startswith('# '):
+        return content
+
+    i = 1
+    while i < len(lines) and not lines[i].strip():
+        i += 1
+
+    meta_prefixes = (
+        '**English Title:**',
+        '**Author:**',
+        '**Source:**',
+        '**Quality Score:**',
+        '**Tags:**',
+        '**Summary:**',
+    )
+    saw_meta = False
+    while i < len(lines):
+        stripped = lines[i].strip()
+        if not stripped:
+            i += 1
+            continue
+        if stripped == '---':
+            i += 1
+            while i < len(lines) and not lines[i].strip():
+                i += 1
+            break
+        if any(stripped.startswith(prefix) for prefix in meta_prefixes):
+            saw_meta = True
+            i += 1
+            continue
+        break
+
+    if saw_meta or i > 1:
+        return '\n'.join(lines[i:]).lstrip()
+    return content
+
+
 STATS_PATH = META_DIR / "stats.json"
 CONTENT_DIR = BASE_DIR / "content"
 
@@ -358,6 +399,10 @@ for e in active:
     else:
         content_body = content_raw
 
+    if not content_body:
+        continue
+
+    content_body = strip_leading_h1_and_metadata(content_body)
     if not content_body:
         continue
 
