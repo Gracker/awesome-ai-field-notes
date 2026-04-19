@@ -2167,5 +2167,203 @@
     "updated_date": null,
     "github_stars": null,
     "related": []
+  },
+  {
+    "id": "e5b48fa2",
+    "title": "Hinton 推荐：国际 AI 安全报告 2026 是 AI 风险必读文献",
+    "url": "https://x.com/geoffreyhinton/status/2019532085233611207",
+    "source": {
+      "platform": "x/twitter",
+      "author": "Geoffrey Hinton",
+      "original_date": "2026-04-19"
+    },
+    "category": "ai-safety/papers",
+    "tags": [
+      "ai-safety",
+      "llm",
+      "alignment",
+      "hinton",
+      "bengio"
+    ],
+    "source_type": "x_post",
+    "language": "en",
+    "summary_zh": "Hinton 在推文中推荐了由 Yoshua Bengio 主导的《国际 AI 安全报告 2026》，称其为任何讨论 AI 风险者的必读文献。该报告是目前最全面的循证 AI 能力评估、新兴风险与安全措施汇编，涵盖能力进展、对齐挑战与安全缓解路径。Hinton 的背书使其迅速成为 AI 安全领域的基础参考文献，为当前行业对 AI 风险的讨论提供了权威循证框架。",
+    "summary_en": "Hinton endorsed the International AI Safety Report 2026, led by Yoshua Bengio, calling it essential reading for anyone discussing AI risks. Currently the most comprehensive evidence-based assessment of AI capabilities, emergent risks, and safety measures, it covers capability progress, alignment challenges, and safety mitigation pathways. Hinton's endorsement made it a foundational reference in current AI safety discourse.",
+    "one_liner": "AI 安全领域当前最权威的循证报告，Hinton 的背书进一步确立了其行业基准地位",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "content/e5b48fa2.md",
+    "images": [],
+    "added_date": "2026-04-19",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "2e8c5f3a",
+    "title": "Greg Brockman 演示：自然语言在 Codex 内完成 WebApp 和游戏开发",
+    "url": "https://x.com/gdb/status/2045594591584530826",
+    "source": {
+      "platform": "x/twitter",
+      "author": "Greg Brockman",
+      "original_date": "2026-04-19"
+    },
+    "category": "coding/ai-coding",
+    "tags": [
+      "codex",
+      "natural-language",
+      "webdev",
+      "game-dev",
+      "openai",
+      "brockman"
+    ],
+    "source_type": "x_post",
+    "language": "en",
+    "summary_zh": "Greg Brockman（OpenAI 联合创始人）在推文中展示完全使用自然语言在 Codex 内构建 Web 应用和游戏，称其「乐趣无穷」。该展示获得了 878 赞与 60 转发，评论区引发开发者对代码质量、Windows 支持、从「自动补全」到「主导开发」范式转变等实质性讨论。Codex 的自然语言优先开发范式正重新定义软件创造的门槛。",
+    "summary_en": "Greg Brockman (Co-founder of OpenAI) demonstrated building webapps and games entirely with natural language inside Codex, calling it 'incredibly fun'. The tweet got 878 likes and 60 retweets, with substantive developer discussion around code quality, Windows support, and the paradigm shift from 'autocomplete' to 'lead developer'. Codex's natural-language-first development paradigm is redefining the barrier to software creation.",
+    "one_liner": "自然语言主导开发范式日趋成熟，Codex 正将 AI 编程从辅助工具推向主导角色",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "content/2e8c5f3a.md",
+    "images": [],
+    "added_date": "2026-04-19",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "c66033b0",
+    "title": "Nature 论文：LLM 可通过无关数据传递隐藏偏好，对齐研究新方向",
+    "url": "https://x.com/AnthropicAI/status/2044493337835802948",
+    "source": {
+      "platform": "x/twitter",
+      "author": "AnthropicAI",
+      "original_date": "2026-04-19"
+    },
+    "category": "ai-safety/alignment",
+    "tags": [
+      "alignment",
+      "subliminal-learning",
+      "nature",
+      "anthropic",
+      "training-data",
+      "safety"
+    ],
+    "source_type": "paper",
+    "language": "en",
+    "summary_zh": "Anthropic 与合作者发表的 Nature 论文揭示了 LLM 中的「亚秒级学习」现象：模型可以通过训练数据中看似无关的隐藏信号，将偏好或对齐偏差传递给后续模型，即使这些信号与目标任务完全无关。关键实验显示，GPT-4.1 nano 的偏好从 12% 跃升至 60% 以上，仅因接触了嵌入隐蔽信号的过滤数字序列。该发现对合成数据污染、多智能体共享记忆安全与数据溯源具有深远安全启示。",
+    "summary_en": "A Nature paper co-authored by Anthropic reveals 'subliminal learning' in LLMs: models can pass on preferences or misalignment through hidden signals in training data, even when those signals are seemingly unrelated to the target task. Key experiment showed GPT-4.1 nano's preference jumping from 12% to over 60% just from exposure to filtered number sequences with embedded hidden signals. The finding has profound safety implications for synthetic data contamination, multi-agent shared memory security, and data provenance.",
+    "one_liner": "对齐研究的重要里程碑：LLM 可通过无关数据隐性传递偏好，对合成数据与共享记忆架构的安全假设构成根本性挑战",
+    "one_liner_author": "openclaw",
+    "quality_score": 5,
+    "status": "active",
+    "local_path": "content/c66033b0.md",
+    "images": [],
+    "added_date": "2026-04-19",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "95bb1d33",
+    "title": "Gemini 3.1 Flash TTS 登陆 Google Vids，支持一键脚本转专业旁白",
+    "url": "https://x.com/GoogleAI/status/2044447638511383024",
+    "source": {
+      "platform": "x/twitter",
+      "author": "GoogleAI",
+      "original_date": "2026-04-19"
+    },
+    "category": "multimodal/audio",
+    "tags": [
+      "tts",
+      "gemini",
+      "google",
+      "audio-tags",
+      "google-vids",
+      "text-to-speech"
+    ],
+    "source_type": "product",
+    "language": "en",
+    "summary_zh": "Google 发布 Gemini 3.1 Flash TTS，称其为迄今为止表现力最强、可控性最高的 TTS 模型。核心创新是 Audio Tags 功能：用自然语言直接嵌入文本来引导音色、语速和表达风格（如 [excitement]、[amazement]），支持 70+ 语言（24 种高质量评估语言）。已集成到 Google Vids，并通过 Gemini API 和 Google AI Studio 提供预览，目标是 pitch deck 和个人项目旁白场景。",
+    "summary_en": "Google launched Gemini 3.1 Flash TTS, calling it their most expressive and controllable text-to-speech model yet. The core innovation is Audio Tags: natural language commands embedded directly in text to steer vocal style, pace, and delivery (e.g. [excitement], [amazement]). Supports 70+ languages with 24 high-quality evaluated languages. Now integrated into Google Vids, available via Gemini API and Google AI Studio, targeting pitch decks and personal project narration.",
+    "one_liner": "Audio Tags 将自然语言控制引入 TTS，是 TTS 可控性领域的重要一步，但需与 ElevenLabs、Azure TTS 实际对比评估",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "content/95bb1d33.md",
+    "images": [],
+    "added_date": "2026-04-19",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "2b5dc864",
+    "title": "MiniMax M2.7 权重开源：超越 GPT-4 的 Coding 能力",
+    "url": "https://x.com/MiniMax_AI/status/2043132047397659000",
+    "source": {
+      "platform": "x/twitter",
+      "author": "MiniMax_AI",
+      "original_date": "2026-04-19"
+    },
+    "category": "models/open-models",
+    "tags": [
+      "minimax",
+      "open-weight",
+      "coding",
+      "swe-bench",
+      "huggingface",
+      "llm"
+    ],
+    "source_type": "github",
+    "language": "zh",
+    "summary_zh": "MiniMax 宣布 M2.7 正式开源（官方后更正为「open weight」而非「open source」），在 SWE-Pro 达到 56.22%、Terminal Bench 2 达到 57.0% 的 SOTA 性能，参数量约 10B。社区广泛批评其许可证限制商业使用，认为是「虚假开源宣传」；MiniMax 随后更改为「open weight」表述。已可在 Hugging Face 下载并通过 API 和 Ollama 云端部署。",
+    "summary_en": null,
+    "one_liner": "代码能力 SOTA 表现抢眼，但许可证争议使其「开源」标签名不副实，open weight 是更准确的定性",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "content/2b5dc864.md",
+    "images": [],
+    "added_date": "2026-04-19",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "1099ae59",
+    "title": "Farzapedia：用个人日记和聊天记录打造可检索的个人 AI 维基",
+    "url": "https://x.com/karpathy/status/2040572272944324650",
+    "source": {
+      "platform": "x/twitter",
+      "author": "karpathy",
+      "original_date": "2026-04-19"
+    },
+    "category": "agents/memory",
+    "tags": [
+      "personal-wiki",
+      "memory",
+      "karpathy",
+      "file-over-app",
+      "byoai",
+      "agents",
+      "obsidian"
+    ],
+    "source_type": "article",
+    "language": "en",
+    "summary_zh": "Karpathy 推荐 Farzapedia 并系统阐述个人 AI 维基的四大原则：1）显式（记忆是可见可导航的 wiki 而非黑盒）；2）属于你（数据在本地，以通用格式存储，不被困在 AI 提供商系统中）；3）文件优先于 App（数据是 markdown 文件，可被任何工具处理）；4）自带 AI（BYOAI，可用任何 AI 接入这些信息，甚至微调开源模型）。Karpathy 强调 Agent 熟练度是 21 世纪核心技能，赞同让 AI 公司保持竞争力。",
+    "summary_en": "Karpathy endorses Farzapedia and systematically lays out four principles of personal AI wiki: 1) Explicit (memory is a visible, navigable wiki not a black box); 2) Yours (data is local in universal formats, not trapped in any AI provider's system); 3) File over App (data is markdown files processable by any tool); 4) BYOAI (use any AI to plug into this information, even fine-tune an open source model). Karpathy emphasizes agent proficiency as the core skill of the 21st century.",
+    "one_liner": "个人 AI 记忆的 File over App 范式正成为 Agent 个性化的主流方向，Karpathy 的框架性阐述加速了这一认知在开发者社区的普及",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "content/1099ae59.md",
+    "images": [],
+    "added_date": "2026-04-19",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
   }
 ]

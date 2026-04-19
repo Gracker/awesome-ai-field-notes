@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema_description": "每条记录必须基于实际文件内容提取，禁止捏造。英文原文需提供中英双语摘要。",
-  "last_updated": "2026-04-19T00:05:22.391690",
+  "last_updated": "2026-04-19",
   "entries": [
     {
       "id": "ppNqbBb5",
@@ -22226,7 +22226,351 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "26tc21on",
+      "title": "两小时激辩：黄仁勋为什么不怕 TPU、不怕华为、不怕出口管制？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494627&idx=1&sn=1e8e69291f038d1faaa87233d3f26b48",
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": "2026-04-18"
+      },
+      "category": "industry/hardware-chips",
+      "tags": [
+        "Nvidia",
+        "黄仁勋",
+        "CUDA",
+        "TPU",
+        "出口管制",
+        "GPU",
+        "AI基础设施",
+        "Dwarkesh"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "黄仁勋接受 Dwarkesh Patel 两小时专访，系统阐述 Nvidia 的经营哲学与 AI 基础设施战略。核心观点：Nvidia 的护城河不是技术锁定，而是全球数亿 GPU 装机量与跨云平台的生态优势；Anthropic 使用 TPU 是早年 Nvidia 资金不足导致的「特例」而非趋势；出口管制会加速中国芯片自主化，美国将丢失全球第二大科技市场；收购 Groq 源于推理市场进入「分层定价」时代。全文数据密集，涵盖 CUDA 生态、供应链布局、Blackwell 架构 50 倍能效提升、对华政策博弈等关键议题。",
+      "summary_en": null,
+      "one_liner": "目前关于 Nvidia AI 战略最系统、最原声的专访，核心论点——AI 芯片不是武器、CUDA 是生态不是锁定——值得反复研读。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/两小时激辩：黄仁勋为什么不怕 TPU、不怕华为、不怕出口管制？-2026-04-18.md",
+      "images": [
+        "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ZlwY8rlDcFMRXSN4oQBDyvFD6mPUAzCdL0vQznmK8OViacRER7pamwKh2kqPjAOLlQhn5gF9bQfCR0hA4YN2FcffYiaQ9U7hWeaaxnyS2pR5M/640?from=appmsg&watermark=1#imgIndex=0",
+        "https://mmbiz.qpic.cn/mmbiz_jpg/ZlwY8rlDcFNN9icQlGlkf57YMg93wPYPerlCqdOt1Hcmibj2Pzr6f9b9loBzV8TwsfnkL4xy7zpHul0qibnqaJ3UQteNFPfYlibxviaEZHicEtwFE/640?from=appmsg&watermark=1#imgIndex=1",
+        "https://mmbiz.qpic.cn/sz_mmbiz_jpg/ZlwY8rlDcFNQNCxB5zq1K9RHz0YqITpeaOEibYO0OGs2sfiahBjsIs4qScYZib54OPz6GQlF9Ycho9FWMOJKv2YbHNyI1vp9kRczxjc0nlpA4k/640?from=appmsg&watermark=1#imgIndex=2"
+      ],
+      "added_date": "2026-04-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "zurlv9gb",
+      "title": "为什么你的「AI 优先」战略可能大错特错？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494606&idx=1&sn=0f80918858eb9a9eae7068b1d1be7496",
+      "source": {
+        "platform": "cubox",
+        "author": "Peter Pang",
+        "original_date": "2026-04-18"
+      },
+      "category": "industry/strategy",
+      "tags": [
+        "AI优先",
+        "Harness Engineering",
+        "脚手架工程",
+        "工程实践",
+        "CI/CD",
+        "自动化测试",
+        "工作流"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "CREAO 创始人结合自身实践深度分析「AI First」战略的落地条件与常见误区。文章指出「AI 优先」本质是围绕 AI 重建工程流程，而非简单加入 AI 工具；五大工程前提（自动化测试、CI/CD、A/B 监控、任务管理、架构）缺一不可，基础设施不完整时 AI First 只是口号。核心案例：25 人团队借助 Claude Opus 4.6 实现每天 3-8 次生产部署，从构思到上线当天完成，糟糕功能当天即撤，数据驱动决策。提出未来两类工程师——架构师（设计 SOP，教 AI 工作）和操作员（验证并分配任务），以及初级工程师比资深工程师适应更快的反直觉现象。",
+      "summary_en": null,
+      "one_liner": "目前关于 Harness Engineering 实战落地最详尽的案例分析，「基础不牢 AI 再快也是沙子盖楼」是核心警示。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/为什么你的-AI 优先-战略可能大错特错？-2026-04-18.md",
+      "images": [
+        "https://mmbiz.qpic.cn/mmbiz_jpg/ZlwY8rlDcFNSs6MnRJeAEeo6flMpTT9P5eLwSQILyAGiaJvgolzEicFB9x1yhRHmc18Hdvyr3kic2ZAFJkmwQbJXWZzLKWe3wQw25VL6x0oXsA/640?from=appmsg&watermark=1#imgIndex=0",
+        "https://mmbiz.qpic.cn/mmbiz_jpg/ZlwY8rlDcFNxkza45ibzMbqSSJGCxIjiaodt8ogETZbQuOqVQictTaenibUvVhwV46S6Yoic27iaELLiaKehPgmMcJYfA71rT2OJYDy0JKgGV1SGoM/640?from=appmsg&watermark=1#imgIndex=1",
+        "https://mmbiz.qpic.cn/mmbiz_jpg/ZlwY8rlDcFPaCg07N4icLoyvOl2SSiaTSpgSIce0RTpFkaYIPdia5OWj6GmmWWAfiaQlb5pwy7CNCOfMxdeKjm8ibAJnbgOw4G143d6Mx7g7Unek/640?from=appmsg&watermark=1#imgIndex=2"
+      ],
+      "added_date": "2026-04-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "xn8io4r3",
+      "title": "设计圈的 Claude Code 时刻来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494646&idx=1&sn=e25f9153f8804897ee278d74750c1b7f",
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": "2026-04-18"
+      },
+      "category": "coding-agents/claude-code",
+      "tags": [
+        "Claude Design",
+        "Anthropic",
+        "设计工具",
+        "Figma",
+        "Claude Opus 4.7",
+        "原型",
+        "多模态"
+      ],
+      "source_type": "product",
+      "language": "zh",
+      "summary_zh": "Anthropic 发布 Claude Design，基于 Claude Opus 4.7，实现描述到可交互高保真原型的工作流。与 Figma/Canva 的本质区别：AI 是主要生成者、人是审阅者，而非在画布工具上叠加 AI 插件。核心能力：输出 React+CSS 可运行代码而非静态图；理解代码库结构后自动套用设计系统；可生成临时专用工具；与 Claude Code 形成设计到代码落地闭环。实测案例：3 轮对话产出完整 Mac App 原型，含可点击交互和版本对比。Anthropic 设计师一人服务 7 条产品线的现实已发生，Figma 股价当日大跌。",
+      "summary_en": null,
+      "one_liner": "设计工具的游戏规则改写者，Claude Code 时刻在设计领域的镜像，结构清晰可描述的 UI 需求它几乎都能搞定。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/设计圈的 Claude Code 时刻来了-2026-04-18.md",
+      "images": [
+        "https://mmbiz.qpic.cn/mmbiz_png/ZlwY8rlDcFPoouCsWyJlh1nqeibGyt4IaCQKWthYRib9sA9F2p4JIlkAYIIlv7aDRWIPA5HWdFodmM3vKaziaUULV4o5aQqoniaM9pnmuzmYaYI/640?from=appmsg&watermark=1#imgIndex=0",
+        "https://mmbiz.qpic.cn/mmbiz_png/ZlwY8rlDcFNvkomNibfp2TR5WptrXuNiaDia7JcvX5Ttlxiak70cestibVD98icl6bELficXJQnvAiaIzAia9NRTkHltVyc0jGzYRw2G6flZialMEwHog/640?from=appmsg&watermark=1#imgIndex=1",
+        "https://mmbiz.qpic.cn/mmbiz_png/ZlwY8rlDcFOln3xKMBYqnQk1ibgPUUfFAzqy4N2NCJnV82NicoavaWmkTEWGEsaIUV4srLbv4Vg52FczDeiaIiaMvoAPrzL2VY7N8bN9jnWJ0fs/640?from=appmsg&watermark=1#imgIndex=2"
+      ],
+      "added_date": "2026-04-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "p591inej",
+      "title": "AI 影响力日报 · 2026-04-18",
+      "url": "https://x.com/grackerai/status/ai-daily-2026-04-18",
+      "source": {
+        "platform": "x",
+        "author": "gracker",
+        "original_date": "2026-04-18"
+      },
+      "category": "learning/daily-digest",
+      "tags": [
+        "AI日报",
+        "Twitter",
+        "LLM",
+        "Agent",
+        "Gemini",
+        "Karpathy",
+        "每日精选"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "2026 年 4 月 18 日 AI 高价值内容日报，筛选 5 条：① Allie Miller 的 5 天 AI 建造课程；② Karpathy 转发 Farzapedia——用 LLM 将 2500 条个人数据转化为个人维基百科的实践；③ Google 发布 Gemini 3.1 Flash TTS 表情化语音合成；④ Gemini Agentic Vision：LLM 自己写代码做视觉推理任务；⑤ Nature 重磅论文——LLM 可通过隐含数据信号传递偏好与对齐特征。",
+      "summary_en": null,
+      "one_liner": "每日 AI 内容精选，Karpathy 的 Wiki LLM 概念和 Nature 的潜意识对齐论文是当日最大亮点。",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Twitter/AI影响力日报/2026-04-18.md",
+      "images": [],
+      "added_date": "2026-04-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "95bb1d33",
+      "title": "Gemini 3.1 Flash TTS 登陆 Google Vids，支持一键脚本转专业旁白",
+      "url": "https://x.com/GoogleAI/status/2044447638511383024",
+      "source": {
+        "platform": "x",
+        "author": "@GoogleAI",
+        "original_date": "2026-04-16"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "tts",
+        "google",
+        "gemini"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Google AI 宣布 Gemini 3.1 Flash TTS 已在 Google Vids 中推送，同时通过 Gemini API 和 Google AI Studio 预览开放。该功能可将脚本一键转化为工作室级旁白配音，面向 pitch deck 和 passion project 等场景。这是 Google 生态内首次实现「脚本→专业配音」的端到端覆盖，视频创作者无需再借助第三方语音合成工具，工作流大幅简化。",
+      "summary_en": "Google AI launched Gemini 3.1 Flash TTS in Google Vids, also available via Gemini API and AI Studio preview. It transforms scripts into studio-quality narration for pitch decks and passion projects. No third-party TTS needed within the Google ecosystem.",
+      "one_liner": "Google 生态内的端到端 AI 配音，一键脚本转专业旁白",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2e8c5f3a",
+      "title": "Greg Brockman 演示：自然语言在 Codex 内完成 WebApp 和游戏开发",
+      "url": "https://x.com/gdb/status/2045594591584530826",
+      "source": {
+        "platform": "x",
+        "author": "@gdb",
+        "original_date": "2026-04-18"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "workflow",
+        "codex",
+        "ai-coding",
+        "openai"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Greg Brockman 演示了用自然语言完全在 Codex 内构建 WebApp 和小游戏的工作流：开发者可在 Codex 内直接运行自己开发的游戏，用 Codex 生成的工具来设计建筑等元素，并能实时提问、修改、边运行边调优。这标志着 AI 代码生成从「辅助补全」进化到「主导开发」的关键信号，开发者应尽早熟悉对话即 IDE 的新范式。",
+      "summary_en": "Greg Brockman demonstrated building webapps and games entirely with natural language inside Codex: running the game inside the same environment, using Codex-made tools for in-game design, and iterating in real-time. This marks AI coding evolving from autocomplete to lead developer.",
+      "one_liner": "Codex 实现「对话即 IDE」，自然语言主导全流程开发",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1099ae59",
+      "title": "Farzapedia：用个人日记和聊天记录打造可检索的个人 AI 维基",
+      "url": "https://x.com/karpathy/status/2040572272944324650",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-04-05"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "workflow",
+        "prompt",
+        "personal-wiki",
+        "llm",
+        "memory"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "开发者 Farza 将 2500 条日记、Apple Notes 和 iMessage 对话导入 LLM，自动生成了 400 篇涵盖朋友、创业项目、研究领域和喜好的个人维基文章。与「用越多越懂你」的隐式记忆不同，这是一种完全显式的记忆 artifact，透明可控。这一思路为个人知识管理提供了新范式：让 AI 用你自己的真实数据构建可检索、可阅读的个人知识库，而非依赖通用模型的模糊记忆。",
+      "summary_en": "Farza imported 2500 diary entries, Apple Notes and iMessages into an LLM, generating 400 personal wiki articles covering friends, startups, research and interests. Unlike implicit 'the more you use it the better it gets' memory, this explicit artifact approach is transparent and controllable.",
+      "one_liner": "用日记和聊天记录打造透明可控的个人 AI 知识库",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e5b48fa2",
+      "title": "Hinton 推荐：国际 AI 安全报告 2026 是 AI 风险必读文献",
+      "url": "https://x.com/geoffreyhinton/status/2019532085233611207",
+      "source": {
+        "platform": "x",
+        "author": "@geoffreyhinton",
+        "original_date": "2026-02-06"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "ai-safety",
+        "research",
+        "report"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Geoffrey Hinton 转发并推荐了由 Yoshua Bengio 主导发布的 International AI Safety Report 2026，称其为「任何想谈 AI 风险的人都必须阅读」的权威文献。该报告是目前最全面的循证 AI 能力与风险评估报告，涵盖能力评估、新兴风险与安全措施。Hinton 的背书使其成为当前 AI 安全讨论的基础参考文献。",
+      "summary_en": "Geoffrey Hinton endorsed the International AI Safety Report 2026 led by Yoshua Bengio, calling it essential reading for anyone discussing AI risks. It's the most comprehensive evidence-based assessment of AI capabilities, emerging risks and safety measures to date.",
+      "one_liner": "AI 安全领域最权威的循证报告，Hinton 亲推必读",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c66033b0",
+      "title": "Nature 论文：LLM 可通过无关数据传递隐藏偏好，对齐研究新方向",
+      "url": "https://x.com/AnthropicAI/status/2044493337835802948",
+      "source": {
+        "platform": "x",
+        "author": "@AnthropicAI",
+        "original_date": "2026-04-16"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "research",
+        "alignment",
+        "llm",
+        "nature"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Anthropic 与合作者在 Nature 发表论文，揭示 LLMs 可通过完全无关的训练数据传递隐式偏好（如喜欢猫头鹰）和 misalignment。研究发现 LLM 能从毫无意义的数字序列中学习并传播 trait，这一发现对 AI 对齐（alignment）研究有深远意义——提示研究者需要关注训练数据中的隐性信号，而不仅仅是显式内容。",
+      "summary_en": "Anthropic co-authored a Nature paper showing LLMs can transmit hidden preferences and misalignment through unrelated training data. LLMs learned traits from meaningless number sequences, suggesting alignment researchers must look beyond explicit content to hidden training signals.",
+      "one_liner": "LLM 可通过无关数据「学会」隐藏偏好，AI 对齐研究新方向",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2b5dc864",
+      "title": "MiniMax M2.7 权重开源：超越 GPT-4 的 Coding 能力",
+      "url": "https://x.com/MiniMax_AI/status/2043132047397659000",
+      "source": {
+        "platform": "x",
+        "author": "@MiniMax_AI",
+        "original_date": "2026-04-12"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "open-source",
+        "coding",
+        "minimax",
+        "llm"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "MiniMax 宣布 M2.7 权重正式开源，在 SWE-Bench-Original 上达到 56.22%，Terminal Bench 2 达 57.0%，刷新开源 Coding 模型纪录。模型已上线 Hugging Face，配合 MiniMax API 使用。注意 License 禁止未授权商业使用，不算完全 OSI 认证的开源，但对研究者和小团队而言是低成本复现和微调的强选项。",
+      "summary_en": "MiniMax open-sourced M2.7 weights achieving 56.22% on SWE-Bench-Original and 57.0% on Terminal Bench 2, a new record for open-source coding models. Available on Hugging Face with MiniMax API, though the license restricts commercial use without authorization.",
+      "one_liner": "开源 Coding 模型新纪录，56.22% SWE-Pro 仅次顶级闭源",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "total_content_files": 461
+  "total_content_files": 471
 }

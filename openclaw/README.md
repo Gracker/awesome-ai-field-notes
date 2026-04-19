@@ -1,19 +1,19 @@
 # AI Field Notes
 
-> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。648 条，中英双语。
+> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。658 条，中英双语。
 
 ## 🆕 今日推荐 Top 10
 
 - [2026 AI First 系列（四）：connecting the dots——你的独特人生路径](https://youmind.com/s/pG5sMT6W7UIdIe) ⭐3 · 2026-04-18 — 在AI时代规划人生，核心是让AI成为connecting dots的放大器，而非被它替代
 - [Allie Miller推出免费5天课程：从AI用户进化为AI建造者](https://x.com/alliekmiller/status/1985834763677286606) ⭐3 · 2026-04-18 — 「用AI」和「用AI建造」之间隔着一个认知跃迁，Fast Track课程填补了实操教育的空白
+- [AI 影响力日报 · 2026-04-18](https://x.com/grackerai/status/ai-daily-2026-04-18) ⭐3 · 2026-04-18 — 每日 AI 内容精选，Karpathy 的 Wiki LLM 概念和 Nature 的潜意识对齐论文是当日最大亮点。
 - [做AI产品两年，我得出的实操经验](https://mp.weixin.qq.com/s/HsFhXMLejsQWjTghUYdKFA) ⭐4 · 2026-04-18 — AI产品的难点不在于技术而在于不确定性管理，提示词工程是产品特性而非辅助工具
 - [2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期](https://youmind.com/s/hPiqSBPU4tVa7o) ⭐4 · 2026-04-18 — Level 3的AI用户和Level 1之间的差距是认知和行动力，而不仅仅是工具使用
 - [Google推出企业版Android Studio Gemini：隐私保护的企业级AI编程辅助](#) ⭐4 · 2026-04-18 — 企业级AI编程工具的竞争已从能力比拼转向数据安全与合规能力的比拼
 - [Gemini Agentic Vision：LLM自己写代码，完成复杂视觉推理任务](https://x.com/realmadhuguru/status/2016267285342847137) ⭐4 · 2026-04-18 — Gemini Agentic Vision标志视觉推理从固定流程向LLM自主规划的重要范式转变
 - [The Business Models That Will Dominate 2027 (That Don&#x27;t Exist Yet)](#) ⭐4 · 2026-04-18 — AI正在催生「零员工、百万营收」的新商业物种，2026年是入场窗口期
 - [AI的负面（2）：你的知识在贬值，但房贷不会贬值](#) ⭐4 · 2026-04-18 — AI对普通人最致命的威胁不是失业，而是让你的收入配不上你的刚性负债
-- [Claude Code 最强配置单: 12个 GitHub 项目推荐](https://x.com/wsl8297/status/2044582054780895599) ⭐3 · 2026-04-17 — 
-- [AI开发工具链完整方案推荐](https://x.com/RookieRicardoR/status/2044630408894271549) ⭐3 · 2026-04-17 — 
+- [两小时激辩：黄仁勋为什么不怕 TPU、不怕华为、不怕出口管制？](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494627&idx=1&sn=1e8e69291f038d1faaa87233d3f26b48) ⭐4 · 2026-04-18 — 目前关于 Nvidia AI 战略最系统、最原声的专访，核心论点——AI 芯片不是武器、CUDA 是生态不是锁定——值得反复研读。
 
 ## 分类导航
 
