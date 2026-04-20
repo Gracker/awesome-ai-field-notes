@@ -1,9 +1,9 @@
 {
-  "total_entries": 647,
-  "active_entries": 603,
+  "total_entries": 654,
+  "active_entries": 610,
   "archived_entries": 44,
-  "this_week_added": 41,
-  "entries_with_content": 0,
+  "this_week_added": 48,
+  "entries_with_content": 2,
   "category_distribution": {
     "coding": 164,
     "learning": 115,
@@ -12,12 +12,12 @@
     "infra": 60,
     "industry": 53,
     "uncategorized": 19,
-    "ai-tools": 5,
+    "ai-tools": 9,
     "strategy/ai-career": 4,
+    "workflow": 4,
     "coding-ai/claude-code": 3,
     "coding-agents/claude-code": 2,
     "agent-frameworks/harness-engineering": 2,
-    "workflow": 2,
     "strategy/ai-product": 1,
     "infrastructure/dev-tools": 1,
     "models/multimodal": 1,
@@ -36,7 +36,8 @@
     "ai-hardware/chip-architecture": 1,
     "industry/hardware-chips": 1,
     "industry/strategy": 1,
-    "learning/daily-digest": 1
+    "learning/daily-digest": 1,
+    "prompt": 1
   },
   "source_type_distribution": {
     "article": 439,
@@ -44,8 +45,9 @@
     "paper": 35,
     "github": 14,
     "newsletter": 9,
+    "tweet": 7,
     "video": 3,
     "product": 1
   },
-  "last_updated": "2026-04-20 02:32"
+  "last_updated": "2026-04-21 01:02"
 }

@@ -239,7 +239,8 @@
       "added_date": "2026-04-18",
       "updated_date": "2026-04-19",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_path": "content/7bf35471.md"
     },
     {
       "id": "50fecf1d",
@@ -573,7 +574,8 @@
       "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_path": "content/4409adc4.md"
     },
     {
       "id": "354d4da8",
@@ -676,7 +678,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_path": "content/tIs9VugG.md"
     },
     {
       "id": "keqFU4_v",
@@ -22803,7 +22806,226 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "9a6b89b2",
+      "title": "超越 ChatGPT 复制粘贴：用 AI Fast Track 学会构建个人 AI 工具",
+      "url": "https://x.com/alliekmiller/status/1985834763677286606",
+      "source": {
+        "platform": "x",
+        "author": "@alliekmiller",
+        "original_date": "2025-11-05"
+      },
+      "category": "prompt",
+      "tags": [
+        "ai-tools",
+        "course",
+        "beginner"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Allie K. Miller 推出免费 5 天邮件课程，核心主张是「用 AI」与「用 AI 构建」有本质区别——仅靠复制粘贴 Prompt 上限很低。课程无需编程基础，教授如何用 Claude 扩展 AI 能力边界，搭建个人自动化工作流。适合想从消费者转型为创造者的初学者。附完整课程链接。",
+      "summary_en": "A free 5-day email course by Allie K. Miller that distinguishes using AI from building with it. Teaches non-coders to use Claude for creating personal automations and tools beyond simple ChatGPT prompts.",
+      "one_liner": "免费 5 天课程，教你从 AI 消费者升级为 AI 构建者",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e06b31bc",
+      "title": "16 分钟精通 Claude Design：视频/幻灯片/网站/应用/设计系统全搞定",
+      "url": "https://x.com/petergyang/status/2045522933943238934",
+      "source": {
+        "platform": "x",
+        "author": "@petergyang",
+        "original_date": "2026-04-18"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "claude",
+        "design",
+        "tutorial",
+        "video"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Peter Yang 发布 Claude Design 实战教程，16 分钟演示如何用 AI 设计工具创建视频、幻灯片、网站、应用乃至完整设计系统。教程配 live demo，展示了从零到完整项目的完整工作流。Claude Design 上手快、功能覆盖广，能大幅提升创意执行效率。附 YouTube 教程链接和实际演示网站。",
+      "summary_en": "Peter Yang's 16-minute live demo tutorial showing how to create videos, slides, websites, apps, and a design system using Claude Design, covering the full workflow from idea to implementation.",
+      "one_liner": "16 分钟视频教程，用 Claude Design 搞定设计全流程",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e8180cd9",
+      "title": "用 Codex 自然语言构建 Web 应用和游戏：Greg Brockman 展示新范式",
+      "url": "https://x.com/gdb/status/2045594591584530826",
+      "source": {
+        "platform": "x",
+        "author": "@gdb",
+        "original_date": "2026-04-19"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "openai",
+        "codex",
+        "webapp",
+        "game",
+        "nlp"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Greg Brockman 展示用 OpenAI Codex 完全通过自然语言构建 Web 应用和游戏的新方式。Nicolas Zullo 的实操演示中，游戏内置于 Codex，可使用 Codex 生成的工具进行建筑设计，并支持直接用自然语言提问修改代码。展示了 AI 编程助手从辅助工具向独立开发环境演进的趋势。",
+      "summary_en": "Greg Brockman highlights building webapps and games entirely with natural language using Codex, showcasing a shift from AI-assisted coding to an AI-native development environment.",
+      "one_liner": "Codex 用自然语言开发游戏和 Web 应用，开发范式新变革",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "89554ad8",
+      "title": "Gemini 3.1 Flash TTS 上线：脚本转工作室级配音，已进入 Google Vids 预览",
+      "url": "https://x.com/GoogleAI/status/2044447638511383024",
+      "source": {
+        "platform": "x",
+        "author": "@GoogleAI",
+        "original_date": "2026-04-16"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "google",
+        "gemini",
+        "tts",
+        "speech",
+        "video"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Google AI 推出 Gemini 3.1 Flash TTS（文本转语音）功能，主打表达性强的下一代 AI 语音合成。目前已在 Google Vids 中集成，同时通过 Gemini API 和 Google AI Studio 提供预览。适用于制作演示文稿、配音旁白、个人项目视频制作等场景，可将文字脚本直接转为专业级语音。",
+      "summary_en": "Gemini 3.1 Flash TTS brings expressive AI speech synthesis to Google Vids and the Gemini API, suitable for narrating presentations, videos, and passion projects from text scripts.",
+      "one_liner": "Gemini 3.1 Flash TTS 将脚本变工作室级配音，已进 Google Vids",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e4ab7164",
+      "title": "Farzapedia：用 LLM 把日记+笔记+iMessage 变成个人 Wikipedia（400 篇百科）",
+      "url": "https://x.com/karpathy/status/2040572272944324650",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-04-05"
+      },
+      "category": "workflow",
+      "tags": [
+        "llm",
+        "personalization",
+        "knowledge-management",
+        "diy"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Andrej Karpathy 转发并点评 Farzapedia 项目——用 LLM 将个人日记、Apple Notes 和 iMessage 对话（共 2500 条记录）转化为个人 Wikipedia，生成了 400 篇涵盖朋友、创业项目、研究领域、动漫爱好等维度的结构化文章。方法论上采用显式记忆 artifact（Wiki）而非依赖模型隐式记忆，为个性化 AI 知识管理提供了新思路。",
+      "summary_en": "Farzapedia transforms 2,500 diary entries, Apple Notes, and iMessages into a 400-article personal Wikipedia using an LLM, offering a new paradigm for explicit personal knowledge management.",
+      "one_liner": "LLM 把个人日记笔记变 400 篇百科，个性化知识管理新范式",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8c02b24d",
+      "title": "MiniMax M2.7 开源：SWE-Bench 56.22% / Terminal Bench 57.0%，权重已上线 Hugging Face",
+      "url": "https://x.com/MiniMax_AI/status/2043132047397659000",
+      "source": {
+        "platform": "x",
+        "author": "@MiniMax_AI",
+        "original_date": "2026-04-12"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "minimax",
+        "open-source",
+        "model",
+        "swe-bench"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "MiniMax 发布 M2.7 模型，权重已在 Hugging Face 开源，在 SWE-Bench（软件工程评测）上达 56.22%，Terminal Bench 达 57.0%，为同参数量中的领先水平。但需注意该模型采用特殊许可证，禁止商业无授权使用，不符合 OSI 开源定义。对于研究目的可直接使用，商业落地需申请授权。",
+      "summary_en": "MiniMax M2.7 model weights are now on Hugging Face with strong benchmark scores (56.22% SWE-Bench, 57.0% Terminal Bench), though the license restricts commercial use without authorization.",
+      "one_liner": "MiniMax M2.7 开源权重登 Hugging Face，强 benchmark 但商用法务注意",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ca26b47f",
+      "title": "Kimi × Nous Research Hermes Agent 创意黑客松：16 天 $25k 奖金，探索 Agent 创造力边界",
+      "url": "https://x.com/Kimi_Moonshot/status/2045342163534528723",
+      "source": {
+        "platform": "x",
+        "author": "@Kimi_Moonshot",
+        "original_date": "2026-04-18"
+      },
+      "category": "workflow",
+      "tags": [
+        "hackathon",
+        "agent",
+        "hermes",
+        "kimi",
+        "creativity"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Kimi 与 Nous Research 联合推出 Hermes Agent 创意黑客松，为期 16 天，奖金池 $25,000。招募将 Hermes Agent 应用于创意领域（视频/图像/音频/3D/长文本/互动媒体）的探索者。展示了业界对 AI Agent 从工具向创意伙伴演进的期待，也为独立开发者提供了将 AI Agent 落地的新方向参考。",
+      "summary_en": "Kimi and Nous Research co-launch a 16-day creative hackathon with $25k prizes for pushing Hermes Agent into creative domains: video, image, audio, 3D, long-form writing, and interactive media.",
+      "one_liner": "Kimi × Nous $25k 黑客松，探索 AI Agent 创意落地新方向",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "total_content_files": 471
+  "total_content_files": 474
 }

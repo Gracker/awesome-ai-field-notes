@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI Field Notes
   text: AI 领域精选资源导航
-  tagline: 有观点 · 有评分 · 每日自动更新 · 647 条 · 0 篇有全文
+  tagline: 有观点 · 有评分 · 每日自动更新 · 654 条 · 2 篇有全文
   actions:
     - theme: brand
       text: 浏览全部
@@ -35,6 +35,15 @@ features:
 ---
 
 ## 🆕 最新 10 篇
+
+### [用 Codex 自然语言构建 Web 应用和游戏：Greg Brockman 展示新范式](https://x.com/gdb/status/2045594591584530826)
+@@gdb · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-19
+
+Greg Brockman 展示用 OpenAI Codex 完全通过自然语言构建 Web 应用和游戏的新方式。Nicolas Zullo 的实操演示中，游戏内置于 Codex，可使用 Codex 生成的工具进行建筑设计，并支持直接用自然语言提问修改代码。展示了 AI 编程助手从辅助工具向独立开发环境演进的趋势。
+
+`openai` `codex` `webapp` `game` `nlp`
+
+---
 
 ### [2026 AI First 系列（四）：connecting the dots——你的独特人生路径](https://youmind.com/s/pG5sMT6W7UIdIe)
 @wquguru · ⭐⭐⭐3 🇨🇳 · 2026-04-18
@@ -114,14 +123,5 @@ Gemini新增视觉Agent能力：模型可将数据表格转化为高质量图表
 月费200元的AI智能体已能替代大部分白领工作，智力溢价这一维持几千年的「潜规则」正在被打破。更致命的不是失业，而是收入配不上负债——白领降薪/裁员后涌入蓝领市场，形成向下挤压的连锁反应。个人应对策略：停止基于「脑子永远值钱」的长期负债；不跟AI拼干活而拼判断；用AI实战找到不可替代位置；保护底线资产。
 
 `ai-impact` `knowledge-devaluation` `economic-risk` `knowledge-work` `debt`
-
----
-
-### [两小时激辩：黄仁勋为什么不怕 TPU、不怕华为、不怕出口管制？](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494627&idx=1&sn=1e8e69291f038d1faaa87233d3f26b48)
-⭐⭐⭐⭐4 🇨🇳 · 2026-04-18
-
-黄仁勋接受 Dwarkesh Patel 两小时专访，系统阐述 Nvidia 的经营哲学与 AI 基础设施战略。核心观点：Nvidia 的护城河不是技术锁定，而是全球数亿 GPU 装机量与跨云平台的生态优势；Anthropic 使用 TPU 是早年 Nvidia 资金不足导致的「特例」而非趋势；出口管制会加速中国芯片自主化，美国将丢失全球第二大科技市场；收购 Groq 源于推理市场进入「分层定价」时代。全文数据密集，涵盖 CUDA 生态、供应链布局、Blackwell 架构 50 倍能效提升、对华政策博弈等关键议题。
-
-`Nvidia` `黄仁勋` `CUDA` `TPU` `出口管制`
 
 ---
