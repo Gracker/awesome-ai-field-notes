@@ -1,8 +1,8 @@
 {
-  "total_entries": 654,
-  "active_entries": 610,
+  "total_entries": 665,
+  "active_entries": 621,
   "archived_entries": 44,
-  "this_week_added": 48,
+  "this_week_added": 51,
   "entries_with_content": 2,
   "category_distribution": {
     "coding": 164,
@@ -12,9 +12,9 @@
     "infra": 60,
     "industry": 53,
     "uncategorized": 19,
-    "ai-tools": 9,
+    "ai-tools": 16,
+    "workflow": 8,
     "strategy/ai-career": 4,
-    "workflow": 4,
     "coding-ai/claude-code": 3,
     "coding-agents/claude-code": 2,
     "agent-frameworks/harness-engineering": 2,
@@ -43,11 +43,11 @@
     "article": 439,
     "x_post": 146,
     "paper": 35,
+    "tweet": 18,
     "github": 14,
     "newsletter": 9,
-    "tweet": 7,
     "video": 3,
     "product": 1
   },
-  "last_updated": "2026-04-21 01:02"
+  "last_updated": "2026-04-23 00:53"
 }

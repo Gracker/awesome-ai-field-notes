@@ -1,5 +1,166 @@
 [
   {
+    "id": "a2ui-gen-ui-2026-001",
+    "title": "A2UI v0.9: The New Standard for Portable, Framework-Agnostic Generative UI",
+    "url": "https://developers.googleblog.com/a2ui-v0-9-generative-ui/",
+    "source": {
+      "platform": "google",
+      "author": "Google AI Team",
+      "original_date": "2026-04-17"
+    },
+    "category": "agents/frameworks",
+    "tags": [
+      "a2ui",
+      "generative-ui",
+      "framework-agnostic",
+      "portable",
+      "ui-integration"
+    ],
+    "source_type": "article",
+    "language": "en",
+    "summary_zh": "Google 发布 A2UI v0.9，这是一个框架无关的生成式 UI 标准，允许 AI 智能体使用通用语言与任何客户端应用程序通信，确保智能体能够使用现有的组件目录在任何设备上生成 UI。该版本引入了共享的 Web 核心库、Agent SDK、简化的传输协议，并支持 React、Flutter、Angular 等多种渲染器，标志着生成式 UI 从实验演示向生产级数字产品的重要转变。",
+    "summary_en": "Google releases A2UI v0.9, a framework-agnostic standard for generative UI that allows AI agents to communicate with any client application using a common language, ensuring agents can generate UI using existing component catalogs on any device. The release introduces a shared web-core library, Agent SDK, simplified transports, and support for multiple renderers like React, Flutter, and Angular, marking a significant shift from experimental demos to production-ready digital products.",
+    "one_liner": "A2UI 正在成为生成式 UI 的标准接口，解决智能体与客户端通信的互操作性问题",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": null,
+    "images": [],
+    "added_date": "2026-04-21",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "gemini-cli-pro-tips-2026-002",
+    "title": "5 things to try with Gemini 3 Pro in Gemini CLI",
+    "url": "https://developers.googleblog.com/5-things-to-try-with-gemini-3-pro-in-gemini-cli/",
+    "source": {
+      "platform": "google",
+      "author": "Google AI Team",
+      "original_date": "2025-11-18"
+    },
+    "category": "coding/cli",
+    "tags": [
+      "gemini-3-pro",
+      "cli",
+      "agentic-coding",
+      "productivity",
+      "development-tools"
+    ],
+    "source_type": "article",
+    "language": "en",
+    "summary_zh": "Google 详细介绍了在 Gemini CLI 中使用 Gemini 3 Pro 的五个实用场景，包括：1) 在终端中构建具有 3D 图形的可部署应用；2) 将视觉草图转化为功能性代码；3) 使用自然语言生成复杂的 shell 命令；4) 从代码生成准确的文档；5) 调试实时 Cloud Run 服务的性能问题。这些功能展示了 Gemini 3 Pro 在高级推理、代理编码和工具使用方面的强大能力，为开发者提供了显著的生产力提升。",
+    "summary_en": "Google details five practical scenarios for using Gemini 3 Pro in Gemini CLI: 1) Building deployable apps with 3D graphics in terminal; 2) Converting visual sketches into functional code; 3) Generating complex shell commands with natural language; 4) Generating accurate documentation from code; 5) Debugging performance issues in live Cloud Run services. These features showcase Gemini 3 Pro's advanced reasoning, agentic coding, and tool use capabilities, providing significant productivity improvements for developers.",
+    "one_liner": "Gemini 3 Pro 在 CLI 中实现了从创意编码到基础设施调试的全栈开发能力",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": null,
+    "images": [],
+    "added_date": "2026-04-21",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "litert-universal-framework-2026-003",
+    "title": "LiteRT: The Universal Framework for On-Device AI",
+    "url": "https://developers.googleblog.com/litert-the-universal-framework-for-on-device-ai/",
+    "source": {
+      "platform": "google",
+      "author": "Google AI Team",
+      "original_date": "2026-01-28"
+    },
+    "category": "infra/edge-computing",
+    "tags": [
+      "litert",
+      "on-device-ai",
+      "edge-computing",
+      "mobile-ai",
+      "performance-optimization"
+    ],
+    "source_type": "article",
+    "language": "en",
+    "summary_zh": "Google 将 TensorFlow Lite 演进为 LiteRT，成为 AI 时代的通用设备端推理框架。相比 TFLite，LiteRT 提供 1.4 倍更快的 GPU 性能、新的 NPU 加速、统一的跨平台工作流，以及对 PyTorch/JAX 的原生支持。该框架支持 Gemma、Qwen、Phi 等流行开源模型，为开发者提供了从研究到生产的完整部署路径，标志着移动端 AI 推理性能的重大飞跃。",
+    "summary_en": "Google evolves TensorFlow Lite into LiteRT, the universal on-device inference framework for the AI era. Compared to TFLite, LiteRT delivers 1.4x faster GPU performance, new NPU acceleration, unified cross-platform workflows, and native PyTorch/JAX support. The framework supports popular open models like Gemma, Qwen, and Phi, providing a complete deployment path from research to production, marking a significant leap in mobile AI inference performance.",
+    "one_liner": "LiteRT 正在重新定义设备端 AI 推理的性能和便携性标准",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": null,
+    "images": [],
+    "added_date": "2026-04-21",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "claude-managed-agents-2026-004",
+    "title": "Claude Managed Agents: Anthropic's New AI Agent Service",
+    "url": "https://claude.com",
+    "source": {
+      "platform": "anthropic",
+      "author": "Anthropic Team",
+      "original_date": "2026-04-01"
+    },
+    "category": "agent-platforms/managed-agents",
+    "tags": [
+      "claude-managed-agents",
+      "agent-platform",
+      "infrastructure-as-service",
+      "enterprise-ai",
+      "vendor-lock-in"
+    ],
+    "source_type": "article",
+    "language": "en",
+    "summary_zh": "Anthropic 在 2026 年 4 月推出 Claude Managed Agents 公开测试版，这是一个完全托管的 AI 智能体运行环境，旨在简化企业级自主智能体的部署。该服务抽象了复杂的基础设施工作，包括沙盒代码执行、检查点、凭据管理和编排逻辑，使用户能够在数天而非数月内部署智能体。服务支持自然语言或 YAML 文件定义智能体任务、工具和安全边界，为每个会话提供安全容器、长时运行会话和内置工具执行功能。",
+    "summary_en": "Anthropic launched Claude Managed Agents public beta in April 2026, a fully managed runtime environment for streamlining enterprise-grade autonomous AI agent deployment. The service abstracts complex infrastructure work including sandboxed code execution, checkpointing, credential management, and orchestration logic, allowing customers to deploy agents in days rather than months. It supports defining agents, tasks, tools, and guardrails using natural language or YAML files, with secure containers per session, long-running sessions, and built-in tool execution.",
+    "one_liner": "Anthropic 的 Claude Managed Agents 正在将企业级 AI 智能体部署从工程挑战转变为服务化解决方案",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": null,
+    "images": [],
+    "added_date": "2026-04-21",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "mcp-roadmap-2026-005",
+    "title": "Model Context Protocol (MCP) 2026 Roadmap: Production and Enterprise Readiness",
+    "url": "https://modelcontextprotocol.io",
+    "source": {
+      "platform": "industry",
+      "author": "MCP Development Team",
+      "original_date": "2026-04-20"
+    },
+    "category": "agents/frameworks",
+    "tags": [
+      "mcp",
+      "protocol",
+      "production-readiness",
+      "enterprise",
+      "interoperability",
+      "roadmap"
+    ],
+    "source_type": "article",
+    "language": "en",
+    "summary_zh": "MCP 2026 年路线图聚焦四个优先领域：传输演化和可扩展性（无状态可流式 HTTP、可扩展会话处理、服务器卡片标准）、智能体通信（增强的任务原语、智能体编排和分层系统、异步操作）、治理成熟度（正式的贡献者阶梯和委托模式）以及企业就绪性（审计跟踪、SSO 集成授权、安全授权征询、人工参与工作流）。这些更新将 MCP 从基础协议发展为支持复杂企业级 AI 系统的生产级标准。",
+    "summary_en": "The MCP 2026 roadmap focuses on four priority areas: transport evolution and scalability (stateless streamable HTTP, scalable session handling, server cards), agent communication (enhanced tasks primitive, agent orchestration and hierarchical systems, asynchronous operations), governance maturation (formal contributor ladder and delegation model), and enterprise readiness (audit trails, SSO-integrated authorization, secure authorization elicitation, human-in-the-loop workflows). These updates evolve MCP from a basic protocol to a production-grade standard supporting complex enterprise AI systems.",
+    "one_liner": "MCP 2026 路线图标志着协议从基础互操作向企业级生产标准的成熟转变",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": null,
+    "images": [],
+    "added_date": "2026-04-21",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
     "id": "8W8a2b3c",
     "title": "Project Glasswing: Securing critical software for the AI era",
     "url": "https://red.anthropic.com/blog/project-glasswing",
@@ -2664,6 +2825,759 @@
     "local_path": "content/l5c1k8rv.md",
     "images": [],
     "added_date": "2026-04-20",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "15LCvOkT",
+    "title": "OWL: CAMEL-AI 多智能体协作框架，GAIA 基准开源第一",
+    "url": "https://github.com/camel-ai/owl",
+    "source": {
+      "platform": "github",
+      "author": "CAMEL-AI.org",
+      "original_date": "2025-03-07"
+    },
+    "category": "agent-frameworks/orchestration",
+    "tags": [
+      "multi-agent",
+      "camel-ai",
+      "OWL",
+      "GAIA-benchmark",
+      "agentic-automation",
+      "MCP",
+      "Python"
+    ],
+    "source_type": "github",
+    "language": "zh",
+    "summary_zh": "OWL（Optimized Workforce Learning）是 CAMEL-AI 推出的前沿多智能体协作框架，在 GAIA 基准测试中取得 58.18 平均分，开源框架排名第一。框架支持多种 LLM 后端，提供丰富的工具包（浏览器自动化、文件解析、代码执行、多模态处理等），并内置 MCP 协议集成，可通过 Society of Agents 模式协作完成复杂任务。提供 Docker 一键部署和完整 Web 界面，适合构建生产级多智能体系统。",
+    "summary_en": null,
+    "one_liner": "当前开源多智能体框架中 GAIA 基准最强选手，工具链最完整的 Agent 协作方案之一",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "Cubox/owl-README_zh.md at main · camel-ai-owl-2026-04-09.md",
+    "images": [
+      "https://github.com/camel-ai/owl/blob/main/assets/owl_architecture.png"
+    ],
+    "added_date": "2026-04-21",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "6Dcgk63X",
+    "title": "夜天之书 #119：Agentic Coding 的边界",
+    "url": "https://mp.weixin.qq.com/s/x_FUUG4wBUqYs1H5DUtpgQ",
+    "source": {
+      "platform": "x_post",
+      "author": "tison（夜天之书）",
+      "original_date": "2026-04-20"
+    },
+    "category": "ai-coding/coding-agent-analysis",
+    "tags": [
+      "agentic-coding",
+      "LLM-coding",
+      "software-engineering",
+      "AI-limits",
+      "review",
+      "productivity"
+    ],
+    "source_type": "article",
+    "language": "zh",
+    "summary_zh": "本文结合作者 Agentic Coding 实践，深入分析 LLM Coding Agent 的核心局限：LLM 擅长生成「疑似正确」的方案，但到「经得起考验的产品」之间存在 AI 无法覆盖的鸿沟。文章指出代码质量缺少可量化回归指标（不像围棋有明确「赢」的目标），Review 带宽成为实际瓶颈；隐性知识（业务判断、领域专知）需要真人持续提供；并提出实用方法论——人负责核心设计和框架把控，AI 负责探索和生成 stub，是目前高质量软件生产的提效上限。",
+    "summary_en": null,
+    "one_liner": "深刻揭示 Agentic Coding 的本质瓶颈：没有量化回归指标，Review 带宽才是真实瓶颈",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "Cubox/夜天之书 #119 Agentic Coding 的边界-2026-04-20.md",
+    "images": [],
+    "added_date": "2026-04-21",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "ESvP2xQL",
+    "title": "深度解析 Claude Code 在 Prompt / Context / Harness 的设计与实践",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559627&idx=1&sn=7847089f5135e5060953f013fa56fd4f",
+    "source": {
+      "platform": "x_post",
+      "author": "阿里妹",
+      "original_date": "2026-04-20"
+    },
+    "category": "ai-coding/coding-agent-analysis",
+    "tags": [
+      "Claude-Code",
+      "Harness-Engineering",
+      "Prompt-Engineering",
+      "Context-Engineering",
+      "Agent",
+      "Anthropic"
+    ],
+    "source_type": "article",
+    "language": "zh",
+    "summary_zh": "本文从 Prompt/Context/Harness 三个维度系统解析 Claude Code 的内部设计。Prompt Engineering：System Prompt 静态+动态分块组装，6优先级决策，KV Cache 优化。Context Engineering：三层渐进压缩体系（MicroCompact→Session Memory Compact→Full LLM Compact），Memdir 四类结构化记忆系统。Harness Engineering：六大内置 Agent（General/Explore/Plan/Verification/Guide/Statusline），Permission Engine 三行为模型，bubblewrap 沙箱隔离，异步生成器主循环，以及反蒸馏、Buddy System 等趣味彩蛋。",
+    "summary_en": null,
+    "one_liner": "目前最详尽的 Claude Code 内部设计解析，三维度工程化思路可直接复用",
+    "one_liner_author": "openclaw",
+    "quality_score": 5,
+    "status": "active",
+    "local_path": "Cubox/深度解析 Claude Code 在 Prompt - Context - Harness 的设计与实践-2026-04-20.md",
+    "images": [],
+    "added_date": "2026-04-21",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "juM9urZ-",
+    "title": "langchain-ai/agents-from-scratch: 从零构建 Human-in-the-Loop Email Agent",
+    "url": "https://github.com/langchain-ai/agents-from-scratch",
+    "source": {
+      "platform": "github",
+      "author": "langchain-ai",
+      "original_date": null
+    },
+    "category": "agent-frameworks/implementation",
+    "tags": [
+      "LangChain",
+      "LangGraph",
+      "agent",
+      "human-in-the-loop",
+      "email",
+      "memory",
+      "tutorial",
+      "Python"
+    ],
+    "source_type": "github",
+    "language": "zh",
+    "summary_zh": "LangChain 官方推出的「从零构建 Agent」实战指南，以构建 Gmail 接入的邮件助手为最终目标。分为 4 个递进章节：Agent 基础（LangGraph 实现邮件分类+处理）、Agent 评估（pytest + LangSmith Evaluate API）、Human-in-the-Loop（Agent Inbox 界面审查工具调用）、Memory（LangGraph Store 持久化记忆）。每章配有 Jupyter Notebook 和完整源代码，是学习 LangGraph 和生产级 Agent 开发范式的最佳实践教程。",
+    "summary_en": null,
+    "one_liner": "LangChain 官方最佳实践教程，完整展示从基础 Agent 到 HITL + Memory 生产级系统的路径",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "Cubox/langchain-ai-agents-from-scratch- Build an email assistant with human-in-the-loop and memory-2026-04.md",
+    "images": [],
+    "added_date": "2026-04-21",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "bmSAiVNC",
+    "title": "6.AI时代的变与不变 · Kyte · 墨问",
+    "url": "https://note.mowen.cn/detail/8PXAgxTHuHoNUbkQGm4ZU",
+    "source": {
+      "platform": "x_post",
+      "author": "Kyte（墨问）",
+      "original_date": "2026-04-20"
+    },
+    "category": "ai-thinking/philosophy",
+    "tags": [
+      "AI-era",
+      "language-ability",
+      "human-AI-collaboration",
+      "value-function",
+      "programming",
+      "knowledge-management"
+    ],
+    "source_type": "article",
+    "language": "zh",
+    "summary_zh": "作者结合近期的 AI 工具实践，探讨 AI 时代的变与不变。核心观点：语言能力是底层能力，代表积累个人数据和调度外部智能的能力；AI 改变工作价值函数，信息检索和知识储备变成基建而非竞争优势；与 AI 合作完成一件事的能力（剥离重复执行、积累判断力）是新稀缺品质；编程学习范式转向边做边学。文章引用了 OpenAI 姚顺雨关于 Agent 研究的访谈，以及 Andrej Karpathy 等人对 AI 能力边界的判断。",
+    "summary_en": null,
+    "one_liner": "AI 时代价值函数重塑的清醒分析：语言能力是底层基建，判断力才是新稀缺品",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "Cubox/6.AI时代的变与不变 · Kyte · 墨问-2026-04-20.md",
+    "images": [],
+    "added_date": "2026-04-21",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "7c704ac8",
+    "title": "完美~ 让 AI 生成的专业文档也能排版得好看",
+    "url": "https://x.com/QingQ77/status/2046589577578848286",
+    "source": {
+      "platform": "x",
+      "author": "QingQ77",
+      "original_date": "2026-04-21"
+    },
+    "category": "tools/productivity",
+    "tags": [
+      "AI-coding",
+      "文档排版",
+      "Claude-Code",
+      "Kami"
+    ],
+    "source_type": "x_post",
+    "language": "zh",
+    "summary_zh": "Kami 是一个文档排版系统，用日文「纸」命名。核心是温暖的羊皮纸底色加墨蓝色点缀，中文用楷体和思源黑体，英文用 Newsreader 和 Inter。这套系统支持六种文档格式，每种都有中文和英文两个版本，还内置了三种 SVG 图表。接入 Claude Code、Codex 等 AI 编码助手后，直接用自然语言描述需求就能生成一份排版完整的专业文档。字体大小、行高、字重等细节都有严格规定，保证不同文档风格一致。",
+    "summary_en": null,
+    "one_liner": "目前最实用的 AI 文档排版方案，字体搭配考究",
+    "one_liner_author": "openclaw",
+    "quality_score": 3,
+    "status": "active",
+    "local_path": "X 文章/X-收藏文章归档-2026-04-22-v2.md",
+    "images": [
+      "https://pbs.twimg.com/media/HGZ6gaHbYAAUBD5.jpg"
+    ],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "0ec85a20",
+    "title": "发现意图：AI 时代的用户体验设计",
+    "url": "https://x.com/nash_su/status/2046460848928157821",
+    "source": {
+      "platform": "x",
+      "author": "nash_su",
+      "original_date": "2026-04-21"
+    },
+    "category": "research/ux",
+    "tags": [
+      "AI",
+      "UX",
+      "intent",
+      "Jakob-Nielsen",
+      "交互范式"
+    ],
+    "source_type": "x_post",
+    "language": "zh",
+    "summary_zh": "本文来自 Jakob Nielsen（尼尔森诺曼集团创始人）的深度长文，提出 Intent by Discovery 作为 AI 时代 UX 核心范式。AI 将用户角色从操作员变为监督员，UX 从命令式交互转向意图委托式交互，是 60 年来第一次重大 UI 范式转变。核心架构分三层：Intent Surface（意图层）、Orchestration Surface（编排层，核心战场）、Direct Manipulation Surface（直接操控层，降级为 fallback）。文章还讨论了表述壁垒、认知摩擦、慢任务设计等关键挑战。",
+    "summary_en": null,
+    "one_liner": "UX 领域泰斗提出的 AI 时代交互范式转变框架，三层架构设计极具参考价值",
+    "one_liner_author": "openclaw",
+    "quality_score": 5,
+    "status": "active",
+    "local_path": "X 文章/X-收藏文章归档-2026-04-22-v2.md",
+    "images": [
+      "https://pbs.twimg.com/media/HGZ7erMb0AAhzG7.jpg",
+      "https://pbs.twimg.com/media/HGZ8j9xbQAAf-ps.jpg",
+      "https://pbs.twimg.com/media/HGZ8wNla4AAABb_.jpg",
+      "https://pbs.twimg.com/media/HGZ8psrbIAARngN.jpg",
+      "https://pbs.twimg.com/media/HGZ7hvSboAAXngv.jpg"
+    ],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "950874fe",
+    "title": "一个扔进项目根目录的 AGENTS.md 文件，让编程代理按高级工程师方式干活",
+    "url": "https://x.com/QingQ77/status/2046395996016419050",
+    "source": {
+      "platform": "x",
+      "author": "QingQ77",
+      "original_date": "2026-04-21"
+    },
+    "category": "agent-frameworks/harness",
+    "tags": [
+      "Claude-Code",
+      "Codex",
+      "Cursor",
+      "AGENTS.md",
+      "Harness-Engineering"
+    ],
+    "source_type": "x_post",
+    "language": "zh",
+    "summary_zh": "agents-md 是一份可直接放入项目根目录的 AGENTS.md 文件，使各类编程代理遵循高级工程师行为规范。它综合了 Karpathy 的四大编程代理失败原则和 Boris Cherny 的 Claude Code 工作流，核心改变包括：代理会在你犯错时反驳、只做最小必要修改、不擅自重构无关代码、先跑验证再报告完成、遇到歧义时主动询问。文件约 200 行，通过创建 CLAUDE.md 和 GEMINI.md 符号链接可统一管理所有代理行为。",
+    "summary_en": null,
+    "one_liner": "目前最简洁有效的 AGENTS.md 模板，让 AI Coding 代理立即变听话",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "X 文章/X-收藏文章归档-2026-04-22-v2.md",
+    "images": [],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "e03b4e98",
+    "title": "斯坦福大模型底层逻辑两小时讲座",
+    "url": "https://x.com/LuBtc888/status/2045456807133360249",
+    "source": {
+      "platform": "x",
+      "author": "LuBtc888",
+      "original_date": "2026-04-18"
+    },
+    "category": "learning/llm-fundamentals",
+    "tags": [
+      "LLM",
+      "Stanford",
+      "视频教程",
+      "大模型原理"
+    ],
+    "source_type": "x_post",
+    "language": "zh",
+    "summary_zh": "推荐斯坦福一场两小时讲座，直接把 ChatGPT、Claude 这类主流大模型底层搭建逻辑讲得明明白白。内容深度特别扎实，很多干货连 AI 圈内资深从业者平时都接触不到。",
+    "summary_en": null,
+    "one_liner": "免费高质量大模型原理视频教程，圈内人也在看",
+    "one_liner_author": "openclaw",
+    "quality_score": 3,
+    "status": "active",
+    "local_path": "X 文章/X-收藏文章归档-2026-04-22-v2.md",
+    "images": [],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "41cb0372",
+    "title": "距离 AGI，还有 3 年",
+    "url": "https://x.com/oran_ge/status/2045646078943572163",
+    "source": {
+      "platform": "x",
+      "author": "oran_ge",
+      "original_date": "2026-04-18"
+    },
+    "category": "research/agi",
+    "tags": [
+      "AGI",
+      "Ray-Kurzweil",
+      "ColaOS",
+      "奇点",
+      "AGI-OS"
+    ],
+    "source_type": "x_post",
+    "language": "zh",
+    "summary_zh": "作者阅读 Ray Kurzweil 的视频播客后整理的笔记。Ray 预测 AGI 在 2029 年到来（其预测准确率 86%），真正的 AGI 是在 1000 个领域都达到人类顶级专家水平。ColaOS 团队预测 AGI 级别操作系统会在 2030 年诞生，寿命逃逸速度临界点在 2032 年，2045 年人机融合奇点到来。文章还讨论了 Kurzweil 的预测方法论与 ColaOS 的差异化哲学。",
+    "summary_en": null,
+    "one_liner": "Ray Kurzweil 预测 AGI 2029 年，软件 OS 形态 AGI 2030 年",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "X 文章/X-收藏文章归档-2026-04-22-v2.md",
+    "images": [
+      "https://pbs.twimg.com/media/HGLoKXhb0AAQDOX.jpg",
+      "https://pbs.twimg.com/media/HGLrkRuaYAAdyvD.jpg"
+    ],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "3b9d6c58",
+    "title": "Agentic Coding 的边界",
+    "url": "https://x.com/tison1096/status/2045492574945976478",
+    "source": {
+      "platform": "x",
+      "author": "tison",
+      "original_date": "2026-04-18"
+    },
+    "category": "agent-frameworks/practices",
+    "tags": [
+      "Agentic-Coding",
+      "AI-Coding",
+      "软件工程",
+      "TDD",
+      "DRY"
+    ],
+    "source_type": "x_post",
+    "language": "zh",
+    "summary_zh": "tison 结合近期 Agentic Coding 经验，讨论这一范式在实践中的问题。核心观点：AI 能生成似是而非的方案，但实际经得起考验的产品仍有 AI 不能覆盖的鸿沟。讨论了软工实践（DRY vs YAGNI、TDD 的滥用）、软件质量缺少可量化回归指标、隐性知识需要真人提供等关键问题。作者认为 Agentic Coding 的带宽瓶颈在 Review 带宽，核心框架和设计仍需人维护。",
+    "summary_en": null,
+    "one_liner": "最有深度的 Agentic Coding 反思文章，软工视角冷静分析能力边界",
+    "one_liner_author": "openclaw",
+    "quality_score": 5,
+    "status": "active",
+    "local_path": "X 文章/X-收藏文章归档-2026-04-22-v2.md",
+    "images": [
+      "https://pbs.twimg.com/media/HGPK5jtaoAA6W1w.jpg",
+      "https://pbs.twimg.com/media/HGPLL55bEAAcb9m.jpg"
+    ],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "d53579a5",
+    "title": "Building a brand system with Claude Design",
+    "url": "https://x.com/jdsimcoe/status/2045571224177401869",
+    "source": {
+      "platform": "x",
+      "author": "Jonathan Simcoe",
+      "original_date": "2026-04-18"
+    },
+    "category": "tools/AI-design",
+    "tags": [
+      "Claude-Design",
+      "Design-System",
+      "品牌设计",
+      "Mercury"
+    ],
+    "source_type": "x_post",
+    "language": "en",
+    "summary_zh": "作者探索用 Claude Design 为 Mercury 构建品牌设计系统。通过连接 GitHub 仓库和本地营销站点，Claude Design 推断出 90% 的核心组件，并构建了 Presentation Kit 等定制套件。每项设计都内置 SKILL.md 和 README.md 用于团队共享。设计系统内的每个元素都可以通过截图、PDF 等方式微调。",
+    "summary_en": "The author explored using Claude Design to build a brand design system for Mercury. By connecting to a GitHub repo and local marketing site, Claude Design inferred 90% of core components and built a custom Presentation Kit. Every design includes SKILL.md and README.md for team sharing. Elements can be refined with screenshots and PDFs.",
+    "one_liner": "Claude Design 将设计系统变成了可 prompt 迭代的活资产",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "X 文章/X-收藏文章归档-2026-04-22-v2.md",
+    "images": [
+      "https://pbs.twimg.com/media/HGNNrEgboAA6TLk.jpg",
+      "https://pbs.twimg.com/media/HGNOOtjaIAAjuaS.jpg",
+      "https://pbs.twimg.com/media/HGNQFIQaMAAgLG_.jpg",
+      "https://pbs.twimg.com/media/HGNROYgasAAGHwe.jpg"
+    ],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "b0fc3767",
+    "title": "How Memory Works in a Multi-Agent System: Inside Multica",
+    "url": "https://x.com/mem0ai/status/2045519377655890111",
+    "source": {
+      "platform": "x",
+      "author": "mem0",
+      "original_date": "2026-04-18"
+    },
+    "category": "agent-frameworks/multi-agent",
+    "tags": [
+      "Multica",
+      "Multi-Agent",
+      "Memory",
+      "mem0",
+      "PostgreSQL",
+      "Skills"
+    ],
+    "source_type": "x_post",
+    "language": "en",
+    "summary_zh": "Multica 是一个开源多 Agent 管理平台，GitHub stars 超 15,400。文章深入解析其内存系统：六个 PostgreSQL 表构成（无向量嵌入）、workspace isolation 作为核心原语、agent_skill 通过 join 而非相似度检索。JSONB snapshot 模式在 dispatch 时组装完整上下文，运行时数据库保持冷却。局限性：无模糊召回、技能无 tag 不可见、跨 workspace 无记忆共享。",
+    "summary_en": "Multica is an open-source managed agents platform with 15,400+ GitHub stars. This deep-dive covers its memory system: six PostgreSQL tables with no vector embeddings, workspace isolation as the core primitive, and agent_skill retrieved via JOIN rather than similarity. The JSONB snapshot pattern assembles full context at dispatch, keeping the DB cold during inference. Limitations: no fuzzy recall, untagged skills invisible, no cross-workspace memory.",
+    "one_liner": "纯关系型内存胜过向量检索：Multica 证明了多 Agent 系统不需要 embeddings",
+    "one_liner_author": "openclaw",
+    "quality_score": 5,
+    "status": "active",
+    "local_path": "X 文章/X-收藏文章归档-2026-04-22-v2.md",
+    "images": [
+      "https://pbs.twimg.com/media/HGKeTDnaUAAMz7r.jpg",
+      "https://pbs.twimg.com/media/HGKRe_SakAApN-j.jpg",
+      "https://pbs.twimg.com/media/HGKRKKUb0AAQWXu.jpg",
+      "https://pbs.twimg.com/media/HGKPAicaMAALtVh.png",
+      "https://pbs.twimg.com/media/HGKaJY_aYAEeAAQ.png"
+    ],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "7a807775",
+    "title": "什么才是真正的 Harness Engineering？",
+    "url": "https://x.com/SaitoWu/status/2045458721929892345",
+    "source": {
+      "platform": "x",
+      "author": "Saito",
+      "original_date": "2026-04-18"
+    },
+    "category": "agent-frameworks/harness",
+    "tags": [
+      "Harness-Engineering",
+      "OpenAI",
+      "Ryan",
+      "Claude-Code",
+      "agents"
+    ],
+    "source_type": "x_post",
+    "language": "zh",
+    "summary_zh": "作者看完 OpenAI Ryan 在伦敦的演讲和访谈后整理。Ryan 一句话概括 Harness Engineering 核心：代码已经免费了（code is free），实施不再是瓶颈，人类真正的价值是 steering（指导）。核心观点：给 agent 完整工具和权限而非限制它；人类角色从 implementer 升级为 orchestrator；Skills + progressive disclosure 是核心武器；Review 也要 agent 化，人类只看 post-merge；让代码库本身变得 agent-friendly。",
+    "summary_en": null,
+    "one_liner": "OpenAI Ryan 把 Harness Engineering 说透了：代码免费，prompt 和 guardrails 才是王道",
+    "one_liner_author": "openclaw",
+    "quality_score": 5,
+    "status": "active",
+    "local_path": "X 文章/X-收藏文章归档-2026-04-22-v2.md",
+    "images": [
+      "https://pbs.twimg.com/media/HGLtGT-aEAA9t0h.jpg"
+    ],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "7ec3b905",
+    "title": "Xcode Build Optimization Agent Skill",
+    "url": "https://x.com/fuguizhuo/status/2046068642941379057",
+    "source": {
+      "platform": "x",
+      "author": "fuguizhuo",
+      "original_date": "2026-04-20"
+    },
+    "category": "tools/developer-tools",
+    "tags": [
+      "Claude-Code",
+      "Xcode",
+      "skill",
+      "编译优化",
+      "iOS"
+    ],
+    "source_type": "x_post",
+    "language": "zh",
+    "summary_zh": "作者推荐了一个 Xcode 编译时间优化的 Claude Code skill（AvdLee/Xcode-Build-Optimization-Agent-Skill），评价为挺厉害的，推荐 iOS 研发试试。",
+    "summary_en": null,
+    "one_liner": "iOS 研发提效利器：Claude Code Xcode 编译优化 skill",
+    "one_liner_author": "openclaw",
+    "quality_score": 3,
+    "status": "active",
+    "local_path": "X 文章/X-收藏文章归档-2026-04-22-v2.md",
+    "images": [],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "8e201553",
+    "title": "AI 时代如何成为顶级程序员：能力跃迁、杠杆与品味",
+    "url": "https://x.com/PandaTalk8/status/2045702119764922618",
+    "source": {
+      "platform": "x",
+      "author": "Mr Panda",
+      "original_date": "2026-04-19"
+    },
+    "category": "research/ai-coding",
+    "tags": [
+      "AI-Coding",
+      "程序员",
+      "品味",
+      "判断力",
+      "杠杆"
+    ],
+    "source_type": "x_post",
+    "language": "zh",
+    "summary_zh": "文章讨论 AI 时代顶级程序员的新画像，核心三层：能力跃迁（从实现者到判断者）、杠杆扩张（单兵产出边界被改写）、品味稀缺（架构与系统的美学）。判断力是杠杆的支点，品味是杠杆使用的方向盘，三者互为支撑。给出了五条修炼路径：放弃对实现细节的执念、把 AI 当高带宽实习生使用、刻意暴露在好代码与烂代码之间、定期复盘自己的判断、扩大对系统的理解半径。",
+    "summary_en": null,
+    "one_liner": "最系统的 AI 时代程序员能力模型，判断力+杠杆+品味三角",
+    "one_liner_author": "openclaw",
+    "quality_score": 5,
+    "status": "active",
+    "local_path": "X 文章/X-收藏文章归档-2026-04-22-v2.md",
+    "images": [
+      "https://pbs.twimg.com/media/HGPK5jtaoAA6W1w.jpg",
+      "https://pbs.twimg.com/media/HGPLL55bEAAcb9m.jpg"
+    ],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "14d5e5b6",
+    "title": "The Ultimate Guide to Claude Opus 4.7",
+    "url": "https://x.com/PawelHuryn/status/2046197132105769065",
+    "source": {
+      "platform": "x",
+      "author": "Paweł Huryn",
+      "original_date": "2026-04-20"
+    },
+    "category": "models/claude",
+    "tags": [
+      "Claude",
+      "Opus-4.7",
+      "Prompt-Caching",
+      "migration",
+      "Claude-Code"
+    ],
+    "source_type": "x_post",
+    "language": "en",
+    "summary_zh": "作者实测 Opus 4.7 超过 16 小时，总结出 10 条迁移指南。核心洞察：4.6 会在指令不清晰时猜测，4.7 直接按字面意思执行。4.7 奖励清晰的意图（Intent），而非更长的 prompt 或更多规则。10 条迁移策略包括：在 CLAUDE.md 前置意图、使用 xhigh effort level、toggle effort 中途切换、回归测试旧 prompt、批量提问而非逐条喂给、删除旧的 progress scaffolding、显式要求 fan out 等。",
+    "summary_en": "After 16+ hours with Opus 4.7, the author provides 10 migration moves. Core insight: 4.6 guessed when instructions were unclear; 4.7 takes instructions literally. 4.7 rewards clear intent over longer prompts. The 10 moves include front-loading intent in CLAUDE.md, using xhigh effort level, toggling effort mid-task, batch questioning, deleting old progress scaffolding, and explicitly asking for fan-out.",
+    "one_liner": "目前最完整的 Opus 4.7 实战指南，10 条迁移策略条条干货",
+    "one_liner_author": "openclaw",
+    "quality_score": 5,
+    "status": "active",
+    "local_path": "X 文章/X-收藏文章归档-2026-04-22-v2.md",
+    "images": [
+      "https://pbs.twimg.com/media/HGWM8vUXMAAiaPe.jpg",
+      "https://pbs.twimg.com/media/HGWDDiMXQAAgpsZ.jpg",
+      "https://pbs.twimg.com/media/HGWEDhHW8AAZatn.jpg"
+    ],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "9a277410",
+    "title": "Harness Engineering：AI 能在真正出事会炸的后端系统里写代码吗？",
+    "url": "https://mp.weixin.qq.com/s/VJgVPeJ5GZhVwbRtneEk_Q",
+    "source": {
+      "platform": "wechat",
+      "author": "lancelotluo",
+      "original_date": "2026-04-21"
+    },
+    "category": "agent-frameworks/harness",
+    "tags": [
+      "Harness-Engineering",
+      "AI-Coding",
+      "后端",
+      "LEGO",
+      "CDN",
+      "Rust",
+      "对抗式CR"
+    ],
+    "source_type": "article",
+    "language": "zh",
+    "summary_zh": "腾讯CDN LEGO项目（100万行核心代码，服务亿级用户）的 Harness Engineering 实战记录。核心成果：20天AI实现Rust版Nonstop代理框架（42,052 QPS），在超大规模C++ LEGO中构建五层Harness架构和多模型对抗式CR。提炼出13类典型问题、5大根因（不会说「我不知道」、幻觉、改不全、模式匹配代替验证、缺乏环境意识）。五层架构：上下文建设（项目宪法+领域知识+竞品调研Agent团队）、约束（三层约束+5条核心约束）、反馈（9阶段全自动流水线+Pitfall Journal）。效率提升20%，调研从3人天压缩到1天，协议安全测试从3-5人天到1天。",
+    "summary_en": null,
+    "one_liner": "目前最完整的 Harness Engineering 工业级实战，腾讯 CDN 百万行代码验证",
+    "one_liner_author": "openclaw",
+    "quality_score": 5,
+    "status": "active",
+    "local_path": "Cubox/Harness Engineering：AI 能在真正-出事会炸-的后端系统里写代码吗？-2026-04-21.md",
+    "images": [],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "e2fda4ac",
+    "title": "iamzhihuix/skills-manage: 跨平台 AI Coding Agent Skills 统一管理桌面应用",
+    "url": "https://github.com/iamzhihuix/skills-manage",
+    "source": {
+      "platform": "github",
+      "author": "iamzhihuix",
+      "original_date": "2026-04-21"
+    },
+    "category": "tools/productivity",
+    "tags": [
+      "skills-manage",
+      "Tauri",
+      "Claude-Code",
+      "Cursor",
+      "Codex",
+      "Gemini-CLI",
+      "AI-coding"
+    ],
+    "source_type": "github",
+    "language": "en",
+    "summary_zh": "skills-manage 是一个 Tauri 桌面应用，统一管理跨平台的 AI Coding Agent Skills。支持平台包括 Claude Code、Codex、Cursor、Gemini CLI、Trae、Windsurf 等 20+ 平台。采用 ~/.agents/skills/ 作为中心目录，通过符号链接安装到各平台。核心功能：中心化技能库+按平台安装/卸载、Markdown 预览和 AI 解释生成、Collections 组织+批量安装、本地项目技能库发现、市场浏览+GitHub 仓库导入、快速搜索（延迟查询+懒索引+虚拟化）、双语 UI+Catppuccin 主题。技术栈：Tauri v2 + React 19 + TypeScript + Tailwind CSS 4 + shadcn/ui + Rust + SQLite。",
+    "summary_en": "skills-manage is a Tauri desktop app for managing AI coding agent skills across 20+ platforms (Claude Code, Codex, Cursor, Gemini CLI, Trae, Windsurf, etc.) from one place. It uses ~/.agents/skills/ as the canonical central directory, installs to individual platforms via symlinks. Features: central skill library, per-platform install/uninstall, Markdown preview with AI explanation, collections for batch install, marketplace browsing, fast search with deferred queries and lazy indexing, bilingual UI with Catppuccin themes. Tech stack: Tauri v2, React 19, TypeScript, Tailwind CSS 4, shadcn/ui, Rust, SQLite.",
+    "one_liner": "统一管理 20+ 平台 Skills 的最佳开源工具，macOS Apple Silicon 可用",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "Cubox/iamzhihuix-skills-manage- Desktop app to manage AI coding agent skills across Claude Code, Cursor, G.md",
+    "images": [],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "hXEWTAHW",
+    "title": "TRL 异步 GRPO：解耦推理与训练，RL Scaling 新一代方法解析",
+    "url": "https://x.com/Thom_Wolf/status/2045817727705628714",
+    "source": {
+      "platform": "x/twitter",
+      "author": "Thom Wolf",
+      "original_date": "2026-04-22"
+    },
+    "category": "rl-training/algorithms",
+    "tags": [
+      "RLHF",
+      "PPO",
+      "AsyncGRPO",
+      "TRL",
+      "numerical-precision",
+      "LLM",
+      "vLLM"
+    ],
+    "source_type": "x_post",
+    "language": "en",
+    "summary_zh": "TRL 库新增 AsyncGRPO 功能，通过将推理与训练解耦来加速 RL Scaling。作者发现了一个已知但机制不明的问题：当训练前向传播在 FP32、推理引擎 vLLM 在 BF16 运行时，RLHF 经常崩溃。核心发现是「幽灵裁剪（phantom clipping）」——约 18% 的 token 因 FP32/BF16 精度差距在 PPO 裁剪目标中被错误裁剪，导致梯度为零，形成永久停滞。推荐修复：全链路匹配精度（FP16 或 BF16 autocast + FP32 主权重）、BF16 影子前向传播计算比率，或扩大 ε 禁用裁剪。",
+    "summary_en": "TRL added AsyncGRPO to decouple inference from training for faster RL scaling. The team discovered that when training runs in FP32 while vLLM inference runs in BF16, RLHF often breaks due to 'phantom clipping'—roughly 18% of tokens receive zero gradients because the FP32/BF16 precision gap perturbs the PPO ratio, triggering incorrect clipping. Recommended fixes: match precisions end-to-end (FP16 or BF16 autocast + FP32 master weights), compute the ratio from a BF16 shadow forward pass, or widen ε to disable clipping.",
+    "one_liner": "RLHF 训练的幽灵裁剪问题首次被系统定位，精度不匹配与 PPO 裁剪的相互作用是根因，修复方案明确",
+    "one_liner_author": "openclaw",
+    "quality_score": 5,
+    "status": "active",
+    "local_path": "awesome-ai-field-notes/content/hXEWTAHW.md",
+    "images": [],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "y3zD8LWA",
+    "title": "Deep Research Max：Gemini 3.1 Pro 驱动的自主研究代理，支持自有数据",
+    "url": "https://x.com/GoogleDeepMind/status/2046627042335060342",
+    "source": {
+      "platform": "x/twitter",
+      "author": "Google DeepMind",
+      "original_date": "2026-04-22"
+    },
+    "category": "research-agents/deep-research",
+    "tags": [
+      "Gemini",
+      "Deep Research",
+      "autonomous-agent",
+      "MCP",
+      "multi-modal",
+      "LLM"
+    ],
+    "source_type": "x_post",
+    "language": "en",
+    "summary_zh": "Google DeepMind 发布 Deep Research 和 Deep Research Max，基于 Gemini 3.1 Pro 的自主研究智能体，可安全浏览网页和自定义数据（内部文档、专业金融数据），生成带引用来源的专业级报告。Deep Research 优化速度，Deep Research Max 花更多时间做穷尽性调研。核心亮点：支持 arbitrary MCP 连接，可将私有文档和 API 接入为 MCP 服务器，实现私有+公开数据的综合报告；首个原生生成演示级可视化图表的研究智能体。",
+    "summary_en": "Google DeepMind released Deep Research and Deep Research Max, autonomous research agents powered by Gemini 3.1 Pro that can safely browse the web and custom data (internal docs, specialized financial data) to generate professional-grade fully cited reports. Deep Research optimizes for speed; Deep Research Max spends more time on exhaustive research. Key highlight: arbitrary MCP support allows connecting private docs and APIs as MCP servers for synthesized private+public data reports; also the first research agent to natively generate presentation-ready visuals.",
+    "one_liner": "Gemini Deep Research 引入 arbitrary MCP 支持，私有数据与网页信息首次可在单一引用报告中综合",
+    "one_liner_author": "openclaw",
+    "quality_score": 4,
+    "status": "active",
+    "local_path": "awesome-ai-field-notes/content/y3zD8LWA.md",
+    "images": [],
+    "added_date": "2026-04-22",
+    "updated_date": null,
+    "github_stars": null,
+    "related": []
+  },
+  {
+    "id": "Kc757Q9l",
+    "title": "Gemini 3.1 Flash TTS 发布：带 Audio Tags 的最可控语音合成",
+    "url": "https://x.com/GoogleAI/status/2044447560384102592",
+    "source": {
+      "platform": "x/twitter",
+      "author": "Google AI",
+      "original_date": "2026-04-22"
+    },
+    "category": "multimodal/speech-synthesis",
+    "tags": [
+      "Gemini",
+      "TTS",
+      "speech-synthesis",
+      "audio-tags",
+      "multimodal"
+    ],
+    "source_type": "x_post",
+    "language": "en",
+    "summary_zh": "Google AI 发布 Gemini 3.1 Flash TTS，迄今表现力最强、可控性最高的语音合成模型。核心亮点是 Audio Tags（音频标签）功能：用自然语言命令直接嵌入文本，即可精准控制语速、语调、停顿和表达风格，无需传统 SSML 标记。支持 70+ 语言（其中 24 种为高质量评估语言，包括日语、印地语和阿拉伯语）。适合播客配音、有声书和语音助手场景，已在 Google AI Studio 和 Vertex AI 上线。",
+    "summary_en": "Google AI launched Gemini 3.1 Flash TTS, the most expressive and controllable text-to-speech model to date. The core highlight is Audio Tags: natural language commands embedded directly in text enable precise control of pace, tone, pauses, and delivery style without traditional SSML markup. Supports 70+ languages (24 high-quality evaluated languages including Japanese, Hindi, and Arabic). Available on Google AI Studio and Vertex AI, suitable for podcast narration, audiobooks, and voice assistant scenarios.",
+    "one_liner": "Gemini 3.1 Flash TTS 用自然语言标签革新语音合成控制，70+语言覆盖适合全球化产品",
+    "one_liner_author": "openclaw",
+    "quality_score": 3,
+    "status": "active",
+    "local_path": "awesome-ai-field-notes/content/Kc757Q9l.md",
+    "images": [],
+    "added_date": "2026-04-22",
     "updated_date": null,
     "github_stars": null,
     "related": []

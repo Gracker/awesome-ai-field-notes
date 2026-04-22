@@ -1,19 +1,19 @@
 # AI Field Notes
 
-> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。654 条，中英双语。
+> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。665 条，中英双语。
 
 ## 🆕 今日推荐 Top 10
 
+- [Farzapedia：用日记+笔记训练个人 Wikipedia，LLM 个性化的最佳实践](https://x.com/karpathy/status/2040572272944324650) ⭐4 · 2026-04-22 — 把日记和笔记喂给 LLM 生成个人 Wikipedia，显式记忆 artifact 完胜「用越多越强」
+- [Gemini 3.1 Flash TTS 发布：带 Audio Tags 的最可控语音合成](https://x.com/GoogleAI/status/2044447560384102592) ⭐4 · 2026-04-22 — Gemini 3.1 Flash TTS：用自然语言标签控制语速语调，语音合成进入「精准可控」时代
+- [Deep Research Max：Gemini 3.1 Pro 驱动的自主研究代理，支持自有数据](https://x.com/GoogleDeepMind/status/2046627042335060342) ⭐4 · 2026-04-22 — Gemini 3.1 Pro 自主研究代理：接网页+内部文档，输出带引用来源的专业级报告
+- [TRL 异步 GRPO：解耦推理与训练，RL Scaling 新一代方法解析](https://x.com/Thom_Wolf/status/2045817727705628714) ⭐4 · 2026-04-22 — TRL 异步 GRPO 解耦推理与训练，修复 RL 收敛的精度 mismatch，附完整技术解析
+- [免费 5 天课程：从 AI 用户到 AI 建造者](https://x.com/alliekmiller/status/1985834763677286606) ⭐5 · 2026-04-22 — 免费 5 天课程，手把手教你脱离 Prompt 复制党，用 Claude 构建个人 AI 工具
+- [16 分钟掌握 Claude Design 全套用法：视频/幻灯/网站/App/设计系统](https://x.com/petergyang/status/2045522933943238934) ⭐5 · 2026-04-22 — 16 分钟实操演示，Claude Design 能帮你做视频/网站/App，设计系统也不在话下
 - [用 Codex 自然语言构建 Web 应用和游戏：Greg Brockman 展示新范式](https://x.com/gdb/status/2045594591584530826) ⭐5 · 2026-04-19 — Codex 用自然语言开发游戏和 Web 应用，开发范式新变革
+- [Codex：用纯自然语言构建 Web 应用和小游戏](https://x.com/gdb/status/2045594591584530826) ⭐5 · 2026-04-19 — Codex 自然语言编程：提示词直接生成可运行 Web 应用和游戏
 - [2026 AI First 系列（四）：connecting the dots——你的独特人生路径](https://youmind.com/s/pG5sMT6W7UIdIe) ⭐3 · 2026-04-18 — 在AI时代规划人生，核心是让AI成为connecting dots的放大器，而非被它替代
 - [Allie Miller推出免费5天课程：从AI用户进化为AI建造者](https://x.com/alliekmiller/status/1985834763677286606) ⭐3 · 2026-04-18 — 「用AI」和「用AI建造」之间隔着一个认知跃迁，Fast Track课程填补了实操教育的空白
-- [AI 影响力日报 · 2026-04-18](https://x.com/grackerai/status/ai-daily-2026-04-18) ⭐3 · 2026-04-18 — 每日 AI 内容精选，Karpathy 的 Wiki LLM 概念和 Nature 的潜意识对齐论文是当日最大亮点。
-- [做AI产品两年，我得出的实操经验](https://mp.weixin.qq.com/s/HsFhXMLejsQWjTghUYdKFA) ⭐4 · 2026-04-18 — AI产品的难点不在于技术而在于不确定性管理，提示词工程是产品特性而非辅助工具
-- [2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期](https://youmind.com/s/hPiqSBPU4tVa7o) ⭐4 · 2026-04-18 — Level 3的AI用户和Level 1之间的差距是认知和行动力，而不仅仅是工具使用
-- [Google推出企业版Android Studio Gemini：隐私保护的企业级AI编程辅助](#) ⭐4 · 2026-04-18 — 企业级AI编程工具的竞争已从能力比拼转向数据安全与合规能力的比拼
-- [Gemini Agentic Vision：LLM自己写代码，完成复杂视觉推理任务](https://x.com/realmadhuguru/status/2016267285342847137) ⭐4 · 2026-04-18 — Gemini Agentic Vision标志视觉推理从固定流程向LLM自主规划的重要范式转变
-- [The Business Models That Will Dominate 2027 (That Don&#x27;t Exist Yet)](#) ⭐4 · 2026-04-18 — AI正在催生「零员工、百万营收」的新商业物种，2026年是入场窗口期
-- [AI的负面（2）：你的知识在贬值，但房贷不会贬值](#) ⭐4 · 2026-04-18 — AI对普通人最致命的威胁不是失业，而是让你的收入配不上你的刚性负债
 
 ## 分类导航
 
