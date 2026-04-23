@@ -37,7 +37,7 @@ features:
 ## 🆕 最新 10 篇
 
 ### [Farzapedia：用日记+笔记训练个人 Wikipedia，LLM 个性化的最佳实践](https://x.com/karpathy/status/2040572272944324650)
-@@karpathy · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+@@karpathy · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-22
 
 Andrej Karpathy 转发并点评 Farzapedia 项目——将 2500 条日记、Apple Notes 和 iMessage 对话输入 LLM，生成 400 篇个人 Wikipedia 条目，涵盖朋友、创业项目、研究领域甚至喜欢的动漫及其影响。Karpathy 指出这种方法相比「用越多 AI 越强」的传统范式，优势在于：记忆 artifact 是显式的、可审查的，个性化更精准。可作为构建个人第二大脑的参考架构。
 
@@ -46,7 +46,7 @@ Andrej Karpathy 转发并点评 Farzapedia 项目——将 2500 条日记、Appl
 ---
 
 ### [Gemini 3.1 Flash TTS 发布：带 Audio Tags 的最可控语音合成](https://x.com/GoogleAI/status/2044447560384102592)
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-22
 
 Google AI 推出 Gemini 3.1 Flash TTS，号称迄今表现力最强、可控性最高的语音合成模型。核心亮点是 Audio Tags（音频标签）功能：用自然语言命令嵌入文本，即可精准控制语速、语调、停顿和表达风格，无需传统 SSML 标记，适合做播客配音、有声书和语音助手场景。已在 Google AI Studio 和 Vertex AI 上线，开发者可直接调用。
 
@@ -55,7 +55,7 @@ Google AI 推出 Gemini 3.1 Flash TTS，号称迄今表现力最强、可控性�
 ---
 
 ### [Deep Research Max：Gemini 3.1 Pro 驱动的自主研究代理，支持自有数据](https://x.com/GoogleDeepMind/status/2046627042335060342)
-@@GoogleDeepMind · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+@@GoogleDeepMind · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-22
 
 Google DeepMind 发布 Deep Research 和 Deep Research Max，基于 Gemini 3.1 Pro 的自主研究代理，可安全浏览网页和自定义数据（如内部文档、专业财务数据），自动生成带引用来源的专业级报告。相比传统搜索，它能完成多步骤的调研任务链，输出结构化、可溯源的报告，适合分析师、研究人员和知识工作者。
 
@@ -64,7 +64,7 @@ Google DeepMind 发布 Deep Research 和 Deep Research Max，基于 Gemini 3.1 P
 ---
 
 ### [TRL 异步 GRPO：解耦推理与训练，RL Scaling 新一代方法解析](https://x.com/Thom_Wolf/status/2045817727705628714)
-@@Thom_Wolf · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+@@Thom_Wolf · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-22
 
 Thomas Wolf 详解 TRL 库新增的 AsyncGRPO 功能，解决了训练前向传播（FP32）与 vLLM 推理服务器（BF16）精度不匹配导致 RL 无法收敛的问题。通过将推理与训练解耦，实现更快、更 hard 的 scaling。附有完整 detective story 风格的技术解析，从问题复现到修复路径均有覆盖，是训练大模型 RLHF 流程的进阶参考。
 
@@ -73,7 +73,7 @@ Thomas Wolf 详解 TRL 库新增的 AsyncGRPO 功能，解决了训练前向传�
 ---
 
 ### [免费 5 天课程：从 AI 用户到 AI 建造者](https://x.com/alliekmiller/status/1985834763677286606)
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
+@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-22
 
 Allie K. Miller 推出免费 5 天邮件课程「AI Fast Track」，核心主张是：「用 AI」与「用 AI 建造工具」之间存在鸿沟，仅复制粘贴 Prompt 远远不够。课程无需编程基础，手把手教你用 Claude 构建个人 AI 软件、自动化脚本和实用工具。每天一个主题，聚焦可落地的 side project，而非泛泛的 AI 概念，tens of thousands 已经注册，适合想从「消费者」升级为「建造者」的 AI 用户。
 
@@ -82,7 +82,7 @@ Allie K. Miller 推出免费 5 天邮件课程「AI Fast Track」，核心主张
 ---
 
 ### [16 分钟掌握 Claude Design 全套用法：视频/幻灯/网站/App/设计系统](https://x.com/petergyang/status/2045522933943238934)
-@@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
+@@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-22
 
 Peter Yang 发布 Claude Design 实操教程 live demo，在 16 分钟内演示了用 Claude Design 创建视频、幻灯片、网站、App 乃至完整设计系统的完整流程。涵盖从概念到可交付物的每一步，展示 Claude 在多模态创意工作中的实际能力边界。视频为实时演示，可直接参考其操作路径用于自己的项目。
 

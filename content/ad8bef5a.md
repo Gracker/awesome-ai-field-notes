@@ -1,0 +1,12 @@
+# Claude Code 从 Pro 版移除引发信任危机，Anthropic 仅靠一条推文回应
+
+Source: Simon Willison | 2026-04-22
+URL: https://simonwillison.net/2026/Apr/22/claude-code-confusion/
+
+> 注：原文抓取失败，此内容基于 RSS 摘要整理。
+
+## Summary (EN)
+Anthropic quietly moved Claude Code from the $20/month Pro plan to the $100/month Max plan on claude.com/pricing, sparking outrage across Reddit/HN/Twitter. An Anthropic lead claimed it was a small 2% test, but Archive.org already captured the change. Simon Willison notes the '2%' claim doesn't hold up against widespread evidence. Cowork (renamed Claude Code) still sits at the $20 plan, somewhat undermining the seriousness. Simon declares the pricing transparency breach has damaged his trust in Anthropic.
+
+## Summary (ZH)
+Anthropic 悄悄修改 claude.com/pricing 页面，将 Claude Code 从 20 美元/月的 Pro 计划移至 100 美元起的 Max 计划，Reddit/HN/Twitter 一片哗然。Anthropic 负责人称这是约 2% 新用户的小范围测试，但 Archive.org 已快照，Simon Willison 指出「2%」说法难以自圆其说。Claude Cowork（实质重命名的 Claude Code）仍在 20 美元 Plan 上，消解了部分事件的严肃性。Simon 明确表示：定价透明度受损已动摇其对 Anthropic 的信任，正在重新评估是否继续押注。
