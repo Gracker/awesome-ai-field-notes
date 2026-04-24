@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI Field Notes
   text: AI 领域精选资源导航
-  tagline: 有观点 · 有评分 · 每日自动更新 · 665 条 · 2 篇有全文
+  tagline: 有观点 · 有评分 · 每日自动更新 · 682 条 · 2 篇有全文
   actions:
     - theme: brand
       text: 浏览全部
@@ -36,92 +36,92 @@ features:
 
 ## 🆕 最新 10 篇
 
-### [Farzapedia：用日记+笔记训练个人 Wikipedia，LLM 个性化的最佳实践](https://x.com/karpathy/status/2040572272944324650)
-@@karpathy · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-22
+### [GPT Image 2的出现，一个设计师的冷思考](https://mp.weixin.qq.com/s?__biz=MjM5MjIyOTA0Mw==&mid=2650203005&idx=1&sn=af664106ce7344b65a98bd6f7265e8ff)
+@梵猩智云 · ⭐⭐⭐3 🇨🇳 · 昨天
 
-Andrej Karpathy 转发并点评 Farzapedia 项目——将 2500 条日记、Apple Notes 和 iMessage 对话输入 LLM，生成 400 篇个人 Wikipedia 条目，涵盖朋友、创业项目、研究领域甚至喜欢的动漫及其影响。Karpathy 指出这种方法相比「用越多 AI 越强」的传统范式，优势在于：记忆 artifact 是显式的、可审查的，个性化更精准。可作为构建个人第二大脑的参考架构。
+设计师视角反思GPT Image 2的影响，认为这是从工具升级到分水岭级别的跃迁，文字渲染准确、多语言海报、UI草图等信息图生成能力将设计执行门槛降至几乎为零。作者指出设计师的真正价值不是做图而是做对的选择，并提出三条出路：往上走（判断层）、往深走（垂直领域）、跟AI协作（超级设计师）。核心观点是工具变强不是设计师的灾难，不愿意接受身份重新定义才是。
 
-`x` `workflow` `llm` `personal-knowledge` `karpathy`
-
----
-
-### [Gemini 3.1 Flash TTS 发布：带 Audio Tags 的最可控语音合成](https://x.com/GoogleAI/status/2044447560384102592)
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-22
-
-Google AI 推出 Gemini 3.1 Flash TTS，号称迄今表现力最强、可控性最高的语音合成模型。核心亮点是 Audio Tags（音频标签）功能：用自然语言命令嵌入文本，即可精准控制语速、语调、停顿和表达风格，无需传统 SSML 标记，适合做播客配音、有声书和语音助手场景。已在 Google AI Studio 和 Vertex AI 上线，开发者可直接调用。
-
-`x` `ai-tools` `gemini` `tts` `audio`
+`AI-image` `GPT-Image-2` `designer` `AI-impact` `product-thinking`
 
 ---
 
-### [Deep Research Max：Gemini 3.1 Pro 驱动的自主研究代理，支持自有数据](https://x.com/GoogleDeepMind/status/2046627042335060342)
-@@GoogleDeepMind · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-22
+### [AI Agent 工程化实践指南：如何构建可靠的 Harness 系统](https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw==&mid=2247484077&idx=1&sn=ee3fd75a3799b07df9c08fcbda2b21e4)
+@Liz的AI冰美式 · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
-Google DeepMind 发布 Deep Research 和 Deep Research Max，基于 Gemini 3.1 Pro 的自主研究代理，可安全浏览网页和自定义数据（如内部文档、专业财务数据），自动生成带引用来源的专业级报告。相比传统搜索，它能完成多步骤的调研任务链，输出结构化、可溯源的报告，适合分析师、研究人员和知识工作者。
+文章系统阐述Harness Engineering的核心价值：AI时代技术重心正从单点能力转向对整体系统的组织、约束和协同。作者从Prompt工程化、Context工程化、Tools工程化、Workflow工程化四个维度展开，结合OpenAI、Anthropic、LangChain的实践经验，介绍Generator-Evaluator模式、多Agent协作框架（Anthropic 16个并行Claude协作编写C编译器案例）。强调Harness的核心不是塞信息而是设计信息结构，长任务靠外部状态管理而非更强Prompt。
 
-`x` `ai-tools` `gemini` `research` `agent`
-
----
-
-### [TRL 异步 GRPO：解耦推理与训练，RL Scaling 新一代方法解析](https://x.com/Thom_Wolf/status/2045817727705628714)
-@@Thom_Wolf · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-22
-
-Thomas Wolf 详解 TRL 库新增的 AsyncGRPO 功能，解决了训练前向传播（FP32）与 vLLM 推理服务器（BF16）精度不匹配导致 RL 无法收敛的问题。通过将推理与训练解耦，实现更快、更 hard 的 scaling。附有完整 detective story 风格的技术解析，从问题复现到修复路径均有覆盖，是训练大模型 RLHF 流程的进阶参考。
-
-`x` `ai-tools` `rlhf` `trl` `training`
+`harness-engineering` `agent-frameworks` `prompt-engineering` `context-management` `workflow`
 
 ---
 
-### [免费 5 天课程：从 AI 用户到 AI 建造者](https://x.com/alliekmiller/status/1985834763677286606)
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-22
+### [Building agents that reach production systems with MCP](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp)
+@Anthropic · ⭐⭐⭐⭐4 🌐 · 昨天
 
-Allie K. Miller 推出免费 5 天邮件课程「AI Fast Track」，核心主张是：「用 AI」与「用 AI 建造工具」之间存在鸿沟，仅复制粘贴 Prompt 远远不够。课程无需编程基础，手把手教你用 Claude 构建个人 AI 软件、自动化脚本和实用工具。每天一个主题，聚焦可落地的 side project，而非泛泛的 AI 概念，tens of thousands 已经注册，适合想从「消费者」升级为「建造者」的 AI 用户。
+Anthropic官方博客，系统阐述将Agent连接到外部生产系统的三条路径（Direct API、CLI、MCP）的适用场景及优劣。重点介绍构建生产级MCP服务器的最佳实践：远程服务器实现最大覆盖、按Intent而非端点分组工具、设计代码编排处理大表面、丰富语义（Elicitation/MCP Apps）、标准化认证（CIMD+Vaults）。提出MCP客户端的上下文效率优化（按需加载工具定义85%+节省、程序化工具调用37%节省）。
 
-`x` `ai-tools` `tutorial` `claude` `automation`
-
----
-
-### [16 分钟掌握 Claude Design 全套用法：视频/幻灯/网站/App/设计系统](https://x.com/petergyang/status/2045522933943238934)
-@@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-22
-
-Peter Yang 发布 Claude Design 实操教程 live demo，在 16 分钟内演示了用 Claude Design 创建视频、幻灯片、网站、App 乃至完整设计系统的完整流程。涵盖从概念到可交付物的每一步，展示 Claude 在多模态创意工作中的实际能力边界。视频为实时演示，可直接参考其操作路径用于自己的项目。
-
-`x` `ai-tools` `claude` `design` `tutorial`
+`MCP` `model-context-protocol` `agent-integration` `cloud-agent` `skills`
 
 ---
 
-### [用 Codex 自然语言构建 Web 应用和游戏：Greg Brockman 展示新范式](https://x.com/gdb/status/2045594591584530826)
-@@gdb · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-19
+### [Harness 层怎么自我进化？来自斯坦福大学和 MIT 的一项新研究](https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw==&mid=2247484082&idx=1&sn=aac7ea3868e31bcc3d47e58724adeb19)
+@Liz的AI冰美式 · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
-Greg Brockman 展示用 OpenAI Codex 完全通过自然语言构建 Web 应用和游戏的新方式。Nicolas Zullo 的实操演示中，游戏内置于 Codex，可使用 Codex 生成的工具进行建筑设计，并支持直接用自然语言提问修改代码。展示了 AI 编程助手从辅助工具向独立开发环境演进的趋势。
+介绍斯坦福+MIT论文《Meta-Harness》，提出让Harness本身进入自动化演进。当前文本优化器在优化Harness时核心问题是反馈压缩——几千步轨迹被压缩成单分数，丢失诊断上下文。Meta-Harness通过将完整文件系统（Python源码、执行日志）开放给代码Agent，让它像人类工程师一样翻阅历史候选、推理失败原因、编写修复代码。实验中TerminalBench-2通过80行环境快照代码使Claude Haiku 4.5达37.6%通过率。
 
-`openai` `codex` `webapp` `game` `nlp`
-
----
-
-### [Codex：用纯自然语言构建 Web 应用和小游戏](https://x.com/gdb/status/2045594591584530826)
-@@gdb · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-19
-
-Greg Brockman 展示 Codex 全新用法：完全用自然语言构建 Web 应用和小游戏，无需传统编程。案例中游戏内设计和建筑建模都在 Codex 内完成，AI 直接生成可运行代码。这代表了 AI 编程助手向直接产出可运行产品的进化，显著降低数字产品创作门槛。
-
-`x` `ai-tools` `codex` `webdev` `prototyping`
+`harness-engineering` `self-improving` `Meta-Harness` `Stanford` `MIT`
 
 ---
 
-### [2026 AI First 系列（四）：connecting the dots——你的独特人生路径](https://youmind.com/s/pG5sMT6W7UIdIe)
-@wquguru · ⭐⭐⭐3 🇨🇳 · 2026-04-18
+### [深入源码：Hermes Agent 如何实现 Self-Improving](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29)
+@Unknown · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
-用Tim Urban的人生方格图和Steve Jobs的connecting dots框架，探讨个体如何在AI时代设计人生路径：向后看理解轨迹，向前看设想可能，活在当下创造每个扎实的dot。核心洞察：在所有宏观因素中，AI几乎是唯一可主动掌握的变量——经济周期、政策走向、行业兴衰都控制不了，但可以选择如何学习、使用和让它创造价值。Build in Public是建立信任飞轮的关键策略。
+深入分析Hermes Agent开源架构，阐述其Self-Improving闭环的三个子系统：Memory（2200字符容量限制，声明式事实，逼Agent压缩信息；冻结快照机制保护上下文缓存）、Skill（踩坑后自动创建/patch SKILL.md，Pitfalls节记录教训，按需渐进加载）、Nudge Engine（后台fork独立Agent实例审查会话，每10回合/10迭代触发，输出重定向/dev/null用户无感知）。与OpenClaw对比：Skill需手写，Agent不自主学习；Hermes让Agent越用越强。
 
-`ai-first` `life-design` `connecting-dots` `build-in-public` `adaptability`
+`Hermes-Agent` `self-improving` `memory` `skill` `agent-architecture`
 
 ---
 
-### [Allie Miller推出免费5天课程：从AI用户进化为AI建造者](https://x.com/alliekmiller/status/1985834763677286606)
-@@alliekmiller · ⭐⭐⭐3 🌐 · 2026-04-18
+### [从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29)
+@Unknown · ⭐⭐⭐⭐4 🇨🇳 · 昨天
 
-Allie Miller推出免费5天课程AI Fast Track，核心观点：使用AI和借助AI建造是两件不同的事——复制粘贴ChatGPT提示词只能帮人走到某个阶段，而学会构建个人AI软件、自动化工具和应用才能真正解决问题。课程已帮助数万人转型为AI builder。
+作者从Hermes Agent获得启发，开发AgentX插件将自我进化机制从Agent迁移到项目层面。核心设计：知识沉淀分两层（Markdown是证据层，Skill是能力层，必须从Markdown演化而来）；Markdown按Claude Code官方实践分层组织（AGENTS.md入口→专题文档→模块文档→SKILL.md能力层）；Harness Engineering哲学：用Bash/Hook搭骨架，用模型做理解和表达。目标是让Claude Code、Codex、OpenCode等不同agent进入同一项目时，都能共享项目积累的知识资产。
 
-`ai-education` `ai-tools` `course` `career` `vibe-coding`
+`AgentX` `project-knowledge` `coding-agent` `Hermes` `skill-evolution`
+
+---
+
+### [Greg Brockman：GPT-5.5是一种新的智能类别](https://x.com/gdb/status/2047381612372115812)
+@@gdb · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+
+OpenAI联合创始人Greg Brockman定义GPT-5.5为一种新的智能类别：在极少人工干预下完成复杂任务，token效率极高，延迟低，可大规模运行。Brockman强调这是真正向让AI完成计算机工作迈进的里程碑。GPT-5.5现已在ChatGPT和Codex中可用，代表Agent时代的基础模型能力基准。
+
+`x` `ai-tools` `gpt-5.5` `openai`
+
+---
+
+### [Peter Yang x Mercury VP：如何为Agent设计API和MCP实战复盘](https://x.com/petergyang/status/2047320679889162321)
+@@petergyang · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+
+Peter Yang与Mercury VP @rywiggs合作推出关于Agent API和MCP设计的深度播客。核心观点：2020s的用户交互界面是API和MCP（Machine Communication Protocol），而非传统App。Mercury用Claude Code加500万字公司知识库构建第二大脑，每天自动生成日程/Linear/Slack简报。节目分享了：如何构建Agent友好的知识库结构、如何设计MCP工具接口、最佳API设计原则。这是第一份系统性Agent API/MCP设计实战复盘。
+
+`x` `workflow` `api` `mcp` `agent`
+
+---
+
+### [Andrej Karpathy：Farzapedia用LLM把个人数据变成个人维基](https://x.com/karpathy/status/2040572272944324650)
+@@karpathy · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+
+Andrej Karpathy推荐Farzapedia方案：用LLM将2500条日记、Apple Notes、iMessage对话转化为400篇结构化个人Wikipedia文章，涵盖朋友、创业项目、研究领域、喜爱的动漫及其影响。相比AI越用越懂你的隐性记忆，Farza的显式知识库方案更透明、可控、可复用。Karpathy高度评价这是Wiki LLM思路的最佳实践，为个人AI助手个性化提供了新范式。
+
+`x` `ai-tools` `personal-knowledge` `llm`
+
+---
+
+### [Google DeepMind：Gemini 3.1 Flash TTS用自然语言控制语音风格](https://x.com/GoogleAI/status/2044447560384102592)
+@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+
+Google DeepMind发布Gemini 3.1 Flash TTS，号称迄今最具表现力和可控性的TTS模型。核心创新是Audio Tags——用自然语言命令嵌入音频，可控制语速、语调、情感表达。这意味着TTS从选择固定音色升级为用Prompt控制声音，是AI语音交互的范式级进步。适用场景：语音助手、有声内容创作、无障碍工具。
+
+`x` `ai-tools` `tts` `gemini` `google`
 
 ---

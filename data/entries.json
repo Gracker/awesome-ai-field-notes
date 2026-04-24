@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema_description": "每条记录必须基于实际文件内容提取，禁止捏造。英文原文需提供中英双语摘要。",
-  "last_updated": "2026-04-22",
+  "last_updated": "2026-04-24",
   "entries": [
     {
       "id": "ppNqbBb5",
@@ -23379,6 +23379,575 @@
       "local_path": null,
       "images": [],
       "added_date": "2026-04-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "htX0TWFp",
+      "title": "Preventing Rogue Agents Improves Multi-Agent Collaboration",
+      "url": "https://arxiv.org/abs/2502.05986",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ohav Barbi, Ori Yoran, Mor Geva",
+        "original_date": "2025-02"
+      },
+      "category": "agent-frameworks/multi-agent",
+      "tags": [
+        "multi-agent",
+        "agent-collaboration",
+        "rogue-agent",
+        "monitoring",
+        "intervention"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文研究多智能体系统中流氓智能体导致全系统失败的问题，提出实时监控与干预框架，用多项式岭分类器基于动作预测熵检测流氓智能体，在检测到低成功概率时触发回滚或重置。引入WhoDunitEnv协作环境，实验证明该机制使LLAMA-3.1-70B、QWEN-2.5-72B、GPT-4O成功率提升约10个百分点，代码生成任务提升2.5%，GovSim资源管理任务提升20%。",
+      "summary_en": null,
+      "one_liner": "多智能体系统的鲁棒协作需要主动检测不可靠参与者而非依赖事后补救",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "论文/AI-2026-04-23-PreventingRogueAgents/03-精读.md",
+      "images": [],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4gebpKeG",
+      "title": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments",
+      "url": "https://arxiv.org/abs/2512.19432",
+      "source": {
+        "platform": "arxiv",
+        "author": "Quyu Kong et al.",
+        "original_date": "2025-12-22"
+      },
+      "category": "agent-frameworks/benchmark",
+      "tags": [
+        "mobile-agent",
+        "GUI-agent",
+        "benchmark",
+        "MCP",
+        "Android"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "MobileWorld是阿里巴巴通义实验室发布的移动GUI Agent基准测试，构建201个任务覆盖20个应用，强调长时域跨应用工作流（平均27.8步，62.2%跨应用任务），并新增用户交互任务（需主动识别歧义请求澄清）和MCP增强任务（调用外部工具协同）。GPT-5+UI-Ins-7B以51.7%成功率领先，证明当前主流Agent在用户交互和MCP任务上仍有显著不足。",
+      "summary_en": null,
+      "one_liner": "移动Agent基准显示顶级模型在真实复杂移动场景下的成功率仍不足52%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "论文/Android-2026-04-23-MobileWorld/03-精读.md",
+      "images": [],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "lKq-W6wR",
+      "title": "From Control to Foresight: Simulation as a New Paradigm for Human-Agent Collaboration",
+      "url": null,
+      "source": {
+        "platform": "arxiv",
+        "author": "Unknown",
+        "original_date": "2026"
+      },
+      "category": "agent-frameworks/human-agent-collaboration",
+      "tags": [
+        "human-agent-collaboration",
+        "simulation",
+        "foresight",
+        "CHI"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文认为当前LLM Agent与人类协作采用反应式模式存在根本缺陷，人类无法预见解题决策如何向下游传导。提出simulation-in-the-loop范式，将多条备选未来轨迹外化展示，引入Agentic Workflow、Action Space、Simulation、Simulated Impact四个核心概念，以及Lookahead Depth、Exploration Breadth、Granularity三个设计维度。属于CHI 2026视角论文，概念框架尚未经实证验证。",
+      "summary_en": null,
+      "one_liner": "有效的人机协作需要的不是逐节点控制权，而是预见决策空间的能力",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "论文/AI-2026-04-23-Human-Agent-Simulation/03-精读.md",
+      "images": [],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "_fMrQUjX",
+      "title": "AI Agent 工程化实践指南：如何构建可靠的 Harness 系统",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw==&mid=2247484077&idx=1&sn=ee3fd75a3799b07df9c08fcbda2b21e4",
+      "source": {
+        "platform": "wechat",
+        "author": "Liz的AI冰美式",
+        "original_date": null
+      },
+      "category": "agent-frameworks/harness",
+      "tags": [
+        "harness-engineering",
+        "agent-frameworks",
+        "prompt-engineering",
+        "context-management",
+        "workflow"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "文章系统阐述Harness Engineering的核心价值：AI时代技术重心正从单点能力转向对整体系统的组织、约束和协同。作者从Prompt工程化、Context工程化、Tools工程化、Workflow工程化四个维度展开，结合OpenAI、Anthropic、LangChain的实践经验，介绍Generator-Evaluator模式、多Agent协作框架（Anthropic 16个并行Claude协作编写C编译器案例）。强调Harness的核心不是塞信息而是设计信息结构，长任务靠外部状态管理而非更强Prompt。",
+      "summary_en": null,
+      "one_liner": "Harness Engineering的本质是为Agent构建可靠的运行环境，而非无限增强Prompt",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/AI Agent 工程化实践指南：如何构建可靠的 Harness 系统-2026-04-23.md",
+      "images": [
+        "https://image.cubox.pro/cardImg/5oub73los8rfe6yz66lygabl81r2wlmk06sh9y5w4q3pd2cey3?imageMogr2/quality/90/ignore-error/1",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "oug0QMC1",
+      "title": "Building agents that reach production systems with MCP",
+      "url": "https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic",
+        "original_date": null
+      },
+      "category": "agent-frameworks/MCP",
+      "tags": [
+        "MCP",
+        "model-context-protocol",
+        "agent-integration",
+        "cloud-agent",
+        "skills"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic官方博客，系统阐述将Agent连接到外部生产系统的三条路径（Direct API、CLI、MCP）的适用场景及优劣。重点介绍构建生产级MCP服务器的最佳实践：远程服务器实现最大覆盖、按Intent而非端点分组工具、设计代码编排处理大表面、丰富语义（Elicitation/MCP Apps）、标准化认证（CIMD+Vaults）。提出MCP客户端的上下文效率优化（按需加载工具定义85%+节省、程序化工具调用37%节省）。",
+      "summary_en": "Anthropic's official blog post laying out three paths for connecting agents to external systems, focusing on MCP as the critical layer for cloud-based production agents. Covers MCP server best practices (remote servers, intent-grouped tools, code orchestration for large surfaces, CIMD auth, Vaults), client efficiency patterns (on-demand tool loading, programmatic tool calling), and the compounding value of MCP as an ecosystem.",
+      "one_liner": "MCP正在成为生产环境Agent连接外部系统的行业标准协议层",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/Building agents that reach production systems with MCP-2026-04-23.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://image.cubox.pro/cardImg/5mab660i90za3iobnacq6vrbcn1hdfl20vxlh0423i65n0h4j5.png?imageMogr2/quality/90/ignore-error/1"
+      ],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2dH0ISAf",
+      "title": "GPT Image 2的出现，一个设计师的冷思考",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjIyOTA0Mw==&mid=2650203005&idx=1&sn=af664106ce7344b65a98bd6f7265e8ff",
+      "source": {
+        "platform": "wechat",
+        "author": "梵猩智云",
+        "original_date": null
+      },
+      "category": "strategy/ai-product",
+      "tags": [
+        "AI-image",
+        "GPT-Image-2",
+        "designer",
+        "AI-impact",
+        "product-thinking"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "设计师视角反思GPT Image 2的影响，认为这是从工具升级到分水岭级别的跃迁，文字渲染准确、多语言海报、UI草图等信息图生成能力将设计执行门槛降至几乎为零。作者指出设计师的真正价值不是做图而是做对的选择，并提出三条出路：往上走（判断层）、往深走（垂直领域）、跟AI协作（超级设计师）。核心观点是工具变强不是设计师的灾难，不愿意接受身份重新定义才是。",
+      "summary_en": null,
+      "one_liner": "AI图像生成能力的飞跃正在重新定义设计师的价值坐标，从执行者转向决策者",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Cubox/GPT Image 2的出现，一个设计师的冷思考-2026-04-23.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0TsyRliY",
+      "title": "Harness 层怎么自我进化？来自斯坦福大学和 MIT 的一项新研究",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw==&mid=2247484082&idx=1&sn=aac7ea3868e31bcc3d47e58724adeb19",
+      "source": {
+        "platform": "wechat",
+        "author": "Liz的AI冰美式",
+        "original_date": null
+      },
+      "category": "agent-frameworks/harness",
+      "tags": [
+        "harness-engineering",
+        "self-improving",
+        "Meta-Harness",
+        "Stanford",
+        "MIT",
+        "auto-optimization"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "介绍斯坦福+MIT论文《Meta-Harness》，提出让Harness本身进入自动化演进。当前文本优化器在优化Harness时核心问题是反馈压缩——几千步轨迹被压缩成单分数，丢失诊断上下文。Meta-Harness通过将完整文件系统（Python源码、执行日志）开放给代码Agent，让它像人类工程师一样翻阅历史候选、推理失败原因、编写修复代码。实验中TerminalBench-2通过80行环境快照代码使Claude Haiku 4.5达37.6%通过率。",
+      "summary_en": null,
+      "one_liner": "Meta-Harness展示了在代码空间中做全局优化比模板填空强大得多的可能性",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/Harness 层怎么自我进化？来自斯坦福大学和 MIT 的一项新研究-2026-04-23.md",
+      "images": [
+        "https://image.cubox.pro/cardImg/5oub73los8rfe6yz66lygabl81r2wlmk06sh9y5w4q3pd2cey3?imageMogr2/quality/90/ignore-error/1",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dkXZ4WEx",
+      "title": "深入源码：Hermes Agent 如何实现 Self-Improving",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29",
+      "source": {
+        "platform": "wechat",
+        "author": "Unknown",
+        "original_date": null
+      },
+      "category": "agent-frameworks/self-improving",
+      "tags": [
+        "Hermes-Agent",
+        "self-improving",
+        "memory",
+        "skill",
+        "agent-architecture"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "深入分析Hermes Agent开源架构，阐述其Self-Improving闭环的三个子系统：Memory（2200字符容量限制，声明式事实，逼Agent压缩信息；冻结快照机制保护上下文缓存）、Skill（踩坑后自动创建/patch SKILL.md，Pitfalls节记录教训，按需渐进加载）、Nudge Engine（后台fork独立Agent实例审查会话，每10回合/10迭代触发，输出重定向/dev/null用户无感知）。与OpenClaw对比：Skill需手写，Agent不自主学习；Hermes让Agent越用越强。",
+      "summary_en": null,
+      "one_liner": "Hermes Agent的核心创新是Agent能从工作中自主学习并积累经验，而非依赖人工维护",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/深入源码：Hermes Agent 如何实现 -Self-Improving--2026-04-23.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "crFwnMAy",
+      "title": "从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29",
+      "source": {
+        "platform": "wechat",
+        "author": "Unknown",
+        "original_date": null
+      },
+      "category": "agent-frameworks/project-knowledge",
+      "tags": [
+        "AgentX",
+        "project-knowledge",
+        "coding-agent",
+        "Hermes",
+        "skill-evolution"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "作者从Hermes Agent获得启发，开发AgentX插件将自我进化机制从Agent迁移到项目层面。核心设计：知识沉淀分两层（Markdown是证据层，Skill是能力层，必须从Markdown演化而来）；Markdown按Claude Code官方实践分层组织（AGENTS.md入口→专题文档→模块文档→SKILL.md能力层）；Harness Engineering哲学：用Bash/Hook搭骨架，用模型做理解和表达。目标是让Claude Code、Codex、OpenCode等不同agent进入同一项目时，都能共享项目积累的知识资产。",
+      "summary_en": null,
+      "one_liner": "AgentX尝试把AI的自我进化从个人能力变成团队级知识资产",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？-2026-04-23.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2kX8t9cK",
+      "title": "万字总结：我的 Harness Engineering 项目开发实践经验完整分享（上）",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIxMjk2NDE1NA==&mid=2247483752&idx=1&sn=4c49ba63e425aae3c3ea1b96ca138587",
+      "source": {
+        "platform": "wechat",
+        "author": "Unknown",
+        "original_date": null
+      },
+      "category": "agent-frameworks/harness",
+      "tags": [
+        "harness-engineering",
+        "Claude-Code",
+        "Codex",
+        "agent-collaboration",
+        "project-practice"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "作者分享无手写代码前提下项目累计生成15万行代码的实践经验。核心设计：Codex（GPT模型）做规划/验收/需求拆解，Claude Code（国产开源模型）做执行，实现Planner-Evaluator-Generator职责分离。关键机制：阶段计划+结构化Prompt+零信任验收+长期记忆；验收发现的问题（生产路径未验证、异常无日志）自动沉淀到记忆文件下次自动检查。验证了规划与执行不能混、验收与实现不能同角色的核心原则。",
+      "summary_en": null,
+      "one_liner": "规划与执行分离、验收与实现分离是AI编程项目可控的核心工程原则",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "Cubox/万字总结：我的 Harness Engineering 项目开发实践经验完整分享（上）-2026-04-23.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1iuotKVl",
+      "title": "AI 影响力日报 · 2026-04-22",
+      "url": null,
+      "source": {
+        "platform": "twitter",
+        "author": "AI Influencer",
+        "original_date": "2026-04-22"
+      },
+      "category": "strategy/ai-news",
+      "tags": [
+        "AI-news",
+        "daily",
+        "X-Twitter",
+        "influencer"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "本期日报精选6条高价值AI内容：Allie K. Miller推出免费5天邮件课程AI Fast Track帮助用户从AI消费者升级为建造者；其他内容涵盖AI产品开发、工具更新等话题。扫描65个AI账号筛选而出，适合快速了解当日AI社区动态。",
+      "summary_en": null,
+      "one_liner": "AI社区每日精选，适合快速跟踪AI领域的工具动态和趋势",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "active",
+      "local_path": "Twitter/AI影响力日报/2026-04-22.md",
+      "images": [],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aafn2401",
+      "title": "Allie Miller：免费5天课程，从用AI升级到构建AI产品",
+      "url": "https://x.com/alliekmiller/status/1985834763677286606",
+      "source": {
+        "platform": "x",
+        "author": "@alliekmiller",
+        "original_date": "2026-04-24"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "workflow",
+        "course"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Allie Miller推出免费5天邮件课程AI Fast Track，专为非技术背景用户设计，无需编码。课程核心区分单纯使用AI（复制粘贴Prompt）和用AI构建产品/自动化/工具——后者才是真正的AI能力杠杆。内容覆盖从基础到用Claude扩展AI工具箱的完整路径。这是让普通人从AI消费者转变为AI建设者的实用路线图。",
+      "summary_en": "Allie Miller launched a free 5-day email course AI Fast Track for non-technical users. It distinguishes copying-pasting prompts (using AI) from building AI products/automations/tools. Covers the complete path from basics to using Claude as an AI toolbox extension. A practical roadmap for non-technical people to transition from AI consumer to AI builder.",
+      "one_liner": "Allie Miller免费5天课程，手把手带你从用AI升级到构建AI",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aafn2402",
+      "title": "Greg Brockman：GPT-5.5是一种新的智能类别",
+      "url": "https://x.com/gdb/status/2047381612372115812",
+      "source": {
+        "platform": "x",
+        "author": "@gdb",
+        "original_date": "2026-04-24"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "gpt-5.5",
+        "openai"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "OpenAI联合创始人Greg Brockman定义GPT-5.5为一种新的智能类别：在极少人工干预下完成复杂任务，token效率极高，延迟低，可大规模运行。Brockman强调这是真正向让AI完成计算机工作迈进的里程碑。GPT-5.5现已在ChatGPT和Codex中可用，代表Agent时代的基础模型能力基准。",
+      "summary_en": "OpenAI cofounder Greg Brockman defines GPT-5.5 as a new class of intelligence completing complex tasks with minimal micromanagement, highly token-efficient, low latency, scalable. He frames it as a real step toward AI completing computer work. Available now in ChatGPT and Codex as a benchmark for the agent era.",
+      "one_liner": "GDB：GPT-5.5是新智能类别，直觉交互低token开销Agent-ready",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aafn2403",
+      "title": "Peter Yang x Mercury VP：如何为Agent设计API和MCP实战复盘",
+      "url": "https://x.com/petergyang/status/2047320679889162321",
+      "source": {
+        "platform": "x",
+        "author": "@petergyang",
+        "original_date": "2026-04-24"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "workflow",
+        "api",
+        "mcp",
+        "agent"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Peter Yang与Mercury VP @rywiggs合作推出关于Agent API和MCP设计的深度播客。核心观点：2020s的用户交互界面是API和MCP（Machine Communication Protocol），而非传统App。Mercury用Claude Code加500万字公司知识库构建第二大脑，每天自动生成日程/Linear/Slack简报。节目分享了：如何构建Agent友好的知识库结构、如何设计MCP工具接口、最佳API设计原则。这是第一份系统性Agent API/MCP设计实战复盘。",
+      "summary_en": "Peter Yang's new episode with Mercury's VP @rywiggs on designing great APIs and MCPs for agents. Key insight: the 2020s user interface is APIs and MCPs, not traditional apps. Mercury built a Claude Code second brain from 5M words of company knowledge, generating daily briefings. First systematic practical guide on agent-friendly API and MCP design.",
+      "one_liner": "Peter Yang x Mercury VP首份Agent API/MCP设计实战复盘",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aafn2404",
+      "title": "Andrej Karpathy：Farzapedia用LLM把个人数据变成个人维基",
+      "url": "https://x.com/karpathy/status/2040572272944324650",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-04-24"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "personal-knowledge",
+        "llm"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Andrej Karpathy推荐Farzapedia方案：用LLM将2500条日记、Apple Notes、iMessage对话转化为400篇结构化个人Wikipedia文章，涵盖朋友、创业项目、研究领域、喜爱的动漫及其影响。相比AI越用越懂你的隐性记忆，Farza的显式知识库方案更透明、可控、可复用。Karpathy高度评价这是Wiki LLM思路的最佳实践，为个人AI助手个性化提供了新范式。",
+      "summary_en": "Andrej Karpathy endorses Farzapedia: using an LLM to transform 2500 diary entries, Apple Notes, and iMessages into 400 structured personal Wikipedia articles. Compared to implicit AI memory, this explicit knowledge base approach is more transparent and controllable. Karpathy calls it the best practice of the Wiki LLM concept.",
+      "one_liner": "Karpathy推荐：用LLM把个人数据变成可检索的个人维基",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aafn2405",
+      "title": "Google DeepMind：Gemini 3.1 Flash TTS用自然语言控制语音风格",
+      "url": "https://x.com/GoogleAI/status/2044447560384102592",
+      "source": {
+        "platform": "x",
+        "author": "@GoogleAI",
+        "original_date": "2026-04-24"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "tts",
+        "gemini",
+        "google"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Google DeepMind发布Gemini 3.1 Flash TTS，号称迄今最具表现力和可控性的TTS模型。核心创新是Audio Tags——用自然语言命令嵌入音频，可控制语速、语调、情感表达。这意味着TTS从选择固定音色升级为用Prompt控制声音，是AI语音交互的范式级进步。适用场景：语音助手、有声内容创作、无障碍工具。",
+      "summary_en": "Google DeepMind launched Gemini 3.1 Flash TTS, the most expressive and controllable TTS model yet. The core innovation is Audio Tags: natural language commands embedded in audio to control pace, tone, and emotional delivery. This upgrades TTS from selecting fixed voices to prompting for voice, a paradigm shift for AI voice interaction.",
+      "one_liner": "Gemini 3.1 Flash TTS：Audio Tags让TTS进入Prompt控制时代",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aafn2406",
+      "title": "Anthropic：81000名用户调研揭示人们对AI的真实经济期望与担忧",
+      "url": "https://x.com/AnthropicAI/status/2047006548149289017",
+      "source": {
+        "platform": "x",
+        "author": "@AnthropicAI",
+        "original_date": "2026-04-24"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "workflow",
+        "research",
+        "anthropic",
+        "user-study"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Anthropic发布史上最大规模的AI用户定性调研结果：81000人参与，揭示了人们对AI经济发展的具体期望与结构性担忧。调研显示用户对AI的期望不仅是完成任务，更涉及经济安全感、职业影响等深层问题。Anthropic基于此发布了81K Economics研究，为AI产品团队提供了来自真实用户需求侧的结构性参考，而非凭猜测做产品决策。",
+      "summary_en": "Anthropic published the largest qualitative AI user study: 81000 participants revealing concrete economic hopes and structural concerns about AI. Users expect AI to go beyond task completion to addressing economic security and career impact. Anthropic's 81K Economics research provides product teams with data-driven user demand insights.",
+      "one_liner": "Anthropic 81K用户调研为AI产品团队提供需求侧结构性参考",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-24",
       "updated_date": null,
       "github_stars": null,
       "related": []

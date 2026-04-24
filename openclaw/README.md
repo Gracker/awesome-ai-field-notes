@@ -1,19 +1,19 @@
 # AI Field Notes
 
-> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。665 条，中英双语。
+> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。682 条，中英双语。
 
 ## 🆕 今日推荐 Top 10
 
-- [Farzapedia：用日记+笔记训练个人 Wikipedia，LLM 个性化的最佳实践](https://x.com/karpathy/status/2040572272944324650) ⭐4 · 2026-04-22 — 把日记和笔记喂给 LLM 生成个人 Wikipedia，显式记忆 artifact 完胜「用越多越强」
-- [Gemini 3.1 Flash TTS 发布：带 Audio Tags 的最可控语音合成](https://x.com/GoogleAI/status/2044447560384102592) ⭐4 · 2026-04-22 — Gemini 3.1 Flash TTS：用自然语言标签控制语速语调，语音合成进入「精准可控」时代
-- [Deep Research Max：Gemini 3.1 Pro 驱动的自主研究代理，支持自有数据](https://x.com/GoogleDeepMind/status/2046627042335060342) ⭐4 · 2026-04-22 — Gemini 3.1 Pro 自主研究代理：接网页+内部文档，输出带引用来源的专业级报告
-- [TRL 异步 GRPO：解耦推理与训练，RL Scaling 新一代方法解析](https://x.com/Thom_Wolf/status/2045817727705628714) ⭐4 · 2026-04-22 — TRL 异步 GRPO 解耦推理与训练，修复 RL 收敛的精度 mismatch，附完整技术解析
-- [免费 5 天课程：从 AI 用户到 AI 建造者](https://x.com/alliekmiller/status/1985834763677286606) ⭐5 · 2026-04-22 — 免费 5 天课程，手把手教你脱离 Prompt 复制党，用 Claude 构建个人 AI 工具
-- [16 分钟掌握 Claude Design 全套用法：视频/幻灯/网站/App/设计系统](https://x.com/petergyang/status/2045522933943238934) ⭐5 · 2026-04-22 — 16 分钟实操演示，Claude Design 能帮你做视频/网站/App，设计系统也不在话下
-- [用 Codex 自然语言构建 Web 应用和游戏：Greg Brockman 展示新范式](https://x.com/gdb/status/2045594591584530826) ⭐5 · 2026-04-19 — Codex 用自然语言开发游戏和 Web 应用，开发范式新变革
-- [Codex：用纯自然语言构建 Web 应用和小游戏](https://x.com/gdb/status/2045594591584530826) ⭐5 · 2026-04-19 — Codex 自然语言编程：提示词直接生成可运行 Web 应用和游戏
-- [2026 AI First 系列（四）：connecting the dots——你的独特人生路径](https://youmind.com/s/pG5sMT6W7UIdIe) ⭐3 · 2026-04-18 — 在AI时代规划人生，核心是让AI成为connecting dots的放大器，而非被它替代
-- [Allie Miller推出免费5天课程：从AI用户进化为AI建造者](https://x.com/alliekmiller/status/1985834763677286606) ⭐3 · 2026-04-18 — 「用AI」和「用AI建造」之间隔着一个认知跃迁，Fast Track课程填补了实操教育的空白
+- [GPT Image 2的出现，一个设计师的冷思考](https://mp.weixin.qq.com/s?__biz=MjM5MjIyOTA0Mw==&mid=2650203005&idx=1&sn=af664106ce7344b65a98bd6f7265e8ff) ⭐3 · 2026-04-24 — AI图像生成能力的飞跃正在重新定义设计师的价值坐标，从执行者转向决策者
+- [AI Agent 工程化实践指南：如何构建可靠的 Harness 系统](https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw==&mid=2247484077&idx=1&sn=ee3fd75a3799b07df9c08fcbda2b21e4) ⭐4 · 2026-04-24 — Harness Engineering的本质是为Agent构建可靠的运行环境，而非无限增强Prompt
+- [Building agents that reach production systems with MCP](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp) ⭐4 · 2026-04-24 — MCP正在成为生产环境Agent连接外部系统的行业标准协议层
+- [Harness 层怎么自我进化？来自斯坦福大学和 MIT 的一项新研究](https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw==&mid=2247484082&idx=1&sn=aac7ea3868e31bcc3d47e58724adeb19) ⭐4 · 2026-04-24 — Meta-Harness展示了在代码空间中做全局优化比模板填空强大得多的可能性
+- [深入源码：Hermes Agent 如何实现 Self-Improving](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29) ⭐4 · 2026-04-24 — Hermes Agent的核心创新是Agent能从工作中自主学习并积累经验，而非依赖人工维护
+- [从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29) ⭐4 · 2026-04-24 — AgentX尝试把AI的自我进化从个人能力变成团队级知识资产
+- [Greg Brockman：GPT-5.5是一种新的智能类别](https://x.com/gdb/status/2047381612372115812) ⭐4 · 2026-04-24 — GDB：GPT-5.5是新智能类别，直觉交互低token开销Agent-ready
+- [Peter Yang x Mercury VP：如何为Agent设计API和MCP实战复盘](https://x.com/petergyang/status/2047320679889162321) ⭐4 · 2026-04-24 — Peter Yang x Mercury VP首份Agent API/MCP设计实战复盘
+- [Andrej Karpathy：Farzapedia用LLM把个人数据变成个人维基](https://x.com/karpathy/status/2040572272944324650) ⭐4 · 2026-04-24 — Karpathy推荐：用LLM把个人数据变成可检索的个人维基
+- [Google DeepMind：Gemini 3.1 Flash TTS用自然语言控制语音风格](https://x.com/GoogleAI/status/2044447560384102592) ⭐4 · 2026-04-24 — Gemini 3.1 Flash TTS：Audio Tags让TTS进入Prompt控制时代
 
 ## 分类导航
 
