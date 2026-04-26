@@ -1,5 +1,139 @@
 # Changelog
 
+## 2026-04-20 ~ 2026-04-26
+
+### 📈 新增 (74)
+
+#### agent-frameworks
+- [The Hermes Agent Creative Hackathon by Nous Research & Kimi](https://x.com/Kimi_Moonshot/status/2045342163534528723) ⭐3
+- [什么才是真正的 Harness Engineering？](https://x.com/SaitoWu/status/2045458721929892345) ⭐5
+- [Harness Engineering：AI 能在真正出事会炸的后端系统里写代码吗？](https://mp.weixin.qq.com/s/VJgVPeJ5GZhVwbRtneEk_Q) ⭐5
+- [一个扔进项目根目录的 AGENTS.md 文件，让编程代理按高级工程师方式干活](https://x.com/QingQ77/status/2046395996016419050) ⭐4
+- [AI Agent 工程化实践指南：如何构建可靠的 Harness 系统](https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw==&mid=2247484077&idx=1&sn=ee3fd75a3799b07df9c08fcbda2b21e4) ⭐4
+- [Harness 层怎么自我进化？来自斯坦福大学和 MIT 的一项新研究](https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw==&mid=2247484082&idx=1&sn=aac7ea3868e31bcc3d47e58724adeb19) ⭐4
+- [万字总结：我的 Harness Engineering 项目开发实践经验完整分享（上）](https://cubox.pro/web/card/7446888580732946589) ⭐4
+- [langchain-ai/agents-from-scratch: 从零构建 Human-in-the-Loop Email Agent](https://github.com/langchain-ai/agents-from-scratch) ⭐4
+- [Building agents that reach production systems with MCP](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp) ⭐4
+- [Peter Yang x Mercury VP：如何为Agent设计API和MCP实战复盘](https://x.com/petergyang/status/2047320679889162321) ⭐4
+- [LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Pro](https://www.preprints.org/manuscript/202501.0413/v1) ⭐4
+- [How Memory Works in a Multi-Agent System: Inside Multica](https://x.com/mem0ai/status/2045519377655890111) ⭐5
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) ⭐5
+- [OWL: CAMEL-AI 多智能体协作框架，GAIA 基准开源第一](https://github.com/camel-ai/owl) ⭐4
+- [LangGraph 2026: Cyclic Graph Architecture and Production-Ready Feature]() ⭐4
+- [Agentic Coding 的边界](https://x.com/tison1096/status/2045492574945976478) ⭐5
+- [深入源码：Hermes Agent 如何实现 Self-Improving](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29) ⭐5
+- [从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？](https://mp.weixin.qq.com/s?__biz=MzkzNDQxNTI4OA==&mid=2247483840&idx=1&sn=e4da453086f1f3cf660dd25b2de15cb5) ⭐4
+- [AI Agent Landscape 2026: From Experimental Tools to Production Infrast]() ⭐4
+- [MCP Ecosystem 2026: Universal Connector for AI Tools and Cross-Runtime]() ⭐4
+
+#### agent-platforms
+- [Claude Managed Agents: Anthropic's New AI Agent Service](https://claude.com) ⭐4
+
+#### agents
+- [A2UI v0.9: The New Standard for Portable, Framework-Agnostic Generativ](https://developers.googleblog.com/a2ui-v0-9-generative-ui/) ⭐4
+- [Model Context Protocol (MCP) 2026 Roadmap: Production and Enterprise R](https://modelcontextprotocol.io) ⭐4
+- [LangGraph: Build resilient language agents as graphs](https://github.com/langchain-ai/langgraph) ⭐4
+- [AI Agent Framework Landscape in 2026: From LangGraph to Enterprise Sol](https://towardsai.net/blog/ai-agent-frameworks-2026) ⭐4
+- [CrewAI: Framework for orchestrating role-playing, autonomous AI agents](https://github.com/crewAIInc/crewAI) ⭐3
+- [AutoGen: A programming framework for agentic AI](https://github.com/microsoft/autogen) ⭐2
+- [Farzapedia：用个人日记和聊天记录打造可检索的个人 AI 维基](https://x.com/karpathy/status/2040572272944324650) ⭐4
+- [Multi-Agent Collaboration Patterns in 2026: From Theory to Practice](https://medium.com/@techwriter/multi-agent-collaboration-patterns-2026) ⭐3
+
+#### ai-coding
+- [深度解析 Claude Code 在 Prompt / Context / Harness 的设计与实践](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559627&idx=1&sn=7847089f5135e5060953f013fa56fd4f) ⭐5
+- [夜天之书 #119：Agentic Coding 的边界](https://mp.weixin.qq.com/s/x_FUUG4wBUqYs1H5DUtpgQ) ⭐4
+
+#### ai-safety
+- [Nature 论文：LLM 可通过无关数据传递隐藏偏好，对齐研究新方向](https://x.com/AnthropicAI/status/2044493337835802948) ⭐5
+- [Hinton 推荐：国际 AI 安全报告 2026 是 AI 风险必读文献](https://x.com/geoffreyhinton/status/2019532085233611207) ⭐4
+
+#### ai-society
+- [What 81,000 people told us about the economics of AI](https://anthropic.com/research/81k-economics) ⭐5
+
+#### ai-strategy
+- [Using AI vs Building with AI — Allie Miller](https://x.com/alliekmiller/status/1985834763677286606) ⭐2
+
+#### ai-thinking
+- [6.AI时代的变与不变 · Kyte · 墨问](https://note.mowen.cn/detail/8PXAgxTHuHoNUbkQGm4ZU) ⭐4
+
+#### ai-tools
+- [ChatGPT Plus 官方新手教程（2023）](https://chatgpt-plus.github.io/) ⭐1
+
+#### coding
+- [Claude Design Tutorial — petergyang](https://x.com/petergyang/status/2045522933943238934) ⭐3
+- [AI 编码助手从占 20% 工作量提升到 60%，但仍不是万能药](https://www.johndcook.com/blog/2026/04/21/an-ai-odyssey-part-4-astounding-coding-agents/) ⭐3
+- [Greg Brockman 演示：自然语言在 Codex 内完成 WebApp 和游戏开发](https://x.com/gdb/status/2045594591584530826) ⭐4
+- [5 things to try with Gemini 3 Pro in Gemini CLI](https://developers.googleblog.com/5-things-to-try-with-gemini-3-pro-in-gemini-cli/) ⭐4
+- [React 19の新機能まとめ]() ⭐2
+
+#### coding-agents
+- [Claude Code 2026: New Features and Agentic Capabilities]() ⭐4
+
+#### industry
+- [geohot：AI 没有护城河，模型折旧比想象中快，中国没有 AI 狂热](https://geohot.github.io/blog/jekyll/update/2026/04/22/ai-has-no-moat.html) ⭐3
+- [AppleのVision Pro 2发表されました]() ⭐2
+- [NVIDIAが新しいAI加速器を発表]() ⭐2
+- [Claude Code 从 Pro 版移除引发信任危机，Anthropic 仅靠一条推文回应](https://simonwillison.net/2026/Apr/22/claude-code-confusion/) ⭐3
+- [Googleが新しいAI検索アルゴリズムを発表]() ⭐2
+
+#### infra
+- [LiteRT: The Universal Framework for On-Device AI](https://developers.googleblog.com/litert-the-universal-framework-for-on-device-ai/) ⭐4
+
+#### learning
+- [斯坦福大模型底层逻辑两小时讲座](https://x.com/LuBtc888/status/2045456807133360249) ⭐3
+
+#### models
+- [The Ultimate Guide to Claude Opus 4.7](https://x.com/PawelHuryn/status/2046197132105769065) ⭐5
+- [OpenAIがGPT-5の技術詳細を一部公開]() ⭐2
+- [Greg Brockman：GPT-5.5是一种新的智能类别](https://x.com/gdb/status/2047381612372115812) ⭐5
+- [MiniMax M2.7 权重开源：超越 GPT-4 的 Coding 能力](https://x.com/MiniMax_AI/status/2043132047397659000) ⭐4
+- [Qwen3.6-27B：27B 参数密集模型达到旗舰级编程水平](https://simonwillison.net/2026/Apr/22/qwen36-27b/) ⭐4
+- [GPT-2 规模模型训练干预实验：学习率是最大变量，Dropout 反而有害](https://www.gilesthomas.com/2026/04/llm-from-scratch-32m-interventions-conclusion) ⭐4
+
+#### multimodal
+- [Gemini 3.1 Flash TTS 登陆 Google Vids，支持一键脚本转专业旁白](https://x.com/GoogleAI/status/2044447638511383024) ⭐4
+- [GPT Image 2的出现，一个设计师的冷思考](https://mp.weixin.qq.com/s?__biz=MjM5MjIyOTA0Mw==&mid=2650203005&idx=1&sn=af664106ce7344b65a98bd6f7265e8ff) ⭐3
+- [ChatGPT Images 2.0 发布，Where's Waldo 风格测试引发争议](https://simonwillison.net/2026/Apr/21/gpt-image-2/) ⭐3
+- [Gemini 3.1 Flash TTS 发布：带 Audio Tags 的最可控语音合成](https://x.com/GoogleAI/status/2044447560384102592) ⭐3
+
+#### prompt-engineering
+- [Prompt Engineering Whitepaper — Kaggle](https://www.kaggle.com/whitepaper-prompt-engineering) ⭐3
+- [提示艺术：PromptPerfect 提示优化器测试体验](https://zhuanlan.zhihu.com/p/611970732) ⭐2
+
+#### research
+- [距离 AGI，还有 3 年](https://x.com/oran_ge/status/2045646078943572163) ⭐4
+- [AI 时代如何成为顶级程序员：能力跃迁、杠杆与品味](https://x.com/PandaTalk8/status/2045702119764922618) ⭐5
+- [发现意图：AI 时代的用户体验设计](https://x.com/nash_su/status/2046460848928157821) ⭐5
+
+#### research-agents
+- [Deep Research Max：Gemini 3.1 Pro 驱动的自主研究代理，支持自有数据](https://x.com/GoogleDeepMind/status/2046627042335060342) ⭐4
+
+#### rl-training
+- [TRL 异步 GRPO：解耦推理与训练，RL Scaling 新一代方法解析](https://x.com/Thom_Wolf/status/2045817727705628714) ⭐5
+
+#### robotics
+- [Movement Matters: A Turing Test for Robot Interaction](https://motionlanguage.github.io/robot-turing-test/) ⭐3
+
+#### safety
+- [四项新研究一致显示：LLM 医疗建议准确率低，不应作为临床决策依据](https://garymarcus.substack.com/p/please-dont-trust-your-chatbot-for) ⭐4
+
+#### society
+- [从历史 Luddites 看反 AI 数据中心运动：1816 年的教训](https://seangoedecke.com/luddites-and-ai-datacenters/) ⭐3
+
+#### tools
+- [Building a brand system with Claude Design](https://x.com/jdsimcoe/status/2045571224177401869) ⭐4
+- [Xcode Build Optimization Agent Skill](https://x.com/fuguizhuo/status/2046068642941379057) ⭐3
+- [iamzhihuix/skills-manage: 跨平台 AI Coding Agent Skills 统一管理桌面应用](https://github.com/iamzhihuix/skills-manage) ⭐4
+- [完美~ 让 AI 生成的专业文档也能排版得好看](https://x.com/QingQ77/status/2046589577578848286) ⭐3
+
+### ✏️ 评分调整 (0)
+本周无评分调整记录
+
+### 📊 统计
+- 总条目: 65 → 139 (+74)
+- 活跃条目: 65 → 139 (+74)
+- 本周最高分新增: [Nature 论文：LLM 可通过无关数据传递隐藏偏好，对齐研究新方向](https://x.com/AnthropicAI/status/2044493337835802948) ⭐5
+
 ## 2026-04-13 ~ 2026-04-19
 
 ### 📈 新增 (32)
