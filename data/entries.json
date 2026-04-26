@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema_description": "每条记录必须基于实际文件内容提取，禁止捏造。英文原文需提供中英双语摘要。",
-  "last_updated": "2026-04-24",
+  "last_updated": "2026-04-27",
   "entries": [
     {
       "id": "ppNqbBb5",
@@ -40,7 +40,8 @@
       "added_date": "2026-04-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "l5ysgz2n",
@@ -74,7 +75,8 @@
       "added_date": "2026-04-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gok4hbw1",
@@ -108,7 +110,8 @@
       "added_date": "2026-04-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ezlw451n",
@@ -141,7 +144,8 @@
       "added_date": "2026-04-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "95bb9512",
@@ -174,7 +178,8 @@
       "added_date": "2026-04-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8wchcs0s",
@@ -207,7 +212,8 @@
       "added_date": "2026-04-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7bf35471",
@@ -273,7 +279,8 @@
       "added_date": "2026-04-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2z4h3cnl",
@@ -306,7 +313,8 @@
       "added_date": "2026-04-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "14ddc3ca",
@@ -339,7 +347,8 @@
       "added_date": "2026-04-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "07cfabab",
@@ -372,7 +381,8 @@
       "added_date": "2026-04-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a23ba478",
@@ -407,8 +417,7 @@
       "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "654d1a18",
@@ -443,8 +452,7 @@
       "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "5c8c9b14",
@@ -475,7 +483,8 @@
       "added_date": "2026-04-17",
       "updated_date": "2026-04-19",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_path": "content/5c8c9b14.md"
     },
     {
       "id": "4be25f79",
@@ -506,7 +515,8 @@
       "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_path": "content/4be25f79.md"
     },
     {
       "id": "4b29f474",
@@ -542,8 +552,7 @@
       "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4409adc4",
@@ -606,7 +615,8 @@
       "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_path": "content/354d4da8.md"
     },
     {
       "id": "276058ca",
@@ -642,8 +652,7 @@
       "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "tIs9VugG",
@@ -678,7 +687,6 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false,
       "content_path": "content/tIs9VugG.md"
     },
     {
@@ -713,8 +721,7 @@
       "added_date": "2026-04-16",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "iplvrqyc",
@@ -747,8 +754,7 @@
       "added_date": "2026-04-16",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "hqm6txq4",
@@ -787,7 +793,7 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "content_path": "content/hqm6txq4.md"
     },
     {
       "id": "N7uUaY82",
@@ -822,8 +828,7 @@
       "added_date": "2026-04-16",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "9eJpiC4m",
@@ -858,8 +863,7 @@
       "added_date": "2026-04-16",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "0qPTtvSb",
@@ -894,8 +898,7 @@
       "added_date": "2026-04-16",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "c9567fc80a61",
@@ -935,7 +938,7 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "content_path": "content/c9567fc80a61.md"
     },
     {
       "id": "8ee8a8b72ffc",
@@ -973,8 +976,7 @@
       "added_date": "2026-04-15",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "89fa848ed0d4",
@@ -1014,7 +1016,7 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "content_path": "content/89fa848ed0d4.md"
     },
     {
       "id": "73831b80fee8",
@@ -1053,8 +1055,7 @@
       "added_date": "2026-04-15",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6a2113a2d9ca",
@@ -1092,8 +1093,7 @@
       "added_date": "2026-04-15",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "480a4f5679ff",
@@ -1131,8 +1131,7 @@
       "added_date": "2026-04-15",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "0bf2b5b84701",
@@ -1166,8 +1165,7 @@
       "added_date": "2026-04-15",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "013eb7fd5ab9",
@@ -1202,8 +1200,7 @@
       "added_date": "2026-04-15",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jvblhpoud3ey",
@@ -1243,8 +1240,7 @@
       "added_date": "2026-04-12",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "72x6hfdeebbo",
@@ -1283,8 +1279,7 @@
       "added_date": "2026-04-12",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "n3m8itb5",
@@ -1322,8 +1317,7 @@
       "added_date": "2026-04-11",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "cc15hq4t",
@@ -1360,8 +1354,7 @@
       "added_date": "2026-04-11",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "zybyi5t5",
@@ -1399,8 +1392,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "zupjc5pe",
@@ -1466,8 +1458,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "zo5tepps",
@@ -1504,8 +1495,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "zlsa1lat",
@@ -1544,8 +1534,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "zkmmaa8x",
@@ -1580,8 +1569,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "zg78bxt9",
@@ -1621,8 +1609,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "zfABlYgH",
@@ -1650,8 +1637,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "zd6x1q13",
@@ -1698,8 +1684,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "zYrJXpqf",
@@ -1725,8 +1710,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "zVUUhuXa",
@@ -1758,8 +1742,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "zRr0rcvY",
@@ -1791,8 +1774,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "zPLRBWtX",
@@ -1821,8 +1803,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "z8jjvpnw",
@@ -1945,8 +1926,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "z5yx2tcn",
@@ -1977,8 +1957,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "z1r6uGXC",
@@ -2010,8 +1989,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "z1jgz9it",
@@ -2048,8 +2026,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "z1AvjND1",
@@ -2081,8 +2058,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "z10ujypt",
@@ -2111,8 +2087,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "yzi1wbrv",
@@ -2150,8 +2125,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "yno49t26",
@@ -2186,8 +2160,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "yj96fkem",
@@ -2228,8 +2201,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "yY7hcksg",
@@ -2255,8 +2227,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "y1pyhae8",
@@ -2294,8 +2265,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "y1of91bq",
@@ -2328,8 +2298,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "xx4T4d34",
@@ -2359,8 +2328,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "xvQu7gDI",
@@ -2391,8 +2359,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "xndt49x2",
@@ -2460,8 +2427,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "xlkfMLwP",
@@ -2489,8 +2455,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "xl381umc",
@@ -2557,8 +2522,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "xdooL4IY",
@@ -2590,8 +2554,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "x88lksbo",
@@ -2624,8 +2587,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "x7fluovs",
@@ -2657,8 +2619,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "x4e5l5ie",
@@ -2692,8 +2653,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "x1S56IGx",
@@ -2725,8 +2685,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "wyqaalah",
@@ -2772,8 +2731,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "wvhfogqr",
@@ -2810,8 +2768,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "wu00h8om",
@@ -2858,8 +2815,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "wssa4dxk",
@@ -2889,8 +2845,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": 1104,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "wri21wds",
@@ -2918,8 +2873,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "wej5ryog",
@@ -2959,8 +2913,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "wRYAJAjI",
@@ -2992,8 +2945,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "wPe1FCk7",
@@ -3024,8 +2976,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "wLxsv45l",
@@ -3057,8 +3008,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "w7zipi3z",
@@ -3125,8 +3075,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "vu8j87wr",
@@ -3157,8 +3106,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "vsi0528w",
@@ -3190,8 +3138,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "vpysqp70",
@@ -3231,8 +3178,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": 59145,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "vpd4rsxd",
@@ -3266,8 +3212,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "vnkJ1ZFm",
@@ -3296,8 +3241,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "vlib0lxg",
@@ -3332,8 +3276,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "vjxgeej5",
@@ -3369,8 +3312,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "vgz222nz",
@@ -3401,8 +3343,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "vbv4u5ai",
@@ -3434,8 +3375,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": 25,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "va1ug3br",
@@ -3500,8 +3440,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "vKh1cmIG",
@@ -3527,8 +3466,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "v9wtMdrp",
@@ -3556,8 +3494,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "uyp02il6",
@@ -3592,8 +3529,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "uk1rinrc",
@@ -3626,7 +3562,7 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "content_path": "content/uk1rinrc.md"
     },
     {
       "id": "ui7ss4vj",
@@ -3659,8 +3595,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ud05ywye",
@@ -3694,7 +3629,7 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "content_path": "content/ud05ywye.md"
     },
     {
       "id": "u5xlob71",
@@ -3729,8 +3664,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "u4y5t085",
@@ -3760,8 +3694,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "u4axbgh7",
@@ -3793,8 +3726,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "u4186wlk",
@@ -3826,8 +3758,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "u2o9qdqv",
@@ -3889,8 +3820,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "u1sruce7",
@@ -3924,8 +3854,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "tywie884",
@@ -4027,8 +3956,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "toln3leb",
@@ -4064,8 +3992,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "tl7ec0pw",
@@ -4097,8 +4024,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ti07g7fy",
@@ -4130,8 +4056,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "th1krdfe",
@@ -4170,8 +4095,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "tdztvvhy",
@@ -4204,8 +4128,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "tcmvafdf",
@@ -4237,8 +4160,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "tc392hip",
@@ -4343,8 +4265,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "tInTiqer",
@@ -4370,8 +4291,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "tIWMl2F6",
@@ -4403,8 +4323,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "t4qy829o",
@@ -4472,8 +4391,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "swk7j22h",
@@ -4532,8 +4450,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "srx8r112",
@@ -4568,8 +4485,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "snf32dzk",
@@ -4603,8 +4519,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "smo0obr4",
@@ -4666,8 +4581,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "sfPTt5Ja",
@@ -4699,8 +4613,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "se8oa9cc",
@@ -4728,8 +4641,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "sdqxy470",
@@ -4763,8 +4675,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "sYGvrjjl",
@@ -4790,8 +4701,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "sWKQvkTb",
@@ -4817,8 +4727,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "s4t21yew",
@@ -4849,8 +4758,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "s4niyx5b",
@@ -4884,8 +4792,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "s3r7a5ia",
@@ -4916,8 +4823,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "s38betnu",
@@ -4952,8 +4858,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "s2wjtb3x",
@@ -4994,8 +4899,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "s1kn7mom",
@@ -5044,8 +4948,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ryn4vd8o",
@@ -5079,8 +4982,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "rx7t9zxg",
@@ -5111,8 +5013,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ru2zdr01",
@@ -5147,8 +5048,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "rrozy75n",
@@ -5181,8 +5081,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "rnjpbgtm",
@@ -5214,8 +5113,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "rl3QA7au",
@@ -5247,8 +5145,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "rkj1iPVF",
@@ -5277,8 +5174,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "riqbHI5W",
@@ -5337,8 +5233,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "rarx3y62",
@@ -5370,8 +5265,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "rab5subx",
@@ -5400,8 +5294,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "rY5ljx6P",
@@ -5433,8 +5326,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "rHWqbklI",
@@ -5466,8 +5358,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "r5jbtfwg",
@@ -5501,8 +5392,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "r5io6o5x",
@@ -5533,8 +5423,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "r0sryqff",
@@ -5569,8 +5458,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qx9guy83",
@@ -5607,8 +5495,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qrmyacd6",
@@ -5678,8 +5565,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qr4q3vtj",
@@ -5710,8 +5596,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qq6gmc8z",
@@ -5744,8 +5629,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qky6krnb",
@@ -5777,8 +5661,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qiwV8Dd1",
@@ -5810,8 +5693,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qivuzz8c",
@@ -5879,8 +5761,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qi4k0joz",
@@ -5913,8 +5794,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qhnleufw",
@@ -5954,8 +5834,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qez0zcgb",
@@ -6060,8 +5939,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qZBBBaMW",
@@ -6090,8 +5968,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qGL1H9gQ",
@@ -6123,8 +6000,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qFQ8iIW6",
@@ -6152,8 +6028,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "qDDLoE0z",
@@ -6185,8 +6060,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "q7qmybqr",
@@ -6217,8 +6091,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "q38vahjk",
@@ -6253,8 +6126,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "q32ssunn",
@@ -6286,8 +6158,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "pxejvdmr",
@@ -6319,8 +6190,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "pvee10h3",
@@ -6354,8 +6224,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "pt2nps34",
@@ -6390,8 +6259,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "poAs9BYw",
@@ -6422,8 +6290,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "pkzeuz1r",
@@ -6461,8 +6328,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "pj7y4se0",
@@ -6497,8 +6363,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "piwjuvv3",
@@ -6535,8 +6400,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ph1cwmef",
@@ -6602,8 +6466,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "pflm2lpg",
@@ -6649,8 +6512,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "pbEBrpNe",
@@ -6682,8 +6544,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "pLFMQKqL",
@@ -6715,8 +6576,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "pEdo0DGq",
@@ -6748,8 +6608,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "pAE2ddQw",
@@ -6781,8 +6640,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "pA4XZJXH",
@@ -6811,8 +6669,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "p8k8RFur",
@@ -6844,8 +6701,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "p69exx48",
@@ -6908,8 +6764,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "p327t0g8",
@@ -6939,8 +6794,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "p2d1wlm8",
@@ -6968,8 +6822,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "p03L1Cm5",
@@ -6995,8 +6848,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ozubfvu1",
@@ -7029,8 +6881,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "owxj3v91",
@@ -7063,8 +6914,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ow5awxkq",
@@ -7124,8 +6974,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "otjpnj3j",
@@ -7158,8 +7007,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "oprzewvb",
@@ -7189,8 +7037,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "onqk9vx5",
@@ -7229,8 +7076,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "oihs1hkc",
@@ -7267,8 +7113,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "oa7ahj95",
@@ -7303,8 +7148,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": 4919,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "oSwUUAML",
@@ -7336,8 +7180,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "oJDkWyFV",
@@ -7369,8 +7212,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "o7d75kh2",
@@ -7403,8 +7245,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "o70e53hy",
@@ -7439,8 +7280,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "o46wQj1X",
@@ -7472,8 +7312,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "o2e1sj9n",
@@ -7506,8 +7345,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "nysmkgxr",
@@ -7597,8 +7435,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "np6822c5",
@@ -7800,8 +7637,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": 879,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "noymctov",
@@ -7839,8 +7675,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "nkDGIhK7",
@@ -7872,8 +7707,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "nivhloc2",
@@ -7907,8 +7741,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ni3njxvh",
@@ -7943,8 +7776,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "nha3a46y",
@@ -7977,8 +7809,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ng74ojns",
@@ -8012,8 +7843,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "na4z0qvz",
@@ -8048,8 +7878,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "nMGRQWXE",
@@ -8081,8 +7910,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "n7gu2chx",
@@ -8113,8 +7941,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "n28eerxp",
@@ -8147,8 +7974,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "myf43gs4",
@@ -8179,8 +8005,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "mvlieoq1",
@@ -8220,8 +8045,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "msn7omkf",
@@ -8256,8 +8080,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "mpn920xb",
@@ -8288,8 +8111,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "mpkvzkl8",
@@ -8322,8 +8144,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "miopc080",
@@ -8355,8 +8176,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "mALGQqbB",
@@ -8384,8 +8204,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "m73rjk9f",
@@ -8452,8 +8271,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "m56axpoa",
@@ -8496,8 +8314,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "lxpbe6h3",
@@ -8526,8 +8343,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "lsdwlVlb",
@@ -8559,8 +8375,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ln2oy72e",
@@ -8592,8 +8407,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "lgeaam64",
@@ -8660,8 +8474,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "lbks005n",
@@ -8690,8 +8503,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "lapawuax",
@@ -8725,8 +8537,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "lNDjMOnJ",
@@ -8758,8 +8569,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "lJ57lkMO",
@@ -8791,8 +8601,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "lFM15jeI",
@@ -8824,8 +8633,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "l9nwgb3o",
@@ -8860,8 +8668,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "l92x6515",
@@ -8938,8 +8745,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "l4fKjSXo",
@@ -8971,8 +8777,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "l0l4m0fl",
@@ -9084,8 +8889,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "l0k8w6ct",
@@ -9146,8 +8950,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": 29793,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "kz0IrabE",
@@ -9179,8 +8982,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "kr3zm1t7",
@@ -9212,8 +9014,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "kmpQ5O9M",
@@ -9245,8 +9046,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "klbtvlqs",
@@ -9280,8 +9080,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "kbzn2ti1",
@@ -9313,8 +9112,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "kTN3RZ28",
@@ -9346,8 +9144,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "k27e2ufv",
@@ -9381,8 +9178,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jzvwn07d",
@@ -9416,8 +9212,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jyT3Fx2b",
@@ -9449,8 +9244,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jrofx5ms",
@@ -9482,8 +9276,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jqlapdk9",
@@ -9519,8 +9312,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jp7jaeos",
@@ -9555,8 +9347,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jok2gv0b",
@@ -9590,8 +9381,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jmsjfthh",
@@ -9623,8 +9413,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jk6udyp9",
@@ -9658,8 +9447,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jiHXajgo",
@@ -9691,8 +9479,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jiClprfo",
@@ -9724,8 +9511,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jO5Gvh7s",
@@ -9751,8 +9537,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jLWwBaDf",
@@ -9784,8 +9569,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "jFpYdohv",
@@ -9814,8 +9598,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "j9u8xwq6",
@@ -9849,8 +9632,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "j6ukhx11",
@@ -9913,8 +9695,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "j5VLFqTF",
@@ -9946,8 +9727,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "j4Ev6hzf",
@@ -9979,8 +9759,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "j1iox309",
@@ -10047,8 +9826,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "izm2nhfr",
@@ -10080,8 +9858,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "itikhf3n",
@@ -10115,8 +9892,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "io49f422",
@@ -10151,8 +9927,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ikxp5obl",
@@ -10192,8 +9967,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ik7vx8cy",
@@ -10225,8 +9999,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ij7mldvu",
@@ -10292,8 +10065,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "iXcRwjIp",
@@ -10325,8 +10097,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "iWdwmAqE",
@@ -10358,8 +10129,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "iMrcg1S1",
@@ -10385,8 +10155,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "iE9BadvV",
@@ -10418,8 +10187,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "i4ujbfte",
@@ -10450,8 +10218,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "hyfiqln2",
@@ -10483,8 +10250,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "huopxfae",
@@ -10517,8 +10283,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "hu2ghikp",
@@ -10551,8 +10316,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ht1p4rsf",
@@ -10587,8 +10351,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "hlvuc980",
@@ -10620,8 +10383,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "hjiptobw",
@@ -10659,8 +10421,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "hh3xc35c",
@@ -10725,8 +10486,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "h9mo4t3x",
@@ -10794,8 +10554,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "h5buHi48",
@@ -10821,8 +10580,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "h4iaky1i",
@@ -10861,8 +10619,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "gzimnr20",
@@ -10896,8 +10653,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "gtcaz1r1",
@@ -10932,8 +10688,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "grcvmlet",
@@ -10965,8 +10720,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "gpbo0rtm",
@@ -10999,8 +10753,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "gnqojZ93",
@@ -11026,8 +10779,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "gl77yady",
@@ -11059,8 +10811,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "gk8gfuyf",
@@ -11166,8 +10917,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ghekus0k",
@@ -11207,8 +10957,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ggh39whe",
@@ -11243,8 +10992,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "gey4i36q",
@@ -11276,8 +11024,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ga5iefwf",
@@ -11311,8 +11058,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "g96boqc1",
@@ -11344,8 +11090,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "g2XhdceF",
@@ -11377,8 +11122,7 @@
       "added_date": "2026-04-10",
       "updated_date": "2026-04-15",
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "g0l3fstx",
@@ -11410,8 +11154,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "fzv3l7o9",
@@ -11447,8 +11190,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "fvwtcwdn",
@@ -11481,8 +11223,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "fuxlqv7h",
@@ -11517,8 +11258,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ftvnh74m",
@@ -11641,8 +11381,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "fpmdn3mj",
@@ -11677,8 +11416,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "fj2smvgl",
@@ -11743,8 +11481,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "fewYF2Nt",
@@ -11776,8 +11513,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "fcaeud36",
@@ -11810,8 +11546,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "fKDuLILB",
@@ -11843,8 +11578,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "fCZaU0p7",
@@ -11876,8 +11610,7 @@
       "added_date": "2026-04-10",
       "updated_date": "2026-04-15",
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "fCNuxEDq",
@@ -11903,8 +11636,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "f7cndt4r",
@@ -11939,8 +11671,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "f71nn8lk",
@@ -11972,8 +11703,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "f4uptczq",
@@ -12007,8 +11737,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ez9vv62c",
@@ -12040,8 +11769,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "eyluueyt",
@@ -12140,8 +11868,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ekyuztr8",
@@ -12207,8 +11934,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "egu78302",
@@ -12243,8 +11969,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "efaw158d",
@@ -12310,8 +12035,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "eah3p75m",
@@ -12345,8 +12069,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "eW0H313o",
@@ -12376,8 +12099,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "eNLfwH3A",
@@ -12409,8 +12131,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "eLRMGrp7",
@@ -12436,8 +12157,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "eL4AGdKd",
@@ -12469,8 +12189,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "e9q0ujt1",
@@ -12533,8 +12252,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "e819jgsa",
@@ -12605,8 +12323,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "e7QC8TYz",
@@ -12638,8 +12355,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "e4of4uf4",
@@ -12671,8 +12387,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "e1k3ik20",
@@ -12705,8 +12420,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "dys3agqj",
@@ -12771,8 +12485,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "dw7v9v1j",
@@ -12811,8 +12524,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "dtviw53e",
@@ -12850,8 +12562,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "dp1D5lbH",
@@ -12883,8 +12594,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "dfuk5hd5",
@@ -12919,8 +12629,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "dREy4RkI",
@@ -12952,8 +12661,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "dB7RnCtb",
@@ -12985,8 +12693,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "d3txcbhe",
@@ -13046,8 +12753,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "cz1i1n7f",
@@ -13079,8 +12785,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "cvqqsf6n",
@@ -13123,8 +12828,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "cuvjviqp",
@@ -13158,8 +12862,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "cuevct3j",
@@ -13192,8 +12895,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "crdmzre5",
@@ -13225,8 +12927,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "cpuc7957",
@@ -13273,8 +12974,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "cowB3w88",
@@ -13306,8 +13006,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ca1ebffb",
@@ -13342,8 +13041,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "cVIv9e0T",
@@ -13395,8 +13093,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "cAsbQmXd",
@@ -13425,8 +13122,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "c7cnj6ij",
@@ -13492,8 +13188,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "c5xxse0i",
@@ -13563,8 +13258,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "c4is4wst",
@@ -13611,8 +13305,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "c3xq8hlt",
@@ -13645,8 +13338,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "c3dc5hz4",
@@ -13683,8 +13375,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": 8584,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "c1kV8Lly",
@@ -13710,8 +13401,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "c14xt2b8",
@@ -13780,8 +13470,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "brore2ll",
@@ -13822,8 +13511,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "bm07nb7r",
@@ -13856,8 +13544,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "bl4udth8",
@@ -13890,8 +13577,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "bjwxklv4",
@@ -13926,8 +13612,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "biKdjZqx",
@@ -13959,8 +13644,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "bhPwe443",
@@ -13986,8 +13670,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "bfk5atxz",
@@ -14020,8 +13703,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "be2lx9fi",
@@ -14067,8 +13749,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "bdzl4vyf",
@@ -14103,8 +13784,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "bcm7w7vv",
@@ -14143,8 +13823,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "bbKeXzN9",
@@ -14176,8 +13855,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "bQ1IR63I",
@@ -14203,8 +13881,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "bB9VugZ9",
@@ -14230,8 +13907,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "b8r6a80s",
@@ -14265,8 +13941,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "b7rx3L1j",
@@ -14298,8 +13973,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "b75mu5rc",
@@ -14332,8 +14006,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "b6bs8e91",
@@ -14377,8 +14050,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "awh81ez0",
@@ -14410,8 +14082,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "apm1yd3g",
@@ -14447,8 +14118,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "an1q7e8h",
@@ -14495,8 +14165,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "akhmlo92",
@@ -14528,8 +14197,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "aiw3skr3",
@@ -14600,8 +14268,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "af561ck4",
@@ -14634,8 +14301,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "aakm0n26",
@@ -14668,8 +14334,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "a26ppn58",
@@ -14704,8 +14369,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ZxKiEcO1",
@@ -14737,8 +14401,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Zw0qqV0e",
@@ -14764,8 +14427,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ZpqUcxyn",
@@ -14791,8 +14453,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ZpcfjBM5",
@@ -14824,8 +14485,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ZarQOzOt",
@@ -14857,8 +14517,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ZUqMvPQK",
@@ -14890,8 +14549,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "YJ4xL9Ii",
@@ -14919,8 +14577,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "XkYDSpBp",
@@ -14952,8 +14609,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "XBaDFs3i",
@@ -14985,8 +14641,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "VvMFpddm",
@@ -15018,8 +14673,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "VkExTygi",
@@ -15051,8 +14705,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "VPAy4XTG",
@@ -15078,8 +14731,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "V4JUiSO2",
@@ -15105,8 +14757,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "UzkyEDYa",
@@ -15134,8 +14785,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "UYssbHTn",
@@ -15163,8 +14813,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "USoSjovC",
@@ -15190,8 +14839,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "UJafQqQR",
@@ -15217,8 +14865,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "U5fxthHm",
@@ -15250,8 +14897,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "TqI05qAQ",
@@ -15283,8 +14929,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "TgmFvCIT",
@@ -15316,8 +14961,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "TFUOn14l",
@@ -15346,8 +14990,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "TCvt6xg7",
@@ -15379,8 +15022,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "T4eWO6CN",
@@ -15412,8 +15054,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "T4cgCGJL",
@@ -15445,8 +15086,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Sc9pBhL1",
@@ -15478,8 +15118,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "SGfLS1cX",
@@ -15511,8 +15150,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "SBuvmeAX",
@@ -15541,8 +15179,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "RLhhZudb",
@@ -15574,8 +15211,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Qwelg7Iw",
@@ -15604,8 +15240,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Q2EBAkbQ",
@@ -15637,8 +15272,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Pk8NT8f0",
@@ -15670,8 +15304,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "PfFuGBYt",
@@ -15703,8 +15336,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "PEXWvRQg",
@@ -15736,8 +15368,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "P7QKZPlf",
@@ -15769,8 +15400,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "P4BtzGJn",
@@ -15800,8 +15430,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "NoFTnFnJ",
@@ -15833,8 +15462,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "NKcknavl",
@@ -15866,8 +15494,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "NI1Wck6A",
@@ -15896,8 +15523,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "NAA9ai9n",
@@ -15929,8 +15555,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "N72cKahx",
@@ -15958,8 +15583,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "MIOvnhLW",
@@ -15989,8 +15613,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "LyeEG95Z",
@@ -16022,8 +15645,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Lba9oZ0V",
@@ -16054,8 +15676,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "KxSifvJd",
@@ -16087,8 +15708,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Kx0X2XTA",
@@ -16120,8 +15740,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "KUhDnaSh",
@@ -16153,8 +15772,7 @@
       "added_date": "2026-04-10",
       "updated_date": "2026-04-15",
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "K8o15MzY",
@@ -16182,8 +15800,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Js9Ltvmf",
@@ -16212,8 +15829,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Jf9wKqdA",
@@ -16242,8 +15858,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "JYORCD6u",
@@ -16273,8 +15888,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "JT8QPECH",
@@ -16306,8 +15920,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "IsiZuwcx",
@@ -16335,8 +15948,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "InpU8e9h",
@@ -16368,8 +15980,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "IdUvhxGd",
@@ -16395,8 +16006,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "ISpaw0wh",
@@ -16428,8 +16038,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "HuGrtFDi",
@@ -16460,8 +16069,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "HpN4qdhf",
@@ -16487,8 +16095,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Hmtv8bh8",
@@ -16540,8 +16147,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "HbXf6wgt",
@@ -16573,8 +16179,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Gw50izXi",
@@ -16606,8 +16211,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "GLLemXIU",
@@ -16639,8 +16243,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "G4U04j95",
@@ -16668,8 +16271,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "EOvU8ykq",
@@ -16701,8 +16303,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "E1s71i0w",
@@ -16734,8 +16335,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "DdX7I8qz",
@@ -16761,8 +16361,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "DJotrA2L",
@@ -16794,8 +16393,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Cz4J8TlT",
@@ -16827,8 +16425,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "CLYRcWXL",
@@ -16854,8 +16451,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "C21Owl12",
@@ -16887,8 +16483,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Bl3gKPKG",
@@ -16920,8 +16515,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "BduNmS5g",
@@ -16953,8 +16547,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "BZwVgqGU",
@@ -16986,8 +16579,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "BZMiTd8i",
@@ -17019,8 +16611,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "BXSV6cyw",
@@ -17052,8 +16643,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "BLZW8CcM",
@@ -17085,8 +16675,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "AyT7A8Os",
@@ -17115,8 +16704,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "Ac0YVZZ8",
@@ -17142,8 +16730,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "AWgBSez0",
@@ -17173,8 +16760,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "AAbj5iB9",
@@ -17206,8 +16792,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "9z9o90bz",
@@ -17235,8 +16820,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "9ysrddrr",
@@ -17272,8 +16856,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "9w8qgqt5",
@@ -17330,8 +16913,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "9uwhf8gu",
@@ -17359,8 +16941,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "9ssm00y0",
@@ -17412,8 +16993,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "9km798fa",
@@ -17448,8 +17028,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "9kc59m51",
@@ -17481,8 +17060,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "9j1ds5wp",
@@ -17518,8 +17096,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "9cbi80c7",
@@ -17552,8 +17129,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "9PvdMvQM",
@@ -17584,8 +17160,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "99c1asrp",
@@ -17617,8 +17192,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "98kzc8ih",
@@ -17661,8 +17235,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "954DcdXP",
@@ -17688,8 +17261,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "94ocqfsx",
@@ -17720,8 +17292,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "90udpdgs",
@@ -17762,8 +17333,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "8usho2cd",
@@ -17798,8 +17368,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "8uey92b2",
@@ -17838,8 +17407,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "8qb7y6ic",
@@ -17872,8 +17440,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "8nsl8czg",
@@ -17905,8 +17472,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "8lwuhhmb",
@@ -17946,8 +17512,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "8j0fqkj3",
@@ -17981,8 +17546,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "8ciwpr89",
@@ -18019,8 +17583,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "8VnKkfK7",
@@ -18046,8 +17609,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "8UjPSqiw",
@@ -18079,8 +17641,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "8005mvsm",
@@ -18112,8 +17673,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "7ypeivbn",
@@ -18150,8 +17710,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": 8387,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "7wc3T3GQ",
@@ -18183,8 +17742,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "7tqryuqs",
@@ -18213,8 +17771,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "7r292cja",
@@ -18247,8 +17804,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "7pp7rfh8",
@@ -18308,8 +17864,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "7nmmn49m",
@@ -18342,8 +17897,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "7n5hkzn5",
@@ -18376,8 +17930,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "7l3itHCM",
@@ -18406,8 +17959,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "7j2ija36",
@@ -18435,8 +17987,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "7i9ufapk",
@@ -18489,8 +18040,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "7gpoqruF",
@@ -18522,8 +18072,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "7az6rlg5",
@@ -18556,8 +18105,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "7AhqzZQj",
@@ -18586,8 +18134,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "76bvexts",
@@ -18651,8 +18198,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "72iq5gol",
@@ -18686,8 +18232,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "714pswc9",
@@ -18722,8 +18267,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "714nhdim",
@@ -18757,8 +18301,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6zoniwix",
@@ -18794,8 +18337,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6zezxy4x",
@@ -18831,8 +18373,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6xwg2sj2",
@@ -18865,8 +18406,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6wwa66of",
@@ -18899,8 +18439,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6sq6xo9a",
@@ -18943,8 +18482,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6qxs3b18",
@@ -18981,8 +18519,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6nrmpv7z",
@@ -19008,8 +18545,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6nr7xpx1",
@@ -19042,8 +18578,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6lv9qjsv",
@@ -19087,8 +18622,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6hz9vzy3",
@@ -19120,8 +18654,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6e1u2aox",
@@ -19155,8 +18688,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6dn2q2or",
@@ -19187,8 +18719,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "6PVLqBX0",
@@ -19218,8 +18749,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "694ono0s",
@@ -19251,8 +18781,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "64blp4b1",
@@ -19285,8 +18814,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "5uz0zj5l",
@@ -19321,8 +18849,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "5n08ud0l",
@@ -19354,8 +18881,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "5kvcg2qn",
@@ -19448,8 +18974,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "5hv63unh",
@@ -19483,8 +19008,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "5hd30k75",
@@ -19516,8 +19040,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "5eqdqp7p",
@@ -19559,8 +19082,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "5cqwee83",
@@ -19592,8 +19114,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "5axVw63a",
@@ -19625,8 +19146,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "5WWpA5tN",
@@ -19652,8 +19172,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "5Pe0h5TI",
@@ -19685,8 +19204,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "59mukx8s",
@@ -19721,8 +19239,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "56u6sev2",
@@ -19753,8 +19270,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "54zsncaa",
@@ -19787,8 +19303,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4zrkzy67",
@@ -19851,8 +19366,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4uiownze",
@@ -19884,8 +19398,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4u7v4niw",
@@ -19923,8 +19436,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4to0ey4g",
@@ -19955,8 +19467,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4tGn29mV",
@@ -19988,8 +19499,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4sl0bq8x",
@@ -20190,8 +19700,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": 183564,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4ldjersc",
@@ -20223,8 +19732,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4jv028mx",
@@ -20260,8 +19768,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4etnysar",
@@ -20325,8 +19832,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4abfo505",
@@ -20361,8 +19867,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4V2SPFoz",
@@ -20394,8 +19899,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4Syg5zaw",
@@ -20427,8 +19931,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4QBE6GLq",
@@ -20460,8 +19963,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "4OWFF6OI",
@@ -20493,8 +19995,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "49uxvb6b",
@@ -20524,8 +20025,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": 11418,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "478aml99",
@@ -20557,8 +20057,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "44st3JHn",
@@ -20590,8 +20089,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "3wsdqaed",
@@ -20628,8 +20126,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "3pu0nwgt",
@@ -20662,8 +20159,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "3jzgfsym",
@@ -20692,8 +20188,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "3emIE5H6",
@@ -20725,8 +20220,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "3cd7qdt3",
@@ -20761,8 +20255,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "3b7GKQVn",
@@ -20794,8 +20287,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "3CmURoZ0",
@@ -20827,8 +20319,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "35jy5ktp",
@@ -20861,8 +20352,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "32vw9q86",
@@ -20896,8 +20386,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "30xVjnjU",
@@ -20929,8 +20418,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "2xx72sp5",
@@ -20963,8 +20451,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "2xhpnq6s",
@@ -20998,8 +20485,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "2vsxzg1f",
@@ -21034,8 +20520,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "2rfmqygd",
@@ -21068,8 +20553,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "2nr4s3iv",
@@ -21106,8 +20590,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "2lrsppi0",
@@ -21143,8 +20626,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "2k9hctuc",
@@ -21177,8 +20659,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "2g8km7k7",
@@ -21211,8 +20692,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "2c7gotMe",
@@ -21244,8 +20724,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "2bv1g2ke",
@@ -21276,8 +20755,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "290hawev",
@@ -21309,8 +20787,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "26qoyo1c",
@@ -21339,8 +20816,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "26prcruq",
@@ -21377,8 +20853,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": 10933,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "25ntvqhu",
@@ -21410,8 +20885,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "20FsyDRA",
@@ -21443,8 +20917,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "207tuv8w",
@@ -21479,8 +20952,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1yCgAmII",
@@ -21512,8 +20984,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1y45plki",
@@ -21545,8 +21016,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1xg0s8up",
@@ -21581,8 +21051,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1xbvfmd0",
@@ -21614,8 +21083,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1wbifupp",
@@ -21649,8 +21117,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1qr7tqeh",
@@ -21714,8 +21181,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1p0skw14",
@@ -21781,8 +21247,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1kxhgva3",
@@ -21822,8 +21287,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1ivp4s60",
@@ -21898,8 +21362,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": 420,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1iaxb3xe",
@@ -21933,8 +21396,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1bsbph2h",
@@ -21988,8 +21450,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": 24895,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1SQPSwRR",
@@ -22015,8 +21476,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1QP6Q8RY",
@@ -22048,8 +21508,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "1MjQuVzp",
@@ -22079,8 +21538,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "19vlqasa",
@@ -22118,8 +21576,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "16htfbpp",
@@ -22152,8 +21609,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "159yb5wo",
@@ -22181,8 +21637,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "13l53rvc",
@@ -22222,8 +21677,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "110qhnsv",
@@ -22256,8 +21710,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "10lq9q12",
@@ -22304,8 +21757,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "0ywutagf",
@@ -22365,8 +21817,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "0o7typwh",
@@ -22402,8 +21853,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "0dqwkocc",
@@ -22435,8 +21885,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "02qyib4a",
@@ -22488,8 +21937,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "01qaflpz",
@@ -22519,8 +21967,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "00r7muqm",
@@ -22554,8 +22001,7 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "26tc21on",
@@ -22594,8 +22040,7 @@
       "added_date": "2026-04-19",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "zurlv9gb",
@@ -22633,8 +22078,7 @@
       "added_date": "2026-04-19",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "xn8io4r3",
@@ -22672,8 +22116,7 @@
       "added_date": "2026-04-19",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "p591inej",
@@ -22707,8 +22150,7 @@
       "added_date": "2026-04-19",
       "updated_date": null,
       "github_stars": null,
-      "related": [],
-      "local_path_valid": false
+      "related": []
     },
     {
       "id": "95bb1d33",
@@ -23948,6 +23390,687 @@
       "local_path": null,
       "images": [],
       "added_date": "2026-04-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b58e207e",
+      "title": "acpx 0.6.0：Claude/Codex 智能体控制工具再更新",
+      "url": "https://x.com/steipete/status/2047978882100334612",
+      "source": {
+        "platform": "x",
+        "author": "@steipete",
+        "original_date": "2026-04-25"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "claude",
+        "codex",
+        "agent",
+        "openclaw",
+        "acpx"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "acpx（openclaw 出品的 agent 控制工具）发布 0.6.0 版本，带来多项实用更新：Claude system prompt 直接控制、session pruning（自动削减上下文）、embeddable turn handles（嵌入到自定义 UI）、--no-terminal 模式、persistent session 修复、WSL cwd 路径转换、queue 稳定性提升及更清晰的报错提示。对于日常使用 Claude/Codex 进行自动化任务的同学，session pruning 和 system prompt 控制是本次最值得关注的两个功能——前者避免上下文溢出，后者让你更精细地约束模型行为。已在 GitHub 开源，有需求的开发者值得关注。",
+      "summary_en": "acpx 0.6.0 adds Claude system-prompt controls, session pruning, embeddable turn handles, --no-terminal mode, persistent session fixes, WSL cwd translation, queue hardening, and clearer errors. A practical agent control tool for Claude/Codex workflows.",
+      "one_liner": "Claude/Codex 智能体控制工具 acpx 更新，session pruning 和 system prompt 控制是亮点",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d65a31a7",
+      "title": "Allie K. Miller：免费 5 日课带你从用 AI 进阶到用 AI 搭建",
+      "url": "https://x.com/alliekmiller/status/1985834763677286606",
+      "source": {
+        "platform": "x",
+        "author": "@alliekmiller",
+        "original_date": "2025-11-05"
+      },
+      "category": "prompt",
+      "tags": [
+        "course",
+        "automation",
+        "claude",
+        "beginner"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Allie K. Miller 推出「AI Fast Track」免费 5 日邮件课程，定位是帮助用户从只会 copy-paste ChatGPT prompts 进阶到真正用 AI 搭建个人工具、自动化流程和软件。她强调「用 AI」和「用 AI 构建」之间有本质区别——后者需要理解 AI 能做什么边界、如何将 AI 能力封装成可复用系统。课程无需编程基础，工具箱以 Claude 为主（也有 ChatGPT）。适合想从「AI 使用者」转变为「AI 建造者」的初学者。",
+      "summary_en": "Allie K. Miller's free 5-day email course AI Fast Track bridges the gap between using AI and building with it—no coding required, Claude-focused, designed for aspiring AI builders.",
+      "one_liner": "免费 5 日课从用 AI 进阶到用 AI 搭建，无需编程基础",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "91fb7dea",
+      "title": "NotebookLM 推出来源自动标签与分类功能",
+      "url": "https://x.com/joshwoodward/status/2047795981534847413",
+      "source": {
+        "platform": "x",
+        "author": "@joshwoodward",
+        "original_date": "2026-04-24"
+      },
+      "category": "workflow",
+      "tags": [
+        "notebooklm",
+        "research",
+        "note-taking",
+        "google"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Google NotebookLM 推出来源（Sources）自动标签与分类功能，当文献库有 5 个以上来源时自动激活。系统根据内容语义自动归类文献、打标签，用户可以重命名、重新组织并使用 emoji 自定义样式。这个功能极大提升了研究场景下的笔记整理效率——过去需要手动为每篇文献打标签，现在 AI 自动完成初筛。特别适合做文献综述、深度研究的知识工作者。",
+      "summary_en": "NotebookLM now auto-labels and categorizes sources when you have 5+, making it easier to organize research materials with AI-generated tags and custom emoji labels.",
+      "one_liner": "NotebookLM 自动整理研究文献，5+ 来源时 AI 帮你打标签分类",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "791ae859",
+      "title": "Farzapedia：用日记+笔记打造个人 AI 维基",
+      "url": "https://x.com/karpathy/status/2040572272944324650",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-04-05"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "personal-knowledge",
+        "llm",
+        "diary",
+        "wiki",
+        "karpathy"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "开发者 Farza 分享了个人项目 Farzapedia：用 LLM 将 2500 条日记、Apple Notes 和 iMessage 对话记录转化为「个人维基」，最终生成约 400 篇详细文章，涵盖朋友、创业项目、研究方向甚至喜欢的动漫及其影响。Karpathy 评价这种个性化方案比「宣称越用越聪明的 AI」更透明——记忆是显式的、可审计的，而非藏在黑盒里。对做第二大脑、个人知识管理有兴趣的同学，这是一个值得复制的思路。",
+      "summary_en": "Farza built Farzapedia: an LLM-powered personal wiki from 2500 diary entries, Apple Notes, and iMessages, generating 400 articles. Karpathy praises explicit, auditable memory over black-box improving AI.",
+      "one_liner": "把日记笔记喂给 LLM 生成个人维基，显式记忆比黑盒越用越聪明更可信",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "033c1c89",
+      "title": "GPT-5.5 在 Codex 中端到端生成 Excel 和 PPT",
+      "url": "https://x.com/gdb/status/2047759012326936618",
+      "source": {
+        "platform": "x",
+        "author": "@gdb",
+        "original_date": "2026-04-24"
+      },
+      "category": "workflow",
+      "tags": [
+        "gpt-5",
+        "codex",
+        "excel",
+        "spreadsheet",
+        "automation"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Greg Brockman 转发了 GPT-5.5 在 Codex 模式下端到端生成完整 Excel 工作簿和 PPT 的能力。Derrick Choi 日常大量涉及电子表格和幻灯片，GPT-5.5 现在能直接生成带公式、格式和图表的 Excel 文件，以及完整演示文稿。这标志着 LLM 的生产力范围正从代码向办公全家桶扩张——不写一行代码也能用自然语言生成生产级文档。",
+      "summary_en": "GPT-5.5 in Codex can now generate full Excel workbooks and PowerPoint decks end-to-end, extending LLM productivity from code to the full office suite without writing a single line of code.",
+      "one_liner": "GPT-5.5 Codex 直接生成 Excel 和 PPT，LLM 生产力从代码扩展到办公全家桶",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4c1cb957",
+      "title": "Qwen 3.6 27B 模型登陆 Ollama",
+      "url": "https://x.com/Alibaba_Qwen/status/2047201376518930904",
+      "source": {
+        "platform": "x",
+        "author": "@Alibaba_Qwen",
+        "original_date": "2026-04-23"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "qwen",
+        "ollama",
+        "open-source",
+        "local-llm"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Qwen 3.6 27B 参数模型已在 Ollama 平台上线，同时支持 OpenClaw（openclaw launch openclaw --model qwen3.6:27b）和 Claude Code（ollama launch claude --model qwen3.6:27b）等主流 Agent 工具。这是 Qwen 系列在开源本地部署方向的又一次推进，配合 Ollama 的生态，在消费级硬件上跑起来相对轻松。对于需要本地部署开源模型做私有化工作的团队，这是一个值得测试的新选项。",
+      "summary_en": "Qwen 3.6 27B is now available on Ollama, supporting OpenClaw and Claude Code for local AI agent workflows—a solid option for teams needing open-source local deployment.",
+      "one_liner": "Qwen 3.6 27B 登陆 Ollama，本地开源模型又多了一个 Agent 集成选项",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "54045e17",
+      "title": "Kimi K2.6 登顶 Vision 和 Document Arena 开源榜",
+      "url": "https://x.com/Kimi_Moonshot/status/2047543386153140231",
+      "source": {
+        "platform": "x",
+        "author": "@Kimi_Moonshot",
+        "original_date": "2026-04-24"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "kimi",
+        "vision",
+        "document",
+        "arena",
+        "open-model"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Kimi K2.6 在 Vision Arena 排名总榜第 15（开源第一），在 Document Arena 排名总榜第 8（与闭源模型持平），从 K2.5 到 K2.6 有明显提升。这是国产开源多模态模型的又一次突破，在视觉理解和文档理解两个实用场景上均达到 SOTA 开源水平。对于需要强大视觉文档理解能力、又想本地部署或使用开源方案的产品团队，K2.6 值得关注。",
+      "summary_en": "Kimi K2.6 ranks #1 open-source on both Vision Arena (#15 overall) and Document Arena (#8 overall), showing significant gains over K2.5—a notable breakthrough for Chinese open-source multimodal models.",
+      "one_liner": "国产开源多模态 Kimi K2.6 登顶 Vision 和 Document Arena 开源榜",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e1ed05fa",
+      "title": "AI工具设计：为什么需要理解用户心理",
+      "url": "https://x.com/_avichawla/article/2044670188998803855",
+      "source": {
+        "platform": "x",
+        "author": "Avi Chawla",
+        "original_date": "2026-04-06"
+      },
+      "category": "llm-infra/inference-optimization",
+      "tags": [
+        "prompt-caching",
+        "kv-cache",
+        "claude",
+        "cost-optimization",
+        "agent"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "Avi Chawla 通过 Claude Code 案例详细解析了 LLM Prompt Caching 的技术原理与工程实践。核心观点：KV Cache 将计算复杂度从 O(n^2) 降至 O(n)，静态前缀（系统指令、工具定义、项目上下文）可被缓存并以 0.1x 价格读取。Claude Code 实测 92% Cache Hit Rate，实现 81% 成本降低（$6.00 -> $1.15）。三大工程原则：不要在会话中修改工具定义、不要中途切换模型、不要在缓存前缀中注入状态变量。",
+      "summary_en": "Detailed case study on how Claude's prompt caching works via KV Cache, reducing computational complexity from O(n^2) to O(n) per token. Static prefix (system instructions, tool definitions, project context) is cached and read at 0.1x price. Claude Code achieves 92% cache hit rate with 81% cost reduction ($6.00->$1.15). Three rules: never modify tools mid-session, never switch models, never mutate the cached prefix.",
+      "one_liner": "目前最详尽的 Prompt Caching 工程实践解析，Claude Code 案例极具说服力",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "openclaw/content/e1ed05fa.md",
+      "images": [
+        "https://pbs.twimg.com/media/HGAcefoa0AAq71i?format=jpg&name=small"
+      ],
+      "added_date": "2026-04-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "de9872fe",
+      "title": "AI驱动的设计工具分享",
+      "url": "https://x.com/Suryanshti777/status/2047694444787577236",
+      "source": {
+        "platform": "x",
+        "author": "Suryansh Tiwari",
+        "original_date": "2026-04-25"
+      },
+      "category": "agent-frameworks/orchestration",
+      "tags": [
+        "multi-agent",
+        "sub-agents",
+        "agent-teams",
+        "claude",
+        "architecture"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "Suryansh Tiwari 深度解析了 Claude 风格多智能体系统的两种核心架构：Sub-Agents（隔离执行，单次任务，父节点控制）和 Agent Teams（协作通信，共享上下文，对等交互）。核心区别在于上下文边界的设计而非角色分工。提出了 5 种关键模式：Prompt Chaining、Routing、Parallelization、Orchestrator-Worker、Evaluator-Optimizer。强调应基于上下文边界而非角色来拆分任务，避免每个交接点的质量损失。",
+      "summary_en": "Detailed analysis of two Claude-style multi-agent architectures: Sub-Agents (isolated, stateless, one-shot, parent-controlled) vs Agent Teams (persistent, interactive, context-sharing, peer-to-peer). Five key patterns: Prompt Chaining, Routing, Parallelization, Orchestrator-Worker, Evaluator-Optimizer. Key principle: decompose by context boundaries, not by roles.",
+      "one_liner": "多智能体架构选型的系统梳理，上下文边界原则是核心洞见",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "openclaw/content/de9872fe.md",
+      "images": [],
+      "added_date": "2026-04-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "6f26b8b4",
+      "title": "wanman.ai：让AI agents团队帮助用户运营一人公司",
+      "url": null,
+      "source": {
+        "platform": "x",
+        "author": "guoyu.eth",
+        "original_date": "2026-04-25"
+      },
+      "category": "agent-frameworks/applications",
+      "tags": [
+        "wanman",
+        "ai-agent-team",
+        "one-person-company",
+        "autonomous-agent",
+        "vibe-coding"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "郭宇（guoyu.eth）宣布开源并上线 wanman.ai，核心理念是让 AI Agents 团队帮助用户运营一人公司。两种工作模式：从故事目标自治运行（分析目标->规划任务->邀请AI员工->自动开会对齐->创意发散）和 GitHub 仓库接管（自动分析代码仓库、持续优化测试、提交 PR）。核心特点：消息通信、自进化 Skill、沙箱隔离、多模型架构。设计哲学是让人类退居二线仅作观察者，核心架构已在 GitHub 开源。命名来源于日语ワンマン（一人）的罗马音。",
+      "summary_en": null,
+      "one_liner": "一人公司运营的 AI Agent 团队化实践，设计哲学清晰且有开源诚意",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "openclaw/content/6f26b8b4.md",
+      "images": [],
+      "added_date": "2026-04-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "70668c26",
+      "title": "X推文流量监控插件和Markdown复制功能",
+      "url": "https://github.com/Icy-Cat/x-viral",
+      "source": {
+        "platform": "github",
+        "author": "IcyCat",
+        "original_date": null
+      },
+      "category": "developer-tools/browser-extensions",
+      "tags": [
+        "x-twitter",
+        "chrome-extension",
+        "analytics",
+        "markdown",
+        "viral-tracker"
+      ],
+      "source_type": "product",
+      "language": "zh",
+      "summary_zh": "IcyCat 开发了一款 Chrome 浏览器插件，为 X/Twitter 推文添加浏览量流速监控和 Markdown 一键复制功能。流速监控以简单方式计算推文的传播速度，Markdown 复制功能方便将推文内容直接发送给 AI 进行总结。插件已在 GitHub 开源，正等待 Chrome Web Store 审核。",
+      "summary_en": null,
+      "one_liner": "推文传播分析的轻量工具，对 AI 内容总结工作流有实用价值",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "openclaw/content/70668c26.md",
+      "images": [],
+      "added_date": "2026-04-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "a337aba3",
+      "title": "Xcode-Build-Optimization-Agent-Skill",
+      "url": "https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill",
+      "source": {
+        "platform": "github",
+        "author": "AvdLee",
+        "original_date": null
+      },
+      "category": "developer-tools",
+      "tags": [
+        "xcode",
+        "build-optimization",
+        "apple",
+        "ios",
+        "agent-skill",
+        "benchmark"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "Xcode-Build-Optimization-Agent-Skill 是一款帮助优化 Xcode 增量编译和干净构建的 Agent Skill，通过运行基准测试并调整构建设置来缩短编译时间。推荐 iOS 研发人员使用，可直接集成到编程代理的工作流中。GitHub 1001 Stars。",
+      "summary_en": "An Agent Skill that helps optimize Xcode incremental and clean builds by running benchmarks and optimizing build settings. Integrates directly into coding agent workflows. 1001 Stars on GitHub.",
+      "one_liner": "iOS 工程师值得一试的 Xcode 编译优化工具，1001 Stars 说明有实用价值",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "openclaw/content/a337aba3.md",
+      "images": [],
+      "added_date": "2026-04-26",
+      "updated_date": null,
+      "github_stars": 1001,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "59d23712",
+      "title": "AGENTS.md：让编程代理遵循高级工程师行为规范",
+      "url": null,
+      "source": {
+        "platform": "github",
+        "author": "Geek Lite",
+        "original_date": "2026-04-21"
+      },
+      "category": "agent-frameworks/orchestration",
+      "tags": [
+        "agents-md",
+        "coding-agent",
+        "claude-code",
+        "cursor",
+        "prompt-engineering"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "agents-md 是一份可直接放入项目根目录的 AGENTS.md 文件，使 Claude Code、Codex、Cursor 等编程代理遵循高级工程师行为规范。综合了 Karpathy 的四大编程代理失败原则和 Boris Cherny 的 Claude Code 工作流，核心改变：代理在用户犯错时反驳、只做最小必要修改、不擅自重构无关代码、先跑验证再报告完成、遇到歧义主动询问。约 200 行，有两个可编辑部分（项目上下文和经验积累），其余规则保持精简。可通过创建 CLAUDE.md 和 GEMINI.md 符号链接统一管理所有代理的行为规范。",
+      "summary_en": null,
+      "one_liner": "编程代理行为规范的有趣尝试，但内容较单薄且 repo 已停更",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "openclaw/content/59d23712.md",
+      "images": [],
+      "added_date": "2026-04-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "469c12ee",
+      "title": "awesome-gpt-image-2: World's largest GPT Image 2 prompt library",
+      "url": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
+      "source": {
+        "platform": "github",
+        "author": "YouMind-OpenLab",
+        "original_date": null
+      },
+      "category": "multimodal/image-generation",
+      "tags": [
+        "gpt-image-2",
+        "openai",
+        "prompt-library",
+        "image-generation",
+        "multimodal"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "awesome-gpt-image-2 是目前最大的 GPT Image 2 提示词库，每日更新，汇集 1800+ 精选提示词并附带预览图，支持 16 种语言。GPT Image 2 的核心能力：精准文字渲染（中日英）、跨图一致性、商业级插画输出、故事板/IP 角色生成、多语言设计海报。同时提供 YouMind GPT Image 2 Prompts Gallery 在线画廊，支持分类浏览和 AI 一键生成。GitHub 2558 Stars。",
+      "summary_en": "The world's largest GPT Image 2 prompt library, updated daily with 1800+ curated prompts, preview images, and 16 language support. GPT Image 2 excels at pixel-perfect text rendering (Chinese, English, Japanese), cross-image consistency, commercial illustration, and storyboard generation. Includes a web gallery at youmind.com. 2558 Stars.",
+      "one_liner": "目前最大的 GPT Image 2 提示词库，每日更新，2558 Stars 社区认可度高",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "openclaw/content/469c12ee.md",
+      "images": [],
+      "added_date": "2026-04-26",
+      "updated_date": null,
+      "github_stars": 2558,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "ee551fe1",
+      "title": "【译】关于 Claude Design 的一些想法和感受",
+      "url": "https://samhenri.gold/blog/20260418-claude-design",
+      "source": {
+        "platform": "blog",
+        "author": "Sam Henri Gold",
+        "original_date": "2026-04-18"
+      },
+      "category": "ai-ux/design-tools",
+      "tags": [
+        "claude-design",
+        "figma",
+        "design-tools",
+        "agent",
+        "llm",
+        "ux"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "设计师 Sam Henri Gold 体验 Claude Design 后撰文：Figma 花十年构建的封闭设计系统在 AI 智能体时代正变成负担。LLM 用代码训练，学不会 Figma 专有格式，单一事实来源将回归代码。Figma 走向了忠于材料原则的反面：底层规则极其死板，表面却伪装得自由散漫。相比之下，Claude Design 尽管体验粗糙但诚实地由 HTML/JS 构成，与 Claude Code 天然打通，设计与开发的反馈循环有望融合。Figma 的 Sketch 时刻正在迅速逼近。",
+      "summary_en": null,
+      "one_liner": "设计师视角的深刻洞见：AI Agent 时代 Figma 的护城河正在崩塌",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "openclaw/content/ee551fe1.md",
+      "images": [],
+      "added_date": "2026-04-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "2228862e",
+      "title": "Allie K. Miller：免费 5 天课程，从「用 AI」升级到「构建 AI」",
+      "url": "https://x.com/alliekmiller/status/1985834763677286606",
+      "source": {
+        "platform": "x",
+        "author": "@alliekmiller",
+        "original_date": "2025-11-05"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "ai-tools",
+        "workflow",
+        "claude",
+        "automation"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Allie K. Miller 推出免费 5 天 AI 课程，核心主张是从「使用 AI」升级到「构建 AI」。课程面向零基础用户，无需编程背景，聚焦用 Claude 打造个人自动化工具和工作流。内容包括把重复性任务变成可复用工具，是 AI 时代从消费者转型为创造者的实操路径。",
+      "summary_en": "Free 5-day email course by Allie K. Miller on moving beyond ChatGPT prompts to actually building personal AI software and automations using Claude. No coding required.",
+      "one_liner": "零基础 5 天课程，手把手教你用 Claude 构建个人 AI 工具",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2aef58dd",
+      "title": "用 MCP + Claude Code 搭建 AI Agent 工作流实战",
+      "url": "https://x.com/petergyang/status/2046961520970777029",
+      "source": {
+        "platform": "x",
+        "author": "@petergyang",
+        "original_date": "2026-04-22"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "ai-tools",
+        "mcp",
+        "claude-code",
+        "agent"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Peter Yang 与 Mercury VP of Product Ryan Wiggins 深度对谈，主题是如何为 AI Agent 设计出色的 API 与 MCP（Model Context Protocol）。提供完整实战演示：25 分钟用 Claude Code 构建 Second Brain。MCP 正成为 Agent 间通信的事实标准，提前掌握即获得 AI 工作流下一代基础设施的入场券。",
+      "summary_en": "Peter Yang shares how to build great APIs and MCPs for AI agents, with a live demo of a Claude Code Second Brain in 25 minutes. MCP is emerging as the standard protocol for agent communication.",
+      "one_liner": "25 分钟实战：用 MCP + Claude Code 搭起你的第一个 AI Agent 工作流",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b10e5003",
+      "title": "Gemini 3.1 Flash TTS：用自然语言精准控制语音风格",
+      "url": "https://x.com/GoogleAI/status/2044447560384102592",
+      "source": {
+        "platform": "x",
+        "author": "@GoogleAI",
+        "original_date": "2026-04-16"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "tts",
+        "gemini",
+        "content-creation"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Google 发布 Gemini 3.1 Flash TTS，称其迄今表现最流畅、可控性最强的 TTS 模型。核心创新是音频标签（Audio Tags）——用自然语言指令控制语速、语调、情感，无需声学参数调节。有声书、播客配音、游戏语音等多个内容创作场景均可直接受益，大幅降低专业语音生成门槛。",
+      "summary_en": "Google's Gemini 3.1 Flash TTS is its most expressive and controllable text-to-speech model yet, featuring audio tags that let creators use natural language commands to control vocal style, pace, and delivery.",
+      "one_liner": "Gemini 3.1 Flash TTS：用自然语言命令替代声学参数，语音生成零门槛",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9486b6f3",
+      "title": "Farzapedia：用 LLM 把个人笔记变成可浏览的私人百科全书",
+      "url": "https://x.com/karpathy/status/2040572272944324650",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-04-05"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "ai-tools",
+        "llm",
+        "knowledge-management",
+        "personal-brain"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Karpathy 推荐 Farzapedia——用 LLM 将 2500 条日记、iMessage 和 Apple Notes 自动生成 400 篇结构化文章，创建一个可浏览的私人百科全书。方法亮点在于「显式记忆」：输出完全可解释可追溯，而非 AI 隐式学习。朋友和同事也能通过这套系统了解你的背景和研究领域。",
+      "summary_en": "Farzapedia uses an LLM to turn 2,500 diary entries, iMessages, and Apple Notes into 400 structured personal wiki articles. Distinct from implicit AI memory—output is fully explicit, traceable, and browsable by others.",
+      "one_liner": "把你的日记和笔记变成可分享的私人百科全书，LLM 知识管理新范式",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c0ead3bf",
+      "title": "NotebookLM 新功能：5+ 来源时自动标签分类",
+      "url": "https://x.com/joshwoodward/status/2047795981534847413",
+      "source": {
+        "platform": "x",
+        "author": "@joshwoodward",
+        "original_date": "2026-04-25"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "ai-tools",
+        "notebooklm",
+        "research",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "NotebookLM 新增自动标签与分类功能：当来源数量达到 5 个及以上时，系统自动为每个来源添加标签和类别，大幅减少研究初期手动整理的时间。支持重命名、重新排序和 emoji 个性化，让研究者能把精力聚焦在阅读和思考而非来源管理上。",
+      "summary_en": "NotebookLM can now auto-label and categorize sources when you have 5+, reducing manual organization time so researchers can focus on reading and thinking instead of sorting materials.",
+      "one_liner": "NotebookLM 自动整理多来源研究，从 5 个来源开始自动分类标签",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7b22ae74",
+      "title": "Qwen-Image-2.0-Pro：开源图像生成的新里程碑",
+      "url": "https://x.com/Alibaba_Qwen/status/2048022731548229869",
+      "source": {
+        "platform": "x",
+        "author": "@Alibaba_Qwen",
+        "original_date": "2026-04-23"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "image-generation",
+        "qwen",
+        "open-source"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "阿里发布 Qwen-Image-2.0-Pro 图像生成模型，在 Text-to-Image Arena 全球排名第 9，肖像照第 6，真实感/电影感图像第 7。核心提升包括图像质量、多语言文字渲染和指令遵循能力，同时保持风格一致性。是目前开源模型中最接近 Midjourney 实用性的选项，支持本地部署。",
+      "summary_en": "Alibaba's Qwen-Image-2.0-Pro ranks #9 globally on Text-to-Image Arena, #6 in portraits, #7 in photorealistic/cinematic imagery. Strong instruction following and multilingual text rendering make it a top open-source alternative to Midjourney.",
+      "one_liner": "开源图像模型新里程碑：Qwen-Image-2.0-Pro 进入全球前十，Midjourney 的本地替代方案",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-26",
       "updated_date": null,
       "github_stars": null,
       "related": []

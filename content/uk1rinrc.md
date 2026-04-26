@@ -1,125 +1,145 @@
-# The Death of the Scientist
+| title | author | content | url |
+| --- | --- | --- | --- |
+| 科学家的消亡 / AI 会终结科学，还是会引发一场新的革命？ | indigox | 这不是又一篇"AI 会不会取代科学家"的讨论。作者 萨拉·伊马里·沃克（Sara Imari Walker）是亚利桑那州立大学和圣塔菲研究所的天体生物学家和理论物理学家，致力于发展旨在刻画生命起源的理论和实验。在她的著作《无人知晓的生命：生命涌现的物理学》（Riverhead Books，2024年）中，她提出研究生命起源需要激进的新思维。
 
-> **来源**: Noema Magazine
-> **URL**: https://www.noemamag.com/the-death-of-the-scientist/
-> **作者**: Sara Imari Walker (Arizona State University / Santa Fe Institute)
-> **日期**: 2025-12-11
-> **状态**: ✅ 原文完整抓取
+在「The Death Of The Scientist」中，她从一个极少被触及的角度提出了根本性的追问：科学到底是什么？如果我们连这个问题都没搞清楚，就急着讨论 AI 能否"做科学"，那我们可能正在犯一个时代级别的认知错误。
 
----
+巴特说"作者已死"——文本一旦发表，就脱离了作者的意图，进入读者的诠释。科学也一样：当科学家发表时，他们"死去"，但他们的工作开始了社会性的生命——同行评审、辩论、共创。AI 的输出一开始就已经"死了"——它产生时没有任何意义创造的具身行为，没有与直觉搏斗的内在过程。
 
-A persistent hubris infects every age of our species’ scientific and technological development. It usually takes the form of individuals or institutions who are confident that — after thousands of years of human cultural evolution and billions of years of biological evolution — we have finally gotten to the bottom of reality. We are finally at the precipice to explain  everything .
+这篇文章融合了计算理论、意识哲学、科学史和文化理论，试图揭示科学作为一种人类文化系统的深层本质——以及 AI 在其中真正能扮演和不能扮演的角色。
 
-The newest incarnation is found in discourse around artificial intelligence. Here, at least, it is acknowledged that humans, with our limited memory and information processing capacity, will never really  know  everything. Still, this newfound and humbler stance is supplemented with the assumption that we are the single superior biological species who can build the technologies that will.
+以下是全文的完整中文翻译：
 
-AlphaFold , an AI system developed by Google DeepMind, represents one of AI’s most celebrated achievements in science. Trained on more than 150,000 experimentally determined protein structures, AlphaFold 3 can now predict the structure of more than 200 million proteins as well as that of other biomolecules. Such scale was previously unimaginable. Earlier mathematical models could predict some features of protein structure, but nothing approaching this magnitude. The optimism is palpable: If AI can solve protein folding at this scale, what else might it accomplish?
+# 科学家的消亡
 
-Some proclaim AI will solve all disease, make scientists obsolete or even that artificial superintelligences will solve all of science. Yet many consider the protein folding problem unsolved. AlphaFold predicts 3D structures, but it does not explain the underlying physics, folding pathways or dynamic conformational ensembles. It works well for proteins made from the 20 or so amino acids found in terrestrial biology. To study proteins from the hundreds of amino acids in meteoritic materials, or to design novel therapeutic proteins, this model needs additional input. The limitation is not the algorithm or its scaling: The necessary data does not exist.
+## The Death Of The Scientist
 
-This tension reveals something profound about what science is, and how science defies precise definition. If we view science purely as the scientific method — observation, hypothesis, testing, analysis — then automation seems inevitable. AI algorithms demonstrably perform many, if not all, of these steps, and are getting better at them when guided by scientists.
+AI 会扼杀科学，还是会孕育一场科学革命？答案取决于一个无人知晓的问题：什么是科学？
 
-But as philosopher Paul Feyerabend argued in “ Against Method ,” the very idea of a universal scientific method is misconceived. Most scientists invoke the scientific method only when writing for peer review, using it as standardization that allows reproducibility. Historically, scientific methods arise after discoveries are made, not before.
+作者：萨拉·伊马里·沃克 (Sara Imari Walker)
 
-The question is not whether AI can execute steps in a method, but whether science generates knowledge in a way that is fundamentally something more.
+2025年12月11日 发表于《Noema》杂志
 
-If scale was all we needed, current AI would provide a mundane solution for science: We could do more because we have larger scale models. However, optimism around AI is not just about automation and scaling, it is also about theory of mind. Large language models (LLMs) like ChatGPT, Gemini and Claude have reshaped how many see intelligence, because interactions with these algorithms, by virtue of their design, give the appearance of a mind.
+一种挥之不去的傲慢感染着我们物种科学与技术发展的每一个时代。它通常表现为个人或机构的自信——他们坚信在经过数千年的文化进化和数十亿年的生物进化之后，我们终于触及了现实的最底层。我们终于站在了能够解释一切的悬崖边上。
 
-Yet as neuroscientist Anil Seth  keenly observed , AlphaFold relies on the same underlying Transformer architecture as LLMs, and no one confuses AlphaFold with being a mind. Are we supposed to interpret that such an algorithm, instantiated on silicon chips, will comprehend the world in  exactly  the way we do, and communicate via our language with us so effectively as to describe the world as we understand it? Or should we instead believe it is maybe easier than we thought, after billions of years of the evolution of intelligence, to encode our own predictive and dynamic representational maps within such short spatial and temporal physical scales?
+这种傲慢最新的化身出现在围绕人工智能的讨论中。至少在这里，人们承认人类由于受限于记忆和信息处理能力，将永远无法真正知道一切。尽管如此，这种新发现的、更为谦逊的立场又被另一种假设所补充：我们是唯一能够创造出那种可以知晓一切的技术的高等生物物种。
 
-Consider how your own mind constructs your unique representation of reality. Each of us holds within our skulls a volume that generates an entire inner world. We cannot say this with the same certainty about any other entity, alive or not. Your sensory organs convert physical stimuli into electrical signals. In vision, photoreceptors respond to light and send signals along your optic nerve. Your brain processes this in specialized regions, detecting edges, motion and color contrasts in separate areas, then binds these fragmented perceptions into a unified object of awareness — what is called a percept — which forms your conscious experience of the world.
+谷歌 DeepMind 开发的 AI 系统 AlphaFold 代表了 AI 在科学领域最著名的成就之一。在对超过 15 万个经过实验确定的蛋白质结构进行训练后，AlphaFold 3 现在可以预测超过 2 亿种蛋白质以及其他生物分子的结构。这种规模在以前是不可想象的。早期的数学模型可以预测蛋白质结构的一些特征，但远远达不到这种量级。乐观情绪是显而易见的：如果 AI 能在如此规模上解决蛋白质折叠问题，它还能完成什么创举？
 
-This is  the binding problem : how distributed neural activity creates singular, coherent consciousness. Unlike “ the hard problem of consciousness ,” an open question behind our intrinsic experience, we do have some scientific insights into how binding could be accomplished: Synchronized neural activity and attention mechanisms coordinate information across brain regions to construct your unique mental model of the world. This model is literally the totality of your conscious understanding of what is real.
+有人宣称 AI 将攻克所有疾病，让科学家变得多余，甚至断言超级人工智能将解决科学的所有问题。然而，许多人认为蛋白质折叠问题仍未得到真正解决。AlphaFold 预测的是 3D 结构，但它并没有解释其背后的物理机制、折叠路径或动态的构象系综。它对于地球生物学中由 20 种左右氨基酸组成的蛋白质效果很好。但要研究陨石物质中由数百种氨基酸组成的蛋白质，或者设计新型的治疗性蛋白质，这个模型就需要额外的输入。其局限性不在于算法或规模：而是所需的数据根本不存在。
 
-“The question is not whether AI can execute steps in a method, but whether science generates knowledge in a way that is fundamentally something more.”
+这种张力揭示了关于什么是科学以及科学为何难以精确定义的深刻内涵。如果我们将科学纯粹地视为科学方法——观察、假设、测试、分析——那么自动化似乎是不可避免的。事实证明，AI 算法可以执行这些步骤中的许多（如果不是全部的话），并且在科学家的指导下，它们在这方面做得越来越好。
 
-Each of us is an inhabitant of one such mental model. What it is like to be inside a physical representation of the world, as we all are within our conscious experience, is nontrivial to explain scientifically (and some argue may not be possible).
+但正如哲学家保罗·费耶阿本德（Paul Feyerabend）在《反对方法》（Against Method）一书中所论证的那样，所谓普遍的科学方法的观念本身就是一种误解。大多数科学家只有在为同行评审撰写文章时才会援引科学方法，将其作为允许可重复性的一种标准化手段。从历史上看，科学方法是在发现做出之后才产生的，而不是在之前。
 
-Scientific societies face an analogous binding problem. Just as individual minds collect sense data to model the world, societies do the same through what Claire Isabel Webb, director of the Berggruen Institute’s Future Humans program, has called “ technologies of perception ”: Telescopes reveal cosmic depths, radiometric dating uncovers deep time, microscope expose subatomic structure, and now AI uncovers patterns in massive data.
+问题的关键不在于 AI 能否执行某套方法中的步骤，而在于科学产生知识的方式在本质上是否包含着更多的东西。
 
-Danish astronomer Tycho Brahe’s precise astronomical measurements, enabled by mechanical clocks and sophisticated angle-measuring devices, provided sense data that German astronomer Johannes Kepler transformed into mathematical models of elliptical orbits. A society collecting observations across space and time, exemplified across the work of Copernicus, Brahe, Kepler, Galileo and others, came to be bound into a single scientific consensus representation of reality —  a societal percept  — in the form of a theory that describes what it means to move and to gravitate.
+如果我们所需要的仅仅是规模，那么当前的 AI 将为科学提供一个平凡的解决方案：由于拥有更大规模的模型，我们能够做得更多。然而，围绕 AI 的乐观情绪不仅关乎自动化和规模化，还关乎心智理论。像 ChatGPT、Gemini 和 Claude 这样的大语言模型（LLM）重塑了许多人对智能的看法，因为凭借其设计，与这些算法的交互赋予了它们类似心智的表象。
 
-But there is a fundamental difference. Your subjective experience, what philosophers call  qualia , is irreducibly private. In a very real sense, it may be the most private information of all that our universe creates, because it is uniquely and intimately tied to the features of your physical existence that cannot be replicated in anything else.
+然而，正如神经科学家阿尼尔·塞斯（Anil Seth）敏锐观察到的那样，AlphaFold 依赖于与 LLM 相同的底层 Transformer 架构，但没有人会把 AlphaFold 误认为是一个心智。我们是否应该这样理解：这样一个在硅芯片上实例化的算法，将以与我们完全相同的方式理解世界，并如此有效地用我们的语言与我们沟通，以至于能按照我们的理解来描述世界？还是说，我们应该相信，在数十亿年的智能进化之后，要在如此短的空间和时间物理尺度内编码我们自己的预测性和动态表征图谱，也许比我们想象的要容易得多？
 
-When you see the color red, a specific experience emerges from your neural architecture responding to wavelengths between 620 and 750 nanometers. I can point to something red, and you can acknowledge you are also seeing red, but we cannot transfer the actual experience of redness from your consciousness to mine. We cannot know if we share the same inner experience. All we can share are descriptions.
+思考一下你自己的心智是如何构建你对现实的独特表征的。我们每个人的头骨里都容纳着一个能够产生整个内在世界的空间。对于任何其他实体（无论是否有生命），我们都无法以同样的确定性说出这一点。你的感觉器官将物理刺激转化为电信号。在视觉中，光感受器对光做出反应，并沿着你的视神经发送信号。你的大脑在特定区域处理这些信号，在不同的区域检测边缘、运动和颜色对比，然后将这些零碎的感知结合成一个统一的意识客体——被称为“知觉（percept）”——这构成了你对世界的意识体验。
 
-This is where science radically differs from experience: It is fundamentally intersubjective. If something exists only in one mind and cannot be shared, it cannot become scientific knowledge. Science requires verifying each other’s observations, building on a lineage of past discoveries and developing intergenerational consensus about reality. Scientific models must therefore be expressible in symbols, mathematics and language, because they must be copyable and interpretable between minds.
+这就是所谓绑定问题（the binding problem）：分布式的神经活动如何创造单一的、连贯的意识。不同于我们内在体验背后的未解之谜——“意识的困难问题”（the hard problem of consciousness），我们确实对绑定是如何完成的有了一些科学的认识：同步的神经活动和注意力机制协调大脑各个区域的信息，从而构建你对世界独特的心理模型。这个模型实际上就是你对真实事物的意识理解的总和。
 
-Science is definitionally unstable because it is not an objective feature of reality; instead, it is more accurately understood as an evolving cultural system, bred of consensus representation and adaptive to the new knowledge  we  generate.
+> “问题的关键不在于 AI 能否执行某套方法中的步骤，而在于科学产生知识的方式在本质上是否包含着更多的东西。”
 
-When Sir Isaac Newton defined   F = ma  , he was not sharing his inner experience of force or acceleration. He created a symbolic representation of relationships between three core abstractions — force, mass, acceleration — each developed through metrological standardization. The formula became pervasive cultural knowledge because any mind or machine can interpret and apply it, regardless of how each experiences these concepts internally.
+我们每个人都是这样一个心理模型的居住者。身处一种世界的物理表征内部（就像我们都在自己的意识体验中一样）是什么感觉，要用科学来解释绝非易事（有人认为甚至可能根本无法解释）。
 
-This reveals the most fundamental challenge of scientific knowledge: Our primary interface for sharing scientific ideas is symbolic representation. What we communicate are models of the world, not the world itself. Philosopher of science Nancy Cartwright  argues  scientific theories are simulacra; that is, they are useful fictions in mathematical and conceptual form that help us organize, predict and manipulate phenomena. Theories are cultural technologies.
+科学社会面临着一个类似的绑定问题。正如个体的头脑收集感觉数据来对世界建模一样，社会也通过博古睿研究院（Berggruen Institute）未来人类项目主任克莱尔·伊莎贝尔·韦伯（Claire Isabel Webb）所谓的“感知技术”来做同样的事情：望远镜揭示了宇宙的深处，放射性测年法揭示了深度时间，显微镜暴露了亚原子结构，而现在 AI 在海量数据中发现了模式。
 
-When we use the  ideal gas law  ( PV = nRT ), we model gases as non-interacting points. This is  not  to be interpreted as a claim that real gases are literally points with no volume that never interact, it is merely a simplification that works well enough in many cases. These simplified models matter because they are comprehensible and shareable between minds, and they are copyable between our calculating machines.
+丹麦天文学家第谷·布拉赫凭借机械钟和复杂的测角仪实现了精确的天文测量，这些测量提供了感觉数据，随后德国天文学家约翰内斯·开普勒将其转化为椭圆轨道的数学模型。一个跨越时空收集观测结果的社会——以哥白尼、布拉赫、开普勒、伽利略等人的工作为代表——最终被绑定成一个单一的、关于现实的科学共识表征（一种社会知觉），其形式即为描述运动和引力意味着什么的理论。
 
-The requirement that scientific knowledge must be shareable forces us to create simulacra at every descriptive level. Science’s intersubjective nature places strict physical constraints on what theories can be. Our scientific models must be expressible symbolically and interpretable between human minds. They are therefore  necessarily  abstractions that never capture reality’s full structure. They can never fully capture reality, because no human mind has sufficient information processing and memory to encode the entire external world. Even societies have limits.
+但这里有一个根本的区别。你的主观体验——哲学家称之为“感受质”（qualia）——是不可简化的私密体验。在非常真实的意义上，它可能是我们宇宙创造出的最私密的信息，因为它与你身体存在的特征有着独特而密切的联系，而这些特征是无法在其他任何东西中复制的。
 
-AI will also have limits.
+当你看到红色时，一种特定的体验从你的神经结构中产生，它响应的是波长在 620 到 750 纳米之间的光。我可以指着一个红色的东西，你也可以承认你同样看到了红色，但我们无法将红色的实际体验从你的意识转移到我的意识中。我们无法知道我们是否分享了相同的内在体验。我们所能分享的只有描述。
 
-These limits are not solely in terms of available compute power,  made acute  in the need for more data processing infrastructure to support the AI economy. More fundamentally, the current optimistic, and sometimes hubristic, dialogue around AI and artificial general intelligence (AGI) suggests these algorithms will be “more than human” in their ability to understand and explain the world, breaking what some perceive as limits on intelligence imposed by human biology.
+这就是科学与经验截然不同之处：科学从根本上说具有主体间性（intersubjective）。如果某种事物只存在于一个人的头脑中而无法分享，它就不能成为科学知识。科学要求验证彼此的观察结果，在过去发现的谱系基础上积累，建立对现实的代际共识。因此，科学模型必须能够用符号、数学和语言来表达，因为它们必须能够在不同的头脑之间被复制和解释。
 
-“Our scientific models can never fully capture reality, because no human mind has sufficient information processing and memory to encode the entire external world.”
+科学在定义上是不稳定的，因为它不是现实的客观特征；相反，更准确地说，它被理解为一个不断演变的文化系统，由共识表征孕育而成，并不断适应我们所产生的新知识。
 
-But this cannot be true by virtue of the very foundations of the theory of computation, and the lineages of human abstraction from which these technologies directly descend. As physicist David Deutsch  writes , if the universe is indeed explicable, humans are already “ universal explainers ” because we are capable of understanding anything  any  computational system can: In terms of computational repertoire, both computers and brains are equivalently universal.
+当艾萨克·牛顿爵士定义 F = ma 时，他并不是在分享他关于力或加速度的内在体验。他创造了三个核心抽象概念（力、质量、加速度，每一个都是通过计量标准化发展而来的）之间关系的符号表征。这个公式之所以成为普遍的文化知识，是因为任何头脑或机器都可以解释和应用它，无论各自在内部是如何体验这些概念的。
 
-Other foundational theorems in computer science, like the  no free lunch theorems  by physicists David Wolpert and William Macready, indicate that when performance is averaged over all possible problems, no optimization algorithm (machine learning algorithms included) is universally better than any other. Stated another way, making an algorithm such that it performs exceptionally well for one class of problems will lead to trade-offs where it is poorer than average at others.
+这揭示了科学知识最根本的挑战：我们分享科学思想的主要界面是符号表征。我们交流的是世界的模型，而不是世界本身。科学哲学家南希·卡特赖特（Nancy Cartwright）认为，科学理论是拟像（simulacra）；也就是说，它们是数学和概念形式的有用虚构，旨在帮助我们组织、预测和操纵现象。理论是一种文化技术。
 
-Read Noema in print.
+当我们使用理想气体状态方程 (PV = nRT) 时，我们将气体建模为互不作用的点。这不应被解释为一种声明，即真实气体就是字面意义上没有体积且从不相互作用的点，它仅仅是一种在许多情况下都足够有效的简化。这些简化的模型很重要，因为它们在人类的头脑之间是可以理解和分享的，并且在我们计算机器之间是可以复制的。
 
-The physical world does not contain all possible problems, but the structure of the ones it does contain changes with biological and technological evolution. Just as no individual can comprehend everything all humans know, or will know, there can be no algorithm (AGI or otherwise) that is indefinitely better than  all  others.
+科学知识必须可共享的要求，迫使我们在每个描述层面上创造拟像。科学的主体间性对理论的形式施加了严格的物理限制。我们的科学模型必须能够用符号表达，并能在人类的头脑之间进行解释。因此，它们必然是抽象的，永远无法捕捉到现实的全部结构。它们永远无法完全捕捉现实，因为没有任何人类大脑具有足够的信息处理能力和记忆力来编码整个外部世界。即使是人类社会也有其局限性。
 
-More fundamentally, the possibility of universal computation arises due to a fundamental limitation; universal computers can only describe computable things, but never the uncomputable ones — a limitation  intrinsic to any computer we build . This limitation does not apply to individual human minds, only what we share via language, and this is key to how we generate new social knowledge.
+AI 也将有其局限性。
 
-Scientific revolutions occur when our shared representational maps break down; that is, when existing concepts prove inadequate to cover phenomena we newly encounter or old ones we wish to explain. We must then invent new semantic representations capturing regularities old frameworks could not. At these times, nonconformism plays an outsized role in knowledge creation.
+这些限制不仅仅体现在可用算力方面（为支持 AI 经济需要更多数据处理基础设施的需求加剧了这种限制）。更根本的是，目前围绕 AI 和通用人工智能（AGI）的乐观甚至有时是傲慢的对话表明，这些算法在理解和解释世界的能力上将是“超越人类”的，从而打破了一些人认为的人类生物学对智能的限制。
 
-Consider the shift from natural theology to evolution. The old paradigm assumed organisms were designed by a creator, species were fixed, Earth was young. As we learned to read deeper histories, through carbon dating, phylogeny and observing species change through selective breeding and extinction, we never witnessed the spontaneous formation of biological forms.
+> “我们的科学模型永远无法完全捕捉现实，因为没有任何人类大脑具有足够的信息处理能力和记忆力来编码整个外部世界。”
 
-Deeper historical memory forces new descriptions to emerge. Evolution and geology revealed concepts of deep time, astronomy introduced concepts of deep space, and now, as historian Thomas Moynihan  points out , we are entering an age revealing a universe deep in possibility. Our world does not suddenly change or get older, but our understanding does. We repeatedly find ourselves developing radically new words and concepts to reflect new meaning as we discover it in the world.
+但从计算理论的基础以及这些技术直接继承的人类抽象概念的谱系来看，这是不可能的。正如物理学家大卫·多伊奇（David Deutsch）所写的那样，如果宇宙确实是可以解释的，那么人类已经是“通用解释器（universal explainers）”，因为我们有能力理解任何计算系统所能理解的东西：就计算曲目（computational repertoire）而言，计算机和大脑同样具有普遍性。
 
-Philosopher of science Thomas Kuhn recognized these transitions as  paradigm shifts , noting how abrupt periods of change force scientists to reconceptualize the way we see our field, what questions we ask, what methods we use, what we consider legitimate knowledge. What emerges are entirely new representations for describing the world, often including totally new descriptions of everyday objects we thought we understood.
+计算机科学中的其他基础定理，如物理学家大卫·沃尔珀特（David Wolpert）和威廉·马克雷迪（William Macready）提出的“没有免费的午餐”定理表明，当对所有可能的问题取平均性能时，没有任何优化算法（包括机器学习算法）会普遍优于任何其他算法。换句话说，让一个算法在某一类问题上表现异常出色，必然导致权衡取舍，使其在其他问题上的表现低于平均水平。
 
-Science, as Kuhn saw it, is messy, social and profoundly human. In an age where we are now worried about alignment,  after alignment  and re-alignment with our own technological creations, paradigm shifts might best be described as the  representational alignment  of our societal percepts, where we must find new ways for our representations to keep in sync with the changing structure of reality as presented to us across millennia of our cultural evolution.
+物理世界并不包含所有可能的问题，但它所包含的问题结构会随着生物和技术的进化而改变。正如没有哪个人能够理解所有人类已经知道或将要知道的事情一样，也不可能存在永远优于所有其他算法的算法（无论是 AGI 还是其他形式）。
 
-Paradigm shifts reveal how the power of scientific thought does not lie in the literal truth of theories, but in our ability to identify new ways of describing the world and in how the structures we describe persist across different representational schemes. The culture of science helps distinguish between simulacra that approach causal mechanisms (sometimes called objective reality) and those that lead us astray. Crucially, discovering new features of reality requires building new descriptions. When frameworks fail to capture important worldly features, for example when we recognize patterns but cannot articulate them, new frameworks and representational maps must emerge.
+更根本的是，通用计算的可能性源于一个基本限制；通用计算机只能描述可计算的事物，而永远无法描述不可计算的事物——这是我们建造的任何计算机固有的局限。这种局限并不适用于个体的人类大脑，只适用于我们通过语言共享的东西，而这正是我们产生新社会知识的关键。
 
-Albert Einstein’s development of general relativity illustrates this. Seven years separated his realization that physics needed to transcend the linear Lorentz transformations (appearing in special relativity) to get to the general theory of relativity. In his own reflections, he comments on the reason being how “it is not so easy to free oneself from the idea that coordinates must have an immediate metrical meaning.” Mathematical structures imposed as models  weren’t capturing meaning : They were missing features Einstein intuited must exist. Once he encoded his intuition, it became intersubjective and shareable between minds.
+当我们共享的表征图谱崩溃时，也就是当现有的概念不足以涵盖我们新遇到的现象或我们希望解释的旧现象时，科学革命就会发生。然后我们必须发明新的语义表征，来捕捉旧框架无法捕捉的规律性。在这些时候，不墨守成规在知识创造中扮演着极其重要的角色。
 
-“Scientific ideas are not born solely of individual minds, but also of consensus interpretations of what those minds create.”
+考虑一下从自然神学到进化论的转变。旧的范式假设生物是由造物主设计的，物种是固定不变的，地球是年轻的。随着我们学会通过碳年代测定、系统发育以及观察物种通过选择性繁殖和灭绝而发生的变化来解读更深远的历史，我们发现自己从未目睹过生物形态的自发形成。
 
-This brings us to why AI cannot replace human scientists. Controversy and debate over language and representation in science are not bugs; they are features of a societal system determining which models it wants. Stakes are high because our descriptive languages literally structure how we experience and interact with the world, forming the reality our descendants inherit.
+更深层的历史记忆迫使新的描述出现。进化论和地质学揭示了深远时间（deep time）的概念，天文学引入了深邃空间（deep space）的概念，而现在，正如历史学家托马斯·莫伊尼汉（Thomas Moynihan）指出的那样，我们正在进入一个揭示充满可能性的深层宇宙的时代。我们的世界并没有突然改变或变老，而是我们的理解改变了。我们一再发现自己发展出全新的词汇和概念，以反映我们在世界上发现的新意义。
 
-AI will undoubtedly play a prominent role in “normal science,” something Kuhn defined as constituting the technical refinement of existing paradigms. Our world is growing increasingly complex, demanding correspondingly complex models. Scale is not all we need, but it will certainly help.
+科学哲学家托马斯·库恩（Thomas Kuhn）将这些转变视为范式转移（paradigm shifts），他指出，剧烈的变革时期迫使科学家重新概念化我们看待所属领域的方式：我们提出什么问题，我们使用什么方法，我们认为什么是合法的知识。涌现出来的是描述世界的全新表征，通常包括对我们自以为理解的日常事物的全新描述。
 
-AlphaFold 3’s billions of parameters suggest parsimony and simplicity  may not be science’s only path . If we want models mapping the world as tightly as possible, complexity may be necessary. This aligns with logical positivists Otto Neurath, Rudolph Carnap and the Vienna Circle’s  view : “In science there are no ‘depths’; there is surface everywhere.” If we have accurate, predictive models of everything, maybe there are no deeper truths to be uncovered.
+在库恩看来，科学是混乱的、社会性的、也是深刻的人性化的。在这个我们开始担心人工智能对齐（alignment）、对齐之后（after alignment）以及与我们自己的技术产物重新对齐的时代，范式转移或许可以最好地被描述为我们社会知觉的表征对齐（representational alignment）——在这个过程中，我们必须寻找新的方法，使我们的表征与在我们数千年的文化进化中所呈现出来的、不断变化的现实结构保持同步。
 
-This surface view misses a profound feature of scientific knowledge creation. The simulacra change, but underlying patterns we uncover by manipulating symbols remain, inarticulable and persistent, independent of our languages. The concept of gravity was unknown to our species before science, despite direct sensorial contact throughout human history and an inherited memory from the nearly 4-billion-year lineage of life that preceded us. Every species is aware of gravity, and some microorganisms even use this  awareness to navigate . We knew it as a regularity before Newton’s mathematical description, and this knowledge persisted through Einstein’s radical reconceptualization.
+范式转移揭示了科学思想的力量并不在于理论的字面真相，而在于我们识别出描述世界新方法的能力，以及我们所描述的结构如何在不同的表征体系中持久存在。科学的文化有助于区分接近因果机制的拟像（有时被称为客观现实）和那些将我们引向歧途的拟像。至关重要的是，发现现实的新特征需要建立新的描述。当框架未能捕捉重要的世界特征时（例如当我们识别出模式却无法清晰表达时），就必须出现新的框架和表征图谱。
 
-Prior to Newton’s generation, the  model  of Ptolemy was the most widely adopted for the study of planetary motions, as it had been for nearly 1,500 years. It included circular orbits for the planets, and to increase predictive power, epicycles were added for each planet, such that each planet in the model moved in a small circle while also moving in a larger circle around the Earth. Additional epicycles were added to increase predictive accuracy, not unlike adding nodes to a machine learning model with the accompanying risk of over-fitting.
+阿尔伯特·爱因斯坦对广义相对论的发展说明了这一点。他意识到物理学需要超越线性的洛伦兹变换（出现在狭义相对论中）才能走向广义相对论，这中间隔了七年的时间。在他自己的反思中，他评论说原因是“要摆脱坐标必须有直接的度量意义这个想法并不容易。”作为模型强加的数学结构没有捕捉到意义：它们遗漏了爱因斯坦直觉中必然存在的特征。一旦他将自己的直觉编码，它就变成了主体间的，并在人类心智之间可以共享。
 
-We did not transition to the Newtonian model for its predictive power, but rather because it explained more. The modern concept of gravity was invented by this process of abstraction, and by the explanatory unification of our terrestrial experience of gravity with our celestial observations of it. It is likely that our species, and more specifically our species’ societies, will never forget gravity now that we have learned an abstraction to describe it, even as our symbols describing it may radically change.
+> “科学思想不仅诞生于个人的头脑，也诞生于对这些头脑创造之物的共识解释。”
 
-It is this depth of meaning, inherent in our theories, that science discovers in the process of constructing new societal percepts. This cannot be captured by the surface level view, where science merely creates predictive maps, devoid of depth and meaning.
+这把我们带到了为什么 AI 不能取代人类科学家的原因。在科学中对语言和表征的争议与辩论不是系统缺陷（bugs）；它们是一个社会系统决定其需要哪些模型的功能特性（features）。风险很高，因为我们的描述性语言实际上构建了我们体验世界和与世界互动的方式，塑造了我们后代继承的现实。
 
-French literary critic Roland Barthes argued in his liberating 1967 essay “ The Death of the Author ” that texts contain multiple layers and meanings beyond their creators’ intentions. As with Feyerabend, this was a direct rebuttal “against method.” For Barthes, this rebuttal of method was in refute of literary criticism’s traditional methodological practice of relying on the identity of an author to interpret an ultimate meaning or truth for a text. Instead, Barthes argued for abandoning the idea of a definitive authorial meaning in favor of a more socially constructed and evolving one.
+毫无疑问，AI 将在“常规科学”（库恩将其定义为对现有范式的技术完善）中发挥突出作用。我们的世界正变得越来越复杂，需要相应的复杂模型。唯规模论并非我们所需的一切，但规模肯定会有所帮助。
 
-Similarly, it can be said the scientist “dies” in our writings. When we publish, we submit work to our peers’ interpretation, criticism and use. The peer review process is currently  a target  for AI automation, born from a misconception that peer review is strictly about fact-checking. In reality, peer review is about debate and discussion among peers and gives scholars an opportunity to cocreate how new scientific work is presented in the literature.  That debate and cocreation are essential to the cultural system of science. It is only after peer review that we enter a method that allows reproducibility. Scientific ideas are not born solely of individual minds, but also of consensus interpretations of what those minds create.
+AlphaFold 3 的数十亿个参数表明，简约性和简单性可能不是科学的唯一途径。如果我们希望模型尽可能紧密地映射世界，复杂性可能是必要的。这与逻辑实证主义者奥托·纽拉特（Otto Neurath）、鲁道夫·卡尔纳普（Rudolph Carnap）和维也纳学派的观点一致：“在科学中没有‘深处’；到处都是表面。”如果我们拥有对一切事物的准确、预测性模型，也许就没有更深层次的真相需要被揭开了。
 
-The outputs of AI models arrive already “dead” in this crucial sense: They are produced without an embodied creative act of meaning-making that accompanies the modes of scientific discovery we have become accustomed to in the last 400 or so years. When a scientist develops a theory, even before peer review, there is an intentional act of explanation, and an internal act of wrestling with intuition and its representation. AI models, by contrast, generate predictions through statistical pattern recognition, a very different process.
+这种表面观点错失了科学知识创造的一个深刻特征。拟像会改变，但我们通过操纵符号而发现的潜在模式仍然存在，无法言说但持续不变，独立于我们的语言。在我们物种有了科学之前，引力的概念是不为人知的，尽管纵观人类历史，我们一直通过感官与其产生直接接触，并且从我们之前近 40 亿年的生命演化谱系中继承了对其的记忆。每一个物种都意识到引力的存在，甚至有些微生物利用这种意识来导航。在牛顿提出数学描述之前，我们就知道它是一种规律，而且这种知识通过爱因斯坦彻底的概念重塑得以延续。
 
-“Will AI transform science? Certainly. Will it replace scientists? Certainly not.”
+在牛顿那一代人之前，托勒密的模型是行星运动研究中被最广泛采用的，它主导了近 1500 年。它包含了行星的圆形轨道，为了提高预测能力，还为每颗行星添加了本轮（epicycles），使得模型中的每颗行星在一个小圆上运动的同时，也在一个围绕地球的大圆上运动。添加更多的本轮是为了提高预测的准确性，这与在机器学习模型中增加节点及其伴随的过度拟合风险如出一辙。
 
-Science and AI are  cultural technologies ; both are systems societies use to organize knowledge. When considering the role of AI in science, we should not be comparing individual AI models to individual human scientists, or their minds, as these are incomparable.
+我们向牛顿模型的转变并不是因为它的预测能力，而是因为它解释了更多的东西。现代引力概念是通过这种抽象过程发明的，是通过将我们对引力的地面体验与我们对它的天文观察在解释层面统一起来而发明的。一旦我们学会了用一种抽象概念来描述引力，我们的物种——更准确地说是我们物种的社会——可能永远不会忘记它，即使描述它的符号可能会发生根本的改变。
 
-Rather, we must ask how the cultural systems of AI technologies and science will interact. The death of the scientist is the loss of the inner world that creates an idea, but this is also when the idea can become shared, and the inner world of the societal system of debate and controversy comes alive. When human scientists die in their published work, they birth the possibility of shared understanding. Paradigm shifts are when this leads to entirely new ways for societies to understand the world, forcing us to collectively see new structure underneath our representational maps, structure we previously could not recognize was there.
+正是这种固有于我们理论中的深度含义，让科学在构建新的社会知觉的过程中被发现。这无法用仅仅创造预测性地图、缺乏深度和意义的表面视角来捕捉。
 
-An AI model can integrate an unprecedented number of observations. It can execute hypothesis testing, identify patterns in massive datasets and make predictions at scales an individual human cannot match. But current AI operates only within the representational schema humans give it, refining and extending them at scale. The creative act of recognizing that our maps are inadequate and building entirely new, social and symbolic frameworks to describe what was previously indescribable remains exceptionally challenging, impossible to reduce to method, and so far, uniquely human.
+法国文学评论家罗兰·巴特在 1967 年那篇发人深省的文章《作者的死亡》中提出，文本包含了超越创作者意图的多个层次和含义。正如费耶阿本德一样，这也是一种对“方法论的直接反驳”。对巴特而言，这种对方法的反驳是为了驳斥文学批评依赖作者身份来解释文本最终意义或真理的传统方法论实践。相反，巴特主张放弃定义性的作者意图概念，转而支持一种更具社会建构性和不断演变的意图。
 
-It is unclear how AI might participate in the intersubjective process of building scientific consensus. No one can yet foretell the role AI will play in a collective determination of which descriptions of reality a society will adopt, which new symbolic frameworks will replace those that have died, and which patterns matter enough to warrant new languages for their articulation.
+同样地，可以说科学家在我们的著作中“死亡”了。当我们发表论文时，我们把工作交由同行进行解释、批评和使用。目前的同行评审过程是 AI 自动化的目标，这源于一种误解：认为同行评审严格来说只是关于事实核查。实际上，同行评审是同行之间的辩论和讨论，它让学者有机会共同创造新科学成果在文献中的呈现方式。这种辩论和共同创造对科学的文化体系至关重要。只有在同行评审之后，我们才进入一个允许复现的方法阶段。科学思想不仅诞生于个人的头脑中，也诞生于对这些头脑创造之物的共识解释中。
 
-The deeper question is not whether AI can do science, but whether societies can build shared representations and consensus meanings with algorithms that lack the intentional meaning creation that has always been at the heart of scientific explanation.
+在这个关键意义上，AI 模型的输出已经处于“死亡”状态：它们的产生缺乏一种具身化创造意义的行动，而这种行动伴随着过去四百年左右我们已经习惯的科学发现模式。当科学家提出一个理论时，甚至在同行评审之前，就存在一种解释的意向性行为，一种与直觉及其表征搏斗的内在行为。相比之下，AI 模型通过统计模式识别产生预测，这是一个完全不同的过程。
 
-In essence, science itself is evolving, begging the question of what  science after science  will look like in an age where the cultural institution of science becomes radically transformed.  We should be asking: When we find our species still craves meaning and understanding, beyond algorithmic instantiation,  what will science become?
+> “AI 会改变科学吗？当然会。它会取代科学家吗？当然不会。”
 
-Will AI transform science? Certainly. Will it replace scientists? Certainly not. If we misunderstand what science is, mistaking automation of method for the human project of collectively constructing, debating and refining the symbolic representations through which we make sense of reality, AI may foretell the death of science: We will miss the true opportunity to integrate AI into the culture systems of science.
+科学和 AI 都是文化技术；两者都是社会用来组织知识的系统。在思考 AI 在科学中的作用时，我们不应该将单个 AI 模型与单个的人类科学家或他们的心智进行比较，因为这些是不可比较的。
 
-Science is not merely about prediction and automation; history tells us it is much more. It is about explanatory consensus, and an ongoing human negotiation of which descriptions of the world we will collectively adopt. That negotiation, the intersubjective binding of observations into shared meaning is irreducibly social and, for now, irreducibly human.
+相反，我们必须问的是：AI 技术和科学的文化系统将如何相互作用。科学家的消亡是创造出思想的内部世界的丧失，但这也是思想变得可以被共享时，辩论和争议这一社会体系的内部世界活跃起来的时刻。当人类科学家在他们发表的作品中消亡时，他们孕育了共同理解的可能性。当这导致社会以全新的方式理解世界，迫使我们共同看到表征图谱下新的结构——我们以前无法识别其存在的结构时，范式转移就发生了。
+
+一个 AI 模型可以整合前所未有的大量观测结果。它可以执行假设检验，在海量数据中识别模式，并以人类个体无法比拟的规模进行预测。但是，当前的 AI 仅在人类赋予它的表征模式内运作，并在规模上对它们进行完善和扩展。认识到我们的地图是不充分的，并建立全新的、社会性的、符号化的框架来描述以前无法描述的事物，这一创造性行为仍然极具挑战性，不可能简化为方法论步骤，而且迄今为止，这是人类所独有的。
+
+目前尚不清楚 AI 将如何参与建立科学共识的主体间过程。还没有人能预见，在社会集体决定采纳哪种对现实的描述、哪些新的符号框架将取代那些已经消亡的框架、以及哪些模式重要到需要新语言来清晰表达时，AI 将扮演什么角色。
+
+更深层次的问题不是 AI 能否做科学研究，而是人类社会能否与缺乏意向性意义创造的算法建立共享的表征和共识意义，而这种意向性的意义创造一直是科学解释的核心。
+
+本质上，科学本身也在进化，这引出了一个问题：在这个科学作为文化制度被彻底改变的时代，科学之后的科学（science after science）会是什么样子。我们应该问的是：当我们发现我们的物种仍然渴望在算法实例化之外寻求意义和理解时，科学将会变成什么？
+
+AI 会改变科学吗？当然会。它会取代科学家吗？当然不会。如果我们误解了科学是什么，把方法的自动化误认为是人类集体构建、辩论和完善符号表征（我们借此来理解现实）的宏大工程，那么 AI 可能会预示着科学的死亡：我们将错失把 AI 融入科学文化系统的真正机会。
+
+科学不仅仅是关于预测和自动化的；历史告诉我们它远不止于此。它是关于解释性共识的，是我们共同决定采纳哪种世界描述的持续不断的人类协商。这种协商，这种将观察结果在主体间绑定为共享意义的过程，在根本上是属于社会的，并且在目前看来，在根本上是属于人类的。
+
+## 精华收获
+
+核心洞察：科学不是一套可自动化的方法，而是一个主体间的文化系统。它的核心在于人类社会集体构建、辩论和更新对现实的符号描述。AI 可以极大地增强这个系统中的"正常科学"部分，但无法替代范式转换所需要的创造性意义生成和社会共识构建。
+
+关键概念：社会知觉（societal percept）——社会通过集体感知和辩论形成的对现实的共识表征；拟像（simulacra）——科学理论作为有用的虚构，帮助组织和预测现象但永远无法完全捕捉现实。
+
+对 AI 发展的启示：真正的机遇不是用 AI 取代科学家，而是思考如何将 AI 整合进科学的文化系统中——让 AI 成为新的"感知技术"，帮助人类看到以前看不到的模式，同时保留人类在意义创造和社会共识中不可替代的角色。
+
+原文链接 The Death Of The Scientist | NOEMA | https://x.com/indigox/status/2026911299494449635 |

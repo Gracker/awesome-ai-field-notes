@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI Field Notes
   text: AI 领域精选资源导航
-  tagline: 有观点 · 有评分 · 每日自动更新 · 682 条 · 2 篇有全文
+  tagline: 有观点 · 有评分 · 每日自动更新 · 703 条 · 11 篇有全文
   actions:
     - theme: brand
       text: 浏览全部
@@ -36,8 +36,71 @@ features:
 
 ## 🆕 最新 10 篇
 
+### [awesome-gpt-image-2: World&#x27;s largest GPT Image 2 prompt library](/entry/469c12ee) ⭐2,558 📄
+@YouMind-OpenLab · ⭐⭐⭐3 🌐 · 昨天
+
+awesome-gpt-image-2 是目前最大的 GPT Image 2 提示词库，每日更新，汇集 1800+ 精选提示词并附带预览图，支持 16 种语言。GPT Image 2 的核心能力：精准文字渲染（中日英）、跨图一致性、商业级插画输出、故事板/IP 角色生成、多语言设计海报。同时提供 YouMind GPT Image 2 Prompts Gallery 在线画廊，支持分类浏览和 AI 一键生成。GitHub 2558 Stars。
+
+`gpt-image-2` `openai` `prompt-library` `image-generation` `multimodal`
+
+---
+
+### [Xcode-Build-Optimization-Agent-Skill](/entry/a337aba3) ⭐1,001 📄
+@AvdLee · ⭐⭐⭐3 🌐 · 昨天
+
+Xcode-Build-Optimization-Agent-Skill 是一款帮助优化 Xcode 增量编译和干净构建的 Agent Skill，通过运行基准测试并调整构建设置来缩短编译时间。推荐 iOS 研发人员使用，可直接集成到编程代理的工作流中。GitHub 1001 Stars。
+
+`xcode` `build-optimization` `apple` `ios` `agent-skill`
+
+---
+
+### [X推文流量监控插件和Markdown复制功能](/entry/70668c26) 📄
+@IcyCat · ⭐⭐⭐3 🇨🇳 · 昨天
+
+IcyCat 开发了一款 Chrome 浏览器插件，为 X/Twitter 推文添加浏览量流速监控和 Markdown 一键复制功能。流速监控以简单方式计算推文的传播速度，Markdown 复制功能方便将推文内容直接发送给 AI 进行总结。插件已在 GitHub 开源，正等待 Chrome Web Store 审核。
+
+`x-twitter` `chrome-extension` `analytics` `markdown` `viral-tracker`
+
+---
+
+### [AI驱动的设计工具分享](/entry/de9872fe) 📄
+@Suryansh Tiwari · ⭐⭐⭐⭐4 🌐 · 2026-04-25
+
+Suryansh Tiwari 深度解析了 Claude 风格多智能体系统的两种核心架构：Sub-Agents（隔离执行，单次任务，父节点控制）和 Agent Teams（协作通信，共享上下文，对等交互）。核心区别在于上下文边界的设计而非角色分工。提出了 5 种关键模式：Prompt Chaining、Routing、Parallelization、Orchestrator-Worker、Evaluator-Optimizer。强调应基于上下文边界而非角色来拆分任务，避免每个交接点的质量损失。
+
+`multi-agent` `sub-agents` `agent-teams` `claude` `architecture`
+
+---
+
+### [wanman.ai：让AI agents团队帮助用户运营一人公司](/entry/6f26b8b4) 📄
+@guoyu.eth · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-25
+
+郭宇（guoyu.eth）宣布开源并上线 wanman.ai，核心理念是让 AI Agents 团队帮助用户运营一人公司。两种工作模式：从故事目标自治运行（分析目标-&gt;规划任务-&gt;邀请AI员工-&gt;自动开会对齐-&gt;创意发散）和 GitHub 仓库接管（自动分析代码仓库、持续优化测试、提交 PR）。核心特点：消息通信、自进化 Skill、沙箱隔离、多模型架构。设计哲学是让人类退居二线仅作观察者，核心架构已在 GitHub 开源。命名来源于日语ワンマン（一人）的罗马音。
+
+`wanman` `ai-agent-team` `one-person-company` `autonomous-agent` `vibe-coding`
+
+---
+
+### [NotebookLM 新功能：5+ 来源时自动标签分类](https://x.com/joshwoodward/status/2047795981534847413)
+@@joshwoodward · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-25
+
+NotebookLM 新增自动标签与分类功能：当来源数量达到 5 个及以上时，系统自动为每个来源添加标签和类别，大幅减少研究初期手动整理的时间。支持重命名、重新排序和 emoji 个性化，让研究者能把精力聚焦在阅读和思考而非来源管理上。
+
+`x` `ai-tools` `notebooklm` `research` `workflow`
+
+---
+
+### [acpx 0.6.0：Claude/Codex 智能体控制工具再更新](https://x.com/steipete/status/2047978882100334612)
+@@steipete · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-25
+
+acpx（openclaw 出品的 agent 控制工具）发布 0.6.0 版本，带来多项实用更新：Claude system prompt 直接控制、session pruning（自动削减上下文）、embeddable turn handles（嵌入到自定义 UI）、--no-terminal 模式、persistent session 修复、WSL cwd 路径转换、queue 稳定性提升及更清晰的报错提示。对于日常使用 Claude/Codex 进行自动化任务的同学，session pruning 和 system prompt 控制是本次最值得关注的两个功能——前者避免上下文溢出，后者让你更精细地约束模型行为。已在 GitHub 开源，有需求的开发者值得关注。
+
+`claude` `codex` `agent` `openclaw` `acpx`
+
+---
+
 ### [GPT Image 2的出现，一个设计师的冷思考](https://mp.weixin.qq.com/s?__biz=MjM5MjIyOTA0Mw==&mid=2650203005&idx=1&sn=af664106ce7344b65a98bd6f7265e8ff)
-@梵猩智云 · ⭐⭐⭐3 🇨🇳 · 昨天
+@梵猩智云 · ⭐⭐⭐3 🇨🇳 · 2026-04-24
 
 设计师视角反思GPT Image 2的影响，认为这是从工具升级到分水岭级别的跃迁，文字渲染准确、多语言海报、UI草图等信息图生成能力将设计执行门槛降至几乎为零。作者指出设计师的真正价值不是做图而是做对的选择，并提出三条出路：往上走（判断层）、往深走（垂直领域）、跟AI协作（超级设计师）。核心观点是工具变强不是设计师的灾难，不愿意接受身份重新定义才是。
 
@@ -46,7 +109,7 @@ features:
 ---
 
 ### [AI Agent 工程化实践指南：如何构建可靠的 Harness 系统](https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw==&mid=2247484077&idx=1&sn=ee3fd75a3799b07df9c08fcbda2b21e4)
-@Liz的AI冰美式 · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+@Liz的AI冰美式 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
 
 文章系统阐述Harness Engineering的核心价值：AI时代技术重心正从单点能力转向对整体系统的组织、约束和协同。作者从Prompt工程化、Context工程化、Tools工程化、Workflow工程化四个维度展开，结合OpenAI、Anthropic、LangChain的实践经验，介绍Generator-Evaluator模式、多Agent协作框架（Anthropic 16个并行Claude协作编写C编译器案例）。强调Harness的核心不是塞信息而是设计信息结构，长任务靠外部状态管理而非更强Prompt。
 
@@ -55,73 +118,10 @@ features:
 ---
 
 ### [Building agents that reach production systems with MCP](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp)
-@Anthropic · ⭐⭐⭐⭐4 🌐 · 昨天
+@Anthropic · ⭐⭐⭐⭐4 🌐 · 2026-04-24
 
 Anthropic官方博客，系统阐述将Agent连接到外部生产系统的三条路径（Direct API、CLI、MCP）的适用场景及优劣。重点介绍构建生产级MCP服务器的最佳实践：远程服务器实现最大覆盖、按Intent而非端点分组工具、设计代码编排处理大表面、丰富语义（Elicitation/MCP Apps）、标准化认证（CIMD+Vaults）。提出MCP客户端的上下文效率优化（按需加载工具定义85%+节省、程序化工具调用37%节省）。
 
 `MCP` `model-context-protocol` `agent-integration` `cloud-agent` `skills`
-
----
-
-### [Harness 层怎么自我进化？来自斯坦福大学和 MIT 的一项新研究](https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw==&mid=2247484082&idx=1&sn=aac7ea3868e31bcc3d47e58724adeb19)
-@Liz的AI冰美式 · ⭐⭐⭐⭐4 🇨🇳 · 昨天
-
-介绍斯坦福+MIT论文《Meta-Harness》，提出让Harness本身进入自动化演进。当前文本优化器在优化Harness时核心问题是反馈压缩——几千步轨迹被压缩成单分数，丢失诊断上下文。Meta-Harness通过将完整文件系统（Python源码、执行日志）开放给代码Agent，让它像人类工程师一样翻阅历史候选、推理失败原因、编写修复代码。实验中TerminalBench-2通过80行环境快照代码使Claude Haiku 4.5达37.6%通过率。
-
-`harness-engineering` `self-improving` `Meta-Harness` `Stanford` `MIT`
-
----
-
-### [深入源码：Hermes Agent 如何实现 Self-Improving](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29)
-@Unknown · ⭐⭐⭐⭐4 🇨🇳 · 昨天
-
-深入分析Hermes Agent开源架构，阐述其Self-Improving闭环的三个子系统：Memory（2200字符容量限制，声明式事实，逼Agent压缩信息；冻结快照机制保护上下文缓存）、Skill（踩坑后自动创建/patch SKILL.md，Pitfalls节记录教训，按需渐进加载）、Nudge Engine（后台fork独立Agent实例审查会话，每10回合/10迭代触发，输出重定向/dev/null用户无感知）。与OpenClaw对比：Skill需手写，Agent不自主学习；Hermes让Agent越用越强。
-
-`Hermes-Agent` `self-improving` `memory` `skill` `agent-architecture`
-
----
-
-### [从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29)
-@Unknown · ⭐⭐⭐⭐4 🇨🇳 · 昨天
-
-作者从Hermes Agent获得启发，开发AgentX插件将自我进化机制从Agent迁移到项目层面。核心设计：知识沉淀分两层（Markdown是证据层，Skill是能力层，必须从Markdown演化而来）；Markdown按Claude Code官方实践分层组织（AGENTS.md入口→专题文档→模块文档→SKILL.md能力层）；Harness Engineering哲学：用Bash/Hook搭骨架，用模型做理解和表达。目标是让Claude Code、Codex、OpenCode等不同agent进入同一项目时，都能共享项目积累的知识资产。
-
-`AgentX` `project-knowledge` `coding-agent` `Hermes` `skill-evolution`
-
----
-
-### [Greg Brockman：GPT-5.5是一种新的智能类别](https://x.com/gdb/status/2047381612372115812)
-@@gdb · ⭐⭐⭐⭐4 🇨🇳 · 昨天
-
-OpenAI联合创始人Greg Brockman定义GPT-5.5为一种新的智能类别：在极少人工干预下完成复杂任务，token效率极高，延迟低，可大规模运行。Brockman强调这是真正向让AI完成计算机工作迈进的里程碑。GPT-5.5现已在ChatGPT和Codex中可用，代表Agent时代的基础模型能力基准。
-
-`x` `ai-tools` `gpt-5.5` `openai`
-
----
-
-### [Peter Yang x Mercury VP：如何为Agent设计API和MCP实战复盘](https://x.com/petergyang/status/2047320679889162321)
-@@petergyang · ⭐⭐⭐⭐4 🇨🇳 · 昨天
-
-Peter Yang与Mercury VP @rywiggs合作推出关于Agent API和MCP设计的深度播客。核心观点：2020s的用户交互界面是API和MCP（Machine Communication Protocol），而非传统App。Mercury用Claude Code加500万字公司知识库构建第二大脑，每天自动生成日程/Linear/Slack简报。节目分享了：如何构建Agent友好的知识库结构、如何设计MCP工具接口、最佳API设计原则。这是第一份系统性Agent API/MCP设计实战复盘。
-
-`x` `workflow` `api` `mcp` `agent`
-
----
-
-### [Andrej Karpathy：Farzapedia用LLM把个人数据变成个人维基](https://x.com/karpathy/status/2040572272944324650)
-@@karpathy · ⭐⭐⭐⭐4 🇨🇳 · 昨天
-
-Andrej Karpathy推荐Farzapedia方案：用LLM将2500条日记、Apple Notes、iMessage对话转化为400篇结构化个人Wikipedia文章，涵盖朋友、创业项目、研究领域、喜爱的动漫及其影响。相比AI越用越懂你的隐性记忆，Farza的显式知识库方案更透明、可控、可复用。Karpathy高度评价这是Wiki LLM思路的最佳实践，为个人AI助手个性化提供了新范式。
-
-`x` `ai-tools` `personal-knowledge` `llm`
-
----
-
-### [Google DeepMind：Gemini 3.1 Flash TTS用自然语言控制语音风格](https://x.com/GoogleAI/status/2044447560384102592)
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 昨天
-
-Google DeepMind发布Gemini 3.1 Flash TTS，号称迄今最具表现力和可控性的TTS模型。核心创新是Audio Tags——用自然语言命令嵌入音频，可控制语速、语调、情感表达。这意味着TTS从选择固定音色升级为用Prompt控制声音，是AI语音交互的范式级进步。适用场景：语音助手、有声内容创作、无障碍工具。
-
-`x` `ai-tools` `tts` `gemini` `google`
 
 ---
