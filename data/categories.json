@@ -1,0 +1,169 @@
+{
+  "version": "2.0.0",
+  "last_updated": "2026-04-29",
+  "categories": {
+    "agent-frameworks": {
+      "name": "Agent Frameworks",
+      "description": "Agent框架与架构",
+      "subcategories": {
+        "MCP": {"name": "Model Context Protocol", "description": "模型上下文协议"},
+        "agent-infrastructure": {"name": "Agent基础设施", "description": "Agent系统基础设施"},
+        "applications": {"name": "Agent应用", "description": "Agent应用实现"},
+        "benchmark": {"name": "Agent基准测试", "description": "Agent性能评估"},
+        "evolution": {"name": "Agent演进", "description": "Agent技术演进历程"},
+        "harness": {"name": "Harness框架", "description": "Agent约束与控制框架"},
+        "harness-engineering": {"name": "Harness工程", "description": "Agent可靠性工程方法"},
+        "human-agent-collaboration": {"name": "人机协作", "description": "人与Agent协作机制"},
+        "knowledge-management": {"name": "知识管理", "description": "Agent知识管理系统"},
+        "memory": {"name": "记忆系统", "description": "Agent记忆与学习机制"},
+        "multi-agent": {"name": "多智能体", "description": "多Agent系统架构"},
+        "orchestration": {"name": "编排协调", "description": "Agent编排与协调"},
+        "production": {"name": "生产环境", "description": "生产环境Agent部署"},
+        "project-knowledge": {"name": "项目知识", "description": "Agent项目知识管理"},
+        "self-improving": {"name": "自我改进", "description": "Agent自我改进机制"}
+      }
+    },
+    "ai-hardware": {
+      "name": "AI硬件",
+      "description": "AI芯片与硬件加速",
+      "subcategories": {
+        "chip-architecture": {"name": "芯片架构", "description": "AI芯片设计架构"}
+      }
+    },
+    "ai-safety": {
+      "name": "AI安全",
+      "description": "AI安全与对齐",
+      "subcategories": {
+        "alignment": {"name": "对齐研究", "description": "AI对齐技术研究"}
+      }
+    },
+    "ai-tools": {
+      "name": "AI工具",
+      "description": "AI开发与应用工具",
+      "subcategories": {}
+    },
+    "ai-ux": {
+      "name": "AI用户体验",
+      "description": "AI用户体验设计",
+      "subcategories": {
+        "design-tools": {"name": "设计工具", "description": "AI设计辅助工具"}
+      }
+    },
+    "coding": {
+      "name": "编程开发",
+      "description": "AI辅助编程开发",
+      "subcategories": {}
+    },
+    "coding-agents": {
+      "name": "代码Agent",
+      "description": "AI编程助手",
+      "subcategories": {
+        "claude-code": {"name": "Claude Code", "description": "Claude代码助手"}
+      }
+    },
+    "coding-ai": {
+      "name": "AI编程",
+      "description": "AI编程技术",
+      "subcategories": {
+        "claude-code": {"name": "Claude Code", "description": "Claude代码助手"}
+      }
+    },
+    "developer-tools": {
+      "name": "开发者工具",
+      "description": "AI开发者工具",
+      "subcategories": {
+        "browser-extensions": {"name": "浏览器扩展", "description": "AI浏览器扩展工具"}
+      }
+    },
+    "hardware-chips": {
+      "name": "硬件芯片",
+      "description": "AI芯片技术",
+      "subcategories": {
+        "risc-v-ai": {"name": "RISC-V AI", "description": "RISC-V架构AI芯片"}
+      }
+    },
+    "industry": {
+      "name": "行业应用",
+      "description": "AI行业应用",
+      "subcategories": {
+        "hardware-chips": {"name": "硬件芯片", "description": "AI芯片行业"},
+        "strategy": {"name": "行业战略", "description": "AI行业战略分析"}
+      }
+    },
+    "infra": {
+      "name": "基础设施",
+      "description": "AI基础设施",
+      "subcategories": {}
+    },
+    "infrastructure": {
+      "name": "基础设施",
+      "description": "AI系统基础设施",
+      "subcategories": {
+        "dev-tools": {"name": "开发工具", "description": "AI开发工具"}
+      }
+    },
+    "learning": {
+      "name": "学习资源",
+      "description": "AI学习资源",
+      "subcategories": {
+        "ai-courses": {"name": "AI课程", "description": "AI在线课程"},
+        "daily-digest": {"name": "每日摘要", "description": "AI每日新闻摘要"}
+      }
+    },
+    "llm-engineering": {
+      "name": "大模型工程",
+      "description": "大模型工程化",
+      "subcategories": {
+        "inference-optimization": {"name": "推理优化", "description": "大模型推理优化"}
+      }
+    },
+    "llm-infra": {
+      "name": "大模型基础设施",
+      "description": "大模型基础设施",
+      "subcategories": {
+        "inference-optimization": {"name": "推理优化", "description": "大模型推理优化"}
+      }
+    },
+    "models": {
+      "name": "模型技术",
+      "description": "AI模型技术",
+      "subcategories": {
+        "llm-application": {"name": "LLM应用", "description": "大语言模型应用"},
+        "multimodal": {"name": "多模态", "description": "多模态AI模型"},
+        "open-source": {"name": "开源模型", "description": "开源大模型"}
+      }
+    },
+    "multimodal": {
+      "name": "多模态",
+      "description": "多模态AI技术",
+      "subcategories": {
+        "image-generation": {"name": "图像生成", "description": "AI图像生成技术"}
+      }
+    },
+    "prompt": {
+      "name": "提示工程",
+      "description": "AI提示工程技术",
+      "subcategories": {}
+    },
+    "strategy": {
+      "name": "战略策略",
+      "description": "AI战略分析",
+      "subcategories": {
+        "ai-career": {"name": "AI职业", "description": "AI职业发展"},
+        "ai-news": {"name": "AI新闻", "description": "AI行业新闻"},
+        "ai-product": {"name": "AI产品", "description": "AI产品设计"},
+        "business-models": {"name": "商业模式", "description": "AI商业模式"}
+      }
+    },
+    "uncategorized": {
+      "name": "未分类",
+      "description": "待分类内容",
+      "subcategories": {}
+    },
+    "workflow": {
+      "name": "工作流程",
+      "description": "AI工作流程",
+      "subcategories": {}
+    }
+  }
+}

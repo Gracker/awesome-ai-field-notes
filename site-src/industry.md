@@ -1,6 +1,15 @@
 # 🌍 行业观察
 
-AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **49** 条活跃资源
+AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **50** 条活跃资源
+
+## 📅 2026-04-27
+
+### [技术人员Basics](https://mp.weixin.qq.com/s?__biz=MzI3NDYwMDM4MQ==&mid=2247485131&idx=1&sn=e22c118eb9113c7fd5d1079eab608b5a&chksm=eafc6c369f0d45074d432f4f0dfcc64b51ce1ddeb9fa8f3a395e2600353a32937365c0fca2f6&mpshare=1&scene=1&srcid=0426wMuiKVjomqkNGsEEIRMz&sharer_shareinfo=7edad791b3d396347480ceeddd1e9fc4&sharer_shareinfo_first=7edad791b3d396347480ceeddd1e9fc4)
+@Thorsten Ball · ⭐⭐⭐3 🇨🇳 · 2026-04-27
+
+https://registerspill.thorstenball.com/p/the-basics翻译，送给初入职场的人。
+
+---
 
 ## 📅 2026-04-10
 

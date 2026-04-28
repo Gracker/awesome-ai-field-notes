@@ -1,19 +1,19 @@
 # AI Field Notes
 
-> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。703 条，中英双语。
+> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。731 条，中英双语。
 
 ## 🆕 今日推荐 Top 10
 
-- [awesome-gpt-image-2: World&#x27;s largest GPT Image 2 prompt library](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) ⭐3 · 2026-04-26 — 目前最大的 GPT Image 2 提示词库，每日更新，2558 Stars 社区认可度高
-- [Xcode-Build-Optimization-Agent-Skill](https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill) ⭐3 · 2026-04-26 — iOS 工程师值得一试的 Xcode 编译优化工具，1001 Stars 说明有实用价值
-- [X推文流量监控插件和Markdown复制功能](https://github.com/Icy-Cat/x-viral) ⭐3 · 2026-04-26 — 推文传播分析的轻量工具，对 AI 内容总结工作流有实用价值
-- [AI驱动的设计工具分享](https://x.com/Suryanshti777/status/2047694444787577236) ⭐4 · 2026-04-25 — 多智能体架构选型的系统梳理，上下文边界原则是核心洞见
-- [wanman.ai：让AI agents团队帮助用户运营一人公司](#) ⭐4 · 2026-04-25 — 一人公司运营的 AI Agent 团队化实践，设计哲学清晰且有开源诚意
-- [NotebookLM 新功能：5+ 来源时自动标签分类](https://x.com/joshwoodward/status/2047795981534847413) ⭐4 · 2026-04-25 — NotebookLM 自动整理多来源研究，从 5 个来源开始自动分类标签
-- [acpx 0.6.0：Claude/Codex 智能体控制工具再更新](https://x.com/steipete/status/2047978882100334612) ⭐5 · 2026-04-25 — Claude/Codex 智能体控制工具 acpx 更新，session pruning 和 system prompt 控制是亮点
-- [GPT Image 2的出现，一个设计师的冷思考](https://mp.weixin.qq.com/s?__biz=MjM5MjIyOTA0Mw==&mid=2650203005&idx=1&sn=af664106ce7344b65a98bd6f7265e8ff) ⭐3 · 2026-04-24 — AI图像生成能力的飞跃正在重新定义设计师的价值坐标，从执行者转向决策者
-- [AI Agent 工程化实践指南：如何构建可靠的 Harness 系统](https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw==&mid=2247484077&idx=1&sn=ee3fd75a3799b07df9c08fcbda2b21e4) ⭐4 · 2026-04-24 — Harness Engineering的本质是为Agent构建可靠的运行环境，而非无限增强Prompt
-- [Building agents that reach production systems with MCP](https://claude.com/blog/building-agents-that-reach-production-systems-with-mcp) ⭐4 · 2026-04-24 — MCP正在成为生产环境Agent连接外部系统的行业标准协议层
+- [Google 发布 Gemini 3.1 Flash TTS：支持自然语言音频标签控制](https://x.com/GoogleAI/status/2044447560384102592) ⭐4 · 2026-04-28 — Gemini 3.1 Flash TTS 支持用自然语言命令嵌入音频标签来控制音色、语速和表达风格
+- [RAG 在大规模场景下失效：神经符号 AI 是未来方向](https://x.com/DeepLearn007/status/2043784557099471159) ⭐4 · 2026-04-28 — 纯向量 RAG 存在语义崩溃问题，神经符号 AI（本体论+确定性层+LLM 解释）才是正解
+- [AI 生成图像正在替代传统原型设计，成为产品创意共享新方式](https://x.com/gdb/status/2049120845985923316) ⭐4 · 2026-04-28 — 内部产品讨论已从 PPT/原型工具转向 AI 生成图像，2.0 图像模型对数字界面的还原度极高
+- [Anthropic 发布 81,000 用户经济展望与担忧研究](https://x.com/AnthropicAI/status/2047006548149289017) ⭐4 · 2026-04-28 — Anthropic 公开 81,000 名 Claude 用户的 AI 经济期望与担忧研究，是目前规模最大的定性 AI 用户调研
+- [NotebookLM 来源自动标签与分类：5 个以上文档智能整理](https://x.com/joshwoodward/status/2047795981534847413) ⭐4 · 2026-04-28 — NotebookLM 来源管理自动化：5 加文档自动分类，减少信息混乱
+- [Gemini 3.1 Flash TTS：支持自然语言音频标签控制的语音合成 API](https://x.com/GoogleAI/status/2044447560384102592) ⭐4 · 2026-04-28 — Gemini TTS 支持自然语言指令控制语速语调，最具可控性 TTS API
+- [Allie K. Miller 推出免费 5 天课程：AI Fast Track](https://x.com/alliekmiller/status/1985834763677286606) ⭐5 · 2026-04-28 — 免费 5 天邮件课程，手把手教你从 ChatGPT 进阶到用 Claude 构建个人 AI 软件与自动化工具
+- [Karpathy：本地 Demo 到线上产品，DevOps 是最难的部分](https://x.com/karpathy/status/2037200624450936940) ⭐5 · 2026-04-28 — Vibe coding 做本地 Demo 很爽，但真实部署后 DevOps（服务、支付、认证、数据库、安全）才是噩梦
+- [AI Fast Track: 5天免费课程，从用AI到用AI构建](https://x.com/alliekmiller/status/1985834763677286606) ⭐5 · 2026-04-28 — 从用AI复制粘贴升级到用AI构建工具的零基础实战课程
+- [Glean 推出 Waldo：首个 Agentic 搜索模型，NVIDIA Nemotron 3 Nano 驱动](https://x.com/NVIDIAAI/status/2049131895552963023) ⭐5 · 2026-04-28 — 企业搜索进入 Agentic 时代：Waldo 能主动规划搜索路径而非简单向量匹配
 
 ## 分类导航
 
@@ -21,9 +21,9 @@
 |------|------|------|
 | 🧠 模型 | 94 | GPT / Claude / Gemini / 开源模型 / 架构 |
 | 🤖 智能体 | 105 | Agent 框架 / MCP / A2A / 手机&桌面助手 |
-| 💻 AI编程 | 164 | IDE / CLI / 代码审查 / 工作流 |
+| 💻 AI编程 | 167 | IDE / CLI / 代码审查 / 工作流 |
 | ⚡ 基础设施 | 60 | 推理部署 / RAG / 微调 / 评测 / 多模态 |
-| 🌍 行业观察 | 53 | AI 产品 / 大厂战略 / 融资 / 市场分析 |
+| 🌍 行业观察 | 54 | AI 产品 / 大厂战略 / 融资 / 市场分析 |
 | 📖 学习资源 | 115 | 教程 / 论文 / 提示工程 / 演讲 |
 
 ## 评分标准

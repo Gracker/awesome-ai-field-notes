@@ -1,6 +1,29 @@
 # 💻 AI编程
 
-IDE / CLI / 代码审查 / 工作流 — 共 **155** 条活跃资源
+IDE / CLI / 代码审查 / 工作流 — 共 **158** 条活跃资源
+
+## 📅 2026-04-27
+
+### [AI 产品团队的速度，来自一套更短的判断回路 | 橙子的博客](https://ai.sailfishc.com/posts/anthropic-product-team-release-workbench/)
+⭐⭐⭐3 🇨🇳 · 2026-04-27
+
+她要为 Code with Claude 大会准备一场演讲，主题是 Claude Code 如何从助手走向完整的智能体。过去，这类工作通常意味着：翻 Slack、找发布记录、看内部案例、整理产品叙事、做幻灯片、对齐设计系统，再反复改稿。
+
+---
+
+### [为 Agent 设计产品【译】](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494663&idx=1&sn=0e5d4d44345aa5160c109dabc03619d6&chksm=c253ef9ad3e1831a85ca098df6957e01084044b32f1e4dd4e9be81c27a065ca3312ca19f1e01&mpshare=1&scene=1&srcid=0426cS5qZt7oaqEgVqOSWSDy&sharer_shareinfo=835d6d850e45df08b9f18a9541d9cb96&sharer_shareinfo_first=835d6d850e45df08b9f18a9541d9cb96)
+@Teddy Riker · ⭐⭐⭐3 🇨🇳 · 2026-04-27
+
+UI 并没有死，但软件交互的 80% 正在转向 Agent。产品团队需要像过去为人设计界面一样，认真为 Agent 设计工具、上下文和反馈闭环。
+
+---
+
+### [【译】关于 Claude Design 的一些想法和感受 · Sam Henri Gold](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494651&idx=1&sn=26efdda46f138eb1d535cdf381998c44&chksm=c27e9ec0c7ba2688e0bc949fa980d884fe7523850cdcfe43672137cf24ea386805becdf77c9f&mpshare=1&scene=1&srcid=0425CY78QNq5zewoMXLtMxBJ&sharer_shareinfo=e8b57c7bfe3dca5976dc1f958a3922c3&sharer_shareinfo_first=e8b57c7bfe3dca5976dc1f958a3922c3)
+@Sam Henri Gold · ⭐⭐⭐3 🇨🇳 · 2026-04-27
+
+设计师 Sam Henri Gold 体验 Claude Design 后撰文：Figma 花十年构建的封闭设计系统，在 AI 智能体时代正变成负担。LLM 用代码训练，学不会 Figma 的专有格式，&quot;单一事实来源&quot;将回归代码。
+
+---
 
 ## 📅 2026-04-14
 

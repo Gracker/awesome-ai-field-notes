@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "schema_description": "每条记录必须基于实际文件内容提取，禁止捏造。英文原文需提供中英双语摘要。",
-  "last_updated": "2026-04-27",
+  "last_updated": "2026-04-29T03:11:15.295951",
   "entries": [
     {
       "id": "ppNqbBb5",
@@ -240,13 +240,14 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": null,
+      "local_path": "content/7bf35471.md",
       "images": [],
       "added_date": "2026-04-18",
       "updated_date": "2026-04-19",
       "github_stars": null,
       "related": [],
-      "content_path": "content/7bf35471.md"
+      "content_path": "content/7bf35471.md",
+      "local_path_valid": true
     },
     {
       "id": "50fecf1d",
@@ -510,13 +511,14 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": null,
+      "local_path": "content/4be25f79.md",
       "images": [],
       "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "content_path": "content/4be25f79.md"
+      "content_path": "content/4be25f79.md",
+      "local_path_valid": true
     },
     {
       "id": "4b29f474",
@@ -578,13 +580,14 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": null,
+      "local_path": "content/4409adc4.md",
       "images": [],
       "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "content_path": "content/4409adc4.md"
+      "content_path": "content/4409adc4.md",
+      "local_path_valid": true
     },
     {
       "id": "354d4da8",
@@ -681,13 +684,14 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": "Cubox/Automated Alignment Researchers- Using large language models to scale scalable oversight - Anthropic.md",
+      "local_path": "content/tIs9VugG.md",
       "images": [],
       "added_date": "2026-04-16",
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "content_path": "content/tIs9VugG.md"
+      "content_path": "content/tIs9VugG.md",
+      "local_path_valid": true
     },
     {
       "id": "keqFU4_v",
@@ -926,7 +930,7 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": "X 文章/20240414-chrysb-LLM长期记忆问题.md",
+      "local_path": "content/c9567fc80a61.md",
       "images": [
         "https://pbs.twimg.com/media/HFo5bZ6acAAoAdC?format=jpg&name=small",
         "https://pbs.twimg.com/media/HFo5iVFaMAAdcTO?format=jpg&name=small",
@@ -938,7 +942,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "content_path": "content/c9567fc80a61.md"
+      "content_path": "content/c9567fc80a61.md",
+      "local_path_valid": true
     },
     {
       "id": "8ee8a8b72ffc",
@@ -5108,7 +5113,7 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": "X 文章/2026-02-28-2013-karpathy-Tweet-by-@karpathy-(Thu-Feb-19-20-35-06-+0000-2026)-2024583544157458452.md",
+      "local_path": "content/rnjpbgtm.md",
       "images": [],
       "added_date": "2026-04-10",
       "updated_date": null,
@@ -6969,7 +6974,7 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": "X 文章/2026-03-06-1628-GeekPlux-拥抱黑盒：一个研究者 All in AI 的实录与反思-2029761486671712745.md",
+      "local_path": "content/ov4yw4c3.md",
       "images": [],
       "added_date": "2026-04-10",
       "updated_date": null,
@@ -7002,7 +7007,7 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": "X 文章/04-06-MinLiBuilds-Claude-Code-Caching.md",
+      "local_path": "content/otjpnj3j.md",
       "images": [],
       "added_date": "2026-04-10",
       "updated_date": null,
@@ -24074,7 +24079,901 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "5addfa0565",
+      "title": "全员 token-maxxing，一场没人敢停的军备竞赛",
+      "url": "https://cubox.pro/c/filters:no_upscale()?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FJ3iaQ6X4GdYUlibrJ0GIg9QplWQkaeBCS648spXYYh8ZO0KUe1H1NjZibRJd3ZD1NDb1BzicWZ5neHmGEFWxFFgGE0Z4OeapcA2j6CqvKR4Va0A%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D9)](https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532234&idx=1&sn=cbac85e8b9b49c28e4a553d761e26098&scene=21#wechat_redirect)",
+      "source": {
+        "platform": "cubox",
+        "author": "五源资本合伙人 孟醒**",
+        "original_date": null
+      },
+      "category": "agent-frameworks/harness-engineering",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FJ3iaQ6X4GdYW7zVkpgwHic9rIVibM1EKn8iawD2y6qGAEAQwPX2zjBCxorTRCD5ytHia2vrpKtOSPtleGNa49me2Tsxgp7oibRQzOMbFKaxO5tibXQ%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D0)",
+      "summary_en": null,
+      "one_liner": "VC视角：YC 2026 batch 超80%是垂直Agent，但5个月已足够发生范式转换，垂直场景壁垒正在快速消失",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/全员 token-maxxing，一场没人敢停的军备竞赛-2026-04-27.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5725d3e623",
+      "title": "你不知道的 AI Coding：非技术人的上手、场景与实战",
+      "url": "https://x.com/i/status/2048230976447557787",
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": null
+      },
+      "category": "agent-frameworks/harness-engineering",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "上个月在公司里给产品和业务的小伙伴分享了下如何上手 AI Coding，加上最近又发了条推特，聊到不少同学因为订阅门槛没机会用上一线 AI Coding 工具，方法和习惯不花钱就能先学，索性把上手这部分整理出来。然后为了让内容给大伙更好理解，文章中绘制了不少简单插画，这样看起来应该更会直接。",
+      "summary_en": null,
+      "one_liner": "非技术人 AI Coding 入门指南，场景覆盖全面，适合作为团队内部推广材料",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/你不知道的 AI Coding：非技术人的上手、场景与实战-2026-04-26.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "853409a5bc",
+      "title": "深入源码：Hermes Agent 如何实现 \"Self-Improving\"",
+      "url": "https://mp.weixin.qq.com/s/Qi68ptxQRyiA932JU49SYQ",
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": null
+      },
+      "category": "agent-frameworks",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2Fj7RlD5l5q1y2STOcej6MFiaC1kgiazAOBIb5BJON5wwN9END1BIIS09iccLF4Uicu29ic4cFfSMCz0uebuDViaDTJMJY5OssiaSxic5yxqRW1LKcCPc%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D0)",
+      "summary_en": null,
+      "one_liner": "Hermes Agent 源码级解读，Self-Improving 机制揭露了 Agent 自进化设计的核心路径",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/深入源码：Hermes Agent 如何实现 -Self-Improving--2026-04-26.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c166d6b857",
+      "title": "AI 产品团队的速度，来自一套更短的判断回路 | 橙子的博客",
+      "url": "https://ai.sailfishc.com/posts/anthropic-product-team-release-workbench/",
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "她要为 Code with Claude 大会准备一场演讲，主题是 Claude Code 如何从助手走向完整的智能体。过去，这类工作通常意味着：翻 Slack、找发布记录、看内部案例、整理产品叙事、做幻灯片、对齐设计系统，再反复改稿。",
+      "summary_en": null,
+      "one_liner": "Anthropic 产品团队的高效判断回路设计，体现了\"快思考+短反馈\"的工程化产品观",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Cubox/AI 产品团队的速度，来自一套更短的判断回路 - 橙子的博客-2026-04-26.md",
+      "images": [],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "88522d6077",
+      "title": "为 Agent 设计产品【译】",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494663&idx=1&sn=0e5d4d44345aa5160c109dabc03619d6&chksm=c253ef9ad3e1831a85ca098df6957e01084044b32f1e4dd4e9be81c27a065ca3312ca19f1e01&mpshare=1&scene=1&srcid=0426cS5qZt7oaqEgVqOSWSDy&sharer_shareinfo=835d6d850e45df08b9f18a9541d9cb96&sharer_shareinfo_first=835d6d850e45df08b9f18a9541d9cb96",
+      "source": {
+        "platform": "cubox",
+        "author": "Teddy Riker",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "UI 并没有死，但软件交互的 80% 正在转向 Agent。产品团队需要像过去为人设计界面一样，认真为 Agent 设计工具、上下文和反馈闭环。",
+      "summary_en": null,
+      "one_liner": "从设计视角翻译 Agent 产品原则，交互范式与用户体验是关键",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Cubox/为 Agent 设计产品【译】-2026-04-26.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f8f64796ed",
+      "title": "【译】关于 Claude Design 的一些想法和感受 · Sam Henri Gold",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494651&idx=1&sn=26efdda46f138eb1d535cdf381998c44&chksm=c27e9ec0c7ba2688e0bc949fa980d884fe7523850cdcfe43672137cf24ea386805becdf77c9f&mpshare=1&scene=1&srcid=0425CY78QNq5zewoMXLtMxBJ&sharer_shareinfo=e8b57c7bfe3dca5976dc1f958a3922c3&sharer_shareinfo_first=e8b57c7bfe3dca5976dc1f958a3922c3",
+      "source": {
+        "platform": "cubox",
+        "author": "Sam Henri Gold",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "设计师 Sam Henri Gold 体验 Claude Design 后撰文：Figma 花十年构建的封闭设计系统，在 AI 智能体时代正变成负担。LLM 用代码训练，学不会 Figma 的专有格式，\"单一事实来源\"将回归代码。",
+      "summary_en": null,
+      "one_liner": "设计师视角的 Claude Design 感受，UX 设计细节值得关注",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Cubox/【译】关于 Claude Design 的一些想法和感受 · Sam Henri Gold-2026-04-25.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e446406cb1",
+      "title": "技术人员Basics",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3NDYwMDM4MQ==&mid=2247485131&idx=1&sn=e22c118eb9113c7fd5d1079eab608b5a&chksm=eafc6c369f0d45074d432f4f0dfcc64b51ce1ddeb9fa8f3a395e2600353a32937365c0fca2f6&mpshare=1&scene=1&srcid=0426wMuiKVjomqkNGsEEIRMz&sharer_shareinfo=7edad791b3d396347480ceeddd1e9fc4&sharer_shareinfo_first=7edad791b3d396347480ceeddd1e9fc4",
+      "source": {
+        "platform": "cubox",
+        "author": "Thorsten Ball",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "https://registerspill.thorstenball.com/p/the-basics翻译，送给初入职场的人。",
+      "summary_en": null,
+      "one_liner": "技术人员基础知识梳理，适合补充技术背景但内容深度有限",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Cubox/技术人员Basics-2026-04-26.md",
+      "images": [],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "610222a205",
+      "title": "Anthropic《Building Effective AI Agents》深度解读，AI Agents架构“经典必读”",
+      "url": null,
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": null
+      },
+      "category": "agent-frameworks",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "最好的架构，是满足今日需求的最简架构，同时为明日进化保留路径。它不是一次性的完美设计，而是在应对真实业务挑战的过程中，一步步“逼”出来的。",
+      "summary_en": null,
+      "one_liner": "Anthropic 官方 Agent 架构方法论深度解读，涵盖推理、工具使用、记忆与规划四大核心模块",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/Anthropic《Building Effective AI Agents》深度解读，AI Agents架构“经典必读”-2026-04-26.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale(",
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a1b2c3d4",
+      "title": "Allie K. Miller 推出免费 5 天 AI 课程：从会用 AI 到会用 AI 构建",
+      "url": "https://x.com/alliekmiller/status/1985834763677286606",
+      "source": {
+        "platform": "x",
+        "author": "@alliekmiller",
+        "original_date": "2025-11-05"
+      },
+      "category": "prompt",
+      "tags": [
+        "x",
+        "ai-tools",
+        "learning",
+        "course"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Allie K. Miller 推出免费邮件课程《AI Fast Track》，5 天从入门到独立构建 AI 工具。核心主张：copy-paste ChatGPT prompts 只能走很远，真正差异在于用 AI 构建自动化和工作流。课程不需编程基础，工具箱新增 Claude，适合想从使用者升级为建造者的学习者。拆掉了从消费者到建造者的门槛，对想突破 AI 应用层的朋友很有参考价值。",
+      "summary_en": "Allie K. Miller launched a free 5-day email course 'AI Fast Track' going from AI usage to AI building. No coding required, adds Claude to toolkit. Breaks down barrier from consumer to builder.",
+      "one_liner": "免费 5 天课程帮你从会用 AI 升级到用 AI 构建工具，无需编程基础。",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e5f6g7h8",
+      "title": "Google 推出 Gemini 3.1 Flash TTS：音频标签控制语音风格与节奏",
+      "url": "https://x.com/GoogleAI/status/2044447560384102592",
+      "source": {
+        "platform": "x",
+        "author": "@GoogleAI",
+        "original_date": "2026-04-16"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "tts",
+        "google"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Gemini 3.1 Flash TTS 是 Google 迄今为止表现力最强、可控性最高的语音合成模型。核心新功能 Audio Tags：用自然语言命令嵌入文本来引导语音风格、节奏和表达方式。可在 Google AI Studio 或 Vertex AI 直接调用，适合有声内容、语音助手、播客类 AI 应用。音频标签让语音合成从调参数变成写指令，大幅降低了 AI 语音定制门槛。",
+      "summary_en": "Google launched Gemini 3.1 Flash TTS with Audio Tags allowing natural language commands to control voice style, pace and delivery. Available in AI Studio and Vertex AI.",
+      "one_liner": "Gemini 3.1 Flash TTS 用 Audio Tags 让语音合成从调参数变成写指令。",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "i9j0k1l2",
+      "title": "Qwen-Image-2.0-Pro 发布，Text-to-Image 排名进入全球前 10",
+      "url": "https://x.com/Alibaba_Qwen/status/2048022731548229869",
+      "source": {
+        "platform": "x",
+        "author": "@Alibaba_Qwen",
+        "original_date": "2026-04-25"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "qwen",
+        "image-generation"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Qwen 图像模型升级到 2.0 Pro，图像质量、多语言文字渲染和指令遵循能力全面提升。在 Text-to-Image Arena 全球排名第 9，人像、写实、电影风格等细分场景进入前 10。主打更一致的跨风格表现，中文场景优化到位，适用于国际化视觉内容生产。国产开源视觉模型又一次突破，是做国际化视觉内容的新选择。",
+      "summary_en": "Qwen released Image-2.0-Pro ranking #9 globally on Text-to-Image Arena, top 10 in portrait, photorealistic and cinematic categories. Strong Chinese language support.",
+      "one_liner": "Qwen Image 2.0 Pro 闯入 Text-to-Image 全球前 10，国产视觉模型再突破。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "m3n4o5p6",
+      "title": "Karpathy 推荐 Farzapedia：用 LLM 把日记笔记变成私人维基百科",
+      "url": "https://x.com/karpathy/status/2040572272944324650",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-04-05"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "workflow",
+        "personal-knowledge",
+        "llm"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Farza 将 2500 条日记、Apple Notes 和 iMessage 对话输入 LLM，生成了 400 篇私人百科文章，涵盖自己、创业项目、兴趣动漫等。Karpathy 点评：这种个性化方法比默认的 AI 越用越好更显式、更可控。可复制路径：收集个人数字痕迹 → LLM 批量生成结构化文章 → 构建个人知识库。适合想打造第二大脑或做数字遗产规划的用户参考。",
+      "summary_en": "Farza used an LLM to convert 2500 diary entries, Apple Notes and iMessages into 400 personal wiki articles. Karpathy endorses this explicit personalization approach over default AI improvement.",
+      "one_liner": "用 LLM 把日记笔记变成可检索的个人维基百科，打造第二大脑。",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "q7r8s9t0",
+      "title": "tibo_maker 复盘：从 9 个失败产品到 5 个 AI 产品月入 100 万美元的方法论",
+      "url": "https://x.com/petergyang/status/2048462231470547038",
+      "source": {
+        "platform": "x",
+        "author": "@petergyang",
+        "original_date": "2026-04-26"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "workflow",
+        "bootstrapping",
+        "ai-products"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Tibo 在 5 个 AI 产品上全部采用 bootstrap 路线，展示小团队如何用 AI 工具实现规模化。核心教训：创始人最大错误是不想犯错，比盈利更重要的是快速验证、快速失败。方法论：先验证想法再用钱买时间，而不是反过来。Peter Yang 播客详细拆解完整 playbook，包括 idea 验证、失败快的方法和 top 15 最佳实践。把 AI 工具和精益创业方法结合的真实案例，对独立开发者很有参考价值。",
+      "summary_en": "Tibo bootstrapped 5 AI products to $1M+ MRR, shipping 9 failed products before one took off. Core lesson: biggest founder mistake is wanting to not be wrong. Fast validation beats profitability. Peter Yang podcast has full playbook.",
+      "one_liner": "从 9 个失败品到月入百万：AI 独立开发者的精益创业方法论。",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "u1v2w3x4",
+      "title": "wacrawl 0.2.0：用 age 加密把 WhatsApp 桌面端聊天记录分片备份到 GitHub",
+      "url": "https://x.com/steipete/status/2048660875007914176",
+      "source": {
+        "platform": "x",
+        "author": "@steipete",
+        "original_date": "2026-04-26"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "backup",
+        "encryption",
+        "whatsapp"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "wacrawl 0.2.0 新增加密 Git 备份功能：wacrawl backup push 将 WhatsApp Desktop 存档用 age 加密分片写入 GitHub；wacrawl backup pull 解密、验证并本地恢复，支持跨设备同步。技术栈：age 加密 + Git 版本控制，数据主权完全在自己手里。开源工具，可自托管，备份历史永久可查。把个人数据备份这个硬需求用现代加密工具解决，数据主权完全自己掌控。",
+      "summary_en": "wacrawl 0.2.0 adds encrypted Git backup for WhatsApp Desktop archives. backup push writes age-encrypted shards to GitHub; backup pull decrypts, verifies and restores locally. Open source, self-hostable.",
+      "one_liner": "用 age 加密将 WhatsApp 桌面端聊天记录分片备份到 GitHub，数据主权完全自己掌控。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "y5z6a7b8",
+      "title": "NotebookLM 新功能：来源超过 5 个时自动标签与分类",
+      "url": "https://x.com/joshwoodward/status/2047795981534847413",
+      "source": {
+        "platform": "x",
+        "author": "@joshwoodward",
+        "original_date": "2026-04-25"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "notebooklm",
+        "research"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "NotebookLM 推出自动标签和分类来源功能，上传 5 个以上来源时自动整理。支持重命名、重组、添加 emoji 定制分类，界面友好。减少在大量来源中反复翻找的时间，直接提升学习和研究效率。无需付费，免费功能，对知识工作者和研究者很有帮助。解决了在大量来源中整理材料的核心痛点，把整理时间省下来用于真正思考，适合做文献综述或深度研究的用户。",
+      "summary_en": "NotebookLM now auto-labels and categorizes sources when you have 5+, with rename, reorganize and emoji support. Free feature that saves researchers and knowledge workers significant time organizing materials.",
+      "one_liner": "NotebookLM 自动整理 5+ 来源的标签分类，让研究效率大幅提升。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8ed12140",
+      "title": "Allie K. Miller 推出免费 5 天课程：AI Fast Track",
+      "url": "https://x.com/alliekmiller/status/1985834763677286606",
+      "source": {
+        "platform": "x",
+        "author": "@alliekmiller",
+        "original_date": "2026-04-28"
+      },
+      "category": "workflow",
+      "tags": [
+        "ai-tools",
+        "learning",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Allie K. Miller 宣布推出「AI Fast Track」免费 5 天邮件课程，面向想超越 ChatGPT 简单调用的用户。课程无需编程基础，教授如何将 Claude 加入个人工具箱，构建属于自己的 AI 软件、自动化脚本和实用工具。区别于单纯使用 AI 的粘贴复制，该课程强调亲手构建，填补了广大用户「会用 AI」到「会用 AI 构建」之间的鸿沟。对于想系统性提升 AI 生产力的个人用户，这是目前少有的免费高质量入门路径。",
+      "summary_en": "Allie K. Miller launches a free 5-day email course called 'AI Fast Track' for those wanting to go beyond copy-pasting ChatGPT prompts. No coding required — teaches how to add Claude to your toolkit and build personal AI software, automations, and tools.",
+      "one_liner": "免费 5 天邮件课程，手把手教你从 ChatGPT 进阶到用 Claude 构建个人 AI 软件与自动化工具",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5c7a3ee4",
+      "title": "Karpathy：本地 Demo 到线上产品，DevOps 是最难的部分",
+      "url": "https://x.com/karpathy/status/2037200624450936940",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-04-28"
+      },
+      "category": "workflow",
+      "tags": [
+        "ai-tools",
+        "devops",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Karpathy 在回顾 MenuGen 开发历程时指出：构建一个真正上线的 AI 应用，最难的部分从来不是模型或代码本身，而是需要像 IKEA 家具一样组装各种第三方服务的 DevOps 工作——支付网关、用户认证、数据库、安全防护、域名配置等。这些基础设施的拼装和调试占据了大量工程时间，往往比训练模型更让人「痛苦」。这提醒所有 AI 开发者：Demo 和产品之间隔着一整个 DevOps 世界，vibe coding 的快乐止步于本地运行。",
+      "summary_en": "Karpathy reflects on building MenuGen: the hardest part of deploying a real AI app is not the model or code itself but the DevOps glue — services, payments, auth, database, security, domain names. The gap between a local demo and a live product is almost entirely DevOps complexity.",
+      "one_liner": "Vibe coding 做本地 Demo 很爽，但真实部署后 DevOps（服务、支付、认证、数据库、安全）才是噩梦",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ea4ab864",
+      "title": "Google 发布 Gemini 3.1 Flash TTS：支持自然语言音频标签控制",
+      "url": "https://x.com/GoogleAI/status/2044447560384102592",
+      "source": {
+        "platform": "x",
+        "author": "@GoogleAI",
+        "original_date": "2026-04-28"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "google",
+        "tts",
+        "audio",
+        "ai-tools"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Google 发布了 Gemini 3.1 Flash TTS，号称旗下表现力最强、控制最精细的语音合成模型。其核心亮点是引入了「音频标签」（Audio Tags）机制——可以用自然语言描述来引导语音的风格、节奏和表达方式，比如「用兴奋的语气」「稍微放慢一些」「带点犹豫」。这对需要为 AI 对话、数字人、有声内容生成个性化语音的开发者来说是实打实的新能力，也是目前 TTS 领域少见的控制粒度突破。",
+      "summary_en": "Google launches Gemini 3.1 Flash TTS, its most expressive and controllable text-to-speech model with Audio Tags — natural language commands embedded in input that guide vocal style, pace, and delivery.",
+      "one_liner": "Gemini 3.1 Flash TTS 支持用自然语言命令嵌入音频标签来控制音色、语速和表达风格",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cc746f17",
+      "title": "RAG 在大规模场景下失效：神经符号 AI 是未来方向",
+      "url": "https://x.com/DeepLearn007/status/2043784557099471159",
+      "source": {
+        "platform": "x",
+        "author": "@DeepLearn007",
+        "original_date": "2026-04-28"
+      },
+      "category": "workflow",
+      "tags": [
+        "rag",
+        "ai-tools",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "该推文揭示了一个被广泛忽视的 RAG 失效场景：当知识库规模达到临界值，向量相似度搜索会遭遇「语义崩溃」（Semantic Collapse）——语义相近的无关文档被错误召回，真正相关的内容反而被淹没。引用 Stanford 研究后，作者提出未来属于「神经符号 AI」：用本体论处理结构化知识，用确定性层保障事实准确性，用 LLM 做自然语言解释而非直接做检索。",
+      "summary_en": "Pure vector-only RAG collapses at scale due to Semantic Collapse. The future is neurosymbolic AI: ontologies for structured knowledge, deterministic layers for truth, and LLMs for interpretation rather than retrieval.",
+      "one_liner": "纯向量 RAG 存在语义崩溃问题，神经符号 AI（本体论+确定性层+LLM 解释）才是正解",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "96fb0c5d",
+      "title": "AI 生成图像正在替代传统原型设计，成为产品创意共享新方式",
+      "url": "https://x.com/gdb/status/2049120845985923316",
+      "source": {
+        "platform": "x",
+        "author": "@gdb",
+        "original_date": "2026-04-28"
+      },
+      "category": "workflow",
+      "tags": [
+        "imagegen",
+        "prototyping",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "该推文引述了一个正在发生的趋势：AI 图像生成模型（尤其是 2.0 版本）已经能够高度还原产品界面和视觉 mock，使得团队内部在讨论产品概念时，直接用 AI 生成图像替代传统的原型设计和 PPT 演示。内部产品 idea 的呈现和共创方式因此发生根本变化——不再依赖 Figma 或 Axure，而是让 AI 把想法「画出来」。这对产品经理、UX 设计师和创业者的工作流有直接启发：用好图像生成模型可以极大压缩创意验证周期。",
+      "summary_en": "AI image generation models (2.0 version) now produce highly realistic product UI and visual mocks, causing teams to shift from traditional prototyping tools to AI-generated images for sharing product ideas internally, fundamentally changing how product concepts are communicated.",
+      "one_liner": "内部产品讨论已从 PPT/原型工具转向 AI 生成图像，2.0 图像模型对数字界面的还原度极高",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b4ceed50",
+      "title": "Anthropic 发布 81,000 用户经济展望与担忧研究",
+      "url": "https://x.com/AnthropicAI/status/2047006548149289017",
+      "source": {
+        "platform": "x",
+        "author": "@AnthropicAI",
+        "original_date": "2026-04-28"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "anthropic",
+        "research",
+        "ai-tools"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Anthropic 在发布 81,000 人用户调研后，进一步发布了关于这些用户「经济期望与担忧」的研究报告。这是 AI 领域迄今规模最大的定性用户调研之一，揭示了普通用户对 AI 经济影响的真实心态：既期待 AI 提升生产力和收入，又担忧职业替代和技能贬值。这份研究的价值在于：它为 AI 产品设计者、创业者和政策制定者提供了真实的用户心理画像，有助于构建更符合用户期待、更易被市场接受的 AI 产品。",
+      "summary_en": "Following their landmark 81,000-user qualitative study on Claude usage, Anthropic publishes new research on the economic hopes and worries of those users. One of the largest qualitative AI user studies ever conducted, revealing real user psychology for product designers, founders, and policymakers.",
+      "one_liner": "Anthropic 公开 81,000 名 Claude 用户的 AI 经济期望与担忧研究，是目前规模最大的定性 AI 用户调研",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "657d8468",
+      "title": "AI Fast Track: 5天免费课程，从用AI到用AI构建",
+      "url": "https://x.com/alliekmiller/status/1985834763677286606",
+      "source": {
+        "platform": "x",
+        "author": "@alliekmiller",
+        "original_date": "2026-04-28"
+      },
+      "category": "prompt",
+      "tags": [
+        "x",
+        "ai-tools",
+        "course",
+        "automation",
+        "beginner"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Allie K. Miller 推出免费 5 天邮件课程 AI Fast Track，核心主张是超越 ChatGPT 复制粘贴，教用户用 Claude 构建个人 AI 软件、自动化工具和工作流，无需编程基础。课程涵盖从基础到实战构建的全流程，适合想从 AI 使用者转型为 AI 建造者的人群。",
+      "summary_en": "A free 5-day email course teaching non-coders to build personal AI software, automations, and tools using Claude — going beyond copy-paste ChatGPT prompts.",
+      "one_liner": "从用AI复制粘贴升级到用AI构建工具的零基础实战课程",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "24122cca",
+      "title": "Glean 推出 Waldo：首个 Agentic 搜索模型，NVIDIA Nemotron 3 Nano 驱动",
+      "url": "https://x.com/NVIDIAAI/status/2049131895552963023",
+      "source": {
+        "platform": "x",
+        "author": "@NVIDIAAI",
+        "original_date": "2026-04-28"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "agentic",
+        "search",
+        "nvidia"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Glean 推出 Waldo，首个 Agentic 搜索模型，基于 NVIDIA Nemotron 3 Nano 构建，专门针对搜索规划做后训练。Waldo 能自主分解查询、决定调用哪些工具、阅读哪些内容、何时停止并返回结果，实现真正代理式企业搜索。与传统 RAG 不同，Waldo 有主动规划能力，适合知识密集型企业场景。",
+      "summary_en": "Glean Waldo is an agentic search model built on NVIDIA Nemotron 3 Nano, capable of breaking down queries, selecting tools, and knowing when it has enough evidence — beyond traditional RAG.",
+      "one_liner": "企业搜索进入 Agentic 时代：Waldo 能主动规划搜索路径而非简单向量匹配",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4a2b6070",
+      "title": "gogcli 0.14.0：命令行管理 Google 数据全套工具，含加密备份和 Gmail 镜像",
+      "url": "https://x.com/steipete/status/2049070417931853997",
+      "source": {
+        "platform": "x",
+        "author": "@steipete",
+        "original_date": "2026-04-28"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "cli",
+        "google",
+        "backup",
+        "privacy"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Peter Steinberger 发布 gogcli v0.14.0，一款命令行工具，可管理 Google 数据全套操作：本地加密 Git 备份、Gmail 和 Drive 可续传导出、Markdown Gmail 镜像、vCard 联系人导出、Slides 文本/模板编辑，以及 Auth 和 keyring 诊断。所有数据本地处理不过第三方，隐私安全，适合技术人员管理个人云数据。",
+      "summary_en": "gogcli v0.14.0: CLI tool for managing all Google data locally — encrypted Git backups, resumable Gmail/Drive exports, Markdown mirrors, vCard contacts, Slides editing, keyring diagnostics.",
+      "one_liner": "本地命令行管理 Google 全家桶数据，加密备份不过第三方云",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "041a666b",
+      "title": "Farzapedia：用 LLM 把日记笔记变成个人维基百科，400 文章自动生成",
+      "url": "https://x.com/karpathy/status/2040572272944324650",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-04-28"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "workflow",
+        "personal-wiki",
+        "llm",
+        "memory",
+        "automation"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Farza 将 2500 条日记、Apple Notes 和 iMessage 对话输入 LLM，自动生成 400 多篇个人维基百科文章。Karpathy 点评此方法在个性化上优于通用 AI 范式：记忆是显式的、结构化的、可复用的。适合想让 AI 真正了解自己的深度用户，可作为个人记忆层和工作流的参考架构。",
+      "summary_en": "Farzapedia feeds diary entries and notes into an LLM to auto-generate 400+ personal wiki articles — explicit, structured, reusable memory that beats generic improving AI.",
+      "one_liner": "用 LLM 把个人碎片笔记变成结构化知识库，显式记忆优于隐式优化",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "698e1058",
+      "title": "神经符号 AI 解 RAG 规模化失效：Ontology 加确定性层加 LLM 解释层",
+      "url": "https://x.com/DeepLearn007/status/2043784557099471159",
+      "source": {
+        "platform": "x",
+        "author": "@DeepLearn007",
+        "original_date": "2026-04-28"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "workflow",
+        "rag",
+        "neurosymbolic",
+        "ai-engineering"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "内容指出语义相似度等于向量在规模化时失效（语义坍塌），提出神经符号 AI 三层架构：Ontology 提供结构化知识表示、确定性层保证事实正确性、LLM 负责自然语言解释而非事实本身。斯坦福研究证明 naive vector-only RAG 在知识库超过临界规模后崩溃。该方法适合构建企业级知识问答系统，可显著提升准确率。",
+      "summary_en": "Naive vector-only RAG collapses at scale. Solution: neurosymbolic AI with ontologies for structure, deterministic layers for truth, LLMs for interpretation only — enterprise knowledge QA architecture.",
+      "one_liner": "企业知识库规模化后 RAG 失效？神经符号 AI 三层架构是解法",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7b476b62",
+      "title": "NotebookLM 来源自动标签与分类：5 个以上文档智能整理",
+      "url": "https://x.com/joshwoodward/status/2047795981534847413",
+      "source": {
+        "platform": "x",
+        "author": "@joshwoodward",
+        "original_date": "2026-04-28"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "notebooklm",
+        "research",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Google NotebookLM 新增来源自动标签与分类功能，当用户有 5 个以上来源时自动打标签和归类，减少滚动时间，提升学习和研究效率。支持重命名、重组和 emoji 自定义。该功能解决了研究材料多了反而混乱的核心痛点，对学术研究和内容创作者特别有用，可作为信息管理流程的一部分。",
+      "summary_en": "NotebookLM now auto-labels and categorizes sources at 5+, eliminating scroll fatigue. Supports renaming, reorganization, and emoji personalization — solving the more-sources-more-mess problem.",
+      "one_liner": "NotebookLM 来源管理自动化：5 加文档自动分类，减少信息混乱",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "03cc2706",
+      "title": "Gemini 3.1 Flash TTS：支持自然语言音频标签控制的语音合成 API",
+      "url": "https://x.com/GoogleAI/status/2044447560384102592",
+      "source": {
+        "platform": "x",
+        "author": "@GoogleAI",
+        "original_date": "2026-04-28"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "tts",
+        "google",
+        "api",
+        "voice"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Google 发布 Gemini 3.1 Flash TTS，旗下最具表现力和可控性的文本转语音模型，亮点是支持音频标签（Audio Tags）——用自然语言命令嵌入文本，直接控制语速、风格、停顿和表达方式，无需调参。兼容 API 方式调用，适合构建有声内容、语音助手、无障碍应用等场景，是目前最具可控性的 TTS 方案之一。",
+      "summary_en": "Gemini 3.1 Flash TTS: most expressive Google TTS with audio tags — natural language commands in text control pace, style, and delivery without parameter tuning.",
+      "one_liner": "Gemini TTS 支持自然语言指令控制语速语调，最具可控性 TTS API",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-04-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "新资源harness",
+      "title": "新资源：Harness Engineering 实践指南",
+      "url": "https://example.com/harness-engineering-guide",
+      "source": {
+        "platform": "community",
+        "author": "test-user",
+        "original_date": "2026-04-29"
+      },
+      "category": "agent-frameworks/harness-engineering",
+      "tags": [
+        "community-submitted"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "社区提交的资源：新资源：Harness Engineering 实践指南",
+      "summary_en": null,
+      "one_liner": "Harness Engineering 是将 AI Agent 从好玩具变可靠工具的完整工程框架，涵盖 engineering 等核心内容",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "active",
+      "local_path": "content/新资源harness.md",
+      "images": [],
+      "added_date": "2026-04-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "total_content_files": 474
+  "total_content_files": 690
 }
