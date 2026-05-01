@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI Field Notes
   text: AI 领域精选资源导航
-  tagline: 有观点 · 有评分 · 每日自动更新 · 731 条 · 11 篇有全文
+  tagline: 有观点 · 有评分 · 每日自动更新 · 857 条 · 16 篇有全文
   actions:
     - theme: brand
       text: 浏览全部
@@ -36,92 +36,72 @@ features:
 
 ## 🆕 最新 10 篇
 
-### [Google 发布 Gemini 3.1 Flash TTS：支持自然语言音频标签控制](https://x.com/GoogleAI/status/2044447560384102592)
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+### [Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents](https://blog.jetbrains.com/ai/2026/04/introducing-koog-integration-for-spring-ai-smarter-orchestration-for-your-agents/>)
+⭐⭐⭐3 🌐 · 今天
 
-Google 发布了 Gemini 3.1 Flash TTS，号称旗下表现力最强、控制最精细的语音合成模型。其核心亮点是引入了「音频标签」（Audio Tags）机制——可以用自然语言描述来引导语音的风格、节奏和表达方式，比如「用兴奋的语气」「稍微放慢一些」「带点犹豫」。这对需要为 AI 对话、数字人、有声内容生成个性化语音的开发者来说是实打实的新能力，也是目前 TTS 领域少见的控制粒度突破。
-
-`google` `tts` `audio` `ai-tools`
+--- title: &quot;Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_kotlin_a_concise_multiplatform_language__21c4780c&quot; group: &quot;Articles/Android 开发者/Kotlin : A concise multiplatform language developed by JetBrains | The JetBrains Bl
 
 ---
 
-### [RAG 在大规模场景下失效：神经符号 AI 是未来方向](https://x.com/DeepLearn007/status/2043784557099471159)
-@@DeepLearn007 · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+### [Scaling Managed Agents: Decoupling the brain from the hands](#)
+⭐⭐⭐3 🌐 · 今天
 
-该推文揭示了一个被广泛忽视的 RAG 失效场景：当知识库规模达到临界值，向量相似度搜索会遭遇「语义崩溃」（Semantic Collapse）——语义相近的无关文档被错误召回，真正相关的内容反而被淹没。引用 Stanford 研究后，作者提出未来属于「神经符号 AI」：用本体论处理结构化知识，用确定性层保障事实准确性，用 LLM 做自然语言解释而非直接做检索。
-
-`rag` `ai-tools` `workflow`
+--- id: &quot;7442497496372219650&quot; cubox_url: https://cubox. pro/web/card/7442497496372219650 url: https://www. com/engineering/managed-agents tags: [] --- Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems. [Read in Cubox](https://cub
 
 ---
 
-### [AI 生成图像正在替代传统原型设计，成为产品创意共享新方式](https://x.com/gdb/status/2049120845985923316)
-@@gdb · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+### [English](#)
+⭐⭐⭐3 🌐 · 今天
 
-该推文引述了一个正在发生的趋势：AI 图像生成模型（尤其是 2.0 版本）已经能够高度还原产品界面和视觉 mock，使得团队内部在讨论产品概念时，直接用 AI 生成图像替代传统的原型设计和 PPT 演示。内部产品 idea 的呈现和共创方式因此发生根本变化——不再依赖 Figma 或 Axure，而是让 AI 把想法「画出来」。这对产品经理、UX 设计师和创业者的工作流有直接启发：用好图像生成模型可以极大压缩创意验证周期。
-
-`imagegen` `prototyping` `workflow`
+--- id: e5b48fa2 title: &quot;Hinton 推荐：国际 AI 安全报告 2026 是 AI 风险必读文献&quot; url: &quot;https://x. com/geoffreyhinton/status/2019532085233611207&quot; source: &quot;tweet&quot; date: 2026-04-19 tags: [x, ai-coding, ai-safety] --- **@geoffreyhinton** (Geoffrey Hinton, &quot;Godfather of AI&quot;): &gt; Essential reading on AI risk. &gt; &gt; The Inter
 
 ---
 
-### [Anthropic 发布 81,000 用户经济展望与担忧研究](https://x.com/AnthropicAI/status/2047006548149289017)
-@@AnthropicAI · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+### [Anthropic 发布 Claude Opus 4.7，性能如何？](#)
+@作者 · ⭐⭐⭐3 🌐 · 今天
 
-Anthropic 在发布 81,000 人用户调研后，进一步发布了关于这些用户「经济期望与担忧」的研究报告。这是 AI 领域迄今规模最大的定性用户调研之一，揭示了普通用户对 AI 经济影响的真实心态：既期待 AI 提升生产力和收入，又担忧职业替代和技能贬值。这份研究的价值在于：它为 AI 产品设计者、创业者和政策制定者提供了真实的用户心理画像，有助于构建更符合用户期待、更易被市场接受的 AI 产品。
-
-`anthropic` `research` `ai-tools`
+--- id: &quot;7444657403628355949&quot; cubox_url: https://cubox. pro/web/card/7444657403628355949 url: https://mp. __biz=MzIyNjM2MzQyNg==&amp;mid=2247721960&amp;idx=1&amp;sn=42ea431032242f75c000ca2af378d67f&amp;chksm=e9e69e53b9ddc4e83e518bbb9bc8f7accfd28d706ec1093f419998746731735681f0a6e46a3a&amp;mpshare=1&amp;scene=1&amp;srcid=0417mSD
 
 ---
 
-### [NotebookLM 来源自动标签与分类：5 个以上文档智能整理](https://x.com/joshwoodward/status/2047795981534847413)
-@@joshwoodward · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+### [geohot：AI 没有护城河，模型折旧比想象中快，中国没有 AI 狂热](#)
+⭐⭐⭐3 🌐 · 今天
 
-Google NotebookLM 新增来源自动标签与分类功能，当用户有 5 个以上来源时自动打标签和归类，减少滚动时间，提升学习和研究效率。支持重命名、重组和 emoji 自定义。该功能解决了研究材料多了反而混乱的核心痛点，对学术研究和内容创作者特别有用，可作为信息管理流程的一部分。
-
-`x` `ai-tools` `notebooklm` `research` `workflow`
+Source: geohot | 2026-04-22 URL: https://geohot. io/blog/jekyll/update/2026/04/22/ai-has-no-moat. html geohot 撰文称「AI 没有护城河」. 核心论点：Cursor 60B 估值收购是因为 FOMO，实际没人真正用；opencode 确实是最好的 coding agent 但写一个类似的并不难；真正的壁垒在模型，但模型折旧极快，开源已有详细训练指南. 1）的 10 倍，但能力差距只有约 6 个月. 判断「AGI singularity」是硅谷特有狂热，中国 AI 是正常指数增长曲线，AI
 
 ---
 
-### [Gemini 3.1 Flash TTS：支持自然语言音频标签控制的语音合成 API](https://x.com/GoogleAI/status/2044447560384102592)
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+### [English](#)
+⭐⭐⭐3 🌐 · 今天
 
-Google 发布 Gemini 3.1 Flash TTS，旗下最具表现力和可控性的文本转语音模型，亮点是支持音频标签（Audio Tags）——用自然语言命令嵌入文本，直接控制语速、风格、停顿和表达方式，无需调参。兼容 API 方式调用，适合构建有声内容、语音助手、无障碍应用等场景，是目前最具可控性的 TTS 方案之一。
-
-`x` `ai-tools` `tts` `google` `api`
+AI Developer Bottlenecks: The Future of Software Engineering in the Agent Era 🚀 The rise of AI agents is fundamentally changing software development paradigms. This analysis examines key challenges: 1. Developer transition challenges - From coding to system design - Understanding AI capabilities and
 
 ---
 
-### [Allie K. Miller 推出免费 5 天课程：AI Fast Track](https://x.com/alliekmiller/status/1985834763677286606)
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
+### [English](#)
+⭐⭐⭐3 🌐 · 今天
 
-Allie K. Miller 宣布推出「AI Fast Track」免费 5 天邮件课程，面向想超越 ChatGPT 简单调用的用户。课程无需编程基础，教授如何将 Claude 加入个人工具箱，构建属于自己的 AI 软件、自动化脚本和实用工具。区别于单纯使用 AI 的粘贴复制，该课程强调亲手构建，填补了广大用户「会用 AI」到「会用 AI 构建」之间的鸿沟。对于想系统性提升 AI 生产力的个人用户，这是目前少有的免费高质量入门路径。
-
-`ai-tools` `learning` `workflow`
+Best Practices for Android and AI Integration Integrating AI capabilities into Android applications requires thoughtful planning and execution. As AI becomes increasingly essential for modern mobile apps, developers must establish proper patterns and practices for successful AI integration. Building
 
 ---
 
-### [Karpathy：本地 Demo 到线上产品，DevOps 是最难的部分](https://x.com/karpathy/status/2037200624450936940)
-@@karpathy · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
+### [从历史 Luddites 看反 AI 数据中心运动：1816 年的教训](#)
+⭐⭐⭐3 🌐 · 今天
 
-Karpathy 在回顾 MenuGen 开发历程时指出：构建一个真正上线的 AI 应用，最难的部分从来不是模型或代码本身，而是需要像 IKEA 家具一样组装各种第三方服务的 DevOps 工作——支付网关、用户认证、数据库、安全防护、域名配置等。这些基础设施的拼装和调试占据了大量工程时间，往往比训练模型更让人「痛苦」。这提醒所有 AI 开发者：Demo 和产品之间隔着一整个 DevOps 世界，vibe coding 的快乐止步于本地运行。
-
-`ai-tools` `devops` `workflow`
+Source: Sean Goedecke | 2026-04-23 URL: https://seangoedecke. com/luddites-and-ai-datacenters/ &gt; 注：原文抓取失败，此内容基于 RSS 摘要整理. Sean Goedecke&#x27;s detailed analysis of historical Luddism based on multiple historical texts. Real Luddites were skilled craftspeople (7-year apprenticeships) whose trade was being
 
 ---
 
-### [AI Fast Track: 5天免费课程，从用AI到用AI构建](https://x.com/alliekmiller/status/1985834763677286606)
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
+### [从历史 Luddites 看反 AI 数据中心运动：1816 年的教训](#)
+⭐⭐⭐3 🌐 · 今天
 
-Allie K. Miller 推出免费 5 天邮件课程 AI Fast Track，核心主张是超越 ChatGPT 复制粘贴，教用户用 Claude 构建个人 AI 软件、自动化工具和工作流，无需编程基础。课程涵盖从基础到实战构建的全流程，适合想从 AI 使用者转型为 AI 建造者的人群。
-
-`x` `ai-tools` `course` `automation` `beginner`
+Source: Sean Goedecke | 2026-04-23 URL: https://seangoedecke. com/luddites-and-ai-datacenters/ Sean Goedecke 阅读多本 Luddism 历史著作后给出详细分析. 历史上的 Luddites 是 1810 年代英国接受过七年学徒训练的技术工匠，不是「反技术」而是技能被自动化剥夺后面临生存威胁的集体回应. 他们愤怒的根源是自动化让未受训廉价劳动力也能生产低质量布料，使长期学习的技能价值被清零. 1810 年代战争导致经济恶化加剧了破坏力. 文章强调：今天将反 AI 运动等同于「历史 Ludd
 
 ---
 
-### [Glean 推出 Waldo：首个 Agentic 搜索模型，NVIDIA Nemotron 3 Nano 驱动](https://x.com/NVIDIAAI/status/2049131895552963023)
-@@NVIDIAAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
+### [Qwen3.6-27B：27B 参数密集模型达到旗舰级编程水平](#)
+⭐⭐⭐3 🌐 · 今天
 
-Glean 推出 Waldo，首个 Agentic 搜索模型，基于 NVIDIA Nemotron 3 Nano 构建，专门针对搜索规划做后训练。Waldo 能自主分解查询、决定调用哪些工具、阅读哪些内容、何时停止并返回结果，实现真正代理式企业搜索。与传统 RAG 不同，Waldo 有主动规划能力，适合知识密集型企业场景。
-
-`x` `ai-tools` `agentic` `search` `nvidia`
+Source: Simon Willison | 2026-04-22 URL: https://simonwillison. net/2026/Apr/22/qwen36-27b/ Qwen 发布 3. 6 系列首款旗舰级编程密集模型 Qwen3. 6-27B，27B 参数达到旗舰级代码能力. Simon Willison 分析：这是开源模型在代码能力上的重要里程碑，采用密集架构而非 MoE，在较小参数量下实现高代码性能，对本地部署友好. 7 之后，第三个接近旗舰水平的开放权重模型，且 27B 规模首次使旗舰级代码能力可以在消费级硬件上运行. 开源与闭源代码能力差距已收窄至约 6 个月. 6
 
 ---

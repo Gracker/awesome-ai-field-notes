@@ -1,19 +1,19 @@
 # AI Field Notes
 
-> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。731 条，中英双语。
+> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。857 条，中英双语。
 
 ## 🆕 今日推荐 Top 10
 
-- [Google 发布 Gemini 3.1 Flash TTS：支持自然语言音频标签控制](https://x.com/GoogleAI/status/2044447560384102592) ⭐4 · 2026-04-28 — Gemini 3.1 Flash TTS 支持用自然语言命令嵌入音频标签来控制音色、语速和表达风格
-- [RAG 在大规模场景下失效：神经符号 AI 是未来方向](https://x.com/DeepLearn007/status/2043784557099471159) ⭐4 · 2026-04-28 — 纯向量 RAG 存在语义崩溃问题，神经符号 AI（本体论+确定性层+LLM 解释）才是正解
-- [AI 生成图像正在替代传统原型设计，成为产品创意共享新方式](https://x.com/gdb/status/2049120845985923316) ⭐4 · 2026-04-28 — 内部产品讨论已从 PPT/原型工具转向 AI 生成图像，2.0 图像模型对数字界面的还原度极高
-- [Anthropic 发布 81,000 用户经济展望与担忧研究](https://x.com/AnthropicAI/status/2047006548149289017) ⭐4 · 2026-04-28 — Anthropic 公开 81,000 名 Claude 用户的 AI 经济期望与担忧研究，是目前规模最大的定性 AI 用户调研
-- [NotebookLM 来源自动标签与分类：5 个以上文档智能整理](https://x.com/joshwoodward/status/2047795981534847413) ⭐4 · 2026-04-28 — NotebookLM 来源管理自动化：5 加文档自动分类，减少信息混乱
-- [Gemini 3.1 Flash TTS：支持自然语言音频标签控制的语音合成 API](https://x.com/GoogleAI/status/2044447560384102592) ⭐4 · 2026-04-28 — Gemini TTS 支持自然语言指令控制语速语调，最具可控性 TTS API
-- [Allie K. Miller 推出免费 5 天课程：AI Fast Track](https://x.com/alliekmiller/status/1985834763677286606) ⭐5 · 2026-04-28 — 免费 5 天邮件课程，手把手教你从 ChatGPT 进阶到用 Claude 构建个人 AI 软件与自动化工具
-- [Karpathy：本地 Demo 到线上产品，DevOps 是最难的部分](https://x.com/karpathy/status/2037200624450936940) ⭐5 · 2026-04-28 — Vibe coding 做本地 Demo 很爽，但真实部署后 DevOps（服务、支付、认证、数据库、安全）才是噩梦
-- [AI Fast Track: 5天免费课程，从用AI到用AI构建](https://x.com/alliekmiller/status/1985834763677286606) ⭐5 · 2026-04-28 — 从用AI复制粘贴升级到用AI构建工具的零基础实战课程
-- [Glean 推出 Waldo：首个 Agentic 搜索模型，NVIDIA Nemotron 3 Nano 驱动](https://x.com/NVIDIAAI/status/2049131895552963023) ⭐5 · 2026-04-28 — 企业搜索进入 Agentic 时代：Waldo 能主动规划搜索路径而非简单向量匹配
+- [Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents](https://blog.jetbrains.com/ai/2026/04/introducing-koog-integration-for-spring-ai-smarter-orchestration-for-your-agents/>) ⭐3 · 2026-05-01 — 有参考价值的frameworks内容
+- [Scaling Managed Agents: Decoupling the brain from the hands](#) ⭐3 · 2026-05-01 — 有参考价值的frameworks内容
+- [English](#) ⭐3 · 2026-05-01 — 有参考价值的uncategorized内容
+- [Anthropic 发布 Claude Opus 4.7，性能如何？](#) ⭐3 · 2026-05-01 — 有参考价值的models内容
+- [geohot：AI 没有护城河，模型折旧比想象中快，中国没有 AI 狂热](#) ⭐3 · 2026-05-01 — 有参考价值的uncategorized内容
+- [English](#) ⭐3 · 2026-05-01 — 有参考价值的uncategorized内容
+- [English](#) ⭐3 · 2026-05-01 — 有参考价值的uncategorized内容
+- [从历史 Luddites 看反 AI 数据中心运动：1816 年的教训](#) ⭐3 · 2026-05-01 — 有参考价值的uncategorized内容
+- [从历史 Luddites 看反 AI 数据中心运动：1816 年的教训](#) ⭐3 · 2026-05-01 — 有参考价值的uncategorized内容
+- [Qwen3.6-27B：27B 参数密集模型达到旗舰级编程水平](#) ⭐3 · 2026-05-01 — 有参考价值的uncategorized内容
 
 ## 分类导航
 
