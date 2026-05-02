@@ -43,9 +43,8 @@ def sanitize_content(content):
 
     # 2. Strip broken local image refs
     content = _re.sub(r'!\[.*?\]\(\.?/?(?:[^)]*/)?images/[^)]+\)', '', content)
-    # Strip any absolute-path image refs that would break VitePress build
-    # (kept as fallback; VitePress rollupOptions.external is the primary defense)
-    content = _re.sub(r'!\[.*?\]\(/[^)]+\.(?:png|jpe?g|gif|webp|svg|avif|ico)\)', '', content, flags=_re.I)
+    # Strip absolute-path image/media refs (external CDNs, scraped site assets)
+    content = _re.sub(r'!\[.*?\]\(/[^)]+\)', '', content)
 
     # 3+4. Process char by char: escape HTML tags and {{ }} outside fenced code blocks
     result, in_fence = [], False
