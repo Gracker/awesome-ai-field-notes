@@ -10,3 +10,4 @@ venv/
 book/
 dist/
 node_modules/
+site-src/entry/
