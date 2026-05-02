@@ -35,7 +35,10 @@ export default defineConfig({
   vite: {
     build: {
       rollupOptions: {
-        external: /^\/_astro\//,
+        // Externalize all absolute-path image imports that don't exist locally.
+        // Without this, VitePress passes every ![alt](/path) through Rollup,
+        // which fails on external/broken refs from scraped content.
+        external: (id) => id.startsWith('/') && !id.startsWith('/@') && /\.(png|jpe?g|gif|webp|svg|avif|ico|mp4|webm)$/i.test(id),
       },
     },
   },
