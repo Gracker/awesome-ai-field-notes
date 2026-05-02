@@ -32,4 +32,11 @@ export default defineConfig({
   cleanUrls: true,
   markdown: { html: false },
   ignoreDeadLinks: true,
+  vite: {
+    build: {
+      rollupOptions: {
+        external: /^\/_astro\//,
+      },
+    },
+  },
 })
