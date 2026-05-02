@@ -1,7 +1,7 @@
 # OpenClaw Task: 社区内容自动处理（全自动）
 
 ## 目标
-自动处理社区提交的 Issue（新条目/纠错），合并到 entries.json。
+自动处理社区提交的 Issue（新条目/纠错），合并到 `data/entries.json`。
 
 ## 仓库路径
 `/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/`
@@ -28,7 +28,8 @@ gh issue list --repo Gracker/awesome-ai-field-notes --state open --label correct
 3. 如果不重复：
    - 自动分类（匹配 categories.json）
    - 自动评分 + 生成 one_liner（`one_liner_author: "openclaw"`）
-   - 写入 entries.json
+   - 写入 `data/entries.json`
+   - 保存正文或占位摘要到 `content/<id>.md`
 4. 在 Issue 中回复处理结果
 5. 关闭 Issue
 
@@ -42,6 +43,8 @@ gh issue list --repo Gracker/awesome-ai-field-notes --state open --label correct
 
 ### Step 4: 提交
 ```bash
+python3 scripts/validate-schema.py
+npm run build
 git add -A
 git commit -m "[openclaw] community: process N issues — M entries added, K fixed"
 git push origin main
@@ -70,3 +73,5 @@ git push origin main
 ## 约束
 - 每日最多处理 20 个 Issue
 - 不自动关闭超过 24h 未处理的 Issue（先处理再关）
+- 日期字段只能写 `YYYY-MM-DD` 或 `null`，禁止写“今天/昨天/今日/昨日/today/yesterday”等相对时间
+- 不手写 `site-src/` 页面；`site-src/entry/` 是 ignored 构建产物，不要强行提交

@@ -2,10 +2,10 @@
 
 IDE / CLI / 代码审查 / 工作流 — 共 **247** 条活跃资源
 
-## 📅 今天
+## 📅 2026-05-02
 
 ### [AI Fast Track: 5天免费课程 手把手教你从用AI到用AI构建产品](/entry/ivgx104f) 📄
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 There&#x27;s a difference between using AI and building with it. Copy-pasting ChatGPT prompts will only get you so far. I want to help you learn to build personal AI software, automations, and tools that actually solve your problems. The AI Fast Track is a free 5-day course. Tens of thousands have taken it.
 
@@ -14,7 +14,7 @@ There&#x27;s a difference between using AI and building with it. Copy-pasting Ch
 ---
 
 ### [OpenAI DevDay 2026 定档9月29日旧金山 GPT-5.5开发赢早期门票](/entry/3u1ukowy) 📄
-@@OpenAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@@OpenAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 OpenAI DevDay is back. San Francisco September 29. Want to secure an early ticket? Build something with GPT-5.5 and Image Gen. Each week, 2-3 favorites win free tickets. Codex helps find best submissions.
 
@@ -23,7 +23,7 @@ OpenAI DevDay is back. San Francisco September 29. Want to secure an early ticke
 ---
 
 ### [Gemini Embedding 2 正式发布:原生多模态Embedding模型 支持视频分析与视觉购物助手](/entry/yl4qo141) 📄
-@@GoogleAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@@GoogleAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 Last week we made Gemini Embedding 2, our first natively multimodal embedding model, available to the general public. Developers have used it to build video analysis tools, visual shopping assistants, and more. What is an embedding model? Thread
 
@@ -32,7 +32,7 @@ Last week we made Gemini Embedding 2, our first natively multimodal embedding mo
 ---
 
 ### [Tibo独家复盘:9次失败产品后如何做到100万美金/月 五款AI产品从0到1方法论](/entry/9ijpm5tr) 📄
-@@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 I shipped 9 failed products before one took off...now I&#x27;m doing $1M+/month. Interview with @tibo_maker - a solo founder who bootstrapped 5 AI products to $1M+/month. Tibo walked through his exact playbook: How to validate ideas and fail fast, Why his top 3 AI products worked.
 
@@ -41,7 +41,7 @@ I shipped 9 failed products before one took off...now I&#x27;m doing $1M+/month.
 ---
 
 ### [MiniMax M2.7 开源但非OSI认可开源:许可协议禁止商用引发争议](/entry/9uw4lgip) 📄
-@@MiniMax_AI · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@@MiniMax_AI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 MiniMax M2.7 model weights are publicly available, but under a license prohibiting commercial use without authorization. This does not meet the Open Source Initiative&#x27;s definition of open source, which requires allowing commercial use.
 
@@ -50,7 +50,7 @@ MiniMax M2.7 model weights are publicly available, but under a license prohibiti
 ---
 
 ### [Hinton推荐国际AI安全报告2026:AI风险领域最全面的循证评估](https://x.com/geoffreyhinton/status/2019532085233611207)
-@@geoffreyhinton · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@@geoffreyhinton · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 This is a great report that provides a thoughtful, detailed and very well researched description of the risks of AI. It is essential reading for anyone who wants to write or talk about AI risks. Referencing: International AI Safety Report 2026 by Yoshua Bengio.
 
@@ -58,10 +58,10 @@ This is a great report that provides a thoughtful, detailed and very well resear
 
 ---
 
-## 📅 昨天
+## 📅 2026-05-01
 
 ### [免费AI开发5日速成课程](/entry/fjMcGsBd) 📄
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 昨天
+@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-01
 
 帮助从AI使用转向AI构建的5日邮件课程，涵盖Claude工具箱扩展，无编码要求，适合初学者，填补ChatGPT提示词使用与AI软件开发之间的知识鸿沟。
 
@@ -70,7 +70,7 @@ This is a great report that provides a thoughtful, detailed and very well resear
 ---
 
 ### [OpenAI DevDay门票抽奖](/entry/BVTltcYQ) 📄
-@@OpenAI · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+@@OpenAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-01
 
 使用GPT-5.5和Image Gen构建项目，每周选出2-3个最佳项目赢得免费DevDay 2026门票，提供实践AI前沿技术的机会。
 
@@ -79,7 +79,7 @@ This is a great report that provides a thoughtful, detailed and very well resear
 ---
 
 ### [MiniMax M2.7模型开源发布](/entry/KzFVoQ4F) 📄
-@@MiniMax_AI · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+@@MiniMax_AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-01
 
 SWE-Pro性能达56.22%，Terminal Bench 2达57.0%的开源编码模型，模型权重公开但有商业使用限制，在HuggingFace平台可用。
 
@@ -88,7 +88,7 @@ SWE-Pro性能达56.22%，Terminal Bench 2达57.0%的开源编码模型，模型�
 ---
 
 ### [Gemini Embedding 2多模态模型](/entry/ivT6F9u6) 📄
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-01
 
 首个原生多模态嵌入模型，支持视频分析和视觉购物助手构建，已对公众开放使用，为多模态应用开发提供基础技术支持。
 
@@ -97,7 +97,7 @@ SWE-Pro性能达56.22%，Terminal Bench 2达57.0%的开源编码模型，模型�
 ---
 
 ### [Gemini 3 Flash视觉代理功能](/entry/5sBgMACR) 📄
-@@realmadhuguru · ⭐⭐⭐⭐4 🇨🇳 · 昨天
+@@realmadhuguru · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-01
 
 Gemini 3 Flash可通过代码完成视觉任务，能将表格转换为高质量图表，支持信息图表分析和边界框绘制，扩展AI在视觉处理领域的应用能力。
 

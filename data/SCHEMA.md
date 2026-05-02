@@ -12,7 +12,7 @@
   "source": {
     "platform": "string — 来源平台（x/twitter, cubox, arxiv, github, blog, newsletter, youtube, manual）",
     "author": "string — 原作者（从元数据头提取，无则 null）",
-    "original_date": "string — 原文发布日期（YYYY-MM-DD，从元数据头提取）"
+    "original_date": "string — 原文发布日期（YYYY-MM-DD，从元数据头提取；禁止今天/昨天等相对日期）"
   },
   
   "category": "string — 站点顶层分类（models/agents/coding/infra/industry/learning），历史二级分类会在站点生成时映射到顶层分类",
@@ -32,8 +32,8 @@
   "local_path": "string — Obsidian 中的相对路径（如 'X 文章/04-06-xxx.md'），可定位本地备份",
   "images": ["string — 正文中的图片 URL 列表（从 ![](url) 提取）"],
   
-  "added_date": "YYYY-MM-DD",
-  "updated_date": "YYYY-MM-DD | null",
+  "added_date": "YYYY-MM-DD（绝对日期，禁止今天/昨天等相对日期）",
+  "updated_date": "YYYY-MM-DD | null（绝对日期，禁止今天/昨天等相对日期）",
   
   "github_stars": "number | null（仅 github 类型）",
   "related": ["string — 关联条目 id"]
@@ -55,6 +55,12 @@
 | local_path | 相对于 Obsidian 根目录的路径 |
 | images | 正则提取 `!\[.*?\]\((https?://[^)]+)\)` 中的 URL |
 | tags | 从正文标题、YAML tags、内容关键词提取，≤8 个 |
+
+## 日期规则
+
+- 所有结构化日期字段必须写成 `YYYY-MM-DD`。
+- 禁止在 `added_date` / `updated_date` / `source.original_date` / `published_date` 中写 `今天`、`昨天`、`今日`、`昨日`、`本周`、`today`、`yesterday` 等相对时间。
+- 如果来源只给出相对时间，必须按任务运行当天换算为绝对日期；无法可靠换算时设为 `null`。
 
 ## 双语摘要规则
 

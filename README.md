@@ -2,7 +2,7 @@
 
 > AI 领域精选资源导航 — 有观点、有评分、每日自动更新。844 条，中英双语。
 
-## 🆕 今日推荐 Top 10
+## 🆕 最新推荐 Top 10
 
 - [AI Fast Track: 5天免费课程 手把手教你从用AI到用AI构建产品](https://x.com/alliekmiller/status/1985834763677286606) ⭐5 · 2026-05-02 — Allie K. Miller 推出免费5天课程 教你不用写代码也能构建个人AI软件和自动化工具
 - [OpenAI DevDay 2026 定档9月29日旧金山 GPT-5.5开发赢早期门票](https://x.com/OpenAI/status/2049535650626785334) ⭐5 · 2026-05-02 — OpenAI 官方宣布 DevDay 回归 用 GPT-5.5 + Image Gen 开发项目即可赢取免费门票

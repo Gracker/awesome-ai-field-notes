@@ -60,7 +60,7 @@ entry = {
     "status": "active" if score >= 3 else "archived",
     "local_path": 相对 Obsidian 根的路径,
     "images": 从 ![](url) 正则提取,
-    "added_date": today,
+    "added_date": "YYYY-MM-DD",  # 绝对日期，禁止 today/今天/昨天 等相对日期
     "updated_date": null,
     "github_stars": null,
     "related": [],
@@ -70,7 +70,7 @@ entry = {
 ### Step 4: 去重 + 写入
 - URL 精确去重
 - 标题精确去重
-- 追加到 entries.json
+- 追加到 `data/entries.json`，不要写根目录旧 `entries.json`
 
 ### Step 5: 验证 + 提交
 ```bash
@@ -86,7 +86,9 @@ git push origin main
 
 ## 关键约束
 - **禁止捏造**：提取不到的字段设为 null，不编造
+- 日期字段只能写 `YYYY-MM-DD` 或 `null`，禁止写“今天/昨天/今日/昨日/today/yesterday”等相对时间
 - **摘要必须来自正文**：读文件内容后提取核心观点，不凭标题猜测
+- 不手写 `site-src/` 页面；站点只能由 `npm run build` 生成
 - **每批完成后必须 git commit + push**：防止丢失进度
 - **Cubox 的图片域名**：`image.cubox.pro` 可能已失效，标记但不删除
 

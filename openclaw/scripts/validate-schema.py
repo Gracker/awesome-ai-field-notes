@@ -23,6 +23,10 @@ VALID_LANGUAGES = {"en", "zh", "both"}
 VALID_STATUSES = {"active", "archived", "deprecated", "score-pending"}
 VALID_ONE_LINER_AUTHORS = {"gracker", "openclaw", "community-pending"}
 VALID_PLATFORMS = {"x", "twitter", "cubox", "arxiv", "github", "blog", "newsletter", "youtube", "manual", "unknown"}
+RELATIVE_DATE_WORDS = {
+    "今天", "昨天", "前天", "明天", "后天", "今日", "昨日", "本周", "上周", "下周",
+    "today", "yesterday", "tomorrow", "this week", "last week", "next week",
+}
 CATEGORY_ALIASES = {
     "agent-frameworks": "agents",
     "coding-agents": "coding",
@@ -57,6 +61,12 @@ def is_known_category(category, valid_categories):
         return True
     prefix = str(category or "").split("/", 1)[0]
     return prefix in valid_categories or category in CATEGORY_ALIASES or prefix in CATEGORY_ALIASES
+
+def has_relative_date_word(value):
+    if not isinstance(value, str):
+        return False
+    lowered = value.lower()
+    return any(word in lowered for word in RELATIVE_DATE_WORDS)
 
 def validate_entries(filepath=None):
     if filepath is None:
@@ -144,9 +154,12 @@ def validate_entries(filepath=None):
             warnings.append(f"{idx} summary_zh 过短: {len(summary)} 字符")
         
         # date format
-        for date_field in ["added_date", "updated_date"]:
+        for date_field in ["added_date", "updated_date", "published_date"]:
             val = e.get(date_field)
             if val is not None:
+                if has_relative_date_word(val):
+                    errors.append(f"{idx} {date_field} 禁止相对日期: {val} (应为 YYYY-MM-DD)")
+                    continue
                 try:
                     datetime.strptime(val, "%Y-%m-%d")
                 except ValueError:
@@ -155,10 +168,13 @@ def validate_entries(filepath=None):
         # source.original_date
         orig_date = (e.get("source") or {}).get("original_date")
         if orig_date is not None:
-            try:
-                datetime.strptime(orig_date, "%Y-%m-%d")
-            except ValueError:
-                warnings.append(f"{idx} source.original_date 格式非 YYYY-MM-DD: {orig_date}")
+            if has_relative_date_word(orig_date):
+                errors.append(f"{idx} source.original_date 禁止相对日期: {orig_date} (应为 YYYY-MM-DD)")
+            else:
+                try:
+                    datetime.strptime(orig_date, "%Y-%m-%d")
+                except ValueError:
+                    warnings.append(f"{idx} source.original_date 格式非 YYYY-MM-DD: {orig_date}")
         
         # images must be array
         if "images" in e and not isinstance(e["images"], list):

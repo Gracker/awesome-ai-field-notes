@@ -1,7 +1,7 @@
 # OpenClaw Task: 变更日志 (Changelog)
 
 ## 目标
-生成 CHANGELOG.md，记录本周 entries.json 的所有变更。
+生成 CHANGELOG.md，记录本周 `data/entries.json` 的所有变更。
 
 ## 仓库路径
 `/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/`
@@ -12,7 +12,7 @@
 ## 执行流程
 
 ### Step 1: 对比变更
-对比本周 entries.json 与上周 git 快照的差异：
+对比本周 `data/entries.json` 与上周 git 快照的差异：
 - **新增条目**：本周 added_date 的条目
 - **归档条目**：status 变为 archived 的条目
 - **评分变更**：quality_score 发生变化的条目
@@ -64,3 +64,4 @@ git push origin main
 - 只记录 active/archived 状态变更，不记录 deprecated
 - 评分变更需标注原因（来源：dedup/人工/自动）
 - CHANGELOG.md 超过 12 周时，将最早的周归档到 `archive/changelog/`
+- 周期范围必须写绝对日期，例如 `2026-05-02 ~ 2026-05-08`，不要写“本周/上周/今天/昨天”

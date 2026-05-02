@@ -11,3 +11,10 @@ book/
 dist/
 node_modules/
 site-src/entry/
+content/* 2.md
+content/**/* 2.md
+site-src/* 2.md
+site-src/**/* 2.md
+site-src/entry/* 2.md
+scripts/* 2.py
+openclaw/scripts/* 2.py

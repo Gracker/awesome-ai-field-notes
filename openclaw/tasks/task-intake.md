@@ -4,7 +4,7 @@
 初始化阶段完成（Phase 1-3 全部完成）。
 
 ## 目标
-增量发现新的 AI 内容，完整提取后写入 entries.json。
+增量发现新的 AI 内容，完整提取后写入 `data/entries.json`。
 
 ## 执行频率
 每日 08:00 + 20:00
@@ -35,6 +35,7 @@
 3. **内容提取**：summary_zh（100-300字）+ summary_en（英文原文时），**从原文 content/ 文件提取**
 4. **图片提取**：正则 `!\[.*?\]\((https?://[^)]+)\)`
 5. **本地路径**：`local_path` 相对 Obsidian 根
+6. **日期规范**：所有日期字段必须是 `YYYY-MM-DD`；如果来源写“今天/昨天/本周/today/yesterday”，按任务运行日期换算成绝对日期，无法换算则写 `null`
 
 ### Phase 3: 分类 + 评分
 - 根据 title + summary_zh + tags 自动匹配分类
@@ -44,7 +45,7 @@
 ### Phase 4: 去重 + 写入
 - URL 精确去重
 - 标题相似度 > 0.85 去重
-- 写入 entries.json
+- 写入 `data/entries.json`，不要写根目录旧 `entries.json`
 - 确认 `content/<id>.md` 已写入且非 placeholder
 - `one_liner_author: "openclaw"`（全自动点评）
 
@@ -61,7 +62,10 @@ git push origin main
 - 单次 ≤ 20 条
 - 不修改已有条目的 score/one_liner（除非人工指示）
 - 提取不到的字段设为 null，不编造
+- 日期字段禁止写“今天/昨天/今日/昨日/today/yesterday”等相对时间
 - 英文原文必须提供中英双语摘要
-- **每条新 entry 必须有对应的 `content/<id>.md` 原文文件**，禁止只写 entries.json 不存原文
+- **每条新 entry 必须有对应的 `content/<id>.md` 原文文件**，禁止只写 `data/entries.json` 不存原文
+- **不要手写或修改 `site-src/` 页面**；站点页面只能由 `npm run build` 调 `scripts/generate-site.py` 生成
+- `site-src/entry/` 是 ignored 构建产物，禁止强行提交
 - X/Twitter 内容**优先使用 opencli**（`opencli twitter article/thread`），不直接 curl 或 web_fetch x.com
 - opencli 失败时 fallback 到 web_search 找转载 + web_fetch/curl 抓取，并在文件中标注来源

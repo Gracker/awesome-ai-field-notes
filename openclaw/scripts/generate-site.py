@@ -210,6 +210,16 @@ def strip_leading_h1_and_metadata(content):
 STATS_PATH = META_DIR / "stats.json"
 CONTENT_DIR = BASE_DIR / "content"
 
+def clean_generated_markdown():
+    """Make site-src fully generator-owned so stale pages cannot break VitePress."""
+    if not SRC_DIR.exists():
+        return
+    for path in SRC_DIR.rglob("*.md"):
+        rel_parts = path.relative_to(SRC_DIR).parts
+        if rel_parts and rel_parts[0] == ".vitepress":
+            continue
+        path.unlink()
+
 def esc(text):
     return html_mod.escape(str(text)) if text else ""
 
@@ -279,8 +289,6 @@ validate_entry_ids(entries)
 active = [e for e in entries if e.get("status") == "active" and e.get("quality_score", 0) >= 3]
 
 now = datetime.now()
-today_str = now.strftime("%Y-%m-%d")
-yesterday_str = (now - timedelta(days=1)).strftime("%Y-%m-%d")
 week_ago = (now - timedelta(days=7)).strftime("%Y-%m-%d")
 this_week = [e for e in entries if e.get("added_date", "") >= week_ago]
 
@@ -306,6 +314,9 @@ if cat_counter.get("uncategorized", 0):
         "icon": "🗂️",
         "desc": "待归类但已通过质量门槛的资源",
     }
+
+clean_generated_markdown()
+
 stats = {
     "total_entries": len(entries),
     "active_entries": len([e for e in entries if e.get("status") == "active"]),
@@ -379,11 +390,7 @@ def entry_date(e):
 def date_label(date_str):
     if not date_str:
         return None
-    if date_str == today_str:
-        return "今天"
-    if date_str == yesterday_str:
-        return "昨天"
-    return None
+    return date_str
 
 # 日期字符串直接排序：降序 = 新的在前
 def date_sort_key(date_str):
@@ -604,7 +611,7 @@ readme = [
     "",
     "> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。{} 条，中英双语。".format(stats['total_entries']),
     "",
-    "## 🆕 今日推荐 Top 10",
+    "## 🆕 最新推荐 Top 10",
     "",
 ]
 for e in featured10:

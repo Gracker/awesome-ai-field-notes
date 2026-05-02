@@ -10,12 +10,13 @@ import datetime
 import re
 import subprocess
 import sys
+from pathlib import Path
 from typing import List, Dict, Optional, Tuple
 import requests
 
-PROJECT_ROOT = "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes"
-ENTRIES_FILE = os.path.join(PROJECT_ROOT, "data", "entries.json")
-CATEGORIES_FILE = os.path.join(PROJECT_ROOT, "data", "categories.json")
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+ENTRIES_FILE = PROJECT_ROOT / "data" / "entries.json"
+CATEGORIES_FILE = PROJECT_ROOT / "metadata" / "categories.json"
 
 # Configuration
 REPO = "Gracker/awesome-ai-field-notes"
@@ -606,39 +607,15 @@ class CommunityReviewProcessor:
         print(f"✅ Saved {len(self.entries_data['entries'])} entries to entries.json")
     
     def validate_entries(self) -> bool:
-        """Validate entries.json schema"""
+        """Validate data and generated site before committing."""
         try:
-            import jsonschema
-            schema = {
-                "type": "object",
-                "properties": {
-                    "version": {"type": "string"},
-                    "schema_description": {"type": "string"},
-                    "last_updated": {"type": "string"},
-                    "entries": {
-                        "type": "array",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "id": {"type": "string"},
-                                "title": {"type": "string"},
-                                "url": {"type": ["string", "null"]},
-                                "category": {"type": "string"},
-                                "quality_score": {"type": "integer", "minimum": 1, "maximum": 5}
-                            },
-                            "required": ["id", "title", "category", "quality_score"]
-                        }
-                    }
-                },
-                "required": ["version", "schema_description", "last_updated", "entries"]
-            }
-            
-            jsonschema.validate(self.entries_data, schema)
-            print("✅ Entries validation passed")
+            subprocess.run(['python3', 'scripts/validate-schema.py'], cwd=PROJECT_ROOT, check=True)
+            subprocess.run(['npm', 'run', 'build'], cwd=PROJECT_ROOT, check=True)
+            print("✅ Entries validation and site build passed")
             return True
-            
-        except Exception as e:
-            print(f"❌ Entries validation failed: {str(e)}")
+
+        except subprocess.CalledProcessError as e:
+            print(f"❌ Entries validation/build failed: {str(e)}")
             return False
     
     def commit_and_push(self):

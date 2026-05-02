@@ -1,7 +1,7 @@
 # OpenClaw Task: 去重扫描 (Dedup)
 
 ## 目标
-检测 entries.json 内部及新增条目的重复，保持数据干净。
+检测 `data/entries.json` 内部及新增条目的重复，保持数据干净。
 
 ## 仓库路径
 `/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/`
@@ -45,4 +45,6 @@
 - score 相近的重复对只标记不自动处理
 - 去重后运行 `python3 scripts/validate-schema.py`
 - 去重后运行 `npm run build`
+- 日期字段保持 `YYYY-MM-DD` 或 `null`，不要写“今天/昨天/本周”等相对时间
+- 不手写 `site-src/` 页面；站点只能由 `npm run build` 生成
 - 提交：`[openclaw] dedup: weekly dedup scan — N merged, M flagged`

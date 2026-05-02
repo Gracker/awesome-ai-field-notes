@@ -2,136 +2,136 @@
 
 GPT / Claude / Gemini / 开源模型 / 架构 — 共 **116** 条活跃资源
 
-## 📅 昨天
+## 📅 2026-05-01
 
 ### Anthropic 发布 Claude Opus 4.7，性能如何？
-@作者 · ⭐⭐⭐3 🌐 · 昨天
+@作者 · ⭐⭐⭐3 🌐 · 2026-05-01
 
 --- id: &quot;7444657403628355949&quot; cubox_url: https://cubox. pro/web/card/7444657403628355949 url: https://mp. __biz=MzIyNjM2MzQyNg==&amp;mid=2247721960&amp;idx=1&amp;sn=42ea431032242f75c000ca2af378d67f&amp;chksm=e9e69e53b9ddc4e83e518bbb9bc8f7accfd28d706ec1093f419998746731735681f0a6e46a3a&amp;mpshare=1&amp;scene=1&amp;srcid=0417mSD
 
 ---
 
 ### [Gemini 3 Flash is now available in Gemini CLI](https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/)
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 &gt; **来源：** Google Developers Blog &gt; **原文链接：** https://developers. com/gemini-3-flash-is-now-available-in-gemini-cli/ &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- DEC. 17, 2025 Gemini 3 Flash is now available in Gemini CLI, supporting high-frequency workflows common to terminal-based work. Gemini 3 Flash
 
 ---
 
 ### 丢掉沉重的记忆：Codex、Claude Code 与 OpenCode 的上下文压缩术 | Justin3go
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 坚持深耕技术领域的 T 型前端程序员, 关注独立开发与 AI，喜欢 Vuejs、Nestjs, 还会点 Python、搜索引擎、NLP、Web3、后端 [Read in Cubox](https://cubox. pro/web/card/7442911565721897000) [Read Original](https://justin3go. com/posts/2026/04/09-context-compaction-in-codex-claude-code-and-opencode) --- &gt; ✨文章摘要（AI生成） 本文以一个 15,400 tokens 的登录 Bug 修复场
 
 ---
 
 ### 四项新研究一致显示：LLM 医疗建议准确率低，不应作为临床决策依据
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 Source: Gary Marcus | 2026-04-23 URL: https://garymarcus. com/p/please-dont-trust-your-chatbot-for &gt; 注：原文抓取失败，此内容基于 RSS 摘要整理. Gary Marcus compiles four new studies warning against LLM medical advice. BMJ: nearly 50% of chatbot responses on cancer/vaccines/nutrition had serious problems, delivered wi
 
 ---
 
 ### [八个和 Claude Code 编码时的小技巧](https://www.ccgxk.com/codeother/717.html%3E)
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 --- title: &quot;八个和 Claude Code 编码时的小技巧&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_item_2b5492b6&quot; group: &quot;Articles/CN-Blog/串串狗小刊  ⭐️&quot; url: &quot;https://www. html&quot; published: &quot;2026-04-16T16:19:28Z&quot; captured_at: &quot;2026-04-17T03:04:34+08:00&quot; tags: [&quot;rss&quot;, &quot;rss/tech&quot;, &quot;rss/Articles&quot;] --- 原文链接：&lt;https://www. html&gt;
 
 ---
 
 ### ChatGPT Images 2.0 发布，Where&#x27;s Waldo 风格测试引发争议
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 Source: Simon Willison | 2026-04-21 URL: https://simonwillison. net/2026/Apr/21/gpt-image-2/ OpenAI 发布 ChatGPT Images 2. 0，Sam Altman 称从 gpt-image-1 到 2 是巨大飞跃. Simon Willison 测试发现：细节还原很好但文字渲染仍有错误；让模型找自己生成的 raccoon 并画红圈，模型答错了自己在图里画的内容——说明多模态模型的自我验证能力仍存在明显漏洞. 这类 Where&#x27;s Waldo 风格测试暴露了当前图像生成+视觉推理 pipeli
 
 ---
 
 ### Claude Code 从 Pro 版移除引发信任危机，Anthropic 仅靠一条推文回应
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 Source: Simon Willison | 2026-04-22 URL: https://simonwillison. net/2026/Apr/22/claude-code-confusion/ &gt; 注：原文抓取失败，此内容基于 RSS 摘要整理. Anthropic quietly moved Claude Code from the $20/month Pro plan to the $100/month Max plan on claude. com/pricing, sparking outrage across Reddit/HN/Twitter. An Anthropic
 
 ---
 
 ### Gemini 3.1 Flash TTS：表现力最强、控制粒度最细的语音合成模型
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 **English Title:** Gemini 3. 1 Flash TTS: Our most expressive and controllable text-to-speech model yet **Author:** @GoogleAI **Source:** [X/Twitter](https://x. com/GoogleAI/status/2044447638511383024) **Quality Score:** 4 **Tags:** x, ai-tools, tts, gemini, google, content-creation **Summary:** 无 -
 
 ---
 
 ### Gemini 3.1 Flash TTS：最强表现力语音合成模型，70语言覆盖
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 **质量评分：5** **来源：** [https://x. com/GoogleAI/status/2044447638511383024](https://x. com/GoogleAI/status/2044447638511383024) **抓取时间：** 2026-04-18 --- 原文： &gt; Today we launched Gemini 3. 1 Flash TTS, our most expressive and controllable text-to-speech model yet. This launch includes audio tags. 🗣🏷 Audio
 
 ---
 
 ### Nature 论文：LLM 可通过隐含数据信号向另一 LLM 传递隐藏偏好与行为特征
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 **English Title:** Research we co-authored on subliminal learning — one AI can secretly pass on preferences or habits to another AI through hidden signals in training data. **Author:** @AnthropicAI **Source:** [X/Twitter](https://x. com/AnthropicAI/status/2044493337835802948) **Quality Score:** 4 **
 
 ---
 
 ### 深度调研：Claude Code 最强配置单 · 9 个 GitHub 工具深度评测
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 **调研时间：** 2026-04-16 **调研人：** AI 助理（Subagent） **主题分类：** AI 开发工具 / Claude Code 生态 --- Claude Code 已成为当前 AI 辅助编程的事实标准，而其真正的威力取决于周边工具链的搭配质量. 本次调研覆盖 9 款 GitHub 上与 Claude Code 强相关的工具与插件，按功能分为知识增强、技能增强、自动化设计三类. 核心结论：**Superpowers** 和 **GSD** 是本次评测中唯二达到&quot;必装&quot;标准的工具——前者重塑了软件工程的纪律与方法论，后者用原子化 subagent 执行模型根治了长会话
 
 ---
 
 ### 深度解析 Claude Code 在 Prompt / Context / Harness 的设计与实践
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 __biz=MzIzOTU0NTQ0MA==&amp;mid=2247559627 作者: 阿里妹（技术实践与独立思考） 本文从 Prompt Engineering（提示词工程）、Context Engineering（上下文工程）和 Harness Engineering（驾驭工程）三个维度，系统解析 Claude Code 的内部设计，提炼可复用的 Agent 系统方法论. Claude Code 的 System Prompt 是一个多层级、动态组装的过程，通过以下六步实现： 1. **QueryEngine 发起请求**：`ask()` → `fetchSystemPromptParts()
 
 ---
 
 ### Anthropic 等 Nature 论文：LLM 可通过无关数据传递隐藏偏好
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 **质量评分：4** **来源：** [https://x. com/AnthropicAI/status/2044493337835802948](https://x. com/AnthropicAI/status/2044493337835802948) **抓取时间：** 2026-04-18 --- 原文： &gt; Research we co-authored on subliminal learning—how LLMs can pass on traits like preferences or misalignment through hidden signals in data—
 
 ---
 
 ### GPT-2 规模模型训练干预实验：学习率是最大变量，Dropout 反而有害
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 Source: Giles Thomas | 2026-04-23 URL: https://www. com/2026/04/llm-from-scratch-32m-interventions-conclusion Giles Thomas 在自己训练 GPT-2 规模模型（163M 参数，44 小时本地训练）过程中系统性测试了多种干预手段. 按效果排序：学习率调整（最大收益）+ 调度；Weight decay（有效）；QKV bias（微小帮助）；Gradient clipping（效果有限）；PyTorch AMP（训练速度翻倍但 loss 轻微变差）；Weight tying（反而让
 
 ---
 
 ### Farzapedia：用 LLM 把日记笔记变成个人维基的完整工作流
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 **质量评分：5** **来源：** [https://x. com/karpathy/status/2040572272944324650](https://x. com/karpathy/status/2040572272944324650) **抓取时间：** 2026-04-18 --- 原文： &gt; Farzapedia, personal wikipedia of Farza, good example following my Wiki LLM tweet. I really like this approach to personalization in a number of
 
 ---
 
 ### [iamzhihuix/skills-manage: Desktop app to manage AI coding agent skills across Claude Code, Cursor, G](https://github.com/iamzhihuix/skills-manage)
-@作者 · ⭐⭐⭐3 🌐 · 昨天
+@作者 · ⭐⭐⭐3 🌐 · 2026-05-01
 
 &gt; 备注：原文抓取自 GitHub（iamzhihuix/skills-manage），README 全文保存于此. &gt; 原文链接：https://github. com/iamzhihuix/skills-manage &gt; 作者：iamzhihuix &gt; 发表时间：2026-04-21 &gt; 抓取时间：2026-04-22 --- （全文见 Obsidian 本地备份：`Cubox/iamzhihuix-skills-manage- Desktop app to manage AI coding agent skills across Claude Code, Cursor, G
 
 ---
 
 ### 它是什么？和 Claude Code 有什么区别？
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 与此同时，Anthropic 的年经常性收入刚突破 300 亿美元，是去年 12 月的三倍. 华尔街已经开始紧张了，WSJ 说投资者对传统 SaaS 公司的股价越来越谨慎，担心 Anthropic 这类产品会让一些传统软件服务变得多余. 和你已经在用的 Claude Code 有什么区别. 如果你用过 Claude Code，你知道 AI 智能体怎么工作：你给它一个任务，它自己规划步骤、调用工具、写代码、改文件，一步步把事做完. Claude Code 跑在你自己的电脑上，是给开发者个人用的命令行工具. Managed Agents 跑在 Anthropic 的云上，是给企业用的 API 服务
 
 ---
 
 ### awesome-gpt-image-2: GPT-Image2 工业级提示词引擎与模板库
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 GitHub: https://github. com/freestylefly/awesome-gpt-image-2 Stars: 1235 (截至 2026-04-27) License: MIT GPT-Image2 全量开放后，AI 画图从&quot;能不能出图&quot;变成了&quot;能不能稳定、可控、可复用地出图&quot;. 这个项目做的不是单纯收集提示词，而是把零散案例逆向整理成一套更适合 Agent 和自动化工作流调用的 Prompt-as-Code 资产. 核心目标：把&quot;散文式提示词&quot;压缩成&quot;结构化协议&quot;. - 🧱 原子化 Schema：把主体、光影、材质、排版等视觉要素拆成可组合组件 - ⚙️ 工作流友好
 
 ---
 
 ### Claude Code 2026: New Features and Agentic Capabilities
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 &gt; 发布时间: 2026-04-24 &gt; 作者: Anthropic Team --- **摘要 / Summary:** Claude Code 在 2026 年迎来重大更新，第一季度发布了多个重要功能：Remote Control（远程控制）、Dispatch（后台工作流）、Channels（频道）、Computer Use（计算机控制）、Auto Mode（自动模式）和 AutoDream. Sonnet 5 &quot;Fennec&quot; 作为 Claude 5 代的第一个模型，拥有 100 万 token 上下文窗口，并引入 Dev Team 多智能体协作模式. 界面重新设计集成了终端、文件编辑、
 

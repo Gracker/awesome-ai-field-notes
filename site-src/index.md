@@ -40,7 +40,7 @@ features:
 ## 🆕 最新 10 篇
 
 ### [AI Fast Track: 5天免费课程 手把手教你从用AI到用AI构建产品](/entry/ivgx104f) 📄
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 There&#x27;s a difference between using AI and building with it. Copy-pasting ChatGPT prompts will only get you so far. I want to help you learn to build personal AI software, automations, and tools that actually solve your problems. The AI Fast Track is a free 5-day course. Tens of thousands have taken it.
 
@@ -49,7 +49,7 @@ There&#x27;s a difference between using AI and building with it. Copy-pasting Ch
 ---
 
 ### [OpenAI DevDay 2026 定档9月29日旧金山 GPT-5.5开发赢早期门票](/entry/3u1ukowy) 📄
-@@OpenAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@@OpenAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 OpenAI DevDay is back. San Francisco September 29. Want to secure an early ticket? Build something with GPT-5.5 and Image Gen. Each week, 2-3 favorites win free tickets. Codex helps find best submissions.
 
@@ -58,7 +58,7 @@ OpenAI DevDay is back. San Francisco September 29. Want to secure an early ticke
 ---
 
 ### [Gemini Embedding 2 正式发布:原生多模态Embedding模型 支持视频分析与视觉购物助手](/entry/yl4qo141) 📄
-@@GoogleAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@@GoogleAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 Last week we made Gemini Embedding 2, our first natively multimodal embedding model, available to the general public. Developers have used it to build video analysis tools, visual shopping assistants, and more. What is an embedding model? Thread
 
@@ -67,7 +67,7 @@ Last week we made Gemini Embedding 2, our first natively multimodal embedding mo
 ---
 
 ### [Tibo独家复盘:9次失败产品后如何做到100万美金/月 五款AI产品从0到1方法论](/entry/9ijpm5tr) 📄
-@@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 I shipped 9 failed products before one took off...now I&#x27;m doing $1M+/month. Interview with @tibo_maker - a solo founder who bootstrapped 5 AI products to $1M+/month. Tibo walked through his exact playbook: How to validate ideas and fail fast, Why his top 3 AI products worked.
 
@@ -76,7 +76,7 @@ I shipped 9 failed products before one took off...now I&#x27;m doing $1M+/month.
 ---
 
 ### [MiniMax M2.7 开源但非OSI认可开源:许可协议禁止商用引发争议](/entry/9uw4lgip) 📄
-@@MiniMax_AI · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@@MiniMax_AI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 MiniMax M2.7 model weights are publicly available, but under a license prohibiting commercial use without authorization. This does not meet the Open Source Initiative&#x27;s definition of open source, which requires allowing commercial use.
 
@@ -85,7 +85,7 @@ MiniMax M2.7 model weights are publicly available, but under a license prohibiti
 ---
 
 ### [Hinton推荐国际AI安全报告2026:AI风险领域最全面的循证评估](https://x.com/geoffreyhinton/status/2019532085233611207)
-@@geoffreyhinton · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@@geoffreyhinton · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 This is a great report that provides a thoughtful, detailed and very well researched description of the risks of AI. It is essential reading for anyone who wants to write or talk about AI risks. Referencing: International AI Safety Report 2026 by Yoshua Bengio.
 
@@ -94,7 +94,7 @@ This is a great report that provides a thoughtful, detailed and very well resear
 ---
 
 ### [吴恩达推出新课《AI Prompting for Everyone》:跨模型通用提示工程技巧](https://x.com/AndrewYNg/status/2049886895530967534)
-@@AndrewYNg · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+@@AndrewYNg · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 How we prompt AI is very different in 2026 than 2022 when ChatGPT came out. I&#x27;m teaching a new course, AI Prompting for Everyone, to help you become an AI power user - whatever your current skill level. It covers skills that apply across ChatGPT, Gemini, Claude, and other AI.
 
@@ -103,21 +103,21 @@ How we prompt AI is very different in 2026 than 2022 when ChatGPT came out. I&#x
 ---
 
 ### [Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents](/entry/9dc05bac) 📄
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 --- title: &quot;Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_kotlin_a_concise_multiplatform_language__21c4780c&quot; group: &quot;Articles/Android 开发者/Kotlin : A concise multiplatform language developed by JetBrains | The JetBrains Bl
 
 ---
 
 ### Scaling Managed Agents: Decoupling the brain from the hands
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 --- id: &quot;7442497496372219650&quot; cubox_url: https://cubox. pro/web/card/7442497496372219650 url: https://www. com/engineering/managed-agents tags: [] --- Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems. [Read in Cubox](https://cub
 
 ---
 
 ### English
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 --- id: e5b48fa2 title: &quot;Hinton 推荐：国际 AI 安全报告 2026 是 AI 风险必读文献&quot; url: &quot;https://x. com/geoffreyhinton/status/2019532085233611207&quot; source: &quot;tweet&quot; date: 2026-04-19 tags: [x, ai-coding, ai-safety] --- **@geoffreyhinton** (Geoffrey Hinton, &quot;Godfather of AI&quot;): &gt; Essential reading on AI risk. &gt; &gt; The Inter
 

@@ -2,157 +2,157 @@
 
 Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **145** 条活跃资源
 
-## 📅 昨天
+## 📅 2026-05-01
 
 ### [Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents](/entry/9dc05bac) 📄
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 --- title: &quot;Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_kotlin_a_concise_multiplatform_language__21c4780c&quot; group: &quot;Articles/Android 开发者/Kotlin : A concise multiplatform language developed by JetBrains | The JetBrains Bl
 
 ---
 
 ### Scaling Managed Agents: Decoupling the brain from the hands
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 --- id: &quot;7442497496372219650&quot; cubox_url: https://cubox. pro/web/card/7442497496372219650 url: https://www. com/engineering/managed-agents tags: [] --- Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems. [Read in Cubox](https://cub
 
 ---
 
 ### 从Vibe Coding到Agentic Engineering：重构后台开发全流程
-@作者 · ⭐⭐⭐3 🌐 · 昨天
+@作者 · ⭐⭐⭐3 🌐 · 2026-05-01
 
 --- id: &quot;7444756797564387672&quot; cubox_url: https://cubox. pro/web/card/7444756797564387672 url: https://mp. __biz=MjM5ODYwMjI2MA==&amp;mid=2649801233&amp;idx=1&amp;sn=6e6eaf8a0e94e8349bbbef4b734dc5c0&amp;chksm=bfa52a1c28b217121b321819707fec37a046db7ce55d69ff28f6aefcd3df18d15031491c1ff2&amp;mpshare=1&amp;scene=1&amp;srcid=0417g92
 
 ---
 
 ### Google 发布面向 Agent 工作流的 Android CLI、Skills 与 Knowledge
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 __biz=MzAxMTI4MTkwNQ==&amp;mid=2650856619 官方文档: https://developer. com/tools/agents Google 发布 Android CLI、Android Skills 与 Android Knowledge Base 三大工具组件，为 Agent（Gemini、Claude Code、Codex 等）提供标准化的 Android 开发接口，目标是确保在任何开发环境中均可实现高质量 Android 应用构建. 为 Agent 提供轻量级、可编程的 SDK 交互能力，支持环境配置、项目创建、设备管理等核心开发任务. | 功能类别 |
 
 ---
 
 ### Agent Harnesses are how you build agents, and they’re not going anywhere
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 The “best” way to build agentic systems has changed dramatically over the past three years. When ChatGPT came out, all you could do were simple RAG chains (LangChain). Then the models got a little better, and could create more complex flows (LangGraph). Then they got a lot better, and that gave rise
 
 ---
 
 ### POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation
-@作者 · ⭐⭐⭐3 🌐 · 昨天
+@作者 · ⭐⭐⭐3 🌐 · 2026-05-01
 
 11816 - **发表时间**: 2026-01-16 - **主题**: Agentic AI / 企业自动化 / 治理框架 --- 企业后台工作流（如应付账款、合同审查）要求 AI 系统必须满足：可审计（full execution traces）、策略对齐（policy-aligned）、操作可预测（operationally predictable）、副作用可管控. 这些需求通用型 multi-agent 系统往往无法满足. 本文要解决的核心问题是：如何在保持 agent 灵活性的同时，为企业级 agentic AI 添加可验证的治理能力. --- 不是让 LLM 自由生成执行路径，
 
 ---
 
 ### langchain-ai/agents-from-scratch: Build an email assistant with human-in-the-loop and memory
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 com/langchain-ai/agents-from-scratch 官方文档: https://github. com/langchain-ai/agents-from-scratch 该仓库是一个&quot;从零构建 Agent&quot;的实战指南，以构建一个 Gmail 接入的&quot;环境感知&quot;（ambient）邮件助手为最终目标. 分为 4 个章节，每章配有 Jupyter Notebook 和对应的 `src/email_assistant` 目录代码. 从 Agent 基础开始，逐步递进到 Agent 评估、人在回路（Human-in-the-Loop），最终到记忆系统，最终组合成一个可部署的 Age
 
 ---
 
 ### [Android CLI: Build Android apps 3x faster using any agent](http://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html%3E)
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 --- title: &quot;Android CLI: Build Android apps 3x faster using any agent&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_android_developers_blog_33800553&quot; group: &quot;Articles/Android 开发者/Android Developers Blog&quot; url: &quot;http://android-developers. com/2026/04/build-android-apps-3x-faster-using-any-agent. html&quot; pu
 
 ---
 
 ### 夜天之书 #119：Agentic Coding 的边界
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 com/s/x_FUUG4wBUqYs1H5DUtpgQ 作者: 夜天之书（tison） 本文结合作者 Agentic Coding 的实践经验，深入讨论当前 LLM Coding Agent 的能力边界与局限性. 文章指出：LLM 能够生成&quot;疑似正确&quot;的方案，但到&quot;经得起考验的产品&quot;之间存在 AI 无法覆盖的鸿沟. 当前 LLM 的核心动作是对现有知识的搜索和组合，这推理出两个重要现象： **现状代码多为浆糊（Big Ball of Mud）**：现实中程序员倾向于就地打补丁，导致 AI 训练的语料本身就充满问题代码. AI 容易生成&quot;似是而非&quot;的并发代码，因为能找到的并发代码语料本身就存在
 
 ---
 
 ### cc-connect: Bridge local AI coding agents to messaging platforms
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 GitHub: https://github. com/chenhg5/cc-connect Stars: 6424 (截至 2026-04-27) License: MIT cc-connect bridges AI agents running on your machine to the messaging platforms you already use. Code review, research, automation, data analysis — anything an AI agent can do, now accessible from your phone, tab
 
 ---
 
 ### [从聊天窗口到多 Agent 控制台：一次 AI 编程协作范式的转移](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559601&idx=1&sn=dca715222390e89a63a45ad54b1c9d7d%3E)
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 --- title: &quot;从聊天窗口到多 Agent 控制台：一次 AI 编程协作范式的转移&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_item_616ef9b2&quot; group: &quot;Articles/阿里云开发者&quot; url: &quot;https://mp. __biz=MzIzOTU0NTQ0MA==&amp;mid=2247559601&amp;idx=1&amp;sn=dca715222390e89a63a45ad54b1c9d7d&quot; published: &quot;2026-04-16T00:31:00Z&quot; captured_at: &quot;2026-04-17T03:02:49+08:0
 
 ---
 
 ### OWL: Optimized Workforce Learning for General Multi-Agent Assistance
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 com/camel-ai/owl/blob/main/README_zh. md OWL（Optimized Workforce Learning）是 CAMEL-AI 推出的前沿多智能体协作框架，旨在通过动态智能体交互实现跨多领域的任务自动化. - **多搜索引擎支持**：维基百科、Google、DuckDuckGo、百度、博查等实时信息检索 - **多模态处理**：支持视频、图片、语音处理 - **浏览器操作**：基于 Playwright 的页面滚动、点击、输入、下载、历史回退 - **文件解析**：Word、Excel、PDF、PowerPoint 内容提取 - **代码执行**：Py
 
 ---
 
 ### [Build with Google Antigravity, our new agentic development platform](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/)
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 &gt; **来源：** Google Developers Blog &gt; **原文链接：** https://developers. com/build-with-google-antigravity-our-new-agentic-development-platform/ &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- NOV. 20, 2025 Development is lifting off. The tools of yesterday focused on helping you write code faster; the tools of t
 
 ---
 
 ### MCP Ecosystem 2026: Universal Connector for AI Tools and Cross-Runtime Interoperability
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 &gt; 发布时间: 2026-04-21 &gt; 作者: Industry Analysis --- **摘要 / Summary:** MCP（Model Context Protocol）正在成为 2026 年 AI 工具互操作性的通用连接器，被誉为&#x27;AI 工具的 USB 标准&#x27;. 作为 Anthropic 开发的 JSON-RPC 客户端-服务器接口，MCP 支持类型化数据交换，旨在成为 AI 工具的通用连接器. 截至 2026 年初，已有 200 多个服务器实现，支持 GitHub、Slack、Google Drive、Salesforce 等常见服务. 获得 Anthropic、OpenAI
 
 ---
 
 ### [LangGraph: Build resilient language agents as graphs](https://github.com/langchain-ai/langgraph)
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 &gt; **来源：** GitHub (langchain-ai/langgraph) &gt; **原文链接：** https://github. com/langchain-ai/langgraph &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building,
 
 ---
 
 ### [CrewAI: Framework for orchestrating role-playing, autonomous AI agents](https://github.com/crewAIInc/crewAI)
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 &gt; **来源：** GitHub (crewAIInc/crewAI) &gt; **原文链接：** https://github. com/crewAIInc/crewAI &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- CrewAI is a lean, lightning-fast Python framework built entirely from scratch—completely independent of LangChain or other agent frameworks. It empowers developers with both
 
 ---
 
 ### AGENTS.md — Drop-in senior engineer behavior spec for coding agents
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 GitHub: https://github. com/TheRealSeanDonahoe/agents-md Stars: 525 (截至 2026-04-27) License: MIT One file. Every coding agent starts behaving like a senior engineer. Drop it into any repo. Claude Code, Codex, Cursor, Gemini CLI, Aider, Windsurf, Copilot, and Devin all read it on their own. | Before
 
 ---
 
 ### 2026 年，AI 编程 Agent 的真正分水岭—
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 &gt; 作者: 老章很忙 &gt; 原文链接: https://mp. __biz=MzA4MjYwMTc5Nw==&amp;mid=2649012185&amp;idx=1&amp;sn=e613849d8e706a95d4a3c292b5881a1e ---. [cover_image](images/img_001. jpg) Original 老章很忙 老章很忙 [Ai学习的老章](javascript:void\(0\);) _2026年4月9日 15:38_ _英国_ 在小说阅读器读本章 去阅读 在小说阅读器中沉浸阅读 **2026 年，AI 编程 Agent 的真正分水岭，到底在哪里. [Harness 才是 A
 
 ---
 
 ### AI Agent Landscape 2026: From Experimental Tools to Production Infrastructure
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 &gt; 发布时间: 2026-04-22 &gt; 作者: Industry Analysis --- **摘要 / Summary:** 2026 年标志着 AI 智能体从实验概念转向生产系统的关键转折点. Gartner 预测 40% 的企业应用将在 2026 年底嵌入特定任务 AI 智能体，远低于之前的 5%. 市场规模预计大幅增长，企业部署显示显著 ROI. 核心特征包括：感知与规划（解释非结构化输入，分解复杂目标）、工具使用（调用外部 API、数据库、其他智能体）、记忆模块（存储上下文和时间交互）、自主操作（持续的感觉-思考-行动循环）、解决高级问题. 架构组件包括 LLM（大脑）、记忆模块、
 
 ---
 
 ### [AutoGen: A programming framework for agentic AI](https://github.com/microsoft/autogen)
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 &gt; **来源：** GitHub (microsoft/autogen) &gt; **原文链接：** https://github. com/microsoft/autogen &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- AutoGen is now in maintenance mode. It will not receive new features or enhancements and is community managed going forward. **New users should start with [Microsoft Agent
 
 ---
 
 ### [A2UI v0.9: The New Standard for Portable, Framework-Agnostic Generative UI](https://developers.googleblog.com/a2ui-v0-9-generative-ui/)
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 &gt; **来源：** Google Developers Blog &gt; **原文链接：** https://developers. com/a2ui-v0-9-generative-ui/ &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- APRIL 17, 2026 Generative UI allows AI agents to generate tailored UI widgets in real-time, matching the interface to the user&#x27;s specific interaction. But to move f
 
 ---
 
 ### AIOS 架构深度解析与 Android Agent OS 演进全景
-⭐⭐⭐3 🌐 · 昨天
+⭐⭐⭐3 🌐 · 2026-05-01
 
 **AIOS 是目前学术界最完整的 LLM Agent 操作系统原型**，其核心设计将 LLM 实例抽象为&quot;CPU 核心&quot;，通过系统调用层为上层 Agent 应用提供统一的调度、内存、存储、工具和访问控制服务. AIOS 已发表 8 篇论文，被 COLM 2025、ICLR 2025、NAACL 2025 收录，GitHub 获 5,387 星. 但 AIOS 是纯用户态 Python 实现，运行在 FastAPI 之上，并未触及真正的操作系统内核层. 与此同时，Android 平台正从&quot;操作系统&quot;向&quot;智能系统&quot;演进——Google 的 AICore/AppFunctions、三星的多 Age
 

@@ -4,7 +4,7 @@
 初始化阶段完成。
 
 ## 目标
-维护 entries.json 数据质量。
+维护 `data/entries.json` 数据质量。
 
 ## 执行频率
 每周一 02:00
@@ -33,8 +33,14 @@ GITHUB_TOKEN=<token> python3 openclaw/scripts/refresh-stars.py
 
 ### 5. 统计 + 提交
 ```bash
+python3 scripts/validate-schema.py
 npm run build
 git add -A
 git commit -m "[openclaw] maintain: weekly — N stars refreshed, M archived"
 git push origin main
 ```
+
+## 约束
+- 日期字段只能写 `YYYY-MM-DD` 或 `null`，禁止写“今天/昨天/本周/today/yesterday”等相对时间
+- 不手写 `site-src/` 页面，站点输出只能来自 `npm run build`
+- 不强行提交 `site-src/entry/`
