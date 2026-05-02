@@ -3,7 +3,7 @@
 > 原文链接: https://egoist.dev/chatwise-mcp
 
 ---
-# [![egoist](/_astro/avatar.B50K2zTB_AibFO.webp)](/)
+# [<!-- image removed: external astro asset -->](/)
 
 [home](/) [about](/about) [uses](/uses) [donate](/donate) [RSS Feed](/rss.xml)
 
@@ -73,7 +73,7 @@ MCP 的支持在各个客户端中都不同，Claude 官方客户端当然只有
 
 在 ChatWise 的工具设置里，可以点击左下角的`+`号添加 MCP 服务:
 
-![tool settings](/_astro/tool-settings.C4R87Sny_ZPEK9G.webp)
+<!-- image removed: external astro asset -->
 
 以这个 [mcp-server-fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) 为例，可以用来获取网页内容的，可以通过 `uvx mcp-server-fetch` 这个命令运行，当这个命令运行时 `uvx` 这个程序就会自动下载 `mcp-server-fetch`并运行它。
 
