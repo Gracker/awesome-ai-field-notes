@@ -1,31 +1,5 @@
 import { defineConfig } from 'vitepress'
 
-// Vite plugin: resolve broken/external imports from scraped markdown content
-// as empty modules so Rollup doesn't fail.
-function ignoreBrokenContentImports() {
-  return {
-    name: 'ignore-broken-content-imports',
-    enforce: 'pre',
-    resolveId(source, importer) {
-      // Only intercept imports from generated entry markdown files
-      if (!importer || !importer.includes('/entry/')) return null
-      // Let VitePress handle its own internal modules
-      if (source.startsWith('/@') || source.startsWith('virtual:') || source.startsWith('\0')) return null
-      // Let normal code imports through
-      if (/\.(vue|ts|js|css|scss|less|styl)$/.test(source)) return null
-      // Everything else from entry pages → empty module (images, broken refs, etc.)
-      if (source.startsWith('.') || source.startsWith('/')) {
-        return { id: '\0ignore-broken-ref', moduleSideEffects: false, external: false }
-      }
-      return null
-    },
-    load(id) {
-      if (id === '\0ignore-broken-ref') return ''
-      return null
-    },
-  }
-}
-
 export default defineConfig({
   title: 'AI Field Notes',
   description: 'AI 领域精选资源导航 — 有观点、有评分、每日自动更新',
@@ -58,7 +32,4 @@ export default defineConfig({
   cleanUrls: true,
   markdown: { html: false },
   ignoreDeadLinks: true,
-  vite: {
-    plugins: [ignoreBrokenContentImports()],
-  },
 })

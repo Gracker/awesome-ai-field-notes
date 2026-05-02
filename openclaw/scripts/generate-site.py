@@ -41,10 +41,10 @@ def sanitize_content(content):
     if binary_count > len(content) * 0.05:
         return "[内容含二进制数据，已自动跳过]"
 
-    # 2. Strip broken local image refs
-    content = _re.sub(r'!\[.*?\]\(\.?/?(?:[^)]*/)?images/[^)]+\)', '', content)
-    # Strip absolute-path image/media refs (external CDNs, scraped site assets)
-    content = _re.sub(r'!\[.*?\]\(/[^)]+\)', '', content)
+    # 2. Keep only https:// image refs; strip everything else (relative paths,
+    #    absolute paths, broken refs from scraped content like /_astro/, /_next/,
+    #    garbage like ';' or './;'). VitePress can't resolve these.
+    content = _re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', lambda m: m.group(0) if m.group(2).startswith('http') else '', content)
 
     # 3+4. Process char by char: escape HTML tags and {{ }} outside fenced code blocks
     result, in_fence = [], False
