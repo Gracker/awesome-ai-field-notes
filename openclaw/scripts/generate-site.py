@@ -43,7 +43,7 @@ def sanitize_content(content):
 
     # 2. Strip broken local image refs
     content = _re.sub(r'!\[.*?\]\(\.?/?(?:[^)]*/)?images/[^)]+\)', '', content)
-    content = _re.sub(r'!\[.*?\](/_astro/[^)]+\)', '', content)
+    content = _re.sub(r'!\[.*?\]\(/_astro/[^)]+\)', '', content)
 
     # 3+4. Process char by char: escape HTML tags and {{ }} outside fenced code blocks
     result, in_fence = [], False
