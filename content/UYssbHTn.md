@@ -70,7 +70,7 @@ AI也许能为第1和第2点提出建议，但我目前不需要。第3点我认
 
 * * *
 
-![sponsor](/_astro/JZ26YwDhmGzUy4u.CFixzKvb_1ml6nH.webp)
+<!-- image removed: external astro asset -->
 
 sponsor
 
