@@ -1,3 +1,218 @@
+## 2026-04-27 ~ 2026-05-03
+
+
+### 📈 新增 (141)
+
+
+#### agent-frameworks
+- [深入源码：Hermes Agent 如何实现 "Self-Improving"](https://mp.weixin.qq.com/s/Qi68ptxQRyiA932JU49SYQ) — agent-frameworks ⭐4
+- Anthropic《Building Effective AI Agents》深度解读，AI Agents架构“经典必读” — agent-frameworks ⭐4
+
+#### agent-frameworks/harness-engineering
+- [全员 token-maxxing，一场没人敢停的军备竞赛](https://cubox.pro/c/filters:no_upscale()?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FJ3iaQ6X4GdYUlibrJ0GIg9QplWQkaeBCS648spXYYh8ZO0KUe1H1NjZibRJd3ZD1NDb1BzicWZ5neHmGEFWxFFgGE0Z4OeapcA2j6CqvKR4Va0A%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D9)](https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532234&idx=1&sn=cbac85e8b9b49c28e4a553d761e26098&scene=21#wechat_redirect)) — agent-frameworks/harness-engineering ⭐4
+- [你不知道的 AI Coding：非技术人的上手、场景与实战](https://x.com/i/status/2048230976447557787) — agent-frameworks/harness-engineering ⭐4
+- [新资源：Harness Engineering 实践指南](https://example.com/harness-engineering-guide) — agent-frameworks/harness-engineering ⭐2
+
+#### agents/frameworks
+- [Introducing Koog Integration for Spring AI: Smarter Orchestration for ](https://blog.jetbrains.com/ai/2026/04/introducing-koog-integration-for-spring-ai-smarter-orchestration-for-your-agents/>) — agents/frameworks ⭐3
+- Scaling Managed Agents: Decoupling the brain from the hands — agents/frameworks ⭐3
+- 从Vibe Coding到Agentic Engineering：重构后台开发全流程 — agents/frameworks ⭐3
+- Google 发布面向 Agent 工作流的 Android CLI、Skills 与 Knowledge — agents/frameworks ⭐3
+- Agent Harnesses are how you build agents, and they’re not going anywhe — agents/frameworks ⭐3
+- POLARIS: Typed Planning and Governed Execution for Agentic AI in Back- — agents/frameworks ⭐3
+- langchain-ai/agents-from-scratch: Build an email assistant with human- — agents/frameworks ⭐3
+- [Android CLI: Build Android apps 3x faster using any agent](http://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html>) — agents/frameworks ⭐3
+- 夜天之书 #119：Agentic Coding 的边界 — agents/frameworks ⭐3
+- cc-connect: Bridge local AI coding agents to messaging platforms — agents/frameworks ⭐3
+- [从聊天窗口到多 Agent 控制台：一次 AI 编程协作范式的转移](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559601&idx=1&sn=dca715222390e89a63a45ad54b1c9d7d>) — agents/frameworks ⭐3
+- OWL: Optimized Workforce Learning for General Multi-Agent Assistance — agents/frameworks ⭐3
+- [Build with Google Antigravity, our new agentic development platform](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/  ) — agents/frameworks ⭐3
+- MCP Ecosystem 2026: Universal Connector for AI Tools and Cross-Runtime — agents/frameworks ⭐3
+- [LangGraph: Build resilient language agents as graphs](https://github.com/langchain-ai/langgraph  ) — agents/frameworks ⭐3
+- 谁才是地表最强 Android Agent 大模型？Google官方测评来了！ — agents/frameworks ⭐3
+- [CrewAI: Framework for orchestrating role-playing, autonomous AI agents](https://github.com/crewAIInc/crewAI  ) — agents/frameworks ⭐3
+- AGENTS.md — Drop-in senior engineer behavior spec for coding agents — agents/frameworks ⭐3
+- 2026 年，AI 编程 Agent 的真正分水岭— — agents/frameworks ⭐3
+- AI Agent Landscape 2026: From Experimental Tools to Production Infrast — agents/frameworks ⭐3
+- [AutoGen: A programming framework for agentic AI](https://github.com/microsoft/autogen  ) — agents/frameworks ⭐3
+- [A2UI v0.9: The New Standard for Portable, Framework-Agnostic Generativ](https://developers.googleblog.com/a2ui-v0-9-generative-ui/  ) — agents/frameworks ⭐3
+- Hermes Agent 8个实用项目推荐 — agents/frameworks ⭐3
+- AIOS 架构深度解析与 Android Agent OS 演进全景 — agents/frameworks ⭐3
+
+#### ai-tools
+- [Greg Brockman 实测：GPT-5.5 + Image Gen 是 App 开发最佳组合](https://x.com/gdb/status/2049609612425392494) — ai-tools ⭐5
+- [Glean 推出 Waldo：首个 Agentic 搜索模型，NVIDIA Nemotron 3 Nano 驱动](https://x.com/NVIDIAAI/status/2049131895552963023) — ai-tools ⭐5
+- [gogcli 0.14.0：命令行管理 Google 数据全套工具，含加密备份和 Gmail 镜像](https://x.com/steipete/status/2049070417931853997) — ai-tools ⭐5
+- [AI Fast Track免费5天课程 - 从基础到构建个人AI工具](https://x.com/alliekmiller/status/1985834763677286606) — ai-tools ⭐5
+- [Google 推出 Gemini 3.1 Flash TTS：音频标签控制语音风格与节奏](https://x.com/GoogleAI/status/2044447560384102592) — ai-tools ⭐5
+- [免费AI开发5日速成课程](https://x.com/alliekmiller/status/1985834763677286606) — ai-tools ⭐5
+- [AI Fast Track: 5天免费课程 手把手教你从用AI到用AI构建产品](https://x.com/alliekmiller/status/1985834763677286606) — ai-tools ⭐5
+- [OpenAI DevDay 2026 定档9月29日旧金山 GPT-5.5开发赢早期门票](https://x.com/OpenAI/status/2049535650626785334) — ai-tools ⭐5
+- [Gemini Embedding 2 正式发布:原生多模态Embedding模型 支持视频分析与视觉购物助手](https://x.com/GoogleAI/status/2049903687016063456) — ai-tools ⭐5
+- [MiniMax M2.7 开源但非OSI认可开源:许可协议禁止商用引发争议](https://x.com/MiniMax_AI/status/2043132047397659000) — ai-tools ⭐5
+- [Hinton推荐国际AI安全报告2026:AI风险领域最全面的循证评估](https://x.com/geoffreyhinton/status/2019532085233611207) — ai-tools ⭐5
+- [Sam Altman 趣味预告：GPT-5.5 的派对时间 5/5 17:55，Codex 帮你入选](https://x.com/sama/status/2049653810558353746) — ai-tools ⭐4
+- [Mistral Medium 3.5 来袭：128B 单一稠密模型整合推理与编程，SWEBench 77.6%](https://x.com/NVIDIAAI/status/2049523254143160801) — ai-tools ⭐4
+- [NotebookLM 来源自动标签与分类：5 个以上文档智能整理](https://x.com/joshwoodward/status/2047795981534847413) — ai-tools ⭐4
+- [Gemini 3.1 Flash TTS：支持自然语言音频标签控制的语音合成 API](https://x.com/GoogleAI/status/2044447560384102592) — ai-tools ⭐4
+- [Gemini 3.1 Flash TTS - 最新的文本转语音模型](https://x.com/GoogleAI/status/2044447560384102592) — ai-tools ⭐4
+- [Qwen-Image 2.0 Pro - 全球第九文生图模型](https://x.com/Alibaba_Qwen/status/2048022731548229869) — ai-tools ⭐4
+- [Google 发布 Gemini 3.1 Flash TTS：支持自然语言音频标签控制](https://x.com/GoogleAI/status/2044447560384102592) — ai-tools ⭐4
+- [Anthropic 发布 81,000 用户经济展望与担忧研究](https://x.com/AnthropicAI/status/2047006548149289017) — ai-tools ⭐4
+- [Qwen-Image-2.0-Pro 发布，Text-to-Image 排名进入全球前 10](https://x.com/Alibaba_Qwen/status/2048022731548229869) — ai-tools ⭐4
+- [wacrawl 0.2.0：用 age 加密把 WhatsApp 桌面端聊天记录分片备份到 GitHub](https://x.com/steipete/status/2048660875007914176) — ai-tools ⭐4
+- [NotebookLM 新功能：来源超过 5 个时自动标签与分类](https://x.com/joshwoodward/status/2047795981534847413) — ai-tools ⭐4
+- [OpenAI DevDay门票抽奖](https://x.com/OpenAI/status/2049535650626785334) — ai-tools ⭐4
+- [MiniMax M2.7模型开源发布](https://x.com/MiniMax_AI/status/2043132047397659000) — ai-tools ⭐4
+- [Gemini Embedding 2多模态模型](https://x.com/GoogleAI/status/2049903687016063456) — ai-tools ⭐4
+- [Gemini 3 Flash视觉代理功能](https://x.com/realmadhuguru/status/2016267285342847137) — ai-tools ⭐4
+
+#### coding
+- [AI 产品团队的速度，来自一套更短的判断回路 | 橙子的博客](https://ai.sailfishc.com/posts/anthropic-product-team-release-workbench/) — coding ⭐3
+- [为 Agent 设计产品【译】](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494663&idx=1&sn=0e5d4d44345aa5160c109dabc03619d6&chksm=c253ef9ad3e1831a85ca098df6957e01084044b32f1e4dd4e9be81c27a065ca3312ca19f1e01&mpshare=1&scene=1&srcid=0426cS5qZt7oaqEgVqOSWSDy&sharer_shareinfo=835d6d850e45df08b9f18a9541d9cb96&sharer_shareinfo_first=835d6d850e45df08b9f18a9541d9cb96) — coding ⭐3
+- [【译】关于 Claude Design 的一些想法和感受 · Sam Henri Gold](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494651&idx=1&sn=26efdda46f138eb1d535cdf381998c44&chksm=c27e9ec0c7ba2688e0bc949fa980d884fe7523850cdcfe43672137cf24ea386805becdf77c9f&mpshare=1&scene=1&srcid=0425CY78QNq5zewoMXLtMxBJ&sharer_shareinfo=e8b57c7bfe3dca5976dc1f958a3922c3&sharer_shareinfo_first=e8b57c7bfe3dca5976dc1f958a3922c3) — coding ⭐3
+
+#### content-creation
+- [Anthropic用户研究 - 8.1万人AI使用需求分析](https://x.com/AnthropicAI/status/2047006548149289017) — content-creation ⭐4
+
+#### industry
+- [技术人员Basics](https://mp.weixin.qq.com/s?__biz=MzI3NDYwMDM4MQ==&mid=2247485131&idx=1&sn=e22c118eb9113c7fd5d1079eab608b5a&chksm=eafc6c369f0d45074d432f4f0dfcc64b51ce1ddeb9fa8f3a395e2600353a32937365c0fca2f6&mpshare=1&scene=1&srcid=0426wMuiKVjomqkNGsEEIRMz&sharer_shareinfo=7edad791b3d396347480ceeddd1e9fc4&sharer_shareinfo_first=7edad791b3d396347480ceeddd1e9fc4) — industry ⭐3
+
+#### models/models
+- [GPT-5.5 官方提示词指南核心要点](https://x.com/dotey/status/2049624930887614648) — models/models ⭐4
+- [OpenAIがGPT-5の技術詳細を一部公開](https://x.com/maria_garcia/status/177456789012345678) — models/models ⭐3
+- Anthropic 发布 Claude Opus 4.7，性能如何？ — models/models ⭐3
+- [Gemini 3 Flash is now available in Gemini CLI](https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/  ) — models/models ⭐3
+- 丢掉沉重的记忆：Codex、Claude Code 与 OpenCode 的上下文压缩术 | Justin3go — models/models ⭐3
+- Hermes Agent 接入 Codex GPT-Image-2 生图配置教程 — models/models ⭐3
+- 四项新研究一致显示：LLM 医疗建议准确率低，不应作为临床决策依据 — models/models ⭐3
+- [八个和 Claude Code 编码时的小技巧](https://www.ccgxk.com/codeother/717.html>) — models/models ⭐3
+- ChatGPT Images 2.0 发布，Where's Waldo 风格测试引发争议 — models/models ⭐3
+- Claude Code 从 Pro 版移除引发信任危机，Anthropic 仅靠一条推文回应 — models/models ⭐3
+- Gemini 3.1 Flash TTS：表现力最强、控制粒度最细的语音合成模型 — models/models ⭐3
+- Gemini 3.1 Flash TTS：最强表现力语音合成模型，70语言覆盖 — models/models ⭐3
+- Nature 论文：LLM 可通过隐含数据信号向另一 LLM 传递隐藏偏好与行为特征 — models/models ⭐3
+- 深度调研：Claude Code 最强配置单 · 9 个 GitHub 工具深度评测 — models/models ⭐3
+- [Claude Code 实战中文教程来了](https://x.com/LuBtc888/status/2049464465096384913) — models/models ⭐3
+- 深度解析 Claude Code 在 Prompt / Context / Harness 的设计与实践 — models/models ⭐3
+- Anthropic 等 Nature 论文：LLM 可通过无关数据传递隐藏偏好 — models/models ⭐3
+- GPT-2 规模模型训练干预实验：学习率是最大变量，Dropout 反而有害 — models/models ⭐3
+- Farzapedia：用 LLM 把日记笔记变成个人维基的完整工作流 — models/models ⭐3
+- [iamzhihuix/skills-manage: Desktop app to manage AI coding agent skills](https://github.com/iamzhihuix/skills-manage) — models/models ⭐3
+- 它是什么？和 Claude Code 有什么区别？ — models/models ⭐3
+- awesome-gpt-image-2: GPT-Image2 工业级提示词引擎与模板库 — models/models ⭐3
+- [国内无魔法也能用Claude Code接入国产大模型](https://x.com/VincentLogic/status/2048400987107553680) — models/models ⭐3
+- Claude Code 2026: New Features and Agentic Capabilities — models/models ⭐3
+
+#### prompt
+- [AI Fast Track: 5天免费课程，从用AI到用AI构建](https://x.com/alliekmiller/status/1985834763677286606) — prompt ⭐5
+- [Allie K. Miller 推出免费 5 天 AI 课程：从会用 AI 到会用 AI 构建](https://x.com/alliekmiller/status/1985834763677286606) — prompt ⭐5
+- [吴恩达推出新课《AI Prompting for Everyone》:跨模型通用提示工程技巧](https://x.com/AndrewYNg/status/2049886895530967534) — prompt ⭐5
+- [Allie K. Miller 免费开放：5 天 AI 实战训练营，从使用到构建](https://x.com/alliekmiller/status/1985834763677286606) — prompt ⭐4
+
+#### uncategorized
+- [把巴菲特70年的股东信变成了知识图谱](https://x.com/binbinmath/status/2040690438122987762) — uncategorized ⭐4
+- [React 19の新機能まとめ](https://x.com/alex_wilson/status/177345678901234567) — uncategorized ⭐3
+- English — uncategorized ⭐3
+- [Googleが新しいAI検索アルゴリズムを発表](https://x.com/sarah_chen/status/177234567890123456) — uncategorized ⭐3
+- geohot：AI 没有护城河，模型折旧比想象中快，中国没有 AI 狂热 — uncategorized ⭐3
+- 从历史 Luddites 看反 AI 数据中心运动：1816 年的教训 — uncategorized ⭐3
+- Qwen3.6-27B：27B 参数密集模型达到旗舰级编程水平 — uncategorized ⭐3
+- 4m7n5p8r — uncategorized ⭐3
+- AI 编码助手从占 20% 工作量提升到 60%，但仍不是万能药 — uncategorized ⭐3
+- Why does this happen? — uncategorized ⭐3
+- 6e045284 — uncategorized ⭐3
+- X — uncategorized ⭐3
+- [Harness Engineering：AI 能在真正「出事会炸」的后端系统里写代码吗？](https://mp.weixin.qq.com/s/VJgVPeJ5GZhVwbRtneEk_Q) — uncategorized ⭐3
+- [OpenAI Codex Update Adds Computer Use, Image Generation, and Memory on](https://www.macrumors.com/2026/04/16/openai-codex-mac-update/>) — uncategorized ⭐3
+- 6b3c9d2e — uncategorized ⭐3
+- 6.AI时代的变与不变 · Kyte · 墨问 — uncategorized ⭐3
+- [How I built a real marketing team on OpenClaw that's better than most ](https://x.com/ericosiu/status/2043083581824827584) — uncategorized ⭐3
+- 原始推文 — uncategorized ⭐3
+- Farzapedia：把个人数据变成可导航的个人维基百科 — uncategorized ⭐3
+- 8k6jv2g1 — uncategorized ⭐3
+- Content Directory — uncategorized ⭐3
+- [AppleのVision Pro 2が発表されました](https://x.com/yudai-suzuki/status/177123456789012345) — uncategorized ⭐3
+- where this started — uncategorized ⭐3
+- 深度调研：DroidClaw vs Open-AutoGLM — uncategorized ⭐3
+- AI Field Notes Content Fetch Report — uncategorized ⭐3
+- f716dadc — uncategorized ⭐3
+- Allie Miller 推出免费 5 天课程：从 AI 用户进化为 AI 建造者 — uncategorized ⭐3
+- LangGraph 2026: Cyclic Graph Architecture and Production-Ready Feature — uncategorized ⭐3
+- 多智能体协作指南：五种主流模式怎么选、怎么用？【译】 — uncategorized ⭐3
+- 2f9l8q3w — uncategorized ⭐3
+- [用 AI 写 Android 需求：少踩坑的实战心得](https://juejin.cn/post/7604964464690184255) — uncategorized ⭐3
+- 8f1h4g5j — uncategorized ⭐3
+- bc88936b — uncategorized ⭐3
+- [NVIDIAが新しいAI加速器を発表](https://x.com/john_smith/status/177567890123456789) — uncategorized ⭐3
+- 任何职业都是机械和判断的 spectrum — uncategorized ⭐3
+- Mobicom-26论文|移动和车载系统上大型应用冷启动的内存调度框架 — uncategorized ⭐3
+- 为什么你的"AI 优先"战略可能大错特错？ — uncategorized ⭐3
+- 三步搭好 — uncategorized ⭐3
+- [什么 AI 写 Android 最好用？官方做了一个基准测试排名](https://juejin.cn/post/7614897667961143347) — uncategorized ⭐3
+
+#### workflow
+- [Karpathy 力荐：用 LLM 打造个人知识库，科研工作流新范式](https://x.com/karpathy/status/2040470801506541998) — workflow ⭐5
+- [Farzapedia：用 LLM 把日记笔记变成个人维基百科，400 文章自动生成](https://x.com/karpathy/status/2040572272944324650) — workflow ⭐5
+- [神经符号 AI 解 RAG 规模化失效：Ontology 加确定性层加 LLM 解释层](https://x.com/DeepLearn007/status/2043784557099471159) — workflow ⭐5
+- [LLM知识库构建 - 个人研究管理新方法](https://x.com/karpathy/status/2040470801506541998) — workflow ⭐5
+- [Allie K. Miller 推出免费 5 天课程：AI Fast Track](https://x.com/alliekmiller/status/1985834763677286606) — workflow ⭐5
+- [Karpathy：本地 Demo 到线上产品，DevOps 是最难的部分](https://x.com/karpathy/status/2037200624450936940) — workflow ⭐5
+- [Karpathy 推荐 Farzapedia：用 LLM 把日记笔记变成私人维基百科](https://x.com/karpathy/status/2040572272944324650) — workflow ⭐5
+- [tibo_maker 复盘：从 9 个失败产品到 5 个 AI 产品月入 100 万美元的方法论](https://x.com/petergyang/status/2048462231470547038) — workflow ⭐5
+- [Tibo独家复盘:9次失败产品后如何做到100万美金/月 五款AI产品从0到1方法论](https://x.com/petergyang/status/2050223374421647382) — workflow ⭐5
+- [MiniMax M2.7 开源了吗？OSI 标准 vs 实际许可的深度分析](https://x.com/MiniMax_AI/status/2043132047397659000) — workflow ⭐4
+- [吴恩达深度复盘：AI 原生工程团队与传统团队的差异全解析](https://x.com/AndrewYNg/status/2048793852702757151) — workflow ⭐4
+- [GitHub替代展望 - AI时代的代码协作变革](https://x.com/Thom_Wolf/status/2049282089518784640) — workflow ⭐4
+- [RAG 在大规模场景下失效：神经符号 AI 是未来方向](https://x.com/DeepLearn007/status/2043784557099471159) — workflow ⭐4
+- [AI 生成图像正在替代传统原型设计，成为产品创意共享新方式](https://x.com/gdb/status/2049120845985923316) — workflow ⭐4
+
+### 📦 归档 (7)
+
+- Allie Miller推出免费5天课程：从AI用户进化为AI建造者 — 时效归档
+- X内容创作系统 — 时效归档
+- Claude Code 工具与 MCP 推荐清单 — 时效归档
+- 三大AI编程框架 X 候选推文 — 时效归档
+- AI Agent 落地案例库 — 时效归档
+- AutoResearchClaw: Android后台任务调度对电池寿命的影响分析 — 时效归档
+- TEMP: Adaptive Thermal Management for Android Performance Optimization — 时效归档
+
+### ✏️ 评分调整 (9)
+
+- [Dr. MAMR：解决多智能体 LLM 推理中的惰性智能体问题]() — 5→3（来源：dedup）
+- [免费AI开发5日速成课程](https://x.com/alliekmiller/status/1985834763677286606) — 5→4（来源：dedup）
+- [RAG 在大规模场景下失效：神经符号 AI 是未来方向](https://x.com/DeepLearn007/status/2043784557099471159) — 4→5（来源：dedup）
+- [Gemini 3.1 Flash TTS 发布：带 Audio Tags 的最可控语音合成](https://x.com/GoogleAI/status/2044447560384102592) — 4→5（来源：dedup）
+- [Farzapedia：用个人日记和聊天记录打造可检索的个人 AI 维基](https://x.com/karpathy/status/2040572272944324650) — 5→4（来源：dedup）
+- [Gemini 3.1 Flash TTS 登陆 Google Vids，支持一键脚本转专业旁白](https://x.com/GoogleAI/status/2044447638511383024) — 5→4（来源：dedup）
+- [MiniMax M2.7模型开源发布](https://x.com/MiniMax_AI/status/2043132047397659000) — 4→5（来源：dedup）
+- [OpenAI DevDay门票抽奖](https://x.com/OpenAI/status/2049535650626785334) — 4→5（来源：dedup）
+- [Gemini Embedding 2多模态模型](https://x.com/GoogleAI/status/2049903687016063456) — 4→5（来源：dedup）
+
+### 📊 分类变更分布
+| 分类 | 新增 | 归档 | 评分调整 |
+|------|------|------|----------|
+| agent-frameworks | +2 | -0 | 0 |
+| agent-frameworks/harness-engineering | +3 | -0 | 0 |
+| agents | +0 | -2 | 0 |
+| agents/frameworks | +24 | -0 | 1 |
+| ai-tools | +26 | -0 | 5 |
+| coding | +3 | -1 | 0 |
+| content-creation | +1 | -0 | 0 |
+| industry | +1 | -1 | 0 |
+| learning | +0 | -2 | 0 |
+| learning/ai-courses | +0 | -1 | 0 |
+| models/models | +24 | -0 | 0 |
+| models/open-source | +0 | -0 | 1 |
+| prompt | +4 | -0 | 1 |
+| uncategorized | +39 | -0 | 0 |
+| workflow | +14 | -0 | 1 |
+
+### 📊 统计
+- 总条目: 852 → 852 (+0)
+- 活跃条目: 812 → 799 (-13)
+- 本周最高分新增: [Karpathy 力荐：用 LLM 打造个人知识库，科研工作流新范式](https://x.com/karpathy/status/2040470801506541998) ⭐5
+
 # Changelog
 
 ## 2026-04-20 ~ 2026-04-26
