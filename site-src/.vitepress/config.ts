@@ -21,7 +21,8 @@ export default defineConfig({
       { text: '🌍 行业观察 (54)', link: '/industry' },
       { text: '📖 学习资源 (115)', link: '/learning' },
     ],
-    // search: { provider: 'local' },  // Disabled: MiniSearch duplicate ID bug with 800+ pages
+    // search: { provider: 'local' }, // Disabled: MiniSearch duplicate ID bug
+    search: false,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Gracker/awesome-ai-field-notes' },
     ],
