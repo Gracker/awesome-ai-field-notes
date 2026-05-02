@@ -4,7 +4,7 @@ AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **50** 条活跃资源
 
 ## 📅 2026-04-27
 
-### [技术人员Basics](https://mp.weixin.qq.com/s?__biz=MzI3NDYwMDM4MQ==&mid=2247485131&idx=1&sn=e22c118eb9113c7fd5d1079eab608b5a&chksm=eafc6c369f0d45074d432f4f0dfcc64b51ce1ddeb9fa8f3a395e2600353a32937365c0fca2f6&mpshare=1&scene=1&srcid=0426wMuiKVjomqkNGsEEIRMz&sharer_shareinfo=7edad791b3d396347480ceeddd1e9fc4&sharer_shareinfo_first=7edad791b3d396347480ceeddd1e9fc4)
+### [技术人员Basics](/entry/e446406cb1) 📄
 @Thorsten Ball · ⭐⭐⭐3 🇨🇳 · 2026-04-27
 
 https://registerspill.thorstenball.com/p/the-basics翻译，送给初入职场的人。
@@ -13,7 +13,7 @@ https://registerspill.thorstenball.com/p/the-basics翻译，送给初入职场�
 
 ## 📅 2026-04-10
 
-### [What 81,000 People Want from AI（Anthropic 81K 访谈）](https://www.anthropic.com/features/81k-interviews)
+### [What 81,000 People Want from AI（Anthropic 81K 访谈）](/entry/l92x6515) 📄
 @Anthropic · ⭐⭐⭐⭐⭐5  · 2026-04-10
 
 Anthropic对80,508名Claude用户进行的大规模定性研究，覆盖159个国家、70种语言，是迄今最大规模的多语言定性AI调研。核心发现：人们希望从AI获得的九大愿景——专业卓越(18.8%)、个人转变(13.7%)、生活管理(13.5%)、时间自由(11.1%)、财务独立(9.7%)、社会转型(9.4%)、创业(8.7%)、学习成长(8.4%)、创意表达(5.6%)。81%的人认为AI已向愿景迈出一步。方法论创新在于用AI访谈员实现定性研究的规模化——兼顾深度与数量。
@@ -46,7 +46,7 @@ X（Twitter）文章与收藏内容抓取方案调研。核心挑战：X API收�
 
 ## 📅 2026-03-06
 
-### [2026-03-06-1628-GeekPlux-拥抱黑盒：一个研究者 All in AI 的实录与反思-2029761486671712745](https://x.com/geekplux/status/2029761486671712745)
+### [2026-03-06-1628-GeekPlux-拥抱黑盒：一个研究者 All in AI 的实录与反思-2029761486671712745](/entry/ov4yw4c3) 📄
 @GeekPlux · ⭐⭐⭐⭐⭐5  · 2026-03-06
 
 title: &quot;Tweet by @geekplux (Fri Mar 06 03:30:24 +0000 2026)&quot;
@@ -68,7 +68,7 @@ https://www.uscardforum.
 
 ## 📅 2026-03-05
 
-### [给人文工作者的 AI 使用指南](https://x.com/HanyangWang/status/2029362155607474359)
+### [给人文工作者的 AI 使用指南](/entry/rx7t9zxg) 📄
 @MasterPa · ⭐⭐⭐⭐4  · 2026-03-05
 
 人文工作者没有创造世界变化，但他们却在承受世界变化。
@@ -80,7 +80,7 @@ https://www.uscardforum.
 
 ---
 
-### [Anthropic 官方出品 Claude 101：一份从入门到上手的完整学习指南](https://x.com/GoSailGlobal/status/2029427735807050002)
+### [Anthropic 官方出品 Claude 101：一份从入门到上手的完整学习指南](/entry/bfk5atxz) 📄
 @JasonZhu · ⭐⭐⭐⭐4  · 2026-03-05
 
 Anthropic 最近在自家的教育平台 Anthropic Academy 上线了一门免费课程叫 Claude 101，总共 13 节课，从最基础的&quot;Claude 是什么&quot;一路讲到企业搜索、深度研究、自定义技能，覆盖了一个普通用户上手 Claude 需要知道的几乎所有东西。
@@ -95,7 +95,7 @@ Anthropic 最近在自家的教育平台 Anthropic Academy 上线了一门免费
 
 ## 📅 2026-03-04
 
-### [AI、矿产与澳洲经济：2026，澳洲能迎来“新国运”吗？](https://x.com/rwayne/status/2027720734211248573)
+### [AI、矿产与澳洲经济：2026，澳洲能迎来“新国运”吗？](/entry/lxpbe6h3) 📄
 @rwayne · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-04
 
 **By @rwayne** (Roland的思考日记) · Sat Feb 28 12:21:10 +0000 2026
@@ -111,7 +111,7 @@ AI、矿产与澳洲经济：2026，澳洲能迎来“新国运”吗？
 
 ---
 
-### [同一场 AI 革命，中美创业者却走向了两条路](https://x.com/wangray/status/2028817237411610964)
+### [同一场 AI 革命，中美创业者却走向了两条路](/entry/p2d1wlm8) 📄
 @wangray · ⭐⭐⭐⭐4  · 2026-03-04
 
 **By @wangray** (Ray Wang) · Tue Mar 03 12:58:17 +0000 2026
@@ -129,7 +129,7 @@ a16z 合伙人 Alex Immerman 最近写了一篇很有代表性的文章。他的
 
 ---
 
-### [苹果2026年新品：M5 Max MacBook Pro来了，AI性能提升很多啊！](https://x.com/vista8/status/2029044686133051414)
+### [苹果2026年新品：M5 Max MacBook Pro来了，AI性能提升很多啊！](/entry/3jzgfsym) 📄
 @vista8 · ⭐⭐⭐⭐4  · 2026-03-04
 
 **By @vista8** (向阳乔木) · Wed Mar 04 04:02:05 +0000 2026
@@ -154,7 +154,7 @@ LLM（大语言模型）的提示词处理速度快了 6.9 倍，AI 图像生成
 
 ## 📅 2026-03-03
 
-### [2026-03-03-0805-NavToor-Claude-Cowork-17-Best-Practices-2028148844891152554](https://x.com/heynavtoor/status/2028148844891152554)
+### [2026-03-03-0805-NavToor-Claude-Cowork-17-Best-Practices-2028148844891152554](/entry/ozubfvu1) 📄
 @NavToor · ⭐⭐⭐3  · 2026-03-03
 
 &gt; 归档说明：本次通过 X 已登录页面抓取到长文正文大段文本。受页面动态加载限制，末尾少量段落可能存在缺失，**待核实**。
@@ -169,7 +169,7 @@ In seven weeks, I’ve run over 400 Cowork sessions. I tested plugins, connector
 
 ## 📅 2026-03-02
 
-### [Agent工程=分布式系统工程（6支柱速读）](https://x.com/Stv_Lynn/status/2028288139777986713)
+### [Agent工程=分布式系统工程（6支柱速读）](/entry/26qoyo1c) 📄
 @Stv_Lynn · ⭐⭐⭐⭐4  · 2026-03-02
 
 这条长推文将 Agent 工程映射为分布式系统工程，强调 durability、isolation、governance、persistence、scale、composability 六个支柱，适合作为团队架构评审清单。
@@ -183,7 +183,7 @@ Agent 工程 = 分布式系统工程。这些问题（持久化、隔离、容�
 
 ---
 
-### [ruvnet/ruflo](https://github.com/ruvnet/ruflo")
+### [ruvnet/ruflo](/entry/e4of4uf4) 📄
 @ruvnet · ⭐⭐⭐3  · 2026-03-02
 
 Ruflo (formerly Claude Flow) positions itself as a production-ready multi-agent orchestration framework, with claims around 60+ specialized agents, swarm coordination, consensus, and self-learning loops.
@@ -195,7 +195,7 @@ Ruflo（前身 Claude Flow）将自己定位为生产可用的多 Agent 编排�
 
 ## 📅 2026-03-01
 
-### [从 MCP 到 SKILL（II）：把调用层补齐](https://x.com/jolestar/status/2027717523379261489)
+### [从 MCP 到 SKILL（II）：把调用层补齐](/entry/re3mcqtn) 📄
 @jolestar · ⭐⭐⭐⭐⭐5  · 2026-03-01
 
 从 MCP 到 SKILL（II）：把调用层补齐
@@ -211,7 +211,7 @@ SKILL 里用 curl 来演示当然能跑通，但这种方式可维护性差：�
 
 ---
 
-### [AI、矿产与澳洲经济：2026，澳洲能迎来&quot;新国运&quot;吗？](https://x.com/Stanleysobest/status/2027726669814136976)
+### [AI、矿产与澳洲经济：2026，澳洲能迎来&quot;新国运&quot;吗？](/entry/c3xq8hlt) 📄
 @Stanley · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-01
 
 约 8000 字深度分析 AI 重塑全球价值链利润分配。微笑曲线正在被 AI 改写：S&amp;P 500 无形资产占比从 1975 年的 17% 翻转到 2025 年的 92%。AI 推理成本 18 个月降 280 倍。杰文斯悖论在这一轮仍然成立但溢价分配方向彻底改变。&quot;会写代码&quot;从稀缺高薪技能变成廉价可复制能力。蛋糕变大了但切蛋糕的刀换了方向——切向物理世界（矿/电/芯片）。
@@ -220,7 +220,7 @@ SKILL 里用 curl 来演示当然能跑通，但这种方式可维护性差：�
 
 ---
 
-### [The Businesses That Will Own 2028 (And the Ones That Won&#x27;t Survive)](https://x.com/Zephyr_hg/status/2027774076673028371)
+### [The Businesses That Will Own 2028 (And the Ones That Won&#x27;t Survive)](/entry/9z9o90bz) 📄
 @Zephyr_hg · ⭐⭐⭐⭐⭐5  · 2026-03-01
 
 There&#x27;s a quiet shift happening right now. Some business models are about to explode. Others are already dying, they just don&#x27;t know it yet. Here&#x27;s how to tell the difference.
@@ -232,7 +232,7 @@ Two years from now, the business landscape is going to look completely different
 
 ---
 
-### [读霍华德·马克斯的《AI Hurtles Ahead》有感](https://x.com/RichTerry123/status/2027639530820669704)
+### [读霍华德·马克斯的《AI Hurtles Ahead》有感](/entry/7j2ija36) 📄
 @RichTerry123 · ⭐⭐⭐3  · 2026-03-01
 
 **By @RichTerry123** (Terry) · Sat Feb 28 06:58:30 +0000 2026
@@ -252,7 +252,7 @@ AI 是真实存在的，过去，金融行业，乃至很多知识密集型行�
 
 ## 📅 2026-02-28
 
-### [Karpathy：高度定制软件时代的到来](https://x.com/karpathy/status/2024583544157458452)
+### [Karpathy：高度定制软件时代的到来](/entry/rnjpbgtm) 📄
 @Andrej Karpathy · ⭐⭐⭐⭐⭐5 🌐 · 2026-02-28
 
 Karpathy 用 1 小时 vibe code 了一个个人有氧运动追踪仪表板（~300 行代码），Claude 逆向了 Woodway 跑步机云 API。核心观点：1）App Store 的离散应用长尾概念已过时，LLM Agent 可以当场即兴创建定制应用；2）行业需要重配置为 Agent 原生的传感器和执行器服务。现在 1 小时完成的事，2 年前需要 10 小时，但理想状态应该是 1 分钟。99% 的产品还没有 AI 原生 CLI。
@@ -261,7 +261,7 @@ Karpathy 用 1 小时 vibe code 了一个个人有氧运动追踪仪表板（~30
 
 ---
 
-### [软件的未来并非你所想](https://x.com/szslg/status/2027198886981587407)
+### [软件的未来并非你所想](/entry/pxejvdmr) 📄
 @苏里格 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-28
 
 前 Meta AI 负责人、现 Airbnb CTO Ahmad Al-Dahle 的观点。AI 不会取代软件工程师但职业将剧烈变化。三个转变：工程师-产品思考者崛起（理解为什么比如何实现更重要）、系统思维胜过代码流利度（跨基础设施/分布/激励/二阶效应推理）、品味作为技术技能（工具变好后有品味的工程师价值只增不减）。代码始终是媒介，判断力始终是手艺。
@@ -270,7 +270,7 @@ Karpathy 用 1 小时 vibe code 了一个个人有氧运动追踪仪表板（~30
 
 ---
 
-### [How to set up Claude Cowork the right way](https://x.com/heynavtoor/status/2026717574776631556)
+### [How to set up Claude Cowork the right way](/entry/n7gu2chx) 📄
 @Nav Toor · ⭐⭐⭐⭐4 🌐 · 2026-02-28
 
 Claude Cowork 的完整设置指南。Cowork 不是聊天机器人——它在你离开时帮你完成工作。作者三年构建 AI 工作流的经验总结，覆盖每个功能、每个设置步骤、第一个提示词、以及诚实的不足之处。Cowork 成了每天早上打开的第一件事。17,837 likes / 81,645 bookmarks。
@@ -279,7 +279,7 @@ Claude Cowork 的完整设置指南。Cowork 不是聊天机器人——它在�
 
 ---
 
-### [Jack Dorsey Block 裁员备忘录：AI 让组织变小](https://x.com/jack/status/2027129697092731343)
+### [Jack Dorsey Block 裁员备忘录：AI 让组织变小](/entry/kr3zm1t7) 📄
 @jack · ⭐⭐⭐⭐4 🌐 · 2026-02-28
 
 Jack Dorsey 裁员 4000+ 人（10000→6000）的内部备忘录。不是因为公司亏损（毛利在涨），而是 AI 让更小更扁平的团队成为可能。选择一次性到位而非分批裁员。对未来团队的定位：以智能为核心构建公司的一切方式。50,414 likes / 60M+ views。
@@ -288,7 +288,7 @@ Jack Dorsey 裁员 4000+ 人（10000→6000）的内部备忘录。不是因为�
 
 ---
 
-### [別當金色尋回犬：Block 裁 4000 人，微軟暴跌後，我看到的三件事](https://x.com/mike_chong_zh/status/2027228656951803914)
+### [別當金色尋回犬：Block 裁 4000 人，微軟暴跌後，我看到的三件事](/entry/25ntvqhu) 📄
 @迈克 Mike Chong · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-28
 
 Block 裁 4000 人的三个观察：一、&quot;金色寻回犬&quot;时代结束——听话勤快按流程做事的人恰是 LLM 最强能力；二、薪资正在两极分化且速度吓人，AI coding 占比从 20-30% 到接近 99%；三、未来是能做判断的人 vs 只能跑流程的人的分野。作者前微软 5 年员工的一线观察。
@@ -299,7 +299,7 @@ Block 裁 4000 人的三个观察：一、&quot;金色寻回犬&quot;时代结�
 
 ## 📅 2026-02-27
 
-### [Anthropic CEO Dario Amodei：海啸已在地平线上，但没人在看](https://x.com/dotey/status/2027265200781402351)
+### [Anthropic CEO Dario Amodei：海啸已在地平线上，但没人在看](/entry/tdztvvhy) 📄
 @dotey · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-27
 
 Anthropic CEO Dario Amodei 在印度班加罗尔的深度访谈要点：2019 年 GPT-2 阶段就看到 scaling laws；2022 年 ChatGPT 发布前 Anthropic 有 Claude 早期版本但选择不发避免军备竞赛；技术安全比预期好但社会认知比预期差；写代码率先被 AI 替代；创业者不要做 Claude 套壳要建壁垒；看好 AI 驱动的生物科技。Anthropic 估值 3800 亿美元，年化收入 140 亿。
@@ -310,7 +310,7 @@ Anthropic CEO Dario Amodei 在印度班加罗尔的深度访谈要点：2019 年
 
 ## 📅 2026-02-26
 
-### [2026年AI趋势观察：模型飞轮、应用爆发与个人发展](https://mp.weixin.qq.com/s/D98rfJX1NZmAD4xxs1h-Xg?scene=1)
+### [2026年AI趋势观察：模型飞轮、应用爆发与个人发展](/entry/o2e1sj9n) 📄
 @向阳乔木 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-02-26
 
 长文系统分析 2026 年 AI 趋势。模型两条线：大语言模型智力线（推理模型→agentic能力→agent team内化）和多模态生成线（技术门槛被内化到模型）。数据飞轮驱动模型持续变强。应用层机会：通用/垂直 Agent、Agent 基建（API/MCP/Skills）。多模态创作门槛消失（ComfyUI 不再需要学）。对个人建议：判断力 &gt; 代码流利度，品味是真正的护城河。
@@ -319,7 +319,7 @@ Anthropic CEO Dario Amodei 在印度班加罗尔的深度访谈要点：2019 年
 
 ---
 
-### [过了个年，AI 圈变天了？但没人告诉你为什么](https://x.com/op7418/article/2026520431700881816)
+### [过了个年，AI 圈变天了？但没人告诉你为什么](/entry/1xbvfmd0) 📄
 @歸藏 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-02-26
 
 系统拆解 2026 年初 AI 变化的四层结构：大脑（推理模型→agentic能力→agent team 内化到模型）、手脚（工具/沙箱/浏览器）、组织（多 Agent 协作与上下文专业化）、进化（数据飞轮：模型→agent→反馈→更强模型）。核心规律：模型与脚手架关系是循环，模型先出→agent→multi agent→内化到模型。AI 自我迭代已开始（Claude Code 用 Claude Code 迭代自己）。应用层方向：通用/垂直 Agent、Agent 基建、多模态内容。
@@ -330,7 +330,7 @@ Anthropic CEO Dario Amodei 在印度班加罗尔的深度访谈要点：2019 年
 
 ## 📅 2026-02-23
 
-### [THE 2028 GLOBAL INTELLIGENCE CRISIS](https://www.citriniresearch.com/p/2028gic)
+### [THE 2028 GLOBAL INTELLIGENCE CRISIS](/entry/2xx72sp5) 📄
 @Citrini · ⭐⭐⭐⭐⭐5  · 2026-02-23
 
 情景推演（非预测）：假设到 2028 年，失业率达 10.2%，标普 500 自高点回撤 38%。核心概念&quot;幽灵 GDP&quot;：AI 驱动的产出计入国民经济账户但不流入真实经济循环。形成&quot;人类智能替代螺旋&quot;——没有自然刹车机制的负反馈循环。AI agent 几周内复刻中型 SaaS 产品核心功能，SaaS 定价权受压。单个公司应对理性，集体叠加灾难性。
@@ -339,7 +339,7 @@ Anthropic CEO Dario Amodei 在印度班加罗尔的深度访谈要点：2019 年
 
 ---
 
-### [别再刷了——ClawFeed 帮我每天 5 分钟搞定 5000 人的信息流](https://x.com/0xkevinhe/status/2025781752971809010)
+### [别再刷了——ClawFeed 帮我每天 5 分钟搞定 5000 人的信息流](/entry/99c1asrp) 📄
 @Kevin He · ⭐⭐⭐3 🇨🇳 · 2026-02-23
 
 5000 followings 下的信息过载解决方案：用自动化筛选与分层阅读替代手动刷流。ClawFeed 帮助在极短时间内完成筛选与吸收，提升信息密度与决策效率。内容较简短，为摘要归档。
@@ -350,7 +350,7 @@ Anthropic CEO Dario Amodei 在印度班加罗尔的深度访谈要点：2019 年
 
 ## 📅 2026-01-28
 
-### [Sam Altman 与开发者的一小时：GPT-5 搞砸了、招聘放缓、以及 2026 年最担心的事](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247492537&idx=1&sn=6d7033b1f9d94c9b77977840e039d4c1)
+### [Sam Altman 与开发者的一小时：GPT-5 搞砸了、招聘放缓、以及 2026 年最担心的事](/entry/af561ck4) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-28
 
 Sam Altman 在 OpenAI 开发者 Town Hall 上的坦率对话，23个话题。承认 GPT-5 写作翻车、大幅放缓招聘、警告生物安全。核心观点：软件工程杰文斯悖论、GTM 仍是最大挑战、多 Agent 编排界面未定、AI 大规模通缩。个性化软件是未来方向。
@@ -361,7 +361,7 @@ Sam Altman 在 OpenAI 开发者 Town Hall 上的坦率对话，23个话题。承
 
 ## 📅 2026-01-04
 
-### [2025年的年终总结 | MkSaaS - Make Your AI SaaS Product in a Weekend](https://mksaas.com/blog/2025)
+### [2025年的年终总结 | MkSaaS - Make Your AI SaaS Product in a Weekend](/entry/9j1ds5wp) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-04
 
 2025年的年终总结 | MkSaaS - Make Your AI SaaS Product in a Weekend
@@ -377,7 +377,7 @@ Read Original
 
 ## 📅 2025-10-18
 
-### [从ChatGPT到AI Agent，一文讲透 Agent 的底层逻辑](https://mp.weixin.qq.com/s?__biz=MjM5MDgzNDUxMw==&mid=2650854097&idx=1&sn=cd83a491be6ad1b7b8f9e658c9b9c7d5&chksm=bcc04e56690831c0b2c0040c13564c4d484609728be1bd080079e0659bda8aecbab4dde1ada8&mpshare=1&scene=1&srcid=1018VkzUDQKJWONF0WXgdaoJ&sharer_shareinfo=26505e8c65d8831fe66fced92ca14dd5&sharer_shareinfo_first=26505e8c65d8831fe66fced92ca14dd5)
+### [从ChatGPT到AI Agent，一文讲透 Agent 的底层逻辑](/entry/P4BtzGJn) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-10-18
 
 和许多团队交流后我发现，对 agentic 循环过程的体感缺失和理解，让有人认为存在某种神迹让 Agent 有超越模型智力的表现，有人说无非是多调用几次 API，哪有那么神奇。本文旨在通过示例和理论来帮助大家理解 Agent的底层逻辑。
@@ -395,7 +395,7 @@ Read Original
 
 ## 📅 2025-07-25
 
-### [爆肝一周看6小时长视频，解读AI时代程序员价值几何](https://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&mid=2650732185&idx=1&sn=22dde4ca73efa70a54696eebc1e68478&chksm=bf5e2568535054b3dd5b3e15b0748781523e043e83eca00edd09070de03a33a02a56e95fca0a&mpshare=1&scene=1&srcid=07253za2sjiTrH4bxJs7xmnr&sharer_shareinfo=857d696c11b801dda3d552a9025bb8b3&sharer_shareinfo_first=857d696c11b801dda3d552a9025bb8b3)
+### [爆肝一周看6小时长视频，解读AI时代程序员价值几何](/entry/mALGQqbB) 📄
 ⭐⭐⭐3 🇨🇳 · 2025-07-25
 
 **AI 和短视频时代，我看到很多人说自己没有时间读书，没时间看长视频，甚至看不了电影，因为太慢太长了。首先我不知道他们的时间都用在什么地方了，其次我喜欢反其道行之。这些年我购买和阅读大量的纸书，看长视频，写作，看电影，设计产品，徒步摄影，这些都需要我长时间专注做一件事。**
@@ -413,7 +413,7 @@ Read Original
 
 ## 📅 2025-03-26
 
-### [Leading Effective Engineering Teams in the Age of GenAI](https://t.co/O0CF6CE9Il)
+### [Leading Effective Engineering Teams in the Age of GenAI](/entry/e1k3ik20) 📄
 ⭐⭐⭐3 🌐 · 2025-03-26
 
 面向软件工程管理者的 GenAI 时代领导力指南。核心论点：AI 不是写更多代码更快，而是构建更好的软件。提出 70% 问题：AI 能处理约 70% 的常规工作（如样板代码），但关键的 30%（边界情况、性能优化、领域逻辑）仍需人类专业知识。知识悖论：AI 目前更受益于有经验的开发者（能判断 AI 输出质量），而非初学者（可能盲目接受错误方案）。9 条管理建议包括：trust but verify、投资核心技能、防止技能退化、不以速度作为唯一度量。
@@ -424,7 +424,7 @@ Read Original
 
 ## 📅 2025-01-20
 
-### [月刊（第28期）：AI 没有体验世界的能力 - Airing 的博客](https://blog.ursb.me/posts/weekly-28/)
+### [月刊（第28期）：AI 没有体验世界的能力 - Airing 的博客](/entry/eLRMGrp7) 📄
 ⭐⭐⭐3 🇨🇳 · 2025-01-20
 
 本篇是对二〇二四年十一月至十二月的记录与思考。 AI 没有体验世界的能力 MoFlow 于昨夜——2024 的跨年夜上线了 App Store，这标识着这三个月的忙碌换得了一个阶段性的结果。于是，我终于有时间来写写月刊了。 在做 MoFlo...
@@ -433,7 +433,7 @@ Read Original
 
 ## 📅 2025-01-08
 
-### [译：我是如何利用 LLM 进行编程的 – 云谦的博客](https://sorrycc.com/how-i-program-with-llms/)
+### [译：我是如何利用 LLM 进行编程的 – 云谦的博客](/entry/DdX7I8qz) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-01-08
 
 &gt; 原文：&lt;https://crawshaw.io/blog/programming-with-llms&gt;   &gt; 作者：David Crawshaw   &gt; 译者：ChatGPT 4 Turbo
@@ -451,7 +451,7 @@ Microsoft：Phi-3 Vision 4.2b，支持 文本、图像输入，可以运行在 s
 
 ## 📅 2024-06-26
 
-### [端侧AI，为什么这么火？](https://mp.weixin.qq.com/s?__biz=MzI1NTA0MDUyMA==&mid=2456698005&idx=1&sn=9419c5bd379ebabeb07a05a5cf6fd945&chksm=fda691f2cad118e44077d05405b24b07b2a9305356afd441768c2c532d7d0978be6a62a7545b&mpshare=1&scene=1&srcid=0626UFmqBNazETNAVXkL6w8e&sharer_shareinfo=c476af78a2d1af78026a5f2e23da6225&sharer_shareinfo_first=c476af78a2d1af78026a5f2e23da6225)
+### [端侧AI，为什么这么火？](/entry/sfPTt5Ja) 📄
 ⭐⭐⭐3 🇨🇳 · 2024-06-26
 
 想要赋能用户，当然就离不开终端抓手。我们明显可以看到，端侧AI的发展正在成为市场关注的焦点。除了集成本地大模型的AI手机大量出现之外，AI PC的概念也不断走红。
@@ -460,7 +460,7 @@ Microsoft：Phi-3 Vision 4.2b，支持 文本、图像输入，可以运行在 s
 
 ## 📅 2024-06-13
 
-### [手搓AI智能体实战经验](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649784031&idx=1&sn=9b01de078e4c8c5a8b763ece5ce4fd86&chksm=becceda489bb64b2cde1e3e4a49d778b7eaaae1a20c514431a6234c3cb0e7c24056584a9f4f5&mpshare=1&scene=1&srcid=0613npL9L96z00VHzXJwsbCm&sharer_shareinfo=4d6a8fda33d8f296efafa774b9ab7420&sharer_shareinfo_first=4d6a8fda33d8f296efafa774b9ab7420)
+### [手搓AI智能体实战经验](/entry/bbKeXzN9) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-06-13
 
 Cubox 收藏 — 手搓AI智能体实战经验
@@ -469,7 +469,7 @@ Cubox 收藏 — 手搓AI智能体实战经验
 
 ## 📅 2024-02-29
 
-### [[AI里程碑] AiPhone is coming | AI+手机时代已来](https://mp.weixin.qq.com/s?__biz=Mzk0MDUyNzkzMw==&mid=2247485322&idx=1&sn=0934935b31701e9ab3f140cdd9c9c2ca&chksm=c2e11fd8f59696ce3930016c852212c42ac273940c3e75eccbe632f126ed7c9ee00385524102&mpshare=1&scene=1&srcid=0229JJfXHfjlzQNRrE2pVsJX&sharer_shareinfo=ea86b377405c484f019a88b9b7aefdc1&sharer_shareinfo_first=ea86b377405c484f019a88b9b7aefdc1)
+### [[AI里程碑] AiPhone is coming | AI+手机时代已来](/entry/iXcRwjIp) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-02-29
 
 **\[AI Milestone\] AiPhone is coming \| AI+手机时代已来** &gt; **2024年1月18日，三星正式推出了Galaxy S24系列机型，成为全球首款AI手机，从此Galaxy S24超越智能手机时代，将开创新的移动AI手机时代。这是自2007年苹果创始人史蒂夫·乔布斯发布首款iPhone后，智能手机的最强进化。**本文主要介绍三星AI手机中涉及到的AI黑科技及原理，以及对AiPhone（AI+Phone）的未来趋势的一点点思考。
@@ -478,7 +478,7 @@ Cubox 收藏 — 手搓AI智能体实战经验
 
 ## 📅 2023-12-01
 
-### [Notion AI 背后的关键时刻与决策](https://mp.weixin.qq.com/s?__biz=MzAwOTUwNzI1Ng==&mid=2247484017&idx=1&sn=2cdca777d3406ed17c354cdb7ca33af3)
+### [Notion AI 背后的关键时刻与决策](/entry/th1krdfe) 📄
 ⭐⭐⭐3 🇨🇳 · 2023-12-01
 
 Notion 联合创始人回顾 Notion AI 从原型到发布的关键决策。2019 年接触 GPT-3 演示时印象不深，2022 年秋季获得 GPT-4 早期访问后决定全力投入。关键产品决策：1) 创建全新 AI 写作 UI 而非简单表单；2) 平衡预包装提示和通用文本输入；3) 用空格键而非 / 命令作为 AI 入口（实现无处不在的访问）。团队在酒店房间用竹签牌画 UI 原型，一周内完成 alpha 版本。发布首周 200 万人注册申请。
@@ -489,7 +489,7 @@ Notion 联合创始人回顾 Notion AI 从原型到发布的关键决策。2019 
 
 ## 📅 2023-11-12
 
-### [【活动报名】DevFest23&#x27;日程公布：Android、Web、机器学习分会场](https://mp.weixin.qq.com/s?__biz=MzA5MDg3MjczMg==&mid=2652008346&idx=1&sn=f1163d489dafcef7556c3132775971d1&chksm=8be3c169bc94487f4a453f432100fffd6bbfffcc0cb73f666290d8e0aada8c4bd27f5eb84bf9&mpshare=1&scene=1&srcid=1112uPYwzwRS34sZufElsmG7&sharer_shareinfo=04b553e40c35860f7446972755f949ad&sharer_shareinfo_first=04b553e40c35860f7446972755f949ad)
+### [【活动报名】DevFest23&#x27;日程公布：Android、Web、机器学习分会场](/entry/zRr0rcvY) 📄
 ⭐⭐⭐3 🇨🇳 · 2023-11-12
 
 Cubox 收藏 — 【活动报名】DevFest23&#x27;日程公布：Android、Web、机器学习分会场
@@ -516,7 +516,7 @@ Cubox 收藏 — 【活动报名】DevFest23&#x27;日程公布：Android、Web�
 
 ## 📅 2023-04-24
 
-### [陆奇最新演讲实录：我的大模型世界观](https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691527820&idx=1&sn=8ee7d9d882bd2b51da9b2c219ed764a1&chksm=a9eccb579e9b4241b862531f426ca2885d291f500a8d09eecc74663bd30b3aa32c6d4544441c&mpshare=1&scene=1&srcid=0423l9oLd5cj7i1ZrlxYEMwn&sharer_sharetime=1682303770580&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [陆奇最新演讲实录：我的大模型世界观](/entry/7wc3T3GQ) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-04-24
 
 Cubox 收藏 — 陆奇最新演讲实录：我的大模型世界观
@@ -525,7 +525,7 @@ Cubox 收藏 — 陆奇最新演讲实录：我的大模型世界观
 
 ## 📅 2023-03-15
 
-### [面向 ChatGPT 开发 ，我是如何被 AI 从 “逼疯” 到 “觉悟” ，未来又如何落地](https://mp.weixin.qq.com/s?__biz=Mzg3NTA3MDIxOA==&mid=2247489654&idx=1&sn=27b74f1a974dbacf606a402fa8186749&chksm=cec64e13f9b1c705d967677d2793f6b081cd0de2bc14a8858e71f097988423f4c248bebf78a8&mpshare=1&scene=1&srcid=03155DogT96ESccYOfMY8Owi&sharer_sharetime=1678862931089&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [面向 ChatGPT 开发 ，我是如何被 AI 从 “逼疯” 到 “觉悟” ，未来又如何落地](/entry/nkDGIhK7) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-03-15
 
 对于 ChatGPT 如今大家应该都不陌生，经过这么长时间的「调戏」，相信大家应该都感受用 ChatGPT
@@ -534,7 +534,7 @@ Cubox 收藏 — 陆奇最新演讲实录：我的大模型世界观
 
 ## 📅 2023-02-20
 
-### [ChatGPT的工作原理，这篇文章说清楚了](https://mp.weixin.qq.com/s?__biz=Mzg5Mjc3MjIyMA==&mid=2247559664&idx=1&sn=f5278b02015b4eb6b01787c035ca051c&chksm=c03aa3e3f74d2af5ad0a0564919d1d4b6b3516731f82c1e5084d8fc3282e1ae87a6b937d162e&mpshare=1&scene=1&srcid=0219oul5fQOneTCeX4NZ0vLe&sharer_sharetime=1676856831108&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
+### [ChatGPT的工作原理，这篇文章说清楚了](/entry/z8jjvpnw) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-02-20
 
 # ChatGPT的工作原理，这篇文章说清楚了 ChatGPT 能够自动生成一些读起来表面上甚至像人写的文字的东西，这非常了不起，而且出乎意料。但它是如何做到的？为什么它能发挥作用？我在这里的目的是大致介绍一下 ChatGPT 内部的情况，然后探讨一下为什么它能很好地生成我们认为是有意义的文本。 我首先要说明一下，我将把重点放在正在发生的事情的大的方向上，虽然我会提到一些工程细节，但我不会深入研究它们。（我所说的实质内容也同样适用于目前其他的 &quot;大型语言模型&quot; LLM 和 ChatGPT）。 首先要解释的是，ChatGPT 从根本上说总是试图对它目前得到的任何文本进行 &quot;合理的延续&quot;，这里的 ...
@@ -545,7 +545,7 @@ Cubox 收藏 — 陆奇最新演讲实录：我的大模型世界观
 
 ## 📅 2023-02-17
 
-### [The AI Arms Race Is On. Start Worrying](https://time.com/6255952/ai-impact-chatgpt-microsoft-google/)
+### [The AI Arms Race Is On. Start Worrying](/entry/eW0H313o) 📄
 ⭐⭐⭐⭐4 🌐 · 2023-02-17
 
 [需翻译] Tech companies are moving fast on AI. That could prove catastrophic
@@ -563,7 +563,7 @@ Cubox 收藏 — 陆奇最新演讲实录：我的大模型世界观
 
 ## 📅 2020-09-18
 
-### [Seeing Like an Algorithm](https://www.eugenewei.com/blog/2020/9/18/seeing-like-an-algorithm)
+### [Seeing Like an Algorithm](/entry/qi4k0joz) 📄
 @Eugene Wei · ⭐⭐⭐⭐4 🌐 · 2020-09-18
 
 Eugene Wei 从《Seeing Like a State》出发分析 TikTok 产品设计如何帮助算法&#x27;看见&#x27;。核心论点：TikTok 成为自己的训练数据来源，产品设计创造了训练数据闭环。为所有想利用 ML 算法的公司提供产品设计范式。

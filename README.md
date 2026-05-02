@@ -1,30 +1,30 @@
 # AI Field Notes
 
-> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。633 条，中英双语。
+> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。844 条，中英双语。
 
 ## 🆕 今日推荐 Top 10
 
-- [Research we co-authored on subliminal learning—...](https://x.com/AnthropicAI/status/2044493337835802948) ⭐4 · 2026-04-17 — Research we co-authored on ...
-- [This is a great report that provides a thoughtf...](https://x.com/geoffreyhinton/status/2019532085233611207) ⭐5 · 2026-04-17 — This is a great report that...
-- [Movement Matters – A Turing Test for Robot Inte...](https://x.com/petitegeek/status/1953082338029781441) ⭐5 · 2026-04-17 — Movement Matters – A Turing...
-- [Our most expressive and steerable TTS model yet...](https://x.com/demishassabis/status/2044599020690010217) ⭐6 · 2026-04-17 — Our most expressive and ste...
-- [There&#x27;s a difference between using AI and build...](https://x.com/alliekmiller/status/1985834763677286606) ⭐12 · 2026-04-17 — There&#x27;s a difference betwee...
-- [使用 Claude Code：会话管理与 100 万 上下文](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247494620&idx=1&sn=21e3dd0dff3cf2c79222351ff4f5e4fb) ⭐3 · 2026-04-16 — Claude Code 官方出品的最完整会话管理指南，/rewind 和 /compact 的用法细节是日常高频操作，值得反复看。
-- [字节最火的开源Agent项目，如何思考Agent的自我进化？](https://mp.weixin.qq.com/s?__biz=Mzg5NTc0MjgwMw==&mid=2247523832&idx=1&sn=8a7013894ddc0668c0f1c9f935599450) ⭐4 · 2026-04-16 — 把 Agent 持续学习拆解为 Model/Harness/Context 三层框架，是今年最有实操价值的 Agent 工程认知升级。
-- [KV Cache 深度解析：为什么 LLM 第一个 Token 最慢](https://mp.weixin.qq.com/s?__biz=Mzk3NTE2OTYwNg==&mid=2247485162&idx=1&sn=bddd5fe311f3ab35eb78083c155b7d84) ⭐4 · 2026-04-16 — 把 KV Cache 和 TTFT 讲得最透的一篇，配有丰富的动图解释，适合所有做 LLM 推理服务的工程师精读。
-- [OpenClaw 落地到生产实际应用的一种可能的路径](https://mp.weixin.qq.com/s?__biz=MzI4NjY4MTU5Nw==&mid=2247506280&idx=1&sn=0c1da4e8244650bb8e69bf3aecf723c3) ⭐4 · 2026-04-16 — 把业务 Agent 落地问题归结为把开放世界改造成代码世界那样的封闭工程空间，这个框架对所有想做生产级 Agent 的人都有参考价值。
-- [The AI Knowledge Layer: Making Every Agent Smarter](https://x.com/shannholmberg/status/2044111115878326444) ⭐3 · 2026-04-15 — Karpathy 式知识管理的工程化落地：20 分钟搭建让 Agent 真正&#x27;认识你&#x27;的知识层
+- [AI Fast Track: 5天免费课程 手把手教你从用AI到用AI构建产品](https://x.com/alliekmiller/status/1985834763677286606) ⭐5 · 2026-05-02 — Allie K. Miller 推出免费5天课程 教你不用写代码也能构建个人AI软件和自动化工具
+- [OpenAI DevDay 2026 定档9月29日旧金山 GPT-5.5开发赢早期门票](https://x.com/OpenAI/status/2049535650626785334) ⭐5 · 2026-05-02 — OpenAI 官方宣布 DevDay 回归 用 GPT-5.5 + Image Gen 开发项目即可赢取免费门票
+- [Gemini Embedding 2 正式发布:原生多模态Embedding模型 支持视频分析与视觉购物助手](https://x.com/GoogleAI/status/2049903687016063456) ⭐5 · 2026-05-02 — Google 发布首个原生多模态 Embedding 模型 Gemini Embedding 2 已向公众开放
+- [Tibo独家复盘:9次失败产品后如何做到100万美金/月 五款AI产品从0到1方法论](https://x.com/petergyang/status/2050223374421647382) ⭐5 · 2026-05-02 — 独立开发者 Tibo 复盘5款AI产品做到100万美金/月 快速验证快速失败是核心
+- [MiniMax M2.7 开源但非OSI认可开源:许可协议禁止商用引发争议](https://x.com/MiniMax_AI/status/2043132047397659000) ⭐5 · 2026-05-02 — MiniMax M2.7 模型权重公开但许可协议禁止商用 不符合OSI开源定义
+- [Hinton推荐国际AI安全报告2026:AI风险领域最全面的循证评估](https://x.com/geoffreyhinton/status/2019532085233611207) ⭐5 · 2026-05-02 — Geoffrey Hinton 推荐 Yoshua Bengio 发布的 International AI Safety Report 2026
+- [吴恩达推出新课《AI Prompting for Everyone》:跨模型通用提示工程技巧](https://x.com/AndrewYNg/status/2049886895530967534) ⭐5 · 2026-05-02 — 吴恩达推出新免费课程 教授跨 ChatGPT/Gemini/Claude 的通用提示工程技巧
+- [Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents](https://blog.jetbrains.com/ai/2026/04/introducing-koog-integration-for-spring-ai-smarter-orchestration-for-your-agents/>) ⭐3 · 2026-05-01 — 有参考价值的frameworks内容
+- [Scaling Managed Agents: Decoupling the brain from the hands](#) ⭐3 · 2026-05-01 — 有参考价值的frameworks内容
+- [English](#) ⭐3 · 2026-05-01 — 有参考价值的uncategorized内容
 
 ## 分类导航
 
 | 分类 | 数量 | 说明 |
 |------|------|------|
-| 🧠 模型 | 95 | GPT / Claude / Gemini / 开源模型 / 架构 |
-| 🤖 智能体 | 106 | Agent 框架 / MCP / A2A / 手机&桌面助手 |
-| 💻 AI编程 | 165 | IDE / CLI / 代码审查 / 工作流 |
+| 🧠 模型 | 94 | GPT / Claude / Gemini / 开源模型 / 架构 |
+| 🤖 智能体 | 105 | Agent 框架 / MCP / A2A / 手机&桌面助手 |
+| 💻 AI编程 | 167 | IDE / CLI / 代码审查 / 工作流 |
 | ⚡ 基础设施 | 60 | 推理部署 / RAG / 微调 / 评测 / 多模态 |
-| 🌍 行业观察 | 55 | AI 产品 / 大厂战略 / 融资 / 市场分析 |
-| 📖 学习资源 | 116 | 教程 / 论文 / 提示工程 / 演讲 |
+| 🌍 行业观察 | 54 | AI 产品 / 大厂战略 / 融资 / 市场分析 |
+| 📖 学习资源 | 115 | 教程 / 论文 / 提示工程 / 演讲 |
 
 ## 评分标准
 

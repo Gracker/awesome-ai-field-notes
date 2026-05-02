@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI Field Notes
   text: AI 领域精选资源导航
-  tagline: 有观点 · 有评分 · 每日自动更新 · 857 条 · 16 篇有全文
+  tagline: 有观点 · 有评分 · 每日自动更新 · 844 条 · 750 篇有全文
   actions:
     - theme: brand
       text: 浏览全部
@@ -36,72 +36,86 @@ features:
 
 ## 🆕 最新 10 篇
 
-### [Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents](https://blog.jetbrains.com/ai/2026/04/introducing-koog-integration-for-spring-ai-smarter-orchestration-for-your-agents/>)
-⭐⭐⭐3 🌐 · 今天
+### [AI Fast Track: 5天免费课程 手把手教你从用AI到用AI构建产品](https://x.com/alliekmiller/status/1985834763677286606)
+@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+
+There&#x27;s a difference between using AI and building with it. Copy-pasting ChatGPT prompts will only get you so far. I want to help you learn to build personal AI software, automations, and tools that actually solve your problems. The AI Fast Track is a free 5-day course. Tens of thousands have taken it.
+
+`x` `ai-tools` `ai-tools`
+
+---
+
+### [OpenAI DevDay 2026 定档9月29日旧金山 GPT-5.5开发赢早期门票](https://x.com/OpenAI/status/2049535650626785334)
+@@OpenAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+
+OpenAI DevDay is back. San Francisco September 29. Want to secure an early ticket? Build something with GPT-5.5 and Image Gen. Each week, 2-3 favorites win free tickets. Codex helps find best submissions.
+
+`x` `ai-tools` `ai-tools`
+
+---
+
+### [Gemini Embedding 2 正式发布:原生多模态Embedding模型 支持视频分析与视觉购物助手](https://x.com/GoogleAI/status/2049903687016063456)
+@@GoogleAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+
+Last week we made Gemini Embedding 2, our first natively multimodal embedding model, available to the general public. Developers have used it to build video analysis tools, visual shopping assistants, and more. What is an embedding model? Thread
+
+`x` `ai-tools` `ai-tools`
+
+---
+
+### [Tibo独家复盘:9次失败产品后如何做到100万美金/月 五款AI产品从0到1方法论](https://x.com/petergyang/status/2050223374421647382)
+@@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+
+I shipped 9 failed products before one took off...now I&#x27;m doing $1M+/month. Interview with @tibo_maker - a solo founder who bootstrapped 5 AI products to $1M+/month. Tibo walked through his exact playbook: How to validate ideas and fail fast, Why his top 3 AI products worked.
+
+`x` `ai-tools` `workflow`
+
+---
+
+### [MiniMax M2.7 开源但非OSI认可开源:许可协议禁止商用引发争议](https://x.com/MiniMax_AI/status/2043132047397659000)
+@@MiniMax_AI · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+
+MiniMax M2.7 model weights are publicly available, but under a license prohibiting commercial use without authorization. This does not meet the Open Source Initiative&#x27;s definition of open source, which requires allowing commercial use.
+
+`x` `ai-tools` `ai-tools`
+
+---
+
+### [Hinton推荐国际AI安全报告2026:AI风险领域最全面的循证评估](https://x.com/geoffreyhinton/status/2019532085233611207)
+@@geoffreyhinton · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+
+This is a great report that provides a thoughtful, detailed and very well researched description of the risks of AI. It is essential reading for anyone who wants to write or talk about AI risks. Referencing: International AI Safety Report 2026 by Yoshua Bengio.
+
+`x` `ai-tools` `ai-tools`
+
+---
+
+### [吴恩达推出新课《AI Prompting for Everyone》:跨模型通用提示工程技巧](https://x.com/AndrewYNg/status/2049886895530967534)
+@@AndrewYNg · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+
+How we prompt AI is very different in 2026 than 2022 when ChatGPT came out. I&#x27;m teaching a new course, AI Prompting for Everyone, to help you become an AI power user - whatever your current skill level. It covers skills that apply across ChatGPT, Gemini, Claude, and other AI.
+
+`x` `ai-tools` `prompt`
+
+---
+
+### [Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents](/entry/9dc05bac) 📄
+⭐⭐⭐3 🌐 · 昨天
 
 --- title: &quot;Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_kotlin_a_concise_multiplatform_language__21c4780c&quot; group: &quot;Articles/Android 开发者/Kotlin : A concise multiplatform language developed by JetBrains | The JetBrains Bl
 
 ---
 
 ### [Scaling Managed Agents: Decoupling the brain from the hands](#)
-⭐⭐⭐3 🌐 · 今天
+⭐⭐⭐3 🌐 · 昨天
 
 --- id: &quot;7442497496372219650&quot; cubox_url: https://cubox. pro/web/card/7442497496372219650 url: https://www. com/engineering/managed-agents tags: [] --- Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems. [Read in Cubox](https://cub
 
 ---
 
 ### [English](#)
-⭐⭐⭐3 🌐 · 今天
+⭐⭐⭐3 🌐 · 昨天
 
 --- id: e5b48fa2 title: &quot;Hinton 推荐：国际 AI 安全报告 2026 是 AI 风险必读文献&quot; url: &quot;https://x. com/geoffreyhinton/status/2019532085233611207&quot; source: &quot;tweet&quot; date: 2026-04-19 tags: [x, ai-coding, ai-safety] --- **@geoffreyhinton** (Geoffrey Hinton, &quot;Godfather of AI&quot;): &gt; Essential reading on AI risk. &gt; &gt; The Inter
-
----
-
-### [Anthropic 发布 Claude Opus 4.7，性能如何？](#)
-@作者 · ⭐⭐⭐3 🌐 · 今天
-
---- id: &quot;7444657403628355949&quot; cubox_url: https://cubox. pro/web/card/7444657403628355949 url: https://mp. __biz=MzIyNjM2MzQyNg==&amp;mid=2247721960&amp;idx=1&amp;sn=42ea431032242f75c000ca2af378d67f&amp;chksm=e9e69e53b9ddc4e83e518bbb9bc8f7accfd28d706ec1093f419998746731735681f0a6e46a3a&amp;mpshare=1&amp;scene=1&amp;srcid=0417mSD
-
----
-
-### [geohot：AI 没有护城河，模型折旧比想象中快，中国没有 AI 狂热](#)
-⭐⭐⭐3 🌐 · 今天
-
-Source: geohot | 2026-04-22 URL: https://geohot. io/blog/jekyll/update/2026/04/22/ai-has-no-moat. html geohot 撰文称「AI 没有护城河」. 核心论点：Cursor 60B 估值收购是因为 FOMO，实际没人真正用；opencode 确实是最好的 coding agent 但写一个类似的并不难；真正的壁垒在模型，但模型折旧极快，开源已有详细训练指南. 1）的 10 倍，但能力差距只有约 6 个月. 判断「AGI singularity」是硅谷特有狂热，中国 AI 是正常指数增长曲线，AI
-
----
-
-### [English](#)
-⭐⭐⭐3 🌐 · 今天
-
-AI Developer Bottlenecks: The Future of Software Engineering in the Agent Era 🚀 The rise of AI agents is fundamentally changing software development paradigms. This analysis examines key challenges: 1. Developer transition challenges - From coding to system design - Understanding AI capabilities and
-
----
-
-### [English](#)
-⭐⭐⭐3 🌐 · 今天
-
-Best Practices for Android and AI Integration Integrating AI capabilities into Android applications requires thoughtful planning and execution. As AI becomes increasingly essential for modern mobile apps, developers must establish proper patterns and practices for successful AI integration. Building
-
----
-
-### [从历史 Luddites 看反 AI 数据中心运动：1816 年的教训](#)
-⭐⭐⭐3 🌐 · 今天
-
-Source: Sean Goedecke | 2026-04-23 URL: https://seangoedecke. com/luddites-and-ai-datacenters/ &gt; 注：原文抓取失败，此内容基于 RSS 摘要整理. Sean Goedecke&#x27;s detailed analysis of historical Luddism based on multiple historical texts. Real Luddites were skilled craftspeople (7-year apprenticeships) whose trade was being
-
----
-
-### [从历史 Luddites 看反 AI 数据中心运动：1816 年的教训](#)
-⭐⭐⭐3 🌐 · 今天
-
-Source: Sean Goedecke | 2026-04-23 URL: https://seangoedecke. com/luddites-and-ai-datacenters/ Sean Goedecke 阅读多本 Luddism 历史著作后给出详细分析. 历史上的 Luddites 是 1810 年代英国接受过七年学徒训练的技术工匠，不是「反技术」而是技能被自动化剥夺后面临生存威胁的集体回应. 他们愤怒的根源是自动化让未受训廉价劳动力也能生产低质量布料，使长期学习的技能价值被清零. 1810 年代战争导致经济恶化加剧了破坏力. 文章强调：今天将反 AI 运动等同于「历史 Ludd
-
----
-
-### [Qwen3.6-27B：27B 参数密集模型达到旗舰级编程水平](#)
-⭐⭐⭐3 🌐 · 今天
-
-Source: Simon Willison | 2026-04-22 URL: https://simonwillison. net/2026/Apr/22/qwen36-27b/ Qwen 发布 3. 6 系列首款旗舰级编程密集模型 Qwen3. 6-27B，27B 参数达到旗舰级代码能力. Simon Willison 分析：这是开源模型在代码能力上的重要里程碑，采用密集架构而非 MoE，在较小参数量下实现高代码性能，对本地部署友好. 7 之后，第三个接近旗舰水平的开放权重模型，且 27B 规模首次使旗舰级代码能力可以在消费级硬件上运行. 开源与闭源代码能力差距已收窄至约 6 个月. 6
 
 ---

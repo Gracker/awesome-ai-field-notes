@@ -1,22 +1,22 @@
 {
-  "total_entries": 857,
-  "active_entries": 812,
+  "total_entries": 844,
+  "active_entries": 799,
   "archived_entries": 45,
-  "this_week_added": 192,
-  "entries_with_content": 16,
+  "this_week_added": 162,
+  "entries_with_content": 750,
   "category_distribution": {
     "coding": 167,
     "learning": 115,
     "agents": 105,
     "models": 94,
-    "uncategorized": 74,
     "infra": 60,
+    "uncategorized": 58,
     "industry": 54,
-    "ai-tools": 47,
-    "workflow": 29,
-    "models/models": 28,
+    "ai-tools": 52,
+    "workflow": 30,
     "agents/frameworks": 24,
-    "prompt": 5,
+    "models/models": 24,
+    "prompt": 6,
     "agent-frameworks/harness-engineering": 5,
     "strategy/ai-career": 4,
     "agent-frameworks/harness": 3,
@@ -59,14 +59,14 @@
     "ai-hardware/chip-architecture": 1
   },
   "source_type_distribution": {
-    "article": 565,
+    "article": 545,
     "x_post": 149,
-    "tweet": 75,
+    "tweet": 82,
     "paper": 38,
     "github": 16,
     "newsletter": 9,
     "video": 3,
     "product": 2
   },
-  "last_updated": "2026-05-01 20:08"
+  "last_updated": "2026-05-02 21:14"
 }

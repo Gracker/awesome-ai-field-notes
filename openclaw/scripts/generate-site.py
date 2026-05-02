@@ -14,7 +14,7 @@ from pathlib import Path
 
 SCRIPT_PATH = Path(__file__).resolve()
 BASE_DIR = SCRIPT_PATH.parent.parent
-if not (BASE_DIR / "data" / "entries.json").exists() and BASE_DIR.name == "openclaw":
+if BASE_DIR.name == "openclaw":
     candidate = BASE_DIR.parent
     if (candidate / "data" / "entries.json").exists():
         BASE_DIR = candidate

@@ -21,11 +21,11 @@ export default defineConfig({
       { text: '🌍 行业观察 (54)', link: '/industry' },
       { text: '📖 学习资源 (115)', link: '/learning' },
     ],
-    search: { provider: 'local' },
+    search: false,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Gracker/awesome-ai-field-notes' },
     ],
-    footer: { message: '由 OpenClaw 每日自动维护 · 16 篇有全文' },
+    footer: { message: '由 OpenClaw 每日自动维护 · 750 篇有全文' },
   },
   srcDir: '.',
   outDir: '../dist',
