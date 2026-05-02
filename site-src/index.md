@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI Field Notes
   text: AI 领域精选资源导航
-  tagline: 有观点 · 有评分 · 每日自动更新 · 844 条 · 750 篇有全文
+  tagline: 有观点 · 有评分 · 每日自动更新 · 844 条 · 594 篇有全文
   actions:
     - theme: brand
       text: 浏览全部
@@ -15,28 +15,31 @@ hero:
 
 features:
   - title: '🧠 模型'
-    details: 'GPT / Claude / Gemini / 开源模型 / 架构 · 94 条'
+    details: 'GPT / Claude / Gemini / 开源模型 / 架构 · 116 条'
     link: /models
   - title: '🤖 智能体'
-    details: 'Agent 框架 / MCP / A2A / 手机&桌面助手 · 105 条'
+    details: 'Agent 框架 / MCP / A2A / 手机&桌面助手 · 145 条'
     link: /agents
   - title: '💻 AI编程'
-    details: 'IDE / CLI / 代码审查 / 工作流 · 167 条'
+    details: 'IDE / CLI / 代码审查 / 工作流 · 247 条'
     link: /coding
   - title: '⚡ 基础设施'
-    details: '推理部署 / RAG / 微调 / 评测 / 多模态 · 60 条'
+    details: '推理部署 / RAG / 微调 / 评测 / 多模态 · 62 条'
     link: /infra
   - title: '🌍 行业观察'
-    details: 'AI 产品 / 大厂战略 / 融资 / 市场分析 · 54 条'
+    details: 'AI 产品 / 大厂战略 / 融资 / 市场分析 · 62 条'
     link: /industry
   - title: '📖 学习资源'
-    details: '教程 / 论文 / 提示工程 / 演讲 · 115 条'
+    details: '教程 / 论文 / 提示工程 / 演讲 · 107 条'
     link: /learning
+  - title: '🗂️ 未分类'
+    details: '待归类但已通过质量门槛的资源 · 57 条'
+    link: /uncategorized
 ---
 
 ## 🆕 最新 10 篇
 
-### [AI Fast Track: 5天免费课程 手把手教你从用AI到用AI构建产品](https://x.com/alliekmiller/status/1985834763677286606)
+### [AI Fast Track: 5天免费课程 手把手教你从用AI到用AI构建产品](/entry/ivgx104f) 📄
 @@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
 
 There&#x27;s a difference between using AI and building with it. Copy-pasting ChatGPT prompts will only get you so far. I want to help you learn to build personal AI software, automations, and tools that actually solve your problems. The AI Fast Track is a free 5-day course. Tens of thousands have taken it.
@@ -45,7 +48,7 @@ There&#x27;s a difference between using AI and building with it. Copy-pasting Ch
 
 ---
 
-### [OpenAI DevDay 2026 定档9月29日旧金山 GPT-5.5开发赢早期门票](https://x.com/OpenAI/status/2049535650626785334)
+### [OpenAI DevDay 2026 定档9月29日旧金山 GPT-5.5开发赢早期门票](/entry/3u1ukowy) 📄
 @@OpenAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
 
 OpenAI DevDay is back. San Francisco September 29. Want to secure an early ticket? Build something with GPT-5.5 and Image Gen. Each week, 2-3 favorites win free tickets. Codex helps find best submissions.
@@ -54,7 +57,7 @@ OpenAI DevDay is back. San Francisco September 29. Want to secure an early ticke
 
 ---
 
-### [Gemini Embedding 2 正式发布:原生多模态Embedding模型 支持视频分析与视觉购物助手](https://x.com/GoogleAI/status/2049903687016063456)
+### [Gemini Embedding 2 正式发布:原生多模态Embedding模型 支持视频分析与视觉购物助手](/entry/yl4qo141) 📄
 @@GoogleAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
 
 Last week we made Gemini Embedding 2, our first natively multimodal embedding model, available to the general public. Developers have used it to build video analysis tools, visual shopping assistants, and more. What is an embedding model? Thread
@@ -63,7 +66,7 @@ Last week we made Gemini Embedding 2, our first natively multimodal embedding mo
 
 ---
 
-### [Tibo独家复盘:9次失败产品后如何做到100万美金/月 五款AI产品从0到1方法论](https://x.com/petergyang/status/2050223374421647382)
+### [Tibo独家复盘:9次失败产品后如何做到100万美金/月 五款AI产品从0到1方法论](/entry/9ijpm5tr) 📄
 @@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
 
 I shipped 9 failed products before one took off...now I&#x27;m doing $1M+/month. Interview with @tibo_maker - a solo founder who bootstrapped 5 AI products to $1M+/month. Tibo walked through his exact playbook: How to validate ideas and fail fast, Why his top 3 AI products worked.
@@ -72,7 +75,7 @@ I shipped 9 failed products before one took off...now I&#x27;m doing $1M+/month.
 
 ---
 
-### [MiniMax M2.7 开源但非OSI认可开源:许可协议禁止商用引发争议](https://x.com/MiniMax_AI/status/2043132047397659000)
+### [MiniMax M2.7 开源但非OSI认可开源:许可协议禁止商用引发争议](/entry/9uw4lgip) 📄
 @@MiniMax_AI · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
 
 MiniMax M2.7 model weights are publicly available, but under a license prohibiting commercial use without authorization. This does not meet the Open Source Initiative&#x27;s definition of open source, which requires allowing commercial use.
@@ -106,14 +109,14 @@ How we prompt AI is very different in 2026 than 2022 when ChatGPT came out. I&#x
 
 ---
 
-### [Scaling Managed Agents: Decoupling the brain from the hands](#)
+### Scaling Managed Agents: Decoupling the brain from the hands
 ⭐⭐⭐3 🌐 · 昨天
 
 --- id: &quot;7442497496372219650&quot; cubox_url: https://cubox. pro/web/card/7442497496372219650 url: https://www. com/engineering/managed-agents tags: [] --- Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems. [Read in Cubox](https://cub
 
 ---
 
-### [English](#)
+### English
 ⭐⭐⭐3 🌐 · 昨天
 
 --- id: e5b48fa2 title: &quot;Hinton 推荐：国际 AI 安全报告 2026 是 AI 风险必读文献&quot; url: &quot;https://x. com/geoffreyhinton/status/2019532085233611207&quot; source: &quot;tweet&quot; date: 2026-04-19 tags: [x, ai-coding, ai-safety] --- **@geoffreyhinton** (Geoffrey Hinton, &quot;Godfather of AI&quot;): &gt; Essential reading on AI risk. &gt; &gt; The Inter

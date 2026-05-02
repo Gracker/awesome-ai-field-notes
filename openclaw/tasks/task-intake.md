@@ -50,8 +50,8 @@
 
 ### Phase 5: 验证 + 提交
 ```bash
-python3 ../scripts/validate-schema.py
-python3 ../scripts/generate-site.py
+python3 scripts/validate-schema.py
+npm run build
 git add -A
 git commit -m "[openclaw] intake: daily — N entries added"
 git push origin main

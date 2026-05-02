@@ -15,13 +15,13 @@
 
 ```bash
 cd <仓库路径>
-python3 ../scripts/generate-site.py
-npx vitepress build site-src
+npm run build
 ```
 
 ## 验证
 - `site-src/` 目录已更新（index.md + 6 分类页 + entry/ 详情页）
 - `site-src/.vitepress/config.ts` 已自动生成
+- `npm run build` 已通过，Cloudflare Pages 使用同一条生成 + VitePress 构建链路
 - `README.md` 统计摘要已更新
 - `metadata/stats.json` 已更新
 

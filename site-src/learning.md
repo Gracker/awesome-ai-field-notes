@@ -1,6 +1,50 @@
 # 📖 学习资源
 
-教程 / 论文 / 提示工程 / 演讲 — 共 **100** 条活跃资源
+教程 / 论文 / 提示工程 / 演讲 — 共 **107** 条活跃资源
+
+## 📅 今天
+
+### [吴恩达推出新课《AI Prompting for Everyone》:跨模型通用提示工程技巧](https://x.com/AndrewYNg/status/2049886895530967534)
+@@AndrewYNg · ⭐⭐⭐⭐⭐5 🇨🇳 · 今天
+
+How we prompt AI is very different in 2026 than 2022 when ChatGPT came out. I&#x27;m teaching a new course, AI Prompting for Everyone, to help you become an AI power user - whatever your current skill level. It covers skills that apply across ChatGPT, Gemini, Claude, and other AI.
+
+`x` `ai-tools` `prompt`
+
+---
+
+## 📅 2026-04-30
+
+### [Allie K. Miller 免费开放：5 天 AI 实战训练营，从使用到构建](/entry/d1d65a6d) 📄
+@@alliekmiller · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-30
+
+知名 AI 博主 Allie K. Miller 推出免费 5 天邮件课程 AI Fast Track，专为想从使用 AI 进阶到用 AI 构建的人群设计。课程无需编程基础，聚焦教你在实际场景中加入 Claude 等工具到工作流中，构建个人 AI 软件、自动化流程和问题解决工具。如果你已经玩腻了 Copy-paste Prompt，这是不错的进阶路径。
+
+`x` `workflow`
+
+---
+
+## 📅 2026-04-28
+
+### [AI Fast Track: 5天免费课程，从用AI到用AI构建](/entry/657d8468) 📄
+@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-28
+
+Allie K. Miller 推出免费 5 天邮件课程 AI Fast Track，核心主张是超越 ChatGPT 复制粘贴，教用户用 Claude 构建个人 AI 软件、自动化工具和工作流，无需编程基础。课程涵盖从基础到实战构建的全流程，适合想从 AI 使用者转型为 AI 建造者的人群。
+
+`x` `ai-tools` `course` `automation` `beginner`
+
+---
+
+## 📅 2026-04-18
+
+### [AI 影响力日报 · 2026-04-18](/entry/p591inej) 📄
+@gracker · ⭐⭐⭐3 🇨🇳 · 2026-04-18
+
+2026 年 4 月 18 日 AI 高价值内容日报，筛选 5 条：① Allie Miller 的 5 天 AI 建造课程；② Karpathy 转发 Farzapedia——用 LLM 将 2500 条个人数据转化为个人维基百科的实践；③ Google 发布 Gemini 3.1 Flash TTS 表情化语音合成；④ Gemini Agentic Vision：LLM 自己写代码做视觉推理任务；⑤ Nature 重磅论文——LLM 可通过隐含数据信号传递偏好与对齐特征。
+
+`AI日报` `Twitter` `LLM` `Agent` `Gemini`
+
+---
 
 ## 📅 2026-04-14
 
@@ -113,7 +157,7 @@ Android ARM平台上Running耗时分析方法论与工具链的完整报告。�
 
 ---
 
-### [Android 性能优化知识体系大纲](#)
+### Android 性能优化知识体系大纲
 @Manus AI · ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 Android性能优化完整知识体系大纲。从性能优化基础定义与目标出发，建立响应时间、流畅度、内存占用、功耗、稳定性等关键指标体系。覆盖测量-分析-优化-验证闭环方法论，以及系统性思考、全局视角、数据驱动的优化思维模式。
@@ -122,7 +166,7 @@ Android性能优化完整知识体系大纲。从性能优化基础定义与目�
 
 ---
 
-### [Android Framework 面试题解答](#)
+### Android Framework 面试题解答
 @Manus AI · ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 Android Framework常见面试题解答集，包含socketpair与socket区别、Binder通信原理、Handler机制、Service生命周期等核心知识点。面向Android系统工程师面试准备。
@@ -131,7 +175,7 @@ Android Framework常见面试题解答集，包含socketpair与socket区别、Bi
 
 ---
 
-### [微信小程序技术调研报告](#)
+### 微信小程序技术调研报告
 @Manus AI · ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 微信小程序技术的全面调研报告，涵盖7个维度：历史与背景、重要性分析、技术实现架构、启动与滑动性能优化、优化目标与挑战、优化策略、小程序vs小游戏对比。深入分析了微信小程序的双线程架构、渲染管线、启动优化策略、滑动性能瓶颈及解决方案。对理解小程序性能优化有较高参考价值。
@@ -174,7 +218,7 @@ Anthropic官方Claude Code实战课程的中文翻译版，适合离线阅读。
 
 ## 📅 2026-04-09
 
-### [Decoding the Configuration of AI Coding Agents: Insights from Claude Code Projects](#)
+### Decoding the Configuration of AI Coding Agents: Insights from Claude Code Projects
 @完成，虽经两位作者审核确认，但主观偏差难以完全排除。 · ⭐⭐⭐3 🇨🇳 · 2026-04-09
 
 Agentic code assistants（Claude Code、Codex、Jules）是 2024 年兴起的新一代 AI 编程工具，能自主完成端到端软件工程任务。但这类工具的行为和效果高度依赖配置文件（Claude.md），目前缺乏对这类配置文件的结构、内容和最佳实践的系统性研究。
@@ -185,7 +229,7 @@ Agentic code assistants（Claude Code、Codex、Jules）是 2024 年兴起的新
 
 ## 📅 2026-04-08
 
-### [PROV-AGENT: Provenance-Based AI Agent](#)
+### PROV-AGENT: Provenance-Based AI Agent
 @**：Souza et al. (ORNL/Argonne National Lab) · ⭐⭐⭐3 🇨🇳 · 2026-04-08
 
 Agentic workflow 中，AI agent 会 hallucinate 或推理错误，且错误会在 agent 间传播（一个 agent 的输出作为另一个的输入）。传统 provenance 技术无法捕获 agent 特有的元数据（prompts、responses、decisions）与 workflow 上下文的关联。该论文要解决的核心问题是：如何将 AI agent 行为纳入端到端 workflow provenance，实现可追溯、可审计、可复现的 agentic workflow？
@@ -209,7 +253,7 @@ Agentic workflow 中，AI agent 会 hallucinate 或推理错误，且错误会�
 
 ## 📅 2026-04-03
 
-### [Act While Thinking (PASTE)](#)
+### Act While Thinking (PASTE)
 @- 重叠（LLM 思考期间并行执行工具）提升 10x 以上——说明推测执行确实将原本串行的工具调用前移了 · ⭐⭐⭐3 🇨🇳 · 2026-04-03
 
 LLM Agent 串行执行&quot;LLM 推理 → 工具调用&quot;循环，工具执行占总时间 35%-61%。LLM 持有昂贵资源却被迫等待外部工具返回结果，造成严重的延迟瓶颈和资源浪费。
@@ -220,7 +264,7 @@ LLM Agent 串行执行&quot;LLM 推理 → 工具调用&quot;循环，工具执�
 
 ## 📅 2026-04-01
 
-### [SWE-Bench Mobile: Can Large Language Model Agents Develop Industry-Level Mobile Applications?](#)
+### SWE-Bench Mobile: Can Large Language Model Agents Develop Industry-Level Mobile Applications?
 @明确计划添加 Kotlin 任务，届时可对比 iOS/Android 平台差异。 · ⭐⭐⭐3 🇨🇳 · 2026-04-01
 
 当前最强的 LLM 编码 Agent 能否胜任工业级移动应用开发？它们在真实产品需求、多模态输入、大规模代码库上表现如何？
@@ -291,7 +335,7 @@ LLM Agent 串行执行&quot;LLM 推理 → 工具调用&quot;循环，工具执�
 
 ## 📅 2026-03-14
 
-### [SkillRL 智能体进化](#)
+### SkillRL 智能体进化
 ⭐⭐⭐3 🇨🇳 · 2026-03-14
 
 Q1：这项研究要解决什么问题？
@@ -584,6 +628,35 @@ I work in Google Ads infrastructure in the past four years. Over time, I&#x27;ve
 ⭐⭐⭐3 🇨🇳 · 2025-12-06
 
 &gt; 基于 Anthropic 的 &quot;Effective harnesses for long-running agents&quot; 最佳实践
+
+---
+
+## 📅 2025-11-05
+
+### [Allie K. Miller 推出免费 5 天 AI 课程：从会用 AI 到会用 AI 构建](/entry/a1b2c3d4) 📄
+@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2025-11-05
+
+Allie K. Miller 推出免费邮件课程《AI Fast Track》，5 天从入门到独立构建 AI 工具。核心主张：copy-paste ChatGPT prompts 只能走很远，真正差异在于用 AI 构建自动化和工作流。课程不需编程基础，工具箱新增 Claude，适合想从使用者升级为建造者的学习者。拆掉了从消费者到建造者的门槛，对想突破 AI 应用层的朋友很有参考价值。
+
+`x` `ai-tools` `learning` `course`
+
+---
+
+### [Allie K. Miller：免费 5 日课带你从用 AI 进阶到用 AI 搭建](/entry/d65a31a7) 📄
+@@alliekmiller · ⭐⭐⭐⭐4 🇨🇳 · 2025-11-05
+
+Allie K. Miller 推出「AI Fast Track」免费 5 日邮件课程，定位是帮助用户从只会 copy-paste ChatGPT prompts 进阶到真正用 AI 搭建个人工具、自动化流程和软件。她强调「用 AI」和「用 AI 构建」之间有本质区别——后者需要理解 AI 能做什么边界、如何将 AI 能力封装成可复用系统。课程无需编程基础，工具箱以 Claude 为主（也有 ChatGPT）。适合想从「AI 使用者」转变为「AI 建造者」的初学者。
+
+`course` `automation` `claude` `beginner`
+
+---
+
+### [超越 ChatGPT 复制粘贴：用 AI Fast Track 学会构建个人 AI 工具](/entry/9a6b89b2) 📄
+@@alliekmiller · ⭐⭐⭐⭐4 🇨🇳 · 2025-11-05
+
+Allie K. Miller 推出免费 5 天邮件课程，核心主张是「用 AI」与「用 AI 构建」有本质区别——仅靠复制粘贴 Prompt 上限很低。课程无需编程基础，教授如何用 Claude 扩展 AI 能力边界，搭建个人自动化工作流。适合想从消费者转型为创造者的初学者。附完整课程链接。
+
+`ai-tools` `course` `beginner`
 
 ---
 

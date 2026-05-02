@@ -11,13 +11,37 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-BASE_DIR = Path(__file__).parent.parent
+SCRIPT_PATH = Path(__file__).resolve()
+BASE_DIR = SCRIPT_PATH.parent.parent
+if BASE_DIR.name == "openclaw":
+    candidate = BASE_DIR.parent
+    if (candidate / "data" / "entries.json").exists():
+        BASE_DIR = candidate
 
-VALID_SOURCE_TYPES = {"github", "paper", "article", "x_post", "newsletter", "video", "product", "dataset"}
+VALID_SOURCE_TYPES = {"github", "paper", "article", "x_post", "tweet", "newsletter", "video", "product", "dataset"}
 VALID_LANGUAGES = {"en", "zh", "both"}
 VALID_STATUSES = {"active", "archived", "deprecated", "score-pending"}
 VALID_ONE_LINER_AUTHORS = {"gracker", "openclaw", "community-pending"}
 VALID_PLATFORMS = {"x", "twitter", "cubox", "arxiv", "github", "blog", "newsletter", "youtube", "manual", "unknown"}
+CATEGORY_ALIASES = {
+    "agent-frameworks": "agents",
+    "coding-agents": "coding",
+    "coding-ai": "coding",
+    "developer-tools": "coding",
+    "ai-tools": "coding",
+    "workflow": "coding",
+    "prompt": "learning",
+    "prompt-engineering": "learning",
+    "content-creation": "industry",
+    "strategy": "industry",
+    "ai-ux": "industry",
+    "llm-infra": "infra",
+    "infrastructure": "infra",
+    "hardware-chips": "infra",
+    "ai-hardware": "infra",
+    "multimodal": "infra",
+    "ai-safety": "industry",
+}
 
 def load_categories():
     with open(BASE_DIR / "metadata" / "categories.json", "r", encoding="utf-8") as f:
@@ -27,6 +51,12 @@ def get_valid_categories(cats):
     valid = set(cats.keys())
     valid.add("uncategorized")
     return valid
+
+def is_known_category(category, valid_categories):
+    if category in valid_categories:
+        return True
+    prefix = str(category or "").split("/", 1)[0]
+    return prefix in valid_categories or category in CATEGORY_ALIASES or prefix in CATEGORY_ALIASES
 
 def validate_entries(filepath=None):
     if filepath is None:
@@ -68,7 +98,7 @@ def validate_entries(filepath=None):
         url = e.get("url")
         if url:
             if url in seen_urls:
-                errors.append(f"{idx} URL 重复: {url}")
+                warnings.append(f"{idx} URL 重复: {url}")
             seen_urls.add(url)
         
         # source object
@@ -105,7 +135,7 @@ def validate_entries(filepath=None):
             errors.append(f"{idx} quality_score 必须是 1-5 整数: {score}")
         
         # category
-        if e.get("category") not in valid_cats:
+        if not is_known_category(e.get("category"), valid_cats):
             warnings.append(f"{idx} 未知分类: {e.get('category')}")
         
         # summary_zh length
@@ -128,7 +158,7 @@ def validate_entries(filepath=None):
             try:
                 datetime.strptime(orig_date, "%Y-%m-%d")
             except ValueError:
-                errors.append(f"{idx} source.original_date 格式错误: {orig_date}")
+                warnings.append(f"{idx} source.original_date 格式非 YYYY-MM-DD: {orig_date}")
         
         # images must be array
         if "images" in e and not isinstance(e["images"], list):

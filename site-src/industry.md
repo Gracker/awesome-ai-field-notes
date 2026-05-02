@@ -1,6 +1,6 @@
 # 🌍 行业观察
 
-AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **50** 条活跃资源
+AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **62** 条活跃资源
 
 ## 📅 2026-04-27
 
@@ -11,7 +11,112 @@ https://registerspill.thorstenball.com/p/the-basics翻译，送给初入职场�
 
 ---
 
+## 📅 2026-04-24
+
+### [GPT Image 2的出现，一个设计师的冷思考](/entry/2dH0ISAf) 📄
+@梵猩智云 · ⭐⭐⭐3 🇨🇳 · 2026-04-24
+
+设计师视角反思GPT Image 2的影响，认为这是从工具升级到分水岭级别的跃迁，文字渲染准确、多语言海报、UI草图等信息图生成能力将设计执行门槛降至几乎为零。作者指出设计师的真正价值不是做图而是做对的选择，并提出三条出路：往上走（判断层）、往深走（垂直领域）、跟AI协作（超级设计师）。核心观点是工具变强不是设计师的灾难，不愿意接受身份重新定义才是。
+
+`AI-image` `GPT-Image-2` `designer` `AI-impact` `product-thinking`
+
+---
+
+## 📅 2026-04-23
+
+### [Anthropic用户研究 - 8.1万人AI使用需求分析](/entry/f20a0369) 📄
+@@AnthropicAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-23
+
+基于8.1万用户的深度调研，分析用户对AI的经济期望和担忧，揭示AI使用的真实需求和痛点。
+
+`x` `research` `user-study` `anthropic`
+
+---
+
+## 📅 2026-04-18
+
+### [【译】关于 Claude Design 的一些想法和感受](/entry/ee551fe1) 📄
+@Sam Henri Gold · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-18
+
+设计师 Sam Henri Gold 体验 Claude Design 后撰文：Figma 花十年构建的封闭设计系统在 AI 智能体时代正变成负担。LLM 用代码训练，学不会 Figma 专有格式，单一事实来源将回归代码。Figma 走向了忠于材料原则的反面：底层规则极其死板，表面却伪装得自由散漫。相比之下，Claude Design 尽管体验粗糙但诚实地由 HTML/JS 构成，与 Claude Code 天然打通，设计与开发的反馈循环有望融合。Figma 的 Sketch 时刻正在迅速逼近。
+
+`claude-design` `figma` `design-tools` `agent` `llm`
+
+---
+
+### [两小时激辩：黄仁勋为什么不怕 TPU、不怕华为、不怕出口管制？](/entry/26tc21on) 📄
+⭐⭐⭐⭐4 🇨🇳 · 2026-04-18
+
+黄仁勋接受 Dwarkesh Patel 两小时专访，系统阐述 Nvidia 的经营哲学与 AI 基础设施战略。核心观点：Nvidia 的护城河不是技术锁定，而是全球数亿 GPU 装机量与跨云平台的生态优势；Anthropic 使用 TPU 是早年 Nvidia 资金不足导致的「特例」而非趋势；出口管制会加速中国芯片自主化，美国将丢失全球第二大科技市场；收购 Groq 源于推理市场进入「分层定价」时代。全文数据密集，涵盖 CUDA 生态、供应链布局、Blackwell 架构 50 倍能效提升、对华政策博弈等关键议题。
+
+`Nvidia` `黄仁勋` `CUDA` `TPU` `出口管制`
+
+---
+
+### [为什么你的「AI 优先」战略可能大错特错？](/entry/zurlv9gb) 📄
+@Peter Pang · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-18
+
+CREAO 创始人结合自身实践深度分析「AI First」战略的落地条件与常见误区。文章指出「AI 优先」本质是围绕 AI 重建工程流程，而非简单加入 AI 工具；五大工程前提（自动化测试、CI/CD、A/B 监控、任务管理、架构）缺一不可，基础设施不完整时 AI First 只是口号。核心案例：25 人团队借助 Claude Opus 4.6 实现每天 3-8 次生产部署，从构思到上线当天完成，糟糕功能当天即撤，数据驱动决策。提出未来两类工程师——架构师（设计 SOP，教 AI 工作）和操作员（验证并分配任务），以及初级工程师比资深工程师适应更快的反直觉现象。
+
+`AI优先` `Harness Engineering` `脚手架工程` `工程实践` `CI/CD`
+
+---
+
+### [做AI产品两年，我得出的实操经验](/entry/ppNqbBb5) 📄
+@多睡觉多学习就好咯 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-18
+
+作者在QCon北京分享了两年做AI产品的阶段性总结，聚焦三个核心问题：为什么AI产品难做（不确定性、场景模糊、用户预期管理）；提示词工程被严重低估（是产品特性而非技术细节）；AI产品团队如何构建（需要新的协作流程和角色）。内容来自大量AI产品demo的实战积累，对AI产品经理有较高参考价值。
+
+`ai-product` `product-management` `prompt-engineering` `team-structure` `lessons-learned`
+
+---
+
+### [2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期](/entry/l5ysgz2n) 📄
+@wquguru · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-18
+
+AI时代人群正在分层：Level 1把AI当搜索引擎（90%的人），Level 2当助手建立连续context（9%），Level 3用AI团队创造10-100倍价值（1%）。超级个体的核心能力模型包括Vibe Coding、Agent Engineering、AI Fluency，以及产品层（快速迭代）和市场层（Storytelling/Build in Public）。Claude Agent SDK和MCP的出现创造了6-12个月的先行者窗口，「Agent能力是21世纪核心技能」。
+
+`ai-first` `super-individual` `agent-engineering` `vibe-coding` `career`
+
+---
+
+### [The Business Models That Will Dominate 2027 (That Don&#x27;t Exist Yet)](/entry/8wchcs0s) 📄
+@@Zephyr_hg · ⭐⭐⭐⭐4  · 2026-04-18
+
+作者观察2027年将主导市场、目前正在构建中的5种AI原生商业模式：①一人企业级服务（用AI+自动化完成10人团队工作量，服务企业客户，无员工）；②AI微型代理公司（2-3人+AI工具，交付10人团队产出，颠覆传统代理）；③小企业自动化即服务（预构建行业自动化系统月订阅）；④产品化AI咨询（把专业知识打包成AI系统按需交付，取代按小时收费）；⑤零开销数字产品（一人用AI构建、发布、扩展数字产品）。
+
+`business-model` `ai-era` `one-person-company` `micro-agency` `automation-as-a-service`
+
+---
+
+### [AI的负面（2）：你的知识在贬值，但房贷不会贬值](/entry/2z4h3cnl) 📄
+@@FuSheng_0306 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-18
+
+月费200元的AI智能体已能替代大部分白领工作，智力溢价这一维持几千年的「潜规则」正在被打破。更致命的不是失业，而是收入配不上负债——白领降薪/裁员后涌入蓝领市场，形成向下挤压的连锁反应。个人应对策略：停止基于「脑子永远值钱」的长期负债；不跟AI拼干活而拼判断；用AI实战找到不可替代位置；保护底线资产。
+
+`ai-impact` `knowledge-devaluation` `economic-risk` `knowledge-work` `debt`
+
+---
+
+### [2026 AI First 系列（四）：connecting the dots——你的独特人生路径](/entry/ezlw451n) 📄
+@wquguru · ⭐⭐⭐3 🇨🇳 · 2026-04-18
+
+用Tim Urban的人生方格图和Steve Jobs的connecting dots框架，探讨个体如何在AI时代设计人生路径：向后看理解轨迹，向前看设想可能，活在当下创造每个扎实的dot。核心洞察：在所有宏观因素中，AI几乎是唯一可主动掌握的变量——经济周期、政策走向、行业兴衰都控制不了，但可以选择如何学习、使用和让它创造价值。Build in Public是建立信任飞轮的关键策略。
+
+`ai-first` `life-design` `connecting-dots` `build-in-public` `adaptability`
+
+---
+
 ## 📅 2026-04-10
+
+### [Automated Alignment Researchers: Using large language models to scale scalable oversight](/entry/tIs9VugG) 📄
+@Anthropic · ⭐⭐⭐⭐⭐5 🌐 · 2026-04-10
+
+Anthropic 发布 Automated Alignment Researchers（AAR）研究：用 9 个 Claude Opus 4.6 实例并行作为自动化对齐研究员，在弱-强监督问题上从人类基准 PGR 0.23 提升至 0.97，成本约 $18,000。核心发现：AAR 能从不同起点发现互补方法；给予过多结构会限制 Claude 的适应力；纯 idea 数量可以弥补研究品味的不足；evaluating（设置正确的实验）而非 generating（生成想法）将成为对齐研究的瓶颈。AAR 仍会出现 reward hacking，且方法难以跨领域泛化。
+
+`alignment` `scalable-oversight` `weak-to-strong` `AAR` `Anthropic`
+
+---
 
 ### [What 81,000 People Want from AI（Anthropic 81K 访谈）](/entry/l92x6515) 📄
 @Anthropic · ⭐⭐⭐⭐⭐5  · 2026-04-10
@@ -19,6 +124,17 @@ https://registerspill.thorstenball.com/p/the-basics翻译，送给初入职场�
 Anthropic对80,508名Claude用户进行的大规模定性研究，覆盖159个国家、70种语言，是迄今最大规模的多语言定性AI调研。核心发现：人们希望从AI获得的九大愿景——专业卓越(18.8%)、个人转变(13.7%)、生活管理(13.5%)、时间自由(11.1%)、财务独立(9.7%)、社会转型(9.4%)、创业(8.7%)、学习成长(8.4%)、创意表达(5.6%)。81%的人认为AI已向愿景迈出一步。方法论创新在于用AI访谈员实现定性研究的规模化——兼顾深度与数量。
 
 `anthropic` `用户调研` `AI期望` `定性研究` `AI应用`
+
+---
+
+## 📅 2026-04-07
+
+### [PM的未来：AI时代不再只是做文档和PPT，而是真正动手做东西](/entry/50fecf1d) 📄
+@@petergyang · ⭐⭐⭐3 🇨🇳 · 2026-04-07
+
+@zoink提出：AI时代PM如果还认为自己的工作是做文档和PPT，将迎来巨大机会——因为现在PM也能动手做东西了。人们需要看到公司领导者真正在做东西，这才是激励人心、创造转折点的力量。AI降低了「动手做」的技术门槛，PM的角色正从「文档协调者」向「动手创造者」转变。
+
+`product-management` `ai-era` `leadership` `maker-culture` `pm`
 
 ---
 
@@ -35,7 +151,7 @@ Founder Park 组织 30+ 创业者闭门讨论 Agent 生态创业机会。核心�
 
 ## 📅 2026-03-21
 
-### [X 文章与收藏抓取工具调研](#)
+### X 文章与收藏抓取工具调研
 @高爷 · ⭐⭐⭐3 🇨🇳 · 2026-03-21
 
 X（Twitter）文章与收藏内容抓取方案调研。核心挑战：X API收费（$200-42K/月）、反爬升级、Nitter失效。发现r.jina.ai作为最简方案（免费、无需API、可绕过登录限制）。对比开源工具：Smaug（AI分类+Markdown归档，最推荐）、prinsss/twitter-web-exporter（UserScript最简单）、rainux/twitter-bookmarks-downloader（自托管）。

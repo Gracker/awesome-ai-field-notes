@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "vitepress dev site-src",
-    "build": "vitepress build site-src",
+    "build": "python3 scripts/generate-site.py && vitepress build site-src",
+    "build:vitepress": "vitepress build site-src",
+    "validate": "python3 scripts/validate-schema.py",
     "preview": "vitepress preview site-src"
   },
   "devDependencies": {

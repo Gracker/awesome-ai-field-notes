@@ -1,6 +1,344 @@
 # 🤖 智能体
 
-Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **98** 条活跃资源
+Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **145** 条活跃资源
+
+## 📅 昨天
+
+### [Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents](/entry/9dc05bac) 📄
+⭐⭐⭐3 🌐 · 昨天
+
+--- title: &quot;Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_kotlin_a_concise_multiplatform_language__21c4780c&quot; group: &quot;Articles/Android 开发者/Kotlin : A concise multiplatform language developed by JetBrains | The JetBrains Bl
+
+---
+
+### Scaling Managed Agents: Decoupling the brain from the hands
+⭐⭐⭐3 🌐 · 昨天
+
+--- id: &quot;7442497496372219650&quot; cubox_url: https://cubox. pro/web/card/7442497496372219650 url: https://www. com/engineering/managed-agents tags: [] --- Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems. [Read in Cubox](https://cub
+
+---
+
+### 从Vibe Coding到Agentic Engineering：重构后台开发全流程
+@作者 · ⭐⭐⭐3 🌐 · 昨天
+
+--- id: &quot;7444756797564387672&quot; cubox_url: https://cubox. pro/web/card/7444756797564387672 url: https://mp. __biz=MjM5ODYwMjI2MA==&amp;mid=2649801233&amp;idx=1&amp;sn=6e6eaf8a0e94e8349bbbef4b734dc5c0&amp;chksm=bfa52a1c28b217121b321819707fec37a046db7ce55d69ff28f6aefcd3df18d15031491c1ff2&amp;mpshare=1&amp;scene=1&amp;srcid=0417g92
+
+---
+
+### Google 发布面向 Agent 工作流的 Android CLI、Skills 与 Knowledge
+⭐⭐⭐3 🌐 · 昨天
+
+__biz=MzAxMTI4MTkwNQ==&amp;mid=2650856619 官方文档: https://developer. com/tools/agents Google 发布 Android CLI、Android Skills 与 Android Knowledge Base 三大工具组件，为 Agent（Gemini、Claude Code、Codex 等）提供标准化的 Android 开发接口，目标是确保在任何开发环境中均可实现高质量 Android 应用构建. 为 Agent 提供轻量级、可编程的 SDK 交互能力，支持环境配置、项目创建、设备管理等核心开发任务. | 功能类别 |
+
+---
+
+### Agent Harnesses are how you build agents, and they’re not going anywhere
+⭐⭐⭐3 🌐 · 昨天
+
+The “best” way to build agentic systems has changed dramatically over the past three years. When ChatGPT came out, all you could do were simple RAG chains (LangChain). Then the models got a little better, and could create more complex flows (LangGraph). Then they got a lot better, and that gave rise
+
+---
+
+### POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation
+@作者 · ⭐⭐⭐3 🌐 · 昨天
+
+11816 - **发表时间**: 2026-01-16 - **主题**: Agentic AI / 企业自动化 / 治理框架 --- 企业后台工作流（如应付账款、合同审查）要求 AI 系统必须满足：可审计（full execution traces）、策略对齐（policy-aligned）、操作可预测（operationally predictable）、副作用可管控. 这些需求通用型 multi-agent 系统往往无法满足. 本文要解决的核心问题是：如何在保持 agent 灵活性的同时，为企业级 agentic AI 添加可验证的治理能力. --- 不是让 LLM 自由生成执行路径，
+
+---
+
+### langchain-ai/agents-from-scratch: Build an email assistant with human-in-the-loop and memory
+⭐⭐⭐3 🌐 · 昨天
+
+com/langchain-ai/agents-from-scratch 官方文档: https://github. com/langchain-ai/agents-from-scratch 该仓库是一个&quot;从零构建 Agent&quot;的实战指南，以构建一个 Gmail 接入的&quot;环境感知&quot;（ambient）邮件助手为最终目标. 分为 4 个章节，每章配有 Jupyter Notebook 和对应的 `src/email_assistant` 目录代码. 从 Agent 基础开始，逐步递进到 Agent 评估、人在回路（Human-in-the-Loop），最终到记忆系统，最终组合成一个可部署的 Age
+
+---
+
+### [Android CLI: Build Android apps 3x faster using any agent](http://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html%3E)
+⭐⭐⭐3 🌐 · 昨天
+
+--- title: &quot;Android CLI: Build Android apps 3x faster using any agent&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_android_developers_blog_33800553&quot; group: &quot;Articles/Android 开发者/Android Developers Blog&quot; url: &quot;http://android-developers. com/2026/04/build-android-apps-3x-faster-using-any-agent. html&quot; pu
+
+---
+
+### 夜天之书 #119：Agentic Coding 的边界
+⭐⭐⭐3 🌐 · 昨天
+
+com/s/x_FUUG4wBUqYs1H5DUtpgQ 作者: 夜天之书（tison） 本文结合作者 Agentic Coding 的实践经验，深入讨论当前 LLM Coding Agent 的能力边界与局限性. 文章指出：LLM 能够生成&quot;疑似正确&quot;的方案，但到&quot;经得起考验的产品&quot;之间存在 AI 无法覆盖的鸿沟. 当前 LLM 的核心动作是对现有知识的搜索和组合，这推理出两个重要现象： **现状代码多为浆糊（Big Ball of Mud）**：现实中程序员倾向于就地打补丁，导致 AI 训练的语料本身就充满问题代码. AI 容易生成&quot;似是而非&quot;的并发代码，因为能找到的并发代码语料本身就存在
+
+---
+
+### cc-connect: Bridge local AI coding agents to messaging platforms
+⭐⭐⭐3 🌐 · 昨天
+
+GitHub: https://github. com/chenhg5/cc-connect Stars: 6424 (截至 2026-04-27) License: MIT cc-connect bridges AI agents running on your machine to the messaging platforms you already use. Code review, research, automation, data analysis — anything an AI agent can do, now accessible from your phone, tab
+
+---
+
+### [从聊天窗口到多 Agent 控制台：一次 AI 编程协作范式的转移](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559601&idx=1&sn=dca715222390e89a63a45ad54b1c9d7d%3E)
+⭐⭐⭐3 🌐 · 昨天
+
+--- title: &quot;从聊天窗口到多 Agent 控制台：一次 AI 编程协作范式的转移&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_item_616ef9b2&quot; group: &quot;Articles/阿里云开发者&quot; url: &quot;https://mp. __biz=MzIzOTU0NTQ0MA==&amp;mid=2247559601&amp;idx=1&amp;sn=dca715222390e89a63a45ad54b1c9d7d&quot; published: &quot;2026-04-16T00:31:00Z&quot; captured_at: &quot;2026-04-17T03:02:49+08:0
+
+---
+
+### OWL: Optimized Workforce Learning for General Multi-Agent Assistance
+⭐⭐⭐3 🌐 · 昨天
+
+com/camel-ai/owl/blob/main/README_zh. md OWL（Optimized Workforce Learning）是 CAMEL-AI 推出的前沿多智能体协作框架，旨在通过动态智能体交互实现跨多领域的任务自动化. - **多搜索引擎支持**：维基百科、Google、DuckDuckGo、百度、博查等实时信息检索 - **多模态处理**：支持视频、图片、语音处理 - **浏览器操作**：基于 Playwright 的页面滚动、点击、输入、下载、历史回退 - **文件解析**：Word、Excel、PDF、PowerPoint 内容提取 - **代码执行**：Py
+
+---
+
+### [Build with Google Antigravity, our new agentic development platform](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/)
+⭐⭐⭐3 🌐 · 昨天
+
+&gt; **来源：** Google Developers Blog &gt; **原文链接：** https://developers. com/build-with-google-antigravity-our-new-agentic-development-platform/ &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- NOV. 20, 2025 Development is lifting off. The tools of yesterday focused on helping you write code faster; the tools of t
+
+---
+
+### MCP Ecosystem 2026: Universal Connector for AI Tools and Cross-Runtime Interoperability
+⭐⭐⭐3 🌐 · 昨天
+
+&gt; 发布时间: 2026-04-21 &gt; 作者: Industry Analysis --- **摘要 / Summary:** MCP（Model Context Protocol）正在成为 2026 年 AI 工具互操作性的通用连接器，被誉为&#x27;AI 工具的 USB 标准&#x27;. 作为 Anthropic 开发的 JSON-RPC 客户端-服务器接口，MCP 支持类型化数据交换，旨在成为 AI 工具的通用连接器. 截至 2026 年初，已有 200 多个服务器实现，支持 GitHub、Slack、Google Drive、Salesforce 等常见服务. 获得 Anthropic、OpenAI
+
+---
+
+### [LangGraph: Build resilient language agents as graphs](https://github.com/langchain-ai/langgraph)
+⭐⭐⭐3 🌐 · 昨天
+
+&gt; **来源：** GitHub (langchain-ai/langgraph) &gt; **原文链接：** https://github. com/langchain-ai/langgraph &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building,
+
+---
+
+### [CrewAI: Framework for orchestrating role-playing, autonomous AI agents](https://github.com/crewAIInc/crewAI)
+⭐⭐⭐3 🌐 · 昨天
+
+&gt; **来源：** GitHub (crewAIInc/crewAI) &gt; **原文链接：** https://github. com/crewAIInc/crewAI &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- CrewAI is a lean, lightning-fast Python framework built entirely from scratch—completely independent of LangChain or other agent frameworks. It empowers developers with both
+
+---
+
+### AGENTS.md — Drop-in senior engineer behavior spec for coding agents
+⭐⭐⭐3 🌐 · 昨天
+
+GitHub: https://github. com/TheRealSeanDonahoe/agents-md Stars: 525 (截至 2026-04-27) License: MIT One file. Every coding agent starts behaving like a senior engineer. Drop it into any repo. Claude Code, Codex, Cursor, Gemini CLI, Aider, Windsurf, Copilot, and Devin all read it on their own. | Before
+
+---
+
+### 2026 年，AI 编程 Agent 的真正分水岭—
+⭐⭐⭐3 🌐 · 昨天
+
+&gt; 作者: 老章很忙 &gt; 原文链接: https://mp. __biz=MzA4MjYwMTc5Nw==&amp;mid=2649012185&amp;idx=1&amp;sn=e613849d8e706a95d4a3c292b5881a1e ---. [cover_image](images/img_001. jpg) Original 老章很忙 老章很忙 [Ai学习的老章](javascript:void\(0\);) _2026年4月9日 15:38_ _英国_ 在小说阅读器读本章 去阅读 在小说阅读器中沉浸阅读 **2026 年，AI 编程 Agent 的真正分水岭，到底在哪里. [Harness 才是 A
+
+---
+
+### AI Agent Landscape 2026: From Experimental Tools to Production Infrastructure
+⭐⭐⭐3 🌐 · 昨天
+
+&gt; 发布时间: 2026-04-22 &gt; 作者: Industry Analysis --- **摘要 / Summary:** 2026 年标志着 AI 智能体从实验概念转向生产系统的关键转折点. Gartner 预测 40% 的企业应用将在 2026 年底嵌入特定任务 AI 智能体，远低于之前的 5%. 市场规模预计大幅增长，企业部署显示显著 ROI. 核心特征包括：感知与规划（解释非结构化输入，分解复杂目标）、工具使用（调用外部 API、数据库、其他智能体）、记忆模块（存储上下文和时间交互）、自主操作（持续的感觉-思考-行动循环）、解决高级问题. 架构组件包括 LLM（大脑）、记忆模块、
+
+---
+
+### [AutoGen: A programming framework for agentic AI](https://github.com/microsoft/autogen)
+⭐⭐⭐3 🌐 · 昨天
+
+&gt; **来源：** GitHub (microsoft/autogen) &gt; **原文链接：** https://github. com/microsoft/autogen &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- AutoGen is now in maintenance mode. It will not receive new features or enhancements and is community managed going forward. **New users should start with [Microsoft Agent
+
+---
+
+### [A2UI v0.9: The New Standard for Portable, Framework-Agnostic Generative UI](https://developers.googleblog.com/a2ui-v0-9-generative-ui/)
+⭐⭐⭐3 🌐 · 昨天
+
+&gt; **来源：** Google Developers Blog &gt; **原文链接：** https://developers. com/a2ui-v0-9-generative-ui/ &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- APRIL 17, 2026 Generative UI allows AI agents to generate tailored UI widgets in real-time, matching the interface to the user&#x27;s specific interaction. But to move f
+
+---
+
+### AIOS 架构深度解析与 Android Agent OS 演进全景
+⭐⭐⭐3 🌐 · 昨天
+
+**AIOS 是目前学术界最完整的 LLM Agent 操作系统原型**，其核心设计将 LLM 实例抽象为&quot;CPU 核心&quot;，通过系统调用层为上层 Agent 应用提供统一的调度、内存、存储、工具和访问控制服务. AIOS 已发表 8 篇论文，被 COLM 2025、ICLR 2025、NAACL 2025 收录，GitHub 获 5,387 星. 但 AIOS 是纯用户态 Python 实现，运行在 FastAPI 之上，并未触及真正的操作系统内核层. 与此同时，Android 平台正从&quot;操作系统&quot;向&quot;智能系统&quot;演进——Google 的 AICore/AppFunctions、三星的多 Age
+
+---
+
+## 📅 2026-04-27
+
+### [全员 token-maxxing，一场没人敢停的军备竞赛](/entry/5addfa0565) 📄
+@五源资本合伙人 孟醒** · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-27
+
+?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FJ3iaQ6X4GdYW7zVkpgwHic9rIVibM1EKn8iawD2y6qGAEAQwPX2zjBCxorTRCD5ytHia2vrpKtOSPtleGNa49me2Tsxgp7oibRQzOMbFKaxO5tibXQ%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D0)
+
+---
+
+### [你不知道的 AI Coding：非技术人的上手、场景与实战](/entry/5725d3e623) 📄
+⭐⭐⭐⭐4 🇨🇳 · 2026-04-27
+
+上个月在公司里给产品和业务的小伙伴分享了下如何上手 AI Coding，加上最近又发了条推特，聊到不少同学因为订阅门槛没机会用上一线 AI Coding 工具，方法和习惯不花钱就能先学，索性把上手这部分整理出来。然后为了让内容给大伙更好理解，文章中绘制了不少简单插画，这样看起来应该更会直接。
+
+---
+
+### [深入源码：Hermes Agent 如何实现 &quot;Self-Improving&quot;](/entry/853409a5bc) 📄
+⭐⭐⭐⭐4 🇨🇳 · 2026-04-27
+
+?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2Fj7RlD5l5q1y2STOcej6MFiaC1kgiazAOBIb5BJON5wwN9END1BIIS09iccLF4Uicu29ic4cFfSMCz0uebuDViaDTJMJY5OssiaSxic5yxqRW1LKcCPc%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D0)
+
+---
+
+### [Anthropic《Building Effective AI Agents》深度解读，AI Agents架构“经典必读”](/entry/610222a205) 📄
+⭐⭐⭐⭐4 🇨🇳 · 2026-04-27
+
+最好的架构，是满足今日需求的最简架构，同时为明日进化保留路径。它不是一次性的完美设计，而是在应对真实业务挑战的过程中，一步步“逼”出来的。
+
+---
+
+### 谁才是地表最强 Android Agent 大模型？Google官方测评来了！
+⭐⭐⭐3 🌐 · 2026-04-27
+
+com 发布日期：2026-04-27 现有代码评测基准（HumanEval、SWE-bench）几乎清一色面向 Python，无法覆盖 Android 开发的复杂性（Kotlin/Java 双语言、Jetpack Compose 与 View 体系并行、Gradle 构建配置、设备碎片化）. Google 正式发布 Android Bench — 首个专门针对 Android 开发的 LLM 评测基准. - 任务来源：GitHub 上 500+ Star 的真实开源 Android 项目，从 38,989 个已合并的 PR 中精选 100 道题 - 任务类型：修复 Breaking Chan
+
+---
+
+## 📅 2026-04-25
+
+### [AI驱动的设计工具分享](/entry/de9872fe) 📄
+@Suryansh Tiwari · ⭐⭐⭐⭐4 🌐 · 2026-04-25
+
+Suryansh Tiwari 深度解析了 Claude 风格多智能体系统的两种核心架构：Sub-Agents（隔离执行，单次任务，父节点控制）和 Agent Teams（协作通信，共享上下文，对等交互）。核心区别在于上下文边界的设计而非角色分工。提出了 5 种关键模式：Prompt Chaining、Routing、Parallelization、Orchestrator-Worker、Evaluator-Optimizer。强调应基于上下文边界而非角色来拆分任务，避免每个交接点的质量损失。
+
+`multi-agent` `sub-agents` `agent-teams` `claude` `architecture`
+
+---
+
+### [wanman.ai：让AI agents团队帮助用户运营一人公司](/entry/6f26b8b4) 📄
+@guoyu.eth · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-25
+
+郭宇（guoyu.eth）宣布开源并上线 wanman.ai，核心理念是让 AI Agents 团队帮助用户运营一人公司。两种工作模式：从故事目标自治运行（分析目标-&gt;规划任务-&gt;邀请AI员工-&gt;自动开会对齐-&gt;创意发散）和 GitHub 仓库接管（自动分析代码仓库、持续优化测试、提交 PR）。核心特点：消息通信、自进化 Skill、沙箱隔离、多模型架构。设计哲学是让人类退居二线仅作观察者，核心架构已在 GitHub 开源。命名来源于日语ワンマン（一人）的罗马音。
+
+`wanman` `ai-agent-team` `one-person-company` `autonomous-agent` `vibe-coding`
+
+---
+
+## 📅 2026-04-24
+
+### [万字总结：我的 Harness Engineering 项目开发实践经验完整分享（上）](/entry/2kX8t9cK) 📄
+@Unknown · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-24
+
+作者分享无手写代码前提下项目累计生成15万行代码的实践经验。核心设计：Codex（GPT模型）做规划/验收/需求拆解，Claude Code（国产开源模型）做执行，实现Planner-Evaluator-Generator职责分离。关键机制：阶段计划+结构化Prompt+零信任验收+长期记忆；验收发现的问题（生产路径未验证、异常无日志）自动沉淀到记忆文件下次自动检查。验证了规划与执行不能混、验收与实现不能同角色的核心原则。
+
+`harness-engineering` `Claude-Code` `Codex` `agent-collaboration` `project-practice`
+
+---
+
+### [AI Agent 工程化实践指南：如何构建可靠的 Harness 系统](/entry/_fMrQUjX) 📄
+@Liz的AI冰美式 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
+
+文章系统阐述Harness Engineering的核心价值：AI时代技术重心正从单点能力转向对整体系统的组织、约束和协同。作者从Prompt工程化、Context工程化、Tools工程化、Workflow工程化四个维度展开，结合OpenAI、Anthropic、LangChain的实践经验，介绍Generator-Evaluator模式、多Agent协作框架（Anthropic 16个并行Claude协作编写C编译器案例）。强调Harness的核心不是塞信息而是设计信息结构，长任务靠外部状态管理而非更强Prompt。
+
+`harness-engineering` `agent-frameworks` `prompt-engineering` `context-management` `workflow`
+
+---
+
+### [Building agents that reach production systems with MCP](/entry/oug0QMC1) 📄
+@Anthropic · ⭐⭐⭐⭐4 🌐 · 2026-04-24
+
+Anthropic官方博客，系统阐述将Agent连接到外部生产系统的三条路径（Direct API、CLI、MCP）的适用场景及优劣。重点介绍构建生产级MCP服务器的最佳实践：远程服务器实现最大覆盖、按Intent而非端点分组工具、设计代码编排处理大表面、丰富语义（Elicitation/MCP Apps）、标准化认证（CIMD+Vaults）。提出MCP客户端的上下文效率优化（按需加载工具定义85%+节省、程序化工具调用37%节省）。
+
+`MCP` `model-context-protocol` `agent-integration` `cloud-agent` `skills`
+
+---
+
+### [Harness 层怎么自我进化？来自斯坦福大学和 MIT 的一项新研究](/entry/0TsyRliY) 📄
+@Liz的AI冰美式 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
+
+介绍斯坦福+MIT论文《Meta-Harness》，提出让Harness本身进入自动化演进。当前文本优化器在优化Harness时核心问题是反馈压缩——几千步轨迹被压缩成单分数，丢失诊断上下文。Meta-Harness通过将完整文件系统（Python源码、执行日志）开放给代码Agent，让它像人类工程师一样翻阅历史候选、推理失败原因、编写修复代码。实验中TerminalBench-2通过80行环境快照代码使Claude Haiku 4.5达37.6%通过率。
+
+`harness-engineering` `self-improving` `Meta-Harness` `Stanford` `MIT`
+
+---
+
+### [深入源码：Hermes Agent 如何实现 Self-Improving](/entry/dkXZ4WEx) 📄
+@Unknown · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
+
+深入分析Hermes Agent开源架构，阐述其Self-Improving闭环的三个子系统：Memory（2200字符容量限制，声明式事实，逼Agent压缩信息；冻结快照机制保护上下文缓存）、Skill（踩坑后自动创建/patch SKILL.md，Pitfalls节记录教训，按需渐进加载）、Nudge Engine（后台fork独立Agent实例审查会话，每10回合/10迭代触发，输出重定向/dev/null用户无感知）。与OpenClaw对比：Skill需手写，Agent不自主学习；Hermes让Agent越用越强。
+
+`Hermes-Agent` `self-improving` `memory` `skill` `agent-architecture`
+
+---
+
+### [从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？](/entry/crFwnMAy) 📄
+@Unknown · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
+
+作者从Hermes Agent获得启发，开发AgentX插件将自我进化机制从Agent迁移到项目层面。核心设计：知识沉淀分两层（Markdown是证据层，Skill是能力层，必须从Markdown演化而来）；Markdown按Claude Code官方实践分层组织（AGENTS.md入口→专题文档→模块文档→SKILL.md能力层）；Harness Engineering哲学：用Bash/Hook搭骨架，用模型做理解和表达。目标是让Claude Code、Codex、OpenCode等不同agent进入同一项目时，都能共享项目积累的知识资产。
+
+`AgentX` `project-knowledge` `coding-agent` `Hermes` `skill-evolution`
+
+---
+
+## 📅 2026-04-21
+
+### Hermes Agent 8个实用项目推荐
+⭐⭐⭐3 🌐 · 2026-04-21
+
+Moyu 摸鱼局长 URL: https://x. com/Jason23818126/status/2047148464409379070 发布日期：2026-04-21 整理了 8 个 Hermes Agent 热度较高的实用项目，涵盖安全防护、搜索能力、技能扩展、工作空间、持久记忆等方面. **hermes-agent-camel** — 集成 CaMeL 信任边界，在任务执行过程中自动进行安全校验和信任验证，适合需要较高可靠性和防护的生产或敏感场景 GitHub: https://github. com/nativ3ai/hermes-camel 2. **hermes-web-sea
+
+---
+
+### AGENTS.md：让编程代理遵循高级工程师行为规范
+@Geek Lite · ⭐⭐⭐3 🇨🇳 · 2026-04-21
+
+agents-md 是一份可直接放入项目根目录的 AGENTS.md 文件，使 Claude Code、Codex、Cursor 等编程代理遵循高级工程师行为规范。综合了 Karpathy 的四大编程代理失败原则和 Boris Cherny 的 Claude Code 工作流，核心改变：代理在用户犯错时反驳、只做最小必要修改、不擅自重构无关代码、先跑验证再报告完成、遇到歧义主动询问。约 200 行，有两个可编辑部分（项目上下文和经验积累），其余规则保持精简。可通过创建 CLAUDE.md 和 GEMINI.md 符号链接统一管理所有代理的行为规范。
+
+`agents-md` `coding-agent` `claude-code` `cursor` `prompt-engineering`
+
+---
+
+## 📅 2026-04-17
+
+### [AI开发工具链完整方案推荐](/entry/276058ca) 📄
+@RookieRicardoR · ⭐⭐⭐3 🇨🇳 · 2026-04-17
+
+RookieRicardoR 系统梳理当前 AI Agent 开发工具链全貌:底层(模型协议层)推荐 Claude Agent SDK(子进程方式兼容所有 Claude 协议模型)和 OpenAI Agent SDK / Vercel AI SDK / Pi-mono;上层 Runtime 推荐 assistant-ui + tools.ui(完整事件流+UI组件);开源完整方案推荐 CodePilot;记忆层建议可插拔设计(better sqlite + F5，或 markdown)。线程讨论深入，延伸至 Human-in-the-loop 审批、Wiki 模式不是真正记忆层等工程细节。
+
+`agent-sdk` `claude-agent-sdk` `openai-agent-sdk` `vercel-ai-sdk` `assistant-ui`
+
+---
+
+## 📅 2026-04-16
+
+### [OpenClaw 落地到生产实际应用的一种可能的路径](/entry/9eJpiC4m) 📄
+@Ding Junjie（vivo互联网项目团队） · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-16
+
+文章分析 OpenClaw 进入真实生产场景还缺的四层能力：可视化层（Agent 在做什么必须清晰可见）、封闭层（把开放业务动作重构为边界明确的工作单元）、验证层（垂直领域的 gate，不通过不能进入完成态）、回滚层（沙盘机制，Amazon agent canvas 的实践）。核心判断：Coding Agent 成功是因为代码世界天然具备可视化/封闭/可验证/可回滚四个特征；业务 Agent 要落地必须先把这四层能力构建出来。
+
+`OpenClaw` `production` `Agent` `visualization` `sandbox`
+
+---
+
+### [字节最火的开源Agent项目，如何思考Agent的自我进化？](/entry/0qPTtvSb) 📄
+@Daniel（DeerFlow联合作者） · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-16
+
+基于 DeerFlow（字节开源多智能体框架，GitHub 6万+ Stars）和 LangChain 创始人 Harrison Chase 的文章，系统梳理 Agent 自我进化的三层框架：Model（权重更新，最重）、Harness（执行机制，2026年核心竞争点）、Context（记忆与个性化，最先落地）。核心判断：2026 年 Agent 的分水岭不在模型在 Harness；Context 层会最先普及；traces 是三层学习的统一燃料；未来更强的 Agent 不来自更大模型，而来自更会复盘、记忆、重构的系统。
+
+`Agent` `self-evolution` `Harness` `Context` `Model`
+
+---
+
+## 📅 2026-04-15
+
+### [Agent Memory 架构本质](/entry/hqm6txq4) 📄
+⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-15
+
+深度解析 Agent Memory 的工程架构。核心观点：Memory 的难点不在容量，在治理。文章厘清了 Memory 与 State/Policy/Profile 的边界，指出蒸馏只是管理链路中的一个操作而非记忆本身。提出四个建模对象：用户模型、任务模型、世界模型、自我模型。定义了记忆的六个维度（内容/类型/置信度/来源/作用域/时间衰减），以及写入-管理-读取三条链路。强调进化=修正+遗忘，评测从 recall 转向 update/abstain/drift/forget。
+
+`agent-memory` `memory-architecture` `distillation` `knowledge-management` `belief-revision`
+
+---
+
+### [The AI Knowledge Layer: Making Every Agent Smarter](/entry/iplvrqyc) 📄
+@shannholmberg · ⭐⭐⭐3 🌐 · 2026-04-15
+
+作者提出 AI Knowledge Layer 的两层架构：动态知识库层（KBL）和静态品牌基础层（BF）。KBL 让用户将推文、文章、书签等原始素材导入文件夹，由 AI Agent 自动分类、构建结构化 Wiki 页面并维护主索引；BF 则存储用户的声音规则、视觉风格、定位等静态信息，Agent 只读不改。灵感来自 Karpathy 关于将 token 消耗从代码转向知识管理的观点。开源框架，20 分钟即可部署。
+
+`knowledge-layer` `agent-memory` `karpathy` `wiki` `context-engineering`
+
+---
 
 ## 📅 2026-04-14
 
@@ -27,6 +365,26 @@ Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **98** 条活跃资源
 
 ---
 
+## 📅 2026-04-11
+
+### [万字干货：理解 Harness Engineering，看这一篇就够了](/entry/72x6hfdeebbo) 📄
+@咸鱼（TRAE 开发者用户） · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-11
+
+Harness Engineering 是继 Prompt Engineering、Context Engineering 之后，由 Mitchell Hashimoto（HashiCorp 联合创始人）提出并因 OpenAI 报告而广为人知的第三类 AI 工程化方法。其核心隐喻是为 AI Agent 这匹野马套上缰绳，通过约束、引导与纠正确保其稳定运行。该框架以 R.E.S.T 四目标（可靠性、效率、安全性、可追溯性）为基石，通过上下文管理、Function Calling 降级策略、沙盒隔离与多层度量体系，将 Agent 从有趣的玩具变为可规模化的可靠生产力工具。
+
+`harness-engineering` `agent-frameworks` `prompt-engineering` `context-engineering` `reliability`
+
+---
+
+### [万字干货：理解 Harness Engineering，看这一篇就够了](/entry/cc15hq4t) 📄
+@咸鱼（TRAE 开发者用户） · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-11
+
+Harness Engineering 是继 Prompt Engineering 和 Context Engineering 之后 2026 年 AI 领域的核心工程方法论，由 HashiCorp 联合创始人 Mitchell Hashimoto 提出。核心比喻是缰绳：AI Agent = SOTA 模型（野马）+ Harness（驾驭系统）= 千里马。文章系统性拆解了 Harness 的设计目标（R.E.S.T 模型：可靠性、效率、安全性、可观测性）、四层架构（控制平面+数据平面）、核心运行机制（REPL 容器抽象、Token 转化流水线、Function Calling 生命周期）、规划模式（Plan-and-Execute 为主）、沙盒执行框架（从进程级到 VM 级四档隔离）以及度量体系。适合 Agent 系统工程师建立完整的工程化框架认知。
+
+`harness-engineering` `ai-agent` `prompt-engineering` `context-engineering` `llm`
+
+---
+
 ## 📅 2026-04-10
 
 ### [面向移动设备厂商团队的 Agent 体系与 PerformanceAgent 设计深度研究报告](/entry/110qhnsv) 📄
@@ -47,7 +405,7 @@ Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **98** 条活跃资源
 
 ---
 
-### [Position: Episodic Memory is the Missing Piece for Long-Term LLM Agents](#)
+### Position: Episodic Memory is the Missing Piece for Long-Term LLM Agents
 @**：Mathis Pink, Qinyuan Wu, Vy Ai Vo, Javier Turek, Jianing Mu, Alexander Huth, Mariya Toneva · ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 LLM Agent 在长时间、动态交互环境中运行时，如何实现持续学习和自适应？现有方法（长上下文、外部记忆、参数更新）为何无法完整支撑真正长期化的 Agent？
@@ -93,7 +451,7 @@ LLM Agent 需要领域特定技能（skills）才能高效处理复杂任务。�
 
 ---
 
-### [Large Language Model Agent: A Survey on Methodology, Applications and Challenges](#)
+### Large Language Model Agent: A Survey on Methodology, Applications and Challenges
 ⭐⭐⭐3 🇨🇳 · 2026-04-07
 
 LLM Agent 到底是什么、怎么构建、怎么协作、怎么演化？ 本文试图用一套统一的方法论分类体系回答这个正在快速碎片化的领域的核心架构问题。这不是第 N 篇 &quot;Agent 综述&quot;——它的价值在于提出&quot;构建-协作-演化&quot;三维框架，把散落的研究线索串成了一条可追溯的架构演进路径。
@@ -131,7 +489,7 @@ Anthropic 发布 Claude Managed Agents：预构建的可配置 Agent 运行底�
 
 ---
 
-### [LLM Agent 方法论、应用与挑战综述](#)
+### LLM Agent 方法论、应用与挑战综述
 @**：Ming Zhang（北京大学） · ⭐⭐⭐3 🇨🇳 · 2026-04-06
 
 LLM Agent 正在从研究概念走向实际部署，但目前的研究呈现碎片化状态：构建方法、协作模式、进化机制分散在不同工作中，缺乏统一的方法论框架。如何系统化地理解和设计 LLM Agent 系统？
@@ -153,7 +511,7 @@ LLM Agent 正在从研究概念走向实际部署，但目前的研究呈现碎�
 
 ## 📅 2026-04-02
 
-### [Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward](#)
+### Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward
 @、验证门和信任层级映射到渐进式部署权限——直接回应 26.1% 社区技能包含漏洞的严峻现实。 · ⭐⭐⭐3 🇨🇳 · 2026-04-02
 
 LLM Agent 如何从&quot;通用模型&quot;进化为&quot;可动态扩展专业技能的模块化系统&quot;？ Agent Skills 作为一种新兴的抽象层，通过可组合的指令-代码-资源包，使 Agent 无需重训练即可按需加载专业能力。但这一范式在架构、获取、部署和安全方面面临系统性挑战。
@@ -164,7 +522,7 @@ LLM Agent 如何从&quot;通用模型&quot;进化为&quot;可动态扩展专业�
 
 ## 📅 2026-03-31
 
-### [Large Language Model Agent: A Survey](#)
+### Large Language Model Agent: A Survey
 @来自多个机构，行文风格和深度不够统一 · ⭐⭐⭐3 🇨🇳 · 2026-03-31
 
 LLM Agent 领域研究碎片化严重，缺乏统一的分类框架。本文提出&quot;构建-协作-进化&quot;三维方法论体系，系统梳理 LLM Agent 从个体设计到多 Agent 协作再到持续进化的全生命周期。
@@ -175,7 +533,7 @@ LLM Agent 领域研究碎片化严重，缺乏统一的分类框架。本文提�
 
 ## 📅 2026-03-29
 
-### [Agent实践知识图谱](#)
+### Agent实践知识图谱
 @高爷 · ⭐⭐⭐3 🇨🇳 · 2026-03-29
 
 AI Agent实践的知识图谱总结，涵盖四大核心主题：1）记忆系统优化——三层记忆架构（日记层→核心记忆层→向量层）、语义检索策略；2）自我改进机制——错误捕获系统、技能提取流程、任务改进周报；3）工具使用模式——OpenCLI多平台集成、多模型协作与容灾降级策略；4）框架对比——LangGraph（底层编排）、CrewAI（角色协作）、AutoGen（编程式多代理）的定位差异分析。提供了可执行的实践建议。
@@ -219,7 +577,7 @@ AI Agent实践的知识图谱总结，涵盖四大核心主题：1）记忆系�
 
 ## 📅 2026-03-23
 
-### [Browser Use CLI 2.0 - AI 操作浏览器调研报告](#)
+### Browser Use CLI 2.0 - AI 操作浏览器调研报告
 @高爷 · ⭐⭐⭐3 🇨🇳 · 2026-03-23
 
 Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动化工具。核心特点：AI-First设计（语义理解替代CSS selectors）、自然语言驱动、持久化Daemon（50ms延迟）、支持复用本地Chrome登录态。与Playwright/Selenium对比，在AI集成和登录态复用上有显著优势。支持OpenAI/Anthropic/Google/本地模型。工作流集成潜力：SaaS控制台自动化、电商后台、招聘网站、财务录入等场景。
@@ -254,7 +612,7 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 
 ---
 
-### [Browser Use 在 OpenClaw 环境的集成分析](#)
+### Browser Use 在 OpenClaw 环境的集成分析
 @高爷 · ⭐⭐⭐3 🇨🇳 · 2026-03-23
 
 分析Browser Use在OpenClaw环境中的集成可行性。盘点现有浏览器相关工具（OpenCLI、web_fetch、r.jina.ai）及其限制。Browser Use的核心优势场景：需要登录的网站数据抓取（知乎/掘金/即刻/星球）、复杂表单填写、多步骤浏览器操作（Perfetto分析流程）、需保持会话状态的任务。技术限制包括需要Python环境和LLM API。
@@ -1068,6 +1426,28 @@ Read Original
 
 ---
 
+## 📅 2026
+
+### [From Control to Foresight: Simulation as a New Paradigm for Human-Agent Collaboration](/entry/lKq-W6wR) 📄
+@Unknown · ⭐⭐⭐3 🌐 · 2026
+
+论文认为当前LLM Agent与人类协作采用反应式模式存在根本缺陷，人类无法预见解题决策如何向下游传导。提出simulation-in-the-loop范式，将多条备选未来轨迹外化展示，引入Agentic Workflow、Action Space、Simulation、Simulated Impact四个核心概念，以及Lookahead Depth、Exploration Breadth、Granularity三个设计维度。属于CHI 2026视角论文，概念框架尚未经实证验证。
+
+`human-agent-collaboration` `simulation` `foresight` `CHI`
+
+---
+
+## 📅 2025-12-22
+
+### [MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments](/entry/4gebpKeG) 📄
+@Quyu Kong et al. · ⭐⭐⭐⭐4 🌐 · 2025-12-22
+
+MobileWorld是阿里巴巴通义实验室发布的移动GUI Agent基准测试，构建201个任务覆盖20个应用，强调长时域跨应用工作流（平均27.8步，62.2%跨应用任务），并新增用户交互任务（需主动识别歧义请求澄清）和MCP增强任务（调用外部工具协同）。GPT-5+UI-Ins-7B以51.7%成功率领先，证明当前主流Agent在用户交互和MCP任务上仍有显著不足。
+
+`mobile-agent` `GUI-agent` `benchmark` `MCP` `Android`
+
+---
+
 ## 📅 2025-12-15
 
 ### [How we built our multi-agent research system \ Anthropic](/entry/y1pyhae8) 📄
@@ -1292,7 +1672,7 @@ AI编程是当前AI领域唯一盈利赛道。这不仅是一种技术革新，�
 
 ## 📅 2025-03-27
 
-### [LLM Agent 综述](#)
+### LLM Agent 综述
 @、26 页论文覆盖了大量工作，但对每个方法的批判性分析较浅 · ⭐⭐⭐3 🇨🇳 · 2025-03-27
 
 LLM Agent 领域研究碎片化严重：架构设计、协作模式、进化机制散落在不同工作中，缺乏统一的方法论框架来理解&quot;Agent 如何构建、如何协作、如何进化&quot;这一完整生命周期。
@@ -1354,6 +1734,17 @@ Read Original
 微软等公司推出的 AI 工具正辅助编写代码，让软件工程师站在这项技术对劳动力市场所带来冲击的最前沿。
 
 `ChatGPT` `Agent`
+
+---
+
+## 📅 2025-02
+
+### [Preventing Rogue Agents Improves Multi-Agent Collaboration](/entry/htX0TWFp) 📄
+@Ohav Barbi, Ori Yoran, Mor Geva · ⭐⭐⭐⭐4 🌐 · 2025-02
+
+论文研究多智能体系统中流氓智能体导致全系统失败的问题，提出实时监控与干预框架，用多项式岭分类器基于动作预测熵检测流氓智能体，在检测到低成功概率时触发回滚或重置。引入WhoDunitEnv协作环境，实验证明该机制使LLAMA-3.1-70B、QWEN-2.5-72B、GPT-4O成功率提升约10个百分点，代码生成任务提升2.5%，GovSim资源管理任务提升20%。
+
+`multi-agent` `agent-collaboration` `rogue-agent` `monitoring` `intervention`
 
 ---
 

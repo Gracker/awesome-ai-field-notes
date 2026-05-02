@@ -7,10 +7,11 @@ generate-site.py — 从 entries.json 生成 VitePress 站点
 VitePress 把 markdown 当 Vue 模板解析，content 必须做防御性转义。
 """
 
-import json, os, sys, html as html_mod, re as _re
+import json, sys, html as html_mod, re as _re
 from datetime import datetime, timedelta
 from collections import Counter, OrderedDict
 from pathlib import Path
+from urllib.parse import quote
 
 SCRIPT_PATH = Path(__file__).resolve()
 BASE_DIR = SCRIPT_PATH.parent.parent
@@ -23,6 +24,67 @@ DATA_DIR = BASE_DIR / "data"
 META_DIR = BASE_DIR / "metadata"
 SRC_DIR = BASE_DIR / "site-src"
 README_PATH = BASE_DIR / "README.md"
+
+def safe_external_url(url):
+    """Return a Markdown-safe external URL, or None when the URL is not usable."""
+    if not url:
+        return None
+    url = str(url).strip()
+    if not _re.match(r"^https?://", url, _re.I):
+        return None
+    url = _re.sub(r"[\x00-\x1f\x7f\s]+", "", url)
+    if not url:
+        return None
+    # Parentheses and angle brackets frequently appear in scraped junk and break
+    # Markdown link destinations. Percent-encode anything outside URL syntax.
+    return quote(url, safe="/:#?[]@!$&'*,;=%+")
+
+
+def sanitize_markdown_links(content):
+    """Keep only http(s) Markdown links; unwrap local, empty, and JS links."""
+    def repl(match):
+        label = match.group(1).strip()
+        target = match.group(2).strip()
+        safe = safe_external_url(target)
+        return f"[{label}]({safe})" if safe else label
+
+    return _re.sub(r"(?<!!)\[([^\]\n]+)\]\(([^)\n]*)\)", repl, content)
+
+
+def normalize_fence_info(content):
+    """Normalize arbitrary scraped code fence labels so Shiki never sees junk."""
+    def repl(match):
+        info = match.group(1).strip()
+        if not info:
+            return "```"
+        lang = info.split()[0]
+        if _re.fullmatch(r"[A-Za-z0-9_+.#-]+", lang) and not lang.startswith(("$", ".", "#")):
+            return "```" + lang
+        return "```txt"
+
+    return _re.sub(r"(?m)^```([^\n`]*)$", repl, content)
+
+
+def demote_body_headings(content):
+    """Detail pages own the H1; imported article headings start at H2 or below."""
+    out = []
+    in_fence = False
+    for line in content.splitlines(keepends=True):
+        stripped = line.lstrip()
+        indent = line[:len(line) - len(stripped)]
+        if stripped.startswith("```"):
+            in_fence = not in_fence
+            out.append(line)
+            continue
+        if not in_fence:
+            m = _re.match(r"^(#{1,5})(\s+)", stripped)
+            if m:
+                out.append(indent + "#" + stripped)
+                continue
+        out.append(line)
+    return "".join(out)
+
+
 def sanitize_content(content):
     """
     防御性内容清洗 pipeline — content 写入 VitePress 前必须通过。
@@ -41,10 +103,18 @@ def sanitize_content(content):
     if binary_count > len(content) * 0.05:
         return "[内容含二进制数据，已自动跳过]"
 
+    content = normalize_fence_info(content)
+    content = sanitize_markdown_links(content)
+    content = demote_body_headings(content)
+
     # 2. Keep only https:// image refs; strip everything else (relative paths,
     #    absolute paths, broken refs from scraped content like /_astro/, /_next/,
     #    garbage like ';' or './;'). VitePress can't resolve these.
-    content = _re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', lambda m: m.group(0) if m.group(2).startswith('http') else '', content)
+    content = _re.sub(
+        r'!\[([^\]]*)\]\(([^)]+)\)',
+        lambda m: "![{}]({})".format(m.group(1), safe_external_url(m.group(2))) if safe_external_url(m.group(2)) else '',
+        content,
+    )
 
     # 3+4. Process char by char: escape HTML tags and {{ }} outside fenced code blocks
     result, in_fence = [], False
@@ -80,7 +150,7 @@ def sanitize_content(content):
 
         # Outside fences: HTML-like tags
         if content[i] == '<':
-            m = _re.match(r'</?([a-zA-Z][-a-zA-Z0-9_]*)', content[i:])
+            m = _re.match(r'</?([a-zA-Z][-a-zA-Z0-9_]*)\b[^>]{0,500}>', content[i:])
             if m:
                 result.append('`{}`'.format(m.group(1)))
                 i += m.end()
@@ -150,6 +220,62 @@ def load_json(path):
 entries_data = load_json(DATA_DIR / "entries.json")
 categories = load_json(META_DIR / "categories.json")
 entries = entries_data.get("entries", entries_data) if isinstance(entries_data, dict) else entries_data
+
+CATEGORY_ALIASES = {
+    "agent-frameworks": "agents",
+    "coding-agents": "coding",
+    "coding-ai": "coding",
+    "developer-tools": "coding",
+    "ai-tools": "coding",
+    "workflow": "coding",
+    "prompt": "learning",
+    "prompt-engineering": "learning",
+    "content-creation": "industry",
+    "strategy": "industry",
+    "ai-ux": "industry",
+    "llm-infra": "infra",
+    "infrastructure": "infra",
+    "hardware-chips": "infra",
+    "ai-hardware": "infra",
+    "multimodal": "infra",
+    "ai-safety": "industry",
+}
+
+
+def canonical_category(raw):
+    raw = (raw or "").strip()
+    if raw in categories:
+        return raw
+    prefix = raw.split("/", 1)[0].strip()
+    if prefix in categories:
+        return prefix
+    key = raw.lower()
+    prefix_key = prefix.lower()
+    if key in CATEGORY_ALIASES:
+        return CATEGORY_ALIASES[key]
+    if prefix_key in CATEGORY_ALIASES:
+        return CATEGORY_ALIASES[prefix_key]
+    return "uncategorized"
+
+
+def validate_entry_ids(entries):
+    seen = {}
+    duplicates = []
+    for i, entry in enumerate(entries):
+        eid = entry.get("id")
+        if not eid:
+            print(f"❌ entries.json 第 {i} 条缺少 id", file=sys.stderr)
+            sys.exit(1)
+        if eid in seen:
+            duplicates.append((eid, seen[eid], i))
+        seen[eid] = i
+    if duplicates:
+        for eid, first, second in duplicates[:20]:
+            print(f"❌ entries.json ID 重复: {eid} (#{first}, #{second})", file=sys.stderr)
+        sys.exit(1)
+
+
+validate_entry_ids(entries)
 active = [e for e in entries if e.get("status") == "active" and e.get("quality_score", 0) >= 3]
 
 now = datetime.now()
@@ -164,18 +290,31 @@ entries_with_content = set()
 for f in CONTENT_DIR.glob("*.md"):
     if f.stem != "README":
         entries_with_content.add(f.stem)
+active_content_ids = {e["id"] for e in active if e.get("id") in entries_with_content}
 
 # Stats
-cat_counter = Counter(e.get("category", "uncategorized") for e in entries)
+cat_counter = Counter(canonical_category(e.get("category")) for e in active)
+raw_cat_counter = Counter(e.get("category", "uncategorized") for e in entries)
 source_counter = Counter(e.get("source_type", "unknown") for e in entries)
-content_count = len(entries_with_content)
+content_files_total = len(entries_with_content)
+content_count = len(active_content_ids)
+display_categories = OrderedDict(categories)
+if cat_counter.get("uncategorized", 0):
+    display_categories["uncategorized"] = {
+        "name": "Uncategorized",
+        "name_zh": "未分类",
+        "icon": "🗂️",
+        "desc": "待归类但已通过质量门槛的资源",
+    }
 stats = {
     "total_entries": len(entries),
     "active_entries": len([e for e in entries if e.get("status") == "active"]),
     "archived_entries": len([e for e in entries if e.get("status") == "archived"]),
     "this_week_added": len(this_week),
     "entries_with_content": content_count,
+    "content_files_total": content_files_total,
     "category_distribution": dict(cat_counter.most_common()),
+    "raw_category_distribution": dict(raw_cat_counter.most_common()),
     "source_type_distribution": dict(source_counter.most_common()),
     "last_updated": now.strftime("%Y-%m-%d %H:%M"),
 }
@@ -201,12 +340,12 @@ def build_sidebar():
         "    sidebar: [",
         "      { text: '首页', link: '/' },",
     ]
-    for key, info in categories.items():
+    for key, info in display_categories.items():
         count = cat_counter.get(key, 0)
         lines.append("      { text: '%s %s (%s)', link: '/%s' }," % (info['icon'], info['name_zh'], count, key))
+    lines.append("    ],")
+    lines.append("    // Local search stays disabled: arbitrary scraped Markdown can contain empty anchors that break MiniSearch.")
     lines.extend([
-        "    ],",
-        "    search: { provider: 'local' },",
         "    socialLinks: [",
         "      { icon: 'github', link: 'https://github.com/Gracker/awesome-ai-field-notes' },",
         "    ],",
@@ -255,7 +394,7 @@ def date_sort_key(date_str):
 # === Entry formatting for category pages ===
 def fmt_entry(e):
     title = esc(e["title"])
-    url = e.get("url") or "#"
+    url = safe_external_url(e.get("url"))
     eid = e["id"]
     score = e.get("quality_score", 0)
     gh_stars = e.get("github_stars")
@@ -286,10 +425,8 @@ def fmt_entry(e):
         link = url
         badge = ""
 
-    lines = [
-        "### [{}]({}){}{}".format(title, link, stars_str, badge),
-        meta_str,
-    ]
+    heading = "### [{}]({}){}{}".format(title, link, stars_str, badge) if link else "### {}{}{}".format(title, stars_str, badge)
+    lines = [heading, meta_str]
     if body:
         lines.append("")
         lines.append(body)
@@ -327,7 +464,7 @@ home = [
     "",
     "features:",
 ]
-for key, info in categories.items():
+for key, info in display_categories.items():
     count = cat_counter.get(key, 0)
     home.append("  - title: '{} {}'".format(info['icon'], info['name_zh']))
     home.append("    details: '{} · {} 条'".format(info.get('desc', ''), count))
@@ -344,8 +481,8 @@ for e in latest10:
 (SRC_DIR / "index.md").write_text("\n".join(home), encoding="utf-8")
 
 # === Category pages (grouped by date, newest first) ===
-for key, info in categories.items():
-    cat_entries = [e for e in active if e.get("category") == key]
+for key, info in display_categories.items():
+    cat_entries = [e for e in active if canonical_category(e.get("category")) == key]
 
     if not cat_entries:
         page = ["# {} {}".format(info['icon'], info['name_zh']), "", "_暂无条目_"]
@@ -378,7 +515,7 @@ for key, info in categories.items():
 entry_dir = SRC_DIR / "entry"
 if entry_dir.exists():
     for old in entry_dir.glob("*.md"):
-        if old.stem not in entries_with_content:
+        if old.stem not in active_content_ids:
             old.unlink()
 entry_dir.mkdir(exist_ok=True)
 
@@ -411,7 +548,7 @@ for e in active:
     generated_detail += 1
 
     title = esc(e["title"])
-    url = e.get("url") or "#"
+    url = safe_external_url(e.get("url"))
     score = e.get("quality_score", 0)
     lang = "🇨🇳" if e.get("language") == "zh" else ("🌐" if e.get("language") == "en" else "")
     source = e.get("source") or {}
@@ -419,13 +556,13 @@ for e in active:
     added = entry_date(e)
     one_liner = esc(e.get("one_liner", ""))
     tags = [esc(t) for t in e.get("tags", [])[:8]]
-    category = e.get("category", "")
-    cat_info = categories.get(category, {})
+    category = canonical_category(e.get("category"))
+    cat_info = display_categories.get(category, {})
     cat_name = cat_info.get("name_zh", category)
 
     page = [
         "---",
-        "title: '{}'".format(title.replace("'", "\\'")),
+        "title: {}".format(json.dumps(str(e["title"]), ensure_ascii=False)),
         "sidebar: false",
         "---",
         "",
@@ -437,15 +574,17 @@ for e in active:
         "",
         "> {}".format(one_liner) if one_liner else "",
         "",
-        "🔗 [原文链接]({}){}{}{} ⭐{} {}/5 📅 {}".format(
-            url,
-            " | @{}".format(author) if author else "",
-            " | {}".format(lang),
-            " | {} {}".format("⭐" * score, score) if score else "",
-            score, score,
-            added or "未知"
-        ),
     ]
+    meta_parts = []
+    meta_parts.append("🔗 [原文链接]({})".format(url) if url else "🔗 原文链接缺失")
+    if author:
+        meta_parts.append("@{}".format(author))
+    if lang:
+        meta_parts.append(lang)
+    if score:
+        meta_parts.append("{} {} {}/5".format("⭐" * score, score, score))
+    meta_parts.append("📅 {}".format(added or "未知"))
+    page.append(" | ".join(meta_parts))
     if tags:
         page.append("")
         page.append(" ".join("`{}`".format(t) for t in tags))
@@ -470,11 +609,14 @@ readme = [
 ]
 for e in featured10:
     title = esc(e["title"])
-    url = e.get("url") or "#"
+    url = safe_external_url(e.get("url"))
     one_liner = esc(e.get("one_liner", ""))
     added = entry_date(e)
     score = e.get("quality_score", 0)
-    readme.append("- [{}]({}) ⭐{} · {} — {}".format(title, url, score, added, one_liner))
+    if url:
+        readme.append("- [{}]({}) ⭐{} · {} — {}".format(title, url, score, added, one_liner))
+    else:
+        readme.append("- {} ⭐{} · {} — {}".format(title, score, added, one_liner))
 readme.extend([
     "",
     "## 分类导航",
@@ -482,7 +624,7 @@ readme.extend([
     "| 分类 | 数量 | 说明 |",
     "|------|------|------|",
 ])
-for key, info in categories.items():
+for key, info in display_categories.items():
     count = cat_counter.get(key, 0)
     readme.append("| {} {} | {} | {} |".format(info['icon'], info['name_zh'], count, info.get('desc', '')))
 readme.extend([

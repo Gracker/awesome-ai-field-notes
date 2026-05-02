@@ -14,19 +14,19 @@ export default defineConfig({
     ],
     sidebar: [
       { text: '首页', link: '/' },
-      { text: '🧠 模型 (94)', link: '/models' },
-      { text: '🤖 智能体 (105)', link: '/agents' },
-      { text: '💻 AI编程 (167)', link: '/coding' },
-      { text: '⚡ 基础设施 (60)', link: '/infra' },
-      { text: '🌍 行业观察 (54)', link: '/industry' },
-      { text: '📖 学习资源 (115)', link: '/learning' },
+      { text: '🧠 模型 (116)', link: '/models' },
+      { text: '🤖 智能体 (145)', link: '/agents' },
+      { text: '💻 AI编程 (247)', link: '/coding' },
+      { text: '⚡ 基础设施 (62)', link: '/infra' },
+      { text: '🌍 行业观察 (62)', link: '/industry' },
+      { text: '📖 学习资源 (107)', link: '/learning' },
+      { text: '🗂️ 未分类 (57)', link: '/uncategorized' },
     ],
-    // search: { provider: 'local' }, // Disabled: MiniSearch duplicate ID bug
-    search: false,
+    // Local search stays disabled: arbitrary scraped Markdown can contain empty anchors that break MiniSearch.
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Gracker/awesome-ai-field-notes' },
     ],
-    footer: { message: '由 OpenClaw 每日自动维护 · 750 篇有全文' },
+    footer: { message: '由 OpenClaw 每日自动维护 · 594 篇有全文' },
   },
   srcDir: '.',
   outDir: '../dist',

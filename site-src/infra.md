@@ -1,6 +1,48 @@
 # ⚡ 基础设施
 
-推理部署 / RAG / 微调 / 评测 / 多模态 — 共 **57** 条活跃资源
+推理部署 / RAG / 微调 / 评测 / 多模态 — 共 **62** 条活跃资源
+
+## 📅 2026-04-26
+
+### [awesome-gpt-image-2: World&#x27;s largest GPT Image 2 prompt library](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) ⭐2,558
+@YouMind-OpenLab · ⭐⭐⭐3 🌐 · 2026-04-26
+
+awesome-gpt-image-2 是目前最大的 GPT Image 2 提示词库，每日更新，汇集 1800+ 精选提示词并附带预览图，支持 16 种语言。GPT Image 2 的核心能力：精准文字渲染（中日英）、跨图一致性、商业级插画输出、故事板/IP 角色生成、多语言设计海报。同时提供 YouMind GPT Image 2 Prompts Gallery 在线画廊，支持分类浏览和 AI 一键生成。GitHub 2558 Stars。
+
+`gpt-image-2` `openai` `prompt-library` `image-generation` `multimodal`
+
+---
+
+## 📅 2026-04-18
+
+### [Google推出企业版Android Studio Gemini：隐私保护的企业级AI编程辅助](/entry/gok4hbw1) 📄
+@Sandhya Mohan (Google) · ⭐⭐⭐⭐4 🌐 · 2026-04-18
+
+Google在Android Studio中推出企业版Gemini，提供超越消费版的高级隐私保护：客户代码和输入不用于训练共享模型，数据由客户自有，SOC 1/2/3和ISO/IEC 27001等多项认证覆盖，并支持Private Google Access、VPC Service Controls和细粒度IAM权限。面向对数据安全有要求的大中小企业，标志着AI编程辅助工具进入企业合规时代。
+
+`android` `gemini` `google` `enterprise` `code-assist`
+
+---
+
+## 📅 2026-04-11
+
+### [破局Agent时代：ARIES RISCV+AI架构分析](/entry/jvblhpoud3ey) 📄
+⭐⭐⭐⭐4 🇨🇳 · 2026-04-11
+
+ISSCC 2026 展示的 ARIES 架构代表了 AI 芯片从算力怪兽向有脑子的行动派的进化路线。ARIES 通过 RISC-V CPU 集成（调度控制前额叶）+ 280MB 大容量 SRAM + CIM 存内计算，实现 PD/AF 融合方案（拒绝 NVIDIA/Groq 的物理分离路线），以 14nm 工艺在能效比上超越 4nm GPU。其三引擎 NPU Core（TCE/TME/VCE）+ 相似性感知 TCAM + LUT 非均匀量化，构成 Agent 时代芯片的差异化竞争力。
+
+`risc-v` `ai-chip` `agent-era` `in-memory-computing` `cim`
+
+---
+
+### [破局Agent时代：ARIES RISCV+AI架构分析](/entry/n3m8itb5) 📄
+⭐⭐⭐⭐4 🇨🇳 · 2026-04-11
+
+本文深度分析 ISSCC 2026 展示的 ARIES 芯片架构，这是一款专为 AI Agent 时代设计的 RISC-V+AI 异构 SoC。核心创新三点：第一，将 RISC-V CPU 直接集成进 SoC 核心区作为调度单元，解决传统 NPU 控制流跳回 Host CPU 的 PCIe 时延问题；第二，采用统一 Tile + 独立时钟域替代 PD/AF 物理分离，同一硬件动态切换算力密集和访存密集模式；第三，堆 280MB 片内 SRAM + CIM 存内计算消灭访存瓶颈，通过 LUT-based 多精度量化在 14nm 工艺实现超越 4nm GPU 的能效比（YOLO 系列 10.12x FPS/W 提升）。ARIES 代表了 Agent 时代逻辑控制与极致算力耦合的实用主义芯片设计路线。
+
+`risc-v` `ai-chip` `npu` `llm-inference` `agent`
+
+---
 
 ## 📅 2026-04-10
 
@@ -25,6 +67,15 @@ Read Original
 从本地 Gemma 4 实验出发，详解 Transformer KV 缓存原理（QKV 注意力机制中的 Key/Value 缓存），解释为什么 Decoder-only 架构可以缓存历史 token 的 KV。逆向分析 Claude Code 的缓存实现，Anthropic 做了一整套精密的缓存工程。理解后可让同样的套餐多撑 3-5 倍。
 
 `kv-cache` `claude-code` `token-optimization` `transformer` `caching`
+
+---
+
+### [AI工具设计：为什么需要理解用户心理](/entry/e1ed05fa) 📄
+@Avi Chawla · ⭐⭐⭐⭐4 🌐 · 2026-04-06
+
+Avi Chawla 通过 Claude Code 案例详细解析了 LLM Prompt Caching 的技术原理与工程实践。核心观点：KV Cache 将计算复杂度从 O(n^2) 降至 O(n)，静态前缀（系统指令、工具定义、项目上下文）可被缓存并以 0.1x 价格读取。Claude Code 实测 92% Cache Hit Rate，实现 81% 成本降低（$6.00 -&gt; $1.15）。三大工程原则：不要在会话中修改工具定义、不要中途切换模型、不要在缓存前缀中注入状态变量。
+
+`prompt-caching` `kv-cache` `claude` `cost-optimization` `agent`
 
 ---
 
@@ -145,7 +196,7 @@ Anthropic工程团队量化了Agent编程评测中的基础设施噪声问题。
 
 ## 📅 2026-03-08
 
-### [PocketLLM: Enabling On-Device Fine-Tuning for Personalized LLMs](#)
+### PocketLLM: Enabling On-Device Fine-Tuning for Personalized LLMs
 ⭐⭐⭐3 🇨🇳 · 2026-03-08
 
 ## 1. 核心问题

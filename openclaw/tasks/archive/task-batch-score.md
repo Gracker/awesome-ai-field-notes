@@ -26,8 +26,8 @@ Phase 2 完成大部分分类，entries.json 中条目已有 category。
 
 ## 每批完成后
 ```bash
-python3 ../scripts/validate-schema.py
-python3 ../scripts/generate-site.py
+python3 scripts/validate-schema.py
+npm run build
 git commit -m "[openclaw] score: <分类名> — M scored, K archived"
 git push origin main
 ```

@@ -15,9 +15,9 @@
     "original_date": "string — 原文发布日期（YYYY-MM-DD，从元数据头提取）"
   },
   
-  "category": "string — 二级分类路径，如 'agent-frameworks/orchestration'",
+  "category": "string — 站点顶层分类（models/agents/coding/infra/industry/learning），历史二级分类会在站点生成时映射到顶层分类",
   "tags": ["string — 关键词标签"],
-  "source_type": "enum: github | paper | article | x_post | newsletter | video | product | dataset",
+  "source_type": "enum: github | paper | article | x_post | newsletter | video | product | dataset（历史 tweet 视为 x_post 兼容别名）",
   "language": "enum: en | zh | both — 原文语言",
   
   "summary_zh": "string — 中文摘要（100-300字，基于正文提取核心观点，禁止捏造）",

@@ -13,7 +13,7 @@
 
 ### 1. GitHub Stars 刷新
 ```bash
-GITHUB_TOKEN=<token> python3 ../scripts/refresh-stars.py
+GITHUB_TOKEN=<token> python3 openclaw/scripts/refresh-stars.py
 ```
 
 ### 2. 时效归档
@@ -33,7 +33,7 @@ GITHUB_TOKEN=<token> python3 ../scripts/refresh-stars.py
 
 ### 5. 统计 + 提交
 ```bash
-python3 ../scripts/generate-site.py
+npm run build
 git add -A
 git commit -m "[openclaw] maintain: weekly — N stars refreshed, M archived"
 git push origin main

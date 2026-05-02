@@ -11,20 +11,21 @@
 - [MiniMax M2.7 开源但非OSI认可开源:许可协议禁止商用引发争议](https://x.com/MiniMax_AI/status/2043132047397659000) ⭐5 · 2026-05-02 — MiniMax M2.7 模型权重公开但许可协议禁止商用 不符合OSI开源定义
 - [Hinton推荐国际AI安全报告2026:AI风险领域最全面的循证评估](https://x.com/geoffreyhinton/status/2019532085233611207) ⭐5 · 2026-05-02 — Geoffrey Hinton 推荐 Yoshua Bengio 发布的 International AI Safety Report 2026
 - [吴恩达推出新课《AI Prompting for Everyone》:跨模型通用提示工程技巧](https://x.com/AndrewYNg/status/2049886895530967534) ⭐5 · 2026-05-02 — 吴恩达推出新免费课程 教授跨 ChatGPT/Gemini/Claude 的通用提示工程技巧
-- [Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents](https://blog.jetbrains.com/ai/2026/04/introducing-koog-integration-for-spring-ai-smarter-orchestration-for-your-agents/>) ⭐3 · 2026-05-01 — 有参考价值的frameworks内容
-- [Scaling Managed Agents: Decoupling the brain from the hands](#) ⭐3 · 2026-05-01 — 有参考价值的frameworks内容
-- [English](#) ⭐3 · 2026-05-01 — 有参考价值的uncategorized内容
+- [Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents](https://blog.jetbrains.com/ai/2026/04/introducing-koog-integration-for-spring-ai-smarter-orchestration-for-your-agents/%3E) ⭐3 · 2026-05-01 — 有参考价值的frameworks内容
+- Scaling Managed Agents: Decoupling the brain from the hands ⭐3 · 2026-05-01 — 有参考价值的frameworks内容
+- English ⭐3 · 2026-05-01 — 有参考价值的uncategorized内容
 
 ## 分类导航
 
 | 分类 | 数量 | 说明 |
 |------|------|------|
-| 🧠 模型 | 94 | GPT / Claude / Gemini / 开源模型 / 架构 |
-| 🤖 智能体 | 105 | Agent 框架 / MCP / A2A / 手机&桌面助手 |
-| 💻 AI编程 | 167 | IDE / CLI / 代码审查 / 工作流 |
-| ⚡ 基础设施 | 60 | 推理部署 / RAG / 微调 / 评测 / 多模态 |
-| 🌍 行业观察 | 54 | AI 产品 / 大厂战略 / 融资 / 市场分析 |
-| 📖 学习资源 | 115 | 教程 / 论文 / 提示工程 / 演讲 |
+| 🧠 模型 | 116 | GPT / Claude / Gemini / 开源模型 / 架构 |
+| 🤖 智能体 | 145 | Agent 框架 / MCP / A2A / 手机&桌面助手 |
+| 💻 AI编程 | 247 | IDE / CLI / 代码审查 / 工作流 |
+| ⚡ 基础设施 | 62 | 推理部署 / RAG / 微调 / 评测 / 多模态 |
+| 🌍 行业观察 | 62 | AI 产品 / 大厂战略 / 融资 / 市场分析 |
+| 📖 学习资源 | 107 | 教程 / 论文 / 提示工程 / 演讲 |
+| 🗂️ 未分类 | 57 | 待归类但已通过质量门槛的资源 |
 
 ## 评分标准
 

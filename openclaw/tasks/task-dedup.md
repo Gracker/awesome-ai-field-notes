@@ -43,6 +43,6 @@
 ## 约束
 - 硬去重仅处理 score 差距 ≥ 2 的对（避免误删高质量条目）
 - score 相近的重复对只标记不自动处理
-- 去重后运行 `python3 ../scripts/validate-schema.py`
-- 去重后运行 `python3 ../scripts/generate-site.py`
+- 去重后运行 `python3 scripts/validate-schema.py`
+- 去重后运行 `npm run build`
 - 提交：`[openclaw] dedup: weekly dedup scan — N merged, M flagged`
