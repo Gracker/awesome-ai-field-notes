@@ -1,6 +1,28 @@
 # ⚡ 基础设施
 
-推理部署 / RAG / 微调 / 评测 / 多模态 — 共 **62** 条活跃资源
+推理部署 / RAG / 微调 / 评测 / 多模态 — 共 **64** 条活跃资源
+
+## 📅 2026-05-02
+
+### [Anthropic 正在与英国 AI 芯片初创 Fractile 洽谈采购推理芯片](/entry/akye56py) 📄
+@The Information · ⭐⭐⭐3 🌐 · 2026-05-02
+
+据 The Information 报道，Anthropic 正在与英国 SRAM 基 AI 芯片初创公司 Fractile 进行早期洽谈，计划在 2027 年 Fractile 产品上市后采购其推理芯片。随着 Anthropic 销售额爆发式增长，现有服务器供应（来自 Google、Amazon、Nvidia）已面临压力。此举反映了 AI 公司正在积极多元化芯片供应链，以应对日益增长的推理算力需求。Fractile 的 SRAM 基方案代表了一种不同于传统 GPU 的推理加速路径。
+
+`Anthropic` `AI芯片` `Fractile` `推理` `供应链`
+
+---
+
+## 📅 2026-04-30
+
+### [Building with Gemini Embedding 2: Agentic multimodal RAG and beyond](https://developers.googleblog.com/building-with-gemini-embedding-2/)
+⭐⭐⭐⭐4 🌐 · 2026-04-30
+
+Gemini Embedding 2 正式GA，是首个将文本、图像、视频、音频和文档映射到统一语义空间的多模态嵌入模型。支持超过 100 种语言，单次调用可处理 8192 token 文本、6 张图像、120 秒视频、180 秒音频和 6 页 PDF。通过 task prefix 实现非对称检索，显著提升 Agentic RAG 和视觉搜索精度。法律平台 Harvey 借此 Recall@20 提升 3%，视觉搜索 Match@20 从 60% 提升至 87%。
+
+`gemini` `embedding` `multimodal` `RAG` `vision-search`
+
+---
 
 ## 📅 2026-04-26
 

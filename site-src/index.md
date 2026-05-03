@@ -4,7 +4,7 @@ layout: home
 hero:
   name: AI Field Notes
   text: AI 领域精选资源导航
-  tagline: 有观点 · 有评分 · 每日自动更新 · 844 条 · 594 篇有全文
+  tagline: 有观点 · 有评分 · 每日自动更新 · 858 条 · 605 篇有全文
   actions:
     - theme: brand
       text: 浏览全部
@@ -15,19 +15,19 @@ hero:
 
 features:
   - title: '🧠 模型'
-    details: 'GPT / Claude / Gemini / 开源模型 / 架构 · 116 条'
+    details: 'GPT / Claude / Gemini / 开源模型 / 架构 · 117 条'
     link: /models
   - title: '🤖 智能体'
-    details: 'Agent 框架 / MCP / A2A / 手机&桌面助手 · 145 条'
+    details: 'Agent 框架 / MCP / A2A / 手机&桌面助手 · 150 条'
     link: /agents
   - title: '💻 AI编程'
-    details: 'IDE / CLI / 代码审查 / 工作流 · 247 条'
+    details: 'IDE / CLI / 代码审查 / 工作流 · 248 条'
     link: /coding
   - title: '⚡ 基础设施'
-    details: '推理部署 / RAG / 微调 / 评测 / 多模态 · 62 条'
+    details: '推理部署 / RAG / 微调 / 评测 / 多模态 · 64 条'
     link: /infra
   - title: '🌍 行业观察'
-    details: 'AI 产品 / 大厂战略 / 融资 / 市场分析 · 62 条'
+    details: 'AI 产品 / 大厂战略 / 融资 / 市场分析 · 66 条'
     link: /industry
   - title: '📖 学习资源'
     details: '教程 / 论文 / 提示工程 / 演讲 · 107 条'
@@ -38,6 +38,42 @@ features:
 ---
 
 ## 🆕 最新 10 篇
+
+### [Anthropic 正在与英国 AI 芯片初创 Fractile 洽谈采购推理芯片](/entry/akye56py) 📄
+@The Information · ⭐⭐⭐3 🌐 · 2026-05-02
+
+据 The Information 报道，Anthropic 正在与英国 SRAM 基 AI 芯片初创公司 Fractile 进行早期洽谈，计划在 2027 年 Fractile 产品上市后采购其推理芯片。随着 Anthropic 销售额爆发式增长，现有服务器供应（来自 Google、Amazon、Nvidia）已面临压力。此举反映了 AI 公司正在积极多元化芯片供应链，以应对日益增长的推理算力需求。Fractile 的 SRAM 基方案代表了一种不同于传统 GPU 的推理加速路径。
+
+`Anthropic` `AI芯片` `Fractile` `推理` `供应链`
+
+---
+
+### [马斯克诉 OpenAI 案首周遭遇波折](/entry/cudamu2v) 📄
+@Bloomberg · ⭐⭐⭐3 🌐 · 2026-05-02
+
+马斯克对 OpenAI 的诉讼在首周审理中遭遇波折。据彭博社报道，庭审过程中出现多个不利信号。这起备受关注的案件被视为 AI 行业治理走向的风向标，涉及 OpenAI 从非营利向营利转型的合法性、创始团队的信义义务等核心问题。案件的走向将对整个 AI 行业的公司治理结构产生深远影响。
+
+`OpenAI` `马斯克` `诉讼` `法律`
+
+---
+
+### [Claude Code 向 Codex 的习惯迁移](/entry/rcrsoyz3) 📄
+@串串狗小刊 · ⭐⭐⭐3 🇨🇳 · 2026-05-02
+
+串串狗小刊发布的一篇从 Claude Code 迁移到 Codex 的实践指南。文章对比了两个 AI 编程工具在日常使用中的差异，包括上下文管理、工具调用方式、权限模型等方面的区别，并分享了作者在实际项目中完成迁移的经验和踩坑记录。对于同时使用或考虑切换 AI 编程工具的开发者有直接参考价值。（原文抓取失败，基于 RSS 元数据提取）
+
+`Claude Code` `Codex` `AI编程` `迁移` `工具对比`
+
+---
+
+### [OpenAI CFO Sarah Friar：建议将 IPO 推迟至 2027 年，正在管理 Sam Altman](/entry/rc08tdo2) 📄
+@Lauren Thomas / Wall Street Journal · ⭐⭐⭐⭐4 🌐 · 2026-05-02
+
+华尔街日报对 OpenAI CFO Sarah Friar 的深度专访。知情人士透露，Friar 私下建议将 OpenAI IPO 推迟至 2027 年，以避免在 Anthropic 之前匆忙上市导致估值受损。她帮助维持了 OpenAI 与微软的关键合作关系，并正在管理 Sam Altman 的雄心与公司实际发展节奏之间的平衡。报道指出 OpenAI 正处于 11 年历史上最关键的发展阶段，走得太快可能透支业务，太慢则可能被 Anthropic 抢先。
+
+`OpenAI` `IPO` `Sarah Friar` `财务策略`
+
+---
 
 ### [AI Fast Track: 5天免费课程 手把手教你从用AI到用AI构建产品](/entry/ivgx104f) 📄
 @@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
@@ -84,41 +120,11 @@ MiniMax M2.7 model weights are publicly available, but under a license prohibiti
 
 ---
 
-### [Hinton推荐国际AI安全报告2026:AI风险领域最全面的循证评估](https://x.com/geoffreyhinton/status/2019532085233611207)
+### [Hinton推荐国际AI安全报告2026:AI风险领域最全面的循证评估](/entry/f1lbxjt9) 📄
 @@geoffreyhinton · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 This is a great report that provides a thoughtful, detailed and very well researched description of the risks of AI. It is essential reading for anyone who wants to write or talk about AI risks. Referencing: International AI Safety Report 2026 by Yoshua Bengio.
 
 `x` `ai-tools` `ai-tools`
-
----
-
-### [吴恩达推出新课《AI Prompting for Everyone》:跨模型通用提示工程技巧](https://x.com/AndrewYNg/status/2049886895530967534)
-@@AndrewYNg · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
-
-How we prompt AI is very different in 2026 than 2022 when ChatGPT came out. I&#x27;m teaching a new course, AI Prompting for Everyone, to help you become an AI power user - whatever your current skill level. It covers skills that apply across ChatGPT, Gemini, Claude, and other AI.
-
-`x` `ai-tools` `prompt`
-
----
-
-### [Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents](/entry/9dc05bac) 📄
-⭐⭐⭐3 🌐 · 2026-05-01
-
---- title: &quot;Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_kotlin_a_concise_multiplatform_language__21c4780c&quot; group: &quot;Articles/Android 开发者/Kotlin : A concise multiplatform language developed by JetBrains | The JetBrains Bl
-
----
-
-### Scaling Managed Agents: Decoupling the brain from the hands
-⭐⭐⭐3 🌐 · 2026-05-01
-
---- id: &quot;7442497496372219650&quot; cubox_url: https://cubox. pro/web/card/7442497496372219650 url: https://www. com/engineering/managed-agents tags: [] --- Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems. [Read in Cubox](https://cub
-
----
-
-### English
-⭐⭐⭐3 🌐 · 2026-05-01
-
---- id: e5b48fa2 title: &quot;Hinton 推荐：国际 AI 安全报告 2026 是 AI 风险必读文献&quot; url: &quot;https://x. com/geoffreyhinton/status/2019532085233611207&quot; source: &quot;tweet&quot; date: 2026-04-19 tags: [x, ai-coding, ai-safety] --- **@geoffreyhinton** (Geoffrey Hinton, &quot;Godfather of AI&quot;): &gt; Essential reading on AI risk. &gt; &gt; The Inter
 
 ---

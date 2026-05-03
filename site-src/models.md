@@ -1,8 +1,17 @@
 # 🧠 模型
 
-GPT / Claude / Gemini / 开源模型 / 架构 — 共 **116** 条活跃资源
+GPT / Claude / Gemini / 开源模型 / 架构 — 共 **117** 条活跃资源
 
 ## 📅 2026-05-01
+
+### [xAI 发布 Grok 4.3：常驻推理、100万上下文、超低定价，附带语音克隆套件 Custom Voices](/entry/jqzefz34) 📄
+@xAI · ⭐⭐⭐⭐4 🌐 · 2026-05-01
+
+xAI 发布 Grok 4.3 模型，主打&quot;常驻推理&quot;（always-on reasoning）能力，具备 100 万 token 上下文窗口，API 定价仅为 Grok 4.20 的 60%（输入 $1.25/百万token，输出 $2.50/百万token）。在 Artificial Analysis Intelligence Index 上比 Grok 4.20 提升 4 分，以 500B 参数超越 Claude Sonnet 4.6。同时发布 Custom Voices 语音克隆套件，仅需 1 分钟语音样本即可生成可用的语音克隆。xAI 工程师表示更大规模的模型正在训练中。
+
+`xAI` `Grok` `LLM` `语音克隆` `API`
+
+---
 
 ### Anthropic 发布 Claude Opus 4.7，性能如何？
 @作者 · ⭐⭐⭐3 🌐 · 2026-05-01

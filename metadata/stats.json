@@ -1,27 +1,27 @@
 {
-  "total_entries": 844,
-  "active_entries": 799,
+  "total_entries": 858,
+  "active_entries": 813,
   "archived_entries": 45,
-  "this_week_added": 162,
-  "entries_with_content": 594,
-  "content_files_total": 755,
+  "this_week_added": 169,
+  "entries_with_content": 605,
+  "content_files_total": 767,
   "category_distribution": {
-    "coding": 247,
-    "agents": 145,
-    "models": 116,
+    "coding": 248,
+    "agents": 150,
+    "models": 117,
     "learning": 107,
-    "industry": 62,
-    "infra": 62,
+    "industry": 66,
+    "infra": 64,
     "uncategorized": 57
   },
   "raw_category_distribution": {
-    "coding": 167,
+    "coding": 169,
     "learning": 115,
-    "agents": 105,
-    "models": 94,
-    "infra": 60,
+    "agents": 110,
+    "models": 95,
+    "infra": 62,
     "uncategorized": 58,
-    "industry": 54,
+    "industry": 58,
     "ai-tools": 52,
     "workflow": 30,
     "agents/frameworks": 24,
@@ -69,14 +69,15 @@
     "ai-hardware/chip-architecture": 1
   },
   "source_type_distribution": {
-    "article": 545,
-    "x_post": 149,
+    "article": 554,
+    "x_post": 150,
     "tweet": 82,
-    "paper": 38,
+    "paper": 39,
     "github": 16,
     "newsletter": 9,
     "video": 3,
+    "blog_post": 3,
     "product": 2
   },
-  "last_updated": "2026-05-02 22:33"
+  "last_updated": "2026-05-03 08:08"
 }

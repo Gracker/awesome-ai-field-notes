@@ -1,6 +1,48 @@
 # 🌍 行业观察
 
-AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **62** 条活跃资源
+AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **66** 条活跃资源
+
+## 📅 2026-05-02
+
+### [OpenAI CFO Sarah Friar：建议将 IPO 推迟至 2027 年，正在管理 Sam Altman](/entry/rc08tdo2) 📄
+@Lauren Thomas / Wall Street Journal · ⭐⭐⭐⭐4 🌐 · 2026-05-02
+
+华尔街日报对 OpenAI CFO Sarah Friar 的深度专访。知情人士透露，Friar 私下建议将 OpenAI IPO 推迟至 2027 年，以避免在 Anthropic 之前匆忙上市导致估值受损。她帮助维持了 OpenAI 与微软的关键合作关系，并正在管理 Sam Altman 的雄心与公司实际发展节奏之间的平衡。报道指出 OpenAI 正处于 11 年历史上最关键的发展阶段，走得太快可能透支业务，太慢则可能被 Anthropic 抢先。
+
+`OpenAI` `IPO` `Sarah Friar` `财务策略`
+
+---
+
+### [马斯克诉 OpenAI 案首周遭遇波折](/entry/cudamu2v) 📄
+@Bloomberg · ⭐⭐⭐3 🌐 · 2026-05-02
+
+马斯克对 OpenAI 的诉讼在首周审理中遭遇波折。据彭博社报道，庭审过程中出现多个不利信号。这起备受关注的案件被视为 AI 行业治理走向的风向标，涉及 OpenAI 从非营利向营利转型的合法性、创始团队的信义义务等核心问题。案件的走向将对整个 AI 行业的公司治理结构产生深远影响。
+
+`OpenAI` `马斯克` `诉讼` `法律`
+
+---
+
+## 📅 2026-05-01
+
+### [Meta 收购机器人 AI 初创 Assured Robot Intelligence，加入超级智能实验室](/entry/hk0sljwr) 📄
+@Mark Gurman / Bloomberg · ⭐⭐⭐⭐4 🌐 · 2026-05-01
+
+Meta 收购了 Assured Robot Intelligence（ARI），一家专注于为机器人开发 AI 模型的初创公司。ARI 团队将加入 Meta 超级智能实验室（MSL），与 Lerrel Pinto、Xiaolong Wang 等共同推进人形机器人智能。ARI 联合创始人表示，目标是将&quot;能思考和说话的 AI&quot;转变为&quot;能行动的 AI&quot;，在物理世界中安全可靠地协助人类。此举是 Meta 在裁员 8000 人的同时加码物理 AI 和人形机器人赛道的重要布局。
+
+`Meta` `机器人` `人形机器人` `收购` `ARI`
+
+---
+
+## 📅 2026-04-30
+
+### [哈佛研究：OpenAI o1 在急诊分诊中正确率 67%，超越医生的 50-55%](/entry/v65jq96t) 📄
+@Robert Booth / The Guardian · ⭐⭐⭐⭐⭐5 🌐 · 2026-04-30
+
+发表在 Science 上的哈佛研究显示，OpenAI 的 o1 推理模型在真实急诊场景中使用电子病历和护士简短描述进行诊断，正确率达到 67%，而分诊医生仅为 50-55%。在管理计划方面，AI 得分 89% 远超医生的 34%。研究者称这是&quot;将重塑医学的深刻技术变革&quot;，但也强调 AI 应作为辅助工具而非替代医生，呼吁进行更大规模的前瞻性临床试验。论文同期被 NPR、Vox、CNET 等多家主流媒体广泛报道。
+
+`AI医疗` `OpenAI` `o1` `急诊诊断` `Science论文`
+
+---
 
 ## 📅 2026-04-27
 

@@ -1,6 +1,6 @@
 # 💻 AI编程
 
-IDE / CLI / 代码审查 / 工作流 — 共 **247** 条活跃资源
+IDE / CLI / 代码审查 / 工作流 — 共 **248** 条活跃资源
 
 ## 📅 2026-05-02
 
@@ -49,12 +49,21 @@ MiniMax M2.7 model weights are publicly available, but under a license prohibiti
 
 ---
 
-### [Hinton推荐国际AI安全报告2026:AI风险领域最全面的循证评估](https://x.com/geoffreyhinton/status/2019532085233611207)
+### [Hinton推荐国际AI安全报告2026:AI风险领域最全面的循证评估](/entry/f1lbxjt9) 📄
 @@geoffreyhinton · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 This is a great report that provides a thoughtful, detailed and very well researched description of the risks of AI. It is essential reading for anyone who wants to write or talk about AI risks. Referencing: International AI Safety Report 2026 by Yoshua Bengio.
 
 `x` `ai-tools` `ai-tools`
+
+---
+
+### [Claude Code 向 Codex 的习惯迁移](/entry/rcrsoyz3) 📄
+@串串狗小刊 · ⭐⭐⭐3 🇨🇳 · 2026-05-02
+
+串串狗小刊发布的一篇从 Claude Code 迁移到 Codex 的实践指南。文章对比了两个 AI 编程工具在日常使用中的差异，包括上下文管理、工具调用方式、权限模型等方面的区别，并分享了作者在实际项目中完成迁移的经验和踩坑记录。对于同时使用或考虑切换 AI 编程工具的开发者有直接参考价值。（原文抓取失败，基于 RSS 元数据提取）
+
+`Claude Code` `Codex` `AI编程` `迁移` `工具对比`
 
 ---
 

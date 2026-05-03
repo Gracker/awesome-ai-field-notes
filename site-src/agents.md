@@ -1,6 +1,6 @@
 # 🤖 智能体
 
-Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **145** 条活跃资源
+Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **150** 条活跃资源
 
 ## 📅 2026-05-01
 
@@ -158,6 +158,17 @@ GitHub: https://github. com/TheRealSeanDonahoe/agents-md Stars: 525 (截至 2026
 
 ---
 
+## 📅 2026-04-28
+
+### [MCP crossed 97 million monthly SDK downloads in March 2026](https://dev.to/nebulagg/building-production-grade-ai-agents-with-mcp-a-complete-guide-for-2026-3bo2)
+@nebula gg · ⭐⭐⭐⭐4 🌐 · 2026-04-28
+
+MCP（Model Context Protocol）2026 年 3 月 SDK 月下载量突破 9700 万次。该协议从 Anthropic 内部实验到 Linux 基金会 Agentic AI Foundation 托管仅用约 14 个月，速度超过任何已知开发者协议。文章提供生产级 MCP Agent 构建指南，涵盖服务器/客户端实现、安全策略和 2026 年路线图。
+
+`MCP` `Model Context Protocol` `agentic` ` Anthropic` `protocol`
+
+---
+
 ## 📅 2026-04-27
 
 ### [全员 token-maxxing，一场没人敢停的军备竞赛](/entry/5addfa0565) 📄
@@ -192,6 +203,15 @@ GitHub: https://github. com/TheRealSeanDonahoe/agents-md Stars: 525 (截至 2026
 ⭐⭐⭐3 🌐 · 2026-04-27
 
 com 发布日期：2026-04-27 现有代码评测基准（HumanEval、SWE-bench）几乎清一色面向 Python，无法覆盖 Android 开发的复杂性（Kotlin/Java 双语言、Jetpack Compose 与 View 体系并行、Gradle 构建配置、设备碎片化）. Google 正式发布 Android Bench — 首个专门针对 Android 开发的 LLM 评测基准. - 任务来源：GitHub 上 500+ Star 的真实开源 Android 项目，从 38,989 个已合并的 PR 中精选 100 道题 - 任务类型：修复 Breaking Chan
+
+---
+
+### [Avoca AI 获 1.25 亿美元融资，估值 10 亿美元——用 AI Agent 接管服务业电话调度](/entry/02bfdmdl) 📄
+@Allie Garfinkle / Fortune · ⭐⭐⭐3 🌐 · 2026-04-27
+
+AI Agent 公司 Avoca 完成 1.25 亿美元以上融资（种子轮+A轮+B轮），估值达 10 亿美元。Avoca 的 AI Agent 帮助物理服务企业（暖通空调、管道、屋顶等）处理来电和调度任务。两位创始人在 MIT 扑克之夜相识，最初追逐餐饮行业客户，却意外发现 HVAC 公司才是真正的痛点市场。Kleiner Perkins 等顶级 VC 参投。这标志着 AI Agent 在传统服务业的落地正在获得大规模资本认可。
+
+`AI Agent` `融资` `服务业` `电话调度` `Kleiner Perkins`
 
 ---
 
@@ -362,6 +382,15 @@ RookieRicardoR 系统梳理当前 AI Agent 开发工具链全貌:底层(模型�
 [Read Original](https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&amp;mid=2650409010&amp;idx=1&amp;sn=04b9836fa07ff877c459e300707ddcff&amp;chksm=82e0d2bc0316714983894d249271a025550cdea2e2386283a92323167d29ae7a7879ea919fa0&amp;mpshare=
 
 `openclaw` `hermes-agent` `nous-research` `agent-framework` `memory`
+
+---
+
+### [Get ready for Google I/O: Livestream schedule revealed](https://developers.googleblog.com/get-ready-for-google-io-livestream-schedule-revealed/)
+⭐⭐⭐⭐4 🌐 · 2026-04-14
+
+Google I/O 2026 将于 5 月 19-20 日举行,重点聚焦 AI、 Android、Chrome 和 Cloud 领域。大会将以&#x27;代理时代&#x27;(agentic era)为主题,发布面向 AI 自动化复杂工作流的新工具,简化 AI 就绪应用的高质量构建。注册已开放,可在线观看主题演讲和技术演示。
+
+`google-io` `agentic` `ai-tools` `android` `gemini`
 
 ---
 
@@ -1448,6 +1477,17 @@ MobileWorld是阿里巴巴通义实验室发布的移动GUI Agent基准测试，
 
 ---
 
+## 📅 2025-12-19
+
+### [Real-World Agent Examples with Gemini 3](https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/)
+⭐⭐⭐⭐4 🌐 · 2025-12-19
+
+Google 展示 Gemini 3 与六大开源框架（ADK、Agno、Browser Use、Eigent、Letta、mem0）的协作案例，涵盖零售选址、多智能体工作室、浏览器自动化、Salesforce 流程管理、社交 AI Agent 和记忆层等实际场景。Gemini 3 作为核心编排器，提供精确的推理深度控制和状态管理，解决 AI Agent 落地的可靠性难题。
+
+`gemini-3` `multi-agent` `ADK` `agno` `browser-use`
+
+---
+
 ## 📅 2025-12-15
 
 ### [How we built our multi-agent research system \ Anthropic](/entry/y1pyhae8) 📄
@@ -1494,6 +1534,17 @@ Read Original
 然而，这些应用在实现上普遍面临一个核心痛点：**独占屏幕** 。当 Agent 运行时，它会接管手机屏幕，导致用户无法使用自己的手机。加之目...
 
 `Agent` `Android` `AI Safety`
+
+---
+
+## 📅 2025-11-07
+
+### [RAG 工程实践综述：覆盖 2018-2025、面向生产和学术的统一指南](/entry/lql81et4) 📄
+@Dean Wampler (IBM Research), Dave Nielson, Alireza Seddighi · ⭐⭐⭐⭐4 🌐 · 2025-11-07
+
+IBM Research 团队对 2018-2025 年 RAG（检索增强生成）文献进行系统性综述，提出五维分类法（检索逻辑、融合拓扑、模态、适应性、信任校准），是目前最完整的 RAG 架构分类体系。论文整合了 RAGAS 评估框架和企业级基准数据：Galileo AI 的 chunk attribution 达 86% 准确率（1.36x 于 GPT-3.5-Turbo），Trustworthiness 指标中 groundedness 人类相关性 85-92%。论文指出传统 BLEU/ROUGE 对语义一致性评估不足，LLM-based judge 与人类判断相关性更高。
+
+`RAG` `论文` `综述` `检索增强生成` `IBM`
 
 ---
 

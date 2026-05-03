@@ -4,7 +4,7 @@
 
 ## 📅 2026-05-02
 
-### [吴恩达推出新课《AI Prompting for Everyone》:跨模型通用提示工程技巧](https://x.com/AndrewYNg/status/2049886895530967534)
+### [吴恩达推出新课《AI Prompting for Everyone》:跨模型通用提示工程技巧](/entry/58wn955a) 📄
 @@AndrewYNg · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
 How we prompt AI is very different in 2026 than 2022 when ChatGPT came out. I&#x27;m teaching a new course, AI Prompting for Everyone, to help you become an AI power user - whatever your current skill level. It covers skills that apply across ChatGPT, Gemini, Claude, and other AI.
