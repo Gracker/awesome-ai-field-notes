@@ -1,6 +1,62 @@
 # 🌍 行业观察
 
-AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **66** 条活跃资源
+AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **60** 条活跃资源
+
+## 📅 2026-05-03
+
+### [AI Fast Track: 5天邮件课程从入门到实战](/entry/da4ef4b0) 📄
+@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-03
+
+这是一门免费的5天邮件课程，帮助用户从AI消费者转变为AI构建者，无需编程即可上手构建个人AI软件和工具。
+
+`ai-tools` `learning` `email-course` `x`
+
+---
+
+### [高价值AI内容 - OpenAI](/entry/d1c99260) 📄
+@@OpenAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-03
+
+来自@OpenAI的高价值AI相关内容，具有实用性和参考价值。
+
+`ai-tools` `high-value` `x`
+
+---
+
+### [高价值AI内容 - geoffreyhinton](/entry/224d84ef) 📄
+@@geoffreyhinton · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-03
+
+来自@geoffreyhinton的高价值AI相关内容，具有实用性和参考价值。
+
+`ai-tools` `high-value` `x`
+
+---
+
+### [高价值AI内容 - petitegeek](https://x.com/petitegeek/status/1953082338029781441)
+@@petitegeek · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-03
+
+来自@petitegeek的高价值AI相关内容，具有实用性和参考价值。
+
+`ai-tools` `high-value` `x`
+
+---
+
+### [高价值AI内容 - steipete](https://x.com/steipete/status/2050735979477008412)
+@@steipete · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-03
+
+来自@steipete的高价值AI相关内容，具有实用性和参考价值。
+
+`ai-tools` `high-value` `x`
+
+---
+
+### [高价值AI内容 - realmadhuguru](https://x.com/realmadhuguru/status/2016267285342847137)
+@@realmadhuguru · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-03
+
+来自@realmadhuguru的高价值AI相关内容，具有实用性和参考价值。
+
+`ai-tools` `high-value` `x`
+
+---
 
 ## 📅 2026-05-02
 
@@ -542,77 +598,12 @@ Read Original
 
 ---
 
-## 📅 2025-08-28
-
-### [企业BI·by·AI：无“本体”，不落地｜MVO实践篇](https://mp.weixin.qq.com/s/cpyzuWmaxJNCEH6WBl_8yw)
-⭐⭐⭐3 🇨🇳 · 2025-08-28
-
-点击 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2F7Wyo161xEjUUvUcpYXlOicoUx8dsRPYwAOVsCvjHffkALsXdb9YpNibG7KLApIJSTW1aSwaVIGkt6LaCgibwLvXmA%2F640%3Fwx_fmt%3Dpng) 上方蓝字关注我们
-
----
-
-## 📅 2025-07-25
-
-### [爆肝一周看6小时长视频，解读AI时代程序员价值几何](/entry/mALGQqbB) 📄
-⭐⭐⭐3 🇨🇳 · 2025-07-25
-
-**AI 和短视频时代，我看到很多人说自己没有时间读书，没时间看长视频，甚至看不了电影，因为太慢太长了。首先我不知道他们的时间都用在什么地方了，其次我喜欢反其道行之。这些年我购买和阅读大量的纸书，看长视频，写作，看电影，设计产品，徒步摄影，这些都需要我长时间专注做一件事。**
-
----
-
-## 📅 2025-04-19
-
-### [[译]AI算力民主化 第8部分：MLIR编译器基础设施如何？](https://mp.weixin.qq.com/s?__biz=MzI4MTQyNzkxNw==&mid=2247484104&idx=1&sn=8fcdf51ac437ac7cca6698b4e30fc179&chksm=ea9165d1cd2a35e651d73ea43c408e0d493442e771f9ca0595413b7e64d05d09cbbe88a2490c&mpshare=1&scene=1&srcid=0419MCrmWIYsWz3IEMja3rvO&sharer_shareinfo=55fdf99abf6335d0a06758facc30d483&sharer_shareinfo_first=55fdf99abf6335d0a06758facc30d483)
-⭐⭐⭐3 🇨🇳 · 2025-04-19
-
-① 在核心基础尚未完全稳固时过早扩展——会引发持久性问题。 ② 当太多聪明工程师朝着不同方向各自狂奔时，后期将很难掌舵。 ③ 小团队最擅长就成功愿景达成共识并推动实施。只有项目身份牢固确立后，才适合将其扩展到更广泛的社区。
-
----
-
-## 📅 2025-03-26
-
-### [Leading Effective Engineering Teams in the Age of GenAI](/entry/e1k3ik20) 📄
-⭐⭐⭐3 🌐 · 2025-03-26
-
-面向软件工程管理者的 GenAI 时代领导力指南。核心论点：AI 不是写更多代码更快，而是构建更好的软件。提出 70% 问题：AI 能处理约 70% 的常规工作（如样板代码），但关键的 30%（边界情况、性能优化、领域逻辑）仍需人类专业知识。知识悖论：AI 目前更受益于有经验的开发者（能判断 AI 输出质量），而非初学者（可能盲目接受错误方案）。9 条管理建议包括：trust but verify、投资核心技能、防止技能退化、不以速度作为唯一度量。
-
-`engineering-leadership` `GenAI` `AI-adoption` `management` `skill-erosion`
-
----
-
-## 📅 2025-01-20
-
-### [月刊（第28期）：AI 没有体验世界的能力 - Airing 的博客](/entry/eLRMGrp7) 📄
-⭐⭐⭐3 🇨🇳 · 2025-01-20
-
-本篇是对二〇二四年十一月至十二月的记录与思考。 AI 没有体验世界的能力 MoFlow 于昨夜——2024 的跨年夜上线了 App Store，这标识着这三个月的忙碌换得了一个阶段性的结果。于是，我终于有时间来写写月刊了。 在做 MoFlo...
-
----
-
 ## 📅 2025-01-08
 
 ### [译：我是如何利用 LLM 进行编程的 – 云谦的博客](/entry/DdX7I8qz) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-01-08
 
 &gt; 原文：&lt;https://crawshaw.io/blog/programming-with-llms&gt;   &gt; 作者：David Crawshaw   &gt; 译者：ChatGPT 4 Turbo
-
----
-
-## 📅 2024-07-29
-
-### [碎碎念：关于小模型或者端侧大模型](https://mp.weixin.qq.com/s?__biz=Mzk0NzY1MzYyMw==&mid=2247483706&idx=1&sn=ce6bfb9f1b4bccfd91c7072a55b00ffd&chksm=c372dfa2f40556b4576c66bac9b574f740eeba9551de44b9950c0493820626b80b0dd761dda4&mpshare=1&scene=1&srcid=0729XMLbvZoe3qBrbUXgzO4S&sharer_shareinfo=49252a5317de0c081e46db6c65a26a3c&sharer_shareinfo_first=49252a5317de0c081e46db6c65a26a3c)
-⭐⭐⭐3 🇨🇳 · 2024-07-29
-
-Microsoft：Phi-3 Vision 4.2b，支持 文本、图像输入，可以运行在 surface 上
-
----
-
-## 📅 2024-06-26
-
-### [端侧AI，为什么这么火？](/entry/sfPTt5Ja) 📄
-⭐⭐⭐3 🇨🇳 · 2024-06-26
-
-想要赋能用户，当然就离不开终端抓手。我们明显可以看到，端侧AI的发展正在成为市场关注的焦点。除了集成本地大模型的AI手机大量出现之外，AI PC的概念也不断走红。
 
 ---
 
@@ -631,44 +622,6 @@ Cubox 收藏 — 手搓AI智能体实战经验
 ⭐⭐⭐⭐4 🇨🇳 · 2024-02-29
 
 **\[AI Milestone\] AiPhone is coming \| AI+手机时代已来** &gt; **2024年1月18日，三星正式推出了Galaxy S24系列机型，成为全球首款AI手机，从此Galaxy S24超越智能手机时代，将开创新的移动AI手机时代。这是自2007年苹果创始人史蒂夫·乔布斯发布首款iPhone后，智能手机的最强进化。**本文主要介绍三星AI手机中涉及到的AI黑科技及原理，以及对AiPhone（AI+Phone）的未来趋势的一点点思考。
-
----
-
-## 📅 2023-12-01
-
-### [Notion AI 背后的关键时刻与决策](/entry/th1krdfe) 📄
-⭐⭐⭐3 🇨🇳 · 2023-12-01
-
-Notion 联合创始人回顾 Notion AI 从原型到发布的关键决策。2019 年接触 GPT-3 演示时印象不深，2022 年秋季获得 GPT-4 早期访问后决定全力投入。关键产品决策：1) 创建全新 AI 写作 UI 而非简单表单；2) 平衡预包装提示和通用文本输入；3) 用空格键而非 / 命令作为 AI 入口（实现无处不在的访问）。团队在酒店房间用竹签牌画 UI 原型，一周内完成 alpha 版本。发布首周 200 万人注册申请。
-
-`Notion` `AI产品` `GPT-4` `产品设计` `UI设计`
-
----
-
-## 📅 2023-11-12
-
-### [【活动报名】DevFest23&#x27;日程公布：Android、Web、机器学习分会场](/entry/zRr0rcvY) 📄
-⭐⭐⭐3 🇨🇳 · 2023-11-12
-
-Cubox 收藏 — 【活动报名】DevFest23&#x27;日程公布：Android、Web、机器学习分会场
-
----
-
-## 📅 2023-07-31
-
-### [湾区与独立开发 - laike9m&#x27;s blog](https://laike9m.com/blog/wan-qu-yu-du-li-kai-fa,152/?s=09)
-⭐⭐⭐3 🇨🇳 · 2023-07-31
-
-湾区（Bay Area）是否适合独立开发？表面看，这里技术氛围浓厚，激荡着无数新鲜的 idea，似乎很适合做点什么。然而思考下来，我觉得湾区反而是**最不适合**独立开发的地方。
-
----
-
-## 📅 2023-05-16
-
-### [首批68款ChatGPT Plugins开放！我体验后推荐这4款实用插件！](https://good.news/html/65c9dd9d88f50e6b9403a1750c092a10.html)
-⭐⭐⭐3 🇨🇳 · 2023-05-16
-
-前两天看到 Open AI 重磅官宣，这周起，ChatGPT Plus 用户无需排队，直接就能用上联网和插件功能。
 
 ---
 
@@ -707,15 +660,6 @@ Cubox 收藏 — 陆奇最新演讲实录：我的大模型世界观
 ⭐⭐⭐⭐4 🌐 · 2023-02-17
 
 [需翻译] Tech companies are moving fast on AI. That could prove catastrophic
-
----
-
-## 📅 2022-12-05
-
-### [注册ChatGPT全攻略 — Box ⛩️](https://mirror.xyz/0x6E12A28086548B11dfcc20c75440E0B3c10721f5/9O9CSqyKDj4BKUIil7NC1Sa1LJM-3hsPqaeW_QjfFBc)
-⭐⭐⭐3 🇨🇳 · 2022-12-05
-
-地址：https://mirror.xyz/0x6E12A28086548B11dfcc20c75440E0B3c10721f5/9O9CSqyKDj4BKUIil7NC1Sa1LJM-3hsPqaeW_QjfFBc
 
 ---
 

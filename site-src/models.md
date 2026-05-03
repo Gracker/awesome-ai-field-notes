@@ -1,6 +1,6 @@
 # 🧠 模型
 
-GPT / Claude / Gemini / 开源模型 / 架构 — 共 **117** 条活跃资源
+GPT / Claude / Gemini / 开源模型 / 架构 — 共 **76** 条活跃资源
 
 ## 📅 2026-05-01
 
@@ -380,42 +380,6 @@ Read Original
 
 ---
 
-## 📅 2025-10-20
-
-### [听了Andrej Karpathy最新2小时访谈，我对Agent彻底祛魅了](https://mp.weixin.qq.com/s?__biz=MjM5ODQ2MDIyMA==&mid=2650732747&idx=1&sn=3ccc683b01304138d119a52ca677b0fd&chksm=bf78bc41f640b5f5ed3ce6a471090d2db642a03a81184436ab3cc21eb218494a5b32684fba21&mpshare=1&scene=1&srcid=1020YCwPSO9AxJtOL3kcd7DR&sharer_shareinfo=f694954684ab734b9438f7ed8a05439e&sharer_shareinfo_first=f694954684ab734b9438f7ed8a05439e)
-⭐⭐⭐3 🇨🇳 · 2025-10-20
-
-两天前，Andrej Karpathy 上了 Dwarkesh 的播客。YOU管上有视频版，周末我把这期播客过了两遍，信息密度极高。他的核心结论可以用一句话概括：**Agent 的发展还需要十年** 。
-
----
-
-## 📅 2025-09-17
-
-### [最近感觉AI真是特别好的学习工具，我目前主要用的是谷歌的Gemini和NotebookLM](https://mp.weixin.qq.com/s?t=pages/image_detail&scene=1&__biz=MzA4MDU2NDkyNw==&mid=2247496523&idx=1&sn=9d8042c657d234c89f33a6cd222f4c0b&sharer_shareinfo_first=74baabe0d1eaf8f65f138940fd46ce8a&sharer_shareinfo=74baabe0d1eaf8f65f138940fd46ce8a)
-⭐⭐⭐3 🇨🇳 · 2025-09-17
-
-最近感觉AI真是特别好的学习工具，我目前主要用的是谷歌的Gemini和NotebookLM。用他们来解决我几个学习需求。
-
----
-
-## 📅 2025-08-21
-
-### [iPhone 17 不支持 AI Agent，但邪修的智谱不管](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247487090&idx=1&sn=c91bf70b0c5e458ba62f1b17e409df32&chksm=c17d68147ac9082a4fcbb1d38fd7f4941a908bb1c4c003a298cad22fa9d9b57bb63a074cce87&mpshare=1&scene=1&srcid=0821AJPyAKWd2fJrKOrmE6XL&sharer_shareinfo=16a33997dc95b6265972a9acf47d7df6&sharer_shareinfo_first=16a33997dc95b6265972a9acf47d7df6)
-⭐⭐⭐3 🇨🇳 · 2025-08-21
-
-它支持了抖音、小红书、美团、京东等 40+ 高频应用，平时点外卖、订机票、查房源、预约健康服务，它都能搞定。
-
----
-
-## 📅 2025-08-20
-
-### [一键让你的Claude Code拥有所有世界顶级Agent，并卷死它自己](https://mp.weixin.qq.com/s/gRQkeat77A6fIRy5vXo73g)
-⭐⭐⭐3 🇨🇳 · 2025-08-20
-
-其他的Claude Code高手晒过类似这样的截图---满屏都是花花绿绿的Sub Agent在工作，并且工作质量相当高？
-
----
-
 ## 📅 2025-08-11
 
 ### [一个半月高强度 Claude Code 使用后感受](/entry/jFpYdohv) 📄
@@ -447,13 +411,6 @@ Read Original
 ⭐⭐⭐⭐4 🇨🇳 · 2025-07-27
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FSib7IezOlBctSYVw9IASbOMl6iakmOyVggRG5q4v2SuQM01TdoQKpwtOVLWTlFRWXzbAAuwVSpPsgSAX65ufxGCg%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%26randomid%3Djtyc449h%26watermark%3D1)
-
----
-
-### [忘掉《Her》吧，诺兰旧作《记忆碎片》才是LLM Agent的必修课](/entry/rY5ljx6P) 📄
-⭐⭐⭐3 🇨🇳 · 2025-07-27
-
-当 OpenAI 的 CEO Sam Altman 被问及他最爱的人工智能电影时，答案几乎总是 Her。
 
 ---
 
@@ -510,15 +467,6 @@ Google全新 MLKit端上生成式API 现已开放！只需几行代码，就能�
 
 ---
 
-## 📅 2025-05-25
-
-### [从Claude 4发布和Windsurf并购案，看AI的终局](https://mp.weixin.qq.com/s/D8WvnDN8xfDhYlnSxjTo7g?s=09)
-⭐⭐⭐3 🇨🇳 · 2025-05-25
-
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FenzGz9ficm74gcmRktqtwxtjXM0Tx4iaQHmjmj7T8ZlBtk6icnLcgEqgGZy7qX3UCTVuQRyourFYZ4Kxe1V2jAl1w%2F300%3Fwx_fmt%3Dpng%26wxfrom%3D19&amp;valid=false)
-
----
-
 ## 📅 2025-05-21
 
 ### [一文看懂2025 Google IO，誓把一切“装”上Gemini，谷歌眼镜10年逆袭归来](/entry/30xVjnjU) 📄
@@ -534,58 +482,6 @@ Google全新 MLKit端上生成式API 现已开放！只需几行代码，就能�
 ⭐⭐⭐⭐4 🇨🇳 · 2025-05-07
 
 随着大语言模型（Large Language Model, LLM）技术的迅猛发展，其应用已从通用领域快速渗透至编译技术等专业场景。本文将聚焦大模型在编译优化中的创新实践，重点探讨基于大模型的自动向量化的优化方法及其实现机制。
-
----
-
-## 📅 2025-03-31
-
-### [闲谈丨一名AI体验者的自述当年ChatGPT 3横空出世的时候，我对它不屑一顾，心想这不就是超大知识库的复读机么。如今， - 掘金](/entry/4ah2TozZ) 📄
-⭐⭐⭐3 🇨🇳 · 2025-03-31
-
-闲谈丨一名AI体验者的自述当年ChatGPT 3横空出世的时候，我对它不屑一顾，心想这不就是超大知识库的复读机么。如今， - 掘金
-
----
-
-## 📅 2025-03-26
-
-### [在 ChatWise 中使用 MCP 工具](/entry/UzkyEDYa) 📄
-⭐⭐⭐3 🇨🇳 · 2025-03-26
-
-开发者可以根据 MCP 规范实现一些服务 (server)，然后模型可以通过这些服务获取额外的能力和上下文，比如使用网络搜索、操控外部浏览器等等。
-
----
-
-## 📅 2025-03-22
-
-### [[译]AI算力民主化 第六部分：TVM和XLA等AI编译器现状？](https://mp.weixin.qq.com/s?__biz=MzI4MTQyNzkxNw==&mid=2247484061&idx=1&sn=bcaa805cf9fdb0f32c3f04af382f2e84&chksm=eac93b39faccc25f2d3e26a46e15974aca01b5e9b4ee483f5003e6d20c6236c95b13b9706eb2&mpshare=1&scene=1&srcid=0322rFHur0dLUVLhgdJowgsW&sharer_shareinfo=dc191ca27e5cd882539027336f5ea496&sharer_shareinfo_first=dc191ca27e5cd882539027336f5ea496)
-⭐⭐⭐3 🇨🇳 · 2025-03-22
-
-在AI硬件的早期，编写高性能GPU代码是一项虽繁琐但尚可管理的任务。工程师可以用C++手工编写所需关键操作的CUDA内核，而NVIDIA可以将这些内核集成到cuDNN等库中，以巩固其生态锁定。但随着深度学习的发展，这种方法彻底崩溃了。
-
----
-
-## 📅 2025-03-21
-
-### [[译]AI算力民主化 第五部分：CUDA C++替代方案（如OpenCL）现状如何？](https://mp.weixin.qq.com/s?__biz=MzI4MTQyNzkxNw==&mid=2247484057&idx=1&sn=c5250aa3858ec7ae1970f5ae1ab3c353&chksm=ea62120ff18a9bfa6e2a57cf7e80f87e7c06f7acb4de18b322ed5e15f9a39bb324310ee6d5a8&mpshare=1&scene=1&srcid=03214McXlPWCgs4dqwituoA0&sharer_shareinfo=af8e724bd75a0c7f2ccee6dba77b9ed0&sharer_shareinfo_first=a5eeac65e711ee73ef6e03559ed7f9dc)
-⭐⭐⭐3 🇨🇳 · 2025-03-21
-
-生成式AI或许是新生事物，但GPU不是！多年来，从OpenCL到SYCL再到OneAPI，许多人尝试用C++创建可移植的GPU编程模型。这些本是最有希望实现AI计算民主化的CUDA替代方案，但你可能从未听说过它们------因为它们未能与AI产生实际关联。
-
----
-
-## 📅 2025-03-20
-
-### [vLLM 深度解析：Deekseek and vLLM -1](/entry/z1AvjND1) 📄
-⭐⭐⭐3 🇨🇳 · 2025-03-20
-
-本文资料来自vLLM Office Hours第20次会议的记录，时间是2025年2月27日，主题是要讨论vllm 对于deepseek的更新，内容丰富。
-
----
-
-### [[译]AI算力民主化 第四部分：CUDA虽为现有主导者，但它真的完美吗？](/entry/xvQu7gDI) 📄
-⭐⭐⭐3 🇨🇳 · 2025-03-20
-
-要回答CUDA是否&quot;优秀&quot;这个问题，实际比听上去困难得多。我们讨论的是其原始性能？功能集？还是其对AI发展领域的更广泛影响？**CUDA是否&quot;优秀&quot;取决于你询问的对象以及他们的具体需求**。
 
 ---
 
@@ -606,53 +502,12 @@ Read Original
 
 ---
 
-### [[译]AI算力民主化 第三部分：CUDA是如何成功的？](/entry/poAs9BYw) 📄
-⭐⭐⭐3 🇨🇳 · 2025-03-19
-
-若我们作为一个技术生态希望取得进展，就必须理解**CUDA软件帝国** 是如何取得如此统治地位的。表面上，替代方案确实存在------AMD的ROCm、Intel的oneAPI、基于SYCL的框架------但现实中，**CUDA仍然是GPU计算领域无可争议的王者**。
-
----
-
-### [[译]AI计算民主化 第一部分：DeepSeek对AI 的影响](https://mp.weixin.qq.com/s?__biz=MzI4MTQyNzkxNw==&mid=2247484042&idx=1&sn=b172176b249251f4e77d60de2285c377&chksm=ea5e448ae075d1c25a58f8520bf5989faa726bfd54ad18eb0f9d08907ee1a28840a0e6e99222&mpshare=1&scene=1&srcid=0319DGAe5IHdzNNa6XkmsWbz&sharer_shareinfo=38f5f025548c0ef18adb13d118f49870&sharer_shareinfo_first=38f5f025548c0ef18adb13d118f49870)
-⭐⭐⭐3 🇨🇳 · 2025-03-19
-
-&gt; 在Denis的newsletter36中看到Chris Lattner的AI计算民主化系列的第二部分，看的心潮澎湃，特翻译出来，深入学习一下。 DeepSeek的最新突破颠覆了人们对AI算力需求的传统认知，表明通过更好地利用硬件可以显著减少对昂贵GPU的依赖。
-
----
-
-## 📅 2025-03-18
-
-### [[译]AI算力民主化 第二部分：究竟何为“CUDA”？](https://mp.weixin.qq.com/s?__biz=MzI4MTQyNzkxNw==&mid=2247484043&idx=1&sn=10b3bf36f527975282c5f8c918d38506&chksm=ea35c68d4268ffebc00a85a8c3c6630308ef689e6b12e8618e3ac611f8cdcd6aca6473559cf4&mpshare=1&scene=1&srcid=0318YwQ34MqWau9V0sqkhmEs&sharer_shareinfo=2dd6e44f037eaf6a704fa63c3b71b561&sharer_shareinfo_first=2dd6e44f037eaf6a704fa63c3b71b561)
-⭐⭐⭐3 🇨🇳 · 2025-03-18
-
-过去一年间，似乎所有人都开始热议CUDA：它被誉为深度学习的支柱技术，是新兴硬件难以匹敌的根本掣肘，更是英伟达（NVIDIA）构建技术护城河、实现市值飙升的核心密码。DeepSeek的突破却带来了惊人启示：其成功的关键在于&quot;绕开&quot;CUDA，直接调用PTX底层指令...但这究竟意味着什么？虽然行业普遍渴望打破技术垄断，但我们必须先透彻理解对手的本质，才能制定破局之策。
-
----
-
-## 📅 2025-03-17
-
-### [vLLM 深度解析：production stack](https://mp.weixin.qq.com/s?__biz=MzUzNzg4Nzc3MQ==&mid=2247485180&idx=1&sn=d3450cd4e8ad55ff76331c9e49bc6d57&chksm=fb539b2c7e7780b4147b503d220e5b6ac9e53da5fe512c18a3bae2c8c5a0e13482e99cafac26&mpshare=1&scene=1&srcid=0317Jhonzez6SqekD4MVw9h7&sharer_shareinfo=a2405acac8ad8e26eb2ebd7b27e1e61d&sharer_shareinfo_first=a2405acac8ad8e26eb2ebd7b27e1e61d)
-⭐⭐⭐3 🇨🇳 · 2025-03-17
-
-本文资料来自vLLM Office Hours第21次会议的记录，时间是2025年3月6日，主题是vLLM生产堆栈的深度探讨。主讲人包括Red Hat的Michael Goin和Yihua Cheng。会议内容涉及vLLM的最新动态、production stack的架构、性能优化、未来路线图等。
-
----
-
 ## 📅 2025-03-11
 
 ### [【社区说-回顾】全方位 360° 讲解 Gemini 2.0，我家的猫真会后空翻](/entry/j5VLFqTF) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-03-11
 
 为了帮助大家更好地了解和掌握 Gemini2.0 的使用技巧，GDG 社区在 2.27 晚上7点在线上举办了「社区说」分享活动，邀请多位资深的 AI 开发专家，从不同角度为大家解读 Gemini 2.0 的最新变化和开发技巧。本文将带领大家详细回顾此次活动特约嘉宾们的精彩分享。
-
----
-
-## 📅 2025-02-23
-
-### [你无法用 AI 建立护城河 [译] | 宝玉的分享](/entry/SBuvmeAX) 📄
-⭐⭐⭐3 🇨🇳 · 2025-02-23
-
-去年春天，我们写过一篇名为 《你无法用 AI 建立护城河》 （参见附录）的文章。那篇文章提到，虽然 Prompt 工程很重要，但由于在 LLM 上进行实验非常容易，想靠 Prompt 工程来建立长期壁垒并不现实。因此，要想实现差异化，必须专注于应用所能访问的数据质量以及对这些数据的使用方式。
 
 ---
 
@@ -683,59 +538,12 @@ DeepSeek-R1的成功标志着AI在推理能力方面的重要突破。它不仅�
 
 ---
 
-## 📅 2025-02-03
-
-### [OpenAI o3-mini：轻量级推理之王，STEM 领域新标杆！](/entry/tl7ec0pw) 📄
-@lencx · ⭐⭐⭐3 🇨🇳 · 2025-02-03
-
-o3-mini 定位最具成本效益的推理模型，数学/科学/编程全面超越 o1-mini。支持联网搜索但不支持视觉。免费用户首次可试用推理模型。还讨论了 AI 应用形态（网页/本地/编程），以及 o3-mini 代码能力带来的半应用半编程新可能。
-
-`openai` `o3-mini` `reasoning` `coding` `性价比`
-
----
-
 ## 📅 2025-02-01
 
 ### [应战DeepSeek， OpenAI紧急上线o3-mini！价格打骨折，免费用户也能用](/entry/NoFTnFnJ) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-02-01
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FqpAK9iaV2O3udFibzXZiaM3RWnnARYZbTyUooMUia19GzOiaICsibHeaEYib9Hw3ACnstRHq0pNbIL3D0FocWhUy1CgBw%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg)
-
----
-
-## 📅 2025-01-18
-
-### [手机上跑大模型，酷不酷](https://mp.weixin.qq.com/s?__biz=MzkzNTc2ODc3Ng==&mid=2247485371&idx=1&sn=00884807ec4dd7fa099554a96bad0ab8&chksm=c322f86767f257aa30ff2b39e902faa4c2ef3a0b58814c722b97eb61847fa35e98315f140f67&mpshare=1&scene=1&srcid=01188xrnxG7XJUbrPpOqLDnX&sharer_shareinfo=4c2c9e3a76f94c19e259dddea5d1fb96&sharer_shareinfo_first=4c2c9e3a76f94c19e259dddea5d1fb96)
-⭐⭐⭐3 🇨🇳 · 2025-01-18
-
-2025 年的今天，大语言模型的发展非常迅速，除了 OpenAI 的 ChatGPT，其他各个厂子也都在发展自己的大语言模型，各式各样的 AI 助手满天飞。
-
----
-
-## 📅 2025-01-08
-
-### [大语言模型 | LLMBook-zh](https://llmbook-zh.github.io/)
-⭐⭐⭐3 🇨🇳 · 2025-01-08
-
-作者：赵鑫，李军毅，周昆，唐天一，文继荣
-
----
-
-## 📅 2025-01-03
-
-### [为开发者开启 Gemini 时代新篇章](https://mp.weixin.qq.com/s?__biz=Mzk0NDIwMTExNw==&mid=2247595645&idx=1&sn=8c25d024b041b62a304dc8f1e37dfaf2&chksm=c2fbbcf26953dc5f5b6430ca901227e7f01557a7c88c18d5e7dae448bbcb4cc7c6890f0fe51b&mpshare=1&scene=1&srcid=0103ZBS8LJKnFmfP5oG7R23v&sharer_shareinfo=51f4d1b56d2109c559235f502a8e1a7f&sharer_shareinfo_first=51f4d1b56d2109c559235f502a8e1a7f)
-⭐⭐⭐3 🇨🇳 · 2025-01-03
-
-我们推出的 Gemini 2.0 Flash 体验版为开发者带来更具沉浸感和交互性的应用环境。同时，借助全新的编码智能体 Jules，开发者可以更高效地执行任务和优化开发流程。
-
----
-
-## 📅 2024-12-08
-
-### [理解llama.cpp怎么完成大模型推理的](/entry/c1kV8Lly) 📄
-⭐⭐⭐3 🇨🇳 · 2024-12-08
-
-Understanding how LLM inference works with llama.cpp
 
 ---
 
@@ -777,42 +585,6 @@ Understanding how LLM inference works with llama.cpp
 
 ---
 
-## 📅 2024-08-23
-
-### [关于AI的思考：如何在AI时代看清楚自己的价值](https://blog.sailfishc.com/ai?s=09)
-⭐⭐⭐3 🇨🇳 · 2024-08-23
-
-开篇说明：这篇文章我断断续续写了快三周时间，写这篇文章的出发点是在AI出来快两年的时间里，我也一直在思考AI和我的关系，看着AI从GPT3.5的曝光大于实用，到GPT4的惊艳，再到Claude3.5回归实用，我认为只有深入的了解和AI的关系，才能更好的使用AI，当我在看了很多影响自己的AI文章后，发现很多打动我的观点都聚集到了一起，我将大量的文章按照自己的理解和脉络重新整合，试图表达出自己当下对于AI的关系
-
----
-
-## 📅 2024-06-26
-
-### [保姆级教程：利用大模型与高德地图API，轻松实现查找附近咖啡店](/entry/vORc466J) 📄
-⭐⭐⭐3 🇨🇳 · 2024-06-26
-
-我们可以轻松地结合OpenAI的大模型和高德地图API，实现查找某个地址附近咖啡店的功能。这不仅可以提升我们的开发效率，也为我们提供了强大的工具来应对各种实际需求。
-
----
-
-## 📅 2024-06-14
-
-### [用 Gemini API 开始你的 AI 之旅](https://mp.weixin.qq.com/s?__biz=MjM5NDkwOTEyMQ==&mid=2651661888&idx=1&sn=b1c28ef8a949e9b20d7c8a64d59787b6&chksm=bd7918ee8a0e91f8e79468e6dbedf67f046a27249177c8921131f90e3bc16fec8850e4eb4213&mpshare=1&scene=1&srcid=0614tSYzrKvs0h050DT4hGLE&sharer_shareinfo=ac3661cb6e497a9bd7e04a7ba3ca53c8&sharer_shareinfo_first=ac3661cb6e497a9bd7e04a7ba3ca53c8)
-⭐⭐⭐3 🇨🇳 · 2024-06-14
-
-去年，Google 宣布合并旗下两大 AI 实验室，成立 Google DeepMind。同时，他们开始研发迄今为止最大的模型——Gemini 多模态大语言模型。
-
----
-
-## 📅 2024-06-12
-
-### [手机能跑图生成和 LLM 大模型吗](https://blog.cnbang.net/tech/3890/)
-⭐⭐⭐3 🇨🇳 · 2024-06-12
-
-1. 上个时代 AI 的核心应用是**推荐系统**，推荐是依赖海量数据的，海量数据只有服务端上存在，在推荐这主场景下客户端 AI 上能做的事很少，发展得比较吃力。 2. **生成式 AI** 时代，最大的应用就是模型本身，只有训练时依赖海量数据，使用时并不依赖数据，那理论上只要客户端硬件资源足够，在客户端使用，跟在服务端使用，场景和效果是一致的。 3. 生成式 AI 在端上跑模型，最大的优势是**成本** 。成本是当前生成式 AI 应用除了效果以外第二大关键因素，在用户客户端上跑模型，对服务提供...
-
----
-
 ## 📅 2024-05-24
 
 ### [科技爱好者周刊#301：OpenAI 的图书馆工位](/entry/j6bD6nKv) 📄
@@ -828,15 +600,6 @@ Understanding how LLM inference works with llama.cpp
 ⭐⭐⭐⭐4 🇨🇳 · 2024-05-02
 
 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2Fow6przZuPIHP0Gcz8TtJwy0VIHUUhJra1aW5D0F2bmWNQbUkhNqhaGWHUej0QQDoVoTdz2k8Tu00jjHviaVYlSQ%2F300%3Fwx_fmt%3Dpng%26wxfrom%3D19&amp;valid=true)
-
----
-
-## 📅 2024-02-05
-
-### [使用 Gemini Pro 高效开发应用](https://mp.weixin.qq.com/s?__biz=Mzk0NDIwMTExNw==&mid=2247573526&idx=1&sn=dfeb90458a3e88003218e18a9d46b3e2&chksm=c32bace4f45c25f2388860ef48b0c38e85477a14674493e5026a4bcf7e060ffd5fe2162431e6&mpshare=1&scene=1&srcid=0205nPLy3iqaMt4Qhm0ufLEm&sharer_shareinfo=dcac9e8d8e55ccdccc4f97f4316a8dec&sharer_shareinfo_first=dcac9e8d8e55ccdccc4f97f4316a8dec)
-⭐⭐⭐3 🇨🇳 · 2024-02-05
-
-欢迎您使用 Gemini Pro 构建 AI 驱动的功能和 Android 应用，助您简化流程、高效开发。
 
 ---
 
@@ -881,35 +644,6 @@ Read Original
 
 ---
 
-## 📅 2023-07-09
-
-### [ChatGPT 探索：Code Interpreter 高级指南](/entry/qivuzz8c) 📄
-⭐⭐⭐3 🇨🇳 · 2023-07-09
-
-# ChatGPT 探索：Code Interpreter 高级指南 Code Interpreter (Alpha) 是一个实验性的 ChatGPT 模型，具备以下功能（如何开启，请参考 ChatGPT 重大更新：代码解释器即将推出，GPT-4 API 全面开放！）： * 使用 Python 进行编程：模型内置一个 Python 解释器，可以运行 Python 代码。 * 处理上传和下载：支持将文件上传到当前对话工作区，并下载工作结果。 * 沙箱化执行环境：解释器插件在一个受保护的执行环境中运行，包括防火墙和临时磁盘空间。 * 持久会话：代码由解释器插件在一个持久的会话中进行评估，会话在聊天...
-
-`gpt-4` `[]` `chatgpt`
-
----
-
-## 📅 2023-06-19
-
-### [使用Chat gpt提高Android开发效率](https://mp.weixin.qq.com/s?__biz=MjM5NjA5NzQzMg==&mid=2247486120&idx=1&sn=75f6e051653d3a77f940f20fc6a74f61&chksm=a6ef365f9198bf49c4d6d4178ddd7f1765d7e1be61df32622ab6e8f8f1c1efcd6d589c4292f4&mpshare=1&scene=1&srcid=0619FtVBLvV7OV0Jvw4ekZL0&sharer_sharetime=1687140076030&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
-⭐⭐⭐3 🇨🇳 · 2023-06-19
-
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2Fhfx5bHOBa3LO0nOWkGjxbBotFhgoWP69syZGtd0kiaACr70wE9H0GEMdEeiackfxWX9iah7mnN1ics1qf1Sib3SW6pw%2F640%3Fwx_fmt%3Dpng &quot;null&quot;) logo
-
----
-
-## 📅 2023-06-13
-
-### [面向 AI 的编程：是时候该坐下来应对不确定性了](/entry/xlkfMLwP) 📄
-⭐⭐⭐3 🇨🇳 · 2023-06-13
-
-前段时间一直在做「面向 AI 的编程」——其实就是调用 OpenAI 和开源的 LLM。写本文的动机是总结在这段时间里涉及到的各类「技巧」。 我觉得随着时间的发展，未来很多「技巧」会失去价值。但在当下，如果你和我一样，需要在程序代码里嘱咐 LLM 做点什么事情，那么这篇文章应该可以给你一些帮助。
-
----
-
 ## 📅 2023-05-29
 
 ### [Azure OpenAI 的提示工程技术 - Azure OpenAI Service | Microsoft Learn](/entry/akhmlo92) 📄
@@ -942,62 +676,12 @@ Read Original
 
 ---
 
-## 📅 2023-03-27
-
-### [一家投资机构关于ChatGPT的内部讨论会](https://mp.weixin.qq.com/s?__biz=MzIyMTQ1ODk0MA==&mid=2247484028&idx=1&sn=c9553d6721fd6cdf2e511efca84064cd&chksm=e83d3aefdf4ab3f9355279fe2262e2386bb02f0cf971ff47028fcc64450819d3f157da9b2904&mpshare=1&scene=1&srcid=0327SXEsSxd6VpRcwVY7jKcf&sharer_sharetime=1679880443133&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
-⭐⭐⭐3 🇨🇳 · 2023-03-27
-
-&quot;今天叫大家来，是组织大家讨论下ChatGPT的投资机会。ChatGPT可能对各行业产生颠覆性影响就不用我多说了吧。希望大家集思广益，从各自专业的投资领域谈谈chatgpt对未来投资产生的潜在影响。每个投资经理必须重视ChatGPT，现在不投资ChatGPT就等于20年前不在深圳买房。&quot;
-
----
-
 ## 📅 2023-03-26
 
 ### [《GPT-4 ，通用人工智能的火花》论文内容精选与翻译](/entry/E1s71i0w) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-03-26
 
 《通用人工智能的火花：GPT-4早期实验》是3月最重要的一篇论文，引起了广泛的关注和讨论，但是论文长达 154页，中文版本还无人翻译。
-
----
-
-## 📅 2023-03-24
-
-### [其实关于 ChatGPT plugins 的大部分 myth](/entry/1SQPSwRR) 📄
-⭐⭐⭐3 🇨🇳 · 2023-03-24
-
-其实关于 ChatGPT plugins 的大部分 myth，读 OpenAI 这个简短的开发文档都可以得到解答 \[1\]。
-
----
-
-## 📅 2023-03-09
-
-### [聊天GPT 3.5 api chatGPT私有化部署](https://www.chatgoo.com/zh/20231391/)
-⭐⭐⭐3 🇨🇳 · 2023-03-09
-
-PHP版调用OpenAI的API接口进行问答的Demo，代码已更新为调用最新的gpt-3.5-turbo模型, ChatGPT3.5 API 服务 (那是, OpenAI 网页上使用的模型), 允许多个ChatGPT账号协同工作，构建对外API接口服务.
-
----
-
-### [不用数学和代码，解释下ChatGPT算法原理](https://mp.weixin.qq.com/s?__biz=MzI4NDAyOTI0Ng==&mid=2656001143&idx=1&sn=1401ced807aefdc0487fbae19d487518&chksm=f03a4426c74dcd30d8022f09e9b5a8898ccc678a8b3407b3aefeaf6bba7920d52c2bb6504d3e&mpshare=1&scene=1&srcid=0309Pisz67AX4q1KF1YdJhED&sharer_sharetime=1678325918761&sharer_shareid=3fee492c0c6fb5a2da9e121bd1155214)
-⭐⭐⭐3 🇨🇳 · 2023-03-09
-
-这一段时间花了挺长的时间开始看ChatGPT的算法原理，有了一些新的认知，mark了一些算法书，对ChatGPT和OpenAI有了更多的尊重。
-
----
-
-### [👋 Welcome | Learning Prompt](https://learningprompt.wiki/docs/%F0%9F%91%8B%20Welcome)
-⭐⭐⭐3 🇨🇳 · 2023-03-09
-
-* 本教程不是 prompt 大全，如果你预期是找到能直接用的 prompt，建议你谷歌找一找。本教程更多地是教你方法，以及解释这些方法为何有效。 * 本教程不是权威指南，在这个领域我也只是学生。
-
----
-
-## 📅 2023-02-25
-
-### [我所了解的 ChatGPT：二次开发；有何限制；对未来的影响](https://blog.meathill.com/tech/everything-i-know-about-chatgpt-develop-further-limitation-future-effects.html)
-⭐⭐⭐3 🇨🇳 · 2023-02-25
-
-前言OpenAI 的服务注册绑卡GPT-3 与 GPT-3.5我的进展ChatGPT 的限制4097 toke…
 
 ---
 
@@ -1010,57 +694,12 @@ Cubox 收藏 — 从 ChatGPT 看 AI 未来的 7 种场景可能性
 
 ---
 
-## 📅 2023-02-13
-
-### [我们仍未知道那天所见的ChatGPT有多可怕](https://mp.weixin.qq.com/s/jJlcWNpCjTYTmId4XdAC2A)
-⭐⭐⭐3 🇨🇳 · 2023-02-13
-
-Cubox 收藏 — 我们仍未知道那天所见的ChatGPT有多可怕
-
----
-
-## 📅 2023-02-12
-
-### [ChatGPT研究框架（80页PPT）](https://mp.weixin.qq.com/s/Ef9Wlz5jBnF9IwYb_nO3HQ)
-⭐⭐⭐3 🌐 · 2023-02-12
-
-# ChatGPT研究框架（80页PPT） 研究框架系列合规声明：本文节选自正式入库研究报告  - end -  本文转自：计算机文艺复兴 微信公众号 会员申请 请在公众号内回复&quot;个人会员&quot;或&quot;单位会员
-
-`[]` `chatgpt`
-
----
-
-## 📅 2023-02-07
-
-### [最新Chatgpt微信机器人搭建教程](/entry/wLxsv45l) 📄
-⭐⭐⭐3 🌐 · 2023-02-07
-
-[需翻译] ChatGPT 以其强大的信息整合和对话能力惊艳了全球，在自然语言处理上面表现出了惊人的能力。这么强大的工具我们都想体验一下，那么 ChatGPT 怎么用呢？本文将给你逐步详细介绍。
-
----
-
-### [解读ChatGPT背后的技术重点：RLHF、IFT、CoT、红蓝对抗](/entry/l4fKjSXo) 📄
-⭐⭐⭐3 🇨🇳 · 2023-02-07
-
-近段时间，ChatGPT 横空出世并获得巨大成功，使得 RLHF、SFT、IFT、CoT 等这些晦涩的缩写开始出现在普罗大众的讨论中
-
----
-
 ## 📅 2023-02-06
 
 ### [谈谈ChatGPT 背后的核心技术论文](/entry/x1S56IGx) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-02-06
 
 Cubox 收藏 — 谈谈ChatGPT 背后的核心技术论文
-
----
-
-## 📅 2023-01-27
-
-### [最新访谈| 乔姆斯基谈ChatGPT与教育](/entry/vnkJ1ZFm) 📄
-⭐⭐⭐3 🌐 · 2023-01-27
-
-[需翻译] 现在，由于ChatGPT的泛滥，**美国的很多大学已经打响了ChatGPT反击战------重设课程，提前预防！**
 
 ---
 

@@ -1,6 +1,6 @@
 # ⚡ 基础设施
 
-推理部署 / RAG / 微调 / 评测 / 多模态 — 共 **64** 条活跃资源
+推理部署 / RAG / 微调 / 评测 / 多模态 — 共 **46** 条活跃资源
 
 ## 📅 2026-05-02
 
@@ -15,7 +15,7 @@
 
 ## 📅 2026-04-30
 
-### [Building with Gemini Embedding 2: Agentic multimodal RAG and beyond](https://developers.googleblog.com/building-with-gemini-embedding-2/)
+### [Building with Gemini Embedding 2: Agentic multimodal RAG and beyond](/entry/696f3474) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-30
 
 Gemini Embedding 2 正式GA，是首个将文本、图像、视频、音频和文档映射到统一语义空间的多模态嵌入模型。支持超过 100 种语言，单次调用可处理 8192 token 文本、6 张图像、120 秒视频、180 秒音频和 6 页 PDF。通过 task prefix 实现非对称检索，显著提升 Agentic RAG 和视觉搜索精度。法律平台 Harvey 借此 Recall@20 提升 3%，视觉搜索 Match@20 从 60% 提升至 87%。
@@ -26,7 +26,7 @@ Gemini Embedding 2 正式GA，是首个将文本、图像、视频、音频和�
 
 ## 📅 2026-04-26
 
-### [awesome-gpt-image-2: World&#x27;s largest GPT Image 2 prompt library](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) ⭐2,558
+### [awesome-gpt-image-2: World&#x27;s largest GPT Image 2 prompt library](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) ⭐4,266
 @YouMind-OpenLab · ⭐⭐⭐3 🌐 · 2026-04-26
 
 awesome-gpt-image-2 是目前最大的 GPT Image 2 提示词库，每日更新，汇集 1800+ 精选提示词并附带预览图，支持 16 种语言。GPT Image 2 的核心能力：精准文字渲染（中日英）、跨图一致性、商业级插画输出、故事板/IP 角色生成、多语言设计海报。同时提供 YouMind GPT Image 2 Prompts Gallery 在线画廊，支持分类浏览和 AI 一键生成。GitHub 2558 Stars。
@@ -299,26 +299,6 @@ Read Original
 
 ---
 
-## 📅 2025-09-06
-
-### [Claude for Chrome 一手体验！自动回复微信、发Twitter、做调研……做AI浏览器的创业者该慌了，比赛已经结束](https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247498894&idx=1&sn=65bdd89973e4750f9edb33e529813be5&chksm=e83b99637c7fd1cbfcda542b07c524c2d50be42a960bb5888f61f1b2da9f4321bcae6c1c5e35&mpshare=1&scene=1&srcid=09063RMLHnpiiWHHsRoVk1LZ&sharer_shareinfo=fd59ab55729503a9e0f3ed995ba2581b&sharer_shareinfo_first=fd59ab55729503a9e0f3ed995ba2581b)
-⭐⭐⭐3  · 2025-09-06
-
-# Claude for Chrome 一手体验！自动回复微信、发Twitter、做调研……做AI浏览器的创业者该慌了，比赛已经结束 Anthropic 这家公司虽然人品不咋地，但是产品能力是真强啊。国产AI得加油了。 今天早上，有幸在朋友的帮助下，用上了Claude for Chrome使用权限，根据全球只有1000人收到了邀请。 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2F607DKnuWzlFHEAiaNibvnpL4MscUY0SMDlicTPj2bqseStSPOnGNuNdqM3lwhX30GcHadSafQKBFDCfC...
-
-`claude` `anthropic`
-
----
-
-## 📅 2025-08-28
-
-### [移动端长文本处理新算法！vivo与联发科提出EdgeInfinite-Instruct，分段监督微调实现NPU高效部署](https://mp.weixin.qq.com/s?__biz=MjM5ODExNDA2MA==&mid=2449991915&idx=1&sn=da3dd89e182f04dee8c8c5ac2ade9141&chksm=b0f950be96af7bc12328a5ee74bbfc11ed6b5b909d5e2424fbfe181c67021350ab246993d8e0&mpshare=1&scene=1&srcid=0828uXErCxwOEwzSvr55C1dO&sharer_shareinfo=68e9331636d3c4869d8011f376bf8128&sharer_shareinfo_first=68e9331636d3c4869d8011f376bf8128)
-⭐⭐⭐3 🇨🇳 · 2025-08-28
-
-移动端长文本处理新算法！vivo与联发科提出EdgeInfinite-Instruct，分段监督微调实现NPU高效部署
-
----
-
 ## 📅 2025-07-08
 
 ### [GPU到底是如何工作的？这篇AI Infra入门全部告诉你](/entry/swk7j22h) 📄
@@ -327,24 +307,6 @@ Read Original
 # GPU到底是如何工作的？这篇AI Infra入门全部告诉你 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg) &gt; 大模型推理服务到底怎么跑起来的？大模型推理服务的运行过程中，CPU和GPU分别负责哪些工作？ &gt; 用GPU一定比CPU跑的快么？哪些场景需要用GPU? GPU最初的使...
 
 `[]` `inference` `大模型`
-
----
-
-## 📅 2025-05-26
-
-### [YOLOv8 模型训练入门指南：手把手搞定目标检测AI](https://mp.weixin.qq.com/s?__biz=MzAxNTA3MDY1NA==&mid=2455889075&idx=2&sn=0b6d2d319183839da8e78fc3787e5cca&chksm=8de8a6e86f55184c2662e5fa24ffd44dcd2ada03059001d473f9fed42d33b3a1b8827f9153b2&mpshare=1&scene=1&srcid=0526AJKtvTBUcyEeSZbjIhJ7&sharer_shareinfo=a9e2fbbc1caacc3a594e52fa5d232d42&sharer_shareinfo_first=386794d521a0d57b35661b763fec48de)
-⭐⭐⭐3 🇨🇳 · 2025-05-26
-
-我原本觉得 AI 很高深，直到偶然接触了 YOLOv8 ------ 一款&quot;傻瓜式&quot;的目标检测模型。封装良好、文档详尽，甚至不需要理解太多数学公式，也能训练出能用的视觉模型。
-
----
-
-## 📅 2025-05-07
-
-### [深蹲VS大齿比：力量训练的终极选择题！哪个更好呢？](https://mp.weixin.qq.com/s?__biz=MzI4MDEyMDI2OQ==&mid=2247484717&idx=1&sn=6e1b8f337185004eb961c28b15837476&chksm=eaffa30cfbdc151800bd3947a7413a149599167b72cac924a5ec520971c2d6f2dabfa15cdd8c&mpshare=1&scene=1&srcid=0507tDXMgLXAE0G3ILaueOul&sharer_shareinfo=44c2dbb330282eeaa064ce98c54b0197&sharer_shareinfo_first=44c2dbb330282eeaa064ce98c54b0197)
-⭐⭐⭐3 🇨🇳 · 2025-05-07
-
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2Fic4cXMRs0WRtzjrWqaZibg11zc4BSbnaiaryP1JuaFcbuiaT8LZwAU1JKic2qzibsdNO9iaevzRo4vfbJRv7v9Hy4vtkw%2F640%3Fwx_fmt%3Dpng)
 
 ---
 
@@ -373,15 +335,6 @@ AI 代理将在 2025 年成为人工智能的下一个重大飞跃。从自主�
 
 ---
 
-## 📅 2025-03-05
-
-### [关于AI的一些实践和思考 - Rolen&#x27;s Blog](/entry/USoSjovC) 📄
-⭐⭐⭐3 🇨🇳 · 2025-03-05
-
-这几年，由于AI的出现，我感觉生活节奏开始加速，加速，因为可以做的事情更多了，欲望也更多了，人反而变得更加焦虑了。任何事情都有两面性，好的方面是AI的出现满足了很多我曾经无法完成的事情，或者要掉好几层皮才能完成的事情，现在确实可以很轻松地解决。
-
----
-
 ## 📅 2025-02-04
 
 ### [DeepSeek-R1 论文解析——人工智能领域的 RL LLM 新时代？](https://mp.weixin.qq.com/s?__biz=MzUzNzg4Nzc3MQ==&mid=2247485126&idx=1&sn=0b59ea812a2f0eedcf7de12986d99cbd&chksm=fbafde0216ffbfe4fbb5099f6ad2c2cb83630ee86c5da54ae9ec7cd75c1ed986d99f28a30760&mpshare=1&scene=1&srcid=0204EBmVUAlccQp8G0Kw32Dm&sharer_shareinfo=a4cb3d9e576db809f2a6e609010b59f5&sharer_shareinfo_first=a4cb3d9e576db809f2a6e609010b59f5)
@@ -390,15 +343,6 @@ AI 代理将在 2025 年成为人工智能的下一个重大飞跃。从自主�
 # DeepSeek-R1 论文解析——人工智能领域的 RL LLM 新时代？ DeepSeek-R1 论文解析——人工智能领域的 RL LLM 新时代？ 近年来，人工智能 (AI) 领域取得了快速发展，大型语言模型 (LLM) 为通用人工智能 (AGI) 铺平了道路。OpenAI的 o1 是 一个出色的模型，它引入了创新的推理时间扩展技术，可显著增强推理能力。然而，它仍然是闭源的。 今天，我们深入研究了 DeepSeek 推出的开创性研究论文 DeepSeek-R1。这篇题为&quot;DeepSeek-R1：通过强化学习激励大型语言模型中的推理能力&quot;的 论文介绍了一种最先进的开源推理模型，以及使用大...
 
 `deepseek` `llm` `fine-tuning` `[]` `openai`
-
----
-
-## 📅 2025-01-22
-
-### [快让Appium自动化测试你的App吧适用于移动端的UI自动化测试框架有很多，其中主要以Appium与Airtest最为 - 掘金](https://juejin.cn/post/7462305424554590219)
-⭐⭐⭐3 🇨🇳 · 2025-01-22
-
-快让Appium自动化测试你的App吧适用于移动端的UI自动化测试框架有很多，其中主要以Appium与Airtest最为 - 掘金
 
 ---
 
@@ -444,35 +388,6 @@ LLM (Large Language Models) 的风头一时无两，席卷万千行业。业内�
 
 ---
 
-## 📅 2024-08-26
-
-### [abhisheknaiidu/awesome-github-profile-readme](/entry/h5buHi48) 📄
-⭐⭐⭐3 🌐 · 2024-08-26
-
-[需翻译] * Todoist Stats in Readme - Daily Todoist Stats on your Profile Readme * Visitor Badge - Count visitors for your README.md, Issues, PRs in GitHub * 1990s style Visitor Counter - Add a 1990s style visitor counter with one line of markdown. * Vistor Co...
-
----
-
-## 📅 2024-06-20
-
-### [端侧 AI](https://mp.weixin.qq.com/s?__biz=MzkyMTU4OTE2OA==&mid=2247488655&idx=1&sn=dbf749f318315a561f12f7966be09b84&chksm=c1801050f6f79946a2d6e6a1a04e9cbe0f1fc8364be2e886ac6fa6ec7d54d16db791481279ab&mpshare=1&scene=1&srcid=0620BptoCw1X2FVALZd6If67&sharer_shareinfo=14850c869ec881aeaed27ab4d570556b&sharer_shareinfo_first=e2db0e175c1edf666b0021e55fa7de74)
-⭐⭐⭐3 🇨🇳 · 2024-06-20
-
-1、端侧LLM性能瓶颈，不是算力，而是内存速度。   -每生成一个token需要把模型在内存中读出一遍，10-15tops算力即可实现7b 10token/s以上的推理速度，功耗也远低于手游，所以无需担心H端侧。   -目前手机最快大概也就是LPDDR5T，9600MT/S，折合76.8 GB/s，理论最高能实现7b int4 下20 token/s，或14b int4下10token/s的输出。   -存量手机大多内存带宽在40-60GB/s。
-
----
-
-## 📅 2024-05-15
-
-### [Google I/O 2024 ：新的 Gem)ini AI 升级、Android 15 和 Pixel 预告](/entry/z1jgz9it) 📄
-⭐⭐⭐3 🇨🇳 · 2024-05-15
-
-# Google I/O 2024 ：新的 Gem)ini AI 升级、Android 15 和 Pixel 预告 Google I/O 2024大会已经改变了游戏规则，展示了最新的人工智能技术创新，并揭开了备受期待的 And ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2F7G6wAxO5rWAadWLvb3SZuXWlwqTicQX35Aule3BhcgxB9L9YyLYzPHwP19z4xq10rnvubg2Bn2Mn9U6yJRTTWiaw%2F640%3Fwx_fmt%3Dother%26from%3Dappmsg&amp;val...
-
-`gemini` `[]` `inference`
-
----
-
 ## 📅 2024-05-14
 
 ### [GPT-4o：OpenAI 发布最强人机交互模型](/entry/gjncoa3h) 📄
@@ -502,22 +417,6 @@ LLM (Large Language Models) 的风头一时无两，席卷万千行业。业内�
 
 ---
 
-### [万字长文深度解析Sora的核心技术，解密OpenAI掌控时空的秘密武器](/entry/fKDuLILB) 📄
-⭐⭐⭐3 🇨🇳 · 2024-03-03
-
-我们大量看到的stablediffusion体系下的animediff，就经常给人一种魔幻变化的感觉，难以投入到稳定的视频生成中。
-
----
-
-## 📅 2024-02-21
-
-### [一文带你了解OpenAI Sora](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649782526&idx=1&sn=420ff38a80ff74684d556b77b275fe9f&chksm=becceb8589bb62930ada988238d86bc3569977687ce98f850258c49513316ff66409363c80e7&mpshare=1&scene=1&srcid=0221qJgYnOZE5WqV4grTDb9D&sharer_shareinfo=efd1e8bd8e163e6b9001852a9dc5ad8c&sharer_shareinfo_first=efd1e8bd8e163e6b9001852a9dc5ad8c)
-⭐⭐⭐3 🇨🇳 · 2024-02-21
-
-Cubox 收藏 — 一文带你了解OpenAI Sora
-
----
-
 ## 📅 2023-12-26
 
 ### [2023: The Year of AI](/entry/f4uptczq) 📄
@@ -530,22 +429,6 @@ AI has undoubtedly made waves in 2023 and here we spotlight the most significant
 *Correction: In the original blog post published on December 22, 2023, the title &quot;AI Re...
 
 `ChatGPT` `LLM` `Midjourney`
-
----
-
-## 📅 2023-12-04
-
-### [AIGC对程序员的影响 - Thoughtworks洞见](/entry/0qrukb4i) 📄
-⭐⭐⭐3 🇨🇳 · 2023-12-04
-
-AIGC对程序员的影响 - Thoughtworks洞见
-本期播客是参与 #2023技术播客节 共创共建的一期内容。12月4日至8日，每天围绕一个主题，带来8～11期的内容，更多详情也可关注官网 https://podfest.tech，或者微信公众号、即刻、X搜索「2023技术播客节」，欢迎大家...
-Read in Cubox  
-Read Original
-本期播客是参与 #2023技术播客节 共创共建的一期内容。12月4日至8日，每天围绕一个主题，带来8～11期的内容，更多详情也可关注官网 https://podfest.tech，或者微信公众号、即刻、X搜索「2023技术播客节」，欢迎大家多多关注，一键多连！
-在这一期的播客中，我们将探讨AI技术，尤其是ChatGPT和AIGC，如何改变软件工程的面貌。我们会聚焦于AI模型的不稳定性给开发者...
-
-`ChatGPT` `AIGC`
 
 ---
 
@@ -582,28 +465,6 @@ Shimmer: Nutrition Coach
 ChatGPT的火爆出圈，让大家对NLP语言模型的发展历程产生了浓厚的兴趣。本文将从深度学习在NLP领域的发展历程，到大语言模型的发展历程，再到大语言模型的未来展望，带你一起了解NLP语言模型的发展历史。 本文处于初稿状态，可能存在很多错误，如果你有不同的看法，欢迎不吝赐教，先行感谢！ ChatGPT的火爆出圈，让大家对自然语言处理（Natural Language Processing）语言模型的发展历程产生了浓厚的兴趣。本文将从深度学习在NLP领域的发展历程，到大语言模型的发展历程，再到大语言模型的未来展望，带你一起了解NLP语言模型的发展历史。 想必很多人对ChatGPT涌现出的多领域能...
 
 `[]` `chatgpt`
-
----
-
-## 📅 2023-04-08
-
-### [ChatGPT应用开发小记](/entry/714pswc9) 📄
-⭐⭐⭐3 🇨🇳 · 2023-04-08
-
-本文分享了笔者使用 chatGPT 开发 myGPTReader 开源项目的过程。 * 生成式预训练模型（GPT: Generative Pre-trained Transformer） * 大语言模型（LLM: Large Language Model） 如何开发一个基于chatGPT的应用？答案就在问题里，那就是用chatGPT来开发基于chatGPT的应用。本文以笔者的一个开源项目 myGPTReader 为例，分享我是如何基于chatGPT去开发这个系统的，这个系统的功能见这篇文章：我的AI阅读助手。 为了探索chatGPT辅助开发的可能性，我在项目开发之初就记录了与chatGPT对话...
-
-`transformer` `llm` `fine-tuning` `[]` `prompt`
-
----
-
-## 📅 2023-03-30
-
-### [ChatGPT Apps - Ranking ~ ...](https://ossinsight.io/collections/chat-gpt-apps/)
-⭐⭐⭐3 🌐 · 2023-03-30
-
-# ChatGPT Apps - Ranking ~ ... ChatGPT Apps - Ranking ~ https://ossinsight.io/collections/chat-gpt-apps/ 想玩chatgpt项目的可以在这里找找思路 Last 28 Days / Month-to-Month Ranking The following table ranks repositories using three metrics: stars, pull requests, and issues. The table compares last 28 days or the mo...
-
-`rag` `[]` `openai` `chatgpt`
 
 ---
 
@@ -644,22 +505,6 @@ GAN 系列算法开启了图片生成的新起点。GAN的主要灵感来源于�
 
 ---
 
-## 📅 2023-02-21
-
-### [(1 条消息) 如何评价 2023 年 2 月 AI 绘画的最新水平？ - 知乎](/entry/uyp02il6) 📄
-⭐⭐⭐3 🌐 · 2023-02-21
-
-(1 条消息) 如何评价 2023 年 2 月 AI 绘画的最新水平？ - 知乎
-更新：文末有简单复现的步骤——————————————20230220更新：Stable diffusion + chilloutmix…
-Read in Cubox  
-Read Original
-------------------------------------------
-Stable diffusion + chilloutmix
-
-`Stable Diffusion` `Diffusion`
-
----
-
 ## 📅 2023-02-14
 
 ### [ChatGPT 算法原理](/entry/02qyib4a) 📄
@@ -671,15 +516,6 @@ Stable diffusion + chilloutmix
 
 ---
 
-## 📅 2023-02-11
-
-### [凯哥  |  当ERP遇到ChatGPT，新世界的大门被打开](https://mp.weixin.qq.com/s?__biz=MzU3MTkwMDU1NQ==&mid=2247485023&idx=1&sn=4e73a266370216e5350f92d4acfa4c30&chksm=fcd851bbcbafd8ad13a331d14fb0d34ee7474047a53ebc1b2c2ad6de4be0ba45b2c56b36ffb0&mpshare=1&scene=1&srcid=0211zF7t32ICNtkwoAGzpEk3&sharer_sharetime=1676079405528&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
-⭐⭐⭐3 🇨🇳 · 2023-02-11
-
-关键发现：ChatGPT可以导入私有数据进行训练，从而指导业务优化ChatGPT能够记住每一个回话的内容，从
-
----
-
 ## 📅 2023-02-07
 
 ### [ChatGPT背后的经济账](/entry/u2o9qdqv) 📄
@@ -688,29 +524,6 @@ Stable diffusion + chilloutmix
 ChatGPT能否取代Google、百度这样的传统搜索引擎？为什么中国不能很快做出ChatGPT？当前，对这些问题的探讨大多囿于大型语言模型（LLM）的技术可行性，忽略或者非常粗糙地估计了实现这些目标背后的经济成本，从而造成对LLM的开发和应用偏离实际的误判。 本文作者从经济学切入，详细推导了类ChatGPT模型搜索的成本、训练GPT-3以及绘制LLM成本轨迹的通用框架，为探讨LLM成本结构和其未来发展提供了可贵的参考视角。 * LLM驱动的搜索已经在经济上可行 ：粗略估计，在现有搜索成本结构的基础上，高性能LLM驱动搜索的成本约占当下预估广告收入/查询的15%。 * 但经济可行并不意味着经济...
 
 `llm` `[]` `prompt` `inference` `chatgpt`
-
----
-
-## 📅 2022-08-08
-
-### [AI绘画会不会抢画师饭碗](/entry/478aml99) 📄
-⭐⭐⭐3 🇨🇳 · 2022-08-08
-
-还差10天，我成为艺术家这件事就要满3个月了。近3个月以来，几乎每天都会有人留言问我：AI绘画会不会取代画家？
-Read in Cubox  
-Read Original
-还差10天，我成为艺术家这件事就要满3个月了。近3个月以来，几乎每天都会有人留言问我：AI绘画会不会取代画家、插画师的工作？
-以前不好回答这个问题，因为我才开始接触AI绘画，哪里能说出个一二三四。我说能或者不能，你信么？你若信，我信么？现在，鉴于我已经成为季度级艺术家，有了一些个人的实际体验，这里我想谈谈我的个人看法。
-首先，结论是不会抢饭碗。乐观一点来说，也许还会增加了大米供应。
-
----
-
-## 📅 2022-06-19
-
-### [面试随想 | tsaiggo&#x27;s blog](/entry/iMrcg1S1) 📄
-⭐⭐⭐3 🇨🇳 · 2022-06-19
-
-20年本科毕业后就加入了滴滴，今年算是自己的第一次社招面试跳槽吧，感觉还挺奇妙的，随手记录一下自己关于社招的随想吧。 **永远谨记：Fake it till you make it.**
 
 ---
 

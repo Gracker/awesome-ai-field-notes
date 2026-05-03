@@ -1,6 +1,17 @@
 # 📖 学习资源
 
-教程 / 论文 / 提示工程 / 演讲 — 共 **107** 条活跃资源
+教程 / 论文 / 提示工程 / 演讲 — 共 **83** 条活跃资源
+
+## 📅 2026-05-03
+
+### [AI提示词工程：2026年全新课程](https://x.com/AndrewYNg/status/2049886895530967534)
+@@AndrewYNg · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-03
+
+一门全面的AI提示词工程课程，覆盖多个主流AI平台，帮助用户从基础到高级掌握提示词技巧。
+
+`prompt-engineering` `multi-platform` `skill-building` `x`
+
+---
 
 ## 📅 2026-05-02
 
@@ -207,7 +218,7 @@ Anthropic官方Claude Code实战课程的中文翻译版，适合离线阅读。
 
 ---
 
-### [GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。](/entry/7ypeivbn) ⭐8,387 📄
+### [GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。](/entry/7ypeivbn) ⭐8,445 📄
 ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
 # GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。 ChatGPT Shortcut 是根据领域和功能划分的 ChatGPT 快捷指令表，可通过标签筛选、关键词搜索和一键复制来使用提示词，旨在简化你的工作流程并提高生产力。即使是初学者，你只需复制提示词，稍加修改后发送给 ChatGPT，就能获得指定输出，让你的生产力加倍！ 提示词（即 Prompt）通常是用户提供的问题或文本，以激活模型生成回复。简单来说，prompt 就是用户想要询问的内容，作为输入送到 ...
@@ -680,15 +691,6 @@ Allie K. Miller 推出免费 5 天邮件课程，核心主张是「用 AI」与�
 
 ---
 
-## 📅 2025-08-21
-
-### [失業半年，我用 AI 打造每日輸出系統，結果 AI 公司主動找上門](https://calpa.me/blog/ai-daily-output-jobless-to-opportunity/)
-⭐⭐⭐3 🇨🇳 · 2025-08-21
-
-又一次失業，這次長達半年。這樣的狀態對我來說早已不陌生。在這個充滿變數的年代，擁有穩定高薪反而成了少數人的特權。我並不是逃避工作，而是更清楚自己不想為了履歷、安全感而犧牲真正想投入的東西。這半年來，我既沒投遞履歷，也沒請人內推，更沒有煩惱要不要找獵頭。我選擇建立一套屬於自己的每日輸出流程，透過 ChatGPT 和各種 AI 工具，把每個產品概念具體化，並持續記錄與反覆優化。每一個專案，從 Prompt GUI、自動摘要，到 Git commit 精靈與紫微斗數生成器，我都拆解成模組，系統化整理成...
-
----
-
 ## 📅 2025-08-15
 
 ### [Anthropic全网追杀的人，可能是我……](/entry/fuxlqv7h) 📄
@@ -765,46 +767,6 @@ Flutter 复现 iOS 26 **&quot;液态玻璃&quot;效果** ，解析着色器与�
 
 ---
 
-## 📅 2025-05-25
-
-### [Gemini 2.5：我们最智能的模型系列再升级](https://mp.weixin.qq.com/s?__biz=Mzk0NDIwMTExNw==&mid=2247596580&idx=3&sn=5de027b130203e8ef3e6c6ee1daddfd4)
-⭐⭐⭐3 🇨🇳 · 2025-05-25
-
-# Gemini 2.5：我们最智能的模型系列再升级 Gemini 2.5 是 Google 最新升级的智能模型系列，带来了显著的性能提升和新功能，包括更自然的对话体验、更高的安全性以及支持开发者使用的多种工具。2.5 Pro 和 2.5 Flash 在多个领域表现出色，并通过新的技术如 Deep Think 和文本转语音功能进一步增强了用户体验。
-
-`gemini` `[]`
-
----
-
-## 📅 2025-04-16
-
-### [How To Remember Everything You Read With AI - Dan Koe](/entry/hyfiqln2) 📄
-⭐⭐⭐3 🌐 · 2025-04-16
-
-Dan Koe 探讨了如何用 AI 深化阅读理解而非替代阅读。核心观点：阅读的价值不在于获取信息（AI 更擅长），而在于改变思维方式。提出两层阅读法：Consumption（摄入）和 Digestion（消化）。具体 AI 用法：1) 用 AI 作为阅读伙伴，在阅读前生成问题框架；2) 阅读后用 AI 撰写结构化摘要和个人反思；3) 让 AI 帮助发现认知盲区和限制性信念；4) 将笔记转化为行动方案。强调 AI 应用于加深理解而非替代思考。
-
-`reading` `knowledge-management` `AI-learning` `personal-growth` `Dan-Koe`
-
----
-
-### [你在为AI工具付费？我只花了100美元就解锁了一大堆牛逼工具，详细教程在这里](https://mp.weixin.qq.com/s?__biz=MzAwODIyOTQ4Mw==&mid=2649442806&idx=1&sn=d4175e57e1966d6d0241424ed129531e&chksm=82ff75ded2086520c0e552ecf5ee01539bf56598fbc0a46c3a2c641d83dd1d3cc28a1cca6081&mpshare=1&scene=1&srcid=0416CbTSRLUKYxW2rCCdCodi&sharer_shareinfo=bf5c9fb733fd9253cc4cb3e7d13aacf4&sharer_shareinfo_first=99aa800042625851fe8603840fe4a7eb)
-⭐⭐⭐3 🇨🇳 · 2025-04-16
-
-著名产品Newsletter主理人、播客主播Lenny ，靠自己的人脉关系，联合一大堆牛逼AI工具产品搞捆绑销售。 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FjibL99tg2bCUZEegNUjLOOAKCsvGCY4lPuh2DSHoyFjuE90XxiaesckU00Tceibz4ePw0c2cMzic2ia8Jbc4CSPJiabA%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg &quot;null&quot;) Le...
-
----
-
-## 📅 2025-04-12
-
-### [Prompt Engineering | Kaggle Whitepaper](/entry/miopc080) 📄
-@Lee Boonstra · ⭐⭐⭐3 🌐 · 2025-04-12
-
-Google/Kaggle 发布的 Prompt Engineering 白皮书，面向 Gemini 模型的提示工程方法。涵盖各种提示技术、最佳实践和挑战。面向 Vertex AI 和 API 用户，适合入门参考。
-
-`prompt-engineering` `kaggle` `google` `gemini` `whitepaper`
-
----
-
 ## 📅 2025-03-26
 
 ### [AI 时代下的工程领导力：如何打造高效团队 - 来自谷歌工程负责人、Chrome 开发者的宝贵经验分享](/entry/vu8j87wr) 📄
@@ -836,17 +798,6 @@ Lilian Weng 的经典综述文章，系统阐述以 LLM 为核心的自主 Agent
 ⭐⭐⭐⭐4 🇨🇳 · 2025-03-21
 
 本杂志开源^\[1\]^，欢迎投稿^\[2\]^。另有《谁在招人》^\[3\]^服务，发布程序员招聘信息。合作请邮件联系^\[4\]^（yifeng.ruan@gmail.com^\[5\]^）。
-
----
-
-## 📅 2025-02-17
-
-### [Google Gemini 如何加速 Android 开发？](/entry/an1q7e8h) 📄
-⭐⭐⭐3  · 2025-02-17
-
-# Google Gemini 如何加速 Android 开发？ &gt; 《10. 揭秘 Compose 原理》 &gt; 《2 小时入门 Jetpack Compose》 &gt; 《深入理解 Jetpack Lifecycle（原理篇）》 你好，我是朱涛。今天我们来聊聊 AI 和 Android 开发。近些年，基于大模型的人工智能发展迅猛，OpenAI 有 ChatGPT，国内有 Deepseek。然后，我因为和 Google 接触比较多，有幸成为了 Gemini 的第一批使用者，这些年一直用下来，感觉也非常不错。 Android Studio 在最新的版本迭代中，也在积极引入 Gemini 来强化它的 ...
-
-`deepseek` `大模型` `[]` `openai` `gemini`
 
 ---
 
@@ -892,35 +843,6 @@ Read Original
 
 ---
 
-## 📅 2024-12-13
-
-### [Gemini 2.0: 我们智能体时代的最新 AI 模型](/entry/s2wjtb3x) 📄
-⭐⭐⭐3 🇨🇳 · 2024-12-13
-
-# Gemini 2.0: 我们智能体时代的最新 AI 模型 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2Fw3eNBHXFDrCM7kg7ch3yHcLT5RRuz8GxtAd2JWreqfOkpbv2picEkzIjdVibeQ3Y6F1wWQZYNPepibK7wWztUBI3w%2F640%3Fwx_fmt%3Dpng) ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2Fw3eNBHXFDrCM7kg7ch3yHcLT5RRuz8Gx763rVwvpI7bLicsjrR9dW...
-
-`gemini` `[]` `inference`
-
----
-
-## 📅 2024-07-15
-
-### [第10期：OpenAI正研发代号“草莓”的突破性AI推理技术 | 信息差——独立开发者出海周刊](/entry/wRYAJAjI) 📄
-⭐⭐⭐3 🇨🇳 · 2024-07-15
-
-Knowledge is power, info-gap is money!「信息差——独立开发者出海周刊」是一个帮助独立开发者缩小信息差的技术周刊。
-
----
-
-## 📅 2024-07-11
-
-### [生成式 AI 应用的设计原则](/entry/rHWqbklI) 📄
-⭐⭐⭐3 🇨🇳 · 2024-07-11
-
-**原文引自 Justin Weisz 的文章《Design Principles for Generative AI Applications》，译文内容已做部份删减和调整。**
-
----
-
 ## 📅 2024-07-07
 
 ### [Articels/腹背受敌的中国经济（3 万字长文）.md at main · foreveryh/Articels · GitHub](/entry/vbv4u5ai) ⭐25 📄
@@ -932,24 +854,6 @@ Read in Cubox
 Read Original
 繁华渐逝：腹背受敌的中国经济（3 万字长文）
 全文约 3 万字，撰写花了我 14 个月。阅读需要 60 分钟。如果完全读懂，能受益 30 年。
-
----
-
-### [宝玉的科技文章翻译GPT](https://bearwith.ai/baoyu-translation-gpt/)
-⭐⭐⭐3 🌐 · 2024-07-07
-
-[需翻译] Learn how to enhance your translations using AI by providing context and leveraging prompts for better accuracy. 如何通过提供上下文和提示来提高AI翻译的准确性，使用“科技文章翻译”这个GPT来快速准确地翻译。
-
----
-
-## 📅 2024-07-03
-
-### [Generative AI for Beginners](/entry/13l53rvc) 📄
-⭐⭐⭐3  · 2024-07-03
-
-# Generative AI for Beginners 通过 12 章的课程，开启构建生成式 AI 应用程序之路 通过微软云技术布道师团队提供的十二章系列课程，了解构建生成式 AI 应用程序的基础知识。 每章都涵盖了生成式人工智能原理和应用程序开发的一个关键方面。 在整个系列课程中，我们将建立我们自己的生成式人工智能初创公司，以便您可以了解如何实现您的想法。 首先，将 整个 repo fork 到您自己的 GitHub 帐户，以便能够更改任何代码并完成相关学习。 您还可以(🌟)该 Fork以便稍后更容易地找到它！ 前往课程学习环境设置 找到最适合您的设置指南！ 我们相信最好的学习方式之一就...
-
-`[]`
 
 ---
 
@@ -989,15 +893,6 @@ Read Original
 
 ---
 
-## 📅 2024-02-01
-
-### [我用Coze来掘金 | AI Agent 创意征文大赛来啦！ - 掘金](https://juejin.cn/post/7330295644281962530)
-⭐⭐⭐3 🇨🇳 · 2024-02-01
-
-2月1日，扣子国内版已经正式上线啦~赶快来体验一下吧！将使用 扣子 搭建 AI bot 的实践心得和思路分享到掘金，更有 iPhone15、雷蛇机械键盘、京东卡等好礼待你领取！🎁
-
----
-
 ## 📅 2023-12-27
 
 ### [Android11+ AIDL：专为提升应用性能而生！](/entry/x4e5l5ie) 📄
@@ -1029,32 +924,6 @@ Read Original
 
 ---
 
-## 📅 2023-12-14
-
-### [AI is about to completely change how you use compu...](/entry/cz2bo7ig) 📄
-⭐⭐⭐3 🌐 · 2023-12-14
-
-AI is about to completely change how you use compu...
-In 5 years, agents will be able to give health care advice, tutor students, do your shopping, help workers be far more productive, and much more
-Read in Cubox  
-Read Original
-I still love software as much today as I did when Paul Allen and I started Microsoft. But---even though it has improved a lot in the decades since then...
-
-`Agent`
-
----
-
-## 📅 2023-12-07
-
-### [Gemini：我们规模最大、能力最强的 AI 模型](https://mp.weixin.qq.com/s?__biz=MjM5MTEyNjQ3MA==&mid=2649696860&idx=1&sn=116281cb28c62216f3939783afbc2f14&chksm=bea1ccf589d645e3b83eeb65104e9f92035337515684232fdbcc26b22f3dc8901e3ea072814a&mpshare=1&scene=1&srcid=1207tsd60TxFSz9DfombUjtb&sharer_shareinfo=8f6b55a492aa930af1aefac15aa53547&sharer_shareinfo_first=3d1f514fca381fc7d146837936b96067)
-⭐⭐⭐3 🇨🇳 · 2023-12-07
-
-# Gemini：我们规模最大、能力最强的 AI 模型 每一次技术的变革都是推进科学发现、加快人类进步和改善人们生活的机会。我相信我们此时正在见证的 AI 转变将是我们一生中影响最为深远的转变，其影响力远超过移动技术或互联网的转变。AI 有着为世界各地的人们创造机会的潜力，无论是在日常生活中还是在铸就非凡成就方面。它将带来新一轮的创新和经济进步，并以前所未有的规模推动知识、学习、创造力和生产力的发展。 让我感到兴奋的是：有机会让 AI 助力全世界的每个人。 作为一家&quot;AI 为先&quot;的公司，我们已经走过了近八年的旅程，并且一直在不断加速进步：现在，数百万用户通过我们的产品使用生成式 AI，去完成一...
-
-`gemini` `[]`
-
----
-
 ## 📅 2023-07-11
 
 ### [American Idle — Remains of the Day](/entry/e9lw9q80) 📄
@@ -1065,24 +934,6 @@ Read in Cubox
 Read Original
 I promised one final piece on TikTok, focused primarily on the network effects of creativity. And this is that, in part. But it discusses a bunch of other topics, some only tangentially related to TikTok.
 All the points I wanted to cover seem hyperlinked in a sprawling loose tangle. This could easily have been sev...
-
----
-
-## 📅 2023-04-09
-
-### [🧭 Midjourney 学习导航 | Learning Prompt](/entry/j0uNKGgL) 📄
-⭐⭐⭐3 🇨🇳 · 2023-04-09
-
-本教程部分图片并没有保存在 GitHub 上，而是保存在 Craft 上，所以如果你没法看到教程里的图片，请检查一下你的网络环境。
-
----
-
-## 📅 2023-03-29
-
-### [欢迎 | Learn Prompting](https://learnprompting.org/zh-Hans/docs/intro)
-⭐⭐⭐3 🇨🇳 · 2023-03-29
-
-我会将提示工程（prompt engineering, PE）介绍为：**如何同人工智能交流，并得到你要的结果**。
 
 ---
 
@@ -1100,17 +951,6 @@ Read Original
 
 ---
 
-## 📅 2023-03-26
-
-### [ChatGPT Plus官方推荐新手教程](/entry/l5c1k8rv) 📄
-⭐⭐⭐3 🇨🇳 · 2023-03-26
-
-# ChatGPT Plus官方推荐新手教程 升级到付费版的ChatGPT Plus好处自然不用说，懂的都懂。比如稳定，无字数限制，不会有错误等等。 本文就分享一下本人(以及若干ChatGPT Plus爱好者+群友)亲测有效的ChatGPT Plus付费版升级流程。注册门槛说实话有点高，总结起来其实就下面4个步骤： 这里简单说，欧易是港股上市，国内最大的交易所，Depay是最大的虚拟信用卡公司。 2. 注册1个虚拟交易平台欧易账号(没得选，国内安全的只有它) 3. 申请1张虚拟信用卡(选Depay，群里小伙伴都是用它) 4. 能正常访问ChatGPT的科学上网条件（一定要选美国或者欧洲的代理节...
-
-`[]` `chatgpt`
-
----
-
 ## 📅 2023-03-20
 
 ### [Prompt Engineering (Lilian Weng)](/entry/7r292cja) 📄
@@ -1122,15 +962,6 @@ Lilian Weng 经典 Prompt Engineering 综述。系统梳理 zero/few-shot、Inst
 
 ---
 
-### [ChatGPT-Siri/README-zh_CN.md at main · Yue-Yang/ChatGPT-Siri · GitHub](/entry/m56axpoa) 📄
-⭐⭐⭐3 🇨🇳 · 2023-03-20
-
-# ChatGPT-Siri/README-zh_CN.md at main · Yue-Yang/ChatGPT-Siri · GitHub 通过 Siri 启动「快捷指令」连接 ChatGPT API，让 Siri 变身 AI 聊天助手。你可以直接和 Siri 说出你的问题，Siri 会回答你。现在我们的 Siri 终于变得智能了，可以和我们对答如流！而这一切只需要一个快捷指令和 API key 就可以做到了。 * 确保网络能正常访问 https://api.openai.com 域名 * 确保 API 帐户有足够余额：&lt;https://platform.openai.com/accoun...
-
-`[]` `prompt` `gpt-4` `openai` `chatgpt`
-
----
-
 ## 📅 2023-03-15
 
 ### [GPT-4震撼发布：多模态大模型，直接升级ChatGPT、必应，开放API，游戏终结了？](/entry/ekyuztr8) 📄
@@ -1139,37 +970,6 @@ Lilian Weng 经典 Prompt Engineering 综述。系统梳理 zero/few-shot、Inst
 # GPT-4震撼发布：多模态大模型，直接升级ChatGPT、必应，开放API，游戏终结了？ &gt; ChatGPT 点燃了科技行业的明灯，GPT-4 能燎原吗？ 谁能革得了 ChatGPT 的命？现在看来还是 OpenAI 自己。 在 ChatGPT 引爆科技领域之后，人们一直在讨论 AI「下一步」的发展会是什么，很多学者都提到了多模态，我们并没有等太久。今天凌晨，OpenAI 发布了多模态预训练大模型 GPT-4。 GPT-4 实现了以下几个方面的飞跃式提升：强大的识图能力；文字输入限制提升至 2.5 万字；回答准确性显著提高；能够生成歌词、创意文本，实现风格变化。 「GPT-4 是世界第一款...
 
 `大模型` `[]` `gpt-4` `openai` `chatgpt`
-
----
-
-## 📅 2023-03-13
-
-### [Rust写aosp13的AIDL系统级服务](https://mp.weixin.qq.com/s?__biz=Mzk0MjQwMDYyOQ==&mid=2247483679&idx=1&sn=307d2b53c501bcb300c6bee355ffc1e0)
-⭐⭐⭐3 🇨🇳 · 2023-03-13
-
-在 AOSP 13 中用 Rust 实现 AIDL 系统级服务的完整教程。包括 AIDL 接口定义、Android.bp 配置（Rust backend）、服务端/客户端实现、编译运行。Google 已建议放弃 HIDL 统一使用 AIDL。
-
-`Rust` `AOSP` `AIDL` `Android` `系统服务`
-
----
-
-## 📅 2023-03-09
-
-### [提示艺术：PromptPerfect 提示优化器测试体验（一）](/entry/lFM15jeI) 📄
-⭐⭐⭐3 🇨🇳 · 2023-03-09
-
-看到jina发布了PromptPerfect，专为大型语言模型 (LLM)、大型模型 (LM) 和 LMOps 设计的提示优化器。
-
----
-
-## 📅 2023-03-03
-
-### [CHATGPT API（降价 90%）对 LLM 领域的影响 | 高策](/entry/6zezxy4x) 📄
-⭐⭐⭐3 🇨🇳 · 2023-03-03
-
-# CHATGPT API（降价 90%）对 LLM 领域的影响 | 高策 最近人工智能领域一个礼拜一个大新闻，毫不夸张。今天 OpenAI 宣布上线 ChatGPT API，并且相比于 GPT3 davinci 要便宜 90%，跟 curie 价格相同。OpenAI 相当于在 Chat Model 这个领域推出了 ChatGPT 能力的模型，但是价格只有之前的 90%。 因为身处相关行业，所以对这次降价的动作很感兴趣。我想知道这次降价会对 LLM 领域有什么影响，以及对于其他的 AI 产品会有什么影响。以下纯属个人在得知新闻的三个小时内形成的观点，仅供参考。 在 Hacker News 上 ...
-
-`llm` `[]` `prompt` `openai` `inference`
 
 ---
 
@@ -1192,17 +992,6 @@ Lilian Weng 经典 Prompt Engineering 综述。系统梳理 zero/few-shot、Inst
 Google 介绍 MLGO 框架，首个工业级将 ML 系统性集成到 LLVM 编译器的通用框架。使用强化学习训练神经网络替代编译器中的启发式决策。两个具体优化：1) Inlining-for-size：通过 RL 策略替代内联启发式，在 30k 模块上训练的策略可泛化到其他软件，实现 3%-7% 代码体积缩减（Fuchsia OS 上达 6.3%）；2) Regalloc-for-performance：寄存器分配优化，提升 0.3%-1.5% QPS。训练后的策略通过 XLA AOT 嵌入编译器，无运行时依赖。
 
 `MLGO` `compiler-optimization` `LLVM` `reinforcement-learning` `inlining`
-
----
-
-## 📅 2022-12-05
-
-### [ChatGPT为什么这么强](/entry/pflm2lpg) 📄
-⭐⭐⭐3 🇨🇳 · 2022-12-05
-
-1. 从周五到周末ChatGPT已经疯传开来，其对话能力让人惊艳。从玩梗、写诗、写剧本，到给程序找bug，帮人设计网页，甚至帮你生成AIGC的提示词，一副无所不能的样子。可以去Twitter上看Ben Tossell梳理的一些例子，或者自己去试试！一位MBA老师让ChatGPT回答自己的管理学题目，结论是以后不能再布置可以带回家的作业了。很多人用了以后无法自拔，就如这位所见： Musk问ChatGPT怎么设计Twitter(不得不说还挺有创意）： 2. 有人让ChatGPT参加了智商测试，得分83; SAT测试得分1020，对应人类考生52%分位。要知道ChatGPT并没有对数学方面做过优化，...
-
-`大模型` `fine-tuning` `[]` `prompt` `openai`
 
 ---
 
@@ -1239,34 +1028,6 @@ Happy Monday! Here is Issue #10! This issue will be a special issue that focuses
 
 ---
 
-### [&quot;Acquire the habit of attending carefully to what is being said by another.&quot; | Revue](https://newsletter.stoicallytyped.com/issues/acquire-the-habit-of-attending-carefully-to-what-is-being-said-by-another-426218#/)
-⭐⭐⭐3 🌐 · 2022-01-24
-
-&quot;Acquire the habit of attending carefully to what is being said by another.&quot; | Revue
-StoicallyTyped Newsletter - Text(text = &quot;Hello, World!&quot;, style = Newsletter)Welcome to issue #1!I want to start off by thanking you for reading my newsletter! Th
-Read in Cubox  
-Read Original
-Text(text = &quot;Hello, World!&quot;, style = Newsletter)
-I want to start off by thanking you for reading my new...
-
-`Android` `Newsletter`
-
----
-
-### [&quot;Get back up when you fail. Celebrate behaving like a human.&quot; | Revue](https://newsletter.stoicallytyped.com/issues/get-back-up-when-you-fail-celebrate-behaving-like-a-human-773397#/)
-⭐⭐⭐3 🌐 · 2022-01-24
-
-&quot;Get back up when you fail. Celebrate behaving like a human.&quot; | Revue
-StoicallyTyped Newsletter - Welcome to the final week of September! I hope you are as excited for Autumn and October as I am! 🎃I was pretty busy this week and wa
-Read in Cubox  
-Read Original
-Welcome to the final week of September! I hope you are as excited for Autumn and October as I am! 🎃
-I was pretty busy ...
-
-`Android` `Newsletter`
-
----
-
 ## 📅 2022-01-19
 
 ### [Android滚动组件图片加载优化与滚动速度的精确监听 | Paincker](/entry/z10ujypt) 📄
@@ -1280,16 +1041,5 @@ Read Original
 一种最基...
 
 `Android` `Performance`
-
----
-
-## 📅 2019-02-01
-
-### [Seeking the Productive Life: My Personal Infrastructure](/entry/hlvuc980) 📄
-@Stephen Wolfram · ⭐⭐⭐3 🌐 · 2019-02-01
-
-Stephen Wolfram 分享个人生产力基础设施，涵盖笔记、邮件、会议、代码实践、知识存档。自 80 年代积累的工作流优化经验，用 Wolfram Language 构建完整个人信息系统。近 10 万字的极客级知识管理参考。
-
-`Stephen-Wolfram` `生产力` `知识管理` `工作流` `Wolfram-Language`
 
 ---

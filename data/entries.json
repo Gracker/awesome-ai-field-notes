@@ -30,7 +30,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "8316bfc9",
@@ -61,7 +62,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "cb69fc3c",
@@ -87,7 +89,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "35f1564b",
@@ -113,7 +116,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "b71811ae",
@@ -139,7 +143,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "e0c6e6dd",
@@ -165,7 +170,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "5a86e023",
@@ -200,7 +206,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "156a7723",
@@ -226,7 +233,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "bbcf276b",
@@ -252,7 +260,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "5e349ccc",
@@ -278,7 +287,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "ad288738",
@@ -304,7 +314,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "7621f84f",
@@ -357,7 +368,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "d9e9e8b8",
@@ -383,7 +395,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "530f9c6b",
@@ -409,7 +422,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "da496cc8",
@@ -435,7 +449,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "ad4e5293",
@@ -469,7 +484,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "ca2df8bf",
@@ -495,7 +511,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "d68eb0ad",
@@ -529,7 +546,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "145978a6",
@@ -555,7 +573,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "0bc936f1",
@@ -581,7 +600,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "b8a1324f",
@@ -607,7 +627,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "44818836",
@@ -633,7 +654,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "3b51f09e",
@@ -659,7 +681,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "37ec3464",
@@ -685,7 +708,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "f600e1f7",
@@ -711,7 +735,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "9276d3fb",
@@ -737,7 +762,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "559c32b2",
@@ -763,7 +789,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "bc2ba5f8",
@@ -789,7 +816,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "151ad340",
@@ -815,7 +843,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "c706064c",
@@ -885,7 +914,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "dd6d07d3",
@@ -911,7 +941,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "abea8210",
@@ -937,7 +968,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "e7fecf8d",
@@ -963,7 +995,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "070851a3",
@@ -989,7 +1022,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "b3fecf61",
@@ -1015,7 +1049,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "fe2833c6",
@@ -1041,7 +1076,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "6f7fa9d5",
@@ -1067,7 +1103,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "3e209ff3",
@@ -1093,7 +1130,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "7d756e67",
@@ -1119,7 +1157,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "dcbdd96d",
@@ -1145,7 +1184,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "b0fde761",
@@ -1180,7 +1220,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "ac075027",
@@ -1206,7 +1247,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "23c08739",
@@ -1232,7 +1274,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "959a82b8",
@@ -1258,7 +1301,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "0577d507",
@@ -1284,7 +1328,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "18455e66",
@@ -1310,7 +1355,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "55da04e2",
@@ -1336,7 +1382,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "83437b85",
@@ -1362,7 +1409,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "fd57f135",
@@ -1388,7 +1436,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "7aa2a017",
@@ -1414,7 +1463,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "735ce530",
@@ -1440,7 +1490,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "f300aed5",
@@ -1474,7 +1525,8 @@
       "quality_score": 4,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "f108e234",
@@ -1500,7 +1552,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "096adf05",
@@ -1526,7 +1579,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "f7612873",
@@ -1552,7 +1606,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "911c84d1",
@@ -1578,7 +1633,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "d47ec8e7",
@@ -1604,7 +1660,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "894da433",
@@ -1630,7 +1687,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "384de2a9",
@@ -1656,7 +1714,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "fc4034b3",
@@ -1684,7 +1743,8 @@
       "quality_score": 4,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "923f44a6",
@@ -1710,7 +1770,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "3ae8076e",
@@ -1736,7 +1797,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "2c393892",
@@ -1762,7 +1824,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "63f3aa32",
@@ -1788,7 +1851,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "ceac54d0",
@@ -1814,7 +1878,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "a1e3227f",
@@ -1840,7 +1905,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "0064fec5",
@@ -1866,7 +1932,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "fe1c34e7",
@@ -1904,7 +1971,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "e5782aa5",
@@ -1930,7 +1998,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "f2a79191",
@@ -1956,7 +2025,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "6ed521bc",
@@ -1982,7 +2052,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "f39b3c96",
@@ -2008,7 +2079,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "3ad225aa",
@@ -2034,7 +2106,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "b8e890b1",
@@ -2060,7 +2133,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "eb18a3d8",
@@ -2086,7 +2160,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "3ba0cd03",
@@ -2112,7 +2187,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "c4d7ec85",
@@ -2138,7 +2214,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "bff314d1",
@@ -2164,7 +2241,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "d9ce8a42",
@@ -2190,7 +2268,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "4bc2a6bc",
@@ -2216,7 +2295,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "4032f9ca",
@@ -2248,7 +2328,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "5870a0c3",
@@ -2274,7 +2355,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "779ae021",
@@ -2300,7 +2382,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "9b13f672",
@@ -2341,7 +2424,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "665ae080",
@@ -2367,7 +2451,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "cd17cb43",
@@ -2393,7 +2478,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "9ee070d6",
@@ -2419,7 +2505,8 @@
       "quality_score": 3,
       "source_type": "article",
       "language": "en",
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "88fb385b",
@@ -2448,7 +2535,8 @@
       "added_date": "2026-04-30",
       "updated_date": "2026-05-02",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "755b41be",
@@ -2477,7 +2565,8 @@
       "added_date": "2026-04-30",
       "updated_date": "2026-05-02",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d1d65a6d",
@@ -2654,7 +2743,8 @@
       "added_date": "2026-04-29",
       "updated_date": "2026-05-02",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "24122cca",
@@ -2686,7 +2776,8 @@
       "added_date": "2026-04-29",
       "updated_date": "2026-05-02",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4a2b6070",
@@ -2719,7 +2810,8 @@
       "added_date": "2026-04-29",
       "updated_date": "2026-05-02",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "041a666b",
@@ -3276,7 +3368,8 @@
       "added_date": "2026-04-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5725d3e623",
@@ -3308,7 +3401,8 @@
       "added_date": "2026-04-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "853409a5bc",
@@ -3338,7 +3432,8 @@
       "added_date": "2026-04-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c166d6b857",
@@ -3364,7 +3459,8 @@
       "added_date": "2026-04-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "88522d6077",
@@ -3396,7 +3492,8 @@
       "added_date": "2026-04-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f8f64796ed",
@@ -3428,7 +3525,8 @@
       "added_date": "2026-04-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e446406cb1",
@@ -3454,7 +3552,8 @@
       "added_date": "2026-04-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "610222a205",
@@ -3484,7 +3583,8 @@
       "added_date": "2026-04-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a1b2c3d4",
@@ -3868,7 +3968,7 @@
       "images": [],
       "added_date": "2026-04-26",
       "updated_date": null,
-      "github_stars": 1001,
+      "github_stars": 1019,
       "related": [],
       "local_path_valid": false
     },
@@ -3934,7 +4034,7 @@
       "images": [],
       "added_date": "2026-04-26",
       "updated_date": null,
-      "github_stars": 2558,
+      "github_stars": 4266,
       "related": [],
       "local_path_valid": false
     },
@@ -4415,7 +4515,8 @@
       "added_date": "2026-04-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4gebpKeG",
@@ -4447,7 +4548,8 @@
       "added_date": "2026-04-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "lKq-W6wR",
@@ -4478,7 +4580,8 @@
       "added_date": "2026-04-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "_fMrQUjX",
@@ -4513,7 +4616,8 @@
       "added_date": "2026-04-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "oug0QMC1",
@@ -4548,7 +4652,8 @@
       "added_date": "2026-04-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2dH0ISAf",
@@ -4588,7 +4693,8 @@
       "added_date": "2026-04-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0TsyRliY",
@@ -4624,7 +4730,8 @@
       "added_date": "2026-04-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "dkXZ4WEx",
@@ -4660,7 +4767,8 @@
       "added_date": "2026-04-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "crFwnMAy",
@@ -4697,7 +4805,8 @@
       "added_date": "2026-04-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2kX8t9cK",
@@ -4732,7 +4841,8 @@
       "added_date": "2026-04-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1iuotKVl",
@@ -4763,7 +4873,8 @@
       "added_date": "2026-04-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "aafn2401",
@@ -5567,7 +5678,8 @@
       "added_date": "2026-04-19",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "zurlv9gb",
@@ -5605,7 +5717,8 @@
       "added_date": "2026-04-19",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "xn8io4r3",
@@ -5643,7 +5756,8 @@
       "added_date": "2026-04-19",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "p591inej",
@@ -5677,7 +5791,8 @@
       "added_date": "2026-04-19",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "95bb1d33",
@@ -6193,7 +6308,8 @@
       "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "654d1a18",
@@ -6228,7 +6344,8 @@
       "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5c8c9b14",
@@ -6330,7 +6447,8 @@
       "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4409adc4",
@@ -6432,7 +6550,8 @@
       "added_date": "2026-04-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "tIs9VugG",
@@ -6502,7 +6621,8 @@
       "added_date": "2026-04-16",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "iplvrqyc",
@@ -6535,7 +6655,8 @@
       "added_date": "2026-04-16",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "hqm6txq4",
@@ -6575,7 +6696,8 @@
       "github_stars": null,
       "related": [],
       "content_path": "content/hqm6txq4.md",
-      "content_file": "hqm6txq4.md"
+      "content_file": "hqm6txq4.md",
+      "local_path_valid": false
     },
     {
       "id": "N7uUaY82",
@@ -6610,7 +6732,8 @@
       "added_date": "2026-04-16",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9eJpiC4m",
@@ -6645,7 +6768,8 @@
       "added_date": "2026-04-16",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0qPTtvSb",
@@ -6680,7 +6804,8 @@
       "added_date": "2026-04-16",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c9567fc80a61",
@@ -6759,7 +6884,8 @@
       "added_date": "2026-04-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "89fa848ed0d4",
@@ -6799,7 +6925,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "content_path": "content/89fa848ed0d4.md"
+      "content_path": "content/89fa848ed0d4.md",
+      "local_path_valid": false
     },
     {
       "id": "73831b80fee8",
@@ -6838,7 +6965,8 @@
       "added_date": "2026-04-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6a2113a2d9ca",
@@ -6876,7 +7004,8 @@
       "added_date": "2026-04-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "480a4f5679ff",
@@ -6914,7 +7043,8 @@
       "added_date": "2026-04-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0bf2b5b84701",
@@ -6948,7 +7078,8 @@
       "added_date": "2026-04-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "013eb7fd5ab9",
@@ -6983,7 +7114,8 @@
       "added_date": "2026-04-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "jvblhpoud3ey",
@@ -7023,7 +7155,8 @@
       "added_date": "2026-04-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "72x6hfdeebbo",
@@ -7062,7 +7195,8 @@
       "added_date": "2026-04-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "n3m8itb5",
@@ -7100,7 +7234,8 @@
       "added_date": "2026-04-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cc15hq4t",
@@ -7137,7 +7272,8 @@
       "added_date": "2026-04-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "zybyi5t5",
@@ -7175,7 +7311,8 @@
       "added_date": "2025-07-19",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "zupjc5pe",
@@ -7241,7 +7378,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "zo5tepps",
@@ -7278,7 +7416,8 @@
       "added_date": "2025-04-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "zlsa1lat",
@@ -7317,7 +7456,8 @@
       "added_date": "2024-12-25",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "zkmmaa8x",
@@ -7352,7 +7492,8 @@
       "added_date": "2026-03-16",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "zg78bxt9",
@@ -7392,7 +7533,8 @@
       "added_date": "2024-09-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "zfABlYgH",
@@ -7412,7 +7554,7 @@
       "one_liner": "Cubox 收藏 — 极其冷门的随身 AI 设备幻想",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/极其冷门的随身 AI 设备幻想-2025-08-04.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale("
@@ -7442,7 +7584,7 @@
       "one_liner": "关于Google 新手机发布会：Android 14，「买手机，的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Google 新手机发布会：Android 14，「买手机，送 AI」-2023-10-05.md",
       "images": [
         "https://image.cubox.pro/cardImg/2023100512370419952/17899.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -7487,7 +7629,7 @@
       "one_liner": "Cubox 收藏 — The Elon Musk Post Series — Wait But Why",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/The Elon Musk Post Series — Wait But Why-2023-10-07.md",
       "images": [],
       "added_date": "2023-10-07",
@@ -7525,7 +7667,8 @@
       "added_date": "2025-04-22",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "zRr0rcvY",
@@ -7545,7 +7688,7 @@
       "one_liner": "Cubox 收藏 — 【活动报名】DevFest23'日程公布：Android、Web、机器学习分会场",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/【活动报名】DevFest23'日程公布：Android、Web、机器学习分会场-2023-11-12.md",
       "images": [
         "https://image.cubox.pro/cardImg/2023111216215657609/13999.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -7586,7 +7729,8 @@
       "added_date": "2023-07-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "z8jjvpnw",
@@ -7709,7 +7853,8 @@
       "added_date": "2023-02-20",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "z5yx2tcn",
@@ -7740,7 +7885,8 @@
       "added_date": "2026-02-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "z1r6uGXC",
@@ -7772,7 +7918,8 @@
       "added_date": "2024-10-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "z1jgz9it",
@@ -7796,7 +7943,7 @@
       "one_liner": "关于Google I/O 2024 ：新的 Gem)ini AI的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Google I-O 2024 ：新的 Gem)ini AI 升级、Android 15 和 Pixel 预告-2024-05-15.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -7829,7 +7976,7 @@
       "one_liner": "Cubox 收藏 — vLLM 深度解析：Deekseek and vLLM -1",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/vLLM 深度解析：Deekseek and vLLM -1-2025-03-20.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -7870,7 +8017,8 @@
       "added_date": "2022-01-19",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "yzi1wbrv",
@@ -7908,7 +8056,8 @@
       "added_date": "2026-01-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "yno49t26",
@@ -7943,7 +8092,8 @@
       "added_date": "2026-04-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "yj96fkem",
@@ -7984,7 +8134,8 @@
       "added_date": "2025-10-19",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "yY7hcksg",
@@ -8010,7 +8161,8 @@
       "added_date": "2023-07-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "y1pyhae8",
@@ -8048,7 +8200,8 @@
       "added_date": "2025-12-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "y1of91bq",
@@ -8081,7 +8234,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "xx4T4d34",
@@ -8111,7 +8265,8 @@
       "added_date": "2024-10-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "xvQu7gDI",
@@ -8131,7 +8286,7 @@
       "one_liner": "Cubox 收藏 — [译]AI算力民主化 第四部分：CUDA虽为现有主导者，但它真的完美吗？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/[译]AI算力民主化 第四部分：CUDA虽为现有主导者，但它真的完美吗？-2025-03-20.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -8210,7 +8365,8 @@
       "added_date": "2022-01-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "xlkfMLwP",
@@ -8230,7 +8386,7 @@
       "one_liner": "Cubox 收藏 — 面向 AI 的编程：是时候该坐下来应对不确定性了",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/面向 AI 的编程：是时候该坐下来应对不确定性了-2023-06-13.md",
       "images": [
         "https://image.cubox.pro/article/2023061323165151386/67975.jpg?imageMogr2/quality/90/format/gif/ignore-error/1"
@@ -8305,7 +8461,8 @@
       "added_date": "2025-08-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "xdooL4IY",
@@ -8337,7 +8494,8 @@
       "added_date": "2025-07-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "x88lksbo",
@@ -8370,7 +8528,8 @@
       "added_date": "2026-02-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "x7fluovs",
@@ -8402,7 +8561,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "x4e5l5ie",
@@ -8436,7 +8596,8 @@
       "added_date": "2023-12-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "x1S56IGx",
@@ -8468,7 +8629,8 @@
       "added_date": "2023-02-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "wyqaalah",
@@ -8514,7 +8676,8 @@
       "added_date": "2024-12-31",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "wvhfogqr",
@@ -8551,7 +8714,8 @@
       "added_date": "2023-05-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "wu00h8om",
@@ -8598,7 +8762,8 @@
       "added_date": "2023-03-19",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "wssa4dxk",
@@ -8628,7 +8793,8 @@
       "added_date": "2025-07-08",
       "updated_date": null,
       "github_stars": 1104,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "wri21wds",
@@ -8656,7 +8822,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "wej5ryog",
@@ -8696,7 +8863,8 @@
       "added_date": "2023-12-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "wRYAJAjI",
@@ -8716,7 +8884,7 @@
       "one_liner": "Cubox 收藏 — 第10期：OpenAI正研发代号“草莓”的突破性AI推理技术 | 信息差——独立开发者出海周刊",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/第10期：OpenAI正研发代号“草莓”的突破性AI推理技术 - 信息差——独立开发者出海周刊-2024-07-15.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -8748,7 +8916,7 @@
       "one_liner": "Cubox 收藏 — 独立开发周记 130：GPT-5 的表现出乎意料​",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/独立开发周记 130：GPT-5 的表现出乎意料​-2025-08-29.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -8779,7 +8947,7 @@
       "one_liner": "Cubox 收藏 — 最新Chatgpt微信机器人搭建教程",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/最新Chatgpt微信机器人搭建教程-2023-02-07.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -8858,7 +9026,8 @@
       "added_date": "2026-03-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "vu8j87wr",
@@ -8889,7 +9058,8 @@
       "added_date": "2025-03-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "vsi0528w",
@@ -8921,7 +9091,8 @@
       "added_date": "2026-03-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "vpysqp70",
@@ -8960,8 +9131,9 @@
       ],
       "added_date": "2023-02-27",
       "updated_date": null,
-      "github_stars": 59145,
-      "related": []
+      "github_stars": 59639,
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "vpd4rsxd",
@@ -8995,7 +9167,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "vnkJ1ZFm",
@@ -9015,7 +9188,7 @@
       "one_liner": "Cubox 收藏 — 最新访谈| 乔姆斯基谈ChatGPT与教育",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/最新访谈- 乔姆斯基谈ChatGPT与教育-2023-01-27.md",
       "images": [
         "https://image.cubox.pro/article/2023012913481989522/10232.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -9059,7 +9232,8 @@
       "added_date": "2026-03-19",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "vjxgeej5",
@@ -9095,7 +9269,8 @@
       "added_date": "2025-06-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "vgz222nz",
@@ -9126,7 +9301,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "vbv4u5ai",
@@ -9158,7 +9334,8 @@
       "added_date": "2024-07-07",
       "updated_date": null,
       "github_stars": 25,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "va1ug3br",
@@ -9215,7 +9392,7 @@
       "one_liner": "Cubox 收藏 — 保姆级教程：利用大模型与高德地图API，轻松实现查找附近咖啡店",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/保姆级教程：利用大模型与高德地图API，轻松实现查找附近咖啡店-2024-06-26.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale("
@@ -9249,7 +9426,8 @@
       "added_date": "2025-09-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "v9wtMdrp",
@@ -9277,7 +9455,8 @@
       "added_date": "2025-05-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "uyp02il6",
@@ -9300,7 +9479,7 @@
       "one_liner": "AIGC/图像生成相关收藏",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/(1 条消息) 如何评价 2023 年 2 月 AI 绘画的最新水平？ - 知乎-2023-02-21.md",
       "images": [
         "https://image.cubox.pro/article/2023022013491335774/18963.jpg",
@@ -9345,7 +9524,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "content_path": "content/uk1rinrc.md"
+      "content_path": "content/uk1rinrc.md",
+      "local_path_valid": false
     },
     {
       "id": "ui7ss4vj",
@@ -9378,7 +9558,8 @@
       "added_date": "2026-03-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ud05ywye",
@@ -9412,7 +9593,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "content_path": "content/ud05ywye.md"
+      "content_path": "content/ud05ywye.md",
+      "local_path_valid": false
     },
     {
       "id": "u5xlob71",
@@ -9447,7 +9629,8 @@
       "added_date": "2026-04-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "u4y5t085",
@@ -9477,7 +9660,8 @@
       "added_date": "2026-03-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "u4axbgh7",
@@ -9509,7 +9693,8 @@
       "added_date": "2026-02-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "u4186wlk",
@@ -9541,7 +9726,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "u2o9qdqv",
@@ -9603,7 +9789,8 @@
       "added_date": "2023-02-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "u1sruce7",
@@ -9625,7 +9812,7 @@
       "one_liner": "Cubox 收藏文章，ide-editor 领域相关内容",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/All Things AI - The Complete Resource Of Artificial Intelligence Tools & Services-2023-02-15.md",
       "images": [
         "https://image.cubox.pro/article/2023012322515632055/81811.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -9733,7 +9920,7 @@
       "one_liner": "MCP 协议最完整的中文技术解读，Timeline 梳理和架构分析都很到位",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/MCP协议深度解读：技术创新正以前所未有的速度突破-2025-04-14.md",
       "images": [],
       "added_date": "2025-04-14",
@@ -9775,7 +9962,8 @@
       "added_date": "2023-12-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "tl7ec0pw",
@@ -9801,7 +9989,7 @@
       "one_liner": "o3-mini 性能评测 + AI 应用形态梳理，性价比视角的推理模型分析",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/OpenAI o3-mini：轻量级推理之王，STEM 领域新标杆！-2025-02-03.md",
       "images": [],
       "added_date": "2025-02-03",
@@ -9839,7 +10027,8 @@
       "added_date": "2026-03-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "th1krdfe",
@@ -9866,7 +10055,7 @@
       "one_liner": "Notion AI 产品设计的幕后故事，空格键交互的决策过程值得借鉴",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Notion AI 背后的关键时刻与决策-2023-12-01.md",
       "images": [
         "https://image.cubox.pro/cardImg/2023120109324469354/84258.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -9911,7 +10100,8 @@
       "added_date": "2026-02-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "tcmvafdf",
@@ -9943,7 +10133,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "tc392hip",
@@ -10048,7 +10239,8 @@
       "added_date": "2025-12-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "tInTiqer",
@@ -10068,7 +10260,7 @@
       "one_liner": "Cubox 收藏 — 译：AI 正在创造一代文盲程序员 – 云谦的博客",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/译：AI 正在创造一代文盲程序员 – 云谦的博客-2025-02-09.md",
       "images": [],
       "added_date": "2025-02-09",
@@ -10106,7 +10298,8 @@
       "added_date": "2025-04-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "t4qy829o",
@@ -10174,7 +10367,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "swk7j22h",
@@ -10233,7 +10427,8 @@
       "added_date": "2025-07-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "srx8r112",
@@ -10256,7 +10451,7 @@
       "one_liner": "Cubox 收藏文章，newsletters-blogs 领域相关内容",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/-Acquire the habit of attending carefully to what is being said by another.- - Revue-2022-01-24.md",
       "images": [
         "https://image.cubox.pro/article/2022012511405793220/79236.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -10296,7 +10491,7 @@
       "one_liner": "手机 GUI Agent 领域最全面的综述论文，vivo 联合学术团队的系统性梳理",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/LLM-Powered GUI Agents in Phone Automation- Surveying Progress and Prospects-2025-01-08.md",
       "images": [],
       "added_date": "2025-01-08",
@@ -10364,7 +10559,8 @@
       "added_date": "2026-02-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "sfPTt5Ja",
@@ -10384,7 +10580,7 @@
       "one_liner": "Cubox 收藏 — 端侧AI，为什么这么火？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/端侧AI，为什么这么火？-2024-06-26.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -10424,7 +10620,8 @@
       "added_date": "2025-12-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "sdqxy470",
@@ -10458,7 +10655,8 @@
       "added_date": "2026-03-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "sYGvrjjl",
@@ -10478,7 +10676,7 @@
       "one_liner": "Cubox 收藏 — sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Tal",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/sonnylazuardi-cursor-talk-to-figma-mcp- Cursor Talk To Figma MCP-2025-03-18.md",
       "images": [],
       "added_date": "2025-03-18",
@@ -10510,7 +10708,8 @@
       "added_date": "2025-11-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "s4t21yew",
@@ -10541,7 +10740,8 @@
       "added_date": "2025-10-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "s4niyx5b",
@@ -10575,7 +10775,8 @@
       "added_date": "2023-03-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "s3r7a5ia",
@@ -10606,7 +10807,8 @@
       "added_date": "2026-03-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "s38betnu",
@@ -10631,7 +10833,7 @@
       "one_liner": "关于DeepSeek 赋能 A 股交易：用 AI 让你快人一步！的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/DeepSeek 赋能 A 股交易：用 AI 让你快人一步！-2025-03-17.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -10665,7 +10867,7 @@
       "one_liner": "关于Gemini 2.0: 我们智能体时代的最新 AI 模型的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Gemini 2.0- 我们智能体时代的最新 AI 模型-2024-12-13.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -10711,7 +10913,7 @@
       "one_liner": "关于Codex迎来史诗级升级！能一口气卷自己7小时、自带云端虚拟的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Codex迎来史诗级升级！能一口气卷自己7小时、自带云端虚拟机，连开发环境都不用配置了！Cursor存在的理由又弱了一分-2025-09-16.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -10765,7 +10967,8 @@
       "added_date": "2026-04-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "rx7t9zxg",
@@ -10796,7 +10999,8 @@
       "added_date": "2026-03-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ru2zdr01",
@@ -10831,7 +11035,8 @@
       "added_date": "2025-06-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "rrozy75n",
@@ -10864,7 +11069,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "rnjpbgtm",
@@ -10916,7 +11122,7 @@
       "one_liner": "Cubox 收藏 — 浅谈Claude Skills，Github已经5.2k Star了",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/浅谈Claude Skills，Github已经5.2k Star了-2025-10-20.md",
       "images": [
         "https://image.cubox.pro/cardImg/2z6qt9dbev8upd5dg8sopbv1qqdhh9negkfb0gaa7othyedvt2?imageMogr2/quality/90/ignore-error/1",
@@ -10957,7 +11163,8 @@
       "added_date": "2026-01-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "riqbHI5W",
@@ -11016,7 +11223,8 @@
       "added_date": "2026-03-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "rarx3y62",
@@ -11048,7 +11256,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "rab5subx",
@@ -11077,7 +11286,8 @@
       "added_date": "2026-04-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "rY5ljx6P",
@@ -11097,7 +11307,7 @@
       "one_liner": "Cubox 收藏 — 忘掉《Her》吧，诺兰旧作《记忆碎片》才是LLM Agent的必修课",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/忘掉《Her》吧，诺兰旧作《记忆碎片》才是LLM Agent的必修课-2025-07-27.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -11129,7 +11339,7 @@
       "one_liner": "Cubox 收藏 — 生成式 AI 应用的设计原则",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/生成式 AI 应用的设计原则-2024-07-11.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -11175,7 +11385,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "r5io6o5x",
@@ -11206,7 +11417,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "r0sryqff",
@@ -11230,7 +11442,7 @@
       "one_liner": "关于ChatGPT 正在杀死编程里的乐趣  | Piglei的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/ChatGPT 正在杀死编程里的乐趣  - Piglei-2023-12-15.md",
       "images": [
         "https://image.cubox.pro/cardImg/2023121512384693513/75904.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -11278,7 +11490,8 @@
       "added_date": "2026-01-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "qrmyacd6",
@@ -11348,7 +11561,8 @@
       "added_date": "2025-02-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "qr4q3vtj",
@@ -11379,7 +11593,8 @@
       "added_date": "2026-02-23",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "qq6gmc8z",
@@ -11412,7 +11627,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "qky6krnb",
@@ -11444,7 +11660,8 @@
       "added_date": "2026-02-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "qiwV8Dd1",
@@ -11476,7 +11693,8 @@
       "added_date": "2023-03-22",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "qivuzz8c",
@@ -11500,7 +11718,7 @@
       "one_liner": "关于ChatGPT 探索：Code Interpreter 高级的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/ChatGPT 探索：Code Interpreter 高级指南-2023-07-09.md",
       "images": [
         "https://image.cubox.pro/article/2023070916320034929/16485.jpg",
@@ -11577,7 +11795,8 @@
       "added_date": "2020-09-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "qhnleufw",
@@ -11617,7 +11836,8 @@
       "added_date": "2025-12-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "qez0zcgb",
@@ -11722,7 +11942,8 @@
       "added_date": "2025-12-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "qZBBBaMW",
@@ -11742,7 +11963,7 @@
       "one_liner": "Cubox 收藏 — 从混乱到可控，我重构了 Cursor 的开发流程（v0.1 实战）",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/从混乱到可控，我重构了 Cursor 的开发流程（v0.1 实战）-2025-04-24.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -11783,7 +12004,8 @@
       "added_date": "2025-12-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "qFQ8iIW6",
@@ -11803,7 +12025,7 @@
       "one_liner": "Cubox 收藏 — Updated main function",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Updated main function-2023-12-21.md",
       "images": [
         "https://image.cubox.pro/cardImg/17rrto17b0cfkuojrefmvdgyfiv6a57n3zqtoipm0036kjc8p.jpg?imageMogr2/quality/90/ignore-error/1"
@@ -11843,7 +12065,8 @@
       "added_date": "2024-12-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "q7qmybqr",
@@ -11874,7 +12097,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "q38vahjk",
@@ -11909,7 +12133,8 @@
       "added_date": "2026-03-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "q32ssunn",
@@ -11941,7 +12166,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "pxejvdmr",
@@ -11973,7 +12199,8 @@
       "added_date": "2026-02-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "pvee10h3",
@@ -12007,7 +12234,8 @@
       "added_date": "2026-03-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "pt2nps34",
@@ -12042,7 +12270,8 @@
       "added_date": "2025-06-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "poAs9BYw",
@@ -12062,7 +12291,7 @@
       "one_liner": "Cubox 收藏 — [译]AI算力民主化 第三部分：CUDA是如何成功的？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/[译]AI算力民主化 第三部分：CUDA是如何成功的？-2025-03-19.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -12111,7 +12340,8 @@
       "added_date": "2025-09-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "pj7y4se0",
@@ -12146,7 +12376,8 @@
       "added_date": "2026-01-23",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "piwjuvv3",
@@ -12183,7 +12414,8 @@
       "added_date": "2025-03-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ph1cwmef",
@@ -12249,7 +12481,8 @@
       "added_date": "2026-02-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "pflm2lpg",
@@ -12276,7 +12509,7 @@
       "one_liner": "关于ChatGPT为什么这么强的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/ChatGPT为什么这么强-2022-12-05.md",
       "images": [
         "https://image.cubox.pro/article/2022120512070987784/32451.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -12327,7 +12560,8 @@
       "added_date": "2026-03-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "pLFMQKqL",
@@ -12359,7 +12593,8 @@
       "added_date": "2026-02-22",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "pEdo0DGq",
@@ -12391,7 +12626,8 @@
       "added_date": "2026-02-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "pAE2ddQw",
@@ -12423,7 +12659,8 @@
       "added_date": "2025-08-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "pA4XZJXH",
@@ -12443,7 +12680,7 @@
       "one_liner": "Cubox 收藏 — 宝玉的科技文章翻译GPT",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/宝玉的科技文章翻译GPT-2024-07-07.md",
       "images": [
         "https://image.cubox.pro/cardImg/k0ndsen4kf7vrbxv5wqpqiqnkstc2cquyzmiqe9baiag1i0s9?imageMogr2/quality/90/ignore-error/1",
@@ -12484,7 +12721,8 @@
       "added_date": "2025-07-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "p69exx48",
@@ -12547,7 +12785,8 @@
       "added_date": "2026-03-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "p327t0g8",
@@ -12577,7 +12816,8 @@
       "added_date": "2026-03-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "p2d1wlm8",
@@ -12605,7 +12845,8 @@
       "added_date": "2026-03-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "p03L1Cm5",
@@ -12631,7 +12872,8 @@
       "added_date": "2026-01-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ozubfvu1",
@@ -12664,7 +12906,8 @@
       "added_date": "2026-03-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "owxj3v91",
@@ -12697,7 +12940,8 @@
       "added_date": "2025-02-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ow5awxkq",
@@ -12820,7 +13064,8 @@
       "added_date": "2026-03-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "onqk9vx5",
@@ -12859,7 +13104,8 @@
       "added_date": "2023-03-22",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "oihs1hkc",
@@ -12896,7 +13142,8 @@
       "added_date": "2026-01-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "oa7ahj95",
@@ -12930,8 +13177,9 @@
       ],
       "added_date": "2026-04-10",
       "updated_date": null,
-      "github_stars": 4919,
-      "related": []
+      "github_stars": 4958,
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "oSwUUAML",
@@ -12951,7 +13199,7 @@
       "one_liner": "Cubox 收藏 — 使用 Gemini Pro 高效开发应用",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/使用 Gemini Pro 高效开发应用-2024-02-05.md",
       "images": [
         "https://image.cubox.pro/cardImg/2024020509550890894/45656.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -12995,7 +13243,8 @@
       "added_date": "2026-03-31",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "o7d75kh2",
@@ -13028,7 +13277,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "o70e53hy",
@@ -13063,7 +13313,8 @@
       "added_date": "2026-03-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "o46wQj1X",
@@ -13083,7 +13334,7 @@
       "one_liner": "Cubox 收藏 — 用 Gemini API 开始你的 AI 之旅",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/用 Gemini API 开始你的 AI 之旅-2024-06-14.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -13128,7 +13379,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "nysmkgxr",
@@ -13207,7 +13459,7 @@
       "one_liner": "Cubox 收藏 — [Agentic AI] 使用Cursor作为AI的通用入口",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/[Agentic AI] 使用Cursor作为AI的通用入口-2025-05-14.md",
       "images": [
         "https://image.cubox.pro/cardImg/4u0y357jzhwbmer68g1pxf25yrav6j8en9qvwj3o9gejmjtk53.png?imageMogr2/quality/90/ignore-error/1",
@@ -13420,7 +13672,8 @@
       "added_date": "2025-04-01",
       "updated_date": null,
       "github_stars": 879,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "noymctov",
@@ -13458,7 +13711,8 @@
       "added_date": "2025-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "nkDGIhK7",
@@ -13490,7 +13744,8 @@
       "added_date": "2023-03-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "nivhloc2",
@@ -13524,7 +13779,8 @@
       "added_date": "2026-03-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ni3njxvh",
@@ -13559,7 +13815,8 @@
       "added_date": "2026-01-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "nha3a46y",
@@ -13592,7 +13849,8 @@
       "added_date": "2026-04-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ng74ojns",
@@ -13626,7 +13884,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "na4z0qvz",
@@ -13661,7 +13920,8 @@
       "added_date": "2026-03-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "nMGRQWXE",
@@ -13693,7 +13953,8 @@
       "added_date": "2026-03-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "n7gu2chx",
@@ -13724,7 +13985,8 @@
       "added_date": "2026-02-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "n28eerxp",
@@ -13757,7 +14019,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "myf43gs4",
@@ -13788,7 +14051,8 @@
       "added_date": "2026-03-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "mvlieoq1",
@@ -13816,7 +14080,7 @@
       "one_liner": "Cubox 收藏: Gemini on Android, The story so far",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Gemini on Android, The story so far-2024-10-21.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -13863,7 +14127,8 @@
       "added_date": "2026-03-23",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "mpn920xb",
@@ -13894,7 +14159,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "mpkvzkl8",
@@ -13927,7 +14193,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "miopc080",
@@ -13953,7 +14220,7 @@
       "one_liner": "Google 官方 Prompt Engineering 白皮书，Gemini 生态入门参考",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Prompt Engineering - Kaggle-2025-04-12.md",
       "images": [],
       "added_date": "2025-04-12",
@@ -13979,7 +14246,7 @@
       "one_liner": "Cubox 收藏 — 爆肝一周看6小时长视频，解读AI时代程序员价值几何",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/爆肝一周看6小时长视频，解读AI时代程序员价值几何-2025-07-25.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale("
@@ -14054,7 +14321,8 @@
       "added_date": "2026-02-25",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "m56axpoa",
@@ -14080,7 +14348,7 @@
       "one_liner": "关于ChatGPT-Siri/README-zh_CN.md a的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/ChatGPT-Siri-README-zh_CN.md at main · Yue-Yang-ChatGPT-Siri · GitHub-2023-03-20.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -14126,7 +14394,8 @@
       "added_date": "2026-03-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "lsdwlVlb",
@@ -14158,7 +14427,8 @@
       "added_date": "2024-05-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ln2oy72e",
@@ -14190,7 +14460,8 @@
       "added_date": "2026-03-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "lgeaam64",
@@ -14257,7 +14528,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "lbks005n",
@@ -14286,7 +14558,8 @@
       "added_date": "2026-03-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "lapawuax",
@@ -14320,7 +14593,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "lNDjMOnJ",
@@ -14340,7 +14614,7 @@
       "one_liner": "Cubox 收藏 — [译]AI算力民主化 第六部分：TVM和XLA等AI编译器现状？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/[译]AI算力民主化 第六部分：TVM和XLA等AI编译器现状？-2025-03-22.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -14372,7 +14646,7 @@
       "one_liner": "Cubox 收藏 — 手机上跑大模型，酷不酷",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/手机上跑大模型，酷不酷-2025-01-18.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -14404,7 +14678,7 @@
       "one_liner": "Cubox 收藏 — 提示艺术：PromptPerfect 提示优化器测试体验（一）",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/提示艺术：PromptPerfect 提示优化器测试体验（一）-2023-03-09.md",
       "images": [
         "https://image.cubox.pro/article/2023030814112417860/98155.jpg",
@@ -14451,7 +14725,8 @@
       "added_date": "2026-03-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "l92x6515",
@@ -14509,7 +14784,7 @@
       "one_liner": "关于ChatGPT Plus官方推荐新手教程的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/ChatGPT Plus官方推荐新手教程-2023-03-26.md",
       "images": [
         "https://image.cubox.pro/article/2023030716094515823/67195.jpg",
@@ -14548,7 +14823,7 @@
       "one_liner": "Cubox 收藏 — 解读ChatGPT背后的技术重点：RLHF、IFT、CoT、红蓝对抗",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/解读ChatGPT背后的技术重点：RLHF、IFT、CoT、红蓝对抗-2023-02-07.md",
       "images": [
         "https://image.cubox.pro/article/2023020111040973556/81940.jpg",
@@ -14583,7 +14858,7 @@
       "one_liner": "Cubox 收藏: ChatGPT研究框架（80页PPT）",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/ChatGPT研究框架（80页PPT）-2023-02-12.md",
       "images": [
         "https://image.cubox.pro/article/2023021009281223155/36621.jpg",
@@ -14732,8 +15007,9 @@
       "images": [],
       "added_date": "2026-01-13",
       "updated_date": null,
-      "github_stars": 29793,
-      "related": []
+      "github_stars": 31521,
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "kz0IrabE",
@@ -14753,7 +15029,7 @@
       "one_liner": "Cubox 收藏 — 移动端长文本处理新算法！vivo与联发科提出EdgeInfinite-Instruct，分段监督微调",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/移动端长文本处理新算法！vivo与联发科提出EdgeInfinite-Instruct，分段监督微调实现NPU高效部署-2025-08-28.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -14797,7 +15073,8 @@
       "added_date": "2026-02-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "kmpQ5O9M",
@@ -14817,7 +15094,7 @@
       "one_liner": "Cubox 收藏 — 为开发者开启 Gemini 时代新篇章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/为开发者开启 Gemini 时代新篇章-2025-01-03.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -14863,7 +15140,8 @@
       "added_date": "2026-03-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "kbzn2ti1",
@@ -14895,7 +15173,8 @@
       "added_date": "2026-02-25",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "kTN3RZ28",
@@ -14927,7 +15206,8 @@
       "added_date": "2024-06-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "k27e2ufv",
@@ -14961,7 +15241,8 @@
       "added_date": "2022-12-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "jzvwn07d",
@@ -14995,7 +15276,8 @@
       "added_date": "2025-07-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "jyT3Fx2b",
@@ -15027,7 +15309,8 @@
       "added_date": "2024-09-19",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "jrofx5ms",
@@ -15059,7 +15342,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "jqlapdk9",
@@ -15095,7 +15379,8 @@
       "added_date": "2025-03-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "jp7jaeos",
@@ -15130,7 +15415,8 @@
       "added_date": "2026-03-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "jok2gv0b",
@@ -15164,7 +15450,8 @@
       "added_date": "2023-04-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "jmsjfthh",
@@ -15196,7 +15483,8 @@
       "added_date": "2026-03-25",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "jk6udyp9",
@@ -15224,7 +15512,7 @@
       "one_liner": "OpenAI 官方 Agent 框架，三原语设计极简但覆盖核心场景",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/OpenAI Agents SDK-2025-03-13.md",
       "images": [],
       "added_date": "2025-03-13",
@@ -15250,7 +15538,7 @@
       "one_liner": "Cubox 收藏 — 独立开发周记 #5 ：AI助力",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/独立开发周记 #5 ：AI助力-2023-03-20.md",
       "images": [
         "https://image.cubox.pro/article/2023032022024781057/88880.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -15294,7 +15582,8 @@
       "added_date": "2025-02-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "jO5Gvh7s",
@@ -15320,7 +15609,8 @@
       "added_date": "2026-03-22",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "jLWwBaDf",
@@ -15340,7 +15630,7 @@
       "one_liner": "Cubox 收藏 — [译]AI算力民主化 第8部分：MLIR编译器基础设施如何？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/[译]AI算力民主化 第8部分：MLIR编译器基础设施如何？-2025-04-19.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -15381,7 +15671,8 @@
       "added_date": "2025-08-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "j9u8xwq6",
@@ -15415,7 +15706,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "j6ukhx11",
@@ -15478,7 +15770,8 @@
       "added_date": "2024-05-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "j5VLFqTF",
@@ -15510,7 +15803,8 @@
       "added_date": "2025-03-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "j4Ev6hzf",
@@ -15542,7 +15836,8 @@
       "added_date": "2024-03-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "j1iox309",
@@ -15603,7 +15898,7 @@
       "one_liner": "Cubox 收藏 — 🧭 Midjourney 学习导航 | Learning Prompt",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/🧭 Midjourney 学习导航 - Learning Prompt-2023-04-09.md",
       "images": [],
       "added_date": "2023-04-09",
@@ -15641,7 +15936,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "itikhf3n",
@@ -15675,7 +15971,8 @@
       "added_date": "2026-03-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "io49f422",
@@ -15710,7 +16007,8 @@
       "added_date": "2025-06-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ikxp5obl",
@@ -15736,7 +16034,7 @@
       "one_liner": "DeepSeek-R1 以 RL 后训练实现 o1 级推理能力的里程碑之作",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/DeepSeek-R1 发布，性能对标 OpenAI o1 正式版-2025-01-21.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -15782,7 +16080,8 @@
       "added_date": "2026-03-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ij7mldvu",
@@ -15848,7 +16147,8 @@
       "added_date": "2026-01-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "iXcRwjIp",
@@ -15880,7 +16180,8 @@
       "added_date": "2024-02-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "iWdwmAqE",
@@ -15912,7 +16213,8 @@
       "added_date": "2024-02-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "iMrcg1S1",
@@ -15932,7 +16234,7 @@
       "one_liner": "Cubox 收藏 — 面试随想 | tsaiggo's blog",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/面试随想 - tsaiggo's blog-2022-06-19.md",
       "images": [],
       "added_date": "2022-06-19",
@@ -15970,7 +16272,8 @@
       "added_date": "2023-11-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "i4ujbfte",
@@ -16001,7 +16304,8 @@
       "added_date": "2026-02-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "hyfiqln2",
@@ -16027,7 +16331,7 @@
       "one_liner": "反对 AI 摘要替代阅读，提倡用 AI 深化理解的阅读方法论",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/How To Remember Everything You Read With AI - Dan Koe-2025-04-16.md",
       "images": [],
       "added_date": "2025-04-16",
@@ -16066,7 +16370,8 @@
       "added_date": "2026-03-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "hu2ghikp",
@@ -16099,7 +16404,8 @@
       "added_date": "2026-02-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ht1p4rsf",
@@ -16134,7 +16440,8 @@
       "added_date": "2026-04-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "hlvuc980",
@@ -16160,7 +16467,7 @@
       "one_liner": "Wolfram 个人生产力系统全景，极客级知识管理参考",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Seeking the Productive Life- Some Details of My Personal Infrastructure—Stephen Wolfram Writings-202.md",
       "images": [],
       "added_date": "2019-02-01",
@@ -16204,7 +16511,8 @@
       "added_date": "2026-04-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "hh3xc35c",
@@ -16269,7 +16577,8 @@
       "added_date": "2026-03-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "h9mo4t3x",
@@ -16337,7 +16646,8 @@
       "added_date": "2026-04-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "h5buHi48",
@@ -16357,7 +16667,7 @@
       "one_liner": "Cubox 收藏 — abhisheknaiidu/awesome-github-profile-readme",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/abhisheknaiidu-awesome-github-profile-readme-2024-08-26.md",
       "images": [],
       "added_date": "2024-08-26",
@@ -16389,7 +16699,7 @@
       "one_liner": "关于Cursor 常用提示词手册的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Cursor 常用提示词手册-2024-12-30.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -16436,7 +16746,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gtcaz1r1",
@@ -16471,7 +16782,8 @@
       "added_date": "2026-02-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "grcvmlet",
@@ -16503,7 +16815,8 @@
       "added_date": "2026-04-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gpbo0rtm",
@@ -16536,7 +16849,8 @@
       "added_date": "2026-03-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gnqojZ93",
@@ -16556,7 +16870,7 @@
       "one_liner": "Cubox 收藏 — tools/spe_parser · main · Telemetry Solution / Tel",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/tools-spe_parser · main · Telemetry Solution - Telemetry Solution · GitLab-2025-01-09.md",
       "images": [],
       "added_date": "2025-01-09",
@@ -16594,7 +16908,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gk8gfuyf",
@@ -16700,7 +17015,8 @@
       "added_date": "2024-05-14",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ghekus0k",
@@ -16740,7 +17056,8 @@
       "added_date": "2026-01-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ggh39whe",
@@ -16775,7 +17092,8 @@
       "added_date": "2026-03-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gey4i36q",
@@ -16807,7 +17125,8 @@
       "added_date": "2026-02-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ga5iefwf",
@@ -16841,7 +17160,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "g96boqc1",
@@ -16867,7 +17187,7 @@
       "one_liner": "Cubox 收藏: Daily Productive Sharing 1162 - Thoughts on AGI",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Daily Productive Sharing 1162 - Thoughts on AGI-2025-01-29.md",
       "images": [],
       "added_date": "2025-01-29",
@@ -16905,7 +17225,8 @@
       "added_date": "2025-03-06",
       "updated_date": "2026-04-15",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "g0l3fstx",
@@ -16937,7 +17258,8 @@
       "added_date": "2026-03-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fzv3l7o9",
@@ -16961,7 +17283,7 @@
       "one_liner": "Cubox 收藏文章，ide-editor 领域相关内容",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/AI降临-2023-01-02.md",
       "images": [
         "https://image.cubox.pro/article/2022120623195938145/87167.jpg",
@@ -17006,7 +17328,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fuxlqv7h",
@@ -17041,7 +17364,8 @@
       "added_date": "2025-08-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ftvnh74m",
@@ -17164,7 +17488,8 @@
       "added_date": "2023-03-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fpmdn3mj",
@@ -17199,7 +17524,8 @@
       "added_date": "2026-03-22",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fj2smvgl",
@@ -17264,7 +17590,8 @@
       "added_date": "2026-02-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fewYF2Nt",
@@ -17296,7 +17623,8 @@
       "added_date": "2025-12-23",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fcaeud36",
@@ -17329,7 +17657,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fKDuLILB",
@@ -17349,7 +17678,7 @@
       "one_liner": "Cubox 收藏 — 万字长文深度解析Sora的核心技术，解密OpenAI掌控时空的秘密武器",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/万字长文深度解析Sora的核心技术，解密OpenAI掌控时空的秘密武器-2024-03-03.md",
       "images": [
         "https://image.cubox.pro/cardImg/2024030316271563989/33203.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -17393,7 +17722,8 @@
       "added_date": "2025-04-12",
       "updated_date": "2026-04-15",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fCNuxEDq",
@@ -17419,7 +17749,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f7cndt4r",
@@ -17454,7 +17785,8 @@
       "added_date": "2026-03-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f71nn8lk",
@@ -17486,7 +17818,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f4uptczq",
@@ -17520,7 +17853,8 @@
       "added_date": "2023-12-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ez9vv62c",
@@ -17552,7 +17886,8 @@
       "added_date": "2026-02-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "eyluueyt",
@@ -17651,7 +17986,8 @@
       "added_date": "2024-02-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ekyuztr8",
@@ -17717,7 +18053,8 @@
       "added_date": "2023-03-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "egu78302",
@@ -17752,7 +18089,8 @@
       "added_date": "2026-03-20",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "efaw158d",
@@ -17818,7 +18156,8 @@
       "added_date": "2026-02-23",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "eah3p75m",
@@ -17852,7 +18191,8 @@
       "added_date": "2026-04-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "eW0H313o",
@@ -17882,7 +18222,8 @@
       "added_date": "2023-02-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "eNLfwH3A",
@@ -17914,7 +18255,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "eLRMGrp7",
@@ -17934,7 +18276,7 @@
       "one_liner": "Cubox 收藏 — 月刊（第28期）：AI 没有体验世界的能力 - Airing 的博客",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/月刊（第28期）：AI 没有体验世界的能力 - Airing 的博客-2025-01-20.md",
       "images": [],
       "added_date": "2025-01-20",
@@ -17960,7 +18302,7 @@
       "one_liner": "Cubox 收藏 — iPhone 17 不支持 AI Agent，但邪修的智谱不管",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/iPhone 17 不支持 AI Agent，但邪修的智谱不管-2025-08-21.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -18035,7 +18377,8 @@
       "added_date": "2023-07-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e819jgsa",
@@ -18106,7 +18449,8 @@
       "added_date": "2026-01-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e7QC8TYz",
@@ -18138,7 +18482,8 @@
       "added_date": "2025-05-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e4of4uf4",
@@ -18170,7 +18515,8 @@
       "added_date": "2026-03-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e1k3ik20",
@@ -18197,7 +18543,7 @@
       "one_liner": "AI 时代工程管理的实用手册，70% 问题的提法精准到位",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Leading Effective Engineering Teams in the Age of GenAI-2025-03-26.md",
       "images": [],
       "added_date": "2025-03-26",
@@ -18256,7 +18602,7 @@
       "one_liner": "Cubox 收藏 — 深蹲VS大齿比：力量训练的终极选择题！哪个更好呢？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/深蹲VS大齿比：力量训练的终极选择题！哪个更好呢？-2025-05-07.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -18307,7 +18653,8 @@
       "added_date": "2026-01-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "dtviw53e",
@@ -18336,7 +18683,7 @@
       "one_liner": "Cubox 收藏: Generative AI in a Nutshell - how to survive and t",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Generative AI in a Nutshell - how to survive and thrive in the age of AI-2024-08-22.md",
       "images": [
         "https://image.cubox.pro/cardImg/k0ndsen4kf7vrbxv5wqpqiqnkstc2cquyzmiqe9baiag1i0s9?imageMogr2/quality/90/ignore-error/1",
@@ -18377,7 +18724,8 @@
       "added_date": "2024-03-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "dfuk5hd5",
@@ -18412,7 +18760,8 @@
       "added_date": "2026-03-13",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "dREy4RkI",
@@ -18444,7 +18793,8 @@
       "added_date": "2023-07-31",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "dB7RnCtb",
@@ -18476,7 +18826,8 @@
       "added_date": "2026-03-31",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d3txcbhe",
@@ -18530,7 +18881,7 @@
       "one_liner": "Cubox 收藏文章，best-practices 领域相关内容",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/AI is about to completely change how you use compu...-2023-12-14.md",
       "images": [],
       "added_date": "2023-12-14",
@@ -18568,7 +18919,8 @@
       "added_date": "2025-12-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cvqqsf6n",
@@ -18592,7 +18944,7 @@
       "one_liner": "关于ChatGPT 问世两年，我在 AI 的辅助下成为了一名 i的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/ChatGPT 问世两年，我在 AI 的辅助下成为了一名 iOS 业余开发者 - 少数派-2024-11-12.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -18645,7 +18997,8 @@
       "added_date": "2026-03-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cuevct3j",
@@ -18669,7 +19022,7 @@
       "one_liner": "提示工程相关收藏",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Android Developers Blog- Prompt users to update to your latest app version-2024-01-31.md",
       "images": [
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVf1xFfP7lv0klpYSL7CyQ7KvpPFIWmRSwS2JHzzeLy43LkVZp82t1EpFkbLcTQMcPNOpxtWv8ntPTglOpjnutQ4Sn8nUzgMbiRBZMBKlHGIte6DjxAg_oP2PWrbTQ1dd-YXSgvRcrlm1gpDWU7Dju5Yc8ecMCIdvFr11gnd5AMO4nDQ3EKFUouM3z-vs/s1600/HEADER-Prompt-users-on-the-outdated-versions-to-update.png",
@@ -18710,7 +19063,8 @@
       "added_date": "2025-12-22",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cpuc7957",
@@ -18757,7 +19111,8 @@
       "added_date": "2025-02-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cowB3w88",
@@ -18777,7 +19132,7 @@
       "one_liner": "Cubox 收藏 — 使用Chat gpt提高Android开发效率",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/使用Chat gpt提高Android开发效率-2023-06-19.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -18824,7 +19179,8 @@
       "added_date": "2026-04-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cVIv9e0T",
@@ -18870,7 +19226,7 @@
       "one_liner": "Cubox 收藏 — 碎碎念：关于小模型或者端侧大模型",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/碎碎念：关于小模型或者端侧大模型-2024-07-29.md",
       "images": [],
       "added_date": "2024-07-29",
@@ -18905,7 +19261,8 @@
       "added_date": "2026-01-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c7cnj6ij",
@@ -18971,7 +19328,8 @@
       "added_date": "2023-05-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c5xxse0i",
@@ -19041,7 +19399,8 @@
       "added_date": "2026-03-31",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c4is4wst",
@@ -19088,7 +19447,8 @@
       "added_date": "2024-08-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c3xq8hlt",
@@ -19121,7 +19481,8 @@
       "added_date": "2026-03-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c3dc5hz4",
@@ -19157,8 +19518,9 @@
       ],
       "added_date": "2026-04-10",
       "updated_date": null,
-      "github_stars": 8584,
-      "related": []
+      "github_stars": 9991,
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c1kV8Lly",
@@ -19178,7 +19540,7 @@
       "one_liner": "Cubox 收藏 — 理解llama.cpp怎么完成大模型推理的",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/理解llama.cpp怎么完成大模型推理的-2024-12-08.md",
       "images": [],
       "added_date": "2024-12-08",
@@ -19253,7 +19615,8 @@
       "added_date": "2026-02-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "brore2ll",
@@ -19294,7 +19657,8 @@
       "added_date": "2025-12-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bm07nb7r",
@@ -19327,7 +19691,8 @@
       "added_date": "2026-03-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bl4udth8",
@@ -19360,7 +19725,8 @@
       "added_date": "2026-03-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bjwxklv4",
@@ -19395,7 +19761,8 @@
       "added_date": "2026-03-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "biKdjZqx",
@@ -19415,7 +19782,7 @@
       "one_liner": "Cubox 收藏 — 注册ChatGPT全攻略 — Box ⛩️",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/注册ChatGPT全攻略 — Box ⛩️--地址...-2022-12-05.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -19447,7 +19814,7 @@
       "one_liner": "Cubox 收藏 — 深入 Binder 之 AIDL - Cyrus Blog",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/深入 Binder 之 AIDL - Cyrus Blog-2023-12-06.md",
       "images": [],
       "added_date": "2023-12-06",
@@ -19486,7 +19853,8 @@
       "added_date": "2026-03-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "be2lx9fi",
@@ -19532,7 +19900,8 @@
       "added_date": "2026-01-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bdzl4vyf",
@@ -19567,7 +19936,8 @@
       "added_date": "2026-03-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bcm7w7vv",
@@ -19606,7 +19976,8 @@
       "added_date": "2025-09-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bbKeXzN9",
@@ -19638,7 +20009,8 @@
       "added_date": "2024-06-13",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bQ1IR63I",
@@ -19658,7 +20030,7 @@
       "one_liner": "Cubox 收藏 — 聊天GPT 3.5 api chatGPT私有化部署",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/聊天GPT 3.5 api chatGPT私有化部署-2023-03-09.md",
       "images": [],
       "added_date": "2023-03-09",
@@ -19690,7 +20062,8 @@
       "added_date": "2023-11-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b8r6a80s",
@@ -19724,7 +20097,8 @@
       "added_date": "2026-03-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b7rx3L1j",
@@ -19744,7 +20118,7 @@
       "one_liner": "Cubox 收藏 — 我们仍未知道那天所见的ChatGPT有多可怕",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/我们仍未知道那天所见的ChatGPT有多可怕-2023-02-13.md",
       "images": [
         "https://image.cubox.pro/article/2023021309544692095/34484.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -19789,7 +20163,8 @@
       "added_date": "2026-03-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b6bs8e91",
@@ -19833,7 +20208,8 @@
       "added_date": "2022-12-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "awh81ez0",
@@ -19865,7 +20241,8 @@
       "added_date": "2026-04-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "apm1yd3g",
@@ -19901,7 +20278,8 @@
       "added_date": "2025-02-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "an1q7e8h",
@@ -19928,7 +20306,7 @@
       "one_liner": "Cubox 收藏: Google Gemini 如何加速 Android 开发？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Google Gemini 如何加速 Android 开发？-2025-02-17.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -19980,7 +20358,8 @@
       "added_date": "2023-05-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "aiw3skr3",
@@ -20051,7 +20430,8 @@
       "added_date": "2026-03-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "af561ck4",
@@ -20084,7 +20464,8 @@
       "added_date": "2026-01-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "aakm0n26",
@@ -20117,7 +20498,8 @@
       "added_date": "2026-03-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a26ppn58",
@@ -20152,7 +20534,8 @@
       "added_date": "2026-03-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ZxKiEcO1",
@@ -20184,7 +20567,8 @@
       "added_date": "2024-01-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "Zw0qqV0e",
@@ -20210,7 +20594,8 @@
       "added_date": "2025-12-16",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ZpqUcxyn",
@@ -20230,7 +20615,7 @@
       "one_liner": "Cubox 收藏 — 如何配置Clion编写aosp的c++程序使用aidegen工具编译生成cmake文件，该方法适用于",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/如何配置Clion编写aosp的c++程序使用aidegen工具编译生成cmake文件，该方法适用于无法使用asfp I - 掘金-2025-03-18.md",
       "images": [],
       "added_date": "2025-03-18",
@@ -20268,7 +20653,8 @@
       "added_date": "2025-05-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ZarQOzOt",
@@ -20288,7 +20674,7 @@
       "one_liner": "Cubox 收藏 — 逃离“Vibe幻觉”：为什么90%的AI用户，最终会沦为认知“寄生者”？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/逃离“Vibe幻觉”：为什么90%的AI用户，最终会沦为认知“寄生者”？-2025-08-28.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -20332,7 +20718,8 @@
       "added_date": "2026-02-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "YJ4xL9Ii",
@@ -20352,7 +20739,7 @@
       "one_liner": "Cubox 收藏 — 我所了解的 ChatGPT：二次开发；有何限制；对未来的影响",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/我所了解的 ChatGPT：二次开发；有何限制；对未来的影响-2023-02-25.md",
       "images": [
         "https://image.cubox.pro/article/2023030820044745100/89448.jpg?imageMogr2/quality/90/ignore-error/1"
@@ -20392,7 +20779,8 @@
       "added_date": "2025-03-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "XBaDFs3i",
@@ -20424,7 +20812,8 @@
       "added_date": "2022-01-20",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "VvMFpddm",
@@ -20444,7 +20833,7 @@
       "one_liner": "Cubox 收藏 — 凯哥  |  当ERP遇到ChatGPT，新世界的大门被打开",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/凯哥  -  当ERP遇到ChatGPT，新世界的大门被打开-2023-02-11.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -20488,7 +20877,8 @@
       "added_date": "2022-03-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "VPAy4XTG",
@@ -20514,7 +20904,8 @@
       "added_date": "2024-09-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "V4JUiSO2",
@@ -20534,7 +20925,7 @@
       "one_liner": "Cubox 收藏 — 听了Andrej Karpathy最新2小时访谈，我对Agent彻底祛魅了",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/听了Andrej Karpathy最新2小时访谈，我对Agent彻底祛魅了-2025-10-20.md",
       "images": [],
       "added_date": "2025-10-20",
@@ -20560,7 +20951,7 @@
       "one_liner": "Cubox 收藏 — 在 ChatWise 中使用 MCP 工具",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/在 ChatWise 中使用 MCP 工具-2025-03-26.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale("
@@ -20588,7 +20979,7 @@
       "one_liner": "Cubox 收藏 — 「代码艺术家」不会被 AI 取代 | Randy's Blog",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/「代码艺术家」不会被 AI 取代 - Randy's Blog-2025-02-09.md",
       "images": [
         "https://image.cubox.pro/cardImg/42vdjkjnvcv2fz0o84yys1o3t8l00dtbb9gmodpftlmysmokxh.webp?imageMogr2/quality/90/format/gif/ignore-error/1"
@@ -20616,7 +21007,7 @@
       "one_liner": "Cubox 收藏 — 关于AI的一些实践和思考 - Rolen's Blog",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/关于AI的一些实践和思考 - Rolen's Blog-2025-03-05.md",
       "images": [],
       "added_date": "2025-03-05",
@@ -20642,7 +21033,7 @@
       "one_liner": "Cubox 收藏 — 手机能跑图生成和 LLM 大模型吗",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/手机能跑图生成和 LLM 大模型吗-2024-06-12.md",
       "images": [],
       "added_date": "2024-06-12",
@@ -20680,7 +21071,8 @@
       "added_date": "2025-06-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "TqI05qAQ",
@@ -20700,7 +21092,7 @@
       "one_liner": "Cubox 收藏 — 你在为AI工具付费？我只花了100美元就解锁了一大堆牛逼工具，详细教程在这里",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/你在为AI工具付费？我只花了100美元就解锁了一大堆牛逼工具，详细教程在这里-2025-04-16.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -20744,7 +21136,8 @@
       "added_date": "2026-03-31",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "TFUOn14l",
@@ -20764,7 +21157,7 @@
       "one_liner": "Cubox 收藏 — 关于AI的思考：如何在AI时代看清楚自己的价值",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/关于AI的思考：如何在AI时代看清楚自己的价值-2024-08-23.md",
       "images": [
         "https://image.cubox.pro/cardImg/22f2dyc3bixqqkmffxebj399x7t7zmynmwqjj05m2xr6x59we0.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -20805,7 +21198,8 @@
       "added_date": "2026-02-13",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "T4eWO6CN",
@@ -20837,7 +21231,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "T4cgCGJL",
@@ -20857,7 +21252,7 @@
       "one_liner": "Cubox 收藏 — 独立开发者分享 AI Coding 的秘诀（已获得授权）",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/独立开发者分享 AI Coding 的秘诀（已获得授权）-2025-09-05.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -20889,7 +21284,7 @@
       "one_liner": "Cubox 收藏 — 一键让你的Claude Code拥有所有世界顶级Agent，并卷死它自己",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/一键让你的Claude Code拥有所有世界顶级Agent，并卷死它自己-2025-08-20.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -20933,7 +21328,8 @@
       "added_date": "2025-01-20",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "SBuvmeAX",
@@ -20953,7 +21349,7 @@
       "one_liner": "Cubox 收藏 — 你无法用 AI 建立护城河 [译] | 宝玉的分享",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/你无法用 AI 建立护城河 [译] - 宝玉的分享-2025-02-23.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -20994,7 +21390,8 @@
       "added_date": "2025-03-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "Qwelg7Iw",
@@ -21023,7 +21420,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "Q2EBAkbQ",
@@ -21055,7 +21453,8 @@
       "added_date": "2026-03-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "Pk8NT8f0",
@@ -21075,7 +21474,7 @@
       "one_liner": "Cubox 收藏 — 亚马逊 AI IDE Kiro “狙击”Cursor？实测心得",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/亚马逊 AI IDE Kiro “狙击”Cursor？实测心得-2025-07-17.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -21119,7 +21518,8 @@
       "added_date": "2026-03-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "PEXWvRQg",
@@ -21151,7 +21551,8 @@
       "added_date": "2025-12-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "P7QKZPlf",
@@ -21171,7 +21572,7 @@
       "one_liner": "Cubox 收藏 — 失業半年，我用 AI 打造每日輸出系統，結果 AI 公司主動找上門",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/失業半年，我用 AI 打造每日輸出系統，結果 AI 公司主動找上門-2025-08-21.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -21213,7 +21614,8 @@
       "added_date": "2025-10-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "NoFTnFnJ",
@@ -21245,7 +21647,8 @@
       "added_date": "2025-02-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "NKcknavl",
@@ -21265,7 +21668,7 @@
       "one_liner": "Cubox 收藏 — 【2021 年度十大图书】大脑上瘾的植物、人工智能、城市与计算机的隐喻｜Deep Reading#0",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/【2021 年度十大图书】大脑上瘾的植物、人工智能、城市与计算机的隐喻｜Deep Reading#073 – Dailyio-2022-01-20.md",
       "images": [
         "https://image.cubox.pro/article/2022011100153423437/24485.jpg",
@@ -21297,7 +21700,7 @@
       "one_liner": "Cubox 收藏 — 不用数学和代码，解释下ChatGPT算法原理",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/不用数学和代码，解释下ChatGPT算法原理-2023-03-09.md",
       "images": [
         "https://image.cubox.pro/article/2023022209463079364/37023.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -21338,7 +21741,8 @@
       "added_date": "2026-03-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "N72cKahx",
@@ -21366,7 +21770,8 @@
       "added_date": "2025-12-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "MIOvnhLW",
@@ -21396,7 +21801,8 @@
       "added_date": "2025-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "LyeEG95Z",
@@ -21428,7 +21834,8 @@
       "added_date": "2026-01-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "Lba9oZ0V",
@@ -21459,7 +21866,8 @@
       "added_date": "2025-12-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "KxSifvJd",
@@ -21479,7 +21887,7 @@
       "one_liner": "Cubox 收藏 — 首批68款ChatGPT Plugins开放！我体验后推荐这4款实用插件！",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/首批68款ChatGPT Plugins开放！我体验后推荐这4款实用插件！-2023-05-16.md",
       "images": [
         "https://image.cubox.pro/article/2023051811361216187/57325.jpg",
@@ -21523,7 +21931,8 @@
       "added_date": "2023-10-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "KUhDnaSh",
@@ -21555,7 +21964,8 @@
       "added_date": "2025-04-17",
       "updated_date": "2026-04-15",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "K8o15MzY",
@@ -21583,7 +21993,8 @@
       "added_date": "2025-07-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "Js9Ltvmf",
@@ -21612,7 +22023,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "Jf9wKqdA",
@@ -21641,7 +22053,8 @@
       "added_date": "2025-12-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "JYORCD6u",
@@ -21661,7 +22074,7 @@
       "one_liner": "Cubox 收藏 — 我用Coze来掘金 | AI Agent 创意征文大赛来啦！ - 掘金",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/我用Coze来掘金 - AI Agent 创意征文大赛来啦！ - 掘金-2024-02-01.md",
       "images": [
         "https://image.cubox.pro/cardImg/2024020113555655578/70532.jpg?imageMogr2/quality/90/format/gif/ignore-error/1",
@@ -21703,7 +22116,8 @@
       "added_date": "2024-01-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "IsiZuwcx",
@@ -21723,7 +22137,7 @@
       "one_liner": "Cubox 收藏 — 大模型时代手机的杀手锏功能思考",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/大模型时代手机的杀手锏功能思考-2025-03-08.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale("
@@ -21763,7 +22177,8 @@
       "added_date": "2023-02-20",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "IdUvhxGd",
@@ -21789,7 +22204,8 @@
       "added_date": "2026-01-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ISpaw0wh",
@@ -21821,7 +22237,8 @@
       "added_date": "2022-04-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "HuGrtFDi",
@@ -21841,7 +22258,7 @@
       "one_liner": "Cubox 收藏 — [译]AI算力民主化 第二部分：究竟何为“CUDA”？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/[译]AI算力民主化 第二部分：究竟何为“CUDA”？-2025-03-18.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -21872,7 +22289,7 @@
       "one_liner": "Cubox 收藏 — 端侧 AI",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/端侧 AI-2024-06-20.md",
       "images": [],
       "added_date": "2024-06-20",
@@ -21924,7 +22341,7 @@
       "one_liner": "Cubox 收藏 — 湾区与独立开发 - laike9m's blog",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/湾区与独立开发 - laike9m's blog-2023-07-31.md",
       "images": [],
       "added_date": "2023-07-31",
@@ -21950,7 +22367,7 @@
       "one_liner": "Cubox 收藏 — 【开放阅读】数字工具使用的四项基本原则 – Dailyio",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/【开放阅读】数字工具使用的四项基本原则 – Dailyio-2022-03-11.md",
       "images": [
         "https://image.cubox.pro/article/2022031521452336316/21038.jpg?imageMogr2/quality/90/format/gif/ignore-error/1",
@@ -21994,7 +22411,8 @@
       "added_date": "2026-03-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "GLLemXIU",
@@ -22026,7 +22444,8 @@
       "added_date": "2024-05-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "G4U04j95",
@@ -22046,7 +22465,7 @@
       "one_liner": "Cubox 收藏 — 我是如何使用 Claude Code 的",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/我是如何使用 Claude Code 的-2025-06-20.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale("
@@ -22074,7 +22493,7 @@
       "one_liner": "Cubox 收藏 — 以后请叫我cursor工程师",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/以后请叫我cursor工程师-2023-03-23.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -22118,7 +22537,8 @@
       "added_date": "2023-03-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "DdX7I8qz",
@@ -22144,7 +22564,8 @@
       "added_date": "2025-01-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "DJotrA2L",
@@ -22176,7 +22597,8 @@
       "added_date": "2024-05-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "Cz4J8TlT",
@@ -22196,7 +22618,7 @@
       "one_liner": "Cubox 收藏 — 一个提示词 claude 生成一个 app 的 ui/ux",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/一个提示词 claude 生成一个 app 的 ui-ux-2025-03-04.md",
       "images": [
         "https://image.cubox.pro/cardImg/228csxn9oivt1xngn9sujo4h17aqk8pq1678wqrjl87zwh1iao.png?imageMogr2/quality/90/ignore-error/1",
@@ -22228,7 +22650,7 @@
       "one_liner": "Cubox 收藏 — 👋 Welcome | Learning Prompt",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/👋 Welcome - Learning Prompt-2023-03-09.md",
       "images": [],
       "added_date": "2023-03-09",
@@ -22254,7 +22676,7 @@
       "one_liner": "Cubox 收藏 — 一文带你了解OpenAI Sora",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/一文带你了解OpenAI Sora-2024-02-21.md",
       "images": [
         "https://image.cubox.pro/cardImg/2024022111392796965/44286.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -22298,7 +22720,8 @@
       "added_date": "2026-03-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "BduNmS5g",
@@ -22330,7 +22753,8 @@
       "added_date": "2026-01-13",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "BZwVgqGU",
@@ -22362,7 +22786,8 @@
       "added_date": "2024-12-14",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "BZMiTd8i",
@@ -22394,7 +22819,8 @@
       "added_date": "2024-03-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "BXSV6cyw",
@@ -22414,7 +22840,7 @@
       "one_liner": "Cubox 收藏 — 我用AI工具降本增效的创业经历",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/我用AI工具降本增效的创业经历-2023-01-29.md",
       "images": [
         "https://image.cubox.pro/article/2023020413060755703/90838.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -22446,7 +22872,7 @@
       "one_liner": "Cubox 收藏 — 企业BI·by·AI：无“本体”，不落地｜MVO实践篇",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/企业BI·by·AI：无“本体”，不落地｜MVO实践篇-2025-08-28.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -22487,7 +22913,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "Ac0YVZZ8",
@@ -22513,7 +22940,8 @@
       "added_date": "2025-01-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "AWgBSez0",
@@ -22533,7 +22961,7 @@
       "one_liner": "Cubox 收藏 — 不秃也变强：让 AI 当大师傅，编程和写作效率提升两三倍 | 歌词经理",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/不秃也变强：让 AI 当大师傅，编程和写作效率提升两三倍 - 歌词经理-2023-08-09.md",
       "images": [
         "https://image.cubox.pro/article/2023080922043355971/97634.jpg?imageMogr2/quality/90/format/gif/ignore-error/1",
@@ -22575,7 +23003,8 @@
       "added_date": "2025-03-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9z9o90bz",
@@ -22603,7 +23032,8 @@
       "added_date": "2026-03-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9ysrddrr",
@@ -22626,7 +23056,7 @@
       "one_liner": "Cubox 收藏: Claude for Chrome 一手体验！自动回复微信、发Twitter、做调研……做AI浏览器",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Claude for Chrome 一手体验！自动回复微信、发Twitter、做调研……做AI浏览器的创业者该慌了，比赛已经结束-2025-09-06.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -22690,7 +23120,7 @@
       "one_liner": "Cubox 收藏 — 欢迎 | Learn Prompting",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/欢迎 - Learn Prompting-2023-03-29.md",
       "images": [],
       "added_date": "2023-03-29",
@@ -22724,7 +23154,8 @@
       "added_date": "2022-04-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9ssm00y0",
@@ -22770,7 +23201,7 @@
       "one_liner": "Cubox 收藏 — 闲谈 0005｜AI编程只会淘汰初级工程师？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/闲谈 0005｜AI编程只会淘汰初级工程师？-2025-08-08.md",
       "images": [],
       "added_date": "2025-08-08",
@@ -22811,7 +23242,8 @@
       "added_date": "2026-04-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9kc59m51",
@@ -22843,7 +23275,8 @@
       "added_date": "2026-02-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9j1ds5wp",
@@ -22879,7 +23312,8 @@
       "added_date": "2026-01-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9cbi80c7",
@@ -22912,7 +23346,8 @@
       "added_date": "2026-03-23",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9PvdMvQM",
@@ -22932,7 +23367,7 @@
       "one_liner": "Cubox 收藏 — 大厂失业后，我被迫用cursor开发出了第一款海外产品谋生",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/大厂失业后，我被迫用cursor开发出了第一款海外产品谋生-2025-05-06.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -22975,7 +23410,8 @@
       "added_date": "2026-02-23",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "98kzc8ih",
@@ -22999,7 +23435,7 @@
       "one_liner": "关于ChatGPT时代，我的新书《智慧共生》上市了. 祝你在人工的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/ChatGPT时代，我的新书《智慧共生》上市了. 祝你在人工智能时代，多一些轻松和愉悦，少一些烦恼和焦虑 - by Shuyi Wang - Jun, 2023 - Medium-2023-06-15.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -23038,7 +23474,7 @@
       "one_liner": "Cubox 收藏 — [译]AI计算民主化 第一部分：DeepSeek对AI 的影响",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/[译]AI计算民主化 第一部分：DeepSeek对AI 的影响-2025-03-19.md",
       "images": [],
       "added_date": "2025-03-19",
@@ -23066,7 +23502,7 @@
       "one_liner": "AI 独立开发与实践收藏",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/AI时代的独立开发之路-2024-12-15.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -23116,7 +23552,8 @@
       "added_date": "2025-03-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8usho2cd",
@@ -23139,7 +23576,7 @@
       "one_liner": "Cubox 收藏文章，newsletters-blogs 领域相关内容",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/-Get back up when you fail. Celebrate behaving like a human.- - Revue-2022-01-24.md",
       "images": [
         "https://image.cubox.pro/article/2022012511405793220/79236.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -23190,7 +23627,8 @@
       "added_date": "2025-06-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8qb7y6ic",
@@ -23223,7 +23661,8 @@
       "added_date": "2026-02-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8nsl8czg",
@@ -23255,7 +23694,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8lwuhhmb",
@@ -23295,7 +23735,8 @@
       "added_date": "2026-01-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8j0fqkj3",
@@ -23329,7 +23770,8 @@
       "added_date": "2024-10-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8ciwpr89",
@@ -23366,7 +23808,8 @@
       "added_date": "2026-01-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8VnKkfK7",
@@ -23392,7 +23835,8 @@
       "added_date": "2026-02-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8UjPSqiw",
@@ -23412,7 +23856,7 @@
       "one_liner": "Cubox 收藏 — 我目前正在使用的 AI 服务 | 肘子的Swift记事本",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/我目前正在使用的 AI 服务 - 肘子的Swift记事本-2023-04-11.md",
       "images": [
         "https://image.cubox.pro/article/2023041112132654326/21007.jpg",
@@ -23450,7 +23894,7 @@
       "one_liner": "结构完整的去 AI 味 Prompt，可作为 system prompt 设计参考",
       "one_liner_author": "openclaw",
       "quality_score": 2,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Store and Share Your Prompts-2025-04-02.md",
       "images": [],
       "added_date": "2025-04-02",
@@ -23492,8 +23936,9 @@
       ],
       "added_date": "2026-04-10",
       "updated_date": null,
-      "github_stars": 8387,
-      "related": []
+      "github_stars": 8445,
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7wc3T3GQ",
@@ -23525,7 +23970,8 @@
       "added_date": "2023-04-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7tqryuqs",
@@ -23548,7 +23994,7 @@
       "one_liner": "Google 最强模型系列 Gemini 2.5 的升级发布",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Gemini 2.5：我们最智能的模型系列再升级-2025-05-25.md",
       "images": [],
       "added_date": "2025-05-25",
@@ -23587,7 +24033,8 @@
       "added_date": "2023-03-20",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7pp7rfh8",
@@ -23647,7 +24094,8 @@
       "added_date": "2023-03-16",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7nmmn49m",
@@ -23680,7 +24128,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7n5hkzn5",
@@ -23713,7 +24162,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7l3itHCM",
@@ -23733,7 +24183,7 @@
       "one_liner": "Cubox 收藏 — [译]AI算力民主化 第五部分：CUDA C++替代方案（如OpenCL）现状如何？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/[译]AI算力民主化 第五部分：CUDA C++替代方案（如OpenCL）现状如何？-2025-03-21.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -23770,7 +24220,8 @@
       "added_date": "2026-03-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7i9ufapk",
@@ -23823,7 +24274,8 @@
       "added_date": "2025-04-13",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7gpoqruF",
@@ -23855,7 +24307,8 @@
       "added_date": "2026-02-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7az6rlg5",
@@ -23888,7 +24341,8 @@
       "added_date": "2026-03-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7AhqzZQj",
@@ -23908,7 +24362,7 @@
       "one_liner": "Cubox 收藏 — 大语言模型 | LLMBook-zh",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/大语言模型 - LLMBook-zh-2025-01-08.md",
       "images": [
         "https://image.cubox.pro/cardImg/6ai31j9dl5n4ea0g05xgerqn5aezig84w6fbmwi3rdb5x5xaeb.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -23981,7 +24435,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "72iq5gol",
@@ -24015,7 +24470,8 @@
       "added_date": "2026-02-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "714pswc9",
@@ -24044,7 +24500,7 @@
       "one_liner": "关于ChatGPT应用开发小记的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/ChatGPT应用开发小记-2023-04-08.md",
       "images": [],
       "added_date": "2023-04-08",
@@ -24084,7 +24540,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6zoniwix",
@@ -24120,7 +24577,8 @@
       "added_date": "2025-10-20",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6zezxy4x",
@@ -24147,7 +24605,7 @@
       "one_liner": "关于CHATGPT API（降价 90%）对 LLM 领域的影响的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/CHATGPT API（降价 90%）对 LLM 领域的影响 - 高策-2023-03-03.md",
       "images": [
         "https://image.cubox.pro/article/2023030311520833900/72083.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -24189,7 +24647,8 @@
       "added_date": "2023-04-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6wwa66of",
@@ -24222,7 +24681,8 @@
       "added_date": "2026-03-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6sq6xo9a",
@@ -24247,7 +24707,7 @@
       "one_liner": "关于Cursor+Claude3.7的绝杀：从原型到app，两步的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Cursor+Claude3.7的绝杀：从原型到app，两步完成app开发-2025-03-02.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -24302,7 +24762,8 @@
       "added_date": "2025-03-19",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6nrmpv7z",
@@ -24328,7 +24789,8 @@
       "added_date": "2026-01-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6nr7xpx1",
@@ -24361,7 +24823,8 @@
       "added_date": "2024-10-31",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6lv9qjsv",
@@ -24405,7 +24868,8 @@
       "added_date": "2026-01-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6hz9vzy3",
@@ -24437,7 +24901,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6e1u2aox",
@@ -24471,7 +24936,8 @@
       "added_date": "2024-05-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6dn2q2or",
@@ -24502,7 +24968,8 @@
       "added_date": "2026-02-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6PVLqBX0",
@@ -24522,7 +24989,7 @@
       "one_liner": "Cubox 收藏 — YOLOv8 模型训练入门指南：手把手搞定目标检测AI",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/YOLOv8 模型训练入门指南：手把手搞定目标检测AI-2025-05-26.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -24564,7 +25031,8 @@
       "added_date": "2026-01-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "64blp4b1",
@@ -24597,7 +25065,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5uz0zj5l",
@@ -24632,7 +25101,8 @@
       "added_date": "2026-03-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5n08ud0l",
@@ -24664,7 +25134,8 @@
       "added_date": "2026-02-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5kvcg2qn",
@@ -24757,7 +25228,8 @@
       "added_date": "2026-03-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5hv63unh",
@@ -24791,7 +25263,8 @@
       "added_date": "2026-03-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5hd30k75",
@@ -24823,7 +25296,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5eqdqp7p",
@@ -24846,7 +25320,7 @@
       "one_liner": "关于Gemini：我们规模最大、能力最强的 AI 模型的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Gemini：我们规模最大、能力最强的 AI 模型-2023-12-07.md",
       "images": [
         "https://image.cubox.pro/cardImg/2023120709382840815/81730.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -24897,7 +25371,8 @@
       "added_date": "2026-03-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5axVw63a",
@@ -24929,7 +25404,8 @@
       "added_date": "2025-02-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5WWpA5tN",
@@ -24949,7 +25425,7 @@
       "one_liner": "Cubox 收藏 — 一家投资机构关于ChatGPT的内部讨论会",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/一家投资机构关于ChatGPT的内部讨论会-2023-03-27.md",
       "images": [],
       "added_date": "2023-03-27",
@@ -24975,7 +25451,7 @@
       "one_liner": "Cubox 收藏 — ‌﻿⁡⁣​‌‬﻿‍‍​​​﻿‍⁣​‌﻿‬‬⁤⁢​​​⁢​⁣‬‌​​⁣﻿⁤​⁢‬​​​‬﻿⁡​​⁢⁡​",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/‌﻿⁡⁣​‌‬﻿‍‍​​​﻿‍⁣​‌﻿‬‬⁤⁢​​​⁢​⁣‬‌​​⁣﻿⁤​⁢‬​​​‬﻿⁡​​⁢⁡​AI编程蓝皮书 - 飞书云文档-2025-01-16.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -25022,7 +25498,8 @@
       "added_date": "2026-03-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "56u6sev2",
@@ -25053,7 +25530,8 @@
       "added_date": "2023-04-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "54zsncaa",
@@ -25086,7 +25564,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4zrkzy67",
@@ -25149,7 +25628,8 @@
       "added_date": "2026-03-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4uiownze",
@@ -25181,7 +25661,8 @@
       "added_date": "2026-02-25",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4u7v4niw",
@@ -25219,7 +25700,8 @@
       "added_date": "2024-09-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4to0ey4g",
@@ -25250,7 +25732,8 @@
       "added_date": "2026-03-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4tGn29mV",
@@ -25282,7 +25765,8 @@
       "added_date": "2022-12-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4sl0bq8x",
@@ -25482,8 +25966,9 @@
       ],
       "added_date": "2023-04-13",
       "updated_date": null,
-      "github_stars": 183564,
-      "related": []
+      "github_stars": 183958,
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4ldjersc",
@@ -25515,7 +26000,8 @@
       "added_date": "2026-01-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4jv028mx",
@@ -25551,7 +26037,8 @@
       "added_date": "2025-07-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4etnysar",
@@ -25606,7 +26093,7 @@
       "one_liner": "Cubox 收藏 — 闲谈丨一名AI体验者的自述当年ChatGPT 3横空出世的时候，我对它不屑一顾，心想这不就是超大知识",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/闲谈丨一名AI体验者的自述当年ChatGPT 3横空出世的时候，我对它不屑一顾，心想这不就是超大知识库的复读机么。如今， - 掘金-2025-03-31.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -25650,7 +26137,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4V2SPFoz",
@@ -25682,7 +26170,8 @@
       "added_date": "2024-09-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4Syg5zaw",
@@ -25714,7 +26203,8 @@
       "added_date": "2024-12-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4QBE6GLq",
@@ -25746,7 +26236,8 @@
       "added_date": "2025-02-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4OWFF6OI",
@@ -25766,7 +26257,7 @@
       "one_liner": "Cubox 收藏 — 从Claude 4发布和Windsurf并购案，看AI的终局",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/从Claude 4发布和Windsurf并购案，看AI的终局-2025-05-25.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -25807,8 +26298,9 @@
       "images": [],
       "added_date": "2025-07-06",
       "updated_date": null,
-      "github_stars": 11418,
-      "related": []
+      "github_stars": 11413,
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "478aml99",
@@ -25828,7 +26320,7 @@
       "one_liner": "AIGC/图像生成相关收藏",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/AI绘画会不会抢画师饭碗-2022-08-08.md",
       "images": [
         "https://image.cubox.pro/article/2022081111534257725/52310.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -25860,7 +26352,7 @@
       "one_liner": "Cubox 收藏 — 快让Appium自动化测试你的App吧适用于移动端的UI自动化测试框架有很多，其中主要以Appium",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/快让Appium自动化测试你的App吧适用于移动端的UI自动化测试框架有很多，其中主要以Appium与Airtest最为 - 掘金-2025-01-22.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -25898,7 +26390,7 @@
       "one_liner": "Google 最强模型系列 Gemini 2.5 的升级发布",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Gemini API 最新进展：Gemini 2.5 Flash & Pro、Live API、Veo 2-2025-04-13.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -25942,7 +26434,8 @@
       "added_date": "2026-02-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3jzgfsym",
@@ -25971,7 +26464,8 @@
       "added_date": "2026-03-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3emIE5H6",
@@ -26003,7 +26497,8 @@
       "added_date": "2025-01-08",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3cd7qdt3",
@@ -26038,7 +26533,8 @@
       "added_date": "2026-03-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3b7GKQVn",
@@ -26058,7 +26554,7 @@
       "one_liner": "Cubox 收藏 — vLLM 深度解析：production stack",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/vLLM 深度解析：production stack-2025-03-17.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -26102,7 +26598,8 @@
       "added_date": "2025-05-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "35jy5ktp",
@@ -26129,7 +26626,7 @@
       "one_liner": "AOSP 13 Rust AIDL 系统服务实战教程，代码完整可直接复用",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Rust写aosp13的AIDL系统级服务-2023-03-13.md",
       "images": [],
       "added_date": "2023-03-13",
@@ -26163,7 +26660,7 @@
       "one_liner": "Romain Guy 级别的 Kotlin 底层优化，从源码到汇编的逐层剖析",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Micro-optimizations in Kotlin — 1 · Romain Guy-2024-01-16.md",
       "images": [],
       "added_date": "2024-01-16",
@@ -26201,7 +26698,8 @@
       "added_date": "2025-05-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2xx72sp5",
@@ -26234,7 +26732,8 @@
       "added_date": "2026-02-23",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2xhpnq6s",
@@ -26268,7 +26767,8 @@
       "added_date": "2026-03-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2vsxzg1f",
@@ -26303,7 +26803,8 @@
       "added_date": "2026-03-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2rfmqygd",
@@ -26336,7 +26837,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2nr4s3iv",
@@ -26373,7 +26875,8 @@
       "added_date": "2025-07-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2lrsppi0",
@@ -26409,7 +26912,8 @@
       "added_date": "2025-06-23",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2k9hctuc",
@@ -26442,7 +26946,8 @@
       "added_date": "2026-03-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2g8km7k7",
@@ -26475,7 +26980,8 @@
       "added_date": "2025-02-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2c7gotMe",
@@ -26495,7 +27001,7 @@
       "one_liner": "Cubox 收藏 — 最近感觉AI真是特别好的学习工具，我目前主要用的是谷歌的Gemini和NotebookLM",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/最近感觉AI真是特别好的学习工具，我目前主要用的是谷歌的Gemini和NotebookLM-2025-09-17.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -26532,7 +27038,7 @@
       "one_liner": "Cubox 收藏: ChatGPT Apps - Ranking ~ ...",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/ChatGPT Apps - Ranking ~ ...-2023-03-30.md",
       "images": [],
       "added_date": "2023-03-30",
@@ -26570,7 +27076,8 @@
       "added_date": "2025-02-22",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "26qoyo1c",
@@ -26599,7 +27106,8 @@
       "added_date": "2026-03-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "26prcruq",
@@ -26635,8 +27143,9 @@
       ],
       "added_date": "2026-04-10",
       "updated_date": null,
-      "github_stars": 10933,
-      "related": []
+      "github_stars": 11554,
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "25ntvqhu",
@@ -26668,7 +27177,8 @@
       "added_date": "2026-02-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "20FsyDRA",
@@ -26700,7 +27210,8 @@
       "added_date": "2025-12-11",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "207tuv8w",
@@ -26735,7 +27246,8 @@
       "added_date": "2026-03-14",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1yCgAmII",
@@ -26755,7 +27267,7 @@
       "one_liner": "Cubox 收藏 — 办公类 AI 初探：扣子空间",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/办公类 AI 初探：扣子空间-2025-04-21.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -26799,7 +27311,8 @@
       "added_date": "2026-03-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1xg0s8up",
@@ -26834,7 +27347,8 @@
       "added_date": "2026-03-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1xbvfmd0",
@@ -26866,7 +27380,8 @@
       "added_date": "2026-02-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1wbifupp",
@@ -26900,7 +27415,8 @@
       "added_date": "2026-03-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1qr7tqeh",
@@ -26964,7 +27480,8 @@
       "added_date": "2022-01-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1p0skw14",
@@ -27030,7 +27547,8 @@
       "added_date": "2025-03-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1kxhgva3",
@@ -27070,7 +27588,8 @@
       "added_date": "2023-03-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1ivp4s60",
@@ -27144,8 +27663,9 @@
       ],
       "added_date": "2023-03-27",
       "updated_date": null,
-      "github_stars": 420,
-      "related": []
+      "github_stars": 419,
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1iaxb3xe",
@@ -27179,7 +27699,8 @@
       "added_date": "2025-12-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1bsbph2h",
@@ -27232,8 +27753,9 @@
       ],
       "added_date": "2026-04-10",
       "updated_date": null,
-      "github_stars": 24895,
-      "related": []
+      "github_stars": 24901,
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1SQPSwRR",
@@ -27253,7 +27775,7 @@
       "one_liner": "Cubox 收藏 — 其实关于 ChatGPT plugins 的大部分 myth",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/其实关于 ChatGPT plugins 的大部分 myth-2023-03-24.md",
       "images": [],
       "added_date": "2023-03-24",
@@ -27291,7 +27813,8 @@
       "added_date": "2024-09-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1MjQuVzp",
@@ -27311,7 +27834,7 @@
       "one_liner": "Cubox 收藏 — 谈谈最近玩 AI 的体悟",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/谈谈最近玩 AI 的体悟-2024-09-01.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -27359,7 +27882,8 @@
       "added_date": "2026-01-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "16htfbpp",
@@ -27392,7 +27916,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "159yb5wo",
@@ -27420,7 +27945,8 @@
       "added_date": "2026-03-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "13l53rvc",
@@ -27442,7 +27968,7 @@
       "one_liner": "微软出品的生成式 AI 入门课程",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Generative AI for Beginners-2024-07-03.md",
       "images": [
         "https://image.cubox.pro/cardImg/yc4pyu6uhmxu0kxsn6l21ecxhb5e7d1jqmub46fz6elstkd50.png?imageMogr2/quality/90/ignore-error/1",
@@ -27493,7 +28019,8 @@
       "added_date": "2026-04-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "10lq9q12",
@@ -27522,7 +28049,7 @@
       "one_liner": "关于Cursor: 以每秒 1000 个 Token 的速度编辑的收藏文章",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Cursor- 以每秒 1000 个 Token 的速度编辑文件 - 宝玉的分享-2025-02-16.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -27592,7 +28119,7 @@
       "one_liner": "AIGC/图像生成相关收藏",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/AIGC对程序员的影响 - Thoughtworks洞见-2023-12-04.md",
       "images": [
         "https://image.cubox.pro/cardImg/2023120413471631884/96095.jpg?imageMogr2/quality/90/format/gif/ignore-error/1"
@@ -27636,7 +28163,8 @@
       "added_date": "2026-03-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0dqwkocc",
@@ -27668,7 +28196,8 @@
       "added_date": "2025-12-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "02qyib4a",
@@ -27720,7 +28249,8 @@
       "added_date": "2023-02-14",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "01qaflpz",
@@ -27750,7 +28280,8 @@
       "added_date": "2026-03-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "00r7muqm",
@@ -27784,7 +28315,8 @@
       "added_date": "2026-03-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fjMcGsBd",
@@ -28174,7 +28706,7 @@
       "related": [],
       "category": "agents",
       "quality_score": 4,
-      "source_type": "blog_post",
+      "source_type": "article",
       "language": "en",
       "status": "active"
     },
@@ -28209,7 +28741,7 @@
       "related": [],
       "category": "agents",
       "quality_score": 4,
-      "source_type": "blog_post",
+      "source_type": "article",
       "language": "en",
       "status": "active"
     },
@@ -28241,7 +28773,7 @@
       "related": [],
       "category": "infra",
       "quality_score": 4,
-      "source_type": "blog_post",
+      "source_type": "article",
       "language": "en",
       "status": "active"
     },
@@ -28307,7 +28839,8 @@
       "added_date": "2026-05-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "v65jq96t",
@@ -28339,7 +28872,8 @@
       "added_date": "2026-05-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "hk0sljwr",
@@ -28371,7 +28905,8 @@
       "added_date": "2026-05-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "rc08tdo2",
@@ -28402,7 +28937,8 @@
       "added_date": "2026-05-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "akye56py",
@@ -28434,7 +28970,8 @@
       "added_date": "2026-05-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "02bfdmdl",
@@ -28466,7 +29003,8 @@
       "added_date": "2026-05-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cudamu2v",
@@ -28497,7 +29035,8 @@
       "added_date": "2026-05-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "rcrsoyz3",
@@ -28529,7 +29068,8 @@
       "added_date": "2026-05-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "914loj0d",
@@ -28560,7 +29100,8 @@
       "added_date": "2026-05-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "lql81et4",
@@ -28592,9 +29133,285 @@
       "added_date": "2026-05-03",
       "updated_date": null,
       "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "da4ef4b0",
+      "title": "AI Fast Track: 5天邮件课程从入门到实战",
+      "url": "https://x.com/alliekmiller/status/1985834763677286606",
+      "source": {
+        "platform": "x",
+        "author": "@alliekmiller",
+        "original_date": "2026-05-03"
+      },
+      "category": "content-creation",
+      "tags": [
+        "ai-tools",
+        "learning",
+        "email-course",
+        "x"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "这是一门免费的5天邮件课程，帮助用户从AI消费者转变为AI构建者，无需编程即可上手构建个人AI软件和工具。",
+      "summary_en": "A free 5-day email course helping users go from AI consumers to AI builders, building personal AI software without coding required.",
+      "one_liner": "5天邮件课程：从ChatGPT基础到构建个人AI工具",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d1c99260",
+      "title": "高价值AI内容 - OpenAI",
+      "url": "https://x.com/OpenAI/status/2049535650626785334",
+      "source": {
+        "platform": "x",
+        "author": "@OpenAI",
+        "original_date": "2026-05-03"
+      },
+      "category": "content-creation",
+      "tags": [
+        "ai-tools",
+        "high-value",
+        "x"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "来自@OpenAI的高价值AI相关内容，具有实用性和参考价值。",
+      "summary_en": "High-value AI content from @OpenAI with practical value and insights.",
+      "one_liner": "高价值AI内容 - @OpenAI",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d9a0a60c",
+      "title": "Google Gemini Embedding 2 多模态嵌入模型",
+      "url": "https://x.com/GoogleAI/status/2049903687016063456",
+      "source": {
+        "platform": "x",
+        "author": "@GoogleAI",
+        "original_date": "2026-05-03"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "google",
+        "multimodal",
+        "embedding",
+        "developer-tools",
+        "x"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Google推出的首个原生多模态嵌入模型，支持视频分析、视觉购物助手等多种应用场景，已向公众开放使用。",
+      "summary_en": "Google first native multimodal embedding model supporting video analysis, visual shopping assistants, and other applications, now publicly available.",
+      "one_liner": "Google原生多模态嵌入模型：支持视频和视觉分析",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "209d1bde",
+      "title": "MiniMax M2.7 开源模型发布",
+      "url": "https://x.com/MiniMax_AI/status/2043132047397659000",
+      "source": {
+        "platform": "x",
+        "author": "@MiniMax_AI",
+        "original_date": "2026-05-03"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "opensource",
+        "coding",
+        "chinese-ai",
+        "huggingface",
+        "x"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "MiniMax发布的M2.7开源模型，在SWE-Pro和Terminal Bench 2上表现出色，已可在Hugging Face上获取使用。",
+      "summary_en": "MiniMax open-source M2.7 model with excellent performance on SWE-Pro and Terminal Bench 2, now available on Hugging Face.",
+      "one_liner": "MiniMax M2.7开源模型：高性能编码模型",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "224d84ef",
+      "title": "高价值AI内容 - geoffreyhinton",
+      "url": "https://x.com/geoffreyhinton/status/2019532085233611207",
+      "source": {
+        "platform": "x",
+        "author": "@geoffreyhinton",
+        "original_date": "2026-05-03"
+      },
+      "category": "content-creation",
+      "tags": [
+        "ai-tools",
+        "high-value",
+        "x"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "来自@geoffreyhinton的高价值AI相关内容，具有实用性和参考价值。",
+      "summary_en": "High-value AI content from @geoffreyhinton with practical value and insights.",
+      "one_liner": "高价值AI内容 - @geoffreyhinton",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d24a6a44",
+      "title": "AI提示词工程：2026年全新课程",
+      "url": "https://x.com/AndrewYNg/status/2049886895530967534",
+      "source": {
+        "platform": "x",
+        "author": "@AndrewYNg",
+        "original_date": "2026-05-03"
+      },
+      "category": "prompt",
+      "tags": [
+        "prompt-engineering",
+        "multi-platform",
+        "skill-building",
+        "x"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "一门全面的AI提示词工程课程，覆盖多个主流AI平台，帮助用户从基础到高级掌握提示词技巧。",
+      "summary_en": "A comprehensive AI prompt engineering course covering multiple mainstream AI platforms, teaching users prompt techniques from basic to advanced.",
+      "one_liner": "跨平台AI提示词工程课程：从基础到高级技巧",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "53b19188",
+      "title": "高价值AI内容 - petitegeek",
+      "url": "https://x.com/petitegeek/status/1953082338029781441",
+      "source": {
+        "platform": "x",
+        "author": "@petitegeek",
+        "original_date": "2026-05-03"
+      },
+      "category": "content-creation",
+      "tags": [
+        "ai-tools",
+        "high-value",
+        "x"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "来自@petitegeek的高价值AI相关内容，具有实用性和参考价值。",
+      "summary_en": "High-value AI content from @petitegeek with practical value and insights.",
+      "one_liner": "高价值AI内容 - @petitegeek",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fd791356",
+      "title": "高价值AI内容 - steipete",
+      "url": "https://x.com/steipete/status/2050735979477008412",
+      "source": {
+        "platform": "x",
+        "author": "@steipete",
+        "original_date": "2026-05-03"
+      },
+      "category": "content-creation",
+      "tags": [
+        "ai-tools",
+        "high-value",
+        "x"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "来自@steipete的高价值AI相关内容，具有实用性和参考价值。",
+      "summary_en": "High-value AI content from @steipete with practical value and insights.",
+      "one_liner": "高价值AI内容 - @steipete",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c98657f2",
+      "title": "高价值AI内容 - realmadhuguru",
+      "url": "https://x.com/realmadhuguru/status/2016267285342847137",
+      "source": {
+        "platform": "x",
+        "author": "@realmadhuguru",
+        "original_date": "2026-05-03"
+      },
+      "category": "content-creation",
+      "tags": [
+        "ai-tools",
+        "high-value",
+        "x"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "来自@realmadhuguru的高价值AI相关内容，具有实用性和参考价值。",
+      "summary_en": "High-value AI content from @realmadhuguru with practical value and insights.",
+      "one_liner": "高价值AI内容 - @realmadhuguru",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-03",
+      "updated_date": null,
+      "github_stars": null,
       "related": []
     }
   ],
-  "last_updated": "2026-05-03T08:07:30.785247",
-  "total_entries": 858
+  "last_updated": "2026-05-04"
 }

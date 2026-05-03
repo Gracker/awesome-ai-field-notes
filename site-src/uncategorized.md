@@ -1,6 +1,6 @@
 # 🗂️ 未分类
 
-待归类但已通过质量门槛的资源 — 共 **57** 条活跃资源
+待归类但已通过质量门槛的资源 — 共 **47** 条活跃资源
 
 ## 📅 2026-05-01
 
@@ -335,42 +335,6 @@ weixin/download ┌────────────────────�
 
 ---
 
-## 📅 2025-09-05
-
-### [独立开发者分享 AI Coding 的秘诀（已获得授权）](https://mp.weixin.qq.com/s?__biz=MzAwMzc4MTQxNA==&mid=2247487395&idx=1&sn=0b6009243ff7e313c3f5491960f29764&chksm=9aaa13c5bec4796141f006ac86018cd888e0301e520b917007d9542d521ed40330bf7eeacf94&mpshare=1&scene=1&srcid=0905GzlaqzehFZLgF5CMjQB0&sharer_shareinfo=16ad5159897db03373e986bad74e6731&sharer_shareinfo_first=16ad5159897db03373e986bad74e6731)
-⭐⭐⭐3 🇨🇳 · 2025-09-05
-
-大多数人一方面是结构不够好，无法面对大模型把技术需求拆分为编程单元；另一方面是表达不够好，脑子想到的事情很难清晰地表达出来。
-
----
-
-## 📅 2025-08-28
-
-### [逃离“Vibe幻觉”：为什么90%的AI用户，最终会沦为认知“寄生者”？](https://mp.weixin.qq.com/s/8cr7CksDErYFxfVUd4jB7g)
-⭐⭐⭐3 🇨🇳 · 2025-08-28
-
-点击 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2F7Wyo161xEjUUvUcpYXlOicoUx8dsRPYwAOVsCvjHffkALsXdb9YpNibG7KLApIJSTW1aSwaVIGkt6LaCgibwLvXmA%2F640%3Fwx_fmt%3Dpng) 上方蓝字关注我们
-
----
-
-## 📅 2025-08-04
-
-### [极其冷门的随身 AI 设备幻想](/entry/zfABlYgH) 📄
-⭐⭐⭐3 🇨🇳 · 2025-08-04
-
-它的价值或许并不在于解决某个已知的问题，而在于创造一整套全新的需求。这个&quot;新需求&quot;，是一种帮助用户&quot;从自身中抽离&quot;，以冷静、客观的第三方视角重新审视自我、进而深度了解自我的能力 。这在某种程度上，类似于一种&quot;灵魂出窍&quot;的体验：你暂时从现实世界的&quot;我&quot;中分离，像看一部电影一样观察自己。
-
----
-
-## 📅 2025-04-21
-
-### [办公类 AI 初探：扣子空间](https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw==&mid=2650240497&idx=1&sn=c51254f48585ca3bc759438d25e4540f&chksm=f200a6e7ba3d0efa1f8916c3d0fea9f82533126ab7cc5798406aca9a1c65d44a3134647ab9da&mpshare=1&scene=1&srcid=0421uaxqI4Sqmjhv1eNcmoWV&sharer_shareinfo=4913b71b6b612b1bfa4180edc514e77a&sharer_shareinfo_first=4913b71b6b612b1bfa4180edc514e77a)
-⭐⭐⭐3 🇨🇳 · 2025-04-21
-
-在我看来，最有机会的产品，既不是面向普通大众的问答类 AI，或者内容生成 AI，也不是面向开发者（API 用户）的编程 AI。
-
----
-
 ## 📅 2025-04-03
 
 ### [funstory-ai/BabelDOC: Yet Another Document Translator](/entry/tIWMl2F6) 📄
@@ -380,65 +344,11 @@ weixin/download ┌────────────────────�
 
 ---
 
-## 📅 2025-03-08
-
-### [大模型时代手机的杀手锏功能思考](https://mp.weixin.qq.com/s?__biz=Mzk3NTA0NjcyMw==&mid=2247483694&idx=1&sn=9c2b5677cf0bbcf67f1712c28446cd80&chksm=c5ede54d58eb2c3b00017416b59a21b2365b7cbc06db6793ced3150e928fc7f2110e9ca9cb5b&mpshare=1&scene=1&srcid=0308nQN1kBamUKHq1wpTzKfm&sharer_shareinfo=dd9900e6dad8efbf032c4c51404ab02a&sharer_shareinfo_first=dd9900e6dad8efbf032c4c51404ab02a)
-⭐⭐⭐3 🇨🇳 · 2025-03-08
-
-今天我想探讨的是，针对手机这一形态，大模型能够赋予它的独特且不可替代的核心功能是什么。这种功能无法被其他形态的设备取代，唯有手机才能发挥最佳效果。我将其称为&quot;杀手锏功能&quot;。
-
----
-
-## 📅 2025-01-09
-
-### [tools/spe_parser · main · Telemetry Solution / Telemetry Solution · GitLab](/entry/gnqojZ93) 📄
-⭐⭐⭐3 🌐 · 2025-01-09
-
-[需翻译] tools/spe_parser · main · Telemetry Solution / Telemetry Solution · GitLab
-
----
-
 ## 📅 2024-02-01
 
 ### [万字长文聊聊LLM Agents的现状，问题与未来](/entry/iWdwmAqE) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-02-01
 
 跨年之前，想总结一下去年上半年以来关于LLM Agents的学习经历，同时记录一下我在其中过程的一些想法。
-
----
-
-## 📅 2023-10-07
-
-### [The Elon Musk Post Series — Wait But Why](/entry/zYrJXpqf) 📄
-⭐⭐⭐3 🌐 · 2023-10-07
-
-[需翻译] In 2015, I got a call from Elon Musk. Not something you expect to happen. What ensued was a six-month deep dive into the world of Elon and his companies and four long articles about what I found. Here they are:
-
----
-
-## 📅 2023-01-29
-
-### [我用AI工具降本增效的创业经历](https://mp.weixin.qq.com/s?__biz=MzkzNDEyMDYwMw==&mid=2247484935&idx=1&sn=8110121d502c108d4b25a9fe2d8be3a2&chksm=c2435bf3f534d2e53524bdf827bc95d7cc37a709eb776aeeaa2df35bcd783e085d4bc24ed6c1&mpshare=1&scene=1&srcid=0129rPa7ysNjjAmZeeIKi1wj&sharer_sharetime=1674998203260&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
-⭐⭐⭐3 🇨🇳 · 2023-01-29
-
-Cubox 收藏 — 我用AI工具降本增效的创业经历
-
----
-
-## 📅 2022-03-11
-
-### [【开放阅读】数字工具使用的四项基本原则 – Dailyio](https://iois.me/archives/13352.html)
-⭐⭐⭐3 🇨🇳 · 2022-03-11
-
-本文选自付费邮件通讯「iPad Power User」，这是一份探索 iPadOS 生产力的邮件通讯，欢迎成为「iPad Power User」会员，每周获取关于 iPad Pro 与 iPadOS 的独家内容，免费试读地址。
-
----
-
-## 📅 2022-01-20
-
-### [【2021 年度十大图书】大脑上瘾的植物、人工智能、城市与计算机的隐喻｜Deep Reading#073 – Dailyio](https://iois.me/archives/12779.html)
-⭐⭐⭐3 🇨🇳 · 2022-01-20
-
-【2021 年度十大图书】大脑上瘾的植物、人工智能、城市与计算机的隐喻｜Deep Reading073 – Dailyio
 
 ---

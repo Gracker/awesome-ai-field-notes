@@ -1,6 +1,6 @@
 # 🤖 智能体
 
-Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **150** 条活跃资源
+Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **140** 条活跃资源
 
 ## 📅 2026-05-01
 
@@ -385,7 +385,7 @@ RookieRicardoR 系统梳理当前 AI Agent 开发工具链全貌:底层(模型�
 
 ---
 
-### [Get ready for Google I/O: Livestream schedule revealed](https://developers.googleblog.com/get-ready-for-google-io-livestream-schedule-revealed/)
+### [Get ready for Google I/O: Livestream schedule revealed](/entry/d5979c3d) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-14
 
 Google I/O 2026 将于 5 月 19-20 日举行,重点聚焦 AI、 Android、Chrome 和 Cloud 领域。大会将以&#x27;代理时代&#x27;(agentic era)为主题,发布面向 AI 自动化复杂工作流的新工具,简化 AI 就绪应用的高质量构建。注册已开放,可在线观看主题演讲和技术演示。
@@ -425,7 +425,7 @@ Harness Engineering 是继 Prompt Engineering 和 Context Engineering 之后 202
 
 ---
 
-### [GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault](/entry/c3dc5hz4) ⭐8,584 📄
+### [GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault](/entry/c3dc5hz4) ⭐9,991 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
 # GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault - YishenTu/claudian ?imageUrl=https%3A%2F%2Fcamo.githubusercontent.com%2Fbbccb46c3e40e6f6bbd14f744f3796c76fdfd9e...
@@ -445,7 +445,7 @@ LLM Agent 在长时间、动态交互环境中运行时，如何实现持续学�
 
 ---
 
-### [GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login.](/entry/26prcruq) ⭐10,933 📄
+### [GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login.](/entry/26prcruq) ⭐11,554 📄
 ⭐⭐⭐3 🌐 · 2026-04-10
 
 # GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login. Show usage stats for OpenAI Codex and Claude Code, without having to login. - steipete/CodexBar CodexBar 🎚️ - May your tokens never run out. Tiny macOS 14+ menu bar app that keeps your Codex, Cl...
@@ -1479,7 +1479,7 @@ MobileWorld是阿里巴巴通义实验室发布的移动GUI Agent基准测试，
 
 ## 📅 2025-12-19
 
-### [Real-World Agent Examples with Gemini 3](https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/)
+### [Real-World Agent Examples with Gemini 3](/entry/6256f081) 📄
 ⭐⭐⭐⭐4 🌐 · 2025-12-19
 
 Google 展示 Gemini 3 与六大开源框架（ADK、Agno、Browser Use、Eigent、Letta、mem0）的协作案例，涵盖零售选址、多智能体工作室、浏览器自动化、Salesforce 流程管理、社交 AI Agent 和记忆层等实际场景。Gemini 3 作为核心编排器，提供精确的推理深度控制和状态管理，解决 AI Agent 落地的可靠性难题。
@@ -1564,17 +1564,6 @@ Read Original
 
 ---
 
-## 📅 2025-09-16
-
-### [Codex迎来史诗级升级！能一口气卷自己7小时、自带云端虚拟机，连开发环境都不用配置了！Cursor存在的理由又弱了一分](/entry/s1kn7mom) 📄
-⭐⭐⭐3 🇨🇳 · 2025-09-16
-
-# Codex迎来史诗级升级！能一口气卷自己7小时、自带云端虚拟机，连开发环境都不用配置了！Cursor存在的理由又弱了一分 实在是太牛了。你以为只是更新了gpt-5-codex模型这么简单吗？ 我感觉，以后我的编程习惯，会发生彻底的改变！ 这次，OpenAI不仅仅是发布了编码能力重回世界第一的GPT-5-Codex喔！还有更多。 工具全面升级：Codex CLI 重新设计、IDE 插件支持 VS Code 等主流环境、GitHub 集成更深，云端和本地环境无缝切换。 新增了写代码专用的gpt-5-codex系列模型，写代码能力大幅提升，绝对的世界第一； $20美元/月的OpenAI Chat...
-
-`mcp` `anthropic` `coding` `[]` `cursor`
-
----
-
 ## 📅 2025-09-12
 
 ### [Anthropic 官方分享：为 AI 智能体打造高效工具——让 AI 智能体来帮忙](/entry/pkzeuz1r) 📄
@@ -1591,15 +1580,6 @@ Read Original
 
 ---
 
-## 📅 2025-08-29
-
-### [独立开发周记 130：GPT-5 的表现出乎意料​](/entry/wPe1FCk7) 📄
-⭐⭐⭐3 🇨🇳 · 2025-08-29
-
-2025,0804-0810 这周我才知道，不同的 Mac/iPad 放在一起，可以通过一套键鼠无缝切换控制，而这个「通用控制」的功能在 2022 年 3 月就加入了……这对我来说可太重要了，我前些天还差点就想给 MacBook 配一...
-
----
-
 ## 📅 2025-07-09
 
 ### [AI 时代如何做独立开发](/entry/4jv028mx) 📄
@@ -1613,15 +1593,6 @@ Read Original
 2011 年，我本科入学武汉大学核工程专业，大一那年暑假，偶然接触了 Abobe 公司的 Photo...
 
 `MCP` `IndieDev` `Global`
-
----
-
-## 📅 2025-06-20
-
-### [我是如何使用 Claude Code 的](https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247497937&idx=1&sn=756f11046f0183ae37aa47341f8f0c8a&chksm=e8a98f9389f9016bd13ee26bcecadac65fd8ea3c0571102a2a044916867dba581643991c4a95&mpshare=1&scene=1&srcid=0620K6JldF92PkP0VcXalYWX&sharer_shareinfo=68602cc4f40b549f70dde957725524f2&sharer_shareinfo_first=68602cc4f40b549f70dde957725524f2)
-⭐⭐⭐3 🇨🇳 · 2025-06-20
-
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F607DKnuWzlECrRUn1wYC3BvLWMHKHWGcSNMpBKjV1Qic0toiaZ60IwiaM0Riac6Dq77e2iaj2FMyibiarLDibSJUOtnCibQ%2F640%3Fwx_fmt%3Dother%26from%3Dappmsg)
 
 ---
 
@@ -1674,17 +1645,6 @@ Read Original
 
 ---
 
-## 📅 2025-04-14
-
-### [MCP协议深度解读：技术创新正以前所未有的速度突破](/entry/ttijki7r) 📄
-⭐⭐⭐3 🇨🇳 · 2025-04-14
-
-MCP 协议的深度技术解读文章。对比 Function Call（Langchain Tools 模式）与 MCP（微内核架构）的设计差异，MCP 号称工具调用的 USB-C 标准。完整梳理 MCP Timeline：2024.11 Anthropic 发布到 2025.3 生态规模化到 3.17 Streamable HTTP 新传输方案到 3.27 OpenAI 宣布支持。介绍 MCP 的协议架构（Client-Host-Server 三层）、语义映射机制、安全模型。附业务实践案例和 2025H1 Roadmap（Remote MCP、OAuth 2.1 等）。内容有技术深度，适合理解 MCP 全貌。
-
-`MCP` `Model-Context-Protocol` `Anthropic` `OpenAI` `Streamable-HTTP`
-
----
-
 ## 📅 2025-04-12
 
 ### [一套宝藏提示词，彻底解放即梦AI的字体使用](/entry/fCZaU0p7) 📄
@@ -1734,26 +1694,6 @@ LLM Agent 领域研究碎片化严重：架构设计、协作模式、进化机�
 
 ---
 
-## 📅 2025-03-18
-
-### [sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Talk To Figma MCP](/entry/sYGvrjjl) 📄
-⭐⭐⭐3 🌐 · 2025-03-18
-
-[需翻译] sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Talk To Figma MCP
-
----
-
-## 📅 2025-03-13
-
-### [OpenAI Agents SDK](/entry/jk6udyp9) 📄
-⭐⭐⭐3 🌐 · 2025-03-13
-
-OpenAI 发布 Agents SDK，是 Swarm 实验项目的生产级升级版。核心原语三个：Agent、Handoffs、Guardrails。Python-first 设计，内置 agent loop、自动 schema 生成的函数工具、可视化调试的 tracing。设计理念：功能够用但原语少，开箱即用但可定制。
-
-`openai` `agents` `sdk` `handoffs` `guardrails`
-
----
-
 ## 📅 2025-03-12
 
 ### [浅谈 Agent、MCP、OpenAI Responses API](/entry/XkYDSpBp) 📄
@@ -1799,61 +1739,11 @@ Read Original
 
 ---
 
-## 📅 2025-01-08
-
-### [LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects](/entry/snf32dzk) 📄
-⭐⭐⭐3  · 2025-01-08
-
-vivo AI Lab 联合香港中文大学 MMLab 发布的手机 GUI Agent 综述论文（48 页，200+ 篇文献）。系统回顾了从脚本化自动化到智能 Agent 的演进，提出分类法涵盖单 Agent、多 Agent、Plan-Then-Act 框架。讨论了 prompt engineering 和训练方法（监督微调、强化学习），以及数据集和评估基准。指出开放挑战：数据集多样性、端侧部署效率、用户适应和安全问题。附有 GitHub Awesome 列表。
-
-`GUI-agent` `phone-automation` `survey` `vivo` `MMLab`
-
----
-
-## 📅 2024-12-15
-
-### [AI时代的独立开发之路](/entry/94ocqfsx) 📄
-⭐⭐⭐3 🇨🇳 · 2024-12-15
-
-Read in Cubox  
-Read Original
-?imageUrl=https%3A%2F%2Fcdn.gamma.app%2Fi2ujbx6xuma6m2n%2Fb9df3a3a70ee40a2a9c7458bc09bf228%2Foriginal%2FTou-Xiang.jpg&amp;valid=true)
-Last edited about 8 hours ago
-如果你还没有发布过自己人生的第一个产品，那么我相信今天的演讲可能会对你有所帮助。在过去一年里，我做了一大堆的东西。你可以想象一个中年男人坐在一个椅子上没日没夜写代码的场景。但我最开始三年前一行代码都不会写，我离AI行业其实非常遥远。
-在这些应用里面有两块已经上线了，有两款是做着做着觉得没意思了，有点下头就没再继续。还有一款非常可惜，就是打磨了很久，但是账算不过来，不敢上线。所以...
-
-`IndieDev`
-
----
-
 ## 📅 2024-10-10
 
 ### [逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用](/entry/xx4T4d34) 📄
 ⭐⭐⭐⭐4 🌐 · 2024-10-10
 
 [需翻译] 逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用
-
----
-
-## 📅 2024-01-31
-
-### [Android Developers Blog: Prompt users to update to your latest app version](/entry/cuevct3j) 📄
-⭐⭐⭐3 🌐 · 2024-01-31
-
-Android Developers Blog: Prompt users to update to your latest app version
-Read in Cubox  
-Read Original
-*Posted by Lidia Gaymond -- Product Manager, Google Play* [](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVf1xFfP7lv0klpYSL7CyQ7KvpPFIWmRSwS2JHzzeLy43LkVZp82t1EpFkbLcTQMcPNOpxtWv8ntPTglOpjnutQ4Sn8nUzgMbiRBZMBKlHGIte6DjxAg_oP2PWrbTQ1dd-YXSgvRcrlm1gpDWU7Dju5Yc8e...
-
-`Prompt Engineering` `Android` `MCP`
-
----
-
-## 📅 2023-03-20
-
-### [独立开发周记 #5 ：AI助力](https://mp.weixin.qq.com/s?__biz=MzI2MDk1NjE5Mw==&mid=2247484203&idx=1&sn=8f0feae67faf70d11fe7cab064e5e809&chksm=ea608a65dd17037365747eb32bcceb8222e67e59a29aa6228c697b8bf9a42424524391df279e&mpshare=1&scene=1&srcid=0320VUI3MHeloBsqLhlrMPh0&sharer_sharetime=1679302357071&sharer_shareid=b7cc12eb3054f40795517e846030e3c8)
-⭐⭐⭐3 🇨🇳 · 2023-03-20
-
-做过iOS小组件开发的可能都知道，这部分的开发工作太难搞了，Xcode的预览有很多bug，每个机型上的小组件尺寸都不一样，debug也基本不可用。这就导致了小组件开发就特别耗时耗力，只能是每改一点，就在真机运行一下，然后再调整。
 
 ---

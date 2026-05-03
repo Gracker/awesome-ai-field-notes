@@ -1,18 +1,18 @@
 {
-  "total_entries": 858,
-  "active_entries": 813,
-  "archived_entries": 45,
-  "this_week_added": 169,
-  "entries_with_content": 605,
-  "content_files_total": 767,
+  "total_entries": 867,
+  "active_entries": 672,
+  "archived_entries": 195,
+  "this_week_added": 164,
+  "entries_with_content": 535,
+  "content_files_total": 775,
   "category_distribution": {
-    "coding": 248,
-    "agents": 150,
-    "models": 117,
-    "learning": 107,
-    "industry": 66,
-    "infra": 64,
-    "uncategorized": 57
+    "coding": 217,
+    "agents": 140,
+    "learning": 83,
+    "models": 76,
+    "industry": 60,
+    "uncategorized": 47,
+    "infra": 46
   },
   "raw_category_distribution": {
     "coding": 169,
@@ -22,11 +22,12 @@
     "infra": 62,
     "uncategorized": 58,
     "industry": 58,
-    "ai-tools": 52,
+    "ai-tools": 54,
     "workflow": 30,
     "agents/frameworks": 24,
     "models/models": 24,
-    "prompt": 6,
+    "prompt": 7,
+    "content-creation": 7,
     "agent-frameworks/harness-engineering": 5,
     "strategy/ai-career": 4,
     "agent-frameworks/harness": 3,
@@ -35,7 +36,6 @@
     "agent-frameworks/orchestration": 2,
     "strategy/ai-product": 2,
     "coding-agents/claude-code": 2,
-    "content-creation": 1,
     "llm-infra/inference-optimization": 1,
     "agent-frameworks/applications": 1,
     "developer-tools/browser-extensions": 1,
@@ -69,15 +69,14 @@
     "ai-hardware/chip-architecture": 1
   },
   "source_type_distribution": {
-    "article": 554,
+    "article": 557,
     "x_post": 150,
-    "tweet": 82,
+    "tweet": 91,
     "paper": 39,
     "github": 16,
     "newsletter": 9,
     "video": 3,
-    "blog_post": 3,
     "product": 2
   },
-  "last_updated": "2026-05-03 08:08"
+  "last_updated": "2026-05-04 02:06"
 }
