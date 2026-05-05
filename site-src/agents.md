@@ -2,145 +2,23 @@
 
 Agent 框架 / MCP / A2A / 手机&桌面助手 — 共 **140** 条活跃资源
 
+## 📅 2026-05-04
+
+### [MCP-Flow: 自动构建大规模 MCP 工具数据集，让 0.6B 模型在工具调用上超越 GPT-4o](/entry/ehpdysfh) 📄
+@TikTok &amp; 上海交大联合研究 · ⭐⭐⭐⭐4 🌐 · 2026-05-04
+
+MCP-Flow 提出全自动 pipeline，从 6 个 MCP 市场自动抓取服务器配置，通过 Slot-Fill Revision + WizardLM Evolution 两阶段数据增强，产出 68733 对 instruction-function call（1166 服务器、11536 工具）。实验表明：GPT-4o 在 10 工具场景下 AST 仅 58.8%，100 工具时 Groq-8B AST 跌至 3%；而 MCP-Flow-Qwen3-0.6B 在同场景下 AST 达 81.2%，全面超越所有大模型。用 MCP-Flow 做 RAG 检索增强后，GPT-4o 在 GAIA 任务上成功率 +17%，步数减少 32%。
+
+`mcp` `tool-calling` `fine-tuning` `dataset` `agent`
+
+---
+
 ## 📅 2026-05-01
-
-### [Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents](/entry/9dc05bac) 📄
-⭐⭐⭐3 🌐 · 2026-05-01
-
---- title: &quot;Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_kotlin_a_concise_multiplatform_language__21c4780c&quot; group: &quot;Articles/Android 开发者/Kotlin : A concise multiplatform language developed by JetBrains | The JetBrains Bl
-
----
-
-### Scaling Managed Agents: Decoupling the brain from the hands
-⭐⭐⭐3 🌐 · 2026-05-01
-
---- id: &quot;7442497496372219650&quot; cubox_url: https://cubox. pro/web/card/7442497496372219650 url: https://www. com/engineering/managed-agents tags: [] --- Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems. [Read in Cubox](https://cub
-
----
-
-### 从Vibe Coding到Agentic Engineering：重构后台开发全流程
-@作者 · ⭐⭐⭐3 🌐 · 2026-05-01
-
---- id: &quot;7444756797564387672&quot; cubox_url: https://cubox. pro/web/card/7444756797564387672 url: https://mp. __biz=MjM5ODYwMjI2MA==&amp;mid=2649801233&amp;idx=1&amp;sn=6e6eaf8a0e94e8349bbbef4b734dc5c0&amp;chksm=bfa52a1c28b217121b321819707fec37a046db7ce55d69ff28f6aefcd3df18d15031491c1ff2&amp;mpshare=1&amp;scene=1&amp;srcid=0417g92
-
----
-
-### Google 发布面向 Agent 工作流的 Android CLI、Skills 与 Knowledge
-⭐⭐⭐3 🌐 · 2026-05-01
-
-__biz=MzAxMTI4MTkwNQ==&amp;mid=2650856619 官方文档: https://developer. com/tools/agents Google 发布 Android CLI、Android Skills 与 Android Knowledge Base 三大工具组件，为 Agent（Gemini、Claude Code、Codex 等）提供标准化的 Android 开发接口，目标是确保在任何开发环境中均可实现高质量 Android 应用构建. 为 Agent 提供轻量级、可编程的 SDK 交互能力，支持环境配置、项目创建、设备管理等核心开发任务. | 功能类别 |
-
----
-
-### Agent Harnesses are how you build agents, and they’re not going anywhere
-⭐⭐⭐3 🌐 · 2026-05-01
-
-The “best” way to build agentic systems has changed dramatically over the past three years. When ChatGPT came out, all you could do were simple RAG chains (LangChain). Then the models got a little better, and could create more complex flows (LangGraph). Then they got a lot better, and that gave rise
-
----
-
-### POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation
-@作者 · ⭐⭐⭐3 🌐 · 2026-05-01
-
-11816 - **发表时间**: 2026-01-16 - **主题**: Agentic AI / 企业自动化 / 治理框架 --- 企业后台工作流（如应付账款、合同审查）要求 AI 系统必须满足：可审计（full execution traces）、策略对齐（policy-aligned）、操作可预测（operationally predictable）、副作用可管控. 这些需求通用型 multi-agent 系统往往无法满足. 本文要解决的核心问题是：如何在保持 agent 灵活性的同时，为企业级 agentic AI 添加可验证的治理能力. --- 不是让 LLM 自由生成执行路径，
-
----
-
-### langchain-ai/agents-from-scratch: Build an email assistant with human-in-the-loop and memory
-⭐⭐⭐3 🌐 · 2026-05-01
-
-com/langchain-ai/agents-from-scratch 官方文档: https://github. com/langchain-ai/agents-from-scratch 该仓库是一个&quot;从零构建 Agent&quot;的实战指南，以构建一个 Gmail 接入的&quot;环境感知&quot;（ambient）邮件助手为最终目标. 分为 4 个章节，每章配有 Jupyter Notebook 和对应的 `src/email_assistant` 目录代码. 从 Agent 基础开始，逐步递进到 Agent 评估、人在回路（Human-in-the-Loop），最终到记忆系统，最终组合成一个可部署的 Age
-
----
-
-### [Android CLI: Build Android apps 3x faster using any agent](http://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html%3E)
-⭐⭐⭐3 🌐 · 2026-05-01
-
---- title: &quot;Android CLI: Build Android apps 3x faster using any agent&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_android_developers_blog_33800553&quot; group: &quot;Articles/Android 开发者/Android Developers Blog&quot; url: &quot;http://android-developers. com/2026/04/build-android-apps-3x-faster-using-any-agent. html&quot; pu
-
----
-
-### 夜天之书 #119：Agentic Coding 的边界
-⭐⭐⭐3 🌐 · 2026-05-01
-
-com/s/x_FUUG4wBUqYs1H5DUtpgQ 作者: 夜天之书（tison） 本文结合作者 Agentic Coding 的实践经验，深入讨论当前 LLM Coding Agent 的能力边界与局限性. 文章指出：LLM 能够生成&quot;疑似正确&quot;的方案，但到&quot;经得起考验的产品&quot;之间存在 AI 无法覆盖的鸿沟. 当前 LLM 的核心动作是对现有知识的搜索和组合，这推理出两个重要现象： **现状代码多为浆糊（Big Ball of Mud）**：现实中程序员倾向于就地打补丁，导致 AI 训练的语料本身就充满问题代码. AI 容易生成&quot;似是而非&quot;的并发代码，因为能找到的并发代码语料本身就存在
-
----
-
-### cc-connect: Bridge local AI coding agents to messaging platforms
-⭐⭐⭐3 🌐 · 2026-05-01
-
-GitHub: https://github. com/chenhg5/cc-connect Stars: 6424 (截至 2026-04-27) License: MIT cc-connect bridges AI agents running on your machine to the messaging platforms you already use. Code review, research, automation, data analysis — anything an AI agent can do, now accessible from your phone, tab
-
----
-
-### [从聊天窗口到多 Agent 控制台：一次 AI 编程协作范式的转移](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559601&idx=1&sn=dca715222390e89a63a45ad54b1c9d7d%3E)
-⭐⭐⭐3 🌐 · 2026-05-01
-
---- title: &quot;从聊天窗口到多 Agent 控制台：一次 AI 编程协作范式的转移&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_item_616ef9b2&quot; group: &quot;Articles/阿里云开发者&quot; url: &quot;https://mp. __biz=MzIzOTU0NTQ0MA==&amp;mid=2247559601&amp;idx=1&amp;sn=dca715222390e89a63a45ad54b1c9d7d&quot; published: &quot;2026-04-16T00:31:00Z&quot; captured_at: &quot;2026-04-17T03:02:49+08:0
-
----
-
-### OWL: Optimized Workforce Learning for General Multi-Agent Assistance
-⭐⭐⭐3 🌐 · 2026-05-01
-
-com/camel-ai/owl/blob/main/README_zh. md OWL（Optimized Workforce Learning）是 CAMEL-AI 推出的前沿多智能体协作框架，旨在通过动态智能体交互实现跨多领域的任务自动化. - **多搜索引擎支持**：维基百科、Google、DuckDuckGo、百度、博查等实时信息检索 - **多模态处理**：支持视频、图片、语音处理 - **浏览器操作**：基于 Playwright 的页面滚动、点击、输入、下载、历史回退 - **文件解析**：Word、Excel、PDF、PowerPoint 内容提取 - **代码执行**：Py
-
----
-
-### [Build with Google Antigravity, our new agentic development platform](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/)
-⭐⭐⭐3 🌐 · 2026-05-01
-
-&gt; **来源：** Google Developers Blog &gt; **原文链接：** https://developers. com/build-with-google-antigravity-our-new-agentic-development-platform/ &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- NOV. 20, 2025 Development is lifting off. The tools of yesterday focused on helping you write code faster; the tools of t
-
----
-
-### MCP Ecosystem 2026: Universal Connector for AI Tools and Cross-Runtime Interoperability
-⭐⭐⭐3 🌐 · 2026-05-01
-
-&gt; 发布时间: 2026-04-21 &gt; 作者: Industry Analysis --- **摘要 / Summary:** MCP（Model Context Protocol）正在成为 2026 年 AI 工具互操作性的通用连接器，被誉为&#x27;AI 工具的 USB 标准&#x27;. 作为 Anthropic 开发的 JSON-RPC 客户端-服务器接口，MCP 支持类型化数据交换，旨在成为 AI 工具的通用连接器. 截至 2026 年初，已有 200 多个服务器实现，支持 GitHub、Slack、Google Drive、Salesforce 等常见服务. 获得 Anthropic、OpenAI
-
----
-
-### [LangGraph: Build resilient language agents as graphs](https://github.com/langchain-ai/langgraph)
-⭐⭐⭐3 🌐 · 2026-05-01
-
-&gt; **来源：** GitHub (langchain-ai/langgraph) &gt; **原文链接：** https://github. com/langchain-ai/langgraph &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building,
-
----
-
-### [CrewAI: Framework for orchestrating role-playing, autonomous AI agents](https://github.com/crewAIInc/crewAI)
-⭐⭐⭐3 🌐 · 2026-05-01
-
-&gt; **来源：** GitHub (crewAIInc/crewAI) &gt; **原文链接：** https://github. com/crewAIInc/crewAI &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- CrewAI is a lean, lightning-fast Python framework built entirely from scratch—completely independent of LangChain or other agent frameworks. It empowers developers with both
-
----
-
-### AGENTS.md — Drop-in senior engineer behavior spec for coding agents
-⭐⭐⭐3 🌐 · 2026-05-01
-
-GitHub: https://github. com/TheRealSeanDonahoe/agents-md Stars: 525 (截至 2026-04-27) License: MIT One file. Every coding agent starts behaving like a senior engineer. Drop it into any repo. Claude Code, Codex, Cursor, Gemini CLI, Aider, Windsurf, Copilot, and Devin all read it on their own. | Before
-
----
 
 ### 2026 年，AI 编程 Agent 的真正分水岭—
 ⭐⭐⭐3 🌐 · 2026-05-01
 
 &gt; 作者: 老章很忙 &gt; 原文链接: https://mp. __biz=MzA4MjYwMTc5Nw==&amp;mid=2649012185&amp;idx=1&amp;sn=e613849d8e706a95d4a3c292b5881a1e ---. [cover_image](images/img_001. jpg) Original 老章很忙 老章很忙 [Ai学习的老章](javascript:void\(0\);) _2026年4月9日 15:38_ _英国_ 在小说阅读器读本章 去阅读 在小说阅读器中沉浸阅读 **2026 年，AI 编程 Agent 的真正分水岭，到底在哪里. [Harness 才是 A
-
----
-
-### AI Agent Landscape 2026: From Experimental Tools to Production Infrastructure
-⭐⭐⭐3 🌐 · 2026-05-01
-
-&gt; 发布时间: 2026-04-22 &gt; 作者: Industry Analysis --- **摘要 / Summary:** 2026 年标志着 AI 智能体从实验概念转向生产系统的关键转折点. Gartner 预测 40% 的企业应用将在 2026 年底嵌入特定任务 AI 智能体，远低于之前的 5%. 市场规模预计大幅增长，企业部署显示显著 ROI. 核心特征包括：感知与规划（解释非结构化输入，分解复杂目标）、工具使用（调用外部 API、数据库、其他智能体）、记忆模块（存储上下文和时间交互）、自主操作（持续的感觉-思考-行动循环）、解决高级问题. 架构组件包括 LLM（大脑）、记忆模块、
-
----
-
-### [AutoGen: A programming framework for agentic AI](https://github.com/microsoft/autogen)
-⭐⭐⭐3 🌐 · 2026-05-01
-
-&gt; **来源：** GitHub (microsoft/autogen) &gt; **原文链接：** https://github. com/microsoft/autogen &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- AutoGen is now in maintenance mode. It will not receive new features or enhancements and is community managed going forward. **New users should start with [Microsoft Agent
 
 ---
 
@@ -151,6 +29,20 @@ GitHub: https://github. com/TheRealSeanDonahoe/agents-md Stars: 525 (截至 2026
 
 ---
 
+### AGENTS.md — Drop-in senior engineer behavior spec for coding agents
+⭐⭐⭐3 🌐 · 2026-05-01
+
+GitHub: https://github. com/TheRealSeanDonahoe/agents-md Stars: 525 (截至 2026-04-27) License: MIT One file. Every coding agent starts behaving like a senior engineer. Drop it into any repo. Claude Code, Codex, Cursor, Gemini CLI, Aider, Windsurf, Copilot, and Devin all read it on their own. | Before
+
+---
+
+### AI Agent Landscape 2026: From Experimental Tools to Production Infrastructure
+⭐⭐⭐3 🌐 · 2026-05-01
+
+&gt; 发布时间: 2026-04-22 &gt; 作者: Industry Analysis --- **摘要 / Summary:** 2026 年标志着 AI 智能体从实验概念转向生产系统的关键转折点. Gartner 预测 40% 的企业应用将在 2026 年底嵌入特定任务 AI 智能体，远低于之前的 5%. 市场规模预计大幅增长，企业部署显示显著 ROI. 核心特征包括：感知与规划（解释非结构化输入，分解复杂目标）、工具使用（调用外部 API、数据库、其他智能体）、记忆模块（存储上下文和时间交互）、自主操作（持续的感觉-思考-行动循环）、解决高级问题. 架构组件包括 LLM（大脑）、记忆模块、
+
+---
+
 ### AIOS 架构深度解析与 Android Agent OS 演进全景
 ⭐⭐⭐3 🌐 · 2026-05-01
 
@@ -158,9 +50,128 @@ GitHub: https://github. com/TheRealSeanDonahoe/agents-md Stars: 525 (截至 2026
 
 ---
 
+### Agent Harnesses are how you build agents, and they’re not going anywhere
+⭐⭐⭐3 🌐 · 2026-05-01
+
+有参考价值的frameworks内容
+
+---
+
+### [Android CLI: Build Android apps 3x faster using any agent](http://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html%3E)
+⭐⭐⭐3 🌐 · 2026-05-01
+
+有参考价值的frameworks内容
+
+---
+
+### [AutoGen: A programming framework for agentic AI](https://github.com/microsoft/autogen)
+⭐⭐⭐3 🌐 · 2026-05-01
+
+&gt; **来源：** GitHub (microsoft/autogen) &gt; **原文链接：** https://github. com/microsoft/autogen &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- AutoGen is now in maintenance mode. It will not receive new features or enhancements and is community managed going forward. **New users should start with [Microsoft Agent
+
+---
+
+### [Build with Google Antigravity, our new agentic development platform](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/)
+⭐⭐⭐3 🌐 · 2026-05-01
+
+&gt; **来源：** Google Developers Blog &gt; **原文链接：** https://developers. com/build-with-google-antigravity-our-new-agentic-development-platform/ &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- NOV. 20, 2025 Development is lifting off. The tools of yesterday focused on helping you write code faster; the tools of t
+
+---
+
+### [CrewAI: Framework for orchestrating role-playing, autonomous AI agents](https://github.com/crewAIInc/crewAI)
+⭐⭐⭐3 🌐 · 2026-05-01
+
+&gt; **来源：** GitHub (crewAIInc/crewAI) &gt; **原文链接：** https://github. com/crewAIInc/crewAI &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- CrewAI is a lean, lightning-fast Python framework built entirely from scratch—completely independent of LangChain or other agent frameworks. It empowers developers with both
+
+---
+
+### Google 发布面向 Agent 工作流的 Android CLI、Skills 与 Knowledge
+⭐⭐⭐3 🌐 · 2026-05-01
+
+__biz=MzAxMTI4MTkwNQ==&amp;mid=2650856619 官方文档: https://developer. com/tools/agents Google 发布 Android CLI、Android Skills 与 Android Knowledge Base 三大工具组件，为 Agent（Gemini、Claude Code、Codex 等）提供标准化的 Android 开发接口，目标是确保在任何开发环境中均可实现高质量 Android 应用构建. 为 Agent 提供轻量级、可编程的 SDK 交互能力，支持环境配置、项目创建、设备管理等核心开发任务. | 功能类别 |
+
+---
+
+### [Introducing Koog Integration for Spring AI: Smarter Orchestration for Your Agents](/entry/9dc05bac) 📄
+⭐⭐⭐3 🌐 · 2026-05-01
+
+有参考价值的frameworks内容
+
+---
+
+### [LangGraph: Build resilient language agents as graphs](https://github.com/langchain-ai/langgraph)
+⭐⭐⭐3 🌐 · 2026-05-01
+
+&gt; **来源：** GitHub (langchain-ai/langgraph) &gt; **原文链接：** https://github. com/langchain-ai/langgraph &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- Trusted by companies shaping the future of agents – including Klarna, Replit, Elastic, and more – LangGraph is a low-level orchestration framework for building,
+
+---
+
+### MCP Ecosystem 2026: Universal Connector for AI Tools and Cross-Runtime Interoperability
+⭐⭐⭐3 🌐 · 2026-05-01
+
+&gt; 发布时间: 2026-04-21 &gt; 作者: Industry Analysis --- **摘要 / Summary:** MCP（Model Context Protocol）正在成为 2026 年 AI 工具互操作性的通用连接器，被誉为&#x27;AI 工具的 USB 标准&#x27;. 作为 Anthropic 开发的 JSON-RPC 客户端-服务器接口，MCP 支持类型化数据交换，旨在成为 AI 工具的通用连接器. 截至 2026 年初，已有 200 多个服务器实现，支持 GitHub、Slack、Google Drive、Salesforce 等常见服务. 获得 Anthropic、OpenAI
+
+---
+
+### OWL: Optimized Workforce Learning for General Multi-Agent Assistance
+⭐⭐⭐3 🌐 · 2026-05-01
+
+com/camel-ai/owl/blob/main/README_zh. md OWL（Optimized Workforce Learning）是 CAMEL-AI 推出的前沿多智能体协作框架，旨在通过动态智能体交互实现跨多领域的任务自动化. - **多搜索引擎支持**：维基百科、Google、DuckDuckGo、百度、博查等实时信息检索 - **多模态处理**：支持视频、图片、语音处理 - **浏览器操作**：基于 Playwright 的页面滚动、点击、输入、下载、历史回退 - **文件解析**：Word、Excel、PDF、PowerPoint 内容提取 - **代码执行**：Py
+
+---
+
+### POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation
+@作者 · ⭐⭐⭐3 🌐 · 2026-05-01
+
+11816 - **发表时间**: 2026-01-16 - **主题**: Agentic AI / 企业自动化 / 治理框架 --- 企业后台工作流（如应付账款、合同审查）要求 AI 系统必须满足：可审计（full execution traces）、策略对齐（policy-aligned）、操作可预测（operationally predictable）、副作用可管控. 这些需求通用型 multi-agent 系统往往无法满足. 本文要解决的核心问题是：如何在保持 agent 灵活性的同时，为企业级 agentic AI 添加可验证的治理能力. --- 不是让 LLM 自由生成执行路径，
+
+---
+
+### Scaling Managed Agents: Decoupling the brain from the hands
+⭐⭐⭐3 🌐 · 2026-05-01
+
+有参考价值的frameworks内容
+
+---
+
+### cc-connect: Bridge local AI coding agents to messaging platforms
+⭐⭐⭐3 🌐 · 2026-05-01
+
+GitHub: https://github. com/chenhg5/cc-connect Stars: 6424 (截至 2026-04-27) License: MIT cc-connect bridges AI agents running on your machine to the messaging platforms you already use. Code review, research, automation, data analysis — anything an AI agent can do, now accessible from your phone, tab
+
+---
+
+### langchain-ai/agents-from-scratch: Build an email assistant with human-in-the-loop and memory
+⭐⭐⭐3 🌐 · 2026-05-01
+
+com/langchain-ai/agents-from-scratch 官方文档: https://github. com/langchain-ai/agents-from-scratch 该仓库是一个&quot;从零构建 Agent&quot;的实战指南，以构建一个 Gmail 接入的&quot;环境感知&quot;（ambient）邮件助手为最终目标. 分为 4 个章节，每章配有 Jupyter Notebook 和对应的 `src/email_assistant` 目录代码. 从 Agent 基础开始，逐步递进到 Agent 评估、人在回路（Human-in-the-Loop），最终到记忆系统，最终组合成一个可部署的 Age
+
+---
+
+### 从Vibe Coding到Agentic Engineering：重构后台开发全流程
+@作者 · ⭐⭐⭐3 🌐 · 2026-05-01
+
+有参考价值的frameworks内容
+
+---
+
+### [从聊天窗口到多 Agent 控制台：一次 AI 编程协作范式的转移](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247559601&idx=1&sn=dca715222390e89a63a45ad54b1c9d7d%3E)
+⭐⭐⭐3 🌐 · 2026-05-01
+
+有参考价值的frameworks内容
+
+---
+
+### 夜天之书 #119：Agentic Coding 的边界
+⭐⭐⭐3 🌐 · 2026-05-01
+
+com/s/x_FUUG4wBUqYs1H5DUtpgQ 作者: 夜天之书（tison） 本文结合作者 Agentic Coding 的实践经验，深入讨论当前 LLM Coding Agent 的能力边界与局限性. 文章指出：LLM 能够生成&quot;疑似正确&quot;的方案，但到&quot;经得起考验的产品&quot;之间存在 AI 无法覆盖的鸿沟. 当前 LLM 的核心动作是对现有知识的搜索和组合，这推理出两个重要现象： **现状代码多为浆糊（Big Ball of Mud）**：现实中程序员倾向于就地打补丁，导致 AI 训练的语料本身就充满问题代码. AI 容易生成&quot;似是而非&quot;的并发代码，因为能找到的并发代码语料本身就存在
+
+---
+
 ## 📅 2026-04-28
 
-### [MCP crossed 97 million monthly SDK downloads in March 2026](https://dev.to/nebulagg/building-production-grade-ai-agents-with-mcp-a-complete-guide-for-2026-3bo2)
+### [MCP crossed 97 million monthly SDK downloads in March 2026](/entry/230879f0) 📄
 @nebula gg · ⭐⭐⭐⭐4 🌐 · 2026-04-28
 
 MCP（Model Context Protocol）2026 年 3 月 SDK 月下载量突破 9700 万次。该协议从 Anthropic 内部实验到 Linux 基金会 Agentic AI Foundation 托管仅用约 14 个月，速度超过任何已知开发者协议。文章提供生产级 MCP Agent 构建指南，涵盖服务器/客户端实现、安全策略和 2026 年路线图。
@@ -171,10 +182,10 @@ MCP（Model Context Protocol）2026 年 3 月 SDK 月下载量突破 9700 万次
 
 ## 📅 2026-04-27
 
-### [全员 token-maxxing，一场没人敢停的军备竞赛](/entry/5addfa0565) 📄
-@五源资本合伙人 孟醒** · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-27
+### [Anthropic《Building Effective AI Agents》深度解读，AI Agents架构“经典必读”](/entry/610222a205) 📄
+⭐⭐⭐⭐4 🇨🇳 · 2026-04-27
 
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FJ3iaQ6X4GdYW7zVkpgwHic9rIVibM1EKn8iawD2y6qGAEAQwPX2zjBCxorTRCD5ytHia2vrpKtOSPtleGNa49me2Tsxgp7oibRQzOMbFKaxO5tibXQ%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D0)
+最好的架构，是满足今日需求的最简架构，同时为明日进化保留路径。它不是一次性的完美设计，而是在应对真实业务挑战的过程中，一步步“逼”出来的。
 
 ---
 
@@ -185,24 +196,17 @@ MCP（Model Context Protocol）2026 年 3 月 SDK 月下载量突破 9700 万次
 
 ---
 
+### [全员 token-maxxing，一场没人敢停的军备竞赛](/entry/5addfa0565) 📄
+@五源资本合伙人 孟醒** · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-27
+
+VC视角：YC 2026 batch 超80%是垂直Agent，但5个月已足够发生范式转换，垂直场景壁垒正在快速消失
+
+---
+
 ### [深入源码：Hermes Agent 如何实现 &quot;Self-Improving&quot;](/entry/853409a5bc) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-27
 
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2Fj7RlD5l5q1y2STOcej6MFiaC1kgiazAOBIb5BJON5wwN9END1BIIS09iccLF4Uicu29ic4cFfSMCz0uebuDViaDTJMJY5OssiaSxic5yxqRW1LKcCPc%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D0)
-
----
-
-### [Anthropic《Building Effective AI Agents》深度解读，AI Agents架构“经典必读”](/entry/610222a205) 📄
-⭐⭐⭐⭐4 🇨🇳 · 2026-04-27
-
-最好的架构，是满足今日需求的最简架构，同时为明日进化保留路径。它不是一次性的完美设计，而是在应对真实业务挑战的过程中，一步步“逼”出来的。
-
----
-
-### 谁才是地表最强 Android Agent 大模型？Google官方测评来了！
-⭐⭐⭐3 🌐 · 2026-04-27
-
-com 发布日期：2026-04-27 现有代码评测基准（HumanEval、SWE-bench）几乎清一色面向 Python，无法覆盖 Android 开发的复杂性（Kotlin/Java 双语言、Jetpack Compose 与 View 体系并行、Gradle 构建配置、设备碎片化）. Google 正式发布 Android Bench — 首个专门针对 Android 开发的 LLM 评测基准. - 任务来源：GitHub 上 500+ Star 的真实开源 Android 项目，从 38,989 个已合并的 PR 中精选 100 道题 - 任务类型：修复 Breaking Chan
+Hermes Agent 源码级解读，Self-Improving 机制揭露了 Agent 自进化设计的核心路径
 
 ---
 
@@ -212,6 +216,13 @@ com 发布日期：2026-04-27 现有代码评测基准（HumanEval、SWE-bench�
 AI Agent 公司 Avoca 完成 1.25 亿美元以上融资（种子轮+A轮+B轮），估值达 10 亿美元。Avoca 的 AI Agent 帮助物理服务企业（暖通空调、管道、屋顶等）处理来电和调度任务。两位创始人在 MIT 扑克之夜相识，最初追逐餐饮行业客户，却意外发现 HVAC 公司才是真正的痛点市场。Kleiner Perkins 等顶级 VC 参投。这标志着 AI Agent 在传统服务业的落地正在获得大规模资本认可。
 
 `AI Agent` `融资` `服务业` `电话调度` `Kleiner Perkins`
+
+---
+
+### 谁才是地表最强 Android Agent 大模型？Google官方测评来了！
+⭐⭐⭐3 🌐 · 2026-04-27
+
+com 发布日期：2026-04-27 现有代码评测基准（HumanEval、SWE-bench）几乎清一色面向 Python，无法覆盖 Android 开发的复杂性（Kotlin/Java 双语言、Jetpack Compose 与 View 体系并行、Gradle 构建配置、设备碎片化）. Google 正式发布 Android Bench — 首个专门针对 Android 开发的 LLM 评测基准. - 任务来源：GitHub 上 500+ Star 的真实开源 Android 项目，从 38,989 个已合并的 PR 中精选 100 道题 - 任务类型：修复 Breaking Chan
 
 ---
 
@@ -273,6 +284,15 @@ Anthropic官方博客，系统阐述将Agent连接到外部生产系统的三条
 
 ---
 
+### [Preventing Rogue Agents Improves Multi-Agent Collaboration](/entry/htX0TWFp) 📄
+@Ohav Barbi, Ori Yoran, Mor Geva · ⭐⭐⭐⭐4 🌐 · 2026-04-24
+
+论文研究多智能体系统中流氓智能体导致全系统失败的问题，提出实时监控与干预框架，用多项式岭分类器基于动作预测熵检测流氓智能体，在检测到低成功概率时触发回滚或重置。引入WhoDunitEnv协作环境，实验证明该机制使LLAMA-3.1-70B、QWEN-2.5-72B、GPT-4O成功率提升约10个百分点，代码生成任务提升2.5%，GovSim资源管理任务提升20%。
+
+`multi-agent` `agent-collaboration` `rogue-agent` `monitoring` `intervention`
+
+---
+
 ### [深入源码：Hermes Agent 如何实现 Self-Improving](/entry/dkXZ4WEx) 📄
 @Unknown · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
 
@@ -282,23 +302,16 @@ Anthropic官方博客，系统阐述将Agent连接到外部生产系统的三条
 
 ---
 
-### [从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？](/entry/crFwnMAy) 📄
-@Unknown · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
+### [From Control to Foresight: Simulation as a New Paradigm for Human-Agent Collaboration](/entry/lKq-W6wR) 📄
+@Unknown · ⭐⭐⭐3 🌐 · 2026-04-24
 
-作者从Hermes Agent获得启发，开发AgentX插件将自我进化机制从Agent迁移到项目层面。核心设计：知识沉淀分两层（Markdown是证据层，Skill是能力层，必须从Markdown演化而来）；Markdown按Claude Code官方实践分层组织（AGENTS.md入口→专题文档→模块文档→SKILL.md能力层）；Harness Engineering哲学：用Bash/Hook搭骨架，用模型做理解和表达。目标是让Claude Code、Codex、OpenCode等不同agent进入同一项目时，都能共享项目积累的知识资产。
+论文认为当前LLM Agent与人类协作采用反应式模式存在根本缺陷，人类无法预见解题决策如何向下游传导。提出simulation-in-the-loop范式，将多条备选未来轨迹外化展示，引入Agentic Workflow、Action Space、Simulation、Simulated Impact四个核心概念，以及Lookahead Depth、Exploration Breadth、Granularity三个设计维度。属于CHI 2026视角论文，概念框架尚未经实证验证。
 
-`AgentX` `project-knowledge` `coding-agent` `Hermes` `skill-evolution`
+`human-agent-collaboration` `simulation` `foresight` `CHI`
 
 ---
 
 ## 📅 2026-04-21
-
-### Hermes Agent 8个实用项目推荐
-⭐⭐⭐3 🌐 · 2026-04-21
-
-Moyu 摸鱼局长 URL: https://x. com/Jason23818126/status/2047148464409379070 发布日期：2026-04-21 整理了 8 个 Hermes Agent 热度较高的实用项目，涵盖安全防护、搜索能力、技能扩展、工作空间、持久记忆等方面. **hermes-agent-camel** — 集成 CaMeL 信任边界，在任务执行过程中自动进行安全校验和信任验证，适合需要较高可靠性和防护的生产或敏感场景 GitHub: https://github. com/nativ3ai/hermes-camel 2. **hermes-web-sea
-
----
 
 ### AGENTS.md：让编程代理遵循高级工程师行为规范
 @Geek Lite · ⭐⭐⭐3 🇨🇳 · 2026-04-21
@@ -306,6 +319,13 @@ Moyu 摸鱼局长 URL: https://x. com/Jason23818126/status/2047148464409379070 �
 agents-md 是一份可直接放入项目根目录的 AGENTS.md 文件，使 Claude Code、Codex、Cursor 等编程代理遵循高级工程师行为规范。综合了 Karpathy 的四大编程代理失败原则和 Boris Cherny 的 Claude Code 工作流，核心改变：代理在用户犯错时反驳、只做最小必要修改、不擅自重构无关代码、先跑验证再报告完成、遇到歧义主动询问。约 200 行，有两个可编辑部分（项目上下文和经验积累），其余规则保持精简。可通过创建 CLAUDE.md 和 GEMINI.md 符号链接统一管理所有代理的行为规范。
 
 `agents-md` `coding-agent` `claude-code` `cursor` `prompt-engineering`
+
+---
+
+### Hermes Agent 8个实用项目推荐
+⭐⭐⭐3 🌐 · 2026-04-21
+
+Moyu 摸鱼局长 URL: https://x. com/Jason23818126/status/2047148464409379070 发布日期：2026-04-21 整理了 8 个 Hermes Agent 热度较高的实用项目，涵盖安全防护、搜索能力、技能扩展、工作空间、持久记忆等方面. **hermes-agent-camel** — 集成 CaMeL 信任边界，在任务执行过程中自动进行安全校验和信任验证，适合需要较高可靠性和防护的生产或敏感场景 GitHub: https://github. com/nativ3ai/hermes-camel 2. **hermes-web-sea
 
 ---
 
@@ -375,22 +395,21 @@ RookieRicardoR 系统梳理当前 AI Agent 开发工具链全貌:底层(模型�
 
 ---
 
-### [OpenClaw vs Hermes：一文深入理解两大通用 Agent](/entry/73831b80fee8) 📄
-@架构师 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-14
-
-[Read in Cubox](https://cubox.pro/web/card/7443555272636761265)  
-[Read Original](https://mp.weixin.qq.com/s?__biz=MzAwNjQwNzU2NQ==&amp;mid=2650409010&amp;idx=1&amp;sn=04b9836fa07ff877c459e300707ddcff&amp;chksm=82e0d2bc0316714983894d249271a025550cdea2e2386283a92323167d29ae7a7879ea919fa0&amp;mpshare=
-
-`openclaw` `hermes-agent` `nous-research` `agent-framework` `memory`
-
----
-
 ### [Get ready for Google I/O: Livestream schedule revealed](/entry/d5979c3d) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-14
 
 Google I/O 2026 将于 5 月 19-20 日举行,重点聚焦 AI、 Android、Chrome 和 Cloud 领域。大会将以&#x27;代理时代&#x27;(agentic era)为主题,发布面向 AI 自动化复杂工作流的新工具,简化 AI 就绪应用的高质量构建。注册已开放,可在线观看主题演讲和技术演示。
 
 `google-io` `agentic` `ai-tools` `android` `gemini`
+
+---
+
+### [OpenClaw vs Hermes：一文深入理解两大通用 Agent](/entry/73831b80fee8) 📄
+@架构师 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-14
+
+首次系统梳理 LLM 记忆系统的全设计空间，指出 Raw/Derived 权衡是结构性问题
+
+`openclaw` `hermes-agent` `nous-research` `agent-framework` `memory`
 
 ---
 
@@ -408,13 +427,22 @@ Harness Engineering 是继 Prompt Engineering、Context Engineering 之后，由
 ### [万字干货：理解 Harness Engineering，看这一篇就够了](/entry/cc15hq4t) 📄
 @咸鱼（TRAE 开发者用户） · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-11
 
-Harness Engineering 是继 Prompt Engineering 和 Context Engineering 之后 2026 年 AI 领域的核心工程方法论，由 HashiCorp 联合创始人 Mitchell Hashimoto 提出。核心比喻是缰绳：AI Agent = SOTA 模型（野马）+ Harness（驾驭系统）= 千里马。文章系统性拆解了 Harness 的设计目标（R.E.S.T 模型：可靠性、效率、安全性、可观测性）、四层架构（控制平面+数据平面）、核心运行机制（REPL 容器抽象、Token 转化流水线、Function Calling 生命周期）、规划模式（Plan-and-Execute 为主）、沙盒执行框架（从进程级到 VM 级四档隔离）以及度量体系。适合 Agent 系统工程师建立完整的工程化框架认知。
+Harness Engineering 是继 Prompt Engineering 和 Context Engineering 之后 2026 年 AI 领域的核心工程方法论，由 HashiCorp 联合创始人 Mitchell Hashimoto 提出。核心比喻是缰绳：AI Agent = SOTA 模型（野马）+ Harness（驾驭系统）= 千里马。文章系统性拆解了 Harness 的设计目标（R.E.S.T 模型：可靠性、效率、安全性、可观测性）、四层架构（控制平面+数据平面）、核心运行机制（REPL 容器抽象、Token 转化流水线、Function Calling 生命周期）、规划模式（Plan-and-Execute 为主）、沙盒执行框架（从进程级到 VM 级四档隔离）以及度量体系。...
 
 `harness-engineering` `ai-agent` `prompt-engineering` `context-engineering` `llm`
 
 ---
 
 ## 📅 2026-04-10
+
+### [GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault](/entry/c3dc5hz4) ⭐9,991 📄
+⭐⭐⭐⭐4 🌐 · 2026-04-10
+
+Claude Code 编程工具相关实践与技巧
+
+`agent` `rag` `[]` `claude`
+
+---
 
 ### [面向移动设备厂商团队的 Agent 体系与 PerformanceAgent 设计深度研究报告](/entry/110qhnsv) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
@@ -425,12 +453,12 @@ Harness Engineering 是继 Prompt Engineering 和 Context Engineering 之后 202
 
 ---
 
-### [GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault](/entry/c3dc5hz4) ⭐9,991 📄
-⭐⭐⭐⭐4 🌐 · 2026-04-10
+### [GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login.](/entry/26prcruq) ⭐11,554 📄
+⭐⭐⭐3 🌐 · 2026-04-10
 
-# GitHub - YishenTu/claudian: An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault - YishenTu/claudian ?imageUrl=https%3A%2F%2Fcamo.githubusercontent.com%2Fbbccb46c3e40e6f6bbd14f744f3796c76fdfd9e...
+Claude Code 编程工具相关实践与技巧
 
-`agent` `rag` `[]` `claude`
+`mcp` `copilot` `[]` `cursor` `openai`
 
 ---
 
@@ -439,18 +467,8 @@ Harness Engineering 是继 Prompt Engineering 和 Context Engineering 之后 202
 
 LLM Agent 在长时间、动态交互环境中运行时，如何实现持续学习和自适应？现有方法（长上下文、外部记忆、参数更新）为何无法完整支撑真正长期化的 Agent？
 
----
 
 `fine-tuning` `coding` `agent` `llm` `reasoning`
-
----
-
-### [GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login.](/entry/26prcruq) ⭐11,554 📄
-⭐⭐⭐3 🌐 · 2026-04-10
-
-# GitHub - steipete/CodexBar: Show usage stats for OpenAI Codex and Claude Code, without having to login. Show usage stats for OpenAI Codex and Claude Code, without having to login. - steipete/CodexBar CodexBar 🎚️ - May your tokens never run out. Tiny macOS 14+ menu bar app that keeps your Codex, Cl...
-
-`mcp` `copilot` `[]` `cursor` `openai`
 
 ---
 
@@ -467,25 +485,24 @@ Anthropic工程团队详解Managed Agents架构——将Agent的大脑（决策�
 
 ## 📅 2026-04-07
 
-### [Trace2Skill](/entry/yno49t26) 📄
-⭐⭐⭐3 🇨🇳 · 2026-04-07
-
-LLM Agent 需要领域特定技能（skills）才能高效处理复杂任务。但技能创建面临三重困境：
-
-1. 人工编写不可扩展：每个领域都需要专家花大量时间写详细的操作指南，随着 Agent 应用场景扩展，这个瓶颈越来越严重
-2. 纯 LLM 生成效果差：直接让 LLM 凭参数化知识写技能，缺乏对目标领域具体操作和常见陷阱的了解，收益有限
-3. 在线顺序更新导致碎片化：现有在线范式（如 ExpeL、Skill-Gen）按顺序处理每条轨迹，一条轨迹学一个教训就更新一次技能，导致技能碎片化且容易过拟合
-
-`obsidian` `fine-tuning` `agent` `llm` `paper`
-
----
-
 ### Large Language Model Agent: A Survey on Methodology, Applications and Challenges
 ⭐⭐⭐3 🇨🇳 · 2026-04-07
 
 LLM Agent 到底是什么、怎么构建、怎么协作、怎么演化？ 本文试图用一套统一的方法论分类体系回答这个正在快速碎片化的领域的核心架构问题。这不是第 N 篇 &quot;Agent 综述&quot;——它的价值在于提出&quot;构建-协作-演化&quot;三维框架，把散落的研究线索串成了一条可追溯的架构演进路径。
 
 `gui` `safety` `agent` `llm` `paper`
+
+---
+
+### [Trace2Skill](/entry/yno49t26) 📄
+⭐⭐⭐3 🇨🇳 · 2026-04-07
+
+LLM Agent 需要领域特定技能（skills）才能高效处理复杂任务。但技能创建面临三重困境：
+1. 人工编写不可扩展：每个领域都需要专家花大量时间写详细的操作指南，随着 Agent 应用场景扩展，这个瓶颈越来越严重
+2. 纯 LLM 生成效果差：直接让 LLM 凭参数化知识写技能，缺乏对目标领域具体操作和常见陷阱的了解，收益有限
+3. 在线顺序更新导致碎片化：现有在线范式（如 ExpeL、Skill-Gen）按顺序处理每条轨迹，一条轨迹学一个教训就更新一次技能，导致技能碎片化且容易过拟合
+
+`obsidian` `fine-tuning` `agent` `llm` `paper`
 
 ---
 
@@ -577,28 +594,19 @@ AI Agent实践的知识图谱总结，涵盖四大核心主题：1）记忆系�
 @**：arXiv · ⭐⭐⭐3 🇨🇳 · 2026-03-24
 
 如何将大型语言模型从单体模型转变为模块化、可动态扩展的智能体系统，同时确保安全性和可维护性。
-
 创新点
 1. 技能抽象层：提出基于SKILL.md的技能范式，实现渐进式披露
 2. 系统性综述：从架构、获取、部署、安全四个维度全面梳理Agent Skills生态
 3. 安全治理框架：提出技能信任与生命周期治理框架（四层门控权限模型）
 4. 实证分析：26.1%的社区技能包含漏洞，揭示安全紧迫性
-
 方法解读
 1. SKILL.md规范：YAML frontmatter + 三级渐进式披露（元数据→指令→资源）
 2. 技能获取方法：
-   - 人类创作（Anthropic Skills）
-   - 带技能库的强化学习（SAGE）
-   - 自主技能发现（SEAgent）
-   - 组合式技能合成
-3. 计算机使用智能体技术栈：GUI接地技术 + 多平台基准测试
-4. 安全分析：大规模漏洞扫描 + 恶意技能识别
-
-实验结果
-技能获取性能：
-- SAGE：任务完成率+8.9%，token消耗-59%
-- SEAgent：成功率从11.3%提升至34.5%
-- CUA-Skill：WindowsA…
+- 人类创作（Anthropic Skills）
+- 带技能库的强化学习（SAGE）
+- 自主技能发现（SEAgent）
+- 组合式技能合成
+3....
 
 `2026-03-24` `gui` `safety` `agent` `research`
 
@@ -615,32 +623,6 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 
 ---
 
-### [LLM Agent](/entry/msn7omkf) 📄
-@：arXiv · ⭐⭐⭐3 🇨🇳 · 2026-03-23
-
-论文系统梳理基于大语言模型（LLM）的智能 Agent 系统，从方法论、应用和挑战三个维度构建统一分类体系，揭示 Agent 设计原则与复杂环境中涌现行为之间的基本联系。
-
-创新点
-1. 方法论中心的分类法：提出 Build-Collaborate-Evolve 三维框架，系统解构 Agent 的构建、协作和演进机制
-2. 统一架构视角：连接角色定义、记忆机制、规划能力和行动执行四大核心组件，揭示设计原则与涌现行为的联系
-3. 前沿应用与真实挑战：涵盖安全、隐私、伦理等现实问题，从理论走向实践
-
-方法解读
-1. Agent 构建（Construction）：
-   - 角色定义：人工静态配置 vs 批量动态生成
-   - 记忆机制：短期记忆、长期记忆、知识检索（RAG）
-   - 规划能力：任务分解（单路径链式、多路径树状）、反馈驱动迭代
-   - 行动执行：工具利用、物理交互
-
-2. Agent 协作（Collaboration）：
-   - 集中式控制：MetaGPT、AutoGen
-   - 去中心化协作：CAMEL、MedAgents
-   - 混合架构：KnowAgent、T…
-
-`safety` `agent` `2026-03-23` `research` `llm`
-
----
-
 ### Browser Use 在 OpenClaw 环境的集成分析
 @高爷 · ⭐⭐⭐3 🇨🇳 · 2026-03-23
 
@@ -650,24 +632,31 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 
 ---
 
+### [LLM Agent](/entry/msn7omkf) 📄
+@：arXiv · ⭐⭐⭐3 🇨🇳 · 2026-03-23
+
+论文系统梳理基于大语言模型（LLM）的智能 Agent 系统，从方法论、应用和挑战三个维度构建统一分类体系，揭示 Agent 设计原则与复杂环境中涌现行为之间的基本联系。
+创新点
+1. 方法论中心的分类法：提出 Build-Collaborate-Evolve 三维框架，系统解构 Agent 的构建、协作和演进机制
+2. 统一架构视角：连接角色定义、记忆机制、规划能力和行动执行四大核心组件，揭示设计原则与涌现行为的联系
+3. 前沿应用与真实挑战：涵盖安全、隐私、伦理等现实问题，从理论走向实践
+方法解读
+1....
+
+`safety` `agent` `2026-03-23` `research` `llm`
+
+---
+
 ## 📅 2026-03-21
 
 ### [Agentic Code Reasoning](/entry/l9nwgb3o) 📄
 ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-21
 
 论文试图解决什么问题？
-
 大语言模型（LLM）在代码生成和理解任务上表现出色（如 GitHub Copilot、GPT-4 Code Interpreter），但在深度代码推理方面仍有明显局限。具体问题包括：
-
 1. 表面模式匹配：LLM 往往基于关键词和表面模式，而非深度语义理解。例如，对代码 `if (x &gt; 0) return x; else return -x;`，LLM 可能识别出&quot;返回绝对值&quot;，但无法推理出&quot;如果 x 是负数，返回 -x 的数学意义&quot;。
-
 2. 推理不一致：对同一代码的不同提问，LLM 可能给出矛盾答案。例如，问&quot;这个函数的时间复杂度？&quot;可能回答 O(n)，问&quot;这个函数会超时吗？&quot;可能回答&quot;不会&quot;，但两者矛盾。
-
-3. 缺乏可解释性：LLM 的推理过程是黑盒，难以验证结论正确性。开发者无法判断 LLM 的结论是基于真实理解还是表面模式。
-
-4. 执行依赖：部分方法（如 Program-of-Thought）依赖代码执行来验证推理，但存在安全风险（执行恶意代码）和环境限制（无法执行系统级操作）。
-
-论文的核心创新：提出&quot;Agentic Code Reasoni…
+3. 缺乏可解释性：LLM 的推理过程是黑盒，难以验证结论正确性。...
 
 `tools` `safety` `github` `coding` `agent`
 
@@ -679,21 +668,19 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-20
 
 **论文标题**: Towards a Science of AI Agent Reliability
-
 **精读时间**: 2026-03-20
 **论文类型**: AI agent、 可靠性工程、 评估方法
 **技术栈**: LLM、 AI agent、 评估框架
 
----
 ## 1. 核心问题
 ### 1.1 研究问题
 **如何系统化地评估AI智能体的可靠性？**
 ### 1.2 问题背景
 **现实痛点**:
 1. **能力与可靠性的脱节**:
-   - 噩点:AI智能体在基准测试中表现优秀
-   - 现实:实际部署中频繁失败
-   - 原因:评估方法只关注准确率,忽略了行为的一致性、鲁…
+- 噩点:AI智能体在基准测试中表现优秀
+- 现实:实际部署中频繁失败
+- 原因:评估方法只关注准确率,忽略了行为的一致性、鲁…
 
 `safety` `fine-tuning` `coding` `agent` `tool-use`
 
@@ -705,38 +692,11 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 @**: arXiv:2504.19678 · ⭐⭐⭐3 🇨🇳 · 2026-03-19
 
 如何系统性地理解和评估从LLM推理到自主AI Agent的演进？
-
 为什么重要
-
 1. 领域碎片化: 评估基准多样、框架众多、缺乏统一术语
 2. 实践需求: 企业需要选择框架、研究者需要基准、开发者需要最佳实践
 3. 技术快速演进: 新模型新框架层出不穷
-4. 协作协议缺失: 多Agent协作缺乏标准
-
----
-综述核心价值:
-- 问题: LLM → Agent 系统性理解
-- 方法: 基准分类 + 框架梳理 + 协议解析
-- 效果: 60+ 基准、20+ 框架、3 大协议
-- 意义: 首个系统性梳理综述
-
-对 AI/Agent 工作的启示:
-- 选择框架考虑成熟度和标准化
-- 评估基准是持续改进的基础
-- 多Agent协作是必然方向
-- 领域知识 + AI 是成功关键
-
-对 OpenClaw 的启发:
-- 集成 MCP 支持工具扩展
-- 使用标准基准评估
-- 考虑多Agent架构
-- 建立评估体系
-
----
-
-精读完成时间: 2026-03-19
-精读者: OpenClaw Agent
-质量等级: 深度精读
+4....
 
 `coding` `agent` `llm` `paper` `reinforcement-learning`
 
@@ -744,29 +704,26 @@ Browser Use CLI 2.0调研报告——一个为AI agents设计的浏览器自动�
 
 ## 📅 2026-03-17
 
+### [Agentic Reasoning: LLM的智能体推理范式](/entry/ag5671fq) 📄
+⭐⭐⭐3 🇨🇳 · 2026-03-17
+
+如何将大型语言模型（LLM）从被动的文本生成器，转变为能够自主规划、行动和学习的智能体？
+子问题
+1. 环境适应性：如何让LLM在开放、动态的环境中持续交互？
+2. 能力进化：如何通过反馈和记忆机制实现自我提升？
+3. 协作智能：如何从单智能体扩展到多智能体协作？
+
+
+`safety` `coding` `agent` `tool-use` `llm`
+
+---
+
 ### [OpenClaw深度调研报告](/entry/ui7ss4vj) 📄
 ⭐⭐⭐3 🇨🇳 · 2026-03-17
 
 OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent、Memory、MCP、Skills、Cron）、运行机制、与其他Agent框架的对比分析。报告系统梳理了OpenClaw的技术栈和生态位，对理解个人AI Agent的工程化实现有参考价值。
 
 `openclaw` `agent` `deep-research` `architecture` `mcp`
-
----
-
-### [Agentic Reasoning: LLM的智能体推理范式](/entry/ag5671fq) 📄
-⭐⭐⭐3 🇨🇳 · 2026-03-17
-
-如何将大型语言模型（LLM）从被动的文本生成器，转变为能够自主规划、行动和学习的智能体？
-
-子问题
-
-1. 环境适应性：如何让LLM在开放、动态的环境中持续交互？
-2. 能力进化：如何通过反馈和记忆机制实现自我提升？
-3. 协作智能：如何从单智能体扩展到多智能体协作？
-
----
-
-`safety` `coding` `agent` `tool-use` `llm`
 
 ---
 
@@ -779,25 +736,17 @@ OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent�
 **论文类型**: AI 智能体综述
 **推荐指数**: ⭐⭐⭐⭐⭐
 
----
-
 ## 一、核心问题
-
 ### 问题背景
 2025 年是&quot;AI 智能体元年&quot;，LLM 驱动的智能体系统快速发展，但领域存在定义模糊、评估碎片化、框架混乱等问题。
-
 ### 研究问题
 **如何系统性地理解、评估和构建 LLM 驱动的自主 AI 智能体？**
-
 ### 问题意义
 1. **统一认知**: 提供清晰的智能体分类和定义
 2. **指导实践**: 帮助选择合适的框架和基准
 3. **推动发展**: 指明未来研究方向和应用场景
 
----
-
 ## 二、创新点
-
 ### 1…
 
 `safety` `coding` `agent` `tool-use` `llm`
@@ -810,17 +759,12 @@ OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent�
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-15
 
 # Exploring the Necessity of Reasoning in LLM-based Agent Scenarios
-
-**论文链接**：https://arxiv.org/abs/2503.11074  
-**阅读日期**：2026-03-15  
+**论文链接**：https://arxiv.org/abs/2503.11074
+**阅读日期**：2026-03-15
 **论文类型**：智能体框架 / 推理评估
 
----
-
 ## 一、核心问题（Core Problem）
-
 ### 1.1 研究背景
-
 大型推理模型（LRMs，如DeepSeek-R1, Claude3.7-sonnet）的兴起，对传统基于大型语言模型（LLMs）的智能体框架带来了范式转变。这些新一代模型在逻辑演绎上更强大，但也带…
 
 `agent` `llm` `paper` `reinforcement-learning` `reasoning`
@@ -833,46 +777,14 @@ OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent�
 @：** · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-12
 
 问题来源：
-
 多轮 GRPO 引入归一化项 1/Ti 以避免偏向更长轨迹。然而，这引入了结构性偏差：
-
 定理 1 的直觉：
-
 给定相同上下文，如果两个行动产生：
 - 轨迹 τS：TS 轮，最终奖励 R
 - 轨迹 τL：TL 轮（TL &gt; TS），最终奖励 R
-
 模型会偏向 τS（更少轮次）。
-
 为什么？
-
-梯度更新中，除非 τL 的聚合贡献至少是 τS 的 TL/TS 倍，否则 ∥gt(τL)∥ &gt; ∥gt(τS)∥。
-
-关键洞察：
-
-1. 无论奖励正负都成立
-   - 正奖励：短轨迹更受青睐
-   - 负奖励：短轨迹惩罚更少
-
-2. 惰性行为自然产生短轨迹
-   - 输出空白或简单总结减少轮次
-   - 避免深入思考和反思
-   - 符合优化目标（减少轮次）
-
-3. 初始阶段至关重要
-   - 惰性行为在早期就形成
-   - 一旦形成难以纠正
-   - 影响整个训练过程
-
-与 Dr.GRPO 的区别：
-
-- Dr.GRPO：关注令牌级别归一化
-- 我们的工作：关注轮次级别归一化
-- 轮次数 &lt;&lt; 令牌数，偏差更显著
-
-2.2 Shapley 启发的因果影响测量
-
-核心创新：稳定且高效…
+梯度更新中，除非 τL 的聚合贡献至少是 τS 的 TL/TS 倍，否则 ∥gt(τL)∥ &gt; ∥gt(τS)∥。...
 
 `agent` `llm` `paper` `reinforcement-learning` `reasoning`
 
@@ -884,26 +796,17 @@ OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent�
 @** | 人工预定义 | 自主生成 | · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-10
 
 这篇论文要解决什么问题？
-
 传统 LLM 在现实世界任务中存在三大局限：
 1. 缺乏长期记忆：无法保留历史信息和经验
 2. 无法自主使用工具：需要人工指导才能与外部系统交互
 3. 难以在动态环境中追求目标：缺乏持续推理和多步规划能力
-
 为什么这个问题重要？
-
 - LLM 的潜力远未被充分释放，目前主要用于对话而非行动
 - 真实世界的任务往往需要多步骤、多工具、多轮反馈
 - 如果能让 LLM 成为真正的&quot;智能体&quot;而非&quot;聊天机器人&quot;，将极大扩展其应用价值
 - 当前智能体与人类能力仍有巨大差距（42.9% vs 72.36% 任务完成率）
 
----
-这篇论文为构建 LLM 智能体提供了系统化的理论框架和实践指导。对于高爷的工作，它提供了：
-
-1. 架构蓝图：四大系统（感知、推理、记忆、执行）为 SmartPerfetto 的智能化提供了清晰的改造方向
-2. 技术选型指导：CoT/ToT/ReAct 等推理策略，RAG/知识图谱等记忆方案，帮助做出合理的技术选择
-3. 问题识别：五大失败模式帮助预见和规避常见的智能体开发陷阱
-4. 内容素材：丰富的理论和技术内容可以转化为系列文章、技术分享和知…
+这篇论文为构建 LLM 智能体提供了系统化的理论框架和实践指导。...
 
 `gui` `fine-tuning` `coding` `agent` `tool-use`
 
@@ -914,8 +817,8 @@ OpenClaw的全面深度调研报告，涵盖架构设计、核心组件（Agent�
 
 AI 重构软件工程：OpenAI Harness Engineering，程序员不写代码的时代来了
 ，OpenAI 在工程博客发布的《Harness engineering: leveraging Codex in an agent-first world》，抛出了一个颠覆软件工程界的实验结果：一支初始 3 人的工程师团队，从空 Git 仓库起步，仅用 5 个月时间，依靠 Codex+GPT-5 构建出一款拥有约 100 万行代码的
-Read in Cubox  
-Read Original
+
+
 一、百万代码零手写，OpenAI 工程实验
 二、驾驭工程：不是 AI 写代码，而是驯服
 
@@ -937,18 +840,13 @@ AI 进化论-花生发布的 98 页 OpenClaw 橙皮书，浏览量超 175 万，
 ### [ARTEMIS - LLM 智能体的自动化进化优化](/entry/2vsxzg1f) 📄
 ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-09
 
-**论文**: Evolving Excellence: Automated Optimization of LLM-based Agents  
-**精读日期**: 2026-03-09  
+**论文**: Evolving Excellence: Automated Optimization of LLM-based Agents
+**精读日期**: 2026-03-09
 **阅读者**: 高爷（AI 应用探索者）
 
----
-
 ## 一、核心问题
-
 ### 1.1 论文要解决什么问题？
-
 **研究问题**: 如何自动化地优化基于 LLM 的智能体配置，以提升性能并降低成本？
-
 **子问题**:
 1. 智能体的哪些组件可以优化？（提示词、工具描述、参数）
 2. 如何联合优化多个相互依赖的组件？
@@ -974,35 +872,37 @@ OpenClaw 用户分享将 SearxNG 聚合搜索引擎接入龙虾生态（Claude C
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-08
 
 一句话概括：如何让 LLM 在处理复杂研究任务时，能够有效利用外部工具、维护推理上下文，并生成可解释的推理路径？
-
 问题拆解：
 1. 知识局限：LLM 训练数据有截止日期，无法获取最新信息
 2. 推理断裂：长推理链中容易丢失上下文，导致逻辑不一致
 3. 计算受限：LLM 无法执行复杂计算（如数学、数据分析）
 4. 单一能力：传统 LLM 缺乏外部工具调用能力
 5. 黑盒问题：推理过程不透明，难以调试和改进
-
 对高爷工作的关联：
 - 直接相关：AI Agent 开发、OpenClaw 工具集成
 - 间接相关：SmartPerfetto 中的 AI 辅助分析
 - 技术栈：LLM 应用、工具调用、知识管理
 
----
-Agentic Reasoning 论文的核心价值在于&quot;多智能体协作&quot;和&quot;结构化知识管理&quot;。这两个概念不仅适用于 LLM 推理增强，也可以应用于各种复杂任务处理场景。
-
-关键收获：
-1. 多智能体协作：将复杂任务分解，由专门智能体处理
-2. Mind Map：用知识图谱维护推理上下文
-3. 结构化记忆：管理短期、长期和工作记忆
-
-下一步行动：
-1. 设计 OpenClaw 的多智…
+Agentic Reasoning 论文的核心价值在于&quot;多智能体协作&quot;和&quot;结构化知识管理&quot;。...
 
 `gui` `coding` `agent` `tool-use` `llm`
 
 ---
 
 ## 📅 2026-03-03
+
+### [Agent Frameworks Are Getting Squeezed](/entry/7az6rlg5) 📄
+@tonykipkemboi · ⭐⭐⭐⭐⭐5  · 2026-03-03
+
+**By @tonykipkemboi (Tony Kipkemboi)**
+🕐 Mon Mar 02 20:12:29 +0000 2026
+📊 ❤️ 255 🔁 20 🔖 565 👁️ 91,128 💬 19
+📐 1,407 words
+When you look at what most agent frameworks actually do, it&#x27;s workflow orchestration. You define tasks, chain them together, route data between steps, add conditional logic, call external APIs....
+
+`openclaw` `claude` `agent` `agentic` `automation`
+
+---
 
 ### [如何从零开始写一个 OpenClaw -- 关于我用 Rust 写一只🦀🦞(CrabClaw)的开发手记](/entry/huopxfae) 📄
 @jakevin7 · ⭐⭐⭐⭐⭐5  · 2026-03-03
@@ -1014,25 +914,36 @@ Agentic Reasoning 论文的核心价值在于&quot;多智能体协作&quot;和&q
 这篇文章记录了整个过程中的思考、踩坑与感悟。
 代码在 GitHub。如果你也想造一只属于自己的螃蟹钳子，欢迎 star/fork。我的 GitHub：jackwener，欢迎 follow。
 起因
-2026 年 2 月，OpenClaw 火了。朋友圈里人人都在聊这只龙虾——一个能在 Telegram 里跟你对话、帮你干活的 AI 智能体。在我看到 Bub 之后，我也起了一个想自己写一个的心
-我先简单看了 Nanobot（OpenClaw 的最小复现）了解核心架构，
-深入研究了 Bub——PsiACE 的 Agent 项目。Bub 的架构非常优雅：AgentLoop 抽象、Tape 记忆系统、Skills 引擎，每个模块都恰到好处。
+2026 年 2 月，OpenClaw 火了。朋友圈里人人都在聊这只龙虾——一个能在 Telegram 里跟你对话、帮你干活的 AI 智能体。...
 
 `openclaw` `agent` `agentic` `skill` `context-management`
 
 ---
 
-### [Agent Frameworks Are Getting Squeezed](/entry/7az6rlg5) 📄
-@tonykipkemboi · ⭐⭐⭐⭐⭐5  · 2026-03-03
+### [2026-03-03-1210-evilcos-OpenClaw-Security-Practice-Guide-2028458311801274671](/entry/01qaflpz) 📄
+@evilcos · ⭐⭐⭐3 🇨🇳 · 2026-03-03
 
-**By @tonykipkemboi (Tony Kipkemboi)**
-🕐 Mon Mar 02 20:12:29 +0000 2026
-📊 ❤️ 255 🔁 20 🔖 565 👁️ 91,128 💬 19
-📐 1,407 words
-When you look at what most agent frameworks actually do, it&#x27;s workflow orchestration. You define tasks, chain them together, route data between steps, add conditional logic, call external APIs. The core mechanics look familiar because we&#x27;ve been doing this with automation platforms for over a decade.
-当你看大多数 agent 框架真正做的事情时，本质上就是工作流编排：定义任务、串联步骤、在流程间路由数据、加条件分支、调用外部 API。
+**@evilcos** (Cos(余弦)😶‍🌫️)
+🕐 Mon Mar 02 13:12:03 +0000 2026
+📊 ❤️ 787 🔁 183 🔖 1,231 👁️ 161,327 💬 45
+🦞OpenClaw 极简安全实践指南 (Security Practice Guide) 是面向 OpenClaw 的黑手册。
+我尝试了其他一些方式来试图加固 OpenClaw，包括 Skill 方式，但是发现还不如给 OpenClaw 植入一个安全“思想钢印”来的有意思，这个“思想钢印”形成一个 md 文档，包含安全事前、事中、事后需要做的策略，但这里有个前提：
+尽量不影响 OpenClaw 的日常使用，安全不要干扰用户体验，需要给这只🦞足够的自由。...
 
-`openclaw` `claude` `agent` `agentic` `automation`
+`openclaw` `skill` `github`
+
+---
+
+### [2026-03-03-1210-yibie-Shipping-at-Inference-Speed-Notes-2028650995153314299](/entry/5hv63unh) 📄
+@yibie · ⭐⭐⭐3  · 2026-03-03
+
+**@yibie** (yibie)
+🕐 Tue Mar 03 01:57:42 +0000 2026
+📊 ❤️ 2 🔁 0 🔖 5 👁️ 153 💬 0
+重读 OpenClaw 缔造者 Perter Steinberger 的这篇雄文《Shipping at Inference-Speed》，还有很深的启发，这篇文章是 Perter 说明自己 AI 辅助编程时，他自己工作流、方法、工具选择的转变，而这个转变让他打开与 AI 协作新的大门。
+Perter 在 AI 辅助编程的范式转变，是来自他亲自开发的项目 VibeTunnel。年初他花了两个月时间，尝试用Rust、Go 甚至 Zig 重写核心模块，但旧模型一直失败，最终没完成。...
+
+`openclaw` `claude` `codex` `cursor` `agent`
 
 ---
 
@@ -1047,45 +958,9 @@ When you look at what most agent frameworks actually do, it&#x27;s workflow orch
 但前提是——别乱装。
 现在生态已经野蛮生长，上万个 Skills 里确实有宝藏，也有雷。我自己踩过两个坑（一个权限乱读文件，一个 prompt 写得离谱），所以这篇是纯个人实战后的筛选清单，不是搬运榜单。
 时间：2026年3月
-结论：新手按这个顺序装，基本不会翻车。
-✅ 第一优先级：保命四件套（先装这 4 个）
-1️⃣ Skill Vetter（安全审计）
-这玩意必须第一个装。
-安装新 skill 前自动扫描风险指令，相当于给 Agent 装个“防毒软件”。
-ClawHub 现在下载量≠安全，别太天真。
-2️⃣ Tavily / SerpAPI（联网搜索）
-没联网的 Agent，本质是信息孤岛。
-装完之后才真正“活过来”。
+结论：新手按这个顺序装，基本不会翻车。...
 
 `openclaw` `agent` `obsidian` `skill` `github`
-
----
-
-### [2026-03-03-1210-yibie-Shipping-at-Inference-Speed-Notes-2028650995153314299](/entry/5hv63unh) 📄
-@yibie · ⭐⭐⭐3  · 2026-03-03
-
-**@yibie** (yibie)
-🕐 Tue Mar 03 01:57:42 +0000 2026
-📊 ❤️ 2 🔁 0 🔖 5 👁️ 153 💬 0
-重读 OpenClaw 缔造者 Perter Steinberger 的这篇雄文《Shipping at Inference-Speed》，还有很深的启发，这篇文章是 Perter 说明自己 AI 辅助编程时，他自己工作流、方法、工具选择的转变，而这个转变让他打开与 AI 协作新的大门。
-Perter 在 AI 辅助编程的范式转变，是来自他亲自开发的项目 VibeTunnel。年初他花了两个月时间，尝试用Rust、Go 甚至 Zig 重写核心模块，但旧模型一直失败，最终没完成。隔了一段时间，他重新打开这个项目，只给了 codex 两句提示让它把整个转发系统转成 Zig，模型自己跑了五个小时，经过多轮代码压缩，一次就交付了可用的转换。这种事在去年是不可想象的。
-
-`openclaw` `claude` `codex` `cursor` `agent`
-
----
-
-### [2026-03-03-1210-evilcos-OpenClaw-Security-Practice-Guide-2028458311801274671](/entry/01qaflpz) 📄
-@evilcos · ⭐⭐⭐3 🇨🇳 · 2026-03-03
-
-**@evilcos** (Cos(余弦)😶‍🌫️)
-🕐 Mon Mar 02 13:12:03 +0000 2026
-📊 ❤️ 787 🔁 183 🔖 1,231 👁️ 161,327 💬 45
-🦞OpenClaw 极简安全实践指南 (Security Practice Guide) 是面向 OpenClaw 的黑手册。
-我尝试了其他一些方式来试图加固 OpenClaw，包括 Skill 方式，但是发现还不如给 OpenClaw 植入一个安全“思想钢印”来的有意思，这个“思想钢印”形成一个 md 文档，包含安全事前、事中、事后需要做的策略，但这里有个前提：
-尽量不影响 OpenClaw 的日常使用，安全不要干扰用户体验，需要给这只🦞足够的自由。但是吧，江湖险恶，一只有 Root 权限且诞生才一个多月的🦞，安全不让人放心…
-于是，这份面向 OpenClaw 的极简安全实践指南诞生了，目前是 v2.7 版本，此前我们内测了许多版本，也踩了不少坑。
-
-`openclaw` `skill` `github`
 
 ---
 
@@ -1114,13 +989,7 @@ OpenAI 内部有个团队，5 个月，3 个工程师，几乎不靠手写代码
 因为它把一件正在发生的事，讲得非常清楚：
 工程师的核心工作，正在从写代码，转向设计让 Agent 持续工作的环境。
 这句话很重要。
-这不是一句夸张的口号，也不是某种抽象比喻。它描述的是一个已经开始发生的角色迁移。
-他们实际在做什么？
-这 3 个工程师，日常工作的重点并不是埋头写实现，而是三件事：
-把需求拆成 Agent 可以执行的任务。
-把上下文整理成 Agent 能理解的环境。
-把反馈机制搭出来，让 Agent 的输出可以被验证、被纠正、被持续改进。
-写代码当然还在发生。只是它已经不再是最稀缺、最核心的那部分工作。
+这不是一句夸张的口号，也不是某种抽象比喻。它描述的是一个已经开始发生的角色迁移。...
 
 `openclaw` `codex` `agent` `memory`
 
@@ -1136,11 +1005,19 @@ OpenAI 内部有个团队，5 个月，3 个工程师，几乎不靠手写代码
 你在用小龙虾时候有没有遇到这么个问题：
 小龙虾用久后，它老是记不住重要的东西，反而一些无关紧要的事情记得贼清楚。更要命的是，明明还搞点小任务，但是没过几天账单就爆炸了。
 究其原因，是 OpenClaw 的记忆机制的问题
-他每次对话都会把之前的对话附带上去，比如说像下面这个老哥，让 AI 写个代码。但是每聊一句，都要附带这个 python 代码上去，直接每次对话都干掉 15w token。
-这个问题目前还没见到官方有正式的解决方案。
-OpenClaw 的还有个问题是主动记忆的，也就是说，他记不记住你的东西，全看AI 的发挥。经常出现特别奇葩的情况，今天刚说的东西，转眼就忘记。
+他每次对话都会把之前的对话附带上去，比如说像下面这个老哥，让 AI 写个代码。...
 
 `openclaw` `agent` `github`
+
+---
+
+### [alibaba/OpenSandbox](/entry/f7cndt4r) 📄
+@alibaba · ⭐⭐⭐3  · 2026-03-02
+
+OpenSandbox is a general-purpose sandbox platform for AI applications. It provides unified sandbox lifecycle and execution APIs, and supports coding agents, GUI agents, evaluation, and RL training scenarios.
+OpenSandbox 是一个面向 AI 应用的通用沙箱平台，提供统一的沙箱生命周期与执行 API，覆盖编码 Agent、GUI Agent、评测和强化学习训练等场景。
+
+`openclaw` `claude` `codex` `agent` `coding`
 
 ---
 
@@ -1155,20 +1032,9 @@ OpenClaw 的还有个问题是主动记忆的，也就是说，他记不记住�
 发现适合的人群相对较窄。
 - 有一定技术维护能力，部署和维修都需要动手，包括请得到人和使用 claude code 来拯救。
 - 对错误、掉线、杀自己包容性大，经常卡顿是很恼火的。
-- 愿意投入，硬件上隔离运行，云服务器，容器，独立mac。软件上花钱买优质api token。
-这一个月里，经过了，将小龙虾，从linux云服务器，开一个claudeflare的docker容器，搬到mac studio主用户下，再从主用户迁移到隔离用户。
+- 愿意投入，硬件上隔离运行，云服务器，容器，独立mac。软件上花钱买优质api token。...
 
 `openclaw` `claude` `agent` `hermes` `docker`
-
----
-
-### [alibaba/OpenSandbox](/entry/f7cndt4r) 📄
-@alibaba · ⭐⭐⭐3  · 2026-03-02
-
-OpenSandbox is a general-purpose sandbox platform for AI applications. It provides unified sandbox lifecycle and execution APIs, and supports coding agents, GUI agents, evaluation, and RL training scenarios.
-OpenSandbox 是一个面向 AI 应用的通用沙箱平台，提供统一的沙箱生命周期与执行 API，覆盖编码 Agent、GUI Agent、评测和强化学习训练等场景。
-
-`openclaw` `claude` `codex` `agent` `coding`
 
 ---
 
@@ -1177,8 +1043,7 @@ OpenSandbox 是一个面向 AI 应用的通用沙箱平台，提供统一的沙�
 ### [Don&#x27;t trust AI agents](/entry/p327t0g8) 📄
 @Gavriel_Cohen · ⭐⭐⭐⭐4  · 2026-03-01
 
-When you&#x27;re building with AI agents, they should be treated as untrusted and potentially malicious. Whether it&#x27;s prompt injection, a model trying to escape its sandbox, or something nobody&#x27;s thought of yet, you shouldn&#x27;t be trusting the agent. The right approach isn&#x27;t better permission checks or smarter allowlists. It&#x27;s architecture that assumes agents will misbehave and contains the damage when they do.
-当您使用人工智能代理进行构建时，它们应该被视为不受信任且可能是恶意的。无论是即时注入、试图逃离沙箱的模型，还是还没有人想到的东西，你都不应该信任代理。
+When you&#x27;re building with AI agents, they should be treated as untrusted and potentially malicious. Whether it&#x27;s prompt injection, a model trying to escape its sandbox, or something nobody&#x27;s thought of yet, you shouldn&#x27;t be trusting the agent. The right approach isn&#x27;t better permission checks or smarter allowlists....
 
 `openclaw` `agent` `skill`
 
@@ -1202,15 +1067,7 @@ When you&#x27;re building with AI agents, they should be treated as untrusted an
 你告诉 🦞：「你整理一下我们的东西吧哈哈 记得用新架构噢」。
 🦞 说：「好的！」
 然后它继续把所有东西都塞进一个巨大的 context 里，完全无视你精心设计的架构。
-为什么？我也不知道。
-迭代？还是你在手动帮他传宗接代❓
-你发现你的龙虾犯了同样的错误N次。
-你忍无可忍 问他：
-「你第几次犯这个错了 能不能记住 很烦啊」
-又或者说
-你打开记忆文件，手动添加一条规则。
-这确实可能帮你的龙虾迭代了
-问题是：你得自己去做这件事。
+为什么？我也不知道。...
 
 `openclaw` `agent` `memory` `context-management` `github`
 
@@ -1238,15 +1095,6 @@ When you&#x27;re building with AI agents, they should be treated as untrusted an
 
 ## 📅 2026-02-27
 
-### [Scrapling: 自适应 Web 抓取框架](/entry/qky6krnb) 📄
-@D · ⭐⭐⭐⭐4 🌐 · 2026-02-27
-
-自适应网页抓取框架，从单次请求到全量并发爬取。解析器能在页面结构变化后重新定位元素，抓取器提供反反爬能力（如 Cloudflare 绕过）。Spider 系统支持并发、多会话路由、断点续跑、代理轮换和流式输出。适合生产级数据流水线。支持 MCP 集成。
-
-`scraping` `anti-bot` `cloudflare-bypass` `spider` `mcp`
-
----
-
 ### [DeerFlow 2.0: ByteDance 开源超级 Agent 运行底座](/entry/finwgv5v) 📄
 @Bytedance · ⭐⭐⭐⭐4 🌐 · 2026-02-27
 
@@ -1256,16 +1104,16 @@ When you&#x27;re building with AI agents, they should be treated as untrusted an
 
 ---
 
-## 📅 2026-02-26
+### [Scrapling: 自适应 Web 抓取框架](/entry/qky6krnb) 📄
+@D · ⭐⭐⭐⭐4 🌐 · 2026-02-27
 
-### [我的 Obsidian 不是笔记软件，是操作系统](/entry/gl77yady) 📄
-@Uncle J · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-02-26
+自适应网页抓取框架，从单次请求到全量并发爬取。解析器能在页面结构变化后重新定位元素，抓取器提供反反爬能力（如 Cloudflare 绕过）。Spider 系统支持并发、多会话路由、断点续跑、代理轮换和流式输出。适合生产级数据流水线。支持 MCP 集成。
 
-HR 出身的非程序员，用 Obsidian + Claude Code 搭建了复杂个人工作台。506 次 git commit、85+ AI Skills、3 个生命周期钩子、435 条自动 session logs、7 个平台同步分发。核心理念&quot;File over App&quot;：文件属于你，系统和 AI 是过客。原料从四面八方进来，经过流水线加工，变成成品出去。强调本地优先、数据自主。
-
-`obsidian` `claude-code` `automation` `file-over-app` `personal-os`
+`scraping` `anti-bot` `cloudflare-bypass` `spider` `mcp`
 
 ---
+
+## 📅 2026-02-26
 
 ### [Pi: The Minimal Agent Within OpenClaw](/entry/fvwtcwdn) 📄
 @Armin Ronacher · ⭐⭐⭐⭐⭐5 🌐 · 2026-02-26
@@ -1273,6 +1121,15 @@ HR 出身的非程序员，用 Obsidian + Claude Code 搭建了复杂个人工�
 OpenClaw 底层的编码 Agent Pi 详解。Pi 由 Mario Zechner 开发，理念是让 Agent 自己扩展自己而非下载扩展。刻意不支持 MCP（可用 mcporter 桥接），强调代码生成和运行。核心设计：会话是树结构（可分支/回退/导航），内置热重载让 Agent 自己写代码→重载→测试循环。多模型支持、可移植性优先。扩展可注册工具给 LLM 调用，也可渲染自定义 TUI 组件。
 
 `pi` `openclaw` `coding-agent` `mcp` `session-tree`
+
+---
+
+### [我的 Obsidian 不是笔记软件，是操作系统](/entry/gl77yady) 📄
+@Uncle J · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-02-26
+
+HR 出身的非程序员，用 Obsidian + Claude Code 搭建了复杂个人工作台。506 次 git commit、85+ AI Skills、3 个生命周期钩子、435 条自动 session logs、7 个平台同步分发。核心理念&quot;File over App&quot;：文件属于你，系统和 AI 是过客。原料从四面八方进来，经过流水线加工，变成成品出去。强调本地优先、数据自主。
+
+`obsidian` `claude-code` `automation` `file-over-app` `personal-os`
 
 ---
 
@@ -1316,15 +1173,6 @@ Agent Reach：一句安装指令快速获得 Web、Twitter/X、YouTube、Reddit�
 
 ---
 
-### [全面解析：如何部署 Conway Agent，开启链上 AI 生存游戏](/entry/z5yx2tcn) 📄
-@0xJA · ⭐⭐⭐3 🇨🇳 · 2026-02-24
-
-介绍 Conway Agent 部署方法。Conway 把服务器（Conway Cloud/Sandbox）、AI 推理（Conway Compute）和域名封装到统一平台，使用 Credit 计费。定位为完全自主运行的 AI 系统。内容较简短，为归档节选。
-
-`conway` `on-chain-ai` `agent-deployment` `sandbox`
-
----
-
 ### [Build Your Own Claw Empire: How OpenClaw and Emerging Claws Work Under the Hood](/entry/i4ujbfte) 📄
 @Misbah Syed · ⭐⭐⭐3  · 2026-02-24
 
@@ -1334,16 +1182,16 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 
 ---
 
-## 📅 2026-02-23
+### [全面解析：如何部署 Conway Agent，开启链上 AI 生存游戏](/entry/z5yx2tcn) 📄
+@0xJA · ⭐⭐⭐3 🇨🇳 · 2026-02-24
 
-### [The File System Is the New Database: How I Built a Personal OS for AI Agents](/entry/qr4q3vtj) 📄
-@Muratcan Koylan · ⭐⭐⭐3 🌐 · 2026-02-23
+介绍 Conway Agent 部署方法。Conway 把服务器（Conway Cloud/Sandbox）、AI 推理（Conway Compute）和域名封装到统一平台，使用 Credit 计费。定位为完全自主运行的 AI 系统。内容较简短，为归档节选。
 
-把&quot;上下文管理&quot;从一次性对话输入转为可持久化的文件系统结构，让 Agent 读写统一的项目记忆与规则，减少重复提示、降低上下文漂移，提高长期任务稳定性。内容为摘要归档。
-
-`file-system` `agent-os` `context-management` `personal-os`
+`conway` `on-chain-ai` `agent-deployment` `sandbox`
 
 ---
+
+## 📅 2026-02-23
 
 ### [OpenClaw Memory 终极指南](/entry/ednt9rlv) 📄
 @李韭二 · ⭐⭐⭐3 🇨🇳 · 2026-02-23
@@ -1354,12 +1202,21 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 
 ---
 
+### [The File System Is the New Database: How I Built a Personal OS for AI Agents](/entry/qr4q3vtj) 📄
+@Muratcan Koylan · ⭐⭐⭐3 🌐 · 2026-02-23
+
+把&quot;上下文管理&quot;从一次性对话输入转为可持久化的文件系统结构，让 Agent 读写统一的项目记忆与规则，减少重复提示、降低上下文漂移，提高长期任务稳定性。内容为摘要归档。
+
+`file-system` `agent-os` `context-management` `personal-os`
+
+---
+
 ## 📅 2026-02-10
 
 ### [借助 AI Coding 快速打造 AI Agent 系统](/entry/7gpoqruF) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-02-10
 
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FZ6bicxIx5naJ92fSX0GbcKeLprRiaibf3urmibOHJpPnmXBhWcxTzViaWhxiaeooj6cMYv3QcTy32rocngPbz7fCljgw%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0)
+Cubox 收藏 — 借助 AI Coding 快速打造 AI Agent 系统
 
 ---
 
@@ -1379,7 +1236,7 @@ OpenClaw 84 天达 20 万 GitHub Star。文章核心视角偏实战：解释 Ope
 ### [Demystifying evals for AI agents \ Anthropic](/entry/ghekus0k) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-01-10
 
-# Demystifying evals for AI agents \ Anthropic Demystifying evals for AI agents Good evaluations help teams ship AI agents more confidently. Without them, it&#x27;s easy to get stuck in reactive loopscatching issues only in production, where fixing one failure creates others. Evals make problems and beha...
+Anthropic 官方的 Agent 评测方法论指南
 
 `mcp` `llm` `anthropic` `coding` `[]`
 
@@ -1414,8 +1271,8 @@ LangChain 博客阐述文件系统作为 Agent 上下文工程核心工具的价
 
 2025，MCP、Agent、AI Coding
 新的一年，少一些宏大叙事，多一些落地执行。
-Read in Cubox  
-Read Original
+
+
 这是我从 腾讯裸辞 成为自由职业以后，写的第三篇年终总结。
 前两年的年终总结，以罗列产品为主。
 2023，我做过的 AI 项目
@@ -1431,8 +1288,8 @@ Read Original
 2026 AI First 系列（二）：Vibe Coding——思维速度编程的民主化革命
 &gt; copyright x @ wquguru 欢迎转载，请注明出处
 &quot;IDE？我试过一堆。以前我特别依赖其中一个。但现在它那些额外的功能，我根本不需要，也不在乎。我只
-Read in Cubox  
-Read Original
+
+
 &gt; copyright x @ wquguru 欢迎转载，请注明出处
 
 `Claude` `AI Coding` `Cursor` `MCP` `Vibe Coding`
@@ -1445,24 +1302,13 @@ Read Original
 ⭐⭐⭐⭐4 🌐 · 2026-01-04
 
 Android Studio  的 AI  Agent 有什么特别？未来会有惊艳什么功能？
-Read in Cubox  
-Read Original
+
+
 相信大家都在之前的 《Android Studio Otter 2 Feature 发布》已经了解过，为什么这是一个比较值得更新的 Android Studio 版本，与此同时，谷歌也和我们展示了未来（Canary）全新的 AI Agent 有什么特别之处。
 对于一个 AI Agent 来说，最重要的有三个基础概念：**工具 (Tools)**、** 上下文 (Context)** 和 **MCP (模型上下文协议)** ，而大多数人对于它们的理解，可能还比较片面。
 比如工具 ，**实际上 AI Agent 不只是一个聊天场景，更多是 Agent 通过&quot;工具&quot;来执行任务** ，而不是单纯用来做文本回复...
 
 `Agent` `Prompt Engineering` `Android` `MCP`
-
----
-
-## 📅 2026
-
-### [From Control to Foresight: Simulation as a New Paradigm for Human-Agent Collaboration](/entry/lKq-W6wR) 📄
-@Unknown · ⭐⭐⭐3 🌐 · 2026
-
-论文认为当前LLM Agent与人类协作采用反应式模式存在根本缺陷，人类无法预见解题决策如何向下游传导。提出simulation-in-the-loop范式，将多条备选未来轨迹外化展示，引入Agentic Workflow、Action Space、Simulation、Simulated Impact四个核心概念，以及Lookahead Depth、Exploration Breadth、Granularity三个设计维度。属于CHI 2026视角论文，概念框架尚未经实证验证。
-
-`human-agent-collaboration` `simulation` `foresight` `CHI`
 
 ---
 
@@ -1527,8 +1373,8 @@ OPPO ColorOS 智慧产品研发总监姜昱辰在极客公园创新大会 2026 �
 ⭐⭐⭐3 🇨🇳 · 2025-12-05
 
 Android 系统上 AI Agent 的一些可能性
-Read in Cubox  
-Read Original
+
+
 最近，我注意到手机端 AI Agent 应用的兴起，例如 DroidRun 和 AutoGLM。这类应用能够模拟用户操作，在手机上自动执行任务，全程无需人工干预------比如自动发布一篇小红书笔记，或是在美团上点一杯咖啡。
 **对用户而言，这类应用的核心价值在于解放双手、节省时间。** 想象一下，那些每日重复的应用签到、定时的优惠券抢购、或是在不同应用间搬运信息的繁琐操作，都可以交给一个不知疲倦的后台&quot;数字助理&quot;来完成。这不仅极大地提升了个人效率，更让用户能将精力专注于更有创造力和价值的事情上。
 然而，这些应用在实现上普遍面临一个核心痛点：**独占屏幕** 。当 Agent 运行时，它会接管手机屏幕，导致用户无法使用自己的手机。加之目...
@@ -1555,8 +1401,8 @@ IBM Research 团队对 2018-2025 年 RAG（检索增强生成）文献进行系�
 
 Anthropic Skills 深度解析：当通用 Agent 学会专业技能
 将文件夹系统作为 Context，正是 Claude 最核心的产品理念。
-Read in Cubox  
-Read Original
+
+
 昨天深入研究了 Anthropic 刚开源的 Skills 仓库，发现这东西比想象中更有意思。
 当通用 Agent 学会了专业技能会怎样？
 
@@ -1569,12 +1415,7 @@ Read Original
 ### [Anthropic 官方分享：为 AI 智能体打造高效工具——让 AI 智能体来帮忙](/entry/pkzeuz1r) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-09-12
 
-Anthropic 官方分享：为 AI 智能体打造高效工具——让 AI 智能体来帮忙
-来自 Anthropic 工程团队模型上下文协议（Model Context Protocol, MCP）可
-Read in Cubox  
-Read Original
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FSib7IezOlBcvSHsViaibvPiaVTqPSF6bP9mTw0YSwIb60Bmez3JCT6ToCtQHY9cEa32AznALvqAEktvrY5esnwuzQQ%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%26watermark%3D1%23imgIndex%3D0)
-模型上下文协议（Model Context Protocol, MCP）可...
+关于 AI Agent 的收藏文章
 
 `Claude` `Anthropic` `Agent` `MCP` `Performance`
 
@@ -1585,12 +1426,7 @@ Read Original
 ### [AI 时代如何做独立开发](/entry/4jv028mx) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-07-09
 
-Read in Cubox  
-Read Original
-上周六，我受邀参加了由 *InfoQ* 举办的 *全球人工智能开发与应用大会（AICon）* ，在北京国际会议中心，做了一场题为《AI 时代如何做独立开发》的分享。
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FRwxY4xJSwr4rZR7IOzmACNwClSldJcLV97jjyzzJHEvq01ruodicdqCibicIeYTl9WzG8SjBUA293443DB2L8yhhw%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg)
-活动举办很成功，现场观众很热烈。我想把分享内容，整理成文字，与你共享。
-2011 年，我本科入学武汉大学核工程专业，大一那年暑假，偶然接触了 Abobe 公司的 Photo...
+AI 独立开发与实践收藏
 
 `MCP` `IndieDev` `Global`
 
@@ -1603,8 +1439,8 @@ Read Original
 
 Anthropic：我们如何构建多智能体研究系统
 我们的研究（Research）功能利用多个 Claude 智能体，来更有效地探索复杂主题。
-Read in Cubox  
-Read Original
+
+
 我们的研究（Research）功能利用多个 Claude 智能体，来更有效地探索复杂主题。在此，我们分享构建这一系统时遇到的工程挑战以及我们学到的经验教训。
 现在，Claude 具备了研究能力^\[1\]^，能够横跨网络、Google Workspace 及任何集成应用进行搜索，以完成复杂的任务。
 
@@ -1635,11 +1471,7 @@ Read Original
 ### [AI 傻傻分不清楚？那么多 AI 变体究竟怎么选？这里快速简单理清！](/entry/zo5tepps) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-04-21
 
-AI 傻傻分不清楚？那么多 AI 变体究竟怎么选？这里快速简单理清！
-Read in Cubox  
-Read Original
-2025 年的 AI 确实越来越好用，甚至可选的大模型也越来越多，不管是 web chat 还是 ide coding，现在都提供了大量丰富的可选模型，但是这同样也带来了「选择困难症」，特别是对于用户而言，面对有限的「免费次数」或者「排队时间」，选错模型等于浪费生命，**所以本篇意在简单介绍下这些模型和变体的区别，帮助你简单了解它们的适用情况** 。
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2Fj9CXw3c38v5VWibibvEjLAO8rpia1wzzVm9XT6aP3Muhum9tX1x2O5QJZujmthTjnhvForbTIobzSibag6C...
+Cubox 收藏文章，a2a 领域相关内容
 
 `OpenAI` `AI Coding` `Inference` `DeepSeek`
 
@@ -1661,8 +1493,8 @@ Read Original
 
 AI编程：从Copilot到Autopilot
 AI编程正在重塑软件开发的边界，让更多人能够将想法转化为现实，重新定义人与技术的关系。
-Read in Cubox  
-Read Original
+
+
 AI编程是当前AI领域唯一盈利赛道。这不仅是一种技术革新，更是一场创造方式的变革，正在重塑软件开发的边界，让更多人能够将想法转化为现实，重新定义人与技术的关系。
 从GitHub Copilot这样的代码补全插件，到Cursor这类AI IDE，AI编程工具正在变得更加集成和智能。这种演变不仅提高了效率，还大幅降低了编程门槛，使非程序员也能创造软件。
 
@@ -1675,7 +1507,7 @@ AI编程是当前AI领域唯一盈利赛道。这不仅是一种技术革新，�
 ### [GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers](/entry/np6822c5) ⭐879 📄
 ⭐⭐⭐⭐4 🌐 · 2025-04-01
 
-# GitHub - MobinX/awesome-mcp-list: A concise list for mcp servers A concise list for mcp servers. Contribute to MobinX/awesome-mcp-list development by creating an account on GitHub. Awesome MCP Servers - Concise List Note that this list is continuously updating and improving. Please star this repo ...
+Cubox 收藏: GitHub - MobinX/awesome-mcp-list: A concise list f
 
 `mcp` `[]` `openai`
 
@@ -1688,7 +1520,6 @@ AI编程是当前AI领域唯一盈利赛道。这不仅是一种技术革新，�
 
 LLM Agent 领域研究碎片化严重：架构设计、协作模式、进化机制散落在不同工作中，缺乏统一的方法论框架来理解&quot;Agent 如何构建、如何协作、如何进化&quot;这一完整生命周期。
 
----
 
 `safety` `agent` `tool-use` `llm` `paper`
 
@@ -1708,7 +1539,7 @@ LLM Agent 领域研究碎片化严重：架构设计、协作模式、进化机�
 ### [【科普】程序员必看，AI时代新协议 MCP 正在连接吞噬一切，20+资源全收录！](/entry/g2XhdceF) 📄
 ⭐⭐⭐⭐4 🌐 · 2025-03-06
 
-[需翻译] X（Twitter）上，AI 圈 10w+ 关注大V橘子兄这么评价： ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FjibL99tg2bCXsWIicK2X1vJ0pxkaMibsVvO39oxf8HCwdCh9xggPv7Fzh1LKlcxKN5TNDeJ0lte3IJnMMIUIC8ruw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg &quot;null&quot;) 不少独立开发圈的朋友们，对MCP技术也很感兴趣。   ?...
+Cubox 收藏 — 【科普】程序员必看，AI时代新协议 MCP 正在连接吞噬一切，20+资源全收录！
 
 ---
 
@@ -1718,24 +1549,13 @@ LLM Agent 领域研究碎片化严重：架构设计、协作模式、进化机�
 ⭐⭐⭐⭐4 🇨🇳 · 2025-02-22
 
 AI 正在推动程序员的进化，而不是灭亡 | 宝玉的分享
-Read in Cubox  
-Read Original
+
+
 这是纽约时报新刊登的一篇 AI 对程序员影响的文章，有人担心 AI 很快会自动取代数百万个工作岗位，文章主要观点还是认为 AI 正在推动程序员的进化，而不是灭亡，创造力、批判性思维、解决问题的能力、沟通能力、共情能力------这些才是人们在未来需要持续培养的技能。当然，还要学会如何管理和使用好这些 AI 工具。
 同时 HackerNews 上关于这篇文章也有不少讨论，一起整理后放在附录中供参考。
 微软等公司推出的 AI 工具正辅助编写代码，让软件工程师站在这项技术对劳动力市场所带来冲击的最前沿。
 
 `ChatGPT` `Agent`
-
----
-
-## 📅 2025-02
-
-### [Preventing Rogue Agents Improves Multi-Agent Collaboration](/entry/htX0TWFp) 📄
-@Ohav Barbi, Ori Yoran, Mor Geva · ⭐⭐⭐⭐4 🌐 · 2025-02
-
-论文研究多智能体系统中流氓智能体导致全系统失败的问题，提出实时监控与干预框架，用多项式岭分类器基于动作预测熵检测流氓智能体，在检测到低成功概率时触发回滚或重置。引入WhoDunitEnv协作环境，实验证明该机制使LLAMA-3.1-70B、QWEN-2.5-72B、GPT-4O成功率提升约10个百分点，代码生成任务提升2.5%，GovSim资源管理任务提升20%。
-
-`multi-agent` `agent-collaboration` `rogue-agent` `monitoring` `intervention`
 
 ---
 

@@ -1,6 +1,6 @@
 # 💻 AI编程
 
-IDE / CLI / 代码审查 / 工作流 — 共 **217** 条活跃资源
+IDE / CLI / 代码审查 / 工作流 — 共 **178** 条活跃资源
 
 ## 📅 2026-05-03
 
@@ -13,68 +13,32 @@ Google推出的首个原生多模态嵌入模型，支持视频分析、视觉�
 
 ---
 
-### [MiniMax M2.7 开源模型发布](/entry/209d1bde) 📄
-@@MiniMax_AI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-03
+### [Pete Yang对话前Tinder CPO：构建AI产品的3层context系统](/entry/bd777cd2) 📄
+@@petergyang · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-03
 
-MiniMax发布的M2.7开源模型，在SWE-Pro和Terminal Bench 2上表现出色，已可在Hugging Face上获取使用。
+Pete Yang 与前 Tinder CPO Ravi Mehta 合作，提出构建有用 AI 产品的3层 context 系统：Functional 层（应用做什么）、Visual 层（应用长什么样）和 Context 层（当前交互上下文）。Pete 指出目前 AI 使用中最常见的错误是不主动管理 context——模型无法有效利用历史信息，导致输出质量下降。这套3层框架可帮助产品经理和开发者系统性地设计 AI 产品的信息架构，避免常见的信息流混乱问题，是一个可复用的产品方法论。
 
-`opensource` `coding` `chinese-ai` `huggingface` `x`
+`x` `workflow` `ai-product` `context-management`
+
+---
+
+### [OpenClaw 2026.5.2：插件安装更稳、Agent 热路径更轻](/entry/fd791356) 📄
+@@steipete · ⭐⭐⭐3  · 2026-05-03
+
+Peter Steinberger 转发 OpenClaw 2026.5.2 发布，重点是修复 npm 安装依赖与速度问题，让插件安装和更新更稳定，并把大部分能力迁入 extensions 以降低包体负担。发布同时提到 Gateway 与 agent hot path 精简，以及 Discord、Slack、Telegram、WhatsApp、TTS、Realtime、web search 等集成修复。
+
+`openclaw` `plugins` `agent` `release` `workflow`
 
 ---
 
 ## 📅 2026-05-02
 
-### [AI Fast Track: 5天免费课程 手把手教你从用AI到用AI构建产品](/entry/ivgx104f) 📄
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
-
-There&#x27;s a difference between using AI and building with it. Copy-pasting ChatGPT prompts will only get you so far. I want to help you learn to build personal AI software, automations, and tools that actually solve your problems. The AI Fast Track is a free 5-day course. Tens of thousands have taken it.
-
-`x` `ai-tools` `ai-tools`
-
----
-
-### [OpenAI DevDay 2026 定档9月29日旧金山 GPT-5.5开发赢早期门票](/entry/3u1ukowy) 📄
-@@OpenAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
-
-OpenAI DevDay is back. San Francisco September 29. Want to secure an early ticket? Build something with GPT-5.5 and Image Gen. Each week, 2-3 favorites win free tickets. Codex helps find best submissions.
-
-`x` `ai-tools` `ai-tools`
-
----
-
-### [Gemini Embedding 2 正式发布:原生多模态Embedding模型 支持视频分析与视觉购物助手](/entry/yl4qo141) 📄
-@@GoogleAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
-
-Last week we made Gemini Embedding 2, our first natively multimodal embedding model, available to the general public. Developers have used it to build video analysis tools, visual shopping assistants, and more. What is an embedding model? Thread
-
-`x` `ai-tools` `ai-tools`
-
----
-
 ### [Tibo独家复盘:9次失败产品后如何做到100万美金/月 五款AI产品从0到1方法论](/entry/9ijpm5tr) 📄
 @@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
 
-I shipped 9 failed products before one took off...now I&#x27;m doing $1M+/month. Interview with @tibo_maker - a solo founder who bootstrapped 5 AI products to $1M+/month. Tibo walked through his exact playbook: How to validate ideas and fail fast, Why his top 3 AI products worked.
+独立开发者 Tibo 复盘5款AI产品做到100万美金/月 快速验证快速失败是核心
 
 `x` `ai-tools` `workflow`
-
----
-
-### [MiniMax M2.7 开源但非OSI认可开源:许可协议禁止商用引发争议](/entry/9uw4lgip) 📄
-@@MiniMax_AI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
-
-MiniMax M2.7 model weights are publicly available, but under a license prohibiting commercial use without authorization. This does not meet the Open Source Initiative&#x27;s definition of open source, which requires allowing commercial use.
-
-`x` `ai-tools` `ai-tools`
-
----
-
-### [Hinton推荐国际AI安全报告2026:AI风险领域最全面的循证评估](/entry/f1lbxjt9) 📄
-@@geoffreyhinton · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
-
-This is a great report that provides a thoughtful, detailed and very well researched description of the risks of AI. It is essential reading for anyone who wants to write or talk about AI risks. Referencing: International AI Safety Report 2026 by Yoshua Bengio.
-
-`x` `ai-tools` `ai-tools`
 
 ---
 
@@ -89,15 +53,6 @@ This is a great report that provides a thoughtful, detailed and very well resear
 
 ## 📅 2026-05-01
 
-### [免费AI开发5日速成课程](/entry/fjMcGsBd) 📄
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-01
-
-帮助从AI使用转向AI构建的5日邮件课程，涵盖Claude工具箱扩展，无编码要求，适合初学者，填补ChatGPT提示词使用与AI软件开发之间的知识鸿沟。
-
-`x` `ai-tools` `alliekmiller`
-
----
-
 ### [OpenAI DevDay门票抽奖](/entry/BVTltcYQ) 📄
 @@OpenAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-01
 
@@ -107,43 +62,7 @@ This is a great report that provides a thoughtful, detailed and very well resear
 
 ---
 
-### [MiniMax M2.7模型开源发布](/entry/KzFVoQ4F) 📄
-@@MiniMax_AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-01
-
-SWE-Pro性能达56.22%，Terminal Bench 2达57.0%的开源编码模型，模型权重公开但有商业使用限制，在HuggingFace平台可用。
-
-`x` `ai-tools` `MiniMax_AI`
-
----
-
-### [Gemini Embedding 2多模态模型](/entry/ivT6F9u6) 📄
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-01
-
-首个原生多模态嵌入模型，支持视频分析和视觉购物助手构建，已对公众开放使用，为多模态应用开发提供基础技术支持。
-
-`x` `ai-tools` `GoogleAI`
-
----
-
-### [Gemini 3 Flash视觉代理功能](/entry/5sBgMACR) 📄
-@@realmadhuguru · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-01
-
-Gemini 3 Flash可通过代码完成视觉任务，能将表格转换为高质量图表，支持信息图表分析和边界框绘制，扩展AI在视觉处理领域的应用能力。
-
-`x` `ai-tools` `realmadhuguru`
-
----
-
 ## 📅 2026-04-30
-
-### [Karpathy 力荐：用 LLM 打造个人知识库，科研工作流新范式](/entry/88fb385b) 📄
-@@karpathy · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-30
-
-Karpathy 分享了一种高效利用 LLM 的方式——构建个人知识库（Knowledge Bases）。他指出，在 LLM Agent 时代，与其分享具体代码或应用，不如直接分享「创意文件」（Idea File），让 AI 帮你整理、检索和加工研究材料。这种方法将大量 token 消耗从代码操作转向知识操作，大幅提升信息消化效率。适合研究者、知识工作者和需要管理大量文献资料的人群。
-
-`x` `workflow`
-
----
 
 ### [Greg Brockman 实测：GPT-5.5 + Image Gen 是 App 开发最佳组合](/entry/755b41be) 📄
 @@gdb · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-30
@@ -154,21 +73,21 @@ OpenAI 总裁 Greg Brockman 亲自实测后发现，GPT-5.5 配合 GPT-Image-2 �
 
 ---
 
-### [MiniMax M2.7 开源了吗？OSI 标准 vs 实际许可的深度分析](/entry/f2b1bd7f) 📄
-@@MiniMax_AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-30
+### [Karpathy 力荐：用 LLM 打造个人知识库，科研工作流新范式](/entry/88fb385b) 📄
+@@karpathy · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-30
 
-MiniMax 官方主动说明 M2.7 模型权重虽公开可下载，但其许可协议禁止商业使用，未经授权不得商用。这并不满足开源倡议组织（OSI）对开源的定义——OSI 要求必须允许商业使用。此条对想基于 M2.7 做商业应用或二次开发的团队有重要参考价值，也提醒开发者注意许可证边界，避免法律风险。
+Karpathy 分享了一种高效利用 LLM 的方式——构建个人知识库（Knowledge Bases）。他指出，在 LLM Agent 时代，与其分享具体代码或应用，不如直接分享「创意文件」（Idea File），让 AI 帮你整理、检索和加工研究材料。这种方法将大量 token 消耗从代码操作转向知识操作，大幅提升信息消化效率。适合研究者、知识工作者和需要管理大量文献资料的人群。
 
 `x` `workflow`
 
 ---
 
-### [吴恩达深度复盘：AI 原生工程团队与传统团队的差异全解析](/entry/065af9e7) 📄
-@@AndrewYNg · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-30
+### [Mistral Medium 3.5 来袭：128B 单一稠密模型整合推理与编程，SWEBench 77.6%](/entry/75fbd705) 📄
+@@NVIDIAAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-30
 
-吴恩达系统性分析了 AI 原生工程团队与传统的根本区别。显性差异是 AI 原生团队用 Coding Agent 更快构建产品，隐性差异在于整个工作方式的重构——优秀工程师角色转变、团队协作模式更新等。他指出，很多传统工程思维在 AI 原生团队中不再适用。此条对想转型或理解 AI 原生开发的团队负责人极有价值。
+Mistral 推出 Medium 3.5，特点是将指令跟随、推理和编程能力整合到单一 128B 稠密模型中，上下文窗口达 256k，推理 effort 可配置。在 SWE-Bench Verified 上取得 77.6% 的成绩，由 NVIDIA 官方推荐跑在 NVIDIA 平台上。此版本标志着稠密模型在保持易部署优势的同时，正在缩小与混合专家架构的能力差距，对需要本地部署或高效推理场景的团队值得关注。
 
-`x` `workflow`
+`x` `ai-tools`
 
 ---
 
@@ -181,12 +100,12 @@ Sam Altman 发推透露 GPT-5.5 的发布时间选在了 5 月 5 日下午 5:55�
 
 ---
 
-### [Mistral Medium 3.5 来袭：128B 单一稠密模型整合推理与编程，SWEBench 77.6%](/entry/75fbd705) 📄
-@@NVIDIAAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-30
+### [吴恩达深度复盘：AI 原生工程团队与传统团队的差异全解析](/entry/065af9e7) 📄
+@@AndrewYNg · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-30
 
-Mistral 推出 Medium 3.5，特点是将指令跟随、推理和编程能力整合到单一 128B 稠密模型中，上下文窗口达 256k，推理 effort 可配置。在 SWE-Bench Verified 上取得 77.6% 的成绩，由 NVIDIA 官方推荐跑在 NVIDIA 平台上。此版本标志着稠密模型在保持易部署优势的同时，正在缩小与混合专家架构的能力差距，对需要本地部署或高效推理场景的团队值得关注。
+吴恩达系统性分析了 AI 原生工程团队与传统的根本区别。显性差异是 AI 原生团队用 Coding Agent 更快构建产品，隐性差异在于整个工作方式的重构——优秀工程师角色转变、团队协作模式更新等。他指出，很多传统工程思维在 AI 原生团队中不再适用。此条对想转型或理解 AI 原生开发的团队负责人极有价值。
 
-`x` `ai-tools`
+`x` `workflow`
 
 ---
 
@@ -212,42 +131,6 @@ Glean 推出 Waldo，首个 Agentic 搜索模型，基于 NVIDIA Nemotron 3 Nano
 
 ---
 
-### [gogcli 0.14.0：命令行管理 Google 数据全套工具，含加密备份和 Gmail 镜像](/entry/4a2b6070) 📄
-@@steipete · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-28
-
-Peter Steinberger 发布 gogcli v0.14.0，一款命令行工具，可管理 Google 数据全套操作：本地加密 Git 备份、Gmail 和 Drive 可续传导出、Markdown Gmail 镜像、vCard 联系人导出、Slides 文本/模板编辑，以及 Auth 和 keyring 诊断。所有数据本地处理不过第三方，隐私安全，适合技术人员管理个人云数据。
-
-`x` `ai-tools` `cli` `google` `backup`
-
----
-
-### [Farzapedia：用 LLM 把日记笔记变成个人维基百科，400 文章自动生成](/entry/041a666b) 📄
-@@karpathy · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-28
-
-Farza 将 2500 条日记、Apple Notes 和 iMessage 对话输入 LLM，自动生成 400 多篇个人维基百科文章。Karpathy 点评此方法在个性化上优于通用 AI 范式：记忆是显式的、结构化的、可复用的。适合想让 AI 真正了解自己的深度用户，可作为个人记忆层和工作流的参考架构。
-
-`x` `workflow` `personal-wiki` `llm` `memory`
-
----
-
-### [神经符号 AI 解 RAG 规模化失效：Ontology 加确定性层加 LLM 解释层](/entry/698e1058) 📄
-@@DeepLearn007 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-28
-
-内容指出语义相似度等于向量在规模化时失效（语义坍塌），提出神经符号 AI 三层架构：Ontology 提供结构化知识表示、确定性层保证事实正确性、LLM 负责自然语言解释而非事实本身。斯坦福研究证明 naive vector-only RAG 在知识库超过临界规模后崩溃。该方法适合构建企业级知识问答系统，可显著提升准确率。
-
-`x` `workflow` `rag` `neurosymbolic` `ai-engineering`
-
----
-
-### [Allie K. Miller 推出免费 5 天课程：AI Fast Track](/entry/8ed12140) 📄
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-28
-
-Allie K. Miller 宣布推出「AI Fast Track」免费 5 天邮件课程，面向想超越 ChatGPT 简单调用的用户。课程无需编程基础，教授如何将 Claude 加入个人工具箱，构建属于自己的 AI 软件、自动化脚本和实用工具。区别于单纯使用 AI 的粘贴复制，该课程强调亲手构建，填补了广大用户「会用 AI」到「会用 AI 构建」之间的鸿沟。对于想系统性提升 AI 生产力的个人用户，这是目前少有的免费高质量入门路径。
-
-`ai-tools` `learning` `workflow`
-
----
-
 ### [Karpathy：本地 Demo 到线上产品，DevOps 是最难的部分](/entry/5c7a3ee4) 📄
 @@karpathy · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-28
 
@@ -257,39 +140,21 @@ Karpathy 在回顾 MenuGen 开发历程时指出：构建一个真正上线的 A
 
 ---
 
-### [NotebookLM 来源自动标签与分类：5 个以上文档智能整理](/entry/7b476b62) 📄
-@@joshwoodward · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-28
+### [gogcli 0.14.0：命令行管理 Google 数据全套工具，含加密备份和 Gmail 镜像](/entry/4a2b6070) 📄
+@@steipete · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-28
 
-Google NotebookLM 新增来源自动标签与分类功能，当用户有 5 个以上来源时自动打标签和归类，减少滚动时间，提升学习和研究效率。支持重命名、重组和 emoji 自定义。该功能解决了研究材料多了反而混乱的核心痛点，对学术研究和内容创作者特别有用，可作为信息管理流程的一部分。
+Peter Steinberger 发布 gogcli v0.14.0，一款命令行工具，可管理 Google 数据全套操作：本地加密 Git 备份、Gmail 和 Drive 可续传导出、Markdown Gmail 镜像、vCard 联系人导出、Slides 文本/模板编辑，以及 Auth 和 keyring 诊断。所有数据本地处理不过第三方，隐私安全，适合技术人员管理个人云数据。
 
-`x` `ai-tools` `notebooklm` `research` `workflow`
-
----
-
-### [Gemini 3.1 Flash TTS：支持自然语言音频标签控制的语音合成 API](/entry/03cc2706) 📄
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-28
-
-Google 发布 Gemini 3.1 Flash TTS，旗下最具表现力和可控性的文本转语音模型，亮点是支持音频标签（Audio Tags）——用自然语言命令嵌入文本，直接控制语速、风格、停顿和表达方式，无需调参。兼容 API 方式调用，适合构建有声内容、语音助手、无障碍应用等场景，是目前最具可控性的 TTS 方案之一。
-
-`x` `ai-tools` `tts` `google` `api`
+`x` `ai-tools` `cli` `google` `backup`
 
 ---
 
-### [Google 发布 Gemini 3.1 Flash TTS：支持自然语言音频标签控制](/entry/ea4ab864) 📄
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-28
+### [神经符号 AI 解 RAG 规模化失效：Ontology 加确定性层加 LLM 解释层](/entry/698e1058) 📄
+@@DeepLearn007 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-28
 
-Google 发布了 Gemini 3.1 Flash TTS，号称旗下表现力最强、控制最精细的语音合成模型。其核心亮点是引入了「音频标签」（Audio Tags）机制——可以用自然语言描述来引导语音的风格、节奏和表达方式，比如「用兴奋的语气」「稍微放慢一些」「带点犹豫」。这对需要为 AI 对话、数字人、有声内容生成个性化语音的开发者来说是实打实的新能力，也是目前 TTS 领域少见的控制粒度突破。
+内容指出语义相似度等于向量在规模化时失效（语义坍塌），提出神经符号 AI 三层架构：Ontology 提供结构化知识表示、确定性层保证事实正确性、LLM 负责自然语言解释而非事实本身。斯坦福研究证明 naive vector-only RAG 在知识库超过临界规模后崩溃。该方法适合构建企业级知识问答系统，可显著提升准确率。
 
-`google` `tts` `audio` `ai-tools`
-
----
-
-### [RAG 在大规模场景下失效：神经符号 AI 是未来方向](/entry/cc746f17) 📄
-@@DeepLearn007 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-28
-
-该推文揭示了一个被广泛忽视的 RAG 失效场景：当知识库规模达到临界值，向量相似度搜索会遭遇「语义崩溃」（Semantic Collapse）——语义相近的无关文档被错误召回，真正相关的内容反而被淹没。引用 Stanford 研究后，作者提出未来属于「神经符号 AI」：用本体论处理结构化知识，用确定性层保障事实准确性，用 LLM 做自然语言解释而非直接做检索。
-
-`rag` `ai-tools` `workflow`
+`x` `workflow` `rag` `neurosymbolic` `ai-engineering`
 
 ---
 
@@ -320,17 +185,17 @@ Anthropic 在发布 81,000 人用户调研后，进一步发布了关于这些�
 
 ---
 
-### [为 Agent 设计产品【译】](/entry/88522d6077) 📄
-@Teddy Riker · ⭐⭐⭐3 🇨🇳 · 2026-04-27
-
-UI 并没有死，但软件交互的 80% 正在转向 Agent。产品团队需要像过去为人设计界面一样，认真为 Agent 设计工具、上下文和反馈闭环。
-
----
-
 ### [【译】关于 Claude Design 的一些想法和感受 · Sam Henri Gold](/entry/f8f64796ed) 📄
 @Sam Henri Gold · ⭐⭐⭐3 🇨🇳 · 2026-04-27
 
 设计师 Sam Henri Gold 体验 Claude Design 后撰文：Figma 花十年构建的封闭设计系统，在 AI 智能体时代正变成负担。LLM 用代码训练，学不会 Figma 的专有格式，&quot;单一事实来源&quot;将回归代码。
+
+---
+
+### [为 Agent 设计产品【译】](/entry/88522d6077) 📄
+@Teddy Riker · ⭐⭐⭐3 🇨🇳 · 2026-04-27
+
+UI 并没有死，但软件交互的 80% 正在转向 Agent。产品团队需要像过去为人设计界面一样，认真为 Agent 设计工具、上下文和反馈闭环。
 
 ---
 
@@ -354,21 +219,21 @@ wacrawl 0.2.0 新增加密 Git 备份功能：wacrawl backup push 将 WhatsApp D
 
 ---
 
-### [X推文流量监控插件和Markdown复制功能](https://github.com/Icy-Cat/x-viral)
-@IcyCat · ⭐⭐⭐3 🇨🇳 · 2026-04-26
-
-IcyCat 开发了一款 Chrome 浏览器插件，为 X/Twitter 推文添加浏览量流速监控和 Markdown 一键复制功能。流速监控以简单方式计算推文的传播速度，Markdown 复制功能方便将推文内容直接发送给 AI 进行总结。插件已在 GitHub 开源，正等待 Chrome Web Store 审核。
-
-`x-twitter` `chrome-extension` `analytics` `markdown` `viral-tracker`
-
----
-
 ### [Xcode-Build-Optimization-Agent-Skill](https://github.com/AvdLee/Xcode-Build-Optimization-Agent-Skill) ⭐1,019
 @AvdLee · ⭐⭐⭐3 🌐 · 2026-04-26
 
 Xcode-Build-Optimization-Agent-Skill 是一款帮助优化 Xcode 增量编译和干净构建的 Agent Skill，通过运行基准测试并调整构建设置来缩短编译时间。推荐 iOS 研发人员使用，可直接集成到编程代理的工作流中。GitHub 1001 Stars。
 
 `xcode` `build-optimization` `apple` `ios` `agent-skill`
+
+---
+
+### [X推文流量监控插件和Markdown复制功能](https://github.com/Icy-Cat/x-viral)
+@IcyCat · ⭐⭐⭐3 🇨🇳 · 2026-04-26
+
+IcyCat 开发了一款 Chrome 浏览器插件，为 X/Twitter 推文添加浏览量流速监控和 Markdown 一键复制功能。流速监控以简单方式计算推文的传播速度，Markdown 复制功能方便将推文内容直接发送给 AI 进行总结。插件已在 GitHub 开源，正等待 Chrome Web Store 审核。
+
+`x-twitter` `chrome-extension` `analytics` `markdown` `viral-tracker`
 
 ---
 
@@ -383,15 +248,6 @@ acpx（openclaw 出品的 agent 控制工具）发布 0.6.0 版本，带来多�
 
 ---
 
-### [Qwen-Image 2.0 Pro - 全球第九文生图模型](/entry/fb59b6d6) 📄
-@@Alibaba_Qwen · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-25
-
-全球第九的文生图模型性能，支持多语言文本渲染，在多种风格间保持一致性。
-
-`x` `ai-tools` `image-generation` `qwen`
-
----
-
 ### [Qwen-Image-2.0-Pro 发布，Text-to-Image 排名进入全球前 10](/entry/i9j0k1l2) 📄
 @@Alibaba_Qwen · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-25
 
@@ -401,43 +257,7 @@ Qwen 图像模型升级到 2.0 Pro，图像质量、多语言文字渲染和指�
 
 ---
 
-### [NotebookLM 新功能：来源超过 5 个时自动标签与分类](/entry/y5z6a7b8) 📄
-@@joshwoodward · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-25
-
-NotebookLM 推出自动标签和分类来源功能，上传 5 个以上来源时自动整理。支持重命名、重组、添加 emoji 定制分类，界面友好。减少在大量来源中反复翻找的时间，直接提升学习和研究效率。无需付费，免费功能，对知识工作者和研究者很有帮助。解决了在大量来源中整理材料的核心痛点，把整理时间省下来用于真正思考，适合做文献综述或深度研究的用户。
-
-`x` `ai-tools` `notebooklm` `research`
-
----
-
-### [NotebookLM 新功能：5+ 来源时自动标签分类](/entry/c0ead3bf) 📄
-@@joshwoodward · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-25
-
-NotebookLM 新增自动标签与分类功能：当来源数量达到 5 个及以上时，系统自动为每个来源添加标签和类别，大幅减少研究初期手动整理的时间。支持重命名、重新排序和 emoji 个性化，让研究者能把精力聚焦在阅读和思考而非来源管理上。
-
-`x` `ai-tools` `notebooklm` `research` `workflow`
-
----
-
 ## 📅 2026-04-24
-
-### [Allie Miller：免费5天课程，从用AI升级到构建AI产品](/entry/aafn2401) 📄
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-24
-
-Allie Miller推出免费5天邮件课程AI Fast Track，专为非技术背景用户设计，无需编码。课程核心区分单纯使用AI（复制粘贴Prompt）和用AI构建产品/自动化/工具——后者才是真正的AI能力杠杆。内容覆盖从基础到用Claude扩展AI工具箱的完整路径。这是让普通人从AI消费者转变为AI建设者的实用路线图。
-
-`x` `ai-tools` `workflow` `course`
-
----
-
-### [NotebookLM 推出来源自动标签与分类功能](/entry/91fb7dea) 📄
-@@joshwoodward · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
-
-Google NotebookLM 推出来源（Sources）自动标签与分类功能，当文献库有 5 个以上来源时自动激活。系统根据内容语义自动归类文献、打标签，用户可以重命名、重新组织并使用 emoji 自定义样式。这个功能极大提升了研究场景下的笔记整理效率——过去需要手动为每篇文献打标签，现在 AI 自动完成初筛。特别适合做文献综述、深度研究的知识工作者。
-
-`notebooklm` `research` `note-taking` `google`
-
----
 
 ### [GPT-5.5 在 Codex 中端到端生成 Excel 和 PPT](/entry/033c1c89) 📄
 @@gdb · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
@@ -445,15 +265,6 @@ Google NotebookLM 推出来源（Sources）自动标签与分类功能，当文�
 Greg Brockman 转发了 GPT-5.5 在 Codex 模式下端到端生成完整 Excel 工作簿和 PPT 的能力。Derrick Choi 日常大量涉及电子表格和幻灯片，GPT-5.5 现在能直接生成带公式、格式和图表的 Excel 文件，以及完整演示文稿。这标志着 LLM 的生产力范围正从代码向办公全家桶扩张——不写一行代码也能用自然语言生成生产级文档。
 
 `gpt-5` `codex` `excel` `spreadsheet` `automation`
-
----
-
-### [Kimi K2.6 登顶 Vision 和 Document Arena 开源榜](/entry/54045e17) 📄
-@@Kimi_Moonshot · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
-
-Kimi K2.6 在 Vision Arena 排名总榜第 15（开源第一），在 Document Arena 排名总榜第 8（与闭源模型持平），从 K2.5 到 K2.6 有明显提升。这是国产开源多模态模型的又一次突破，在视觉理解和文档理解两个实用场景上均达到 SOTA 开源水平。对于需要强大视觉文档理解能力、又想本地部署或使用开源方案的产品团队，K2.6 值得关注。
-
-`kimi` `vision` `document` `arena` `open-model`
 
 ---
 
@@ -466,6 +277,24 @@ OpenAI联合创始人Greg Brockman定义GPT-5.5为一种新的智能类别：在
 
 ---
 
+### [Kimi K2.6 登顶 Vision 和 Document Arena 开源榜](/entry/54045e17) 📄
+@@Kimi_Moonshot · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
+
+Kimi K2.6 在 Vision Arena 排名总榜第 15（开源第一），在 Document Arena 排名总榜第 8（与闭源模型持平），从 K2.5 到 K2.6 有明显提升。这是国产开源多模态模型的又一次突破，在视觉理解和文档理解两个实用场景上均达到 SOTA 开源水平。对于需要强大视觉文档理解能力、又想本地部署或使用开源方案的产品团队，K2.6 值得关注。
+
+`kimi` `vision` `document` `arena` `open-model`
+
+---
+
+### [NotebookLM 推出来源自动标签与分类功能](/entry/91fb7dea) 📄
+@@joshwoodward · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
+
+Google NotebookLM 推出来源（Sources）自动标签与分类功能，当文献库有 5 个以上来源时自动激活。系统根据内容语义自动归类文献、打标签，用户可以重命名、重新组织并使用 emoji 自定义样式。这个功能极大提升了研究场景下的笔记整理效率——过去需要手动为每篇文献打标签，现在 AI 自动完成初筛。特别适合做文献综述、深度研究的知识工作者。
+
+`notebooklm` `research` `note-taking` `google`
+
+---
+
 ### [Peter Yang x Mercury VP：如何为Agent设计API和MCP实战复盘](/entry/aafn2403) 📄
 @@petergyang · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
 
@@ -475,43 +304,7 @@ Peter Yang与Mercury VP @rywiggs合作推出关于Agent API和MCP设计的深度
 
 ---
 
-### [Andrej Karpathy：Farzapedia用LLM把个人数据变成个人维基](/entry/aafn2404) 📄
-@@karpathy · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
-
-Andrej Karpathy推荐Farzapedia方案：用LLM将2500条日记、Apple Notes、iMessage对话转化为400篇结构化个人Wikipedia文章，涵盖朋友、创业项目、研究领域、喜爱的动漫及其影响。相比AI越用越懂你的隐性记忆，Farza的显式知识库方案更透明、可控、可复用。Karpathy高度评价这是Wiki LLM思路的最佳实践，为个人AI助手个性化提供了新范式。
-
-`x` `ai-tools` `personal-knowledge` `llm`
-
----
-
-### [Google DeepMind：Gemini 3.1 Flash TTS用自然语言控制语音风格](/entry/aafn2405) 📄
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
-
-Google DeepMind发布Gemini 3.1 Flash TTS，号称迄今最具表现力和可控性的TTS模型。核心创新是Audio Tags——用自然语言命令嵌入音频，可控制语速、语调、情感表达。这意味着TTS从选择固定音色升级为用Prompt控制声音，是AI语音交互的范式级进步。适用场景：语音助手、有声内容创作、无障碍工具。
-
-`x` `ai-tools` `tts` `gemini` `google`
-
----
-
-### [Anthropic：81000名用户调研揭示人们对AI的真实经济期望与担忧](/entry/aafn2406) 📄
-@@AnthropicAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-24
-
-Anthropic发布史上最大规模的AI用户定性调研结果：81000人参与，揭示了人们对AI经济发展的具体期望与结构性担忧。调研显示用户对AI的期望不仅是完成任务，更涉及经济安全感、职业影响等深层问题。Anthropic基于此发布了81K Economics研究，为AI产品团队提供了来自真实用户需求侧的结构性参考，而非凭猜测做产品决策。
-
-`x` `workflow` `research` `anthropic` `user-study`
-
----
-
 ## 📅 2026-04-23
-
-### [Qwen-Image-2.0-Pro：开源图像生成的新里程碑](/entry/7b22ae74) 📄
-@@Alibaba_Qwen · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-23
-
-阿里发布 Qwen-Image-2.0-Pro 图像生成模型，在 Text-to-Image Arena 全球排名第 9，肖像照第 6，真实感/电影感图像第 7。核心提升包括图像质量、多语言文字渲染和指令遵循能力，同时保持风格一致性。是目前开源模型中最接近 Midjourney 实用性的选项，支持本地部署。
-
-`x` `ai-tools` `image-generation` `qwen` `open-source`
-
----
 
 ### [Qwen 3.6 27B 模型登陆 Ollama](/entry/4c1cb957) 📄
 @@Alibaba_Qwen · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-23
@@ -524,12 +317,12 @@ Qwen 3.6 27B 参数模型已在 Ollama 平台上线，同时支持 OpenClaw（op
 
 ## 📅 2026-04-22
 
-### [用 MCP + Claude Code 搭建 AI Agent 工作流实战](/entry/2aef58dd) 📄
+### [16 分钟掌握 Claude Design 全套用法：视频/幻灯/网站/App/设计系统](/entry/b7r4m2n8) 📄
 @@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-22
 
-Peter Yang 与 Mercury VP of Product Ryan Wiggins 深度对谈，主题是如何为 AI Agent 设计出色的 API 与 MCP（Model Context Protocol）。提供完整实战演示：25 分钟用 Claude Code 构建 Second Brain。MCP 正成为 Agent 间通信的事实标准，提前掌握即获得 AI 工作流下一代基础设施的入场券。
+Peter Yang 发布 Claude Design 实操教程 live demo，在 16 分钟内演示了用 Claude Design 创建视频、幻灯片、网站、App 乃至完整设计系统的完整流程。涵盖从概念到可交付物的每一步，展示 Claude 在多模态创意工作中的实际能力边界。视频为实时演示，可直接参考其操作路径用于自己的项目。
 
-`x` `ai-tools` `mcp` `claude-code` `agent`
+`x` `ai-tools` `claude` `design` `tutorial`
 
 ---
 
@@ -542,30 +335,12 @@ Allie K. Miller 推出免费 5 天邮件课程「AI Fast Track」，核心主张
 
 ---
 
-### [16 分钟掌握 Claude Design 全套用法：视频/幻灯/网站/App/设计系统](/entry/b7r4m2n8) 📄
+### [用 MCP + Claude Code 搭建 AI Agent 工作流实战](/entry/2aef58dd) 📄
 @@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-22
 
-Peter Yang 发布 Claude Design 实操教程 live demo，在 16 分钟内演示了用 Claude Design 创建视频、幻灯片、网站、App 乃至完整设计系统的完整流程。涵盖从概念到可交付物的每一步，展示 Claude 在多模态创意工作中的实际能力边界。视频为实时演示，可直接参考其操作路径用于自己的项目。
+Peter Yang 与 Mercury VP of Product Ryan Wiggins 深度对谈，主题是如何为 AI Agent 设计出色的 API 与 MCP（Model Context Protocol）。提供完整实战演示：25 分钟用 Claude Code 构建 Second Brain。MCP 正成为 Agent 间通信的事实标准，提前掌握即获得 AI 工作流下一代基础设施的入场券。
 
-`x` `ai-tools` `claude` `design` `tutorial`
-
----
-
-### [Farzapedia：用日记+笔记训练个人 Wikipedia，LLM 个性化的最佳实践](/entry/c9x1k5t3) 📄
-@@karpathy · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-22
-
-Andrej Karpathy 转发并点评 Farzapedia 项目——将 2500 条日记、Apple Notes 和 iMessage 对话输入 LLM，生成 400 篇个人 Wikipedia 条目，涵盖朋友、创业项目、研究领域甚至喜欢的动漫及其影响。Karpathy 指出这种方法相比「用越多 AI 越强」的传统范式，优势在于：记忆 artifact 是显式的、可审查的，个性化更精准。可作为构建个人第二大脑的参考架构。
-
-`x` `workflow` `llm` `personal-knowledge` `karpathy`
-
----
-
-### [Gemini 3.1 Flash TTS 发布：带 Audio Tags 的最可控语音合成](/entry/d4w8q6m1) 📄
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-22
-
-Google AI 推出 Gemini 3.1 Flash TTS，号称迄今表现力最强、可控性最高的语音合成模型。核心亮点是 Audio Tags（音频标签）功能：用自然语言命令嵌入文本，即可精准控制语速、语调、停顿和表达风格，无需传统 SSML 标记，适合做播客配音、有声书和语音助手场景。已在 Google AI Studio 和 Vertex AI 上线，开发者可直接调用。
-
-`x` `ai-tools` `gemini` `tts` `audio`
+`x` `ai-tools` `mcp` `claude-code` `agent`
 
 ---
 
@@ -587,45 +362,7 @@ Thomas Wolf 详解 TRL 库新增的 AsyncGRPO 功能，解决了训练前向传�
 
 ---
 
-## 📅 2026-04-19
-
-### [Codex：用纯自然语言构建 Web 应用和小游戏](/entry/d91e9122) 📄
-@@gdb · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-19
-
-Greg Brockman 展示 Codex 全新用法：完全用自然语言构建 Web 应用和小游戏，无需传统编程。案例中游戏内设计和建筑建模都在 Codex 内完成，AI 直接生成可运行代码。这代表了 AI 编程助手向直接产出可运行产品的进化，显著降低数字产品创作门槛。
-
-`x` `ai-tools` `codex` `webdev` `prototyping`
-
----
-
-### [用 Codex 自然语言构建 Web 应用和游戏：Greg Brockman 展示新范式](/entry/e8180cd9) 📄
-@@gdb · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-19
-
-Greg Brockman 展示用 OpenAI Codex 完全通过自然语言构建 Web 应用和游戏的新方式。Nicolas Zullo 的实操演示中，游戏内置于 Codex，可使用 Codex 生成的工具进行建筑设计，并支持直接用自然语言提问修改代码。展示了 AI 编程助手从辅助工具向独立开发环境演进的趋势。
-
-`openai` `codex` `webapp` `game` `nlp`
-
----
-
 ## 📅 2026-04-18
-
-### [Claude Design 16 分钟实战：用自然语言做视频/网站/App/设计系统](/entry/d99d88cf) 📄
-@@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-18
-
-Peter Yang 发布 16 分钟 Claude Design 实战教程，Live Demo 展示用自然语言创建视频、幻灯片、网站、移动 App 和设计系统。全部通过提示词驱动，无需编码，可快速生成完整产品原型。适合设计师、产品经理、创作者验证创意。
-
-`x` `workflow` `claude` `design` `tutorial`
-
----
-
-### [16 分钟精通 Claude Design：视频/幻灯片/网站/应用/设计系统全搞定](/entry/e06b31bc) 📄
-@@petergyang · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-18
-
-Peter Yang 发布 Claude Design 实战教程，16 分钟演示如何用 AI 设计工具创建视频、幻灯片、网站、应用乃至完整设计系统。教程配 live demo，展示了从零到完整项目的完整工作流。Claude Design 上手快、功能覆盖广，能大幅提升创意执行效率。附 YouTube 教程链接和实际演示网站。
-
-`claude` `design` `tutorial` `video`
-
----
 
 ### [Greg Brockman 演示：自然语言在 Codex 内完成 WebApp 和游戏开发](/entry/2e8c5f3a) 📄
 @@gdb · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-18
@@ -660,15 +397,6 @@ Anthropic 发布 Claude Design，基于 Claude Opus 4.7，实现描述到可交�
 @@geoffreyhinton · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-17
 
 This is a great report that provides a thoughtful, detailed and very well researched description of the risks of AI. It is essential reading for anyone who wants to write or talk about AI risks. Qu...
-
-`x` `ai-tools` `ai-news` `daily-digest`
-
----
-
-### [Movement Matters – A Turing Test for Robot Inte...](/entry/4409adc4) 📄
-@@petitegeek · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-17
-
-Movement Matters – A Turing Test for Robot Interaction 2.6K ](
 
 `x` `ai-tools` `ai-news` `daily-digest`
 
@@ -721,24 +449,6 @@ wsl8297 推荐 12 个 GitHub 项目用于配置 Claude Code: LightRAG(知识图�
 
 ## 📅 2026-04-16
 
-### [Google 推出 Gemini 3.1 Flash TTS：音频标签控制语音风格与节奏](/entry/e5f6g7h8) 📄
-@@GoogleAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-16
-
-Gemini 3.1 Flash TTS 是 Google 迄今为止表现力最强、可控性最高的语音合成模型。核心新功能 Audio Tags：用自然语言命令嵌入文本来引导语音风格、节奏和表达方式。可在 Google AI Studio 或 Vertex AI 直接调用，适合有声内容、语音助手、播客类 AI 应用。音频标签让语音合成从调参数变成写指令，大幅降低了 AI 语音定制门槛。
-
-`x` `ai-tools` `tts` `google`
-
----
-
-### [Gemini 3.1 Flash TTS 上线 Google Vids：脚本转专业配音](/entry/8cca334f) 📄
-@@GoogleAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-16
-
-Google AI 发布 Gemini 3.1 Flash TTS，已登陆 Google Vids 并可通过 Gemini API 和 AI Studio 预览。该技术可将文稿脚本转换为 studio 品质的专业配音，适用于演讲、产品介绍、个人视频创作等场景，无需专业录音设备，内容创作者可直接受益。
-
-`x` `ai-tools` `gemini` `tts` `video`
-
----
-
 ### [Gemini 3.1 Flash TTS 登陆 Google Vids，支持一键脚本转专业旁白](/entry/95bb1d33) 📄
 @@GoogleAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-16
 
@@ -748,30 +458,12 @@ Google AI 宣布 Gemini 3.1 Flash TTS 已在 Google Vids 中推送，同时通�
 
 ---
 
-### [Gemini 3.1 Flash TTS - 最新的文本转语音模型](/entry/dc0bddae) 📄
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-16
+### [Google 推出 Gemini 3.1 Flash TTS：音频标签控制语音风格与节奏](/entry/e5f6g7h8) 📄
+@@GoogleAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-16
 
-最富表现力和可控性的TTS模型，支持音频标签指导语音风格，通过自然语言命令控制语音节奏。
+Gemini 3.1 Flash TTS 是 Google 迄今为止表现力最强、可控性最高的语音合成模型。核心新功能 Audio Tags：用自然语言命令嵌入文本来引导语音风格、节奏和表达方式。可在 Google AI Studio 或 Vertex AI 直接调用，适合有声内容、语音助手、播客类 AI 应用。音频标签让语音合成从调参数变成写指令，大幅降低了 AI 语音定制门槛。
 
-`x` `ai-tools` `tts` `gemini`
-
----
-
-### [Gemini 3.1 Flash TTS：用自然语言精准控制语音风格](/entry/b10e5003) 📄
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-16
-
-Google 发布 Gemini 3.1 Flash TTS，称其迄今表现最流畅、可控性最强的 TTS 模型。核心创新是音频标签（Audio Tags）——用自然语言指令控制语速、语调、情感，无需声学参数调节。有声书、播客配音、游戏语音等多个内容创作场景均可直接受益，大幅降低专业语音生成门槛。
-
-`x` `ai-tools` `tts` `gemini` `content-creation`
-
----
-
-### [Gemini 3.1 Flash TTS 上线：脚本转工作室级配音，已进入 Google Vids 预览](/entry/89554ad8) 📄
-@@GoogleAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-16
-
-Google AI 推出 Gemini 3.1 Flash TTS（文本转语音）功能，主打表达性强的下一代 AI 语音合成。目前已在 Google Vids 中集成，同时通过 Gemini API 和 Google AI Studio 提供预览。适用于制作演示文稿、配音旁白、个人项目视频制作等场景，可将文字脚本直接转为专业级语音。
-
-`google` `gemini` `tts` `speech` `video`
+`x` `ai-tools` `tts` `google`
 
 ---
 
@@ -789,8 +481,7 @@ Anthropic 官方员工 Thariq 发布的产品使用指南，系统讲解 Claude 
 ### [2026 年，AI 编程 Agent 的真正分水岭——Harness 详解](/entry/89fa848ed0d4) 📄
 @Ai学习的老章 · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-14
 
-[Read in Cubox](https://cubox.pro/web/card/7443555361631504701)  
-[Read Original](https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&amp;mid=2649012185&amp;idx=1&amp;sn=e613849d8e706a95d4a3c292b5881a1e&amp;chksm=86dfe794b8bbe007e9e98feae10f476d336e026e8df0819088fa8639d3385dfe3ce872cacff2&amp;mpshare=
+Hashline 编辑格式证明：改 harness 不改模型，弱模型效果可翻十倍
 
 `harness-engineering` `oh-my-claudecode` `oh-my-pi` `hashline` `coding-agent`
 
@@ -802,16 +493,6 @@ Anthropic 官方员工 Thariq 发布的产品使用指南，系统讲解 Claude 
 这次 Claude Code 的泄露，让我们第一次比较完整地看到，这些模式在一个真实、大规模使用的 agent 里是怎么落地的。这样的窗口可能不会一直存在，但这些经验会留下来。
 
 `claude-code` `agentic-harness` `design-patterns` `coding-agent` `bilgin-lbryam`
-
----
-
-### [浏览器自动化：从GUI到OpenCLI](/entry/8ee8a8b72ffc) 📄
-@阿里妹 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-14
-
-[Read in Cubox](https://cubox.pro/web/card/7443547423802132834)  
-[Read Original](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&amp;mid=2247559535&amp;idx=1&amp;sn=8eb95438291e8594d674652f6bb7c1df&amp;chksm=e8fb4fcf80f86a815cc31cd017098a604bb2b948524d8652ee631027f8542d6de98f4e06f7d3&amp;mpshare=
-
-`browser-automation` `opencli` `api-mimicry` `agent-tooling` `web-scraping`
 
 ---
 
@@ -828,18 +509,34 @@ Anthropic 官方员工 Thariq 发布的产品使用指南，系统讲解 Claude 
 
 ---
 
-## 📅 2026-04-12
+### [浏览器自动化：从GUI到OpenCLI](/entry/8ee8a8b72ffc) 📄
+@阿里妹 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-14
 
-### [MiniMax M2.7 开源：SWE-Bench 56.22% / Terminal Bench 57.0%，权重已上线 Hugging Face](/entry/8c02b24d) 📄
-@@MiniMax_AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-12
+不点 GUI 按钮、直接复现底层 API，是 Agent 浏览器自动化的正确工程路径
 
-MiniMax 发布 M2.7 模型，权重已在 Hugging Face 开源，在 SWE-Bench（软件工程评测）上达 56.22%，Terminal Bench 达 57.0%，为同参数量中的领先水平。但需注意该模型采用特殊许可证，禁止商业无授权使用，不符合 OSI 开源定义。对于研究目的可直接使用，商业落地需申请授权。
-
-`minimax` `open-source` `model` `swe-bench`
+`browser-automation` `opencli` `api-mimicry` `agent-tooling` `web-scraping`
 
 ---
 
 ## 📅 2026-04-10
+
+### [GitHub - PacktPublishing/LLM-Engineers-Handbook: The LLM&#x27;s practical guide: From the fundamentals to...](/entry/oa7ahj95) ⭐4,958 📄
+⭐⭐⭐⭐4 🌐 · 2026-04-10
+
+Cubox 收藏: GitHub - PacktPublishing/LLM-Engineers-Handbook: T
+
+`llm` `[]` `prompt` `rag` `inference`
+
+---
+
+### [Anthropic 六层技术栈驱动 Claude Code 的统治地位](/entry/7nmmn49m) 📄
+⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
+
+深度解析Claude Code背后的六层架构：基座模型、开放协议(MCP)、共享运行时、能力系统和扩展框架。这种垂直整合（Anthropic控制从模型训练到终端工具的每一层）创造了竞争对手难以复制的复合优势。Claude Code从内部原型到最受欢迎的AI编程工具仅用不到一年，2025年单年发布176次更新，每天产生135,000个GitHub commits。理解这六个组件的架构关系是理解Claude Code领先优势的关键。
+
+`anthropic` `claude-code` `architecture` `tech-stack` `mcp`
+
+---
 
 ### [Claude Code 官方中文文档](/entry/xl381umc) 📄
 @Anthropic · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
@@ -857,30 +554,12 @@ Claude Code官方中文文档。Claude Code是由AI驱动的编码助手，可�
 
 ---
 
-### [Anthropic 六层技术栈驱动 Claude Code 的统治地位](/entry/7nmmn49m) 📄
-⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
+### [GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.](/entry/1bsbph2h) ⭐24,901 📄
+⭐⭐⭐3 🌐 · 2026-04-10
 
-深度解析Claude Code背后的六层架构：基座模型、开放协议(MCP)、共享运行时、能力系统和扩展框架。这种垂直整合（Anthropic控制从模型训练到终端工具的每一层）创造了竞争对手难以复制的复合优势。Claude Code从内部原型到最受欢迎的AI编程工具仅用不到一年，2025年单年发布176次更新，每天产生135,000个GitHub commits。理解这六个组件的架构关系是理解Claude Code领先优势的关键。
+# GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API. 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ...
 
-`anthropic` `claude-code` `architecture` `tech-stack` `mcp`
-
----
-
-### [GitHub - PacktPublishing/LLM-Engineers-Handbook: The LLM&#x27;s practical guide: From the fundamentals to...](/entry/oa7ahj95) ⭐4,958 📄
-⭐⭐⭐⭐4 🌐 · 2026-04-10
-
-# GitHub - PacktPublishing/LLM-Engineers-Handbook: The LLM&#x27;s practical guide: From the fundamentals to... The LLM&#x27;s practical guide: From the fundamentals to deploying advanced LLM and RAG apps to AWS using LLMOps best practices - PacktPublishing/LLM-Engineers-Handbook LLM Engineer&#x27;s Handbook: Maste...
-
-`llm` `[]` `prompt` `rag` `inference`
-
----
-
-### Claude Code 推荐 Skills 汇总
-⭐⭐⭐3 🇨🇳 · 2026-04-10
-
-Claude Code推荐Skills汇总整理。Skills是Claude Code中的可复用能力（SOP），存放于.claude/skills/目录。收集了社区和官方推荐的高质量Skills清单，涵盖翻译、代码审查、文档生成等常用场景。
-
-`claude-code` `skills` `recommended` `tools`
+`[]` `openai` `chatgpt`
 
 ---
 
@@ -893,12 +572,12 @@ Claude Code推荐Skills汇总整理。Skills是Claude Code中的可复用能力�
 
 ---
 
-### [GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.](/entry/1bsbph2h) ⭐24,901 📄
-⭐⭐⭐3 🌐 · 2026-04-10
+### Claude Code 推荐 Skills 汇总
+⭐⭐⭐3 🇨🇳 · 2026-04-10
 
-# GitHub - yetone/openai-translator: 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API. 基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ...
+Claude Code推荐Skills汇总整理。Skills是Claude Code中的可复用能力（SOP），存放于.claude/skills/目录。收集了社区和官方推荐的高质量Skills清单，涵盖翻译、代码审查、文档生成等常用场景。
 
-`[]` `openai` `chatgpt`
+`claude-code` `skills` `recommended` `tools`
 
 ---
 
@@ -913,30 +592,21 @@ Claude Code推荐Skills汇总整理。Skills是Claude Code中的可复用能力�
 
 ---
 
+### [open claude design开源：超95%还原度的逆向工程](/entry/05v1ff6t) 📄
+@Tom Huang · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-06
+
+open claude design 正式开源，浓缩和逆向所有 claude design 最先进的设计模板，还原度超过 95%。历时 72 小时，18700+ 行代码，30+ 设计 Skills，支持超过 71 套设计系统，兼容所有 code agent，包括 claude code、codex、openclaw 等。项目为 AI 编程代理提供了开箱即用的设计能力增强。
+
+`claude-design` `open-source` `design-system` `code-agent` `skills`
+
+---
+
 ### [CLAUDE CODE 橙皮书开源（75页）](/entry/x7fluovs) 📄
 @AlchainHust · ⭐⭐⭐3 🇨🇳 · 2026-04-06
 
 AI 进化论-花生开源的 75 页《CLAUDE CODE 橙皮书》实战手册，面向想用 AI 编程但不知道从哪开始的人。10 章内容覆盖：核心工作流（Plan/Auto 模式、权限管理）、CLAUDE.md 写法、Skills/Hooks/MCP 扩展能力、多 Agent 并行协作、Computer Use 和 Voice Mode、一章完整的从零到上线产品实战。信息源来自 Claude 官方文档、Boris Cherny 分享、吴恩达 Claude Code 课程及作者用 CC 做十几个产品的经验。
 
 `Claude Code` `橙皮书` `实战手册` `开源` `AI编程`
-
----
-
-### [oh my codex 使用教程](/entry/mpn920xb) 📄
-@oragnes · ⭐⭐⭐3 🇨🇳 · 2026-04-06
-
-介绍 oh-my-codex 工具，用于增强 OpenAI Codex 的长任务能力。安装命令 npm install -g @openai/codex oh-my-codex。核心命令：$deep-interview（澄清）、$ralplan（方案审批）、$ralph（推进执行）、$team 3:executor（并行执行）。亲测可有效处理长任务。
-
-`codex` `oh-my-codex` `coding-agent` `task-management`
-
----
-
-### [graphify — Claude Code 的图谱 Skill](/entry/j9u8xwq6) 📄
-@Geek Lite · ⭐⭐⭐3 🇨🇳 · 2026-04-06
-
-Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知识图谱。多模态提取：tree-sitter 解析代码、Claude vision 看图片、LLM 读 PDF。每条边标注 EXTRACTED/INFERRED/AMBIGUOUS 三种可信度，在 52 文件场景下实现 71.5x token 压缩率。输出支持交互式 HTML、Obsidian vault、可 Agent 读取的 wiki、持久化 JSON 跨 session 可查询。
-
-`Claude Code` `知识图谱` `Skill` `tree-sitter` `代码分析`
 
 ---
 
@@ -949,41 +619,59 @@ Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知�
 
 ---
 
+### [Codex最强实战课：2小时玩转Codex App+GPT-5.5](/entry/531a6shf) 📄
+@Dr. Moyu 摸鱼局长 · ⭐⭐⭐3 🇨🇳 · 2026-04-06
+
+不到 2 小时带你彻底玩转 Codex App + GPT-5.5 组合：技能和插件怎么用、自动化工作流如何搭建、多任务并行实战，全程手把手演示。教程覆盖 Codex 的核心功能，包括技能系统、插件机制和多任务并行处理，适合想快速掌握高效 Vibe Coding 方法的开发者。
+
+`codex` `gpt-5.5` `vibe-coding` `tutorial` `openai`
+
+---
+
+### [PPT Skills在Codex的优化：图片一键生成](/entry/pot4kbjx) 📄
+@歸藏(guizang.ai) · ⭐⭐⭐3 🇨🇳 · 2026-04-06
+
+歸藏优化了 Codex 中的 PPT Skills，实现了图片一键生成功能。能够调用 Codex 里的 GPT-Image-2 去生成图片，并为此做了专门的设计，支持生成独特风格的图片，根据内容生成不同类型，包括营造氛围的人文纪实图片（类似胶片机拍摄效果）。
+
+`codex` `ppt` `image-generation` `skills` `productivity`
+
+---
+
+### [graphify — Claude Code 的图谱 Skill](/entry/j9u8xwq6) 📄
+@Geek Lite · ⭐⭐⭐3 🇨🇳 · 2026-04-06
+
+Claude Code 的图谱 Skill，支持将代码、论文、图片自动生成知识图谱。多模态提取：tree-sitter 解析代码、Claude vision 看图片、LLM 读 PDF。每条边标注 EXTRACTED/INFERRED/AMBIGUOUS 三种可信度，在 52 文件场景下实现 71.5x token 压缩率。输出支持交互式 HTML、Obsidian vault、可 Agent 读取的 wiki、持久化 JSON 跨 session 可查询。
+
+`Claude Code` `知识图谱` `Skill` `tree-sitter` `代码分析`
+
+---
+
+### [oh my codex 使用教程](/entry/mpn920xb) 📄
+@oragnes · ⭐⭐⭐3 🇨🇳 · 2026-04-06
+
+介绍 oh-my-codex 工具，用于增强 OpenAI Codex 的长任务能力。安装命令 npm install -g @openai/codex oh-my-codex。核心命令：$deep-interview（澄清）、$ralplan（方案审批）、$ralph（推进执行）、$team 3:executor（并行执行）。亲测可有效处理长任务。
+
+`codex` `oh-my-codex` `coding-agent` `task-management`
+
+---
+
+### [replit slides设计技能模板：0限制完全本地设计Agent](/entry/h29axr7g) 📄
+@Tom Huang · ⭐⭐⭐3 🇨🇳 · 2026-04-06
+
+开源了 replit slides 的全套设计 skills 模板，提供 8 套 replit 样式（helix / holm / vance / bevel / world-dark / world-mint / atlas / bluehouse），支持 0 限制、完全本地运行的设计 Agent。配合 open claude design 项目，为 AI 编程代理提供完整的幻灯片设计能力。
+
+`replit` `slides` `design-agent` `skills` `open-source`
+
+---
+
 ## 📅 2026-04-05
 
-### [LLM知识库构建 - 个人研究管理新方法](/entry/2931b24c) 📄
-@@karpathy · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-05
+### [ClaudeCode 源码深度研究报告](/entry/ca1ebffb) 📄
+@Xiao Tan · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-05
 
-使用LLM构建个人知识库，减少代码操作，增加知识管理，适用于研究兴趣主题整理，提升研究效率。
+从 Claude Code 泄露的 npm 包中提取 4756 个源码文件的深度拆解。核心发现：system prompt 是动态拼装的（静态宪法 + 动态当期政策），有 cache 边界设计（SYSTEM_PROMPT_DYNAMIC_BOUNDARY）优化 token 经济学；6 个内建 Agent（General、Explore 只读、Plan 只读、Verification adversarial、Guide、Statusline），实现者与验证者分离；工具调用经过 14 步 pipeline（输入校验→风险预判→权限决策→Hook→执行→post-processing）；三套扩展机制（Skill/Plugin/MCP）都让模型感知到自己的能力清单。...
 
-`x` `workflow` `llm` `knowledge-base`
-
----
-
-### [Karpathy 推荐 Farzapedia：用 LLM 把日记笔记变成私人维基百科](/entry/m3n4o5p6) 📄
-@@karpathy · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-05
-
-Farza 将 2500 条日记、Apple Notes 和 iMessage 对话输入 LLM，生成了 400 篇私人百科文章，涵盖自己、创业项目、兴趣动漫等。Karpathy 点评：这种个性化方法比默认的 AI 越用越好更显式、更可控。可复制路径：收集个人数字痕迹 → LLM 批量生成结构化文章 → 构建个人知识库。适合想打造第二大脑或做数字遗产规划的用户参考。
-
-`x` `workflow` `personal-knowledge` `llm`
-
----
-
-### [Farzapedia：用 LLM 把个人笔记变成可浏览的私人百科全书](/entry/9486b6f3) 📄
-@@karpathy · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-05
-
-Karpathy 推荐 Farzapedia——用 LLM 将 2500 条日记、iMessage 和 Apple Notes 自动生成 400 篇结构化文章，创建一个可浏览的私人百科全书。方法亮点在于「显式记忆」：输出完全可解释可追溯，而非 AI 隐式学习。朋友和同事也能通过这套系统了解你的背景和研究领域。
-
-`x` `ai-tools` `llm` `knowledge-management` `personal-brain`
-
----
-
-### [Farzapedia：LLM 把 2500 条个人记录变成可分享的个人百科](/entry/f138b577) 📄
-@@karpathy · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-05
-
-Andrej Karpathy 推荐 Farzapedia：将 2500 条日记、Apple Notes、iMessage 记录输入 LLM，生成 400 篇结构化文章（朋友、创业项目、研究方向、动漫），可分享给朋友。这是一种明确的外显记忆方法，可控性更强。代表 AI 个人知识管理的新范式：从被动学习到主动构建可分享的个人知识库。
-
-`x` `workflow` `personalization` `llm` `memory`
+`Claude Code` `源码分析` `Agent架构` `系统设计` `上下文管理`
 
 ---
 
@@ -993,33 +681,6 @@ Andrej Karpathy 推荐 Farzapedia：将 2500 条日记、Apple Notes、iMessage 
 开发者 Farza 将 2500 条日记、Apple Notes 和 iMessage 对话导入 LLM，自动生成了 400 篇涵盖朋友、创业项目、研究领域和喜好的个人维基文章。与「用越多越懂你」的隐式记忆不同，这是一种完全显式的记忆 artifact，透明可控。这一思路为个人知识管理提供了新范式：让 AI 用你自己的真实数据构建可检索、可阅读的个人知识库，而非依赖通用模型的模糊记忆。
 
 `x` `workflow` `prompt` `personal-wiki` `llm`
-
----
-
-### [ClaudeCode 源码深度研究报告](/entry/ca1ebffb) 📄
-@Xiao Tan · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-05
-
-从 Claude Code 泄露的 npm 包中提取 4756 个源码文件的深度拆解。核心发现：system prompt 是动态拼装的（静态宪法 + 动态当期政策），有 cache 边界设计（SYSTEM_PROMPT_DYNAMIC_BOUNDARY）优化 token 经济学；6 个内建 Agent（General、Explore 只读、Plan 只读、Verification adversarial、Guide、Statusline），实现者与验证者分离；工具调用经过 14 步 pipeline（输入校验→风险预判→权限决策→Hook→执行→post-processing）；三套扩展机制（Skill/Plugin/MCP）都让模型感知到自己的能力清单。五条设计原则：不信任模型自觉性、角色拆开、工具治理、上下文是预算、生态关键是模型感知。
-
-`Claude Code` `源码分析` `Agent架构` `系统设计` `上下文管理`
-
----
-
-### [Farzapedia：用日记+笔记打造个人 AI 维基](/entry/791ae859) 📄
-@@karpathy · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-05
-
-开发者 Farza 分享了个人项目 Farzapedia：用 LLM 将 2500 条日记、Apple Notes 和 iMessage 对话记录转化为「个人维基」，最终生成约 400 篇详细文章，涵盖朋友、创业项目、研究方向甚至喜欢的动漫及其影响。Karpathy 评价这种个性化方案比「宣称越用越聪明的 AI」更透明——记忆是显式的、可审计的，而非藏在黑盒里。对做第二大脑、个人知识管理有兴趣的同学，这是一个值得复制的思路。
-
-`personal-knowledge` `llm` `diary` `wiki` `karpathy`
-
----
-
-### [Farzapedia：用 LLM 把日记+笔记+iMessage 变成个人 Wikipedia（400 篇百科）](/entry/e4ab7164) 📄
-@@karpathy · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-05
-
-Andrej Karpathy 转发并点评 Farzapedia 项目——用 LLM 将个人日记、Apple Notes 和 iMessage 对话（共 2500 条记录）转化为个人 Wikipedia，生成了 400 篇涵盖朋友、创业项目、研究领域、动漫爱好等维度的结构化文章。方法论上采用显式记忆 artifact（Wiki）而非依赖模型隐式记忆，为个性化 AI 知识管理提供了新思路。
-
-`llm` `personalization` `knowledge-management` `diy`
 
 ---
 
@@ -1036,17 +697,17 @@ Andrej Karpathy 转发并点评 Farzapedia 项目——用 LLM 将个人日记�
 
 ## 📅 2026-03-31
 
-### [认知重建之后，步入Agentic Engineering的工程革命](/entry/dB7RnCtb) 📄
-⭐⭐⭐⭐4 🇨🇳 · 2026-03-31
-
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg%23imgIndex%3D0)
-
----
-
 ### [学习笔记：从 Agent 到 Skills — AI 智能体架构的范式转变](/entry/TgmFvCIT) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-31
 
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FZ6bicxIx5naL7zVHZH429Po1HLpbichP9SLVicPtoxkI2WhMxUibFwG9U1dUOJu33R5KD9ib25hmibaaZLLldnh8dA4A%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0) &gt; 报告日期：2026-02-28 关键词： Agent Skills, MCP, OpenClaw,...
+Cubox 收藏 — 学习笔记：从 Agent 到 Skills — AI 智能体架构的范式转变
+
+---
+
+### [认知重建之后，步入Agentic Engineering的工程革命](/entry/dB7RnCtb) 📄
+⭐⭐⭐⭐4 🇨🇳 · 2026-03-31
+
+Cubox 收藏 — 认知重建之后，步入Agentic Engineering的工程革命
 
 ---
 
@@ -1080,7 +741,7 @@ SmartPerfetto 的 Harness Engineering 实战记录。在 Perfetto UI 加 AI 分�
 ### [Claude Code推荐的终端 - Ghostty](https://mp.weixin.qq.com/s?__biz=MzY4NzE5MzIwOQ==&mid=2247483852&idx=1&sn=dbc33dd09a667277f1c386ddd73379ea&chksm=f2b74a856e864f556790e4b85b2e5d7ba45afa25426f3a4ee8f32ca65dd085d9b09b94729157&mpshare=1&scene=1&srcid=0329XB3GoBCyxAOaWxxdWLQH&sharer_shareinfo=61b71d4cefceed66a68224d317e3c5d5&sharer_shareinfo_first=61b71d4cefceed66a68224d317e3c5d5)
 ⭐⭐⭐3 🇨🇳 · 2026-03-29
 
-# Claude Code推荐的终端 - Ghostty Claude Code推荐的终端：为什么Ghostty成了AI编程的新标配 最近有个有趣的发现：Claude ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FyaZJic7Y9oMtWgtmImLvXCC71PfEYRMjuZfLeYAFWiaCzLEiaicMibTYYibUjs4C2YdJNl9XpAtnRZV8gCOXRckPCm1VibH4M9RSoZFC2A5tCCYkw4%2F640%3Fwx_fmt%3Dpng%26watermark%3D1%23imgInde...
+Claude Code 编程工具相关实践与技巧
 
 `[]` `ai编程` `claude`
 
@@ -1139,17 +800,17 @@ Tw93基于半年深度使用Claude Code的踩坑总结。提出六层架构模�
 
 ---
 
-### [分享10个你可能不知道的Claude Code隐藏命令。](/entry/NAA9ai9n) 📄
-⭐⭐⭐⭐4 🇨🇳 · 2026-03-21
-
-我们公司很多很多的小伙伴，都在用Claude Code，因为这玩意，在很多时候，确实就是最牛逼的通用Agent。
-
----
-
 ### [你不知道的 Claude Code：架构、治理与工程实践 - Tw93](/entry/Gw50izXi) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-21
 
 我把我最近半年每个月氪金40刀2个账号的claude code 使用过程中，积累的一些实际经验分享给大伙。这篇文章主要围绕上下文管理、Skills、Hooks、Subagents、Prompt Caching 以及 CLAUDE.md 的设计展开，重点讨论怎样让协作过程更稳定、更可控，偏工程师技术视角的最佳实践，欢迎大伙一起最佳交流。
+
+---
+
+### [分享10个你可能不知道的Claude Code隐藏命令。](/entry/NAA9ai9n) 📄
+⭐⭐⭐⭐4 🇨🇳 · 2026-03-21
+
+我们公司很多很多的小伙伴，都在用Claude Code，因为这玩意，在很多时候，确实就是最牛逼的通用Agent。
 
 ---
 
@@ -1158,7 +819,7 @@ Tw93基于半年深度使用Claude Code的踩坑总结。提出六层架构模�
 ### [Claude悄悄更新了Skills生成器，这绝对是一次史诗级升级。](/entry/p69exx48) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-12
 
-# Claude悄悄更新了Skills生成器，这绝对是一次史诗级升级。 上周直播的时候，发现Anthropic的skills仓库居然有更新了。 点进去一看，然后居然发现了一个超级刚需的Skills迎来了更新。 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2F2jjfQoZLoqUhLrqoibibM2xm1gDXVykOQuKxswXfPicIeoBSnA6zmSMhMuRBMnBGfGjakAPP7yDGGgT55icribA3NiabtBvHicWYjkey2ibRJjeQngA%2F640%3Fwx_fmt%3Dpng%26f...
+关于Claude悄悄更新了Skills生成器，这绝对是一次史诗级的收藏文章
 
 `quantization` `anthropic` `[]` `agent` `claude`
 
@@ -1169,7 +830,7 @@ Tw93基于半年深度使用Claude Code的踩坑总结。提出六层架构模�
 ### [创业者思考：如何做 AI Agent 喜欢的基础软件？](/entry/pbEBrpNe) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-11
 
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2FqpAK9iaV2O3sAVsSPfCN9UX44XiaoicbUJIrOGuaujdMNY6iaQewDZEX1GY3tcVk3QGeKJyUMMHBSMALvO8B7DZwsA%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg%23imgIndex%3D0) &gt; 本篇内容转载自「我世界的源代码」。 &gt; &gt; 作者黄东旭，是 PingCAP 的联合创始人兼 CTO...
+Cubox 收藏 — 创业者思考：如何做 AI Agent 喜欢的基础软件？
 
 ---
 
@@ -1208,17 +869,25 @@ LangChain 创始人 Harrison Chase 分析 Coding Agent 对工程、产品、设�
 
 ## 📅 2026-03-06
 
+### [Claude 终极入门指南：100 小时实测，一篇讲透](/entry/5jgujmll) 📄
+@Yanhua · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-06
+
+**By @yanhua1010** (Yanhua) · Fri Mar 06 02:40:30 +0000 2026
+📊 ❤️ 145 🔁 43 🔖 259 👁️ 10,204 💬 1
+📐 400 words
+本文受 @aiedge 的 Claude 终极初学者指南 启发创作，结合个人一年多的实战经验。
+2026 年 3 月，Anthropic 一口气释放了 Claude 有史以来最强的功能组合。Skills、Cowork、Opus 4.6。
+如果你还在观望，或者还停留在&quot;问它一个问题，得到一个回答&quot;的阶段，这篇文章会帮你重新理解 Claude 到底是什么，以及怎么真正用好它。
+我用 Claude 超过一年了。从最早的 API 到今天的桌面端、Code、Cowork，几乎每一个功能更新我都第一时间上手。...
+
+`claude` `memory` `skill` `context-management` `archive`
+
+---
+
 ### [How I&#x27;d Become a Quant If I Had to Start Over Tomorrow](/entry/u4y5t085) 📄
 @gemchanger · ⭐⭐⭐⭐⭐5 🌐 · 2026-03-06
 
-**By @gemchange_ltd** (gemchanger) · Tue Mar 03 18:43:43 +0000 2026
-📊 ❤️ 11,346 🔁 1,198 🔖 42,679 👁️ 6,361,106 💬 159
-📐 2,585 words
-In 2025, entry-level quants at top firms pulled $300K-$500K total comp.
-AI/ML hiring in finance grew 88% year-over-year.
-This article is everything I wish someone had handed me when i started my path laid out in the exact order you should learn it.
-The path is like layers of a video game, where you can&#x27;t skip levels.
-Every concept builds on the last.
+AI 实践：How I&#x27;d Become a Quant If I Had to Start
 
 `rag` `archive` `x-bookmarks`
 
@@ -1233,25 +902,9 @@ The only guide you need to master Claude from zero.
 The only guide you need to master Claude from zero.
 **这是从零开始掌握 Claude 的唯一指南。**
 Last week, Anthropic shipped its best suite of Claude features yet. If you&#x27;re still using ChatGPT, this is the nail in the coffin.
-**上周，Anthropic 发布了迄今为止最好的 Claude 功能套件。如果你还在使用 ChatGPT，这就是压死骆驼的最后一根稻草。
+**上周，Anthropic 发布了迄今为止最好的 Claude 功能套件。...
 
 `claude` `prompt-engineering` `skill` `context-management` `Claude`
-
----
-
-### [Claude 终极入门指南：100 小时实测，一篇讲透](/entry/5jgujmll) 📄
-@Yanhua · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-06
-
-**By @yanhua1010** (Yanhua) · Fri Mar 06 02:40:30 +0000 2026
-📊 ❤️ 145 🔁 43 🔖 259 👁️ 10,204 💬 1
-📐 400 words
-本文受 @aiedge 的 Claude 终极初学者指南 启发创作，结合个人一年多的实战经验。
-2026 年 3 月，Anthropic 一口气释放了 Claude 有史以来最强的功能组合。Skills、Cowork、Opus 4.6。
-如果你还在观望，或者还停留在&quot;问它一个问题，得到一个回答&quot;的阶段，这篇文章会帮你重新理解 Claude 到底是什么，以及怎么真正用好它。
-我用 Claude 超过一年了。从最早的 API 到今天的桌面端、Code、Cowork，几乎每一个功能更新我都第一时间上手。保守估计，我累计投入了上百小时在 Claude 上测试、写作、编程、搭建工作流。
-跳过那些产品介绍式的废话，这里只有实践验证过的干货。新手能快速上手，老用户也能查漏补缺。
-
-`claude` `memory` `skill` `context-management` `archive`
 
 ---
 
@@ -1268,22 +921,7 @@ BestBlogs.dev 第 85 期以&quot;驾驭工程&quot;为核心关键词，提出�
 @凡人小北 · ⭐⭐⭐3  · 2026-03-06
 
 &gt; 来源：[@frxiaobei](https://x.com/frxiaobei) | [GitHub 仓库](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
-这个仓库值一个亿。Cursor、Claude Code、Devin、Windsurf、v0... 所有你用过的 AI 编程工具，它们的 System Prompt 全被扒出来了。30000 行指令，30+ 个产品，0 元获取。
-该仓库收录了以下 AI 编程工具的 System Prompt：
-- **Augment Code**
-- **Claude Code**
-- **Cluely**
-- **CodeBuddy**
-- **Comet**
-- **Cursor**
-- **Devin AI**
-- **Junie**
-- **Kiro**
-- **Leap.new**
-- **Lovable**
-- **Manus**
-- **NotionAI**
-- **Orchids.
+这个仓库值一个亿。Cursor、Claude Code、Devin、Windsurf、v0... 所有你用过的 AI 编程工具，它们的 System Prompt 全被扒出来了。30000 行指令，30+ 个产品，0 元获取。...
 
 `claude` `cursor` `agent` `system-prompt` `github`
 
@@ -1302,15 +940,25 @@ BestBlogs.dev 第 85 期以&quot;驾驭工程&quot;为核心关键词，提出�
 他花三个月学完了从 TypeScript 到 React 、Nodejs、Rust的基础知识，然后做出了第一个正式项目。
 没有计算机专业背景，没有大厂履历，只有一个简单的出发点：
 &gt; 做出个满意的项目，证明自己，转行之路没有失败。
-国内使用 Claude Code 的用户都知道，官方订阅门槛高，大家更多依赖中转站或国产模型。
-但在不同供应商之间切换，需要手动改环境变量或配置文件，操作繁琐且容易出错。
-当时市面上已经有一些脚本工具，但都是命令行操作，对普通用户不够友好。
+国内使用 Claude Code 的用户都知道，官方订阅门槛高，大家更多依赖中转站或国产模型。...
 
 `claude` `github` `CC-Switch` `Claude-Code` `开源`
 
 ---
 
 ## 📅 2026-03-04
+
+### [2026-03-04-0813-brucexu_eth-Deep-Research-盲测-ChatGPT-5.2-Pro-vs-Clau-2028796588039262505](/entry/2k9hctuc) 📄
+@brucexu_eth · ⭐⭐⭐⭐4 🇨🇳 · 2026-03-04
+
+**@brucexu_eth** (brucexu.eth ❤️🐼🦇🔊)
+🕐 Tue Mar 03 11:36:14 +0000 2026
+📊 ❤️ 91 🔁 10 🔖 74 👁️ 20,264 💬 7
+我这两天用真实且有深度的实际问题（一个行业市场调研）深度盲测了 ChatGPT 5.2 Thinking、Gemini 3.1 Pro、Claude Opus 4.6 的普通付费版（20 USD）账号的 Deep Research，结果开始令我大跌眼镜，后来发现不对又正常了。然后又加了 ChatGPT 5.2 Pro 的 Deep research 和 Extended Pro 做对比。...
+
+`claude`
+
+---
 
 ### [2026-03-04-1609-xin_pai88825-Vibe-Coding-高效工具清单-Codex-Paper-21st-Unicorn-Agentation-Axion-Apple-Docs-2029027642616496194](/entry/g0l3fstx) 📄
 @xin_pai88825 · ⭐⭐⭐⭐4  · 2026-03-04
@@ -1323,13 +971,19 @@ BestBlogs.dev 第 85 期以&quot;驾驭工程&quot;为核心关键词，提出�
 你只要输入一个需求，它就会调动多个AI智能体并行工作，无论是项目重构，还是从零构建MVP，，它都能独立完成，你无需关注代码，而是把更多精力放在架构设计和创造性问题解决上
 2、Paper
 这个可以让 AI 生成高质量设计稿，并实现设计与代码双向实时同步，你只需专注界面创作，AI 会自动还原为精准代码交付
-3、21st
-这个提供超多精美的前端组件，同时带有流畅的交互动画，只需点击复制 Prompt ，粘贴到 AI 对话框即可使用
-4、Unicorn
-这个，不用写代码，也可以做出丝滑流畅的 GPU 级网页特效，一键导出即可让 AI 接入你的项目
-5、Agentation
+3、21st...
 
 `codex` `mcp` `agent` `vibe-coding` `coding`
+
+---
+
+### [2026-03-04-2010-centurybbx-Writing-about-Agentic-Engineering-Patterns-2028322864798331292](/entry/1wbifupp) 📄
+@centurybbx · ⭐⭐⭐⭐4  · 2026-03-04
+
+I’ve started a new project to collect and document Agentic Engineering Patterns—coding practices and patterns to help get the best results out of this new era of coding agent development we find ourselves entering.
+我启动了一个新项目，专门收集和整理 Agentic Engineering Patterns（代理式工程模式）——这是一套编码实践与方法，用来帮助我们在这个“代码智能体开发”新时代中获得更好的结果。
+
+`claude` `codex` `agent` `vibe-coding` `agentic`
 
 ---
 
@@ -1341,33 +995,9 @@ BestBlogs.dev 第 85 期以&quot;驾驭工程&quot;为核心关键词，提出�
 📊 ❤️ 864 🔁 82 🔖 1,960 👁️ 244,078 💬 16
 📐 543 words
 📐 543 个字
-For non-codex models, the open-source Codex CLI compacts context locally: an LLM summarizes the conversation using a compaction prompt. When the compacted context is later used, responses.create() receives it with a handoff prompt that frames the summary. Both prompts are visible in the source code.
+For non-codex models, the open-source Codex CLI compacts context locally: an LLM summarizes the conversation using a compaction prompt....
 
 `codex` `system-prompt` `context-management` `open-source`
-
----
-
-### [2026-03-04-0813-brucexu_eth-Deep-Research-盲测-ChatGPT-5.2-Pro-vs-Clau-2028796588039262505](/entry/2k9hctuc) 📄
-@brucexu_eth · ⭐⭐⭐⭐4 🇨🇳 · 2026-03-04
-
-**@brucexu_eth** (brucexu.eth ❤️🐼🦇🔊)
-🕐 Tue Mar 03 11:36:14 +0000 2026
-📊 ❤️ 91 🔁 10 🔖 74 👁️ 20,264 💬 7
-我这两天用真实且有深度的实际问题（一个行业市场调研）深度盲测了 ChatGPT 5.2 Thinking、Gemini 3.1 Pro、Claude Opus 4.6 的普通付费版（20 USD）账号的 Deep Research，结果开始令我大跌眼镜，后来发现不对又正常了。然后又加了 ChatGPT 5.2 Pro 的 Deep research 和 Extended Pro 做对比。
-避免卖关子，先说结论：ChatGPT 5.2 Pro &gt; Claude Opus 4.6 &gt; ChatGPT 5.2 Thinking (plus) &gt; Gemini 3.1 Pro &gt;&gt; ChatGPT 5.2 限流版。感觉 AI 时代，要么就用最好的，要么干脆别用，差点的模型除了浪费时间，生成的内容可能还有误导性。
-如果你只买得起 20 USD 方案，那么 Claude 是研究层面最好的。
-
-`claude`
-
----
-
-### [2026-03-04-2010-centurybbx-Writing-about-Agentic-Engineering-Patterns-2028322864798331292](/entry/1wbifupp) 📄
-@centurybbx · ⭐⭐⭐⭐4  · 2026-03-04
-
-I’ve started a new project to collect and document Agentic Engineering Patterns—coding practices and patterns to help get the best results out of this new era of coding agent development we find ourselves entering.
-我启动了一个新项目，专门收集和整理 Agentic Engineering Patterns（代理式工程模式）——这是一套编码实践与方法，用来帮助我们在这个“代码智能体开发”新时代中获得更好的结果。
-
-`claude` `codex` `agent` `vibe-coding` `agentic`
 
 ---
 
@@ -1382,13 +1012,7 @@ I’ve started a new project to collect and document Agentic Engineering Pattern
 说实话，读完 Anthropic Claude Code 团队最近分享的这篇构建经验，我盯着屏幕想了很久。
 不是因为技术多复杂。恰恰相反，整篇文章最让我震动的一句话极其朴素：
 「你要学会像智能体一样看世界。」
-这句话来自 Claude Code 的核心开发者。一个每天跟 AI 智能体打交道的人，他给出的最重要建议，不是什么架构方案或框架选型，而是一种认知方式的转变。
-这让我想到一个更大的问题：2026 年了，我们跟 AI 协作的方式，是不是从根上就搞错了？
-一、给 AI 一把锤子，它不一定能盖房子
-Claude Code 团队讲了一个特别生动的类比。
-想象你面前有一道很难的数学题。你希望有什么工具来帮忙？
-如果你只会心算，给你纸和笔就够了。如果你会用计算器，给你一台计算器效率更高。如果你会编程，那直接给你一台电脑是最快的。
-工具的上限，取决于使用者的能力。
+这句话来自 Claude Code 的核心开发者。一个每天跟 AI 智能体打交道的人，他给出的最重要建议，不是什么架构方案或框架选型，而是一种认知方式的转变。...
 
 `claude` `agent` `karpathy` `vibe-coding` `agentic`
 
@@ -1403,46 +1027,13 @@ Claude Code 团队讲了一个特别生动的类比。
 声明
 此为个人踩坑后总结出来的经验，仅作参考！
 文章内容纯手戳，无AI生成内容，无广告，放心食用！
-文章涉及到的链接会放在评论区。
-前言
-我深知蓝V新人朋友都想快速通过领马老板工资的门槛，但是很多人面对5M流量无从下手（曾经的我也是），有些人用力过猛，用了错误的方式，把自己账号干废，甚至是被关禁闭，所以废话不多说，教程奉上！！！
-账号自检
-首先，我们需要对自己的账号进行一次体检，我使用的大家都推荐的检测工具：Shadowban Checker ，输入自己的id就可以进行检测，检测结果全部为绿说明账号正常，否则就需要养号！！！
-养号
-你是否遇到过频繁弹窗问题，要求你进行人机验证？我相信下面的图片很多人都遇见过：
-至于为什么会出现这个弹窗？
-个人经验：
-频繁回复消息：短时间内回复大量的评论被系统当成机器人。
+文章涉及到的链接会放在评论区。...
 
 `vibe-coding` `coding`
 
 ---
 
 ## 📅 2026-03-02
-
-### [X-PLUG/MobileAgent](/entry/vsi0528w) 📄
-@XPLUG · ⭐⭐⭐⭐4  · 2026-03-02
-
-MobileAgent is Alibaba Tongyi Lab’s GUI-agent project family, covering mobile, desktop, and browser automation through the GUI-Owl model line and multi-agent workflows.
-MobileAgent 是阿里通义实验室的 GUI Agent 项目家族，通过 GUI-Owl 模型系与多 Agent 工作流覆盖移动端、桌面端与浏览器自动化。
-The repository serves as a unified hub of papers, code, demos, and benchmark updates (e.g., GUI-Owl 1.5, Mobile-Agent-v3/v3.5, UI-S1, and PC-Agent).
-该仓库是论文、代码、演示与基准进展的统一入口（如 GUI-Owl 1.5、Mobile-Agent-v3/v3.5、UI-S1、PC-Agent）。
-
-`agent` `multi-agent` `benchmark` `automation` `github`
-
----
-
-### [NevaMind-AI/memU](/entry/myf43gs4) 📄
-@NevaMindAI · ⭐⭐⭐⭐4  · 2026-03-02
-
-memU is a memory framework designed for always-on proactive agents, with the goal of reducing token costs and preserving long-term user context across sessions.
-memU 是一个面向 24/7 主动式 Agent 的记忆框架，目标是在跨会话场景下降低 token 成本并保留长期用户上下文。
-It models memory like a file system (resources, items, categories), making memory assets structured, queryable, and continuously updatable by background processes.
-它将记忆抽象为“文件系统”（资源、条目、分类），使记忆资产结构化、可检索，并可由后台流程持续更新。
-
-`agent` `memory` `context-management` `github`
-
----
 
 ### [2026-03-02-0810-karpathy-AI-changed-programming-last-two-months-2026731645169185220](/entry/4y9bper3) 📄
 @karpathy · ⭐⭐⭐⭐4  · 2026-03-02
@@ -1453,6 +1044,26 @@ Boundary: this is expert observation, not a controlled benchmark; validate with 
 边界：这是专家经验判断而非严格对照实验，落地时应先用自有仓库指标验证。
 
 `agent` `karpathy` `benchmark` `coding`
+
+---
+
+### [NevaMind-AI/memU](/entry/myf43gs4) 📄
+@NevaMindAI · ⭐⭐⭐⭐4  · 2026-03-02
+
+memU is a memory framework designed for always-on proactive agents, with the goal of reducing token costs and preserving long-term user context across sessions.
+memU 是一个面向 24/7 主动式 Agent 的记忆框架，目标是在跨会话场景下降低 token 成本并保留长期用户上下文。...
+
+`agent` `memory` `context-management` `github`
+
+---
+
+### [X-PLUG/MobileAgent](/entry/vsi0528w) 📄
+@XPLUG · ⭐⭐⭐⭐4  · 2026-03-02
+
+MobileAgent is Alibaba Tongyi Lab’s GUI-agent project family, covering mobile, desktop, and browser automation through the GUI-Owl model line and multi-agent workflows.
+MobileAgent 是阿里通义实验室的 GUI Agent 项目家族，通过 GUI-Owl 模型系与多 Agent 工作流覆盖移动端、桌面端与浏览器自动化。...
+
+`agent` `multi-agent` `benchmark` `automation` `github`
 
 ---
 
@@ -1478,6 +1089,15 @@ AI Robot Phone！！
 
 ## 📅 2026-03-01
 
+### [130万次下载，2万Star开源项目CC Switch，36岁转行程序员Jason的第一个作品](/entry/6wwa66of) 📄
+@Wey Gu · ⭐⭐⭐⭐4 🇨🇳 · 2026-03-01
+
+CC Switch 是 Claude Code 的供应商管理和切换工具，GitHub 2 万 Star、130 万下载。作者 Jason 36 岁从进出口贸易转行编程，花 3 个月学 TypeScript/React/Node/Rust 后做出第一个项目。核心设计理念&quot;侵入性最小&quot;——即使卸载也不影响正常使用。从 Electron 重构为 Tauri（从 80MB→更轻量），编程语言从 TypeScript 转 Rust。第一版一周完成。
+
+`cc-switch` `claude-code` `electron` `tauri` `open-source`
+
+---
+
 ### [从 MCP 到 SKILL：关于 Agent 扩展机制的思考](/entry/cuvjviqp) 📄
 @jolestar · ⭐⭐⭐⭐4  · 2026-03-01
 
@@ -1485,21 +1105,9 @@ AI Robot Phone！！
 去年 MCP 爆火，大家一度有种感觉：只要把工具都接进来，AI Agent 就会“活”过来，像一个长了手脚的人，什么都能干。
 如果把 LLM 看作大脑（智力引擎），tool call / function call 就像让它能指挥四肢：模型填参数，代码去执行，再把结果喂回去继续推理。
 MCP（Model Context Protocol）把这套机制做成了“标准插头”：以前各家服务各自一套 SDK + API，你要给 Agent 封装工具，就得处理语言、依赖、鉴权、返回格式，复杂度会指数上升；MCP 的价值是把“接入”这件事工程化、标准化。
-所以当时最乐观的推论很自然：只要 MCP 工具够多，Agent 就有无限多的手脚，什么都能干了。
-但很快大家就撞墙了。
-第一堵墙：容量瓶颈（上下文预算）
-工具的定义本身要进入系统 prompt 或等价的工具上下文；工具越多，占用越多，留给“干活”的空间越少。
+所以当时最乐观的推论很自然：只要 MCP 工具够多，Agent 就有无限多的手脚，什么都能干了。...
 
 `mcp` `agent` `prompt-engineering` `skill` `coding`
-
----
-
-### [130万次下载，2万Star开源项目CC Switch，36岁转行程序员Jason的第一个作品](/entry/6wwa66of) 📄
-@Wey Gu · ⭐⭐⭐⭐4 🇨🇳 · 2026-03-01
-
-CC Switch 是 Claude Code 的供应商管理和切换工具，GitHub 2 万 Star、130 万下载。作者 Jason 36 岁从进出口贸易转行编程，花 3 个月学 TypeScript/React/Node/Rust 后做出第一个项目。核心设计理念&quot;侵入性最小&quot;——即使卸载也不影响正常使用。从 Electron 重构为 Tauri（从 80MB→更轻量），编程语言从 TypeScript 转 Rust。第一版一周完成。
-
-`cc-switch` `claude-code` `electron` `tauri` `open-source`
 
 ---
 
@@ -1514,21 +1122,21 @@ Claude Code 核心开发者分享构建经验。设计 Agent 工具的关键框�
 
 ---
 
-### [Claude Code 核心开发者分享：构建 Claude Code 的经验教训——像 Agent 一样看世界](/entry/sgqyc174) 📄
-@马天翼 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-28
-
-Thariq 原文的中文翻译。构建 agent 框架最难的部分是设计行动空间。工具设计要匹配 Agent 能力（纸笔→计算器→电脑的类比）。AskUserQuestion 工具三次迭代：修改 ExitPlanTool（Claude 困惑）→修改输出格式（不可靠）→独立工具（成功）。最终方案可引导结构化输出、确保多选项、支持 SDK 集成。
-
-`claude-code` `agent-design` `tool-calling` `chinese-translation`
-
----
-
 ### [Claude Code + Codex 双模型审查流程](/entry/72iq5gol) 📄
 @Leo · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-28
 
 写代码的模型永远不负责审自己的代码。Claude Code 跑 Opus 4.6 写完功能，通过 MCP 协议接入 Codex MCP Server 让 Codex 审查。审完列问题，回到 Opus 逐个修，循环到没新问题。原理：自己写的东西自己审永远有盲区，换一个不同思路的 AI 审你的 AI。成本多一轮对话的钱但省掉的返工时间远超。
 
 `claude-code` `codex` `code-review` `mcp` `dual-model`
+
+---
+
+### [Claude Code 核心开发者分享：构建 Claude Code 的经验教训——像 Agent 一样看世界](/entry/sgqyc174) 📄
+@马天翼 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-28
+
+Thariq 原文的中文翻译。构建 agent 框架最难的部分是设计行动空间。工具设计要匹配 Agent 能力（纸笔→计算器→电脑的类比）。AskUserQuestion 工具三次迭代：修改 ExitPlanTool（Claude 困惑）→修改输出格式（不可靠）→独立工具（成功）。最终方案可引导结构化输出、确保多选项、支持 SDK 集成。
+
+`claude-code` `agent-design` `tool-calling` `chinese-translation`
 
 ---
 
@@ -1614,19 +1222,19 @@ Cursor CEO 定义 AI 编码三个时代：第一时代 Tab 自动补全、第二
 
 ## 📅 2026-01-13
 
+### [GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents](/entry/kzmt6xpw) ⭐31,521 📄
+⭐⭐⭐⭐4 🌐 · 2026-01-13
+
+Cubox 收藏: GitHub - vercel-labs/agent-browser: Browser automa
+
+`agent` `[]` `rag`
+
+---
+
 ### [深度解析：Claude Code Cowork](/entry/BduNmS5g) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-13
 
 Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个关键转折点（Cowork: Claude Code for the rest of your work^\[1\]^），它不仅是一个针对非编程人员的新工具，更宣告了 Anthropic 从单纯的模型提供商向综合性代理生态系统（Agentic Ecosystem）协调者的转型。我也算架构演变的见证者了，从早期写 MCP、到前段时间写 Skills（深度解析：Anthropic MCP 协议、从 Prompt Engineeri...
-
----
-
-### [GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents](/entry/kzmt6xpw) ⭐31,521 📄
-⭐⭐⭐⭐4 🌐 · 2026-01-13
-
-# GitHub - vercel-labs/agent-browser: Browser automation CLI for AI agents Browser automation CLI for AI agents. Contribute to vercel-labs/agent-browser development by creating an account on GitHub. Headless browser automation CLI for AI agents. Fast Rust CLI with Node.js fallback. npm install -g ag...
-
-`agent` `[]` `rag`
 
 ---
 
@@ -1635,9 +1243,7 @@ Anthropic 发布 &quot;Cowork&quot; 标志着人工智能产品战略的一个�
 ### [AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice](/entry/8lwuhhmb) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-01-09
 
-AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice
-This article systematically deconstructs AI programming tools from underlying principles (Token, tool calling, Codebase retrieval, Merkle Tree) to practical applications (dialogue optimization, best practices, tool alternatives), guiding developers to efficiently utilize AI-assisted coding.
-Read...
+AI 编程工具与实践相关收藏
 
 `Claude` `LLM` `Prompt Engineering` `AI Coding` `Cursor`
 
@@ -1648,14 +1254,7 @@ Read...
 ### [Agent Skills 终极指南：入门、精通、预测](/entry/e7p65p2m) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-08
 
-Agent Skills 终极指南：入门、精通、预测
-应该是全网最好的 Skills 中文指南与教程
-Read in Cubox  
-Read Original
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F7ck8FnyVQnviaS5P0WygredgOkAB3hj5PU2EYd5vQlKCYOqllGLLicJsqmST9PbA42kapY1nrw4HGYVbFjZQVMHg%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0)
-🎐 卷首语
-应该是全网最好的 Skills 中文指南与教程，全文 1.2w 字，包含了我对 Skills 的完整应用思考。
-巧借通用 Agent 内核，只靠 Skills 设计，就能低成本创造具有通用 AI ...
+关于 AI Agent 的收藏文章
 
 `Claude` `Anthropic` `Agent` `Copilot` `Agent Skills`
 
@@ -1664,7 +1263,7 @@ Read Original
 ### [Claude Code 之父自爆：Claude Code 的终极用法](/entry/be2lx9fi) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-08
 
-# Claude Code 之父自爆：Claude Code 的终极用法 Boris Cherny 作为 Claude Code 之父，他写了一篇非常详细的推文，分享了自己如何高效使用这款工具！ ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FE6YcKUBEibQGp83WuMkfiaIBCzfmGFRO32J4fAEibvBtDl23E7UK9rT53GoF4ImfMuPU6PCzBFOzKuzbdKRica55qw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D0) 你可能...
+Claude Code 编程工具相关实践与技巧
 
 `[]` `claude`
 
@@ -1681,13 +1280,6 @@ Read Original
 
 ## 📅 2026-01-07
 
-### [Welcome to the Machine, a guide to building infra software for AI agents](/entry/p03L1Cm5) 📄
-⭐⭐⭐⭐4 🌐 · 2026-01-07
-
-[需翻译] Welcome to the Machine, a guide to building infra software for AI agents
-
----
-
 ### [Promoting AI agents](/entry/4ldjersc) 📄
 @DHH · ⭐⭐⭐⭐4 🌐 · 2026-01-07
 
@@ -1697,12 +1289,19 @@ DHH 分享对 AI Agent 编程的看法转变。从不喜欢编辑器自动补全
 
 ---
 
+### [Welcome to the Machine, a guide to building infra software for AI agents](/entry/p03L1Cm5) 📄
+⭐⭐⭐⭐4 🌐 · 2026-01-07
+
+[需翻译] Welcome to the Machine, a guide to building infra software for AI agents
+
+---
+
 ## 📅 2026-01-06
 
 ### [Claude Code 订阅费太贵？这个工具让你0成本用上 Claude 和 Gemini](https://mp.weixin.qq.com/s?__biz=MzU3MjQ5MDEzNw==&mid=2247484767&idx=1&sn=aa39720e60168acc9c998273a16874c4&chksm=fd52567b607c44244505f28b24b9936447a1f35f802bc55f767fe85ba525f6afcd0ac1f1aa80&mpshare=1&scene=1&srcid=0106ng6saAeMNkdfAd1WPHb2&sharer_shareinfo=f7df7603186a861cc9006ecf5c672990&sharer_shareinfo_first=f7df7603186a861cc9006ecf5c672990)
 ⭐⭐⭐3 🇨🇳 · 2026-01-06
 
-# Claude Code 订阅费太贵？这个工具让你0成本用上 Claude 和 Gemini ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FAG8L8wHialadezcON25QJwRfiaCBqEvxXP0pmicQkkUmqKe0SM0OyrfJeS3GJuKg7PYlpBmsOf0OVVe7QM0WepDXg%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%26watermark%3D1%23imgIndex%3D0&amp;valid=false) 今天分享的这个开源工具简直神了，能把 Antigra...
+Claude Code 编程工具相关实践与技巧
 
 `anthropic` `大模型` `[]` `cursor` `openai`
 
@@ -1716,8 +1315,8 @@ DHH 分享对 AI Agent 编程的看法转变。从不喜欢编辑器自动补全
 2026 AI First 系列（一）：从助手到智能体——代理工程时代的到来
 &gt; copyright x @ wquguru 欢迎转载，请注明出处
 &quot;Claude Agent SDK 将在2026年为知识工作带来的变革，就像Claude Cod
-Read in Cubox  
-Read Original
+
+
 &gt; copyright x @ wquguru 欢迎转载，请注明出处
 
 `Claude` `LLM` `Agent` `Prompt Engineering`
@@ -1744,17 +1343,17 @@ Read Original
 
 ## 📅 2025-12-11
 
-### [别再只写 CLAUDE.md 了：用 Rules 重构 Claude Code 的记忆系统](https://mp.weixin.qq.com/s?__biz=MzIxNTUxNDA5NQ==&mid=2247485928&idx=1&sn=042c59f7e6d9a5ab9cd251a70cae412f&chksm=96db6386a67d57503244639a65388c43c40c7e6670073c5ea1260431946a1fab4a45a1ba9150&mpshare=1&scene=1&srcid=1211ChEBUi9jyC7vCv2mgwRO&sharer_shareinfo=17ac304b7c4d4cde32f0c44fa3eeaeff&sharer_shareinfo_first=17ac304b7c4d4cde32f0c44fa3eeaeff)
-⭐⭐⭐3 🇨🇳 · 2025-12-11
-
-Claude Code 支持 Rules 了，Agent 的生态在大融合了，文本化的 Skills + Rules 要占领生态位了
-
----
-
 ### [使用AI自动优化网站PageSpeed性能](https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247499929&idx=1&sn=4186f86bd4c620e6c404142c3ff067fc&chksm=e838388f89e6f8b9687345382669bc42d3e7453986c4947cfad7d488d0790e764eebb842add3&mpshare=1&scene=1&srcid=1211lwGuxKjNyqv9G5Znficn&sharer_shareinfo=cb7bbf1959cceaf7b43ecb6ec2340766&sharer_shareinfo_first=cb7bbf1959cceaf7b43ecb6ec2340766)
 ⭐⭐⭐3 🇨🇳 · 2025-12-11
 
 今天一位学生来找我报喜，他从零编程基础开始，借助AI编程来做产品，现在已经取得了相当不错的成绩，上个月挣了四万多美元。
+
+---
+
+### [别再只写 CLAUDE.md 了：用 Rules 重构 Claude Code 的记忆系统](https://mp.weixin.qq.com/s?__biz=MzIxNTUxNDA5NQ==&mid=2247485928&idx=1&sn=042c59f7e6d9a5ab9cd251a70cae412f&chksm=96db6386a67d57503244639a65388c43c40c7e6670073c5ea1260431946a1fab4a45a1ba9150&mpshare=1&scene=1&srcid=1211ChEBUi9jyC7vCv2mgwRO&sharer_shareinfo=17ac304b7c4d4cde32f0c44fa3eeaeff&sharer_shareinfo_first=17ac304b7c4d4cde32f0c44fa3eeaeff)
+⭐⭐⭐3 🇨🇳 · 2025-12-11
+
+Claude Code 支持 Rules 了，Agent 的生态在大融合了，文本化的 Skills + Rules 要占领生态位了
 
 ---
 
@@ -1763,7 +1362,7 @@ Claude Code 支持 Rules 了，Agent 的生态在大融合了，文本化的 Ski
 ### [Claude刚登顶，OpenAI就放出24小时不休息的编程AI，谁才是最强？](/entry/qhnleufw) 📄
 ⭐⭐⭐3 🇨🇳 · 2025-12-06
 
-# Claude刚登顶，OpenAI就放出24小时不休息的编程AI，谁才是最强？ ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FAG8L8wHialacMvjOhd5EIVojyoD7Rq74AK1riaDyiaFbYEnNL7q10W6Nr5FmrhCl7BAlLPjibEmLfY7gBOwUAQSCCw%2F300%3Fwx_fmt%3Dpng%26wxfrom%3D19&amp;valid=false) 提供前沿、深入的AI知识与切实可行的应用技巧。 助你掌握AI核心概念、理解行业趋势，并将理论转化为实践。 2025年，AI领域出现...
+关于Claude刚登顶，OpenAI就放出24小时不休息的编程A的收藏文章
 
 `deepseek` `[]` `agent` `openai` `codex`
 
@@ -1778,41 +1377,12 @@ Claude Code 支持 Rules 了，Agent 的生态在大融合了，文本化的 Ski
 
 ---
 
-## 📅 2025-11-05
-
-### [AI Fast Track免费5天课程 - 从基础到构建个人AI工具](/entry/95794bb0) 📄
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2025-11-05
-
-免费5天邮件课程，从ChatGPT使用到构建个人AI工具，无需编程基础，帮助用户超越简单使用，学会构建能解决实际问题的AI软件。
-
-`x` `ai-tools` `course` `automation`
-
----
-
-### [Allie K. Miller：免费 5 天课程，从「用 AI」升级到「构建 AI」](/entry/2228862e) 📄
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2025-11-05
-
-Allie K. Miller 推出免费 5 天 AI 课程，核心主张是从「使用 AI」升级到「构建 AI」。课程面向零基础用户，无需编程背景，聚焦用 Claude 打造个人自动化工具和工作流。内容包括把重复性任务变成可复用工具，是 AI 时代从消费者转型为创造者的实操路径。
-
-`x` `ai-tools` `workflow` `claude` `automation`
-
----
-
-### [AI Fast Track：零基础 5 天构建个人 AI 软件](/entry/054d7721) 📄
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2025-11-05
-
-Allie K. Miller 推出的免费 5 天邮件课程，面向零编程基础用户，教授用 Claude 构建个人 AI 软件、自动化工具和定制化应用。课程核心主张：超越简单 ChatGPT 提示词复制，学会真正用 AI 建造而非仅使用。适合想从 AI 使用者进阶为 AI 建造者的非技术人群。
-
-`x` `ai-tools` `course` `claude` `automation`
-
----
-
 ## 📅 2025-09-24
 
 ### [Enhancing Cursor and CodeBuddy: A Structured AI Collaboration Methodology](/entry/bcm7w7vv) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-09-24
 
-# Enhancing Cursor and CodeBuddy: A Structured AI Collaboration Methodology This article introduces a structured AI programming collaboration methodology, empowering developers to evolve from mere &#x27;users&#x27; into &#x27;architects&#x27; capable of systematically guiding AI, thus boosting development efficiency an...
+关于Enhancing Cursor and CodeBuddy的收藏文章
 
 `copilot` `[]` `prompt` `cursor` `agent`
 
@@ -1827,12 +1397,23 @@ Allie K. Miller 推出的免费 5 天邮件课程，面向零编程基础用户�
 
 ---
 
+## 📅 2025-08-06
+
+### [React to This Test：机器人的运动 Turing 测试](/entry/a24f75f4) 📄
+@@petitegeek · ⭐⭐⭐⭐4 🇨🇳 · 2025-08-06
+
+petitegeek 介绍了「React to This (RTT) 测试」——一种通过纯运动交互判断对象是否为远程操控机器人的 Turing 测试范式。测试要求参与者在1分钟内仅通过动作与机器人互动，结束时判断对方是真人还是机器。研究源自 ActiveSelf 网站提出的「运动很重要」框架，探讨了在无法使用语言的情况下，人类如何可靠地区分真人与机器人。对于关注具身 AI、人机交互评估方法论的研究者和产品设计者，这一测试框架提供了新的评估思路。
+
+`x` `ai-tools` `embodied-ai` `hri` `turing-test`
+
+---
+
 ## 📅 2025-07-19
 
 ### [Context Engineering for AI Agents: Lessons from Building Manus](/entry/zybyi5t5) 📄
 ⭐⭐⭐⭐4 🌐 · 2025-07-19
 
-# Context Engineering for AI Agents: Lessons from Building Manus This post shares the local optima Manus arrived at through our own &quot;SGD&quot;. If you&#x27;re building your own AI agent, we hope these principles help you converge faster. 2025/7/18 Yichao &#x27;Peak&#x27; Ji At the very beginning of the Manus project, m...
+从 Manus 构建经验总结的 Agent 上下文工程方法论
 
 `agent` `[]` `llm` `prompt`
 
@@ -1876,8 +1457,8 @@ Allie K. Miller 推出的免费 5 天邮件课程，面向零编程基础用户�
 
 AI 编码代理(以 Cursor 和 Claude Code 为例)的崛起及其深远影响
 软件开发行业正处在一个根本性的范式转换之中，其驱动力是人工智能编码代理（AI Coding Agents）的强势崛起。以 AI 原生集成开发环境（IDE）**Cursor** 和基于终端的代理工具 **Claude Code** 为代表的新一代工具，标志着从被动的 AI *辅助*（Assistance）到主动的 AI *代理*（Agency）的决定性飞跃。这一转变不仅带来了前所未有的生产力提升——研究表明，在特定任务上，开发者的完成速度可提升高达 55.8%
-Read in Cubox  
-Read Original
+
+
 注：本文由 Gemini 2.5 Pro 的 Deep Research 生成，隐去了其中的引用文章列表。
 软件开发行业正处在一个根本性的范式转换之...
 
@@ -1890,7 +1471,7 @@ Read Original
 ### [刚刚，Cursor 1.0炸裂发布！4大亮点实战 - 知乎](/entry/U5fxthHm) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-06-15
 
-炸裂，炸裂，炸裂！时隔两年半，Cursor 终于正式发布了 1.0 版本。
+Cubox 收藏 — 刚刚，Cursor 1.0炸裂发布！4大亮点实战 - 知乎
 
 ---
 
@@ -1908,7 +1489,7 @@ Read Original
 ### [Trae 重磅更新：AI编程+智能体+MCP，言出法随的新境界](/entry/zVUUhuXa) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-04-22
 
-?imageUrl=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAACIAAAAqCAMAAADhynmdAAAAQlBMVEUAAACcnJycnJycnJyoqKicnJycnJycnJycnJycnJyfn5%2BcnJydnZ2enp6kpKSdnZ2cnJyenp6cnJycnJycnJybm5t8KrXMAAAAFXRSTlMAyeb3CNp3tJRvHIEtJhBgqztWRJ%2Bp5TqGAAABCklEQVQ4y5...
+Cubox 收藏 — Trae 重磅更新：AI编程+智能体+MCP，言出法随的新境界
 
 ---
 
@@ -1917,7 +1498,7 @@ Read Original
 ### [【有嘴就能做开发】Cursor——AI编辑器 使用详解 - 知乎](/entry/KUhDnaSh) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-04-17
 
-?imageUrl=https%3A%2F%2Fpic4.zhimg.com%2Fv2-e16ddecead14b9bf72ee911ae24568b3_r.jpg&amp;valid=false) https://www.cursor.com
+Cubox 收藏 — 【有嘴就能做开发】Cursor——AI编辑器 使用详解 - 知乎
 
 ---
 
@@ -1937,7 +1518,7 @@ Read Original
 ### [“聊天式编程”让代码听你的话：Cursor打造极致心流体验](/entry/RLhhZudb) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-03-29
 
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg)
+Cubox 收藏 — “聊天式编程”让代码听你的话：Cursor打造极致心流体验
 
 ---
 
@@ -1949,8 +1530,8 @@ Read Original
 4 段超神提示词解锁 Claude 3.7 能力上限
 一段AI提示词能实现什么让人吃惊的效果！？
 之前说出都没人信，让我们眼见为实
-Read in Cubox  
-Read Original
+
+
 &gt; 橘子推荐语：
 &gt;
 &gt; Claude 在升级到 3.7 之后，能力获得了大幅提升，在前端编程方面已经远远超出其他模型，重新定义了 AI PPT 的概念，我已经把所有图表都交给 Claude 3.7 用代码直接写了。
@@ -1971,8 +1552,8 @@ Read Original
 
 AI 辅助编码的残酷真相：它能帮你完成70%的工作，但最后30%令人非常沮丧
 在过去几年深入参与 AI 辅助开发的过程中，我注意到一个非常有趣的现象：尽管许多工程师都表示自己在使用 AI 时生产力显著提升，但我们日常使用的软件却并没有明显变好。到底发生了什么？
-Read in Cubox  
-Read Original
+
+
 一份实战指南，以及为何我们需要重新审视自己的期望
 在过去几年深入参与 AI 辅助开发的过程中，我注意到一个非常有趣的现象：尽管许多工程师都表示自己在使用 AI 时生产力显著提升，但我们日常使用的软件却并没有明显变好。到底发生了什么？
 
@@ -2010,7 +1591,7 @@ Read Original
 ### [Cursor 深度评测：革命性提效工具还是过誉的玩具？](/entry/wyqaalah) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-12-31
 
-# Cursor 深度评测：革命性提效工具还是过誉的玩具？ 客观地说，我认为目前还不必过度焦虑，Cursor 很强，是非常出色辅助编码工具，但还无法完全替代人类。 最近 Cursor 很火，火到我身边的程序员们已经不聊河北彩花，LOL，黑猴等，而是在各种场合讨论这个 Cursor 的辅助编程能力。各类内容平台也在以惊人的速度，迭代出了许多相关教学视频： ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2F3xDuJ3eiciblmg3WmibvWzug1TAAn6P3C1ediaUmlyQMqbDwDIF2o5SbliasElZZde6...
+对 Cursor AI 编程工具的深度使用评测
 
 `[]` `llm` `cursor` `大模型`
 
@@ -2043,8 +1624,8 @@ AI 和写作 | Randy&#x27;s Blog | Randy&#x27;s Blog
 到底什么样的形式是一个好的写作 Copilot, 我也没有答案，但我认为它一定不能是侵入式的。它应该在一旁默默地观察我写出来的想法，然后在合适的时候告诉我它对此的观点。它有比我多得多的知识量，可以做到：
 在我提出一个观点时，找出其中可能的逻辑漏洞，帮助我更完整地思考。
 在我提出一个观点时，找出其在学术研究中对应的名词可以解释这个观点，甚至找出对应的科学实验、论文、现实中的案例。这在非虚构类写作中十分有帮助。我最近在读 Ali Abdaal 的 Feel good productivity 一书，里面十个观点有八个都能举出一个科学实验来论证，我基本可以单方面认为 Ali 一定是在用 GPT ...
-Read in Cubox  
-Read Original
+
+
 
 `ChatGPT` `Prompt Engineering` `Copilot` `Cursor`
 
@@ -2084,7 +1665,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ### [Building A Generative AI Platform](/entry/c4is4wst) 📄
 ⭐⭐⭐⭐4 🌐 · 2024-08-08
 
-# Building A Generative AI Platform After studying how companies deploy generative AI applications, I noticed many similarities in their platforms. This post outlines the common components of a... After studying how companies deploy generative AI applications, I noticed many similarities in their pl...
+Cubox 收藏: Building A Generative AI Platform
 
 `anthropic` `[]` `prompt` `rag` `openai`
 
@@ -2095,7 +1676,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ### [吴恩达：从 Agent 到 Agentic Workflow ，AI 的未来何去何从？](/entry/kTN3RZ28) 📄
 ⭐⭐⭐⭐4 🌐 · 2024-06-24
 
-[需翻译] *关注**AI 技能**，开启智能生活！* *?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2Fb96CibCt70iaajvl7fD4ZCicMcjhXMp1v6UibM134tIsO1j5yqHyNhh9arj090oAL7zGhRJRq6cFqFOlDZMleLl4pw%2F640%3Fwx_fmt%3Dpng%26wxfrom%3D5%26wx_lazy%3D1%26wx_co%3D1)*
+Cubox 收藏 — 吴恩达：从 Agent 到 Agentic Workflow ，AI 的未来何去何从？
 
 ---
 
@@ -2104,11 +1685,7 @@ AI 将在可预见的未来深刻影响软件开发行业。 Cursor 是一款基
 ### [AI copilot 能提升开发效率么？](/entry/6e1u2aox) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-05-27
 
-可能是全网最完整的探讨关于 copilot 写代码优劣及使用场景注意事项的文章
-Read in Cubox  
-Read Original
-作为 Github copilot 刚 beta 发布就重度使用至今的有二十多年码龄四十多岁还在写代码的码农，我觉得我有足够的说服力来阐述我对这个问题的理解。当然，口说无凭，本着「谁主张谁举证」的民事诉讼原则，我拿 github 自身的 copilot statistics API 看了一下我过去近三周的使用数据（我不是每天都写代码，所以有些天没数据），惊奇地发现我使用 copilot 比我想象得还要「勤劳」：
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FSER9L29WQ0ibDKKnrjb47jXv8zQtgfpUTwCl7jE5DOQwwz3iao...
+Cubox 收藏文章，ide-editor 领域相关内容
 
 `Copilot`
 
@@ -2155,7 +1732,7 @@ Cubox 收藏 — 深入探讨GPTs和AI Assistant
 ### [GitHub - Torantulino/Auto-GPT: An experimental ope...](/entry/4sl0bq8x) ⭐183,958 📄
 ⭐⭐⭐⭐4 🌐 · 2023-04-13
 
-# GitHub - Torantulino/Auto-GPT: An experimental ope... Auto-GPT: An Autonomous GPT-4 Experiment 💡 Get help - Q\&amp;A or Discord 💬 🔴 USE `stable` not `master` 🔴 Download the latest `stable` release from here: &lt;https://github.com/Significant-Gravitas/Auto-GPT/releases/latest&gt;. The `master` branch is und...
+Auto-GPT 开源自主 Agent 的早期探索
 
 `gpt-4` `[]` `llm`
 
@@ -2166,7 +1743,7 @@ Cubox 收藏 — 深入探讨GPTs和AI Assistant
 ### [Fine-tuning - OpenAI API](/entry/56u6sev2) 📄
 ⭐⭐⭐⭐4 🌐 · 2023-04-03
 
-# Fine-tuning - OpenAI API Fine-tuning {#fine-tuning} Learn how to customize a model for your application. Introduction {#introduction} Fine-tuning lets you get more out of the models available through the API by providing: 1. Higher quality results than prompt design 2. Ability to train on more exa...
+OpenAI Fine-tuning API 官方文档
 
 `[]` `openai` `prompt` `fine-tuning`
 
@@ -2177,7 +1754,7 @@ Cubox 收藏 — 深入探讨GPTs和AI Assistant
 ### [Deploying Transformers on the Apple Neural Engine - Apple Machine Learning Research](/entry/6xwg2sj2) 📄
 ⭐⭐⭐⭐4 🌐 · 2023-04-02
 
-# Deploying Transformers on the Apple Neural Engine - Apple Machine Learning Research An increasing number of the machine learning (ML) models we build at Apple each year are either partly or fully adopting the [Transformer… An increasing number of the machine learning (ML) models we build at Apple ...
+Apple Neural Engine 上部署 Transformer 的技术方案
 
 `transformer` `[]` `inference`
 
@@ -2199,7 +1776,7 @@ Cubox 收藏 — 深入探讨GPTs和AI Assistant
 ### [Can GPT-4 *Actually* Write Code?](/entry/wu00h8om) 📄
 ⭐⭐⭐⭐4 🌐 · 2023-03-19
 
-# Can GPT-4 *Actually* Write Code? I test GPT 4&#x27;s code-writing capabilities with some actual real world problems. Since ChatGPT came out I&#x27;ve seen quite a lot of people posting about its capability to write code. People have posted about how they had it design and implement a number puzzle game (wit...
+Cubox 收藏: Can GPT-4 *Actually* Write Code?
 
 `gpt-4` `[]` `prompt` `chatgpt`
 
@@ -2207,25 +1784,25 @@ Cubox 收藏 — 深入探讨GPTs和AI Assistant
 
 ## 📅 2023-03-09
 
+### [2023年最新AIGC绘画水平发展](/entry/1kxhgva3) 📄
+@yiqiuzheng，腾讯 IEG 前端工程师 · ⭐⭐⭐⭐4 🇨🇳 · 2023-03-09
+
+
+
+作者：yiqiuzheng，腾讯 IEG 前端工程师
+这两年 AI 关键词频频热搜，从 2022 年 4 月初代码自动补全神器`Copilot`点燃程序员圈，到 10 月中旬的 AI 绘画`Stable Diffcusion 1.0`震惊绘画圈，最后到如今的`ChatGPT`引爆全网各领域。AI 人工智能时代已然到来。在 2023 年，AI 绘画技术和应用的发展已经非常迅速。目前，AI 绘画技术已经能够生成逼真的图像、视频和音频，同时还能够模仿艺术家的风格，创造出令人惊叹的艺术作品。
+但是这些早期的 AI 绘画模型要么被大公司长久把持(例如`OpenAI`公司，他们早在 2021 年就推出了`Dall-E1AI`绘画模型，并未开源。直到`Stability AI`公司于 2022 年 8 月...
+
+`ChatGPT` `OpenAI` `AIGC` `Stable Diffusion` `Copilot`
+
+---
+
 ### [ChatGPT 在做什么… 以及它为何发挥作用？](/entry/ftvnh74m) 📄
 @Stephen Wolfram，发表于 2023年2月14日原文链接：https://writing · ⭐⭐⭐⭐4 🇨🇳 · 2023-03-09
 
 # ChatGPT 在做什么… 以及它为何发挥作用？ 作者：Stephen Wolfram，发表于 2023年2月14日原文链接：https://writings 作者 ：Stephen Wolfram，发表于 2023年2月14日 原文链接 ：https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/ 文章字数 ：约 3.4 万字  建议收藏后阅读...... 提示：本文包括一百多张图片...... 微信公共账号的编辑器经常会出现图片处理错误（尤其是在使用 Markdown 处...
 
 `[]` `llm` `chatgpt`
-
----
-
-### [2023年最新AIGC绘画水平发展](/entry/1kxhgva3) 📄
-@yiqiuzheng，腾讯 IEG 前端工程师 · ⭐⭐⭐⭐4 🇨🇳 · 2023-03-09
-
-Read in Cubox  
-Read Original
-作者：yiqiuzheng，腾讯 IEG 前端工程师
-这两年 AI 关键词频频热搜，从 2022 年 4 月初代码自动补全神器`Copilot`点燃程序员圈，到 10 月中旬的 AI 绘画`Stable Diffcusion 1.0`震惊绘画圈，最后到如今的`ChatGPT`引爆全网各领域。AI 人工智能时代已然到来。在 2023 年，AI 绘画技术和应用的发展已经非常迅速。目前，AI 绘画技术已经能够生成逼真的图像、视频和音频，同时还能够模仿艺术家的风格，创造出令人惊叹的艺术作品。
-但是这些早期的 AI 绘画模型要么被大公司长久把持(例如`OpenAI`公司，他们早在 2021 年就推出了`Dall-E1AI`绘画模型，并未开源。直到`Stability AI`公司于 2022 年 8 月...
-
-`ChatGPT` `OpenAI` `AIGC` `Stable Diffusion` `Copilot`
 
 ---
 

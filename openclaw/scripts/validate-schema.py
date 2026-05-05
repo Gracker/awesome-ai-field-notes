@@ -7,6 +7,7 @@ validate-schema.py — 校验 entries.json v2.0 结构合规
 """
 
 import json
+import re
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -22,7 +23,22 @@ VALID_SOURCE_TYPES = {"github", "paper", "article", "x_post", "tweet", "newslett
 VALID_LANGUAGES = {"en", "zh", "both"}
 VALID_STATUSES = {"active", "archived", "deprecated", "score-pending"}
 VALID_ONE_LINER_AUTHORS = {"gracker", "openclaw", "community-pending"}
-VALID_PLATFORMS = {"x", "twitter", "cubox", "arxiv", "github", "blog", "newsletter", "youtube", "manual", "unknown"}
+VALID_PLATFORMS = {
+    "x",
+    "twitter",
+    "cubox",
+    "arxiv",
+    "github",
+    "blog",
+    "newsletter",
+    "youtube",
+    "manual",
+    "unknown",
+    "wechat",
+    "news",
+    "google",
+    "anthropic",
+}
 RELATIVE_DATE_WORDS = {
     "今天", "昨天", "前天", "明天", "后天", "今日", "昨日", "本周", "上周", "下周",
     "today", "yesterday", "tomorrow", "this week", "last week", "next week",
@@ -40,6 +56,8 @@ CATEGORY_ALIASES = {
     "strategy": "industry",
     "ai-ux": "industry",
     "llm-infra": "infra",
+    "llm-engineering": "infra",
+    "llm-engineering/inference-optimization": "infra",
     "infrastructure": "infra",
     "hardware-chips": "infra",
     "ai-hardware": "infra",
@@ -68,6 +86,21 @@ def has_relative_date_word(value):
     lowered = value.lower()
     return any(word in lowered for word in RELATIVE_DATE_WORDS)
 
+
+def is_low_signal_entry(entry):
+    title = str(entry.get("title") or "")
+    summary = str(entry.get("summary_zh") or "")
+    summary_en = str(entry.get("summary_en") or "")
+    one_liner = str(entry.get("one_liner") or "")
+    tags = {str(t).lower() for t in entry.get("tags", [])}
+    return (
+        title.startswith("高价值AI内容 -")
+        or one_liner.startswith("高价值AI内容 -")
+        or re.match(r"^来自@[^，。\s]+的高价值AI相关内容", summary) is not None
+        or summary_en.startswith("High-value AI content from @")
+        or ("high-value" in tags and len(summary) < 50)
+    )
+
 def validate_entries(filepath=None):
     if filepath is None:
         filepath = BASE_DIR / "data" / "entries.json"
@@ -81,7 +114,7 @@ def validate_entries(filepath=None):
     
     errors = []
     warnings = []
-    seen_urls = set()
+    seen_active_urls = set()
     seen_ids = set()
     
     for i, e in enumerate(entries):
@@ -104,12 +137,12 @@ def validate_entries(filepath=None):
             errors.append(f"{idx} ID 重复: {eid}")
         seen_ids.add(eid)
         
-        # URL unique (skip nulls)
+        # Active URL unique (archived duplicates can remain as historical records)
         url = e.get("url")
-        if url:
-            if url in seen_urls:
-                warnings.append(f"{idx} URL 重复: {url}")
-            seen_urls.add(url)
+        if url and e.get("status") == "active":
+            if url in seen_active_urls:
+                warnings.append(f"{idx} 活跃 URL 重复: {url}")
+            seen_active_urls.add(url)
         
         # source object
         source = e.get("source")
@@ -150,8 +183,10 @@ def validate_entries(filepath=None):
         
         # summary_zh length
         summary = e.get("summary_zh", "")
-        if len(summary) > 0 and len(summary) < 20:
+        if e.get("status") == "active" and len(summary) > 0 and len(summary) < 20:
             warnings.append(f"{idx} summary_zh 过短: {len(summary)} 字符")
+        if e.get("status") == "active" and e.get("quality_score", 0) >= 3 and is_low_signal_entry(e):
+            warnings.append(f"{idx} 活跃高分条目疑似占位内容，应补充可读标题/摘要或归档: {e.get('id')}")
         
         # date format
         for date_field in ["added_date", "updated_date", "published_date"]:

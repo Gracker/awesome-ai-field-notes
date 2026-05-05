@@ -1,6 +1,6 @@
 # 🧠 模型
 
-GPT / Claude / Gemini / 开源模型 / 架构 — 共 **76** 条活跃资源
+GPT / Claude / Gemini / 开源模型 / 架构 — 共 **80** 条活跃资源
 
 ## 📅 2026-05-01
 
@@ -16,84 +16,7 @@ xAI 发布 Grok 4.3 模型，主打&quot;常驻推理&quot;（always-on reasonin
 ### Anthropic 发布 Claude Opus 4.7，性能如何？
 @作者 · ⭐⭐⭐3 🌐 · 2026-05-01
 
---- id: &quot;7444657403628355949&quot; cubox_url: https://cubox. pro/web/card/7444657403628355949 url: https://mp. __biz=MzIyNjM2MzQyNg==&amp;mid=2247721960&amp;idx=1&amp;sn=42ea431032242f75c000ca2af378d67f&amp;chksm=e9e69e53b9ddc4e83e518bbb9bc8f7accfd28d706ec1093f419998746731735681f0a6e46a3a&amp;mpshare=1&amp;scene=1&amp;srcid=0417mSD
-
----
-
-### [Gemini 3 Flash is now available in Gemini CLI](https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/)
-⭐⭐⭐3 🌐 · 2026-05-01
-
-&gt; **来源：** Google Developers Blog &gt; **原文链接：** https://developers. com/gemini-3-flash-is-now-available-in-gemini-cli/ &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- DEC. 17, 2025 Gemini 3 Flash is now available in Gemini CLI, supporting high-frequency workflows common to terminal-based work. Gemini 3 Flash
-
----
-
-### 丢掉沉重的记忆：Codex、Claude Code 与 OpenCode 的上下文压缩术 | Justin3go
-⭐⭐⭐3 🌐 · 2026-05-01
-
-坚持深耕技术领域的 T 型前端程序员, 关注独立开发与 AI，喜欢 Vuejs、Nestjs, 还会点 Python、搜索引擎、NLP、Web3、后端 [Read in Cubox](https://cubox. pro/web/card/7442911565721897000) [Read Original](https://justin3go. com/posts/2026/04/09-context-compaction-in-codex-claude-code-and-opencode) --- &gt; ✨文章摘要（AI生成） 本文以一个 15,400 tokens 的登录 Bug 修复场
-
----
-
-### 四项新研究一致显示：LLM 医疗建议准确率低，不应作为临床决策依据
-⭐⭐⭐3 🌐 · 2026-05-01
-
-Source: Gary Marcus | 2026-04-23 URL: https://garymarcus. com/p/please-dont-trust-your-chatbot-for &gt; 注：原文抓取失败，此内容基于 RSS 摘要整理. Gary Marcus compiles four new studies warning against LLM medical advice. BMJ: nearly 50% of chatbot responses on cancer/vaccines/nutrition had serious problems, delivered wi
-
----
-
-### [八个和 Claude Code 编码时的小技巧](https://www.ccgxk.com/codeother/717.html%3E)
-⭐⭐⭐3 🌐 · 2026-05-01
-
---- title: &quot;八个和 Claude Code 编码时的小技巧&quot; source: &quot;rss&quot; category: &quot;tech&quot; feed: &quot;rss_item_2b5492b6&quot; group: &quot;Articles/CN-Blog/串串狗小刊  ⭐️&quot; url: &quot;https://www. html&quot; published: &quot;2026-04-16T16:19:28Z&quot; captured_at: &quot;2026-04-17T03:04:34+08:00&quot; tags: [&quot;rss&quot;, &quot;rss/tech&quot;, &quot;rss/Articles&quot;] --- 原文链接：&lt;https://www. html&gt;
-
----
-
-### ChatGPT Images 2.0 发布，Where&#x27;s Waldo 风格测试引发争议
-⭐⭐⭐3 🌐 · 2026-05-01
-
-Source: Simon Willison | 2026-04-21 URL: https://simonwillison. net/2026/Apr/21/gpt-image-2/ OpenAI 发布 ChatGPT Images 2. 0，Sam Altman 称从 gpt-image-1 到 2 是巨大飞跃. Simon Willison 测试发现：细节还原很好但文字渲染仍有错误；让模型找自己生成的 raccoon 并画红圈，模型答错了自己在图里画的内容——说明多模态模型的自我验证能力仍存在明显漏洞. 这类 Where&#x27;s Waldo 风格测试暴露了当前图像生成+视觉推理 pipeli
-
----
-
-### Claude Code 从 Pro 版移除引发信任危机，Anthropic 仅靠一条推文回应
-⭐⭐⭐3 🌐 · 2026-05-01
-
-Source: Simon Willison | 2026-04-22 URL: https://simonwillison. net/2026/Apr/22/claude-code-confusion/ &gt; 注：原文抓取失败，此内容基于 RSS 摘要整理. Anthropic quietly moved Claude Code from the $20/month Pro plan to the $100/month Max plan on claude. com/pricing, sparking outrage across Reddit/HN/Twitter. An Anthropic
-
----
-
-### Gemini 3.1 Flash TTS：表现力最强、控制粒度最细的语音合成模型
-⭐⭐⭐3 🌐 · 2026-05-01
-
-**English Title:** Gemini 3. 1 Flash TTS: Our most expressive and controllable text-to-speech model yet **Author:** @GoogleAI **Source:** [X/Twitter](https://x. com/GoogleAI/status/2044447638511383024) **Quality Score:** 4 **Tags:** x, ai-tools, tts, gemini, google, content-creation **Summary:** 无 -
-
----
-
-### Gemini 3.1 Flash TTS：最强表现力语音合成模型，70语言覆盖
-⭐⭐⭐3 🌐 · 2026-05-01
-
-**质量评分：5** **来源：** [https://x. com/GoogleAI/status/2044447638511383024](https://x. com/GoogleAI/status/2044447638511383024) **抓取时间：** 2026-04-18 --- 原文： &gt; Today we launched Gemini 3. 1 Flash TTS, our most expressive and controllable text-to-speech model yet. This launch includes audio tags. 🗣🏷 Audio
-
----
-
-### Nature 论文：LLM 可通过隐含数据信号向另一 LLM 传递隐藏偏好与行为特征
-⭐⭐⭐3 🌐 · 2026-05-01
-
-**English Title:** Research we co-authored on subliminal learning — one AI can secretly pass on preferences or habits to another AI through hidden signals in training data. **Author:** @AnthropicAI **Source:** [X/Twitter](https://x. com/AnthropicAI/status/2044493337835802948) **Quality Score:** 4 **
-
----
-
-### 深度调研：Claude Code 最强配置单 · 9 个 GitHub 工具深度评测
-⭐⭐⭐3 🌐 · 2026-05-01
-
-**调研时间：** 2026-04-16 **调研人：** AI 助理（Subagent） **主题分类：** AI 开发工具 / Claude Code 生态 --- Claude Code 已成为当前 AI 辅助编程的事实标准，而其真正的威力取决于周边工具链的搭配质量. 本次调研覆盖 9 款 GitHub 上与 Claude Code 强相关的工具与插件，按功能分为知识增强、技能增强、自动化设计三类. 核心结论：**Superpowers** 和 **GSD** 是本次评测中唯二达到&quot;必装&quot;标准的工具——前者重塑了软件工程的纪律与方法论，后者用原子化 subagent 执行模型根治了长会话
-
----
-
-### 深度解析 Claude Code 在 Prompt / Context / Harness 的设计与实践
-⭐⭐⭐3 🌐 · 2026-05-01
-
-__biz=MzIzOTU0NTQ0MA==&amp;mid=2247559627 作者: 阿里妹（技术实践与独立思考） 本文从 Prompt Engineering（提示词工程）、Context Engineering（上下文工程）和 Harness Engineering（驾驭工程）三个维度，系统解析 Claude Code 的内部设计，提炼可复用的 Agent 系统方法论. Claude Code 的 System Prompt 是一个多层级、动态组装的过程，通过以下六步实现： 1. **QueryEngine 发起请求**：`ask()` → `fetchSystemPromptParts()
+有参考价值的models内容
 
 ---
 
@@ -104,10 +27,24 @@ __biz=MzIzOTU0NTQ0MA==&amp;mid=2247559627 作者: 阿里妹（技术实践与独
 
 ---
 
-### GPT-2 规模模型训练干预实验：学习率是最大变量，Dropout 反而有害
+### ChatGPT Images 2.0 发布，Where&#x27;s Waldo 风格测试引发争议
 ⭐⭐⭐3 🌐 · 2026-05-01
 
-Source: Giles Thomas | 2026-04-23 URL: https://www. com/2026/04/llm-from-scratch-32m-interventions-conclusion Giles Thomas 在自己训练 GPT-2 规模模型（163M 参数，44 小时本地训练）过程中系统性测试了多种干预手段. 按效果排序：学习率调整（最大收益）+ 调度；Weight decay（有效）；QKV bias（微小帮助）；Gradient clipping（效果有限）；PyTorch AMP（训练速度翻倍但 loss 轻微变差）；Weight tying（反而让
+Source: Simon Willison | 2026-04-21 URL: https://simonwillison. net/2026/Apr/21/gpt-image-2/ OpenAI 发布 ChatGPT Images 2. 0，Sam Altman 称从 gpt-image-1 到 2 是巨大飞跃. Simon Willison 测试发现：细节还原很好但文字渲染仍有错误；让模型找自己生成的 raccoon 并画红圈，模型答错了自己在图里画的内容——说明多模态模型的自我验证能力仍存在明显漏洞. 这类 Where&#x27;s Waldo 风格测试暴露了当前图像生成+视觉推理 pipeli
+
+---
+
+### Claude Code 2026: New Features and Agentic Capabilities
+⭐⭐⭐3 🌐 · 2026-05-01
+
+&gt; 发布时间: 2026-04-24 &gt; 作者: Anthropic Team --- **摘要 / Summary:** Claude Code 在 2026 年迎来重大更新，第一季度发布了多个重要功能：Remote Control（远程控制）、Dispatch（后台工作流）、Channels（频道）、Computer Use（计算机控制）、Auto Mode（自动模式）和 AutoDream. Sonnet 5 &quot;Fennec&quot; 作为 Claude 5 代的第一个模型，拥有 100 万 token 上下文窗口，并引入 Dev Team 多智能体协作模式. 界面重新设计集成了终端、文件编辑、
+
+---
+
+### Claude Code 从 Pro 版移除引发信任危机，Anthropic 仅靠一条推文回应
+⭐⭐⭐3 🌐 · 2026-05-01
+
+Source: Simon Willison | 2026-04-22 URL: https://simonwillison. net/2026/Apr/22/claude-code-confusion/ &gt; 注：原文抓取失败，此内容基于 RSS 摘要整理. Anthropic quietly moved Claude Code from the $20/month Pro plan to the $100/month Max plan on claude. com/pricing, sparking outrage across Reddit/HN/Twitter. An Anthropic
 
 ---
 
@@ -118,17 +55,38 @@ Source: Giles Thomas | 2026-04-23 URL: https://www. com/2026/04/llm-from-scratch
 
 ---
 
-### [iamzhihuix/skills-manage: Desktop app to manage AI coding agent skills across Claude Code, Cursor, G](https://github.com/iamzhihuix/skills-manage)
-@作者 · ⭐⭐⭐3 🌐 · 2026-05-01
+### GPT-2 规模模型训练干预实验：学习率是最大变量，Dropout 反而有害
+⭐⭐⭐3 🌐 · 2026-05-01
 
-&gt; 备注：原文抓取自 GitHub（iamzhihuix/skills-manage），README 全文保存于此. &gt; 原文链接：https://github. com/iamzhihuix/skills-manage &gt; 作者：iamzhihuix &gt; 发表时间：2026-04-21 &gt; 抓取时间：2026-04-22 --- （全文见 Obsidian 本地备份：`Cubox/iamzhihuix-skills-manage- Desktop app to manage AI coding agent skills across Claude Code, Cursor, G
+Source: Giles Thomas | 2026-04-23 URL: https://www. com/2026/04/llm-from-scratch-32m-interventions-conclusion Giles Thomas 在自己训练 GPT-2 规模模型（163M 参数，44 小时本地训练）过程中系统性测试了多种干预手段. 按效果排序：学习率调整（最大收益）+ 调度；Weight decay（有效）；QKV bias（微小帮助）；Gradient clipping（效果有限）；PyTorch AMP（训练速度翻倍但 loss 轻微变差）；Weight tying（反而让
 
 ---
 
-### 它是什么？和 Claude Code 有什么区别？
+### [Gemini 3 Flash is now available in Gemini CLI](https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/)
 ⭐⭐⭐3 🌐 · 2026-05-01
 
-与此同时，Anthropic 的年经常性收入刚突破 300 亿美元，是去年 12 月的三倍. 华尔街已经开始紧张了，WSJ 说投资者对传统 SaaS 公司的股价越来越谨慎，担心 Anthropic 这类产品会让一些传统软件服务变得多余. 和你已经在用的 Claude Code 有什么区别. 如果你用过 Claude Code，你知道 AI 智能体怎么工作：你给它一个任务，它自己规划步骤、调用工具、写代码、改文件，一步步把事做完. Claude Code 跑在你自己的电脑上，是给开发者个人用的命令行工具. Managed Agents 跑在 Anthropic 的云上，是给企业用的 API 服务
+&gt; **来源：** Google Developers Blog &gt; **原文链接：** https://developers. com/gemini-3-flash-is-now-available-in-gemini-cli/ &gt; **抓取时间：** 2026-04-23 &gt; **原始语言：** 英文 --- DEC. 17, 2025 Gemini 3 Flash is now available in Gemini CLI, supporting high-frequency workflows common to terminal-based work. Gemini 3 Flash
+
+---
+
+### Gemini 3.1 Flash TTS：最强表现力语音合成模型，70语言覆盖
+⭐⭐⭐3 🌐 · 2026-05-01
+
+**质量评分：5** **来源：** [https://x. com/GoogleAI/status/2044447638511383024](https://x. com/GoogleAI/status/2044447638511383024) **抓取时间：** 2026-04-18 --- 原文： &gt; Today we launched Gemini 3. 1 Flash TTS, our most expressive and controllable text-to-speech model yet. This launch includes audio tags. 🗣🏷 Audio
+
+---
+
+### Gemini 3.1 Flash TTS：表现力最强、控制粒度最细的语音合成模型
+⭐⭐⭐3 🌐 · 2026-05-01
+
+**English Title:** Gemini 3. 1 Flash TTS: Our most expressive and controllable text-to-speech model yet **Author:** @GoogleAI **Source:** [X/Twitter](https://x. com/GoogleAI/status/2044447638511383024) **Quality Score:** 4 **Tags:** x, ai-tools, tts, gemini, google, content-creation **Summary:** 无 -
+
+---
+
+### Nature 论文：LLM 可通过隐含数据信号向另一 LLM 传递隐藏偏好与行为特征
+⭐⭐⭐3 🌐 · 2026-05-01
+
+有参考价值的models内容
 
 ---
 
@@ -139,10 +97,85 @@ GitHub: https://github. com/freestylefly/awesome-gpt-image-2 Stars: 1235 (截至
 
 ---
 
-### Claude Code 2026: New Features and Agentic Capabilities
+### [iamzhihuix/skills-manage: Desktop app to manage AI coding agent skills across Claude Code, Cursor, G](https://github.com/iamzhihuix/skills-manage)
+@作者 · ⭐⭐⭐3 🌐 · 2026-05-01
+
+&gt; 备注：原文抓取自 GitHub（iamzhihuix/skills-manage），README 全文保存于此. &gt; 原文链接：https://github. com/iamzhihuix/skills-manage &gt; 作者：iamzhihuix &gt; 发表时间：2026-04-21 &gt; 抓取时间：2026-04-22 --- （全文见 Obsidian 本地备份：`Cubox/iamzhihuix-skills-manage- Desktop app to manage AI coding agent skills across Claude Code, Cursor, G
+
+---
+
+### 丢掉沉重的记忆：Codex、Claude Code 与 OpenCode 的上下文压缩术 | Justin3go
 ⭐⭐⭐3 🌐 · 2026-05-01
 
-&gt; 发布时间: 2026-04-24 &gt; 作者: Anthropic Team --- **摘要 / Summary:** Claude Code 在 2026 年迎来重大更新，第一季度发布了多个重要功能：Remote Control（远程控制）、Dispatch（后台工作流）、Channels（频道）、Computer Use（计算机控制）、Auto Mode（自动模式）和 AutoDream. Sonnet 5 &quot;Fennec&quot; 作为 Claude 5 代的第一个模型，拥有 100 万 token 上下文窗口，并引入 Dev Team 多智能体协作模式. 界面重新设计集成了终端、文件编辑、
+坚持深耕技术领域的 T 型前端程序员, 关注独立开发与 AI，喜欢 Vuejs、Nestjs, 还会点 Python、搜索引擎、NLP、Web3、后端   --- &gt; ✨文章摘要（AI生成） 本文以一个 15,400 tokens 的登录 Bug 修复场
+
+---
+
+### [八个和 Claude Code 编码时的小技巧](https://www.ccgxk.com/codeother/717.html%3E)
+⭐⭐⭐3 🌐 · 2026-05-01
+
+有参考价值的models内容
+
+---
+
+### 四项新研究一致显示：LLM 医疗建议准确率低，不应作为临床决策依据
+⭐⭐⭐3 🌐 · 2026-05-01
+
+Source: Gary Marcus | 2026-04-23 URL: https://garymarcus. com/p/please-dont-trust-your-chatbot-for &gt; 注：原文抓取失败，此内容基于 RSS 摘要整理. Gary Marcus compiles four new studies warning against LLM medical advice. BMJ: nearly 50% of chatbot responses on cancer/vaccines/nutrition had serious problems, delivered wi
+
+---
+
+### 它是什么？和 Claude Code 有什么区别？
+⭐⭐⭐3 🌐 · 2026-05-01
+
+与此同时，Anthropic 的年经常性收入刚突破 300 亿美元，是去年 12 月的三倍. 华尔街已经开始紧张了，WSJ 说投资者对传统 SaaS 公司的股价越来越谨慎，担心 Anthropic 这类产品会让一些传统软件服务变得多余. 和你已经在用的 Claude Code 有什么区别. 如果你用过 Claude Code，你知道 AI 智能体怎么工作：你给它一个任务，它自己规划步骤、调用工具、写代码、改文件，一步步把事做完. Claude Code 跑在你自己的电脑上，是给开发者个人用的命令行工具. Managed Agents 跑在 Anthropic 的云上，是给企业用的 API 服务
+
+---
+
+### 深度解析 Claude Code 在 Prompt / Context / Harness 的设计与实践
+⭐⭐⭐3 🌐 · 2026-05-01
+
+__biz=MzIzOTU0NTQ0MA==&amp;mid=2247559627 作者: 阿里妹（技术实践与独立思考） 本文从 Prompt Engineering（提示词工程）、Context Engineering（上下文工程）和 Harness Engineering（驾驭工程）三个维度，系统解析 Claude Code 的内部设计，提炼可复用的 Agent 系统方法论. Claude Code 的 System Prompt 是一个多层级、动态组装的过程，通过以下六步实现： 1. **QueryEngine 发起请求**：`ask()` → `fetchSystemPromptParts()
+
+---
+
+### 深度调研：Claude Code 最强配置单 · 9 个 GitHub 工具深度评测
+⭐⭐⭐3 🌐 · 2026-05-01
+
+**调研时间：** 2026-04-16 **调研人：** AI 助理（Subagent） **主题分类：** AI 开发工具 / Claude Code 生态 --- Claude Code 已成为当前 AI 辅助编程的事实标准，而其真正的威力取决于周边工具链的搭配质量. 本次调研覆盖 9 款 GitHub 上与 Claude Code 强相关的工具与插件，按功能分为知识增强、技能增强、自动化设计三类. 核心结论：**Superpowers** 和 **GSD** 是本次评测中唯二达到&quot;必装&quot;标准的工具——前者重塑了软件工程的纪律与方法论，后者用原子化 subagent 执行模型根治了长会话
+
+---
+
+## 📅 2026-04-30
+
+### [DeepSeek V4 发布：1.6 万亿参数、适配华为昇腾，API 价格再砍至首发价十分之一](/entry/xvi0a2ze) 📄
+@36氪 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-30
+
+DeepSeek 发布 V4 系列，包含 1.6 万亿参数的 V4-Pro 和 2840 亿参数的 V4-Flash，均支持 100 万 token 上下文窗口，MIT 开源。V4 发布前未向英伟达和 AMD 提供早期访问，而是提前数周让华为进行软件适配优化，这是大模型行业首次。API 缓存命中价格降至首发价的十分之一，V4-Pro 已成为 DeepSeek 内部 Agentic Coding 模型。
+
+`deepseek` `v4` `huawei` `ascend` `open-source`
+
+---
+
+## 📅 2026-04-29
+
+### [Centaur 认知模型遭质疑：号称模拟人类思维 160 项任务，实际&quot;知道答案但不懂问题&quot;](/entry/fkddi34q) 📄
+@ScienceDaily · ⭐⭐⭐3 🌐 · 2026-04-29
+
+此前被报道为认知心理学突破的 AI 模型 Centaur，声称能在 160 项认知任务上模拟人类思维。但新研究发现其最大局限在于语言理解——能给出正确答案但无法识别问题背后的意图。数据拟合层面的表现不等于认知模拟能力，对&quot;AI 已接近人类认知能力&quot;的叙事提出了重要修正。
+
+`ai-research` `cognitive-science` `centaur` `criticism`
+
+---
+
+## 📅 2026-04-27
+
+### [阿里发布 Qwen3.6-Max-Preview：六项 Agent/Coding 基准测试第一，但旗舰模型转向闭源](/entry/7g7c7j7d) 📄
+@Alibaba / Qwen Team · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-27
+
+阿里发布 Qwen3.6-Max-Preview，在 SWE-Bench Pro、Terminal-Bench 2.0、SkillsBench、SciCode、QwenClawBench、QwenWebBench 六项 Agent 和编程基准测试中排名第一。输入价格 1.04 美元/百万 token，输出 6.24 美元/百万 token。但旗舰 Max 版本不再完全开源，阿里转向&quot;小模型开源、旗舰闭源&quot;的中间路线。
+
+`qwen` `alibaba` `agent` `coding` `benchmark`
 
 ---
 
@@ -203,13 +236,6 @@ MiniMax M2.7 模型权重已在 Hugging Face 公开，达到 SWE-Pro 56.22% 和 
 
 ## 📅 2026-04-06
 
-### [GPT-5.5 官方提示词指南核心要点](/entry/fc4034b3) 📄
-@作者 · ⭐⭐⭐⭐4 🌐 · 2026-04-06
-
-- **来源**：X/Twitter - **原文链接**：https://x. com/dotey/status/2049624930887614648 - **作者**：宝玉 - **日期**：2026-04-06 - **抓取时间**：2026-05-01 00:06 --- GPT-5. 4 只隔了六周，API 定价每百万输入 Token 5 美元、输出 30 美元，上下文窗口 100 万 Token，目前已面向 Plus、Pro、Business 和 Enterprise https://t. co/QiruNVS7mI&quot; / X Markdown Content: OpenAI 上
-
----
-
 ### [Andrew Ng：AI智能体加速编程，软件工程的未来走向何方？](/entry/14ddc3ca) 📄
 @@AndrewYNg · ⭐⭐⭐⭐4  · 2026-04-06
 
@@ -219,10 +245,10 @@ Andrew Ng在AI开发者大会上指出：AI让编程更容易将带来更多人�
 
 ---
 
-### [OpenAIがGPT-5の技術詳細を一部公開](https://x.com/maria_garcia/status/177456789012345678)
-@作者 · ⭐⭐⭐3 🌐 · 2026-04-06
+### [GPT-5.5 官方提示词指南核心要点](/entry/fc4034b3) 📄
+@作者 · ⭐⭐⭐⭐4 🌐 · 2026-04-06
 
-- **来源**：X/Twitter - **原文链接**：https://x. com/maria_garcia/status/177456789012345678 - **作者**：maria_garcia - **日期**：2026-04-06 - **抓取时间**：2026-04-23 12:28 --- OpenAIがGPT-5の技術詳細を一部公開しました. 特にマルチモーダル能力の向上が注目されています. - 画像入力からのコード生成精度が85%に達 - 音声認識の精度が大幅に向上 - ビデオ理解能力の導入 GPT-5のプログラミング能力の向上は、教育分野で大きな可能性を秘めていま
+- **来源**：X/Twitter - **原文链接**：https://x. com/dotey/status/2049624930887614648 - **作者**：宝玉 - **日期**：2026-04-06 - **抓取时间**：2026-05-01 00:06 --- GPT-5. 4 只隔了六周，API 定价每百万输入 Token 5 美元、输出 30 美元，上下文窗口 100 万 Token，目前已面向 Plus、Pro、Business 和 Enterprise https://t. co/QiruNVS7mI&quot; / X Markdown Content: OpenAI 上
 
 ---
 
@@ -230,13 +256,6 @@ Andrew Ng在AI开发者大会上指出：AI让编程更容易将带来更多人�
 @作者 · ⭐⭐⭐3 🌐 · 2026-04-06
 
 - **来源**：X/Twitter - **原文链接**：https://x. com/LuBtc888/status/2049464465096384913 - **作者**：0x鸣人 - **日期**：2026-04-06 - **抓取时间**：2026-05-01 00:06 --- Anthropic 官方原版课程《Claude Code in Action》完整汉化版正式上线. 从基础指令到真实项目落地，全程一步步教你用 Claude 高效写代码、做开发. co/UbYfSCeCEf https://t. co/0nn50zjNQn&quot; / X Markdown Content: D
-
----
-
-### [国内无魔法也能用Claude Code接入国产大模型](https://x.com/VincentLogic/status/2048400987107553680)
-@作者 · ⭐⭐⭐3 🌐 · 2026-04-06
-
-- **来源**：X/Twitter - **原文链接**：https://x. com/VincentLogic/status/2048400987107553680 - **作者**：Vincent Logic - **日期**：2026-04-06 - **抓取时间**：2026-05-01 00:06 --- 1. 用清华源安装Homebrew：绕过网络限制 2. 用ccswitch配置MiniMax：接入国产大模型 3. 测试对话验证连通：5步完成全流程 你按这个教程操作，今晚就能用上Claude Code. co/QwJnsKQfzS&quot; / X Markdown Content:
 
 ---
 
@@ -249,6 +268,20 @@ Google 最新 Gemma-4-31B 基础模型出现越狱版本 Gemma-4-31B-JANG_4M-CRA
 
 ---
 
+### [OpenAIがGPT-5の技術詳細を一部公開](https://x.com/maria_garcia/status/177456789012345678)
+@作者 · ⭐⭐⭐3 🌐 · 2026-04-06
+
+- **来源**：X/Twitter - **原文链接**：https://x. com/maria_garcia/status/177456789012345678 - **作者**：maria_garcia - **日期**：2026-04-06 - **抓取时间**：2026-04-23 12:28 --- OpenAIがGPT-5の技術詳細を一部公開しました. 特にマルチモーダル能力の向上が注目されています. - 画像入力からのコード生成精度が85%に達 - 音声認識の精度が大幅に向上 - ビデオ理解能力の導入 GPT-5のプログラミング能力の向上は、教育分野で大きな可能性を秘めていま
+
+---
+
+### [国内无魔法也能用Claude Code接入国产大模型](https://x.com/VincentLogic/status/2048400987107553680)
+@作者 · ⭐⭐⭐3 🌐 · 2026-04-06
+
+- **来源**：X/Twitter - **原文链接**：https://x. com/VincentLogic/status/2048400987107553680 - **作者**：Vincent Logic - **日期**：2026-04-06 - **抓取时间**：2026-05-01 00:06 --- 1. 用清华源安装Homebrew：绕过网络限制 2. 用ccswitch配置MiniMax：接入国产大模型 3. 测试对话验证连通：5步完成全流程 你按这个教程操作，今晚就能用上Claude Code. co/QwJnsKQfzS&quot; / X Markdown Content:
+
+---
+
 ## 📅 2026-04-05
 
 ### [你不知道的大模型训练：原理、路径与新实践](/entry/hjiptobw) 📄
@@ -257,6 +290,15 @@ Google 最新 Gemma-4-31B 基础模型出现越狱版本 Gemma-4-31B-JANG_4M-CRA
 Tw93 继 Claude Code 和 Agent 深度分析后的第三篇长文，系统梳理大模型训练全链路。核心判断：2026 年拉开差距的不再是预训练本身，而是后训练、评测、奖励、Agent 训练、蒸馏。详细拆解了预训练（数据配方、过训练、tokenizer 设计）、后训练多阶段流水线（冷启动 SFT → GRPO 强化学习 → 拒绝采样微调 → 对齐 RL）、评测-Grader-Reward 反馈回路、推理模型（o1/DeepSeek-R1）、Agent 训练（Kimi K2.5 PARL、Cursor Composer 2、Chroma Context-1）、Meta-Harness（只改 harness code 就能拉出 6x 性能差距）。含大量配图和 14 篇参考文献。
 
 `大模型训练` `预训练` `后训练` `RLHF` `蒸馏`
+
+---
+
+### [Tufts 大学研究：神经符号 AI 在机器人操控任务中能耗降低 100 倍，准确率反升](/entry/qgbtf6an) 📄
+@ScienceDaily · ⭐⭐⭐3 🌐 · 2026-04-05
+
+Tufts 大学 Matthias Scheutz 实验室论文（将在 ICRA 2026 维也纳会议展示）表明，神经符号 AI 方法在结构化长时序机器人操控任务中，训练能耗降低至纯端到端方法的百分之一，同时任务准确率更高。该方法将传统神经网络与符号推理结合，用逻辑规则分解任务步骤，为 AI 能耗瓶颈提供了替代路径。
+
+`neuro-symbolic` `ai-research` `energy-efficiency` `robotics` `icra`
 
 ---
 
@@ -278,8 +320,7 @@ Tw93 继 Claude Code 和 Agent 深度分析后的第三篇长文，系统梳理�
 🕐 Sun Mar 01 01:05:49 +0000 2026
 📊 ❤️ 56 🔁 11 🔖 101 👁️ 3,663 💬 1
 该项目在github上：https://github.com/OminousIndustries/PhoneDriver
-链接：https://github.com/OminousIndustries/PhoneDriver
-A Python-based mobile automation agent that uses Qwen3-VL vision-language models to understand and interact with Android devices through visual analysis and ADB commands.
+链接：https://github.com/OminousIndustries/PhoneDriver...
 
 `agent` `qwen` `phone-ai` `automation` `github`
 
@@ -351,12 +392,7 @@ A Python-based mobile automation agent that uses Qwen3-VL vision-language models
 ### [2025 LLM Year in Review](/entry/crdmzre5) 📄
 ⭐⭐⭐⭐4 🌐 · 2025-12-22
 
-2025 LLM Year in Review
-Read in Cubox  
-Read Original
-?imageUrl=https%3A%2F%2Fbear-images.sfo2.cdn.digitaloceanspaces.com%2Fkarpathy%2Funnamed.webp)
-2025 has been a strong and eventful year of progress in LLMs. The following is a list of personally notable and mildly surprising &quot;paradigm changes&quot; - things that altered the landscape and stood out to me conceptually.
-1. Reinforce...
+Cubox 收藏文章，frontier-models 领域相关内容
 
 `LLM` `DeepSeek`
 
@@ -410,7 +446,7 @@ Read Original
 ### [来自 OpenAI 离职员工的爆料：关于 OpenAI 的一些思考](/entry/K8o15MzY) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-07-27
 
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FSib7IezOlBctSYVw9IASbOMl6iakmOyVggRG5q4v2SuQM01TdoQKpwtOVLWTlFRWXzbAAuwVSpPsgSAX65ufxGCg%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%26randomid%3Djtyc449h%26watermark%3D1)
+Cubox 收藏 — 来自 OpenAI 离职员工的爆料：关于 OpenAI 的一些思考
 
 ---
 
@@ -419,13 +455,7 @@ Read Original
 ### [AI 助力网站出海：只靠聊天，做高颜值网站，你也行！](/entry/2nr4s3iv) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-07-21
 
-AI 助力网站出海：只靠聊天，做高颜值网站，你也行！
-4次与AI的对话，来让大家看看如何做出精美的AI播客网站。
-Read in Cubox  
-Read Original
-朋友好，我是赫兹！ 一个探索网站出海生意的新手，上次分享了第一次赚美元！纯新手深度复盘网站出海，一文掌握全流程 之后，有朋友问我可以详细说说设计开发部分吗，今天我就来聊聊设计开发部分。
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FgG3yexRibCUcHf2EUMa2lS5z7pKTHia9RsywRYOWtzCia9sP49rjjg6TObaX4tvOc5sia949Qn5myn5UwwFu9Xhw5g%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg&amp;valid=false)
-今天我用4次与...
+AI 独立开发与实践收藏
 
 `ChatGPT` `Agent` `DeepSeek` `Global`
 
@@ -437,8 +467,8 @@ Read Original
 ⭐⭐⭐⭐4 🇨🇳 · 2025-06-30
 
 Android×鸿蒙×AI 技术刊#第13期——APK极速瘦身策略、MVI架构实践与AI工具链新动态
-Read in Cubox  
-Read Original
+
+
 **本周 Android 生态聚焦性能优化、架构演进与 AI 融合三大方向：**
 1️⃣ **性能深度优化**
 **APK 瘦身实战：Unreal 项目压缩 NativeLibs 与资源，实现** **1.23G → 130M** 体积优化；
@@ -457,8 +487,8 @@ Read Original
 ⭐⭐⭐⭐4 🇨🇳 · 2025-06-09
 
 Android×鸿蒙×AI 技术刊#第10期——端侧AI · Kuikly性能 · Flow避坑 · 脱壳 · Dex解析...
-Read in Cubox  
-Read Original
+
+
 亲爱的开发者朋友们，本周的Android技术周刊来啦！无论你在打磨性能、深潜底层，还是探索AI边界，这些新鲜热乎的干货都能助你一臂之力：
 Google全新 MLKit端上生成式API 现已开放！只需几行代码，就能让Gemini Nano在用户手机里完成文档总结、图片描述（离线免费+极速510 tokens/秒）。
 腾讯开源 Kuikly框架鸿蒙适配方案！通过命令式CAPI暴改渲染链路，实测比React Native快6倍，QQ浏览器、腾讯新闻已投产，你的跨平台项目也能抄作业！
@@ -472,7 +502,7 @@ Google全新 MLKit端上生成式API 现已开放！只需几行代码，就能�
 ### [一文看懂2025 Google IO，誓把一切“装”上Gemini，谷歌眼镜10年逆袭归来](/entry/30xVjnjU) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-05-21
 
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_gif%2FrwnawOsSCFp2Z2DmFAnFZUc8vdSfTiasibQ5zRUAxX17lTWmG4PicYGgLqD4iaywFMpOs5W4AVFQVrqjBW0QvpG14A%2F640%3Fwx_fmt%3Dgif)
+Cubox 收藏 — 一文看懂2025 Google IO，誓把一切“装”上Gemini，谷歌眼镜10年逆袭归来
 
 ---
 
@@ -490,13 +520,7 @@ Google全新 MLKit端上生成式API 现已开放！只需几行代码，就能�
 ### [AI时代的性能分析：GPU Profiling初探](/entry/6qxs3b18) 📄
 ⭐⭐⭐⭐4 🌐 · 2025-03-19
 
-AI时代的性能分析：GPU Profiling初探
-关于GPU Profiling和可视化的鸟瞰。
-Read in Cubox  
-Read Original
-在CPU优化的过程中，例如我们遇到CPU打满的情况，我们可以通过perf等工具进行Profiling，然后将数据可视化成火焰图等形式进行分析；同样的，在GPU的优化过程中，我们也可以通过Profiling来进行性能优化。
-例如在大热的DeepSeek的推理系统中，就提到用Profiling来优化：
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2F0A9N2rUnQ9NqibzY6Z9a7UtqdyksyJUkJcmfKOta4JeXM2oxgVrZHYWIXE8vo8HEvKicicroz3x7M50jLRm1xlHXw%2F640...
+Cubox 收藏文章，frontier-models 领域相关内容
 
 `Inference` `DeepSeek` `Performance` `Profiling`
 
@@ -543,7 +567,7 @@ DeepSeek-R1的成功标志着AI在推理能力方面的重要突破。它不仅�
 ### [应战DeepSeek， OpenAI紧急上线o3-mini！价格打骨折，免费用户也能用](/entry/NoFTnFnJ) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-02-01
 
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FqpAK9iaV2O3udFibzXZiaM3RWnnARYZbTyUooMUia19GzOiaICsibHeaEYib9Hw3ACnstRHq0pNbIL3D0FocWhUy1CgBw%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg)
+Cubox 收藏 — 应战DeepSeek， OpenAI紧急上线o3-mini！价格打骨折，免费用户也能用
 
 ---
 
@@ -572,7 +596,7 @@ DeepSeek-R1的成功标志着AI在推理能力方面的重要突破。它不仅�
 ### [探索更强中文Embedding模型：Conan-Embedding](/entry/4V2SPFoz) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-09-27
 
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg)
+Cubox 收藏 — 探索更强中文Embedding模型：Conan-Embedding
 
 ---
 
@@ -581,7 +605,7 @@ DeepSeek-R1的成功标志着AI在推理能力方面的重要突破。它不仅�
 ### [o1发布后，信息量最大的圆桌对话：杨植麟、姜大昕、朱军探讨大模型技术路径](/entry/jyT3Fx2b) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-09-19
 
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2FqpAK9iaV2O3sAVsSPfCN9UX44XiaoicbUJIrOGuaujdMNY6iaQewDZEX1GY3tcVk3QGeKJyUMMHBSMALvO8B7DZwsA%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg)
+Cubox 收藏 — o1发布后，信息量最大的圆桌对话：杨植麟、姜大昕、朱军探讨大模型技术路径
 
 ---
 
@@ -599,7 +623,7 @@ DeepSeek-R1的成功标志着AI在推理能力方面的重要突破。它不仅�
 ### [奥特曼斯坦福对话万字实录来了！关于GPT5、AGI、核聚变发电、人类未来](/entry/lsdwlVlb) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-05-02
 
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2Fow6przZuPIHP0Gcz8TtJwy0VIHUUhJra1aW5D0F2bmWNQbUkhNqhaGWHUej0QQDoVoTdz2k8Tu00jjHviaVYlSQ%2F300%3Fwx_fmt%3Dpng%26wxfrom%3D19&amp;valid=true)
+Cubox 收藏 — 奥特曼斯坦福对话万字实录来了！关于GPT5、AGI、核聚变发电、人类未来
 
 ---
 
@@ -618,8 +642,8 @@ AICore2022 年底横空出世的 GPT-3.5 引发了全球的大模型 LLM 狂潮�
 ⭐⭐⭐⭐4 🇨🇳 · 2023-12-12
 
 2023 年对我来说是神奇的一年，我意外的从一个程序员变成了一个 AI 资讯届的“网红”，到年底的时候我在 X 平台的阅读量超过 1 亿，微博上的阅读量则超过 10 亿，很多人通过我的微博或者 X 了解最新的 AI 资讯、教程和 Prompt 使用技巧。而这一切其实是从我患上了 AI 焦虑症开始的。我将向你分享我的故事，如何患上了 AI 焦虑症，又是如何克服它，并且成功的把 AI 变成自己的得力助手，让自己成为善用 AI 的人。
-Read in Cubox  
-Read Original
+
+
 2023 年对我来说是神奇的一年，我意外的从一个程序员变成了一个 AI 资讯届的&quot;网红&quot;，到年底的时候我在 X 平台的阅读量超过 1 亿，微博上的阅读量则超过 10 亿，很多人通过我的微博或者 X 了解最新的 AI 资讯、教程和 Prompt 使用技巧。而这一切其实...
 
 `ChatGPT` `GPT-4` `OpenAI` `Stable Diffusion` `Midjourney`
@@ -651,8 +675,8 @@ Read Original
 
 Azure OpenAI 的提示工程技术 - Azure OpenAI Service | Microsoft Learn
 了解有关如何使用 GPT-3、ChatGPT 和 GPT-4 模型进行提示工程的选项
-Read in Cubox  
-Read Original
+
+
 本指南不深入介绍聊天补全消息结构背后的机制。 如果你不熟悉以编程方式与 ChatGPT 和 GPT-4 模型交互，建议先阅读有关聊天补全 API 的操作指南。
 本指南的这一部分中的所有示例都针对基础 GPT-4 模型进行了英语测试。 如果你在通过另一种语言阅读本文的本地化版本，则这些响应表示英语结果的本地化翻译。 若要根据你用于提示模型的语言详细了解潜在的限制，请参阅负责任 AI 透明度说明。
 
@@ -667,8 +691,8 @@ Read Original
 
 #67 OpenAI CEO 详解 GPT-4与AI的未来（播客笔记）
 3月20日，OpenAI CEO Sam Altman 和科技主播 Lex Fridman 进行对谈，主要讨论 GPT-4、通用人工智能（AGI）、 OpenAI 公司、AI 带来的潜在问题，以及 AI 的未来。我总结了对话中最启发我的部分，约 3000字。受限于精力与认知，笔记中难免有谬误，敬请指正。总体来说，Sam Altman 认为，GPT-4 等 AI 系统并非少数人的成果，而是源于无数人...
-Read in Cubox  
-Read Original
+
+
 3月20日，OpenAI CEO Sam Altman 和科技主播 Lex Fridman 进行对谈，主要讨论 GPT-4、通用人工智能（AGI）、 OpenAI 公司、AI 带来的潜在问题，以及 AI 的未来。
 我总结...
 

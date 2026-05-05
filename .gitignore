@@ -9,8 +9,11 @@ venv/
 .env
 book/
 dist/
+output/
+test-results/
 node_modules/
 site-src/entry/
+site-src/.vitepress/cache/
 content/* 2.md
 content/**/* 2.md
 site-src/* 2.md

@@ -11,7 +11,7 @@ import json, sys, html as html_mod, re as _re
 from datetime import datetime, timedelta
 from collections import Counter, OrderedDict
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlparse, urlunparse
 
 SCRIPT_PATH = Path(__file__).resolve()
 BASE_DIR = SCRIPT_PATH.parent.parent
@@ -268,6 +268,154 @@ def canonical_category(raw):
     return "uncategorized"
 
 
+def entry_date(e):
+    return e.get("published_date") or (e.get("source") or {}).get("original_date") or e.get("added_date") or ""
+
+
+def date_label(date_str):
+    if not date_str:
+        return None
+    return date_str
+
+
+def date_sort_key(date_str):
+    if not date_str or date_str == "unknown":
+        return "0000-00-00"
+    return date_str
+
+
+def normalized_url_key(url):
+    safe = safe_external_url(url)
+    if not safe:
+        return None
+    parsed = urlparse(safe)
+    host = parsed.netloc.lower()
+    if host == "twitter.com":
+        host = "x.com"
+    path = parsed.path.rstrip("/")
+    return urlunparse((parsed.scheme.lower(), host, path, "", parsed.query, ""))
+
+
+def is_low_signal_entry(e):
+    title = str(e.get("title") or "")
+    summary = str(e.get("summary_zh") or "")
+    summary_en = str(e.get("summary_en") or "")
+    one_liner = str(e.get("one_liner") or "")
+    tags = {str(t).lower() for t in e.get("tags", [])}
+    return (
+        title.startswith("高价值AI内容 -")
+        or one_liner.startswith("高价值AI内容 -")
+        or _re.match(r"^来自@[^，。\\s]+的高价值AI相关内容", summary) is not None
+        or summary_en.startswith("High-value AI content from @")
+        or ("high-value" in tags and len(summary) < 50)
+    )
+
+
+def has_cjk(text):
+    return _re.search(r"[\u4e00-\u9fff]", str(text or "")) is not None
+
+
+def is_noisy_summary(text):
+    stripped = str(text or "").strip()
+    head = stripped[:300]
+    return (
+        stripped.startswith("---")
+        or "cubox_url" in head
+        or "weixin/download" in head
+        or "?imageUrl=" in head
+        or "┌" in head
+    )
+
+
+def has_readable_zh_summary(e):
+    summary = (e.get("summary_zh") or "").strip()
+    return len(summary) >= 40 and has_cjk(summary) and not is_noisy_summary(summary) and not is_low_signal_entry(e)
+
+
+def clean_preview_text(text):
+    cleaned = []
+    for line in str(text or "").splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+        stripped = _re.sub(r"\[Read in Cubox\]\([^)]*\)", "", stripped)
+        stripped = _re.sub(r"\[Read Original\]\([^)]*\)", "", stripped)
+        stripped = stripped.replace("Read in Cubox", "").replace("Read Original", "").strip()
+        stripped = _re.sub(r"^---\s*", "", stripped)
+        stripped = _re.sub(r"^&gt;\s*", "", stripped)
+        stripped = _re.sub(r"^title:\s*", "", stripped, flags=_re.I)
+        if stripped in {"Read in Cubox", "Read Original"}:
+            continue
+        if stripped.startswith("?imageUrl=") or "cubox_url" in stripped:
+            continue
+        if "weixin/download" in stripped or "┌" in stripped:
+            continue
+        cleaned.append(stripped)
+    return "\n".join(cleaned)
+
+
+def clip_preview_text(text, limit=360):
+    text = clean_preview_text(text)
+    if len(text) <= limit:
+        return text
+    cutoff = limit
+    for sep in ("。", "！", "？", ". ", "; ", "\n"):
+        pos = text.rfind(sep, 0, limit)
+        if pos >= 120:
+            cutoff = pos + len(sep)
+            break
+    return text[:cutoff].rstrip() + "..."
+
+
+def display_summary(e):
+    summary_zh = (e.get("summary_zh") or "").strip()
+    one_liner = (e.get("one_liner") or "").strip()
+    summary_en = (e.get("summary_en") or "").strip()
+    if has_readable_zh_summary(e):
+        return clip_preview_text(summary_zh)
+    if len(one_liner) >= 10 and has_cjk(one_liner):
+        return clip_preview_text(one_liner, limit=180)
+    if summary_zh and not is_noisy_summary(summary_zh):
+        return clip_preview_text(summary_zh)
+    return clip_preview_text(summary_en or summary_zh or one_liner)
+
+
+def display_rank(e):
+    summary = display_summary(e)
+    return (
+        0 if is_low_signal_entry(e) else 1,
+        1 if has_readable_zh_summary(e) else 0,
+        1 if e.get("id") in entries_with_content else 0,
+        0 if is_noisy_summary(e.get("summary_zh")) else 1,
+        e.get("quality_score", 0),
+        min(len(summary), 300),
+        date_sort_key(entry_date(e)),
+        e.get("id", ""),
+    )
+
+
+def dedupe_for_display(items):
+    """Collapse repeated source URLs so low-signal duplicates cannot dominate pages."""
+    grouped = OrderedDict()
+    for e in items:
+        key = normalized_url_key(e.get("url")) or "id:{}".format(e.get("id"))
+        grouped.setdefault(key, []).append(e)
+    return [max(group, key=display_rank) for group in grouped.values()]
+
+
+def sort_entries_newest(items):
+    return sorted(
+        items,
+        key=lambda x: (
+            date_sort_key(entry_date(x)),
+            x.get("quality_score", 0),
+            x.get("github_stars", 0) or 0,
+            x.get("title", ""),
+        ),
+        reverse=True,
+    )
+
+
 def validate_entry_ids(entries):
     seen = {}
     duplicates = []
@@ -286,7 +434,7 @@ def validate_entry_ids(entries):
 
 
 validate_entry_ids(entries)
-active = [e for e in entries if e.get("status") == "active" and e.get("quality_score", 0) >= 3]
+active_raw = [e for e in entries if e.get("status") == "active" and e.get("quality_score", 0) >= 3]
 
 now = datetime.now()
 week_ago = (now - timedelta(days=7)).strftime("%Y-%m-%d")
@@ -298,6 +446,7 @@ entries_with_content = set()
 for f in CONTENT_DIR.glob("*.md"):
     if f.stem != "README":
         entries_with_content.add(f.stem)
+active = dedupe_for_display(active_raw)
 active_content_ids = {e["id"] for e in active if e.get("id") in entries_with_content}
 
 # Stats
@@ -319,7 +468,8 @@ clean_generated_markdown()
 
 stats = {
     "total_entries": len(entries),
-    "active_entries": len([e for e in entries if e.get("status") == "active"]),
+    "active_entries": len(active),
+    "active_entries_raw": len([e for e in entries if e.get("status") == "active"]),
     "archived_entries": len([e for e in entries if e.get("status") == "archived"]),
     "this_week_added": len(this_week),
     "entries_with_content": content_count,
@@ -382,22 +532,6 @@ pub_dir = SRC_DIR / "public"
 pub_dir.mkdir(exist_ok=True)
 (pub_dir / "favicon.svg").write_text(favicon, encoding="utf-8")
 
-# === Date helpers ===
-# 优先用 published_date，没有则用 added_date
-def entry_date(e):
-    return e.get("published_date") or (e.get("source") or {}).get("original_date") or e.get("added_date") or ""
-
-def date_label(date_str):
-    if not date_str:
-        return None
-    return date_str
-
-# 日期字符串直接排序：降序 = 新的在前
-def date_sort_key(date_str):
-    if not date_str or date_str == "unknown":
-        return "0000-00-00"
-    return date_str
-
 # === Entry formatting for category pages ===
 def fmt_entry(e):
     title = esc(e["title"])
@@ -411,9 +545,7 @@ def fmt_entry(e):
     author = esc(source.get("author", ""))
     added = entry_date(e)
 
-    summary = (e.get("summary_zh", "") or e.get("summary_en", "") or "").strip()
-    one_liner = (e.get("one_liner") or "").strip()
-    body = esc(summary) if len(summary) >= 20 else esc(one_liner)
+    body = esc(display_summary(e))
 
     meta_parts = []
     if author:
@@ -448,7 +580,7 @@ def fmt_entry(e):
 
 # === Homepage ===
 # README 推荐：按日期降序（新的在前），同日期按质量分降序
-featured10 = sorted(active, key=lambda x: (entry_date(x), -x.get("quality_score", 0), x.get("github_stars", 0) or 0), reverse=True)[:10]
+featured10 = sort_entries_newest(active)[:10]
 
 # 网站首页最新 10 篇：同样逻辑
 latest10 = featured10[:]
@@ -510,7 +642,10 @@ for key, info in display_categories.items():
         for d in sorted_dates:
             label = date_label(d) or d
             # 同日期内按质量分降序
-            group_entries = sorted(groups[d], key=lambda x: (-x.get("quality_score", 0), x.get("github_stars", 0) or 0))
+            group_entries = sorted(
+                groups[d],
+                key=lambda x: (-x.get("quality_score", 0), -(x.get("github_stars", 0) or 0), x.get("title", "")),
+            )
             page.append("## 📅 {}".format(label))
             page.append("")
             for e in group_entries:

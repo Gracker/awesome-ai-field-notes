@@ -1,6 +1,6 @@
 # ⚡ 基础设施
 
-推理部署 / RAG / 微调 / 评测 / 多模态 — 共 **46** 条活跃资源
+推理部署 / RAG / 微调 / 评测 / 多模态 — 共 **50** 条活跃资源
 
 ## 📅 2026-05-02
 
@@ -24,6 +24,26 @@ Gemini Embedding 2 正式GA，是首个将文本、图像、视频、音频和�
 
 ---
 
+### [三星芯片利润暴涨近 50 倍至 53.7 万亿韩元，预警 2027 年供应缺口将进一步扩大](/entry/1btflkw9) 📄
+@Reuters / Bloomberg · ⭐⭐⭐⭐4 🌐 · 2026-04-30
+
+三星电子 Q1 营业利润 57.2 万亿韩元（约 386 亿美元），创历史新高，半导体部门贡献 53.7 万亿韩元，利润率超 70%，超过英伟达和台积电同期。三星已签多年期约束性合同锁定产能，警告 2027 年存储芯片供需缺口将比 2026 年更大。AI 数据中心对 HBM 的需求是核心驱动力。
+
+`samsung` `semiconductor` `hbm` `ai-infrastructure` `supply-chain`
+
+---
+
+## 📅 2026-04-28
+
+### [华为昇腾 AI 芯片 2026 年营收预计达 120 亿美元，同比增长 60%](/entry/3n5tp20m) 📄
+@FT / HeyGoTrade · ⭐⭐⭐⭐4 🌐 · 2026-04-28
+
+华为预计 2026 年 AI 芯片营收约 120 亿美元，同比增长 60%。下一代昇腾 950PR 已进入量产，DeepSeek V4 发布后字节跳动、腾讯、阿里加速抢购。华为计划今年出货约 75 万颗 950PR。黄仁勋此前警告：如果 DeepSeek 新模型率先在华为芯片上全面适配，对美国在全球 AI 领域的战略地位将是灾难性打击。
+
+`huawei` `ascend` `ai-chip` `semiconductor` `china`
+
+---
+
 ## 📅 2026-04-26
 
 ### [awesome-gpt-image-2: World&#x27;s largest GPT Image 2 prompt library](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) ⭐4,266
@@ -32,6 +52,17 @@ Gemini Embedding 2 正式GA，是首个将文本、图像、视频、音频和�
 awesome-gpt-image-2 是目前最大的 GPT Image 2 提示词库，每日更新，汇集 1800+ 精选提示词并附带预览图，支持 16 种语言。GPT Image 2 的核心能力：精准文字渲染（中日英）、跨图一致性、商业级插画输出、故事板/IP 角色生成、多语言设计海报。同时提供 YouMind GPT Image 2 Prompts Gallery 在线画廊，支持分类浏览和 AI 一键生成。GitHub 2558 Stars。
 
 `gpt-image-2` `openai` `prompt-library` `image-generation` `multimodal`
+
+---
+
+## 📅 2026-04-23
+
+### [Building real-world on-device AI with LiteRT and NPU](/entry/4gwojsca) 📄
+⭐⭐⭐⭐4 🌐 · 2026-04-23
+
+Google 展示 LiteRT 在生产环境中的 NPU 加速案例：Google Meet 通过 NPU 部署了比此前大 25 倍的超高清分割模型，同时保持稳定功耗；Epic Games 在 Android 上实现实时 MetaHuman 面部动画（30 FPS）；Argmax Pro SDK 实现顶级实时语音识别，NPU 相比 GPU 提速 2 倍以上且显著省电。Google AI Edge Gallery App 现已支持 NPU 基准测试，覆盖 Gemma 等模型。LiteRT 还扩展到工业边缘（Qualcomm Dragonwing IQ8）和 AI PC（Intel Core Ultra）。
+
+`on-device AI` `LiteRT` `NPU` `Google Meet` `Epic Games`
 
 ---
 
@@ -71,11 +102,7 @@ ISSCC 2026 展示的 ARIES 架构代表了 AI 芯片从算力怪兽向有脑子�
 ### [&quot;Philosophers warn us not to be satisfied with mere learning, but to add practice and then training.&quot; | Revue](https://newsletter.stoicallytyped.com/issues/philosophers-warn-us-not-to-be-satisfied-with-mere-learning-but-to-add-practice-and-then-training-725262#/)
 ⭐⭐⭐3 🌐 · 2026-04-10
 
-&quot;Philosophers warn us not to be satisfied with mere learning, but to add practice and then training.&quot; | Revue
-StoicallyTyped Newsletter - Hey happy Monday!I&#x27;m on vacation! I have some time before I start my new job and am taking advantage of all this free time to visit f
-Read in Cubox  
-Read Original
-&quot;Philosophers warn us not to be satisfied with mere learning, but to add pract...
+Cubox 收藏文章，methods 领域相关内容
 
 `Newsletter`
 
@@ -101,15 +128,6 @@ Avi Chawla 通过 Claude Code 案例详细解析了 LLM Prompt Caching 的技术
 
 ---
 
-### [用 LLM + Obsidian 构建个人知识库：基于 Karpathy 的&quot;LLM Knowledge Bases&quot;工作流](/entry/n28eerxp) 📄
-@yanhua1010 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-06
-
-基于 Karpathy 的 LLM Knowledge Bases 工作流，将知识库管理类比为 CI/CD：原始资料→编译产物→运行时输出三层分离。用 Obsidian + Claude Code 实现三层目录结构：raw/（摄取）、wiki/（编译成品）、平台目录（发布）。三个摄取入口（Web Clipper、Podwise、手动剪藏），编译环节包含逐篇摘要、概念抽取、索引更新。强调增量编译和质量保障。
-
-`obsidian` `llm` `knowledge-base` `karpathy` `compile`
-
----
-
 ### [My self-sovereign / local / private / secure LLM setup, April 2026](/entry/4abfo505) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-06
 
@@ -119,12 +137,12 @@ Vitalik Buterin 分享其本地私有 LLM 使用方案。隐私安全目标：�
 
 ---
 
-### [用 Obsidian + Claude 搭个人知识库：核心架构实践](/entry/f71nn8lk) 📄
-@yanhua1010 · ⭐⭐⭐3 🇨🇳 · 2026-04-06
+### [用 LLM + Obsidian 构建个人知识库：基于 Karpathy 的&quot;LLM Knowledge Bases&quot;工作流](/entry/n28eerxp) 📄
+@yanhua1010 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-06
 
-Obsidian + Claude 搭建个人知识库的核心架构实践。核心思路：把笔记库当代码仓库来&quot;编译&quot;。三层目录结构：原料/（只读，Claude 不可修改）→ 摘要/（Claude 结构化编译产物）→ 沉淀/（Query 高质量回答落文件）。两个元文件：CLAUDE.md（控制 AI 行为的最高宪法）和 index.md（全局目录 + TLDR，Claude 检索时先扫再深读）。日常工作流三个动作：Ingest（逐篇处理）、Query（好回答存文件）、Lint（定期健康检查）。防腐化底线：重要断言必须有来源、新旧冲突报 diff 不覆盖、区分事实和推论。
+基于 Karpathy 的 LLM Knowledge Bases 工作流，将知识库管理类比为 CI/CD：原始资料→编译产物→运行时输出三层分离。用 Obsidian + Claude Code 实现三层目录结构：raw/（摄取）、wiki/（编译成品）、平台目录（发布）。三个摄取入口（Web Clipper、Podwise、手动剪藏），编译环节包含逐篇摘要、概念抽取、索引更新。强调增量编译和质量保障。
 
-`Obsidian` `Claude` `知识库` `CLAUDE.md` `个人知识管理`
+`obsidian` `llm` `knowledge-base` `karpathy` `compile`
 
 ---
 
@@ -134,6 +152,15 @@ Obsidian + Claude 搭建个人知识库的核心架构实践。核心思路：�
 V 神分享的本地大模型环境配置博客。从硬件选型开始，详细讨论如何构建一套满足隐私、安全、离线要求的 Local LLM 环境。特别值得注意的细节：为了减少飞机上离线情况下的模型幻觉，他把 1GB 维基百科内容都存了下来方便模型自我核实。同时也考虑了预算有限朋友的硬件推荐方案。
 
 `本地LLM` `Vitalik` `隐私` `离线` `硬件配置`
+
+---
+
+### [用 Obsidian + Claude 搭个人知识库：核心架构实践](/entry/f71nn8lk) 📄
+@yanhua1010 · ⭐⭐⭐3 🇨🇳 · 2026-04-06
+
+Obsidian + Claude 搭建个人知识库的核心架构实践。核心思路：把笔记库当代码仓库来&quot;编译&quot;。三层目录结构：原料/（只读，Claude 不可修改）→ 摘要/（Claude 结构化编译产物）→ 沉淀/（Query 高质量回答落文件）。两个元文件：CLAUDE.md（控制 AI 行为的最高宪法）和 index.md（全局目录 + TLDR，Claude 检索时先扫再深读）。日常工作流三个动作：Ingest（逐篇处理）、Query（好回答存文件）、Lint（定期健康检查）。防腐化底线：重要断言必须有来源、新旧冲突报 diff 不覆盖、区分事实和推论。
+
+`Obsidian` `Claude` `知识库` `CLAUDE.md` `个人知识管理`
 
 ---
 
@@ -171,8 +198,8 @@ Karpathy 分享他用 LLM 构建个人知识库的工作流：raw/ 目录存放�
 ### [AI 是一块“五层蛋糕”](/entry/nivhloc2) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-03-11
 
-Read in Cubox  
-Read Original
+
+
 **2026 年 3 月 10 日 作者 黄仁勋**
 AI 是塑造当今世界的强大力量之一。它并非仅仅是一款巧妙的应用程序，也不是单一的模型，而是如同电力和互联网一样必不可少的基础设施。
 AI 依托真实的硬件、能源和经济体系运行。它可以将原材料大规模地转化为智能。每家公司都将应用 AI， 每个国家/地区都将发展 AI。
@@ -196,11 +223,9 @@ Anthropic工程团队量化了Agent编程评测中的基础设施噪声问题。
 ### [MeKi —— 用 ROM 扩展端侧 LLM，而不是继续硬堆计算](/entry/3cd7qdt3) 📄
 @允许动态投影、归一化、非线性映射这些复杂结构存在，以保证模型能学到足够好的知识表达；部署前，再把这些东西折叠到静态查表结构里。于是： · ⭐⭐⭐⭐4 🇨🇳 · 2026-03-09
 
-**论文**：MeKi: Memory-based Expert Knowledge Injection for Efficient LLM Scaling  
-**精读日期**：2026-03-09  
+**论文**：MeKi: Memory-based Expert Knowledge Injection for Efficient LLM Scaling
+**精读日期**：2026-03-09
 **定位**：面向 Android / 端侧 AI / 性能优化 / SmartPerfetto 方向的深度解读
-
----
 
 ## 一、论文要解决的问题
 ### 1.1 真正的问题不是“模型不够大”，而是“手机端的资源结构不匹配”
@@ -208,7 +233,6 @@ Anthropic工程团队量化了Agent编程评测中的基础设施噪声问题。
 - 增加参数量；
 - 增加推理时计算；
 - 用更大的显存和更强的 GPU 接住它。
-
 但到了手机端，这套思路就开始失效：
 …
 
@@ -223,12 +247,10 @@ Anthropic工程团队量化了Agent编程评测中的基础设施噪声问题。
 
 ## 1. 核心问题
 这篇论文解决的是“端侧个性化”中最现实的拦路虎：**微调内存开销**。很多工作证明了“可以做微调”，但通常在树莓派或实验环境，离手机实用化很远。PocketLLM 的价值在于把问题拉回到真实手机场景。
-
 ## 2. 论文贡献（按价值排序）
 1) **明确瓶颈优先级**：在端侧微调中，内存是可行性门槛；算力更多影响时延。
 2) **方法选择正确**：采用无导数优化绕开梯度/优化器状态，直接打掉最大内存项。
 3) **实机验证**：在 OPPO Reno 6 上给出可复现实验（RoBERTa-large 与 OPT-1.3B）。
-
 ## 3. 关键数据的含义
 - RoBERT…
 
@@ -247,6 +269,17 @@ Anthropic工程团队量化了Agent编程评测中的基础设施噪声问题。
 
 ---
 
+## 📅 2026-01-28
+
+### [LiteRT: The Universal Framework for On-Device AI](/entry/fz2xiu8d) 📄
+⭐⭐⭐⭐4 🌐 · 2026-01-28
+
+Google 宣布 LiteRT（TensorFlow Lite 的演进版）成为端侧 AI 的通用框架。相比 TFLite，LiteRT 提供 1.4x GPU 性能提升、新增 NPU 加速支持、统一跨平台工作流（Android/iOS/macOS/Windows/Linux/Web），并通过 ML Drift 引擎支持 OpenCL/OpenGL/Metal/WebGPU。NPU 方面已与 MediaTek 和 Qualcomm 完成生产级集成，速度最高可达 CPU 的 100 倍、GPU 的 10 倍。同时支持 PyTorch/JAX 模型转换和 Gemma 系列模型的高效部署。
+
+`on-device AI` `LiteRT` `TFLite` `NPU` `GPU`
+
+---
+
 ## 📅 2026-01-05
 
 ### [2026 AI First 系列（三）：在被替代之前变得有价值——新经济下的生存法则](/entry/6nrmpv7z) 📄
@@ -254,8 +287,8 @@ Anthropic工程团队量化了Agent编程评测中的基础设施噪声问题。
 
 2026 AI First 系列（三）：在被替代之前变得有价值——新经济下的生存法则
 **第一件事**：你在做reinforcement learning from human feedback（RLHF）。每次你
-Read in Cubox  
-Read Original
+
+
 **第一件事**：你在做reinforcement learning from human feedback（RLHF）。每次你修正AI的输出，每次你选择一个答案而不是另一个，你都在教它什么是好的、什么是不好的。
 **第二件事**：你在数字化你的直觉。那些你&quot;凭感觉&quot;做出的判断，那些你&quot;基于经验&quot;的决策，正在被转化为数据点。AI在学习你的思维模式。
 
@@ -290,8 +323,8 @@ OpenRouter 联合 a16z 的 100 万亿 token LLM 使用分析。核心发现：�
 
 Anthropic 揭秘：上下文工程如何让 Agent 专注核心任务
 Anthropic 揭秘让 AI 更靠谱的「上下文工程」
-Read in Cubox  
-Read Original
+
+
 &gt; https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
 你有没有过这样的体验？跟 AI 聊得久了，它突然 &quot;失忆&quot;------ 前面提过的关键信息没了下文，甚至答非所问；让它处理复杂任务，比如分析大数据库、写长代码，它越往后越混乱...... 其实不是 AI &quot;不认真&quot;，而是它的 &quot;注意力&quot; 有限。
 
@@ -304,7 +337,7 @@ Read Original
 ### [GPU到底是如何工作的？这篇AI Infra入门全部告诉你](/entry/swk7j22h) 📄
 @binnnliu · ⭐⭐⭐⭐4 🇨🇳 · 2025-07-08
 
-# GPU到底是如何工作的？这篇AI Infra入门全部告诉你 ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg) &gt; 大模型推理服务到底怎么跑起来的？大模型推理服务的运行过程中，CPU和GPU分别负责哪些工作？ &gt; 用GPU一定比CPU跑的快么？哪些场景需要用GPU? GPU最初的使...
+GPU 工作原理与 AI 基础设施入门
 
 `[]` `inference` `大模型`
 
@@ -326,8 +359,8 @@ AI编译器的根本性权衡：既要通过抽象底层细节来实现易用性
 
 AI 代理可观测性 - 演变标准与最佳实践
 AI 代理将在 2025 年成为人工智能的下一个重大飞跃，AI 代理的可观测性变得尤为重要，特别是在将这些代理扩展以满足企业需求时。没有适当的监控、追踪和日志记录机制，诊断问题、提高效率和确保 AI 代理驱动应用的可靠性将面临挑战。
-Read in Cubox  
-Read Original
+
+
 作者：Guangya Liu (IBM), Sujay Solomon (Google)
 AI 代理将在 2025 年成为人工智能的下一个重大飞跃。从自主工作流到智能决策，AI 代理将为各行业的众多应用提供动力。然而，随着这一演变，AI 代理的可观测性变得尤为重要，特别是在将这些代理扩展以满足企业需求时。没有适当的监控、追踪和日志记录机制，诊断问题、提高效率和确保 AI 代理驱动应用的可靠性将面临挑战。
 
@@ -351,8 +384,8 @@ AI 代理将在 2025 年成为人工智能的下一个重大飞跃。从自主�
 ### [AI 技术的停滞，是革命的开始 – 虹线](/entry/zlsa1lat) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-12-25
 
-Read in Cubox  
-Read Original
+
+
 1866 年，西门子的一位工程师发明了人类第一台直流发电机。
 40 年后，通用电气在 1906 年开始量产真正让电灯普及的第一代白炽灯泡。
 在这两者之间的半个世纪里，人类世界依然黑暗，电气的技术革命好像没有发生。
@@ -367,7 +400,7 @@ Read Original
 ### [微信正式发布多模态大模型POINTS1.5](/entry/BZwVgqGU) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-12-14
 
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_gif%2Fj3gficicyOvasVeMDmWoZ2zyN8iaSc6XWYj79H3xfgvsqK9TDxOBlcUa6W0EE5KBdxacd2Ql6QBmuhBJKIUS4PSZQ%2F640%3Fwx_fmt%3Dgif%26from%3Dappmsg)
+Cubox 收藏 — 微信正式发布多模态大模型POINTS1.5
 
 ---
 
@@ -376,8 +409,8 @@ Read Original
 ### [0x1 Underlying LLMs](/entry/4u7v4niw) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-09-03
 
-Read in Cubox  
-Read Original
+
+
 LLM (Large Language Models) 的风头一时无两，席卷万千行业。业内不乏有关于 LLM 的研究和讨论，但鲜有立足终端的视角。团队上半年曾有过对 GPT 进终端的分析，但 LLM 日新月异，旧分析已经不完全跟得上变化了。适逢年底规划季，尝试重新梳理 LLM 的现状，预判未来变化的趋势，希望能为迷茫的同仁提供思考的角度，也希望获得战斗在一线的友军的指点。
 求砖 \&amp; 免砖申明：
 不包含 LLM 入门介绍，够时间可以报吴恩达的免费课程和 NVIDIA 与 LlamaIndex 合力出品的；不够时间也有 Andrej Karpathy 的 一小时入门；
@@ -393,7 +426,7 @@ LLM (Large Language Models) 的风头一时无两，席卷万千行业。业内�
 ### [GPT-4o：OpenAI 发布最强人机交互模型](/entry/gjncoa3h) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-05-14
 
-# GPT-4o：OpenAI 发布最强人机交互模型 ChatGPT 免费版持续升级中，模型更强，交互更流畅... 早在 5 月 11 日，Sam 就在推文中表示：OpenAI 并没有推出 GPT-5，或搜索引擎，但团队一直在努力研发一些认为大家会喜欢的新东西（感觉就像是魔法一样）！ ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2F90Kxd0FAJJeDZbFzQkrjxIfcnRxziahTJZPicyxQOgbg5C88suDBEfiaZg2mjE226NZDIEOxWDr27kHz7fMvNEkSA%2F640%3Fwx_fmt%...
+关于GPT-4o：OpenAI 发布最强人机交互模型的收藏文章
 
 `[]` `gpt-4` `gpt-4o` `openai` `chatgpt`
 
@@ -422,11 +455,7 @@ LLM (Large Language Models) 的风头一时无两，席卷万千行业。业内�
 ### [2023: The Year of AI](/entry/f4uptczq) 📄
 ⭐⭐⭐⭐4 🌐 · 2023-12-26
 
-Explore the significant AI advancements, impactful partnerships, and legal debates that defined 2023.
-Read in Cubox  
-Read Original
-AI has undoubtedly made waves in 2023 and here we spotlight the most significant stories of the year poised to shape the future of this groundbreaking industry:
-*Correction: In the original blog post published on December 22, 2023, the title &quot;AI Re...
+Cubox 收藏文章，image-generation 领域相关内容
 
 `ChatGPT` `LLM` `Midjourney`
 
@@ -448,8 +477,8 @@ AI has undoubtedly made waves in 2023 and here we spotlight the most significant
 
 70款ChatGPT插件评测：惊艳的开发过程与宏大的商业化愿景 - 知乎
 TL;DR: 我们对ChatGPT的插件商店中总共70款插件进行了评测。区别于Chrome，AppStore等平台的代码开发范式，开发者仅使用自然语言就可以开发ChatGPT插件，并由GPT模型自行决定在使用过程中是否调用插件。约八成插件…
-Read in Cubox  
-Read Original
+
+
 Shimmer: Nutrition Coach
 **TL;DR:** 我们对ChatGPT的插件商店中总共70款插件进行了评测。区别于Chrome，AppStore等平台的代码开发范式，开发者仅使用自然语言就可以开发ChatGPT插件，并由GPT模型自行决定在使用过程中是否调用插件。约八成插件集中于购物、餐饮、旅行、住房和求职场景，其余分布在教育、财经咨讯、内容社区和编程技术场景...
 
@@ -470,27 +499,27 @@ ChatGPT的火爆出圈，让大家对NLP语言模型的发展历程产生了浓�
 
 ## 📅 2023-03-22
 
-### [真·万字长文:可能是全网最晚的chatgpt技术总结](/entry/qiwV8Dd1) 📄
-⭐⭐⭐⭐4 🇨🇳 · 2023-03-22
-
-最近ChatGPT可以说是火遍了全世界，作为由知名人工智能研究机构OpenAI于2022年11月30日发布的一个大型语言预训练模型，他的核心在于能够理解人类的自然语言，并使用贴近人类语言风格的方式来进行回复。模型开放使用以来，在人工智能领域引起了巨大的轰动，也成功火出了技术圈。从数据上看，ChatGPT用户数在5天内就达到了100万，2个月就达到了1亿；另外，在很多非人工智能领域，已经有机构在尝试用ChatGPT去做一些智能生成的事。…
-
----
-
 ### [AIGC图像生成的原理综述与落地畅想](/entry/onqk9vx5) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-03-22
 
 基于Stable Diffusion扩散模型的综述
-Read in Cubox  
-Read Original
+
+
 AIGC，这个当前的现象级词语。本文尝试从文生图的发展、对其当前主流的 Stable Diffusion 做一个综述。以下为实验按要求生成的不同场景、风格控制下的生成作品。
 GAN 系列算法开启了图片生成的新起点。GAN的主要灵感来源于博弈论中零和博弈的思想，通过生成网络G（Generator）和判别网络D（Discriminator）不断博弈，进而使G学习到数据的分布。
 1.
-   G是一个生成式的网络，它接收一个随机的噪声z（随机数），通过这个噪声生成图像。
+G是一个生成式的网络，它接收一个随机的噪声z（随机数），通过这个噪声生成图像。
 2.
-   D是一个判别网络，判别一张图片是不是&quot;真实的&quot;。它的输入参数是x，x代表一张图片，输出D（x）代表x为真实图片的概率，如果为1，就代表100%是真实的图片。
+D是一个判别网络，判别一张图片是不是&quot;真实的&quot;。它的输入参数是x，x代表一张图片，输出D（x）代表x为真实图片的概率，如果为1，就代表100%是真实的图片。
 
 `AIGC` `Stable Diffusion` `Embedding` `Transformer` `Diffusion`
+
+---
+
+### [真·万字长文:可能是全网最晚的chatgpt技术总结](/entry/qiwV8Dd1) 📄
+⭐⭐⭐⭐4 🇨🇳 · 2023-03-22
+
+最近ChatGPT可以说是火遍了全世界，作为由知名人工智能研究机构OpenAI于2022年11月30日发布的一个大型语言预训练模型，他的核心在于能够理解人类的自然语言，并使用贴近人类语言风格的方式来进行回复。模型开放使用以来，在人工智能领域引起了巨大的轰动，也成功火出了技术圈。从数据上看，ChatGPT用户数在5天内就达到了100万，2个月就达到了1亿；另外，在很多非人工智能领域，已经有机构在尝试用ChatGPT去做一些智能生成的事。…
 
 ---
 

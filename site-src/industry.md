@@ -1,62 +1,6 @@
 # 🌍 行业观察
 
-AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **60** 条活跃资源
-
-## 📅 2026-05-03
-
-### [AI Fast Track: 5天邮件课程从入门到实战](/entry/da4ef4b0) 📄
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-03
-
-这是一门免费的5天邮件课程，帮助用户从AI消费者转变为AI构建者，无需编程即可上手构建个人AI软件和工具。
-
-`ai-tools` `learning` `email-course` `x`
-
----
-
-### [高价值AI内容 - OpenAI](/entry/d1c99260) 📄
-@@OpenAI · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-03
-
-来自@OpenAI的高价值AI相关内容，具有实用性和参考价值。
-
-`ai-tools` `high-value` `x`
-
----
-
-### [高价值AI内容 - geoffreyhinton](/entry/224d84ef) 📄
-@@geoffreyhinton · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-03
-
-来自@geoffreyhinton的高价值AI相关内容，具有实用性和参考价值。
-
-`ai-tools` `high-value` `x`
-
----
-
-### [高价值AI内容 - petitegeek](https://x.com/petitegeek/status/1953082338029781441)
-@@petitegeek · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-03
-
-来自@petitegeek的高价值AI相关内容，具有实用性和参考价值。
-
-`ai-tools` `high-value` `x`
-
----
-
-### [高价值AI内容 - steipete](https://x.com/steipete/status/2050735979477008412)
-@@steipete · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-03
-
-来自@steipete的高价值AI相关内容，具有实用性和参考价值。
-
-`ai-tools` `high-value` `x`
-
----
-
-### [高价值AI内容 - realmadhuguru](https://x.com/realmadhuguru/status/2016267285342847137)
-@@realmadhuguru · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-03
-
-来自@realmadhuguru的高价值AI相关内容，具有实用性和参考价值。
-
-`ai-tools` `high-value` `x`
-
----
+AI 产品 / 大厂战略 / 融资 / 市场分析 — 共 **58** 条活跃资源
 
 ## 📅 2026-05-02
 
@@ -100,7 +44,56 @@ Meta 收购了 Assured Robot Intelligence（ARI），一家专注于为机器人
 
 ---
 
+## 📅 2026-04-29
+
+### [欧盟 AI 法案修改谈判破裂：12 小时协商未果，八月合规期限悬而未决](/entry/h92h5038) 📄
+@Reuters / POLITICO · ⭐⭐⭐3 🌐 · 2026-04-29
+
+欧盟成员国与欧洲议会经 12 小时谈判未能就 AI 法案修订达成一致。修订方案原计划推迟 2026 年 8 月的高风险系统合规期限、缩窄适用范围，并将 AI 义务与现有行业法规整合。主要分歧在于部分国家坚持已受行业安全法规约束的领域应豁免 AI 法案额外要求。5 月将是截止日期前的最后谈判窗口。
+
+`eu` `ai-act` `regulation` `compliance` `policy`
+
+---
+
+## 📅 2026-04-28
+
+### [OpenAI 携 GPT-5.5 入驻 AWS Bedrock，结束微软七年独家云托管](/entry/tweg5332) 📄
+@OpenAI · ⭐⭐⭐⭐4 🌐 · 2026-04-28
+
+OpenAI 与 AWS 联合宣布 GPT-5.5、Codex 编程代理及 Bedrock Managed Agents 进入有限预览。此前微软与 OpenAI 重签合作协议，取消 Azure 独家许可、废除 AGI 条款。GPT-5.4 已可调用，GPT-5.5 将在未来两周内上线。AWS 客户可通过现有 Bedrock API 调用 OpenAI 模型，复用统一的安全与治理框架。云计算 AI 模型市场从&quot;独家绑定&quot;转向&quot;多平台分发&quot;。
+
+`openai` `aws` `bedrock` `gpt-5.5` `cloud`
+
+---
+
+### [大厂 AI 人才持续出走创业：2026 年风投已投 188 亿美元给新 AI 公司](/entry/043eubgu) 📄
+@CNBC · ⭐⭐⭐3 🌐 · 2026-04-28
+
+Meta、谷歌、OpenAI 等大厂的顶级研究员持续离职创办 AI 初创公司。Dealroom 数据显示 2025 年初至今成立的 AI 初创公司已获得 188 亿美元风投资金。AI 行业的人才流动模式已从&quot;大厂之间跳槽&quot;升级为&quot;大厂出走创业&quot;，大厂已成为 AI 人才的&quot;培训基地&quot;。
+
+`ai-talent` `startup` `venture-capital` `meta` `google`
+
+---
+
 ## 📅 2026-04-27
+
+### [微软与 OpenAI 重签合作协议：取消独家许可，废除 AGI 条款](/entry/gtnm0slv) 📄
+@Reuters · ⭐⭐⭐⭐4 🌐 · 2026-04-27
+
+微软与 OpenAI 宣布修改合作协议：IP 许可从独家改为非独家（延续至 2032 年）；删除 AGI 限制性条款；收入分成机制重设。此前 2025 年 10 月重组中 OpenAI 取消利润上限并给予微软 27% 股权。这次修改为 OpenAI 接入 AWS 等其他云平台扫清法律障碍，标志着 AI 行业最核心的商业关系发生结构性变化。
+
+`microsoft` `openai` `partnership` `licensing` `agi`
+
+---
+
+### [前谷歌 DeepMind 研究员创办 Ineffable Intelligence，种子轮融 11 亿美元创纪录](/entry/j0aso5d1) 📄
+@CNBC · ⭐⭐⭐3 🌐 · 2026-04-27
+
+前谷歌 DeepMind 顶级研究员为其初创公司 Ineffable Intelligence 完成 11 亿美元种子轮融资，创种子轮金额纪录。投资方包括英伟达和谷歌，目标是追求超级智能。Dealroom 数据显示 2026 年风投已向新成立的 AI 初创公司注入 188 亿美元，英伟达 2026 年已投资超过 36 家公司。
+
+`ai-startup` `deepmind` `funding` `superintelligence` `nvidia`
+
+---
 
 ### [技术人员Basics](/entry/e446406cb1) 📄
 @Thorsten Ball · ⭐⭐⭐3 🇨🇳 · 2026-04-27
@@ -120,18 +113,34 @@ https://registerspill.thorstenball.com/p/the-basics翻译，送给初入职场�
 
 ---
 
-## 📅 2026-04-23
+## 📅 2026-04-18
 
-### [Anthropic用户研究 - 8.1万人AI使用需求分析](/entry/f20a0369) 📄
-@@AnthropicAI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-23
+### [2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期](/entry/l5ysgz2n) 📄
+@wquguru · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-18
 
-基于8.1万用户的深度调研，分析用户对AI的经济期望和担忧，揭示AI使用的真实需求和痛点。
+AI时代人群正在分层：Level 1把AI当搜索引擎（90%的人），Level 2当助手建立连续context（9%），Level 3用AI团队创造10-100倍价值（1%）。超级个体的核心能力模型包括Vibe Coding、Agent Engineering、AI Fluency，以及产品层（快速迭代）和市场层（Storytelling/Build in Public）。Claude Agent SDK和MCP的出现创造了6-12个月的先行者窗口，「Agent能力是21世纪核心技能」。
 
-`x` `research` `user-study` `anthropic`
+`ai-first` `super-individual` `agent-engineering` `vibe-coding` `career`
 
 ---
 
-## 📅 2026-04-18
+### [AI的负面（2）：你的知识在贬值，但房贷不会贬值](/entry/2z4h3cnl) 📄
+@@FuSheng_0306 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-18
+
+月费200元的AI智能体已能替代大部分白领工作，智力溢价这一维持几千年的「潜规则」正在被打破。更致命的不是失业，而是收入配不上负债——白领降薪/裁员后涌入蓝领市场，形成向下挤压的连锁反应。个人应对策略：停止基于「脑子永远值钱」的长期负债；不跟AI拼干活而拼判断；用AI实战找到不可替代位置；保护底线资产。
+
+`ai-impact` `knowledge-devaluation` `economic-risk` `knowledge-work` `debt`
+
+---
+
+### [The Business Models That Will Dominate 2027 (That Don&#x27;t Exist Yet)](/entry/8wchcs0s) 📄
+@@Zephyr_hg · ⭐⭐⭐⭐4  · 2026-04-18
+
+作者观察2027年将主导市场、目前正在构建中的5种AI原生商业模式：①一人企业级服务（用AI+自动化完成10人团队工作量，服务企业客户，无员工）；②AI微型代理公司（2-3人+AI工具，交付10人团队产出，颠覆传统代理）；③小企业自动化即服务（预构建行业自动化系统月订阅）；④产品化AI咨询（把专业知识打包成AI系统按需交付，取代按小时收费）；⑤零开销数字产品（一人用AI构建、发布、扩展数字产品）。
+
+`business-model` `ai-era` `one-person-company` `micro-agency` `automation-as-a-service`
+
+---
 
 ### [【译】关于 Claude Design 的一些想法和感受](/entry/ee551fe1) 📄
 @Sam Henri Gold · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-18
@@ -166,33 +175,6 @@ CREAO 创始人结合自身实践深度分析「AI First」战略的落地条件
 作者在QCon北京分享了两年做AI产品的阶段性总结，聚焦三个核心问题：为什么AI产品难做（不确定性、场景模糊、用户预期管理）；提示词工程被严重低估（是产品特性而非技术细节）；AI产品团队如何构建（需要新的协作流程和角色）。内容来自大量AI产品demo的实战积累，对AI产品经理有较高参考价值。
 
 `ai-product` `product-management` `prompt-engineering` `team-structure` `lessons-learned`
-
----
-
-### [2026 AI First 系列（五）：从消费AI到创造AI——成为超级个体的最后窗口期](/entry/l5ysgz2n) 📄
-@wquguru · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-18
-
-AI时代人群正在分层：Level 1把AI当搜索引擎（90%的人），Level 2当助手建立连续context（9%），Level 3用AI团队创造10-100倍价值（1%）。超级个体的核心能力模型包括Vibe Coding、Agent Engineering、AI Fluency，以及产品层（快速迭代）和市场层（Storytelling/Build in Public）。Claude Agent SDK和MCP的出现创造了6-12个月的先行者窗口，「Agent能力是21世纪核心技能」。
-
-`ai-first` `super-individual` `agent-engineering` `vibe-coding` `career`
-
----
-
-### [The Business Models That Will Dominate 2027 (That Don&#x27;t Exist Yet)](/entry/8wchcs0s) 📄
-@@Zephyr_hg · ⭐⭐⭐⭐4  · 2026-04-18
-
-作者观察2027年将主导市场、目前正在构建中的5种AI原生商业模式：①一人企业级服务（用AI+自动化完成10人团队工作量，服务企业客户，无员工）；②AI微型代理公司（2-3人+AI工具，交付10人团队产出，颠覆传统代理）；③小企业自动化即服务（预构建行业自动化系统月订阅）；④产品化AI咨询（把专业知识打包成AI系统按需交付，取代按小时收费）；⑤零开销数字产品（一人用AI构建、发布、扩展数字产品）。
-
-`business-model` `ai-era` `one-person-company` `micro-agency` `automation-as-a-service`
-
----
-
-### [AI的负面（2）：你的知识在贬值，但房贷不会贬值](/entry/2z4h3cnl) 📄
-@@FuSheng_0306 · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-18
-
-月费200元的AI智能体已能替代大部分白领工作，智力溢价这一维持几千年的「潜规则」正在被打破。更致命的不是失业，而是收入配不上负债——白领降薪/裁员后涌入蓝领市场，形成向下挤压的连锁反应。个人应对策略：停止基于「脑子永远值钱」的长期负债；不跟AI拼干活而拼判断；用AI实战找到不可替代位置；保护底线资产。
-
-`ai-impact` `knowledge-devaluation` `economic-risk` `knowledge-work` `debt`
 
 ---
 
@@ -263,7 +245,7 @@ X（Twitter）文章与收藏内容抓取方案调研。核心挑战：X API收�
 ### [2026-03-06-1628-GeekPlux-拥抱黑盒：一个研究者 All in AI 的实录与反思-2029761486671712745](/entry/ov4yw4c3) 📄
 @GeekPlux · ⭐⭐⭐⭐⭐5  · 2026-03-06
 
-title: &quot;Tweet by @geekplux (Fri Mar 06 03:30:24 +0000 2026)&quot;
+&quot;Tweet by @geekplux (Fri Mar 06 03:30:24 +0000 2026)&quot;
 author: &quot;@geekplux&quot;
 source_tweet_url: &quot;https://x.com/geekplux/status/2029761486671712745&quot;
 source_article_url: &quot;https://x.com/geekplux/status/2029761486671712745&quot;
@@ -271,28 +253,13 @@ captured_at: &quot;2026-03-06T16:28:21.907955&quot;
 language: &quot;zh&quot;
 tags: [archive, x-bookmarks]
 **@geekplux** (GeekPlux)
-🕐 Fri Mar 06 03:30:24 +0000 2026
-📊 ❤️ 75 🔁 16 🔖 88 👁️ 8,887 💬 1
-写得很好 -《拥抱黑盒：一个研究者 All in AI 的实录与反思》
-https://www.uscardforum.
+🕐 Fri Mar 06 03:30:24 +0000 2026...
 
 `archive` `x-bookmarks` `external-link`
 
 ---
 
 ## 📅 2026-03-05
-
-### [给人文工作者的 AI 使用指南](/entry/rx7t9zxg) 📄
-@MasterPa · ⭐⭐⭐⭐4  · 2026-03-05
-
-人文工作者没有创造世界变化，但他们却在承受世界变化。
-有的时候我感觉，那些卖人工智能教程的号总是把 AI 当成一种魔法：给你一个神奇的 prompt，你就能做任何事儿。现实当然不是这样。过去的一段时间里，因为创立了 [FUNES](https://funes.world/), 我们必须每天大量的通过 AI 进行生产。加之还有&quot;[《蜉蝣天地》](https://www.youtube.com/@FuyoutiandiMeanders)、我自己的写作等内容生产，光靠人力已经不够了。所以我们大量的尝试如何使用 AI 辅助我们的内容市场与人文学科研究工作。
-后来公司有新同事入职，我就做了个简单的 Keynote。又一次得到的贾行家老师听说后，就邀请我去做个分享。我和合伙人可达给这个分享起名《给人文工作者的 AI 使用指南》。当时是纯私下的分享，主要是一些大方向上的原则。后来又做过几次，逐渐扩充。
-不过这个分享一直没公开做过，正好今年和重轻启动了[《诗梳风》](https://shishufeng.com/)这档节目，所以第一次完整公开的聊了一遍。
-
-`AI` `人文工作者` `使用指南` `工作方法`
-
----
 
 ### [Anthropic 官方出品 Claude 101：一份从入门到上手的完整学习指南](/entry/bfk5atxz) 📄
 @JasonZhu · ⭐⭐⭐⭐4  · 2026-03-05
@@ -301,9 +268,20 @@ Anthropic 最近在自家的教育平台 Anthropic Academy 上线了一门免费
 这篇文章把 13 节课的核心内容做了一次系统梳理，按照课程原有的四大模块展开，帮你在最短时间内把 Claude 的能力版图看清楚。
 课程开篇花了很大篇幅去讲 Claude 的设计哲学，核心就一句话：
 &gt; 帮你从想法的萌芽阶段就找到答案，并建立各种联系
-具体来说，Claude 能跟你一起阅读文档、分析电子表格、制作演示文稿，把你脑子里的想法从&quot;文字和幻灯片&quot;变成真实可执行的条目、更新、行动。课程里举了一个很生动的例子：你在办公桌前跟 Claude 讨论了一个计划，等你离开办公桌的时候，想法已经同步到了手机上，日历记录了时间，地图标注了地点，提醒事项安排了待办，到了晚上事情就已经推进完了。
+具体来说，Claude 能跟你一起阅读文档、分析电子表格、制作演示文稿，把你脑子里的想法从&quot;文字和幻灯片&quot;变成真实可执行的条目、更新、行动。...
 
 `claude` `rag` `Claude` `AI` `学习指南`
+
+---
+
+### [给人文工作者的 AI 使用指南](/entry/rx7t9zxg) 📄
+@MasterPa · ⭐⭐⭐⭐4  · 2026-03-05
+
+人文工作者没有创造世界变化，但他们却在承受世界变化。
+有的时候我感觉，那些卖人工智能教程的号总是把 AI 当成一种魔法：给你一个神奇的 prompt，你就能做任何事儿。现实当然不是这样。过去的一段时间里，因为创立了 [FUNES](https://funes.world/), 我们必须每天大量的通过 AI 进行生产。加之还有&quot;[《蜉蝣天地》](https://www.youtube.com/@FuyoutiandiMeanders)、我自己的写作等内容生产，光靠人力已经不够了。所以我们大量的尝试如何使用 AI 辅助我们的内容市场与人文学科研究工作。
+后来公司有新同事入职，我就做了个简单的 Keynote。又一次得到的贾行家老师听说后，就邀请我去做个分享。...
+
+`AI` `人文工作者` `使用指南` `工作方法`
 
 ---
 
@@ -315,11 +293,7 @@ Anthropic 最近在自家的教育平台 Anthropic Academy 上线了一门免费
 **By @rwayne** (Roland的思考日记) · Sat Feb 28 12:21:10 +0000 2026
 📊 ❤️ 1,991 🔁 668 🔖 3,535 👁️ 1,234,504 💬 172
 📐 438 words
-这是一篇约8000字的深度分析。说三件事：第一，AI正在改写全球价值链的利润分配规则，物理资源的相对价值在上升；第二，澳大利亚手里有好牌，但好牌和赢之间隔着加工能力、制度设计和时间窗口；第三，对在澳洲生活的普通人来说，理解自己在价值链上的位置比关注任何宏观叙事都重要。建议留20分钟完整阅读，我知道在当下阅读长文是一个很辛苦的事情，但是保证这篇文章会让你读完有所收获，我不建议使用ai总结，会压缩文章的质量。
-AI声明：本文观点，和主要脉络线索由作者整理创，Claude Opus4.6 作为评审员为作者进行大量的批评与指正，Grok4.20为本文提供大量事实核查。
-AI、矿产与澳洲经济：2026，澳洲能迎来“新国运”吗？
-最近流传一种说法澳大利亚要迎来&quot;新国运&quot;了。
-说法大同小异。不过就是AI需要电，电需要矿，矿在澳洲。
+这是一篇约8000字的深度分析。说三件事：第一，AI正在改写全球价值链的利润分配规则，物理资源的相对价值在上升；第二，澳大利亚手里有好牌，但好牌和赢之间隔着加工能力、制度设计和时间窗口；第三，对在澳洲生活的普通人来说，理解自己在价值链上的位置比关注任何宏观叙事都重要。建议留20分钟完整阅读，我知道在当下阅读长文是一个很辛苦的事情，但是保证这篇文章会让你读完有所收获，我不建议使用ai总结，会压缩文章的质量。...
 
 `claude` `phone-ai`
 
@@ -333,11 +307,7 @@ AI、矿产与澳洲经济：2026，澳洲能迎来“新国运”吗？
 📐 253 words
 2026 年初，美国软件股经历了一场近乎恐慌式的下跌。
 导火索并不复杂。ServiceNow 在财报电话会上提到，客户正在重新评估按 seat 采购软件的方式。市场立刻意识到一个问题：如果 AI Agent 能让 2 个人干 20 个人的活，那过去按人头收费的软件公司，收入模型会不会被直接打穿？
-恐慌迅速蔓延。Atlassian、Workday、Salesforce、Adobe 接连大跌，整个应用软件板块蒸发了约 2 万亿美元。华尔街甚至给这场下跌起了个名字：SaaSpocalypse。
-所有人都在问同一个问题：
-AI 会不会杀死软件行业？
-美国投资人的答案很明确：不会。
-a16z 合伙人 Alex Immerman 最近写了一篇很有代表性的文章。他的核心判断是，模型变强不会让应用层变薄，反而会让应用层更有价值。因为真正稀缺的从来不是&quot;智能&quot;本身，而是&quot;知道拿智能做什么&quot;。
+恐慌迅速蔓延。Atlassian、Workday、Salesforce、Adobe 接连大跌，整个应用软件板块蒸发了约 2 万亿美元。华尔街甚至给这场下跌起了个名字：SaaSpocalypse。...
 
 `agent`
 
@@ -355,12 +325,7 @@ a16z 合伙人 Alex Immerman 最近写了一篇很有代表性的文章。他的
 AI提炼总结下要点。
 这次升级，核心在 A
 先说几个数字：
-AI 性能比上代快 4 倍，比 M1 快 8 倍。
-这个提升怎么来的？
-苹果在 GPU 的每个核心里都塞了一个&quot;神经加速器&quot;（Neural Accelerator）。
-你可以把它理解成专门处理 AI 任务的小引擎，就像你厨房里有个专门打果汁的机器，比用菜刀切快多了。
-这意味着什么？
-LLM（大语言模型）的提示词处理速度快了 6.9 倍，AI 图像生成快了 7.8 倍。
+AI 性能比上代快 4 倍，比 M1 快 8 倍。...
 
 `vibe-coding` `coding`
 
@@ -373,9 +338,7 @@ LLM（大语言模型）的提示词处理速度快了 6.9 倍，AI 图像生成
 
 &gt; 归档说明：本次通过 X 已登录页面抓取到长文正文大段文本。受页面动态加载限制，末尾少量段落可能存在缺失，**待核实**。
 I’ve been using Claude Cowork since January 12, the day it launched.
-我从 1 月 12 日（它上线当天）就开始使用 Claude Cowork。
-In seven weeks, I’ve run over 400 Cowork sessions. I tested plugins, connectors, and slash commands, and measured what actually changes outcomes.
-在 7 周里，我运行了 400+ 次 Cowork 会话，测试了插件、连接器和斜杠命令，并关注哪些做法真正改变结果。
+我从 1 月 12 日（它上线当天）就开始使用 Claude Cowork。...
 
 `claude` `agent` `skill` `subagent` `context-management`
 
@@ -409,22 +372,6 @@ Ruflo（前身 Claude Flow）将自己定位为生产可用的多 Agent 编排�
 
 ## 📅 2026-03-01
 
-### [从 MCP 到 SKILL（II）：把调用层补齐](/entry/re3mcqtn) 📄
-@jolestar · ⭐⭐⭐⭐⭐5  · 2026-03-01
-
-从 MCP 到 SKILL（II）：把调用层补齐
-我在《从 MCP 到 SKILL：关于 Agent 扩展机制的思考 https://x.com/jolestar/status/2011461813767155828 》里提过一个很直觉的分工：
-- MCP（Model Context Protocol）更像“标准插头”，解决连接标准化
-- SKILL 更像“操作手册 + 工作流”，解决编排、状态与闭环
-当时我以为，这两者拼起来就会很自然。
-但真把它落到工程里，很快会发现：缺的不是理念，而是最后那一段“可执行、可迁移、对 Agent 友好”的、适合写进 SKILL 的通用调用入口。
-首先没有一个通用的 SKILL 友好的 MCP CLI。理论上可以用 `curl` 调 MCP HTTP，但对 Agent 来说参数、认证、错误处理都太复杂，稳定性差。于是很多服务放弃了 MCP，直接退化成“纯 REST 接口”。
-SKILL 里用 curl 来演示当然能跑通，但这种方式可维护性差：接口变化 AI 无法感知，接口数量多了也很难展示与发现。
-
-`mcp` `agent` `skill` `coding` `context-management`
-
----
-
 ### [AI、矿产与澳洲经济：2026，澳洲能迎来&quot;新国运&quot;吗？](/entry/c3xq8hlt) 📄
 @Stanley · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-01
 
@@ -446,6 +393,21 @@ Two years from now, the business landscape is going to look completely different
 
 ---
 
+### [从 MCP 到 SKILL（II）：把调用层补齐](/entry/re3mcqtn) 📄
+@jolestar · ⭐⭐⭐⭐⭐5  · 2026-03-01
+
+从 MCP 到 SKILL（II）：把调用层补齐
+我在《从 MCP 到 SKILL：关于 Agent 扩展机制的思考 https://x.com/jolestar/status/2011461813767155828 》里提过一个很直觉的分工：
+- MCP（Model Context Protocol）更像“标准插头”，解决连接标准化
+- SKILL 更像“操作手册 + 工作流”，解决编排、状态与闭环
+当时我以为，这两者拼起来就会很自然。
+但真把它落到工程里，很快会发现：缺的不是理念，而是最后那一段“可执行、可迁移、对 Agent 友好”的、适合写进 SKILL 的通用调用入口。
+首先没有一个通用的 SKILL 友好的 MCP CLI。...
+
+`mcp` `agent` `skill` `coding` `context-management`
+
+---
+
 ### [读霍华德·马克斯的《AI Hurtles Ahead》有感](/entry/7j2ija36) 📄
 @RichTerry123 · ⭐⭐⭐3  · 2026-03-01
 
@@ -455,10 +417,7 @@ Two years from now, the business landscape is going to look completely different
 这是他最新一篇备忘录的标题叫做AI Hurtles Ahead，翻译过来是AI疾驰而来。
 巴菲特曾给予他极高的评价：“当我看到邮件里有霍华德·马克斯的备忘录时，我总是第一时间打开阅读。我总能从中学到东西。”
 对他这篇备忘录的内容，我做了个梳理，分享给大家：
-1.对AI的理解：他惊叹于Claude输出的内容，认为大众不要把 AI 模型理解为一个检索数据并加以复述的搜索引擎，它实际上是一个能够综合数据并基于数据进行推理的计算机系统。
-AI 是真实存在的，过去，金融行业，乃至很多知识密集型行业的核心竞争力很大一部分建立在获取和处理海量信息的能力上。
-但马克斯明确指出，AI会抹平这种容易获得的信息优势。
-未来人类的竞争壁垒是定性分析与前瞻判断。能够评估企业文化、管理层素质、产品创新力，并在不确定性中描绘未来图景的人，其价值将在这个时代被无限放大。
+1.对AI的理解：他惊叹于Claude输出的内容，认为大众不要把 AI 模型理解为一个检索数据并加以复述的搜索引擎，它实际上是一个能够综合数据并基于数据进行推理的计算机系统。...
 
 `claude`
 
@@ -472,15 +431,6 @@ AI 是真实存在的，过去，金融行业，乃至很多知识密集型行�
 Karpathy 用 1 小时 vibe code 了一个个人有氧运动追踪仪表板（~300 行代码），Claude 逆向了 Woodway 跑步机云 API。核心观点：1）App Store 的离散应用长尾概念已过时，LLM Agent 可以当场即兴创建定制应用；2）行业需要重配置为 Agent 原生的传感器和执行器服务。现在 1 小时完成的事，2 年前需要 10 小时，但理想状态应该是 1 分钟。99% 的产品还没有 AI 原生 CLI。
 
 `karpathy` `vibe-coding` `bespoke-software` `app-store` `agent-native`
-
----
-
-### [软件的未来并非你所想](/entry/pxejvdmr) 📄
-@苏里格 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-28
-
-前 Meta AI 负责人、现 Airbnb CTO Ahmad Al-Dahle 的观点。AI 不会取代软件工程师但职业将剧烈变化。三个转变：工程师-产品思考者崛起（理解为什么比如何实现更重要）、系统思维胜过代码流利度（跨基础设施/分布/激励/二阶效应推理）、品味作为技术技能（工具变好后有品味的工程师价值只增不减）。代码始终是媒介，判断力始终是手艺。
-
-`software-engineering` `ai-coding` `judgment` `taste` `career`
 
 ---
 
@@ -508,6 +458,15 @@ Jack Dorsey 裁员 4000+ 人（10000→6000）的内部备忘录。不是因为�
 Block 裁 4000 人的三个观察：一、&quot;金色寻回犬&quot;时代结束——听话勤快按流程做事的人恰是 LLM 最强能力；二、薪资正在两极分化且速度吓人，AI coding 占比从 20-30% 到接近 99%；三、未来是能做判断的人 vs 只能跑流程的人的分野。作者前微软 5 年员工的一线观察。
 
 `layoff` `block` `golden-retriever` `ai-replacement` `salary-polarization`
+
+---
+
+### [软件的未来并非你所想](/entry/pxejvdmr) 📄
+@苏里格 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-28
+
+前 Meta AI 负责人、现 Airbnb CTO Ahmad Al-Dahle 的观点。AI 不会取代软件工程师但职业将剧烈变化。三个转变：工程师-产品思考者崛起（理解为什么比如何实现更重要）、系统思维胜过代码流利度（跨基础设施/分布/激励/二阶效应推理）、品味作为技术技能（工具变好后有品味的工程师价值只增不减）。代码始终是媒介，判断力始终是手艺。
+
+`software-engineering` `ai-coding` `judgment` `taste` `career`
 
 ---
 
@@ -580,8 +539,8 @@ Sam Altman 在 OpenAI 开发者 Town Hall 上的坦率对话，23个话题。承
 
 2025年的年终总结 | MkSaaS - Make Your AI SaaS Product in a Weekend
 2025年的年终总结，回顾过去独立开发之路，展望未来产品出海规划
-Read in Cubox  
-Read Original
+
+
 大家好，2026年了，我一直在写一份年终总结，现在终于写完了，如释重负。我在这个年终总结中总结了最近2年来的独立开发经历，一方面自我沉淀，一方面分享经验，希望对大家有所帮助。
 我总结的内容比较多，阅读时间会比较长，建议你时间充足的时候再看。今年在播客中听了不少的采访，启发良多，所以年终总结改为自问自答的方式，大家对什么问题感兴趣就直接跳着看就好了。
 
@@ -630,7 +589,7 @@ Cubox 收藏 — 手搓AI智能体实战经验
 ### [陆奇最新演讲实录：我的大模型世界观](/entry/7wc3T3GQ) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-04-24
 
-Cubox 收藏 — 陆奇最新演讲实录：我的大模型世界观
+陆奇在这篇演讲中用信息、模型、行动三位一体框架解释大模型拐点：模型成本正从边际成本走向固定成本，AI 会重塑服务经济、创业机会和个人职业价值。文章适合作为理解中国 AI 创业语境、OpenAI 影响和大模型时代结构性机会的背景材料。
 
 ---
 

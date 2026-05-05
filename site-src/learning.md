@@ -1,48 +1,26 @@
 # 📖 学习资源
 
-教程 / 论文 / 提示工程 / 演讲 — 共 **83** 条活跃资源
+教程 / 论文 / 提示工程 / 演讲 — 共 **79** 条活跃资源
 
-## 📅 2026-05-03
+## 📅 2026-05-04
 
-### [AI提示词工程：2026年全新课程](https://x.com/AndrewYNg/status/2049886895530967534)
-@@AndrewYNg · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-03
+### [Greg Brockman 详解 Codex 验证创业想法的 Skill](/entry/c1887e9a) 📄
+@@gdb · ⭐⭐⭐⭐4 🇨🇳 · 2026-05-04
 
-一门全面的AI提示词工程课程，覆盖多个主流AI平台，帮助用户从基础到高级掌握提示词技巧。
+Greg Brockman 分享了一个 Codex Skill，可以对创业想法进行压力测试。用户只需输入创业想法，Codex 会自动找到核心假设、暴露致命缺陷、检查问题是否真实存在，并给出坦诚的批判性评估。这个 Skill 解决了一个常见痛点：大多数创业想法听起来都不错，但缺乏系统性的验证机制。对于独立开发者、天使投资人以及正在构思 MVP 的创业者，这个工具提供了一个低成本的初期验证手段，可以快速筛选出想法中的致命漏洞。
 
-`prompt-engineering` `multi-platform` `skill-building` `x`
-
----
-
-## 📅 2026-05-02
-
-### [吴恩达推出新课《AI Prompting for Everyone》:跨模型通用提示工程技巧](/entry/58wn955a) 📄
-@@AndrewYNg · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-02
-
-How we prompt AI is very different in 2026 than 2022 when ChatGPT came out. I&#x27;m teaching a new course, AI Prompting for Everyone, to help you become an AI power user - whatever your current skill level. It covers skills that apply across ChatGPT, Gemini, Claude, and other AI.
-
-`x` `ai-tools` `prompt`
+`x` `prompt` `startup` `codex` `validation`
 
 ---
 
-## 📅 2026-04-30
+## 📅 2026-05-01
 
-### [Allie K. Miller 免费开放：5 天 AI 实战训练营，从使用到构建](/entry/d1d65a6d) 📄
-@@alliekmiller · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-30
+### [Andrew Ng新课：AI Prompting for Everyone](/entry/aa642c51) 📄
+@@AndrewYNg · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-05-01
 
-知名 AI 博主 Allie K. Miller 推出免费 5 天邮件课程 AI Fast Track，专为想从使用 AI 进阶到用 AI 构建的人群设计。课程无需编程基础，聚焦教你在实际场景中加入 Claude 等工具到工作流中，构建个人 AI 软件、自动化流程和问题解决工具。如果你已经玩腻了 Copy-paste Prompt，这是不错的进阶路径。
+吴恩达（Andrew Ng）指出2026年的 Prompt 技巧与2022年 ChatGPT 刚发布时已截然不同。他新推出课程「AI Prompting for Everyone」，旨在帮助各种技能水平的用户成为AI power user。课程覆盖跨 ChatGPT、Gemini、Claude 等主流模型的通用 Prompt 技巧，强调如何针对不同模型特性优化 Prompt 策略。对于想系统提升 AI 使用效率的读者，这门跨模型的通用方法论比单一工具教程更有长期价值。
 
-`x` `workflow`
-
----
-
-## 📅 2026-04-28
-
-### [AI Fast Track: 5天免费课程，从用AI到用AI构建](/entry/657d8468) 📄
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-04-28
-
-Allie K. Miller 推出免费 5 天邮件课程 AI Fast Track，核心主张是超越 ChatGPT 复制粘贴，教用户用 Claude 构建个人 AI 软件、自动化工具和工作流，无需编程基础。课程涵盖从基础到实战构建的全流程，适合想从 AI 使用者转型为 AI 建造者的人群。
-
-`x` `ai-tools` `course` `automation` `beginner`
+`x` `prompt` `learning` `course`
 
 ---
 
@@ -92,43 +70,30 @@ Android 17用lock-free混合数据结构DeliQueue替换了存在20年的MessageQ
 
 ---
 
-### [Android 16 MessageQueue 优化调研报告](/entry/y1of91bq) 📄
-@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
+### [AI时代系统工程师的硬技能升级路线图](/entry/6hz9vzy3) 📄
+⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
-调研Android 16对MessageQueue的重构优化。采用lock-free数据结构（Treiber stack和ConcurrentSkipListSet）解决优先级翻转问题。新实现几乎完全消除锁竞争，显著提升系统响应性和用户体验，特别是在冷启动等关键场景中。
+面向资深Android系统工程师的技能升级路线图。核心判断：2025-2026年最具杠杆效应的方向是&#x27;端侧AI全栈&#x27;——将系统底层经验与AI推理优化、On-device ML和AI Agent开发结合。AI技能薪资溢价已达56%，全球AI人才缺口300万。建议投资方向包括：LLM基础能力、Agent开发、端侧推理优化、性能分析与AI结合。原文含具体学习路径和工具推荐。
 
-`android-16` `messagequeue` `lock-free` `treiber-stack` `performance`
-
----
-
-### [Android App 帧渲染流程深度解析：从 Vsync 到屏幕](/entry/vpd4rsxd) 📄
-@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
-
-从Vsync-App信号接收开始，深度解析Android应用帧渲染的完整流程。涵盖Choreographer调度、Input/Animation/Traversals回调、Draw/Measure/Layout流程、RenderThread与GPU协作、BufferQueue流转、SurfaceFlinger合成、直至最终屏幕显示。包含详细的时序图和性能关键路径分析。
-
-`android` `vsync` `rendering` `frame` `choreographer`
+`ai-engineer` `system-engineer` `career` `on-device-ai` `skill-upgrade`
 
 ---
 
 ### [Airbnb’s Page Performance Score on Android | by Luping Lin | The Airbnb Tech Blog | Dec, 2021 | Medium](/entry/r5jbtfwg) 📄
 ⭐⭐⭐⭐4 🌐 · 2026-04-10
 
-Airbnb’s Page Performance Score on Android | by Luping Lin | The Airbnb Tech Blog | Dec, 2021 | Medium
-Airbnb’s home grown Page Performance Score (PPS) is designed to capture the rich, complex realities of performance by collecting a multitude of user-centric performance metrics and formulating them…
-Read in Cubox  
-Read Original
-?imageUrl=https%3A%2F%2Fmiro.medium.com%2Ffit%2F...
+Android × AI 交叉领域收藏
 
 `Android`
 
 ---
 
-### [Android 应用性能优化：Vsync 与 Buffer 深度研究报告](/entry/lapawuax) 📄
+### [Android 16 MessageQueue 优化调研报告](/entry/y1of91bq) 📄
 @Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
-深入研究Android应用中Vsync和Buffer相关机制。涵盖Vsync信号产生与分发、Vsync-app/Vsync-sf/Vsync-appsf分类、BufferQueue及BlastBufferQueue工作原理、UI线程与RenderThread协作、app duration与sf duration分析、GPU Fence和HWC Fence同步机制。为Android性能优化提供理论基础和实践指导。
+调研Android 16对MessageQueue的重构优化。采用lock-free数据结构（Treiber stack和ConcurrentSkipListSet）解决优先级翻转问题。新实现几乎完全消除锁竞争，显著提升系统响应性和用户体验，特别是在冷启动等关键场景中。
 
-`android` `vsync` `buffer` `blastbufferqueue` `surfaceflinger`
+`android-16` `messagequeue` `lock-free` `treiber-stack` `performance`
 
 ---
 
@@ -141,21 +106,21 @@ Android ARM平台上Running耗时分析方法论与工具链的完整报告。�
 
 ---
 
+### [Android App 帧渲染流程深度解析：从 Vsync 到屏幕](/entry/vpd4rsxd) 📄
+@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
+
+从Vsync-App信号接收开始，深度解析Android应用帧渲染的完整流程。涵盖Choreographer调度、Input/Animation/Traversals回调、Draw/Measure/Layout流程、RenderThread与GPU协作、BufferQueue流转、SurfaceFlinger合成、直至最终屏幕显示。包含详细的时序图和性能关键路径分析。
+
+`android` `vsync` `rendering` `frame` `choreographer`
+
+---
+
 ### [Android Native 内存泄漏深度调研报告](/entry/fcaeud36) 📄
 @Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
 深入探讨Android Native内存泄漏问题，涵盖基本原理、检测与分析方法、常用工具（Valgrind、AddressSanitizer、heapprofd等）及库。结合实际案例分析Android内存管理机制和Native层内存泄漏成因，为开发者提供全面的Native内存泄漏解决方案。
 
 `android` `native` `memory-leak` `valgrind` `asan`
-
----
-
-### [AI时代系统工程师的硬技能升级路线图](/entry/6hz9vzy3) 📄
-⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
-
-面向资深Android系统工程师的技能升级路线图。核心判断：2025-2026年最具杠杆效应的方向是&#x27;端侧AI全栈&#x27;——将系统底层经验与AI推理优化、On-device ML和AI Agent开发结合。AI技能薪资溢价已达56%，全球AI人才缺口300万。建议投资方向包括：LLM基础能力、Agent开发、端侧推理优化、性能分析与AI结合。原文含具体学习路径和工具推荐。
-
-`ai-engineer` `system-engineer` `career` `on-device-ai` `skill-upgrade`
 
 ---
 
@@ -168,12 +133,21 @@ Android ARM平台上Running耗时分析方法论与工具链的完整报告。�
 
 ---
 
-### Android 性能优化知识体系大纲
-@Manus AI · ⭐⭐⭐3 🇨🇳 · 2026-04-10
+### [Android 应用性能优化：Vsync 与 Buffer 深度研究报告](/entry/lapawuax) 📄
+@Manus AI · ⭐⭐⭐⭐4 🇨🇳 · 2026-04-10
 
-Android性能优化完整知识体系大纲。从性能优化基础定义与目标出发，建立响应时间、流畅度、内存占用、功耗、稳定性等关键指标体系。覆盖测量-分析-优化-验证闭环方法论，以及系统性思考、全局视角、数据驱动的优化思维模式。
+深入研究Android应用中Vsync和Buffer相关机制。涵盖Vsync信号产生与分发、Vsync-app/Vsync-sf/Vsync-appsf分类、BufferQueue及BlastBufferQueue工作原理、UI线程与RenderThread协作、app duration与sf duration分析、GPU Fence和HWC Fence同步机制。为Android性能优化提供理论基础和实践指导。
 
-`android` `performance` `knowledge-map` `optimization` `methodology`
+`android` `vsync` `buffer` `blastbufferqueue` `surfaceflinger`
+
+---
+
+### [GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。](/entry/7ypeivbn) ⭐8,445 📄
+⭐⭐⭐3 🇨🇳 · 2026-04-10
+
+# GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。 ChatGPT Shortcut 是根据领域和功能划分的 ChatGPT 快捷指令表，可通过标签筛选、关键词搜索和一键复制来使用提示词，旨在简化你的工作流程并提高生产力。即使是初学者，你只需复制提示词，稍加修改后发送给 ChatGPT，就能获得指定输出，让你的生产力加倍！ 提示词（即 Prompt）通常是用户提供的问题或文本，以激活模型生成回复。简单来说，prompt 就是用户想要询问的内容，作为输入送到 ...
+
+`[]` `openai` `prompt` `chatgpt`
 
 ---
 
@@ -186,26 +160,12 @@ Android Framework常见面试题解答集，包含socketpair与socket区别、Bi
 
 ---
 
-### 微信小程序技术调研报告
+### Android 性能优化知识体系大纲
 @Manus AI · ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
-微信小程序技术的全面调研报告，涵盖7个维度：历史与背景、重要性分析、技术实现架构、启动与滑动性能优化、优化目标与挑战、优化策略、小程序vs小游戏对比。深入分析了微信小程序的双线程架构、渲染管线、启动优化策略、滑动性能瓶颈及解决方案。对理解小程序性能优化有较高参考价值。
+Android性能优化完整知识体系大纲。从性能优化基础定义与目标出发，建立响应时间、流畅度、内存占用、功耗、稳定性等关键指标体系。覆盖测量-分析-优化-验证闭环方法论，以及系统性思考、全局视角、数据驱动的优化思维模式。
 
-`wechat` `mini-program` `android` `performance` `startup`
-
----
-
-### [https://learningprompt.wiki/docs/insight/AI%20%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E4%BA%BA%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E5%90%97%EF%BC%9F/%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E4%BA%BA%E7%9A%84%E9%98%85%E8%AF%BB%E6%9...](/entry/T4eWO6CN) 📄
-⭐⭐⭐3 🇨🇳 · 2026-04-10
-
-https://learningprompt.wiki/docs/insight/AI%20%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E4%BA%BA%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E5%90%97%EF%BC%9F/%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E4%BA%BA%E7%9A%84%E9%98%85%E8%AF%BB%E6%9...
-
----
-
-### [关于如何在 Slack 上免费使用 GPT4 和 GPT3.5 的一个简单教程： 0、全程不需要科学上网； 1、注册一个 Slack 帐号 https://slack.com/intl/zh-cn/ ； 2、创建一个工作区，随便起一个名字，如果你已经有工作区了，跳过此步； 3、点开 https://www.springworks.in/albus/ 这个页面，安装 AIbus 到 Slack； 4、在 Slack 直接点开 AIbus 与它对话； 5、也可以在频道里把 AIbus 拉进来，之后就...](https://m.okjike.com/originalPosts/642675a1005a6157f60d8139?s=eyJ1IjoiNTY3YTUwZDQ2ZWY4OWMxMjAwOGE3NTc1In0%3D&utm_source=wechat_session)
-⭐⭐⭐3 🇨🇳 · 2026-04-10
-
-关于如何在 Slack 上免费使用 GPT4 和 GPT3.5 的一个简单教程： 0、全程不需要科学上网； 1、注册一个 Slack 帐号 https://slack.com/intl/zh-cn/ ； 2、创建一个工作区，随便起一个名字，如果你已经有工作区了，跳过此步； 3、点开 https://www.springworks.in/albus/ 这个页面，安装 AIbus 到 Slack； 4、在 Slack 直接点开 AIbus 与它对话； 5、也可以在频道里把 AIbus 拉进来，之后就...
+`android` `performance` `knowledge-map` `optimization` `methodology`
 
 ---
 
@@ -218,12 +178,26 @@ Anthropic官方Claude Code实战课程的中文翻译版，适合离线阅读。
 
 ---
 
-### [GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。](/entry/7ypeivbn) ⭐8,445 📄
+### [https://learningprompt.wiki/docs/insight/AI%20%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E4%BA%BA%E7%9A%84%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F%E5%90%97%EF%BC%9F/%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E4%BA%BA%E7%9A%84%E9%98%85%E8%AF%BB%E6%9...](/entry/T4eWO6CN) 📄
 ⭐⭐⭐3 🇨🇳 · 2026-04-10
 
-# GitHub - rockbenben/ChatGPT-Shortcut: 让生产力加倍的 ChatGPT 快捷指令，按照领域和功能分区，可对提示词进行标签筛选、关键词搜索和一键复制。 ChatGPT Shortcut 是根据领域和功能划分的 ChatGPT 快捷指令表，可通过标签筛选、关键词搜索和一键复制来使用提示词，旨在简化你的工作流程并提高生产力。即使是初学者，你只需复制提示词，稍加修改后发送给 ChatGPT，就能获得指定输出，让你的生产力加倍！ 提示词（即 Prompt）通常是用户提供的问题或文本，以激活模型生成回复。简单来说，prompt 就是用户想要询问的内容，作为输入送到 ...
+Cubox 收藏 — https://learningprompt.wiki/docs/insight/AI%20%E6%
 
-`[]` `openai` `prompt` `chatgpt`
+---
+
+### [关于如何在 Slack 上免费使用 GPT4 和 GPT3.5 的一个简单教程： 0、全程不需要科学上网； 1、注册一个 Slack 帐号 https://slack.com/intl/zh-cn/ ； 2、创建一个工作区，随便起一个名字，如果你已经有工作区了，跳过此步； 3、点开 https://www.springworks.in/albus/ 这个页面，安装 AIbus 到 Slack； 4、在 Slack 直接点开 AIbus 与它对话； 5、也可以在频道里把 AIbus 拉进来，之后就...](https://m.okjike.com/originalPosts/642675a1005a6157f60d8139?s=eyJ1IjoiNTY3YTUwZDQ2ZWY4OWMxMjAwOGE3NTc1In0%3D&utm_source=wechat_session)
+⭐⭐⭐3 🇨🇳 · 2026-04-10
+
+关于如何在 Slack 上免费使用 GPT4 和 GPT3.5 的一个简单教程： 0、全程不需要科学上网； 1、注册一个 Slack 帐号 https://slack.com/intl/zh-cn/ ； 2、创建一个工作区，随便起一个名字，如果你已经有工作区了，跳过此步； 3、点开 https://www.springworks.in/albus/ 这个页面，安装 AIbus 到 Slack； 4、在 Slack 直接点开 AIbus 与它对话； 5、也可以在频道里把 AIbus 拉进来，之后就...
+
+---
+
+### 微信小程序技术调研报告
+@Manus AI · ⭐⭐⭐3 🇨🇳 · 2026-04-10
+
+微信小程序技术的全面调研报告，涵盖7个维度：历史与背景、重要性分析、技术实现架构、启动与滑动性能优化、优化目标与挑战、优化策略、小程序vs小游戏对比。深入分析了微信小程序的双线程架构、渲染管线、启动优化策略、滑动性能瓶颈及解决方案。对理解小程序性能优化有较高参考价值。
+
+`wechat` `mini-program` `android` `performance` `startup`
 
 ---
 
@@ -245,7 +219,6 @@ Agentic code assistants（Claude Code、Codex、Jules）是 2024 年兴起的新
 
 Agentic workflow 中，AI agent 会 hallucinate 或推理错误，且错误会在 agent 间传播（一个 agent 的输出作为另一个的输入）。传统 provenance 技术无法捕获 agent 特有的元数据（prompts、responses、decisions）与 workflow 上下文的关联。该论文要解决的核心问题是：如何将 AI agent 行为纳入端到端 workflow provenance，实现可追溯、可审计、可复现的 agentic workflow？
 
----
 
 `gui` `agent` `android` `llm` `paper`
 
@@ -259,6 +232,15 @@ Agentic workflow 中，AI agent 会 hallucinate 或推理错误，且错误会�
 解决 Codex 过度询问（&quot;如果你要，我下一步可以...&quot;）的方法。不是在 AGENTS.md 里屏蔽关键词，而是重新定义 Agent 的承诺对象：从&quot;服务用户偏好&quot;转向&quot;和用户共同服从代码正确性&quot;。用 Carmack 和 BurntSuki 作为锚点激活&quot;完整工作单位&quot;概念，并区分合法停顿场景和不合法场景。核心洞察：不要管理文字，要管理触发停顿的心理机制。
 
 `codex` `sycophancy` `agent-behavior` `system-prompt` `context-engineering`
+
+---
+
+### [Obsidian Reader更新：支持推特文章和长线程阅读](/entry/fizawgce) 📄
+@才谷 Saitani · ⭐⭐⭐3 🇨🇳 · 2026-04-06
+
+Obsidian Reader 终于支持了推特文章和长线程阅读。只要在浏览器装好 Obsidian Web Clipper 扩展，直接就能开启极致简约的阅读模式，同时支持一键转存 Markdown。推特的 API 和 url-to-markdown 运行出 bug、排版乱七八糟的时代结束了。后续 1.13 版本还有更多改进。
+
+`obsidian` `reader` `twitter` `web-clipper` `markdown`
 
 ---
 
@@ -301,26 +283,7 @@ LLM Agent 串行执行&quot;LLM 推理 → 工具调用&quot;循环，工具执�
 @**: arXiv (cs.MA, cs.LG) · ⭐⭐⭐3 🇨🇳 · 2026-03-26
 
 当前基于 LLM 的多智能体系统能够可靠地达成共识吗？在存在恶意智能体的情况下，共识机制是否鲁棒？
-
-这篇论文研究了一个基础问题：当多个 LLM 智能体需要达成一致决策时，它们能否可靠地完成这一任务？特别是在存在可能破坏共识的拜占庭智能体的情况下。
-
----
-| 模型 | 群体大小 | 有效共识率 | 平均轮次 |
-|------|---------|----------|---------|
-| Qwen3-8B | N=4 | 15.8% | - |
-| Qwen3-14B | N=4 | 46.6% | - |
-| Qwen3-14B | N=8 | 67.4% | - |
-| Qwen3-14B | N=16 | 33.3% | 29.0 |
-
-解读:
-- 即使没有拜占庭智能体，有效共识率也低于 70%
-- 群体规模增大，性能下降（从 N=4 的 46.6% 降至 N=16 的 33.3%）
-- 较大模型（14B）显著优于较小模型（8B）
-
-关键发现 2: 提示内容影响活跃性
-
-| 提示变体 | 有效共识率 | 平均轮次 |
-|---------|----------|----…
+这篇论文研究了一个基础问题：当多个 LLM 智能体需要达成一致决策时，它们能否可靠地完成这一任务？特别是在存在可能破坏共识的拜占庭智能体的情况下。...
 
 `analysis` `safety` `agent` `llm` `paper`
 
@@ -332,12 +295,10 @@ LLM Agent 串行执行&quot;LLM 推理 → 工具调用&quot;循环，工具执�
 @**：Stylianos Loukas Vasileiou, Antonio Rago, Francesca Toni, William Yeoh · ⭐⭐⭐⭐4 🇨🇳 · 2026-03-22
 
 论文试图解决什么问题？
-
 1. AI 系统的黑箱问题：LLMs 的推理过程不透明，难以验证和信任
 2. 计算论证的可扩展性问题：传统 CA 依赖手工知识工程，难以应用于开放域
 3. 人机协作的失衡：当前 AI 要么完全自动化决策，要么只是提供解释，缺乏真正的协作
 4. 高风险领域的可信度：在医学、法律等领域，AI 必须提供可争议、可审查的推理
-
 核心洞察：计算论证（CA）与大语言模型（LLMs）的融合可以实现一个新范式——论证型人机决策制定，其中 AI 与人类共同推理，而不是为人类推理。
 
 `obsidian` `safety` `fine-tuning` `agent` `llm`
@@ -350,34 +311,11 @@ LLM Agent 串行执行&quot;LLM 推理 → 工具调用&quot;循环，工具执�
 ⭐⭐⭐3 🇨🇳 · 2026-03-14
 
 Q1：这项研究要解决什么问题？
-
 核心问题：LLM 智能体无法从历史经验中学习
 1. 记忆效率低下：存储原始轨迹 Token 消耗大（15K+ tokens/episode）
 2. 缺乏抽象能力：无法从具体案例中提取通用规则
 3. 无法持续改进：每次任务从零开始，重复犯错
-
-Q2：为什么这个问题重要？
-
-对 AI 研究：
-- 当前 LLM 智能体&quot;昙花一现&quot;（无长期记忆）
-- 与人类学习方式差距大（人类会积累技能）
-- 通往 AGI 的必经之路（持续学习能力）
-
----
-核心收获
-
-1. 技能抽象优于原始记忆：Token 减少 62%，性能提升 15.3%
-2. 递归进化至关重要：性能随迭代持续提升
-3. 分层组织有效：通用技能提供战略指导
-4. 失败教训有价值：减少 68% 的重复失败
-
-对高爷的建议
-
-1. SmartPerf + SkillRL：集成到 SmartPerf 项目
-2. Android 性能优化智能体：自动性能诊断和优化
-3. 技术博客选题：
-   - &quot;SkillRL：让 LLM 智能体学会&#x27;刻意练习&#x27;&quot;
-   - &quot;从论文到实战：SkillRL 在 Androi…
+Q2：为什么这个问题重要？...
 
 `obsidian` `agent` `llm` `paper` `reinforcement-learning`
 
@@ -389,21 +327,13 @@ Q2：为什么这个问题重要？
 ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-13
 
 **论文：** Chain-of-Tools: Utilizing Massive Unseen Tools in the CoT Reasoning of Frozen Language Models
-
 **arXiv：** 2503.16779v1
-
 **精读日期：** 2026-03-13
 
----
-
 ## 一、核心问题
-
 **研究问题：**
-
 如何让大型语言模型（LLMs）在链式思维（CoT）推理过程中高效地利用大量外部工具，包括训练时未见过的工具？
-
 **子问题：**
-
 1. **效率问题：** 如何在拥有大量工具（数千个）时高效选择合适的工具？
 2. **泛化问题：** 如何处理训…
 
@@ -417,24 +347,19 @@ Q2：为什么这个问题重要？
 ⭐⭐⭐⭐⭐5 🇨🇳 · 2026-03-11
 
 ## 一、核心问题
-
 ### 1.1 研究背景
 大语言模型（LLM）的推理能力日益重要，但：
 - **训练成本高**：扩大模型规模需要巨额算力
 - **性能瓶颈**：传统方法（CoT、ToT）性能趋于饱和
 - **效率问题**：零阶搜索方法（如Best-of-N）样本效率低
 - **奖励稀疏**：长推理链中奖励信号难以传播
-
 ### 1.2 核心问题
 **如何在不重新训练模型的情况下，通过测试时优化显著提升LLM推理能力？**
-
 关键子问题：
 1. 能否利用梯度信息而非仅奖励值？
 2. 如何在离散token空间中进行可微优化？
 3. 推理时优化与训练时优化的联系是什么？
-
 ## 二、创新点
-
 …
 
 `gui` `on-device` `fine-tuning` `coding` `llm`
@@ -494,21 +419,21 @@ macOS 上 OpenClaw 运行报错的系统性排查指南。Gateway 是中枢神�
 
 ---
 
-### [OpenClaw 从中级到高级完整教程](/entry/swprvijb) 📄
-@OneHopeA9 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-26
-
-面向已完成基础配置的 OpenClaw 用户的中高级教程。覆盖：AGENTS.md 工作规范、记忆优化（构建可靠记忆体系）、子 Agent 团队协作、Cron 自动化、Skill 开发、多渠道部署（全平台接入）、性能调优、实战练习清单、疑难解答。系统性的进阶指南。
-
-`openclaw` `tutorial` `agents-md` `memory` `cron`
-
----
-
 ### [How to master prompt engineering](/entry/r5io6o5x) 📄
 @Machina · ⭐⭐⭐⭐4 🌐 · 2026-02-26
 
 核心观点：prompt 工程不是写好的文字，而是精确知道自己想要什么。差距在于你脑中的模糊想法 vs 你能精确表达的程度。文章覆盖了从心理模型到输出精度的完整方法论，强调&quot;看不见的工作&quot;——在坐下来提示之前，先建立清晰的意图模型。
 
 `prompt-engineering` `mental-model` `precision` `structure`
+
+---
+
+### [OpenClaw 从中级到高级完整教程](/entry/swprvijb) 📄
+@OneHopeA9 · ⭐⭐⭐⭐4 🇨🇳 · 2026-02-26
+
+面向已完成基础配置的 OpenClaw 用户的中高级教程。覆盖：AGENTS.md 工作规范、记忆优化（构建可靠记忆体系）、子 Agent 团队协作、Cron 自动化、Skill 开发、多渠道部署（全平台接入）、性能调优、实战练习清单、疑难解答。系统性的进阶指南。
+
+`openclaw` `tutorial` `agents-md` `memory` `cron`
 
 ---
 
@@ -589,8 +514,8 @@ OpenClaw 最大问题不是不会装，而是装完没真实场景。三步前�
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-23
 
 我在知乎发现了一篇值得思考的文章，一起来看看吧。
-Read in Cubox  
-Read Original
+
+
 在性能优化领域，**竞品分析**是一个永恒的话题。然而，现有的分析手段往往存在较大的局限性：
 • **指标维度浅层化** ：大多局限于帧率（FPS）、内存占用、CPU 频率及利用率、线程统计等硬件或系统层面的指标。虽然可以通过截帧分析渲染管线，但对于 **CPU 端的具体开销**（如 UI 逻辑、战斗系统、渲染提交等模块的具体耗时）难以进一步拆解。
 • **技术壁垒**：在缺乏源代码和符号表的情况下，往往难以洞察竞品底层的具体技术实现。
@@ -604,12 +529,7 @@ Read Original
 ### [2026 年 AI 行业预测汇总，AI 将如何改变世界？](/entry/ni3njxvh) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2026-01-06
 
-2026 年 AI 行业预测汇总，AI 将如何改变世界？
-汇总自 Gartner、SaaStr、a16z、Every、Gary Marcus 和 Forbes 的 26 年 AI 行业分析
-Read in Cubox  
-Read Original
-?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FPEeV2JtM1K5wMHX5fRAvuF6vwsbibiaMNMV6TWp50WP2bwPTzo9ODzTwe18moLv2Qu4exjiaBRAQibCSqZRx0NRYRw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%23imgIndex%3D0)
-**最近看到各大投资机构在 2026 年 AI 行业的预测，我做了一个汇总，把相同点进行整理，不同点里有意思的观点做了摘要。**
+Cubox 收藏文章，best-practices 领域相关内容
 
 `Claude` `Agent`
 
@@ -620,16 +540,7 @@ Read Original
 ### [Avoid Mini-frameworks - laike9m&#x27;s blog](/entry/se8oa9cc) 📄
 ⭐⭐⭐⭐4 🌐 · 2025-12-26
 
-Avoid Mini-frameworks - laike9m&#x27;s blog
-Read in Cubox  
-Read Original
-DEC 24TH, 2025
-What is mini-framework?
-My Story
-Why mini-frameworks are bad?
-So, What Should You Do Instead?
-*See Hacker News discussion*
-I work in Google Ads infrastructure in the past four years. Over time, I&#x27;ve seen one pattern came along again and again, causing endless pain for developers, that is, creating mini-frameworks.
+Cubox 收藏文章，best-practices 领域相关内容
 
 ---
 
@@ -642,41 +553,12 @@ I work in Google Ads infrastructure in the past four years. Over time, I&#x27;ve
 
 ---
 
-## 📅 2025-11-05
-
-### [Allie K. Miller 推出免费 5 天 AI 课程：从会用 AI 到会用 AI 构建](/entry/a1b2c3d4) 📄
-@@alliekmiller · ⭐⭐⭐⭐⭐5 🇨🇳 · 2025-11-05
-
-Allie K. Miller 推出免费邮件课程《AI Fast Track》，5 天从入门到独立构建 AI 工具。核心主张：copy-paste ChatGPT prompts 只能走很远，真正差异在于用 AI 构建自动化和工作流。课程不需编程基础，工具箱新增 Claude，适合想从使用者升级为建造者的学习者。拆掉了从消费者到建造者的门槛，对想突破 AI 应用层的朋友很有参考价值。
-
-`x` `ai-tools` `learning` `course`
-
----
-
-### [Allie K. Miller：免费 5 日课带你从用 AI 进阶到用 AI 搭建](/entry/d65a31a7) 📄
-@@alliekmiller · ⭐⭐⭐⭐4 🇨🇳 · 2025-11-05
-
-Allie K. Miller 推出「AI Fast Track」免费 5 日邮件课程，定位是帮助用户从只会 copy-paste ChatGPT prompts 进阶到真正用 AI 搭建个人工具、自动化流程和软件。她强调「用 AI」和「用 AI 构建」之间有本质区别——后者需要理解 AI 能做什么边界、如何将 AI 能力封装成可复用系统。课程无需编程基础，工具箱以 Claude 为主（也有 ChatGPT）。适合想从「AI 使用者」转变为「AI 建造者」的初学者。
-
-`course` `automation` `claude` `beginner`
-
----
-
-### [超越 ChatGPT 复制粘贴：用 AI Fast Track 学会构建个人 AI 工具](/entry/9a6b89b2) 📄
-@@alliekmiller · ⭐⭐⭐⭐4 🇨🇳 · 2025-11-05
-
-Allie K. Miller 推出免费 5 天邮件课程，核心主张是「用 AI」与「用 AI 构建」有本质区别——仅靠复制粘贴 Prompt 上限很低。课程无需编程基础，教授如何用 Claude 扩展 AI 能力边界，搭建个人自动化工作流。适合想从消费者转型为创造者的初学者。附完整课程链接。
-
-`ai-tools` `course` `beginner`
-
----
-
 ## 📅 2025-10-19
 
 ### [Google《智能体设计模式》之 智能体推理引擎的内部视角 - 附录F 中翻版](/entry/yj96fkem) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2025-10-19
 
-# Google《智能体设计模式》之 智能体推理引擎的内部视角 - 附录F 中翻版 让大模型自己从内部视角讲解「推理引擎」的运作机制，哪家模型更合你心意？ ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FwV3O1yUmU2QIt4G7kicG7ZdH56SOsxLDLY4HDgOLaMnhxL3gXEo8O23QtLg6sCBIQnWckmxsFcyg0ap6MwecmtQ%2F640%3Fwx_fmt%3Djpeg%26from%3Dappmsg%23imgIndex%3D0) 前言：这本由谷歌资深工程主管Antonio Gulli免...
+Google 官方智能体设计模式的中文译版
 
 `deepseek` `llm` `大模型` `[]` `agent`
 
@@ -698,8 +580,8 @@ Allie K. Miller 推出免费 5 天邮件课程，核心主张是「用 AI」与�
 
 Anthropic全网追杀的人，可能是我……
 Anthropic官方说，有一个用户在一个月内消耗了价值数万美金的的token，从而决定限速。这个用户，好像，是我本人……
-Read in Cubox  
-Read Original
+
+
 上个月，Anthropic官方发布了信息，有一个用户，只花了$200美元订阅套餐，却在一个月内消耗了数万美金的(tens of thousands)的token。从而决定对所有人进行限速......
 全世界的程序员都在好奇，这位每个月花数万美金的老哥是谁？
 
@@ -713,8 +595,8 @@ Read Original
 ⭐⭐⭐⭐4 🇨🇳 · 2025-07-07
 
 Android×鸿蒙×AI 技术刊#第14期——Compose动画深度解析、KMP多端实践落地、Android 16适配指南
-Read in Cubox  
-Read Original
+
+
 **本周 Android 生态聚焦 UI 框架、跨平台方案与系统适配三大核心领域：**
 Compose 技术进阶
 共享元素动画剖析：解析 sharedElement() 与 sharedBounds() 的精准应用场景与渲染差异（ScaleToBounds vs RemeasureToBounds）；
@@ -733,8 +615,8 @@ Flutter 鸿蒙热...
 ⭐⭐⭐⭐4 🇨🇳 · 2025-06-23
 
 Android×鸿蒙×AI 技术刊#第12期：Android 16新特性、Compose与Flutter对比、ART机制揭秘
-Read in Cubox  
-Read Original
+
+
 本周 Android 生态动态聚焦系统升级、框架演进与底层优化三大方向：
 1️⃣**Android 16 更新深度解读**
 强制应用**开启全屏模式（edge-to-edge）** ，预测性返回手势默认激活；
@@ -753,8 +635,8 @@ Read Original
 ⭐⭐⭐⭐4 🇨🇳 · 2025-06-17
 
 Android×AI 技术刊#第11期——都是Android技术文
-Read in Cubox  
-Read Original
+
+
 **本周 Android 技术动态聚焦三大核心方向：**
 **跨端框架突破** ：
 腾讯视频开源 **ovCompose 框架** ，实现 Android/iOS/鸿蒙**三端一码** 开发，基于 Compose Multiplatform 深度优化性能与原生混排能力；
@@ -774,10 +656,9 @@ Flutter 复现 iOS 26 **&quot;液态玻璃&quot;效果** ，解析着色器与�
 
 AI 时代下的工程领导力：如何打造高效团队 - 来自谷歌工程负责人、Chrome 开发者的宝贵经验分享
 AI 是个好帮手，但不能全靠它，团队领导者得搞清楚“更好”到底是啥意思，然后带着团队更快地往那儿走，团队成员也是如此。
-Read in Cubox  
-Read Original
+
+
 今天偶然读到 Chrome 开发者、Google 工程负责人、著名技术书籍作者 -Addy Osmani 的一篇文章「Leading Effective Engineering Teams in the Age of GenAI」，讲的特别好，对于产品和研发方向如何变得高效，不管你是团队领导者、还是团队成员，都很有价值，分享给朋友们，可以先看我的阅读笔记，针对自己感兴趣的部门再阅读原文（推荐阅读，作者信息和文章链接放在文末）
-?imageUrl=https%3A%2F%2...
 
 `AI Safety`
 
@@ -808,9 +689,9 @@ Lilian Weng 的经典综述文章，系统阐述以 LLM 为核心的自主 Agent
 
 AI 也能&quot;看懂&quot;图片： 移动端相册 AI 搜图的奥秘PicQuery 通过创新的多模态搜索技术，为移动设备上的图片检索 - 掘金
 PicQuery 通过创新的多模态搜索技术，为移动设备上的图片检索提供了一个高效、智能的解决方案。是一个非常值得学习，把玩的好项目。
-Read in Cubox  
-Read Original
-其实大概三四个月前就想写一篇文章来介绍移动端 AI 搜图的一些进展，不过由于本人的精力有限和一些其他的原因，没有及时更新。所以也就拖更很久，好在春节有些时间可以把之前的一些知识总结，更好的展现给大家。  
+
+
+其实大概三四个月前就想写一篇文章来介绍移动端 AI 搜图的一些进展，不过由于本人的精力有限和一些其他的原因，没有及时更新。所以也就拖更很久，好在春节有些时间可以把之前的一些知识总结，更好的展现给大家。
 相信用 Android 手机的同学多少都有一些感觉，Android 手机上的相册都多了一个搜图的功能，例如小米手机或是 Oppo 手机都上线了类似的功能，输入文字可以获得相关的图片。下面展示一下小米相册里面的搜图功能：
 ?ima...
 
@@ -824,11 +705,11 @@ Read Original
 ⭐⭐⭐⭐4 🇨🇳 · 2025-02-04
 
 Android中AIDL和HIDL的区别，Google为什么更推荐AIDL？
-Read in Cubox  
-Read Original
+
+
 在Android中，AIDL（Android Interface Definition Language） 和 HIDL（HAL Interface Definition Language） 是两种用于定义跨进程通信接口的语言。AIDL 是 Android 系统最早支持的 IPC（进程间通信）机制，而 HIDL 是从 Android 8.0 开始引入，用于 HAL（Hardware Abstraction Layer）模块的接口定义。
 随着 Android 的发展，Google 决定从 Android 11 开始将新的 HAL 统
-一使用 AIDL 接口，而逐步放弃 HIDL。这种转变背后的原因涉及技术复杂度、性能、开发效率和生态统一性等多个方面。
+一使用 AIDL 接口，而逐步放弃 HIDL。...
 
 `Android` `Performance`
 
@@ -850,8 +731,8 @@ Read Original
 
 Articels/腹背受敌的中国经济（3 万字长文）.md at main · foreveryh/Articels · GitHub
 文章转载分享. Contribute to foreveryh/Articels development by creating an account on GitHub.
-Read in Cubox  
-Read Original
+
+
 繁华渐逝：腹背受敌的中国经济（3 万字长文）
 全文约 3 万字，撰写花了我 14 个月。阅读需要 60 分钟。如果完全读懂，能受益 30 年。
 
@@ -871,7 +752,7 @@ Read Original
 ### [我如何夺冠新加坡首届 GPT-4 提示工程大赛 [译] | 宝玉的分享](/entry/DJotrA2L) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2024-05-07
 
-深度探索我在驾驭大语言模型（LLMs）中学到的策略 ?imageUrl=https%3A%2F%2Fbaoyu.io%2Fimages%2Fprompt-engineering%2Fhow-i-won-singapores-gpt-4-prompt-engineering-competition%2F1_RAI4cBXe1_zaxVykHz79oA.webp&amp;valid=true) 庆祝这一里程碑 --- 真正的胜利在于宝贵的学习经历！
+Cubox 收藏 — 我如何夺冠新加坡首届 GPT-4 提示工程大赛 [译] | 宝玉的分享
 
 ---
 
@@ -900,8 +781,8 @@ Read Original
 
 Android11+ AIDL：专为提升应用性能而生！
 Android新版本AIDL性能再提升化！
-Read in Cubox  
-Read Original
+
+
 **点击下方👇关注****Android系统攻城狮**
 每日充电：OS+MultiMedia学习之旅
 
@@ -915,8 +796,8 @@ Read Original
 ⭐⭐⭐⭐4 🇨🇳 · 2023-12-26
 
 2023 年是 AI 领域的关键年份，我们在此聚焦今年对该行业未来发展具有重大影响的主要事件
-Read in Cubox  
-Read Original
+
+
 2023 年是 AI 领域的关键年份，我们在此聚焦今年对该行业未来发展具有重大影响的主要事件：
 *更正：在 2023 年 12 月 22 日发布的原博客中，标题&quot;AI 发布（AI Releases）&quot;造成了误解，因为内容涵盖了公告、更新及发布等多方面。我们对文本和信息图的标题进行了澄清。Stability AI 对其大语言模型（LLM）开源的提及未出现在信息图中，但保留在文章里，这强调了其在提升可获取性而非仅仅技术改进方面的重要性。信息图最初展示了 xAI 创业公司的成立，现已因不相关而移除。同时，Apple Vision Pro 的提及也被删去，因为文章更侧重于软件。我们还加入了最新发布的 Mid...
 
@@ -929,11 +810,7 @@ Read Original
 ### [American Idle — Remains of the Day](/entry/e9lw9q80) 📄
 ⭐⭐⭐⭐4 🌐 · 2023-07-11
 
-American Idle — Remains of the Day
-Read in Cubox  
-Read Original
-I promised one final piece on TikTok, focused primarily on the network effects of creativity. And this is that, in part. But it discusses a bunch of other topics, some only tangentially related to TikTok.
-All the points I wanted to cover seem hyperlinked in a sprawling loose tangle. This could easily have been sev...
+Cubox 收藏文章，best-practices 领域相关内容
 
 ---
 
@@ -942,8 +819,8 @@ All the points I wanted to cover seem hyperlinked in a sprawling loose tangle. T
 ### [AI狂飙的时代，人还有价值吗？](/entry/s4niyx5b) 📄
 ⭐⭐⭐⭐4 🇨🇳 · 2023-03-28
 
-Read in Cubox  
-Read Original
+
+
 最近两个月，受到香港中文大学卓越传媒人驻校计划的邀请，我在香港进行了为期八周的访学，并为新闻学院的学生们开设了一个工作坊，主题是关于&quot;如何提问&quot;。就在我们上课的几周时间里，ChatGPT以迅雷不及掩耳的速度进入了大众的视野。我在课上与同学们进行了讨论。有人说，在GPT的时代，会提问可能比会回答更加重要。有人欣喜，认为GPT将大大提高人类工作效率，减少无意义的重复劳动；也有人担忧，认为GPT可能会带来大规模失业，甚至动摇社会的基本结构。
 比尔·盖茨称赞，当前这场由ChatGPT衍生开来的人工智能革命是他所见到的自1980年以来最具革命性的技术进步。具体来说，GPT的革命性到底体现在什么地方？当前关于人工智能的讨论有些怎样的误区？它可能会带来什么影响？有什么是它能做的、又有什么是它永远也做不到的...
 
@@ -1002,8 +879,8 @@ Google 介绍 MLGO 框架，首个工业级将 ML 系统性集成到 LLVM 编译
 
 Android 车载应用开发与分析 （4）- 编写基于AIDL 的 SDK - 掘金
 之前介绍了车载应用开发体系中如何使用Jetpack在HMI中构建MVVM架构Android 车载应用开发与分析 （3）- 构建 MVVM 架构(Java版)，通过之前的介绍，也了解到在大多数车载
-Read in Cubox  
-Read Original
+
+
 之前介绍了车载应用开发体系中如何使用Jetpack在HMI中构建MVVM架构Android 车载应用开发与分析 （3）- 构建 MVVM 架构(Java版)，通过之前的介绍，也了解到在大多数车载系统应用架构中，一个完整的应用往往会包含三层，分别是
 **HMI**
 Human Machine Interface，显示UI信息，进行人机交互。
@@ -1018,11 +895,7 @@ Human Machine Interface，显示UI信息，进行人机交互。
 ### [&quot;If something is humanly possible, it&#x27;s attainable by you too.&quot; | Revue](/entry/xm27wqh4) 📄
 ⭐⭐⭐⭐4 🌐 · 2022-01-24
 
-&quot;If something is humanly possible, it&#x27;s attainable by you too.&quot; | Revue
-StoicallyTyped Newsletter - Happy Monday! Here is Issue #10! This issue will be a special issue that focuses on being a collection of resources related to the no
-Read in Cubox  
-Read Original
-Happy Monday! Here is Issue #10! This issue will be a special issue that focuses on being a collection of resources ...
+Cubox 收藏文章，newsletters-blogs 领域相关内容
 
 `Android` `Newsletter`
 
@@ -1035,8 +908,8 @@ Happy Monday! Here is Issue #10! This issue will be a special issue that focuses
 
 Android滚动组件图片加载优化与滚动速度的精确监听 | Paincker
 背景 在Android应用中，ListView / RecyclerView / ScrollView 滚动时，如果有过多图片加载容易导致卡顿，特别是快速滚动时，bindView中大量图片加载操作，会导致系统频繁分配回收内存，不仅消耗大量CPU和网络流量资源，而且极端情况下还会因为内存来不及回收产生OOM。
-Read in Cubox  
-Read Original
+
+
 在Android应用中，ListView / RecyclerView / ScrollView 滚动时，如果有过多图片加载容易导致卡顿，特别是快速滚动时，bindView中大量图片加载操作，会导致系统频繁分配回收内存，不仅消耗大量CPU和网络流量资源，而且极端情况下还会因为内存来不及回收产生OOM。
 一种最基...
 
