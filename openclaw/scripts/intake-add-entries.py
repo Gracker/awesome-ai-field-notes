@@ -1,13 +1,14 @@
 import json, os, datetime, re
+from pipeline_utils import append_entries, content_dir, normalize_entry, normalized_url_key, project_root, save_entries_data
 
-PROJECT_ROOT = "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes"
-ENTRIES_FILE = os.path.join(PROJECT_ROOT, "data", "entries.json")
-CONTENT_DIR = os.path.join(PROJECT_ROOT, "content")
+PROJECT_ROOT = project_root()
+ENTRIES_FILE = PROJECT_ROOT / "data" / "entries.json"
+CONTENT_DIR = content_dir()
 
 with open(ENTRIES_FILE, encoding='utf-8') as f:
     entries_data = json.load(f)
 
-existing_urls = {e.get('url') for e in entries_data['entries'] if e.get('url')}
+existing_urls = {normalized_url_key(e.get('url')) for e in entries_data['entries'] if e.get('url')}
 
 def extract_images(content):
     return re.findall(r'!\[.*?\]\((https?://[^)]+)\)', content)
@@ -15,11 +16,11 @@ def extract_images(content):
 def make_entry(id, title, url, platform, author, orig_date, category, tags,
                source_type, language, summary_zh, summary_en, quality,
                local_path, content_file):
-    with open(os.path.join(CONTENT_DIR, f"{id}.md"), encoding='utf-8') as f:
+    with open(CONTENT_DIR / f"{id}.md", encoding='utf-8') as f:
         content = f.read()
     images = extract_images(content)
     today = datetime.date.today().isoformat()
-    return {
+    return normalize_entry({
         "id": id,
         "title": title,
         "url": url,
@@ -44,14 +45,14 @@ def make_entry(id, title, url, platform, author, orig_date, category, tags,
         "updated_date": None,
         "github_stars": None,
         "related": []
-    }
+    })
 
 entries_to_add = []
 
 # Entry 1: Harness Engineering
 id1 = "72x6hfdeebbo"
 url1 = "https://mp.weixin.qq.com/s?__biz=MzkxMTY4NTAyNQ==&mid=2247508809&idx=1&sn=960d705ab56f992ed504a2b735a2a515"
-if url1 not in existing_urls:
+if normalized_url_key(url1) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id1,
         title="万字干货：理解 Harness Engineering，看这一篇就够了",
@@ -73,7 +74,7 @@ if url1 not in existing_urls:
 # Entry 2: Scaling Managed Agents
 id2 = "2plym2bh5ypl"
 url2 = "https://www.anthropic.com/engineering/managed-agents"
-if url2 not in existing_urls:
+if normalized_url_key(url2) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id2,
         title="Scaling Managed Agents: Decoupling the brain from the hands",
@@ -95,7 +96,7 @@ if url2 not in existing_urls:
 # Entry 3: ARIES RISCV+AI
 id3 = "jvblhpoud3ey"
 url3 = "https://mp.weixin.qq.com/s?__biz=MzUzNzg4Nzc3MQ==&mid=2247485969&idx=1&sn=32449a8c2513a5cb53f1ad2360b58e4a"
-if url3 not in existing_urls:
+if normalized_url_key(url3) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id3,
         title="破局Agent时代：ARIES RISCV+AI架构分析",
@@ -119,10 +120,7 @@ for e in entries_to_add:
     print(f"  - {e['id']}: {e['title'][:50]}")
 
 # Append to entries
-entries_data['entries'].extend(entries_to_add)
-entries_data['last_updated'] = datetime.datetime.now().isoformat()
+added_entries, skipped_entries = append_entries(entries_data, entries_to_add)
+save_entries_data(entries_data, ENTRIES_FILE)
 
-with open(ENTRIES_FILE, 'w', encoding='utf-8') as f:
-    json.dump(entries_data, f, ensure_ascii=False, indent=2)
-
-print("entries.json updated successfully.")
+print(f"entries.json updated successfully: +{len(added_entries)}, skipped {len(skipped_entries)}.")

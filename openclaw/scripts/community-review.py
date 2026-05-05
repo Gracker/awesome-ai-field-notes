@@ -13,6 +13,14 @@ import sys
 from pathlib import Path
 from typing import List, Dict, Optional, Tuple
 import requests
+from pipeline_utils import (
+    append_entries,
+    canonical_category,
+    generate_entry_id,
+    normalize_entry,
+    normalized_url_key,
+    save_entries_data,
+)
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 ENTRIES_FILE = PROJECT_ROOT / "data" / "entries.json"
@@ -43,7 +51,7 @@ class CommunityReviewProcessor:
     
     def _get_existing_urls(self) -> set:
         """Get all existing URLs for deduplication"""
-        return {e.get('url') for e in self.entries_data['entries'] if e.get('url')}
+        return {normalized_url_key(e.get('url')) for e in self.entries_data['entries'] if e.get('url')}
     
     def _get_existing_titles(self) -> set:
         """Get all existing titles for similarity checking"""
@@ -96,7 +104,7 @@ class CommunityReviewProcessor:
         existing_titles = self._get_existing_titles()
         
         # Check URL duplicate
-        if url in existing_urls:
+        if normalized_url_key(url) in existing_urls:
             return True
         
         # Check title similarity
@@ -112,9 +120,9 @@ class CommunityReviewProcessor:
         title_lower = title.lower()
         content_lower = content.lower()
         
-        # Check if suggested category exists
-        if suggested_category and suggested_category in self.categories:
-            return suggested_category
+        # Check if suggested category exists or can be normalized.
+        if suggested_category:
+            return canonical_category(suggested_category, title=title, summary=content)
         
         # Category mapping based on keywords
         category_keywords = {
@@ -144,10 +152,10 @@ class CommunityReviewProcessor:
         
         # Return highest scoring category
         if category_scores:
-            return max(category_scores, key=category_scores.get)
+            return canonical_category(max(category_scores, key=category_scores.get), title=title, summary=content)
         
         # Default fallback
-        return 'tools-development/applications'
+        return canonical_category(None, title=title, summary=content)
     
     def _auto_score(self, title: str, content: str) -> int:
         """Automatically score entry (1-5)"""
@@ -232,7 +240,7 @@ class CommunityReviewProcessor:
         
         today = datetime.date.today().isoformat()
         
-        entry = {
+        entry = normalize_entry({
             "id": entry_id,
             "title": title,
             "url": url,
@@ -257,7 +265,7 @@ class CommunityReviewProcessor:
             "updated_date": None,
             "github_stars": None,
             "related": []
-        }
+        })
         
         # Save content to file
         content_file = os.path.join(PROJECT_ROOT, "content", f"{entry_id}.md")
@@ -270,7 +278,7 @@ class CommunityReviewProcessor:
         """Generate ID from title"""
         # Simple ID generation - replace spaces and special chars, take first 10 chars
         clean_title = re.sub(r'[^a-zA-Z0-9\u4e00-\u9fff]', '', title)[:10]
-        return clean_title.lower()
+        return generate_entry_id(title=title)
     
     def _process_new_entry_issue(self, issue: Dict) -> bool:
         """Process a new-entry issue"""
@@ -315,8 +323,13 @@ class CommunityReviewProcessor:
                 content=content
             )
             
-            # Add to entries
-            self.entries_data['entries'].append(entry)
+            # Add to entries through the shared pipeline so community input
+            # cannot bypass URL, category, date, and readability normalization.
+            added_entries, skipped_entries = append_entries(self.entries_data, [entry])
+            if not added_entries:
+                print(f"⚠️  Issue #{issue['number']}: skipped by pipeline ({skipped_entries[0][1] if skipped_entries else 'unknown'})")
+                return False
+            entry = added_entries[0]
             self.new_entries_added += 1
             self.processed_count += 1
             
@@ -435,15 +448,17 @@ class CommunityReviewProcessor:
         # Get new category suggestion
         suggested_category = self._extract_category_from_issue(issue.get('body', ''))
         
-        if suggested_category and suggested_category in self.categories:
-            entry['category'] = suggested_category
+        if suggested_category:
+            old_category = entry.get('category')
+            new_category = canonical_category(suggested_category, title=entry.get('title', ''))
+            entry['category'] = new_category
             entry['updated_date'] = datetime.date.today().isoformat()
             
             comment = f"""
 ✅ 已修复
 - 问题: 分类错误
 - 处理: 重新分类
-- 变更: 分类从 {entry['category']} 改为 {suggested_category}
+- 变更: 分类从 {old_category} 改为 {new_category}
 """
             self._add_issue_comment(issue['number'], comment)
         else:
@@ -455,6 +470,7 @@ class CommunityReviewProcessor:
                 
                 new_category = self._auto_classify(entry['title'], content)
                 if new_category != entry['category']:
+                    old_category = entry['category']
                     entry['category'] = new_category
                     entry['updated_date'] = datetime.date.today().isoformat()
                     
@@ -462,7 +478,7 @@ class CommunityReviewProcessor:
 ✅ 已修复
 - 问题: 分类错误
 - 处理: 自动重新分类
-- 变更: 分类从 {entry['category']} 改为 {new_category}
+- 变更: 分类从 {old_category} 改为 {new_category}
 """
                     self._add_issue_comment(issue['number'], comment)
     
@@ -476,6 +492,7 @@ class CommunityReviewProcessor:
             
             new_score = self._auto_score(entry['title'], content)
             if new_score != entry['quality_score']:
+                old_score = entry['quality_score']
                 entry['quality_score'] = new_score
                 entry['updated_date'] = datetime.date.today().isoformat()
                 
@@ -483,7 +500,7 @@ class CommunityReviewProcessor:
 ✅ 已修复
 - 问题: 评分异议
 - 处理: 自动重新评分
-- 变更: 评分从 {entry['quality_score']} 改为 {new_score}
+- 变更: 评分从 {old_score} 改为 {new_score}
 """
                 self._add_issue_comment(issue['number'], comment)
     
@@ -599,10 +616,7 @@ class CommunityReviewProcessor:
     
     def save_entries(self):
         """Save updated entries to file"""
-        self.entries_data['last_updated'] = datetime.datetime.now().isoformat()
-        
-        with open(ENTRIES_FILE, 'w', encoding='utf-8') as f:
-            json.dump(self.entries_data, f, ensure_ascii=False, indent=2)
+        save_entries_data(self.entries_data, ENTRIES_FILE)
         
         print(f"✅ Saved {len(self.entries_data['entries'])} entries to entries.json")
     

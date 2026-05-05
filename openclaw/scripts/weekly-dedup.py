@@ -12,8 +12,9 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
+from pipeline_utils import normalized_url_key, project_root
 
-BASE_DIR = Path(__file__).parent.parent.parent
+BASE_DIR = project_root()
 ENTRIES_PATH = BASE_DIR / "data" / "entries.json"
 LOGS_DIR = BASE_DIR / "logs"
 
@@ -29,6 +30,9 @@ def save_entries(data):
 
 def normalize_url(url):
     """归一化URL：去尾斜杠、去utm/ref参数"""
+    shared = normalized_url_key(url)
+    if shared:
+        return shared
     if not url:
         return url
     parsed = urlparse(url)

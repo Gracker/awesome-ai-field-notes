@@ -6,8 +6,8 @@
     "dev": "python3 openclaw/scripts/generate-modern-site.py && python3 -m http.server 5173 --bind 127.0.0.1 --directory dist",
     "build": "python3 openclaw/scripts/generate-modern-site.py",
     "build:modern": "python3 openclaw/scripts/generate-modern-site.py",
-    "build:legacy": "python3 scripts/generate-site.py && vitepress build site-src",
-    "build:vitepress": "vitepress build site-src",
+    "build:legacy": "npm run build:modern",
+    "build:vitepress": "npm run build:modern",
     "validate": "python3 scripts/validate-schema.py",
     "preview": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist"
   },

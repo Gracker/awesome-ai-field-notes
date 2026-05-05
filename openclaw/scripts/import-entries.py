@@ -17,14 +17,13 @@ import json
 import csv
 import sys
 from pathlib import Path
-from datetime import datetime
+from pipeline_utils import append_entries, generate_entry_id, project_root, save_entries_data
 
-BASE_DIR = Path(__file__).parent.parent
+BASE_DIR = project_root()
 ENTRIES_PATH = BASE_DIR / "data" / "entries.json"
 
 def generate_id():
-    import random, string
-    return "".join(random.choices(string.ascii_letters + string.digits, k=8))
+    return generate_entry_id()
 
 def load_existing_entries():
     if ENTRIES_PATH.exists():
@@ -43,7 +42,7 @@ def dedup_check(entries, url, title):
 def make_entry(**kwargs):
     """补全默认值的 entry 工厂"""
     return {
-        "id": kwargs.get("id", generate_id()),
+        "id": kwargs.get("id") or generate_entry_id(title=kwargs.get("title", ""), url=kwargs.get("url") or ""),
         "title": kwargs.get("title", ""),
         "url": kwargs.get("url") or None,
         "source": {
@@ -63,7 +62,7 @@ def make_entry(**kwargs):
         "status": kwargs.get("status", "score-pending"),
         "local_path": kwargs.get("local_path") or "",
         "images": kwargs.get("images", []),
-        "added_date": kwargs.get("added_date", datetime.now().strftime("%Y-%m-%d")),
+        "added_date": kwargs.get("added_date"),
         "updated_date": kwargs.get("updated_date") or None,
         "github_stars": kwargs.get("github_stars") or None,
         "related": kwargs.get("related", []),
@@ -71,6 +70,7 @@ def make_entry(**kwargs):
 
 def import_csv(filepath, entries):
     added, skipped = 0, 0
+    pending = []
     with open(filepath, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
@@ -93,12 +93,15 @@ def import_csv(filepath, entries):
                 summary_zh=row.get("summary_zh", "").strip(),
                 summary_en=row.get("summary_en", "").strip() or None,
             )
-            entries.append(entry)
-            added += 1
+            pending.append(entry)
+    added_entries, skipped_entries = append_entries({"entries": entries}, pending)
+    added += len(added_entries)
+    skipped += len(skipped_entries)
     return added, skipped
 
 def import_json(filepath, entries):
     added, skipped = 0, 0
+    pending = []
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read().strip()
     items = json.loads(content) if content.startswith("[") else [json.loads(l) for l in content.split("\n") if l.strip()]
@@ -110,9 +113,11 @@ def import_json(filepath, entries):
             skipped += 1; continue
         if dedup_check(entries, url, title):
             skipped += 1; continue
-        entry = make_entry(**{k: v for k, v in item.items() if k != "id"})
-        entries.append(entry)
-        added += 1
+        entry = make_entry(**item)
+        pending.append(entry)
+    added_entries, skipped_entries = append_entries({"entries": entries}, pending)
+    added += len(added_entries)
+    skipped += len(skipped_entries)
     return added, skipped
 
 def main():
@@ -135,9 +140,7 @@ def main():
         print(f"❌ 不支持的格式: {suffix}"); sys.exit(1)
     
     data["entries"] = entries
-    data["last_updated"] = datetime.now().strftime("%Y-%m-%d")
-    with open(ENTRIES_PATH, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    save_entries_data(data, ENTRIES_PATH)
     
     print(f"✅ 导入完成: +{added} 新增, {skipped} 跳过, 共 {len(entries)} 条")
 

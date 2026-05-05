@@ -11,8 +11,9 @@ import os
 import sys
 import time
 from pathlib import Path
+from pipeline_utils import project_root
 
-BASE_DIR = Path(__file__).parent.parent
+BASE_DIR = project_root()
 ENTRIES_PATH = BASE_DIR / "data" / "entries.json"
 
 def parse_github_url(url):

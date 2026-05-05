@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Compatibility wrapper for legacy build commands.
 
-Cloudflare Pages and older docs may still invoke `python3 scripts/generate-site.py`.
-The real generator now lives at `openclaw/scripts/generate-site.py`.
+Cloudflare Pages and older OpenClaw tasks may still invoke
+`python3 scripts/generate-site.py`. This wrapper lands on the modern static
+site generator through `openclaw/scripts/generate-site.py`.
 """
 
 from pathlib import Path

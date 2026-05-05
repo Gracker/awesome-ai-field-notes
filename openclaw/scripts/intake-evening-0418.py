@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """Intake script for evening run - April 18, 2026. Process 15 new AI content entries."""
 import json, os, re, datetime
+from pipeline_utils import append_entries, content_dir, normalize_entry, normalized_url_key, project_root, save_entries_data
 
-PROJECT_ROOT = "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes"
-ENTRIES_FILE = os.path.join(PROJECT_ROOT, "data", "entries.json")
-CONTENT_DIR = os.path.join(PROJECT_ROOT, "content")
+PROJECT_ROOT = project_root()
+ENTRIES_FILE = PROJECT_ROOT / "data" / "entries.json"
+CONTENT_DIR = content_dir()
 
 with open(ENTRIES_FILE, encoding='utf-8') as f:
     entries_data = json.load(f)
 
-existing_urls = {e.get('url') for e in entries_data['entries'] if e.get('url')}
+existing_urls = {normalized_url_key(e.get('url')) for e in entries_data['entries'] if e.get('url')}
 
 def extract_images(content):
     return re.findall(r'!\[.*?\]\((https?://[^)]+)\)', content)
@@ -17,12 +18,12 @@ def extract_images(content):
 def make_entry(id, title, url, platform, author, orig_date, category, tags,
                source_type, language, summary_zh, summary_en, quality,
                local_path, content_filename):
-    content_path = os.path.join(CONTENT_DIR, content_filename)
+    content_path = CONTENT_DIR / content_filename
     with open(content_path, encoding='utf-8') as f:
         content_text = f.read()
     images = extract_images(content_text)
     today = datetime.date.today().isoformat()
-    return {
+    return normalize_entry({
         "id": id,
         "title": title,
         "url": url,
@@ -47,7 +48,7 @@ def make_entry(id, title, url, platform, author, orig_date, category, tags,
         "updated_date": None,
         "github_stars": None,
         "related": []
-    }
+    })
 
 entries_to_add = []
 
@@ -56,7 +57,7 @@ entries_to_add = []
 # ============================================================
 id1 = "62fea17c"
 url1 = "https://x.com/karpathy/status/2040572272944324650"
-if url1 not in existing_urls:
+if normalized_url_key(url1) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id1,
         title="Farzapedia：把个人数据变成可导航的个人维基百科",
@@ -81,7 +82,7 @@ if url1 not in existing_urls:
 # ============================================================
 id2 = "eb72b016"
 url2 = "https://x.com/AnthropicAI/status/2044493337835802948"
-if url2 not in existing_urls:
+if normalized_url_key(url2) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id2,
         title="Anthropic×Nature：LLM可通过训练数据中的隐含信号向另一LLM传递隐藏偏好与行为特征",
@@ -106,7 +107,7 @@ if url2 not in existing_urls:
 # ============================================================
 id3 = "ff1ca7da"
 url3 = "https://x.com/GoogleAI/status/2044447638511383024"
-if url3 not in existing_urls:
+if normalized_url_key(url3) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id3,
         title="Gemini 3.1 Flash TTS：表现力最强、控制粒度最细的语音合成模型",
@@ -374,7 +375,7 @@ url14 = "https://x.com/GoogleAI/status/2044447638511383024"
 # ============================================================
 id15 = "7bf35471"
 url15 = "https://x.com/MiniMax_AI/status/2043132047397659000"
-if url15 not in existing_urls:
+if normalized_url_key(url15) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id15,
         title="MiniMax M2.7正式开源：代码编辑SOTA，权重已上线Hugging Face",
@@ -400,10 +401,7 @@ for e in entries_to_add:
     print(f"  [{e['id']}] {e['title'][:50]} | score={e['quality_score']} | type={e['source_type']}")
 
 # Append to entries
-entries_data['entries'].extend(entries_to_add)
-entries_data['last_updated'] = datetime.datetime.now().isoformat()
+added_entries, skipped_entries = append_entries(entries_data, entries_to_add)
+save_entries_data(entries_data, ENTRIES_FILE)
 
-with open(ENTRIES_FILE, 'w', encoding='utf-8') as f:
-    json.dump(entries_data, f, ensure_ascii=False, indent=2)
-
-print(f"\nentries.json updated: +{len(entries_to_add)} entries. Total: {len(entries_data['entries'])}")
+print(f"\nentries.json updated: +{len(added_entries)} entries, skipped {len(skipped_entries)}. Total: {len(entries_data['entries'])}")

@@ -4,7 +4,7 @@
 检测 `data/entries.json` 内部及新增条目的重复，保持数据干净。
 
 ## 仓库路径
-`/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/`
+`<仓库路径>/awesome-ai-field-notes/`
 
 ## 执行频率
 每周日 03:00
@@ -13,7 +13,7 @@
 
 ### 硬去重（自动处理）
 - **URL 精确匹配**：同 URL 视为重复，保留 score 更高的条目
-- **URL 归一化**：去掉尾部 `/`、`?ref=xxx`、`utm_*` 参数后比较
+- **URL 归一化**：统一走 `openclaw/scripts/pipeline_utils.py`，去掉尾部 `/`、`?ref=xxx`、`utm_*` 参数，并把 `twitter.com` 归一成 `x.com`
 
 ### 软去重（标记待人工）
 - **标题相似度 > 0.85**：同分类内标题高度相似，标记 `related` 互相关联
@@ -46,5 +46,5 @@
 - 去重后运行 `python3 scripts/validate-schema.py`
 - 去重后运行 `npm run build`
 - 日期字段保持 `YYYY-MM-DD` 或 `null`，不要写“今天/昨天/本周”等相对时间
-- 不手写 `site-src/` 页面；站点只能由 `npm run build` 生成
+- 不手写 `site-src/` 页面；生产站只能由 `npm run build` 生成到 `dist/`
 - 提交：`[openclaw] dedup: weekly dedup scan — N merged, M flagged`

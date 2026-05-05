@@ -4,7 +4,7 @@
 自动处理社区提交的 Issue（新条目/纠错），合并到 `data/entries.json`。
 
 ## 仓库路径
-`/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/`
+`<仓库路径>/awesome-ai-field-notes/`
 
 ## 执行频率
 每日 14:00
@@ -26,9 +26,9 @@ gh issue list --repo Gracker/awesome-ai-field-notes --state open --label correct
 1. 提取标题、URL、建议分类
 2. 执行去重检查（URL + 标题相似度）
 3. 如果不重复：
-   - 自动分类（匹配 categories.json）
+   - 自动分类并通过 `openclaw/scripts/pipeline_utils.py` 归一到稳定顶层分类
    - 自动评分 + 生成 one_liner（`one_liner_author: "openclaw"`）
-   - 写入 `data/entries.json`
+   - 通过 `append_entries` 写入 `data/entries.json`，禁止绕过共享清洗链路
    - 保存正文或占位摘要到 `content/<id>.md`
 4. 在 Issue 中回复处理结果
 5. 关闭 Issue
@@ -74,4 +74,4 @@ git push origin main
 - 每日最多处理 20 个 Issue
 - 不自动关闭超过 24h 未处理的 Issue（先处理再关）
 - 日期字段只能写 `YYYY-MM-DD` 或 `null`，禁止写“今天/昨天/今日/昨日/today/yesterday”等相对时间
-- 不手写 `site-src/` 页面；`site-src/entry/` 是 ignored 构建产物，不要强行提交
+- 不手写 `site-src/` 页面；生产站由 `npm run build` 生成到 `dist/`，不要强行提交 `dist/`

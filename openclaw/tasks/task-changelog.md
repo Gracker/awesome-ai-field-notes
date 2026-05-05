@@ -4,7 +4,7 @@
 生成 CHANGELOG.md，记录本周 `data/entries.json` 的所有变更。
 
 ## 仓库路径
-`/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/`
+`<仓库路径>/awesome-ai-field-notes/`
 
 ## 执行频率
 每周日 04:00（在 dedup 之后运行）

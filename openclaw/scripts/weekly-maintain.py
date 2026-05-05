@@ -14,8 +14,9 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
+from pipeline_utils import has_readable_text, is_ai_related_entry, is_low_signal_entry, is_placeholder_text, project_root
 
-BASE_DIR = Path(__file__).parent.parent.parent
+BASE_DIR = project_root()
 ENTRIES_PATH = BASE_DIR / "data" / "entries.json"
 LOGS_DIR = BASE_DIR / "logs"
 CONTENT_DIR = BASE_DIR / "content"
@@ -30,6 +31,38 @@ def load_entries():
 def save_entries(data):
     with open(ENTRIES_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
+
+def content_is_readable(entry):
+    content_path = CONTENT_DIR / f"{entry.get('id')}.md"
+    if not content_path.exists():
+        return False
+    try:
+        return has_readable_text(content_path.read_text(encoding="utf-8", errors="replace"), min_len=80)
+    except OSError:
+        return False
+
+# ─── Step 0: Public readability guardrail ───
+def quarantine_low_signal_entries(data):
+    quarantined = []
+    for e in data["entries"]:
+        if e.get("status") != "active":
+            continue
+        readable = (
+            has_readable_text(e.get("summary_zh") or "")
+            or has_readable_text(e.get("one_liner") or "")
+            or content_is_readable(e)
+        )
+        placeholder_only = (
+            is_placeholder_text(e.get("summary_zh") or "")
+            and is_placeholder_text(e.get("one_liner") or "")
+            and not content_is_readable(e)
+        )
+        if is_low_signal_entry(e) or (not is_ai_related_entry(e) and not readable) or placeholder_only:
+            e["status"] = "score-pending"
+            e["quality_score"] = min(int(e.get("quality_score") or 1), 2)
+            e["updated_date"] = TODAY
+            quarantined.append({"id": e["id"], "title": e.get("title", "")[:50]})
+    return quarantined
 
 # ─── Step 1: Time-based archival ───
 def archive_old_low_score(data):
@@ -101,6 +134,15 @@ def main():
     active_before = sum(1 for e in entries if e.get("status") == "active")
     print(f"📊 当前: {len(entries)} 条目 ({active_before} active)")
     
+    # Step 0: Public readability guardrail
+    print("\n🧹 Step 0: 可读性门禁（低信号/非AI/无摘要 → score-pending）...")
+    quarantined = quarantine_low_signal_entries(data)
+    print(f"   挂起: {len(quarantined)} 条")
+    for q in quarantined[:5]:
+        print(f"   - {q['id']}: {q['title']}")
+    if len(quarantined) > 5:
+        print(f"   - ... 还有 {len(quarantined)-5} 条")
+
     # Step 1: Archive
     print("\n📅 Step 1: 时效归档 (>180天, score≤3)...")
     archived = archive_old_low_score(data)
@@ -139,6 +181,7 @@ def main():
 ## 总览
 - 总条目: {len(entries)}
 - Active: {active_before} → {active_after}
+- 可读性挂起: {len(quarantined)}
 - 归档: {len(archived)}
 
 ## 时效归档
@@ -181,6 +224,7 @@ def main():
     # Output summary for caller
     print(f"::MAINTAIN_SUMMARY::{json.dumps({
         'archived': len(archived),
+        'quarantined': len(quarantined),
         'missing_paths': len(missing_paths),
         'img_sampled': len(sample),
         'img_checked': checked,

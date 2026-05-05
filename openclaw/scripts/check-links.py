@@ -11,8 +11,9 @@ import sys
 import time
 from pathlib import Path
 from datetime import datetime
+from pipeline_utils import project_root
 
-BASE_DIR = PATH = Path(__file__).parent.parent
+BASE_DIR = project_root()
 ENTRIES_PATH = BASE_DIR / "data" / "entries.json"
 LINK_LOG = BASE_DIR / "metadata" / "link-check-log.json"
 

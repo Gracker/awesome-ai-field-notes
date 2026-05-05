@@ -39,6 +39,10 @@
 
 ### Phase 3: 分类 + 评分
 - 根据 title + summary_zh + tags 自动匹配分类
+- 写入前必须通过 `openclaw/scripts/pipeline_utils.py` 的 `normalize_entry` / `append_entries`
+  - URL 统一归一化后去重（包括 `twitter.com` → `x.com`、去掉 `utm_*` / `ref`）
+  - 分类只保留稳定顶层：`models` / `agents` / `coding` / `infra` / `industry` / `learning` / `uncategorized`
+  - 低信号占位内容（如“高价值AI内容 - @xxx”）必须进入 `score-pending`，不得作为 active 高分条目发布
 - 根据 SCHEMA.md 评分依据给出 quality_score
 - 生成 one_liner 候选
 
@@ -65,7 +69,7 @@ git push origin main
 - 日期字段禁止写“今天/昨天/今日/昨日/today/yesterday”等相对时间
 - 英文原文必须提供中英双语摘要
 - **每条新 entry 必须有对应的 `content/<id>.md` 原文文件**，禁止只写 `data/entries.json` 不存原文
-- **不要手写或修改 `site-src/` 页面**；站点页面只能由 `npm run build` 调 `scripts/generate-site.py` 生成
-- `site-src/entry/` 是 ignored 构建产物，禁止强行提交
+- **不要手写或修改 `site-src/` 页面**；当前生产站只由 `npm run build` 生成到 `dist/`
+- 兼容旧任务的 `python3 scripts/generate-site.py` 也会转到现代静态站生成器，禁止恢复 VitePress 主链路
 - X/Twitter 内容**优先使用 opencli**（`opencli twitter article/thread`），不直接 curl 或 web_fetch x.com
 - opencli 失败时 fallback 到 web_search 找转载 + web_fetch/curl 抓取，并在文件中标注来源

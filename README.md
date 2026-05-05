@@ -1,8 +1,8 @@
-# AI Field Notes
+# God of GPT
 
-> AI 领域精选资源导航 — 有观点、有评分、每日自动更新。892 条，中英双语。
+> AI 信息导航站 — 每天从 OpenClaw 自动采集的数据中，筛出真正值得看的模型、Agent、AI 编程、基础设施、产品商业和研究信号。
 
-## 🆕 最新推荐 Top 10
+## 最新精选 Top 10
 
 - [MCP-Flow: 自动构建大规模 MCP 工具数据集，让 0.6B 模型在工具调用上超越 GPT-4o](https://arxiv.org/abs/2510.24284) ⭐4 · 2026-05-04 — 0.6B 小模型微调后在 MCP 工具调用上全面超越 GPT-4o，证明小模型+数据工程才是正确方向
 - [Greg Brockman 详解 Codex 验证创业想法的 Skill](https://x.com/gdb/status/2050972114077843772) ⭐4 · 2026-05-04 — Codex Skill：用AI压力测试创业想法，快速暴露核心假设漏洞
@@ -15,28 +15,36 @@
 - [Claude Code 向 Codex 的习惯迁移](https://www.ccgxk.com/codeother/733.html) ⭐3 · 2026-05-02 — Claude Code 到 Codex 的迁移不是换个快捷键——是换一套编程心智模型。
 - [Anthropic 正在与英国 AI 芯片初创 Fractile 洽谈采购推理芯片](https://www.theinformation.com/articles/anthropic-talks-buy-ai-chips-u-k-startup) ⭐3 · 2026-05-02 — Anthropic 买芯片买到还没上市的公司——推理算力饥渴已成 AI 行业最大瓶颈。
 
-## 分类导航
+## 频道导航
 
-| 分类 | 数量 | 说明 |
-|------|------|------|
-| 🧠 模型 | 80 | GPT / Claude / Gemini / 开源模型 / 架构 |
-| 🤖 智能体 | 140 | Agent 框架 / MCP / A2A / 手机&桌面助手 |
-| 💻 AI编程 | 178 | IDE / CLI / 代码审查 / 工作流 |
-| ⚡ 基础设施 | 50 | 推理部署 / RAG / 微调 / 评测 / 多模态 |
-| 🌍 行业观察 | 58 | AI 产品 / 大厂战略 / 融资 / 市场分析 |
-| 📖 学习资源 | 79 | 教程 / 论文 / 提示工程 / 演讲 |
-| 🗂️ 未分类 | 47 | 待归类但已通过质量门槛的资源 |
+| 频道 | 展示条目 | 说明 |
+|---|---:|---|
+| 模型与实验室 | 111 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 139 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 162 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 28 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 39 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 研究与学习 | 47 | 论文、课程、提示工程、长文、方法论。 |
+| 工具与项目 | 39 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
-## 评分标准
+## 当前数据
 
-⭐⭐⭐⭐⭐ 必读 | ⭐⭐⭐⭐ 优秀 | ⭐⭐⭐ 值得一看 | ≤2 仅存档不展示
+- 原始条目: 892
+- 公开展示卡片: 565
+- 有全文内容: 484
+- 最近 7 天信号: 112
+- 输出目录: `dist/`
 
-## 数据
+## 热门标签
 
-- 在线站点：[godofgpt.com](https://godofgpt.com/)
-- 结构化数据：[`data/entries.json`](data/entries.json)（Agent 可直接消费）
-- 贡献资源：开 [Issue](../../issues/new/choose)
+`agent`, `llm`, `claude`, `openclaw`, `coding`, `paper`, `ai-tools`, `openai`, `reasoning`, `codex`, `claude-code`, `mcp`, `multi-agent`, `memory`, `anthropic`, `Agent`, `workflow`, `Android`
 
-由 [OpenClaw](https://github.com/openclaw/openclaw) 每日自动维护 — 采集、去重、分类、评分、全文抓取、翻译、站点生成，全流程无人值守。
+## 自动化约定
 
-License: [CC BY-NC-SA 4.0](LICENSE)
+- 结构化数据源: `data/entries.json`
+- 正文内容源: `content/*.md`
+- 共享清洗入口: `openclaw/scripts/pipeline_utils.py`
+- 站点生成入口: `npm run build` 或 `python3 scripts/generate-site.py`
+- Cloudflare Pages 输出目录: `dist`
+
+由 OpenClaw 每日自动维护；前台展示会过滤低信号、重复、非 AI、摘要不可读的条目。

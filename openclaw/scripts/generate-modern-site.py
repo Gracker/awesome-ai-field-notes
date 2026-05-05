@@ -32,6 +32,9 @@ if BASE_DIR.name == "openclaw":
 DATA_DIR = BASE_DIR / "data"
 CONTENT_DIR = BASE_DIR / "content"
 DIST_DIR = BASE_DIR / "dist"
+META_DIR = BASE_DIR / "metadata"
+README_PATH = BASE_DIR / "README.md"
+OPENCLAW_README_PATH = BASE_DIR / "openclaw" / "README.md"
 
 SITE_NAME = "God of GPT"
 SITE_TAGLINE = "每天 5 分钟，读懂 AI 圈真正值得看的变化。"
@@ -1236,6 +1239,118 @@ def build_search_data(cards: list[Card]):
     ]
 
 
+def build_metadata_stats(entries: list[dict], cards: list[Card], recent: list[Card]) -> dict:
+    active_entries = [entry for entry in entries if entry.get("status") == "active"]
+    raw_category_counter = Counter(str(entry.get("category") or "uncategorized") for entry in active_entries)
+    channel_counter = Counter(card.channel for card in cards)
+    source_counter = Counter(str(entry.get("source_type") or "article") for entry in active_entries)
+    return {
+        "total_entries": len(entries),
+        "active_entries": len(cards),
+        "active_entries_raw": len(active_entries),
+        "archived_entries": sum(1 for entry in entries if entry.get("status") in {"archived", "deprecated"}),
+        "score_pending_entries": sum(1 for entry in entries if entry.get("status") == "score-pending"),
+        "this_week_added": len(recent),
+        "entries_with_content": sum(1 for card in cards if card.has_content),
+        "content_files_total": len(list(CONTENT_DIR.glob("*.md"))) if CONTENT_DIR.exists() else 0,
+        "channel_distribution": dict(channel_counter.most_common()),
+        "raw_category_distribution": dict(raw_category_counter.most_common()),
+        "source_type_distribution": dict(source_counter.most_common()),
+        "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "generator": "openclaw/scripts/generate-modern-site.py",
+        "output_dir": "dist",
+    }
+
+
+def markdown_link_for_card(card: Card) -> str:
+    target = card.url or f"https://godofgpt.com/entry/{card.id}/"
+    return f"[{card.title}]({target})"
+
+
+def render_repo_readme(cards: list[Card], meta_stats: dict, tag_counts: Counter) -> str:
+    top_cards = cards[:10]
+    top_list = "\n".join(
+        f"- {markdown_link_for_card(card)} ⭐{card.score} · {card.date or '未知日期'} — {card.why}"
+        for card in top_cards
+    )
+    channel_rows = []
+    channel_counts = Counter(card.channel for card in cards)
+    for slug, channel in CHANNELS.items():
+        if slug == "brief":
+            continue
+        channel_rows.append(f"| {channel['name']} | {channel_counts.get(slug, 0)} | {channel['desc']} |")
+    tags = ", ".join(f"`{tag}`" for tag, _ in tag_counts.most_common(18))
+    return f"""# God of GPT
+
+> AI 信息导航站 — 每天从 OpenClaw 自动采集的数据中，筛出真正值得看的模型、Agent、AI 编程、基础设施、产品商业和研究信号。
+
+## 最新精选 Top 10
+
+{top_list}
+
+## 频道导航
+
+| 频道 | 展示条目 | 说明 |
+|---|---:|---|
+{chr(10).join(channel_rows)}
+
+## 当前数据
+
+- 原始条目: {meta_stats['total_entries']}
+- 公开展示卡片: {meta_stats['active_entries']}
+- 有全文内容: {meta_stats['entries_with_content']}
+- 最近 7 天信号: {meta_stats['this_week_added']}
+- 输出目录: `dist/`
+
+## 热门标签
+
+{tags}
+
+## 自动化约定
+
+- 结构化数据源: `data/entries.json`
+- 正文内容源: `content/*.md`
+- 共享清洗入口: `openclaw/scripts/pipeline_utils.py`
+- 站点生成入口: `npm run build` 或 `python3 scripts/generate-site.py`
+- Cloudflare Pages 输出目录: `dist`
+
+由 OpenClaw 每日自动维护；前台展示会过滤低信号、重复、非 AI、摘要不可读的条目。
+"""
+
+
+def render_openclaw_readme(meta_stats: dict) -> str:
+    return f"""# OpenClaw Automation
+
+这个目录保存 God of GPT / AI Field Notes 的自动化任务、数据维护脚本和兼容入口。
+
+## 当前生产链路
+
+1. 日常 intake / community review 写入 `../data/entries.json` 和 `../content/*.md`
+2. 所有新条目写入前必须走 `scripts/pipeline_utils.py`
+3. 站点生成入口统一为 `npm run build`
+4. 旧入口 `python3 scripts/generate-site.py` / `python3 openclaw/scripts/generate-site.py` 会转到现代静态站生成器
+5. Cloudflare Pages 发布 `../dist`
+
+## 当前数据
+
+- 原始条目: {meta_stats['total_entries']}
+- 公开展示卡片: {meta_stats['active_entries']}
+- 有全文内容: {meta_stats['entries_with_content']}
+- 最近 7 天信号: {meta_stats['this_week_added']}
+
+## 关键脚本
+
+- `scripts/pipeline_utils.py`: intake 共享清洗、去重、分类归一、日期规范
+- `scripts/generate-modern-site.py`: 生成 God of GPT 现代静态站
+- `scripts/generate-site.py`: 兼容旧任务的现代站入口
+- `scripts/validate-schema.py`: 数据结构校验
+- `scripts/weekly-maintain.py`: 周维护和低信号挂起
+- `scripts/weekly-dedup.py`: URL 与标题去重
+
+不要再把 `site-src` / VitePress 当生产主链路。
+"""
+
+
 def build_site():
     if DIST_DIR.exists():
         shutil.rmtree(DIST_DIR)
@@ -1300,6 +1415,10 @@ def build_site():
         DIST_DIR / "site-stats.json",
         json.dumps({"generated_at": datetime.now().isoformat(), **stats}, ensure_ascii=False, indent=2),
     )
+    meta_stats = build_metadata_stats(entries, cards, recent)
+    write_text(META_DIR / "stats.json", json.dumps(meta_stats, ensure_ascii=False, indent=2) + "\n")
+    write_text(README_PATH, render_repo_readme(cards, meta_stats, tag_counts))
+    write_text(OPENCLAW_README_PATH, render_openclaw_readme(meta_stats))
     for junk in DIST_DIR.rglob(".DS_Store"):
         junk.unlink(missing_ok=True)
     print(f"✅ Modern site generated: {len(cards)} display cards, {stats['content']} content pages, {len(CHANNELS) - 1} channels")

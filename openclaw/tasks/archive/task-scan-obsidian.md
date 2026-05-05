@@ -5,9 +5,9 @@
 提取内容必须来自文件本身，禁止捏造。
 
 ## 仓库路径
-`/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/`
+`<仓库路径>/awesome-ai-field-notes/`
 ## Obsidian 根
-`/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/`
+`<Obsidian 根目录>/`
 
 ## Schema 参考
 读取 `data/SCHEMA.md` 了解完整字段定义和提取规则。

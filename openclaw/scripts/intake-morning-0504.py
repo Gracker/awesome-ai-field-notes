@@ -3,6 +3,7 @@
 
 import json, os, datetime, re, random, string
 from pathlib import Path
+from pipeline_utils import append_entries, normalize_entry, normalized_url_key, save_entries_data
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 ENTRIES_FILE = PROJECT_ROOT / "data" / "entries.json"
@@ -11,7 +12,7 @@ CONTENT_DIR = PROJECT_ROOT / "content"
 with open(ENTRIES_FILE, encoding='utf-8') as f:
     entries_data = json.load(f)
 
-existing_urls = {e.get('url', '').rstrip('/') for e in entries_data['entries'] if e.get('url')}
+existing_urls = {normalized_url_key(e.get('url')) for e in entries_data['entries'] if e.get('url')}
 
 def gen_id():
     return ''.join(random.choices(string.ascii_lowercase + string.digits, k=8))
@@ -30,7 +31,7 @@ def make_entry(id, title, url, platform, author, orig_date, category, tags,
     else:
         images = []
     today = datetime.date.today().isoformat()
-    return {
+    return normalize_entry({
         "id": id,
         "title": title,
         "url": url,
@@ -55,14 +56,14 @@ def make_entry(id, title, url, platform, author, orig_date, category, tags,
         "updated_date": None,
         "github_stars": None,
         "related": []
-    }
+    })
 
 entries_to_add = []
 
 # === 1. Codex最强实战课 ===
 id1 = gen_id()
 url1 = "https://x.com/Jason23818126/status/2050197836894257433"
-if url1.rstrip('/') not in existing_urls:
+if normalized_url_key(url1) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id1,
         title="Codex最强实战课：2小时玩转Codex App+GPT-5.5",
@@ -84,7 +85,7 @@ if url1.rstrip('/') not in existing_urls:
 # === 2. open claude design开源 ===
 id2 = gen_id()
 url2 = "https://x.com/tuturetom/status/2049066330934976610"
-if url2.rstrip('/') not in existing_urls:
+if normalized_url_key(url2) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id2,
         title="open claude design开源：超95%还原度的逆向工程",
@@ -106,7 +107,7 @@ if url2.rstrip('/') not in existing_urls:
 # === 3. PPT Skills优化 ===
 id3 = gen_id()
 url3 = "https://x.com/op7418/status/2049094944405737512"
-if url3.rstrip('/') not in existing_urls:
+if normalized_url_key(url3) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id3,
         title="PPT Skills在Codex的优化：图片一键生成",
@@ -128,7 +129,7 @@ if url3.rstrip('/') not in existing_urls:
 # === 4. replit slides设计技能模板 ===
 id4 = gen_id()
 url4 = "https://x.com/tuturetom/status/2049495165488808094"
-if url4.rstrip('/') not in existing_urls:
+if normalized_url_key(url4) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id4,
         title="replit slides设计技能模板：0限制完全本地设计Agent",
@@ -150,7 +151,7 @@ if url4.rstrip('/') not in existing_urls:
 # === 5. Obsidian Reader更新 ===
 id5 = gen_id()
 url5 = "https://x.com/realCaigu/status/2048632050266320981"
-if url5.rstrip('/') not in existing_urls:
+if normalized_url_key(url5) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id5,
         title="Obsidian Reader更新：支持推特文章和长线程阅读",
@@ -172,7 +173,7 @@ if url5.rstrip('/') not in existing_urls:
 # === 6. MCP-Flow 论文 ===
 id6 = gen_id()
 url6 = "https://arxiv.org/abs/2510.24284"
-if url6.rstrip('/') not in existing_urls:
+if normalized_url_key(url6) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id6,
         title="MCP-Flow: 自动构建大规模 MCP 工具数据集，让 0.6B 模型在工具调用上超越 GPT-4o",
@@ -194,7 +195,7 @@ if url6.rstrip('/') not in existing_urls:
 # === 7. OpenAI 入驻 AWS Bedrock ===
 id7 = gen_id()
 url7 = "https://openai.com/index/openai-on-aws/"
-if url7.rstrip('/') not in existing_urls:
+if normalized_url_key(url7) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id7,
         title="OpenAI 携 GPT-5.5 入驻 AWS Bedrock，结束微软七年独家云托管",
@@ -216,7 +217,7 @@ if url7.rstrip('/') not in existing_urls:
 # === 8. 微软与 OpenAI 重签协议 ===
 id8 = gen_id()
 url8 = "https://www.reuters.com/legal/litigation/microsoft-end-exclusive-license-openais-technology-2026-04-27/"
-if url8.rstrip('/') not in existing_urls:
+if normalized_url_key(url8) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id8,
         title="微软与 OpenAI 重签合作协议：取消独家许可，废除 AGI 条款",
@@ -238,7 +239,7 @@ if url8.rstrip('/') not in existing_urls:
 # === 9. DeepSeek V4 ===
 id9 = gen_id()
 url9 = "https://www.36kr.com/p/3780290045121801"
-if url9.rstrip('/') not in existing_urls:
+if normalized_url_key(url9) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id9,
         title="DeepSeek V4 发布：1.6 万亿参数、适配华为昇腾，API 价格再砍至首发价十分之一",
@@ -260,7 +261,7 @@ if url9.rstrip('/') not in existing_urls:
 # === 10. 三星芯片利润暴涨 ===
 id10 = gen_id()
 url10 = "https://www.reuters.com/sustainability/sustainable-finance-reporting/samsung-elec-q1-profit-surges-eightfold-record-2026-04-30/"
-if url10.rstrip('/') not in existing_urls:
+if normalized_url_key(url10) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id10,
         title="三星芯片利润暴涨近 50 倍至 53.7 万亿韩元，预警 2027 年供应缺口将进一步扩大",
@@ -282,7 +283,7 @@ if url10.rstrip('/') not in existing_urls:
 # === 11. 华为昇腾 AI 芯片 ===
 id11 = gen_id()
 url11 = "https://www.heygotrade.com/en/news/huawei-targets-ai-chip-revenue-up-60-percent-2026-vs-nvidia/"
-if url11.rstrip('/') not in existing_urls:
+if normalized_url_key(url11) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id11,
         title="华为昇腾 AI 芯片 2026 年营收预计达 120 亿美元，同比增长 60%",
@@ -304,7 +305,7 @@ if url11.rstrip('/') not in existing_urls:
 # === 12. Ineffable Intelligence 种子轮 ===
 id12 = gen_id()
 url12 = "https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html"
-if url12.rstrip('/') not in existing_urls:
+if normalized_url_key(url12) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id12,
         title="前谷歌 DeepMind 研究员创办 Ineffable Intelligence，种子轮融 11 亿美元创纪录",
@@ -326,7 +327,7 @@ if url12.rstrip('/') not in existing_urls:
 # === 13. 大厂 AI 人才出走 ===
 id13 = gen_id()
 url13 = "https://www.cnbc.com/2026/04/28/meta-google-big-tech-staff-ai-labs-investors.html"
-if url13.rstrip('/') not in existing_urls:
+if normalized_url_key(url13) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id13,
         title="大厂 AI 人才持续出走创业：2026 年风投已投 188 亿美元给新 AI 公司",
@@ -348,7 +349,7 @@ if url13.rstrip('/') not in existing_urls:
 # === 14. Qwen3.6-Max-Preview ===
 id14 = gen_id()
 url14 = "https://github.com/QwenLM/Qwen3.6"
-if url14.rstrip('/') not in existing_urls:
+if normalized_url_key(url14) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id14,
         title="阿里发布 Qwen3.6-Max-Preview：六项 Agent/Coding 基准测试第一，但旗舰模型转向闭源",
@@ -370,7 +371,7 @@ if url14.rstrip('/') not in existing_urls:
 # === 15. 欧盟 AI 法案 ===
 id15 = gen_id()
 url15 = "https://www.reuters.com/sustainability/boards-policy-regulation/eu-countries-lawmakers-fail-reach-deal-watered-down-ai-rules-2026-04-29/"
-if url15.rstrip('/') not in existing_urls:
+if normalized_url_key(url15) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id15,
         title="欧盟 AI 法案修改谈判破裂：12 小时协商未果，八月合规期限悬而未决",
@@ -392,7 +393,7 @@ if url15.rstrip('/') not in existing_urls:
 # === 16. 神经符号 AI ===
 id16 = gen_id()
 url16 = "https://www.sciencedaily.com/releases/2026/04/260405003952.htm"
-if url16.rstrip('/') not in existing_urls:
+if normalized_url_key(url16) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id16,
         title="Tufts 大学研究：神经符号 AI 在机器人操控任务中能耗降低 100 倍，准确率反升",
@@ -414,7 +415,7 @@ if url16.rstrip('/') not in existing_urls:
 # === 17. Centaur 认知模型 ===
 id17 = gen_id()
 url17 = "https://www.sciencedaily.com/releases/2026/04/260429102035.htm"
-if url17.rstrip('/') not in existing_urls:
+if normalized_url_key(url17) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id17,
         title="Centaur 认知模型遭质疑：号称模拟人类思维 160 项任务，实际\"知道答案但不懂问题\"",
@@ -458,10 +459,7 @@ for e in entries_to_add:
         print(f"  Created content/{e['id']}.md")
 
 # Append to entries
-entries_data['entries'].extend(entries_to_add)
-entries_data['last_updated'] = datetime.datetime.now().isoformat()
+added_entries, skipped_entries = append_entries(entries_data, entries_to_add)
+save_entries_data(entries_data, ENTRIES_FILE)
 
-with open(ENTRIES_FILE, 'w', encoding='utf-8') as f:
-    json.dump(entries_data, f, ensure_ascii=False, indent=2)
-
-print(f"\nentries.json updated: {len(entries_data['entries'])} total entries")
+print(f"\nentries.json updated: +{len(added_entries)}, skipped {len(skipped_entries)}, total {len(entries_data['entries'])}")

@@ -38,6 +38,7 @@ VALID_PLATFORMS = {
     "news",
     "google",
     "anthropic",
+    "community",
 }
 RELATIVE_DATE_WORDS = {
     "今天", "昨天", "前天", "明天", "后天", "今日", "昨日", "本周", "上周", "下周",
@@ -63,6 +64,12 @@ CATEGORY_ALIASES = {
     "ai-hardware": "infra",
     "multimodal": "infra",
     "ai-safety": "industry",
+    "business": "industry",
+    "research": "learning",
+    "tools": "uncategorized",
+    "tools-development": "uncategorized",
+    "research-methods": "learning",
+    "education": "learning",
 }
 
 def load_categories():

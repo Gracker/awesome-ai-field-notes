@@ -1,13 +1,14 @@
 import json, datetime, re, os
+from pipeline_utils import append_entries, content_dir, normalize_entry, normalized_url_key, project_root, save_entries_data
 
-PROJECT_ROOT = "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes"
-ENTRIES_FILE = os.path.join(PROJECT_ROOT, "data", "entries.json")
-CONTENT_DIR = os.path.join(PROJECT_ROOT, "content")
+PROJECT_ROOT = project_root()
+ENTRIES_FILE = PROJECT_ROOT / "data" / "entries.json"
+CONTENT_DIR = content_dir()
 
 with open(ENTRIES_FILE, encoding='utf-8') as f:
     entries_data = json.load(f)
 
-existing_urls = {e.get('url') for e in entries_data['entries'] if e.get('url')}
+existing_urls = {normalized_url_key(e.get('url')) for e in entries_data['entries'] if e.get('url')}
 
 def extract_images(content):
     return re.findall(r'!\[.*?\]\((https?://[^)]+)\)', content)
@@ -15,11 +16,11 @@ def extract_images(content):
 def make_entry(id, title, url, platform, author, orig_date, category, tags,
                source_type, language, summary_zh, summary_en, quality,
                local_path, content_file):
-    with open(os.path.join(CONTENT_DIR, f"{id}.md"), encoding='utf-8') as f:
+    with open(CONTENT_DIR / f"{id}.md", encoding='utf-8') as f:
         content = f.read()
     images = extract_images(content)
     today = datetime.date.today().isoformat()
-    return {
+    return normalize_entry({
         "id": id,
         "title": title,
         "url": url,
@@ -44,14 +45,14 @@ def make_entry(id, title, url, platform, author, orig_date, category, tags,
         "updated_date": None,
         "github_stars": None,
         "related": []
-    }
+    })
 
 entries_to_add = []
 
 # Entry 1: Claude Code vs Codex
 id1 = "a23ba478"
 url1 = "https://x.com/shao__meng/status/2044769904608604295"
-if url1 not in existing_urls:
+if normalized_url_key(url1) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id1,
         title="Claude Code vs Codex: 两种AI编程助手的深度对比",
@@ -73,7 +74,7 @@ if url1 not in existing_urls:
 # Entry 2: Claude Opus 4.7 tips
 id2 = "654d1a18"
 url2 = "https://x.com/dotey/status/2044868344256381254"
-if url2 not in existing_urls:
+if normalized_url_key(url2) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id2,
         title="Claude Opus 4.7 实用技巧与工作流程",
@@ -95,7 +96,7 @@ if url2 not in existing_urls:
 # Entry 3: AI dev toolchain
 id3 = "276058ca"
 url3 = "https://x.com/RookieRicardoR/status/2044630408894271549"
-if url3 not in existing_urls:
+if normalized_url_key(url3) not in existing_urls:
     entries_to_add.append(make_entry(
         id=id3,
         title="AI开发工具链完整方案推荐",
@@ -140,10 +141,7 @@ print(f"New entries to add: {len(entries_to_add)}")
 for e in entries_to_add:
     print(f"  - {e['id']}: {e['title'][:50]}")
 
-entries_data['entries'].extend(entries_to_add)
-entries_data['last_updated'] = datetime.datetime.now().isoformat()
+added_entries, skipped_entries = append_entries(entries_data, entries_to_add)
+save_entries_data(entries_data, ENTRIES_FILE)
 
-with open(ENTRIES_FILE, 'w', encoding='utf-8') as f:
-    json.dump(entries_data, f, ensure_ascii=False, indent=2)
-
-print("entries.json updated successfully.")
+print(f"entries.json updated successfully: +{len(added_entries)}, skipped {len(skipped_entries)}.")
