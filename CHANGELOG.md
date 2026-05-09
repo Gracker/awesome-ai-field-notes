@@ -1,3 +1,53 @@
+## 2026-05-04 ~ 2026-05-09
+
+
+### 📈 新增 (22)
+
+
+#### agents (4)
+- [Anthropic 兄妹 Dario Amodei 和 Daniela Amodei 最新对话：Claude 为什么一直限速？](https://baoyu.io/blog/a-conversation-with-dario-amodei-daniela-amodei) — agents ⭐⭐⭐⭐
+- [Build with Google Antigravity, our new agentic development platform](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/) — agents ⭐⭐⭐⭐
+- [深度拆解 Hermes Agent 的记忆系统：它如何修正 OpenClaw 的误区](https://baoyu.io/blog/2026-04-29/manthanguptaa-2034849672985288957) — agents ⭐⭐⭐
+- [为 Agent 设计产品](https://baoyu.io/blog/2026-04-24/teddy-riker-2047312986696454584) — agents ⭐⭐⭐
+
+#### ai-tools (4)
+- [Allie K. Miller 推出免费 5 天 AI 入门课程：超越 ChatGPT 提示词复制](https://x.com/alliekmiller/status/1985834763677286606) — ai-tools ⭐⭐⭐⭐⭐
+- [GPT-5.5 + GPT-Image-2 组合：开发者用它做应用获得了极大乐趣](https://x.com/thenanyu/status/2049593061043265940) — ai-tools ⭐⭐⭐⭐
+- [Google I/O 倒计时挑战赛：用 Gemini Studio 或 Canvas 做创意计时器](https://x.com/GoogleAI/status/2050244962755948895) — ai-tools ⭐⭐⭐⭐
+- [OpenAI发布MRC多路径可靠连接网络协议](https://x.com/OpenAI/status/2052039800384057348) — ai-tools ⭐⭐⭐⭐
+
+#### coding (3)
+- [Boris Cherny：Claude Code 之后，写代码正在变成「管理 Agent」](https://baoyu.io/blog/anthropics-boris-cherny-why-coding-is-solved-and-what-comes-next) — coding ⭐⭐⭐⭐
+- [告别氛围编程：基于 Harness 治理和 SDD 的团队级 AI 研发范式演进与实践](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA%3D%3D&mid=2247559876&idx=1&sn=d36019602fa9c07b1595a5f3f25c169a) — coding ⭐⭐⭐⭐
+- [Karpathy 最新访谈：Vibe Coding 只是开始，真正重要的是 Agentic Engineering](https://baoyu.io/blog/andrej-karpathy-from-vibe-coding-to-agentic-engineering) — coding ⭐⭐⭐⭐
+
+#### industry (5)
+- [Get ready for Google I/O 2026](https://developers.googleblog.com/get-ready-for-google-io-2026/) — industry ⭐⭐⭐⭐
+- [两小时激辩：黄仁勋为什么不怕 TPU、不怕华为、不怕出口管制？](https://baoyu.io/blog/jensen-huang-dwarkesh-interview) — industry ⭐⭐⭐⭐
+- [AI 的经济账根本算不通](https://baoyu.io/blog/2026-04-28/ais-economics-dont-make-sense) — industry ⭐⭐⭐
+- [大多数公司根本没有为 AI 做好准备](https://baoyu.io/blog/2026-05-03/danielmiessler-status-2050666594188304484) — industry ⭐⭐⭐
+- [Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？](https://baoyu.io/blog/building-agi-pilled-products-cat-wu-head-of-product-claude-code) — industry ⭐⭐⭐
+
+#### learning (1)
+- [SPEC CPU2026 首次全面特性分析：更大的指令 cache 压力](https://mp.weixin.qq.com/s?__biz=MzU3Nzg4NDY4OQ%3D%3D&mid=2247484184&idx=1&sn=2e81ff82786c0f7d69407f43e81fa5c1) — learning ⭐⭐⭐
+
+#### models (3)
+- [Gemini 3 Flash is now available in Gemini CLI](https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/) — models ⭐⭐⭐⭐
+- [Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样](https://baoyu.io/blog/demis-hassabis-agents-agi-and-the-next-big-scientific-breakthrough) — models ⭐⭐⭐⭐
+- [Ollama 直接把 Claude Desktop 变成开源模型的豪华驾驶舱](https://x.com/berryxia/status/2051660742311784626) — models ⭐⭐⭐
+
+#### workflow (2)
+- [吴恩达深度分析：AI 编程工具对不同工程工作的加速程度差异](https://x.com/AndrewYNg/status/2051691741150081122) — workflow ⭐⭐⭐⭐⭐
+- [Ronald van Loon：组合式 Agent 架构实现规模化落地的核心方法](https://x.com/Ronald_vanLoon/status/2052693375661351244) — workflow ⭐⭐⭐⭐
+
+
+### 📊 统计
+- 总条目: 909 → 931 (+22)
+- 活跃条目: 652 → 674 (+22)
+- 本周最高分新增:
+  - [Allie K. Miller 推出免费 5 天 AI 入门课程：超越 ChatGPT 提示词复制](https://x.com/alliekmiller/status/1985834763677286606) — ai-tools ⭐⭐⭐⭐⭐
+  - [吴恩达深度分析：AI 编程工具对不同工程工作的加速程度差异](https://x.com/AndrewYNg/status/2051691741150081122) — workflow ⭐⭐⭐⭐⭐
+
 ## 2026-04-27 ~ 2026-05-03
 
 
