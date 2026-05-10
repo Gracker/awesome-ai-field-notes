@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
+- [Gary Marcus 紧急澄清：别慌，METR 图被过度反应了](https://x.com/GaryMarcus/status/2053286791587971384) ⭐5 · 2026-05-09 — 别被 METR 图吓到，Marcus 带你回到原始数据冷静看
+- [Chain of Thought 监控器：AI 对齐防御的关键层](https://x.com/OpenAI/status/2052845764507062349) ⭐3 · 2026-05-09 — OpenAI 建议在 RL 训练中保留 CoT 可监控性，不要急于惩罚错位推理这对 Agent 安全架构设计有重要启发
+- [告别氛围编程：基于 Harness 治理和 SDD 的团队级 AI 研发范式演进与实践](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA%3D%3D&mid=2247559876&idx=1&sn=d36019602fa9c07b1595a5f3f25c169a) ⭐4 · 2026-05-07 — 阿里高德团队用 SDD+Harness 把 AI 编程从'氛围'拉回'规范'，出码率提效的反思很实在
+- [OpenAI发布MRC多路径可靠连接网络协议](https://x.com/OpenAI/status/2052039800384057348) ⭐4 · 2026-05-07 — OpenAI发布MRC网络协议优化AI训练集群性能
+- [Ollama 直接把 Claude Desktop 变成开源模型的豪华驾驶舱](https://x.com/berryxia/status/2051660742311784626) ⭐3 · 2026-05-07 — Ollama 一条命令打通 Claude Desktop 和开源模型生态，多模型切换终于丝滑了
 - [融合eBPF与AI技术的微架构能效分析](https://mp.weixin.qq.com/s?__biz=MzI3NzA5MzUxNA%3D%3D&mid=2664620532&idx=1&sn=ac6637ded8c26a15f729d8b4ae26d87a) ⭐4 · 2026-05-06 — 小米用 eBPF+AI+6 Agent 闭环做移动端微架构能效分析，Task 级功耗归因+自动因果链推理，短视频场景 CPU 功耗降 15-20%
+- [Ronald van Loon：组合式 Agent 架构实现规模化落地的核心方法](https://x.com/Ronald_vanLoon/status/2052693375661351244) ⭐4 · 2026-05-06 — 组合式 Agent 架构：从概念验证到规模化落地的工程方法论
+- [Peter Yang 访谈：AI 创始人用 Claude Code 打造个人 AI OS](https://x.com/petergyang/status/2053120334661112317) ⭐4 · 2026-05-06 — 真实案例：Claude Code 个人 AI OS，含完整文件夹结构和工具链
 - [Boris Cherny：Claude Code 之后，写代码正在变成管理 Agent](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA%3D%3D&mid=2247494723&idx=1&sn=7aa816280ecdd6fdf8338b41081a6f03) ⭐4 · 2026-05-06 — Claude Code 创建者 Boris Cherny 自曝 2026 年零手写代码日合并 150 PR，用 Loop 模式让 Agent 全自动运维，真正的护城河在组织流程改造而非技术
-- [用龙虾等 Agent 访问知识星球](https://mp.weixin.qq.com/s?__biz=Mzg5NDY4ODM1MA%3D%3D&mid=2247486078&idx=1&sn=cb5170477c39569acdec51bf2d14e04d) ⭐3 · 2026-05-06 — 知识星球推出官方 AI Skill，npm 安装后 Agent 可查内容搜帖子出报告，权限由星主控制默认关闭
-- [imsg CLI 0.6+0.7：iMessage 私有 API 桥接器正式落地](https://x.com/steipete/status/2051905175355351440) ⭐5 · 2026-05-05 — iMessage 私有 API CLI 面世，OpenClaw 生态再添利器
-- [AI 产品原型生成提示词：3 层上下文框架（功能 + 视觉 + 数据）](https://x.com/petergyang/status/2051306144199737508) ⭐3 · 2026-05-05 — 目前最实用的 AI 原型生成提示词模板，三层结构有效避免 slop 感
-- [AI 五层蛋糕：从能源到应用，构建全栈者将定义下一个工业时代](https://x.com/nvidia/status/2051419469180981439) ⭐3 · 2026-05-05 — 理解 AI 产业竞争格局的最佳框架，底层才是真正价值所在
-- [MCP-Flow: 自动构建大规模 MCP 工具数据集，让 0.6B 模型在工具调用上超越 GPT-4o](https://arxiv.org/abs/2510.24284) ⭐4 · 2026-05-04 — 0.6B 小模型微调后在 MCP 工具调用上全面超越 GPT-4o，证明小模型+数据工程才是正确方向
-- [Greg Brockman 详解 Codex 验证创业想法的 Skill](https://x.com/gdb/status/2050972114077843772) ⭐4 · 2026-05-04 — Codex Skill：用AI压力测试创业想法，快速暴露核心假设漏洞
-- [Supercharging LLM inference on Google TPUs: Achieving 3X speedups with diffusion-style speculati...](https://developers.googleblog.com/supercharging-llm-inference-on-google-tpus-achieving-3x-speedups-with-diffusion-style-speculative-decoding/) ⭐4 · 2026-05-04 — DFlash 块扩散推测解码将 TPU LLM 推理速度提升 3 倍，验证成本近乎恒定，瓶颈转向草稿质量
-- [Google Gemini Embedding 2 多模态嵌入模型](https://x.com/GoogleAI/status/2049903687016063456) ⭐5 · 2026-05-03 — Google原生多模态嵌入模型：支持视频和视觉分析
+- [Anthropic 兄妹 Dario Amodei 和 Daniela Amodei 最新对话：Claude 为什么一直限速？](https://baoyu.io/blog/a-conversation-with-dario-amodei-daniela-amodei) ⭐4 · 2026-05-06 — Anthropic 2026Q1 算力增速达年化 80 倍（远超预期的 10 倍），Claude 限速的根因揭晓
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 111 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 145 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 166 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 31 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 41 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 47 | 论文、课程、提示工程、长文、方法论。 |
-| 工具与项目 | 42 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
+| 模型与实验室 | 100 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 146 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 153 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 30 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 43 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 研究与学习 | 44 | 论文、课程、提示工程、长文、方法论。 |
+| 工具与项目 | 38 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 909
-- 公开展示卡片: 583
-- 有全文内容: 497
-- 最近 7 天信号: 108
+- 原始条目: 939
+- 公开展示卡片: 554
+- 有全文内容: 477
+- 最近 7 天信号: 88
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`agent`, `llm`, `claude`, `ai-tools`, `openclaw`, `coding`, `paper`, `openai`, `reasoning`, `claude-code`, `mcp`, `codex`, `multi-agent`, `memory`, `anthropic`, `workflow`, `Agent`, `prompt`
+`agent`, `llm`, `ai-tools`, `claude`, `openclaw`, `coding`, `paper`, `openai`, `reasoning`, `claude-code`, `workflow`, `mcp`, `codex`, `Agent`, `memory`, `multi-agent`, `anthropic`, `safety`
 
 ## 自动化约定
 

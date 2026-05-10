@@ -30,7 +30,8 @@
       "github_stars": null,
       "related": [],
       "quality_score": 4,
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "qBHoHDJ1",
@@ -65,7 +66,8 @@
       "github_stars": null,
       "related": [],
       "quality_score": 4,
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "wzbmoCIc",
@@ -99,7 +101,8 @@
       "github_stars": null,
       "related": [],
       "quality_score": 4,
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "SKxSZmYW",
@@ -133,7 +136,8 @@
       "github_stars": null,
       "related": [],
       "quality_score": 4,
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "gfYRzyW9",
@@ -167,7 +171,8 @@
       "github_stars": null,
       "related": [],
       "quality_score": 4,
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "DWHjHs9e",
@@ -200,7 +205,8 @@
       "github_stars": null,
       "related": [],
       "quality_score": 4,
-      "status": "active"
+      "status": "active",
+      "local_path_valid": false
     },
     {
       "id": "9dc05bac",
@@ -224,15 +230,15 @@
         "https://blog.jetbrains.com/wp-content/uploads/2026/04/image-36.png"
       ],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "agents/frameworks",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -256,15 +262,15 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "agents/frameworks",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -283,15 +289,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/906a8d7136e5.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -337,15 +343,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/bdb1b71ae58c.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "models/models",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -364,15 +370,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/f87778a63b19.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -400,15 +406,15 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "models/models",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -427,15 +433,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/41791598.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -454,15 +460,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/76e4c519.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -481,15 +487,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/daa876b1.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -562,15 +568,15 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "agents/frameworks",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -678,15 +684,15 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "models/models",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -740,15 +746,15 @@
         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKwNpNC5C4U6dSTNgcALp7tO4a1MyAl-d-pk5fGngCvZdhPHGb8iudfb73t3s5rln5wrckxOly6hACWyuOUuVOcDADVVg9MZtaS58_d4q-O-63fLftSnbU_u89lKF7p8LXDKx4kEmzKzzz_Mokjf53JLzBNhkgky1JgJDziJ6icJhFjXy1PlFdEd1ni4U/s16000/Workout-app.gif"
       ],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "agents/frameworks",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -767,15 +773,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/hermex_001.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "models/models",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -794,15 +800,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/4m7n5p8r.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -821,15 +827,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/260ce648.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "models/models",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -857,7 +863,7 @@
       "source_type": "article",
       "language": "en",
       "status": "active",
-      "local_path_valid": true
+      "local_path_valid": false
     },
     {
       "id": "3b51f09e",
@@ -875,15 +881,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/5cf0fc75.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "models/models",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -1037,15 +1043,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/ad8bef5a.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "models/models",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -1108,15 +1114,15 @@
         "https://pixel.rubiconproject.com/token?pid=49096&us_privacy=1YNY"
       ],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -1135,15 +1141,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/6b3c9d2e.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -1162,15 +1168,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/ff1ca7da.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "models/models",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -1243,15 +1249,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/vRL5DXymei.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -1270,15 +1276,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/eb72b016.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "models/models",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -1414,15 +1420,15 @@
         "https://abs.twimg.com/emoji/v2/svg/1f449.svg"
       ],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "models/models",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -1441,15 +1447,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/tr-XHkL-.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "agents/frameworks",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -1468,15 +1474,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/62fea17c.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -1495,15 +1501,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/8k6jv2g1.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -1603,15 +1609,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/3a96bda5f3ea.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -1782,7 +1788,7 @@
       "source_type": "article",
       "language": "en",
       "status": "active",
-      "local_path_valid": true
+      "local_path_valid": false
     },
     {
       "id": "f7612873",
@@ -1800,15 +1806,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/6a342c69.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "models/models",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -2165,15 +2171,15 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -2246,15 +2252,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/2f9l8q3w.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -2273,15 +2279,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/cDHnkVBk.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -2309,7 +2315,7 @@
       "source_type": "article",
       "language": "en",
       "status": "active",
-      "local_path_valid": true
+      "local_path_valid": false
     },
     {
       "id": "b8e890b1",
@@ -2327,15 +2333,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/8f1h4g5j.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -2381,15 +2387,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/27d7de0b02b7.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -2462,15 +2468,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/7I0ONJqt.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -2522,15 +2528,15 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -2549,15 +2555,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/claude_code_domestic_models_2026.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "models/models",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -2618,15 +2624,15 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -2699,15 +2705,15 @@
       "local_path": "Obsidian/awesome-ai-field-notes/content/rDOZR4Ll.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "tags": [],
       "github_stars": null,
       "related": [],
       "category": "uncategorized",
-      "quality_score": 3,
+      "quality_score": 2,
       "source_type": "article",
       "language": "en",
-      "status": "active",
+      "status": "score-pending",
       "local_path_valid": false
     },
     {
@@ -3171,7 +3177,8 @@
       "added_date": "2026-04-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "95794bb0",
@@ -4170,7 +4177,7 @@
       "images": [],
       "added_date": "2026-04-26",
       "updated_date": null,
-      "github_stars": 1019,
+      "github_stars": 1043,
       "related": [],
       "local_path_valid": false
     },
@@ -4236,7 +4243,7 @@
       "images": [],
       "added_date": "2026-04-26",
       "updated_date": null,
-      "github_stars": 4266,
+      "github_stars": 5405,
       "related": [],
       "local_path_valid": false
     },
@@ -5291,7 +5298,7 @@
       "one_liner": "免费 5 天课程，手把手教你脱离 Prompt 复制党，用 Claude 构建个人 AI 工具",
       "one_liner_author": "openclaw",
       "quality_score": 5,
-      "status": "active",
+      "status": "archived",
       "local_path": null,
       "images": [],
       "added_date": "2026-04-22",
@@ -6338,7 +6345,7 @@
       "github_stars": null,
       "related": [],
       "content_path": "content/7bf35471.md",
-      "local_path_valid": true,
+      "local_path_valid": false,
       "content_file": "7bf35471.md"
     },
     {
@@ -6612,7 +6619,7 @@
       "github_stars": null,
       "related": [],
       "content_path": "content/4be25f79.md",
-      "local_path_valid": true,
+      "local_path_valid": false,
       "content_file": "4be25f79.md"
     },
     {
@@ -6789,7 +6796,7 @@
       "github_stars": null,
       "related": [],
       "content_path": "content/tIs9VugG.md",
-      "local_path_valid": true
+      "local_path_valid": false
     },
     {
       "id": "keqFU4_v",
@@ -7048,7 +7055,7 @@
       "github_stars": null,
       "related": [],
       "content_path": "content/c9567fc80a61.md",
-      "local_path_valid": true
+      "local_path_valid": false
     },
     {
       "id": "8ee8a8b72ffc",
@@ -7856,8 +7863,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — Trae 重磅更新：AI编程+智能体+MCP，言出法随的新境界",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/Trae 重磅更新：AI编程+智能体+MCP，言出法随的新境界-2025-04-22.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -7867,7 +7874,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2025-04-22",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -7921,15 +7928,15 @@
       "summary_en": "It's called GPT-Code UI and is now available on GitHub and PyPI",
       "one_liner": "Cubox 收藏 — Writing my own ChatGPT Code Interpreter",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/Writing my own ChatGPT Code Interpreter-2023-07-12.md",
       "images": [
         "https://image.cubox.pro/article/2023071311083085531/42781.jpg?imageMogr2/quality/90/ignore-error/1",
         "https://image.cubox.pro/article/2023071311083052859/92072.jpg?imageMogr2/quality/90/ignore-error/1"
       ],
       "added_date": "2023-07-12",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -8107,8 +8114,8 @@
       "summary_en": "If you ask me what code editor to use in the AI era, I will undoubtedly answer you: Cursor Cursor Cursor!!!",
       "one_liner": "Cubox 收藏 — Unlimited Refill Cursor",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/Unlimited Refill Cursor-2024-10-30.md",
       "images": [
         "https://image.cubox.pro/cardImg/3x8amhl810e5qylc1gjst6jck59ok525tfzdzl0ex2nbwl0nmp?imageMogr2/quality/90/ignore-error/1",
@@ -8118,7 +8125,7 @@
         "https://image.cubox.pro/cardImg/3nn21dwa0116830r13ok4tadfaal0rhlf6ila3m1gu7ctj4opy?imageMogr2/quality/90/ignore-error/1"
       ],
       "added_date": "2024-10-30",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -8356,12 +8363,12 @@
       "summary_en": "A network like Venmo or Uber, for example, is mostly about utility: I need to pay someone money, or I need to travel from here to there. A network like YouTube is more about entertainment. Amuse me. And some networks, what most people refer to when t...",
       "one_liner": "Cubox 收藏 — TikTok and the Sorting Hat — Remains of the Day",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/TikTok and the Sorting Hat — Remains of the Day-2023-07-11.md",
       "images": [],
       "added_date": "2023-07-11",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -8456,8 +8463,8 @@
       "summary_en": "逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用",
       "one_liner": "Cubox 收藏 — 逐步解析 | 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agenti",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/逐步解析 - 如何使用 LangChain、NestJS 和 Gemma 2 构建一个 Agentic RAG 应用-2024-10-10.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -8465,7 +8472,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2024-10-10",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -8818,8 +8825,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 谈谈ChatGPT 背后的核心技术论文",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/谈谈ChatGPT 背后的核心技术论文-2023-02-06.md",
       "images": [
         "https://image.cubox.pro/article/2021110711073830039/35578.jpg",
@@ -8829,7 +8836,7 @@
         "https://image.cubox.pro/article/2023020600291038856/45296.jpg"
       ],
       "added_date": "2023-02-06",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -8994,7 +9001,7 @@
       "images": [],
       "added_date": "2025-07-08",
       "updated_date": null,
-      "github_stars": 1104,
+      "github_stars": 1103,
       "related": [],
       "local_path_valid": false
     },
@@ -9333,7 +9340,7 @@
       ],
       "added_date": "2023-02-27",
       "updated_date": null,
-      "github_stars": 59639,
+      "github_stars": 59914,
       "related": [],
       "local_path_valid": false
     },
@@ -9621,12 +9628,12 @@
       "summary_en": "GitHub Gist: instantly share code, notes, and snippets.",
       "one_liner": "Cubox 收藏 — 文本和概念分析专家 prompt",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/文本和概念分析专家 prompt-2025-09-26.md",
       "images": [],
       "added_date": "2025-09-26",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -9648,14 +9655,14 @@
       "summary_en": "这份rule来自Cursor官方论坛某大神，经实测既可以用在Cursor，也可以用在Windsurf和Roo code。",
       "one_liner": "Cubox 收藏 — 如何利用cursor快速理解复杂代码工程？",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/如何利用cursor快速理解复杂代码工程？-2025-05-26.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2025-05-26",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -10487,8 +10494,8 @@
       "summary_en": "funstory-ai/BabelDOC: Yet Another Document Translator",
       "one_liner": "Cubox 收藏 — funstory-ai/BabelDOC: Yet Another Document Transla",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/funstory-ai-BabelDOC- Yet Another Document Translator-2025-04-03.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -10498,7 +10505,7 @@
         "https://image.cubox.pro/cardImg/38rq8bn416xxaungjui66rarz0g74ybc9xr9obdqaf28i8vbol?imageMogr2/quality/90/ignore-error/1"
       ],
       "added_date": "2025-04-03",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -11304,7 +11311,8 @@
       "added_date": "2026-02-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "rl3QA7au",
@@ -12193,8 +12201,8 @@
       "summary_en": "近来手机界最火爆的话题莫过于豆包手机助手，很多博主拿到豆包手机后也开始对豆包手机助手进行一系列的实现原理调研和猜想，比如调研时候就涉及几个我们系统fw和应用开发中常用的一些权限",
       "one_liner": "Cubox 收藏 — 聊一聊豆包AI手机助手高度敏感权限CAPTURE_SECURE_VIDEO_OUTPUT",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/聊一聊豆包AI手机助手高度敏感权限CAPTURE_SECURE_VIDEO_OUTPUT-2025-12-12.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -12204,7 +12212,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2025-12-12",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -12749,8 +12757,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 创业者思考：如何做 AI Agent 喜欢的基础软件？",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/创业者思考：如何做 AI Agent 喜欢的基础软件？-2026-03-11.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -12760,7 +12768,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-03-11",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -12815,8 +12823,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 深度解析谷歌版「豆包手机」：Android 的统治者下了一盘什么棋？｜AI 器物志",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/深度解析谷歌版「豆包手机」：Android 的统治者下了一盘什么棋？｜AI 器物志-2026-02-27.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -12826,7 +12834,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-02-27",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -13067,12 +13075,12 @@
       "summary_en": "Welcome to the Machine, a guide to building infra software for AI agents",
       "one_liner": "Cubox 收藏 — Welcome to the Machine, a guide to building infra ",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/Welcome to the Machine, a guide to building infra software for AI agents-2026-01-07.md",
       "images": [],
       "added_date": "2026-01-07",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -13203,7 +13211,8 @@
       "added_date": "2026-03-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "otjpnj3j",
@@ -13236,7 +13245,8 @@
       "added_date": "2026-04-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "oprzewvb",
@@ -13379,7 +13389,7 @@
       ],
       "added_date": "2026-04-10",
       "updated_date": null,
-      "github_stars": 4958,
+      "github_stars": 5021,
       "related": [],
       "local_path_valid": false
     },
@@ -14616,8 +14626,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 奥特曼斯坦福对话万字实录来了！关于GPT5、AGI、核聚变发电、人类未来",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/奥特曼斯坦福对话万字实录来了！关于GPT5、AGI、核聚变发电、人类未来-2024-05-02.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -14627,7 +14637,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2024-05-02",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -15209,7 +15219,7 @@
       "images": [],
       "added_date": "2026-01-13",
       "updated_date": null,
-      "github_stars": 31521,
+      "github_stars": 32531,
       "related": [],
       "local_path_valid": false
     },
@@ -15395,8 +15405,8 @@
       "summary_en": "*关注**AI 技能**，开启智能生活！* *?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2Fb96CibCt70iaajvl7fD4ZCicMcjhXMp1v6UibM134tIsO1j5yqHyNhh9arj090oAL7zGhRJRq6cFqFOlDZMleLl4pw%2F640%3Fwx_fmt%3Dpng%26wxfrom%3D5%26wx_lazy%3D1%26wx_co%3D1)*",
       "one_liner": "Cubox 收藏 — 吴恩达：从 Agent 到 Agentic Workflow ，AI 的未来何去何从？",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/吴恩达：从 Agent 到 Agentic Workflow ，AI 的未来何去何从？-2024-06-24.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -15406,7 +15416,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2024-06-24",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -15498,8 +15508,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — o1发布后，信息量最大的圆桌对话：杨植麟、姜大昕、朱军探讨大模型技术路径",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/o1发布后，信息量最大的圆桌对话：杨植麟、姜大昕、朱军探讨大模型技术路径-2024-09-19.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -15509,7 +15519,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2024-09-19",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -15959,8 +15969,8 @@
       "summary_en": "本杂志开源^\\[1\\]^，欢迎投稿^\\[2\\]^。另有《谁在招人》^\\[3\\]^服务，发布程序员招聘信息。合作请邮件联系^\\[4\\]^（yifeng.ruan@gmail.com^\\[5\\]^）。",
       "one_liner": "Cubox 收藏 — 科技爱好者周刊#301：OpenAI 的图书馆工位",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/科技爱好者周刊#301：OpenAI 的图书馆工位-2024-05-24.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -15970,7 +15980,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2024-05-24",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -17414,8 +17424,8 @@
       "summary_en": "X（Twitter）上，AI 圈 10w+ 关注大V橘子兄这么评价： ?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_png%2FjibL99tg2bCXsWIicK2X1vJ0pxkaMibsVvO39oxf8HCwdCh9xggPv7Fzh1LKlcxKN5TNDeJ0lte3IJnMMIUIC8ruw%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg \"null\") 不少独立开发圈的朋友们，对MCP技术也很感兴趣。   ?...",
       "one_liner": "Cubox 收藏 — 【科普】程序员必看，AI时代新协议 MCP 正在连接吞噬一切，20+资源全收录！",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/【科普】程序员必看，AI时代新协议 MCP 正在连接吞噬一切，20+资源全收录！-2025-03-06.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -17425,7 +17435,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2025-03-06",
-      "updated_date": "2026-04-15",
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -17812,8 +17822,8 @@
       "summary_en": "智谱可能是国内最早打\"平替Claude\"牌的AI厂商了，对于智谱的新模型，我也毫不犹豫用Claude Code来测试，看看这次平替能力是否进步了。",
       "one_liner": "Cubox 收藏 — 我把Claude Code换成GLM-4.7用了6小时，我竟然没发现明显区别",
       "one_liner_author": "openclaw",
-      "quality_score": 3,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/我把Claude Code换成GLM-4.7用了6小时，我竟然没发现明显区别-2025-12-23.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -17823,7 +17833,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2025-12-23",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -17944,12 +17954,12 @@
       "summary_en": "[2303.10130] GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models",
       "one_liner": "Cubox 收藏 — [2303.10130] GPTs are GPTs: An Early Look at the L",
       "one_liner_author": "openclaw",
-      "quality_score": 3,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/[2303.10130] GPTs are GPTs- An Early Look at the Labor Market Impact Potential of Large Language Mod.md",
       "images": [],
       "added_date": "2026-04-10",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -18413,8 +18423,8 @@
       "summary_en": "Tech companies are moving fast on AI. That could prove catastrophic",
       "one_liner": "Cubox 收藏 — The AI Arms Race Is On. Start Worrying",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/The AI Arms Race Is On. Start Worrying-2023-02-17.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -18422,7 +18432,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2023-02-17",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -18444,8 +18454,8 @@
       "summary_en": "【问题分析】WMS无焦点窗口的ANR问题【Android 14】_waiting because no window has focus but activityre-CSDN博客",
       "one_liner": "Cubox 收藏 — 【问题分析】WMS无焦点窗口的ANR问题【Android 14】_waiting because n",
       "one_liner_author": "openclaw",
-      "quality_score": 3,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/【问题分析】WMS无焦点窗口的ANR问题【Android 14】_waiting because no window has focus but activityre-CSDN博客-2025-03-0.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -18455,7 +18465,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-04-10",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -18982,8 +18992,8 @@
       "summary_en": "What Is ChatGPT Doing … and Why Does It Work?—Stephen Wolfram Writings",
       "one_liner": "Cubox 收藏 — What Is ChatGPT Doing … and Why Does It Work?—Step",
       "one_liner_author": "openclaw",
-      "quality_score": 5,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/What Is ChatGPT Doing … and Why Does It Work-—Stephen Wolfram Writings-2023-07-31.md",
       "images": [
         "https://image.cubox.pro/article/2023021519142960777/23709.jpg?imageMogr2/quality/90/ignore-error/1 \"What Is ChatGPT Doing ... and Why Does It Work?\"",
@@ -18993,7 +19003,7 @@
         "https://image.cubox.pro/article/2023021519142938663/18953.jpg?imageMogr2/quality/90/ignore-error/1"
       ],
       "added_date": "2023-07-31",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -19015,8 +19025,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 认知重建之后，步入Agentic Engineering的工程革命",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/认知重建之后，步入Agentic Engineering的工程革命-2026-03-31.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -19026,7 +19036,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-03-31",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -19720,7 +19730,7 @@
       ],
       "added_date": "2026-04-10",
       "updated_date": null,
-      "github_stars": 9991,
+      "github_stars": 10820,
       "related": [],
       "local_path_valid": false
     },
@@ -20198,8 +20208,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 手搓AI智能体实战经验",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/手搓AI智能体实战经验-2024-06-13.md",
       "images": [
         "https://image.cubox.pro/cardImg/5mnr2ui0dzs0gglnhql4i58v892kfogo2nmy5ip2zr01eaoj4h?imageMogr2/quality/90/ignore-error/1",
@@ -20209,7 +20219,7 @@
         "https://image.cubox.pro/cardImg/18kty1hyckb8ae9tytc9rz5nwxjzsvg9x4u5f9h1n6adwmhw2h?imageMogr2/quality/90/ignore-error/1"
       ],
       "added_date": "2024-06-13",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -20257,12 +20267,12 @@
       "summary_en": "Writing a storage engine for Postgres: an in-memor...",
       "one_liner": "Cubox 收藏 — Writing a storage engine for Postgres: an in-memor",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/Writing a storage engine for Postgres- an in-memor...-2023-11-02.md",
       "images": [],
       "added_date": "2023-11-02",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -20789,12 +20799,12 @@
       "summary_en": "claude code's DX is too good. and that's a problem. | thinking out loud",
       "one_liner": "Cubox 收藏 — claude code's DX is too good. and that's a problem",
       "one_liner_author": "openclaw",
-      "quality_score": 3,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/claude code's DX is too good. and that's a problem. - thinking out loud-2025-12-16.md",
       "images": [],
       "added_date": "2025-12-16",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -20842,8 +20852,8 @@
       "summary_en": "最近大家都在聊 MCP，发现有个最重要的点被忽略了： 通过标准化协议，将工具提供方与应用研发者解耦，这一点带",
       "one_liner": "Cubox 收藏 — 基于 MCP 的 AI Agent 应用开发实践",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/基于 MCP 的 AI Agent 应用开发实践-2025-05-08.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -20853,7 +20863,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2025-05-08",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -21099,12 +21109,12 @@
       "summary_en": "The Product-Minded Software Engineer - The Pragmatic Engineer",
       "one_liner": "Cubox 收藏 — The Product-Minded Software Engineer - The Pragmat",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/The Product-Minded Software Engineer - The Pragmatic Engineer-2024-09-12.md",
       "images": [],
       "added_date": "2024-09-12",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -21325,8 +21335,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 学习笔记：从 Agent 到 Skills — AI 智能体架构的范式转变",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/学习笔记：从 Agent 到 Skills — AI 智能体架构的范式转变-2026-03-31.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -21336,7 +21346,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-03-31",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -21420,8 +21430,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — https://learningprompt.wiki/docs/insight/AI%20%E6%",
       "one_liner_author": "openclaw",
-      "quality_score": 3,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/https---learningprompt.wiki-docs-insight-AI%20%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E4%BA%BA.md",
       "images": [
         "https://image.cubox.pro/article/2023032522321910447/38611.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -21431,7 +21441,7 @@
         "https://image.cubox.pro/article/2023040121261196351/10573.jpg?imageMogr2/quality/90/ignore-error/1"
       ],
       "added_date": "2026-04-10",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -21579,8 +21589,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — “聊天式编程”让代码听你的话：Cursor打造极致心流体验",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/“聊天式编程”让代码听你的话：Cursor打造极致心流体验-2025-03-29.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -21590,7 +21600,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2025-03-29",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -21612,15 +21622,15 @@
       "summary_en": "“不卷 AI、不碰币、下班不收消息”——Android 知名技术大牛 Jake Wharton 的求职价值观",
       "one_liner": "Cubox 收藏 — “不卷 AI、不碰币、下班不收消息”——Android 知名技术大牛 Jake Wharton 的求",
       "one_liner_author": "openclaw",
-      "quality_score": 3,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/“不卷 AI、不碰币、下班不收消息”——Android 知名技术大牛 Jake Wharton 的求职价值观-2026-02-26.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-02-26",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -21707,8 +21717,8 @@
       "summary_en": "agiresearch/AIOS: AIOS: AI Agent Operating System",
       "one_liner": "Cubox 收藏 — agiresearch/AIOS: AIOS: AI Agent Operating System",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/agiresearch-AIOS- AIOS- AI Agent Operating System-2026-03-27.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -21718,7 +21728,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-03-27",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -21836,8 +21846,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 应战DeepSeek， OpenAI紧急上线o3-mini！价格打骨折，免费用户也能用",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/应战DeepSeek， OpenAI紧急上线o3-mini！价格打骨折，免费用户也能用-2025-02-01.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -21847,7 +21857,7 @@
         "https://image.cubox.pro/cardImg/49ptyqcouzc9s3xbvbkji7igwiujtno1uzwe4pm8wftkt6j5kq?imageMogr2/quality/90/ignore-error/1"
       ],
       "added_date": "2025-02-01",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -22120,8 +22130,8 @@
       "summary_en": "The Cook and the Chef: Musk's Secret Sauce — Wait ...",
       "one_liner": "Cubox 收藏 — The Cook and the Chef: Musk's Secret Sauce — Wait ",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/The Cook and the Chef- Musk's Secret Sauce — Wait ...-2023-10-07.md",
       "images": [
         "https://149909199.v2.pressablecdn.com/wp-content/uploads/2017/01/PDF-Button.png",
@@ -22131,7 +22141,7 @@
         "https://149909199.v2.pressablecdn.com/wp-content/uploads/2015/11/Software-Want-Box.png"
       ],
       "added_date": "2023-10-07",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -22153,8 +22163,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 【有嘴就能做开发】Cursor——AI编辑器 使用详解 - 知乎",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/【有嘴就能做开发】Cursor——AI编辑器 使用详解 - 知乎-2025-04-17.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -22164,7 +22174,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2025-04-17",
-      "updated_date": "2026-04-15",
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -22186,14 +22196,14 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 来自 OpenAI 离职员工的爆料：关于 OpenAI 的一些思考",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/来自 OpenAI 离职员工的爆料：关于 OpenAI 的一些思考-2025-07-27.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2025-07-27",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -22215,15 +22225,15 @@
       "summary_en": "garrytan/gstack: Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "one_liner": "Cubox 收藏 — garrytan/gstack: Use Garry Tan's exact Claude Code",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/garrytan-gstack- Use Garry Tan's exact Claude Code setup- 15 opinionated tools that serve as CEO, De.md",
       "images": [
         "https://image.cubox.pro/cardImg/3juqdkicqj16yu9una35nnid81htcifhq4c6zm5fxuax7ff0s4.png?imageMogr2/quality/90/ignore-error/1",
         "https://image.cubox.pro/cardImg/6dhdv6aryubtobcmnrs5ov7ywsw3vkgjv3sqssybfjp490zk0l.png?imageMogr2/quality/90/ignore-error/1"
       ],
       "added_date": "2026-04-10",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -22305,8 +22315,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 深入探讨GPTs和AI Assistant",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/深入探讨GPTs和AI Assistant-2024-01-02.md",
       "images": [
         "https://image.cubox.pro/cardImg/2024010219295456095/71930.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -22316,7 +22326,7 @@
         "https://image.cubox.pro/cardImg/2024010219295579148/92767.jpg?imageMogr2/quality/90/ignore-error/1"
       ],
       "added_date": "2024-01-02",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -22366,8 +22376,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 从 ChatGPT 看 AI 未来的 7 种场景可能性",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/从 ChatGPT 看 AI 未来的 7 种场景可能性-2023-02-20.md",
       "images": [
         "https://image.cubox.pro/article/2023022019124128608/73849.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -22377,7 +22387,7 @@
         "https://image.cubox.pro/article/2023022019124165250/39537.jpg?imageMogr2/quality/90/ignore-error/1"
       ],
       "added_date": "2023-02-20",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -22786,8 +22796,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 我如何夺冠新加坡首届 GPT-4 提示工程大赛 [译] | 宝玉的分享",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/我如何夺冠新加坡首届 GPT-4 提示工程大赛 [译] - 宝玉的分享-2024-05-07.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -22797,7 +22807,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2024-05-07",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -22975,8 +22985,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 微信正式发布多模态大模型POINTS1.5",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/微信正式发布多模态大模型POINTS1.5-2024-12-14.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -22986,7 +22996,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2024-12-14",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -23135,12 +23145,12 @@
       "summary_en": "We picked 50 paper/models/blogs across 10 fields in AI Eng: LLMs, Benchmarks, Prompting, RAG, Agents, CodeGen, Vision, Voice, Diffusion, Finetuning. If you're starting from scratch, start here.",
       "one_liner": "Cubox 收藏 — The 2025 AI Engineering Reading List",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/The 2025 AI Engineering Reading List-2025-01-04.md",
       "images": [],
       "added_date": "2025-01-04",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -24138,7 +24148,7 @@
       ],
       "added_date": "2026-04-10",
       "updated_date": null,
-      "github_stars": 8445,
+      "github_stars": 8454,
       "related": [],
       "local_path_valid": false
     },
@@ -24496,8 +24506,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 借助 AI Coding 快速打造 AI Agent 系统",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/借助 AI Coding 快速打造 AI Agent 系统-2026-02-10.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -24507,7 +24517,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2026-02-10",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -25593,8 +25603,8 @@
       "summary_en": "本文探讨AI编程智能体在软件开发中的应用，重点分析Cursor和Cline。二者通过自然语言处理和代码生成辅助编程，提升效率。Cursor 成熟但成本高，Cline 开源免费但可靠性待提升。",
       "one_liner": "Cubox 收藏 — 探索 AI 编程智能体",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/探索 AI 编程智能体-2025-02-03.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -25604,7 +25614,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2025-02-03",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -25954,8 +25964,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 科技爱好者周刊（第234期）：AI 聊天有多强？",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/科技爱好者周刊（第234期）：AI 聊天有多强？-2022-12-09.md",
       "images": [
         "https://image.cubox.pro/article/2022120910232866900/24241.jpg?imageMogr2/quality/90/ignore-error/1 \"null\"",
@@ -25965,7 +25975,7 @@
         "https://image.cubox.pro/article/2022120910232819506/80822.jpg?imageMogr2/quality/90/ignore-error/1 \"null\""
       ],
       "added_date": "2022-12-09",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -26168,7 +26178,7 @@
       ],
       "added_date": "2023-04-13",
       "updated_date": null,
-      "github_stars": 183958,
+      "github_stars": 184147,
       "related": [],
       "local_path_valid": false
     },
@@ -26359,8 +26369,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 探索更强中文Embedding模型：Conan-Embedding",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/探索更强中文Embedding模型：Conan-Embedding-2024-09-27.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -26370,7 +26380,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2024-09-27",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -26392,8 +26402,8 @@
       "summary_en": "【GDE 分享】移植 Mediapipe LLM Demo 到 Kotlin Multiplatform",
       "one_liner": "Cubox 收藏 — 【GDE 分享】移植 Mediapipe LLM Demo 到 Kotlin Multiplatfo",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/【GDE 分享】移植 Mediapipe LLM Demo 到 Kotlin Multiplatform-2024-12-04.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -26403,7 +26413,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2024-12-04",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -26425,8 +26435,8 @@
       "summary_en": "本杂志开源^\\[1\\]^，欢迎投稿^\\[2\\]^。另有《谁在招人》^\\[3\\]^服务，发布程序员招聘信息。合作请邮件联系^\\[4\\]^（yifeng.ruan@gmail.com^\\[5\\]^）。",
       "one_liner": "Cubox 收藏 — 科技爱好者周刊#336：面对 AI，互联网正在衰落",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/科技爱好者周刊#336：面对 AI，互联网正在衰落-2025-02-07.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -26436,7 +26446,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2025-02-07",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -26500,7 +26510,7 @@
       "images": [],
       "added_date": "2025-07-06",
       "updated_date": null,
-      "github_stars": 11413,
+      "github_stars": 11412,
       "related": [],
       "local_path_valid": false
     },
@@ -26787,8 +26797,8 @@
       "summary_en": "组合多个 MCP Server 的工作流可以自主完成非常复杂的任务，关键是这协议统一了连接标准，有大量现成的 MCP Server 可以即插即用，大幅降低建设成本。",
       "one_liner": "Cubox 收藏 — 最近爆火的MCP究竟有多大魅力？MCP开发初体验｜得物技术",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/最近爆火的MCP究竟有多大魅力？MCP开发初体验｜得物技术-2025-05-07.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -26798,7 +26808,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2025-05-07",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -26887,8 +26897,8 @@
       "summary_en": null,
       "one_liner": "Cubox 收藏 — 一文看懂2025 Google IO，誓把一切“装”上Gemini，谷歌眼镜10年逆袭归来",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/一文看懂2025 Google IO，誓把一切“装”上Gemini，谷歌眼镜10年逆袭归来-2025-05-21.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -26898,7 +26908,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2025-05-21",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -27345,7 +27355,7 @@
       ],
       "added_date": "2026-04-10",
       "updated_date": null,
-      "github_stars": 11554,
+      "github_stars": 11942,
       "related": [],
       "local_path_valid": false
     },
@@ -27413,7 +27423,7 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": true
+      "local_path_valid": false
     },
     {
       "id": "207tuv8w",
@@ -27669,8 +27679,8 @@
       "summary_en": "“Progress is not achieved by luck or accident, but by working on yourself daily.” | Revue",
       "one_liner": "Cubox 收藏 — “Progress is not achieved by luck or accident, but",
       "one_liner_author": "openclaw",
-      "quality_score": 4,
-      "status": "active",
+      "quality_score": 2,
+      "status": "score-pending",
       "local_path": "Cubox/“Progress is not achieved by luck or accident, but by working on yourself daily.” - Revue-2022-01-24.md",
       "images": [
         "https://image.cubox.pro/article/2022012511405793220/79236.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -27680,7 +27690,7 @@
         "https://cubox.pro/c/filters:no_upscale("
       ],
       "added_date": "2022-01-24",
-      "updated_date": null,
+      "updated_date": "2026-05-11",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -27865,7 +27875,7 @@
       ],
       "added_date": "2023-03-27",
       "updated_date": null,
-      "github_stars": 419,
+      "github_stars": 420,
       "related": [],
       "local_path_valid": false
     },
@@ -27955,7 +27965,7 @@
       ],
       "added_date": "2026-04-10",
       "updated_date": null,
-      "github_stars": 24901,
+      "github_stars": 24898,
       "related": [],
       "local_path_valid": false
     },
@@ -29714,7 +29724,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "05v1ff6t",
@@ -29746,7 +29757,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "pot4kbjx",
@@ -29778,7 +29790,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "h29axr7g",
@@ -29810,7 +29823,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fizawgce",
@@ -29842,7 +29856,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ehpdysfh",
@@ -29875,7 +29890,8 @@
       "added_date": "2026-05-04",
       "updated_date": "2026-05-05",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "tweg5332",
@@ -29908,7 +29924,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gtnm0slv",
@@ -29940,7 +29957,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "xvi0a2ze",
@@ -29973,7 +29991,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1btflkw9",
@@ -30005,7 +30024,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3n5tp20m",
@@ -30037,7 +30057,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "j0aso5d1",
@@ -30069,7 +30090,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "043eubgu",
@@ -30102,7 +30124,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7g7c7j7d",
@@ -30136,7 +30159,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "h92h5038",
@@ -30168,7 +30192,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "qgbtf6an",
@@ -30200,7 +30225,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fkddi34q",
@@ -30231,7 +30257,8 @@
       "added_date": "2026-05-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c5bc986e",
@@ -30452,7 +30479,8 @@
       "source_type": "article",
       "language": "en",
       "status": "active",
-      "id": "xHE1ZLFa"
+      "id": "xHE1ZLFa",
+      "local_path_valid": false
     },
     {
       "id": "13aafd83",
@@ -30484,7 +30512,8 @@
       "added_date": "2026-05-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "41bc8204",
@@ -30516,7 +30545,8 @@
       "added_date": "2026-05-06",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3ef4545a",
@@ -30540,7 +30570,7 @@
       "one_liner": "零代码5天训练营，手把手教你构建个人AI工具",
       "one_liner_author": "openclaw",
       "quality_score": 5,
-      "status": "active",
+      "status": "archived",
       "local_path": null,
       "images": [],
       "added_date": "2026-05-06",
@@ -30660,7 +30690,7 @@
       "one_liner": "Gemini 视觉推理能力升级，表格一键转图表",
       "one_liner_author": "openclaw",
       "quality_score": 4,
-      "status": "active",
+      "status": "archived",
       "local_path": null,
       "images": [],
       "added_date": "2026-05-06",
@@ -30702,7 +30732,8 @@
       "added_date": "2026-05-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a97a73a9",
@@ -30739,7 +30770,8 @@
       "added_date": "2026-05-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a42849da",
@@ -30774,8 +30806,980 @@
       "added_date": "2026-05-07",
       "updated_date": null,
       "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "8c1748e3",
+      "title": "OpenAI发布MRC多路径可靠连接网络协议",
+      "url": "https://x.com/OpenAI/status/2052039800384057348",
+      "source": {
+        "platform": "x",
+        "author": "@OpenAI",
+        "original_date": "2026-05-07"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "networking",
+        "supercomputing",
+        "infrastructure"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "OpenAI联合AMD、Broadcom、Intel、Microsoft、NVIDIA等芯片巨头发布MRC多路径可靠连接网络协议，专为大型AI训练集群设计。该协议能够提升数据传输效率，减少GPU浪费时间，为大规模AI训练提供更可靠的网络基础设施。",
+      "summary_en": "OpenAI partnered with AMD, Broadcom, Intel, Microsoft, and NVIDIA to release MRC multipath reliable connection network protocol designed for large AI training clusters, improving data transmission efficiency and reducing GPU idle time.",
+      "one_liner": "OpenAI发布MRC网络协议优化AI训练集群性能",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aKOnI5Jv",
+      "title": "Gemini 3 Flash is now available in Gemini CLI",
+      "url": "https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/",
+      "source": {
+        "platform": "google",
+        "author": "Google",
+        "original_date": "2025-12-17"
+      },
+      "category": "models",
+      "tags": [
+        "Gemini-3-Flash",
+        "Gemini-CLI",
+        "agentic-coding",
+        "SWE-bench",
+        "multimodal"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Gemini 3 Flash 登陆 Gemini CLI，在 SWE-bench Verified 上以 78% 得分超越 Gemini 2.5 全系列及 Gemini 3 Pro，同时速度提升 3 倍、成本降至 Pro 的四分之一。具备强大推理能力和工具调用能力，支持 1000 条评论规模的 PR 上下文处理、负载测试脚本生成等高频开发任务。通过智能自动路由，Flash 接管简单高频任务，Pro 专注复杂推理任务。",
+      "summary_en": null,
+      "one_liner": "Gemini 3 Flash 以 1/4 成本实现 Pro 级编码能力，高频开发任务的性价比最优选择",
+      "one_liner_author": "openclaw",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/gemini_3_flash_gemini_cli.md",
+      "images": [],
+      "added_date": "2026-05-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "quality_score": 4,
+      "status": "active",
+      "local_path_valid": false
+    },
+    {
+      "id": "rwJHbEwu",
+      "title": "Build with Google Antigravity, our new agentic development platform",
+      "url": "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/",
+      "source": {
+        "platform": "google",
+        "author": "Google",
+        "original_date": "2025-11-20"
+      },
+      "category": "agents",
+      "tags": [
+        "Antigravity",
+        "agentic-development",
+        "AI-agent",
+        "Editor-View",
+        "Manager-Surface",
+        "Claude-Sonnet-4.5"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google 推出 Antigravity——新一代 Agentic 开发平台，结合 AI 驱动的编辑器视图（Editor View）与 Agent 优先的管理界面（Manager Surface）。Agent 可在编辑器、终端和浏览器中自主规划、执行和验证任务，通过 Artifacts（截图、屏幕录制）汇报进度供人类审核。平台支持跨 MacOS/Windows/Linux，模型可选 Gemini 3 Pro、Claude Sonnet 4.5 和 GPT-OSS。",
+      "summary_en": null,
+      "one_liner": "Antigravity 打破 Agent 仅作为聊天侧边栏的局限，为 Agent 提供独立工作空间和 Artifact 验证机制",
+      "one_liner_author": "openclaw",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/google-antigravity-agentic-platform.md",
+      "images": [],
+      "added_date": "2026-05-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "quality_score": 4,
+      "status": "active",
+      "local_path_valid": false
+    },
+    {
+      "id": "265549e0",
+      "title": "Ollama 直接把 Claude Desktop 变成开源模型的豪华驾驶舱",
+      "url": "https://x.com/berryxia/status/2051660742311784626",
+      "source": {
+        "platform": "x",
+        "author": "Berryxia.AI",
+        "original_date": "2026-05-07"
+      },
+      "category": "models",
+      "tags": [
+        "ollama",
+        "claude-desktop",
+        "开源模型",
+        "工具集成",
+        "ai-agent"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "Ollama 宣布支持 Claude Desktop 集成，一条命令 ollama launch claude-desktop 即可让 Ollama Cloud 中的所有开源模型（KimiDeepSeekQwen 等）无缝运行在 Claude Cowork 和 Claude Code 中，享受完整桌面级体验用户可以在本地开源模型和 Anthropic 原生模型之间一键切换，彻底打通了 AI 工具链的壁垒这是 Ollama 在模型部署便捷性上的重要一步，降低了开发者使用多模型的门槛",
+      "summary_en": null,
+      "one_liner": "Ollama 一条命令打通 Claude Desktop 和开源模型生态，多模型切换终于丝滑了",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-05-07-1636-Berryxia.AI-Ollama直接把Claude Desk.md",
+      "images": [
+        "https://pbs.twimg.com/media/HHj2jMlbgAANRce?format=jpg&name=small"
+      ],
+      "added_date": "2026-05-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "a62df420",
+      "title": "告别氛围编程：基于 Harness 治理和 SDD 的团队级 AI 研发范式演进与实践",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA%3D%3D&mid=2247559876&idx=1&sn=d36019602fa9c07b1595a5f3f25c169a",
+      "source": {
+        "platform": "wechat",
+        "author": "王树新（高德大模型应用平台）",
+        "original_date": "2026-05-07"
+      },
+      "category": "coding",
+      "tags": [
+        "harness-engineering",
+        "sdd",
+        "ai-coding",
+        "规范驱动开发",
+        "qoder",
+        "阿里"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "阿里高德团队基于 Qoder 平台的 AI 编程实践，揭示了出码率 80-90% 但提效不明显的悖论核心原因有三：研发是全链路过程而非仅编码环节存量应用中 Vibe Coding 风险极高大型项目超出单次 AI 对话能力边界文章提出 SDD（规范驱动开发）+ Harness Engineering 的解法SDD 将需求规范转化为结构化意图代码作为唯一真实来源，Harness 通过上下文工程架构约束反馈回路和人类监督四大支柱实现可控的 AI 编程基于 Qoder 的全流程自动化实践展示了从需求 PRD 到部署的端到端闭环",
+      "summary_en": null,
+      "one_liner": "阿里高德团队用 SDD+Harness 把 AI 编程从'氛围'拉回'规范'，出码率提效的反思很实在",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Cubox/告别氛围编程：基于 Harness 治理和 SDD 的团队级 AI 研发范式演进与实践-2026-05-07.md",
+      "images": [],
+      "added_date": "2026-05-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "4044b60e",
+      "title": "SPEC CPU2026 首次全面特性分析：更大的指令 cache 压力",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU3Nzg4NDY4OQ%3D%3D&mid=2247484184&idx=1&sn=2e81ff82786c0f7d69407f43e81fa5c1",
+      "source": {
+        "platform": "wechat",
+        "author": null,
+        "original_date": "2026-05-07"
+      },
+      "category": "learning",
+      "tags": [
+        "spec-cpu2026",
+        "cpu-benchmark",
+        "微架构",
+        "指令缓存",
+        "性能分析"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "基于论文SPEC CPU2026: Characterization, Representativeness, and Cross-Suite Comparison的首次全面特性分析与 CPU2017 相比，CPU2026 的 L1 指令缓存压力大幅增加（INT Rate 增长 2.53 倍），但分支预测显著改善（MPKI 从 3.11 降至 1.44）L1 iTLB 压力也大幅增加（2.08 倍）CPU2026 仍远未达到 DCPerf 的指令 footprint 水平，建议与 DCPerf/MLPerf 结合使用int_rate 的 4 个 benchmark 即可覆盖 99.9% 准确率论文链接：arxiv.org/abs/2605.03713",
+      "summary_en": null,
+      "one_liner": "SPEC CPU2026 特性分析揭示指令缓存压力大增但分支预测改善，4 个 benchmark 即可覆盖 int_rate 99.9%",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Cubox/SPEC CPU2026 首次全面特性分析：更大的指令cache压力-2026-05-07.md",
+      "images": [],
+      "added_date": "2026-05-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "a8f3k921",
+      "title": "Allie K. Miller 推出免费 5 天 AI 入门课程：超越 ChatGPT 提示词复制",
+      "url": "https://x.com/alliekmiller/status/1985834763677286606",
+      "source": {
+        "platform": "x",
+        "author": "@alliekmiller",
+        "original_date": "2025-11-05"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "course",
+        "prompt",
+        "no-code"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Allie K. Miller 推出「AI Fast Track」免费 5 天邮件课程，目标是帮助用户从只会复制粘贴 ChatGPT 提示词，进阶到真正能独立构建个人 AI 软件、自动化工具和应用。课程无需编程基础，覆盖从基础到实战的全路径。课程强调「用 AI 构建」与「用 AI 对话」的本质区别，适合想突破提示词上限、提升 AI 生产力的用户。",
+      "summary_en": "Allie K. Miller launches a free 5-day email course 'AI Fast Track' teaching users to go beyond copy-pasting ChatGPT prompts to actually building personal AI software, automations, and tools — no coding required.",
+      "one_liner": "免费 5 天邮件课，手把手教你从 AI 使用者进化为 AI 构建者",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b7e2m384",
+      "title": "吴恩达深度分析：AI 编程工具对不同工程工作的加速程度差异",
+      "url": "https://x.com/AndrewYNg/status/2051691741150081122",
+      "source": {
+        "platform": "x",
+        "author": "@AndrewYNg",
+        "original_date": "2026-05-05"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "ai-tools",
+        "coding-agents",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "吴恩达（Andrew Ng）发文系统分析 AI 编程 agents 对不同类型软件工作的加速差异，并给出从高到低的加速排行：前端开发加速最高，其次是后端、数据分析与测试工作，而复杂系统架构设计加速最低。他指出理解这一差异有助于团队在实际架构决策时保持合理预期，避免对 AI 能力的过度乐观或悲观。这对 AI 团队的人员配置和工作流程设计有直接指导价值。",
+      "summary_en": "Andrew Ng systematically analyzes how AI coding agents accelerate different types of software work, ranking frontend development highest and complex system architecture lowest — useful for realistic team expectations.",
+      "one_liner": "AI 编程工具加速榜：前端 > 后端 > 数据分析 > 架构设计",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c6d1n475",
+      "title": "Ronald van Loon：组合式 Agent 架构实现规模化落地的核心方法",
+      "url": "https://x.com/Ronald_vanLoon/status/2052693375661351244",
+      "source": {
+        "platform": "x",
+        "author": "@Ronald_vanLoon",
+        "original_date": "2026-05-06"
+      },
+      "category": "workflow",
+      "tags": [
+        "x",
+        "workflow",
+        "agent",
+        "architecture"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Ronald van Loon 提出「构建块方法论」是 AI Agent 在真实场景中规模化的关键：1）通过组合而非重建实现 Agent 复用；2）通过设计控制行为，而非依赖提示词调优；3）单一模块变更不影响整体系统稳定。这套方法论将 AI Agent 从概念验证推向可生产的工程实践，是企业级 AI 落地的核心路径。相比于反复 prompt hacking，架构设计思维更能构建可持续的 AI 系统。",
+      "summary_en": "Ronald van Loon explains the 'building block approach' for scaling AI agents: compose instead of rebuild, control behavior through design not prompt hacking, and change one block without breaking the system — key to production-grade AI.",
+      "one_liner": "组合式 Agent 架构：从概念验证到规模化落地的工程方法论",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d5f0g586",
+      "title": "GPT-5.5 + GPT-Image-2 组合：开发者用它做应用获得了极大乐趣",
+      "url": "https://x.com/thenanyu/status/2049593061043265940",
+      "source": {
+        "platform": "x",
+        "author": "@thenanyu",
+        "original_date": "2026-04-30"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "gpt-5",
+        "gpt-image",
+        "app-dev"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "开发者 dominik kundel 分享使用 GPT-5.5 结合 GPT-Image-2 从第一性原理重新设计应用工程交接流程的体验，称这是他「做应用以来最有乐趣的一周」。GPT-5.5 作为最高智能模型，配合 Codex 应用功能，深度改变了工作方式。这种多模态组合（语言模型 + 图像生成）在应用开发中展现出前所未有的协同效应，对前端和全栈开发者有直接参考价值。",
+      "summary_en": "Developer dominik kundel reports his most fun week building apps using GPT-5.5 + GPT-Image-2, redesigned app engineering handoffs from first principles — showing unprecedented synergy between language and image models in app dev.",
+      "one_liner": "GPT-5.5 + GPT-Image-2 组合让应用开发迎来最富有创造性的一周",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "archived",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e4c9h697",
+      "title": "Google I/O 倒计时挑战赛：用 Gemini Studio 或 Canvas 做创意计时器",
+      "url": "https://x.com/GoogleAI/status/2050244962755948895",
+      "source": {
+        "platform": "x",
+        "author": "@GoogleAI",
+        "original_date": "2026-05-02"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "x",
+        "ai-tools",
+        "gemini",
+        "google-io",
+        "challenge"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Google AI 官方发起 I/O 倒计时创作挑战，邀请开发者使用 Google AI Studio 中的 Gemini 或 Gemini App 的 Canvas 功能，「vibe code」出最具创意的倒计时概念，在 5 月 6 日前提交即有机会参与。这是 Google 推动 AI 编码工具普及的社区活动，也是开发者熟悉 Gemini 多模态能力的实践机会。Canvas 功能降低了编程门槛，让非专业开发者也能快速实现创意。",
+      "summary_en": "Google AI launches an I/O countdown creation challenge inviting developers to use Gemini in AI Studio or Canvas to 'vibe code' creative countdown concepts — a hands-on way to explore Gemini's multimodal capabilities.",
+      "one_liner": "Google I/O 倒计时挑战：用 Gemini vibe code 赢参与机会",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7k5vllcn",
+      "title": "Anthropic 兄妹 Dario Amodei 和 Daniela Amodei 最新对话：Claude 为什么一直限速？",
+      "url": "https://baoyu.io/blog/a-conversation-with-dario-amodei-daniela-amodei",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-05-06"
+      },
+      "category": "agents",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "Dario Amodei",
+        "scaling",
+        "compute",
+        "Claude Code"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Anthropic 联合创始人 Dario 和 Daniela Amodei 在 Code with Claude 旧金山场对谈。核心信息：Anthropic 原本按「每年 10 倍」准备算力，但 2026Q1 实际增速年化约 80 倍，这是 Claude 持续限速的直接原因；已经出现两人估值 10 亿美元的 AI 公司；软件工程师是 AI 在整个经济中扩散的「先行指标」；编码能力进步快是因为「可验证」，下一个难点是安全、设计质量、code review 这些主观能力；Anthropic 内部原则「光与影并举」，最强模型 Mythos 因能识别软件漏洞未公开发布，走 Project Glasswing 限定路径发给 50 多家机构强化防御；Dario 最期待的能力变化是组织级 AI——不再是替一个人做很多事，而是在组织里把这件事重复做很多次。",
+      "summary_en": null,
+      "one_liner": "Anthropic 2026Q1 算力增速达年化 80 倍（远超预期的 10 倍），Claude 限速的根因揭晓",
+      "one_liner_author": "openclaw",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "quality_score": 4,
+      "status": "active"
+    },
+    {
+      "id": "v60w49qu",
+      "title": "Boris Cherny：Claude Code 之后，写代码正在变成「管理 Agent」",
+      "url": "https://baoyu.io/blog/anthropics-boris-cherny-why-coding-is-solved-and-what-comes-next",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-05-05"
+      },
+      "category": "coding",
+      "tags": [
+        "Claude Code",
+        "Anthropic",
+        "Boris Cherny",
+        "Coding Agent",
+        "PMF",
+        "LLM"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Anthropic 内部 Claude Code 创建者 Boris Cherny 在 Sequoia AI Ascent 2026 上分享。核心：整个 2026 年没写过一行代码，每天合并几十个 PR，单日记录 150 个；Claude Code 早期半年没有 PMF，真正的爆发点是 2025 年 5 月 Opus 4 发布；现在大部分工作从手机完成，Claude App 常驻 5-10 个 session、几百个 Agent，夜里几千个在跑深度任务，核心调度模式叫 Loop；Anthropic 内部已经没有手写代码，所有 SQL 和产品代码均由模型生成；关于 SaaS 终结：切换成本和流程效力会被 AI 抹平，但网络效应、规模经济、独占资源这些护城河不变；印刷术类比：软件构建会像识字一样普及，最合适写会计软件的是会计师而非工程师；Anthropic 的真正领先不在技术，而在组织流程。",
+      "summary_en": null,
+      "one_liner": "Claude Code 创建者 Boris Cherny：Anthropic 领先不在技术而在组织流程，内部已无手写代码",
+      "one_liner_author": "openclaw",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "quality_score": 4,
+      "status": "active"
+    },
+    {
+      "id": "g7zxx73b",
+      "title": "大多数公司根本没有为 AI 做好准备",
+      "url": "https://baoyu.io/blog/2026-05-03/danielmiessler-status-2050666594188304484",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-05-03"
+      },
+      "category": "industry",
+      "tags": [
+        "AI",
+        "企业",
+        "组织管理",
+        "Daniel Miessler",
+        "strategy"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Daniel Miessler 文章的翻译。核心观点：大多数公司用不好 AI，根本原因不是 AI 不够强，而是公司自己说不清目标、流程、责任和成本。具体表现：公司的愿景和目标极其模糊且朝令夕改；对「想干什么、战略是什么、面临哪些挑战、具体工作流是怎样的」这些问题无法快速回答；真正被 AI 帮到的公司，恰恰是那些本来就知道自己在干什么的公司，它们能清晰描述客户问题、现有方案缺陷、长远目标、核心指标、阻碍、战略、项目、任务、人、成本；对这类混乱公司，AI 不仅帮不上忙，甚至会让「瞎忙活」看起来更高大上，加剧问题。",
+      "summary_en": null,
+      "one_liner": "企业 AI 失败的主因不是技术不行，而是公司说不清目标和工作流，AI 反而让混乱显得更专业",
+      "one_liner_author": "openclaw",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "quality_score": 3,
+      "status": "active"
+    },
+    {
+      "id": "38dssvun",
+      "title": "Demis Hassabis：AGI 还缺什么，智能体到底行不行，下一个科学突破长什么样",
+      "url": "https://baoyu.io/blog/demis-hassabis-agents-agi-and-the-next-big-scientific-breakthrough",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-04-30"
+      },
+      "category": "models",
+      "tags": [
+        "Google DeepMind",
+        "Demis Hassabis",
+        "AGI",
+        "Agent",
+        "AlphaFold",
+        "AlphaGo"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Google DeepMind CEO Demis Hassabis 做客 YC「How to Build the Future」播客。核心观点：当前范式（预训练+RLHF+思维链）会是 AGI 架构的一部分，但有 50% 概率还需要一两个尚未发现的关键突破，持续学习、长程推理和记忆是三个未解问题；百万 token 上下文窗口处理实时视频时只够录 20 分钟，把所有东西塞进上下文窗口是「用胶带糊住的临时方案」；AlphaGo 和 AlphaZero 时代的蒙特卡洛树搜索等旧技术正在被重新引入基础模型；用下棋测试 Gemini 发现模型会识别出一步是错棋、找不到更好选择后又回去走那步错棋，这种「缺乏自省」是当前推理系统的核心缺陷；完整虚拟细胞大约还需要 10 年，关键瓶颈是无法在不杀死细胞的情况下对活细胞进行纳米级分辨率成像。",
+      "summary_en": null,
+      "one_liner": "Hassabis 给出 50/50 的 AGI 概率判断，当前上下文窗口方案是「胶带糊住」的临时方案",
+      "one_liner_author": "openclaw",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "quality_score": 4,
+      "status": "active"
+    },
+    {
+      "id": "18wuepzq",
+      "title": "Karpathy 最新访谈：Vibe Coding 只是开始，真正重要的是 Agentic Engineering",
+      "url": "https://baoyu.io/blog/andrej-karpathy-from-vibe-coding-to-agentic-engineering",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-04-29"
+      },
+      "category": "coding",
+      "tags": [
+        "Andrej Karpathy",
+        "Vibe Coding",
+        "Agentic Engineering",
+        "Software 3.0",
+        "Claude Code",
+        "LLM"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Andrej Karpathy 在 Sequoia AI Ascent 2026 上接受访谈。核心：2025 年 12 月是其个人转折点——AI 输出从「有帮助但常要修补」变成「直接可用」，进入完全 Vibe Coding 状态；Software 3.0 的关键不是用自然语言写代码，而是通过 prompt 和 context 操作 LLM 这个新的信息处理解释器；LLM 能力高度不均匀：可以重构 10 万行代码、找零日漏洞，却可能在「去 50 米外洗车该走路还是开车」的常识题上犯错；Vibe Coding 抬高所有人做软件的下限，Agentic Engineering 则是在使用 Agent 提速时，保住专业软件的质量、安全和责任门槛；人类不必再记住每个 API 细节，但必须理解系统结构、底层机制和质量标准，否则无法监督 Agent；LLM 被比喻为「幽灵」式的锯齿状实体。",
+      "summary_en": null,
+      "one_liner": "Karpathy 宣布 2025 年 12 月进入完全 Vibe Coding 状态，软件工程进入 Agentic Engineering 阶段",
+      "one_liner_author": "openclaw",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "quality_score": 4,
+      "status": "active"
+    },
+    {
+      "id": "csk2cazc",
+      "title": "深度拆解 Hermes Agent 的记忆系统：它如何修正 OpenClaw 的误区",
+      "url": "https://baoyu.io/blog/2026-04-29/manthanguptaa-2034849672985288957",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-04-29"
+      },
+      "category": "agents",
+      "tags": [
+        "Agent",
+        "memory",
+        "Hermes Agent",
+        "OpenClaw",
+        "LLM"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "文章拆解 Hermes Agent 的记忆系统，对比 ChatGPT Memory、Claude Memory 和 OpenClaw 记忆系统的实现差异。核心追问：这些 Agent 到底是怎么记住事情的？文章指出 Hermes 在记忆系统设计上修正了 OpenClaw 的几个关键误区，包括长期记忆的索引结构、情境信息的压缩策略、以及跨会话记忆召回的机制。通过对比分析，揭示了不同 Agent 系统在记忆表示上的根本设计差异。",
+      "summary_en": null,
+      "one_liner": "Hermes Agent 记忆系统深度拆解，揭示与 OpenClaw 在长期记忆索引和情境压缩上的设计差异",
+      "one_liner_author": "openclaw",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "quality_score": 3,
+      "status": "active"
+    },
+    {
+      "id": "l3shkgk9",
+      "title": "AI 的经济账根本算不通",
+      "url": "https://baoyu.io/blog/2026-04-28/ais-economics-dont-make-sense",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-04-28"
+      },
+      "category": "industry",
+      "tags": [
+        "AI",
+        "economics",
+        "business model",
+        "token cost",
+        "Copilot"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "文章分析 AI 行业的经济模式困境。Copilot 转向按量计费只是开始：AI 订阅、token 成本和数据中心债务背后的经济账正在失衡。具体问题包括：token 成本远高于传统软件订阅的边际成本；数据中心建设投入巨大但回报周期不确定；企业 AI 支出的 ROI 难以量化导致采购决策迟缓；基础模型厂商面临 GPU 折旧和能源成本的双重压力。这些经济因素正在重塑 AI 行业的竞争格局和商业模式。",
+      "summary_en": null,
+      "one_liner": "AI 订阅、token 成本与数据中心债务的经济账正在失衡，Copilot 按量计费只是开始",
+      "one_liner_author": "openclaw",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "quality_score": 3,
+      "status": "active"
+    },
+    {
+      "id": "mdw3kyiq",
+      "title": "为 Agent 设计产品",
+      "url": "https://baoyu.io/blog/2026-04-24/teddy-riker-2047312986696454584",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-04-24"
+      },
+      "category": "agents",
+      "tags": [
+        "Agent",
+        "product design",
+        "UX",
+        "AI product"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "文章讨论 AI Agent 时代的产品设计变革。核心观点：UI 并没有死，但软件交互的 80% 正在转向 Agent。产品团队需要像过去为人设计界面一样，认真为 Agent 设计工具、上下文和反馈闭环。具体建议包括：为 Agent 设计清晰的工具 API 和规范的调用方式；提供足够但不过度的上下文信息；建立有效的错误处理和恢复机制；设计让人类能够理解和干预 Agent 决策的反馈系统。",
+      "summary_en": null,
+      "one_liner": "软件交互的 80% 正在转向 Agent，产品团队需要像过去为人设计界面一样为 Agent 设计",
+      "one_liner_author": "openclaw",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "quality_score": 3,
+      "status": "active"
+    },
+    {
+      "id": "v1rq8y6p",
+      "title": "Cat Wu 面试了几百个 PM 候选人，几乎没人答对一个问题：AI 产品经理到底应该干什么？",
+      "url": "https://baoyu.io/blog/building-agi-pilled-products-cat-wu-head-of-product-claude-code",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-04-23"
+      },
+      "category": "industry",
+      "tags": [
+        "AI PM",
+        "product management",
+        "Claude Code",
+        "hiring",
+        "Cat Wu"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Cat Wu（Anthropic Claude Code 产品负责人）分享 AI 产品经理面试洞察。核心发现：面试几百个 PM 候选人后，大多数人对 AI PM 角色的理解方向不对。正确的 AI PM 能力包括：理解 LLM 的能力和局限性、能够设计 Agent 工作流、懂评估和迭代 AI 产品、能够与 AI 系统有效协作。而传统 PM 的技能（如详细需求文档、传统项目管理）在 AI 时代的重要性下降。",
+      "summary_en": null,
+      "one_liner": "Cat Wu 面试几百个 PM 后发现：大多数人不理解 AI PM 角色，LLM 能力认知和 Agent 工作流设计才是关键",
+      "one_liner_author": "openclaw",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "quality_score": 3,
+      "status": "active"
+    },
+    {
+      "id": "r1g2e9bc",
+      "title": "两小时激辩：黄仁勋为什么不怕 TPU、不怕华为、不怕出口管制？",
+      "url": "https://baoyu.io/blog/jensen-huang-dwarkesh-interview",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-04-17"
+      },
+      "category": "industry",
+      "tags": [
+        "NVIDIA",
+        "Jensen Huang",
+        "TPU",
+        "Huawei",
+        "export control",
+        "CUDA"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "黄仁勋接受 Dwarkesh 播客两小时专访，核心内容：CUDA 护城河是真实的——全球 400 万开发者、3000 个 GPU 应用、覆盖所有框架的生态系统让后来者难以追赶；关于出口管制，他认为中国市场会找到替代方案（国产芯片或转发），管制效果有限且可能倒逼竞争对手加速自研；对华为的看法：虽然晟腾在中国生态中增长，但 NVIDIA 的软件栈和性能优势在短期（2-3 年）内不会被消除；Blackwell 架构的最新进展和未来路线图；关于 AGI 的时间线，黄仁勋认为这取决于如何定义，但达到某些通用能力的时间会比大多数人预期的更短。",
+      "summary_en": null,
+      "one_liner": "黄仁勋详解 CUDA 护城河的现实程度、出口管制无效性，以及 Blackwell 架构路线图",
+      "one_liner_author": "openclaw",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "quality_score": 4,
+      "status": "active"
+    },
+    {
+      "id": "c49f8zru",
+      "title": "Get ready for Google I/O 2026",
+      "url": "https://developers.googleblog.com/get-ready-for-google-io-2026/",
+      "source": {
+        "platform": "google",
+        "author": "Google",
+        "original_date": "2026-04-14"
+      },
+      "category": "industry",
+      "tags": [
+        "Google I/O",
+        "Google",
+        "AI",
+        "Gemini",
+        "event"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google I/O 2026 定于 5 月 19-20 日举行，将公布 AI、Android、Chrome 和 Cloud 领域的最新更新。活动以「agentic era of development」为主题，展示新一代工具如何自动化复杂工作流。注册通道已开放，届时将直播主题演讲、开发者主题演讲、产品演示，以及 Dialogues 专题讨论环节。",
+      "summary_en": null,
+      "one_liner": "Google I/O 2026 定于 5 月 19-20 日，主题聚焦 agentic era，注册通道已开放",
+      "one_liner_author": "openclaw",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "quality_score": 4,
+      "status": "active"
+    },
+    {
+      "id": "99f0f51a",
+      "title": "Chain of Thought 监控器：AI 对齐防御的关键层",
+      "url": "https://x.com/OpenAI/status/2052845764507062349",
+      "source": {
+        "platform": "x",
+        "author": "OpenAI",
+        "original_date": "2026-05-09"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-alignment",
+        "cot",
+        "monitoring",
+        "safety",
+        "openai",
+        "agent"
+      ],
+      "source_type": "x_post",
+      "language": "both",
+      "summary_zh": "OpenAI 发布关于思维链（Chain of Thought）监控的技术观点：CoT 监控是防止 AI 智体对齐失效的关键防御层为保持可监控性，应避免在强化学习中惩罚错位推理研究发现有限数量的意外 CoT 评分影响了已发布模型这一观点对 AI 安全研究者和 Agent 系统开发者有直接参考价值在设计 RL 训练流程时，保留 CoT 的可监控性比惩罚不理想的推理路径更重要",
+      "summary_en": "OpenAI shares insights on Chain of Thought monitoring as a critical defense layer against AI agent misalignment. Key points: (1) CoT monitoring is essential for detecting alignment failures in AI agents; (2) Avoid penalizing misaligned reasoning during RL training to preserve monitorability; (3) Discovered a limited number of instances where unintended CoT scoring affected released models. This has direct implications for AI safety researchers and Agent system developers.",
+      "one_liner": "OpenAI 建议在 RL 训练中保留 CoT 可监控性，不要急于惩罚错位推理这对 Agent 安全架构设计有重要启发",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Twitter/AI影响力日报/2026-05-09.md",
+      "images": [],
+      "added_date": "2026-05-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "3ed93bad",
+      "title": "Human-AI Collaboration for Scaling Agile Regression Testing: An Agentic-AI Teammate from Manual to Automated Testing",
+      "url": "https://arxiv.org/abs/2603.08190",
+      "source": {
+        "platform": "arxiv",
+        "author": "ESEC/FSE 2026",
+        "original_date": "2026-03-09"
+      },
+      "category": "learning",
+      "tags": [
+        "paper",
+        "agent",
+        "testing",
+        "agile",
+        "human-ai-collaboration",
+        "rag",
+        "fse2026"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "西门子旗下Hacon公司的工业实证研究：将 Agentic AI 系统引入 Agile 测试工程工作流，采用 Generator-Evaluator-Reporter 三角色多 Agent 架构，以异步批处理（Silent Teammate模式）在 sprint 开始前生成候选自动化测试脚本4周评估（5名工程师61个测试规格）显示：AI 生成代码的 30-50% 被直接保留，但 49 个脚本中仅 1 个需轻微修改，15 个完全重写，20 个需重大修改主要问题：硬编码数据（31/49）冗余 import（29/49）和缺失验证逻辑研究证明 Spec 质量是 Agent 效果的前提条件，隐式领域知识无法被 RAG 完全捕获，人类审阅不可替代",
+      "summary_en": "Industrial empirical study from Siemens subsidiary Hacon: introduces an Agentic AI system into Agile testing workflows using a Generator-Evaluator-Reporter multi-agent architecture with async batch processing (Silent Teammate mode). 4-week evaluation (5 engineers, 61 test specs) shows 30-50% code retention rate, but of 49 scripts, only 1 needed minor modification, 15 were fully rewritten, and 20 needed major changes. Key issues: hardcoded data (31/49), redundant imports (29/49), missing validation logic. Findings confirm that spec quality is a prerequisite for Agent effectiveness, implicit domain knowledge cannot be fully captured by RAG, and human review is irreplaceable.",
+      "one_liner": "FSE 2026 工业实证：Agentic AI 测试脚本 30-50% 可直接复用，但技术正确上下文适当规格质量和人类审阅仍是 Agent 落地的前提",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "论文/AI-2026-05-10-Agile-Regression-Testing-Agentic-AI/03-精读.md",
+      "images": [],
+      "added_date": "2026-05-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "4aee438b",
+      "title": "AI 定义的 Android 开发规范，直接抄作业！",
+      "url": "https://juejin.cn/post/7597811700284882963",
+      "source": {
+        "platform": "blog",
+        "author": "JasonYin",
+        "original_date": "2026-01-22"
+      },
+      "category": "coding",
+      "tags": [
+        "android",
+        "coding-standards",
+        "kotlin",
+        "compose",
+        "mvvm",
+        "cursor-rules",
+        "ai-generated"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "掘金文章分享了一套完整的 AI 生成的 Android 开发规范（CURSOR Rules），覆盖通用开发原则项目技术栈（Kotlin + Compose + MVVM）Kotlin编码规范异步编程（Coroutines优先）UI开发（Compose优先新功能）架构（MVVM + Repository）网络层（Retrofit + OkHttp）数据存储（MMKV）生命周期管理性能优化等十二大领域规范强调：默认使用中文复杂需求拆解分步优先使用 val 保持不可变性使用 Kotlin 空安全特性避免 !! 操作符编写简短单一目的函数（20行）文章提供了一套可直接使用的 AI 生成编码标准模板，适用于中小型团队快速建立编码标准",
+      "summary_en": null,
+      "one_liner": "一套可直接复用的 AI 生成 Android 开发规范模板，覆盖从编码风格到架构设计的十二大领域适合团队快速建立 Kotlin + Compose + MVVM 编码标准",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "source/juejin-android/2026-05-10-75978117-AI 定义的 Android 开发规范，.md",
+      "images": [],
+      "added_date": "2026-05-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "local_path_valid": false
+    },
+    {
+      "id": "aafn-001",
+      "title": "Gary Marcus 紧急澄清：别慌，METR 图被过度反应了",
+      "url": "https://x.com/GaryMarcus/status/2053286791587971384",
+      "source": {
+        "platform": "x",
+        "author": "@GaryMarcus",
+        "original_date": "2026-05-09"
+      },
+      "category": "ai-tools",
+      "tags": [
+        "ai-safety",
+        "evaluation",
+        "context"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Gary Marcus 发推紧急叫停对 METR 新图的恐慌式解读。他指出几个被忽略的关键背景：①Claude Code 是真实进展，Mythos 很可能建立在其基础上；②图表测量的是达到 50% 成功率，不是 90% 或 100%；③仔细读图会发现很多方法其实还达不到 50%。Marcus 以冷静的数据分析视角平衡了 AI 圈常见的过度炒作和过度恐慌。这条推文本质上是科学素养教育：不要根据二手解读做判断，要回到原始数据。",
+      "summary_en": "Gary Marcus urgently calls out overreaction to the new METR graph. Key context: measures 50% success rate not 90%+, Claude Code is a real advance, and many methods don't even reach 50%. He directs readers to original data rather than hot takes, offering a calm data-driven perspective against AI community hype cycles.",
+      "one_liner": "别被 METR 图吓到，Marcus 带你回到原始数据冷静看",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aafn-002",
+      "title": "Andrew Ng 排序：编码代理对各类软件工作的加速程度",
+      "url": "https://x.com/AndrewYNg/status/2051691741150081122",
+      "source": {
+        "platform": "x",
+        "author": "@AndrewYNg",
+        "original_date": "2026-05-05"
+      },
+      "category": "workflow",
+      "tags": [
+        "ai-tools",
+        "coding-agents",
+        "software-development"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "吴恩达发文梳理了编码代理对不同类型软件工作的加速差异：前端开发最快，后端次之，架构设计较慢，复杂调试最慢。他在播客 deeplearning.ai 中进一步阐述：当团队配置 AI 代理时，理解这些差异有助于设定现实预期——不是所有编程工作都会被同等程度地加速。这个框架对技术管理者在规划 AI 驱动的开发流程时非常有参考价值。",
+      "summary_en": "Andrew Ng ranks coding agent acceleration: frontend fastest, backend second, architecture slower, complex debugging slowest. Understanding this helps teams set realistic expectations when deploying AI coding tools. Practical framework for tech managers planning AI-driven development workflows.",
+      "one_liner": "吴恩达告诉你：不是所有编程工作都会被 AI 同等加速",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "archived",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aafn-003",
+      "title": "Allie K. Miller 5日免费课：从用 AI 到用代码构建 AI 产品",
+      "url": "https://x.com/alliekmiller/status/1985834763677286606",
+      "source": {
+        "platform": "x",
+        "author": "@alliekmiller",
+        "original_date": "2025-11-05"
+      },
+      "category": "prompt",
+      "tags": [
+        "ai-tools",
+        "learning",
+        "automation",
+        "course"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Allie K. Miller 推出免费 5 天邮件课程「AI Fast Track」，核心主张是区分「用 AI」和「用 AI 构建」：只会复制粘贴 ChatGPT 提示词走不远。她帮助用户学会用 AI 构建个人软件、自动化工具和应用（无需编程基础），以 Claude 为主要工具，每日一课从入门到项目实战。适合想从消费者转向创造者的非技术背景用户。",
+      "summary_en": "Allie K. Miller's free 5-day email course 'AI Fast Track' teaches non-technical users to go beyond copy-pasting prompts. Uses Claude as the main tool, guiding from basics to building actual AI-powered tools without coding. For aspiring 'AI builders' rather than just consumers.",
+      "one_liner": "5天免费课，零基础也能用 Claude 构建自己的 AI 工具",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "archived",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aafn-004",
+      "title": "Karpathy：vibe coding 提高了底线，agentic engineering 提高了上限",
+      "url": "https://x.com/karpathy/status/2049903821095354523",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-05-01"
+      },
+      "category": "workflow",
+      "tags": [
+        "vibe-coding",
+        "agentic-engineering",
+        "perspective"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Karpathy 在 Sequoia Ascent 2026 炉边对谈中提出：vibe coding 提高了编程的底线（更多人能编程了），但 agentic engineering 则大大提升了上限（少数人能做到的事远超以往）。LLM 的意义远不止加速现有工作。他承认作为程序员从未感到如此落后，但这是范式转变的信号。对理解当前 AI 开发状态和把握趋势很有价值。",
+      "summary_en": "Karpathy's key insight: vibe coding raised the floor (more people can code), agentic engineering raises the ceiling (few can now accomplish far more). LLMs represent much more than speeding up existing work. He admits never feeling more behind as a programmer—but sees it as a paradigm shift signal. Essential framing for the current AI programming evolution.",
+      "one_liner": "vibe coding 提底线，agentic engineering 提上限，Karpathy 最新思考",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aafn-006",
+      "title": "Peter Yang 访谈：AI 创始人用 Claude Code 打造个人 AI OS",
+      "url": "https://x.com/petergyang/status/2053120334661112317",
+      "source": {
+        "platform": "x",
+        "author": "@petergyang",
+        "original_date": "2026-05-06"
+      },
+      "category": "workflow",
+      "tags": [
+        "claude-code",
+        "ai-os",
+        "personal-assistant",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Peter Yang 访谈 AI 创始人 Moritz Kremb，后者用 Claude Code 构建了完整个人 AI OS，覆盖邮件处理、内容创作、购物等日常任务。他展示了完整的文件夹结构、工具配置、技能设置和日常流程。这是真实每日依赖的工作流案例，不是演示。对于想建立自己 AI 工作栈的人，提供了可直接参考的文件夹组织和工具串联思路。",
+      "summary_en": "Peter Yang interviews AI founder Moritz Kremb who built a complete personal AI OS in Claude Code handling emails, content, groceries. Full folder structure, tools, skills, and daily routines shared. A real daily workflow, not a demo—provides directly replicable patterns for anyone building their own AI work stack.",
+      "one_liner": "真实案例：Claude Code 个人 AI OS，含完整文件夹结构和工具链",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-05-10",
+      "updated_date": null,
+      "github_stars": null,
       "related": []
     }
   ],
-  "last_updated": "2026-05-07"
+  "last_updated": "2026-05-11"
 }
