@@ -12,16 +12,16 @@
 - [融合eBPF与AI技术的微架构能效分析](https://mp.weixin.qq.com/s?__biz=MzI3NzA5MzUxNA%3D%3D&mid=2664620532&idx=1&sn=ac6637ded8c26a15f729d8b4ae26d87a) ⭐4 · 2026-05-06 — 小米用 eBPF+AI+6 Agent 闭环做移动端微架构能效分析，Task 级功耗归因+自动因果链推理，短视频场景 CPU 功耗降 15-20%
 - [Ronald van Loon：组合式 Agent 架构实现规模化落地的核心方法](https://x.com/Ronald_vanLoon/status/2052693375661351244) ⭐4 · 2026-05-06 — 组合式 Agent 架构：从概念验证到规模化落地的工程方法论
 - [Peter Yang 访谈：AI 创始人用 Claude Code 打造个人 AI OS](https://x.com/petergyang/status/2053120334661112317) ⭐4 · 2026-05-06 — 真实案例：Claude Code 个人 AI OS，含完整文件夹结构和工具链
-- [Boris Cherny：Claude Code 之后，写代码正在变成管理 Agent](https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA%3D%3D&mid=2247494723&idx=1&sn=7aa816280ecdd6fdf8338b41081a6f03) ⭐4 · 2026-05-06 — Claude Code 创建者 Boris Cherny 自曝 2026 年零手写代码日合并 150 PR，用 Loop 模式让 Agent 全自动运维，真正的护城河在组织流程改造而非技术
 - [Anthropic 兄妹 Dario Amodei 和 Daniela Amodei 最新对话：Claude 为什么一直限速？](https://baoyu.io/blog/a-conversation-with-dario-amodei-daniela-amodei) ⭐4 · 2026-05-06 — Anthropic 2026Q1 算力增速达年化 80 倍（远超预期的 10 倍），Claude 限速的根因揭晓
+- [用龙虾等 Agent 访问知识星球](https://mp.weixin.qq.com/s?__biz=Mzg5NDY4ODM1MA%3D%3D&mid=2247486078&idx=1&sn=cb5170477c39569acdec51bf2d14e04d) ⭐3 · 2026-05-06 — 知识星球推出官方 AI Skill，npm 安装后 Agent 可查内容搜帖子出报告，权限由星主控制默认关闭
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
 | 模型与实验室 | 100 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 146 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 153 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| Agent 与自动化 | 145 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 151 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 30 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 43 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 44 | 论文、课程、提示工程、长文、方法论。 |
@@ -30,14 +30,14 @@
 ## 当前数据
 
 - 原始条目: 939
-- 公开展示卡片: 554
-- 有全文内容: 477
-- 最近 7 天信号: 88
+- 公开展示卡片: 551
+- 有全文内容: 474
+- 最近 7 天信号: 87
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`agent`, `llm`, `ai-tools`, `claude`, `openclaw`, `coding`, `paper`, `openai`, `reasoning`, `claude-code`, `workflow`, `mcp`, `codex`, `Agent`, `memory`, `multi-agent`, `anthropic`, `safety`
+`agent`, `llm`, `ai-tools`, `claude`, `openclaw`, `coding`, `paper`, `openai`, `reasoning`, `claude-code`, `workflow`, `mcp`, `codex`, `Agent`, `memory`, `multi-agent`, `safety`, `prompt`
 
 ## 自动化约定
 

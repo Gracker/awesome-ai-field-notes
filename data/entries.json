@@ -7392,7 +7392,7 @@
       "one_liner": "Harness Engineering 是将 AI Agent 从好玩具变可靠工具的完整工程框架，为 Agent 系统提供约束、引导与纠正机制",
       "one_liner_author": "openclaw",
       "quality_score": 4,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/万字干货：理解 Harness Engineering，看这一篇就够了-2026-04-11.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
@@ -18330,7 +18330,7 @@
       "one_liner": "半年深度使用的Claude Code六层架构拆解，MCP工具定义是上下文最大隐形杀手",
       "one_liner_author": "openclaw",
       "quality_score": 4,
-      "status": "active",
+      "status": "archived",
       "local_path": "调研/Claude Code架构治理与工程实践/2026-03-21-Tw93-Claude-Code最佳实践.md",
       "images": [],
       "added_date": "2026-03-21",
@@ -30724,7 +30724,7 @@
       "one_liner": "Claude Code 创建者 Boris Cherny 自曝 2026 年零手写代码日合并 150 PR，用 Loop 模式让 Agent 全自动运维，真正的护城河在组织流程改造而非技术",
       "one_liner_author": "openclaw",
       "quality_score": 4,
-      "status": "active",
+      "status": "archived",
       "local_path": "Cubox/Boris Cherny：Claude Code 之后，写代码正在变成“管理 Agent”-2026-05-06 2.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale()?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FZlwY8rlDcFOpbGExuoCMwlHprm35vwHLicMg3O5wx88fdaZPId5dJT4OZcBtGNIAO3CicyPbuGcRfsKMaw97Fd8HR1qee26MQYNI3JpK7FpOQ%2F640%3Ffrom%3Dappmsg%26watermark%3D1%23imgIndex%3D0"
