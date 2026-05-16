@@ -1,3 +1,99 @@
+## 2026-05-10 ~ 2026-05-16
+
+### 📈 新增 (37)
+
+#### industry (4)
+- [Chain of Thought 监控器：AI 对齐防御的关键层](https://x.com/OpenAI/status/2052845764507062349) — industry ⭐⭐⭐
+- [What 81,000 people told us about the economics of AI](https://anthropic.com/research/81k-economics) — industry ⭐⭐⭐⭐⭐
+- [Key Insight: Focus on Data Quality First in AI Projects](https://x.com/AndrewYNg/status/1800000000000000003) — industry ⭐⭐⭐⭐
+- [Google 发布 Gemini Intelligence：AI 深度整合 Android 生态](https://www.techmeme.com/260512/p34) — industry ⭐⭐⭐⭐
+
+#### learning (3)
+- [Human-AI Collaboration for Scaling Agile Regression Testing: An Agentic-AI Teammate from Manual to Automated Testing](https://arxiv.org/abs/2603.08190) — learning ⭐⭐⭐⭐
+- [Understanding Attention Mechanisms in Transformers](https://x.com/karpathy/status/1800000000000000001) — learning ⭐⭐⭐⭐⭐
+- [AI Consciousness: A Conversation with Geoffrey Hinton](https://x.com/LexFridman/status/1800000000000000004) — learning ⭐⭐⭐⭐
+
+#### coding (7)
+- [AI 定义的 Android 开发规范，直接抄作业！](https://juejin.cn/post/7597811700284882963) — coding ⭐⭐⭐
+- [10万人都在用的 top10 skills，我帮你试了](https://juejin.cn/post/7604757482005053503) — coding ⭐⭐⭐
+- [你的 Android App 还没接 AI？Gemini API 接入全攻略](https://juejin.cn/post/7613282719573229618) — coding ⭐⭐
+- [Android 嵌入式照片选择器，让体验更加丝滑](https://juejin.cn/post/7599963665039081522) — coding ⭐⭐
+- [2026年了，Android开发该如何调试布局](https://juejin.cn/post/7596710680897863686) — coding ⭐⭐
+- [Jetpack Compose - 封装特定功能](https://juejin.cn/post/7504964930246000674) — coding ⭐⭐
+- [Anthropic 发布 Claude Code Agent View：多会话集中管理](https://t.me/synctoai/2108) — coding ⭐⭐⭐
+
+#### ai-tools (4)
+- [Gary Marcus 紧急澄清：别慌，METR 图被过度反应了](https://x.com/GaryMarcus/status/2053286791587971384) — ai-tools ⭐⭐⭐⭐⭐
+- [Allie K. Miller 推出免费 5 日 AI 实战课：学会构建而非仅使用](https://x.com/alliekmiller/status/1985834763677286606) — ai-tools ⭐⭐⭐⭐⭐
+- [MiniMax M2.7 开源权重发布：非商用 License 引争议](https://x.com/MiniMax_AI/status/2043132047397659000) — ai-tools ⭐⭐⭐⭐
+- [Anthropic 公开漏洞赏金计划，安全研究社区正式开放](https://x.com/AnthropicAI/status/2052466175540629965) — ai-tools ⭐⭐⭐⭐⭐
+
+#### workflow (5)
+- [Andrew Ng 排序：编码代理对各类软件工作的加速程度](https://x.com/AndrewYNg/status/2051691741150081122) — workflow ⭐⭐⭐⭐⭐
+- [Karpathy：vibe coding 提高了底线，agentic engineering 提高了上限](https://x.com/karpathy/status/2049903821095354523) — workflow ⭐⭐⭐⭐
+- [Peter Yang 访谈：AI 创始人用 Claude Code 打造个人 AI OS](https://x.com/petergyang/status/2053120334661112317) — workflow ⭐⭐⭐⭐
+- [Moritz 的 AI 短视频工作流：Cron + AI 生成 + 迭代，每周省 10 小时](https://x.com/petergyang/status/2053535647819047167) — workflow ⭐⭐⭐⭐⭐
+- [Jensen Huang 获 CMU 荣誉博士并发表毕业典礼 Keynote](https://x.com/nvidia/status/2053617353985028501) — workflow ⭐⭐⭐⭐
+
+#### prompt (1)
+- [Allie K. Miller 5日免费课：从用 AI 到用代码构建 AI 产品](https://x.com/alliekmiller/status/1985834763677286606) — prompt ⭐⭐⭐⭐
+
+#### agents (6)
+- [Building AI Agents with Google Gemini 3 and Open Source Frameworks](https://developers.googleblog.com/building-ai-agents-with-google-gemini-3-and-open-source-frameworks/) — agents ⭐⭐⭐⭐
+- [Pick up exactly where you left off with Session Management in Gemini CLI](https://developers.googleblog.com/pick-up-exactly-where-you-left-off-with-session-management-in-gemini-cli/) — agents ⭐⭐⭐⭐
+- [Building agents with the ADK and the new Interactions API](https://developers.googleblog.com/building-agents-with-the-adk-and-the-new-interactions-api/) — agents ⭐⭐⭐⭐
+- [X](https://x.com/i/article/2043007411804651520) — agents ⭐⭐⭐
+- [Harness不是目的，知识才是护城河AI工程交付团队的知识沉淀实践](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&mid=2649801507&idx=1&sn=c4ac5ce38024ade94b8bfa1fdc0062ad) — agents ⭐⭐⭐
+- [Anthropic工程师：HTML比Markdown更适合AI Agent输出](https://www.techmeme.com/260511/p31) — agents ⭐⭐⭐
+
+#### models (5)
+- [Android 17 终于有原生应用锁了](https://juejin.cn/post/7604694326518104115) — models ⭐⭐
+- [Hello from Learning Prompt](https://learningprompt.wiki/docs/insight/AI%20%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E6%88%91%E4%BB%AC%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%96%B9%E5%BC%8F) — models ⭐⭐⭐
+- [The Future of AI: Multimodal Systems Domination](https://x.com/ylecun/status/1800000000000000000) — models ⭐⭐⭐⭐
+- [GPT-5 Preview: Significant Improvements in Reasoning Capabilities](https://x.com/OpenAI/status/1800000000000000002) — models ⭐⭐⭐⭐⭐
+- [ICML 2026｜PRISM框架让dLLM也能高效Test-Time Scaling](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651032226&idx=2&sn=772b44d2bf16aac0a694b87df0a929e2) — models ⭐⭐⭐⭐
+
+#### uncategorized (1)
+- [2023: The Year of AI](https://journal.everypixel.com/2023-the-year-of-ai) — uncategorized ⭐⭐
+
+#### infra (1)
+- [LanceDB Lance Format v2.2: Half the Storage, None of the Slowdown](https://www.lancedb.com/blog/lance-format-v2-2-benchmarks-half-the-storage-none-of-the-slowdown) — infra ⭐⭐⭐
+
+### 📦 归档 (0)
+- 本周无归档条目
+
+### ✏️ 评分调整 (91)
+- [Introducing Koog Integration for Spring AI: Smarter Orchestr](https://blog.jetbrains.com/ai/2026/04/introducing-koog-integration-for-spring-ai-smarter-orchestration-for-your-agents/>) — 3→2（agents/frameworks）⭐⭐
+- [Scaling Managed Agents: Decoupling the brain from the hands](None) — 3→2（agents/frameworks）⭐⭐
+- [React 19の新機能まとめ](https://x.com/alex_wilson/status/177345678901234567) — 3→2（uncategorized）⭐⭐
+- [OpenAIがGPT-5の技術詳細を一部公開](https://x.com/maria_garcia/status/177456789012345678) — 3→2（models/models）⭐⭐
+- [Googleが新しいAI検索アルゴリズムを発表](https://x.com/sarah_chen/status/177234567890123456) — 3→2（uncategorized）⭐⭐
+- [Anthropic 发布 Claude Opus 4.7，性能如何？](None) — 3→2（models/models）⭐⭐
+- [geohot：AI 没有护城河，模型折旧比想象中快，中国没有 AI 狂热](None) — 3→2（uncategorized）⭐⭐
+- [从历史 Luddites 看反 AI 数据中心运动：1816 年的教训](None) — 3→2（uncategorized）⭐⭐
+- [Qwen3.6-27B：27B 参数密集模型达到旗舰级编程水平](None) — 3→2（uncategorized）⭐⭐
+- [从Vibe Coding到Agentic Engineering：重构后台开发全流程](None) — 3→2（agents/frameworks）⭐⭐
+- [丢掉沉重的记忆：Codex、Claude Code 与 OpenCode 的上下文压缩术 | Justin3go](None) — 3→2（models/models）⭐⭐
+- [Android CLI: Build Android apps 3x faster using any agent](http://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html>) — 3→2（agents/frameworks）⭐⭐
+- [Hermes Agent 接入 Codex GPT-Image-2 生图配置教程](None) — 3→2（models/models）⭐⭐
+- [4m7n5p8r](None) — 3→2（uncategorized）⭐⭐
+- [四项新研究一致显示：LLM 医疗建议准确率低，不应作为临床决策依据](None) — 3→2（models/models）⭐⭐
+- [ChatGPT Images 2.0 发布，Where's Waldo 风格测试引发争议](None) — 3→2（models/models）⭐⭐
+- [Claude Code 从 Pro 版移除引发信任危机，Anthropic 仅靠一条推文回应](None) — 3→2（models/models）⭐⭐
+- [OpenAI Codex Update Adds Computer Use, Image Generation, and](https://www.macrumors.com/2026/04/16/openai-codex-mac-update/>) — 3→2（uncategorized）⭐⭐
+- [6b3c9d2e](None) — 3→2（uncategorized）⭐⭐
+- [Gemini 3.1 Flash TTS：表现力最强、控制粒度最细的语音合成模型](None) — 3→2（models/models）⭐⭐
+- ... 及其他 71 项评分调整
+
+### 📊 统计
+- 总条目: 909 → 968 (+59)
+- 活跃条目: 652 → 608 (-44)
+- 本周最高分新增:
+  - [Gary Marcus 紧急澄清：别慌，METR 图被过度反应了](https://x.com/GaryMarcus/status/2053286791587971384) — ai-tools ⭐⭐⭐⭐⭐
+  - [Andrew Ng 排序：编码代理对各类软件工作的加速程度](https://x.com/AndrewYNg/status/2051691741150081122) — workflow ⭐⭐⭐⭐⭐
+  - [Allie K. Miller 推出免费 5 日 AI 实战课：学会构建而非仅使用](https://x.com/alliekmiller/status/1985834763677286606) — ai-tools ⭐⭐⭐⭐⭐
+
+
 ## 2026-05-04 ~ 2026-05-09
 
 
