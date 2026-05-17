@@ -1357,7 +1357,20 @@ def build_site():
     (DIST_DIR / "assets").mkdir(parents=True, exist_ok=True)
 
     data = load_json(DATA_DIR / "entries.json")
-    entries = data.get("entries", data) if isinstance(data, dict) else data
+
+    # ── Guard: entries.json must be a dict with an "entries" list ──
+    if not isinstance(data, dict) or "entries" not in data:
+        print(f"❌ FATAL: entries.json has wrong format (expected dict with 'entries' key, got {type(data).__name__}). Refusing to build.", file=sys.stderr)
+        sys.exit(1)
+    entries = data["entries"]
+    if not isinstance(entries, list):
+        print(f"❌ FATAL: data['entries'] is not a list (got {type(entries).__name__}). Refusing to build.", file=sys.stderr)
+        sys.exit(1)
+    entry_count = len(entries)
+    if entry_count < 100:
+        print(f"⚠️  WARNING: entries.json has only {entry_count} entries (expected 700+). This looks like a corrupted overwrite.", file=sys.stderr)
+        # Still proceed — but make it very visible
+    # ── End guard ──
     active_raw = [
         entry
         for entry in entries
