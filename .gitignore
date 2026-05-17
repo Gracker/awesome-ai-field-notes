@@ -21,4 +21,4 @@ site-src/**/* 2.md
 site-src/entry/* 2.md
 scripts/* 2.py
 openclaw/scripts/* 2.py
-"dist 2/"
+dist 2/

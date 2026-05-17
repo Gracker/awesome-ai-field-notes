@@ -76,7 +76,7 @@
     "product": 4,
     "video": 2
   },
-  "last_updated": "2026-05-18 02:08",
+  "last_updated": "2026-05-18 02:12",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }
