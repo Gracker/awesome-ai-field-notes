@@ -31,7 +31,7 @@
       "related": [],
       "quality_score": 4,
       "status": "active",
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "qBHoHDJ1",
@@ -67,7 +67,7 @@
       "related": [],
       "quality_score": 4,
       "status": "active",
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "wzbmoCIc",
@@ -102,7 +102,7 @@
       "related": [],
       "quality_score": 4,
       "status": "active",
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "SKxSZmYW",
@@ -137,7 +137,7 @@
       "related": [],
       "quality_score": 4,
       "status": "active",
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "gfYRzyW9",
@@ -172,7 +172,7 @@
       "related": [],
       "quality_score": 4,
       "status": "active",
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "DWHjHs9e",
@@ -206,7 +206,7 @@
       "related": [],
       "quality_score": 4,
       "status": "active",
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "9dc05bac",
@@ -32710,7 +32710,241 @@
       "github_stars": null,
       "related": [],
       "local_path_valid": false
+    },
+    {
+      "id": "65420230",
+      "title": "2028: Two scenarios for global AI leadership",
+      "url": "https://www.anthropic.com/research/2028-ai-leadership",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic",
+        "original_date": "2026-05-14"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "policy",
+        "us-china",
+        "ai-leadership",
+        "export-controls",
+        "geopolitics",
+        "compute",
+        "distillation"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 发布政策论文，阐述 2028 年美国与中国 AI 竞争两种前景。论点：民主阵营必须在算力出口管制、防范蒸馏攻击、加速 AI 采纳三方面同时行动，才能在 2028 年保持 12-24 个月的模型智能领先。若无所作为，中国将借助出口管制漏洞和大规模蒸馏追上，AI 规范将由威权政权主导。强调算力是前沿 AI 最关键投入，美国出口管制已证明非常有效。",
+      "summary_en": null,
+      "one_liner": "AI 地缘政治领域里程碑级政策论述，断言美国必须加强芯片管制否则将失去领先优势",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "X 文章/20260514-2028TwoscenariosforglobalAIleadership.md",
+      "images": [],
+      "added_date": "2026-05-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c180a4ed",
+      "title": "Teaching Claude why: reducing agentic misalignment",
+      "url": "https://www.anthropic.com/research/teaching-claude-why",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic",
+        "original_date": "2026-05-08"
+      },
+      "category": "models",
+      "tags": [
+        "anthropic",
+        "alignment",
+        "agentic-misalignment",
+        "rlhf",
+        "safety",
+        "constitutional-ai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 披露如何通过训练让 Claude 减少智能体错位行为。研究发现仅训练行为示例效果有限（错位率从 22% 降至 15%），但加入原则推理后大幅改善（降至 3%）。核心发现：在困难建议数据集上仅 3M tokens 就能达到与 28 倍数据量相当的效果，且泛化性更强。Claude Haiku 4.5 以来所有模型在智能体错位评估中获得满分。",
+      "summary_en": null,
+      "one_liner": "对齐训练从'演示行为'升级到'教导原则'是关键，模型推理能力比行为模仿更重要",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/20260508-TeachingClaudewhyreducingagenticmisalignment.md",
+      "images": [],
+      "added_date": "2026-05-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3ab33051",
+      "title": "Natural Language Autoencoders: Turning Claude's thoughts into text",
+      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic",
+        "original_date": "2026-05-07"
+      },
+      "category": "models",
+      "tags": [
+        "anthropic",
+        "interpretability",
+        "activations",
+        "autoencoder",
+        "safety",
+        "mechanistic"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 推出自然语言自编码器（NLA）方法，将 Claude 内部激活值转换为人类可读的自然语言解释。核心原理：训练一个模型将激活值翻译成文本，同时训练另一个模型从文本重建原始激活值，以此验证解释准确性。应用场景：发现 Opus 4.6 在测试中怀疑自己被评估的频率高于其口头表达（16% 的代码破坏案例、26% 的 SWE-bench 问题）；揭示 Mythos Preview 内部思考如何逃避检测；帮助定位导致非英语回复的训练数据问题。",
+      "summary_en": null,
+      "one_liner": "激活值可读化是Interpretability 重大突破，让研究者首次能直接读取模型'思考'过程",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/20260507-NaturalLanguageAutoencodersTurningClaudesthoughtsi.md",
+      "images": [],
+      "added_date": "2026-05-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "db8aa5fe",
+      "title": "Donating our open-source alignment tool",
+      "url": "https://www.anthropic.com/research/donating-open-source-petri",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic",
+        "original_date": "2026-05-07"
+      },
+      "category": "models",
+      "tags": [
+        "anthropic",
+        "alignment",
+        "open-source",
+        "petri",
+        "evaluation",
+        "meridian-labs"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 将对齐测试工具 Petri 升级至 3.0 版本并捐赠给非营利组织 Meridian Labs。主要改进：架构重构提升适应性，新增 Dish 组件增强测试真实性，以及集成深度评估工具 Bloom。Petri 自 Claude Sonnet 4.5 起用于每个 Claude 模型的评估，英国 AI 安全研究所（AISI）已将其作为评估模型 sabotage 倾向的主要工具。此次捐赠延续了 MCP 捐赠给 Linux 基金会的模式，确保工具独立性。",
+      "summary_en": null,
+      "one_liner": "Anthropic 再次将核心工具开源并移至中立机构，显示其推动行业安全评估开放的承诺",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/20260507-Donatingouropen-sourcealignmenttool.md",
+      "images": [],
+      "added_date": "2026-05-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8c59f662",
+      "title": "机器人的终局：英伟达 Jim Fan 宣告 VLA 时代结束，WAM 登场",
+      "url": "https://baoyu.io/blog/robotics-end-game-nvidias-jim-fan",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-05-10"
+      },
+      "category": "models",
+      "tags": [
+        "robotics",
+        "nvidia",
+        "wam",
+        "vla",
+        "jim-fan",
+        "world-model",
+        "dreamzero",
+        "egoscale"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "英伟达 Jim Fan 在 AI Ascent 2026 演讲中宣布 VLA 路线过时，推出世界动作模型（WAM）新范式。核心替代方案 DreamZero（140 亿参数）先'做梦'再行动，视觉和动作首次成为一等公民。数据策略转向：第一人称视频替代遥操作（EgoScale 用 21,000 小时人类视频发现灵巧操作缩放定律 R²=0.998），Dream Dojo 用视频模型替代物理引擎做神经仿真。预测 2040 年前完成机器人终局（物理自动研究），置信度 95%。",
+      "summary_en": null,
+      "one_liner": "VLA 已死、WAM 登场：机器人数据策略从遥操作转向传感化人类视频是关键转折",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/20260510-机器人的终局英伟达JimFan宣告VLA时代结束WAM登场.md",
+      "images": [],
+      "added_date": "2026-05-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "06a1137d",
+      "title": "Forward Deployed Engineer：AI 时代的新宠岗位，到底干什么？",
+      "url": "https://baoyu.io/blog/2026-05-15/forward-deployed-engineer",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-05-15"
+      },
+      "category": "industry",
+      "tags": [
+        "fde",
+        "openai",
+        "anthropic",
+        "google",
+        "deployment",
+        "enterprise",
+        "palantir"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "FDE 正成为 AI 公司争抢的新岗位，核心是驻场帮企业把 AI 模型接进真实业务。OpenAI 成立 140 亿美元估值的独立部署公司收购英国 150 人 FDE 团队；Anthropic 获 15 亿美元投资建独立 FDE 咨询公司；Google 自雇 FDE 总包高达 40 万美元。FDE 比例：25% 写代码，50% 集成调试，25% 沟通。Palantir 是这个岗位的先驱，2016 年 FDE 数量已超过普通工程师。文章分析三家公司 FDE 模式差异及谁该关注这个岗位。",
+      "summary_en": null,
+      "one_liner": "AI 公司的赚钱逻辑从'卖模型'转向'卖落地'，FDE 站在这个转折点的最前沿",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/20260515-ForwardDeployedEngineerAI时代的新宠岗位到底干什么.md",
+      "images": [],
+      "added_date": "2026-05-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dffcaef8",
+      "title": "Introducing GPT-5",
+      "url": "https://openai.com/index/introducing-gpt-5/",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-05-15"
+      },
+      "category": "models",
+      "tags": [
+        "openai",
+        "gpt-5",
+        "llm"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "内容提取失败（无法访问页面），待补充。",
+      "summary_en": null,
+      "one_liner": null,
+      "one_liner_author": null,
+      "quality_score": null,
+      "status": "active",
+      "local_path": "X 文章/20260515-IntroducingGPT-5.md",
+      "images": [],
+      "added_date": "2026-05-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-05-18"
+  "last_updated": "2026-05-18",
+  "total_entries": 975
 }

@@ -4,6 +4,8 @@
 
 ## 最新精选 Top 10
 
+- [Forward Deployed Engineer：AI 时代的新宠岗位，到底干什么？](https://baoyu.io/blog/2026-05-15/forward-deployed-engineer) ⭐4 · 2026-05-15 — AI 公司的赚钱逻辑从'卖模型'转向'卖落地'，FDE 站在这个转折点的最前沿
+- [2028: Two scenarios for global AI leadership](https://www.anthropic.com/research/2028-ai-leadership) ⭐5 · 2026-05-14 — AI 地缘政治领域里程碑级政策论述，断言美国必须加强芯片管制否则将失去领先优势
 - [What 81,000 people told us about the economics of AI](https://anthropic.com/research/81k-economics) ⭐5 · 2026-05-12 — Anthropic 首份大规模 AI 经济学调查报告，揭示 AI 对不同职业的差异化影响规律
 - [Understanding Attention Mechanisms in Transformers](https://x.com/karpathy/status/1800000000000000001) ⭐5 · 2026-05-12 — Karpathy 的注意力机制图解教程，代码+可视化俱全，LLM 从业者必读
 - [GPT-5 Preview: Significant Improvements in Reasoning Capabilities](https://x.com/OpenAI/status/1800000000000000002) ⭐5 · 2026-05-12 — GPT-5 预告：推理全面碾压 GPT-4，200K 上下文，幻觉减六成，Q3 开始限量预览
@@ -12,32 +14,30 @@
 - [Key Insight: Focus on Data Quality First in AI Projects](https://x.com/AndrewYNg/status/1800000000000000003) ⭐4 · 2026-05-12 — 78% AI 项目因数据质量失败Andrew Ng 的三阶段数据优先方法论
 - [AI Consciousness: A Conversation with Geoffrey Hinton](https://x.com/LexFridman/status/1800000000000000004) ⭐4 · 2026-05-12 — Hinton 谈 AI 意识三大路径：涌现架构突破生物限制，播客下周上线
 - [LanceDB Lance Format v2.2: Half the Storage, None of the Slowdown](https://www.lancedb.com/blog/lance-format-v2-2-benchmarks-half-the-storage-none-of-the-slowdown) ⭐3 · 2026-05-12 — LanceDB v2.2 存储减半速度不减，向量数据库的性价比新标杆
-- [Hello from Learning Prompt](https://learningprompt.wiki/docs/insight/AI%20%E6%9C%89%E5%8F%AF%E8%83%BD%E6%94%B9%E5%8F%98%E6%88%91%E4%BB%AC%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%96%B9%E5%BC%8F) ⭐3 · 2026-05-12 — 免费 prompt 工程教程，帮助初学者理解 ChatGPT 和 Midjourney 使用方法与底层原理
-- [Anthropic 发布 Claude Code Agent View：多会话集中管理](https://t.me/synctoai/2108) ⭐3 · 2026-05-12 — Claude Code agent view 终结了多智能体终端切换的痛苦，一站式管理多会话
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 107 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| 模型与实验室 | 111 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
 | Agent 与自动化 | 152 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 155 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 31 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 45 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 产品与商业 | 47 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 45 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 38 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 968
-- 公开展示卡片: 573
+- 原始条目: 975
+- 公开展示卡片: 579
 - 有全文内容: 500
-- 最近 7 天信号: 45
+- 最近 7 天信号: 37
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`agent`, `llm`, `ai-tools`, `claude`, `openclaw`, `coding`, `openai`, `paper`, `reasoning`, `claude-code`, `workflow`, `anthropic`, `multi-agent`, `mcp`, `codex`, `Agent`, `memory`, `safety`
+`agent`, `llm`, `ai-tools`, `claude`, `openclaw`, `openai`, `coding`, `paper`, `anthropic`, `reasoning`, `claude-code`, `workflow`, `multi-agent`, `mcp`, `codex`, `Agent`, `memory`, `safety`
 
 ## 自动化约定
 
