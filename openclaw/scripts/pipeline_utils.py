@@ -180,14 +180,33 @@ def today_str() -> str:
     return date.today().isoformat()
 
 
+def validate_entries_data(data: dict, path: Path | None = None) -> dict:
+    """Reject corrupted entries.json shapes before any pipeline write.
+
+    entries.json is a durable data file. It must stay a dict with an
+    ``entries`` list; list-shaped writes previously caused production data
+    loss, so fail fast here instead of trying to be permissive.
+    """
+    label = str(path or entries_path())
+    if not isinstance(data, dict):
+        raise ValueError(f"entries.json must be a dict with an 'entries' list, got {type(data).__name__}: {label}")
+    entries = data.get("entries")
+    if not isinstance(entries, list):
+        raise ValueError(f"entries.json missing list field 'entries': {label}")
+    return data
+
+
 def load_entries_data(path: Path | None = None) -> dict:
     target = path or entries_path()
-    return json.loads(target.read_text(encoding="utf-8"))
+    data = json.loads(target.read_text(encoding="utf-8"))
+    return validate_entries_data(data, target)
 
 
 def save_entries_data(data: dict, path: Path | None = None) -> None:
     target = path or entries_path()
+    validate_entries_data(data, target)
     data["last_updated"] = today_str()
+    data["total_entries"] = len(data["entries"])
     target.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
