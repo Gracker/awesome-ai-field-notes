@@ -2744,7 +2744,8 @@
       "updated_date": "2026-05-02",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "has_content": true
     },
     {
       "id": "755b41be",
@@ -2774,7 +2775,8 @@
       "updated_date": "2026-05-02",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "has_content": true
     },
     {
       "id": "d1d65a6d",
@@ -2985,7 +2987,8 @@
       "updated_date": "2026-05-02",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "has_content": true
     },
     {
       "id": "4a2b6070",
@@ -3019,7 +3022,8 @@
       "updated_date": "2026-05-02",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "has_content": true
     },
     {
       "id": "041a666b",
@@ -3084,7 +3088,8 @@
       "added_date": "2026-04-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "has_content": true
     },
     {
       "id": "7b476b62",
@@ -33083,8 +33088,166 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "4f22ba83",
+      "title": "ChatGPT 个人财务工具可绑定银行账户查看全部交易",
+      "url": "https://gizmodo.com/chatgpt-can-now-connect-to-your-bank-account-and-see-all-your-transactions-2000759306",
+      "source": {
+        "platform": "x",
+        "author": "@OpenAI",
+        "original_date": "2026-05-16"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "chatgpt",
+        "openai",
+        "personal-finance",
+        "ai-tools"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "OpenAI 面向美国 ChatGPT Pro 用户推出个人财务预览功能，可连接银行账户查看所有交易记录，由 TechCrunch 于 2026-05-16 报道将 AI 助手能力延伸至个人财务管理，实现AI 做账本的日常场景，是大模型平台扩展落地场景的新尝试",
+      "summary_en": "OpenAI launches personal finance preview for ChatGPT Pro users, allowing bank account connection to view all transactions. Expands AI assistant capabilities into personal finance management, enabling AI-driven daily accounting workflows.",
+      "one_liner": "ChatGPT 可绑定银行账户做个人财务管理",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4f22ba83.md",
+      "images": [],
+      "added_date": "2026-05-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dcf24973",
+      "title": "Claude Code 周额度提升 50%Anthropic 反击 OpenAI Codex",
+      "url": "https://pasqualepillitteri.it/en/news/2494/claude-code-weekly-limits-50-percent-anti-codex-anthropic-2026",
+      "source": {
+        "platform": "x",
+        "author": "@AnthropicAI",
+        "original_date": "2026-05-13"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "claude",
+        "anthropic",
+        "claude-code",
+        "ai-tools"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "2026-05-13 起，Anthropic 将 Claude Code 周额度提升 50%，覆盖 Pro/Max/Team/Enterprise 用户，有效期至 2026-07-13此举被视为针对 OpenAI Codex 的防御性市场策略，直接缓解依赖 Claude Code 开发团队和个人的用量焦虑，提升工作流稳定性",
+      "summary_en": "Anthropic raises Claude Code weekly limits by 50% for Pro/Max/Team/Enterprise users from May 13, 2026 through July 13, 2026. Seen as a defensive move against OpenAI Codex, directly easing usage anxiety for development teams.",
+      "one_liner": "Claude Code 周额度提升 50%，对标 OpenAI Codex",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dcf24973.md",
+      "images": [],
+      "added_date": "2026-05-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e19f958d",
+      "title": "Notion 开发者平台 v3.5External Agents API 支持 Claude Code/Cursor 等嵌入",
+      "url": "https://findskill.ai/blog/notion-external-agent-api-claude-code",
+      "source": {
+        "platform": "x",
+        "author": "@Notion",
+        "original_date": "2026-05-13"
+      },
+      "category": "coding",
+      "tags": [
+        "notion",
+        "api",
+        "agent",
+        "workflow",
+        "claude-code"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Notion 于 2026-05-13 发布开发者平台 v3.5，核心功能为 External Agents API，可将 Claude CodeCursorCodexDecagon 等外部 Agent 直接指派并追踪于 Notion 工作区，并支持数据库同步Webhook 和 Zendesk 集成打破Agent 在外部跑结果手动搬回 Notion的割裂工作流，实现 AI Agent 驱动的团队协作FindSkill.ai 已发布 Step-by-step 接入指南",
+      "summary_en": "Notion launches Developer Platform v3.5 on May 13, 2026 with External Agents API allowing Claude Code, Cursor, Codex, Decagon agents to be assigned and tracked directly within Notion workspace, with database sync, Webhook and Zendesk integration. Enables AI agent-driven team collaboration.",
+      "one_liner": "Notion 开放 External Agents API，Claude Code 等 Agent 可直接嵌入工作区",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/e19f958d.md",
+      "images": [],
+      "added_date": "2026-05-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "64aa57c1",
+      "title": "Productive 5.0 发布AI Agents/Skills/Connectors 全套更新",
+      "url": "https://thedigitalprojectmanager.com/tools/best-ai-workflow-automation-software",
+      "source": {
+        "platform": "x",
+        "author": "@Productive",
+        "original_date": "2026-05-17"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "productive",
+        "ai-agents",
+        "workflow",
+        "automation",
+        "ai-tools"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Productive 5.0 引入 AI AgentsSkillsConnectors升级版 AI Assistant 和 AI-powered Notetaker，帮助团队将重复性 AI 工作流封装为可复用 Skills，支持跨业务运营的 AI 自动化对 agency咨询类团队，可将专家工作流固化给 AI，显著降低重复劳动",
+      "summary_en": "Productive 5.0 introduces AI Agents, Skills, Connectors, upgraded AI Assistant and AI-powered Notetaker. Helps teams encapsulate repeatable AI workflows into reusable Skills, supporting AI automation across business operations. Ideal for agency and consulting teams.",
+      "one_liner": "Productive 5.0 推出 AI Agents/Skills，帮团队封装可复用 AI 工作流",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/64aa57c1.md",
+      "images": [],
+      "added_date": "2026-05-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5728e0af",
+      "title": "Manus可跨云端/桌面/浏览器/会议运行任务的通用型 AI Agent",
+      "url": "https://www.producthunt.com/categories/ai-workflow-automation",
+      "source": {
+        "platform": "x",
+        "author": "@ProductHunt",
+        "original_date": "2026-05-18"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-agent",
+        "automation",
+        "workflow",
+        "product-hunt",
+        "ai-tools"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Manus 是 Product Hunt 上新发布的通用型 AI Agent，能自主运行跨云桌面浏览器和会议的任务，对标 Zapier/Crisp/Relay.app 等工作流自动化工具的 AI 原生替代代表AI Agent 无需人类介入自动完成跨平台任务的新趋势，值得早关注早布局",
+      "summary_en": "Manus is a new general-purpose AI Agent launched on Product Hunt, capable of autonomously running tasks across cloud, desktop, browser and meetings. Positioned as an AI-native alternative to Zapier/Crisp/Relay.app workflow automation tools. Represents new trend of fully autonomous cross-platform AI agents.",
+      "one_liner": "Manus：可跨云/桌面/浏览器/会议自主运行任务的通用 AI Agent",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5728e0af.md",
+      "images": [],
+      "added_date": "2026-05-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-05-19",
-  "total_entries": 979
+  "total_entries": 984
 }
