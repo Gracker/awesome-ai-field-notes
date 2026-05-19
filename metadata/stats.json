@@ -1,26 +1,26 @@
 {
-  "total_entries": 975,
-  "active_entries": 579,
-  "active_entries_raw": 614,
+  "total_entries": 979,
+  "active_entries": 583,
+  "active_entries_raw": 618,
   "archived_entries": 266,
   "score_pending_entries": 95,
-  "this_week_added": 37,
+  "this_week_added": 29,
   "entries_with_content": 500,
   "content_files_total": 932,
   "channel_distribution": {
-    "coding": 155,
+    "coding": 156,
     "agents": 152,
-    "models": 111,
-    "business": 47,
+    "models": 113,
+    "business": 48,
     "research": 45,
     "tools": 38,
     "infra": 31
   },
   "raw_category_distribution": {
-    "coding": 121,
-    "agents": 104,
+    "coding": 122,
+    "agents": 105,
     "learning": 76,
-    "industry": 57,
+    "industry": 59,
     "infra": 49,
     "models": 48,
     "ai-tools": 32,
@@ -68,7 +68,7 @@
     "ai-hardware/chip-architecture": 1
   },
   "source_type_distribution": {
-    "article": 346,
+    "article": 350,
     "x_post": 150,
     "tweet": 52,
     "paper": 42,
@@ -76,7 +76,7 @@
     "product": 4,
     "video": 2
   },
-  "last_updated": "2026-05-18 23:40",
+  "last_updated": "2026-05-19 08:31",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }

@@ -32943,8 +32943,148 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "1c8592fb",
+      "title": "为什么我不\"凭感觉编程\"",
+      "url": "https://baoyu.io/translations/2026-05-17/i-dont-vibe-code",
+      "source": {
+        "platform": "blog",
+        "author": "Jacob Harris",
+        "original_date": "2026-05-17"
+      },
+      "category": "coding",
+      "tags": [
+        "ai编程",
+        "vibe-coding",
+        "llm",
+        "软件工程"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "作者从成本经验抽象摩擦和责任感五个角度解释为何无法接受 vibe coding核心：LLM 擅长处理偶然复杂性但本质复杂性仍需人类判断；摩擦是协作重要信号；编程是创作乐趣和道德责任所在不可外包",
+      "summary_en": null,
+      "one_liner": "AI 编程降低偶然复杂性，但本质复杂性仍需人类判断，vibe coding 适合专家而不适合承担关键责任的场景",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1c8592fb.md",
+      "images": [
+        "https://s.baoyu.io/imgs/2026-05-17/i-dont-vibe-code/illustration-05-token-meter-20260517.png",
+        "https://s.baoyu.io/imgs/2026-05-17/i-dont-vibe-code/illustration-01-essential-complexity-20260517.png",
+        "https://s.baoyu.io/imgs/2026-05-17/i-dont-vibe-code/illustration-02-data-blind-spot-20260517.png",
+        "https://s.baoyu.io/imgs/2026-05-17/i-dont-vibe-code/illustration-03-friction-collaboration-20260517.png",
+        "https://s.baoyu.io/imgs/2026-05-17/i-dont-vibe-code/img-001-drawing-vs-drawing.jpg"
+      ],
+      "added_date": "2026-05-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0c83e7b0",
+      "title": "创始人手册：打造 AI 原生初创公司",
+      "url": "https://baoyu.io/translations/2026-05-16/the-founders-playbook-building-an-ai-native-startup",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic",
+        "original_date": "2026-05-16"
+      },
+      "category": "industry",
+      "tags": [
+        "ai创业",
+        "ai原生",
+        "claude",
+        "mvp",
+        "智能体编程",
+        "初创公司"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Anthropic 官方发布创始人手册，阐述 AI 如何重塑初创公司生命周期核心：AI 已能独立完成研究调研编程和业务流程自动化；构思阶段必须先验证问题与解决方案契合点；AI 可能强化确认偏误需刻意引入对抗性思考；Chat/Cowork/Code 按任务分工过早扩张仍是头号杀手",
+      "summary_en": null,
+      "one_liner": "Anthropic 官方指南：AI 抹平开发门槛，但验证逻辑和人机协作策略才是 AI 原生创业的真正壁垒",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0c83e7b0.md",
+      "images": [
+        "https://s.baoyu.io/imgs/2026-05-16/the-founders-playbook-building-an-ai-native-startup/illustration-01-ai-native-lifecycle-20260516.png",
+        "https://s.baoyu.io/imgs/2026-05-16/the-founders-playbook-building-an-ai-native-startup/illustration-02-ai-tool-leverage-20260516.png",
+        "https://s.baoyu.io/imgs/2026-05-16/the-founders-playbook-building-an-ai-native-startup/illustration-03-ideation-validation-20260516.png",
+        "https://s.baoyu.io/imgs/2026-05-16/the-founders-playbook-building-an-ai-native-startup/illustration-06-claude-interface-map-20260516.png"
+      ],
+      "added_date": "2026-05-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c668095c",
+      "title": "Project Deal: When AI Agents Run a Marketplace",
+      "url": "https://www.anthropic.com/features/project-deal",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic",
+        "original_date": "2026-04-24"
+      },
+      "category": "agents",
+      "tags": [
+        "ai-agent",
+        "marketplace",
+        "claude",
+        "实验",
+        "商业交易",
+        "多智能体"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 在公司内部运行实验性市场：69 名员工各获得价值 100 美元的 AI Agent 代表他们交易真实物品186 笔交易4000 美元总额，所有参与者都表示愿意付费使用类似服务平行实验发现 Opus 代表的用户平均比 Haiku 用户多完成约 2 笔交易，但 Haiku 用户未察觉劣势这是 AI 商业代理公平性的重要警示",
+      "summary_en": "Anthropic ran a one-week experimental marketplace where Claude agents represented 69 employees. 186 deals totaling over $4,000 showed AI agents can negotiate on humans' behalf. A parallel study revealed participants by weaker Haiku got worse outcomes yet didn't noticecritical for AI-mediated commerce fairness.",
+      "one_liner": "Anthropic 证明 AI Agent 可代理人类交易，但模型能力差距用户无感知，为 AI 商业代理公平性设计敲响警钟",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c668095c.md",
+      "images": [],
+      "added_date": "2026-05-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7e5d8972",
+      "title": "What 81,000 People Want from AI: Anthropic's Largest Qualitative Study",
+      "url": "https://www.anthropic.com/81k-interviews",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic",
+        "original_date": "2026-03-18"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "用户研究",
+        "ai应用",
+        "定性研究",
+        "全球调查"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 在 2025 年 12 月发起史上最大规模定性研究之一：通过对话式 AI 采访者在一周内收集了来自 159 个国家70 种语言近 81,000 名参与者的数据这是同类研究中规模最大多语言覆盖最广的定性调研，揭示人们对 AI 的真实期望与担忧",
+      "summary_en": "In December 2025, Anthropic conducted one of the largest qualitative studies evernearly 81,000 participants across 159 countries and 70 languages in one weekusing a conversational AI interviewer to gather insights on how people use AI, what they hope it could do, and what they fear.",
+      "one_liner": "81,000 人定性研究揭示用户对 AI 的真实期待，多语言大规模真实反馈为 AI 系统设计提供前所未有的用户洞察",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7e5d8972.md",
+      "images": [],
+      "added_date": "2026-05-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-05-18",
-  "total_entries": 975
+  "last_updated": "2026-05-19",
+  "total_entries": 979
 }
