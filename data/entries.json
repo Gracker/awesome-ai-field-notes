@@ -33246,8 +33246,73 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "Upb2L5CR",
+      "title": "AI 时代到底该怎么管一个工程团队",
+      "url": "https://baoyu.io/blog/2026-05-12/running-an-ai-native-engineering-org",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-05-12"
+      },
+      "category": "industry",
+      "tags": [
+        "claude-code",
+        "engineering-management",
+        "ai-native",
+        "fiona-fung",
+        "anthropic"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Anthropic Claude Code 团队工程与产品负责人 Fiona Fung 在 Code with Claude 2026 大会上分享 AI 时代工程团队管理经验核心洞察：软件工程瓶颈已从\"写代码慢\"转移到验证评审跨职能协作和安全过去二十年行业被重塑两次：互联网替代 CD 发行，AI 替代写代码本身Claude Code 团队取消了六个月路线图和冗长设计文档，用即时规划和代码替代；用 Claude 处理代码评审中的脏活累活，人工保留法律合规安全敏感代码和产品 sense 判断衡量指标：新人上手时间PR 生命周期Claude 辅助提交比例",
+      "summary_en": null,
+      "one_liner": "Claude Code 团队负责人复盘：编码不再是瓶颈，验证/评审/协作/安全是新卡点，衡量标准从\"AI 写了多少\"转向产品可靠性",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/Upb2L5CR.md",
+      "images": [],
+      "added_date": "2026-05-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "CoTzaTu-",
+      "title": "Codex 的野心，MCP 和 Skill 的下一步",
+      "url": "https://baoyu.io/blog/2026-05-11/skill-next-codex",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-05-11"
+      },
+      "category": "agents",
+      "tags": [
+        "codex",
+        "mcp",
+        "skills",
+        "plugin",
+        "agent",
+        "app-store"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "CodexClaude 桌面版Cursor 3.0TRAE SOLO 等顶级 Agent 应用同时收敛到三栏界面布局（左侧会话列表中间对话右侧工作区），这是 Agent 交互的最优解Codex 真正野心是打造 Agent 版 App Store：聚焦 Agent 调度层，把文件预览二次编辑专业能力交给插件扩展MCP 解决连接问题，Skills 解决怎么做，但缺一块用户二次编辑baoyu-skills 近 2 万 Star 但收入为 $0，插件市场已有收费和版权保护机制，是 Skill 商业化的可行路径中小团队可在 Codex 等平台上做插件，专注\"最后一公里\"的结果处理",
+      "summary_en": null,
+      "one_liner": "Codex 右侧工作区演进不只是 UI，而是为 Agent 版 App Store 插件生态铺路，中小团队窗口期仅剩几个月",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/CoTzaTu-.md",
+      "images": [],
+      "added_date": "2026-05-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-05-20",
-  "total_entries": 984
+  "total_entries": 986
 }
