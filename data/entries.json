@@ -758,33 +758,6 @@
       "local_path_valid": false
     },
     {
-      "id": "145978a6",
-      "title": "Hermes Agent 接入 Codex GPT-Image-2 生图配置教程",
-      "url": null,
-      "source": {
-        "platform": "x",
-        "author": null,
-        "original_date": "2026-04-24"
-      },
-      "summary_zh": "来源：X/Twitter @AI产品黄叔 URL: https://x. com/PMbackttfuture/status/2047562135987741009 发布日期：2026-04-24 Hermes Agent 接入 Codex 后，已经很爽了. 但默认情况下，还没办法直接用 GPT-Image-2 生图. 选择 \"Reconfigure an existing tool's provider or API key\" 3. 选择 \"Image Generation\" 4. 继续选择：OpenAI (Codex auth) [free] — gpt-image-2 via ChatG",
-      "summary_en": null,
-      "one_liner": "大模型技术发展和应用",
-      "one_liner_author": "openclaw",
-      "local_path": "Obsidian/awesome-ai-field-notes/content/hermex_001.md",
-      "images": [],
-      "added_date": "2026-05-01",
-      "updated_date": "2026-05-20",
-      "tags": [],
-      "github_stars": null,
-      "related": [],
-      "category": "models/models",
-      "quality_score": 4,
-      "source_type": "article",
-      "language": "en",
-      "status": "active",
-      "local_path_valid": false
-    },
-    {
       "id": "0bc936f1",
       "title": "4m7n5p8r",
       "url": null,
@@ -33311,8 +33284,169 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "6d51bfdd",
+      "title": "Google I/O 2026: News and announcements",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection",
+      "source": {
+        "platform": "google",
+        "author": "Google",
+        "original_date": "2026-05-19"
+      },
+      "category": "industry",
+      "tags": [
+        "google",
+        "gemini",
+        "io-2026",
+        "announcement",
+        "multimodal"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google I/O 2026 发布 Gemini Omni 和 Gemini 3.5 两款新模型Gemini Omni 能从任意输入创建任意内容（以视频为起点），在多模态理解和编辑能力上有重大飞跃；Gemini 3.5 Flash 为系列首款 Flash 版本此外还发布了 Gemini Intelligence（为 Android 提供主动式 AI 功能）和 Google Search 的 AI Agent 化升级，用户可通过提问直接调用高级模型能力",
+      "summary_en": "Google I/O 2026 releases Gemini Omni and Gemini 3.5. Gemini Omni can create anything from any input, starting with video, representing a major leap in multimodal understanding and editing; Gemini 3.5 Flash is the first Flash variant in the series. Also launched: Gemini Intelligence (proactive AI features for Android) and Google Search's AI Agent transformation enabling users to invoke advanced model capabilities simply by asking questions.",
+      "one_liner": "Google I/O 2026 发布 Gemini Omni 全能多模态模型和 3.5 Flash 系列，Search 全面 AI Agent 化",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6d51bfdd.md",
+      "images": [],
+      "added_date": "2026-05-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "38285294",
+      "title": "Google Search's I/O 2026 updates: AI agents and more",
+      "url": "https://blog.google/products-and-platforms/products/search/search-io-2026",
+      "source": {
+        "platform": "google",
+        "author": "Google",
+        "original_date": "2026-05-19"
+      },
+      "category": "models",
+      "tags": [
+        "google-search",
+        "ai-agent",
+        "io-2026",
+        "gemini",
+        "search"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google Search 在 I/O 2026 期间宣布将高级模型能力引入 Search，通过 AI Agent 化让用户直接通过提问调用这些能力这是 Search 产品自引入 BERT 以来最重要的交互变革，意味着用户无需使用专门的 AI 产品，直接在日常使用的搜索引擎中即可获得 Agent 级体验",
+      "summary_en": "Google Search announces at I/O 2026 that advanced model capabilities are coming to Search through AI Agentfication, enabling users to invoke these capabilities simply by asking questions. This is the most significant interaction change for Search since BERT, meaning users can get Agent-level experiences directly in their everyday search engine without using a separate AI product.",
+      "one_liner": "Google Search 全面 AI Agent 化，用户提问即可调用高级模型能力，搜索交互重大变革",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/38285294.md",
+      "images": [],
+      "added_date": "2026-05-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a9f4b556",
+      "title": "Gemini Intelligence brings proactive AI to Android",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence",
+      "source": {
+        "platform": "google",
+        "author": "Google",
+        "original_date": "2026-05-13"
+      },
+      "category": "agents",
+      "tags": [
+        "gemini",
+        "android",
+        "gemini-intelligence",
+        "proactive-ai",
+        "google"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google 在 Android Show 2026 发布 Gemini Intelligence，为 Android 带来主动式 AI 功能不同于传统的响应式 AI，Gemini Intelligence 能主动预测用户需求并提前采取行动，深度集成到 Android 系统层这是 Google 将 Gemini 模型能力系统级嵌入移动设备的关键步骤，标志着移动端 AI 从工具向智能助手的范式转变",
+      "summary_en": "Google launches Gemini Intelligence at Android Show 2026, bringing proactive AI capabilities to Android. Unlike traditional reactive AI, Gemini Intelligence anticipates user needs and acts in advance, deeply integrated into the Android system layer. This marks Google's critical step in embedding Gemini model capabilities at the system level on mobile devices, representing a paradigm shift from AI-as-tool to AI-as-intelligent-assistant on mobile.",
+      "one_liner": "Gemini Intelligence 将主动式 AI 系统级嵌入 Android，移动端 AI 从响应式工具向智能助手跃迁",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a9f4b556.md",
+      "images": [],
+      "added_date": "2026-05-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bd1ff632",
+      "title": "Google's 2026 Responsible AI Progress Report",
+      "url": "https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work",
+      "source": {
+        "platform": "google",
+        "author": "Google",
+        "original_date": "2026-02-18"
+      },
+      "category": "industry",
+      "tags": [
+        "responsible-ai",
+        "google",
+        "safety",
+        "governance",
+        "ai-safety"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google 发布 2026 年Responsible AI 进展报告，阐述其在 AI 安全治理和社会影响方面的持续工作报告涵盖从基础研究（可解释性安全评估）到产品落地（内容政策用户控制）的完整 Responsible AI 体系，并特别强调 Agentic 系统带来的新挑战和应对策略",
+      "summary_en": "Google releases its 2026 Responsible AI Progress Report, documenting ongoing work in AI safety, governance, and societal impact. The report covers a complete Responsible AI system from foundational research (interpretability, safety evaluation) to product deployment (content policies, user controls), with particular emphasis on emerging challenges and strategies for agentic systems.",
+      "one_liner": "Google Responsible AI 2026 报告系统阐述 AI 安全治理全貌，Agentic 系统成新焦点",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/bd1ff632.md",
+      "images": [],
+      "added_date": "2026-05-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "145978a6",
+      "title": "Hermes Agent 接入 Codex GPT-Image-2 生图配置教程",
+      "url": "https://x.com/PMbackttfuture/status/2047562135987741009",
+      "source": {
+        "platform": "x",
+        "author": "@AI产品黄叔",
+        "original_date": "2026-04-24"
+      },
+      "category": "models",
+      "tags": [
+        "hermes-agent",
+        "codex",
+        "gpt-image-2",
+        "openai",
+        "图像生成",
+        "配置教程"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "",
+      "summary_en": null,
+      "one_liner": "Hermes Agent 接入 Codex GPT-Image-2 生图配置教程",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/145978a6.md",
+      "images": [],
+      "added_date": "2026-05-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-05-20",
-  "total_entries": 986
+  "last_updated": "2026-05-21",
+  "total_entries": 990
 }

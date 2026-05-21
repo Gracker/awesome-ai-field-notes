@@ -1,32 +1,32 @@
 {
-  "total_entries": 986,
-  "active_entries": 626,
-  "active_entries_raw": 720,
+  "total_entries": 990,
+  "active_entries": 631,
+  "active_entries_raw": 724,
   "archived_entries": 266,
   "score_pending_entries": 0,
-  "this_week_added": 31,
-  "entries_with_content": 527,
-  "content_files_total": 934,
+  "this_week_added": 32,
+  "entries_with_content": 537,
+  "content_files_total": 944,
   "channel_distribution": {
-    "coding": 170,
+    "coding": 171,
     "agents": 157,
-    "models": 127,
-    "business": 48,
+    "models": 130,
+    "business": 49,
     "research": 47,
     "tools": 45,
     "infra": 32
   },
   "raw_category_distribution": {
     "coding": 143,
-    "agents": 112,
+    "agents": 113,
     "learning": 80,
-    "models": 66,
-    "industry": 62,
+    "models": 68,
+    "industry": 64,
     "uncategorized": 51,
     "infra": 50,
     "ai-tools": 32,
     "agents/frameworks": 24,
-    "models/models": 24,
+    "models/models": 23,
     "workflow": 23,
     "agent-frameworks/harness-engineering": 4,
     "strategy/ai-career": 4,
@@ -68,7 +68,7 @@
     "ai-hardware/chip-architecture": 1
   },
   "source_type_distribution": {
-    "article": 446,
+    "article": 450,
     "x_post": 151,
     "tweet": 57,
     "paper": 42,
@@ -76,7 +76,7 @@
     "product": 4,
     "video": 2
   },
-  "last_updated": "2026-05-20 08:38",
+  "last_updated": "2026-05-21 08:31",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }
