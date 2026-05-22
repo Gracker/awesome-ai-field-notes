@@ -33445,8 +33445,41 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "de6541bc",
+      "title": "来自 Codex 官方团队的分享：如何把 Codex 用到极致",
+      "url": "https://baoyu.io/blog/2026-05-20/jxnlco-2057153744630890620",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉 (jason @jxnlco)",
+        "original_date": "2026-05-20"
+      },
+      "category": "coding",
+      "tags": [
+        "codex",
+        "persistent-threads",
+        "voice-input",
+        "automation",
+        "goals",
+        "mcp"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Codex 官方团队成员 jason (@jxnlco) 分享如何最大化利用 Codex 的高级功能核心技巧：持久对话流（Durable threads）配合置顶快捷键让上下文跨会话保留；语音输入适合捕捉模糊想法；任务干预（Steering）和任务排队（Queuing）让人在环路上保持掌控；MCP 服务器和连接器扩展能力边界；Goals 功能用验证器（verifier）定义清晰的成功标准；侧边栏让生成结果原地审查和迭代；Shared memory 让 Agent 知识跨会话持久化；自动化让 Codex 按时间表自动工作",
+      "summary_en": null,
+      "one_liner": "Codex 官方团队详解持久对话流Goals自动化等高级功能，把编程 Agent 从写代码工具变成全能打工人",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/baoyu_codex_maximize_tips_2026.md",
+      "images": [],
+      "added_date": "2026-05-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-05-21",
-  "total_entries": 990
+  "last_updated": "2026-05-22",
+  "total_entries": 991
 }
