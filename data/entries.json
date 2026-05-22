@@ -1246,10 +1246,10 @@
       "summary_en": null,
       "one_liner": "大模型技术发展和应用",
       "one_liner_author": "openclaw",
-      "local_path": "Obsidian/awesome-ai-field-notes/content/eb72b016.md",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/fe2833c6.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": "2026-05-20",
+      "updated_date": "2026-05-22",
       "tags": [],
       "github_stars": null,
       "related": [],
@@ -1258,7 +1258,7 @@
       "source_type": "article",
       "language": "en",
       "status": "active",
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "6f7fa9d5",
@@ -1776,10 +1776,10 @@
       "summary_en": null,
       "one_liner": "大模型技术发展和应用",
       "one_liner_author": "openclaw",
-      "local_path": "Obsidian/awesome-ai-field-notes/content/6a342c69.md",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/f7612873.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": "2026-05-20",
+      "updated_date": "2026-05-22",
       "tags": [],
       "github_stars": null,
       "related": [],
@@ -1788,7 +1788,7 @@
       "source_type": "article",
       "language": "en",
       "status": "active",
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "911c84d1",
@@ -2525,10 +2525,10 @@
       "summary_en": null,
       "one_liner": "大模型技术发展和应用",
       "one_liner_author": "openclaw",
-      "local_path": "Obsidian/awesome-ai-field-notes/content/claude_code_domestic_models_2026.md",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/5870a0c3.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": "2026-05-20",
+      "updated_date": "2026-05-22",
       "tags": [],
       "github_stars": null,
       "related": [],
@@ -2537,7 +2537,7 @@
       "source_type": "article",
       "language": "en",
       "status": "active",
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "779ae021",
@@ -33086,12 +33086,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 4,
       "status": "active",
-      "local_path": "content/4f22ba83.md",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/4f22ba83.md",
       "images": [],
       "added_date": "2026-05-19",
-      "updated_date": null,
+      "updated_date": "2026-05-22",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": true
     },
     {
       "id": "dcf24973",
@@ -33478,8 +33479,169 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "99a6b809",
+      "title": "Claude Code 系统提示词完全公开：27 个工具描述 + 子 agent 提示词全泄露",
+      "url": "https://github.com/Piebald-AI/claude-code-system-prompts",
+      "source": {
+        "platform": "x",
+        "author": "@PiebaldAI",
+        "original_date": "2026-05-22"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "claude-code",
+        "system-prompt",
+        "open-source",
+        "agent",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "GitHub 仓库 piebald-ai/claude-code-system-prompts 收录了 Claude Code 所有系统提示词，包括 27 个内置工具描述子 agent 提示词（Plan/Explore/Task） utility prompts（CLAUDE.mdcompactstatuslinemagic docs 等），随版本更新这是目前最完整的 Claude Code 内部原理文档，是深入理解 Claude Code 行为机制优化自定义 agent 和工作流配置的必备参考",
+      "summary_en": "A GitHub repo exposing all Claude Code system prompts including 27 builtin tool descriptions, sub-agent prompts (Plan/Explore/Task), and utility prompts. Updated per Claude Code version release. Essential reference for understanding Claude Code internals and optimizing custom agent workflows.",
+      "one_liner": "Claude Code 内部提示词全公开，最完整的 agent 原理参考手册",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/99a6b809.md",
+      "images": [],
+      "added_date": "2026-05-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "50f44e85",
+      "title": "ARIS：睡眠中自动搞 ML 研究的开源框架，9 页 ICLR 论文一键生成",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+      "source": {
+        "platform": "x",
+        "author": "@wanshuiyin",
+        "original_date": "2026-05-22"
+      },
+      "category": "coding",
+      "tags": [
+        "ml-research",
+        "automation",
+        "open-source",
+        "claude-code",
+        "paper"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "ARIS（Auto-Research-In-Sleep）是一个纯 Markdown only 的轻量级技能系统，不依赖框架，兼容 Claude CodeCodexOpenClaw 等任意 LLM agentWorkflow 3 可从单条 NARRATIVE_REPORT.md 生成 9 页 ICLR 2026 论文（含 7 节29 篇引用4 图2 对比表），零编译错误/auto-paper-improvement-loop 自动运行 2 轮 GPT-5.4 xhigh 内容 review 修复 重新编译为研究者提供可睡觉时运行的自动化科研流水线",
+      "summary_en": "ARIS (Auto-Research-In-Sleep) is a markdown-only lightweight skill system compatible with any LLM agent. Workflow 3 can generate a 9-page ICLR 2026 paper from a single NARRATIVE_REPORT.md with 7 sections, 29 citations, 4 figures, 2 comparison tables, zero compilation errors. /auto-paper-improvement-loop runs 2 rounds of GPT-5.4 review fix recompile autonomously.",
+      "one_liner": "睡觉时自动跑 ML 研究，9 页 ICLR 论文一键生成",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/50f44e85.md",
+      "images": [],
+      "added_date": "2026-05-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3a62cc60",
+      "title": "100+ AI 产品管理 Prompt 清单：让 Claude 变成真正的思维对手",
+      "url": "https://sidsaladi.substack.com/p/100-ai-product-management-prompts",
+      "source": {
+        "platform": "x",
+        "author": "@sidsaladi",
+        "original_date": "2026-05-22"
+      },
+      "category": "learning",
+      "tags": [
+        "claude",
+        "product-management",
+        "prompt-engineering",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "最可靠提升 Claude 输出的方法：在每个重要 prompt 末尾加Push back on me. Don't just agree.不加这句，Claude 默认进入验证模式；加上后变成真正的思维对手清单涵盖战略优先级路线图制定用户研究跨团队沟通等 PM 核心场景，共 100+ 条PM 快速上手 Claude 的实战技巧，1 分钟改造现有工作流",
+      "summary_en": "The single most reliable way to improve Claude's output: end every important prompt with 'Push back on me. Don't just agree.' Without this, Claude defaults to validation mode. With it, Claude becomes a real sparring partner. 100+ PM-specific prompts covering strategic prioritization, roadmap planning, user research, and cross-team communication.",
+      "one_liner": "Prompt 尾加一句反驳我，Claude 从验证者变思维对手",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3a62cc60.md",
+      "images": [],
+      "added_date": "2026-05-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "eae84261",
+      "title": "Google Gemini 新增 Adobe + Canva 连接器：Agentic 设计时代到来",
+      "url": "https://www.gadgets360.com/ai/news/google-gemini-adobe-canva-connectors-announced-agentic-design-creation-features-details-11528040",
+      "source": {
+        "platform": "x",
+        "author": "@GoogleAI",
+        "original_date": "2026-05-22"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "gemini",
+        "adobe",
+        "canva",
+        "agentic",
+        "design",
+        "google"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Google I/O 2026 公布 Gemini 新增 Adobe 和 Canva 连接器，支持 Agentic 设计创建用户可通过 Gemini 直接调用设计工具实现自动化设计流程同期 Project Genie 重大更新：Street View + AI 创意混合Google 在 Gemini app 中引入 C2PA 标准，OpenAI 同步为 AI 图片添加 SynthID，AI 生成内容透明化成为行业共识设计师和创意团队效率大幅提升",
+      "summary_en": "Google I/O 2026: Gemini adds Adobe and Canva connectors for agentic design creation. Gemini can now directly invoke design tools for automated workflows. Project Genie update adds Street View + AI creative mix. Google introduces C2PA standard in Gemini app while OpenAI adds SynthID to AI images, marking industry-wide push for AI content transparency.",
+      "one_liner": "Gemini 直连 Adobe/Canva，设计工作流进入 Agentic 时代",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/eae84261.md",
+      "images": [],
+      "added_date": "2026-05-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "16520e62",
+      "title": "AI 编码工具横向对比 2026：Cursor vs Copilot vs Claude Code vs Windsurf",
+      "url": "https://tooldirectory.ai/blog/ai-coding-tools-2026-cursor-copilot-windsurf-claude-code",
+      "source": {
+        "platform": "x",
+        "author": "@tooldirectory",
+        "original_date": "2026-05-22"
+      },
+      "category": "coding",
+      "tags": [
+        "cursor",
+        "copilot",
+        "claude-code",
+        "windsurf",
+        "coding-tools",
+        "comparison"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "2026 年 AI 编码工具横向对比：上下文窗口已不是差异化因素，检索质量才是关键Cursor 的 @-mention 代码库索引是四者中 UX 最佳；Claude Code 在终端环境表现更强，适合资深工程师做复杂多文件工作GitHub Copilot 的 @workspace 有所改进但引用准确性仍偶尔模糊建议：追求 token 经济效益的团队首选 Claude Code；Cursor 适合单开发者完成代码补全和内联编辑；GitHub Enterprise 团队默认 Copilot",
+      "summary_en": "2026 AI coding tools comparison: context window size is no longer a differentiator, retrieval quality is. Cursor's @-mention codebase indexing has the best UX; Claude Code excels in terminal for senior engineers handling complex multi-file work. GitHub Copilot's @workspace has improved but citations remain occasionally vague. Recommendation: Claude Code for token efficiency, Cursor for single developer UX, Copilot for GitHub Enterprise teams.",
+      "one_liner": "2026 AI 编程工具选型指南：检索质量 > 上下文窗口",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/16520e62.md",
+      "images": [],
+      "added_date": "2026-05-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-05-22",
-  "total_entries": 991
+  "total_entries": 996
 }
