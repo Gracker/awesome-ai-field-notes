@@ -1,3 +1,37 @@
+## 2026-05-17 ~ 2026-05-23
+
+### 📈 新增 (1)
+- [来自 Codex 官方团队的分享：如何把 Codex 用到极致](https://baoyu.io/blog/2026-05-20/jxnlco-2057153744630890620) — agents ⭐⭐⭐⭐
+
+### 📦 归档 (0)
+- 本周无归档条目
+
+### ✏️ 评分调整 (91)
+来源：community/process_pending_entries — 95个待审核条目评分与一句话优化
+| 分类 | 调整数 |
+|------|------|
+| uncategorized | +26 |
+| coding | +19 |
+| models | +17 |
+| models/models | +12 |
+| agents | +5 |
+| agents/frameworks | +5 |
+| learning | +4 |
+| industry | +2 |
+| infra | +1 |
+
+**本周最高分升级：**
+- [What Is ChatGPT Doing … and Why Does It Work?—Stephen Wolfra](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/?s=09) — 2→5 ⭐⭐⭐⭐⭐
+- [Trae 重磅更新：AI编程+智能体+MCP，言出法随的新境界](https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247486222&idx=1&sn=339091580bdb9e1c372b073a78861c5b&chksm=c1d2d2024d5c147c11e072376906ecdcb7ef26a854c3ab0147825fa422616bf9dd995e12fdf3&mpshare=1&scene=1&srcid=0422OnaWC5wn1l1tifvJXILS&sharer_shareinfo=41eb89afb4b51a8c7e426d8c25926a34&sharer_shareinfo_first=41eb89afb4b51a8c7e426d8c25926a34) — 2→4 ⭐⭐⭐⭐
+- [Writing my own ChatGPT Code Interpreter](https://ricklamers.io/posts/gpt-code) — 2→4 ⭐⭐⭐⭐
+- [Unlimited Refill Cursor](https://bianyujie.cn/Unlimited-use-of-the-cursor) — 2→4 ⭐⭐⭐⭐
+- [TikTok and the Sorting Hat — Remains of the Day](https://www.eugenewei.com/blog/2020/8/3/tiktok-and-the-sorting-hat) — 2→4 ⭐⭐⭐⭐
+
+### 📊 统计
+- 总条目: 968 → 893
+- 活跃条目: 608 → 636 (+28)
+- 本周最高分新增: [来自 Codex 官方团队的分享：如何把 Codex 用到极致](https://baoyu.io/blog/2026-05-20/jxnlco-2057153744630890620) ⭐⭐⭐⭐
+
 ## 2026-05-10 ~ 2026-05-16
 
 ### 📈 新增 (37)
