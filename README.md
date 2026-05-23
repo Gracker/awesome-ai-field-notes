@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
-- [Claude Code 系统提示词完全公开：27 个工具描述 + 子 agent 提示词全泄露](https://github.com/Piebald-AI/claude-code-system-prompts) ⭐5 · 2026-05-22 — Claude Code 内部提示词全公开，最完整的 agent 原理参考手册
-- [ARIS：睡眠中自动搞 ML 研究的开源框架，9 页 ICLR 论文一键生成](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) ⭐5 · 2026-05-22 — 睡觉时自动跑 ML 研究，9 页 ICLR 论文一键生成
-- [Google Gemini 新增 Adobe + Canva 连接器：Agentic 设计时代到来](https://www.gadgets360.com/ai/news/google-gemini-adobe-canva-connectors-announced-agentic-design-creation-features-details-11528040) ⭐4 · 2026-05-22 — Gemini 直连 Adobe/Canva，设计工作流进入 Agentic 时代
-- [AI 编码工具横向对比 2026：Cursor vs Copilot vs Claude Code vs Windsurf](https://tooldirectory.ai/blog/ai-coding-tools-2026-cursor-copilot-windsurf-claude-code) ⭐4 · 2026-05-22 — 2026 AI 编程工具选型指南：检索质量 > 上下文窗口
-- [100+ AI 产品管理 Prompt 清单：让 Claude 变成真正的思维对手](https://sidsaladi.substack.com/p/100-ai-product-management-prompts) ⭐4 · 2026-05-22 — Prompt 尾加一句反驳我，Claude 从验证者变思维对手
-- [来自 Codex 官方团队的分享：如何把 Codex 用到极致](https://baoyu.io/blog/2026-05-20/jxnlco-2057153744630890620) ⭐4 · 2026-05-20 — Codex 官方团队详解持久对话流Goals自动化等高级功能，把编程 Agent 从写代码工具变成全能打工人
-- [Google Search's I/O 2026 updates: AI agents and more](https://blog.google/products-and-platforms/products/search/search-io-2026) ⭐4 · 2026-05-19 — Google Search 全面 AI Agent 化，用户提问即可调用高级模型能力，搜索交互重大变革
-- [Google I/O 2026: News and announcements](https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection) ⭐4 · 2026-05-19 — Google I/O 2026 发布 Gemini Omni 全能多模态模型和 3.5 Flash 系列，Search 全面 AI Agent 化
-- [Manus可跨云端/桌面/浏览器/会议运行任务的通用型 AI Agent](https://www.producthunt.com/categories/ai-workflow-automation) ⭐4 · 2026-05-18 — Manus：可跨云/桌面/浏览器/会议自主运行任务的通用 AI Agent
-- [为什么我不"凭感觉编程"](https://baoyu.io/translations/2026-05-17/i-dont-vibe-code) ⭐4 · 2026-05-17 — AI 编程降低偶然复杂性，但本质复杂性仍需人类判断，vibe coding 适合专家而不适合承担关键责任的场景
+- [MCP-Flow: 自动构建大规模 MCP 工具数据集，让 0.6B 模型在工具调用上超越 GPT-4o](https://arxiv.org/abs/2510.24284) ⭐4 · 2026-05-04 — 0.6B 小模型微调后在 MCP 工具调用上全面超越 GPT-4o，证明小模型+数据工程才是正确方向
+- [Greg Brockman 详解 Codex 验证创业想法的 Skill](https://x.com/gdb/status/2050972114077843772) ⭐4 · 2026-05-04 — Codex Skill：用AI压力测试创业想法，快速暴露核心假设漏洞
+- [Google Gemini Embedding 2 多模态嵌入模型](https://x.com/GoogleAI/status/2049903687016063456) ⭐5 · 2026-05-03 — Google原生多模态嵌入模型：支持视频和视觉分析
+- [Pete Yang对话前Tinder CPO：构建AI产品的3层context系统](https://x.com/petergyang/status/2050946115374321901) ⭐4 · 2026-05-03 — 3层context系统：构建AI产品的可复用信息架构方法论
+- [OpenClaw 2026.5.2：插件安装更稳、Agent 热路径更轻](https://x.com/steipete/status/2050735979477008412) ⭐3 · 2026-05-03 — OpenClaw 2026.5.2 聚焦插件可靠性和运行路径瘦身，是一次工程稳定性发布。
+- [Tibo独家复盘:9次失败产品后如何做到100万美金/月 五款AI产品从0到1方法论](https://x.com/petergyang/status/2050223374421647382) ⭐5 · 2026-05-02 — 独立开发者 Tibo 复盘5款AI产品做到100万美金/月 快速验证快速失败是核心
+- [OpenAI CFO Sarah Friar：建议将 IPO 推迟至 2027 年，正在管理 Sam Altman](https://www.wsj.com/business/openai-sam-altman-ipo-sarah-friar-392c582b) ⭐4 · 2026-05-02 — CFO 劝老板别急着上市——这可能是 OpenAI 最理性的一次决策。
+- [马斯克诉 OpenAI 案首周遭遇波折](https://www.bloomberg.com/news/articles/2026-05-02/musk-s-trial-against-openai-hits-some-rough-spots-in-first-week) ⭐3 · 2026-05-02 — AI 行业最大诉讼开局不利——但真正的战场不在法庭，在公众叙事。
+- [Claude Code 向 Codex 的习惯迁移](https://www.ccgxk.com/codeother/733.html) ⭐3 · 2026-05-02 — Claude Code 到 Codex 的迁移不是换个快捷键——是换一套编程心智模型。
+- [Anthropic 正在与英国 AI 芯片初创 Fractile 洽谈采购推理芯片](https://www.theinformation.com/articles/anthropic-talks-buy-ai-chips-u-k-startup) ⭐3 · 2026-05-02 — Anthropic 买芯片买到还没上市的公司——推理算力饥渴已成 AI 行业最大瓶颈。
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 135 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 157 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 175 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 32 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 49 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 模型与实验室 | 118 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 146 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 162 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 28 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 39 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 47 | 论文、课程、提示工程、长文、方法论。 |
-| 工具与项目 | 45 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
+| 工具与项目 | 39 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 996
-- 公开展示卡片: 640
-- 有全文内容: 555
-- 最近 7 天信号: 29
+- 原始条目: 892
+- 公开展示卡片: 579
+- 有全文内容: 509
+- 最近 7 天信号: 124
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`agent`, `llm`, `ai-tools`, `claude`, `openclaw`, `claude-code`, `openai`, `workflow`, `anthropic`, `paper`, `coding`, `reasoning`, `codex`, `mcp`, `multi-agent`, `safety`, `Agent`, `memory`
+`agent`, `llm`, `claude`, `openclaw`, `coding`, `paper`, `ai-tools`, `openai`, `reasoning`, `codex`, `claude-code`, `mcp`, `multi-agent`, `memory`, `anthropic`, `Agent`, `workflow`, `Android`
 
 ## 自动化约定
 
