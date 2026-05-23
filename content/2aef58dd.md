@@ -1,76 +1,90 @@
 ---
-id: 2aef58dd
 title: "用 MCP + Claude Code 搭建 AI Agent 工作流实战"
-author: "petergyang"
-source_platform: "X/Twitter"
+source: "x.com/petergyang"
+category: "agents/frameworks"
+tags: ["mcp", "claude-code", "agent-workflow", "api-design", "second-brain"]
+publish_date: "2026-04"
+quality_score: 5
 url: "https://x.com/petergyang/status/2046961520970777029"
-fetched_at: "2026-04-26 19:08:26"
 ---
 
 # 用 MCP + Claude Code 搭建 AI Agent 工作流实战
+# Building AI Agent Workflows with MCP + Claude Code
 
-**来源：** X/Twitter · @petergyang
+## 中文原文 / Chinese Original
 
-**原文链接：** https://x.com/petergyang/status/2046961520970777029
+Peter Yang 与 Mercury VP of Product Ryan Wiggins 深度对谈，主题是**如何为 AI Agent 设计出色的 API 与 MCP（Model Context Protocol）**。
 
----
+### MCP 是什么？
 
-## English
+MCP（Model Context Protocol）是 Agent 间通信的事实标准，让不同 Agent 可以互相调用、共享上下文、协同完成任务。
 
-"In the 1950s, we met users at a bank. In the 70s, an ATM. In the 90s and 2000s, a website and a mobile app. Today, it's APIs and MCPs."
+### 实战演示：25 分钟用 Claude Code 构建 Second Brain
 
-Here's my new episode with @rywiggs (Mercury's VP of Product) where he shares:
+完整流程：
+1. **定义工具（Tool）**：把需要复用的能力封装成 MCP 工具
+2. **设计 API 接口**：让 Agent 能调用你的工具并理解返回结果
+3. **构建工作流**：多个 Agent 协同，各自负责不同阶段
 
-✅ How to build great APIs + MCPs for agents
+### 关键设计原则
 
-✅ How to create a Claude Code second brain to 2x your productivity at work
+1. **工具粒度要适中** — 太粗不够灵活，太细增加调用复杂度
+2. **上下文共享** — Agent 间要能继承和传递上下文
+3. **错误处理** — 每个工具调用都要有清晰的错误返回
 
-✅ What @mercury's data reveals about OpenAI and Anthropic's race for the enterprise
+### 为什么 MCP 重要？
 
-Some quotes from Ryan:
+MCP 正成为 Agent 间通信的事实标准，提前掌握即获得 **AI 工作流下一代基础设施的入场券**。
 
-"Don't start with the MCP. Start with the foundation. Build great APIs first."
+掌握 MCP 的开发者，可以：
+- 构建跨平台的 Agent 工作流
+- 复用业界最好的工具（浏览器控制、代码执行、文件读写……）
+- 组合不同能力的 Agent 实现复杂任务
 
-"I pulled 5M words from my last 5 years of PM work into Claude Code (using QMD search). That's the base of my second brain."
+### 延伸思考
 
-"After meetings, Claude tells me when I did something from my performance review. It keeps me accountable daily."
-
-📌 Watch now: https://t.co/mr2ZwGFHm4
-
-Thanks to our sponsors:
-
-@WisprFlow: Don't type, just speak https://t.co/oqHJ8bN3ll
-
-@linear: The AI agent platform for modern teams https://t.co/tgWf9oL4bs
-
-## 中文
-
-「上世纪50年代，我们在银行与用户面对面；70年代有了ATM；90年代和2000年代，有了网站和移动应用；今天，则是 API 和 MCP。」
-
-这是我和 @rywiggs（Mercury 产品副总裁）的新一期节目，他分享了：
-
-✅ 如何为 AI Agent 构建优质的 API 和 MCP
-
-✅ 如何用 Claude Code 打造第二大脑，让工作效率翻倍
-
-✅ Mercury 的数据揭示了 OpenAI 和 Anthropic 在企业市场的竞争态势
-
-Ryan 的几条金句：
-
-「不要从 MCP 入手。先打好基础，先把 API 做优秀。」
-
-「我把过去5年产品工作中的500万字都导入了 Claude Code（用 QMD 搜索）。这是我第二大脑的根基。」
-
-「每次会议结束后，Claude 会提醒我绩效里有哪些事还没做。它让我每天保持 accountable。」
-
-📌 立即观看：https://t.co/mr2ZwGFHm4
-
-感谢本期赞助商：
-
-@WisprFlow：不用打字，直接说出来 https://t.co/oqHJ8bN3ll
-
-@linear：现代团队的 AI Agent 平台 https://t.co/tgWf9oL4bs
+Agent 工作流的未来：
+- **工具即服务**：好的工具会像 API 一样被广泛调用
+- **工作流即产品**：能解决真实问题的可组合工作流，比单个 Agent 更值钱
+- **协议先行**：MCP 这类协议会催生大量工具生态
 
 ---
 
-*本文由 AI Field Notes 自动抓取翻译，原始内容归原作者所有。*
+## English Translation
+
+Peter Yang in deep conversation with Mercury VP of Product Ryan Wiggins on **designing great APIs and MCP (Model Context Protocol) for AI Agents**.
+
+### What is MCP?
+
+MCP (Model Context Protocol) is becoming the de facto standard for inter-agent communication, enabling different agents to call each other, share context, and collaborate on tasks.
+
+### Live Demo: Building a Second Brain with Claude Code in 25 Minutes
+
+Complete workflow:
+1. **Define Tools**: Encapsulate reusable capabilities as MCP tools
+2. **Design API Interface**: Allow agents to call your tools and understand results
+3. **Build Workflow**: Multiple agents collaborate, each handling different stages
+
+### Key Design Principles
+
+1. **Right tool granularity** — too coarse lacks flexibility, too fine increases complexity
+2. **Context sharing** — agents must be able to inherit and pass context
+3. **Error handling** — every tool call needs clear error returns
+
+### Why MCP Matters
+
+MCP is becoming the de facto standard for inter-agent communication. Mastering it early means securing a seat at **the next-generation AI workflow infrastructure table**.
+
+Developers who master MCP can:
+- Build cross-platform agent workflows
+- Reuse the best tools in the industry (browser control, code execution, file I/O...)
+- Combine agents of different capabilities to accomplish complex tasks
+
+### Extended Thinking
+
+The future of agent workflows:
+- **Tools as services**: Good tools will be widely called like APIs
+- **Workflows as products**: Composable workflows that solve real problems are more valuable than single agents
+- **Protocols first**: Protocols like MCP will spawn massive tool ecosystems
+
+> Source: [Peter Yang X](https://x.com/petergyang/status/2046961520970777029)

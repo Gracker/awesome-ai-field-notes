@@ -2871,12 +2871,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": null,
+      "local_path": "Obsidian/awesome-ai-field-notes/content/698e1058.md",
       "images": [],
       "added_date": "2026-04-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": true
     },
     {
       "id": "7b476b62",
@@ -3210,12 +3211,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": null,
+      "local_path": "Obsidian/awesome-ai-field-notes/content/5c7a3ee4.md",
       "images": [],
       "added_date": "2026-04-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": true
     },
     {
       "id": "ea4ab864",
@@ -3641,12 +3643,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": null,
+      "local_path": "Obsidian/awesome-ai-field-notes/content/e5f6g7h8.md",
       "images": [],
       "added_date": "2026-04-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": true
     },
     {
       "id": "i9j0k1l2",
@@ -3734,12 +3737,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": null,
+      "local_path": "Obsidian/awesome-ai-field-notes/content/q7r8s9t0.md",
       "images": [],
       "added_date": "2026-04-27",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": true
     },
     {
       "id": "u1v2w3x4",
@@ -4129,12 +4133,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": null,
+      "local_path": "Obsidian/awesome-ai-field-notes/content/2aef58dd.md",
       "images": [],
       "added_date": "2026-04-26",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": true
     },
     {
       "id": "b10e5003",
@@ -4289,12 +4294,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": null,
+      "local_path": "Obsidian/awesome-ai-field-notes/content/b58e207e.md",
       "images": [],
       "added_date": "2026-04-25",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": true
     },
     {
       "id": "d65a31a7",
@@ -4833,7 +4839,7 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": "Cubox/万字总结：我的 Harness Engineering 项目开发实践经验完整分享（上）-2026-04-23.md",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/2kX8t9cK.md",
       "images": [
         "https://cubox.pro/c/filters:no_upscale(",
         "https://cubox.pro/c/filters:no_upscale("
@@ -4842,7 +4848,7 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "1iuotKVl",
@@ -5884,12 +5890,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": null,
+      "local_path": "Obsidian/awesome-ai-field-notes/content/1099ae59.md",
       "images": [],
       "added_date": "2026-04-19",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": true
     },
     {
       "id": "ppNqbBb5",
@@ -23541,7 +23548,7 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": "Cubox/LLM Powered Autonomous Agents-2025-03-21.md",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/90udpdgs.md",
       "images": [
         "https://image.cubox.pro/cardImg/244x55o3t6ygavygex3oekwkqx0cosgz05e5t1upj93w5wq0ex.png?imageMogr2/quality/90/ignore-error/1",
         "https://image.cubox.pro/cardImg/4w0wo8bts6dpie4g8hajezels40rom176yu8wgyfw6durx2kd5.png?imageMogr2/quality/90/ignore-error/1",
@@ -23553,7 +23560,7 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "8usho2cd",
@@ -24028,13 +24035,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": "Cubox/Prompt Engineering-2023-03-20.md",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/7r292cja.md",
       "images": [],
       "added_date": "2023-03-20",
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "7pp7rfh8",
@@ -30219,8 +30226,43 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "de6541bc",
+      "title": "来自 Codex 官方团队的分享：如何把 Codex 用到极致",
+      "url": "https://baoyu.io/blog/2026-05-20/jxnlco-2057153744630890620",
+      "source": {
+        "platform": "x",
+        "author": "宝玉",
+        "original_date": "2026-05-20"
+      },
+      "category": "agents",
+      "tags": [
+        "codex",
+        "openai",
+        "ai-agent",
+        "durable-threads",
+        "automation",
+        "goals",
+        "computer-use",
+        "mcp"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "本文系统总结了 OpenAI Codex 官方团队分享的将 Codex 用到极致方法论核心观点：Codex 已从单纯的代码编辑器进化为全能电脑打工仔，可通过持久对话流语音输入任务干预/排队工具触达（MCP/browser/computer-use）跨设备协同自动化目标设定共享记忆等特性，覆盖从代码到完整工作流的方方面面对于需要管理复杂长周期任务的 AI 开发者具有重要参考价值",
+      "summary_en": null,
+      "one_liner": "Codex 官方团队系统梳理的 AI Agent 实践指南，持久记忆+自动化+目标驱动是核心范式",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/de6541bc.md",
+      "images": [],
+      "added_date": "2026-05-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-05-23 08:42:20",
-  "total_entries": 892
+  "last_updated": "2026-05-23",
+  "total_entries": 893
 }

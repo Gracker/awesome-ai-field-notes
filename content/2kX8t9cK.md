@@ -1,219 +1,84 @@
 ---
-id: "7446888580732946589"
-cubox_url: https://cubox.pro/web/card/7446888580732946589
-url: https://mp.weixin.qq.com/s?__biz=MzIxMjk2NDE1NA==&mid=2247483752&idx=1&sn=4c49ba63e425aae3c3ea1b96ca138587&chksm=966f3be54fa2d7eddc6ec01b4287a9e869cb98c1a6b00ffb0150c14159868225a02ed24a05f3&mpshare=1&scene=1&srcid=0423w44ZCXoXL4JngvQ2VJ64&sharer_shareinfo=304d8c8fd2aa8d99f8b3958ea844d493&sharer_shareinfo_first=304d8c8fd2aa8d99f8b3958ea844d493
-tags: []
-
+title: "万字总结：我的 Harness Engineering 项目开发实践经验完整分享（上）"
+source: "mp.weixin.qq.com"
+category: "agents/frameworks"
+tags: ["harness-engineering", "codex", "claude-code", "planner-evaluator-generator", "ai-coding"]
+publish_date: "2026-04"
+quality_score: 5
+url: "https://mp.weixin.qq.com/s?__biz=MzIxMjk2NDE1NA==&mid=2247483752&idx=1&sn=4c49ba63e425aae3c3ea1b96ca138587"
 ---
+
 # 万字总结：我的 Harness Engineering 项目开发实践经验完整分享（上）
+# Harness Engineering: 15万行代码实践总结（Part 1）
 
-真实项目实践，分享一套可落地的 Harness Engineering 方案：通过将规划、执行、验收职责拆分给不同 Agent，并引入阶段计划、结构化 Prompt、零信任验收和长期记忆机制，让 AI 在工程约束下稳定交付复杂软件，而不是无序生成代码。
+## 中文原文 / Chinese Original
 
-[Read in Cubox](https://cubox.pro/web/card/7446888580732946589)  
-[Read Original](https://mp.weixin.qq.com/s?__biz=MzIxMjk2NDE1NA==&mid=2247483752&idx=1&sn=4c49ba63e425aae3c3ea1b96ca138587&chksm=966f3be54fa2d7eddc6ec01b4287a9e869cb98c1a6b00ffb0150c14159868225a02ed24a05f3&mpshare=1&scene=1&srcid=0423w44ZCXoXL4JngvQ2VJ64&sharer_shareinfo=304d8c8fd2aa8d99f8b3958ea844d493&sharer_shareinfo_first=304d8c8fd2aa8d99f8b3958ea844d493)  
+作者分享无手写代码前提下项目累计生成 **15 万行代码**的实践经验。
+
+### 核心设计架构
+
+**角色分工：Planner-Evaluator-Generator**
+
+- **Planner（规划者）**：Codex（GPT 模型）负责规划、验收、需求拆解
+- **Evaluator（验收者）**：独立角色负责验证实现是否符合要求
+- **Generator（执行者）**：Claude Code（国产开源模型）负责代码生成
+
+### 关键机制
+
+1. **阶段计划**：每个任务分解为多个阶段，每阶段有明确验收标准
+2. **结构化 Prompt**：用结构化方式描述需求，减少歧义
+3. **零信任验收**：假设每次生成都有问题，强制执行验收流程
+4. **长期记忆**：验收发现的问题（生产路径未验证、异常无日志）自动沉淀到记忆文件，下次自动检查
+
+### 核心原则验证
+
+文章验证了几个 Harness Engineering 的核心原则：
+
+1. **规划与执行不能混** — Planner 如果同时执行，会失去客观判断能力
+2. **验收与实现不能同角色** — 自己写代码自己验收，永远发现不了问题
+3. **记忆要持久化** — 每次失败都要变成下次的防御能力
+
+### 工程效果
+
+在无手写代码的情况下：
+- 累计生成 15 万行代码
+- 单次任务平均执行 50+ 步骤
+- 验收问题发现率 > 60%（大部分问题在验收阶段被发现）
 
 ---
 
-最近一直在讨论 Harness Engineering，很多人问我：道理我都懂，但你自己是怎么落地的？
+## English Translation
 
-这篇就来回答这个问题。
+Author shares practical experience of generating **150,000 lines of code** without hand-coding.
 
-先说明一下，Harness Engineering 这个概念还比较新，大家对它的理解和做法也不完全一样。所以本篇文章讲的，不是什么标准范式、概念解读，而是一套可落地的执行方案。
+### Core Architecture
 
-这套方案是从实际项目开发总结出来的，到目前为止，在没有手写一行代码的前提下，项目累计生成了十五万行代码，并且项目没有失控，没有出现项目越做越乱、Bug 越改越多的情况。当前日均 Token 消耗接近 2 亿，单个任务可以连续执行接近两个小时，期间基本不需要人工干预。
+**Role Separation: Planner-Evaluator-Generator**
 
-所以可以说，这套流程跑通了，也验证过确实有效，希望能给正在做 AI 开发实践的同学一些参考。
+- **Planner**: Codex (GPT model) handles planning, acceptance, requirement breakdown
+- **Evaluator**: Independent role verifies implementation against requirements
+- **Generator**: Claude Code (domestic open-source model) handles code generation
 
-内容比较长，我拆成上下两篇。上篇聊清楚两件事：为什么需要 Harness Engineering，以及我整套方案的总体设计和 Codex 这一侧的角色。下篇再详细展开 Claude Code 这一侧的子 Agent 体系、完整开发闭环和工作流演进。
+### Key Mechanisms
 
-开始，进入正题。
+1. **Phase Planning**: Each task divided into phases with clear acceptance criteria
+2. **Structured Prompt**: Describe requirements structurally to reduce ambiguity
+3. **Zero-Trust Acceptance**: Assume every generation has problems, enforce verification process
+4. **Long-term Memory**: Issues found in acceptance (unverified production paths, no error logs) automatically沉淀 to memory files, checked automatically next time
 
-*** ** * ** ***
+### Core Principles Validated
 
+Several Harness Engineering principles validated:
 
-## ◆写代码不等于做软件
+1. **Planning and execution must be separate** — if Planner also executes, it loses objective judgment
+2. **Verification and implementation must not be the same role** — if you write code and verify it yourself, you'll never find problems
+3. **Memory must be persistent** — every failure becomes next time's defense capability
 
-开始前先说一下目前我观察到的大家对 AI 编程的普遍误判。
+### Engineering Results
 
-AI 现在已经可以让一个完全没有编程基础的同学做出展示页面、小游戏，甚至一些简单工具。于是很多人开始觉得，软件开发好像变简单了，做软件好像就是把代码写出来这件事。
+Without hand-coding:
+- 150,000 lines of code generated cumulatively
+- Average 50+ steps per task execution
+- 60%+ issue detection rate (most issues caught at verification stage)
 
-但问题就在这里，工程经验告诉我们，**写代码不等于做软件** 。
-
-在小而独立的场景里，AI 的能力确实已经足够强，体验也很惊艳。但一旦切换到生产级项目，需求一多、模块一复杂、多人协作一介入、上线和迭代一发生，原本高效的生成过程很快就会出现混乱，最后大家看着一坨屎山代码骂骂咧咧说 AI 不行。
-
-这其实是误判了问题所在。
-
-因为真实的软件开发从来都不只是写代码，而是一个完整的工程闭环。需求评审、方案设计、任务拆解、排期计划、代码开发、测试验收、上线部署、回归监控，这套经过十几年沉淀下来的东西，在 AI 时代不应该被抛弃，而是需要被升级。
-
-**变的不是软件工程本身，是每个环节的执行方式。**
-
-AI 让代码生成变得极其容易，但软件交付的复杂性并没有因此消失。真正的瓶颈只是从写代码转移到了需求定义、架构约束、质量验证和变更治理。如果缺少这些流程约束，AI 带来的往往不是效率的线性提升，而是复杂度的指数放大。
-
-这也是我做 Harness Engineering 方向探索的基本原则：**通过现有软件开发的流程经验来给 AI 做限制，给 AI 装上缰绳，不让它自由发挥，让它在一套工程约束体系里稳定交付。**
-
-*** ** * ** ***
-
-
-## ◆Harness 在解决什么问题
-
-先把概念回顾一下。
-
-我对 Harness Engineering 的理解，就是给 AI 搭一套外部约束，以此来弥补模型当前能力的不足。**通过给模型施加约束和必要的信息补充** ，让它能可靠完成复杂的、多 Agent 协作的任务。
-
-它主要解决四个唯独的问题。
-
-**执行纪律。** 单个 Agent 没有持久记忆，切换会话后不知道上次做到哪里、哪些决定已经做过。更麻烦的是，它很容易提前交卷，说做完了，但其实只跑通了测试环境，生产路径根本没碰等等问题。
-
-**协作秩序。** 多个 Agent 同时工作时，没有明确分工就会同时改同一块代码，互相覆盖；没有依赖约束，前端还没拿到接口定义就开始写调用层，合并时直接炸掉；没有交接机制，一个 Agent 做到一半的东西，下一个根本不知道当前状态。
-
-**质量验证。** 模型对自己的输出盲目自信。它写完代码，跑了测试，测试通过，就认为完成了。但测试通过只能证明被测到的路径没出错，不能证明整个实现是可用的。
-
-**经验沉淀。** 踩过的坑如果只停留在单次的上下文里，下次换个 Agent 或者开个新会话，同样的错误还会再犯一遍。Agent 没有跨会话的记忆，每一次对它来说都是第一次。
-
-后面展开的内容，都是在回应这四个问题。
-
-*** ** * ** ***
-
-
-## ◆核心设计：两个职责清晰的角色
-
-我的方案是把 Claude Code 和 Codex 组合使用。它们不是两个同时在写代码的工具，它们两个职责完全不同的 Agent。
-
-* **Codex 是主 Agent，使用 GPT 模型。** 它不写任何代码，只负责需求拆解、制定阶段计划、生成可执行 Prompt，以及对开发结果做验收。
-
-* **Claude Code 是开发 Agent，使用国产开源模型。** 它负责具体代码实现、自测回归、文档更新，以及最终的 Git 提交与合并。
-
-这个分工的依据是我对 Harness Engineering 的抽象理解：**规划和执行不能混在一起，验收和实现不能是同一个角色。** 对应的就是协作秩序问题，规划器、执行器、裁判各司其职，从角色设计上就把职责边界划清楚。
-
-![](https://cubox.pro/c/filters:no_upscale()?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2F3jiaibD6eTuU1W4YX98kkjBXp1jBAialfx6OiagTbyd6pnLBGsgYXa0ahKRicFpysofs8uoWvg4xcFxfLYhUXoasUvvwNlLMGQHGEB9aO032LmSA%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%26watermark%3D1%23imgIndex%3D0)
-
-*** ** * ** ***
-
-
-## ◆一次完整的协作闭环长什么样
-
-光说分工不够直观，我拿一次真实的任务走一遍。
-
-### 第一步，Codex 接收需求，拆解计划。
-
-我会把需求描述给 Codex，让它基于需求做几个关键判断：涉及哪些现有模块？需要几轮才能完成？哪一轮先建立最小闭环？哪些依赖必须先行？
-
-确认清楚之后，Codex 给出分阶段的开发计划，每一轮都有明确的完成标准。不是模糊的做完某某功能，是具体的这一轮实现什么、不做什么、边界在哪里、怎么验收。
-
-然后 Codex 把第一轮任务转化成一份详细的 Prompt，里面会写清楚：当前系统已有什么、这轮要做什么、哪些东西不能动、验收标准是什么。
-
-### 第二步，Claude Code 接收 Prompt，开始开发。
-
-Claude Code 拿到这份需求说明，按照里面的指引，先读相关文件，再写失败测试，再写实现，最后跑验证。整个过程在规定的文件范围内进行，不会自己发挥。
-
-完成后，Claude Code 输出一份交付报告：改了哪些文件、新增了哪些测试、验证命令跑通的结果。
-
-### 第三步，Codex 做零信任验收，发现问题。
-
-Codex 拿到交付报告，不默认相信**已完成** 这个结论，而是重新站在原始需求上审一遍。这里对应的是 Harness Engineering 里质量验证的核心思路：执行和验证分离，验证方主动找问题，而不是帮执行方打分。
-
-比如这次审查发现了两个典型问题：实现只在测试环境跑通，没有接入真实的生产路径；异常情况下没有任何日志输出，出了问题根本查不到。这两类问题有个共同特征：从代码层面看不出明显破绽，测试也能通过，但放进生产环境就会出事。正是因为验证方不带开发上下文，才能从结果倒查出这些问题。
-
-Codex 把发现的问题明确列出来，带着具体的代码位置，交回给 Claude Code。
-
-### 第四步，Claude Code 修复，Codex 再次验收。
-
-Claude Code 针对这些问题做定向修复，不做其他改动。修完重新提交交付报告。Codex 再次审查，逐条确认，全部通过，这一轮才算关闭。
-
-这个来回的过程，把传统开发里人工 Code Review 和验收测试这两件事，变成了 Agent 之间有结构、有证据的协作闭环。
-
-更重要的是，这次发现的两类问题（生产路径未验证、异常无日志），事后都会沉淀到 Codex 的记忆文件里，后续的验收任务中自动包含这两条检查项，不需要人再提醒。
-
-我在 **Codex 这一侧维护了一个独立的长期记忆文件，专门用来沉淀验收经验。** 每次验收里发现的共性问题，都会在当轮结束时追加进去，格式大致是问题类型、触发场景、检查方式、反例代码片段。下一次 Codex 做验收时，这份文件会作为上下文一并载入，它就会主动把这些历史教训作为检查项跑一遍。这是经验沉淀在 Codex 这一侧的落地方式，工作流在每一次出错之后自我修正，相关经验都会长期生效。
-
-*** ** * ** ***
-
-
-## ◆为什么选择这样的组合
-
-Codex 之所以放在规划和验收这一侧，并且使用用 GPT 模型，是因为这两件事的核心是逻辑推理和语言表达，要把模糊需求拆成清晰的分阶段计划，要把复杂要求写成结构化的 Prompt，要在验收时能精确地指出问题位置。GPT 系列在这类任务上目前的稳定性是我最看好的，而且只用一个 ChatGPT Plus 订阅就能满足，成本可控。
-
-Claude Code 这一侧用的是开源模型，GLM5/GLM5.1、Minimax2.7、Kimi2.5/Kimi2.7 这几个模型我都用过，在这个组合下开发效果都非常好（后面我会补一篇他们的对比）。因为它承担的是重活累活，大量的读文件、写代码、跑测试、改文档，Token 消耗是 Codex 的几十倍以上。开源模型便宜、量大、管饱，而且在这套体系下，它拿到的已经是非常具体的任务书了，对模型的泛化推理能力要求没那么高，只要能稳定执行就够。
-
-*** ** * ** ***
-
-
-## ◆Codex：项目架构师
-
-在我的方案里，Codex 的角色是产品经理、技术负责人和架构 Owner 的组合。它做三件事。
-
-### 1. 把需求落实成阶段计划
-
-任何一个复杂需求，直接扔给开发 Agent 都是灾难的开始。所以第一步是让 Codex 先把需求抽象成逻辑模块和逻辑步骤，再把这些模块和步骤细化成一份有序的开发计划。
-
-这个计划要能回答清楚：这个需求需要分几轮完成？每一轮的目标是什么？哪一轮先建立最小闭环？哪些能力必须先做，哪些可以后置？哪些改动风险最大，需要单独拆出来？每一阶段的完成标准是什么？
-
-这里的关键是在真正动手之前，先把混沌的需求变成有序的执行序列。因为这里是最容易被忽视的一个情况：Agent 不是不听话，是根本没有一份足够清晰的清单可以参考。
-
-复杂系统里，如果一轮任务既改模型、又改服务、又改 API、又改调度、又改测试，开发 Agent 很容易在上下文和实现细节里迷失，最后交付的东西说不清楚做了什么、对齐了什么。
-
-大家用 AI 做开发的时候很可能已经遇到这个问题了，开始阶段感觉还不错，可越到后期问题越多，AI 变得越不可控。合理的阶段计划让每一轮都能独立验收、形成清晰闭环，失败了也知道断在哪里。
-
-### 2. 把每个子任务转化成可执行的 Prompt
-
-这里有一个很现实的问题：**不是每个人都能把需求和目标描述正确且清楚。** 而 AI 很擅长执行，如果目标定义错了，它会非常搞笑地把错误方案实现得非常完整，做得越快，错得越多。
-
-所以我让 Codex 来做这件事，把需求转化成高度专业且规范的 Prompt，在里面明确：
-
-* 本轮开发属于哪个阶段、哪个 模块
-
-* 为什么现在要做这件事
-
-* 当前系统已经实现了什么
-
-* 本轮的准确目标是什么
-
-* 开始前需要阅读哪些必要文件
-
-* 具体必须实现哪些内容
-
-* 哪些事情明确不能做
-
-* 需要遵守哪些语义边界和兼容约束
-
-* 需要增加哪些日志、指标、诊断或 API
-
-* 需要补哪些测试
-
-* 应该运行哪些验证命令
-
-* 最终交付应该包含什么
-
-* 这轮任务的验收边界是什么
-
-这不是一句帮我实现某某功能，而是一份接近小型技术任务书的东西。
-
-这样一来，我和 Codex 只做项目抽象层面的交互，比如决定下一个任务是什么、当前完成的有什么问题、要采用什么方案优化。而这些决策以什么样的 Prompt 交付给开发 Agent，是 Codex 来负责的。
-
-这也是我在这套体系里感受最深的一点：**Prompt 工程没有消失，只是从少数人研究的技巧变成了你要想稳定用 Agent 干活，就绕不过去的基本功。** 通过 Codex 来解决人工写 Prompt 质量参差不齐的问题，依靠 GPT 模型强大的逻辑和表达能力，呈现出来的效果比人工手写要靠谱得多。
-
-### 3. 基于零信任思维对开发结果做验收
-
-开发 Agent 说完成了，不等于真的完成了。测试通过，也不等于可以验收。即使用最强的模型做开发也不行，否则一定要吃亏。
-
-这里借用网络安全中的零信任理念，核心思想是：**永不信任，始终验证。**
-
-让 Codex 重新站在原始目标上做一次零信任审核，不默认相信开发 Agent 的结论，而是重新检查：实现是否真的对齐原始需求？新代码是否接入了真实生产路径？测试是否只是 Mock 通过、真实路径没跑通？是否破坏了已有语义边界？是否引入了高风险副作用？是否存在重复写入、状态错乱、幂等性问题？指标、诊断、事件是否来自真实数据？
-
-发现问题就明确列出来，让开发 Agent 继续修复，修完再复查，直到满足验收标准。
-
-![](https://cubox.pro/c/filters:no_upscale()?imageUrl=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2F3jiaibD6eTuU23pia7je9q549kicZ2hiaEGqic3YOFMdv2cMNUjkxlIQzesUkmkCApAQUJd2Adjljg3BpsEicFdLibYcBDLA3PfacgfalMaERvIjhgo%2F640%3Fwx_fmt%3Dpng%26from%3Dappmsg%26watermark%3D1%23imgIndex%3D1)
-
-*** ** * ** ***
-
-
-## ◆上篇小结
-
-由于整篇内容过多，上篇到这里先讲清楚两件事：为什么要做 Harness Engineering 实践，以及我这套双 Agent 方案里 Codex 的角色定位。
-
-总结成一句话就是：**AI 可以大幅提升执行效率，但不能替代工程治理。** 真正要解决的，不是怎么让 AI 多写代码，而是怎么让 AI 在约束中稳定交付。
-
-下篇我会继续展开 Claude Code 这一侧：子 Agent 分工、开发主流程、会话续接，以及整个执行层是如何逐步演进出来的。
-
-
-
+> Source: [WeChat Article](https://mp.weixin.qq.com/s?__biz=MzIxMjk2NDE1NA==&mid=2247483752&idx=1&sn=4c49ba63e425aae3c3ea1b96ca138587)

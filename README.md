@@ -4,6 +4,7 @@
 
 ## 最新精选 Top 10
 
+- [来自 Codex 官方团队的分享：如何把 Codex 用到极致](https://baoyu.io/blog/2026-05-20/jxnlco-2057153744630890620) ⭐4 · 2026-05-20 — Codex 官方团队系统梳理的 AI Agent 实践指南，持久记忆+自动化+目标驱动是核心范式
 - [MCP-Flow: 自动构建大规模 MCP 工具数据集，让 0.6B 模型在工具调用上超越 GPT-4o](https://arxiv.org/abs/2510.24284) ⭐4 · 2026-05-04 — 0.6B 小模型微调后在 MCP 工具调用上全面超越 GPT-4o，证明小模型+数据工程才是正确方向
 - [Greg Brockman 详解 Codex 验证创业想法的 Skill](https://x.com/gdb/status/2050972114077843772) ⭐4 · 2026-05-04 — Codex Skill：用AI压力测试创业想法，快速暴露核心假设漏洞
 - [Google Gemini Embedding 2 多模态嵌入模型](https://x.com/GoogleAI/status/2049903687016063456) ⭐5 · 2026-05-03 — Google原生多模态嵌入模型：支持视频和视觉分析
@@ -13,7 +14,6 @@
 - [OpenAI CFO Sarah Friar：建议将 IPO 推迟至 2027 年，正在管理 Sam Altman](https://www.wsj.com/business/openai-sam-altman-ipo-sarah-friar-392c582b) ⭐4 · 2026-05-02 — CFO 劝老板别急着上市——这可能是 OpenAI 最理性的一次决策。
 - [马斯克诉 OpenAI 案首周遭遇波折](https://www.bloomberg.com/news/articles/2026-05-02/musk-s-trial-against-openai-hits-some-rough-spots-in-first-week) ⭐3 · 2026-05-02 — AI 行业最大诉讼开局不利——但真正的战场不在法庭，在公众叙事。
 - [Claude Code 向 Codex 的习惯迁移](https://www.ccgxk.com/codeother/733.html) ⭐3 · 2026-05-02 — Claude Code 到 Codex 的迁移不是换个快捷键——是换一套编程心智模型。
-- [Anthropic 正在与英国 AI 芯片初创 Fractile 洽谈采购推理芯片](https://www.theinformation.com/articles/anthropic-talks-buy-ai-chips-u-k-startup) ⭐3 · 2026-05-02 — Anthropic 买芯片买到还没上市的公司——推理算力饥渴已成 AI 行业最大瓶颈。
 
 ## 频道导航
 
@@ -21,7 +21,7 @@
 |---|---:|---|
 | 模型与实验室 | 118 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
 | Agent 与自动化 | 146 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 162 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| AI 编程 | 163 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 28 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 39 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 47 | 论文、课程、提示工程、长文、方法论。 |
@@ -29,15 +29,15 @@
 
 ## 当前数据
 
-- 原始条目: 892
-- 公开展示卡片: 579
-- 有全文内容: 509
-- 最近 7 天信号: 124
+- 原始条目: 893
+- 公开展示卡片: 580
+- 有全文内容: 510
+- 最近 7 天信号: 1
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`agent`, `llm`, `claude`, `openclaw`, `coding`, `paper`, `ai-tools`, `openai`, `reasoning`, `codex`, `claude-code`, `mcp`, `multi-agent`, `memory`, `anthropic`, `Agent`, `workflow`, `Android`
+`agent`, `llm`, `claude`, `openclaw`, `coding`, `openai`, `paper`, `ai-tools`, `reasoning`, `codex`, `mcp`, `claude-code`, `multi-agent`, `memory`, `anthropic`, `Agent`, `workflow`, `Android`
 
 ## 自动化约定
 
