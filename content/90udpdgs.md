@@ -1,135 +1,61 @@
-# LLM Powered Autonomous Agents | Lil'Log
+# LLM Powered Autonomous Agents（基于大语言模型的自主智能体）
 
-
-
-      LLM Powered Autonomous Agents
-
-Date: June 23, 2023  |  Estimated Reading Time: 31 min  |  Author: Lilian Weng
-
-Table of Contents
-
-Agent System Overview
-
-Component One: Planning
-
-Task Decomposition
-
-Self-Reflection
-
-Component Two: Memory
-
-Types of Memory
-
-Maximum Inner Product Search (MIPS)
-
-Component Three: Tool Use
-
-Case Studies
-
-Scientific Discovery Agent
-
-Generative Agents Simulation
-
-Proof-of-Concept Examples
-
-Challenges
-
-Citation
-
-References
+## 英文原文
 
 Building agents with LLM (large language model) as its core controller is a cool concept. Several proof-of-concepts demos, such as AutoGPT, GPT-Engineer and BabyAGI, serve as inspiring examples. The potentiality of LLM extends beyond generating well-written copies, stories, essays and programs; it can be framed as a powerful general problem solver.
-Agent System Overview#
-In a LLM-powered autonomous agent system, LLM functions as the agent’s brain, complemented by several key components:
 
-Planning
+## 中文翻译
 
-Subgoal and decomposition: The agent breaks down large tasks into smaller, manageable subgoals, enabling efficient handling of complex tasks.
-Reflection and refinement: The agent can do self-criticism and self-reflection over past actions, learn from mistakes and refine them for future steps, thereby improving the quality of final results.
+以大语言模型（LLM）作为核心控制器来构建智能体是一个很有意思的概念。几个概念验证演示，如 AutoGPT、GPT-Engineer 和 BabyAGI，是很有启发性的例子。LLM 的潜力远不止生成优美的文案、故事、论文和程序；它可以被框架为一个强大的通用问题解决器。
 
-Memory
+---
 
-Short-term memory: I would consider all the in-context learning (See Prompt Engineering) as utilizing short-term memory of the model to learn.
-Long-term memory: This provides the agent with the capability to retain and recall (infinite) information over extended periods, often by leveraging an external vector store and fast retrieval.
+## 英文原文
 
-Tool use
+In a LLM-powered autonomous agent system, LLM functions as the agent's brain, complemented by several key components:
+- Planning: Subgoal and decomposition - The agent breaks down large tasks into smaller, manageable subgoals, enabling efficient handling of complex tasks. Reflection and refinement: The agent can do self-criticism and self-reflection over past actions, learn from mistakes and refine them for future steps.
+- Memory: Short-term memory is in-context learning. Long-term memory provides the agent with the capability to retain and recall information over extended periods, often by leveraging an external vector store and fast retrieval.
+- Tool use: The agent learns to call external APIs for extra information that is missing from the model weights, including current information, code execution capability, access to proprietary information sources.
 
-The agent learns to call external APIs for extra information that is missing from the model weights (often hard to change after pre-training), including current information, code execution capability, access to proprietary information sources and more.
+## 中文翻译
 
-Overview of a LLM-powered autonomous agent system.
+在基于 LLM 的自主智能体系统中，LLM 作为智能体的大脑，配合几个关键组件：
+- 规划：子目标和分解——智能体将大任务分解为更小、可管理的子目标，从而高效处理复杂任务。反思和改进：智能体可以对过去的行为进行自我批评和自我反思，从错误中学习并为未来步骤进行改进。
+- 记忆：短时记忆是上下文学习。长时记忆为智能体提供在较长时间内保留和回忆信息的能力，通常通过利用外部向量存储和快速检索来实现。
+- 工具使用：智能体学习调用外部 API 来获取模型权重中缺失的额外信息，包括当前信息、代码执行能力、对专有信息源的访问。
 
-Component One: Planning#
-A complicated task usually involves many steps. An agent needs to know what they are and plan ahead.
-Task Decomposition#
-Chain of thought (CoT; Wei et al. 2022) has become a standard prompting technique for enhancing model performance on complex tasks. The model is instructed to “think step by step” to utilize more test-time computation to decompose hard tasks into smaller and simpler steps. CoT transforms big tasks into multiple manageable tasks and shed lights into an interpretation of the model’s thinking process.
-Tree of Thoughts (Yao et al. 2023) extends CoT by exploring multiple reasoning possibilities at each step. It first decomposes the problem into multiple thought steps and generates multiple thoughts per step, creating a tree structure. The search process can be BFS (breadth-first search) or DFS (depth-first search) with each state evaluated by a classifier (via a prompt) or majority vote.
+---
+
+## 英文原文
+
 Task decomposition can be done (1) by LLM with simple prompting like "Steps for XYZ.\n1.", "What are the subgoals for achieving XYZ?", (2) by using task-specific instructions; e.g. "Write a story outline." for writing a novel, or (3) with human inputs.
-Another quite distinct approach, LLM+P (Liu et al. 2023), involves relying on an external classical planner to do long-horizon planning. This approach utilizes the Planning Domain Definition Language (PDDL) as an intermediate interface to describe the planning problem. In this process, LLM (1) translates the problem into “Problem PDDL”, then (2) requests a classical planner to generate a PDDL plan based on an existing “Domain PDDL”, and finally (3) translates the PDDL plan back into natural language. Essentially, the planning step is outsourced to an external tool, assuming the availability of domain-specific PDDL and a suitable planner which is common in certain robotic setups but not in many other domains.
-Self-Reflection#
-Self-reflection is a vital aspect that allows autonomous agents to improve iteratively by refining past action decisions and correcting previous mistakes. It plays a crucial role in real-world tasks where trial and error are inevitable.
-ReAct (Yao et al. 2023) integrates reasoning and acting within LLM by extending the action space to be a combination of task-specific discrete actions and the language space. The former enables LLM to interact with the environment (e.g. use Wikipedia search API), while the latter prompting LLM to generate reasoning traces in natural language.
-The ReAct prompt template incorporates explicit steps for LLM to think, roughly formatted as:
-Thought: ...
-Action: ...
-Observation: ...
-... (Repeated many times)
+Tree of Thoughts (Yao et al. 2023) extends CoT by exploring multiple reasoning possibilities at each step. It first decomposes the problem into multiple thought steps and generates multiple thoughts per step, creating a tree structure.
 
-Examples of reasoning trajectories for knowledge-intensive tasks (e.g. HotpotQA, FEVER) and decision-making tasks (e.g. AlfWorld Env, WebShop). (Image source: Yao et al. 2023).
+## 中文翻译
 
-In both experiments on knowledge-intensive tasks and decision-making tasks, ReAct works better than the Act-only baseline where Thought: … step is removed.
-Reflexion (Shinn & Labash 2023) is a framework to equip agents with dynamic memory and self-reflection capabilities to improve reasoning skills. Reflexion has a standard RL setup, in which the reward model provides a simple binary reward and the action space follows the setup in ReAct where the task-specific action space is augmented with language to enable complex reasoning steps. After each action $a_t$, the agent computes a heuristic $h_t$ and optionally may decide to reset the environment to start a new trial depending on the self-reflection results.
+任务分解可以 (1) 通过 LLM 用简单提示如"XYZ 的步骤。\n1."、"实现 XYZ 的子目标是什么？"，(2) 使用任务特定指令；例如为写小说使用"写一个故事大纲。"，或 (3) 通过人类输入。
+思维树（Tree of Thoughts，Yao et al. 2023）通过在每一步探索多种推理可能性来扩展思维链。它首先将问题分解为多个思维步骤，并在每一步生成多个思维，创建树状结构。
 
-Illustration of the Reflexion framework. (Image source: Shinn & Labash, 2023)
+---
 
-The heuristic function determines when the trajectory is inefficient or contains hallucination and should be stopped. Inefficient planning refers to trajectories that take too long without success. Hallucination is defined as encountering a sequence of consecutive identical actions that lead to the same observation in the environment.
-Self-reflection is created by showing two-shot examples to LLM and each example is a pair of (failed trajectory, ideal reflection for guiding future changes in the plan). Then reflections are added into the agent’s working memory, up to three, to be used as context for querying LLM.
+## 英文原文
 
-Experiments on AlfWorld Env and HotpotQA. Hallucination is a more common failure than inefficient planning in AlfWorld. (Image source: Shinn & Labash, 2023)
+Self-reflection is a vital aspect that allows autonomous agents to improve iteratively by refining past action decisions and correcting previous mistakes. ReAct (Yao et al. 2023) integrates reasoning and acting within LLM by extending the action space to be a combination of task-specific discrete actions and the language space. The prompt template incorporates explicit steps for LLM to think: Thought: ... Action: ... Observation: ... (Repeated many times)
+Reflexion (Shinn & Labash 2023) is a framework to equip agents with dynamic memory and self-reflection capabilities to improve reasoning skills.
 
-Chain of Hindsight (CoH; Liu et al. 2023) encourages the model to improve on its own outputs by explicitly presenting it with a sequence of past outputs, each annotated with feedback. Human feedback data is a collection of $D_h = \{(x, y_i , r_i , z_i)\}_{i=1}^n$, where $x$ is the prompt, each $y_i$ is a model completion, $r_i$ is the human rating of $y_i$, and $z_i$ is the corresponding human-provided hindsight feedback. Assume the feedback tuples are ranked by reward, $r_n \geq r_{n-1} \geq \dots \geq r_1$ The process is supervised fine-tuning where the data is a sequence in the form of $\tau_h = (x, z_i, y_i, z_j, y_j, \dots, z_n, y_n)$, where $\leq i \leq j \leq n$. The model is finetuned to only predict $y_n$ where conditioned on the sequence prefix, such that the model can self-reflect to produce better output based on the feedback sequence. The model can optionally receive multiple rounds of instructions with human annotators at test time.
-To avoid overfitting, CoH adds a regularization term to maximize the log-likelihood of the pre-training dataset. To avoid shortcutting and copying (because there are many common words in feedback sequences), they randomly mask 0% - 5% of past tokens during training.
-The training dataset in their experiments is a combination of WebGPT comparisons, summarization from human feedback and human preference dataset.
+## 中文翻译
 
-After fine-tuning with CoH, the model can follow instructions to produce outputs with incremental improvement in a sequence. (Image source: Liu et al. 2023)
+自我反思是一个关键方面，允许自主智能体通过改进过去的行动决策和纠正先前错误来迭代改进。ReAct（Yao et al. 2023）通过将行动空间扩展为任务特定离散动作和语言空间的组合，将推理和行动整合在 LLM 中。提示模板包含 LLM 思考的明确步骤：Thought: ... Action: ... Observation: ...（重复多次）
+Reflexion（Shinn & Labash 2023）是一个为智能体配备动态记忆和自我反思能力以提高推理能力的框架。
 
-The idea of CoH is to present a history of sequentially improved outputs  in context and train the model to take on the trend to produce better outputs. Algorithm Distillation (AD; Laskin et al. 2023) applies the same idea to cross-episode trajectories in reinforcement learning tasks, where an algorithm is encapsulated in a long history-conditioned policy. Considering that an agent interacts with the environment many times and in each episode the agent gets a little better, AD concatenates this learning history and feeds that into the model. Hence we should expect the next predicted action to lead to better performance than previous trials. The goal is to learn the process of RL instead of training a task-specific policy itself.
+---
 
-Illustration of how Algorithm Distillation (AD) works. (Image source: Laskin et al. 2023).
+## 英文原文
 
-The paper hypothesizes that any algorithm that generates a set of learning histories can be distilled into a neural network by performing behavioral cloning over actions. The history data is generated by a set of source policies, each trained for a specific task. At the training stage, during each RL run, a random task is sampled and a subsequence of multi-episode history is used for training, such that the learned policy is task-agnostic.
-In reality, the model has limited context window length, so episodes should be short enough to construct multi-episode history. Multi-episodic contexts of 2-4 episodes are necessary to learn a near-optimal in-context RL algorithm. The emergence of in-context RL requires long enough context.
-In comparison with three baselines, including ED (expert distillation, behavior cloning with expert trajectories instead of learning history), source policy (used for generating trajectories for distillation by UCB), RL^2 (Duan et al. 2017; used as upper bound since it needs online RL), AD demonstrates in-context RL with performance getting close to RL^2 despite only using offline RL and learns much faster than other baselines. When conditioned on partial training history of the source policy, AD also improves much faster than ED baseline.
+The external memory can alleviate the restriction of finite attention span. A standard practice is to save the embedding representation of information into a vector store database that can support fast maximum inner-product search (MIPS). To optimize the retrieval speed, the common choice is approximate nearest neighbors (ANN) algorithm to return approximately top k nearest neighbors to trade off a little accuracy lost for a huge speedup.
+Common ANN algorithms include LSH (Locality-Sensitive Hashing), ANNOY, HNSW, and FAISS.
 
-Comparison of AD, ED, source policy and RL^2 on environments that require memory and exploration. Only binary reward is assigned. The source policies are trained with A3C for "dark" environments and DQN for watermaze.(Image source: Laskin et al. 2023)
+## 中文翻译
 
-Component Two: Memory#
-(Big thank you to ChatGPT for helping me draft this section. I’ve learned a lot about the human brain and data structure for fast MIPS in my conversations with ChatGPT.)
-Types of Memory#
-Memory can be defined as the processes used to acquire, store, retain, and later retrieve information. There are several types of memory in human brains.
-
-Sensory Memory: This is the earliest stage of memory, providing the ability to retain impressions of sensory information (visual, auditory, etc) after the original stimuli have ended. Sensory memory typically only lasts for up to a few seconds. Subcategories include iconic memory (visual), echoic memory (auditory), and haptic memory (touch).
-
-Short-Term Memory (STM) or Working Memory: It stores information that we are currently aware of and needed to carry out complex cognitive tasks such as learning and reasoning. Short-term memory is believed to have the capacity of about 7 items (Miller 1956) and lasts for 20-30 seconds.
-
-Long-Term Memory (LTM): Long-term memory can store information for a remarkably long time, ranging from a few days to decades, with an essentially unlimited storage capacity. There are two subtypes of LTM:
-
-Explicit / declarative memory: This is memory of facts and events, and refers to those memories that can be consciously recalled, including episodic memory (events and experiences) and semantic memory (facts and concepts).
-Implicit / procedural memory: This type of memory is unconscious and involves skills and routines that are performed automatically, like riding a bike or typing on a keyboard.
-
-Categorization of human memory.
-
-We can roughly consider the following mappings:
-
-Sensory memory as learning embedding representations for raw inputs, including text, image or other modalities;
-Short-term memory as in-context learning. It is short and finite, as it is restricted by the finite context window length of Transformer.
-Long-term memory as the external vector store that the agent can attend to at query time, accessible via fast retrieval.
-
-Maximum Inner Product Search (MIPS)#
-The external memory can alleviate the restriction of finite attention span.  A standard practice is to save the embedding representation of information into a vector store database that can support fast maximum inner-product search (MIPS). To optimize the retrieval speed, the common choice is the approximate nearest neighbors (ANN)​ algorithm to return approximately top k nearest neighbors to trade off a little accuracy lost for a huge speedup.
-A couple common choices of ANN algorithms for fast MIPS:
-
-LSH (Locality-Sensitive Hashing): It introduces a hashing function such that similar input items are mapped to the same buckets with high probability, where the number of buckets is much smaller than the number of inputs.
-ANNOY (Approximate Nearest Neighbors Oh Yeah): The core data structure are random projection trees, a set of binary trees where each non-leaf node represents a hyperplane splitting the input space into half and each leaf stores one data point. Trees are built independently and at random, so to some extent, it mimics a hashing function. ANNOY search happens in all the trees to iteratively search through the half that is closest to the query and then aggregates the results. The idea is quite related to KD tree but a lot more scalable.
-HNSW (Hierarchical Navigable Small World): It is inspired by the idea of small world networks where most nodes can be reached by any other nodes within a small number of steps; e.g. “six degrees of separation” feature of social networks. HNSW builds hierarchical layers of these small-world graphs, where the bottom layers contain the actual data points. The layers in the middle create shortcuts to speed up search. When performing a search, HNSW starts from a random node in the top layer and navigates towards the target. When it can’t get any closer, it moves down to the next layer, until it reaches the bottom layer. Each move in the upper layers can potentially cover a large distance in the data space, and each move in the lower layers refines the search quality.
-FAISS (Facebook AI Similarity Search): It operates on the assumption that in high dimensional space, distances between nodes follow a Gaussian distribution and thus there should exist clustering of data points. FAISS applies vector quantization by partitioning the vector space into clusters and then refining the quantization within clusters. Search first looks for cluster candidates with coarse quantization and then further looks into each cluster with finer quantization.
-ScaNN (Scalable Nearest Neighbors): The main innovation in ScaNN is anisotropic vector qu
+外部记忆可以缓解有限注意力跨度的限制。一个标准做法是将信息的嵌入表示保存到向量存储数据库中，以支持快速最大内积搜索（MIPS）。为了优化检索速度，通常的选择是近似最近邻（ANN）算法，返回大约 top k 个最近邻，以微小的精度损失换取巨大的速度提升。
+常见的 ANN 算法包括 LSH（局部敏感哈希）、ANNOY、HNSW 和 FAISS。
