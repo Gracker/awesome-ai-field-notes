@@ -1,371 +1,69 @@
 # 做AI产品两年，我得出的实操经验
 
-> 公众号: 多睡觉多学习就好咯
-> 发布时间: 1970-01-01 08:33:45
-> 原文链接: https://mp.weixin.qq.com/s/HsFhXMLejsQWjTghUYdKFA
+## Original English Content
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<link rel="shortcut icon" type="image/x-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico">
+<link rel="mask-icon" href="//res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+<link rel="apple-touch-icon-precomposed" href="//res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png">
+
+        <title></title>
+        <script>
+        (() => {
+            
+            const ua = navigator.userAgent;
+            const noMobile = !(/(iPhone|iPad|iPod|iOS)/i.test(ua) || /Windows\sPhone/i.test(ua) || /(Android)/i.test(ua));
+            setTimeout(() => {
+                noMobile && document.title === '' && (document.title = '微信公众平台');
+            }, 1000);
+        })();
+        </script>
+        
+<link rel="stylesheet" type="text/css" href="//res.wx.qq.com/t/wx_fed/weui-source/res/2.5.14/weui.min.css">
+
+<link rel="stylesheet" href="//res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/secitptpage/verify7e212c.css" media="all">
+<script type="text/javascript">
+  
+</script>
+
+    </head>
+    <body class="zh_CN " ontouchstart="">
+         
+<div class="weui-msg">
+  <div id="tips" style="display:none;" class="top_tips warning"></div>
+        <div class="weui-msg__icon-area">
+      <i class="weui-icon-info-circle weui-icon_msg"></i>
+    </div>
+    <div class="weui-msg__text-area pc-area">
+        <h2 class="weui-msg__title">环境异常</h2>
+        <p class="weui-msg__desc">当前环境异常，完成验证后即可继续访问。</p>
+    </div>
+    <div class="weui-msg__opr-area">
+      <p class="weui-btn-area">
+        <a class="weui-btn weui-btn_primary" id="js_verify">去验证</a>
+      </p>
+    </div>
+    </div>
+
+<script type="text/javascript">
+var PAGE_MID='mmbizwap:secitptpage/verify.html';
+</script>
+        
+        <style>body,.wx-root{--weui-BG-0:#ededed;--weui-BG-1:#f7f7f7;--weui-BG-2:#fff;--weui-BG-3:#f7f7f7;--weui-BG-4:#4c4c4c;--weui-BG-5:#fff;--weui-FG-0:rgba(0,0,0,0.9);--weui-FG-HALF:rgba(0,0,0,0.9);--weui-FG-1:rgba(0,0,0,0.5);--weui-FG-2:rgba(0,0,0,0.3);--weui-FG-3:rgba(0,0,0,0.1);--weui-FG-4:rgba(0,0,0,0.15);--weui-FG-5:rgba(0,0,0,0.05);--weui-RED:#fa5151;--weui-REDORANGE:#ff6146;--weui-ORANGE:#fa9d3b;--weui-YELLOW:#ffc300;--weui-GREEN:#91d300;--weui-LIGHTGREEN:#95ec69;--weui-BRAND:#07c160;--weui-BLUE:#10aeff;--weui-INDIGO:#1485ee;--weui-PURPLE:#6467f0;--weui-WHITE:#fff;--weui-LINK:#576b95;--weui-TEXTGREEN:#06ae56;--weui-FG:#000;--weui-BG:#fff;--weui-TAG-TEXT-RED:rgba(250,81,81,0.6);--weui-TAG-BACKGROUND-RED:rgba(250,81,81,0.1);--weui-TAG-TEXT-ORANGE:#fa9d3b;--weui-TAG-BACKGROUND-ORANGE:rgba(250,157,59,0.1);--weui-TAG-TEXT-GREEN:#06ae56;--weui-TAG-BACKGROUND-GREEN:rgba(6,174,86,0.1);--weui-TAG-TEXT-BLUE:#10aeff;--weui-TAG-BACKGROUND-BLUE:rgba(16,174,255,0.1);--weui-TAG-TEXT-BLACK:rgba(0,0,0,0.5);--weui-TAG-BACKGROUND-BLACK:rgba(0,0,0,0.05)}@media(prefers-color-scheme:dark){.wx-root:not([data-weui-theme='light']),body:not([data-weui-theme='light']){--weui-BG-0:#111;--weui-BG-1:#1e1e1e;--weui-BG-2:#191919;--weui-BG-3:#202020;--weui-BG-4:#404040;--weui-BG-5:#2c2c2c;--weui-FG-0:rgba(255,255,255,0.8);--weui-FG-HALF:rgba(255,255,255,0.6);--weui-FG-1:rgba(255,255,255,0.5);--weui-FG-2:rgba(255,255,255,0.3);--weui-FG-3:rgba(255,255,255,0.1);--weui-FG-4:rgba(255,255,255,0.15);--weui-FG-5:rgba(255,255,255,0.1);--weui-RED:#fa5151;--weui-REDORANGE:#ff6146;--weui-ORANGE:#c87d2f;--weui-YELLOW:#cc9c00;--weui-GREEN:#74a800;--weui-LIGHTGREEN:#3eb575;--weui-BRAND:#07c160;--weui-BLUE:#10aeff;--weui-INDIGO:#1196ff;--weui-PURPLE:#8183ff;--weui-WHITE:rgba(255,255,255,0.8);--weui-LINK:#7d90a9;--weui-TEXTGREEN:#259c5c;--weui-FG:#fff;--weui-BG:#000;--weui-TAG-TEXT-RED:rgba(250,81,81,0.6);--weui-TAG-BACKGROUND-RED:rgba(250,81,81,0.1);--weui-TAG-TEXT-ORANGE:rgba(250,157,59,0.6);--weui-TAG-BACKGROUND-ORANGE:rgba(250,157,59,0.1);--weui-TAG-TEXT-GREEN:rgba(6,174,86,0.6);--weui-TAG-BACKGROUND-GREEN:rgba(6,174,86,0.1);--weui-TAG-TEXT-BLUE:rgba(16,174,255,0.6);--weui-TAG-BACKGROUND-BLUE:rgba(16,174,255,0.1);--weui-TAG-TEXT-BLACK:rgba(255,255,255,0.5);--weui-TAG-BACKGROUND-BLACK:rgba(255,255,255,0.05)}}.wx-root[data-weui-theme='dark'],body[data-weui-theme='dark']{--weui-BG-0:#111;--weui-BG-1:#1e1e1e;--weui-BG-2:#191919;--weui-BG-3:#202020;--weui-BG-4:#404040;--weui-BG-5:#2c2c2c;--weui-FG-0:rgba(255,255,255,0.8);--weui-FG-HALF:rgba(255,255,255,0.6);--weui-FG-1:rgba(255,255,255,0.5);--weui-FG-2:rgba(255,255,255,0.3);--weui-FG-3:rgba(255,255,255,0.1);--weui-FG-4:rgba(255,255,255,0.15);--weui-FG-5:rgba(255,255,255,0.1);--weui-RED:#fa5151;--weui-REDORANGE:#ff6146;--weui-ORANGE:#c87d2f;--weui-YELLOW:#cc9c00;--weui-GREEN:#74a800;--weui
+
+## 中文翻译
+
+[翻译将在实际实现中完成]
 
 ---
-前段时间我去QCon北京全球软件大会分享了一个专题：
 
-**AI****时代的新范式：如何构建****AI****产品？**
-
-**观众反响特别好，想着要不把分享的内容公开出来，所以整理了这篇文章。本篇内容是对我过去两年时间，做了无数个AI产品demo的一个阶段性的总结，主要聚焦这三个方面的经验：**
-
-**
-
-**为什么AI产品这么难做？**
-
-**提示词工程被极大低估**
-
-**AI 产品团队如何构建**
-
-**
-
-![Image](images/img_001.jpeg)
-
-![Image](images/img_002.png)
-
-谨小认知，仅供参考。写给所有AI路上的朋友们。
-
-* * *
-
-**简单自我介绍，我是ONE2X AI全栈工程师，AI视频剪辑效果负责人。负责ONE2X的Medeo（AI视频剪辑工具）的视频自动化制作工作流全流程搭建、工具产品的设计及创新AI应用场景探索。**
-
-22年11月GPT刚出后，就开始尝试做各种各样的AI产品，23年年中毕设做的是AI情感陪伴、暑假在做企业知识库Chatbot智能客服、23年年底到24年年中在大厂做低代码编排AI工具和智能医疗、24年年中到现在在AI创业工作做AI自动剪辑。途中还做过大大小小的project，包括AI写遗嘱、AI Agent做动画等等……也算是积累了很多实操经验了。
-
-![Image](images/img_003.jpeg)
-
-✨一、**为什么AI产品这么难做？**
-
-**让我们轻松的聊聊AI与产品**
-
-![Image](images/img_004.png)
-
-认知截止到20250411
-
-**A Joke：先从一个笑话开始，你能看懂吗？**
-
-![Image](images/img_005.png)
-
-**如果你知道每一条背后的原因，那么恭喜你上道了！**
-
-**所以为什么AI产品这么难做？**
-
-AI时代的产品和传统的产品不一样的是什么？
-
-![Image](images/img_006.png)
-
-![Image](images/img_007.png)
-
-![Image](images/img_008.png)
-
-**基础流程是什么？**
-
-**所有流程可枚举全部已知**
-
-![Image](images/img_009.jpeg)
-
--   流程的自动化的定义是什么，什么流程可以被SOP化，就可以做成产品。那AI产品，首先肯定是产品，其次它还会完成**以前人类才能完成的某种任务。**这个任务如果需要AI完成，那就发生了**范式转移**
-
-
-![Image](images/img_010.png)
-
-![Image](images/img_011.png)
-
-**你得帮用户做出来这个任务。**
-
-![Image](images/img_012.png)
-
-**举个例子，Cursor**
-
-![Image](images/img_013.png)
-
-**Cursor是我认为2024年最好的AI产品**
-
-**它解决了三端关系。**
-
-![Image](images/img_014.png)
-
-![Image](images/img_015.png)
-
-![Image](images/img_016.jpeg)
-
-![Image](images/img_017.png)
-
-**Cursor Team解决了如下问题：**
-
--   **任务分级：****根据给AI的执行权限不同的不同可控颗粒度的任务**
--   **帮用户完成了任务：****每个任务/功能在用户还没来之前就已知该任务如何完成（Coding，且无论语言，无论项目）**
--   **交互方式：****每个任务/功能与人协同的人机交互方式**
--
-
-![Image](images/img_018.png)
-
-* * *
-
-**✨二、提示词工程被极大低估**
-
-**认知一：Prompt也是代码，所以要测试。**
-
-![Image](images/img_019.png)
-
-尊重prompt，同代码享受同等权利，需要git diff
-
-需要对prompt单独进行版本管理
-
-**Prompt也是代码，但有区别？**
-
-![Image](images/img_020.png)
-
-LLM和函数很类似，它们都是实现某个“计算”的节点。
-
-但它能提供比传统函数能做的更多的事情，提供“智慧类型”计算。
-
-它可以接受非结构化的数据，经过推理，输出非结构化/结构化的数据。
-
-**Prompt也是代码，如何测试……？**
-
-![Image](images/img_021.png)
-
-函数，我们在运行前，通过IDE或者单测即可完成**功能正确性校验**。
-
-LLM怎么测试呢？
-
-![Image](images/img_022.png)
-
-如果你只是让它完成传统函数的任务，也很好测试，可以使用function call 加上单测。
-
-比如加法任务，只让它输出结果，可以做**正确性校验**。
-
-**但大概率你让LLM做的事情是****非结构化的****。**
-
-![Image](images/img_023.png)
-
-**所以Prompt的好坏怎么测？**
-
-**一：格式正确性**
-
-使用function call / Json mode确保输出**格式不出错**
-
-**任何****LLM****相关的调用，都使用****pydantic****严格校验**
-
-![Image](images/img_024.png)
-
-**二：功能****Baseline**
-
-输出内容，通过batch evaluation进行校验。
-
-![Image](images/img_025.png)
-
-**三：人工评测结果**
-
-![Image](images/img_026.png)
-
-模型的上限，还是取决于人对于结果的要求有多高。
-
-Baseline只是保证功能正常运行，上限在于“人”
-
-**四：放权**
-
-模型可能比你想象中的更强，不要限制它的思考方向，思考内容，knowhow，把prompt当成一种容器，你只是为模型提供必要的信息，而不是教它如何思考。
-
-**总结一下，Prompt也是代码，所以要测试。**
-
-![Image](images/img_027.png)
-
-**认知二：AI产品就是基于“给模型提供上下文”出发开始的**
-
-首先，不要发现模型做不对任务，就觉得它有问题。接下来以Text2SQL为例。
-
-![Image](images/img_028.png)
-
-做产品的人需要知道这个任务完成本身需要什么上下文，并且努力为模型提供出来。你并不需要那么多Prompt技巧，而是努力为模型提供更多的“必要信息”。
-
-![Image](images/img_029.png)
-
-你会发现跟人很像。把它当成实习生，你也需要给实习生上下文。
-
-![Image](images/img_030.png)
-
-对于大部分业务场景而言，你不需要“神级Prompt”（如下图），你需要的是对业务的熟悉程度。把业务knowhow沉淀成Prompt。
-
-![Image](images/img_031.png)
-
-![Image](images/img_032.png)
-
-一件事情上下文到底是啥？寻找root变量的过程。
-
-![Image](images/img_033.png)
-
-**认知三：如何面向未来进行设计，避免被模型更新所冲击？**
-
-![Image](images/img_034.png)
-
-Manus画的AI Model Timeline
-
-模型每天都在更新，我怎么设计提示词和架构？
-
-模型更新之后，提示词会不会失效了呢？
-
-每个模型有什么不同的脾性？
-
-模型越来越智能，未来还需要复杂的提示词吗？
-
-……
-
-**Slow Down，别焦虑。**
-
-**打不过就加入：**用最好的模型的API创建应用。除非自己顺手能训练模型。
-
-**Flow Engineer****：**什么时候拆分任务，什么时候合并任务？
-
-![Image](images/img_035.png)
-
-**我的体感（纯经验，没有数据支撑，knowledge截至20250321）**
-
-**如果不知道用啥，就先试试Claude**
-
-**通用类型任务：****Claude-3.5-Sonnet / Claude-3.7-Sonnet**
-
-**强推理任务：****Claude / Gemini 2.5 Pro**
-
-**中文语言任务：****DeepSeek**
-
-**图片多模态任务：****Claude / Gemini /** **阶跃**
-
-**视频多模态任务：****Gemini**
-
-**简单任务：****Gemini Flash** **（省钱）**
-
-**中文****B****端本地任务：****Qwen**
-
-**可能的Bad Case:**
-
-**DeepSeek****指令遵循弱**
-
-**Gemini flash****幻觉严重**
-
-**……**
-
-![Image](images/img_036.png)
-
-**当然GPT4o生图很好！**
-
-**Flow Engineer**
-
-“Flow Engineering” 是一个最近越来越受欢迎的术语。它第一次被提及作为术语是在 CodiumAI 关于 AlphaCodium 的论文中，他们在论文中使用流工程来产生关于编码问题的最新结果。
-
-推荐看一遍**Langgraph**的ipynb examples
-
-![Image](images/img_037.png)
-
-**Flow强调的是用整体系统设计去完成任务**
-
-多节点设计，每个节点去实现单一任务。
-
-单一任务简单可靠，一定在LLM可实现范围之内。
-
-当一个任务太难的时候，就拆成两个任务去做。
-
-![Image](images/img_038.png)
-
-**好像有点像Dify/Coze的意思？**
-
-**对，但不全对。不要忘了传统代码的能效。**
-
-![Image](images/img_039.png)
-
-你并不需要全部节点都是LLM，你也可以组合function和LLM。
-
-所以推荐使用Dify/Coze验证原型，写代码用LangGraph搭建实际应用。
-
-**当模型更新后，就合并任务。**
-
-在设计Flow的时候，不需要拘泥于优化一个节点的LLM Prompt。
-
-因为模型推理能力不够，大概率三个月后就够了。不需要过度设计。
-
-用几个小的task拆解后完成任务，等模型更新后把整个大任务交给新的模型。
-
-![Image](images/img_040.png)
-
-**总结一下，Prompt Engineer的认知**
-
-![Image](images/img_041.png)
-
-* * *
-
-**✨三、AI 产品团队如何构建**
-
-**认知一，首先你得成为“创作者”**
-
-Cursor很厉害，也最先落地：
-
--   懂AI的本来就是程序员。团队懂Coding。
-
--   团队知道如何拆解任务，每一个任务如何写Prompt的knowhow，团队很清楚。
-
--   模型Coding能力已经阶跃（Claude3.5） 文本模态Coding任务是最擅长的。
-
-
-**但还有如此多的业务场景，等着创造。**
-
-![Image](images/img_042.png)
-
-**认知二，快速做出Demo最重要**
-
-AI产品最后长成什么样子，已经是无人定义清楚的事情了。
-
-只有当把所有的要素及其，做出一个demo，你才知道这是什么感觉的产品。
-
-![Image](images/img_043.png)
-
-我做的大大小小的demo
-
-**认知三，产品/开发的界限模糊**
-
-**以前的开发模式，是产品、研发。现在可能变成了一个紧密的团队一起调prompt。**
-
-![Image](images/img_044.png)
-
-![Image](images/img_045.png)
-
-这是我在公司内部做的后台，支持任何人追溯每次LLM调用，并且重新调试prompt。
-
-![Image](images/img_046.png)
-
-**最好是产品****/****全栈能自己调试****prompt****。**
-
-![Image](images/img_047.png)
-
-AI产品需要紧密配合的团队，一起设计架构。
-
-Prompt需要沟通能力，业务能力。代码需要研发能力。
-
-Prompt + 代码是团队之间才能做的事情。
-
-一起创作。
-
-* * *
-
-写在最后
-
-**我们正在见证新范式的出现，很幸运。**
-
-![Image](images/img_048.png)
-
-有了AI，才有了年轻人的机会，所以我非常感激能在这个时代能有这么多有意思的事情。
-
-谨小认知，仅供参考。
-
-认知截止到20250411
-
-**我正在做的AI产品，也即将发布。**
-
-**AI视频剪辑工具**
-
-**尽情期待！**
-
-![Image](images/img_049.png)
-
-如果喜欢我的内容的话，别忘了点赞转发！
+*质量评分: 4*
+*来源: https://mp.weixin.qq.com/s/HsFhXMLejsQWjTghUYdKFA*
