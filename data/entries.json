@@ -30361,8 +30361,322 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "09e2dacb",
+      "title": "Teaching Claude why: Reducing agentic misalignment",
+      "url": "https://www.anthropic.com/research/teaching-claude-why",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic",
+        "original_date": "2026-05-08"
+      },
+      "category": "agents",
+      "tags": [
+        "alignment",
+        "safety",
+        "agent",
+        "anthropic",
+        "rlhf"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 发布关于如何训练 Claude 理解'为什么某些行为更好'的研究通过 constitutional documents高质量聊天数据和多样化环境训练，Claude 模型的 agentic misalignment 率从 96% 降至 0%核心发现：教授对齐行为背后的原则，比单纯演示对齐行为更有效",
+      "summary_en": null,
+      "one_liner": "Anthropic 对齐训练核心发现：教模型理解原则比演示行为更有效",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/anthropic-teaching-claude-why.md",
+      "images": [],
+      "added_date": "2026-05-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "64acf8e5",
+      "title": "Project Glasswing: An initial update",
+      "url": "https://www.anthropic.com/research/glasswing-initial-update",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic",
+        "original_date": "2026-05-22"
+      },
+      "category": "agents",
+      "tags": [
+        "cybersecurity",
+        "agent",
+        "anthropic",
+        "vulnerability"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 启动 Project Glasswing，联合约 50 家合作伙伴使用 Claude Mythos Preview 在关键软件中发现了超过 10000 个高危或严重漏洞Cloudflare 发现了 2000 个漏洞（400 个高危），Mozilla 在 Firefox 150 中发现 271 个漏洞（比 Firefox 148 多 10 倍以上）英国 AI 安全研究院称 Mythos Preview 是首个端到端完成两个网络靶场的模型",
+      "summary_en": null,
+      "one_liner": "Anthropic Mythos 模型一个月发现超万高危漏洞，安全行业规则或被改写",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/anthropic-glasswing-update.md",
+      "images": [],
+      "added_date": "2026-05-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3fd20a6f",
+      "title": "DeepSeek 的 10 万亿美元宏伟战略",
+      "url": "https://baoyu.io/blog/2026-05-23/bookwormengr-status-2057909493250539891",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉 (bookwormengr)",
+        "original_date": "2026-05-23"
+      },
+      "category": "industry",
+      "tags": [
+        "deepseek",
+        "strategy",
+        "hardware",
+        "moe",
+        "kv-cache"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "分析 DeepSeek 不卖编程订阅不做评测框架长期开源的战略意图核心论点：DeepSeek 目标是撬动价值 10 万亿美元的中国 AI 硬件生态圈，顺便让自己获得 1 万亿美元市值通过极致的 KV 缓存压缩技术（100 万上下文仅需 5.48GB HBM，而 GLM5 需要 60GB），DeepSeek 正建立以 SSD + HBM 混合架构为核心的新型计算范式",
+      "summary_en": null,
+      "one_liner": "深度解析 DeepSeek 战略：KV 缓存极致压缩背后的万亿美元硬件生态野心",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/deepseek-10-trillion-strategy.md",
+      "images": [],
+      "added_date": "2026-05-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1c8592fb",
+      "title": "为什么我不'凭感觉编程'",
+      "url": "https://baoyu.io/translations/2026-05-17/i-dont-vibe-code",
+      "source": {
+        "platform": "blog",
+        "author": "Jacob Harris",
+        "original_date": "2026-05-17"
+      },
+      "category": "coding",
+      "tags": [
+        "vibe-coding",
+        "ai-coding",
+        "software-engineering",
+        "llm"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "资深软件工程师从成本经验抽象和本质复杂性角度阐述为何拒绝'凭感觉编程'核心论点：AI 能解决'偶然复杂性'，但无法替代应对'本质复杂性'所需的技能和经验布鲁克斯人月神话框架下，编程的抽象金字塔仍在，AI 只是最新迭代工具，本质复杂性设计正确优雅清晰的架构仍然需要人类智慧",
+      "summary_en": null,
+      "one_liner": "老工程师反思 vibe coding：AI 能解决复杂性但无法替代架构设计智慧",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/why-i-dont-vibe-code.md",
+      "images": [],
+      "added_date": "2026-05-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aefa6b15",
+      "title": "Forward Deployed Engineer：AI 时代的新宠岗位，到底干什么？",
+      "url": "https://baoyu.io/blog/2026-05-15/forward-deployed-engineer",
+      "source": {
+        "platform": "blog",
+        "author": "宝玉",
+        "original_date": "2026-05-15"
+      },
+      "category": "industry",
+      "tags": [
+        "fde",
+        "forward-deployed-engineer",
+        "ai-deployment",
+        "jobs"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "详解 AI 时代新岗位 Forward Deployed Engineer（FDE）的职责与传统咨询和架构师的区别GoogleOpenAIAnthropic 三大公司各自采取不同 FDE 战略：Google 内部招聘（最高 40 万美元年薪）OpenAI 成立 140 亿美元独立部署公司Anthropic 联合黑石和高盛建立合资公司FDE 核心职责是驻扎客户现场写代码，将 AI 真正接入企业业务",
+      "summary_en": null,
+      "one_liner": "FDE 岗位全景解析：Google/OpenAI/Anthropic 三种不同的 10 万亿 AI 部署战略",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/forward-deployed-engineer.md",
+      "images": [],
+      "added_date": "2026-05-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "08dc63f3",
+      "title": "深度拆解：AI Agent Harness 的构造",
+      "url": "https://baoyu.io/translations/2026-05-10/akshay-pachaar-2041146899319971922",
+      "source": {
+        "platform": "blog",
+        "author": "Akshay",
+        "original_date": "2026-05-10"
+      },
+      "category": "agents",
+      "tags": [
+        "agent",
+        "harness",
+        "llm",
+        "engineering",
+        "context-management"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "深度拆解 AI Agent Harness 的 12 个核心组件：编排循环工具记忆上下文管理状态持久化错误处理护栏等Harness 是包裹在 LLM 外层的完整软件架构，Anthropic 将 SDK 定义为'驱动 Claude Code 的 Agent Harness'类比：裸模型如同没有内存和 IO 的 CPU，Harness 就是那个操作系统",
+      "summary_en": null,
+      "one_liner": "生产级 Agent Harness 的 12 个核心组件完整拆解",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/agent-harness-anatomy.md",
+      "images": [],
+      "added_date": "2026-05-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5a50bb51",
+      "title": "Claude Code推荐的终端 - Ghostty",
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": null
+      },
+      "category": "models",
+      "tags": [
+        "claude",
+        "code",
+        "终端",
+        "ghostty",
+        "zig",
+        "开发工具",
+        "anthropic"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Ghostty 是一个由 Mitchell Hashimoto 用 Zig 语言从零编写的终端工具，2025年正式开源，2026年已成为开发者圈最火的终端工具，Anthropic 官方推荐其为 Claude Code 的首选终端",
+      "summary_en": null,
+      "one_liner": "有参考价值的models类内容",
+      "one_liner_author": "openclaw",
+      "quality_score": "3",
+      "status": "active",
+      "local_path": "content/klbtvlqs.md",
+      "images": [],
+      "added_date": "2026-05-25",
+      "updated_date": "2026-05-25",
+      "related": []
+    },
+    {
+      "id": "f79845fd",
+      "title": "公众号爆款文章提示词：让AI写出有\"人味\"的深度长文（附完整提示词）",
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai写作",
+        "公众号运营",
+        "提示词工程",
+        "内容创作",
+        "ai工具"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "一套结构化框架提示词，帮助公众号运营者用 AI 写出有\"人味\"符合公众号调性的深度长文，避免 AI 生硬感，提升爆款概率",
+      "summary_en": null,
+      "one_liner": "有参考价值的uncategorized类内容",
+      "one_liner_author": "openclaw",
+      "quality_score": "3",
+      "status": "active",
+      "local_path": "content/pLFMQKqL.md",
+      "images": [],
+      "added_date": "2026-05-25",
+      "updated_date": "2026-05-25",
+      "related": []
+    },
+    {
+      "id": "65f92290",
+      "title": "\"Philosophers warn us not to be satisfied with mere learning, but to add practice and then training.\"",
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": null
+      },
+      "category": "learning",
+      "tags": [
+        "哲学",
+        "斯多葛主义",
+        "学习",
+        "实践",
+        "epictetus"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "引用 Epictetus 的斯多葛哲学思想，探讨学习实践与训练的关系原文来自 Stoically Typed newsletter，现 URL 已失效",
+      "summary_en": null,
+      "one_liner": "有参考价值的learning类内容",
+      "one_liner_author": "openclaw",
+      "quality_score": "3",
+      "status": "active",
+      "local_path": "content/wri21wds.md",
+      "images": [],
+      "added_date": "2026-05-25",
+      "updated_date": "2026-05-25",
+      "related": []
+    },
+    {
+      "id": "98b0c28f",
+      "title": "Claude Code 订阅费太贵？这个工具让你0成本用上 Claude 和 Gemini",
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": null
+      },
+      "category": "models",
+      "tags": [
+        "claude",
+        "code",
+        "免费替代方案",
+        "cmux",
+        "gemini",
+        "cli",
+        "ai编程",
+        "成本优化"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "介绍 cmux 等工具如何在不使用 Claude Code 订阅的情况下，免费使用 Claude 和 Gemini 等大模型进行编程辅助",
+      "summary_en": null,
+      "one_liner": "有参考价值的models类内容",
+      "one_liner_author": "openclaw",
+      "quality_score": "3",
+      "status": "active",
+      "local_path": "content/dw7v9v1j.md",
+      "images": [],
+      "added_date": "2026-05-25",
+      "updated_date": "2026-05-25",
+      "related": []
     }
   ],
   "last_updated": "2026-05-25",
-  "total_entries": 896
+  "total_entries": 906
 }
