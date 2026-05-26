@@ -1,17 +1,17 @@
 {
-  "total_entries": 906,
-  "active_entries": 531,
+  "total_entries": 915,
+  "active_entries": 533,
   "active_entries_raw": 558,
   "archived_entries": 257,
-  "score_pending_entries": 91,
-  "this_week_added": 9,
-  "entries_with_content": 459,
-  "content_files_total": 970,
+  "score_pending_entries": 100,
+  "this_week_added": 11,
+  "entries_with_content": 464,
+  "content_files_total": 975,
   "channel_distribution": {
     "coding": 147,
-    "agents": 141,
+    "agents": 142,
     "models": 98,
-    "research": 45,
+    "research": 46,
     "business": 39,
     "tools": 34,
     "infra": 27
@@ -76,7 +76,7 @@
     "product": 3,
     "video": 2
   },
-  "last_updated": "2026-05-25 23:37",
+  "last_updated": "2026-05-26 23:35",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }
