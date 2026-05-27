@@ -1,70 +1,103 @@
+---
+title: "How agents can use filesystems for context engineering"
+source: "https://www.langchain.com/blog/how-agents-can-use-filesystems-for-context-engineering"
+category: "agents/frameworks"
+tags: ["ai", "context-engineering", "filesystems", "langchain"]
+date: "2026-05-26"
+quality_score: 4
+---
+
 # How agents can use filesystems for context engineering
 
-**By Nick Huang**
+> 原文：[LangChain Blog](https://www.langchain.com/blog/how-agents-can-use-filesystems-for-context-engineering) | 作者：Nick Huang | 抓取时间：2026-05-27
 
-A key feature of deep agents is their access to a set of filesystem tools. Deep agents can use these tools to read, write, edit, list, and search for files in their filesystem.
+---
 
-In this post, we'll walk through why we think filesystems are important for agents. In order to understand how filesystems are helpful, we should start by thinking through where agents can fall short today. They either fail because (a) the model is not good enough, or (b) they don't have access to the right context. Context engineering is the "delicate art and science of filling the context window with just the right information for the next step". Understanding context engineering - and how it can fail - is crucial for building reliable agents.
+## 什么是 Context Engineering
 
-## A view of context engineering
+> **EN:** A view of context engineering.
 
-One way to view the job of a modern day agent engineer is through the lens of context engineering. Agents generally **have access to** a lot of context (all support docs, all code files, etc). In order to answer an incoming question, the agent **needs** some important context (which contains the context needed to answer the question). While aiming to answer said question, the agent **retrieves** some body of context (to pull into it's context window).
+现代 agent 工程师的关键任务：通过 context engineering 的 lens 看待工作。
 
-When viewed from this lens, there are many ways that context engineering can "fail" for agents:
+Agent 通常可以访问大量 context（所有支持文档、所有代码文件等）。为了回答 incoming question，agent 需要一些重要的 context。
 
-- If the context that the agent needs is not in the total context, the agent cannot succeed. Example: a customer support agent needs access to a certain documentation page to answer a question, but that page hasn't been indexed.
-- If the context that the agent retrieves doesn't encapsulate the context that the agent needs, then the agent will not be able to answer correctly. Example: a customer support agent needs access to a certain documentation page to answer a question, that page exists and is indexed, but is not retrieved by the agent.
-- If the context that the agent retrieves is far larger than the context that the agent needs, then the agent is being wasteful (with time, tokens, or both). Example: a customer support agent needs a single specific page, and the agent retrieves 100 pages.
+Agent 的 context engineering 可能在以下情况"失败"：
 
-Our job as agent engineers is to **fit red to green (to make sure that the context the agent retrieves is as small of a superset of the needed information as possible)**
+1. **Agent 需要的 context 不在 total context 中** → agent 无法成功
+2. **Agent 检索的 context 不能 encapsulate 所需的 context** → agent 无法正确回答
+3. **Agent 检索的 context 远大于需要的 context** → agent 浪费（时间和 tokens）
 
-## Challenges in context engineering
+我们的工作：**让 agent 检索的 context 成为所需信息的最小超集**（fit red to green）。
 
-A few specific challenges arise when seeking to isolate the appropriate context:
+---
 
-### Too many tokens (retrieved context >> necessary context)
+## 文件系统如何让 agent 变得更好
 
-Some tools, like web search, can return a lot of tokens. A few web searches can quickly build up to tens of thousands of tokens in your conversation history. You might eventually run into a pesky 400 bad request error, but well before that, your LLM bill balloons and performance degrades.
+> **EN:** How can a filesystem make an agent better?
 
-### Needs large amounts of context (necessary context > supported context window)
+**Filesystem 提供了一个单一接口，通过它 agent 可以灵活地存储、检索和更新无限量的 context。**
 
-Sometimes an agent may actually need a lot of information in order to answer a question. This information usually cannot be returned in a single search query, which is why many have leaned into the idea of "agentic search" - letting an agent call a search tool repeatedly. The issue with this is that the amount of context quickly grows to a point where it can't all fit into its context window.
+### 场景一：Token 过多（Retrieved >> Necessary）
 
-### Finding niche information (retrieved context ≠ necessary context)
+> **EN:** Too many tokens.
 
-Agents may need to reference niche information buried in hundreds or thousands of files in order to handle an input. How can the agent reliably find that information? If it cannot - then the retrieved context will not be what is needed to answer the question. Are there alternatives (or complements) to semantic search?
+不用对话历史来保存所有工具调用结果和笔记，agent 可以将这些写入 filesystem，然后有选择地查找相关信息。
 
-### Learning over time (total context ≠ necessary context)
+Manus 是最早公开谈论这种方法的人之一：
 
-Sometimes the agent may just not have access to the necessary context for answering a question (either in the tools or instructions it has). The end user may often provide clues (implicitly or explicitly) in their interactions with the agent what that context may be. Is there a way for the agent to add that to its context for future iterations?
+- Web 搜索返回 10k tokens 的原始内容
+- 如果放入消息历史，所有 10k tokens 都会在整个对话中 sitting there
+- 如果 offload 到 filesystem，agent 可以智能地 grep 搜索某些关键词，然后只将必要的 context 读入对话
 
-## How can a filesystem make an agent better?
+### 场景二：需要大量 Context（Necessary > Context Window）
 
-In the simplest terms: a filesystem provides **a single interface through which an agent can flexibly store, retrieve, and update an infinite amount of context.**
+> **EN:** Needs large amounts of context.
 
-### Too many tokens (retrieved context >> necessary context)
+Filesystem 为 LLM 动态存储和提取更多信息提供了很好的抽象：
 
-Instead of using the conversation history to hold all tool call results and notes, an agent can write these to the filesystem, and then selectively look up **relevant information** when necessary. In this example, the agent is effectively using the filesystem as a **scratch pad for large context.**
+- **Long horizon answers**：Agent 需要制定计划然后 follow it。通过将计划写入 filesystem，agent 可以在以后 pull 此信息回到上下文窗口
+- **Subagents 并行工作**：当 subagents 做工作和学习时，不是 just replying with their learnings，而是可以将知识写入 filesystem（minimize the game of telephone）
+- **大量 instructions**：不是将所有 instructions stuff into the system prompt，可以将它们存储为文件并让 agent 动态读取
 
-### Needs large amounts of context
+### 场景三：Finding Niche Information（Retrieved ≠ Necessary）
 
-Sometimes agents require a lot of context to answer the question. Filesystems provide a nice abstraction for letting LLMs dynamically store and pull in more information as needed. Examples of this include:
-- For long horizon answers, agents need to make a plan and then follow it. By writing that plan to the filesystem, the agent can then pull this information back into the context window later on.
-- To pour through all this context, the agent may spin up subagents. As these subagents do work and learn things, rather than just replying to the main agent with their learnings, they can write their knowledge to the filesystem instead.
-- Some agents require a lot of instructions on how to do things. Rather than just stuff all these instructions into the system prompt (and bloat context) you can store them as files and let the agent dynamically read them as needed.
+> **EN:** Finding niche information.
 
-### Finding niche information
+Semantic search 在某些用例中可能有效，但对于某些类型的文档（如 technical API reference、code files），semantic 可能由于文本中语义信息不足而 placed very poorly。
 
-Semantic search was one of the most popular approaches to retrieving context early on in the LLM wave. It can be effective in some use cases, but depending on the type of document (e.g. technical API reference, code files), semantic may be very poorly placed due to a lack of semantic information in the text.
+Filesystems 提供了替代方案，让 agent 使用 `ls`、`glob` 和 `grep` 工具智能搜索 context：
 
-Filesystems provide an alternative to allow agents to intelligently search for context with ls, glob, and grep tools. If you've used Claude Code recently, you'll know that it heavily relies on glob and grep search to find the right context it needs.
+- 当前的模型经过专门训练来理解 traversing filesystems
+- 信息通常已经逻辑结构化（目录）
+- `glob` 和 `grep` 允许 agent 不仅隔离特定文件，还允许隔离特定的行和特定的字符
+- `read_file` 工具允许 agent 指定从文件中读取哪些行
 
-### Learning over time
+### 场景四：Learning Over Time（Total Context ≠ Necessary Context）
 
-A big reason agents mess up is they are missing relevant context. A great way to improve agents is usually to make sure they have access to the right context. Sometimes this can look like adding more datasources or updating the system prompt.
+> **EN:** Learning over time.
 
-We think an agent's instructions (or skills) are no different than any other context they might want to work with. A filesystem can serve as the place for agents to store and update their own instructions!
+Agent 出错的一个大原因是它们缺少相关 context。改进 agent 的一个好方法是确保它们可以访问正确的 context。
 
-## Deep Agents
+一个 agent 的 instructions（或 skills）与它可能想要使用的任何其他 context 没有区别。**Filesystem 可以作为 agent 存储和更新自己 instructions 的地方。**
 
-We have an open source repo called Deep Agents (Python, TypeScript) that lets you quickly build an agent that has access to a filesystem. A lot of these context engineering tricks that use the filesystem are baked in! There are almost certainly more patterns that will emerge - try Deep Agents out and let us know what you think!
+在用户反馈后，agent 可以立即写入自己的文件并记住一条重要信息。这对于快速的一次性事实很好，特别是可能特定于用户的内容，如他们的名字、email 或其他偏好。
+
+---
+
+## 总结
+
+> **EN:** Summary.
+
+Filesystem 为 agent 提供了：
+
+| 能力 | 说明 |
+|------|------|
+| **Scratchpad** | 用于大型 context 的临时存储 |
+| **Long-horizon Memory** | 跨 session 保存计划和状态 |
+| **Shared Workspace** | Subagents 之间共享知识 |
+| **Dynamic Instructions** | Agent 可以随时间更新自己的 skills |
+| **Structured Search** | 通过 ls/glob/grep 而非 semantic search 查找 niche 信息 |
+
+---
+
+*相关资源：[Deep Agents (Python)](https://github.com/langchain-ai/deepagents), [Deep Agents (TypeScript)](https://github.com/langchain-ai/deepagentsjs)*

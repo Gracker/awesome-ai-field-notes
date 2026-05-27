@@ -8199,7 +8199,7 @@
       "one_liner_author": "openclaw",
       "quality_score": 4,
       "status": "active",
-      "local_path": "Cubox/How we built our multi-agent research system - Anthropic-2025-12-15.md",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/y1pyhae8.md",
       "images": [
         "https://image.cubox.pro/cardImg/3aqrctoowdvspai9nl4odvk17s149da1j06ltgc9dl3lvovet5?imageMogr2/quality/90/format/gif/ignore-error/1",
         "https://image.cubox.pro/cardImg/38pms9mom103vc4j6vgv6hnphyj4jdjt8l7dl2o62urzcf3rk7?imageMogr2/quality/90/format/gif/ignore-error/1",
@@ -8861,7 +8861,7 @@
       "one_liner_author": "openclaw",
       "quality_score": 4,
       "status": "active",
-      "local_path": "Cubox/2023 年，我患上了 AI 焦虑症-2023-12-12.md",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/wej5ryog.md",
       "images": [
         "https://image.cubox.pro/cardImg/2023121222173887519/39436.jpg?imageMogr2/quality/90/ignore-error/1",
         "https://image.cubox.pro/cardImg/2023121222174536599/56514.jpg?imageMogr2/quality/90/ignore-error/1",
@@ -11491,7 +11491,7 @@
       "one_liner_author": "openclaw",
       "quality_score": 4,
       "status": "active",
-      "local_path": "Cubox/How agents can use filesystems for context engineering-2026-01-07.md",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/qx9guy83.md",
       "images": [
         "https://image.cubox.pro/cardImg/517e6sb3qkz6voetu01wwenwwz1uo55x67v7i8jahi4jdhdnxi.png?imageMogr2/quality/90/ignore-error/1",
         "https://image.cubox.pro/cardImg/565xkpg9ugkui004db767mlq45oa265mvlkms9mb2ct8xfygis.png?imageMogr2/quality/90/ignore-error/1"
@@ -14766,7 +14766,7 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": "调研/Anthropic-81K访谈/81k-interviews-en.md",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/l92x6515.md",
       "images": [],
       "added_date": "2026-04-10",
       "updated_date": null,
@@ -16821,7 +16821,7 @@
       "one_liner_author": "openclaw",
       "quality_score": 5,
       "status": "active",
-      "local_path": "Claude/managed-agents-cn.md",
+      "local_path": "Obsidian/awesome-ai-field-notes/content/grcvmlet.md",
       "images": [],
       "added_date": "2026-04-09",
       "updated_date": null,
@@ -30909,8 +30909,38 @@
       "updated_date": "2026-05-26",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "7e5d8972",
+      "title": "efe9888a",
+      "url": "https://www.anthropic.com/81k-interviews",
+      "source": {
+        "platform": "anthropic",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [
+        "anthropic",
+        "research",
+        "ai-anthropic-research-use..."
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "2026 年 4 月，Anthropic 发布了一份开创性的用户研究报告ai 账户持有者与\"Anthropic Interviewer\"（一个经过特殊提示工程的 Claude 版本）进行对话访谈，在一周时间内收集了来自 159 个国家70 种语言共 80,508 人的回答这是迄今为止规模最大多语言最丰富的定性研究",
+      "summary_en": null,
+      "one_liner": "2026 年 4 月，Anthropic 发布了一份开创性的用户研究报告ai 账户持有者与\"Anthropic Interviewer\"（一个经过特殊提示工程的 Claude 版本）进行对话访谈...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "score-pending",
+      "local_path": "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/efe9888a.md",
+      "images": [],
+      "added_date": "2026-05-27",
+      "updated_date": "2026-05-27",
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-05-26",
+  "last_updated": "2026-05-27",
   "total_entries": 915
 }
