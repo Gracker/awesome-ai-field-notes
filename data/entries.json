@@ -30939,8 +30939,67 @@
       "updated_date": "2026-05-27",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "5d4288fc",
+      "title": "What 81,000 People Want from AI",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": "2026-05-26"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "research",
+        "anthropic"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": null,
+      "one_liner": "What 81,000 People Want from AI",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "score-pending",
+      "local_path": "content/l92x6515.md",
+      "images": [],
+      "added_date": "2026-05-27",
+      "updated_date": "2026-05-27",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ad895a65",
+      "title": "How we built our multi-agent research system",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": "2026-05-26"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "research",
+        "anthropic"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": null,
+      "one_liner": "How we built our multi-agent research system",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "score-pending",
+      "local_path": "content/y1pyhae8.md",
+      "images": [],
+      "added_date": "2026-05-27",
+      "updated_date": "2026-05-27",
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-05-27",
-  "total_entries": 915
+  "total_entries": 918
 }
