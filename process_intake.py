@@ -1,145 +1,213 @@
+#!/usr/bin/env python3
+"""Daily intake script for processing recent AI content files."""
+
 import sys
-sys.path.append('/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/openclaw/scripts')
-from pipeline_utils import (
-    load_entries_data, save_entries_data, append_entries,
-    canonical_category, clean_text, normalize_url,
-    normalize_platform, normalize_source_type, generate_entry_id,
-    normalize_tags, is_placeholder_text, has_readable_text
-)
 import re
 import json
 from pathlib import Path
-import datetime
+from datetime import date, datetime, timedelta
 
-def parse_frontmatter(yaml_text):
-    """Parse YAML frontmatter manually"""
-    frontmatter = {}
-    for line in yaml_text.strip().split('\n'):
-        if ':' in line:
+# Add the scripts directory to the path
+sys.path.append('./openclaw/scripts')
+
+try:
+    from pipeline_utils import (
+        load_entries_data, append_entries, normalize_entry, normalize_url, 
+        clean_text, today_str, content_dir, normalize_date
+    )
+except ImportError as e:
+    print(f"Import error: {e}")
+    sys.exit(1)
+
+def extract_metadata(content):
+    """Extract metadata from the YAML frontmatter"""
+    metadata = {}
+    metadata_lines = []
+    in_metadata = False
+    
+    lines = content.split('\n')
+    for line in lines:
+        if line.strip() == '---':
+            if not in_metadata:
+                in_metadata = True
+                continue
+            else:
+                break
+        if in_metadata:
+            metadata_lines.append(line)
+    
+    # Parse metadata
+    for line in metadata_lines:
+        line = line.strip()
+        if ':' in line and not line.startswith('#'):
             key, value = line.split(':', 1)
             key = key.strip()
             value = value.strip()
             
-            # Handle nested objects
-            if key == 'source' and value.startswith('{') and value.endswith('}'):
-                try:
-                    frontmatter[key] = json.loads(value)
-                except:
-                    frontmatter[key] = value
-            # Handle arrays
-            elif value.startswith('[') and value.endswith(']'):
-                try:
-                    frontmatter[key] = json.loads(value)
-                except:
-                    frontmatter[key] = value
-            else:
-                frontmatter[key] = value
-    return frontmatter
+            # Remove quotes from string values
+            if value.startswith('"') and value.endswith('"'):
+                value = value[1:-1]
+            
+            metadata[key] = value
+    
+    return metadata
 
-def process_content_file(file_path_str):
-    file_path = Path(file_path_str)
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
+def extract_content(content):
+    """Extract the main content after YAML frontmatter"""
+    lines = content.split('\n')
+    in_metadata = False
+    content_lines = []
     
-    # Extract frontmatter manually
-    frontmatter = {}
-    content_start = 0
-    if content.strip().startswith('---'):
-        parts = content.split('---', 2)
-        if len(parts) >= 3:
-            frontmatter = parse_frontmatter(parts[1])
-            content_start = len(parts[0]) + len(parts[1]) + 6
+    for line in lines:
+        if line.strip() == '---':
+            in_metadata = True
+            continue
+        if in_metadata and line.strip() == '---':
+            in_metadata = False
+            continue
+        if not in_metadata:
+            content_lines.append(line)
     
-    content_body = content[content_start:]
-    
-    # Extract fields from frontmatter and content
-    source_info = {}
-    if isinstance(frontmatter.get('source'), dict):
-        source_info = frontmatter['source']
-    else:
-        # Try to parse source as string
-        try:
-            source_info = json.loads(frontmatter.get('source', '{}'))
-        except:
-            source_info = {'platform': 'cubox', 'author': None, 'original_date': None}
-    
-    entry = {
-        'id': None,
-        'title': frontmatter.get('title', ''),
-        'url': normalize_url(frontmatter.get('url')),
-        'source': {
-            'platform': source_info.get('platform', 'cubox'),
-            'author': source_info.get('author'),
-            'original_date': source_info.get('original_date')
-        },
-        'category': frontmatter.get('category'),
-        'tags': frontmatter.get('tags', []),
-        'source_type': normalize_source_type(frontmatter.get('source_type', 'article')),
-        'language': frontmatter.get('language', 'zh'),
-        'summary_zh': frontmatter.get('description', ''),
-        'summary_en': frontmatter.get('summary_en'),
-        'one_liner': frontmatter.get('one_liner', ''),
-        'one_liner_author': frontmatter.get('one_liner_author', 'openclaw'),
-        'quality_score': frontmatter.get('quality_score', 3),
-        'status': frontmatter.get('status', 'active'),
-        'local_path': str(file_path),
-        'images': re.findall(r'!\[.*?\]\((https?://[^)]+)\)', content_body),
-        'added_date': datetime.date.today().isoformat(),
-        'updated_date': datetime.date.today().isoformat(),
-        'related': []
-    }
-    
-    # Clean and normalize text
-    entry['title'] = clean_text(entry['title'], max_len=120)
-    entry['summary_zh'] = clean_text(entry['summary_zh'], max_len=300)
-    
-    # Apply canonical category
-    entry['category'] = canonical_category(
-        entry['category'], 
-        tags=entry['tags'], 
-        source_type=entry['source_type'],
-        title=entry['title'],
-        summary=entry['summary_zh']
-    )
-    
-    # Normalize tags
-    entry['tags'] = normalize_tags(entry['tags'])
-    
-    # Generate ID and one_liner if missing
-    if not entry['id']:
-        entry['id'] = generate_entry_id(title=entry['title'], url=entry['url'])
-    if not entry['one_liner']:
-        entry['one_liner'] = f'有参考价值的{entry["category"]}类内容'
-    
-    # Remove null and empty fields where appropriate
-    entry = {k: v for k, v in entry.items() if v not in [None, ''] or k in ['summary_en', 'source.author']}
-    
-    return entry
+    return '\n'.join(content_lines)
 
-# Process files
-files_to_process = [
-    'content/klbtvlqs.md',
-    'content/pLFMQKqL.md', 
-    'content/wri21wds.md',
-    'content/dw7v9v1j.md'
-]
+def extract_images(content):
+    """Extract image URLs from markdown content"""
+    image_pattern = r'!\[.*?\]\((https?://[^)]+)\)'
+    images = re.findall(image_pattern, content)
+    return [normalize_url(img) for img in images if normalize_url(img)]
 
-new_entries = []
-for file_path in files_to_process:
-    if Path(file_path).exists():
-        entry = process_content_file(file_path)
-        new_entries.append(entry)
-        print(f'Processed: {entry["id"]} - {entry["title"]}')
+def extract_summary(content):
+    """Extract a summary from the content"""
+    # Find the first non-empty paragraph after the metadata
+    lines = content.split('\n')
+    in_metadata = False
+    content_lines = []
+    reading_content = False
+    
+    for line in lines:
+        if line.strip() == '---':
+            in_metadata = True
+            reading_content = False
+            continue
+        if in_metadata and line.strip() == '---':
+            in_metadata = False
+            reading_content = True
+            continue
+        if not in_metadata and reading_content:
+            content_lines.append(line)
+    
+    # Join content and clean it
+    full_content = '\n'.join(content_lines)
+    # Remove markdown elements and get clean text
+    clean_content = re.sub(r'!\[.*?\]\([^)]*\)', '', full_content)
+    clean_content = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', clean_content)
+    clean_content = re.sub(r'`([^`]+)`', r'\1', clean_content)
+    clean_content = re.sub(r'\*\*([^*]+)\*\*', r'\1', clean_content)
+    
+    # Get first few sentences as summary
+    sentences = re.split(r'[。！？.!?]', clean_content)
+    summary = sentences[0] if sentences else ""
+    
+    # Clean and limit summary length
+    summary = clean_text(summary, max_len=200)
+    if not summary:
+        summary = "内容过短，待补充"
+    
+    return summary
 
-print(f'\nTotal new entries: {len(new_entries)}')
-
-# Add to entries.json
-if new_entries:
+def process_file(file_path):
+    """Process a single markdown file and extract entry data"""
     try:
-        current_data = load_entries_data()
-        append_entries(current_data, new_entries)
-        print(f'Successfully added {len(new_entries)} entries to entries.json')
+        content = file_path.read_text(encoding='utf-8')
+        
+        # Extract metadata
+        metadata = extract_metadata(content)
+        
+        # Extract content
+        content_body = extract_content(content)
+        
+        # Extract images
+        images = extract_images(content_body)
+        
+        # Extract summary
+        summary_zh = extract_summary(content_body)
+        
+        # Create entry dict
+        entry = {
+            'title': metadata.get('title', '未命名AI资源'),
+            'url': normalize_url(metadata.get('source')),
+            'source': {
+                'platform': 'blog',  # Default to blog
+                'author': None,
+                'original_date': normalize_date(metadata.get('date'))
+            },
+            'category': metadata.get('category', 'uncategorized'),
+            'tags': metadata.get('tags', []),
+            'source_type': 'article',  # Default to article
+            'language': 'zh',  # Default to Chinese
+            'summary_zh': summary_zh,
+            'summary_en': None,
+            'one_liner': '待补充可读摘要后再发布',
+            'one_liner_author': 'openclaw',
+            'quality_score': int(metadata.get('quality_score', 3)),
+            'status': 'score-pending',
+            'local_path': str(file_path.relative_to(content_dir())),
+            'images': images,
+            'added_date': today_str(),
+            'updated_date': today_str(),
+            'github_stars': None,
+            'related': []
+        }
+        
+        # Normalize the entry
+        normalized_entry = normalize_entry(entry, run_date=date.today())
+        
+        return normalized_entry
+        
     except Exception as e:
-        print(f'Error adding entries: {e}')
-else:
-    print('No new entries to add')
+        print(f"Error processing {file_path}: {e}")
+        return None
+
+def main():
+    # Load existing entries data
+    entries_data = load_entries_data()
+    
+    # Find recent files (modified yesterday or today)
+    content_dir_path = content_dir()
+    recent_files = []
+    
+    # Look for files from yesterday
+    yesterday = datetime.now() - timedelta(days=1)
+    cutoff_time = yesterday.timestamp()
+    
+    for file_path in content_dir_path.glob('*.md'):
+        try:
+            mod_time = file_path.stat().st_mtime
+            if mod_time >= cutoff_time:
+                recent_files.append(file_path)
+        except:
+            continue
+    
+    print(f"Found {len(recent_files)} recent files to process")
+    
+    # Process each file
+    new_entries = []
+    for file_path in recent_files:
+        print(f"Processing {file_path.name}...")
+        entry = process_file(file_path)
+        if entry:
+            new_entries.append(entry)
+    
+    # Add entries to the data
+    if new_entries:
+        added, skipped = append_entries(entries_data, new_entries)
+        print(f"Added {len(added)} entries, skipped {len(skipped)}")
+        
+        # Save the updated data
+        save_entries_data(entries_data)
+        print("Entries saved to entries.json")
+    else:
+        print("No new entries to add")
+
+if __name__ == "__main__":
+    main()
