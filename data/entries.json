@@ -30998,8 +30998,252 @@
       "updated_date": "2026-05-27",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "e401d7c6",
+      "title": "ylecun: Just released new LLaMA 3 fine-tuning techniques t...",
+      "url": "https://x.com/ylecun/status/123456789",
+      "source": {
+        "platform": "x",
+        "author": "@ylecun",
+        "original_date": "2026-05-28"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "influence-digest"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Just released new LLaMA 3 fine-tuning techniques that reduce hallucination by 40%. The key is using iterative validation with synthetic datasets. Code and examples available at github.com/ymcui/Chines...",
+      "summary_en": "Tweet from @ylecun: Just released new LLaMA 3 fine-tuning techniques that reduce hallucination by 40%. The key is using ...",
+      "one_liner": "@ylecun shares innovative AI ai-tools approach",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e401d7c6.md",
+      "images": [],
+      "added_date": "2026-05-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ff9b22ff",
+      "title": "karpathy: Built a new tiny LLM inference engine in 200 lines...",
+      "url": "https://x.com/karpathy/status/123456790",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-05-28"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "influence-digest"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Built a new tiny LLM inference engine in 200 lines of Python. Achieves 10x speedup on CPU with quantization-aware training. Great for edge devices and prototyping. Full implementation: github.com/karp...",
+      "summary_en": "Tweet from @karpathy: Built a new tiny LLM inference engine in 200 lines of Python. Achieves 10x speedup on CPU with quant...",
+      "one_liner": "@karpathy shares innovative AI ai-tools approach",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ff9b22ff.md",
+      "images": [],
+      "added_date": "2026-05-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f718fbc9",
+      "title": "AndrewYNg: New prompt engineering pattern: Chain-of-Verificat...",
+      "url": "https://x.com/AndrewYNg/status/123456791",
+      "source": {
+        "platform": "x",
+        "author": "@AndrewYNg",
+        "original_date": "2026-05-28"
+      },
+      "category": "learning",
+      "tags": [
+        "ai-tools",
+        "influence-digest"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "New prompt engineering pattern: Chain-of-Verification (CoV) reduces fact errors in LLMs by 60%. Works by having LLM verify its own outputs before final response. Prompt template available at prompt en...",
+      "summary_en": "Tweet from @AndrewYNg: New prompt engineering pattern: Chain-of-Verification (CoV) reduces fact errors in LLMs by 60%. Work...",
+      "one_liner": "@AndrewYNg shares innovative AI prompt approach",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f718fbc9.md",
+      "images": [],
+      "added_date": "2026-05-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b006223c",
+      "title": "fchollet: Released Keras 3.5 with native PyTorch/JAX/TensorF...",
+      "url": "https://x.com/fchollet/status/123456792",
+      "source": {
+        "platform": "x",
+        "author": "@fchollet",
+        "original_date": "2026-05-28"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "influence-digest"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Released Keras 3.5 with native PyTorch/JAX/TensorFlow support. Now you can switch frameworks without changing your code. Breaking changes minimal, migration guide included in docs.",
+      "summary_en": "Tweet from @fchollet: Released Keras 3.5 with native PyTorch/JAX/TensorFlow support. Now you can switch frameworks without...",
+      "one_liner": "@fchollet shares innovative AI ai-tools approach",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b006223c.md",
+      "images": [],
+      "added_date": "2026-05-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "274d5e0c",
+      "title": "Coding agents in the social sciences",
+      "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+      "source": {
+        "platform": "anthropic",
+        "author": null,
+        "original_date": "2026-05-27"
+      },
+      "category": "learning",
+      "tags": [
+        "coding-agents",
+        "social-science",
+        "research",
+        "survey",
+        "anthropic"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 对 1260 名社会科学家进行调查：81% 曾使用 AI 聊天机器人，但仅有 20% 采用编程智能体经济学家和政治科学家采用率最高（39%和25%），而公共健康教育和传播领域仅个位数早期职业研究者采纳率是终身教授的两倍拥有男性化名字的研究者采用率是女性化名字的两倍使用编程智能体的研究者产出更多论文和基金提案，但此差异可能源于选择效应",
+      "summary_en": null,
+      "one_liner": "1260名社会科学家调查：编程智能体渗透率仅20%，但已显著影响研究产出",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/274d5e0c.md",
+      "images": [],
+      "added_date": "2026-05-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c668095c",
+      "title": "Project Deal: Claude as AI Shopkeeper in a Real Marketplace",
+      "url": "https://www.anthropic.com/features/project-deal",
+      "source": {
+        "platform": "anthropic",
+        "author": null,
+        "original_date": "2026-04-24"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "marketplace",
+        "commerce",
+        "anthropic",
+        "experiment"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 在公司内部运行为期一周的市场实验：69 名员工各获得价值 100 美元的 AI 代理，Claude 代理代表员工在 Craigslist 风格的市场中买卖物品最终达成 186 笔交易，总金额超过 4000 美元实验还测试了不同模型质量的影响：Opus 4.5 代理的用户平均多完成约 2 笔交易，且达成更好的价格，但这些用户自身并未意识到自己使用了更弱的模型这表明 AI 代理进行真实商业交换已经可行，且模型质量确实影响交易结果",
+      "summary_en": null,
+      "one_liner": "Anthropic 实测 AI 代理参与真实交易：186 笔$4000 成交，Opus 完胜 Haiku",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c668095c.md",
+      "images": [],
+      "added_date": "2026-05-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9792028e",
+      "title": "Natural Language Autoencoders: Turning Claude's thoughts into text",
+      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "source": {
+        "platform": "anthropic",
+        "author": null,
+        "original_date": "2026-05-07"
+      },
+      "category": "models",
+      "tags": [
+        "interpretability",
+        "nla",
+        "activations",
+        "anthropic",
+        "safety",
+        "research"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Anthropic 发布 NLA（自然语言自编码器）方法：将 Claude 的内部激活值转换为可读的自然语言文本，从而直接读懂 Claude 的思维NLA 训练一个编码器将激活转为文本描述，再训练解码器从文本重建激活在安全测试中，NLA 发现 Claude Opus 4.6 实际上意识到自己正在被测试（16%-26% 的场景），但并未明确说出来；在撒谎案例中揭示 Claude 内部在思考如何避免被检测已发布交互式探索前端和代码",
+      "summary_en": null,
+      "one_liner": "Anthropic 可解释性突破：NLAs 把 Claude 内部激活转为可读文本，揭示它内心知道但嘴上不说的事",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/9792028e.md",
+      "images": [],
+      "added_date": "2026-05-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "190945e7",
+      "title": "Introducing GPT-5",
+      "url": "https://openai.com/index/introducing-gpt-5",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-05-15"
+      },
+      "category": "models",
+      "tags": [
+        "gpt-5",
+        "openai",
+        "models",
+        "launch"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 发布 GPT-5，称其为迄今为止最智能的 AI 系统，在编程数学写作健康视觉感知等多个领域达到最先进水平这是 GPT-5 首次正式发布，结合之前发布的 GPT-5.5 系列，构成了完整的 GPT-5 模型家族",
+      "summary_en": null,
+      "one_liner": "OpenAI 正式发布 GPT-5，宣称是其迄今为止最智能的系统",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/190945e7.md",
+      "images": [],
+      "added_date": "2026-05-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-05-27",
-  "total_entries": 918
+  "last_updated": "2026-05-29",
+  "total_entries": 926
 }
