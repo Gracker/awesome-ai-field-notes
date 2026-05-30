@@ -31637,8 +31637,172 @@
       "updated_date": "2026-05-29",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "e4598e7d",
+      "title": "AI 技术分享 nigewillson",
+      "url": "https://x.com/nigewillson/status/2060655853615649189",
+      "source": {
+        "platform": "x",
+        "author": "@nigewillson",
+        "original_date": "2026-05-30"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "AI 技术分享：nigewillson 提供高质量 AI 内容，涵盖工具开发模型优化和技术架构等领域",
+      "summary_en": "AI tech share: nigewillson provides high-quality AI content covering tool development, model optimization, and technical architecture.",
+      "one_liner": "nigewillson AI 技术分享",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/e4598e7d.md",
+      "images": [],
+      "added_date": "2026-05-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4ba0ef63",
+      "title": "AI 技术分享 NVIDIAAI",
+      "url": "https://x.com/NVIDIAAI/status/2060461130452234606",
+      "source": {
+        "platform": "x",
+        "author": "@NVIDIAAI",
+        "original_date": "2026-05-30"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "AI 技术分享：NVIDIAAI 提供高质量 AI 内容，涵盖工具开发模型优化和技术架构等领域",
+      "summary_en": "AI tech share: NVIDIAAI provides high-quality AI content covering tool development, model optimization, and technical architecture.",
+      "one_liner": "NVIDIAAI AI 技术分享",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4ba0ef63.md",
+      "images": [],
+      "added_date": "2026-05-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6c4217b7",
+      "title": "AI 技术分享 jeffdean",
+      "url": "https://x.com/jeffdean/status/2060476092180541946",
+      "source": {
+        "platform": "x",
+        "author": "@jeffdean",
+        "original_date": "2026-05-30"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "gemini",
+        "architecture"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "AI 技术分享：jeffdean 提供高质量 AI 内容，涵盖工具开发模型优化和技术架构等领域",
+      "summary_en": "AI tech share: jeffdean provides high-quality AI content covering tool development, model optimization, and technical architecture.",
+      "one_liner": "jeffdean AI 技术分享",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6c4217b7.md",
+      "images": [],
+      "added_date": "2026-05-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "46ed1744",
+      "title": "190945e7",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "",
+      "summary_en": null,
+      "one_liner": "190945e7",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "score-pending",
+      "local_path": "content/190945e7.md",
+      "images": [],
+      "added_date": "2026-05-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "54ce33a6",
+      "title": "9792028e",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "",
+      "summary_en": null,
+      "one_liner": "9792028e",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "score-pending",
+      "local_path": "content/9792028e.md",
+      "images": [],
+      "added_date": "2026-05-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0fae45f2",
+      "title": "274d5e0c",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "",
+      "summary_en": null,
+      "one_liner": "274d5e0c",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "score-pending",
+      "local_path": "content/274d5e0c.md",
+      "images": [],
+      "added_date": "2026-05-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-05-29",
-  "total_entries": 941
+  "last_updated": "2026-05-30",
+  "total_entries": 947
 }

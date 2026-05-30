@@ -4,6 +4,9 @@
 
 ## 最新精选 Top 10
 
+- [AI 技术分享 nigewillson](https://x.com/nigewillson/status/2060655853615649189) ⭐5 · 2026-05-30 — nigewillson AI 技术分享
+- [AI 技术分享 jeffdean](https://x.com/jeffdean/status/2060476092180541946) ⭐4 · 2026-05-30 — jeffdean AI 技术分享
+- [AI 技术分享 NVIDIAAI](https://x.com/NVIDIAAI/status/2060461130452234606) ⭐4 · 2026-05-30 — NVIDIAAI AI 技术分享
 - [精读笔记：ODCV-Bench](https://godofgpt.com/entry/a872f22c/) ⭐3 · 2026-05-29 — (McGill University, Tiptree Advanced Systems, NRC Canada 等) arXiv： 251220798 发表时间： 2025年12月 --- 核心问题 当自主 AI Agent 在追求 KPI 目标时...
 - [字节跳动 Android/移动端 性能功耗稳定性 全栈技术方案深度调研](https://godofgpt.com/entry/d844205a/) ⭐3 · 2026-05-29 — 字节跳动 Android/移动端 性能功耗稳定性 全栈技术方案深度调研 豆包手机助手资深 Android 系统性能工程师 入职前知识地图 TL;DR 字节的工具层基本开源平台层基本闭源：底层能力（btracebhook/ByteHookShadowHookByteXRaphael...
 - [面向 SmartPerfetto 的 Android 功耗（Power/Battery/Energy）全链路分析研究报告](https://godofgpt.com/entry/d7b96350/) ⭐3 · 2026-05-29 — 面向 SmartPerfetto 的 Android 功耗（Power/Battery/Energy）全链路分析研究报告 TL;DR SmartPerfetto 目前的 220 个 *yaml 技能集中在卡顿/启动/ANR/渲染等性能场景，几乎没有功耗专项技能.
@@ -11,33 +14,30 @@
 - [未命名 AI 资源](https://godofgpt.com/entry/6a9ddcdf/) ⭐3 · 2026-05-29 — | Cloudflare URL Source: Warning: Target URL returned error 403: Forbidden Warning: This page maybe requiring CAPTCHA, please make sure you....
 - [MAS-Bench: GUI-快捷方式混合移动代理统一基准测试分析](https://godofgpt.com/entry/81fc96a7/) ⭐3 · 2026-05-29 — MAS-Bench: GUI-快捷方式混合移动代理统一基准测试分析 核心问题 本文解决了移动GUI代理系统评估的系统性空白随着大语言模型驱动的GUI代理快速发展，现有研究主要聚焦于纯GUI交互或独立程序化方法.
 - [AI工程化落地的新挑战](https://godofgpt.com/entry/fe3d0dd4/) ⭐3 · 2026-05-29 — 2K views | AI工程化落地的新挑战 近年来，随着大语言模型的快速发展，AI工程化面临着前所未有的挑战和机遇本文将深入探讨当前AI工程化中的关键问题，并提供实用的解决方案背景概述 随着OpenAIGoogleAnthropic等公司不断推出新的模型...
-- [ylecun: Just released new LLaMA 3 fine-tuning techniques t...](https://x.com/ylecun/status/123456789) ⭐4 · 2026-05-28 — @ylecun shares innovative AI ai-tools approach
-- [karpathy: Built a new tiny LLM inference engine in 200 lines...](https://x.com/karpathy/status/123456790) ⭐4 · 2026-05-28 — @karpathy shares innovative AI ai-tools approach
-- [fchollet: Released Keras 3.5 with native PyTorch/JAX/TensorF...](https://x.com/fchollet/status/123456792) ⭐4 · 2026-05-28 — @fchollet shares innovative AI ai-tools approach
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 100 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| 模型与实验室 | 101 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
 | Agent 与自动化 | 143 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 147 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 27 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 39 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 48 | 论文、课程、提示工程、长文、方法论。 |
-| 工具与项目 | 44 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
+| 工具与项目 | 46 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 941
-- 公开展示卡片: 548
-- 有全文内容: 472
-- 最近 7 天信号: 21
+- 原始条目: 947
+- 公开展示卡片: 551
+- 有全文内容: 475
+- 最近 7 天信号: 24
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`agent`, `llm`, `claude`, `openclaw`, `ai-tools`, `openai`, `coding`, `paper`, `anthropic`, `reasoning`, `codex`, `mcp`, `claude-code`, `multi-agent`, `memory`, `safety`, `Agent`, `workflow`
+`agent`, `llm`, `claude`, `ai-tools`, `openclaw`, `openai`, `coding`, `paper`, `anthropic`, `reasoning`, `codex`, `mcp`, `claude-code`, `multi-agent`, `memory`, `safety`, `Agent`, `workflow`
 
 ## 自动化约定
 
