@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Process new AI content entries and add to entries.json"""
+"""Add new unprocessed entries from git status"""
 
 import json
 import re
 import sys
 from pathlib import Path
-from datetime import date
+from datetime import datetime
 
 # Add scripts directory to path
 sys.path.append(str(Path(__file__).parent / "openclaw" / "scripts"))
@@ -32,7 +32,7 @@ def extract_content_file(file_path):
         title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
         title = frontmatter.get('title') or (title_match.group(1) if title_match else 'Untitled')
         
-        # Extract summary from content
+        # Extract summary from content (Chinese version)
         lines = content.split('\n')
         summary_lines = []
         in_english = False
@@ -50,17 +50,17 @@ def extract_content_file(file_path):
                 break
             if line and not line.startswith('- ') and not line.startswith('**'):
                 summary_lines.append(line)
-                if len(summary_lines) >= 10:  # Limit summary length
+                if len(summary_lines) >= 15:
                     break
         
         summary_zh = '\n'.join(summary_lines)
-        summary_en = None
         
-        # Extract images
-        images = []
-        image_matches = re.findall(r'!\[.*?\]\((https?://[^)]+)\)', content)
-        for img in image_matches[:5]:  # Max 5 images
-            images.append(img)
+        # Parse quality_score
+        quality_str = frontmatter.get('quality_score', '3')
+        try:
+            quality_score = int(float(quality_str))
+        except (ValueError, TypeError):
+            quality_score = 3
         
         # Create entry dict
         entry = {
@@ -68,19 +68,19 @@ def extract_content_file(file_path):
             'title': title,
             'url': frontmatter.get('url'),
             'source': {
-                'platform': frontmatter.get('source', 'manual'),
-                'author': None,
-                'original_date': frontmatter.get('date')
+                'platform': frontmatter.get('platform') or frontmatter.get('source', 'manual'),
+                'author': frontmatter.get('author') or frontmatter.get('source'),
+                'original_date': frontmatter.get('original_date') or frontmatter.get('date')
             },
             'summary_zh': summary_zh,
-            'summary_en': summary_en,
-            'local_path': str(file_path.relative_to(Path.cwd())),
-            'images': images,
-            'tags': [],
+            'summary_en': None,
+            'local_path': str(Path(file_path).name),
+            'images': [],
+            'tags': frontmatter.get('tags', []),
             'source_type': 'article',
             'language': 'zh',
-            'quality_score': 3,
-            'status': 'score-pending',
+            'quality_score': quality_score,
+            'status': 'score-pending' if quality_score < 4 else 'active',
             'one_liner_author': 'openclaw'
         }
         
@@ -91,36 +91,31 @@ def extract_content_file(file_path):
         return None
 
 def main():
-    # Get the project root
-    project_root = Path(__file__).parent
-    content_dir = project_root / "content"
-    
     # Load existing entries
     entries_data = load_entries_data()
     print(f"Existing entries: {len(entries_data['entries'])}")
     
-    # Find new content files modified in last 24 hours
-    new_entries = []
-    ai_files = list(content_dir.glob("*.md"))
+    # Process files from git status that are new/untracked
+    files_to_process = [
+        'content/b3802f09.md',
+        'content/e4598e7d.md',
+        'content/ff9b22ff.md'
+    ]
     
-    for file_path in ai_files:
-        try:
-            # Check if file was recently modified (last 24 hours)
-            stat = file_path.stat()
-            hours_since_modify = (stat.st_mtime - date.today().timestamp()) / 3600
-            
-            if hours_since_modify >= -24 and hours_since_modify <= 0:  # Last 24 hours
-                entry = extract_content_file(file_path)
-                if entry:
-                    # Generate ID if not present
-                    if not entry['id']:
-                        from pipeline_utils import generate_entry_id
-                        entry['id'] = generate_entry_id(title=entry['title'], url=entry['url'])
-                    
+    new_entries = []
+    
+    for file_path in files_to_process:
+        full_path = Path(__file__).parent / file_path
+        if full_path.exists():
+            entry = extract_content_file(full_path)
+            if entry:
+                # Check if this entry already exists
+                existing_ids = [e['id'] for e in entries_data['entries']]
+                if entry['id'] not in existing_ids:
                     new_entries.append(entry)
-                    print(f"Found new entry: {entry['title']}")
-        except Exception as e:
-            print(f"Error checking {file_path}: {e}")
+                    print(f"Found new entry: {entry['title']} (ID: {entry['id']})")
+                else:
+                    print(f"Entry already exists: {entry['title']} (ID: {entry['id']})")
     
     print(f"Found {len(new_entries)} new entries to process")
     
@@ -138,7 +133,7 @@ def main():
         
         # Show added entries
         for entry in added:
-            print(f"Added: {entry['title']} (ID: {entry['id']}, Category: {entry['category']})")
+            print(f"Added: {entry['title']} (ID: {entry['id']}, Category: {entry.get('category', 'uncategorized')})")
         
         return True
     else:

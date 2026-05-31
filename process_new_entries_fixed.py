@@ -5,7 +5,8 @@ import json
 import re
 import sys
 from pathlib import Path
-from datetime import date
+from datetime import datetime, timedelta
+import os
 
 # Add scripts directory to path
 sys.path.append(str(Path(__file__).parent / "openclaw" / "scripts"))
@@ -62,6 +63,26 @@ def extract_content_file(file_path):
         for img in image_matches[:5]:  # Max 5 images
             images.append(img)
         
+        # Process dates - convert relative dates to absolute
+        current_date = datetime.now()
+        original_date = frontmatter.get('date')
+        
+        if original_date:
+            # Handle relative dates
+            if original_date.lower() in ['today', '今天']:
+                original_date = current_date.strftime('%Y-%m-%d')
+            elif original_date.lower() in ['yesterday', '昨天']:
+                original_date = (current_date - timedelta(days=1)).strftime('%Y-%m-%d')
+            elif original_date.lower() in ['this week', '本周']:
+                # This week starts on Monday
+                days_since_monday = current_date.weekday()
+                start_of_week = current_date - timedelta(days=days_since_monday)
+                original_date = start_of_week.strftime('%Y-%m-%d')
+            elif original_date.lower() in ['last week', '上周']:
+                days_since_monday = current_date.weekday()
+                start_of_last_week = current_date - timedelta(days=days_since_monday + 7)
+                original_date = start_of_last_week.strftime('%Y-%m-%d')
+        
         # Create entry dict
         entry = {
             'id': frontmatter.get('id'),
@@ -69,8 +90,8 @@ def extract_content_file(file_path):
             'url': frontmatter.get('url'),
             'source': {
                 'platform': frontmatter.get('source', 'manual'),
-                'author': None,
-                'original_date': frontmatter.get('date')
+                'author': frontmatter.get('author'),
+                'original_date': original_date
             },
             'summary_zh': summary_zh,
             'summary_en': summary_en,
@@ -90,6 +111,24 @@ def extract_content_file(file_path):
         print(f"Error processing {file_path}: {e}")
         return None
 
+def check_files_modified_in_last_hours(hours=24):
+    """Check which files were modified in the last N hours"""
+    content_dir = Path(__file__).parent / "content"
+    current_time = datetime.now()
+    cutoff_time = current_time - timedelta(hours=hours)
+    
+    modified_files = []
+    
+    for file_path in content_dir.glob("*.md"):
+        try:
+            file_mtime = datetime.fromtimestamp(file_path.stat().st_mtime)
+            if file_mtime >= cutoff_time:
+                modified_files.append(file_path)
+        except Exception as e:
+            print(f"Error checking {file_path}: {e}")
+    
+    return modified_files
+
 def main():
     # Get the project root
     project_root = Path(__file__).parent
@@ -99,28 +138,22 @@ def main():
     entries_data = load_entries_data()
     print(f"Existing entries: {len(entries_data['entries'])}")
     
-    # Find new content files modified in last 24 hours
+    # Find content files modified in the last 24 hours
     new_entries = []
-    ai_files = list(content_dir.glob("*.md"))
+    modified_files = check_files_modified_in_last_hours(24)
     
-    for file_path in ai_files:
-        try:
-            # Check if file was recently modified (last 24 hours)
-            stat = file_path.stat()
-            hours_since_modify = (stat.st_mtime - date.today().timestamp()) / 3600
+    print(f"Found {len(modified_files)} files modified in last 24 hours")
+    
+    for file_path in modified_files:
+        entry = extract_content_file(file_path)
+        if entry:
+            # Generate ID if not present
+            if not entry['id']:
+                from pipeline_utils import generate_entry_id
+                entry['id'] = generate_entry_id(title=entry['title'], url=entry['url'])
             
-            if hours_since_modify >= -24 and hours_since_modify <= 0:  # Last 24 hours
-                entry = extract_content_file(file_path)
-                if entry:
-                    # Generate ID if not present
-                    if not entry['id']:
-                        from pipeline_utils import generate_entry_id
-                        entry['id'] = generate_entry_id(title=entry['title'], url=entry['url'])
-                    
-                    new_entries.append(entry)
-                    print(f"Found new entry: {entry['title']}")
-        except Exception as e:
-            print(f"Error checking {file_path}: {e}")
+            new_entries.append(entry)
+            print(f"Found new entry: {entry['title']}")
     
     print(f"Found {len(new_entries)} new entries to process")
     
@@ -138,7 +171,7 @@ def main():
         
         # Show added entries
         for entry in added:
-            print(f"Added: {entry['title']} (ID: {entry['id']}, Category: {entry['category']})")
+            print(f"Added: {entry['title']} (ID: {entry['id']}, Category: {entry.get('category', 'uncategorized')})")
         
         return True
     else:
