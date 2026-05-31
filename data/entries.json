@@ -31801,8 +31801,60 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "7947cde5",
+      "title": "免费 5 天课程：从 AI 用户到 AI 建造者",
+      "url": "https://www.alliekmiller.com/the-ai-fast-track",
+      "source": {
+        "platform": "manual",
+        "author": null,
+        "original_date": "2026-05-30"
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "The AI Fast Track 是由 AI 领域最具影响力的声音之一 Allie K. Miller 推出的免费 5 天邮件课程，旨在帮助用户从单纯的 AI 使用者成长为 AI 建造者 课程无需任何编程基础，适合想超越 ChatGPT使用更多 AI 工具来提升效率的人Allie 拥有超过 200 万粉丝，曾在 Amazon 和 IBM 担任 AI 领导职位，创办的课程已有超过 35 万名学生 --- 第一天：超越基础 学习如何将 Claude 添加到你的工具箱，并理解它与传统 AI 助手的区别 第二天：探索能力边界 深入了解 Claude 的独特能力",
+      "summary_en": "The AI Fast Track is a free 5-day email course by Allie K. Miller, one of the most influential voices in AI. It aims to take participants from mere AI users to AI builders. No coding required. Perfect for those who want to go beyond ChatGPT and expand what AI can do for them. Allie has 2M+ follower",
+      "one_liner": "The AI Fast Track 是由 AI 领域最具影响力的声音之一 Allie K.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/a3f2k9p7.md",
+      "images": [],
+      "added_date": "2026-05-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "99728024",
+      "title": "万字总结：Harness Engineering 项目开发实践经验完整分享",
+      "url": "https://eu.36kr.com/zh/p/3749464991187458",
+      "source": {
+        "platform": "manual",
+        "author": null,
+        "original_date": "2026-05-30"
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Harness Engineering（驾驭工程）是一套围绕大语言模型建立的工业级的管理制度其核心理念是：AI 智能体就像一辆汽车，模型是引擎，交互程序是车轮，而 Harness 就是变速箱制动器仪表盘让汽车能真正上路的那套系统 2026 年第一季度，LangChain 发布The Anatomy of an Agent Harness，指出同一个模型，换上更精巧的 Harness 架构后，在 Terminal Bench 2.0 上的通过率直接从 52.8% 拉升至 66.5%底层模型一动没动，纯靠\"壳\"的优化 --- 问题：上下文不够 + 不听话",
+      "summary_en": "Harness Engineering is a pure industrial-grade management system built around large language models. The core idea: AI agents are like cars the model is the engine, the interaction program is the wheels, and the Harness is the transmission, brakes, and dashboard that actually make the car drivable",
+      "one_liner": "Harness Engineering（驾驭工程）是一套围绕大语言模型建立的工业级的管理制度其核心理念是：AI 智能体就像一辆汽车，模型是引擎，交互程序是车轮，而 Harness 就是变速箱制动器仪表盘让汽车能真正上路的那套系统 2026 年第一季度...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2kX8t9cK.md",
+      "images": [],
+      "added_date": "2026-05-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-05-30",
-  "total_entries": 947
+  "last_updated": "2026-05-31",
+  "total_entries": 949
 }
