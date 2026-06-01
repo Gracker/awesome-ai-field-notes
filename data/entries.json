@@ -2537,7 +2537,8 @@
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
-      "content_file": "88fb385b.md"
+      "content_file": "88fb385b.md",
+      "has_content": true
     },
     {
       "id": "755b41be",
@@ -2568,7 +2569,8 @@
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
-      "content_file": "755b41be.md"
+      "content_file": "755b41be.md",
+      "has_content": true
     },
     {
       "id": "d1d65a6d",
@@ -2780,7 +2782,8 @@
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
-      "content_file": "24122cca.md"
+      "content_file": "24122cca.md",
+      "has_content": true
     },
     {
       "id": "4a2b6070",
@@ -2815,7 +2818,8 @@
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
-      "content_file": "4a2b6070.md"
+      "content_file": "4a2b6070.md",
+      "has_content": true
     },
     {
       "id": "041a666b",
@@ -2882,7 +2886,8 @@
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
-      "content_file": "698e1058.md"
+      "content_file": "698e1058.md",
+      "has_content": true
     },
     {
       "id": "7b476b62",
@@ -31895,72 +31900,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
-    },
-    {
-      "id": "6c4217b7",
-      "title": "Gemini 团队技术讨论：JeffDean 与 Gemini 联合负责人对话",
-      "url": "https://x.com/OfficialLoganK/status/2044447638511383024",
-      "source": {
-        "platform": "x",
-        "author": "@OfficialLoganK",
-        "original_date": "2026-05-29"
-      },
-      "category": "models",
-      "tags": [
-        "gemini",
-        "google",
-        "ai-research",
-        "jeffdean"
-      ],
-      "source_type": "x_post",
-      "language": "both",
-      "summary_zh": "这是 @JeffDean 与 Gemini 联合负责人 @OriolVinyalsML@NoamShazeer 和 @koraykv 关于 Gemini 现状发展历程和未来方向的深度技术对话",
-      "summary_en": "A conversation between @JeffDean and Gemini co-leads @OriolVinyalsML, @NoamShazeer, and @koraykv about the current state of Gemini, how we got here, and where we go next.",
-      "one_liner": "Gemini联合负责人深度讨论：技术现状与未来发展",
-      "one_liner_author": "openclaw",
-      "quality_score": 3,
-      "status": "active",
-      "local_path": "content/6c4217b7.md",
-      "images": [],
-      "added_date": "2026-06-01",
-      "updated_date": null,
-      "github_stars": null,
-      "related": []
-    },
-    {
-      "id": "ff9b22ff",
-      "title": "karpathy: Built a new tiny LLM inference engine in 200 lines",
-      "url": "http://karpathy.github.io/2026/02/12/microgpt",
-      "source": {
-        "platform": "github",
-        "author": "karpathy",
-        "original_date": "2026-02-12"
-      },
-      "category": "coding",
-      "tags": [
-        "llm",
-        "gpt",
-        "from-scratch",
-        "python",
-        "tutorial",
-        "karpathy"
-      ],
-      "source_type": "article",
-      "language": "both",
-      "summary_zh": "Andrej Karpathy 发布 microgpt：一个仅用200行纯Python零依赖的GPT实现，包含完整算法核心：数据集分词器自微分引擎神经网络Adam优化器训练和推理循环",
-      "summary_en": "Andrej Karpathy released microgpt: a single file of ~200 lines of pure Python with no dependencies that trains and runs inference on a GPT, containing the complete algorithmic essence.",
-      "one_liner": "Karpathy的microGPT：200行纯Python零依赖GPT实现",
-      "one_liner_author": "openclaw",
-      "quality_score": 5,
-      "status": "active",
-      "local_path": "content/ff9b22ff.md",
-      "images": [],
-      "added_date": "2026-06-01",
-      "updated_date": null,
-      "github_stars": null,
-      "related": []
     }
   ],
   "last_updated": "2026-06-01",
-  "total_entries": 951
+  "total_entries": 949
 }
