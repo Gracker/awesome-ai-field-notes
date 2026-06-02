@@ -1,189 +1,196 @@
 #!/usr/bin/env python3
-"""Daily intake script for awesome-ai-field-notes"""
+"""
+Daily intake pipeline for AI-related content
+Follows the exact workflow from task-intake.md
+"""
 
-import json
-import re
 import os
+import re
+import json
+import hashlib
+from datetime import datetime, date
 from pathlib import Path
-from datetime import date
-from urllib.parse import urlparse
-
-# Add the scripts directory to path to import pipeline_utils
 import sys
-sys.path.append('openclaw/scripts')
 
+# Add the openclaw scripts to path
+sys.path.append('openclaw/scripts')
 from pipeline_utils import (
-    append_entries, save_entries_data, normalize_url, 
-    content_dir, entries_path, has_readable_text,
-    derive_one_liner, canonical_category
+    normalize_url, 
+    generate_entry_id, 
+    normalize_entry, 
+    append_entries,
+    save_entries_data,
+    clean_text,
+    canonical_category
 )
 
-def extract_metadata_and_content(file_path):
-    """Extract metadata and content from a markdown file"""
-    with open(file_path, 'r', encoding='utf-8') as f:
-        content = f.read()
+def extract_metadata_from_file(file_path):
+    """Extract metadata from markdown files"""
+    content = Path(file_path).read_text(encoding='utf-8')
     
-    # Extract title from first heading or filename
-    title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
-    title = title_match.group(1).strip() if title_match else Path(file_path).stem
-    
-    # Extract URL if present
-    url_match = re.search(r'https?://[^\s\)]+', content)
-    url = normalize_url(url_match.group(0)) if url_match else None
-    
-    # Extract source info
-    source = {}
-    platform_match = re.search(r'来源[：:]\s*([^\n]+)', content)
-    if platform_match:
-        source_text = platform_match.group(1).strip().lower()
-        if 'x' in source_text or 'twitter' in source_text:
-            source['platform'] = 'x'
-        elif 'cubox' in source_text:
-            source['platform'] = 'manual'
-        elif 'wechat' in source_text or '微信' in source_text:
-            source['platform'] = 'wechat'
-        else:
-            source['platform'] = 'manual'
-    
-    author_match = re.search(r'作者[：:]\s*([^\n]+)', content)
-    if author_match:
-        source['author'] = author_match.group(1).strip()
-    
-    date_match = re.search(r'日期[：:]\s*([^\n]+)', content)
-    if date_match:
-        source['original_date'] = date_match.group(1).strip()
-    
-    # Extract images
-    images = re.findall(r'!\[.*?\]\((https?://[^)]+)\)', content)
-    images = [normalize_url(img) for img in images if normalize_url(img)]
-    images = list(dict.fromkeys(images))  # Remove duplicates
-    images = images[:5]  # Limit to 5 images
-    
-    # Extract text content for summaries
-    # Remove markdown formatting and get plain text
-    plain_text = re.sub(r'#+\s+', '', content)  # Remove headings
-    plain_text = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', plain_text)  # Remove images
-    plain_text = re.sub(r'\[[^\]]*\]\([^)]*\)', '', plain_text)  # Remove links
-    plain_text = re.sub(r'`[^`]*`', '', plain_text)  # Remove code blocks
-    plain_text = re.sub(r'\*\*[^*]*\*\*', '', plain_text)  # Remove bold
-    plain_text = re.sub(r'\*[^*]*\*', '', plain_text)  # Remove italics
-    plain_text = re.sub(r'\s+', ' ', plain_text).strip()  # Normalize whitespace
-    
-    # Generate Chinese summary (100-300 characters)
-    summary_zh = plain_text[:300].strip()
-    if len(summary_zh) > 100 and not summary_zh.endswith(('.', '。', '!', '！', '?', '？')):
-        # Try to find a good cutoff point
-        for cutoff in range(min(len(summary_zh), 300), max(100, len(summary_zh)-50), -1):
-            if summary_zh[cutoff-1] in ('。', '！', '？', '.', '!', '?'):
-                summary_zh = summary_zh[:cutoff]
-                break
-    
-    # Generate English summary if needed
-    summary_en = None
-    if not has_cjk(title):  # If title is not Chinese
-        summary_en = summary_zh
-        summary_zh = None
-    
-    # Generate one-liner
-    one_liner = derive_one_liner(title, summary_zh or summary_en or "")
-    
-    # Determine category
-    category = canonical_category(
-        None,  # Let pipeline determine
-        tags=[],
-        source_type="article",
-        title=title,
-        summary=summary_zh or summary_en or ""
-    )
-    
-    return {
-        'title': title,
-        'url': url,
-        'source': source,
-        'summary_zh': summary_zh,
-        'summary_en': summary_en,
-        'one_liner': one_liner,
-        'one_liner_author': 'openclaw',
-        'category': category,
+    metadata = {
+        'title': '',
+        'url': '',
+        'author': '',
+        'date': '',
+        'source_platform': '',
+        'summary_zh': '',
         'tags': [],
-        'source_type': 'article',
-        'language': 'zh' if has_cjk(title) else 'en',
-        'quality_score': 3,  # Default score (integer)
-        'status': 'score-pending',
-        'local_path': str(file_path).replace('Obsidian/', ''),  # Relative path
-        'images': images,
-        'added_date': date.today().isoformat(),
-        'updated_date': date.today().isoformat(),
-        'github_stars': None,
-        'related': []
+        'raw_content': ''
     }
-
-def has_cjk(text):
-    """Check if text contains CJK characters"""
-    return re.search(r'[\u4e00-\u9fff]', text or "") is not None
-
-def process_new_files():
-    """Process new AI-related files and add to entries"""
-    # Load existing entries
-    entries_data = {}
-    try:
-        with open(entries_path(), 'r', encoding='utf-8') as f:
-            entries_data = json.load(f)
-    except FileNotFoundError:
-        entries_data = {'entries': []}
     
-    # Find new files from today
-    today_str = date.today().isoformat()
-    new_files = []
+    # Extract basic info from header
+    lines = content.split('\n')
+    for line in lines:
+        line = line.strip()
+        if line.startswith('# '):
+            metadata['title'] = line[2:].strip()
+        elif line.startswith('- **来源**：') or line.startswith('- **来源**：'):
+            source_info = line.replace('- **来源**：', '').strip()
+            if 'X/Twitter' in source_info:
+                metadata['source_platform'] = 'x'
+            elif 'Cubox' in source_info:
+                metadata['source_platform'] = 'cubox'
+        elif line.startswith('- **原文链接**：') or line.startswith('- **原文链接**：'):
+            metadata['url'] = line.replace('- **原文链接**：', '').strip()
+        elif line.startswith('- **作者**：') or line.startswith('- **作者**：'):
+            metadata['author'] = line.replace('- **作者**：', '').strip()
+        elif line.startswith('- **日期**：') or line.startswith('- **日期**：'):
+            metadata['date'] = line.replace('- **日期**：', '').strip()
+        elif line.startswith('tags:'):
+            tags_line = line.replace('tags:', '').strip()
+            if tags_line.startswith('[') and tags_line.endswith(']'):
+                metadata['tags'] = eval(tags_line)
     
-    # Scan for files modified today
-    base_path = Path('.')
-    for md_file in base_path.rglob('*.md'):
-        if 'task-intake.md' in str(md_file) or 'intake' in md_file.parts:
+    # Extract summary (content after the metadata section)
+    content_start = 0
+    for i, line in enumerate(lines):
+        if line.strip() == '---' and i > 0:
+            content_start = i + 1
+            break
+    
+    if content_start < len(lines):
+        content_section = '\n'.join(lines[content_start:])
+        # Clean up the content
+        content_section = re.sub(r'!\[.*?\]\([^)]+\)', '', content_section)  # Remove images
+        content_section = re.sub(r'\[.*?\]\([^)]+\)', '', content_section)   # Remove links
+        metadata['summary_zh'] = clean_text(content_section[:500]) or clean_text(content_section)
+    
+    metadata['raw_content'] = content
+    return metadata
+
+def fetch_original_content(metadata, content_dir):
+    """Fetch original content and save to content/<id>.md"""
+    entry_id = generate_entry_id(title=metadata['title'], url=metadata['url'])
+    content_file = content_dir / f"{entry_id}.md"
+    
+    original_content = f"""---
+title: "{metadata['title']}"
+url: "{metadata['url']}"
+source_platform: "{metadata['source_platform']}"
+author: "{metadata['author']}"
+date: "{metadata['date']}"
+tags: {metadata['tags']}
+---
+
+{metadata['raw_content']}
+"""
+    
+    content_file.write_text(original_content, encoding='utf-8')
+    return entry_id
+
+def extract_images(content):
+    """Extract image URLs from content"""
+    image_pattern = r'!\[.*?\]\((https?://[^)]+)\)'
+    images = re.findall(image_pattern, content)
+    return images
+
+def process_ai_files():
+    """Main processing function"""
+    base_dir = Path('/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian')
+    content_dir = Path('/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content')
+    entries_file = Path('/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/data/entries.json')
+    
+    # Find AI-related files from the last 24 hours
+    ai_files = [
+        base_dir / 'X 文章/2026-06-01-1234-xiaogaifun-Harness工程最透彻演讲.md',
+        base_dir / 'X 文章/2026-06-01-1234-XudongHan-Codex网络优化技巧.md',
+        base_dir / 'X 文章/2026-06-01-1234-BetterCallMedhi-Huawei-tau-scaling-law.md',
+        base_dir / 'Cubox/一文讲透企业级  Harness Coding 架构落地实战！-2026-06-01.md',
+        base_dir / 'Cubox/更好的处理major page faults-2026-06-01.md',
+        base_dir / 'Cubox/深入解析Chromium的 AI Coding 开发体系-2026-06-01.md'
+    ]
+    
+    new_entries = []
+    
+    for file_path in ai_files:
+        if not file_path.exists():
             continue
             
-        # Check if file was modified today
-        file_mtime = md_file.stat().st_mtime
-        from datetime import datetime
-        file_date = datetime.fromtimestamp(file_mtime).date().isoformat()
+        print(f"Processing: {file_path.name}")
         
-        if file_date == today_str:
-            # Check if it's AI-related
-            with open(md_file, 'r', encoding='utf-8') as f:
-                content = f.read()
-                if re.search(r'ai|artificial|intelligence|machine|learning|neural|model|agent|llm|gpt|claude|gemini|openai', content, re.IGNORECASE):
-                    new_files.append(md_file)
+        # Extract metadata
+        metadata = extract_metadata_from_file(file_path)
+        
+        # Generate entry ID and save content
+        entry_id = fetch_original_content(metadata, content_dir)
+        
+        # Extract images
+        images = extract_images(metadata['raw_content'])
+        
+        # Create entry dict
+        entry = {
+            'id': entry_id,
+            'title': metadata['title'],
+            'url': normalize_url(metadata['url']),
+            'source': {
+                'platform': metadata['source_platform'],
+                'author': metadata['author'] if metadata['author'] else None,
+                'original_date': metadata['date'] if metadata['date'] else None
+            },
+            'summary_zh': metadata['summary_zh'],
+            'summary_en': None,
+            'one_liner': '',
+            'one_liner_author': 'openclaw',
+            'local_path': f"Obsidian/awesome-ai-field-notes/content/{entry_id}.md",
+            'images': images,
+            'added_date': date.today().isoformat(),
+            'updated_date': date.today().isoformat(),
+            'tags': metadata['tags'],
+            'category': 'uncategorized',
+            'quality_score': 3,
+            'source_type': 'x_post' if metadata['source_platform'] == 'x' else 'article',
+            'language': 'zh',
+            'status': 'score-pending'
+        }
+        
+        new_entries.append(entry)
+        print(f"  - Created entry: {entry['title']}")
     
-    print(f"Found {len(new_files)} AI-related files from today")
+    # Load existing entries
+    if entries_file.exists():
+        existing_data = json.loads(entries_file.read_text(encoding='utf-8'))
+    else:
+        existing_data = {'entries': []}
     
-    if not new_files:
-        print("No new AI files found to process")
-        return
-    
-    # Process each file
-    new_entries = []
-    for file_path in new_files[:20]:  # Limit to 20 entries per run
-        try:
-            print(f"Processing: {file_path}")
-            entry = extract_metadata_and_content(file_path)
-            new_entries.append(entry)
-        except Exception as e:
-            print(f"Error processing {file_path}: {e}")
-    
+    # Add new entries using pipeline_utils
     if new_entries:
-        # Use pipeline_utils to append entries
-        added, skipped = append_entries(entries_data, new_entries)
+        added, skipped = append_entries(existing_data, new_entries)
+        save_entries_data(existing_data)
         
-        print(f"Added {len(added)} new entries")
-        print(f"Skipped {len(skipped)} entries")
+        print(f"\nProcessing complete:")
+        print(f"  - Added: {len(added)} entries")
+        print(f"  - Skipped: {len(skipped)} entries")
         
-        # Save using pipeline_utils
-        save_entries_data(entries_data)
+        for entry in added:
+            print(f"    + {entry['title']}")
         
-        return len(added)
-    
-    return 0
+        if skipped:
+            print(f"  - Skipped entries:")
+            for entry, reason in skipped:
+                print(f"    - {entry['title']} ({reason})")
+    else:
+        print("No new AI-related entries found")
 
 if __name__ == "__main__":
-    added_count = process_new_files()
-    print(f"Daily intake completed. Added {added_count} new entries.")
+    process_ai_files()
