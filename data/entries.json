@@ -3215,7 +3215,7 @@
         "workflow"
       ],
       "source_type": "tweet",
-      "language": "zh",
+      "language": "both",
       "summary_zh": "Karpathy 在回顾 MenuGen 开发历程时指出：构建一个真正上线的 AI 应用，最难的部分从来不是模型或代码本身，而是需要像 IKEA 家具一样组装各种第三方服务的 DevOps 工作——支付网关、用户认证、数据库、安全防护、域名配置等。这些基础设施的拼装和调试占据了大量工程时间，往往比训练模型更让人「痛苦」。这提醒所有 AI 开发者：Demo 和产品之间隔着一整个 DevOps 世界，vibe coding 的快乐止步于本地运行。",
       "summary_en": "Karpathy reflects on building MenuGen: the hardest part of deploying a real AI app is not the model or code itself but the DevOps glue — services, payments, auth, database, security, domain names. The gap between a local demo and a live product is almost entirely DevOps complexity.",
       "one_liner": "Vibe coding 做本地 Demo 很爽，但真实部署后 DevOps（服务、支付、认证、数据库、安全）才是噩梦",
@@ -3228,7 +3228,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "5c7a3ee4.md"
     },
     {
       "id": "ea4ab864",
@@ -3647,7 +3648,7 @@
         "google"
       ],
       "source_type": "tweet",
-      "language": "zh",
+      "language": "both",
       "summary_zh": "Gemini 3.1 Flash TTS 是 Google 迄今为止表现力最强、可控性最高的语音合成模型。核心新功能 Audio Tags：用自然语言命令嵌入文本来引导语音风格、节奏和表达方式。可在 Google AI Studio 或 Vertex AI 直接调用，适合有声内容、语音助手、播客类 AI 应用。音频标签让语音合成从调参数变成写指令，大幅降低了 AI 语音定制门槛。",
       "summary_en": "Google launched Gemini 3.1 Flash TTS with Audio Tags allowing natural language commands to control voice style, pace and delivery. Available in AI Studio and Vertex AI.",
       "one_liner": "Gemini 3.1 Flash TTS 用 Audio Tags 让语音合成从调参数变成写指令。",
@@ -3660,7 +3661,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "e5f6g7h8.md"
     },
     {
       "id": "i9j0k1l2",
@@ -3741,7 +3743,7 @@
         "ai-products"
       ],
       "source_type": "tweet",
-      "language": "zh",
+      "language": "both",
       "summary_zh": "Tibo 在 5 个 AI 产品上全部采用 bootstrap 路线，展示小团队如何用 AI 工具实现规模化。核心教训：创始人最大错误是不想犯错，比盈利更重要的是快速验证、快速失败。方法论：先验证想法再用钱买时间，而不是反过来。Peter Yang 播客详细拆解完整 playbook，包括 idea 验证、失败快的方法和 top 15 最佳实践。把 AI 工具和精益创业方法结合的真实案例，对独立开发者很有参考价值。",
       "summary_en": "Tibo bootstrapped 5 AI products to $1M+ MRR, shipping 9 failed products before one took off. Core lesson: biggest founder mistake is wanting to not be wrong. Fast validation beats profitability. Peter Yang podcast has full playbook.",
       "one_liner": "从 9 个失败品到月入百万：AI 独立开发者的精益创业方法论。",
@@ -3754,7 +3756,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "q7r8s9t0.md"
     },
     {
       "id": "u1v2w3x4",
@@ -4137,7 +4140,7 @@
         "agent"
       ],
       "source_type": "tweet",
-      "language": "zh",
+      "language": "both",
       "summary_zh": "Peter Yang 与 Mercury VP of Product Ryan Wiggins 深度对谈，主题是如何为 AI Agent 设计出色的 API 与 MCP（Model Context Protocol）。提供完整实战演示：25 分钟用 Claude Code 构建 Second Brain。MCP 正成为 Agent 间通信的事实标准，提前掌握即获得 AI 工作流下一代基础设施的入场券。",
       "summary_en": "Peter Yang shares how to build great APIs and MCPs for AI agents, with a live demo of a Claude Code Second Brain in 25 minutes. MCP is emerging as the standard protocol for agent communication.",
       "one_liner": "25 分钟实战：用 MCP + Claude Code 搭起你的第一个 AI Agent 工作流",
@@ -4150,7 +4153,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "2aef58dd.md"
     },
     {
       "id": "b10e5003",
@@ -4298,7 +4302,7 @@
         "acpx"
       ],
       "source_type": "tweet",
-      "language": "zh",
+      "language": "both",
       "summary_zh": "acpx（openclaw 出品的 agent 控制工具）发布 0.6.0 版本，带来多项实用更新：Claude system prompt 直接控制、session pruning（自动削减上下文）、embeddable turn handles（嵌入到自定义 UI）、--no-terminal 模式、persistent session 修复、WSL cwd 路径转换、queue 稳定性提升及更清晰的报错提示。对于日常使用 Claude/Codex 进行自动化任务的同学，session pruning 和 system prompt 控制是本次最值得关注的两个功能——前者避免上下文溢出，后者让你更精细地约束模型行为。已在 GitHub 开源，有需求的开发者值得关注。",
       "summary_en": "acpx 0.6.0 adds Claude system-prompt controls, session pruning, embeddable turn handles, --no-terminal mode, persistent session fixes, WSL cwd translation, queue hardening, and clearer errors. A practical agent control tool for Claude/Codex workflows.",
       "one_liner": "Claude/Codex 智能体控制工具 acpx 更新，session pruning 和 system prompt 控制是亮点",
@@ -4311,7 +4315,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "b58e207e.md"
     },
     {
       "id": "d65a31a7",
@@ -32207,8 +32212,299 @@
       "updated_date": "2026-06-02",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "b1de554d",
+      "title": "e5f6g7h8",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "models",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "English Today we launched Gemini 3.1 Flash TTS, our most expressive and controllable text-to-speech model yet. This launch includes audio tags! Audio tags are a seamless way to guide vocal style, pace, and delivery using natural language commands embedded directly in your text. Want a different tempo or tone? Just tag the audio to steer the AI-speech output! The model supports 70+ languages (24 of which are high-quality evaluated languages, including: Japanese, Hindi, and Arabic). 中文 今天我们发布了 Gemini 3.1 Flash TTS我们迄今为止表现力最强可控性最高的文本转语音模型本次发布包含音频标签功能！音频标签是一种无缝的方式，可以用嵌入在文本中的自然语言命令来引导语音风格节奏和表达方式想要不同的语速或语调？只需为音频打上标签，即可引导 AI 语音输出的走向！该模型支持 70 多种语言（其中 24 种为高质量评估语言，包括日语印地语和阿拉伯语）",
+      "summary_en": null,
+      "one_liner": "English Today we launched Gemini 3.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/e5f6g7h8.md",
+      "images": [],
+      "added_date": "2026-06-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "659a653a",
+      "title": "5c7a3ee4",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "English When I built menugen ~1 year ago, I observed that the hardest part by far was not the code itself, it was the plethora of services you have to assemble like IKEA furniture to make it real, the DevOps: services, payments, auth, database, security, domain names, etc... I am really looking forward to a day where I could simply tell my agent: \"build menugen\" (referencing the post) and it would just work. The whole thing up to the deployed web page. The agent would have to browse a number of services, read the docs, get all the api keys, make everything work, debug it in dev, and deploy to prod. This is the actually hard part, not the code itself. Or rather, the better way to think about it is that the entire DevOps lifecycle has to become code, in addition to the necessary sensors/actuators of the CLIs/APIs with agent-native ergonomics....",
+      "summary_en": null,
+      "one_liner": "English When I built menugen ~1 year ago, I observed that the hardest part by far was not the code itself, it was the plethora of services y...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/5c7a3ee4.md",
+      "images": [],
+      "added_date": "2026-06-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "354ed63d",
+      "title": "24122cca",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "agentic搜索",
+        "rag",
+        "企业搜索",
+        "nvidia",
+        "nemotron"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "English Original Glean Launches Waldo: First Agentic Search Model, Powered by NVIDIA Nemotron 3 Nano NVIDIA announced that Glean has launched its first agentic search model Waldo, built on NVIDIA Nemotron 3 Nano and post-trained for search planning. Core Capabilities Waldo's core ability lies in autonomously decomposing queries, selecting tools, determining what to read next, and when it has enough evidence to hand off....",
+      "summary_en": null,
+      "one_liner": "English Original Glean Launches Waldo: First Agentic Search Model, Powered by NVIDIA Nemotron 3 Nano NVIDIA announced that Glean has launche...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/24122cca.md",
+      "images": [],
+      "added_date": "2026-06-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "79320f7b",
+      "title": "88fb385b",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "llm",
+        "知识库",
+        "rag",
+        "科研",
+        "个人生产力"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "English Original Karpathy's Endorsement: Building Personal Knowledge Bases with LLMs, A New Paradigm for Research Workflows This tweet went very viral! Karpathy shared an improved version of what he calls an \"idea file\". In this era of LLM agents, there's less point/need of sharing the specific code/app you just share the idea, then the other person's agent customizes & builds it for your specific needs. He calls this concept LLM Wiki. Core Idea The problem with traditional RAG: every question, the LLM has to \"rediscover\" knowledge from scratch. No accumulation, no integration. The difference of LLM Wiki: instead of just retrieving from raw documents at query time, the LLM incrementally builds and maintains a persistent wiki a structured, interlinked collection of markdown files that sits between you and the raw sources....",
+      "summary_en": null,
+      "one_liner": "English Original Karpathy's Endorsement: Building Personal Knowledge Bases with LLMs, A New Paradigm for Research Workflows This tweet went....",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/88fb385b.md",
+      "images": [],
+      "added_date": "2026-06-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2d1c01ae",
+      "title": "b58e207e",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "English acpx 0.6.0 is out. (control codex/claude via agents) Highlights: Claude system-prompt controls, session pruning, embeddable turn handles, --no-terminal, persistent-session fixes, WSL cwd translation, queue hardening, and clearer error hints. 中文 acpx 0.6.0 发布了（通过 AI 代理控制 Codex/Claude）更新亮点：Claude system-prompt 控制会话剪枝可嵌入的 turn handles--no-terminal 选项persistent-session 修复WSL cwd 翻译队列加固以及更清晰的错误提示",
+      "summary_en": null,
+      "one_liner": "b58e207e",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/b58e207e.md",
+      "images": [],
+      "added_date": "2026-06-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6ae10df2",
+      "title": "4a2b6070",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "gogcli",
+        "google",
+        "cli",
+        "数据管理",
+        "加密备份",
+        "gmail"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "English Original gogcli 0.14.0: Command-line Google Data Management Suite with Encrypted Backups and Gmail Mirroring gogcli 0.14.0 is out! A fast, script-friendly CLI for Google data. Major new features in 0.14.0: 0.14.0 New Features 🔐 Encrypted Backups: Export to age-encrypted Git shards (gog backup) 📬 Resumable Gmail + Drive Export: Download with resume support 📝 Markdown Gmail Mirrors: Export Gmail as Markdown 📇 vCard Contacts Export: Full contact data export 🎞️ Slides Text/Template Editing: Modify Google Slides content 🩺 Auth + Keyring Doctor: Auth and keyring diagnostics Full Feature Coverage gogcli is a fast, script-friendly CLI for Gmail, Calendar, Chat, Classroom, Drive, Docs, Slides, Sheets, Forms, Apps Script, Contacts, Tasks, People, Admin, Groups (Workspace), and Keep (Workspace-only). JSON-first output, multiple accounts, flexible auth built in....",
+      "summary_en": null,
+      "one_liner": "English Original gogcli 0.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/4a2b6070.md",
+      "images": [],
+      "added_date": "2026-06-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e6b09fce",
+      "title": "2aef58dd",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "English \"In the 1950s, we met users at a bank. In the 70s, an ATM. In the 90s and 2000s, a website and a mobile app. Today, it's APIs and MCPs.\" Here's my new episode with @rywiggs (Mercury's VP of Product) where he shares: How to build great APIs + MCPs for agents, How to create a Claude Code second brain to 2x your productivity at work, What @mercury's data reveals about OpenAI and Anthropic's race for the enterprise. Some quotes from Ryan: \"Don't start with the MCP. Start with the foundation. Build great APIs first.\" \"I pulled 5M words from my last 5 years of PM work into Claude Code (using QMD search). That's the base of my second brain.\" \"After meetings, Claude tells me when I did something from my performance review....",
+      "summary_en": null,
+      "one_liner": "English \"In the 1950s, we met users at a bank.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/2aef58dd.md",
+      "images": [],
+      "added_date": "2026-06-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e36856cf",
+      "title": "755b41be",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "gpt-5.5",
+        "gpt-image-2",
+        "app开发",
+        "codex",
+        "ai编程"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "English Original Greg Brockman Tests: GPT-5.5 + Image Gen is the Best Combo for App Building Greg Brockman has been very pleasantly surprised by how useful GPT Image 2 is for app building. Romain Huet pointed out: GPT-5.5 + GPT-Image-2 is becoming one of the best combos for building apps. DKundel breaks down why it works so well. These learnings have been integrated into the Build Web Apps plugin, so Codex can handle the design-to-app loop for you. Brockman himself verified this this combo makes the app development process smoother than ever. --- *Source: x.com/gdb*",
+      "summary_en": null,
+      "one_liner": "English Original Greg Brockman Tests: GPT-5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/755b41be.md",
+      "images": [],
+      "added_date": "2026-06-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "160d2a4e",
+      "title": "q7r8s9t0",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "English How @tibo_maker turned a $2K MRR failing product into a $600K MRR business: \"When I acquired Typeframe, it was doing $2K MRR. I spent money on this product and I just wanted to not be wrong. This is the #1 mistake that founders make. It's more important for them to not be wrong than to be successful. If you force the selling of your products, you're not listening to people telling you there's another opportunity that might be bigger.\" After this, Tibo noticed that people wanted to make viral shorts on social media, so he pivoted the product to Revid and now it's making $600K+ MRR. 中文 @tibo_maker 是如何把一个月收入 2K 美元的低谷产品变成月收入 60 万美元业务的：\"当我收购 Typeframe 时，它每月收入约 2000 美元我在这个产品上投入了资金，我只是不想犯错误这是创始人最容易犯的头号错误对他们来说，不犯错比成功更重要如果你强推自己的产品，你就听不进去人们告诉你的还有另一个可能更大的机会\"随后 Tibo 发现人们想在社交媒体上制作病毒式短视频，于是他将产品转向了 Revid，现在月收入已超过 60 万美元",
+      "summary_en": null,
+      "one_liner": "English How @tibo_maker turned a $2K MRR failing product into a $600K MRR business: \"When I acquired Typeframe, it was doing $2K MRR.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/q7r8s9t0.md",
+      "images": [],
+      "added_date": "2026-06-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1cabeaa5",
+      "title": "698e1058",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "infra",
+      "tags": [
+        "rag",
+        "神经符号ai",
+        "ontology",
+        "向量搜索",
+        "幻觉消除"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "English Original Neurosymbolic AI Solves RAG Scaling Failure: Ontology + Deterministic Layer + LLM Interpretation Layer RAG is not broken, but naive vector-only RAG fails at scale. The root problem: the assumption that meaning = vector similarity collapses at scale. Root Cause When a knowledge base hits critical mass, \"Semantic Collapse\" occurs: Similar vectors cluster together, causing highly redundant retrieval results Different but related concepts are incorrectly grouped together Retrieval-driven hallucinations proliferate The Neurosymbolic AI Solution The future is neurosymbolic AI: Ontology Layer: Provides semantic framework for structure, ensuring logical consistency in knowledge representation Deterministic Layer: Handles truth and fact-checking, ensuring reliability of retrieval results LLM Interpretation Layer: Uses LLMs for interpretation and reasoning, not computation This is...",
+      "summary_en": null,
+      "one_liner": "English Original Neurosymbolic AI Solves RAG Scaling Failure: Ontology + Deterministic Layer + LLM Interpretation Layer RAG is not broken, b...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/698e1058.md",
+      "images": [],
+      "added_date": "2026-06-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-06-02",
-  "total_entries": 960
+  "last_updated": "2026-06-03",
+  "total_entries": 970
 }

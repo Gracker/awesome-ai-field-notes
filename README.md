@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
-- [OpenAI 模型登陆 AWS](https://x.com/OpenAI/status/2061564502160892138) ⭐4 · 2026-06-02 — OpenAI 企业模型登陆 AWS Bedrock
-- [AI 技术分享 nigewillson](https://x.com/nigewillson/status/2060655853615649189) ⭐5 · 2026-05-30 — nigewillson AI 技术分享
-- [AI 技术分享 jeffdean](https://x.com/jeffdean/status/2060476092180541946) ⭐4 · 2026-05-30 — jeffdean AI 技术分享
-- [AI 技术分享 NVIDIAAI](https://x.com/NVIDIAAI/status/2060461130452234606) ⭐4 · 2026-05-30 — NVIDIAAI AI 技术分享
-- [免费 5 天课程：从 AI 用户到 AI 建造者](https://www.alliekmiller.com/the-ai-fast-track) ⭐3 · 2026-05-30 — The AI Fast Track 是由 AI 领域最具影响力的声音之一 Allie K.
-- [万字总结：Harness Engineering 项目开发实践经验完整分享](https://eu.36kr.com/zh/p/3749464991187458) ⭐3 · 2026-05-30 — Harness Engineering（驾驭工程）是一套围绕大语言模型建立的工业级的管理制度其核心理念是：AI 智能体就像一辆汽车，模型是引擎，交互程序是车轮，而 Harness 就是变速箱制动器仪表盘让汽车能真正上路的那套系统 2026 年第一季度...
-- [精读笔记：ODCV-Bench](https://godofgpt.com/entry/a872f22c/) ⭐3 · 2026-05-29 — (McGill University, Tiptree Advanced Systems, NRC Canada 等) arXiv： 251220798 发表时间： 2025年12月 --- 核心问题 当自主 AI Agent 在追求 KPI 目标时...
-- [字节跳动 Android/移动端 性能功耗稳定性 全栈技术方案深度调研](https://godofgpt.com/entry/d844205a/) ⭐3 · 2026-05-29 — 字节跳动 Android/移动端 性能功耗稳定性 全栈技术方案深度调研 豆包手机助手资深 Android 系统性能工程师 入职前知识地图 TL;DR 字节的工具层基本开源平台层基本闭源：底层能力（btracebhook/ByteHookShadowHookByteXRaphael...
-- [面向 SmartPerfetto 的 Android 功耗（Power/Battery/Energy）全链路分析研究报告](https://godofgpt.com/entry/d7b96350/) ⭐3 · 2026-05-29 — 面向 SmartPerfetto 的 Android 功耗（Power/Battery/Energy）全链路分析研究报告 TL;DR SmartPerfetto 目前的 220 个 *yaml 技能集中在卡顿/启动/ANR/渲染等性能场景，几乎没有功耗专项技能.
-- [源码调研：InputChannel 创建失败处理机制与 Input-SurfaceFlinger 协作](https://godofgpt.com/entry/94af49e3/) ⭐3 · 2026-05-29 — json #1（优先级：high） 关联章节：31 输入事件分发 研究价值：系统级 Input 事件分发失败处理和渲染协作机制，对 ANR 诊断和性能优化具有关键价值 核心发现 InputChannel 是 Android 输入系统的核心双向通信通道.
+- [q7r8s9t0](https://godofgpt.com/entry/160d2a4e/) ⭐3 · 2026-06-03 — English How @tibo_maker turned a $2K MRR failing product into a $600K MRR business: "When I acquired Typeframe, it was doing $2K MRR.
+- [e5f6g7h8](https://godofgpt.com/entry/b1de554d/) ⭐3 · 2026-06-03 — English Today we launched Gemini 3.
+- [b58e207e](https://godofgpt.com/entry/2d1c01ae/) ⭐3 · 2026-06-03 — b58e207e
+- [88fb385b](https://godofgpt.com/entry/79320f7b/) ⭐3 · 2026-06-03 — English Original Karpathy's Endorsement: Building Personal Knowledge Bases with LLMs, A New Paradigm for Research Workflows This tweet went....
+- [755b41be](https://godofgpt.com/entry/e36856cf/) ⭐3 · 2026-06-03 — English Original Greg Brockman Tests: GPT-5.
+- [698e1058](https://godofgpt.com/entry/1cabeaa5/) ⭐3 · 2026-06-03 — English Original Neurosymbolic AI Solves RAG Scaling Failure: Ontology + Deterministic Layer + LLM Interpretation Layer RAG is not broken, b...
+- [5c7a3ee4](https://godofgpt.com/entry/659a653a/) ⭐3 · 2026-06-03 — English When I built menugen ~1 year ago, I observed that the hardest part by far was not the code itself, it was the plethora of services y...
+- [4a2b6070](https://godofgpt.com/entry/6ae10df2/) ⭐3 · 2026-06-03 — English Original gogcli 0.
+- [2aef58dd](https://godofgpt.com/entry/e6b09fce/) ⭐3 · 2026-06-03 — English "In the 1950s, we met users at a bank.
+- [24122cca](https://godofgpt.com/entry/354ed63d/) ⭐3 · 2026-06-03 — English Original Glean Launches Waldo: First Agentic Search Model, Powered by NVIDIA Nemotron 3 Nano NVIDIA announced that Glean has launche...
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 102 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 143 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 147 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 27 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 39 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 模型与实验室 | 104 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 146 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 150 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 28 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 40 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 48 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 49 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 960
-- 公开展示卡片: 555
+- 原始条目: 970
+- 公开展示卡片: 565
 - 有全文内容: 484
-- 最近 7 天信号: 26
+- 最近 7 天信号: 35
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`agent`, `llm`, `claude`, `ai-tools`, `openclaw`, `openai`, `coding`, `paper`, `anthropic`, `reasoning`, `codex`, `mcp`, `claude-code`, `multi-agent`, `memory`, `safety`, `Agent`, `workflow`
+`agent`, `llm`, `claude`, `ai-tools`, `openclaw`, `openai`, `coding`, `paper`, `anthropic`, `codex`, `reasoning`, `mcp`, `claude-code`, `multi-agent`, `memory`, `safety`, `Agent`, `workflow`
 
 ## 自动化约定
 
