@@ -6,7 +6,7 @@
   "score_pending_entries": 121,
   "this_week_added": 35,
   "entries_with_content": 484,
-  "content_files_total": 1015,
+  "content_files_total": 1020,
   "channel_distribution": {
     "coding": 150,
     "agents": 146,
@@ -76,7 +76,7 @@
     "product": 3,
     "video": 2
   },
-  "last_updated": "2026-06-03 08:31",
+  "last_updated": "2026-06-03 23:43",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }
