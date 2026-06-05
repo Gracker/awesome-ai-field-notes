@@ -32842,8 +32842,168 @@
       "updated_date": "2026-06-04",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "dba5fe77",
+      "title": "Peter Yang 教程:5 步给 Claude Skills 加上自评分与记忆",
+      "url": "https://x.com/petergyang/status/2062181445746192497",
+      "source": {
+        "platform": "x",
+        "author": "@petergyang",
+        "original_date": "2026-06-04"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "skills",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Peter Yang 发布 The Only Claude Skills Tutorial You Need 视频教程, 5 步教用户为 Claude Skills 加上评估循环 (让 AI 自我修正错误) 与记忆功能 (让技能随使用越多越准). 教程重点不是 skill 本身, 而是把会用升级到会自改进: 用一次, skill 保留反馈, 下次调用时按更新后的版本执行. 适合在 Claude Code 里维护个人知识库固定风格定制工作流的人. 原帖强调技能能精确编码个人知识与品味, 是当前 Claude Code 体系里被低估的能力.",
+      "summary_en": "Peter Yang releases a 5-step video tutorial for Claude Skills that adds a self-evaluation loop and memory so the skill improves with each use. Targets Claude Code users who maintain personal knowledge bases, fixed styles, or custom workflows in Claude Code.",
+      "one_liner": "5 步把 Claude Skills 改成自我评分+记忆, 越用越准",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/dba5fe77.md",
+      "images": [],
+      "added_date": "2026-06-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "content_file": "content/dba5fe77.md",
+      "content_fetched_at": "2026-06-05 20:24:48 "
+    },
+    {
+      "id": "af94b63c",
+      "title": "Gemma 4 12B 正式开源: 16GB 显存可跑的多模态模型",
+      "url": "https://x.com/demishassabis/status/2062241713398149524",
+      "source": {
+        "platform": "x",
+        "author": "@demishassabis",
+        "original_date": "2026-06-04"
+      },
+      "category": "models",
+      "tags": [
+        "open-source",
+        "multimodal",
+        "edge"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Google 推出 Gemma 4 12B 多模态模型, Apache 2.0 协议发布, 声称对一台 16GB 显存的笔电即可本地运行. Demis Hassabis 同步宣布 Gemma 系列累计下载量突破 1.5 亿. 模型采用统一无编码器多模态架构, 定位是把高强度推理能力带到边缘设备, 而不是只能跑在云端. 对个人开发者研究者小团队来说, Apache 2.0 加上 16GB 显存门槛意味着本地试验离线部署私有化场景的可行性大幅提高.",
+      "summary_en": "Google releases Gemma 4 12B, a unified encoder-free multimodal model under Apache 2.0 that runs on laptops with 16GB VRAM. Hassabis notes Gemma line has crossed 150M downloads. The release targets on-device reasoning and offline deployment scenarios.",
+      "one_liner": "Gemma 4 12B 多模态开源, 16GB 显存笔电可本地跑",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/af94b63c.md",
+      "images": [],
+      "added_date": "2026-06-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "content_file": "content/af94b63c.md",
+      "content_fetched_at": "2026-06-05 20:24:48 "
+    },
+    {
+      "id": "ba595150",
+      "title": "OpenAI Codex 新增 Sites: 把 Codex 工作产出变成可发布 Web App",
+      "url": "https://x.com/sama/status/2062661071761211561",
+      "source": {
+        "platform": "x",
+        "author": "@sama",
+        "original_date": "2026-06-03"
+      },
+      "category": "coding",
+      "tags": [
+        "codex",
+        "openai",
+        "no-code"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "OpenAI 推出 Codex Sites 功能, 让 Codex 把工作想法计划直接转成可交互的 Web 应用, 生成 URL 后可与团队分享浏览. Sam Altman 转发时提到小时候要有这个就好了, 但仍想念 HyperCard. Sites 目前先向 Business/Enterprise 计划开放, 后续扩展到更广用户群. 价值在于把代码产出压缩成应用产出, 让产品运营销售在不懂代码的前提下用 Codex 搭出可演示的小工具.",
+      "summary_en": "OpenAI ships Codex Sites: Codex turns work, ideas, or plans into interactive web apps with a shareable URL. Sam Altman amplified the launch. First rolling out to Business/Enterprise, then expanding. Compresses the gap from code artifact to app artifact for non-engineers.",
+      "one_liner": "Codex Sites: 一句话把 Codex 工作产出变成可分享 Web App",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ba595150.md",
+      "images": [],
+      "added_date": "2026-06-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "content_file": "content/ba595150.md",
+      "content_fetched_at": "2026-06-05 20:24:48 "
+    },
+    {
+      "id": "60e94298",
+      "title": "Anthropic 数据团队实战: Claude Skills 把 95% 业务分析自动化",
+      "url": "https://x.com/_catwu/status/2062408623565984209",
+      "source": {
+        "platform": "x",
+        "author": "@_catwu",
+        "original_date": "2026-06-04"
+      },
+      "category": "agents",
+      "tags": [
+        "claude-code",
+        "agents",
+        "analytics"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Anthropic 数据团队 Cat Wu 公开技术博文, 展示如何用 Claude + Skills 把 95% 的业务分析查询自动化, 综合准确率约 95%. 博文梳理三类最常见错误 (概念-实体歧义数据陈旧检索失败), 并展开他们的 agentic analytics 栈: 数据基础层 (规范化的单一可信数据集)真相源层 (semantic layer + lineage + 知识图谱)Skills 层 (知识路由 + unbook 流程模板). 关键数据: 加 Skills 前 Claude 准确率仅 21%, 加 Skills 后稳定在 95% 以上, 部分领域接近 99%. 对企业数据团队直接可借鉴的实战模板.",
+      "summary_en": "Cat Wu (Anthropic data team) details how Claude + Skills automated 95% of business analytics queries with ~95% accuracy. Breaks down the three failure modes and the agentic analytics stack. Pre-Skills accuracy: 21%. Post-Skills: 95%+ in aggregate, 99% in some domains.",
+      "one_liner": "Claude Skills 实战: 把 95% 业务分析自动化, 准确率从 21% 提到 95%",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/60e94298.md",
+      "images": [],
+      "added_date": "2026-06-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "content_file": "content/60e94298.md",
+      "content_fetched_at": "2026-06-05 20:24:48 "
+    },
+    {
+      "id": "f500e6c3",
+      "title": "MiniMax Speech 2.8 Turbo: M3 + 检索组合支持 40+ 语言sub-250ms 响应",
+      "url": "https://x.com/MiniMax_AI/status/2062491338944463039",
+      "source": {
+        "platform": "x",
+        "author": "@MiniMax_AI",
+        "original_date": "2026-06-04"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "voice",
+        "speech",
+        "hackathon"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "MiniMax 在 YC 旧金山办公室 6 月 6-7 日的 Conversational AI Hackathon 上推出 M3 + Moss 检索 + MiniMax Speech 2.8 Turbo 的语音 agent 组合: 检索回传上下文, M3 做推理, Speech 2.8 Turbo 输出语音, 端到端延迟压在 250ms 以内, 支持 40+ 语言. Hackathon 冠军可获 YC partner 面试. 组合的关键不是单个模型, 而是给开发者一个开箱即用的低延迟多语言语音链路, 适合做实时对话 agent 的团队直接套用.",
+      "summary_en": "MiniMax voice-agent stack at YC SF hackathon (Jun 6-7): M3 reasoning + Moss retrieval + MiniMax Speech 2.8 Turbo delivering sub-250ms responses in 40+ languages. The relevant takeaway for builders is the integrated low-latency multilingual pipeline.",
+      "one_liner": "MiniMax M3+Speech 2.8 Turbo 语音链路: sub-250ms 响应, 40+ 语言",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f500e6c3.md",
+      "images": [],
+      "added_date": "2026-06-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [],
+      "content_file": "content/f500e6c3.md",
+      "content_fetched_at": "2026-06-05 20:24:48 "
     }
   ],
-  "last_updated": "2026-06-04",
-  "total_entries": 982
+  "last_updated": "2026-06-05",
+  "total_entries": 987
 }

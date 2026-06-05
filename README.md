@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
+- [Peter Yang 教程:5 步给 Claude Skills 加上自评分与记忆](https://x.com/petergyang/status/2062181445746192497) ⭐5 · 2026-06-04 — 5 步把 Claude Skills 改成自我评分+记忆, 越用越准
+- [Gemma 4 12B 正式开源: 16GB 显存可跑的多模态模型](https://x.com/demishassabis/status/2062241713398149524) ⭐5 · 2026-06-04 — Gemma 4 12B 多模态开源, 16GB 显存笔电可本地跑
+- [Anthropic 数据团队实战: Claude Skills 把 95% 业务分析自动化](https://x.com/_catwu/status/2062408623565984209) ⭐5 · 2026-06-04 — Claude Skills 实战: 把 95% 业务分析自动化, 准确率从 21% 提到 95%
+- [MiniMax Speech 2.8 Turbo: M3 + 检索组合支持 40+ 语言sub-250ms 响应](https://x.com/MiniMax_AI/status/2062491338944463039) ⭐4 · 2026-06-04 — MiniMax M3+Speech 2.8 Turbo 语音链路: sub-250ms 响应, 40+ 语言
 - [Entry beb29165](https://godofgpt.com/entry/beb29165/) ⭐3 · 2026-06-04 — 今天我们发布了 Gemini 3.1 Flash TTS我们迄今为止表现力最强可控性最高的文本转语音模型本次发布包含音频标签功能！音频标签是一种无缝的方式，可以用嵌入在文本中的自然语言命令来引...
 - [Entry 755848e9](https://godofgpt.com/entry/755848e9/) ⭐3 · 2026-06-04 — 当我大约一年前构建 menugen 时，我注意到迄今为止最难的部分绝不是代码本身，而是需要像组装宜家家具一样把各种服务拼装起来才能让它真正运行也就是 DevOps：服务支付认证数据库安全...
 - [Entry 416822ce](https://godofgpt.com/entry/416822ce/) ⭐3 · 2026-06-04 — 20 世纪 50 年代，我们在银行与用户见面70 年代，有了 ATM90 年代和 2000 年代，有了网站和移动应用今天，是 APIs 和 MCPs这是我和 @rywiggs（Mercur...
 - [Entry 1b1feb23](https://godofgpt.com/entry/1b1feb23/) ⭐3 · 2026-06-04 — acpx 0.6.0 发布了（通过 AI 代理控制 Codex/Claude）更新亮点：Claude system-prompt 控制会话剪枝可嵌入的 turn handles--no-ter...
 - [What we learned mapping a year's worth of AI-enabled cyber threats](https://www.anthropic.com/research/AI-enabled-cyber-threats-mitre-attack) ⭐4 · 2026-06-03 — 迄今为止最系统的 AI 网络威胁映射研究，ATT&CK 框架能否接住 AI 带来的范式变化是核心问题
-- [Introducing Gemma 4 12B: A unified, encoder-free multimodal model](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b) ⭐4 · 2026-06-03 — 轻量级多模态模型的新标杆，encoder-free 架构值得关注
-- [q7r8s9t0](https://godofgpt.com/entry/160d2a4e/) ⭐3 · 2026-06-03 — English How @tibo_maker turned a $2K MRR failing product into a $600K MRR business: "When I acquired Typeframe, it was doing $2K MRR.
-- [e5f6g7h8](https://godofgpt.com/entry/b1de554d/) ⭐3 · 2026-06-03 — English Today we launched Gemini 3.
-- [b58e207e](https://godofgpt.com/entry/2d1c01ae/) ⭐3 · 2026-06-03 — b58e207e
-- [Uber's $1,500/month AI limit is a useful signal for AI tool pricing](https://simonwillison.net/2026/Jun/3/uber-caps-usage) ⭐3 · 2026-06-03 — 1500 美元成企业 AI 定价分水岭，Simon Willison 的分析值得所有 AI 产品经理参考
+- [OpenAI Codex 新增 Sites: 把 Codex 工作产出变成可发布 Web App](https://x.com/sama/status/2062661071761211561) ⭐4 · 2026-06-03 — Codex Sites: 一句话把 Codex 工作产出变成可分享 Web App
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 105 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| 模型与实验室 | 106 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
 | Agent 与自动化 | 146 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 150 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| AI 编程 | 153 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 28 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 43 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 48 | 论文、课程、提示工程、长文、方法论。 |
-| 工具与项目 | 53 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
+| 工具与项目 | 54 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 982
-- 公开展示卡片: 573
-- 有全文内容: 486
-- 最近 7 天信号: 40
+- 原始条目: 987
+- 公开展示卡片: 578
+- 有全文内容: 491
+- 最近 7 天信号: 45
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`agent`, `llm`, `claude`, `ai-tools`, `openclaw`, `openai`, `coding`, `anthropic`, `paper`, `codex`, `reasoning`, `mcp`, `claude-code`, `multi-agent`, `memory`, `safety`, `Agent`, `workflow`
+`agent`, `llm`, `claude`, `ai-tools`, `openclaw`, `openai`, `coding`, `anthropic`, `paper`, `codex`, `reasoning`, `claude-code`, `mcp`, `multi-agent`, `memory`, `safety`, `workflow`, `Agent`
 
 ## 自动化约定
 
