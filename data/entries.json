@@ -33002,8 +33002,95 @@
       "related": [],
       "content_file": "content/f500e6c3.md",
       "content_fetched_at": "2026-06-05 20:24:48 "
+    },
+    {
+      "id": "3b737038",
+      "title": "Gemini macOS 隐藏技巧: 双击 把当前窗口丢进对话",
+      "url": "https://x.com/joshwoodward/status/2062667951485108354",
+      "source": {
+        "platform": "x",
+        "author": "@joshwoodward",
+        "original_date": "2026-06-06"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Google Gemini macOS 客户端新加的快捷手势: 同时按下两个 Command 键,自动把当前活动窗口的内容作为上下文塞进 Gemini 聊天, 不用手动截图也不用切窗口Google Gemini 产品负责人 Josh Woodward 亲自推荐, 等于给\"边看文档边提问\"这个高频动作加了一键加速适用场景: 读代码 review扫邮件做总结看 PDF 提问看长文摘要点",
+      "summary_en": "Google's Gemini macOS app now ships a hidden gesture: pressing both Command keys at once attaches the active window's content to the chat context no screenshots or window switching. Useful for code review, email summarization, PDF Q&A, and long-form reading.",
+      "one_liner": "Gemini macOS 双击 直接把当前窗口挂到对话, 免截图",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3b737038.md",
+      "images": [],
+      "added_date": "2026-06-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6f3a3f33",
+      "title": "反思\"AI-First\": 99% 代码由 AI 写, 为什么产品还是输了?",
+      "url": "https://x.com/JustinLin610/status/2043749803780432338",
+      "source": {
+        "platform": "x",
+        "author": "@JustinLin610",
+        "original_date": "2026-06-06"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "前阿里 P10 JustinLin 引用 Intuit ML 负责人 Peter Pang 的文章Why Your \"AI-First\" Strategy Is Probably Wrong并给出自己的判断: 一支团队\"99% 生产代码由 AI 写\"并不天然等于商业成功Peter 的实证数据是 周二上午 10 点上线新功能, 中午 A/B, 下午 3 点被数据否决, 5 点换版本再上问题不是模型不够强, 而是组织在 01 后没有把 A/B 闭环和决策节奏建在 AI 流水线里Justin 的补充: agent 时代对团队的核心要求是 critical thinking, 能在 AI 给的多版方案里独立做判断扛住反复试错",
+      "summary_en": "JustinLin (ex-Alibaba P10) comments on Peter Pang's article 'Why Your AI-First Strategy Is Probably Wrong'. A team that writes 99% of production code with AI still loses if it lacks the A/B loop and decision cadence built into the AI pipeline. In the agent era, critical thinking matters more than output volume.",
+      "one_liner": "AI-First 不是把代码全部交给模型, 是把 A/B 闭环接到 AI 流水线里",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6f3a3f33.md",
+      "images": [],
+      "added_date": "2026-06-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ddb3d201",
+      "title": "Paul Smith 现场观察: 普通企业数据团队也能自动化 95% 分析查询",
+      "url": "https://x.com/realpaulsmith/status/2062948966291939843",
+      "source": {
+        "platform": "x",
+        "author": "@realpaulsmith",
+        "original_date": "2026-06-06"
+      },
+      "category": "coding",
+      "tags": [
+        "ai-tools",
+        "workflow"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "数据领域 KOL Paul Smith 在转推里给了一个非常硬的判断: \"一个普通的企业数据团队, 就能做到我们刚做的这件事, 并把 95% 的分析查询自动化\"他强调这件事在大多数知识工作里是做不到的, 因为数据查询有可验证的\"硬答案\", 其它领域没有对一线数据团队/分析师的提示: 不要把\"AI 自动做分析\"想成模型自动生成 SQL, 真正的杠杆是把语义层 + lineage + 评测这套工程基础先搭好, 让模型在可信数据上跑具体到组织: 给数据团队配 LLM 自动化之前, 先盘点语义层和数据质量, 否则准确率会被底层噪声吃掉",
+      "summary_en": "Data KOL Paul Smith argues that an ordinary enterprise data team can automate 95% of analysis queries something most knowledge work can't match because data queries have verifiable hard answers. The real lever is building the semantic layer + lineage + evaluation stack first, so models run on trustworthy data.",
+      "one_liner": "数据查询能 95% 自动化, 因为答案可验证 多数知识工作没有这个条件",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ddb3d201.md",
+      "images": [],
+      "added_date": "2026-06-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-06-05",
-  "total_entries": 987
+  "last_updated": "2026-06-06",
+  "total_entries": 990
 }
