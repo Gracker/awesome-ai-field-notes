@@ -1,5 +1,76 @@
 # Changelog
 
+## 2026-06-01 ~ 2026-06-07
+
+### 📈 新增 (43)
+
+- [Anthropic 数据团队实战: Claude Skills 把 95% 业务分析自动化](https://x.com/_catwu/status/2062408623565984209) — agents ⭐⭐⭐⭐⭐
+- [Peter Yang 教程:5 步给 Claude Skills 加上自评分与记忆](https://x.com/petergyang/status/2062181445746192497) — coding ⭐⭐⭐⭐⭐
+- [Gemma 4 12B 正式开源: 16GB 显存可跑的多模态模型](https://x.com/demishassabis/status/2062241713398149524) — models ⭐⭐⭐⭐⭐
+- [Gemma 4 12B: A unified, encoder-free multimodal model](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b) — models ⭐⭐⭐⭐
+- [OpenAI 模型登陆 AWS](https://x.com/OpenAI/status/2061564502160892138) — ai-tools ⭐⭐⭐⭐
+- [What we learned mapping a year's worth of AI-enabled cyber threats](https://www.anthropic.com/research/AI-enabled-cyber-threats-mitre-attack) — industry ⭐⭐⭐⭐
+- [OpenAI Codex 新增 Sites: 把 Codex 工作产出变成可发布 Web App](https://x.com/sama/status/2062661071761211561) — coding ⭐⭐⭐⭐
+- [反思"AI-First": 99% 代码由 AI 写, 为什么产品还是输了?](https://x.com/JustinLin610/status/2043749803780432338) — uncategorized ⭐⭐⭐⭐
+- [MiniMax Speech 2.8 Turbo: M3 + 检索组合支持 40+ 语言sub-250ms 响应](https://x.com/MiniMax_AI/status/2062491338944463039) — uncategorized ⭐⭐⭐⭐
+- [Paul Smith 现场观察: 普通企业数据团队也能自动化 95% 分析查询](https://x.com/realpaulsmith/status/2062948966291939843) — coding ⭐⭐⭐⭐
+- [Uber's $1,500/month AI limit is a useful signal for AI tool pricing](https://simonwillison.net/2026/Jun/3/uber-caps-usage) — industry ⭐⭐⭐
+- [Mathematicians issue warning as AI rapidly gains ground](https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground) — industry ⭐⭐⭐
+- [Gemini macOS 隐藏技巧: 双击 把当前窗口丢进对话](https://x.com/joshwoodward/status/2062667951485108354) — uncategorized ⭐⭐⭐⭐
+- 698e1058 — infra ⭐⭐⭐
+- q7r8s9t0 — industry ⭐⭐⭐
+- e5f6g7h8 — models ⭐⭐⭐
+- b58e207e — agents ⭐⭐⭐
+- 5c7a3ee4 — agents ⭐⭐⭐
+- 24122cca — coding ⭐⭐⭐
+- 4a2b6070 — coding ⭐⭐⭐
+- 755b41be — coding ⭐⭐⭐
+- 88fb385b — agents ⭐⭐⭐
+- 2aef58dd — agents ⭐⭐⭐
+- Entry 1b1feb23 — uncategorized ⭐⭐⭐
+- Entry 416822ce — uncategorized ⭐⭐⭐
+- Entry 755848e9 — uncategorized ⭐⭐⭐
+- Entry beb29165 — uncategorized ⭐⭐⭐
+- [免费 5 天课程：从 AI 用户到 AI 建造者](https://www.alliekmiller.com/the-ai-fast-track) — uncategorized ⭐⭐⭐
+- [万字总结：Harness Engineering 项目开发实践经验完整分享](https://eu.36kr.com/zh/p/3749464991187458) — uncategorized ⭐⭐⭐
+- [Conversation](https://x.com/Xudong07452910/status/2057787089387753884) — score-pending ⭐⭐⭐
+- 一文讲透企业级 Harness Coding 架构落地实战！ — score-pending ⭐⭐⭐
+- AI 技术分享 6c4217b7 — score-pending ⭐⭐⭐
+- AI 技术分享 4ba0ef63 — score-pending ⭐⭐⭐
+- [Harness Engineering 最透彻的一次分享](https://x.com/xiaogaifun/status/2056628716625863011) — score-pending ⭐⭐⭐
+- [华为宣布新的 Tau Scaling Law 物理定律，彻底改变半导体行业](https://x.com/BetterCallMedhi/status/2059384524950384942) — score-pending ⭐⭐⭐
+- 更好的处理major page faults — score-pending ⭐⭐⭐
+- AI资源 - README — score-pending ⭐⭐⭐
+- AI 再自行读取这些文档 — score-pending ⭐⭐⭐
+- Prompt Engineering — uncategorized ⭐⭐⭐
+- Entry 491dcf0d — score-pending ⭐⭐
+- Entry 6d94a095 — score-pending ⭐⭐
+- Entry d8fc5682 — score-pending ⭐⭐
+
+### 📦 归档 (0)
+
+### ✏️ 评分调整 (0)
+
+### 📊 统计
+- 总条目: 947 → 990 (+43)
+- 活跃条目: 579 → 609 (+30)
+
+### 📈 分类变更分布
+| 分类 | 新增 | 评分≥4 | |
+|------|------|--------|------|
+| agents | 5 | 1 | |
+| ai-tools | 1 | 1 | |
+| coding | 6 | 2 | |
+| industry | 4 | 1 | |
+| infra | 1 | 0 | |
+| models | 3 | 2 | |
+| uncategorized | 23 | 3 | |
+
+### 🏆 本周最高分新增
+- Anthropic 数据团队实战: Claude Skills 把 95% 业务分析自动化 — agents ⭐⭐⭐⭐⭐
+- Peter Yang 教程:5 步给 Claude Skills 加上自评分与记忆 — coding ⭐⭐⭐⭐⭐
+- Gemma 4 12B 正式开源: 16GB 显存可跑的多模态模型 — models ⭐⭐⭐⭐⭐
+
 ## 2026-05-25 ~ 2026-05-31
 
 ### 📈 新增 (51)
