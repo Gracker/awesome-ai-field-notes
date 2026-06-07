@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
-- [反思"AI-First": 99% 代码由 AI 写, 为什么产品还是输了?](https://x.com/JustinLin610/status/2043749803780432338) ⭐4 · 2026-06-06 — AI-First 不是把代码全部交给模型, 是把 A/B 闭环接到 AI 流水线里
-- [Paul Smith 现场观察: 普通企业数据团队也能自动化 95% 分析查询](https://x.com/realpaulsmith/status/2062948966291939843) ⭐4 · 2026-06-06 — 数据查询能 95% 自动化, 因为答案可验证 多数知识工作没有这个条件
-- [Gemini macOS 隐藏技巧: 双击 把当前窗口丢进对话](https://x.com/joshwoodward/status/2062667951485108354) ⭐4 · 2026-06-06 — Gemini macOS 双击 直接把当前窗口挂到对话, 免截图
-- [Peter Yang 教程:5 步给 Claude Skills 加上自评分与记忆](https://x.com/petergyang/status/2062181445746192497) ⭐5 · 2026-06-04 — 5 步把 Claude Skills 改成自我评分+记忆, 越用越准
-- [Gemma 4 12B 正式开源: 16GB 显存可跑的多模态模型](https://x.com/demishassabis/status/2062241713398149524) ⭐5 · 2026-06-04 — Gemma 4 12B 多模态开源, 16GB 显存笔电可本地跑
-- [Anthropic 数据团队实战: Claude Skills 把 95% 业务分析自动化](https://x.com/_catwu/status/2062408623565984209) ⭐5 · 2026-06-04 — Claude Skills 实战: 把 95% 业务分析自动化, 准确率从 21% 提到 95%
-- [MiniMax Speech 2.8 Turbo: M3 + 检索组合支持 40+ 语言sub-250ms 响应](https://x.com/MiniMax_AI/status/2062491338944463039) ⭐4 · 2026-06-04 — MiniMax M3+Speech 2.8 Turbo 语音链路: sub-250ms 响应, 40+ 语言
-- [Entry beb29165](https://godofgpt.com/entry/beb29165/) ⭐3 · 2026-06-04 — 今天我们发布了 Gemini 3.1 Flash TTS我们迄今为止表现力最强可控性最高的文本转语音模型本次发布包含音频标签功能！音频标签是一种无缝的方式，可以用嵌入在文本中的自然语言命令来引...
-- [Entry 755848e9](https://godofgpt.com/entry/755848e9/) ⭐3 · 2026-06-04 — 当我大约一年前构建 menugen 时，我注意到迄今为止最难的部分绝不是代码本身，而是需要像组装宜家家具一样把各种服务拼装起来才能让它真正运行也就是 DevOps：服务支付认证数据库安全...
-- [Entry 416822ce](https://godofgpt.com/entry/416822ce/) ⭐3 · 2026-06-04 — 20 世纪 50 年代，我们在银行与用户见面70 年代，有了 ATM90 年代和 2000 年代，有了网站和移动应用今天，是 APIs 和 MCPs这是我和 @rywiggs（Mercur...
+- [使用 AI 与借助 AI 建造，是两件不同的事](https://x.com/alliekmiller/status/1985834763677286606) ⭐5 · 2026-06-07 — 使用 AI 与借助 AI 建造，是两件不同的事 复制粘贴 ChatGPT 提示词，能帮到的地方有限我希望帮你学会构建真正能解决你个人问题的 AI 软件自动化工具和应用 AI Fast Track是一个免费的 5 天课程，已有数万人参与学习 现在报名，明日即可收到课程邮件：
+- [Farzapedia：把个人数据变成可导航的个人维基百科](https://x.com/karpathy/status/2040572272944324650) ⭐5 · 2026-06-07 — Farzapedia，把自己的数据变成个人维基百科这是继 Karpathy 那条Wiki LLM推文之后的一个优秀案例 我非常喜欢这种个人化方案，相比AI 用得越多就越聪明这种默认模式，有以下几点优势： 显式（Explicit）记忆产物是一个明确可导航的 wiki...
+- [Project Deal：当 AI Agent 运营一个交易市场](https://www.anthropic.com/features/project-deal) ⭐4 · 2026-06-07 — 在 Anthropic，我们对 AI 模型如何开始影响商业交换感兴趣（你可能还记得 Project Vend，在那个项目里我们让 Claude 在我们办公室经营一家小型企业） 最近...
+- [Nature 论文：LLM 可通过隐含数据信号向另一 LLM 传递隐藏偏好与行为特征](https://x.com/AnthropicAI/status/2044493337835802948) ⭐4 · 2026-06-07 — 我们参与合著的一项关于隐含学习的研究一个 AI 可以通过训练数据中隐藏的信号，将偏好或习惯秘密传递给另一个 AI 这个想法很惊人：一个 AI 可以通过将偏好或坏习惯隐藏在看似随机的数字中，秘密传递给另一个 AI.
+- [Gemini 3.1 Flash TTS：表现力最强控制粒度最细的语音合成模型](https://x.com/GoogleAI/status/2044447638511383024) ⭐4 · 2026-06-07 — Gemini 3.1 Flash TTS：表现力最强控制粒度最细的语音合成模型
+- [Anthropic 开源对齐工具 Petri 捐赠给 Meridian Labs：版本 3.0 更新](https://www.anthropic.com/research/donating-open-source-petri) ⭐4 · 2026-06-07 — 2025 年 10 月，我们发布了 Petri，这是一个可用于任何大型语言模型的开源对齐测试工具箱Petri 诞生于 Anthropic Fellows 计划...
+- [做AI产品两年，我得出的实操经验](https://godofgpt.com/entry/b915a965/) ⭐3 · 2026-06-07 — [翻译将在实际实现中完成] --- *质量评分: 4* *来源:
+- [claude code's DX is too good. and that's a problem. | thinking out loud](https://godofgpt.com/entry/2387bcb5/) ⭐3 · 2026-06-07 — 我一直思考着一个矛盾之处：Claude Code 可能正在变得"太好"了 这里的"好"不是"AI 要抢走我们的工作"那种意思而是在用户体验（DX）层面它的功能快捷键命令和配置选项的表面面积增长得太快了...
+- [TRL 异步 GRPO：解耦推理与训练，RL Scaling 新一代方法解析](https://godofgpt.com/entry/ddfe47aa/) ⭐3 · 2026-06-07 — 深度内容预警 技术深潜，适合周日的早晨，介于短篇侦探故事🕵️和RLHF教程🧑🏫之间 我们在 TRL 库中最近添加了 AsyncGRPO，以解耦推理与训练，实现更快更大规模的扩展作为合理性检验，我们在简单实验环境（reward = len...
+- [Subagents have arrived in Gemini CLI](https://godofgpt.com/entry/92c3b44a/) ⭐3 · 2026-06-07 — Subagents have arrived in Gemini CLI 原文链接: --- Subagents allow Gemini CLI to delegate complex, repetitive, or high-volume tasks to specializ...
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 106 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 146 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 154 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 28 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 43 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 48 | 论文、课程、提示工程、长文、方法论。 |
-| 工具与项目 | 56 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
+| 模型与实验室 | 10 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 11 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 8 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 0 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 3 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 研究与学习 | 1 | 论文、课程、提示工程、长文、方法论。 |
+| 工具与项目 | 23 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 990
-- 公开展示卡片: 581
-- 有全文内容: 494
-- 最近 7 天信号: 44
+- 原始条目: 723
+- 公开展示卡片: 56
+- 有全文内容: 6
+- 最近 7 天信号: 26
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`agent`, `llm`, `claude`, `ai-tools`, `openclaw`, `openai`, `coding`, `anthropic`, `paper`, `codex`, `reasoning`, `claude-code`, `workflow`, `mcp`, `multi-agent`, `memory`, `safety`, `Agent`
+`2026`, `ai-tools`, `workflow`, `research`, `automation`, `safety`, `alignment`, `anthropic`, `gemini`, `MCP`, `Claude`, `SWE-bench`, `OpenAI`, `coding-agent`, `claude-code`, `multi-agent`, `prompt-engineering`, `宝玉`
 
 ## 自动化约定
 
