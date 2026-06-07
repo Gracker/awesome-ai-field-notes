@@ -99,7 +99,7 @@ def validate_local_paths(data):
 def check_image_urls(data, sample_size=20):
     entries_with_images = [e for e in data["entries"] if e.get("status") == "active" and e.get("images")]
     if not entries_with_images:
-        return [], 0, 0
+        return [], 0, []
     
     sample = random.sample(entries_with_images, min(sample_size, len(entries_with_images)))
     checked = 0

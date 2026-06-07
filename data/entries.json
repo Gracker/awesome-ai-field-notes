@@ -30,7 +30,8 @@
       "local_path": "content/mcp_dev_summit_2026_001.md",
       "images": [],
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gemini_3_1_pro_2026_001",
@@ -62,7 +63,8 @@
       "local_path": "content/gemini_3_1_pro_2026_001.md",
       "images": [],
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gemini_cli_0_39_2026_001",
@@ -94,7 +96,8 @@
       "local_path": "content/gemini_cli_0_39_2026_001.md",
       "images": [],
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "microsoft_agent_framework_1_0_2026_001",
@@ -126,7 +129,8 @@
       "local_path": "content/microsoft_agent_framework_1_0_2026_001.md",
       "images": [],
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a2a_protocol_v1_0_2026_001",
@@ -158,7 +162,8 @@
       "images": [],
       "github_stars": null,
       "related": [],
-      "local_path": "content/a2a_protocol_v1_0_2026_001.md"
+      "local_path": "content/a2a_protocol_v1_0_2026_001.md",
+      "local_path_valid": false
     },
     {
       "id": "mcp_framework_2026_001",
@@ -190,7 +195,8 @@
       "local_path": "content/mcp_framework_2026_001.md",
       "images": [],
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ai_agents_production_2026_002",
@@ -222,7 +228,8 @@
       "local_path": "content/ai_agents_production_2026_002.md",
       "images": [],
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "hn_llm_agents_2026_003",
@@ -254,7 +261,8 @@
       "local_path": "content/hn_llm_agents_2026_003.md",
       "images": [],
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gptimg2_001",
@@ -287,7 +295,8 @@
       "added_date": "2026-04-28",
       "updated_date": null,
       "github_stars": 1235,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ccconn_001",
@@ -321,7 +330,8 @@
       "added_date": "2026-04-28",
       "updated_date": null,
       "github_stars": 6424,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "agentsm_001",
@@ -355,7 +365,8 @@
       "added_date": "2026-04-28",
       "updated_date": null,
       "github_stars": 525,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "androi_001",
@@ -389,7 +400,8 @@
       "added_date": "2026-04-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "hermex_001",
@@ -422,7 +434,8 @@
       "added_date": "2026-04-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "hermes_001",
@@ -455,7 +468,8 @@
       "added_date": "2026-04-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "baoyu_ai_strategy_2026_001",
@@ -483,7 +497,8 @@
         "original_date": "2026-04-24"
       },
       "images": [],
-      "local_path": "content/baoyu_ai_strategy_2026_001.md"
+      "local_path": "content/baoyu_ai_strategy_2026_001.md",
+      "local_path_valid": false
     },
     {
       "id": "google_io_2026_001",
@@ -515,7 +530,8 @@
       "added_date": "2026-04-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gemini_3_flash_cli_2026_001",
@@ -548,7 +564,8 @@
       "added_date": "2026-04-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "google_antigravity_2026_001",
@@ -581,7 +598,8 @@
       "added_date": "2026-04-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "mcp_2026_roadmap_001",
@@ -613,7 +631,8 @@
       "added_date": "2026-04-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "real_world_gemini3_agents_2026_001",
@@ -650,7 +669,8 @@
       "added_date": "2026-04-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "claude_opus_47_mythos_2026_001",
@@ -683,7 +703,8 @@
       "added_date": "2026-05-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gpt55_release_2026_001",
@@ -717,7 +738,8 @@
       "added_date": "2026-05-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gpt_rosalind_2026_001",
@@ -750,7 +772,8 @@
       "added_date": "2026-05-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "anthropic_emotion_concepts_2026_001",
@@ -784,7 +807,8 @@
       "added_date": "2026-05-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "claude_personal_guidance_2026_001",
@@ -817,7 +841,8 @@
       "added_date": "2026-05-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "claude_design_2026_001",
@@ -850,7 +875,8 @@
       "added_date": "2026-05-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gemini_robotics_er16_2026_001",
@@ -883,7 +909,8 @@
       "added_date": "2026-05-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "baoyu_claude_code_session_2026_001",
@@ -916,7 +943,8 @@
       "added_date": "2026-05-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "baoyu_multi_agent_collab_2026_001",
@@ -949,7 +977,8 @@
       "added_date": "2026-05-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "openai_goblin_problem_2026_001",
@@ -983,7 +1012,8 @@
       "added_date": "2026-05-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "gemini31_flash_tts_2026_001",
@@ -1016,7 +1046,8 @@
       "added_date": "2026-05-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b2b80952",
@@ -1042,7 +1073,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "74c6f3c1",
@@ -1068,7 +1100,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7837f554",
@@ -1120,7 +1153,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "31a42d9d",
@@ -1146,7 +1180,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "212008af",
@@ -1172,7 +1207,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "70bc2347",
@@ -1224,7 +1260,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4156c41e",
@@ -1250,7 +1287,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e3647b3f",
@@ -1276,7 +1314,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "672ea3a5",
@@ -1328,7 +1367,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b314a1d4",
@@ -1354,7 +1394,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5be0449e",
@@ -1380,7 +1421,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "534755b2",
@@ -1406,7 +1448,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "03796827",
@@ -1432,7 +1475,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "26f79bac",
@@ -1458,7 +1502,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b4726029",
@@ -1484,7 +1529,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a6be549f",
@@ -1510,7 +1556,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ce8a58c5",
@@ -1562,7 +1609,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ea722aab",
@@ -1588,7 +1636,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "591cf2fd",
@@ -1614,7 +1663,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7c2589ef",
@@ -1640,7 +1690,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c5bcfc62",
@@ -1692,7 +1743,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8cad50c4",
@@ -1718,7 +1770,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f16dd195",
@@ -1744,7 +1797,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2e4913ec",
@@ -1770,7 +1824,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "53cc469f",
@@ -1822,7 +1877,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f3f6e8cf",
@@ -1848,7 +1904,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a2690f67",
@@ -1874,7 +1931,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "097b3abf",
@@ -1926,7 +1984,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c1d4072f",
@@ -1952,7 +2011,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fd7d7fa3",
@@ -1978,7 +2038,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2e8af228",
@@ -2004,7 +2065,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8ead6354",
@@ -2056,7 +2118,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5f893bd9",
@@ -2082,7 +2145,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b0af310a",
@@ -2134,7 +2198,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5d2c3b25",
@@ -2186,7 +2251,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fb8743a2",
@@ -2264,7 +2330,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d0688371",
@@ -2316,7 +2383,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "84ef63de",
@@ -2342,7 +2410,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7ca13420",
@@ -2368,7 +2437,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f3d705d3",
@@ -2394,7 +2464,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2a545919",
@@ -2420,7 +2491,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "34b36505",
@@ -2446,7 +2518,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "28bede62",
@@ -2472,7 +2545,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "dc64d43b",
@@ -2498,7 +2572,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ffd19b5d",
@@ -2550,7 +2625,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2387bcb5",
@@ -2576,7 +2652,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b7397b93",
@@ -2628,7 +2705,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1fad32e8",
@@ -2706,7 +2784,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4a8cbe9b",
@@ -2784,7 +2863,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "db1182e9",
@@ -2810,7 +2890,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b45d8eb3",
@@ -2836,7 +2917,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "01ced839",
@@ -2862,7 +2944,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b052af1c",
@@ -2888,7 +2971,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6483a9f9",
@@ -2914,7 +2998,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3248af72",
@@ -2940,7 +3025,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8e562cf5",
@@ -2966,7 +3052,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3f437cab",
@@ -2992,7 +3079,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "33be271a",
@@ -3018,7 +3106,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0e59b0eb",
@@ -3047,7 +3136,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "26a7ced0",
@@ -3073,7 +3163,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2f2ce58a",
@@ -3099,7 +3190,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "21dd58de",
@@ -3125,7 +3217,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5d7750de",
@@ -3151,7 +3244,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "48557fa1",
@@ -3229,7 +3323,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d08c99c1",
@@ -3281,7 +3376,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2a6c1d43",
@@ -3307,7 +3403,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7f5b0c2f",
@@ -3333,7 +3430,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4b7f4c8f",
@@ -3359,7 +3457,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9e23aaed",
@@ -3385,7 +3484,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b1aea04c",
@@ -3411,7 +3511,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "272f5a0d",
@@ -3437,7 +3538,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "23408dca",
@@ -3463,7 +3565,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d6664a08",
@@ -3489,7 +3592,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "80098942",
@@ -3515,7 +3619,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3a1d5464",
@@ -3567,7 +3672,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a5d12ef0",
@@ -3593,7 +3699,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b0af577c",
@@ -3619,7 +3726,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "159dfa42",
@@ -3645,7 +3753,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d7d601bd",
@@ -3671,7 +3780,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "291740bf",
@@ -3749,7 +3859,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "18f89b5b",
@@ -3801,7 +3912,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0953ba5c",
@@ -3827,7 +3939,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "71f32e45",
@@ -3879,7 +3992,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ec3c280f",
@@ -3905,7 +4019,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "221916a9",
@@ -3931,7 +4046,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d027713a",
@@ -3957,7 +4073,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "29321d58",
@@ -3983,7 +4100,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e173fa94",
@@ -4009,7 +4127,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ccf39e86",
@@ -4139,7 +4258,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "945efb38",
@@ -4165,7 +4285,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8181cf5c",
@@ -4191,7 +4312,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d123ee31",
@@ -4217,7 +4339,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "84596432",
@@ -4243,7 +4366,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4b581419",
@@ -4269,7 +4393,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "afebe711",
@@ -4295,7 +4420,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3496861c",
@@ -4321,7 +4447,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "68476121",
@@ -4373,7 +4500,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "babc22f2",
@@ -4399,7 +4527,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2f42ee1e",
@@ -4451,7 +4580,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d47c9ff9",
@@ -4503,7 +4633,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "45c7a3b0",
@@ -4529,7 +4660,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c24dbee2",
@@ -4555,7 +4687,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a158df9d",
@@ -4581,7 +4714,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ec6aac22",
@@ -4607,7 +4741,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "adaf1e1c",
@@ -4633,7 +4768,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c7af8e7f",
@@ -4685,7 +4821,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e62d90f5",
@@ -4737,7 +4874,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "19de6abd",
@@ -4763,7 +4901,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0b139edd",
@@ -4789,7 +4928,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b995a05a",
@@ -4815,7 +4955,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b3441cb1",
@@ -4893,7 +5034,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bebf71d1",
@@ -4919,7 +5061,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2a1f2d19",
@@ -4997,7 +5140,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fc66310a",
@@ -5023,7 +5167,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5fd86e8d",
@@ -5049,7 +5194,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b7a913d5",
@@ -5075,7 +5221,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8e82051c",
@@ -5101,7 +5248,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8f2313d8",
@@ -5127,7 +5275,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7f5c6a21",
@@ -5153,7 +5302,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "27cbbf49",
@@ -5179,7 +5329,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5d4288fc",
@@ -5205,7 +5356,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "13c7fb7a",
@@ -5257,7 +5409,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "918a4b0e",
@@ -5309,7 +5462,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "18864dc9",
@@ -5335,7 +5489,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "222a298f",
@@ -5361,7 +5516,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d0627a1d",
@@ -5413,7 +5569,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "baea2666",
@@ -5439,7 +5596,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "51ec72a6",
@@ -5465,7 +5623,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "83423b6e",
@@ -5517,7 +5676,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "34a0ab39",
@@ -5543,7 +5703,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c9cba169",
@@ -5569,7 +5730,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d2bbf94a",
@@ -5621,7 +5783,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "447e9cf2",
@@ -5650,7 +5813,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1bfe5dd5",
@@ -5676,7 +5840,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a8043960",
@@ -5702,7 +5867,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e1188571",
@@ -5728,7 +5894,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1ecbe0fa",
@@ -5754,7 +5921,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "685fbfb3",
@@ -5780,7 +5948,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "91baa88f",
@@ -5806,7 +5975,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5e548b41",
@@ -5832,7 +6002,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "221d58a0",
@@ -5858,7 +6029,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "95fdeb8c",
@@ -5884,7 +6056,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "97700514",
@@ -5936,7 +6109,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1d1ac1e4",
@@ -5988,7 +6162,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c8910d7d",
@@ -6014,7 +6189,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1eada07d",
@@ -6040,7 +6216,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "daec3555",
@@ -6066,7 +6243,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "48ccebf7",
@@ -6118,7 +6296,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "387b4c9c",
@@ -6144,7 +6323,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "39b2709e",
@@ -6170,7 +6350,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "21b3296b",
@@ -6222,7 +6403,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6fdf6280",
@@ -6274,7 +6456,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "955de10f",
@@ -6326,7 +6509,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "71d19794",
@@ -6352,7 +6536,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "15dac456",
@@ -6378,7 +6563,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f932321f",
@@ -6404,7 +6590,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ccdc067d",
@@ -6430,7 +6617,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "61d7ddba",
@@ -6456,7 +6644,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "30f4d7cf",
@@ -6508,7 +6697,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "32556b57",
@@ -6534,7 +6724,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6430aa88",
@@ -6560,7 +6751,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b6391125",
@@ -6586,7 +6778,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "38d01e19",
@@ -6612,7 +6805,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "70a41122",
@@ -6664,7 +6858,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "45ab67fb",
@@ -6690,7 +6885,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3390a002",
@@ -6742,7 +6938,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "14fa5d2f",
@@ -6768,7 +6965,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c17fda2e",
@@ -6794,7 +6992,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "edf4e3b0",
@@ -6846,7 +7045,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e1375e8e",
@@ -6872,7 +7072,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "eddc501d",
@@ -6898,7 +7099,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "02d392ab",
@@ -6924,7 +7126,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5c88f849",
@@ -6950,7 +7153,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e4ee2581",
@@ -7002,7 +7206,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5d2b1116",
@@ -7054,7 +7259,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c032adc1",
@@ -7132,7 +7338,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ad895a65",
@@ -7158,7 +7365,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "50261c0b",
@@ -7236,7 +7444,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6b2f684f",
@@ -7288,7 +7497,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "62f1b0b4",
@@ -7340,7 +7550,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b337165d",
@@ -7392,7 +7603,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5723b9d3",
@@ -7496,7 +7708,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1a284cb5",
@@ -7548,7 +7761,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3a7c3b27",
@@ -7574,7 +7788,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fa1ca842",
@@ -7626,7 +7841,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f811e84e",
@@ -7652,7 +7868,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6d1fcba7",
@@ -7678,7 +7895,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f7dd3dea",
@@ -7782,7 +8000,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4cde3574",
@@ -7808,7 +8027,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8e74b8ff",
@@ -7834,7 +8054,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c6fc5b4b",
@@ -7912,7 +8133,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "06021407",
@@ -7938,7 +8160,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "75016fb8",
@@ -7964,7 +8187,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b37b2087",
@@ -7996,7 +8220,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "93333dee",
@@ -8048,7 +8273,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "22a0bcbb",
@@ -8074,7 +8300,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "60be218e",
@@ -8100,7 +8327,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fa832349",
@@ -8126,7 +8354,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "98a9524e",
@@ -8152,7 +8381,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0333b6d2",
@@ -8204,7 +8434,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "782e0e87",
@@ -8256,7 +8487,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6e189b79",
@@ -8282,7 +8514,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "345b8530",
@@ -8308,7 +8541,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9a98eb1c",
@@ -8360,7 +8594,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c0fbadbe",
@@ -8386,7 +8621,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4c2746a0",
@@ -8412,7 +8648,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9d6fbb5c",
@@ -8438,7 +8675,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ccffd35a",
@@ -8516,7 +8754,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "247d5656",
@@ -8542,7 +8781,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c2f50502",
@@ -8568,7 +8808,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a09cdbbd",
@@ -8599,7 +8840,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e7471b38",
@@ -8625,7 +8867,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "85e68d07",
@@ -8651,7 +8894,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d0308d0c",
@@ -8677,7 +8921,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c9c6879d",
@@ -8703,7 +8948,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e0d7d9c6",
@@ -8761,7 +9007,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "053ab078",
@@ -8787,7 +9034,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5c0a9ebf",
@@ -8839,7 +9087,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "58e42351",
@@ -8865,7 +9114,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4719ac19",
@@ -8891,7 +9141,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c76addfc",
@@ -8917,7 +9168,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3b029a3c",
@@ -8943,7 +9195,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "424387a4",
@@ -8969,7 +9222,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b8d45b51",
@@ -8995,7 +9249,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0eecd307",
@@ -9099,7 +9354,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2112374b",
@@ -9125,7 +9381,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bca07dc4",
@@ -9151,7 +9408,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fa574f76",
@@ -9177,7 +9435,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2d8089b5",
@@ -9203,7 +9462,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3a98ee61",
@@ -9229,7 +9489,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bd7fe04f",
@@ -9255,7 +9516,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cdba430c",
@@ -9281,7 +9543,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2f1962b1",
@@ -9307,7 +9570,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f0f9ff27",
@@ -9333,7 +9597,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0a778bb8",
@@ -9359,7 +9624,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "796ed08b",
@@ -9385,7 +9651,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d9461fa7",
@@ -9411,7 +9678,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e4364c3d",
@@ -9463,7 +9731,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a403889d",
@@ -9489,7 +9758,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9948104f",
@@ -9515,7 +9785,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c48095bf",
@@ -9541,7 +9812,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "23077c80",
@@ -9593,7 +9865,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a6d224d2",
@@ -9619,7 +9892,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3a071799",
@@ -9645,7 +9919,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c9e804c5",
@@ -9671,7 +9946,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f914b546",
@@ -9697,7 +9973,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f4887c0d",
@@ -9723,7 +10000,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "59427cb1",
@@ -9749,7 +10027,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0e428aef",
@@ -9775,7 +10054,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0d905874",
@@ -9853,7 +10133,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b1c11938",
@@ -9879,7 +10160,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "679379d8",
@@ -9905,7 +10187,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "61dd2f68",
@@ -9931,7 +10214,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6659c7ae",
@@ -9957,7 +10241,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bea6be46",
@@ -9983,7 +10268,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "484d2d49",
@@ -10009,7 +10295,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "62057772",
@@ -10040,7 +10327,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "46b52fb2",
@@ -10066,7 +10354,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "946806dc",
@@ -10092,7 +10381,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7f187f14",
@@ -10144,7 +10434,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9ec724bf",
@@ -10170,7 +10461,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "888d52e7",
@@ -10196,7 +10488,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "246f0aa9",
@@ -10248,7 +10541,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "441cc22b",
@@ -10274,7 +10568,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "841d4ac9",
@@ -10326,7 +10621,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f99b8080",
@@ -10352,7 +10648,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9c584c4b",
@@ -10378,7 +10675,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a67c91aa",
@@ -10404,7 +10702,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9cd936d3",
@@ -10456,7 +10755,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d76c4b51",
@@ -10482,7 +10782,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c2eeb89f",
@@ -10534,7 +10835,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "907c7a4b",
@@ -10560,7 +10862,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "527cc503",
@@ -10638,7 +10941,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "817b7c2d",
@@ -10664,7 +10968,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0c70e8ad",
@@ -10690,7 +10995,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "25a746f2",
@@ -10716,7 +11022,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0aed44b4",
@@ -10742,7 +11049,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "94e3138a",
@@ -10768,7 +11076,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "14b05cfa",
@@ -10794,7 +11103,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d506e04a",
@@ -10820,7 +11130,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e24e90b6",
@@ -10846,7 +11157,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "81e5e623",
@@ -10872,7 +11184,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2611f9e6",
@@ -10898,7 +11211,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a5c7ac2c",
@@ -10924,7 +11238,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cc85a14c",
@@ -10976,7 +11291,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "11944c69",
@@ -11002,7 +11318,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a3fc9956",
@@ -11028,7 +11345,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cc780f01",
@@ -11054,7 +11372,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "46a673dc",
@@ -11106,7 +11425,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0661e38d",
@@ -11158,7 +11478,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3f249044",
@@ -11210,7 +11531,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "56c794eb",
@@ -11236,7 +11558,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "309769cf",
@@ -11262,7 +11585,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "24a129f5",
@@ -11288,7 +11612,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3ef6fd6f",
@@ -11314,7 +11639,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "232b46a3",
@@ -11340,7 +11666,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ec1fb319",
@@ -11366,7 +11693,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "acc0b4f1",
@@ -11392,7 +11720,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e57d4c4b",
@@ -11418,7 +11747,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "baec23ec",
@@ -11444,7 +11774,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "be938ace",
@@ -11470,7 +11801,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6838cbee",
@@ -11548,7 +11880,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2633fd73",
@@ -11652,7 +11985,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7f73ff17",
@@ -11678,7 +12012,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "379c8db1",
@@ -11704,7 +12039,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "42f16b74",
@@ -11730,7 +12066,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "da3c0e19",
@@ -11782,7 +12119,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ba525917",
@@ -11860,7 +12198,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b8255da2",
@@ -11886,7 +12225,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0ebb38c9",
@@ -11912,7 +12252,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9ac08def",
@@ -11938,7 +12279,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a4b97d28",
@@ -12042,7 +12384,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "385cc901",
@@ -12068,7 +12411,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e1eb2284",
@@ -12120,7 +12464,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "da311c5d",
@@ -12172,7 +12517,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c94e0652",
@@ -12198,7 +12544,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0583946d",
@@ -12224,7 +12571,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ea9889d2",
@@ -12250,7 +12598,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "84245f6d",
@@ -12328,7 +12677,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ad6f9ec4",
@@ -12354,7 +12704,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d8ee6cde",
@@ -12380,7 +12731,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0a941a3a",
@@ -12406,7 +12758,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "afa2dbcf",
@@ -12432,7 +12785,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6c88f30f",
@@ -12484,7 +12838,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f1b8c076",
@@ -12510,7 +12865,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a069106d",
@@ -12562,7 +12918,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "534518f5",
@@ -12588,7 +12945,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a00a00af",
@@ -12614,7 +12972,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5d1a759e",
@@ -12640,7 +12999,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4dcc3f13",
@@ -12692,7 +13052,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1526a50e",
@@ -12718,7 +13079,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8a8dbf60",
@@ -12770,7 +13132,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "92c3b44a",
@@ -12796,7 +13159,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "25093997",
@@ -12822,7 +13186,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "413fd05c",
@@ -12874,7 +13239,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a8c9a35b",
@@ -12903,7 +13269,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "967356f2",
@@ -12929,7 +13296,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "488f610b",
@@ -12955,7 +13323,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cead27f6",
@@ -12981,7 +13350,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a7be413a",
@@ -13007,7 +13377,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b1a2eea2",
@@ -13033,7 +13404,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1fa1e811",
@@ -13059,7 +13431,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "dc308c55",
@@ -13085,7 +13458,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "575ad9fd",
@@ -13111,7 +13485,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ec68ca2a",
@@ -13137,7 +13512,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c1fd73ba",
@@ -13189,7 +13565,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e2475550",
@@ -13215,7 +13592,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0b7808d2",
@@ -13267,7 +13645,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5149d053",
@@ -13293,7 +13672,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "24339048",
@@ -13319,7 +13699,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "305a9e5a",
@@ -13345,7 +13726,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e9bfab40",
@@ -13423,7 +13805,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4129784a",
@@ -13449,7 +13832,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "60d9c4aa",
@@ -13475,7 +13859,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cb32838b",
@@ -13501,7 +13886,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "db700975",
@@ -13527,7 +13913,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4af3e80d",
@@ -13553,7 +13940,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4bf954a4",
@@ -13579,7 +13967,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e28295e8",
@@ -13605,7 +13994,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "00e93167",
@@ -13631,7 +14021,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "faff632a",
@@ -13683,7 +14074,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e773176b",
@@ -13709,7 +14101,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0ce31e84",
@@ -13761,7 +14154,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6fa0ce4f",
@@ -13787,7 +14181,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cb27fef7",
@@ -13813,7 +14208,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d9464553",
@@ -13839,7 +14235,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0a9c2031",
@@ -13865,7 +14262,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "997d84c3",
@@ -13891,7 +14289,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "976e9804",
@@ -13917,7 +14316,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "79edc423",
@@ -13969,7 +14369,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9d5983af",
@@ -13995,7 +14396,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6cea1b91",
@@ -14021,7 +14423,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7c586f94",
@@ -14073,7 +14476,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d5cfd158",
@@ -14099,7 +14503,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9264a74e",
@@ -14125,7 +14530,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "61e1f044",
@@ -14151,7 +14557,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7a66b409",
@@ -14177,7 +14584,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "88a43b20",
@@ -14203,7 +14611,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5987cdcc",
@@ -14229,7 +14638,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "585edf58",
@@ -14333,7 +14743,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cac1bcda",
@@ -14359,7 +14770,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bbb9339b",
@@ -14385,7 +14797,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2f90bb10",
@@ -14411,7 +14824,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ae1d07ad",
@@ -14437,7 +14851,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d507e746",
@@ -14463,7 +14878,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b915a965",
@@ -14489,7 +14905,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2fefbc50",
@@ -14541,7 +14958,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1c6c9a22",
@@ -14567,7 +14985,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "285eb6e8",
@@ -14593,7 +15012,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e69283bc",
@@ -14619,7 +15039,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f25c6bb8",
@@ -14645,7 +15066,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2a55d713",
@@ -14671,7 +15093,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3be655d6",
@@ -14749,7 +15172,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "75025fca",
@@ -14775,7 +15199,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "457b5c4c",
@@ -14801,7 +15226,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f7fb20ca",
@@ -14827,7 +15253,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "90acc788",
@@ -14853,7 +15280,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a1ca8fb6",
@@ -14905,7 +15333,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d2095599",
@@ -14957,7 +15386,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "dd8e8366",
@@ -14983,7 +15413,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "21c953a3",
@@ -15009,7 +15440,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "00e00818",
@@ -15035,7 +15467,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "66db0c9f",
@@ -15061,7 +15494,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b21bddeb",
@@ -15087,7 +15521,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4b7d8e64",
@@ -15139,7 +15574,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0f631858",
@@ -15165,7 +15601,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "eb1bc7dd",
@@ -15191,7 +15628,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bdbcb0bd",
@@ -15217,7 +15655,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "16d580d2",
@@ -15243,7 +15682,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "930cfba6",
@@ -15269,7 +15709,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4cab773d",
@@ -15295,7 +15736,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "75b768ca",
@@ -15321,7 +15763,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4259427f",
@@ -15347,7 +15790,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5e39793e",
@@ -15373,7 +15817,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d79e4958",
@@ -15399,7 +15844,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5f82dbcc",
@@ -15425,7 +15871,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "60e19bc4",
@@ -15451,7 +15898,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7b2e6846",
@@ -15477,7 +15925,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "db8bf8f0",
@@ -15503,7 +15952,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "dfe8695c",
@@ -15529,7 +15979,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a7644e9c",
@@ -15555,7 +16006,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "78c5faef",
@@ -15581,7 +16033,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "85df636c",
@@ -15607,7 +16060,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "abc0b449",
@@ -15633,7 +16087,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6e525472",
@@ -15685,7 +16140,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c668095c",
@@ -15718,7 +16174,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cd0ce0c5",
@@ -15744,7 +16201,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0feec421",
@@ -15770,7 +16228,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bf407a02",
@@ -15796,7 +16255,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f1cea2e1",
@@ -15822,7 +16282,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4ff22e42",
@@ -15848,7 +16309,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4ea4d718",
@@ -15874,7 +16336,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "be5e6ee7",
@@ -15900,7 +16363,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c0c390c5",
@@ -15926,7 +16390,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "43e36689",
@@ -15952,7 +16417,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f14e99bd",
@@ -16030,7 +16496,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e34a56fa",
@@ -16056,7 +16523,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9129182c",
@@ -16082,7 +16550,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "23f01613",
@@ -16108,7 +16577,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ea3fcf10",
@@ -16134,7 +16604,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "7e1ee8f5",
@@ -16160,7 +16631,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e8634cc9",
@@ -16186,7 +16658,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "940455d8",
@@ -16238,7 +16711,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1d1cc0ad",
@@ -16290,7 +16764,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ad30304d",
@@ -16368,7 +16843,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5da57910",
@@ -16394,7 +16870,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b8e7f74b",
@@ -16420,7 +16897,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bfd027c1",
@@ -16446,7 +16924,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "481734f1",
@@ -16472,7 +16951,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "dd5713bc",
@@ -16498,7 +16978,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a579619f",
@@ -16524,7 +17005,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "70ffe270",
@@ -16550,7 +17032,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f2e19205",
@@ -16576,7 +17059,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4fb3bd4e",
@@ -16602,7 +17086,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1363d0a6",
@@ -16628,7 +17113,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9ba82cd3",
@@ -16654,7 +17140,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "caeb8c61",
@@ -16680,7 +17167,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f62abc25",
@@ -16706,7 +17194,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "42ae3b19",
@@ -16732,7 +17221,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8d32d5ee",
@@ -16758,7 +17248,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e8889480",
@@ -16784,7 +17275,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4ed50e1a",
@@ -16836,7 +17328,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b841dc88",
@@ -16888,7 +17381,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8b04db12",
@@ -16914,7 +17408,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f8ad5d42",
@@ -16940,7 +17435,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "72b01447",
@@ -16966,7 +17462,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3919dbbb",
@@ -16992,7 +17489,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2d75c908",
@@ -17044,7 +17542,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b1dadd1c",
@@ -17070,7 +17569,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "59d13343",
@@ -17096,7 +17596,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c5c9585b",
@@ -17122,7 +17623,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e76b1f5b",
@@ -17148,7 +17650,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "0a698f64",
@@ -17200,7 +17703,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a40c77f2",
@@ -17226,7 +17730,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "65f18ea8",
@@ -17259,7 +17764,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "db3a3f1c",
@@ -17285,7 +17791,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cd21bc1f",
@@ -17311,7 +17818,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "317da89f",
@@ -17363,7 +17871,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "2f12160d",
@@ -17389,7 +17898,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "257bd9a9",
@@ -17415,7 +17925,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "85bfdc89",
@@ -17441,7 +17952,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "9ccb84b8",
@@ -17467,7 +17979,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "5d2b4abd",
@@ -17493,7 +18006,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "c787eb45",
@@ -17545,7 +18059,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "bc04f425",
@@ -17571,7 +18086,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "cbd86671",
@@ -17597,7 +18113,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b10b12a1",
@@ -17623,7 +18140,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d732c3f9",
@@ -17675,7 +18193,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e742a94e",
@@ -17701,7 +18220,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "fcb69f7e",
@@ -17727,7 +18247,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b5f180f5",
@@ -17753,7 +18274,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "725a9a35",
@@ -17805,7 +18327,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3f5e988b",
@@ -17831,7 +18354,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4772676b",
@@ -17857,7 +18381,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4190ff4a",
@@ -17883,7 +18408,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "34f1efae",
@@ -17909,7 +18435,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "de971a3f",
@@ -17987,7 +18514,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4d4dfec7",
@@ -18013,7 +18541,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b982478c",
@@ -18039,7 +18568,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "b5a533ae",
@@ -18065,7 +18595,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6f38a678",
@@ -18117,7 +18648,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "33bc5399",
@@ -18195,7 +18727,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "855101d8",
@@ -18221,7 +18754,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a3baf0e7",
@@ -18247,7 +18781,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ec9e315c",
@@ -18299,7 +18834,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "40d75499",
@@ -18325,7 +18861,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "f55411d5",
@@ -18351,7 +18888,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "11599464",
@@ -18377,7 +18915,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "10dae3c9",
@@ -18403,7 +18942,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "84c183df",
@@ -18429,7 +18969,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "17d48d27",
@@ -18455,7 +18996,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8b5d8371",
@@ -18481,7 +19023,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "1cf019f8",
@@ -18507,7 +19050,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "4a03918a",
@@ -18533,7 +19077,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "82a6fd09",
@@ -18559,7 +19104,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "42c80a3c",
@@ -18585,7 +19131,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "3c46ff31",
@@ -18611,7 +19158,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "565a3a87",
@@ -18637,7 +19185,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "8c903637",
@@ -18663,7 +19212,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "526b05fe",
@@ -18715,7 +19265,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "16f1a94f",
@@ -18767,7 +19318,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "72c42b91",
@@ -18793,7 +19345,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "33b8760b",
@@ -18819,7 +19372,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "d6517067",
@@ -18897,7 +19451,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "895d4c8a",
@@ -18923,7 +19478,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "646477e2",
@@ -18949,7 +19505,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "6ecd2d3a",
@@ -18975,7 +19532,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "46097a5e",
@@ -19001,7 +19559,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "e47ec1f3",
@@ -19027,7 +19586,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "a0b5d674",
@@ -19053,7 +19613,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ai_digest_001",
@@ -19083,7 +19644,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path": "content/ai_digest_001.md"
+      "local_path": "content/ai_digest_001.md",
+      "local_path_valid": false
     },
     {
       "id": "ai_digest_002",
@@ -19113,7 +19675,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path": "content/ai_digest_002.md"
+      "local_path": "content/ai_digest_002.md",
+      "local_path_valid": false
     },
     {
       "id": "ai_digest_003",
@@ -19143,7 +19706,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path": "content/ai_digest_003.md"
+      "local_path": "content/ai_digest_003.md",
+      "local_path_valid": false
     },
     {
       "id": "ai_digest_004",
@@ -19173,7 +19737,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ai_digest_005",
@@ -19203,7 +19768,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ai_digest_006",
@@ -19233,7 +19799,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ai_digest_007",
@@ -19263,7 +19830,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ai_digest_008",
@@ -19293,7 +19861,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ai_digest_009",
@@ -19323,7 +19892,8 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     },
     {
       "id": "ai_digest_010",
@@ -19353,9 +19923,10 @@
       "added_date": "2026-06-07",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": false
     }
   ],
-  "last_updated": "2026-06-07",
+  "last_updated": "2026-06-08",
   "total_entries": 733
 }
