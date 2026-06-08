@@ -29,15 +29,15 @@
 
 ## 当前数据
 
-- 原始条目: 733
+- 原始条目: 735
 - 公开展示卡片: 70
-- 有全文内容: 29
+- 有全文内容: 33
 - 最近 7 天信号: 40
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`2026`, `ai-tools`, `digest`, `论文工具`, `workflow`, `research`, `automation`, `safety`, `alignment`, `anthropic`, `gemini`, `SWE-bench`, `MCP`, `Claude`, `OpenAI`, `coding-agent`, `claude-code`, `multi-agent`
+`2026`, `ai-tools`, `digest`, `论文工具`, `workflow`, `research`, `automation`, `alignment`, `safety`, `anthropic`, `gemini`, `SWE-bench`, `MCP`, `Claude`, `OpenAI`, `coding-agent`, `claude-code`, `multi-agent`
 
 ## 自动化约定
 

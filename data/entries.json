@@ -19925,8 +19925,60 @@
       "github_stars": null,
       "related": [],
       "local_path_valid": false
+    },
+    {
+      "id": "85ad81d6",
+      "title": "Latest GPT-5 Model Breakthrough",
+      "url": "https://openai.com/blog/gpt-5-breakthrough-2026",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": null
+      },
+      "category": "models",
+      "tags": [],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": "Latest GPT-5 Model Breakthrough Source: OpenAI Blog | 2026-06-08 URL: Summary (Chinese) OpenAI 发布了革命性的 GPT-5 模型，在推理能力多模态理解和代码生成方面取得重大突破新模型在复杂推理任务上比 GPT-4 提升了 40%，支持更长上下文窗口（200K tokens），并显著减少了幻觉现象模型通过更强的工具调用能力和更好的数学推理，展现了接近人类的理解能力",
+      "one_liner": "Latest GPT-5 Model Breakthrough Source: OpenAI Blog | 2026-06-08 URL: Summary (Chinese) OpenAI 发布了革命性的 GPT-5 模型...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "score-pending",
+      "local_path": "content/test_ai_content_2026-06-08.md",
+      "images": [],
+      "added_date": "2026-06-08",
+      "updated_date": "2026-06-08",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "test-2026-06-08",
+      "title": "Test AI Content",
+      "url": "https://openai.com/blog/test-2026",
+      "source": {
+        "platform": "manual",
+        "author": null,
+        "original_date": "2026-06-08"
+      },
+      "category": "learning",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "这是一个测试的AI内容摘要",
+      "summary_en": "This is a test AI content summary.",
+      "one_liner": "测试AI内容条目",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/test_ai_content_2026-06-08.md",
+      "images": [],
+      "added_date": "2026-06-08",
+      "updated_date": "2026-06-08",
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-06-08",
-  "total_entries": 733
+  "total_entries": 735
 }
