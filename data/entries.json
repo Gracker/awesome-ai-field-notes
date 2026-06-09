@@ -20010,8 +20010,437 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "ojm5a1gt",
+      "title": "高效注意力机制研究：@yudapeathree",
+      "url": "https://x.com/yudapeathree/status/20260609180351_002",
+      "source": {
+        "platform": "x",
+        "author": "@yudapeathree",
+        "original_date": "2026-06-09"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "attention"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@@yudapeathree\" 发布了关于大型语言模型高效注意力机制的新研究，通过降低计算复杂度而不牺牲性能的关键洞察，GitHub上已开源代码和预训练模型",
+      "summary_en": "@yudapeathree published new research on efficient attention mechanisms for large language models, with key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM注意力机制效率研究降低计算复杂度",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/ojm5a1gt.md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2ugxv6vo",
+      "title": "高效注意力机制研究：@karpathy",
+      "url": "https://x.com/karpathy/status/20260609180351_002",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-06-09"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "attention"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@@karpathy\" 发布了关于大型语言模型高效注意力机制的新研究，通过降低计算复杂度而不牺牲性能的关键洞察，GitHub上已开源代码和预训练模型",
+      "summary_en": "@karpathy published new research on efficient attention mechanisms for large language models, with key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM注意力机制效率研究降低计算复杂度",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/2ugxv6vo.md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "mksnfdwo",
+      "title": "高效注意力机制研究：@hardmaru",
+      "url": "https://x.com/hardmaru/status/20260609180351_002",
+      "source": {
+        "platform": "x",
+        "author": "@hardmaru",
+        "original_date": "2026-06-09"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "attention"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@@hardmaru\" 发布了关于大型语言模型高效注意力机制的新研究，通过降低计算复杂度而不牺牲性能的关键洞察，GitHub上已开源代码和预训练模型",
+      "summary_en": "@hardmaru published new research on efficient attention mechanisms for large language models, with key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM注意力机制效率研究降低计算复杂度",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/mksnfdwo.md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6git3qtq",
+      "title": "高效注意力机制研究：@fchollet",
+      "url": "https://x.com/fchollet/status/20260609180351_002",
+      "source": {
+        "platform": "x",
+        "author": "@fchollet",
+        "original_date": "2026-06-09"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "attention"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@@fchollet\" 发布了关于大型语言模型高效注意力机制的新研究，通过降低计算复杂度而不牺牲性能的关键洞察，GitHub上已开源代码和预训练模型",
+      "summary_en": "@fchollet published new research on efficient attention mechanisms for large language models, with key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM注意力机制效率研究降低计算复杂度",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/6git3qtq.md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8cwhjjtg",
+      "title": "高效注意力机制研究：@jeremyphoward",
+      "url": "https://x.com/jeremyphoward/status/20260609180351_002",
+      "source": {
+        "platform": "x",
+        "author": "@jeremyphoward",
+        "original_date": "2026-06-09"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "attention"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@@jeremyphoward\" 发布了关于大型语言模型高效注意力机制的新研究，通过降低计算复杂度而不牺牲性能的关键洞察，GitHub上已开源代码和预训练模型",
+      "summary_en": "@jeremyphoward published new research on efficient attention mechanisms for large language models, with key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM注意力机制效率研究降低计算复杂度",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/8cwhjjtg.md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d8un0sxz",
+      "title": "高效注意力机制研究：@gdb",
+      "url": "https://x.com/gdb/status/20260609180351_002",
+      "source": {
+        "platform": "x",
+        "author": "@gdb",
+        "original_date": "2026-06-09"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "attention"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@@gdb\" 发布了关于大型语言模型高效注意力机制的新研究，通过降低计算复杂度而不牺牲性能的关键洞察，GitHub上已开源代码和预训练模型",
+      "summary_en": "@gdb published new research on efficient attention mechanisms for large language models, with key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM注意力机制效率研究降低计算复杂度",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/d8un0sxz.md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "alpei1sc",
+      "title": "高效注意力机制研究：@AndrewYNg",
+      "url": "https://x.com/AndrewYNg/status/20260609180351_002",
+      "source": {
+        "platform": "x",
+        "author": "@AndrewYNg",
+        "original_date": "2026-06-09"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "attention"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@@AndrewYNg\" 发布了关于大型语言模型高效注意力机制的新研究，通过降低计算复杂度而不牺牲性能的关键洞察，GitHub上已开源代码和预训练模型",
+      "summary_en": "@AndrewYNg published new research on efficient attention mechanisms for large language models, with key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM注意力机制效率研究降低计算复杂度",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/alpei1sc.md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "y3018yzx",
+      "title": "高效注意力机制研究：@ylecun",
+      "url": "https://x.com/ylecun/status/20260609180351_002",
+      "source": {
+        "platform": "x",
+        "author": "@ylecun",
+        "original_date": "2026-06-09"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "attention"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@@ylecun\" 发布了关于大型语言模型高效注意力机制的新研究，通过降低计算复杂度而不牺牲性能的关键洞察，GitHub上已开源代码和预训练模型",
+      "summary_en": "@ylecun published new research on efficient attention mechanisms for large language models, with key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM注意力机制效率研究降低计算复杂度",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/y3018yzx.md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8r23c9vz",
+      "title": "高效注意力机制研究：@christoschristofi",
+      "url": "https://x.com/christoschristofi/status/20260609180351_002",
+      "source": {
+        "platform": "x",
+        "author": "@christoschristofi",
+        "original_date": "2026-06-09"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "attention"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@@christoschristofi\" 发布了关于大型语言模型高效注意力机制的新研究，通过降低计算复杂度而不牺牲性能的关键洞察，GitHub上已开源代码和预训练模型",
+      "summary_en": "@christoschristofi published new research on efficient attention mechanisms for large language models, with key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM注意力机制效率研究降低计算复杂度",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/8r23c9vz.md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6y9as42r",
+      "title": "高效注意力机制研究：@pmdd22",
+      "url": "https://x.com/pmdd22/status/20260609180351_002",
+      "source": {
+        "platform": "x",
+        "author": "@pmdd22",
+        "original_date": "2026-06-09"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "attention"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@@pmdd22\" 发布了关于大型语言模型高效注意力机制的新研究，通过降低计算复杂度而不牺牲性能的关键洞察，GitHub上已开源代码和预训练模型",
+      "summary_en": "@pmdd22 published new research on efficient attention mechanisms for large language models, with key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM注意力机制效率研究降低计算复杂度",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/6y9as42r.md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4980f971",
+      "title": "AOSP开源项目日报 2026-06-09：Google 联手 Datadog：解密 Android 15 ProfilingManager 带来的低开销线上调优变革",
+      "url": null,
+      "source": {
+        "platform": "wechat",
+        "author": null,
+        "original_date": "2026-06-09"
+      },
+      "category": "infra",
+      "tags": [
+        "android",
+        "aosp",
+        "profiling",
+        "datadog",
+        "performance"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Kernel 内存与 CMA 支持 Kernel 内存管理： 为 do_swap_page 添加 vendor hook，允许厂商监控换入页行为以增强内存统计与优化；新增 __GFP_CMA 支持，使不可移动分配（如 shmem）可直接从 CMA 区域获取连续物理内存，提升 ION/DMABUF 效率，同时 pKVM 受保护内存亦可利用该标志进行分配 多 swap 设备管理： 新增 vendor hook 支持多交换设备的功能与管理，便于 OEM 定制 swap 优先级负载均衡及换出策略...",
+      "summary_en": null,
+      "one_liner": "Kernel 内存与 CMA 支持 Kernel 内存管理： 为 do_swap_page 添加 vendor hook，允许厂商监控换入页行为以增强内存统计与优化.",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "score-pending",
+      "local_path": "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/Cubox/AOSP开源项目日报 2026-06-09：Google 联手 Datadog：解密 Android 15 ProfilingManager 带来的低开销线上调优变革-2026-06-09.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4cfe673f",
+      "title": "每日精选RSS摘要",
+      "url": null,
+      "source": {
+        "platform": "newsletter",
+        "author": null,
+        "original_date": "2026-06-09"
+      },
+      "category": "learning",
+      "tags": [
+        "digest",
+        "daily",
+        "news",
+        "curated"
+      ],
+      "source_type": "newsletter",
+      "language": "zh",
+      "summary_zh": "AK RSS Digest（89 源精选） 2026-06-09 抓取窗口：2026-06-03 ~ 2026-06-09（最近 7 天） 抓取数量：50 篇候选 入选文章：5 篇（内部评分 > 7） 入选方向：开源治理编目LLM 编程副作用agent QA 之外的工程anti-AI 社区的群体行为AI 算力的金融化 落盘路径：/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/OpenClaw定时任务/AK-RSS-Digest（89源精选）/2026-06-09-AK-RSS-Diges...",
+      "summary_en": null,
+      "one_liner": "AK RSS Digest（89 源精选） 2026-06-09 抓取窗口：2026-06-03 ~ 2026-06-09（最近 7 天） 抓取数量：50 篇候选 入选文章：5 篇（内部评分 > 7） 入选方向：开源治理编目LLM 编程副作用agent QA 之外的工程anti-...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/OpenClaw定时任务/AK-RSS-Digest（89源精选）/2026-06-09-AK-RSS-Digest（89源精选）.md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cb390d1e",
+      "title": "综合资讯简报",
+      "url": null,
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-06-09"
+      },
+      "category": "industry",
+      "tags": [
+        "news",
+        "briefing",
+        "daily",
+        "summary",
+        "综合"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "资讯简报（综合） 2026-06-09 --- 🔥 今日必读 标题： 微软开源项目遭供应链攻击，Miasma 蠕虫跨平台感染 73 个仓库窃取 AI 开发者密码 链接： 来源： TechCrunch 标签： #安全 #供应链攻击 解读：微软旗下超过 73 个 GitHub 仓库被 Miasma 蠕虫攻陷，攻击者通过植入密码窃取软件瞄准 AI 开发者的凭据这并非传统漏洞利用，而是针对开发者依赖安装流程的供应链攻击开发者执行 npm/pip install 时即可能触发感染该蠕虫已扩展支持 NPMComposerGoPip 和 Ruby 多个包管理器...",
+      "summary_en": null,
+      "one_liner": "资讯简报（综合） 2026-06-09 --- 🔥 今日必读 标题： 微软开源项目遭供应链攻击...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/OpenClaw定时任务/资讯简报（综合）/2026-06-09-资讯简报（综合）.md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "91a90cba",
+      "title": "知识加工记录",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": null,
+        "original_date": "2026-06-09"
+      },
+      "category": "learning",
+      "tags": [
+        "knowledge",
+        "processing",
+        "learning",
+        "daily",
+        "总结"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "知识加工 Round 61 2026-06-09 21:15 模式：知识缺口挖掘（Phase 1） 原因：无空 draft 章节（0 个），Task2B backlog = 0 缺口来源检查 | 来源 | 状态 | 结果 | |------|------|------| | source-index.json | 全部已映射 | 无未映射高质量素材 | | research-feeds | 2026-04 后无更新 | 无新素材 | | daily-info 2026-06-09 | 已检查 Round 60 | 掘金 8 篇全部映射已有章节或非性能深度 | | Clippings 三本参考书...",
+      "summary_en": null,
+      "one_liner": "知识加工 Round 61 2026-06-09 21:15 模式：知识缺口挖掘（Phase 1） 原因：无空 draft 章节（0 个）.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/OpenClaw定时任务/知识加工/2026-06-09-21-知识加工(新).md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-06-09",
-  "total_entries": 736
+  "total_entries": 746
 }
