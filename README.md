@@ -4,6 +4,7 @@
 
 ## 最新精选 Top 10
 
+- [2026-06-09 AI 代码生成与评测基准](https://godofgpt.com/entry/ai-code-gen-benchmark-2026-06-09/) ⭐5 · 2026-06-09 — AI代码生成评测基准：从有效性危机到新一代基准与工程实践指南
 - [使用 AI 与借助 AI 建造，是两件不同的事](https://x.com/alliekmiller/status/1985834763677286606) ⭐5 · 2026-06-07 — 使用 AI 与借助 AI 建造，是两件不同的事 复制粘贴 ChatGPT 提示词，能帮到的地方有限我希望帮你学会构建真正能解决你个人问题的 AI 软件自动化工具和应用 AI Fast Track是一个免费的 5 天课程，已有数万人参与学习 现在报名，明日即可收到课程邮件：
 - [Peter Yang 教程:5 步给 Claude Skills 加上自评分与记忆](https://godofgpt.com/entry/61e1f044/) ⭐5 · 2026-06-07 — Peter Yang 教程:5 步给 Claude Skills 加上自评分与记忆
 - [Gemma 4 12B 正式开源: 16GB 显存可跑的多模态模型](https://godofgpt.com/entry/10c3345d/) ⭐5 · 2026-06-07 — Gemma 4 12B 正式开源: 16GB 显存可跑的多模态模型
@@ -13,13 +14,12 @@
 - [@ylecun - 论文工具](https://x.com/ylecun/status/20260607180456_002) ⭐5 · 2026-06-07 — 论文发布 + GitHub代码 - @ylecun
 - [@pmdd22 - 论文工具](https://x.com/pmdd22/status/20260607180456_002) ⭐5 · 2026-06-07 — 论文发布 + GitHub代码 - @pmdd22
 - [@karpathy - 论文工具](https://x.com/karpathy/status/20260607180456_002) ⭐5 · 2026-06-07 — 论文发布 + GitHub代码 - @karpathy
-- [@jeremyphoward - 论文工具](https://x.com/jeremyphoward/status/20260607180456_002) ⭐5 · 2026-06-07 — 论文发布 + GitHub代码 - @jeremyphoward
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 10 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| 模型与实验室 | 11 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
 | Agent 与自动化 | 11 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 8 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 0 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
@@ -29,15 +29,15 @@
 
 ## 当前数据
 
-- 原始条目: 735
-- 公开展示卡片: 70
-- 有全文内容: 33
-- 最近 7 天信号: 40
+- 原始条目: 736
+- 公开展示卡片: 71
+- 有全文内容: 34
+- 最近 7 天信号: 41
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`2026`, `ai-tools`, `digest`, `论文工具`, `workflow`, `research`, `automation`, `alignment`, `safety`, `anthropic`, `gemini`, `SWE-bench`, `MCP`, `Claude`, `OpenAI`, `coding-agent`, `claude-code`, `multi-agent`
+`2026`, `ai-tools`, `digest`, `论文工具`, `workflow`, `research`, `automation`, `alignment`, `safety`, `llm`, `evaluation`, `anthropic`, `gemini`, `SWE-bench`, `MCP`, `Claude`, `OpenAI`, `coding-agent`
 
 ## 自动化约定
 

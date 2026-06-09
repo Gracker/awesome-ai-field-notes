@@ -19977,8 +19977,41 @@
       "updated_date": "2026-06-08",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "ai-code-gen-benchmark-2026-06-09",
+      "title": "2026-06-09 AI 代码生成与评测基准",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "每日论文精读（AI）",
+        "original_date": "2026-06-09"
+      },
+      "category": "coding",
+      "tags": [
+        "paper",
+        "daily",
+        "llm",
+        "code-generation",
+        "benchmark",
+        "evaluation"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "今日聚焦AI代码生成评测基准的演进：从HumanEval的有效性危机到新一代SWE-Bench ProLiveCodeBench Pro等基准，引入functional entropy等新评测指标，以及对AI工程实践的整合建议",
+      "summary_en": "Today's focus on AI code generation evaluation benchmarks: from HumanEval validity crisis to new-generation SWE-Bench Pro, LiveCodeBench Pro benchmarks, introduction of functional entropy metrics, and practical engineering recommendations.",
+      "one_liner": "AI代码生成评测基准：从有效性危机到新一代基准与工程实践指南",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "每日论文精读（AI）/2026-06-09-AI-code-generation-evaluation-benchmark.md",
+      "images": [],
+      "added_date": "2026-06-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-06-08",
-  "total_entries": 735
+  "last_updated": "2026-06-09",
+  "total_entries": 736
 }
