@@ -38,7 +38,7 @@
     "github": 3,
     "newsletter": 1
   },
-  "last_updated": "2026-06-10 08:30",
+  "last_updated": "2026-06-10 08:33",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }
