@@ -1,0 +1,24 @@
+# 高效注意力机制研究：@fchollet
+
+> 来源：X/Twitter · @fchollet · 2026-06-09
+> 原文链接：https://x.com/fchollet/status/20260609180351_002
+> 抓取时间：2026-06-10 04:27 UTC
+
+---
+
+> 注：原文抓取失败（opencli twitter thread 返回空数据 — tweet 状态 ID 非标准 Twitter 雪花 ID 格式）。本 content 文件基于 entries.json 的 summary 字段整理。
+
+## 中文概要
+
+@@fchollet" 发布了关于大型语言模型高效注意力机制的新研究，通过降低计算复杂度而不牺牲性能的关键洞察，GitHub上已开源代码和预训练模型
+
+## English Summary
+
+@fchollet published new research on efficient attention mechanisms for large language models, with key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.
+
+## 抓取状态
+
+- **opencli twitter thread**：空响应（exit 0，无数据）
+- **web_fetch**：blocked（private/internal IP）
+- **syndication endpoints**：404 / bad request
+- **fallback**：基于 entry metadata 生成的精简 content

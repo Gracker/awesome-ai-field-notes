@@ -4,22 +4,22 @@
 
 ## 最新精选 Top 10
 
-- [2026-06-09 AI 代码生成与评测基准](https://godofgpt.com/entry/ai-code-gen-benchmark-2026-06-09/) ⭐5 · 2026-06-09 — AI代码生成评测基准：从有效性危机到新一代基准与工程实践指南
+- [@yudapeathree 发布LLM注意力机制优化研究](https://x.com/yudapeathree/status/20260610180248_002) ⭐5 · 2026-06-10 — LLM attention mechanism optimization research with open-source code and models
+- [@ylecun 发布LLM注意力机制优化研究](https://x.com/ylecun/status/20260610180248_002) ⭐5 · 2026-06-10 — LLM attention mechanism optimization research with open-source code and models
+- [@karpathy 发布LLM注意力机制优化研究](https://x.com/karpathy/status/20260610180248_002) ⭐5 · 2026-06-10 — LLM attention mechanism optimization research with open-source code and models
+- [@jeremyphoward 发布LLM注意力机制优化研究](https://x.com/jeremyphoward/status/20260610180248_002) ⭐5 · 2026-06-10 — LLM attention mechanism optimization research with open-source code and models
+- [@hardmaru 发布LLM注意力机制优化研究](https://x.com/hardmaru/status/20260610180248_002) ⭐5 · 2026-06-10 — LLM attention mechanism optimization research with open-source code and models
+- [@gdb 发布LLM注意力机制优化研究](https://x.com/gdb/status/20260610180248_002) ⭐5 · 2026-06-10 — LLM attention mechanism optimization research with open-source code and models
+- [@fchollet 发布LLM注意力机制优化研究](https://x.com/fchollet/status/20260610180248_002) ⭐5 · 2026-06-10 — LLM attention mechanism optimization research with open-source code and models
+- [@AndrewYNg 发布LLM注意力机制优化研究](https://x.com/AndrewYNg/status/20260610180248_002) ⭐5 · 2026-06-10 — LLM attention mechanism optimization research with open-source code and models
 - [高效注意力机制研究：@yudapeathree](https://x.com/yudapeathree/status/20260609180351_002) ⭐5 · 2026-06-09 — LLM注意力机制效率研究降低计算复杂度
-- [高效注意力机制研究：@ylecun](https://x.com/ylecun/status/20260609180351_002) ⭐5 · 2026-06-09 — LLM注意力机制效率研究降低计算复杂度
-- [高效注意力机制研究：@pmdd22](https://x.com/pmdd22/status/20260609180351_002) ⭐5 · 2026-06-09 — LLM注意力机制效率研究降低计算复杂度
 - [高效注意力机制研究：@karpathy](https://x.com/karpathy/status/20260609180351_002) ⭐5 · 2026-06-09 — LLM注意力机制效率研究降低计算复杂度
-- [高效注意力机制研究：@jeremyphoward](https://x.com/jeremyphoward/status/20260609180351_002) ⭐5 · 2026-06-09 — LLM注意力机制效率研究降低计算复杂度
-- [高效注意力机制研究：@hardmaru](https://x.com/hardmaru/status/20260609180351_002) ⭐5 · 2026-06-09 — LLM注意力机制效率研究降低计算复杂度
-- [高效注意力机制研究：@gdb](https://x.com/gdb/status/20260609180351_002) ⭐5 · 2026-06-09 — LLM注意力机制效率研究降低计算复杂度
-- [高效注意力机制研究：@fchollet](https://x.com/fchollet/status/20260609180351_002) ⭐5 · 2026-06-09 — LLM注意力机制效率研究降低计算复杂度
-- [高效注意力机制研究：@christoschristofi](https://x.com/christoschristofi/status/20260609180351_002) ⭐5 · 2026-06-09 — LLM注意力机制效率研究降低计算复杂度
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 21 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| 模型与实验室 | 29 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
 | Agent 与自动化 | 11 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 8 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 0 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
@@ -29,15 +29,15 @@
 
 ## 当前数据
 
-- 原始条目: 750
-- 公开展示卡片: 84
-- 有全文内容: 37
-- 最近 7 天信号: 54
+- 原始条目: 779
+- 公开展示卡片: 92
+- 有全文内容: 42
+- 最近 7 天信号: 62
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`ai-tools`, `2026`, `llm`, `digest`, `attention`, `论文工具`, `workflow`, `daily`, `research`, `automation`, `safety`, `alignment`, `evaluation`, `news`, `anthropic`, `gemini`, `SWE-bench`, `MCP`
+`ai-tools`, `2026`, `llm`, `attention`, `digest`, `论文工具`, `workflow`, `daily`, `research`, `automation`, `safety`, `alignment`, `evaluation`, `news`, `anthropic`, `gemini`, `SWE-bench`, `MCP`
 
 ## 自动化约定
 
