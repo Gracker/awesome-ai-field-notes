@@ -31,13 +31,13 @@
 
 - 原始条目: 750
 - 公开展示卡片: 84
-- 有全文内容: 34
+- 有全文内容: 37
 - 最近 7 天信号: 54
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`ai-tools`, `2026`, `llm`, `digest`, `attention`, `论文工具`, `workflow`, `daily`, `research`, `automation`, `alignment`, `safety`, `evaluation`, `news`, `anthropic`, `gemini`, `SWE-bench`, `MCP`
+`ai-tools`, `2026`, `llm`, `digest`, `attention`, `论文工具`, `workflow`, `daily`, `research`, `automation`, `safety`, `alignment`, `evaluation`, `news`, `anthropic`, `gemini`, `SWE-bench`, `MCP`
 
 ## 自动化约定
 
