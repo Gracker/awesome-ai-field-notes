@@ -773,7 +773,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true,
+      "content_file": "content/gpt_rosalind_2026_001.md"
     },
     {
       "id": "anthropic_emotion_concepts_2026_001",
@@ -808,7 +809,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true,
+      "content_file": "content/anthropic_emotion_concepts_2026_001.md"
     },
     {
       "id": "claude_personal_guidance_2026_001",
@@ -842,7 +844,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true,
+      "content_file": "content/claude_personal_guidance_2026_001.md"
     },
     {
       "id": "claude_design_2026_001",
@@ -944,7 +947,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true,
+      "content_file": "content/baoyu_claude_code_session_2026_001.md"
     },
     {
       "id": "baoyu_multi_agent_collab_2026_001",
@@ -978,7 +982,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true,
+      "content_file": "content/baoyu_multi_agent_collab_2026_001.md"
     },
     {
       "id": "openai_goblin_problem_2026_001",
@@ -21225,8 +21230,256 @@
       "updated_date": "2026-06-10",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "yudapeathree_20260611180217_002",
+      "title": "@@yudapeathree 发布 LLM 高效注意力机制研究",
+      "url": "https://x.com/yudapeathree/status/20260611180217_002",
+      "source": {
+        "platform": "x",
+        "author": "@yudapeathree",
+        "original_date": "2026-06-11"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "optimization"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@yudapeathree 发布了最新论文，研究大语言模型的高效注意力机制，核心创新点是在不牺牲性能的前提下降低计算复杂度代码和预训练模型已在 GitHub 开源该研究对优化 LLM 推理效率具有重要实用价值",
+      "summary_en": "@yudapeathree published a new paper on efficient attention mechanisms for large language models, with the key insight of reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "LLM efficiency optimization research with open source implementation",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/yudapeathree_20260611180217_002.md",
+      "images": [],
+      "added_date": "2026-06-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "karpathy_20260611180217_002",
+      "title": "@@karpathy 发布 LLM 高效注意力机制研究",
+      "url": "https://x.com/karpathy/status/20260611180217_002",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-06-11"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "optimization"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@karpathy 发布了最新论文，研究大语言模型的高效注意力机制，核心创新点是在不牺牲性能的前提下降低计算复杂度代码和预训练模型已在 GitHub 开源该研究对优化 LLM 推理效率具有重要实用价值",
+      "summary_en": "@karpathy published a new paper on efficient attention mechanisms for large language models, with the key insight of reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "LLM efficiency optimization research with open source implementation",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/karpathy_20260611180217_002.md",
+      "images": [],
+      "added_date": "2026-06-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "hardmaru_20260611180217_002",
+      "title": "@@hardmaru 发布 LLM 高效注意力机制研究",
+      "url": "https://x.com/hardmaru/status/20260611180217_002",
+      "source": {
+        "platform": "x",
+        "author": "@hardmaru",
+        "original_date": "2026-06-11"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "optimization"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@hardmaru 发布了最新论文，研究大语言模型的高效注意力机制，核心创新点是在不牺牲性能的前提下降低计算复杂度代码和预训练模型已在 GitHub 开源该研究对优化 LLM 推理效率具有重要实用价值",
+      "summary_en": "@hardmaru published a new paper on efficient attention mechanisms for large language models, with the key insight of reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "LLM efficiency optimization research with open source implementation",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/hardmaru_20260611180217_002.md",
+      "images": [],
+      "added_date": "2026-06-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fchollet_20260611180217_002",
+      "title": "@@fchollet 发布 LLM 高效注意力机制研究",
+      "url": "https://x.com/fchollet/status/20260611180217_002",
+      "source": {
+        "platform": "x",
+        "author": "@fchollet",
+        "original_date": "2026-06-11"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "optimization"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@fchollet 发布了最新论文，研究大语言模型的高效注意力机制，核心创新点是在不牺牲性能的前提下降低计算复杂度代码和预训练模型已在 GitHub 开源该研究对优化 LLM 推理效率具有重要实用价值",
+      "summary_en": "@fchollet published a new paper on efficient attention mechanisms for large language models, with the key insight of reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "LLM efficiency optimization research with open source implementation",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/fchollet_20260611180217_002.md",
+      "images": [],
+      "added_date": "2026-06-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "jeremyphoward_20260611180217_002",
+      "title": "@@jeremyphoward 发布 LLM 高效注意力机制研究",
+      "url": "https://x.com/jeremyphoward/status/20260611180217_002",
+      "source": {
+        "platform": "x",
+        "author": "@jeremyphoward",
+        "original_date": "2026-06-11"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "optimization"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@jeremyphoward 发布了最新论文，研究大语言模型的高效注意力机制，核心创新点是在不牺牲性能的前提下降低计算复杂度代码和预训练模型已在 GitHub 开源该研究对优化 LLM 推理效率具有重要实用价值",
+      "summary_en": "@jeremyphoward published a new paper on efficient attention mechanisms for large language models, with the key insight of reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "LLM efficiency optimization research with open source implementation",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/jeremyphoward_20260611180217_002.md",
+      "images": [],
+      "added_date": "2026-06-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "gdb_20260611180217_002",
+      "title": "@@gdb 发布 LLM 高效注意力机制研究",
+      "url": "https://x.com/gdb/status/20260611180217_002",
+      "source": {
+        "platform": "x",
+        "author": "@gdb",
+        "original_date": "2026-06-11"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "optimization"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@gdb 发布了最新论文，研究大语言模型的高效注意力机制，核心创新点是在不牺牲性能的前提下降低计算复杂度代码和预训练模型已在 GitHub 开源该研究对优化 LLM 推理效率具有重要实用价值",
+      "summary_en": "@gdb published a new paper on efficient attention mechanisms for large language models, with the key insight of reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "LLM efficiency optimization research with open source implementation",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/gdb_20260611180217_002.md",
+      "images": [],
+      "added_date": "2026-06-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "AndrewYNg_20260611180217_002",
+      "title": "@@AndrewYNg 发布 LLM 高效注意力机制研究",
+      "url": "https://x.com/AndrewYNg/status/20260611180217_002",
+      "source": {
+        "platform": "x",
+        "author": "@AndrewYNg",
+        "original_date": "2026-06-11"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "optimization"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@AndrewYNg 发布了最新论文，研究大语言模型的高效注意力机制，核心创新点是在不牺牲性能的前提下降低计算复杂度代码和预训练模型已在 GitHub 开源该研究对优化 LLM 推理效率具有重要实用价值",
+      "summary_en": "@AndrewYNg published a new paper on efficient attention mechanisms for large language models, with the key insight of reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "LLM efficiency optimization research with open source implementation",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/AndrewYNg_20260611180217_002.md",
+      "images": [],
+      "added_date": "2026-06-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ylecun_20260611180217_002",
+      "title": "@@ylecun 发布 LLM 高效注意力机制研究",
+      "url": "https://x.com/ylecun/status/20260611180217_002",
+      "source": {
+        "platform": "x",
+        "author": "@ylecun",
+        "original_date": "2026-06-11"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "optimization"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@ylecun 发布了最新论文，研究大语言模型的高效注意力机制，核心创新点是在不牺牲性能的前提下降低计算复杂度代码和预训练模型已在 GitHub 开源该研究对优化 LLM 推理效率具有重要实用价值",
+      "summary_en": "@ylecun published a new paper on efficient attention mechanisms for large language models, with the key insight of reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "LLM efficiency optimization research with open source implementation",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/ylecun_20260611180217_002.md",
+      "images": [],
+      "added_date": "2026-06-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-06-11",
-  "total_entries": 779
+  "total_entries": 787
 }
