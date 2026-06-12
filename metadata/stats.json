@@ -1,44 +1,47 @@
 {
-  "total_entries": 802,
-  "active_entries": 100,
-  "active_entries_raw": 608,
+  "total_entries": 813,
+  "active_entries": 111,
+  "active_entries_raw": 619,
   "archived_entries": 0,
   "score_pending_entries": 194,
-  "this_week_added": 70,
-  "entries_with_content": 52,
-  "content_files_total": 1077,
+  "this_week_added": 81,
+  "entries_with_content": 56,
+  "content_files_total": 1080,
   "channel_distribution": {
-    "models": 37,
+    "models": 45,
     "tools": 37,
-    "agents": 11,
+    "agents": 13,
     "coding": 8,
     "business": 4,
-    "research": 3
+    "research": 3,
+    "infra": 1
   },
   "raw_category_distribution": {
-    "uncategorized": 571,
+    "uncategorized": 578,
     "agents/frameworks": 10,
-    "models": 6,
+    "models": 7,
     "coding-agents/tools": 3,
     "industry/strategy": 3,
     "learning/research": 3,
     "learning": 3,
     "coding-agents/best-practices": 2,
     "coding": 2,
+    "agents": 2,
     "image-generation/prompts": 1,
     "benchmarks/mobile": 1,
     "agents/hermes": 1,
     "agents/ecosystem": 1,
-    "industry": 1
+    "industry": 1,
+    "infra": 1
   },
   "source_type_distribution": {
-    "x_post": 538,
-    "tweet": 36,
+    "x_post": 542,
+    "tweet": 43,
     "article": 30,
     "github": 3,
     "newsletter": 1
   },
-  "last_updated": "2026-06-12 08:30",
+  "last_updated": "2026-06-12 23:33",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }

@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
-- [@@yudapeathree 发布 LLM 高效注意力机制研究](https://x.com/yudapeathree/status/20260611180217_002) ⭐5 · 2026-06-11 — LLM efficiency optimization research with open source implementation
-- [@@ylecun 发布 LLM 高效注意力机制研究](https://x.com/ylecun/status/20260611180217_002) ⭐5 · 2026-06-11 — LLM efficiency optimization research with open source implementation
-- [@@karpathy 发布 LLM 高效注意力机制研究](https://x.com/karpathy/status/20260611180217_002) ⭐5 · 2026-06-11 — LLM efficiency optimization research with open source implementation
-- [@@jeremyphoward 发布 LLM 高效注意力机制研究](https://x.com/jeremyphoward/status/20260611180217_002) ⭐5 · 2026-06-11 — LLM efficiency optimization research with open source implementation
-- [@@hardmaru 发布 LLM 高效注意力机制研究](https://x.com/hardmaru/status/20260611180217_002) ⭐5 · 2026-06-11 — LLM efficiency optimization research with open source implementation
-- [@@gdb 发布 LLM 高效注意力机制研究](https://x.com/gdb/status/20260611180217_002) ⭐5 · 2026-06-11 — LLM efficiency optimization research with open source implementation
-- [@@fchollet 发布 LLM 高效注意力机制研究](https://x.com/fchollet/status/20260611180217_002) ⭐5 · 2026-06-11 — LLM efficiency optimization research with open source implementation
-- [@@AndrewYNg 发布 LLM 高效注意力机制研究](https://x.com/AndrewYNg/status/20260611180217_002) ⭐5 · 2026-06-11 — LLM efficiency optimization research with open source implementation
-- [@yudapeathree 发布LLM注意力机制优化研究](https://x.com/yudapeathree/status/20260610180248_002) ⭐5 · 2026-06-10 — LLM attention mechanism optimization research with open-source code and models
-- [@ylecun 发布LLM注意力机制优化研究](https://x.com/ylecun/status/20260610180248_002) ⭐5 · 2026-06-10 — LLM attention mechanism optimization research with open-source code and models
+- [华为的Tau Scaling Law：半导体范式转移](https://x.com/BetterCallMedhi/status/2059384524950384942) ⭐4 · 2026-06-12 — franchement l'annonce de Huawei hier Shanghai vient de mettre noir sur blanc ce que j'essaie de vous faire comprendre ici depuis des annes p
+- [Vision Banana：视觉领域的生成即理解革命](https://x.com/grapeot/status/2064115254213370288) ⭐4 · 2026-06-12 — LLM的生成即理解路径，终于在视觉里有了一个原生的版本 Vision Banana是Google DeepMind上个月放出的一个模型何恺明和谢赛宁是leadership sponsor它的做法是把分割深度估计表面法线估计这些视觉任务都改成画图任务同一个模型，同一套权重，改提示词
+- [Trace即Evals：Agent迭代的量化闭环](https://x.com/BohuTANG/status/2064540808951574947) ⭐4 · 2026-06-12 — 上周六分享了Trace 即 Evals，聊了一个问题：Agent 改了 prompt换了模型加了 tool，到底变好还是变差？ 几个关键点： Agent 是链式反应，一步偏了后面全偏，只看 pass/fail 没用 同任务同模型，换 harness，token 消耗差 3 倍，成
+- [AI工程的新范式：从单次调用到循环思维](https://x.com/sairahul1/status/2064343621130932644) ⭐4 · 2026-06-12 — Anthropic and OpenAI are both telling engineers to write loops. Not prompts. Not agents. Loops. That is not a coincidence. When the two most
+- [@yudapeathree - 高效注意力机制研究](https://x.com/yudapeathree/status/20260612180331_002) ⭐4 · 2026-06-12 — 高效注意力机制：LLM计算优化的突破性研究
+- [@karpathy - 高效注意力机制研究](https://x.com/karpathy/status/20260612180331_002) ⭐4 · 2026-06-12 — 高效注意力机制：LLM计算优化的突破性研究
+- [@jeremyphoward - 高效注意力机制研究](https://x.com/jeremyphoward/status/20260612180331_002) ⭐4 · 2026-06-12 — 高效注意力机制：LLM计算优化的突破性研究
+- [@hardmaru - 高效注意力机制研究](https://x.com/hardmaru/status/20260612180331_002) ⭐4 · 2026-06-12 — 高效注意力机制：LLM计算优化的突破性研究
+- [@gdb - 高效注意力机制研究](https://x.com/gdb/status/20260612180331_002) ⭐4 · 2026-06-12 — 高效注意力机制：LLM计算优化的突破性研究
+- [@fchollet - 高效注意力机制研究](https://x.com/fchollet/status/20260612180331_002) ⭐4 · 2026-06-12 — 高效注意力机制：LLM计算优化的突破性研究
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 37 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 11 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| 模型与实验室 | 45 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 13 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 8 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 0 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 基础设施 | 1 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 4 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 3 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 37 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 802
-- 公开展示卡片: 100
-- 有全文内容: 52
-- 最近 7 天信号: 70
+- 原始条目: 813
+- 公开展示卡片: 111
+- 有全文内容: 56
+- 最近 7 天信号: 81
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`ai-tools`, `llm`, `2026`, `attention`, `research`, `digest`, `论文工具`, `optimization`, `workflow`, `daily`, `automation`, `safety`, `alignment`, `evaluation`, `news`, `anthropic`, `gemini`, `Claude`
+`ai-tools`, `llm`, `2026`, `research`, `attention`, `digest`, `论文工具`, `optimization`, `attention-mechanisms`, `workflow`, `x-post`, `daily`, `automation`, `safety`, `alignment`, `evaluation`, `news`, `anthropic`
 
 ## 自动化约定
 
