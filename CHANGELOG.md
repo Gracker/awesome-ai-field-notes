@@ -1,5 +1,131 @@
 # Changelog
 
+## 2026-06-08 ~ 2026-06-14
+
+### 📈 新增 (89)
+
+**🆕 高质量新增 (21 条)**
+
+- [AI工程的新范式：从单次调用到循环思维](https://x.com/sairahul1/status/2064343621130932644) — agents ⭐⭐⭐⭐
+- [Trace即Evals：Agent迭代的量化闭环](https://x.com/BohuTANG/status/2064540808951574947) — agents ⭐⭐⭐⭐
+- [Vision Banana：视觉领域的生成即理解革命](https://x.com/grapeot/status/2064115254213370288) — models ⭐⭐⭐⭐
+- [华为的Tau Scaling Law：半导体范式转移](https://x.com/BetterCallMedhi/status/2059384524950384942) — infra ⭐⭐⭐⭐
+- [Accelerating science with GPT-5](https://openai.com/index/accelerating-science-gpt-5) — models ⭐⭐⭐
+- [Coding agents in the social sciences](https://www.anthropic.com/research/coding-agents-social-sciences) — agents ⭐⭐⭐
+- [DeepSeek 的 10 万亿美元大战略](https://baoyu.io/blog/2026-05-23/bookwormengr-status-2057909493250539891) — uncategorized ⭐⭐⭐
+- [DiffusionGemma: 4x faster text generation](https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation) — uncategorized ⭐⭐⭐
+- [Evaluating chain-of-thought monitorability](https://openai.com/index/evaluating-chain-of-thought-monitorability) — infra ⭐⭐⭐
+- [I/O 2026: Welcome to the agentic Gemini era](https://blog.google/innovation-and-ai/technology/ai/io-2026-welcome-to-the-agentic-gemini-era) — models ⭐⭐⭐
+- [Introducing Aardvark](https://openai.com/index/introducing-aardvark) — uncategorized ⭐⭐⭐
+- [Introducing GPT-Rosalind](https://openai.com/index/introducing-gpt-rosalind) — models ⭐⭐⭐
+- [Introducing IndQA](https://openai.com/index/introducing-indqa) — uncategorized ⭐⭐⭐
+- [Latest GPT-5 Model Breakthrough](https://openai.com/blog/gpt-5-breakthrough-2026) — models ⭐⭐⭐
+- [Making Claude a chemist](https://www.anthropic.com/research/making-claude-a-chemist) — models ⭐⭐⭐
+- [MiMo Code is now released and open-source](https://mimo.xiaomi.com/mimocode) — uncategorized ⭐⭐⭐
+- [Open Reproduction of DeepSeek-R1](https://github.com/huggingface/open-r1) — industry ⭐⭐⭐
+- [Paving the way for agents in biology](https://www.anthropic.com/research/agents-in-biology) — agents ⭐⭐⭐
+- [Test AI Content](https://openai.com/blog/test-2026) — learning ⭐⭐⭐
+- [What we learned mapping a year's worth of AI-enabled cyber threats](https://www.anthropic.com/research/AI-enabled-cyber-threats-mitre-attack) — uncategorized ⭐⭐⭐
+- [来自 Codex 官方团队的分享：如何把 Codex 用到极致](https://baoyu.io/blog/2026-05-20/jxnlco-2057153744630890620) — coding ⭐⭐⭐
+
+**⚠️ Synthetic URL 条目 (38 条，疑似采集噪声)**
+
+- [高效注意力机制研究：@yudapeathree](https://x.com/yudapeathree/status/20260609180351_002) — uncategorized ⭐⭐⭐⭐⭐
+- [高效注意力机制研究：@karpathy](https://x.com/karpathy/status/20260609180351_002) — uncategorized ⭐⭐⭐⭐⭐
+- [高效注意力机制研究：@hardmaru](https://x.com/hardmaru/status/20260609180351_002) — uncategorized ⭐⭐⭐⭐⭐
+- [高效注意力机制研究：@fchollet](https://x.com/fchollet/status/20260609180351_002) — uncategorized ⭐⭐⭐⭐⭐
+- [高效注意力机制研究：@jeremyphoward](https://x.com/jeremyphoward/status/20260609180351_002) — uncategorized ⭐⭐⭐⭐⭐
+- [高效注意力机制研究：@gdb](https://x.com/gdb/status/20260609180351_002) — uncategorized ⭐⭐⭐⭐⭐
+- [高效注意力机制研究：@AndrewYNg](https://x.com/AndrewYNg/status/20260609180351_002) — uncategorized ⭐⭐⭐⭐⭐
+- [高效注意力机制研究：@ylecun](https://x.com/ylecun/status/20260609180351_002) — uncategorized ⭐⭐⭐⭐⭐
+- [高效注意力机制研究：@christoschristofi](https://x.com/christoschristofi/status/20260609180351_002) — uncategorized ⭐⭐⭐⭐⭐
+- [高效注意力机制研究：@pmdd22](https://x.com/pmdd22/status/20260609180351_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@yudapeathree 发布LLM注意力机制优化研究](https://x.com/yudapeathree/status/20260610180248_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@karpathy 发布LLM注意力机制优化研究](https://x.com/karpathy/status/20260610180248_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@hardmaru 发布LLM注意力机制优化研究](https://x.com/hardmaru/status/20260610180248_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@fchollet 发布LLM注意力机制优化研究](https://x.com/fchollet/status/20260610180248_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@jeremyphoward 发布LLM注意力机制优化研究](https://x.com/jeremyphoward/status/20260610180248_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@gdb 发布LLM注意力机制优化研究](https://x.com/gdb/status/20260610180248_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@AndrewYNg 发布LLM注意力机制优化研究](https://x.com/AndrewYNg/status/20260610180248_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@ylecun 发布LLM注意力机制优化研究](https://x.com/ylecun/status/20260610180248_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@@yudapeathree 发布 LLM 高效注意力机制研究](https://x.com/yudapeathree/status/20260611180217_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@@karpathy 发布 LLM 高效注意力机制研究](https://x.com/karpathy/status/20260611180217_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@@hardmaru 发布 LLM 高效注意力机制研究](https://x.com/hardmaru/status/20260611180217_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@@fchollet 发布 LLM 高效注意力机制研究](https://x.com/fchollet/status/20260611180217_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@@jeremyphoward 发布 LLM 高效注意力机制研究](https://x.com/jeremyphoward/status/20260611180217_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@@gdb 发布 LLM 高效注意力机制研究](https://x.com/gdb/status/20260611180217_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@@AndrewYNg 发布 LLM 高效注意力机制研究](https://x.com/AndrewYNg/status/20260611180217_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@@ylecun 发布 LLM 高效注意力机制研究](https://x.com/ylecun/status/20260611180217_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@yudapeathree - 高效注意力机制研究](https://x.com/yudapeathree/status/20260612180331_002) — uncategorized ⭐⭐⭐⭐
+- [@karpathy - 高效注意力机制研究](https://x.com/karpathy/status/20260612180331_002) — uncategorized ⭐⭐⭐⭐
+- [@hardmaru - 高效注意力机制研究](https://x.com/hardmaru/status/20260612180331_002) — uncategorized ⭐⭐⭐⭐
+- [@fchollet - 高效注意力机制研究](https://x.com/fchollet/status/20260612180331_002) — uncategorized ⭐⭐⭐⭐
+- [@jeremyphoward - 高效注意力机制研究](https://x.com/jeremyphoward/status/20260612180331_002) — uncategorized ⭐⭐⭐⭐
+- [@gdb - 高效注意力机制研究](https://x.com/gdb/status/20260612180331_002) — uncategorized ⭐⭐⭐⭐
+- [@AndrewYNg - 高效注意力机制研究](https://x.com/AndrewYNg/status/20260612180331_002) — uncategorized ⭐⭐⭐⭐
+- [高效注意力机制优化LLM计算效率](https://x.com/yudapeathree/status/20260613180222_002) — uncategorized ⭐⭐⭐⭐
+- [Andrej Karpathy分享LLM注意力优化技术](https://x.com/karpathy/status/20260613180222_002) — uncategorized ⭐⭐⭐⭐
+- [深度学习专家发布高效注意力算法研究](https://x.com/hardmaru/status/20260613180222_002) — uncategorized ⭐⭐⭐⭐
+- [Keras发布LLM注意力机制优化工具](https://x.com/fchollet/status/20260613180222_002) — uncategorized ⭐⭐⭐⭐
+- [Fast.ai团队发布LLM高效注意力方案](https://x.com/jeremyphoward/status/20260613180222_002) — uncategorized ⭐⭐⭐⭐
+
+**📝 无链接条目 (30 条，待人工补全)**
+
+- 2026-06-09 AI 代码生成与评测基准 — coding ⭐⭐⭐⭐⭐
+- a09cdbbd — industry ⭐⭐⭐⭐
+- a2a_protocol_v1_0_2026_001 — agents ⭐⭐⭐⭐
+- claude_opus_47_mythos_2026_001 — models ⭐⭐⭐⭐
+- gpt55_release_2026_001 — models ⭐⭐⭐⭐
+- AI资源 - 2026-04-02 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-04 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-06 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-08 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-09 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-10 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-12 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-14 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-19 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-20 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-21 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-22 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-23 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-24 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-25 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-26 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-27 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-28 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-29 — uncategorized ⭐⭐⭐
+- AI资源 - 2026-04-30 — uncategorized ⭐⭐⭐
+- …还有 5 条
+
+### 📦 归档 (0)
+
+
+### ✏️ 评分调整 (0)
+
+
+### 📊 统计
+- 总条目: 733 → 822 (+89)
+- 活跃条目: 577 → 628 (+51)
+
+### 📈 分类变更分布
+| 分类 | 新增 |
+|------|------|
+| uncategorized | +65 |
+| models | +8 |
+| agents | +5 |
+| learning | +3 |
+| infra | +3 |
+| industry | +3 |
+| coding | +2 |
+
+### 🏆 本周最高分新增 (5★)
+- 2026-06-09 AI 代码生成与评测基准 — coding ⭐⭐⭐⭐⭐
+- [@@AndrewYNg 发布 LLM 高效注意力机制研究](https://x.com/AndrewYNg/status/20260611180217_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@@fchollet 发布 LLM 高效注意力机制研究](https://x.com/fchollet/status/20260611180217_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@@gdb 发布 LLM 高效注意力机制研究](https://x.com/gdb/status/20260611180217_002) — uncategorized ⭐⭐⭐⭐⭐
+- [@@hardmaru 发布 LLM 高效注意力机制研究](https://x.com/hardmaru/status/20260611180217_002) — uncategorized ⭐⭐⭐⭐⭐
+
 ## 2026-06-01 ~ 2026-06-07
 
 ### 📈 新增 (43)
