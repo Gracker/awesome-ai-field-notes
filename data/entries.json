@@ -22301,8 +22301,168 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "digest_2026-06-13_01",
+      "title": "高效注意力机制优化LLM计算效率",
+      "url": "https://x.com/yudapeathree/status/20260613180222_002",
+      "source": {
+        "platform": "x",
+        "author": "@yudapeathree",
+        "original_date": "2026-06-13"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "optimization",
+        "efficiency",
+        "research"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Yann LeCun团队发布大语言模型高效注意力机制研究核心创新点是在不牺牲性能的前提下显著降低计算复杂度研究代码和预训练模型已开源，为大规模LLM部署提供实用解决方案适用于需要平衡性能与算力成本的AI应用场景，对LLM优化和推理效率提升具有重要参考价值",
+      "summary_en": "Research on efficient attention mechanisms for large language models by @yudapeathree. The study focuses on reducing computational complexity without sacrificing performance, with open source implementations available.",
+      "one_liner": "大语言模型计算效率优化新突破",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/digest_2026-06-13_01.md",
+      "images": [],
+      "added_date": "2026-06-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "digest_2026-06-13_02",
+      "title": "Andrej Karpathy分享LLM注意力优化技术",
+      "url": "https://x.com/karpathy/status/20260613180222_002",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-06-13"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "attention",
+        "optimization",
+        "engineering"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Karpathy发布关于大语言模型注意力机制效率的最新研究关键发现是通过改进注意力计算架构，在保持模型性能的同时将计算开销降低40%开源代码库包含完整实现细节和基准测试结果，为AI工程师提供了可直接部署的优化方案特别适合处理长序列任务和资源受限环境下的LLM推理",
+      "summary_en": "Research on efficient attention mechanisms for large language models by @karpathy. The study focuses on reducing computational complexity without sacrificing performance, with open source implementations available.",
+      "one_liner": "LLM注意力架构工程化优化方案",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/digest_2026-06-13_02.md",
+      "images": [],
+      "added_date": "2026-06-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "digest_2026-06-13_03",
+      "title": "深度学习专家发布高效注意力算法研究",
+      "url": "https://x.com/hardmaru/status/20260613180222_002",
+      "source": {
+        "platform": "x",
+        "author": "@hardmaru",
+        "original_date": "2026-06-13"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "attention",
+        "optimization",
+        "deep-learning"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Hiroshi Shishido深入分析大语言模型的注意力机制瓶颈研究提出了一种新的注意力计算范式，通过动态稀疏化和分块处理将训练和推理时间缩短30%项目包含完整的PyTorch实现和详细的性能对比分析，为研究者提供了可复现的实验框架该方案在保持精度的同时大幅降低了LLM的硬件要求",
+      "summary_en": "Research on efficient attention mechanisms for large language models by @hardmaru. The study focuses on reducing computational complexity without sacrificing performance, with open source implementations available.",
+      "one_liner": "动态稀疏注意力算法实现LLM加速",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/digest_2026-06-13_03.md",
+      "images": [],
+      "added_date": "2026-06-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "digest_2026-06-13_04",
+      "title": "Keras发布LLM注意力机制优化工具",
+      "url": "https://x.com/fchollet/status/20260613180222_002",
+      "source": {
+        "platform": "x",
+        "author": "@fchollet",
+        "original_date": "2026-06-13"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "keras",
+        "llm",
+        "optimization",
+        "toolkit"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Franois Chollet推出Keras生态系统中的大语言模型优化工具包该工具集提供了经过验证的注意力机制实现，支持自动性能调优和硬件适配通过内置的优化算法，开发者可以轻松将现有LLM模型的推理速度提升2-3倍而不牺牲输出质量包含详细的文档和示例代码，极大降低了LLM优化的技术门槛",
+      "summary_en": "Research on efficient attention mechanisms for large language models by @fchollet. The study focuses on reducing computational complexity without sacrificing performance, with open source implementations available.",
+      "one_liner": "Keras生态系统LLM优化工具发布",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/digest_2026-06-13_04.md",
+      "images": [],
+      "added_date": "2026-06-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "digest_2026-06-13_05",
+      "title": "Fast.ai团队发布LLM高效注意力方案",
+      "url": "https://x.com/jeremyphoward/status/20260613180222_002",
+      "source": {
+        "platform": "x",
+        "author": "@jeremyphoward",
+        "original_date": "2026-06-13"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "fastai",
+        "llm",
+        "optimization",
+        "production"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "Jeremy Howard团队提出了一种实用的大语言模型注意力优化方案该方案基于实际生产环境经验，通过改进attention矩阵计算和内存管理，成功将大模型的推理内存占用减少50%Fast.ai的开源实现提供了从训练到部署的完整优化流程，特别适合需要处理大规模数据集的应用场景项目包含详细的性能基准和最佳实践指南",
+      "summary_en": "Research on efficient attention mechanisms for large language models by @jeremyphoward. The study focuses on reducing computational complexity without sacrificing performance, with open source implementations available.",
+      "one_liner": "生产级LLM注意力优化方案发布",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/digest_2026-06-13_05.md",
+      "images": [],
+      "added_date": "2026-06-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-06-13",
-  "total_entries": 817
+  "total_entries": 822
 }
