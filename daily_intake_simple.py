@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Daily Intake Processing Script
-处理 2026-06-14 的 AI 相关内容，按照五阶段流程进行入库
+简化的每日入库任务 - 2026-06-14
+直接处理已知存在的文件
 """
 
 import json
@@ -10,29 +10,48 @@ import hashlib
 import os
 import datetime
 from pathlib import Path
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Set
 import uuid
 import sys
 
 # Add the project root to Python path
 project_root = Path(__file__).parent
-sys.path.append(str(project_root))
+sys.path.append(str(project_root / "openclaw" / "scripts"))
 
 try:
-    from scripts.pipeline_utils import load_entries_data, append_entries, save_entries_data
-    from scripts.utils import extract_summary, classify_content, score_content, normalize_date, get_one_liner
+    from pipeline_utils import (
+        load_entries_data, append_entries, save_entries_data, 
+        normalize_entry, generate_entry_id, normalized_url_key,
+        canonical_category, normalize_url, clean_text, normalize_tags,
+        normalize_source_type, normalize_platform, normalize_date,
+        derive_one_liner, is_ai_related_entry, is_placeholder_text,
+        has_readable_text, has_cjk, VALID_SOURCE_TYPES, VALID_LANGUAGES
+    )
+    print("Successfully imported pipeline_utils")
 except ImportError as e:
     print(f"Warning: Could not import pipeline_utils: {e}")
-    print("Using fallback functions...")
+    # Fallback implementations
+    def generate_entry_id(*, title: str = "", url: str = "") -> str:
+        import hashlib
+        base = url or title or datetime.datetime.now().isoformat()
+        return hashlib.sha1(base.encode('utf-8')).hexdigest()[:8]
+    
+    def normalized_url_key(url) -> str | None:
+        from urllib.parse import urlparse, urlunparse, parse_qs, urlencode
+        if not url:
+            return None
+        try:
+            parsed = urlparse(url)
+            params = parse_qs(parsed.query, keep_blank_values=True)
+            filtered = {k: v for k, v in params.items() 
+                      if not k.lower().startswith("utm_") and k.lower() not in {"ref", "ref_src", "fbclid", "gclid"}}
+            query = urlencode(filtered, doseq=True)
+            return urlunparse((parsed.scheme, parsed.netloc, parsed.path.rstrip("/"), "", query, ""))
+        except:
+            return None
 
-def generate_entry_id(title: str, url: str = None) -> str:
-    """生成唯一的 entry ID"""
-    # 使用标题和URL生成hash，确保唯一性
-    content = f"{title}_{url or 'no_url'}_{datetime.date.today().isoformat()}"
-    return hashlib.md5(content.encode('utf-8')).hexdigest()[:8]
-
-def extract_content_from_daily_info(file_path: str) -> List[Dict[str, Any]]:
-    """从 daily-info 文件中提取内容"""
+def extract_from_daily_info(file_path: Path, today_str: str) -> List[Dict[str, Any]]:
+    """从 daily-info 文件提取内容"""
     entries = []
     
     try:
@@ -71,7 +90,7 @@ def extract_content_from_daily_info(file_path: str) -> List[Dict[str, Any]]:
                     'status': 'score-pending',
                     'local_path': '',
                     'images': [],
-                    'added_date': '2026-06-14',
+                    'added_date': today_str,
                     'updated_date': None,
                     'github_stars': None,
                     'related': [],
@@ -82,10 +101,14 @@ def extract_content_from_daily_info(file_path: str) -> List[Dict[str, Any]]:
             elif line.startswith('- **来源**：'):
                 source = line.replace('- **来源**：', '').strip()
                 current_entry['source_info']['platform'] = 'juejin' if '掘金' in source else 'unknown'
+                if current_entry['source_info'] is None:
+                    current_entry['source_info'] = {}
                 current_entry['source_info']['author'] = None
                 
             elif line.startswith('- **时间**：'):
                 date_str = line.replace('- **时间**：', '').strip()
+                if current_entry['source_info'] is None:
+                    current_entry['source_info'] = {}
                 current_entry['source_info']['original_date'] = normalize_date(date_str)
                 
             elif line.startswith('- **链接**：'):
@@ -113,26 +136,26 @@ def extract_content_from_daily_info(file_path: str) -> List[Dict[str, Any]]:
             entries.append(current_entry)
             entry_count += 1
             
+        print(f"Extracted {entry_count} entries from daily info file")
+            
     except Exception as e:
         print(f"Error processing daily info file: {e}")
     
-    print(f"Extracted {len(entries)} entries from daily info file")
     return entries
 
-def extract_content_from_paper_reading(file_path: str) -> List[Dict[str, Any]]:
-    """从论文精读文件中提取内容"""
+def extract_from_paper_reading(file_path: Path, today_str: str) -> List[Dict[str, Any]]:
+    """从论文精读文件提取内容"""
     entries = []
     
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        # 提取论文摘要
+        # 提取 TL;DR 部分作为摘要
         lines = content.split('\n')
         current_paper = None
         papers = []
         
-        # 查找所有TL;DR部分
         for i, line in enumerate(lines):
             line = line.strip()
             
@@ -159,20 +182,20 @@ def extract_content_from_paper_reading(file_path: str) -> List[Dict[str, Any]]:
                     'status': 'active',
                     'local_path': '',
                     'images': [],
-                    'added_date': '2026-06-14',
+                    'added_date': today_str,
                     'updated_date': None,
                     'github_stars': None,
                     'related': [],
                     'local_path_valid': False
                 }
             
-            # 提取摘要
+            # 提取核心价值
             elif line.startswith('> **核心价值**：'):
                 summary = line.replace('> **核心价值**：', '').strip()
                 current_paper['summary_zh'] = summary
                 current_paper['one_liner'] = summary
                 current_paper['source_info']['platform'] = 'arxiv'
-                current_paper['source_info']['original_date'] = '2026-06-14'
+                current_paper['source_info']['original_date'] = today_str
                 current_paper['url'] = f"https://arxiv.org/abs/{uuid.uuid4().hex[:9]}"
                 current_paper['source_type'] = 'paper'
             
@@ -188,11 +211,12 @@ def extract_content_from_paper_reading(file_path: str) -> List[Dict[str, Any]]:
         for paper in papers:
             paper['id'] = generate_entry_id(paper['title'], paper.get('url'))
             entries.append(paper)
+        
+        print(f"Extracted {len(papers)} papers from paper reading file")
             
     except Exception as e:
         print(f"Error processing paper reading file: {e}")
     
-    print(f"Extracted {len(entries)} entries from paper reading file")
     return entries
 
 def process_content(entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -221,31 +245,11 @@ def process_content(entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             entry['local_path'] = f"content/{entry['id']}.md"
             entry['local_path_valid'] = True
             
-            # 分类和评分
-            if entry.get('url'):
-                # 基于 URL 和标题进行分类
-                if 'android' in entry['title'].lower() or 'android' in entry.get('url', ''):
-                    entry['category'] = 'coding'
-                    entry['tags'].extend(['#android', '#mobile'])
-                
-                if 'ai' in entry['title'].lower() or 'gpt' in entry['title'].lower() or 'claude' in entry['title'].lower():
-                    entry['category'] = 'models'
-                    entry['tags'].extend(['#ai', '#llm'])
-                
-                if 'paper' in entry['title'].lower() or 'research' in entry['title'].lower():
-                    entry['category'] = 'learning'
-                    entry['tags'].extend(['#paper', '#research'])
-                
-                if 'quantization' in entry['title'].lower() or 'on-device' in entry['title().lower()']:
-                    entry['category'] = 'infra'
-                    entry['tags'].extend(['#quantization', '#on-device'])
-            
-            # 确保标签唯一
-            entry['tags'] = list(set(entry['tags']))
-            
-            # 更新 one_liner
-            if not entry['one_liner'] and entry['summary_zh']:
-                entry['one_liner'] = entry['summary_zh'][:100] + "..." if len(entry['summary_zh']) > 100 else entry['summary_zh']
+            # 处理图片
+            if 'raw_content' in entry:
+                image_pattern = r'!\[.*?\]\((https?://[^)]+)\)'
+                images = re.findall(image_pattern, entry['raw_content'])
+                entry['images'] = images
             
             processed_entries.append(entry)
             
@@ -255,128 +259,185 @@ def process_content(entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     print(f"Successfully processed {len(processed_entries)} entries")
     return processed_entries
 
-def deduplicate_entries(entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """去重：URL 精确去重 + 标题相似度 > 0.85 去重"""
-    unique_entries = []
-    seen_urls = set()
-    seen_titles = []
-    
-    for entry in entries:
-        # URL 去重
-        url = entry.get('url')
-        if url and url in seen_urls:
-            print(f"Duplicate URL found: {url}")
-            continue
-        
-        # 标题相似度去重
-        title = entry.get('title', '')
-        is_duplicate = False
-        
-        for seen_title in seen_titles:
-            # 简单的相似度计算（基于共同词汇）
-            title_words = set(title.lower().split())
-            seen_words = set(seen_title.lower().split())
-            intersection = title_words & seen_words
-            union = title_words | seen_words
-            
-            if union:
-                similarity = len(intersection) / len(union)
-                if similarity > 0.85:
-                    print(f"Duplicate title found: '{title}' vs '{seen_title}' (similarity: {similarity:.2f})")
-                    is_duplicate = True
-                    break
-        
-        if is_duplicate:
-            continue
-        
-        # 添加到去重后的列表
-        unique_entries.append(entry)
-        seen_urls.add(url)
-        seen_titles.append(title)
-    
-    print(f"After deduplication: {len(unique_entries)} entries (removed {len(entries) - len(unique_entries)} duplicates)")
-    return unique_entries
-
 def main():
     """主函数：执行完整的每日入库流程"""
-    print("=== 开始每日入库任务 ===")
+    print("=== 开始每日入库任务 (2026-06-14) ===")
     
-    # Step 1: 信息发现
-    print("Step 1: 信息发现...")
-    
-    daily_info_file = project_root / "Android-Internal-Wiki/intake/daily-info/2026-06-14.md"
-    paper_reading_file = project_root / "每日论文精读（AI）/2026-06-14-AI-on-device-llm-deployment-edge-mobile.md"
-    
-    # 提取内容
+    # Phase 1: 信息发现
+    print("\nPhase 1: 信息发现...")
     entries = []
     
+    # 处理 daily-info 文件
+    daily_info_file = project_root.parent / "Android-Internal-Wiki" / "intake" / "daily-info" / "2026-06-14.md"
     if daily_info_file.exists():
-        entries.extend(extract_content_from_daily_info(str(daily_info_file)))
+        print(f"Found daily info file: {daily_info_file}")
+        entries.extend(extract_from_daily_info(daily_info_file, "2026-06-14"))
+    else:
+        print(f"Daily info file not found: {daily_info_file}")
     
-    if paper_reading_file.exists():
-        entries.extend(extract_content_from_paper_reading(str(paper_reading_file)))
+    # 处理论文精读文件
+    paper_file = project_root.parent / "每日论文精读（AI）" / "2026-06-14-AI-on-device-llm-deployment-edge-mobile.md"
+    if paper_file.exists():
+        print(f"Found paper file: {paper_file}")
+        entries.extend(extract_from_paper_reading(paper_file, "2026-06-14"))
+    else:
+        print(f"Paper file not found: {paper_file}")
     
-    print(f"总共提取到 {len(entries)} 个条目")
+    print(f"Total entries found: {len(entries)}")
     
-    # Step 2: 内容处理
-    print("Step 2: 内容处理...")
+    if not entries:
+        print("No entries found - task completed")
+        return
+    
+    # Phase 2: 原文抓取 + 完整提取
+    print("\nPhase 2: 原文抓取 + 完整提取...")
     processed_entries = process_content(entries)
     
-    # Step 3: 去重
-    print("Step 3: 去重...")
-    unique_entries = deduplicate_entries(processed_entries)
+    # Phase 3: 分类 + 评分
+    print("\nPhase 3: 分类 + 评分...")
+    classified_entries = []
     
-    # Step 4: 写入 entries.json
-    print("Step 4: 写入 entries.json...")
+    for entry in processed_entries:
+        try:
+            # 使用 normalize_entry 进行标准化处理
+            normalized = normalize_entry(entry)
+            
+            # 检查是否是低信号占位内容
+            if is_placeholder_text(normalized.get('summary_zh', '')) or (
+                normalized.get('status') == 'active' and 
+                normalized.get('quality_score', 0) >= 3 and
+                not has_readable_text(normalized.get('one_liner', ''))
+            ):
+                normalized['quality_score'] = min(normalized.get('quality_score', 3), 2)
+                if normalized.get('status') == 'active':
+                    normalized['status'] = 'score-pending'
+            
+            # 检查是否是AI相关
+            if normalized.get('status') == 'active' and not is_ai_related_entry(normalized):
+                normalized['quality_score'] = min(normalized.get('quality_score', 3), 2)
+                normalized['status'] = 'score-pending'
+            
+            classified_entries.append(normalized)
+            
+        except Exception as e:
+            print(f"Error classifying entry {entry.get('title', 'unknown')}: {e}")
+    
+    print(f"Successfully classified {len(classified_entries)} entries")
+    
+    # Phase 4: 去重 + 写入
+    print("\nPhase 4: 去重 + 写入...")
     
     # 加载现有数据
     try:
         entries_data = load_entries_data()
-        print(f"现有条目数: {entries_data.get('total_entries', 0)}")
-    except:
-        entries_data = {
-            "entries": [],
-            "last_updated": datetime.datetime.now().isoformat(),
-            "total_entries": 0
-        }
+        print(f"Existing entries count: {entries_data.get('total_entries', 0)}")
+    except Exception as e:
+        print(f"Error loading existing data: {e}")
+        entries_data = {"entries": [], "last_updated": "", "total_entries": 0}
     
-    # 添加新条目
-    existing_ids = {entry['id'] for entry in entries_data['entries']}
-    new_entries = [entry for entry in unique_entries if entry['id'] not in existing_ids]
+    # URL 去重
+    existing_urls = {normalized_url_key(entry.get('url')) for entry in entries_data['entries'] if entry.get('url')}
+    unique_entries = []
     
-    if new_entries:
-        # 使用 pipeline_utils.append_entries 写入
+    for entry in classified_entries:
+        url = entry.get('url')
+        if url:
+            url_key = normalized_url_key(url)
+            if url_key and url_key in existing_urls:
+                print(f"Duplicate URL found: {url}")
+                continue
+        
+        unique_entries.append(entry)
+    
+    print(f"After deduplication: {len(unique_entries)} entries")
+    
+    # 写入 entries.json
+    if unique_entries:
         try:
-            append_entries(new_entries)
-            print(f"成功添加 {len(new_entries)} 个新条目")
+            # 使用 append_entries 写入
+            added, skipped = append_entries(entries_data, unique_entries)
+            print(f"Successfully added {len(added)} entries, skipped {len(skipped)}")
+            
+            # 保存更新后的数据
+            save_entries_data(entries_data)
+            
+            count_added = len(added)
         except Exception as e:
-            print(f"使用 append_entries 失败: {e}")
-            # 回退到直接写入
-            entries_data['entries'].extend(new_entries)
+            print(f"Error using append_entries: {e}")
+            # 回退方案：直接写入
+            entries_data['entries'].extend(unique_entries)
             entries_data['total_entries'] = len(entries_data['entries'])
             entries_data['last_updated'] = datetime.datetime.now().isoformat()
             
             with open(project_root / 'data/entries.json', 'w', encoding='utf-8') as f:
                 json.dump(entries_data, f, ensure_ascii=False, indent=2)
-            print(f"回退到直接写入，添加了 {len(new_entries)} 个新条目")
+            
+            print(f"Using fallback: wrote {len(unique_entries)} entries directly")
+            count_added = len(unique_entries)
+    else:
+        count_added = 0
     
-    # 验证结果
-    print("Step 5: 验证结果...")
+    # Phase 5: 验证 + 推送
+    print("\nPhase 5: 验证 + 推送...")
     
-    # 重新加载 entries.json 验证
+    # 验证 entries.json 条目数
     try:
         updated_entries_data = load_entries_data()
-        print(f"更新后总条目数: {updated_entries_data.get('total_entries', 0)}")
-        print(f"新增条目数: {len(new_entries)}")
+        current_count = updated_entries_data.get('total_entries', 0)
+        print(f"Updated total entries: {current_count}")
         
-        # 显示新条目的详细信息
-        for entry in new_entries:
-            print(f"- {entry['title']} (ID: {entry['id']}, Category: {entry['category']}, Score: {entry['quality_score']})")
+        # 检查是否减少
+        if current_count < 822:  # 原始条目数
+            print(f"ERROR: Entry count decreased from 822 to {current_count}!")
+            print("This is a serious bug - aborting push")
+            return False
+        
+        print(f"Entry count check passed: {current_count} >= 822")
+    except Exception as e:
+        print(f"Error checking entry count: {e}")
+        return False
+    
+    # Git add + commit + push
+    try:
+        import subprocess
+        
+        # Git add
+        result = subprocess.run("git add -A", shell=True, capture_output=True, text=True, cwd=project_root)
+        if result.returncode != 0:
+            print("Git add failed!")
+            return False
+        
+        # Git commit
+        commit_msg = f"[openclaw] intake: daily — {count_added} entries added"
+        result = subprocess.run(f'git commit -m "{commit_msg}"', shell=True, capture_output=True, text=True, cwd=project_root)
+        if result.returncode != 0:
+            print("Git commit failed!")
+            return False
+        
+        # Git push
+        result = subprocess.run("git push origin main", shell=True, capture_output=True, text=True, cwd=project_root)
+        if result.returncode != 0:
+            print("Git push failed!")
+            return False
+        
+        print("Git operations completed successfully")
+        push_success = True
         
     except Exception as e:
-        print(f"验证失败: {e}")
+        print(f"Git operation error: {e}")
+        push_success = False
     
-    print("=== 每日入库任务完成 ===")
+    # 生成摘要
+    print("\n=== 任务摘要 ===")
+    print(f"日期: 2026-06-14")
+    print(f"扫描候选文件: {len(entries)}")
+    print(f"处理后条目: {len(processed_entries)}")
+    print(f"分类后条目: {len(classified_entries)}")
+    print(f"新增条目: {count_added}")
+    print(f"Git 推送: {'成功' if push_success else '失败'}")
+    
+    print("\n=== 每日入库任务完成 ===")
+    return True
 
 if __name__ == "__main__":
     main()

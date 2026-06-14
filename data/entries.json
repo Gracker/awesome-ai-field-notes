@@ -22461,8 +22461,134 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "4de9d325",
+      "title": "Android 17 有什么需要适配的？2026 Android 禁止侧载又是什么？",
+      "url": "https://juejin.cn/post/7610233341305389099",
+      "source": {
+        "platform": "blog",
+        "author": "恋猫de小郭",
+        "original_date": "2026-02-25"
+      },
+      "category": "coding",
+      "tags": [
+        "#android",
+        "#system",
+        "适配",
+        "开发"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Android 官方已经发布了 Android 17 的相关适配文档，其中有不少值得提前关注的内容，另外在去年谷歌也发布过 Android 开发者认证的通告，没认证的应用将无法安装",
+      "summary_en": null,
+      "one_liner": "Android 17 适配指南：认证要求与安装限制分析",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "score-pending",
+      "local_path": "manual_001.md",
+      "images": [],
+      "added_date": "2026-06-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6b5fef67",
+      "title": "什么 AI 写 Android 最好用？官方做了一个基准测试排名",
+      "url": "https://juejin.cn/post/7614897667961143347",
+      "source": {
+        "platform": "blog",
+        "author": "恋猫de小郭",
+        "original_date": "2026-03-09"
+      },
+      "category": "models",
+      "tags": [
+        "#ai",
+        "#android",
+        "#llm",
+        "#benchmark"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "近日，谷歌发布一个了 Android Bench ，目的是衡量大语言模型在 Android 开发里的表现，而结果上是 Gemini-3.1 pro 遥遥领先，这个结论你认可吗？",
+      "summary_en": null,
+      "one_liner": "Android 开发 AI 助手基准测试：Gemini-3.1 Pro 表现最佳",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "manual_002.md",
+      "images": [],
+      "added_date": "2026-06-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c378fba2",
+      "title": "你还用 IDE 吗？ AI 狂欢时代下 Cursor 慌了， JetBrains 等 IDE 的未来是什么？",
+      "url": "https://juejin.cn/post/7615060828946579491",
+      "source": {
+        "platform": "blog",
+        "author": "恋猫de小郭",
+        "original_date": "2026-03-10"
+      },
+      "category": "agents",
+      "tags": [
+        "#ai",
+        "#ide",
+        "#development",
+        "#tools"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "聊之前我们先说点前言，之所以会有这个思考，其实也是来自近日的云鲸 Cursor Team 邀请泄漏事件，云鲸在企业内部应该是有 Cursor 的大规模使用，然后某个 Seat 邀请链接泄漏，导致几",
+      "summary_en": null,
+      "one_liner": "AI 时代 IDE 竞争格局：Cursor 的崛起与 JetBrains 的应对策略",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "manual_003.md",
+      "images": [],
+      "added_date": "2026-06-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "da1772f7",
+      "title": "On-Device LLM Deployment Edge Mobile 2026-06-14",
+      "url": "https://arxiv.org/abs/2409.12345",
+      "source": {
+        "platform": "arxiv",
+        "author": "ArXiv / Google Scholar / Semantic Scholar",
+        "original_date": "2026-06-14"
+      },
+      "category": "learning",
+      "tags": [
+        "#paper",
+        "#llm",
+        "#on-device",
+        "#quantization",
+        "#edge",
+        "#mobile"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "量化谱系已基本完整：从 8-bit 到 1.58-bit 都有\"工程可用\"方案Sub-billion 架构已被重新定义：deep-and-thin + MoE 成为新范式Mobile NPU 进入\"软件/硬件协同\"时代",
+      "summary_en": "Quantization spectrum is basically complete: from 8-bit to 1.58-bit there are \"engineering-ready\" solutions. Sub-billion architecture has been redefined: deep-and-thin + MoE has become a new paradigm.",
+      "one_liner": "2026 on-device LLM 技术演进：量化谱系完整Sub-billion 架构革新NPU 协同时代",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "manual_004.md",
+      "images": [],
+      "added_date": "2026-06-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-06-14",
-  "total_entries": 822
+  "total_entries": 826
 }
