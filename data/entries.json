@@ -163,7 +163,8 @@
       "github_stars": null,
       "related": [],
       "local_path": "content/a2a_protocol_v1_0_2026_001.md",
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/a2a_protocol_v1_0_2026_001.md"
     },
     {
       "id": "mcp_framework_2026_001",
@@ -704,7 +705,8 @@
       "updated_date": "2026-06-15",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/claude_opus_47_mythos_2026_001.md"
     },
     {
       "id": "gpt55_release_2026_001",
@@ -739,7 +741,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/gpt55_release_2026_001.md"
     },
     {
       "id": "gpt_rosalind_2026_001",
@@ -8846,7 +8849,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/a09cdbbd.md"
     },
     {
       "id": "e7471b38",
