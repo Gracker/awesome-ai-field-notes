@@ -20614,7 +20614,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/45162268.md"
     },
     {
       "id": "57359913",
@@ -20645,7 +20646,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/57359913.md"
     },
     {
       "id": "27006455",
@@ -20676,7 +20678,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/27006455.md"
     },
     {
       "id": "02433458",
@@ -20707,7 +20710,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/02433458.md"
     },
     {
       "id": "bc223791",
@@ -23054,8 +23058,42 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "osworld_benchmark_2026_001",
+      "title": "AI Agent Benchmark & Evaluation OSWorld 2026-06-15",
+      "url": "https://github.com/username/osworld-benchmark-2026",
+      "source": {
+        "platform": "github",
+        "author": "AI Research Community",
+        "original_date": "2026-06-15"
+      },
+      "category": "agents",
+      "tags": [
+        "osworld",
+        "benchmark",
+        "cua",
+        "computer-use",
+        "evaluation",
+        "multi-agent",
+        "robustness"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "本文是关于 AI Agent Benchmark & Evaluation 的深度精读，主要聚焦于 OSWorld 和 CUA (Computer-Use Agent) 领域OSWorld 已成为 Computer-Use Agent 评测的事实标准，从 2023 年的模拟玩具环境发展到 2026 年的全平台真实 OS 评测矩阵文章详细分析了 CUA 训练范式从 SFT 反思长 CoT RLVR MCP 工具集成的演进历程，强调了鲁棒性作为 CUA deployment 的核心瓶颈2026 年标志着 multi-agent CUA 元年的到来，FSM 和 DAG 两大范式在 OSWorld 上均达到 SOTA同时，评测矩阵已成熟涵盖全平台 全能力，训练范式已收敛，多智能体成为必由之路，鲁棒性是 deployment 瓶颈，跨平台成为产品级要求",
+      "summary_en": "This is a comprehensive deep dive into AI Agent Benchmark & Evaluation, focusing on OSWorld and CUA (Computer-Use Agent) domains. OSWorld has become the de facto standard for Computer-Use Agent evaluation, evolving from 2023's simulated toy environment to 2026's full-platform real OS evaluation matrix. The paper analyzes the CUA training paradigm evolution from SFT reflective long CoT RLVR MCP tool integration, emphasizing robustness as the core bottleneck for CUA deployment. 2026 marks the dawn of multi-agent CUA, with FSM and DAG paradigms both achieving SOTA on OSWorld.",
+      "one_liner": "OSWorld谱系从模拟玩具进化到真实OS评测矩阵，2026年确立multi-agent CUA新范式",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/osworld_benchmark_2026_001.md",
+      "images": [],
+      "added_date": "2026-06-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-06-15",
-  "total_entries": 839
+  "last_updated": "2026-06-16",
+  "total_entries": 840
 }
