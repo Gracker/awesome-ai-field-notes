@@ -1,0 +1,13 @@
+## 中文翻译
+
+Keras 作者 François Chollet 的《Deep Learning with Python》第三版开始印刷，2 周内进书店，Amazon/Manning 同步预售。和前两版最大不同是同步上线完整免费网站版本，作者原话是 "不在乎影响销量，更多人能读到才重要"。第三版全面更新到 Keras 3 的多后端用法（JAX/PyTorch/TensorFlow 三家通吃），并覆盖到 Transformer 和扩散模型。深度学习入门圈目前最被推荐的教材，免费版本直接把门槛拉到零，作者亲自站台质量保证。对于想系统入门深度学习的工程师来说，如果只读一本深度学习教材，这本是首选。
+
+## English Original
+
+### @fchollet
+
+The 3rd edition of my book Deep Learning with Python is being printed right now, and will be in bookstores within 2 weeks. You can order it now from Amazon or from Manning.
+
+This time, we're also releasing the whole thing as a 100% free website.
+
+I don't care if it reduces book sales, I think it's the best deep learning intro around, and more people should be able to read it.

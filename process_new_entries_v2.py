@@ -18,77 +18,100 @@ from pipeline_utils import (
     normalize_url, clean_text, generate_entry_id
 )
 
-def extract_metadata(content):
-    """Extract metadata from the markdown header"""
+def extract_metadata_and_content(content):
+    """Extract metadata and main content from markdown file"""
     metadata = {}
     
-    # Extract ID
-    id_match = re.search(r'-\s*ID\s*:\s*(.+)', content)
-    if id_match:
-        metadata['id'] = id_match.group(1).strip()
-    
-    # Extract URL
-    url_match = re.search(r'-\s*原文链接\s*:\s*(.+)', content)
-    if url_match:
-        metadata['url'] = normalize_url(url_match.group(1).strip())
-    
-    # Extract author
-    author_match = re.search(r'-\s*作者\s*:\s*(.+)', content)
-    if author_match:
-        metadata['author'] = author_match.group(1).strip()
-    
-    # Extract date
-    date_match = re.search(r'-\s*日期\s*:\s*(.+)', content)
-    if date_match:
-        metadata['date'] = date_match.group(1).strip()
-    
-    # Extract category
-    category_match = re.search(r'-\s*分类\s*:\s*(.+)', content)
-    if category_match:
-        metadata['category'] = category_match.group(1).strip()
-    
-    # Extract tags
-    tags_match = re.search(r'-\s*标签\s*:\s*(.+)', content)
-    if tags_match:
-        tags_str = tags_match.group(1).strip()
-        metadata['tags'] = [tag.strip() for tag in tags_str.split(',')]
-    
-    # Extract quality score
-    score_match = re.search(r'-\s*质量评分\s*:\s*(\d+)', content)
-    if score_match:
-        metadata['quality_score'] = int(score_match.group(1))
-    
-    # Extract source
-    source_match = re.search(r'-\s*来源\s*:\s*(.+)', content)
-    if source_match:
-        source_text = source_match.group(1).strip()
-        # Try to determine platform from source
-        if '掘金' in source_text or 'juejin.cn' in source_text:
-            metadata['platform'] = 'blog'
-            metadata['source_platform'] = 'blog'
-        elif 'baoyu.io' in source_text:
-            metadata['platform'] = 'blog'
-            metadata['source_platform'] = 'blog'
+    # Extract title from first line
+    lines = content.split('\n')
+    if lines:
+        first_line = lines[0].strip()
+        if first_line.startswith('# '):
+            metadata['title'] = first_line[2:].strip()
         else:
-            metadata['platform'] = 'manual'
-            metadata['source_platform'] = 'manual'
+            metadata['title'] = first_line
+    
+    # Extract metadata from the YAML-like header section
+    for line in lines:
+        line = line.strip()
         
-        # Extract author from source if not already extracted
-        if '作者' not in source_text and not metadata.get('author'):
-            author_match = re.search(r'\((.+)\)', source_text)
+        # Extract URL
+        if '原文链接' in line or '链接' in line:
+            url_match = re.search(r'https?://[^\s\)]+', line)
+            if url_match:
+                metadata['url'] = normalize_url(url_match.group(0))
+        
+        # Extract author
+        if '作者' in line:
+            author_match = re.search(r'作者[:：]\s*(.+)', line)
             if author_match:
                 metadata['author'] = author_match.group(1).strip()
+            else:
+                # Try to extract from parentheses
+                paren_match = re.search(r'\(([^)]+)\)', line)
+                if paren_match:
+                    metadata['author'] = paren_match.group(1).strip()
+        
+        # Extract date
+        if '日期' in line or '发表时间' in line:
+            date_match = re.search(r'日期[:：]\s*(.+)', line)
+            if date_match:
+                metadata['date'] = date_match.group(1).strip()
+        
+        # Extract category
+        if '分类' in line:
+            category_match = re.search(r'分类[:：]\s*(.+)', line)
+            if category_match:
+                metadata['category'] = category_match.group(1).strip()
+        
+        # Extract tags
+        if '标签' in line:
+            tags_match = re.search(r'标签[:：]\s*(.+)', line)
+            if tags_match:
+                tags_str = tags_match.group(1).strip()
+                # Handle different tag formats
+                if ',' in tags_str:
+                    metadata['tags'] = [tag.strip() for tag in tags_str.split(',')]
+                else:
+                    metadata['tags'] = [tag.strip() for tag in tags_str.split()]
+        
+        # Extract quality score
+        if '质量评分' in line or '评分' in line:
+            score_match = re.search(r'评分[:：]\s*(\d+)', line)
+            if score_match:
+                metadata['quality_score'] = int(score_match.group(1))
+        
+        # Extract source information
+        if '来源' in line:
+            source_match = re.search(r'来源[:：]\s*(.+)', line)
+            if source_match:
+                source_text = source_match.group(1).strip()
+                metadata['source_platform'] = 'manual'
+                
+                # Determine platform from source
+                if '掘金' in source_text or 'juejin.cn' in source_text:
+                    metadata['source_platform'] = 'blog'
+                elif 'baoyu.io' in source_text:
+                    metadata['source_platform'] = 'blog'
+                elif 'x.com' in source_text or 'twitter.com' in source_text:
+                    metadata['source_platform'] = 'x'
+                elif 'github.com' in source_text:
+                    metadata['source_platform'] = 'github'
+                elif 'medium.com' in source_text:
+                    metadata['source_platform'] = 'blog'
     
     return metadata
 
-def extract_content(content):
+def extract_main_content(content):
     """Extract main content from markdown file"""
     # Split by --- and find the main content section
     sections = content.split('---')
     if len(sections) > 2:
         main_content = sections[2].strip()
     else:
-        main_content = content.strip()
+        # If no --- separator, find content after first few lines
+        lines = content.split('\n')
+        main_content = '\n'.join(lines[3:]).strip()
     
     # Remove the warning note at the end if present
     warning_note = "**⚠️ 重要说明**"
@@ -138,11 +161,9 @@ def process_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    # Extract metadata
-    metadata = extract_metadata(content)
-    
-    # Extract main content
-    main_content = extract_content(content)
+    # Extract metadata and content
+    metadata = extract_metadata_and_content(content)
+    main_content = extract_main_content(content)
     
     # Create ID if not present
     if 'id' not in metadata:
@@ -150,6 +171,14 @@ def process_file(file_path):
             title=metadata.get('title', ''),
             url=metadata.get('url', '')
         )
+    
+    # Set default values
+    if 'title' not in metadata:
+        metadata['title'] = Path(file_path).stem
+    if 'category' not in metadata:
+        metadata['category'] = 'uncategorized'
+    if 'quality_score' not in metadata:
+        metadata['quality_score'] = 3
     
     # Create entry
     entry = {
@@ -161,7 +190,7 @@ def process_file(file_path):
             'author': metadata.get('author'),
             'original_date': metadata.get('date')
         },
-        'category': metadata.get('category', 'uncategorized'),
+        'category': metadata.get('category'),
         'tags': metadata.get('tags', []),
         'source_type': 'article',
         'language': 'zh',
@@ -220,7 +249,7 @@ def main():
             entry['content'] = content
             
             new_entries.append(entry)
-            print(f"  New entry: {entry['title']} (ID: {entry['id']})")
+            print(f"  New entry: {entry['title']} (ID: {entry['id']}, Category: {entry['category']})")
             
         except Exception as e:
             print(f"Error processing {file_path.name}: {e}")
@@ -237,13 +266,14 @@ def main():
         save_entries_data(entries_data)
         print(f"Total entries: {len(entries_data['entries'])}")
         
-        # Save content files
+        # Save content files (they already exist, but just to confirm)
         for entry in added:
             content_file = Path(entry['local_path'])
-            with open(content_file, 'w', encoding='utf-8') as f:
-                f.write(entry.get('content', ''))
+            if not content_file.exists():
+                with open(content_file, 'w', encoding='utf-8') as f:
+                    f.write(entry.get('content', ''))
         
-        print("Content files saved successfully")
+        print("Processing completed successfully")
     else:
         print("No new entries to add")
 
