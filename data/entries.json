@@ -23248,8 +23248,196 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "1b76b4ed",
+      "title": "Amto (@XAMTO_AI) on X",
+      "url": "https://x.com/xamto_ai/status/2067019392383439165?s=12",
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "内容过短，待补充",
+      "summary_en": null,
+      "one_liner": "Amto (@XAMTO_AI) on X",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "score-pending",
+      "local_path": "Obsidian/Cubox/Amto (@XAMTO_AI) on X-2026-06-17.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-06-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f61c0852",
+      "title": "爆字节跳动绩效改革！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzYzOTgyNTUwMQ%3D%3D&mid=2247484649&idx=1&sn=934936f32fdeb797e23e875f8758e97d&chksm=f17a0ca43ebea4e69b83486febe02b1d0b74861733929e4af1c75b6d1fd70300176906e3adc2&mpshare=1&scene=1&srcid=0617KJiuIvUq87A55z2D6ZXv&sharer_shareinfo=413646ecfef3246700934bd870c4fb1b&sharer_shareinfo_first=413646ecfef3246700934bd870c4fb1b",
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "内容过短，待补充",
+      "summary_en": null,
+      "one_liner": "爆字节跳动绩效改革！",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "score-pending",
+      "local_path": "Obsidian/Cubox/爆字节跳动绩效改革！-2026-06-17.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-06-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6bbeb682",
+      "title": "Agentic coding and persistent returns to expertise \\ Anthropic",
+      "url": "https://www.anthropic.com/research/claude-code-expertise",
+      "source": {
+        "platform": "cubox",
+        "author": null,
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "内容过短，待补充",
+      "summary_en": null,
+      "one_liner": "Agentic coding and persistent returns to expertise \\ Anthropic",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "score-pending",
+      "local_path": "Obsidian/Cubox/Agentic coding and persistent returns to expertise - Anthropic-2026-06-17.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-06-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6eae3a5b",
+      "title": "...",
+      "url": null,
+      "source": {
+        "platform": "x",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "... - 来源：X/Twitter - 原文链接： - 作者：Cander (@Cander_zhu) - 日期：Mon Jun 15 12:37:18 +0000 2026 - 抓取时间：2026-06-17 12:38 - 互动数据：️ 69 🔄 3 🔖 159 ---",
+      "summary_en": null,
+      "one_liner": "...",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "score-pending",
+      "local_path": "Obsidian/X 文章/2026-06-17-1238-Cander_zhu-httpstcojPMNdZrx0O.md",
+      "images": [],
+      "added_date": "2026-06-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aa539244",
+      "title": "一份精选列表，收录 Twitter/X 上 Claude Code 和 Codex 用户分享的最佳 /loop/goal/schedule 实战命令，可直接复制使用...",
+      "url": null,
+      "source": {
+        "platform": "x",
+        "author": null,
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "一份精选列表，收录 Twitter/X 上 Claude Code 和 Codex 用户分享的最佳 /loop/goal/schedule 实战命令，可直接复制使用... - 来源：X/Twitter - 原文链接： - 作者：Geek Lite (@QingQ77) - 日期：Tue Jun 16 07:17:00 +0000 2026 - 抓取时间：2026-06-17 12:38 - 互动数据：️ 122 🔄 15 🔖 177 --- 一份精选列表，收录 Twitter/X 上 Claude Code 和 Codex 用户分享的最佳 /loop/goal/schedule 实战命令，可直接复制使用",
+      "summary_en": null,
+      "one_liner": "一份精选列表，收录 Twitter/X 上 Claude Code 和 Codex 用户分享的最佳 /loop/goal/schedule 实战命令，可直接复制使用.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Obsidian/X 文章/2026-06-17-1238-QingQ77-一份精选列表收录-TwitterX-上.md",
+      "images": [],
+      "added_date": "2026-06-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5523b965",
+      "title": "高能干货这个视频将会颠覆你对英语学习的认知总述阅读篇",
+      "url": null,
+      "source": {
+        "platform": "x",
+        "author": null,
+        "original_date": null
+      },
+      "category": "learning",
+      "tags": [],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "高能干货这个视频将会颠覆你对英语学习的认知总述阅读篇 - 来源：X/Twitter - 原文链接： - 作者：Kevin Ma (@kevinma_dev_zh) - 日期：Wed Sep 24 10:18:49 +0000 2025 - 抓取时间：2026-06-17 12:38 - 互动数据：️ 306 🔄 63 🔖 391 --- 高能干货这个视频将会颠覆你对英语学习的认知总述阅读篇",
+      "summary_en": null,
+      "one_liner": "高能干货这个视频将会颠覆你对英语学习的认知总述阅读篇 - 来源：X/Twitter - 原文链接： - 作者：Kevin Ma (@kevinma_dev_zh) - 日期：Wed Sep 24 10:18:49 +0000 2025 - 抓取时间：2026-06-17 12:3...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Obsidian/X 文章/2026-06-17-1238-kevinma_dev_zh-高能干货这个视频将会颠覆你对英语学习的认.md",
+      "images": [],
+      "added_date": "2026-06-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6eae3a5b",
+      "title": "...",
+      "url": null,
+      "source": {
+        "platform": "x",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "... - 来源：X/Twitter - 原文链接： - 作者：Kevin Ma (@kevinma_dev_zh) - 日期：Mon Jun 15 16:56:19 +0000 2026 - 抓取时间：2026-06-17 12:38 - 互动数据：️ 96 🔄 12 🔖 178 ---",
+      "summary_en": null,
+      "one_liner": "...",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "score-pending",
+      "local_path": "Obsidian/X 文章/2026-06-17-1238-kevinma_dev_zh-httpstcoaV0bA7Upse.md",
+      "images": [],
+      "added_date": "2026-06-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-06-17",
-  "total_entries": 847
+  "total_entries": 854
 }
