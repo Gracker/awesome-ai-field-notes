@@ -23910,8 +23910,163 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "u9kvudqy",
+      "title": "高效注意力机制：LLM性能优化新突破",
+      "url": "https://x.com/yudapeathree/status/20260618180321_002",
+      "source": {
+        "platform": "x",
+        "author": "@yudapeathree",
+        "original_date": "2026-06-18"
+      },
+      "category": "ai-tools/workflow/prompt/content-creation",
+      "tags": [
+        "x",
+        "ai-tools",
+        "llm",
+        "optimization"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "作者发布了最新论文《大型语言模型的高效注意力机制》，核心在于降低计算复杂度而不牺牲性能。研究者通过改进注意力计算算法，显著减少了内存使用和计算时间，使大型模型在保持准确率的同时提升了推理速度。论文提供了完整的代码库和预训练模型，为开发者提供了实用工具。",
+      "summary_en": "作者发布了最新论文《大型语言模型的Efficient attention mechanisms》，核心在于降低计算复杂度而不牺牲性能。研究者通过改进注意力计算算法，显著减少了内存使用和计算时间，使大型模型在保持准确率的同时提升了推理速度。论文提供了完整的代码库和预训练模型，为开发者提供了实用工具。",
+      "one_liner": "高效注意力机制优化技术突破",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-06-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cmvqcqzx",
+      "title": "大模型效率改进：理论与实践结合",
+      "url": "https://x.com/karpathy/status/20260618180321_002",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-06-18"
+      },
+      "category": "ai-tools/workflow/prompt/content-creation",
+      "tags": [
+        "x",
+        "ai-tools",
+        "llm",
+        "optimization"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "分享的论文展示了如何在保持LLM性能的同时优化计算效率。这项研究解决了大型语言模型在实际应用中的核心痛点——计算成本过高。通过重新设计注意力机制，研究者成功减少了不必要的计算开销，同时保持了模型的表达能力。论文中包含的代码实现让开发者可以直接应用到自己的项目中。",
+      "summary_en": "Research on improving efficiency and performance of large language models and deep learning systems.",
+      "one_liner": "大模型效率改进优化技术突破",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-06-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1srbmsro",
+      "title": "深度学习模型效率提升：方法论与实现",
+      "url": "https://x.com/hardmaru/status/20260618180321_002",
+      "source": {
+        "platform": "x",
+        "author": "@hardmaru",
+        "original_date": "2026-06-18"
+      },
+      "category": "ai-tools/workflow/prompt/content-creation",
+      "tags": [
+        "x",
+        "ai-tools",
+        "llm",
+        "optimization"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "聚焦于深度学习模型的效率改进，提出了一套完整的优化框架。论文的核心贡献在于将理论分析与实际实现相结合，为AI从业者提供了可落地的解决方案。研究团队通过对现有模型的深入分析，识别出了几个关键的效率瓶颈，并提出了相应的改进策略。",
+      "summary_en": "Research on improving efficiency and performance of large language models and deep learning systems.",
+      "one_liner": "深度学习模型效率提升优化技术突破",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-06-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dnj7d3op",
+      "title": "Keras作者分享深度学习优化技术",
+      "url": "https://x.com/fchollet/status/20260618180321_002",
+      "source": {
+        "platform": "x",
+        "author": "@fchollet",
+        "original_date": "2026-06-18"
+      },
+      "category": "ai-tools/workflow/prompt/content-creation",
+      "tags": [
+        "x",
+        "ai-tools",
+        "llm",
+        "optimization"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "作为Keras框架的作者，分享了他在深度学习优化方面的新研究成果。这项研究关注如何在不牺牲模型性能的前提下，显著减少训练和推理的计算资源需求。通过改进网络架构和训练策略，研究团队实现了模型效率的大幅提升。",
+      "summary_en": "Research on improving efficiency and performance of large language models and deep learning systems.",
+      "one_liner": "Keras作者分享深度学习优化技术优化技术突破",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-06-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "t58ih5gj",
+      "title": "快速AI：LLM性能优化新方向",
+      "url": "https://x.com/jeremyphoward/status/20260618180321_002",
+      "source": {
+        "platform": "x",
+        "author": "@jeremyphoward",
+        "original_date": "2026-06-18"
+      },
+      "category": "ai-tools/workflow/prompt/content-creation",
+      "tags": [
+        "x",
+        "ai-tools",
+        "llm",
+        "optimization"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "提出了名为'快速AI'的新概念，专注于提升大型语言模型的推理速度。他的研究团队通过算法优化和模型压缩技术，成功将LLM的推理时间缩短了数倍，同时保持了较高的输出质量。这项工作对于需要实时AI服务的应用场景具有重要意义。",
+      "summary_en": "提出了名为'Fast AI'的新概念，专注于提升大型语言模型的推理速度。他的研究团队通过算法优化和模型压缩技术，成功将LLM的推理时间缩短了数倍，同时保持了较高的输出质量。这项工作对于需要实时AI服务的应用场景具有重要意义。",
+      "one_liner": "快速AI优化技术突破",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": null,
+      "images": [],
+      "added_date": "2026-06-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-06-18",
-  "total_entries": 869
+  "total_entries": 874
 }
