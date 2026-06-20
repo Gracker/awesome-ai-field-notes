@@ -1,5 +1,157 @@
 # Changelog
 
+
+## 2026-06-15 ~ 2026-06-21
+
+> 上次变更日志: 2026-06-14 04:35 (commit 27bd3cf, 822 条) → 本次: 895 条 (**+73**)
+> 基线快照: `27bd3cf:data/entries.json` (2026-06-13 23:34)
+
+### 📈 新增 (73)
+
+**🆕 高质量新增 (⭐≥4, 14 条)**
+
+- [OpenAI o3 在 ARC-AGI 拿到 75.7%](https://x.com/fchollet/status/1870169764762710376) — models ⭐⭐⭐⭐⭐ (2026-06-16)
+- [Karpathy 造词 "vibe coding"](https://x.com/karpathy/status/1886192184808149383) — coding ⭐⭐⭐⭐⭐ (2026-06-16)
+- [什么 AI 写 Android 最好用？官方做了一个基准测试排名](https://juejin.cn/post/7614897667961143347) — models ⭐⭐⭐⭐ (2026-06-14)
+- [BBVA puts AI at the core of banking with OpenAI](https://openai.com/index/bbva) — industry ⭐⭐⭐⭐ (2026-06-15)
+- [创始人手册：打造 AI 原生初创公司](https://baoyu.io/translations/2026-05-16/the-founders-playbook-building-an-ai-native-startup) — industry ⭐⭐⭐⭐ (2026-06-15)
+- [New OpenAI Academy courses for the next era of work](https://openai.com/index/academy-courses-applying-ai-at-work) — learning ⭐⭐⭐⭐ (2026-06-15)
+- [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona) — industry ⭐⭐⭐⭐ (2026-06-15)
+- [9 demos of Gemini Omni and Gemini 3.5 in action](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos) — models ⭐⭐⭐⭐ (2026-06-15)
+- [Welcome to the agentic Gemini era](https://blog.google/innovation-and-ai/sundar-pichai-io-2026) — models ⭐⭐⭐⭐ (2026-06-15)
+- [为啥 Codex 还不推出类似 Codex Design 的产品？](https://baoyu.io/blog/2026-06-13/codex-design-model-gap) — uncategorized ⭐⭐⭐⭐ (2026-06-15)
+- [Statement on the US government directive to suspend access to Fable 5 and Mythos 5](https://www.anthropic.com/news/fable-mythos-access) — industry ⭐⭐⭐⭐ (2026-06-19)
+- [Using AI to help physicians diagnose rare genetic diseases affecting children](https://openai.com/index/diagnose-rare-childhood-diseases) — industry ⭐⭐⭐⭐ (2026-06-19)
+- [Project Fetch: Phase two](https://www.anthropic.com/research/project-fetch-phase-two) — agents ⭐⭐⭐⭐ (2026-06-19)
+- [Bringing the latest Gemini models to Apple developers](https://blog.google/innovation-and-ai/technology/developers-tools/bringing-gemini-models-to-apple-developers) — models ⭐⭐⭐⭐ (2026-06-19)
+
+**📝 普通新增 (⭐<4, 44 条)**
+
+- [Android 17 有什么需要适配的？2026 Android 禁止侧载又是什么？](https://juejin.cn/post/7610233341305389099) — coding ⭐⭐ (2026-06-14)
+- [On-Device LLM Deployment Edge Mobile 2026-06-14](https://arxiv.org/abs/2409.12345) — uncategorized ⭐⭐⭐ (2026-06-14)
+- [你还用 IDE 吗？ AI 狂欢时代下 Cursor 慌了， JetBrains 等 IDE 的未来是什么？](https://juejin.cn/post/7615060828946579491) — agents ⭐⭐⭐ (2026-06-14)
+- [Did Anthropic ask for this?](https://www.verysane.ai/p/did-anthropic-ask-for-this) — industry ⭐⭐⭐ (2026-06-15)
+- [How Preply combines AI and human tutors to personalize learning](https://openai.com/index/preply) — industry ⭐⭐⭐ (2026-06-15)
+- [How an astrophysicist uses Codex to help simulate black holes](https://openai.com/index/using-codex-to-simulate-black-holes) — coding ⭐⭐⭐ (2026-06-15)
+- [Not everyone is using AI for everything](https://gabrielweinberg.com/p/people-are-consuming-ai-like-they) — uncategorized ⭐⭐⭐ (2026-06-15)
+- [Rio de Janeiro's homegrown LLM appears to be a merge of an existing model](https://github.com/nex-agi/Nex-N2/issues/4) — models ⭐⭐⭐ (2026-06-15)
+- [The latest AI news we announced in May 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026) — industry ⭐⭐⭐ (2026-06-15)
+- [AI Agent Benchmark & Evaluation OSWorld 2026-06-15](https://github.com/username/osworld-benchmark-2026) — agents ⭐⭐⭐ (2026-06-16)
+- [Chollet 拆 AI 芯片供应链的不可替代点](https://x.com/fchollet/status/1960080110335480202) — uncategorized ⭐⭐⭐ (2026-06-16)
+- [Chollet《Deep Learning with Python》第三版免费上线](https://x.com/fchollet/status/1968676861430706451) — uncategorized ⭐⭐⭐ (2026-06-16)
+- [Karpathy：Agency 比 Intelligence 更稀缺](https://x.com/karpathy/status/1894099637218545984) — uncategorized ⭐⭐⭐ (2026-06-16)
+- [Sakana AI 的 The AI Scientist 登上 Nature](https://x.com/hardmaru/status/2036841736702767135) — uncategorized ⭐⭐⭐ (2026-06-16)
+- [吴恩达推出《AI Prompting for Everyone》新课](https://x.com/AndrewYNg/status/2049886895530967534) — uncategorized ⭐⭐⭐ (2026-06-16)
+- [Agentic coding and persistent returns to expertise \ Anthropic](https://www.anthropic.com/research/claude-code-expertise) — agents ⭐⭐⭐ (2026-06-17)
+- [Amto (@XAMTO_AI) on X](https://x.com/xamto_ai/status/2067019392383439165?s=12) — uncategorized ⭐⭐⭐ (2026-06-17)
+- [爆字节跳动绩效改革！](https://mp.weixin.qq.com/s?__biz=MzYzOTgyNTUwMQ%3D%3D&mid=2247484649&idx=1&sn=934936f32fdeb797e23e875f8758e97d&chksm=f17a0ca43ebea4e69b83486febe02b1d0b74861733929e4af1c75b6d1fd70300176906e3adc2&mpshare=1&scene=1&srcid=0617KJiuIvUq87A55z2D6ZXv&sharer_shareinfo=413646ecfef3246700934bd870c4fb1b&sharer_shareinfo_first=413646ecfef3246700934bd870c4fb1b) — uncategorized ⭐⭐⭐ (2026-06-17)
+- [4 ways researchers are collaborating with Co-Scientist to solve big problems](https://blog.google/innovation-and-ai/technology/research/co-scientist-research-problems) — learning ⭐⭐⭐ (2026-06-18)
+- [A robot is sprinting towards you. Do you want it running on Claude or Grok?](https://openrouter.ai/blog/insights/royale-last-agent-standing) — agents ⭐⭐⭐ (2026-06-18)
+- [Adam (YC W25) Open-Source AI CAD](https://github.com/Adam-CAD/CADAM) — coding ⭐⭐⭐ (2026-06-18)
+- [Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem) — industry ⭐⭐⭐ (2026-06-18)
+- [Claude Fable 5 and Claude Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) — models ⭐⭐⭐ (2026-06-18)
+- [Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8) — models ⭐⭐⭐ (2026-06-18)
+- [GLM-5.2 is the new leading open weights model on Artificial Analysis](https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index) — models ⭐⭐⭐ (2026-06-18)
+- [How we run Firecracker VMs inside EC2 and start browsers in less than 1s](https://browser-use.com/posts/firecracker-browser-infra) — infra ⭐⭐⭐ (2026-06-18)
+- [Leaked financial docs show OpenAI is losing billions of dollars a year](https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year) — industry ⭐⭐⭐ (2026-06-18)
+- [Mapping AI-enabled cyber threats: Insights from the LLM ATT&CK Navigator](https://www.anthropic.com/research/attack-navigator) — learning ⭐⭐⭐ (2026-06-18)
+- [Measuring LLMs' impact on N-day exploits](https://www.anthropic.com/research/n-days) — learning ⭐⭐⭐ (2026-06-18)
+- [New research shows how AMIE, our medical AI, could help manage health conditions](https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature) — learning ⭐⭐⭐ (2026-06-18)
+- [Save time and grow your business with new Gemini tools](https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses) — industry ⭐⭐⭐ (2026-06-18)
+- [The founder's playbook: Building an AI-native startup](https://claude.com/blog/the-founders-playbook) — industry ⭐⭐⭐ (2026-06-18)
+- [Using AI to improve a challenging reaction in medicinal chemistry](https://openai.com/index/ai-chemist-improves-reaction) — learning ⭐⭐⭐ (2026-06-18)
+- [A new experiment brings better group meetings to Google Beam](https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings) — industry ⭐⭐⭐ (2026-06-19)
+- [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt) — models ⭐⭐⭐ (2026-06-19)
+- [Introducing Claude Corps](https://www.anthropic.com/news/claude-corps) — industry ⭐⭐⭐ (2026-06-19)
+- [Introducing LifeSciBench](https://openai.com/index/introducing-life-sci-bench) — infra ⭐⭐⭐ (2026-06-19)
+- [Launch HN: TesterArmy (YC P26) Agents that test web and mobile apps](https://tester.army) — agents ⭐⭐⭐ (2026-06-19)
+- [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls) — industry ⭐⭐⭐ (2026-06-19)
+- [Results from the first Anthropic Public Record](https://www.anthropic.com/news/anthropic-public-record) — industry ⭐⭐⭐ (2026-06-19)
+- [See what 3 builders are making with Gemma 4](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4-builders) — models ⭐⭐⭐ (2026-06-19)
+- [TCS and Anthropic partner to bring Claude to regulated industries](https://www.anthropic.com/news/tcs-anthropic-partnership) — industry ⭐⭐⭐ (2026-06-19)
+- [为什么我不凭感觉编程](https://baoyu.io/translations/2026-05-17/i-dont-vibe-code) — coding ⭐⭐⭐ (2026-06-19)
+- [为什么资深开发者讲不清自己的专业能力](https://baoyu.io/translations/2026-05-12/why-senior-developers-fail-to-communicate-their-expertise) — coding ⭐⭐⭐ (2026-06-19)
+
+**⚠️ Synthetic URL 条目 (13 条, 疑似采集噪声)**
+
+> URL 含 `status/20260XXXX_002` 模式，与上周「高效注意力机制」批次同源，疑似模板化生成的占位链接，待人工核验。
+
+- [Keras作者分享深度学习优化技术](https://x.com/fchollet/status/20260618180321_002) — ai-tools/workflow/prompt/content-creation ⭐⭐⭐⭐ (2026-06-18)
+- [大模型效率改进：理论与实践结合](https://x.com/karpathy/status/20260618180321_002) — ai-tools/workflow/prompt/content-creation ⭐⭐⭐⭐ (2026-06-18)
+- [快速AI：LLM性能优化新方向](https://x.com/jeremyphoward/status/20260618180321_002) — ai-tools/workflow/prompt/content-creation ⭐⭐⭐⭐ (2026-06-18)
+- [深度学习模型效率提升：方法论与实现](https://x.com/hardmaru/status/20260618180321_002) — ai-tools/workflow/prompt/content-creation ⭐⭐⭐⭐ (2026-06-18)
+- [高效注意力机制：LLM性能优化新突破](https://x.com/yudapeathree/status/20260618180321_002) — ai-tools/workflow/prompt/content-creation ⭐⭐⭐⭐ (2026-06-18)
+- [@AndrewYNg 发布高效注意力机制论文](https://x.com/AndrewYNg/status/20260620180404_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-20)
+- [@fchollet 发布高效注意力机制论文](https://x.com/fchollet/status/20260620180404_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-20)
+- [@gdb 发布高效注意力机制论文](https://x.com/gdb/status/20260620180404_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-20)
+- [@hardmaru 发布高效注意力机制论文](https://x.com/hardmaru/status/20260620180404_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-20)
+- [@jeremyphoward 发布高效注意力机制论文](https://x.com/jeremyphoward/status/20260620180404_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-20)
+- [@karpathy 发布高效注意力机制论文](https://x.com/karpathy/status/20260620180404_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-20)
+- [@ylecun 发布高效注意力机制论文](https://x.com/ylecun/status/20260620180404_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-20)
+- [@yudapeathree 发布高效注意力机制论文](https://x.com/yudapeathree/status/20260620180404_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-20)
+
+**📝 无链接条目 (2 条, 待人工补全)**
+
+- 一份精选列表，收录 Twitter/X 上 Claude Code 和 Codex 用户分享的最佳 /loop/goal/schedule 实战命令，可直接复制使用... (aa539244) — coding ⭐⭐⭐
+- 高能干货这个视频将会颠覆你对英语学习的认知总述阅读篇 (5523b965) — learning ⭐⭐⭐
+
+> **🕐 跨期说明**: 4 条 `added_date=2026-06-14` 的条目（位于上周日 23:41 快照与上周变更日志 04:35 之间），已计入上方各分级。
+
+### 📦 归档 (0)
+
+> 本周无条目被归档。
+
+### ✏️ 评分调整 (5)
+
+> 来源：dedup 自动重评（2026-06-17 批量）
+
+- [Gemini 3.1 Pro Preview发布：专为复杂工作流编排设计的新一代模型](https://blog.google/technology/ai/gemini-3-1-pro-preview-2026) — 4→3↓ (uncategorized)
+- [Gemini CLI v0.39.0发布：技能管理与架构增强的重大突破](https://geminicli.com/release-notes/v0-39-0) — 4→3↓ (uncategorized)
+- [MCP Dev Summit North America 2026: AI系统互操作性的里程碑](https://modelcontextprotocol.io/dev-summit-2026) — 4→3↓ (uncategorized)
+- [Microsoft Agent Framework 1.0正式发布：MCP集成的企业级代理开发平台](https://microsoft.com/ai/agent-framework-1-0) — 4→3↓ (uncategorized)
+- [什么 AI 写 Android 最好用？官方做了一个基准测试排名](https://juejin.cn/post/7614897667961143347) — 3→4↑ (uncategorized)
+
+### 🔀 分类变更 (4)
+
+> 来源：dedup 自动归一化（2026-06-17 批量）
+
+- [Gemini 3.1 Pro Preview发布：专为复杂工作流编排设计的新一代模型](https://blog.google/technology/ai/gemini-3-1-pro-preview-2026) — models → uncategorized
+- [Gemini CLI v0.39.0发布：技能管理与架构增强的重大突破](https://geminicli.com/release-notes/v0-39-0) — coding-agents/tools → uncategorized
+- [MCP Dev Summit North America 2026: AI系统互操作性的里程碑](https://modelcontextprotocol.io/dev-summit-2026) — agents/frameworks → uncategorized
+- [Microsoft Agent Framework 1.0正式发布：MCP集成的企业级代理开发平台](https://microsoft.com/ai/agent-framework-1-0) — agents/frameworks → uncategorized
+
+### 📊 统计
+
+- 总条目: 822 → 895 (**+73**)
+- 活跃条目: 628 → 697 (+69)
+- score-pending: 194 → 198 (+4)
+- 平均质量: 2.98 → 3.02 (+0.04)
+
+### 📈 分类变更分布
+
+| 分类 | 新增 | 评分≥4 | 平均分 |
+|------|------|--------|--------|
+| uncategorized | +18 | 9 | 3.94 |
+| industry | +17 | 5 | 3.29 |
+| models | +11 | 5 | 3.55 |
+| coding | +7 | 1 | 3.14 |
+| learning | +7 | 1 | 3.14 |
+| agents | +6 | 1 | 3.17 |
+| ai-tools/workflow/prompt/content-creation | +5 | 5 | 4.00 |
+| infra | +2 | 0 | 3.00 |
+
+### 🏆 本周最高分新增
+
+- ⭐⭐⭐⭐⭐ [OpenAI o3 在 ARC-AGI 拿到 75.7%](https://x.com/fchollet/status/1870169764762710376) — models
+- ⭐⭐⭐⭐⭐ [Karpathy 造词 "vibe coding"](https://x.com/karpathy/status/1886192184808149383) — coding
+
+### ⚠️ 数据质量提示
+
+- 本周 Synthetic URL 条目: **13 条** (上周 38 条 → 本周 13 条，下降 ↓)
+- 本周无链接条目: **2 条**（待人工补全 URL）
+- 建议下个 dedup 周维护时优先处理上述噪声。
+
+
 ## 2026-06-08 ~ 2026-06-14
 
 ### 📈 新增 (89)
