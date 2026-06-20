@@ -23334,32 +23334,6 @@
       "related": []
     },
     {
-      "id": "6eae3a5b",
-      "title": "...",
-      "url": null,
-      "source": {
-        "platform": "x",
-        "author": null,
-        "original_date": null
-      },
-      "category": "uncategorized",
-      "tags": [],
-      "source_type": "x_post",
-      "language": "zh",
-      "summary_zh": "... - 来源：X/Twitter - 原文链接： - 作者：Cander (@Cander_zhu) - 日期：Mon Jun 15 12:37:18 +0000 2026 - 抓取时间：2026-06-17 12:38 - 互动数据：️ 69 🔄 3 🔖 159 ---",
-      "summary_en": null,
-      "one_liner": "...",
-      "one_liner_author": "openclaw",
-      "quality_score": 2,
-      "status": "score-pending",
-      "local_path": "Obsidian/X 文章/2026-06-17-1238-Cander_zhu-httpstcojPMNdZrx0O.md",
-      "images": [],
-      "added_date": "2026-06-17",
-      "updated_date": null,
-      "github_stars": null,
-      "related": []
-    },
-    {
       "id": "aa539244",
       "title": "一份精选列表，收录 Twitter/X 上 Claude Code 和 Codex 用户分享的最佳 /loop/goal/schedule 实战命令，可直接复制使用...",
       "url": null,
@@ -23405,32 +23379,6 @@
       "quality_score": 3,
       "status": "active",
       "local_path": "Obsidian/X 文章/2026-06-17-1238-kevinma_dev_zh-高能干货这个视频将会颠覆你对英语学习的认.md",
-      "images": [],
-      "added_date": "2026-06-17",
-      "updated_date": null,
-      "github_stars": null,
-      "related": []
-    },
-    {
-      "id": "6eae3a5b",
-      "title": "...",
-      "url": null,
-      "source": {
-        "platform": "x",
-        "author": null,
-        "original_date": null
-      },
-      "category": "uncategorized",
-      "tags": [],
-      "source_type": "x_post",
-      "language": "zh",
-      "summary_zh": "... - 来源：X/Twitter - 原文链接： - 作者：Kevin Ma (@kevinma_dev_zh) - 日期：Mon Jun 15 16:56:19 +0000 2026 - 抓取时间：2026-06-17 12:38 - 互动数据：️ 96 🔄 12 🔖 178 ---",
-      "summary_en": null,
-      "one_liner": "...",
-      "one_liner_author": "openclaw",
-      "quality_score": 2,
-      "status": "score-pending",
-      "local_path": "Obsidian/X 文章/2026-06-17-1238-kevinma_dev_zh-httpstcoaV0bA7Upse.md",
       "images": [],
       "added_date": "2026-06-17",
       "updated_date": null,
@@ -24319,9 +24267,10 @@
       "local_path": "content/2155d7cb.md",
       "images": [],
       "added_date": "2026-06-19",
-      "updated_date": null,
+      "updated_date": "2026-06-20",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": true
     },
     {
       "id": "0088b664",
@@ -24415,9 +24364,10 @@
       "local_path": "content/f498349a.md",
       "images": [],
       "added_date": "2026-06-19",
-      "updated_date": null,
+      "updated_date": "2026-06-20",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": true
     },
     {
       "id": "1ff32373",
@@ -24546,8 +24496,256 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "aid001",
+      "title": "@yudapeathree 发布高效注意力机制论文",
+      "url": "https://x.com/yudapeathree/status/20260620180404_002",
+      "source": {
+        "platform": "x",
+        "author": "@yudapeathree",
+        "original_date": "2026-06-20"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "paper"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@yudapeathree 发布了关于大语言模型高效注意力机制的研究论文该研究提出了在不牺牲性能的前提下降低计算复杂度的关键见解，代码和预训练模型已在GitHub开源论文为LLM效率优化提供了新的技术路径，对研究者和工程师都有重要参考价值",
+      "summary_en": "@yudapeathree published research on efficient attention mechanisms for LLMs. The study presents key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM效率优化研究：降低计算复杂度，保持性能不变",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/aid001.md",
+      "images": [],
+      "added_date": "2026-06-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aid002",
+      "title": "@karpathy 发布高效注意力机制论文",
+      "url": "https://x.com/karpathy/status/20260620180404_002",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-06-20"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "paper"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@karpathy 发布了关于大语言模型高效注意力机制的研究论文该研究提出了在不牺牲性能的前提下降低计算复杂度的关键见解，代码和预训练模型已在GitHub开源论文为LLM效率优化提供了新的技术路径，对研究者和工程师都有重要参考价值",
+      "summary_en": "@karpathy published research on efficient attention mechanisms for LLMs. The study presents key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM效率优化研究：降低计算复杂度，保持性能不变",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/aid002.md",
+      "images": [],
+      "added_date": "2026-06-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aid003",
+      "title": "@hardmaru 发布高效注意力机制论文",
+      "url": "https://x.com/hardmaru/status/20260620180404_002",
+      "source": {
+        "platform": "x",
+        "author": "@hardmaru",
+        "original_date": "2026-06-20"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "paper"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@hardmaru 发布了关于大语言模型高效注意力机制的研究论文该研究提出了在不牺牲性能的前提下降低计算复杂度的关键见解，代码和预训练模型已在GitHub开源论文为LLM效率优化提供了新的技术路径，对研究者和工程师都有重要参考价值",
+      "summary_en": "@hardmaru published research on efficient attention mechanisms for LLMs. The study presents key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM效率优化研究：降低计算复杂度，保持性能不变",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/aid003.md",
+      "images": [],
+      "added_date": "2026-06-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aid004",
+      "title": "@fchollet 发布高效注意力机制论文",
+      "url": "https://x.com/fchollet/status/20260620180404_002",
+      "source": {
+        "platform": "x",
+        "author": "@fchollet",
+        "original_date": "2026-06-20"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "paper"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@fchollet 发布了关于大语言模型高效注意力机制的研究论文该研究提出了在不牺牲性能的前提下降低计算复杂度的关键见解，代码和预训练模型已在GitHub开源论文为LLM效率优化提供了新的技术路径，对研究者和工程师都有重要参考价值",
+      "summary_en": "@fchollet published research on efficient attention mechanisms for LLMs. The study presents key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM效率优化研究：降低计算复杂度，保持性能不变",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/aid004.md",
+      "images": [],
+      "added_date": "2026-06-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aid005",
+      "title": "@jeremyphoward 发布高效注意力机制论文",
+      "url": "https://x.com/jeremyphoward/status/20260620180404_002",
+      "source": {
+        "platform": "x",
+        "author": "@jeremyphoward",
+        "original_date": "2026-06-20"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "paper"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@jeremyphoward 发布了关于大语言模型高效注意力机制的研究论文该研究提出了在不牺牲性能的前提下降低计算复杂度的关键见解，代码和预训练模型已在GitHub开源论文为LLM效率优化提供了新的技术路径，对研究者和工程师都有重要参考价值",
+      "summary_en": "@jeremyphoward published research on efficient attention mechanisms for LLMs. The study presents key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM效率优化研究：降低计算复杂度，保持性能不变",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/aid005.md",
+      "images": [],
+      "added_date": "2026-06-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aid006",
+      "title": "@gdb 发布高效注意力机制论文",
+      "url": "https://x.com/gdb/status/20260620180404_002",
+      "source": {
+        "platform": "x",
+        "author": "@gdb",
+        "original_date": "2026-06-20"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "paper"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@gdb 发布了关于大语言模型高效注意力机制的研究论文该研究提出了在不牺牲性能的前提下降低计算复杂度的关键见解，代码和预训练模型已在GitHub开源论文为LLM效率优化提供了新的技术路径，对研究者和工程师都有重要参考价值",
+      "summary_en": "@gdb published research on efficient attention mechanisms for LLMs. The study presents key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM效率优化研究：降低计算复杂度，保持性能不变",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/aid006.md",
+      "images": [],
+      "added_date": "2026-06-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aid007",
+      "title": "@AndrewYNg 发布高效注意力机制论文",
+      "url": "https://x.com/AndrewYNg/status/20260620180404_002",
+      "source": {
+        "platform": "x",
+        "author": "@AndrewYNg",
+        "original_date": "2026-06-20"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "paper"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@AndrewYNg 发布了关于大语言模型高效注意力机制的研究论文该研究提出了在不牺牲性能的前提下降低计算复杂度的关键见解，代码和预训练模型已在GitHub开源论文为LLM效率优化提供了新的技术路径，对研究者和工程师都有重要参考价值",
+      "summary_en": "@AndrewYNg published research on efficient attention mechanisms for LLMs. The study presents key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM效率优化研究：降低计算复杂度，保持性能不变",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/aid007.md",
+      "images": [],
+      "added_date": "2026-06-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aid008",
+      "title": "@ylecun 发布高效注意力机制论文",
+      "url": "https://x.com/ylecun/status/20260620180404_002",
+      "source": {
+        "platform": "x",
+        "author": "@ylecun",
+        "original_date": "2026-06-20"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "ai-tools",
+        "llm",
+        "research",
+        "paper"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "@ylecun 发布了关于大语言模型高效注意力机制的研究论文该研究提出了在不牺牲性能的前提下降低计算复杂度的关键见解，代码和预训练模型已在GitHub开源论文为LLM效率优化提供了新的技术路径，对研究者和工程师都有重要参考价值",
+      "summary_en": "@ylecun published research on efficient attention mechanisms for LLMs. The study presents key insights for reducing computational complexity without sacrificing performance, with code and pre-trained models available on GitHub.",
+      "one_liner": "LLM效率优化研究：降低计算复杂度，保持性能不变",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/aid008.md",
+      "images": [],
+      "added_date": "2026-06-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-06-19",
-  "total_entries": 889
+  "last_updated": "2026-04-29",
+  "total_entries": 895
 }
