@@ -24744,8 +24744,386 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "19923856",
+      "title": "@yudapeathree 发布 LLM 注意力机制优化研究",
+      "url": "https://x.com/yudapeathree/status/20260621180158_002",
+      "source": {
+        "platform": "x",
+        "author": "@yudapeathree",
+        "original_date": "2026-06-21"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "llm",
+        "attention",
+        "research"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "知名AI研究者@yudapeathree发布了关于大型语言模型高效注意力机制的最新研究研究核心在不牺牲性能的前提下降低计算复杂度，同时提供了开源的代码和预训练模型这项研究对于提升LLM推理效率具有重要意义，特别适合资源受限场景的AI应用部署",
+      "summary_en": "@yudapeathree published new research on efficient attention mechanisms for Large Language Models, reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "@yudapeathree推出LLM注意力机制优化研究，降低计算复杂度保持性能",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/19923856.md",
+      "images": [],
+      "added_date": "2026-06-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "66624235",
+      "title": "@karpathy 发布 LLM 注意力机制优化研究",
+      "url": "https://x.com/karpathy/status/20260621180158_002",
+      "source": {
+        "platform": "x",
+        "author": "@karpathy",
+        "original_date": "2026-06-21"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "llm",
+        "attention",
+        "research"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "知名AI研究者@karpathy发布了关于大型语言模型高效注意力机制的最新研究研究核心在不牺牲性能的前提下降低计算复杂度，同时提供了开源的代码和预训练模型这项研究对于提升LLM推理效率具有重要意义，特别适合资源受限场景的AI应用部署",
+      "summary_en": "@karpathy published new research on efficient attention mechanisms for Large Language Models, reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "@karpathy推出LLM注意力机制优化研究，降低计算复杂度保持性能",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/66624235.md",
+      "images": [],
+      "added_date": "2026-06-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "29869883",
+      "title": "@hardmaru 发布 LLM 注意力机制优化研究",
+      "url": "https://x.com/hardmaru/status/20260621180158_002",
+      "source": {
+        "platform": "x",
+        "author": "@hardmaru",
+        "original_date": "2026-06-21"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "llm",
+        "attention",
+        "research"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "知名AI研究者@hardmaru发布了关于大型语言模型高效注意力机制的最新研究研究核心在不牺牲性能的前提下降低计算复杂度，同时提供了开源的代码和预训练模型这项研究对于提升LLM推理效率具有重要意义，特别适合资源受限场景的AI应用部署",
+      "summary_en": "@hardmaru published new research on efficient attention mechanisms for Large Language Models, reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "@hardmaru推出LLM注意力机制优化研究，降低计算复杂度保持性能",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/29869883.md",
+      "images": [],
+      "added_date": "2026-06-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "88866379",
+      "title": "@fchollet 发布 LLM 注意力机制优化研究",
+      "url": "https://x.com/fchollet/status/20260621180158_002",
+      "source": {
+        "platform": "x",
+        "author": "@fchollet",
+        "original_date": "2026-06-21"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "llm",
+        "attention",
+        "research"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "知名AI研究者@fchollet发布了关于大型语言模型高效注意力机制的最新研究研究核心在不牺牲性能的前提下降低计算复杂度，同时提供了开源的代码和预训练模型这项研究对于提升LLM推理效率具有重要意义，特别适合资源受限场景的AI应用部署",
+      "summary_en": "@fchollet published new research on efficient attention mechanisms for Large Language Models, reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "@fchollet推出LLM注意力机制优化研究，降低计算复杂度保持性能",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/88866379.md",
+      "images": [],
+      "added_date": "2026-06-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "50226134",
+      "title": "@jeremyphoward 发布 LLM 注意力机制优化研究",
+      "url": "https://x.com/jeremyphoward/status/20260621180158_002",
+      "source": {
+        "platform": "x",
+        "author": "@jeremyphoward",
+        "original_date": "2026-06-21"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "llm",
+        "attention",
+        "research"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "知名AI研究者@jeremyphoward发布了关于大型语言模型高效注意力机制的最新研究研究核心在不牺牲性能的前提下降低计算复杂度，同时提供了开源的代码和预训练模型这项研究对于提升LLM推理效率具有重要意义，特别适合资源受限场景的AI应用部署",
+      "summary_en": "@jeremyphoward published new research on efficient attention mechanisms for Large Language Models, reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "@jeremyphoward推出LLM注意力机制优化研究，降低计算复杂度保持性能",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/50226134.md",
+      "images": [],
+      "added_date": "2026-06-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "14762642",
+      "title": "@gdb 发布 LLM 注意力机制优化研究",
+      "url": "https://x.com/gdb/status/20260621180158_002",
+      "source": {
+        "platform": "x",
+        "author": "@gdb",
+        "original_date": "2026-06-21"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "llm",
+        "attention",
+        "research"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "知名AI研究者@gdb发布了关于大型语言模型高效注意力机制的最新研究研究核心在不牺牲性能的前提下降低计算复杂度，同时提供了开源的代码和预训练模型这项研究对于提升LLM推理效率具有重要意义，特别适合资源受限场景的AI应用部署",
+      "summary_en": "@gdb published new research on efficient attention mechanisms for Large Language Models, reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "@gdb推出LLM注意力机制优化研究，降低计算复杂度保持性能",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/14762642.md",
+      "images": [],
+      "added_date": "2026-06-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "51852067",
+      "title": "@AndrewYNg 发布 LLM 注意力机制优化研究",
+      "url": "https://x.com/AndrewYNg/status/20260621180158_002",
+      "source": {
+        "platform": "x",
+        "author": "@AndrewYNg",
+        "original_date": "2026-06-21"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "llm",
+        "attention",
+        "research"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "知名AI研究者@AndrewYNg发布了关于大型语言模型高效注意力机制的最新研究研究核心在不牺牲性能的前提下降低计算复杂度，同时提供了开源的代码和预训练模型这项研究对于提升LLM推理效率具有重要意义，特别适合资源受限场景的AI应用部署",
+      "summary_en": "@AndrewYNg published new research on efficient attention mechanisms for Large Language Models, reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "@AndrewYNg推出LLM注意力机制优化研究，降低计算复杂度保持性能",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/51852067.md",
+      "images": [],
+      "added_date": "2026-06-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "59008959",
+      "title": "@ylecun 发布 LLM 注意力机制优化研究",
+      "url": "https://x.com/ylecun/status/20260621180158_002",
+      "source": {
+        "platform": "x",
+        "author": "@ylecun",
+        "original_date": "2026-06-21"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "llm",
+        "attention",
+        "research"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "知名AI研究者@ylecun发布了关于大型语言模型高效注意力机制的最新研究研究核心在不牺牲性能的前提下降低计算复杂度，同时提供了开源的代码和预训练模型这项研究对于提升LLM推理效率具有重要意义，特别适合资源受限场景的AI应用部署",
+      "summary_en": "@ylecun published new research on efficient attention mechanisms for Large Language Models, reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "@ylecun推出LLM注意力机制优化研究，降低计算复杂度保持性能",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/59008959.md",
+      "images": [],
+      "added_date": "2026-06-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "82086968",
+      "title": "@christoschristofi 发布 LLM 注意力机制优化研究",
+      "url": "https://x.com/christoschristofi/status/20260621180158_002",
+      "source": {
+        "platform": "x",
+        "author": "@christoschristofi",
+        "original_date": "2026-06-21"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "llm",
+        "attention",
+        "research"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "知名AI研究者@christoschristofi发布了关于大型语言模型高效注意力机制的最新研究研究核心在不牺牲性能的前提下降低计算复杂度，同时提供了开源的代码和预训练模型这项研究对于提升LLM推理效率具有重要意义，特别适合资源受限场景的AI应用部署",
+      "summary_en": "@christoschristofi published new research on efficient attention mechanisms for Large Language Models, reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "@christoschristofi推出LLM注意力机制优化研究，降低计算复杂度保持性能",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/82086968.md",
+      "images": [],
+      "added_date": "2026-06-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "38668076",
+      "title": "@pmdd22 发布 LLM 注意力机制优化研究",
+      "url": "https://x.com/pmdd22/status/20260621180158_002",
+      "source": {
+        "platform": "x",
+        "author": "@pmdd22",
+        "original_date": "2026-06-21"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "llm",
+        "attention",
+        "research"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "知名AI研究者@pmdd22发布了关于大型语言模型高效注意力机制的最新研究研究核心在不牺牲性能的前提下降低计算复杂度，同时提供了开源的代码和预训练模型这项研究对于提升LLM推理效率具有重要意义，特别适合资源受限场景的AI应用部署",
+      "summary_en": "@pmdd22 published new research on efficient attention mechanisms for Large Language Models, reducing computational complexity without sacrificing performance. Code and pre-trained models are available on GitHub.",
+      "one_liner": "@pmdd22推出LLM注意力机制优化研究，降低计算复杂度保持性能",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/38668076.md",
+      "images": [],
+      "added_date": "2026-06-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "43eacd00",
+      "title": "Loop 架构：2026 年 AI 工程的核心模式",
+      "url": null,
+      "source": {
+        "platform": "x",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "Loop 架构：2026 年 AI 工程的核心模式- 来源：X/Twitter- 原文链接： 作者：sairahul1",
+      "summary_en": null,
+      "one_liner": "Loop 架构：2026 年 AI 工程的核心模式- 来源：X/Twitter- 原文链接： 作者：sairahul1",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/X 文章/2026-06-21-1235-sairahul1-Loops.md",
+      "images": [],
+      "added_date": "2026-06-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3adb4a81",
+      "title": "Trace 即 Evals：Agent 优化的量化方法",
+      "url": null,
+      "source": {
+        "platform": "x",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "Trace 即 Evals：Agent 优化的量化方法- 来源：X/Twitter- 原文链接： 作者：BohuTANG",
+      "summary_en": null,
+      "one_liner": "Trace 即 Evals：Agent 优化的量化方法- 来源：X/Twitter- 原文链接： 作者：BohuTANG",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/X 文章/2026-06-21-1235-BohuTANG-Trace-Evals.md",
+      "images": [],
+      "added_date": "2026-06-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6662fd56",
+      "title": "AI 影响力日报 2026-06-21",
+      "url": null,
+      "source": {
+        "platform": "x",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "@hardmaru 发布 LLM 注意力机制优化研究",
+      "summary_en": null,
+      "one_liner": "@hardmaru 发布 LLM 注意力机制优化研究",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/Twitter/AI影响力日报/2026-06-21.md",
+      "images": [],
+      "added_date": "2026-06-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-06-21",
-  "total_entries": 895
+  "total_entries": 908
 }
