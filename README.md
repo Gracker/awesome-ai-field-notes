@@ -5,12 +5,12 @@
 ## 最新精选 Top 10
 
 - [@yudapeathree 发布 LLM 注意力机制优化研究](https://x.com/yudapeathree/status/20260621180158_002) ⭐5 · 2026-06-21 — @yudapeathree推出LLM注意力机制优化研究，降低计算复杂度保持性能
-- [@ylecun 发布 LLM 注意力机制优化研究](https://x.com/ylecun/status/20260621180158_002) ⭐5 · 2026-06-21 — @ylecun推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@pmdd22 发布 LLM 注意力机制优化研究](https://x.com/pmdd22/status/20260621180158_002) ⭐5 · 2026-06-21 — @pmdd22推出LLM注意力机制优化研究，降低计算复杂度保持性能
-- [@karpathy 发布 LLM 注意力机制优化研究](https://x.com/karpathy/status/20260621180158_002) ⭐5 · 2026-06-21 — @karpathy推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@jeremyphoward 发布 LLM 注意力机制优化研究](https://x.com/jeremyphoward/status/20260621180158_002) ⭐5 · 2026-06-21 — @jeremyphoward推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@hardmaru 发布 LLM 注意力机制优化研究](https://x.com/hardmaru/status/20260621180158_002) ⭐5 · 2026-06-21 — @hardmaru推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@gdb 发布 LLM 注意力机制优化研究](https://x.com/gdb/status/20260621180158_002) ⭐5 · 2026-06-21 — @gdb推出LLM注意力机制优化研究，降低计算复杂度保持性能
+- [@ylecun 发布 LLM 注意力机制优化研究](https://x.com/ylecun/status/20260621180158_002) ⭐5 · 2026-06-21 — @ylecun推出LLM注意力机制优化研究，降低计算复杂度保持性能
+- [@karpathy 发布 LLM 注意力机制优化研究](https://x.com/karpathy/status/20260621180158_002) ⭐5 · 2026-06-21 — @karpathy推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@fchollet 发布 LLM 注意力机制优化研究](https://x.com/fchollet/status/20260621180158_002) ⭐5 · 2026-06-21 — @fchollet推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@christoschristofi 发布 LLM 注意力机制优化研究](https://x.com/christoschristofi/status/20260621180158_002) ⭐5 · 2026-06-21 — @christoschristofi推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@AndrewYNg 发布 LLM 注意力机制优化研究](https://x.com/AndrewYNg/status/20260621180158_002) ⭐5 · 2026-06-21 — @AndrewYNg推出LLM注意力机制优化研究，降低计算复杂度保持性能
@@ -19,9 +19,9 @@
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 92 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 17 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 14 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 模型与实验室 | 93 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 19 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 16 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 2 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 18 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 10 | 论文、课程、提示工程、长文、方法论。 |
@@ -29,15 +29,15 @@
 
 ## 当前数据
 
-- 原始条目: 928
-- 公开展示卡片: 204
-- 有全文内容: 93
-- 最近 7 天信号: 91
+- 原始条目: 936
+- 公开展示卡片: 209
+- 有全文内容: 103
+- 最近 7 天信号: 95
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`ai-tools`, `llm`, `research`, `attention`, `optimization`, `2026`, `anthropic`, `openai`, `google`, `digest`, `论文工具`, `paper`, `attention-mechanisms`, `gemini`, `benchmark`, `claude`, `workflow`, `agents`
+`ai-tools`, `llm`, `research`, `attention`, `optimization`, `2026`, `anthropic`, `openai`, `google`, `digest`, `论文工具`, `paper`, `benchmark`, `attention-mechanisms`, `gemini`, `claude`, `workflow`, `agent`
 
 ## 自动化约定
 
