@@ -5,12 +5,12 @@
 ## 最新精选 Top 10
 
 - [@yudapeathree 发布 LLM 注意力机制优化研究](https://x.com/yudapeathree/status/20260621180158_002) ⭐5 · 2026-06-21 — @yudapeathree推出LLM注意力机制优化研究，降低计算复杂度保持性能
+- [@ylecun 发布 LLM 注意力机制优化研究](https://x.com/ylecun/status/20260621180158_002) ⭐5 · 2026-06-21 — @ylecun推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@pmdd22 发布 LLM 注意力机制优化研究](https://x.com/pmdd22/status/20260621180158_002) ⭐5 · 2026-06-21 — @pmdd22推出LLM注意力机制优化研究，降低计算复杂度保持性能
+- [@karpathy 发布 LLM 注意力机制优化研究](https://x.com/karpathy/status/20260621180158_002) ⭐5 · 2026-06-21 — @karpathy推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@jeremyphoward 发布 LLM 注意力机制优化研究](https://x.com/jeremyphoward/status/20260621180158_002) ⭐5 · 2026-06-21 — @jeremyphoward推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@hardmaru 发布 LLM 注意力机制优化研究](https://x.com/hardmaru/status/20260621180158_002) ⭐5 · 2026-06-21 — @hardmaru推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@gdb 发布 LLM 注意力机制优化研究](https://x.com/gdb/status/20260621180158_002) ⭐5 · 2026-06-21 — @gdb推出LLM注意力机制优化研究，降低计算复杂度保持性能
-- [@ylecun 发布 LLM 注意力机制优化研究](https://x.com/ylecun/status/20260621180158_002) ⭐5 · 2026-06-21 — @ylecun推出LLM注意力机制优化研究，降低计算复杂度保持性能
-- [@karpathy 发布 LLM 注意力机制优化研究](https://x.com/karpathy/status/20260621180158_002) ⭐5 · 2026-06-21 — @karpathy推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@fchollet 发布 LLM 注意力机制优化研究](https://x.com/fchollet/status/20260621180158_002) ⭐5 · 2026-06-21 — @fchollet推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@christoschristofi 发布 LLM 注意力机制优化研究](https://x.com/christoschristofi/status/20260621180158_002) ⭐5 · 2026-06-21 — @christoschristofi推出LLM注意力机制优化研究，降低计算复杂度保持性能
 - [@AndrewYNg 发布 LLM 注意力机制优化研究](https://x.com/AndrewYNg/status/20260621180158_002) ⭐5 · 2026-06-21 — @AndrewYNg推出LLM注意力机制优化研究，降低计算复杂度保持性能
@@ -31,7 +31,7 @@
 
 - 原始条目: 936
 - 公开展示卡片: 209
-- 有全文内容: 103
+- 有全文内容: 108
 - 最近 7 天信号: 95
 - 输出目录: `dist/`
 
