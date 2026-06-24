@@ -19,25 +19,25 @@
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 200 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 97 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 53 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 模型与实验室 | 205 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 99 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 57 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 14 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 21 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 产品与商业 | 23 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 25 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 147 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 1366
-- 公开展示卡片: 557
-- 有全文内容: 461
-- 最近 7 天信号: 414
+- 原始条目: 1381
+- 公开展示卡片: 570
+- 有全文内容: 462
+- 最近 7 天信号: 420
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`ai-tools`, `llm`, `research`, `attention`, `optimization`, `2026`, `anthropic`, `openai`, `google`, `digest`, `论文工具`, `paper`, `benchmark`, `attention-mechanisms`, `gemini`, `claude`, `workflow`, `agent`
+`ai-tools`, `llm`, `research`, `attention`, `openai`, `optimization`, `anthropic`, `2026`, `google`, `digest`, `论文工具`, `gemini`, `benchmark`, `paper`, `agent`, `workflow`, `attention-mechanisms`, `security`
 
 ## 自动化约定
 
