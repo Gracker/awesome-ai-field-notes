@@ -206,7 +206,9 @@
       "images": [],
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_generated": true,
+      "content_path": "content/ai_agents_production_2026_002.md"
     },
     {
       "id": "hn_llm_agents_2026_003",
@@ -37186,7 +37188,9 @@
       "added_date": "2026-06-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_generated": true,
+      "content_path": "content/7e504b47.md"
     },
     {
       "id": "64acf8e5",
@@ -37249,7 +37253,9 @@
       "added_date": "2026-06-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_generated": true,
+      "content_path": "content/58a72a3a.md"
     },
     {
       "id": "b387731f",
@@ -37282,7 +37288,9 @@
       "added_date": "2026-06-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_generated": true,
+      "content_path": "content/b387731f.md"
     },
     {
       "id": "00ed5eb9",
@@ -37608,7 +37616,9 @@
       "added_date": "2026-06-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_generated": true,
+      "content_path": "content/a89b1dbe.md"
     },
     {
       "id": "ad8a3140",
@@ -37635,8 +37645,94 @@
       "updated_date": "2026-06-24",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "bbe28501",
+      "title": "数字生命卡兹克的分享",
+      "url": "https://x.com/Khazix0918/status/2068927263035506977",
+      "source": {
+        "platform": "x",
+        "author": "数字生命卡兹克",
+        "original_date": "2026-06-24"
+      },
+      "category": "agents",
+      "tags": [
+        "intake"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "数字生命卡兹克的分享 --- 这个端午节在家，终于可以休息了，然后几乎就是疯狂的用Agent来做自己好玩的东西 有图为证，最近这个假期，差不多干掉了2000多万的token 这里我防杠一下，我知道可能会有人说，你这好几天才干掉2000万token，也不算啥，我基本每天API都是一个亿起步 我想说首先我不是那么重度的用户，我就是个普通的爱好者，其次这个PK在我看来没有任何意义，因为只能说明你烧的多但是不代表质量高，最后这个Claude Code客户端的token消耗计算是不算缓存的，如果算上缓存的话，一个稍微大型一点跑4个小时的任务，烧的token可能就是4个亿...",
+      "summary_en": null,
+      "one_liner": "数字生命卡兹克的分享 --- 这个端午节在家，终于可以休息了，然后几乎就是疯狂的用Agent来做自己好玩的东西 有图为证，最近这个假期，差不多干掉了2000多万的token 这里我防杠一下，我知道可能会有人说，你这好几天才干掉2000万token，也不算啥...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/bbe28501.md",
+      "images": [],
+      "added_date": "2026-06-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f04464f2",
+      "title": "Smith铜匠十点睡觉的分享",
+      "url": "https://x.com/smithandai/status/2069220944447774792",
+      "source": {
+        "platform": "x",
+        "author": "Smith铜匠十点睡觉",
+        "original_date": "2026-06-24"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "intake"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Smith铜匠十点睡觉的分享 --- 不幸的是，所有工作大概会在接下来 5 秒内消失 至少，如果你把社交媒体上那些声音很大的人太当真，你就会有这种感觉，就像我这篇文章的标题一样 你甚至可能把反 AI意识形态当成新的自我认同，一边喊着f*ck AI，一边觉得自己好像在改变世界，但实际上并没有改变自己的行为拓宽自己的技能组合，或者适应新世界毕竟，谁会想那样做？谁会想成长？ AI 并不是你以为的那个威胁 真正的威胁一直都是同一个： 你的生存和幸福依赖于除你自己之外的所有人任何形式的技术都会威胁到这一点...",
+      "summary_en": null,
+      "one_liner": "Smith铜匠十点睡觉的分享 --- 不幸的是，所有工作大概会在接下来 5 秒内消失 至少，如果你把社交媒体上那些声音很大的人太当真，你就会有这种感觉，就像我这篇文章的标题一样 你甚至可能把反 AI意识形态当成新的自我认同，一边喊着f*ck AI，一边觉得自己好像在改变世界...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/f04464f2.md",
+      "images": [],
+      "added_date": "2026-06-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e51ea6c4",
+      "title": "独家｜字节新一代豆包手机供应链信息曝光，发布时间或延迟-2026-06-23",
+      "url": null,
+      "source": {
+        "platform": "unknown",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [
+        "intake"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "",
+      "summary_en": null,
+      "one_liner": "独家｜字节新一代豆包手机供应链信息曝光，发布时间或延迟-2026-06-23",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "score-pending",
+      "local_path": "content/e51ea6c4.md",
+      "images": [
+        "https://cubox.pro/c/filters:no_upscale("
+      ],
+      "added_date": "2026-06-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-06-24",
-  "total_entries": 1381
+  "total_entries": 1384
 }

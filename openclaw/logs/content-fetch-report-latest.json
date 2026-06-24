@@ -1,0 +1,32 @@
+{
+  "fetch_time": "2026-06-24 12:23:26",
+  "candidates_total": 40,
+  "processed": 5,
+  "results": [
+    {
+      "id": "aid001",
+      "status": "opencli-fail:timeout",
+      "size": 841
+    },
+    {
+      "id": "aid002",
+      "status": "opencli-fail:empty",
+      "size": 813
+    },
+    {
+      "id": "aid003",
+      "status": "opencli-fail:empty",
+      "size": 813
+    },
+    {
+      "id": "aid004",
+      "status": "opencli-fail:empty",
+      "size": 813
+    },
+    {
+      "id": "aid005",
+      "status": "opencli-fail:empty",
+      "size": 848
+    }
+  ]
+}
