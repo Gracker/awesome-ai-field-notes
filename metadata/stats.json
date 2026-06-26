@@ -5,8 +5,8 @@
   "archived_entries": 0,
   "score_pending_entries": 256,
   "this_week_added": 415,
-  "entries_with_content": 498,
-  "content_files_total": 1202,
+  "entries_with_content": 508,
+  "content_files_total": 1213,
   "channel_distribution": {
     "models": 211,
     "tools": 149,
@@ -43,7 +43,7 @@
     "paper": 10,
     "newsletter": 1
   },
-  "last_updated": "2026-06-26 08:35",
+  "last_updated": "2026-06-26 23:37",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }

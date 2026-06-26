@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-26",
+  "processed": 19,
+  "added": 0,
+  "skipped": 19,
+  "total_entries": 1408,
+  "added_ids": [],
+  "skipped_reasons": {
+    "OpenAI will delay GPT-5.6 after Trump administration request": "duplicate-url",
+    "How we used Gemini to build Google I/O 2026": "duplicate-url",
+    "Catch up on 12 major I/O 2026 moments": "duplicate-url",
+    "Take our I/O 2026 quiz, vibe coded in Google AI Studio": "duplicate-url",
+    "Codex 的野心，MCP 和 Skill 的下一步": "duplicate-url",
+    "Oracle workforce shrinks by about 21,000 employees amid AI adoption": "duplicate-url",
+    "大多数公司根本没有为 AI 做好准备": "duplicate-url",
+    "JetSpec Enables Up to 9.64x Lossless LLM Inference Speedup with Up to 1000TPS": "duplicate-url",
+    "深度拆解 Hermes Agent 的记忆系统：它如何修正 OpenClaw 的误区": "duplicate-url",
+    "General-purpose large language models outperform specialized clinical AI tools on medical benchmarks": "duplicate-url",
+    "Hollywood-backed nonprofit launches machine-readable AI consent registry": "duplicate-url",
+    "Web agents now 100x cheaper by making DeepSeek write code": "duplicate-url",
+    "Catch up on the Dialogues stage at Google I/O 2026": "duplicate-url",
+    "裁员潮将持续，直到我们学会发掘 AI 的商业价值": "duplicate-url",
+    "Boris Cherny：Claude Code 之后，写代码正在变成\\\"管理 Agent\\\"": "duplicate-url",
+    "Investors bet on AI again after Micron reports 346% sales jump": "duplicate-url",
+    "AI 的经济账根本算不通": "duplicate-url",
+    "Tropius: Detect AI Tropes in Prose": "duplicate-url"
+  }
+}
