@@ -1,4 +1,76 @@
 # Changelog
+# Changelog
+
+## 2026-06-21 ~ 2026-06-28
+
+> 上次变更日志: 2026-06-21 04:35 (commit aced01a, 895 条) → 本次: 1423 条 (**+528**)
+> 基线快照: `aced01a:data/entries.json` (2026-06-21 23:34)
+
+### 📈 新增 (529)
+
+**🆕 高质量新增 (⭐≥4, 42 条)**
+
+- [@@AndrewYNg 发布 LLM 高效注意力机制研究](https://x.com/AndrewYNg/status/20260611180217_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-11)
+- [@yudapeathree 发布 LLM 注意力机制优化研究](https://x.com/yudapeathree/status/20260621180158_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-21)
+- [@karpathy 发布 LLM 注意力机制优化研究](https://x.com/karpathy/status/20260621180158_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-21)
+- [@hardmaru 发布 LLM 注意力机制优化研究](https://x.com/hardmaru/status/20260621180158_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-21)
+- [@fchollet 发布 LLM 注意力机制优化研究](https://x.com/fchollet/status/20260621180158_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-21)
+- [@jeremyphoward 发布 LLM 注意力机制优化研究](https://x.com/jeremyphoward/status/20260621180158_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-21)
+- [@gdb 发布 LLM 注意力机制优化研究](https://x.com/gdb/status/20260621180158_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-21)
+- [@AndrewYNg 发布 LLM 注意力机制优化研究](https://x.com/AndrewYNg/status/20260621180158_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-21)
+- [@ylecun 发布 LLM 注意力机制优化研究](https://x.com/ylecun/status/20260621180158_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-21)
+- [@christoschristofi 发布 LLM 注意力机制优化研究](https://x.com/christoschristofi/status/20260621180158_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-21)
+- [@pmdd22 发布 LLM 注意力机制优化研究](https://x.com/pmdd22/status/20260621180158_002) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-21)
+- Loop 架构：2026 年 AI 工程的核心模式 — uncategorized ⭐⭐⭐⭐ (2026-06-21)
+- Trace 即 Evals：Agent 优化的量化方法 — uncategorized ⭐⭐⭐⭐ (2026-06-21)
+- AI 影响力日报 2026-06-21 — uncategorized ⭐⭐⭐⭐ (2026-06-21)
+- [Sakana AI 推出首款商用产品 Sakana Marlin：长时程自主研究代理](https://x.com/hardmaru/status/2066529282588094713) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-22)
+- [Franois Chollet 拆解 AI 泡沫的五层定义](https://x.com/fchollet/status/2064740102463725853) — coding ⭐⭐⭐⭐⭐ (2026-06-22)
+- [Chollet 呼吁建立标准化的 agentic 能力基准](https://x.com/fchollet/status/2066554426551390457) — learning ⭐⭐⭐⭐⭐ (2026-06-22)
+- [Chollet：短期 AI 是数字杠杆，任何层级都需要人参与](https://x.com/fchollet/status/2066232539820208212) — coding ⭐⭐⭐⭐ (2026-06-22)
+- [Chollet 主张符号学习是开源 AI 的关键路径](https://x.com/fchollet/status/2066867824404860943) — uncategorized ⭐⭐⭐⭐⭐ (2026-06-22)
+- BatteryLife：面向电池寿命预测的综合数据集与基准测试 — learning ⭐⭐⭐⭐⭐ (2026-06-22)
+
+**📝 普通新增 (⭐<4, 487 条)**
+
+- [Gemini 3.5: frontier intelligence with action](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5) — models ⭐⭐⭐ (2026-06-22)
+- [100 things we announced at I/O 2026](https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements) — industry ⭐⭐⭐ (2026-06-22)
+- [Apertus Open Foundation Model for Sovereign AI](https://apertvs.ai/) — models ⭐⭐⭐ (2026-06-22)
+- [CivBench: I Gave an AI a Civilization to Run. It Built a Nuke](https://www.lwilko.com/blog/i-gave-an-ai-a-civilization) — learning ⭐⭐⭐ (2026-06-22)
+- [Expanding Project Glasswing to 150 new organizations](https://www.anthropic.com/news/expanding-project-glasswing) — industry ⭐⭐⭐ (2026-06-22)
+- 源码调研：Android 原生内存监控 API 技术盲区：MemoryTracking 与系统级内存跟踪机制 — uncategorized ⭐⭐⭐ (2026-06-22)
+- 源码调研：Jetpack Compose 状态管理机制的内存分配与 GC 交互 — uncategorized ⭐⭐⭐ (2026-06-22)
+- 源码调研：Android 17 高精度内存跟踪库 libmeminfo 源码深度解析 — uncategorized ⭐⭐⭐ (2026-06-22)
+- 源码调研：Simpleperf 与 Android 电源管理 / 热节流 / 异构调度的交互盲区 — uncategorized ⭐⭐⭐ (2026-06-22)
+- [源码调研：SurfaceFlinger 帧同步与渲染管道 Android 17 模块重构](https://source.android.com/docs/core/graphics/frame-pacing) — uncategorized ⭐⭐⭐ (2026-06-22)
+- 源码调研：Binder 事务处理性能优化IPC 开销分析与跨进程通信调优 — uncategorized ⭐⭐⭐ (2026-06-22)
+- 源码调研：Android 17 JobScheduler 节流机制与电量优化：后台任务调度策略深度分析 — uncategorized ⭐⭐⭐ (2026-06-22)
+- 源码调研：Jetpack Compose 重组内存抖动与 SlotTable/LinkTable 管理机制 — uncategorized ⭐⭐⭐ (2026-06-22)
+- [每日论文精读（AI） 2026-05-14](https://arxiv.org/abs/2602.16666) — uncategorized ⭐⭐⭐ (2026-06-22)
+- [Android 论文精读 2025-05-01（补录 2026-06-21）](https://arxiv.org/abs/2502.18807) — uncategorized ⭐⭐⭐ (2026-06-22)
+- [MCP Security Bench (MSB)：针对 LLM Agent 中模型上下文协议的攻击基准测试](https://github.com/dongsenzhang/MSB) — uncategorized ⭐⭐⭐ (2026-06-22)
+- 全文翻译：Towards a Science of AI Agent Reliability — uncategorized ⭐⭐⭐ (2026-06-22)
+- [全文翻译：Towards Understanding Android APIs: Official Lists, Vendor Customizations, and Real-World Usage](https://doi.org/XXXXXXX.XXXXXXX) — uncategorized ⭐⭐⭐ (2026-06-22)
+- [BatteryLife：面向电池寿命预测的综合数据集与基准测试 精读笔记](https://github.com/Ruifeng-Tan/BatteryLife) — uncategorized ⭐⭐⭐ (2026-06-22)
+- 精读：层级 LoRA 微调基于相似度指标的方法 — uncategorized ⭐⭐⭐ (2026-06-22)
+- [AI 定义的 Android 开发规范，直接抄作业！](https://juejin.cn/post/7597811700284882963) — uncategorized ⭐⭐⭐ (2026-06-23)
+- M3N4O5P6 — models ⭐⭐ (2026-06-23)
+- [F7612873](https://www.gilesthomas.com/2026/04/llm-from-scratch-32m-interventions-conclusion) — models ⭐⭐ (2026-06-23)
+- [M36Zom7U](https://blog.jetbrains.com/ai/2026/04/introducing-koog-integration-for-spring-ai-smarter-orchestration-for-your-agents/") — agents ⭐⭐ (2026-06-23)
+- [深度拆解 Claude Code：12 个可复用的 Agentic Harness 设计模式](https://mp.weixin.qq.com/s?__biz=MjM5NzA1NzMyOQ%3D%3D&mid=2247486928&idx=1&sn=c3d87ed82df6cc194cddbb69e95ddc9a) — agents ⭐⭐⭐ (2026-06-23)
+- [What 81,000 people told us about the economics of AI](https://anthropic.com/research/81k-economics) — uncategorized ⭐⭐⭐ (2026-06-23)
+- [Superpowers Agentic Skills 框架与软件开发方法论](https://github.com/obra/superpowers) — uncategorized ⭐⭐⭐ (2026-06-23)
+- [Claude Code 实战中文教程来了！](https://x.com/LuBtc888/status/2049464465096384913) — models ⭐⭐⭐ (2026-06-23)
+- [Claude Code 向 Codex 的习惯迁移](https://www.ccgxk.com/codeother/733.html) — coding ⭐⭐⭐ (2026-06-23)
+- [Codex: 在你浪费周末之前，先给创意做压力测试](https://github.com/openai/coauthor/blob/main/skills/negative-nancy.md) — uncategorized ⭐⭐⭐ (2026-06-23)
+
+
+### 📊 统计
+
+- 总条目: 895 → 1423 (**+528**)
+- 新增条目: 529
+
+
 
 
 ## 2026-06-15 ~ 2026-06-21
