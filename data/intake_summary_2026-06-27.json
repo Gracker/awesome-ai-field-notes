@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-27",
+  "task": "active_discovery_external_sources",
+  "sources_scanned": [
+    "https://www.anthropic.com/research",
+    "https://openai.com/blog",
+    "https://blog.google/technology/ai/",
+    "https://baoyu.io",
+    "https://news.ycombinator.com/"
+  ],
+  "candidates_evaluated": 59,
+  "new_entries_added": 15,
+  "skipped_duplicates": 34,
+  "total_entries": 1423,
+  "added_ids": [
+    "adbd50c1",
+    "2f383058",
+    "7bd44733",
+    "b482b19f",
+    "14667f46",
+    "7a48d6db",
+    "2b6976f9",
+    "1a015f5d",
+    "6507bbb3",
+    "7c36fb32",
+    "0c794cbb",
+    "eebdb7f6",
+    "a37c51f3",
+    "0f83d7a2",
+    "38285294"
+  ],
+  "added_titles": [
+    "Previewing GPT-5.6 Sol: a next-generation model",
+    "AI in Mathematics Is Forcing Big Questions",
+    "The gap between open weights LLMs and closed source LLMs",
+    "U.S. government will decide who gets to use GPT-5.6",
+    "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+    "Ultrasound imaging of the brain",
+    "How agents are transforming work",
+    "OpenAI and Broadcom unveil LLM-optimized inference chip",
+    "Helping build shared standards for advanced AI",
+    "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+    "How Omio is building the future of conversational travel",
+    "Samsung Electronics brings ChatGPT and Codex to employees",
+    "Check out real-life AI prototypes from the Futures Lab.",
+    "How AI Mode is changing the way people search in the U.S.",
+    "A new era for AI Search"
+  ]
+}

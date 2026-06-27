@@ -38710,8 +38710,438 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "adbd50c1",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-06-26"
+      },
+      "category": "models",
+      "tags": [
+        "gpt-5",
+        "openai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "one_liner": "OpenAI 发布 GPT-5.6 Sol 预览版，主打编码科学与网络安全能力",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/discovery/previewing-gpt-5-6-sol.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2f383058",
+      "title": "AI in Mathematics Is Forcing Big Questions",
+      "url": "https://spectrum.ieee.org/ai-in-mathematics",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-06-26"
+      },
+      "category": "learning",
+      "tags": [
+        "mathematics"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": null,
+      "one_liner": "IEEE Spectrum 探讨 AI 数学系统对数学家角色与数学研究未来的冲击",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/discovery/ai-in-mathematics.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7bd44733",
+      "title": "The gap between open weights LLMs and closed source LLMs",
+      "url": "https://blog.doubleword.ai/frontier-os-llm",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-06-26"
+      },
+      "category": "models",
+      "tags": [
+        "open-source"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": null,
+      "one_liner": "Doubleword 用 18 个 benchmark 量化开源与闭源 LLM 性能差距，预测 2026 年底前归零",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/discovery/frontier-os-llm.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b482b19f",
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "url": "https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model",
+      "source": {
+        "platform": "news",
+        "author": null,
+        "original_date": "2026-06-26"
+      },
+      "category": "models",
+      "tags": [
+        "gpt-5",
+        "openai",
+        "regulation"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": null,
+      "one_liner": "华盛顿邮报：OpenAI 表示 GPT-5.6 的使用权将由美国政府决定",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/discovery/.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "14667f46",
+      "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+      "url": "https://github.com/workweave/router",
+      "source": {
+        "platform": "github",
+        "author": null,
+        "original_date": "2026-06-26"
+      },
+      "category": "infra",
+      "tags": [
+        "routing",
+        "github",
+        "mcp"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": "We built a model router that plugs into coding agents (e.g. Claude Code, Codex, Cursor, etc.) and intelligently sends requests to the best model to serve them. Here's a quick demo of running it locally: . At Weave, we write most of our code with AI, and it's been getting more expensive. This came to a head when Opus 4.7 was released and, thanks to its tokenizer changes, our costs shot up. We knew we didn't need Opus for everything but we didn't wan",
+      "one_liner": "Show HN：可直接接入 Claude Code / Codex / Cursor 的智能模型路由工具",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/discovery/router.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7a48d6db",
+      "title": "Ultrasound imaging of the brain",
+      "url": "https://alephneuro.com/blog/ultrasound-brain",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-06-26"
+      },
+      "category": "industry",
+      "tags": [],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": null,
+      "one_liner": "Ultrasound imaging of the brain",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/discovery/ultrasound-brain.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2b6976f9",
+      "title": "How agents are transforming work",
+      "url": "https://openai.com/index/how-agents-are-transforming-work",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-06-25"
+      },
+      "category": "agents",
+      "tags": [
+        "openai",
+        "agent"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
+      "one_liner": "OpenAI 新研究：Agent 正在重塑工作方式，能承担更长更复杂的任务",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/discovery/how-agents-are-transforming-work.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1a015f5d",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-06-24"
+      },
+      "category": "infra",
+      "tags": [
+        "openai",
+        "chip",
+        "inference"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": "OpenAI and Broadcom introduce Jalapeo, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "one_liner": "OpenAI 与 Broadcom 联合推出 Jalapeo 自研 LLM 推理芯片",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/discovery/openai-broadcom-jalapeno-inference-chip.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6507bbb3",
+      "title": "Helping build shared standards for advanced AI",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-06-23"
+      },
+      "category": "industry",
+      "tags": [
+        "openai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "one_liner": "OpenAI 联合多家机构推动 AI 评估框架与安全实践的共享标准",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/discovery/helping-build-shared-standards-for-advanced-ai.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7c36fb32",
+      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-06-23"
+      },
+      "category": "models",
+      "tags": [
+        "gpt-5",
+        "openai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
+      "one_liner": "GPT-5 Pro 帮助免疫学家 Derya Unutmaz 破解 3 年悬而未决的 T 细胞谜题",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/discovery/gpt-5-immunology-mystery.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0c794cbb",
+      "title": "How Omio is building the future of conversational travel",
+      "url": "https://openai.com/index/omio",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-06-23"
+      },
+      "category": "coding",
+      "tags": [
+        "openai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
+      "one_liner": "Omio 如何基于 OpenAI 模型打造对话式旅行助手并转型为 AI 原生公司",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/discovery/omio.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "eebdb7f6",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-06-21"
+      },
+      "category": "models",
+      "tags": [
+        "openai",
+        "enterprise"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAIs largest enterprise AI rollouts.",
+      "one_liner": "三星电子全球部署 ChatGPT Enterprise 与 Codex，是 OpenAI 最大企业级落地之一",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/discovery/samsung-electronics-chatgpt-codex-deployment.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a37c51f3",
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs",
+      "source": {
+        "platform": "google",
+        "author": null,
+        "original_date": "2026-05-29"
+      },
+      "category": "industry",
+      "tags": [
+        "google"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": "University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+      "one_liner": "滑铁卢大学学生在 Google Futures Lab 做出手语教学等 AI 原型",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/discovery/.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0f83d7a2",
+      "title": "How AI Mode is changing the way people search in the U.S.",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights",
+      "source": {
+        "platform": "google",
+        "author": null,
+        "original_date": "2026-05-19"
+      },
+      "category": "industry",
+      "tags": [
+        "google",
+        "search"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": "One year after launch, see how AI Modes users are shifting from keywords to natural language queries.",
+      "one_liner": "Google：AI Mode 上线一年后用户从关键词转向自然语言查询的趋势",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/discovery/.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "38285294",
+      "title": "A new era for AI Search",
+      "url": "https://blog.google/products-and-platforms/products/search/search-io-2026",
+      "source": {
+        "platform": "google",
+        "author": null,
+        "original_date": "2026-05-19"
+      },
+      "category": "industry",
+      "tags": [
+        "google",
+        "search"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": "We shared the next step in our journey to bring together the best of a search engine with the best of AI.",
+      "one_liner": "Google 把搜索引擎与 AI 体验整合，开启 AI Search 新阶段",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/discovery/.md",
+      "images": [],
+      "added_date": "2026-06-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-06-26",
-  "total_entries": 1408
+  "last_updated": "2026-06-27",
+  "total_entries": 1423
 }
