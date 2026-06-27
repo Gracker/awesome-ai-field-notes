@@ -4,8 +4,8 @@
 
 ## 最新精选 Top 10
 
-- [U.S. government will decide who gets to use GPT-5.6](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model) ⭐5 · 2026-06-26 — 华盛顿邮报：OpenAI 表示 GPT-5.6 的使用权将由美国政府决定
 - [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol) ⭐5 · 2026-06-26 — OpenAI 发布 GPT-5.6 Sol 预览版，主打编码科学与网络安全能力
+- [U.S. government will decide who gets to use GPT-5.6](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model) ⭐5 · 2026-06-26 — 华盛顿邮报：OpenAI 表示 GPT-5.6 的使用权将由美国政府决定
 - [The gap between open weights LLMs and closed source LLMs](https://blog.doubleword.ai/frontier-os-llm) ⭐4 · 2026-06-26 — Doubleword 用 18 个 benchmark 量化开源与闭源 LLM 性能差距，预测 2026 年底前归零
 - [Show HN: Smart model routing directly in Claude, Codex and Cursor](https://github.com/workweave/router) ⭐3 · 2026-06-26 — Show HN：可直接接入 Claude Code / Codex / Cursor 的智能模型路由工具
 - [OpenClaw Automation](https://godofgpt.com/entry/497a0691/) ⭐3 · 2026-06-26 — OpenClaw Automation 这个目录保存 God of GPT / AI Field Notes 的自动化任务数据维护脚本和兼容入口 当前生产链路 1日常 intake / community review 写入 `
@@ -31,7 +31,7 @@
 
 - 原始条目: 1423
 - 公开展示卡片: 610
-- 有全文内容: 517
+- 有全文内容: 518
 - 最近 7 天信号: 425
 - 输出目录: `dist/`
 

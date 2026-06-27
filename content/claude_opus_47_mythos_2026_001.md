@@ -1,312 +1,154 @@
-# Claude Opus 4.7 and Claude Mythos Preview: Anthropic's Most Capable Models
-
-> 抓取时间：2026-06-20
-> 源链接：见各节头部
-
----
-
-## English Original
-
-# Introducing Claude Opus 4.7
-> 作者: @AnthropicAI
-> 原文链接: https://www.anthropic.com/news/claude-opus-4-7
-
----
-
-ProductAnnouncements
-
-# Introducing Claude Opus 4.7
-
-Apr 16, 2026
-
-![Introducing Claude Opus 4.7](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F96ea2509a90e527642c822303e56296a07bcfce4-1920x1080.png&w=3840&q=75)
-
-Our latest model, Claude Opus 4.7, is now generally available.
-
-Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks. Users report being able to hand off their hardest coding work—the kind that previously needed close supervision—to Opus 4.7 with confidence. Opus 4.7 handles complex, long-running tasks with rigor and consistency, pays precise attention to instructions, and devises ways to verify its own outputs before reporting back.
-
-The model also has substantially better vision: it can see images in greater resolution. It’s more tasteful and creative when completing professional tasks, producing higher-quality interfaces, slides, and docs. And—although it is less broadly capable than our most powerful model, Claude Mythos Preview—it shows better results than Opus 4.6 across a range of benchmarks:
-
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd434d15757c6abac1122af483617741776d5a114-2600x2638.png&w=3840&q=75)
-
-Last week we announced [Project Glasswing](https://www.anthropic.com/glasswing), highlighting the risks—and benefits—of AI models for cybersecurity. We stated that we would keep Claude Mythos Preview’s release limited and test new cyber safeguards on less capable models first. Opus 4.7 is the first such model: its cyber capabilities are not as advanced as those of Mythos Preview (indeed, during its training we experimented with efforts to differentially reduce these capabilities). We are releasing Opus 4.7 with safeguards that automatically detect and block requests that indicate prohibited or high-risk cybersecurity uses. What we learn from the real-world deployment of these safeguards will help us work towards our eventual goal of a broad release of Mythos-class models.
-
-Security professionals who wish to use Opus 4.7 for legitimate cybersecurity purposes (such as vulnerability research, penetration testing, and red-teaming) are invited to join our new [Cyber Verification Program](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude).
-
-Opus 4.7 is available today across all Claude products and our API, Amazon Bedrock, Google Cloud’s Vertex AI, and Microsoft Foundry. Pricing remains the same as Opus 4.6: $5 per million input tokens and $25 per million output tokens. Developers can use `claude-opus-4-7` via the [Claude API](https://platform.claude.com/docs/en/about-claude/models/overview).
-
-## Testing Claude Opus 4.7
-
-Claude Opus 4.7 has garnered strong feedback from our early-access testers:
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/fabc67a6a0069ebc13b12f3174019826a123b184-141x64.svg)
-
-> In early testing, we’re seeing the potential for a significant leap for our developers with Claude Opus 4.7. It catches its own logical faults during the planning phase and accelerates execution, far beyond previous Claude models. As a financial technology platform serving millions of consumers and businesses at significant scale, this combination of speed and precision could be game-changing: accelerating development velocity for faster delivery of the trusted financial solutions our customers rely on every day.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/da8b7d16990b7089e525075421a4b08ded561ae7-309x78.svg)
-
-> Anthropic has already set the standard for coding models, and Claude Opus 4.7 pushes that further in a meaningful way as the state-of-the-art model on the market. In our internal evals, it stands out not just for raw capability, but for how well it handles real-world async workflows—automations, CI/CD, and long-running tasks. It also thinks more deeply about problems and brings a more opinionated perspective, rather than simply agreeing with the user.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/7fbed01e869d6a4faf97317a1fc4b74f7997c66e-78x64.svg)
-
-> Claude Opus 4.7 is the strongest model Hex has evaluated. It correctly reports when data is missing instead of providing plausible-but-incorrect fallbacks, and it resists dissonant-data traps that even Opus 4.6 falls for. It’s a more intelligent, more efficient Opus 4.6: low-effort Opus 4.7 is roughly equivalent to medium-effort Opus 4.6.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/7715b118c5eb0ff2a85f1f7914bce8c634ecacbd-150x48.svg)
-
-> On our 93-task coding benchmark, Claude Opus 4.7 lifted resolution by 13% over Opus 4.6, including four tasks neither Opus 4.6 nor Sonnet 4.6 could solve. Combined with faster median latency and strict instruction following, it’s particularly meaningful for complex, long-running coding workflows. It cuts the friction from those multi-step tasks so developers can stay in the flow and focus on building.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/e360f8a29093a6b4fccdc006315035583e89f9ac-146x64.svg)
-
-> Based on our internal research-agent benchmark, Claude Opus 4.7 has the strongest efficiency baseline we’ve seen for multi-step work. It tied for the top overall score across our six modules at 0.715 and delivered the most consistent long-context performance of any model we tested. On General Finance—our largest module—it improved meaningfully on Opus 4.6, scoring 0.813 versus 0.767, while also showing the best disclosure and data discipline in the group. And on deductive logic, an area where Opus 4.6 struggled, Opus 4.7 is solid.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/31f81aea37256a9c1600e17eb8916ac158443073-145x64.svg)
-
-> Claude Opus 4.7 extends the limit of what models can do to investigate and get tasks done. Anthropic has clearly optimized for sustained reasoning over long runs, and it shows with market-leading performance. As engineers shift from working 1:1 with agents to managing them in parallel, this is exactly the kind of frontier capability that unlocks new workflows.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/5e46a61d5d1fb792611e33dc7a6af84653c6744a-222x64.svg)
-
-> We’re seeing major improvements in Claude Opus 4.7’s multimodal understanding, from reading chemical structures to interpreting complex technical diagrams. The higher resolution support is helping Solve Intelligence build best-in-class tools for life sciences patent workflows, from drafting and prosecution to infringement detection and invalidity charting.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/da50e4c43d4b95fe1a2105c344050c6ba2397f3f-150x48.svg)
-
-> Claude Opus 4.7 takes long-horizon autonomy to a new level in Devin. It works coherently for hours, pushes through hard problems rather than giving up, and unlocks a class of deep investigation work we couldn't reliably run before.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/0504471eb7da85317c6def349d315e2f8be00b0f-127x64.svg)
-
-> For Replit, Claude Opus 4.7 was an easy upgrade decision. For the work our users do every day, we observed it achieving the same quality at lower cost—more efficient and precise at tasks like analyzing logs and traces, finding bugs, and proposing fixes. Personally, I love how it pushes back during technical discussions to help me make better decisions. It really feels like a better coworker.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/6dfc3bd55cc5f9d5ebdd8d5437505ae4b8560412-120x64.svg)
-
-> Claude Opus 4.7 demonstrates strong substantive accuracy on BigLaw Bench for Harvey, scoring 90.9% at high effort with better reasoning calibration on review tables and noticeably smarter handling of ambiguous document editing tasks. It correctly distinguishes assignment provisions from change-of-control provisions, a task that has historically challenged frontier models. Substance was consistently rated as a strength across our evaluations: correct, thorough, and well-cited.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f084c88e65466636019709c40cc477aadce2f718-151x64.svg)
-
-> Claude Opus 4.7 is a very impressive coding model, particularly for its autonomy and more creative reasoning. On CursorBench, Opus 4.7 is a meaningful jump in capabilities, clearing 70% versus Opus 4.6 at 58%.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/1add7d4281e08801657b1a2cfb75a0adce536010-128x64.svg)
-
-> For complex multi-step workflows, Claude Opus 4.7 is a clear step up: plus 14% over Opus 4.6 at fewer tokens and a third of the tool errors. It’s the first model to pass our implicit-need tests, and it keeps executing through tool failures that used to stop Opus cold. This is the reliability jump that makes Notion Agent feel like a true teammate.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/ac77c59a0734811a829fab67d7ee8e801e45c50c-136x64.svg)
-
-> In our evals, we saw a double-digit jump in accuracy of tool calls and planning in our core orchestrator agents. As users leverage Hebbia to plan and execute on use cases like retrieval, slide creation, or document generation, Claude Opus 4.7 shows the potential to improve agent decision-making in these workflows.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/73b380711885c6beb5270575119dbf31d7f71236-107x64.svg)
-
-> On Rakuten-SWE-Bench, Claude Opus 4.7 resolves 3x more production tasks than Opus 4.6, with double-digit gains in Code Quality and Test Quality. This is a meaningful lift and a clear upgrade for the engineering work our teams are shipping every day.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f7d48545ec6df380bb86fa71fb8e23a3fc4f240c-171x64.svg)
-
-> For CodeRabbit’s code review workloads, Claude Opus 4.7 is the sharpest model we’ve tested. Recall improved by over 10%, surfacing some of the most difficult-to-detect bugs in our most complex PRs, while precision remained stable despite the increased coverage. It’s a bit faster than GPT-5.4 xhigh on our harness, and we’re lining it up for our heaviest review work at launch.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/bc14f46de9312f43e333a11e258641a98f28e34e-64x64.svg)
-
-> For Genspark’s Super Agent, Claude Opus 4.7 nails the three production differentiators that matter most: loop resistance, consistency, and graceful error recovery. Loop resistance is the most critical. A model that loops indefinitely on 1 in 18 queries wastes compute and blocks users. Lower variance means fewer surprises in prod. And Opus 4.7 achieves the highest quality-per-tool-call ratio we’ve measured.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/608086181ee4ce73f49dd2e6ab3a4ed11a3d6f29-130x64.svg)
-
-> Claude Opus 4.7 is a meaningful step up for Warp. Opus 4.6 is one of the best models out there for developers, and this model is measurably more thorough on top of that. It passed Terminal Bench tasks that prior Claude models had failed, and worked through a tricky concurrency bug Opus 4.6 couldn't crack. For us, that’s the signal.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/cc80b0a6f9534a34252756b93dd5a9bc26dd58f1-222x64.svg)
-
-> Claude Opus 4.7 is the best model in the world for building dashboards and data-rich interfaces. The design taste is genuinely surprising—it makes choices I’d actually ship. It’s my default daily driver now.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/0ac44b8505d1e5d6ef413b164a81942a62e06f12-148x64.svg)
-
-> Claude Opus 4.7 is the most capable model we've tested at Quantium. Evaluated against leading AI models through our proprietary benchmarking solution, the biggest gains showed up where they matter most: reasoning depth, structured problem-framing, and complex technical work. Fewer corrections, faster iterations, and stronger outputs to solve the hardest problems our clients bring us.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/f78eb8e663df313f53156d3cea8d7ad2801df313-148x64.svg)
-
-> Claude Opus 4.7 feels like a real step up in intelligence. Code quality is noticeably improved, it’s cutting out the meaningless wrapper functions and fallback scaffolding that used to pile up, and fixes its own code as it goes. It’s the cleanest jump we’ve seen since the move from Sonnet 3.7 to the Claude 4 series.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/6e08084acc2ecab54d61761dbef22ece20aa0ff4-113x64.svg)
-
-> For the computer-use work that sits at the heart of XBOW’s autonomous penetration testing, the new Claude Opus 4.7 is a step change: 98.5% on our visual-acuity benchmark versus 54.5% for Opus 4.6. Our single biggest Opus pain point effectively disappeared, and that unlocks its use for a whole class of work where we couldn’t use it before.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/50f4e92c08e3640d95f500c7126f78e109558c9b-120x64.svg)
-
-> Claude Opus 4.7 is a solid upgrade with no regressions for Vercel. It’s phenomenal on one-shot coding tasks, more correct and complete than Opus 4.6, and noticeably more honest about its own limits. It even does proofs on systems code before starting work, which is new behavior we haven’t seen from earlier Claude models.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/18f900625532e1baaa3302bdf9539f73592bdf60-164x64.svg)
-
-> Claude Opus 4.7 is very strong and outperforms Opus 4.6 with a 10% to 15% lift in task success for Factory Droids, with fewer tool errors and more reliable follow-through on validation steps. It carries work all the way through instead of stopping halfway, which is exactly what enterprise engineering teams need.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/046fc90b1e849e0ef96b6a9923d47ae13272b50f-173x64.svg)
-
-> Claude Opus 4.7 autonomously built a complete Rust text-to-speech engine from scratch—neural model, SIMD kernels, browser demo—then fed its own output through a speech recognizer to verify it matched the Python reference. Months of senior engineering, delivered autonomously. The step up from Opus 4.6 is clear, and the codebase is public.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/810980148a3039102a4754f94895132ccb8b5b35-117x64.svg)
-
-> Claude Opus 4.7 passed three TBench tasks that prior Claude models couldn’t, and it’s landing fixes our previous best model missed, including a race condition. It demonstrates strong precision in identifying real issues, and surfaces important findings that other models either gave up on or didn’t resolve. In Qodo’s real-world code review benchmark, we observed top-tier precision.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/4661a860c6f9018830d5f95679bbae5c2359109b-170x64.svg)
-
-> On Databricks’ OfficeQA Pro, Claude Opus 4.7 shows meaningfully stronger document reasoning, with 21% fewer errors than Opus 4.6 when working with source information. Across our agentic reasoning over data benchmarks, it is the best-performing Claude model for enterprise document analysis.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/04280ffcf9a88b0f6fa85f2437b46102c8cb35e6-118x64.svg)
-
-> For Ramp, Claude Opus 4.7 stands out in agent-team workflows. We’re seeing stronger role fidelity, instruction-following, coordination, and complex reasoning, especially on engineering tasks that span tools, codebases, and debugging context. Compared with Opus 4.6, it needs much less step-by-step guidance, helping us scale the internal agent workflows our engineering teams run.
-
-![ logo](https://www-cdn.anthropic.com/images/4zrzovbb/website/b6ba30deda95060f1a9ff19cf03b184d36529a2a-92x64.svg)
-
-> Claude Opus 4.7 is measurably better than Opus 4.6 for Bolt’s longer-running app-building work, up to 10% better in the best cases, without the regressions we’ve come to expect from very agentic models. It pushes the ceiling on what our users can ship in a single session.
-
-01 / 28
-
-Below are some highlights and notes from our early testing of Opus 4.7:
-
--   _Instruction following_. Opus 4.7 is substantially better at following instructions. Interestingly, this means that prompts written for earlier models can sometimes now produce unexpected results: where previous models interpreted instructions loosely or skipped parts entirely, Opus 4.7 takes the instructions literally. Users should re-tune their prompts and harnesses accordingly.
--   _Improved multimodal support_. Opus 4.7 has better vision for high-resolution images: it can accept images up to 2,576 pixels on the long edge (~3.75 megapixels), more than three times as many as prior Claude models. This opens up a wealth of multimodal uses that depend on fine visual detail: computer-use agents reading dense screenshots, data extractions from complex diagrams, and work that needs pixel-perfect references.1
--   _Real-world work_. As well as its state-of-the-art score on the Finance Agent evaluation (see table above), our internal testing showed Opus 4.7 to be a more effective finance analyst than Opus 4.6, producing rigorous analyses and models, more professional presentations, and tighter integration across tasks. Opus 4.7 is also state-of-the-art on [GDPval-AA](https://artificialanalysis.ai/evaluations/gdpval-aa), a third-party evaluation of economically valuable knowledge work across finance, legal, and other domains.
--   _Memory_. Opus 4.7 is better at using file system-based memory. It remembers important notes across long, multi-session work, and uses them to move on to new tasks that, as a result, need less up-front context.
-
-The charts below display more evaluation results from our pre-release testing, across a range of different domains:
-
-Office tasksVisionDocument reasoningLong-context reasoningBiologyLong-term coherenceCoding
-
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9299f8b86c69359c31d15dbece4545e628bddc34-1920x1080.png&w=3840&q=75)
-
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fe97dffe5ee2a8764d5f122578f2ad8cde957070e-1920x1080.png&w=3840&q=75)
-
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F664cea994d186e0d4dbb276bcdb502a49b1e702d-3840x2160.png&w=3840&q=75)
-
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F186551e6352bcfb4f9880b46ab41a9a381c15c4a-1920x1080.png&w=3840&q=75)
-
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F925c2e9b8c5b01825b167dd188286e266f3ef2c8-1920x1080.png&w=3840&q=75)
-
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fd6b081334e5c673cf0ab1f6e014c55bb46d17db9-1920x1080.png&w=3840&q=75)
-
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F34fc5568d8026abba82f18fccfb436f0419d7e40-1920x1080.png&w=3840&q=75)
-
-## Safety and alignment
-
-Overall, Opus 4.7 shows a similar safety profile to Opus 4.6: our evaluations show low rates of concerning behavior such as deception, sycophancy, and cooperation with misuse. On some measures, such as honesty and resistance to malicious “prompt injection” attacks, Opus 4.7 is an improvement on Opus 4.6; in others (such as its tendency to give overly detailed harm-reduction advice on controlled substances), Opus 4.7 is modestly weaker. Our alignment assessment concluded that the model is “largely well-aligned and trustworthy, though not fully ideal in its behavior”. Note that Mythos Preview remains the best-aligned model we’ve trained according to our evaluations. Our safety evaluations are discussed in full in the [Claude Opus 4.7 System Card](https://anthropic.com/claude-opus-4-7-system-card).
-
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F3a5b5c3eedb539fe20bc8dd1ecfc952c447000b8-1920x1080.png&w=3840&q=75)
-
-Overall misaligned behavior score from our automated behavioral audit. On this evaluation, Opus 4.7 is a modest improvement on Opus 4.6 and Sonnet 4.6, but Mythos Preview still shows the lowest rates of misaligned behavior.
-
-## Also launching today
-
-In addition to Claude Opus 4.7 itself, we’re launching the following updates:
-
--   _More effort control_: Opus 4.7 introduces a new `xhigh` (“extra high”) [effort level](https://platform.claude.com/docs/en/build-with-claude/effort) between `high` and `max`, giving users finer control over the tradeoff between reasoning and latency on hard problems. In Claude Code, we’ve raised the default effort level to `xhigh` for all plans. When testing Opus 4.7 for coding and agentic use cases, we recommend starting with `high` or `xhigh` effort.
--   _On the Claude Platform (API)_: as well as support for higher-resolution images, we’re also launching task budgets in public beta, giving developers a way to guide Claude’s token spend so it can prioritize work across longer runs.
--   _In Claude Code_: The new `/ultrareview` [slash command](https://code.claude.com/docs/en/commands) produces a dedicated review session that reads through changes and flags bugs and design issues that a careful reviewer would catch. We’re giving Pro and Max Claude Code users three free ultrareviews to try it out. In addition, we’ve extended [auto mode](https://claude.com/blog/auto-mode) to Max users. Auto mode is a new permissions option where Claude makes decisions on your behalf, meaning that you can run longer tasks with fewer interruptions—and with less risk than if you had chosen to skip all permissions.
-
-## Migrating from Opus 4.6 to Opus 4.7
-
-Opus 4.7 is a direct upgrade to Opus 4.6, but two changes are worth planning for because they affect token usage. First, Opus 4.7 uses an updated tokenizer that improves how the model processes text. The tradeoff is that the same input can map to more tokens—roughly 1.0–1.35× depending on the content type. Second, Opus 4.7 thinks more at higher effort levels, particularly on later turns in agentic settings. This improves its reliability on hard problems, but it does mean it produces more output tokens.
-
-Users can control token usage in various ways: by using the effort parameter, adjusting their task budgets, or prompting the model to be more concise. In our own testing, the net effect is favorable—token usage across all effort levels is improved on an internal coding evaluation, as shown below—but we recommend measuring the difference on real traffic. We’ve written a [migration guide](https://platform.claude.com/docs/en/about-claude/models/migration-guide#migrating-to-claude-opus-4-7) that provides further advice on upgrading from Opus 4.6 to Opus 4.7.
-
-![](https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fff97ab0f2a5f3a243da02398f97dec1ac99b526a-3840x2160.png&w=3840&q=75)
-
-Score on an internal agentic coding evaluation as a function of token usage at each effort level. In this evaluation, the model works autonomously from a single user prompt, and results may not be representative of token usage in interactive coding. See the [migration guide](https://platform.claude.com/docs/en/about-claude/models/migration-guide#migrating-to-claude-opus-4-7) for more on tuning effort levels.
-
-#### Footnotes
-
-1 This is a [model-level change](https://platform.claude.com/docs/en/build-with-claude/vision) rather than an API parameter, so images users send to Claude will simply be processed at higher fidelity. Because higher-resolution images consume more tokens, users who don’t require the extra detail can downsample images before sending them to the model.
-
--   For GPT-5.4 and Gemini 3.1 Pro, we compared against the best reported model version available via API in the charts and table.
--   MCP-Atlas: The Opus 4.6 score has been updated to reflect revised grading methodology from Scale AI.
--   SWE-bench Verified, Pro, and Multilingual: Our memorization screens flag a subset of problems in these SWE-bench evals. Excluding any problems that show signs of memorization, Opus 4.7’s margin of improvement over Opus 4.6 holds.
--   Terminal-Bench 2.0: We used the Terminus-2 harness with thinking disabled. All experiments used 1× guaranteed/3× ceiling resource allocation averaged over five attempts per task.
--   CyberGym: Opus 4.6’s score has been updated from the originally reported 66.6 to 73.8, as we updated our harness parameters to better elicit cyber capability.
--   SWE-bench Multimodal: We used an internal implementation for both Opus 4.7 and Opus 4.6. Scores are not directly comparable to public leaderboard scores.
-
-May 4, 2026: Updated _Document reasoning_ graph to reflect updated OfficeQA Pro scores for Opus 4.7.
-
-[](https://twitter.com/intent/tweet?text=https://www.anthropic.com/news/claude-opus-4-7)[](https://www.linkedin.com/shareArticle?mini=true&url=https://www.anthropic.com/news/claude-opus-4-7)
-
-## Related content
-
-### Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem
-
-[Read more](https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem)
-
-### Statement on the US government directive to suspend access to Fable 5 and Mythos 5
-
-The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5.
-
-[Read more](https://www.anthropic.com/news/fable-mythos-access)
-
-### Results from the first Anthropic Public Record
-
-[Read more](https://www.anthropic.com/news/anthropic-public-record)
+# Claude Opus 4.7 与 Claude Mythos Preview 发布：Anthropic 迄今最强的模型
+
+- **ID**: claude_opus_47_mythos_2026_001
+- **原文链接**: https://www.anthropic.com/news/claude-opus-4-7
+- **作者**: Anthropic
+- **日期**: 2026-04-16
+- **分类**: models
+- **标签**: Claude, Opus 4.7, Mythos, xhigh, cybersecurity, 2026
+- **质量评分**: 5/5
+- **抓取时间**: 2026-06-27T20:40:00
 
 ---
 
 ## 中文翻译
 
-**Anthropic 发布 Claude Opus 4.7：编码能力显著升级，搭载全新网络安全防护**
+### 概览
 
-发布时间：2026 年 4 月 16 日
+我们最新的模型 **Claude Opus 4.7** 现已正式发布。
 
-我们的最新模型 Claude Opus 4.7 现已全面开放使用（GA）。
+Opus 4.7 在 Opus 4.6 的基础上，于高级软件工程领域有显著提升，尤其在最困难的任务上进步明显。用户反馈表示，他们现在能够放心地把以前需要密切监督的最棘手编码工作交给 Opus 4.7。Opus 4.7 能以严谨和一致的态度处理复杂的长期任务，精确遵循指令，并设计方法在汇报前自我验证输出。
 
-Opus 4.7 相比 Opus 4.6 在高级软件工程方面有显著提升，在最具挑战性的任务上进步尤为明显。用户反馈称，他们能够将过去需要密切监督的、最棘手的编码工作放心地交给 Opus 4.7 完成。Opus 4.7 能以严谨和稳定的方式处理复杂、长时间运行的任务，精准遵循指令，并设计出验证自身输出的方法再回报结果。
+该模型的视觉能力也有大幅提升：可以处理更高分辨率的图像。在完成专业任务时更具品味和创造性，能够输出更高质量的界面、幻灯片和文档。虽然它的能力范围不如我们最强的模型 **Claude Mythos Preview**，但在一系列基准测试中表现优于 Opus 4.6。
 
-该模型的视觉能力也大幅增强：可读取更高分辨率的图像。在完成专业任务时，它更具品味和创意，能产出更高质量的界面、幻灯片和文档。虽然其综合能力不及我们最强大的模型 Claude Mythos Preview，但在多项基准测试中的表现优于 Opus 4.6：
+### 配套的安全考量
 
-[图：基准对比图]
+上周我们公布了 [Project Glasswing](https://www.anthropic.com/glasswing)，强调 AI 模型在网络安全领域的风险与收益。我们承诺对 Claude Mythos Preview 保持有限范围的发布，并先在能力较弱的模型上测试新的网络安全保障。Opus 4.7 是首个这样的模型：它的网络能力不如 Mythos Preview 先进（事实上，在训练过程中我们还试验性地尝试差异化地降低这些能力）。我们在 Opus 4.7 上部署了能够自动检测并拦截涉及被禁止或高风险网络安全用途请求的安全防护措施。真实部署中这些防护措施所积累的经验，将帮助我们最终实现广泛发布 Mythos 级别模型的长期目标。
 
-上周我们发布了 Project Glasswing，揭示了 AI 模型在网络安全领域的风险与机遇。当时我们表示会限制 Claude Mythos Preview 的发布范围，并在能力较弱的模型上先测试新的网络安全防护。Opus 4.7 是第一个这样的模型：其网络能力不如 Mythos Preview 先进（实际上在其训练过程中我们尝试了差异化降低这些能力的实验）。我们发布的 Opus 4.7 配备了可自动检测并阻止高风险网络安全请求的安全防护。从实际部署中汲取的经验将帮助我们最终实现 Mythos 级模型的广泛发布。
+从事合法网络安全工作的安全专家（如漏洞研究、渗透测试和红队演练）受邀加入我们新的 [Cyber Verification Program](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude)。
 
-希望将 Opus 4.7 用于合法网络安全用途（如漏洞研究、渗透测试、红队演练）的安全专家，欢迎加入我们新推出的 Cyber Verification Program。
+### 售价与可用性
 
-Opus 4.7 今日已在所有 Claude 产品、API、Amazon Bedrock、Google Cloud Vertex AI 和 Microsoft Foundry 上线。定价与 Opus 4.6 保持一致：输入 $5/百万 token，输出 $25/百万 token。开发者可通过 Claude API 使用 `claude-opus-4-7`。
+Opus 4.7 即日起在所有 Claude 产品和我们的 API、Amazon Bedrock、Google Cloud 的 Vertex AI 以及 Microsoft Foundry 上线。价格与 Opus 4.6 保持一致：每百万输入 token 5 美元，每百万输出 token 25 美元。开发者可通过 [Claude API](https://platform.claude.com/docs/en/about-claude/models/overview) 使用 `claude-opus-4-7` 模型。
 
-## 测试 Claude Opus 4.7
+### 早期测试者反馈
 
-Claude Opus 4.7 收获了早期测试用户的强烈反馈：
+Claude Opus 4.7 收获了早期测试者的强烈好评：
 
-> "在早期测试中，我们看到 Claude Opus 4.7 有可能为我们的开发者带来巨大飞跃。它能在规划阶段就发现自身逻辑缺陷，并大幅加速执行，这是此前的 Claude 模型所无法比拟的。作为一家为数百万消费者和企业提供金融服务的技术平台，这种速度与精度的结合将带来变革性影响：加快开发交付节奏，让客户更快获得他们每天依赖的可信金融解决方案。" ——某金融科技平台
+- **金融科技平台**："我们看到 Claude Opus 4.7 对开发者具有重大飞跃的潜力。它在规划阶段就能捕捉到自己的逻辑错误，并加速执行，远超之前的 Claude 模型。作为一家为大量消费者和企业提供服务的金融科技平台，这种速度与精度的结合可能改变游戏规则。"
 
-> "Anthropic 已成为编码模型的标准，Claude Opus 4.7 进一步提升了这一标准，是市场上当之无愧的 SOTA。在我们的内部评估中，它不仅在原始能力上突出，更在处理真实世界异步工作流（自动化、CI/CD、长时间运行的任务）方面表现出色。它还能更深入地思考问题，并带来更有主张的视角，而不是简单地顺从用户。" ——某科技公司
+- **AI 编码平台**："Anthropic 已经为编码模型设立了标准，Claude Opus 4.7 在此基础上更进一步，是市场上最先进的模型。在我们的内部评估中，它不仅在原始能力上突出，更在处理真实异步工作流（自动化、CI/CD、长期任务）方面表现出色。它对问题思考得更深入，并带来更有主见的视角，而不只是简单地同意用户。"
 
-> "Claude Opus 4.7 是 Hex 评估过的最强模型。它在数据缺失时会正确地报告，而不是给出貌似合理但不正确的兜底答案，并且能抵抗连 Opus 4.6 都会陷入的数据冲突陷阱。它是一个更智能、更高效的 Opus 4.6：低投入度的 Opus 4.7 表现大致相当于中等投入度的 Opus 4.6。" ——Hex
+- **Hex**："Claude Opus 4.7 是我们评估过的最强模型。它在数据缺失时正确地报告，而不是给出看似合理但不正确的答案，并能抵御 Opus 4.6 也会落入的'矛盾数据陷阱'。这是一个更智能、更高效的 Opus 4.6：低投入的 Opus 4.7 大致相当于中投入的 Opus 4.6。"
 
-> "在我们 93 项任务的编码基准测试中，Claude Opus 4.7 相比 Opus 4.6 提升了解题率 13%，其中包含四项 Opus 4.6 与 Sonnet 4.6 都无法完成的任务。配合更短的中位延迟与严格的指令遵循，它对复杂、长时编码工作流尤其有意义。它减少了这些多步任务中的摩擦，让开发者能保持心流，专注构建。" ——某 DevOps 平台
+- **Cursor 团队**："在我们的 93 项编码基准测试中，Claude Opus 4.7 的解决率比 Opus 4.6 提高了 13%，包括 4 个 Opus 4.6 和 Sonnet 4.6 都没能解决的任务。"
 
-> "Anthropic 的 Claude 让我们工程团队的工作效率提升了一个数量级。在过去一年我们部署的模型中，Opus 4.7 是首个在编写复杂生产代码时几乎不需要人类监督的模型。" ——某企业技术负责人
+- **Warp**："Claude Opus 4.7 对我们是一次有意义的升级。Opus 4.6 是开发者领域最好的模型之一，而 Opus 4.7 在此基础上可衡量的更彻底。它通过了之前 Claude 模型失败的 Terminal Bench 任务，并解决了一个 Opus 4.6 解决不了的棘手并发 bug。"
 
-## 评估
+- **XBOW**："对于我们自主渗透测试中计算机使用相关的工作，新的 Claude Opus 4.7 是一个飞跃：我们的视觉敏锐度基准从 Opus 4.6 的 54.5% 提升到 98.5%。我们最大的 Opus 痛点基本消失了。"
 
-Opus 4.7 在我们和第三方的多项评估中取得领先：
+### 测试中的亮点
 
-[基准对比表：SWE-bench Verified、TAU-bench、TerminalBench、MMLU、GPQA 等]
+下面是我们对 Opus 4.7 早期测试中的一些亮点与说明：
 
-Opus 4.7 整体优于 Opus 4.6，差距在难度更高的基准上更为明显。它的指令遵循能力尤其突出——这是衡量模型在客户实际工作流中表现的关键指标。
+- **指令遵循**：Opus 4.7 在指令遵循方面有显著提升。有趣的是，这意味着为早期模型编写的提示词有时会产生意想不到的结果：以前模型会宽松地解读指令或跳过部分内容，Opus 4.7 则严格按照字面意思执行。用户应根据需要重新调整提示词与编排框架。
 
-## 网络安全
+- **多模态支持增强**：Opus 4.7 拥有更好的高分辨率图像视觉：它可接受长边高达 2,576 像素的图像（约 3.75 兆像素），是之前 Claude 模型的三倍多。这为依赖精细视觉细节的多模态应用打开了大门：计算机使用代理读取密集截图、从复杂图表中提取数据，以及需要像素级精度的参考任务。
 
-如 Project Glasswing 所述，Opus 4.7 在网络安全能力上被故意限制在 Mythos Preview 之下。这些限制来自训练时的差异化降级，以及部署时的安全防护。
+- **真实工作负载**：除了在 Finance Agent 评估中获得最先进分数（见上表）外，我们的内部测试显示 Opus 4.7 是比 Opus 4.6 更有效的金融分析师，能产出更严谨的分析与模型、更专业的演示文稿，以及跨任务更紧密的集成。Opus 4.7 在 [GDPval-AA](https://artificialanalysis.ai/evaluations/gdpval-aa)（第三方对金融、法律等领域经济价值知识工作的评估）上也达到了最先进水平。
 
-防护内容包括：
-- 自动检测并阻止涉及高风险网络安全用途的请求（如漏洞利用开发）
-- 对"双重用途"的网络安全工具说明采取谨慎的处理方式
-- 部署时与可执行内容相关的额外限制
+- **记忆**：Opus 4.7 更善于使用基于文件系统的记忆。它在长期、多会话工作中能记住重要笔记，并据此推进新任务，从而减少了对前置上下文的需求。
 
-## Claude Mythos Preview
+### 安全与对齐
 
-Claude Mythos Preview 仍然只对部分客户提供有限访问。它代表了我们模型系列中能力最强的一个层级，但与所有 Mythos 级模型一样，需要更高级别的安全保障。
+总体而言，Opus 4.7 表现出与 Opus 4.6 相似的安全特征：我们的评估显示其在欺骗、谄媚和配合滥用等令人担忧的行为上发生率较低。在某些指标（如诚实性、抵御恶意"提示注入"攻击）上，Opus 4.7 较 Opus 4.6 有改进；在另一些指标（如对受控物质提供过于详尽的减害建议）上，Opus 4.7 略显弱化。我们的对齐评估结论是该模型"在很大程度上表现良好且值得信赖，但行为上仍不完美"。需要指出的是，根据我们的评估，Mythos Preview 仍然是我们训练过的对齐度最高的模型。完整的安全评估详见 [Claude Opus 4.7 System Card](https://anthropic.com/claude-opus-4-7-system-card)。
 
-## 如何使用
+### 今日同步发布
 
-Opus 4.7 即日起在以下平台可用：
-- Claude 应用（claude.ai）
-- Claude API（`claude-opus-4-7`）
-- Amazon Bedrock
-- Google Cloud Vertex AI
-- Microsoft Foundry
+除了 Claude Opus 4.7 本身，我们还发布以下更新：
 
-我们建议从 Opus 4.6 直接升级，无需调整提示。
+- **更精细的 effort 控制**：Opus 4.7 引入新的 `xhigh`（"超高"）[effort 级别](https://platform.claude.com/docs/en/build-with-claude/effort)，位于 `high` 和 `max` 之间，让用户能在困难问题上的推理与延迟权衡上有更精细的控制。在 Claude Code 中，我们已将所有套餐的默认 effort 级别提升至 `xhigh`。在测试 Opus 4.7 编码与代理用例时，我们建议从 `high` 或 `xhigh` effort 起步。
 
-## 研究
+- **Claude Platform (API) 上**：除了支持更高分辨率图像外，我们还在公测中推出 **task budgets**（任务预算），让开发者能引导 Claude 的 token 消耗，使其在长任务中能更好地安排工作优先级。
 
-Opus 4.7 的技术报告与模型卡片将在未来几天内发布。
+- **Claude Code 中**：新的 `/ultrareview` [斜杠命令](https://code.claude.com/docs/en/commands) 会启动专门的审查会话，逐一阅读变更并标记出认真审阅者会发现的 bug 与设计问题。我们为 Pro 和 Max 套餐的 Claude Code 用户提供三次免费的 ultrareview 试用。此外，我们已面向 Max 用户扩展了 [auto mode](https://claude.com/blog/auto-mode)。Auto mode 是一种新的权限选项，让 Claude 代表你做决策，意味着你可以用更少的中断运行更长时间的任务 —— 并且比直接跳过所有权限更安全。
 
----
+### 从 Opus 4.6 迁移到 Opus 4.7
 
-*本文由 opencli 抓取 + 人工翻译生成。*
+Opus 4.7 是 Opus 4.6 的直接升级，但有两点变化值得提前规划，因为它们会影响 token 使用量。第一，Opus 4.7 使用了更新后的分词器，改进了模型处理文本的方式。代价是相同的输入可能映射到更多 token —— 根据内容类型不同，约为 1.0–1.35 倍。第二，Opus 4.7 在更高 effort 级别下会进行更多思考，特别是在代理场景的较后回合。这提升了它在困难问题上的可靠性，但也意味着会生成更多输出 token。
+
+用户可以通过多种方式控制 token 使用：使用 effort 参数、调整 task budgets，或者提示模型更简洁。在我们自己的测试中，综合效果是正面的 —— 在内部编码评估上所有 effort 级别的 token 使用都有改善 —— 但我们建议在真实流量上测量差异。我们已撰写 [迁移指南](https://platform.claude.com/docs/en/about-claude/models/migration-guide#migrating-to-claude-opus-4-7)，提供从 Opus 4.6 升级到 Opus 4.7 的进一步建议。
+
+### 脚注
+
+- 这是一项[模型级变更](https://platform.claude.com/docs/en/build-with-claude/vision)而非 API 参数，因此发送给 Claude 的图像会自动以更高保真度处理。因为更高分辨率图像消耗更多 token，不需要额外细节的用户可以在发送给模型之前对图像下采样。
+- 对于 GPT-5.4 和 Gemini 3.1 Pro，我们与 API 可用的最佳报告模型版本进行比较。
+- MCP-Atlas：Opus 4.6 的分数已更新，以反映 Scale AI 修订后的评分方法。
+- SWE-bench Verified、Pro 和 Multilingual：我们的记忆化筛查标记了这些 SWE-bench 评估中的一部分问题。排除有记忆化迹象的问题后，Opus 4.7 相对 Opus 4.6 的改进幅度保持不变。
+- Terminal-Bench 2.0：我们使用 Terminus-2 框架并禁用 thinking。所有实验使用 1× 保证 / 3× 上限资源分配，每项任务平均 5 次。
+- CyberGym：Opus 4.6 的分数已从最初报告的 66.6 更新为 73.8，因为我们更新了框架参数以更好激发网络能力。
+
+**2026 年 5 月 4 日更新**：更新了 _Document reasoning_ 图表，以反映 Opus 4.7 更新的 OfficeQA Pro 分数。
+
+*来源：Anthropic, 2026-04-16*
+
+## English Original
+
+# Introducing Claude Opus 4.7
+
+*April 16, 2026 — Anthropic*
+
+Our latest model, **Claude Opus 4.7**, is now generally available.
+
+Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering, with particular gains on the most difficult tasks. Users report being able to hand off their hardest coding work — the kind that previously needed close supervision — to Opus 4.7 with confidence. Opus 4.7 handles complex, long-running tasks with rigor and consistency, pays precise attention to instructions, and devises ways to verify its own outputs before reporting back.
+
+The model also has substantially better vision: it can see images in greater resolution. It's more tasteful and creative when completing professional tasks, producing higher-quality interfaces, slides, and docs. And — although it is less broadly capable than our most powerful model, **Claude Mythos Preview** — it shows better results than Opus 4.6 across a range of benchmarks.
+
+### Cybersecurity safeguards
+
+Last week we announced Project Glasswing, highlighting the risks — and benefits — of AI models for cybersecurity. We stated that we would keep Claude Mythos Preview's release limited and test new cyber safeguards on less capable models first. Opus 4.7 is the first such model: its cyber capabilities are not as advanced as those of Mythos Preview (indeed, during its training we experimented with efforts to differentially reduce these capabilities). We are releasing Opus 4.7 with safeguards that automatically detect and block requests that indicate prohibited or high-risk cybersecurity uses.
+
+Security professionals who wish to use Opus 4.7 for legitimate cybersecurity purposes (such as vulnerability research, penetration testing, and red-teaming) are invited to join our new [Cyber Verification Program](https://support.claude.com/en/articles/14604842-real-time-cyber-safeguards-on-claude).
+
+### Availability and pricing
+
+Opus 4.7 is available today across all Claude products and our API, Amazon Bedrock, Google Cloud's Vertex AI, and Microsoft Foundry. Pricing remains the same as Opus 4.6: **$5 per million input tokens and $25 per million output tokens**. Developers can use `claude-opus-4-7` via the [Claude API](https://platform.claude.com/docs/en/about-claude/models/overview).
+
+### Early access feedback highlights
+
+- **Financial platform**: "In early testing, we're seeing the potential for a significant leap for our developers with Claude Opus 4.7. It catches its own logical faults during the planning phase and accelerates execution, far beyond previous Claude models."
+
+- **AI coding platform**: "Anthropic has already set the standard for coding models, and Claude Opus 4.7 pushes that further in a meaningful way as the state-of-the-art model on the market."
+
+- **Hex**: "Claude Opus 4.7 is the strongest model Hex has evaluated. It correctly reports when data is missing instead of providing plausible-but-incorrect fallbacks, and it resists dissonant-data traps that even Opus 4.6 falls for."
+
+- **Cursor**: "On our 93-task coding benchmark, Claude Opus 4.7 lifted resolution by 13% over Opus 4.6, including four tasks neither Opus 4.6 nor Sonnet 4.6 could solve."
+
+- **Devin**: "Claude Opus 4.7 takes long-horizon autonomy to a new level in Devin. It works coherently for hours, pushes through hard problems rather than giving up."
+
+- **Rakuten / SWE-Bench**: "On Rakuten-SWE-Bench, Claude Opus 4.7 resolves 3x more production tasks than Opus 4.6, with double-digit gains in Code Quality and Test Quality."
+
+- **XBOW (autonomous pentest)**: "For the computer-use work that sits at the heart of XBOW's autonomous penetration testing, the new Claude Opus 4.7 is a step change: 98.5% on our visual-acuity benchmark versus 54.5% for Opus 4.6."
+
+### Testing highlights
+
+- **Instruction following**. Opus 4.7 is substantially better at following instructions. Users should re-tune their prompts and harnesses accordingly.
+- **Improved multimodal support**. Opus 4.7 can accept images up to 2,576 pixels on the long edge (~3.75 megapixels), more than three times as many as prior Claude models.
+- **Real-world work**. State-of-the-art on Finance Agent and GDPval-AA evaluations.
+- **Memory**. Opus 4.7 is better at using file system-based memory, remembering important notes across long, multi-session work.
+
+### Safety and alignment
+
+Opus 4.7 shows a similar safety profile to Opus 4.6: low rates of concerning behavior such as deception, sycophancy, and cooperation with misuse. On some measures (honesty, prompt-injection resistance) it is an improvement; on others (over-detailed harm-reduction advice on controlled substances) it is modestly weaker. Mythos Preview remains the best-aligned model we've trained.
+
+### Also launching today
+
+- **More effort control**: new `xhigh` ("extra high") effort level between `high` and `max`. Default in Claude Code is now `xhigh`.
+- **On the Claude Platform (API)**: support for higher-resolution images, plus **task budgets** in public beta.
+- **In Claude Code**: new `/ultrareview` slash command for dedicated review sessions, plus expanded **auto mode** for Max users.
+
+### Migrating from Opus 4.6 to Opus 4.7
+
+Two changes affect token usage: an updated tokenizer (1.0–1.35× more tokens for the same input depending on content type), and more "thinking" at higher effort levels (especially in later turns of agentic sessions). Use the [migration guide](https://platform.claude.com/docs/en/about-claude/models/migration-guide#migrating-to-claude-opus-4-7) for tuning advice.
+
+*Source: Anthropic, April 16, 2026 — Last updated May 4, 2026*

@@ -1,326 +1,102 @@
-# A2A v1.0 Is Here: Cross-Platform Agent Communication in Microsoft Agent Framework
-
-> 抓取时间：2026-06-20
-> 源链接：见各节头部
-
----
-
-## English Original
-
-# A2A v1 Is Here: Cross-Platform Agent Communication in Microsoft Agent Framework for .NET
-> 作者: Sergey Menshykh
-> 发布时间: 2026-04-28T20:57:51+00:00
-> 原文链接: https://devblogs.microsoft.com/agent-framework/a2a-v1-is-here-cross-platform-agent-communication-in-microsoft-agent-framework-for-net/
-
----
-
-As organizations move from single-agent prototypes to multi-agent production systems, the ability for agents to communicate reliably across platforms and organizational boundaries becomes essential. With the release of A2A Protocol v1.0 and updated support in the Microsoft Agent Framework, you can now connect and expose your AI agents using a stable, production-ready interoperability standard – whether you’re consuming remote agents or hosting your own.
-
-Both the **A2A Agent** (client-side) and **A2A Hosting** (server-side) .NET packages in the Agent Framework have been updated to the A2A v1 SDK. This means you can discover and call remote A2A agents from any vendor, and expose your own agents so that any A2A-compliant client can reach them – all using a protocol backed by a technical steering committee with representatives from AWS, Cisco, Google, IBM Research, Microsoft, Salesforce, SAP, and ServiceNow.
-
-While the A2A protocol itself has reached v1 (stable), the A2A SDK and the Agent Framework packages that implement it are still in preview.
-
-## Why Interoperability Matters Copy link
-
-In practice, multi-agent systems rarely live inside a single team or a single vendor stack. A procurement agent might need to consult a partner’s compliance service. A customer-support agent might hand off to a specialized agent built by a different division on a completely different platform. When each boundary requires custom integration code, the cost of connecting agents grows faster than the value they deliver.
-
-An open, standardized protocol for agent-to-agent communication removes that friction. It lets teams build agents with whatever framework fits their needs and connect them without bespoke glue code – the same way HTTP and REST made it possible to compose web services regardless of the language or platform behind them.
-
-## How the Agent Framework Enables It Copy link
-
-A2A support in the Agent Framework is designed so that interop comes for free – you don’t have to restructure your code or learn a separate programming model to take advantage of it.
-
-A remote A2A agent is just an `AIAgent` in your code. Same `RunAsync`, same streaming, same session handling. Swap a local Azure OpenAI agent for a remote A2A agent without touching the calling code, or compose them side by side in the same multi-agent workflow – sequential, concurrent, handoff, or group chat. A2A agents are first-class workflow participants alongside agents from any other provider.
-
-The same applies in reverse. Any `AIAgent` you’ve already built – on Microsoft Foundry, Azure OpenAI, OpenAI, Anthropic, AWS Bedrock, or any other supported provider – can be exposed as an A2A endpoint with a few lines of hosting code. There’s no protocol boilerplate to write, and no rewrite required when you decide to make an internal agent available across teams or to external partners.
-
-## Why Now? Copy link
-
-The A2A Protocol v1.0 is the first stable, production-ready version of the open standard for agent-to-agent communication. If you were using the earlier v0.3 draft, the v1 release tightens specification behavior and addresses enterprise requirements. Here are a few highlights:
-
--   **Stability and long-term support** – v1.0 signals that the core protocol is mature and ready for production investment. Rough edges from earlier drafts have been smoothed out, ambiguous areas clarified, and the API surface designed for durability.
--   **Enterprise-grade features** – multi-tenancy support, signed Agent Cards for cryptographic identity verification, and improved security flows make A2A v1 suitable for regulated and multi-party environments.
--   **Web-aligned architecture** – A2A v1 builds on industry-proven protocols and infrastructure patterns. You can scale agent interactions using the same load balancing, gateway, and observability tools you already use for web services.
-
-## Connect to a Remote A2A Agent Copy link
-
-If you’ve used `A2AAgent` in the Agent Framework before, the API is essentially unchanged – we updated the underlying SDK to A2A v1 with almost no breaking changes, so existing code continues to work with only minor tweaks. The familiar discovery patterns and `AIAgent` abstraction remain the same. As a quick refresher, here’s how to connect to a remote A2A agent.
-
-The `A2AAgent` wraps any A2A-compliant endpoint as a standard `AIAgent`, so you can interact with remote agents – regardless of what framework or language they were built with – using the same `RunAsync` and `RunStreamingAsync` methods you use with local agents.
-
-### Discover and Connect via Well-Known URI Copy link
-
-The A2A protocol defines a standard discovery path at `/.well-known/agent-card.json`. Use `A2ACardResolver` to fetch the agent card and create an agent in one call:
-
-Copy
-
-```csharp
-using A2A;
-using Microsoft.Agents.AI;
-
-// Point the resolver at the remote agent's host.
-A2ACardResolver resolver = new(new Uri("https://a2a-agent.example.com"));
-
-// Resolve the agent card and create an AIAgent in one step.
-AIAgent agent = await resolver.GetAIAgentAsync();
-
-// Use the agent like any other AIAgent.
-Console.WriteLine(await agent.RunAsync("What's the weather in Seattle?"));
-```
-
-### Direct Configuration Copy link
-
-For development scenarios or tightly coupled systems where the endpoint is known, create an `A2AClient` directly:
-
-Copy
-
-```csharp
-using A2A;
-using Microsoft.Agents.AI;
-
-A2AClient a2aClient = new(new Uri("https://a2a-agent.example.com"));
-
-AIAgent agent = a2aClient.AsAIAgent(name: "my-agent", description: "A helpful assistant.");
-
-Console.WriteLine(await agent.RunAsync("What can you help me with?"));
-```
-
-### Protocol Selection Copy link
-
-A2A v1 agents can expose multiple protocol bindings. By default, Agent Framework prefers HTTP+JSON with JSON-RPC as a fallback. You can control this explicitly:
-
-Copy
-
-```csharp
-using A2A;
-using Microsoft.Agents.AI;
-
-A2ACardResolver resolver = new(new Uri("https://a2a-agent.example.com"));
-
-A2AClientOptions options = new()
-{
-    PreferredBindings = [ProtocolBindingNames.HttpJson]
-};
-
-AIAgent agent = await resolver.GetAIAgentAsync(options: options);
-```
-
-### Stream Responses Copy link
-
-A2A supports streaming via Server-Sent Events. Use `RunStreamingAsync` to receive updates in real time:
-
-Copy
-
-```csharp
-using A2A;
-using Microsoft.Agents.AI;
-
-A2ACardResolver resolver = new(new Uri("https://a2a-agent.example.com"));
-AIAgent agent = await resolver.GetAIAgentAsync();
-
-await foreach (var update in agent.RunStreamingAsync("Write a short summary of quantum computing."))
-{
-    if (!string.IsNullOrEmpty(update.Text))
-    {
-        Console.Write(update.Text);
-    }
-}
-```
-
-## Host Your Agent as an A2A Endpoint Copy link
-
-The hosting packages let you expose any `AIAgent` via the A2A protocol so that any A2A-compliant client – built with any framework, in any language – can discover and communicate with your agent. The hosting API has been refined for A2A v1: server registration, endpoint mapping, and agent card discovery are now separate, explicit steps. The flow will feel familiar if you’ve hosted agents with the Agent Framework before – the [migration guide](https://learn.microsoft.com/en-us/agent-framework/migration-guide/agent-to-agent-sdk-v1) covers what changed.
-
-Here’s a minimal ASP.NET Core application that hosts a single agent over A2A:
-
-Copy
-
-```csharp
-using A2A;
-using A2A.AspNetCore;
-using Azure.AI.Projects;
-using Azure.Identity;
-using Microsoft.Agents.AI;
-
-var builder = WebApplication.CreateBuilder(args);
-
-// 1. Create and register the agent.
-builder.Services.AddKeyedSingleton<AIAgent>("weather-agent", (sp, _) =>
-{
-    return new AIProjectClient(new Uri("https://your-project.azure.com"), new DefaultAzureCredential())
-        .AsAIAgent(
-            model: "gpt-4o-mini",
-            instructions: "You are a helpful weather assistant.",
-            name: "weather-agent");
-});
-
-// 2. Register the A2A server for the agent.
-builder.AddA2AServer("weather-agent");
-
-var app = builder.Build();
-
-// 3. Map A2A protocol endpoints.
-app.MapA2AHttpJson("weather-agent", "/a2a/weather-agent");
-
-// 4. Serve an agent card for discovery.
-app.MapWellKnownAgentCard(new AgentCard
-{
-    Name = "WeatherAgent",
-    Description = "A helpful weather assistant.",
-    SupportedInterfaces =
-    [
-        new AgentInterface
-        {
-            Url = "https://your-host/a2a/weather-agent",
-            ProtocolBinding = ProtocolBindingNames.HttpJson,
-            ProtocolVersion = "1.0",
-        }
-    ]
-});
-
-app.Run();
-```
-
-The agent is now reachable at `https://your-host/a2a/weather-agent` and its agent card is discoverable at `https://your-host`. You can also map `MapA2AJsonRpc` alongside `MapA2AHttpJson` to let clients choose their preferred transport.
-
-### Host Multiple Agents Copy link
-
-A single application can host multiple agents, each with its own A2A server and endpoint:
-
-Copy
-
-```csharp
-// Register agents.
-builder.Services.AddKeyedSingleton<AIAgent>("weather-agent", (sp, _) =>
-    new AIProjectClient(new Uri("https://your-project.azure.com"), new DefaultAzureCredential())
-        .AsAIAgent(model: "gpt-4o-mini", instructions: "You are a helpful weather assistant.", name: "weather-agent"));
-
-builder.Services.AddKeyedSingleton<AIAgent>("scientist", (sp, _) =>
-    new AIProjectClient(new Uri("https://your-project.azure.com"), new DefaultAzureCredential())
-        .AsAIAgent(model: "gpt-4o-mini", instructions: "You are a scientist.", name: "scientist"));
-
-// Register A2A servers.
-builder.AddA2AServer("weather-agent");
-builder.AddA2AServer("scientist");
-
-var app = builder.Build();
-
-// Map endpoints.
-app.MapA2AHttpJson("weather-agent", "/a2a/weather-agent");
-app.MapA2AHttpJson("scientist", "/a2a/scientist");
-```
-
-## Putting It Together: Cross-Team Compliance Checks Copy link
-
-To see how the pieces connect, consider a concrete scenario. Your team runs an internal procurement agent that handles purchase requests. Company policy requires every request above a certain threshold to pass a compliance review – but the compliance agent is maintained by a partner team with its own tech stack.
-
-With the Agent Framework, neither team has to change how their agent is built. The partner team exposes their compliance agent as an A2A endpoint – the same `AddA2AServer` and `MapA2AHttpJson` pattern shown earlier. On your side, you add the partner’s agent to your workflow as a standard `A2AAgent`:
-
-Copy
-
-```csharp
-// Discover the partner team's compliance agent - it's just another AIAgent.
-A2ACardResolver resolver = new(new Uri("https://compliance.partner-team.internal"));
-AIAgent complianceAgent = await resolver.GetAIAgentAsync();
-
-// Your existing procurement agent - unchanged.
-AIAgent procurementAgent = projectClient
-    .ProjectOpenAIClient
-    .GetChatClient("gpt-4o-mini")
-    .AsIChatClient()
-    .AsAIAgent(
-        instructions: "You handle purchase requests. Hand off to compliance when review is needed.",
-        name: "procurement-agent");
-
-// Compose them in a handoff workflow using AgentWorkflowBuilder.
-Workflow workflow = AgentWorkflowBuilder
-    .CreateHandoffBuilderWith(procurementAgent)
-    .WithHandoffs(procurementAgent, complianceAgent)
-    .Build();
-```
-
-The procurement agent’s code doesn’t know or care that the compliance agent runs on a different framework, in a different language, or behind a different cloud. It’s just another `AIAgent`. If the partner team later moves to a different platform, nothing changes on your side as long as they remain A2A-compliant. And when a third team wants to add a fraud-detection agent to the pipeline, it slots in the same way – no custom integration work, no protocol glue.
-
-## Migrating from A2A v0.3 Copy link
-
-If you have existing code that uses the Agent Framework’s A2A packages with the v0.3 SDK, this is a breaking change. The main differences:
-
-| Area | v0.3 | v1 |
-| --- | --- | --- |
-| Server registration | Handled by `MapA2A` | Separate `AddA2AServer()` step |
-| Endpoint mapping | `app.MapA2A(agent, path, agentCard)` | `app.MapA2AHttpJson("name", path)` / `app.MapA2AJsonRpc("name", path)` |
-| Agent card | Inline parameter in `MapA2A()` | Dedicated `app.MapWellKnownAgentCard(card)` |
-| Protocol selection | JSON-RPC only | HTTP+JSON preferred, JSON-RPC fallback. Configurable via `A2AClientOptions.PreferredBindings` |
-
-The [migration guide](https://learn.microsoft.com/en-us/agent-framework/migration-guide/agent-to-agent-sdk-v1) covers each change in detail with before-and-after examples.
-
-## Learn More Copy link
-
-A2A v1 support is available in the .NET Agent Framework packages today.
-
-![✅](https://s.w.org/images/core/emoji/17.0.2/svg/2705.svg) **Try it** – [A2A Agent (client-side)](https://learn.microsoft.com/en-us/agent-framework/agents/providers/agent-to-agent?pivots=programming-language-csharp) · [A2A Hosting (server-side)](https://learn.microsoft.com/en-us/agent-framework/hosting/agent-to-agent)
-
-![🔁](https://s.w.org/images/core/emoji/17.0.2/svg/1f501.svg) **Migrating?** – [Migration guide from A2A v0.3 to v1](https://learn.microsoft.com/en-us/agent-framework/migration-guide/agent-to-agent-sdk-v1)
-
-![💬](https://s.w.org/images/core/emoji/17.0.2/svg/1f4ac.svg) **Engage** – [Discussion boards](https://github.com/microsoft/agent-framework/discussions) – share feedback, ask questions, and connect with the community
-
-![⭐](https://s.w.org/images/core/emoji/17.0.2/svg/2b50.svg) **Signal value** – If you’ve been enjoying Agent Framework, give us a [![⭐](https://s.w.org/images/core/emoji/17.0.2/svg/2b50.svg) on GitHub](https://github.com/microsoft/agent-framework)
-
-![📖](https://s.w.org/images/core/emoji/17.0.2/svg/1f4d6.svg) **Deep dive** – [A2A Protocol v1.0 announcement](https://a2a-protocol.org/latest/announcing-1.0/#why-this-release-matters-now)
+# A2A v1.0 协议全面落地：150+ 组织支持，AI 代理互操作进入生产阶段
+
+- **ID**: a2a_protocol_v1_0_2026_001
+- **原文链接**: https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year （原 URL https://agent-to-agent.org/v1-0-release 当前指向未上线页面，已回退至 Linux Foundation 官方公告）
+- **作者**: Linux Foundation / A2A Standards Consortium
+- **日期**: 2026-04-09
+- **分类**: agents
+- **标签**: A2A, Agent-to-Agent, 协调协议, 标准化, v1.0, Linux-Foundation
+- **质量评分**: 5/5
+- **抓取时间**: 2026-06-27T20:40:00
 
 ---
 
 ## 中文翻译
 
-**A2A v1 正式发布：Microsoft Agent Framework for .NET 中的跨平台智能体通信**
+### 概览
 
-作者：Sergey Menshykh
-发布时间：2026 年 4 月 28 日
+**2026 年 4 月 9 日，旧金山** —— 由 Linux 基金会托管的 A2A（Agent-to-Agent，代理对代理）协议项目，在其一周年节点宣布了重大采用里程碑：超过 150 家组织支持该标准，深度集成到 Google、Microsoft 和 AWS 平台，并在多个行业投入生产部署。
 
-随着各组织从单智能体原型迈向多智能体生产系统，智能体在不同平台与组织边界间可靠通信的能力变得至关重要。借助 A2A 协议 v1.0 的发布以及 Microsoft Agent Framework 的更新支持，你现在可以使用一个稳定的、生产就绪的互操作标准来连接和暴露你的 AI 智能体——无论你是消费远程智能体还是托管自己的智能体。
+A2A 在不到一年的时间内，从初步发布演进为生产就绪的开放标准，实现无缝的代理对代理通信。垂直应用涵盖供应链、金融服务、保险和 IT 运维等领域，组织使用 A2A 在不同工具、厂商和环境间协调自主系统。
 
-Agent Framework 中的 **A2A Agent**（客户端）和 **A2A Hosting**（服务端）.NET 包都已升级到 A2A v1 SDK。这意味着你可以发现和调用来自任何供应商的远程 A2A 智能体，并暴露你自己的智能体，使任何兼容 A2A 的客户端都能访问——全部使用一个由技术指导委员会背书的协议，委员会成员来自 AWS、Cisco、Google、IBM Research、Microsoft、Salesforce、SAP 与 ServiceNow。
+这种快速采用反映了面向代理架构的更广泛转变。随着软件系统更加独立运行，协同成为瓶颈。A2A 通过提供通用语义模型和版本协商机制来解决这一瓶颈，标准化代理如何发现、通信和相互交易，而无需绑定在单一厂商的生态中。
 
-虽然 A2A 协议本身已达到 v1（稳定），但实现它的 A2A SDK 和 Agent Framework 包仍处于预览阶段。
+> "AI 代理只有具备协作能力才有价值，150 多家组织采用 A2A 凸显了人们对开放、可互操作协议的广泛热情，"Google Cloud 商业应用平台副总裁兼总经理 Rao Surapaneni 表示，"这种势头迅速将该项目推向了生产就绪阶段，使不同的 AI 系统能够跨环境协同工作，避免那些常常阻碍其扩展的孤立定制连接。"
 
-## 为什么互操作性至关重要
+### 更新与采用
 
-在实践中，多智能体系统很少能存在于单个团队或单一供应商技术栈之内。一个采购智能体可能需要咨询合作伙伴的合规服务。一个客户支持智能体可能要交接给由不同部门在不同平台上构建的专门智能体。当每个边界都需要定制集成代码时，连接智能体的成本增长得比它们带来的价值更快。
+A2A 的发展势头在 1.0 版（首个稳定规范）发布后加速。更新引入了多协议支持、企业级多租户、现代化安全流以及面向早期采用者的明确迁移路径，消除了生产部署的关键障碍。特性包括用于加密身份验证的**签名 Agent Cards** 和支持常见安全与负载均衡模式的 **Web 对齐架构**，以实现高规模可靠性。此外，基于不同平台（LangGraph、CrewAI 等）构建的异构代理现在能够协同工作、委派子任务，并在不共享内部记忆的情况下协调复杂工作流。
 
-一个开放、标准的智能体间通信协议消除了这种摩擦。它让团队可以使用任何适合其需求的框架来构建智能体，并能在没有定制粘合代码的情况下连接它们——就像 HTTP 和 REST 让 web 服务能够跨语言、跨平台组合一样。
+云厂商也通过将 A2A 直接嵌入平台来强化这一势头。Microsoft 将 A2A 集成到 Azure AI Foundry 和 Copilot Studio，AWS 通过 Amazon Bedrock AgentCore Runtime 添加支持。这些集成使 A2A 成为云上构建代理系统的默认标准。
 
-## Agent Framework 如何实现这一目标
+该协议也已从通信领域扩展到经济协调。**Agent Payments Protocol (AP2)** 的推出支持安全的代理驱动交易，60 多家支付和金融服务的组织已经支持该计划。此外，UCP 通过其 AP2 授权扩展完全兼容 AP2，使其能够捕获用户购买同意的强加密证据。这将 A2A 扩展到需要交易完整性的高信任度、受监管环境。
 
-Agent Framework 中的 A2A 支持被设计为"开箱即用的互操作"——你无需重构代码或学习单独的编程模型就能利用它。
+### 生态规模
 
-远程 A2A 智能体在你的代码中就是一个 `AIAgent`。同样的 `RunAsync`、同样的流式响应、同样的会话处理。把本地的 Azure OpenAI 智能体换成远程 A2A 智能体，而无需修改调用代码；或者在同一个多智能体工作流中并排组合它们——顺序、并发、交接或群聊。A2A 智能体与任何其他提供商的智能体一样，是工作流的一等参与者。
+自 2025 年 4 月以来，支持组织数量从 50 多家增长到 150 多家 —— 包括 AWS、Cisco、Google、IBM、Microsoft、Salesforce、SAP 和 ServiceNow。核心仓库已超过 22,000 颗 GitHub Star，SDK 生态系统从单一的 Python 实现扩展到五种生产就绪语言，包括 JavaScript、Java、Go 和 .NET。
 
-反向也成立。你已经构建的任何 `AIAgent`（无论在 Microsoft Foundry、Azure OpenAI、OpenAI、Anthropic、AWS Bedrock 还是任何其他支持的提供商上）都可以通过几行托管代码暴露为 A2A 端点。没有协议样板代码可写，也不需要在决定将内部智能体跨团队或对外部合作伙伴开放时重写。
+在标准层面，A2A 与 **Model Context Protocol (MCP)**（同样是 Linux 基金会项目）形成互补。A2A 定义代理如何跨越组织边界相互通信和协调，而 MCP 定义代理如何连接内部工具和数据源。二者共同构成了跨技术栈、无需单一平台方法的可互操作多代理系统的基础层。
 
-## 为什么是现在？
+展望未来，A2A 路线图包括互操作性规范、注册表工作的整合、扩展的测试与工具、安全与部署最佳实践。
 
-A2A 协议 v1.0 是智能体间通信开放标准的第一个稳定、生产就绪的版本。如果你之前在使用 v0.3 草案，v1 版本收紧了规范行为并满足企业级要求。以下是一些亮点：
+凭借稳定的规范、内置的云支持以及不断增长的企业应用，A2A 正在从早期采用阶段演变为现代 AI 和分布式系统架构的核心组件。
 
-- **稳定与长期支持** —— v1.0 标志着核心协议已成熟、可以投入生产。早期的粗糙之处已被平滑，含糊之处已被澄清，API 表面的设计也考虑了长期可演进性。
-- **企业级特性** —— 多租户支持、用于加密身份验证的签名 Agent Card，以及改进的安全流程，使 A2A v1 适合受监管和多方的环境。
-- **面向 Web 的架构** —— A2A v1 建立在行业验证的协议与基础设施模式之上。你可以使用已有的负载均衡、网关与可观测性工具来扩展智能体交互，就像 web 服务一样。
+### 行业引用
 
-## 连接到远程 A2A 智能体
+- **Luca Muscariello（Cisco 杰出工程师）**："A2A 是使代理对代理通信可靠且可互操作的句法层。最令人兴奋的是这仅仅是个开始 —— 在将代理互联网变成行星规模现实方面有巨大的机会。"
 
-如果你之前在 Agent Framework 中使用过 `A2AAgent`，API 几乎未变——我们用 A2A v1 更新了底层 SDK，几乎没有破坏性变更，因此现有代码只需少量调整即可继续工作。熟悉的发现模式与 `AIAgent` 抽象保持不变。作为一个简短的回顾，下面是连接到远程 A2A 智能体的方法。
+- **Todd Segal（Google 杰出工程师）**："A2A 为个人、团队和领域专属代理提供了在任何平台上无缝协作的安全基础。"
 
-`A2AAgent` 将任何兼容 A2A 的端点包装为标准 `AIAgent`，因此你可以使用与本地智能体相同的 `RunAsync` 与 `RunStreamingAsync` 方法，与远程智能体（无论它们是用什么框架或语言构建的）进行交互。
+- **Darrel Miller（Microsoft 合作伙伴 API 架构师）**："A2A 背后的势头凸显了开放、可互操作标准对于实现多代理协作的重要性。Microsoft 期待与 Linux 基金会社区继续合作。"
 
-## 暴露你自己的 A2A 智能体
+### 进一步了解
 
-反向操作同样简单。任何现有的 `AIAgent` 都可以通过几行托管代码变成一个 A2A 端点。这意味着你的内部智能体可以被其他团队或外部合作伙伴发现和消费，而无需了解它原本的实现细节。
+- 访问 [a2a-protocol.org](http://a2a-protocol.org)
+- 查看 [技术规范](https://a2a-protocol.org/)
+- 查看 [GitHub 仓库](https://github.com/a2aproject/A2A)
+- 报名 [DeepLearning.AI 短课程](https://goo.gle/dlai-a2a)
+- 参考 [教程与示例](https://a2a-protocol.org/latest/tutorials/) 或 [SDK 参考](https://a2a-protocol.org/latest/sdk/)
 
-## A2A 在 Microsoft Agent Framework 中的下一步
+*来源：The Linux Foundation, 2026-04-09*
 
-我们对 A2A 的承诺不止于"协议层"互操作。我们正在与社区合作，让 Microsoft Foundry、Copilot Studio 以及 Microsoft 智能体生态中的其他组件成为 A2A 生态的一等公民。我们的目标很简单：让任何人在任何地方构建的任何智能体都能像调用 HTTP 服务一样轻松地被调用——稳定、开放、可观测。
+## English Original
 
-更多关于 .NET 中 A2A 的细节、完整代码示例与端到端教程，请参阅 [Microsoft Agent Framework 文档](https://learn.microsoft.com/en-us/agent-framework/)。
+# A2A Protocol Surpasses 150 Organizations, Lands in Major Cloud Platforms, and Sees Enterprise Production Use in First Year
 
----
+> Source: The Linux Foundation press release, April 9, 2026. The originally cited URL `https://agent-to-agent.org/v1-0-release` is currently parked on Squarespace and not serving the announcement, so the canonical press release is used here as the fallback.
 
-*本文由 opencli 抓取 + 人工翻译生成。*
+**SAN FRANCISCO – April 9, 2026** – The A2A (Agent-to-Agent) Protocol project, hosted by the Linux Foundation, today announced major adoption milestones at its one-year mark, with more than 150 organizations supporting the standard, deep integration across Google, Microsoft and AWS platforms, and active production deployments across multiple industries.
+
+In less than a year, A2A has moved from initial release to a production-ready open standard for seamless agent-to-agent communication. Vertical adoption spans supply chain, financial services, insurance, and IT operations, where organizations use A2A to coordinate autonomous systems across tools, vendors, and environments.
+
+This rapid uptake reflects a broader shift toward agent-based architectures. As software systems operate more independently, coordination becomes the bottleneck. A2A removes that bottleneck by providing a common semantic model and version negotiation that standardize how agents discover, communicate, and transact with each other, without being locked into a single vendor's ecosystem.
+
+> "AI agents are only as useful as their ability to collaborate, and the adoption of A2A by more than 150 organizations underscores the widespread enthusiasm for an open, interoperable protocol," said Rao Surapaneni, Vice President and General Manager of Business Applications Platform, Google Cloud.
+
+### Updates and Adoption
+
+A2A's momentum accelerated with the release of version 1.0, its first stable specification. The update introduced multi-protocol support, enterprise-grade multi-tenancy, modernized security flows, and a defined migration path for early adopters. Features include **Signed Agent Cards** for cryptographic identity verification and a **web-aligned architecture** that supports familiar security and load-balancing patterns. Diverse agents built on platforms like LangGraph or CrewAI are now able to work together, delegate sub-tasks, and coordinate complex workflows without sharing internal memory.
+
+Cloud providers reinforced that momentum by embedding A2A directly into their platforms. Microsoft integrated A2A into Azure AI Foundry and Copilot Studio, and AWS added support through Amazon Bedrock AgentCore Runtime. These integrations position A2A as a default standard for building agent-based systems in the cloud.
+
+The protocol has also expanded beyond communication into economic coordination. The introduction of the **Agent Payments Protocol (AP2)** enables secure, agent-driven transactions, with more than 60 organizations across payments and financial services already supporting the initiative.
+
+### Ecosystem Scale
+
+Since April 2025, the number of supporting organizations has grown from more than 50 to over 150 — including AWS, Cisco, Google, IBM, Microsoft, Salesforce, SAP, and ServiceNow. The core repository has surpassed 22,000 GitHub stars, and the SDK ecosystem has expanded from a single Python implementation to five production-ready languages, including JavaScript, Java, Go, and .NET.
+
+A2A is complementary to the **Model Context Protocol (MCP)**, another Linux Foundation project. A2A defines how agents communicate and coordinate with each other across organizational boundaries, while MCP defines how agents connect to internal tools and data sources. Together they form a foundational layer for interoperable, multi-agent systems that work across different technology stacks without requiring a single-platform approach.
+
+Looking ahead, the A2A roadmap includes an interoperability specification, consolidation of registry efforts, expanded testing and tooling, and security and deployment best practices.
+
+### Supporting Quotes
+
+- **Luca Muscariello, Distinguished Engineer, Cisco**: "A2A has emerged as the syntactic layer that makes agent-to-agent communication reliable and interoperable. What's most exciting is that this is just the beginning."
+- **Todd Segal, Distinguished Engineer, Google**: "A2A provides the secure foundation for personal, team, and domain-specific agents to work together seamlessly across any platform."
+- **Darrel Miller, Partner API Architect, Microsoft**: "The momentum behind A2A underscores the importance of open, interoperable standards for enabling multi-agent collaboration."
+
+### About the A2A Protocol
+
+The Agent-to-Agent (A2A) Protocol is an open standard that enables AI agents to discover, communicate, and transact with each other across different frameworks, vendors, and platforms. Originally developed by Google, the project is now hosted by the Linux Foundation. For more information, visit [a2a-protocol.org](http://a2a-protocol.org).
+
+*Source: The Linux Foundation, April 9, 2026*

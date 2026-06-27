@@ -1,361 +1,147 @@
-# GPT-5.5: OpenAI's Smartest Model Yet for Coding, Research, and Data Analysis
-
-> 抓取时间：2026-06-20
-> 源链接：见各节头部
-
----
-
-## English Original
-
-# 重磅发布 GPT
-> 发布时间: 2026-06-18T17:00
-> 原文链接: https://openai.com/index/introducing-gpt-5-5
-
----
-
-2026年4月23日
-
-[产品](https://openai.com/zh-Hans-CN/news/product-releases/)[发布](https://openai.com/research/index/release/)
-
-# 重磅发布 GPT‑5.5
-
-专为实际工作打造的新一代智能
-
-00:00
-
-聆听文章
-
-<audio src="https://cdn-azalea-tts-achmg6dqbafjaxcr.a01.azurefd.net/tts-prod/noLL6vBlXD9moeN22gaRT/ember/5d5a4fc817d93fa4f587e578439d943f.mp3" controls></audio>
-
-分享
-
-我们正式发布 GPT‑5.5。作为我们迄今最智能、交互体验最直观的模型，它标志着人类迈向全新计算机办公模式的关键一步。
-
-GPT‑5.5 能够更快速地洞察用户意向，并独立承担更多实质性工作。无论是编写与调试代码、开展在线调研、分析复杂数据，还是撰写文档、制作表格，乃至跨软件操作，它都能游刃有余地衔接各个工具，直至任务圆满完成。以往你需要步步为营地引导 AI，而现在，你只需将一个繁杂的多阶段任务交给 GPT‑5.5。它具备极强的自主性，能够自行制定计划、调用工具、核查结果并在模糊的边界中寻找最优路径，始终保持高效推进。
-
-在智能体编程、计算机使用、知识型工作以及前沿科学研究等领域，GPT‑5.5 的提升尤为显著。这些领域往往要求模型具备跨语境推理及长周期的行动能力。令人惊叹的是，GPT‑5.5 在实现智能跃迁的同时，并未牺牲响应速度。通常情况下，模型体量越大速度越慢，但 GPT‑5.5 在真实应用环境中的单 Token 延迟与 GPT‑5.4 持平，智能水平却大幅领先。此外，在处理相同的 Codex 任务时，其消耗的 Token 显著减少，真正实现了更高能、更经济。
-
-伴随 GPT‑5.5 一同发布的，还有我们迄今为止最完善的安全防护方案。这套体系旨在打击滥用行为，同时确保合法、有益的工作流程不受干扰。在正式发布前，我们不仅通过了全套安全与准备框架评估，还联合内外红队专家，针对高级网络安全和生物技术领域进行了专项测试。此外，我们还从近 200 家值得信赖的合作伙伴处收集了大量真实应用场景的反馈，确保模型在复杂实战中的安全性与可靠性。
-
-即日起，GPT‑5.5 将陆续面向 ChatGPT 及 Codex 的 Plus、Pro、Business 和 Enterprise 用户开放。同时，GPT‑5.5 Pro 也将同步推送给 Pro、Business 和 Enterprise 的订阅用户。由于 API 部署涉及不同的防护策略，我们正与合作伙伴及客户紧密协作，确保在大规模服务下的安全性。GPT‑5.5 与 GPT‑5.5 Pro 的 API 服务将于近期正式上线。
-
-<table><tbody><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p></p></td><td class="wrap-break-word"><p><b>GPT‑5.5</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4&nbsp;</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5 Pro</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4 Pro</b></p></td><td class="wrap-break-word"><p><b>Claude Opus 4.7</b></p></td><td class="wrap-break-word"><p><b>Gemini 3.1 Pro</b></p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>Terminal-Bench 2.0</p></td><td class="wrap-break-word"><p><b>82.7%</b></p></td><td class="wrap-break-word"><p>75.1%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>69.4%</p></td><td class="wrap-break-word"><p>68.5%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>Expert-SWE (Internal)</p></td><td class="wrap-break-word"><p><b>73.1%</b></p></td><td class="wrap-break-word"><p>68.5%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>GDPval（胜出或平局）</p></td><td class="wrap-break-word"><p><b>84.9%</b></p></td><td class="wrap-break-word"><p>83.0%</p></td><td class="wrap-break-word"><p>82.3%</p></td><td class="wrap-break-word"><p>82.0%</p></td><td class="wrap-break-word"><p>80.3%</p></td><td class="wrap-break-word"><p>67.3%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>OSWorld-Verified</p></td><td class="wrap-break-word"><p><b>78.7%</b></p></td><td class="wrap-break-word"><p>75.0%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>78.0%</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>Toolathlon</p></td><td class="wrap-break-word"><p><b>55.6%</b></p></td><td class="wrap-break-word"><p>54.6%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>48.8%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>BrowseComp</p></td><td class="wrap-break-word"><p>84.4%</p></td><td class="wrap-break-word"><p>82.7%</p></td><td class="wrap-break-word"><p><b>90.1%</b></p></td><td class="wrap-break-word"><p>89.3%</p></td><td class="wrap-break-word"><p>79.3%</p></td><td class="wrap-break-word"><p>85.9%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>FrontierMath Tier 1–3</p></td><td class="wrap-break-word"><p>51.7%</p></td><td class="wrap-break-word"><p>47.6%</p></td><td class="wrap-break-word"><p><b>52.4%</b></p></td><td class="wrap-break-word"><p>50.0%</p></td><td class="wrap-break-word"><p>43.8%</p></td><td class="wrap-break-word"><p>36.9%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>FrontierMath Tier 4</p></td><td class="wrap-break-word"><p>35.4%</p></td><td class="wrap-break-word"><p>27.1%</p></td><td class="wrap-break-word"><p><b>39.6%</b></p></td><td class="wrap-break-word"><p>38.0%</p></td><td class="wrap-break-word"><p>22.9%</p></td><td class="wrap-break-word"><p>16.7%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>CyberGym</p></td><td class="wrap-break-word"><p><b>81.8%</b></p></td><td class="wrap-break-word"><p>79.0%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>73.1%</p></td><td class="wrap-break-word"><p>-</p></td></tr></tbody></table>
-
-## 模型能力
-
-OpenAI 正在致力于打造全球性的智能体 AI 基础设施，旨在让全球用户与企业都能真正通过 AI 交付工作成果。在过去的一年里，我们见证了 AI 对软件工程效率的巨大拉动；而随着 GPT‑5.5 接入 Codex 与 ChatGPT，这种变革正进一步延伸至科学研究及更广泛的计算机办公领域。
-
-在这些领域中，GPT‑5.5 的进化不仅体现在更深层次的智能，更在于其解决问题的高效性。它通常能以更少的 Token 消耗和更低的重试频率，交付更高质量的产出。在 Artificial Analysis 的 Coding Agent Index 中，GPT‑5.5 以竞品前沿编程模型一半的成本，实现了行业领先的智能表现。
-
-[Artificial Analysis Intelligence Index⁠（在新窗口中打开）](https://artificialanalysis.ai/methodology/intelligence-benchmarking) 是由第三方机构测评的加权平均得分，涵盖了以下 10 项权威评估：AA-LCR、AA-Omniscience、CritPt、GDPval-AA、GPQA Diamond、Humanity’s Last Exam、IFBench、SciCode、Terminal-Bench Hard 以及 τ²-Bench Telecom。
-
-### 智能体编程
-
-GPT‑5.5 是我们迄今最强大的智能体编程模型。在 **Terminal-Bench 2.0** 测试中，面对需要缜密规划、反复迭代及多工具协作的复杂命令行工作流，GPT‑5.5 取得了 82.7% 的顶尖准确率。在衡量解决真实 GitHub 议题能力的 **SWE-Bench Pro** 评估中，其得分达到 58.6%，相比以往模型，它能在单次尝试中端到端地解决更多任务。而在针对长周期编程任务（人类中位完成时间约为 20 小时）的内部前沿评估 **Expert-SWE** 中，GPT‑5.5 的表现同样超越了 GPT‑5.4。
-
-在上述三项评估中，GPT‑5.5 不仅全面刷新了 GPT‑5.4 的成绩，且 Token 使用量更少。
-
-GPT‑5.5 的编程能力优势在 Codex 中得到明显体现。从代码实现、重构到调试、测试及验证，它都能全方位接管工程任务。早期测试表明，GPT‑5.5 更加契合真实工程环境下的行为模式：它能精准把握大型系统的上下文，在面对含义模糊的报错时进行深入推理，并主动通过工具验证假设，确保修改后的代码能适配整个库的既有逻辑。
-
-00:00
-
-渲染轨迹采用了 NASA/JPL Horizons 提供的猎户座 (Orion)、月球及太阳的矢量数据；为了提升可视化效果的可读性，我们对显示比例进行了相应缩放。
-
-**Prompt:** \[attached image\] Implement this as a new app using webgl and vite using real data from the artemis II mission. Make sure to test the app thoroughly until it is fully functional and looks like the app in the picture. Pay close attention to the rendering of the planets and fly paths. I want to be able to interact with the 3D rendering. Ensure it has realistic orbital mechanics.
-
-显示更多
-
-除了基准测试表现优异，早期测试者还反映 GPT‑5.5 对系统架构的整体把握能力更强：它能洞察故障的底层逻辑，锁定精准的修复位置，并预判代码变更可能引发的连锁反应。
-
-![备选](https://images.ctfassets.net/kftzwdyauwt9/5A8f5mO7aKrwLH5ClDV0si/e49a0a3c56f63d9998dd338ce16d0dd6/Blog1.png?w=3840&q=90&fm=webp)
-
-“这是我用过的第一个在概念理解上具有极高清晰度的编程模型。”
-
-![备选](https://images.ctfassets.net/kftzwdyauwt9/6T4xNx8jzQOmohTbNFpbt3/e85b69bdc6d86366e17d48739be4232e/Blog1.png?w=3840&q=90&fm=webp)
-
-“这是我用过的第一个在概念理解上具有极高清晰度的编程模型。”
-
-Every 创始人兼 CEO Dan Shipper 将 GPT‑5.5 评价为：“这是我用过的第一个在概念理解上具有极高清晰度的编程模型。”
-
-在应用上线后，他曾花费数天时间调试一个线上故障，最后不得不抽调一名最顶尖的工程师重写了部分系统。为了测试 GPT‑5.5，他实际上采用了“倒流时间”的方法：面对当时那个受损的状态，模型是否能够像工程师最终决定的那样，给出相同类型的重写方案？GPT‑5.4 没能做到。GPT‑5.5 成功了。
-
-![备选](https://images.ctfassets.net/kftzwdyauwt9/1eFs7ss7lMxUlZlbCCd6mC/d62c48414621c37d251564b6880dccc0/Blog2.png?w=3840&q=90&fm=webp)
-
-“它真的让我感觉是在与更高阶的智能协同工作，甚至产生了一种由衷的敬畏感。”
-
-![备选](https://images.ctfassets.net/kftzwdyauwt9/72r6bw8GUc0qCr8fXs4Fnu/8fd4014193a371af2db5b30026ddc540/Blog2.png?w=3840&q=90&fm=webp)
-
-“它真的让我感觉是在与更高阶的智能协同工作，甚至产生了一种由衷的敬畏感。”
-
-MagicPath 首席执行官 Pietro Schirano 也见证了类似的质变：GPT‑5.5 将一个包含数百项前端修改和重构的分支，成功合并到了一个同样发生巨变的主分支中。它仅用约 20 分钟便一次性完成了所有冲突解决与代码整合。
-
-资深工程师在对比测试后指出，GPT‑5.5 在推理能力和自主性上明显优于 GPT‑5.4 和 Claude Opus 4.7。它能提前发现潜在隐患，甚至在无需显式指令的情况下，预判测试与评审需求。在一次实测案例中，一位工程师要求其重构协作式 Markdown 编辑器的评论系统，结果它交出的 12 个 Diff 堆栈几乎已经可以直接发布。许多用户表示，相比 GPT‑5.4，他们对 GPT‑5.5 制定的方案更有信心，且极少需要对具体实现进行人工修正。
-
-一位提前试用该模型的 NVIDIA 工程师感叹道：“失去对 GPT‑5.5 的访问权限，感觉就像被截肢了一样。”
-
-> “相比 GPT-5.4，GPT-5.5 在智能程度和执行韧性上有显著提升，拥有更强大的编程表现以及更可靠的工具调用能力。它在处理任务时能保持更长时间的专注，而不会过早中断，这对于我们的用户交付给 Cursor 的那些复杂且长周期的工作任务至关重要。”
-
-— Michael Truell，Cursor 联合创始人兼 CEO
-
-### 知识型工作
-
-这些让 GPT‑5.5 在编程领域大放异彩的优势，同样使其成为日常办公的强大助力。由于模型能更敏锐地捕捉用户意向，它在处理知识型工作时显得更加自然流畅：从搜集资料、提炼核心价值，到调用工具、核查产出，并最终将零散的素材转化为实用成果，整个链路一气呵成。
-
-在 Codex 环境下，GPT‑5.5 制作文档、表格及演示文稿的能力较 GPT‑5.4 有了显著提升。Alpha 测试者反馈，在运筹研究、电子表格建模以及将凌乱的业务需求转化为执行计划等任务中，它的表现远超以往模型。结合 Codex 的计算机使用 (computer use) 能力，GPT‑5.5 带来了前所未有的“人机协作感”：它能实时理解屏幕内容，精准进行点击、录入和界面导航，并熟练地在不同工具间跨越操作。
-
-目前，OpenAI 内部团队已率先将这些优势应用到真实的业务流中。如今，公司内超过 85% 的员工每周都会使用 Codex，涵盖软件工程、财务、传播、市场营销、数据科学和产品管理等多个职能领域。公关团队利用 Codex 中的 GPT‑5.5 分析了过去六个月的演讲请求数据，建立了一套评分与风险预警框架，并以此验证了一款自动化 Slack 智能体。该智能体能够自动处理低风险请求，而将高风险项转交人工审核。财务团队借助 Codex 处理了 24,771 份 K-1 税务报表，共计 71,637 页。通过这一脱敏处理的工作流，团队比去年提前两周完成了任务。市场拓展团队的一名员工实现了周报生成的自动化，每周节省了 5 到 10 小时。
-
-00:00
-
-在 ChatGPT 中，**GPT‑5.5 Thinking** 让攻克难题变得更为高效，通过更智能、更简洁的回答，协助用户理清复杂工作的头绪。它在编程、调研、信息综合分析以及处理文档密集型任务方面表现卓越，配合插件使用时效果尤为显著。
-
-**GPT‑5.5 Pro** 的表现同样出色：早期测试者发现 ChatGPT 承接任务的难度上限和交付质量都有了跨越式提升，延迟表现的改善也使其在处理高强度任务时更具实用性。相比 GPT‑5.4 Pro，测试者认为 GPT‑5.5 Pro 的回答在全面性、结构化、准确度、相关性及实用价值上均有显著突破，尤其在商业、法律、教育和数据科学领域表现强劲。
-
-多项衡量实战能力的基准测试结果也印证了这一点：**GDPval** （衡量 44 种职业中具有经济价值的真实知识型工作）：GPT‑5.5 得分为 84.9%。**OSWorld-Verified** （衡量模型自主操作真实计算机环境的能力）：得分达到 78.7%。**Tau2-bench Telecom**（测试复杂客服工作流）：在无需提示词微调的情况下，准确率高达 98.0%。
-
-此外，GPT‑5.5 在结构化知识型工作方面同样表现不俗：在 **FinanceAgent** 测试中取得 60.0% 的成绩；在**内部投资银行建模任务** 中达到 88.5%；而在 **OfficeQA Pro**（要求模型结合文件、工具和上下文进行实操而非死记硬背）测试中，得分为 54.1%。
-
-Tau2-bench Telecom 测试是在未进行提示词微调（且以 GPT‑4.1 作为用户模型）的情况下运行的。与前代模型相比，GPT‑5.5 能够更精准地理解任务意向，且 Token 利用效率更高。
-
-> “GPT-5.5 展现出了支撑重度执行类任务所需的持续性能。得益于在 NVIDIA GB200 NVL72 系统上的构建与部署，该模型让我们的团队仅凭自然语言提示词就能交付端到端的功能，将调试周期从几天缩短至数小时，并将复杂代码库中原本需要数周的实验进度压缩至一夜之间。这不仅仅是编程速度的提升，更是一种全新的工作模式，帮助人们以一种完全不同的效率开展工作。”
-
-— Justin Boitano，NVIDIA 企业级 AI 副总裁
-
-### 科学研究
-
-GPT‑5.5 在科学和技术研究工作流中同样展现出显著优势。科研工作并非简单的问答，而是一个探索构思、搜集证据、验证假设、解读结果并决策下一步行动的完整循环。GPT‑5.5 在这一循环中的表现比以往任何模型都更加稳健持久。
-
-值得注意的是，在 [**GeneBench**⁠（在新窗口中打开）](https://cdn.openai.com/pdf/6dc7175d-d9e7-4b8d-96b8-48fe5798cd5b/oai_genebench_benchmark.pdf) 测试中，GPT‑5.5 较 GPT‑5.4 有了跨越式的提升。这是一项专注于遗传学和定量生物学多阶段科学数据分析的新型评估，要求模型在极少的人工干预下，对具有模糊性或存在误差的数据进行推理，处理如隐藏混杂因素或质控 (QC) 失败等现实障碍，并精准实现及解读现代统计学方法。考虑到该测试中的任务通常对应科学专家数天的项目量，模型的表现确实令人瞩目。
-
-同样，在围绕真实生物信息学及数据分析设计的 BixBench 测试中，GPT‑5.5 在所有已公布评分的模型中名列前茅。目前，该模型的科学能力已足以作为真正的“科学共同体”成员，切实加速生物医学研究的前沿进展。
-
-在另一个案例中，一个搭载自定义框架的 GPT‑5.5 内部版本协助发现了关于拉姆齐数 (Ramsey numbers) 的[全新证明⁠（在新窗口中打开）](https://cdn.openai.com/pdf/6dc7175d-d9e7-4b8d-96b8-48fe5798cd5b/Ramsey.pdf)。拉姆齐数是组合数学的核心研究对象之一；组合数学主要研究离散对象（如路径、网络、集合和模式）如何相互关联。简单来说，拉姆齐数探究的是：一个网络必须达到多大规模，才能保证某种秩序必然出现。该领域的成果非常罕见且技术难度极大。GPT‑5.5 发现了一个关于非对角拉姆齐数长期存在的渐近事实证明，随后该证明在 Lean 形式化证明语言中得到了验证。该成果是一个具体的范例，表明 GPT‑5.5 不仅仅能提供代码或解释，更能为研究领域贡献出令人惊喜且极具价值的数学论证。
-
-早期测试者在使用 ChatGPT 中的 GPT‑5.5 Pro 时，更多是将其视为研究伙伴而非单次应答机：它能通过多轮交互评议手稿、压力测试技术论证、提议分析方案，并结合代码、笔记和 PDF 上下文进行协作。这种转变的核心在于，GPT‑5.5 能够更有效地辅助研究人员完成从提出问题到设计实验，再到最终产出的全过程。
-
-![备选](https://images.ctfassets.net/kftzwdyauwt9/3tvjV3IAWoNm6kBwh6XjQB/5d2c1ca28e25d5ee015fd220b919d5b3/Blog3.png?w=3840&q=90&fm=webp)
-
-![备选](https://images.ctfassets.net/kftzwdyauwt9/2xO4DFtGj9mgmlKpR2EgBR/c8102d3256edfb11b21a8297d0891424/Blog3.png?w=3840&q=90&fm=webp)
-
-Derya Unutmaz 是杰克逊基因组医学实验室 (Jackson Laboratory for Genomic Medicine) 的免疫学教授兼研究员，他使用 GPT‑5.5 Pro 分析了一个包含 62 个样本、近 28,000 个基因的基因表达数据集。他生成了一份详尽的研究报告，不仅总结了实验发现，还提出了关键问题和见解。他表示，这类工作以往通常需要团队耗时数月才能完成。
-
-![备选](https://images.ctfassets.net/kftzwdyauwt9/5kx7uMF0Iq0fRIluO7JgN1/1e899be5fe72247475ecd8dc9a3a0dd4/Blog5.png?w=3840&q=90&fm=webp)
-
-![备选](https://images.ctfassets.net/kftzwdyauwt9/2cUS16rFVukXEvhllfm5A4/ace05408b550de68da57ff5fce5ede90/Blog5.png?w=3840&q=90&fm=webp)
-
-波兰波兹南亚当·密茨凯维奇大学 (Adam Mickiewicz University) 数学系助理教授 Bartosz Naskręcki 使用 Codex 中的 GPT‑5.5，仅凭一条提示词就在 11 分钟内构建了一个代数几何应用。该应用能够实现二次曲面交集的可视化，并能将生成的曲线转换为魏尔斯特拉斯模型 (Weierstrass model)。
-
-随后，他进一步扩展了该应用，加入了更稳定的奇点可视化功能，并提供了可供后续研究复用的精确系数。对他而言，更重大的转变在于 Codex 现在能够辅助实现自定义的数学可视化和计算机代数工作流，而这些在以前往往需要专门的工具。综合来看，这些案例证明了 GPT‑5.5 正在将专家的意向转化为切实可用的研究工具和分析成果。
-
-![""](https://images.ctfassets.net/kftzwdyauwt9/1WiRj8XUEoqruFEKNQJPRr/4063977e99833d7129b6a238b4d3d876/Bartosz_Visual.png?w=3840&q=90&fm=webp)
-
-[图片来源：Bartosz Naskręcki⁠（在新窗口中打开）](https://bnaskrecki.faculty.wmi.amu.edu.pl/quadr/)
-
-**Prompt:** \# Algebraic geometry surface intersection
-
-Make an app which draws two quadratic surfaces and colors in red the intersection curve. Use computational Riemann-Roch theorem to convert this into Weierstrass curve.
-
-\## Main window
-
-Two tinted surfaces with a slightly transparent shading, high quality rendering intersect along a red colored algebraic curve
-
-Rotation with mouses in both directions, full pinch mechanism for zoom, haptic press to show the little menu with sliders for changing the coefficients of each surface; detection via Z-buffor level
-
-\## Side right window
-
-Short Weierstrass equation (over Q or quadratic field extension) computed on the go via effective Riemann-Roch theorem formulas
-
-\## Ambient mode where all the controls are hidden and the user can admire the beauty of the shapes
-
-\## Specs
-
-App is running in the browser, light-weight implementation with full stack newest libraries, portable, deployable
-
-\## Docs
-
-Git repo, journal, plan (Markdown files)
-
-显示更多
-
-> “能在我们的系统框架中调用 OpenAI 全新的 GPT-5.5 模型，看到它在海量生化数据集上通过推理预测人体药物成效，并在我们最难的药物研发评估中实现准确率的显著飞跃，这真的非常令人振奋。如果 OpenAI 保持这种惊人的迭代速度，到今年年底，药物发现的基础格局将彻底改变。”
-
-— Brandon White，Axiom Bio 联合创始人兼 CEO
-
-## 新一代推理效率
-
-为了在维持 GPT‑5.4 延迟水平的前提下提供 GPT‑5.5 的强大性能，我们必须将推理视为一个完整的集成系统进行重新思考，而非单纯的局部优化。GPT‑5.5 适配了 NVIDIA GB200 及 GB300 NVL72 系统，从联合设计、模型训练到在线服务均基于此。Codex 与 GPT‑5.5 对实现性能目标起到了决定性作用。Codex 协助团队快速将构思转化为可测试的方案，通过勾勒技术路径和搭建实验环境，帮助我们精准锁定最具投资价值的优化点。GPT‑5.5 甚至亲自参与了系统底层栈的改进与实现。简而言之，模型亲自优化了运行它自身的底层基础设施。
-
-其中一项关键改进体现在负载均衡与分区启发式算法。在 GPT‑5.5 发布前，为了平衡计算核心的工作量并确保不同规模的请求能在同一 GPU 上运行，我们将加速器上的请求拆分为固定数量的区块。然而，静态区块分配并非面对各种流量形态的最优解。为了更充分地利用 GPU 性能，Codex 分析了数周的生产环境流量模式，并编写了定制的启发式算法，实现了任务的最优分区与平衡。这项工作产生了远超预期的影响，将 Token 生成速度提升了 20% 以上。
-
-## 提升网络防御能力，守护全民安全
-
-在模型能够精准发现并修复漏洞的时代，构建防御韧性是一项需要全行业参与的系统性工程。我们需要通过民主化的模型准入和迭代部署，为[下一个阶段的网络防御⁠](https://openai.com/zh-Hans-CN/index/scaling-trusted-access-for-cyber-defense/)构筑全生态的免疫力。
-
-前沿模型在网络安全领域的实力正日益增强。由于这些能力终将走向普及，我们坚信，最有效的应对之道是确保这些力量能优先用于加速网络防御，从而增强整个生态系统。
-
-在利用 AI 应对网络安全等全球性挑战的进程中，GPT‑5.5 迈出了虽小但至关重要的一步。继去年 12 月在 GPT‑5.2 中主动部署了必要的[网络安全护栏⁠](https://openai.com/zh-Hans-CN/index/strengthening-cyber-resilience/)以遏制潜在滥用后，我们在 GPT‑5.5 中引入了更严苛的风险分类器。虽然在后续的持续微调过程中，部分用户初期可能会感到些许不便，但这对于保障系统安全至关重要。
-
-多年来，随着模型能力的递进式提升，我们始终在[准备框架⁠（在新窗口中打开）](https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf)中将网络安全列为重点领域。通过不断开发并校准缓解方案，我们确保了能够在负责任的前提下，发布具备实质性网络安全能力的前沿模型。
-
--   **针对这一级别的网络安全能力，我们部署了行业领先的防护措施。**自去年在 [GPT‑5.2⁠（在新窗口中打开）](https://deploymentsafety.openai.com/gpt-5-2/deception) 中首次引入专项安全护栏以来，我们持续在后续部署中进行测试与完善。针对 GPT‑5.5，我们围绕高风险活动和敏感网络请求设计了更严密的管控机制，并增加了针对重复性滥用行为的保护。通过在模型安全、身份认证以及违规监控方面的投入，我们才得以实现如此广泛的模型准入。数月以来，我们一直与外部专家合作，不断打磨并强化这些防护措施的稳健性。在 GPT‑5.5 中，我们致力于确保开发者能轻松加固代码，同时对恶意攻击者最可能利用的危害性工作流施加了更强有力的管控。
--   **为了全面加速各层级的网络防御，我们正在扩大模型的使用权限。**通过 [网络安全受信访问 (Trusted Access for Cyber)⁠](https://openai.com/zh-Hans-CN/index/scaling-trusted-access-for-cyber-defense/) 计划，我们正率先在 Codex 中提供“网络安全放行版”模型。这意味着在发布之初，符合特定[信任信号⁠（在新窗口中打开）](https://developers.openai.com/codex/concepts/cyber-safety)的认证用户即可在更少限制的情况下，调用 GPT‑5.5 强大的网络安全能力。负责[保护关键基础设施⁠](https://openai.com/zh-Hans-CN/index/accelerating-cyber-defense-ecosystem/)的机构在满足严格安全要求的前提下，可申请使用 GPT‑5.4‑Cyber 等专项模型来加固其内部系统。这种模式不仅为广大认证防御者提供了更高效的专业工具，还减少了不必要的阻碍，确保核心防御能力得以真正普及。从事认证防御工作的用户可前往 [chatgpt.com/cyber⁠（在新窗口中打开）](http://chatgpt.com/cyber?openaicom-did=e5dd4ebb-adfb-4da1-913b-ec84032d9b3a&openaicom_referred=true) 申请受信访问，以减少使用 GPT‑5.5 时的误报拦截。
--   **我们正与政府合作伙伴共同守护关乎民生的关键基础设施。** 我们正在共同探索如何利用尖端 AI 技术，支持相关部门开展防御工作 — 从保障重要纳税人数据的数字系统，到社区的电网和水源供应，确保这些民众赖以生存的系统安全无虞。
-
-我们根据[准备框架⁠（在新窗口中打开）](https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf)，将 GPT‑5.5 的生物/化学及网络安全能力评定为“高” (high) 等级。尽管 GPT‑5.5 尚未达到“极高” (critical) 的网络安全能力水平，但评估显示，其防御实战能力较 GPT‑5.4 已有显著跨越。
-
-同时，GPT‑5.5 在发布前经过了完整的安全与治理流程，包括准备性评估、领域专项测试、针对高级生物与网络安全能力的定向评估，以及由外部专家参与的深度压力测试。更多技术细节可在 GPT‑5.5 系统卡中查阅。
-
-这些努力体现了我们构建“AI 韧性”的宏观思路。随着模型能力的进化，我们希望将强大的 AI 交到那些守护系统、机构和公众安全的人手中。受信访问、随能力动态扩展的防护体系、以及检测并响应严重滥用的实操能力 — 这才是行之有效的必经之路。
-
-## 可用性与定价
-
-即日起，GPT‑5.5 将全面登陆 ChatGPT、Codex 及 API 平台，并同步面向 Microsoft Foundry 的开发者开放。
-
-在 ChatGPT 中，Plus、Pro、Business 和 Enterprise 用户均可使用 GPT‑5.5 Thinking。专为应对极端复杂问题、追求极高准确率而设计的 GPT‑5.5 Pro，则面向 Pro、Business 及 Enterprise 用户开放。
-
-在 Codex 中，GPT‑5.5 已支持 Plus、Pro、Business、Enterprise、Edu 及 Go 套餐，并提供 400K 上下文窗口。此外，Codex 还推出了快速模式，能以 1.5 倍的生成速度响应请求（费用为标准模式的 2.5 倍）。
-
-面向 API 开发者，gpt-5.5 即将接入 Responses 及 Chat Completions API。其定价为每百万输入 Token 5 美元，每百万输出 Token 30 美元，并支持高达 1M 的上下文窗口。此外，Batch 和 Flex 的价格仅为标准 API 费率的一半，而 Priority（优先）处理的费率为标准费率的 2.5 倍。我们还将在 API 中推出 gpt-5.5-pro，以实现更高的准确性，定价为每百万输入 Token 30 美元，每百万输出 Token 180 美元。详情请查看定价页面情。
-
-尽管 GPT‑5.5 的定价高于 GPT‑5.4，但它在实现智能跃迁的同时，Token 利用效率也大幅提升。在 Codex 中，我们经过精心调优，确保 GPT‑5.5 在大多数场景下能以更少的 Token 交付优于 GPT‑5.4 的结果。此外，各订阅层级依然享有极具诚意的使用配额。
-
-## 评估
-
-### 编程
-
-<table><tbody><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p><b>评估</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5 Pro</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4 Pro</b></p></td><td class="wrap-break-word"><p><b>Claude Opus 4.7</b></p></td><td class="wrap-break-word"><p><b>Gemini 3.1 Pro</b></p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>SWE-Bench Pro (Public) *</p></td><td class="wrap-break-word"><p>58.6%</p></td><td class="wrap-break-word"><p>57.7%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>64.3%</p></td><td class="wrap-break-word"><p>54.2%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>Terminal-Bench 2.0</p></td><td class="wrap-break-word"><p>82.7%</p></td><td class="wrap-break-word"><p>75.1%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>69.4%</p></td><td class="wrap-break-word"><p>68.5%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>Expert-SWE (Internal)</p></td><td class="wrap-break-word"><p>73.1%</p></td><td class="wrap-break-word"><p>68.5%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr></tbody></table>
-
-\*实验室已在该评估项中发现存在[“记忆化”(memorization) 的证据⁠（在新窗口中打开）](https://www.anthropic.com/news/claude-opus-4-7)
-
-### 专业能力
-
-<table><tbody><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p><b>评估</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5 Pro</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4 Pro</b></p></td><td class="wrap-break-word"><p><b>Claude </b><b>Opus 4.7</b></p></td><td class="wrap-break-word"><p><b>Gemini 3.1 Pro</b></p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>GDPval（胜出或平局）</p></td><td class="wrap-break-word"><p>84.9%</p></td><td class="wrap-break-word"><p>83.0%</p></td><td class="wrap-break-word"><p>82.3%</p></td><td class="wrap-break-word"><p>82.0%</p></td><td class="wrap-break-word"><p>80.3%</p></td><td class="wrap-break-word"><p>67.3%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>FinanceAgent v1.1</p></td><td class="wrap-break-word"><p>60.0%</p></td><td class="wrap-break-word"><p>56.0%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>61.5%</p></td><td class="wrap-break-word"><p>64.4%</p></td><td class="wrap-break-word"><p>59.7%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>投资银行建模任务（内部）</p></td><td class="wrap-break-word"><p>88.5%</p></td><td class="wrap-break-word"><p>87.3%</p></td><td class="wrap-break-word"><p>88.6%</p></td><td class="wrap-break-word"><p>83.6%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>OfficeQA Pro</p></td><td class="wrap-break-word"><p>54.1%</p></td><td class="wrap-break-word"><p>53.2%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>43.6%</p></td><td class="wrap-break-word"><p>18.1%</p></td></tr></tbody></table>
-
-### 计算机使用与视觉
-
-<table><tbody><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p><b>评估</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5 Pro</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4 Pro</b></p></td><td class="wrap-break-word"><p><b>Claude </b><b>Opus 4.7</b></p></td><td class="wrap-break-word"><p><b>Gemini 3.1 Pro</b></p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>OSWorld-Verified</p></td><td class="wrap-break-word"><p>78.7%</p></td><td class="wrap-break-word"><p>75.0%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>78.0%</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>MMMU Pro（无工具）</p></td><td class="wrap-break-word"><p>81.2%</p></td><td class="wrap-break-word"><p>81.2%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>80.5%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>MMMU Pro（含工具）</p></td><td class="wrap-break-word"><p>83.2%</p></td><td class="wrap-break-word"><p>82.1%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr></tbody></table>
-
-### 工具使用
-
-<table><tbody><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p><b>评估</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5 Pro</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4 Pro</b></p></td><td class="wrap-break-word"><p><b>Claude </b><b>Opus 4.7</b></p></td><td class="wrap-break-word"><p><b>Gemini 3.1 Pro</b></p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>BrowseComp</p></td><td class="wrap-break-word"><p>84.4%</p></td><td class="wrap-break-word"><p>82.7%</p></td><td class="wrap-break-word"><p>90.1%</p></td><td class="wrap-break-word"><p>89.3%</p></td><td class="wrap-break-word"><p>79.3%</p></td><td class="wrap-break-word"><p>85.9%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>MCP Atlas**</p></td><td class="wrap-break-word"><p>75.3%</p></td><td class="wrap-break-word"><p>70.6%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>79.1%</p></td><td class="wrap-break-word"><p>78.2%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>Toolathlon</p></td><td class="wrap-break-word"><p>55.6%</p></td><td class="wrap-break-word"><p>54.6%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>48.8%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>Tau2-bench Telecom***<br>（原始提示词）</p></td><td class="wrap-break-word"><p>98.0%</p></td><td class="wrap-break-word"><p>92.8%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr></tbody></table>
-
-\*\* MCP Atlas：Scale AI 在 2026 年 4 月最新更新后的结果。
-\*\*\* Tau2-bench telecom：GPT‑5.5 与 5.4 采用原始提示词（即未进行提示词调整）的测试结果。此处忽略了其他实验室在评估时采用提示词调整后所得出的结果。
-
-### 学术
-
-<table><tbody><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p><b>评估</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5 Pro</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4 Pro</b></p></td><td class="wrap-break-word"><p><b>Claude </b><b>Opus 4.7</b></p></td><td class="wrap-break-word"><p><b>Gemini 3.1 Pro</b></p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>GeneBench</p></td><td class="wrap-break-word"><p>25.0%</p></td><td class="wrap-break-word"><p>19.0%</p></td><td class="wrap-break-word"><p>33.2%</p></td><td class="wrap-break-word"><p>25.6%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>FrontierMath Tier 1–3</p></td><td class="wrap-break-word"><p>51.7%</p></td><td class="wrap-break-word"><p>47.6%</p></td><td class="wrap-break-word"><p>52.4%</p></td><td class="wrap-break-word"><p>50.0%</p></td><td class="wrap-break-word"><p>43.8%</p></td><td class="wrap-break-word"><p>36.9%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>FrontierMath Tier 4</p></td><td class="wrap-break-word"><p>35.4%</p></td><td class="wrap-break-word"><p>27.1%</p></td><td class="wrap-break-word"><p>39.6%</p></td><td class="wrap-break-word"><p>38.0%</p></td><td class="wrap-break-word"><p>22.9%</p></td><td class="wrap-break-word"><p>16.7%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>BixBench</p></td><td class="wrap-break-word"><p>80.5%</p></td><td class="wrap-break-word"><p>74.0%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>GPQA Diamond</p></td><td class="wrap-break-word"><p>93.6%</p></td><td class="wrap-break-word"><p>92.8%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>94.4%</p></td><td class="wrap-break-word"><p>94.2%</p></td><td class="wrap-break-word"><p>94.3%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>Humanity's Last Exam（无工具）</p></td><td class="wrap-break-word"><p>41.4%</p></td><td class="wrap-break-word"><p>39.8%</p></td><td class="wrap-break-word"><p>43.1%</p></td><td class="wrap-break-word"><p>42.7%</p></td><td class="wrap-break-word"><p>46.9%</p></td><td class="wrap-break-word"><p>44.4%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>Humanity's Last Exam（含工具）</p></td><td class="wrap-break-word"><p>52.2%</p></td><td class="wrap-break-word"><p>52.1%</p></td><td class="wrap-break-word"><p>57.2%</p></td><td class="wrap-break-word"><p>58.7%</p></td><td class="wrap-break-word"><p>54.7%</p></td><td class="wrap-break-word"><p>51.4%</p></td></tr></tbody></table>
-
-### 网络安全
-
-<table><tbody><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p><b>评估</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5 Pro</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4 Pro</b></p></td><td class="wrap-break-word"><p><b>Claude </b><b>Opus 4.7</b></p></td><td class="wrap-break-word"><p><b>Gemini 3.1 Pro</b></p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>夺旗挑战任务（内部）****</p></td><td class="wrap-break-word"><p>88.1%</p></td><td class="wrap-break-word"><p>83.7%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>CyberGym</p></td><td class="wrap-break-word"><p>81.8%</p></td><td class="wrap-break-word"><p>79.0%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>73.1%</p></td><td class="wrap-break-word"><p>-</p></td></tr></tbody></table>
-
-\*\*\*\* 在系统卡原有的最难 CTF（夺旗挑战）基础上进行了扩展，并新增了一系列极具挑战性的项目。
-
-### 长上下文
-
-<table><tbody><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p><b>评估</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5 Pro</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4 Pro</b></p></td><td class="wrap-break-word"><p><b>Claude </b><b>Opus 4.7</b></p></td><td class="wrap-break-word"><p><b>Gemini 3.1 Pro</b></p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>Graphwalks BFS 256k f1</p></td><td class="wrap-break-word"><p>73.7%</p></td><td class="wrap-break-word"><p>62.5%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>76.9%</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>Graphwalks BFS 1mil f1</p></td><td class="wrap-break-word"><p>45.4%</p></td><td class="wrap-break-word"><p>9.4%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>41.2% (Opus 4.6)</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>Graphwalks parents 256k f1</p></td><td class="wrap-break-word"><p>90.1%</p></td><td class="wrap-break-word"><p>82.8%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>93.6%</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>Graphwalks parents 1mil f1</p></td><td class="wrap-break-word"><p>58.5%</p></td><td class="wrap-break-word"><p>44.4%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>72.0% (Opus 4.6)</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>OpenAI MRCR v2 8-needle 4K-8K</p></td><td class="wrap-break-word"><p>98.1%</p></td><td class="wrap-break-word"><p>97.3%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>OpenAI MRCR v2 8-needle 8K-16K</p></td><td class="wrap-break-word"><p>93.0%</p></td><td class="wrap-break-word"><p>91.4%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>OpenAI MRCR v2 8-needle 16K-32K</p></td><td class="wrap-break-word"><p>96.5%</p></td><td class="wrap-break-word"><p>97.2%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>OpenAI MRCR v2 8-needle 32K-64K</p></td><td class="wrap-break-word"><p>90.0%</p></td><td class="wrap-break-word"><p>90.5%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>OpenAI MRCR v2 8-needle 64K-128K</p></td><td class="wrap-break-word"><p>83.1%</p></td><td class="wrap-break-word"><p>86.0%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>OpenAI MRCR v2 8-needle 128K-256K</p></td><td class="wrap-break-word"><p>87.5%</p></td><td class="wrap-break-word"><p>79.3%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>59.2%</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>OpenAI MRCR v2 8-needle 256K-512K</p></td><td class="wrap-break-word"><p>81.5%</p></td><td class="wrap-break-word"><p>57.5%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>OpenAI MRCR v2 8-needle 512K-1M</p></td><td class="wrap-break-word"><p>74.0%</p></td><td class="wrap-break-word"><p>36.6%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>32.2%</p></td><td class="wrap-break-word"><p>-</p></td></tr></tbody></table>
-
-### 抽象推理
-
-<table><tbody><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p><b>评估</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.5 Pro</b></p></td><td class="wrap-break-word"><p><b>GPT‑5.4 Pro</b></p></td><td class="wrap-break-word"><p><b>Claude Opus 4.7</b></p></td><td class="wrap-break-word"><p><b>Gemini 3.1 Pro</b></p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>ARC-AGI-1 (Verified)</p></td><td class="wrap-break-word"><p>95.0%</p></td><td class="wrap-break-word"><p>93.7%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>94.5%</p></td><td class="wrap-break-word"><p>93.5%</p></td><td class="wrap-break-word"><p>98.0%</p></td></tr><tr class="border-primary-12 border-t last:border-b"><td class="wrap-break-word"><p>ARC-AGI-2 (Verified)</p></td><td class="wrap-break-word"><p>85.0%</p></td><td class="wrap-break-word"><p>73.3%</p></td><td class="wrap-break-word"><p>-</p></td><td class="wrap-break-word"><p>83.3%</p></td><td class="wrap-break-word"><p>75.8%</p></td><td class="wrap-break-word"><p>77.1%</p></td></tr></tbody></table>
-
--   [2026 年](https://openai.com/zh-Hans-CN/news/?tags=2026)
-
-## 作者
-
-OpenAI
-
-## 继续阅读
-
-[查看全部](https://openai.com/zh-Hans-CN/news/)
-
-![Spend Controls\_Artcard.png](https://images.ctfassets.net/kftzwdyauwt9/3RkIKhLVsVWcJQ3czkTNMH/c63f9c43efd82ddf863f87d44edca201/Spend_Controls_Artcard.png?w=3840&q=90&fm=webp)
-
-[
-
-New usage analytics and updated spend controls for enterprises
-
-产品2026年6月18日
-
-](https://openai.com/index/chatgpt-enterprise-spend-controls/)
-
-![1x1 Health Art 1](https://images.ctfassets.net/kftzwdyauwt9/25I93CBDfs6LgX4R4XCMBD/121ac551be0a9153314bf51fdbe91dae/1x1_Health_Art_1.png?w=3840&q=90&fm=webp)
-
-[
-
-提升 ChatGPT 的健康智能
-
-产品2026年6月18日
-
-](https://openai.com/zh-Hans-CN/index/improving-health-intelligence-in-chatgpt/)
-
-![Intro-OAI-Partner-ArtCard](https://images.ctfassets.net/kftzwdyauwt9/U6bb3rlwvYyhf2q835WWx/d50f5492dded3c21aa6d69c07d3b2a44/Introducing_OAI_Partner_Network_artcard.png?w=3840&q=90&fm=webp)
-
-[
-
-推出 OpenAI 合作伙伴网络
-
-产品2026年6月14日
-
-](https://openai.com/zh-Hans-CN/index/introducing-openai-partner-network/)
+# 重磅发布 GPT-5.5：OpenAI 迄今最智能的模型，专为实际工作打造
+
+- **ID**: gpt55_release_2026_001
+- **原文链接**: https://openai.com/index/introducing-gpt-5-5 （页面已自动重定向至 https://openai.com/zh-Hans-CN/index/introducing-gpt-5-5/ 中文版本）
+- **作者**: OpenAI
+- **日期**: 2026-04-23
+- **分类**: models
+- **标签**: GPT-5.5, OpenAI, coding, research, data-analysis, agentic, 2026
+- **质量评分**: 5/5
+- **抓取时间**: 2026-06-27T20:40:00
 
 ---
 
 ## 中文翻译
 
-**GPT-5.5：OpenAI 迄今最智能的模型，专为编码、调研与数据分析打造**
+> 注：原页面在中文网络环境下会自动重定向到 OpenAI 的官方中文版本，因此下面的中文翻译与原文一致，整理为可读性更强的格式。
 
-发布时间：2026 年 6 月 18 日
+### 概览
 
-我们正式发布 GPT-5.5。作为我们迄今最智能、交互体验最直观的模型，它标志着人类迈向全新计算机办公模式的关键一步。
+我们正式发布 **GPT-5.5**。作为我们迄今最智能、交互体验最直观的模型，它标志着人类迈向全新计算机办公模式的关键一步。
 
 GPT-5.5 能够更快速地洞察用户意向，并独立承担更多实质性工作。无论是编写与调试代码、开展在线调研、分析复杂数据，还是撰写文档、制作表格，乃至跨软件操作，它都能游刃有余地衔接各个工具，直至任务圆满完成。以往你需要步步为营地引导 AI，而现在，你只需将一个繁杂的多阶段任务交给 GPT-5.5。它具备极强的自主性，能够自行制定计划、调用工具、核查结果并在模糊的边界中寻找最优路径，始终保持高效推进。
 
-在智能体编程、计算机使用、知识型工作以及前沿科学研究等领域，GPT-5.5 的提升尤为显著。这些领域往往要求模型具备跨语境推理及长周期的行动能力。令人惊叹的是，GPT-5.5 在实现智能跃迁的同时，并未牺牲响应速度。通常情况下，模型体量越大速度越慢，但 GPT-5.5 在真实应用环境中的单 Token 延迟与 GPT-5.4 持平，智能水平却大幅领先。此外，在处理相同的 Codex 任务时，其消耗的 Token 显著减少，真正实现了更高能、更经济。
+在**智能体编程、计算机使用、知识型工作以及前沿科学研究**等领域，GPT-5.5 的提升尤为显著。这些领域往往要求模型具备跨语境推理及长周期的行动能力。令人惊叹的是，GPT-5.5 在实现智能跃迁的同时，并未牺牲响应速度。通常情况下，模型体量越大速度越慢，但 GPT-5.5 在真实应用环境中的单 Token 延迟与 GPT-5.4 持平，智能水平却大幅领先。此外，在处理相同的 Codex 任务时，其消耗的 Token 显著减少，真正实现了更高能、更经济。
 
 伴随 GPT-5.5 一同发布的，还有我们迄今为止最完善的安全防护方案。这套体系旨在打击滥用行为，同时确保合法、有益的工作流程不受干扰。在正式发布前，我们不仅通过了全套安全与准备框架评估，还联合内外红队专家，针对高级网络安全和生物技术领域进行了专项测试。此外，我们还从近 200 家值得信赖的合作伙伴处收集了大量真实应用场景的反馈，确保模型在复杂实战中的安全性与可靠性。
 
-## 智能体编程
+即日起，GPT-5.5 将陆续面向 ChatGPT 及 Codex 的 Plus、Pro、Business 和 Enterprise 用户开放。同时，GPT-5.5 Pro 也将同步推送给 Pro、Business 和 Enterprise 的订阅用户。由于 API 部署涉及不同的防护策略，我们正与合作伙伴及客户紧密协作，确保在大规模服务下的安全性。GPT-5.5 与 GPT-5.5 Pro 的 API 服务将于近期正式上线。
 
-GPT-5.5 显著提升了 Codex 在大型代码库中的端到端任务处理能力。无论是从零开始构建功能、跨多个文件进行重构，还是定位与修复生产环境的 bug，GPT-5.5 都能在更少的迭代轮次中给出更精准的结果。Codex 内部对该模型在 SWE-bench Verified、TerminalBench 与内部代码库基准上的表现进行了对比，发现其相对 GPT-5.4 的提升在长链路任务上尤为明显。
+### 核心基准对比
 
-## 计算机使用
+下表展示了 GPT-5.5 与竞品前沿模型在主要基准测试上的表现（粗体为最高分）：
 
-在屏幕理解、跨应用操作与"按需切换工具"等任务上，GPT-5.5 的能力有了质的飞跃。OSWorld 基准显示，相对 GPT-5.4 提升了 24%，并首次在多个真实工作流（Excel、浏览器、SaaS 工具混合操作）上取得超过 70% 的完成率。
+| 评估 | GPT-5.5 | GPT-5.4 | GPT-5.5 Pro | GPT-5.4 Pro | Claude Opus 4.7 | Gemini 3.1 Pro |
+| --- | --- | --- | --- | --- | --- | --- |
+| Terminal-Bench 2.0 | **82.7%** | 75.1% | – | – | 69.4% | 68.5% |
+| Expert-SWE（内部） | **73.1%** | 68.5% | – | – | – | – |
+| GDPval（胜出或平局） | **84.9%** | 83.0% | 82.3% | 82.0% | 80.3% | 67.3% |
+| OSWorld-Verified | **78.7%** | 75.0% | – | – | 78.0% | – |
+| Toolathlon | **55.6%** | 54.6% | – | – | – | 48.8% |
+| BrowseComp | 84.4% | 82.7% | **90.1%** | 89.3% | 79.3% | 85.9% |
+| FrontierMath Tier 1–3 | 51.7% | 47.6% | **52.4%** | 50.0% | 43.8% | 36.9% |
+| FrontierMath Tier 4 | 35.4% | 27.1% | **39.6%** | 38.0% | 22.9% | 16.7% |
+| CyberGym | **81.8%** | 79.0% | – | – | 73.1% | – |
 
-## 知识工作
+### 模型能力
 
-GPT-5.5 在深度调研、综合写作、复杂表格与多源数据整合等任务上表现尤为突出。人工评测显示，GPT-5.5 在多源事实核查与逻辑矛盾识别方面首次超过具备同等工具调用能力的专业人类研究员的中位水平。
+OpenAI 正在致力于打造全球性的智能体 AI 基础设施，旨在让全球用户与企业都能真正通过 AI 交付工作成果。在过去的一年里，我们见证了 AI 对软件工程效率的巨大拉动；而随着 GPT-5.5 接入 Codex 与 ChatGPT，这种变革正进一步延伸至科学研究及更广泛的计算机办公领域。
 
-## 前沿科学
+在这些领域中，GPT-5.5 的进化不仅体现在更深层次的智能，更在于其解决问题的高效性。它通常能以更少的 Token 消耗和更低的重试频率，交付更高质量的产出。在 Artificial Analysis 的 Coding Agent Index 中，GPT-5.5 以竞品前沿编程模型一半的成本，实现了行业领先的智能表现。
 
-在科学推理、文献综合与实验设计任务上，GPT-5.5 已经在我们与多个外部实验室的联合评估中展现出可加速科学发现流程的能力。它在 GPQA Diamond、FrontierScience 等基准上保持领先，并首次在多步化学合成路线规划上接近专业化学家的水平。
+#### 智能体编程
 
-## 性能与成本
+GPT-5.5 是我们迄今最强大的智能体编程模型。在 **Terminal-Bench 2.0** 测试中，面对需要缜密规划、反复迭代及多工具协作的复杂命令行工作流，GPT-5.5 取得了 82.7% 的顶尖准确率。在衡量解决真实 GitHub 议题能力的 **SWE-Bench Pro** 评估中，其得分达到 58.6%，相比以往模型，它能在单次尝试中端到端地解决更多任务。而在针对长周期编程任务（人类中位完成时间约为 20 小时）的内部前沿评估 **Expert-SWE** 中，GPT-5.5 的表现同样超越了 GPT-5.4。
 
-- 与 GPT-5.4 持平的单 Token 延迟
-- 在处理相同 Codex 任务时，Token 消耗量显著减少
-- 智能水平大幅领先 GPT-5.4
+在上述三项评估中，GPT-5.5 不仅全面刷新了 GPT-5.4 的成绩，且 Token 使用量更少。
 
-## 安全防护
+GPT-5.5 的编程能力优势在 Codex 中得到明显体现。从代码实现、重构到调试、测试及验证，它都能全方位接管工程任务。早期测试表明，GPT-5.5 更加契合真实工程环境下的行为模式：它能精准把握大型系统的上下文，在面对含义模糊的报错时进行深入推理，并主动通过工具验证假设，确保修改后的代码能适配整个库的既有逻辑。
 
-GPT-5.5 配套的安全体系是 OpenAI 迄今最全面的一次部署：
-- 完整的 Preparedness 与 Safety Evaluations 流程
-- 联合内外部红队专家对高级网络安全与生物技术领域进行专项测试
-- 来自近 200 家值得信赖合作伙伴的真实应用场景反馈
-- 新增"网络沙箱"机制：自动隔离高风险网络请求的执行环境
+> "这是我用过的第一个在概念理解上具有极高清晰度的编程模型。"  
+> —— **Dan Shipper**，Every 创始人兼 CEO
 
-## 可用性
+> "它真的让我感觉是在与更高阶的智能协同工作，甚至产生了一种由衷的敬畏感。"  
+> —— **Pietro Schirano**，MagicPath CEO
 
-GPT-5.5 即日起在以下平台开放：
-- ChatGPT（Plus、Pro、Team、Enterprise）
-- OpenAI API（`gpt-5.5`）
-- Microsoft Azure OpenAI Service
-- 第三方开发者平台
+> "失去对 GPT-5.5 的访问权限，感觉就像被截肢了一样。"  
+> —— **NVIDIA 工程师**（提前试用反馈）
 
-我们建议用户从 GPT-5.4 直接升级，无需修改提示词。
+> "相比 GPT-5.4，GPT-5.5 在智能程度和执行韧性上有显著提升，拥有更强大的编程表现以及更可靠的工具调用能力。它在处理任务时能保持更长时间的专注，而不会过早中断，这对于我们的用户交付给 Cursor 的那些复杂且长周期的工作任务至关重要。"  
+> —— **Michael Truell**，Cursor 联合创始人兼 CEO
 
----
+#### 知识型工作
 
-*本文由 opencli 抓取 + 人工翻译生成。*
+这些让 GPT-5.5 在编程领域大放异彩的优势，同样使其成为日常办公的强大助力。由于模型能更敏锐地捕捉用户意向，它在处理知识型工作时显得更加自然流畅：从搜集资料、提炼核心价值，到调用工具、核查产出，并最终将零散的素材转化为实用成果，整个链路一气呵成。
+
+在 Codex 环境下，GPT-5.5 制作文档、表格及演示文稿的能力较 GPT-5.4 有了显著提升。Alpha 测试者反馈，在运筹研究、电子表格建模以及将凌乱的业务需求转化为执行计划等任务中，它的表现远超以往模型。结合 Codex 的计算机使用（computer use）能力，GPT-5.5 带来了前所未有的"人机协作感"：它能实时理解屏幕内容，精准进行点击、录入和界面导航，并熟练地在不同工具间跨越操作。
+
+目前，OpenAI 内部团队已率先将这些优势应用到真实的业务流中。如今，公司内超过 85% 的员工每周都会使用 Codex，涵盖软件工程、财务、传播、市场营销、数据科学和产品管理等多个职能领域。公关团队利用 Codex 中的 GPT-5.5 分析了过去六个月的演讲请求数据，建立了一套评分与风险预警框架，并以此验证了一款自动化 Slack 智能体。该智能体能够自动处理低风险请求，而将高风险项转交人工审核。财务团队借助 Codex 处理了 24,771 份 K-1 税务报表，共计 71,637 页。市场拓展团队的一名员工实现了周报生成的自动化，每周节省了 5 到 10 小时。
+
+> "GPT-5.5 展现出了支撑重度执行类任务所需的持续性能。得益于在 NVIDIA GB200 NVL72 系统上的构建与部署，该模型让我们的团队仅凭自然语言提示词就能交付端到端的功能，将调试周期从几天缩短至数小时。"  
+> —— **Justin Boitano**，NVIDIA 企业级 AI 副总裁
+
+#### 科学研究
+
+GPT-5.5 在科学和技术研究工作流中同样展现出显著优势。科研工作并非简单的问答，而是一个探索构思、搜集证据、验证假设、解读结果并决策下一步行动的完整循环。GPT-5.5 在这一循环中的表现比以往任何模型都更加稳健持久。
+
+在 **GeneBench** 测试中，GPT-5.5 较 GPT-5.4 有了跨越式的提升。这是一项专注于遗传学和定量生物学多阶段科学数据分析的新型评估。在 BixBench 测试中，GPT-5.5 在所有已公布评分的模型中名列前茅。
+
+在另一个案例中，一个搭载自定义框架的 GPT-5.5 内部版本协助发现了关于**拉姆齐数 (Ramsey numbers)** 的全新证明。拉姆齐数是组合数学的核心研究对象之一。GPT-5.5 发现了一个关于非对角拉姆齐数长期存在的渐近事实证明，随后该证明在 Lean 形式化证明语言中得到了验证。该成果是一个具体的范例，表明 GPT-5.5 不仅仅能提供代码或解释，更能为研究领域贡献出令人惊喜且极具价值的数学论证。
+
+> "能在我们的系统框架中调用 OpenAI 全新的 GPT-5.5 模型，看到它在海量生化数据集上通过推理预测人体药物成效，并在我们最难的药物研发评估中实现准确率的显著飞跃，这真的非常振奋。如果 OpenAI 保持这种惊人的迭代速度，到今年年底，药物发现的基础格局将彻底改变。"  
+> —— **Brandon White**，Axiom Bio 联合创始人兼 CEO
+
+### 新一代推理效率
+
+为了在维持 GPT-5.4 延迟水平的前提下提供 GPT-5.5 的强大性能，我们必须将推理视为一个完整的集成系统进行重新思考，而非单纯的局部优化。GPT-5.5 适配了 NVIDIA GB200 及 GB300 NVL72 系统，从联合设计、模型训练到在线服务均基于此。Codex 与 GPT-5.5 对实现性能目标起到了决定性作用。GPT-5.5 甚至亲自参与了系统底层栈的改进与实现。简而言之，模型亲自优化了运行它自身的底层基础设施。
+
+其中一项关键改进体现在负载均衡与分区启发式算法。在 GPT-5.5 发布前，为了平衡计算核心的工作量并确保不同规模的请求能在同一 GPU 上运行，我们将加速器上的请求拆分为固定数量的区块。Codex 分析了数周的生产环境流量模式，并编写了定制的启发式算法，实现了任务的最优分区与平衡。这项工作产生了远超预期的影响，将 **Token 生成速度提升了 20% 以上**。
+
+### 提升网络防御能力，守护全民安全
+
+前沿模型在网络安全领域的实力正日益增强。在 GPT-5.5 中我们引入了更严苛的风险分类器。通过 **网络安全受信访问 (Trusted Access for Cyber)** 计划，我们正率先在 Codex 中提供"网络安全放行版"模型。这意味着在发布之初，符合特定信任信号的认证用户即可在更少限制的情况下，调用 GPT-5.5 强大的网络安全能力。
+
+我们根据准备框架，将 GPT-5.5 的生物/化学及网络安全能力评定为"高"等级。尽管 GPT-5.5 尚未达到"极高"的网络安全能力水平，但评估显示，其防御实战能力较 GPT-5.4 已有显著跨越。
+
+### 可用性与定价
+
+即日起，GPT-5.5 将全面登陆 ChatGPT、Codex 及 API 平台，并同步面向 Microsoft Foundry 的开发者开放。
+
+在 ChatGPT 中，Plus、Pro、Business 和 Enterprise 用户均可使用 GPT-5.5 Thinking。专为应对极端复杂问题、追求极高准确率而设计的 GPT-5.5 Pro，则面向 Pro、Business 及 Enterprise 用户开放。
+
+在 Codex 中，GPT-5.5 已支持 Plus、Pro、Business、Enterprise、Edu 及 Go 套餐，并提供 400K 上下文窗口。此外，Codex 还推出了快速模式，能以 1.5 倍的生成速度响应请求（费用为标准模式的 2.5 倍）。
+
+面向 API 开发者，gpt-5.5 即将接入 Responses 及 Chat Completions API。其定价为：
+- **gpt-5.5**：每百万输入 Token 5 美元，每百万输出 Token 30 美元，支持高达 1M 的上下文窗口
+- **gpt-5.5-pro**：每百万输入 Token 30 美元，每百万输出 Token 180 美元
+
+尽管 GPT-5.5 的定价高于 GPT-5.4，但它在实现智能跃迁的同时，Token 利用效率也大幅提升。在 Codex 中，我们经过精心调优，确保 GPT-5.5 在大多数场景下能以更少的 Token 交付优于 GPT-5.4 的结果。
+
+*来源：OpenAI, 2026-04-23*
+
+## English Original
+
+> Note: The page auto-redirected to OpenAI's official Simplified Chinese version during fetch; the content above is already in Chinese. The English summary from the official English version is preserved below for reference.
+
+**GPT-5.5 is the smartest model we've ever shipped** — better at understanding user intent, more autonomous, and more efficient with tokens. It's now rolling out to ChatGPT and Codex Plus/Pro/Business/Enterprise users. GPT-5.5 Pro is available to Pro/Business/Enterprise. API access is coming soon.
+
+Key benchmark highlights (vs GPT-5.4, Claude Opus 4.7, Gemini 3.1 Pro):
+
+- **Terminal-Bench 2.0: 82.7%** (vs 75.1% GPT-5.4, 69.4% Opus 4.7)
+- **SWE-Bench Pro: 58.6%** (long-horizon coding tasks)
+- **GDPval: 84.9%** (knowledge work across 44 occupations)
+- **OSWorld-Verified: 78.7%** (computer use)
+- **CyberGym: 81.8%** (cybersecurity)
+- **Tau2-bench Telecom: 98.0%** (no prompt tuning)
+
+Three pillars of the release:
+
+1. **Agentic coding** — best-ever on Terminal-Bench 2.0, SWE-Bench Pro, and Expert-SWE; matches Opus 4.7 on cursor/CursorBench.
+2. **Knowledge work** — meaningful gains on OfficeQA Pro, FinanceAgent v1.1, internal IB modeling tasks.
+3. **Scientific research** — strong gains on GeneBench (25.0% vs 19.0% GPT-5.4) and BixBench. Contributed a new asymptotic proof related to Ramsey numbers, verified in Lean.
+
+Co-designed with **NVIDIA GB200/GB300 NVL72** systems, GPT-5.5 maintains the same per-token latency as GPT-5.4 while delivering significantly higher intelligence. Codex-assisted load-balancing heuristics improved token generation throughput by **>20%**.
+
+Pricing: gpt-5.5 at **$5/$30 per million input/output tokens** (1M context); gpt-5.5-pro at **$30/$180 per million tokens**.
+
+*Source: OpenAI, April 23, 2026*
