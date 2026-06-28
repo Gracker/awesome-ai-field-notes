@@ -39140,8 +39140,34 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "69e27356",
+      "title": "README",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "",
+      "summary_en": null,
+      "one_liner": "README",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "score-pending",
+      "local_path": "content/README.md",
+      "images": [],
+      "added_date": "2026-06-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-06-27",
-  "total_entries": 1423
+  "last_updated": "2026-06-28",
+  "total_entries": 1424
 }
