@@ -5,8 +5,8 @@
 ## 最新精选 Top 10
 
 - [Using Opus 4.8 to get a second opinion on an MRI and where it leaves me](https://antoine.fi/mri-analysis-using-claude-code-opus) ⭐4 · 2026-06-28 — Antoine 用 Opus 4.8 + Claude Code 重新分析自己的肩部 MRI，得出与放射科医生相反的肌腱完整结论
-- [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol) ⭐5 · 2026-06-26 — OpenAI 发布 GPT-5.6 Sol 预览版，主打编码科学与网络安全能力
 - [U.S. government will decide who gets to use GPT-5.6](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model) ⭐5 · 2026-06-26 — 华盛顿邮报：OpenAI 表示 GPT-5.6 的使用权将由美国政府决定
+- [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol) ⭐5 · 2026-06-26 — OpenAI 发布 GPT-5.6 Sol 预览版，主打编码科学与网络安全能力
 - [The gap between open weights LLMs and closed source LLMs](https://blog.doubleword.ai/frontier-os-llm) ⭐4 · 2026-06-26 — Doubleword 用 18 个 benchmark 量化开源与闭源 LLM 性能差距，预测 2026 年底前归零
 - [Anthropic Economic Index report: Cadences](https://www.anthropic.com/research/economic-index-june-2026-report) ⭐4 · 2026-06-26 — Anthropic 用小时级数据揭示 Claude 用量的周节律，并首次发布用户对 AI 经济影响的调查
 - [Show HN: Smart model routing directly in Claude, Codex and Cursor](https://github.com/workweave/router) ⭐3 · 2026-06-26 — Show HN：可直接接入 Claude Code / Codex / Cursor 的智能模型路由工具
@@ -29,9 +29,9 @@
 
 ## 当前数据
 
-- 原始条目: 1430
+- 原始条目: 1431
 - 公开展示卡片: 616
-- 有全文内容: 518
+- 有全文内容: 523
 - 最近 7 天信号: 412
 - 输出目录: `dist/`
 

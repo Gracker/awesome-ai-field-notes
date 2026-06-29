@@ -39820,8 +39820,42 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "gpt55_release_2026_001",
+      "title": "Untitled",
+      "url": "https://openai.com/index/introducing-gpt-5-5（页面已自动重定向至https://openai.com/zh-Hans-CN/index/introducing-gpt-5-5/中文版本）",
+      "source": {
+        "platform": "manual",
+        "author": "OpenAI",
+        "original_date": "2026-04-23"
+      },
+      "category": "models",
+      "tags": [
+        "gpt-5.5",
+        "openai",
+        "coding",
+        "research",
+        "data-analysis",
+        "agentic",
+        "2026"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "注：原页面在中文网络环境下会自动重定向到 OpenAI 的官方中文版本，因此下面的中文翻译与原文一致，整理为可读性更强的格式 概览 我们正式发布 GPT-5.5作为我们迄今最智能交互体验最直观的模型，它标志着人类迈向全新计算机办公模式的关键一步 GPT-5.5 能够更快速地洞察用户意向，并独立承担更多实质性工作无论是编写与调试代码开展在线调研分析复杂数据，还是撰写文档制作表格，乃至跨软件操作，它都...",
+      "summary_en": "Note: The page auto-redirected to OpenAI's official Simplified Chinese version during fetch; the content above is already in Chinese. The English summary from the official English version is preserved...",
+      "one_liner": "注：原页面在中文网络环境下会自动重定向到 OpenAI 的官方中文版本，因此下面的中文翻译与原文一致，整理为可读性更强的格式 概览 我们正式发布 GPT-5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/gpt55_release_2026_001.md",
+      "images": [],
+      "added_date": "2026-06-29",
+      "updated_date": "2026-06-29",
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-06-29",
-  "total_entries": 1430
+  "total_entries": 1431
 }
