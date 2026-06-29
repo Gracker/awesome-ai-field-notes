@@ -39629,8 +39629,199 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "1f7427a9",
+      "title": "Introducing GPT-5.3-Codex",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI Codex Team",
+        "original_date": "2026-06-25"
+      },
+      "category": "models",
+      "tags": [
+        "gpt-5.3",
+        "codex",
+        "coding",
+        "agentic",
+        "swe-bench"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 发布 GPT-5.3-Codex：迄今最强的智能体编程模型它把 GPT-5.2-Codex 的代码前沿与 GPT-5.2 的推理与专业知识整合到一个模型，速度再快 25%，能承担长时研究工具调用和复杂执行任务，且可在执行过程中被用户实时引导GPT-5.3-Codex 还是首个自指模型Codex 团队用早期版本调试自身训练管理部署诊断评测结果在 SWE-Bench ProTerminal-Bench 2.0OSWorldGDPval 上均刷新行业 SOTA，且消耗 token 更少",
+      "summary_en": "OpenAI releases GPT-5.3-Codex, its most capable agentic coding model to date, combining GPT-5.2-Codex frontier coding performance with GPT-5.2 reasoning and professional knowledge at 25% higher speed. The model is OpenAI's first that was instrumental in building itselfCodex engineers used earlier versions to debug its training, manage deployment and diagnose evaluations. GPT-5.3-Codex sets new SOTA on SWE-Bench Pro, Terminal-Bench 2.0, OSWorld and GDPval while using fewer tokens.",
+      "one_liner": "GPT-5.3-Codex 是首个用自身早期版本参与训练和部署的编程模型，把 Codex 从写代码推向可承担任何桌面级工作",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/1f7427a9.md",
+      "images": [],
+      "added_date": "2026-06-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8c59d007",
+      "title": "Introducing GPT-5.3-Codex-Spark",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI Codex Team",
+        "original_date": "2026-06-25"
+      },
+      "category": "models",
+      "tags": [
+        "gpt-5.3",
+        "codex-spark",
+        "cerebras",
+        "real-time",
+        "inference"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "GPT-5.3-Codex-Spark 是 OpenAI 与 Cerebras 一月公布的合作后首个落地模型：面向实时编程优化的轻量版本，在 Cerebras 硬件上推理超过 1000 tokens/s它针对边写边改这类交互场景，默认只做最小化定向的编辑，不主动跑测试，并支持用户在模型工作中实时打断或重定向当前面向 ChatGPT Pro 用户开放研究预览，128k 上下文窗口纯文本输入",
+      "summary_en": "GPT-5.3-Codex-Spark is the first milestone in OpenAI's January partnership with Cerebras: a smaller, latency-optimized variant of GPT-5.3-Codex that runs at over 1000 tokens/s on Cerebras hardware. It is purpose-built for real-time 'edit-while-thinking' workflows, makes minimal targeted edits by default and never runs tests unless asked. It ships as a research preview to ChatGPT Pro users with a 128k context window and text-only input.",
+      "one_liner": "OpenAI 联合 Cerebras 推出首个实时编程模型 Codex-Spark，用超过 1000 tokens/s 的速度补齐 Codex 的即时协作短板",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8c59d007.md",
+      "images": [],
+      "added_date": "2026-06-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5d4a0e56",
+      "title": "Unrolling the Codex agent loop",
+      "url": "https://openai.com/index/unrolling-the-codex-agent-loop",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI Codex Team",
+        "original_date": "2026-06-24"
+      },
+      "category": "coding",
+      "tags": [
+        "codex",
+        "agent-loop",
+        "harness",
+        "engineering",
+        "openai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 启动 Codex 工程系列博文，首篇拆解 Codex CLI 的核心agent loopCodex 把 Codex CLICodex CloudVS Code 插件统一在同一个 Codex Harness 下，harness 负责把用户输入组装为 prompt调用模型推理解析工具调用把工具输出回灌 prompt 再次查询，循环直到模型发出终止信号或最终回复文章围绕这一循环阐释 Codex 如何在工程层面把无状态的 LLM 转成可靠的软件智能体，并预告后续文章继续深挖细节",
+      "summary_en": "OpenAI launches a Codex engineering series with a deep dive into the agent loop that powers Codex CLI (and underlies Codex Cloud and the VS Code extension). The post explains how the Codex harness assembles prompts, drives inference, dispatches tool calls, and folds tool outputs back into context until the model emits a stop signal or final responsei.e. how a stateless LLM becomes a reliable software agent. The team teases follow-ups covering other aspects of the Codex CLI design.",
+      "one_liner": "OpenAI 公开 Codex CLI 的 agent loop 工程实现，把 harness 视角下的 prompt/工具/迭代机制讲透",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5d4a0e56.md",
+      "images": [],
+      "added_date": "2026-06-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "50380117",
+      "title": "Anthropic Economic Index report: Cadences",
+      "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic Economic Research",
+        "original_date": "2026-06-26"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "economic-index",
+        "claude-usage",
+        "labor"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 发布最新一期 Economic Index 报告Cadences，把研究方法升级到小时级采样新增输出分类器，并区分 Claude 会话与 1P API 的数据第一章显示 Claude 用量呈现明显的周/日节律：工作相关查询周末下降，高薪职业降幅较小，新闻类咨询集中在早晨，睡眠建议在凌晨 5 点达峰，税务请求在申报截止日前激增第二章分析用户从 Claude 会话中拿走的产出形态，与所使用的产品高度相关，计算量与产出价值正相关第三章首次披露 Anthropic Economic Index Survey 结果：自动化程度越高的人，越期待 AI 在未来一年承担更多任务，并对薪酬就业安全和工作意义更乐观",
+      "summary_en": "Anthropic's latest Economic Index report, 'Cadences,' upgrades its data pipeline to hourly sampling, introduces an output classifier, and separates Claude conversation data from the 1P API. Chapter 1 shows usage rhythms mirror the workweekwork queries dip on weekends (less so for high-paid occupations), news clusters in the morning, sleep advice peaks at 5 a.m., and tax requests surge before filing deadlines. Chapter 2 links concrete outputs to product choice and shows compute usage scales with artifact value. Chapter 3 shares initial Anthropic Economic Index Survey findings: the most automated Claude users expect AI to take on more of their tasks next year yet feel most optimistic about pay, job security and meaning.",
+      "one_liner": "Anthropic 用小时级数据揭示 Claude 用量的周节律，并首次发布用户对 AI 经济影响的调查",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/50380117.md",
+      "images": [],
+      "added_date": "2026-06-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "064435cf",
+      "title": "Using Opus 4.8 to get a second opinion on an MRI and where it leaves me",
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "source": {
+        "platform": "blog",
+        "author": "Antoine",
+        "original_date": "2026-06-28"
+      },
+      "category": "agents",
+      "tags": [
+        "claude-code",
+        "opus-4-8",
+        "healthcare",
+        "claude",
+        "case-study"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "作者 Antoine 经历右肩疼痛就医，骨科医生在 MRI 后给出肩胛下肌腱顶端附着处 III 级（>50% 宽度）部分撕裂的诊断，并立刻建议冲击波与 Traumeel 注射治疗他先把病历发给 GPT-5.5 Pro：模型指出冲击波疗法在无钙化的肩袖病变中并不被指南推荐，而 Traumeel 在德国是以无治疗指征注册的口服顺势疗法药物随后他把 266 MB DICOM 文件交给 Claude Code 内的 Opus 4.8（xhigh），让它自行装包写分析出一份报告结论是肌腱完整，与医生结论截然相反最后他让 Claude 把两份报告对比，并强调这不是医疗建议，呼吁临床场景下模型必须有人类把关",
+      "summary_en": "After an orthopedist diagnosed a Grade III (>50%) partial-thickness tear of his subscapularis tendon and immediately proposed shockwave therapy and a Traumeel injection, Antoine fed his records first to GPT-5.5 Prowhich flagged that shockwave isn't guideline-recommended for non-calcific rotator-cuff tendinopathy and that Traumeel is registered in Germany as a homeopathic medicine 'without a therapeutic indication.' He then handed the 266 MB DICOM MRI to Opus 4.8 (xhigh) inside Claude Code and let it install packages, build a plan and produce a reportconcluding the tendon was intact, directly contradicting the human radiologist. He arbitrates the two analyses with Claude, while emphasizing this is not medical advice and that human oversight remains essential.",
+      "one_liner": "Antoine 用 Opus 4.8 + Claude Code 重新分析自己的肩部 MRI，得出与放射科医生相反的肌腱完整结论",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/064435cf.md",
+      "images": [],
+      "added_date": "2026-06-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6c80d790",
+      "title": "We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks",
+      "source": {
+        "platform": "blog",
+        "author": "Semgrep",
+        "original_date": "2026-06-13"
+      },
+      "category": "industry",
+      "tags": [
+        "glm-5.2",
+        "claude",
+        "cybersecurity",
+        "open-weight",
+        "semgrep"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Semgrep 在自家 IDOR 基准上测试开源模型，结果 Zhipu AI（Z.ai）的 GLM 5.2 以 39% F1 超过 Claude Code 的 32%，且每次找到漏洞成本约 0.17 美元GLM 5.2 在 2026 年 6 月 13 日向 GLM Coding Plan 会员推出，权重与发布说明三天后（6 月 16 日）以 MIT 协议开源Semgrep 强调关键区分：自家多模态流水线跑在专用 Harness 里，可达 5361% F1；测试中的所有模型（包括 GLM 5.2 与 Claude）只拿到相同的简单 Pydantic AI Harness 与 IDOR 提示词，没有端点发现没有导航结论：在无脚手架条件下，开源 GLM 5.2 已经能在企业安全场景下超越 Claude Opus 4.8",
+      "summary_en": "Semgrep benchmarks open-source models on its internal IDOR detection set and finds Zhipu AI's GLM 5.2 hitting 39% F1beating Claude Code's 32% at roughly $0.17 per vulnerability found. GLM 5.2 shipped to GLM Coding Plan members on June 13, 2026, with weights and release notes following three days later under an MIT license. Semgrep stresses that all tested models (GLM 5.2 and Claude included) used the same minimal Pydantic AI harness and prompt, with no endpoint discovery or guided navigation, while their own multimodal pipeline sits inside a purpose-built security harness and reaches 5361% F1evidence that under equal harness conditions an open-weight model can already beat Claude Opus 4.8 on enterprise cyber tasks.",
+      "one_liner": "Semgrep 在自家 IDOR 基准上证实 GLM 5.2（开源）以 39% F1 击败 Claude Code 的 32%，把开源模型的安全实战能力拉到前沿",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6c80d790.md",
+      "images": [],
+      "added_date": "2026-06-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-06-29",
-  "total_entries": 1424
+  "total_entries": 1430
 }
