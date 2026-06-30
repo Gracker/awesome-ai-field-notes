@@ -43,7 +43,7 @@
     "paper": 11,
     "newsletter": 1
   },
-  "last_updated": "2026-06-30 23:33",
+  "last_updated": "2026-07-01 03:01",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }
