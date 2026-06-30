@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-30",
+  "task": "morning_intake_incremental",
+  "scan_window": "2026-06-29T08:45:00 → 2026-06-30",
+  "content_files_scanned": 8,
+  "new_entries_added": 0,
+  "local_path_fixed": 3,
+  "skipped": 0,
+  "total_entries_before": 1442,
+  "total_entries_after": 1442,
+  "added": [],
+  "fixed": [
+    {
+      "id": "1a015f5d",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "old_local_path": "content/discovery/openai-broadcom-jalapeno-inference-chip.md",
+      "new_local_path": "content/1a015f5d.md",
+      "mtime": "2026-06-29T20:26:43.384820"
+    },
+    {
+      "id": "b482b19f",
+      "title": "U.S. government will decide who gets to use GPT-5.6",
+      "old_local_path": "content/discovery/.md",
+      "new_local_path": "content/b482b19f.md",
+      "mtime": "2026-06-29T20:27:15.952046"
+    },
+    {
+      "id": "7bd44733",
+      "title": "The gap between open weights LLMs and closed source LLMs",
+      "old_local_path": "content/discovery/frontier-os-llm.md",
+      "new_local_path": "content/7bd44733.md",
+      "mtime": "2026-06-29T20:27:46.416213"
+    }
+  ],
+  "git_push": "skipped (delegated to evening intake)"
+}
