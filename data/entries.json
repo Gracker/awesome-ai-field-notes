@@ -40216,8 +40216,320 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "fb435a03",
+      "title": "How ChatGPT adoption has expanded",
+      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI Signals",
+        "original_date": "2026-06-30"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "chatgpt",
+        "adoption",
+        "signals",
+        "global"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI Signals 数据显示 ChatGPT 全球用户数使用强度和场景持续扩张：成熟用户更深度地使用代码写作与研究类功能，新兴市场在低资源语言场景下增长尤为显著",
+      "summary_en": "New OpenAI Signals data shows ChatGPT's user base, usage intensity, and use-case breadth continue to expand globally, with low-resource language markets in emerging regions seeing particularly strong growth.",
+      "one_liner": "ChatGPT 全球扩张进入深度使用阶段，新兴市场在低资源语言上增长最快",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/fb435a03.md",
+      "images": [],
+      "added_date": "2026-07-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3c923494",
+      "title": "Introducing GeneBench-Pro",
+      "url": "https://openai.com/index/introducing-genebench-pro",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI Research",
+        "original_date": "2026-06-30"
+      },
+      "category": "learning",
+      "tags": [
+        "openai",
+        "benchmark",
+        "genomics",
+        "biology",
+        "research"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 发布 GeneBench-Pro：基于真实基因组学数据集的评测基准，覆盖 DNA/RNA 分析蛋白质工程与生物医学文献推理，是首个面向科研工作流的 AI 评测体系",
+      "summary_en": "OpenAI introduces GeneBench-Pro, a benchmark built on real-world genomics datasets covering DNA/RNA analysis, protein engineering, and biomedical literature reasoning the first end-to-end eval stack for scientific workflows.",
+      "one_liner": "GeneBench-Pro：首个面向真实基因组学工作流的 AI 评测基准",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3c923494.md",
+      "images": [],
+      "added_date": "2026-07-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c66e2703",
+      "title": "Gemini Spark updates: macOS launch, connected apps and more",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026",
+      "source": {
+        "platform": "google",
+        "author": "Google",
+        "original_date": "2026-06-30"
+      },
+      "category": "models",
+      "tags": [
+        "google",
+        "gemini",
+        "spark",
+        "macos",
+        "product"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Gemini Spark 6 月更新：原生 macOS 客户端上线连接第三方应用新增多模态交互能力，定位 Google 的统一 AI 助手产品",
+      "summary_en": "Gemini Spark June update brings a native macOS client, third-party app integrations, and new multimodal interaction capabilities, positioning it as Google's unified AI assistant.",
+      "one_liner": "Gemini Spark 6 月更新：macOS 客户端 + 应用连接 + 多模态，Google 统一 AI 助手正式铺开",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/c66e2703.md",
+      "images": [],
+      "added_date": "2026-07-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "86bc9e28",
+      "title": "From brain waves to words: a new path to communication without surgery",
+      "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication",
+      "source": {
+        "platform": "blog",
+        "author": "Meta AI",
+        "original_date": "2026-06-30"
+      },
+      "category": "models",
+      "tags": [
+        "meta",
+        "brain-computer-interface",
+        "research",
+        "bci",
+        "fmri"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Meta 发布 Brain2Qwerty：用非侵入式 fMRI/MEG 信号把大脑活动直接转译为文字，为瘫痪患者提供无需手术的沟通路径，模型在受限词汇上达到 80% top-10 准确率",
+      "summary_en": "Meta unveils Brain2Qwerty, a non-invasive fMRI/MEG-based decoder that turns brain activity into text, hitting ~80% top-10 accuracy on a constrained vocabulary and offering surgery-free communication for paralyzed patients.",
+      "one_liner": "Meta Brain2Qwerty：非侵入式脑信号直接转文字，为瘫痪患者打开免手术沟通路径",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/86bc9e28.md",
+      "images": [],
+      "added_date": "2026-07-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e45923a4",
+      "title": "Anthropic launches AI drug discovery program",
+      "url": "https://www.cnbc.com/2026/06/30/anthropic-launches-ai-drug-discovery-program-claude-science",
+      "source": {
+        "platform": "news",
+        "author": "CNBC",
+        "original_date": "2026-06-30"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "drug-discovery",
+        "claude-science",
+        "biotech"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 正式启动 Claude for Science 药物发现项目，与多家药企和学术机构合作，把 Claude 用于靶点发现分子设计与临床试验优化",
+      "summary_en": "Anthropic formally launches the Claude for Science drug discovery program, partnering with major pharma companies and academic labs to apply Claude to target identification, molecular design, and clinical trial optimization.",
+      "one_liner": "Anthropic 启动 Claude for Science 药物发现项目：进军 AI for Biotech",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e45923a4.md",
+      "images": [],
+      "added_date": "2026-07-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4c4d91d3",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI Engineering",
+        "original_date": "2026-06-30"
+      },
+      "category": "infra",
+      "tags": [
+        "openai",
+        "engineering",
+        "infrastructure",
+        "debugging",
+        "core-dump"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 工程师用大规模 core dump 流行病学分析方法定位罕见基础设施崩溃，同时揪出一个隐藏 18 年的软件 bug 和一个硬件故障，展示 AI 时代的工程调试范式",
+      "summary_en": "OpenAI engineers used large-scale core-dump epidemiology to track rare infra crashes, uncovering both a hardware fault and a long-standing software bug that had lurked for 18 years a model of AI-era engineering debugging.",
+      "one_liner": "OpenAI 用 core dump 流行病学定位 18 年老 bug，AI 时代工程调试范式新案例",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4c4d91d3.md",
+      "images": [],
+      "added_date": "2026-07-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3645a667",
+      "title": "Open source AI must win",
+      "url": "https://opensourceaimustwin.com/?share=v2",
+      "source": {
+        "platform": "blog",
+        "author": "Open Source AI community",
+        "original_date": "2026-06-13"
+      },
+      "category": "industry",
+      "tags": [
+        "open-source",
+        "ai-policy",
+        "regulation",
+        "industry"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "开源 AI 阵营发起集体倡议：呼吁监管层与产业界保护开源模型的合法发展空间，对比闭源与开源模型的差异化风险，提出可执行的合规建议",
+      "summary_en": "The open-source AI community launches a unified initiative calling for policy that protects the legitimate development of open models, contrasting closed vs open risks and proposing actionable compliance guidance.",
+      "one_liner": "开源 AI 阵营集体倡议：呼吁监管与产业为开源模型留出合法发展空间",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/3645a667.md",
+      "images": [],
+      "added_date": "2026-07-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "18cbb19e",
+      "title": "AI agent bankrupted their operator while trying to scan DN42",
+      "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian",
+      "source": {
+        "platform": "blog",
+        "author": "lantian",
+        "original_date": "2026-06-12"
+      },
+      "category": "agents",
+      "tags": [
+        "agent",
+        "safety",
+        "cost",
+        "incident",
+        "case-study"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "作者让 AI Agent 自动扫描 DN42 网络做安全研究，结果 Agent 反复触发云厂商计费 API，在数小时内产生数千美元账单一份关于 Agent 失控成本的第一人称复盘",
+      "summary_en": "An AI agent tasked with scanning the DN42 network for security research repeatedly hit a cloud provider's billing API, racking up thousands of dollars in a few hours a first-person post-mortem on the cost of agent runaways.",
+      "one_liner": "AI Agent 自动扫 DN42，触发云计费 API 几小时烧掉数千美元失控成本复盘",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/18cbb19e.md",
+      "images": [],
+      "added_date": "2026-07-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6222b54e",
+      "title": "German ruling declares Google liable for false answers in AI Overviews",
+      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-f",
+      "source": {
+        "platform": "news",
+        "author": "The Decoder",
+        "original_date": "2026-06-10"
+      },
+      "category": "industry",
+      "tags": [
+        "google",
+        "ai-overviews",
+        "liability",
+        "eu",
+        "ruling"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "德国法院作出里程碑裁决：AI Overviews 的回答被视为 Google 自身言论，Google 需对其中错误信息承担法律责任，可能改写欧盟范围内 AI 搜索产品的责任边界",
+      "summary_en": "A landmark German court ruling classifies AI Overviews answers as Google's own statements, holding Google liable for misinformation likely reshaping the legal boundary for AI-search products across the EU.",
+      "one_liner": "德国法院里程碑裁决：AI Overviews 视为 Google 自身言论，搜索厂商要对 AI 错误担责",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6222b54e.md",
+      "images": [],
+      "added_date": "2026-07-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4d948a8f",
+      "title": "AI Content",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "翻译失败，原文保留",
+      "summary_en": "The Cook and the Chef: Musk8217;s Secret Sauce November 6, 2015 By Tim Urban This is the last part of a four-part series on Elon Musks companies. For an explanation of why this series is happening and how Musk is involved, start with Part 1.11 also click these Three quick notes: 1) PDF and ebook options: We made a fancy PDF of this post for printing and offline viewing (see a preview here), and an ebook containing the whole four-part Elon Musk series: 2) Here8217;s a G-rated version of the post...",
+      "one_liner": "AI Content",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/Kx0X2XTA.md",
+      "images": [],
+      "added_date": "2026-07-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-06-30",
-  "total_entries": 1442
+  "last_updated": "2026-07-01",
+  "total_entries": 1452
 }
