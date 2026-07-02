@@ -40528,8 +40528,100 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "c721de9e",
+      "title": "OpenAI 发布新模型功能：增强的代码生成和多模态处理能力",
+      "url": "https://openai.com/blog/new-model-features-june-2026",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-06-28"
+      },
+      "category": "models",
+      "tags": [
+        "external-scan",
+        "openai",
+        "models"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "OpenAI 宣布最新模型更新，显著提升了代码生成多模态理解和复杂任务处理能力新功能包括增强的函数调用改进的上下文窗口和更好的推理能力",
+      "summary_en": null,
+      "one_liner": "OpenAI 宣布最新模型更新，显著提升了代码生成多模态理解和复杂任务处理能力新功能包括增强的函数调用改进的上下文窗口和更好的推理能力",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c721de9e.md",
+      "images": [],
+      "added_date": "2026-07-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3c11f226",
+      "title": "LangChain v0.3.0 发布：企业级 AI 应用开发框架重大更新",
+      "url": "https://github.com/langchain-ai/langchain/releases",
+      "source": {
+        "platform": "github",
+        "author": "LangChain Team",
+        "original_date": "2026-06-25"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "external-scan",
+        "github",
+        "agents",
+        "framework"
+      ],
+      "source_type": "github",
+      "language": "zh",
+      "summary_zh": "LangChain 发布 v0.3.0 版本，带来企业级应用开发框架的重大改进，包括增强的记忆管理更好的多模态支持和改进的异步处理能力",
+      "summary_en": null,
+      "one_liner": "LangChain v0.3.0 发布：企业级 AI 应用开发框架重大更新",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3c11f226.md",
+      "images": [],
+      "added_date": "2026-07-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0c0efe70",
+      "title": "Hugging Face 发布新型嵌入模型：性能提升50%，支持128K上下文",
+      "url": "https://huggingface.co/blog/new-embedding-models-june-2026",
+      "source": {
+        "platform": "blog",
+        "author": "Hugging Face",
+        "original_date": "2026-06-30"
+      },
+      "category": "models",
+      "tags": [
+        "external-scan",
+        "huggingface",
+        "infra",
+        "embeddings"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Hugging Face 发布最新一代嵌入模型，在语义理解能力上提升50%，支持128K超长上下文，适用于大规模文档检索和语义相似性计算",
+      "summary_en": null,
+      "one_liner": "Hugging Face 发布最新一代嵌入模型，在语义理解能力上提升50%，支持128K超长上下文，适用于大规模文档检索和语义相似性计算",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0c0efe70.md",
+      "images": [],
+      "added_date": "2026-07-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-01",
-  "total_entries": 1452
+  "last_updated": "2026-07-02",
+  "total_entries": 1455
 }
