@@ -6,8 +6,8 @@
 
 - [From brain waves to words: a new path to communication without surgery](https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication) ⭐5 · 2026-06-30 — Meta Brain2Qwerty：非侵入式脑信号直接转文字，为瘫痪患者打开免手术沟通路径
 - [Introducing GeneBench-Pro](https://openai.com/index/introducing-genebench-pro) ⭐4 · 2026-06-30 — GeneBench-Pro：首个面向真实基因组学工作流的 AI 评测基准
-- [Core dump epidemiology: fixing an 18-year-old bug](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug) ⭐4 · 2026-06-30 — OpenAI 用 core dump 流行病学定位 18 年老 bug，AI 时代工程调试范式新案例
 - [Hugging Face 发布新型嵌入模型：性能提升50%，支持128K上下文](https://huggingface.co/blog/new-embedding-models-june-2026) ⭐4 · 2026-06-30 — Hugging Face 发布最新一代嵌入模型，在语义理解能力上提升50%，支持128K超长上下文，适用于大规模文档检索和语义相似性计算
+- [Core dump epidemiology: fixing an 18-year-old bug](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug) ⭐4 · 2026-06-30 — OpenAI 用 core dump 流行病学定位 18 年老 bug，AI 时代工程调试范式新案例
 - [Anthropic launches AI drug discovery program](https://www.cnbc.com/2026/06/30/anthropic-launches-ai-drug-discovery-program-claude-science) ⭐4 · 2026-06-30 — Anthropic 启动 Claude for Science 药物发现项目：进军 AI for Biotech
 - [How ChatGPT adoption has expanded](https://openai.com/index/how-chatgpt-adoption-has-expanded) ⭐3 · 2026-06-30 — ChatGPT 全球扩张进入深度使用阶段，新兴市场在低资源语言上增长最快
 - [Gemini Spark updates: macOS launch, connected apps and more](https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026) ⭐3 · 2026-06-30 — Gemini Spark 6 月更新：macOS 客户端 + 应用连接 + 多模态，Google 统一 AI 助手正式铺开
@@ -29,9 +29,9 @@
 
 ## 当前数据
 
-- 原始条目: 1455
+- 原始条目: 1457
 - 公开展示卡片: 639
-- 有全文内容: 546
+- 有全文内容: 550
 - 最近 7 天信号: 422
 - 输出目录: `dist/`
 

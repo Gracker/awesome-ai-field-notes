@@ -40620,8 +40620,60 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "f192659c",
+      "title": "Maintain-Report-2026-05-11",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "维护报告 2026-05-11 总览 总条目: 939 Active: 591 591 可读性挂起: 0 归档: 0 时效归档 归档条件: added_date > 180天 且 score 3 归档数量: 0 本地路径校验 缺失数量: 520 | ID | 路径 | |---|---| | njDjVfxD | Obsidian/awesome-ai-field-notes/content/gemini_cli_subagents_2026.md | | qBHoHDJ1 | Obsidian/awesome-ai-field-notes/content/maxtext_sft_rl_tpu...",
+      "summary_en": null,
+      "one_liner": "维护报告 2026-05-11 总览 总条目: 939 Active: 591 591 可读性挂起: 0 归档: 0 时效归档 归档条件: added_date > 180天 且 score 3 归档数量: 0 本地路径校验 缺失数量: 520 | ID | 路径 | |---|...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "score-pending",
+      "local_path": "content/maintain-report-2026-05-11.md",
+      "images": [],
+      "added_date": "2026-07-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6dd29387",
+      "title": "Maintain-Report-2026-05-18",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "维护报告 2026-05-18 总览 总条目: 968 Active: 608 608 可读性挂起: 0 归档: 0 时效归档 归档条件: added_date > 180天 且 score 3 归档数量: 0 本地路径校验 缺失数量: 538 | ID | 路径 | |---|---| | njDjVfxD | Obsidian/awesome-ai-field-notes/content/gemini_cli_subagents_2026.md | | qBHoHDJ1 | Obsidian/awesome-ai-field-notes/content/maxtext_sft_rl_tpu...",
+      "summary_en": null,
+      "one_liner": "维护报告 2026-05-18 总览 总条目: 968 Active: 608 608 可读性挂起: 0 归档: 0 时效归档 归档条件: added_date > 180天 且 score 3 归档数量: 0 本地路径校验 缺失数量: 538 | ID | 路径 | |---|...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "score-pending",
+      "local_path": "content/maintain-report-2026-05-18.md",
+      "images": [],
+      "added_date": "2026-07-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-02",
-  "total_entries": 1455
+  "last_updated": "2026-07-03",
+  "total_entries": 1457
 }
