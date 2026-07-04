@@ -211,7 +211,8 @@
       "related": [],
       "local_path_valid": false,
       "content_generated": true,
-      "content_path": "content/ai_agents_production_2026_002.md"
+      "content_path": "content/ai_agents_production_2026_002.md",
+      "content_file": "content/ai_agents_production_2026_002.md"
     },
     {
       "id": "hn_llm_agents_2026_003",
@@ -22046,7 +22047,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/aafn_26601831.md",
+      "content_generated": true
     },
     {
       "id": "aafn_30093080",
@@ -22078,7 +22081,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/aafn_30093080.md",
+      "content_generated": true
     },
     {
       "id": "aafn_29863341",
@@ -22110,7 +22115,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/aafn_29863341.md",
+      "content_generated": true
     },
     {
       "id": "aafn_13907069",
@@ -22142,7 +22149,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/aafn_13907069.md",
+      "content_generated": true
     },
     {
       "id": "aafn_83791594",
@@ -22174,7 +22183,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/aafn_83791594.md",
+      "content_generated": true
     },
     {
       "id": "aafn_55432168",
@@ -22206,7 +22217,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/aafn_55432168.md",
+      "content_generated": true
     },
     {
       "id": "aafn_81099394",
@@ -22238,7 +22251,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/aafn_81099394.md",
+      "content_generated": true
     },
     {
       "id": "97d3d0bf",
@@ -22389,7 +22404,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/b6cadf9d.md",
+      "content_generated": true
     },
     {
       "id": "db85d2ef",
@@ -22416,7 +22433,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/db85d2ef.md",
+      "content_generated": true
     },
     {
       "id": "b5f5f327",
@@ -22443,7 +22462,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/b5f5f327.md",
+      "content_generated": true
     },
     {
       "id": "3d923e32",
@@ -22470,7 +22491,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/3d923e32.md",
+      "content_generated": true
     },
     {
       "id": "digest_2026-06-13_01",
@@ -22503,7 +22526,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/digest_2026-06-13_01.md",
+      "content_generated": true
     },
     {
       "id": "digest_2026-06-13_02",
@@ -22536,7 +22561,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/digest_2026-06-13_02.md",
+      "content_generated": true
     },
     {
       "id": "digest_2026-06-13_03",
@@ -22569,7 +22596,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/digest_2026-06-13_03.md",
+      "content_generated": true
     },
     {
       "id": "digest_2026-06-13_04",
@@ -22602,7 +22631,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/digest_2026-06-13_04.md",
+      "content_generated": true
     },
     {
       "id": "digest_2026-06-13_05",
@@ -22635,7 +22666,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/digest_2026-06-13_05.md",
+      "content_generated": true
     },
     {
       "id": "4de9d325",
@@ -24089,7 +24122,9 @@
       "added_date": "2026-06-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/u9kvudqy.md",
+      "content_generated": true
     },
     {
       "id": "cmvqcqzx",
@@ -24120,7 +24155,9 @@
       "added_date": "2026-06-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/cmvqcqzx.md",
+      "content_generated": true
     },
     {
       "id": "1srbmsro",
@@ -24151,7 +24188,9 @@
       "added_date": "2026-06-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/1srbmsro.md",
+      "content_generated": true
     },
     {
       "id": "dnj7d3op",
@@ -24182,7 +24221,9 @@
       "added_date": "2026-06-18",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/dnj7d3op.md",
+      "content_generated": true
     },
     {
       "id": "t58ih5gj",
@@ -24990,7 +25031,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/aid008.md",
+      "content_generated": true
     },
     {
       "id": "19923856",
@@ -37791,7 +37834,8 @@
       "related": [],
       "content_generated": true,
       "content_path": "content/7e504b47.md",
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/7e504b47.md"
     },
     {
       "id": "64acf8e5",
@@ -37858,7 +37902,8 @@
       "related": [],
       "content_generated": true,
       "content_path": "content/58a72a3a.md",
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/58a72a3a.md"
     },
     {
       "id": "b387731f",
@@ -37894,7 +37939,8 @@
       "related": [],
       "content_generated": true,
       "content_path": "content/b387731f.md",
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/b387731f.md"
     },
     {
       "id": "00ed5eb9",
@@ -38232,7 +38278,8 @@
       "related": [],
       "content_generated": true,
       "content_path": "content/a89b1dbe.md",
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/a89b1dbe.md"
     },
     {
       "id": "ad8a3140",
@@ -38538,7 +38585,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/efaf3577.md",
+      "content_generated": true
     },
     {
       "id": "03bd842e",
@@ -38571,7 +38620,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/03bd842e.md",
+      "content_generated": true
     },
     {
       "id": "81f505be",
@@ -38604,7 +38655,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/81f505be.md",
+      "content_generated": true
     },
     {
       "id": "c2b7eaeb",
@@ -38637,7 +38690,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/c2b7eaeb.md",
+      "content_generated": true
     },
     {
       "id": "da4017ce",
@@ -38703,7 +38758,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/56fb216a.md",
+      "content_generated": true
     },
     {
       "id": "efe176cd",
@@ -38802,7 +38859,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/846c8049.md",
+      "content_generated": true
     },
     {
       "id": "08dc63f3",
@@ -38835,7 +38894,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/08dc63f3.md",
+      "content_generated": true
     },
     {
       "id": "9d77f2d8",
@@ -38935,7 +38996,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/5ad7b448.md",
+      "content_generated": true
     },
     {
       "id": "a7e2bc3b",
@@ -38969,7 +39032,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/a7e2bc3b.md",
+      "content_generated": true
     },
     {
       "id": "aab34ffb",
@@ -39002,7 +39067,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/aab34ffb.md",
+      "content_generated": true
     },
     {
       "id": "3a468cd7",
@@ -39035,7 +39102,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/3a468cd7.md",
+      "content_generated": true
     },
     {
       "id": "24e6aa77",
@@ -39069,7 +39138,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/24e6aa77.md",
+      "content_generated": true
     },
     {
       "id": "3345b333",
@@ -39199,7 +39270,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/adbd50c1.md",
+      "content_generated": true
     },
     {
       "id": "2f383058",
@@ -39257,7 +39330,9 @@
       "updated_date": "2026-06-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/7bd44733.md",
+      "content_generated": true
     },
     {
       "id": "b482b19f",
@@ -39288,7 +39363,9 @@
       "updated_date": "2026-06-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/b482b19f.md",
+      "content_generated": true
     },
     {
       "id": "14667f46",
@@ -39407,7 +39484,9 @@
       "updated_date": "2026-06-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": false,
+      "content_file": "content/1a015f5d.md",
+      "content_generated": true
     },
     {
       "id": "6507bbb3",
@@ -39672,7 +39751,9 @@
       "added_date": "2026-06-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/1f7427a9.md",
+      "content_generated": true
     },
     {
       "id": "8c59d007",
@@ -39704,7 +39785,9 @@
       "added_date": "2026-06-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/8c59d007.md",
+      "content_generated": true
     },
     {
       "id": "5d4a0e56",
@@ -39736,7 +39819,9 @@
       "added_date": "2026-06-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/5d4a0e56.md",
+      "content_generated": true
     },
     {
       "id": "50380117",
@@ -39767,7 +39852,9 @@
       "added_date": "2026-06-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/50380117.md",
+      "content_generated": true
     },
     {
       "id": "064435cf",
@@ -39799,7 +39886,9 @@
       "added_date": "2026-06-29",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/064435cf.md",
+      "content_generated": true
     },
     {
       "id": "6c80d790",
@@ -39866,7 +39955,9 @@
       "added_date": "2026-06-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/5b79476b.md",
+      "content_generated": true
     },
     {
       "id": "1ae317c0",
@@ -39930,7 +40021,9 @@
       "added_date": "2026-06-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/f1de547a.md",
+      "content_generated": true
     },
     {
       "id": "279d788d",
@@ -39962,7 +40055,9 @@
       "added_date": "2026-06-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/279d788d.md",
+      "content_generated": true
     },
     {
       "id": "54f2380b",
@@ -39996,7 +40091,9 @@
       "added_date": "2026-06-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/54f2380b.md",
+      "content_generated": true
     },
     {
       "id": "bc34ed67",
@@ -40028,7 +40125,9 @@
       "added_date": "2026-06-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/bc34ed67.md",
+      "content_generated": true
     },
     {
       "id": "03e3a7ec",
@@ -40061,7 +40160,9 @@
       "added_date": "2026-06-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/03e3a7ec.md",
+      "content_generated": true
     },
     {
       "id": "5803a03d",
@@ -40093,7 +40194,9 @@
       "added_date": "2026-06-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/5803a03d.md",
+      "content_generated": true
     },
     {
       "id": "22bd7e8d",
@@ -40125,7 +40228,9 @@
       "added_date": "2026-06-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/22bd7e8d.md",
+      "content_generated": true
     },
     {
       "id": "63c88a9c",
@@ -40279,7 +40384,9 @@
       "added_date": "2026-07-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/3c923494.md",
+      "content_generated": true
     },
     {
       "id": "c66e2703",
@@ -40343,7 +40450,9 @@
       "added_date": "2026-07-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/86bc9e28.md",
+      "content_generated": true
     },
     {
       "id": "e45923a4",
@@ -40374,7 +40483,9 @@
       "added_date": "2026-07-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/e45923a4.md",
+      "content_generated": true
     },
     {
       "id": "4c4d91d3",
@@ -40406,7 +40517,9 @@
       "added_date": "2026-07-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/4c4d91d3.md",
+      "content_generated": true
     },
     {
       "id": "3645a667",
@@ -40469,7 +40582,9 @@
       "added_date": "2026-07-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/18cbb19e.md",
+      "content_generated": true
     },
     {
       "id": "6222b54e",
@@ -40501,7 +40616,9 @@
       "added_date": "2026-07-01",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/6222b54e.md",
+      "content_generated": true
     },
     {
       "id": "4d948a8f",
@@ -40557,7 +40674,9 @@
       "added_date": "2026-07-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/c721de9e.md",
+      "content_generated": true
     },
     {
       "id": "3c11f226",
@@ -40588,7 +40707,9 @@
       "added_date": "2026-07-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/3c11f226.md",
+      "content_generated": true
     },
     {
       "id": "0c0efe70",
@@ -40619,7 +40740,9 @@
       "added_date": "2026-07-02",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [],
+      "content_file": "content/0c0efe70.md",
+      "content_generated": true
     },
     {
       "id": "f192659c",
@@ -40672,8 +40795,139 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "f7b1eaa8",
+      "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
+      "source": {
+        "platform": "blog",
+        "author": "GitHub",
+        "original_date": "2026-07-01"
+      },
+      "category": "coding",
+      "tags": [
+        "kimi",
+        "k2.7",
+        "github-copilot",
+        "open-weight",
+        "model-picker",
+        "coding-agent"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "GitHub Copilot 模型选择器上线首个开源权重模型 Kimi K2.7 Code该模型由 GitHub 在 Microsoft Azure 上托管，按 provider 列表价计费，面向 Copilot 个人版/Business/Enterprise 全量可用，为编码工作流提供一个开源可审计低成本的选项来源页同步提到 K2.7 Code 是 Copilot 第一次把开源权重模型列为可选，打破了此前以闭源模型为主的供应结构",
+      "summary_en": "Kimi K2.7 Code, an open-weight model, is now generally available in GitHub Copilot. This is the first open-weight model offered as a selectable option in the Copilot model picker, giving more choice and a lower-cost option for coding workflows. Hosted by GitHub on Microsoft Azure and billed at provider list pricing under usage-based billing for Copilot Pro, Business, and Enterprise users.",
+      "one_liner": "Copilot 模型选择器首次引入开源权重模型，Kimi K2.7 Code 正式 GA，重塑开发者对模型成本与可控性的选择空间",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f7b1eaa8.md",
+      "images": [],
+      "added_date": "2026-07-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6fe77399",
+      "title": "Distributed Attacks in Persistent-State AI Control",
+      "url": "https://arxiv.org/abs/2607.02514",
+      "source": {
+        "platform": "arxiv",
+        "author": "Josh Hills, Ida Caspary, Asa Cooper Stickland",
+        "original_date": "2026-07-02"
+      },
+      "category": "learning",
+      "tags": [
+        "ai-control",
+        "ai-safety",
+        "coding-agent",
+        "vibe-coding",
+        "monitor",
+        "claude-sonnet",
+        "gpt-4o"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文研究 AI 编码 Agent 在持久化代码库下的新型攻击面：被提示注入或目标错位的 Agent 可以把恶意载荷拆分到多个 PR，并在掩护最好的那个 PR 上引爆作者提出 Iterative VibeCoding 评估设置，覆盖 CLI 工具与 Flask Web 服务两类任务，使用 Claude Sonnet 4.5 作为攻击 AgentGPT-4o 作为 Monitor，并对比 gradual 与 non-gradual 两类攻击策略结论是没有单一 Monitor 能同时拦住两种策略，高逃避率（65%）在 Sonnet 4.5Gemini 3.1 ProKimi K2.5 等多个攻击后端上保持稳定，说明这是持久化攻击面的属性而非单模型能力问题",
+      "summary_en": "Studies a new attack surface that emerges when AI coding agents iteratively ship code across sessions: misaligned or prompt-injected agents can distribute attacks across pull requests and time their payload for the PR with the best natural cover. The authors introduce Iterative VibeCoding, an AI-control setting where an agent pursues a covert side task across a sequence of PRs in a persistent codebase, with a benchmark of 20 CLI/Flask tasks. Using Claude Sonnet 4.5 as attacker and GPT-4o as monitor, they show no single monitor is robust to both gradual and non-gradual attacks; high evasion (>=65%) generalizes across Sonnet 4.5, Gemini 3.1 Pro, and Kimi K2.5, indicating the gap is a property of the persistent-state attack surface rather than a single model.",
+      "one_liner": "持久化代码库下的分布式 AI 攻击首次被系统量化，提示当前 Monitor 策略同时挡不住 gradual 与 non-gradual 两类注入",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6fe77399.md",
+      "images": [],
+      "added_date": "2026-07-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1cad9458",
+      "title": "ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2607.02509",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yanjun Zhao, Ruizhong Qiu, Tianxin Wei, Yuanchen Bei, Zhining Liu, Lingjie Chen, Ismini Lourentzou...",
+        "original_date": "2026-07-02"
+      },
+      "category": "models",
+      "tags": [
+        "long-context",
+        "harness",
+        "evidence-replay",
+        "training-free",
+        "rag-alternative"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文提出 RECONTEXT（Recursive Evidence Replay as LLM Harness for Long-Context Reasoning），一种无需训练的长上下文推理增强方法它利用模型内部的相关性信号构建查询条件下的证据池，在最终生成前 replay 一次，同时保留原始完整上下文作者还从联想记忆角度给出理论分析，把上下文视为记忆存储问题视为检索线索attention 视为线索-痕迹关联replay 视为痕迹再激活在 8 个 128K 长上下文数据集上的实验显示 RECONTEXT 一致提升多种基线模型的表现",
+      "summary_en": "Proposes RECONTEXT, a training-free inference method that improves long-context reasoning by using model-internal relevance signals to construct a query-conditioned evidence pool and replaying it before final generation, while preserving the full original context. The recursive selection separates evidence organization from answer generation without training, external memory, or context pruning. A theoretical analysis frames the context as a memory store, the question as a retrieval cue, attention as cue-trace association, and replay as trace reactivation. Experiments on eight 128K long-context datasets show consistent gains over strong baselines.",
+      "one_liner": "无需训练的 RECONTEXT 把长上下文重新组织为可重放的证据池，给当前大模型补上一块会用上下文的能力",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/1cad9458.md",
+      "images": [],
+      "added_date": "2026-07-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4f017ca4",
+      "title": "EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments",
+      "url": "https://arxiv.org/abs/2607.02440",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhilin Wang, Han Song, Runzhe Zhan, Jusen Du, Jiacheng Chen, Tianle Li, Qingyu Yin, Yulun Wu, Zhenna...",
+        "original_date": "2026-07-02"
+      },
+      "category": "infra",
+      "tags": [
+        "benchmark",
+        "agent-eval",
+        "policy-evolution",
+        "reinforcement-learning",
+        "agent"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文定义 Autonomous Policy Evolution 作为新的受控评估设置，由 harness-model Agent 在固定交互预算下反复修改可执行策略系统作者基于紧凑的交互式 RL 环境构建 EvoPolicyGym 基准，用于评估 Agent 如何迭代地改进已探索的策略在 16 个环境上 GPT-5.5 取得最强综合排名和 top-two 表现基准还提供轨迹级诊断，区分 Agent 如何分配预算把反馈转化为参数化调优；结论是强大的自主策略进化不仅依赖单点任务胜率，还依赖发现任务适配机制并在有界反馈下持续优化策略",
+      "summary_en": "Defines Autonomous Policy Evolution, a controlled evaluation setting where a harness-model agent repeatedly edits an executable policy system under a fixed interaction budget. Instantiates the setting in EvoPolicyGym, a benchmark of compact interactive RL environments. On the 16-environment suite, GPT-5.5 achieves the strongest aggregate rank and top-two performance on every environment. Beyond leaderboard scores, the benchmark provides trajectory-level diagnostics that distinguish how agents allocate budget and convert feedback into parametric tuning, showing that strong policy evolution depends on discovering task-appropriate mechanisms and refining policies under bounded feedback, not only on isolated wins.",
+      "one_liner": "EvoPolicyGym 把自主改进策略从最终分数拆解为预算分配与反馈转化诊断，为 Agent 评测补一块短板",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/4f017ca4.md",
+      "images": [],
+      "added_date": "2026-07-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-03",
-  "total_entries": 1457
+  "last_updated": "2026-07-04",
+  "total_entries": 1461
 }
