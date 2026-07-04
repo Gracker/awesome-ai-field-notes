@@ -1,5 +1,123 @@
 # Changelog
 # Changelog
+## 2026-06-28 ~ 2026-07-05
+
+> 上次变更日志: 2026-06-28 04:39 (commit 6515bb1, 1423 条) → 本次: 1461 条 (**+38**)
+> 基线快照: `6515bb1:data/entries.json` (2026-06-27)
+
+### 📈 新增 (38)
+
+**🆕 高质量新增 (⭐≥4, 26 条)**
+
+- [Introducing GPT-5.3-Codex](https://openai.com/index/introducing-gpt-5-3-codex) — models ⭐⭐⭐⭐⭐ (2026-06-29)
+
+- [Apple Neural Engine: Architecture, Programming, and Performance](https://arxiv.org/abs/2606.22283) — infra ⭐⭐⭐⭐⭐ (2026-06-30)
+
+- [Ornith-1.0: Self-improving open-source models for agentic coding](https://github.com/deepreinforce-ai/Ornith-1) — models ⭐⭐⭐⭐⭐ (2026-06-30)
+
+- [From brain waves to words: a new path to communication without surgery](https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication) — models ⭐⭐⭐⭐⭐ (2026-07-01)
+
+- [Using Opus 4.8 to get a second opinion on an MRI and where it leaves me](https://antoine.fi/mri-analysis-using-claude-code-opus) — agents ⭐⭐⭐⭐ (2026-06-29)
+
+- [Anthropic Economic Index report: Cadences](https://www.anthropic.com/research/economic-index-june-2026-report) — industry ⭐⭐⭐⭐ (2026-06-29)
+
+- [Unrolling the Codex agent loop](https://openai.com/index/unrolling-the-codex-agent-loop) — coding ⭐⭐⭐⭐ (2026-06-29)
+
+- [We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks) — industry ⭐⭐⭐⭐ (2026-06-29)
+
+- [Introducing GPT-5.3-Codex-Spark](https://openai.com/index/introducing-gpt-5-3-codex-spark) — models ⭐⭐⭐⭐ (2026-06-29)
+
+- [Micro-Agent: Beat Frontier Models with Collaboration Inside Model API](https://vllm.ai/blog/2026-06-29-micro-agent-frontier-models) — agents ⭐⭐⭐⭐ (2026-06-30)
+
+- [Qwen 3.6 27B is the sweet spot for local development](https://quesma.com/blog/qwen-36-is-awesome) — models ⭐⭐⭐⭐ (2026-06-30)
+
+- [Working With AI: A concrete example](https://htmx.org/essays/working-with-ai) — coding ⭐⭐⭐⭐ (2026-06-30)
+
+- [Mapping Europe's AI Workforce Opportunity](https://openai.com/index/mapping-ai-jobs-transition-eu) — industry ⭐⭐⭐⭐ (2026-06-30)
+
+- [South Korea to spend $1T on more memory chip production and humanoid robots](https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots) — industry ⭐⭐⭐⭐ (2026-06-30)
+
+- [Ask an AI expert: What exactly is the full stack?](https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer) — infra ⭐⭐⭐⭐ (2026-06-30)
+
+- [Ornith-1.0: Self-scaffolding LLMs for agentic coding](https://deep-reinforce.com/ornith_1_0.html) — coding ⭐⭐⭐⭐ (2026-06-30)
+
+- [AI agent bankrupted their operator while trying to scan DN42](https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian) — agents ⭐⭐⭐⭐ (2026-07-01)
+
+- [Introducing GeneBench-Pro](https://openai.com/index/introducing-genebench-pro) — learning ⭐⭐⭐⭐ (2026-07-01)
+
+- [Core dump epidemiology: fixing an 18-year-old bug](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug) — infra ⭐⭐⭐⭐ (2026-07-01)
+
+- [German ruling declares Google liable for false answers in AI Overviews](https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-f) — industry ⭐⭐⭐⭐ (2026-07-01)
+
+- [Anthropic launches AI drug discovery program](https://www.cnbc.com/2026/06/30/anthropic-launches-ai-drug-discovery-program-claude-science) — industry ⭐⭐⭐⭐ (2026-07-01)
+
+- [Hugging Face 发布新型嵌入模型：性能提升50%，支持128K上下文](https://huggingface.co/blog/new-embedding-models-june-2026) — models ⭐⭐⭐⭐ (2026-07-02)
+
+- [LangChain v0.3.0 发布：企业级 AI 应用开发框架重大更新](https://github.com/langchain-ai/langchain/releases) — uncategorized ⭐⭐⭐⭐ (2026-07-02)
+
+- [OpenAI 发布新模型功能：增强的代码生成和多模态处理能力](https://openai.com/blog/new-model-features-june-2026) — models ⭐⭐⭐⭐ (2026-07-02)
+
+- [Distributed Attacks in Persistent-State AI Control](https://arxiv.org/abs/2607.02514) — learning ⭐⭐⭐⭐ (2026-07-04)
+
+- [Kimi K2.7 Code is generally available in GitHub Copilot](https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot) — coding ⭐⭐⭐⭐ (2026-07-04)
+
+
+**📝 普通新增 (⭐<4, 12 条)**
+
+- [ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning](https://arxiv.org/abs/2607.02509) — models ⭐⭐⭐ (2026-07-04)
+
+- [EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments](https://arxiv.org/abs/2607.02440) — infra ⭐⭐⭐ (2026-07-04)
+
+- Maintain-Report-2026-05-18 — uncategorized ⭐⭐⭐ (2026-07-03)
+
+- Maintain-Report-2026-05-11 — uncategorized ⭐⭐⭐ (2026-07-03)
+
+- [Open source AI must win](https://opensourceaimustwin.com/?share=v2) — industry ⭐⭐⭐ (2026-07-01)
+
+- AI Content — uncategorized ⭐⭐⭐ (2026-07-01)
+
+- [Gemini Spark updates: macOS launch, connected apps and more](https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026) — models ⭐⭐⭐ (2026-07-01)
+
+- [How ChatGPT adoption has expanded](https://openai.com/index/how-chatgpt-adoption-has-expanded) — industry ⭐⭐⭐ (2026-07-01)
+
+- [HP Inc. launches Frontier strategic partnership with OpenAI](https://openai.com/index/hp-frontier-partnership) — industry ⭐⭐⭐ (2026-06-30)
+
+- [.self: A new top-level domain designed to support self-hosting](https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain) — infra ⭐⭐⭐ (2026-06-30)
+
+- [Safety & Security](https://blog.google/innovation-and-ai/technology/safety-security) — learning ⭐⭐⭐ (2026-06-30)
+
+- README — uncategorized ⭐⭐ (2026-06-28)
+
+
+### 📊 分类变更分布
+
+| 分类 | 新增 |
+|------|------|
+
+| models | +9 |
+
+| industry | +9 |
+
+| infra | +5 |
+
+| uncategorized | +5 |
+
+| coding | +4 |
+
+| agents | +3 |
+
+| learning | +3 |
+
+
+### 📊 统计
+
+- 总条目: 1423 → 1461 (**+38**)
+
+- 活跃条目: 1199 → 1199
+
+- 本周最高分新增: [From brain waves to words: a new path to communication without surgery](https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication) ⭐⭐⭐⭐⭐
+
+
 
 ## 2026-06-21 ~ 2026-06-28
 
