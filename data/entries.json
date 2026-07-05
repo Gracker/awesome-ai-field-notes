@@ -40926,8 +40926,232 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "c354ef57",
+      "title": "Prompt engineering & loop engineering, clearly explained!",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "manual",
+        "original_date": "2026-07-04"
+      },
+      "category": "agents",
+      "tags": [
+        "manual"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "At its core, an agent is a while loop: ReAct described this form of loop back in 2022-23, and almost every agent/framework runs a similar implementation of this. So loops aren't a new thing at all, and the above implementation of loops was solved a long time ago.",
+      "summary_en": null,
+      "one_liner": "At its core, an agent is a while loop: ReAct described this form of loop back in 2022-23, and almost every agent/framework runs a similar im...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-07-04-1238-_avichawla-Prompt-engineering-l.md",
+      "images": [],
+      "added_date": "2026-07-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3b14fe3e",
+      "title": "Loop Engineering 这个词最近火起来了，但它真正重要的地方不是 cronworktree并行开几个 agent 这些技巧",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "manual",
+        "original_date": "2026-07-04"
+      },
+      "category": "coding",
+      "tags": [
+        "manual"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "这些东西有用，但只是实现层 更本质的变化是：我们正在把 AI Manager 做的二阶管理动作写进系统 以前你用 AI，核心动作是自己拆任务补背景看中间结果判断下一步现代 coding agent 已经能自己写代码运行验证看报错debug真正卡住人的地方，已经不是把报错贴回去，而是长任务里你仍然要不断做 manager：决定下一步，诊断失败模式，判断改动是否真的变好，把成功经验重复讲给下一轮 agent",
+      "summary_en": null,
+      "one_liner": "这些东西有用，但只是实现层 更本质的变化是：我们正在把 AI Manager 做的二阶管理动作写进系统 以前你用 AI，核心动作是自己拆任务补背景看中间结果判断下一步现代 coding agent 已经能自己写代码运行验证看报错debug真正卡住人的地方，已经不是把报错贴回去...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-07-04-1238-grapeot-Loop-Engineering-这个词.md",
+      "images": [],
+      "added_date": "2026-07-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4f3a21e4",
+      "title": "AI半导体终局推演2026(II)",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "manual",
+        "original_date": "2026-07-04"
+      },
+      "category": "infra",
+      "tags": [
+        "manual"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "当半导体结构性演进到AI推理主线，内存和存储成为了最大瓶颈，市场对内存和存储最大的怀疑就是： HBM/DRAM/SSD会不会摆脱传统周期性？ 依赖HBM指数增长的GPU架构路线进化路线，会不会停止？什么时候停止？",
+      "summary_en": null,
+      "one_liner": "当半导体结构性演进到AI推理主线，内存和存储成为了最大瓶颈，市场对内存和存储最大的怀疑就是： HBM/DRAM/SSD会不会摆脱传统周期性？",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-07-04-1238-fi56622380-AI半导体终局推演2026II-当半导体.md",
+      "images": [],
+      "added_date": "2026-07-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4932ce54",
+      "title": "转发一下 B 站博主的锐评 PPT skills：",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "manual",
+        "original_date": "2026-07-04"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "manual"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "注意：有些 skill 不是专门做 PPT 的，所以评分会有点低，只是需求不同，想专门做 PPT 的看最前面的 1. hugohe( 3.1万 作者: 0xCheshire (柴郡🔔｜Crypto+AI Plus)",
+      "summary_en": null,
+      "one_liner": "注意：有些 skill 不是专门做 PPT 的，所以评分会有点低，只是需求不同，想专门做 PPT 的看最前面的 1.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-07-04-1239-0xCheshire-转发一下-B-站博主的锐评-PPT-sk.md",
+      "images": [],
+      "added_date": "2026-07-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f7c494dc",
+      "title": "摁头推荐，Codex必安的一个插件！",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "manual",
+        "original_date": "2026-07-04"
+      },
+      "category": "agents",
+      "tags": [
+        "manual"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Codex我用下来有个很大的问题，就是哪怕是一个非常复杂的任务，它都不会主动地去调用Agents Team相较而言， claude code就非常的主动 作者: zjp1997720 (智见AI-大鹏) 链接:",
+      "summary_en": null,
+      "one_liner": "Codex我用下来有个很大的问题，就是哪怕是一个非常复杂的任务，它都不会主动地去调用Agents Team相较而言， claude code就非常的主动 作者: zjp1997720 (智见AI-大鹏) 链接:",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-07-04-1239-zjp1997720-摁头推荐Codex必安的一个插件-Cod.md",
+      "images": [],
+      "added_date": "2026-07-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "87587bbf",
+      "title": "最近这几个月分享了太多关于Codex的玩法了，横跨了赚钱自媒体视频记忆系统APP开发上架教程等多个领域，大家进行系统学习的时候，可以把这篇推文发给Codex，让它给你推荐阅读路径",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "manual",
+        "original_date": "2026-07-04"
+      },
+      "category": "learning",
+      "tags": [
+        "manual"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "一边玩边赚钱与实战变现 1. Codex进阶实战教程，办公四件套3D视频电商自动化",
+      "summary_en": null,
+      "one_liner": "最近这几个月分享了太多关于Codex的玩法了，横跨了赚钱自媒体视频记忆系统APP开发上架教程等多个领域，大家进行系统学习的时候，可以把这篇推文发给Codex，让它给你推荐阅读路径",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-07-04-1238-gengdaJ-最近这几个月分享了太多关于Codex的玩.md",
+      "images": [],
+      "added_date": "2026-07-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4ea0241d",
+      "title": "吴恩达三言两语，就把 Loop Engineering 说清楚了",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "manual",
+        "original_date": "2026-07-04"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "manual"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "吴恩达果然厉害前两天在他的 Newsletter 中，短短几句话就把 Loop Engineerring 这个新词的本质说清楚了 作者: xiaogaifun (小盖) 链接:",
+      "summary_en": null,
+      "one_liner": "吴恩达果然厉害前两天在他的 Newsletter 中，短短几句话就把 Loop Engineerring 这个新词的本质说清楚了 作者: xiaogaifun (小盖) 链接:",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "X 文章/2026-07-04-1239-xiaogaifun-吴恩达三言两语就把-Loop-Engin.md",
+      "images": [],
+      "added_date": "2026-07-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0a14979d",
+      "title": "AOSP 整机源码 Harness 工程探索-2026-07-04",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "manual",
+        "original_date": "2026-07-04"
+      },
+      "category": "agents",
+      "tags": [
+        "manual"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "",
+      "summary_en": null,
+      "one_liner": "AOSP 整机源码 Harness 工程探索-2026-07-04",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Cubox/AOSP 整机源码 Harness 工程探索-2026-07-04.md",
+      "images": [],
+      "added_date": "2026-07-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-04",
-  "total_entries": 1461
+  "last_updated": "2026-07-05",
+  "total_entries": 1469
 }
