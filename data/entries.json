@@ -31604,8 +31604,62 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "intake_evening_20260706_233514_0",
+      "title": "God of GPT",
+      "url": "local://README.md",
+      "source": {
+        "platform": "manual",
+        "author": null,
+        "original_date": "2026-07-06"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "intake",
+        "local-note"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Local AI-related note processed during evening intake",
+      "summary_en": "Local AI-related note processed during evening intake",
+      "one_liner": "Local AI note: God of GPT",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "score-pending",
+      "added_date": "2026-07-06",
+      "updated_date": "2026-07-06",
+      "local_path": "README.md",
+      "images": []
+    },
+    {
+      "id": "intake_evening_20260706_233514_1",
+      "title": "AAIF Content Fetcher Report",
+      "url": "local://content_fetcher_report.md",
+      "source": {
+        "platform": "manual",
+        "author": null,
+        "original_date": "2026-07-06"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "intake",
+        "local-note"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Local AI-related note processed during evening intake",
+      "summary_en": "Local AI-related note processed during evening intake",
+      "one_liner": "Local AI note: AAIF Content Fetcher Report",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "score-pending",
+      "added_date": "2026-07-06",
+      "updated_date": "2026-07-06",
+      "local_path": "content_fetcher_report.md",
+      "images": []
     }
   ],
-  "last_updated": "2026-07-06",
-  "total_entries": 1114
+  "last_updated": "2026-07-06 23:35:52",
+  "total_entries": 1116
 }
