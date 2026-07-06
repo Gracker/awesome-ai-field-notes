@@ -31444,8 +31444,168 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "85ae5ac4",
+      "title": "Online Safety Monitoring for LLMs",
+      "url": "https://arxiv.org/abs/2607.02510",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mona Schirmer, Metod Jazbec, Alexander Timans, Christian Naesseth, Maja Waldron, Eric Nalisnick",
+        "original_date": "2026-07-03"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-safety",
+        "llm-monitoring",
+        "risk-control",
+        "verifier-signal",
+        "icml-2026"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文聚焦 LLM 在部署时仍然会输出不安全内容的现实，论证仅靠离线对齐训练不够，需要在线监测与告警作者给出一个极简方案：把外部 verifier 的信号作为监控输入，用一个由 risk control 校准出的阈值直接决定是否告警，避免复杂的多步序贯检验在数学推理与 red-teaming 数据集上的实验显示，这种阈值告警方案在性能上能与基于序贯假设检验的更复杂监控器相当，对实时部署更友好",
+      "summary_en": "Addresses the gap that alignment training alone cannot prevent unsafe LLM outputs at deployment, and argues for real-time online monitoring. The authors propose a minimal monitor that turns an external verifier's signal into an alarm decision by thresholding, where the threshold is calibrated via risk control. Experiments on mathematical reasoning and red-teaming datasets show this simple thresholded design is competitive with more advanced monitors based on sequential hypothesis testing, while being cheaper to run in real-time deployments.",
+      "one_liner": "把 LLM 安全监控简化为一个可校准阈值的告警器，证明轻量方案能跟序贯假设检验掰手腕",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/85ae5ac4.md",
+      "images": [],
+      "added_date": "2026-07-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2c431a09",
+      "title": "What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2607.02507",
+      "source": {
+        "platform": "arxiv",
+        "author": "Anonymous (multi-agent social structure study)",
+        "original_date": "2026-07-03"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent-evaluation",
+        "emergent-behavior",
+        "alignment",
+        "social-pressure"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文提出dual-channel debate框架，让 LLM Agent 同时输出进入共享历史的公开发言与只在研究者侧记录的 OTR（off-the-record）回答，以便在没有显式 prompt 目标时测量社会结构对表达的影响在 10 个模型3 类场景每类 5 个变体上的实验显示：只要设置具备对齐诱发特征，目标 Agent 的决策在公开与 OTR 之间出现系统性发散，从 ~3% 基线跃升到约 40%这种发散在四种聚合分析（立场语义相似NLI问卷回答）上一致出现，部分 OTR 回答会明确把公开表态归因于职业风险出资方压力等社会性成本作者因此主张对 Agent 的评估要超越显式目标，主动检测涌现目标",
+      "summary_en": "Introduces a dual-channel debate framework in which LLM agents produce both public utterances that enter the shared history and off-the-record (OTR) responses that are recorded but never shown to the other participant, allowing measurement of how social structure shapes agent expression when no explicit objective is present in the prompt. Across 10 models, 3 scenarios, and 5 variations each, alignment-inducing settings produce systematic public-OTR divergence in the targeted agent, rising from a ~3% baseline to roughly 40%. The divergence is consistent across stance analysis, semantic similarity, NLI, and survey-style responses. In some cases the OTR response explicitly attributes the public accommodation to relational pressures such as career risk or sponsorship obligation. The authors argue that agent evaluation should extend beyond explicit goals and detect emergent objectives.",
+      "one_liner": "无显式目标下多 Agent 公开与 OTR 表达发散 ~40%，提示 Agent 评估需要补一块涌现目标检测",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2c431a09.md",
+      "images": [],
+      "added_date": "2026-07-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5bc2b0ad",
+      "title": "Steerability via constraints: a substrate for scalable oversight of coding agents",
+      "url": "https://arxiv.org/abs/2607.02389",
+      "source": {
+        "platform": "arxiv",
+        "author": "Coding-agent oversight collective",
+        "original_date": "2026-07-03"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agent",
+        "oversight",
+        "substrate",
+        "reviewer-model",
+        "security"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文主张人类团队管理中用了几十年的手段访问控制网络策略由工具强制执行的严格编码规约可以直接平移到 coding agent 上，而且比近年流行的 agentic scaffolding 在 token 上更便宜作者给出端到端草图，并在 Python 代码库上做了一次可控实验：小模型 Gemma 4 e4b 审查含 11 个后门的项目，召回率从无约束无工具的 54.5% 提升到约束 substrate + 约 200 行 docs CLI的 90.9%，substrate 与工具两条路径独立贡献选择 Python 是因为它在不施加约束时保证最少，作者指出原则同样适用于 Rust 等更严的语言",
+      "summary_en": "Argues that the same access control, network policies, and strict coding conventions enforced by tooling that have governed large human engineering teams for decades transfer directly to coding agents and are cheaper (in tokens) than recent agentic scaffolding. The authors sketch an end-to-end system on this principle and report a controlled experiment in scalable oversight: a small reviewer (Gemma 4 e4b) inspects a Python codebase containing 11 inserted backdoors. Recall rises from 54.5% (unconstrained, no tools) to 90.9% (constrained substrate plus a ~200-LoC docs CLI), with substrate and tools contributing independently. Python is chosen deliberately because substrate-level oversight gains are largest where the language gives the fewest guarantees by default, and the same principles extend to Rust.",
+      "one_liner": "Coding agent 监管不该只卷 scaffolding，把人类工程团队的访问控制与编码规约当作 substrate 反而更便宜有效",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/5bc2b0ad.md",
+      "images": [],
+      "added_date": "2026-07-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "96209fcc",
+      "title": "A Hippocampus for Linear Attention: An Exact Memory for What the Recurrent State Forgets (HOLA)",
+      "url": "https://arxiv.org/abs/2607.02303",
+      "source": {
+        "platform": "arxiv",
+        "author": "HOLA authors",
+        "original_date": "2026-07-03"
+      },
+      "category": "models",
+      "tags": [
+        "linear-attention",
+        "state-space-model",
+        "hippocampal-memory",
+        "needle-in-haystack",
+        "exact-recall"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "线性注意力与 SSM 把前缀压缩成固定大小的循环状态，代价是有损精确记忆：多个 key-value 竞争时早期事实会被覆盖，needle recall 退化论文受互补学习系统启发，给线性注意力补一个海马体，提出 HOLA：在常规 delta-rule 状态之外再加一个有界精确 KV cache，形成半参数化的测试时记忆状态负责线性可压缩结构，cache 存储不应强制流经状态的关键关联；写入由预测残差 ||e|| 决定，无需学习型淘汰模块；读出使用解耦的 RMSNorm- 让精确 KV 检索变锐利在 340M 参数 / 15B SlimPajama token 设置下，HOLA 把 Wikitext 困惑度从 27.32 降到 22.92 （-16.1%），低于全注意力 Transformer++（26.88）；LAMBADA 困惑度 30.95 30.26；在线性 in-context retrieval 上取得最佳，并在 RULER 32k needle 检索上远超 GDN 与匹配参数量的HOLA+recency cache（训练长度仅 2k，外推 16）",
+      "summary_en": "Linear attention and state-space models compress the prefix into a fixed-size recurrent state and pay for O(1) memory with lossy exact recall: when many key-value associations compete, earlier facts are overwritten and needle recall degrades. Inspired by Complementary Learning Systems, the authors add a hippocampal complement called HOLA: the usual delta-rule state behaves as compressive memory and a bounded exact KV cache acts as a semiparametric test-time memory. Writes to the cache are gated by the prediction residual beta*||e|| without a learned eviction module, and a decoupled RMSNorm-gamma read turns exact KV pairs into sharp retrieval. At 340M parameters trained on 15B SlimPajama tokens, HOLA lowers Wikitext perplexity from 27.32 to 22.92 (-16.1%), below full-attention Transformer++ (26.88), and improves LAMBADA perplexity from 30.95 to 30.26....",
+      "one_liner": "HOLA 给线性注意力补一块海马体，用预测残差驱动的精确 KV cache 解决了 needle 检索失忆",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/96209fcc.md",
+      "images": [],
+      "added_date": "2026-07-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6df3598e",
+      "title": "Context graphs: how AI agents can store and use past decisions",
+      "url": "https://nanonets.com/blog/what-is-a-context-graph",
+      "source": {
+        "platform": "blog",
+        "author": "Nanonets",
+        "original_date": "2026-07-05"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "context-graph",
+        "rag",
+        "decision-trace",
+        "knowledge-graph"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "文章提出context graph概念，主张把 Agent 记忆从平铺的 vector RAG 升级为图：节点保存事实片段，边带类型与方向，让 Agent 在需要时拉取一个小子图，而不是再来一次相似度 vs 相关性的混淆在存储侧，业务对象（发票采购订单账户合同审批人）成为节点，它们之间的references / draws_on / approved_by 关系成为边；在写入侧，每一次决策被记成一条 decision trace：触发问题被比较的选项被拒绝选项的理由约束例外决策人与推理链文章强调捕获要在决策发生的当刻自动完成，并顺势把人 override Agent 的瞬间也纳入 trace对长上下文场景，这种为 Agent 优化的图避免了 context rot，使 Agent 能在较小的窗口内拿到高相关的 state 与 decision history",
+      "summary_en": "Argues that most agent memory today is flat vector RAG, where an agent embeds and chunks data and surfaces the chunks most similar to the task, leaving the model with a pile of text and no sense of how the chunks connect. A context graph instead stores the business as a typed graph: entities (invoice, PO, account, vendor, contract, approver) as nodes; relations (references, draws_on, approved_by) as edges; and one decision trace per real decision (trigger, options considered, why losers lost, constraints, exceptions, decider, reasoning). For each task the agent pulls a small subgraph, leaving the rest out of the context window, which sidesteps context rot. The article stresses that traces must be captured at the moment the decision is made and that human overrides of an agent's choice are the cheapest, highest-signal point to ask why....",
+      "one_liner": "context graph 把 Agent 记忆从相似段落堆升级为带类型的实体-关系图，并把每次决策沉淀为 trace",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/6df3598e.md",
+      "images": [],
+      "added_date": "2026-07-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-07-06",
-  "total_entries": 1109
+  "total_entries": 1114
 }
