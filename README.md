@@ -13,26 +13,26 @@
 - [Loop Engineering 这个词最近火起来了，但它真正重要的地方不是 cronworktree并行开几个 agent 这些技巧](https://godofgpt.com/entry/3b14fe3e/) ⭐3 · 2026-07-04 — 这些东西有用，但只是实现层 更本质的变化是：我们正在把 AI Manager 做的二阶管理动作写进系统 以前你用 AI，核心动作是自己拆任务补背景看中间结果判断下一步现代 coding agent 已经能自己写代码运行验证看报错debug真正卡住人的地方...
 - [AI半导体终局推演2026(II)](https://godofgpt.com/entry/4f3a21e4/) ⭐3 · 2026-07-04 — 当半导体结构性演进到AI推理主线，内存和存储成为了最大瓶颈，市场对内存和存储最大的怀疑就是： HBM/DRAM/SSD会不会摆脱传统周期性？
 - [What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in...](https://arxiv.org/abs/2607.02507) ⭐4 · 2026-07-03 — 无显式目标下多 Agent 公开与 OTR 表达发散 ~40%，提示 Agent 评估需要补一块涌现目标检测
-- [A Hippocampus for Linear Attention: An Exact Memory for What the Recurrent State Forgets (HOLA)](https://arxiv.org/abs/2607.02303) ⭐4 · 2026-07-03 — HOLA 给线性注意力补一块海马体，用预测残差驱动的精确 KV cache 解决了 needle 检索失忆
+- [UA-ChatDev: Uncertainty-Aware Multi-Agent Collaboration for Reliable Software Development](https://arxiv.org/abs/2607.02186) ⭐4 · 2026-07-03 — 软件开发需要多角色 Agent 协作，现有 LLM 多 Agent 框架（ChatDev 等）默认中间结果同等可信，但实际上不同角色产出可靠性差异很大。
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
 | 模型与实验室 | 227 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 112 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 71 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| Agent 与自动化 | 117 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 73 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 18 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 44 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 29 | 论文、课程、提示工程、长文、方法论。 |
+| 研究与学习 | 31 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 139 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 1116
-- 公开展示卡片: 640
-- 有全文内容: 562
-- 最近 7 天信号: 52
+- 原始条目: 1125
+- 公开展示卡片: 649
+- 有全文内容: 571
+- 最近 7 天信号: 60
 - 输出目录: `dist/`
 
 ## 热门标签

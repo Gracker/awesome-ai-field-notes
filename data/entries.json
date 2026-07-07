@@ -31658,8 +31658,288 @@
       "updated_date": "2026-07-06",
       "local_path": "content_fetcher_report.md",
       "images": []
+    },
+    {
+      "id": "5d8bbb8b",
+      "title": "G-RRM: Guiding Symbolic Solvers with Recurrent Reasoning Models",
+      "url": "https://arxiv.org/abs/2607.02491",
+      "source": {
+        "platform": "arxiv",
+        "author": "Timo Bertram, Sidhant Bhavnani, Richard Freinschlag, Erich Kobler, Andreas Mayr, Gnter Klambauer",
+        "original_date": "2026-07-03"
+      },
+      "category": "learning",
+      "tags": [
+        "neuro-symbolic",
+        "constraint-satisfaction",
+        "recurrent-reasoning",
+        "symbolic-solver"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "本文聚焦 SE-RRMs（symbol-equivariant recurrent reasoning models），这是一类对符号置换等变的循环推理模型，相对普通 RRM 在外推到更大问题时表现更稳。作者提出神经-符号方法 G-RRM：用 SE-RRM 作为神经求解器生成完整解的候选，再把候选交给经典符号求解器做约束满足验证与修正，让神经推理负责发散式搜索、符号求解器负责最终一致性。在 CSP 基准上的实验显示，这种引导式集成在解的质量与推理步数上都优于纯神经方案。",
+      "summary_en": "In this work, we focus on SE-RRMs, a symbol-equivariant instantiation of RRMs that exhibits improved extrapolation to larger problem sizes. We propose a neuro-symbolic approach, ``Guiding with Recurrent Reasoning Models&#39;&#39; (G-RRM), which integrates SE-RRMs with symbolic solvers for constraint satisfaction problems. SE-RRMs act as neural solvers that generate full solution proposals and guide classical symbolic solvers, such as backtracking or SAT-based methods like Glucose 4.1 and CaDiCaL 3.0.0, that produce globally correct solutions. Centrally, we investigate when neural guidance with G-RRM improves the search efficiency of symbolic solvers....",
+      "one_liner": "本文聚焦 SE-RRMs（symbol-equivariant recurrent reasoning models），这是一类对符号置换等变的循环推理模型，相对普通 RRM 在外推到更大问题时表现更稳。",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/5d8bbb8b.md",
+      "images": [],
+      "added_date": "2026-07-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "91a9e419",
+      "title": "DRIFTLENS: Measuring Memory-Induced Reasoning Drift in Personalized Language Models",
+      "url": "https://arxiv.org/abs/2607.02374",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xi Fang, Weijie Xu, Yingqiang Ge, Yuhui Xu, Stephanie Eckman, Chandan K. Reddy",
+        "original_date": "2026-07-03"
+      },
+      "category": "learning",
+      "tags": [
+        "personalization",
+        "memory-drift",
+        "reasoning-eval",
+        "longitudinal-eval"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "个性化会让模型对用户说的话不同，论文进一步指出它也会改变模型用来论证结论的推理轨迹。现代 LLM 通常先把用户属性、偏好与历史背景存到记忆里，再注入到后续 prompt 中。本文研究这种记忆是否会影响开放问题（无标准答案）的推理路径：用 DRIFTLENS 在多轮个性化对话上做时间序列切片，追踪同一个推理任务在「无记忆 / 有记忆但少用户上下文 / 完整个性化记忆」三种条件下答案与解释轨迹的偏移。结果发现即使最终答案正确，推理步骤也会随记忆累积发生漂移，提示个性化系统的评估不能只看准确率。",
+      "summary_en": "Personalization changes what a model says to a user; we show that it can also change the reasoning trajectory used to justify the response. Modern LLMs personalize interactions by storing user attributes, preferences, and prior context, then injecting this information into future prompts. We study whether such memory reshapes reasoning on open-ended questions where no single ground-truth answer exists. To quantify this effect, we introduce DRIFTLENS, a ground-truth-free framework that maps each expressed reasoning step to a value category and measures divergence between a question&#39;s no-memory trajectory and its trajectory under injected user-attribute memory. We first validate that DRIFTLENS distinguishes content-free pragmatic noise from substantive reasoning changes....",
+      "one_liner": "个性化会让模型对用户说的话不同，论文进一步指出它也会改变模型用来论证结论的推理轨迹。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/91a9e419.md",
+      "images": [],
+      "added_date": "2026-07-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bbb1a60e",
+      "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2607.02255",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xiangchen Cheng, Yunwei Jiang, Jianwen Sun, Zizhen Li, Chuanhao Li, Xiangcheng Cao, Yihao Liu, Fanru...",
+        "original_date": "2026-07-03"
+      },
+      "category": "agents",
+      "tags": [
+        "long-horizon-agent",
+        "memory-ablation",
+        "agent-eval",
+        "bounded-memory"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "长程 LLM Agent 的记忆本质上是一份「未来每一步能看到什么」的契约。最简单的契约是把历史观测、工具调用、反思全部 append 到 prompt，访问容易但变成了混乱的混合物，单一记忆组件的贡献难以隔离。作者提出并实现一个有界契约（bounded-memory）测试床 AgenticSTS，把每条记忆显式声明为固定大小的 budget、显式记录淘汰策略，让研究者可以系统化 ablation 任何一条记忆对最终决策的影响，而不是被迫接受全集 prompt 的混杂效应。",
+      "summary_en": "Memory for a long-horizon LLM agent is a contract about what each future decision is allowed to see. The simplest contract appends past observations, tool calls, and reflections to every prompt, which makes prior context easy to access but also turns it into a jumbled mixture in which the effect of any single memory component is hard to isolate. We introduce and instrument an alternative bounded contract: every decision is made from a fresh user message assembled by typed retrieval, with no raw cross-decision transcript appended. The prompt thus stays bounded across runs of any length, and any single layer can be ablated in isolation. We instantiate the contract in Slay the Spire 2, a closed-rule stochastic deck-building game whose runs require hundreds of tactical and strategic decisions....",
+      "one_liner": "长程 LLM Agent 的记忆本质上是一份「未来每一步能看到什么」的契约。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/bbb1a60e.md",
+      "images": [],
+      "added_date": "2026-07-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "998c5a89",
+      "title": "UA-ChatDev: Uncertainty-Aware Multi-Agent Collaboration for Reliable Software Development",
+      "url": "https://arxiv.org/abs/2607.02186",
+      "source": {
+        "platform": "arxiv",
+        "author": "Temitayo Olamilekan Ogunsusi, Lijun Qian, Xishuang Dong",
+        "original_date": "2026-07-03"
+      },
+      "category": "coding",
+      "tags": [
+        "multi-agent",
+        "uncertainty-quantification",
+        "chatdev",
+        "software-dev",
+        "agent-reliability"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "软件开发需要多角色 Agent 协作，现有 LLM 多 Agent 框架（ChatDev 等）默认中间结果同等可信，但实际上不同角色产出可靠性差异很大。本文提出 UA-ChatDev，把不确定性量化引入多 Agent 协作：每个 Agent 的输出附带置信度与一致性度量，下游 Agent 据此决定是否采纳、重做或触发复核。在需求分析、编码、测试三个环节上，UA-ChatDev 比原 ChatDev 在缺陷率与重复迭代次数上都显著降低，证明 uncertainty-aware 的 gate 比「无脑信任前一环」更适合复杂软件任务。",
+      "summary_en": "Software development is a complex task that demands cooperation among agents with diverse roles. Large language models (LLMs) have enabled autonomous multi-agent software development frameworks that leverage role-based collaboration to automate requirements analysis, coding, testing, and refinement. However, existing approaches typically assume that intermediate agent outputs are equally reliable, leaving them vulnerable to hallucination propagation, where incorrect decisions generated in early development phases are transferred to downstream agents and negatively impact final software quality. To address this challenge, we propose UA-ChatDev, an uncertainty-aware multi-agent software development framework that integrates uncertainty quantification into agent interactions....",
+      "one_liner": "软件开发需要多角色 Agent 协作，现有 LLM 多 Agent 框架（ChatDev 等）默认中间结果同等可信，但实际上不同角色产出可靠性差异很大。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/998c5a89.md",
+      "images": [],
+      "added_date": "2026-07-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4484b28c",
+      "title": "Coding-agents can replicate scientific machine learning papers",
+      "url": "https://arxiv.org/abs/2607.02134",
+      "source": {
+        "platform": "arxiv",
+        "author": "scientific ML replication collective",
+        "original_date": "2026-07-03"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agent",
+        "scientific-ml",
+        "paper-replication",
+        "evidence-tracking"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "科学机器学习论文通常给出可计算的断言，如相对 MSE 小于 5%、95% 预测区间覆盖测试集等。让 Coding Agent 仅凭论文材料复现这些断言是检验其科研能力的天然基准。本文系统化地让 Agent 跑完论文全流程：复现代码、运行实验、检查数值证据是否真支持论文断言。关键贡献是一个轻量 harness，强制把「生成的代码 / 跑出的数值 / 论文断言」三方挂钩，避免 Agent 在迭代中丢失进度或凭印象判断「差不多对了」。结果显示现有 Coding Agent 在论文复现上的成功率仍偏低，主要瓶颈在于证据追踪与中间结果一致性。",
+      "summary_en": "Scientific machine learning papers typically make computational claims, e.g., that the relative mean square error is less than 5% or that the 95% predictive credible interval covers the test data. A coding agent can be prompted to replicate those claims from paper materials alone, but the prompt does not by itself reliably preserve progress or check whether generated evidence supports the paper&#39;s claims. We introduce Paper-replication, a workflow that makes each selected paper claim a target with recorded evidence, and implement it as a coding-agent skill. The workflow makes the agent record those targets, reconstruct the paper&#39;s method, run computational experiments, link generated outputs to provenance and comparisons with the paper&#39;s claims, record where matched evidence appears in the replication report, and pass validation checks before completion....",
+      "one_liner": "科学机器学习论文通常给出可计算的断言，如相对 MSE 小于 5%、95% 预测区间覆盖测试集等。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4484b28c.md",
+      "images": [],
+      "added_date": "2026-07-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "339bf4ff",
+      "title": "ContextNest: Verifiable Context Governance for Autonomous AI Agent",
+      "url": "https://arxiv.org/abs/2607.02116",
+      "source": {
+        "platform": "arxiv",
+        "author": "ContextNest authors",
+        "original_date": "2026-07-03"
+      },
+      "category": "agents",
+      "tags": [
+        "context-governance",
+        "provenance",
+        "auditability",
+        "agent-knowledge-vault"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "自主 AI Agent 越来越依赖外部知识库，但当前大多数检索管线只给相关性，不保证来源可信、版本一致、可追溯与可定点回放。本文把这套需求形式化为 context governance，并给出开放规范 ContextNest + 参考实现：每一次 context 写入都附带来源签名、版本号与时间戳，Agent 拿到的内容可被验证完整性，监管侧可以按时间点重放 Agent 当下看到的世界。相比传统 RAG 召回的不可验证文本块，ContextNest 把 context 当作一等公民的「可审计资产」。",
+      "summary_en": "Autonomous AI agents increasingly depend on external knowledge stores, yet most retrieval pipelines provide relevance without durable guarantees of provenance, version identity, integrity, traceability, or point-in-time reconstruction. We formalize this as context governance and present ContextNext, an open specification and reference implementation for governed AI-consumable knowledge vaults. ContextNext does not replace Retrieval-Augmented Generation (RAG); it supplies the governance layer beneath retrieval, determining which artifacts are approved, current, attributable, and integrity-verified before retrieval systems operate over them....",
+      "one_liner": "自主 AI Agent 越来越依赖外部知识库，但当前大多数检索管线只给相关性，不保证来源可信、版本一致、可追溯与可定点回放。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/339bf4ff.md",
+      "images": [],
+      "added_date": "2026-07-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f923fe84",
+      "title": "PACE: A Proxy for Agentic Capability Evaluation",
+      "url": "https://arxiv.org/abs/2607.02032",
+      "source": {
+        "platform": "arxiv",
+        "author": "PACE authors",
+        "original_date": "2026-07-03"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-eval",
+        "capability-proxy",
+        "swe-bench",
+        "cheap-eval"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "在 SWE-Bench、GAIA 等 Agent 基准上做一次评测可能要花几天、几千美元，非 Agent LLM 基准（推理、代码）却便宜得多。本文研究一个关键问题：非 Agent 基准上的表现能不能作为 Agent 能力的代理指标？PACE 在多组模型上系统比较 agentic 与 non-agentic 两类基准的成绩，发现两者相关性弱到中等，单看 non-agentic 分数无法可靠预测 agentic 表现；但一些组合指标（代码 + 长上下文推理 + 工具使用模拟）对 agentic 分数有更强的预测力。为预算有限的小团队提供了一个相对便宜的 agent 能力估算路径。",
+      "summary_en": "Evaluating LLM agents on benchmarks like SWE-Bench and GAIA can be expensive, time-consuming, and requires complex infrastructure. A single evaluation can cost thousands of dollars and take days to complete. In contrast, non-agentic LLM benchmarks that test individual capabilities (e.g., reasoning, code generation) are fast and cheap to run. In this paper, we investigate whether performance on expensive agentic benchmarks can be accurately predicted by the performance on a small, carefully selected subset of atomic evaluation instances. We introduce PACE, a framework that constructs proxy benchmarks by selecting instances from existing non-agentic evaluations whose aggregate scores most reliably predict model performances on agentic benchmarks....",
+      "one_liner": "在 SWE-Bench、GAIA 等 Agent 基准上做一次评测可能要花几天、几千美元，非 Agent LLM 基准（推理、代码）却便宜得多。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f923fe84.md",
+      "images": [],
+      "added_date": "2026-07-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "97a8be00",
+      "title": "SkillCoach: Self-Evolving Rubrics for Evaluating and Enhancing Agentic Skill-Use",
+      "url": "https://arxiv.org/abs/2607.01874",
+      "source": {
+        "platform": "arxiv",
+        "author": "SkillCoach authors",
+        "original_date": "2026-07-03"
+      },
+      "category": "agents",
+      "tags": [
+        "skill-use",
+        "rubric",
+        "self-evolving-eval",
+        "agent-training"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Skills 正在成为 LLM Agent 的可复用操作层，封装 SOP、领域规则、工具工作流与验证例程。现实 skill 库存在大量重叠 skill，导致 Agent 难以稳定选择。仅看最终验证是否通过太粗：Agent 可能靠 trial-and-error 撞对，也可能完全跳过必选 skill。SkillCoach 引入 self-evolving rubrics：rubric 本身随 Agent 表现迭代，把「该用 skill 而未用 / 用了 distractor / 顺序错乱」等模式编码进评分，既能更细粒度评估 skill-use 能力，也能用作训练信号增强 Agent 的 skill 选择与调用顺序。",
+      "summary_en": "Skills are becoming a reusable operational layer for LLM agents, encoding SOPs, domain rules, tool workflows, scripts, and validation routines. In realistic skill repositories, overlapping skills make reliable skill-use difficult. Final verifier success is too coarse for both evaluation and training, since an agent may pass through trial and error while selecting distractor skills, skipping required steps, composing workflows incorrectly or omitting final checks. We introduce SkillCoach, a self-evolving rubric framework for evaluating and enhancing agentic skill-use. SkillCoach derives skill-grounded process rubrics from real rollouts and evaluates trajectories along four dimensions: skill selection, skill following, skill composition, and skill-grounded reflection....",
+      "one_liner": "Skills 正在成为 LLM Agent 的可复用操作层，封装 SOP、领域规则、工具工作流与验证例程。",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/97a8be00.md",
+      "images": [],
+      "added_date": "2026-07-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3504a6c2",
+      "title": "Why AI Orchestration Belongs in the Browser",
+      "url": "https://www.esri.com/en-us/software-engineering/blog/articles/ai-orchestration-in-the-browser",
+      "source": {
+        "platform": "blog",
+        "author": "Esri Software Engineering Blog",
+        "original_date": "2026-06-01"
+      },
+      "category": "agents",
+      "tags": [
+        "browser-agent",
+        "web-gis",
+        "map-state",
+        "orchestration"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Esri 工程师博客主张把 AI 编排层直接放在浏览器侧运行，而不是把状态全部回传到服务端：浏览器里现成的 live map statelayersuser interactions 适合作为 Agent 的运行时上下文，浏览器侧编排能拿到零延迟的 DOM 事件与本地凭据，绕过每一次调用都要往返服务端的开销；Web GIS 这种需要实时叠加地图图层选中要素绘制几何的场景尤其受益，因为 Agent 直接消费同一份 in-memory state 不需要再走一次 REST 序列化",
+      "summary_en": "Esri engineering blog argues that AI orchestration should live in the browser instead of round-tripping every state change back to a server. The browser already holds live map state, layers, and user interactions, which makes it a natural runtime context for agents: zero-latency DOM events, local credentials, and the avoidance of REST serialization on every step. Web GIS workloads overlaying layers, selecting features, drawing geometry benefit most because the agent consumes the same in-memory state the UI does. The post frames this as a Web-GIS-first design, but the same pattern generalizes to any rich-client product where the UI is the canonical source of truth.",
+      "one_liner": "Esri 工程师博客主张把 AI 编排层直接放在浏览器侧运行，而不是把状态全部回传到服务端：浏览器里现成的 live map statelayersuser interactions 适合作为 Agent 的运行时上下文，浏览器侧编排能拿到零延迟的 DOM 事件与本地凭据...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/3504a6c2.md",
+      "images": [],
+      "added_date": "2026-07-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-06 23:35:52",
-  "total_entries": 1116
+  "last_updated": "2026-07-07",
+  "total_entries": 1125
 }
