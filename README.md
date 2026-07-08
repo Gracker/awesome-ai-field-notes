@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
-- [Context graphs: how AI agents can store and use past decisions](https://nanonets.com/blog/what-is-a-context-graph) ⭐3 · 2026-07-05 — context graph 把 Agent 记忆从相似段落堆升级为带类型的实体-关系图，并把每次决策沉淀为 trace
-- [转发一下 B 站博主的锐评 PPT skills：](https://godofgpt.com/entry/4932ce54/) ⭐3 · 2026-07-04 — 注意：有些 skill 不是专门做 PPT 的，所以评分会有点低，只是需求不同，想专门做 PPT 的看最前面的 1.
-- [最近这几个月分享了太多关于Codex的玩法了，横跨了赚钱自媒体视频记忆系统APP开发上架教程等多个领域，大家进行系统学习的时候，可以把这篇推文发给Codex，让它给你推荐阅读路径](https://godofgpt.com/entry/87587bbf/) ⭐3 · 2026-07-04 — 最近这几个月分享了太多关于Codex的玩法了，横跨了赚钱自媒体视频记忆系统APP开发上架教程等多个领域，大家进行系统学习的时候，可以把这篇推文发给Codex，让它给你推荐阅读路径
-- [摁头推荐，Codex必安的一个插件！](https://godofgpt.com/entry/f7c494dc/) ⭐3 · 2026-07-04 — Codex我用下来有个很大的问题，就是哪怕是一个非常复杂的任务，它都不会主动地去调用Agents Team相较而言， claude code就非常的主动 作者: zjp1997720 (智见AI-大鹏) 链接:
-- [吴恩达三言两语，就把 Loop Engineering 说清楚了](https://godofgpt.com/entry/4ea0241d/) ⭐3 · 2026-07-04 — 吴恩达果然厉害前两天在他的 Newsletter 中，短短几句话就把 Loop Engineerring 这个新词的本质说清楚了 作者: xiaogaifun (小盖) 链接:
-- [Prompt engineering & loop engineering, clearly explained!](https://godofgpt.com/entry/c354ef57/) ⭐3 · 2026-07-04 — At its core, an agent is a while loop: ReAct described this form of loop back in 2022-23, and almost every agent/framework runs a similar im...
-- [Loop Engineering 这个词最近火起来了，但它真正重要的地方不是 cronworktree并行开几个 agent 这些技巧](https://godofgpt.com/entry/3b14fe3e/) ⭐3 · 2026-07-04 — 这些东西有用，但只是实现层 更本质的变化是：我们正在把 AI Manager 做的二阶管理动作写进系统 以前你用 AI，核心动作是自己拆任务补背景看中间结果判断下一步现代 coding agent 已经能自己写代码运行验证看报错debug真正卡住人的地方...
-- [AI半导体终局推演2026(II)](https://godofgpt.com/entry/4f3a21e4/) ⭐3 · 2026-07-04 — 当半导体结构性演进到AI推理主线，内存和存储成为了最大瓶颈，市场对内存和存储最大的怀疑就是： HBM/DRAM/SSD会不会摆脱传统周期性？
-- [What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in...](https://arxiv.org/abs/2607.02507) ⭐4 · 2026-07-03 — 无显式目标下多 Agent 公开与 OTR 表达发散 ~40%，提示 Agent 评估需要补一块涌现目标检测
-- [UA-ChatDev: Uncertainty-Aware Multi-Agent Collaboration for Reliable Software Development](https://arxiv.org/abs/2607.02186) ⭐4 · 2026-07-03 — 软件开发需要多角色 Agent 协作，现有 LLM 多 Agent 框架（ChatDev 等）默认中间结果同等可信，但实际上不同角色产出可靠性差异很大。
+- [MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolutio...](https://arxiv.org/abs/2607.05297) ⭐4 · 2026-07-08 — 现有自改进 Agent 只改进任务技能（做什么），而把如何改进的元技能写死论文提出 MetaSkill-Evolve...
+- [LLM-as-a-Verifier: A General-Purpose Verification Framework](https://arxiv.org/abs/2607.05391) ⭐4 · 2026-07-08 — 本文把验证（verification）识别为 LLM 的一个新扩展轴，并提出 LLM-as-a-Verifier 通用验证框架，用打分 token 期望生成连续分数...
+- [EvoAgentBench: Benchmarking Agent Self-Evolution via Ability Transfer](https://arxiv.org/abs/2607.05202) ⭐4 · 2026-07-08 — EvoAgentBench 把 Agent 自进化评测从单轮解题准确率推向过程级能力迁移：从执行轨迹里抽取 trace-grounded 的 Abilities，规范成可复用的操作单元...
+- [DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation](https://arxiv.org/abs/2607.05147) ⭐4 · 2026-07-08 — DSpark 把并行草稿生成与按置信度调度验证统一在同一个投机解码框架里：半自回归主干配合轻量串行模块保留块内依赖以缓解 suffix decay，验证长度则根据前缀存活概率与引擎吞吐画像动态调整在 DeepSeek-V4 在线服务上，相比生产基线 MTP-1...
+- [AgentGym2: Benchmarking Large Language Model Agents in De-Idealized Real-World Environments](https://arxiv.org/abs/2607.05174) ⭐4 · 2026-07-08 — 现有 Agent 评测多为理想化玩具环境，掩盖了真实部署中的噪声缺工具和需求不全AgentGym2 直接用真实端到端业务需求构造任务实例，要求 Agent 能执行完整流程能主动探索发现新工具能在噪声与欠规格输入下保持稳健15 个专有与开源模型测试显示...
+- [Reason, Reward, Refine: Step-Level Errors Corrections with Structured Feedback for Physics Reaso...](https://arxiv.org/abs/2607.05199) ⭐3 · 2026-07-08 — 小语言模型做物理推理时错误会沿步骤向前传播论文提出 step-level 奖励框架：先定位首次推理错误，再生成针对性结构化反馈，并带 KL 正则的策略梯度训练模型自修...
+- [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) ⭐3 · 2026-07-08 — OptiAgent 接收自然语言描述的运筹学问题，多 Agent 协同产出可执行求解器代码它把建模阶段放在核心位置，由专门 Agent 抽取决策变量与约束...
+- [Measuring Harness-Induced Belief Divergence in Multi-Step LLM Agents](https://arxiv.org/abs/2607.04528) ⭐5 · 2026-07-07 — 本文把 harness 从评测 "实现细节" 重新定位为实验变量：在任务环境底层 LLM 全部固定时，harness 也能改变 agent 多步下的"信念"作者提出 belief-rollout 诊断...
+- [Weak-to-Strong Generalization via Direct On-Policy Distillation](https://arxiv.org/abs/2607.05394) ⭐4 · 2026-07-07 — 本文把 RLVR 当作一个跨模型的隐式奖励信号来迁移：先在算力廉价的小模型上跑 RL，再把 RL 前后策略分布对数比作为密集奖励蒸馏到更大的学生模型上作者提出 Direct-OPD 在学生 on-policy 状态上施加教师"RL 引起的策略位移"...
+- [MRMS: A Multi-Resolution Memory Substrate for Long-Lived AI Agents](https://arxiv.org/abs/2607.04617) ⭐4 · 2026-07-07 — 本文提出多分辨率记忆基底 MRMS，沿"表征轴时间轴"组织 agent 记忆表征轴覆盖结构化记录向量表征图关系，时间轴覆盖短程轨迹中程抽象长程语义承诺核心约束是"结构化-向量-图"三路同步：结构化记录决定资格，向量支持召回，图关系再裁决支持矛盾与覆盖...
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 227 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 117 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 73 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 18 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 模型与实验室 | 229 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 126 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 77 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 19 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 44 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 31 | 论文、课程、提示工程、长文、方法论。 |
+| 研究与学习 | 33 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 139 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 1125
-- 公开展示卡片: 649
-- 有全文内容: 571
-- 最近 7 天信号: 60
+- 原始条目: 1163
+- 公开展示卡片: 667
+- 有全文内容: 589
+- 最近 7 天信号: 59
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`ai-tools`, `llm`, `research`, `openai`, `attention`, `google`, `anthropic`, `optimization`, `2026`, `gemini`, `benchmark`, `agent`, `digest`, `论文工具`, `open-source`, `claude-code`, `enterprise`, `codex`
+`ai-tools`, `llm`, `research`, `openai`, `attention`, `google`, `anthropic`, `optimization`, `2026`, `gemini`, `claude-code`, `benchmark`, `agent`, `digest`, `论文工具`, `claude`, `open-source`, `enterprise`
 
 ## 自动化约定
 
