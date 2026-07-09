@@ -1,0 +1,147 @@
+{
+  "initial_count": 1196,
+  "added_count": 9,
+  "skipped_count": 0,
+  "final_count": 1205,
+  "added": [
+    {
+      "id": "02d05485",
+      "title": "Beyond the Leaderboard: A Synthesis of Tool-Use, Planning, and Reasoning Failures in Large Language Model Agents",
+      "url": "https://arxiv.org/abs/2607.05775",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "agent-evaluation",
+        "failure-taxonomy",
+        "tool-use",
+        "planning",
+        "multi-agent",
+        "long-horizon"
+      ]
+    },
+    {
+      "id": "f4abcfbf",
+      "title": "StateFuse: Deterministic Conflict-Preserving Memory for Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2607.05844",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "multi-agent",
+        "memory",
+        "crdt",
+        "conflict-resolution",
+        "replicated-state"
+      ]
+    },
+    {
+      "id": "1b817acf",
+      "title": "Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents",
+      "url": "https://arxiv.org/abs/2607.05690",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "agent-memory",
+        "extended-mind",
+        "in-process-store",
+        "retrieval-latency",
+        "harness"
+      ]
+    },
+    {
+      "id": "2aaa2f72",
+      "title": "From Passive Retrieval to Active Memory Navigation: Learning to Use Memory as a Structured Action Space",
+      "url": "https://arxiv.org/abs/2607.05794",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "agent-memory",
+        "memory-tool",
+        "reinforcement-learning",
+        "personalization",
+        "long-term-memory"
+      ]
+    },
+    {
+      "id": "f4203ccb",
+      "title": "Task Decomposition-Guided Reranking for Adaptive Agent Skill Retrieval",
+      "url": "https://arxiv.org/abs/2607.06283",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "skill-retrieval",
+        "task-decomposition",
+        "reranker",
+        "agent-harness",
+        "dag"
+      ]
+    },
+    {
+      "id": "bdd5be19",
+      "title": "TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training",
+      "url": "https://arxiv.org/abs/2607.05804",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "on-policy-distillation",
+        "long-horizon",
+        "agent-training",
+        "rollout-budget",
+        "kl-loss"
+      ]
+    },
+    {
+      "id": "38a78fe3",
+      "title": "PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2607.06008",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "agent-benchmark",
+        "multilingual",
+        "long-horizon",
+        "tool-use",
+        "workflow"
+      ]
+    },
+    {
+      "id": "16faef29",
+      "title": "Danus: Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory",
+      "url": "https://arxiv.org/abs/2607.06447",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "math-reasoning",
+        "multi-agent",
+        "fact-graph",
+        "proof-search",
+        "verifier"
+      ]
+    },
+    {
+      "id": "b25bf032",
+      "title": "FreqDepthKV: Frequency-Guided Depth Sharing for Robust KV Cache Compression in Long-Context LLM Inference",
+      "url": "https://arxiv.org/abs/2607.06519",
+      "category": "infra",
+      "quality_score": 4,
+      "tags": [
+        "kv-cache",
+        "long-context",
+        "inference-optimization",
+        "compression",
+        "depth-sharing"
+      ]
+    }
+  ],
+  "skipped": [],
+  "written_content_files": [
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/02d05485.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/f4abcfbf.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/1b817acf.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2aaa2f72.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/f4203ccb.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/bdd5be19.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/38a78fe3.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/16faef29.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/b25bf032.md"
+  ]
+}

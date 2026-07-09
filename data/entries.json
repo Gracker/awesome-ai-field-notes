@@ -33882,8 +33882,384 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "02d05485",
+      "title": "Beyond the Leaderboard: A Synthesis of Tool-Use, Planning, and Reasoning Failures in Large Language Model Agents",
+      "url": "https://arxiv.org/abs/2607.05775",
+      "source": {
+        "platform": "arxiv",
+        "author": "Wael Albayaydh, Rui Zhao, Ivan Flechais",
+        "original_date": "2026-07-07"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-evaluation",
+        "failure-taxonomy",
+        "tool-use",
+        "planning",
+        "multi-agent",
+        "long-horizon"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "这篇工作把 27 篇评测 / 分类 / 审计论文（2023-2026，覆盖 19 个 benchmark）里的 LLM Agent 失败模式汇总成一张跨论文的统一分类表，识别出 6 大失败簇：工具调用与参数错规划与约束满足失败上下文累积导致的长程退化多智能体协同失败对抗 / 欠规格下的安全失败评测有效性失败这是首个把工具使用 / 规划 / 长程推理 / 多智能体协同 / 安全 / 度量有效性合在一起的 Agent 失败分类法，对 harness 设计与 Agent 评测选型都有直接参考价值",
+      "summary_en": "Large language model (LLM) agents are increasingly evaluated on their ability to use tools, plan multi-step tasks, coordinate with other agents, and operate over extended horizons. Reported benchmark gains often obscure recurring failure modes documented across otherwise unrelated evaluation efforts. This paper synthesizes 27 benchmark, taxonomy, and audit papers (2023-2026), spanning 19 distinct benchmarks, into a cross-cutting taxonomy of agent limitations. To our knowledge, this is the first synthesis that integrates evidence across tool use, planning, long-horizon reasoning, multi-agent coordination, safety, and measurement validity into a single, unified taxonomy of LLM agent limitations....",
+      "one_liner": "这篇工作把 27 篇评测 / 分类 / 审计论文（2023-2026，覆盖 19 个 benchmark）里的 LLM Agent 失败模式汇总成一张跨论文的统一分类表.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/02d05485.md",
+      "images": [],
+      "added_date": "2026-07-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f4abcfbf",
+      "title": "StateFuse: Deterministic Conflict-Preserving Memory for Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2607.05844",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sergey Volkov, Yang Li, Ye Luo",
+        "original_date": "2026-07-07"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "memory",
+        "crdt",
+        "conflict-resolution",
+        "replicated-state"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "StateFuse 是一套面向多智能体系统的 conflict-aware 复制内存合约，基于标准 OpSet / CRDT merge，但不引入新连接代数，而是在 agent 一侧加一层语义：不可变历史显式 conflict 对象exact / semantic 修正句柄 (claim_id / claim_ref)确定性谓词契约以及\"投影期再解析\"在 282 题的 MemoryAgentBench 冲突切片上，几种方法在答案准确率上打平，但保留冲突的 surface 能让矛盾可见提早归并会丢失证据；带显式 correction handle 的语义化句柄对高歧义场景更重要论文对 harness 端的可观测可纠正内存设计有直接启发",
+      "summary_en": "Agent systems accumulate conflicting observations across branches, retries, and replicas, yet many practical memory layers still collapse disagreement behind overwrite rules that are difficult to inspect or correct. We present StateFuse, a conflict-aware replicated memory contract built on standard OpSet/CRDT merge. StateFuse does not introduce a new join algebra; it defines an agent-facing semantics layer with immutable history, explicit conflict objects, exact and semantic correction handles (claim_id / claim_ref), deterministic predicate contracts, and projection-time resolution that cannot rewrite replicated state. We evaluate StateFuse against flat multi-value, raw-log, provenance-style, and collapsed baselines under matched resolver and verification policies....",
+      "one_liner": "StateFuse 是一套面向多智能体系统的 conflict-aware 复制内存合约，基于标准 OpSet / CRDT merge，但不引入新连接代数.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f4abcfbf.md",
+      "images": [],
+      "added_date": "2026-07-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1b817acf",
+      "title": "Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents",
+      "url": "https://arxiv.org/abs/2607.05690",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yusuf Khan, Carlo Lipizzi",
+        "original_date": "2026-07-06"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "extended-mind",
+        "in-process-store",
+        "retrieval-latency",
+        "harness"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "作者主张：网络存储的几十到几百毫秒延迟是 in-loop 检索的主要障碍，迁移到进程内 store（约 100s）后，每步检索开销塌缩控制每回合内存延迟预算只改存储回答速度时，冗余动作数随延迟单调上升（in-process 0/12110ms 云端 7.2/12）结论是足够快的存储才能成为\"扩展的工作记忆\"而不是\"被 query 的工具\"这对 Agent harness 设计有直接含义：serving 层调度与\"memory-first\"每回合限速只是在管理延迟成本，没在质疑这个模式",
+      "summary_en": "Language agents run a loop - observe, reason, act - but the memory they reason over sits outside it: a store queried at most once per turn. We study the regime where memory moves inside the loop, read and written on every step. The obstacle has always been latency: networked stores answer in tens to hundreds of milliseconds, and in-loop retrieval can inflate end-to-end latency by up to 83x when retrieval is expensive. Prior work manages that cost rather than questioning it: serving-layer scheduling hides it, memory-first designs ration retrieval to once per turn. We argue latency is a property of where the store lives, not the in-loop pattern: an in-process store answers in ~100us, three orders of magnitude below the network regime, and at that speed the per-step tax collapses....",
+      "one_liner": "作者主张：网络存储的几十到几百毫秒延迟是 in-loop 检索的主要障碍，迁移到进程内 store（约 100s）后，每步检索开销塌缩控制每回合内存延迟预算只改存储回答速度时.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1b817acf.md",
+      "images": [],
+      "added_date": "2026-07-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2aaa2f72",
+      "title": "From Passive Retrieval to Active Memory Navigation: Learning to Use Memory as a Structured Action Space",
+      "url": "https://arxiv.org/abs/2607.05794",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yue Xu, Yutao Sun, Yihao Liu, Mengyu Zhou, Jiayi Qiao, Lu Ma, Kai Tang, Wenjie Wang, Xiaoxi Jiang, G...",
+        "original_date": "2026-07-07"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "memory-tool",
+        "reinforcement-learning",
+        "personalization",
+        "long-term-memory"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "NapMem 把长期用户记忆组织成一个多粒度带 provenance 链接的记忆金字塔：原始对话类型化 memory recordtopic trackuser profile，并通过 memory tools 暴露给 agentAgent 用 memory-tool RL 学习按 query 和中间证据选不同粒度的记忆来检查PersonaMem-v2 / LongMemEval / LoCoMo 上具备竞争力，非记忆任务上保留了通用推理 / 工具能力属于\"把记忆从被检索的上下文升级为结构化动作空间\"这一线索",
+      "summary_en": "Long-term user memory is essential for personalized conversational agents, yet many memory systems still expose memory through passive retrieval interfaces, making the model a consumer of pre-selected evidence. We introduce NapMem, a framework for learning to use long-term user memory as a structured action space rather than passively retrieved context. NapMem organizes user history into a linked multi-granularity memory pyramid, where raw conversations, typed memory records, topic tracks, and user profiles are connected through provenance relations, and exposes these levels through memory tools. The agent is trained to select memory according to the query and intermediate evidence, allowing it to inspect different memory granularities before answering....",
+      "one_liner": "NapMem 把长期用户记忆组织成一个多粒度带 provenance 链接的记忆金字塔：原始对话类型化 memory recordtopic trackuser profile.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2aaa2f72.md",
+      "images": [],
+      "added_date": "2026-07-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f4203ccb",
+      "title": "Task Decomposition-Guided Reranking for Adaptive Agent Skill Retrieval",
+      "url": "https://arxiv.org/abs/2607.06283",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yanping Chen, Weijie Shi, Wen Yang, Jiajie Xu",
+        "original_date": "2026-07-07"
+      },
+      "category": "agents",
+      "tags": [
+        "skill-retrieval",
+        "task-decomposition",
+        "reranker",
+        "agent-harness",
+        "dag"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "SkillReranker 是一个推理时的重排框架：对任务和候选技能都做语义分解，得到 sub-task / 执行状态描述与 transition-state 描述，再用它们构建一个有向无环执行图（中间任务状态作节点，候选技能作边），最后判断每个状态节点是否满足 split 条件它显式处理任务难度和技能适用性的动态影响，对大规模 skill library 的\"语义相似但执行效果不一\"歧义有直接帮助属于 harness 端 skill routing 链路",
+      "summary_en": "Skill usage can significantly enhance the ability of modern agent systems to complete complex tasks. However, the growing scale of skill libraries makes accurate skill selection increasingly challenging. In real-world scenarios, ambiguous semantic matching often arises between a specific task requirement and multiple generic yet semantically similar candidate skills. Moreover, existing methods tend to overlook the dynamic influence of task difficulty and skill applicability when selecting the optimal target skill set. To address these issues, we propose SkillReranker, an inference-time reranking framework for adaptive skill selection. Specifically, we first perform semantic decomposition on both the task and skill sides, yielding informative subtask and execution-state descriptions as well as transition-state descriptions that characterize each skill's functionality....",
+      "one_liner": "SkillReranker 是一个推理时的重排框架：对任务和候选技能都做语义分解，得到 sub-task / 执行状态描述与 transition-state 描述，再用它们构建一个有向无环执行图（中间任务状态作节点，候选技能作边）...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f4203ccb.md",
+      "images": [],
+      "added_date": "2026-07-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bdd5be19",
+      "title": "TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training",
+      "url": "https://arxiv.org/abs/2607.05804",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuhang Zhou, Kai Zheng, Haoling Li, Dengyun Peng, Can Xu, Jingjing Chen",
+        "original_date": "2026-07-07"
+      },
+      "category": "agents",
+      "tags": [
+        "on-policy-distillation",
+        "long-horizon",
+        "agent-training",
+        "rollout-budget",
+        "kl-loss"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "TurnOPD 把 agent on-policy distillation 拆成两个 turn-level 预算控制器：自适应 rollout-depth 预算（基于探针的 turn 统计决定 rollout 长度）和渐进式 turn-normalized loss 预算（把 KL 权重从 token 级渐迁移到 turn 平衡监督）文章指出 vanilla agent OPD 的两个低效：完整 rollout 在尾部 turn 上浪费 wall-clock 但提供弱且噪声的 KL 信号；trajectory-level KL 让损失集中在浅层 token，深层决策 turn 训练不足ALFWorld / WebShop / Multi-Hop Search 上以同 wall-clock 预算取得更优 validation accuracy",
+      "summary_en": "On-policy distillation (OPD) trains a student policy by matching a stronger teacher on the student's own trajectories, offering a promising framework for language agent training. However, its application to long-horizon agentic tasks remains insufficiently explored. We identify two key inefficiencies in vanilla agent OPD: (1) full-horizon rollouts often waste wall-clock resources on tail turns that provide weak and noisy KL supervision, and (2) trajectory-level KL objectives concentrate most of the loss on shallow tokens, leaving deeper decision turns under-trained once initial behaviors are aligned. To address these challenges, we propose TurnOPD, a turn-level budgeting strategy for efficient on-policy distillation of long-horizon agents....",
+      "one_liner": "TurnOPD 把 agent on-policy distillation 拆成两个 turn-level 预算控制器：自适应 rollout-depth 预算（基于探针的 turn 统计决定 rollout 长度）和渐进式 turn-normalized loss 预算（把...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/bdd5be19.md",
+      "images": [],
+      "added_date": "2026-07-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "38a78fe3",
+      "title": "PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2607.06008",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hongliang Li, Yijin Liu, Zhiwei Zhang, Zihe Liu, Xinyue Lou, Jinan Xu, Fandong Meng, Kaiyu Huang",
+        "original_date": "2026-07-07"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-benchmark",
+        "multilingual",
+        "long-horizon",
+        "tool-use",
+        "workflow"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "PolyWorkBench 是面向多语言长程 LLM Agent 的评测基准：67 个任务，覆盖商务知识工作法律分析本地化制造五大领域；要求 agent 处理异构多语言输入迭代推理调用外部工具输出结构化结果评测用结构化打分 + 可执行校验 + LLM 语义评估的混合框架，能同时捕获功能正确性与语义质量直接指向\"现实中的多语言 agent 流水线\"这个过去 benchmark 普遍默认单语的盲区",
+      "summary_en": "Large language model (LLM) agents have shown strong performance in long-horizon tasks that require planning, tool use, and interaction with external environments. However, most existing benchmarks implicitly assume a monolingual setting, where the entire execution process, including reasoning, tool invocation, and output generation, is conducted within a single language. In contrast, real-world applications often involve multilingual inputs and outputs within a unified workflow, yet the interaction between multilinguality and agentic execution remains underexplored. In this work, we introduce PolyWorkBench, a benchmark for evaluating LLM agents on multilingual long-horizon workplace workflows....",
+      "one_liner": "PolyWorkBench 是面向多语言长程 LLM Agent 的评测基准：67 个任务，覆盖商务知识工作法律分析本地化制造五大领域.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/38a78fe3.md",
+      "images": [],
+      "added_date": "2026-07-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "16faef29",
+      "title": "Danus: Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory",
+      "url": "https://arxiv.org/abs/2607.06447",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jihao Liu, Guoxiong Gao, Zeming Sun, Bin Wu, Shurui Liu, Jiedong Jiang, Haocheng Ju, Leheng Chen, Ro...",
+        "original_date": "2026-07-07"
+      },
+      "category": "agents",
+      "tags": [
+        "math-reasoning",
+        "multi-agent",
+        "fact-graph",
+        "proof-search",
+        "verifier"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Danus 把研究级数学推理 agent 编排成\"主 agent + 多个并行 proof-search worker + 无状态 verifier\"，并以一个共享 fact graph 作全局内存：每个被 verifier 通过的事实连同证明和逻辑依赖一起入图，main agent 周期性总结证明状态调度 worker，并通过 progress report 与人交互这是\"用结构化全局内存 + 强 verifier + 并行 worker\"的组合来放大数学推理 agent 的一次实证",
+      "summary_en": "Recent LLM-based mathematical reasoning agents have begun to tackle research-level problems and, in several cases, have contributed to the resolution of open problems. However, scaling and orchestrating such agents effectively remains challenging, due to the difficulty of coordinating parallel proof search while keeping intermediate claims organized and reliable. In this paper, we propose Danus, an orchestration system for research-level mathematical reasoning centered on a shared fact graph as a global memory-management mechanism. Danus consists of a main agent that performs planning and coordination, multiple worker agents that carry out proof search in parallel, and a stateless verifier that checks proposed mathematical claims before they are admitted into the fact graph....",
+      "one_liner": "Danus 把研究级数学推理 agent 编排成\"主 agent + 多个并行 proof-search worker + 无状态 verifier\"，并以一个共享 fact graph 作全局内存：每个被 verifier 通过的事实连同证明和逻辑依赖一起入图...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/16faef29.md",
+      "images": [],
+      "added_date": "2026-07-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b25bf032",
+      "title": "FreqDepthKV: Frequency-Guided Depth Sharing for Robust KV Cache Compression in Long-Context LLM Inference",
+      "url": "https://arxiv.org/abs/2607.06519",
+      "source": {
+        "platform": "arxiv",
+        "author": "Anna Crdoba, Adam Puente Tercero, Nerea Angulo Hijo, Mar Linares Tercero, Julia Barrientos, Ainhoa M...",
+        "original_date": "2026-07-07"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "long-context",
+        "inference-optimization",
+        "compression",
+        "depth-sharing"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "FreqDepthKV 把相邻层 KV state 分解为共享的低频 depth 成分 + 稀疏高频残差，并用在线探针按 attention head 对重建敏感的 attention logit 贡献分配 shared / residual / exact 三种 cache 模式，无需重训32k prefill 窗口下达到 58.3 EM / 63.0 F1 / 32.5 ROUGE-L / 48.1 pass@1，吞吐量 70.4 tok/s，TTFT 2.06s，峰值 KV 内存 6.2GB（有效压缩比 3.9x）为长上下文推理链路提供了一种\"不靠剪枝粗放压缩\"的中间路线",
+      "summary_en": "Long-context LLM inference is increasingly limited by the memory and bandwidth cost of KV caches, yet aggressive compression can remove the layer-specific evidence needed for retrieval and multi-step reasoning. We introduce FreqDepthKV, an inference-time cache compression method that factorizes adjacent-layer KV states into shared low-frequency depth components and sparse high-frequency residuals. A lightweight online probe assigns attention heads to shared-depth, residual-depth, or exact cache modes according to their contribution to reconstruction-sensitive attention logits, allowing the compression policy to adapt to prompt structure without retraining. Across long-context question answering, needle retrieval, summarization, and code generation benchmarks, FreqDepthKV preserves task accuracy under substantially smaller cache budgets....",
+      "one_liner": "FreqDepthKV 把相邻层 KV state 分解为共享的低频 depth 成分 + 稀疏高频残差...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b25bf032.md",
+      "images": [],
+      "added_date": "2026-07-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d54b9fc8",
+      "title": "1239-xiaogaifun-吴恩达三言两语，就把 Loop Engi",
+      "url": null,
+      "source": {
+        "platform": "x",
+        "author": null,
+        "original_date": "2026-07-01"
+      },
+      "category": "agents",
+      "tags": [
+        "loop-engineering",
+        "ai-agents"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "]( 小盖 ]( @xiaogaifun",
+      "summary_en": null,
+      "one_liner": "]( 小盖 ]( @xiaogaifun",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/2026-07-08-1239-xiaogaifun-吴恩达三言两语，就把 Loop Engi.md",
+      "images": [],
+      "added_date": "2026-07-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "88a4b7e2",
+      "title": "1239-waterloo_intern-we distilled 2.3M Cl",
+      "url": null,
+      "source": {
+        "platform": "x",
+        "author": null,
+        "original_date": "2026-07-01"
+      },
+      "category": "agents",
+      "tags": [
+        "loop-engineering",
+        "ai-agents"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "]( ali ](",
+      "summary_en": null,
+      "one_liner": "1239-waterloo_intern-we distilled 2.3M Cl",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/2026-07-08-1239-waterloo_intern-we distilled 2.3M Cl.md",
+      "images": [],
+      "added_date": "2026-07-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7e9a9184",
+      "title": "1239-AYi_AInotes-前 OpenAI 研究员 Phil Ch",
+      "url": null,
+      "source": {
+        "platform": "x",
+        "author": null,
+        "original_date": "2026-07-01"
+      },
+      "category": "agents",
+      "tags": [
+        "loop-engineering",
+        "ai-agents"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "]( AYi ]( @AYi\\_AInotes",
+      "summary_en": null,
+      "one_liner": "]( AYi ]( @AYi\\_AInotes",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "X 文章/2026-07-08-1239-AYi_AInotes-前 OpenAI 研究员 Phil Ch.md",
+      "images": [],
+      "added_date": "2026-07-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-08",
-  "total_entries": 1196
+  "last_updated": "2026-07-09",
+  "total_entries": 1208
 }

@@ -13,31 +13,31 @@
 - [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) ⭐3 · 2026-07-08 — OptiAgent 接收自然语言描述的运筹学问题，多 Agent 协同产出可执行求解器代码它把建模阶段放在核心位置，由专门 Agent 抽取决策变量与约束...
 - [Measuring Harness-Induced Belief Divergence in Multi-Step LLM Agents](https://arxiv.org/abs/2607.04528) ⭐5 · 2026-07-07 — 本文把 harness 从评测 "实现细节" 重新定位为实验变量：在任务环境底层 LLM 全部固定时，harness 也能改变 agent 多步下的"信念"作者提出 belief-rollout 诊断...
 - [Weak-to-Strong Generalization via Direct On-Policy Distillation](https://arxiv.org/abs/2607.05394) ⭐4 · 2026-07-07 — 本文把 RLVR 当作一个跨模型的隐式奖励信号来迁移：先在算力廉价的小模型上跑 RL，再把 RL 前后策略分布对数比作为密集奖励蒸馏到更大的学生模型上作者提出 Direct-OPD 在学生 on-policy 状态上施加教师"RL 引起的策略位移"...
-- [MRMS: A Multi-Resolution Memory Substrate for Long-Lived AI Agents](https://arxiv.org/abs/2607.04617) ⭐4 · 2026-07-07 — 本文提出多分辨率记忆基底 MRMS，沿"表征轴时间轴"组织 agent 记忆表征轴覆盖结构化记录向量表征图关系，时间轴覆盖短程轨迹中程抽象长程语义承诺核心约束是"结构化-向量-图"三路同步：结构化记录决定资格，向量支持召回，图关系再裁决支持矛盾与覆盖...
+- [TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training](https://arxiv.org/abs/2607.05804) ⭐4 · 2026-07-07 — TurnOPD 把 agent on-policy distillation 拆成两个 turn-level 预算控制器：自适应 rollout-depth 预算（基于探针的 turn 统计决定 rollout 长度）和渐进式 turn-normalized loss 预算（把....
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
 | 模型与实验室 | 229 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 126 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| Agent 与自动化 | 137 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 77 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 19 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 基础设施 | 20 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 44 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 33 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 139 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 1196
-- 公开展示卡片: 667
-- 有全文内容: 592
-- 最近 7 天信号: 59
+- 原始条目: 1208
+- 公开展示卡片: 679
+- 有全文内容: 604
+- 最近 7 天信号: 71
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`ai-tools`, `llm`, `research`, `openai`, `attention`, `google`, `anthropic`, `optimization`, `2026`, `gemini`, `claude-code`, `benchmark`, `agent`, `digest`, `论文工具`, `claude`, `open-source`, `enterprise`
+`ai-tools`, `llm`, `research`, `openai`, `attention`, `google`, `anthropic`, `optimization`, `2026`, `gemini`, `claude-code`, `benchmark`, `agent`, `digest`, `论文工具`, `multi-agent`, `workflow`, `claude`
 
 ## 自动化约定
 

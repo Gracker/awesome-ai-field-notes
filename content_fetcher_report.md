@@ -1,36 +1,34 @@
 # AAIF Content Fetcher Report
 
-Generated: 2026-07-08T20:33+08:00 (Asia/Shanghai)
+Generated: 2026-07-09T04:22:23 (Asia/Shanghai)
 
-## STATISTICS
+## SCAN
 
-- Total Entries: 1163 (preserved; entries.json untouched by this cron)
-- Tier-1 active q>=4 missing-content candidates: 0
-- Tier-2 fallback q>=3 missing-content candidates: 64
-- Tier used: 2 (fallback q>=3 most-recent)
-- Files written this run: 2
+- entries.json parses as dict; len(entries)=1196 == total_entries=1196; last_updated=2026-07-08.
+- Content directory holds 1307 .md files.
+- Tier-1 candidates (status=active AND quality_score>=4 AND no content file): **0**.
 
-## ARTIFACTS
+## FETCH
 
-Wrote 2 content files via `exec + python3 + pathlib` with absolute paths:
+- No tier-1 candidates found this run, so 0 entries were fetched/written.
+- Skill spec explicitly limits content-fetcher to active + q>=4; no fallback tier was applied.
+- No `exec + python3 + pathlib` writes to `<repo>/content/` were necessary.
 
-| ID | Title | URL | Source | Bytes |
-|---|---|---|---|---|
-| `14667f46` | Show HN: Smart model routing directly in Claude, Codex  | <https://github.com/workweave/router> | GitHub raw README@master 200 via urllib (24170 bytes) | 18665 |
-| `7a48d6db` | Ultrasound imaging of the brain | <https://alephneuro.com/blog/ultrasound-brain> | HTTP 200 via urllib | 6237 |
+## SITE GENERATION
 
-**Skipped (3)**:
-- `fb435a03` — HTTP 403 or too small (0b)
-- `1ae317c0` — HTTP 403 or too small (0b)
-- `2b6976f9` — HTTP 403 or too small (0b)
+- `python3 scripts/generate-site.py` executed successfully (compatibility wrapper landing on `openclaw/scripts/generate-modern-site.py`).
+- Output: 667 display cards, 592 content pages, 7 channels.
+- Working-tree change: `M metadata/stats.json` (timestamp-only `last_updated` field bumped to current run). entries.json and content/ untouched.
 
-## VALIDATION
+## VALIDATION (per skill invariants)
 
-- ✓ entries.json parses as dict (`len(entries) == 1163 == total_entries == 1163`).
-- ✓ entries.json NOT modified by this cron (content-fetcher mode).
-- ✓ Written files non-empty (>= 2KB each, all 2 files).
-- ✓ No git push (content-fetcher mode per skill: Do not push).
+- ✓ entries.json is a dict with `entries` list and `total_entries`.
+- ✓ `len(entries) == total_entries == 1196`.
+- ✓ Entry count did not decrease (this cron does not mutate entries.json).
+- ✓ Site generation succeeded; non-deterministic build only touched `metadata/stats.json`.
+- ✓ No content file writes occurred (correctly, since no candidates).
+- ✓ Push: NONE. Skill says "Do not git push" in content-fetcher mode.
 
-## SUMMARY
+## STATUS
 
-Content fetcher ran successfully. Wrote 2 content file(s) at tier 2, regenerated the static site, did not modify entries.json, and did not push.
+No-op fetch (tier-1 empty). entries.json preserved, no content/ writes, site regenerated, push skipped per cron rule.
