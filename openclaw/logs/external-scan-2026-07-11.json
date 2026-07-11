@@ -1,0 +1,143 @@
+{
+  "initial_count": 1212,
+  "added_count": 8,
+  "skipped_count": 1,
+  "final_count": 1220,
+  "added": [
+    {
+      "id": "d7f5e8e9",
+      "title": "From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents",
+      "url": "https://arxiv.org/abs/2607.08028",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "harness-engineering",
+        "enterprise",
+        "auditable",
+        "contracts",
+        "traceability",
+        "llm-agent"
+      ]
+    },
+    {
+      "id": "d9102c5a",
+      "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2607.08716",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "agent-memory",
+        "long-horizon",
+        "proactive-memory",
+        "behavioral-state-decay",
+        "harness"
+      ]
+    },
+    {
+      "id": "d0b184a7",
+      "title": "Compete Then Collaborate: Frontier AI Teachers Build a Verifiable Curriculum to Improve a Coding Student Beyond Imitation",
+      "url": "https://arxiv.org/abs/2607.08255",
+      "category": "coding",
+      "quality_score": 4,
+      "tags": [
+        "multi-teacher",
+        "knowledge-distillation",
+        "curriculum",
+        "frontier-models",
+        "coding-student",
+        "verifiable"
+      ]
+    },
+    {
+      "id": "b139faf1",
+      "title": "CausalDS: Benchmarking Causal Reasoning in Data-Science Agents",
+      "url": "https://arxiv.org/abs/2607.08093",
+      "category": "infra",
+      "quality_score": 4,
+      "tags": [
+        "agent-eval",
+        "causal-reasoning",
+        "data-science",
+        "benchmark",
+        "tool-use"
+      ]
+    },
+    {
+      "id": "bcc5ec91",
+      "title": "When LLMs Agree, Are They Right? Auditing Self-Consistency and Cross-Model Agreement as Confidence Signals",
+      "url": "https://arxiv.org/abs/2607.08065",
+      "category": "infra",
+      "quality_score": 4,
+      "tags": [
+        "llm-as-judge",
+        "self-consistency",
+        "evaluator-reliability",
+        "audit",
+        "confidence-calibration"
+      ]
+    },
+    {
+      "id": "93d84c70",
+      "title": "The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs",
+      "url": "https://arxiv.org/abs/2607.08734",
+      "category": "infra",
+      "quality_score": 4,
+      "tags": [
+        "quantization",
+        "eval",
+        "behavioral-metric",
+        "correctness-agreement",
+        "deployment",
+        "llm-compression"
+      ]
+    },
+    {
+      "id": "7c946336",
+      "title": "Agentic Neural Architecture Search",
+      "url": "https://arxiv.org/abs/2607.07984",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "agentic",
+        "neural-architecture-search",
+        "llm-driven-design",
+        "open-ended-space",
+        "auto-ml"
+      ]
+    },
+    {
+      "id": "d5f7bd1f",
+      "title": "Claude Science, an AI workbench for scientists",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "claude",
+        "scientific-research",
+        "reproducibility",
+        "multi-agent",
+        "harness",
+        "auditable-artifacts",
+        "claude-code"
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "id": "ab9c9a67",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation",
+      "reason": "duplicate-url"
+    }
+  ],
+  "written_content_files": [
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/d7f5e8e9.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/d9102c5a.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/d0b184a7.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/b139faf1.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/bcc5ec91.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/93d84c70.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/7c946336.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/d5f7bd1f.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/ab9c9a67.md"
+  ]
+}

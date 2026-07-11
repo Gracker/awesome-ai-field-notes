@@ -34362,8 +34362,269 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "d7f5e8e9",
+      "title": "From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents",
+      "url": "https://arxiv.org/abs/2607.08028",
+      "source": {
+        "platform": "arxiv",
+        "author": "Joongho Ahn , Moonsoo Kim",
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "harness-engineering",
+        "enterprise",
+        "auditable",
+        "contracts",
+        "traceability",
+        "llm-agent"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "提出面向企业级 LLM 智能体的 harness engineering 方法，把早期以 prompt 为核心的原型重构为\"可追踪可审计\"的运行时架构：确定性行为围栏可重建的执行轨迹明确的服务边界与答案契约，支持从原型走向生产环境中的合规部署论文在 4 类企业场景（合规检索源边界实体路由可复现审计）上对所提框架做了系统化评估，展示了相比纯 prompt 工程在可控性与可追溯性上的显著优势",
+      "summary_en": "Enterprise large language model (LLM) applications often begin as prototypes whose behavior is carried by prompts and retrieval context. Productization adds requirements for source boundaries, entity routing, answer contracts, and reproducible traces. We present a harness-engineering approach that reconstructs this pattern into a traceable, auditable LLM-agent architecture: deterministic behavior moves into code, manifests, schemas, and validation artifacts around a replaceable composition boundary, while source-backed claims remain the authority for runtime answers. We instantiate it on a public-data slice of five Korean corporate groups (25 listed companies) and evaluate three research questions....",
+      "one_liner": "把企业 LLM 智能体从 prompt 原型重构为可审计 harness：确定性围栏 + 答案契约 + 重建执行轨迹的运行时架构",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/d7f5e8e9.md",
+      "images": [],
+      "added_date": "2026-07-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d9102c5a",
+      "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2607.08716",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yifan Wu , Lizhu Zhang , Yuhang Zhou , Mingyi Wang , Bo Peng , Serena Li , Xiangjun Fan , Zhuokai Zh...",
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "long-horizon",
+        "proactive-memory",
+        "behavioral-state-decay",
+        "harness"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "针对长程任务中关键状态散落在不断膨胀的轨迹里被动作 agent 忽略或被推出上下文窗口的\"行为状态衰减\"现象，提出 Proactive Memory Agent 设计：把内存访问从被动检索变成主动写入/调度，由记忆 agent 持续整理任务需求环境事实历史尝试待办子目标，并在决策点主动暴露给执行 agent论文给出 harness 视角下的接口抽象与一组长程 agent 基准上的对比，证明主动记忆能显著提升跨多轮/多会话任务的稳定性与可恢复性",
+      "summary_en": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context window or pushed beyond it, failing to influence decisions when needed. We call this failure mode \"behavioral state decay\". We study memory as an active intervention mechanism rather than passive retrieval. A separate memory agent runs alongside an unmodified action agent, updating a structured memory bank from the recent trajectory and deciding whether to inject a memory-grounded reminder or remain silent. The module is plug-and-play with frontier action agents and existing agent harnesses....",
+      "one_liner": "Proactive Memory Agent 把被动检索改为持续整理 + 主动暴露，对抗长程任务中的\"行为状态衰减\"",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/d9102c5a.md",
+      "images": [],
+      "added_date": "2026-07-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d0b184a7",
+      "title": "Compete Then Collaborate: Frontier AI Teachers Build a Verifiable Curriculum to Improve a Coding Student Beyond Imitation",
+      "url": "https://arxiv.org/abs/2607.08255",
+      "source": {
+        "platform": "arxiv",
+        "author": "Miseong Shawn Kim",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "multi-teacher",
+        "knowledge-distillation",
+        "curriculum",
+        "frontier-models",
+        "coding-student",
+        "verifiable"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "针对多教师知识蒸馏中\"LLM 评委偏向自家输出\"导致小模型只学到某一家风格的问题，提出 compete-then-collaborate 框架：让 Claude / Codex-GPT / Grok / Gemini 四家前沿教师先在可验证的编程任务上独立竞争评分，再按各自擅长分布协作产出可验证课程，用于训练更小的 coding student论文显示该方法生成的课程能让小模型在 LeetCode / LiveCodeBench 等基准上明显超过纯模仿蒸馏",
+      "summary_en": "Large language models increasingly serve as teachers generating training data for smaller students. Prior multi-teacher knowledge distillation methods merge outputs without determining which frontier model teaches best, often relying on an LLM judge biased toward its own outputs. We introduce a compete-then-collaborate framework where four frontier AI teachers (Claude, Codex-GPT, Grok, Gemini) are ranked head-to-head by an execution-based judge (unit tests and stdin-stdout checks) with fairness controls, and then collaborate to build a verifiable curriculum for a student (Qwen2.5-Coder). We report three findings....",
+      "one_liner": "四家前沿模型先竞争再协作产出可验证编程课程，规避单教师评委偏置，显著提升小模型 coding 蒸馏上限",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d0b184a7.md",
+      "images": [],
+      "added_date": "2026-07-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b139faf1",
+      "title": "CausalDS: Benchmarking Causal Reasoning in Data-Science Agents",
+      "url": "https://arxiv.org/abs/2607.08093",
+      "source": {
+        "platform": "arxiv",
+        "author": "Andrej Leban , Yuekai Sun",
+        "original_date": null
+      },
+      "category": "infra",
+      "tags": [
+        "agent-eval",
+        "causal-reasoning",
+        "data-science",
+        "benchmark",
+        "tool-use"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "CausalDS 把因果推理与数据科学 agent 评测统一到同一基准：在结构化因果数据生成过程之上，要求 LLM agent 完成从假设变量识别工具调用到结论解释的完整数据科学循环，弥合符号化因果基准与无结构数据分析基准之间的断层论文同时评测了当前主流 LLM 在该基准上的子任务差距，指出数据科学 agent 的关键瓶颈不在工具使用本身而在因果变量选择与反事实推理",
+      "summary_en": "Large language models (LLMs) increasingly act as integrated data-science agents, combining abstract reasoning with advanced tool use. Yet the relevant benchmark landscape largely divides into symbolic causal reasoning benchmarks without realistic data analysis or data analysis benchmarks without a principled causal data-generating structure. Furthermore, existing causal evaluation datasets are often restricted to curated examples from existing sources, with diversity coming from limited templatized variations rather than from systematic generation of novel synthetic causal structures. We introduce CausalDS, a benchmark for evaluating causal reasoning in agentic data-science workflows....",
+      "one_liner": "CausalDS 把因果推理 + 数据科学 agent 统一在同一基准：结构化数据生成 完整工具循环，指出现瓶颈在因果变量选择而非工具使用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b139faf1.md",
+      "images": [],
+      "added_date": "2026-07-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bcc5ec91",
+      "title": "When LLMs Agree, Are They Right? Auditing Self-Consistency and Cross-Model Agreement as Confidence Signals",
+      "url": "https://arxiv.org/abs/2607.08065",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kaihua Ding",
+        "original_date": null
+      },
+      "category": "infra",
+      "tags": [
+        "llm-as-judge",
+        "self-consistency",
+        "evaluator-reliability",
+        "audit",
+        "confidence-calibration"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "针对企业评测管线中越来越常用的 LLM-as-judge 与 judge ensemble，质疑其核心假设\"判官之间一致 = 答案正确\"论文通过受控实验证明，模型自一致性 / 跨模型一致性信号与答案正确性的相关性远弱于业界默认，且容易被格式相似性风格偏好prompt 模板诱导偏差系统性放大提出若干审计维度（判官多样性判官解耦置信度分解）作为新一代 LLM 评测体系的必要补丁",
+      "summary_en": "LLM-as-judge (Zheng et al., 2023) is increasingly the default for evaluating AI systems in enterprise pipelines, often scaled to ensembles (Verga et al., 2024) or \"mixture-of-experts\" (Shazeer et al., 2017) panels of judges. These systems share a key assumption: that consistency -- agreement among judges, or among a model's own samples -- indicates correctness. We show this assumption is unreliable. Agreement is not accuracy: a model can agree with itself, and different models can agree with each other, out of shared bias, a memorized heuristic, or an option-position prior rather than truth. We ask when agreement is nonetheless a usable proxy, in a large-scale cross-runner study: 53 runners drew K=50 samples for assigned overlapping cases across comparisons of model tier, prompting, and scale on GPQA Diamond and AIME -- 265,000 samples....",
+      "one_liner": "质疑 LLM-as-judge 的一致性假设：模型自一致 / 跨模型一致并不等于正确，并给出企业评测管线的审计补丁",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/bcc5ec91.md",
+      "images": [],
+      "added_date": "2026-07-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "93d84c70",
+      "title": "The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs",
+      "url": "https://arxiv.org/abs/2607.08734",
+      "source": {
+        "platform": "arxiv",
+        "author": "Baha Rababah , Cuneyt Gurcan Akcora , Carson K. Leung",
+        "original_date": null
+      },
+      "category": "infra",
+      "tags": [
+        "quantization",
+        "eval",
+        "behavioral-metric",
+        "correctness-agreement",
+        "deployment",
+        "llm-compression"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "指出后训练量化（PTQ）的标准评测指标准确率与困惑度无法捕捉量化对模型行为的真实影响：两个量化模型可能在公开基准上指标接近，却在决策层出现截然不同的正确/错误样本提出 decision-level 的 correctness agreement 指标，对 base 模型与量化模型在样本级正确集合的重合度做统计刻画，并发布了一组覆盖多任务多比特宽度的对比结果，揭示当前量化评测普遍存在的\"等效幻觉\"",
+      "summary_en": "Post-training quantization is widely used to deploy large language models in resource-constrained settings, yet its evaluation relies almost exclusively on accuracy and perplexity. We show that these metrics fail to capture behavioral changes induced by quantization. We introduce correctness agreement, a decision-level metric that measures overlap in correct predictions between a base model and its quantized variants, independent of absolute accuracy. Across multiple models and quantization schemes from 8-bit to 2-bit, we find that behavioral divergence emerges under moderate quantization even when task performance appears preserved. To explain this effect, we analyze quantization as a structural operator on attention weights and quantify layer-wise distortions using statistical and distributional measures....",
+      "one_liner": "提出 correctness agreement 度量量化模型的决策级行为变化，揭示 PTQ 评测中普遍存在的\"等效幻觉\"",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/93d84c70.md",
+      "images": [],
+      "added_date": "2026-07-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7c946336",
+      "title": "Agentic Neural Architecture Search",
+      "url": "https://arxiv.org/abs/2607.07984",
+      "source": {
+        "platform": "arxiv",
+        "author": "Seokhoon Jeong , Mijung Kim , Taehwan Kim",
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "agentic",
+        "neural-architecture-search",
+        "llm-driven-design",
+        "open-ended-space",
+        "auto-ml"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "指出 NAS 长期受限于人工设计搜索空间，需要逐任务重新构建；LLM 虽能在开放空间中生成架构，但如何与 NAS 的高效搜索结合尚未充分探索论文提出 Agentic NAS 框架，由 LLM agent 负责探索式生成候选架构与跨任务迁移，NAS 引擎负责在约束算力下做精细搜索，二者通过中间表示 + 反馈通道协同，显著降低新任务上的冷启动成本",
+      "summary_en": "Neural architecture search (NAS) methods have grown increasingly efficient, yet they remain bounded by manually engineered search spaces that require substantial domain expertise and must be rebuilt for every new task. Large language models (LLMs) can generate architectures in an open-ended space, but how to optimally divide the labor between LLM-driven design and NAS-driven search remains unexplored. We propose a mechanism that bridges these two paradigms: an LLM produces a high-quality seed architecture, then decomposes it into a \"slotted architecture\", a scaffold with named, interchangeable module slots that automatically defines a bounded, task-specific search space for conventional NAS to explore, without manual engineering. We instantiate this mechanism in AgentNAS, a modular three-phase pipeline in which each component's contribution can be measured independently....",
+      "one_liner": "Agentic NAS 让 LLM agent 负责跨任务生成候选架构，NAS 引擎负责算力受限下的精细搜索，显著降低冷启动成本",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7c946336.md",
+      "images": [],
+      "added_date": "2026-07-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d5f7bd1f",
+      "title": "Claude Science, an AI workbench for scientists",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic",
+        "original_date": "2026-07-08"
+      },
+      "category": "agents",
+      "tags": [
+        "claude",
+        "scientific-research",
+        "reproducibility",
+        "multi-agent",
+        "harness",
+        "auditable-artifacts",
+        "claude-code"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Claude Science 是 Anthropic 面向科研人员推出的可定制 AI 工作台：把文献检索JupyterR 语言集群终端等分散工具整合到单一研究环境，支持多步研究执行生成可审计 artifact并可在 macOS / Linux 本地或 SSH / HPC 登录节点上运行背后是 generalist 协调 agent 加上 60+ 预配置技能与连接器（基因组学单细胞蛋白组学结构生物学化学信息学等），可衍生子 agent 与用户自定义 specialist agent，并由 reviewer agent 自动核验引用与计算错误面向 Claude Pro / Max / Team / Enterprise 用户开放 beta",
+      "summary_en": "ces last fall, weve worked to improve our model capabilities, make connections to the scientific ecosystem via MCPs and skills, and launch partnerships in an effort to realize this potential. Today, were introducing our most significant expansion of these efforts: Claude Science , an AI workbench for scientists. Claude Science is an app that integrates the tools and packages that researchers most commonly use, produces auditable artifacts, and provides flexible access to computing resources. Introducing Claude Science Scientific research is often tedious. Researchers must work across dozens of databases, each with their own schema, contend with file formats that require bespoke data pipelines and viewers, and transition between a roster of tools: PubMed, Jupyter, R, a cluster terminal, and more....",
+      "one_liner": "Claude Science 把科研工具整合到统一工作台：60+ 技能 + 协调 agent + reviewer 自动核验，所有产出带可审计 artifact",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d5f7bd1f.md",
+      "images": [],
+      "added_date": "2026-07-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-10",
-  "total_entries": 1212
+  "last_updated": "2026-07-11",
+  "total_entries": 1220
 }
