@@ -17758,33 +17758,6 @@
       "related": []
     },
     {
-      "id": "3ba81f9b",
-      "title": "AI Agent 工程化实践指南：如何构建可靠的 Harness 系统",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw%3D%3D&mid=2247484077&idx=1&sn=ee3fd75a3799b07df9c08fcbda2b21e4&chksm=972981b6636211d172b8caed0a982796a0f7d39c477e1c9991bb9b717db4548df20aa22cd114&mpshare=1&scene=1&srcid=0423loGxXEgvr9SaWycvYrHQ&sharer_shareinfo=688d8fb09649fbaef375238b86ccb1fb&sharer_shareinfo_first=688d8fb09649fbaef375238b86ccb1fb",
-      "source": {
-        "platform": "wechat",
-        "author": null,
-        "original_date": null
-      },
-      "category": "agents",
-      "tags": [],
-      "source_type": "article",
-      "language": "zh",
-      "summary_zh": "AI Agent 工程化实践指南：如何构建可靠的 Harness 系统",
-      "summary_en": null,
-      "one_liner": "AI Agent 工程化实践指南：如何构建可靠的 Harness 系统",
-      "one_liner_author": "openclaw",
-      "quality_score": 3,
-      "status": "active",
-      "local_path": "content/3ba81f9b.md",
-      "images": [],
-      "added_date": "2026-06-23",
-      "updated_date": null,
-      "github_stars": null,
-      "related": [],
-      "local_path_valid": false
-    },
-    {
       "id": "16htfbpp",
       "title": "16Htfbpp",
       "url": "https://hermes-agent.nousresearch.com/docs",
@@ -19161,33 +19134,6 @@
       "local_path_valid": false
     },
     {
-      "id": "hqm6txq4",
-      "title": "Agent Memory 架构本质",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjE2NTI3NQ%3D%3D&mid=2247491781&idx=1&sn=3ff0a8d934f8fc9f4175b8c789b946f1%2A",
-      "source": {
-        "platform": "wechat",
-        "author": null,
-        "original_date": null
-      },
-      "category": "agents",
-      "tags": [],
-      "source_type": "article",
-      "language": "zh",
-      "summary_zh": "Agent Memory 架构本质",
-      "summary_en": null,
-      "one_liner": "Agent Memory 架构本质",
-      "one_liner_author": "openclaw",
-      "quality_score": 3,
-      "status": "active",
-      "local_path": "content/hqm6txq4.md",
-      "images": [],
-      "added_date": "2026-06-23",
-      "updated_date": null,
-      "github_stars": null,
-      "related": [],
-      "local_path_valid": false
-    },
-    {
       "id": "784b2c06",
       "title": "丢掉沉重的记忆：CodexClaude Code 与 OpenCode 的上下文压缩术 | Justin3go",
       "url": "https://cubox.pro/web/card/7442911565721897000",
@@ -19888,33 +19834,6 @@
       "local_path_valid": false
     },
     {
-      "id": "ed827be1",
-      "title": "深入源码：Hermes Agent 如何实现 \"Self-Improving\"",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA%3D%3D&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29&chksm=e8d671ef6707d2273f287238f02644053b2a928df13a30df6178f0b498ccf4ff57fc58fab6b6&mpshare=1&scene=1&srcid=0423qYh6cMawkXFLAcftXJZr&sharer_shareinfo=701ef6df91d58526fcdf29e9c3c85623&sharer_shareinfo_first=701ef6df91d58526fcdf29e9c3c85623",
-      "source": {
-        "platform": "wechat",
-        "author": null,
-        "original_date": null
-      },
-      "category": "agents",
-      "tags": [],
-      "source_type": "article",
-      "language": "zh",
-      "summary_zh": "深入源码：Hermes Agent 如何实现 \"Self-Improving\"",
-      "summary_en": null,
-      "one_liner": "深入源码：Hermes Agent 如何实现 \"Self-Improving\"",
-      "one_liner_author": "openclaw",
-      "quality_score": 3,
-      "status": "active",
-      "local_path": "content/ed827be1.md",
-      "images": [],
-      "added_date": "2026-06-23",
-      "updated_date": null,
-      "github_stars": null,
-      "related": [],
-      "local_path_valid": false
-    },
-    {
       "id": "gllemxiu",
       "title": "基于 MCP 的 AI Agent 应用开发实践",
       "url": "https://mp.weixin.qq.com/s?__biz=MzI4NjAxNjY4Nw%3D%3D&mid=2650236793&idx=1&sn=bde7c85110ac5e2176c77170951d06bb",
@@ -20014,33 +19933,6 @@
       "quality_score": 3,
       "status": "active",
       "local_path": "content/ISpaw0wh.md",
-      "images": [],
-      "added_date": "2026-06-23",
-      "updated_date": null,
-      "github_stars": null,
-      "related": [],
-      "local_path_valid": false
-    },
-    {
-      "id": "4e61a655",
-      "title": "从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxNTI4OA%3D%3D&mid=2247483840&idx=1&sn=e4da453086f1f3cf660dd25b2de15cb5&chksm=c394cb7b68fcde29ddcc61789a4e6a3ef94fa9ce1afb7270184354d7d29bfdb3421d728d8ce4&mpshare=1&scene=1&srcid=0423q3SKvW7vUuhiw3pRmVgH&sharer_shareinfo=b9cd866b181d5d2c0c62687d361c4bd8&sharer_shareinfo_first=ac0ba5471739e6da5738a8e927e4fff2",
-      "source": {
-        "platform": "wechat",
-        "author": null,
-        "original_date": null
-      },
-      "category": "agents",
-      "tags": [],
-      "source_type": "article",
-      "language": "zh",
-      "summary_zh": "从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？",
-      "summary_en": null,
-      "one_liner": "从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？",
-      "one_liner_author": "openclaw",
-      "quality_score": 3,
-      "status": "active",
-      "local_path": "content/4e61a655.md",
       "images": [],
       "added_date": "2026-06-23",
       "updated_date": null,
@@ -23684,33 +23576,6 @@
       "local_path_valid": false
     },
     {
-      "id": "26184842",
-      "title": "Harness 层怎么自我进化？来自斯坦福大学和 MIT 的一项新研究",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw%3D%3D&mid=2247484082&idx=1&sn=aac7ea3868e31bcc3d47e58724adeb19&chksm=97b2ecf5f127fbbbbf70455f1b5d00c136d28bf50cdfb275cdf722989d3bc36a669ebe150f66&mpshare=1&scene=1&srcid=0423Ff0YBFnoeDY8moFsXq8X&sharer_shareinfo=df63fd28b814cbc1b9dfff82a70ea4a1&sharer_shareinfo_first=df63fd28b814cbc1b9dfff82a70ea4a1",
-      "source": {
-        "platform": "wechat",
-        "author": null,
-        "original_date": null
-      },
-      "category": "agents",
-      "tags": [],
-      "source_type": "article",
-      "language": "zh",
-      "summary_zh": "Harness 层怎么自我进化？来自斯坦福大学和 MIT 的一项新研究",
-      "summary_en": null,
-      "one_liner": "Harness 层怎么自我进化？来自斯坦福大学和 MIT 的一项新研究",
-      "one_liner_author": "openclaw",
-      "quality_score": 3,
-      "status": "active",
-      "local_path": "content/26184842.md",
-      "images": [],
-      "added_date": "2026-06-23",
-      "updated_date": null,
-      "github_stars": null,
-      "related": [],
-      "local_path_valid": false
-    },
-    {
       "id": "759f233a",
       "title": "759F233A",
       "url": "https://arxiv.org/abs/2404.13076",
@@ -24950,7 +24815,7 @@
     },
     {
       "id": "6ebadca4",
-      "title": "深入源码：Hermes Agent 如何实现 Self-Improving",
+      "title": "深入源码：Hermes Agent 如何实现 \"Self-Improving\"",
       "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA%3D%3D&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29",
       "source": {
         "platform": "wechat",
@@ -24961,9 +24826,9 @@
       "tags": [],
       "source_type": "article",
       "language": "zh",
-      "summary_zh": "深入源码：Hermes Agent 如何实现 Self-Improving",
+      "summary_zh": "深入源码：Hermes Agent 如何实现 \"Self-Improving\"",
       "summary_en": null,
-      "one_liner": "深入源码：Hermes Agent 如何实现 Self-Improving",
+      "one_liner": "深入源码：Hermes Agent 如何实现 \"Self-Improving\"",
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
@@ -27095,33 +26960,6 @@
       "quality_score": 3,
       "status": "active",
       "local_path": "content/BVTltcYQ.md",
-      "images": [],
-      "added_date": "2026-06-23",
-      "updated_date": null,
-      "github_stars": null,
-      "related": [],
-      "local_path_valid": false
-    },
-    {
-      "id": "6c7b1051",
-      "title": "GPT Image 2的出现，一个设计师的冷思考",
-      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjIyOTA0Mw%3D%3D&mid=2650203005&idx=1&sn=af664106ce7344b65a98bd6f7265e8ff&chksm=bf67f96f7ebaa6a699df8cfa1e4c3fc40a89954aafc9ba78d78565dc52fb939faa1eab29c630&mpshare=1&scene=1&srcid=0423uoOYsIhKNgYHgwaH8u6A&sharer_shareinfo=b0fa9986d63710c10d8966095d999b2e&sharer_shareinfo_first=4a5a3f5e78c1a93e60d84f3161c87e16",
-      "source": {
-        "platform": "wechat",
-        "author": null,
-        "original_date": null
-      },
-      "category": "models",
-      "tags": [],
-      "source_type": "article",
-      "language": "zh",
-      "summary_zh": "GPT Image 2的出现，一个设计师的冷思考",
-      "summary_en": null,
-      "one_liner": "GPT Image 2的出现，一个设计师的冷思考",
-      "one_liner_author": "openclaw",
-      "quality_score": 3,
-      "status": "active",
-      "local_path": "content/6c7b1051.md",
       "images": [],
       "added_date": "2026-06-23",
       "updated_date": null,
@@ -34712,6 +34550,6 @@
       "related": []
     }
   ],
-  "last_updated": "2026-07-12",
-  "total_entries": 1223
+  "last_updated": "2026-07-13",
+  "total_entries": 1217
 }
