@@ -34623,8 +34623,95 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "c58255e2",
+      "title": "AGENTS.md Obsidian Vault 宪法",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": null,
+        "original_date": null
+      },
+      "category": "learning",
+      "tags": [
+        "obsidian",
+        "manual"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "高爷，Android 性能优化工程师，MTK 成都 方向：AI 应用专家 + Android 系统开发专家 + X 大 V 详见 workspace MEMORY.md 和 USER.md",
+      "summary_en": null,
+      "one_liner": "高爷，Android 性能优化工程师，MTK 成都 方向：AI 应用专家 + Android 系统开发专家 + X 大 V 详见 workspace MEMORY.md 和 USE...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/local_1.md",
+      "images": [],
+      "added_date": "2026-07-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ac240c5f",
+      "title": "AI 职业建议",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": null,
+        "original_date": null
+      },
+      "category": "learning",
+      "tags": [
+        "obsidian",
+        "manual"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "作者: AYi_AInotes 链接: 抓取时间: 2026-07-09",
+      "summary_en": null,
+      "one_liner": "作者: AYi_AInotes 链接: 抓取时间: 2026-07-0...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/local_3.md",
+      "images": [],
+      "added_date": "2026-07-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "78c2e5c8",
+      "title": "Pi Agent 配置指南：打造专属 AI 编程助手",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": null,
+        "original_date": null
+      },
+      "category": "learning",
+      "tags": [
+        "obsidian",
+        "manual"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "原文链接： 作者：ninthbit_ai",
+      "summary_en": null,
+      "one_liner": "原文链接： 作者：ninthbit...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/local_2.md",
+      "images": [],
+      "added_date": "2026-07-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-11",
-  "total_entries": 1220
+  "last_updated": "2026-07-12",
+  "total_entries": 1223
 }
