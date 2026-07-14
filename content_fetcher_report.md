@@ -1,16 +1,17 @@
 # AAIF Content Fetcher Report
 
-Generated: 2026-07-12T04:21 (Asia/Shanghai) · cron 0701a96e (AAIF hourly, 5-entry batch)
+Generated: 2026-07-14T04:18 (Asia/Shanghai) · cron 0701a96e (AAIF hourly, 5-entry batch)
 
 ## SCAN
 
-- `entries.json` parses as dict via `pipeline_utils.load_entries_data()`; `len(entries)=1220 == total_entries=1220`; `last_updated=2026-07-11` (unchanged by this run; matches HEAD `3658e1b`).
-- Content directory holds 1335 `.md` stems under `<repo>/content/`.
+- `entries.json` parses as dict via `pipeline_utils.load_entries_data()`; `len(entries)=1217 == total_entries=1217`; `last_updated=2026-07-13` (unchanged by this run; matches HEAD `3c764f5`).
+- Content directory holds 1334 `.md` files (recursive under `<repo>/content/`, including the `X 文章/` subfolder).
 - Tier-1 candidates (`status=active` AND `quality_score>=4` AND no matching content file): **0**.
-  - 928 active entries total; 221 with `quality_score>=4`.
-  - Match logic: content exists iff `<id>.md` is present OR `basename(local_path).md` is present (case-sensitive on disk).
-  - 209/221 match by both `id` and `local_path`; 11/221 match by `id` only (entries whose `local_path` points outside `content/`, e.g. `Cubox/...` or `每日论文精读（AI）/...`); 1/221 matches by `local_path` only.
-  - All 221 q≥4 active entries already have a content file; no fetch required per the content-fetcher rule.
+  - 925 active entries total; 221 with `quality_score>=4`.
+  - Match logic: content exists iff `content/{id}.md` is present OR `Path(local_path)` exists (case-sensitive on disk).
+  - 210/221 match by both `id` and `local_path`; 11/221 match by `id` only (entries whose `local_path` points outside `content/`, e.g. `content/discovery/...`, `Cubox/...`, `X 文章/...`, `每日论文精读（AI）/...`).
+  - 0/221 are missing a content file; 0/221 have a content file under 200 bytes.
+  - All 221 q≥4 active entries already have a non-trivial content file; no fetch required per the content-fetcher rule.
 
 ## FETCH
 
@@ -21,15 +22,15 @@ Generated: 2026-07-12T04:21 (Asia/Shanghai) · cron 0701a96e (AAIF hourly, 5-ent
 ## SITE GENERATION
 
 - `python3 scripts/generate-site.py` executed successfully (compatibility wrapper -> `openclaw/scripts/generate-modern-site.py`).
-- Output: 687 display cards, 612 content pages, 7 channels.
-- Working-tree change: `M metadata/stats.json` only (`last_updated` 2026-07-11 08:31 -> 2026-07-12 04:20; `content_files_total` 1332 -> 1335). `data/entries.json` and `content/` untouched by this run.
+- Output: 684 display cards, 606 content pages, 7 channels.
+- Working-tree change: `M metadata/stats.json` only (`last_updated` 2026-07-13 08:31 -> 2026-07-14 04:19). `data/entries.json` and `content/` untouched by this run.
 
 ## VALIDATION (per skill invariants)
 
 - OK: `entries.json` is a dict with `entries` list and `total_entries`.
-- OK: `len(entries) == total_entries == 1220`; `last_updated` unchanged from HEAD.
-- OK: Entry count did not decrease (cron does not mutate `entries.json`; remote/HEAD `3658e1b` reports 1220, working tree matches).
-- OK: Site generation succeeded; non-deterministic build only touched `metadata/stats.json` (timestamp + content_files_total).
+- OK: `len(entries) == total_entries == 1217`; `last_updated` unchanged from HEAD.
+- OK: Entry count did not decrease (cron does not mutate `entries.json`; remote/HEAD `3c764f5` reports 1217, working tree matches).
+- OK: Site generation succeeded; non-deterministic build only touched `metadata/stats.json` (timestamp).
 - OK: No content file writes occurred (correctly, since no candidates).
 - OK: Push: NONE. Cron rule and skill both say "Do not git push" in content-fetcher mode.
 

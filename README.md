@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
+- [CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Inte...](https://arxiv.org/abs/2607.08774) ⭐5 · 2026-07-13 — 把 inference-time control 抽象成第一类接口：固定模型下，结构化脚手架能系统性降低 LLM 失败率，reliability 不只是 scale 问题
+- [VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents](https://arxiv.org/abs/2607.09653) ⭐4 · 2026-07-13 — VEXAIoT 用检测 + 执行双智能体自动跑 IoT 渗透测试，OWASP IoT 场景 260 次执行 95% 成功率
+- [TrustX Agent Risk Classification Framework (ARC): Risk-Tiering Internally Created Agentic AI Sys...](https://arxiv.org/abs/2607.09586) ⭐4 · 2026-07-13 — TrustX ARC 用 12 维量表给七类智能体 AI 系统风险分级，三层治理输出 + 编程助手专属扩展
+- [Practical Source Code Recovery from Binary Functions Using Anchor-Based Retrieval and LLM Reason...](https://arxiv.org/abs/2607.09452) ⭐4 · 2026-07-13 — 用 anchor 检索 + LLM 重排从 stripped 二进制找回源码，tcpdump 上 95.2% 指令覆盖
+- [OpenProver: Agentic and Interactive Theorem Proving with Lean 4](https://arxiv.org/abs/2607.09217) ⭐4 · 2026-07-13 — OpenProver 把 Planner-Worker-Verifier 搬到 Lean 4 自动定理证明上，开源 + 交互式人机协同搜索
+- [KV-PRM: Efficient Process Reward Modeling via KV-Cache Transfer for Multi-Agent Test-Time Scalin...](https://arxiv.org/abs/2607.09153) ⭐4 · 2026-07-13 — KV-PRM 直接复用生成阶段的 KV cache，把 PRM 评分从 O(L) 降到 O(L)，长多智能体 TTS 提速 5000 倍
+- [Beyond Fixed Representations: The Vocabulary and Verifier Gaps in Open-Ended AI](https://arxiv.org/abs/2607.09560) ⭐4 · 2026-07-13 — 用'词汇鸿沟'和'验证器鸿沟'刻画 AI 与开放式智能的距离，提出创新自主性阶梯与生成性表征变换
+- [ARCANA: A Reflective Multi-Agent Program Synthesis Framework for ARC-AGI-2 Reasoning](https://arxiv.org/abs/2607.09059) ⭐4 · 2026-07-13 — ARCANA 用感知-假设-符号执行-反思四智能体协作解 ARC-AGI-2，可微黑板 + 元控制器调度抽象变换任务
 - [Pi Agent 配置指南：打造专属 AI 编程助手](https://godofgpt.com/entry/78c2e5c8/) ⭐3 · 2026-07-12 — 原文链接： 作者：ninthbit...
 - [AI 职业建议](https://godofgpt.com/entry/ac240c5f/) ⭐3 · 2026-07-12 — 作者: AYi_AInotes 链接: 抓取时间: 2026-07-0...
-- [AGENTS.md Obsidian Vault 宪法](https://godofgpt.com/entry/c58255e2/) ⭐3 · 2026-07-12 — 高爷，Android 性能优化工程师，MTK 成都 方向：AI 应用专家 + Android 系统开发专家 + X 大 V 详见 workspace MEMORY.md 和 USE...
-- [Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents](https://arxiv.org/abs/2607.08716) ⭐5 · 2026-07-11 — Proactive Memory Agent 把被动检索改为持续整理 + 主动暴露，对抗长程任务中的"行为状态衰减"
-- [From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents](https://arxiv.org/abs/2607.08028) ⭐5 · 2026-07-11 — 把企业 LLM 智能体从 prompt 原型重构为可审计 harness：确定性围栏 + 答案契约 + 重建执行轨迹的运行时架构
-- [When LLMs Agree, Are They Right? Auditing Self-Consistency and Cross-Model Agreement as Confiden...](https://arxiv.org/abs/2607.08065) ⭐4 · 2026-07-11 — 质疑 LLM-as-judge 的一致性假设：模型自一致 / 跨模型一致并不等于正确，并给出企业评测管线的审计补丁
-- [The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs](https://arxiv.org/abs/2607.08734) ⭐4 · 2026-07-11 — 提出 correctness agreement 度量量化模型的决策级行为变化，揭示 PTQ 评测中普遍存在的"等效幻觉"
-- [Compete Then Collaborate: Frontier AI Teachers Build a Verifiable Curriculum to Improve a Coding...](https://arxiv.org/abs/2607.08255) ⭐4 · 2026-07-11 — 四家前沿模型先竞争再协作产出可验证编程课程，规避单教师评委偏置，显著提升小模型 coding 蒸馏上限
-- [CausalDS: Benchmarking Causal Reasoning in Data-Science Agents](https://arxiv.org/abs/2607.08093) ⭐4 · 2026-07-11 — CausalDS 把因果推理 + 数据科学 agent 统一在同一基准：结构化数据生成 完整工具循环，指出现瓶颈在因果变量选择而非工具使用
-- [Agentic Neural Architecture Search](https://arxiv.org/abs/2607.07984) ⭐4 · 2026-07-11 — Agentic NAS 让 LLM agent 负责跨任务生成候选架构，NAS 引擎负责算力受限下的精细搜索，显著降低冷启动成本
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 228 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 135 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 79 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 模型与实验室 | 229 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 147 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 82 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 23 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 44 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 36 | 论文、课程、提示工程、长文、方法论。 |
+| 产品与商业 | 45 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 研究与学习 | 37 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 139 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 1217
-- 公开展示卡片: 684
-- 有全文内容: 606
-- 最近 7 天信号: 60
+- 原始条目: 1235
+- 公开展示卡片: 702
+- 有全文内容: 624
+- 最近 7 天信号: 74
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`ai-tools`, `llm`, `research`, `openai`, `attention`, `google`, `anthropic`, `optimization`, `2026`, `claude-code`, `gemini`, `benchmark`, `agent`, `digest`, `manual`, `enterprise`, `claude`, `multi-agent`
+`ai-tools`, `llm`, `research`, `openai`, `attention`, `google`, `anthropic`, `optimization`, `2026`, `multi-agent`, `claude-code`, `benchmark`, `gemini`, `enterprise`, `agent`, `digest`, `open-source`, `manual`
 
 ## 自动化约定
 
