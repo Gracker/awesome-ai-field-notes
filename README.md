@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
-- [CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Inte...](https://arxiv.org/abs/2607.08774) ⭐5 · 2026-07-13 — 把 inference-time control 抽象成第一类接口：固定模型下，结构化脚手架能系统性降低 LLM 失败率，reliability 不只是 scale 问题
-- [VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents](https://arxiv.org/abs/2607.09653) ⭐4 · 2026-07-13 — VEXAIoT 用检测 + 执行双智能体自动跑 IoT 渗透测试，OWASP IoT 场景 260 次执行 95% 成功率
-- [TrustX Agent Risk Classification Framework (ARC): Risk-Tiering Internally Created Agentic AI Sys...](https://arxiv.org/abs/2607.09586) ⭐4 · 2026-07-13 — TrustX ARC 用 12 维量表给七类智能体 AI 系统风险分级，三层治理输出 + 编程助手专属扩展
-- [Practical Source Code Recovery from Binary Functions Using Anchor-Based Retrieval and LLM Reason...](https://arxiv.org/abs/2607.09452) ⭐4 · 2026-07-13 — 用 anchor 检索 + LLM 重排从 stripped 二进制找回源码，tcpdump 上 95.2% 指令覆盖
-- [OpenProver: Agentic and Interactive Theorem Proving with Lean 4](https://arxiv.org/abs/2607.09217) ⭐4 · 2026-07-13 — OpenProver 把 Planner-Worker-Verifier 搬到 Lean 4 自动定理证明上，开源 + 交互式人机协同搜索
-- [KV-PRM: Efficient Process Reward Modeling via KV-Cache Transfer for Multi-Agent Test-Time Scalin...](https://arxiv.org/abs/2607.09153) ⭐4 · 2026-07-13 — KV-PRM 直接复用生成阶段的 KV cache，把 PRM 评分从 O(L) 降到 O(L)，长多智能体 TTS 提速 5000 倍
-- [Beyond Fixed Representations: The Vocabulary and Verifier Gaps in Open-Ended AI](https://arxiv.org/abs/2607.09560) ⭐4 · 2026-07-13 — 用'词汇鸿沟'和'验证器鸿沟'刻画 AI 与开放式智能的距离，提出创新自主性阶梯与生成性表征变换
-- [ARCANA: A Reflective Multi-Agent Program Synthesis Framework for ARC-AGI-2 Reasoning](https://arxiv.org/abs/2607.09059) ⭐4 · 2026-07-13 — ARCANA 用感知-假设-符号执行-反思四智能体协作解 ARC-AGI-2，可微黑板 + 元控制器调度抽象变换任务
-- [Pi Agent 配置指南：打造专属 AI 编程助手](https://godofgpt.com/entry/78c2e5c8/) ⭐3 · 2026-07-12 — 原文链接： 作者：ninthbit...
-- [AI 职业建议](https://godofgpt.com/entry/ac240c5f/) ⭐3 · 2026-07-12 — 作者: AYi_AInotes 链接: 抓取时间: 2026-07-0...
+- [选择无聊的技术 创新 Token 与选型哲学](https://x.com/yibie/status/2074710124497981738) ⭐4 · 2026-07-14 — yibie 推荐 Dan McKinley（前 Etsy 工程师）的经典工程文化文章核心观点：每个公司大约有三个创新 token选 NodeJSMongoDB新服务发现技术每次花掉一个无聊技术（MySQL/Postgres/Python/Cron）的优势不仅在于功能被充分理解.....
+- [睡眠计算 Agent 的离线学习架构](https://x.com/yibie/status/2075457839481708960) ⭐4 · 2026-07-14 — yibie 分享了一个 Agent 系统的关键架构模式睡眠计算Agent 执行任务时产生大量尾气（检索了什么尝试了什么哪里出错），这些是学习的原材料...
+- [Own the Outer Loop 工程师需要掌控 Agent 系统的外层循环](https://x.com/addyosmani/status/2074927530482835916) ⭐4 · 2026-07-14 — Addy Osmani 提出工程师需要拥有外层循环(Own the Outer Loop)即对 Agent 系统的问责制他将核心概念归纳为三个词：Quality（系统运行前的所有检查）Verdict（基于证据做出的发布决策）Answerability（能解释为什么这么做的保证）A...
+- [Improving Agents is a Data Mining Problem Agent 改进本质是数据挖掘问题](https://x.com/Vtrivedy10/status/2074509344155066517) ⭐4 · 2026-07-14 — Viv 在 AI Engineer World Fair 上的演讲，提出 Agent 改进的三个核心方向持续学习Harness 工程和后训练本质上都归结为同一件事：大规模数据筛选与实验核心观点：每个持续学习公司都是可观测性公司.
+- [Hermes Agent 架构详细拆解 工业级 Agent 框架运行时揭秘](https://x.com/mate_mattt/status/2074313623523271010) ⭐4 · 2026-07-14 — MateMatt 对 Hermes Agent 进行了深度架构拆解，揭示了一个工业级 Agent 框架的底层运行时设计Hermes 不是简单的 LLM + ReAct 循环.
+- [Harness Loop Agent 之上正在长出第二层循环](https://x.com/yibie/status/2075435834581668088) ⭐4 · 2026-07-14 — yibie 推荐 Armin Ronacher（Flask/Jinja2 作者）关于 Harness Loop 的深度思考：不再是人直接 prompt 模型，而是人写 looploop 去跑模型工作被放入队列，机器接走尝试...
+- [Getting Started with Loops Claude Code 团队定义 Agent 循环模式](https://x.com/ClaudeDevs/status/2074208949205881033) ⭐4 · 2026-07-14 — Claude Code 官方团队系统定义了 Agent 的循环(Loop)概念：Agent 重复执行工作循环直到满足停止条件他们将循环按触发方式停止条件Claude Code 原语和任务类型进行分类主要类型包括：Turn-based loops（用户提示触发...
+- [AI Native CLI 会是一种新商业模式](https://x.com/kasong2048/status/2075508272946450880) ⭐4 · 2026-07-14 — kasong2048 分析了 AI Native CLI 作为新商业模式的潜力对于知识付费领域 KOL，Skill 是获客和建立影响力的好工具...
+- [#8 角色重构 工程师从写代码的人变成编排 Agent 的人](https://x.com/sujingshen/status/2075048416976232823) ⭐4 · 2026-07-14 — SagaSu 系列#8 探讨 AI Agent 时代工程师角色的根本性转变引用 Spotify CEO 最好的开发者从去年12月起没写过一行代码和 OpenAI 三人团队零行手动代码产出百万行代码的案例.
+- [#7 流程阵痛 当瓶颈从写代码变成Review 代码](https://x.com/sujingshen/status/2074800215937433915) ⭐4 · 2026-07-14 — SagaSu 系列#7 深入分析了 AI 编码工具引入后的流程瓶颈转移：代码产出翻倍但 Review 队列爆炸，CI 更频繁地变红，发布反而变慢DORA 2024 报告数据印证：AI 采纳率每提高 25%，交付吞吐量下降 1.
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 229 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 147 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 82 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 23 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 45 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 37 | 论文、课程、提示工程、长文、方法论。 |
+| 模型与实验室 | 230 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 153 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 89 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 24 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 46 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 研究与学习 | 38 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 139 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 1235
-- 公开展示卡片: 702
-- 有全文内容: 624
-- 最近 7 天信号: 74
+- 原始条目: 1252
+- 公开展示卡片: 719
+- 有全文内容: 641
+- 最近 7 天信号: 79
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`ai-tools`, `llm`, `research`, `openai`, `attention`, `google`, `anthropic`, `optimization`, `2026`, `multi-agent`, `claude-code`, `benchmark`, `gemini`, `enterprise`, `agent`, `digest`, `open-source`, `manual`
+`ai-tools`, `llm`, `research`, `openai`, `attention`, `google`, `anthropic`, `optimization`, `agent`, `2026`, `claude-code`, `multi-agent`, `benchmark`, `gemini`, `workflow`, `enterprise`, `digest`, `harness`
 
 ## 自动化约定
 
