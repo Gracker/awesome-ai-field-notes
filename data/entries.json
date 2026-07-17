@@ -30957,10 +30957,11 @@
       "local_path": "content/f7b1eaa8.md",
       "images": [],
       "added_date": "2026-07-04",
-      "updated_date": null,
+      "updated_date": "2026-07-16",
       "github_stars": null,
       "related": [],
-      "content_file": "f7b1eaa8.md"
+      "content_file": "content/f7b1eaa8.md",
+      "content_generated": true
     },
     {
       "id": "6fe77399",
@@ -30992,10 +30993,11 @@
       "local_path": "content/6fe77399.md",
       "images": [],
       "added_date": "2026-07-04",
-      "updated_date": null,
+      "updated_date": "2026-07-16",
       "github_stars": null,
       "related": [],
-      "content_file": "6fe77399.md"
+      "content_file": "content/6fe77399.md",
+      "content_generated": true
     },
     {
       "id": "1cad9458",
@@ -32701,10 +32703,11 @@
       "local_path": "content/2a19e833.md",
       "images": [],
       "added_date": "2026-07-08",
-      "updated_date": null,
+      "updated_date": "2026-07-16",
       "github_stars": null,
       "related": [],
-      "content_file": "2a19e833.md"
+      "content_file": "content/2a19e833.md",
+      "content_generated": true
     },
     {
       "id": "9aed445c",
@@ -34233,10 +34236,11 @@
       "local_path": "content/d7f5e8e9.md",
       "images": [],
       "added_date": "2026-07-11",
-      "updated_date": null,
+      "updated_date": "2026-07-16",
       "github_stars": null,
       "related": [],
-      "content_file": "d7f5e8e9.md"
+      "content_file": "content/d7f5e8e9.md",
+      "content_generated": true
     },
     {
       "id": "d9102c5a",
@@ -34266,10 +34270,11 @@
       "local_path": "content/d9102c5a.md",
       "images": [],
       "added_date": "2026-07-11",
-      "updated_date": null,
+      "updated_date": "2026-07-16",
       "github_stars": null,
       "related": [],
-      "content_file": "d9102c5a.md"
+      "content_file": "content/d9102c5a.md",
+      "content_generated": true
     },
     {
       "id": "d0b184a7",
@@ -39436,8 +39441,357 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "2607.13285",
+      "title": "Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable",
+      "url": "https://arxiv.org/abs/2607.13285",
+      "source": {
+        "platform": "arxiv",
+        "author": "Wang, Ruhan, Shi, Yucheng, Li, Zongxia et al.",
+        "original_date": "2026-07-14"
+      },
+      "category": "agents",
+      "tags": [
+        "harness-engineering",
+        "agent-frameworks",
+        "code-search",
+        "behavior-localization",
+        "static-analysis",
+        "llm-assisted-structuring",
+        "bgpd",
+        "evolution"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "该论文提出 Harness Handbook 框架，把传统以文件/模块组织的 agent harness 代码库自动合成为以\"行为\"为单位的可读可定位可编辑的索引，从而解决\"修改请求描述的是要做什么仓库却按文件组织\"造成的 behavior-to-code 映射瓶颈配套机制 Behavior-Guided Progressive Disclosure (BGPD) 让 coding agent 从高层行为逐步下钻到实现细节，并用候选位置反向验证当前源码在两个开源 harness 上的多种修改请求上，Handbook 辅助的规划在行为定位编辑计划质量与 token 用量上全面优于纯检索 / 长上下文基线，散点位置低频路径跨模块交互场景收益最大这是 harness engineering 线程上继 Managed AgentsPrompts to Contracts 之后又一代表性研究：演进式 agentic 系统的核心不是\"如何生成 patch\"，而是\"patch 应该改在哪里\"",
+      "summary_en": "The capability of a modern AI agent depends not only on its foundation model but also on its harness, which constructs prompts, manages state, invokes tools, and coordinates execution. As models, APIs, environments, and requirements evolve, the harness must be continually modified. Before such a change can be made, a developer or coding agent must identify all code locations that implement the target behavior. This is difficult because production harnesses are large, tightly coupled, and behaviorally distributed, while modification requests describe what the system should do and repositories are organized by files and modules. Code search, repository indexing, and long-context processing ease inspection, but still leave this behavior-to-code mapping to be recovered by hand. Behavior localization is therefore a central bottleneck in harness evolution....",
+      "one_liner": "该论文提出 Harness Handbook 框架，把传统以文件/模块组织的 agent harness 代码库自动合成为以\"行为\"为单位的可读可定位可编辑的索引.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/2607.13285.md",
+      "images": [],
+      "added_date": "2026-07-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2607.13157",
+      "title": "Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents",
+      "url": "https://arxiv.org/abs/2607.13157",
+      "source": {
+        "platform": "arxiv",
+        "author": "Alake, Richmond, Bernardis, Cesare, Cayet, Paul et al.",
+        "original_date": "2026-07-14"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "enterprise-memory",
+        "long-horizon",
+        "memory-substrate",
+        "database-native",
+        "oracle",
+        "lifecycle",
+        "retention",
+        "consolidation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Oracle Agent Memory 把\"agent memory\"明确为长时程 Agent 的系统工程问题，主张用 Oracle Database 作为原生 memory substrate，并以 ingestion / extraction / consolidation / retrieval / summarization / revision 六阶段生命周期为主线其分层架构将 active memory core 与 passive memory-store interface 解耦，并通过显式 scope（user / agent / thread）实现受控的多租户共享评估方法强调任务准确率之外的 memory-centric 指标：证据检索recalllatency估算 token 用量LongMemEval 取得 93.8% 准确率，token 用量约为 flat-history baseline 的 1/10（约 10.7 缩减）该报告给出的不只是协议，更是企业级多 agent / 长任务记忆层的工程蓝图",
+      "summary_en": "Agent memory is a systems problem for long-horizon agents. Practical deployments require retention of task state across extended conversations, recovery of user-specific facts and preferences across sessions, and accumulation of procedural knowledge from prior outcomes. These requirements extend beyond document retrieval: a memory layer must determine which interactions become durable state, how that state is scoped, how it is retrieved under latency constraints, and how it is revised or removed over time. This report studies Oracle Agent Memory as a database-native memory substrate built on Oracle Database....",
+      "one_liner": "Oracle Agent Memory 把\"agent memory\"明确为长时程 Agent 的系统工程问题，主张用 Oracle Database 作为原生 memory substrate.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/2607.13157.md",
+      "images": [],
+      "added_date": "2026-07-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2607.13716",
+      "title": "CAVA: Canonical Action Verification and Attestation for Runtime Governance of Agentic AI Systems",
+      "url": "https://arxiv.org/abs/2607.13716",
+      "source": {
+        "platform": "arxiv",
+        "author": "Wang, Zexun",
+        "original_date": "2026-07-15"
+      },
+      "category": "agents",
+      "tags": [
+        "runtime-governance",
+        "agentic-ai",
+        "canonical-action",
+        "attestation",
+        "pcaa",
+        "semantic-pattern",
+        "policy-binding",
+        "audit"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "CAVA (Canonical Action Verification and Attestation) 在 Proof-Carrying Agent Actions (PCAA) 之下定义稳定的\"运行期规范动作对象\"：把本地 coding hookSDK tool浏览器自动化managed-agent traceAPI gatewayworkflow engine 这些异构 runtime 上的同一次业务行为（如发布代码改身份状态转账导出数据）规范化成一个可被独立验证器复现的 canonical action object论文形式化了 canonical action identitysemantic pattern detectionapproval bindingreceipt integrityruntime-portable projectionoptional attestation substrate，并通过 96 seed 384 variant 的基准覆盖语义等价语义分离wrapper bypass误报控制approval 绑定receipt 可复现attestation 防篡改runtime 可移植policy 降级Azure 部署演练等场景结论：action-level canonicalization 与 policy-addressable semantic pattern 是 deployer-side AI governance 必要的 substrate",
+      "summary_en": "Agentic AI systems increasingly act through heterogeneous runtimes: local coding hooks, SDK tools, browser automation, managed-agent traces, API gateways, and workflow engines. A single operational act such as publishing code, changing identity state, moving money, or exporting data may therefore be represented by many incompatible runtime records. This makes a basic governance question difficult to answer: what action was actually approved, what evidence binds the approval to execution, and can an independent verifier reproduce the same action identity later? This paper presents Canonical Action Verification and Attestation (CAVA), a runtime-semantics layer for converting heterogeneous agent activity into canonical runtime action objects....",
+      "one_liner": "CAVA (Canonical Action Verification and Attestation) 在 Proof-Carrying Agent Actions (PCAA) 之下定义稳定的\"运行期规范动作对象\"：把本地 coding hookSDK tool浏览器自动化m...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/2607.13716.md",
+      "images": [],
+      "added_date": "2026-07-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2607.13884",
+      "title": "Experience Memory Graph: One-Shot Error Correction for Agents",
+      "url": "https://arxiv.org/abs/2607.13884",
+      "source": {
+        "platform": "arxiv",
+        "author": "Wang, Wenjun, Fang, Yuchen, Liu, Fengrui et al.",
+        "original_date": "2026-07-15"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "error-correction",
+        "experience-graph",
+        "one-shot",
+        "graph-matching",
+        "no-trial-and-error",
+        "alfworld",
+        "scienceworld"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Experience Memory Graph (EMG) 把 agent failure recovery 重写为图匹配问题：训练阶段把失败探索轨迹与成功专家轨迹都转为有向\"动作决策图\"，通过图匹配抽出共同子图（成功子流程）与编辑路径（add/delete/relabel 动作），并把这些经验连成含跨任务边与图编辑路径的记忆图；测试阶段一次性无 trial-and-error 地检索并执行ALFWorld 与 ScienceWorld 上 EMG 在成功率与平均奖励上一致超过主流 reflection 基线，且零测试期试错AAIF 意义：把\"自我纠错\"从 prompt-based reflection 的高 token / 长循环成本里彻底解耦出来，是 agent memory 线程对\"测试期单次纠错\"范式的首次系统化建模",
+      "summary_en": "Large Language Model (LLM) agents have shown remarkable capabilities in autonomous decision-making by generating sequential trajectories of states, actions, and observations. However, in complex, long-horizon tasks, these agents frequently suffer from compounding errors and struggle to recover from failures. Existing self-correction mechanisms rely on prompt-based reflection, which is inherently brittle, incurs heavy time and API costs due to iterative trial-and-error loops, and produces task-specific memory that may be hard to generalize to new scenarios. To address this, we propose Experience Memory Graph (EMG), a framework that reformulates agent failure recovery as a graph matching problem. At training time, we convert both failed exploration trajectories and successful expert trajectories into directed action decision graphs....",
+      "one_liner": "Experience Memory Graph (EMG) 把 agent failure recovery 重写为图匹配问题：训练阶段把失败探索轨迹与成功专家轨迹都转为有向\"动作决策图\"...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/2607.13884.md",
+      "images": [],
+      "added_date": "2026-07-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2607.14004",
+      "title": "Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0",
+      "url": "https://arxiv.org/abs/2607.14004",
+      "source": {
+        "platform": "arxiv",
+        "author": "Wang, Wenxiao, Kattakinda, Priyatham, Feizi, Soheil",
+        "original_date": "2026-07-15"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-optimizer",
+        "continual-learning",
+        "terminal-bench-2",
+        "gepa",
+        "meta-harness",
+        "relai-vcl",
+        "regression-control",
+        "compounding-gains"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "该文首次系统提出\"agent 优化器是否会随时间复合收益\"的 continual-learning 评测：在 Terminal-Bench 2.0 难任务上对比 GEPAMeta HarnessRELAI-VCL 三种 agent-harness 优化方法，各用相同预算结果：在传统静态一次性 phase 上三者都胜 baseline；进入二阶段后分化明显GEPA 优化后的 agent 在新任务上跌破未优化 baseline；Meta Harness 迁移可但第二段预算下不再提升；仅 RELAI-VCL 既正迁移又能在新任务并入目标后继续提升，lifelong 平均 pass rate 76.4% vs GEPA 66.0% / Meta Harness 64.6% / baseline 58.7%关键观察：只有当 regression control 内嵌进优化 loop 时，优化收益才会复合这为 agent continual-learning 提供了首个可重复评测与设计准则",
+      "summary_en": "Most reported gains from agent-optimization methods are one-shot: an agent is optimized against a fixed benchmark and the resulting improvement is reported as if it were a stable property of the method. This does not test the setting that matters for deployed agents, where optimization is applied recursively as new failures and new tasks appear over time. The central question this raises is whether optimizer-driven gains compound: after an agent has been optimized once, can it be optimized again on newly arrived tasks without eroding the gains the first round produced? We study this question with a two-phase continual-learning evaluation built from hard tasks in Terminal-Bench 2.0, comparing three approaches to agent-harness optimization (GEPA, Meta Harness, and RELAI&#39;s Verifiable Continual Learning, RELAI-VCL) under identical optimization budgets....",
+      "one_liner": "该文首次系统提出\"agent 优化器是否会随时间复合收益\"的 continual-learning 评测：在 Terminal-Bench 2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2607.14004.md",
+      "images": [],
+      "added_date": "2026-07-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2607.13705",
+      "title": "AgentCompass: A Unified Evaluation Infrastructure for Agent Capabilities",
+      "url": "https://arxiv.org/abs/2607.13705",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ding, Zichen, Ge, Jiaye, Jiang, Shufan et al.",
+        "original_date": "2026-07-15"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-eval",
+        "evaluation-infrastructure",
+        "agentcompass",
+        "benchmark-harness-environment",
+        "fault-tolerant",
+        "reward-hacking",
+        "open-source"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "AgentCompass 是一套面向 LLM-based agent 的开源轻量可扩展的统一评测基础设施，核心抽象是 Benchmark / Harness / Environment 三件独立可替换的组件，从而支持灵活组合而无需重写执行逻辑它配套 fault-tolerant 异步运行时的轨迹分析工具，能透明诊断 reward-hacking 等细微失败模式；原生覆盖 20+ benchmark，跨 5 个能力维度这是 AAIF agent eval 线程的工程底座把现有零散的评测管线统一到同一接口下，给\"评测即代码\"与跨论文复现提供关键基础设施",
+      "summary_en": "As Large Language Models (LLMs) evolve into autonomous agents, the need for unified evaluation infrastructure becomes critical. However, current evaluation pipelines remain highly fragmented and tightly coupled, hindering reproducibility and causing redundant engineering. To address this, we introduce AgentCompass, an open-source, lightweight, and extensible infrastructure for evaluating LLM-based agents. AgentCompass organizes the evaluation process around three independent components, namely Benchmark, Harness, and Environment, thereby enabling flexible configurations without requiring the reimplementation of complex execution logic. Furthermore, it features a fault-tolerant asynchronous runtime and comprehensive trajectory analysis tools to transparently diagnose nuanced failure modes like reward-hacking....",
+      "one_liner": "AgentCompass 是一套面向 LLM-based agent 的开源轻量可扩展的统一评测基础设施，核心抽象是 Benchmark / Harness / Environment 三件独立可替换的组件...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2607.13705.md",
+      "images": [],
+      "added_date": "2026-07-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2607.14037",
+      "title": "Early Adoption of Agentic Coding Tools by GitHub Projects",
+      "url": "https://arxiv.org/abs/2607.14037",
+      "source": {
+        "platform": "arxiv",
+        "author": "Raida, Maliha Noushin, Hou, Daqing",
+        "original_date": "2026-07-15"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "github-prs",
+        "adoption-study",
+        "human-agent-collaboration",
+        "oss",
+        "early-evidence",
+        "oversight-model"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "基于 2,361 个热门 GitHub 仓库 25,264 条 agentic PR 的实证分析，关注三层问题：agentic coding tools 的项目级采纳项目级生产力人机协作模式三点发现：（1）重度采纳仍集中在小部分项目中位数仓库三个月只产 12 条 agentic PR；（2）小项目（15 contributor）参与比与人均 agentic PR 活跃度都高于中大体量项目；（3）项目间生产力方差极大，仅少数超过业内\"每参与者 36 PR/三个月\"的估计，主流仍低于此阈值协作上以 single-human oversight 为主，multi-human 协作模式仍罕见结论：agentic coding 的成功取决于能力之外的\"人 + 组织流程\"AAIF 意义：编码 agent 线程的第一份大规模实证采纳报告，量化了\"开源生态对 agentic PR 的真实吸收能力\"",
+      "summary_en": "Agentic coding tools are increasingly capable of generating and submitting pull requests (PRs) to software projects, introducing new forms of human-agent collaboration in software development. While prior studies have examined PR-level outcomes of agent-generated contributions, less is known about how agentic coding tools are adopted and managed at the project level. In this paper, we analyze 25,264 agentic PRs from 2,361 popular GitHub repositories to investigate (1) the adoption of agentic coding tools, (2) project-level agentic PR productivity, and (3) human-agent collaboration patterns. Our results show that the median repository generates only one to two agentic PRs during a three-month period, indicating that intensive adoption remains concentrated in a small subset of projects....",
+      "one_liner": "基于 2,361 个热门 GitHub 仓库 25,264 条 agentic PR 的实证分析...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2607.14037.md",
+      "images": [],
+      "added_date": "2026-07-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2607.13918",
+      "title": "Partially Correlated Verifier Cascades in LLM Harnesses: Concave Log-Odds, Polynomial Reliability, and Blind-Spot Ceilings",
+      "url": "https://arxiv.org/abs/2607.13918",
+      "source": {
+        "platform": "arxiv",
+        "author": "Han, Jiangang",
+        "original_date": "2026-07-15"
+      },
+      "category": "agents",
+      "tags": [
+        "verifier-cascade",
+        "harness-reliability",
+        "odds-law",
+        "correlation",
+        "blind-spot-ceiling",
+        "decorrelation",
+        "beta-binomial",
+        "fail-open"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "该论文给出 LLM harness 串行验证门的最简相关理论：用 de Finetti 潜变量 ~ G 刻画每个 gate 对生成器自身错误的假阳性率，得到精确级联后验 _k = _0 ln m_k（m_k 为 G 的 k 阶矩），由此推出：(i) 在任意非退化 G 下 _k 都关于 k 凹，独立情形的 Odds Law 仅是其切线 / 上界；(ii) Beta(a,b) 潜变量下失败多项式衰减 1r_k k^{b}，相关参数 _v = 1/(a+b+1)；(iii) 1 质量的 blind-spot 原子使任意门数下可提取证据被封顶于 ln(1) nats，可靠性饱和；(iv) 引入 ~ H 后得到\"门最终总有益 / 平台 / 主动伤害\"三相，交叉点 k 可闭式表达可测：R 次裁决识别 G 的前 R 阶矩，2 次即可识别 _v；合成测试中独立外推在 k=5 / k=10 处分别低估失败 20 / 3000实践要点：杠杆是 decorrelation换模型家族 / 模态 / 证据源而非堆门数",
+      "summary_en": "Serial verification gates are a core reliability primitive in LLM harnesses: a candidate answer is returned only if $k$ verifier calls all accept it. Under conditionally independent gates, the recent Odds Law (arXiv:2606.15712) shows that posterior log-odds grow linearly in $k$, so failure decays exponentially, and states that &#34;a tight theory of partially correlated verifier cascades remains open.&#34; This note gives a minimal such theory. Modeling the per-instance false-accept rate on the generator&#39;s own errors as a latent variable $\\alpha \\sim G$ (de Finetti), the exact cascade posterior is $\\ell_k = \\ell_0 - \\ln m_k$, with $m_k$ the $k$-th moment of $G$....",
+      "one_liner": "该论文给出 LLM harness 串行验证门的最简相关理论：用 de Finetti 潜变量 ~ G 刻画每个 gate 对生成器自身错误的假阳性率，得到精确级联后验 _k = _0 ln m_k（m_k 为 G 的 k 阶矩）...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2607.13918.md",
+      "images": [],
+      "added_date": "2026-07-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2607.13104",
+      "title": "Self-Improvements in Modern Agentic Systems: A Survey",
+      "url": "https://arxiv.org/abs/2607.13104",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ren, Zhe, Chen, Yimeng, Guo, Dandan et al.",
+        "original_date": "2026-07-14"
+      },
+      "category": "learning",
+      "tags": [
+        "self-improving-agents",
+        "survey",
+        "agent-framework",
+        "scaffold",
+        "memory-tools-control",
+        "update-operator",
+        "adaptation",
+        "awesome-list"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Self-Improvements in Modern Agentic Systems综述把现代 self-improving agents 框为\"把经验转化为累积能力增益\"的适应系统，给出统一的\"foundation model + operational scaffold (prompts / memory / tools / control logic) + 自诱导更新算子\"框架，并按\"更新对象 驱动信号\"两个维度组织现有工作，最后讨论评估与开放问题配套维护 跟踪技术更新AAIF 价值：把 harness engineeringagent memoryself-playRL-on-scaffold 等多条线收敛到同一概念框架下，是 2026 年下半年 self-improving agents 线程的入门地图",
+      "summary_en": "Self-improving autonomous agents are moving from research prototypes to deployed systems. The primary goal is controllable evolution, or adaptation, from experience with minimal or even no human input. This survey frames modern self-improving agents as adaptive systems that convert experience into accumulated capability gains. We offer a system-level framework that represents a modern agent as a configuration coupling a foundation model with an operational scaffold of prompts, memory, tools, and control logic. Within this framework, self-improvement is formalized as a self-induced update operator that obtains and commits updates to model parameters or scaffold components. We organize prior work by update target and by the signals that drive change, then review applications and discuss evaluation, before closing with open problems and future directions....",
+      "one_liner": "Self-Improvements in Modern Agentic Systems综述把现代 self-improving agents 框为\"把经验转化为累积能力增益\"的适应系统.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2607.13104.md",
+      "images": [],
+      "added_date": "2026-07-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2607.13921",
+      "title": "Generative Compilation: On-the-Fly Compiler Feedback as AI Generates Code",
+      "url": "https://arxiv.org/abs/2607.13921",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mndler-Sasahara, Niels, Venev, Hristo, Song, Dawn et al.",
+        "original_date": "2026-07-15"
+      },
+      "category": "coding",
+      "tags": [
+        "generative-compilation",
+        "rust",
+        "sealor",
+        "lean-formalization",
+        "constrained-decoding",
+        "compiler-feedback",
+        "partial-program",
+        "ai-assisted-coding"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Generative Compilation 是首个在 LLM 生成过程中就拿到编译器反馈的方法：核心机制 sealor 把部分程序轻量语法引导地补完为完整程序，让现成编译器可诊断设计上保证\"可能被补完的部分程序永不被拒\"，同时保留足够上下文提前发现真正的死路作者在类 Rust 核演算上形式化证明该性质（Lean 中完全机械化），并扩展出首个真实 Rust 的部分程序检查器在仓库级 Rust 难题上对前沿闭源与开源模型均减少\"编译失败\"输出并提高功能正确率，相对纯生成后反馈可更早就地捕获错误并阻断错误级联AAIF 意义：把编译器从\"生成后的一道独立工序\"升级为\"生成中第一类公民\"，是 AI-assisted coding 线程上 constrained-decoding 之后的关键工程进步",
+      "summary_en": "Languages with rich static semantics, such as Rust, provide stronger guarantees for AI-generated code, but their strictness makes generation more difficult. Off-the-shelf compilers can provide useful feedback post-generation, but does not guide intermediate generation steps, such as those during autoregressive LLM decoding. Constrained decoding intervenes earlier by rejecting invalid tokens during sampling, but requires white-box model access and costly reimplementation for semantic this http URL introduce generative compilation, the first approach to obtaining compiler feedback on partial programs during generation. The core technical device is a sealor: a lightweight, mostly syntax-guided transformation that converts partial programs into complete ones that standard compilers can diagnose....",
+      "one_liner": "Generative Compilation 是首个在 LLM 生成过程中就拿到编译器反馈的方法：核心机制 sealor 把部分程序轻量语法引导地补完为完整程序，让现成编译器可诊断设计上保证\"可能被补完的部分程序永不被拒\"...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2607.13921.md",
+      "images": [],
+      "added_date": "2026-07-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-15",
-  "total_entries": 1392
+  "last_updated": "2026-07-17",
+  "total_entries": 1402
 }

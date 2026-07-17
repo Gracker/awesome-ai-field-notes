@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
-- [选择无聊的技术 创新 Token 与选型哲学](https://x.com/yibie/status/2074710124497981738) ⭐4 · 2026-07-14 — yibie 推荐 Dan McKinley（前 Etsy 工程师）的经典工程文化文章核心观点：每个公司大约有三个创新 token选 NodeJSMongoDB新服务发现技术每次花掉一个无聊技术（MySQL/Postgres/Python/Cron）的优势不仅在于功能被充分理解.....
-- [睡眠计算 Agent 的离线学习架构](https://x.com/yibie/status/2075457839481708960) ⭐4 · 2026-07-14 — yibie 分享了一个 Agent 系统的关键架构模式睡眠计算Agent 执行任务时产生大量尾气（检索了什么尝试了什么哪里出错），这些是学习的原材料...
-- [Own the Outer Loop 工程师需要掌控 Agent 系统的外层循环](https://x.com/addyosmani/status/2074927530482835916) ⭐4 · 2026-07-14 — Addy Osmani 提出工程师需要拥有外层循环(Own the Outer Loop)即对 Agent 系统的问责制他将核心概念归纳为三个词：Quality（系统运行前的所有检查）Verdict（基于证据做出的发布决策）Answerability（能解释为什么这么做的保证）A...
-- [Improving Agents is a Data Mining Problem Agent 改进本质是数据挖掘问题](https://x.com/Vtrivedy10/status/2074509344155066517) ⭐4 · 2026-07-14 — Viv 在 AI Engineer World Fair 上的演讲，提出 Agent 改进的三个核心方向持续学习Harness 工程和后训练本质上都归结为同一件事：大规模数据筛选与实验核心观点：每个持续学习公司都是可观测性公司.
-- [Hermes Agent 架构详细拆解 工业级 Agent 框架运行时揭秘](https://x.com/mate_mattt/status/2074313623523271010) ⭐4 · 2026-07-14 — MateMatt 对 Hermes Agent 进行了深度架构拆解，揭示了一个工业级 Agent 框架的底层运行时设计Hermes 不是简单的 LLM + ReAct 循环.
-- [Harness Loop Agent 之上正在长出第二层循环](https://x.com/yibie/status/2075435834581668088) ⭐4 · 2026-07-14 — yibie 推荐 Armin Ronacher（Flask/Jinja2 作者）关于 Harness Loop 的深度思考：不再是人直接 prompt 模型，而是人写 looploop 去跑模型工作被放入队列，机器接走尝试...
-- [Getting Started with Loops Claude Code 团队定义 Agent 循环模式](https://x.com/ClaudeDevs/status/2074208949205881033) ⭐4 · 2026-07-14 — Claude Code 官方团队系统定义了 Agent 的循环(Loop)概念：Agent 重复执行工作循环直到满足停止条件他们将循环按触发方式停止条件Claude Code 原语和任务类型进行分类主要类型包括：Turn-based loops（用户提示触发...
-- [Anthropic commits $10 million to Canadian AI research](https://www.anthropic.com/news/canadian-ai-research) ⭐4 · 2026-07-14 — Anthropic 10M CAD + 加拿大三所 AI 研究所 + 5 家医院 / 高校合作；同步发布 Canada Economic Index 简报（按 AUI 排第二）
-- [AI Native CLI 会是一种新商业模式](https://x.com/kasong2048/status/2075508272946450880) ⭐4 · 2026-07-14 — kasong2048 分析了 AI Native CLI 作为新商业模式的潜力对于知识付费领域 KOL，Skill 是获客和建立影响力的好工具...
-- [#8 角色重构 工程师从写代码的人变成编排 Agent 的人](https://x.com/sujingshen/status/2075048416976232823) ⭐4 · 2026-07-14 — SagaSu 系列#8 探讨 AI Agent 时代工程师角色的根本性转变引用 Spotify CEO 最好的开发者从去年12月起没写过一行代码和 OpenAI 三人团队零行手动代码产出百万行代码的案例.
+- [Experience Memory Graph: One-Shot Error Correction for Agents](https://arxiv.org/abs/2607.13884) ⭐5 · 2026-07-15 — Experience Memory Graph (EMG) 把 agent failure recovery 重写为图匹配问题：训练阶段把失败探索轨迹与成功专家轨迹都转为有向"动作决策图"...
+- [CAVA: Canonical Action Verification and Attestation for Runtime Governance of Agentic AI Systems](https://arxiv.org/abs/2607.13716) ⭐5 · 2026-07-15 — CAVA (Canonical Action Verification and Attestation) 在 Proof-Carrying Agent Actions (PCAA) 之下定义稳定的"运行期规范动作对象"：把本地 coding hookSDK tool浏览器自动化m...
+- [Partially Correlated Verifier Cascades in LLM Harnesses: Concave Log-Odds, Polynomial Reliabilit...](https://arxiv.org/abs/2607.13918) ⭐4 · 2026-07-15 — 该论文给出 LLM harness 串行验证门的最简相关理论：用 de Finetti 潜变量 ~ G 刻画每个 gate 对生成器自身错误的假阳性率，得到精确级联后验 _k = _0 ln m_k（m_k 为 G 的 k 阶矩）...
+- [Generative Compilation: On-the-Fly Compiler Feedback as AI Generates Code](https://arxiv.org/abs/2607.13921) ⭐4 · 2026-07-15 — Generative Compilation 是首个在 LLM 生成过程中就拿到编译器反馈的方法：核心机制 sealor 把部分程序轻量语法引导地补完为完整程序，让现成编译器可诊断设计上保证"可能被补完的部分程序永不被拒"...
+- [Early Adoption of Agentic Coding Tools by GitHub Projects](https://arxiv.org/abs/2607.14037) ⭐4 · 2026-07-15 — 基于 2,361 个热门 GitHub 仓库 25,264 条 agentic PR 的实证分析...
+- [Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0](https://arxiv.org/abs/2607.14004) ⭐4 · 2026-07-15 — 该文首次系统提出"agent 优化器是否会随时间复合收益"的 continual-learning 评测：在 Terminal-Bench 2.
+- [AgentCompass: A Unified Evaluation Infrastructure for Agent Capabilities](https://arxiv.org/abs/2607.13705) ⭐4 · 2026-07-15 — AgentCompass 是一套面向 LLM-based agent 的开源轻量可扩展的统一评测基础设施，核心抽象是 Benchmark / Harness / Environment 三件独立可替换的组件...
+- [Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents](https://arxiv.org/abs/2607.13157) ⭐5 · 2026-07-14 — Oracle Agent Memory 把"agent memory"明确为长时程 Agent 的系统工程问题，主张用 Oracle Database 作为原生 memory substrate.
+- [Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable](https://arxiv.org/abs/2607.13285) ⭐5 · 2026-07-14 — 该论文提出 Harness Handbook 框架，把传统以文件/模块组织的 agent harness 代码库自动合成为以"行为"为单位的可读可定位可编辑的索引.
+- [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104) ⭐4 · 2026-07-14 — Self-Improvements in Modern Agentic Systems综述把现代 self-improving agents 框为"把经验转化为累积能力增益"的适应系统.
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 231 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 161 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 89 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 模型与实验室 | 232 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 167 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 91 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 24 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 47 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 38 | 论文、课程、提示工程、长文、方法论。 |
+| 研究与学习 | 39 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 139 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 1392
-- 公开展示卡片: 729
-- 有全文内容: 651
-- 最近 7 天信号: 89
+- 原始条目: 1402
+- 公开展示卡片: 739
+- 有全文内容: 661
+- 最近 7 天信号: 92
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`ai-tools`, `llm`, `research`, `openai`, `attention`, `google`, `anthropic`, `optimization`, `agent`, `2026`, `multi-agent`, `claude-code`, `benchmark`, `gemini`, `enterprise`, `harness`, `workflow`, `open-source`
+`ai-tools`, `llm`, `research`, `openai`, `attention`, `google`, `anthropic`, `optimization`, `agent`, `2026`, `multi-agent`, `claude-code`, `benchmark`, `gemini`, `open-source`, `enterprise`, `harness`, `workflow`
 
 ## 自动化约定
 
