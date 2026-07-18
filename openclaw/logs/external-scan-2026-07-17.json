@@ -1,0 +1,233 @@
+{
+  "initial_count": 1392,
+  "added_count": 10,
+  "skipped_count": 0,
+  "final_count": 1402,
+  "added": [
+    {
+      "id": "2607.13285",
+      "title": "Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable",
+      "url": "https://arxiv.org/abs/2607.13285",
+      "category": "agents/frameworks",
+      "quality_score": 5,
+      "tags": [
+        "harness-engineering",
+        "agent-frameworks",
+        "code-search",
+        "behavior-localization",
+        "static-analysis",
+        "llm-assisted-structuring",
+        "bgpd",
+        "evolution"
+      ]
+    },
+    {
+      "id": "2607.13157",
+      "title": "Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents",
+      "url": "https://arxiv.org/abs/2607.13157",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "agent-memory",
+        "enterprise-memory",
+        "long-horizon",
+        "memory-substrate",
+        "database-native",
+        "oracle",
+        "lifecycle",
+        "retention",
+        "consolidation"
+      ]
+    },
+    {
+      "id": "2607.13716",
+      "title": "CAVA: Canonical Action Verification and Attestation for Runtime Governance of Agentic AI Systems",
+      "url": "https://arxiv.org/abs/2607.13716",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "runtime-governance",
+        "agentic-ai",
+        "canonical-action",
+        "attestation",
+        "pcaa",
+        "semantic-pattern",
+        "policy-binding",
+        "audit"
+      ]
+    },
+    {
+      "id": "2607.13884",
+      "title": "Experience Memory Graph: One-Shot Error Correction for Agents",
+      "url": "https://arxiv.org/abs/2607.13884",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "agent-memory",
+        "error-correction",
+        "experience-graph",
+        "one-shot",
+        "graph-matching",
+        "no-trial-and-error",
+        "alfworld",
+        "scienceworld"
+      ]
+    },
+    {
+      "id": "2607.14004",
+      "title": "Do Agent Optimizers Compound? A Continual-Learning Evaluation on Terminal-Bench 2.0",
+      "url": "https://arxiv.org/abs/2607.14004",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "agent-optimizer",
+        "continual-learning",
+        "terminal-bench-2",
+        "gepa",
+        "meta-harness",
+        "relai-vcl",
+        "regression-control",
+        "compounding-gains"
+      ]
+    },
+    {
+      "id": "2607.13705",
+      "title": "AgentCompass: A Unified Evaluation Infrastructure for Agent Capabilities",
+      "url": "https://arxiv.org/abs/2607.13705",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "agent-eval",
+        "evaluation-infrastructure",
+        "agentcompass",
+        "benchmark-harness-environment",
+        "fault-tolerant",
+        "reward-hacking",
+        "open-source"
+      ]
+    },
+    {
+      "id": "2607.14037",
+      "title": "Early Adoption of Agentic Coding Tools by GitHub Projects",
+      "url": "https://arxiv.org/abs/2607.14037",
+      "category": "coding",
+      "quality_score": 4,
+      "tags": [
+        "coding-agents",
+        "github-prs",
+        "adoption-study",
+        "human-agent-collaboration",
+        "oss",
+        "early-evidence",
+        "oversight-model"
+      ]
+    },
+    {
+      "id": "2607.13918",
+      "title": "Partially Correlated Verifier Cascades in LLM Harnesses: Concave Log-Odds, Polynomial Reliability, and Blind-Spot Ceilings",
+      "url": "https://arxiv.org/abs/2607.13918",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "verifier-cascade",
+        "harness-reliability",
+        "odds-law",
+        "correlation",
+        "blind-spot-ceiling",
+        "decorrelation",
+        "beta-binomial",
+        "fail-open"
+      ]
+    },
+    {
+      "id": "2607.13104",
+      "title": "Self-Improvements in Modern Agentic Systems: A Survey",
+      "url": "https://arxiv.org/abs/2607.13104",
+      "category": "learning",
+      "quality_score": 4,
+      "tags": [
+        "self-improving-agents",
+        "survey",
+        "agent-framework",
+        "scaffold",
+        "memory-tools-control",
+        "update-operator",
+        "adaptation",
+        "awesome-list"
+      ]
+    },
+    {
+      "id": "2607.13921",
+      "title": "Generative Compilation: On-the-Fly Compiler Feedback as AI Generates Code",
+      "url": "https://arxiv.org/abs/2607.13921",
+      "category": "coding",
+      "quality_score": 4,
+      "tags": [
+        "generative-compilation",
+        "rust",
+        "sealor",
+        "lean-formalization",
+        "constrained-decoding",
+        "compiler-feedback",
+        "partial-program",
+        "ai-assisted-coding"
+      ]
+    }
+  ],
+  "skipped": [],
+  "written_content_files": [
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.13285.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.13157.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.13716.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.13884.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.14004.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.13705.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.14037.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.13918.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.13104.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.13921.md"
+  ],
+  "mode": "external-scan",
+  "cron_id": "ecbbfe53-85f4-4c5e-b63d-21a3f753a438",
+  "date_local": "2026-07-17",
+  "date_utc": "2026-07-16",
+  "sources_scanned": [
+    {
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "status": "HTTP 200",
+      "papers_listed": 50,
+      "new_vs_entries": 50,
+      "picked": 10,
+      "reason": "All 50 papers were 2026-07-16/17 batch, all new vs entries.json; after AAIF title prefilter and field-by-field AAIF-aligned selection, 10 picked covering harness engineering, agent memory, runtime governance, agent eval, coding, and the verifier-cascade theory thread."
+    },
+    {
+      "url": "https://www.anthropic.com/news",
+      "status": "HTTP 200",
+      "new_pages": 6,
+      "picked": 0,
+      "reason": "All 6 new news pages (ben-bernanke, claude-for-teachers, fable-safeguards-jailbreak-framework, hard-questions, redeploying-fable-5, reflect-with-claude, ust-claude) are continuations of the Fable 5 / Mythos saga, case studies, or low-AAIF-density announcements (Bernanke LTBT appointment, Reflect beta, UST physical AI case study, Fable safeguards details, Fable redeployment). None rose to AAIF-active quality this run."
+    },
+    {
+      "url": "https://www.anthropic.com/research",
+      "status": "HTTP 200",
+      "new_pages": 4,
+      "picked": 0,
+      "reason": "claude-plays-robotics (robotics eval — niche), global-workspace (interpretability — flagged for follow-up), off-switch-dual-use (alignment — interpretability niche), claude-values-models-languages (societal-impacts analysis — niche). None rose to AAIF-active quality this run; flagged for follow-up content-fetcher pass."
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/",
+      "status": "HTTP 200",
+      "new_candidates": 2,
+      "added": 0,
+      "reason": "Visible page surface (firesat-satellites, gemini-southeast-asia-report-2026, gemini-spark-updates-june-2026, how-to-make-gemini-study-notebooks, sundar-pichai-io-2026, diffusion-gemma-faster-text-generation, expanding-managed-agents-gemini-api, interactions-api-general-availability, helping-communities-prepare-for-natural-disasters, technology-global-crisis-resilience). All except firesat-satellites and gemini-southeast-asia-report-2026 already in entries.json under normalized URL keys (e.g. sundar-pichai-io-2026 = b10a3315; gemini-spark-updates-june-2026 = c66e2703; expanding-managed-agents-gemini-api = f7eb2a86; interactions-api-general-availability = a89b1dbe; diffusion-gemma = ab9c9a67 score-pending; helping-communities-prepare-for-natural-disasters = 9d77f2d8; gemini-study-notebooks = 2e3f360d). The 2 actually-new ones (firesat-satellites, gemini-southeast-asia-report-2026) are not AAIF-core (regional satellite/fire detection, regional AI adoption report)."
+    },
+    {
+      "url": "https://hnrss.org/newest",
+      "status": "HTTP 200",
+      "items_reviewed": 20,
+      "added": 0,
+      "reason": "Latest 20 items include Xiaomi 38B world model, AegisDB self-hosted agent memory, Kimi K3 vs GPT 5.6 briefcase eval, AI Data Centers and Concentration of Wealth, etc. None rose to AAIF-active quality this round: Xiaomi model is a press release, AegisDB is a single-developer C-binary hobby project (low signal), Kimi K3 is a single benchmark update on a third-party eval page, AI Data Centers is a policy blog post. Left for future scans."
+    }
+  ],
+  "notes": "External scan at 2026-07-17 ~07:50 Asia/Shanghai (UTC 2026-07-16 23:50). It follows the 2026-07-16 morning daily-intake-morning run (no-op, 0 new content since 2026-07-15 last commit) and the 2026-07-15 external-scan (10 entries). arxiv.org/list/cs.AI/recent returned 50 papers (2026-07-15/16/17 batch), all 50 not-yet-present in entries.json. After AAIF title prefilter and AAIF-aligned selection, 10 picked. All 10 in the AAIF core threads: 4× harness engineering / governance (2607.13285 Harness Handbook; 2607.13716 CAVA Runtime Governance; 2607.13918 Partially Correlated Verifier Cascades; 2607.14004 Do Agent Optimizers Compound? — terminal-bench continual learning), 3× agent memory (2607.13157 Oracle Agent Memory enterprise; 2607.13884 Experience Memory Graph one-shot error correction; 2607.13705 AgentCompass eval infra), 2× coding (2607.14037 Early Adoption of Agentic Coding Tools empirical GitHub study; 2607.13921 Generative Compilation Rust compiler-in-loop), 1× survey (2607.13104 Self-Improvements in Modern Agentic Systems — scaffolds + memory + tools + control + update operator). Score 5 reserved for the four entries that directly advance existing AAIF threads: Harness Handbook advances the harness-engineering thread (next to Managed Agents, Prompts-to-Contracts); Oracle Agent Memory advances the agent-memory substrate thread (cf. MRMS, NapMem, Proactive Memory, OPSMem); CAVA advances the runtime-governance thread (cf. LOGOS, Formal-Hierarchical-Orchestration); Experience Memory Graph advances the one-shot / no-trial-and-error agent memory thread. Score 4 for the rest: AgentCompass (agent eval infra); Early Adoption empirical (coding agent adoption); Partially Correlated Verifier Cascades (harness verifier theory); Self-Improvements Survey (synthesis); Generative Compilation (AI-assisted coding). No push performed — external-scan mode per skill definition does not push."
+}

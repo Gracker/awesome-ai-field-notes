@@ -1,0 +1,179 @@
+{
+  "initial_count": 1217,
+  "added_count": 10,
+  "skipped_count": 0,
+  "final_count": 1227,
+  "added": [
+    {
+      "id": "a301014c",
+      "title": "Shared Selective Persistent Memory for Agentic LLM Systems",
+      "url": "https://arxiv.org/abs/2607.09493",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "agent-memory",
+        "persistent-memory",
+        "context-engineering",
+        "harness",
+        "enterprise",
+        "collaborative-workspace",
+        "llm-agent"
+      ]
+    },
+    {
+      "id": "807ffa61",
+      "title": "Toward Auditable AI Scientists: A Hypothesis Evolution Protocol for LLM Agents",
+      "url": "https://arxiv.org/abs/2607.09195",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "auditable-agents",
+        "hypothesis-evolution",
+        "scientific-discovery",
+        "harness",
+        "protocol",
+        "ai-scientist"
+      ]
+    },
+    {
+      "id": "60bfdd08",
+      "title": "Scoped Verification for Reliable Long-Horizon Agentic Context Evolution under Distribution Shift",
+      "url": "https://arxiv.org/abs/2607.09175",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "agentic-context",
+        "verification",
+        "semantic-graph",
+        "long-horizon",
+        "harness",
+        "distribution-shift",
+        "tau-bench"
+      ]
+    },
+    {
+      "id": "5680daaf",
+      "title": "Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading",
+      "url": "https://arxiv.org/abs/2607.08964",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "agent-eval",
+        "long-horizon",
+        "terminal-bench",
+        "benchmark",
+        "dense-reward",
+        "partial-credit"
+      ]
+    },
+    {
+      "id": "bc6cdd26",
+      "title": "Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation",
+      "url": "https://arxiv.org/abs/2607.09600",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "multi-agent",
+        "auction",
+        "task-allocation",
+        "reasoning",
+        "incentive-compatible",
+        "cost-quality"
+      ]
+    },
+    {
+      "id": "4b0f5936",
+      "title": "Failure as a Process: An Anatomy of CLI Coding Agent Trajectories",
+      "url": "https://arxiv.org/abs/2607.09510",
+      "category": "coding",
+      "quality_score": 4,
+      "tags": [
+        "coding-agents",
+        "failure-analysis",
+        "cli-agent",
+        "trajectory",
+        "reliability",
+        "epistemic-errors"
+      ]
+    },
+    {
+      "id": "d2efa029",
+      "title": "ProofCouncil: An LLM Agent for Solving Open Mathematical Problems",
+      "url": "https://arxiv.org/abs/2607.09474",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "math-agent",
+        "author-critic",
+        "open-problems",
+        "firstproof",
+        "theorem-proving",
+        "agent-library"
+      ]
+    },
+    {
+      "id": "b03c5d45",
+      "title": "Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+      "url": "https://arxiv.org/abs/2607.01418",
+      "category": "coding",
+      "quality_score": 5,
+      "tags": [
+        "claude-code",
+        "github-copilot-cli",
+        "adoption-study",
+        "microsoft",
+        "coding-agents",
+        "enterprise-rollout"
+      ]
+    },
+    {
+      "id": "9ef86e16",
+      "title": "GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning",
+      "url": "https://arxiv.org/abs/2607.08894",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "agent-planning",
+        "tree-search",
+        "world-model",
+        "layered",
+        "ucb1",
+        "graph-augmented",
+        "deterministic"
+      ]
+    },
+    {
+      "id": "f7eb2a86",
+      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "gemini-api",
+        "managed-agents",
+        "background-execution",
+        "mcp",
+        "remote-mcp",
+        "credential-refresh",
+        "agent-infra"
+      ]
+    }
+  ],
+  "skipped": [],
+  "written_content_files": [
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/a301014c.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/807ffa61.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/60bfdd08.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/5680daaf.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/bc6cdd26.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/4b0f5936.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/d2efa029.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/b03c5d45.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/9ef86e16.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/f7eb2a86.md"
+  ],
+  "mode": "external-scan",
+  "cron_id": "ecbbfe53-85f4-4c5e-b63d-21a3f753a438",
+  "date_local": "2026-07-14",
+  "date_utc": "2026-07-13"
+}

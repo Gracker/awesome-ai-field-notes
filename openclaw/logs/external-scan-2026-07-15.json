@@ -1,0 +1,229 @@
+{
+  "initial_count": 1252,
+  "added_count": 10,
+  "skipped_count": 0,
+  "final_count": 1262,
+  "added": [
+    {
+      "id": "2607.11388",
+      "title": "StructAgent: Harness Long-horizon Digital Agents with Unified Causal Structure",
+      "url": "https://arxiv.org/abs/2607.11388",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "harness",
+        "long-horizon",
+        "causal-structure",
+        "state-centered",
+        "verifier",
+        "computer-use",
+        "checkpointing",
+        "osworld"
+      ]
+    },
+    {
+      "id": "2607.11357",
+      "title": "OpsMem: Dual-Memory Reasoning with Cross-Memory Resonance for Failure Diagnosis",
+      "url": "https://arxiv.org/abs/2607.11357",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "failure-diagnosis",
+        "dual-memory",
+        "ops",
+        "sre",
+        "incident-response",
+        "huawei",
+        "microservice",
+        "k8s"
+      ]
+    },
+    {
+      "id": "2607.11346",
+      "title": "Compile, Then Page: Executable SOP Programs and a Capability-Gated Runtime for Procedural LLM Agents",
+      "url": "https://arxiv.org/abs/2607.11346",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "sop",
+        "enterprise-agent",
+        "stack-machine",
+        "program-guided",
+        "safety-critical",
+        "banking",
+        "audit",
+        "scaffolding"
+      ]
+    },
+    {
+      "id": "2607.11197",
+      "title": "What We Talk About When We Talk About LLM Planning: Evidence for Two Distinct Planning Abilities",
+      "url": "https://arxiv.org/abs/2607.11197",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "llm-planning",
+        "latent-competency",
+        "irt",
+        "acpbench",
+        "operational-reasoning",
+        "structural-enumeration",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "2607.11185",
+      "title": "SCALECUA: Scaling Computer Use Agents with Verifiable Task Synthesis and Efficient Online RL",
+      "url": "https://arxiv.org/abs/2607.11185",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "computer-use",
+        "osworld",
+        "rlvr",
+        "verifiable-tasks",
+        "frontier-sampling",
+        "visual-context-segmentation",
+        "open-source"
+      ]
+    },
+    {
+      "id": "2607.11172",
+      "title": "STAMP: Provenance-Guided Credit Assignment for Deep Search Agents",
+      "url": "https://arxiv.org/abs/2607.11172",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "deep-search",
+        "rl",
+        "credit-assignment",
+        "provenance",
+        "browsecomp",
+        "evidence-graph",
+        "grpo"
+      ]
+    },
+    {
+      "id": "2607.11138",
+      "title": "A Formal Hierarchical Architecture for Agentic Orchestration with Stack-Based Execution and Lazy Discovery",
+      "url": "https://arxiv.org/abs/2607.11138",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "orchestration",
+        "agentic",
+        "routing",
+        "stack-machine",
+        "pushdown-automaton",
+        "lazy-loading",
+        "enterprise",
+        "isolation"
+      ]
+    },
+    {
+      "id": "2607.10878",
+      "title": "LOGOS: A Living Logic for AI Agent Teams That Evolve With Humans",
+      "url": "https://arxiv.org/abs/2607.10878",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "self-evolving-agents",
+        "governance",
+        "audit",
+        "human-in-loop",
+        "policy",
+        "verifiable",
+        "release-candidate",
+        "agent-teams"
+      ]
+    },
+    {
+      "id": "2607.11307",
+      "title": "Efficient Test-Time Optimization for Multi-Agent Proof Autoformalization",
+      "url": "https://arxiv.org/abs/2607.11307",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "autoformalization",
+        "test-time-compute",
+        "multi-agent",
+        "theorem-proving",
+        "gepa",
+        "pareto-frontier",
+        "proofflowbench"
+      ]
+    },
+    {
+      "id": "canadian-ai-research",
+      "title": "Anthropic commits $10 million to Canadian AI research",
+      "url": "https://www.anthropic.com/news/canadian-ai-research",
+      "category": "industry",
+      "quality_score": 4,
+      "tags": [
+        "anthropic",
+        "canada",
+        "amii",
+        "mila",
+        "vector-institute",
+        "claude-credits",
+        "economic-index",
+        "policy"
+      ]
+    }
+  ],
+  "skipped": [],
+  "written_content_files": [
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.11388.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.11357.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.11346.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.11197.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.11185.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.11172.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.11138.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.10878.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/2607.11307.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/canadian-ai-research.md"
+  ],
+  "mode": "external-scan",
+  "cron_id": "ecbbfe53-85f4-4c5e-b63d-21a3f753a438",
+  "date_local": "2026-07-15",
+  "date_utc": "2026-07-14",
+  "sources_scanned": [
+    {
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "status": "HTTP 200",
+      "papers_listed": 50,
+      "new_vs_entries": 50,
+      "picked": 9
+    },
+    {
+      "url": "https://www.anthropic.com/news",
+      "status": "HTTP 200 (opencli web read)",
+      "new_pages": 2,
+      "picked": 1,
+      "reason": "canadian-ai-research was the strongest AAIF-aligned recent news item (10M CAD across 8 institutions, AI Economic Index Canada brief); claude-for-teachers was filtered as lower AAIF density (consumer edtech product)"
+    },
+    {
+      "url": "https://www.anthropic.com/research",
+      "status": "HTTP 200",
+      "new_pages": 1,
+      "added": 0,
+      "reason": "how-canada-uses-claude is implicitly covered by the canadian-ai-research news item (Anthropic Economic Index Canada brief is the same data); independent entry would duplicate"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/",
+      "status": "HTTP 200",
+      "new_candidates": 0,
+      "added": 0,
+      "reason": "Visible page surface (sundar-pichai-io-2026, gemini-southeast-asia-report-2026, gemini-study-notebooks, gemini-spark-updates-june-2026, helping-communities-prepare-for-natural-disasters, firesat-satellites, expanding-managed-agents-gemini-api, interactions-api-general-availability, diffusion-gemma-faster-text-generation, etc.) already represented in entries.json (cf. ab9c9a67 diffusion-gemma score-pending placeholder; a89b1dbe interactions-api GA; f7eb2a86 expanding-managed-agents; c66e2703 gemini-spark-updates; etc.). Nothing genuinely new rose to AAIF quality this run."
+    },
+    {
+      "url": "https://hnrss.org/newest",
+      "status": "HTTP 200",
+      "items_reviewed": 20,
+      "added": 0,
+      "reason": "Latest 20 are browsing-fingerprinting, Matildas Australian AI, Demis Hassabis Substack, Lenovo workstation review, PixelSat, daylight saving, Meta-AI layoff lawsuit, NeuralPGN chess trainer, FreeBSD 16, Loop Engineering, Fable 5 iOS website, git-absorb, interstellar sugar detection, American power, static site with Pandoc, ARDY human motion, LLM-as-a-Verifier arxiv (already in entries.json as id 32636c12), NZ datacentre concerns, Japan intelligence agency, Luna-cy, etc. Only AAIF-relevant candidate (LLM-as-a-Verifier arxiv:2607.05391) is already represented in entries.json as id 32636c12."
+    }
+  ],
+  "notes": "This external scan ran at 2026-07-15 ~07:50 Asia/Shanghai (UTC 2026-07-14 23:50). It is the first scan on the 15th and the day after the 2026-07-14 double-scan (07:59 + 08:05 cron runs that added 18 entries). arxiv.org/list/cs.AI/recent returned 50 papers (Tue 14 + Mon 13 + Fri 10 Jul 2026 batch), all 50 were not-yet-present in entries.json by arxiv ID. After AAIF title prefilter (44 kept) and field-by-field AAIF-aligned selection, 9 were picked, all in agents / on the harness / multi-agent / agent-memory / deep-search / computer-use / SOP / AI-scientist / proof-autoformalization threads that recent AAIF runs have been tracking: StructAgent (q5 - state-centered causal structure for long-horizon desktop agents, OSWorld 78.9% SOTA with MiniMax-M3, generalizes to Minecraft), OpsMem (q5 - dual-memory + cross-memory resonance for ops failure diagnosis, +47% Match / +18% Relevant on Huawei microservice dataset), Compile-Then-Page (q5 - compiled SOP pseudo-code + program-guided stack machine for safety-critical enterprise agents, Banking 70.4 -> 92.8 with 100% refusal correctness), LLM-Planning Two Abilities (q5 - IRT-derived two latent planning dimensions separating operational reasoning from structural enumeration), ScaleCUA (q5 - verifiable-task synthesis + Frontier Sampling + Visual Context Segmentation -> open-source computer-use SOTA, OSWorld 68.7% ScienceBoard 54.0%), STAMP (q5 - provenance-guided step credit for deep-search RL, BrowseComp family +2.0/+5.5/+3.0 stable over GRPO), Formal-Hierarchical-Orchestration (q5 - LIFO stack-machine + lazy-discovery hierarchy + per-branch isolation for regulated-enterprise agent deployments, UPI Help as production context), LOGOS (q5 - pluggable self-evolution + governance layer over existing multi-agent frameworks with versioned agent packs and fail-closed audit, expanding on the Fable 5 / governance thread AAIF has been tracking), ToMap (q4 - GEPA-style Pareto-frontier test-time compute concentrated on Decomposer bottleneck for proof autoformalization, ProofFlowBench +19% syntax+semantic at lower cost). One Anthropic news item was picked (canadian-ai-research, q4 / industry) covering 10M CAD commitment across 8 institutions (Amii, Mila, Vector Institute, CHEO, CAMH, Universite Laval, UofT, UofSaskatchewan) plus first Canada Anthropic Economic Index brief, complementing the Fable 5 / Mythos thread and the AI Canada policy thread. No push performed - external-scan mode per skill definition does not push."
+}

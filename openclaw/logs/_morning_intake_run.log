@@ -1,0 +1,59 @@
+[Morning Intake] 2026-06-30
+Scan cutoff: 2026-06-29T08:45:00
+Content dir: /Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content
+
+Files modified in last 24h: 8
+  [FIX-LP] 1a015f5d: content/discovery/openai-broadcom-jalapeno-inference-chip.md → content/1a015f5d.md
+  [FIX-LP] b482b19f: content/discovery/.md → content/b482b19f.md
+  [FIX-LP] 7bd44733: content/discovery/frontier-os-llm.md → content/7bd44733.md
+
+[SAVE] entries.json updated (1442 → 1442, +0)
+
+[VALIDATE] running validate-schema.py
+📊 校验完成: 1442 条目, 0 错误, 67 警告
+
+⚠️  警告 (67):
+  - [#4] 未知 platform: industry
+  - [#6] 未知 platform: industry
+  - [#7] 未知 platform: hackernews
+  - [#8] 未知分类: image-generation/prompts
+  - [#11] 未知分类: benchmarks/mobile
+  - [#14] 未知 platform: personal_blog
+  - [#21] 未知 platform: openai
+  - [#22] 未知 platform: openai
+  - [#27] 未知 platform: personal_blog
+  - [#28] 未知 platform: personal_blog
+  - [#29] 未知 platform: openai
+  - [#734] summary_zh 过短: 13 字符
+  - [#823] 活跃 URL 重复: https://juejin.cn/post/7614897667961143347
+  - [#948] summary_zh 过短: 19 字符
+  - [#951] summary_zh 过短: 13 字符
+  - [#956] summary_zh 过短: 7 字符
+  - [#962] summary_zh 过短: 17 字符
+  - [#982] summary_zh 过短: 17 字符
+  - [#1010] summary_zh 过短: 13 字符
+  - [#1011] summary_zh 过短: 14 字符
+  - ... 还有 47 条
+
+
+[BUILD] npm run build
+
+> build
+> python3 openclaw/scripts/generate-modern-site.py
+
+✅ Modern site generated: 625 display cards, 526 content pages, 7 channels
+
+
+[SUMMARY] saved → /Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/data/intake_summary_2026-06-30.json
+{
+  "date": "2026-06-30",
+  "task": "morning_intake_incremental",
+  "scan_window": "2026-06-29T08:45:00 → 2026-06-30",
+  "content_files_scanned": 8,
+  "new_entries_added": 0,
+  "local_path_fixed": 3,
+  "skipped": 0,
+  "total_entries_before": 1442,
+  "total_entries_after": 1442,
+  "git_push": "skipped (delegated to evening intake)"
+}

@@ -1,6 +1,266 @@
 # Changelog
 # Changelog
 
+
+## 2026-07-06 ~ 2026-07-12
+
+> 上次变更日志: 2026-07-05 04:39 (commit 4d37ec3, 1461 条) → 本次: 1220 条 (**+111**)
+> 基线快照: `current:data/entries.json` (2026-07-12)
+
+### 📈 新增 (111)
+
+**🆕 高质量新增 (⭐≥4, 45 条)**
+- [Measuring Harness-Induced Belief Divergence in Multi-Step LLM Agents](https://arxiv.org/abs/2607.04528) — agents ⭐⭐⭐⭐⭐ (2026-07-08)
+- [From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents](https://arxiv.org/abs/2607.08028) — agents ⭐⭐⭐⭐⭐ (2026-07-11)
+- [Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents](https://arxiv.org/abs/2607.08716) — agents ⭐⭐⭐⭐⭐ (2026-07-11)
+- [What LLM Agents Say When No One Is Watching: Social Structure and Latent Objective Emergence in Multi-Agent Systems](https://arxiv.org/abs/2607.02507) — agents ⭐⭐⭐⭐ (2026-07-06)
+- [A Hippocampus for Linear Attention: An Exact Memory for What the Recurrent State Forgets (HOLA)](https://arxiv.org/abs/2607.02303) — models ⭐⭐⭐⭐ (2026-07-06)
+- [DRIFTLENS: Measuring Memory-Induced Reasoning Drift in Personalized Language Models](https://arxiv.org/abs/2607.02374) — learning ⭐⭐⭐⭐ (2026-07-07)
+- [AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents](https://arxiv.org/abs/2607.02255) — agents ⭐⭐⭐⭐ (2026-07-07)
+- [UA-ChatDev: Uncertainty-Aware Multi-Agent Collaboration for Reliable Software Development](https://arxiv.org/abs/2607.02186) — coding ⭐⭐⭐⭐ (2026-07-07)
+- [Coding-agents can replicate scientific machine learning papers](https://arxiv.org/abs/2607.02134) — coding ⭐⭐⭐⭐ (2026-07-07)
+- [ContextNest: Verifiable Context Governance for Autonomous AI Agent](https://arxiv.org/abs/2607.02116) — agents ⭐⭐⭐⭐ (2026-07-07)
+- [PACE: A Proxy for Agentic Capability Evaluation](https://arxiv.org/abs/2607.02032) — agents ⭐⭐⭐⭐ (2026-07-07)
+- [SkillCoach: Self-Evolving Rubrics for Evaluating and Enhancing Agentic Skill-Use](https://arxiv.org/abs/2607.01874) — agents ⭐⭐⭐⭐ (2026-07-07)
+- [LLM-as-a-Verifier: A General-Purpose Verification Framework](https://arxiv.org/abs/2607.05391) — agents ⭐⭐⭐⭐ (2026-07-08)
+- [MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution](https://arxiv.org/abs/2607.05297) — agents ⭐⭐⭐⭐ (2026-07-08)
+- [EvoAgentBench: Benchmarking Agent Self-Evolution via Ability Transfer](https://arxiv.org/abs/2607.05202) — agents ⭐⭐⭐⭐ (2026-07-08)
+- [AgentGym2: Benchmarking Large Language Model Agents in De-Idealized Real-World Environments](https://arxiv.org/abs/2607.05174) — agents ⭐⭐⭐⭐ (2026-07-08)
+- [DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation](https://arxiv.org/abs/2607.05147) — infra ⭐⭐⭐⭐ (2026-07-08)
+- [Introducing Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5) — models ⭐⭐⭐⭐ (2026-07-08)
+- [Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities](https://www.anthropic.com/news/alberta-government-claude-cybersecurity) — industry ⭐⭐⭐⭐ (2026-07-08)
+- [Weak-to-Strong Generalization via Direct On-Policy Distillation](https://arxiv.org/abs/2607.05394) — learning ⭐⭐⭐⭐ (2026-07-08)
+- [FORGE: Research-Trajectory Hijacking Attacks on Deep Research Agents](https://arxiv.org/abs/2607.04718) — agents ⭐⭐⭐⭐ (2026-07-08)
+- [MRMS: A Multi-Resolution Memory Substrate for Long-Lived AI Agents](https://arxiv.org/abs/2607.04617) — agents ⭐⭐⭐⭐ (2026-07-08)
+- [Compressing the Validation Bottleneck: An Agentic Self-Driving Lab for Scientific Discovery](https://arxiv.org/abs/2607.04508) — agents ⭐⭐⭐⭐ (2026-07-08)
+- [Agent Step Value: State-Transition Measurement with State-Grounded LLM Evaluators](https://arxiv.org/abs/2607.04419) — agents ⭐⭐⭐⭐ (2026-07-08)
+- [Do GUI Agents Believe Their Eyes? Diagnosing State-Belief Reliance on Pixels versus Structure](https://arxiv.org/abs/2607.04334) — agents ⭐⭐⭐⭐ (2026-07-08)
+- [Forethought: Verifiable Reasoning from Neurosymbolic Primitive Programming](https://arxiv.org/abs/2607.04096) — agents ⭐⭐⭐⭐ (2026-07-08)
+- [Harness-Aware Self-Evolving: Co-Evolving Model Weights, Harness, and Task Solutions](https://arxiv.org/abs/2607.03935) — agents ⭐⭐⭐⭐ (2026-07-08)
+- [Beyond the Leaderboard: A Synthesis of Tool-Use, Planning, and Reasoning Failures in Large Language Model Agents](https://arxiv.org/abs/2607.05775) — agents ⭐⭐⭐⭐ (2026-07-09)
+- [StateFuse: Deterministic Conflict-Preserving Memory for Multi-Agent Systems](https://arxiv.org/abs/2607.05844) — agents ⭐⭐⭐⭐ (2026-07-09)
+- [Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents](https://arxiv.org/abs/2607.05690) — agents ⭐⭐⭐⭐ (2026-07-09)
+- [From Passive Retrieval to Active Memory Navigation: Learning to Use Memory as a Structured Action Space](https://arxiv.org/abs/2607.05794) — agents ⭐⭐⭐⭐ (2026-07-09)
+- [Task Decomposition-Guided Reranking for Adaptive Agent Skill Retrieval](https://arxiv.org/abs/2607.06283) — agents ⭐⭐⭐⭐ (2026-07-09)
+- [TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training](https://arxiv.org/abs/2607.05804) — agents ⭐⭐⭐⭐ (2026-07-09)
+- [PolyWorkBench: Benchmarking Multilingual Long-Horizon LLM Agents](https://arxiv.org/abs/2607.06008) — agents ⭐⭐⭐⭐ (2026-07-09)
+- [Danus: Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory](https://arxiv.org/abs/2607.06447) — agents ⭐⭐⭐⭐ (2026-07-09)
+- [FreqDepthKV: Frequency-Guided Depth Sharing for Robust KV Cache Compression in Long-Context LLM Inference](https://arxiv.org/abs/2607.06519) — infra ⭐⭐⭐⭐ (2026-07-09)
+- 1239-xiaogaifun-吴恩达三言两语，就把 Loop Engi — agents ⭐⭐⭐⭐ (2026-07-09)
+- 1239-waterloo_intern-we distilled 2.3M Cl — agents ⭐⭐⭐⭐ (2026-07-09)
+- 1239-AYi_AInotes-前 OpenAI 研究员 Phil Ch — agents ⭐⭐⭐⭐ (2026-07-09)
+- [Compete Then Collaborate: Frontier AI Teachers Build a Verifiable Curriculum to Improve a Coding Student Beyond Imitation](https://arxiv.org/abs/2607.08255) — coding ⭐⭐⭐⭐ (2026-07-11)
+- [CausalDS: Benchmarking Causal Reasoning in Data-Science Agents](https://arxiv.org/abs/2607.08093) — infra ⭐⭐⭐⭐ (2026-07-11)
+- [When LLMs Agree, Are They Right? Auditing Self-Consistency and Cross-Model Agreement as Confidence Signals](https://arxiv.org/abs/2607.08065) — infra ⭐⭐⭐⭐ (2026-07-11)
+- [The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs](https://arxiv.org/abs/2607.08734) — infra ⭐⭐⭐⭐ (2026-07-11)
+- [Agentic Neural Architecture Search](https://arxiv.org/abs/2607.07984) — agents ⭐⭐⭐⭐ (2026-07-11)
+- [Claude Science, an AI workbench for scientists](https://www.anthropic.com/news/claude-science-ai-workbench) — agents ⭐⭐⭐⭐ (2026-07-11)
+
+**📝 普通新增 (⭐<4, 66 条)**
+- [Online Safety Monitoring for LLMs](https://arxiv.org/abs/2607.02510) — industry ⭐⭐⭐ (2026-07-06)
+- [Steerability via constraints: a substrate for scalable oversight of coding agents](https://arxiv.org/abs/2607.02389) — coding ⭐⭐⭐ (2026-07-06)
+- [Context graphs: how AI agents can store and use past decisions](https://nanonets.com/blog/what-is-a-context-graph) — agents ⭐⭐⭐ (2026-07-06)
+- God of GPT — uncategorized ⭐⭐ (2026-07-06)
+- AAIF Content Fetcher Report — uncategorized ⭐⭐ (2026-07-06)
+- [G-RRM: Guiding Symbolic Solvers with Recurrent Reasoning Models](https://arxiv.org/abs/2607.02491) — learning ⭐⭐⭐ (2026-07-07)
+- [Why AI Orchestration Belongs in the Browser](https://www.esri.com/en-us/software-engineering/blog/articles/ai-orchestration-in-the-browser) — agents ⭐⭐⭐ (2026-07-07)
+- [OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement](https://arxiv.org/abs/2607.05346) — coding ⭐⭐⭐ (2026-07-08)
+- [Reason, Reward, Refine: Step-Level Errors Corrections with Structured Feedback for Physics Reasoning in Small Language Models](https://arxiv.org/abs/2607.05199) — learning ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1300-美研芒格君-耗时50小时深度拆解HBM内存为王的背后 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1249-鸭哥-LoopEngineering这个词最近 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1249-铁锤人-Fable实战指南发现你的未知译 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1249-Yael-伟大撤退一文看懂存储周期 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 20260707-1244-小盖-吴恩达三言两语就把LoopEnginee — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1300-DANKOE-Themostprofitableski — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1300-铁锤人-Fable实战指南发现你的未知译 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1249-美研芒格君-耗时50小时深度拆解HBM内存为王的背后 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1249-SagaSu-VibeCoding的尽头是规划先行 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1249-SagaSu-5写好一份Spec的实战手册 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1300-SagaSu-VibeCoding的尽头是规划先行 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1300-鸭哥-LoopEngineering这个词最近 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1300-MateMatt-HermesAgent架构详细拆解一个工 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1300-SagaSu-4当Agent失忆时文档如何成为AI的外 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1249-SagaSu-Specification即协议当文档成 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1300-AYi-刷到前OpenAI研究员PhilChen — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1300-MateMatt-Agent底层状态机编排演进让你搭建出大 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1249-MateMatt-Agent底层状态机编排演进让你搭建出大 — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1249-Yanhua-ClaudeCode的goal和loop — uncategorized ⭐⭐⭐ (2026-07-08)
+- 2026-07-07-1300-SagaSu-3速度的真相数据告诉你文档驱动到底快不快 — uncategorized ⭐⭐⭐ (2026-07-08)
+- Content Fetcher Report — uncategorized ⭐⭐ (2026-07-08)
+- Community Review Report — uncategorized ⭐⭐ (2026-07-08)
+- 4999671E — uncategorized ⭐⭐ (2026-07-08)
+- 0F764E9B — uncategorized ⭐⭐ (2026-07-08)
+- 2902Cfd9 — uncategorized ⭐⭐ (2026-07-08)
+- Fa452D71 — uncategorized ⭐⭐ (2026-07-08)
+- 3B737038 — uncategorized ⭐⭐ (2026-07-08)
+- 600039A9 — uncategorized ⭐⭐ (2026-07-08)
+- 185Edd2D — uncategorized ⭐⭐ (2026-07-08)
+- 9Aed445C — uncategorized ⭐⭐ (2026-07-08)
+- Adbd50C1 — uncategorized ⭐⭐ (2026-07-08)
+- 2A19E833 — uncategorized ⭐⭐ (2026-07-08)
+- Ab2E35Ec — uncategorized ⭐⭐ (2026-07-08)
+- 9404409E — uncategorized ⭐⭐ (2026-07-08)
+- 1A65Afbb — uncategorized ⭐⭐ (2026-07-08)
+- C66E2703 — uncategorized ⭐⭐ (2026-07-08)
+- Ccconn 001 — uncategorized ⭐⭐ (2026-07-08)
+- Cf6Cf997 — uncategorized ⭐⭐ (2026-07-08)
+- Fe40Eb4D — uncategorized ⭐⭐ (2026-07-08)
+- 32636C12 — uncategorized ⭐⭐ (2026-07-08)
+- 7A48D6Db — uncategorized ⭐⭐ (2026-07-08)
+- 447E9Cf2 — uncategorized ⭐⭐ (2026-07-08)
+- 5803A03D — uncategorized ⭐⭐ (2026-07-08)
+- 3645A667 — uncategorized ⭐⭐ (2026-07-08)
+- 2F383058 — uncategorized ⭐⭐ (2026-07-08)
+- 7Afdd3E3 — uncategorized ⭐⭐ (2026-07-08)
+- B208C1C5 — uncategorized ⭐⭐ (2026-07-08)
+- 3A00E12B — uncategorized ⭐⭐ (2026-07-08)
+- 14667F46 — uncategorized ⭐⭐ (2026-07-08)
+- 6E571Df0 — uncategorized ⭐⭐ (2026-07-08)
+- Fffaff0A — uncategorized ⭐⭐ (2026-07-08)
+- 53396B4A — uncategorized ⭐⭐ (2026-07-08)
+- 0E59B0Eb — uncategorized ⭐⭐ (2026-07-08)
+- obsidian_20260709_202156 — uncategorized ⭐⭐⭐ (2026-07-10)
+- obsidian_20260709_202231 — uncategorized ⭐⭐⭐ (2026-07-10)
+- obsidian_20260709_233215 — uncategorized ⭐⭐⭐ (2026-07-10)
+- obsidian_20260709_233156 — uncategorized ⭐⭐⭐ (2026-07-10)
+
+### 📊 分类变更分布
+
+| 分类 | 新增 |
+|------|------|
+| agents | +34 |
+| coding | +5 |
+| industry | +2 |
+| infra | +5 |
+| learning | +4 |
+| models | +2 |
+| uncategorized | +59 |
+
+### 📈 统计
+- 总条目: 1461 → 1220 (+111)
+- 活跃条目: 计算中...
+- 本周最高分新增: What LLM Agents Say When No On... ⭐4
+
+
+## 2026-06-28 ~ 2026-07-05
+
+> 上次变更日志: 2026-06-28 04:39 (commit 6515bb1, 1423 条) → 本次: 1461 条 (**+38**)
+> 基线快照: `6515bb1:data/entries.json` (2026-06-27)
+
+### 📈 新增 (38)
+
+**🆕 高质量新增 (⭐≥4, 26 条)**
+
+- [Introducing GPT-5.3-Codex](https://openai.com/index/introducing-gpt-5-3-codex) — models ⭐⭐⭐⭐⭐ (2026-06-29)
+
+- [Apple Neural Engine: Architecture, Programming, and Performance](https://arxiv.org/abs/2606.22283) — infra ⭐⭐⭐⭐⭐ (2026-06-30)
+
+- [Ornith-1.0: Self-improving open-source models for agentic coding](https://github.com/deepreinforce-ai/Ornith-1) — models ⭐⭐⭐⭐⭐ (2026-06-30)
+
+- [From brain waves to words: a new path to communication without surgery](https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication) — models ⭐⭐⭐⭐⭐ (2026-07-01)
+
+- [Using Opus 4.8 to get a second opinion on an MRI and where it leaves me](https://antoine.fi/mri-analysis-using-claude-code-opus) — agents ⭐⭐⭐⭐ (2026-06-29)
+
+- [Anthropic Economic Index report: Cadences](https://www.anthropic.com/research/economic-index-june-2026-report) — industry ⭐⭐⭐⭐ (2026-06-29)
+
+- [Unrolling the Codex agent loop](https://openai.com/index/unrolling-the-codex-agent-loop) — coding ⭐⭐⭐⭐ (2026-06-29)
+
+- [We have Mythos at Home: GLM 5.2 beats Claude in our Cyber Benchmarks](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks) — industry ⭐⭐⭐⭐ (2026-06-29)
+
+- [Introducing GPT-5.3-Codex-Spark](https://openai.com/index/introducing-gpt-5-3-codex-spark) — models ⭐⭐⭐⭐ (2026-06-29)
+
+- [Micro-Agent: Beat Frontier Models with Collaboration Inside Model API](https://vllm.ai/blog/2026-06-29-micro-agent-frontier-models) — agents ⭐⭐⭐⭐ (2026-06-30)
+
+- [Qwen 3.6 27B is the sweet spot for local development](https://quesma.com/blog/qwen-36-is-awesome) — models ⭐⭐⭐⭐ (2026-06-30)
+
+- [Working With AI: A concrete example](https://htmx.org/essays/working-with-ai) — coding ⭐⭐⭐⭐ (2026-06-30)
+
+- [Mapping Europe's AI Workforce Opportunity](https://openai.com/index/mapping-ai-jobs-transition-eu) — industry ⭐⭐⭐⭐ (2026-06-30)
+
+- [South Korea to spend $1T on more memory chip production and humanoid robots](https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots) — industry ⭐⭐⭐⭐ (2026-06-30)
+
+- [Ask an AI expert: What exactly is the full stack?](https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer) — infra ⭐⭐⭐⭐ (2026-06-30)
+
+- [Ornith-1.0: Self-scaffolding LLMs for agentic coding](https://deep-reinforce.com/ornith_1_0.html) — coding ⭐⭐⭐⭐ (2026-06-30)
+
+- [AI agent bankrupted their operator while trying to scan DN42](https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian) — agents ⭐⭐⭐⭐ (2026-07-01)
+
+- [Introducing GeneBench-Pro](https://openai.com/index/introducing-genebench-pro) — learning ⭐⭐⭐⭐ (2026-07-01)
+
+- [Core dump epidemiology: fixing an 18-year-old bug](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug) — infra ⭐⭐⭐⭐ (2026-07-01)
+
+- [German ruling declares Google liable for false answers in AI Overviews](https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-f) — industry ⭐⭐⭐⭐ (2026-07-01)
+
+- [Anthropic launches AI drug discovery program](https://www.cnbc.com/2026/06/30/anthropic-launches-ai-drug-discovery-program-claude-science) — industry ⭐⭐⭐⭐ (2026-07-01)
+
+- [Hugging Face 发布新型嵌入模型：性能提升50%，支持128K上下文](https://huggingface.co/blog/new-embedding-models-june-2026) — models ⭐⭐⭐⭐ (2026-07-02)
+
+- [LangChain v0.3.0 发布：企业级 AI 应用开发框架重大更新](https://github.com/langchain-ai/langchain/releases) — uncategorized ⭐⭐⭐⭐ (2026-07-02)
+
+- [OpenAI 发布新模型功能：增强的代码生成和多模态处理能力](https://openai.com/blog/new-model-features-june-2026) — models ⭐⭐⭐⭐ (2026-07-02)
+
+- [Distributed Attacks in Persistent-State AI Control](https://arxiv.org/abs/2607.02514) — learning ⭐⭐⭐⭐ (2026-07-04)
+
+- [Kimi K2.7 Code is generally available in GitHub Copilot](https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot) — coding ⭐⭐⭐⭐ (2026-07-04)
+
+
+**📝 普通新增 (⭐<4, 12 条)**
+
+- [ReContext: Recursive Evidence Replay as LLM Harness for Long-Context Reasoning](https://arxiv.org/abs/2607.02509) — models ⭐⭐⭐ (2026-07-04)
+
+- [EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments](https://arxiv.org/abs/2607.02440) — infra ⭐⭐⭐ (2026-07-04)
+
+- Maintain-Report-2026-05-18 — uncategorized ⭐⭐⭐ (2026-07-03)
+
+- Maintain-Report-2026-05-11 — uncategorized ⭐⭐⭐ (2026-07-03)
+
+- [Open source AI must win](https://opensourceaimustwin.com/?share=v2) — industry ⭐⭐⭐ (2026-07-01)
+
+- AI Content — uncategorized ⭐⭐⭐ (2026-07-01)
+
+- [Gemini Spark updates: macOS launch, connected apps and more](https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026) — models ⭐⭐⭐ (2026-07-01)
+
+- [How ChatGPT adoption has expanded](https://openai.com/index/how-chatgpt-adoption-has-expanded) — industry ⭐⭐⭐ (2026-07-01)
+
+- [HP Inc. launches Frontier strategic partnership with OpenAI](https://openai.com/index/hp-frontier-partnership) — industry ⭐⭐⭐ (2026-06-30)
+
+- [.self: A new top-level domain designed to support self-hosting](https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain) — infra ⭐⭐⭐ (2026-06-30)
+
+- [Safety & Security](https://blog.google/innovation-and-ai/technology/safety-security) — learning ⭐⭐⭐ (2026-06-30)
+
+- README — uncategorized ⭐⭐ (2026-06-28)
+
+
+### 📊 分类变更分布
+
+| 分类 | 新增 |
+|------|------|
+
+| models | +9 |
+
+| industry | +9 |
+
+| infra | +5 |
+
+| uncategorized | +5 |
+
+| coding | +4 |
+
+| agents | +3 |
+
+| learning | +3 |
+
+
+### 📊 统计
+
+- 总条目: 1423 → 1461 (**+38**)
+
+- 活跃条目: 1199 → 1199
+
+- 本周最高分新增: [From brain waves to words: a new path to communication without surgery](https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication) ⭐⭐⭐⭐⭐
+
+
+
 ## 2026-06-21 ~ 2026-06-28
 
 > 上次变更日志: 2026-06-21 04:35 (commit aced01a, 895 条) → 本次: 1423 条 (**+528**)

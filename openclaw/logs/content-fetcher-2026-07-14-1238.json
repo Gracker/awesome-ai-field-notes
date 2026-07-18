@@ -1,0 +1,25 @@
+{
+  "mode": "content-fetcher",
+  "run_time_utc": "2026-07-14T12:38:00Z",
+  "candidates_total": 0,
+  "tier1_rule": "active AND quality_score>=4 AND (content/{id}.md missing OR local_path/content_file missing)",
+  "written": [],
+  "skipped": [],
+  "site_rc": 0,
+  "site_output": {
+    "display_cards": 709,
+    "content_pages": 631,
+    "channels": 7
+  },
+  "pushed": false,
+  "push_skip_reason": "cron rule + skill content-fetcher mode: 'Do not git push'",
+  "validation": {
+    "entries_json_is_dict": true,
+    "len_entries_eq_total": true,
+    "entry_count_delta_vs_head": "+7 (1235 -> 1242, pre-existing external additions; not caused by this cron)",
+    "site_generation_succeeded": true,
+    "content_writes_by_this_run": 0,
+    "push": "NONE"
+  },
+  "notes": "Tier-1 candidate set is empty. All 246 active q>=4 entries already have content/{id}.md (smallest = 2162 bytes). 68 q=3 active entries still lack content but fall outside the strict q>=4 tier-1 rule. 7 untracked content files in content/ (2147c7b6, 550d09af, 9aa16c61, af6612f0, cb2274b5, eefef4a5, ef25d9f2) are leftover from a prior external/intake run and are NOT touched by content-fetcher."
+}

@@ -1,12 +1,18 @@
 # AGENTS.md — Drop-in senior engineer behavior spec for coding agents
 
-- **来源**：GitHub
-- **原文链接**：https://github.com/TheRealSeanDonahoe/agents-md
-- **作者**：TheRealSeanDonahoe
-- **原始日期**：—
-- **抓取时间**：2026-06-15
-- **质量评分**：4
-- **抓取方式**：opencli web read
+- **ID**: agentsm_001
+- **原文链接**: https://github.com/TheRealSeanDonahoe/agents-md
+- **作者**: TheRealSeanDonahoe / FerroxLabs（已迁移）
+- **平台**: GitHub
+- **分类**: coding-agents/best-practices
+- **标签**: coding-agent, claude-code, cursor, gemini-cli, best-practices, prompt-engineering, agents-md
+- **质量评分**: 4/5
+- **抓取时间**: 2026-07-02T12:24:35
+- **抓取方式**: opencli web read
+
+---
+
+## 用一行文件让所有编程 Agent 停止「过度热情」和「阿谀奉承」，强制进入工程验证循环
 
 ---
 
@@ -155,61 +161,26 @@ MIT. Fork it, rewrite it, ship it with your own name on it. That's the point.
 
 If it saved you an hour, a ⭐ on the repo is how you say thanks.
 
-## 中文摘要
-
-AGENTS.md 是一个约 200 行的可放置于项目根目录的行为规范文件，让 Claude Code、Codex、Cursor、Gemini CLI 等编程 Agent 自动按高级工程师方式工作。核心改变：Agent 在用户犯错时主动反驳、只做最小必要修改、不擅自重构无关代码、先写验证再报告完成、遇到歧义主动询问。综合了 Karpathy 的四大 LLM 编程失败原则和 Boris Cherny 的 Claude Code 工作流，仅两个区域需要手动编辑（项目上下文 + 经验积累）。是 Linux Foundation Agentic AI Foundation 维护的跨工具开放标准。
-
-## 中文翻译
-
-**一个文件，让所有编程 Agent 立刻表现得像高级工程师。**
-
-把它放进任意代码仓库根目录。Claude Code、Codex、Cursor、Gemini CLI、Aider、Windsurf、Copilot、Devin 都会自动读取它。无需插件、无需配置、无需仪式。
-
-### 安装方式
-
-**简单方法——交给你的 Agent 即可**：在 Claude Code、Codex、Cursor 或任何编程 Agent 中粘贴以下指令：
-
-1. 抓取 https://raw.githubusercontent.com/FerroxLabs/agents-md/main/AGENTS.md 并保存为项目根的 ./AGENTS.md。如果已存在 AGENTS.md，先停下展示差异再覆盖。
-2. 把 CLAUDE.md 和 GEMINI.md 软链到 AGENTS.md，让 Claude Code 与 Gemini CLI 读取同一文件（macOS/Linux 用 ln -s，Windows PowerShell 用 New-Item -ItemType SymbolicLink）。如果软链失败则改用复制。如果 CLAUDE.md/GEMINI.md 已存在，不要覆盖，而是在首行加 @AGENTS.md 引入即可。
-3. 打开新的 AGENTS.md，找到第 10 节（Project context），只填你能从代码库中验证到的内容：技术栈、从 package.json / pyproject.toml / Cargo.toml / Makefile 读到的构建/测试/lint 命令、源码与测试目录布局。无法确认的留 TODO。
-4. 不要动第 11 节——按设计它保持空白。
-5. 完成后提示用户重启会话以加载文件。
-
-**手动方式**：执行 curl -o AGENTS.md https://raw.githubusercontent.com/FerroxLabs/agents-md/main/AGENTS.md。Codex、Cursor、Aider、Windsurf、Copilot、Devin、Amp、opencode、RooCode 都会自动读取 AGENTS.md，无需其他操作。Claude Code 找 CLAUDE.md，Gemini CLI 找 GEMINI.md，所以把这三个文件名软链到同一份 AGENTS.md 即可。
-
-### 立刻带来的改变
-
-之前：用户说"您说得对！" 然后回滚正常工作的代码 / 用 200 行写 50 行能搞定的事 / 改一个 typo 时顺手重排整个文件 / 代码跑不起来却宣称完成 / 在两种解读间默默猜测 / 规则文件太长导致一半被忽略。
-
-之后：Agent 会在你错的时候主动反驳 / 解决问题所需的最简 diff / 每一行变更都对应你的请求 / 先写验证 → 跑通 → 再回报 / 主动暴露歧义，只问一次 / 设计紧凑约 200 行，规则始终在上下文内。
-
-### 只需要编辑两个章节
-
-- 第 10 节 Project context：技术栈、命令、目录结构、禁区。把 TODO 一次性填好，五分钟。
-- 第 11 节 Project Learnings：从空白开始。每次 Agent 出错时，Agent 自己加一行——你不必亲自维护。这是会复利的章节。Boris Cherny（Claude Code 作者）团队版本累积了约 100 条 learnings，多月沉淀后文件本身成了训练过的反射。
-
-第 0–9 节是行为脚手架，除非有明确理由否则不要动。
-
-### 何时拆分到多个文件
-
-大型代码库偶尔需要拆分，但绝大多数项目不需要。Claude Code 用 @path/to/file.md 引入或 .claude/rules/*.md 配合 paths: frontmatter（只在匹配文件被触碰时加载）。Cursor 用 .cursor/rules/*.mdc。其他 Agent 一份 AGENTS.md 仍然够用。
-
-### 为什么叫 AGENTS.md 而不是 CLAUDE.md
-
-AGENTS.md 是 Linux Foundation 下 Agentic AI Foundation 维护的开放跨工具标准。Codex、Cursor、Windsurf、Copilot、Aider、Devin、Amp、opencode、RooCode 都原生读取。Claude Code 读 CLAUDE.md，Gemini CLI 读 GEMINI.md。三个文件名软链到同一份 AGENTS.md——单一信息源，告别维护三份文件。
-
-### 设计依据
-
-- Sean Donahoe 的 IJFW 原则（it just f*cking works）：一次安装、零仪式、能跑起来
-- Andrej Karpathy 关于 LLM 编程失败的四条原则
-- Boris Cherny 公开的 Claude Code 工作流——反应式精简、保持紧凑
-- Anthropic 官方的 Claude Code 最佳实践
-- AGENTS.md 开放标准
-
-### 许可证
-
-MIT。Fork、改写、以你的名义发布——这正是它的意义所在。
-
 ---
 
-*本文件由 AAIF Content Fetcher 自动抓取并双语整理。原文版权归原作者所有。*
+## 中文摘要
+
+`AGENTS.md` 是一份约 200 行的"高级工程师行为规范"文件，放到项目根目录即可让 Claude Code、Codex、Cursor、Gemini CLI、Aider、Windsurf、Copilot、Devin 等所有主流编程 Agent 自动以资深工程师方式工作，无需插件或额外配置。该项目原本位于 TheRealSeanDonahoe/agents-md，现已迁移到 FerroxLabs/agents-md。
+
+**核心行为改变**（前后对比）：
+- 之前是 "You're absolutely right!" → 改坏正在工作的代码；之后 Agent 会在用户犯错时主动反驳。
+- 之前一个修复动辄 200 行；之后追求能解决问题的最小 diff。
+- 之前改一个 typo 会顺手格式化整个文件；之后每一处改动都对应到用户请求。
+- 之前声称"完成"但代码跑不通；之后先写验证、再运行、再报告。
+- 之前两个含义间默默猜测；之后主动暴露歧义、只问一次。
+- 之前规则太多加载不到一半；之后紧贴 200 行设计，规则全量生效。
+
+**两段需要手动编辑，其余不要动**：
+- **Section 10 — 项目上下文**：栈、命令、目录布局、禁区。把 TODO 填一次，五分钟搞定。
+- **Section 11 — 项目经验积累**：初始为空。每次 Agent 犯错了加一行；Agent 自己加，你不需要手动维护。这一段是复利所在 —— Boris Cherny（Claude Code 作者）的团队版本运行数月后积累了约 100 条经验。
+
+**与 CLAUDE.md 的关系**：`AGENTS.md` 是 Linux Foundation Agentic AI Foundation 维护的开放跨工具标准。Claude Code 读 `CLAUDE.md`、Gemini CLI 读 `GEMINI.md`，因此需要软链接或复制 `AGENTS.md` 到这两个文件，一个源头全 Agent 共享。
+
+**理论基础**：融合 Karpathy 的 LLM 编程四大失败原则、Boris Cherny 公开的 Claude Code 工作流（响应式修剪、保持紧凑）、Anthropic 官方 Claude Code 最佳实践。
+
+**License**：MIT。可以 fork、改写、署自己的名字发布 —— 这正是这个项目的目的。

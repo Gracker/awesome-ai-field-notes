@@ -1,0 +1,35 @@
+{
+  "cron_id": "f4112fde-0146-44c9-b19f-5693feeb1725",
+  "cron_name": "AAIF Daily Intake (Morning)",
+  "schedule": "0 8 * * * Asia/Shanghai",
+  "model": "minimax/MiniMax-M3",
+  "date": "2026-07-16",
+  "mode": "daily-intake-morning",
+  "scan_window": "2026-07-15T00:02:00+00:00 → 2026-07-16T08:02:00+08:00",
+  "content_files_scanned": 0,
+  "new_entries_added": 0,
+  "local_path_fixed": 0,
+  "skipped": 0,
+  "total_entries_before": 1392,
+  "total_entries_after": 1392,
+  "added": [],
+  "fixed": [],
+  "intake_dir_files": 0,
+  "git_push": false,
+  "push_reason": "daily-intake-morning mode per skill: do not push",
+  "validation": "passed",
+  "validation_checks": {
+    "entries_is_dict": true,
+    "total_entries_matches_len": true,
+    "no_count_decrease": true,
+    "site_generation_ok": true,
+    "validate_schema_ok": true
+  },
+  "site_stats": {
+    "display_cards": 729,
+    "content_pages": 651,
+    "channels": 7
+  },
+  "notes": "Morning intake for 2026-07-16. No new content since 2026-07-15 08:40 last commit (last commit already processed the 10 external-scan entries from 2026-07-15 morning). intake/ empty. All 29 content files modified in last 24h are already in entries.json with matching local_paths. Site rebuilt (no-op). No git push.",
+  "completed_at": "2026-07-16T08:05:44.738994"
+}

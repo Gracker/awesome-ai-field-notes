@@ -1,0 +1,36 @@
+{
+  "cron_id": "ecbbfe53-85f4-4c5e-b63d-21a3f753a438",
+  "cron_name": "AAIF 主动发现（外部源扫描）",
+  "schedule": "50 7 * * * Asia/Shanghai",
+  "model": "minimax/MiniMax-M3",
+  "date": "2026-07-05",
+  "mode": "external-scan",
+  "external_sources": [
+    "https://www.anthropic.com/research",
+    "https://openai.com/blog",
+    "https://blog.google/technology/ai/",
+    "https://baoyu.io",
+    "https://news.ycombinator.com/"
+  ],
+  "sources_status": [
+    "blocked",
+    "blocked",
+    "blocked",
+    "blocked",
+    "blocked"
+  ],
+  "candidates_found": 0,
+  "candidates_added": 0,
+  "existing_entries": 1469,
+  "new_entries": 0,
+  "site_generated": true,
+  "site_stats": {
+    "display_cards": 650,
+    "content_pages": 554,
+    "channels": 7
+  },
+  "push": false,
+  "validation": "passed",
+  "notes": "All configured external sources are blocked from sandbox - no external candidates discovered",
+  "completed_at": "2026-07-05T08:33:19.879309"
+}

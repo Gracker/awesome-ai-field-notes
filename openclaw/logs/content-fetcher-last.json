@@ -1,0 +1,51 @@
+{
+  "mode": "content-fetcher",
+  "run_time": "2026-07-02 12:27:55 UTC",
+  "candidates_total": 4,
+  "written": [
+    {
+      "id": "ccconn_001",
+      "url": "https://github.com/chenhg5/cc-connect",
+      "fetch_method": "opencli web read",
+      "fetch_size": 40007,
+      "content_size": 5668,
+      "language": "en",
+      "bilingual": true
+    },
+    {
+      "id": "agentsm_001",
+      "url": "https://github.com/TheRealSeanDonahoe/agents-md",
+      "fetch_method": "opencli web read (redirected to FerroxLabs/agents-md)",
+      "fetch_size": 6587,
+      "content_size": 8842,
+      "language": "en",
+      "bilingual": true,
+      "note": "repo redirected from TheRealSeanDonahoe to FerroxLabs (current canonical location)"
+    },
+    {
+      "id": "androi_001",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg2MjE0MTE2MQ==",
+      "fetch_method": "opencli weixin download",
+      "fetch_status": "captcha-blocked",
+      "content_size": 2212,
+      "language": "zh",
+      "bilingual": true,
+      "note": "WeChat captcha-blocked; used existing entry summary_zh as content body, with fetch-failure footer"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "c721de9e",
+      "url": "https://openai.com/blog/new-model-features-june-2026",
+      "reason": "openai.com/blog 404 / Cloudflare blocked (matches prior fetcher log)"
+    }
+  ],
+  "site_rc": 0,
+  "site_output": {
+    "display_cards": 639,
+    "content_pages": 549,
+    "channels": 7
+  },
+  "pushed": false,
+  "timestamp": "2026-07-02T12:27:55.6NZ"
+}

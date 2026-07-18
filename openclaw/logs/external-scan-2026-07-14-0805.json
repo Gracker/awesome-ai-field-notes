@@ -1,0 +1,180 @@
+{
+  "initial_count": 1227,
+  "added_count": 8,
+  "skipped_count": 0,
+  "final_count": 1235,
+  "added": [
+    {
+      "id": "8d75ea8a",
+      "title": "CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions",
+      "url": "https://arxiv.org/abs/2607.08774",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "harness",
+        "inference-time-control",
+        "reliability",
+        "scaffolding",
+        "context-drift",
+        "llm-systems"
+      ]
+    },
+    {
+      "id": "1cd72bda",
+      "title": "ARCANA: A Reflective Multi-Agent Program Synthesis Framework for ARC-AGI-2 Reasoning",
+      "url": "https://arxiv.org/abs/2607.09059",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "multi-agent",
+        "arc-agi",
+        "program-synthesis",
+        "reflection",
+        "symbolic-execution",
+        "meta-controller"
+      ]
+    },
+    {
+      "id": "cd930412",
+      "title": "KV-PRM: Efficient Process Reward Modeling via KV-Cache Transfer for Multi-Agent Test-Time Scaling",
+      "url": "https://arxiv.org/abs/2607.09153",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "process-reward-model",
+        "kv-cache",
+        "test-time-scaling",
+        "multi-agent",
+        "mcts",
+        "inference-efficiency"
+      ]
+    },
+    {
+      "id": "e2f300c1",
+      "title": "OpenProver: Agentic and Interactive Theorem Proving with Lean 4",
+      "url": "https://arxiv.org/abs/2607.09217",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "theorem-proving",
+        "lean-4",
+        "planner-worker-verifier",
+        "human-ai-synergy",
+        "whiteboard",
+        "open-source"
+      ]
+    },
+    {
+      "id": "81794db8",
+      "title": "Practical Source Code Recovery from Binary Functions Using Anchor-Based Retrieval and LLM Reasoning",
+      "url": "https://arxiv.org/abs/2607.09452",
+      "category": "coding",
+      "quality_score": 4,
+      "tags": [
+        "binary-analysis",
+        "source-code-recovery",
+        "reverse-engineering",
+        "rag",
+        "llm-reranking",
+        "ghidra"
+      ]
+    },
+    {
+      "id": "79e729a7",
+      "title": "TrustX Agent Risk Classification Framework (ARC): Risk-Tiering Internally Created Agentic AI Systems",
+      "url": "https://arxiv.org/abs/2607.09586",
+      "category": "industry",
+      "quality_score": 4,
+      "tags": [
+        "ai-governance",
+        "agent-risk",
+        "risk-tiering",
+        "scoring-rubric",
+        "autonomy-levels",
+        "coding-assistant"
+      ]
+    },
+    {
+      "id": "326500c7",
+      "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
+      "url": "https://arxiv.org/abs/2607.09653",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "iot-security",
+        "vulnerability-exploitation",
+        "llm-agents",
+        "penetration-testing",
+        "multi-agent",
+        "offensive-security"
+      ]
+    },
+    {
+      "id": "057c92fe",
+      "title": "Beyond Fixed Representations: The Vocabulary and Verifier Gaps in Open-Ended AI",
+      "url": "https://arxiv.org/abs/2607.09560",
+      "category": "learning",
+      "quality_score": 4,
+      "tags": [
+        "open-ended-ai",
+        "vocabulary-gap",
+        "verifier-gap",
+        "cognitive-discrepancy-reduction",
+        "representational-primitives",
+        "innovation-autonomy"
+      ]
+    }
+  ],
+  "skipped": [],
+  "written_content_files": [
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/8d75ea8a.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/1cd72bda.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/cd930412.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/e2f300c1.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/81794db8.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/79e729a7.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/326500c7.md",
+    "/Users/gracker/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian/awesome-ai-field-notes/content/057c92fe.md"
+  ],
+  "mode": "external-scan",
+  "cron_id": "ecbbfe53-85f4-4c5e-b63d-21a3f753a438",
+  "date_local": "2026-07-14",
+  "date_utc": "2026-07-13",
+  "sources_scanned": [
+    {
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "status": "HTTP 200",
+      "papers_listed": 51,
+      "new_vs_entries": 43,
+      "picked": 8
+    },
+    {
+      "url": "https://www.anthropic.com/news",
+      "status": "HTTP 200",
+      "new_pages": 7,
+      "added": 0,
+      "reason": "Fable 5 / governance continuations — see 07-11 report notes for filtering rationale; low-AAIF-value product / announcement items"
+    },
+    {
+      "url": "https://www.anthropic.com/research",
+      "status": "HTTP 200",
+      "new_pages": 0,
+      "added": 0
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/",
+      "status": "HTTP 200",
+      "new_candidates": 0,
+      "added": 0,
+      "reason": "Current page surface already represented in entries.json (interactions-api, expanding-managed-agents, diffusion-gemma, gemini-spark, etc.)"
+    },
+    {
+      "url": "https://hnrss.org/newest",
+      "status": "HTTP 200",
+      "items_reviewed": 20,
+      "added": 0,
+      "reason": "Latest 20 are low-signal product launches, blog posts, and narrow-domain items; nothing rises to AAIF field-note level this run"
+    }
+  ],
+  "notes": "This external scan ran at 2026-07-14 08:05 Asia/Shanghai. The earlier 07:59 same-day external-scan run (also cron ecbbfe53-85f4-4c5e-b63d-21a3f753a438) had already added 9 arxiv + 1 blog.google entries, so the arxiv candidates that batch was left with were reviewed independently for AAIF alignment. 8 new arxiv papers added: CogniConsole (score 5 — directly advances the harness/reliability thread, complements 2a19e833 Harness-Induced Belief Divergence), ARCANA (score 4 — multi-agent ARC-AGI-2 framework), KV-PRM (score 4 — KV-cache reuse for PRM in multi-agent TTS), OpenProver (score 4 — Planner-Worker-Verifier for Lean 4 theorem proving), Practical Source Code Recovery (score 4 — anchor retrieval + LLM reranking for binary→source, 95.2% tcpdump coverage), TrustX ARC (score 4 — 12-dim risk-tiering framework for agentic AI), VEXAIoT (score 4 — LLM-agent IoT pentest framework, 95% success on OWASP IoT), Beyond Fixed Representations (score 4 — vocabulary/verifier gaps framework for open-ended AI)."
+}

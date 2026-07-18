@@ -1,0 +1,133 @@
+{
+  "initial_count": 1154,
+  "added_count": 9,
+  "skipped_count": 0,
+  "final_count": 1163,
+  "added": [
+    {
+      "id": "185edd2d",
+      "title": "MRMS: A Multi-Resolution Memory Substrate for Long-Lived AI Agents",
+      "url": "https://arxiv.org/abs/2607.04617",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "agent-memory",
+        "long-lived-agent",
+        "rag",
+        "memory-architecture",
+        "personalization"
+      ]
+    },
+    {
+      "id": "1a65afbb",
+      "title": "Harness-Aware Self-Evolving: Co-Evolving Model Weights, Harness, and Task Solutions",
+      "url": "https://arxiv.org/abs/2607.03935",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "harness-engineering",
+        "self-evolving",
+        "agentic-rl",
+        "qwen3",
+        "claude-code"
+      ]
+    },
+    {
+      "id": "2a19e833",
+      "title": "Measuring Harness-Induced Belief Divergence in Multi-Step LLM Agents",
+      "url": "https://arxiv.org/abs/2607.04528",
+      "category": "agents",
+      "quality_score": 5,
+      "tags": [
+        "agent-evaluation",
+        "harness-engineering",
+        "belief-divergence",
+        "agent-benchmark",
+        "agentic-eval"
+      ]
+    },
+    {
+      "id": "3a00e12b",
+      "title": "Forethought: Verifiable Reasoning from Neurosymbolic Primitive Programming",
+      "url": "https://arxiv.org/abs/2607.04096",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "neurosymbolic",
+        "verifiable-reasoning",
+        "agent-workflow",
+        "tool-use",
+        "reasoning-program"
+      ]
+    },
+    {
+      "id": "600039a9",
+      "title": "Do GUI Agents Believe Their Eyes? Diagnosing State-Belief Reliance on Pixels versus Structure",
+      "url": "https://arxiv.org/abs/2607.04334",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "gui-agent",
+        "multimodal",
+        "visual-state-reliance",
+        "agent-evaluation",
+        "pixels-vs-structure"
+      ]
+    },
+    {
+      "id": "9404409e",
+      "title": "Agent Step Value: State-Transition Measurement with State-Grounded LLM Evaluators",
+      "url": "https://arxiv.org/abs/2607.04419",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "agent-evaluation",
+        "step-value",
+        "state-grounded-evaluator",
+        "belief-pivot",
+        "agent-debugging"
+      ]
+    },
+    {
+      "id": "9aed445c",
+      "title": "Compressing the Validation Bottleneck: An Agentic Self-Driving Lab for Scientific Discovery",
+      "url": "https://arxiv.org/abs/2607.04508",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "ai-for-science",
+        "self-driving-lab",
+        "agentic-rl",
+        "design-of-experiments",
+        "surrogate-modeling"
+      ]
+    },
+    {
+      "id": "ab2e35ec",
+      "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2607.05394",
+      "category": "learning",
+      "quality_score": 4,
+      "tags": [
+        "rlvr",
+        "distillation",
+        "weak-to-strong",
+        "post-training"
+      ]
+    },
+    {
+      "id": "fa452d71",
+      "title": "FORGE: Research-Trajectory Hijacking Attacks on Deep Research Agents",
+      "url": "https://arxiv.org/abs/2607.04718",
+      "category": "agents",
+      "quality_score": 4,
+      "tags": [
+        "deep-research-agent",
+        "prompt-injection",
+        "rag",
+        "agent-security",
+        "forensic-eval"
+      ]
+    }
+  ]
+}
