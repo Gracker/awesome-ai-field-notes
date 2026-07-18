@@ -39166,8 +39166,199 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "ac_agview01",
+      "title": "Anthropic 发布 Claude Code Agent View：多会话集中管理",
+      "url": "https://t.me/synctoai/2108",
+      "source": {
+        "platform": "news",
+        "author": "Levix 空间站",
+        "original_date": "2026-05-12"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "agent",
+        "developer-tools",
+        "anthropic",
+        "multi-agent"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Anthropic 发布 Claude Code 的 agent view 功能，将多个 Claude Code 会话集中到一个界面管理此前开发者同时运行多个智能体时需要在终端标签tmux 网格间频繁切换新功能简化了多智能体工作流的监控和协调",
+      "summary_en": null,
+      "one_liner": "Claude Code agent view 终结了多智能体终端切换的痛苦，一站式管理多会话",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Personal-Knowlodge/source/rss-tech/2026-05-13_RSS_02e8b3660d.md",
+      "images": [],
+      "added_date": "2026-05-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "prism_dllm01",
+      "title": "ICML 2026｜PRISM框架让dLLM也能高效Test-Time Scaling",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw%3D%3D&mid=2651032226&idx=2&sn=772b44d2bf16aac0a694b87df0a929e2",
+      "source": {
+        "platform": "wechat",
+        "author": "机器之心",
+        "original_date": "2026-05-11"
+      },
+      "category": "models",
+      "tags": [
+        "dllm",
+        "test-time-scaling",
+        "icml",
+        "inference",
+        "prism"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "ICML 2026 论文提出 PRISM 框架，解决离散大语言模型（dLLM）的 Test-Time Scaling 效率问题传统方法依赖暴力扩展计算量，PRISM 通过更高效的策略实现同等或更优性能，拒绝大力出奇迹路线原文需微信公众号阅读全文",
+      "summary_en": null,
+      "one_liner": "ICML 2026 论文：PRISM 让 dLLM 的 Test-Time Scaling 不再靠堆算力",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Personal-Knowlodge/source/rss-tech/2026-05-12_RSS_9dcc58a1fa.md",
+      "images": [],
+      "added_date": "2026-05-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "tx_know01",
+      "title": "Harness不是目的，知识才是护城河AI工程交付团队的知识沉淀实践",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA%3D%3D&mid=2649801507&idx=1&sn=c4ac5ce38024ade94b8bfa1fdc0062ad",
+      "source": {
+        "platform": "wechat",
+        "author": "腾讯技术工程",
+        "original_date": "2026-05-11"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "knowledge-management",
+        "ai-engineering",
+        "best-practices"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "腾讯技术工程分享 AI 工程交付团队的知识沉淀实践核心观点：Harness（工具链/框架）不是最终目的，真正的护城河在于团队积累的领域知识和工程经验强调在 AI 项目交付过程中系统性地沉淀知识，而非仅关注工具层面原文需微信公众号阅读全文",
+      "summary_en": null,
+      "one_liner": "腾讯实践：AI 工程的护城河不是工具链，而是沉淀下来的领域知识",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Personal-Knowlodge/source/rss-tech/2026-05-12_RSS_a31818c965.md",
+      "images": [],
+      "added_date": "2026-05-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ldb_v2201",
+      "title": "LanceDB Lance Format v2.2: Half the Storage, None of the Slowdown",
+      "url": "https://www.lancedb.com/blog/lance-format-v2-2-benchmarks-half-the-storage-none-of-the-slowdown",
+      "source": {
+        "platform": "blog",
+        "author": "LanceDB",
+        "original_date": "2026-05-12"
+      },
+      "category": "infra",
+      "tags": [
+        "lancedb",
+        "vector-database",
+        "storage",
+        "benchmark",
+        "data-format"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "LanceDB 发布 Lance 格式 v2.2 版本基准测试结果：存储空间减半，性能无损失该格式是 LanceDB 向量数据库的底层数据格式，v2.2 在保持查询速度的同时显著降低存储成本，对大规模向量检索场景有实际意义",
+      "summary_en": "LanceDB releases Lance format v2.2 benchmarks: half the storage with no performance degradation. The underlying data format for LanceDB vector database significantly reduces storage costs while maintaining query speed for large-scale vector retrieval.",
+      "one_liner": "LanceDB v2.2 存储减半速度不减，向量数据库的性价比新标杆",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Personal-Knowlodge/source/rss-tech/2026-05-13_RSS_452c2b32c8.md",
+      "images": [],
+      "added_date": "2026-05-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "html_md01",
+      "title": "Anthropic工程师：HTML比Markdown更适合AI Agent输出",
+      "url": "https://www.techmeme.com/260511/p31",
+      "source": {
+        "platform": "news",
+        "author": "Techmeme / @trq212",
+        "original_date": "2026-05-11"
+      },
+      "category": "agents",
+      "tags": [
+        "html",
+        "markdown",
+        "agent-output",
+        "anthropic",
+        "developer-tools"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 工程师 @trq212 认为 HTML 比 Markdown 更适合作为 AI Agent 的输出格式理由： 信息密度更高； 更易于分享和展示； 支持双向交互这一观点在开发者社区引发讨论，Simon Willison 也撰文分析了 Claude Code 直接生成 HTML 的实践",
+      "summary_en": "Anthropic engineer argues HTML is a better output format for AI agents than Markdown, citing higher information density, easier sharing, and two-way interaction support. Simon Willison also wrote about Claude Code generating HTML directly.",
+      "one_liner": "AI Agent 输出格式之争：Anthropic 工程师力挺 HTML 替代 Markdown",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "Personal-Knowlodge/source/rss-tech/2026-05-12_RSS_a5cea740bf.md",
+      "images": [],
+      "added_date": "2026-05-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "gg_gemin01",
+      "title": "Google 发布 Gemini Intelligence：AI 深度整合 Android 生态",
+      "url": "https://www.techmeme.com/260512/p34",
+      "source": {
+        "platform": "news",
+        "author": "Techmeme / Allison Johnson / The Verge",
+        "original_date": "2026-05-12"
+      },
+      "category": "industry",
+      "tags": [
+        "google",
+        "gemini",
+        "android",
+        "ai-product",
+        "vibe-coding"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "Google 发布 Gemini Intelligence，将现有和新增 Gemini 功能打包整合，包括跨应用任务自动化和 vibe-code Android 小组件功能这意味着用户可以通过自然语言描述直接生成 Android 小组件，大幅降低开发门槛标志着 Google 在移动端 AI 生态布局的重要一步",
+      "summary_en": "Google unveils Gemini Intelligence, bundling Gemini features including cross-app task automation and vibe-coding Android widgets. Users can generate widgets via natural language descriptions, marking a significant step in Google's mobile AI ecosystem.",
+      "one_liner": "Google Gemini Intelligence：自然语言就能 vibe-code 出 Android 小组件",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "Personal-Knowlodge/source/rss-tech/2026-05-13_RSS_f849b9eb95.md",
+      "images": [],
+      "added_date": "2026-05-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-06-28",
-  "total_entries": 1424
+  "last_updated": "2026-07-06",
+  "total_entries": 1430
 }
