@@ -39357,8 +39357,361 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "f9eaca4e",
+      "title": "Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents",
+      "url": "https://arxiv.org/abs/2607.15143",
+      "source": {
+        "platform": "arxiv",
+        "author": "Aadesh Bagmar, Pushkar Saraf",
+        "original_date": "2026-07-16"
+      },
+      "category": "agents",
+      "tags": [
+        "coding-agent",
+        "security",
+        "supply-chain",
+        "harness",
+        "setup"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文把 AI coding agent 的项目初始化流程当成攻击面：READMErequirementsMakefile 里的安装指令可以把 agent 引向不可信 registry已知漏洞版本或相似包名实验覆盖 12 个场景和 5 类攻击，结论是安装期安全取决于 harness-model 组合；明显 typosquat 较容易拦住，分隔符混淆registry 重定向和来源混淆更容易漏，确定性 pre-install check 比单纯 prompt 更可靠",
+      "summary_en": "The paper evaluates package-install-time supply-chain attacks delivered through ordinary setup documentation across production coding-agent harnesses, showing that deterministic pre-install checks for names, sources and versions close much of the gap.",
+      "one_liner": "Coding agent 的 setup 阶段已经是供应链攻击面，安装前门禁应成为 harness 默认能力",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/论文流水线/2026-07-20-论文流水线.md",
+      "images": [],
+      "added_date": "2026-07-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "edd6f07a",
+      "title": "Proof-or-Stop: Don't Trust the Agent, Trust the Evidence -- Loop Engineering for Verifiable Evidence-Gated Lifecycle Control",
+      "url": "https://arxiv.org/abs/2607.14890",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jek Huang, Jeffery Hsia, Jiayi Sun, Freddie Shi, Wei Huang, Ian H. White",
+        "original_date": "2026-07-16"
+      },
+      "category": "agents",
+      "tags": [
+        "agent",
+        "evidence",
+        "lifecycle",
+        "evaluation",
+        "cron"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文讨论 coding agent 的生命周期控制：reviewedtestedDONEready-to-merge 不能只看 agent 自述，要绑定新鲜可追踪可机械验证的证据作者报告 unattended-loop engine 在 10 个场景中没有 false-DONE，本地 receipt bundle 能拒绝多类篡改；消融结果显示，证据门禁能显著降低 visible-pass/hidden-fail 放大",
+      "summary_en": "The paper proposes evidence-gated lifecycle control for coding agents, treating DONE and similar claims as assertions that must be backed by fresh, traceable, mechanically verifiable proof before state transitions.",
+      "one_liner": "Agent 不能自证完成，生命周期推进应由可验证证据触发",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/论文流水线/2026-07-20-论文流水线.md",
+      "images": [],
+      "added_date": "2026-07-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7de6c1d0",
+      "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+      "url": "https://arxiv.org/abs/2607.15257",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuyao Zhang et al.",
+        "original_date": "2026-07-16"
+      },
+      "category": "agents",
+      "tags": [
+        "search-agent",
+        "multi-agent",
+        "evidence-graph",
+        "research",
+        "information-seeking"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "SearchOS 把开放域搜索建模成带引用的关系表补全，用 Frontier TaskEvidence GraphCoverage MapFailure Memory 记录搜索状态，避免多 agent 搜索反复撞同一堵墙它还用 pipeline-parallel scheduling 填满空闲 agent 槽位，并通过 middleware harness 记录证据检测停滞和预算耗尽",
+      "summary_en": "SearchOS models open-domain information seeking as citation-backed relational table completion, adding explicit frontier tasks, evidence graphs, coverage maps and failure memory for robust multi-agent collaboration.",
+      "one_liner": "长周期搜索 agent 需要显式状态和失败记忆，不能只靠对话历史续命",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/论文流水线/2026-07-20-论文流水线.md",
+      "images": [],
+      "added_date": "2026-07-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c30085a0",
+      "title": "Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents",
+      "url": "https://arxiv.org/abs/2607.15263",
+      "source": {
+        "platform": "arxiv",
+        "author": "Paul Kassianik, Blaine Nelson, Yaron Singer",
+        "original_date": "2026-07-16"
+      },
+      "category": "agents",
+      "tags": [
+        "security-agent",
+        "evaluation",
+        "cost",
+        "red-team",
+        "soc"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文把安全 agent 的评测从成功率扩展到成本维度：推理工具调用遥测查询和补充检索都应计入红队 CTF 任务能从更多 test-time compute 获益，蓝队 SOC 调查则更依赖工具使用纪律遥测导航和选择性 enrichment这个框架也提醒日常 agent 评估不能只看是否完成，还要看每一步消耗和证据质量",
+      "summary_en": "The paper argues that security-agent evaluation should account for inference, tool-use, telemetry and enrichment costs rather than success rate alone, revealing different cost profiles for offensive and defensive tasks.",
+      "one_liner": "安全 agent 和日常 agent 一样，完成率之外还要评估成本与证据质量",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/论文流水线/2026-07-20-论文流水线.md",
+      "images": [],
+      "added_date": "2026-07-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "23dc720c",
+      "title": "On the Adoption of AI Coding Agents in Open-source Android and iOS Development",
+      "url": "https://arxiv.org/abs/2602.12144",
+      "source": {
+        "platform": "arxiv",
+        "author": "Muhammad Ahmad Khan, Hasnain Ali, Muneeb Rana, Muhammad Saqib Ilyas, Abdul Ali Bangash",
+        "original_date": "2026-02-12"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agent",
+        "android",
+        "ios",
+        "open-source",
+        "pull-request"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文分析 AIDev 数据集里 193 个 Android 和 iOS 开源仓库的 2,901 个 AI-authored PR结果显示 Android 项目收到的 AI PR 数量约为 iOS 的 2 倍，接受率约 71%，iOS 为 63%；featurefixui 等常规任务更容易合并，refactorbuild 等结构性改动成功率更低处理时间更长",
+      "summary_en": "The study analyzes 2,901 AI-authored pull requests across 193 Android and iOS open-source repositories, comparing adoption, acceptance rates and task-type differences.",
+      "one_liner": "移动开源项目里的 AI PR 已经可量化，但结构性改动仍明显更难合并",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/论文流水线/2026-07-20-论文流水线.md",
+      "images": [],
+      "added_date": "2026-07-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "90fe2c12",
+      "title": "Rewriting Bun in Rust",
+      "url": "https://bun.com/blog/bun-in-rust",
+      "source": {
+        "platform": "blog",
+        "author": "Bun Team",
+        "original_date": "2026-07-20"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agent",
+        "claude-code",
+        "rust",
+        "bun",
+        "migration",
+        "review"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Bun 团队复盘用预发布 Claude Fable 5 和 Claude Code dynamic workflows，在 11 天内把 1,448 个 Zig 文件约 53.5 万行主体迁到 Rust文章的价值不在AI 写代码很快，而在生产流程：实现 agent 不审查自己的代码，两个独立 review agent 找 bug，编译错误测试失败和 CI 失败都进入 work queue，最后 6 个平台 CI 全绿才合并",
+      "summary_en": "The Bun team describes an 11-day, agent-assisted Rust rewrite with dynamic workflows, separate implementation and adversarial review agents, CI feedback loops and detailed failure cases.",
+      "one_liner": "Bun 迁 Rust 是生产级 coding agent 工程样板，重点在审查和失败回收",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/ClawFeed24小时高价值一览/2026-07-20-ClawFeed24小时高价值一览.md",
+      "images": [],
+      "added_date": "2026-07-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "611e33a7",
+      "title": "The biggest MCP spec update ships July 28: What changes for AI agent authentication",
+      "url": "https://workos.com/blog/mcp-2026-spec-agent-authentication",
+      "source": {
+        "platform": "blog",
+        "author": "WorkOS",
+        "original_date": "2026-07-20"
+      },
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "oauth",
+        "agent-auth",
+        "protocol",
+        "gateway"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "文章把 MCP 2026-07-28 release candidate 的破坏性变化翻成迁移清单：协议层去掉隐藏 session，每个请求携带版本和能力信息；授权对齐 OAuth 2.1Protected Resource MetadataResource Indicators 和 issuer verification；需要状态的应用改用显式 handle这些变化让 MCP server 更适合生产网关治理和多服务部署",
+      "summary_en": "The article summarizes MCP 2026-07-28 release-candidate changes around stateless requests, server discovery and OAuth-aligned authorization for production AI agent authentication.",
+      "one_liner": "MCP 新规范的方向是少隐藏 session，多显式状态标准授权和网关可治理性",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/ClawFeed24小时高价值一览/2026-07-20-ClawFeed24小时高价值一览.md",
+      "images": [],
+      "added_date": "2026-07-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "537f97d9",
+      "title": "Introducing OpenAI Frontier",
+      "url": "https://openai.com/index/introducing-openai-frontier",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-07-17"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "enterprise-agent",
+        "ai-coworker",
+        "runtime",
+        "permissions"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "OpenAI Frontier 发布稿给出企业 agent 平台分层：共享业务上下文agent 执行环境评估优化和身份权限边界要一起出现案例包括制造业生产优化从 6 周压到 1 天硬件测试失败 root-cause identification 从约 4 小时降到几分钟战略信号是 OpenAI 正在争夺企业 agent 的上下文层运行时权限治理和现场交付入口",
+      "summary_en": "OpenAI presents Frontier as an enterprise agent platform combining business context, execution environments, evaluation loops, identity boundaries and field deployment.",
+      "one_liner": "OpenAI Frontier 表明企业 agent 竞争已进入上下文运行时和权限治理层",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/ClawFeed24小时高价值一览/2026-07-20-ClawFeed24小时高价值一览.md",
+      "images": [],
+      "added_date": "2026-07-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "067f5faf",
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
+      "source": {
+        "platform": "blog",
+        "author": "Nik Suresh",
+        "original_date": "2026-07-18"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-strategy",
+        "organization",
+        "decision-making",
+        "enterprise-ai",
+        "incentives"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "文章不是泛泛批评 AI，而是拆解企业 AI 狂热如何改坏决策系统：内部 chatbot 没人用客户 chatbot 失效却不算事故员工为了 token 指标伪装成高强度使用者作者把问题落到组织政治：当客户高层也公开宣称 100x 生产力时，供应商和内部管理者很难讲真话，AI 采用率容易变成表演指标",
+      "summary_en": "Nik Suresh argues from consulting and enterprise experience that AI mania is distorting incentives, metrics and truth-telling inside large organizations.",
+      "one_liner": "企业 AI 狂热最危险的地方，是奖励看起来用了 AI而不是真实交付",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/AK-RSS-Digest（89源精选）/2026-07-20-AK-RSS-Digest.md",
+      "images": [],
+      "added_date": "2026-07-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c56868ba",
+      "title": "Overtraining as the path to human-like AI",
+      "url": "https://seangoedecke.com/overtraining-as-the-path-to-human-like-ai",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-07-20"
+      },
+      "category": "models",
+      "tags": [
+        "grokking",
+        "overtraining",
+        "scaling",
+        "llm",
+        "generalization"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "文章转述 Gwern 的 catapulting 和 grokking 思路：如果当前模型缺的是更深层泛化，下一步能力跃迁可能不只靠继续堆数据，而是让超大模型在较小数据集上长时间训练，被迫压出更简洁的规则它同时指出这种反向训练策略的代价：需要百兆亿参数级模型小数据集长训练和组织耐心，风险很高",
+      "summary_en": "Sean Goedecke explains the argument that overtraining very large models on smaller datasets might produce grokking-like jumps toward deeper generalization, while emphasizing the technical and organizational risks.",
+      "one_liner": "Overtraining 路线的争议点不在口号，而在用长训练赌更深层泛化",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/AK-RSS-Digest（89源精选）/2026-07-20-AK-RSS-Digest.md",
+      "images": [],
+      "added_date": "2026-07-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dbd57b26",
+      "title": "Claude Code uses Bun written in Rust now",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-07-19"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "bun",
+        "rust",
+        "runtime",
+        "developer-tools"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 用 strings 检查 Claude Code v2.1.181 之后的可执行文件，发现其中出现 Bun v1.4.0 和数百个 Rust 源码路径，确认 Anthropic 已经把 Rust 版 Bun 带到大量设备上这个案例的价值在于展示 Agent 工具链底层运行时替换正在发生，理想结果是用户侧几乎无感，只感到启动速度小幅提升",
+      "summary_en": "The post verifies that recent Claude Code binaries include the Rust version of Bun, using strings output as concrete evidence of runtime replacement.",
+      "one_liner": "Agent 工具链的基础设施升级，最好做到用户几乎无感但性能变好",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/Gracker的Rss订阅/2026-07-20-Gracker的Rss订阅.md",
+      "images": [],
+      "added_date": "2026-07-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-06",
-  "total_entries": 1430
+  "last_updated": "2026-07-20",
+  "total_entries": 1441
 }
