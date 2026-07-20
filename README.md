@@ -4,8 +4,8 @@
 
 ## 最新精选 Top 10
 
-- [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol) ⭐5 · 2026-06-26 — OpenAI 发布 GPT-5.6 Sol 预览版，主打编码科学与网络安全能力
 - [U.S. government will decide who gets to use GPT-5.6](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model) ⭐5 · 2026-06-26 — 华盛顿邮报：OpenAI 表示 GPT-5.6 的使用权将由美国政府决定
+- [Previewing GPT-5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol) ⭐5 · 2026-06-26 — OpenAI 发布 GPT-5.6 Sol 预览版，主打编码科学与网络安全能力
 - [The gap between open weights LLMs and closed source LLMs](https://blog.doubleword.ai/frontier-os-llm) ⭐4 · 2026-06-26 — Doubleword 用 18 个 benchmark 量化开源与闭源 LLM 性能差距，预测 2026 年底前归零
 - [Show HN: Smart model routing directly in Claude, Codex and Cursor](https://github.com/workweave/router) ⭐3 · 2026-06-26 — Show HN：可直接接入 Claude Code / Codex / Cursor 的智能模型路由工具
 - [OpenClaw Automation](https://godofgpt.com/entry/497a0691/) ⭐3 · 2026-06-26 — OpenClaw Automation 这个目录保存 God of GPT / AI Field Notes 的自动化任务数据维护脚本和兼容入口 当前生产链路 1日常 intake / community review 写入 `
@@ -19,20 +19,20 @@
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 217 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 106 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| 模型与实验室 | 216 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 101 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 65 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 16 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 36 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 27 | 论文、课程、提示工程、长文、方法论。 |
-| 工具与项目 | 149 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
+| 工具与项目 | 151 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
 - 原始条目: 1430
-- 公开展示卡片: 616
-- 有全文内容: 524
-- 最近 7 天信号: 425
+- 公开展示卡片: 612
+- 有全文内容: 528
+- 最近 7 天信号: 421
 - 输出目录: `dist/`
 
 ## 热门标签
