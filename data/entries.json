@@ -39710,8 +39710,172 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "ee0ededa",
+      "title": "When Does Muon Help Agentic Reinforcement Learning?",
+      "url": "https://arxiv.org/abs/2607.16169",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kai Ruan, Jinghao Lin, Zihe Huang, Ziqi Zhou, Qianshan Wei, Xuan Wang, Hao Sun",
+        "original_date": "2026-07-17"
+      },
+      "category": "agents",
+      "tags": [
+        "agentic-rl",
+        "optimizer",
+        "muon",
+        "post-training",
+        "alfworld",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文比较 Muon 与 AdamW 在稀疏奖励 agentic RL 后训练中的表现：在 ALFWorld + Qwen2.5-0.5B-Instruct 设置下，Muon 只作用于 hidden weight matrices 时，GiGPO 最终窗口验证成功率从 0.290 提升到 0.546；不同 advantage estimator 与学习率下收益差异明显收录理由：它把优化器选择优势估计器和学习率放到同一个 agentic RL 实验框架中讨论，适合跟踪智能体训练栈",
+      "summary_en": "Muon is competitive with AdamW in large-scale pre-training, but its value for reinforcement-learning (RL) post-training remains unclear. We study vanilla Muon in sparse-reward agentic RL through matched single-seed comparisons with AdamW on ALFWorld using Qwen2.5-0.5B-Instruct. Under Group-in-Group Policy Optimization (GiGPO), applying Muon only to hidden weight matrices raises final-window validation success from 0.290 to 0.546 (+88%); high-rate AdamW controls retain no post-update success. The effect depends on the advantage estimator and learning rate. At 3e-5, Muon improves GRPO from 0.161 to 0.268, whereas GraphGPO's late-window gap narrows near saturation. At 1e-5, GraphGPO Muon reaches 0.901, raises normalized validation AUC from 0.399 to 0.556, and reaches 0.5 and 0.75 success 30 and 60 updates earlier, respectively....",
+      "one_liner": "论文比较 Muon 与 AdamW 在稀疏奖励 agentic RL 后训练中的表现：在 ALFWorld + Qwen2.5-0.5B-Instruct 设置下，Muon 只作用于 hidden weight matrices 时...",
+      "one_liner_author": "openclaw-external-scan",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ee0ededa.md",
+      "images": [],
+      "added_date": "2026-07-21",
+      "updated_date": "2026-07-21",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8865f6e2",
+      "title": "Software Delegation Contracts: Measuring Reviewability in AI Coding-Agent Work",
+      "url": "https://arxiv.org/abs/2606.17099",
+      "source": {
+        "platform": "arxiv",
+        "author": "Vincent Schmalbach",
+        "original_date": "2026-06-14"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agent",
+        "reviewability",
+        "software-delegation",
+        "evaluation",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文提出软件委托契约来衡量 AI coding agent 产物的可审查性，关注人类如何界定检查和验收代理完成的软件修改收录理由：它把 coding agent 的价值从能否生成代码推进到交付是否可审查可委托，对团队落地代理编程流程有方法论价值",
+      "summary_en": "AI coding agents increasingly accept assigned software tasks, modify repositories under bounded authority, and return work packages for review. Prior work proposed the software delegation contract, covering the task, authority, returned work package, and acceptance context, as the unit of analysis for delegated coding work, but did not measure its effects. This paper reports a controlled pilot study of explicit delegation contracts for coding agents. We built a dependency-free TypeScript API task environment with seeded defects and documentation gaps, authored ten tasks across five families, and ran 64 agent executions across two model tiers under three conditions: a realistic issue-style prompt, an explicit delegation contract, and a contract with a required evidence bundle....",
+      "one_liner": "论文提出软件委托契约来衡量 AI coding agent 产物的可审查性，关注人类如何界定检查和验收代理完成的软件修改",
+      "one_liner_author": "openclaw-external-scan",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8865f6e2.md",
+      "images": [],
+      "added_date": "2026-07-21",
+      "updated_date": "2026-07-21",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e67e4273",
+      "title": "Code as Agent Harness",
+      "url": "https://arxiv.org/abs/2605.18747",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xuying Ning, Katherine Tieu, Dongqi Fu, Tianxin Wei, Zihao Li, Yuanchen Bei, Jiaru Zou, Mengting Ai...",
+        "original_date": "2026-05-18"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "code-as-interface",
+        "agent-engineering",
+        "llm-agents",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文把代码视作 agent harness：用代码来表达工具控制流状态与环境交互，使 LLM agent 的行为更可组合可检查可复现收录理由：它提供了从 prompt/编排框架转向 code-defined harness 的设计视角，适合沉淀智能体工程实践",
+      "summary_en": "Recent large language models (LLMs) have demonstrated strong capabilities in understanding and generating code, from competitive programming to repository-level software engineering. In emerging agentic systems, code is no longer only a target output. It increasingly serves as an operational substrate for agent reasoning, acting, environment modeling, and execution-based verification. We frame this shift through the lens of agent harnesses and introduce code as agent harness: a unified view that centers code as the basis for agent infrastructure. To systematically study this perspective, we organize the survey around three connected layers. First, we study the harness interface, where code connects agents to reasoning, action, and environment modeling....",
+      "one_liner": "论文把代码视作 agent harness：用代码来表达工具控制流状态与环境交互，使 LLM agent 的行为更可组合可检查可复现",
+      "one_liner_author": "openclaw-external-scan",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e67e4273.md",
+      "images": [],
+      "added_date": "2026-07-21",
+      "updated_date": "2026-07-21",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "75e1c4aa",
+      "title": "Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees",
+      "url": "https://arxiv.org/abs/2606.24322",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yedidel Louck",
+        "original_date": "2026-06-23"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "security",
+        "memory-poisoning",
+        "authority",
+        "llm-agents",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文研究 LLM agent 长期记忆的投毒风险，并提出 non-malleableorigin-bound authority 等约束来保护记忆来源与权限边界，包含机器检查保证收录理由：长期记忆是生产级智能体的核心能力，此文把安全边界和权限模型具体化，值得作为 agent memory 安全参考",
+      "summary_en": "LLM agents increasingly rely on persistent long-term memory, which creates a critical vulnerability that we study here: memory poisoning. An adversary can store untrusted content in one session that later steers a consequential action, such as a payment, a setting change, or data exfiltration, in a future session. Existing defenses base a memory item's authority to act on either its content (detection or trust-scoring) or its derivation history (lineage). We show that both signals are malleable. An attacker can launder an untrusted origin through three channels specific to LLM agents: the agent's own summarization, a trusted-tool echo, and manufactured corroboration. Each makes the content look benign and breaks or flips its derivation edge to ``trusted.'' We formalize malleability for the memory write-retrieve-act pipeline and prove a machine-checked separation theorem....",
+      "one_liner": "论文研究 LLM agent 长期记忆的投毒风险，并提出 non-malleableorigin-bound authority 等约束来保护记忆来源与权限边界，包含机器检查保证",
+      "one_liner_author": "openclaw-external-scan",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/75e1c4aa.md",
+      "images": [],
+      "added_date": "2026-07-21",
+      "updated_date": "2026-07-21",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "23d66e0c",
+      "title": "Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering",
+      "url": "https://arxiv.org/abs/2604.08224",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chenyu Zhou, Huacan Chai, Wenteng Chen, Zihan Guo, Rong Shan, Yuanyi Song, Tianyi Xu, Yingxuan Yang...",
+        "original_date": "2026-04-09"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agents",
+        "memory",
+        "skills",
+        "protocols",
+        "harness-engineering",
+        "survey",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "综述论文将 LLM agent 的 externalization 归纳为 memoryskillsprotocols 与 harness engineering 等方向，讨论 agent 如何把能力外化到可持久可组合的系统结构中收录理由：它为智能体系统设计提供了统一分类框架，可帮助整理记忆技能协议和执行环境的工程知识",
+      "summary_en": "Large language model (LLM) agents are increasingly built less by changing model weights than by reorganizing the runtime around them. Capabilities that earlier systems expected the model to recover internally are now externalized into memory stores, reusable skills, interaction protocols, and the surrounding harness that makes these modules reliable in practice. This paper reviews that shift through the lens of externalization. Drawing on the idea of cognitive artifacts, we argue that agent infrastructure matters not merely because it adds auxiliary components, but because it transforms hard cognitive burdens into forms that the model can solve more reliably....",
+      "one_liner": "综述论文将 LLM agent 的 externalization 归纳为 memoryskillsprotocols 与 harness engineering 等方向，讨论 agent 如何把能力外化到可持久可组合的系统结构中",
+      "one_liner_author": "openclaw-external-scan",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/23d66e0c.md",
+      "images": [],
+      "added_date": "2026-07-21",
+      "updated_date": "2026-07-21",
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-20",
-  "total_entries": 1441
+  "last_updated": "2026-07-21",
+  "total_entries": 1446
 }
