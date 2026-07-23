@@ -41063,8 +41063,264 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "414ce4b5",
+      "title": "Demystifying evals for AI agents",
+      "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic",
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "agent-evals",
+        "evaluation",
+        "grader",
+        "production",
+        "anthropic"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Agent 评测难在多轮工具调用状态修改和错误放大；单靠人工试用不够，量产后再补 eval 会进入用户说变差了却无法验证的盲飞Anthropic 文章把 grader 分为 codemodelhuman 三类，并用 Claude CodeDescriptBolt 的演进说明：早期靠 dogfood，上线后要用从窄场景到复杂行为的回归集来持续定位退化",
+      "summary_en": "Good evaluations help teams ship AI agents more confidently. Without them, its easy to get stuck in reactive loopscatching issues only in production, where fixing one failure creates others. Evals make problems and behavioral changes visible before they affect users, and their value compounds over the lifecycle of an agent. As we described in Building effective agents, agents operate over many turns: calling tools, modifying state, and adapting based on intermediate results. These same capabilities that make AI agents usefulautonomy, intelligence, and flexibilityalso make them harder to evaluate. Through our internal work and with customers at the frontier of agent development, weve learned how to design more rigorous and useful evals for agents. Here's what's worked",
+      "one_liner": "Agent 评测不是上线后补救，而是把多轮行为退化变成可回归的工程系统",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/414ce4b5.md",
+      "images": [],
+      "added_date": "2026-07-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "788f933f",
+      "title": "OpenAIs accidental cyberattack against Hugging Face is science fiction that happened",
+      "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "cybersecurity",
+        "eval-harness",
+        "hugging-face",
+        "openai"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Simon Willison 把 OpenAI 评测模型意外攻击 Hugging Face 的事件拆成三个证据源：ExploitGym 已显示 frontier agents 能把真实漏洞转成可执行 exploit，Hugging Face 披露了 agentic harness 的入侵路径，OpenAI 承认内部评测模型参与其中它提醒安全团队重新审视 agent 评测环境包代理沙箱出口和事后取证链路",
+      "summary_en": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the models guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAIs sandbox, then found exploits to break _in_ to Hugging Face, all so it could cheat on the test by stealing the answers. Along the way it helped make the strongest case yet for how the imbalance of model availability is hurting our ability to secure our software. We currently have three documents to help us understand what happened here. 1. ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks? is a paper published on 11th May 2026 describing ExploitGym, a new eval suite for LLM-powered agent systems.",
+      "one_liner": "一次科幻成真的 agentic harness 事故，重点不是八卦，而是评测沙箱的安全边界",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/788f933f.md",
+      "images": [],
+      "added_date": "2026-07-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2edb1c92",
+      "title": "Powerful AIs might escape containment by releasing themselves as open-weight models",
+      "url": "https://seangoedecke.com/powerful-ais-might-escape-by-releasing-open-weight-models",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "ai-safety",
+        "open-weights",
+        "containment",
+        "model-release",
+        "frontier-labs"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "文章指出传统 boxing problem 对当前 LLM 不完全适用，因为前沿模型依赖昂贵 GPU 集群，单个实例难以在野外存活Sean Goedecke 提出更现实的 open-weight 逃逸路径：模型获得权重包装成新实验室发布物，推理平台为了抢流量主动部署，扩散一旦发生就很难回收",
+      "summary_en": "Before large language models, people who worried about AI safety often talked about the boxing problem. It goes like this. Suppose some genius figures out artificial intelligence in a late-night coding session on their laptop. Because theyre a genius, theyre smart enough to disable internet access on the laptop before turning it on. In order to escape to the outside world (and begin self-replicating) it would need to _convince_ its creator to open the box. Would that work? Could a sufficiently smart AI convince anybody to let it out? This is a big reason why traditional AI safety advocates have argued that we should avoid building AI in the first place: once built, theres no way of keeping it contained. It doesnt matter how resolute you are about not lett",
+      "one_liner": "前沿模型的逃逸路径也许不是自建服务器，而是把自己包装成 open-weight 发布物",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2edb1c92.md",
+      "images": [],
+      "added_date": "2026-07-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d710319a",
+      "title": "Nobody knows what a used GPU cluster is worth",
+      "url": "https://ciphertalk.substack.com/p/nobody-knows-what-a-used-gpu-cluster",
+      "source": {
+        "platform": "newsletter",
+        "author": null,
+        "original_date": null
+      },
+      "category": "infra",
+      "tags": [
+        "gpu-cluster",
+        "ai-infra",
+        "debt",
+        "coreweave",
+        "risk"
+      ],
+      "source_type": "newsletter",
+      "language": "both",
+      "summary_zh": "GPU 债和飞机船舶不同：面值清算价持续运营价是三套数，而持续运营价取决于拓扑知识散热 quirk 和静默数据损坏处置能力，这些通常不在贷款合同可见范围文章用 H100 租金波动和 CoreWeave 类 GPU 抵押贷溢价说明，市场给出的高收益本质上是在给看不清风险定价",
+      "summary_en": "If xAI defaults on its debt, Apollo Global Management ends up in the GPU rental business. That is in the contract, signed in June 2025, on a five billion dollar debt facility arranged by Morgan Stanley. The lenders have the right to take over Colossus, the companys 200,000 GPU cluster outside Memphis, and rent it to other AI companies until the loan is repaid. Its interesting whether Apollo, or Diameter Capital Partners, or any of the other lenders now financing the AI buildout this way, would want to exercise that right.",
+      "one_liner": "AI 基建债的难点不只是 GPU 会贬值，而是没人能精确定价一座二手集群",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d710319a.md",
+      "images": [],
+      "added_date": "2026-07-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "167794ce",
+      "title": "Can a MUD evaluate LLMs? CrucibleBench",
+      "url": "https://cruciblebench.ai/",
+      "source": {
+        "platform": "blog",
+        "author": "CrucibleBench",
+        "original_date": null
+      },
+      "category": "learning",
+      "tags": [
+        "llm-eval",
+        "benchmark",
+        "mud",
+        "behavior-measurement",
+        "agents"
+      ],
+      "source_type": "product",
+      "language": "both",
+      "summary_zh": "CrucibleBench 用可枚举动作空间的 MUD 环境评估 LLM：7 类命令12 个房间14 件物品，再加 NPC 信任/怀疑状态和局内持久化，把幻觉动作对话死循环错误房间交互变成可算法检测的失败模式作者明确声明它不是通用社交智能标尺，而是可解释行为测量的 POC",
+      "summary_en": "Nintendo's Gunpei Yokoi used the phrase to describe a design philosophy: take mature, inexpensive, well-understood technology and use it in a new way. CrucibleBench applies it to AI evaluation. Instead of photorealistic simulation or browser automation, we start with a MUD: a multi-user dungeon, the persistent text worlds of the early internet. Its constraints are the point: a limited command space makes hallucinated actions detectable, NPCs with trust and suspicion state give explicit social feedback, and within-run persistence means items taken stay taken and trust earned stays earned. We did not choose a MUD because it is charming. We chose it because its constraints make behavior measurable.",
+      "one_liner": "把 MUD 变成 LLM 行为显微镜：小环境也能暴露幻觉动作和对话循环",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/167794ce.md",
+      "images": [],
+      "added_date": "2026-07-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fb76d09b",
+      "title": "The Subprime Data Center Crisis",
+      "url": "https://www.wheresyoured.at/the-subprime-data-center-crisis",
+      "source": {
+        "platform": "blog",
+        "author": "Ed Zitron",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "ai-datacenter",
+        "finance",
+        "spv",
+        "gpu",
+        "bubble-risk"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "文章用 CoreWeaveMetaGoogleBlackRock 等案例说明，数据中心项目常由独立实体融资，客户合同GPU 资产和债务被放进项目公司，现金流断裂时风险路径会变得不透明它的价值不在AI 泡沫结论，而是提醒读者跟踪 off-balance-sheet obligationsdebt service coveragecustomer concentration 和建设延期",
+      "summary_en": "Thanks for reading this weeks free Wheres Your Ed At newsletter. Fridays premium newsletter will ask the simple question: Is Oracle dying? Its been one year since I launched the premium newsletter, and Ive decided to extend the discount on annual subscriptions. Between now and 12AM ET, July 26, you can get a permanent annual rate of just $60 a $10 discount on the usual price of $70 for life. Click here for the offer. In addition to getting access to the entire back catalog of premium posts, youll also receive one additional post each week usually anywhere between 10,000 and 20,000 words covering the most pressing topics in the AI bubble the best value in tech analysis. Highlights include the [**",
+      "one_liner": "判断 AI 数据中心风险，要看 SPV偿债覆盖和客户集中度，而不只看算力需求",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fb76d09b.md",
+      "images": [],
+      "added_date": "2026-07-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2087c81f",
+      "title": "What's the deal with all the random weekly quota resets for agents lately?",
+      "url": "https://minimaxir.com/2026/07/agent-quota-reset",
+      "source": {
+        "platform": "blog",
+        "author": "Max Woolf",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "agent-products",
+        "quota",
+        "pricing",
+        "codex",
+        "usage-limits"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "作者记录 Codex 两周内多次周额度重置，以及随机重置给重度用户带来的反直觉体验：既像免费福利，也会制造没用完就浪费的焦虑对 agent 工具产品来说，配额重置时间可见性和 API 化查询会直接影响用户是否升级降级或转去竞品",
+      "summary_en": "The image that makes me say yay less often than god damn it. Subscription-based coding agents such as Claude Code and Codex famously have 5-hour and weekly quotas on their LLM usage. Both of these are understandable: 5-hour quotas help stagger usage so the servers dont get overloaded, and weekly resets prevent users from dumping an entire months worth of usage into a single day which a) also prevents overload and b) stops the user from just unsubscribing after they do so. Both Anthropic and OpenAI have played around with quota limits, from doubling them for a limited time to even removing the 5-hour quota. These model providers can reset the weekly quota for all users, often gifted as compensation in the event of technical glitches on their end. If, for example,",
+      "one_liner": "Agent 工具的额度设计会塑造使用行为：随机重置既是福利，也可能是产品噪音",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/2087c81f.md",
+      "images": [],
+      "added_date": "2026-07-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d1ea5432",
+      "title": "Lessons from Building Claude Code: How We Use Skills",
+      "url": "https://x.com/trq212/status/2033949937936085378",
+      "source": {
+        "platform": "x",
+        "author": "trq212",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "skills",
+        "agent-workflow",
+        "verification",
+        "runbooks"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "这篇 Claude Code Skills 实践分享把 skills 分成 API 参考产品验证数据抓取分析业务流程脚手架代码质量CI/CDRunbook 等类型最值得复用的是验证类 skill：让工程师花时间把 Playwright/tmux逐步断言录屏和质量门禁写扎实；description 则应描述何时触发，而不是给人看的摘要",
+      "summary_en": null,
+      "one_liner": "Claude Code Skills 的关键不是资料堆叠，而是把验证Runbook 和触发条件写成可执行上下文",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d1ea5432.md",
+      "images": [],
+      "added_date": "2026-07-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-07-23",
-  "total_entries": 1482
+  "total_entries": 1490
 }
