@@ -41543,8 +41543,261 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "be2beaf8",
+      "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
+      "url": "https://arxiv.org/abs/2607.20379",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hiskias Dingeto",
+        "original_date": "2026-07-22"
+      },
+      "category": "learning",
+      "tags": [
+        "interpretability",
+        "ai-safety",
+        "activation-explanations",
+        "evaluation",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文质疑用 activation reconstruction score 评价自然语言解释是否 faithful：在 Qwen-2.5-7B verbalizer 上，重构分数高于随机但只有约 2% 的具体断言真正影响重构，说明指标更多衡量大意而不是事实作者提出 grounded-vs-true crossevaluator swap 和 RECAP，把解释评估推进到可验证断言层面",
+      "summary_en": "Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it. The test is structurally insensitive to individual false claims: if flipping a claim does not change the reconstruction, the claim is never penalized. We show the test is passed in two ways, neither faithful. On a released Qwen-2.5-7B verbalizer, explanations reconstruct well above chance while ~2% of specific claims are reconstruction-dependent, so the score tracks gist, not specific facts. Under exact synthetic ground truth, the standard recipe develops co-adapted private codes (false wording the reconstruction depends on) in 5/5 runs, and fixes that leave the target model unchanged do not help....",
+      "one_liner": "解释型模型评估不能只看 reconstruction score，应该检查每条自然语言断言是否可被独立 probe 验证",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/论文流水线/2026-07-24-论文流水线.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "53418fe0",
+      "title": "Generative AI floods and dilutes the market for books",
+      "url": "https://arxiv.org/abs/2607.20349",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tuhin Chakrabarty, Xinyue Liu, Jane C. Ginsburg, Paramveer Dhillon",
+        "original_date": "2026-07-22"
+      },
+      "category": "industry",
+      "tags": [
+        "generative-ai",
+        "content-market",
+        "books",
+        "economics",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文检测 2023-2026 年 Amazon 自出版类型小说，匹配文本 AI 占比与销售记录，指出 AI 文本高占比书籍通过规模改变供给侧：有销量书籍数量增长 19.2 倍，季度收入增长 8.9 倍，但竞争稀释和质量差异也随之出现它适合作为生成式 AI 改写内容市场的实证材料",
+      "summary_en": "Generative AI can produce book-length works of fiction at near-zero cost. These books are often dismissed as low-quality ``slop'' that buyers will ignore, and are assumed to carry little commercial weight. We test that assumption with full-text AI detection across 14,419 self-published genre-fiction books sold on Amazon from 2023 to 2026, matched to daily sales records through June 2026. None of these books disclose whether or not they contain AI-produced content. We find that books for which we detected substantial AI text ($>$ 25\\%) make up a large share of the catalog but a smaller share of sales. Even so, they reach commercial scale, winning a growing share of sales over time and taking more of the scarce top-rank positions once held by books with no detected AI text....",
+      "one_liner": "生成式 AI 对内容市场的影响不只是能写书，而是低成本供给规模化后改变收入竞争和质量分布",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/论文流水线/2026-07-24-论文流水线.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1ff47a12",
+      "title": "When Lower Privileges Suffice: Investigating Over-Privileged Tool Selection in LLM Agents",
+      "url": "https://arxiv.org/abs/2606.20023",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kaiyue Yang, Yuyan Bu, Jingwei Yi, Yuchi Wang, Biyu Zhou, Juntao Dai, Songlin Hu, Yaodong Yang",
+        "original_date": "2026-06-18"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-safety",
+        "tool-use",
+        "least-privilege",
+        "benchmark",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文提出 ToolPrivBench，用来评估 LLM Agent 在低权限工具已经足够时仍选择高权限工具的问题摘要强调，瞬时失败会放大过权限选择，通用 safety alignment 不能稳定迁移到最小权限工具选择，因此 Agent 工具系统需要显式做权限分级和过程评估",
+      "summary_en": "As LLM agents increasingly select tools autonomously, their choices among tools with different privileges become safety-relevant. However, prior tool-selection studies focus on safety-agnostic metadata preferences, leaving privilege-sensitive choices underexplored. To address this gap, we study over-privileged tool selection, in which an agent selects or escalates to a higher-privilege tool despite a sufficient lower-privilege alternative. We introduce ToolPrivBench to evaluate whether agents choose higher-privilege tools despite sufficient lower-privilege alternatives, measuring both initial selection and escalation after transient tool failures. Across eight domains and five recurring risk patterns, we find that over-privileged tool selection is common among mainstream LLM agents and is further amplified by transient failures....",
+      "one_liner": "Agent 安全不能只靠模型安全对齐，还要在工具选择层面验证最小权限原则",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/论文流水线/2026-07-24-论文流水线.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "24c9583a",
+      "title": "Reproducible, Explainable, and Effective Evaluations of Agentic AI for Software Engineering",
+      "url": "https://arxiv.org/abs/2604.01437",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jingyue Li, Andr Storhaug",
+        "original_date": "2026-04-01"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "software-engineering",
+        "evaluation",
+        "agentic-ai",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文回顾 Agentic AI for Software Engineering 评估中的复现和解释缺口，分析 ICSE/FSE/ASE/ISSTA 相关研究后建议公开 Thought-Action-Result 轨迹与 LLM interaction data它的价值在于把 coding agent benchmark 从只看结果分数推进到可复查过程",
+      "summary_en": "With the advancement of Agentic AI, researchers are increasingly leveraging autonomous agents to address challenges in software engineering (SE). However, the large language models (LLMs) that underpin these agents often function as black boxes, making it difficult to justify the superiority of Agentic AI approaches over baselines. Furthermore, missing information in the evaluation design description frequently renders the reproduction of results infeasible. To synthesize current evaluation practices for Agentic AI in SE, this study analyzes 18 papers on the topic, published or accepted by ICSE 2026, ICSE 2025, FSE 2025, ASE 2025, and ISSTA 2025. The analysis identifies prevailing approaches and their limitations in evaluating Agentic AI for SE, both in current research and potential future studies....",
+      "one_liner": "Coding agent 评估下一步要公开过程轨迹，否则 benchmark 分数无法说明系统为什么有效",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/论文流水线/2026-07-24-论文流水线.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f9911846",
+      "title": "The Arguments Against Open Source AI are Very Bad",
+      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad",
+      "source": {
+        "platform": "blog",
+        "author": "Tom Bedor",
+        "original_date": "2026-07-23"
+      },
+      "category": "industry",
+      "tags": [
+        "open-weight",
+        "open-source-ai",
+        "policy",
+        "ai-industry"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "文章反驳开放模型应由少数 gatekeeper 控制的常见论点，把 open-weight AI 放回开源软件和出口管制历史中理解作者认为开放模型更像商业软件的底层组件，会降低创业和二次开发成本；简单封禁难以阻止传播，反而可能让本土开发者背上额外成本",
+      "summary_en": null,
+      "one_liner": "Open-weight AI 的核心争论不是意识形态口号，而是底层组件开放会如何改变创业成本和产业控制权",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/ClawFeed24小时高价值一览/2026-07-24-ClawFeed24小时高价值一览.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2d78a28f",
+      "title": "Startup founders urge Trump not to shut off Chinese open weight AI",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "source": {
+        "platform": "news",
+        "author": "Politico",
+        "original_date": "2026-07-22"
+      },
+      "category": "industry",
+      "tags": [
+        "open-weight",
+        "ai-policy",
+        "startups",
+        "model-access"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Politico 报道近 200 家公司及 ProtonYCLittle Tech Association 等反对一刀切限制中国 open-weight 模型文章把政策争论落到产业成本结构：低价开放模型已经成为小团队构建 AI 产品的一部分，封禁可能无法阻止模型全球传播，却会提高美国创业公司的推理和研发成本",
+      "summary_en": null,
+      "one_liner": "Open-weight 模型限制会直接改变创业公司的成本结构，不只是抽象的 AI 安全讨论",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/ClawFeed24小时高价值一览/2026-07-24-ClawFeed24小时高价值一览.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fb1dbfd3",
+      "title": "Open source software distribution may be rewritten by coding agents",
+      "url": "http://antirez.com/news/170",
+      "source": {
+        "platform": "blog",
+        "author": "Salvatore Sanfilippo / antirez",
+        "original_date": "2026-07-24"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "open-source",
+        "software-distribution",
+        "agent-workflow"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "文章从 Redis PR 和 AI coding 经验出发，讨论 Agent 让用户低成本修改代码后，开源仓库可能从稳定成品变成可变模板传统稳定分支冻结期测试和版本号仍重要，但项目可能需要更清楚的实验入口改造边界和风险提示",
+      "summary_en": null,
+      "one_liner": "AI coding 让软件分发从交付静态成品，转向交付可被 Agent 安全改造的模板和边界",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/ClawFeed24小时高价值一览/2026-07-24-ClawFeed24小时高价值一览.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a5e8d609",
+      "title": "Build intelligent Android apps: On-device inference",
+      "url": "https://android-developers.googleblog.com/2026/07/android-on-device-inference.html",
+      "source": {
+        "platform": "google",
+        "author": "Google Android Developers Blog",
+        "original_date": "2026-07-21"
+      },
+      "category": "infra",
+      "tags": [
+        "mobile-ai",
+        "android",
+        "on-device-inference",
+        "gemini-nano",
+        "llm-infra"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google 的 Android 端侧推理文章把 Gemini NanoML Kit GenAI APIMediaPipe LLM Inference API 和 NNAPI 等路径放到同一张开发图里，并强调能力探测模型下载状态结构化输出端云回退和响应时延它适合作为移动 AI 从发布会功能走向工程指标的参考",
+      "summary_en": null,
+      "one_liner": "移动 AI 真正落地要看端侧模型生命周期schema 输出时延和端云回退，而不只是模型参数",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "OpenClaw定时任务/ClawFeed24小时高价值一览/2026-07-24-ClawFeed24小时高价值一览.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-07-24",
-  "total_entries": 1497
+  "total_entries": 1505
 }
