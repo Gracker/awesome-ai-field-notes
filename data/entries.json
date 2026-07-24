@@ -41319,8 +41319,232 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "1b481872",
+      "title": "Notes to Self: Can LLMs Benefit from Experiential Abstractions?",
+      "url": "https://arxiv.org/abs/2607.20372",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chang Liu; Xinyu Li; Artur Dubrawski",
+        "original_date": "2026-07-22"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agents",
+        "memory",
+        "reasoning",
+        "experiential-learning",
+        "math"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "这篇论文把经验总结显式做成 LLM 可检索的自然语言抽象库：从 MATH 解题轨迹中抽取策略/提醒，再在推理时检索，或放进强化学习训练提示摘要称这种 experiential abstractions 能提升数学与逻辑推理，自提取效果接近强教师提取，并可迁移到其他数据集和模型对 agent memory / reflection 系统有参考价值：记忆不只是保存轨迹，而是压缩成可复用的解题抽象",
+      "summary_en": "Humans distill experience into reusable abstractions, e.g., strategies and cautionary reminders, and apply them to gradually solve problems more effectively. The paper tests whether LLMs can do the same by extracting natural-language abstractions from solution traces on MATH into a retrievable library, using them either at inference time or as RL training prompt augmentation. The abstract reports gains on mathematical and logical reasoning benchmarks, self-extracted abstractions matching teacher-extracted ones, and transfer across datasets and models.",
+      "one_liner": "LLM 也许能像人一样把解题经验压缩成可检索的自我笔记，并在推理/RL 中复用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1b481872.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8deae4fb",
+      "title": "Don't Trust the Label: License Laundering in AI Supply Chains",
+      "url": "https://arxiv.org/abs/2607.20300",
+      "source": {
+        "platform": "arxiv",
+        "author": "James Jewitt; Hao Li; Gopi Krishnan Rajbahadur; Bram Adams; Ahmed E. Hassan",
+        "original_date": "2026-07-22"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-supply-chain",
+        "license",
+        "huggingface",
+        "github",
+        "governance"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "这篇论文把 AI 资产供应链中的许可证洗白量化到 232,270 条 datasetmodelapplication 链路：数据集/模型在 Hugging Face 流转，应用落到 GitHub摘要给出的核心信号是：62.3% 链路至少经过一个无声明许可证资产；带义务的许可证类别端到端存活率都低于 7%，而 Permissive 类别可达 95.1%对模型发布数据治理和企业合规来说，它提示不能只看下游标签，必须追踪来源链路",
+      "summary_en": "The paper traces 232,270 datasetmodelapplication chains across Hugging Face datasets/models and GitHub applications to measure whether license obligations survive redistribution. The abstract reports two forms of license laundering: unlabeled artifacts gaining definitive downstream labels, and one declared license category replacing another. It finds 62.3% of chains pass through at least one no-license artifact, obligation-bearing categories have under 7% end-to-end survival, while the Permissive category reaches 95.1%.",
+      "one_liner": "AI 模型/数据供应链里，许可证义务很容易在 Hugging Face 到 GitHub 的链路中被稀释或替换",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/8deae4fb.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fcec818d",
+      "title": "Beyond Fail-to-Pass: Iterative Hardening of Co-Generated Bug Reproduction Tests and Fixes",
+      "url": "https://arxiv.org/abs/2607.19843",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuhao Tan; Zhibang Yang; Fangkai Yang; Yuan Yao; Yu Kang; Lu Wang; Pu Zhao; Xin Zhang; Xiaoxing Ma...",
+        "original_date": "2026-07-22"
+      },
+      "category": "coding",
+      "tags": [
+        "automated-program-repair",
+        "swe-bench",
+        "bug-reproduction-tests",
+        "coding-agents",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "这篇论文直接挑战 coding agent/APR 评测里常用的 fail-to-pass 标准：一个 BRT 即使能在 buggy 版本失败golden fix 通过，也可能过于宽松，仍放行错误补丁作者区分 rigorous/lax BRT，指出共生成测试和修复时会出现 test-fix error coupling，并提出 CoHarden：先生成测试，再用幸存 mutation patch 反复硬化测试和修复摘要报告在 SWE-bench Verified 上达到 69.4% Resolved78.9% FP",
+      "summary_en": "The paper argues that fail-to-pass is not enough for bug reproduction tests in automated program repair: some tests fail on buggy code and pass on the golden fix but are lax enough to admit plausible wrong patches. It separates rigorous and lax BRTs, identifies testfix error coupling in co-generation, and proposes CoHarden, which iteratively hardens tests and fixes against surviving mutation patches. The abstract reports 69.4% Resolved and 78.9% FP on SWE-bench Verified.",
+      "one_liner": "对代码智能体来说，fail-to-pass 只是底线；真正有用的 bug 复现测试还要能拦住看似合理但错误的补丁",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/fcec818d.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "101095af",
+      "title": "A Framework of User Experience Principles for Human-AI Agent Interaction in the Workplace",
+      "url": "https://arxiv.org/abs/2607.19941",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kathrin Paimann; Elizangela Valarini; Sebastian Juhl",
+        "original_date": "2026-07-22"
+      },
+      "category": "agents",
+      "tags": [
+        "human-ai-interaction",
+        "ux",
+        "enterprise-agents",
+        "workplace",
+        "design"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "这篇论文面向企业场景中的人-AI agent 交互，用参与式设计工作坊专家评审元分析和深访等多方法，归纳并验证 8 条核心 UX 原则及其下层 criteria价值不在具体模型能力，而在把 agent 产品落地中的 trustadoptionhuman-centered guardrails 结构化，适合给企业 agent 产品/设计评审做检查表",
+      "summary_en": "As AI agents enter business workflows, this study uses participatory design workshops, paper-and-pencil work, expert review, meta-analysis, and in-depth interviews to identify and validate a framework of eight core UX principles for human-AI agent interaction in the workplace. The abstract frames the output as actionable guardrails for designers and software engineers and a foundation for future empirical studies on enterprise agentic AI.",
+      "one_liner": "企业 agent 不只是能自动做事，还需要可验证的 UX 原则来支撑信任与采用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/101095af.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "163211b7",
+      "title": "MV-Bench: Benchmarking Multimodal Large Language Models for Coordinated Multi-View Interface Construction",
+      "url": "https://arxiv.org/abs/2607.19910",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yue Zhao; Hongxu Liu; Feiyu Wang; Xiaoyu Yang; Tong Ge; Zhen Yang; Chao Wang; Qiong Zeng",
+        "original_date": "2026-07-22"
+      },
+      "category": "infra",
+      "tags": [
+        "multimodal-llm",
+        "benchmark",
+        "visualization",
+        "ui-generation",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "MV-Bench 把多模态大模型的 UI/可视化生成评测从单图表推进到 coordinated multi-view interface：用 Tableau workbook 作为 ground truth，因为其中显式包含数据绑定视觉映射和交互基准包含 92 个基础界面1,048 个验证实例摘要显示最强模型视觉布局可达 75.45%，但数据绑定只有 21.71%交互完整性 11.68%，说明看起来像距离可用交互界面仍很远",
+      "summary_en": "MV-Bench evaluates MLLMs on coordinated multi-view interface construction rather than single-chart generation. It uses Tableau workbooks as ground truth because they encode data bindings, visual mappings, and interactions, then converts them into executable web interfaces. The benchmark has 92 base interfaces and 1,048 verified instances. In a single-pass setting, the strongest tested model reached 75.45% visual layout accuracy but only 21.71% data binding correctness and 11.68% interaction completeness.",
+      "one_liner": "MLLM 生成可视化界面时，视觉复刻明显强于数据绑定和交互逻辑",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/163211b7.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "19ccf4c0",
+      "title": "PyroDash: Cost-Efficient Token-Level Small-Large Language Model Collaborative Inference",
+      "url": "https://arxiv.org/abs/2607.20327",
+      "source": {
+        "platform": "arxiv",
+        "author": "Niqi Lyu; Pengtao Shi; Wei Qiu; Jianlin Zhong; Sicong Xia; Jianyao Ma; Yicheng Ding",
+        "original_date": "2026-07-22"
+      },
+      "category": "infra",
+      "tags": [
+        "llm-inference",
+        "small-language-models",
+        "routing",
+        "cost-optimization",
+        "reasoning"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "PyroDash 关注 SLM/LLM 协作推理的 token-level 交接：小模型在生成中通过控制 token 判断是否把 query 和部分 reasoning trace 交给冻结大模型补全，不需要单独 router重训大模型或访问大模型 logits训练包括控制 token embedding面向 offloading 的 SFT以及带成本项的 GRPO摘要给出两类运行点：=0.05 时平均准确率 64.04%比 LLM-only 高 6.36 个百分点且成本降 20.4%；高成本约束下 LLM token ratio 仅 1.90%，总成本从 49.36 美元降到 1.78 美元",
+      "summary_en": "PyroDash is a token-level SLMLLM collaborative inference framework. During generation, the small model emits a control token to request a single handoff to a frozen LLM, without a separate router, LLM retraining, or LLM logits. Training has three stages: control-token embedding learning, offloading-oriented SFT, and cost-aware GRPO alignment. The abstract reports configurable accuracy/cost points across five math reasoning benchmarks, including 64.04% average accuracy with 20.4% cost reduction at =0.05, and a low-cost setting reducing total cost from USD 49.36 to USD 1.78.",
+      "one_liner": "让小模型在生成中自行决定何时一次性交给大模型，是降低推理成本的一条可训练路径",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/19ccf4c0.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e68defdf",
+      "title": "Sound Probabilistic Safety Bounds for Large Language Models",
+      "url": "https://arxiv.org/abs/2607.20286",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mahdi Nazeri; Anne-Kathrin Schmuck; Sadegh Soudjani; Alessandro Abate",
+        "original_date": "2026-07-22"
+      },
+      "category": "models",
+      "tags": [
+        "llm-safety",
+        "certification",
+        "pac-bounds",
+        "evaluation",
+        "harmful-output"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "这篇论文把 LLM 安全评估表述为给定 prompt 下产生有害输出的概率边界问题：用 Clopper-Pearson 置信区间构造 PAC bounds，并利用 latent space 特征优先探索自回归生成树中更可能有害的分支摘要强调其 lower bounds 是 sound 的形式上证明低于真实 harmfulness probability，即使真实概率很小也能计算非平凡下界适合作为 LLM 安全认证/统计验证方向的参考",
+      "summary_en": "This paper proposes a framework for computing rigorous bounds on the probability that an LLM generates harmful output for a given prompt. It applies Clopper-Pearson confidence intervals to obtain PAC bounds and introduces an algorithm that prioritizes branches in the autoregressive generation tree using latent-space features. The abstract emphasizes sound lower bounds: formally proven to be less than the actual harmfulness probability, including cases where the true harm probability is extremely small.",
+      "one_liner": "LLM 安全评估可以从抽样打分走向带形式保证的 harmful-output 概率下界",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e68defdf.md",
+      "images": [],
+      "added_date": "2026-07-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-23",
-  "total_entries": 1490
+  "last_updated": "2026-07-24",
+  "total_entries": 1497
 }

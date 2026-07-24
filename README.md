@@ -12,32 +12,32 @@
 - [Lessons from Building Claude Code: How We Use Skills](https://x.com/trq212/status/2033949937936085378) ⭐4 · 2026-07-23 — Claude Code Skills 的关键不是资料堆叠，而是把验证Runbook 和触发条件写成可执行上下文
 - [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) ⭐4 · 2026-07-23 — Agent 评测不是上线后补救，而是把多轮行为退化变成可回归的工程系统
 - [What's the deal with all the random weekly quota resets for agents lately?](https://minimaxir.com/2026/07/agent-quota-reset) ⭐3 · 2026-07-23 — Agent 工具的额度设计会塑造使用行为：随机重置既是福利，也可能是产品噪音
-- [CodeAlmanac: A codebase wiki for AI coding agents](https://github.com/AlmanacCode/codealmanac) ⭐4 · 2026-07-22 — 给 coding agent 一份可 Git review 的仓库 wiki：决策不变量与坑
-- [The safety failures we are not instrumenting: a perspective on hidden safety-critical challenges...](https://arxiv.org/abs/2607.19292) ⭐5 · 2026-07-21 — 安静的安全失败更危险：五层社会技术完整性框架，别只盯模型输出
+- [Don't Trust the Label: License Laundering in AI Supply Chains](https://arxiv.org/abs/2607.20300) ⭐5 · 2026-07-22 — AI 模型/数据供应链里，许可证义务很容易在 Hugging Face 到 GitHub 的链路中被稀释或替换
+- [Beyond Fail-to-Pass: Iterative Hardening of Co-Generated Bug Reproduction Tests and Fixes](https://arxiv.org/abs/2607.19843) ⭐5 · 2026-07-22 — 对代码智能体来说，fail-to-pass 只是底线；真正有用的 bug 复现测试还要能拦住看似合理但错误的补丁
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 226 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 124 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 80 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 18 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 42 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 模型与实验室 | 227 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 126 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 81 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 20 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 43 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 32 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 150 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 1490
-- 公开展示卡片: 672
+- 原始条目: 1497
+- 公开展示卡片: 679
 - 有全文内容: 588
-- 最近 7 天信号: 50
+- 最近 7 天信号: 57
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`ai-tools`, `llm`, `research`, `openai`, `attention`, `arxiv`, `google`, `anthropic`, `optimization`, `2026`, `claude-code`, `gemini`, `evaluation`, `benchmark`, `agent`, `digest`, `codex`, `论文工具`
+`ai-tools`, `llm`, `research`, `openai`, `attention`, `arxiv`, `google`, `anthropic`, `optimization`, `2026`, `claude-code`, `evaluation`, `gemini`, `benchmark`, `agent`, `digest`, `codex`, `论文工具`
 
 ## 自动化约定
 
