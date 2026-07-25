@@ -41796,8 +41796,136 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "0f2efa23",
+      "title": "Progent: Securing AI Agents with Privilege Control",
+      "url": "https://arxiv.org/abs/2504.11703",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tianneng Shi, Jingxuan He, Zhun Wang, Hongwei Li, Linyu Wu, Wenbo Guo, Dawn Song",
+        "original_date": "2025-04-16"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "privilege-control",
+        "tool-calling",
+        "prompt-injection",
+        "cs.cr"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Progent 论文把工具调用 Agent 的安全问题建模为权限控制：用围绕工具名和参数的符号策略定义哪些调用允许用于完成任务哪些属于不必要或危险动作摘要明确指出它针对间接提示注入和未授权动作，并把策略生成放在用户任务与执行状态变化的上下文中，适合作为 Agent 工具权限从提示约束走向可执行策略层的参考",
+      "summary_en": "AI agents interact with external environments through tool calls, exposing them to attacks like indirect prompt injection that can trigger unauthorized actions. Securing these agents is challenging: they behave autonomously and probabilistically, security requirements evolve depending on the user's task and execution state, and there is an inherent tradeofff between security and utility. In this work, we introduce Progent, a novel framework that secures AI agents via privilege control. Progent represents privilege as a security policy consisting of symbolic rules over tool names and arguments. These rules specify which tool calls are allowed for task completion and which unnecessary ones are blocked for security. Every tool call is checked against such a policy through a deterministic procedure, enforcing the principle of least privilege....",
+      "one_liner": "Agent 安全不能只靠模型自觉；工具名和参数级的权限策略正在成为最小权限落地层",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/250411703.md",
+      "images": [],
+      "added_date": "2026-07-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "971ee340",
+      "title": "MiniScope: A Least Privilege Framework for Authorizing Tool Calling Agents",
+      "url": "https://arxiv.org/abs/2512.11147",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jinhao Zhu, Kevin Tseng, Gil Vernik, Xiao Huang, Shishir G. Patil, Vivian Fang, Raluca Ada Popa",
+        "original_date": "2025-12-11"
+      },
+      "category": "agents",
+      "tags": [
+        "least-privilege",
+        "tool-calling",
+        "agent-security",
+        "authorization",
+        "cs.cr"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "MiniScope 关注 ChatGPTClaudeGemini 等平台连接器和自主能力带来的账号授权风险摘要强调既有方案要么依赖人工策略要么把 LLM 放进约束闭环而缺少严格保证；MiniScope 的价值在于把工具调用 Agent 访问用户账号时的潜在损害限制在最小权限边界内",
+      "summary_en": "Tool calling agents are an emerging paradigm in LLM deployment, with major platforms such as ChatGPT, Claude, and Gemini adding connectors and autonomous capabilities. However, the inherent unreliability of LLMs introduces fundamental security risks when these agents operate over sensitive user services. Prior approaches either rely on manually written policies that require security expertise, or place LLMs in the confinement loop, which lacks rigorous security guarantees. We present MiniScope, a framework that enables tool calling agents to operate on user accounts while confining potential damage from unreliable LLMs....",
+      "one_liner": "当 Agent 直接接入用户服务时，授权框架要限制可能造成的损害，而不是只判断回答是否安全",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/251211147.md",
+      "images": [],
+      "added_date": "2026-07-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "06322165",
+      "title": "Evaluating Privilege Usage of Agents with Real-World Tools",
+      "url": "https://arxiv.org/abs/2603.28166",
+      "source": {
+        "platform": "arxiv",
+        "author": "Quan Zhang, Lianhang Fu, Lvsi Lian, Gwihwan Go, Yujue Wang, Chijin Zhou, Yu Jiang, Geguang Pu",
+        "original_date": "2026-03-30"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-evaluation",
+        "security-benchmark",
+        "real-world-tools",
+        "privilege-usage",
+        "cs.cr"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "GrantBox 论文指出现有 Agent 安全 benchmark 常依赖预编码工具和受限交互，难以代表真实工具环境摘要提出一个面向真实世界工具的安全评估沙箱，用来观察 Agent 如何使用继承而来的工具权限以及由此导致的信息泄露或基础设施损害风险",
+      "summary_en": "Equipping LLM agents with real-world tools can substantially improve productivity. However, granting agents autonomy over tool use also transfers the associated privileges to both the agent and the underlying LLM. Improper privilege usage may lead to serious consequences, including information leakage and infrastructure damage. While several benchmarks have been built to study agents' security, they often rely on pre-coded tools and restricted interaction patterns. Such crafted environments differ substantially from the real-world, making it hard to assess agents' security capabilities in critical privilege control and usage. Therefore, we propose GrantBox, a security evaluation sandbox for analyzing agent privilege usage....",
+      "one_liner": "评估 Agent 权限风险需要真实工具沙箱；玩具工具环境很容易低估泄露和破坏面",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/260328166.md",
+      "images": [],
+      "added_date": "2026-07-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9f65064d",
+      "title": "RecoAtlas: From Semantic Plausibility to Set-Level Utility in LLM Recommendation Agents",
+      "url": "https://arxiv.org/abs/2605.18805",
+      "source": {
+        "platform": "arxiv",
+        "author": "Imad Aouali, Flavian Vasile, Otmane Sakhi, Alexandre Gilotte, Benjamin Heymann",
+        "original_date": "2026-05-11"
+      },
+      "category": "agents",
+      "tags": [
+        "recommendation-agents",
+        "agent-evaluation",
+        "benchmark",
+        "shopping-agents",
+        "cs.ir"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "RecoAtlas 针对 LLM 推荐 Agent 生成推荐集合+自然语言解释的新形态，指出现有评估过度依赖小候选集重排或语义合理性摘要提出结合历史交互指标相关性/互补性/多样性效用代理，以及解释质量和语义一致性分开度量的 benchmark 与工具包",
+      "summary_en": "LLM recommendation agents increasingly produce structured recommendation reports: sets of items accompanied by natural-language justifications. Yet existing evaluations often reduce this setting to reranking small shortlisted candidate sets or judge reports mainly by semantic plausibility. We introduce Recommendation Atlas (Agentic Tool-Level Assessment for Shopping), or RecoAtlas, a benchmark and toolkit for evaluating shopping agents with behavior-grounded metrics. RecoAtlas complements held-out interaction metrics with learned utility proxies for relevance, complementarity, and diversity derived from interaction data, while separately measuring semantic coherence and explanation quality....",
+      "one_liner": "推荐 Agent 的评估要从解释听起来合理转向集合级效用互补性和多样性",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/260518805.md",
+      "images": [],
+      "added_date": "2026-07-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-24",
-  "total_entries": 1505
+  "last_updated": "2026-07-25",
+  "total_entries": 1509
 }
