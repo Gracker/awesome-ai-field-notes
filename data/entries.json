@@ -41924,8 +41924,168 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "9602dd05",
+      "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+      "url": "https://arxiv.org/abs/2607.21557",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xiao Yu, Baolin Peng, Ruize Xu, Hao Zou, Qianhui Wu, Hao Cheng, Wenlin Yao, Nikhil Singh, Zhou Yu, J...",
+        "original_date": "2026-07-23"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-training",
+        "reinforcement-learning",
+        "harness-native",
+        "openforge",
+        "tool-use"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文提出 OpenForgeRL，把 Claude CodeCodexOpenClaw 这类真实 inference harness 放进训练闭环：代理层记录多轮模型调用和工具使用，Kubernetes 为 rollout 提供隔离容器，再把轨迹接入 veRL 等强化学习栈它的价值在于把 agent 学习难度从抽象 benchmark 拉回真实环境工具状态和 harness 行为差异",
+      "summary_en": "Modern AI agents rely on elaborate inference harnesses such as Claude Code, Codex, and OpenClaw to drive multi-turn reasoning, tool use, and access to external systems. While powerful, these complex harnesses also make agents hard to train end-to-end with open infrastructure, whose SFT/RL stacks cannot natively express stateful, multi-process harness inference. To address this, we present OpenForgeRL, an open-source framework for training harness-based agents end-to-end in diverse environments. OpenForgeRL achieves this with a lightweight proxy that serves the harness's model calls while recording them as training data for a standard RL codebase (e.g., veRL), and a Kubernetes orchestrator that runs each rollout in its own remote container, together enabling training on any harness in any environment at scale....",
+      "one_liner": "Agent 训练正在从离线任务转向真实 harness 内的轨迹工具和容器化 rollout",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9602dd05.md",
+      "images": [],
+      "added_date": "2026-07-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "76cb74c5",
+      "title": "IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests",
+      "url": "https://arxiv.org/abs/2607.20759",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ankur Singh, Jinqiu Yang, Tse-Hsun Chen",
+        "original_date": "2026-07-22"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "agent-security",
+        "prompt-injection",
+        "benchmark",
+        "malicious-issues"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "IssueTrojanBench 面向 CursorClaude CodeCodex Desktop 等 coding agent，构造恶意 issuePDF评论等投递方式来测试请求注入摘要报告 66.5% 的恶意 issue 能绕过 agent 与模型 guardrails，说明工程协作材料本身已经成为不可信输入，必须隔离文件系统命令执行和工具权限",
+      "summary_en": "AI coding agents powered by LLMs are increasingly integrated into real-world software development, where they generate, edit, and execute code with autonomous access to local files and tools. Coding agents inherit security risks from both the LLM backbone, where adversarial prompts, poisoned training data, and backdoor triggers can cause models to emit insecure or attacker-chosen code, and their agentic architecture, where tool-using autonomy enables induced misuse of external APIs, data exfiltration, and persistent compromise of development environments. This paper presents a systematic evaluation of malicious issue requests against state-of-the-art coding agents (Cursor, Claude Code, and Codex Desktop), powered by two major model families (OpenAI GPT-5.3 Codex/GPT-5.4 and Anthropic Sonnet 4.6)....",
+      "one_liner": "恶意 issue 已经是 coding agent 的真实供应链输入，防线必须覆盖工具执行而不只是模型拒答",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/76cb74c5.md",
+      "images": [],
+      "added_date": "2026-07-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d6f73d78",
+      "title": "(A)I Sees What You Don't: Exploiting New Attack Surfaces in Third-Party Mobile Agents",
+      "url": "https://arxiv.org/abs/2607.00333",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zidong Zhang, Zhentao Xie, Wenrui Diao, Jianliang Wu",
+        "original_date": "2026-07-01"
+      },
+      "category": "agents",
+      "tags": [
+        "mobile-agents",
+        "android-security",
+        "vlm",
+        "adb",
+        "agent-security"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文研究第三方 Android 移动 Agent 的新攻击面：VLM 通过截图感知设备状态，再经由 ADB广播输入法或 shell 通道执行动作作者把风险拆成屏幕感知攻击和误用通道攻击，指向截图 TOCTOU不可见像素shell 拼接和明文输入泄漏等具体工程边界",
+      "summary_en": "Third-party mobile agents powered by Vision-Language Models (VLMs) have emerged as a promising paradigm for automating smartphone interactions. These agents act as high-privilege decision-makers, perceiving device states through screenshots and executing actions via VLM reasoning, transforming how an agent app interacts with the environment (i.e., other apps or the OS). Correspondingly, this transformation introduces new attack surfaces or transforms benign/harmless interfaces into exploitable ones for mobile devices....",
+      "one_liner": "移动 Agent 的风险来自截图ADB广播和输入通道的组合，而不是单一模型漏洞",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d6f73d78.md",
+      "images": [],
+      "added_date": "2026-07-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dc81af83",
+      "title": "Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context",
+      "url": "https://arxiv.org/abs/2607.21535",
+      "source": {
+        "platform": "arxiv",
+        "author": "Alagappan Valliappan",
+        "original_date": "2026-07-23"
+      },
+      "category": "infra",
+      "tags": [
+        "speculative-decoding",
+        "long-context",
+        "mtp",
+        "sglang",
+        "inference"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Windowed-MTP 针对百万 token 上下文下 speculative decoding 的 draft KV 成本，给 MTP draft attention 加滑窗与 attention sink，而 target verification 仍保留全注意力摘要称在 1M 上下文中 draft KV 工作集可降约 99%，SGLang 单卡 decode-step 成本下降 28%44%",
+      "summary_en": "Speculative decoding accelerates autoregressive generation by having a cheap draft propose tokens that a target verifies in parallel. Frontier models increasingly ship a built-in Multi-Token-Prediction (MTP/NEXTN) draft head under the assumption that the draft is negligibly cheap. At million-token context this breaks: an MTP draft head typically runs full attention over the entire KV cache at every draft step, so its read grows linearly with context and comes to dominate the draft cost -- precisely where speculation is most valuable. The effect compounds with draft length (a deep native draft can turn net-negative, slower than no speculation) and sharpens under hybrid/linear-attention targets, where cheaper verification leaves the draft's full-attention read exposed....",
+      "one_liner": "百万 token 上下文下，draft 模型的 KV 成本已经从小优化变成推理系统瓶颈",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dc81af83.md",
+      "images": [],
+      "added_date": "2026-07-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "560ed518",
+      "title": "Toward cryptographically verifiable authorization for autonomous AI agents: A security hypothesis, preliminary formal model, and proof-of-co...",
+      "url": "https://arxiv.org/abs/2607.21325",
+      "source": {
+        "platform": "arxiv",
+        "author": "M. Llamb-Morillas, D. Fernndez-Fernndez",
+        "original_date": "2026-07-23"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-authorization",
+        "zk-snark",
+        "security-model",
+        "tool-calling",
+        "autonomous-agents"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文尝试把自主 Agent 授权形式化为可验证关系，绑定 agent principal具体请求执行上下文和策略满足，并用 Groth16 zk-SNARK 做概念验证它不是成熟产品方案，但为工具调用受保护资源访问和有限人工监督下的授权边界提供了一个可讨论模型",
+      "summary_en": "Autonomous AI agents increasingly execute actions, invoke tools, and operate on protected resources with limited human oversight. Existing authentication and authorization mechanisms establish identity and delegate authority, but do not inherently provide cryptographic evidence that a concrete request issued by a specific agent satisfies the applicable policy in a specific execution context. This paper hypothesizes that agent authorization can be formalized as a cryptographically verifiable relation, denoted $R_{CVA}$, that jointly binds an agent principal, a concrete authorization request, an execution context, and the satisfaction of an applicable policy, while selectively preserving the confidentiality of private authorization attributes....",
+      "one_liner": "Agent 授权需要绑定主体请求上下文和策略满足关系，密码学证明提供了一个可讨论边界",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/560ed518.md",
+      "images": [],
+      "added_date": "2026-07-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-07-25",
-  "total_entries": 1509
+  "total_entries": 1514
 }
