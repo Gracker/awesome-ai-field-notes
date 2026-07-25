@@ -1,6 +1,124 @@
 # Changelog
-# Changelog
 
+## 2026-07-20 ~ 2026-07-26
+
+> 基线快照: `27b647c:data/entries.json` (2026-07-20 前，1430 条) → 本次: 1514 条 (**+84**)
+> 生成时间: 2026-07-26；条目来源按 `added_date` 与 git 基线交叉校验。
+
+### 📈 新增 (84)
+
+**🆕 高质量新增 (⭐≥4, 77 条)**
+- [Agents in the Wild: Where Research Meets Deployment](https://arxiv.org/abs/2607.19336) — agents ⭐⭐⭐⭐⭐ (2026-07-23)
+- [Automated Discovery Has No Universally Superior Harness](https://arxiv.org/abs/2607.18235) — agents ⭐⭐⭐⭐⭐ (2026-07-22)
+- [Externalization in LLM Agents: A Unified Review of Memory, Skills, Protocols and Harness Engineering](https://arxiv.org/abs/2604.08224) — agents ⭐⭐⭐⭐⭐ (2026-07-21)
+- [ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D](https://arxiv.org/abs/2607.19321) — agents ⭐⭐⭐⭐⭐ (2026-07-23)
+- [When Do Multi-Agent Systems Help? An Information Bottleneck Perspective](https://arxiv.org/abs/2607.16133) — agents ⭐⭐⭐⭐⭐ (2026-07-22)
+- [A Fireside Chat with Cat and Thariq from the Claude Code team](https://simonwillison.net/2026/Jul/21/cat-and-thariq) — coding ⭐⭐⭐⭐⭐ (2026-07-22)
+- [Beyond Fail-to-Pass: Iterative Hardening of Co-Generated Bug Reproduction Tests and Fixes](https://arxiv.org/abs/2607.19843) — coding ⭐⭐⭐⭐⭐ (2026-07-24)
+- [Claude Code Sends 4.7x More Tokens Than OpenCode Before Reading Your Prompt](https://systima.ai/blog/claude-code-vs-opencode-token-overhead) — coding ⭐⭐⭐⭐⭐ (2026-07-22)
+- [Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting](https://arxiv.org/abs/2607.00038) — coding ⭐⭐⭐⭐⭐ (2026-07-22)
+- [Don't Trust the Label: License Laundering in AI Supply Chains](https://arxiv.org/abs/2607.20300) — industry ⭐⭐⭐⭐⭐ (2026-07-24)
+- [Measuring Reward-Seeking by Instilling Contrastive Beliefs](https://alignment.openai.com/measuring-reward-seeking) — industry ⭐⭐⭐⭐⭐ (2026-07-22)
+- [LLMs and Agentic AI Systems for Smart Grids: A Tutorial on Architectures and Applications](https://arxiv.org/abs/2607.18147) — learning ⭐⭐⭐⭐⭐ (2026-07-22)
+- [The safety failures we are not instrumenting: a perspective on hidden safety-critical challenges in modern AI systems](https://arxiv.org/abs/2607.19292) — learning ⭐⭐⭐⭐⭐ (2026-07-23)
+- [OpenAI and Hugging Face partner to address security incident during model evaluation](https://openai.com/index/hugging-face-model-evaluation-security-incident) — models ⭐⭐⭐⭐⭐ (2026-07-22)
+- [(A)I Sees What You Don't: Exploiting New Attack Surfaces in Third-Party Mobile Agents](https://arxiv.org/abs/2607.00333) — agents ⭐⭐⭐⭐ (2026-07-25)
+- [A Framework of User Experience Principles for Human-AI Agent Interaction in the Workplace](https://arxiv.org/abs/2607.19941) — agents ⭐⭐⭐⭐ (2026-07-24)
+- [Code as Agent Harness](https://arxiv.org/abs/2605.18747) — agents ⭐⭐⭐⭐ (2026-07-21)
+- [Demystifying evals for AI agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) — agents ⭐⭐⭐⭐ (2026-07-23)
+- [Evaluating Privilege Usage of Agents with Real-World Tools](https://arxiv.org/abs/2603.28166) — agents ⭐⭐⭐⭐ (2026-07-25)
+- [FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications](https://arxiv.org/abs/2607.18171) — agents ⭐⭐⭐⭐ (2026-07-22)
+- [From Prompts to Contracts: Harness Engineering for Auditable Enterprise LLM Agents](https://arxiv.org/abs/2607.08028) — agents ⭐⭐⭐⭐ (2026-07-22)
+- Graph Engineering：Agent 执行图工程的旧内核新名字与建模边界 — agents ⭐⭐⭐⭐ (2026-07-21)
+- [Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes](https://arxiv.org/abs/2607.19297) — agents ⭐⭐⭐⭐ (2026-07-23)
+- [Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable](https://arxiv.org/abs/2607.13285) — agents ⭐⭐⭐⭐ (2026-07-22)
+- [LLMoxie: Exploring Agentic AI for Scientific Software Development](https://arxiv.org/abs/2607.02703) — agents ⭐⭐⭐⭐ (2026-07-22)
+- [Making Failure Safe: A Constrained, Verifiable Agent Framework for Open-Web Data Collection](https://arxiv.org/abs/2607.00035) — agents ⭐⭐⭐⭐ (2026-07-22)
+- [MiniScope: A Least Privilege Framework for Authorizing Tool Calling Agents](https://arxiv.org/abs/2512.11147) — agents ⭐⭐⭐⭐ (2026-07-25)
+- [Notes to Self: Can LLMs Benefit from Experiential Abstractions?](https://arxiv.org/abs/2607.20372) — agents ⭐⭐⭐⭐ (2026-07-24)
+- [OpenAIs accidental cyberattack against Hugging Face is science fiction that happened](https://simonwillison.net/2026/Jul/22/openai-cyberattack) — agents ⭐⭐⭐⭐ (2026-07-23)
+- [OpenForgeRL: Train Harness-native Agents in Any Environment](https://arxiv.org/abs/2607.21557) — agents ⭐⭐⭐⭐ (2026-07-25)
+- [Progent: Securing AI Agents with Privilege Control](https://arxiv.org/abs/2504.11703) — agents ⭐⭐⭐⭐ (2026-07-25)
+- [Proof-or-Stop: Don't Trust the Agent, Trust the Evidence -- Loop Engineering for Verifiable Evidence-Gated Lifecycle Control](https://arxiv.org/abs/2607.14890) — agents ⭐⭐⭐⭐ (2026-07-20)
+- [RecoAtlas: From Semantic Plausibility to Set-Level Utility in LLM Recommendation Agents](https://arxiv.org/abs/2605.18805) — agents ⭐⭐⭐⭐ (2026-07-25)
+- [Recursive Harness Self-Improvement](https://arxiv.org/abs/2607.15524) — agents ⭐⭐⭐⭐ (2026-07-22)
+- [SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration](https://arxiv.org/abs/2607.15257) — agents ⭐⭐⭐⭐ (2026-07-20)
+- [Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees](https://arxiv.org/abs/2606.24322) — agents ⭐⭐⭐⭐ (2026-07-21)
+- [Setup Complete, Now You Are Compromised: Weaponizing Setup Instructions Against AI Coding Agents](https://arxiv.org/abs/2607.15143) — agents ⭐⭐⭐⭐ (2026-07-20)
+- [The biggest MCP spec update ships July 28: What changes for AI agent authentication](https://workos.com/blog/mcp-2026-spec-agent-authentication) — agents ⭐⭐⭐⭐ (2026-07-20)
+- [When Does Muon Help Agentic Reinforcement Learning?](https://arxiv.org/abs/2607.16169) — agents ⭐⭐⭐⭐ (2026-07-21)
+- [When Lower Privileges Suffice: Investigating Over-Privileged Tool Selection in LLM Agents](https://arxiv.org/abs/2606.20023) — agents ⭐⭐⭐⭐ (2026-07-24)
+- [CodeAlmanac: A codebase wiki for AI coding agents](https://github.com/AlmanacCode/codealmanac) — coding ⭐⭐⭐⭐ (2026-07-22)
+- [CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents](https://arxiv.org/abs/2607.19338) — coding ⭐⭐⭐⭐ (2026-07-23)
+- [Custom Code Review rules for Codex](https://developers.openai.com/blog/custom-code-review-rules-for-codex) — coding ⭐⭐⭐⭐ (2026-07-22)
+- [IssueTrojanBench: Benchmarking AI Coding Agents Against Malicious Issue Requests](https://arxiv.org/abs/2607.20759) — coding ⭐⭐⭐⭐ (2026-07-25)
+- [Lessons from Building Claude Code: How We Use Skills](https://x.com/trq212/status/2033949937936085378) — coding ⭐⭐⭐⭐ (2026-07-23)
+- [Open source software distribution may be rewritten by coding agents](http://antirez.com/news/170) — coding ⭐⭐⭐⭐ (2026-07-24)
+- [Reproducible, Explainable, and Effective Evaluations of Agentic AI for Software Engineering](https://arxiv.org/abs/2604.01437) — coding ⭐⭐⭐⭐ (2026-07-24)
+- [Rewriting Bun in Rust](https://bun.com/blog/bun-in-rust) — coding ⭐⭐⭐⭐ (2026-07-20)
+- [SWE-Pruner Pro: The Coder LLM Already Knows What to Prune](https://arxiv.org/abs/2607.18213) — coding ⭐⭐⭐⭐ (2026-07-22)
+- [Software Delegation Contracts: Measuring Reviewability in AI Coding-Agent Work](https://arxiv.org/abs/2606.17099) — coding ⭐⭐⭐⭐ (2026-07-21)
+- [TRIM: Reducing AI-Generated CodeSlop via Agent Trajectory Minimization](https://arxiv.org/abs/2607.18161) — coding ⭐⭐⭐⭐ (2026-07-22)
+- [Test iOS apps in the simulator (Claude Code Desktop)](https://code.claude.com/docs/en/desktop-ios-simulator) — coding ⭐⭐⭐⭐ (2026-07-22)
+- [git --end-of-options 背后的参数注入安全边界](https://nesbitt.io/2026/07/21/end-of-options.html) — coding ⭐⭐⭐⭐ (2026-07-21)
+- [AI Mania Is Eviscerating Global Decision-Making](https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making) — industry ⭐⭐⭐⭐ (2026-07-20)
+- [European Commission guidance: AI interoperability on Android & Google Search sharing](https://daringfireball.net/2026/07/ec_google_guidance_android_ai_and_search_sharing) — industry ⭐⭐⭐⭐ (2026-07-22)
+- [Generative AI floods and dilutes the market for books](https://arxiv.org/abs/2607.20349) — industry ⭐⭐⭐⭐ (2026-07-24)
+- [Powerful AIs might escape containment by releasing themselves as open-weight models](https://seangoedecke.com/powerful-ais-might-escape-by-releasing-open-weight-models) — industry ⭐⭐⭐⭐ (2026-07-23)
+- [Startup founders urge Trump not to shut off Chinese open weight AI](https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992) — industry ⭐⭐⭐⭐ (2026-07-24)
+- [The Arguments Against Open Source AI are Very Bad](https://tombedor.dev/arguments-against-open-source-ai-are-very-bad) — industry ⭐⭐⭐⭐ (2026-07-24)
+- [The Subprime Data Center Crisis](https://www.wheresyoured.at/the-subprime-data-center-crisis) — industry ⭐⭐⭐⭐ (2026-07-23)
+- [Whos Afraid of Chinese Models?](https://stratechery.com/2026/whos-afraid-of-chinese-models) — industry ⭐⭐⭐⭐ (2026-07-21)
+- [Build intelligent Android apps: On-device inference](https://android-developers.googleblog.com/2026/07/android-on-device-inference.html) — infra ⭐⭐⭐⭐ (2026-07-24)
+- [MV-Bench: Benchmarking Multimodal Large Language Models for Coordinated Multi-View Interface Construction](https://arxiv.org/abs/2607.19910) — infra ⭐⭐⭐⭐ (2026-07-24)
+- [Nobody knows what a used GPU cluster is worth](https://ciphertalk.substack.com/p/nobody-knows-what-a-used-gpu-cluster) — infra ⭐⭐⭐⭐ (2026-07-23)
+- [PyroDash: Cost-Efficient Token-Level Small-Large Language Model Collaborative Inference](https://arxiv.org/abs/2607.20327) — infra ⭐⭐⭐⭐ (2026-07-24)
+- [WAR: Workload-Aware Rollouts for Synchronous Agentic Reinforcement Learning](https://arxiv.org/abs/2607.17299) — infra ⭐⭐⭐⭐ (2026-07-22)
+- [Windowed-MTP: Removing the Full-Context Draft-KV Tax at Million-Token Context](https://arxiv.org/abs/2607.21535) — infra ⭐⭐⭐⭐ (2026-07-25)
+- [AI Didn't Make Programming Easier. It Just Made It Differently Difficult](https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult) — learning ⭐⭐⭐⭐ (2026-07-22)
+- [Can a MUD evaluate LLMs? CrucibleBench](https://cruciblebench.ai/) — learning ⭐⭐⭐⭐ (2026-07-23)
+- [Testing Retrieval-Augmented Generation Systems with Chunk Coverage](https://arxiv.org/abs/2607.18155) — learning ⭐⭐⭐⭐ (2026-07-22)
+- [Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations](https://arxiv.org/abs/2607.20379) — learning ⭐⭐⭐⭐ (2026-07-24)
+- [Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber) — models ⭐⭐⭐⭐ (2026-07-22)
+- [Introducing Laguna S 2.1](https://poolside.ai/blog/introducing-laguna-s-2-1) — models ⭐⭐⭐⭐ (2026-07-22)
+- [Kimi K3 is competitive with Fable; Kimi K3 + Fable is SoTA](https://fireworks.ai/blog/kimik3-fable) — models ⭐⭐⭐⭐ (2026-07-22)
+- [LLM-as-a-Coach: Experiential Learning for Non-Verifiable Tasks](https://arxiv.org/abs/2607.18110) — models ⭐⭐⭐⭐ (2026-07-22)
+- [Overtraining as the path to human-like AI](https://seangoedecke.com/overtraining-as-the-path-to-human-like-ai) — models ⭐⭐⭐⭐ (2026-07-20)
+- [Sound Probabilistic Safety Bounds for Large Language Models](https://arxiv.org/abs/2607.20286) — models ⭐⭐⭐⭐ (2026-07-24)
+
+**📝 普通新增 (⭐<4, 7 条)**
+- [Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive Security Agents](https://arxiv.org/abs/2607.15263) — agents ⭐⭐⭐ (2026-07-20)
+- [Toward cryptographically verifiable authorization for autonomous AI agents: A security hypothesis, preliminary formal model, and proof-of-co...](https://arxiv.org/abs/2607.21325) — agents ⭐⭐⭐ (2026-07-25)
+- [Claude Code uses Bun written in Rust now](https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust) — coding ⭐⭐⭐ (2026-07-20)
+- [Coding agents make cheap reverse engineering more worthwhile](https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering) — coding ⭐⭐⭐ (2026-07-21)
+- [On the Adoption of AI Coding Agents in Open-source Android and iOS Development](https://arxiv.org/abs/2602.12144) — coding ⭐⭐⭐ (2026-07-20)
+- [Introducing OpenAI Frontier](https://openai.com/index/introducing-openai-frontier) — industry ⭐⭐⭐ (2026-07-20)
+- [What's the deal with all the random weekly quota resets for agents lately?](https://minimaxir.com/2026/07/agent-quota-reset) — industry ⭐⭐⭐ (2026-07-23)
+
+### 📦 归档 (1)
+- [什么 AI 写 Android 最好用？官方做了一个基准测试排名](https://juejin.cn/post/7614897667961143347) — 状态变更为 archived
+
+### ✏️ 评分调整 (0)
+- 无
+
+### 🧭 分类调整 (1)
+- [什么 AI 写 Android 最好用？官方做了一个基准测试排名](https://juejin.cn/post/7614897667961143347) — uncategorized→models
+
+### 📊 分类变更分布
+
+| 分类 | 新增 | 归档 | 评分调整 |
+|------|------|------|----------|
+| agents | +33 | -0 | 0 |
+| coding | +20 | -0 | 0 |
+| industry | +12 | -0 | 0 |
+| models | +7 | -1 | 0 |
+| infra | +6 | -0 | 0 |
+| learning | +6 | -0 | 0 |
+
+### 📈 统计
+- 总条目: 1430 → 1514 (**+84**)
+- 活跃条目: 1173 → 1256 (**+83**)
+- 本周最高分新增: [Agents in the Wild: Where Research Meets Deployment](https://arxiv.org/abs/2607.19336) ⭐⭐⭐⭐⭐
 
 ## 2026-07-06 ~ 2026-07-12
 
