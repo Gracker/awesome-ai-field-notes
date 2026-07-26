@@ -42244,8 +42244,136 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "eea91b74",
+      "title": "LLMs reward expertise",
+      "url": "https://seangoedecke.com/llms-reward-expertise",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-07-24"
+      },
+      "category": "learning",
+      "tags": [
+        "llm-workflow",
+        "expertise",
+        "prompting",
+        "software-engineering",
+        "knowledge-work"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Sean Goedecke 用陶哲轩与 ChatGPT 讨论 Jacobian Conjecture 的例子说明，提示词能力不是模板技巧，而是领域专家能判断模型回答哪里有用哪里不对下一步该怎么收敛放到工程场景里，熟悉代码库的人能用 LLM 验证改写和缩小问题，没有上下文的人只能拿到平均答案",
+      "summary_en": "The article argues that LLMs make everyone a generalist, but the strongest prompting skill is domain expertise. Using Terence Taos interaction with ChatGPT about the Jacobian Conjecture as an example, it shows that experts extract better results because they can spot useful fragments, reject wrong turns, and ask the next precise question.",
+      "one_liner": "LLM 让人人变成泛化手，但真正上限来自领域专家的判断力",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/eea91b74.md",
+      "images": [],
+      "added_date": "2026-07-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2635b89b",
+      "title": "Open-weight AI is having its Kubernetes moment. Let's not ruin it.",
+      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment",
+      "source": {
+        "platform": "blog",
+        "author": "Tobi Knaup",
+        "original_date": "2026-07-25"
+      },
+      "category": "infra",
+      "tags": [
+        "open-weight-models",
+        "ai-infrastructure",
+        "kubernetes",
+        "ecosystem",
+        "model-governance"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Tobi Knaup 借 Kubernetes 打败 Mesos 的历史解释 open-weight AI 的平台化时刻：当模型权重可运行可微调可部署时，推理服务Agent runtime评测沙箱可观测性和垂直微调会围绕共同底座继续生长文章也提醒 open-weight 不等于完整开源，政策应通过开放前沿模型采购标准测试和配套基础设施参与竞争，而不是粗暴封禁",
+      "summary_en": "The article compares todays open-weight model ecosystem with Kubernetes rise as a neutral substrate. It argues that Qwen, GLM, Kimi and similar models can anchor inference, agent runtimes, evaluations, sandboxes, observability and vertical fine-tuning, while noting that open weights are not the same as full open source and require thoughtful policy competition.",
+      "one_liner": "开放权重模型正在成为 AI 基础设施的中立底座，竞争重点会转向运行时和生态",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/2635b89b.md",
+      "images": [],
+      "added_date": "2026-07-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8aed8c89",
+      "title": "Bringing PyTorch Monarch to AMD GPUs: Single-Controller Distributed Training on ROCm",
+      "url": "https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm",
+      "source": {
+        "platform": "blog",
+        "author": "PyTorch Team",
+        "original_date": null
+      },
+      "category": "infra",
+      "tags": [
+        "pytorch",
+        "monarch",
+        "rocm",
+        "distributed-training",
+        "fault-tolerance"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "PyTorch 团队把 Monarch 的单控制器actor runtimeprocess mesh 和 supervision tree 带到 ROCm，让 AMD GPU 集群可以跑弹性分布式训练文章给出 TorchTitanTorchFTMonarch 组合后的无全局重启恢复流程，包括本地重启Lighthouse 选 donorpeer checkpoint transfer 和 quorum 重建，并展示 128/256 GPU 规模下的故障恢复实验",
+      "summary_en": "The PyTorch post describes porting Monarchs single-controller runtime and distributed communication stack to ROCm for AMD Instinct GPUs. It focuses on elastic, fault-tolerant distributed training using actors, process meshes, supervision trees, TorchTitan and TorchFT, including local restart, donor selection, peer checkpoint transfer and quorum recovery.",
+      "one_liner": "大模型训练基础设施开始把 GPU 和节点故障当成常态来设计恢复路径",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8aed8c89.md",
+      "images": [],
+      "added_date": "2026-07-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c5c9715a",
+      "title": "当我们聊 Agent OS 时，我们聊些什么",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkzNTk2MDUxMg%3D%3D&mid=2247484348&idx=1&sn=cbf6bd580b44738c6f501f9ffd6383bb&chksm=c3f5eb56a9d66370fc52075887c47735629523dabdbc4cac41a5b90fe09da491d20fd3c16c15",
+      "source": {
+        "platform": "wechat",
+        "author": "非共识进化论 / Fortune OS",
+        "original_date": "2026-07-26"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-os",
+        "memory",
+        "skills",
+        "agent-orchestration",
+        "data-fabric"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "这篇访谈把 Agent OS 从消费级 Agent 热潮中拆出来：它要解决的不是让单个 Agent 更会聊天，而是让 Agent 能被调度组合持久化和信任文中把核心模块拆成身份人格分层记忆Skill Schema 与沙箱编排调度权限边界和 Data Fabric，并强调场景容器与共享能力引擎分离，适合作为 Agent 产品架构讨论材料",
+      "summary_en": null,
+      "one_liner": "Agent OS 的核心不是更强聊天框，而是围绕记忆技能权限和数据编织的系统层",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c5c9715a.md",
+      "images": [],
+      "added_date": "2026-07-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-07-26",
-  "total_entries": 1519
+  "total_entries": 1523
 }
