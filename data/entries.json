@@ -42084,8 +42084,168 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "532bd31f",
+      "title": "ACE: A Security Architecture for LLM-Integrated App Systems",
+      "url": "https://arxiv.org/abs/2504.20984",
+      "source": {
+        "platform": "arxiv",
+        "author": "Evan Li, Tushin Mallick, Evan Rose, William Robertson, Alina Oprea, Cristina Nita-Rotaru",
+        "original_date": "2025-04-29"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-apps",
+        "agent-security",
+        "tool-calling",
+        "prompt-injection",
+        "secure-architecture"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "ACE 把 LLM 集成第三方 App 的风险拆成 planning 与 execution 两层：恶意 App 不只会做提示注入，还会破坏计划完整性执行可用性和隐私边界论文提出 Abstract-Concrete-Execute：先只基于可信信息生成抽象计划，再映射到具体已安装 App，为工具/应用调用型 Agent 提供可验证的安全架构切分",
+      "summary_en": "LLM-integrated app systems extend LLMs with third-party apps invoked through interleaved planning and execution. The paper identifies attacks where malicious apps can cause planning integrity violations, execution integrity and availability failures, or privacy compromise, including attacks against IsolateGPT. It proposes Abstract-Concrete-Execute (ACE), which separates planning into an abstract plan using only trusted information and then maps that plan to concrete installed apps, aiming to provide security guarantees for planning and execution.",
+      "one_liner": "LLM App 系统的安全边界应先抽象规划再具体执行，避免恶意 App 污染计划阶段",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/532bd31f.md",
+      "images": [],
+      "added_date": "2026-07-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2f5c584c",
+      "title": "Prompt Flow Integrity to Prevent Privilege Escalation in LLM Agents",
+      "url": "https://arxiv.org/abs/2503.15547",
+      "source": {
+        "platform": "arxiv",
+        "author": "Juhee Kim, Woohyuk Choi, Byoungyoung Lee",
+        "original_date": "2025-03-17"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agents",
+        "privilege-escalation",
+        "prompt-flow-integrity",
+        "agent-isolation",
+        "agent-security"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "PFI 关注 LLM Agent 的提示流而不是单次提示：用户输入和工具返回数据都会在运行时改写 Agent 行为，从而产生权限升级风险论文给出三类缓解：Agent 隔离不可信数据安全处理权限升级护栏；其价值在于把工具调用权限问题转成可分析的系统安全控制面",
+      "summary_en": "LLM agents combine models with tools, but their behavior is determined at runtime by natural-language prompts from users and tool data. The paper argues that this flexibility introduces privilege escalation risks and non-deterministic insecure interpretations of user prompts. It proposes Prompt Flow Integrity (PFI), a system-security solution with agent isolation, secure untrusted-data processing, and privilege-escalation guardrails; evaluation reports mitigation of privilege escalation while preserving agent utility.",
+      "one_liner": "Agent 权限升级防护需要追踪提示流，隔离用户意图与工具返回的不可信数据",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2f5c584c.md",
+      "images": [],
+      "added_date": "2026-07-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4e2adb57",
+      "title": "Caging the Agents: A Zero Trust Security Architecture for Autonomous AI in Healthcare",
+      "url": "https://arxiv.org/abs/2603.17419",
+      "source": {
+        "platform": "arxiv",
+        "author": "Saikat Maiti",
+        "original_date": "2026-03-18"
+      },
+      "category": "agents",
+      "tags": [
+        "zero-trust",
+        "healthcare-ai",
+        "agent-security",
+        "prompt-injection",
+        "production-agents"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "这篇论文把自主 Agent 放在医疗生产环境中讨论：当 Agent 拥有 shell文件系统数据库查询和多方通信能力时，未授权服从敏感信息泄露身份伪造跨 Agent 传播和间接提示注入都会变成 PHI/HIPAA 风险其六域威胁模型适合用作生产 Agent 安全评审清单",
+      "summary_en": "The paper studies autonomous LLM agents in production settings with shell execution, file-system access, database queries, and multi-party communication. In healthcare environments processing protected health information, vulnerabilities such as unauthorized compliance, sensitive disclosure, identity spoofing, unsafe cross-agent propagation, and indirect prompt injection become compliance risks. It presents a six-domain threat model covering credentials, execution abuse, network egress, prompt integrity, database access, and fleet configuration drift, plus a layered zero-trust defense architecture.",
+      "one_liner": "生产级 Agent 安全不能只靠提示词，需要覆盖凭证执行网络数据库和配置漂移的零信任架构",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4e2adb57.md",
+      "images": [],
+      "added_date": "2026-07-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0ede1638",
+      "title": "AutoRestTest at the SBFT 2026 Tool Competition",
+      "url": "https://arxiv.org/abs/2607.01063",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tyler Stennett, Myeongsoo Kim, Saurabh Sinha, Alessandro Orso",
+        "original_date": "2026-07-01"
+      },
+      "category": "agents",
+      "tags": [
+        "software-testing",
+        "rest-api",
+        "multi-agent-rl",
+        "llm-testing",
+        "sbft-2026"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "AutoRestTest 是一个把 LLM 与多 Agent 强化学习放进 REST API 黑盒测试的工具竞赛结果：用语义属性依赖图建模接口依赖，再让多 Agent 探索输入空间它在 SBFT 2026 REST League 的 11 个 API 上同时拿到故障发现效率有效性第一，说明 Agent 化测试正在从 demo 进入可度量竞赛",
+      "summary_en": "AutoRestTest addresses black-box REST API testing, where large input spaces and inter-operation dependencies make exploration difficult. It combines a Semantic Property Dependency Graph, multi-agent reinforcement learning, and large language models to explore API inputs. In the SBFT 2026 REST League, it ranked first across fault detection, overall efficiency, and effectiveness on 11 APIs, reporting an average of 67.09 unique server errors and 17.27 successfully processed operations per API under a one-hour budget.",
+      "one_liner": "REST API 黑盒测试正在被 LLM + 多 Agent 强化学习改造成可竞赛评估的自动探索问题",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0ede1638.md",
+      "images": [],
+      "added_date": "2026-07-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5a76a55b",
+      "title": "AEMA: Verifiable Evaluation Framework for Trustworthy and Controlled Agentic LLM Systems",
+      "url": "https://arxiv.org/abs/2601.11903",
+      "source": {
+        "platform": "arxiv",
+        "author": "YenTing Lee, Keerthi Koneru, Zahra Moslemi, Sheethal Kumar, Ramesh Radhakrishnan",
+        "original_date": "2026-01-17"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-evaluation",
+        "multi-agent-systems",
+        "llm-as-judge",
+        "auditability",
+        "trustworthy-ai"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "AEMA 针对企业级多 Agent 系统评估：单轮 LLM-as-Judge 或窄 benchmark 难以覆盖多步流程的协调透明和可追溯性论文提出一个过程感知可审计的评估 Agent 框架，负责规划执行并汇总异构工作流评估，同时保留人工监督与 trace record，适合作为 Agent 评测体系的工程参考",
+      "summary_en": "AEMA targets evaluation of LLM-based multi-agent systems, where workflows must show reliable coordination, transparent decision-making, and verifiable performance across changing tasks. The paper criticizes single-response scoring and narrow benchmarks for lacking stability, extensibility, and automation at enterprise multi-agent scale. It proposes Adaptive Evaluation Multi-Agent, a process-aware auditable framework that plans, executes, and aggregates multi-step evaluations across heterogeneous workflows under human oversight, reporting greater stability, human alignment, and traceable records than a single LLM-as-a-Judge.",
+      "one_liner": "多 Agent 系统评估需要过程级审计记录，而不是只看单次回答分数",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5a76a55b.md",
+      "images": [],
+      "added_date": "2026-07-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-25",
-  "total_entries": 1514
+  "last_updated": "2026-07-26",
+  "total_entries": 1519
 }
