@@ -42966,8 +42966,202 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "fe359ce0",
+      "title": "The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents",
+      "url": "https://arxiv.org/abs/2607.22520",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agents",
+        "skills",
+        "regression",
+        "evaluation",
+        "grounding",
+        "verification"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "为LLM Agent添加程序性技能通常以平均任务成功率来评估，但这掩盖了一个关键代价：技能也可能导致性能倒退作者在约6000次实验运行中发现三种倒退机制：技能描述渗透（即使未被调用也改变Agent行为）接地偏移（程序步骤覆盖输入解释）验证偏移（程序抑制了Agent本应执行的输出检查）最佳技能的优势主要在于倒退更少，而非增益更大Agent可靠性更多依赖接地和验证环节，而非程序性技能的选择",
+      "summary_en": "Adding procedural skills to LLM agents is typically evaluated by average task improvement, but this hides a critical cost: skills can also cause regressions. Across ~6,000 runs on two office automation benchmarks and three model harness stacks, the authors identify three regression mechanisms: (1) skill description osmosis (skills alter agent behavior even when never invoked), (2) grounding displacement (procedures override input interpretation), and (3) verification displacement (procedures suppress output checks). The best-performing skills win primarily by regressing less, not by gaining more. Reliability depends more on grounding and verification than on procedural skill choice.",
+      "one_liner": "为LLM Agent添加程序性技能通常以平均任务成功率来评估，但这掩盖了一个关键代价：技能也可能导致性能倒退作者在约6000次实验运行中发现三种倒退机制：技能描述渗透（即使未被调用也改变Agent行为）接地偏移（程序步骤覆盖输入解释）验证偏移（程序抑制了Agent本应执行的输出检...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/fe359ce0.md",
+      "images": [],
+      "added_date": "2026-07-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fe769637",
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "url": "https://arxiv.org/abs/2607.22529",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": null
+      },
+      "category": "models",
+      "tags": [
+        "self-play",
+        "skill-evolution",
+        "reinforcement-learning",
+        "tool-use",
+        "self-improvement"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Skill Self-Play (Skill-SP) 是一个共同进化框架，解决了LLM自我进化中任务多样性与验证可靠性之间的根本矛盾它将Agent技能作为中间层：每个技能在特定场景下提供可验证执行，而动态路由保持开放式任务多样性系统包含提议者求解者和动态技能控制器在工具使用和推理基准上，对强模型持续提升上限，对初始对齐不良的模型实现显著逆转",
+      "summary_en": "Skill Self-Play (Skill-SP) is a co-evolutionary framework that reconciles the tension between task diversity and verification reliability in LLM self-evolution. It uses agent skills as a middle ground: each skill provides verifiable execution in a specific scenario while dynamic routing maintains open-ended task variety. The system comprises a proposer (generates challenging tasks from sampled skills), a solver (explores solutions to push capability boundaries), and a dynamic skill controller (updates the skill library from execution feedback). Evaluations on tool-use and reasoning benchmarks show consistent performance ceiling improvements for strong backbones and striking turnarounds for misaligned models.",
+      "one_liner": "Skill Self-Play (Skill-SP) 是一个共同进化框架，解决了LLM自我进化中任务多样性与验证可靠性之间的根本矛盾它将Agent技能作为中间层：每个技能在特定场景下提供可验证执行...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/fe769637.md",
+      "images": [],
+      "added_date": "2026-07-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ad830db9",
+      "title": "CausalForge: A Formally Grounded, Self-Improving Agentic Framework for Automated Research in Causal Inference",
+      "url": "https://arxiv.org/abs/2607.22511",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "automated-research",
+        "lean",
+        "formal-verification",
+        "causal-inference",
+        "self-improving"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "CausalForge结合了Causalean（一个包含7035条机器检查声明的Lean因果推断证明库）和CausalSmith（一个自我改进的Agent流水线，可选题提出结果形式化陈述构造证明并提交人类审查）因为机器检查证明只能验证形式陈述与假设一致，无法确认其是否真实表达科学主张，该系统在核验之外增加了陈述审计环节研究指出LLM审稿人对自动研究产出的评估并不可靠，识别伪造论文的概率接近随机",
+      "summary_en": "CausalForge combines Causalean (a Lean proof assistant library with 7,035 machine-checked declarations for causal inference) with CausalSmith (a self-improving agentic pipeline that selects topics, proposes results, formalizes statements, constructs proofs, and presents artifacts for human inspection). Because machine-checked proofs only verify that a statement follows from assumptions--not that it captures the intended scientific claim--the pipeline augments kernel verification with a statement audit comparing formal theorems against their informal claims. The work highlights that LLM reviewers alone are unreliable for evaluating automated research, detecting fabricated papers at rates near chance.",
+      "one_liner": "CausalForge结合了Causalean（一个包含7035条机器检查声明的Lean因果推断证明库）和CausalSmith（一个自我改进的Agent流水线，可选题提出结果形式化陈述构造证明并提交人类审查）因为机器检查证明只能验证形式陈述与假设一致...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ad830db9.md",
+      "images": [],
+      "added_date": "2026-07-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "38df02ae",
+      "title": "TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI",
+      "url": "https://arxiv.org/abs/2607.22465",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "model-routing",
+        "contextual-bandit",
+        "cost-quality",
+        "agentic-workflows",
+        "deployment"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "TRACE-Router解决了Agent工作流中每次调用独立路由与任务级结果之间的不匹配问题它在任务准入时通过上下文赌博机一次性分配模型，将后续所有调用固定到同一后端，并使用终端奖励联合考虑准确率和延迟更新策略在tau2-Bench上高出7-8个准确率点；在Terminal-Bench上高出最强单模型7.1点且延迟降低36%",
+      "summary_en": "TRACE-Router addresses the mismatch between per-call LLM routing and task-level outcomes in agentic workflows. Instead of routing each LLM call independently, it assigns a model once at task admission via a contextual bandit, pins all subsequent calls to that backend, and updates policy using the terminal reward (jointly accounting for accuracy and latency). On tau2-Bench it outperforms latency-matched interpolation by 7-8 accuracy points; on Terminal-Bench it achieves 7.1 higher accuracy than the strongest single model with 36% lower latency.",
+      "one_liner": "TRACE-Router解决了Agent工作流中每次调用独立路由与任务级结果之间的不匹配问题它在任务准入时通过上下文赌博机一次性分配模型，将后续所有调用固定到同一后端，并使用终端奖励联合考虑准确率和延迟更新策略在tau2-Bench上高出7-8个准确率点...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/38df02ae.md",
+      "images": [],
+      "added_date": "2026-07-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ffc376ee",
+      "title": "From Isolated Tasks to Structured Capabilities: A Multilayer Taxonomy for Large Language Models",
+      "url": "https://arxiv.org/abs/2607.22182",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": null
+      },
+      "category": "models",
+      "tags": [
+        "taxonomy",
+        "capabilities",
+        "evaluation",
+        "benchmark-mapping",
+        "cognitive-science"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "提出一个包含14个能力域和91个子技能的多层分类体系，覆盖原始层构建层和整合层，以人类认知科学而非LLM架构为指导作者筛选了ACLAAAIICML和NeurIPS在2023-2025年间发表的31505篇论文，映射了其中15934篇LLM论文研究注意力集中在语言语义能力(22.3%)推理(21.3%)规划决策(13.5%)和感知(12.3%)，有六个能力域不到2%心智理论与社会推理的共现lift高达30.84",
+      "summary_en": "A multi-layer taxonomy of 14 capability domains and 91 subskills across Primitive, Constructed, and Integrative layers, guided by human cognitive science rather than LLM architecture. The authors screened 31,505 papers from ACL, AAAI, ICML, and NeurIPS (2023-2025) and mapped 15,934 LLM-focused papers. Direct attention concentrates on Language-Semantic Competence (22.3%), Reasoning (21.3%), Planning (13.5%), and Perception (12.3%), while six domains appear in <2% of papers. Language-Semantic + Reasoning form the highest-volume co-occurrence pair (lift=2.47), while Theory of Mind + Social Reasoning show the highest lift among pairs with at least 20 co-occurrences (lift=30.84).",
+      "one_liner": "提出一个包含14个能力域和91个子技能的多层分类体系，覆盖原始层构建层和整合层，以人类认知科学而非LLM架构为指导作者筛选了ACLAAAIICML和NeurIPS在2023-2025年间发表的31505篇论文，映射了其中15934篇LLM论文研究注意力集中在语言语义能力(22.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ffc376ee.md",
+      "images": [],
+      "added_date": "2026-07-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "80d8760f",
+      "title": "Our Position on Open-Weights Models",
+      "url": "https://www.anthropic.com/news/position-open-weights-models",
+      "source": {
+        "platform": "anthropic",
+        "author": null,
+        "original_date": null
+      },
+      "category": "models",
+      "tags": [
+        "open-weights",
+        "ai-policy",
+        "national-security",
+        "distillation",
+        "safety-testing",
+        "dario-amodei"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Dario Amodei明确Anthropic从未主张禁止开放权重模型，认为不含危险能力的开放权重模型是公共产品Anthropic支持三项措施：(1)限制向中国出售先进芯片并打击走私；(2)打击工业级蒸馏操作；(3)对所有足够强大的模型实施强制安全测试Amodei警告，禁止美国企业使用中国开源模型的保护主义禁令无法解决他最关心的两大安全风险，而在生物安全领域，一旦模型足够强大，攻击者可能占据结构性优势",
+      "summary_en": "Dario Amodei clarifies Anthropic's position: they have never advocated banning open-weights models, which are a public good when they lack dangerous capabilities. Instead, Anthropic supports three measures: (1) restricting advanced chip sales to China and cracking down on smuggling, (2) cracking down on industrial-scale distillation operations that allow China to partially evade chip bans, and (3) mandatory safety testing of all sufficiently capable models regardless of open/closed status. Amodei warns that protectionist bans on Chinese open-weights models by US companies would not address his primary concern (authoritarian governments building superior AI for military/surveillance) or secondary concern (cyber/biological misuse), while a biology attacker-defender asymmetry may favor attackers once models are sufficiently capable.",
+      "one_liner": "Dario Amodei明确Anthropic从未主张禁止开放权重模型，认为不含危险能力的开放权重模型是公共产品Anthropic支持三项措施：(1)限制向中国出售先进芯片并打击走私；(2)打击工业级蒸馏操作.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/80d8760f.md",
+      "images": [],
+      "added_date": "2026-07-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-07-27",
-  "total_entries": 1541
+  "last_updated": "2026-07-28",
+  "total_entries": 1547
 }
