@@ -20,8 +20,8 @@
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
 | 模型与实验室 | 236 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 158 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 93 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| Agent 与自动化 | 164 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 95 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 26 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 51 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 35 | 论文、课程、提示工程、长文、方法论。 |
@@ -29,15 +29,15 @@
 
 ## 当前数据
 
-- 原始条目: 1567
-- 公开展示卡片: 749
+- 原始条目: 1575
+- 公开展示卡片: 757
 - 有全文内容: 665
-- 最近 7 天信号: 96
+- 最近 7 天信号: 98
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`ai-tools`, `llm`, `research`, `openai`, `attention`, `arxiv`, `google`, `anthropic`, `evaluation`, `benchmark`, `optimization`, `claude-code`, `2026`, `gemini`, `workflow`, `agent`, `coding-agent`, `codex`
+`ai-tools`, `llm`, `research`, `openai`, `attention`, `arxiv`, `google`, `evaluation`, `anthropic`, `benchmark`, `optimization`, `claude-code`, `2026`, `coding-agent`, `gemini`, `workflow`, `agent`, `security`
 
 ## 自动化约定
 
