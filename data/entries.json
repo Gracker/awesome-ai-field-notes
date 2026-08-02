@@ -45885,8 +45885,168 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "4714f653",
+      "title": "AISPA: 用户中心的大模型应用系统提示词审计框架",
+      "url": "https://arxiv.org/abs/2607.28617",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xiangning Lin, Shenzhe Zhu, Shu Yang, et al.",
+        "original_date": "2026-07-30"
+      },
+      "category": "industry",
+      "tags": [
+        "system-prompt",
+        "auditing",
+        "ai-safety",
+        "llm-applications",
+        "transparency"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "AISPA（人工智能系统提示词保障）是一个用户中心的框架，用于系统性审计 AI 应用中的系统提示词它从八个用户关切维度检视每条指令作者审查了 88 个商业 AI 产品的 3,249 条系统提示词指令，将每条分类为保护性或有问题的核心发现：98.9% 的产品含有至少一条保护性指令，但仅 24% 覆盖了八个维度；提示词随时间变长且更保护用户，但约 40% 的产品仍含有反制用户的有问题指令这是首个大规模的商业 AI 系统提示词审计研究",
+      "summary_en": "AISPA (Artificial Intelligence System Prompt Assurance) is a user-centric framework for systematically auditing system prompts in AI applications. It examines instructions along eight user-relevant dimensions. The authors reviewed 3,249 instructions from system prompts in 88 commercial AI products, classifying each as protective or problematic. Key findings: system prompt design varies substantially across products; protective instructions are widely adopted (98.9% of products) but shallow in scope (only 24% cover all eight dimensions); prompts have grown longer and more protective over time; yet ~40% of products contain at least one problematic instruction that works against users.",
+      "one_liner": "AISPA 提出八维度审计框架，审查 88 个商业 AI 产品的 3,249 条系统提示词，发现约 40% 产品含有有问题指令",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4714f653.md",
+      "images": [],
+      "added_date": "2026-08-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1baa644b",
+      "title": "PAIChecker: 揭示并检查 SWE-Bench 类基准中的 PR-Issue 不对齐",
+      "url": "https://arxiv.org/abs/2607.28587",
+      "source": {
+        "platform": "arxiv",
+        "author": "Manyi Wang, Junjielong Xu, Pinjia He",
+        "original_date": "2026-07-30"
+      },
+      "category": "agents",
+      "tags": [
+        "swe-bench",
+        "benchmark-quality",
+        "code-agent",
+        "pr-issue-alignment",
+        "multi-agent"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "PAIChecker 是一个多 Agent 系统，用于检测 SWE-bench 类基准中的 PR-Issue 不对齐问题作者发现 SWE-bench Verified 中 13.6% 的实例存在五种模式的不对齐PAIChecker 采用三阶段设计：模式识别跨 Agent 标签合成代码级验证，在 SWE-Gym 和 SWE-bench Multilingual 上达到 92.12% 和 91.67% 的二分类准确率，超越了基线方法这项研究对代码 Agent 基准有效性具有重要影响",
+      "summary_en": "PAIChecker is a multi-agent system for detecting PR-Issue misalignment in SWE-bench-like benchmarks. The authors systematically study SWE-bench Verified instances, finding that 13.6% exhibit misalignment across five patterns in eleven fine-grained scenarios. PAIChecker uses a three-phase design combining pattern identification, cross-agent label synthesis, and code-level validation. Experiments on SWE-Gym and SWE-bench Multilingual show it achieves up to 92.12% and 91.67% binary accuracy across four LLM backbones, outperforming baselines.",
+      "one_liner": "PAIChecker 发现 SWE-bench Verified 中 13.6% 存在 PR-Issue 不对齐，用三阶段多 Agent 设计达到 92%+ 准确率",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1baa644b.md",
+      "images": [],
+      "added_date": "2026-08-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "db72829e",
+      "title": "Sample More, Reflect Less: 重复采样在等令牌成本下击败自反思方法（1.5B-7B）",
+      "url": "https://arxiv.org/abs/2607.28576",
+      "source": {
+        "platform": "arxiv",
+        "author": "Iliya Mirzaei",
+        "original_date": "2026-07-30"
+      },
+      "category": "learning",
+      "tags": [
+        "self-refine",
+        "repeated-sampling",
+        "token-cost",
+        "reasoning",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "本文严格测试了自反思方法（Self-RefineReflexion自辩论Best-of-N 选择）是否真正超越了单纯多生成文本的效果实验设计：七种方法三个开源模型规模（1.5B/3B/7B）两个数学基准每个 150 题，统计所有生成 token（包括批评反思辩论轮次）结果：在等令牌成本下，没有一种方法可靠地优于重复采样；十项对比中方法明显更差，全部涉及自检查；随着模型变大，两种自检查类型的差异加剧",
+      "summary_en": "This paper rigorously tests whether self-reflection methods (Self-Refine, Reflexion, self-debate, Best-of-N selection) actually help beyond simply generating more text. The author runs a designed experiment: seven methods, open models of 1.5B/3B/7B parameters, two math benchmarks, 150 questions each. Every generated token is counted including those spent on critiques, reflections, and debate turns. Results: no method is reliably better than repeated sampling at equal cost. Ten comparisons show methods are reliably worse, all involving self-inspection. The two kinds of self-inspection part company as models grow: choosing stops hurting at larger scales.",
+      "one_liner": "实验表明，在等令牌成本下，重复采样击败了 Self-Refine/Reflexion 等自反思方法，18 项自检查对比全为负面",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/db72829e.md",
+      "images": [],
+      "added_date": "2026-08-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "46e35cc8",
+      "title": "MRAgent: 记忆是重建而非检索LLM Agent 的图记忆架架构",
+      "url": "https://arxiv.org/abs/2606.06036",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shuo Ji, Yibo Li, Bryan Hooi",
+        "original_date": "2026-06-04"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "graph-memory",
+        "retrieval",
+        "reasoning",
+        "llm-agent"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "MRAgent 挑战了记忆增强 LLM Agent 中的静态先检索后推理范式它将记忆表示为 Cue-Tag-Content 关联图，标签作为语义桥梁连接细粒度线索与记忆内容主动重建机制将 LLM 推理直接集成到记忆访问中，允许 Agent 迭代探索和修剪检索路径在 LoCoMo 和 LongMemEval 基准上超越强基线高达 23%，同时大幅降低了 token 和运行时间成本",
+      "summary_en": "MRAgent challenges the static retrieve-then-reason paradigm in memory-augmented LLM agents. It represents memory as a Cue-Tag-Content associative graph where tags serve as semantic bridges connecting fine-grained cues to memory contents. An active reconstruction mechanism integrates LLM reasoning directly into memory access, allowing the agent to iteratively explore and prune retrieval paths based on accumulated evidence. Experiments on LoCoMo and LongMemEval benchmarks show up to 23% improvement over strong baselines while substantially reducing token and runtime cost.",
+      "one_liner": "MRAgent 用 Cue-Tag-Content 关联图和主动重建机制替代静态检索，在两个基准上提升 23%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/46e35cc8.md",
+      "images": [],
+      "added_date": "2026-08-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ddbacb53",
+      "title": "IFCMemoryBench: 评测 BIM 信息检索中 LLM Agent 的长期记忆能力",
+      "url": "https://arxiv.org/abs/2607.26072",
+      "source": {
+        "platform": "arxiv",
+        "author": "Changyu Du, Alexander Vosseler, Filippo Mazza, Andr Borrmann",
+        "original_date": "2026-07-13"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "benchmark",
+        "bim",
+        "long-term-memory",
+        "domain-specific"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "IFCMemoryBench 是一个在建筑信息模型（BIM）工作流中评测 LLM Agent 长期记忆的基准它含有 19 个项目4,016 个先前会话中的 143 个多会话任务，每个任务在早期对话中植入缺失的项目上下文，后续探针问题需结合记忆上下文与实时 IFC 查询才能回答评测框架将记忆性能分解为摄入检索和利用三个环节，同时测量答案质量和系统级指标",
+      "summary_en": "IFCMemoryBench is a benchmark for evaluating long-term memory in LLM-based agents within Building Information Modelling (BIM) workflows. It contains 143 multi-session tasks across 19 projects and 4,016 prior sessions, derived from incomplete-information questions in IFC-Bench v2. Each task seeds missing project context across earlier conversations and later asks a probe question answerable only by combining remembered context with live IFC queries. The evaluation framework decomposes memory performance into ingestion, retrieval, and utilization, measuring both answer quality and system-level metrics.",
+      "one_liner": "IFCMemoryBench 在 BIM 领域提供 143 个多会话记忆任务，将记忆评测分解为摄入/检索/利用三环节",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ddbacb53.md",
+      "images": [],
+      "added_date": "2026-08-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-01",
-  "total_entries": 1633
+  "last_updated": "2026-08-02",
+  "total_entries": 1638
 }
