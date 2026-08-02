@@ -46045,8 +46045,104 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "719ddf84",
+      "title": "I'm (mostly) picking models on speed now, not intelligence",
+      "url": "https://martinalderson.com/posts/speed-vs-intelligence",
+      "source": {
+        "platform": "blog",
+        "author": "Martin Alderson",
+        "original_date": "2026-08-02"
+      },
+      "category": "models",
+      "tags": [
+        "model-selection",
+        "latency",
+        "llm-productivity",
+        "coding-agent",
+        "speed"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Martin Alderson 认为，当一批前沿模型已经足够聪明时，日常模型选择会从能力榜单转向速度和交互延迟文章把代码研究幻灯片和数据库分析放在同一组工作流里讨论，指出慢模型带来的等待和上下文切换会抵消智能优势；对团队默认模型coding agent 和内部助手来说，吞吐失败重试与人的等待成本应一起计入",
+      "summary_en": "Martin Alderson argues that once frontier models are smart enough for many daily tasks, model choice shifts from raw intelligence to speed and interaction latency. The article connects coding, research, slide creation, and database analysis workflows, emphasizing that slow responses impose waiting and context-switching costs that can outweigh marginal intelligence gains.",
+      "one_liner": "当主流模型已足够聪明时，速度和等待成本开始决定日常模型选择，而不只是能力榜单",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/719ddf84.md",
+      "images": [],
+      "added_date": "2026-08-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f4a9af44",
+      "title": "Why do OpenAI's GPT-2 weights beat mine? Part three: testing overtraining",
+      "url": "https://www.gilesthomas.com/2026/07/why-do-openai-gpt2-weights-beat-mine-3-overtraining",
+      "source": {
+        "platform": "blog",
+        "author": "Giles Thomas",
+        "original_date": "2026-07-31"
+      },
+      "category": "models",
+      "tags": [
+        "gpt-2",
+        "training-reproduction",
+        "overtraining",
+        "debugging",
+        "model-training"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Giles Thomas 的 GPT-2 复现系列保留了真实训练排错过程这一篇围绕 OpenAI GPT-2 权重为何优于个人复现实验，继续测试过训练假设，并用 loss训练轮次数据拆分和实现差异逐步缩小问题范围它的价值不在结论速成，而在展示模型训练复现中如何构造对照实验记录失败路径并定位配置或实现嫌疑",
+      "summary_en": "Giles Thomas continues a GPT-2 reproduction debugging series by testing whether overtraining explains the gap between his weights and OpenAI's. The post traces loss curves, training duration, data splits, and implementation hypotheses, making it valuable as an example of careful model-training reproduction and experimental debugging.",
+      "one_liner": "GPT-2 复现实验通过过训练测试loss 对照和实现排查，展示模型训练差异如何一步步缩小",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f4a9af44.md",
+      "images": [],
+      "added_date": "2026-08-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c6e99f26",
+      "title": "The Coming Loop: coding agent 之上的 harness 循环",
+      "url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop",
+      "source": {
+        "platform": "blog",
+        "author": "Armin Ronacher",
+        "original_date": "2026-06-23"
+      },
+      "category": "agents",
+      "tags": [
+        "coding-agent",
+        "harness",
+        "agent-loop",
+        "verification",
+        "software-engineering"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Armin Ronacher 描述 coding agent 之上的新一层工作方式：人不再只写 prompt，而是写 harness，让任务在模型宣布完成后继续被检查重跑拆分或转交文章肯定 loop 对迁移实验性能搜索和安全扫描这类可验证或短生命周期任务的价值，同时提醒它会放大防御式代码弱不变量和低可理解性，因此不应直接外包长期维护代码的设计判断",
+      "summary_en": "Armin Ronacher describes a harness-level loop above coding agents: work enters a queue, a model attempts it, and an outer loop decides whether to continue the same session, restart with modified context, split the task, or hand it to another machine. He sees value in migrations, experiments, performance search, and security scanning, but warns against handing over long-lived design judgment.",
+      "one_liner": "coding agent 的下一层是 harness：负责检查重跑和拆任务，但不能替人定义长期代码的不变量",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/c6e99f26.md",
+      "images": [],
+      "added_date": "2026-08-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-02",
-  "total_entries": 1638
+  "total_entries": 1641
 }

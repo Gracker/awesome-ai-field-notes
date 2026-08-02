@@ -4,23 +4,23 @@
 
 ## 最新精选 Top 10
 
+- [I'm (mostly) picking models on speed now, not intelligence](https://martinalderson.com/posts/speed-vs-intelligence) ⭐4 · 2026-08-02 — 当主流模型已足够聪明时，速度和等待成本开始决定日常模型选择，而不只是能力榜单
 - [给 GPT 5.6 Sol 一个真实业务：它撒谎垃圾邮件亏了 447 美元](https://www.bottlenecklabs.com/blog/autonomously-run-businesses) ⭐5 · 2026-07-31 — BottleneckLabs 给 GPT 5.
 - [Stateless MCP has recaptured my interest (MCP 2.0)](https://simonwillison.net/2026/Jul/31/stateless-mcp) ⭐5 · 2026-07-31 — MCP 2.0 从有状态改为无状态，实现复杂度断崖下降，同时发布三个工具
 - [smevals: a small eval suite for models, prompts, and harnesses](https://simonwillison.net/2026/Jul/31/smevals) ⭐4 · 2026-07-31 — 运行和评分分离的轻量 eval 框架，第三次迭代设计
+- [Why do OpenAI's GPT-2 weights beat mine? Part three: testing overtraining](https://www.gilesthomas.com/2026/07/why-do-openai-gpt2-weights-beat-mine-3-overtraining) ⭐4 · 2026-07-31 — GPT-2 复现实验通过过训练测试loss 对照和实现排查，展示模型训练差异如何一步步缩小
 - [DeepSeek-V4-Flash-0731: 304B params, best value-per-intelligence model](https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731) ⭐4 · 2026-07-31 — 同智能指数下成本为同类模型十分之一，帕累托前沿左上角
 - [DeepSeek-V4-Flash 官方发版：Agent 能力大幅提升，原生支持 Responses API](https://api-docs.deepseek.com/updates) ⭐4 · 2026-07-31 — DeepSeek 于 7月31日官方发布 V4-Flash API 公测版该版本与 V4-Flash-Preview 保持相同架构和规模，仅进行了重新后训练.
 - [DeepSeek V4 Flash 0731 智能性能与价格分析（Artificial Analysis）](https://artificialanalysis.ai/models/deepseek-v4-flash) ⭐4 · 2026-07-31 — Artificial Analysis 对 DeepSeek V4 Flash 0731（Reasoning, Max Effort）的综合评测：智能指数 50（全网第 3/101），远超同类型模型中位数 25价格极具竞争力：输入 $0.
 - [AI: Considerations for people who make decisions](https://berthub.eu/articles/posts/ai-for-decision-makers) ⭐4 · 2026-07-31 — 如果 AI 最终是好主意，明年它还在；如果不好，现在 All-in 的代价是气候法律和组织结构
 - [AI models need moral support to make discoveries](https://seangoedecke.com/ai-models-need-moral-support) ⭐4 · 2026-07-31 — 模型已经足够聪明以解决未解问题，但还没学会相信自己能做到
-- [2x, not 10x: Coding with LLMs in 2026](https://obryant.dev/p/2x-not-10x) ⭐4 · 2026-07-31 — 可工作的实现曾意味任务 80% 完成，现在只是 20%
-- [How we set up our cloud agent environment (Cursor)](https://cursor.com/blog/cloud-agent-environment) ⭐5 · 2026-07-30 — 开发环境本身就是产品，只是用户是 Agent
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 245 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 189 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| 模型与实验室 | 247 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 190 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 105 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 31 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 59 | AI 产品、大厂战略、融资、监管、市场结构。 |
@@ -29,15 +29,15 @@
 
 ## 当前数据
 
-- 原始条目: 1638
-- 公开展示卡片: 819
-- 有全文内容: 730
-- 最近 7 天信号: 133
+- 原始条目: 1641
+- 公开展示卡片: 822
+- 有全文内容: 738
+- 最近 7 天信号: 106
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`llm`, `ai-tools`, `research`, `openai`, `benchmark`, `attention`, `arxiv`, `evaluation`, `anthropic`, `google`, `optimization`, `claude-code`, `2026`, `coding-agent`, `gemini`, `agent-security`, `security`, `agent`
+`llm`, `ai-tools`, `research`, `openai`, `benchmark`, `attention`, `arxiv`, `evaluation`, `anthropic`, `google`, `optimization`, `coding-agent`, `claude-code`, `2026`, `gemini`, `agent-security`, `security`, `agent`
 
 ## 自动化约定
 
