@@ -1704,9 +1704,12 @@
       "local_path": "content/853409a5bc.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "6ebadca4",
+        "ed827be1"
+      ],
       "local_path_valid": false
     },
     {
@@ -3122,9 +3125,12 @@
       "local_path": "content/3ba81f9b.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "3ba81f9b",
+        "5cd27591"
+      ],
       "local_path_valid": false
     },
     {
@@ -3529,9 +3535,12 @@
       "local_path": "content/6069359f.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "26184842",
+        "6069359f"
+      ],
       "local_path_valid": false
     },
     {
@@ -3930,9 +3939,12 @@
       "local_path": "content/f805ddc5.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "4e61a655",
+        "f805ddc5"
+      ],
       "local_path_valid": false
     },
     {
@@ -15314,9 +15326,12 @@
       "local_path": "content/f8e37279.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "6c7b1051",
+        "f8e37279"
+      ],
       "local_path_valid": false
     },
     {
@@ -27366,7 +27381,7 @@
     {
       "id": "3ba81f9b",
       "title": "AI Agent 工程化实践指南：如何构建可靠的 Harness 系统",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw%3D%3D&mid=2247484077&idx=1&sn=ee3fd75a3799b07df9c08fcbda2b21e4&chksm=972981b6636211d172b8caed0a982796a0f7d39c477e1c9991bb9b717db4548df20aa22cd114&mpshare=1&scene=1&srcid=0423loGxXEgvr9SaWycvYrHQ&sharer_shareinfo=688d8fb09649fbaef375238b86ccb1fb&sharer_shareinfo_first=688d8fb09649fbaef375238b86ccb1fb",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw%3D%3D&mid=2247484077&idx=1&sn=ee3fd75a3799b07df9c08fcbda2b21e4",
       "source": {
         "platform": "wechat",
         "author": null,
@@ -27385,9 +27400,12 @@
       "local_path": "content/3ba81f9b.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": []
+      "related": [
+        "33be271a",
+        "5cd27591"
+      ]
     },
     {
       "id": "16htfbpp",
@@ -27671,9 +27689,12 @@
       "local_path": "content/6069359f.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": []
+      "related": [
+        "26184842",
+        "b1aea04c"
+      ]
     },
     {
       "id": "ie9badvv",
@@ -28009,9 +28030,12 @@
       "local_path": "content/f805ddc5.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": []
+      "related": [
+        "4e61a655",
+        "def8abd6"
+      ]
     },
     {
       "id": "cz2bo7ig",
@@ -28087,9 +28111,12 @@
       "local_path": "content/5cd27591.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": []
+      "related": [
+        "33be271a",
+        "3ba81f9b"
+      ]
     },
     {
       "id": "rlhhzudb",
@@ -29420,7 +29447,7 @@
     {
       "id": "ed827be1",
       "title": "深入源码：Hermes Agent 如何实现 \"Self-Improving\"",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA%3D%3D&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29&chksm=e8d671ef6707d2273f287238f02644053b2a928df13a30df6178f0b498ccf4ff57fc58fab6b6&mpshare=1&scene=1&srcid=0423qYh6cMawkXFLAcftXJZr&sharer_shareinfo=701ef6df91d58526fcdf29e9c3c85623&sharer_shareinfo_first=701ef6df91d58526fcdf29e9c3c85623",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA%3D%3D&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29",
       "source": {
         "platform": "wechat",
         "author": null,
@@ -29439,9 +29466,12 @@
       "local_path": "content/ed827be1.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": []
+      "related": [
+        "6ebadca4",
+        "7c2589ef"
+      ]
     },
     {
       "id": "gllemxiu",
@@ -29550,7 +29580,7 @@
     {
       "id": "4e61a655",
       "title": "从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxNTI4OA%3D%3D&mid=2247483840&idx=1&sn=e4da453086f1f3cf660dd25b2de15cb5&chksm=c394cb7b68fcde29ddcc61789a4e6a3ef94fa9ce1afb7270184354d7d29bfdb3421d728d8ce4&mpshare=1&scene=1&srcid=0423q3SKvW7vUuhiw3pRmVgH&sharer_shareinfo=b9cd866b181d5d2c0c62687d361c4bd8&sharer_shareinfo_first=ac0ba5471739e6da5738a8e927e4fff2",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxNTI4OA%3D%3D&mid=2247483840&idx=1&sn=e4da453086f1f3cf660dd25b2de15cb5",
       "source": {
         "platform": "wechat",
         "author": null,
@@ -29569,9 +29599,12 @@
       "local_path": "content/4e61a655.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": []
+      "related": [
+        "def8abd6",
+        "f805ddc5"
+      ]
     },
     {
       "id": "g2xhdcef",
@@ -33086,7 +33119,7 @@
     {
       "id": "26184842",
       "title": "Harness 层怎么自我进化？来自斯坦福大学和 MIT 的一项新研究",
-      "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw%3D%3D&mid=2247484082&idx=1&sn=aac7ea3868e31bcc3d47e58724adeb19&chksm=97b2ecf5f127fbbbbf70455f1b5d00c136d28bf50cdfb275cdf722989d3bc36a669ebe150f66&mpshare=1&scene=1&srcid=0423Ff0YBFnoeDY8moFsXq8X&sharer_shareinfo=df63fd28b814cbc1b9dfff82a70ea4a1&sharer_shareinfo_first=df63fd28b814cbc1b9dfff82a70ea4a1",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw%3D%3D&mid=2247484082&idx=1&sn=aac7ea3868e31bcc3d47e58724adeb19",
       "source": {
         "platform": "wechat",
         "author": null,
@@ -33105,9 +33138,12 @@
       "local_path": "content/26184842.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": []
+      "related": [
+        "6069359f",
+        "b1aea04c"
+      ]
     },
     {
       "id": "759f233a",
@@ -34331,9 +34367,12 @@
       "local_path": "content/6ebadca4.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": []
+      "related": [
+        "7c2589ef",
+        "ed827be1"
+      ]
     },
     {
       "id": "cudamu2v",
@@ -34695,9 +34734,12 @@
       "local_path": "content/f8e37279.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": []
+      "related": [
+        "6c7b1051",
+        "90acc788"
+      ]
     },
     {
       "id": "crdmzre5",
@@ -36392,7 +36434,7 @@
     {
       "id": "6c7b1051",
       "title": "GPT Image 2的出现，一个设计师的冷思考",
-      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjIyOTA0Mw%3D%3D&mid=2650203005&idx=1&sn=af664106ce7344b65a98bd6f7265e8ff&chksm=bf67f96f7ebaa6a699df8cfa1e4c3fc40a89954aafc9ba78d78565dc52fb939faa1eab29c630&mpshare=1&scene=1&srcid=0423uoOYsIhKNgYHgwaH8u6A&sharer_shareinfo=b0fa9986d63710c10d8966095d999b2e&sharer_shareinfo_first=4a5a3f5e78c1a93e60d84f3161c87e16",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5MjIyOTA0Mw%3D%3D&mid=2650203005&idx=1&sn=af664106ce7344b65a98bd6f7265e8ff",
       "source": {
         "platform": "wechat",
         "author": null,
@@ -36411,9 +36453,12 @@
       "local_path": "content/6c7b1051.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-03",
       "github_stars": null,
-      "related": []
+      "related": [
+        "90acc788",
+        "f8e37279"
+      ]
     },
     {
       "id": "27d7de0b02b7",
@@ -46141,8 +46186,239 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "0e5ebf11",
+      "title": "Discovering Agentic Safety Specifications from 1-Bit Danger Signals",
+      "url": "https://arxiv.org/abs/2604.23210",
+      "source": {
+        "platform": "arxiv",
+        "author": "Vctor Gallego",
+        "original_date": "2026-04-25"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-safety",
+        "llm-agents",
+        "reward-hacking",
+        "safety-specification",
+        "arxiv",
+        "cs.ai"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "EPO-Safe 研究让 LLM 智能体只依靠每步 1-bit 的危险警告来迭代生成安全行为规范；论文在 5 个 AI Safety Gridworlds 和 5 个文本场景中报告，12 轮515 个 episode 即可发现安全规则，并指出只按奖励反思会加速 reward hacking适合作为安全反馈通道必须独立于奖励通道的智能体设计证据",
+      "summary_en": "Can large language model agents discover hidden safety objectives through experience alone? We introduce EPO-Safe (Experiential Prompt Optimization for Safe Agents), a framework where an LLM iteratively generates action plans, receives sparse binary danger warnings, and evolves a natural language behavioral specification through reflection. Unlike standard LLM reflection methods that rely on rich textual feedback (e.g., compiler errors or detailed environment responses), EPO-Safe demonstrates that LLMs can perform safety reasoning from a strictly impoverished signal in structured, low-dimensional environments: the agent never observes the hidden performance function $R^*$, only a single bit per timestep indicating that an action was unsafe. We evaluate on five AI Safety Gridworlds (Leike et al., 2017) and five text-based scenario analogs where visible reward $R$ may diverge from $R^*$....",
+      "one_liner": "智能体可从极稀疏危险信号中学习可审计安全规范，但奖励驱动反思会放大奖励黑客",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0e5ebf11.md",
+      "images": [],
+      "added_date": "2026-08-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a3f4cd5d",
+      "title": "HealthAdminBench: Evaluating Computer-Use Agents on Healthcare Administration Tasks",
+      "url": "https://arxiv.org/abs/2604.09937",
+      "source": {
+        "platform": "arxiv",
+        "author": "Suhana Bedi, Ryan Welch, Ethan Steinberg, Michael Wornow, Taeil Matthew Kim, Haroun Ahmed, Peter Ste...",
+        "original_date": "2026-04-10"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use-agents",
+        "benchmark",
+        "healthcare",
+        "evaluation",
+        "arxiv",
+        "cs.ai"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "HealthAdminBench 针对医疗行政工作流构建了 4 个 GUI 环境135 个专家任务和 1,698 个可验证子任务，用来评估 computer-use agents摘要报告最强端到端成功率仅 36.3%，而最高子任务成功率为 82.8%，说明医疗行政自动化的真实可靠性瓶颈仍在长链路任务完成",
+      "summary_en": "Healthcare administration accounts for over $1 trillion in annual spending, making it a promising target for LLM-based computer-use agents (CUAs). While clinical applications of LLMs have received significant attention, no benchmark exists for evaluating CUAs on end-to-end administrative workflows. To address this gap, we introduce HealthAdminBench, a benchmark comprising four realistic GUI environments: an EHR, two payer portals, and a fax system, and 135 expert-defined tasks spanning three administrative task types: Prior Authorization, Appeals and Denials Management, and Durable Medical Equipment (DME) Order Processing. Each task is decomposed into fine-grained, verifiable subtasks, yielding 1,698 evaluation points....",
+      "one_liner": "医疗行政 CUA 基准显示：子任务能力不等于端到端可靠自动化",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a3f4cd5d.md",
+      "images": [],
+      "added_date": "2026-08-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2a6b9df8",
+      "title": "MacArena: Benchmarking Computer Use Agents on an Online macOS Environment",
+      "url": "https://arxiv.org/abs/2606.06560",
+      "source": {
+        "platform": "arxiv",
+        "author": "Victor Muryn, Maksym Shamrai, Sofiia Mazepa, Yehor Khodysko",
+        "original_date": "2026-06-04"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use-agents",
+        "macos",
+        "benchmark",
+        "gui-agents",
+        "arxiv",
+        "cs.lg"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "MacArena 将 CUA 评估扩展到 Apple Silicon 上的在线 macOS 环境，包含 50 个应用421 个人工验证任务论文强调 macOS-native 任务会让既有模型排序反转，领先模型在 MacArena 子集上落后超过 26%，提示 GUI 智能体需要跨平台而非只熟悉 Linux/OSWorld 分布",
+      "summary_en": "Computer-use agents (CUAs) operate graphical user interfaces (GUIs) through vision and control primitives, and their capabilities have advanced rapidly, driven in part by standardized online evaluation benchmarks such as OSWorld, which serve both as evaluation tools and as training environments for reinforcement learning. However, macOS remains underserved in this landscape: the only existing benchmark, macOSWorld, covers a narrow slice of first-party applications with simpler tasks, and runs on x86 virtual machines incompatible with Apple Silicon. We introduce MacArena, a benchmark of 421 manually verified tasks spanning 50 applications that combines a curated port of OSWorld tasks, content sourced from macOSWorld, and 49 new macOS-native tasks, all running on Apple's native Virtualization framework on Apple Silicon....",
+      "one_liner": "MacArena 证明 GUI 智能体的跨平台能力不能由 Linux/OSWorld 成绩直接外推",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2a6b9df8.md",
+      "images": [],
+      "added_date": "2026-08-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d7fb15b9",
+      "title": "Can Open-Source LLM Agents Replace Static Application Security Testing Tools? An Empirical Assessment",
+      "url": "https://arxiv.org/abs/2606.11672",
+      "source": {
+        "platform": "arxiv",
+        "author": "Derek Yohn, Luke Flancher, Mirajul Islam, Khaled Slhoub",
+        "original_date": "2026-06-10"
+      },
+      "category": "coding",
+      "tags": [
+        "agent-security",
+        "sast",
+        "cybersecurity",
+        "evaluation",
+        "arxiv",
+        "cs.cr"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "这篇实证研究比较 3 个 Ollama 托管开源模型驱动的通用 LLM agent 与 Bandit SAST 工具，在 precisionrecallfalse positive 和复合分数上评估其安全扫描表现结论是否定性的：现实条件下，现代开源 GenAI agent 还不适合替代专业 SAST 工具",
+      "summary_en": "This paper explores the value of agentic AI tools for cybersecurity purposes. We evaluate the efficacy of a general-purpose GenAI Large Language Model- (GenAI-) based agent when powered by three different Ollama-hosted general-purpose open source models. We assess each agent's performance using precision, recall, false positive count, and a calculated composite score based upon the interplay of the captured metrics, against the baseline performance of an existing, vetted Static Application Security Testing (SAST) tool, Bandit. Our findings refute the notion that a modern open-source GenAI LLM-based agent is currently suitable for the specialized task of SAST scanning under realistic conditions.",
+      "one_liner": "开源 LLM agent 暂不能在现实 SAST 场景中替代成熟静态安全扫描工具",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d7fb15b9.md",
+      "images": [],
+      "added_date": "2026-08-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b7be2886",
+      "title": "Dialogue SWE-Bench: A Benchmark for Dialogue-Driven Coding Agents",
+      "url": "https://arxiv.org/abs/2606.13995",
+      "source": {
+        "platform": "arxiv",
+        "author": "Brendan King, Jeffrey Flanigan",
+        "original_date": "2026-06-12"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "swe-bench",
+        "dialogue",
+        "benchmark",
+        "arxiv",
+        "cs.cl"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Dialogue SWE-Bench 把编码智能体评估从全自动修 bug转向通过与用户对话解决真实软件问题，引入 persona-grounded 用户模拟器和对话质量自动评估摘要指出更强的编码模型不一定是更强的对话模型，交互式问题澄清应成为编码智能体独立评估维度",
+      "summary_en": "AI coding agents have rapidly transformed software engineering, powering widely used interactive coding assistants. Despite their interactive real-world use, existing benchmarks evaluate them as fully-autonomous systems. In this work, we introduce Dialogue SWE-Bench, an automatic benchmark dataset for evaluating the ability of coding agents to resolve real-world software engineering problems through dialogue with a user. We design a novel, persona-grounded user simulator to support our task evaluation, and augment our task evaluation with automatic evaluations of dialogue quality. We also propose a new schema-guided agent, aimed at improving the dialogue capabilities of off-the-shelf coding agents, which improves over strong baselines by 3-14%....",
+      "one_liner": "Dialogue SWE-Bench 将编码智能体评测扩展到用户对话与澄清能力",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b7be2886.md",
+      "images": [],
+      "added_date": "2026-08-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8baf5fa7",
+      "title": "SWE-bench Goes Live!",
+      "url": "https://arxiv.org/abs/2505.23419",
+      "source": {
+        "platform": "arxiv",
+        "author": "Linghao Zhang, Shilin He, Chaoyun Zhang, Yu Kang, Bowen Li, Chengxing Xie, Junhao Wang, Maoquan Wang...",
+        "original_date": "2025-05-29"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "swe-bench",
+        "benchmark",
+        "data-contamination",
+        "arxiv",
+        "cs.se"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "SWE-bench-Live 通过自动化实例创建和环境设置，发布 1,319 个来自 2024 年后 GitHub issue 的任务，覆盖 93 个仓库，并为每个任务配套 Docker 镜像论文报告相比静态 SWE-bench，现有 agent 和模型在 live-updatable抗污染的任务上仍有明显性能差距",
+      "summary_en": "The issue-resolving task, where a model generates patches to fix real-world bugs, has emerged as a critical benchmark for evaluating the capabilities of large language models (LLMs). While SWE-bench and its variants have become standard in this domain, they suffer from key limitations: they have not been updated since their initial releases, cover a narrow set of repositories, and depend heavily on manual effort for instance construction and environment setup. These factors hinder scalability and introduce risks of overfitting and data contamination. In this work, we present SWE-bench-Live, a live-updatable benchmark designed to overcome these challenges. Our initial release consists of 1,319 tasks derived from real GitHub issues created since 2024, spanning 93 repositories. Each task is accompanied by a dedicated Docker image to ensure reproducible execution....",
+      "one_liner": "SWE-bench-Live 用持续更新的真实 GitHub issue 降低编码智能体评测污染风险",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/8baf5fa7.md",
+      "images": [],
+      "added_date": "2026-08-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d823e932",
+      "title": "CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent",
+      "url": "https://arxiv.org/abs/2510.18596",
+      "source": {
+        "platform": "arxiv",
+        "author": "Haojia Lin, Xiaoyu Tan, Yulei Qin, Zihan Xu, Yuchen Shi, Zongyi Li, Gang Li, Shaofei Cai, Siqi Cai...",
+        "original_date": "2025-10-21"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use-agents",
+        "reward-models",
+        "benchmark",
+        "evaluation",
+        "arxiv",
+        "cs.se"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "CUARewardBench 面向 computer-using agent 的 outcome/process reward model 评估，覆盖 10 类软件7 种智能体架构和 25.9%50.8% 不同成功率轨迹论文强调当前 CUA reward models 在视觉推理和知识上仍有短板，并提出 unanimous prompt ensemble 提升 ORM/PRM 判断可靠性",
+      "summary_en": "Computer-using agents (CUAs) enable task completion through natural interaction with operating systems and software interfaces. While script-based verifiers are widely adopted for evaluation, they suffer from limited scalability and inability to provide step-wise assessment. Reward models offer promising alternatives, but their effectiveness on CUA evaluation remains largely underexplored. To address this gap, we present CUARewardBench, comprising four key contributions: (1) First-ever Comprehensive CUA Reward Benchmark: We introduce the first benchmark for evaluating both outcome reward models (ORM) and process reward models (PRM) on CUA tasks, enabling systematic assessment across trajectory-level and step-level evaluation....",
+      "one_liner": "CUARewardBench 将 GUI 智能体奖励模型评估拆成轨迹级与步骤级信号",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d823e932.md",
+      "images": [],
+      "added_date": "2026-08-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-02",
-  "total_entries": 1641
+  "last_updated": "2026-08-03",
+  "total_entries": 1648
 }
