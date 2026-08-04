@@ -46588,8 +46588,194 @@
       "updated_date": "2025-07-24",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "6afa6289",
+      "title": "TokTier: Exact Stateful CPU+GPU Tokenization for Agentic LLM Serving",
+      "url": "https://arxiv.org/abs/2607.29678",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhenyu Zhang, Zhichao Cao",
+        "original_date": "2026-07-31"
+      },
+      "category": "infra",
+      "tags": [
+        "agent-serving",
+        "tokenization",
+        "prompt-cache",
+        "llm-inference"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "OpenCLI arXiv abstract: LLM serving stacks cache prompt KV state, yet the front end still re-tokenizes the full request text on every call. Coding agents pay the most: each call resubmits a long transcript after a small append, and reuse is hard because a short append can move token boundaries near the end of the prior sequence. Across 153,951 agent calls, the median append is 1.4K characters; only 1.0-3.6% of calls start or rebuild a session, but those carry multi-million-character contexts.",
+      "summary_en": "LLM serving stacks cache prompt KV state, yet the front end still re-tokenizes the full request text on every call. Coding agents pay the most: each call resubmits a long transcript after a small append, and reuse is hard because a short append can move token boundaries near the end of the prior sequence. Across 153,951 agent calls, the median append is 1.4K characters; only 1.0-3.6% of calls start or rebuild a session, but those carry multi-million-character contexts. At the fleet's 94.1% prompt-cache hit rate approaching 0.99, tokenization grows from 10% to 64% of time to first token. TokTier is a stateful CPU+GPU tokenization service for this two-mode workload with one contract: emitted token IDs are always identical to full reference tokenization of the request text.",
+      "one_liner": "TokTier shows tokenization can dominate TTFT once agent prompt-cache hit rates get high.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/6afa6289.md",
+      "images": [],
+      "added_date": "2026-08-04",
+      "updated_date": "2026-08-03",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f7694616",
+      "title": "AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers",
+      "url": "https://arxiv.org/abs/2607.29626",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tianyu Huai, Tingshuo Fan, Xinchi Chen, Yining Zheng, Yuxin Wang, Shuang Chen, Jie Zhou, Xuanjing Hu...",
+        "original_date": "2026-07-31"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agents",
+        "benchmark",
+        "hyperparameter-optimization",
+        "scientific-agents"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文把 LLM Agent 做实验的能力拆成连续 HPO 决策问题，而不是只看一次性代码生成或最终答案AgentHPOBench 包含 30 个可执行机器学习任务，覆盖 7 类研究场景；每个任务从 validated baseline run 开始，Agent 根据历史配置metrics 和 logs 继续给下一步配置摘要结论是当前 Agent 已有可测的实验优化能力，但持续迭代复杂日志诊断稳定接近 reference performance 仍弱",
+      "summary_en": "As LLMs evolve from code completion systems into autonomous scientific agents, evaluating their ability to conduct experiments has become increasingly important. Existing benchmarks typically focus on static code generation, paper replication, or final answer correctness, but do not directly assess whether agents can interpret experimental evidence and use it to guide subsequent hyperparameter decisions. To address this gap, we introduce AgentHPOBench, a sequential benchmark comprising 30 executable machine learning tasks across seven research categories. Each task begins with a validated baseline run, after which an agent performs several sequential interventions. At each step, the agent observes the accumulated configurations, metrics, and logs before proposing the next valid configuration.",
+      "one_liner": "AgentHPOBench evaluates whether research agents can iterate on metrics and logs, not just write code once.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/f7694616.md",
+      "images": [],
+      "added_date": "2026-08-04",
+      "updated_date": "2026-07-31",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8a8b3eb4",
+      "title": "Reusing Past Repairs Through Hierarchical Trajectory Abstraction for Coding Agents",
+      "url": "https://arxiv.org/abs/2607.29658",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yisen Xu, Jiayuan Zhou, Ruiqi Pan, Tse-Hsun Chen",
+        "original_date": "2026-07-31"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "swe-bench",
+        "agent-memory",
+        "trajectory-abstraction"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文提出 STAIR，把历史修复轨迹抽象成多层可复用计划，再注入新 issue 的 prompt摘要报告在 SWE-bench Verified 上，STAIR + Lingxi 使用 MiniMax M2.5 达到 81.2% Pass@1，使用 GPT-5 达到 79.2%；同一计划还能把 mini-SWE-agent v2 从 75.8% 提升到 81.0%这篇适合和Agent 记忆到底该存什么放在一起读",
+      "summary_en": "Although LLM-driven repair agents can tackle complex, repository-level issues, they treat every issue independently and discard the procedural knowledge accumulated from previous repairs. We introduce STAIR, a framework that converts historical repair trajectories into hierarchical, reusable plans that can be adapted to steer future repairs. Each past trajectory is transformed into a multi-level tree that ranges from fine-grained diagnostic actions to high-level repair strategies, encoding experience at several granularities. When a new issue arrives, STAIR selects relevant plan nodes from multiple abstraction levels, tailors them into executable, issue-specific plans, and supplies them to the agent through its prompt. On SWE-bench Verified, STAIR integrated with Lingxi reaches 81.2% Pass@1 using MiniMax M2.5 and 79.2% using GPT-5.",
+      "one_liner": "STAIR turns past repair trajectories into reusable plans for future coding-agent issues.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/8a8b3eb4.md",
+      "images": [],
+      "added_date": "2026-08-04",
+      "updated_date": "2026-07-31",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "63231357",
+      "title": "AuditCoder: Responsibility-Preserving Task Graphs for Auditable Code Generation and Bounded Repair",
+      "url": "https://arxiv.org/abs/2607.29529",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kangjie Huang, Chen Lyu",
+        "original_date": "2026-07-31"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "auditability",
+        "bounded-repair",
+        "task-graphs"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文把代码生成结果和可审计构造轨迹一起生成AuditCoder 在生成前构造带 contract 的任务图，把责任身份实现来源验证证据和修复历史绑定到节点验证失败时只定位并重生成对应区域，未受影响部分保持冻结摘要报告 APPS pass@1 为 82.583.0%，ClassEval 为 75.082.0%；另有 200 条 APPS 记录审计，task-macro decision-code trace coverage 为 0.9725",
+      "summary_en": "Code generators return programs, but typically do not preserve the construction record needed to connect a failure to the decision that produced the affected code or to delimit a justified repair. We present AuditCoder, which treats the program and an auditable construction trace as joint outputs. Before code generation, a contract-annotated task graph assigns stable responsibility identities that remain attached to each commitment, its owned implementation, provenance, validation evidence, and intervention history. When validation fails, a conservative locator maps heterogeneous evidence to a node or dependency branch---or abstains---and bounded repair regenerates only that region while reusing the frozen complement.",
+      "one_liner": "AuditCoder binds generated code to task-graph responsibility and bounded repair evidence.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/63231357.md",
+      "images": [],
+      "added_date": "2026-08-04",
+      "updated_date": "2026-07-31",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f236f44e",
+      "title": "Know It, Act on It: Investigating Memory Utilization in LLM Personalization",
+      "url": "https://arxiv.org/abs/2607.29433",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhaoxin Feng, Jianfei Ma, Emmanuele Chersoni",
+        "original_date": "2026-07-31"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "personalization",
+        "evaluation",
+        "know-act-gap"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文区分模型知道用户偏好和模型按偏好行动作者设计 Know / Act paired tests，在 16 个系统5 种 memory architectures1,000 个偏好上测试摘要指出 Agent 经常能通过 recall 测试，却没有在行为场景中体现同一偏好；医疗和心理相关偏好上的利用弱点尤其明显",
+      "summary_en": "As large language model (LLM) agents evolve into personalized companions, memory has emerged as a core capability. However, LLMs face a knowledge utilization problem: they may fail to act on relevant user preferences even when they are fully present in context. When an agent fails to tailor its response in a context where previously shared user preferences should matter, it is unclear whether the model failed to remember that information or remembered it but failed to use it. To isolate this breakdown, we introduce a decoupled evaluation paradigm that administers paired Know and Act tests to the same user preference. We conduct large-scale experiments across 16 systems and five memory architectures, evaluating 1,000 preferences embedded at three levels of expression strength.",
+      "one_liner": "Know It Act on It separates remembering a preference from actually using it in behavior.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f236f44e.md",
+      "images": [],
+      "added_date": "2026-08-04",
+      "updated_date": "2026-07-31",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0218de41",
+      "title": "From Code Review to Code Critique: Intent, Drift, and Spotlight for AI-Generated Diffs at Scale",
+      "url": "https://arxiv.org/abs/2607.29516",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chandra Maddila, Mashrur Rashik, Euna Mehnaz Khan, Smriti Jha, James Saindon, Nachi Nagappan, Peter...",
+        "original_date": "2026-07-31"
+      },
+      "category": "coding",
+      "tags": [
+        "ai-code-review",
+        "coding-agents",
+        "diff-review",
+        "drift-detection"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文提出 ARCTIC，把 AI 生成 diff 的 review 改成 code critique：预测变更意图检测开发者意图和 Agent 输出之间的 drift标出最需要人工看的 diff 区域摘要报告 intent prediction F1 为 0.86，drift detection 与人工 ordinal 标注的 QWK 为 0.907，spotlight 在 5x 更少 token 下质量估计优于 baseline AI reviewer 2.4x",
+      "summary_en": "AI coding agents are generating code at volumes that exceed the capacity of traditional peer review. At the same time, existing AI code review tools over-index on low-value suggestions such as style and best practices while under-indexing on the concerns human reviewers prioritize most: correctness, security, and performance. We present ARCTIC, an AI-powered Code Critique system that reframes code review around three capabilities: intent prediction, which infers why a change was made from conversation logs and metadata; drift detection, which measures divergence between the developer's intent and the agent's output via backtranslation; and code spotlight, which ranks the regions of a diff most warranting human scrutiny. We ground these capabilities in a six-theme taxonomy derived from 18,000 code reviews.",
+      "one_liner": "ARCTIC reframes AI-generated diff review around intent, drift, and human spotlighting.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0218de41.md",
+      "images": [],
+      "added_date": "2026-08-04",
+      "updated_date": "2026-07-31",
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-04",
-  "total_entries": 1653
+  "total_entries": 1659
 }
