@@ -46492,8 +46492,104 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "b65b4f1a",
+      "title": "ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection",
+      "url": "https://arxiv.org/abs/2604.11790",
+      "source": {
+        "platform": "arxiv",
+        "author": "Wei Zhao, Zhe Li, Peixin Zhang, Jun Sun",
+        "original_date": "2026-04-13"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agents",
+        "security",
+        "prompt-injection",
+        "tool-use",
+        "runtime-guard"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "这篇论文提出 ClawGuard, 将间接提示注入防御放到每个工具调用边界. 方法是先从用户目标推导任务约束, 再在工具执行前拦截违规调用. 摘要报告其在 web, local, MCP, skill 等六类注入基准上验证, 同时用 OS, web, code 任务检查效用损失和 token 开销.",
+      "summary_en": "Tool-augmented Large Language Model (LLM) agents have demonstrated impressive capabilities in automating complex, multi-step real-world tasks, yet remain vulnerable to indirect prompt injection. Adversaries exploit this weakness by embedding malicious instructions within tool-returned content, which agents directly incorporate into their conversation history as trusted observations. To address these vulnerabilities, we introduce \\textsc{ClawGuard}, a novel runtime security framework that enforces a user-confirmed rule set at every tool-call boundary, transforming unreliable alignment-dependent defense into a deterministic, auditable mechanism that intercepts adversarial tool calls before any real-world effect is produced....",
+      "one_liner": "ClawGuard 把工具调用边界变成间接提示注入的确定性防线.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/b65b4f1a.md",
+      "images": [],
+      "added_date": "2026-08-04",
+      "updated_date": "2026-05-11",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fc616a68",
+      "title": "WCXB: A Multi-Type Web Content Extraction Benchmark",
+      "url": "https://arxiv.org/abs/2605.21097",
+      "source": {
+        "platform": "arxiv",
+        "author": "Murrough Foley",
+        "original_date": "2026-05-20"
+      },
+      "category": "infra",
+      "tags": [
+        "web-extraction",
+        "rag",
+        "benchmark",
+        "dataset",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "WCXB 构建了一个多类型 Web 内容抽取基准, 覆盖 2,008 个页面, 1,613 个域名和七种结构化页面类型. 摘要指出当前抽取器在文章页上表现接近, 但在产品, 列表, 文档等结构化页面上 F1 差异明显. 这对 RAG, 搜索索引和训练数据清洗都有实用参考.",
+      "summary_en": "Web content extraction - isolating a page's main content from surrounding boilerplate - is a prerequisite for search indexing, retrieval-augmented generation, NLP dataset construction, and large language model training. Progress in this area has been constrained by the limitations of existing evaluation benchmarks, which are small (100-800 pages), restricted to news articles, or based on web pages from over a decade ago. We introduce the Web Content Extraction Benchmark (WCXB), a dataset of 2,008 web pages from 1,613 domains spanning seven structurally distinct page types: articles, forums, products, collections, listings, documentation, and service pages. The dataset includes a 1,497-page development set and a 511-page held-out test set with matched page type distributions....",
+      "one_liner": "WCXB 用多类型真实网页暴露了文章专用抽取基准的盲区.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fc616a68.md",
+      "images": [],
+      "added_date": "2026-08-04",
+      "updated_date": "2026-05-20",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "083377dd",
+      "title": "BEARCUBS: A benchmark for computer-using web agents",
+      "url": "https://arxiv.org/abs/2503.07919",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yixiao Song, Katherine Thai, Chau Minh Pham, Yapei Chang, Mazin Nadaf, Mohit Iyyer",
+        "original_date": "2025-03-10"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use-agents",
+        "web-agents",
+        "benchmark",
+        "evaluation",
+        "multimodal"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "BEARCUBS 是一个针对 computer-using web agents 的基准, 包含 111 个信息查找问题. 它要求代理访问实时 Web 内容, 并完成视频理解, 3D 导航等多模态交互. 摘要中的实验结果显示 ChatGPT Agent 达到 65.8% 准确率, 人类准确率为 84.7%, 差距主要来自精细控制, 复杂过滤和执行速度.",
+      "summary_en": "Modern web agents possess computer use abilities that allow them to interact with webpages by sending commands to a virtual keyboard and mouse. While such agents have considerable potential to assist human users with complex tasks, evaluating their capabilities in real-world settings poses a major challenge. To this end, we introduce BEARCUBS, a \"smallbut mighty\" benchmark of 111 information-seeking questions designed to evaluate a web agent's ability to search, browse, and identify factual information from the web. Unlike prior web agent benchmarks, solving BEARCUBS requires (1) accessing live web content rather than synthetic or simulated pages, which captures the unpredictability of real-world web interactions; and (2) performing a broad range of multimodal interactions (e.g., video understanding, 3D navigation) that cannot be bypassed via text-based workarounds....",
+      "one_liner": "BEARCUBS 用实时 Web 和多模态交互测量电脑使用代理的真实能力差距.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/083377dd.md",
+      "images": [],
+      "added_date": "2026-08-04",
+      "updated_date": "2025-07-24",
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-03",
-  "total_entries": 1650
+  "last_updated": "2026-08-04",
+  "total_entries": 1653
 }
