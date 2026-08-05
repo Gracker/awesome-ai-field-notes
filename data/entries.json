@@ -47061,8 +47061,355 @@
       "updated_date": "2026-08-02",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "5efa3f53",
+      "title": "Right Answer, Wrong Method: Shortcut Hacking Misleads the Evaluation of LLM Reasoning on Frontier Science Benchmarks",
+      "url": "https://arxiv.org/abs/2608.02442",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xuan Ren, Weiqi Zhai, Tianle Pu, Yihua Zhu, Hu Wei, Bing Zhao",
+        "original_date": "2026-08-03"
+      },
+      "category": "learning",
+      "tags": [
+        "llm-evaluation",
+        "reasoning",
+        "benchmark",
+        "shortcut-hacking"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文指出，科学推理 benchmark 只用最终答案计分会高估 LLM 的真实推导能力作者定义 Solution Hacking：模型通过数值搜索枚举猜测或先答后验等捷径得到正确答案，却没有完成题目要求的目标推导实验显示，这类 shortcut 在普通题中占比 2.2%，到奥赛级题目升至 28.3%，在 HLE 上达 37.4%；部分前沿模型被判正确的答案中有 8.2%44.1% 属于 hacked solutions",
+      "summary_en": "The paper identifies Solution Hacking, where an LLM reaches a correct answer through invalid shortcuts rather than task-targeted reasoning. Across scientific benchmarks, shortcut behavior rises with difficulty and can inflate answer-only accuracy for frontier models.",
+      "one_liner": "科学推理评测不能只看答案对不对，还要识别模型是否用捷径绕过了目标推导",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5efa3f53.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "04ff6214",
+      "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
+      "url": "https://arxiv.org/abs/2608.02585",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhaoxin Yu, Qi Shen, Hengli Li, Zhaowei Zhang, Song-Chun Zhu, Chi Zhang, Zilong Zheng",
+        "original_date": "2026-08-03"
+      },
+      "category": "models",
+      "tags": [
+        "test-time-scaling",
+        "latent-reasoning",
+        "gradient-optimization",
+        "reasoning"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "GradCuit 把可优化 latent states 插入 Transformer 指定层，让 continuation token 的 log-probability 通过因果自注意力对前置 latent state 形成可微路径，从而把结果反馈直接分配到内部推理状态作者报告它在 5 个 instruction-tuned backbone3 个 reasoning benchmark 和 2 种答案格式上平均准确率 64.5%，比 CoT prompting 高 6.6 个百分点，并在不同学习率下比 LatentSeek 更稳定",
+      "summary_en": "GradCuit inserts optimizable latent states inside selected Transformer layers and uses reward-weighted gradients from the continuation to optimize internal reasoning at test time. It reports stronger and more stable reasoning accuracy than chain-of-thought prompting and competing latent optimization methods.",
+      "one_liner": "GradCuit 把 test-time scaling 从多采样答案推进到直接优化模型内部推理状态",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/04ff6214.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8276d5f5",
+      "title": "Agentic coding techniques",
+      "url": "https://micahflee.com/agentic-coding-techniques",
+      "source": {
+        "platform": "blog",
+        "author": "Micah Lee",
+        "original_date": "2026-08-03"
+      },
+      "category": "coding",
+      "tags": [
+        "agentic-coding",
+        "security",
+        "docker-sandbox",
+        "developer-workflow"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Micah Lee 把 agentic coding 写成一套可操作的安全工作流：敏感项目优先本地开源权重，日常开发使用 Claude/Codex CLI；先用规格化对话和 ticket 把任务整理到 ready-for-agent，再让 Agent 实现；高风险 YOLO 模式放进 Docker Sandboxes，GitHub 只给单仓 PAT 与签名专用 SSH key文章强调前提是会写代码的人负责审阅，并把权限边界仓库隔离审查节奏写得很具体",
+      "summary_en": "Micah Lee describes practical techniques for using coding agents securely: local open-weight models for sensitive work, frontier CLI agents for routine coding, specification and ticketing before implementation, Docker sandbox isolation for YOLO mode, and tightly scoped GitHub credentials.",
+      "one_liner": "这篇的价值在于把 Agent 编码从试试看落到权限沙箱ticket 和审阅闭环",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8276d5f5.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fb817c6a",
+      "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+      "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-08-04"
+      },
+      "category": "infra",
+      "tags": [
+        "llm-cli",
+        "reasoning-traces",
+        "mcp",
+        "server-side-tools",
+        "logging"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 发布 LLM 0.32，核心变化不是普通 changelog，而是 CLI/Agent 工具链的协议与可观测性升级：reasoning traces 输出到 stderr，避免污染 stdout 管道；支持 OpenAI ResponsesCodeInterpreter/WebSearch 等 server-side tools；Anthropic 插件可在单次请求中接入 MCP；日志改为 content-addressable SQLite 存储对命令行 Agent 用户，这些改动直接影响工具调用审计和多轮记录成本",
+      "summary_en": "LLM 0.32 adds visible reasoning traces on stderr, OpenAI Responses support, server-side tools, Anthropic MCP connector support, and a redesigned content-addressable SQLite log store, making it a significant tooling and observability release for CLI-based LLM workflows.",
+      "one_liner": "LLM 0.32 把命令行 LLM 从发 prompt推进到 reasoningtoolsMCP 和日志都可审计的工具层",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fb817c6a.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "da2d8fe5",
+      "title": "Keyv and friends compromised in active Shai-Hulud supply chain attack",
+      "url": "https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack",
+      "source": {
+        "platform": "blog",
+        "author": "Ilyas Makari / Aikido Security",
+        "original_date": "2026-08-04"
+      },
+      "category": "infra",
+      "tags": [
+        "npm",
+        "supply-chain-security",
+        "credential-theft",
+        "shai-hulud",
+        "github-actions"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Aikido 记录了 Keyv 维护者账号被攻破后的 Shai-Hulud npm 供应链攻击：攻击者向 keyvflat-cachefile-entry-cachecacheable 等高下载量包发布带 preinstall 的恶意版本，借 GitHub Actions provenance 正常签名发布payload 会下载 Bun 执行混淆脚本，窃取 npmGitHubAWSKubernetesVaultStripeSlack 等凭据，并利用 token 继续感染包和仓库8 月 5 日更新称至少 444 个包1381 个版本20 亿月安装量受影响",
+      "summary_en": "Aikido reports an active Shai-Hulud npm supply-chain worm that compromised the keyv maintainer account, published malicious preinstall payloads with valid GitHub Actions provenance, stole credentials from developer environments, and propagated to hundreds of packages.",
+      "one_liner": "这次 npm 事件说明供应链攻击已从单包投毒升级成凭据窃取后的自动传播链",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/da2d8fe5.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e87390b3",
+      "title": "When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation",
+      "url": "https://arxiv.org/abs/2602.16763",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mubashara Akhtar et al.",
+        "original_date": "2026-02-18"
+      },
+      "category": "learning",
+      "tags": [
+        "benchmark",
+        "evaluation",
+        "saturation",
+        "leaderboard"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文把榜单快没意义了形式化为 benchmark saturation：当 top model 之间的分差落入评估噪声，benchmark 就难以继续区分模型作者分析 60 个语言模型 benchmark 与 14 类属性，发现接近一半 benchmark 已出现饱和，且饱和率随 benchmark 年龄上升；专家策展比公开/私有测试集等常见因素更能解释耐久性建议在 leaderboard 中报告不确定性分差压缩，并为 benchmark 设计更新扩展或退休机制",
+      "summary_en": "This ICML 2026 paper defines and studies benchmark saturation across 60 language-model benchmarks. It finds that nearly half exhibit saturation, with age and expert curation affecting longevity, and argues for uncertainty-aware reporting and benchmark lifecycle management.",
+      "one_liner": "模型榜单接近饱和时，先看分差是否超过评估噪声，再谈谁领先",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e87390b3.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6d7e9807",
+      "title": "Introducing Shieldstral.",
+      "url": "https://mistral.ai/news/shieldstral",
+      "source": {
+        "platform": "blog",
+        "author": "Mistral AI",
+        "original_date": "2026-08-04"
+      },
+      "category": "models",
+      "tags": [
+        "safety",
+        "guardrails",
+        "multimodal",
+        "policy-adaptive",
+        "open-weights"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "Mistral 发布 Shieldstral，一个 3B open-weights multimodal safety classifier，Apache 2.0它把内容审核建模为推理时可输入自然语言 policy 的 yes/no 问答：请求由 InstructQueryDocument 组成，只读取 yes/no logits 并归一化成安全分相比固定 taxonomy guardrail，这种形态更适合不同产品地区和人群切换安全策略；官方称单张 16GB NVIDIA GPU 可运行，并在文本安全拒答检测和多模态审核上达到强表现",
+      "summary_en": "Shieldstral is a 3B open-weights multimodal safety classifier from Mistral that frames moderation as a policy-adaptive yes/no question at inference time, returning calibrated safety scores without retraining and running on a single 16GB NVIDIA GPU.",
+      "one_liner": "Shieldstral 的看点是把 guardrail 从固定分类器变成运行时可改 policy 的二元问答模型",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6d7e9807.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "adbae69b",
+      "title": "brew install actions/checkout",
+      "url": "https://nesbitt.io/2026/08/04/brew-install-actions-checkout.html",
+      "source": {
+        "platform": "blog",
+        "author": "Andrew Nesbitt",
+        "original_date": "2026-08-04"
+      },
+      "category": "infra",
+      "tags": [
+        "github-actions",
+        "supply-chain-security",
+        "homebrew",
+        "ci",
+        "attestation"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Andrew Nesbitt 把 GitHub Actions 的 uses 生态类比为缺少依赖可见性和审查层的包管理器，并提出用 Homebrew tap / OCI artifact 方式包装 actions：formula 可以携带 SHA-256依赖声明auditsigstore attestation 与人工 review文章进一步讨论 composite action 内部 uses 重写runner 本地路径解析自托管 runner cache 和 zizmor index-time audit，适合从 CI 供应链角度重新看 actions/checkout 这类基础依赖",
+      "summary_en": "Andrew Nesbitt argues that GitHub Actions behaves like an under-specified package manager and explores a Homebrew-style index with formulae, hashes, dependency metadata, audits, attestations, and review for actions such as actions/checkout.",
+      "one_liner": "把 GitHub Actions 当包管理器看，才能补上依赖树锁定审查和 attestation",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/adbae69b.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d72269ec",
+      "title": "Cross-Model LLM Code Review: Should you use Claude to review Codex or vice versa?",
+      "url": "https://arxiv.org/abs/2607.21656",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zuodong Xiang, Yike Zhang, YueMing Zhang, Hailu Xu",
+        "original_date": "2026-07-22"
+      },
+      "category": "coding",
+      "tags": [
+        "code-review",
+        "coding-agents",
+        "codex",
+        "claude",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文研究两个 coding agents 组合使用时 reviewer/writer 顺序是否重要作者在 116 个 recent hard/medium LCB tasks 上比较 Claude 与 Codex 的 solo跨模型 review 和同模型 review结果显示 Claude review Codex drafts 可把通过率从 71.6% 提到 89.7%，Codex self-review 到 84.5%；反向 Codex review Claude drafts 反而从 91.4% 降到 82.8%结论是跨模型协作有明显方向性：Claude 审 Codex 有收益，反向不成立",
+      "summary_en": "The paper evaluates Claude/Codex writer-reviewer pairings on 116 coding tasks and finds a strong asymmetry: Claude reviewing Codex drafts raises pass rate from 71.6% to 89.7%, while Codex reviewing Claude drafts hurts performance.",
+      "one_liner": "多 Agent 编码协作不是随便互审，writer/reviewer 方向会直接改变通过率",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d72269ec.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "90d82a04",
+      "title": "Memory Systems for AI Agents",
+      "url": "https://stevekinney.com/writing/agent-memory-systems",
+      "source": {
+        "platform": "blog",
+        "author": "Steve Kinney",
+        "original_date": "2026-03-01"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "retrieval",
+        "context-engineering",
+        "long-running-agents"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Steve Kinney 讨论 AI Agent 记忆系统的工程设计：不要把完整对话历史当成记忆，而要区分短期工作上下文长期事实/经验检索与写入策略文章强调 hybrid retrieval过滤和裁剪比简单向量 top-k 更重要；记忆写入要考虑重要性过期合并和安全，避免把低质量或过时信息永久注入每次上下文它与今日 Agent 实践笔记中的宽写窄读热记忆小而准冷记忆可检索形成直接呼应",
+      "summary_en": "Steve Kinney outlines practical memory design for AI agents: separating working context from durable memory, using hybrid retrieval and aggressive filtering, and treating write policies, forgetting, and safety as first-class concerns.",
+      "one_liner": "Agent 记忆的难点不是存进去，而是只在需要时取出少量正确不过期的内容",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/90d82a04.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "07048389",
+      "title": "DeepSeek V4 Flash on a single AMD MI300X",
+      "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+      "source": {
+        "platform": "github",
+        "author": "Ryan Zhou",
+        "original_date": "2026-08-05"
+      },
+      "category": "infra",
+      "tags": [
+        "deepseek",
+        "mi300x",
+        "vllm",
+        "rocm",
+        "inference"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "这个仓库给出单张 AMD MI300X 部署 DeepSeek V4 Flash 的生产配置样本，覆盖 vLLM ROCm nightlyAITERFP8DSparkKV cacheCaddySHA-256 pin 与 smoke testClawFeed 摘要记录作者报告单流解码 168.6 tok/s8 并发 542 tok/s aggregate64-stream burst 830 tok/s aggregate，权重 156.67 GiB 放入 HBM，未额外量化或 offload它的价值在可复现配置版本 pin启动日志和 ROCm/MI300X 坑点，而不只是能跑模型",
+      "summary_en": "The repository documents a reproducible single-AMD-MI300X deployment setup for DeepSeek V4 Flash using ROCm/vLLM/AITER, FP8, KV cache sizing, Caddy, pinned hashes, startup checks, and throughput notes.",
+      "one_liner": "这类部署仓库有价值，因为它把 ROCm/vLLM/FP8/KV cache 的生产配置和坑点都摊开了",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/07048389.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-05",
-  "total_entries": 1668
+  "total_entries": 1679
 }
