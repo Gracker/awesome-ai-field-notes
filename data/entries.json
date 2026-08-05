@@ -27396,11 +27396,11 @@
       "one_liner": "AI Agent 工程化实践指南：如何构建可靠的 Harness 系统",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/3ba81f9b.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-03",
+      "updated_date": "2026-08-05",
       "github_stars": null,
       "related": [
         "33be271a",
@@ -29462,11 +29462,11 @@
       "one_liner": "深入源码：Hermes Agent 如何实现 \"Self-Improving\"",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/ed827be1.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-03",
+      "updated_date": "2026-08-05",
       "github_stars": null,
       "related": [
         "6ebadca4",
@@ -29595,11 +29595,11 @@
       "one_liner": "从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/4e61a655.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-03",
+      "updated_date": "2026-08-05",
       "github_stars": null,
       "related": [
         "def8abd6",
@@ -32443,14 +32443,17 @@
     {
       "id": "8lwuhhmb",
       "title": "AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice",
-      "url": "https://schema.org\",\"@type\":\"website\",\"name\":\"bestblogs.dev\",\"url\":\"https://www.bestblogs.dev\",\"description\":\"BestBlogs",
+      "url": "https://www.bestblogs.dev/explore?keyword=AI%20Coding%20In-Depth%20Sharing%20How%20to%20Truly%20Utilize%20Tools",
       "source": {
         "platform": "blog",
         "author": null,
         "original_date": null
       },
-      "category": "uncategorized",
-      "tags": [],
+      "category": "coding",
+      "tags": [
+        "#ai-coding",
+        "#tools"
+      ],
       "source_type": "article",
       "language": "zh",
       "summary_zh": "AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice",
@@ -32458,11 +32461,11 @@
       "one_liner": "AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/8lwuhhmb.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-05",
       "github_stars": null,
       "related": []
     },
@@ -33041,15 +33044,20 @@
     {
       "id": "sygvrjjl",
       "title": "sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Talk To Figma MCP",
-      "url": "https://api.githubcopilot.com\"}",
+      "url": "https://github.com/grab/cursor-talk-to-figma-mcp",
       "source": {
-        "platform": "blog",
-        "author": null,
+        "platform": "github",
+        "author": "grab",
         "original_date": null
       },
       "category": "coding",
-      "tags": [],
-      "source_type": "article",
+      "tags": [
+        "#cursor",
+        "#figma",
+        "#github",
+        "#mcp"
+      ],
+      "source_type": "github",
       "language": "zh",
       "summary_zh": "sonnylazuardi/cursor-talk-to-figma-mcp: Cursor Talk To Figma MCP",
       "summary_en": null,
@@ -33060,7 +33068,7 @@
       "local_path": "content/sYGvrjjl.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-05",
       "github_stars": null,
       "related": []
     },
@@ -33134,11 +33142,11 @@
       "one_liner": "Harness 层怎么自我进化？来自斯坦福大学和 MIT 的一项新研究",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/26184842.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-03",
+      "updated_date": "2026-08-05",
       "github_stars": null,
       "related": [
         "6069359f",
@@ -36449,11 +36457,11 @@
       "one_liner": "GPT Image 2的出现，一个设计师的冷思考",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/6c7b1051.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-03",
+      "updated_date": "2026-08-05",
       "github_stars": null,
       "related": [
         "90acc788",
@@ -46774,8 +46782,287 @@
       "updated_date": "2026-07-31",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "6c376ff4",
+      "title": "SWE-Touch: Benchmarking Coding Agents When Users Touch the Code",
+      "url": "https://arxiv.org/abs/2608.02499",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuqiao Tan, Jinxiang Meng, Fangyu Lei, Minzheng Wang, Shizhu He, Jun Zhao, Kang Liu",
+        "original_date": "2026-08-03"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "swe-bench",
+        "shared-workspace",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "SWE-Touch 把编码 Agent 放到用户会中途修改代码的共享工作区中，用与任务冲突但表面合理的 Counter-Edit 压测 Agent 的状态感知和适应能力摘要报告在 SWE-bench Verified 上平均解决率下降 7.7 个百分点，且问题在更长周期的 SWE-Bench Pro 和 DeepSWE 中仍然存在，指向检测工作区变化协调冲突编辑和针对性测试的下一代基准需求",
+      "summary_en": "Real-world software development requires coding agents to operate in shared workspaces where users may inspect and modify code during an ongoing task, yet existing repository-level benchmarks typically evaluate agents working alone or restrict user participation to messages. This leads us to ask: how do coding agents understand and respond to code changes in a shared workspace? We introduce SWE-Touch, a framework that stress-tests this setting through validated Counter-Edits: plausible edits to task-relevant code that conflict with task completion. SWE-Touch mines task-critical regions from multiple repair trajectories, uses a separate User Patch Generator to construct the edits, and injects them with contextual user messages when agents reach the relevant code....",
+      "one_liner": "SWE-Touch benchmarks coding agents under user code edits in shared workspaces.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/6c376ff4.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": "2026-08-03",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "da21903d",
+      "title": "Magnet: Detecting Cross-Session AI Misuse Through Capability Accumulation",
+      "url": "https://arxiv.org/abs/2608.02518",
+      "source": {
+        "platform": "arxiv",
+        "author": "Natalie Isak, Matthew Dressman",
+        "original_date": "2026-08-03"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "misuse-detection",
+        "multi-agent",
+        "cross-session"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Magnet 针对专门 Agent 组合和跨会话代理带来的检测盲区：攻击者可把有害目标拆成多个单独看似无害的会话论文提出以用户 ID 等更高层相关器聚合能力产物，从大量良性会话中吸附出可组合成有害能力的证据包，补足单轮或单会话威胁模型",
+      "summary_en": "The most capable AI deployments are not single models but ensembles of specialized agents that delegate and act in coordination. This architecture unlocks powerful new capabilities, and it also introduces risks that existing frameworks for monitoring, detection, and mitigation were not designed to address. Most state-of-the-art AI abuse detection literature focuses on single-turn or multi-turn (single-session) threat models. This leaves a critical gap: an attacker can decompose a harmful goal into innocuous-looking units and execute each in isolated agentic sessions. The agent is stateless between conversations, but the attacker is not. This asymmetry allows for cross-session trajectories that are effective at evading detection. Our contributions are twofold....",
+      "one_liner": "Magnet detects AI misuse assembled across otherwise benign agent sessions.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/da21903d.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": "2026-08-03",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c4f04a1b",
+      "title": "AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies",
+      "url": "https://arxiv.org/abs/2608.02569",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qiushi Lin, Chaojie Zhang, igo Goiri, Aditya Akella, Ricardo Bianchini, Jovan Stojkovic",
+        "original_date": "2026-08-03"
+      },
+      "category": "agents",
+      "tags": [
+        "agentic-ai",
+        "datacenter",
+        "control-plane",
+        "policy-search"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "AtumAI 把数据中心控制平面策略设计拆成两部：从自然语言目标编译出可机器检查可搜索的目标约束决策变量和评估方法；再用 LLM扩散模型进化算法和代理模型组成系统化搜索循环摘要称其在工作负载放置资源伸缩和功耗管理三类任务上超过专家基线",
+      "summary_en": "The efficiency of a datacenter rests on its control plane policies. Designing these policies is increasingly hard: the hardware-software stack grows fast, the design space is vast and interdependent, and prototyping a single policy takes months. Agentic AI promises to automate this search. Off the shelf, however, it falls short on three fronts. It is not formal: with no structured, searchable statement of the problem, the search has little structure to exploit and hard constraints are not guaranteed. It is not transferable: each task is solved from scratch, so nothing learned on one task carries to the next. Finally, it is not systematic: relying on the LLM as the sole source of candidates, it explores a narrow slice of the design space and settles into local optima....",
+      "one_liner": "AtumAI formalizes datacenter policy design for agentic search and refinement.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c4f04a1b.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": "2026-08-03",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4c04e586",
+      "title": "A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI",
+      "url": "https://arxiv.org/abs/2608.02553",
+      "source": {
+        "platform": "arxiv",
+        "author": "Taye Akinrele, Sindhuja Penchala, Noorbakhsh Amiri Golilarz, Sudip Mittal, Shahram Rahimi",
+        "original_date": "2026-08-03"
+      },
+      "category": "agents",
+      "tags": [
+        "cognitive-ai",
+        "agentic-ai",
+        "long-term-reasoning",
+        "survey"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "这篇综述将生成式和 Agentic AI 的认知能力缺口归纳为持久状态建模目标导向自主性自我监控与控制环境交互学习与适应五个维度，并提出 Adaptive Cognitive Intelligence Architecture 和面向认知的评估方向，适合作为长时间推理持续记忆和自适应 Agent 设计的分类框架",
+      "summary_en": "Cognitive AI seeks to move beyond language generation and autonomous task execution toward systems capable of sustained reasoning, adaptive behavior, persistent memory, and self-regulation. While generative and agentic AI have demonstrated impressive capabilities across a wide range of tasks, many fundamental cognitive functions remain fragmented or weakly developed, limiting reliable operation over extended time horizons. This paper presents a taxonomy-driven survey of the major cognitive capability gaps that continue to constrain the development of Cognitive AI. The literature is organized around five dimensions: persistent state modeling, goal-directed autonomy, self-monitoring and control, environment interaction, and learning and adaptation. For each dimension, we review recent advances, identify recurring limitations, and discuss open research challenges....",
+      "one_liner": "A taxonomy of capability gaps for long-horizon cognitive and agentic AI.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4c04e586.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": "2026-08-03",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "154f3940",
+      "title": "LiveMem: Maintaining Memory State Continuity in Long-Running LLM Inference",
+      "url": "https://arxiv.org/abs/2608.02515",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhichen Liu, Ruihan Sun, Hengjie Yang, Zipeng Wu, Zhaohan Chen, Xiaofan Zhang, Yang Xu",
+        "original_date": "2026-08-03"
+      },
+      "category": "models",
+      "tags": [
+        "llm-memory",
+        "long-running-agents",
+        "inference",
+        "state-continuity"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LiveMem 将长运行助手和 Agent 的问题表述为 context turnover 下的 state continuity：当工作上下文被替换时，固定容量的记忆状态仍要承载历史计算方法在全注意力 LLM 中加入可持续的 memory state，结合记忆导向 post-training 和 state-aware serving，在 LongMemEval 上显示证据移出当前窗口后依然可被利用",
+      "summary_en": null,
+      "one_liner": "LiveMem frames long-running LLM inference as state continuity under context turnover.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/154f3940.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": "2026-08-03",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dd02ce0e",
+      "title": "RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States",
+      "url": "https://arxiv.org/abs/2608.02508",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yi Yang, Zhennan Chen, Yihong Zhuang, Tiehan Fan, Yinan Chen, Jian Li, Jian Yang, Ying Tai",
+        "original_date": "2026-08-03"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "reinforcement-learning",
+        "self-evolving-agents",
+        "alfworld"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "RoMeRL 面向自进化 LLM Agent 记忆中的反馈覆盖不足和 memory-reward trap，用固定维度的按任务结果极性和记忆动态分解的 reduced-order utility state 表示不断增长的轨迹效用空间摘要称其在 ALFWorld 和 LifelongAgentBench 上提升性能，Cold-Q ratio 降低 80.0%，反馈密度提升约 6 倍，记忆规模减少 84.4%，LLM 调用减少 21.1%",
+      "summary_en": "Learning-based memory systems for self-evolving LLM agents face two tightly coupled challenges. First, trajectory-indexed utilities grow with the interaction history, thereby dispersing limited feedback over an ever-expanding state space. Second, because trajectory-level rewards are jointly assigned to co-retrieved memories, irrelevant experiences may receive misleading utility updates and consequently enter the memory-reward trap. To address these challenges, we introduce Reduced-Order Memory Reinforcement Learning (RoMeRL), which represents the growing trajectory-indexed utility space using a fixed-dimensional per-task memory state factorized by outcome polarity and memory dynamics. RoMeRL incorporates new experiences through a fixed set of semantic coordinates whose contents are updated or replaced over time, thereby concentrating feedback over a bounded utility support....",
+      "one_liner": "RoMeRL reduces reward contamination in self-evolving agent memory.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dd02ce0e.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": "2026-08-03",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3addb7c9",
+      "title": "Structured Memory for Edge Language Models: Persistent Context and Corpus Retrieval via O(1) SSM State Injection",
+      "url": "https://arxiv.org/abs/2608.02560",
+      "source": {
+        "platform": "arxiv",
+        "author": "Anusha Madan Gopal, Aras Pirbadian, Kristofor D. Carlson, M Anthony Lewis, Jonathan Tapson",
+        "original_date": "2026-08-03"
+      },
+      "category": "infra",
+      "tags": [
+        "rag",
+        "ssm",
+        "edge-llm",
+        "persistent-memory"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "PRECOG/SMC 利用 State-Space Model 固定大小位置无关的隐状态，将文档语料离线预编码为 hidden state，查询时直接注入最匹配的状态，从而把 RAG prefill 成本从 O(L_context) 降到 O(1)摘要以 1.2B TENNs-LLM 演示在边缘硬件上将 prefill 延迟从约 27s 降到 <6ms，同时支持层次化持久记忆",
+      "summary_en": "Retrieval-augmented generation (RAG) imposes a prefill cost proportional to retrieved context length, and -- with Transformer backbones -- a KV-cache that grows with each generated token. State-Space Models (SSMs) avoid the second cost by construction; we eliminate the first, collapsing prefill from $O(L_{context})$ to $O(1)$ per query. We introduce PRECOG (Pre-Computed Context Injection), a retrieval mechanism that exploits a property unique to SSMs: the fixed-size, position-agnostic recurrent hidden state is a complete summary of everything the model has read. PRECOG pre-encodes document corpora offline as SSM hidden states and injects the best-matching state directly at query time, bypassing in-context re-ingestion entirely....",
+      "one_liner": "PRECOG injects precomputed SSM states to make edge RAG prefill O(1).",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3addb7c9.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": "2026-08-03",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6e38ee0d",
+      "title": "SQLite Critical CVEs or LLM Slop?",
+      "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops",
+      "source": {
+        "platform": "blog",
+        "author": "Afek Berger / JFrog Security Research",
+        "original_date": "2026-07-30"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-slop",
+        "security",
+        "cve",
+        "vulnerability-research"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "JFrog 对一批新建 GitHub repo 发布的 SQLite 高危 CVE 进行核查，发现引用代码不存在或与漏洞逻辑无关PoC 无法触发 crashSQLite 官方 advisory 未收录，并指出这些 advisory 很可能是 AI-generated CVE slop这个案例对自动化漏洞提交NVD/CISA 流程和安全情报污染都是直接警示",
+      "summary_en": "JFrog Security Research investigated a batch of SQLite vulnerability advisories from a newly created GitHub repository. The article reports that referenced code did not exist or pointed to unrelated logic, PoC payloads did not trigger crashes, SQLite official advisories did not list the issues, and the collected advisories looked AI-generated under GPTZero. The case illustrates how LLM-generated security claims can pollute CVE and vulnerability triage workflows.",
+      "one_liner": "JFrog documents suspected LLM-generated SQLite CVE slop entering vulnerability workflows.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6e38ee0d.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": "2026-07-30",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8f51a03d",
+      "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+      "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code",
+      "source": {
+        "platform": "blog",
+        "author": "Ankur Sethi",
+        "original_date": "2026-08-02"
+      },
+      "category": "coding",
+      "tags": [
+        "ai-coding",
+        "cognitive-debt",
+        "code-review",
+        "developer-workflow"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "作者把 LLM 代码输出带来的理解负债称为 cognitive debt：一次性生成大量功能会让项目变快，但开发者容易失去对解决方案的把握文章的实践建议是让 Agent 负责枯燥的查资料示例和草稿，但将关键代码手动重打或重写，用输入过程强迫自己理解架构API 和取舍，适合作为 AI coding 协作的个人工作流反思",
+      "summary_en": "Ankur Sethi argues that letting coding assistants roam freely creates cognitive debt: the code appears quickly, but the developer loses understanding of how the solution works. The post recommends using LLMs to fast-forward boring research and draft work while manually retyping or rewriting generated code to rebuild ownership of the architecture, APIs, and trade-offs.",
+      "one_liner": "A developer workflow note on avoiding cognitive debt from LLM-generated code.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8f51a03d.md",
+      "images": [],
+      "added_date": "2026-08-05",
+      "updated_date": "2026-08-02",
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-04",
-  "total_entries": 1659
+  "last_updated": "2026-08-05",
+  "total_entries": 1668
 }
