@@ -47408,8 +47408,256 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "a0dbad6a",
+      "title": "Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility",
+      "url": "https://arxiv.org/abs/2608.04001",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mohsen Hariri, Weicong Chen, Nahal Shahini, Vikash Singh, Kai Ye, Amirhossein Samandar, Debargha Gan...",
+        "original_date": "2026-08-04"
+      },
+      "category": "models",
+      "tags": [
+        "test-time-scaling",
+        "reasoning-models",
+        "evaluation",
+        "reproducibility"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "这篇综述把 reasoning LLM 的 test-time scaling 拆成单轨迹延长多候选投票或验证以及未完成状态搜索等不同推理制度，强调它们在统计结构算力记账和失败模式上不可互换；作者提出统一符号和报告清单，用于减少评测与复现实验中的口径混乱",
+      "summary_en": "Large language models can solve substantially harder reasoning problems with more inference-time compute. The term \"test-time scaling,\" however, now covers diverse inference algorithms that extend deliberation along a single trajectory, sample completed candidates and aggregate them through voting or verification, or search over unfinished partial states. These algorithms differ in their statistical structure, compute accounting, and failure modes. Treating these procedures as interchangeable under a single scalar \"budget,\" or reporting accuracy without the inference protocol that produced it, makes results difficult to compare across studies. We develop a systematic account of test-time scaling along three axes....",
+      "one_liner": "Test-time scaling 需要按推理制度算力口径和失败模式分开评测",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/a0dbad6a.md",
+      "images": [],
+      "added_date": "2026-08-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3ff04675",
+      "title": "TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning",
+      "url": "https://arxiv.org/abs/2608.04007",
+      "source": {
+        "platform": "arxiv",
+        "author": "Changle Qu, Sunhao Dai, Hengyi Cai, Yuqi Zhou, Xinran Chen, Simon, Jun Xu",
+        "original_date": "2026-08-04"
+      },
+      "category": "agents",
+      "tags": [
+        "tool-use",
+        "reasoning",
+        "self-distillation",
+        "reinforcement-learning"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "TurnSight 面向 Tool-Integrated Reasoning 的长程工具交互信用分配问题，提出 turn-level hindsight self-distillation：教师分支使用同一轨迹的后续状态作为 hindsight context，为每一轮工具调用提供更密集监督，而不是只依赖整条轨迹成败",
+      "summary_en": "Tool-Integrated Reasoning (TIR) enables LLMs to solve complex tasks through iterative tool interactions. However, existing reinforcement learning methods often rely on trajectory-level supervision, limiting fine-grained credit assignment in long-horizon TIR scenarios. On-policy self-distillation offers denser signals through teacher branches with privileged context, but existing approaches typically derive such context from ground-truth answers or retrieved skills, which may not reflect the states actually visited by the agent. Moreover, token-level supervision fails to capture the turn-level structure of tool interactions. To address this, we propose TurnSight, a turn-level hindsight self-distillation framework that derives supervision directly from execution-conditioned hindsight....",
+      "one_liner": "工具型推理 Agent 的训练可以把未来轨迹反馈下沉到每一轮工具调用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3ff04675.md",
+      "images": [],
+      "added_date": "2026-08-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "166c7bcc",
+      "title": "Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent",
+      "url": "https://arxiv.org/abs/2608.03979",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhen Fang, Yu Zeng, Wenxuan Huang, Yiming Zhao, Shiting Huang, Tianfei Ren, Qi Lu, Qingnan Ren, Qish...",
+        "original_date": "2026-08-04"
+      },
+      "category": "agents",
+      "tags": [
+        "multimodal-agents",
+        "deep-research",
+        "video",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Video-DeepResearch 把多模态 deep research 从静态图像扩展到连续视频流，指出当前模型存在绕过视觉工具的 modality bias 和依赖参数记忆的 leakage；论文引入 Video-DRBench，用 dense spatiotemporal grounding 与 open-web exploration 同时测试视频研究 Agent",
+      "summary_en": "We introduce Video-DeepResearch (Video-DR), extending multimodal agents from static images to continuous video streams, a setting that demands dense spatiotemporal grounding coupled with open-web exploration. Preliminary evaluations reveal two critical bottlenecks in current models: (1) modality bias, where agents bypass visual tools in favor of textual search, and (2) parametric knowledge leakage, where models rely on internal memory rather than genuine tool-augmented execution. To address these challenges, we propose Video-DR, featuring a decoupled perception-exploration pipeline with stage-wise tool unlocking that compels exhaustive cross-frame visual grounding prior to web retrieval....",
+      "one_liner": "视频研究 Agent 的关键瓶颈是时空 grounding工具使用偏置与知识泄漏",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/166c7bcc.md",
+      "images": [],
+      "added_date": "2026-08-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3e15eb79",
+      "title": "PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents",
+      "url": "https://arxiv.org/abs/2608.04003",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shuhan Xue, Zixin Ding, Yichen Shen, Yinjie Wang, Zhenfei Yin, Yingcheng Wu, Yuxin Chen, Mengdi Wang...",
+        "original_date": "2026-08-04"
+      },
+      "category": "agents",
+      "tags": [
+        "personal-agents",
+        "memory",
+        "recursive-self-improvement",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "PAST-Bench 把个人 AI Agent 的长期偏好任务历史工具例程和技能保留作为 recursive self-improvement 的可测场景；评测通过有序新任务序列隔离 retained experience 是否真的改善后续行为，而不是只看单次任务完成率",
+      "summary_en": "Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Personal AI agents offer a concrete setting for studying this capability because they retain preferences, task histories, tool routines, and learned skills across sessions. Yet whether retained experience actually improves them over time has not been systematically tested. We introduce PAST-Bench, a benchmark designed to isolate this question. Each agent runs through ordered sequences of fresh-session tasks under matched conditions that turn retained experience on and off. It spans 26 scenarios and 204 episodes across memory, procedural reuse, information gathering, and update. We report both later-task gains and whether those gains follow the intended save, retrieve, and update pathway....",
+      "one_liner": "个人 Agent 的记忆与技能积累需要按跨会话收益来评测",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3e15eb79.md",
+      "images": [],
+      "added_date": "2026-08-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "15e8a917",
+      "title": "Should We Type or Talk to LLM Agents? A Comprehensive Study of Voice and Keyboard Input Perturbations",
+      "url": "https://arxiv.org/abs/2608.03970",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zizhao Hu, Nathan Elijah Segura, Mohammad Rostami, Jesse Thomason",
+        "original_date": "2026-08-04"
+      },
+      "category": "agents",
+      "tags": [
+        "human-agent-interaction",
+        "voice-input",
+        "robustness",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "HIVE 研究用户用键盘或语音输入给 LLM Agent 时产生的不同扰动：键盘带来拼写噪声，传统转写带来口语停顿，AI dictation 又会重构表达；论文用这些扰动评估模型鲁棒性，提醒 Agent 评测不能默认输入都是干净文本",
+      "summary_en": "Human input reaches language models by typing or speaking, and each channel leaves a distinct signature: orthographic noise for keyboards; for voice, disfluency from conventional transcription and restructuring from AI-backed dictation tools. How do they impact an LLM's performance? In this paper we present HIVE (Human Input-Variation Engine), a suite of voice transcription perturbations and QWERTY keyboard perturbations. We use HIVE to evaluate how robust models are to these perturbations. We present seven findings. (i) Voice transcription perturbations lower accuracy across every instruction-tuned model we test, and it is the structure of the transcription rather than its fillers that carries the cost. (ii) QWERTY keyboard perturbations cost less, and a model absorbs a lot of them before accuracy falls away....",
+      "one_liner": "面向真实用户的 Agent 评测要覆盖语音转写和键盘噪声",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/15e8a917.md",
+      "images": [],
+      "added_date": "2026-08-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "613e5cf5",
+      "title": "Cross-Model KV Cache Transfer in LLM Families: A Closed-Form Linear Mapping for Prefill Reuse",
+      "url": "https://arxiv.org/abs/2608.03893",
+      "source": {
+        "platform": "arxiv",
+        "author": "Taekyung Heo, Rasoul Shafipour, Ritchie Zhao, Maximilian Golub, Mohammad Mahdi Kamani, Ritika Borkar...",
+        "original_date": "2026-08-04"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "llm-inference",
+        "model-routing",
+        "cost-optimization"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文针对生产系统在同一模型家族内切换不同尺寸模型时需要重新 prefill 的成本，提出 cross-model KV cache transfer：在 KV head 数和维度匹配时用闭式线性映射复用源模型 KV cache；摘要报告 Qwen3 14B 到 32B 等场景中可跳过 prefill 并保持质量",
+      "summary_en": "Production deployments often swap between different-sized models in a family for cost-quality cascading, mid-conversation switching, and routing, and each swap forces the receiver to repay the prefill from scratch. We propose cross-model KV cache transfer, where the receiver reuses the source's KV cache, skipping prefill. We find that cross-model KV has substantial linear structure across matched-KV pairs, where source and target share KV head count and per-head dimension. On Qwen3 14B->32B, one source layer explains 56% of variance in the target's keys and 32% in values, rising to 79% and 65% with multiple source layers. Building on this, we design a closed-form ridge mapper that operates per head and proceeds in three steps. First, for each target layer we select the top-k most predictive source layers and concatenate their KV as input....",
+      "one_liner": "同族模型路由可以通过 KV cache 转换减少重复 prefill 成本",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/613e5cf5.md",
+      "images": [],
+      "added_date": "2026-08-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5635c460",
+      "title": "Cloudflare OS: an open platform for agents, apps, and work",
+      "url": "https://blog.cloudflare.com/cloudflare-os",
+      "source": {
+        "platform": "blog",
+        "author": "Cloudflare",
+        "original_date": "2026-08-05"
+      },
+      "category": "agents",
+      "tags": [
+        "enterprise-agents",
+        "agent-workspace",
+        "cloudflare",
+        "workflow-automation"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cloudflare OS 把企业 Agent 描述为围绕公司上下文构建的工作空间：每个人都有一个 Agent，能理解组织知识流程系统和应用，并把这种访问能力转化为文档关系和运营工作，而不只服务代码生成",
+      "summary_en": "Cloudflare describes Cloudflare OS as a company-context workspace that gives every employee an agent connected to organizational knowledge, procedures, systems and applications, aiming to extend agent leverage beyond code into documents, relationships and operational work.",
+      "one_liner": "企业 Agent 平台的重点正在从写代码转向连接组织上下文和业务系统",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5635c460.md",
+      "images": [],
+      "added_date": "2026-08-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1a7a5905",
+      "title": "Eight Myths on Software Engineering and GenAI",
+      "url": "https://queue.acm.org/detail.cfm?id=3807963",
+      "source": {
+        "platform": "blog",
+        "author": "Jenna Butler, Brian Houck, Margaret-Anne Storey, Travis Lowdermilk, Steven Clarke, Emerson Murphy-Hi...",
+        "original_date": "2026-05-26"
+      },
+      "category": "coding",
+      "tags": [
+        "software-engineering",
+        "genai",
+        "developer-productivity",
+        "ai-adoption"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "ACM Queue 文章梳理软件工程与 GenAI 的常见误区，指出营销叙事和轶事成功已经领先于证据；文章特别强调开发者并非把大部分时间用于写代码，因此用代码行数衡量 AI 影响会误导工具采纳和组织决策",
+      "summary_en": "ACM Queue examines common myths around GenAI in software engineering, arguing that adoption narratives have outrun evidence, that developers spend only a minority of time writing code, and that lines-of-code metrics can distort how organizations evaluate AI impact.",
+      "one_liner": "评估 GenAI 编程工具时，组织应避免把代码行数当成生产力本身",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1a7a5905.md",
+      "images": [],
+      "added_date": "2026-08-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-05",
-  "total_entries": 1679
+  "last_updated": "2026-08-06",
+  "total_entries": 1687
 }
