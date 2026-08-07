@@ -48038,8 +48038,168 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "46235359",
+      "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
+      "url": "https://arxiv.org/abs/2608.05144",
+      "source": {
+        "platform": "arxiv",
+        "author": "Boxiu Li, Zimo Wen, Yijia Fan, Junxiang Lei, Sufeng Guo, Jiaao Wu, Ruize Tang, Mukai Li, Yifei Shen...",
+        "original_date": "2026-08-05"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-runtime",
+        "long-horizon-reasoning",
+        "self-evolving-agents",
+        "verification",
+        "swe-bench"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Argus 把长程推理视为可持久的 agentic runtime，由 ManagerPlannerEngineerReviewer 在持久项目状态上执行有边界任务摘要强调它不改模型权重，而是通过 memoriesskillsproceduresverifiers和路由决策的审核入库来自我演化论文报告在 GPT-5.5 七个基准中 SWE-Bench Pro 约 78%，并在验证门控后降低求解 token 和工作时间",
+      "summary_en": "Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified objective. We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and Reviewer execute bounded missions over durable project state. Argus separates stable user intent from operational objectives, constraints, and verification criteria, and admits memories, skills, procedures, verifiers, routing decisions, and rejected routes only after role-owned review and, when available, task-native verification. Model weights remain fixed; self-evolution occurs through persistent runtime state and control policy, with autonomous execution between operator-owned escalation points....",
+      "one_liner": "长程 agent 的核心不只是模型，而是可验证可累积的运行时状态",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/46235359.md",
+      "images": [],
+      "added_date": "2026-08-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "18262696",
+      "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling",
+      "url": "https://arxiv.org/abs/2608.05141",
+      "source": {
+        "platform": "arxiv",
+        "author": "Indraneil Paul, Falko Helm, Goran Glava, Iryna Gurevych",
+        "original_date": "2026-08-05"
+      },
+      "category": "coding",
+      "tags": [
+        "long-context",
+        "code-agents",
+        "context-engineering",
+        "repository-understanding",
+        "training-data"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "OctoLong 针对长上下文模型在 agentic workflows 和代码仓库理解中缺少远距离依赖语料的问题，用 AST parserlanguage server backend 和 package manager 构建跨仓库代码引用检索管线，生成百万 token 级的依赖密集上下文摘要报告，在约 50B token 中训练并仅用 12% OctoLong 数据替换传统语料，就提升长距离检索长期状态跟踪repo-level 代码理解和下游 agent 任务",
+      "summary_en": "Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are dominated by books, academic articles, and code repositories, which are finite resources and often scarce in long-distance dependencies. In this work, we introduce OctoLong, a context engineering pipeline that instruments an AST parser, a language server backend, and a package manager to facilitate the recursive retrieval of code references, enabling the curation of dependency-rich code contexts of millions of tokens in length....",
+      "one_liner": "代码 agent 的长上下文能力，需要跨仓库依赖语料来训练",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/18262696.md",
+      "images": [],
+      "added_date": "2026-08-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "80ebb758",
+      "title": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment",
+      "url": "https://arxiv.org/abs/2608.05102",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yijun Lu, Rui Ye, Jiajun Wang, Yuwen Du, Tian Jin, Songhua Liu, Siheng Chen",
+        "original_date": "2026-08-05"
+      },
+      "category": "agents",
+      "tags": [
+        "search-agents",
+        "credit-assignment",
+        "reinforcement-learning",
+        "browsecomp",
+        "long-horizon"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "ABSeeker 聚焦长程搜索 agent 的训练信号问题：现有 SFT/RL 往往把整条轨迹中的步骤统一处理，无法区分有用错误或冗余行动论文提出 Answer-Backtracked Credit Assignment，先从正确答案回溯中间线索，再对每个搜索步骤做 clue-anchored scoring基于 Qwen3.5-4B 和 8.5k 样本，摘要报告 BrowseComp 37.3%BrowseComp-ZH 39.1%，加入上下文管理后达 55.3% 和 52.9%",
+      "summary_en": "Long-horizon search agents must make multiple sequential actions (steps) to search, retrieve, verify, and integrate evidence to reach a final answer. However, existing methods for training these agents typically treat all steps within a trajectory uniformly during both supervised fine-tuning (SFT) and reinforcement learning (RL), failing to distinguish useful actions from erroneous or redundant ones. In this paper, we propose Answer-Backtracked Credit Assignment (ABC), a fine-grained credit assignment framework for training long-horizon search agents by converting sparse trajectory-level outcomes into dense step-level supervision that rewards useful actions (even in failed trajectories) while suppressing erroneous or redundant actions....",
+      "one_liner": "搜索 agent 训练需要到步骤级的信用分配",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/80ebb758.md",
+      "images": [],
+      "added_date": "2026-08-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "88153c92",
+      "title": "Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning",
+      "url": "https://arxiv.org/abs/2608.05139",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yinghui He, Ling Yang, Jiarui Liu, Yongjin Yang, Lechen Zhang, Yingcheng Wu, Zhenfei Yin, Mengdi Wan...",
+        "original_date": "2026-08-05"
+      },
+      "category": "learning",
+      "tags": [
+        "skill-entropy",
+        "long-horizon-reasoning",
+        "benchmark",
+        "reinforcement-learning",
+        "skill-switching"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Skill-Native LLMs 把长程推理中的跨技能切换抽象成 Skill Entropy，用来衡量模型从一种推理技能转向另一种技能的难度摘要介绍了基于 558 个技能9 个领域的 Skill^2-Bench，并在 8 个前沿模型和 4 个开源模型上观察到高熑任务准确率下降它还将 skill entropy 转成 RL 训练奖励，报告 Qwen3-4B-Instruct 分数从 34.4% 提升到 68.4%",
+      "summary_en": "Long-horizon reasoning in recent LLMs demands that the model switch between distinct skills inside a reasoning chain, such as first doing a math derivation, then using the result to plan a schedule. We call such problems cross-skill long-horizon tasks: multi-step tasks whose steps require different reasoning skills and depend on earlier outputs. Existing benchmarks often evaluate individual skills, lacking a principled way to measure how well a model switches between skills. We address this gap from both the evaluation and training sides. We introduce Skill Entropy, a measure of the difficulty of switching from one skill to another. We then propose Skill^2-Bench, a benchmark of cross-skill long-horizon tasks built over 558 skills across 9 verifiable and open-ended domains. Each task is assigned a task-level skill-entropy score and grouped into three difficulty levels....",
+      "one_liner": "长程推理的难点在于技能切换，而不只是单项能力",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/88153c92.md",
+      "images": [],
+      "added_date": "2026-08-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "98ab5582",
+      "title": "Chained Recursive Language Models for Multi-Iteration Reasoning",
+      "url": "https://arxiv.org/abs/2608.05124",
+      "source": {
+        "platform": "arxiv",
+        "author": "Purbesh Mitra, Sennur Ulukus",
+        "original_date": "2026-08-05"
+      },
+      "category": "agents",
+      "tags": [
+        "recursive-reasoning",
+        "context-management",
+        "artifact-workspace",
+        "long-context",
+        "multi-hop-reasoning"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Chained Recursive Language Models 提出一种推理时架构：同一模型被重复调用为一串新的推理根，每个 root 都看到原问题和上下文，但不继承完整对话历史，而是接收简短摘要blackboard 和前序 root 写下的任务产物这是把长上下文推理拆成可检查可修正可续写的分段计算，适合抽取计数排序和 multi-hop 任务",
+      "summary_en": "Long context reasoning in large language models (LLMs) is usually constrained by the fact that a single inference trajectory has to simultaneously explore the context, store intermediate state, verify evidence, and produce the final answer. This becomes particularly difficult in tasks that require extraction, counting, ordering, or multi-hop reasoning, where an early mistake can propagate until the final response. In this work, we propose Chained Recursive Language Models (Chained RLM), an inference-time architecture, in which the same underlying model is called repeatedly as a sequence of fresh reasoning roots. Each root receives the original problem and context, but does not inherit the full conversational history. Instead, it receives a compact plain-text summary, a plain-text blackboard, and some durable task-specific artifacts written by predecessor roots....",
+      "one_liner": "用工作区产物交接，可以把一次长推理拆成多次新上下文推理",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/98ab5582.md",
+      "images": [],
+      "added_date": "2026-08-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-06",
-  "total_entries": 1699
+  "last_updated": "2026-08-07",
+  "total_entries": 1704
 }
