@@ -48198,8 +48198,113 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "4758556d",
+      "title": "My LLM coding workflow going into 2026",
+      "url": "https://addyosmani.com/blog/ai-coding-workflow",
+      "source": {
+        "platform": "blog",
+        "author": "Addy Osmani",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "ai-coding",
+        "llm-workflow",
+        "spec-driven-development",
+        "agentic-coding",
+        "software-engineering"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Addy Osmani 总结面向 2026 的 LLM 编码工作流：先用模型协助写清规格和计划，再把任务拆成小步迭代执行；每一步都要提供代码文档约束和反例等上下文，并用测试review 与人工责任边界兜底它的价值不是推荐某个工具，而是把 AI-assisted engineering 拉回工程纪律：自动化越强，speccontextTDDcode review 和所有权越不能省",
+      "summary_en": "Addy Osmani describes a disciplined AI-assisted engineering workflow for 2026: start with a clear specification and plan, split work into small iterative chunks, pack the relevant code/docs/constraints into context, and keep tests, code review, and human accountability in the loop. The article frames LLMs as powerful pair programmers that need direction and oversight rather than autonomous judgment.",
+      "one_liner": "AI 编码越强，规格上下文测试和责任边界越要前置",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/4758556d.md",
+      "images": [],
+      "added_date": "2026-08-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "755f03fd",
+      "title": "Introducing Agent Plugins",
+      "url": "https://vercel.com/blog/introducing-agent-plugins",
+      "source": {
+        "platform": "blog",
+        "author": "Vercel / Agent Plugins TSC",
+        "original_date": "2026-08-06"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-plugins",
+        "agent-skills",
+        "mcp",
+        "plugin-standard",
+        "agent-tooling"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Agent Plugins 1.0.0 定义了一个小而开放的 agent 扩展包格式：插件根目录包含 plugin.json，Skills 放在 skills/，MCP 配置放在 mcp.jsonVercel 文章强调它只标准化可移植发现与加载边界，把安装分发策略UX 和客户端专属能力留给各客户端；AWSCursorGitHubMicrosoftOpenAIVercel 参与初始治理，首批支持 ChatGPT/CodexCursorGitHub CopilotKiro 和 VS Code",
+      "summary_en": "Agent Plugins 1.0.0 is an open, vendor-neutral packaging format for portable agent extensions. A plugin root contains a plugin.json manifest, Skills under skills/, and MCP server configuration in mcp.json. The format intentionally standardizes only discovery/loading of portable components while leaving installation, distribution, policy, UX, and client-specific capabilities to each client.",
+      "one_liner": "Agent Plugins 把 Skills 和 MCP 的可移植部分收敛到一个最小包格式",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/755f03fd.md",
+      "images": [
+        "https://assets.vercel.com/image/upload/f_auto,c_fill,w_32,h_32,q_75/contentful/image/e5382hct74si/5o5CZNGvlw1dk6eS58ASNm/05bf2dc16f4a64a8dcac6f10620edebb/eric-dodds-128.jpg",
+        "https://assets.vercel.com/image/upload/f_auto,c_fill,w_32,h_32,q_75/contentful/image/e5382hct74si/6qvpRjZDpvV0JLU8mXx2v4/53962a54ad214cde165e18813940354e/806FE12B-9B25-4A8F-AB72-0853E48B1734_1_105_c_2__1_.jpg"
+      ],
+      "added_date": "2026-08-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d046e10f",
+      "title": "TencentDB Agent Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "source": {
+        "platform": "github",
+        "author": "TencentCloud",
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "team-memory",
+        "skills",
+        "llm-wiki",
+        "code-graph"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "TencentDB Agent Memory 把 agent 记忆从单次对话扩展成团队级可复用资产：Chat MemorySkillLLM-WikiCode-GraphREADME 强调通过自动资产抽取跨框架共享冷启动导入和 Memory Hub 管理，让新 agent 能继承已有项目上下文文档代码结构与工作流经验，减少重复解释和重复探索它的工程重点在治理路由和资产生命周期，而不只是记住聊天",
+      "summary_en": "TencentDB Agent Memory presents a team-level memory hub for AI agents. It turns conversations, documents, code, and workflows into reusable assets such as Chat Memory, Skills, LLM-Wiki, and CodeGraph, then manages and routes those assets across agents and frameworks so new sessions can inherit project context instead of rediscovering it.",
+      "one_liner": "团队级 agent 记忆的核心是把经验治理成可复用资产",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d046e10f.md",
+      "images": [
+        "https://github.com/TencentCloud/TencentDB-Agent-Memory/raw/feat/server_team/assets/images/logo.png",
+        "https://camo.githubusercontent.com/692f94332301101cb9d50813e2f10e871904ee8547930f2d79093c74f39d373a/68747470733a2f2f7472656e6473686966742e696f2f6170692f62616467652f7265706f7369746f726965732f3239333130",
+        "https://camo.githubusercontent.com/904e3dba9c94d4b3ff0ef5fef5f225ff56f298b6d3302a4e306741f9bf303f76/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f4074656e63656e7464622d6167656e742d6d656d6f72792f6d656d6f72792d74656e63656e7464623f636f6c6f723d626c7565",
+        "https://camo.githubusercontent.com/784362b26e4b3546254f1893e778ba64616e362bd6ac791991d2c9e880a3a64e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d677265656e2e737667",
+        "https://camo.githubusercontent.com/0a7737faa8ec727d21562b20f0591cd9b846cdb754631450b8203b68b725bb1c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6e6f64652d2533453d32322e31362d627269676874677265656e"
+      ],
+      "added_date": "2026-08-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-07",
-  "total_entries": 1704
+  "total_entries": 1707
 }
