@@ -5,23 +5,23 @@
 ## 最新精选 Top 10
 
 - [My LLM coding workflow going into 2026](https://addyosmani.com/blog/ai-coding-workflow) ⭐5 · 2026-08-07 — AI 编码越强，规格上下文测试和责任边界越要前置
+- [Managing AI Coding Costs at Scale](https://www.databricks.com/blog/managing-ai-coding-costs-scale) ⭐5 · 2026-08-07 — AI coding 的规模化落地开始从模型能力转向成本可见性路由和网关治理
 - [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) ⭐4 · 2026-08-07 — 团队级 agent 记忆的核心是把经验治理成可复用资产
+- [The Bitter Lesson of Tool Calling](https://arxiv.org/abs/2608.06370) ⭐5 · 2026-08-06 — 工具接口形态会跟模型能力一起演进，typed code stubs 可能比 JSON 调用更适合强模型
+- [TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajector...](https://arxiv.org/abs/2608.06346) ⭐5 · 2026-08-06 — 长轨迹 agent 调试需要区分局部错误已修复错误和真正导致失败的关键错误
+- [Learning Globally Reusable Skills for Coding Agents](https://arxiv.org/abs/2608.06153) ⭐5 · 2026-08-06 — 技能库不能只局部追加，coding agent 需要关系图合并和 replay 验证来保持可复用性
+- [Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers](https://blog.cloudflare.com/kitesurf) ⭐5 · 2026-08-06 — Agent 浏览器正在从复用 Chromium 转向以隔离成本和机器可读输出为中心的新运行时
 - [Introducing Agent Plugins](https://vercel.com/blog/introducing-agent-plugins) ⭐5 · 2026-08-06 — Agent Plugins 把 Skills 和 MCP 的可移植部分收敛到一个最小包格式
 - [How Compiler Explorer Runs on AWS in 2026](https://xania.org/202608/how-compiler-explorer-runs-on-aws) ⭐4 · 2026-08-06 — 公共开发者工具如何低成本可靠运行，Godbolt 给了可复查数字和取舍
 - [Atlassian Rovo Exfiltrates Data, Bypassing Controls](https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data) ⭐4 · 2026-08-06 — 关闭搜索不等于切断外泄路径，agent 工具面必须按真实数据流建模
-- [A year of AI disclosure in critical packages](https://nesbitt.io/2026/08/06/a-year-of-ai-disclosure-in-critical-packages.html) ⭐4 · 2026-08-06 — 把开源里的 AI 参与率从体感变成可复查的 commit 级统计
-- [Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning](https://arxiv.org/abs/2608.05144) ⭐5 · 2026-08-05 — 长程 agent 的核心不只是模型，而是可验证可累积的运行时状态
-- [Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning](https://arxiv.org/abs/2608.05139) ⭐4 · 2026-08-05 — 长程推理的难点在于技能切换，而不只是单项能力
-- [OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling](https://arxiv.org/abs/2608.05141) ⭐4 · 2026-08-05 — 代码 agent 的长上下文能力，需要跨仓库依赖语料来训练
-- [DeepSeek V4 Flash on a single AMD MI300X](https://github.com/ryanzhou/deepseek-v4-flash-mi300x) ⭐4 · 2026-08-05 — 这类部署仓库有价值，因为它把 ROCm/vLLM/FP8/KV cache 的生产配置和坑点都摊开了
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
 | 模型与实验室 | 252 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 222 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 121 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| Agent 与自动化 | 225 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 123 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 42 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 61 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 43 | 论文、课程、提示工程、长文、方法论。 |
@@ -29,15 +29,15 @@
 
 ## 当前数据
 
-- 原始条目: 1710
-- 公开展示卡片: 891
-- 有全文内容: 804
-- 最近 7 天信号: 119
+- 原始条目: 1715
+- 公开展示卡片: 896
+- 有全文内容: 812
+- 最近 7 天信号: 124
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`llm`, `ai-tools`, `research`, `benchmark`, `evaluation`, `openai`, `arxiv`, `attention`, `anthropic`, `google`, `optimization`, `agent-security`, `claude-code`, `security`, `coding-agents`, `coding-agent`, `2026`, `agent-memory`
+`llm`, `ai-tools`, `research`, `benchmark`, `evaluation`, `openai`, `arxiv`, `attention`, `anthropic`, `google`, `coding-agents`, `optimization`, `agent-security`, `claude-code`, `security`, `coding-agent`, `2026`, `agent-memory`
 
 ## 自动化约定
 

@@ -48399,8 +48399,168 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "4fffe919",
+      "title": "Managing AI Coding Costs at Scale",
+      "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "source": {
+        "platform": "blog",
+        "author": "Databricks",
+        "original_date": "2026-08-07"
+      },
+      "category": "coding",
+      "tags": [
+        "ai-coding",
+        "cost-governance",
+        "ai-gateway",
+        "model-routing",
+        "developer-tools"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Databricks 把 AI coding 成本上涨拆成可治理的工程问题：追踪效率前沿保留 harness/模型灵活性做 request/task routing用可见性和渐进式 spend gate 替代硬预算，并通过上下文压缩缓存和 AI Gateway 降低 token overhead文章给出 Smart Router 平均任务成本降低 30% 以上harness 与缓存调优使生成 token 和成本接近减半等经验",
+      "summary_en": "Databricks frames AI coding cost growth as an engineering and governance problem. The post covers the efficiency frontier for coding models, meta-harnesses, request/task routing, progressive spend gates, context compression, prompt caching, and AI Gateway infrastructure, citing more than 30% average task-cost reduction from Smart Router and nearly 50% token/cost reduction from harness and caching tuning.",
+      "one_liner": "AI coding 的规模化落地开始从模型能力转向成本可见性路由和网关治理",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/4fffe919.md",
+      "images": [],
+      "added_date": "2026-08-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6f79108c",
+      "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+      "url": "https://blog.cloudflare.com/kitesurf",
+      "source": {
+        "platform": "blog",
+        "author": "Cloudflare / Celso Martinho",
+        "original_date": "2026-08-06"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-browser",
+        "browser-run",
+        "cloudflare-workers",
+        "sandboxing",
+        "web-automation"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cloudflare 发布 Kitesurf：为 AI agent 设计运行在 Workers V8 isolates 上的轻量浏览器它牺牲部分像素级兼容和 wall time，换取更低 CPU/内存成本隔离出网CDP 兼容和更适合 agent 的 HTML/截图任务文章给出约 215,000 个 WPT 通过14 URL quick-action 测试中 CPU 低 3.1-3.8 倍内存低 4.7-7.0 倍的结果，并明确视频WebGL复杂反 bot 和长认证会话仍应使用 Chromium",
+      "summary_en": "Cloudflare introduces Kitesurf, an agent-first browser built on Workers V8 isolates. It uses isolated components, Dynamic Workers, SandboxOutbound networking, CDP compatibility, PageScript/PageRenderer separation, Rust/Wasm, WPT plus visual regression testing, and trades some wall-time/rendering fidelity for 3-7x lower CPU and memory on common agentic screenshot and HTML extraction tasks.",
+      "one_liner": "Agent 浏览器正在从复用 Chromium 转向以隔离成本和机器可读输出为中心的新运行时",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/6f79108c.md",
+      "images": [],
+      "added_date": "2026-08-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8379ed04",
+      "title": "The Bitter Lesson of Tool Calling",
+      "url": "https://arxiv.org/abs/2608.06370",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ishan Patel, Sahil Sen, Elias Lumer, Vamse Kumar Subbiah",
+        "original_date": "2026-08-06"
+      },
+      "category": "agents",
+      "tags": [
+        "tool-calling",
+        "programmatic-tool-calling",
+        "bfcl",
+        "agent-runtime",
+        "typed-python-stubs"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文系统比较 programmatic tool calling 与原生 JSON tool calling：把工具暴露为 typed Python stubs，让模型用代码链式或并行调用，并在单个 agent turn 内回传执行结果作者在 BFCL v4 上评估 14 个模型，报告 11/14 个模型 PTC 不低于 JSON baseline，GPT-5.6 family 提升 10.6%；并行 fan-out 下 13/14 个模型不低于 baseline，context rot 条件下也更稳定",
+      "summary_en": "Tool use transforms LLMs into agents, and programmatic tool calling replaces rigid JSON calls with typed Python stubs that can chain and parallelize naturally. This paper evaluates PTC versus native JSON tool calling across 14 language models on BFCL v4, reporting parity or better performance in 11 of 14 models, a 10.6% GPT-5.6 family improvement, stronger parallel fan-out results, and better stability under context rot.",
+      "one_liner": "工具接口形态会跟模型能力一起演进，typed code stubs 可能比 JSON 调用更适合强模型",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/8379ed04.md",
+      "images": [],
+      "added_date": "2026-08-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5c4dc703",
+      "title": "TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories",
+      "url": "https://arxiv.org/abs/2608.06346",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yunjia Qi, Zehua Yin, Xintong Shi, Hao Peng, Songyuanyi Lu, Yixian Liu, Richeng Xuan, Yuhong Liu, Zh...",
+        "original_date": "2026-08-06"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-debugging",
+        "long-horizon-agents",
+        "trajectory-analysis",
+        "swe-bench",
+        "tau2bench"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "TRAJDEBUG 针对长轨迹 agent 的失败调试，提出错误生命周期追踪：先用多粒度历史压缩和证据式错误识别定位局部错误，再追踪每个错误是否被后续步骤修复是否仍影响最终失败论文构造 TrajErrBench，包含 486 条来自 Tau2Bench 与 SWE-Bench Pro 的人工标注失败轨迹，并报告在多类 agent benchmark 上优于现有 baseline",
+      "summary_en": "TrajDebug addresses critical error detection in long-horizon LLM agent trajectories. It combines multi-granularity history compression, evidence-based error identification, and lifecycle tracing of each errors resolution status and terminal impact. The authors build TrajErrBench with 486 manually annotated failed trajectories from Tau2Bench and SWE-Bench Pro and report improved diagnosis quality and actionable feedback for downstream agent success.",
+      "one_liner": "长轨迹 agent 调试需要区分局部错误已修复错误和真正导致失败的关键错误",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/5c4dc703.md",
+      "images": [],
+      "added_date": "2026-08-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "df568042",
+      "title": "Learning Globally Reusable Skills for Coding Agents",
+      "url": "https://arxiv.org/abs/2608.06153",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chen Yang, Jiashuo Tian, Ziqi Wang, Xinyin Liu, Meiru Ye, Junjie Chen",
+        "original_date": "2026-08-06"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "skill-evolution",
+        "skill-relation-graph",
+        "openhands",
+        "mini-swe-agent"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文提出 GSE，把 coding agent 的技能演化从局部追加升级为全局技能关系图聚类合并和 replay 验证它显式维护 Skill Relation Graph 以保持技能库一致性，用 cluster-based consolidation 抽象可复用能力，并用 replay-driven verification 防止过拟合和行为回退；在 bug-revealing test generationfalse-positive bug report filtering 和内部工业 agent 上报告明显 F1 提升",
+      "summary_en": "GSE is a globalized skill-evolution framework for coding agents. It maintains a Skill Relation Graph, consolidates local updates into reusable capabilities, and uses replay-driven verification to avoid overfitting and regressions. Evaluations on OpenHands, mini-SWE-agent, bug-revealing test generation, false-positive filtering, and an internal industrial agent report broad precision/recall/F1 improvements.",
+      "one_liner": "技能库不能只局部追加，coding agent 需要关系图合并和 replay 验证来保持可复用性",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/df568042.md",
+      "images": [],
+      "added_date": "2026-08-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-08",
-  "total_entries": 1710
+  "total_entries": 1715
 }
