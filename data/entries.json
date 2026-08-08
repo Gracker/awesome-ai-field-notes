@@ -48303,8 +48303,104 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "9a94037d",
+      "title": "Hybrid Analysis for Secure MCP Tool Use in LLM Agents",
+      "url": "https://arxiv.org/abs/2607.25297",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ping He, Yuexiang Xie, Yaliang Li, Shouling Ji",
+        "original_date": "2026-07-28"
+      },
+      "category": "agents",
+      "tags": [
+        "mcp-security",
+        "tool-use",
+        "llm-agents",
+        "hybrid-analysis",
+        "mtguard"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文围绕 MCP 工具接入后的 agent 安全风险，提出 MTGuard：把生命周期感知的静态分析和动态分析结合起来，防止 LLM agent 被诱导执行恶意或未授权工具动作摘要称该框架在多类有害工具使用场景和不同 LLM agent 上降低风险，同时保持良性任务性能",
+      "summary_en": "The rapid development of large language model (LLM) agents has enabled their broad adoption across diverse real-world tasks. To standardize interactions between LLM agents and external environments, Model Context Protocol (MCP) tools have emerged as a de facto standard and have been widely integrated into these systems. However, the use of MCP tools also introduces new safety risks, as LLM agents can be induced to perform malicious or unauthorized actions. Although prior work has proposed defenses for securing tool use in LLM agents, most methods rely on static analysis, i.e., inspecting prompts and generated outputs, which limits the defense effectiveness and robustness. To address these limitations, we propose MTGuard, a hybrid analysis-based defense framework designed to safeguard the use of MCP tools in LLM agents by leveraging lifecycle-aware static-dynamic co-analysis....",
+      "one_liner": "MCP 工具安全需要覆盖工具生命周期的静态-动态联合分析",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/9a94037d.md",
+      "images": [],
+      "added_date": "2026-08-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4707e567",
+      "title": "Toward AI VIS Co-Scientists: A General and End-to-End Agent Harness for Solving Complex Data Visualization Tasks",
+      "url": "https://arxiv.org/abs/2605.21825",
+      "source": {
+        "platform": "arxiv",
+        "author": "Haichao Miao, Zhimin Li, Kuangshi Ai, Kaiyuan Tang, Chaoli Wang, Peer-Timo Bremer, Shusen Liu",
+        "original_date": "2026-05-20"
+      },
+      "category": "agents",
+      "tags": [
+        "ai-co-scientist",
+        "visualization",
+        "agent-harness",
+        "long-horizon-tasks",
+        "scivis"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文提出一个端到端 VIS co-scientist agent harness：只给数据和高层任务描述，就由多 agent 与专门技能协作完成探索分析计划环境配置实现验证和总体任务评估验证场景来自 IEEE SciVis Contests，强调真实科学可视化任务中的模糊需求多模态数据设计取舍和任务驱动验证",
+      "summary_en": "The ability to inspect, interpret, and communicate complex data is crucial for virtually any scientific endeavor, but often requires significant expertise outside the core domain ranging from data management and analysis to visualization design and implementation. We present an end-to-end agentic harness that, based on only the data and a high level description of the tasks, independently designs custom visual analysis applications (VIS apps). This represents an important step towards a general AI co-scientist envisioned by many as an autonomous system that can autonomously execute long horizon tasks based on high-level directions....",
+      "one_liner": "AI co-scientist 的可视化能力可以被拆成端到端 agent harness",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4707e567.md",
+      "images": [],
+      "added_date": "2026-08-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b2f079a5",
+      "title": "Sola-Visibility-ISPM: Benchmarking Agentic AI for Identity Security Posture Management Visibility",
+      "url": "https://arxiv.org/abs/2601.07880",
+      "source": {
+        "platform": "arxiv",
+        "author": "Gal Engelberg, Konstantin Koutsyi, Leon Goldberg, Reuven Elezra, Idan Pinto, Tal Moalem, Shmuel Cohe...",
+        "original_date": "2026-01-11"
+      },
+      "category": "agents",
+      "tags": [
+        "identity-security",
+        "ispm",
+        "agent-benchmark",
+        "aws",
+        "okta"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文提出 Sola Visibility ISPM Benchmark，用生产级 AWSOktaGoogle Workspace 身份环境评估 agentic AI 是否能回答身份库存和配置卫生问题摘要报告 77 个问题上专家准确率 0.84严格成功率 0.77，并把它定位为身份安全姿态管理场景中可复现 agent 评测的基础",
+      "summary_en": "Identity Security Posture Management (ISPM) is a core challenge for modern enterprises operating across cloud and SaaS environments. Answering basic ISPM visibility questions, such as understanding identity inventory and configuration hygiene, requires interpreting complex identity data, motivating growing interest in agentic AI systems. Despite this interest, there is currently no standardized way to evaluate how well such systems perform ISPM visibility tasks on real enterprise data. We introduce the Sola Visibility ISPM Benchmark, the first benchmark designed to evaluate agentic AI systems on foundational ISPM visibility tasks using a live, production-grade identity environment spanning AWS, Okta, and Google Workspace....",
+      "one_liner": "身份安全姿态管理需要基于真实企业环境的 agent 可验证评测",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b2f079a5.md",
+      "images": [],
+      "added_date": "2026-08-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-07",
-  "total_entries": 1707
+  "last_updated": "2026-08-08",
+  "total_entries": 1710
 }
