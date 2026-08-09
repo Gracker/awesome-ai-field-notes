@@ -48655,8 +48655,136 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "344af1b6",
+      "title": "DCAS: Decoupling CLI Agent Scaffolding to Internalize Planning across Scaffolds",
+      "url": "https://arxiv.org/abs/2608.06113",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kishanthan Thangarajah, Boyuan Chen, Ahmed E. Hassan",
+        "original_date": "2026-08-06"
+      },
+      "category": "coding",
+      "tags": [
+        "cli-agents",
+        "agent-scaffolds",
+        "planning",
+        "openhands",
+        "agent-evaluation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文指出 CLI 软件工程 agent 的微调数据高度绑定 OpenHands 脚手架，模型在训练 scaffold 下得分较高，迁移到其他 scaffold 会显著退化DCAS 作为后端替换拦截层，在不修改 scaffold 的前提下连接任意 CLI scaffold 与后端模型，用于跨 scaffold 评测和规划感知轨迹采集实验把显式规划与隐式规划结构分开，显示 planning quality 是缓解迁移掉点的高杠杆因素",
+      "summary_en": "DCAS is a backend-substitution interception layer for routing API traffic between any CLI scaffold and backend model without modifying the scaffold. The paper argues that fine-tuning on OpenHands-bound trajectories induces scaffold-specific planning behavior, and shows that planning-aware trajectories collected through DCAS improve transfer across non-training scaffolds.",
+      "one_liner": "CLI agent 训练不能只记住某个 scaffold 的规划格式，planning 需要变成模型可迁移能力",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/344af1b6.md",
+      "images": [],
+      "added_date": "2026-08-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4a9e05dd",
+      "title": "AgentExecutor: Partial Code Execution via Agentic Context Generation",
+      "url": "https://arxiv.org/abs/2608.05959",
+      "source": {
+        "platform": "arxiv",
+        "author": "Junkai Chen, Chengran Yang, Xing Hu, Zhenhao Li, Xin Xia, David Lo",
+        "original_date": "2026-08-06"
+      },
+      "category": "coding",
+      "tags": [
+        "partial-code-execution",
+        "multi-agent",
+        "program-analysis",
+        "stackoverflow",
+        "ase-2026"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "AgentExecutor 处理残缺代码片段执行问题：多 agent 流程先准备执行环境，再通过动态探索迭代补上下文，最后用程序合成演化 prefix论文在 Stack Overflow 片段和开源项目代码两类数据上评估，报告最高 94% 与 90% coverage，相对 Treefix 分别提升 19.9% 和 13.8%，同时执行时间最多降低 80.3%成本最多降低 56.6%",
+      "summary_en": "AgentExecutor is a multi-agent framework for partial code execution. It prepares execution environments, dynamically explores and refines missing context, and evolves prefixes through program synthesis. The paper reports up to 94% and 90% code coverage on Stack Overflow snippets and open-source project code, outperforming Treefix while reducing time and cost.",
+      "one_liner": "残缺代码执行开始从静态补洞转向 agentic 环境准备探索和 coverage-guided 优化",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4a9e05dd.md",
+      "images": [],
+      "added_date": "2026-08-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "964e98f2",
+      "title": "Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations",
+      "url": "https://arxiv.org/abs/2608.06305",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sagar Tamang, Ayush Vyas, Tabarakul Hazarika",
+        "original_date": "2026-08-06"
+      },
+      "category": "infra",
+      "tags": [
+        "rag",
+        "document-search",
+        "mcp",
+        "auditable-retrieval",
+        "financial-reports"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文批评长文档 RAG 默认 top-k embedding 在表格密集文档上结构性失效：政府财报中大量表格行相似数字和跨行单位会被 chunk 边界切开READ 暴露规范化词法搜索结构导航有限跨度读取三种确定性操作，通过 MCP 给 agent 使用，让检索轨迹可回放51 个验证问题上 READ 答对 58.8%，dense retrieval 为 15.7%，但作者也明确 BM25 与 READ 统计上不可区分",
+      "summary_en": "READ replaces opaque top-k embedding retrieval with deterministic operations: normalized lexical search, structural navigation, and bounded span reads exposed over MCP. On a 780-page financial report and 51 verified questions, READ outperforms dense retrieval while producing replayable audit trails, though BM25 is statistically indistinguishable from READ.",
+      "one_liner": "表格密集长文档的 RAG 需要可回放操作轨迹，不能只相信 top-k embedding 相似度",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/964e98f2.md",
+      "images": [],
+      "added_date": "2026-08-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "27140f1d",
+      "title": "Learning When to Trust via Selective Context Preference Optimization",
+      "url": "https://arxiv.org/abs/2608.06377",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xian Sun, Wei Chow, Yingshuo Wang, Junhao Liu, Wei Gao, Qing Wu, Lingdong Kong",
+        "original_date": "2026-08-06"
+      },
+      "category": "models",
+      "tags": [
+        "selective-trust",
+        "context-reliability",
+        "dpo",
+        "mist-benchmark",
+        "rag-safety"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文把模型抗误导上下文的问题改写为 selective trust：只训练模型抵抗外部信号，可能得到一个忽略所有上下文的鲁棒但无用模型MIST 为同一 reasoning item 构造 cleanmisleadingcorrect-contextirrelevant-context 四种条件，并用 SC2W 衡量误导信号把原本答对的问题翻错的频率SCOPE 从 clean-correct/misleading-wrong 失败中挖偏好对，用均衡 DPO 降低误导易感性，同时保留正确上下文收益",
+      "summary_en": "SCOPE recasts robustness to misleading context as selective trust. MIST renders each reasoning item under clean, misleading, correct-context, and irrelevant-context conditions, while SC2W measures context-induced flips from clean-correct to wrong. The paper uses balanced DPO preference pairs to reduce susceptibility without discarding useful context.",
+      "one_liner": "上下文安全的目标不是一概不信外部信号，而是学会选择性信任",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/27140f1d.md",
+      "images": [],
+      "added_date": "2026-08-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-09",
-  "total_entries": 1718
+  "total_entries": 1722
 }
