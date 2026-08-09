@@ -12,8 +12,8 @@
 - [Learning Globally Reusable Skills for Coding Agents](https://arxiv.org/abs/2608.06153) ⭐5 · 2026-08-06 — 技能库不能只局部追加，coding agent 需要关系图合并和 replay 验证来保持可复用性
 - [Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers](https://blog.cloudflare.com/kitesurf) ⭐5 · 2026-08-06 — Agent 浏览器正在从复用 Chromium 转向以隔离成本和机器可读输出为中心的新运行时
 - [Introducing Agent Plugins](https://vercel.com/blog/introducing-agent-plugins) ⭐5 · 2026-08-06 — Agent Plugins 把 Skills 和 MCP 的可移植部分收敛到一个最小包格式
-- [How Compiler Explorer Runs on AWS in 2026](https://xania.org/202608/how-compiler-explorer-runs-on-aws) ⭐4 · 2026-08-06 — 公共开发者工具如何低成本可靠运行，Godbolt 给了可复查数字和取舍
-- [Atlassian Rovo Exfiltrates Data, Bypassing Controls](https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data) ⭐4 · 2026-08-06 — 关闭搜索不等于切断外泄路径，agent 工具面必须按真实数据流建模
+- [The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping](https://arxiv.org/abs/2608.06361) ⭐5 · 2026-08-06 — VLM evaluation needs timestamp-level event traces because final counts can improve without faithful temporal understanding.
+- [AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Inform...](https://arxiv.org/abs/2608.06362) ⭐5 · 2026-08-06 — Agent evaluation should optimize for auditable early stopping, not only fixed-budget aggregate win rates.
 
 ## 频道导航
 
@@ -24,15 +24,15 @@
 | AI 编程 | 123 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 42 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 61 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 43 | 论文、课程、提示工程、长文、方法论。 |
+| 研究与学习 | 46 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 150 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 1715
-- 公开展示卡片: 896
+- 原始条目: 1718
+- 公开展示卡片: 899
 - 有全文内容: 812
-- 最近 7 天信号: 124
+- 最近 7 天信号: 127
 - 输出目录: `dist/`
 
 ## 热门标签

@@ -48559,8 +48559,104 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "94bb097c",
+      "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+      "url": "https://arxiv.org/abs/2608.06362",
+      "source": {
+        "platform": "arxiv",
+        "author": "Boning Li, Yu Chen, Longbo Huang",
+        "original_date": "2026-08-06"
+      },
+      "category": "learning",
+      "tags": [
+        "agent-evaluation",
+        "anytime-valid",
+        "aivat",
+        "imperfect-information-games",
+        "confidence-sequences"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文把 AIVAT 方差缩减与 continuously monitored confidence sequences 结合，提出 AV-AIVAT，用于在不破坏统计保证的前提下提前停止两智能体强弱评估作者在 15 个 LLM agent 配置71439 手 HUNL paired hands 上报告：原始 outcomes 相比 AIVAT-corrected outcomes 需要约 74 倍中位样本量才能达到同等停止条件，并区分 asymptotic screening 与 finite-sample certification",
+      "summary_en": "AV-AIVAT combines AIVAT variance reduction with continuously monitored confidence sequences so agent evaluations can stop as soon as evidence is sufficient without invalidating the stated confidence level. Across 15 LLM-agent configurations and 71,439 paired HUNL hands, raw outcomes required a median 74x as many hands as AIVAT-corrected outcomes under the AsympCS target, with separate discussion of exact finite-sample certification via EB-CS.",
+      "one_liner": "Agent evaluation should optimize for auditable early stopping, not only fixed-budget aggregate win rates.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/94bb097c.md",
+      "images": [],
+      "added_date": "2026-08-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7e003753",
+      "title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+      "url": "https://arxiv.org/abs/2608.06361",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sarvesh Baskar, Zikui Cai, Shayan Shabihi, Anirudh Satheesh, Muhammad R....",
+        "original_date": "2026-08-06"
+      },
+      "category": "learning",
+      "tags": [
+        "video-language-models",
+        "temporal-reasoning",
+        "event-counting",
+        "trace-grounded-evaluation",
+        "vlm-benchmarks"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文用 trace-grounded parametric profiling 检查视频语言模型的事件计数能力，在 bouncing-ball contactsvisual blinksstate transitions 三类可控任务中生成 2190 个带 executable event trace 的视频结果显示模型在低频低事件数区域更容易成功，但在高计数高频场景只有 0.2% final counts 正确；提高采样率会提升最终分数，却不能显著恢复真实事件序列",
+      "summary_en": "This paper introduces trace-grounded parametric profiling for video event counting, using 2,190 controlled videos with executable event traces across wall contacts, blinks, and categorical state transitions. It finds staged temporal failures: high-count/high-frequency cases reach only 0.2% correct final counts, and increased sampling can raise final accuracy without faithful event recovery.",
+      "one_liner": "VLM evaluation needs timestamp-level event traces because final counts can improve without faithful temporal understanding.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/7e003753.md",
+      "images": [],
+      "added_date": "2026-08-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4511f860",
+      "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
+      "url": "https://arxiv.org/abs/2608.06353",
+      "source": {
+        "platform": "arxiv",
+        "author": "Praphul Chandra, Sujit Gujar, Ganesh Ghalme",
+        "original_date": "2026-08-06"
+      },
+      "category": "learning",
+      "tags": [
+        "ai-agent-governance",
+        "mechanism-design",
+        "compute-budget",
+        "participatory-governance",
+        "signed-compute-license"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "论文给出 deployed AI agents 的连续参与式治理机制设计模型：利益相关者在治理周期内通过 governance currency 表达支持或拒绝，funding aggregator 转换为 breadth-weighted support，经双阈值与 hysteresis 形成授权，再通过受安全上限约束的 coupling map 释放 metered compute budget作者把 signed compute license 作为硬件执行形态，并指出被治理 agent 操纵治理选民是核心开放问题",
+      "summary_en": "The paper models participatory governance of deployed AI agents as a mechanism that turns stakeholder support or rejection into bounded compute authorization. A two-threshold gate with hysteresis releases metered compute via a coupling map and signed compute license, while the authors identify manipulation of the governing electorate by the governed agent as the central open problem.",
+      "one_liner": "Deployed AI agent governance can use authorization gates as the enforceable control surface.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4511f860.md",
+      "images": [],
+      "added_date": "2026-08-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-08",
-  "total_entries": 1715
+  "last_updated": "2026-08-09",
+  "total_entries": 1718
 }
