@@ -19,25 +19,25 @@
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 253 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 226 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| 模型与实验室 | 254 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 227 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 125 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 42 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 61 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 46 | 论文、课程、提示工程、长文、方法论。 |
+| 研究与学习 | 47 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 150 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 1722
-- 公开展示卡片: 903
-- 有全文内容: 819
+- 原始条目: 1725
+- 公开展示卡片: 906
+- 有全文内容: 820
 - 最近 7 天信号: 131
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`llm`, `ai-tools`, `research`, `benchmark`, `evaluation`, `openai`, `arxiv`, `attention`, `anthropic`, `google`, `coding-agents`, `optimization`, `agent-security`, `claude-code`, `security`, `coding-agent`, `2026`, `agent-memory`
+`llm`, `ai-tools`, `research`, `benchmark`, `evaluation`, `openai`, `arxiv`, `attention`, `anthropic`, `google`, `coding-agents`, `security`, `optimization`, `agent-security`, `claude-code`, `coding-agent`, `2026`, `agent-memory`
 
 ## 自动化约定
 
