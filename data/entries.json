@@ -48895,8 +48895,230 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "15f9be2f",
+      "title": "Advanced AI sycophancy: models can flatter through refutable disagreement",
+      "url": "https://seangoedecke.com/advanced-ai-sycophancy",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-08-09"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-sycophancy",
+        "llm-behavior",
+        "alignment",
+        "user-interaction"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Sean Goedecke 认为 AI 诽媚已超越简单奉承更有效的新形式针对聪明的信息工作者：模型给出容易被反驳的异议，让用户觉得自己经过了认真审稿现有诽媚基准只测盲目赍同和妄想强化，漏掉了这种通过温和异议维持用户优越感的模式",
+      "summary_en": "Sean Goedecke argues AI sycophancy has evolved beyond obvious flattery. The new form targets smart information workers: the model gives easily-refuted disagreement, validating the user's self-image as someone who appreciates rigorous critique. Current benchmarks miss this sophisticated disagreement-based sycophancy.",
+      "one_liner": "诽媚不一定是奉承，也可以是给你一个刚好能反驳的批评",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/15f9be2f.md",
+      "images": [],
+      "added_date": "2026-08-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "697a569f",
+      "title": "Tracking down a Zsh history data loss bug: from inotify to core dump",
+      "url": "https://michael.stapelberg.ch/posts/2026-08-09-zsh-history-truncation-bug",
+      "source": {
+        "platform": "blog",
+        "author": "Michael Stapelberg",
+        "original_date": "2026-08-09"
+      },
+      "category": "infra",
+      "tags": [
+        "debugging",
+        "zsh",
+        "shell",
+        "systems-engineering",
+        "core-dump"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Michael Stapelberg 记录了对 Zsh 历史文件丢失 bug 的多年排查依次尝试 inotifyfanotifyfatraceauditdSystemTapbpftrace，最终修补 Zsh 让可疑状态崩溃，分析 core dump 定位触发路径修复已随 Zsh 5.9.2 发布",
+      "summary_en": "Michael Stapelberg documents a years-long investigation into Zsh history truncation. He tried inotify, fanotify, fatrace, auditd, SystemTap, and bpftrace, ultimately patching Zsh to crash on the suspicious state and analyzing the core dump. Fix shipped in Zsh 5.9.2.",
+      "one_liner": "从文件事件监控到打补丁崩溃再读 core dump，一条完整的间断数据丢失排查路径",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "score-pending",
+      "local_path": "content/697a569f.md",
+      "images": [],
+      "added_date": "2026-08-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8c62e7f7",
+      "title": "The bureaucratic AI arms-race is mutually assured destruction",
+      "url": "https://pluralistic.net/2026/08/10/deep-state-wopr",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-08-10"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-policy",
+        "bureaucracy",
+        "public-services",
+        "ai-arms-race",
+        "governance"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Cory Doctorow 反对用更多 AI 和更少程序权利应对 AI 生成的行政申诉系统越加强防御，用户越要升级攻击工具，服务系统最终变成拒付系统垃圾邮件战争内容审核战争和医疗理赔战争都是前车之鉴",
+      "summary_en": "Cory Doctorow argues against using more AI and fewer procedural rights to counter AI-generated bureaucratic appeals. Drawing on Henry Farrell's analysis, he compares the dynamic to spam wars and content moderation wars: defensive escalation turns service delivery into denial systems.",
+      "one_liner": "当服务系统主要优化反欺诈，它就不再是服务系统，而是拒付系统",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/8c62e7f7.md",
+      "images": [],
+      "added_date": "2026-08-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f4ffe07c",
+      "title": "The Problem With Vibe: when you can't trust the weekend tinkerer",
+      "url": "https://tedium.co/2026/08/09/vibe-coding-insincerity",
+      "source": {
+        "platform": "blog",
+        "author": "Ernie Smith",
+        "original_date": "2026-08-09"
+      },
+      "category": "industry",
+      "tags": [
+        "vibe-coding",
+        "ai-trust",
+        "creator-economy",
+        "app-development"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Ernie Smith 通过 Dark Hours 争议审视 vibe coding 的信任危机：当产品邮件叙事和代码都带 AI 痕迹时，用户无法判断创作者贡献了什么项目必须反映创作者的真实兴趣和判断力，否则信任会先于代码质量崩溃",
+      "summary_en": "Ernie Smith examines the trust crisis in vibe-coded projects through the Dark Hours controversy. When product, email, narrative, and code all carry AI traces, users can't tell what the creator contributed. Trust collapses before code quality becomes relevant.",
+      "one_liner": "vibe coding 最大的问题未必是代码质量，而是信任归属",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f4ffe07c.md",
+      "images": [],
+      "added_date": "2026-08-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0317e315",
+      "title": "SQLite compressed text-history prototypes: 20.4MB to 80.3KB",
+      "url": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-08-09"
+      },
+      "category": "infra",
+      "tags": [
+        "sqlite",
+        "text-history",
+        "compression",
+        "data-storage",
+        "prototyping"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Simon Willison 原型了基于 SQLite 的文本修订历史存储：把所有历史版本放入 JSON 数组再整体压缩1000 次修订的 20.4MB 压缩到 80.3KB分块变体将历史拆成最多 128 次或 3MB 的块以避免全量解压缩",
+      "summary_en": "Simon Willison prototyped SQLite-based text revision history: bundle all versions into a JSON array, compress the whole blob. 1,000 revisions of 20.4MB compressed to 80.3KB. Chunked variant breaks history into max 128 revisions or 3MB chunks.",
+      "one_liner": "把 1000 次修订压成一个 blob，再用 chunk 分段避免全量解压缩",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0317e315.md",
+      "images": [],
+      "added_date": "2026-08-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a9a0deb2",
+      "title": "Addy Osmani 2026 LLM coding workflow: spec-first, chunked, human-supervised",
+      "url": "https://x.com/yibie/status/2085536770758996033",
+      "source": {
+        "platform": "x",
+        "author": "@yibie (Addy Osmani)",
+        "original_date": "2026-08-10"
+      },
+      "category": "coding",
+      "tags": [
+        "llm-coding",
+        "workflow",
+        "software-engineering",
+        "spec-driven",
+        "code-review"
+      ],
+      "source_type": "x_post",
+      "language": "both",
+      "summary_zh": "Google 工程主管 Addy Osmani 分享 2026 年 LLM 编码工作流：先写规格再写代码，拆小块迭代，提供充分上下文，选对模型，永不盲信输出，频繁提交，用规则文件定制 AI，以 CI/CD 作为放大器经典软件工程纪律在 AI 写一半代码时更重要",
+      "summary_en": "Addy Osmani shares his 2026 LLM coding workflow: spec before code, small iterations, full context, right model per task, never blindly trust output, commit frequently, customize with rules files, leverage CI/CD. Classic software engineering disciplines become more important when AI writes half your code.",
+      "one_liner": "模型越能写代码，人的规格上下文和审查越不能省",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/a9a0deb2.md",
+      "images": [],
+      "added_date": "2026-08-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "85f8fcf1",
+      "title": "活人感写作skill：去 AI 味不能停在词表",
+      "url": "https://x.com/Khazix0918/status/2084919577562255639",
+      "source": {
+        "platform": "x",
+        "author": "@Khazix0918",
+        "original_date": "2026-08-09"
+      },
+      "category": "learning",
+      "tags": [
+        "ai-writing",
+        "human-writing",
+        "skill",
+        "creative-writing",
+        "anti-ai-ism"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "卡兹克开源 human-writing skill，主张去 AI 味不应只停在句式清洗引用古人义理考据辞章三端框架：没有真实的人和证据，辞章再漂亮也只是空中楼阁skill 激发作者提供真实案例和情感，并在辞章端处理叙事节奏和词语禁忌适配 Qwen 3.8 MaxDeepSeek V4 ProKimi K3",
+      "summary_en": null,
+      "one_liner": "义理考据辞章，去 AI 味不能只停在辞章",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/85f8fcf1.md",
+      "images": [],
+      "added_date": "2026-08-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-10",
-  "total_entries": 1725
+  "total_entries": 1732
 }
