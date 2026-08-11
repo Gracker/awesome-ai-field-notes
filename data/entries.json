@@ -49343,8 +49343,286 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "bdd25561",
+      "title": "No, local models will not win",
+      "url": "https://seangoedecke.com/local-models-will-not-win",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-08-08"
+      },
+      "category": "industry",
+      "tags": [
+        "inference-cost",
+        "local-models",
+        "gpu",
+        "data-center"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "作者用三段递进论证本地模型既弱又贵:用户对最强模型的揭示偏好推动规模继续追高;批处理让数据中心 GPU 利用率比个人部署高约 30 倍;消费级 GPU 在单 flop 与显存带宽上落后 B200 约 3-4 倍只有监管强隐私离线等小众场景,本地模型才有位置",
+      "summary_en": "Sean Goedecke argues that local models are weaker and more expensive than people assume: user preference for the strongest model keeps pushing scale up, batching gives datacenter GPUs roughly 30x utilization advantage over personal rigs, and consumer GPUs lag B200 by 3-4x in both flop and memory bandwidth.",
+      "one_liner": "本地模型的真正对手不是云 API,是 GPU 利用率与显存带宽",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/bdd25561.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d3a79d2d",
+      "title": "Watch out for cache read costs",
+      "url": "https://martinalderson.com/posts/watch-out-for-cache-read-costs",
+      "source": {
+        "platform": "blog",
+        "author": "Martin Alderson",
+        "original_date": "2026-08-10"
+      },
+      "category": "infra",
+      "tags": [
+        "llm-cost",
+        "kv-cache",
+        "agent-economics",
+        "context-cache"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "作者用 20-100 轮的 agent 任务对比账单:上下文随轮次增长,缓存读取在 Opus 5 与 GPT 5.6 Sol 上分别占 76% 与 82% 总成本GPT 5.6 Sol 在 272k token 处有一次长上下文重定价,单轮成本会翻倍KV cache 已压缩到 5GB 量级可下沉到 NVMe,这意味着缓存读取是利润最厚的环节",
+      "summary_en": "Martin Alderson benchmarks 20-100 turn agent runs: cache reads account for 76% (Opus 5) and 82% (GPT 5.6 Sol) of total cost as context grows. GPT 5.6 Sol triggers a long-context reprice at 272k tokens that doubles a single turn. KV cache is now compressible to ~5GB and spilling to NVMe, making cache reads the most profitable line item.",
+      "one_liner": "agent 长上下文的真账单在缓存读取,不在输入输出",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d3a79d2d.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "18b0dbee",
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "url": "https://simonwillison.net/2026/Aug/8/auto-mode",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-08-08"
+      },
+      "category": "agents",
+      "tags": [
+        "claude-code",
+        "auto-mode",
+        "prompt-injection",
+        "permissions"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anthropic 公布一组 1053 人对照研究:人类在权限弹窗前只拒绝 13.6% 的危险命令,auto mode 拦下 89%Trajectory Labs 跑了 72 个间接 prompt injection 场景,对 Claude Fable 5/Opus 5/Sonnet 5 自动模式记录 720 次攻击无一成功Simon Willison 仍举出第三方包内嵌 uvx fetch-model-files 这种安装即外泄的反例,认为 auto mode 解决不了 prompt injection 死穴",
+      "summary_en": "Anthropic published a 1053-person study: humans reject only 13.6% of dangerous permission prompts while auto mode blocks 89%. Trajectory Labs ran 72 indirect prompt-injection scenarios against Claude Fable 5 / Opus 5 / Sonnet 5 in auto mode and recorded zero successful injections across 720 attempts. Simon Willison still flags a uvx fetch-model-files exfiltration vector and argues auto mode does not solve prompt injection.",
+      "one_liner": "auto mode 把逐次确认换成 classifier,但拦不住安装即外泄",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/18b0dbee.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6acb0da1",
+      "title": "Open-source is NOT the same as open-weight",
+      "url": "https://garymarcus.substack.com/p/open-source-is-not-the-same-as-open",
+      "source": {
+        "platform": "blog",
+        "author": "Gary Marcus",
+        "original_date": "2026-08-10"
+      },
+      "category": "industry",
+      "tags": [
+        "open-weight",
+        "open-source",
+        "governance",
+        "meta"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "作者用 ML pipeline 高亮图说明 open-weight 只交付成品模型,看不到训练数据预处理细节超参与算法下游既不能改配方不能剔除 Reddit 数据也不能审计偏见监管研究社区三方面都拿不到能力Zuckerberg 自己分得清,但 NYT 没分,业界长期被伪开源误导",
+      "summary_en": "Gary Marcus uses an ML pipeline diagram to argue that open-weight only delivers the finished model no training data, no preprocessing details, no hyperparameters, no algorithm. Downstream users cannot change the recipe, strip out Reddit data, or audit bias. Zuckerberg makes the distinction, but NYT and the industry still conflate open-weight with open-source.",
+      "one_liner": "open-weight 是发蛋糕不开配方,开源才给整条流水线",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6acb0da1.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d1c43b99",
+      "title": "I got an email about resistance",
+      "url": "https://seangoedecke.com/i-got-an-email-about-resistance",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-08-09"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-ethics",
+        "pragmatism",
+        "engineering-culture"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "William Murray 来信指责作者的实用主义是共谋;作者回信以英国工业革命时期的框架织工做比方,写下我若身处 1810 年代不会劝朋友砸厂的判断他认为写作对象是不知道规则变了的工程师,讲后果不讲立场Lobsters 与 HN 上的反驳比正文精彩",
+      "summary_en": "A reader accuses Sean Goedecke of complicity through pragmatism. He replies by analogy with the 1810s framework knitters and writes that he would not advise friends to smash looms. His audience is engineers who do not yet realize the rules changed, and he prefers consequence over stance. The Lobsters and HN rebuttals are sharper than the post itself.",
+      "one_liner": "AI 时代的抵抗辩论,从口号落到工程师的职业代价",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/d1c43b99.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "51fddeba",
+      "title": "Shared Code Between Package Managers",
+      "url": "https://nesbitt.io/2026/08/11/package-manager-library-reuse.html",
+      "source": {
+        "platform": "blog",
+        "author": "Nesbitt",
+        "original_date": "2026-08-11"
+      },
+      "category": "infra",
+      "tags": [
+        "package-managers",
+        "supply-chain",
+        "open-source",
+        "vulnerabilities"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "用 20 个包管理器 2026-07 的依赖快照做实证清单Pixi 直接依赖 28 个 uv crate,pnpm 依赖 5 个 Yarn Berry 包,uv 借 cargo-util;npm 阵营共用 8 个 npm-org 包,PyPA 通过 packaging / pyproject-hooks 走 spec 主导路径,libsolv 是少数跨生态 solverpath traversalgit 参数注入ReDoScredential leak 这类 bug 基本都落在共享库的再实现上",
+      "summary_en": "Nesbitt audits 20 package managers' 2026-07 dependency graphs. Pixi directly imports 28 uv crates, pnpm pulls 5 Yarn Berry packages, uv borrows cargo-util. The npm camp shares 8 npm-org packages, PyPA drives spec via packaging / pyproject-hooks, and libsolv is a rare cross-ecosystem solver. Recent path-traversal, git-arg injection, ReDoS, and credential-leak bugs cluster on these shared libraries.",
+      "one_liner": "包管理器最大的攻击面,是它们都在复用同一批解析器",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/51fddeba.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c3789a1f",
+      "title": "Humanising LLM Outputs is Dumb",
+      "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+      "source": {
+        "platform": "blog",
+        "author": "Kuber",
+        "original_date": "2026-08-10"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-design",
+        "structured-output",
+        "multi-agent",
+        "debugging"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "把短句少术语只留重点塞进 agent 工作指令,会让中间状态提前发生有损压缩多 agent 场景里,每层都把测试冲突证据和不确定性润色一次,文字更顺,排错信息却更少作者主张让 agent 之间交换结构化状态精确错误差异置信度和来源,在面向人的边界再转换成简洁文本文中的 5/6 PASS 示例说明原始失败位置比有一个问题需要关注更利于后续处理",
+      "summary_en": "Kuber argues that forcing short sentences, minimal jargon, and summary-only outputs into agent instructions causes lossy compression of intermediate state. In multi-agent stacks every layer rewrites test failures, conflict evidence, and uncertainty into nicer prose, which makes the final output read well but the diagnosis read poorly. He proposes exchanging structured state, exact errors, diffs, confidence, and provenance between agents, and only translating to prose at the human boundary.",
+      "one_liner": "agent 之间传散文案,等于把排错信息先压一遍",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c3789a1f.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a43807ef",
+      "title": "Ante: Ghost in your shell",
+      "url": "https://github.com/AntigmaLabs/ante",
+      "source": {
+        "platform": "github",
+        "author": "Antigma Labs",
+        "original_date": "2026-08-10"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agent",
+        "rust",
+        "open-source",
+        "benchmark"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Ante 把 coding agent 做成约 15MB 的 Rust 单文件程序,可接 12 种以上模型服务,也可用内置 llama.cpp 和 GGUF 模型离线运行Terminal-Bench 2.1 完整测试覆盖 89 个任务每项 5 次,DeepSeek V4 Flash 组合取得 368/44582.7%20 个并行 Docker 任务相比 Claude Code 少用 7 倍峰值内存9 倍平均 CPU 和 5 倍磁盘 I/O项目方公布原始 Harbor 记录方便复核",
+      "summary_en": "Antigma Labs ships Ante as a ~15MB Rust single-binary coding agent: pluggable across 12+ model providers, with a built-in llama.cpp / GGUF path for offline runs. Full Terminal-Bench 2.1 (89 tasks, 5 runs each) puts DeepSeek V4 Flash at 368/445 (82.7%). On 20 parallel Docker tasks, Ante uses ~7x less peak RAM, 9x less average CPU, and 5x less disk I/O than Claude Code. Raw Harbor results are published for replay.",
+      "one_liner": "15MB Rust 单文件 coding agent,资源占用比 Claude Code 低一个数量级",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a43807ef.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d7596052",
+      "title": "Docker Sandboxes: Sandboxes for Coding Agents",
+      "url": "https://www.docker.com/products/docker-sandboxes",
+      "source": {
+        "platform": "blog",
+        "author": "Docker",
+        "original_date": "2026-08-10"
+      },
+      "category": "infra",
+      "tags": [
+        "docker",
+        "sandbox",
+        "coding-agent",
+        "isolation"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Docker 给 coding agent 提供独立 microVM,只挂载项目工作区,允许 agent 在隔离环境里安装依赖修改配置和再启动容器Sandbox 默认可销毁,支持 Claude CodeCopilot CLICodexKiro 和 OpenCode,覆盖 macOSWindowsUbuntu性能描述如比虚拟机更快没有测试数据,适合先在非敏感仓库验证启动成本和隔离效果",
+      "summary_en": "Docker Sandboxes give coding agents their own microVM with only the project workspace mounted; agents can install dependencies, rewrite config, and restart containers in isolation. Sandboxes are disposable by default, support Claude Code, Copilot CLI, Codex, Kiro and OpenCode, and ship for macOS, Windows, Ubuntu. Performance claims like 'faster than a VM' lack benchmarks; validate cold-start cost and isolation on non-sensitive repos.",
+      "one_liner": "agent 隔离从权限判断挪到运行环境,代价是启动 microVM",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d7596052.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-11",
-  "total_entries": 1739
+  "total_entries": 1748
 }

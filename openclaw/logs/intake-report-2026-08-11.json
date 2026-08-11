@@ -1,0 +1,29 @@
+{
+  "run_date": "2026-08-11",
+  "mode": "daily-intake-evening",
+  "pre_count": 1739,
+  "post_count": 1748,
+  "appended_ids": [
+    "bdd25561",
+    "d3a79d2d",
+    "18b0dbee",
+    "6acb0da1",
+    "d1c43b99",
+    "51fddeba",
+    "c3789a1f",
+    "a43807ef",
+    "d7596052"
+  ],
+  "skipped": [],
+  "content_files": [
+    "content/bdd25561.md",
+    "content/d3a79d2d.md",
+    "content/18b0dbee.md",
+    "content/6acb0da1.md",
+    "content/d1c43b99.md",
+    "content/51fddeba.md",
+    "content/c3789a1f.md",
+    "content/a43807ef.md",
+    "content/d7596052.md"
+  ]
+}
