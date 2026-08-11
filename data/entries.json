@@ -49117,8 +49117,234 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "5ddcbdf6",
+      "title": "SkillProx: Self-Evolving Agent Skills via Proximal Textual Gradient Descent",
+      "url": "https://arxiv.org/abs/2608.07449",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mingxuan Zheng, Yujin Zhou, Chuxue Cao, et al.",
+        "original_date": "2026-08-07"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-skills",
+        "self-evolving",
+        "textual-gradient",
+        "skill-refinement",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "SkillProx 提出了一种受近端梯度启发的前向-后向框架，用于自进化 LLM 代理的技能制品（skills）前向阶段重复执行诊断驱动的编辑并回滚退化，后向阶段将技能分解为可审计的知识单元，通过 leave-one-out 效用审计估计其贡献，并执行验证门控的合并降级或删除在多个后端 LLM 的分布内外基准上，平均准确率较最强梯度基线提升 3.0 个百分点",
+      "summary_en": "LLM agents increasingly adapt to recurring tasks by accumulating procedural knowledge in skillslightweight, reusable textual artifacts loaded into context without weight updates. SkillProx introduces a proximal-gradient-inspired forward-backward framework: the forward stage re-executes diagnosis-driven edits on the same task batch, rolls back regressions, and feeds outcomes into subsequent diagnoses; the backward stage decomposes skills into auditable knowledge units, estimates contributions via leave-one-out utility audit, and applies validation-gated consolidation, demotion, or removal. Experiments on in-distribution and out-of-distribution benchmarks across multiple backbone LLMs show SkillProx improves average accuracy by 3.0 percentage points over the strongest gradient-based baseline.",
+      "one_liner": "SkillProx 提出了一种受近端梯度启发的前向-后向框架，用于自进化 LLM 代理的技能制品（skills）前向阶段重复执行诊断驱动的编辑并回滚退化，后向阶段将技能分解为可审计的知识单元，通过 leave-one-out 效用审计估计其贡献...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5ddcbdf6.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b0b96375",
+      "title": "CreativeInstruct: Scalably Teaching LLMs to Balance Quality, Creativity, and Diversity",
+      "url": "https://arxiv.org/abs/2608.07460",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ananya Sahu, Mohit Bansal, Elias Stengel-Eskin",
+        "original_date": "2026-08-07"
+      },
+      "category": "models",
+      "tags": [
+        "llm-training",
+        "creativity",
+        "diversity",
+        "instruction-tuning",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "CreativeInstruct 是一种可扩展的指令微调方法，通过注入 [StartCreativity] 标签使 LLM 在生成质量与创造性之间取得平衡论文引入了基于图编辑距离的结构化多样性指标，能捕捉纯词法指标遗漏的叙事层面差异人工评估中 70.3% 的情况下 CreativeInstruct 生成被评为更具创造力，且将创造性模型作为 RL 子底时，GRPO 在 AMC 上提升约 4%在 MATH 上提升约 5%",
+      "summary_en": "CreativeInstruct is a scalable instruction-tuning method that teaches LLMs to balance creative, base-model-like generations with the quality of post-trained models, by learning to inject special [StartCreativity] spans that bias generation toward creativity. It introduces a structural diversity metric based on graph edit distance capturing narrative-level variation. On narrative generation, CreativeInstruct matches or exceeds the diversity of multi-model baselines without requiring multiple models at inference time. Human evaluators rated CreativeInstruct generations as more creative than post-trained LLMs' generations in 70.3% of cases. GRPO applied to a CreativeInstruct checkpoint improves by ~4% on AMC and ~5% on MATH over the same training on the post-trained checkpoint.",
+      "one_liner": "CreativeInstruct 是一种可扩展的指令微调方法，通过注入 [StartCreativity] 标签使 LLM 在生成质量与创造性之间取得平衡论文引入了基于图编辑距离的结构化多样性指标，能捕捉纯词法指标遗漏的叙事层面差异人工评估中 70.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b0b96375.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ce3bf52f",
+      "title": "CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG",
+      "url": "https://arxiv.org/abs/2608.07458",
+      "source": {
+        "platform": "arxiv",
+        "author": "Gyuwan Kim, Cheoneum Park, Tao Yang",
+        "original_date": "2026-08-07"
+      },
+      "category": "infra",
+      "tags": [
+        "rag",
+        "kv-cache",
+        "long-context",
+        "inference-optimization",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "CoinRAG 通过复用离线计算的细粒度金块缓存来优化长上下文 RAG 的延迟-质量 Pareto 前沿它不再对整个 chunk 编码，而是通过两阶段检索识别查询相关的语义单元，将其切片 KV 表示与 chunk 级上下文拼装在 LongBench 多跳问答任务上，答案质量 (F1) 平均相对提升 5.3%，同时显著降低运营成本",
+      "summary_en": "CoinRAG optimizes the Pareto frontier of RAG under low prefill latency constraints by compositionally reusing offline-computed, fine-grained nugget caches. Instead of full-chunk encoding, it identifies query-relevant semantic units within retrieved chunks through two-stage retrieval and assembles their sliced KV representations with chunk-level context. Evaluations on LongBench multi-hop QA tasks show CoinRAG significantly reduces operational costs and achieves an average 5.3% relative improvement in answer quality (F1) under a standard fast prefill latency budget.",
+      "one_liner": "CoinRAG 通过复用离线计算的细粒度金块缓存来优化长上下文 RAG 的延迟-质量 Pareto 前沿它不再对整个 chunk 编码，而是通过两阶段检索识别查询相关的语义单元，将其切片 KV 表示与 chunk 级上下文拼装在 LongBench 多跳问答任务上...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ce3bf52f.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ed243292",
+      "title": "PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents",
+      "url": "https://arxiv.org/abs/2608.07438",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mohammad Amanlou, Parham Abed Azad, Farbod Davoodi, et al.",
+        "original_date": "2026-08-07"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "affective-computing",
+        "cognitive-architecture",
+        "conflict-aware",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "PsychoAgent 是一种面向 LLM 代理的认知架构，将事实记忆与情感记忆分离，并通过冲突感知执行控制器整合二者情感记忆先按语义相关性过滤，再按显著性重排序，在保持主题匹配的同时允许情绪重要的记忆进入提示在三个受控冲突场景中，完整架构检索到的冲突关键记忆多于语义-情感和单一记忆 RAG 基线 (0.933 vs 0.500 和 0.667)",
+      "summary_en": "PsychoAgent is a cognitive architecture for LLM agents that separates factual and affective memory and integrates both through a conflict-aware executive controller. Affective memories are first filtered by semantic relevance then re-ranked by salience, preserving topical fit while allowing emotionally important traces to enter the prompt. Across three controlled conflict scenarios, the full architecture retrieved more conflict-critical memories than semantic-affective and single-memory RAG baselines (0.933 vs. 0.500 and 0.667). A three-day illustrative trace shows persistent affect, offline memory recombination, and selective memory reweighting.",
+      "one_liner": "PsychoAgent 是一种面向 LLM 代理的认知架构，将事实记忆与情感记忆分离，并通过冲突感知执行控制器整合二者情感记忆先按语义相关性过滤，再按显著性重排序，在保持主题匹配的同时允许情绪重要的记忆进入提示在三个受控冲突场景中...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ed243292.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "880fe8de",
+      "title": "Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.07371",
+      "source": {
+        "platform": "arxiv",
+        "author": "Haoyu Zheng, Yun Zhu, Qing Wang, Wenqiao Zhang",
+        "original_date": "2026-08-07"
+      },
+      "category": "agents",
+      "tags": [
+        "agentic-rl",
+        "hindsight-distillation",
+        "grpo",
+        "trajectory-relative",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "TRIAL 是一种面向代理强化学习的轨迹相对后视蒍istillation 框架，采用统一的轮次对齐评分协议对每个决策轮次，提取其实现后枖的结果视图，并在普通和后视条件下下评估响应，以符号化对数概率差确定 token 级监督方向与强度在 WebShop 和 ALFWorld 上，TRIAL 在八种后端/环境/指标组合中均优于 GRPO；在 WebShop + Qwen3-1.7B 上成功率从 56.4% 提升至 75.2%",
+      "summary_en": "TRIAL is a trajectory-relative hindsight distillation framework with a unified turn-aligned scoring protocol for agentic RL. For each decision turn, it extracts an outcome view of that decision's realized consequence and evaluates the response under ordinary and hindsight-conditioned contexts. The signed log-probability gap determines direction and local strength of token-level supervision, while turn-level magnitudes are normalized jointly over the realized trajectory. Experiments on WebShop and ALFWorld show TRIAL outperforms GRPO across all eight combinations of backbone, environment, and metric. On WebShop with Qwen3-1.7B, TRIAL improves success rate from 56.4% to 75.2% and task score from 78.7% to 85.7%.",
+      "one_liner": "TRIAL 是一种面向代理强化学习的轨迹相对后视蒍istillation 框架，采用统一的轮次对齐评分协议对每个决策轮次，提取其实现后枖的结果视图，并在普通和后视条件下下评估响应，以符号化对数概率差确定 token 级监督方向与强度在 WebShop 和 ALFWorld 上...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/880fe8de.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "311d3f68",
+      "title": "Muse Glimmer: 30B Open Agentic Model for Local Agent Workflows",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "source": {
+        "platform": "blog",
+        "author": "Meta Superintelligence Labs",
+        "original_date": "2026-08-10"
+      },
+      "category": "models",
+      "tags": [
+        "meta",
+        "open-weights",
+        "local-agent",
+        "on-device",
+        "30b",
+        "apache-2"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Meta 超级智能实验室发布 Muse Glimmer，一个 300 亿参数的开源模型 (Apache 2.0)，专为本地常驻代理工作流优化通过 4-bit 量化压缩至 20GB 以下，可在单块消费级 GPU 上运行，支持函数调用本地编码多模态输入和 LLM-as-a-judge 评估训练经历 logit 蒸馏代理密集型中间训练以及 SFT+在策略蒸馏+RL 后训练，并随附 DFlash 推测解码加速 1.5-3.1 倍在 DeepSearch QAMCP-Atlas-BenchSWE-Bench 等基准上评测，权重已在 Hugging Face 开放",
+      "summary_en": "Meta Superintelligence Labs released Muse Glimmer, a 30-billion-parameter open-weight model (Apache 2.0) optimized for always-on local agent workflows. It runs on a single consumer GPU (fitting under 20GB via 4-bit quantization) and supports function calling, local coding, multimodal input, and LLM-as-a-judge evaluation. Trained via logit distillation from Muse Spark, mid-training on agent-heavy data, and post-training combining SFT with on-policy distillation and RL. Ships with DFlash speculative decoding for 1.5-3.1x speedup. Evaluated on DeepSearch QA, MCP-Atlas, tau-Bench, and SWE-Bench. Available on Hugging Face with llama.cpp, MLX, ExecuTorch integrations.",
+      "one_liner": "Meta 超级智能实验室发布 Muse Glimmer，一个 300 亿参数的开源模型 (Apache 2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/311d3f68.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "635b267a",
+      "title": "Needle 2: 14MB Agentic LLM for Phones, Wearables, and Microcontrollers",
+      "url": "https://cactuscompute.com/needle",
+      "source": {
+        "platform": "blog",
+        "author": "Cactus Compute",
+        "original_date": "2026-08-10"
+      },
+      "category": "infra",
+      "tags": [
+        "edge-ai",
+        "on-device",
+        "tiny-model",
+        "function-calling",
+        "quantization",
+        "iot"
+      ],
+      "source_type": "product",
+      "language": "zh",
+      "summary_zh": "Needle 2 是一个 45M 参数的代理型 LLM，通过从预训练开始的 2-bit Cactus Quants 量化压缩至 14MB，面向低于 200 美元的边缘设备（手机可穿戴树莓派微控制器）采用 Simple Attention Network 架构，结合 Hadamard MLP 和哈希 n-gram 记忆表，每 token 仅需 70 MFLOPs通过 256-token 滑动 KV 窗口将会话 RAM 上限控制在 28MB已在 Pebble Index 01 智能指环中生产部署，以单一无依赖 C++ 二进制跨 Cortex-M 到 x86 到 WebAssembly 运行",
+      "summary_en": null,
+      "one_liner": "Needle 2 是一个 45M 参数的代理型 LLM，通过从预训练开始的 2-bit Cactus Quants 量化压缩至 14MB，面向低于 200 美元的边缘设备（手机可穿戴树莓派微控制器）采用 Simple Attention Network 架构...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/635b267a.md",
+      "images": [],
+      "added_date": "2026-08-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-10",
-  "total_entries": 1732
+  "last_updated": "2026-08-11",
+  "total_entries": 1739
 }
