@@ -2,8 +2,8 @@
   "total_entries": 1748,
   "active_entries": 928,
   "active_entries_raw": 1482,
-  "archived_entries": 7,
-  "score_pending_entries": 259,
+  "archived_entries": 9,
+  "score_pending_entries": 257,
   "this_week_added": 75,
   "entries_with_content": 844,
   "content_files_total": 1704,
@@ -44,7 +44,7 @@
     "product": 9,
     "newsletter": 2
   },
-  "last_updated": "2026-08-11 23:35",
+  "last_updated": "2026-08-12 03:10",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }

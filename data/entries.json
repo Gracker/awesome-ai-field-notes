@@ -33755,11 +33755,11 @@
       "one_liner": "B3802F09",
       "one_liner_author": "openclaw",
       "quality_score": 2,
-      "status": "score-pending",
+      "status": "archived",
       "local_path": "content/b3802f09.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-12",
       "github_stars": null,
       "related": [
         "60d9c4aa"
@@ -36968,11 +36968,11 @@
       "one_liner": "145978A6",
       "one_liner_author": "openclaw",
       "quality_score": 2,
-      "status": "score-pending",
+      "status": "archived",
       "local_path": "content/145978a6.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-12",
       "github_stars": null,
       "related": [
         "hermex_001"
@@ -49623,6 +49623,6 @@
       "related": []
     }
   ],
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-12",
   "total_entries": 1748
 }
