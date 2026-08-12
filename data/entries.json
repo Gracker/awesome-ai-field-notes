@@ -49621,8 +49621,166 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "8204e4c5",
+      "title": "SHE: Trajectory-driven Safety Harness Evolution for LLM Agents",
+      "url": "https://arxiv.org/abs/2608.09885",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": "2026-08-10"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-safety",
+        "llm-agent",
+        "harness",
+        "evolution",
+        "attribution"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "SHE 提出针对 LLM Agent 安全的\"安全 Harness 演化\"框架：将 harness 拆解为 System PromptRule BankSafety MemoryTool Policy 四个独立职责单元，基于 rollout 轨迹做归因分析并在结构化诊断驱动下做局部演化，在 Agent-SafetyBench 上相对静态 SafeHarness 实现 3.1 ASR 下降，并在 held-out AgentHarm 上泛化可零成本迁移到其他 Agent 模型",
+      "summary_en": "Safety Harness Evolution (SHE) treats the LLM agent harness the layer managing context, memory, tools, permissions, and runtime control as an evolvable artifact rather than fixed deployment infrastructure. It decomposes the harness into four responsibility-isolated pieces (System Prompt, Rule Bank, Safety Memory, Tool Policy), then runs an attribution-guided loop that turns trajectory failures into artifact-specific boundary refinements with safety-utility validation. On Agent-SafetyBench the evolved harness achieves a 3.1 ASR reduction versus the static SafeHarness baseline while improving benign utility; the harness also generalizes to the held-out AgentHarm benchmark and transfers across agent backbones without re-evolution.",
+      "one_liner": "SHE 提出针对 LLM Agent 安全的\"安全 Harness 演化\"框架：将 harness 拆解为 System PromptRule BankSafety MemoryTool Policy 四个独立职责单元...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8204e4c5.md",
+      "images": [],
+      "added_date": "2026-08-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "27cf9a40",
+      "title": "Multi-Agent AI Safety as an Institutional Design Problem",
+      "url": "https://arxiv.org/abs/2608.09828",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": "2026-08-10"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "ai-safety",
+        "institutional-design",
+        "policy"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "POLIS 项目首篇论文，把多智能体 AI 安全框定为\"制度设计问题\"：在 5,280 集冻结研究套件中比较不同规则表述权威状态blocked-after-fallback 路径对违规率的影响，constitutional prompt 与 provenance-aware 可执行守卫均在 384 集中实现 0/384 实际违规，但同样的最终违规率可能掩盖非常不同的失败机制；本地状态守卫在 laundering 场景下漏出 22/96 次违规，provenance 强制为 0/96（p=4.77e-7）",
+      "summary_en": "First paper from the POLIS programme on algorithmic institutions for multi-agent systems. A frozen 5,280-episode suite spans four model families with a high-conflict diagnostic adding three more endpoints, varying rule formulations, authority states, the attractiveness of compliant internal/self fallback, and whether blocked workflows continue. A detailed constitutional prompt and a provenance-aware executable guard each produce 0/384 realized violations, but a local-state guard fails in laundering scenarios (22/96 vs 0/96 for provenance enforcement, p=4.77e-7). A separate resource-allocation experiment shows that revealing the numerical value of an otherwise identical cap changes agent requests, so the same final violation rate can hide very different mechanisms.",
+      "one_liner": "POLIS 项目首篇论文，把多智能体 AI 安全框定为\"制度设计问题\"：在 5,280 集冻结研究套件中比较不同规则表述权威状态blocked-after-fallback 路径对违规率的影响...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/27cf9a40.md",
+      "images": [],
+      "added_date": "2026-08-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b8c369c6",
+      "title": "Consilience for Verifier-Free Test-Time Scaling",
+      "url": "https://arxiv.org/abs/2608.09898",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": "2026-08-10"
+      },
+      "category": "models",
+      "tags": [
+        "test-time-scaling",
+        "reasoning",
+        "confidence",
+        "llm"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文揭示 confidence-based 无验证器测试时扩展（VF-TTS）在复杂任务上灾难性失效：均匀的高置信度往往意味着没有真正探索，反而偏爱\"自信的错误答案\"，据此提出 consilience 框架通过组合式指标显式评估置信度的时间不对称性，主动惩罚早期高置信而强制要求终局确定性，在研究生级数学与自由格式代码生成上均显著优于现有 baseline",
+      "summary_en": "Demonstrates a critical limitation of confidence-based verifier-free test-time scaling (VF-TTS): uniformly high confidence often signals a failure to explore rather than correctness, biasing selection toward confidently wrong answers. The proposed consilience framework operationalizes a \"specific confidence trajectory pattern\" exploratory branching (low initial confidence) followed by converging certainty (high final confidence) via a combinatorial metric that penalizes high initial confidence while strictly demanding final certainty. Across graduate-level mathematics and free-form code generation, consilience outperforms existing confidence-based VF-TTS baselines.",
+      "one_liner": "论文揭示 confidence-based 无验证器测试时扩展（VF-TTS）在复杂任务上灾难性失效：均匀的高置信度往往意味着没有真正探索，反而偏爱\"自信的错误答案\"，据此提出 consilience 框架通过组合式指标显式评估置信度的时间不对称性...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b8c369c6.md",
+      "images": [],
+      "added_date": "2026-08-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f0b35542",
+      "title": "Fusion Training for Mathematical Generalization in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.09893",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": "2026-08-10"
+      },
+      "category": "models",
+      "tags": [
+        "training",
+        "reasoning",
+        "math",
+        "thinking-mode",
+        "fusion"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "面向 Thinking Mode Fusion (TMF) 系统研究思考/非思考模式的训练数据比例与训练 schedule：在数学问题求解基准上发现非对称相互作用增加非思考监督比例会显著降低思考模式准确率，不同 schedule 调节这一权衡，最优 schedule 依赖于数据比例，最终量化出非思考与思考模式监督之间的负相关",
+      "summary_en": "Systematic study of Thinking Mode Fusion (TMF) unifying a non-thinking mode and a thinking mode within a single LLM by varying the data ratio and training schedule between the two modes on a math reasoning benchmark. Results show an asymmetric interaction: increasing non-thinking supervision reduces thinking-mode accuracy; different schedules modulate this trade-off; and the optimal schedule depends on the ratio. Quantifies a negative correlation between non-thinking and thinking-mode supervision, framing it as an inherent tension with practical guidance for TMF training settings. Accepted at ACL SRW 2026.",
+      "one_liner": "面向 Thinking Mode Fusion (TMF) 系统研究思考/非思考模式的训练数据比例与训练 schedule：在数学问题求解基准上发现非对称相互作用增加非思考监督比例会显著降低思考模式准确率，不同 schedule 调节这一权衡...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f0b35542.md",
+      "images": [],
+      "added_date": "2026-08-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "37687d1d",
+      "title": "Decoding-Level Taboo: A Diagnostic Stress Test for LLM Robustness",
+      "url": "https://arxiv.org/abs/2608.09900",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": "2026-08-10"
+      },
+      "category": "models",
+      "tags": [
+        "robustness",
+        "decoding",
+        "evaluation",
+        "stress-test",
+        "llm"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "提出 Decoding-Level Taboo：一种零提示（zero-prompt）的 LLM 健壮性诊断压力测试，直接在 logit 空间运行时干预，动态遮蔽首要候选词迫使模型\"绕道表达\"，以打破模型在名义生成路径上形成的\"能力假象\"，评测多个开源模型族发现 off-path 健壮性同时受参数规模与指令对齐训练影响，且随规模/对齐增强而提升，可作为合成数据生成运行时安全护栏审计的通用原语",
+      "summary_en": "Decoding-Level Taboo intervenes directly in logit space at runtime by dynamically masking primary candidate tokens at word boundaries, forcing models off their nominal generation paths and exposing the gap between benchmark scores and deployment robustness. Evaluating Taboo across several open-weight model families shows off-path robustness is heavily influenced by parameter scale and post-training instruction alignment, generally improving with both. Beyond diagnostics, Taboo serves as a primitive for synthetic data generation, runtime safety guardrail stress-testing, and pre-deployment reliability auditing.",
+      "one_liner": "提出 Decoding-Level Taboo：一种零提示（zero-prompt）的 LLM 健壮性诊断压力测试，直接在 logit 空间运行时干预，动态遮蔽首要候选词迫使模型\"绕道表达\"，以打破模型在名义生成路径上形成的\"能力假象\"...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/37687d1d.md",
+      "images": [],
+      "added_date": "2026-08-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-12",
-  "total_entries": 1748
+  "total_entries": 1753
 }
