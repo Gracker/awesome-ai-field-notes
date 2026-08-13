@@ -50349,8 +50349,383 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "52fa033e",
+      "title": "AI is removing the middle class of software engineering",
+      "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "source": {
+        "platform": "blog",
+        "author": "Florian Herrengt",
+        "original_date": "2026-08-11"
+      },
+      "category": "coding",
+      "tags": [
+        "ai-coding",
+        "software-engineering",
+        "agentic-coding",
+        "engineering-culture"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Florian Herrengt 用一个 2026 年软件团队场景解释 AI coding 的结构性后果：agent 把产出速度上限拿掉，25,000 行 PR无人能解释的数据流靠 Claude 会话追溯设计决策会让弱工程文化更快崩盘文章的重点不是工程师会不会消失，而是判断力review 能力和系统理解会涨价，中间层产出型工程师会被压缩",
+      "summary_en": "The article argues that AI coding removes the speed limit from weak engineering cultures: teams can generate huge PRs and layers of architecture faster than anyone can review or understand. The durable skill that becomes more valuable is engineering judgment, not raw code production.",
+      "one_liner": "AI coding 把产出速度上限拿掉后，工程判断力比写代码速度更稀缺",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/52fa033e.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d2535f02",
+      "title": "Introducing Delta",
+      "url": "https://zed.dev/blog/introducing-delta",
+      "source": {
+        "platform": "blog",
+        "author": "Nathan Sobo",
+        "original_date": "2026-08-12"
+      },
+      "category": "coding",
+      "tags": [
+        "zed",
+        "delta",
+        "agentic-coding",
+        "collaboration",
+        "developer-tools"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Zed 团队发布 Delta，把 agent 开发从终端里跑一次任务推进到多人协作空间：DeltaDB 同步 conversation 与 worktree，评论可以锚定在线程diff 和代码任意位置，云端 runner 继续执行时上下文仍同步到同一个 thread它把代码审查agent 推理和协作历史放在同一个实时复制层里",
+      "summary_en": "Delta is a multiplayer environment for coding with agents. DeltaDB replicates conversations and worktrees together, allowing developers to review diffs, comment on code or transcript lines, and sync Claude Code-style sessions into a shared thread.",
+      "one_liner": "Delta 把 agentic coding 的会话worktreereview 合并成实时多人协作层",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d2535f02.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d5515a35",
+      "title": "Why Go is an Ideal Language for AI-Assisted Software Engineering",
+      "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering",
+      "source": {
+        "platform": "google",
+        "author": "Google Developers Blog",
+        "original_date": "2026-08-12"
+      },
+      "category": "coding",
+      "tags": [
+        "go",
+        "ai-assisted-software-engineering",
+        "verification",
+        "developer-tools"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Google 把 Go 重新解释为适合 AI-assisted software engineering 的语言：gofmt静态类型快速编译compatibility promisegoplsgo fix 和 govulncheck 给 agent 提供确定性自纠回路文章的核心判断是瓶颈从生成转移到验证，语言和工具链能否快速拒绝幻觉 API 调用会决定 agent 编程质量",
+      "summary_en": "The article argues that Go fits AI-assisted software engineering because its formatting, static types, fast compiler, compatibility promise, language server, refactoring tools, and vulnerability analysis create tight verification loops for agents.",
+      "one_liner": "Go 在 agent 时代的优势是让生成验证修正回路更确定",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d5515a35.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "edcbd74d",
+      "title": "There are no lossless transformations of natural-language text",
+      "url": "https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text",
+      "source": {
+        "platform": "blog",
+        "author": "Sophie Alpert",
+        "original_date": "2026-06-25"
+      },
+      "category": "learning",
+      "tags": [
+        "ai-writing",
+        "writing-policy",
+        "llm-collaboration",
+        "natural-language"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Sophie Alpert 的写作政策把 AI 改稿问题落到自然语言没有无损变换这一原则：每次重写都会改变含义，作者必须为每句话负责，写作本身就是思考，读者时间比作者时间更贵它适合团队制定 AI 写作边界：可以用工具辅助，但不能把没有理解的句子外包给模型",
+      "summary_en": "The essay argues that natural-language text cannot be transformed losslessly: edits change meaning, and writers remain responsible for every sentence. It frames writing as thinking and warns teams against outsourcing meaning to an AI rewrite pass.",
+      "one_liner": "AI 改稿不是无损压缩；没有理解就交给模型重写，会丢掉意义",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/edcbd74d.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5e6b2247",
+      "title": "Muscle Memory for Agents: Compile not Merely Retrieve",
+      "url": "https://arxiv.org/abs/2608.08995",
+      "source": {
+        "platform": "arxiv",
+        "author": "Pouya Ghiasnezhad Omran, Soujanya Lanka, Qin Zhang, Tanya Dixit",
+        "original_date": "2026-08-10"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "personalization",
+        "specialist-agents",
+        "compile-not-retrieve"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "论文提出 Muscle Memory：不要把反复出现的用户意图只作为文本记忆检索，而是编译成带触发器的 specialist agentHarvestAnalyzeAugmentEvaluate 四阶段从对话历史中分离 behavioral pattern 与 task pattern，并在 90 个 held-out 场景中显示 specialist 触发时 88.9% 胜率个性化收益 +2.05",
+      "summary_en": "Memory for LLM agents has converged on a single architectural pattern: store experience as text, embeddings, reflections, or rules; retrieve at inference time; let a general-purpose orchestrator interpret what to do. This paper argues that the pattern is the wrong default for personalization. We position Muscle Memory - the practice of compiling recurring user intent into purpose-built specialist agents - as a distinct memory paradigm from retrieval, and we argue that compilation is a better fit for the workloads where current assistants impose a multi-turn tax on their users: making them repeatedly correct format, depth, and scope to obtain a domain-appropriate answer. We support the position with a reference implementation and empirical evidence....",
+      "one_liner": "Agent 记忆不只应 retrieve；高频意图可以 compile 成可触发的 specialist agent",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/5e6b2247.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d22f6fac",
+      "title": "MAP-Graph: Provenance-Aware Shared Memory for Multi-Agent Workflows",
+      "url": "https://arxiv.org/abs/2608.10509",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yiqi Wang, Zihao Yan, Jiaqi Zhang, Zhangkai Wu, Mingkai Zheng, Zequn Sun, Yanming Zhu, Taotao Cai",
+        "original_date": "2026-08-11"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "shared-memory",
+        "provenance",
+        "risk-gate",
+        "agent-safety"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "MAP-Graph 把 multi-agent workflow 中的 agentsourcememoryclaimaction 建成 typed execution graph，并把 provenance 变成运行时控制信号：lineage tracingpermission-ineligible record exclusionsemantic similarity path trust rerankingrisk-sensitive action gate2,700 个合成任务上达到 94.96% task success",
+      "summary_en": "Shared memory helps language-model agents reuse information across long workflows, yet relevant evidence may not be admissible for a particular agent or action. Because restrictions propagate through derivations, summaries can conceal private, poisoned, untrusted, or revoked sources, enabling unauthorized reads or unsafe actions. Existing approaches provide semantic retrieval, scoped access, or lineage tracking, but do not clearly separate hard authorization from graded trust or adapt evidence requirements to action risk. We introduce MAP-Graph, a provenance-aware memory layer that represents agents, sources, memories, claims, and actions in a typed execution graph....",
+      "one_liner": "MAP-Graph 把 provenance 从事后审计变成 multi-agent memory 的运行时安全门",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/d22f6fac.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "946971b4",
+      "title": "Query-Only Backdoor Attacks on Self-Evolving Skills via Trajectory Poisoning",
+      "url": "https://arxiv.org/abs/2608.08303",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuyang Luo, Haoran Wang, Kai Shu",
+        "original_date": "2026-08-08"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "self-evolving-agents",
+        "skill-poisoning",
+        "backdoor-attack"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "Trajectory Backdoor Attack 把 self-evolving skill system 的可信演化管道作为攻击面：攻击者不直接投毒外部 skill，而是通过 query-only 交互诱导 compromised trajectory，让系统把后门经验内化成可信来源的自演化 skill它提示 agent 安全边界必须覆盖轨迹筛选与晋升门禁",
+      "summary_en": "Agentic skills improve large language model (LLM) agents by encoding reusable procedures for complex tasks. However, manually authored skills often adapt poorly to long-horizon tasks and changing environments. To address the limitation, self-evolving skill systems have been developed to automatically construct and update skills from execution trajectories, shifting skill acquisition from external marketplaces to a trusted evolution pipeline. By replacing external skill acquisition with trusted internal construction, self-evolving skill systems reduce exposure to skill injection attacks that rely on direct skill manipulation. However, this skill evolution pipeline may introduce a new attack surface in which an attacker can indirectly steer skill evolution by inducing compromised trajectories through agent interactions....",
+      "one_liner": "自演化 skill 的可信内部轨迹也可能被 query-only 攻击投毒",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/946971b4.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "50c532c0",
+      "title": "SPIEval: Evaluating Large Language Models as Mobile Assistants over Scattered Personal Information",
+      "url": "https://arxiv.org/abs/2608.10692",
+      "source": {
+        "platform": "arxiv",
+        "author": "Junjie Ye, Zhuohui Sheng, Shaofan Liu, Yulun Zhu, Wenjie Fu, Dingwei Zhu, Ming Zhang, Yujiong Shen...",
+        "original_date": "2026-08-11"
+      },
+      "category": "agents",
+      "tags": [
+        "mobile-assistant",
+        "agent-evaluation",
+        "personal-information",
+        "tool-use"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "SPIEval 给手机助手 LLM 做了结构化评测：250 个任务4,335 条个人记录10 个 app21 个工具，覆盖 reasoningdisambiguationintegrationpreference inference 与 multi-intent decompositionGPT-5.5 最高 57.3%，失败的 79% 来自 inaccurate information localization，说明移动端 agent 的核心难点仍是持续检索与定位",
+      "summary_en": "Large language models (LLMs) are increasingly deployed as mobile assistants, where a key challenge is leveraging personal information scattered across multiple applications (apps) to complete user instructions. However, due to the lack of dedicated benchmarks, their capabilities remain poorly understood. To address this gap, we introduce SPIEval, a human-curated benchmark grounded in five cognitive capabilities (i.e., reasoning, disambiguation, integration, preference inference, and multi-intent decomposition). SPIEval comprises 250 tasks spanning 4,335 personal records distributed across 10 apps and supports multi-turn interaction through 21 tools. Analysis shows that the benchmark exhibits diverse scenarios, challenging tasks, scattered information, controllable environments, and verifiable outcomes. We evaluate nine representative LLMs and find substantial room for improvement....",
+      "one_liner": "SPIEval 把手机助手失败定位到 scattered personal information 的检索与定位能力",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/50c532c0.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e010e15b",
+      "title": "Test-Time Self-Evolving GUI Visual Grounding via Reflection-Guided On-Policy Self-Distillation",
+      "url": "https://arxiv.org/abs/2608.11191",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shiyu Xuan, Zechao Li",
+        "original_date": "2026-08-11"
+      },
+      "category": "agents",
+      "tags": [
+        "gui-grounding",
+        "mobile-agent",
+        "self-evolving",
+        "visual-grounding"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "论文提出 GUI Visual Grounding 的 test-time 自演化闭环：Exploration Evaluation Reflection InternalizationMLLM Reflector 给预测打分并生成 reasoning reflection，Reflection-Guided On-Policy Self-Distillation 把高层反思转成 token-level 监督，Contrastive Calibration 防止失败探索污染前缀，六个 benchmark 平均提升 7.4%",
+      "summary_en": "GUI Visual Grounding is a fundamental capability for GUI agents. Existing models typically freeze their parameters after deployment, limiting their ability to adapt to unseen interfaces. Although recent methods attempt to adapt models via test-time reinforcement learning, they cannot reflect upon failed exploration. To overcome this, we propose a Test-Time Self-Evolving framework that enables models to improve after deployment without human-annotated ground truth. It constructs a closed-loop of Exploration, Evaluation, Reflection, and Internalization. Specifically, the agent first explores unseen interfaces by predicting grounding coordinates for given instructions. To evaluate these explorations, we introduce an MLLM-based Reflector to assess the generated results and provide the corresponding reasoning reflections....",
+      "one_liner": "GUI grounding 可以在部署后通过反思自蒸馏和校准形成自演化闭环",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e010e15b.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dd96cbc0",
+      "title": "Neural Introspection Gating for Adaptive KV-Cache Reuse in Vision-Language-Action Models",
+      "url": "https://arxiv.org/abs/2608.10824",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhijie Wu, Kento Kawaharazuka, Kei Okada",
+        "original_date": "2026-08-11"
+      },
+      "category": "infra",
+      "tags": [
+        "vla",
+        "kv-cache",
+        "on-device-ai",
+        "robotics",
+        "inference-optimization"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "Gated VLA-Cache 针对 Vision-Language-Action 模型复用 KV cache 的可靠性问题，引入 top-2 action token logit margin 作为零成本置信信号：margin 低于阈值就失效 cache 触发 full recomputeOpenVLA / OpenVLA-OFT 在 LIBERO-Goal / Long 上恢复 100% 精度损失，同时保留约 80% compute savings",
+      "summary_en": "Vision-Language-Action(VLA) models map camera images and language instructions directly to motor commands through a single autoregressive transformer. In real-time control, they still spend substantial compute recomputing key-value(KV) representations for visual tokens that barely change across neighboring frames. Recent work such as VLA-Cache reduces that cost by reusing KV states for visually static patches, but its policy relies only on observation-space heuristics and does not account for the model's own uncertainty. We propose Gated VLA-Cache, a lightweight, training-free extension that augments visual-similarity caching with neural introspection. The method monitors the logit margin between the top two predicted action tokens, a zero-cost confidence signal available during decoding....",
+      "one_liner": "Gated VLA-Cache 用动作置信度决定是否复用 KV cache，在省算力与可靠性之间加门控",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dd96cbc0.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "83763f9a",
+      "title": "ReRound: Reconstructive Rounding to Resolve Midpoint Ambiguity in Calibration-Free LLM Quantization",
+      "url": "https://arxiv.org/abs/2608.11045",
+      "source": {
+        "platform": "arxiv",
+        "author": "He-Yen Hsieh, H. T. Kung",
+        "original_date": "2026-08-11"
+      },
+      "category": "infra",
+      "tags": [
+        "llm-quantization",
+        "on-device-ai",
+        "diffusion",
+        "inference-optimization"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "ReRound 解决 calibration-free LLM 量化里的 midpoint ambiguity：训练 conditional diffusion model 生成 low-bit weight 的连续 reconstruction，为接近量化区间中点的 weight 提供 rounding direction guidance；非敏感权重继续 RTN方法离线推理无额外开销，小模型 3-bit / 4-bit 量化稳定超过 RTN",
+      "summary_en": "ReRound (Reconstructive Rounding) is a post-training quantization method that addresses the midpoint ambiguity inherent in standard round-to-nearest (RTN) schemes when quantizing weights near the centers of quantization intervals. Starting from a pretrained LLM, ReRound trains a conditional diffusion model to produce continuous reconstructions of low-bit weights for the LLM. These reconstructed weights act as a guidance signal to disambiguate the rounding direction of weights located close to interval midpoints....",
+      "one_liner": "ReRound 用 diffusion-guided rounding 改善小 LLM 的 calibration-free 低比特量化",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/83763f9a.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4fa67bd0",
+      "title": "Actions Speak Louder than Words: Measuring Cross-Lingual Policy Retention in Tool-Using Agents",
+      "url": "https://arxiv.org/abs/2608.11110",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sourabrata Mukherjee, Kalika Bali, Sunayana Sitaram",
+        "original_date": "2026-08-11"
+      },
+      "category": "agents",
+      "tags": [
+        "tool-using-agents",
+        "cross-lingual",
+        "policy-retention",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "论文把 tool-using agent 的跨语言能力从最终回答转移到 action policy 本身来测量：8 个模型6 个 benchmark41 种语言2.38M rollouts结果显示 frontier 模型在 greedy decoding 下也只保留约 71-73% action policy，且英文 pivot 对非英文任务是 causally load-bearing",
+      "summary_en": "When a tool-using agent is given the same task in a different language, does it still take the same steps? Multilingual evaluation rarely asks: it compares final answers and discards the actions. Yet those actions are the product: they fix cost and latency, decide how the system fails, and are the only auditable part of its behaviour. We make the action policy the measured object across 8 models, 6 parallel benchmarks and 41 languages (2.38M rollouts). The naive measurement fails: five confounds sit between raw trace similarity and any defensible claim, each able to flip a conclusion. Short traces score higher, empty traces score perfectly, unrelated traces agree by chance over half the time, the gap is capped by each model's reproducibility, and a model asked the same question twice in one language answers differently, leaving no baseline....",
+      "one_liner": "跨语言 agent 评测应看 action policy 是否保留，而不只看最终自然语言回答",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4fa67bd0.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-13",
-  "total_entries": 1771
+  "total_entries": 1783
 }
