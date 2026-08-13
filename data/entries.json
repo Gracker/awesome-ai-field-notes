@@ -50225,8 +50225,132 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "e467ec8b",
+      "title": "SkillZip: Evaluation-Free Skill Compression for Self-Evolving Agents by Discovering Reusable Structure",
+      "url": "https://arxiv.org/abs/2608.11079",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [
+        "arxiv",
+        "external-scan",
+        "research",
+        "cs.ai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "本文研究：SkillZip摘要要点：Self-evolving agents accumulate reusable skills by appending successful procedures and failure fixes. Over time, the same requirement is often restated in several branches, examples, and warnings, while common action sequences are copied rather than reused. The resulting skill becomes expensive to inject and difficult to maintain. Generic prompt compression is ill-suited to this setting because a skill is not a flat passage: its name and description define when it applies, its workflow controls execution, its tool and output contracts constrain validity, and rare exceptions may remain essentia",
+      "summary_en": "Self-evolving agents accumulate reusable skills by appending successful procedures and failure fixes. Over time, the same requirement is often restated in several branches, examples, and warnings, while common action sequences are copied rather than reused. The resulting skill becomes expensive to inject and difficult to maintain. Generic prompt compression is ill-suited to this setting because a skill is not a flat passage: its name and description define when it applies, its workflow controls execution, its tool and output contracts constrain validity, and rare exceptions may remain essential even when no sampled task activates them. Evaluation-guided compression can test these behaviors, but it introduces rollouts, cost, and dependence on the compression-time evaluation set....",
+      "one_liner": "SkillZip: Evaluation-Free Skill Compression for Self-Evolving Agents by Discovering Reusable Structure",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e467ec8b.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f3098025",
+      "title": "Why Does CLAUDE.md Keep Growing? Catastrophic Remembering in Agentic Coding",
+      "url": "https://arxiv.org/abs/2608.11095",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [
+        "arxiv",
+        "external-scan",
+        "research",
+        "cs.ai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "本文研究：Why Does CLAUDE.md Keep Growing? Catastrophic Remembering in Agentic Coding摘要要点：Agentic coding READMEs like CLAUDE.md grow without bound in real repositories, stopping only when the repository retires or someone rewrites the file wholesale. We trace this to imperfect recall: appending an instruction is always cheap, but once an instruction's rationale is gone, deleting it without risking a correctness regression costs O(2^|D|) in a prompt of |D| instructions. We name the resulting divergence catastrophic remembering, the inverse of catastrophic forgetting around which continual learning is organized. First, we characterize this phenomenon across 247,694 instruction lifeti",
+      "summary_en": "Agentic coding READMEs like CLAUDE.md grow without bound in real repositories, stopping only when the repository retires or someone rewrites the file wholesale. We trace this to imperfect recall: appending an instruction is always cheap, but once an instruction's rationale is gone, deleting it without risking a correctness regression costs O(2^|D|) in a prompt of |D| instructions. We name the resulting divergence catastrophic remembering, the inverse of catastrophic forgetting around which continual learning is organized. First, we characterize this phenomenon across 247,694 instruction lifetimes in 1,867 repositories: agentic prompts grow without bound, more than tripling over their lifetime (+226%), gaining +4.9 net instructions every commit; further, the older an instruction gets, the less likely it is to be deleted (log-hazard -0.032/commit)....",
+      "one_liner": "Why Does CLAUDE.md Keep Growing? Catastrophic Remembering in Agentic Coding",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f3098025.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ed0ad287",
+      "title": "Attention-Path Fragility as an Uncertainty Signal in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.11138",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [
+        "arxiv",
+        "external-scan",
+        "research",
+        "cs.cl"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "本文研究：Attention-Path Fragility as an Uncertainty Signal in Large Language Models摘要要点：We propose that a model's uncertainty about a token is reflected not only in the breadth of its output distribution but also in whether a confident prediction is \\emph{fragile} under perturbation of its attention pathways. We instantiate this as ASMI (Attention-Subnetwork Mutual Information), a training-free estimator that masks attention heads and measures the BALD mutual information among the resulting subnetworks, with a semantic-agreement kernel to discount surface-form disagreement. The signal is not a restatement of output confidence: on grounded QA an out-of-fold test shows it adds erro",
+      "summary_en": "We propose that a model's uncertainty about a token is reflected not only in the breadth of its output distribution but also in whether a confident prediction is \\emph{fragile} under perturbation of its attention pathways. We instantiate this as ASMI (Attention-Subnetwork Mutual Information), a training-free estimator that masks attention heads and measures the BALD mutual information among the resulting subnetworks, with a semantic-agreement kernel to discount surface-form disagreement. The signal is not a restatement of output confidence: on grounded QA an out-of-fold test shows it adds error-predictive information beyond single-pass confidence and entropy, concentrated in \\emph{confident-but-fragile} predictions, where acting on it roughly halves the retained error of a confidence filter....",
+      "one_liner": "Attention-Path Fragility as an Uncertainty Signal in Large Language Models",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ed0ad287.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7c6ff757",
+      "title": "Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration",
+      "url": "https://arxiv.org/abs/2608.11195",
+      "source": {
+        "platform": "arxiv",
+        "author": null,
+        "original_date": null
+      },
+      "category": "uncategorized",
+      "tags": [
+        "arxiv",
+        "external-scan",
+        "research",
+        "cs.ai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "本文研究：Long-Horizon AI Research for Grothendieck Constant摘要要点：AI agents are increasingly used in mathematics research, but it is often unclear how to use them effectively. Towards this, we present an extensive case study of how AI was used to improve bounds on the Grothendieck constant $K_G$, which captures the hardness between combinatorial problems and their continuous relaxations. Specifically, while the precise value of $K_G$ is not known, we recently tightened the best known bounds to \\[ \\frac{6}{11} \\;\\le\\; K_G \\;\\le\\; \\frac{2\\log(1+\\sqrt2)} - 10^{-4}. \\] Crucially, these improvements were achieved using an AI research system that could arrive at",
+      "summary_en": "AI agents are increasingly used in mathematics research, but it is often unclear how to use them effectively. Towards this, we present an extensive case study of how AI was used to improve bounds on the Grothendieck constant $K_G$, which captures the hardness between combinatorial problems and their continuous relaxations. Specifically, while the precise value of $K_G$ is not known, we recently tightened the best known bounds to \\[ \\frac{6}{11} \\;\\le\\; K_G \\;\\le\\; \\frac{2\\log(1+\\sqrt2)} - 10^{-4}. \\] Crucially, these improvements were achieved using an AI research system that could arrive at insights deemed novel by domain experts. We give a detailed discussion of our experience using AI for mathematics research, particularly touching upon its strengths and weaknesses, as well as our experience with creating ideal conditions for AI to arrive at breakthrough insights.",
+      "one_liner": "Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7c6ff757.md",
+      "images": [],
+      "added_date": "2026-08-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-12",
-  "total_entries": 1767
+  "last_updated": "2026-08-13",
+  "total_entries": 1771
 }
