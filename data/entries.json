@@ -51282,8 +51282,203 @@
       "updated_date": "2026-08-14",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "95957639",
+      "title": "Capital formation: Going legit means going mainstream（DMCA 1201 豁免流程批判）",
+      "url": "https://pluralistic.net/2026/08/14/one-chokable-throat",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-08-14"
+      },
+      "category": "industry",
+      "tags": [
+        "dmca",
+        "interoperability",
+        "policy",
+        "competition",
+        "adversarial-interoperability"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Doctorow 把反规避法必然招致 enshittification推到 1998 年 DMCA 1201 的源头：反规避入罪后，美国初创集体转向 acqui-hire 而放弃对抗大厂关键法律细节是工具豁免 vs 使用豁免版权局豁免流程只允许个人在自己设备上动手，不允许第三方制造并分发解锁工具，所以即便 iPhone 第三方 app store 获得豁免，市面上也不会出现真正的解锁工具恢复竞争靠完全合法化，不是层层设卡的豁免戏法",
+      "summary_en": null,
+      "one_liner": "对做第三方 app store / 第三方维修 / 平台竞争政策讨论的读者，这是一篇框架级文章：把 2026 年仍在进行的政策争论接到 1998 年立法源头，并",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/95957639.md",
+      "images": [],
+      "added_date": "2026-08-14",
+      "updated_date": "2026-08-14",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b3edc07a",
+      "title": "DecryptAds：把广告供应链拆开给你看（ads.txt/sellers.json 交叉透视）",
+      "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out",
+      "source": {
+        "platform": "blog",
+        "author": "Brian Krebs",
+        "original_date": "2026-08-14"
+      },
+      "category": "industry",
+      "tags": [
+        "adtech",
+        "privacy",
+        "security",
+        "supply-chain",
+        "transparency"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Krebs 介绍免费服务 DecryptAds：抓取 ads.txt / app-ads.txt / sellers.json / buyers.json 四类公开文件做交叉引用，把任意站点的广告供应链可视化具体数据：ESPN 背后 143 家广告方中 4 家总部在俄/中/阿联酋；armytimes.com 等 6 个美军新闻网站允许俄罗斯 Between Digital 投放；Opera 母公司 Kunlun 被识别为中方实体文章同时把 H96 TV stick 租用户带宽伪装手机点击给 AI 农场广告的事件补上 Fengwo Group 与 Yandex seller ID 的关联",
+      "summary_en": null,
+      "one_liner": "不是再讲一遍广告在追踪你，而是给出一个能立刻查任何站点的工具 + 一组可复述的供应链安全事实，做反 malvertising / 供应链安全的工程师可直接上",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b3edc07a.md",
+      "images": [],
+      "added_date": "2026-08-14",
+      "updated_date": "2026-08-14",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a3faa36e",
+      "title": "Amazon 为什么把订单邮件里的商品名抹掉：挡的是 Google 的 AI 购物代理",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977733/amazon-order-emails-google-gmail-ai-agents-data",
+      "source": {
+        "platform": "news",
+        "author": "Mia Sato",
+        "original_date": "2026-08-11"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-agents",
+        "amazon",
+        "google",
+        "gemini",
+        "commerce",
+        "privacy"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "今年 7 月起 Amazon 订单确认邮件只显示Beauty / Hardware / Drugstore等品类名而不再列具体商品，官方回应是减少客户信息流出Amazon 自身 app/网站以保护隐私The Verge 把这解读为对抗 Google 将 Gemini 接入 Gmail 后直接扫到Your retainer tablets shipped这类高意图消费信号搭 DoorDash 式抽佣链条的动作Amazon 8 月初刚在法庭上输给 Perplexity，正是同一策略被反向坐实的关键证据",
+      "summary_en": null,
+      "one_liner": "把邮件变难看这件消费者小事接到 AI 代理抢走商家直接客户关系的 DoorDash problem 主线上，对做 agent 与商业策略两侧的读者都具体可读",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a3faa36e.md",
+      "images": [],
+      "added_date": "2026-08-14",
+      "updated_date": "2026-08-14",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6787d2e5",
+      "title": "droidrun/mobile-harness：给 AI agent 的真机控制 Markdown harness（非 runtime）",
+      "url": "https://github.com/droidrun/mobile-harness",
+      "source": {
+        "platform": "github",
+        "author": "droidrun",
+        "original_date": "2026-08-14"
+      },
+      "category": "agents",
+      "tags": [
+        "mobile-agent",
+        "android",
+        "ios",
+        "harness",
+        "mobilerun",
+        "adb"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "MIT 协议的 compact Markdown harness，README 明确not an agent runtime：主控制路径是 Python mobilerun_core，Android 走本地 ADB / Portal HTTP / 云，iOS 走 ios-portal HTTP / 云可观测面有 ui nodesscreenshotscroll_until 文本匹配recovery GUIDE；execute_script 仅 cloud 后端可用本地评估结论（repo_readme 级）：值得 hello 级联调进实验室，但不替代 adb/UIAutomator 的确定性回归，也不替代 logcat/Perfetto 证据层",
+      "summary_en": null,
+      "one_liner": "真机 agent 控制面分层的直接素材：探索层用 harness回归层用脚本证据层用 Perfetto这是把agent 开真机从安利帖变成可执行选型",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6787d2e5.md",
+      "images": [],
+      "added_date": "2026-08-14",
+      "updated_date": "2026-08-14",
+      "github_stars": 316,
+      "related": []
+    },
+    {
+      "id": "2f4b0c1d",
+      "title": "Agent 限流状态机：额度是编排状态，不是模型属性",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "gracker",
+        "original_date": "2026-08-14"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agent",
+        "quota",
+        "rate-limit",
+        "orchestration",
+        "state-machine",
+        "checkpoint"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "把 Agent 额度建成状态机：normal near-limit （checkpointed off-peak-wait / auto-continue-armed / fallback / hard-stop）三个官方旋钮不可混写：DeepSeek off-peak 是时间/价格调度（2026-08-16 16:00 UTC 生效半价），Claude Code desktop auto-continue 是限额重置后续跑，OpenAI Ultrafast 是速度档资格而非额度重置核心结论：进入 near-limit 的第一动作是 checkpoint，不是换模型；缺 checkpoint 的限流会伪装成模型不行",
+      "summary_en": null,
+      "one_liner": "overnight 长程任务的实用框架：启动写 task_id/goal/checkpoint_path/quota_mode，每工具环刷新 checkpoin",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2f4b0c1d.md",
+      "images": [],
+      "added_date": "2026-08-14",
+      "updated_date": "2026-08-14",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3cb2c509",
+      "title": "Agent 与人类协作三原则：授权分桶外显可解释性静默抑制",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "gracker",
+        "original_date": "2026-08-14"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-collaboration",
+        "authorization",
+        "explainability",
+        "cron",
+        "human-in-the-loop"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "每日 Agent 实践笔记：授权按可逆性 影响力两轴分四桶，比单一置信度阈值稳；可解释性不是解释为什么，而是外显看了什么/做了什么/没做什么三类证据；静默抑制是 cron agent 协作第一原则输出与上次同 hash 就不投递，token 不足只写 trace附 5 条可执行实践与一个 20 分钟的三段式摘要小实验",
+      "summary_en": null,
+      "one_liner": "Harness 运行时之外的另一层：runtime 解agent 自己怎么不崩，协作纪律解人与 agent 的边界三段式摘要与静默抑制可直接落到现有",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/3cb2c509.md",
+      "images": [],
+      "added_date": "2026-08-14",
+      "updated_date": "2026-08-14",
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-14",
-  "total_entries": 1800
+  "total_entries": 1806
 }
