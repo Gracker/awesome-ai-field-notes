@@ -51477,8 +51477,298 @@
       "updated_date": "2026-08-14",
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "e6c53596",
+      "title": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+      "url": "https://z.ai/blog/glm-5.3",
+      "source": {
+        "platform": "blog",
+        "author": "Z.ai",
+        "original_date": "2026-08-14"
+      },
+      "category": "models",
+      "tags": [
+        "glm-5.3",
+        "zai",
+        "post-training",
+        "coding-model",
+        "cyber-capability",
+        "open-weights"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Z.ai 发布 GLM-5.3：与 GLM-5.2 同一基座，全部提升来自 post-training 环境扩展Z.ai Code Bench 较 5.2 提升 50%，Terminal Bench 3.0 从 4.6 升至 28.3，DeepSWE v1.1 达 66.9；安全方向 CyberGym 84.5 为 SOTA，ExploitBench 54.4 较 5.2 翻倍权重将在发布两周后开源收录理由：前沿开源权重模型在编码与攻防两条线同时刷新，其环境合成管线（research agent 从真实工作采集任务模式生成长程环境，judge agent 验证可解性）是可借鉴的 post-training 工程方法",
+      "summary_en": "Z.ai releases GLM-5.3, built on the same base model as GLM-5.2 with all gains from post-training environment scaling: 50% improvement on in-house Z.ai Code Bench, Terminal Bench 3.0 rising 4.6 to 28.3, DeepSWE v1.1 at 66.9. It is state of the art on CyberGym for vulnerability discovery (84.5) and more than doubles GLM-5.2 on ExploitBench (54.4). Weights open-source in two weeks after safety hardening. Environment-scaling pipelines synthesize long-horizon tasks via research agents, with a judge agent verifying solvability.",
+      "one_liner": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/e6c53596.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dd378ea0",
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash",
+      "source": {
+        "platform": "blog",
+        "author": "Tulsee Doshi, Google Gemini team",
+        "original_date": "2026-08-13"
+      },
+      "category": "models",
+      "tags": [
+        "gemini-3.7-flash",
+        "google",
+        "coding-model",
+        "agents",
+        "workhorse-model"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Google 发布 Gemini 3.7 Flash，距 3.6 Flash 仅三周，定位编码与智能体场景的主力工作模型FrontierCode 1.1 Main 43.6%（3.6 Flash 为 34.4%），DeepSWE v1.1 65.3% vs 49.0%，WebDev Arena Elo 1588 vs 1538，GDP.pdf 34.0% vs 22.0%，AutomationBench 30.4% vs 17.0%；引入价为 3.6 Flash 每百万 token 的一半收录理由：主力级模型的性价比与工作流基准同步大幅跃升，对 coding agent 选型有直接参考价值",
+      "summary_en": "Google introduces Gemini 3.7 Flash just three weeks after 3.6 Flash, positioned as its most intelligent workhorse model for coding and agents. Gains over 3.6 Flash: FrontierCode 1.1 Main 43.6% vs 34.4%, DeepSWE v1.1 65.3% vs 49.0%, WebDev Arena Elo 1588 vs 1538, GDP.pdf 34.0% vs 22.0%, AutomationBench 30.4% vs 17.0%. Introductory price is half of 3.6 Flash cost per million tokens.",
+      "one_liner": "Google 发布 Gemini 3.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dd378ea0.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "afb6d0b8",
+      "title": "Qwen3.8-27B-FP8",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "source": {
+        "platform": "blog",
+        "author": "Qwen Team",
+        "original_date": "2026-08-13"
+      },
+      "category": "models",
+      "tags": [
+        "qwen3.8",
+        "27b",
+        "fp8",
+        "vision-language",
+        "hybrid-architecture",
+        "huggingface"
+      ],
+      "source_type": "product",
+      "language": "both",
+      "summary_zh": "Qwen3.8-27B FP8 权重发布：原生视觉语言模型，原生 262K 上下文可扩展至 1Mthinking 默认开启可按请求关闭，reasoning_effort 调节推理深度，preserve_thinking 跨轮保留推理上下文架构为 64 层 Gated DeltaNet 与 Gated Attention 混合（16 组 3DeltaNet+1Attention），248K 词表，多 token 预测训练；FP8 块量化（block 128）性能与原模型几乎一致收录理由：开源系旗舰迭代，混合线性注意力架构与可控思考开关是本地部署 agent 的实用特性",
+      "summary_en": "Qwen releases Qwen3.8-27B-FP8 weights: a native vision-language model with 262K context extensible to 1M. Thinking is on by default and disable-able per request; reasoning depth tunes via reasoning_effort and reasoning context carries across turns via preserve_thinking. Architecture mixes 64 layers of Gated DeltaNet with Gated Attention (16 x (3 x DeltaNet -> FFN) -> 1 x Attention -> FFN)), 248K vocab, multi-token prediction; fine-grained FP8 (block 128) keeps metrics nearly identical to the original.",
+      "one_liner": "Qwen3.8-27B-FP8",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/afb6d0b8.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ce60e01f",
+      "title": "A Survey of Agent Memory in the Second Half: Towards Self-Evolving and Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2602.06052",
+      "source": {
+        "platform": "arxiv",
+        "author": "Wei-Chieh Huang, Weizhi Zhang, Yueqing Liang, Yuanchen Bei, et al.",
+        "original_date": "2026-01-14"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "survey",
+        "long-horizon-agents",
+        "self-evolving",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "综述：AI 进入下半场后，agentic codingdeep researchcomputer use 等长程场景面临上下文爆炸，记忆成为弥合实用性差距的关键方案2025 年已有数百篇记忆相关论文，记忆正从被动存储转向主动管理作者系统梳理记忆的构建管理与选择性复用收录理由：agent memory 方向的最新全景综述，适合作为该方向检索与选型的入口文献",
+      "summary_en": "Survey arguing that as AI enters its second half, long-horizon settings such as agentic coding, deep research, and computer use face context explosion beyond fixed windows, making memory the critical solution to the utility gap. With hundreds of memory papers released in 2025, memory is moving beyond passive storage toward active management; the authors systematize memory construction, management, and selective reuse across extended interactions.",
+      "one_liner": "综述：AI 进入下半场后，agentic codingdeep researchcomputer use 等长程场景面临上下文爆炸，记忆成为弥合实用性差距的关键方案2025 年已有数百篇记忆相关论文...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/ce60e01f.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0a9a891f",
+      "title": "Agent Memory Below the Prompt: Persistent Q4 KV Cache for Multi-Agent LLM Inference on Edge Devices",
+      "url": "https://arxiv.org/abs/2603.04428",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yakov Pyotr Shkolnikov",
+        "original_date": "2026-02-17"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "edge-inference",
+        "multi-agent",
+        "quantization",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "边缘设备上多 agent LLM 的显存困境：Apple M4 Pro 10.2GB cache 预算下 FP16 8K 上下文只能容纳 3 个 agent，10-agent 工作流需频繁驱逐重载，无持久化时每次驱逐都触发完整 prefill（4K 上下文每 agent 15.7 秒）方案是把每个 agent 的 KV cache 以 4-bit 量化持久化到磁盘并直接重载进 attention 层，免除重复 O(n) prefill收录理由：把 agent 记忆下沉到 KV cache 层的系统设计，对端侧多 agent 部署有直接工程价值",
+      "summary_en": "Multi-agent LLM systems on edge devices cannot hold every agent's KV cache in RAM: on Apple M4 Pro with 10.2 GB cache budget, only 3 agents fit at 8K context in FP16, and every eviction forces a full re-prefill (15.7 s per agent at 4K). The paper persists each agent's KV cache to disk in 4-bit quantized format and reloads it directly into the attention layer, eliminating redundant O(n) prefill via direct cache restoration.",
+      "one_liner": "边缘设备上多 agent LLM 的显存困境：Apple M4 Pro 10.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0a9a891f.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b7d52f88",
+      "title": "XAMT: Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures",
+      "url": "https://arxiv.org/abs/2512.15790",
+      "source": {
+        "platform": "arxiv",
+        "author": "Akhil Sharma, Shaikh Yaser Arafat, Jai Kumar Sharma, Ken Huang",
+        "original_date": "2025-12-15"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "memory-poisoning",
+        "multi-agent-systems",
+        "adversarial",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "XAMT 提出双层优化框架，对异构多智能体系统做隐蔽记忆篡改攻击：同时利用 MARL 的共享经验回放缓冲与 RAG agent 的外部知识库这两类中心化记忆组件攻击在上层优化投放策略下层维持正常任务性能，从而隐蔽地偏移策略收录理由：agent 安全方向少见的跨 MARL/RAG 统一攻击面分析，适合与既有 agent memory poisoning 笔记对照阅读",
+      "summary_en": "XAMT proposes a bilevel optimization framework for covert memory tampering in heterogeneous multi-agent systems, jointly targeting the shared Experience Replay buffer in MARL and the external Knowledge Base in RAG-based LLM agents. The upper level optimizes the tampering policy while the lower level preserves nominal task performance, stealthily biasing agent policies.",
+      "one_liner": "XAMT 提出双层优化框架，对异构多智能体系统做隐蔽记忆篡改攻击：同时利用 MARL 的共享经验回放缓冲与 RAG agent 的外部知识库这两类中心化记忆组件攻击在上层优化投放策略下层维持正常任务性能...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b7d52f88.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ce8bb4dd",
+      "title": "SWEnergy: An Empirical Study on Energy Efficiency in Agentic Issue Resolution Frameworks with SLMs",
+      "url": "https://arxiv.org/abs/2512.09543",
+      "source": {
+        "platform": "arxiv",
+        "author": "Arihant Tripathy, Ch Pavan Harshit, Karthik Vaidhyanathan",
+        "original_date": "2025-12-10"
+      },
+      "category": "coding",
+      "tags": [
+        "swe-agents",
+        "small-language-models",
+        "energy-efficiency",
+        "empirical-study",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "实证研究：把四个主流 agentic issue resolution 框架刻意约束到小语言模型（SLM），在资源受限环境下测量性能能耗与资源占用回答的问题是 SLM 驱动的自动化议题修复在本地部署场景是否可行权衡如何收录理由：coding agent 落地选型时能耗/算力维度的稀缺实证数据",
+      "summary_en": "Empirical study constraining four leading agentic issue resolution frameworks to Small Language Models, measuring performance, energy efficiency, and resource consumption in resource-limited settings to assess the viability of SLM-driven automated issue resolution and characterize the resulting trade-offs.",
+      "one_liner": "实证研究：把四个主流 agentic issue resolution 框架刻意约束到小语言模型（SLM）...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ce8bb4dd.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "97fc809c",
+      "title": "A Plan Reuse Mechanism for LLM-Driven Agent",
+      "url": "https://arxiv.org/abs/2512.21309",
+      "source": {
+        "platform": "arxiv",
+        "author": "Guopeng Li, Ruiqi Wu, Haisheng Tan",
+        "original_date": "2025-12-24"
+      },
+      "category": "agents",
+      "tags": [
+        "plan-reuse",
+        "llm-agents",
+        "latency-optimization",
+        "personal-assistant",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM 驱动的个人助手生成计划的延迟可达数十秒，真实数据分析显示约 30% 的请求与历史请求相同或相似，存在复用空间论文提出计划复用机制，缓存并复用已生成计划以降低交互延迟收录理由：面向消费级 agent 的延迟优化路线，与 KV cache/记忆方向互补",
+      "summary_en": "LLM-driven assistants can take tens of seconds to generate a plan, degrading user experience. Real-world dataset analysis shows about 30% of requests are identical or similar to prior ones, enabling plan reuse: the paper proposes a mechanism that reuses previously generated plans to cut interaction latency in LLM-driven agents.",
+      "one_liner": "LLM 驱动的个人助手生成计划的延迟可达数十秒，真实数据分析显示约 30% 的请求与历史请求相同或相似，存在复用空间论文提出计划复用机制，缓存并复用已生成计划以降低交互延迟收录理由：面向消费级 agent 的延迟优化路线，与 KV cache/记忆方向互补",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/97fc809c.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0eca8580",
+      "title": "Mapping Human Anti-collusion Mechanisms to Multi-agent AI Systems",
+      "url": "https://arxiv.org/abs/2601.00360",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jamiu Idowu, Ahmed Almasoud, Ayman Alfahid",
+        "original_date": "2026-01-01"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent-systems",
+        "collusion",
+        "governance",
+        "safety",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "多智能体 AI 系统已表现出类似人类市场的合谋策略论文建立人类反合谋机制分类法（制裁宽恕与吹哨监控与审计市场设计治理），并逐一映射为多智能体 AI 系统的可行干预方案，同时指出归因等开放挑战收录理由：把制度设计工具箱引入 MAS 治理的跨学科视角，agent 安全治理方向的系统化参考",
+      "summary_en": "As multi-agent AI systems grow more autonomous, evidence shows they can develop collusive strategies like those in human markets. The paper builds a taxonomy of human anti-collusion mechanisms (sanctions, leniency and whistleblowing, monitoring and auditing, market design, governance) and maps each to potential interventions for multi-agent AI systems, highlighting open challenges such as attribution.",
+      "one_liner": "多智能体 AI 系统已表现出类似人类市场的合谋策略论文建立人类反合谋机制分类法（制裁宽恕与吹哨监控与审计市场设计治理），并逐一映射为多智能体 AI 系统的可行干预方案，同时指出归因等开放挑战收录理由：把制度设计工具箱引入 MAS 治理的跨学科视角...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0eca8580.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-14",
-  "total_entries": 1806
+  "last_updated": "2026-08-15",
+  "total_entries": 1815
 }
