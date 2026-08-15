@@ -51767,8 +51767,195 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "15e161b5",
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic",
+        "original_date": "2026-08-07"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "anthropic",
+        "auto-mode",
+        "permission",
+        "classifier",
+        "human-oversight"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anthropic 官宣自 2026-08-14 起 Pro/Max/Team 新会话默认运行 auto mode：每个 tool call 先过分类器，拦截不可逆/破坏性/环境外动作，连续 3 次或单会话 20 次被拦后回落人工审批；Enterprise/API 暂 opt-in核心数据：用户批准率 97%；1053 人对照实验中人工只拦 13.6% 危险命令auto mode 拦 89%；长会话人工拦截率 17%5%，auto mode 持平；生产级危害 6.3% vs 2.4%Trajectory Labs 720 次注入攻击 Claude 全系 0 成功，Codex Auto-review 5.83% 被打穿技术上 auto mode bypassPermissions，宽到可任意执行的 allow-rule 会被暂时搁置收录理由：厂商侧坐实人审疲劳并把默认行为改为分类器门的标志事件，与 Docker Sandboxes 构成同周默认隔离 vs 人点 Yes两条腿",
+      "summary_en": "Anthropic makes auto mode the default for Claude Code Pro/Max/Team from 2026-08-14: every tool call routes through a classifier blocking irreversible, destructive, or outside-environment actions, falling back to manual approval after 3 consecutive or 20 session blocks. Users approve 97% of prompts; in a 1,053-tester study humans caught 13.6% of dangerous commands vs 89% for auto mode, with human performance dropping 17%->5% over long sessions. Trajectory Labs saw 0/720 injection attacks succeed against Claude models in auto mode vs 5.83% for Codex Auto-review. Auto mode != bypassPermissions: arbitrary-execution allow rules are set aside.",
+      "one_liner": "当 97% 的权限弹窗被无脑批准时，Anthropic 用 1053 人实验证明分类器拦截 89% 危险命令优于人工的 13.6%，并把 auto mode 变成默认",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/15e161b5.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "18b0dbee",
+        "907c7a4b",
+        "4a884a6a",
+        "d7596052"
+      ]
+    },
+    {
+      "id": "4a884a6a",
+      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40,000 plays",
+      "url": "https://scalex.dev/blog/ai-agent-permissions-stats",
+      "source": {
+        "platform": "blog",
+        "author": "Alex Wauters (Scalex)",
+        "original_date": "2026-08-05"
+      },
+      "category": "agents",
+      "tags": [
+        "human-in-the-loop",
+        "permission",
+        "approval-fatigue",
+        "security-game",
+        "scalex"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Scalex 把给 AI agent 审批命令做成带时间压力的浏览器游戏，累计 40000+ 局409000 次决策：玩家平均漏掉 1/3 威胁（准确率 66.3%），32.9% 的局负分，7% 全部放行漏报率分层清晰：显性破坏命令 11.7% 最低，外传/代码执行 33.4%越权读凭证 35.0% 最高最危险的命令最常被放过全游戏漏报最高的单条命令是 npm run analyze：64.7% 放行，因 package.json script 可能已被早前修改注入外传逻辑与 Anthropic 官方 97% 批准率同方向独立来源，量化了人审疲劳：逐条人审当最后防线的假设不成立，边界应放在默认隔离/策略层",
+      "summary_en": "Scalex turned approving AI-agent commands into a time-pressured browser game with 40,000+ runs and 409,000 decisions: players missed 1 in 3 threats on average (66.3% accuracy), 32.9% of sessions scored negative, 7% approved everything. Miss rates stratify cleanly: obviously destructive commands 11.7%, exfiltration 33.4%, scope violations like cat ~/.aws/credentials 35.0% - the most dangerous commands slip through most. The single most-missed command is npm run analyze (64.7% approved), a package.json script injection blind spot.",
+      "one_liner": "40000 局审批游戏证据：人平均漏掉 1/3 威胁，且越危险的命令漏报越多，npm run 盲区 64.7% 放行",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4a884a6a.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "15e161b5",
+        "d7596052"
+      ]
+    },
+    {
+      "id": "b47c3bae",
+      "title": "A new security baseline for enterprise agentic adoption",
+      "url": "https://www.docker.com/blog/a-new-security-baseline-for-enterprise-agentic-adoption",
+      "source": {
+        "platform": "blog",
+        "author": "Eli Aleyner, Ranti Familusi (Docker)",
+        "original_date": "2026-08-12"
+      },
+      "category": "infra",
+      "tags": [
+        "agent-baseline",
+        "docker",
+        "snyk",
+        "keycard",
+        "enterprise-security",
+        "blueprint",
+        "blackhat"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Docker 联合 SnykKeycard 发布 Agent Baseline v1.0-draft（2026-07-30 草案，Black Hat USA 2026 发布）：定义企业 agent 部署最低安全结果的开放蓝图核心判断：问题不在模型能否识别恶意指令，而在模型周边系统是否限制 agent 可达范围可用权限判断错误时能采取的动作三问框架：什么在运行并能做什么/是否在批准边界内/出事能否证明并止损六结果 + 35 控制：DiscoverConstrainAuthorizeObserveValidateRespond个人最小集Constrain+授权短时 scope+Observe收录理由：企业上 agent 的可映射安全清单蓝图，与同周 auto mode 默认/Docker Sandboxes 构成产品内 gate本机 microVM企业蓝图三层叙事",
+      "summary_en": "Docker with Snyk and Keycard released Agent Baseline v1.0-draft (July 30 draft, launched at Black Hat USA 2026): an open blueprint defining minimum security outcomes for enterprise agent deployments. The core claim: the problem is not whether a model recognizes malicious instructions but whether surrounding systems limit agent reach, authority, and actions when the model gets it wrong. Six outcomes with 35 controls: Discover, Constrain, Authorize, Observe, Validate, Respond.",
+      "one_liner": "Docker+Snyk+Keycard 的企业 agent 安全蓝图：六结果 35 控制，安全边界放在模型周边系统而非模型本身",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b47c3bae.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "d7596052",
+        "15e161b5",
+        "3bb5b3b2"
+      ]
+    },
+    {
+      "id": "3bb5b3b2",
+      "title": "OpenSandbox: Secure, Fast, and Extensible Sandbox runtime for AI agents",
+      "url": "https://github.com/opensandbox-group/OpenSandbox",
+      "source": {
+        "platform": "github",
+        "author": "opensandbox-group",
+        "original_date": "2026-08-15"
+      },
+      "category": "infra",
+      "tags": [
+        "opensandbox",
+        "sandbox",
+        "microvm",
+        "gvisor",
+        "kata",
+        "firecracker",
+        "credential-vault",
+        "mcp"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "OpenSandbox（opensandbox-group，Apache-2.0，stars 快照约 13209）是可自托管的通用 AI agent sandbox 平台：多语言 SDK + osb CLI + MCP 接入，运行时跑 Docker 与 Kubernetes，强隔离可选 gVisor/Kata/Firecracker microVM安全面两个关键设计：Sandbox Protocol 统一协议面；ingress + per-sandbox egress 网络控制；Credential Vault 把真密钥留在 vault 内出站调用不把凭证暴露给 workload场景覆盖 Coding AgentsGUI AgentsEval代码执行与 RL与 Docker Sandboxes 是不同产品：Docker 是开发者本机 microVM + sbx 体验，OpenSandbox 是可自托管平台/协议层收录理由：默认隔离路线里开源可自托管的一极，适合作为 Agent Baseline 中 Constrain/Authorize/Observe 的参考实现",
+      "summary_en": "OpenSandbox (opensandbox-group, Apache-2.0, ~13,209 stars snapshot) is a self-hostable general sandbox platform for AI agents: multi-language SDK, osb CLI, and MCP access, running on Docker and Kubernetes with optional gVisor/Kata/Firecracker microVM strong isolation. Security design includes the Sandbox Protocol, ingress plus per-sandbox egress controls, and a Credential Vault that keeps real secrets away from workloads. Scenarios cover coding agents, GUI agents, eval, code execution, and RL.",
+      "one_liner": "开源可自托管的 agent sandbox 平台：K8s 调度 + gVisor/Kata/Firecracker 分级隔离 + Credential Vault 不把真密钥给 workload",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3bb5b3b2.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": 13209,
+      "related": [
+        "d7596052",
+        "b47c3bae",
+        "5c0a9ebf"
+      ]
+    },
+    {
+      "id": "564cb90c",
+      "title": "dots3-note-prev: 280B MoE 多模态长上下文 agent 底座（Apache-2.0）",
+      "url": "https://huggingface.co/dots-studio/dots3-note-prev",
+      "source": {
+        "platform": "blog",
+        "author": "dots-studio",
+        "original_date": "2026-08-15"
+      },
+      "category": "models",
+      "tags": [
+        "dots3-note",
+        "moe",
+        "multimodal",
+        "long-context",
+        "512k",
+        "apache-2",
+        "open-weights",
+        "agent"
+      ],
+      "source_type": "product",
+      "language": "both",
+      "summary_zh": "dots-studio 开源 dots3-note-prev（Apache-2.0，gated=false）：280B 总参 / 16B 激活多模态 MoE，上下文 512K，输入 text/image/video/audio输出 text架构：256 routed + 1 shared 专家top-8；1 dense + 45 MoE 层；视觉 MoE ViT 7B/1.2B active，音频 800M；BF16/FP8官方任务列表明确写工具使用与多步 agent需要探索/记忆更新/适应的交互任务部署建议单机 8 GPU FP8 + SGLang/vLLM；OpenRouter 有 free 端点；chat template 含 enable_thinking 开关注意：X 主帖宣传的 TEMPO 与 Vibe*Bench 未在 README 正文坐实，属 social_announcement 层收录理由：开源权重里少见的长上下文+多模态+agent 任务声明组合，成本按 active 16B 估算，与 Qwen3.8-27B dense 单卡路线并行不互相淘汰",
+      "summary_en": "dots-studio open-sources dots3-note-prev (Apache-2.0, ungated): a 280B-total / 16B-active multimodal MoE with 512K context, taking text/image/video/audio input. Architecture: 256 routed + 1 shared experts with top-8 routing, 1 dense + 45 MoE layers, MoE ViT 7B total / 1.2B active, 800M audio. The official task list explicitly covers tool use and multi-step agents plus interactive tasks requiring exploration, memory updates, and adaptation. Recommended serving is single-node 8-GPU FP8 with SGLang/vLLM; an OpenRouter free endpoint exists. Note: TEMPO and Vibe*Bench claims from the X announcement are not substantiated in the README itself.",
+      "one_liner": "280B MoE/16B active/512K 上下文的开源多模态 agent 底座：工程字段已坐实，TEMPO 方法论还停在 X 宣布层",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/564cb90c.md",
+      "images": [],
+      "added_date": "2026-08-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "afb6d0b8"
+      ]
     }
   ],
   "last_updated": "2026-08-15",
-  "total_entries": 1815
+  "total_entries": 1820
 }
