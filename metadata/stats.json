@@ -44,7 +44,7 @@
     "product": 11,
     "newsletter": 2
   },
-  "last_updated": "2026-08-15 23:50",
+  "last_updated": "2026-08-16 04:42",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }
