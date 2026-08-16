@@ -51954,8 +51954,169 @@
       "related": [
         "afb6d0b8"
       ]
+    },
+    {
+      "id": "d397238e",
+      "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "url": "https://arxiv.org/abs/2608.13558",
+      "source": {
+        "platform": "arxiv",
+        "author": "Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu",
+        "original_date": "2026-08-13"
+      },
+      "category": "agents",
+      "tags": [
+        "ai-scientist",
+        "agent",
+        "multimodal",
+        "research-automation",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "端到端全模态AI科学家系统：感知层加选题实验写作三个自主agent运行在确定性流水线上，直接处理图像信号音频视频3D结构轨迹表格公式等异构原始证据，而不是预计算摘要系统在代码中执行新颖性筛查统计有效性执行溯源与数值可追溯检查；36个真实数据案例（5个学科族）全部走通从原始数据到编译成稿的完整闭环，论文平均分6.3；与只接收预计算标量特征的盲测变体对比，直接感知在全部7个评测维度上占优头对头评审胜率85%核心论点：工作流覆盖不等于证据可及，全生命周期感知才是证据接地的关键",
+      "summary_en": "An end-to-end omni-modal AI scientist that runs perception plus ideation/experiment/writeup agents in a deterministic pipeline directly over heterogeneous raw evidence (images, signals, audio, video, 3D structures, trajectories, tables, formulae, graphs). It completes raw-data-to-manuscript in all 36 real-data cases across 5 discipline families with mean paper score 6.3, and direct perception beats a blind precomputed-feature variant on all 7 evaluation dimensions, winning 85% of head-to-head judgments. Claims lifecycle-wide perception is essential for evidence-grounded scientific discovery.",
+      "one_liner": "端到端全模态AI科学家系统：感知层加选题实验写作三个自主agent运行在确定性流水线上，直接处理图像信号音频视频3D结构轨迹表格公式等异构原始证据，而不是预计算摘要系统在代码中执行新颖性筛查统计有效性执行溯源与数值可追溯检查...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d397238e.md",
+      "images": [],
+      "added_date": "2026-08-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "66153d7c",
+      "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
+      "url": "https://arxiv.org/abs/2608.13522",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhe Ye, Hantao Lou, Yuechun Sun, Peiyang Song, et al.",
+        "original_date": "2026-08-13"
+      },
+      "category": "coding",
+      "tags": [
+        "verified-code",
+        "lean",
+        "benchmark",
+        "coding-agent",
+        "formal-methods"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "首个在仓库级别评测实现与机器检查证明联合合成的基准：43个多模块实例取自PythonDafnyVerusCoq真实仓库并统一为带预定API接口与人工整理形式规格的Lean 4仓库，覆盖密码协议到分布式系统；支持纯证明与代码加证明两种模式，并引入审计机制允许agent形式化证明规格不可满足或参考实现有错结果：带Lean工具链的最强前沿coding-agent配置仅完全解出43例中的27例，在最难仓库上没有闭合任何规格仓库级验证式软件合成仍是当前agent的明显短板基准整理流水线与评测harness已开源",
+      "summary_en": "Vero is the first benchmark for joint implementation and proof synthesis at the repository level: 43 multi-module Lean 4 instances sourced from real-world Python/Dafny/Verus/Coq repositories, spanning cryptographic protocols to distributed systems, with an audit mechanism that lets agents formally prove specification unsatisfiability. The strongest frontier coding-agent configuration with Lean toolchain access fully solves only 27 of 43 instances and closes no specifications on the hardest repositories, showing agents still fall short at repository-scale verified software synthesis.",
+      "one_liner": "首个在仓库级别评测实现与机器检查证明联合合成的基准：43个多模块实例取自PythonDafnyVerusCoq真实仓库并统一为带预定API接口与人工整理形式规格的Lean 4仓库，覆盖密码协议到分布式系统.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/66153d7c.md",
+      "images": [],
+      "added_date": "2026-08-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e1fcd533",
+      "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
+      "url": "https://arxiv.org/abs/2608.13547",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shangao Li, Yao Zhang, Volker Tresp, Yuanyuan Yang",
+        "original_date": "2026-08-13"
+      },
+      "category": "coding",
+      "tags": [
+        "eval",
+        "coding-agent",
+        "benchmark",
+        "reliability",
+        "bash"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM编码agent发出的Bash命令要经过序列化包装重解析的接口传输层，matched执行分数本身无法区分命令生成错误与生成之后才引入的失败QuoteBench用56个一次性任务14个事故衍生家族，在精确最终态校验下交叉生成契约与执行传输：同一回复仅经过一个额外加压解析器重放，成功率即下降55.4到73.2个百分点；披露边界后6种配置恢复30.4到60.7点，另外两种为零或微负结论：前沿模型的原始生成已接近饱和，边界适配才是真正分水岭；GPT-5.6-sol的-3.6点matched差距实际掩盖了-64.3点损伤与+60.7点补偿评测命令型agent应报告模型配置生成契约执行路径与最终态校验器，而非把matched分当作模型内禀属性",
+      "summary_en": "LLM coding agents issue Bash commands through interfaces that serialize, wrap, and reparse output, so matched execution scores cannot distinguish command-generation errors from post-generation failures. Across 56 one-shot tasks from 14 incident-derived families with exact final-state validation, replaying the same reply through one added parser lowers success by 55.4-73.2 points; boundary disclosure recovers 30.4-60.7 points for six configurations and zero or negative for two. Raw generation is nearly saturated at the frontier; boundary adaptation separates models, so evaluations should report generation contract, execution path, and final-state validator rather than treat matched scores as intrinsic.",
+      "one_liner": "LLM编码agent发出的Bash命令要经过序列化包装重解析的接口传输层，matched执行分数本身无法区分命令生成错误与生成之后才引入的失败QuoteBench用56个一次性任务14个事故衍生家族，在精确最终态校验下交叉生成契约与执行传输：同一回复仅经过一个额外加压解析器重放...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e1fcd533.md",
+      "images": [],
+      "added_date": "2026-08-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d354fc17",
+      "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+      "url": "https://arxiv.org/abs/2608.13560",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yaxin Luo, Haobin Jiang, Jialv Zou, et al.",
+        "original_date": "2026-08-13"
+      },
+      "category": "agents",
+      "tags": [
+        "meta-harness",
+        "agent-design",
+        "self-improvement",
+        "multimodal",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "把多模态源到结构化产出的任务建模为围绕model-harness系统的长程agentic过程：meta-harness优化器引导代码agent基于rollout反馈递归改进harness，使其对齐人类设计先验并积累可复用经验在论文转海报任务上构建PosterBench（100篇论文主赛道加10篇受控子集）：AutoDesign拿到78.32分，超闭源商业系统Claude Design 7.45分；在7种受控代码agent模型配置下，学到的DesignHarness把平均分从54.99提升到67.39（+12.4%）；全自主长程循环执行253次工具调用11轮编辑，40分钟内成本低于3美元达到人类评审的会议海报平均质量，系统盲测人类偏好排名第一",
+      "summary_en": "AutoDesign frames multimodal-to-structured-output tasks as long-horizon agentic processes around a model-harness system, where a meta-harness optimizer guides a code agent to recursively improve the harness from rollout feedback. On paper-to-poster generation it introduces PosterBench (100-paper Main Track): AutoDesign scores 78.32, beating Claude Design by 7.45 points; across seven controlled configurations the learned DesignHarness lifts the average score from 54.99 to 67.39 (+12.4%); a fully autonomous loop runs 253 tool calls and 11 editing turns in 40 minutes for under $3, reaching average conference-poster quality in human evaluation.",
+      "one_liner": "把多模态源到结构化产出的任务建模为围绕model-harness系统的长程agentic过程：meta-harness优化器引导代码agent基于rollout反馈递归改进harness...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d354fc17.md",
+      "images": [],
+      "added_date": "2026-08-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e7607846",
+      "title": "Auto-research with Codex: How I achieved a 232x Faster Kernel over baseline",
+      "url": "https://sankalp.bearblog.dev/autoresearch",
+      "source": {
+        "platform": "blog",
+        "author": "Sankalp",
+        "original_date": "2026-07-08"
+      },
+      "category": "coding",
+      "tags": [
+        "auto-research",
+        "codex",
+        "cuda",
+        "kernel",
+        "gpu",
+        "practitioner"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "GPU Mode自动研究主题赛事实战复盘：作者用Codex在批量紧凑Householder QR分解CUDA内核上取得对基线232倍加速，183名参赛者中排第12方法论核心是先学到能提出更好的问题先补齐QR分解与Householder反射的数学理解用blocked Householder算法压缩串行部分，再进入Codex-maxxing迭代推进内核；卡在局部最优时主动引入idea多样性逃逸文章给出完整的提问-迭代循环突破点记录与事后复盘的改进清单，是auto-research（作者也称loop engineering）方向少见的第一手工程实录",
+      "summary_en": "A practitioner retrospective on GPU Mode's auto-research contest: using Codex to build a batched compact-Householder QR factorization CUDA kernel reaching 232x speedup over baseline, placing 12th of 183. The core method is learning enough to ask better questions first (QR/Householder math, blocked algorithm to shrink serial work), then Codex-maxxing kernel iterations, and introducing idea diversity to escape local maxima. Includes the full question-iteration loop, breakthrough notes, and a what-I-could-have-done-better list.",
+      "one_liner": "GPU Mode自动研究主题赛事实战复盘：作者用Codex在批量紧凑Householder QR分解CUDA内核上取得对基线232倍加速...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e7607846.md",
+      "images": [],
+      "added_date": "2026-08-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-15",
-  "total_entries": 1820
+  "last_updated": "2026-08-16",
+  "total_entries": 1825
 }
