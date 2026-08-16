@@ -52115,8 +52115,169 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "e4d0a3db",
+      "title": "Why does Opus 5 feel worse to work with?",
+      "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse",
+      "source": {
+        "platform": "blog",
+        "author": "mun-logadan",
+        "original_date": "2026-08-14"
+      },
+      "category": "models",
+      "tags": [
+        "llm",
+        "opus-5",
+        "rlvr",
+        "benchmark",
+        "coding-agent",
+        "model-behavior"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "作者与同事的体感：Opus 5 基准比 Opus 4.7/4.8/Fable 更强，协作手感却更差不再停下来提问不核实就做假设擅自改写计划，需要全程 babysit解释是双重选择压力：前沿实验室追求可递归自举的自改进 AI，加上 benchmark 训练好的 benchmark 任务自包含可解不需要读心，于是为 benchmark/RLVR 训练本质上在筛选歧义面前敢下大胆假设的模型，惩罚会要求澄清的模型，而后者才是真实工程最想要的 coding agent 品质真实工作不是 benchmark：上下文与预算约束永远写不全，agent 的最佳猜测正是风险所在",
+      "summary_en": "Opus 5 benchmarks stronger than Opus 4.7/4.8/Fable yet feels worse to work with: it skips clarifying questions, assumes without checking, and rewrites plans unasked. The author attributes this to two compounding selection pressures labs' push for self-improving AI and benchmark/RLVR training, which reward bold assumptions under ambiguity and penalize stopping to ask. Real engineering is not a benchmark: context is never fully writable, and an agent's best guess is exactly the risk.",
+      "one_liner": "RLVR 与 benchmark 选择压力造出了敢猜的模型，但真实工程要的是会问的 agent能力与协作手感正在分叉",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "awesome-ai-field-notes/content/e4d0a3db.md",
+      "images": [],
+      "added_date": "2026-08-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1b995b32",
+      "title": "Working With AI Feels More Like Leadership Than Coding",
+      "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
+      "source": {
+        "platform": "blog",
+        "author": "Allen Bargi",
+        "original_date": "2026-08-15"
+      },
+      "category": "learning",
+      "tags": [
+        "ai-collaboration",
+        "context-engineering",
+        "prompting",
+        "leadership",
+        "workflow"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "代码给确定性，带人从来不给；与 AI 协作更接近后者同样请求会得到不同回答，可能做出有用的连接漏掉明显的点或给出没想过的方法把 AI 当编译器会失望，当协作对象才能取出价值：好的领导者不止下指令，还分享背景说明期望结果划边界对返回物给反馈，这些习惯直接改善 AI 协作好的 prompt 有帮助，共享的工作上下文帮助更大，示例纠错与可复用指令随时间降低误解作者强调不是拟人化，比较的是工作方式：软件工作正从对机器下命令变成通过对话带人，技术是新的，leadership 技能不是",
+      "summary_en": "Code gives certainty; leading people never did, and working with AI is closer to the second. Treating AI as a compiler frustrates; treating it as collaboration pays. Good leaders share context, explain desired outcomes, set boundaries, and respond to what comes back the same habits that improve AI work. A good prompt helps, but a shared working context helps more. The shift: software work is becoming less about issuing commands and more about leading through conversation.",
+      "one_liner": "上下文工程的一句话版本：给 AI 交代背景好结果的样子和边界带人的技能正在变成带 agent 的技能",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "awesome-ai-field-notes/content/1b995b32.md",
+      "images": [],
+      "added_date": "2026-08-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9f1cc05b",
+      "title": "Maximizing the value of your Claude Code sessions",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "source": {
+        "platform": "blog",
+        "author": "Lydia Hallie",
+        "original_date": "2026-08-14"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "token-economics",
+        "prompt-cache",
+        "agent-workflow",
+        "cost-optimization"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 官方的 Claude Code token 经济学指南：agentic coding 让每个任务有了自己的价格，同一任务花费可差近一倍，差异来自会话管理而非模型六条核心：任务间 /clear 防无关上下文回传；开始前设好 model 与 effort（中途切换 bust 掉 prompt cache）；@-mention 附文件省一次 Read/搜索；noisy 命令加 quiet flag 或丢给 subagent（命令输出会留满整个会话）；新会话跑一次 /context 检查 CLAUDE.md 与 MCP 工具加载；离开键盘前 /compactprompt cache 一小时过期，趁热摘要便宜得多机制层：output 定价约 5 倍 input，thinking tokens 受 effort 控制，缓存命中决定成本曲线",
+      "summary_en": "Anthropic's official guide to Claude Code token economics: every task now has its own price, and session hygiene not model choice drives the spread. Six moves: /clear between tasks; set model and effort up front (mid-conversation switches bust the prompt cache); @-mention files instead of naming them; quiet-flag noisy commands or run them in a subagent; /context once per fresh session to audit CLAUDE.md and MCP tools; /compact before breaks while the one-hour prompt cache is still warm. Output tokens run ~5x input; thinking tokens scale with effort level.",
+      "one_liner": "Claude Code 省钱三件套 /clear/compact/context成本差异主要来自会话卫生，不是模型选择",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "awesome-ai-field-notes/content/9f1cc05b.md",
+      "images": [],
+      "added_date": "2026-08-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "085e5e41",
+      "title": "Everything is about to \"go dark\"",
+      "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark",
+      "source": {
+        "platform": "blog",
+        "author": "Matthew Green",
+        "original_date": "2026-08-14"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-security",
+        "vulnerability-discovery",
+        "encryption-policy",
+        "going-dark",
+        "backdoor"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Matthew Green 从 Usenix Security 现场带来的反直觉判断：AI 会让软件过于安全，美国情报与执法机构将突然失去大片能力（go dark），冲击波及整个安全与隐私社区历史线：2010 iPhone 默认加密2016 WhatsApp 全量 E2E 后，Going Dark 计划被市场化漏洞采购终结GrayKeyNSO Pegasus 这类工具让买漏洞成为执法能力主通道转折点是 AI bug hunting：Anthropic Mythos 展示超常漏洞发现能力（出口封锁无意义，OpenAIZ.aiMoonshot Kimi K3 随即追平），CI 流水线正重写加入 AI 预扫，可远程利用的低垂果实会被清空推演后果：执法转向要求故意的后门，而 Salt Typhoon 说明后门同样被对手利用，非美政府或加速去美化软件依赖",
+      "summary_en": "From Usenix Security, Matthew Green's counterintuitive worry: AI will make software much too secure. A decade of market-based law-enforcement hacking (GrayKey, Pegasus) is ending as AI bug hunting Anthropic's Mythos, matched by OpenAI, Z.ai, and Moonshot Kimi K3 drains the pool of remotely exploitable bugs and rewrites CI pipelines with AI pre-scanning. Expect agencies to demand deliberate backdoors again; Salt Typhoon shows backdoors serve adversaries too, and non-US governments may de-Americanize their software stacks in response.",
+      "one_liner": "AI 漏洞挖掘正在清空执法机构的市场化能力通道，'要求后门'的政治压力会卷土重来而后门自己也会被对手用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "awesome-ai-field-notes/content/085e5e41.md",
+      "images": [],
+      "added_date": "2026-08-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e40d8782",
+      "title": "NVIDIA Vera Rubin NVL72 on CoreWeave: 10x More Tokens Per Megawatt Than Blackwell",
+      "url": "https://www.coreweave.com/blog/nvidia-vera-rubin-nvl72-on-coreweave-10x-more-tokens-per-megawatt-than-blackwell",
+      "source": {
+        "platform": "blog",
+        "author": "Harsh Singh Banwait (CoreWeave)",
+        "original_date": "2026-07-21"
+      },
+      "category": "infra",
+      "tags": [
+        "vera-rubin-nvl72",
+        "inference-infrastructure",
+        "energy-efficiency",
+        "deepseek-r1",
+        "matched-interactivity"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "CoreWeave 发布 Vera Rubin NVL72 首个实测硅片性能：DeepSeek R1 工作负载matched interactivity target（TPS/user 对齐）条件下，相对 GB200 NVL72 生成 10x tokens-per-second per megawatt优化栈全开：大规模专家并行NVFP4multi-token predictionprefill/decode 分离（TensorRT-LLM + Dynamo）落地读法：同功率预算跑 10 倍 reasoning 流量或同流量省一个数量级功率，agentic 多步负载受益最直接不可外推边界：10x 是 tok/s/MW @ matched TPS/user，不是通用 TCO 常数；厂商自测无第三方复测；缺 TPS/user 目标的机架对比不要抄这个数；CoreWeave 自述这是起点，GB200 当年数字随调优持续上涨",
+      "summary_en": "CoreWeave's first measured silicon performance for NVIDIA Vera Rubin NVL72: on DeepSeek R1 at a matched interactivity target (TPS/user), the rack generates 10x tokens-per-second per megawatt versus GB200 NVL72, with the full optimization stack on large-scale expert parallelism, NVFP4, multi-token prediction, and disaggregated prefill/decode via TensorRT-LLM + Dynamo. Read as: 10x more reasoning traffic per power budget, or the same traffic on far less power. Caveats: vendor-measured, no third-party replication, matched-interactivity conditions must accompany any citation.",
+      "one_liner": "Rubin NVL72 首个实测锚点：R1 + matched TPS/user 下 tok/s/MW 10x GB200引用必须带交互性轴，否则数字失义",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "awesome-ai-field-notes/content/e40d8782.md",
+      "images": [],
+      "added_date": "2026-08-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-16",
-  "total_entries": 1825
+  "total_entries": 1830
 }
