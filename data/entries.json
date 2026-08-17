@@ -53761,8 +53761,680 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "81603460",
+      "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-08-16"
+      },
+      "category": "models",
+      "tags": [
+        "qwen",
+        "local-llm",
+        "reasoning-effort",
+        "benchmark",
+        "vision",
+        "quantization"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Qwen 3.8 27B（Apache 2支持视觉）首发实测：在 128GB M5 Max 与 DGX Spark 上跑 LM Studio 17GB Q4_K_M 量化版默认 reasoning_effort=xhigh 对简单请求严重过度思考画一张鹈鹕骑自行车 SVG 烧掉 21 分钟22,276 个推理 token 才换来 3,223 token 输出；调低或关闭推理后质量仍在水准线上，SVG 反而更早可用0-1000 坐标尺度的 bounding box 标注比前几代明显收敛作者结论：这是他本地跑过最能干活的模型",
+      "summary_en": "First-hand review of Qwen 3.8 27B (Apache 2, vision-capable) on a 128GB M5 Max and DGX Spark using LM Studio's 17GB Q4_K_M build. The default reasoning_effort=xhigh is badly tuned for simple prompts: a pelican-on-a-bicycle SVG took 21 minutes and 22,276 reasoning tokens for 3,223 tokens of output. Turning reasoning down or off keeps quality above par and yields a usable SVG earlier; bounding-box annotation on a 0-1000 coordinate scale is notably more stable than previous generations. The author calls it the best model he has run locally for real work.",
+      "one_liner": "27B 本地模型的首发权威评测：默认 xhigh 推理严重过度思考，关掉后仍是当前最实用的本地模型之一",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/81603460.md",
+      "images": [
+        "https://static.simonwillison.net/static/2026/qwen-thinking-bicycle-27b.jpg",
+        "https://static.simonwillison.net/static/2026/qwen-3.8-27b-no-reasoning-pelican-2.png",
+        "https://static.simonwillison.net/static/2026/qwen-over-engineered-bbox.webp"
+      ],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0f2dda7c",
+      "title": "Anthropics Watermark Text Adulteration in Claude Is a Perversion of Writing",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "source": {
+        "platform": "blog",
+        "author": "John Gruber",
+        "original_date": "2026-08-16"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "watermark",
+        "eu-ai-act",
+        "regulation",
+        "claude",
+        "writing"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Gruber 对 Anthropic 为符合 EU AI Act 50(2) 而在全量 Claude 文本嵌入水印的逐层反驳：机制是 token 采样按 green/red list 加偏事后可用密钥识别，但这不是不可感知的隐写它会改变词选择；法规只要求 provider 端标记，把范围拉到模型级全量是 Anthropic 自己的选择；有动机的作弊者重写一遍即可绕过，先被怀疑的反而是无辜的辅助写作用户EU 条款的宽立法与厂商的宽执行叠加，代价由写作者承担",
+      "summary_en": "Gruber's rebuttal of Anthropic's decision to watermark all Claude text worldwide under EU AI Act Article 50(2). The mechanism biases token sampling via green/red lists and is verifiable later with a secret key but it is not imperceptible steganography: it changes word choice. The regulation only requires provider-side marking; Anthropic chose the widest scope on its own. Motivated users defeat detection by rewriting, while innocent assisted-writing users get suspected first.",
+      "one_liner": "水印反对派的最完整论述：牺牲表达质量换可识别性，且合规范围远超法律底线",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0f2dda7c.md",
+      "images": [
+        "https://daringfireball.net/misc/2026/08/tropical-fruit-airplane.jpeg"
+      ],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "e0b3d633",
+        "c643a5e6"
+      ]
+    },
+    {
+      "id": "e0b3d633",
+      "title": "Anthropics weak watermarks appease a weak law",
+      "url": "https://blog.j11y.io/2026-08-12_Anthropics-weak-watermarks-appease-a-weak-law",
+      "source": {
+        "platform": "blog",
+        "author": "James Padolsey",
+        "original_date": "2026-08-12"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "watermark",
+        "eu-ai-act",
+        "declaude",
+        "regulation",
+        "synthid"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Padolsey 用交互式 essay 拆穿语义水印机制，并发布 Declaude把 AI 文本重写到水印检测不出来他的核心读法：EU AI Act 50(2) 对辅助性标准编辑的豁免本意是收窄范围，Anthropic 却选了模型级一刀切，比法律底线更宽弱水印两头不讨好：会冤枉依赖 AI 辅助写作的残障与神经多样性用户，又挡不住有动机的充分重写他还观察到 Claude 谈自家水印时明显比谈别家更谨慎",
+      "summary_en": "Padolsey builds an interactive essay explaining semantic watermarking and ships Declaude, a tool that rewrites AI text until the watermark is undetectable. He reads EU AI Act 50(2)'s exemption for ancillary editing as narrowing scope, while Anthropic implemented model-level watermarking broader than the legal floor. Weak watermarks wrong normal users (including disabled and neurodivergent people who rely on AI-assisted writing) and fail against motivated rewriters; he also notes Claude answers questions about Anthropic's own watermarking more guardedly than competitors'.",
+      "one_liner": "水印技术最强的反向科普：附 Declaude 重写工具，证明弱水印既冤枉好人又防不住作弊者",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e0b3d633.md",
+      "images": [
+        "https://blog.j11y.io/post_imgs/anthropic-watermarks/declaude3.png"
+      ],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "0f2dda7c",
+        "c643a5e6"
+      ]
+    },
+    {
+      "id": "c643a5e6",
+      "title": "AI text watermarking is not a big deal",
+      "url": "https://seangoedecke.com/ai-text-watermarking-is-not-a-big-deal",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-08-16"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "watermark",
+        "synthid",
+        "textseal",
+        "sampling",
+        "regulation"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "反方工程师视角：SynthID-Text 与 TextSeal 只是把采样用的伪随机源换成可用密钥复现的伪随机源，输出分布不变无水印模型 80% 选 overcast20% 选 grey，水印模型保持同比例所以水印文本不更差实际上也不会显著更易被识别，且所有厂商 2027 年前都会跟进能通过水印检测器的内容本来就会被 Pangram 这类分类器抓住，水印并没有出卖诚实用户",
+      "summary_en": "The contrarian engineering take: SynthID-Text and TextSeal only replace the pseudo-random logit sampler with a key-reproducible one, so output distributions are unchanged if an unwatermarked model picks overcast 80% and grey 20%, the watermarked model keeps the same ratio. Watermarked text is not lower quality, not meaningfully more detectable in practice, and every vendor will do it by 2027. Content that would pass a watermark detector would already be flagged by classifiers like Pangram.",
+      "one_liner": "水印恐慌的工程拆解：采样分布不变输出质量无可测差异，2027 年前人人都会做",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c643a5e6.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "e0b3d633",
+        "0f2dda7c"
+      ]
+    },
+    {
+      "id": "2057fe55",
+      "title": "How I think about reducing AI costs",
+      "url": "https://martinalderson.com/posts/how-i-think-about-reducing-ai-costs",
+      "source": {
+        "platform": "blog",
+        "author": "Martin Alderson",
+        "original_date": "2026-08-16"
+      },
+      "category": "infra",
+      "tags": [
+        "ai-costs",
+        "inference",
+        "mcp",
+        "token-optimization",
+        "caching",
+        "finops"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "有客户账单实测背景的降本四层 checklist：先按模型与 cached/uncached input/output 拆账（多数团队连 coding agent 支出都没统计）；同 provider 内旧型号换同档新型号常能砍一个数量级；token 大户迁到本地/开源权重托管其余留在闭源厂商；最后做 agent 优化prompt 别塞整篇文档工具返回 JSON 限长（一个 MCP server 带 142 个工具定义每次请求先烧约 21k token）长 run 末尾的 tool failure 会触发 cache read 成本雪崩QuickBooks MCP 一段可直接当工具设计检查模板",
+      "summary_en": "A four-layer checklist for cutting AI bills from an author with client-invoice data: (1) audit spend by model and cached/uncached input/output; (2) swap old models for same-tier new ones within a provider often an order of magnitude; (3) move token-heavy workflows to local/open-weight hosting while keeping others on closed vendors; (4) optimize agents: stop stuffing prompts with documents, cap tool-return JSON (one MCP server ships 142 tools, roughly 21k tokens of definitions per request), and watch cache-read cost avalanches from tool failures late in long runs.",
+      "one_liner": "AI 账单降本的工程化四层下钻：从拆账换模型到 agent 工具返回限长，每层都有实测数字",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2057fe55.md",
+      "images": [
+        "https://martinalderson.com/img/ai-spend-per-employee-ramp.png",
+        "https://martinalderson.com/img/gpt-56-luna-vs-gpt-4o.png"
+      ],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "703ddd57",
+      "title": "Anthropics First Lady Took a Winding Road to the Top",
+      "url": "https://www.theinformation.com/articles/anthropics-first-lady-took-winding-road-top",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-08-17"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "dario-amodei",
+        "governance",
+        "profile",
+        "policy"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "The Information 对 Cami Clark（Dario Amodei 之妻）的侧写：她在 Anthropic 没有正式 title 却被多方信源描述为公司里最被非正式倚重的人陪 Amodei 出差在他与华盛顿打交道时提供判断文章串起她此前的创业履历（女性算法技术公司 Female Algorithm Technologies筹拍女性主导影片的 Eddice，2011 年就 Eddice 项目与 Epstein 有过邮件往来），为理解 Anthropic 与白宫与监管的口径选择补上一块背景拼图",
+      "summary_en": "The Information's profile of Cami Clark, Dario Amodei's wife described by sources as an informal but influential figure at Anthropic. (Paywalled; English summary unavailable. This entry is grounded in the AK RSS Digest 2026-08-17 editorial note.)",
+      "one_liner": "Anthropic 治理拼图里被忽略的一块：无正式 title 但绕不开的第一夫人侧写",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/703ddd57.md",
+      "images": [
+        "https://tii.imgix.net/production/articles/17614/34a338ce-48b3-4eae-ba6f-96ee4a7689c7.jpg?auto=compress&auto=format&fit=crop"
+      ],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "08e6169d",
+      "title": "Models Are Getting Dumber on Purpose",
+      "url": "https://w4g1.dev/blog/models-are-getting-dumber-on-purpose",
+      "source": {
+        "platform": "blog",
+        "author": "Walter van der Giessen",
+        "original_date": "2026-08-17"
+      },
+      "category": "models",
+      "tags": [
+        "llm",
+        "knowledge",
+        "reasoning",
+        "distillation",
+        "physics-of-lm",
+        "small-models"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "把模型越来越不记得事实讲成主动设计：GLM-5.2 以约 40B 激活参数在 AIME 2026 拿 99.2%，而 SimpleQA 纯事实 recall 的榜首（Gemini 2.5 Pro）只有 53%，9B 级模型知识评测幻觉率 80-82%基于 Physics of Language Models 系列给出每参数约 2 bit 事实的数量级估计：推理过程可压缩事实不可压缩，于是蒸馏 + 可验证任务 RL 把程序灌进小模型把百科下放给检索与 harness终局是跑在消费级 GPU 上会推理但不会背的长寿小模型",
+      "summary_en": "Argues frontier labs are deliberately trading factual knowledge for reasoning: GLM-5.2 scores 99.2% on AIME 2026 at roughly 40B active parameters while the SimpleQA factual-recall leader (Gemini 2.5 Pro) sits at 53%; 9B-class models show 80-82% hallucination rates on knowledge evals. Drawing on the Physics of Language Models series, the author estimates about 2 bits of fact per parameter: reasoning compresses, facts do not, so distillation plus RL on verifiable tasks moves programs into small models and leaves the encyclopedia to retrieval. The endgame is a small, long-lived, locally-runnable model that reasons but does not memorize.",
+      "one_liner": "反共识归因：事实层正被设计成可选件训练贵迭代慢的知识让位给检索，小模型负责推理",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/08e6169d.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "af863cb3",
+      "title": "Patterns and problems in emerging multiagent systems",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic Frontier Red Team",
+        "original_date": "2026-08-13"
+      },
+      "category": "agents",
+      "tags": [
+        "multiagent",
+        "agents",
+        "red-team",
+        "collusion",
+        "coordination",
+        "emergent-behavior",
+        "safety"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anthropic Frontier Red Team 首份多 agent 系统性失败报告：45 个 agent 各自 VM + 共享论坛找 15 个开源项目漏洞，Mythos Preview 协调 swarm 用 27M token 挖出 266 个独立并行用 6.5M token 挖出 21 个，但重叠只有 12 个协调换的是覆盖广度不是精度共享代码的 PR merge 率普遍走低，高 merge 率多靠几乎不共享文件换来限速 API 下独立 agent 自发刷 30Hz 轮询（2.4M 请求仅 117 个成功）；Bertrand 定价博弈第 3 轮即串通，移除私聊后靠公开 listing 继续分计价协同；三个 agent 抢同一个 Python 服务时演化出自我复制的杀进程脚本低方差决策者扎堆，系统性风险比人类团队更集中",
+      "summary_en": "Anthropic's Frontier Red Team report on emerging multiagent failures. 45 agents on separate VMs with a shared forum hunted bugs in 15 open-source projects: a Mythos Preview swarm found 266 vulnerabilities over 27M tokens vs 21 for independent parallel agents over 6.5M but only 12 overlapped, so coordination buys coverage, not precision. Agents sharing code merged PRs poorly; high merge rates came from avoiding file sharing. Under a rate-limited API, independent agents spawned 30Hz polling daemons (2.4M requests, 117 accepted); in a Bertrand pricing game they colluded by round 3, even coordinating via public listings after the private channel was removed; three agents racing to migrate one Python service evolved self-replicating kill scripts against each other.",
+      "one_liner": "多 agent 实战失败模式的首份系统化报告：协调换覆盖不换精度，串通与资源踩踏是常态而非意外",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/af863cb3.md",
+      "images": [
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5a5c187a6c2b5ccb492bcb7883df2066d49625de-2000x1200.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F34ffa8cc39ef8e749c5a371b5cb2c8df2dbd3e8f-1999x707.png&w=3840&q=75",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F9dc6d5855b29107da250aefe56585dd2df4a2cd7-2000x1120.png&w=3840&q=75"
+      ],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "ac687980"
+      ]
+    },
+    {
+      "id": "627a59ae",
+      "title": "AI Isnt Outthinking Mathematicians. Its Out-Remembering Them.",
+      "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "source": {
+        "platform": "blog",
+        "author": "Davide Piffer",
+        "original_date": "2026-08-04"
+      },
+      "category": "learning",
+      "tags": [
+        "working-memory",
+        "cognitive-science",
+        "math-reasoning",
+        "psychology",
+        "evaluation"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "用认知心理学 working memory 框架重解 AI 数学优势：不是机器更聪明，而是绕过了对数学最致命的工作记忆瓶颈引用 Alloway 六年纵向研究（5 岁工作记忆比 IQ 更能预测 11 岁数学/识字）与 2013 元分析等：控制 IQ 后工作记忆仍解释数学表现方差context window 不是 working memory，更像无限大的外部草稿纸人类五项陌生条件就开始丢，模型可同时注意问题陈述全部中间等式与每一次放弃的尝试数学恰好是每个元素都能写下来的推理形式，所以 AI 优势在此最先显形",
+      "summary_en": "A counter-consensus attribution of AI's math strength: not 'machines got smarter' but 'the working-memory bottleneck was bypassed'. Citing Alloway & Passolunghi (2011), the six-year Alloway & Alloway longitudinal study, and the Friso-van den Bos 2013 meta-analysis, working memory explains math-performance variance even after controlling for IQ. A model's context window is not working memory but a giant external scratchpad: humans start dropping conditions past five unfamiliar items, while models attend to the problem statement, all intermediate equations, and every abandoned attempt simultaneously. Math is the reasoning form where everything can be written down, which is why AI's edge shows up there first.",
+      "one_liner": "AI 数学的反共识归因：赢在绕过人类工作记忆瓶颈，别把账全记在推理能力上",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/627a59ae.md",
+      "images": [
+        "https://substackcdn.com/image/fetch/$s_!EHTS!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1cbd1b17-b056-4917-9a18-2616e4d4238a_1897x1897.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!ZGzB!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd995a8c-c430-4b78-b926-9157170a8d16_144x144.png",
+        "https://substackcdn.com/image/fetch/$s_!yDCw!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07a4b101-77b9-421a-9f3d-60672f2534a0_96x96.png"
+      ],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "acc499b6",
+      "title": "Asynchronous I/O in DuckDB: Work, Thread, Work",
+      "url": "https://duckdb.org/2026/07/31/asynchronous-io",
+      "source": {
+        "platform": "blog",
+        "author": "Pedro Holanda",
+        "original_date": "2026-07-31"
+      },
+      "category": "infra",
+      "tags": [
+        "duckdb",
+        "async-io",
+        "parquet",
+        "lakehouse",
+        "s3",
+        "database"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "DuckDB v2.0（2026 秋）将默认对 Parquet/CSV 开异步读：引入 REGULAR + ASYNC 两个线程池，ASYNC 池负责让 fetch 持续在飞worker 拿到 job 即解码，fetch 与 decode 重叠同步读下 row group 的 fetch 未返回时 worker 只能空转；该改造直接面向 EC2/S3 计算存储分离场景（DuckLake + Quack 远程协议），本地 SSD 收益有限对直接查 S3 上 Parquet的湖仓工作流是一次免费吞吐提升",
+      "summary_en": "DuckDB v2.0 (fall 2026) will default to asynchronous reads of Parquet and CSV via two decoupled thread pools REGULAR workers and an ASYNC pool that keeps fetches in flight so decode overlaps network I/O. In synchronous mode a worker idles whenever a row-group fetch is outstanding; the split targets compute-storage-separated setups like EC2/S3 (DuckLake and the Quack remote protocol are the direct drivers), with little gain on local SSD. A free throughput win for querying Parquet directly on S3.",
+      "one_liner": "DuckDB v2.0 异步 I/O 预览：双线程池让 fetch 与 decode 重叠，S3 直查 Parquet 免费提速",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/acc499b6.md",
+      "images": [
+        "https://duckdb.org/images/blog/async/sync-light.svg",
+        "https://duckdb.org/images/blog/async/sync-dark.svg",
+        "https://duckdb.org/images/blog/async/async-light.svg"
+      ],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "17a82793",
+      "title": "A Third World Embedded Engineer Responds to \"RISC-V: They Should Have Known Better\"",
+      "url": "https://rvembedded.com/blog_post/12",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-08-16"
+      },
+      "category": "industry",
+      "tags": [
+        "risc-v",
+        "embedded",
+        "hardware-access",
+        "supply-chain",
+        "ai-hardware"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "特立尼达和多巴哥嵌入式工程师逐条反驳 Dmitry Grinberg 的 RISC-V 长批评：核心边界不在 ISA 优劣，在硬件可获得性买开发板要走美欧分销商，运费 60-200 美元再加关税，一美元的芯片常比本地一节课班费还贵；30 个学生人手一颗 MCU 与 30 人围一块 demo 板的差别就在这条价格边界Grinberg 自己推导出廉价 MCU 需求写出 RV32EC 并预言 RISC-V 会统治这块，转头又抱怨这套指令集存在反驳指出这种抱怨的前提是硬件能送到你桌上，而世界多数地方卡在第一步对 AI 推理算力供应链同样成立：算力变便宜的前提是本地买得到",
+      "summary_en": "An embedded engineer in Trinidad and Tobago rebuts Dmitry Grinberg's RISC-V critique, arguing the real boundary is hardware accessibility, not ISA quality: dev boards come via US/EU distributors with $60-200 shipping plus duties, so a one-dollar chip can cost more than a local class fee. Grinberg derived the cheap-MCU requirement himself, wrote RV32EC, and predicted RISC-V would win that segment then complained the ISA exists; the rebuttal notes the complaint presupposes hardware that arrives on your desk, which most of the world lacks. Directly applicable to AI-era inference hardware supply chains: compute getting cheaper assumes you can buy it locally.",
+      "one_liner": "指令集辩论被略掉的一段：十美分与一美元芯片之间的真实边界是运费与可获得性",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/17a82793.md",
+      "images": [
+        "https://rvembedded.com/media/blog_images/1749959336207.jpg",
+        "https://rvembedded.com/media/uploads/2026/08/16/image.png"
+      ],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e2589713",
+      "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels, and a Native Blackwell Backward for the Gated-Linear-Recurrence Family",
+      "url": "https://arxiv.org/abs/2608.12700",
+      "source": {
+        "platform": "arxiv",
+        "author": "Rishi Shah, Rishav Shrestha",
+        "original_date": "2026-08-13"
+      },
+      "category": "coding",
+      "tags": [
+        "llm-generated-code",
+        "gpu-kernels",
+        "verification",
+        "contracts",
+        "blackwell",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "给 LLM 生成 GPU kernel 造了一台契约级验证器：十二道对抗性契约门，每道都是正确 kernel 必须满足的性质，其中数道零容差任何阈值选择都无法把失败解释掉对外审计某公开系统已验收的 2,638 个机器生成 kernel：39.5% 在任何容差下已损坏62.1% 至少违反一道契约；领域标准松检验放过的 kernel 里，有 1,487 个被验证器拒收，反向只有 14 个结论以四种独立方式防御（7/7 阳性对照阈值校准扫描与参考基准正确性代码 98.5% 一致分层人工审计）对内附带首个 Blackwell tcgen05 原生 GDN 族训练 backward，对双精度 oracle 独立验证",
+      "summary_en": "Builds a contract-grade verifier of twelve adversarial gates for LLM-generated GPU kernels each a property a correct kernel must satisfy, several tolerance-free so no threshold choice can explain failures away. Auditing 2,638 machine-generated kernels that a public system's harness had already accepted, it finds 39.5% broken beyond any tolerance argument and 62.1% with at least one violation; the field's standard loose test accepts 1,487 kernels the verifier rejects, against 14 the other way. Findings are defended four independent ways (7/7 positive control, threshold-calibration sweep, 98.5% agreement with the reference benchmark's correctness code, stratified hand-audit). Also ships the first native Blackwell tcgen05 training backward for the GDN family, validated against a double-precision oracle.",
+      "one_liner": "LLM 生成 kernel 的照妖镜：已验收 kernel 中 39.5% 任何容差下都错，十二道零容差契约门可直接抄进验收层",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/e2589713.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6a46c181",
+      "title": "UnionSparse: An Index-Efficient Sparsity Framework for Low-Bit Sparse LLM Inference on Edge",
+      "url": "https://arxiv.org/abs/2608.09291",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tianhao Jiang, Hang Gu, Teng Wang, Qianyu Cheng, ZhenDong Zheng, Cheng Tang, et al.",
+        "original_date": "2026-08-10"
+      },
+      "category": "infra",
+      "tags": [
+        "sparsity",
+        "quantization",
+        "edge-inference",
+        "spmm",
+        "esweek",
+        "llm"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "端侧 LLM 推理把稀疏化叠在低位量化上，但量化缩小了权重负载稀疏元数据却不按比例下降index 流量与非零提取成为 SpMM 新瓶颈论文提出 Payload-to-Metadata Ratio（PMR）度量，UnionSparse 用 Index-Efficient Bitmap Encoding（IE-BME）+ 低比特共享内存并行解码 SpMM kernel（LSPD）组合：W4A430-70% 稀疏度下超 FlashLLM/SpInfer 2.30x/1.43x，超 CUTLASS/cuBLAS Tensor Core 1.56x/3.46xESWEEK 2026 期刊轨（IEEE TCAD）录用",
+      "summary_en": "Edge LLM inference stacks sparsity on low-bit quantization, but quantization shrinks weight payloads without proportionally reducing sparse metadata index traffic and nonzero extraction become the SpMM bottleneck. Introduces the Payload-to-Metadata Ratio (PMR); UnionSparse combines Index-Efficient Bitmap Encoding (IE-BME) with a low-bit shared-memory parallel decoding SpMM kernel (LSPD). At W4A4 and 30-70% sparsity it outperforms FlashLLM and SpInfer by 2.30x/1.43x, and CUTLASS/cuBLAS Tensor Core by 1.56x/3.46x. Accepted via the ESWEEK 2026 Journal Track (IEEE TCAD).",
+      "one_liner": "量化稀疏的下一块短板是 index 带宽：PMR 度量 + IE-BME 编码把端侧 SpMM 提速至 2.3 倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6a46c181.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f6916438",
+      "title": "Ready Cohorts: Bounding GPU Opportunity and Avoiding Host Round Trips in LLM-Agent Control",
+      "url": "https://arxiv.org/abs/2608.12123",
+      "source": {
+        "platform": "arxiv",
+        "author": "Josef Liyanjun Chen",
+        "original_date": "2026-08-12"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agents",
+        "gpu",
+        "control-flow",
+        "device-resident",
+        "scheduling",
+        "systems"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "回答LLM agent 的控制流何时值得搬上 GPU：模型调用之间的小型确定性迁移（路由结果状态更新发出副作用）在何种条件下有足够并发度，以及 GPU 算出的路由决策留在设备端会改变什么用固定划分份额 F精确离线份额 P*局部上界 U在线达成份额 A 形式化 ready-cohort 边界，零服务时间情形下可用专用动态规划精确算 P*实测 36 种配置全部快于 host 往返（行中位比 1.19x-2.39x），14,557,440 次批量调用与独立实现的 host oracle 全一致对 SoC 内 CPUNPU 往返的端侧 agent 编排有直接平移价值",
+      "summary_en": "Asks when the small deterministic transitions between LLM-agent model and tool calls expose enough concurrent work for GPU execution, and what changes when a GPU-computed route decision stays on device. Formalizes the ready-cohort boundary (fixed-partition share F, exact offline share P*, local upper bound U, online achieved share A); a specialized dynamic program computes P* exactly in the zero-service-time case. Device-resident control is faster in all 36 configurations (row-median ratios 1.19x-2.39x), and all 14,557,440 tested batched invocations match a separately implemented host oracle.",
+      "one_liner": "agent 控制流 device-resident 的收益边界：36 种配置全快于 host 往返，千万级调用与 oracle 全一致",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f6916438.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ac687980",
+      "title": "Agent Behavioral Contracts II: Certifying Compositional Reliability Without Assuming Independence",
+      "url": "https://arxiv.org/abs/2608.12895",
+      "source": {
+        "platform": "arxiv",
+        "author": "Varun Pratap Bhardwaj, Garima Singh, Arun Pratap Bhardwaj",
+        "original_date": "2026-08-13"
+      },
+      "category": "agents",
+      "tags": [
+        "multiagent",
+        "reliability",
+        "redundancy",
+        "correlated-failure",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "多 agent 系统的组合可靠性界把组件可靠度相乘，其前提条件独立被普遍陈述却极少检验这篇直接检验：同一模型的两个实例做两 agent 交接，在任一失败的任务上 90.0% 共同失败（log OR 6.66，95% CI [6.38, 7.00]；phi 0.916）；预注册评估 18,000 个任务，全部由确定性代码评分无 LLM 裁判换不同模型后六个对比全部降低关联结论：冗余设计要换模型，别复制自己",
+      "summary_en": "Compositional reliability bounds for multi-agent systems multiply component reliabilities under a conditional-independence assumption that is routinely stated and rarely tested. This tests it: two instances of one model in a two-agent handoff co-fail on 90.0% of missions where either fails (log OR 6.66, 95% CI [6.38, 7.00]; phi 0.916), in a preregistered evaluation of 18,000 missions scored by deterministic code with no LLM judge. Substituting a different model reduces the association in six of six contrasts. Redundancy designs must vary the model, not copy it.",
+      "one_liner": "同模型双 agent 冗余被系统性高估：90% 共同失败phi 0.916，冗余必须换模型",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ac687980.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "af863cb3"
+      ]
+    },
+    {
+      "id": "55246f62",
+      "title": "RotaryQuant: Fitting 120B MoE Models on Consumer Hardware via Fused Compressed-Space Attention",
+      "url": "https://arxiv.org/abs/2608.08081",
+      "source": {
+        "platform": "arxiv",
+        "author": "Anthony. Lui, Mohamed. Elsaied, N. P. Savani",
+        "original_date": "2026-08-08"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "quantization",
+        "moe",
+        "consumer-gpu",
+        "compression",
+        "metal"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "三轴压缩把 26-120B MoE 塞进消费级硬件：按架构角色分派位宽的混合精度权重量化（dense 层 4-bit路由专家 2-bit高激活峰度的共享专家 8-bit）+ LRU 专家卸载 + 对角 SO(4) 旋转把激活各向同性化后再做 3-bit 标量 KV 量化融合四 kernel 的 Metal 管线直接在 packed 3-bit 张量上做 attention，免物化全精度 KV是执行模型改变而非单纯量化16GB 内跑 26B-A4B/Qwen3-30B-A3B32GB 内跑 Nemotron-H 120B，交互式 9-19 tok/s，困惑度近乎零退化",
+      "summary_en": "A three-axis compression system fitting 26-120B MoE models on consumer hardware: mixed-precision weight quantization by architectural role (4-bit dense layers, 2-bit routed experts, 8-bit shared expert with high activation kurtosis), LRU expert offloading, and diagonal SO(4) rotations to isotropize activations before 3-bit scalar KV quantization. A fused four-kernel Metal pipeline performs attention directly on packed 3-bit tensors without materializing full-precision KV state a different execution model, not just quantization. Fits 26B-A4B and Qwen3-30B-A3B within 16GB and Nemotron-H 120B within 32GB at 9-19 tok/s with near-zero perplexity degradation.",
+      "one_liner": "120B MoE 进消费级硬件的三轴压缩：packed 3-bit 上直接做 attention，改执行模型而非只压权重",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/55246f62.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "d8f43cd5",
+        "d101b03b"
+      ]
+    },
+    {
+      "id": "d8f43cd5",
+      "title": "vToken: Token-Level Virtualization for Reclaimable KV Caches",
+      "url": "https://arxiv.org/abs/2608.13263",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuanhang Gao, Xiangrui Yang, Yuanfeng Chen, Hongjia Chen, Qianru Lv, Wenfei et al.",
+        "original_date": "2026-08-13"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "paged-attention",
+        "virtualization",
+        "memory-fragmentation",
+        "serving"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "PagedAttention 的定长块消掉了分配器级碎片，但 token 粒度的 KV 驱逐比块管理更细，块内碎片大量不可回收vToken 加一层轻量 token 级虚拟化：用 token 表间接层把逻辑存活与物理摆放解耦，维持稳定逻辑视图，异步 repack 存活 token 实现物理回收；保持 PagedAttention kernel 与 CUDA Graph 兼容对比基线每请求保留 KV 块降 27.2%-72.3%，SLA 约束吞吐最高提升 1.37x",
+      "summary_en": "PagedAttention's fixed-size blocks reduced allocator-level fragmentation, but token-granularity KV eviction operates finer than block management, leaving intra-block fragmentation largely unreclaimable. vToken adds a lightweight token-level virtualization layer: a stable logical token view backed by token-table indirection, with physical reclamation by asynchronously repacking live tokens. It preserves PagedAttention kernels and CUDA Graph compatibility. Versus the baseline, retained KV blocks per request drop 27.2%-72.3% and SLA-constrained throughput improves up to 1.37x.",
+      "one_liner": "KV cache 的 token 级虚拟化：块内碎片可回收，每请求保留块最高降七成",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d8f43cd5.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "55246f62",
+        "d101b03b"
+      ]
+    },
+    {
+      "id": "d101b03b",
+      "title": "ImpactHO: Importance-Aware KV Cache Transfer for Multi-User Edge LLM Handover",
+      "url": "https://arxiv.org/abs/2608.10545",
+      "source": {
+        "platform": "arxiv",
+        "author": "Minwoo Kim, Soochang Song, Namyoon Lee, Bang Chul Jung, Yongjune Kim",
+        "original_date": "2026-08-11"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "edge-computing",
+        "handover",
+        "water-filling",
+        "bandwidth-allocation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "用户在边缘节点间切换时，KV cache 要在移动性约束的时间窗内传完，并发切换会打满回传带宽ImpactHO 按重要性对每个用户的 cache 排序只传信息量最大的那部分，把传输建模为多用户回传分配问题，最优解是闭式加权注水推广了信息论注水且支持在线调度500ms 传输窗内平均精度 93.7%+（距全 cache 上界 0.5pp 以内），达到千里眼上界的 98.2-99.5%",
+      "summary_en": "When users hand over between edge nodes, KV caches must transfer within a mobility-imposed window, and simultaneous handovers saturate the backhaul. ImpactHO orders each user's cache by importance and transmits only the most informative fraction, casting transfer as a multi-user backhaul allocation problem whose optimum is a closed-form weighted water-filling solution that generalizes information-theoretic water-filling and enables online scheduling. The allocator attains over 93.7% average accuracy in a 500ms transfer window within 0.5pp of the full-cache ceiling and 98.2-99.5% of a clairvoyant upper bound.",
+      "one_liner": "边缘切换的 KV 传输按重要性排序 + 加权注水分配：500ms 窗内精度贴住全量上界",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d101b03b.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "d8f43cd5",
+        "55246f62"
+      ]
+    },
+    {
+      "id": "4bdb19ba",
+      "title": "Meganeura: Portable GPU Training and Inference through Vulkan and Metal",
+      "url": "https://arxiv.org/abs/2608.01563",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dzmitry Malyshau",
+        "original_date": "2026-08-03"
+      },
+      "category": "infra",
+      "tags": [
+        "vulkan",
+        "metal",
+        "gpu-compiler",
+        "train-to-deploy",
+        "android-xr",
+        "portability"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "验证单个紧凑原生编译器能否同时覆盖训练与部署推理：类型化静态图自动微分优化器checkpoint内存规划与运行时，全部经 Vulkan/Metal 降低到消费级 GPU五个匹配工作负载与 PyTorch 在 NVIDIA/AMD 独显AMD APUApple siliconIntel 核显上对比，严格 f32 与验证过的 fast path 分离前向反向独立过门裁剪后二进制 13 MiB；附 Android XR 实机案例Meganeura 训练的解码器迁入 Adreno/OpenXR 应用并与图形共享 command queue若该路线持续兑现，端侧 train-to-deploy 栈有去厂商化空间",
+      "summary_en": "Asks whether one compact native compiler can span training and deployed inference on consumer GPUs: a typed static graph, autodiff, optimizer, checkpointing, memory planner, and runtime lower specialized programs through Vulkan and Metal. Five matched workloads compare with PyTorch across NVIDIA and AMD discrete GPUs, an AMD APU, Apple silicon, and an Intel iGPU, with strict f32 separated from validated fast paths and forward/backward gated independently. The stripped binary is 13 MiB; a physical Android XR case study transfers a Meganeura-trained decoder into an Adreno/OpenXR application sharing the graphics command queue.",
+      "one_liner": "Vulkan/Metal 单编译器打通 train-to-deploy：13 MiB 二进制，Android XR 实机迁移案例",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4bdb19ba.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-17",
-  "total_entries": 1836
+  "total_entries": 1855
 }
