@@ -19,8 +19,8 @@
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 276 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 258 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| 模型与实验室 | 281 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 259 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 139 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 56 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 74 | AI 产品、大厂战略、融资、监管、市场结构。 |
@@ -29,15 +29,15 @@
 
 ## 当前数据
 
-- 原始条目: 1830
-- 公开展示卡片: 994
+- 原始条目: 1836
+- 公开展示卡片: 1000
 - 有全文内容: 914
-- 最近 7 天信号: 120
+- 最近 7 天信号: 125
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`llm`, `ai-tools`, `benchmark`, `arxiv`, `research`, `evaluation`, `openai`, `attention`, `google`, `anthropic`, `coding-agent`, `security`, `claude-code`, `agent-security`, `agent-memory`, `coding-agents`, `optimization`, `multi-agent`
+`llm`, `ai-tools`, `arxiv`, `benchmark`, `research`, `evaluation`, `openai`, `attention`, `google`, `anthropic`, `coding-agent`, `security`, `claude-code`, `agent-security`, `multi-agent`, `agent-memory`, `coding-agents`, `optimization`
 
 ## 自动化约定
 

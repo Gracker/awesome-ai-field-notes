@@ -53567,8 +53567,202 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "18a7a4f7",
+      "title": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+      "url": "https://arxiv.org/abs/2608.13505",
+      "source": {
+        "platform": "arxiv",
+        "author": "Lei Bai, Jiaqi Cao, Chiyu Chen, Kai Chen, Dahua Lin, Wenwei Zhang, et al.",
+        "original_date": "2026-08-13"
+      },
+      "category": "models",
+      "tags": [
+        "scientific-ai",
+        "agentic-rl",
+        "multimodal",
+        "foundation-model",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Intern-S2-Preview 是面向科学发现场景的智能体基座模型系列：先在渲染科学文档图文交错语料与多类科学语料上做多模态预训练，再用统一后训练管线（SFT可扩展多任务 RL黑盒/白盒 agentic RL在线蒸馏）训练工程侧贡献密集：partial rollout 加离策略校正自适应长度正则在线投机解码鲁棒多任务优化与 trace 级经验组装397B 版本将时序建模从长序列理解扩展到数值预报，并以 Memory Decoder 作为冻结主干外的记忆增强路径做快速科学专化科学多模态智能体与通用基准上取得有竞争力或领先的成绩收录理由：当前公开的最完整科学 agentic 基座模型训练配方，agentic RL 工程细节密度高",
+      "summary_en": "Intern-S2-Preview is a series of scientific agentic foundation models for multimodal scientific understanding, reasoning, generation, and long-horizon tasks. Training combines scientific multimodal pre-training with a unified post-training pipeline: SFT, scalable multi-task RL, black- and white-box agentic RL, and on-policy distillation, supported by partial rollout with off-policy correction, adaptive length regularization, online speculative decoding, and trace-aware experience assembly. The 397B variant extends time-series modelling to numerical forecasting, with a Memory Decoder as a separate memory-augmented path for rapid scientific specialization over the frozen backbone; evaluations show competitive or leading results across scientific, multimodal, agentic, and general benchmarks.",
+      "one_liner": "Intern-S2-Preview 是面向科学发现场景的智能体基座模型系列：先在渲染科学文档图文交错语料与多类科学语料上做多模态预训练.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/18a7a4f7.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "378f9f88",
+      "title": "MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination",
+      "url": "https://arxiv.org/abs/2608.13476",
+      "source": {
+        "platform": "arxiv",
+        "author": "Saisha Shetty, Satvik Tripathi, Austin Lin, Colin Zhao, Theodore Kim, Don Enwerem, Jacinta Arnold, S...",
+        "original_date": "2026-08-13"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "clinical-ai",
+        "orchestration",
+        "open-source",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "MARC（Multi-Agent Reasoning and Coordination）是面向临床推理的开源多智能体框架：用确定性编排替代单体 LLM 提示，抽取推理答案生成评估由角色化 agent 分工，上下文显式传递中间产物可追溯，支持阶段级失败归因配套 Decomposer 模块可从自然语言任务描述自动生成各 agent 专用提示，免去手工 prompt 工程；全程 YAML 配置无需改代码，支持 API 与本地 CPU 两种部署，面向无编程背景的临床领域专家收录理由：把可归因的多 agent 编排做成临床可落地的开源实现，阶段级失败定位思路可迁移到其他专业领域",
+      "summary_en": "MARC is an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for clinical reasoning. Role-specialized agents handle extraction, reasoning, answer generation, and evaluation with explicit context passing and traceable intermediate outputs, enabling stage-wise failure attribution. A Decomposer module generates task-specific agent prompts from a plain-language description, eliminating manual prompt engineering. Deployment supports API-based and local CPU-compatible setups, fully configurable via YAML without code changes; the framework is model-agnostic and aimed at clinical domain experts. Code: github.com/Penn-RAIL/MARC-v1.",
+      "one_liner": "MARC（Multi-Agent Reasoning and Coordination）是面向临床推理的开源多智能体框架：用确定性编排替代单体 LLM 提示，抽取推理答案生成评估由角色化 agent 分工，上下文显式传递中间产物可追溯...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/378f9f88.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f66a3ab6",
+      "title": "AlayaWorld: Interactive Long-Horizon World Modeling - Full Technical Report (v1.1)",
+      "url": "https://arxiv.org/abs/2608.13492",
+      "source": {
+        "platform": "arxiv",
+        "author": "AlayaWorld Team, Kaipeng Zhang, Chuanhao Li, Yifan Zhan, Yongtao Ge, et al.",
+        "original_date": "2026-08-13"
+      },
+      "category": "models",
+      "tags": [
+        "world-model",
+        "long-horizon",
+        "spatial-memory",
+        "interactive",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "AlayaWorld v1.1 技术报告聚焦交互式长时程世界模型的条件信号重构设计原则只有一条：条件信号要在潜表示和时间结构上尽可能接近生成内容两大改动：用流式 3D 点云缓存渲染器替换基于深度 warp 的空间记忆；把条件管线重设计为与生成视频同构的 causal-VAE 潜空间编码时间统计一致共六项修改，含运动感知潜条件空间记忆因果连续编码硬丢弃记忆 token（而非置零）训练推理统一 VAE 协议移除相机 AdaLN 分支骨干分块自回归生成与训练数据均沿用上版收录理由：世界模型 spatial memory 与 conditioning 设计取舍的一手实操记录",
+      "summary_en": "AlayaWorld v1.1 substantially revises how conditioning signals are represented in an interactive long-horizon world model, guided by one principle: conditioning should match the generated content as closely as possible in latent representation and temporal structure. Two major changes: depth-warping-based spatial memory is replaced by a streaming 3D point-cache renderer, and the conditioning pipeline is redesigned so visual conditions are encoded in the same causal-VAE latent space with consistent temporal statistics. Six concrete modifications include motion-aware latent conditioning, causally encoded re-rendered spatial memory as a continuous sequence, hard memory dropout that removes memory tokens rather than zeroing them, and unified VAE protocols across training and inference. Backbone, chunk-wise autoregressive generation, and training data are unchanged from the previous release.",
+      "one_liner": "AlayaWorld: Interactive Long-Horizon World Modeling - Full Technical Report (v1.1)",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f66a3ab6.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a15ca3ae",
+      "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
+      "url": "https://arxiv.org/abs/2608.13517",
+      "source": {
+        "platform": "arxiv",
+        "author": "Peter Schneider-Kamp, Jacob Nielsen, Gianluca Barmina, Kenneth Enevoldsen, Lukas Galke Poech",
+        "original_date": "2026-08-13"
+      },
+      "category": "models",
+      "tags": [
+        "hrm",
+        "open-data",
+        "small-model",
+        "permissible-data",
+        "danish",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Mimir v1 是基于 HRM（分层推理模型）架构的 1B 参数语言模型，从零训练后训练数据全部来自许可可用来源（161 个数据集混合）在覆盖英语数学与代码丹麦语的 20 个基准上，它超过原版 HRM-Text 1B，并与 Qwen 3.5 4BGemma 4 E2B 等更大的前沿模型竞争，同时为丹麦语刷新 SOTA模型已在 Hugging Face Hub 开放（danish-foundation-models/DFM-Mimir）收录理由：小参数量 + 分层推理架构 + 全合规数据的完整从零训练开源案例，为许可数据能逼近何种水平给出可复现参照",
+      "summary_en": "Mimir v1 is a 1-billion-parameter language model based on the Hierarchical Reasoning Model (HRM) architecture, trained from scratch using only permissible post-training data from a mixture of 161 datasets. It outperforms the original HRM-Text 1B and competes with larger frontier models like Qwen 3.5 4B and Gemma 4 E2B across 20 benchmarks covering English, Math & Code, and Danish, setting a new state of the art for Danish. The model is released on the Hugging Face Hub (danish-foundation-models/DFM-Mimir).",
+      "one_liner": "Mimir v1 是基于 HRM（分层推理模型）架构的 1B 参数语言模型，从零训练后训练数据全部来自许可可用来源（161 个数据集混合）在覆盖英语数学与代码丹麦语的 20 个基准上，它超过原版 HRM-Text 1B，并与 Qwen 3.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a15ca3ae.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f09bd61a",
+      "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
+      "url": "https://arxiv.org/abs/2608.13545",
+      "source": {
+        "platform": "arxiv",
+        "author": "Fanfei Li, Jana Zeller, Manuel Prada-Corral, Thaddaeus Wiedemer, Prasanna Mayilvahanan, Ryan Cottere...",
+        "original_date": "2026-08-13"
+      },
+      "category": "models",
+      "tags": [
+        "curriculum",
+        "controlled-corpus",
+        "knowledge-acquisition",
+        "research-sandbox",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LittleLearner：在 LittleCurriculum（88B token仅含美国小学五年级及以下内容显式排除超纲概念/事实/词汇的课程化语料）上从零训练的 5B 模型它语言能力足以支撑开放式评测，但知识与能力边界被课程大纲清晰划界，构成研究知识习得与注入的可控沙盒首批实验考察后训练与上下文学习注入新知识：两种方法都能让模型更好利用已有知识，但不能提升超纲能力语料与模型均开源收录理由：为模型如何习得表示和使用数据提供了边界可解释的受控实验环境，是数据受控研究方法论的范例",
+      "summary_en": "LITTLELEARNER is a 5B-parameter LLM trained from scratch on LITTLECURRICULUM, a curated 88B-token pretraining corpus restricted to U.S. elementary-school material that explicitly excludes concepts, facts, and vocabulary taught above Grade 5. The model has sufficient language competence for open-ended evaluation while its knowledge and capability boundaries are mapped to interpretable curriculum guidelines, forming a developmentally restricted sandbox for studying knowledge acquisition. First experiments on injecting new knowledge via post-training and in-context learning show both methods help the model better utilize existing knowledge but do not raise out-of-scope capabilities. Corpus and model are both released.",
+      "one_liner": "LittleLearner：在 LittleCurriculum（88B token仅含美国小学五年级及以下内容显式排除超纲概念/事实/词汇的课程化语料）上从零训练的 5B 模型它语言能力足以支撑开放式评测，但知识与能力边界被课程大纲清晰划界...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f09bd61a.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "23a3ceb7",
+      "title": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
+      "url": "https://arxiv.org/abs/2606.19559",
+      "source": {
+        "platform": "arxiv",
+        "author": "Gregory Matsnev",
+        "original_date": "2026-06-17"
+      },
+      "category": "agents",
+      "tags": [
+        "uncertainty",
+        "clarification",
+        "webshop",
+        "alfworld",
+        "agent-capability",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "面向交互式 LLM agent 的提示级不确定性分解：把动作置信度与请求不确定性 u 拆开，任务欠规约时主动向用户请求澄清部署约束（黑盒 API交互延迟预算无标注轨迹）排除了 logprob多采样与训练式方法，提示式估计是唯一可行族作者发布 WebShop-Clarification 与 ALFWorld-Clarification 两个基准（50% 任务故意欠规约），在 GPT-5.1DeepSeek-v3.2-expGLM-4.7Qwen3.5-35BGPT-OSS-120B 五个骨干上对比 ReAct+UE 与 UAM：ALFWorld-Clarification 澄清 F1 平均提升 73%（对 ReAct+UE）与 36%（对 UAM），WebShop-Clarification 上每个骨干均领先收录理由：把不确定性量化落到主动澄清这一具体 agent 能力上，基准可直接复用",
+      "summary_en": "A prompt-based uncertainty decomposition for interactive LLM agents that separates action confidence from request uncertainty (u), enabling the agent to ask for clarification when a task specification is ambiguous. Deployment constraints (black-box APIs, latency budgets, no labeled trajectories) rule out logprob-based, multi-sampling, and training-based methods, leaving prompt-based estimation as the viable family. Two clarification-augmented benchmarks are introduced (WebShop-Clarification, ALFWorld-Clarification) with 50% of tasks deliberately underspecified. Across five backbones (GPT-5.1, DeepSeek-v3.2-exp, GLM-4.7, Qwen3.5-35B, GPT-OSS-120B), the decomposition improves clarification F1 on ALFWorld-Clarification by 73% over ReAct+UE and 36% over UAM on average, and leads on every backbone on WebShop-Clarification.",
+      "one_liner": "面向交互式 LLM agent 的提示级不确定性分解：把动作置信度与请求不确定性 u 拆开，任务欠规约时主动向用户请求澄清部署约束（黑盒 API交互延迟预算无标注轨迹）排除了 logprob多采样与训练式方法.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/23a3ceb7.md",
+      "images": [],
+      "added_date": "2026-08-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-17",
-  "total_entries": 1830
+  "total_entries": 1836
 }
