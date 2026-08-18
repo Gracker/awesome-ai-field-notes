@@ -54433,8 +54433,168 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "d4289937",
+      "title": "Handover of In-Context Learning State Across Session Boundaries",
+      "url": "https://arxiv.org/abs/2608.14528",
+      "source": {
+        "platform": "arxiv",
+        "author": "Masahiro Kato, Taka Kato",
+        "original_date": "2026-08-14"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "context-engineering",
+        "session-handover",
+        "in-context-learning",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "研究会话边界处的交接问题：当上下文达到模型输入上限应用重启或由另一个 agent 接手任务时，应用必须决定把先前会话的哪些信息传下去作者把交接形式化为任务相对的 ICL 状态迁移，区分对早前内容的精确恢复与对目标分布的保持；在外生性条件下证明预测等价刻画了最粗的确定性充分交接，并给出固定长度比特需求提出三段式记录：决策与约束精确保存，重复证据用任务相关的统计量表示，效果无法被统计量保留的原始观测则原样保留高斯线性回归给出精确的有限维交接与有限比特扰动界，非参数回归则给出记忆量与平方预测误差关系的上下界",
+      "summary_en": "This study investigates the methodological and theoretical properties of session handover in LLM applications: when context reaches the input limit, the application restarts, or another agent finishes the task, the application must decide which information from the earlier session to pass on. The authors formulate handover as the transfer of a task-relative in-context learning (ICL) state, distinguish exact recovery from preservation of the target distribution, and show that under an exogeneity condition predictive equivalence characterizes the coarsest deterministic sufficient handover with a fixed-length bit requirement. They propose a three-part record storing decisions and constraints exactly, task-justified statistics for repeated evidence, and original observations whose effect is not preserved by those statistics....",
+      "one_liner": "把会话交接形式化为 ICL 状态迁移，证明预测等价刻画最粗充分交接并给出固定比特记忆需求",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d4289937.md",
+      "images": [],
+      "added_date": "2026-08-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "febe7513",
+      "title": "Wrong but Useful: Trajectory Value Beyond Answer Correctness in Multi-Agent Messages",
+      "url": "https://arxiv.org/abs/2608.14375",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chih-Hsuan Yang, Anjir Ahmed Chowdhury, Cheng-Hau Yang, et al.",
+        "original_date": "2026-08-14"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "message-filtering",
+        "evaluation",
+        "trajectory-value",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "多智能体推理系统常用一致性置信度或自动打分决定哪些消息参与最终答案，这隐含着可能正确的消息才值得保留作者提出 Diverse Hypothesis Deliberation（DHD）协议：缓存五条独立生成的消息，让同一个下游 integrator 分别在可见或隐藏每条消息的情况下重放，从而测量消息的轨迹价值在五个数学与科学基准gpt-oss-120b 与 gemma-4-31B-it 两个开源模型族上，每个基准-模型组合都出现答案错误但有助于下游的消息；在能改变最终对错的错误消息中，超过四成的改变是正向的，且可重复效应 unlikely 源于重放波动（p=0.0002）结论：答案正确性提供信息，但不决定消息的去留价值",
+      "summary_en": "Multi-agent reasoning systems often use agreement, confidence, or automated scores to decide which messages shape the final answer, assuming a message likely to be correct is also worth keeping. The authors test this with Diverse Hypothesis Deliberation (DHD): a controlled protocol that caches five independently generated messages and replays the same downstream integrator with each message available or hidden, measuring a message's trajectory value. Across five mathematics and science benchmarks and two open model families (gpt-oss-120b and gemma-4-31B-it), wrong-helpful messages appear in every benchmark-model combination; among wrong-answer messages that change final correctness, more than four in ten changes are helpful, with repeatability unlikely from replay variation alone (p=0.0002). Answer correctness is informative but does not determine trajectory value.",
+      "one_liner": "错误答案的消息也可能推动下游推理：DHD 重放协议显示错误-有益消息在每个基准-模型组合中都存在",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/febe7513.md",
+      "images": [],
+      "added_date": "2026-08-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "75d7a431",
+      "title": "EcoAgent-Bench: Evaluating Economic Decision-Making in Budget-Constrained LLM Agents",
+      "url": "https://arxiv.org/abs/2608.05519",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jie Wu, Ming Gong, Feixiang Cheng, Qinqin Zhao",
+        "original_date": "2026-08-06"
+      },
+      "category": "agents",
+      "tags": [
+        "benchmark",
+        "economic-decision",
+        "budget-constraint",
+        "agent-evaluation",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Agent 基准通常只测任务完成度把资源使用当附属统计，而实际部署中本地查询广域搜索复合研究工具更强模型人工升级之间的选择本身就是任务的一部分EcoAgent-Bench 的 304 个真实改编任务（来自 GAIA/HotpotQA/MuSiQue 的五个族）都带定价动作与显式预算，考察四类决策：避免不必要升级证据不足时升级选择模型档位在不成立前提上停止评测了 tool-API 与 workspace-CLI 两种形态的 7 个 LLM agent 及 4 个脚本 oracle；微观平均准确率会奖励一边倒策略（永远升级的控制组微观成功率高但通不过省钱型任务），因此另报经济一致性分数Tool-API agent 微观严格成功率仅 3.9-24.0%（经济一致性至多 7.3%），预算阈值扫描只把 GPT-5.4 的升级率从 0% 拉到 3%：预算内完成与经济动作选择是两种不同能力",
+      "summary_en": "Agent benchmarks usually measure task completion and treat resource use as an auxiliary statistic, yet in deployment the choice among a local lookup, broad search, composite research tool, stronger model, or human escalation is part of the task itself. EcoAgent-Bench specifies priced actions and an explicit budget for each of 304 real-derived tasks (five families adapted from GAIA, HotpotQA, and MuSiQue), testing four decisions: avoiding unnecessary escalation, escalating when local evidence is insufficient, selecting a model tier, and stopping on unsupported premises. Seven LLM agents in tool-API and workspace-CLI settings plus four oracle scripted controls are evaluated. Micro-averaged accuracy rewards one-sided policies (always-escalate controls score high while failing save-oriented tasks), so the authors also report an economic-consistency score....",
+      "one_liner": "带定价动作与显式预算的 304 任务基准：预算内完成与经济动作选择是两种不同的能力",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/75d7a431.md",
+      "images": [],
+      "added_date": "2026-08-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fbe0b37f",
+      "title": "Split the Labor: Separating Evidence Interpretation from Decision Aggregation",
+      "url": "https://arxiv.org/abs/2608.14509",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhelun Wu",
+        "original_date": "2026-08-14"
+      },
+      "category": "models",
+      "tags": [
+        "evidence-aggregation",
+        "reasoning",
+        "llm-systems",
+        "calibration",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "让语言模型从多个来源得出结论的系统通常把来源拼接进同一个提示，这混淆了两种需求不同的操作：解读来源奖励容量与上下文，聚合解读则奖励固定算术跨实例可比性以及允许返回空作者提出四字段证据元组（假设可靠性分桶理由出处）作为两半之间的接口，并揭示聚合失效模式 count-scale drift：对未归一化权重求和后设阈值，等价于后验阈值化，但工作点随咨询来源数量滑动随读者可靠性增大；当来源可靠性不同时，投票规则与后验对实例的排序不同，任何阈值都无法调和校准对数似然比的汇总可同时解决这两个问题；该修正属于算术层面而非架构层面，适用于评分求和的分诊引擎按阳性计数打分的诊断面板与加性多信号检测器等一类规则",
+      "summary_en": "Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt, conflating two operations with different requirements: interpreting a source rewards capacity and context, while combining interpretations rewards fixed arithmetic, comparability across instances, and the option to return nothing. The author proposes a four-field evidence tuple (hypothesis, reliability bucket, rationale, provenance) as the interface between the two halves, and identifies a failure mode called count-scale drift: thresholding a sum of unnormalized weights is exactly posterior thresholding, but at an operating point that slides with the number of sources consulted and grows with reader reliability; when source reliabilities differ, the vote rule and the posterior order instances differently and no threshold reconciles them....",
+      "one_liner": "把证据解读与决策聚合分离：四字段证据元组做接口，校准对数似然比修复 count-scale drift",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fbe0b37f.md",
+      "images": [],
+      "added_date": "2026-08-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7ea46bff",
+      "title": "What Twelve LLM Agent Benchmark Papers Disclose About Themselves: A Pilot Audit and an Open Scoring Schema",
+      "url": "https://arxiv.org/abs/2605.21404",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mahdi Naser Moghadasi, Faezeh Ghaderi",
+        "original_date": "2026-05-20"
+      },
+      "category": "learning",
+      "tags": [
+        "benchmark",
+        "reproducibility",
+        "meta-science",
+        "audit",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "动机来自常见挫败：两篇论文在同一个基准上用同一个模型名报告结果却相互矛盾，而已发表的产物无法判断原因在脚手架采样设置子集还是评估器版本作者逐维阅读并记录 12 篇知名 LLM agent 基准论文对自身评测运行的披露情况：设计了五字段审计模式（基准身份harness 规范推理设置成本报告失败分解），编写含试点评分边界案例的代码本，应用于 12 篇经典论文（8 篇 agent4 篇经典静态基准）8 篇 agent 基准论文平均审计分 0.38/1.0，静态基准 0.66；最大缺口在成本（无一篇以任何形式披露推理成本）与 harness 规范（无一篇完整披露评估环境的内容寻址容器镜像）以 JSON Schema 发布审计模式Markdown 发布代码本CSV 发布原始评分表；评分为单人单轮，多人审计是作者认定的下一步",
+      "summary_en": "Motivated by the familiar frustration that two papers report results on the same benchmark with the same model name and disagree, with no way to tell whether the scaffold, sampling settings, subset, or evaluator version explains it, the authors read twelve well-known LLM agent benchmark papers and recorded dimension by dimension what each actually says about how its evaluation was run. They designed a five-field audit schema (benchmark identity, harness specification, inference settings, cost reporting, failure breakdown), wrote a scoring codebook with boundary cases, and applied it to twelve canonical papers (eight agent, four classical static)....",
+      "one_liner": "12 篇 agent 基准论文的披露审计：平均 0.38/1.0，无一篇以任何形式披露推理成本",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7ea46bff.md",
+      "images": [],
+      "added_date": "2026-08-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-17",
-  "total_entries": 1855
+  "last_updated": "2026-08-18",
+  "total_entries": 1860
 }
