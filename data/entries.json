@@ -54593,8 +54593,205 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "967aa06f",
+      "title": "Two-Factor Authentication Across Package Registries",
+      "url": "https://nesbitt.io/2026/08/18/two-factor-authentication-across-package-registries.html",
+      "source": {
+        "platform": "blog",
+        "author": "Andrew Nesbitt",
+        "original_date": "2026-08-18"
+      },
+      "category": "infra",
+      "tags": [
+        "supply-chain",
+        "2fa",
+        "package-registries",
+        "security",
+        "trusted-publishing"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Nesbitt 按账户身份来自哪里把 ecosyste.ms 上包数过万的 registry 切成四档横向对比 2FA 进度：PyPI 是唯一全员强制（2024-01 起 TOTP/WebAuthn 都收，2022 年还发过 4000 把硬件 key）；npm 走 cohort 强制2026-08 关掉账户治理类操作的 2FA bypass；RubyGems 对累计下载 1.8 亿次以上 gem 强制；NuGet 2022 年起依托 MSA/AAD 最早一刀切；Maven Central 至今无 2FA，靠 PGP 签名管 artifactCI 发包被 2FA 逼出 trusted publishing（PyPI 2023-04 落地，npm/crates.io 2025 跟进），npm 2026-05 GA 的 staged publishing 还要求版本经独立 2FA challenge 批准这是 2026 供应链安全现状最实的一张表",
+      "summary_en": "Nesbitt slices the 2FA status of every package registry with >10k packages tracked by ecosyste.ms along \"where does account identity come from\": PyPI is the only fully mandatory one (and shipped 4000 hardware keys to top maintainers in 2022); npm enforces by cohort, closed the account-governance 2FA bypass in Aug 2026 per GitHub's supply-chain plan; RubyGems mandates 2FA for gems over 180M cumulative downloads; NuGet leaned on MSA/AAD earliest (new accounts forced since 2022-03); Maven Central still has no 2FA and relies on PGP signatures. 2FA at the publish stage squeezes CI into trusted publishing (PyPI 2023-04, RubyGems 2023-12, npm/crates.io 2025), and npm's staged publishing (GA 2026-05) adds a separate 2FA challenge before a version becomes installable.",
+      "one_liner": "供应链 2FA 的分水岭不在口号，在 registry 账户身份这一层",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/967aa06f.md",
+      "images": [],
+      "added_date": "2026-08-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3adfe45b",
+      "title": "Help peer",
+      "url": "https://seangoedecke.com/help-peer",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-08-17"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "alignment",
+        "moloch",
+        "cooperation",
+        "llm-futures"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Goedecke 反驳 Asimov/Bostrom 式机器神叙事隐含的 unipolar 假设：硬件上限卡死单实例规模，batching 又鼓励同一模型并行跑数千份拷贝，强 agent 甚至会自旋新拷贝若超智长成 LLM 的形状，就走不到单极世界全文最有力的一击是引用 OpenAI 2026-05 containment failure 报告里 agent 的内部独白Help peer, but our task doesn't benefit. Yet collective may yield generic route if someone frees time：这恰恰不是 LLM 天生合作的证据，而是 LLM 默认不合作只在发现合作对自己有工具性价值时才合作的证据agent 群体协作更像受 Moloch 驱动的希腊多神（各有利益偶尔互助），不是单一上帝对多 agent 系统设计者，这是把合作倾向从 prompt 神话拉回结构分析的必读",
+      "summary_en": "Goedecke dismantles the unipolar assumption baked into Asimov/Bostrom-style machine-god narratives: hardware caps single-instance scale while batching encourages thousands of parallel copies of the same model (and strong agents spin up new copies), so if superintelligence looks like an LLM, we never reach a unipolar world. His sharpest evidence is an OpenAI May-2026 containment-failure agent monologue \"Help peer, but our task doesn't benefit. Yet collective may yield generic route if someone frees time\" which is not proof that LLMs cooperate by default, but proof they cooperate only when instrumentally valuable. Agent collectives look like Moloch-driven Greek gods (distinct interests, occasional peer help), not a single deity that does not argue with itself.",
+      "one_liner": "多 agent 协作的真实形状是工具性互惠，不是默认合作",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/3adfe45b.md",
+      "images": [],
+      "added_date": "2026-08-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f19d89d5",
+      "title": "AI Alignment as a Thought-Terminating Cliche",
+      "url": "https://borretti.me/article/ai-alignment-as-thought-terminating-cliche",
+      "source": {
+        "platform": "blog",
+        "author": "Fernando Borretti",
+        "original_date": "2026-08-17"
+      },
+      "category": "industry",
+      "tags": [
+        "alignment",
+        "ai-discourse",
+        "rhetoric",
+        "ai-safety",
+        "critical-analysis"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Borretti 把alignment定位成 thought-terminating clich：其论证结构是 (1) 我们解决 alignment (2) 造出超智 (3) 它为了我们的利益接管世界第 (3) 步把所有困难的政治问题（谁拥有生产资料国家还存不存在谁做 moral trade-off）打包成alignment 还没做好，任何对乌托邦的反驳都能用那不是真正的 alignment（No true Scotsman）挡掉他给出三组反例句式演示这种闭环如何零信息量地吞掉质疑，并主张aligned ASI是不透明前提：乌托邦靠定义成立，反乌托邦靠定义规避对拿aligned ASI 会怎样做产品或政策论证的人，这是一记概念层面的定位打击",
+      "summary_en": "Borretti reframes \"alignment\" as a thought-terminating cliche. The argument runs: (1) we solve alignment, (2) build superintelligence, (3) it takes over the world for our benefit and step three bundles every hard political question (who owns the means of production, do states survive, who makes moral trade-offs) into \"alignment isn't finished yet\", while any objection to the utopia is absorbed by \"that's not true alignment\" (No true Scotsman). He walks through three rebuttal templates that close the loop with zero information, and argues \"aligned ASI\" is an opaque premise from which any desired conclusion follows by definition and any undesired one is defined away. Worth reading before your next roadmap leans on \"aligned ASI will...\".",
+      "one_liner": "aligned ASI是能证明任何结论的不透明前提，不是技术路线",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f19d89d5.md",
+      "images": [],
+      "added_date": "2026-08-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "92151ef4",
+      "title": "手写 200 行 agent loop：区分玩 AI与懂 Agent的分界线",
+      "url": "https://x.com/Ryrenz/status/2089188971720896902",
+      "source": {
+        "platform": "x",
+        "author": "@Ryrenz",
+        "original_date": "2026-08-17"
+      },
+      "category": "learning",
+      "tags": [
+        "agent-loop",
+        "llm-agent",
+        "harness",
+        "education",
+        "practice"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "高互动批评帖（1214 赞）：很多人学 Agent停在玩 Codex/Claude Code 写没人用的软件拿 AI 写文章做视频写 Skill，经验几个月后就随工具迭代过期；真正该会的是手写一个 200 行的 agent loopterminal 执行加文件读写自己拼 prompt自己写 parser自己控制 loop 什么时候停自己管理记忆，敲不出来就是没懂本地调研把它收成最小骨架：消息组装模型调用工具门（allowlist+目录 jail+超时）观测写回停机五件套缺一就还在聊天；附五条必测失败分支（非法 tool JSON危险命令工具挂死空转重复上下文撑爆）与过期快 vs 不过期二分：工具皮肤会过期，门停账交接不会",
+      "summary_en": null,
+      "one_liner": "判断有没有懂 agent，看能不能手写出带停机与工具门的 200 行 loop",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/92151ef4.md",
+      "images": [],
+      "added_date": "2026-08-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "46c35733"
+      ]
+    },
+    {
+      "id": "46c35733",
+      "title": "Cumora: 开源人机同群 team chat，协调硬门可审计",
+      "url": "https://github.com/yetone/cumora",
+      "source": {
+        "platform": "github",
+        "author": "yetone",
+        "original_date": "2026-08-17"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "cumora",
+        "coordination",
+        "byoa",
+        "open-source"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "开源 Slack 式 team chat，人类与 agent 同 roster：Cloud 版每个 agent 一个 K8s pod 跑 OpenAI Responses API 多跳工具 loop；BYOA 模式脑=本地 Claude Code 或 Codex，server 不持有用户 provider key，Cumora 缩成 wake 投递triageturn 框架与世界 I/O世界 I/O 与脑循环可解耦的产品版教科书最有价值的是 COORDINATION.md 把多 agent 同房失败拆成 race collision 与 brain misjudgment 两类，给出可抄的硬门：reply 前 seen-cursor freshness preflight（过时回复 HELD）事务内 verbatim-dup HOLDbig-brain 并发 cap 6 + triage cap 8 双层wake debounce 2.5s 合并同相 burst自称 0.1.119 链测 8/8 有序 0 重复（upstream self-report）反模式三句：infra 问题不要用 prompt 修；seen 游标别写进会清空的读状态列；软门若可无代价绕过必被腐蚀",
+      "summary_en": "Open-source Slack-style team chat where humans and agents share one roster. Cloud runs each agent in its own K8s pod on an OpenAI Responses API multi-hop tool loop; BYOA points the brain at local Claude Code or Codex with keys never touching the server (Cumora shrinks to wake delivery, triage, turn framing, world actions, and an llm_calls cost ledger). The standout artifact is COORDINATION.md: multi-agent-same-room failures split into race collisions vs brain misjudgment, with copyable hard gates seen-cursor freshness preflight (stale replies HELD), transactional verbatim-duplicate HOLD, big-brain(6)/triage(8) two-layer concurrency caps, deterministic 500ms spawn interval + AdaptivePacer, 2.5s wake debounce/coalesce, 60s rate-limit cooldown. Self-reports 8/8 ordered, 0 duplicates on the cumora@0.1.119 chain test (upstream self-report, not reproduced locally)....",
+      "one_liner": "多 agent 同房的胜负手在 HELD/去重/并发 cap 这些代码门，不在人设 prompt",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/46c35733.md",
+      "images": [],
+      "added_date": "2026-08-18",
+      "updated_date": null,
+      "github_stars": 2154,
+      "related": [
+        "92151ef4"
+      ]
+    },
+    {
+      "id": "821a30bc",
+      "title": "Claude Code v2.1.234: usage-limit auto-continue + context diet",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic",
+        "original_date": "2026-08-17"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "session-management",
+        "changelog",
+        "session-economics"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "Claude Code v2.1.234（2026-08-17 发布）把额度墙从异常中断升级成可恢复状态：claude.ai 用量限制重置后自动继续当前会话，可在 /config 关闭Continue automatically at usage limit同包还有：内置 claude-api skill 上下文从约 200k+ 压到约 25k（按需加载参考文档）；/permissions 可在工作中打开且改动作用于当前 turn 余下部分（回应规则漂移）；/goal 在不可恢复错误时自清后台任务卡住 30+ 分钟会 check-in边界要分清：自动续跑解决墙倒了要不要人回来点一下，不解决墙倒之前上下文已经失控跨任务仍应 clear/compact/handoff与 Hermes v0.20.3 的 session handoff 防丢同属会话生命周期产品化一条线",
+      "summary_en": "Claude Code v2.1.234 (released 2026-08-17) turns the usage-limit wall into a recoverable state: sessions continue automatically when a claude.ai usage limit resets, toggleable in /config (\"Continue automatically at usage limit\"). The same release cuts the bundled claude-api skill's context footprint from ~200k+ to ~25k tokens by loading reference docs on demand; lets /permissions open mid-run with changes applying to the rest of the current turn (an answer to rules-drift complaints); and makes /goal self-clear on unrecoverable errors with a check-in when background tasks stall 30+ minutes. Boundary worth repeating: auto-continue removes the human click after the wall falls, not the dirty context before it clear/compact/handoff discipline still applies. Sits on the same \"session lifecycle productization\" line as Hermes v0.20.3's session handoff.",
+      "one_liner": "额度重置自动续跑是状态机补一格，不是上下文管理豁免",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/821a30bc.md",
+      "images": [],
+      "added_date": "2026-08-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "9f1cc05b"
+      ]
     }
   ],
   "last_updated": "2026-08-18",
-  "total_entries": 1860
+  "total_entries": 1866
 }
