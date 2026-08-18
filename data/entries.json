@@ -117,7 +117,7 @@
         "author": "A2A Standards Consortium",
         "original_date": "2026-04-10"
       },
-      "category": "agents/frameworks",
+      "category": "agents",
       "tags": [
         "A2A",
         "Agent-to-Agent",
@@ -134,7 +134,7 @@
       "quality_score": 5,
       "status": "active",
       "added_date": "2026-04-29",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "images": [],
       "github_stars": null,
       "related": [],
@@ -152,7 +152,7 @@
         "author": "MCP Development Team",
         "original_date": "2026-04-27"
       },
-      "category": "agents/frameworks",
+      "category": "agents",
       "tags": [
         "mcp",
         "2026",
@@ -169,7 +169,7 @@
       "quality_score": 4,
       "status": "active",
       "added_date": "2026-04-28",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "local_path": "content/mcp_framework_2026_001.md",
       "images": [],
       "github_stars": null,
@@ -187,7 +187,7 @@
         "author": "Enterprise AI Research Team",
         "original_date": "2026-04-27"
       },
-      "category": "industry/strategy",
+      "category": "industry",
       "tags": [
         "ai-agents",
         "production",
@@ -204,7 +204,7 @@
       "quality_score": 4,
       "status": "active",
       "added_date": "2026-04-28",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "local_path": "content/ai_agents_production_2026_002.md",
       "images": [],
       "github_stars": null,
@@ -222,7 +222,7 @@
         "author": "Hacker News Community",
         "original_date": "2026-04-26"
       },
-      "category": "agents/frameworks",
+      "category": "agents",
       "tags": [
         "llm-agents",
         "production",
@@ -239,7 +239,7 @@
       "quality_score": 3,
       "status": "active",
       "added_date": "2026-04-28",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "local_path": "content/hn_llm_agents_2026_003.md",
       "images": [],
       "github_stars": null,
@@ -255,7 +255,7 @@
         "author": "freestylefly",
         "original_date": null
       },
-      "category": "image-generation/prompts",
+      "category": "learning",
       "tags": [
         "gpt-image-2",
         "prompt-engineering",
@@ -275,7 +275,7 @@
       "local_path": "Cubox/freestylefly-awesome-gpt-image-2-2026-04-27.md",
       "images": [],
       "added_date": "2026-04-28",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": 7764,
       "related": [],
       "local_path_valid": false
@@ -289,7 +289,7 @@
         "author": "chenhg5",
         "original_date": null
       },
-      "category": "agents/frameworks",
+      "category": "agents",
       "tags": [
         "coding-agent",
         "messaging-bridge",
@@ -310,7 +310,7 @@
       "local_path": "Cubox/chenhg5-cc-connect- Bridge local AI coding agents (Claude Code, Cursor, Gemini CLI, Codex) to messag.md",
       "images": [],
       "added_date": "2026-04-28",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "github_stars": 12797,
       "related": [],
       "local_path_valid": false,
@@ -326,7 +326,7 @@
         "author": "TheRealSeanDonahoe",
         "original_date": null
       },
-      "category": "coding-agents/best-practices",
+      "category": "coding",
       "tags": [
         "coding-agent",
         "claude-code",
@@ -347,7 +347,7 @@
       "local_path": "content/agentsm_001.md",
       "images": [],
       "added_date": "2026-04-28",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "github_stars": 594,
       "related": [],
       "local_path_valid": false,
@@ -363,7 +363,7 @@
         "author": null,
         "original_date": "2026-04-27"
       },
-      "category": "benchmarks/mobile",
+      "category": "models",
       "tags": [
         "android",
         "llm-benchmark",
@@ -384,7 +384,7 @@
       "local_path": "Cubox/谁才是地表最强 Android Agent 大模型？Google官方测评来了！-2026-04-27.md",
       "images": [],
       "added_date": "2026-04-28",
-      "updated_date": "2026-08-17",
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
@@ -400,7 +400,7 @@
         "author": "AI产品黄叔",
         "original_date": "2026-04-24"
       },
-      "category": "agents/hermes",
+      "category": "agents",
       "tags": [
         "hermes-agent",
         "codex",
@@ -420,7 +420,7 @@
       "local_path": "X 文章/2026-04-27-1221-AI产品黄叔-Hermas接入Codex GPT-im.md",
       "images": [],
       "added_date": "2026-04-28",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [
         "145978a6"
@@ -436,7 +436,7 @@
         "author": "Dr. Moyu 摸鱼局长",
         "original_date": "2026-04-21"
       },
-      "category": "agents/ecosystem",
+      "category": "agents",
       "tags": [
         "hermes-agent",
         "agent-ecosystem",
@@ -456,17 +456,17 @@
       "local_path": "X 文章/2026-04-27-1221-Dr Moyu 摸鱼局长-Hermes Agent 8个实用项目推.md",
       "images": [],
       "added_date": "2026-04-28",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
     },
     {
       "id": "baoyu_ai_strategy_2026_001",
-      "category": "industry/strategy",
+      "category": "industry",
       "status": "active",
       "added_date": "2026-04-27",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "language": "zh",
       "title": "为什么你的\"AI 优先\"战略可能大错特错？",
       "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2654899999&idx=1&sn=example_hash",
@@ -495,13 +495,13 @@
     {
       "id": "google_io_2026_001",
       "title": "Google I/O 2026: The Agentic Era of Development",
-      "url": "https://developers.googleblog.com/get-ready-for-google-io-livestream-schedule-revealed/",
+      "url": "https://developers.googleblog.com/get-ready-for-google-io-livestream-schedule-revealed",
       "source": {
         "platform": "google",
         "author": "Google Developers",
         "original_date": "2026-04-30"
       },
-      "category": "industry/strategy",
+      "category": "industry",
       "tags": [
         "Google I/O",
         "agentic era",
@@ -520,7 +520,7 @@
       "local_path": "content/google_io_2026_001.md",
       "images": [],
       "added_date": "2026-04-30",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
@@ -530,13 +530,13 @@
     {
       "id": "gemini_3_flash_cli_2026_001",
       "title": "Gemini 3 Flash Now Available in Gemini CLI: Pro-grade Coding Performance",
-      "url": "https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli/",
+      "url": "https://developers.googleblog.com/gemini-3-flash-is-now-available-in-gemini-cli",
       "source": {
         "platform": "google",
         "author": "Google AI",
         "original_date": "2026-04-30"
       },
-      "category": "coding-agents/tools",
+      "category": "coding",
       "tags": [
         "Gemini 3 Flash",
         "CLI",
@@ -556,7 +556,7 @@
       "local_path": "content/gemini_3_flash_cli_2026_001.md",
       "images": [],
       "added_date": "2026-04-30",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
@@ -566,13 +566,13 @@
     {
       "id": "google_antigravity_2026_001",
       "title": "Google Antigravity: New Agentic Development Platform for Code Orchestration",
-      "url": "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/",
+      "url": "https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform",
       "source": {
         "platform": "google",
         "author": "Google AI",
         "original日期": "2026-04-30"
       },
-      "category": "agents/frameworks",
+      "category": "agents",
       "tags": [
         "Google Antigravity",
         "agentic development",
@@ -592,7 +592,7 @@
       "local_path": "content/google_antigravity_2026_001.md",
       "images": [],
       "added_date": "2026-04-30",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
@@ -602,13 +602,13 @@
     {
       "id": "mcp_2026_roadmap_001",
       "title": "MCP 2026: Addressing Context Bloat and Enterprise Integration",
-      "url": "https://knowi.com/model-context-protocol-mcp-2026/",
+      "url": "https://knowi.com/model-context-protocol-mcp-2026",
       "source": {
         "platform": "anthropic",
         "author": "David Soria Parra",
         "original_date": "2026-04-30"
       },
-      "category": "agents/frameworks",
+      "category": "agents",
       "tags": [
         "MCP",
         "context bloat",
@@ -627,7 +627,7 @@
       "local_path": "content/mcp_2026_roadmap_001.md",
       "images": [],
       "added_date": "2026-04-30",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
@@ -637,13 +637,13 @@
     {
       "id": "real_world_gemini3_agents_2026_001",
       "title": "Real-World Agent Examples with Gemini 3: Open-source Framework Collaborations",
-      "url": "https://developers.googleblog.com/real-world-agent-examples-with-gemini-3/",
+      "url": "https://developers.googleblog.com/real-world-agent-examples-with-gemini-3",
       "source": {
         "platform": "google",
         "author": "Google AI",
         "original_date": "2026-04-30"
       },
-      "category": "agents/frameworks",
+      "category": "agents",
       "tags": [
         "Gemini 3",
         "agent examples",
@@ -667,7 +667,7 @@
       "local_path": "content/real_world_gemini3_agents_2026_001.md",
       "images": [],
       "added_date": "2026-04-30",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
@@ -792,7 +792,7 @@
         "author": "Anthropic Research",
         "original_date": "2026-04-02"
       },
-      "category": "learning/research",
+      "category": "learning",
       "tags": [
         "emotion",
         "LLM",
@@ -813,7 +813,7 @@
       "local_path": "content/anthropic_emotion_concepts_2026_001.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
@@ -829,7 +829,7 @@
         "author": "Anthropic Research",
         "original_date": "2026-04-30"
       },
-      "category": "learning/research",
+      "category": "learning",
       "tags": [
         "Claude",
         "user-behavior",
@@ -849,7 +849,7 @@
       "local_path": "content/claude_personal_guidance_2026_001.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
@@ -865,7 +865,7 @@
         "author": "Anthropic",
         "original_date": "2026-04-17"
       },
-      "category": "coding-agents/tools",
+      "category": "coding",
       "tags": [
         "Claude Design",
         "visual-collaboration",
@@ -885,7 +885,7 @@
       "local_path": "content/claude_design_2026_001.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -893,7 +893,7 @@
     {
       "id": "gemini_robotics_er16_2026_001",
       "title": "Gemini Robotics-ER 1.6: Enhanced Embodied Reasoning for Robots",
-      "url": "https://deepmind.google/technologies/gemini-robotics/",
+      "url": "https://deepmind.google/technologies/gemini-robotics",
       "source": {
         "platform": "google",
         "author": "Google DeepMind",
@@ -935,7 +935,7 @@
         "author": "宝玉",
         "original_date": "2026-04-28"
       },
-      "category": "coding-agents/best-practices",
+      "category": "coding",
       "tags": [
         "Claude Code",
         "session-management",
@@ -955,7 +955,7 @@
       "local_path": "content/baoyu_claude_code_session_2026_001.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
@@ -971,7 +971,7 @@
         "author": "宝玉",
         "original_date": "2026-04-27"
       },
-      "category": "agents/frameworks",
+      "category": "agents",
       "tags": [
         "multi-agent",
         "collaboration",
@@ -991,7 +991,7 @@
       "local_path": "content/baoyu_multi_agent_collab_2026_001.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false,
@@ -1007,7 +1007,7 @@
         "author": "OpenAI",
         "original_date": "2026-04-29"
       },
-      "category": "learning/research",
+      "category": "learning",
       "tags": [
         "OpenAI",
         "GPT-5",
@@ -1028,7 +1028,7 @@
       "local_path": "content/openai_goblin_problem_2026_001.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -1036,7 +1036,7 @@
     {
       "id": "gemini31_flash_tts_2026_001",
       "title": "Gemini 3.1 Flash TTS Preview: Cost-Efficient Expressive Text-to-Speech",
-      "url": "https://deepmind.google/technologies/gemini/flash-tts/",
+      "url": "https://deepmind.google/technologies/gemini/flash-tts",
       "source": {
         "platform": "google",
         "author": "Google DeepMind",
@@ -1062,7 +1062,7 @@
       "local_path": "content/gemini31_flash_tts_2026_001.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [],
       "local_path_valid": false
@@ -8013,13 +8013,15 @@
       "one_liner": "高价值AI内容 - OpenAI",
       "one_liner_author": "openclaw",
       "quality_score": 2,
-      "status": "score-pending",
+      "status": "archived",
       "local_path": "content/d1c99260.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
-      "related": []
+      "related": [
+        "bvtltcyq"
+      ]
     },
     {
       "id": "35a4e7c3",
@@ -15192,13 +15194,15 @@
       "one_liner": "高价值AI内容 - geoffreyhinton",
       "one_liner_author": "openclaw",
       "quality_score": 2,
-      "status": "score-pending",
+      "status": "archived",
       "local_path": "content/224d84ef.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
-      "related": []
+      "related": [
+        "bengiaf07"
+      ]
     },
     {
       "id": "b43530e6",
@@ -24740,7 +24744,7 @@
         "author": "@yudapeathree",
         "original_date": "2026-06-18"
       },
-      "category": "ai-tools/workflow/prompt/content-creation",
+      "category": "uncategorized",
       "tags": [
         "x",
         "ai-tools",
@@ -24758,7 +24762,7 @@
       "local_path": null,
       "images": [],
       "added_date": "2026-06-18",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": []
     },
@@ -24771,7 +24775,7 @@
         "author": "@karpathy",
         "original_date": "2026-06-18"
       },
-      "category": "ai-tools/workflow/prompt/content-creation",
+      "category": "uncategorized",
       "tags": [
         "x",
         "ai-tools",
@@ -24789,7 +24793,7 @@
       "local_path": null,
       "images": [],
       "added_date": "2026-06-18",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": []
     },
@@ -24802,7 +24806,7 @@
         "author": "@hardmaru",
         "original_date": "2026-06-18"
       },
-      "category": "ai-tools/workflow/prompt/content-creation",
+      "category": "uncategorized",
       "tags": [
         "x",
         "ai-tools",
@@ -24820,7 +24824,7 @@
       "local_path": null,
       "images": [],
       "added_date": "2026-06-18",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": []
     },
@@ -24833,7 +24837,7 @@
         "author": "@fchollet",
         "original_date": "2026-06-18"
       },
-      "category": "ai-tools/workflow/prompt/content-creation",
+      "category": "uncategorized",
       "tags": [
         "x",
         "ai-tools",
@@ -24851,7 +24855,7 @@
       "local_path": null,
       "images": [],
       "added_date": "2026-06-18",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": []
     },
@@ -24864,7 +24868,7 @@
         "author": "@jeremyphoward",
         "original_date": "2026-06-18"
       },
-      "category": "ai-tools/workflow/prompt/content-creation",
+      "category": "uncategorized",
       "tags": [
         "x",
         "ai-tools",
@@ -24882,7 +24886,7 @@
       "local_path": null,
       "images": [],
       "added_date": "2026-06-18",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": []
     },
@@ -29371,10 +29375,11 @@
       "local_path": "content/bengiaf07.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-17",
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [
-        "19de6abd"
+        "19de6abd",
+        "585edf58"
       ]
     },
     {
@@ -31288,7 +31293,7 @@
     {
       "id": "mckwifwe",
       "title": "Mckwifwe",
-      "url": "https://www.macrumors.com/2026/04/16/openai-codex-mac-update/",
+      "url": "https://www.macrumors.com/2026/04/16/openai-codex-mac-update",
       "source": {
         "platform": "blog",
         "author": null,
@@ -31307,7 +31312,7 @@
       "local_path": "content/MCKwiFWE.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": []
     },
@@ -33467,7 +33472,7 @@
     {
       "id": "8lwuhhmb",
       "title": "AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice",
-      "url": "https://www.bestblogs.dev/explore?keyword=AI%20Coding%20In-Depth%20Sharing%20How%20to%20Truly%20Utilize%20Tools",
+      "url": "https://www.bestblogs.dev/explore?keyword=AI+Coding+In-Depth+Sharing+How+to+Truly+Utilize+Tools",
       "source": {
         "platform": "blog",
         "author": null,
@@ -37688,10 +37693,11 @@
       "local_path": "content/BVTltcYQ.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-17",
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": [
-        "5d2b4abd"
+        "5d2b4abd",
+        "1a284cb5"
       ]
     },
     {
@@ -37996,7 +38002,7 @@
     {
       "id": "fvwtcwdn",
       "title": "Fvwtcwdn",
-      "url": "https://lucumr.pocoo.org/2026/1/31/pi/",
+      "url": "https://lucumr.pocoo.org/2026/1/31/pi",
       "source": {
         "platform": "blog",
         "author": null,
@@ -38015,7 +38021,7 @@
       "local_path": "content/fvwtcwdn.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": null,
+      "updated_date": "2026-08-19",
       "github_stars": null,
       "related": []
     },
@@ -54792,6 +54798,6 @@
       ]
     }
   ],
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-19",
   "total_entries": 1866
 }
