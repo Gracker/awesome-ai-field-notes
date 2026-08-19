@@ -54796,8 +54796,266 @@
       "related": [
         "9f1cc05b"
       ]
+    },
+    {
+      "id": "fa170211",
+      "title": "Physics of Agents: Statistical Mechanics Predicts Collective Behavior of AI Agents",
+      "url": "https://arxiv.org/abs/2608.16578",
+      "source": {
+        "platform": "arxiv",
+        "author": "Batu El, Jinhee Paeng, Fatih Dinc, Shiye Su, Mete Erdogan, Aneesh Pappu, Haotian Ye, Wanjia Zhao, Su...",
+        "original_date": "2026-08-17"
+      },
+      "category": "learning",
+      "tags": [
+        "multi-agent",
+        "collective-behavior",
+        "statistical-mechanics",
+        "opinion-dynamics",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "研究 10,000+ 个由语言模型 agent 组成的社区：agent 反复交换消息并修订观点，问题横跨客观数学题与主观政治陈述个体与群体动态可归为三种典型状态：冷漠极化共识；agent 从冷漠起步随交互积累确信客观问题上交流提升集体准确率，主观问题上则常使群体观点向政治光谱右端漂移作者用统计力学形式化刻画假设 agent 随机偏好更低的社会压力仅凭初始观点即可预测个体轨迹，优于全部标准基线，可泛化到未见过的社区图并复现群体原型分布，为多智能体系统的设计与对齐提供可预测的物理式框架",
+      "summary_en": "Studies over 10,000 communities of language-model agents that repeatedly exchange messages and revise opinions across objective mathematics questions and subjective political statements. Individual and group dynamics fall into three characteristic regimes: indifference, polarization, and consensus. Agents start indifferent and build conviction as they interact; communication improves collective accuracy on objective questions while on subjective ones it often drifts group opinions toward the political right. A statistical-mechanics formalism in which agents stochastically favor lower social pressure predicts individual trajectories from initial opinions alone, outperforms all standard baselines, generalizes to unseen community graphs, and reproduces observed group archetype distributions.",
+      "one_liner": "统计力学预测 AI agent 群体行为：一万多个 LLM 社区归为冷漠/极化/共识三态，仅凭初始观点即可预测轨迹",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fa170211.md",
+      "images": [],
+      "added_date": "2026-08-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a67418a4",
+      "title": "MELD: A Protocol for Merging Knowledge Across Distributed Agentic Memories",
+      "url": "https://arxiv.org/abs/2608.16357",
+      "source": {
+        "platform": "arxiv",
+        "author": "Lauri Loven, Jaakko Sauvola, Jukka Riekki, Sasu Tarkoma",
+        "original_date": "2026-08-17"
+      },
+      "category": "learning",
+      "tags": [
+        "agent-memory",
+        "knowledge-graph",
+        "federation",
+        "crdt",
+        "protocol",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "填补联邦式 agent 记忆的协议空白：agent 之间可互调工具却无法共享所知没有协议能对同一事实的两种措辞做合并关联远隔的事实或在不静默丢弃任何一方主张的前提下处理矛盾MELD 以知识图谱本身为运行时模型，每个记忆体通过五结果程序（插入/合并/关联/冲突/拒绝）接纳外来 claim，判据是 scoped claim-key 同一性嵌入相似度与 NLI 裁决，叠加上下文与新鲜度门控；唯一变更状态的对象是可审计可认证的 Patch绑定标准 pub/sub 传输并配 per-claim 状态 CRDT，无协调者即可在分区与有损路由下自愈防 peer 静默改写；检测到的矛盾保留待裁决而非静默消解HotpotQA distractor 上分布式合并不劣于集中式存储召回优于朴素并集，在线存储少约 11%",
+      "summary_en": "Autonomous agents can share transport and call each other's tools, but no protocol lets two agents' memories reconcile a fact phrased two ways, link related facts, or handle contradictions without silently discarding either claim. MELD is a self-managing coherence mechanism for federated agent memories whose run-time model is the knowledge graph itself: each brain admits incoming claims via a five-outcome procedure (insert, merge, relate, conflict, reject) decided from scoped claim-key identity, embedding similarity, and an NLI verdict under context and freshness gates, acting through exactly one auditable, authenticated Patch. A publish/subscribe binding with per-claim status CRDTs keeps sovereign brains coherent without a coordinator, self-healing after partitions and lossy routing while protecting against silent rewrite by a peer....",
+      "one_liner": "分布式 agent 记忆合并协议：五结果准入 + 可审计 Patch + CRDT，无协调者自愈且存储省 11%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a67418a4.md",
+      "images": [],
+      "added_date": "2026-08-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "897b7984",
+      "title": "VCE-Skill: Enhancing Skill Self-Evolution with Version-Change Experience",
+      "url": "https://arxiv.org/abs/2608.16544",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jianming Chen, Xuanbin Ye, Yawen Wang, Junjie Wang, Qing Wang, Fanjiang Xu",
+        "original_date": "2026-08-17"
+      },
+      "category": "learning",
+      "tags": [
+        "skill-evolution",
+        "self-improvement",
+        "agents",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "现有技能自演化方法只用当前任务的执行轨迹修订技能，公共技能版本历史中积累的演化知识基本未被利用作者试点研究揭示两类来源互补：公开技能变更提供可复用的演化先验，轨迹提供贴合当前任务的证据VCE-Skill 把噪声大实现相关的公开技能变更蒸馏为结构化可复用的'版本变更经验'，并与基础演化器的轨迹派生提案自适应融合实验显示技能自演化平均提升 3.20-4.98 分，迁移实验进一步表明所得技能跨模型迁移表现更强，把公开版本变更确立为一种此前被低估的先验知识来源",
+      "summary_en": "Agents increasingly rely on reusable skills to encode task knowledge, tool-use procedures, and validation rules, but existing skill self-evolution methods revise skills only from execution trajectories of current tasks, leaving the evolution knowledge accumulated in public skill version histories untapped. A pilot study reveals complementarity: public skill changes provide reusable evolution priors while trajectories provide evidence grounded in the current task. VCE-Skill distills noisy, implementation-specific public skill changes into structured, reusable version-change experience and adaptively fuses it with trajectory-derived proposals from the base evolver. Experiments show 3.20-4.98 point mean score improvements, and transfer experiments show the resulting skills achieve stronger cross-model transfer.",
+      "one_liner": "技能自演化新先验：蒸馏公开技能版本变更史，均值提升 3.2-5.0 分且跨模型迁移更强",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/897b7984.md",
+      "images": [],
+      "added_date": "2026-08-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8a6bd3ae",
+      "title": "Implementation of a Metacognition Framework for Self-Awareness and Self-Regulation in Ensembles of LLMs",
+      "url": "https://arxiv.org/abs/2608.15400",
+      "source": {
+        "platform": "arxiv",
+        "author": "Charles Courchaine, Ricky J. Sethi, Hefei Qiu",
+        "original_date": "2026-08-15"
+      },
+      "category": "learning",
+      "tags": [
+        "metacognition",
+        "llm-ensemble",
+        "self-awareness",
+        "agents",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "LLM 难以评估自身不确定性发现知识冲突识别超出能力边界的问题，损害可靠性与可信度本文给出面向 LLM 集成的元认知框架首次实现，包含显式的监测与控制机制：计算'元认知状态向量'（MSV），沿源自认知心理学的五个维度量化自知力情绪反应正确性评估经验匹配信息冲突问题重要性MSV 同时驱动自调节：按查询复杂度在 System 1（快速，单/多节点）与 System 2（深思，多节点）间自动切换；System 2 执行时用图论算法按各节点的 MSV 状态分配专职角色（Domain ExpertCriticEvaluatorSynthesizerGeneralist）",
+      "summary_en": "LLMs struggle to assess their own uncertainty, detect knowledge conflicts, or recognize when problems exceed their expertise, undermining reliability and trust. This paper presents the first implementation of a metacognitive framework for ensembles of LLMs with explicit monitoring and control mechanisms. It computes a Metacognitive State Vector (MSV) quantifying self-awareness across five dimensions derived from cognitive psychology: Emotional Response, Correctness Evaluation, Experiential Match, Conflicting Information, and Problem Importance....",
+      "one_liner": "LLM 集成的元认知状态向量：五维自知力量化 + System 1/2 自动切换与角色图分配",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8a6bd3ae.md",
+      "images": [],
+      "added_date": "2026-08-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ab652e80",
+      "title": "Policy Iteration with Human Feedback: Bringing Post-Training RL to In-context Learning",
+      "url": "https://arxiv.org/abs/2608.16831",
+      "source": {
+        "platform": "arxiv",
+        "author": "Minh-Ha Nguyen, Cathy Shyr",
+        "original_date": "2026-08-17"
+      },
+      "category": "learning",
+      "tags": [
+        "in-context-learning",
+        "policy-iteration",
+        "human-feedback",
+        "reinforcement-learning",
+        "clinical-ai",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "把后训练 RL 的'评估改进'循环移植到 in-context learning：预训练 LM 只充当执行基底，持久修订发生在版本化的自然语言策略与工具集上LM critic 与临床专家复盘全项推理和工具使用轨迹，定位复发性失败并形成候选修订；专家可重新解读证据并保留采纳与回滚的最终权力，修订后以 Recall@1/Recall@5 验证成效在超罕见病基准上，PIHF 派生策略让 GPT-5.4 的 Recall@1 提升 32.7 个百分点Qwen3.6-35B 提升 31.1 个百分点，覆盖 3-49B 激活参数的专有与开源执行器'不动权重迭代提示策略'路线的有力证据",
+      "summary_en": "PIHF (Policy Iteration with Human Feedback) transfers the recurrent evaluate-and-improve structure of generalized policy iteration into in-context learning: a pretrained language model serves as the execution substrate while persistent revision targets a versioned natural-language policy and tool set. An LM critic and a clinical expert review complete-panel reasoning and tool-use trajectories to localize recurrent failures and form candidate revisions; the expert may reinterpret the evidence and retains authority over admission and rollback, with Recall@1 and Recall@5 validating outcomes after candidate execution....",
+      "one_liner": "策略迭代+人类反馈：迭代版本化自然语言策略，GPT-5.4 罕见病 Recall@1 提升 32.7 个百分点",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ab652e80.md",
+      "images": [],
+      "added_date": "2026-08-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8aad2976",
+      "title": "What Do Compliance Detectors Read? An Audit of Activation Probes and Guard Models",
+      "url": "https://arxiv.org/abs/2608.16852",
+      "source": {
+        "platform": "arxiv",
+        "author": "Saisab Sadhu, Aadit Sengupta, Vinay Kumar Sankarapu, Pratinav Seth",
+        "original_date": "2026-08-17"
+      },
+      "category": "learning",
+      "tags": [
+        "compliance",
+        "safety",
+        "audit",
+        "activation-probes",
+        "guard-models",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "对部署侧 LLM 合规监测器的审计发现'规则盲视'（rule blindness）：删除置换或替换适用规则，所有被测 guard 与激活探针的检测准确率几乎不变包括能正确引用适用条款的策略条件 guard，把条款换成宽松版后判定也几乎不动作者构造规则x场景交叉基准（单看任一维度都无法预测标签），在此前基准未排除的设计下证实该失效；被测对象中只有逐步推理而非任何快速检测器能逃出为规模化审计另提出免训练的激活层检测器 Internal Compliance Score（ICS）对把合规检测当作法律/审计控制直接使用的做法是一记直接警示",
+      "summary_en": "Regulatory compliance monitoring of deployed language models is increasingly implemented as a legal and audit control, but it is meaningful only if the detector's verdict depends on the stated rule rather than surface features. The audit shows this condition fails across the current class of compliance detectors - a failure the authors call rule blindness: deleting, permuting, or substituting the governing rule leaves detection accuracy unchanged for every guard and activation probe tested, including a policy-conditioned guard that correctly cites the governing clause yet barely changes its verdict when the clause is swapped for its permissive counterpart....",
+      "one_liner": "合规检测器'规则盲视'审计：换掉规则判定不变，只有逐步推理能逃出该失效",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8aad2976.md",
+      "images": [],
+      "added_date": "2026-08-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "074c995c",
+      "title": "ETHOS: Towards a Modular Ethics Framework for Clinical Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2608.15424",
+      "source": {
+        "platform": "arxiv",
+        "author": "Rakesh Sharma, Sydney Pugh, Cameron Beeche, Pankhuri Singhal, Rachel Wu, Margaret Eby, Jeffrey Duda...",
+        "original_date": "2026-08-15"
+      },
+      "category": "learning",
+      "tags": [
+        "clinical-ai",
+        "ethics",
+        "governance",
+        "multi-agent",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "基于 LLM 的临床多智能体系统（MAS）可整合多模态患者数据支撑越来越复杂的临床决策，但真实医疗场景部署引发安全公平问责透明与患者信任等伦理关切；WHO美国国家医学院FUTURE-AI 联盟等提出的治理原则大多停留在概念层ETHOS（Ethics and Trust through Hierarchical Oversight System）把模块化伦理框架实现为'治理元 agent'，无需改动架构即可接入任意现有多智能体系统，将组织层面的伦理原则从纸面文档转入运行时强制执行",
+      "summary_en": "Clinical multi-agent systems (MAS) built on LLMs integrate multimodal patient data and support complex clinical decision-making, but deployment raises ethical concerns around safety, fairness, accountability, transparency, and patient trust. Governance proposals from WHO, the National Academy of Medicine, and the FUTURE-AI consortium remain largely conceptual. ETHOS (Ethics and Trust through Hierarchical Oversight System) is a modular ethics framework implemented as a governance meta-agent that can be integrated with any existing multi-agent system without requiring architectural changes, moving organizational ethics principles from documents into runtime enforcement.",
+      "one_liner": "临床多智能体系统的治理元 agent：模块化伦理框架，不改架构接入任意 MAS 并运行时执行",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/074c995c.md",
+      "images": [],
+      "added_date": "2026-08-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "10a5b0bc",
+      "title": "Red Agent Exploits Snowflake Vuln Missed by GitHub Copilot",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "source": {
+        "platform": "blog",
+        "author": "Wiz Research (Gal Nagli)",
+        "original_date": "2026-08-17"
+      },
+      "category": "coding",
+      "tags": [
+        "agent-security",
+        "cicd",
+        "github-actions",
+        "vulnerability",
+        "red-team"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Wiz 的自主安全研究 agent 'Red Agent' 通过 Snowflake 的 HackerOne 项目发现 snowflake-connector-net 仓库的 GitHub Actions 脚本注入漏洞：任何未认证用户开一个标题经构造的 issue，即可在 Actions runner 内执行任意命令注入模式随 2026-06-18 合并的 PR #1218 上线Copilot 作为 co-author 检查过合并后变更并给出 all-clear，GitHub Advanced Security 扫描同样未标记；Red Agent 在漏洞上线五天内发现并完成利用（经外泄 token 进入 Snowflake 的 Jira 门户）6 月 23 日负责任披露当天 Snowflake 完成修复轮换凭据并经审计日志确认暴露窗口内唯一操作者是 Wiz攻防不对称的现实样本：AI 编码 agent 参与引入的漏洞能通过既有自动安全检查，而自主安全 agent 已能在野外快速发现并利用",
+      "summary_en": "Through Snowflake's HackerOne program, Wiz Research's Red Agent - an autonomous, AI-powered security research tool - identified a critical GitHub Actions script-injection vulnerability in snowflakedb/snowflake-connector-net: an unauthenticated user could execute arbitrary commands inside an Actions runner by opening an issue with a specially crafted title. The injectable pattern went live on June 18, 2026 when PR #1218 was merged, with GitHub Copilot as co-author reviewing the merged change and rating it all-clear, and GitHub Advanced Security not flagging the critical injection. Red Agent discovered the bug five days after it went live and demonstrated impact by reaching Snowflake's Jira portal via an exfiltrated token; after responsible disclosure on June 23, Snowflake remediated the same day, rotated credentials, and verified via audit logs that Wiz was the sole actor.",
+      "one_liner": "Red Agent 五天攻破 Snowflake CI/CD：Copilot 审查为 all-clear 的 Actions 注入漏洞被自主安全 agent 发现并利用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/10a5b0bc.md",
+      "images": [],
+      "added_date": "2026-08-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-19",
-  "total_entries": 1866
+  "total_entries": 1874
 }

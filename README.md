@@ -11,9 +11,9 @@
 - [手写 200 行 agent loop：区分玩 AI与懂 Agent的分界线](https://x.com/Ryrenz/status/2089188971720896902) ⭐4 · 2026-08-17 — 判断有没有懂 agent，看能不能手写出带停机与工具门的 200 行 loop
 - [Models Are Getting Dumber on Purpose](https://w4g1.dev/blog/models-are-getting-dumber-on-purpose) ⭐4 · 2026-08-17 — 反共识归因：事实层正被设计成可选件训练贵迭代慢的知识让位给检索，小模型负责推理
 - [AI Alignment as a Thought-Terminating Cliche](https://borretti.me/article/ai-alignment-as-thought-terminating-cliche) ⭐4 · 2026-08-17 — aligned ASI是能证明任何结论的不透明前提，不是技术路线
-- [Anthropics First Lady Took a Winding Road to the Top](https://www.theinformation.com/articles/anthropics-first-lady-took-winding-road-top) ⭐3 · 2026-08-17 — Anthropic 治理拼图里被忽略的一块：无正式 title 但绕不开的第一夫人侧写
-- [Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things](https://simonwillison.net/2026/Aug/16/qwen-38-27b) ⭐4 · 2026-08-16 — 27B 本地模型的首发权威评测：默认 xhigh 推理严重过度思考，关掉后仍是当前最实用的本地模型之一
-- [How I think about reducing AI costs](https://martinalderson.com/posts/how-i-think-about-reducing-ai-costs) ⭐4 · 2026-08-16 — AI 账单降本的工程化四层下钻：从拆账换模型到 agent 工具返回限长，每层都有实测数字
+- [What Do Compliance Detectors Read? An Audit of Activation Probes and Guard Models](https://arxiv.org/abs/2608.16852) ⭐4 · 2026-08-17 — 合规检测器'规则盲视'审计：换掉规则判定不变，只有逐步推理能逃出该失效
+- [VCE-Skill: Enhancing Skill Self-Evolution with Version-Change Experience](https://arxiv.org/abs/2608.16544) ⭐4 · 2026-08-17 — 技能自演化新先验：蒸馏公开技能版本变更史，均值提升 3.2-5.0 分且跨模型迁移更强
+- [Policy Iteration with Human Feedback: Bringing Post-Training RL to In-context Learning](https://arxiv.org/abs/2608.16831) ⭐4 · 2026-08-17 — 策略迭代+人类反馈：迭代版本化自然语言策略，GPT-5.4 罕见病 Recall@1 提升 32.7 个百分点
 
 ## 频道导航
 
@@ -21,23 +21,23 @@
 |---|---:|---|
 | 模型与实验室 | 287 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
 | Agent 与自动化 | 268 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 141 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| AI 编程 | 142 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 62 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 79 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 55 | 论文、课程、提示工程、长文、方法论。 |
+| 研究与学习 | 62 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 138 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 1866
-- 公开展示卡片: 1030
+- 原始条目: 1874
+- 公开展示卡片: 1038
 - 有全文内容: 950
-- 最近 7 天信号: 115
+- 最近 7 天信号: 123
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`llm`, `ai-tools`, `arxiv`, `benchmark`, `research`, `evaluation`, `openai`, `anthropic`, `attention`, `google`, `security`, `coding-agent`, `multi-agent`, `claude-code`, `agent-memory`, `agent-security`, `coding-agents`, `optimization`
+`llm`, `ai-tools`, `arxiv`, `benchmark`, `research`, `evaluation`, `openai`, `anthropic`, `attention`, `google`, `multi-agent`, `security`, `coding-agent`, `claude-code`, `agent-memory`, `agent-security`, `coding-agents`, `optimization`
 
 ## 自动化约定
 
