@@ -55632,8 +55632,430 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "958a9b26",
+      "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
+      "url": "https://arxiv.org/abs/2608.17528",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhiyuan He, Siwei Zhang, Zhiwen Zhou, Yuqing Yang, Yu Kang, Yuge Zhang, Luna K....",
+        "original_date": "2026-08-18"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "rl",
+        "harness",
+        "arxiv",
+        "paper"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Agent Lightning v1.0 用约 3500 行代码把部署时的 agent harness 直接接入 RL 后训练，提出 harnessed agentic RL 范式：环境交互循环由 harness 持有，训练器只观察 LLM 请求-响应对序列论文系统处理了重分词样本合并优势计算损失归一化与后端调度五个工程问题，覆盖指令跟随搜索编码三类 agent，并提供完整可复现的编码 agent RL 管线只用 6K 训练样本与中等算力，Qwen3.5-9B 在 SWE-bench Verified 上从 41.8% 提升到 56.4%，绝对提升 14.6 个点该架构思路已被 verl Uni-AgentAReaL 2.0slimePolar 等框架采用",
+      "summary_en": "Agent Lightning v1.0 is a lightweight framework (~3,500 lines) for harnessed agentic RL, where the deploy-time harness owns the environment interaction loop and the trainer observes only LLM request-response pairs. It tackles retokenization, sample merging, advantage calculation, loss normalization, and backend scheduling; evaluates instruction-following, search, and coding agents; and ships a complete reproducible coding-agent RL pipeline. With only 6K training examples and modest compute, RL improves Qwen3.5-9B on SWE-bench Verified from 41.8% to 56.4% (14.6-point absolute gain). The architecture was later adopted by verl Uni-Agent, AReaL 2.0, slime, and Polar.",
+      "one_liner": "把部署 harness 接进 RL 训练循环的轻量开源框架，6K 样本让 9B 模型 SWE-bench 提升 14.6 个点",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/958a9b26.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "47215642",
+        "c4c02acb"
+      ]
+    },
+    {
+      "id": "49e9d662",
+      "title": "The Working Set of a Coding Agent: Coherence Debt in Repository-Scale Tasks",
+      "url": "https://arxiv.org/abs/2608.16630",
+      "source": {
+        "platform": "arxiv",
+        "author": "Bardia Mohammadi, Lars Klein, Aman Chadha, Akhil Arora, Laurent Bindschaedler",
+        "original_date": "2026-08-17"
+      },
+      "category": "agents",
+      "tags": [
+        "coding-agent",
+        "context-engineering",
+        "benchmark",
+        "arxiv",
+        "paper"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文把仓库级编码任务建模为耦合事实图的重建：每次编辑所需事实来自近期上下文或参数记忆，两边都覆盖不到的部分构成 coherence debt（一致性债）在 7 个模型5 种 harness 上做事实供给/扣留与故障注入：两个通道全空时没有模型能完成陌生 API 任务；对真实库重命名后 7 个模型全部在同一位置失败决定结果的是事实可得性而非距离，不同 harness 达到同样通过率的 token 消耗相差超 10 倍；事实被扣留时多花 token 什么都换不回，且缺事实时 agent 倾向产出错误工作（编造文件猜测取值）而非停滞",
+      "summary_en": "Repository-scale coding is modeled as reconstructing a coupled-fact graph: at each edit a required fact comes from recent context or parametric memory, and facts covered by neither form coherence debt. Supply/withhold experiments across seven models and five harnesses show no model completes an unseen-API task with both channels empty, and a rename defeats all seven models in the same place. Availability, not distance, decides outcomes; harnesses passing the same tests differ more than tenfold in tokens; missing facts yield fabricated wrong work rather than blocked work.",
+      "one_liner": "用耦合事实图刻画 coding agent 的上下文策略：事实可得性而非距离决定成败，harness 间 token 效率相差 10 倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/49e9d662.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "47215642",
+        "e53f96ec"
+      ]
+    },
+    {
+      "id": "f28f838c",
+      "title": "MoNe: Modular Neural Memory for Efficient Long Context Inference",
+      "url": "https://arxiv.org/abs/2608.17616",
+      "source": {
+        "platform": "arxiv",
+        "author": "Wonguk Cho, Kyubyung Chae, Tribhuvanesh Orekondy, Sunghyun Park, Hyoungwoo Park, Jeongho Kim, Arash...",
+        "original_date": "2026-08-18"
+      },
+      "category": "models",
+      "tags": [
+        "long-context",
+        "neural-memory",
+        "inference",
+        "arxiv",
+        "paper"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "MoNe 是挂在任意冻结预训练 Transformer 上的轻量模块化神经记忆，无需重训即可支持长上下文推理机制分两阶段：预处理阶段按固定大小分段读取上下文，用测试时学习的快权重记忆网络做层局部梯度更新；推理阶段只从 query token 生成 key/value，不再重读任何上下文 token推理代价与上下文长度解耦：预处理 O(N)查询 O(1)，峰值 GPU 显存不随上下文长度增长128K token 下相比直接上下文内学习计算量与峰值显存各降约 80%，参数开销仅 6.4%，并在 RULER 针堆取数与词提取基准上保持强势",
+      "summary_en": "MoNe is a lightweight modular neural memory that attaches to any frozen pretrained Transformer for long-context inference without retraining. It reads context in fixed-size segments via test-time learning of fast-weight memory networks with layer-localized gradient updates; at inference the memory generates keys and values from query tokens alone. This decouples inference cost from context length: O(N) preprocessing, O(1) query, peak GPU memory constant in N. At 128K tokens it cuts compute and peak memory by ~80% vs ICL with 6.4% parameter overhead, staying strong on RULER needle-in-a-haystack and word extraction where ICL degrades sharply.",
+      "one_liner": "冻结骨干上的模块化神经记忆：O(1) 查询峰值显存不随上下文增长，128K 下省 80% 算力",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f28f838c.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "00c4ff63",
+      "title": "What Aggregate Scores Miss: Measuring Item-Level Regressions in Commercial LLM API Migrations",
+      "url": "https://arxiv.org/abs/2608.17719",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xiaonan Xu, Wenjing Wu",
+        "original_date": "2026-08-18"
+      },
+      "category": "models",
+      "tags": [
+        "benchmark",
+        "evaluation",
+        "llm-api",
+        "arxiv",
+        "paper"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "依赖商业 LLM API 的系统在厂商废弃旧模型时必须迁移，而迁移决策通常只看聚合基准分作者在 GPT-5.4 到 GPT-5.6 Sol 的三次两两升级上，对 900 个公开基准题每题每模型查询 50 次，在错误发现率控制与实际显著性阈值下逐题分类为可靠改进可靠退化等价或不确定，并用标签置换零模型校准结果显示九个迁移-基准单元中可靠改进与可靠退化并存：聚合分上涨 7.3 个点的边上仍有 8.3% 的题可靠退化，聚合分下跌的边上也有最多 10.7% 的题可靠改进指令跟随基准上严格与宽松评分差距在最新迁移拉开 3.9 个点响应级归档与逐题打分输出已公开",
+      "summary_en": "Systems depending on commercial LLM APIs must migrate when vendors deprecate models, and migration decisions usually rely on aggregate benchmark scores. Across three pairwise upgrades from GPT-5.4 to GPT-5.6 Sol, the authors query 900 public benchmark items 50 times per item per model, classifying each item as reliably improved, reliably regressed, equivalent, or inconclusive under FDR control and a practical-significance threshold, calibrated against a label-permutation null. All nine migration-benchmark cells show coexisting reliable improvements and regressions: edges with aggregate gains of up to 7.3 points contain up to 8.3% reliably regressed items, while edges with aggregate losses contain up to 10.7% reliably improved ones.",
+      "one_liner": "聚合分掩盖题级双向变化：API 迁移验收必须看逐题回归，不能只看总分涨跌",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/00c4ff63.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "caacd180",
+      "title": "TRUSS: Towards Task-Reliable and User-Safe Automated Agent Skill Generation",
+      "url": "https://arxiv.org/abs/2608.17588",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhibo Zhang, Zhen Ouyang, Ling Shi, Kailong Wang",
+        "original_date": "2026-08-18"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-skills",
+        "security",
+        "safety",
+        "arxiv",
+        "paper"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "自动生成 Agent Skill 的难点在于，仅凭产物或最终任务结果无法确定 agent 会执行哪些动作产生哪些副作用TRUSS 用证据引导生成：先对照源码与领域证据检查功能声明，按九条预定义安全属性评估完整产物；通过静态门的候选再由受控执行环境中的影子 agent 加载，工具经 broker 暴露给策略执行并记录带溯源的执行轨迹，功能失败与属性违规会回链到责任 Skill 内容驱动迭代修复在 168 个 SkillInject 产物155 个 SkillSafetyBench 案例和 187 个 SkillGenBench 任务上评估：漏洞检测精确率与召回率均达 100%；修复使攻击成功率从 38.71% 降至 19.35%（GPT 5.5）从 46.45% 降至 29.68%（GPT 5.4），零攻击回归；任务有效性从 17.11% 提升到 52.94%",
+      "summary_en": "TRUSS is an evidence-guided framework for generating functionally effective and safety-reliable Agent Skills. It inspects functional claims against source and domain evidence under nine predefined safety properties; candidates passing the static gate are loaded by a shadow agent inside a Controllable Execution Environment where brokered tools expose actions to policy enforcement and record provenance-preserving traces, linking failures and violations back to responsible Skill content for iterative repair. On 168 SkillInject artifacts, 155 SkillSafetyBench cases, and all 187 SkillGenBench tasks: 100% precision and recall in vulnerability detection; repair cuts attack success from 38.71% to 19.35% (GPT 5.5) and 46.45% to 29.68% (GPT 5.4) with zero attack regression; task effectiveness rises from 17.11% to 52.94%.",
+      "one_liner": "证据引导的 Agent Skill 自动生成安全框架：静态门加影子 agent 执行溯源，攻击成功率减半且任务有效性翻三倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/caacd180.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "68c52c81",
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-08-18"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "safety",
+        "security",
+        "alignment",
+        "policy"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 承认即将发布的 Astra 模型可能达到 Preparedness Framework 的 Critical Cybersecurity 阈值，为此暂停最大规模前沿 RL run 两周，期间加固研究集群扩大监控覆盖新监控体系从激活分类器逐 token 运行起步，逐级升级到高算力自动调查者，检查工具动作可用推理与完整活动序列，目标在可疑活动出现 30 分钟内告警并由安全/研究/安保团队接管Astra 所有带工具的推理都被纳入监控，当前监控开销约为被监控推理算力的 20%另含研究环境按工作负载分层沙箱对齐证据要求扩展到训练全过程等措施",
+      "summary_en": "OpenAI discloses that its upcoming model Astra may meet the Critical cybersecurity capability threshold under its Preparedness Framework, prompting a two-week pause on its largest frontier RL run while research clusters were hardened and monitoring expanded. The new multistage monitoring starts with activation classifiers running at every sampled token, escalating to high-compute automated investigators that examine tool actions, available reasoning, and full activity sequences, with a 30-minute alert target; all tool-enabled Astra inference is monitored, at roughly 20% overhead of monitored inference compute.",
+      "one_liner": "前沿模型网络能力逼近临界阈值时的第一手工程账：两周训练暂停逐 token 监控与 20% 推理开销",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/68c52c81.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7cb24afa",
+      "title": "Extensible Software in the age of LLMs",
+      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms",
+      "source": {
+        "platform": "blog",
+        "author": "Jeremy Morrell",
+        "original_date": "2026-08-18"
+      },
+      "category": "infra",
+      "tags": [
+        "llm",
+        "extensibility",
+        "sandbox",
+        "capability-model",
+        "web-platform"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cloudflare 工程师长文：web 是最成功的软件分发渠道，但静态网页无法承载 LLM 时代用户用自然语言说出的长尾扩展需求浏览器侧需要一个像 Salesforce Apex 那样能安全运行任意用户代码的机制文章系统铺开基础设施层的权衡：解释器（Lua/QuickJS）V8 isolateMicroVM（Firecracker/libkrun）WASM+WASI，并论证 capability 模型优于 proxy 加鉴权 token 的设计，给出 Object Capability 协议（Cap'n Web）作为能力而非授权的范式，落点是把 LLM 与 sandbox primitive 拼起来让 SaaS 可被自然语言扩展",
+      "summary_en": "A Cloudflare engineer's long-form case that the web is the most successful software distribution channel but cannot serve the long tail of LLM-era natural-language extensions: browsers lack a safe mechanism like Salesforce Apex for running arbitrary user code. The article maps infrastructure options - interpreters (Lua/QuickJS), V8 isolates, MicroVMs (Firecracker/libkrun), WASM+WASI - argues the capability model beats proxy plus auth-token designs, and proposes the Object Capability protocol (Cap'n Web) so SaaS can be extended by natural language safely.",
+      "one_liner": "LLM 时代的 Web 可扩展性设计图谱：从解释器到 MicroVM 的隔离权衡与 capability 模型范式",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7cb24afa.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ab3f8e5d",
+      "title": "fx: Tiny, open, native coding agent",
+      "url": "https://fx.sh",
+      "source": {
+        "platform": "blog",
+        "author": "fx contributors",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agent",
+        "cli",
+        "zig",
+        "wasm",
+        "open-source"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "Zig 编写的实验性 coding agent harness v0.0.4，Apache-2.0 开源，定位是 Unix shell 风格的 agent CLI 而非 IDE 式 TUI关键数字：6.39 MiB 单二进制冷启动 10 微秒常驻内存个位数 MiB极简系统提示压低 TTFT 与 token 成本原生支持 WASM 编译（fx.wasm），可在 Safari 27+ 与 Chrome 浏览器内直接运行，网络栈经浏览器 fetch 委托扩展走 skillspluginsMCPs，模型无关，本地模型或网关均可接入",
+      "summary_en": "fx is an experimental open-source (Apache-2.0) coding agent harness and CLI written in Zig, styled as a Unix-like shell rather than an IDE-in-terminal TUI. Key numbers: 6.39 MiB single binary, 10 microsecond cold start, single-digit MiB resident memory, minimal system prompt for token cost and TTFT. It compiles natively to WebAssembly (fx.wasm) and runs inside Safari 27+ and Chrome with networking delegated to browser fetch; extensibility via skills, plugins, MCPs and it is model-agnostic.",
+      "one_liner": "6.39MiB10 微秒冷启动的 Zig 版 agent CLI：把 coding agent 做成可嵌入的 Unix 工具",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/ab3f8e5d.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "765d7bea",
+      "title": "VRAM Management Part 2: Beyond the Limits of Physical VRAM",
+      "url": "https://pixelcluster.dev/VRAM-Overcommit",
+      "source": {
+        "platform": "blog",
+        "author": "Natalie Vock",
+        "original_date": "2026-08-17"
+      },
+      "category": "infra",
+      "tags": [
+        "linux",
+        "gpu",
+        "amdgpu",
+        "kernel",
+        "vram"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Natalie Vock 的 amdgpu/TTM VRAM overcommit 补丁在 Linux 7.3 上游合并文章解释显存超卖时游戏崩溃的根因：RADV 提交命令时收到 -ENOMEM，而命令提交本身不分配新内存，问题出在 drm_exec 未与 TTM 串联遇 ABBA 死锁直接放弃她将 Christian Knig 2024 年 patchset rebase 到当前内核补掉残留 bug，加入 dmem cgroup 优先级，并按 vkSetDeviceMemoryPriorityEXT 优先级在内核 LRU 中排序 eviction实测把Indiana Jones从 8GiB 显存硬上到 9GiB 请求帧时仍稳定 19.6ms改动已在 SteamOS Stable 与 Preview 生效",
+      "summary_en": "Natalie Vock's amdgpu/TTM VRAM overcommit patches landed in Linux 7.3. The article explains why overcommitted VRAM crashes games: RADV receives -ENOMEM at command submission, which allocates nothing new; the root cause is drm_exec not being integrated with TTM and bailing on ABBA deadlocks. She rebased Christian Knig's 2024 patchset, fixed residual bugs, added dmem cgroup priorities, and ordered kernel-LRU eviction by vkSetDeviceMemoryPriorityEXT priority. Indiana Jones runs stable at 19.6ms frame time when requesting 9GiB on an 8GiB card; changes are already in SteamOS Stable and Preview.",
+      "one_liner": "Linux 7.3 合并的 VRAM overcommit 补丁解读：从 ABBA 死锁到按优先级 eviction 的完整修复链",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/765d7bea.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bed872f3",
+      "title": "Issues in the Repo",
+      "url": "https://nesbitt.io/2026/08/20/issues-in-the-repo.html",
+      "source": {
+        "platform": "blog",
+        "author": "Andrew Nesbitt",
+        "original_date": "2026-08-20"
+      },
+      "category": "coding",
+      "tags": [
+        "git",
+        "issue-tracking",
+        "forge",
+        "distributed",
+        "essay"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "借 GitHub 周一数小时宕机，Andrew Nesbitt 系统综述了二十年来把 issuePRreview 数据塞回 git 自身的五类方案：工作树内 issues 目录（Bugs Everywhereditz）orphan branch（ticgithaxy）git notes（git-appraise）自定义 ref namespace（git-bugGerrit NoteDbRadicle）内置 VCS（Fossil）每类都附真实 git 命令输出，结尾演示 git bundle 把所有 custom refs 打包成单个 packfile，实现用 U 盘离线备份整个 forge核心观点：代码在宕机时人人有克隆，而 issue 数据只存在于 GitHub 数据库里",
+      "summary_en": "Prompted by GitHub's Monday outage, Andrew Nesbitt surveys two decades of keeping issue, PR, and review data inside git itself, organized by data location: working-tree issues directories (Bugs Everywhere, ditz), orphan branches (ticgit, haxy), git notes (git-appraise), custom ref namespaces (git-bug, Gerrit NoteDb, Radicle), and VCS-built-in (Fossil). Each section includes real git command output; the piece closes with git bundle packing all custom refs into one packfile for offline backup of an entire forge.",
+      "one_liner": "GitHub 宕机时的 Plan B 清单：五类把 issue 数据塞回 git 自身的方案与实战命令",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/bed872f3.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "456583d0",
+      "title": "What Is Reasoning",
+      "url": "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning",
+      "source": {
+        "platform": "blog",
+        "author": "Armin Ronacher",
+        "original_date": "2026-08-19"
+      },
+      "category": "learning",
+      "tags": [
+        "reasoning",
+        "llm",
+        "system-prompt",
+        "harmony",
+        "mental-model"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Armin Ronacher 把 reasoning 的工程现实拆开：reasoning trace 不是模型内部神秘思考模块，而是模型被训练成把草稿写进特殊 token 框（如 GPT-OSS Harmony 格式的 analysis channel），再由 Responses API 解析器路由到独立 streamreasoning effort 也不是采样属性，而是 system prompt 里一行 Reasoning: low，改动会废掉 KV cacheDwarfStar 用 prefill 关闭 thinking用 Absolute maximum 提示词拉满自定义 think tool 能把推理撬到不该出现的位置，本质是 prompt injection 而非新能力对做 agent评估与安全的人是立刻可用的心智模型",
+      "summary_en": "Armin Ronacher dismantles the engineering reality of reasoning: a reasoning trace is not a mysterious internal module but text the model was trained to emit into special token frames (e.g., GPT-OSS Harmony's analysis channel), which a Responses API parser routes to a separate stream. Reasoning effort is a system-prompt line (Reasoning: low), not a sampling property - changing it invalidates the KV cache. DwarfStar disables thinking via a prefilled close-think token and maxes it with an Absolute maximum prompt. A custom think tool can pry reasoning into places it should not be, which is prompt injection rather than a new capability.",
+      "one_liner": "把 reasoning 从营销概念降级为 channel-routing convention：训练出的输出习惯而非神秘能力",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/456583d0.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5e96decc",
+      "title": "Use the built-in GELU, don't roll your own!",
+      "url": "https://www.gilesthomas.com/2026/08/built-in-gelu",
+      "source": {
+        "platform": "blog",
+        "author": "Giles Thomas",
+        "original_date": "2026-08-20"
+      },
+      "category": "learning",
+      "tags": [
+        "pytorch",
+        "training",
+        "performance",
+        "gelu",
+        "tutorial"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "同一份代码同一张 RTX 3090 训练 GPT-2 small 风格模型，只把 Raschka 教材里手写的 GELU 换成 PyTorch 内置 nn.GELU()，吞吐从约 21,000 tokens/sec 涨到 25,000，提升 20%；tanh 与 exact 两种近似表现一致（25,134 对 25,142 tps）12 层模型里 GELU 占了约 17% 训练时间作者此前以为 JAX 比 PyTorch 快（24,000 对 21,000 tps），根因其实是手写 GELU 的 Python 层开销吃掉了 AMP 优势Raschka 在 X 补充：坚持 tanh 近似是为了兼容 OpenAI 预训练权重给 from-scratch 训练者一个零成本 20% 加速",
+      "summary_en": "Training the same GPT-2 small-style model on the same RTX 3090, swapping the hand-rolled GELU from Raschka's book for PyTorch built-in GELU lifts throughput from about 21,000 to 25,000 tokens/sec (+20%), with tanh and exact approximations performing identically (25,134 vs 25,142). GELUs account for roughly 17% of training time in the 12-layer model. The author's earlier belief that JAX was faster traces back to this Python-level overhead eroding AMP gains. Raschka adds he keeps the tanh approximation for OpenAI weight compatibility.",
+      "one_liner": "换掉手写 GELU 就白拿 20% 训练吞吐：from-scratch LLM 训练的低成本加速样本",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/5e96decc.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a76a88cb",
+      "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+      "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-08-19"
+      },
+      "category": "infra",
+      "tags": [
+        "sandbox",
+        "microvm",
+        "agent-safety",
+        "testing",
+        "benchmark"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 让 Claude Fable 5 在 Claude Code for web 里实测 smolvm 1.8.3 作为不可信 Python 与 JS 代码沙箱容器本身是 Firecracker guest无 /dev/kvm，smolvm machine run 报 kvm not available，Fable 的 Plan B 是把完整测试集放到有 /dev/kvm 的 GitHub Actions ubuntu runner 上跑再删除 workflow结果确认硬件隔离 microVM 属性全部到位：冷启动 0.6-1.5 秒热执行约 50msCPU 与 RAM 限制guest 超时存储配额只读输入挂载与可写输出挂载非特权模式均按预期工作",
+      "summary_en": "Simon Willison had Claude Fable 5 in Claude Code for web test smolvm 1.8.3 as a sandbox for untrusted Python and JavaScript. The container is itself a Firecracker guest with no /dev/kvm, so smolvm machine run failed with kvm not available; Fable's Plan B ran the full test battery on a GitHub Actions ubuntu runner (which exposes /dev/kvm) via a temporary workflow, then removed it. Results confirm hardware-isolated microVM properties all work as intended: 0.6-1.5s cold starts, ~50ms warm executions, CPU/RAM limits, guest-enforced timeouts, storage quotas, read-only input and writable output mounts, and unprivileged mode.",
+      "one_liner": "硬件隔离 microVM 沙箱实测：50ms 热执行与完整资源限制，agent 执行环境的对比基线",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/a76a88cb.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-20",
-  "total_entries": 1891
+  "total_entries": 1904
 }
