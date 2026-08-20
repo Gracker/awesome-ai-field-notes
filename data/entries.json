@@ -55054,8 +55054,586 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "5ef65971",
+      "title": "What Happens If OpenAI Dies?",
+      "url": "https://www.wheresyoured.at/p/what-happens-if-openai-dies",
+      "source": {
+        "platform": "newsletter",
+        "author": "Ed Zitron",
+        "original_date": "2026-08-18"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "finance",
+        "ai-bubble",
+        "compute",
+        "industry-analysis"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Ed Zitron 逐笔拆解 OpenAI 财务：2025 年营收 131 亿美元亏 209 亿，2026 Q1 非 GAAP 经营利润率 -122%；按其自身预测 2030 年需 2840 亿美元年收入才能覆盖 8000 亿美元级算力承诺，比 NVIDIA/TSMC/Samsung 三家 FY2026 营收总和还多 27%他判断 OpenAI 需以每年约 1000 亿美元速度继续募资，并列出三种结局：被 Microsoft 吸收把 Altman 当泡沫替罪羊任其倒下与 Anthropic 合并；SoftBank/NVIDIA/Amazon/Google 的循环交易是唯一支撑",
+      "summary_en": "Ed Zitron walks through OpenAI's finances line by line: a $20.9B loss on $13.07B revenue in 2025, a -122% non-GAAP operating margin in Q1 2026, and a self-projected need for $284B annual revenue by 2030 to support $800B+ compute commitments - 27% more than NVIDIA, TSMC and Samsung's combined FY2026 revenue. He argues OpenAI must keep raising on the order of $100B a year and lays out three endings: absorption by Microsoft, letting the company die with Altman as the bubble's scapegoat, or a merger with Anthropic, with circular deals from SoftBank, NVIDIA, Amazon and Google as the only scaffolding.",
+      "one_liner": "把 OpenAI 的死法算成账本：2840 亿收入对 8000 亿算力承诺，三种结局都配好了数字",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5ef65971.md",
+      "images": [
+        "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2026/08/data-src-image-6acf6d17-28e1-41b5-82e8-8ba9dca9f914.png",
+        "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2026/08/data-src-image-e4058c53-f2fd-4954-b0d7-452cea062da2.png",
+        "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2026/08/data-src-image-f44da972-de07-4f16-903f-d899c85e3dc4.png"
+      ],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7f8f5780",
+      "title": "IP can't save you from AI",
+      "url": "https://pluralistic.net/2026/08/18/enron-corpus",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-08-18"
+      },
+      "category": "industry",
+      "tags": [
+        "copyright",
+        "ai-policy",
+        "labor-rights",
+        "privacy",
+        "spirit-airlines"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cory Doctorow 借 Spirit Airlines 破产案论证扩大版权挡不住 AI：清算人把全体员工的工作邮件日历备忘录打包卖给 Google 用于 AI 训练每封邮件都有版权，但劳动合同的 works made for hire 条款让版权归公司对照 2001 年 Enron 破产后的 Enron Corpus 隐私灾难，他的结论是版权从来是可转让的财产权而非劳动权；真正挡住 AI 的是 Writers Guild 式集体谈判，把训练禁令写进版权法只会让雇主多一笔授权收入",
+      "summary_en": "Cory Doctorow uses the Spirit Airlines bankruptcy to argue that expanding copyright cannot shield workers from AI: the estate sold all employee emails, calendars and memos to Google for AI training - every email copyrighted, but work-for-hire clauses put those rights in the company's hands. Echoing the privacy disaster of the post-2001 Enron Corpus, he concludes copyright has always been a transferable property right, not a labor right; what actually checked AI was the Writers Guild's bargaining, and writing training bans into copyright law mostly hands employers a new licensing revenue stream.",
+      "one_liner": "Spirit 破产数据卖给 Google 训练 AI：版权是财产权不是劳动权，挡不住任何东西",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7f8f5780.md",
+      "images": [
+        "https://i0.wp.com/craphound.com/images/18Aug2026.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/appearances3.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/by.svg.png?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/colophon2.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/heylookatthis3.jpg?w=840&ssl=1"
+      ],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "250101a9",
+      "title": "BREAKING: OpenAI's unraveling has begun",
+      "url": "https://garymarcus.substack.com/p/breaking-openais-unraveling-has-begun",
+      "source": {
+        "platform": "newsletter",
+        "author": "Gary Marcus",
+        "original_date": "2026-08-19"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "finance",
+        "ipo",
+        "rl-training",
+        "ai-bubble"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Gary Marcus 把AI 泡沫破裂压缩到 24 小时内的三条线：Sam Altman 8/18 发推承认暂停部分前沿 RL 训练；WSJ 的 Berber Jin 披露 OpenAI Q2 营收环比仅增 18% 至 67 亿美元亏损扩大 30 亿至 123 亿美元每新增 1 美元营收对应 3 美元新亏；同日 NVIDIA 披露 5GW 俄亥俄数据中心兜底细节：担保的是已建成资产价值至 1050 亿美元而非补贴算力支出Marcus 认为三条线合流说明 IPO 前的 OpenAI 正被深度参与方用 protective deal 自保",
+      "summary_en": "Gary Marcus compresses the AI-bubble-unravelling narrative into 24 hours: Sam Altman's Aug 18 tweet admitting a pause on some frontier RL training; WSJ's Berber Jin revealing OpenAI grew Q2 revenue just 18% QoQ to $6.7B while losses widened by $3B to $12.3B - every new dollar of revenue costing three of losses; and NVIDIA's same-day disclosure that its 5GW Ohio data-center backstop guarantees up to $105B of built asset value rather than subsidizing compute. Marcus reads the convergence as deep partners hedging themselves ahead of the IPO.",
+      "one_liner": "一条推文一组 WSJ 数字一份 NVIDIA 兜底架构24 小时内看清 OpenAI 解线的三条线头",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/250101a9.md",
+      "images": [
+        "https://pbs.substack.com/media/HP7_5AjboAAQQxn.jpg",
+        "https://pbs.substack.com/media/HQCdzpJaMAAx039.png",
+        "https://substackcdn.com/image/fetch/$s_!0yBV!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fpbs.substack.com%2Fprofile_images%2F1998772421290078208%2FaSQs_5zm.jpg",
+        "https://substackcdn.com/image/fetch/$s_!9wVv!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a519176-af53-4e36-8ef7-381d4b2ae8dd_144x144.png",
+        "https://substackcdn.com/image/fetch/$s_!A5Q-!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9fc001a8-318d-4990-bb2f-3122da47a306_144x144.png"
+      ],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5b2957a8",
+      "title": "The ordinariness of evil",
+      "url": "https://pluralistic.net/2026/08/19/banaility",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-08-19"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-criticism",
+        "criti-hype",
+        "ai-policy",
+        "regulation"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cory Doctorow 用 Lee Vinsel 的 criti-hype 概念命名当下主流 AI 批评的姿态：把 Altman 的营销话术原样复读再补一句(这很糟)四个例子：AI 安全叙事把工程烂归因于模型太强反而给 con-man 镀上 super-villain 光环；有产/无产二元论让 AI 公司拿到基础设施级政府庇护；AI 抢工作恐惧让雇主把 ChatGPT 当裁员合理化工具；末日叙事把赌注装帧成文明级 commitment他的反向建议：把 AI 当 word processor 一样的 normal tech 做 cost/benefit 评估",
+      "summary_en": "Cory Doctorow borrows Lee Vinsel's criti-hype to name the dominant posture of AI criticism: repeating Altman's marketing verbatim and appending '(and that's bad)'. Four examples: the AI-safety frame attributes shoddy engineering to model superpower and gilds a con-man with a super-villain aura; the haves/have-nots binary earns AI firms infrastructure-grade government protection; job-loss fears let employers rationalize layoffs with ChatGPT; doom framing dresses the bet up as a civilizational commitment. His counter: treat AI as normal tech - a word processor plus search - and evaluate costs and benefits accordingly.",
+      "one_liner": "criti-hype：最流行的 AI 批评其实是把 Altman 的营销复读一遍再加(这很糟)",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5b2957a8.md",
+      "images": [
+        "https://i0.wp.com/craphound.com/images/19Aug2026.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/appearances3.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/by.svg.png?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/colophon2.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/heylookatthis3.jpg?w=840&ssl=1"
+      ],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4b340e69",
+      "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "url": "https://responsiblestatecraft.org/israel-influence-chatgpt",
+      "source": {
+        "platform": "news",
+        "author": "Nick Cleveland-Stout",
+        "original_date": "2026-08-17"
+      },
+      "category": "industry",
+      "tags": [
+        "llm-poisoning",
+        "influence-operations",
+        "ai-security",
+        "disinformation"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Responsible Statecraft 拿法庭文件坐实：Hanover Institute 是以色列政府广告局外包给 Piro Inc. 的伪装智库，发布 100+ 篇无署名报告全部围绕以色列-巴勒斯坦议题，格式精准踩 LLM 偏好（具体统计+强引用+中性口吻）GPTZero 对随机抽样的 12 篇中 11 篇给出 high confidence AI 生成判定；Piro 单合同从以色列政府获得 90 万美元这是 LLM poisoning 从论文攻击面变成固定支出科目的第一份完整供应商-甲方-金额证据链",
+      "summary_en": "Responsible Statecraft's court-document-backed investigation: the Hanover Institute is a fake think tank created by Piro Inc. on behalf of the Israeli Government Advertising Agency, publishing 100+ unbylined reports on Israel-Palestine formatted to hit LLM preferences (specific statistics, strong citations, neutral tone). GPTZero flagged 11 of 12 randomly sampled articles as AI-written with high confidence, and Piro received $900,000 from the Israeli government for the work - the first complete vendor-client-money evidence chain showing LLM poisoning maturing from research attack surface to budget line item.",
+      "one_liner": "LLM poisoning 产业化实证：伪装智库+AI 写作+90 万美元合同，完整证据链第一次摆上桌",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4b340e69.md",
+      "images": [
+        "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy82MjA1Njg0Mi9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTc2OTQ1NzUwOH0.zCCpcz0X4LgAo_zLffYOZozBeF8NPtYKC3CQG_rlUVA/img.png"
+      ],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7d1d995a",
+      "title": "Google buys crashed airline Spirit's data at auction, because AI",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+      "source": {
+        "platform": "news",
+        "author": "Simon Sharwood",
+        "original_date": "2026-08-18"
+      },
+      "category": "industry",
+      "tags": [
+        "training-data",
+        "privacy",
+        "spirit-airlines",
+        "google",
+        "data-auction"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "The Register 报道：Google 在破产拍卖中以 1000 万美元买下 Spirit Airlines 全量去标识化数据1 亿封邮件3000 万通客服录音5 亿条 Teams 消息1700 万 OneDrive 文件60 万张 ServiceNow 工单与 76.3 万条航班运营数据竞标者包括 AI 训练数据商 Mercor；报道将其读作航空公司运营模型训练语料的来源信号Google 承诺 scrub PII，但去标识化数据在 LLM 拼接场景下能否真正匿名仍是公开问题",
+      "summary_en": "The Register reports Google paid $10M at Spirit Airlines' bankruptcy auction for the airline's deidentified data: 100M+ emails, 30M recorded customer-service calls, 500M Teams items, 17M OneDrive files, 600K ServiceNow tickets and 763K flight-operations records. Bidders included AI-training-data firm Mercor, and the piece reads the sale as a signal of where airline-ops-model training corpora come from. Google promises to scrub PII, but how much deidentified data stays anonymous under LLM reassembly remains an open question.",
+      "one_liner": "1000 万美元买 1 亿封邮件和 3000 万通录音：AI 训练语料进入破产拍卖时代",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7d1d995a.md",
+      "images": [
+        "https://image.theregister.com/5271547.webp?imageId=5271547&width=360&height=360",
+        "https://securepubads.g.doubleclick.net/pagead/adview?ai=CPqJebqyEatWkIKLx2roP5NyXwAyay66EiAGu7fffyBOnz7D9wUUQASDWh_MTYJ0BoAGugoO2PsgBCeACAKgDAcgDCqoEsQJP0N53uXwx24xbdebBnIj3vRsYxvTjLMOHtWUaG3vUTFNBA56r50Ha3mISUiQmnGYn88_KhpQ0-w5zHrXdl7iamzf5CWQO5fHb0MSG4FddY8kQ7-RYLDSvOPP50zJultZgg2te0DEEDf-J1hFyU6e-CSDXo_Imfqhci70VQ67XzMnPRn6x7k1kqSO1mavfeGVIA9MLc_4dn65n_J2Fr4EXAhrMv-kQJrNoNsEnrD8mlZWFBR18FtbSs8OTbkyJHrq06Vh9DZpSVNFg7kNK3LZ8YiCicJavLO2jfHdRXJDpvLXAxbMylVa-R7Tslyzy3LMoST5KhH5owyylwGJ8aIN6XeCBY8XImJ8pOiH11RAOQ8ttuVYi7FedL6E2YJYCTwQTERL5WKstaegC1CmY_s_nt8AE47qvpo8F4AQBiAXVno-dUpIFBAgEGAGSBQQIBRgEoAYugAeuutOVGagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgH_uixAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHn-GxAqgHpuuxAqgH1ckbqAfZtrECqAfYtrECqAf3wrEC2AcA8gcEEKmMPdIIMwiAYRABGJ0BMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpYvvLjgO-qlgNgAYAKA8gLAaIMA5ABAaoNAkNO4g0TCLW_5IDvqpYDFaK4VgEdZO4FyOoNEwiCp-WA76qWAxWiuFYBHWTuBciIDv___________wHYEw6IFAnQFQGYFgHKFgIKAPgWAYAXAbIXLgocCAASFHB1Yi02NDU1ODA4ODE2NDA1OTU2GJOQEhgBKgozNDcyMTQwMTk3UAa6FwYIATgBSAGqGBcJAAAAAFKMLkESCjM0NzIxNDAxOTcYAbIYCRIC8FkYLiIBANAYAegYAYAZA8IZAggB&sigh=u1zSQYTWdXo&uach_m=%5BUACH%5D&cid=CAQS9QEAEQoqgfYc5IXDhC7X8NHE2OU3uS3kwFHxUhAEiWFGiJB2jmRLNzO_1OHUGpLz2phrB6UZF4SiSJqlrmcLTzEFsD_EEVzeqbPLq1T4kcAG8-MiwHmhHeoYLtzHynfVHYyZv10XKll0hg11fQFvDrvd7x2y_EYNEvpPX2akNOFwD5xmwuNci-VmQBlVwu65mna4XV6P6yXZdw85Ugu1sR5sQkrXp13uqxz2i_gxe4C7PXLsdnSvkNx5OenUx9P-1SDMmDWEMgrwE2-xPa7Xii-5qHeuI0Neb5Ukr6hMmnYgln77x_1iRiWulA93MDy3-bGbfRyKTxgB&template_id=5000&ebtr=1",
+        "https://tpc.googlesyndication.com/pagead/images/adchoices/adchoices_blue_wb.png",
+        "https://tpc.googlesyndication.com/pagead/images/cn/zh_cn.png",
+        "https://tpc.googlesyndication.com/simgad/13769615623690597672"
+      ],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c76018e6",
+      "title": "AI;DR (AI; Didn't Read)",
+      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "source": {
+        "platform": "newsletter",
+        "author": "Rick Manelius",
+        "original_date": "2026-08-17"
+      },
+      "category": "learning",
+      "tags": [
+        "ai-writing",
+        "editing",
+        "ux",
+        "culture"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Rick Manelius 造出 AI;DR（AI; Didn't Read）这个标签：作为 pro-AI 的创业者，他承认对未经编辑的 AI 原始输出已经产生生理性 flinch梗源自 X 用户 @seclilc 8/16 的帖子（34.6 万浏览）关键区分是它反对的不是 AI 而是未编辑对做 AI 写作工具的人，真正的 prompt 不是帮我写得更好而是让读起来不像没改过这是 2026 Q3 才成型的公共标签，把私下抱怨第一次变成可引用的反馈信号",
+      "summary_en": "Rick Manelius coins 'AI;DR' (AI; Didn't Read): as a pro-AI founder he admits a physical flinch at unedited AI output. The meme originated with X user @seclilc's Aug 16 post (346K views). The crucial distinction is that the objection targets not AI but the absence of editing - for AI writing-tool builders, the real prompt isn't 'help me write better' but 'make it not read like nobody touched it.' A 2026-Q3 artifact that turned a private gripe into a citable public signal.",
+      "one_liner": "AI;DR 成梗：连 pro-AI 的人也开始对未编辑的 AI 输出生理性皱眉",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/c76018e6.md",
+      "images": [
+        "https://substackcdn.com/image/fetch/$s_!10qV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c3c1241-1fe2-4cb1-96f1-7613e4b876bc_702x313.png",
+        "https://substackcdn.com/image/fetch/$s_!3mSz!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F487f63df-5219-498b-a3a9-eb952cb5144b_1179x1179.png",
+        "https://substackcdn.com/image/fetch/$s_!7l3w!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3b0edba-8277-4afa-83c1-2651f823f0b7_4096x4096.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!7l3w!,w_64,h_64,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3b0edba-8277-4afa-83c1-2651f823f0b7_4096x4096.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!IMik!,w_32,h_32,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d7b5e97-1bf0-45b6-95c8-6ab3240d6a4e_3269x2469.jpeg"
+      ],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cb08e9af",
+      "title": "Git at any scale: Cursor Origin's Continuity storage",
+      "url": "https://cursor.com/blog/git-at-any-scale",
+      "source": {
+        "platform": "blog",
+        "author": "Vicent Mart",
+        "original_date": "2026-08-18"
+      },
+      "category": "infra",
+      "tags": [
+        "git",
+        "storage",
+        "wal",
+        "origin",
+        "infrastructure",
+        "code-hosting"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cursor 发布 Origin 背后的 Git 托管系统 Continuity：核心原语是存 S3 对象存储的 write-ahead log，push 先完整持久化为 WAL entry绝不提前 ack，可见性由后续 prepare/publish 流程决定；仓库磁盘副本不再是对共识最重要的东西，replica 从 pets 变回 cattle文中对照 GitHub Spokes 的教训块级文件系统复制(GFS/DRBD)全部碰壁磁盘仓库为 source of truth 导致每个副本都是 pets路由表成为可用性单点这是Git 按数据库运维路线的完整机制文档",
+      "summary_en": "Cursor documents Continuity, the storage system behind its Origin code hosting: the core primitive is a write-ahead log in S3-compatible object storage, pushes are fully persisted as WAL entries before being acknowledged and only become visible after an explicit prepare/publish path, and on-disk repository copies stop being sacred - replicas shift from pets back to cattle. The post contrasts lessons from GitHub's Spokes: block-level filesystem replication (GFS, DRBD) hit walls, disk repos as the source of truth made every copy a pet, and the routing table became an availability single point. A full mechanism doc for the run-Git-like-a-database route.",
+      "one_liner": "Git 按数据库运维：WAL 进 S3push 不持久化不 ackreplica 从 pets 变 cattle",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cb08e9af.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "511de79f",
+      "title": "OpenAI pauses frontier RL training for two weeks; largest run remains on hold",
+      "url": "https://x.com/OpenAI/status/2089777845187031262",
+      "source": {
+        "platform": "x",
+        "author": "OpenAI",
+        "original_date": "2026-08-18"
+      },
+      "category": "models",
+      "tags": [
+        "openai",
+        "rl-training",
+        "ai-safety",
+        "frontier-models",
+        "cyber-capabilities"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "OpenAI 官方账号 8/18 发推：随着模型能力增强，内部开发与测试的风险同步上升，已暂停最新待部署模型的 RL 训练两周，期间加固并红队研究环境扩大监控覆盖；最大规模的前沿 RL run 仍处 hold，直到小规模训练与评估验证防护措施并积累更多 alignment 证据推文卡片指向博客Pacing model development in an era of cyber-critical capabilities，把开发节奏与网络安全级能力门槛正式挂钩",
+      "summary_en": "OpenAI's official account tweeted Aug 18: as models grow more capable, the risks of developing and testing them internally grow too, so it paused RL training on its latest deployment-intended models for two weeks while hardening and red-teaming research environments and expanding monitoring coverage; the largest planned frontier RL run remains on hold until smaller-scale training and evaluations validate the safeguards and build more evidence of alignment. The tweet card links to 'Pacing model development in an era of cyber-critical capabilities,' formally tying development pacing to a cyber-critical capability threshold.",
+      "one_liner": "OpenAI 亲自示范 run-pause-hold 三态：最大前沿 RL run 继续 hold，节奏与 cyber-critical 门槛挂钩",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/511de79f.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2cc7a96a",
+      "title": "企业微信全面升级 CLI 与 MCP：自建 AI Agent 可接入十大办公能力模块",
+      "url": "https://x.com/Weixin_WeChat/status/2089567241180467630",
+      "source": {
+        "platform": "x",
+        "author": "企业微信 (Weixin_WeChat)",
+        "original_date": "2026-08-18"
+      },
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "企业微信",
+        "agent",
+        "cli",
+        "办公自动化"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "企业微信官方账号宣布 CLI 与 MCP 能力全面升级：WorkBuddyDeepseek HarnessMinimax Code 等主流自建 AI Agent 可直接调用文档表格邮件会议日程通讯录等十大办公能力模块；企业也可通过开放接口接入自主开发的 Agent该能力面向所有规模企业开放，取消人数与资质门槛这是国内办公入口把 Agent 权限面从 API 层下沉到 MCP 工具层的标志性一步，权限边界与审计日志是接下来要盯的问题",
+      "summary_en": null,
+      "one_liner": "企业微信十大办公模块全开 MCP：Agent 权限面从 API 下沉到工具层，门槛全取消",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2cc7a96a.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "47215642",
+      "title": "On the Fragility of Self-Improving Agents: Variance, Task Order, and Underspecification",
+      "url": "https://arxiv.org/abs/2608.18066",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qinyuan Ye, Yu Li, Yada Pruksachatkun, Jiaxin Zhang, Chien-Sheng Wu",
+        "original_date": "2026-08-18"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "self-improvement",
+        "reliability",
+        "memory",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "基于记忆的自我改进智能体通过在线任务流维护文本记忆库来持续提升，但其可靠性此前很少被系统检验作者对两类记忆型方法做了扩展重评估：多次重复运行以量化方差，随机打乱任务以检验任务顺序的影响实验暴露出两个关键问题：性能方差可观结论对任务顺序高度敏感，说明现有自我改进方法的评估规范存在欠约束，单次运行得出的提升结论并不可靠",
+      "summary_en": "Memory-based self-improving agents--those that learn from an online stream of tasks and improve over time by maintaining a textual memory bank--have shown great promise in recent literature. However, the reliability aspects of these methods have been critically overlooked. In this work, we conduct a comprehensive re-evaluation of two memory-based methods, broadening the scope of evaluation along two axes: (1) including multiple runs to quantify variance, and (2) randomly shuffling the tasks to investigate the effect of task order. Through these experiments, we make two observations that expose the fragility of current methods: First, agent evaluation is inherently noisy in complex environments and on multi-step tasks, and stacking a self-improving loop on top can further amplify this noise. Second, the agent's improvement is highly dependent on task order....",
+      "one_liner": "记忆型自我改进智能体的可靠性重评估：多次运行的方差与任务顺序效应表明单次运行的提升结论不可靠",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/47215642.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "db38d993",
+      "title": "StagedWorkspace: A Versioned Workspace for Knowledge-Work Agents",
+      "url": "https://arxiv.org/abs/2608.18050",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yining Hua, Hongbin Na, Yifan Zhou, Akshay Kalose, Cyrus Ayubcha, Levi Lian",
+        "original_date": "2026-08-18"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "knowledge-work",
+        "versioning",
+        "workspace",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "知识工作型智能体会持续产出和修改代码库文档表格幻灯片等持久数字工件，但它们检索的解析视图编辑的原生文件评审的变更与最终提交的工件可能指向同一工作对象的不同版本论文将其形式化为工作区状态契约：每个视图都应显式绑定到演进中工作区状态的某个版本编码智能体已借助代码仓库契约部分满足这一需求，论文为更广泛的知识工作智能体提出了带版本管理的 StagedWorkspace 方案",
+      "summary_en": "AI agents increasingly perform knowledge work (i.e., produce and modify persistent digital artifacts such as code repositories, documents, spreadsheets, slides, reports), yet the parsed views they search, the native files they edit, the changes they review, and the artifacts they submit can refer to different versions of the same work product. We formulate this as a workspace-state contract: every view should be explicitly tied to a version of the evolving workspace state. Coding agents partly address this need through repository contracts for search, diffs, and tests, whereas an analogous contract is less explicit for PDFs, spreadsheets, slides, notebooks, and mixed-format project folders. We propose StagedWorkspace, a versioned workspace for knowledge-work agents. The workspace binds parsed records and review diffs to content hashes of the native files as they change....",
+      "one_liner": "把知识工作智能体的工作区形式化为状态契约，提出带版本管理的 StagedWorkspace，让每个视图显式绑定工作区版本",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/db38d993.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e53f96ec",
+      "title": "Chain-of-Experience for Continual LLM Improvement",
+      "url": "https://arxiv.org/abs/2608.18027",
+      "source": {
+        "platform": "arxiv",
+        "author": "Haoqin Tu, Yunhao Fang, Yizhong Wang, Cihang Xie, Shen Yan",
+        "original_date": "2026-08-18"
+      },
+      "category": "learning",
+      "tags": [
+        "llm",
+        "experience",
+        "test-time",
+        "continual-improvement",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "人类能从经验中持续学习，而常规 LLM 评测忽略了模型在推理阶段通过迭代交互获得改进的能力论文提出 Chain-of-Experience（CoE）设定：模型通过与自身或环境反馈的迭代交互积累经验轨迹，形成超越零样本推理的持续改进回路作者用模型自反馈与环境信号等多种反馈机制实例化 CoE，并系统评估其持续改进效果",
+      "summary_en": "Humans continuously learn from experience, whereas conventional large language model (LLM) evaluations ignore the models' ability to improve through inference-time interaction. In this paper, we study how LLMs learn from iterative experience at test time, a setting we refer to as Chain-of-Experience (CoE), where models accumulate experiential traces through iterative interactions with self or environmental feedback to form a continual improvement loop beyond zero-shot inference. We instantiate CoE with diverse feedback mechanisms, including model self-feedback and environmental signals such as correctness or public coding test pass rates, and evaluate across math, coding, and knowledge domains using 8 LLMs, including GPT-5, Gemini-2.5 Pro, Claude-4.5 Sonnet....",
+      "one_liner": "Chain-of-Experience：让 LLM 在测试时通过自反馈与环境信号积累经验轨迹，形成持续改进回路",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e53f96ec.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c4c02acb",
+      "title": "Judge, Retrieve, or Abstain: Uncertainty-Guarded LLM Judging with Provable Risk Guarantees",
+      "url": "https://arxiv.org/abs/2608.17994",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sher Badshah, Ali Emami, Hassan Sajjad",
+        "original_date": "2026-08-18"
+      },
+      "category": "learning",
+      "tags": [
+        "llm-as-judge",
+        "evaluation",
+        "uncertainty",
+        "retrieval",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "用 LLM 做评判已成为大规模评估模型输出的标准做法，但客观任务的无参考评判存在可靠性隐患：评判模型可能凭参数化知识幻觉作答，或缺少支撑结论的证据论文提出不确定性 guarded 的评判检索或弃权框架：当证据不足时选择检索增强或弃权，而非强行给出结论，并为该流程提供可证明的风险保证",
+      "summary_en": "Using LLMs as judges has become standard practice for evaluating model outputs at scale. This is particularly common for subjective, open-ended tasks such as assessing helpfulness or alignment, where no single reference answer exists. However, objective tasks introduce a distinct reliability challenge for reference-free LLM judging. In the absence of a reference answer, the judge evaluates factual correctness either through its parametric knowledge or through tool augmentation. Although the former enables efficient evaluation, the judge may hallucinate or lack sufficient evidence for its verdict. Conversely, tool augmentation can provide additional evidence but introduces extra computational cost and requires an appropriate mechanism to determine when and how that evidence should be used reliably....",
+      "one_liner": "LLM 评判的可靠性框架：证据不足时选择检索或弃权，并提供可证明的风险保证",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c4c02acb.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e0f06e61",
+      "title": "Mathematics in the age of AI",
+      "url": "https://arxiv.org/abs/2608.16753",
+      "source": {
+        "platform": "arxiv",
+        "author": "Terence Tao",
+        "original_date": "2026-08-17"
+      },
+      "category": "learning",
+      "tags": [
+        "mathematics",
+        "ai-impact",
+        "essay",
+        "terence-tao",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "陶哲轩基于 2026 年国际数学家大会（ICM）公开演讲的文章，讨论数学界应如何应对能够完成研究级数学任务的 AI 工具文章不争论这些工具的能力高低，而是直接假设这些能力将会到来，转而考察一个正交的问题：数学研究的目标与价值究竟是什么，并以数学中的问题求解环节作为案例展开",
+      "summary_en": "An essay, based on a public lecture delivered at the 2026 International Congress of Mathematicians, on how the mathematical community might respond to the arrival of artificial intelligence tools that are capable of performing research-level mathematical tasks. Rather than debating the capabilities of such tools, we condition on the hypothesis that these capabilities will arrive, and examine instead a question that is orthogonal to it: what the goals and values of mathematical research actually are. The problem-solving component of mathematics is used as a case study.",
+      "one_liner": "陶哲轩 ICM 2026 演讲成文：假设研究级 AI 数学能力已经到来，重新审视数学研究的目标与价值",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e0f06e61.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e78845aa",
+      "title": "Ornith-1.5: From Self-Scaffolding to Self-Improvement",
+      "url": "https://ornith.ai/ornith_1_5.html",
+      "source": {
+        "platform": "blog",
+        "author": "Ornith (@ornith_)",
+        "original_date": null
+      },
+      "category": "models",
+      "tags": [
+        "models",
+        "self-improvement",
+        "open-source",
+        "moe",
+        "reinforcement-learning"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Ornith-1.5 把 1.0 引入的自脚手架（self-scaffolding）框架扩展为更完整的端到端自我改进循环：模型自主提出新任务生成任务专属脚手架并为强化学习产出解算 rollout，持续创造新的学习经验提供 397B MoE35B MoE 与 9B dense 三个规模；397B 版在 Terminal-Bench 2.1 得 86.1 分DeepSWE 得 56.0 分，官方称与 Claude Opus 4.8 相当并超过同级开源模型；量化后的 9B-Mobile 版可部署在 iPhone 与 Android 设备上",
+      "summary_en": "Ornith-1.5 extends the self-scaffolding framework introduced in Ornith-1.0 into a more complete end-to-end self-improvement loop: the model proposes new tasks, generates task-specific scaffolds, and produces solution rollouts for reinforcement learning, continuously creating new learning experiences. It ships at three scales (397B MoE, 35B MoE, 9B dense); the 397B model scores 86.1 on Terminal-Bench 2.1 and 56.0 on DeepSWE, on par with Claude Opus 4.8 per the announcement, and the quantized 9B-Mobile variant deploys on iPhone and Android.",
+      "one_liner": "开源模型 Ornith-1.5：自脚手架升级为端到端自我改进循环，397B MoE 智能体与编码基准对标 Claude Opus 4.8",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e78845aa.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f9b6fc26",
+      "title": "OpenRouter is Joining Stripe",
+      "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe",
+      "source": {
+        "platform": "blog",
+        "author": "OpenRouter",
+        "original_date": "2026-08-19"
+      },
+      "category": "industry",
+      "tags": [
+        "openrouter",
+        "stripe",
+        "model-gateway",
+        "industry",
+        "inference"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "首个也是最大的模型市场与聚合网关 OpenRouter 官宣加入 Stripe官方披露其日处理 token 超过 10 万亿接入 400+ AI 模型服务超过 1000 万开发者与公司，推理量自创立以来每年至少 10 倍增长公告解释了选择 Stripe 的原因这对现有用户意味着什么以及后续计划，核心定位是支撑全球下一波 GDP 增长的 AI 推理基础设施",
+      "summary_en": "OpenRouter, the first and largest AI model marketplace and gateway, announced it is joining Stripe. The company reports processing 10+ trillion tokens per day across 400+ AI models for a community of over 10 million developers and companies, with at least 10x growth in inference volume every year since founding. The post explains why it chose Stripe, what the change means for users, and what comes next.",
+      "one_liner": "最大模型聚合网关 OpenRouter 官宣加入 Stripe：日处理 10T+ token400+ 模型1000 万+开发者",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f9b6fc26.md",
+      "images": [],
+      "added_date": "2026-08-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-19",
-  "total_entries": 1874
+  "last_updated": "2026-08-20",
+  "total_entries": 1891
 }
