@@ -56341,8 +56341,492 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "592cecd9",
+      "title": "Test-Time Scaling in the Wild: Why Exploitation, Not Exploration, Is the Bottleneck",
+      "url": "https://arxiv.org/abs/2608.18931",
+      "source": {
+        "platform": "arxiv",
+        "author": "Davide Romano, Kanak Raj, Jerrod Parker, Daniele Giofr",
+        "original_date": "2026-08-19"
+      },
+      "category": "models",
+      "tags": [
+        "test-time-scaling",
+        "reward-models",
+        "best-of-n",
+        "evaluation",
+        "verification"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "首个在医学/法律/金融/通用对话/创意写作五个开放生成基准上做计算量归一化对比的测试时扩展（TTS）研究，覆盖五类方法核心发现：探索侧没有问题候选池里最好样本随算力持续变好；瓶颈在利用侧（从池里挑出最终答案）SOTA 奖励模型与真实质量相关性仅 0.12，选择近乎随机；树搜索会因多样性坍缩放大这个失败；跨候选融合（Fusion）是唯一稳定优于单样本基线的方法，但也只回收约 40% 可用质量对做 agent 评测RLVRbest-of-N 管线的人是必读的负结果",
+      "summary_en": "Test-time scaling (TTS) improves language model outputs by spending additional inference compute - generating multiple candidates, searching over partial sequences, or iteratively refining drafts. These techniques yield large gains on mathematics and code, but have been developed and stress-tested almost exclusively on tasks where verification is straightforward. We conduct the first compute-normalised comparison of five TTS families across five open-ended generation benchmarks spanning medicine, law, finance, general chat, and creative writing - grounded in a unified framework that decomposes",
+      "one_liner": "计算量归一化对比下，TTS 的瓶颈不在探索而在利用：奖励模型相关性 0.12，选择近乎随机",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/592cecd9.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "980580b7",
+      "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2608.19181",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhu Zhang, Jixun Wang, Xiaoang Xu, Xiaorong Wang, Zihan Zhou, Zhiyuan Wang, Shuo Wang, Chaojun Xiao...",
+        "original_date": "2026-08-19"
+      },
+      "category": "models",
+      "tags": [
+        "on-policy-distillation",
+        "long-context",
+        "verifier",
+        "qwen3",
+        "training"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "诊断出 on-policy 蒸馏（OPD）在长上下文证据聚合任务上的失配：token 级教师信号偏爱局部合理但遗漏分散证据违反全局约束的回答，与响应级 verifier 奖励的分歧随输入变长逐步拉大提出 GC-OPD：在每个 rollout 组内分别归一化 verifier 奖励与 OPD 轨迹分，把差值作为带符号的教师-verifier 分歧残差，再用相对优势做 token 级分摊五个长上下文基准：Qwen3-4B 五基准均分 29.0840.47Qwen3-8B 35.1244.65（vanilla OPD 为 39.31/43.56）无需额外模型只在组内归一化，工程上好落地",
+      "summary_en": "On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor locally plausible responses that omit evidence distributed across the input or violate global task constraints. Task-specific verifiers, in contrast, evaluate task completion at the response level and may return graded rewards that reflect partial success. We diagnose this mismatch on fixed responses from two representative long-context evidence-aggregation tasks. Across longer input ranges, trajectory",
+      "one_liner": "诊断先行的蒸馏修复：组内归一化 verifier 与教师信号分歧，长上下文基准显著提升且无需额外模型",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/980580b7.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aa136e92",
+      "title": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets",
+      "url": "https://arxiv.org/abs/2608.19147",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tate Berenbaum, Muthaiah Venkatachalam",
+        "original_date": "2026-08-19"
+      },
+      "category": "infra",
+      "tags": [
+        "distributed-inference",
+        "edge-ai",
+        "openvino",
+        "pipeline-parallelism",
+        "llm-serving"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "用普通局域网把几台 16GB 统一内存的 Intel AI PC（iGPU+NPU）拼起来跑单机放不下的大模型：按层切成流水线分片，每个分片预编译成 OpenVINO 图，激活值在机间传递三个工程关键点：在每个分片注入 beam_idx Gather 触发 IndirectKVCache fusion 恢复未切分速率；在有状态 OpenVINO 模型上做投机解码；请求携带各自 KV 缓存在流水线级间交错实现多用户并发两节点 Llama 3.1 8B INT4 双用户吞吐为单机单用户 1.79 倍；四节点 Lunar Lake 阵列可单用户交互式速度服务 70B 模型对端侧/边缘推理基础设施有直接参考价值",
+      "summary_en": "Modern Intel AI PCs ship capable integrated GPUs and NPUs with 16+ GB of unified memory, and they spend considerable time idle. That is not enough memory to fit a large model such as a 70B-parameter LLM. We show that a handful of AIPCs, working together over an ordinary network, can serve models beyond the capability of any single one. We use pipeline parallelism: a model is split by layer into per-stage shards, each pre-compiled into an OpenVINO graph, so that every machine runs one shard and passes activations to the next. Three techniques make this fast enough to be useful. First, we recove",
+      "one_liner": "把闲置 AI PC 拼成流水线阵列：预编译分片+KV 缓存交错，四节点 16GB 机器交互式跑 70B",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/aa136e92.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "819cd916",
+      "title": "SMTrap: Cost-Effective DoS Attacks Against Large Reasoning Models via SMT Conflict Guidance",
+      "url": "https://arxiv.org/abs/2608.18921",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jian Yang, Zhenqi Feng, Zhaoyang Yu, Zhaoxin Fan, Kejian Wu, Xiaofeng Wang, Zheng Zhu, Jianjun Huang...",
+        "original_date": "2026-08-19"
+      },
+      "category": "models",
+      "tags": [
+        "llm-security",
+        "dos",
+        "smt",
+        "reasoning-models",
+        "abuse-prevention"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "提出不依赖模型反馈的 LRM-DoS 新范式 search amplification：用 SMT 求解器在约束满足问题（CSP）实例上的冲突计数作为低成本外部信号，引导合成推理量极大的查询关键观察：LRM 解 CSP 靠试错回溯，SMT 冲突数越高模型回溯搜索越长输出轨迹越长SMTrap 纯 CPU无需查询目标模型无需训练攻击模型，在七个前沿模型上 DoS 效果数倍于现有基线；同时给出基于工具的缓解方案显著削减 token 消耗对推理服务限流和滥用防护是实打实的攻防参考",
+      "summary_en": "Existing LRM-DoS methods rely heavily on model feedback to synthesize attack queries, requiring either repeated queries to the target model or training a dedicated attack model. These expensive operations severely weaken attack leverage. In this paper, we propose \\emph{search amplification}, a novel, model-feedback-free LRM-DoS paradigm. It employs the conflict count derived from an Satisfiability Modulo Theories (SMT) solver as a low-cost external signal to guide the synthesis of inference-heavy Constraint Satisfaction Problem (CSP) instances. Our key observation is that LRMs depend on trial-",
+      "one_liner": "零查询成本构造高推理消耗查询：SMT 冲突数作为外部信号引导 LRM-DoS，纯 CPU 数倍于基线",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/819cd916.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "05c0d617",
+      "title": "Grading the Graders: Verification Autonomy Levels (L0-L5) for LLM Reasoning",
+      "url": "https://arxiv.org/abs/2608.19009",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yajie Yin",
+        "original_date": "2026-08-19"
+      },
+      "category": "agents",
+      "tags": [
+        "verification",
+        "agent-evaluation",
+        "meta-standard",
+        "llm-reasoning"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "指出验证文献里 \"level\" 至少混用了五种含义（粒度/抽象/风险层/系统栈层/ground truth 来源），提出统一轴线的元标准 VAL：验证规范从哪来判定能保证什么L0 是模型自我声明，L2 是有客观 ground truth 的正确性，L3/L4 是可判定系统的单性质/领域完备性，L5 在无限制场景下不可达核心是 completeness blind spot：替换式和采样式验证器能确认候选成立但无法证明没漏掉候选；完备性只在形式可刻画性质上可达，开放世界验证封顶在 L2适合做验证体系设计的前置阅读",
+      "summary_en": "Large language models (LLMs) are increasingly paired with verifiers (step checkers, self-consistency filters, tool-based fact checkers, formal proof assistants) that claim to detect the model's errors. Yet the verification literature uses the word \"level\" to mean at least five different things: verification granularity, concept abstraction, risk tier, system-stack layer, and the epistemic source of the ground truth. We propose Verification Autonomy Levels (VAL), a meta-standard that classifies any verification scheme along a single axis: where does the verification spec come from, and what doe",
+      "one_liner": "验证自主性分级元标准：开放世界验证封顶在 L2，completeness blind spot 是采样/替换式验证器的共同盲区",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/05c0d617.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d83054d3",
+      "title": "Eureka: Task-Conditioned Meta-Agent Orchestration for Scientific Discovery",
+      "url": "https://arxiv.org/abs/2608.19047",
+      "source": {
+        "platform": "arxiv",
+        "author": "Alizer Wong, Heng Cui, Yi Tan, Xiongchao Zhan, Liang Lin, Yuxiang Guo, Zhaorong Dai, Zixin Zeng, Wen...",
+        "original_date": "2026-08-19"
+      },
+      "category": "agents",
+      "tags": [
+        "meta-agent",
+        "orchestration",
+        "long-horizon",
+        "architecture-evolution"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "任务条件化的 Meta-Agent 架构：把长程任务编译成带验收语义的动态义务图，执行期通过滚动规划架构晋升最小充分编译组装宏 Agent，瓶颈复发时由成本收益门控的演化更新局部架构实验：170/170 递归任务完成3,948 份证书零误收；活跃上下文把中位输入从 9,490 压到 4,005 token，12,000 任务避免 65.38% 重算数字漂亮，但 62 页单作者 + 量子过程/时空结构声明需读者自持判断力，建议按工程模式库读",
+      "summary_en": "We present Eureka, a task-conditioned Meta-Agent architecture that compiles long-horizon tasks into dynamic obligation graphs with explicit acceptance semantics. During execution, Eureka forms Macro-Agents with specialized state, memory, operators, tools, verifiers, and local topology via receding-horizon planning, architecture promotion, and minimal-sufficient compilation. When bottlenecks recur, cost-benefit-gated evolution updates the local architecture under constraints. Theoretically, we establish results on regret, planning invalidation, amortization, subtree interfaces, serializability,",
+      "one_liner": "长程编排的工程模式库：动态义务图+滚动规划+演化式局部架构更新，数字漂亮但需警惕单作者声明",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/d83054d3.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3e8fc6ce",
+      "title": "DiffusionGemma Technical Report",
+      "url": "https://arxiv.org/abs/2608.00146",
+      "source": {
+        "platform": "arxiv",
+        "author": "DiffusionGemma Team, Adrien Ali Taga, James Assiene, Daniele Calandriello, Rahm",
+        "original_date": "2026-07-31"
+      },
+      "category": "models",
+      "tags": [
+        "diffusion-lm",
+        "gemma",
+        "google-deepmind",
+        "fast-inference",
+        "moe"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Google DeepMind 实验性 open-weight 模型：把 Gemma 4 MoE（25.2B 总参/约 3.8B 激活）改造为离散扩散语言模型，一次并行预测 256 token 块，平均每次 forward pass 输出 20 token，单卡 H100 约 1500 tokens/s两阶段训练只用 AR 起点模型不到 10% 的 token 预算：SFT 教双向去噪，再用 RL + sampler 蒸馏联合提升质量与压缩去噪步数质量-速度 Pareto 跨过 Gemma 4 全系列及 Gemini DiffusionMercury 2LLaDASeed DiffusionNemotron；保留 thinking mode多模态输入与长上下文，仍能以 AR 模式生成且质量只小幅下降工程上可行的混合 diffusion-AR 路线样本",
+      "summary_en": "We introduce DiffusionGemma, an experimental open-weight language model that uses discrete diffusion to generate text at exceptionally high speed. Rather than decoding one token at a time, DiffusionGemma iteratively refines blocks of 256 tokens in parallel, avoiding the sequential decoding bottleneck of conventional autoregressive (AR) large language models. Instead of training from scratch, we obtain DiffusionGemma by fine-tuning the mixture-of-experts Gemma 4 model with 3.8B activated and 25.2B total parameters. Our compute-efficient two-stage training pipeline uses fewer than 10% of the sta",
+      "one_liner": "AR 主干 + 不到 10% token 预算换掉解码瓶颈：DiffusionGemma 单卡 H100 ~1500 tok/s 且质量-速度 Pareto 跨过 Gemma 4 全系列",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/3e8fc6ce.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3d5df1b9",
+      "title": "Readers can't identify watermarked AI text",
+      "url": "https://seangoedecke.com/readers-cant-identify-watermarked-ai-text",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-08-19"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-watermarking",
+        "synthid",
+        "empirical-study",
+        "llm-quality"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "把停在 paper 论证层面的AI 水印能不能被人识别拉到对照实验：作者用 Qwen3-30B-A3B 在租来的 H200 上跑 30 份回答（每题 3 份其中 1 份注入 SynthID-Text），打包成 quiz 投到 LinkedIn/HN第一轮 278 人平均 3.92/10（纯随机预期 3.33，异常峰值是选项位置偏差），重排后 73 人平均 3.4 贴着随机走机制解释：大模型本就在 top-k 里随机选，水印只是换成带可预测 bias 的等价随机，质量差异本来就看不见复刻成本约两美元 GPU 租金，以后任何水印改变输出风格的判断都可用这个 quiz 做对照基线",
+      "summary_en": "An empirical counter to the watermarking-wrecks-quality argument: a two-dollar, H200-run quiz (Qwen3-30B + SynthID-Text, 10 questions x 3 answers, one secretly watermarked) shows readers perform at chance identifying watermarked text (278 people avg 3.92/10 vs 3.33 random; after fixing position bias, 73 people avg 3.4). Mechanism: LLMs already pick randomly among top-k tokens; watermarks swap that randomness for equivalent randomness with a predictable bias, so quality differences are invisible by construction.",
+      "one_liner": "两美元实验戳穿水印伤质量之争：读者识别水印文本的能力贴着随机猜，SynthID 不改变可感知质量",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3d5df1b9.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7a6c851b",
+      "title": "The actual epistemic crisis",
+      "url": "https://pluralistic.net/2026/08/20/epistemic-void",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-08-20"
+      },
+      "category": "industry",
+      "tags": [
+        "epistemics",
+        "deepfakes",
+        "regulatory-capture",
+        "media-trust"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "把 AI 时代 deepfake 泛滥重新框成机会性感染而非新病：引普京媒体操盘手 Surkov 策略宣布秘密资助部分反对派但不说哪些是假的，让一切讨论滑向这到底是真的还是安排的论证支点在 FDA/Sackler监管佣获银行钓鱼这些AI 之前就存在的认知脆弱性：本应替我们把关的独立专家机构已被企业收购读完对指望靠 provenance/C2PA/水印这类纯技术方案解决真实性危机的人会立刻降温把AI 让人分不清真假从技术问题转换成权力结构问题",
+      "summary_en": "Doctorow reframes AI-era deepfake panic as opportunistic infection rather than a new disease, tying it to Surkov-era media manipulation and pre-existing epistemic failures (FDA/Sackler, regulatory capture, bank phishing). The institutions that should vouch for truth have been bought; AI lands the final blow. A corrective for anyone hoping provenance/C2PA/watermarking alone can fix the authenticity crisis.",
+      "one_liner": "把 deepfake 危机从技术问题重框为权力结构问题：纯 provenance/水印方案救不了已被企业收购的把关体系",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7a6c851b.md",
+      "images": [
+        "https://i0.wp.com/craphound.com/images/20Aug2026.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/actual-epistemic-crisis.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/heylookatthis3.jpg?w=840&ssl=1"
+      ],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "071e11ee",
+      "title": "ChatGPT search now uses the site: operator at scale",
+      "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-08-20"
+      },
+      "category": "industry",
+      "tags": [
+        "chatgpt-search",
+        "geo",
+        "seo",
+        "openai",
+        "observability"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "从 Promptwatch（GEO 赛道工具）公开数据里拣出被 OpenAI 遮掉的产品改动：所有 ChatGPT Search fanout 查询里带 site: 操作符的比例过去几周稳定在 0.30.5%，8 月 35 日短暂掉到 0.15%（像 pre-launch 实验），8 月 8 日直接跳到 1617%，时间点对应 GPT-5.6 Sol 发布Simon 试探后端新工具形状更接近 search(query, recency, domains)，OpenAI 不公开 system prompt 再次堵死独立验证1617% 意味着 ChatGPT Search 已成为高度依赖 site: 精确筛选的 fanout 工具；Promptwatch 式间接测量正在成为观察封闭 AI 系统的标准路径",
+      "summary_en": "Promptwatch data shows ChatGPT Search queries using the site: operator jumped from a steady 0.3-0.5% to 16-17% on Aug 8, right after GPT-5.6 Sol shipped (with a brief 0.15% dip Aug 3-5 suggesting a pre-launch experiment). Willison probes the backend tool shape as closer to search(query, recency, domains). A rare quantified signal about how AI search actually works, via indirect measurement of a closed system.",
+      "one_liner": "间接测量揭开 ChatGPT Search 形态变化：site: 占比从 0.5% 跳到 1617%，AI 搜索已是高比例精确筛选的 fanout 工具",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/071e11ee.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "13961af5",
+      "title": "A Sloppy Interface Is a Security Liability",
+      "url": "https://blog.jim-nielsen.com/2026/sloppy-ui-is-security-liability",
+      "source": {
+        "platform": "blog",
+        "author": "Jim Nielsen",
+        "original_date": "2026-08-19"
+      },
+      "category": "industry",
+      "tags": [
+        "phishing",
+        "ui-design",
+        "security",
+        "vibe-coding"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "从 Axios npm 维护者被钓鱼事件拉出一个前所未有人明说的角度：维护者栽进去的原因是钓鱼页面 vibe-coded 出的假 Microsoft Teams 界面太像真的而这件事能被广泛做出来，正因为行业 UI 质量普遍降到 LLM 一句话能复制的水平升级成一条法则：界面和交互设计本身就是 security control；普通人判断真实性的做得差的东西背后工程也差启发式已退化把界面做到超过 LLM 默认输出的那层细节（micro-interactionsloading 行为edge case 处理），攻击者要复刻就必须先识别这些细节反向护城河",
+      "summary_en": "The Axios npm maintainer fell for a phishing page partly because the vibe-coded fake Microsoft Teams UI was too convincing - and that's only possible because industry UI quality has dropped to a level an LLM can replicate in one shot. Interfaces are themselves a security control; polishing interactions beyond LLM-default output becomes a defensive moat against phishing.",
+      "one_liner": "界面质量就是安全设施：LLM 能一句话复刻的 UI 水平，同时也是钓鱼攻击的便利条件",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/13961af5.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e86dd1a7",
+      "title": "Malicious Rust crate arrayref runs a build-time payload",
+      "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware",
+      "source": {
+        "platform": "blog",
+        "author": "SafeDep",
+        "original_date": "2026-08-20"
+      },
+      "category": "infra",
+      "tags": [
+        "supply-chain-security",
+        "rust",
+        "malware",
+        "crates-io",
+        "sbom"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "crates.io 上 arrayref 0.3.10 被注入对 typosquat 包 proc-macro1（仿冒 proc-macro2）的依赖，其 build script 用 base64 拼出恶意下载地址，跳过证书校验按架构下载二进制运行攻击者先把 0.3.50.3.9 yank 掉强迫升级到剩下的 0.3.10；维护者账号 droundy 确认被入侵，GitHub 仓库已 404arrayref 累计下载约 2.45 亿次，通过 tiny-skia winit 覆盖大多数 egui/iced GUI 项目文章列出完整 IoC（IP/端口/路径/SHA256），可直接用作 Cargo.lock 扫描与升级策略 playbook",
+      "summary_en": "SafeDep discloses that crates.io's arrayref 0.3.10 (2.45B+ lifetime downloads) was injected with a dependency on typosquat proc-macro1 whose build script downloads and runs architecture-specific binaries from a hardcoded IP over TLS with certificate verification disabled. The maintainer account droundy was compromised, older versions were yanked to force upgrades. Full IoC list included; impacts most egui/eframe/iced GUI projects via tiny-skia -> winit.",
+      "one_liner": "Rust 供应链实弹：维护者账号被入侵后 yank 旧版强迫升级，arrayref 0.3.10 构建期下载执行二进制，附完整 IoC",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e86dd1a7.md",
+      "images": [
+        "https://safedep.io/_astro/apple-touch-icon.BdYG7kdO.svg",
+        "https://safedep.io/images/youtube-malvert-mac-stealer-campaign-banner.png",
+        "https://safedep.io/images/baileys-blog-banner.jpg"
+      ],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e2dc35a6",
+      "title": "AliExpress page keeps multipoint Bluetooth headphones locked to PC via WebAudio fingerprinting",
+      "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+      "source": {
+        "platform": "blog",
+        "author": "laserphile",
+        "original_date": "2026-08-17"
+      },
+      "category": "infra",
+      "tags": [
+        "browser-fingerprinting",
+        "webaudio",
+        "privacy",
+        "bluetooth",
+        "forensics"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "作者发现 AliExpress 首页会让支持 multipoint 的蓝牙耳机卡在 PC 端不走音频路径，排除常规嫌疑后通过重写 AudioContext 构造函数发现 collina.js 和 fireyejs.js 搭建锯齿波振荡器 AnalyserNode ScriptProcessorNode 增益为 0 destination的图，看似无声其实让系统音频通路持续激活；浏览器判定这是实时音频处理所以 Media Session 和 mute 都拦不住脚本同时采集 canvas/WebGL/设备参数/WebRTC/传感器指纹并加密上报附 uBlock Origin filter 规则，是少有的端到端取证样本",
+      "summary_en": "AliExpress's homepage silently holds a system audio path open via hidden AudioContext graphs (sawtooth oscillator -> analyser -> script processor -> zero gain -> destination) in collina.js/fireyejs.js, keeping multipoint Bluetooth headphones locked to the PC. Browsers classify it as real-time audio processing, so Media Session and mute don't help. The scripts also fingerprint canvas/WebGL/device/WeRTC/sensors. Includes uBlock Origin filter rules.",
+      "one_liner": "端到端取证：零增益隐形 AudioContext 图让蓝牙耳机锁死在 PC，顺带全套指纹采集，附 uBlock 规则",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e2dc35a6.md",
+      "images": [
+        "https://resources.blogblog.com/img/icon18_edit_allbkg.gif"
+      ],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a6eb75bf",
+      "title": "深度拆解：新一代智能体手机的路线之争",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0NDcwNTc1OQ%3D%3D&mid=2247483912&idx=1&sn=2282e48602310b1a5829fd8dc9f73867",
+      "source": {
+        "platform": "cubox",
+        "author": "微信公众号（Cubox 收藏）",
+        "original_date": "2026-08-21"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-phone",
+        "skill",
+        "mcp",
+        "gui-agent",
+        "system-architecture"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "从系统架构视角拆解智能体手机三条路线：Skill 派（清华 AOHP 深改 Android 框架层新增 32 个系统文件特权容器跑完整 Node+Python 运行时；华为 HarmonyOS 7 搬架构不搬执行环境重任务云侧）MCP 派（阶跃 Step AOS 语义化原子操作+强端侧模型）GUI Agent 派（豆包看屏点界面，通用性最强但可控性最弱）核心判断：竞争表面是模型能力，底层是谁选对了让智能体动手的机制对做 Agent 落地端侧的读者是一份清晰的架构对照表",
+      "summary_en": null,
+      "one_liner": "智能体手机三阵营架构对照：Skill 深改 OS MCP 语义原子操作GUI 看屏点击，代价各不相同",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a6eb75bf.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e1592319",
+      "title": "体验完 DeepSeek Harness，我打算放弃开发了两年的客户端",
+      "url": "https://x.com/sagacity/status/2090327717149618343",
+      "source": {
+        "platform": "x",
+        "author": "sagacity",
+        "original_date": "2026-08-21"
+      },
+      "category": "industry",
+      "tags": [
+        "deepseek-harness",
+        "agent-os",
+        "plugin-ecosystem",
+        "ops-decision"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "墨问西东创始人池大转发的 ops 决策日志：笔记作者用一个下午体验 DeepSeek Harness 后，停掉开发了两年的自研 AI 客户端，把界面/工具/记忆/权限全部迁到 DSH 插件层评论区出现多个独立 ops 同向表态（网站内核换 DSH评估从 Claude Harness Factory 转型），也有反向信号指插件质量与生态稳定性不足不是严谨技术分析，但作为 DSH 生态拐点信号值得记录",
+      "summary_en": null,
+      "one_liner": "DSH 生态拐点信号：多个独立 ops 在体验后停掉自研客户端转向插件开发，果但强但尚早",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/e1592319.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-21",
-  "total_entries": 1913
+  "total_entries": 1928
 }
