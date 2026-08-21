@@ -56054,8 +56054,295 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "dde7aa89",
+      "title": "What is Missing from AI Post-Training AI: An Empirical Analysis",
+      "url": "https://arxiv.org/abs/2608.19072",
+      "source": {
+        "platform": "arxiv",
+        "author": "Joy Jia Yin Lim, Xin Huang, Hao Peng, Yaxi Lu, Xin Cong, Zhong Zhang, Maosong Sun, Yankai Lin",
+        "original_date": "2026-08-19"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agents",
+        "post-training",
+        "ai-for-ai",
+        "empirical-study",
+        "strategy-level-capability"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "对公开发布的 post-training 轨迹做实证分析：LLM agent 能端到端执行选定的训练策略，但策略在最开头就锁定，剩余预算全部花在局部调整递进式干预实验显示：经验脚手架提升执行（GSM8K +12.6HumanEval +40.8）但策略不变；人类指导能改变初始策略但训练一开始就回落局部循环；额外推理算力只在简单任务有效结论：缺的是执行中自发重新审视策略的机制",
+      "summary_en": "Empirical analysis of publicly released post-training trajectories showing LLM agents can execute a selected training strategy end-to-end but lock in that strategy at the very beginning, spending the remaining budget on local adjustments. Escalating interventions show experience scaffolds boost execution (+12.6 GSM8K, +40.8 HumanEval) but leave strategy static; human guidance redirects initially yet agents fall back to local loops; extra inference compute helps easy tasks only. Conclusion: what is missing is a mechanism for spontaneously reevaluating strategy during execution (AI-for-AI gap).",
+      "one_liner": "实证分析公开 post-training 轨迹：agent 的训练策略在开头就锁定，缺的不是经验/指导/推理算力而是执行中重新审视策略的机制",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/dde7aa89.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "af97394e",
+      "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+      "url": "https://arxiv.org/abs/2608.19197",
+      "source": {
+        "platform": "arxiv",
+        "author": "Bo Liu, Simon Yu, Yiding Jiang, Ao Qu, Andrew Zhao, Zichen Liu, Junsu Kim, Zijian Zhou, Seungone Kim...",
+        "original_date": "2026-08-19"
+      },
+      "category": "agents",
+      "tags": [
+        "self-play",
+        "synthetic-environments",
+        "reinforcement-learning",
+        "environment-design",
+        "open-ended-learning"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "SPADE：自博弈 RL 框架，单个 LLM 同时扮演两个角色环境设计者以可执行代码写出带 Gym 风格 reset()/step() 接口的完整长时程训练环境，推理 agent 在其中学习用有/无特权提示的奖励差估计 regret，使设计者学会把环境定在 agent 能力边缘但仍可行关键组件：用预训练语料文档为设计者提供 grounding累积环境记忆规模到 30B：八项 held-out 基准较最强固定环境基线平均 +5.3，BFCL-v4 多轮 +5.7，ACEBench-Agent +13.9",
+      "summary_en": "SPADE: a self-play RL framework where a single LLM plays two roles - an Environment Designer writing complete long-horizon training environments as executable code with Gym-style reset()/step(), and a Reasoning Agent learning in them. Regret estimated via privileged-hint reward gaps, so the designer targets the edge of the agent's ability while keeping tasks feasible. At 30B scale: +5.3 average over the strongest fixed-environment baseline across eight held-out benchmarks, +5.7 BFCL-v4 multi-turn, +13.9 ACEBench-Agent; grounding the designer on pretraining-corpus documents and accumulated environment memory proved critical.",
+      "one_liner": "自博弈 RL 框架：单个 LLM 同时扮演环境设计者与推理 agent，用可执行代码生成训练环境，30B 规模下八项基准平均 +5.3",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/af97394e.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5791c3bc",
+      "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
+      "url": "https://arxiv.org/abs/2608.19161",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ramneet Kaur, Pradyumna Chari, Ramesh Raskar, Jugad Singh, Sumit Kumar Jha, Anirban Roy",
+        "original_date": "2026-08-19"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent-safety",
+        "latent-communication",
+        "monitoring",
+        "collusion-detection",
+        "activation-steering"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "VLA（Verifiable Latent Alignments）：面向通过连续隐藏状态（公开转录不可见）秈密通信的多 agent 监控与转向框架中性三层监控器（表征异常检测反事实动作分布影响SAE 可解释性）用共享事件 ID 把私有隐状态记录与公开行动对齐在受控多 agent 拍卖基准上：序列监控器同构/异构 agent 对 AUROC 0.993/0.854；Qwen3-0.6B 25-100 竞标者拍卖中监控负载仅占全部有向对的小部分；完整白盒转向实现 100% 出价分布恢复且低价合谋行为降 47.3 个百分点",
+      "summary_en": "VLA (Verifiable Latent Alignments): an activation-aware framework for monitoring and steering covert coordination among language-model agents communicating through continuous hidden states invisible in public transcripts. A neutral-only three-layer monitor (representation anomaly detection, counterfactual action-distribution influence, SAE interpretation) links private latent records to public actions via shared event identifiers. On a controlled multi-agent auction benchmark: sequential monitor AUROC 0.993 (homogeneous pairs) and 0.854 (heterogeneous) with text+latent collusion pooled; in Qwen3-0.6B auctions with 25-100 bidders monitoring needs only a small fraction of directed pairs; full white-box steering achieves 100% bid-distribution recovery and cuts collusive low-bid behavior by 47.3 percentage points.",
+      "one_liner": "监测隐式多 agent 通信：激活级三层监控器在同构/异构 agent 拍卖合谋上 AUROC 0.993/0.854，白盒转向使低价合谋降 47.3pp",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5791c3bc.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a90bcac8",
+      "title": "Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2608.19098",
+      "source": {
+        "platform": "arxiv",
+        "author": "Huan-ang Gao, Haohan Chi, Yong Yan, Shiyuan Feng, Hanlin Wu, Zheng Jiang, Bingxiang He, Wei-Ying Ma...",
+        "original_date": "2026-08-19"
+      },
+      "category": "models",
+      "tags": [
+        "distillation",
+        "on-policy",
+        "multi-teacher",
+        "post-training",
+        "open-source-recipe"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Open-MOPD：在 SmolLM3-3B-Base 上用 oracle 路由建立受控的多教师在线蒸馏基准，把能力整合与路由歧义分离发现标准 M-OPD 仅拿到领域路由 oracle 集成可行余地的 35.6%，病因不是梯度冲突而是 token 级优化预算错配（序列长度失衡学习率收敛漂移异步奖励失效）令牌份额平衡gap 感知动态预算分配学生奖励刷新三机制把恢复率提到 83.4%；完整配方轨迹与评测套件在学术硬件预算上开源",
+      "summary_en": "Open-MOPD: a controlled multi-teacher on-policy distillation benchmark on SmolLM3-3B-Base with oracle routing isolating capability integration from routing ambiguity. Finds standard M-OPD captures only 35.6% of the headroom vs a domain-routed oracle ensemble, caused not by gradient conflict but by misallocated token-level optimization budget (sequence-length disparities, non-uniform learning-rate convergence drift, asynchronous reward staleness). Token-share balancing, gap-aware dynamic budget allocation, and student reward refresh raise headroom recovery to 83.4%; end-to-end recipe, trajectories, and eval suites open-sourced on an academic hardware budget.",
+      "one_liner": "开源 M-OPD 配方：诊断多教师在线蒸馏的能力失衡源于 token 优化预算错配，三机制把 headroom 恢复从 35.6% 提到 83.4%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a90bcac8.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0aec5bc3",
+      "title": "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",
+      "url": "https://arxiv.org/abs/2608.19140",
+      "source": {
+        "platform": "arxiv",
+        "author": "George Andrikopoulos",
+        "original_date": "2026-08-19"
+      },
+      "category": "models",
+      "tags": [
+        "evaluation",
+        "reliability",
+        "precision-metric",
+        "position-paper",
+        "benchmarks"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "立场文章：前沿模型的准确率（平均输出命中目标）已饱和，真正拉开系统差距的是精度：相同请求重复执行的输出分散度射击的弹群而非矄准三个主张：精度而非能力是前沿差异化因素，而基准文化只报中央趋势不报离敦；精度可以不用模型评分器低成本测量（固定温度多次跑确定性任务算一致性）；指标能指导决策，区分规则可修的一致性失败与需换模型/采样的分散失败给出 grouping 度量测试 harness 与一次已复现的实测（一条规则把 0/5 修到 5/5，而由规则改写的任务对前沿模型无增益）",
+      "summary_en": "Position paper arguing frontier models have saturated accuracy (mean output on target) so what separates systems is precision: how tightly outputs concentrate across repeated identical requests - the marksman's grouping vs point of aim. Claims: (1) precision, not capability, is the frontier differentiator and benchmark culture reports central tendency, not spread; (2) precision is measurable cheaply without model-in-the-loop graders by running deterministic tasks many times at fixed temperature and computing per-task consistency; (3) the metric is decision-guiding, separating consistent failures (rule-fixable sight adjustments) from scattered failures (model/sampling problems). Includes a grouping metric, harness spec, and a replicated first real run where one rule closed a gap 0/5 to 5/5 while rule-authored tasks found no value against a frontier model.",
+      "one_liner": "观点文章：前沿模型的准确率已饱和，精度（重复请求的分散度）才是下一个前沿指标，且可不靠 grader 低成本测量",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0aec5bc3.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2fbfd12f",
+      "title": "Huzzah: pseudocode prompts as a persistent alternative to coding-agent chats",
+      "url": "https://www.danielvaughn.dev/posts/huzzah",
+      "source": {
+        "platform": "blog",
+        "author": "Daniel Vaughn",
+        "original_date": "2026-08-20"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "prompt-paradigm",
+        "human-intent",
+        "show-hn",
+        "editor"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Show HN 文章+演示：作者认为 coding agent 的提示是长篇命令式一次性的，导致人类意图没有可靠记录他构建了实验编辑器 Huzzah：提示改为伪代码声明式持久化的 .hz 文件，由 LLM 负责增量填充实现文中用 fizz buzz 对比两种范式的 token 消耗与意图保留",
+      "summary_en": "A Show HN essay-diagram pairing: the author argues coding-agent chats lose human intent because prompts are longform, imperative and transient, and builds Huzzah, an experimental editor where prompts are pseudocode, declarative and persistent. Fizz-buzz walkthrough contrasts repeated chat instructions against an editable fizz_buzz.hz pseudocode file that becomes the durable record of intent.",
+      "one_liner": "Show HN 实验性编辑器：用持久化伪代码声明替代易失的命令式长文提示，重建人机意图的中心权威",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2fbfd12f.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a6781ae1",
+      "title": "Don't paste the AI, please",
+      "url": "https://dontpastetheai.com/",
+      "source": {
+        "platform": "blog",
+        "author": "community site",
+        "original_date": "2026-08-20"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-etiquette",
+        "social-norms",
+        "hn-discussion",
+        "llm-usage"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "HN 热帖（985 分535 评论）的一页式社交礼仪站点：别把没读过的聊天机回答直接粘贴回复别人对方也有同样的工具，他们要的是你的上下文与判断给出四条替代做法：AI 起草但要读后重写只摘真正回答的部分引用时说明为何有用或直说没有看法",
+      "summary_en": "A one-page etiquette site that went viral on HN (985 points, 535 comments): when someone asks you a question, they want your context and judgment, not an unread chatbot dump, because they have the same tools. Practical alternatives offered: use AI for drafting but read and rewrite, quote only the useful part and explain why, or say you have no strong opinion.",
+      "one_liner": "被广泛传播的社交礼仪站点：别把未读的 LLM 回答直接粘给提问的人，对方也有同样的工具",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a6781ae1.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1e445dd0",
+      "title": "Training a 125M model to autocomplete piano on-device",
+      "url": "https://simedw.com/2026/08/20/midi-autocomplete",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Edwardsson",
+        "original_date": "2026-08-20"
+      },
+      "category": "models",
+      "tags": [
+        "on-device-inference",
+        "music-models",
+        "dpo",
+        "tokenization",
+        "edge-ml"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "一篇有工程细节的 14 次实验复盘：125M 参数 transformer 在 iPhone 15 上实时自动补全钢琴演奏（约 108 音符/秒，应用 RollTab）最大收益来自三处：合适的 MIDI token 表示激进的训练数据清洗DPO 后训练；文中拆解了词表大小权衡多轨锎盘保留策略与偏好调优",
+      "summary_en": "A detailed 14-experiment engineering retrospective: a 125M-parameter transformer autocompletes piano performances in real time (~108 notes/sec on an iPhone 15, app RollTab). The biggest wins came from choosing the right MIDI token representation, aggressive training-data cleaning, and DPO post-training; the post walks through tokenization trade-offs (naive note-on vocabulary is 16k+ tokens), data cleaning, and preference tuning.",
+      "one_liner": "个人项目复盘：125M 参数 transformer 在 iPhone 15 上实时自动补全钢琴演奏（约108 音符/秒），MIDI 表示与数据清洗是关键收益",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1e445dd0.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c0e4bffc",
+      "title": "Cerebras CS-4: rack-scale wafer inference, up to 30x faster than GPUs",
+      "url": "https://www.cerebras.ai/cs4",
+      "source": {
+        "platform": "blog",
+        "author": "Cerebras",
+        "original_date": "2026-08-20"
+      },
+      "category": "infra",
+      "tags": [
+        "cerebras",
+        "wafer-scale",
+        "inference-hardware",
+        "llm-serving",
+        "launch"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Cerebras 发布 CS-4 机柜级推理系统：每套三片 WSE-3 Turbo 晶圆（官称单瓦较上代提速至 2 倍）；宣称较 GPU 系统推理快至 30 倍，瓦间互连延迟降至 2 微秒，在超过 10 万亿参数的模型上保持 1000+ tokens/s；每瓦吞吐量较 CS-3 高至 10 倍；配 Nexus 机柜平台面向超大规模部署",
+      "summary_en": "Cerebras announces the CS-4 rack-scale system: three WSE-3 Turbo wafers per system, each claimed up to 2x previous-generation speed; up to 30x faster inference than GPU systems; wafer-to-wafer interconnect latency reduced to 2 microseconds delivering 1,000+ tokens/sec on models exceeding 10 trillion parameters; up to 10x more throughput per watt than CS-3; Nexus rack platform for hyperscale deployment.",
+      "one_liner": "Cerebras 发布 CS-4：三片 WSE-3 Turbo 机柜级推理系统，宣称比 GPU 快至 30 倍每瓦 10T+ 参数模型 1000+ tokens/s",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c0e4bffc.md",
+      "images": [],
+      "added_date": "2026-08-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-20",
-  "total_entries": 1904
+  "last_updated": "2026-08-21",
+  "total_entries": 1913
 }

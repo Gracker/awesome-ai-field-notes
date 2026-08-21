@@ -1,0 +1,3 @@
+Cerebras product page for the newly announced CS-4: a rack-scale solution with three WSE-3 Turbo wafers per system, each wafer claimed up to 2x the speed of the previous generation. Headline claims: up to 30x faster inference than GPU systems; wafer-to-wafer interconnect latency reduced to 2 microseconds, sustaining 1,000+ tokens/sec on models exceeding 10 trillion parameters while preserving interactive decode; up to 10x more throughput per watt than CS-3; Nexus rack-scale platform for hyperscale datacenter deployment. All figures are vendor claims from the launch page; independent benchmarks not yet available at scan time.
+
+> Source: https://www.cerebras.ai/cs4
