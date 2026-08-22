@@ -57104,8 +57104,178 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "38f5ddb5",
+      "title": "Stop Making TUIs",
+      "url": "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis",
+      "source": {
+        "platform": "blog",
+        "author": "Thomas Ptacek",
+        "original_date": "2026-08-20"
+      },
+      "category": "coding",
+      "tags": [
+        "agent-coding",
+        "native-ui",
+        "swiftui",
+        "tui",
+        "vibe-coding"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Thomas Ptacek 用过去一年 vibe-code 出的一串 macOS 原生小工具（MDV.app Markdown 阅读器SageMath 图形计算器DJ Roomba 音乐播放器Self Driving Wiki食物宏量追踪Thermite 菜单栏温度计Apple TV 遥控）论证：Claude + Codex + SwiftUI skill + Makefile 模板，没打开过 Xcode 也能 summon 出像样的原生 UI他逐条拆掉 TUI 的四大辩护：信息密度（Bloomberg Terminal 证明密集 GUI 能做）SSH 可达（bpftrace 证明正路是 GUI 远端驱动 CLI，参考 Emacs TRAMP）可访问性（TUI in-band 边框对屏幕阅读器是灾难）跨平台（唯一站得住的理由）结论：几十年的 frontend/backendweb/native 身份分野正在被 agent 抹掉，自称不写 UI 的系统程序员需要重新校准",
+      "summary_en": "Thomas Ptacek tours the native macOS apps he vibe-coded over the past year (MDV.app markdown viewer, a SageMath calculator frontend, DJ Roomba music player with an embedded LLM agent, Self Driving Wiki driving claude -p over a virtual filesystem, a food macro tracker, menu-bar thermometer, and Apple TV remote), almost none of whose UI code he hand-wrote. He then dismantles the four standard defenses of TUIs: density (Bloomberg Terminal proves dense GUIs exist), SSH reachability (bpftrace and Emacs TRAMP show the right pattern is a GUI driving a remote CLI), accessibility (in-band border signaling is a nightmare for screen readers), and cross-platform (the only defensible reason). His verdict: agents have dissolved the frontend/backend and web/native boundaries, and systems programmers who define themselves by not writing UI should recalibrate.",
+      "one_liner": "用一整年 agent 写出来的原生 macOS 小工具做证据链，宣布 TUI 时代该结束agent 已把写 UI 的门槛抹平",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/38f5ddb5.md",
+      "images": [
+        "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/SCR-MDV.png",
+        "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/SCR-CAS.png",
+        "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/SCR-DJR.png",
+        "https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/SCR-WIKI.png"
+      ],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "451496f8",
+      "title": "My agent.md to improve LLM-assisted code quality",
+      "url": "https://fabiensanglard.net/agent.md/index.html",
+      "source": {
+        "platform": "blog",
+        "author": "Fabien Sanglard",
+        "original_date": "2026-08-21"
+      },
+      "category": "coding",
+      "tags": [
+        "agent-coding",
+        "claude-code",
+        "agent-md",
+        "code-quality",
+        "context-dilution"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Fabien Sanglard（Rust mDNS 实现 libadbmdns 作者）记录与 Claude Code 协作的真实迭代：agent 产出能跑但像意大利面，他在每个新 session 重复同样的风格指令解法是把规范固化到项目根目录的 agent.md，由 harness 在 session 起始注入文中公开全文：措辞极简禁 superlative 与夸奖recurring 值提取为常量早返回防箭头反模式函数名小于 30 字符参数用 enum 不用 bool访问修饰符变更需显式批准分层不得穿层commit message 七条规矩修 bug 先写失败测试针对 Lost in the Middle 的 context dilution 给出两对策：每个 feature 开新 session发现质量下滑就让 agent Reload agent.md作者坦承这不是 magic bullet幻觉仍需人盯，但注意力终于能从代码风格回到架构",
+      "summary_en": "Fabien Sanglard documents his real iteration loop with Claude Code on libadbmdns (a Rust mDNS implementation): agent output compiles but reads like spaghetti, and he kept repeating the same style suggestions every session. The fix is to codify them into an agent.md that the harness injects at session start. The post publishes his full rule set: minimal wording, no superlatives or praise, extract recurring values into constants, early returns against the arrow anti-pattern, function names under 30 chars, enums over booleans for parameters, member-visibility changes require explicit approval, strict layer boundaries, seven commit-message rules, and test-first bug fixing. For context/attention dilution (Lost in the Middle) he prescribes a new session per feature and asking the agent to reload agent.md when quality drops....",
+      "one_liner": "把每个 session 重复口述的代码风格固化成 agent.md 注入 prompt，并公开全文拿来就用的 agent 协作 playbook",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/451496f8.md",
+      "images": [],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4d44c85f",
+      "title": "Our Servants Will Do That For Us",
+      "url": "https://borretti.me/article/our-servants-will-do-that-for-us",
+      "source": {
+        "platform": "blog",
+        "author": "Fernando Borretti",
+        "original_date": "2026-08-20"
+      },
+      "category": "learning",
+      "tags": [
+        "agi",
+        "task-automation",
+        "complexity",
+        "future-of-work",
+        "essay"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Fernando Borretti 用任务复杂度时间的 sigmoid 图拆开 AGI 的隐含许诺：250 年自动化史只推进可形式化任务的边界线，而 y 轴上并不存在 drudgery 界限drudgery 与 meaningful work 同属一个复杂度类，能自动化的技术必然同时吞掉两者；AGI 一旦把曲线瞬间推到 100%，经济激励反向运转，人类唯一逃逸口是关系经济（必须在场的人脸工作：播客主客户接口活人）第二论点是 revealed preference：对自己工作谈意义对他人工作只谈结果（Waymo 例），若机器能产出同等审美价值的文本图像，受众流失多少是尚未揭晓的经验问题数学家正在重演软件工程师十二个月前的过程",
+      "summary_en": "Fernando Borretti dissects the implicit promise of modernity with a task-complexity-vs-time sigmoid: 250 years of automation pushed the limit of formalizability, but there is no 'limit of drudgery' on the complexity axis drudgery and meaningful work sit in the same complexity class, so whatever automates one automates the other. Once AGI shoots the curve to 100 percent automation, economic incentives turn against humanity and the only niche left is the relational economy where a human face is part of the job description. His second argument is revealed preference: we describe our own work in meaningful terms and everyone else's instrumentally (his Waymo example), and whether audiences stay loyal to human-made art once machines produce equal aesthetic value is an open empirical question. Mathematicians, he notes, are rerunning software engineering's trajectory twelve months later.",
+      "one_liner": "用任务复杂度类把 AGI 叙事拆成可验证的框架：drudgery 与有意义工作同属一类，自动化技术必然同时吞掉两者",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4d44c85f.md",
+      "images": [
+        "https://borretti.me/assets/content/our-servants-will-do-that-for-us/graph1.png",
+        "https://borretti.me/assets/content/our-servants-will-do-that-for-us/graph2.png"
+      ],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "22e513e8",
+      "title": "Why shaming people about AI slop isn't enough to stop Big AI",
+      "url": "https://anildash.com/2026/08/21/ai-slop-and-shame",
+      "source": {
+        "platform": "blog",
+        "author": "Anil Dash",
+        "original_date": "2026-08-21"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-policy",
+        "ai-slop",
+        "big-ai",
+        "indie-ai",
+        "platform-critique"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anil Dash 论证羞耻作为抵制 Big AI 的手段结构性失效：硅谷投资人与 CEO 已把 stigma 定价进商业计划社交网络时代对平台使用的羞耻从未让人离开（人们仍半尴尬地用着 Facebook），#DeleteUber 的愤怒几天内被吸收，gig 经济把使用羞耻折进了商业模型创作者社区越骂 AI slop，普通用户只是更安静地继续用，token 流水一分没少他举 Mamdani 竞选视频为反面教材式正例：不羞辱 Trump 选民，而是给出可负担住房免费公交等肯定性替代；对应到 AI，human-centric社区所有的 indie AI 替代品已在建设中，缺的不是 alternative，而是把它递到用户手里替代吼叫的意愿批评者的选择是要有效还是要自我感觉正确",
+      "summary_en": "Anil Dash argues that shame is structurally incapable of stopping Big AI: Silicon Valley VCs and CEOs have priced stigma into their business plans. Social-network-era stigma never made people leave platforms (they are still, half-embarrassedly, on Facebook), #DeleteUber's anger was absorbed within days, and the gig economy folded usage-shame into its model. The louder creative communities condemn AI slop, the more quietly ordinary users keep using it, and the token revenue never drops. He holds up Zohran Mamdani's campaign video as the counter-pattern: instead of shaming Trump voters, offer an affirmative alternative. For AI, human-centric, community-owned indie alternatives are already being built; what's missing is the willingness to offer them to people instead of yelling. Critics must choose between being effective and being righteous.",
+      "one_liner": "羞耻已被 Big AI 定价进获客成本；真正有效的抵制是递上肯定性替代品，而不是更响地骂",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/22e513e8.md",
+      "images": [],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7b92c0f2",
+      "title": "Overview of AppFunctions (Android AI)",
+      "url": "https://developer.android.com/ai/appfunctions",
+      "source": {
+        "platform": "blog",
+        "author": "Google (Android Developers)",
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "android",
+        "appfunctions",
+        "mcp",
+        "agent-tools",
+        "gemini"
+      ],
+      "source_type": "product",
+      "language": "both",
+      "summary_zh": "Google 官方文档：AppFunctions 是 Android 16+ 内置于 OS 的 registry 机制，官方定位为移动端 MCP 等价物应用把自身能力（服务数据动作）声明为可编排的工具，持有 EXECUTE_APP_FUNCTIONS 权限的 caller（agent应用Gemini 等 AI 助手）可发现并执行，用户用自然语言直达任务而无需逐步 UI 操作文档给出 Kotlin @AppFunction 注解示例（创建待办任务按自然语言生成播放列表）2026 年与 Gemini 的集成处于 trusted testers 私有预览，开发者现在即可开始准备接入；门槛为 Android 16+ 设备与 caller 白名单",
+      "summary_en": "Official Google documentation: AppFunctions is a registry mechanism built into Android 16+, positioned as the mobile equivalent of MCP apps declare their capabilities (services, data, actions) as orchestratable tools that authorized callers holding the EXECUTE_APP_FUNCTIONS permission (agents, apps, and AI assistants like Gemini) can discover and execute, replacing step-by-step UI navigation with natural-language task completion. The doc shows Kotlin @AppFunction annotated examples such as creating a task with title/time/location or generating a playlist from a natural-language query. As of 2026, Gemini integration is in a private preview with trusted testers; developers can begin preparing their apps now. Requires devices on Android 16 or higher.",
+      "one_liner": "Android 16+ 把应用能力注册为 agent 可编排工具的官方机制，移动端 MCP 等价物，Gemini 集成私有预览中",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7b92c0f2.md",
+      "images": [
+        "https://developer.android.com/static/ai/assets/images/appfunctions.svg"
+      ],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-22",
-  "total_entries": 1937
+  "total_entries": 1942
 }
