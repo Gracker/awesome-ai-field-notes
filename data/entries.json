@@ -56825,8 +56825,287 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "d58f7ca4",
+      "title": "Inducing Task Models from Computer-Use Traces",
+      "url": "https://arxiv.org/abs/2608.20319",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yucheng Jiang, Zora Zhiruo Wang, Ruishi Chen, Diyi Yang",
+        "original_date": "2026-08-20"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use",
+        "agent-memory",
+        "task-induction",
+        "skill-learning"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "提出 Task Model Induction (TMI)：从被动录制的屏幕截图与键鼠轨迹中自动发现潜在任务解缠并发活动，并为每个任务归纳层次化目标模型 + 控制流过程模型在人类与 agent 轨迹上，TMI 以 0.974 的一致率恢复交错任务重建 74.9% 的执行步骤，远超最强工作流归纳基线；由任务模型导出的技能让留出任务准确率再提升 30.0%对进入真实工作流的 computer-use agent 而言，这是把日常操作痕迹变成可审计可复用技能资产的系统化路径",
+      "summary_en": "Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. The authors introduce Task Model Induction (TMI), which (i) discovers the latent tasks in an unconstrained trace, disentangling concurrent activity, and (ii) for each latent task, induces a task model pairing a hierarchical objective model of recursive goal decomposition with a procedure model of the control flow that organized the execution. On controlled human and agent trajectories, TMI recovers interleaved tasks with 0.974 agreement against ground-truth groupings and reconstructs 74.9% of the observed execution steps, far more than the strongest workflow induction baseline. Skills derived from TMI's task models improve held-out task accuracy by 30.0% over the strongest baseline.",
+      "one_liner": "提出 Task Model Induction (TMI)：从被动录制的屏幕截图与键鼠轨迹中自动发现潜在任务解缠并发活动，并为每个任务归纳层次化目标模型 + 控制流过程模型在人类与 agent 轨迹上，TMI 以 0.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d58f7ca4.md",
+      "images": [],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1c040b7e",
+      "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
+      "url": "https://arxiv.org/abs/2608.20318",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yizhe Chi, Wenyi Li, Deyao Hong, et al.",
+        "original_date": "2026-08-20"
+      },
+      "category": "agents",
+      "tags": [
+        "benchmark",
+        "recursive-self-improvement",
+        "training-algorithms",
+        "llm-agents"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "递归自我改进 (RSI) 的可行性取决于 agent 能否设计训练算法AI4AI-Bench 给出首个隔离式基准：10 个冻结研究仓库覆盖 10 类训练算法族，agent 在单张 B300 上有 4 小时改写训练算法，改后代码从零重跑至多 12 小时，由隐藏的固定评估器与原算法同规程打分；所有任务映射到统一刻度（0=无信息模型，0.1=仓库自带算法，1.0=任务最优）29 种配置 6 个系统平均得分 0.166最好 0.250距最优连五分之一的路都没走完，为 RSI 能力划出了当前真实水位",
+      "summary_en": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so the next system inherits the improvement; whether RSI is feasible turns on whether an agent can design training algorithms. AI4AI-Bench presents 10 frozen research repositories spanning 10 training algorithm families: in each task an agent has 4 hours on one B300 to rewrite the training algorithm, whose code is then rerun from scratch for up to 12 hours and scored by a fixed evaluator hidden from the agent, against the repository's original algorithm under the same procedure. Every task is mapped onto one scale where 0 is an uninformative model, 0.1 the shipped algorithm, and 1.0 the task optimum....",
+      "one_liner": "递归自我改进 (RSI) 的可行性取决于 agent 能否设计训练算法AI4AI-Bench 给出首个隔离式基准：10 个冻结研究仓库覆盖 10 类训练算法族，agent 在单张 B300 上有 4 小时改写训练算法，改后代码从零重跑至多 12 小时...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1c040b7e.md",
+      "images": [],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ee8d14f7",
+      "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+      "url": "https://arxiv.org/abs/2608.20314",
+      "source": {
+        "platform": "arxiv",
+        "author": "Fengqing Jiang, Yite Wang, Boyi Liu, et al.",
+        "original_date": "2026-08-20"
+      },
+      "category": "agents",
+      "tags": [
+        "tool-use",
+        "mid-training",
+        "data-synthesis",
+        "mcp"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "MidTool 是面向 agentic tool use 的 mid-training 开放语料构建管线：融合大规模网页PDF代码数据与来自真实工具 APIMCP 技能文档落地工作流的合成监督，教模型识别工具可供性从上下文填充参数组合调用流程并从信息不全中恢复在 Qwen3-4B/8B-Base 上先中训练再 SFT/RL，BFCLtau2-BenchMCP Universe 一致提升结论明确：通用工具使用和推理能力一样值得专门的 mid-training，而不是全靠后训练补课",
+      "summary_en": "MidTool is an open corpus construction pipeline for agentic tool-use mid-training that combines large-scale web, PDF, and code data with synthesized supervision from real-world tool APIs, MCP skills, and document-grounded workflows. It is designed to teach models how to recognize tool affordances, ground arguments from context, compose tool call workflows, and recover from incomplete information. Mid-training Qwen3-4B-Base and Qwen3-8B-Base on MidTool-Mix followed by SFT and RL consistently improves downstream performance on BFCL, tau2-Bench, and MCP Universe, suggesting general tool use benefits from dedicated mid-training rather than being left entirely to post-training.",
+      "one_liner": "MidTool 是面向 agentic tool use 的 mid-training 开放语料构建管线：融合大规模网页PDF代码数据与来自真实工具 APIMCP 技能文档落地工作流的合成监督...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ee8d14f7.md",
+      "images": [],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "10dfe781",
+      "title": "Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents",
+      "url": "https://arxiv.org/abs/2608.20274",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yiyang Feng, Biddut Sarker Bijoy, Niranjan Balasubramanian, Jiawei Zhou",
+        "original_date": "2026-08-20"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "skill-transfer",
+        "skill-induction",
+        "empirical-study"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "对 agent 技能归纳做了受控对照研究，比较两个维度：任务级 vs 子任务级归纳文本 vs 代码技能格式核心发现：任务级技能多数情况让 agent 跌破无记忆基线，子任务级则平均高于基线；文本技能比代码技能迁移更稳进一步提出特异性 抽象度合成的 skill utility 分数仅凭技能与任务描述无需任何任务执行即可预测迁移成功率，可在新任务运行前诊断技能记忆质量做 agent 记忆/技能库系统前的必读实证",
+      "summary_en": "LLM agents can induce skills from completed tasks and reuse them later, but induced skills may transfer unreliably and can even harm the agent that retrieves them. This controlled study compares task-level versus subtask-level skill induction and text versus code skill formats. Task-level skills mostly reduce the agent's performance below its no-memory baseline while subtask-level skills raise it above on average, and text skills transfer better than code skills. The authors propose a skill utility score combining specificity and abstractness that correlates consistently with task success when skills are transferred, computable from skills and task descriptions alone without any task execution, serving as a practical diagnostic of a skill memory before any new task runs.",
+      "one_liner": "对 agent 技能归纳做了受控对照研究，比较两个维度：任务级 vs 子任务级归纳文本 vs 代码技能格式核心发现：任务级技能多数情况让 agent 跌破无记忆基线，子任务级则平均高于基线.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/10dfe781.md",
+      "images": [],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fdb52c39",
+      "title": "Phantom Gains: Auditing Self-Improvement Against a Measured Null",
+      "url": "https://arxiv.org/abs/2608.20290",
+      "source": {
+        "platform": "arxiv",
+        "author": "Cheng Xu, Nan Yan, Liming Chen, M-Tahar Kechadi",
+        "original_date": "2026-08-20"
+      },
+      "category": "learning",
+      "tags": [
+        "evaluation",
+        "self-improvement",
+        "measurement",
+        "methodology"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "对自我改进评估的方法学审计：三轮 rank-32 LoRA 自训练 (Qwen3-8B) 与走完全相同管线的冻结对照做差分，识别出 7 种测量失效，任何一种在缺少对照时都会反转结论例如单一 greedy decode 的能力账本会把批处理推理伪影当成能力变化，给未训练模型记出 0.280 的习得率；换成逐题精确检验 + FDR 控制后，留出副本上检测不到任何自训练收益，而外部蒸馏确实改进了基座模型很少触及的问题（回归排除不对称性 p<1e-8）凡是报告 agent/模型自我改进效果的工作，先过这篇的审计清单",
+      "summary_en": "Whether a language model has improved itself is increasingly judged by which individual problems it gains and loses, but tracking these transitions means differencing two noisy estimates, leaving them vulnerable to measurement artifacts. Auditing three rounds of rank-32 LoRA self-training on Qwen3-8B against a frozen control pushed through the identical pipeline, the authors identify seven measurement failures, each of which inverts a reported finding when its control is absent. A ledger built on a single greedy decode manufactures capability changes on an untrained model (rate 0.280), largely an artifact of inference batching. Replacing the natural threshold with a per-problem exact test against a pooled baseline under false-discovery-rate control detects nothing on any held-out replicate....",
+      "one_liner": "对自我改进评估的方法学审计：三轮 rank-32 LoRA 自训练 (Qwen3-8B) 与走完全相同管线的冻结对照做差分，识别出 7 种测量失效，任何一种在缺少对照时都会反转结论例如单一 greedy decode 的能力账本会把批处理推理伪影当成能力变化...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fdb52c39.md",
+      "images": [],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "60b73de2",
+      "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+      "url": "https://arxiv.org/abs/2608.20316",
+      "source": {
+        "platform": "arxiv",
+        "author": "Adam Fisch, Shubhendu Trivedi, Fantine Huot, et al.",
+        "original_date": "2026-08-20"
+      },
+      "category": "infra",
+      "tags": [
+        "model-routing",
+        "value-of-information",
+        "llm-infra",
+        "cost-efficiency"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "把多专家 LLM 系统该把查询路由给谁形式化为带昂贵检验的经典 Pandora's Box 问题：廉价估计器（嵌入预测）快而噪，精确估计器（带检索/部分推理的微调模型）准而贵在高斯信号模型下推导出闭式 value-of-information 表达式，据此得到集中式 Pandora's Router 与去中心化 Pandora's Bidder 两种策略；在多 LLM 基准RAG 专家与可变推理时长三类场景中，Router 以远更少的高价估计达到与穷尽估计相当的路由质量对多模型网关/路由层的成本-质量权衡给出了理论化框架",
+      "summary_en": "Heterogeneous AI systems can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost, but routing requires estimating each specialist's expected return, and this value estimation has a cost: cheap estimators (embedding-based predictors) are fast but noisy, while accurate estimators (fine-tuned models with retrieval or partial reasoning traces) are expensive. The paper formalizes this tradeoff as an instance of Pandora's Box, the classical problem of optimal search with costly inspection....",
+      "one_liner": "把多专家 LLM 系统该把查询路由给谁形式化为带昂贵检验的经典 Pandora's Box 问题：廉价估计器（嵌入预测）快而噪，精确估计器（带检索/部分推理的微调模型）准而贵在高斯信号模型下推导出闭式 value-of-information 表达式...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/60b73de2.md",
+      "images": [],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e498167c",
+      "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
+      "url": "https://arxiv.org/abs/2608.20281",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qian Kou, Xiaofeng Shi, Xiaosong Qiu, Hua Zhou",
+        "original_date": "2026-08-20"
+      },
+      "category": "infra",
+      "tags": [
+        "knowledge-internalization",
+        "post-training",
+        "rag-alternative",
+        "fine-tuning"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "面向检索-free 文档知识内化的三段式后训练框架 IAR：Inject 把源文档转成续写/改写/指令条件重建目标做结构化注入，Align 用仅答案的 QA 监督对齐行为，Recover 与基座指令模型合并以恢复通用能力在 Common Corpus/CCI 语料与 LlamaPhiQwenSmolLM 四个模型家族上，8 个数据-模型设置中 7 个于全部四项指标超过 Vanilla SFT：领域 QA 平均 +3.6pt，通用能力 (IFEval/MMLU/MSBench) 平均 +12.1ptRAG 之外，把固定语料变成参数化知识的可复现路线",
+      "summary_en": "LLMs often fail to answer questions about a bounded document collection when source documents are not retrieved at inference time. This work studies document knowledge internalization: converting a fixed corpus into usable parametric knowledge for retrieval-free QA. The proposed IAR (Inject, Align, Recover) three-stage post-training framework separates structured document knowledge injection (converting source documents into continuation, rewrite, and instruction-conditioned reconstruction objectives), QA behavior alignment with answer-only supervision, and general ability recovery by merging with the base instruction model....",
+      "one_liner": "面向检索-free 文档知识内化的三段式后训练框架 IAR：Inject 把源文档转成续写/改写/指令条件重建目标做结构化注入，Align 用仅答案的 QA 监督对齐行为...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e498167c.md",
+      "images": [],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "67abd505",
+      "title": "Which Eviction Policy Should an LLM Cache Use? A Systematic Study Across Workloads, Capacities, and Encoders",
+      "url": "https://arxiv.org/abs/2608.20280",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yash Kulkarni, Shubham Harkare, Arvind Suresh Yogesh Babu",
+        "original_date": "2026-08-20"
+      },
+      "category": "infra",
+      "tags": [
+        "semantic-cache",
+        "llm-inference",
+        "eviction-policy",
+        "systems-evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "用统一协议 (CLEVER) 系统评测语义缓存驱逐策略：FIFO/LRU/LFU/ARC/GDSF/流式 SISO/语义冗余度，覆盖 3 个查询语料 3 种容量 2 种编码器共 18 个设置没有任何策略比 LFU 高出 0.041pt 以上，FIFO 与流式 SISO 在紧张容量下最多落后 8.67/8.55ptLFU 就是最强简单默认更大的警讯来自质量审计：MiniLM 中位阈值下仅 2.1-3.9% 的命中可判定答案可替换，把 51-60% 的原始命中率压到 1.1-2.2% 的质量调整命中率，且阈值不可跨编码器迁移上语义缓存省成本前，先测命中是否等价这一关",
+      "summary_en": "Semantic caches reuse an LLM response when the incoming query embedding lies near a cached query, but proposed eviction policies have rarely been compared under one protocol. Using CLEVER, the authors evaluate FIFO, LRU, LFU, ARC, GDSF, a single-pass streaming adaptation of SISO, and a semantic-redundancy policy across three ordered, deduplicated query corpora, three cache capacities, and two encoders. No evaluated policy improves on LFU by more than 0.041 percentage points in any of the eighteen settings, while FIFO and streaming SISO trail LFU by as much as 8.67 and 8.55 points at tight capacity....",
+      "one_liner": "用统一协议 (CLEVER) 系统评测语义缓存驱逐策略：FIFO/LRU/LFU/ARC/GDSF/流式 SISO/语义冗余度，覆盖 3 个查询语料 3 种容量 2 种编码器共 18 个设置没有任何策略比 LFU 高出 0.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/67abd505.md",
+      "images": [],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cb481993",
+      "title": "DeepSeek 官方文档：deepseek-v4-flash-vision-exp 视觉模型使用指南",
+      "url": "https://api-docs.deepseek.com/guides/vision",
+      "source": {
+        "platform": "blog",
+        "author": "DeepSeek",
+        "original_date": null
+      },
+      "category": "models",
+      "tags": [
+        "deepseek",
+        "vision-model",
+        "api",
+        "multimodal"
+      ],
+      "source_type": "product",
+      "language": "both",
+      "summary_zh": "DeepSeek 官方 API 文档上线 deepseek-v4-flash-vision-exp 视觉模型：支持图文混合输入，可做图像描述截图文字读取与图表分析；JPEG/PNG/GIF/WebP 按文件真实内容探测格式图像走 OpenAI 兼容 Chat Completions 的 content 数组，三种传入方式（base64 data URL 内联 / 外链 URL 最长 8192 字符 / Files API file_id），Responses API 亦可经 input_image 传入；图像按尺寸折算 token与文本合并计费，多图请求中每张独立计算该模型文档在 HN 单帖 447 分141 评论，社区关注度高",
+      "summary_en": "Official DeepSeek API documentation page for the deepseek-v4-flash-vision-exp model, which accepts images alongside text for describing pictures, reading text from screenshots, and analyzing charts. Supported formats are JPEG, PNG, GIF, and WebP, detected from actual file content rather than file name or declared MIME type. Images are passed via the OpenAI-compatible Chat Completions content-array format in three ways (inline base64 data URL, external URL up to 8192 characters, Files API file_id), and are also available through the Responses API via input_image parts. Images are converted into tokens based on their dimensions and billed together with text tokens, with each image in a multi-image request counted independently.",
+      "one_liner": "DeepSeek 官方 API 文档上线 deepseek-v4-flash-vision-exp 视觉模型：支持图文混合输入，可做图像描述截图文字读取与图表分析.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cb481993.md",
+      "images": [],
+      "added_date": "2026-08-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-21",
-  "total_entries": 1928
+  "last_updated": "2026-08-22",
+  "total_entries": 1937
 }
