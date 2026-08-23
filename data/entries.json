@@ -57274,8 +57274,256 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "d3e4f352",
+      "title": "ConceptGuard: Benchmarking Context-Sensitive Unlearning in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.20338",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sahil Kale et al.",
+        "original_date": "2026-08-20"
+      },
+      "category": "models",
+      "tags": [
+        "unlearning",
+        "benchmark",
+        "llm",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "ConceptGuard 提出概念级情境敏感的遗忘评测基准：现有方法用互不相干的事实集与直接回忆来评测 unlearning，无法检验删除有害概念时能否保留相关良性知识",
+      "summary_en": "ConceptGuard is a benchmark for context-sensitive, concept-level unlearning in LLMs: existing evaluations use disjoint forget/retain fact sets with direct recall, and so fail to test whether harmful concepts are removed while related benign knowledge survives.",
+      "one_liner": "ConceptGuard 提出概念级情境敏感的遗忘评测基准：现有方法用互不相干的事实集与直接回忆来评测 unlearning，无法检验删除有害概念时能否保留相关良性知识",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d3e4f352.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "50ab10ec",
+      "title": "ContractScrub: A benchmark for final review of legal contracts",
+      "url": "https://arxiv.org/abs/2608.20204",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yejin Bang et al.",
+        "original_date": "2026-08-20"
+      },
+      "category": "industry",
+      "tags": [
+        "legal",
+        "benchmark",
+        "long-context",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "ContractScrub 是面向法律合同终审（scrubbing）的基准：对交易文书做错误与不一致的最终审查，考验长上下文推理一致性检查与命名实体识别，是法律场景落地的高价值测点",
+      "summary_en": "ContractScrub benchmarks contract scrubbing, the final review of transactional agreements for errors and inconsistencies. The routine, long-document task aligns with frontier LLM strengths in long-context reasoning, consistency checking, and NER, making legal final review a measurable automation target.",
+      "one_liner": "ContractScrub 是面向法律合同终审（scrubbing）的基准：对交易文书做错误与不一致的最终审查，考验长上下文推理一致性检查与命名实体识别，是法律场景落地的高价值测点",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/50ab10ec.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6820fbb6",
+      "title": "Daedalus-150M: A Convolution-Attention Hybrid Designed for CPU Inference",
+      "url": "https://arxiv.org/abs/2608.20210",
+      "source": {
+        "platform": "arxiv",
+        "author": "Christos Koutsiaris et al.",
+        "original_date": "2026-08-20"
+      },
+      "category": "infra",
+      "tags": [
+        "small-model",
+        "cpu-inference",
+        "efficiency",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Daedalus-150M 反向设计小模型：先固定目标（单用户逐 token4-bit 权重普通 CPU）再选架构，18 层中仅 6 层保留完整注意力，其余用两步卷积避免重读增长的缓存；59.9B token 从零训练后超过 GPT-2 124MPythia-160M 等同量级模型",
+      "summary_en": "Daedalus-150M designs a small LM CPU-first: the target is fixed in advance (one user, one token at a time, 4-bit weights, ordinary CPU), full attention is kept in only 6 of 18 blocks, and the rest use short two-timestep convolutions that never re-read a growing cache. Trained from scratch on 59.9B tokens, it beats GPT-2 124M, Pythia-160M, OPT-125M and GPT-neo-125M.",
+      "one_liner": "Daedalus-150M 反向设计小模型：先固定目标（单用户逐 token4-bit 权重普通 CPU）再选架构，18 层中仅 6 层保留完整注意力，其余用两步卷积避免重读增长的缓存；59.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6820fbb6.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "61e7e8ce",
+      "title": "Unicode TAG-Block Concealment of Tool-Metadata Payloads in the Model Context Protocol: An Approval-View Fidelity Gap Across Three Independen...",
+      "url": "https://arxiv.org/abs/2607.05744",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mohammadreza Rashidi et al.",
+        "original_date": "2026-07-07"
+      },
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "security",
+        "tool-metadata",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文揭示 MCP 审批视图保真度缺口：工具元数据在一次性人工审批弹窗中的渲染与每轮注入模型的字节并不要求一致；Unicode TAG 区（U+E0000-U+E007F）无字形，写入其中的负载人眼不可见模型可读；作者用无模型分析在三个独立 MCP server 实现上验证",
+      "summary_en": "The paper isolates a structural gap in MCP: nothing requires the tool metadata rendered in the one-time human approval dialog to match the bytes injected into model context on every subsequent turn. Unicode's TAG block (U+E0000-U+E007F) renders no glyph in mainstream terminals, chat, or IDE clients, so payloads written in it are invisible to the human approver but fully readable by the model, verified model-free across three independent MCP server implementations.",
+      "one_liner": "论文揭示 MCP 审批视图保真度缺口：工具元数据在一次性人工审批弹窗中的渲染与每轮注入模型的字节并不要求一致；Unicode TAG 区（U+E0000-U+E007F）无字形，写入其中的负载人眼不可见模型可读；作者用无模型分析在三个独立 MCP server 实现上验证",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/61e7e8ce.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b679220f",
+      "title": "What If Prompt Injection Never Left? Rethinking Agent Security through Cross-Session Stored Prompt Injection",
+      "url": "https://arxiv.org/abs/2606.04425",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuanbo Xie et al.",
+        "original_date": "2026-06-03"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "prompt-injection",
+        "memory",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文提出跨会话存储型提示注入：外部信息进入智能体持久状态（记忆文件系统工具长生命周期上下文）后，恶意指令可长期潜伏并在后续会话静默生效，类似存储型 XSS；威胁模型在时间与空间两个维度扩展了提示注入的定义",
+      "summary_en": "The paper introduces Cross-Session Stored Prompt Injection: once external information crosses into persistent agent state (memories, filesystems, tools, long-lived contextual artifacts), injected instructions are no longer confined to a single interaction but persist and silently influence future sessions, analogous to stored XSS. The threat model extends prompt injection across both time and space.",
+      "one_liner": "论文提出跨会话存储型提示注入：外部信息进入智能体持久状态（记忆文件系统工具长生命周期上下文）后，恶意指令可长期潜伏并在后续会话静默生效，类似存储型 XSS；威胁模型在时间与空间两个维度扩展了提示注入的定义",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/b679220f.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2317f548",
+      "title": "Enhancing Model Context Protocol (MCP) with Context-Aware Server Collaboration",
+      "url": "https://arxiv.org/abs/2601.11595",
+      "source": {
+        "platform": "arxiv",
+        "author": "Meenakshi Amulya Jayanti et al.",
+        "original_date": "2026-01-06"
+      },
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "multi-agent",
+        "orchestration",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "CA-MCP 为 MCP 增加共享上下文存储（SCS）：规划 LLM 分解任务并下发给专门的 MCP server 执行，SCS 让无状态服务器间可传递知识减少冗余通信，提升多智能体工作流的一致性与效率",
+      "summary_en": "CA-MCP enhances MCP with a Shared Context Store: a planning LLM decomposes tasks and offloads execution to specialized MCP servers, while the SCS lets otherwise stateless servers transfer knowledge and cuts redundant communication, improving coherence and efficiency of multi-agent workflows.",
+      "one_liner": "CA-MCP 为 MCP 增加共享上下文存储（SCS）：规划 LLM 分解任务并下发给专门的 MCP server 执行，SCS 让无状态服务器间可传递知识减少冗余通信，提升多智能体工作流的一致性与效率",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/2317f548.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0dbbd03a",
+      "title": "Claudette: Make Claude stop talking like a BuzzFeed article (NoBuzz)",
+      "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "source": {
+        "platform": "github",
+        "author": "adnanakil",
+        "original_date": "2026-08"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "skill",
+        "agent-tools",
+        "hackernews"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Claude Code 技能 /debuzz（绰号 Claudette）：把 Claude 的回复原样交给 Antigravity CLI 的 Gemini 翻成正常人类语言并逐字打印，避免 Claude 自己润色带回 Buzzfeed 腔调；提供同事/经理/高管三种模式，登上 HN 首页",
+      "summary_en": "A Claude Code skill (/debuzz, unofficially Claudette) that hands Claude's last response to Google's Antigravity CLI (Gemini) and prints the plain-English translation verbatim, because letting Claude tidy its own translation reintroduces the buzz. Ships colleague/manager/director modes; reached the HN front page with 346 points and 232 comments.",
+      "one_liner": "Claude Code 技能 /debuzz（绰号 Claudette）：把 Claude 的回复原样交给 Antigravity CLI 的 Gemini 翻成正常人类语言并逐字打印，避免 Claude 自己润色带回 Buzzfeed 腔调...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0dbbd03a.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1130499a",
+      "title": "I'm becoming AI-blind",
+      "url": "https://cymerys.com/w/im-becoming-ai-blind",
+      "source": {
+        "platform": "blog",
+        "author": "rcymerys",
+        "original_date": "2026-08"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-content",
+        "attention",
+        "essay",
+        "hackernews"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "工程师的一手观察：带明显 AI 痕迹的工作文档（Claude 黑话把 RBAC 配置界面吹成重大突破）会让大脑自动跳过，类似横幅盲视；本该提效的 AI 正以意想不到的方式拖慢阅读，而人类识别低投入 AI 文本的能力比研究结论更强",
+      "summary_en": "A first-person observation of AI blindness: work documents with strong AI traces (Claude lingo, breakthrough-pitched RBAC checkboxes) get automatically skimmed like banner ads. The same AI meant to boost productivity now slows the author down in an unexpected way, and humans may spot low-effort AI text better than research claims.",
+      "one_liner": "工程师的一手观察：带明显 AI 痕迹的工作文档（Claude 黑话把 RBAC 配置界面吹成重大突破）会让大脑自动跳过，类似横幅盲视；本该提效的 AI 正以意想不到的方式拖慢阅读，而人类识别低投入 AI 文本的能力比研究结论更强",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1130499a.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-22",
-  "total_entries": 1942
+  "last_updated": "2026-08-23",
+  "total_entries": 1950
 }
