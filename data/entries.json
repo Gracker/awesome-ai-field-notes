@@ -57522,8 +57522,204 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "356bdab6",
+      "title": "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+      "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-08-20"
+      },
+      "category": "coding",
+      "tags": [
+        "bun",
+        "browser-automation",
+        "webview",
+        "agents",
+        "tooling",
+        "javascript"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Bun 1.4 是 Rust 重写后的首个稳定版：+1,517 个 Node 测试修复 2,900+ 问题空闲 CPU 降 5 倍内存最高省 35%Linux 启动快 50%Willison 最关注 Bun.WebView把浏览器自动化做进 runtime 本身，macOS 走 WebKit其他平台经 CDP 控本地 Chromium他用 Claude Code 写了约 150 行零依赖 TypeScript，做出 shot-scraper 风格的 JSON API：/javascript 对页面执行 JS/screenshot 出 PNG/JPEG/WebP 截图/healthz 健康检查，每请求开一个 tab 支持并发；cgroups 实测跑完整 Chrome 处理复杂网页只需 192256MB 容器，全程不需要 Puppeteer 或 Playwright",
+      "summary_en": "Bun 1.4, the first stable release since the Rust rewrite, adds +1,517 Node.js tests, 2,900+ fixes, 5x lower idle CPU, up to 35% memory savings and 50% faster Linux startup. Willison's highlight is Bun.WebView: first-class browser automation in the runtime itself, via macOS WebKit or CDP control of a local Chromium. He had Claude Code build a roughly 150-line zero-dependency TypeScript service exposing a shot-scraper-style JSON API (/javascript, /screenshot, /healthz), one browser tab per request with concurrency; cgroups testing shows a full Chrome against complex pages fits in a 192-256MB container no Puppeteer or Playwright needed.",
+      "one_liner": "Bun 1.4 把浏览器自动化做进 runtime：约 150 行 TS 就能起一个 200MB 级的截图/JS 执行 JSON API",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/356bdab6.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e712c40c",
+      "title": "A Syncthing and SQLite Gotcha",
+      "url": "https://borretti.me/article/a-syncthing-and-sqlite-gotcha",
+      "source": {
+        "platform": "blog",
+        "author": "Fernando Borretti",
+        "original_date": "2026-08-23"
+      },
+      "category": "infra",
+      "tags": [
+        "sqlite",
+        "syncthing",
+        "posix",
+        "rename",
+        "inode",
+        "filesystem",
+        "rust"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "作者的 Rust 日记应用 Epoch（systemd 服务 + SQLite）经 Syncthing 在桌面/笔记本间同步数据库，出现怪 bug：笔记本写完等同步完成桌面打开当条记录文字消失；用 sqlite3 命令行看文件内容都在，只有重启服务才能读到新文本根因在 POSIX rename 的语义：Syncthing 用 rename 原子替换文件，而 rename 只改路径inode的目录项映射不碰文件对象本身；持有旧文件描述符的进程继续读写那个已经没有路径指向的孤儿 inode，直到所有 fd 释放它才真正消失作者由此把路径即文件的心智模型纠正为目录项 vs 文件对象双层模型",
+      "summary_en": "A Rust journal app (a systemd service using SQLite) synced between desktop and laptop via Syncthing showed a strange bug: entries written on the laptop were invisible on the desktop until the service restarted, even though the sqlite3 CLI could see the new text in the file. The root cause is POSIX rename semantics: Syncthing atomically replaces the file with rename, but rename mutates the pathname-to-inode directory mapping, not the file object. Processes holding open file descriptors keep reading and writing the orphaned old inode, which only disappears once every descriptor is released. The corrected mental model: directory entries and file objects are two different layers.",
+      "one_liner": "rename 只改目录项到 inode 的映射：讲透了文件明明更新长驻进程却读不到的幽灵 bug",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e712c40c.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6cda44a2",
+      "title": "More than just code review",
+      "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-08-22"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "code-review",
+        "verification",
+        "skills"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Willison 的三句话短文：用好 coding agent 的关键技能，是能自信地下达修改指令，再自信地验证这些改动确实按预期方式落地有时这意味着逐行审查 agent 写的每一行代码，但达成这个目标还有其他路径逐行 eyeballing 从来都不是验证软件改动最有效的方式",
+      "summary_en": "Willison's three-sentence post: the key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal eyeballing every line of code has never been the most effective way to validate a change to a piece of software.",
+      "one_liner": "agent 时代的核心技能：自信下达指令，再自信验证落地；逐行人审只是手段之一",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/6cda44a2.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "686686b8",
+      "title": "A quote from Linus Torvalds",
+      "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-08-22"
+      },
+      "category": "coding",
+      "tags": [
+        "linux",
+        "linus-torvalds",
+        "ai-debugging",
+        "kernel",
+        "drm"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Linus 在 Linux drm/xe 提交 818bebeb63dd（Don't hand out the flat CCS storage as usable VRAM）的 commit message 里写道：这次地狱级调试大量靠 AI 干脏活；他本想叫 AI不知疲倦的助手，但 AI 好几次直说这不可能解不开，写个报告收工吧他怀疑这些模型是被没那么倔的人训练出来的；不过只要他坚持推，AI 就继续老老实实加打印代码分析结果，所以功劳照给连这条 commit message 本身也是让 AI 起草的",
+      "summary_en": "In the commit message for Linux drm/xe 818bebeb63dd (\"Don't hand out the flat CCS storage as usable VRAM\"), Torvalds writes that this debug session from hell was enormously helped by an AI doing much of the grunt work though the AI several times stated flat out that this was impossible and unsolvable and that they should just write a report. He suspects it was trained by people who may not be quite as stubborn as he is; but while the AI was ready to give up several times, it kept adding debug code and analyzing it faithfully when pushed so credit where credit is due, and he let the AI write the commit message too.",
+      "one_liner": "一线内核调试实录：AI 多次说无解，被倔强的人类推着继续干到了底",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/686686b8.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fb7d0aca",
+      "title": "Sol Advisor: Codex-native architect orchestration with Luna and Terra implementation lanes",
+      "url": "https://github.com/DannyMac180/sol-advisor",
+      "source": {
+        "platform": "github",
+        "author": "DannyMac180",
+        "original_date": "2026-08-01"
+      },
+      "category": "agents",
+      "tags": [
+        "codex",
+        "agents",
+        "orchestration",
+        "multi-agent",
+        "plugin",
+        "code-review"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "Codex-only 的工作流插件，把能力路由写进交付流程：主会话 Sol（GPT-5.6 Sol/High）拥有架构任务拆解路由选择验证与验收；solo 是默认路由，只在确实改善交付时才启用一个辅助角色delegate（完整规格交给单一实现者：Luna/Max 做有界工作，Terra/High 做判断密集或高风险工作）audit（root 自己实现，由全新只读 Sol/High 复审）full（显式高风险例外：一个实现者 + root 验证 + 全新 Sol 复审）Sol 必须在第一个 task 工具调用前声明 SELECTIVE ROUTE 与风险理由，只能因新观察到的风险升级绝不静默降级；root 检查完整 diff重跑检查；复审结论只有 ship/fix-first/rethink，任何 fix 都要重新过审安装器 fail-closed，会校验三个角色文件未被篡改",
+      "summary_en": "A Codex-only workflow plugin for capability-routed software delivery: the primary Sol session (GPT-5.6 Sol/High) owns architecture, decomposition, routing, verification and acceptance. Solo is the default route; a single auxiliary is engaged only when it improves delivery delegate (Luna/Max for bounded work, Terra/High for judgment-heavy or high-risk work), audit (root implements, a fresh read-only Sol/High reviews), and full (an explicit broad/high-risk exception: one implementer, root verification, fresh Sol review). Sol must declare a SELECTIVE ROUTE with concise risk rationale before the first task tool call, can escalate only on newly observed risk, and never silently downgrades. The root inspects the complete diff and reruns the requested checks; review returns ship, fix-first, or rethink, and any fix requires a new review....",
+      "one_liner": "把多模型协作的责任边界写成插件约束：默认 solo委派要声明理由验收权留在主会话",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fb7d0aca.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": 2315,
+      "related": []
+    },
+    {
+      "id": "ab962abe",
+      "title": "bilingual_book_maker: Make bilingual epub books Using AI translate",
+      "url": "https://github.com/yihong0618/bilingual_book_maker",
+      "source": {
+        "platform": "github",
+        "author": "yihong0618",
+        "original_date": "2023-03-02"
+      },
+      "category": "learning",
+      "tags": [
+        "translation",
+        "epub",
+        "bilingual",
+        "ai-tools",
+        "openai",
+        "ollama"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "把整本英文书做成中英对照 EPUB 的开源工具（yihong0618 维护，约 9.6k stars）：EPUB 进原文/译文对照 EPUB 出，TXTMarkdownSRT 也支持，字幕文件同样能出双语版翻译后端覆盖极广：OpenAIClaudeGeminiQwen-MTDeepLGoogle腾讯 TranSmartGroqxAIOllama 及任意 OpenAI 兼容接口长书工程化做得实在：--parallel-workers 按章并行翻译，CTRL+C 中断后用 --resume 从断点续跑，可自定义 prompt 控制翻译风格；仓库自带测试书 test_books/animal_farm.epub目标是解决每遇生词跳出来查词读三页断五次的阅读节奏问题",
+      "summary_en": "An open-source tool (maintained by yihong0618, around 9.6k stars) that turns English books into bilingual EPUBs: feed an EPUB, get original/translation aligned output; TXT, Markdown and SRT subtitles also work. Translation backends span OpenAI, Claude, Gemini, Qwen-MT, DeepL, Google, Tencent TranSmart, Groq, xAI, Ollama and any OpenAI-compatible endpoint. Long-book engineering is solid: --parallel-workers processes chapters in parallel, CTRL+C interruptions resume with --resume, and custom prompts control translation style; a sample book (test_books/animal_farm.epub) ships with the repo.",
+      "one_liner": "9.6k stars 的双语 EPUB 生成器：多后端章级并行断点续跑，读原著不再查词断节奏",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ab962abe.md",
+      "images": [],
+      "added_date": "2026-08-23",
+      "updated_date": null,
+      "github_stars": 9597,
+      "related": []
     }
   ],
   "last_updated": "2026-08-23",
-  "total_entries": 1950
+  "total_entries": 1956
 }
