@@ -57741,8 +57741,108 @@
       "updated_date": null,
       "github_stars": 9597,
       "related": []
+    },
+    {
+      "id": "80d4d982",
+      "title": "The New MCP Roadmap",
+      "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap",
+      "source": {
+        "platform": "blog",
+        "author": "David Soria Parra, Den Delimarsky",
+        "original_date": "2026-08-22"
+      },
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "roadmap",
+        "agents",
+        "interoperability",
+        "open-protocol"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "MCP 官方维护者发布新版路线图，盘点 2026-07-28 规范已落地的进展：协议层 session 与初始化握手已移除，服务端可无状态横向扩展（SEP-2575/2567）；客户端可先调 server/discover 了解版本与能力；列表结果可缓存（SEP-2549）；Tasks 转入官方扩展（SEP-2663）；多轮往返请求模式（SEP-2322）取代服务端主动请求；Server Card 工作组推进 .well-known 服务发现元数据；企业安全落地 issuer 校验issuer-bound 凭据CIMD 注册与稳定的 Enterprise-Managed Authorization下一阶段五大优先级：agentic 消息原语HTTP-native 传输统一加固代理身份与企业安全改进原语SDK 开发体验",
+      "summary_en": "Lead maintainers David Soria Parra and Den Delimarsky publish the updated MCP roadmap after the 2026-07-28 spec release. Looking back: protocol-level sessions and the initialization handshake are gone, enabling stateless horizontal scaling (SEP-2575/2567); server/discover lets clients learn versions/capabilities before connecting; list results are cacheable (SEP-2549); Tasks moved to an official extension (SEP-2663); the Multi Round-Trip Requests pattern (SEP-2322) replaced server-initiated requests; Server Card WG works on .well-known metadata for offline server discovery; governance matured with a Contributor Ladder and feature-lifecycle policy; enterprise security landed issuer validation, issuer-bound client credentials, CIMD registration, and stable Enterprise-Managed Authorization....",
+      "one_liner": "MCP 官方维护者发布新版路线图，盘点 2026-07-28 规范已落地的进展：协议层 session 与初始化握手已移除，服务端可无状态横向扩展（SEP-2575/2567）；客户端可先调 server/discover 了解版本与能力；列表结果可缓存（SEP-2549）...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/80d4d982.md",
+      "images": [],
+      "added_date": "2026-08-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d344f04e",
+      "title": "What Is a Harness?",
+      "url": "https://earendil.com/posts/what-is-a-harness",
+      "source": {
+        "platform": "blog",
+        "author": "Earendil",
+        "original_date": "2026-08-20"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "agents",
+        "cli-agents",
+        "concept-explainer",
+        "openclaw"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "一篇面向听过 agent harness 但不好意思问读者的入门解释作者从爬山安全带说起：安全带承担支撑与保护连接绳索与卡扣挂载工具，且可跨登山改装复用这些结构与功能与 agent harness 高度类似核心定义：Agent = Model + Harness，harness 是为 AI 模型提供运行环境的软件，管理工具上下文与控制流；与大多数 AI 软件不同，终端用户可以拥有自己的 harness；工程师通过终端与 Pi 这类 harness 交互，OpenClaw 这类则通过 iMessage聊天应用或邮件触达用户",
+      "summary_en": "A friendly explainer for readers who keep hearing 'agent harness' but never dared ask. Starting from the climbing harness (straps that support you, connect you to ropes/carabiners, and rack tools on gear loops, adaptable across ascents), the post maps the metaphor onto agent harnesses: software that provides the environment an AI model operates within. Key points: Agent = Model + Harness; the harness manages tools, context, and control flow; unlike most AI software, an end user can own their own harness; engineers interact with harnesses like Pi via the terminal, while OpenClaw-type harnesses reach users through iMessage, chat apps, or email.",
+      "one_liner": "一篇面向听过 agent harness 但不好意思问读者的入门解释作者从爬山安全带说起：安全带承担支撑与保护连接绳索与卡扣挂载工具，且可跨登山改装复用这些结构与功能与 agent harness 高度类似核心定义：Agent = Model + Harness...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d344f04e.md",
+      "images": [],
+      "added_date": "2026-08-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "36a58a3d",
+      "title": "I spent $266 and four AI models to own my Amazon Fire tablet",
+      "url": "https://ericpardee.github.io/fire-hd-ownership",
+      "source": {
+        "platform": "blog",
+        "author": "Eric Pardee",
+        "original_date": "2026-08-24"
+      },
+      "category": "models",
+      "tags": [
+        "ai-coding",
+        "llm-agents",
+        "kimi",
+        "glm",
+        "claude-code",
+        "opencode",
+        "android-root",
+        "case-study"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "一位有 20 年从4e1a经验和信息安全背景的工程师，记录从亚马逊手里夺回 Fire HD 10（2021）真正所有权的全部成本：$114 的平板 + $266 的 AI 开支平板被持有 REBOOT/SHUTDOWN 权限的亚马逊服务反复强制关机，禁用受保护包失败，bootrom 被熔断且无公开 root 方案Claude Code 诊断了五个月后被安全策略拦下；作者转投 opencode CLI：Kimi K3 花 $164.25 找到漏洞，GLM-5.2 花 $21.90 抓住致命 bug，GLM-5.3 在 $80 订阅首日一天内收尾整个过程中最高深的技术就是给 LLM 写 prompt",
+      "summary_en": "A 20-year tech veteran with an InfoSec background documents the full cost of wresting real ownership of an Amazon Fire HD 10 (2021) from Amazon: $114 tablet + $266 in AI spend. The kiosk tablet kept force-shutting down via Amazon services holding REBOOT/SHUTDOWN permissions; disabling them failed on protected packages, and the bootrom was fused shut with no published root method. Claude Code did months of diagnosis until its safeguards cut it off. Then the author switched to the opencode CLI: Kimi K3 found the exploit for $164.25, GLM-5.2 caught its fatal bugs for $21.90, and GLM-5.3 finished the job in one day on day one of an $80 subscription. The most sophisticated technique used to root the device was prompting an LLM.",
+      "one_liner": "一位有 20 年从4e1a经验和信息安全背景的工程师，记录从亚马逊手里夺回 Fire HD 10（2021）真正所有权的全部成本：$114 的平板 + $266 的 AI 开支平板被持有 REBOOT/SHUTDOWN 权限的亚马逊服务反复强制关机，禁用受保护包失败.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/36a58a3d.md",
+      "images": [],
+      "added_date": "2026-08-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-24",
-  "total_entries": 1956
+  "total_entries": 1959
 }
