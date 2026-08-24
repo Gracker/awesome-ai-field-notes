@@ -57841,8 +57841,315 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "3deb7451",
+      "title": "Task-CoEvolve: adaptive validation task selection for harness optimization",
+      "url": "https://arxiv.org/abs/2608.20169",
+      "source": {
+        "platform": "arxiv",
+        "author": "Atsuyuki Miyai et al.",
+        "original_date": "2026-08-20"
+      },
+      "category": "agents",
+      "tags": [
+        "harness-engineering",
+        "agent-evaluation",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "harness 优化靠迭代改写 agent 框架代码涨分，但每轮全量跑固定验证集浪费算力Task-CoEvolve 让验证任务集与 harness 共同演化：方差加权采样把评估集中到候选分歧大的任务，再用采样概率还原全集估计Terminal-Bench 2.1 等实验中以减少 80% 评估次数匹配全集搜索的最终性能",
+      "summary_en": "Task-CoEvolve co-evolves validation tasks with the harness: variance-weighted sampling concentrates evaluation on tasks where candidate harnesses disagree, and probability reweighting restores full-set estimates. It matches full-set search performance at 80% fewer evaluations on Terminal-Bench 2.1.",
+      "one_liner": "评测预算该花在候选 harness 分歧大的任务上，而不是已经全对或全错的",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3deb7451.md",
+      "images": [],
+      "added_date": "2026-08-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1beb9445",
+      "title": "MemTrapBench: cognitive traps in LLM memory use",
+      "url": "https://arxiv.org/abs/2608.20202",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mengru Wang, Ningyu Zhang et al.",
+        "original_date": "2026-08-20"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "benchmark",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "现有记忆 benchmark 只测提取存储检索，MemTrapBench 补上被忽视的失败面：忠实记录且语义相关的记忆也会扭曲推理或信念定义 Reasoning Fixation 与 Belief Distortion 两类认知陷阱，五个记忆框架全部跑输无记忆设置，最强方法跌超 10%；推理时方法 AdaptiveMem 在缓解陷阱同时保持标准记忆基准成绩",
+      "summary_en": "MemTrapBench evaluates memory-induced cognitive traps: faithfully recorded, semantically relevant memories can still distort reasoning (Reasoning Fixation) and beliefs (Belief Distortion). All five memory frameworks underperform the no-memory setting; AdaptiveMem mitigates traps at inference time while preserving standard memory benchmark scores.",
+      "one_liner": "记忆的忠实和相关不等于有益，长期记忆 agent 需要补测认知陷阱",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1beb9445.md",
+      "images": [],
+      "added_date": "2026-08-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "09495f6d",
+      "title": "Learning how to Forget: fine-tuning for long-context sparse attention",
+      "url": "https://arxiv.org/abs/2608.19920",
+      "source": {
+        "platform": "arxiv",
+        "author": "Matthias Seeger, Sebastian Schelter et al. (AWS)",
+        "original_date": "2026-08-20"
+      },
+      "category": "infra",
+      "tags": [
+        "long-context",
+        "kv-cache",
+        "sparse-attention",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "KV 缓存压缩后掉点一直靠训练时用精确注意力绕开，本文给出针对稀疏注意力的微调方法：适用任意 KV 缓存策略，单张 A100 40GB 可跑，模型与驱逐策略共同适应后常超过精确注意力训练的模型领先策略 H2O 有专用 SDPA kernel 实现，全部方法收录于 AWS 开源库 KeysAndValues",
+      "summary_en": "A fine-tuning method for arbitrary KV cache eviction policies that lets the model co-adapt with the policy on a single A100 40GB, often outperforming exact-attention (sequence-parallel) training. Ships an efficient H2O implementation and the open-source KeysAndValues library for long-context inference and fine-tuning.",
+      "one_liner": "与其绕开稀疏注意力，不如让模型和驱逐策略一起微调共适应",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/09495f6d.md",
+      "images": [],
+      "added_date": "2026-08-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "61c64df1",
+      "title": "Jerry Liu: two-pass document processing is the default for agent harnesses",
+      "url": "https://x.com/jerryjliu0/status/2091564183922077885",
+      "source": {
+        "platform": "x",
+        "author": "@jerryjliu0 (LlamaIndex)",
+        "original_date": "2026-08-23"
+      },
+      "category": "agents",
+      "tags": [
+        "rag",
+        "document-parsing",
+        "agent-harness",
+        "llamaindex"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "LlamaIndex CEO Jerry Liu 总结当前 agent harness（CodexCowork）的 RAG 新趋势：data room 级知识任务默认两遍文档处理第一遍廉价 OSS 解析扫全部文件支撑检索，第二遍只对命中页做 JIT VLM 精读开箱即用三坑：通用大模型当 OCR 贵且 grounding 弱轻量一程对复杂版式不够agent 手写图表/bbox 代码抬账单；对应工具面是 LiteParse（OSS 一程）与按页调用的 LlamaParse（二程）",
+      "summary_en": "Jerry Liu (LlamaIndex) describes the emerging default for agent harnesses like Codex and Cowork: a fast/light OSS parsing pass across all files for retrieval, then a just-in-time VLM pass only on relevant pages. Pitfalls of out-of-the-box setups and the LiteParse/LlamaParse tooling that implements the pattern.",
+      "one_liner": "一程优化 recall 二程优化 precision，全量 VLM OCR 是最贵的错误默认",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/61c64df1.md",
+      "images": [],
+      "added_date": "2026-08-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6f83c4b9",
+      "title": "深入理解 AI Agent开源书 2.0：DeepSeek Harness 等新案例入册",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "source": {
+        "platform": "github",
+        "author": "李博杰 (bojie_li)",
+        "original_date": "2026-08-19"
+      },
+      "category": "learning",
+      "tags": [
+        "ai-agents",
+        "open-source-book",
+        "post-training",
+        "chinese"
+      ],
+      "source_type": "github",
+      "language": "zh",
+      "summary_zh": "李博杰开源书深入理解 AI Agent：设计原理与工程实践发布 2.0：异步与多模态合并为新第六章交互：观察和动作空间的扩展，新增 DeepSeek HarnessAnthropic 最新研究等实战案例，用线上 bad case 自动优化 agent 的例子串起评测后训练与持续进化三章，后训练补 mid-training数据构造与蒸馏，社区新增希伯来语翻译主仓库含全书正文编译版 PDF 与按章代码",
+      "summary_en": "Version 2.0 of the open-source Chinese book \"In-Depth Understanding of AI Agents\" restructures interaction into a new chapter 6, adds DeepSeek Harness and recent Anthropic research as case studies, weaves evaluation/post-training/evolution around an online-bad-case optimization example, and adds mid-training/data-construction/distillation coverage. Repo carries full text, compiled PDF and per-chapter code.",
+      "one_liner": "中文世界最系统的 AI Agent 开源教材，2.0 把 harness 实战与后训练边界都补齐了",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/6f83c4b9.md",
+      "images": [],
+      "added_date": "2026-08-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9f8495f5",
+      "title": "Innei: AI 时代我的开发工作流踩坑复盘沉淀为 Skill 与文章，多项目并行验证",
+      "url": "https://innei.in/posts/tinkering/ai-era-dev-workflow-review-and-verify",
+      "source": {
+        "platform": "blog",
+        "author": "Innei (@__oQuery)",
+        "original_date": "2026-08-16"
+      },
+      "category": "coding",
+      "tags": [
+        "ai-workflow",
+        "skills",
+        "multi-project",
+        "automation"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Innei 复盘 AI 时代的个人开发工作流：月 token 消耗从年初 50-60 亿涨到八月两天同量（15 倍），一人两机并行推进四五个项目两个核心机制：一是 session-to-skill-and-blog 工作流，把踩坑会话自动沉淀为技术文章加可复用 Skill（含七道语义门禁no-ai-slop 清洗写作人格选择）；二是把 UI/UX 验收自动化交给模型内生的 verify 能力（浏览器/CDP 自证）技术文章全部 AI 生成并标注筛选",
+      "summary_en": "Innei's AI-era dev workflow: monthly token use grew 15x, one person parallel-tracks 4-5 projects on two machines. Two mechanisms: a session-to-skill-and-blog pipeline that distills engineering sessions into posts plus reusable skills (seven semantic gates, no-ai-slop sweep), and automated UI/UX verification via models' native browser/CDP verify loops.",
+      "one_liner": "踩坑 session 的终态不是聊天记录，是文章加 Skill 两种可复用资产",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9f8495f5.md",
+      "images": [],
+      "added_date": "2026-08-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2945f202",
+      "title": "The summer of open weights: 够用的智能以十分之一价格普及",
+      "url": "https://martinalderson.com/posts/the-summer-of-open-weights",
+      "source": {
+        "platform": "blog",
+        "author": "Martin Alderson",
+        "original_date": "2026-08-23"
+      },
+      "category": "industry",
+      "tags": [
+        "open-weights",
+        "pricing",
+        "compute",
+        "economics"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Martin Alderson 把 2026 夏天定义为开源权重模型的拐点：OpenAI GPT-5.6 Luna 砍价 80%旗舰 Sol 砍 20%，Meta Muse Spark 1.2 进入 $0.10/$0.20 per MTok 档，Anthropic Fable 5 被 FT 评难以吸引用户引用 Gavin Baker 的算力合约约束：$2/GPU-hour 多年合约到期Blackwell 实际定价更高，算力成本大概率翻倍，token 效率比纯智能差距更值钱frontier 实验室只剩两条路重新拉开智力差距，或把 token 效率做到贴标价格不再重要",
+      "summary_en": "Martin Alderson frames summer 2026 as the tipping point for open-weight models: GPT-5.6 Luna cut 80%, Muse Spark 1.2 at $0.10/$0.20 per MTok, while Fable 5 struggles to attract users. With $2/GPU-hour contracts expiring into pricier Blackwell capacity, token efficiency now matters more than raw intelligence gaps frontier labs must either re-open the capability gap or make token efficiency make price irrelevant.",
+      "one_liner": "agentic 编码不再离不开 frontier 智能，token 效率成了新的竞争力维度",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2945f202.md",
+      "images": [],
+      "added_date": "2026-08-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a7574796",
+      "title": "Armin Ronacher: Anger, Anxiety and Agency",
+      "url": "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency",
+      "source": {
+        "platform": "blog",
+        "author": "Armin Ronacher (@mitsuhiko)",
+        "original_date": "2026-08-24"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-industry",
+        "engineering-culture",
+        "essay"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "接 Sean Goedecke 工作上永远不要愤怒，Ronacher 把从业者情绪拆成两条轴：焦虑不需要指向谁，承认我不知道未来如何就够了；愤怒必须找 villain，容易在 AI 浪潮里指错对象，因为 engineering manager 自己也在借清晰与确定掩饰押注AI 增量大部分没沉淀为公司利润，而是以 side projects 出现在下班时间；欧洲对 AI 实验室的依赖是反面提醒",
+      "summary_en": "Responding to Sean Goedecke's \"you should never be angry at work\", Ronacher separates anxiety (needs no villain, admits uncertainty) from anger (demands one, often misaimed in the AI wave). Much of the AI gains show up as side projects rather than company profit; managers' public certainty is itself a survival move.",
+      "one_liner": "焦虑是可以保留的生产性状态，愤怒是常错位的代理信号",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a7574796.md",
+      "images": [],
+      "added_date": "2026-08-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f697cb97",
+      "title": "Drew Breunig: Fable & The End of the Free Lunch",
+      "url": "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html",
+      "source": {
+        "platform": "blog",
+        "author": "Drew Breunig",
+        "original_date": "2026-08-23"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-economics",
+        "routing",
+        "harness",
+        "pricing"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Drew Breunig 把 Claude Opus 4.5 到 Fable 的代际跳跃对标单核 CPU 撞墙：以前调 context搭路由不值得，因为下一代模型会更便宜更聪明；Fable 落地后成本拉高，Opus 55.6K3GLM 在大部分代码任务上够用，于是哪些请求走 frontier哪些走 fallbackcontext 怎么裁突然变成必修课GLM 5.2 价格约为 Fable 的 1/9，配套好 harness 与 brief 即可覆盖绝大多数机械编码任务",
+      "summary_en": "Breunig maps the Opus 4.5-to-Fable jump to the end of the single-core free lunch: once next-gen models stopped being automatically cheaper and smarter, request routing, context trimming and fallback tiers became mandatory engineering. GLM 5.2 at roughly 1/9 of Fable's price covers most mechanical coding with the right harness.",
+      "one_liner": "agentic coder 经济学从 all-in frontier 切换到按成本质量路由的拐点",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f697cb97.md",
+      "images": [],
+      "added_date": "2026-08-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9a171ab3",
+      "title": "Armin Ronacher: Fast and Hard Code",
+      "url": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code",
+      "source": {
+        "platform": "blog",
+        "author": "Armin Ronacher (@mitsuhiko)",
+        "original_date": "2026-08-22"
+      },
+      "category": "coding",
+      "tags": [
+        "zig",
+        "rust",
+        "performance",
+        "llm-coding"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "LLM 抹平熟悉一门新语言的摩擦后，语言选择开始被叙事而非历史习惯驱动，快且小复兴：Cloudflare Artifacts 把纯 Zig 的 Git 协议引擎压到约 100KB WebAssembly，Vercel 实验室 fx 是 Zig 写的小体量 coding agent；开发者重新碰 DWARFeBPF自定义网络驱动等以前被门槛锁死的技术栈反直觉观察：AI 写的代码也能快",
+      "summary_en": "With LLMs erasing the friction of learning new languages, language choice is now narrative-driven and the fast-and-small movement is back: Cloudflare Artifacts ships a ~100KB WASM Git protocol engine in Zig, Vercel's fx is a compact Zig coding agent, and developers revisit DWARF, eBPF and custom drivers once locked away by learning curves.",
+      "one_liner": "语言学习摩擦被抹平后，快且小的技术栈叙事重新赢得开发者",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9a171ab3.md",
+      "images": [],
+      "added_date": "2026-08-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-24",
-  "total_entries": 1959
+  "total_entries": 1969
 }
