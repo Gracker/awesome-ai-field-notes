@@ -58148,8 +58148,132 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "167d2e4b",
+      "title": "AUSO: Action-Level Unified Skill Optimization from Internalization to Utilization",
+      "url": "https://arxiv.org/abs/2608.21292",
+      "source": {
+        "platform": "arxiv",
+        "author": "Huizu Lin, Chengkai Huang, Tianqi Gao et al.",
+        "original_date": "2026-08-21"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agent",
+        "skill-learning",
+        "rl-finetuning",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "面向 LLM 代理的技能学习新框架 AUSO：作者指出技能在策略演进中扮演三种角色先是可学习的知识再支撑能力形成最后仅在改善单步决策时被调用；现有方法要么把技能放在模型外要么完全内化，或靠噪声很大的任务级成功率在两者间二选一AUSO 在训练全程用统一目标把技能学习与技能使用合为一个渐进按动作加权的优化过程：早期融合教师指导与环境回报，后期逐步迁移到仅在有利于单个动作时才调用技能指导，不再对同一轨迹内所有动作一视同仁",
+      "summary_en": "AUSO unifies skill learning and skill use for LLM agents via progressive, action-aware optimization: skills serve three lifecycle roles (learnable knowledge, capability substrate, selective decision aid), and training blends teacher guidance with environmental outcomes early, then invokes skill guidance only when it improves individual actions instead of weighting all actions in a trajectory equally.",
+      "one_liner": "技能先内化后按动作选择性调用，学习与使用一个目标统一",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/167d2e4b.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "56c1bd50",
+      "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
+      "url": "https://arxiv.org/abs/2608.21278",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chengxiao Wang, Enyi Jiang, Xiaojing Liao, Sanmi Koyejo (Stanford)",
+        "original_date": "2026-08-21"
+      },
+      "category": "models",
+      "tags": [
+        "llm-safety",
+        "lora-adapter",
+        "alignment",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "安全对齐的老难题是全局微调同时伤及良性输入的用户体验：本文提出 CLEAR，用一个轻量隐状态门控连续地控制安全 LoRA 适配器的激活强度，只在判定需要时抵御有害请求，冻结的主干权重不动在 Llama-3-8B-Instruct 上，CLEAR 在 HarmBench 提升稳健性的同时，把全局 SFT/LoRA 安全微调带来的良性性能下降降了下来（摘要报告 ASR 从 32.x% 起降）对需要兼顾安全与产品体验的部署方是一条可落地的路径",
+      "summary_en": "CLEAR attaches a lightweight hidden-state gate that continuously modulates the activation strength of a safety low-rank adapter, leaving the frozen backbone untouched on benign prompts. On Llama-3-8B-Instruct it improves HarmBench robustness while reducing the utility degradation that globally applied safety tuning (SFT/LoRA) causes.",
+      "one_liner": "用隐状态门控按输入调节安全 LoRA 的激活强度，安全与可用性不再二选一",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/56c1bd50.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "745dc8f9",
+      "title": "The Evaluation Context Protocol (ECP): A Portable Contract for AI Agent Evaluation",
+      "url": "https://arxiv.org/abs/2608.19263",
+      "source": {
+        "platform": "arxiv",
+        "author": "Aniket Wattamwar, Manav Anandani, Mrunal Kakirwar",
+        "original_date": "2026-08-18"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-evaluation",
+        "protocol",
+        "observability",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "代理评测基础设施碎片化，本文提出一个早期厂商中立的 Evaluation Context Protocol（ECP），定位为代理系统的可移植评估契约层：把评测从孤立 LLM 基准转向自主代理架构并接入可观测性基础设施文中梳理了 benchmark 套利confidently wrong 等现象，对 MCP 生态里做评测工具的人有参考价值",
+      "summary_en": "Proposes the Evaluation Context Protocol (ECP), an early-stage, vendor-neutral portable evaluation contract layer for agentic systems, analyzing benchmark exploitation and the confidently-wrong phenomenon, and arguing for observability-integrated agent evaluation beyond isolated LLM benchmarks.",
+      "one_liner": "给 AI 代理评测定一个类 MCP 的可移植契约层，评估从模型走向系统走",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/745dc8f9.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "42f46d42",
+      "title": "AI Coding will Prevent Expertise",
+      "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+      "source": {
+        "platform": "blog",
+        "author": "Lars Faye",
+        "original_date": "2026-07-21"
+      },
+      "category": "coding",
+      "tags": [
+        "llm-coding",
+        "skill-atrophy",
+        "expertise",
+        "engineering-culture"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "上一篇 Agentic Coding is a Trap 讨论了 skilled orchestrator paradox：管理 AI 代理所需的技能恰好会被持续使用代理侵蚀本篇继续追问：当前收益最大的人群恰恰是有年资历的老兵，知识已经骨化；而 LLM 时代入行的新人被迫用本就需要专家级经验才能驾驭的工具去追赶行业节奏，形成 expert novice 困局：行业一边宣传不用 AI 就会被淘汰，一边又依赖本应由亲手做上去的摩擦来形成专业能力作者的判断：长期技能形成需要持续的摩擦，AI 正在拿走它",
+      "summary_en": "Follow-up to 'Agentic Coding is a Trap': the biggest beneficiaries of coding agents are veterans whose expertise predates AI, while LLM-era newcomers must wield tools that demand expert-level judgment to keep pace - the 'expert novice' bind. Long-term skill formation needs ongoing friction that AI reliance removes.",
+      "one_liner": "管理代理需要的正是会被代理侵蚀的技能，新人被迫成为 expert novice",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/42f46d42.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-24",
-  "total_entries": 1969
+  "last_updated": "2026-08-25",
+  "total_entries": 1973
 }
