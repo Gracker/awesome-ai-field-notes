@@ -58272,8 +58272,504 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "4794868e",
+      "title": "HIERA: Workload-Aware Planning Across Implementation Spaces for GPU Kernel Optimization",
+      "url": "https://arxiv.org/abs/2608.21157",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jinghao Wang, Qiqi Gu, Chenpeng Wu, Jianguo Yao, Haibing Guan, Xijun Li",
+        "original_date": "2026-08-21"
+      },
+      "category": "coding",
+      "tags": [
+        "llm-coding",
+        "gpu-kernel",
+        "performance-engineering",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM 写 GPU kernel 常见做法是同一思路在 Triton/CUDA/汇编三种实现空间里各自碰运气从不互通HIERA 把性能瓶颈特征（memory-bound / compute-bound 等负载画像）建模为与实现空间无关的中间规划层：先在一个空间里学到瓶颈归因，再把这套归因迁移到其他空间指导搜索在覆盖三空间的内核基准上超过前沿模型自带优化 agent 与多种自适应采样基线，试错预算更少跨实现空间的性能归因能迁移，是对LLM 只会背模板质疑的机制化回应",
+      "summary_en": "HIERA models workload bottleneck features as an implementation-space-agnostic intermediate planning layer for LLM GPU kernel optimization, transferring bottleneck attribution learned in one space (e.g. Triton) to guide search in others (CUDA, PTX), beating frontier models' built-in optimization agents and adaptive sampling baselines across a three-space kernel benchmark with fewer trial budgets.",
+      "one_liner": "LLM 写 GPU kernel 常见做法是同一思路在 Triton/CUDA/汇编三种实现空间里各自碰运气从不互通HIERA 把性能瓶颈特征（memory-bound / compute-bound 等负载画像）建模为与实现空间无关的中间规划层：先在一个空间里学到瓶颈归因.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4794868e.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f2e2d300",
+      "title": "Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs",
+      "url": "https://arxiv.org/abs/2608.21134",
+      "source": {
+        "platform": "arxiv",
+        "author": "Luka Ribar, Jeevan Bhoot, Douglas Orr",
+        "original_date": "2026-08-21"
+      },
+      "category": "models",
+      "tags": [
+        "quantization",
+        "vlm",
+        "edge-deployment",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "把 Llama 3.2 11B Vision 压到 3.7GB 跑在 Arm CPU 上，是这篇最硬的数字方法组合务实：用模型自己生成训练数据做量化校准（不需要访问原始训练管线），自研 2.7-bit 每参数权重格式专门适配 Arm CPU 推理路径，激活保持 8-bit 避免 VLM 视觉塔精度崩塌在标准 VQA 任务组上保持强势表现，说明 11B 级 VLM 的端侧部署门槛从需要旗舰 NPU降到CPU 可跑端侧多模态选型的必读工程参考",
+      "summary_en": "Quantizes Llama 3.2 11B Vision down to 3.7GB running on Arm CPUs via a self-generated-data calibration pipeline and a custom 2.7-bit per-parameter weight format with 8-bit activations, keeping strong VQA performance - dropping the edge VLM deployment bar from flagship-NPU to CPU-runnable.",
+      "one_liner": "Llama-Mobile: Efficient 2.7-Bit Quantization of VLMs",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f2e2d300.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5b06cb82",
+      "title": "Temporal Validity on Real Software Histories: Eliminating Stale-Fact Errors in Code-Assistant Memory over GitHub Fixes",
+      "url": "https://arxiv.org/abs/2608.20685",
+      "source": {
+        "platform": "arxiv",
+        "author": "Neeraj Yadav",
+        "original_date": "2026-08-21"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "rag",
+        "code-assistant",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "RAG 没有时间概念：函数改名接口迁移依赖升级之后，旧值和新值在向量空间里相似度几乎一样，检索系统无法判断哪个是当前事实这篇把覆盖式记忆放到真实软件历史上验证：从 707 个 GitHub issue 提取 130 个干净单值状态变迁，MemStrata 拿到 0.91 答案准确率而 RAG 只有 0.57-0.59；被强制作答时 RAG 有 36-38% 概率给出已被取代的旧值，MemStrata 压到约 0 且延迟保持在检索量级给代码 agent 做记忆系统的人建议精读",
+      "summary_en": "Validates overwrite-style (subject, relation, object) memory on real software histories: from 707 GitHub issues, 130 clean single-value state transitions are extracted; MemStrata reaches 0.91 answer accuracy vs RAG's 0.57-0.59, drives forced-answer stale-value rates from 36-38% to ~0, and stays at retrieval-scale latency (~2.1s).",
+      "one_liner": "RAG 没有时间概念：函数改名接口迁移依赖升级之后，旧值和新值在向量空间里相似度几乎一样，检索系统无法判断哪个是当前事实这篇把覆盖式记忆放到真实软件历史上验证：从 707 个 GitHub issue 提取 130 个干净单值状态变迁，MemStrata 拿到 0.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5b06cb82.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f326068a",
+      "title": "Memory Augmentation Unlocks Efficient Chain-of-Thought Reasoning",
+      "url": "https://arxiv.org/abs/2608.21265",
+      "source": {
+        "platform": "arxiv",
+        "author": "Simeng Zhang, Yilong Chen, Wenyuan Zhang, Zhenyu Zhang, Yao Chen, Junyuan Shang, Tingwen Liu",
+        "original_date": "2026-08-21"
+      },
+      "category": "models",
+      "tags": [
+        "cot",
+        "inference-efficiency",
+        "agent-memory",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "CoT 推理的长思考链是推理成本大头，压缩太狠又会破坏逻辑连贯这篇提出上下文-生成替代律：把历史推理轨迹中可复用的推理模式关键约束关键操作提炼成记忆，作为 prefill 侧脚手架在压缩后补回信息免训练框架，在 GSM8K/MATH/BBH/MMLU-Sci 上比 Chain-of-Draft 压缩基线分别提 21.4/28.0/29.5/6.61 个点，同时相对标准 CoT 有 1.14-1.49 合的延迟加速，且与各级压缩机制兼容对推理成本敏感的 agent 部署是可行配方",
+      "summary_en": "Formalizes a context-generation substitution law for CoT: distill reusable reasoning patterns, key constraints and operations from historical traces into memory, re-injected as prefill-side scaffolding after compression. Training-free, +21.4/28.0/29.5/6.61 points over Chain-of-Draft on GSM8K/MATH/BBH/MMLU-Sci with 1.14-1.49x latency speedup vs standard CoT.",
+      "one_liner": "CoT 推理的长思考链是推理成本大头，压缩太狠又会破坏逻辑连贯这篇提出上下文-生成替代律：把历史推理轨迹中可复用的推理模式关键约束关键操作提炼成记忆，作为 prefill 侧脚手架在压缩后补回信息免训练框架...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f326068a.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f931afb5",
+      "title": "Quantization-Aware Healing: A Practical Recipe for Recovering Compressed, 4-Bit LLMs",
+      "url": "https://arxiv.org/abs/2608.20953",
+      "source": {
+        "platform": "arxiv",
+        "author": "Bakbergen Ryskulov, Iker Garca-Ferrero, David Montero, David Jansen, Ali Hashemi, Jezabel R. Garcia",
+        "original_date": "2026-08-21"
+      },
+      "category": "models",
+      "tags": [
+        "quantization",
+        "distillation",
+        "inference-efficiency",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "结构压缩 + 4-bit 量化的模型在推理数学代码长上下文上掉点严重，默认恢复手段 QAT 收敛慢且过峰即崩QAH 换了蒸馏对象：压缩模型的 bfloat16 检查点本来就是对原模型的蒸馏近似，不如让 4-bit 学生直接从原始未压缩模型蒸馏在 GPT-OSS 120B 压到 60B 再压到 MXFP4 的管线上，QAH 学生在 9 个基准中的 7 个上追平或超过其 bfloat16 源，内存约为四分之一，以开权重发布为 Hypernova-60B；对比 QAT 基线约 7 倍速度达到可比峰值且继续训练稳定一份不需要数周超参搜索就能落地的压缩恢复配方",
+      "summary_en": "Instead of healing a compressed+4-bit model from its own bfloat16 checkpoint, QAH distills the 4-bit student directly from the original uncompressed model. On the GPT-OSS 120B to 60B to MXFP4 pipeline, the student matches or beats its bfloat16 source on 7 of 9 benchmarks at ~1/4 weight memory (released as Hypernova-60B), reaching comparable peaks ~7x faster than matched QAT baselines and remaining stable under continued training.",
+      "one_liner": "结构压缩 + 4-bit 量化的模型在推理数学代码长上下文上掉点严重，默认恢复手段 QAT 收敛慢且过峰即崩QAH 换了蒸馏对象：压缩模型的 bfloat16 检查点本来就是对原模型的蒸馏近似...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f931afb5.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dd212cf1",
+      "title": "TreeWY: Speculative Verification for Gated DeltaNet Hybrids",
+      "url": "https://arxiv.org/abs/2608.20961",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sneha Murthy Ghantasala",
+        "original_date": "2026-08-21"
+      },
+      "category": "infra",
+      "tags": [
+        "linear-attention",
+        "speculative-decoding",
+        "inference-efficiency",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "开源模型架构主流正在变成混合架构：大部分层是带固定大小递归状态的 Gated DeltaNet 线性注意力层，解码时不再维护增长的 KV 缓存，但投机解码的验证-回滚需要快照完整递归状态且无法在 draft tree 分支间共享，宽树在高接受率下内存不可行TreeWY 用树状 WY 变换重写 gated delta rule：每个 draft 节点的输出用一次三角求解得到，提交时只重建被接受的那个状态，用小伪值矩阵替代逐节点快照在 Qwen3.5 35B/397B 两个规模上，相同接受长度下投机递归状态内存和 KV 缓存压力显著下降做线性注意力推理引擎的人直接拿去用",
+      "summary_en": "Rewrites the gated delta rule with a tree-structured WY transform so speculative-decoding verification for Gated DeltaNet hybrids needs no per-node recurrent-state snapshots: each draft node's output comes from one triangular solve, and only the accepted state is rebuilt at commit. On Qwen3.5 35B/397B, speculative recurrent-state memory and KV-cache pressure drop significantly at equal acceptance length.",
+      "one_liner": "开源模型架构主流正在变成混合架构：大部分层是带固定大小递归状态的 Gated DeltaNet 线性注意力层，解码时不再维护增长的 KV 缓存，但投机解码的验证-回滚需要快照完整递归状态且无法在 draft tree 分支间共享.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dd212cf1.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1788736c",
+      "title": "Utility Under Attack: Agent Memory Poisoning and the Limits of Content Screening and Provenance Ranking",
+      "url": "https://arxiv.org/abs/2608.21230",
+      "source": {
+        "platform": "arxiv",
+        "author": "Arulnidhi Karunanidhi",
+        "original_date": "2026-08-21"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "security",
+        "poisoning",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "持久化记忆会让错误信息持久化：一旦假断言入库，未来所有命中它的会话都会被污染攻击干脆利落：单轮生成无指令触发无检索器优化的朴素假断言，污染 1.2% 的 LongMemEval 语料就把准确率从 0.850 打到 0.300更扎的是防御侧结论：一个在间接提示注入上做到 0.832 召回的四阶段写入门控，对 360 条毒记忆的拦截为零，因为区分真假断言需要文本之外的接地信息是内容审查的结构性边界；检索侧溯源加权在混合信任语料下能从 0.317 恢复到 0.700，但证据本身来自不可信源时证据召回归零给 agent 记忆系统设计敲的警钟",
+      "summary_en": "Measures agent memory poisoning with plainly worded false assertions (single-pass, no triggers): polluting 1.2% of LongMemEval drops accuracy 0.850 to 0.300. A four-stage write-time gate with 0.832 recall on indirect prompt injection intercepts zero of 360 poison memories; retrieval-side provenance weighting recovers 0.317 to 0.700 in mixed-trust corpora but collapses when the evidence itself is untrusted - provenance belongs in admission and re-verification, not retrieval-time down-weighting.",
+      "one_liner": "持久化记忆会让错误信息持久化：一旦假断言入库，未来所有命中它的会话都会被污染攻击干脆利落：单轮生成无指令触发无检索器优化的朴素假断言，污染 1.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1788736c.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "75a73f0d",
+      "title": "FT: Anthropic 最强模型遭遇用户冷落，便宜工具正在胜出",
+      "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+      "source": {
+        "platform": "news",
+        "author": "Madhumita Murgia / FT",
+        "original_date": "2026-08-24"
+      },
+      "category": "industry",
+      "tags": [
+        "llm-pricing",
+        "anthropic",
+        "enterprise-ai",
+        "market-data"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "FT 拿到的 Ramp 8 月 12 日 AI Index 数据把 Anthropic 旗舰 Claude Fable 5 钉在桌上：上线后第一个完整月里它只占 Anthropic 企业用户 token 量的 6%，却占了企业花费的 11.4%对照 GPT-5.6 Sol 在 OpenAI 自身 token 占 25% / 花费占 23%Fable 5 单价约 $10/百万 token，是 Sol 的两倍；OpenAI 8 月 21 日又把 Sol 的 API/credit 价砍了 20%+Ramp 经济学家 Ara Kharazian 的解读是AI 价值曲线正在压扁Anthropic 在美国企业 AI 支付份额仍有 43.5%（高于 OpenAI 39.7%），但增长引擎更像 Opus 4.5 和 Mythos 5",
+      "summary_en": "FT-cited Ramp AI Index data (Aug 12): in its first full month Claude Fable 5 accounted for only 6% of Anthropic's enterprise tokens but 11.4% of enterprise spend, vs GPT-5.6 Sol at 25% tokens / 23% spend on OpenAI's side. Fable 5 costs ~$10/M tokens - twice Sol's price, and OpenAI cut Sol pricing 20%+ on Aug 21. Ramp economist Ara Kharazian: the AI value curve is flattening. Anthropic still holds 43.5% of US enterprise AI payments vs OpenAI's 39.7%, but growth now leans on Opus 4.5 and Mythos 5.",
+      "one_liner": "FT 拿到的 Ramp 8 月 12 日 AI Index 数据把 Anthropic 旗舰 Claude Fable 5 钉在桌上：上线后第一个完整月里它只占 Anthropic 企业用户 token 量的 6%.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/75a73f0d.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "95fbadfd",
+      "title": "Everything I own, owned: Claude Opus 5 逆向了身边 5 件外设",
+      "url": "https://schlarp.com/posts/everything-i-own-owned",
+      "source": {
+        "platform": "blog",
+        "author": "Chaz Schlarp",
+        "original_date": "2026-08-23"
+      },
+      "category": "coding",
+      "tags": [
+        "agent-reverse-engineering",
+        "firmware-security",
+        "hardware-hacking",
+        "usb-security"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Chaz Schlarp 把身边 5 件外设（Insta360 Link 云台摄像头 / ROG PG42UQ 显示器 / Shure MV7 麦克风 / USB 桌灯 / 键盘）丢进 Claude Opus 5 当 agent 跑逆向工程：单台 0.2-4.2 小时合计 13 小时98 条用户提示词Insta360 Link 通过 USB Vendor Class 任意文件读写 + 重启接口完成 firmware push，唯一的防篡改是末尾一段 MD5，绿点录制指示灯直接被注释掉；Shure MV7 把整台设备的 USB HID 暴霂为一段 plaintext shell 命令，48 条指令里 su 直接裸奔没有任何鉴权；ROG 显示器走 I2C-over-USB，屏幕强制八小时一弹的 pixel cleaning 提示可以靠修改分支 patch 掉每个仓库包含会话统计凭据安全等级patch 验证展示了 agent 逆向工程真正的 iterating surface：固件 dump本地 HTTP参考实硬件",
+      "summary_en": "Chaz Schlarp ran Claude Opus 5 as an agent over 5 peripherals (Insta360 Link webcam, ROG PG42UQ monitor, Shure MV7 mic, USB desk lamp, keyboard): 0.2-4.2h per device, 13h total, 98 user prompts. Findings include firmware push via arbitrary USB Vendor-Class file R/W with only a trailing MD5 as tamper protection, Shure MV7 exposing plaintext shell commands over USB HID with unauthenticated su, and ROG monitor pixel-cleaning nag patched via I2C-over-USB. Each repo ships session stats, credential safety levels, and patch verification - a concrete map of agent-driven hardware RE.",
+      "one_liner": "Chaz Schlarp 把身边 5 件外设（Insta360 Link 云台摄像头 / ROG PG42UQ 显示器 / Shure MV7 麦克风 / USB 桌灯 / 键盘）丢进 Claude Opus 5 当 agent 跑逆向工程：单台 0.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/95fbadfd.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "31086b69",
+      "title": "Your executable is a SQLite database: 把 ELF 重写成 SQL 查询引擎",
+      "url": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database",
+      "source": {
+        "platform": "blog",
+        "author": "Farid Zakaria",
+        "original_date": "2026-08-23"
+      },
+      "category": "infra",
+      "tags": [
+        "elf",
+        "sqlite",
+        "binary-format",
+        "systems-design"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Farid Zakaria 把 ELF 重新表述为拒绝承认自己是数据库的文件格式：elf_symbolself_sectionsldd cachedebuginfod 这些原本各自为政的访问点，本质上是 ELF 被发明时手写出来的字符串 internindexschema-of-schemas作者给出 selfdb 原型 SELF (Structured Executable & Linkable Format)：elf 文件映射为 self_metasegmentssymbolsneededsectionsnotes 等 SQL 表，application_id 写 SELF，binfmt_misc 匹配后由一个 SQLite 连结的 self-exec 代替 ld.so 加载运行两条动态链接路径：一条用 glibc rtld-audit hook 出去走 SQL 查询不动 ld；一条干脆重写全新 ld，连 symbol lookup 都走 SQL query最终 strip(1) 就是 DELETE FROM sections; VACUUM; patchelf 就是 UPDATE提供了一个理解 ELF 为什么难变的对照视角",
+      "summary_en": "Reframes ELF as a file format that refuses to admit it is a database: elf_symbols, elf_sections, ldd cache and debuginfod are hand-rolled string interning, indexes and schemas-of-schemas. Ships a selfdb prototype (SELF: Structured Executable & Linkable Format) mapping ELF into SQL tables loaded by a SQLite-linked self-exec via binfmt_misc, plus two dynamic-linking paths (glibc rtld-audit hook vs a fresh ld doing SQL symbol lookup). strip(1) becomes DELETE FROM sections; VACUUM; patchelf becomes UPDATE.",
+      "one_liner": "Farid Zakaria 把 ELF 重新表述为拒绝承认自己是数据库的文件格式：elf_symbolself_sectionsldd cachedebuginfod 这些原本各自为政的访问点.",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "score-pending",
+      "local_path": "content/31086b69.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fd40ddaa",
+      "title": "ChinAI #372: 中国具身 AI 行业的过热与泡沫",
+      "url": "https://chinai.substack.com/p/chinai-372-chinas-overhyped-embodied",
+      "source": {
+        "platform": "newsletter",
+        "author": "Jeffrey Ding / ChinAI",
+        "original_date": "2026-08-24"
+      },
+      "category": "industry",
+      "tags": [
+        "embodied-ai",
+        "robotics",
+        "china-ai",
+        "industry-analysis"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "ChinAI #372 译出晚得的具身 AI 资本游戏关键数据与场景：一家估值超 200 亿人民币的具身 AI 公司在尽调中现场让机器人折毛巾，15 分钟还没折完；某机器人拿轴承运行 70 秒，迟到加 10 倍也进不了工厂晚得分析两种中国特色需求机制：地方国资同时充当股东客户运营合作方；另一类研究机构是公司嫌有了 500 个同行买家反而可以销出去，个别馆买下 8000 万的机器人后转卖给学校Unitree 2025 工业实际场景营收不到 10%，其中一半是接待参观收入，超过 70% 来自科研场景把中国机器人公司超越人类指标背后的财务结构清楚画出",
+      "summary_en": "ChinAI #372 translates LatePost's embodied-AI capital game investigation: a robot folding a towel for 15+ minutes at a due-diligence visit, a 6bn-RMB-valued company whose robot ran a bearing for 70 seconds. Two China-specific demand mechanisms - local state capital acting as shareholder, customer, and operating partner simultaneously, and 'research institutions' reselling 80m-RMB robots to schools. Unitree's 2025 industrial-scenario revenue was under 10% (half of it visit-reception income), while 70%+ came from research scenarios.",
+      "one_liner": "ChinAI #372 译出晚得的具身 AI 资本游戏关键数据与场景：一家估值超 200 亿人民币的具身 AI 公司在尽调中现场让机器人折毛巾，15 分钟还没折完...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fd40ddaa.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7a3ec4dd",
+      "title": "Hardening the Override Flag: 包管理器危险开关的防御设计",
+      "url": "https://nesbitt.io/2026/08/25/hardening-the-override-flag.html",
+      "source": {
+        "platform": "blog",
+        "author": "Andrew Nesbitt",
+        "original_date": "2026-08-25"
+      },
+      "category": "infra",
+      "tags": [
+        "supply-chain-security",
+        "package-managers",
+        "cli-design",
+        "agent-safety"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Andrew Nesbitt 梳理过去几年包管理器与 CLI 工具里危险开关的防御设计把 rmaptpipcargopacmanGoNixHomebrewDockergitCeph 摆到一张表里，按长名字无短选项不接环境变量必须写明目标会过期看状态必须离开通道六个属性归类关键结论：单纯把开关换成长名只挡得住眼睛扫到的脚本；挡住被劫持父进程的关键是拒绝环境变量通道真实事故记录：2026 年 6 月 140 个 @mastra/* npm 包被投毒因为 Node 无条件读 NODE_TLS_REJECT_UNAUTHORIZED=0；2024 年 needrestart CVE 是 root 进程继承普通进程的 PYTHONPATH；apt 2021 年那次Yes, do as I say!提示被用户在镜头前输入后两周换成硬错误另一个关键观察：pip/apt 在错误信息里直接写出绕过命令，CI 脚本build.rsagent 解析 stderr 时会被诱导重试",
+      "summary_en": "A field guide to defensive design for dangerous flags across rm, apt, pip, cargo, pacman, Go, Nix, Homebrew, Docker, git and Ceph, classified by six properties (long name no short option, no env vars, explicit target, expires, visible state, out-of-band required). Key takeaway: renaming a flag only stops eyeballed scripts; rejecting environment-variable channels is what blocks hijacked parent processes. Real incidents: 140 @mastra/* npm packages poisoned in June 2026 via NODE_TLS_REJECT_UNAUTHORIZED=0; the 2024 needrestart CVE (root inheriting PYTHONPATH); apt's 2021 'Yes, do as I say!' prompt replaced by a hard error two weeks after being typed on camera. Also notes pip/apt printing bypass commands in error messages, which CI scripts, build.rs and agents parsing stderr get baited into retrying.",
+      "one_liner": "Andrew Nesbitt 梳理过去几年包管理器与 CLI 工具里危险开关的防御设计把 rmaptpipcargopacmanGoNixHomebrewDockergitCeph 摆到一张表里...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7a3ec4dd.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bac7ddf6",
+      "title": "distributed identity: git 改名字背后的 DID 方案",
+      "url": "https://jyn.dev/distributed-identity",
+      "source": {
+        "platform": "blog",
+        "author": "jyn",
+        "original_date": "2026-08-24"
+      },
+      "category": "coding",
+      "tags": [
+        "git",
+        "digital-identity",
+        "atproto",
+        "gdpr"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "jyn 写了一个完整的Bobby 想改 git commit 里自己的名字用户故事，从邮件改姓名改性别改一路追到 GDPR 删除权，最后给出用 ATProto DID 重建身份层的方案核心矛盾是 git 的 merkle tree 把所有提交永久冻结：mailmap 能改戀射但保留所有原名；git-filter-repo 能改实际数据但要 force-push 改 hash，连带 300 个 PR文档里硬编码的 commit hash.git-blame-ignore-revs 全部得跟着动他把现有方案（mailmaphg censor522 的可变 mailmap）的能力边界列得很清楚，ATProto DID 的解耦（handle 和 DID 分离PDS 可迁移）让他想到把 .mailmap 换成每个 repo 一个公钥 + 可撤销签名少数把工程现实和合规现实放在同一张桌子上讨论的文本",
+      "summary_en": "A complete user story - 'Bobby wants to change his name in git commits' - chased from email changes through GDPR deletion rights to an ATProto DID-based identity layer. Core conflict: git's merkle tree permanently freezes all commits; mailmap changes mapping but keeps old names, git-filter-repo changes data but requires force-push hash rewrites cascading into 300 PRs and hardcoded hashes. Proposes replacing .mailmap with per-repo public keys and revocable signatures, with jj log pulling identity records from ATProto live.",
+      "one_liner": "jyn 写了一个完整的Bobby 想改 git commit 里自己的名字用户故事，从邮件改姓名改性别改一路追到 GDPR 删除权...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/bac7ddf6.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "356032f0",
+      "title": "Know your paradoxes: 哪些悖论真能把 AI 锁死",
+      "url": "https://blog.coredump.cx/p/know-your-paradoxes",
+      "source": {
+        "platform": "newsletter",
+        "author": "lcamtuf",
+        "original_date": "2026-08-23"
+      },
+      "category": "learning",
+      "tags": [
+        "philosophy",
+        "logic",
+        "ai-limits",
+        "reasoning"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "lcamtuf 从科幻里用悖论击溃 AI的老棗出发，把悖论分成四类：意义悖论（Theseus 之船传送门悖论）推理悖论（爆片原理Monty Hall含水量悖论）蓄意欺骗悖论真实矛盾（说谎者悖论Russell 悖论Gdel 不完备定理停机问题）把 Gdel 和停机问题放在同一栏是关键二者表达同一个根本限制：任何足够表达标准算术的系统里都能构造出系统本身无法判定真假的自指语句传送门那段把意识连续性身份认定和分子替换放在同一推理链里每个例子都嵌回什么样的悖论真能让 AI 死锁这个原始问题上，实用价值比纯哲学科普高一截",
+      "summary_en": "lcamtuf taxonomizes paradoxes into four classes - meaning (Ship of Theseus, teleporter), reasoning (principle of explosion, Monty Hall), deliberate deception, and true contradictions (liar, Russell, Berry, Godel, halting) - arguing the last two named express the same fundamental limit: any system expressive enough for standard arithmetic admits self-referential statements it cannot decide. Each example is tied back to the original question of which paradoxes can actually deadlock an AI.",
+      "one_liner": "lcamtuf 从科幻里用悖论击溃 AI的老棗出发，把悖论分成四类：意义悖论（Theseus 之船传送门悖论）推理悖论（爆片原理Monty Hall含水量悖论）蓄意欺骗悖论真实矛盾（说谎者悖论Russell 悖论Gdel 不完备定理停机问题）把 Gdel 和停机问题放在同一栏是关...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/356032f0.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dd54d155",
+      "title": "ARR vs ARR: 别被 Annualized Run Rate 骗了",
+      "url": "https://garymarcus.substack.com/p/arr-vs-arr-watch-out-for-this-one",
+      "source": {
+        "platform": "newsletter",
+        "author": "Gary Marcus",
+        "original_date": "2026-08-22"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-business",
+        "financial-analysis",
+        "anthropic",
+        "ipo"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Gary Marcus 用一个简单的词义拆解提醒财报读者：ARR 这个缩写能指两件截然不同的事Annual Recurring Revenue（订阅型，明年大概率还在）和 Annualized Run Rate（拿最好的一个月 12 推算，可能永远不会真的达到）他点出 Anthropic 所谓Q2 盈利用的是后者，相当于五月最好的一周 52；更危险的是大客户在 tokenmaxxing 崩塌后转向开源模型压成本文末用 Netscape 1995 年上市时每季翻倍却从未盈利微软免费 IE 一出来整个公司就完做收束两分钟读完就能记住的反 PR 模板",
+      "summary_en": "Gary Marcus dissects the ARR abbreviation: Annual Recurring Revenue (subscription, likely still there next year) vs Annualized Run Rate (best month x 12, may never materialize). He argues Anthropic's claimed 'Q2 profitability' used the latter - roughly best week of May x 52 - and that tokenmaxxing-collapse-then-open-weights migration makes that revenue fragile, closing with the Netscape 1995 IPO analogy.",
+      "one_liner": "Gary Marcus 用一个简单的词义拆解提醒财报读者：ARR 这个缩写能指两件截然不同的事Annual Recurring Revenue（订阅型，明年大概率还在）和 Annualized Run Rate（拿最好的一个月 12 推算...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/dd54d155.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b66aa84c",
+      "title": "Claude Code 2.1.243: /usage Loops 分项与 promptCacheTtl 落地",
+      "url": "https://raw.githubusercontent.com/anthropics/claude-code/main/CHANGELOG.md",
+      "source": {
+        "platform": "github",
+        "author": "Anthropic",
+        "original_date": "2026-08-24"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "changelog",
+        "prompt-caching",
+        "devtools"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Claude Code 2.1.243（npm 2026-08-24T23:10:45Z）在连续空 bugfix body 之后放出可引用的计费/缓存 bullet：/usage 增加 Loops 分项（per-loop run count / total tokens / tokens per run / last run，哪个 /loop 在刷单次均量是否异常一目了然）；新增 promptCacheTtl 与 subagentPromptCacheTtl 设置，API-key/cloud-provider 用户主会话可保 1 小时 prompt cache 而 subagent 保持 5 分钒；modelPricing 托管设置让组织合同价与折扣进 /coststatus line 与 telemetry；/tasks 显示每个 subagent 的 model + effort同版还修了远程 MCP 服务器断连后不恢复API 无响应时会话沉默 10+ 分钟（现在 ~3 分钟超时 + 重试一次）等长尾疼点订阅侧仍约 1h cache 墙 + 离开前 compact",
+      "summary_en": "Claude Code 2.1.243 (npm 2026-08-24T23:10:45Z) ships a Loops breakdown in /usage (per-loop run count, total tokens, tokens per run, last run), promptCacheTtl + subagentPromptCacheTtl settings so API-key/cloud-provider users keep a 1-hour prompt cache on the main conversation while subagents stay at 5 minutes, a modelPricing managed setting feeding contracted rates into /cost and telemetry, and per-subagent model+effort in /tasks. Also fixes long-tail pains like remote MCP servers never recovering after dropped connections and sessions going silent 10+ minutes on unresponsive APIs (now ~3min timeout + one retry). Subscription users still face the ~1h cache wall + compact-before-leaving.",
+      "one_liner": "Claude Code 2.1.243: /usage Loops 分项与 promptCacheTtl 落地",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b66aa84c.md",
+      "images": [],
+      "added_date": "2026-08-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-25",
-  "total_entries": 1973
+  "total_entries": 1989
 }
