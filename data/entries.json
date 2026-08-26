@@ -59090,8 +59090,262 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "d729e72a",
+      "title": "InjecMEM: Memory Injection Attack on LLM Agent Memory Systems",
+      "url": "https://arxiv.org/abs/2608.23471",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hanling Tian, Gengyu Zhang, Zeyang Sha, Jingying Wang, Yuhang Liu, Zhehao Huang, Kun Yang, Xiaolin H...",
+        "original_date": "2026-08-24"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "memory-injection",
+        "prompt-injection",
+        "agent-security",
+        "colm-2026"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "记忆系统正在成为部署型 LLM agent 的标配子系统，InjecMEM 演示了对它的注入攻击：只需一次普通交互完全不碰记忆库读写权限，就能让后续相关查询被引导到攻击者预设的输出攻击体由两部分组成：retriever-agnostic 锚点塞满高召回主题线索，保证下游检索稳定命中；对抗命令用梯度坐标搜索在合成模板插入位置长提示的不确定性下优化，检索命中后稳定生效，并可跨 backbone 联合优化研究迁移与此前写入门控对毒记忆拦截为零的防御侧结果合看：聊天通道本身就是记忆攻击面，出处信号应放在准入与再验证，检索期降权救不了",
+      "summary_en": "Memory is becoming a default subsystem in deployed LLM agents to provide persistent personalization and continuity. This naturally prompts a question: will memory system introduce new vulnerabilities into agents? Thus we propose InjecMEM, a novel memory injection attack paradigm that requires only a single interaction (no read/edit access to memory store) to steer later responses of related queries toward a pre-specified output. Guided by the retrieval-then-generate mechanism of memory systems, we craft the injection with a retriever-agnostic anchor and an adversarial command. The anchor contains high-recall topical cues so that downstream retrieval consistently associates the record with the target topic. The command is a short sequence optimized to remain effective under uncertain fused contexts, variable placements, and long prompts so that it reliably steers outputs once retrieved. W",
+      "one_liner": "agent 记忆系统的攻击面不在记忆库权限，而在聊天通道：一次普通交互就能完成注入",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/d729e72a.md",
+      "images": [],
+      "added_date": "2026-08-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2a3f48ba",
+      "title": "SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning",
+      "url": "https://arxiv.org/abs/2608.23493",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jialong Liu, Yuling Shi, Ning Yang, Xiaodong Gu, Zuchao Li",
+        "original_date": "2026-08-24"
+      },
+      "category": "models",
+      "tags": [
+        "self-reflection",
+        "policy-optimization",
+        "dense-reward",
+        "long-horizon-reasoning",
+        "data-efficiency"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "SRPO 把人类学习中自反思式的 credit assignment 内化进 LLM 后训练：模型分析自己跑完的轨迹，把错误合成为简短反思补丁，再用反思条件化的教师打分作用在学生的 on-policy rollout 上，得到 token 级稠密训练信号全程不需要外部 critic独立奖励模型或更大的教师模型Qwen3-8B 基座在 AIME'24 拿到 73.3%，只花 scaled SFT 所需训练 FLOPs 的 8%（0.08x）；据论文流水线摘要，WebShop 64.7%ALFWorld 76.8%SWE-Bench-Lite 31.2%，数学推理与长程 agent 基准同时刷新稀疏终端监督换成稠密 token 级信号的数据效率路线又上了一个台阶，代码已开源",
+      "summary_en": "Self-reflection is a powerful mechanism for credit assignment in human learning, converting sparse outcome feedback into actionable guidance. However, its potential for post-training Large Language Models (LLMs) remains underexplored. We propose Self-Reflective Policy Optimization (SRPO), a framework that internalizes this capability. SRPO enables LLMs to analyze their own completed trajectories, synthesize errors into concise \"reflection patches,\" and use reflection-conditioned teacher scores on student on-policy rollouts as dense token-level training signals. This process effectively transforms sparse terminal supervision into dense, token-level learning signals without requiring external critics, separate reward models, or larger teacher models. We demonstrate that SRPO achieves state-of-the-art performance across mathematical reasoning and long-horizon agentic benchmarks with excepti",
+      "one_liner": "反思补丁把稀疏终端奖励变成 token 级稠密信号：AIME'24 用 8% FLOPs 拿 73.3%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2a3f48ba.md",
+      "images": [],
+      "added_date": "2026-08-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "342fc898",
+      "title": "SkillAlchemy: Open-World Agent Skill Creation",
+      "url": "https://arxiv.org/abs/2608.23417",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hengjun Wang, Shuyue Wei, Boyi Liu, Jun Yang, Yongxin Tong",
+        "original_date": "2026-08-24"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-skills",
+        "skill-creation",
+        "skillsbench",
+        "evidence-grounded",
+        "admission-control"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "agent 技能的可靠来源长期依赖人工撰写模型先验或执行轨迹，陌生任务这三样都缺SkillAlchemy 研究从开放世界材料造技能：给定欠规范的技能简述与源访问规格，创建者要用对比证据发现简述漏掉的行为相关要求，按证据支持的范围决定每条源派生流程能推广多宽，再编译成语法引导的技能包87 个 SkillsBench v1.1 任务上，比无技能执行高 19.9 个百分点比最强自动化基线高 8.6 个百分点，达到与人工策展技能相当的水平以准入为中心的设计是关键：证据决定范围，范围决定能不能进技能包",
+      "summary_en": "Agent skills are reusable procedural artifacts that extend language agents with specialized workflows, tool conventions, and domain behaviors at inference time. However, creating reliable skills still depends largely on human authorship, model priors, or execution traces. These sources are often unavailable for unfamiliar tasks, suggesting the need to create skills from open-world materials. In this paper, we study open-world skill creation: given an underspecified skill brief and a source-access specification, a creator must discover behavior-relevant requirements omitted by the brief and determine how broadly each source-derived procedure is justified. We propose SkillAlchemy, an admission-centered framework for source-grounded skill creation. SkillAlchemy identifies implicit requirements through contrastive evidence, admits candidate procedures based on evidence-supported scope, and c",
+      "one_liner": "开放世界技能生成要以证据决定范围为准入中心，而不是让模型先验直接编译成技能",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/342fc898.md",
+      "images": [],
+      "added_date": "2026-08-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "86fcb025",
+      "title": "Activation-Weighted Seeded Residual Coding for Low-Bit LLM Weight Repair",
+      "url": "https://arxiv.org/abs/2608.23144",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zehao Liu, Chuangchuang Fang, Yang Ren",
+        "original_date": "2026-08-24"
+      },
+      "category": "infra",
+      "tags": [
+        "quantization",
+        "residual-coding",
+        "weight-repair",
+        "edge-deployment",
+        "llm-compression"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "AWSRC 是给现成低位宽量化 backbone 配套的修复编解码器：把残差 WW0 用确定性种子生成的基编码，sidecar 只存种子选择器低位系数与尺度，不需要显式码本；激活统计优先修复影响层输出的误差Qwen2.5-3B-Instruct 上，给 INT4 RTN backbone 增加 0.162 bit/权重的开销，就关闭了对 BF16 的 88.2%/78.9%/71.3%（PPL/KL/准确率）匹配差距；49.25MB 的 sidecar 约为 BF16 权重载荷的 0.8%，在稀疏低秩向量量化编解码器对比中拿到最佳困惑度与平均任务准确率先量化后修补的端侧部署配方，按 MB 计费的场景可以直接试",
+      "summary_en": "Low-bit weight quantization saves storage but leaves errors that degrade language-model quality. We introduce Activation-Weighted Seeded Residual Coding (AWSRC), a compact repair codec for an existing quantization backbone. Given a reconstructed weight $W_0$, AWSRC encodes the residual $W-W_0$ using deterministic seed-generated bases. The sidecar stores seed selectors, low-bit coefficients, and scales rather than an explicit codebook. Activation statistics prioritize errors that affect layer outputs. On Qwen2.5-3B-Instruct, adding 0.162 scope-bits/weight to an INT4 RTN backbone closes 88.2%, 78.9%, and 71.3% of the matched PPL, KL, and accuracy gaps to BF16. Repairing a matched strong low-bit backbone also improves all measured quality metrics. With a matched 49.25 MB sidecar, about 0.8% of the BF16 model-weight payload, AWSRC gives the best perplexity and mean task accuracy among sparse",
+      "one_liner": "0.8% 权重载荷的 sidecar 关掉 INT4 量化的大部分质量差距，端侧先量化后修补配方",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/86fcb025.md",
+      "images": [],
+      "added_date": "2026-08-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dc93978b",
+      "title": "The AI Hater's Manifesto",
+      "url": "https://www.wheresyoured.at/the-ai-haters-manifesto",
+      "source": {
+        "platform": "blog",
+        "author": "Ed Zitron",
+        "original_date": "2026-08-25"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-criticism",
+        "rot-economy",
+        "tech-policy",
+        "ai-marketing"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Ed Zitron 的立场宣示把这一波 AI 行业骂得最直白：现代软件本身已是 Rot Economy 里的技术债Google Docs 改字号会把段落变标题邮件仍是垃圾Slack/Discord 是数字埃舍尔，LLM 接入这些产品只是让 convoluted 更 convoluted，给一台可能随机删除你文件的机器更高权限不是进步最有力的对照是社会投入：万亿美金赌机器学会做事，而美国几时花过万亿让人变好他承认自己实验过 LLM：给儿子的 Minecraft 装 addon 调试 30 分钟才勉强能用，PS5 手柄 mod 会顺带搞坏菜单，唯一稳定用途是丢崩溃日志问 why broken结论：不存在 AGI，这笔钱该投回真实的人；LLM 不该进医疗/金融/心理领域，也不该像人一样说话",
+      "summary_en": "Ed Zitron's manifesto argues modern software is already tech debt inside a \"Rot Economy\" Google Docs turns paragraphs into headings, Slack and Discord are digital Escher staircases and wiring LLMs into these products only compounds the convolution; giving a machine that may randomly delete your files more authority is not progress. His sharpest contrast is social: trillion-dollar bets on teaching machines to do things, while the US never spent a trillion on making people better off. He grounds the skepticism in his own experiments 30 minutes to get a barely-working Minecraft addon for his son, a PS5-controller mod that broke menus, with crash-log triage the only stable use and concludes AGI is not a thing worth planning around; the money should go back to actual people, and LLMs do not belong in healthcare, finance, or therapy.",
+      "one_liner": "AI 批评侧的基准文本：论据不是直觉而是社会投入的对照与亲身实验的失败样本，做 AI 产业分析时这是必须能反驳（或引用）",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dc93978b.md",
+      "images": [],
+      "added_date": "2026-08-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d6c0f7ed",
+      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+      "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-08-23"
+      },
+      "category": "industry",
+      "tags": [
+        "model-market",
+        "anthropic",
+        "ramp-ai-index",
+        "pricing",
+        "api-costs"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 把 FT 报道与 Ramp AI Index（7 万家企业的刷卡账单数据）合并成一张模型市场视图：Anthropic 7 月年化营收涨到 $65bn（5 月还是 $47bn），预期 Q3 盈利，有 6000 家客户年付 $10w；OpenAI 年化营收季内涨 35% 至 $40bn+，GPT 5.6 七月发布后明显反弹但 Ramp 的 7 月账单数据翻转了叙事：Opus 4.8 以 28% 占据第一，7 月 24 日才发布的 Opus 5 只占 3.5%，Fable 5 占 8%单价把最强模型挤出了主力位与已收录的 FT 原文条目（75a73f0d）互补，这里的增量是完整的模型份额明细表：价格梯度决定默认模型",
+      "summary_en": "Simon Willison merges the FT report with the Ramp AI Index (billing data from 70,000 card-spending companies): Anthropic's annualized revenue reached $65bn in July (up from $47bn in May) with 6,000 customers spending $100k+/yr and Q3 profitability expected; OpenAI's annualized revenue jumped 35% in the quarter to over $40bn after GPT 5.6's July launch. But Ramp's July spend breakdown flips the capability story: Opus 4.8 leads at 28.0% while the July-24-released Opus 5 holds only 3.5% and Fable 5 8.0% price, not capability, sets the default model.",
+      "one_liner": "模型选型与 API 成本优化的直接实证：企业真金白银的账单结构显示足够好 + 便宜挤出最强，做定价与选型决策的人",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d6c0f7ed.md",
+      "images": [],
+      "added_date": "2026-08-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e53b1d40",
+      "title": "Foot Guns for Sale",
+      "url": "https://idiallo.com/blog/foot-gun-for-sale",
+      "source": {
+        "platform": "blog",
+        "author": "Idiallo (@dialloibu)",
+        "original_date": "2026-08-25"
+      },
+      "category": "industry",
+      "tags": [
+        "local-inference",
+        "ai-decentralization",
+        "developer-tools",
+        "edge-ai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Idiallo 驳AI 将中央化的叙事：Anthropic/OpenAI 推销安全审核加按 token 计费的 API 领主前景，但开发者在 IDE 的 auto mode 里切错模型一整天都没察觉，围墙花园在脚下已经松了；本地推理门槛快速下降，他在 $400 的机器上不急不慢地跑 Deepseek最有信息量的例子是 schlarp.com 的everything I own, owned开发者用 AI agent 把手边每个外设逆向了一遍：拿到麦克风的明文 shell能关掉活动指示灯的摄像头给同一 WiFi 任意人写权限的补光灯（该逆向记已单独收录，95fbadfd）结论：闭源生态卖的是 foot gun，dark fiber 注定被开发者用来 subvert给所有押注我们比用户更懂自己设备的公司提了个醒",
+      "summary_en": "Idiallo pushes back on the centralized-AI narrative: Anthropic and OpenAI sell a future of vetted, safety-reviewed, per-token-billed API fiefdoms, yet developers already drift between models in IDE auto mode for a full day without noticing the walled garden is loose underfoot. Local inference keeps getting cheaper; he runs Deepseek on a $400 machine without stress. The most informative example is schlarp.com's \"everything I own, owned\": one developer used an AI agent to reverse every peripheral within reach plaintext shell on the microphone, a camera whose activity LED can be disabled, a light panel granting write access to anyone on the WiFi. Closed ecosystems are selling foot guns, and developers will use dark fiber to subvert them.",
+      "one_liner": "去中心化/本地推理路线的一个清醒样本：不喊口号，用 IDE 切换无感与外设逆向实例说明集中式叙事的裂缝在哪里",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e53b1d40.md",
+      "images": [],
+      "added_date": "2026-08-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8705a720",
+      "title": "Fixing an eMachines EL1200 BIOS bug with Claude",
+      "url": "https://www.downtowndougbrown.com/2026/08/fixing-an-emachines-el1200-bios-bug-with-claude",
+      "source": {
+        "platform": "blog",
+        "author": "Doug Brown",
+        "original_date": "2026-08-23"
+      },
+      "category": "agents",
+      "tags": [
+        "firmware-reverse-engineering",
+        "bios",
+        "claude",
+        "applied-agents",
+        "legacy-hardware"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Doug Brown 把 2008 年 eMachines EL1200 主板遗留五年的 BIOS bug（装 8GB 内存进不了 setup 界面，单条 4GB 同样卡）丢给 Claude Opus 5，半小时拿到诊断与补丁：BIOS dump 来自 NVIDIA MCP61 + Phoenix/Award，烧录后正常进 setup他对照七年前修类似问题16GB 内存装在标称 8GB 的主板上，靠 GRUB 单行 ACPI hack 修好 Windows 蓝屏，那次盯汇编盯了好几个小时；这次他承认年纪越大盯汇编越累眼睛，AI 直接给 patch对硬件逆向遗留固件维护agent 工具评估是一个具体的胜利样本，能力边界同样明确：你仍需要能烧录 socketed ROM 的旧硬件与验证判断力",
+      "summary_en": "Doug Brown fed a five-year-old BIOS bug on a 2008 eMachines EL1200 board (8GB RAM blocks setup entry; a single 4GB stick hangs the same way) to Claude Opus 5 and had a diagnosis and patch within half an hour; the BIOS dump came from NVIDIA MCP61 + Phoenix/Award, and the flashed board enters setup normally. He contrasts a similar fix seven years ago a one-line GRUB ACPI hack for Windows bluescreens with 16GB on a nominally 8GB board which cost hours of staring at assembly. The boundary is explicit: you still need the old hardware that can flash socketed ROMs and the judgment to verify; the agent is the new path through the parts humans can no longer stare at.",
+      "one_liner": "agent 应用的一次真实胜利 + 诚实的边界说明：遗留固件这类人盯不动汇编的场景正在成为 agent 的甜点位，评",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8705a720.md",
+      "images": [],
+      "added_date": "2026-08-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-26",
-  "total_entries": 1996
+  "total_entries": 2004
 }
