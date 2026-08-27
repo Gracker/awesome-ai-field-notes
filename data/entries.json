@@ -59344,8 +59344,169 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "7192217a",
+      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
+      "url": "https://arxiv.org/abs/2608.24876",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhaochen Yu, Yingcheng Wu, Zhenfei Yin, Kaiyuan Chen, Zhe Zhao, Mengdi Wang, Shuicheng Yan, Ling Yan...",
+        "original_date": "2026-08-25"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "memory",
+        "recursive-self-improvement",
+        "long-horizon",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "递归自我改进（RSI）在长程任务中一直很难：不断增长的历史会遮蔽任务状态并使技能调用失准论文提出 Recuris，一种面向长程 agent harness 的递归式经验-工作记忆架构：工作记忆跟踪任务进度并据此从经验记忆中引导技能选择，使技能使用锚定当前需求而非完整历史；这种耦合还把执行过程转化为结构化证据，可将失败定位到具体记忆组件一个固定的 Meta-Agent 把这些证据转化为局部化的经验证门控的技能记忆更新，更新重塑执行又产生新证据，形成有边界的递归记忆演化循环跨四个长程基准十个模型的评测中，37 个已完成的模型-基准配对里 35 个任务成功率获得提升",
+      "summary_en": "Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Working Memory architecture for long-horizon agent harnesses, in which Working Memory tracks task progress and guides skill selection from Experiential Memory, grounding skill use in current needs rather than the full history. This coupling also turns execution into structured evidence that localizes failures to specific memory components. Across tasks, a fixed Meta-Agent turns that evidence into localized, validation-gated updates to Skill Memory that reshape execution and yield new evidence, forming a bounded recursive memory-evolution loop....",
+      "one_liner": "Recuris：工作记忆与经验记忆耦合形成有边界的递归记忆演化循环，10 模型 x 4 长程基准中 35/37 配对成功率提升",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7192217a.md",
+      "images": [],
+      "added_date": "2026-08-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "250ac425",
+      "title": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL",
+      "url": "https://arxiv.org/abs/2608.24870",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kai Ruan, Jinghao Lin, Qianshan Wei, Ziqi Zhou, Zihe Huang",
+        "original_date": "2026-08-25"
+      },
+      "category": "learning",
+      "tags": [
+        "rl",
+        "agentic-rl",
+        "policy-optimization",
+        "asynchronous-training",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "组相对强化学习需要等待同一 prompt 的兄弟 rollout，这对长且长度差异大的工具调用轨迹来说成本很高此前的单流策略优化（SPO）用持续的 prompt 级价值估计摆脱了这一依赖，但其配方先把每条轨迹的优势做白化，再去优化 token 平均的 actor loss作者证明轨迹级居中通常并不能使 actor 实际消费的 token 加权量居中，并改用动作 token 度量下的标准化终局结果优势来修复这个错配；另外按生成证据的策略事件而非学习器接收顺序来组织 prompt 证据在与 ALFWorld 两个模型规模及 Math-TIR 的对齐对照运行中，SPO++ 相比 SPO 提升在线学习效率；配对消融显示动作-token-度量归一化是所测组件中最强的一项",
+      "summary_en": "Group-relative reinforcement learning waits for sibling rollouts of the same prompt, which is costly for long and variable tool-use trajectories. Single-stream Policy Optimization (SPO) removes this dependency with a persistent prompt-level value estimate, but its recipe whitens one advantage per trajectory before optimizing a token-mean actor loss. We show that trajectory centering generally does not center the token-weighted quantity consumed by the actor, and fix the mismatch by standardizing terminal-outcome advantages under the action-token measure. We additionally organize prompt evidence by the policy event that generated it rather than learner receipt order. Across matched runs on ALFWorld at two model scales and on Math-TIR, SPO++ improves online learning efficiency over SPO. A paired ablation identifies action-token-measure normalization as the strongest tested component.",
+      "one_liner": "SPO++：发现单流策略优化中轨迹白化与 token-mean actor loss 的度量错配，用动作 token 度量标准化修复，异步 agentic RL 效率提升",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/250ac425.md",
+      "images": [],
+      "added_date": "2026-08-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "79b44ad7",
+      "title": "StarHarness: Evolving Harnesses with Stratified Search for Enterprise Environments",
+      "url": "https://arxiv.org/abs/2608.24804",
+      "source": {
+        "platform": "arxiv",
+        "author": "Esakkivel Esakkiraja, Denis Akhiyarov, Vikas Yadav, Sai Rajeswar, Patrice Bechard, Sridhar Nemala, S...",
+        "original_date": "2026-08-25"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "harness-evolution",
+        "enterprise",
+        "stratified-search",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "StarHarness 是一个在保持模型权重不变的前提下自动进化面向特定环境 agent harness 的框架：可进化对象覆盖 prompt 与任务框定工具接口技能MCP 支持的 providers子智能体结构和 agent-loop 配置方法上按基线失败行为对任务分层以构造紧凑的进化池，将 proposer 可见的搜索任务与隐藏的选择任务分开，并保留 held-out 任务评估泛化能力在 ITBench SREEnterpriseOps-Gym ITSM 和 AutomationBench Finance 三个企业环境中，每个环境经过 4-12 次被接受的变更后，整体基准性能比默认 harness 提高 20-35 个百分点；这些增益在未参与进化的任务上同样成立，并且无需重新进化即可跨 GPT 与 Qwen 两个模型族迁移",
+      "summary_en": "We present StarHarness, a framework for evolving environment-specific agent harnesses while keeping model weights fixed. The evolved harness can include prompt and task framing, tool interfaces, skills, MCP-backed providers, subagent structure, and agent-loop configuration. StarHarness constructs a compact evolution pool by stratifying tasks according to baseline failure behavior, separates proposer-visible search tasks from proposer-hidden selection tasks, and reserves held-out tasks for evaluating generalization. Across ITBench SRE, EnterpriseOps-Gym ITSM, and AutomationBench Finance, harness evolution improves full-benchmark performance by 20-35 percentage points over the default harness after 4-12 accepted changes per environment. These gains persist on tasks excluded from evolution and transfer without re-evolution across GPT and Qwen model families....",
+      "one_liner": "StarHarness：权重固定只靠分层搜索进化环境专属 harness（prompt/工具/技能/子智能体/循环配置），企业基准性能提升 20-35 个百分点并可跨模型族迁移",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/79b44ad7.md",
+      "images": [],
+      "added_date": "2026-08-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dbde5cbb",
+      "title": "Reading Is Not Using: Retrieval, Judgment, and the Design of AI Financial Research Workflows",
+      "url": "https://arxiv.org/abs/2608.24842",
+      "source": {
+        "platform": "arxiv",
+        "author": "Miao Liu, Zhizhe Liu",
+        "original_date": "2026-08-25"
+      },
+      "category": "learning",
+      "tags": [
+        "llm",
+        "retrieval",
+        "long-context",
+        "financial-analysis",
+        "evaluation",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM 正在被当作 AI 分析师处理金融信息披露并辅助投资决策，但这类系统通常按能检索到什么评估，而不看检索到的信息是否真正改变了判断论文识别出长上下文金融分析中的检索-整合鸿沟：固定目标公司信息不变只把无关上下文从 2,000 提高到 128,000 token 时，风险披露对投资判断的影响会跌到实验噪声底，而直接检索仍然准确该模式在多个模型族与判断任务上复现，也在从真实 10-K 文件中删去真实披露的反事实实验中出现；更强的模型只会推迟而不会消除这一鸿沟因果记忆干预显示，压缩摘要和源文查找二者结合才能把披露信息传递进决策",
+      "summary_en": "Large language models (LLMs) are increasingly deployed as AI analysts to process financial disclosures and support AI-assisted investment decisions. Yet such systems are usually evaluated by what they can retrieve, not whether retrieved information affects their judgments. We identify a retrieval-integration gap in long-context financial analysis. Holding focal-firm information fixed and varying only unrelated context from 2,000 to 128,000 tokens, we find that a risk disclosure's influence on investment judgments falls to the experimental noise floor even as direct retrieval remains accurate. The pattern replicates across model families and judgment tasks and in experiments removing real disclosures from actual 10-K filings. More capable models postpone but do not eliminate the gap....",
+      "one_liner": "读到了不等于用上了：长上下文金融分析存在检索-整合鸿沟，无关上下文涨到 128K token 后风险披露对投资判断的影响只剩噪声",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dbde5cbb.md",
+      "images": [],
+      "added_date": "2026-08-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "05f53b90",
+      "title": "GLM-5.3-Flash: Frontier Intelligence, Flash Cost",
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "source": {
+        "platform": "blog",
+        "author": "Z.ai",
+        "original_date": "2026-08-26"
+      },
+      "category": "models",
+      "tags": [
+        "models",
+        "glm",
+        "hybrid-attention",
+        "efficient-inference",
+        "agentic-benchmarks"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "智谱 Z.ai 发布 GLM-5 系列首个原生多模态模型 GLM-5.3-Flash：总参数 320B激活参数仅 18B，价格约为前代的十分之一，却在其六个编码与 agentic 基准上全面超过 GLM-5.2（DeepSWE v1.1 得 63.4 对 46.2，AutomationBench 得 48.8 对 26.2），总体接近 Claude Opus 4.8（Z.ai Code Bench 最高努力档 29.0 对 29.5）；在 Artificial Analysis Intelligence Index v4.1.1 上以每任务约 0.045 美元的折扣价拿下 57 分架构上首次引入稀疏加线性的混合注意力，显著降低长上下文服务成本，并用 mHC（流形约束超连接）提升缩放效率；1M token 上下文下通过 IndexPool 将四组索引器键向量压缩为一组；对比 GLM-5.3 注意力计算量降为约 1/3.0KV cache 约 1/4.4发布前曾以匿名代号 ox-alpha 在 OpenCode 与 OpenRouter 盲测，迅速登顶当周最受欢迎模型，且全部流量跑在国产 AI 芯片上",
+      "summary_en": "Z.ai introduces GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series: 320B total parameters with only 18B active, outperforming GLM-5.2 across six coding and agentic benchmarks (DeepSWE v1.1 63.4 vs 46.2, AutomationBench 48.8 vs 26.2) at roughly one-tenth the price, while approaching Claude Opus 4.8 overall (29.0 vs 29.5 on Z.ai Code Bench at max effort) and scoring 57 on Artificial Analysis Intelligence Index v4.1.1 at ~$0.045 per discounted task. The architecture debuts a hybrid sparse-plus-linear attention design to cut long-context serving cost, adds Manifold-Constrained Hyper-Connections (mHC) for scaling efficiency, uses IndexPool to compress four indexer key vectors into one at 1M-token context, and reduces attention compute and KV cache 3.0x and 4.4x versus GLM-5.3....",
+      "one_liner": "GLM-5.3-Flash：320B 总参/18B 激活+稀疏线性混合注意力，约 1/10 价格逼近 Claude Opus 4.8；曾以 ox-alpha 匿名盲测登顶当周人气",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/05f53b90.md",
+      "images": [],
+      "added_date": "2026-08-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-26",
-  "total_entries": 2004
+  "last_updated": "2026-08-27",
+  "total_entries": 2009
 }
