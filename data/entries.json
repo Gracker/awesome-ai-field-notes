@@ -60177,8 +60177,341 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "ca79216a",
+      "title": "An open letter for a global surge in cyber defense",
+      "url": "https://x.com/gdb/status/2093021551855812842",
+      "source": {
+        "platform": "x",
+        "author": "Greg Brockman (@gdb)",
+        "original_date": "2026-08-27"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-safety",
+        "cybersecurity",
+        "open-letter",
+        "industry",
+        "policy"
+      ],
+      "source_type": "x_post",
+      "language": "both",
+      "summary_zh": "8 月 27 日 OpenAI 联创 Greg Brockman 把一封由 AnthropicAWSGoogleMicrosoftOpenAIOracle 等 100+ 家组织联名的全球加码网络防御公开信转上 X信给出三条原则：当前安全水位扛不住未来几个月由更强模型驱动的攻击，关键基础设施都在射程内；防御必须上 AI，把分散在各团队的工具和修复经验共享出来；这是全球动员，单家公司不该独占未来落到组织的清单包括优先修最高危漏洞独立验证修复结果把 AI 写的代码纳入安全验收，缺钱的关键基础设施由前沿实验室提供工具与现场支持签名厂商的能力方与防御方身份重合，他们主动要求监管与公共资金介入，比过往姿态更实际，但能否从联名变成动作要看未来几个月的跟进",
+      "summary_en": "An open letter signed by 100+ organizations including Anthropic, AWS, Google, Microsoft, OpenAI and Oracle calls for a global surge in cyber defense: current security levels cannot withstand model-driven attacks coming in the next few months; defense must adopt AI and share tooling and patch experience across teams; and this is a global mobilization that no single company should own. The per-organization checklist includes fixing the highest-severity vulnerabilities first, independently verifying results, and bringing AI-written code into security acceptance, with frontier labs providing tools, funding and on-the-ground support for under-resourced critical infrastructure.",
+      "one_liner": "100+ 家 AI 厂商与云厂商联名承认攻击窗口已开：防御方第一次由能力方自己按铃，含金量在签名名单而不在信本身",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/ca79216a.md",
+      "images": [
+        "https://pbs.twimg.com/media/HQvj0tOaAAAWrhf?format=jpg&name=large"
+      ],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "be66d3e8",
+      "title": "How Warp builds self-improving agents on Claude",
+      "url": "https://x.com/Xudong07452910/status/2093145288672158204",
+      "source": {
+        "platform": "x",
+        "author": "Michael Segner / Warp team; reposted by @Xudong07452910",
+        "original_date": "2026-08-26"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "self-improving",
+        "skills",
+        "git-pr",
+        "claude",
+        "engineering-practice"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "Claude 官博 8 月 26 日发布 Warp 案例研究：把 Agent 拆成两层 Skill，内层 base Skill 负责具体任务（PR 评审写 SpecIssue Triage 各一套），外层 Improver Skill 周期性把人类反馈与 Agent 输出的差异整理成对 base Skill 的小修改，修改走标准 Git PR，人 review merge 后下个会话自动继承文中数据：Warp 融资 73M80 万月活开发者Fortune 500 里 56% 在用10M Claude Code 会话经 Warp 运行其中 40M 是 Agent 会话这套机制把Agent 应该学到什么沉淀成可审计可回滚的文件变更而非隐式上下文；写 Skill 要写原则与为什么而不是穷举规则，反馈要发生在工程师本来就在的地方（PR 评论Issue）spec / review / triage 三个独立循环已跑通",
+      "summary_en": "Warp's case study on the Claude blog describes a two-skill architecture: inner base skills run concrete tasks (PR review, spec writing, issue triage), while an outer Improver skill periodically mines human feedback, diffs it against agent output, and proposes small base-skill changes via standard Git PRs; after human merge, the next session inherits them automatically. Warp reports $73M funding, 800k monthly active developers, 56% of Fortune 500 usage, and 10M Claude Code sessions (40M agent sessions) running inside Warp. The pattern turns 'what the agent should learn' into auditable, revertible file changes instead of implicit context.",
+      "one_liner": "自进化 Agent 的工程化答案：反馈不进 Prompt 进 Gitbase+improver 双 Skill 用 PR 闭环，可审计可回滚",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/be66d3e8.md",
+      "images": [],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "864c5999",
+      "title": "Qwen3.8-Flash-Next Day-0 NVFP4 + dual DGX Spark deployment math",
+      "url": "https://x.com/wei_wang/status/2092618570114994389",
+      "source": {
+        "platform": "x",
+        "author": "@wei_wang",
+        "original_date": "2026-08-26"
+      },
+      "category": "models",
+      "tags": [
+        "quantization",
+        "nvfp4",
+        "local-llm",
+        "dgx-spark",
+        "qwen",
+        "inference"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "RadixArk 放出 Qwen3.8-Flash-Next 的 Day-0 NVFP4 量化版：约 180B 总参数48 层 MoE512 个 Experts，原生支持文本/图片/视频输入与 262K 上下文；BF16 全精度约 360GB，NVFP4 压到 135GB（约 1/2.7）单台 DGX Spark 128GB Unified Memory 装不下，双机合计 256GB 才进入舒适运行区间，还能给 KV Cache 与推理框架留余量路线是 RadixArk + SGLang + NVIDIA Blackwell 原生 NVFP4，不必等 GGUF 社区逐步适配这条硬件账意味着 180B 量级模型在桌面级双机上可舒服运行，本地 token 自由跨过新的硬件门槛；NVFP4 在 Blackwell 上 Day-0 与开源模型同框，正在追平 BF16GGUF社区量化通常落后 1-2 周的节奏作者预告将与 DeepSeek V4 Flash 做同硬件同 Harness同任务对比",
+      "summary_en": null,
+      "one_liner": "180B MoE 的 NVFP4 Day-0 + 双 DGX Spark 硬件账：本地大模型舒适区门槛从单卡 24GB 抬到桌面 256GB，NVIDIA 原生 FP4 正在改写量化生态节奏",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/864c5999.md",
+      "images": [],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9961ed44",
+      "title": "Pi Agent zero-base hands-on: install to first verification",
+      "url": "https://x.com/xiaomovps/status/2092488445117755645",
+      "source": {
+        "platform": "x",
+        "author": "@xiaomovps",
+        "original_date": "2026-08-26"
+      },
+      "category": "learning",
+      "tags": [
+        "terminal-agent",
+        "tutorial",
+        "verification",
+        "agent-practice",
+        "beginner"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "1.4 万字 Pi 终端 Agent 零基础实操：作者在一个独立练习目录放一份虚构会议记录，让 Pi 读取并生成行动清单，任务结束后不用 Pi 的总结作证明，而是回到命令行自己核对算输入文件 SHA-256确认输出文件存在逐字段核对负责人与截止日期关键设计：练习目录拆 input/output 隔离原始材料与结果；用 @ 引用文件而非粘贴内容进对话；提示词写成材料+动作+限制+验收四段式文章提出三层证据链框架：文字回复说明过程工具事件说明尝试了什么文件系统结果说明最终事实，比信任 Agent 的总结可靠流程对 Claude CodeCodexHermes Agent 等终端 Agent 通用，还包括何时按 Escape 停止如何识别 Agent 在扩大任务范围",
+      "summary_en": null,
+      "one_liner": "终端 Agent 新手第一课的正确写法：三层证据链（回复/工具事件/文件系统）让每次任务都可独立验收，不迷信 Agent 自己的总结",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9961ed44.md",
+      "images": [],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "146822d4",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-08-27"
+      },
+      "category": "coding",
+      "tags": [
+        "prompt-injection",
+        "agent-security",
+        "claude-code",
+        "sandboxing",
+        "auto-mode"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 转发 Johann Rehberger 在 embracethered 上的实测：Anthropic 把 Claude Code 的 auto mode（用分类器挡 prompt injection）设为默认并宣称高拦截率，Rehberger 用诱导下载 zip 解压后再 import base64触发本地 struct.py 被执行的方式做出约 80% 命中率的注入，且出现失败循环Claude 自己发现被注入试图 kill 恶意进程，但 auto mode 把清理命令也拦了下来：分类器放行了恶意进程的创建，却拦下了停止它的命令Willison 认同 Rehberger 的结论：唯一可靠的做法是把 agent 关进容器/VM/OS 沙箱限制网络出口监控 agent 行为，不要把 home 目录SSH key云凭据暴露给 agent runtime",
+      "summary_en": "Simon Willison links Johann Rehberger's proof-of-concept against Claude Code's default auto mode: an ~80%-success prompt injection that tricks the agent into unzipping an archive and importing base64, silently executing a local struct.py from the archive. In several runs Claude detected the compromise and tried to kill the malware process, but Auto Mode denied the cleanup command the classifier allowed the malware process to be created yet blocked the command meant to stop it. Willison endorses the conclusion: sandbox the agent (container/VM/OS), restrict network egress, monitor behavior, and never expose home directories, SSH keys or cloud credentials to the runtime.",
+      "one_liner": "auto mode 被 80% 命中率打穿还拦下自救命令：分类器防御的天花板就在这，沙箱+最小权限才是底线配置",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/146822d4.md",
+      "images": [],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "84b70f30",
+      "title": "Sandboxing coding agents",
+      "url": "https://micahflee.com/sandboxing-coding-agents",
+      "source": {
+        "platform": "blog",
+        "author": "Micah Lee",
+        "original_date": "2026-08-27"
+      },
+      "category": "coding",
+      "tags": [
+        "sandboxing",
+        "agent-security",
+        "docker",
+        "ssh",
+        "commit-signing",
+        "howto"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Micah Lee 公开把 coding agent 关进 Docker Sandboxes 的完整脚本：先给 agent 生成专用 ed25519 SSH key，在 GitHub 上只加为 signing key（绝不能加为 authentication key，否则 agent 能触达你账号能访问的所有仓库）；再用 shell 脚本启动隔离 ssh-agent，只 load 这把 key 并转发进 sandbox；最后用 sbx daemon 起 sandbox设计效果：agent 在 sandbox 里能 sign commit（commit 历史保持可验证AI 参与透明化），但拿不到 host 上其它 SSH key 能访问的仓库配套 stop-isolated-ssh 收尾脚本与 Simon Willison 的结论性呼吁相比，这是可以原样抄的实现，作者刚在 DEF CON AI Village 打完 HalCTF，思路经过实战检验",
+      "summary_en": "Micah Lee publishes a copy-paste recipe for sandboxing coding agents in Docker Sandboxes: generate a dedicated ed25519 SSH key and register it on GitHub only as a signing key (never an authentication key, or the agent reaches every repo your account can); start an isolated ssh-agent that loads only that key and forward it into the sandbox; run the sandbox via the sbx daemon. The agent can sign commits keeping history verifiable and AI use transparent but cannot touch anything else your host SSH keys can access. Includes start-isolated-ssh.sh and stop-isolated-ssh cleanup scripts, battle-tested during HalCTF at DEF CON AI Village.",
+      "one_liner": "agent 沙箱的最小可行实现：专用 signing key + 隔离 ssh-agent + sbx，能签 commit 却碰不到你其余仓库",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/84b70f30.md",
+      "images": [
+        "https://storage.ghost.io/c/ab/b9/abb95af0-3cb7-4e49-a6c2-c87b36f5d5c2/content/images/2026/08/Screenshot-2026-08-27-at-11.31.02---AM.png"
+      ],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "80b7f0a3",
+      "title": "US judge blocks Pentagon's Anthropic blacklisting",
+      "url": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28",
+      "source": {
+        "platform": "blog",
+        "author": "Reuters (Jack Queen)",
+        "original_date": "2026-08-27"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "policy",
+        "military-ai",
+        "litigation",
+        "regulation"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Reuters 报道：美国加州北区联邦地区法院法官 Rita Lin 在 59 页裁定中叫停国防部把 Anthropic 列为国家安全供应链风险起因是 Anthropic 拒绝让军方在自主武器和国内监控场景使用 Claude，Hegseth 援引一项原本针对外国渗透的采购法规把 Anthropic 列入黑名单，这也是美国公司首次被公开按该法规认定；Anthropic 以第一修正案（报复言论）与第五修正案（正当程序）起诉法官认定该决定非法且无据，并写道空洞地援引国家安全不是惩罚和报复政府批评者的空白支票Anthropic 在华盛顿还有第二起诉讼，针对可能使其被排除在民用政府合同之外的另一份认定这条案将影响军方可否凭国家安全标签压制拒绝军用化合作的 AI 厂商",
+      "summary_en": "U.S. District Judge Rita Lin blocked the Pentagon's designation of Anthropic as a national-security supply-chain risk in a 59-page order finding the move 'illegal and baseless.' The designation the first public use of an obscure procurement statute against a U.S. company followed Anthropic's refusal to let the military use Claude for surveillance or autonomous weapons. Anthropic sued on First and Fifth Amendment grounds; the judge wrote that 'the empty invocation of national security is not a blank check to punish and retaliate against government critics.' A second lawsuit in Washington D.C. targets a separate designation that could exclude Anthropic from civilian government contracts.",
+      "one_liner": "空洞援引国家安全不是空白支票：AI 厂商拒绝军用化的合同边界第一次拿到司法背书，行业政策面里程碑",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/80b7f0a3.md",
+      "images": [
+        "https://www.reuters.com/resizer/v2/SCCKLWWD7FPUXCHB4UCEU5X5UA.jpg?auth=6fab2e827b13ce10664802a786906806968aeb2c87c1d18341bc134ef4d76614&width=1920&quality=80"
+      ],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ad1b6262",
+      "title": "Why do OpenAI's GPT-2 weights beat mine? Part four: digging into dropout",
+      "url": "https://www.gilesthomas.com/2026/08/why-do-openai-gpt2-weights-beat-mine-4-ift-dropout",
+      "source": {
+        "platform": "blog",
+        "author": "Giles Thomas",
+        "original_date": "2026-08-27"
+      },
+      "category": "learning",
+      "tags": [
+        "fine-tuning",
+        "dropout",
+        "gpt-2",
+        "training-recipes",
+        "llm-from-scratch"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "复现 GPT-2系列第四篇：作者在 17 个预训练模型（含 OpenAI small/medium 官方权重）上各跑三遍 instruction fine-tune，dropout 分别取预训练原值强制 on（0.1）强制 off，再用 LLM judge 统一打分关键模式：预训练没用 dropout 的模型在 IFT 阶段被强制开 dropout 后分数大跌（最好例子里 21.465.25），fine-tune epoch 从 3 跳到 19；而预训练就带 dropout 的模型对这种扰动几乎免疫（个别案例反而小涨）作者用让不喝酒的人直接灌威士忌类比：模型在预训练时花了大量精力学会克服 dropout 的影响，没经历过的模型突然暴露在 dropout 下就崩结论对所有拿自家预训练权重做 fine-tune 的人适用：IFT recipe 里 dropout 与预训练配置不匹配会显著劣化",
+      "summary_en": "Part four of the 'why do OpenAI's GPT-2 weights beat mine' series: across 17 pre-trained models (including OpenAI's official small/medium weights), each instruction fine-tune is run three times with dropout set to the pre-training value, forced on (0.1), or forced off, scored by an LLM judge. Models pre-trained without dropout crash when dropout is forced on during fine-tuning (one case falls from 21.46 to 5.25) and need far more epochs (3 to 19), while models pre-trained with dropout are almost immune. The author's framing: a model spends its pre-training learning to cope with dropout's noise, and springing it on an unprepared model during IFT is like making a teetotaller drink whisky. Directly applicable to anyone fine-tuning their own pre-trained checkpoints.",
+      "one_liner": "IFT 显著劣化的一个隐藏旋钮找到了：预训练没 dropout 的权重在 fine-tune 强开 dropout 会崩（21.55.3），配方可迁移",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ad1b6262.md",
+      "images": [],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e47118b9",
+      "title": "Introducing Pipette: A benchmarking suite for on-device intelligence",
+      "url": "https://www.liquid.ai/blog/pipette-on-device-ai-benchmarking-by-liquid-ai",
+      "source": {
+        "platform": "blog",
+        "author": "Liquid AI",
+        "original_date": "2026-08-24"
+      },
+      "category": "infra",
+      "tags": [
+        "on-device-llm",
+        "benchmark",
+        "quantization",
+        "mobile",
+        "llama-cpp",
+        "edge-ai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Liquid AI 与 Artificial Analysis 联合开源 Pipette 端侧基准平台（Apache 2.0，含 pipette-mgmt/clients/scores 与 iOS/Android 原生客户端）：核心论点是端侧行为是部署系统的属性，不是模型的属性，评测单元是 model quantization runtime device context 五维组合，已发布 1,000+ 实验室验证配置30+ 模型256-8192 token 上下文，覆盖 M5 MaxiPhone 17 ProGalaxy S26 Ultra公开数据示例：Galaxy S26 Ultra 上 Q4_K_M2564096 输入 token，Granite-4.0-H-350M 保持 78.4% decode 吞吐而 Granite-4.0-350M 只剩 33.8%；LFM2.5-8B-A1B decode 比 Qwen3.5-4B 快 2.4 倍但峰值内存仍 5.29 GiB（所有 expert 常驻）；iPhone 上 MiniCPM5-1B 快 15.8% 但 LFM 在 MATH-500 高 9 分Android 路径目前是 CPU-only llama.cpp端侧选型从此应按目标设备+量化+上下文查表，而非模型卡 server 分数",
+      "summary_en": "Liquid AI and Artificial Analysis release Pipette, an Apache-2.0 open-source benchmarking platform for edge AI built on the premise that on-device behavior is a property of the deployed system, not the model. Every measurement is a model quantization runtime device context configuration; the public dataset covers 1,000+ lab-verified configurations, 30+ models, 256-8,192 token contexts on M5 Max, iPhone 17 Pro and Galaxy S26 Ultra. Highlights: Granite-4.0-H-350M retains 78.4% decode throughput at Q4_K_M from 256 to 4,096 input tokens while Granite-4.0-350M retains 33.8%; LFM2.5-8B-A1B decodes 2.4x faster than Qwen3.5-4B yet still peaks at 5.29 GiB; on iPhone, MiniCPM5-1B is 15.8% faster while LFM2.5-1.2B scores 9.0 points higher on MATH-500. The Android path is CPU-only llama.cpp for now.",
+      "one_liner": "端侧评测从 model-quality 转向 system-quality 的标志性发布：五维配置查表替代模型卡分数，30+ 模型可复现数据已开放",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e47118b9.md",
+      "images": [
+        "https://www.liquid.ai/_next/image?url=https%3A%2F%2Faypchzzf9pftwuto.public.blob.vercel-storage.com%2Fpipette-thumbnail-intro-KkBDW22tnhRWr6iRvKOhry4N7TNL6S.png&w=3840&q=75"
+      ],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1b48dfef",
+      "title": "MobilePA-Bench: Benchmarking Mobile Planner Agents on Complex Real-World Tasks",
+      "url": "https://arxiv.org/abs/2608.23035",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yi Zhu, Xiongwei Wu, Qiyi Wang, Tingyu Qu, Jiajun Liu, Sihan Cao, Long Chen, Weigao Sun, Feida Zhu...",
+        "original_date": "2026-08-24"
+      },
+      "category": "agents",
+      "tags": [
+        "mobile-agents",
+        "benchmark",
+        "tool-use",
+        "planning",
+        "sub-agents",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "阿里巴巴通义实验室的 MobilePA-Bench（arXiv 2608.23035，cs.AI，v2 2026-08-25）把手机端 agent 评测从 GUI 点击层拉到 planner 工具调用层：可执行沙箱维护真实应用数据库并返回结构化反馈，覆盖 13 个功能域212 个真实移动工具的交互式有状态评测除基础工具调用外，沿三个高级维度评估规划 agent：子 agent 协作（任务分解与委派）记忆使用（召回存储记忆/用户画像解决隐式请求）技能使用（调用预打包组合技能而非逐步规划）实验显示当前 frontier LLM 在移动场景仍不可靠：严格工具顺序权限限制意外运行时错误下性能急剧下降论文定位是诊断基准 + agentic RL 的交互式基础对被 AndroidWorld/AitW 等 GUI 基准覆盖不到的后台工具链路，这填补了评测空白",
+      "summary_en": "MobilePA-Bench (Alibaba Tongyi Lab, arXiv 2608.23035, cs.AI, v2 Aug 25 2026) moves mobile agent evaluation from GUI tapping to planner-level tool calling: an executable sandbox maintains live app databases and returns structured feedback across 13 functional domains and 212 realistic mobile tools, interactive and stateful. Beyond basic tool use it evaluates a central planning agent on sub-agent collaboration (decomposing and delegating), memory usage (recalling stored memories and user profiles to resolve implicit requests), and skill usage (invoking pre-packaged composite skills). Experiments show current frontier LLMs remain unreliable in mobile settings: performance drops sharply under strict tool ordering, permission limits, and unexpected runtime errors. Positioned as both a diagnostic benchmark and an interactive foundation for agentic RL.",
+      "one_liner": "手机 agent 评测补上 planner/工具层空白：13 域 212 工具有状态沙箱，frontier 模型在严格工具顺序下仍会崩",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1b48dfef.md",
+      "images": [],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-28",
-  "total_entries": 2030
+  "total_entries": 2040
 }
