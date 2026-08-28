@@ -59953,8 +59953,232 @@
       "updated_date": null,
       "github_stars": 1547,
       "related": []
+    },
+    {
+      "id": "03afb25a",
+      "title": "TraceML: An Empirical Analysis of Human-Agent Planning in Machine Learning Development",
+      "url": "https://arxiv.org/abs/2608.26086",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jiarui Yan, Weiwei Sun, Sijie Li, Wenhan Li, Yiming Yang",
+        "original_date": "2026-08-26"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "benchmark",
+        "human-ai-collaboration",
+        "kaggle",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "把人和 agent 放进同一套 Kaggle 竞赛轨迹做版本级对比：134 个竞赛 4,465 条人类轨迹，其中 7 个竞赛同时由两类 agent 脚手架完成，得到 430 条配对人类轨迹与 207 条 agent 轨迹；每个代码版本都带分数时间戳和动作意图改动规模分数效果标签差距由此变得具体：专家在数据验证模型集成之间来回切换并重开放弃过的方案，而 Codex 反复调集成权重MLEvolve 原地改模型，都不按人类频率换方向从人类实践蒸馏的规划提示词能把被点名的行为拉向人类画像并提分，但整体努力画像仍是 agent 形状指令只关掉可指令化的那部分差距数据集schema标注器与抽取管线已开源",
+      "summary_en": "Pairs human and agent work on the same Kaggle competitions under one version-level schema: 4,465 human trajectories across 134 competitions, plus 430 paired human and 207 agent trajectories on seven competitions also worked by two agent scaffolds. Every code version carries score, timestamp, action, intent, edit size, and score effect. Experts alternate data work, validation, model changes, and ensembling, and reopen set-aside approaches; agent scaffolds collapse into narrow loops (Codex re-weights ensembles, MLEvolve mutates models in place) and rarely pivot. A planning prompt distilled from human practice shifts named behaviors toward the human profile and lifts scores, but the effort profile stays agent-shaped: instruction closes only the part of the gap that reduces to instructions.",
+      "one_liner": "TraceML 用 4,465 条人类 vs 207 条 agent 的版本级 Kaggle 轨迹证明：指令只能关掉人机差距里可指令化的部分",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/03afb25a.md",
+      "images": [],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b98e8ee7",
+      "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
+      "url": "https://arxiv.org/abs/2608.26081",
+      "source": {
+        "platform": "arxiv",
+        "author": "Subhadeep Pal, Fiona Y. Wang, Markus J. Buehler",
+        "original_date": "2026-08-26"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "emergence",
+        "stigmergy",
+        "collective-intelligence",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "初始同质的 LLM agent 在 SwarmWorld 中不分配角色不给配方，自组织成演化的技术社会：探索空间环境加工资源测试材料建造持久工件并编写可执行控制器，控制器在 agent 全部撤场后由确定性模拟器在未见扰动下评审共享社会发展出比强 best-of-N 独立搜索更宽更抗扰的技术组合，但最强单件工件上独立搜索仍有竞争力分工自发涌现为探索建造维护协调四种行为；技术通过协作建造可执行继承与持久的 agent-工件网络积累，且复用多从物理观察而非通信开始；显式文化机制放大协作，但收益取决于结果与时间尺度",
+      "summary_en": "Initially homogeneous LLM agents self-organize, without assigned roles or recipes, into evolving technological societies in SwarmWorld: they explore a spatial environment, process resources, test materials, build persistent artifacts, and write executable controllers judged by a deterministic simulator under unseen disturbances after the agents are removed. Shared societies develop broader, more resilient technological portfolios than a strong best-of-N isolated-search baseline, while isolated search stays competitive for the strongest single artifact. Agents differentiate into exploration, construction, maintenance, and coordination behaviors; technologies accumulate via collaborative construction, executable inheritance, and persistent agent-artifact networks, with most reuse starting through physical observation rather than communication.",
+      "one_liner": "SwarmWorld 里无角色 LLM agent 自组织成技术社会，共享搜索的组合韧性超过 best-of-N，复用多从观察开始",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b98e8ee7.md",
+      "images": [],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "502d0745",
+      "title": "A Self-Evolving Multi-Agent Framework Defense against LLM Jailbreak Attacks",
+      "url": "https://arxiv.org/abs/2608.26008",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tongyan Hu, Bryan Hooi",
+        "original_date": "2026-08-26"
+      },
+      "category": "agents",
+      "tags": [
+        "safety",
+        "jailbreak",
+        "multi-agent",
+        "memory",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "提出围绕持久跨交互规则记忆的自进化测试时防御：攻击得手时，框架把失败抽象为捕获结构性攻击包装（而非有害话题）的方法级规则并在后续输入复用；因为规则是方法级的，一条规则即可泛化整个攻击家族，标签空间随新包装出现而扩展机制完全依赖外部记忆与提示，不改参数，同时适用于开源权重与黑盒 API 模型在四类黑盒越狱家族与多个模型上大幅降低攻击成功率保住良性效用，在自适应复合包装攻击下保持稳健，且随记忆增长不推高过度拒答",
+      "summary_en": "A self-evolving test-time defense built on a persistent, cross-interaction rule memory: when a jailbreak succeeds, the framework abstracts the failure into a method-level rule capturing the structural attack wrapper rather than the harmful topic, then reuses it against future inputs. One induced rule generalizes across an entire attack family, and the label space expands as novel wrappers appear. The mechanism runs entirely through external memory and prompting with no parameter updates, applying to open-weight and black-box API models. Across four black-box jailbreak families and multiple models it substantially reduces attack success rates while preserving benign utility, stays robust under an adaptive composite-wrapper attack, and does not increase over-refusal as memory grows.",
+      "one_liner": "把越狱失败抽象成方法级规则存入跨交互记忆，免参数更新的自进化防御一条规则挡掉一整个攻击家族",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/502d0745.md",
+      "images": [],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cf678d0e",
+      "title": "Prefix Sliding for efficient test-time scaling",
+      "url": "https://arxiv.org/abs/2608.26070",
+      "source": {
+        "platform": "arxiv",
+        "author": "Niklas Muennighoff, Zhengyang Wang, Zeyi Chen, et al.",
+        "original_date": "2026-08-26"
+      },
+      "category": "models",
+      "tags": [
+        "test-time-scaling",
+        "efficiency",
+        "long-context",
+        "reasoning",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "发现推理过程中大部分中间 token 随推理推进失去重要性，据此提出 Prefix Sliding：推理时丢弃既不属于前缀（关键指令与工具）也不属于最近几千 token 窗口的中间 token，把内存上限与推理长度解耦，实现高效长程测试时扩展免训练即可让现有模型提速 3 倍且性能不掉；配合强化学习训练则能把推理轨迹扩展到 10 万 token 以上并取得更好成绩，消融显示优于摘要中间 token 与普通滑窗",
+      "summary_en": "Finds that most intermediate reasoning tokens lose importance as a model continues reasoning, and proposes Prefix Sliding: during reasoning, discard tokens outside the prefix (key instructions and tools) and the window of the last few thousand tokens. This caps total memory regardless of reasoning length, enabling efficient long-horizon test-time scaling. Without training it makes existing models 3x faster while maintaining performance; training with Prefix Sliding via reinforcement learning scales to reasoning traces beyond a hundred thousand tokens and achieves better performance. Ablations show it outperforms summarizing intermediate tokens or vanilla sliding windows.",
+      "one_liner": "Prefix Sliding 丢掉推理中失去重要性的中间 token，免训练 3 倍提速，RL 训练可扩到 10 万 token 轨迹",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cf678d0e.md",
+      "images": [],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "193d45c0",
+      "title": "Trace Integrity for LLM Data Agents: A Vision for Auditable Structured Reasoning in Real-World Systems",
+      "url": "https://arxiv.org/abs/2608.26036",
+      "source": {
+        "platform": "arxiv",
+        "author": "Srimonti Dutta, Akshata Kishore Moharir",
+        "original_date": "2026-08-26"
+      },
+      "category": "agents",
+      "tags": [
+        "evaluation",
+        "agents",
+        "text-to-sql",
+        "reliability",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "主张答案准确率不足以作为 LLM 数据 agent 的可靠性信号：结构化数据任务里基准正确的答案可能出自无效计算轨迹提出 Trace Integrity 判据（显式可执行schema 合法算子忠实可重放答案一致可审计）与执行契约（把用户意图绑定到 schema算子计划查询与验证状态），并给出 CAIT（正确答案/无效轨迹）率BIRD Mini-Dev 上 Direct SQLOperation Summary+SQLContract-First SQL 答案准确率 20%/22%/24%，轨迹完整通过率 39%/43%/40%，CAIT 率高达 55%/59.1%/45.8%准确率轨迹有效性与静默失败风险是三种不同信号",
+      "summary_en": "Argues answer accuracy is an insufficient reliability signal for LLM data agents: on structured-data tasks a benchmark-correct answer can come from an invalid trace. Defines Trace Integrity (explicit, executable, schema-valid, operator-faithful, replayable, answer-consistent, auditable computation), operationalized via execution contracts binding user intent to schema elements, operator plans, queries, and verification status, plus CAIT (Correct Answer / Invalid Trace) Rate. On BIRD Mini-Dev, Direct SQL, Operation Summary+SQL, and Contract-First SQL reach 20%/22%/24% answer accuracy but 39%/43%/40% trace-integrity pass rates and 55%/59.1%/45.8% CAIT rates: answer accuracy, trace validity, and silent-failure risk are distinct evaluation signals.",
+      "one_liner": "CAIT 率显示 BIRD 上近半到六成答对背后是无效轨迹：答案准确轨迹有效静默失败是三种信号",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/193d45c0.md",
+      "images": [],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d7d04200",
+      "title": "PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans",
+      "url": "https://arxiv.org/abs/2608.26091",
+      "source": {
+        "platform": "arxiv",
+        "author": "Nabaraj Subedi, Shuvo Dip Datta, Ahmed Abdelaty, et al.",
+        "original_date": "2026-08-26"
+      },
+      "category": "models",
+      "tags": [
+        "rag",
+        "multimodal",
+        "vision-language",
+        "retrieval",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "面向土木标准图合规审查的视觉优先多模态 RAG：直接在图纸图像上索引与推理，用 ColNomic-3B 多向量检索加 Planner-Retriever-Auditor-Synthesizer 智能体回路，MaxSim 热图作证据链；并发布来自五个州 DOT 标准图（1,898 页）的 4,056 对基准零样本检索 Recall@5 91.47%，held-out 密歇根 DOT 语料 91.40%；合成合规图上 Qwen2.5-VL-72B 管线仅在给定预解析规则阈值时达到 100% 判定准确率（非 VLM 的 OCR 基线 76.4%），还能从规范语料自动抽取数值限值而无需人工规则",
+      "summary_en": "A visual-first multimodal RAG for civil-infrastructure plan compliance: indexes and reasons directly over plan imagery with ColNomic-3B multi-vector retrieval, an agentic Planner-Retriever-Auditor-Synthesizer loop, and MaxSim heatmaps as an evidence trail. Introduces a 4,056-pair benchmark from five state DOT standard plans (1,898 pages); achieves 91.47% Recall@5 zero-shot retrieval and 91.40% on a held-out Michigan DOT corpus. On synthetic parametric compliance drawings a Qwen2.5-VL-72B pipeline reaches 100% verdict accuracy only when given a pre-resolved rule threshold (non-VLM OCR baseline: 76.4%), and demonstrates autonomous rule grounding by extracting numeric limits from a specification corpus without human-supplied rules.",
+      "one_liner": "PlanSightRAG 直接在图纸上做多模态 RAG，DOT 标准图基准零样本 Recall@5 91.47%，无需人工规则即可抽限值",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/d7d04200.md",
+      "images": [],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cdcae07c",
+      "title": "Beyond Local Surprise: Grounded Dialogue as Selective Belief Revision under Referential Uncertainty",
+      "url": "https://arxiv.org/abs/2608.26035",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ziming Liu, Bhanu Chaitanya Jasti, Ziyang Xu, et al.",
+        "original_date": "2026-08-26"
+      },
+      "category": "learning",
+      "tags": [
+        "dialogue",
+        "grounding",
+        "belief-revision",
+        "information-seeking",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "在受控框架下研究对话逐轮的保留/修订决策，四种理论驱动的修订策略在同条件下对比：只按局部失配更新的策略反应强烈但破坏接地板并拖垮检索；在失配之上叠加累积证据的不确定性敏感策略既能保持理解一致又有强检索反直觉的赢家模式与概念契约理论一致：局部失配促使保留，累积不确定性才促使修订",
+      "summary_en": "A controlled, data-driven framework for turn-by-turn preserve/revise decisions in grounded dialogue, comparing four theory-driven revision policies under otherwise identical conditions. A mismatch-driven policy that updates solely on local divergence reacts strongly to mismatch but destabilizes grounding and degrades retrieval; an uncertainty-sensitive policy extending mismatch-based updating with accumulated evidence preserves coherent understanding with strong retrieval. The winning pattern is counterintuitive: local mismatch promotes preservation while accumulated uncertainty promotes revision, consistent with conceptual pact theory.",
+      "one_liner": "对话理解靠局部失配促保留累积不确定性促修订的保守策略取胜：与概念契约理论一致",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/cdcae07c.md",
+      "images": [],
+      "added_date": "2026-08-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-27",
-  "total_entries": 2023
+  "last_updated": "2026-08-28",
+  "total_entries": 2030
 }
