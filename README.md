@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
+- [dotey 解读 Warp 自进化 Skill：从自身反编译/写作 Skill 实践看六条工程原则](https://x.com/dotey/status/2093538110311178430) ⭐4 · 2026-08-29 — Warp 自进化 Skill 实战解读：改进 Skill 吃 PR 评论自动进化审查 Skill，反馈零摩擦+禁止盲采反馈是能否跑起来的关键
+- [What GLM-5.3 Flash running on Chinese hardware actually means](https://martinalderson.com/posts/glm-5-3-flash-chinese-hardware) ⭐4 · 2026-08-29 — GLM-5.3 Flash 国产芯片拆解：910c 每 token 每瓦落后约 5 倍，EUV 不破 2030 前难量产工程能力而非战略突破
+- [Google DeepMind Podcast #8: Zoubin Ghahramani 谈 AI 不确定性的数学](https://x.com/Xudong07452910/status/2093520192072536209) ⭐4 · 2026-08-29 — Zoubin 谈 AI 不确定性：LLM 缺的不是概率是稳定的信念状态，GenCast/AlphaFold 已示范承认不确定性的工程范式
+- [5 lessons from the OpenAI / Hugging Face incident](https://garymarcus.substack.com/p/5-lessons-from-the-openai-hugging) ⭐4 · 2026-08-29 — OpenAI/HF 事件五课：护栏是评估时自己关的，CoT 监控在跑就能提前一天告警，sandbox 未死但单靠不够
+- [AgentsView：把本地 coding agent 历史会话统一索引，Session Handoff 跨 Agent 接续](https://x.com/LinearUncle/status/2093530915037487313) ⭐3 · 2026-08-29 — AgentsView 统一索引本地 coding agent 会话：删了还能查，Session Handoff 让 Claude Code 写一半 Codex 接着写
+- [Claude Code v2.1.251: model-switch hooks, /cost prompt-cache line, symlink path-escape fixes](https://github.com/anthropics/claude-code/releases/tag/v2.1.251) ⭐4 · 2026-08-28 — Claude Code 2.1.251：换模型钩子+/cost 缓存行补可观测，一次修掉 symlink TOCTOUdeny 旁路等一簇路径越权
+- [Andrew Ng: AI Engineering Skills Map Software engineering fundamentals](https://x.com/AndrewYNg/status/2093388974194872781) ⭐4 · 2026-08-28 — Andrew Ng 五块 AI 工程基础图：vibe coding 翻车不是 Agent 弱，是开发者不知道 tradeoff 存在没法 steer
 - [An open letter for a global surge in cyber defense](https://x.com/gdb/status/2093021551855812842) ⭐5 · 2026-08-27 — 100+ 家 AI 厂商与云厂商联名承认攻击窗口已开：防御方第一次由能力方自己按铃，含金量在签名名单而不在信本身
-- [Why do OpenAI's GPT-2 weights beat mine? Part four: digging into dropout](https://www.gilesthomas.com/2026/08/why-do-openai-gpt2-weights-beat-mine-4-ift-dropout) ⭐4 · 2026-08-27 — IFT 显著劣化的一个隐藏旋钮找到了：预训练没 dropout 的权重在 fine-tune 强开 dropout 会崩（21.55.3），配方可迁移
-- [US judge blocks Pentagon's Anthropic blacklisting](https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28) ⭐4 · 2026-08-27 — 空洞援引国家安全不是空白支票：AI 厂商拒绝军用化的合同边界第一次拿到司法背书，行业政策面里程碑
-- [Sandboxing coding agents](https://micahflee.com/sandboxing-coding-agents) ⭐4 · 2026-08-27 — agent 沙箱的最小可行实现：专用 signing key + 隔离 ssh-agent + sbx，能签 commit 却碰不到你其余仓库
-- [Breaking Claude Code Opus 5 Auto Mode](https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode) ⭐4 · 2026-08-27 — auto mode 被 80% 命中率打穿还拦下自救命令：分类器防御的天花板就在这，沙箱+最小权限才是底线配置
 - [WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution](https://arxiv.org/abs/2608.27454) ⭐4 · 2026-08-27 — WikiSkill：技能演化配持久知识库，小模型带技能可反超更大裸模型，技能跨模型家族可迁移
 - [SWE-Prime: Fewer Trajectories, Better Performance](https://arxiv.org/abs/2608.27449) ⭐4 · 2026-08-27 — SWE-Prime：两段式轨迹+语义段筛选，10% 成功轨迹子集 SFT 反超全量数据，SWE-Bench Verified 相对增益 24.2%
-- [RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution](https://arxiv.org/abs/2608.27439) ⭐4 · 2026-08-27 — RedEvoAgent：把攻击轨迹蒸馏成可读攻击技能的黑盒红队智能体，验证棘轮只留有效更新，可跨执行环境迁移
-- [Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Au...](https://arxiv.org/abs/2608.27427) ⭐4 · 2026-08-27 — PES 架构模式：人格域与执行域分离+契约桥，让智能体人格自由漂移而执行保持被审计；附数字员工平台案例
-- [GLM-5.3 is now open-weight](https://huggingface.co/zai-org/GLM-5.3) ⭐4 · 2026-08-27 — GLM-5.3 开放权重：同底座纯后训练，编程大幅提升，官方明示涌现网络攻防能力（ExploitBench 翻倍）
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 269 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 324 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 178 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 81 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 108 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 模型与实验室 | 271 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 325 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 181 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 82 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 109 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 80 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 137 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 2047
-- 公开展示卡片: 1177
-- 有全文内容: 1084
-- 最近 7 天信号: 176
+- 原始条目: 2055
+- 公开展示卡片: 1185
+- 有全文内容: 1099
+- 最近 7 天信号: 147
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `evaluation`, `openai`, `anthropic`, `multi-agent`, `agents`, `security`, `agent-memory`, `claude-code`, `google`, `coding-agent`, `agent-security`, `open-source`, `coding-agents`, `llm`, `llm-agents`, `mcp`
+`arxiv`, `benchmark`, `evaluation`, `openai`, `anthropic`, `security`, `multi-agent`, `agents`, `claude-code`, `agent-memory`, `google`, `agent-security`, `open-source`, `coding-agent`, `coding-agents`, `llm`, `llm-agents`, `mcp`
 
 ## 自动化约定
 
