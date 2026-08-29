@@ -60510,8 +60510,229 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "c07cfbc0",
+      "title": "WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution",
+      "url": "https://arxiv.org/abs/2608.27454",
+      "source": {
+        "platform": "arxiv",
+        "author": "Liyan Tang, et al.",
+        "original_date": "2026-08-27"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "skill-evolution",
+        "experience-reuse",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "WikiSkill 把智能体技能演化与持久知识库（wiki）共同演化：将原始执行经验积累知识与可执行技能三者分离，持续把经验沉淀进 wiki，后续技能更新在其之上构建；在多基准多模型上一致超越 SOTA 技能演化方法两个关键发现：技能演化与模型规模互补大模型从演化技能中获益更多，而小模型带技能可反超显著更大的裸模型；演化出的技能可跨模型跨模型家族迁移，他模型演化出的技能甚至可优于自演化技能消融证明 wiki 的持久知识积累是技能演化有效性的关键",
+      "summary_en": "Agent skills package specialized knowledge and workflows into reusable resources that extend AI agent capabilities. Recent work automatically discovers such skills from agent experience, which enables agents to progressively adapt through interaction. However, the insights that guide skill development typically remain scattered across optimization histories, limiting their systematic reuse across iterations. We introduce WikiSkill, a framework that co-evolves agent skills with a persistent knowledge base (wiki). At a high level, WikiSkill separates raw execution experience, accumulated knowledge, and executable skills, while continuously consolidating experience into the wiki, which subsequent skill updates can build on....",
+      "one_liner": "WikiSkill：技能演化配持久知识库，小模型带技能可反超更大裸模型，技能跨模型家族可迁移",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c07cfbc0.md",
+      "images": [],
+      "added_date": "2026-08-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f0ca5c22",
+      "title": "RedEvoAgent: Automatic Red-Teaming Agent with Experience-Driven Skill Evolution",
+      "url": "https://arxiv.org/abs/2608.27439",
+      "source": {
+        "platform": "arxiv",
+        "author": "Junjie Zhang, et al.",
+        "original_date": "2026-08-27"
+      },
+      "category": "learning",
+      "tags": [
+        "security",
+        "red-teaming",
+        "agents",
+        "jailbreak",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "RedEvoAgent 针对产品级执行环境中的 LLM 智能体：越狱可触发有害工具调用与持久状态变更，风险高于不安全文本生成它是黑盒红队智能体，把跨案例攻击轨迹蒸馏成简洁人类可读的攻击技能，通过工具效果画像与 Deciding-Tool Attribution 做技能更新，并用验证棘轮（validation ratchet）只保留提升验证集表现的更新；克服轨迹检索的检索偏置与工具归因不清问题在多基准多目标模型与多执行环境上超越固定与智能体基线，提升工具效率并可跨攻击模型与目标执行环境迁移",
+      "summary_en": "LLM-based agents are increasingly deployed in product-level execution harnesses, where jailbreaks can trigger harmful tool use and persistent state changes, creating greater risks than unsafe text generation alone. Existing automatic red-teaming methods often rely on fixed attacks, while recent agentic attackers coordinate multiple jailbreak tools and show stronger potential through trajectory-based retrieval. However, such retrieval can reuse misleading experiences due to retrieval bias and unclear tool credit, and full trajectories add context overhead while reducing interpretability. We propose RedEvoAgent, a black-box red-teaming agent that distills cross-case attack trajectories into a concise, human-readable attack skill....",
+      "one_liner": "RedEvoAgent：把攻击轨迹蒸馏成可读攻击技能的黑盒红队智能体，验证棘轮只留有效更新，可跨执行环境迁移",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f0ca5c22.md",
+      "images": [],
+      "added_date": "2026-08-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a9ce70f4",
+      "title": "From Static to Dynamic: Benchmarking Real-World Code Review with MCR-Bench",
+      "url": "https://arxiv.org/abs/2608.27442",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dewu Zheng, et al.",
+        "original_date": "2026-08-27"
+      },
+      "category": "coding",
+      "tags": [
+        "coding",
+        "code-review",
+        "benchmark",
+        "evaluation",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "MCR-Bench：首个缺陷状态感知的多轮真实代码评审基准（ISSTA 2026），覆盖 5 种常用语言2,269 个真实多轮评审任务，每个任务带细粒度缺陷元数据（描述/类型/严重度）与跨轮状态标签，刻画缺陷在多轮过程中的完整演化轨迹主流 LLM 实验三点发现：总体能力有限，缺陷检测与缺陷生命周期状态追踪随交互轮数增加显著退化；性能因缺陷类型与严重度大幅波动，语义复杂或低显著度缺陷更易漏检；错误机制剖析揭示跨轮时间错位与长程记忆不足分别是假阳/假阴的关键驱动",
+      "summary_en": "In real-world software development, code review typically involves iterative interactions between developers and reviewers to improve software quality, making the process costly and time-consuming. Although recent work explores large language models (LLMs) for automated code review, most approaches oversimplify code review into a single-round, static decision task, which fails to capture the multi-round interactive nature and the complex problem-solving processes inherent in realistic review scenarios. To bridge this gap, we introduce MCR-Bench, the first defect state-aware benchmark designed for realistic multi-round code review. MCR-Bench covers five commonly-used programming languages and consists of 2,269 real-world multi-round code review tasks, each of which is annotated with fine-grained defect information and cross-round state labels....",
+      "one_liner": "MCR-Bench：2,269 个多轮真实代码评审任务，LLM 缺陷状态追踪随轮数显著退化，跨轮时间错位是假阳关键驱动",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a9ce70f4.md",
+      "images": [],
+      "added_date": "2026-08-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4eb766bf",
+      "title": "SWE-Prime: Fewer Trajectories, Better Performance",
+      "url": "https://arxiv.org/abs/2608.27449",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dewu Zheng, et al.",
+        "original_date": "2026-08-27"
+      },
+      "category": "coding",
+      "tags": [
+        "coding",
+        "fine-tuning",
+        "data-selection",
+        "swe-bench",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "SWE-Prime：任务成功不等于高质量监督成功轨迹仍可能含无效冗余或高风险步骤，直接 SFT 会引入噪声监督并诱导模型模仿不良解题行为它提出多粒度两阶段 SFT 数据筛选：轨迹级按过程质量结果质量与代表性筛选；段级把连续步骤聚成语义段，按对最终解的贡献可学习性与潜在风险评估；SFT 时所有段保留在序列中以维持上下文，仅被选中的段计入损失SWE-Bench Pro 与 SWE-Bench Verified 上，用其选出的 10% 轨迹子集训练即超越全量已解决数据集，相对增益最高 12.2% 与 24.2%",
+      "summary_en": "To improve large language models' ability to resolve real-world software issues, prior work has focused on constructing large-scale agent trajectory datasets and performing supervised fine-tuning (SFT) on successful trajectories. However, task success does not guarantee high-quality supervision: successful trajectories may still contain ineffective, redundant, or risky steps. Directly using such trajectories for SFT can introduce noisy supervision and encourage models to imitate undesirable problem-solving behaviors. Therefore, we propose SWE-Prime, a multi-granularity, two-stage SFT data selection method that progressively filters training data at the trajectory and segment levels....",
+      "one_liner": "SWE-Prime：两段式轨迹+语义段筛选，10% 成功轨迹子集 SFT 反超全量数据，SWE-Bench Verified 相对增益 24.2%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4eb766bf.md",
+      "images": [],
+      "added_date": "2026-08-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ea4fa68e",
+      "title": "Persona-Execution Separation: An Architecture Pattern for Evolving LLM Agents under Execution Audit",
+      "url": "https://arxiv.org/abs/2608.27427",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yisen Xi",
+        "original_date": "2026-08-27"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "architecture",
+        "audit",
+        "dlp",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Persona-Execution Separation（PES）：受治理组织中的 LLM 智能体需要人格（指令/语气/自我呈现）自由演化，同时执行（有状态被审计的工作）保持可追溯单一信任域无法廉价兼得PES 把人格与执行放进不同信任域，用受治理的契约桥连接：人格单宿且可漂移；执行无面孔且被审计；状态摘要可返回，数据体留在限制域（分级 DLP 例外除外），身份保持连续；审批矩阵DLP 与审计约束跨越论文给出代表性不可区分性下的论证：满足自由漂移+执行可追溯+解耦三目标的任何单域机制都会重新引入类型化变更对象外部门与稳定审计锚点附 36 页受监管数字员工平台的开发/试点案例（一个月五项决策各带被否备选），机制检查发现人格扰动下执行侧无重校验等缺口",
+      "summary_en": "Large language model (LLM) agents in governed organizations must let the persona (instructions, tone, self-presentation) evolve freely, while keeping execution (stateful, audited work) traceable. A single trust domain does not satisfy both cheaply. We present Persona-Execution Separation (PES): persona and execution reside in different trust domains, connected by a governed contract bridge. The persona is singly-homed and may drift; execution is faceless and audited. Status summaries may return; data bodies remain in the restrictive domain except a graded data-loss-prevention (DLP) exception; identity stays continuous. An approval matrix, DLP, and audit enforce the crossing. PES follows from three goals---free drift, execution traceability, and decoupling....",
+      "one_liner": "PES 架构模式：人格域与执行域分离+契约桥，让智能体人格自由漂移而执行保持被审计；附数字员工平台案例",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ea4fa68e.md",
+      "images": [],
+      "added_date": "2026-08-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a51ad146",
+      "title": "GLM-5.3 is now open-weight",
+      "url": "https://huggingface.co/zai-org/GLM-5.3",
+      "source": {
+        "platform": "github",
+        "author": "zai-org",
+        "original_date": "2026-08-27"
+      },
+      "category": "models",
+      "tags": [
+        "open-weights",
+        "coding",
+        "benchmark",
+        "release"
+      ],
+      "source_type": "product",
+      "language": "both",
+      "summary_zh": "智谱/Z.ai 将 GLM-5.3 开放权重（HF: zai-org/GLM-5.3）与 GLM-5.2 共用同一底座，全部增益来自后训练：自研 Z.ai Code Bench 提升 50%，Terminal Bench 3.0 开源 SOTA（28.3，GLM-5.2 仅 4.6），Agents' Last Exam 28.5模型卡明示后训练规模化带来涌现网络攻防能力：CyberGym 漏洞发现 SOTA（84.5），利用链基准较 GLM-5.2 翻倍以上（ExploitBench 54.4 vs 24.4，ExploitGym 2h/6h 105/130 vs 29/39）支持 SGLang/vLLM/Transformers 等部署，reasoning_effort 支持 low/high/max 三档默认 max",
+      "summary_en": "Zhipu/Z.ai released GLM-5.3 as open weights on Hugging Face. It uses the same base model as GLM-5.2 with all gains from post-training: +50% on the in-house Z.ai Code Bench, open-source SOTA on Terminal Bench 3.0 (28.3 vs 4.6 for GLM-5.2) and Agents' Last Exam (28.5 ALE-CLI). The model card explicitly flags emergent cyber capability from scaled post-training: SOTA on CyberGym vulnerability discovery (84.5) and more than double GLM-5.2 on exploitation benchmarks (ExploitBench 54.4 vs 24.4; ExploitGym 105/130 vs 29/39 at 2h/6h). Serves via SGLang/vLLM/Transformers/KTransformers; reasoning_effort accepts low/high/max (default max).",
+      "one_liner": "GLM-5.3 开放权重：同底座纯后训练，编程大幅提升，官方明示涌现网络攻防能力（ExploitBench 翻倍）",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a51ad146.md",
+      "images": [],
+      "added_date": "2026-08-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f609f1af",
+      "title": "Small Models Have Arrived",
+      "url": "https://calv.info/small-models-have-arrived",
+      "source": {
+        "platform": "blog",
+        "author": "Calvin French-Owen",
+        "original_date": "2026-08-26"
+      },
+      "category": "industry",
+      "tags": [
+        "small-models",
+        "cost",
+        "industry",
+        "inference"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Segment 联创 Calvin French-Owen 认为小快模型已过实用门槛：gpt-5.6-luna 约 100 tps，跑复杂研究线程仅数十美分，搜几千封邮件也不贵；个性化每日新闻微站评测从 Sonnet 级的约 $1 降到约 $0.10，消费级 AI 定价首次跑得通（此前 $30/月订阅难覆盖推理成本）；GLM-5.3 则在帕累托前沿补上新选项他区分两类工作：需前沿模型的 IQ 180 突破型工作（需求会持续复利）与占忙碌创始人约 95% 时间的 token spewer 推进型工作，后者正是快/便宜/够用模型的主场；但企业落地还需新 harness提示注入防护角色与权限体系",
+      "summary_en": "Calvin French-Owen (Segment co-founder) argues small fast models have crossed a usefulness threshold. Running complex research threads on gpt-5.6-luna at ~100 tps costs tens of cents even searching thousands of emails; a personalized daily-news micro-site eval that cost ~$1 with Sonnet-class models now runs ~$0.10, making consumer AI price points viable (previously untenable at $30/mo subscriptions). With GLM-5.3 there is a new option at the Pareto frontier. He distinguishes 'IQ 180' breakthrough work (demand for frontier models keeps compounding) from 'token spewer' work ~95% of a busy founder's day, which fast/cheap/good-enough models can absorb; enabling this for business still needs new harnesses, prompt-injection safety, roles and permissions.",
+      "one_liner": "小快模型已过实用门槛：个性化新闻站推理成本 $1 降到 $0.1，企业 95% 推进型工作是它们的主场",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f609f1af.md",
+      "images": [],
+      "added_date": "2026-08-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-28",
-  "total_entries": 2040
+  "last_updated": "2026-08-29",
+  "total_entries": 2047
 }
