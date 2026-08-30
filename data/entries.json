@@ -61246,8 +61246,169 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "de87b052",
+      "title": "You have to beat the models at something",
+      "url": "https://seangoedecke.com/you-have-to-beat-the-models-at-something",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "llm",
+        "coding-agents",
+        "code-review",
+        "technical-communication",
+        "career"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "作者用替代价值框架讨论哪些工程能力在 LLM 时代仍然保值：写代码成本已塌缩到每月一百美元，退守更难的工程领域不可持续，因为前沿在移动真正难被替代的是两件事一是对代码库的深度熟悉coding agent 的典型错误早已不是幻觉，而是无知（不知道已有模块改错系统）与偏执（三重冗余检查给本该直接崩溃的 CLI 加兜底降级），只有熟悉系统的人能自信地反驳 agent；AI 互审反而放大问题，因为模型间倾向犯同构错误，批评型 agent 只会产出万字偏执 slop二是技术表达好写作不是可验证领域，RLHF 评分催生堆砌辞藻的风格，实验室又 all-in 推理能力，内部 CoT 的怪异压缩语言外溢成 Claudish，而翻译它恰恰需要技术理解结论：别当肉代理，要把专业变成模型填不上的缺口",
+      "summary_en": "Writing code now costs a hundred bucks a month, and retreating to harder engineering domains is not durable since the frontier keeps moving. Two skills stay valuable: deep familiarity with the codebase, because coding agents fail through ignorance (missing existing modules, wrong subsystem) and paranoia (redundant checks, needless fallbacks) rather than hallucination, and only system-familiar humans can confidently overrule them; and technical communication, because good writing is not a verifiable domain, RLHF rewards ornamental style, and labs optimize capability over clarity, leaking compressed CoT dialects like Claudish. Don't be a meat proxy.",
+      "one_liner": "一线操作者视角的 LLM 时代生存判断：agent 的失败模式是无知与偏执两类，工程师的护城河是对代码库的深熟悉加技术表达，AI 互审只会放大偏执 slop",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/de87b052.md",
+      "images": [],
+      "added_date": "2026-08-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3db8f279",
+      "title": "Bazel Module Versions Aren't SemVer",
+      "url": "https://nesbitt.io/2026/08/27/bazel-module-versions-arent-semver.html",
+      "source": {
+        "platform": "blog",
+        "author": "Andrew Nesbitt",
+        "original_date": "2026-08-27"
+      },
+      "category": "infra",
+      "tags": [
+        "bazel",
+        "bzlmod",
+        "semver",
+        "versioning",
+        "dependency-management",
+        "mvs"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "packages.ecosyste.ms 把 Bazel Central Registry 上 protobuf 最新版显示成四年前的 3.19.6，根因是用严格 SemVer 解析器统一过滤所有生态：protobuf 自 2022 年去掉 3. 前缀后是两段的 36.0，.bcr.1 补丁是五段含字母，全部解析失败被当不稳定版本文章拆解 bzlmod 的 Version.java 语法：release 段数任意段内可含字母，按 SemVer 预发布规则逐段比较；.bcr.N 是注册表补丁约定36.0 因 macOS 工具链完整性问题被 yank 后，修复版以追加段而非 +build 发布，为的是在 Minimal Version Selection 下严格大于 36.0，否则所有人被钉死在坏版本+build 元数据在解析期即被剥离，空字符串版本排最顶表示本地覆盖永远赢 MVSvers 跨生态规范尚未覆盖 Bazel，修复是把 Version.java 排序移植为 bazel scheme",
+      "summary_en": "packages.ecosyste.ms listed protobuf's latest Bazel Central Registry release as 3.19.6, four years stale, because a strict SemVer parser filtered versions across all ecosystems: 36.0 has two segments, 36.0.bcr.1 has five with letters. The post dissects bzlmod's Version.java grammar: any number of alphanumeric release segments compared with SemVer prerelease rules; the .bcr.N registry-rerelease convention (36.0 was yanked over a macOS toolchain integrity mismatch, and the fix shipped as extra release segments to sort strictly above 36.0 under Minimal Version Selection); +build metadata stripped at parse time; empty-string versions winning MVS as local overrides. The fix ports the sort into the vers libraries as a bazel scheme ahead of the spec.",
+      "one_liner": "一份跨生态依赖分析的教科书级复盘：SemVer 解析器套在 Bazel 版本语法上会把 protobuf 判成四年没更新，而 .bcr.N 后缀的排序设计直接关系 MVS 会不会把人钉死在坏版本",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3db8f279.md",
+      "images": [],
+      "added_date": "2026-08-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bf0f613e",
+      "title": "Introducing Hy4 Preview",
+      "url": "https://simonwillison.net/2026/Aug/29/hy4",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-08-29"
+      },
+      "category": "models",
+      "tags": [
+        "open-weights",
+        "tencent",
+        "moe",
+        "long-context",
+        "reasoning-models"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "腾讯发布开源权重 Hy4 Preview：770B 总参 / 49B 激活，1M token 上下文，Hugging Face 权重 1.56TB，纯文本输入无视觉；相比 7 月的 Hy3（295B 总参 / 21B 激活 / 256K 上下文 / 598GB）是全面放大作者读 chat_template.jinja 确认推理控制只有两档：reasoning_effort 取 high（默认）或 no_think，即开推理或关推理的二值设计用 OpenRouter 跑 pelican-SVG 测试，推理轨迹呈明显截断的英语（Maybe add water? no.），作者判断是隐藏推理文本的 token 效率取舍，与 Goedecke 描述的 Claudish 现象同源对跟踪国产开源 MoE 规模曲线与推理控制接口设计的人，这是难得的一次性规格核对",
+      "summary_en": "Tencent released open-weights Hy4 Preview: 770B total / 49B active parameters, 1M-token context, 1.56TB on Hugging Face, text-only input a big jump from July's Hy3 (295B total / 21B active / 256K context / 598GB). Reading chat_template.jinja shows exactly two reasoning_effort levels: high (default) and no_think. A pelican-SVG test via OpenRouter shows reasoning traces in slightly truncated English, likely a token-efficiency choice for hidden reasoning text echoing the Claudish phenomenon Sean Goedecke flagged.",
+      "one_liner": "770B/49B 激活加 1M 上下文的开源权重MoE，chat template 证实推理控制只有 high 与 no_think 两档；推理轨迹的截断英语是 token 效率取舍的又一例证",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/bf0f613e.md",
+      "images": [],
+      "added_date": "2026-08-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "92335694",
+      "title": "Premium: The Hater's Guide To Circular Financing (Part One)",
+      "url": "https://www.wheresyoured.at/premium-the-haters-guide-to-circular-financing-part-one",
+      "source": {
+        "platform": "blog",
+        "author": "Ed Zitron",
+        "original_date": "2026-08-28"
+      },
+      "category": "industry",
+      "tags": [
+        "nvidia",
+        "circular-financing",
+        "ai-economics",
+        "hyperscalers",
+        "neocloud"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Ed Zitron 循环融资系列第一部（付费长文，公开部分给出论点骨架与关键数字）：NVIDIA 超过 90% 营收来自数据中心硬件，其中 50-60% 卖给超大规模云厂商；其余主要靠 neocloud 与主权 AI 客户靠举债买 GPU 再租给理论上存在的 AI 客户的公司作者引 BofA 分析师称 neocloud/sovereign/on-premise 销售额已与超大规模云相当，但找不到与之匹配的真实主权需求证据（唯一点名是 SoftBank 在法国的 750 亿欧元投资计划）叠加刚宣布的 17% 涨价对 CoreWeave/OpenAI/Poolside/Perplexity 的投资-采购闭环，核心论点是 NVIDIA 最大客户在很大程度上由 NVIDIA 自己注资第二部将覆盖循环融资的历史先例判断 AI 资本开支可持续性的一手材料",
+      "summary_en": "Part one of Ed Zitron's circular-financing series (paywalled; the public section lays out the thesis and key numbers): over 90% of NVIDIA revenue comes from data-center hardware, 50-60% of GPU sales go to hyperscalers, and the rest leans on neoclouds and sovereign AI customers companies that raise debt to buy NVIDIA GPUs and rent them to theoretical AI customers. Citing a BofA analyst that neocloud/sovereign/on-premise sales now rival hyperscaler sales while hard evidence of sovereign demand remains thin, plus a freshly announced 17% price increase and investment-procurement loops into CoreWeave, OpenAI, Poolside and Perplexity, the thesis: NVIDIA's biggest customers are largely funded by NVIDIA. Part two covers historical precedents.",
+      "one_liner": "循环融资论点的一手框架：NVIDIA 九成营收来自数据中心，五到六成卖给超大规模云，其余靠举债买卡的 neocloud 撑着最大客户在很大程度上由 NVIDIA 自己出钱",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/92335694.md",
+      "images": [],
+      "added_date": "2026-08-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f4d09009",
+      "title": "Claude Code weekly limits: permanent +25% from September 14 (about -17% vs today)",
+      "url": "https://x.com/ClaudeDevs/status/2093742321473065266",
+      "source": {
+        "platform": "x",
+        "author": "ClaudeDevs (Anthropic)",
+        "original_date": "2026-08-29"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "rate-limits",
+        "anthropic",
+        "usage-policy",
+        "cost-management"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "@ClaudeDevs 08-29 宣布：9 月 14 日起 Claude Code Pro/Max/Team/按席位 Enterprise 的标准周限额永久上调 25%，此前 50% 临时提升继续有效；同线程下一条钉死参照系相对今天的临时额度，新常态约为 -17%（1.25/1.500.833）若临时提升到期且无任何永久加码则是 -33%：两个百分比同时成立，取决于对比基线官方未给出各档每周绝对 token 数，非按席位计价的企业档是否适用同规则原文未写对重度用户，9/14 是按新百分比重排一周重任务容量的节点；同周发布的 /cost prompt-cache 行与 /usage 按 loop 拆分属于可见性改进，看清池子怎么漏，不改变池子高度",
+      "summary_en": "@ClaudeDevs announced on 2026-08-29 that from September 14, Claude Code standard weekly limits rise permanently by 25% for Pro, Max, Team, and seat-based Enterprise plans; until then the current 50% temporary boost stays in place. The follow-up post pins the frame: vs today's boosted limits this is about a 17% reduction (1.25/1.50 = 0.833); had the temporary boost expired with no permanent raise it would be -33%. Both numbers are true against different baselines. No absolute per-plan token figures were given, and non-seat enterprise terms are unspecified.",
+      "one_liner": "官方两句连读才是完整信息：对旧标准基线是永久 +25%，相对当前 +50% 临时池实为 -17%；重度用户应在 9/14 前按新百分比重估一周能塞进多少重任务",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/f4d09009.md",
+      "images": [],
+      "added_date": "2026-08-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-30",
-  "total_entries": 2063
+  "total_entries": 2068
 }
