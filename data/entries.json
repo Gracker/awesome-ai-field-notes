@@ -60990,8 +60990,264 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "6fe71d0c",
+      "title": "When Context Gets Root: Privilege Escalation in LLM Harnesses",
+      "url": "https://arxiv.org/abs/2608.27299",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xingbang He, Yuanwei Chen, Yi Qian, Haiyang Wei, Ligeng Chen, Zenan Fu, Linzhang Wang, Hao Wu, Bing...",
+        "original_date": "2026-08-27"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "instruction-hierarchy",
+        "privilege-escalation",
+        "coding-agents",
+        "harness"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "提出 instruction privilege escalation：agent harness 每次调用模型时构造上下文，可能把低权限内容抬升到更高 instruction level，让模型执行原本会拒绝的指令作者用多 agent 机制在 6 个编码 agent harness 上实现 13 个攻击目标，覆盖机密性完整性可用性与远程代码执行： unrestricted 执行下全部 13 目标在全部 6 个 harness 得手，自动权限审查模式下 3 个提供该模式的 harness 也全部失守；还用 harness 自带的 persistent goals 与 scheduled tasks 复现了漏洞对做 coding agent 权限模型的团队，这是一篇必须对照自查的威胁模型论文",
+      "summary_en": "Introduces instruction privilege escalation: agent harnesses construct context per model invocation and can elevate low-level content to a higher instruction level, causing agents to execute instructions they would reject at their original level. Using multi-agent mechanisms, the authors achieve 13 attack objectives across six coding-agent harnesses spanning confidentiality, integrity, availability, and remote code execution. Attacks succeed on all harnesses under unrestricted execution and on all three harnesses offering automatic permission review; the vulnerability also reproduces via harness-provided persistent goals and scheduled tasks.",
+      "one_liner": "提出 instruction privilege escalation：agent harness 每次调用模型时构造上下文，可能把低权限内容抬升到更高 instruction level...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/6fe71d0c.md",
+      "images": [],
+      "added_date": "2026-08-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9f1fa61f",
+      "title": "SPA: Securing Persistent LLM Agents Across Queries with Plan-First Information-Flow Control",
+      "url": "https://arxiv.org/abs/2608.27234",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dylan Girrens, Guangjing Wang",
+        "original_date": "2026-08-27"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "information-flow-control",
+        "prompt-injection",
+        "persistence",
+        "usenix"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "针对持久化 LLM agent 跨查询的攻击面（攻击者数据改变控制流进入敏感工具参数污染后续查询），提出 plan-first 架构：planner 每查询只调用一次以声明式 DSL 生成完整可执行计划，再用 dual-lattice 信息流控制同时跟踪机密性与完整性，覆盖显式数据流与控制依赖；持久化以带标签 artifact 存储，后续规划只暴露语义元数据不再把不可信 payload 送回 planner在 AgentDojo 上 tool_knowledge 攻击成功率降到 0，多查询扩展 AgentDojo-MQ 上降到 0.2%，作者同时指出严格完整性 enforcement 带来 security-utility tradeoff投稿 USENIX Security 2027",
+      "summary_en": "Presents SPA, a plan-first architecture securing planning, execution, and cross-query state reuse for persistent LLM agents: the planner emits a complete declarative plan once per query, dual-lattice information-flow control tracks confidentiality and integrity across data and control dependencies, and persistence stores labeled artifacts revealing only semantic metadata to later planning. Under the tool_knowledge attack, attack success drops to zero on AgentDojo and 0.2% on AgentDojo-MQ, at the cost of a security-utility tradeoff from strict integrity enforcement.",
+      "one_liner": "针对持久化 LLM agent 跨查询的攻击面（攻击者数据改变控制流进入敏感工具参数污染后续查询），提出 plan-first 架构：planner 每查询只调用一次以声明式 DSL 生成完整可执行计划，再用 dual-lattice 信息流控制同时跟踪机密性与完整性...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/9f1fa61f.md",
+      "images": [],
+      "added_date": "2026-08-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "99b6440e",
+      "title": "Do User-Authored Permission Policies Improve Protection Against AI Agent Overreach?",
+      "url": "https://arxiv.org/abs/2608.27443",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ting Yan",
+        "original_date": "2026-08-27"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-permissions",
+        "human-ai-interaction",
+        "user-study",
+        "overreach",
+        "consent"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "113 名非专业软件背景被试的对照实验，比较逐动作人工审批（HITL）逐动作模型自动审查（AUTO）与用户预先写好的 allow/ask/never 后果策略（POLICY）三种 agent 权限机制18 动作模拟日含 7 个越权动作：POLICY 比 HITL 少拦 20.1 个百分点比 AUTO 少拦 14.5 个百分点的越权动作；运行时提示从 18.0 降到 10.9，但算上规则设置时间总干预时间并没有可靠下降140 条规则里被试 114 条选了 ask，等于把越权决定又推回运行时；148 个被执行的越权动作中 133 个经人工批准结论是偏好与承诺之间存在落差：反复选 ask 保留了逐案选择权，却让常设策略无法提前定案",
+      "summary_en": "A 113-participant study compares per-action human-in-the-loop approval (HITL), automated per-action model review (AUTO), and user-authored allow/ask/never consequence policies (POLICY) for AI agent permissions. POLICY blocked 20.1 percentage points less overreach than HITL and 14.5 less than AUTO on an 18-action simulated day; runtime prompts fell from 18.0 to 10.9 but total intervention time was not reliably lower once rule setup was included. 114 of 140 rules were ask, returning overreach decisions to runtime. The gap between preference and commitment keeps users choosing case-by-case over standing policy.",
+      "one_liner": "113 名非专业软件背景被试的对照实验，比较逐动作人工审批（HITL）逐动作模型自动审查（AUTO）与用户预先写好的 allow/ask/never 后果策略（POLICY）三种 agent 权限机制18 动作模拟日含 7 个越权动作：POLICY 比 HITL 少拦 20.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/99b6440e.md",
+      "images": [],
+      "added_date": "2026-08-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5b44621e",
+      "title": "Safety Does Not Compose: Non-Decaying Loop State for Autonomous LLM Agents",
+      "url": "https://arxiv.org/abs/2608.27141",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chenhao Wu, Haoxuan Jia, Yang Liu, Yingguang Yang, Yuhan Lin, Chongyang Zhang, Hao Zheng, Yulin Huan...",
+        "original_date": "2026-08-27"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-safety",
+        "autonomous-loops",
+        "monitoring",
+        "separation-result",
+        "loopharness"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "自主循环 agent 的安全护栏普遍定义在单条轨迹上轨迹结束即重置论文证明这是组合性失败而非实现细节：面对把证据拆散到多次迭代里的攻击，任何轨迹窗口内监控器的真阳率都等于其假阳率（分离定理），而保留跨迭代状态的监控器可以完全分开干净与攻击轨迹；几何衰减的风险分数也不够，耐心对手的冷却期是常数不随水平线 N 增长提出的 LoopHarness 在循环层维护持久非衰减安全状态，在 mediated commits 与仲裁检测下限 _M 下，把未授权不可逆动作的期望次数压到与 N 无关的常数 B+m-1+m/_M，其中 B+m-1 项由 model-free 规则决定即使验证器完全合谋也成立附 Agent-SafetyBench 配对评测协议与跨迭代证据攻击套件",
+      "summary_en": "Shows that trajectory-scoped agent safeguards are a failure of composition: against attacks fragmenting evidence across iterations, every trajectory-windowed monitor has TPR equal to FPR, while cross-iteration state separates perfectly; geometrically decaying risk scores also fail because an adversary's cooling-off period is constant in the horizon N. LoopHarness restores persistent non-decaying loop-level safety state, bounding expected unauthorized irreversible actions by the N-independent constant B+m-1+m/_M under mediated commits, with the B+m-1 term enforced by a model-free rule that survives fully colluding verifiers.",
+      "one_liner": "自主循环 agent 的安全护栏普遍定义在单条轨迹上轨迹结束即重置论文证明这是组合性失败而非实现细节：面对把证据拆散到多次迭代里的攻击，任何轨迹窗口内监控器的真阳率都等于其假阳率（分离定理），而保留跨迭代状态的监控器可以完全分开干净与攻击轨迹.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/5b44621e.md",
+      "images": [],
+      "added_date": "2026-08-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f19096d5",
+      "title": "Beyond F1: Evaluating Coverage and Failure Recovery in AI Model Security Scanners",
+      "url": "https://arxiv.org/abs/2608.27424",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qianlong Lan, Vinothini Pandurangan, Anuj Kaul, Indranil Sanyal",
+        "original_date": "2026-08-27"
+      },
+      "category": "infra",
+      "tags": [
+        "model-security",
+        "supply-chain",
+        "scanners",
+        "evaluation",
+        "pickle"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "在 170 个 Pickle/PyTorch 工件145 个 specimen 家族的受控基准上评估 ModelScanModelAuditFickling 三个 ML 工件安全扫描器，核心区分判断准确率与判断可用性：ModelAudit 对 135 个有标注家族 100% 给出确定结论，Fickling 81.5%，ModelScan 仅 49.6%；但在能给出确定结论的条件下 ModelScan 精准率/召回率/F1 全部 100%ModelScan 分析失败的 48 个恶意家族里，ModelAudit 与 Fickling 都给出符合真值的检测结论：单看 F1 会掩盖覆盖率缺口，工具互补与增量检测覆盖才是部署关键，对做模型供应链扫描的团队是直接的选型证据",
+      "summary_en": "Evaluates ModelScan, ModelAudit, and Fickling on a controlled benchmark of 170 Pickle/PyTorch artifacts across 145 specimen families, separating judgment accuracy from judgment availability: ModelAudit produced definitive decisions for 100% of the 135 labeled families, Fickling 81.5%, ModelScan 49.6% yet conditional on a definitive judgment ModelScan achieved 100% precision, recall, and F1. For the 48 malicious families where ModelScan failed, both other tools detected consistently with ground truth, underscoring incremental coverage and tool complementarity over single-metric comparisons.",
+      "one_liner": "在 170 个 Pickle/PyTorch 工件145 个 specimen 家族的受控基准上评估 ModelScanModelAuditFickling 三个 ML 工件安全扫描器...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f19096d5.md",
+      "images": [],
+      "added_date": "2026-08-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0e540a2d",
+      "title": "Boosting LLM Exploration via Weak-Model Guidance in RLVR",
+      "url": "https://arxiv.org/abs/2608.27420",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xingyu Shen, Huishuai Zhang, Peng Li, Yinchun Wang, Dongyan Zhao",
+        "original_date": "2026-08-27"
+      },
+      "category": "models",
+      "tags": [
+        "rlvr",
+        "exploration",
+        "entropy-collapse",
+        "pass-at-k",
+        "reasoning"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "RLVR 训练常伴随策略熵下降，推理覆盖收窄大 k 的 pass@k 退化本文不走算法正则化路线，而是引入跨模型非参数扰动：强迫目标模型基于更小更弱模型生成的部分推理轨迹续写，陌生前缀打散过度自信鼓励探索不同推理路径数学基准上全面超过 vanilla RLVR，且 k 越大增益越明显，说明推理覆盖被实质拓宽；无需额外 SFT复杂奖励设计或提示工程即可缓解熵坍缩",
+      "summary_en": "Proposes cross-model non-parametric perturbation for RLVR: the target model is forced to continue partial reasoning trajectories generated by a smaller, weaker model, so unfamiliar prefixes disrupt over-confidence and encourage exploration of distinct reasoning paths. Across math benchmarks the method consistently beats vanilla RLVR with gains growing as k scales up in pass@k, mitigating entropy collapse without extra SFT, intricate reward designs, or complex prompting.",
+      "one_liner": "RLVR 训练常伴随策略熵下降，推理覆盖收窄大 k 的 pass@k 退化本文不走算法正则化路线，而是引入跨模型非参数扰动：强迫目标模型基于更小更弱模型生成的部分推理轨迹续写，陌生前缀打散过度自信鼓励探索不同推理路径数学基准上全面超过 vanilla RLVR...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0e540a2d.md",
+      "images": [],
+      "added_date": "2026-08-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6f071560",
+      "title": "I accidentally turned LLM memory into program analysis",
+      "url": "https://pwning.systems/posts/llm-memory-program-analysis",
+      "source": {
+        "platform": "blog",
+        "author": "Jordy Zomer",
+        "original_date": "2026-08-28"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "datalog",
+        "vulnerability-research",
+        "knowledge-graph",
+        "provenance"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "做漏洞研究的作者发现长会话里 LLM 会忘掉已排除的路径继续基于失效假设推理，而检索式记忆只存原文不会在假设被推翻时自动作废结论他把 vuln-research 中的事实（attacker controls object_a / object_b 是内核对象）当作 Datalog 事实，写了 Lemmalog：LLM 负责把调试器输出等模糊信息转成结构化事实，引擎负责确定性推导与增量更新；关键设计是 retraction 追踪每个结论的支撑来源，某条观察被推翻时自动失效受影响的结论，顺带获得 provenance 查询可以直接问 agent 为什么相信某个结论对做 agent 长程记忆与可审计推理的人是很干净的一个架构样本",
+      "summary_en": null,
+      "one_liner": "做漏洞研究的作者发现长会话里 LLM 会忘掉已排除的路径继续基于失效假设推理，而检索式记忆只存原文不会在假设被推翻时自动作废结论他把 vuln-research 中的事实（attacker controls object_a / object_b 是内核对象）当作 Datalog...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/6f071560.md",
+      "images": [],
+      "added_date": "2026-08-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dbe16c47",
+      "title": "Domain-Driven Agents",
+      "url": "https://coldtake.dev/blog/domain-driven-agents",
+      "source": {
+        "platform": "blog",
+        "author": "coldtake.dev",
+        "original_date": "2026-08"
+      },
+      "category": "coding",
+      "tags": [
+        "brownfield",
+        "domain-modeling",
+        "coding-agents",
+        "legacy-code",
+        "tech-debt"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "作者观察到一个具体失败形态：在运行四年同一概念已有三种拼写的遗留代码库里，让 LLM 加一个 job offer status 字段，它会发明第四种拼写因为代码库本身从未回答这个问题，模型只能猜绿地项目表现好棕地项目质量骤降，掉进去的不是技术深度这一层，而是其下缺失含义没有共享语言可解决的那层；需要升级的不是模型而是代码的就绪度LLM 把清理中打字的成本压塌了决策成本没变，因此应该增量地一块一块地为 agent 建立领域就绪度",
+      "summary_en": null,
+      "one_liner": "作者观察到一个具体失败形态：在运行四年同一概念已有三种拼写的遗留代码库里，让 LLM 加一个 job offer status 字段，它会发明第四种拼写因为代码库本身从未回答这个问题，模型只能猜绿地项目表现好棕地项目质量骤降，掉进去的不是技术深度这一层...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dbe16c47.md",
+      "images": [],
+      "added_date": "2026-08-30",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-08-29",
-  "total_entries": 2055
+  "last_updated": "2026-08-30",
+  "total_entries": 2063
 }
