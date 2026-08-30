@@ -134,10 +134,12 @@
       "quality_score": 5,
       "status": "active",
       "added_date": "2026-04-29",
-      "updated_date": "2026-08-19",
+      "updated_date": "2026-08-31",
       "images": [],
       "github_stars": null,
-      "related": [],
+      "related": [
+        "b6cadf9d"
+      ],
       "local_path": "content/a2a_protocol_v1_0_2026_001.md",
       "local_path_valid": false,
       "content_file": "content/a2a_protocol_v1_0_2026_001.md",
@@ -703,9 +705,11 @@
       "local_path": "content/claude_opus_47_mythos_2026_001.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "3d923e32"
+      ],
       "local_path_valid": false,
       "content_file": "content/claude_opus_47_mythos_2026_001.md",
       "content_generated": true
@@ -740,9 +744,11 @@
       "local_path": "content/gpt55_release_2026_001.md",
       "images": [],
       "added_date": "2026-05-01",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "b5f5f327"
+      ],
       "local_path_valid": false,
       "content_file": "content/gpt55_release_2026_001.md",
       "content_generated": true
@@ -2043,13 +2049,15 @@
       "one_liner": "Claude Code推荐的终端 - Ghostty",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/klbtvlqs.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "klbtvlqs"
+      ],
       "local_path_valid": false
     },
     {
@@ -2508,13 +2516,15 @@
       "one_liner": "Claude Code .claude/ 文件夹完全指南",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/9cbi80c7.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "9cbi80c7"
+      ],
       "local_path_valid": false
     },
     {
@@ -3184,13 +3194,15 @@
       "one_liner": "你不知道的 Claude Code：架构治理与工程实践",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/efaw158d.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "efaw158d"
+      ],
       "local_path_valid": false
     },
     {
@@ -5728,13 +5740,15 @@
       "one_liner": "Android CLI: Build Android apps 3x faster using any agent",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/Kgj14WcX.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "kgj14wcx"
+      ],
       "local_path_valid": false
     },
     {
@@ -5781,13 +5795,15 @@
       "one_liner": "What we learned mapping a year's worth of AI-enabled cyber threats",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/ac4974b2.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "ac4974b2"
+      ],
       "local_path_valid": false
     },
     {
@@ -8368,13 +8384,15 @@
       "one_liner": "OpenAI Codex Update Adds Computer Use, Image Generation, and Memory on Mac",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/MCKwiFWE.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "mckwifwe"
+      ],
       "local_path_valid": false
     },
     {
@@ -8544,9 +8562,11 @@
       "local_path": "content/ff1ca7da.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "abea8210"
+      ],
       "local_path_valid": false,
       "content_generated": true,
       "content_file": "content/b37b2087.md"
@@ -9188,9 +9208,11 @@
       "local_path": "content/07cfabab.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-06-25",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "db85d2ef"
+      ],
       "local_path_valid": false,
       "content_file": "content/a09cdbbd.md",
       "content_generated": true
@@ -10376,13 +10398,15 @@
       "one_liner": "从聊天窗口到多 Agent 控制台：一次 AI 编程协作范式的转移",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/tr-XHkL-.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "tr-xhkl-"
+      ],
       "local_path_valid": false
     },
     {
@@ -11739,13 +11763,15 @@
       "one_liner": "AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/8lwuhhmb.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "8lwuhhmb"
+      ],
       "local_path_valid": false
     },
     {
@@ -13552,13 +13578,15 @@
       "one_liner": "My self-sovereign / local / private / secure LLM setup, April 2026",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/4abfo505.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "4abfo505"
+      ],
       "local_path_valid": false
     },
     {
@@ -14219,13 +14247,15 @@
       "one_liner": "GPT-2 规模模型训练干预实验：学习率是最大变量，Dropout 反而有害",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/6a342c69.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "f7612873"
+      ],
       "local_path_valid": false
     },
     {
@@ -14473,13 +14503,15 @@
       "one_liner": "面向 AI 的编程：是时候该坐下来应对不确定性了",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/xlkfMLwP.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "xlkfmlwp"
+      ],
       "local_path_valid": false
     },
     {
@@ -15453,13 +15485,15 @@
       "one_liner": "AI copilot 能提升开发效率么？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/6e1u2aox.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "6e1u2aox"
+      ],
       "local_path_valid": false
     },
     {
@@ -17860,13 +17894,15 @@
       "one_liner": "Forward Deployed Engineer：AI 时代的新宠岗位，到底干什么？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/06a1137d.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "aefa6b15"
+      ],
       "local_path_valid": false
     },
     {
@@ -18679,13 +18715,15 @@
       "one_liner": "Building Production-Grade AI Agents with MCP: A Complete Guide for 2026",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/230879f0.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "230879f0"
+      ],
       "local_path_valid": false
     },
     {
@@ -19041,13 +19079,15 @@
       "one_liner": "AI 傻傻分不清楚？那么多 AI 变体究竟怎么选？这里快速简单理清！",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/zo5tepps.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "zo5tepps"
+      ],
       "local_path_valid": false
     },
     {
@@ -19151,13 +19191,15 @@
       "one_liner": "来自 Codex 官方团队的分享：如何把 Codex 用到极致",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/de6541bc.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "de6541bc"
+      ],
       "local_path_valid": false
     },
     {
@@ -19507,13 +19549,15 @@
       "one_liner": "国内无魔法也能用Claude Code接入国产大模型",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/claude_code_domestic_models_2026.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "5870a0c3"
+      ],
       "local_path_valid": false
     },
     {
@@ -20226,13 +20270,15 @@
       "one_liner": "译关于 Claude Design 的一些想法和感受 Sam Henri Gold",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/f8f64796ed.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "f8f64796ed"
+      ],
       "local_path_valid": false
     },
     {
@@ -22446,9 +22492,11 @@
       "local_path": "content/ac4974b2.md",
       "images": [],
       "added_date": "2026-06-12",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "1590d703"
+      ]
     },
     {
       "id": "639f15e3",
@@ -22680,9 +22728,11 @@
       "local_path": "content/de6541bc.md",
       "images": [],
       "added_date": "2026-06-12",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "34f1efae"
+      ]
     },
     {
       "id": "89ba0616",
@@ -23104,13 +23154,15 @@
       "one_liner": "说明：截至抓取时间，官方 A2A 网站 (agent-to-agent.",
       "one_liner_author": "openclaw",
       "quality_score": 4,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/a2a_protocol_v1_0_2026_001.md",
       "images": [],
       "added_date": "2026-06-13",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a2a_protocol_v1_0_2026_001"
+      ],
       "local_path_valid": false
     },
     {
@@ -23131,13 +23183,15 @@
       "one_liner": "原推文（@alliekmiller，2025 年 11 月 4 日）： > 使用 AI 与借助 AI 建造，是两件不同的事 > > 复制粘贴 ChatGPT 提示词...",
       "one_liner_author": "openclaw",
       "quality_score": 4,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/a09cdbbd.md",
       "images": [],
       "added_date": "2026-06-13",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a09cdbbd"
+      ],
       "local_path_valid": false
     },
     {
@@ -23158,13 +23212,15 @@
       "one_liner": "说明：OpenAI 发布页 openai.",
       "one_liner_author": "openclaw",
       "quality_score": 4,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/gpt55_release_2026_001.md",
       "images": [],
       "added_date": "2026-06-13",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "gpt55_release_2026_001"
+      ],
       "local_path_valid": false
     },
     {
@@ -23185,13 +23241,15 @@
       "one_liner": "Anthropic 于 2026 年 4 月 16 日正式发布最新模型 Claude Opus 4.",
       "one_liner_author": "openclaw",
       "quality_score": 4,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/claude_opus_47_mythos_2026_001.md",
       "images": [],
       "added_date": "2026-06-13",
-      "updated_date": null,
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "claude_opus_47_mythos_2026_001"
+      ],
       "local_path_valid": false
     },
     {
@@ -27005,9 +27063,11 @@
       "local_path": "content/f7612873.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "24339048"
+      ]
     },
     {
       "id": "m36zom7u",
@@ -27591,9 +27651,11 @@
       "local_path": "content/klbtvlqs.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "5a50bb51"
+      ]
     },
     {
       "id": "aakm0n26",
@@ -27785,9 +27847,11 @@
       "local_path": "content/9cbi80c7.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "7ca13420"
+      ]
     },
     {
       "id": "4b29f474",
@@ -28175,9 +28239,11 @@
       "local_path": "content/efaw158d.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "3f437cab"
+      ]
     },
     {
       "id": "3ba81f9b",
@@ -29864,9 +29930,11 @@
       "local_path": "content/Kgj14WcX.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "222a298f"
+      ]
     },
     {
       "id": "jnaqutdjulvp1t2swszqd",
@@ -30923,9 +30991,11 @@
       "local_path": "content/abea8210.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "b37b2087"
+      ]
     },
     {
       "id": "1sqpswrr",
@@ -31395,9 +31465,11 @@
       "local_path": "content/MCKwiFWE.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "8e74b8ff"
+      ]
     },
     {
       "id": "j4ev6hzf",
@@ -32861,9 +32933,11 @@
       "local_path": "content/tr-XHkL-.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "f914b546"
+      ]
     },
     {
       "id": "1y45plki",
@@ -33585,9 +33659,11 @@
       "local_path": "content/8lwuhhmb.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-05",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "b0f5dcae"
+      ]
     },
     {
       "id": "v65jq96t",
@@ -34196,9 +34272,11 @@
       "local_path": "content/5870a0c3.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "a3baf0e7"
+      ]
     },
     {
       "id": "sygvrjjl",
@@ -34562,9 +34640,11 @@
       "local_path": "content/4abfo505.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "625b7c17"
+      ]
     },
     {
       "id": "lfm15jei",
@@ -35036,9 +35116,11 @@
       "local_path": "content/xlkfmlwp.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "4af3e80d"
+      ]
     },
     {
       "id": "e1s71i0w",
@@ -35727,9 +35809,11 @@
       "local_path": "content/6e1u2aox.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "d507e746"
+      ]
     },
     {
       "id": "ppnqbbb5",
@@ -35893,9 +35977,11 @@
       "local_path": "content/aefa6b15.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "f62abc25"
+      ]
     },
     {
       "id": "qd8opfj0",
@@ -37778,9 +37864,11 @@
       "local_path": "content/230879f0.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "9ccb84b8"
+      ]
     },
     {
       "id": "bvtltcyq",
@@ -38028,9 +38116,11 @@
       "local_path": "content/zo5tepps.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "c08ed99d"
+      ]
     },
     {
       "id": "7i0onjqt",
@@ -38743,9 +38833,11 @@
       "local_path": "content/f8f64796ed.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-26",
+      "updated_date": "2026-08-31",
       "github_stars": null,
-      "related": []
+      "related": [
+        "895d4c8a"
+      ]
     },
     {
       "id": "p8k8rfur",
@@ -61409,6 +61501,6 @@
       "related": []
     }
   ],
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-08-31",
   "total_entries": 2068
 }
