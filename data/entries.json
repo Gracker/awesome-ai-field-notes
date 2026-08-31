@@ -61499,8 +61499,264 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "337bb801",
+      "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
+      "url": "https://arxiv.org/abs/2608.27455",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yufan Wu, Yinghui He, Zhengyi Hu, Lang Wei, Ruichen Li, Qifan Yang, Ting Zhu",
+        "original_date": "2026-08-27"
+      },
+      "category": "models",
+      "tags": [
+        "inference-time-scaling",
+        "weak-to-strong",
+        "failure-modes",
+        "in-context-learning",
+        "reasoning"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "推理时扩展通常依赖重复生成或外部验证，CritICL 的核心洞察是同一模型家族内 LLM 失败模式在不同规模间呈现结构化规律它不把失败当作废料，而是从小模型提取失败模式，以批判式 in-context 示例注入大模型推理过程提供两个变体：CritICL-dynamic 按输入自适应预测可能的失败模式并检索对应批判；CritICL-static 用全局失败模式画像给出稳定引导实验显示其持续优于标准 ICL，达到与 test-time scaling 相当或更好的表现，同时生成次数与 token 成本显著更低代码已开源",
+      "summary_en": "CritICL exploits structured failure-mode patterns across model scales within the same family: failure modes from weaker models are turned into critique-based in-context examples that guide stronger models at inference. CritICL-dynamic adaptively predicts input-specific failure modes and retrieves critiques, while CritICL-static uses a global failure-mode profile. It consistently beats standard ICL and matches or exceeds test-time scaling with far fewer generations and lower token cost.",
+      "one_liner": "推理时扩展通常依赖重复生成或外部验证，CritICL 的核心洞察是同一模型家族内 LLM 失败模式在不同规模间呈现结构化规律它不把失败当作废料，而是从小模型提取失败模式...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/337bb801.md",
+      "images": [],
+      "added_date": "2026-08-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d779005b",
+      "title": "Consolidating RLVR Capabilities Across Domains: A Deep Dive into Fusion Paradigms",
+      "url": "https://arxiv.org/abs/2608.27409",
+      "source": {
+        "platform": "arxiv",
+        "author": "Siye Wu, Kai Yang, Yuchen Cai, Xin Xu, Peng-Yuan Wang, Jiaxuan Wang, Jiashun Liu, Jiafei Lyu, Yangku...",
+        "original_date": "2026-08-27"
+      },
+      "category": "models",
+      "tags": [
+        "rlvr",
+        "model-merging",
+        "distillation",
+        "post-training",
+        "multi-domain"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "RLVR 通常按能力训练领域专家再合并，本文按复用工件划分三种融合范式：Merge 合并专家任务向量，Mix RL 汇总数据集训练，MOPD（多教师在线蒸馏）两者兼用在共享专家与数据跨模型规模与多领域基准下的系统对比显示：三者平均分差最多 1.4 分，但单一基准上差距可达 8.6 分，领域级波动与任务向量几何中的跨领域关系对应训练动态揭示各自约束：Mix RL 受域配比支配，MOPD 受教师上限约束，Merge 把所有专家更新压进一个向量三者都提升单样本准确率，但没有可测的解空间覆盖增益，held-out 能力也无损失实践指南：已有专家且要求廉价融合用 Merge；无专家从头训统一模型用 Mix RL 并调整域配比促进跨域迁移；更看重保留领域增益时用 MOPD",
+      "summary_en": "The paper organizes RLVR capability consolidation into three fusion paradigms by reused artefacts: Merge (expert task vectors), Mix RL (pooled datasets), and MOPD (multi-teacher on-policy distillation, both). With shared experts and data across model scales, average differences stay within 1.4 points but single-benchmark gaps reach 8.6 points, tracking cross-domain relations in task-vector geometry. Mix RL is governed by mixture proportions, MOPD is bounded by its teachers, and Merge compresses all expert updates; all three raise single-sample accuracy without measurable solution-coverage gains. Practical guidance: Merge when experts exist and cheap fusion matters; Mix RL when training unified models without experts; MOPD when preserving domain-specific gains matters most.",
+      "one_liner": "RLVR 通常按能力训练领域专家再合并，本文按复用工件划分三种融合范式：Merge 合并专家任务向量，Mix RL 汇总数据集训练，MOPD（多教师在线蒸馏）两者兼用在共享专家与数据跨模型规模与多领域基准下的系统对比显示：三者平均分差最多 1.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d779005b.md",
+      "images": [],
+      "added_date": "2026-08-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6b30de04",
+      "title": "Understanding Evolution Strategies for LLM Reasoning: Broader Reasoning Coverage than GRPO",
+      "url": "https://arxiv.org/abs/2608.27351",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yunpeng Ba, Zhi Zheng, Yue Xie, Jiaqing Li, Xialiang Tong, Tao Zhong, Mingxuan Yuan, Zhichao Lu, Xuy...",
+        "original_date": "2026-08-27"
+      },
+      "category": "models",
+      "tags": [
+        "evolution-strategies",
+        "grpo",
+        "pass-at-k",
+        "entropy-collapse",
+        "post-training"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "进化策略（ES）作为省内存的 LLM 推理后训练范式，其优化行为此前研究不足本文系统分析 ES 动态与机制，理论和实证均证明 ES 带来更宽的推理覆盖：ES 种群内验证器投影的 Jensen-Shannon 多样性支撑更高 Pass@K；与出现熵坍缩的 GRPO 不同，ES 在提升 Pass@1 的同时取得比 GRPO 更高的 Pass@K作者进一步提出 GRPO-ES 顺序训练策略，结合 GRPO 的 Pass@1 优势与 ES 的 Pass@K 优势另一关键发现：尽管整模参数大幅漂移，ES 的任务增益只来自少数大幅更新的稀疏子集（功能稀疏性），held-out 评测未观察到灾难性遗忘超参方面，越大的 LLM 需要越小的种群规模结论：ES 是与 GRPO 互补的独立推理后训练范式，而非省内存的次优替代",
+      "summary_en": "This paper systematically studies Evolution Strategies (ES) for LLM reasoning post-training, showing theoretically and empirically that ES yields broader reasoning coverage than GRPO: verifier-projected Jensen-Shannon diversity in the ES population supports higher Pass@K, and unlike GRPO's entropy collapse, ES improves Pass@1 while attaining higher Pass@K. A sequential GRPO-ES strategy combines both strengths. Despite large whole-model parameter drift, task gains come from a sparse subset of large-magnitude updates (functional sparsity) without catastrophic forgetting on held-out evaluations; larger LLMs require smaller population sizes. ES is positioned as a distinct paradigm rather than a memory-efficient compromise.",
+      "one_liner": "进化策略（ES）作为省内存的 LLM 推理后训练范式，其优化行为此前研究不足本文系统分析 ES 动态与机制，理论和实证均证明 ES 带来更宽的推理覆盖：ES 种群内验证器投影的 Jensen-Shannon 多样性支撑更高 Pass@K.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6b30de04.md",
+      "images": [],
+      "added_date": "2026-08-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d28f7825",
+      "title": "TTPO: Test-Time Policy Optimization",
+      "url": "https://arxiv.org/abs/2608.27448",
+      "source": {
+        "platform": "arxiv",
+        "author": "Aozhe Wang, Zhengxi Lu, Jianze Wang, Shangke Lv, Ying Liu, Weiming Lu, Jun Xiao, Yueting Zhuang, Hua...",
+        "original_date": "2026-08-27"
+      },
+      "category": "models",
+      "tags": [
+        "test-time-training",
+        "pseudo-labels",
+        "opsd",
+        "reinforcement-learning",
+        "math-reasoning"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "RL 与 OPSD 等后训练方法依赖真值标签，因而无法做测试时训练（TTT）；用多数投票伪标签替代又很脆弱：一次错误投票会污染教师并误导所有 token本文观察到失败模式的不对称性：与伪标签不一致的 rollout 无论投票对错几乎都是错的据此提出 TTPO 非对称目标：用 OPSD 蒸馏与伪标签一致的 rollout，用分组 RL 惩罚不一致的 rollout；token 级选择进一步细化两支：蒸馏下调已收敛位置的权重，RL 只惩罚自信的错误即使伪标签频繁出错，两支更新仍有依据；随着模型变强，多数投票路由带来更紧的自监督无标签条件下 TTPO 在五个竞赛级基准上与有标签 OPSD 持平，Qwen3-1.7B 在 TTT 设置下从 38.0% 提升到 45.2%，no-thinking 设置提升 +25.2% 到 +36.4%，并展现跨任务泛化",
+      "summary_en": "TTPO enables test-time training without ground-truth labels by exploiting an asymmetric failure mode of majority-vote pseudo-labels: disagreeing rollouts are typically wrong regardless of vote correctness. Its asymmetric objective distills agreeing rollouts via OPSD and penalizes disagreeing ones with Grouped RL, refined by token-level selection that down-weights converged positions in distillation and penalizes only confident errors in RL. Label-free TTPO matches label-supervised OPSD on five competition-level benchmarks, lifts Qwen3-1.7B from 38.0% to 45.2% under TTT, gains +25.2% to +36.4% without thinking, and generalizes across tasks.",
+      "one_liner": "RL 与 OPSD 等后训练方法依赖真值标签，因而无法做测试时训练（TTT）；用多数投票伪标签替代又很脆弱：一次错误投票会污染教师并误导所有 token本文观察到失败模式的不对称性：与伪标签不一致的 rollout 无论投票对错几乎都是错的据此提出 TTPO 非对称目标：用 OP...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d28f7825.md",
+      "images": [],
+      "added_date": "2026-08-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "14225438",
+      "title": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+      "url": "https://arxiv.org/abs/2608.27370",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kairong Luo, Jiarui Cui, Yaorui Yin, Shengqi Chen, Yiming Yang, Linxiang Gao, Yanmohan Wang, Mingzhe...",
+        "original_date": "2026-08-27"
+      },
+      "category": "models",
+      "tags": [
+        "pretraining",
+        "fp8",
+        "consumer-gpu",
+        "scaling-law",
+        "open-source"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "复现 Llama-3.2-3B 成本超 150 万美元SmolLM3-3B 超 70 万美元，预训练因此远离学术界与开源社区Puro-2B 给出一条开源预训练配方：在消费级 RTX 5090 上以 FP8 精度从零训练至多 1.4T token 的 2B 模型集合，最佳模型算力成本低于 6900 美元，评测协议下接近 Qwen2.5-1.5B成本效率来自硬件选择低精度训练hyperball 优化课程式模型平均与数据配方的组合由该集合拟合出 Puro Cost Scaling Law：约 4400 美元（低于 5090 美元）即可达到 Qwen2-1.5B 性能由于掌握完整预训练管线，作者还完成了后训练后预训练数据课程如何影响下游表现的受控案例研究数据代码权重以 Apache 2.0 开源",
+      "summary_en": "Puro-2B is an open pretraining recipe that trains a collection of 2B models from scratch on up to 1.4 trillion tokens with FP8 precision on consumer-grade RTX 5090 GPUs. The best model costs under $6.9K in compute and approaches Qwen2.5-1.5B under the paper's evaluation protocol. Cost efficiency combines hardware selection, low-precision training, hyperball optimization, curriculum model averaging, and the data recipe. The fitted Puro Cost Scaling Law suggests about $4.4K suffices to reach Qwen2-1.5B performance. Full-pipeline access enables controlled studies of how pretraining curricula shape post-trained performance; data, code, and weights are released under Apache 2.0.",
+      "one_liner": "Puro-2B: Poor Lab's Qwen2-1.5B Trained on RTX 5090 within $5090",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/14225438.md",
+      "images": [],
+      "added_date": "2026-08-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dd859479",
+      "title": "CorporateBench: Large-Scale Q&A Benchmarking with Temporal Knowledge Bases",
+      "url": "https://arxiv.org/abs/2608.27391",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sil Hamilton, Albert Yu Sun, Oscar J....",
+        "original_date": "2026-08-27"
+      },
+      "category": "models",
+      "tags": [
+        "benchmark",
+        "enterprise",
+        "temporal-knowledge-base",
+        "qa",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "企业文档问答评测长期受制于公司不愿公开内部通讯合成数据集又过于简单CorporateBench 提供经人工校验的多任务问答基准：语料超过 23 万份文档，模拟 12 到 10000 名员工的四家合成企业，语料采样自一个时间演化跨文档逻辑一致的知识库，即使数十万文档也保证逻辑自洽基准从信息抽取与知识库查询两个维度评测对五个 LLM 的评测显示：输入规模越接近真实企业尺度，表现越差CorporateBench 为企业通讯推理补上了评测生态的关键空白",
+      "summary_en": "CorporateBench is a human-validated multi-task Q&A benchmark approaching enterprise-scale conditions: evaluation corpora exceed 230,000 documents drawn from four synthetic firms of 12 to 10,000 employees, sampled from a temporally evolving knowledge base that guarantees cross-document logical consistency across hundreds of thousands of documents. It evaluates information extraction and knowledge-base querying; five LLMs show increasingly poor performance as input size approaches realistic scales.",
+      "one_liner": "企业文档问答评测长期受制于公司不愿公开内部通讯合成数据集又过于简单CorporateBench 提供经人工校验的多任务问答基准：语料超过 23 万份文档，模拟 12 到 10000 名员工的四家合成企业，语料采样自一个时间演化跨文档逻辑一致的知识库.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dd859479.md",
+      "images": [],
+      "added_date": "2026-08-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bb45f4fd",
+      "title": "CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+      "url": "https://arxiv.org/abs/2608.27406",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kechen Liu, Ola Shorinwa",
+        "original_date": "2026-08-27"
+      },
+      "category": "models",
+      "tags": [
+        "world-models",
+        "video-generation",
+        "robotics",
+        "cross-embodiment",
+        "zero-shot"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "现有动作条件视频模型通常局限于单一机器人形态，无法利用互联网规模的跨形态异构视频学习可泛化物理CLAP 基于物理规律与执行者无关这一洞察，用末端执行器位姿语言指令与潜在动作调和不同动作空间，并给出课程式跨形态学习配方：先从未标注视频以潜在动作学习基础物理先验，再锚定到末端执行器动作空间，实现零样本部署到真实任务在 DROID 等高难环境中达到或超过单形态 SOTA 视频模型，少样本适配可进一步增益发布套件覆盖末端执行器语言潜在动作三类条件空间，以及跨形态DROIDBridge双臂 YAMG1 人形等形态，代码与模型全部开源",
+      "summary_en": "CLAP trains action-conditioned video world models across human and robot embodiments, grounded in the insight that universal physical laws govern spatiotemporal dynamics regardless of the actor. It reconciles disparate action spaces via end-effector poses, language instructions, and latent actions, with a curriculum that first learns physical priors from unlabeled video via latent actions, then grounds them for zero-shot real-world deployment. CLAP approaches or surpasses single-embodiment SOTA on challenging environments like DROID and open-sources a comprehensive suite spanning multiple action spaces and robot morphologies.",
+      "one_liner": "现有动作条件视频模型通常局限于单一机器人形态，无法利用互联网规模的跨形态异构视频学习可泛化物理CLAP 基于物理规律与执行者无关这一洞察，用末端执行器位姿语言指令与潜在动作调和不同动作空间，并给出课程式跨形态学习配方：先从未标注视频以潜在动作学习基础物理先验...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/bb45f4fd.md",
+      "images": [],
+      "added_date": "2026-08-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8c39e26a",
+      "title": "Beyond Parallel Blindness: Information Floors and Model Gaps in Block Drafting",
+      "url": "https://arxiv.org/abs/2608.27339",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xinwei Qiang, Xiang Fang, Chang Chen, Yue Guan, Yufei Ding",
+        "original_date": "2026-08-27"
+      },
+      "category": "infra",
+      "tags": [
+        "speculative-decoding",
+        "block-drafting",
+        "information-theory",
+        "inference-optimization",
+        "acceptance-rate"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "块草拟（一次前向提出多个 token）的拒绝率混合了两种损失：块内路径信息缺失与对可观测信息建模不完美，仅看接受长度无法区分本文提出信息地板（information floor）：给定条件化顺序下的最低期望拒绝率，超过地板的部分即模型差距在四个领域四个开源目标模型与一个前沿 API 模型上估计得到三个发现：Qwen3-4B 末槽全并行地板达 0.286，任何提议器单槽接受率上限 71%；一个已实现 token 可消除 86-100% 的地板（局域性，独立的互信息分析同样复原该结论）；当前草拟器远高于地板：末槽模型差距占 DFlash 拒绝的 43-64%DSpark oracle 条件拒绝的 85-92%这些结果把短程条件化的价值与提议器质量区分开来",
+      "summary_en": "For block drafters (multi-token proposal in one forward pass), rejection mixes missing within-block path information with imperfect modelling of observable information; accepted length cannot distinguish them. The paper introduces an information floor, the minimum expected rejection at a given conditioning order, with rejection above it constituting model gap. Findings across four domains and five targets: the all-parallel floor reaches 0.286 at the final slot on Qwen3-4B, capping per-slot acceptance at 71%; one realised token removes 86-100% of the floor; current drafters sit far above floors, with final-slot model gap accounting for 43-64% of DFlash rejection and 85-92% of DSpark's oracle-conditioned rejection.",
+      "one_liner": "块草拟（一次前向提出多个 token）的拒绝率混合了两种损失：块内路径信息缺失与对可观测信息建模不完美，仅看接受长度无法区分本文提出信息地板（information floor）：给定条件化顺序下的最低期望拒绝率...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8c39e26a.md",
+      "images": [],
+      "added_date": "2026-08-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-08-31",
-  "total_entries": 2068
+  "total_entries": 2076
 }
