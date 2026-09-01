@@ -62192,8 +62192,104 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "0c35ad3a",
+      "title": "Logos: An Agent Harness on a Cross-Process Bus",
+      "url": "https://arxiv.org/abs/2608.28553",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hanzhang Jia, Liheng Zeng, Hao Cheng, Yi Gao, Bo Ma",
+        "original_date": "2026-08-28"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "cross-process",
+        "fault-tolerance",
+        "plugin-architecture",
+        "distributed-systems"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "现代 agent 系统在运行时以插件方式组装能力，但时空可组合性演算的参考载体是共享单一上下文的单进程：所有组件落在同一物理故障域，一次故障挂起全部组件，进程死亡打断其承载的所有会话作者指出建模与演算都没有把 agent 绑定在单进程上语言模型的无状态性使跨步骤状态都在模型之外，可靠性不变量只定义在状态空间上基于四条引理构造出 Logos：一个类 ROS 的跨进程 agent harness，插件即进程，唯一共享状态是追加式 transcript在工具调用周期四个边界注入 kill 的 80 个会话全部无重复副作用地恢复；同故障对照实验中，单进程参考配置一次故障打断所有同驻会话，而对等进程构造把故障限制在一个节点",
+      "summary_en": "Modern agent systems assemble capabilities at runtime as plugins, but the reference carrier of the spatiotemporal-composability calculus is a single process sharing one context: all components sit in one physical failure domain, a fault suspends every component at once, and process death interrupts every hosted session. The authors observe that neither the modeling nor the calculus binds an agent to one process: LLM statelessness keeps cross-step state outside the model, and the soundness invariant is defined on the state space alone. From four lemmas they build Logos, a ROS-like cross-process agent harness where each plugin is a process and the only shared state is an append-only transcript....",
+      "one_liner": "现代 agent 系统在运行时以插件方式组装能力，但时空可组合性演算的参考载体是共享单一上下文的单进程：所有组件落在同一物理故障域，一次故障挂起全部组件，进程死亡打断其承载的所有会话作者指出建模与演算都没有把 agen...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0c35ad3a.md",
+      "images": [],
+      "added_date": "2026-09-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a534e3a7",
+      "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
+      "url": "https://arxiv.org/abs/2608.28518",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sihan Jia, Oliver Lemon",
+        "original_date": "2026-08-28"
+      },
+      "category": "agents",
+      "tags": [
+        "embodied-ai",
+        "asr",
+        "safety",
+        "voice-interface",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "研究语音控制的具身智能（EAI）中 ASR 识别错误是否会导向不安全输出作者模拟 ASR 错误并与现有安全基准 SafeAgentBenchPOEX 结合评估：部分错误类型保留语义结构但放大有害歧义，另一些则削弱模型拒绝行为，使不安全计划得以生成并执行；自动纠错在某些场景能降低风险，但并不总是有效结论是 ASR 错误对语音控制具身 AI 构成显著安全风险，为语音入口 agent 执行链的安全评测提供了新的攻击面视角",
+      "summary_en": "The authors investigate whether automatic speech recognition (ASR) errors in user input lead to unsafe outputs from embodied AI (EAI) models. Simulated ASR errors are combined with existing safety benchmarks (SafeAgentBench and POEX) to evaluate how error types affect embodied AI safety. Some error classes preserve semantic structure while increasing harmful ambiguity; others weaken refusal behaviour and allow unsafe plans to be generated and executed. Automatic correction of ASR errors reduces risk in some cases but is not always effective. Overall, ASR errors introduce significant safety risks for voice-controlled embodied AI.",
+      "one_liner": "研究语音控制的具身智能（EAI）中 ASR 识别错误是否会导向不安全输出作者模拟 ASR 错误并与现有安全基准 SafeAgentBenchPOEX 结合评估：部分错误类型保留语义结构但放大有害歧义，另一些则削弱模型...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a534e3a7.md",
+      "images": [],
+      "added_date": "2026-09-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d20b99a4",
+      "title": "Understanding ChatGPT Work",
+      "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-08-30"
+      },
+      "category": "agents",
+      "tags": [
+        "chatgpt-work",
+        "openai",
+        "code-interpreter",
+        "browser-tool",
+        "sub-agents"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Simon Willison 拆解 ChatGPT Work（7 月 9 日发布）：实为两个产品云端版挂在 chatgpt.com 与移动端，本地版随桌面 App（前身 Codex）直接操作本机文件与程序；仅限 $20/月及以上订阅Work 独有而 Chat 没有的能力：GPT-5.6 Sol/Luna/Terra 模型选择与最高 Ultra 推理档（Ultra 更积极委派子 agent）默认开放互联网的代码执行环境（可配域名白名单，远宽于 Chat 容器代理的封锁与 Claude 的短白名单）完整无头 Chrome（填表截图对已加载页面跑 JS，登录与 2FA 由用户接管凭据不经模型）跨会话持久文件系统ChatGPT Sites 发布子 agent 会话与定时自动化Work 会话疑似计入 Codex 额度，与 Chat 分开计费",
+      "summary_en": "Simon Willison maps ChatGPT Work (announced July 9, 2026) as two products: Work Cloud (chatgpt.com and mobile) and Work Local (desktop app, formerly Codex, with direct file/program access). Paid tiers only ($20/month+). Features absent from Chat: GPT-5.6 Sol/Luna/Terra selection with reasoning levels up to Max/Ultra (Ultra appears to delegate more eagerly to sub-agents), a code execution environment with open-by-default internet access (configurable allowlist) unlike Chat's blocked container proxy and Claude's short domain allowlist, a full headless Chrome browser that fills forms, takes screenshots, runs JavaScript on loaded pages, and hands sign-in/2FA to the user without credentials round-tripping through the model, a persistent filesystem shared across sessions, ChatGPT Sites publishing, sub-agent sessions, and scheduled prompt automations....",
+      "one_liner": "Simon Willison 拆解 ChatGPT Work（7 月 9 日发布）：实为两个产品云端版挂在 chatgpt.com 与移动端，本地版随桌面 App（前身 Codex）直接操作本机文件与程序；仅限 $2...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d20b99a4.md",
+      "images": [],
+      "added_date": "2026-09-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-01",
-  "total_entries": 2089
+  "total_entries": 2092
 }
