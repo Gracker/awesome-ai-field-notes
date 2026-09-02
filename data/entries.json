@@ -62577,8 +62577,256 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "5313a3b4",
+      "title": "LLM Post-Training as Brownfield Maintenance: An Industrial Perspective on Dataware Engineering",
+      "url": "https://arxiv.org/abs/2608.31102",
+      "source": {
+        "platform": "arxiv",
+        "author": "Gopi Krishnan Rajbahadur, Amir M. Ebrahimi, Boyuan Chen, Ahmed E. Hassan",
+        "original_date": "2026-08-31"
+      },
+      "category": "coding",
+      "tags": [
+        "llm-agent",
+        "post-training",
+        "data-engineering",
+        "industry"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "论文把工业级 LLM 后训练视作一个棕地维护场景：团队接手已部署 checkpoint, 在固定算力与数据配比预算下做定向改进,且不能破坏既有能力维护对象正变成 dataware 用一份受控的后训练 mixture 来决定模型行为,通过 bounded mixture patch 而非全量重训来更新作者从工业代码生成改进实践中归纳出三大挑战:零和式 mixture 设计yield 作为硬约束指标端到端集成的不确定性;并报告 yield-engineered patch 让 CodeForces pass@1 提升 2.59LiveCodeBench v6 pass@1 提升 6.11,均来自同一基座 checkpoint 的 16 次随机评测",
+      "summary_en": "Industrial post-training is treated as a brownfield regime: teams inherit a deployed checkpoint and must land targeted improvements under fixed compute and mixture budgets without regressing the rest. The maintained artifact is increasingly dataware behavior governed by a curated post-training mixture, updated via bounded mixture patches rather than clean-slate retraining. The paper distils three recurring challenges (zero-sum mixture design, yield as the binding metric, end-to-end integration under uncertainty) and reports a CodeForces pass@1 +2.59 and LiveCodeBench v6 pass@1 +6.11 from a yield-engineered mixture patch.",
+      "one_liner": "论文把工业级 LLM 后训练视作一个棕地维护场景：团队接手已部署 checkpoint, 在固定算力与数据配比预算下做定向改进,且不能破坏既有能力维护对象正变成 dataware 用一份受控的后训练 mixture 来决定模型行为,通过 bounded mixture patch...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5313a3b4.md",
+      "images": [],
+      "added_date": "2026-09-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "00e22c9d",
+      "title": "Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents",
+      "url": "https://arxiv.org/abs/2608.31076",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xuehai Wang, Haowei Qin, Tongxin Liu, Junkai Li, Buqiang Xu, Jintian Zhang, Yijun Chen, Zirui Xue, S...",
+        "original_date": "2026-08-31"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agent",
+        "scientific-research",
+        "evaluation",
+        "rubric"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "AutoSciRub 是面向自主科研 agent 的先评估后改进框架它先把一段开放式任务拆成原子科学目标,结合文献与任务内可见数据归纳出可执行的 rubric,再以 rubric 指导实验与逐条验证,并在修订阶段识别未达标条目做定向补强在 ResearchClawBench 上,3 个 backbone LLM 平均提升 2.08 分3 个 agent harness 平均提升 2.95 分;在 AstaBench E2E Discovery 的 20 个随机子任务上,rubric 引导平均再提升 16.8 分,并保持或增加完成的任务数",
+      "summary_en": "AutoSciRub is an evaluation-first framework for autonomous scientific research agents. It first decomposes an underspecified instruction into atomic scientific goals, grounds them in literature and task-visible data, then induces a task-specific executable rubric. On ResearchClawBench the rubric-driven loop improves three backbone LLMs by an average of 2.08 points and three agent harnesses by 2.95; on a 20-task AstaBench E2E Discovery subset it adds 16.8 points across harnesses while completing at least as many tasks.",
+      "one_liner": "AutoSciRub 是面向自主科研 agent 的先评估后改进框架它先把一段开放式任务拆成原子科学目标,结合文献与任务内可见数据归纳出可执行的 rubric,再以 rubric 指导实验与逐条验证,并在修订阶段识别未达标条目做定向补强在 ResearchClawBench 上...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/00e22c9d.md",
+      "images": [],
+      "added_date": "2026-09-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cb6f8529",
+      "title": "Reconciling Process Supervision with Outcome-Based Credit in Agentic Policy Optimization",
+      "url": "https://arxiv.org/abs/2608.31077",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jingxiao Yang, Wangjie Gan, Yingxuan Zhuang, Wenqi Zhang, Jintao Chen, Xuhong Zhang",
+        "original_date": "2026-08-31"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agent",
+        "rl",
+        "credit-assignment",
+        "agentic-rl"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "论文把长链路 agent RL 里的监督信用鸿沟讲清楚:PI(训练期可见的特权信息)能改写策略偏好,但 PI 引起的似然偏移并不直接回答一个可执行动作应分到多少 outcome 信用TASPO 从成功经验里构造对当前决策真正可用的 PI,在可执行动作粒度上聚合 PI 引起的偏好变化,再把相对动作支持转成正有界保持均值的轨迹优势权重在 3 个 agentic benchmark 上 TASPO 比 GRPO 提升 10.6%,并对未见任务有更好的泛化",
+      "summary_en": "The paper frames the supervision-credit gap in outcome-based agent RL: privileged information (PI) re-evaluates sampled behavior at training time, but PI-induced likelihood shifts only say how extra information changes policy preference, not how an executable action should inherit the verified outcome. TASPO builds decision-applicable PI from successful experience, aggregates PI-induced shifts at the executable-action level, and converts relative action support into positive, bounded, mean-preserving weights on the trajectory advantage. Reported gain over GRPO: +10.6% across three agentic benchmarks, with better generalization to unseen tasks.",
+      "one_liner": "论文把长链路 agent RL 里的监督信用鸿沟讲清楚:PI(训练期可见的特权信息)能改写策略偏好,但 PI 引起的似然偏移并不直接回答一个可执行动作应分到多少 outcome 信用TASPO 从成功经验里构造对当前决策真正可用的 PI,在可执行动作粒度上聚合 PI 引起的偏好变...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cb6f8529.md",
+      "images": [],
+      "added_date": "2026-09-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "123fd05b",
+      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-09-01"
+      },
+      "category": "infra",
+      "tags": [
+        "codex",
+        "desktop-agent",
+        "libreoffice",
+        "agent-runtime"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Simon Willison 在 1.7GB 的 Codex 桌面应用缓存中发现 codex-primary-runtime 子目录里塞了完整的 PythonNodegitPoppler 与 LibreOffice 二进制plugins/documents 下的 skill 教 Codex 如何定位和调用这些二进制这篇文章被视作agentic 桌面运行时不再依赖系统安装而是自带完整文档转换栈的一个直观证据",
+      "summary_en": "Simon Willison inspects the OpenAI Codex desktop app cache and finds ~1.7GB inside codex-primary-runtime, including a full Python install, a full Node.js install, native binaries for git, Poppler and LibreOffice. The plugins/documents folder exposes skills that teach Codex how to find and call those binaries. The post is treated as evidence of how agentic desktop runtimes are now bundling full document-conversion stacks instead of shelling out to system installs.",
+      "one_liner": "Simon Willison 在 1.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/123fd05b.md",
+      "images": [],
+      "added_date": "2026-09-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e6922ed9",
+      "title": "Atlas: A World Model for Spatial Intelligence",
+      "url": "https://www.worldlabs.ai/blog/atlas",
+      "source": {
+        "platform": "blog",
+        "author": "World Labs",
+        "original_date": "2026-09-01"
+      },
+      "category": "models",
+      "tags": [
+        "world-model",
+        "spatial-intelligence",
+        "multimodal",
+        "3d"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "World Labs 发布 Atlas:一个从零预训练的多模态自回归扩散 Transformer,原生支持文本图像视频与 3D 输入它在所有见过的输入上保持 3D 一致性,并能在上下文之外继续想象;覆盖相机可控生成场景重建与仿真三类任务,性能随训练算力扩展而提升",
+      "summary_en": "World Labs introduces Atlas, a multimodal autoregressive diffusion transformer pretrained from scratch on text, images, video and 3D. Atlas maintains 3D consistency across the inputs it has seen, can extrapolate beyond the visible context, and supports camera-controlled generation, scene reconstruction, and simulation. Performance is reported to keep scaling with training compute.",
+      "one_liner": "World Labs 发布 Atlas:一个从零预训练的多模态自回归扩散 Transformer,原生支持文本图像视频与 3D 输入它在所有见过的输入上保持 3D 一致性,并能在上下文之外继续想象;覆盖相机可控生成场景重建与仿真三类任务,性能随训练算力扩展而提升",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e6922ed9.md",
+      "images": [],
+      "added_date": "2026-09-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "309be27b",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "url": "https://openai.com/index/path-to-astra",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI Safety / Security",
+        "original_date": "2026-09-01"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "frontier-model",
+        "safety",
+        "cyber-security"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "OpenAI 在 Preparedness Framework 下给出新的 frontier-cyber 判定:Astra 已被认为达到 Critical cybersecurity capability 阈值 在合适工具与权限下,模型能发现未知漏洞并形成跨多类防护系统的利用路径,且不需要人逐步引导这是该框架下首次此类前沿网络安全能力判定",
+      "summary_en": "OpenAI says Astra now meets the Critical cybersecurity capability threshold under its Preparedness Framework: with the right tools and access, the model can find previously unknown security flaws and develop ways to exploit them across many well-protected systems without a person guiding each step. The post is presented as the first such frontier-cyber determination under the framework.",
+      "one_liner": "OpenAI 在 Preparedness Framework 下给出新的 frontier-cyber 判定:Astra 已被认为达到 Critical cybersecurity capability 阈值 在合适工具与权限下,模型能发现未知漏洞并形成跨多类防护系统的利用路径...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/309be27b.md",
+      "images": [],
+      "added_date": "2026-09-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "44526c12",
+      "title": "44% on ARC-AGI: small transformer trained in 1.5 hours on a 5090",
+      "url": "https://mvakde.github.io/blog/44-on-arc-1",
+      "source": {
+        "platform": "blog",
+        "author": "Mohan Vaka",
+        "original_date": "2026-09-01"
+      },
+      "category": "learning",
+      "tags": [
+        "arc-agi",
+        "small-model",
+        "test-time-training",
+        "benchmark"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "作者用单卡 5090 从零训练一个小型 transformer 1.5 小时,在 ARC-AGI-1 公开评测上跑到 44%,与 TRM/HRM 等 test-time-training 基线持平,并在 ARC-2 上取得 7%代码以 mdlARC 开源,这是其 ARC 求解器系列文章的第三篇",
+      "summary_en": "Author trained a small transformer from scratch in 1.5 hours on a single 5090 and reports 44% on ARC-AGI-1 public eval matching TRM/HRM-class test-time-training baselines plus 7% on ARC-2. Code is open-sourced on GitHub as mdlARC; the writeup is the third in a series on ARC solvers.",
+      "one_liner": "作者用单卡 5090 从零训练一个小型 transformer 1.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/44526c12.md",
+      "images": [],
+      "added_date": "2026-09-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "56a6fd93",
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "url": "https://danluu.com/zitron",
+      "source": {
+        "platform": "blog",
+        "author": "Dan Luu",
+        "original_date": "2026-09-01"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-bubble",
+        "industry",
+        "skepticism",
+        "analysis"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Dan Luu 逐条核对 AI 怀疑论代表 Ed Zitron 的预测与现实结果,并先交代自己的立场:他既记录过低估 AI 进展的时刻,也记录过高估 AI 进展的时刻文章以事实比对为主,而不是以反驳立论",
+      "summary_en": "Dan Luu goes through Ed Zitron's AI-skeptic predictions and checks them against outcomes. Luu states his own priors he's been on record both under- and over-estimating AI progress in the past and lays out the empirical record as a comparison, rather than as a polemic.",
+      "one_liner": "Dan Luu 逐条核对 AI 怀疑论代表 Ed Zitron 的预测与现实结果,并先交代自己的立场:他既记录过低估 AI 进展的时刻,也记录过高估 AI 进展的时刻文章以事实比对为主,而不是以反驳立论",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/56a6fd93.md",
+      "images": [],
+      "added_date": "2026-09-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-09-01",
-  "total_entries": 2101
+  "last_updated": "2026-09-02",
+  "total_entries": 2109
 }
