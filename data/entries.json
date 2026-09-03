@@ -63585,8 +63585,136 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "0fe437a1",
+      "title": "FrontierHarness Eval: 9 harnesses x 12 configs on Kimi K3 same model, 17.5x cost spread",
+      "url": "https://frontierharness.org",
+      "source": {
+        "platform": "blog",
+        "author": "Runta",
+        "original_date": "2026-09-01"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "agent-eval",
+        "frontierharness",
+        "kimi-k3",
+        "cost-comparison"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "FrontierHarness Eval v1.0 在 Kimi K3 上对比 9 个 harness（Codex / Claude Code / DSH Creator/Standard/Minimal/Pi / Hermes / OpenCode / Oh My Pi / Kimi Code / Exo）共 12 个配置，30 个任务 / 360 次冷启动同 checkpoint 评测Pass rate 跨度 50.0%66.7%（Codex 66.7 / Claude Code 63.3 / Hermes 50 / Exo 53.3）；中位 $/pass 跨度 $1.05$18.34（约 17.5 倍），摊销 $/success 跨度 $0.0615$0.2880（约 4.7 倍，且排序会翻转）CC token-weighted cache 中位 25.0%，明显低于全场 67.8%；单条案例题（python-statemachine）CC 跑到 381 turns / $64.36 / 15.7% cacheLive 榜 + Runta 博文 + repo 一并公开，v1.1 计划扩 harnessmodel 矩阵提示：实现侧分叉已从推理栈延伸到 agent 会话壳，读榜时需拆列，单模型横切不能直接当整体排名",
+      "summary_en": "FrontierHarness Eval v1.0 evaluates 9 harnesses (Codex, Claude Code, DSH Creator/Standard/Minimal/Pi, Hermes, OpenCode, Oh My Pi, Kimi Code, Exo) over 12 configurations on Kimi K3 with 30 tasks and 360 cold-start identical-checkpoint runs. Pass rate spans 50.0%66.7% (Codex 66.7, Claude Code 63.3, Hermes 50, Exo 53.3). Median cost per successful task spreads $1.05$18.34 (17.5x); amortized $/success spans $0.0615$0.2880 (4.7x and reverses the ranking). Claude Code's token-weighted cache median is 25.0%, well below the field median of 67.8%; one case task (python-statemachine) reaches 381 turns and $64.36 at 15.7% cache. Live leaderboard, Runta blog post, and the eval repository are publicly released; v1.1 plans a harnessmodel matrix.",
+      "one_liner": "FrontierHarness Eval v1.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/0fe437a1.md",
+      "images": [],
+      "added_date": "2026-09-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e8ef6192",
+      "title": "Let Claude use your computer in Cowork Anthropic help center updated 2026-09-02",
+      "url": "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic Help Center",
+        "original_date": "2026-09-02"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use",
+        "claude-desktop",
+        "cowork",
+        "agent-execution",
+        "permission"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anthropic 帮助中心 2026-09-02 更新条目正式描述了 Cowork 中让 Claude 操作你的电脑能力：Pro / Max 订阅在 macOS 15+ 默认开启桌面后台窗，按应用授权可见性，可触达截屏可见的所有桌面内容；Team / Enterprise 暂未开放该能力把 Anthropic 模型的执行落点直接钉在用户本机 GUI 上，配合截屏-按应用-授权三段权限，订阅与本地权限成为两条独立闸门",
+      "summary_en": "Anthropic's help center entry updated 2026-09-02 documents the Cowork capability that lets Claude drive the user's computer: Pro/Max subscribers on macOS 15+ get a default background desktop window with per-app visibility grants and can reach everything visible on the screen; Team/Enterprise is not yet available. The capability pins Anthropic's model execution onto the user's local GUI, with screen capture, per-app scope, and authorization as three independent gates alongside the subscription.",
+      "one_liner": "Anthropic 帮助中心 2026-09-02 更新条目正式描述了 Cowork 中让 Claude 操作你的电脑能力：Pro / Max 订阅在 macOS 15+ 默认开启桌面后台窗，按应用授权可见性，可触达截屏可见的所有桌面内容.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e8ef6192.md",
+      "images": [],
+      "added_date": "2026-09-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "63f23fd5",
+      "title": "Run cloud agents on machines you manage Cursor Self-Hosted Machines",
+      "url": "https://cursor.com/blog/self-hosted-machines",
+      "source": {
+        "platform": "blog",
+        "author": "Cursor",
+        "original_date": "2026-09-02"
+      },
+      "category": "agents",
+      "tags": [
+        "cursor",
+        "self-hosted",
+        "cloud-agent",
+        "agent-execution",
+        "data-sovereignty"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Cursor 博文 2026-09-02 推出 Self-Hosted Machines：loop 与推理仍在 Cursor 云端，但 agent 实际执行落在企业自己管理的 worker / 池上；通过 agent worker start 入网，对外出站走 HTTPS工具输出与 transcript 仍回流到 Cursor 云编排层，与完全自托管差距明显；订阅/编排与执行位置因此被切成两条线",
+      "summary_en": "Cursor's 2026-09-02 blog post introduces Self-Hosted Machines: the agent loop and inference still run in Cursor's cloud, but agent execution lands on worker machines managed by the customer. Workers join via agent worker start and egress over HTTPS. Tool output and transcripts still flow back to Cursor's cloud orchestration, which is distinct from 'fully self-hosted'; the subscription/orchestration and execution location split into two separate planes.",
+      "one_liner": "Cursor 博文 2026-09-02 推出 Self-Hosted Machines：loop 与推理仍在 Cursor 云端，但 agent 实际执行落在企业自己管理的 worker / 池上.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/63f23fd5.md",
+      "images": [],
+      "added_date": "2026-09-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "de33e377",
+      "title": "陈梓立：Agentic Coding 时代，什么是核心竞争力？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4NTM4NDc4NQ%3D%3D&mid=2247546058&idx=1&sn=29bf169d86c161ec077d20bd862e8d97&chksm=9e047ff25e2c268c3373e60328f3d7587a106da4d2ad7efe3176d943a48fe6011560feebd2ea",
+      "source": {
+        "platform": "wechat",
+        "author": "陈梓立 / KAIYUANSHE",
+        "original_date": "2026-09-03"
+      },
+      "category": "coding",
+      "tags": [
+        "agentic-coding",
+        "codex",
+        "rust",
+        "open-source",
+        "kaihuiyuanshe"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "陈梓立在 KAIYUANSHE 9 月 3 日文章里围绕Agentic Coding 时代什么是核心竞争力给出三条判断：（1）AI 写代码的价值边界取决于模型是否覆盖你的日常工作基线，他在 Cronexpr 去 winnowasyncband 单 flightHawkEye v7 重写三个真实项目里都用 Codex / Sol Max 完成了上千行变更且测试通过；（2）核心竞争力是说清楚愿望的能力加构建愿望落地路径的能力，也就是系统一思考质量和决策点识别，纯实施/细节层被 agent 大幅接管；（3）开源软件库会被重塑，很多为省力引入的依赖AI 写得动就不必再引；Rust 难写但 tool-call 反馈进训练后代码可读性已被抹平",
+      "summary_en": "Chen Zili's 2026-09-03 KAIYUANSHE essay argues three points on competitive advantage in the Agentic Coding era: (1) The value of AI coding hinges on whether the model covers your daily baseline; he reports Codex/Sol Max shipping Cronexpr's winnow removal, asyncband's singleflight, and HawkEye v7 rewrite all with passing tests. (2) The core competency is the ability to articulate a wish plus the ability to build its delivery path i.e. System-1 quality and decision-point recognition while pure implementation is largely absorbed by agents. (3) Open-source libraries will be remodeled: many 'convenience dependencies' can now be inlined by AI, and Rust's tool-call feedback into training has largely flattened its readability gap.",
+      "one_liner": "陈梓立在 KAIYUANSHE 9 月 3 日文章里围绕Agentic Coding 时代什么是核心竞争力给出三条判断：（1）AI 写代码的价值边界取决于模型是否覆盖你的日常工作基线.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/de33e377.md",
+      "images": [],
+      "added_date": "2026-09-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-03",
-  "total_entries": 2133
+  "total_entries": 2137
 }
