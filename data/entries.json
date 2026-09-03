@@ -63461,8 +63461,132 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "78488009",
+      "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
+      "url": "https://arxiv.org/abs/2609.01603",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kefeng Duan, Dewu Zheng, Yanlin Wang, Xiwen Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Jiachi Chen, Min...",
+        "original_date": "2026-09-01"
+      },
+      "category": "learning",
+      "tags": [
+        "llm-agent",
+        "swe-benchmark",
+        "evaluation",
+        "item-response-theory"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "这篇论文反对仅根据 pass/fail 矩阵选择 SWE 代理评测子集的传统做法提出 PTA-IRT，在 Item Response Theory 中加入trajectory 作为特权信息：不仅看正确率，还看过程中探索了哪些文件尝试了哪些编辑走了哪些路径在四个 SWE 基准上，在低校准预算下，PTA-IRT 在分数与排名恢复上均优于现有 IRT 基线代码与数据：",
+      "summary_en": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only: they fit historical pass/fail response matrices or static task semantics, discarding how agents solve problems. We propose PTA-IRT, a Privileged Trajectory-Aware Item Response Theory framework that fuses process and outcome signals. Historical execution trajectories supply process-level evidence beyond pass/fail, such as explored context, attempted edits, and solving paths, which PTA-IRT uses as privileged information for calibration subset selection and ability estimation....",
+      "one_liner": "这篇论文反对仅根据 pass/fail 矩阵选择 SWE 代理评测子集的传统做法提出 PTA-IRT，在 Item Response Theory 中加入trajectory 作为特权信息：不仅看正确率，还看过程中探索了哪些文件尝试了哪些编辑走了哪些路径在四个 SWE 基准上...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/78488009.md",
+      "images": [],
+      "added_date": "2026-09-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "95ece884",
+      "title": "The Rise of Verbal Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.01597",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kshitij Tayal, Arun Sharma, Genta Indra Winata, Anirban Das, Sambit Sahu",
+        "original_date": "2026-09-01"
+      },
+      "category": "learning",
+      "tags": [
+        "llm-agent",
+        "reinforcement-learning",
+        "verbal-feedback",
+        "survey"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文首次统一提出语言强化学习 (VRL)范式，把以自然语言作为反馈信号的学习体系汇总为三个支柱：语言作为任务地面信号（定义目标/状态/奖励结构）语言作为推理过程反馈（测试时引导推理，不更新参数）语言作为学习信号（训练阶段改变参数）作为统一架构的 survey，为语言代理反馈领域提供了一个清晰的分类谱系",
+      "summary_en": "Natural language is emerging as a primary feedback channel for improving language agents, capable of conveying intent, preferences, and causal structure in forms interpretable by both humans and modern language models. We call this paradigm Verbal Reinforcement Learning (VRL) and offer the first unified account of it. We organize the field around a single axis, when verbal feedback takes effect in an agent's lifecycle and what it modifies, yielding three pillars: (1) Language as Grounding Signal, where language defines the task itself by specifying goals, states, and reward structures; (2) Language as Deliberative Feedback, where natural language guides reasoning at test time without the need to update model parameters; (3) Language as Learning Signal, where language-based feedback shapes model parameters through training.",
+      "one_liner": "论文首次统一提出语言强化学习 (VRL)范式，把以自然语言作为反馈信号的学习体系汇总为三个支柱：语言作为任务地面信号（定义目标/状态/奖励结构）语言作为推理过程反馈（测试时引导推理，不更新参数）语言作为学习信号（训练阶段改变参数）作为统一架构的 survey...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/95ece884.md",
+      "images": [],
+      "added_date": "2026-09-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fc2c84f3",
+      "title": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
+      "url": "https://arxiv.org/abs/2609.01600",
+      "source": {
+        "platform": "arxiv",
+        "author": "Damien Sileo, Dimitri Kachler",
+        "original_date": "2026-09-01"
+      },
+      "category": "learning",
+      "tags": [
+        "llm-agent",
+        "benchmark",
+        "agent-harness",
+        "reasoning"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "随着动态 agent harness 越来越多让 LLM 代理可以修改自身执行环境，代理需要理解组件生命周期CordisBench 提供 1,200 道题目，覆盖干走顺序状态预测不同顺序下的不变量与重配置选择评测发现三款效率型模型在低推理开销下只能处理小系统，随相关交互增加性能明显下降，特别是对打纳顺序的推理与状态预测可作为 harness 面向代理能力评估的新贝伦定位基准",
+      "summary_en": "Dynamic agent harnesses let language models change the software that shapes their own execution. This flexibility brings a new reasoning burden: a local plugin change can propagate through dependencies and cleanup. We introduce CordisBench, a 1,200-question benchmark of this lifecycle reasoning. It combines a controlled formal setting with programs executed against Cordis, a runtime that manages component dependencies and cleanup, and asks models to identify affected components, predict state after a specified teardown order, determine which conditions hold under all or some orders, and choose reconfigurations that succeed when executed. Across these tasks, we evaluate three efficiency-oriented models at low reasoning effort with 2, 4, 8, 16, 24, or 32 relevant interactions, using deterministic task-specific scoring....",
+      "one_liner": "随着动态 agent harness 越来越多让 LLM 代理可以修改自身执行环境，代理需要理解组件生命周期CordisBench 提供 1,200 道题目，覆盖干走顺序状态预测不同顺序下的不变量与重配置选择评测发现三款效率型模型在低推理开销下只能处理小系统...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fc2c84f3.md",
+      "images": [],
+      "added_date": "2026-09-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f894ee7a",
+      "title": "Mechanism Design for Alignment and Control",
+      "url": "https://arxiv.org/abs/2609.01595",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dirk Bergemann, Andrew Koh, Stephen Morris",
+        "original_date": "2026-09-01"
+      },
+      "category": "learning",
+      "tags": [
+        "ai-alignment",
+        "mechanism-design",
+        "incentive-design",
+        "scalable-oversight"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文从机制设计角度推广 AI 代理的对齐问题：代理的偏好与能力都不可观测在能力可隐藏不可伪造的单向仿造结构下，获得一个披露原则可行政策的嵌套周期单调性表述以及高阶信念调查多代理的先决条件并应用到提及能力alignment-interpretability 权衡同伴评分纠偏奖励耦合与可扩展监督等具体场景",
+      "summary_en": "We develop a framework for mechanism design with AI agents whose alignment (preferences) and capabilities (feasible actions and information) are unknown. We want such agents to act on our behalf so mechanisms must incentivize both honesty and obedience. A one-sided imitation structure, capabilities can be concealed but not counterfeited, yields a revelation principle, a characterization of implementable policies via nested cyclical monotonicity, and conditions under which eliciting higher-order beliefs can discipline multiple agents....",
+      "one_liner": "论文从机制设计角度推广 AI 代理的对齐问题：代理的偏好与能力都不可观测在能力可隐藏不可伪造的单向仿造结构下...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f894ee7a.md",
+      "images": [],
+      "added_date": "2026-09-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-03",
-  "total_entries": 2129
+  "total_entries": 2133
 }
