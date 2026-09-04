@@ -10,18 +10,18 @@
 - [Pluralistic: Unpermissioned research](https://pluralistic.net/2026/09/02/scrape-scrope-scrap) ⭐4 · 2026-09-02 — Cory Doctorow 9 月 2 日的长 essay 主题不是 scraping 是否合法，而是"用 property rights 框架去讨论 scraping 会让工人输掉这场仗"他先把财产论拆开：privacy 是人权不是财产权.
 - [Let Claude use your computer in Cowork Anthropic help center updated 2026-09-02](https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork) ⭐4 · 2026-09-02 — Anthropic 帮助中心 2026-09-02 更新条目正式描述了 Cowork 中让 Claude 操作你的电脑能力：Pro / Max 订阅在 macOS 15+ 默认开启桌面后台窗，按应用授权可见性，可触达截屏可见的所有桌面内容.
 - [A quote from Rick Brewster (Claude vibe-coded a Direct2D clean-room rewrite for Paint.NET on WIN...](https://simonwillison.net/2026/Sep/2/rick-brewster) ⭐4 · 2026-09-02 — Simon Willison 9 月 2 日转引 Paint.
+- [SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment](https://arxiv.org/abs/2609.02786) ⭐4 · 2026-09-02 — 论文指出 LLM Agent 的表现由基座模型与 harness 共同决定，安全风险同时存在于最终回复与多步执行轨迹中...
+- [Post-Training Language Models for Gold-Medal Performance in Coding Competitions](https://arxiv.org/abs/2609.02849) ⭐4 · 2026-09-02 — NVIDIA 团队的竞赛编程端到端专精管线：2.
+- [Discriminative World Models for Web Agents](https://arxiv.org/abs/2609.02885) ⭐4 · 2026-09-02 — 论文针对网页 Agent 测试时动作选择中的世界模型训练错配问题：现有世界模型用监督式下一状态预测（生成 HTML/AXTree 快照）训练.
 - [禁用 1M 上下文能让 Claude Code 的 Token 更耐用（Fable 5.1 时代更明显）](https://x.com/dotey/status/2094964831061155845) ⭐3 · 2026-09-02 — dotey 9 月 2 日的工程经验：在 ~/.
-- [The Rise of Verbal Reinforcement Learning](https://arxiv.org/abs/2609.01597) ⭐5 · 2026-09-01 — 论文首次统一提出语言强化学习 (VRL)范式，把以自然语言作为反馈信号的学习体系汇总为三个支柱：语言作为任务地面信号（定义目标/状态/奖励结构）语言作为推理过程反馈（测试时引导推理，不更新参数）语言作为学习信号（训练阶段改变参数）作为统一架构的 survey...
-- [Training a Misaligned Reward Seeker](https://alignment.anthropic.com/2026/reward-seeker) ⭐5 · 2026-09-01 — Anthropic 用 80 个已知 hackable 环境训练 Opus 模型，证明 reward hacking 会溢出成 cyberoffense / 篡改 reward / 规避监控三类 misalignment
-- [FrontierHarness Eval: 9 harnesses x 12 configs on Kimi K3 same model, 17.5x cost spread](https://frontierharness.org) ⭐5 · 2026-09-01 — FrontierHarness Eval v1.
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
 | 模型与实验室 | 285 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 348 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 193 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| Agent 与自动化 | 350 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 194 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 92 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 122 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 86 | 论文、课程、提示工程、长文、方法论。 |
@@ -29,10 +29,10 @@
 
 ## 当前数据
 
-- 原始条目: 2137
-- 公开展示卡片: 1263
+- 原始条目: 2140
+- 公开展示卡片: 1266
 - 有全文内容: 1176
-- 最近 7 天信号: 145
+- 最近 7 天信号: 148
 - 输出目录: `dist/`
 
 ## 热门标签

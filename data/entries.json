@@ -63713,8 +63713,101 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "da3f4917",
+      "title": "Discriminative World Models for Web Agents",
+      "url": "https://arxiv.org/abs/2609.02885",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kelvin Li, Dhruv Pendharkar, Anish Pahilajani, Chuyi Shang, Leon Oks, Leonid Karlinsky, Rogerio Feri...",
+        "original_date": "2026-09-02"
+      },
+      "category": "agents",
+      "tags": [
+        "web-agents",
+        "world-models",
+        "process-reward-model",
+        "test-time-compute"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文针对网页 Agent 测试时动作选择中的世界模型训练错配问题：现有世界模型用监督式下一状态预测（生成 HTML/AXTree 快照）训练，但下游 ranker/PRM 依赖的是预测状态在候选动作间的可区分性作者提出 predicted-state matching 训练目标预测表示必须把真实后续状态与备选动作到达的状态区分开并用 WebArena Go-Browse 轨迹构建的分支数据集训练在自建 benchmark 上超过监督式下一状态预测基线，在 WebPRMBench 上提升 PRM 动作排序，在 WebArena-Lite 上提升端到端任务成功率（cs.AI, cs.LG，2026-09-02）",
+      "summary_en": "Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised next-state prediction to generate fixed representations like HTML or AXTree snapshots. However, this objective is misaligned with the downstream ranker, which relies on predicted states being discriminative across candidates. The authors introduce predicted-state matching, a training objective where the predicted representation must distinguish the true resulting state from those reached by alternative actions, trained on a branching web-agent dataset derived from WebArena Go-Browse trajectories....",
+      "one_liner": "论文针对网页 Agent 测试时动作选择中的世界模型训练错配问题：现有世界模型用监督式下一状态预测（生成 HTML/AXTree 快照）训练.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/da3f4917.md",
+      "images": [],
+      "added_date": "2026-09-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0a74bfbc",
+      "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
+      "url": "https://arxiv.org/abs/2609.02849",
+      "source": {
+        "platform": "arxiv",
+        "author": "Aleksander Ficek, Sean Narenthiran, Mehrzad Samadi, Somshubra Majumdar, Boris Ginsburg",
+        "original_date": "2026-09-02"
+      },
+      "category": "coding",
+      "tags": [
+        "competitive-programming",
+        "post-training",
+        "reinforcement-learning",
+        "test-time-compute"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "NVIDIA 团队的竞赛编程端到端专精管线：2.2 万道精选题 + 合成推理轨迹 + SFT + RLNemotron-3-Nano-CC（30B-A3B，SFT+RL）在 IOI 2025 从 130 分提升到 291 分，配合测试时策略 GenCorrect（生成-评估-精炼多样解）达到 468 分，超过金牌线 438.3；550B 的 Ultra-CC 仅用 SFT 达到 502在 IOI 2026 与人类选手同时限同网络同提交约束的前瞻评估中，竞赛特化版 Ultra-CC 得分 535.4/600，超过金牌线 361.12 和人类最高分 498.27据作者称是首个在 IOI 题集上超越人类最高分选手的 AI 系统（cs.LG/cs.AI/cs.SE 等，2026-09-02）",
+      "summary_en": "An end-to-end specialization pipeline for competitive programming combining large-scale problem curation, synthetic reasoning traces, supervised fine-tuning (SFT), and reinforcement learning (RL). Using 22,000 curated problems, the NVIDIA team trains Nemotron-3-Nano-CC (30B-A3B) with SFT+RL and Nemotron-3-Ultra-CC (550B-A55B) with SFT alone, plus GenCorrect, a feedback-driven test-time compute strategy that iteratively generates, evaluates, and refines diverse solutions. On IOI 2025, Nano-CC improves from 130 to 291 points after post-training and to 468 with GenCorrect, exceeding the gold threshold of 438.3, while Ultra-CC reaches 502....",
+      "one_liner": "NVIDIA 团队的竞赛编程端到端专精管线：2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0a74bfbc.md",
+      "images": [],
+      "added_date": "2026-09-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "26f85688",
+      "title": "SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment",
+      "url": "https://arxiv.org/abs/2609.02786",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qinghua Mao, Wanying Qu, Dadi Guo, Leitao Yuan, Qingyu Liu, Yu Li, Guanxu Chen, Yanwei Fu, Xi Lin, X...",
+        "original_date": "2026-09-02"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-safety",
+        "harness-engineering",
+        "safety-alignment",
+        "reinforcement-learning"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文指出 LLM Agent 的表现由基座模型与 harness 共同决定，安全风险同时存在于最终回复与多步执行轨迹中，而现有对齐手段只单靠 harness 更新或策略优化其一SafeEvolve 用已完成 on-policy 轨迹中的安全经验驱动 harness-策略协同进化闭环：harness 侧把轨迹级安全证据转成有界组件级可审计可回滚的安全 prompt 与分层技能更新；策略侧两阶段 SFT-RL先用 harness-use SFT 引导策略利用演进的 harness 产物，再用 verifier 分解奖励的 RL 在多步探索中塑造自主安全行为Qwen3.5-4B 在 AgentDojo 上攻击成功率降为 1/3，良性效用从 59.79% 升至 61.86%（cs.AI, cs.CR，2026-09-02）",
+      "summary_en": "LLM-based agent performance is jointly shaped by the base model and the harness used to interact with the environment, exposing safety risks in both final responses and multi-step execution trajectories. SafeEvolve is an experience-driven self-evolving framework for agent safety alignment: it leverages safety experience from completed on-policy trajectories to drive a continual harness-policy co-evolution loop. On the harness side, trajectory-level safety evidence is converted into bounded, component-level updates across safety prompts and hierarchical skills, yielding auditable and reversible harness artifacts. On the policy side, a two-stage SFT-RL paradigm bootstraps the policy to leverage evolved harness artifacts, then shapes autonomous safety behavior during multi-step exploration via verifier-decomposed rewards....",
+      "one_liner": "论文指出 LLM Agent 的表现由基座模型与 harness 共同决定，安全风险同时存在于最终回复与多步执行轨迹中...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/26f85688.md",
+      "images": [],
+      "added_date": "2026-09-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-09-03",
-  "total_entries": 2137
+  "last_updated": "2026-09-04",
+  "total_entries": 2140
 }
