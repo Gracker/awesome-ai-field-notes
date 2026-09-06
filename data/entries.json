@@ -64564,8 +64564,314 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "f4b8cb8f",
+      "title": "Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR",
+      "url": "https://arxiv.org/abs/2609.04108",
+      "source": {
+        "platform": "arxiv",
+        "author": "Boyan Li, Bingsen Chen, Chenghao Yang, Ping Nie, Chen Zhao, Xi Ye",
+        "original_date": "2026-09-03"
+      },
+      "category": "agents",
+      "tags": [
+        "post-training",
+        "rlvr",
+        "on-policy-distillation",
+        "reasoning-llm"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Boyan Li 等 9 月 3 日 arXiv (cs.CL) 投稿RLVR 与 On-Policy Distillation (OPD) 是当下 post-training 推理模型的两条主线，过去的工作把 OPD 的 token-level dense 信号和 RL 的 sparse reward 一步内加权加或 teacher-modulated rescale 混合本文给出一个干净的反例：先 OPD 后 RL 两阶段，跨逻辑/数学推理 benchmark 全面优于纯 OPD纯 RLVR 与所有 joint baseline；并从 pass@klearning dynamics参数更新三个角度给出统一解释：OPD 扩 teacher-supported solution 的覆盖，RL 在覆盖里锐化，一步同时优化会互相干扰判定切到 RL 的实操信号是 OPD validation score，且 OPD 比 SFT 是更好的 RL cold start",
+      "summary_en": "Reinforcement learning with verifiable rewards (RLVR) and on-policy distillation (OPD) have emerged as two dominant methods for post-training reasoning LLMs. Prior work uses OPD's dense token-level supervision to complement the sparse RL reward, fusing the two signals within a single step: either as a \\emph{weighted-additive combination} or a \\emph{teacher-modulated rescaling} of the RL advantage. In this paper, we show that a simple two-stage scheme, OPD-then-RL, consistently outperforms pure OPD, pure RLVR, and all such joint baselines across logic and math reasoning benchmarks. Beyond the empirical results, we further provide a systematic understanding of this through pass@$k$ behavior, learning dynamics, and parameter updates, yielding a consistent explanation: OPD expands the student's coverage of teacher-supported solutions and RL sharpens within that support, while jointly optimiz",
+      "one_liner": "把\"OPD + RL 该不该一起做\"的工程争论用一组统一实验关掉：SFT cold start OPD cold start RL 应成 Agent RL 训练默认 pipeline",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/f4b8cb8f.md",
+      "images": [],
+      "added_date": "2026-09-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d568bc52",
+      "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+      "url": "https://arxiv.org/abs/2609.04172",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zixuan Fu, Bingxiang He, Yuxin Zuo, Haohuan Huang, Jinqian Zhang, Ruhang Xiao, Cheng Qian, Qinyu Luo...",
+        "original_date": "2026-09-03"
+      },
+      "category": "models",
+      "tags": [
+        "post-training",
+        "on-policy-distillation",
+        "data-efficiency"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Zixuan Fu 等 12 人（浙大 + 字节 + DeepSeek，2026-09-03 提交 cs.AI，29 页 20 图）把 OPD 推到数据极小极限单条 query 训练，单次 OPD 在数百步内仍能持续提升，恢复出接近 full-data OPD 跨任务域和模型家族的大部分增益解释方式是 state coverage：单条 query 的 rollout 100 步内覆盖 71.5% 状态；16 条语义不同的 query 覆盖到 98.9%，匹配 full-data结论：OPD data-overfed 但 algorithm-starved",
+      "summary_en": "On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly studied its algorithmic behavior, leaving the role of training data unclear. We examine this role at the data-minimal limit by training on a single query. One-shot OPD keeps improving for hundreds of steps and recovers most of full-data OPD's gain across task domains and model families. We explain this result through the states visited during training and the rate at which the student aligns with the teacher. We measure \\emph{state coverage}, the fraction of the states full-data OPD visits that a query set's rollouts reach. A single query already reaches \\(71.5\\%\\), most of it within the first 100 steps. Adding semantically distinct queries raises coverage and validation accuracy together, until 16 queries reach \\(98.9\\%\\) and match full-data traini",
+      "one_liner": "和 Sequential Beats Joint 同周同方向的姐妹篇：先 OPD 用 16 query 起步 + RL 锐化，比堆 SFT 数据再上 RL 更划算",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d568bc52.md",
+      "images": [],
+      "added_date": "2026-09-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "718ed2ae",
+      "title": "Latency-Aware Orchestration for Multi-Agent LLM Workflows on Heterogeneous GPUs",
+      "url": "https://arxiv.org/abs/2609.03335",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jinghao Wang, Yifeng Zhang, Xiao Zhou, Yao Lu, Yihui Zhang, Xiaoyang Sun, Tianyu Wo, Xu Wang, Chunmi...",
+        "original_date": "2026-09-03"
+      },
+      "category": "infra",
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "gpu-scheduling",
+        "inference"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Jinghao Wang 等 9 月 3 日 arXiv (cs.DC) 投稿并发多 agent workflow 暴露未来依赖与 serving-state 需求，同时运行在 heterogeneous GPU 池上（负载模型驻留可用资源均随时间变化）本文给出 latency-aware 调度策略，让多 agent workflow 在异构 GPU 上把 makespan 显著拉短（论文报告 -36.8%），并对 model residency 与迁移开销建模",
+      "summary_en": "Concurrent multi-agent workflows expose future dependencies and serving-state requirements while running on heterogeneous GPU pools with time-varying load, model residency, and resource availability. The logical workflow defines the required computation, whereas its physical scheduling units, model-lifecycle actions, resource ordering, and placement must be selected according to the observed pool state. We present a prediction-guided runtime that uses workflow forecasts to construct and optimize a physical execution graph. Predictor estimates device-specific activation latency, peak memory, and model-loading cost, then propagates these predictions through workflow dependencies to forecast activation readiness and future model demand. Constructor builds semantics-preserving fusion and model-lifecycle alternatives, while Scheduler jointly optimizes their selection, placement, and execution",
+      "one_liner": "把\"agent workflow 调度\"从均质 GPU 假设推到异构 GPU + 时变负载的实际生产场景，agent 平台栈基础设施论文",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/718ed2ae.md",
+      "images": [],
+      "added_date": "2026-09-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "658c1eb8",
+      "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
+      "url": "https://arxiv.org/abs/2609.04168",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yujie Zhang, Huiying Lan, Ehsan Aghapour, Zhiyuan Ning, Peng Zan, Weidong Shao, Anuj Pathania, Tulik...",
+        "original_date": "2026-09-03"
+      },
+      "category": "infra",
+      "tags": [
+        "edge-inference",
+        "soc",
+        "heterogeneous-computing",
+        "ml-compiler"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Yujie Zhang 等 9 月 3 日 arXiv (cs.DC) 投稿，IEEE TCAD 已接收把 ML 计算图映射到 heterogeneous SoC：在 Amlogic（ARM big.LITTLE + GPU）和黑芝麻（DLA + 2 DSP）上做 hierarchical 阶段内 + 阶段间算子并行，吞吐优先配置相对纯 pipeline 平均能效 +11.0%相对纯并行 +23.3%",
+      "summary_en": "As edge-based deep learning applications become more complex, optimizing performance on heterogeneous System-on-Chips (SoCs) presents unique challenges. Traditional pipelining techniques distributing the computation across different on-chip processing units, while effective for throughput, do not address the latency demands posed by modern neural networks with complex interdependencies and extensive operator parallelism. There is a potential in leveraging operator parallelism to enable concurrent execution across multiple processing units, thereby reducing inference latency. However, prioritizing pipelining or parallel execution often necessitates a compromise, where optimizing one performance metric adversely impacts the other. This paper introduces Para-Pipe, a hierarchical mapping framework that integrates intra- and inter-stage operator parallelism within a pipelined architecture. Pa",
+      "one_liner": "端侧 SoC LLM 推理的部署期图映射工具，与昨日 mzCache（运行时 KV 弹性）形成 complementary pair",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/658c1eb8.md",
+      "images": [],
+      "added_date": "2026-09-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "779bdb38",
+      "title": "AceSpec: An Asymmetric Edge-Cloud Collaborative Framework for Communication-Efficient LLM Inference",
+      "url": "https://arxiv.org/abs/2609.02514",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yida Zhang, Zhiyong Gao, Shuaibing Yue, Jie Li, Rui Wang",
+        "original_date": "2026-09-02"
+      },
+      "category": "infra",
+      "tags": [
+        "edge-inference",
+        "speculative-decoding",
+        "edge-cloud"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Yida Zhang 等 9 月 2 日 arXiv (cs.DC) 投稿端侧部署 LLM 通常依赖模型压缩或 split inference，但压缩会损推理能力，split inference 受网络不稳拖累AceSpec 提出非对称端云协同框架，WAN 不稳时把 speculative pipeline flush 转本地 O(1) 查询；3.52 加速，50 Kbps 极限场景近峰值吞吐",
+      "summary_en": "Deploying Large Language Models (LLMs) on edge devices typically relies on model compression or split inference. However, compression degrades reasoning capabilities, while split inference suffers from severe Wide Area Network (WAN) communication bottlenecks. Edge-cloud speculative decoding emerges as a promising alternative, leveraging an edge small model to draft tokens for cloud verification. Yet, over volatile WANs, inevitable prediction rejections trigger catastrophic pipeline stalls and network-wide rollbacks, neutralizing collaborative gains. To overcome this, we propose AceSpec, an asymmetric edge-cloud collaborative framework. AceSpec utilizes un-saturated edge compute to proactively construct a probabilistic state cache, effectively transforming network-wide pipeline flushes into $\\mathcal{O}(1)$ local memory lookups. To preserve bandwidth, it employs an asymmetric communicatio",
+      "one_liner": "WAN 不稳下 speculative decoding 也能跑：pipeline flush 转本地 O(1) 查询，端云协同解码的实用锚点",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/779bdb38.md",
+      "images": [],
+      "added_date": "2026-09-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "40d7d24c",
+      "title": "AI handles incidents, engineers lose touch with their systems",
+      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "source": {
+        "platform": "blog",
+        "author": "Sylvain Kalache (Rootly)",
+        "original_date": "2026-09-04"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-sre",
+        "incident-response",
+        "automation-ironies",
+        "chaos-engineering"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Rootly 的 Sylvain Kalache（前 LinkedIn SRE）9 月 4 日发文，把当下 AI SRE / 事故响应工具的扩散放进 Lisanne Bainbridge 1983 年Ironies of Automation框架：自动化越成熟，人越没机会练手，罕见异常真正来时反而最差判断：AI SRE 普及后整体 MTTR 会下降，但复杂事故恢复时间会显著拉长Kalache 用航空业对照FAA 要求机长每 6 个月做含发动机失效等场景的复飞训练，原因是商用涡轮发动机每 10 万飞行小时不到一次 in-flight shutdown落到工程团队这边，混沌工程和桌面推演必须升级为\"事故模拟器\"他的提醒很直白：explanation and observation are not substitutes for practice",
+      "summary_en": "Rootly's Sylvain Kalache places AI SRE's spread in Bainbridge's 1983 Ironies of Automation frame: the more mature automation becomes, the less humans practice; when rare anomalies arrive, responders are worst. He predicts aggregate MTTR falls while complex-incident recovery time rises; engineers must upgrade chaos engineering into incident simulators with pressured judgment against LLM stakeholders.",
+      "one_liner": "AI 修事故越顺，工程师就越不会修事故；混沌工程必须升级成\"事故模拟器\"，让工程师在压力下做判断",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/40d7d24c.md",
+      "images": [],
+      "added_date": "2026-09-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "343437e9",
+      "title": "Latent Powers",
+      "url": "https://lucumr.pocoo.org/2026/9/5/latent-powers",
+      "source": {
+        "platform": "blog",
+        "author": "Armin Ronacher (@mitsuhiko)",
+        "original_date": "2026-09-05"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-design",
+        "methodology",
+        "llm-ux"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Armin Ronacher（@mitsuhiko）9 月 5 日写了一篇短文复盘自己改造廉价 CarPlay dongle 的过程：他和 Kimi K3Sol 反复讨论后选定了 CatPlay 这个 Rust 重写的 CarPlay 协议实现，结果发现一位独立工作的朋友几乎同时被自己的 agent 推到同一个方向用了同一条工具链Armin 把这个现象称作\"latent powers\"同一批模型在同一时间释放出的同一组能力，会让多个互不相识的人在无意识中做出相同的选择；HTML 报告取代 MarkdownArtifact 化输出同一类玩具项目扎堆出现，都可能不是巧合而是模型能力面被同步激活后的副作用这是一篇写得克制的方法论笔记",
+      "summary_en": "Armin Ronacher (mitsuhiko) recounts how his and an independent friend's AI agents converged on the same CarPlay-dongle path with the same Rust rewrite toolchain within hours. He coins 'latent powers' for the same-time release of identical capability surfaces from the current model generation, and lists collateral symptoms: HTML reports replacing Markdown, artifact-ization, simultaneous toy projects. A restrained methodology note.",
+      "one_liner": "\"latent powers\"：同一批模型同步释放的同一组能力，会把互不相识的人无意识推到同一条路Agent 时代的方法论侧记",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/343437e9.md",
+      "images": [],
+      "added_date": "2026-09-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8a4b2ca6",
+      "title": "we have a year to fix security everywhere",
+      "url": "https://jyn.dev/a-year-to-fix-security",
+      "source": {
+        "platform": "blog",
+        "author": "jyn",
+        "original_date": "2026-09-04"
+      },
+      "category": "agents",
+      "tags": [
+        "open-weight",
+        "ai-security",
+        "agent-threat-model"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "jyn 9 月 4 日发文算了一笔硬账：Z.ai 发布的 GLM 5.3-Flash 是开源权重模型，DeAlignAI 等机构发布的 abliterated 版本在 Harmbench-320 上得 0 分相当于把\"拒绝执行危险任务\"的护栏全部拆掉模型本身不贵：单卡约 6 千美元 NVIDIA GPU 跑得动，约 20 tokens/秒；9 月 22 日上市的 M5 Mac Studio（256GB 统一内存起价 9,500 美元）预计能到 30 tokens/秒，加上解码优化可摸到 45 tokens/秒jyn 给代码演示：45 tokens/秒足够 3 秒内写完 sha256 摘要脚本；换成更复杂的利用链，时间也只是再翻几倍文章呼吁行业立刻启动 Anthropic 的 Project Glasswing 和 OpenAI 的 Daybreak 这类\"用前沿 LLM 主动扫漏洞并修\"的工程，否则便宜去护栏能在本地跑的模型一旦普及，修补窗口会被无限压缩",
+      "summary_en": "jyn argues open-weight GLM 5.3-Flash + abliterated variants wipe refusals (Harmbench-320 = 0) and now run at 3045 tok/s on a sub-$10k M5 Mac Studio, fast enough for sha256 scripts in 3 seconds. With cheap, unguarded, locally-runnable models entering mass hardware, the patching window collapses. Calls for Anthropic's Project Glasswing and OpenAI's Daybreak frontier-LLM-driven vulnerability scanning and patching to launch.",
+      "one_liner": "open-weight + abliterated + 廉价硬件让\"裸奔模型\"三秒就能写 sha256 摘要，修补窗口按年计：GLM 5.3-Flash 后的安全警报",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/8a4b2ca6.md",
+      "images": [],
+      "added_date": "2026-09-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "959aa5be",
+      "title": "Google AI Mode shows the same products 21.6% more expensive than traditional search",
+      "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
+      "source": {
+        "platform": "blog",
+        "author": "Hugo Huijer (Productrise)",
+        "original_date": "2026-09-01"
+      },
+      "category": "industry",
+      "tags": [
+        "google-ai-mode",
+        "serp",
+        "price-study",
+        "search-economics"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Productrise 9 月 1 日放出 8 月 9 日到 31 日连续 23 天跨美英市场追踪 10 万条以上 SERP 与 AI Mode 响应覆盖 200 万条商品列表后的数据研究当同一商品同时出现在 AI Mode 和传统搜索时，AI Mode 上的价格平均贵 21.6%把\"只在一侧出现\"的商品也算进来，AI Mode 商品中位价比传统搜索高 49%（149 美元 vs 100 美元）；同一商品两边价格不一致概率 38.1%，不一致时 AI Mode 更贵占 68.4%更刺眼的发现是两边产品重合度极低AI Mode 平均每次只展示 3.9 个商品，传统搜索 27.8 个，重合商品仅 0.94 个；同期 AI Mode 占总曝光商品比例只有 12.3%AI Mode 同时更倾向直接链到品牌官网，给商家留出了一些不靠价格竞争的缝隙",
+      "summary_en": "Productrise's 23-day cross-market study (10k+ SERPs / AI Mode responses, 2M listings): when both surfaces list the same product, AI Mode is 21.6% more expensive. With only-on-one-side items included, median AI Mode price is 49% higher ($149 vs $100). Price disagreement rate is 38.1%; when they disagree, AI Mode is more expensive 68.4% of the time. AI Mode shows just 3.9 products vs traditional search's 27.8 (overlap only 0.94), and skews toward brand sites, leaving merchants a non-price competitive lane.",
+      "one_liner": "同一商品在 Google AI Mode 比传统搜索贵 21.6%，且更倾向链品牌官网商家不靠价格竞争的缝隙在扩大",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/959aa5be.md",
+      "images": [],
+      "added_date": "2026-09-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "91607928",
+      "title": "重写给 GPT-6 Astra 用的 AGENT.md",
+      "url": "https://x.com/Khazix0918/status/2096125440893329685",
+      "source": {
+        "platform": "x",
+        "author": "@Khazix0918",
+        "original_date": "2026-09-05"
+      },
+      "category": "agents",
+      "tags": [
+        "agents-md",
+        "prompt-engineering",
+        "gpt-6-astra",
+        "agent-config"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "@Khazix0918 9 月 5 日发布了一份给 GPT-6 Astra 重写的 AGENT.md（note tweet 全文 2.7KB）七段结构：沟通 / 指令优先级 / 执行方式 / 测试与验证 / 工具与并行 / 规则来源明确写\"用户当前明确指令优先于 Skill历史记忆和默认偏好\"；把 CLAUDE.md 降为兼容入口不复制规则正文，只留一份 canonical AGENTS.md；测试规则是\"跑与本次改动相称的测试\"，通过后除非出现新失败不再扩大；子 Agent 只在有真正独立工作流时才用，且必须有输入/输出/完成判据判断：可直接对照抄的一份配置最值得借的是单一 canonical + 项目级覆盖的分层，以及\"不要因为假想风险主动加警告和审批流程\"这条反向约束",
+      "summary_en": null,
+      "one_liner": "可直接抄的 Astra-tuned AGENT.md：单一 canonical + 项目级覆盖的分层，\"用户当前指令优先于 Skill\"这条反向约束最值得抄",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/91607928.md",
+      "images": [],
+      "added_date": "2026-09-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-06",
-  "total_entries": 2163
+  "total_entries": 2173
 }
