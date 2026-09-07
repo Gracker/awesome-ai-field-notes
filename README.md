@@ -19,25 +19,25 @@
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 290 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 364 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 199 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 模型与实验室 | 291 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 367 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 200 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 97 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 124 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 88 | 论文、课程、提示工程、长文、方法论。 |
+| 研究与学习 | 89 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 137 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 2173
-- 公开展示卡片: 1299
+- 原始条目: 2179
+- 公开展示卡片: 1305
 - 有全文内容: 1212
-- 最近 7 天信号: 143
+- 最近 7 天信号: 144
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `evaluation`, `openai`, `anthropic`, `agent-security`, `multi-agent`, `security`, `claude-code`, `agent-memory`, `agents`, `open-source`, `coding-agent`, `google`, `coding-agents`, `llm`, `safety`, `agent-harness`
+`arxiv`, `benchmark`, `evaluation`, `openai`, `anthropic`, `agent-security`, `multi-agent`, `security`, `claude-code`, `agent-memory`, `agents`, `coding-agent`, `open-source`, `google`, `coding-agents`, `llm`, `mcp`, `safety`
 
 ## 自动化约定
 

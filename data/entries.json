@@ -64893,8 +64893,194 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "2505.12540",
+      "title": "Harnessing the Universal Geometry of Embeddings",
+      "url": "https://arxiv.org/abs/2505.12540",
+      "source": {
+        "platform": "arxiv",
+        "author": "Rishi Jha, Collin Zhang, Vitaly Shmatikov, John X. Morris",
+        "original_date": "2025-05-18"
+      },
+      "category": "models",
+      "tags": [
+        "embedding",
+        "representation-learning",
+        "platonic-rep",
+        "model-merging"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Jha 等 5 月 18 日 arXiv (cs.LG)；提出首个无配对数据无预定义匹配跨 encoder 的 embedding 互译方法，把任意 embedding 映射到一个与 Plato Representation Hypothesis 一致的通用潜在几何中，并在跨架构/跨规模/跨数据的模型对上达到高余弦相似度文末讨论该通用几何对推理时模型操控与安全的影响",
+      "summary_en": "First method for translating text embeddings between vector spaces without paired data, encoders, or pre-defined matches. Unsupervised approach translates any embedding to / from a universal latent representation aligned with the Platonic Representation Hypothesis. Translations achieve high cosine similarity across model pairs with different architectures, parameter counts, and training datasets. Discusses implications for inference-time model steering and security.",
+      "one_liner": "不用素对齐就能把 embedding 互译：Plato 公共几何的第一个可用错误衡量",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2505.12540.md",
+      "images": [],
+      "added_date": "2026-09-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2609.04180",
+      "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
+      "url": "https://arxiv.org/abs/2609.04180",
+      "source": {
+        "platform": "arxiv",
+        "author": "Joseph Lee, Yidi Huang, Dokyoon Kim, Shu Yang, Li Shen",
+        "original_date": "2026-09-03"
+      },
+      "category": "learning",
+      "tags": [
+        "pre-training",
+        "data-curation",
+        "auxiliary-view",
+        "knowledge-acquisition"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Joseph Lee 等 9 月 3 日 arXiv（被 EMNLP 2026 Findings 接受）控制变量实验证明辅助视图（knowledge 的重写形式）对 LLM 预训练阶段的知识获取有因果层面的作用；译抹仅在小 batch 下有效，译抹与重复之间存在代争",
+      "summary_en": "Posits that auxiliary views (reformulations of knowledge) are causally helpful for LLM knowledge acquisition during pre-training. Confirms repetition is necessary and clarifies paraphrasing helps only at smaller batch sizes. Holding token budget fixed, reallocating tokens from repetition to auxiliary views improves learning. Accepted at Findings of EMNLP 2026.",
+      "one_liner": "预训练的辅助视图：同样的 token 预算分给重写比重复能提升知识获取",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2609.04180.md",
+      "images": [],
+      "added_date": "2026-09-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2602.12430",
+      "title": "Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward",
+      "url": "https://arxiv.org/abs/2602.12430",
+      "source": {
+        "platform": "arxiv",
+        "author": "Renjun Xu, Yang Yan",
+        "original_date": "2026-02-12"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-skills",
+        "mcp",
+        "survey",
+        "agent-security"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Renjun Xu 等 2 月 12 日 arXiv把 agent skill 正式定义为可动态加载的指令+代码+资源包，以 progressive disclosure 与 MCP 为架构主线，覆盖能力拓展资源检索资源安全与未来路线适合当作 Agent Skill 词典入口",
+      "summary_en": "Survey on the transition from monolithic LLMs to modular, skill-equipped agents. Formalizes agent skills as composable packages of instructions/code/resources loaded on demand, grounded in progressive disclosure, portable skill definitions, and MCP integration. Comprehensive treatment covering architecture, acquisition, and security of skill-equipped agents.",
+      "one_liner": "Agent Skill 领域的首份综述：MCP/progressive disclosure 架构获取与安全三个轴全部考古",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/2602.12430.md",
+      "images": [],
+      "added_date": "2026-09-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2608.13867",
+      "title": "Engineering Reliable Coding Agents: Evaluating and Operating the System Around the Model",
+      "url": "https://arxiv.org/abs/2608.13867",
+      "source": {
+        "platform": "arxiv",
+        "author": "Stephanie Jarmak",
+        "original_date": "2026-08-14"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agent",
+        "reliability",
+        "harness-engineering",
+        "system-evaluation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Stephanie Jarmak 8 月 14 日 arXiv把 coding agent 从评测的模型重框为部署的系统：可靠性不仅依赖模型能力，还依赖 harness，执行状态，检索，记忆，权限，审议界面与资源分配合成 164 份学术一手记录基准与案例提出可靠代码代理评估与运营框架",
+      "summary_en": "Argues coding agents are commonly evaluated as models but deployed as systems. Reliability depends on the harness, execution state, retrieval, memory, permissions, review interfaces, and resource allocation, not only model capability. Develops a framework for evaluating and operating coding agents reliably by synthesizing 164 scholarly works, 100 practitioner records, 29 benchmark records, and 17 case studies.",
+      "one_liner": "代码代理可靠性的另一半：harness/状态/检索/记忆组成的边界，不只是模型本身",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2608.13867.md",
+      "images": [],
+      "added_date": "2026-09-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2608.10906",
+      "title": "GitSkills: A Dataset of Agent Skills on GitHub",
+      "url": "https://arxiv.org/abs/2608.10906",
+      "source": {
+        "platform": "arxiv",
+        "author": "Giuseppe Destefanis, Daniel Graziotin, Matteo Vaccargiu, Marco Ortu",
+        "original_date": "2026-08-11"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-skills",
+        "dataset",
+        "github",
+        "mining"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Destefanis 等 8 月 11 日 arXivAnthropic 2025 年 10 月发布 SKILL.md 规范后九个月，公开 GitHub repo 中出现了上百万份 skill 文件文章提醒 SE 社区：skill 以自然语言为主，运行时被模型概率选择，没有编译器与类型系统",
+      "summary_en": "Analyzes millions of agent skill files (SKILL.md plus optional scripts/resources) that have appeared in public GitHub repositories nine months after Anthropic introduced the open specification in October 2025. Notes skills are unlike typical SE artifacts: written mainly in natural language, selected probabilistically by the model at run time, with no compiler or type system.",
+      "one_liner": "上百万 GitHub skill 文件的首份谱：面向自然语言 + 概率选择的代理资源采集示例",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2608.10906.md",
+      "images": [],
+      "added_date": "2026-09-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2604.05333",
+      "title": "Graph-of-Skills: Dependency-Aware Structural Retrieval for Massive Agent Skills",
+      "url": "https://arxiv.org/abs/2604.05333",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dawei Liu, Zongxia Li, Hongyang Du, Xiyang Wu, Shihang Gui, Yongbei Kuang, Lichao Sun",
+        "original_date": "2026-04-07"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-skills",
+        "retrieval",
+        "graph-rag",
+        "scalability"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Liu 等 4 月 7 日 arXiv (cs.AI)面对上千份 skill，语义检索只能拽出主题相关项，但缺失上下游依赖链，导致不可执行提出 Graph-of-Skills：以依赖图做结构检索，降低 token 与幻觉",
+      "summary_en": "As skill libraries scale to thousands, semantic retrieval surfaces topically relevant skills but misses their prerequisite chain, leaving retrieved bundles execution-incomplete. Proposes Graph-of-Skills: dependency-aware structural retrieval that captures upstream and downstream skills. Addresses context window saturation, token cost, and hallucination from bloated skill loading.",
+      "one_liner": "Skill 上百何不吃功：语义检索被依赖图补足，减 token 减幻觉",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2604.05333.md",
+      "images": [],
+      "added_date": "2026-09-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-07",
-  "total_entries": 2173
+  "total_entries": 2179
 }
