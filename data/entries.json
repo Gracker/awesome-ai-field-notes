@@ -65400,8 +65400,200 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "0fcec740",
+      "title": "CUA-Universe: Scalable Hybrid GUI+CLI Environment for Computer-Use Agents",
+      "url": "https://arxiv.org/abs/2609.05374",
+      "source": {
+        "platform": "arxiv",
+        "author": "Haoting Shi, Wenhao Wang, Weicheng Fang, Yaozhong Liang, Tian Jin, Pengxiang Zhao, Guangyi Liu, Sihe...",
+        "original_date": "2026-09-04"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use",
+        "gui-agent",
+        "cli-agent",
+        "hybrid-environment",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "2609.05374 (cs.AI, 9 月 4 日) 提出 CUA-Universe:为电脑使用智能体同时暴露 GUI 与 CLI 的可扩展动态环境 作者指出 OSWorld / AndroidWorld 类智能体基本只能走 GUI,轨迹效率偏低,而真实办公需要视觉检查 + 高吞吐 CLI 的混合协作; 现有智能体难以互补调用两种接口论文给出支持混合动作的工程方案,21 页 9 图",
+      "summary_en": "OSWorld/AndroidWorld-style agents act mostly through the GUI and produce inefficient trajectories, while real computer work is hybrid (visual inspection + high-throughput CLI over shared application state). The authors build CUA-Universe, a scalable environment that exposes both GUI and CLI over real applications to coordinate the two modalities. 21 pages, 9 figures, cs.AI 2609.05374 (Sep 4, 2026).",
+      "one_liner": "CUA-Universe:为 computer-use 智能体同时接 GUI 和 CLI 的混合环境,跑出更高效的轨迹",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0fcec740.md",
+      "images": [],
+      "added_date": "2026-09-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "75d78701",
+      "title": "EDGE / KOPA-Bench: Multi-Step Tool-Calling over Korean Open Public APIs",
+      "url": "https://arxiv.org/abs/2609.05395",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dain Kim, Eungi Cho, Kyumin Kim, Shinyeong Noh, Kyuseong Lim",
+        "original_date": "2026-09-04"
+      },
+      "category": "agents",
+      "tags": [
+        "tool-calling",
+        "benchmark",
+        "data-synthesis",
+        "open-source-llm",
+        "kopa"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "2609.05395 (EMNLP 2026 Industry Track,9 月 4 日) 提出 KOPA-Bench:145 个韩国政府开放 API 的多步工具调用任务; 开源模型在此明显落后闭源配套数据合成方法 EDGE 在真实 API 上执行,只保留调用成功的图边,再沿已验证路径游走, 得到多步工具调用训练数据",
+      "summary_en": "Data-sovereignty rules push public institutions to run open-source, on-premise LLM agents that chain tool-calls over live government APIs. KOPA-Bench ships 145 real Korean public-API tasks; open models trail closed ones on multi-step calls. EDGE (Execution-grounded Dynamic Graph) synthesizes tool-call data by keeping only graph edges that actually succeed when called against the live APIs, then traverses verified paths. Accepted to EMNLP 2026 Industry Track; 30 pages, 7 figures, 26 tables, cs.AI/cs.CL 2609.05395.",
+      "one_liner": "EDGE / KOPA-Bench:145 个韩国政府 API 多步工具调用任务 + 真实执行验证的数据合成,EMNLP 2026 Industry",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/75d78701.md",
+      "images": [],
+      "added_date": "2026-09-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c90bb3e7",
+      "title": "Does Your Agent's Memory Survive a Model Upgrade? Memory Portability Study",
+      "url": "https://arxiv.org/abs/2609.05339",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ankit Goyal, Jaideep Ray",
+        "original_date": "2026-09-04"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "model-upgrade",
+        "rag",
+        "long-context",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "2609.05339 (cs.AI/cs.CL/cs.IR,9 月 4 日) 控制研究:同一段对话历史分别用 LC-RAW 长上下文RAG 分块NOTES 自然语言摘要KG-fixed 知识图谱四种记忆形态承载,在 48 条合成历史 + 随机答案码 + 两个 <10B 开源模型下 对比升级底座后的表现18 页 7 表,核心问题是\"模型一换,智能体记忆还能不能用\"",
+      "summary_en": "Model upgrades are routine but memory migrations are not. The authors keep the same history across four representations (LC-RAW long-context, RAG chunks, NOTES compressed natural-language notes, KG-fixed schema knowledge graph) and run a controlled study with 48 synthetic histories, randomized answer codes, exact scoring, and two sub-10B open-weight models. They measure how much each representation breaks when the backbone changes. 18 pages, 3 figures, 7 tables, under review; cs.AI/cs.CL/cs.IR 2609.05339.",
+      "one_liner": "控制实验:同一历史用长上下文 / RAG / 自然语言摘要 / 知识图谱四种记忆,看模型升级后谁先坏",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c90bb3e7.md",
+      "images": [],
+      "added_date": "2026-09-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "603026cd",
+      "title": "Testing Interchangeability in LLM Agent Teams",
+      "url": "https://arxiv.org/abs/2609.05279",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jianxin Gao, Tianyi Yu, Linna Deng, Runze Li, Zining Wang",
+        "original_date": "2026-09-04"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "evaluation",
+        "team-roster",
+        "hanabi",
+        "role-swap"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "2609.05279 (cs.AI/cs.MA,9 月 4 日) 直接测\"多智能体系统里同角色可互换\"这条默认假设:每个设定 8 队从同一底座独立组 队,跨 10 轮形成私有笔记,然后把角色匹配的成员跨队互换对照组是只打断编排不换人的安慰剂结果:任务分数几乎不变, 但每单位进度的通信开销升 16-63%,Hanabi 上互换后成员表现明显变差",
+      "summary_en": "Production multi-agent stacks routinely swap agents in and out on the assumption that role-equivalent agents are interchangeable. Eight teams per setting are formed from one base model on the same tasks with per-agent private notebooks across ten formation episodes; role-matched agents are then traded between teams. Against a placebo disruption, a swap costs little in task score but raises communication-per-progress by 16-63%, and in Hanabi the swap agent behaves worse. cs.AI/cs.MA 2609.05279.",
+      "one_liner": "互换实验:多智能体里\"同角色可替换\"只保住任务分数,但通信开销升 16-63%,Hanabi 直接掉表现",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/603026cd.md",
+      "images": [],
+      "added_date": "2026-09-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "baadbcf8",
+      "title": "Molecular Dj Vu: Frontier LLMs Verbatim-Retrieve Published Property Values",
+      "url": "https://arxiv.org/abs/2609.05381",
+      "source": {
+        "platform": "arxiv",
+        "author": "Matthias Busch, Marius Tacke, Sviatlana V. Lamaka, Mikhail L. Zheludkevich, Christian J....",
+        "original_date": "2026-09-04"
+      },
+      "category": "learning",
+      "tags": [
+        "llm-evaluation",
+        "benchmark-audit",
+        "molecular-property",
+        "retrieval",
+        "reasoning-level"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "2609.05381 (cs.AI,9 月 4 日) 对 22 个前沿模型在 12 个分子属性回归基准上做\"原文逐字检索\"审计:5 个数据集上 >50% 的模型存在逐字背答案;其余数据集只在个别单元命中同一分子同一 prompt,高推理档比低推理档多 89% 的命中 提醒:基准精度无法区分\"推理\"与\"背答案\"",
+      "summary_en": "Accuracy on molecular-property benchmarks cannot tell whether a model predicts a value or memorizes a published one. The authors audit 22 frontier models across 12 regression benchmarks for verbatim retrieval: on five datasets >50% of models show verbatim retrieval, on the rest it appears only in isolated cells. The same molecules with the same prompt are flagged 89% more often at higher reasoning levels. cs.AI 2609.05381.",
+      "one_liner": "分子属性基准审计:22 个前沿模型在 5/12 数据集上>50% 命中逐字背答案,高推理档比低推理档多 89%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/baadbcf8.md",
+      "images": [],
+      "added_date": "2026-09-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a2265e88",
+      "title": "WeatherNext Helps NHC Predict Hurricane Melissa Cat-5 Landfall 5 Days Out",
+      "url": "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica",
+      "source": {
+        "platform": "blog",
+        "author": "WeatherNext team",
+        "original_date": "2026-05-19"
+      },
+      "category": "infra",
+      "tags": [
+        "weather-model",
+        "tropical-cyclone",
+        "ensemble",
+        "earth-ai",
+        "google-deepmind"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google DeepMind 2026-05-19 复盘 WeatherNext 在 2025 飓风 Melissa 上的实战:这是有记录以来袭击牙买加的最强飓风, 也是大西洋最强之一WeatherNext 提前 5 天以 80% 置信度预测 Cat-5 登陆牙买加,3 天前升至接近 100%,首次实现从 Cat-1 起报直接预测到 Cat-5 强度其 50 路集合预报在 2025 年加权平均上同时拿下 track 与 intensity SOTA,补上了 全球模型过去\"路径 vs 强度\"二选一的缺口",
+      "summary_en": "For the 2025 Hurricane Melissa (Atlantic's strongest tied landfall on record, Jamaica), Google DeepMind's WeatherNext predicted rapid intensification to Cat-5 landfall in Jamaica with 80% confidence five days out, rising to ~100% three days out the first storm predicted to reach Cat-5 from Cat-1 wind speeds. The ensemble model runs 50 scenarios and outperforms 2025 weighted averages on both track and intensity, filling the historical track-vs-intensity trade-off in global weather models.",
+      "one_liner": "WeatherNext 提前 5 天预测 Cat-5 Melissa 登陆牙买加,50 路集合预报同时拿下 track 与 intensity SOTA",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a2265e88.md",
+      "images": [],
+      "added_date": "2026-09-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-09-07",
-  "total_entries": 2189
+  "last_updated": "2026-09-08",
+  "total_entries": 2195
 }
