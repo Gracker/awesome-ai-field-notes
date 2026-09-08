@@ -65592,8 +65592,236 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "62e1cdd8",
+      "title": "SGD-KV: Summarization Guided KV Cache Compression",
+      "url": "https://arxiv.org/abs/2609.03235",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zeyu Liu, Woomin Song, Xuandi Fu, Sai Muralidhar Jayanthi, Vivek Govindan, Aram Galstyan, Sravan Bab...",
+        "original_date": "2026-09-03"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "kv-cache",
+        "compression",
+        "long-context",
+        "reasoning"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Zeyu Liu 等 2026-09-03 提交，NeurIPS 2026 Efficient Reasoning Workshop 收录现有 KV cache 压缩方法大多用简单启发式，没有区分不同注意力头的功能差异SGD-KV 设计了一个 chunk-summarization 诊断任务，系统识别专门做层次信息聚合的注意力头，按头分配预算：算总览的头吃满 cache，普通头压紧在 Qwen2.5-7B-1M 和 Qwen3-32B 上 1M token 上下文实现 SOTA，KV cache 内存用量最多降到 25%（即压缩 75%）端侧长上下文要落地，把预算粒度从层细到头是必然的一步",
+      "summary_en": "Large language models (LLMs) face severe memory bottlenecks in long-context inference due to the linearly growing size of key-value (KV) caches. Existing KV cache compression techniques typically rely on simple heuristics, overlooking the distinct functional roles of different attention heads. We present SGD-KV (Summarization-Guided KV Cache Compression), a head-aware framework that leverages a novel chunk-summarization diagnostic task to systematically identify and prioritize attention heads specialized in hierarchical information aggregation. Experiments on Qwen2.5-7B-1M and Qwen3-32B across diverse long-context benchmarks demonstrate that SGD-KV achieves state-of-the-art performance with contexts up to 1M tokens, while reducing KV cache memory usage by up to 75%. Our findings show that strategically allocating the KV cache budget based on the summarization score distribution of attent",
+      "one_liner": "SGD-KV 用 chunk-summarization 评分给注意力头分配 KV 预算，1M token 上下文内存最多减 75%，端侧长上下文实用组合的关键一块",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/62e1cdd8.md",
+      "images": [],
+      "added_date": "2026-09-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2bfe0538",
+      "title": "R-KV: Redundancy-aware KV Cache Compression for Reasoning Models",
+      "url": "https://arxiv.org/abs/2505.24133",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zefan Cai, Wen Xiao, Hanshi Sun, Cheng Luo, Yikai Zhang, Ke Wan, Yucheng Li, Yeyang Zhou, Li-Wen Cha...",
+        "original_date": "2025-05-30"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "kv-cache",
+        "compression",
+        "long-context",
+        "reasoning"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Zefan Cai 等 2025-05-30 提交，2026-01-22 更新到 v4推理模型 CoT 输出极长，KV cache 跟着爆炸；已有压缩方法在推理模型上常把推理链一起压坏R-KV 专攻推理模型里的冗余 token识别对后续推理步骤贡献小可丢弃的 token实验结果：只用 10% 的 KV cache 几乎保满性能（基线用 10% 只剩 60%），16% 时反而比满 cache 还略好（105%），配套收益是 90% 内存节省6.6 吞吐和 SGD-KV 合用，是 2026 H2 端侧长链推理的实用组合",
+      "summary_en": "Reasoning models have demonstrated impressive performance in self-reflection and chain-of-thought reasoning. However, they often produce excessively long outputs, leading to prohibitively large key-value (KV) caches during inference. While chain-of-thought inference significantly improves performance on complex reasoning tasks, it can also lead to reasoning failures when deployed with existing KV cache compression approaches. To address this, we propose Redundancy-aware KV Cache Compression for Reasoning models (R-KV), a novel method specifically targeting redundant tokens in reasoning models. Our method preserves nearly 100% of the full KV cache performance using only 10% of the KV cache, substantially outperforming existing KV cache baselines, which reach only 60% of the performance. Remarkably, R-KV even achieves 105% of full KV cache performance with 16% of the KV cache. This KV-cach",
+      "one_liner": "R-KV 专攻推理模型冗余 token：10% KV cache 保满性能16% 略超满 cache，端侧长链推理组合的另一块",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2bfe0538.md",
+      "images": [],
+      "added_date": "2026-09-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0fc9cd70",
+      "title": "REAL-Q: E2E LLM Quantization via Dynamic Gradient Descent",
+      "url": "https://arxiv.org/abs/2609.00049",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qian Zhang, Yaoming Li, Zhewen Tan, Yanshu Wang, Heng Lu, Kun Su, Zongwei Lv, Wenhan Yu, Yongge Ma...",
+        "original_date": "2026-08-30"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "kv-cache",
+        "compression",
+        "long-context",
+        "reasoning"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Qian Zhang 等 2026-08-30 提交PTQ 当前 SOTA 都是单层闭式二阶求解：为保持可解析性丢掉跨通道耦合把输出行打包成组再用整层冻结的 Hessian 一锅端这一类信息失配正是精度损失主因REAL-Q 反过来：不为了可解析性稀释目标函数，直接对齐端到端代理损失，每处理 128 列就做一次细粒度 Block-wise Gradient Descent 动态修正，配滑动窗口做跨层平滑过渡在 LLaMA-3.1（8B/70B）和 Qwen3（0.6B32B）的 W4A16 配置下，端到端 KL 散度相比全局二阶基线最高降 ~49%W4A16 是端侧/笔记本大模型部署的主流精度点，部署链路短的团队可直接接",
+      "summary_en": "Post-training quantization (PTQ) is essential for deploying large language models (LLMs) under strict resource constraints. State-of-the-art PTQ methods quantize each layer with a single closed-form second-order solver: to remain analytically tractable, they heavily approximate the global loss (dropping cross-channel coupling, pooling output rows into groups), and they then freeze the resulting Hessian across the entire layer, with no way to refresh it as the loss landscape shifts column by column--a phenomenon we call information misalignment. We propose REAL-Q (Real-time E2E-loss Aligned LLM Quantization), a novel PTQ paradigm that breaks this compromise: instead of diluting the objective for the sake of analytic tractability, REAL-Q targets an end-to-end-aligned surrogate of the global loss and refines it via fine-grained, dynamic Block-wise Gradient Descent applied after every column",
+      "one_liner": "REAL-Q 用 Block-wise Gradient Descent 端到端修 PTQ 信息失配，W4A16 配置 KL 散度最高降 ~49%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0fc9cd70.md",
+      "images": [],
+      "added_date": "2026-09-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6932073d",
+      "title": "How to Speculate about Uncertainty in Agentic Coding? A Draft-Model Gate Method",
+      "url": "https://arxiv.org/abs/2609.05274",
+      "source": {
+        "platform": "arxiv",
+        "author": "Konstantin Grotov, Valentin Malykh",
+        "original_date": "2026-09-04"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "agent",
+        "uncertainty",
+        "speculative-decoding",
+        "coding-agent",
+        "gate"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Konstantin GrotovValentin Malykh 2026-09-04 提交，EMNLP 2026 Industry Track 收录软件工程 agent 失败代价高，但失败信号通常要等执行回测才发现Speculative Uncertainty（SU）从反向用 speculative decoding拿信号：不碰 logits/权重/激活，用一个小开放权重 draft 模型对 agent 已经生成的轨迹做一次前向评分，再把 reasoning span 和 action span 分开算 phase-aware 特征，校准到可验证目标落地为 pre-execution veto gate：在 Qwen3-Coder-480B 和 Claude 3.5 Sonnet 上，执行错误率降 68 个百分点，token 成本降 1419%；OOD 任务不需要重训就能迁移，跨 agent 模型可泛化对资源受限的端侧 agent orchestrator 是直接可借鉴的工程模式",
+      "summary_en": "LLM agents deployed for software engineering fail expensively: they act confidently wrong, and bad actions are recognized only after costly execution and retry. We present Speculative Uncertainty (SU), a method that recovers a predictive failure signal for a black-box agent from its output tokens alone, with no access to logits, weights, activations, or repeated sampling. Inverting speculative decoding, a small open-weight draft model scores the agent's already-generated trajectory in a single forward pass. From these speculative cross-likelihoods we extract phase-aware features by separating the reasoning and action spans, and calibrate them against a verifiable objective. SU produces a failure-likelihood score that any downstream policy, such as routing, human intervention, or extra test-time compute, can consume directly. To show the signal is actionable, we instantiate one such polic",
+      "one_liner": "Speculative Uncertainty 用 draft-model 一次前向给 agent 失败信号，执行前 veto gate 降 68 个百分点执行错误率",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6932073d.md",
+      "images": [],
+      "added_date": "2026-09-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "68678061",
+      "title": "工程师如何用好 Grok bot? Lingxi Li 的工程舰队实战",
+      "url": "https://x.com/lingxi/status/2094493172516966781",
+      "source": {
+        "platform": "x",
+        "author": "Lingxi Li (@lingxi), via @KinGao476942",
+        "original_date": "2026-09-05"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agent",
+        "grok",
+        "engineering-fleet",
+        "agent-org",
+        "notion-sync"
+      ],
+      "source_type": "tweet",
+      "language": "zh",
+      "summary_zh": "SpaceXAI 工程师 Lingxi Li 把自己用 Grok Bot 跑迷你工程组织的实战摊开5 个工程师 Bot 分管 iOSDesktop+CICD基础设施Androidharness，外加 1 个运营 Bot Jenny；每个 Bot 能拉 Cursor cloud agent带 skill 写详尽 prompt盯 transcript用多模态核对截图证据突破单 agent 上下文上限的关键是共享 Notion 数据库做状态同步：每 30 分钟复盘每个 PR标 Working / Ready for Review / 自动 code review低风险 PR 直接合并手管上限 15 个 cloud agent，舰队化后能同时盯 200+夜审（凌晨 3 点清代码 / 包体 / 加载速度）和 P0 紧急流程（每 5 分钟纠偏）是两套加值对个人 / 小团队推 agent 的杠杆动作：共享状态机 + 定时复盘，把监督频率从人驱动改成 timer 驱动",
+      "summary_en": "SpaceXAI engineer Lingxi Li runs a 5-engineer-bot fleet (iOS, Desktop+CICD, infra, Android, harness) plus one ops Bot Jenny. Each Bot launches Cursor cloud agents, loads skills, watches transcripts, and verifies screenshots via multimodality. Breakthrough: a shared Notion database with 30-min PR reviews (Bugbot/CI/conflict), auto-review on 'Ready for Review', auto-merge on low-risk PRs. Solo cap went from 15 to 200+ concurrent cloud agents. Two add-ons: 3am nightly audits (code/package/load time) and P0 emergency flow (5-min transcript checks with active nudging).",
+      "one_liner": "Lingxi Li 用 5 个工程师 Bot + 共享 Notion 每 30 分钟复盘 PR，手管 15 舰队盯 200+ cloud agent",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/68678061.md",
+      "images": [],
+      "added_date": "2026-09-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a8e8f9dc",
+      "title": "An Alien Mind: OpenAI 首席科学家公开承认 Astra 对齐压力",
+      "url": "https://openai.com/index/an-alien-mind",
+      "source": {
+        "platform": "blog",
+        "author": "Jakub Pachocki (OpenAI)",
+        "original_date": "2026-09-06"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "alignment",
+        "gpt-6-astra",
+        "rsi",
+        "cot-monitoring",
+        "governance"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 首席科学家 Jakub Pachocki 2026-09-06 发在 openai.com/blog 的内部声明，罕见地点名了 GPT-6 Astra 的对齐状态承认三件事：推理模型已进入 RSI（recursive self-improvement）轨道；Astra 比 GPT-5.6 Sol 对齐进步明显，但对齐跟不上能力扩展；OpenAI 自己观察到 CoT monitoring 在 Astra 这一代正在失效，原因是推理过程越来越混着和人和别的 AI和工具的对话，能被监督的部分就模糊了边界把对齐拆成 goal alignment（任务层）和 value alignment（内在层），后者的核心问题是 generalization：模型被丢进训练分布之外的环境后能否继续守住被教过的人类价值结论是目前没有任何一家 lab 把对齐和监控做到足以继续负责任地按最高速扩展，呼吁自愿降速 + 国际协调文中点名的现象（CoT 监督压力persona selection 失效监控能力跟不上）是工程细节而非口号",
+      "summary_en": "OpenAI Chief Scientist Jakub Pachocki posted a rare internal-style statement on openai.com/blog acknowledging that reasoning models have entered the RSI track, GPT-6 Astra is better aligned than GPT-5.6 Sol but alignment is not keeping pace with capability expansion, and CoT monitoring is breaking down as reasoning mixes with tool/dialog traffic. Splits alignment into goal vs. value alignment, with generalization as the hard problem for the latter. Concludes that no lab has alignment and monitoring strong enough to keep scaling at top speed responsibly, calling for voluntary slowdown and international coordination.",
+      "one_liner": "Pachocki 公开承认 GPT-6 Astra 对齐跟不上能力CoT 监督正在失效，呼吁自愿降速+国际协调",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a8e8f9dc.md",
+      "images": [],
+      "added_date": "2026-09-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "20dd9aa4",
+      "title": "MiniCPM5-2B：Intelligence, Performance & Price Analysis（AA 14 分 4B 开权 #1）",
+      "url": "https://artificialanalysis.ai/models/minicpm5-2b",
+      "source": {
+        "platform": "blog",
+        "author": "OpenBMB / Artificial Analysis",
+        "original_date": "2026-09-07"
+      },
+      "category": "models",
+      "tags": [
+        "minicpm",
+        "openbmb",
+        "on-device",
+        "open-weights",
+        "apache-2",
+        "small-model",
+        "aa-index"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "OpenBMB 2026-09-07 放出 MiniCPM5-2B：总参数 2.6BApache 2.0HuggingFace 公开权重131k 上下文知识截止 2025-12Artificial Analysis Intelligence Index 上拿到 14 分（v4.2/v4.3 语境），排在 4B 开权模型 #1/47，同尺寸中位数只有 6原生 reasoning 支持，定价 $0/1M tokens（自托管，只付推理算力）端侧 / 笔记本本地能跑的模型和云端大模型的差距进一步压窄；对做 on-device agent 的团队，这是当下最值得 clone 的权重之一",
+      "summary_en": "OpenBMB released MiniCPM5-2B on 2026-09-07: 2.6B total params, Apache 2.0, HuggingFace open weights, 131k context, knowledge cutoff 2025-12. Artificial Analysis Intelligence Index score 14 (under 4B open-weight #1 of 47; median 6). Native reasoning support, $0/M-token self-hosted pricing. The on-device/small-model ceiling is being pushed monthly; for on-device agent teams this is the most worth-cloning weights right now.",
+      "one_liner": "MiniCPM5-2B（2.6BApache-2.0）AA Intelligence Index 14 分，4B 开权 #1/47，中位数 6，自托管 $0/1M tokens",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/20dd9aa4.md",
+      "images": [],
+      "added_date": "2026-09-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-08",
-  "total_entries": 2195
+  "total_entries": 2202
 }
