@@ -65820,8 +65820,225 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "a3d9c22a",
+      "title": "Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence",
+      "url": "https://arxiv.org/abs/2609.05385",
+      "source": {
+        "platform": "arxiv",
+        "author": "Urja Pawar, Rajitha Ramanayake, Nabeel Kemal, Ashwin Kandath, Owen O'Neill, Guillaume Bourgeon, Hous...",
+        "original_date": "2026-09-04"
+      },
+      "category": "learning",
+      "tags": [
+        "llm-eval",
+        "agent-oversight",
+        "explainability",
+        "behavioral-test"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "零位黑箱限制下用控制变量评估 LLM 输出以外的紧要性与充足性；在贵建计伐估项与伤害性判断两个任务上对 Claude/GPT/Gemini 八个模型的 top-3 引用因子进行测量，与行为分跳相关仅约 0.35～0.58作为安全可靠性检查间隔，适合报 AI 类趋势/代理路线上的嵌入使用",
+      "summary_en": "Black-box behavioural evaluation of LLM explanations in agent workflows. Defines necessity and sufficiency scores via controlled interventions over cited top-3 factors across advisor recommendation and prompt monitoring tasks. Across eight Claude/GPT/Gemini models, mean Spearman correlations between cited ranking and necessity/sufficiency scores are 0.349/0.354 (advisor) and 0.431/0.580 (prompt monitoring). In 57.6% of advisor responses an uncited factor scores above the lowest-scoring cited factor under necessity, showing cited factors do not reliably identify the most influential inputs. Useful as a reliability check for explanations used in agent oversight while staying scoped to individual decisions.",
+      "one_liner": "零位黑箱限制下用控制变量评估 LLM 输出以外的紧要性与充足性；在贵建计伐估项与伤害性判断两个任务上对 Claude/GPT/Gemini 八个模型的 top-3 引用因子进行测量，与行为分跳相关仅约 0.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a3d9c22a.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e19f0f1c",
+      "title": "When LLM Decompilers Recompile More and Preserve Less",
+      "url": "https://arxiv.org/abs/2609.05370",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chang Liu, Edward Raff, Kristopher Micinski",
+        "original_date": "2026-09-04"
+      },
+      "category": "learning",
+      "tags": [
+        "llm-security",
+        "decompilation",
+        "vulnerability-analysis",
+        "fuzzing"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "针对 LLM 反编译器以可重编译 + 通过航运测试为主要评估的现状，提出 Decompile-Diverge 行为差异评测器：为每个函数同位生成驱动并以原函数作为起点生长转次误差隷子体检测在八个体系上衡量 LLM 反编译以及 287 个 CVE 驱动函数中实验，发现重编译通过与行为一致性可以剧烈分离：全体 4.9% 补衡衡量分离变化，单系统可达 13%；部分 CVE 函数在重编译输出中出现 Crash Absence",
+      "summary_en": "Shows that recompilability and re-executability, the de-facto metrics for LLM-based decompilers, can reward the wrong path: a function may compile and pass shipped tests yet diverge on other legitimate inputs, and disclosed vulnerabilities may disappear without visible traces. Proposes Decompile-Diverge, an oracle that synthesises a driver per function, grows a fuzzing corpus from the reference, and reruns decompiled code on the same inputs. Across eight LLM decompilation configurations on established corpora, candidates passing every shipped test diverge from the original on the corpus in 4.9% of cases (up to 13% per system); on CVE-grounded functions up to one-tenth show Crash Absence in the output.",
+      "one_liner": "针对 LLM 反编译器以可重编译 + 通过航运测试为主要评估的现状，提出 Decompile-Diverge 行为差异评测器：为每个函数同位生成驱动并以原函数作为起点生长转次误差隷子体检测在八个体系上衡量 LLM 反编译以及 287 个 CVE 驱动函数中实验...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e19f0f1c.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "16169d53",
+      "title": "i-have-adhd: a skill that keeps coding agents action-first",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "source": {
+        "platform": "github",
+        "author": "ayghri",
+        "original_date": "2026-09-08"
+      },
+      "category": "uncategorized",
+      "tags": [
+        "coding-agent",
+        "agent-skill",
+        "claude-code",
+        "prompting"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "一个面向 AI 代码助手的轻量插件/技能包，安装后能让Claude CodeCodex 类工具在帮助开发者时先给动作再讲步骤，避免Hope this helps!跟重叙述问题或大段免责声明适合用于动手学习实时问答代码问题代码审计场景，是近期发现的一个小但精代理技能例子",
+      "summary_en": "Open-source 'skill' (installable as a Claude Code / agent harness plugin) that stops coding assistants from burying the answer. Reformats outputs so the action comes first, steps are numbered, and there is no 'Hope this helps!' filler. Targets the common UX failure where coding agents hedge, narrate, or repeat the question. Installable via copy/paste into the CLI prompt, ships multilingual READMEs (zh-CN, ja, ko, pt-BR, vi, th) and an AGENTS.md for harness integration.",
+      "one_liner": "一个面向 AI 代码助手的轻量插件/技能包，安装后能让Claude CodeCodex 类工具在帮助开发者时先给动作再讲步骤，避免Hope this helps!",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/16169d53.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "55085dd1",
+      "title": "Mistral raises 3B Series D at 21B valuation for sovereign open-weight AI",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+      "source": {
+        "platform": "blog",
+        "author": "Mistral AI",
+        "original_date": "2026-09-08"
+      },
+      "category": "industry",
+      "tags": [
+        "industry",
+        "funding",
+        "open-weight",
+        "sovereign-ai"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Mistral 完成 30 亿欧元 D 轮融资，使用后估值超过 210 亿欧元，由三星电子领投，是欧洲科技公司历史上最大股权融资资金将扩张前沿研究计算与基础设施，加固其主权开权重 + 隐私云计算 + 可控可审计的主权律代理定位；现客户已包括空客爱伍伍港交所等 20 个国家 125+ 企业",
+      "summary_en": "Mistral closed a 3B Series D led by Samsung Electronics at a 21B+ post-money valuation, the largest European tech equity round ever. Capital expands frontier research, compute capacity, and infrastructure to position Mistral as the 'sovereign AI layer' with open-weight models running on private compute. Customers already include Airbus, ASML and HSBC across 20 countries.",
+      "one_liner": "Mistral 完成 30 亿欧元 D 轮融资，使用后估值超过 210 亿欧元，由三星电子领投，是欧洲科技公司历史上最大股权融资资金将扩张前沿研究计算与基础设施，加固其主权开权重 + 隐私云计算 + 可控可审计的主权律代理定位...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/55085dd1.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "305f03a4",
+      "title": "OpenAI ChatGPT Images 2.5 with sharper details and ~50% lower latency",
+      "url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "source": {
+        "platform": "anthropic",
+        "author": "OpenAI",
+        "original_date": "2026-09-08"
+      },
+      "category": "models",
+      "tags": [
+        "image-generation",
+        "openai",
+        "product",
+        "api"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "OpenAI 发布 ChatGPT Images 2.5：更锐利细节精细编辑能力提升生成延迟减少约 50%；同步上线 Sketch 画布模板图上点评与可分享提示词API 推出 GPT-Image-2.5 Flare 与高精度型 Sunburst接入 ChatGPTWork 与 Codex 各级官方揭示每周生成超过 30 亿张图像",
+      "summary_en": "OpenAI launched ChatGPT Images 2.5 with sharper details, more precise editing, richer textures, and up to ~50% lower latency versus 2.0. New ChatGPT features include an in-product Sketch canvas, templates, image-anchored comments, and shareable prompts. API gains two models: GPT-Image-2.5 Flare and Sunburst. Available across ChatGPT, Work and Codex tiers, and via the API. Reported usage: 3B+ images generated per week across ChatGPT Images and GPT-Image APIs.",
+      "one_liner": "OpenAI 发布 ChatGPT Images 2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/305f03a4.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fbb79928",
+      "title": "OpenAI claims NavierStokes existence-and-smoothness result, with Lean formalisation",
+      "url": "https://openai.com/index/navier-stokes-solution",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI Research",
+        "original_date": "2026-09-08"
+      },
+      "category": "models",
+      "tags": [
+        "ai-for-math",
+        "openai",
+        "formal-verification",
+        "research"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "OpenAI 公布 3D 不可压缩 NavierStokes 方程有限时间奇点的证明草稿以及 Lean 定理化，回应了七大千科贩奖之一它们说明证明由一个内部体系完成，能力显著高于 GPT-6 AstraLean 项目已公开于 github.com/openai/NavierStokesAndEuler文章未声称获得克菱数学研究院审验",
+      "summary_en": "OpenAI released a writeup and Lean formalisation claiming a finite-time singularity for the 3D incompressible NavierStokes equations, addressing one of the seven Millennium Prize Problems. The proof was produced by an internal system described as 'significantly more capable than GPT-6 Astra'. Formalisation lives at openai/NavierStokesAndEuler on GitHub. The article does not claim Clay Institute verification.",
+      "one_liner": "OpenAI 公布 3D 不可压缩 NavierStokes 方程有限时间奇点的证明草稿以及 Lean 定理化，回应了七大千科贩奖之一它们说明证明由一个内部体系完成，能力显著高于 GPT-6 AstraLean 项目已公开于 github.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fbb79928.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "93b4203e",
+      "title": "AlphaGenome Atlas: 1-petabyte catalogue of every human SNV's regulatory impact",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas",
+      "source": {
+        "platform": "google",
+        "author": "Pushmeet Kohli, iga Avsec (Google DeepMind)",
+        "original_date": "2026-09-08"
+      },
+      "category": "models",
+      "tags": [
+        "biology",
+        "genomics",
+        "deepmind",
+        "dataset"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "DeepMind 发布 AlphaGenome Atlas：使用 AlphaGenome 模型预估计人类基因组 约 90 亿个单核英酸变异的调控影响，总量达 1 PB同时推出 AlphaGenome Variant Impact (AVI) 打分，统一编码与非编码区预测Broad Institute 研究者已用于稀有病变异优先级",
+      "summary_en": "DeepMind released AlphaGenome Atlas, a 1-petabyte database that pre-calculates the regulatory impact of all ~9 billion possible single-nucleotide variants in the human genome using the AlphaGenome model. Introduces the AlphaGenome Variant Impact (AVI) score, combining coding and non-coding predictions. Already used by Broad Institute researchers to prioritise rare-disease variants.",
+      "one_liner": "DeepMind 发布 AlphaGenome Atlas：使用 AlphaGenome 模型预估计人类基因组 约 90 亿个单核英酸变异的调控影响，总量达 1 PB同时推出 AlphaGenome Variant Impact (AVI) 打分...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/93b4203e.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-09-08",
-  "total_entries": 2202
+  "last_updated": "2026-09-09",
+  "total_entries": 2209
 }
