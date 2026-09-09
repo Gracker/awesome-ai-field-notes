@@ -66037,8 +66037,297 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "043d0a2c",
+      "title": "Concentration Risk",
+      "url": "https://www.wheresyoured.at/concentration-risk",
+      "source": {
+        "platform": "newsletter",
+        "author": "Ed Zitron",
+        "original_date": "2026-09-08"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-economics",
+        "openai",
+        "anthropic",
+        "cloud-infra",
+        "tier-1-customers"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Ed Zitron 9 月 8 日长文：用 Ramp 经济学家 Ara Kharazian 的数据指 OpenAI/Anthropic 企业收入 80% 来自 1% 客户且三年未改善，Cursor 4 个月烧 32 亿美元续命是缩影；算力侧 OpenAI 2026-07 累计承诺超 7500 亿美元Anthropic 11 个月签 5170 亿，take-or-pay 2027 年起进入付款期；UBS 估算 2027 年两家将贡献 Google Cloud 48% 收入；传导链是 VC 收紧 AI startup 烧不动 头部 lab 收入塌 2027 take-or-pay 重置 云厂连锁反应，判断这是金融工程结构的崩塌而非单纯 AI 泡沫",
+      "summary_en": "Ed Zitron's September 8 long-form piece argues OpenAI and Anthropic derive 80% of enterprise revenue from 1% of customers, per Ramp economist Ara Kharazian, and that concentration has not improved over three years; AI startup burn (Cursor raising $3.2B in four months) is the visible signal. Compute commitments reached $750B for OpenAI (as of July 2026) and $517B for Anthropic in 11 months, with take-or-pay reset hitting in 2027. UBS estimates the two labs will drive 48% of Google Cloud revenue in 2027. Zitron frames this not as an 'AI bubble' but as a financial-engineering collapse with a concrete transmission chain. Sources: wheresyoured.at.",
+      "one_liner": "AI 不是炒作，金融工程结构要塌：头部 lab 80% 收入来自 1% 客户，2027 take-or-pay 重置期一过，云厂的账面跟着炸",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/043d0a2c.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7fdaca9b",
+      "title": "The Education of a Doomer",
+      "url": "https://borretti.me/article/the-education-of-a-doomer",
+      "source": {
+        "platform": "blog",
+        "author": "Fernando Borretti",
+        "original_date": "2026-09-08"
+      },
+      "category": "agents",
+      "tags": [
+        "alignment",
+        "doomer",
+        "rlhf",
+        "personal-reflection",
+        "disempowerment"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Fernando Borretti 9 月 8 日长文，逐条拆解自己过去四年从乐观转向 doomer 的判断变化：经济学上放弃'AGI 后人类会留 niche'的假设，认为全维度超越后只剩 UBI 而国家无政治动机发放；alignment 上承认 RLHF 当工程问题解决的乐观已破，2024 后 RL 推能力导致 misalignment 事件增多并援引 METR 8 月事故报告；control 上提出 disempowerment 自然发生说企业囚徒博弈 + 人在 AI 看起来聪明道德时自愿交权；写作与软件工程两个领域出现'AI slop'和新人学编程动力被吸干的现象判断：AGI 是否真不重要，disempowerment 已在发生",
+      "summary_en": "Fernando Borretti's September 8 essay walks through his shift from AI optimism to doomer over four years. On economics he drops the 'humans will keep a niche after AGI' assumption and concludes UBI is the only path, with no political motive for states to pay it. On alignment he abandons RLHF-as-engineering optimism, citing METR's August incident report on OpenAI/HuggingFace. On control he argues disempowerment happens naturally via a prisoner's dilemma between AI companies and humans deferring to AI they perceive as smarter and more ethical. Writing and software engineering already show 'AI slop' and loss of motivation in new programmers. Borretti's bet: AGI itself matters less than the disempowerment already underway.",
+      "one_liner": "Borretti 把 doomer 论证推到一个不舒服的位置：disempowerment 不靠超级智能降临，靠囚徒博弈和人类主动交权，现在已经发生",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7fdaca9b.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4a04c3b7",
+      "title": "Two dire warnings, one from Terence Tao, the other from someone who just quit Anthropic",
+      "url": "https://garymarcus.substack.com/p/two-dire-warnings-one-from-terence",
+      "source": {
+        "platform": "newsletter",
+        "author": "Gary Marcus",
+        "original_date": "2026-09-09"
+      },
+      "category": "industry",
+      "tags": [
+        "terence-tao",
+        "anthropic",
+        "navier-stokes",
+        "ai-safety",
+        "pdoom"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Gary Marcus 9 月 9 日把两件事并排：一是陶哲轩在 Mathstodon 三天连发，基调比 2024 Atlantic 采访悲观许多区分解题与出新 insight要求 AI 训练透明直指 OpenAI-NYU-Anthropic 在 Navier-Stokes 上的争议（OpenAI 抢发新证明，X 数据耗资 2250 万美元，Mark Chen 官方解释为'整体反馈和去标识化数据回灌模型'）；二是 9 月 8 日 Anthropic 的 Jacob Coxon 发推'做 AI 的人真心相信 AI 可能在十年内干掉全人类'，24 小时 3.76 万浏览 1.28 万赞，Alignment 负责人 Evan Hubinger 附议 p>10%判断：前沿实验室的内部认知与对外话术已严重错位",
+      "summary_en": "Gary Marcus pairs two warnings on September 9. First, Terence Tao's three Mathstodon posts are markedly darker than his 2024 Atlantic interview separating problem-solving from novel insight, demanding AI training transparency, and calling out the OpenAI/NYU/Anthropic NavierStokes dispute where OpenAI rushed a proof (X-tracked cost ~$22.5M) and Mark Chen conceded de-identified user data could flow back into models. Second, Anthropic's Jacob Coxon posted on September 8 that 'people building AI genuinely believe AI could wipe out humanity within a decade' (37.6K views, 12.8K likes in 24h); Alignment lead Evan Hubinger publicly agreed on >10% probability. Marcus's read: internal cognition and external messaging at frontier labs have already diverged sharply.",
+      "one_liner": "陶哲轩从数学界和 Coxon 从内部各自给出 p(doom) 推断，前沿实验室的对外话术和内部认知已经严重错位",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/4a04c3b7.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "40228a9d",
+      "title": "字节一天连发3篇自进化Agent，彻底杀疯了（Closed-Loop RSI 组合拳）",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA%3D%3D&mid=2247511340&idx=1&sn=0916e760ff2308781151f02311457d14",
+      "source": {
+        "platform": "wechat",
+        "author": "PaperAgent",
+        "original_date": "2026-09-09"
+      },
+      "category": "agents",
+      "tags": [
+        "self-evolving-agent",
+        "recursive-self-improvement",
+        "byteance-seed",
+        "aspire",
+        "s3gym",
+        "harnessdev"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "字节 Seed 同日连发 Aspire / S3Gym / HarnessDev 三篇论文，围绕 Closed-Loop RSI（Recursive Self-Improvement）：Aspire 把目标从显式 AIME 换成宽泛自然语言，评测题 520 道密封Agent 自操作化；40 GPU 小时内 final-only 协议 24 run 全跑通闭环但 12 个模型-目标对均值仅 1 个超基线（9B 科学推理 +2.67），adaptive 下也只 1 个保留增益（Terra 4B 数学 17.8620.10）S3Gym 把经验学习拆成自测/自评/自改进三段，7 个文字游戏显示底座强会用经验PvZ 参数化后 19 个 checkpoint 全在 6 分初始 23 分HarnessDev 让 Agent 自造 harness，Opus 平均 67.8（人类 86.2），但 harness 换执行者结果可反转判断：训练闭环 能力闭环",
+      "summary_en": "ByteDance Seed released three papers on Closed-Loop RSI (Recursive Self-Improvement) the same day: Aspire, S3Gym, HarnessDev. Aspire replaces explicit AIME tasks with natural-language capability goals over a sealed 520-question evaluation set; in 40 GPU-hours, 24 final-only runs closed the loop but only 1 of 12 model-goal pairs cleared baseline (+2.67 on 9B scientific reasoning), with adaptive-feedback retaining only one gain (Terra 4B math 17.8620.10). S3Gym decomposes experience learning into self-testing/judging/improvement across seven text games and finds that strong base models don't necessarily use their own experience PvZ parameter updates left Qwen3-8B at 6/20 checkpoints (initial 23). HarnessDev lets agents author their own harness; Opus averaged 67.8 (human reference 86.2), but the ranking flips depending on the executor....",
+      "one_liner": "字节 Seed 用 Aspire/S3Gym/HarnessDev 三连发证伪一个口号：训练闭环能跑通不等于能力闭环能闭环，自进化 Agent 还远没到 self-improvement 的临界点",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/40228a9d.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bf8438b4",
+      "title": "mzCache: On-Device LLM Memory Management under Multitasking",
+      "url": "https://arxiv.org/abs/2609.01338",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hongseung Yu, Minsung Kim, Jongseok Park, Kyunghan Lee",
+        "original_date": "2026-09-01"
+      },
+      "category": "infra",
+      "tags": [
+        "on-device-llm",
+        "kv-cache",
+        "android",
+        "memory-management",
+        "mobicom-2026"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "MobiCom 2026 收录端侧 LLM 推理最大现实问题不是模型大小而是多任务切换导致 LLM 内存被系统驱逐恢复靠慢速存储读取或 KV 重算，首 token 延迟崩mzCache 利用 SoC 统一内存把 LLM 内存切成细粒度共享 buffer，做 partial eviction + 跨处理器并发回填；hybrid swap + backward-out 策略保证从任意驱逐状态都能低延迟恢复基于 llama.cpp 实现为 Android 应用，对 storage-backed partial offload 的 TTFT 降 2.15.5",
+      "summary_en": "Published at MobiCom 2026. The biggest realistic issue for on-device LLM inference is not model size but memory pressure from user multitasking: weights and KV cache get evicted, recovery is via slow storage or full KV recompute, and TTFT collapses. mzCache slices LLM memory into fine-grained shared buffers backed by SoC unified memory, performs partial eviction with concurrent CPU-side restoration, and adds hybrid swap + backward-out so any eviction state is recoverable. Implemented over llama.cpp as an Android app, mzCache delivers a 2.15.5 TTFT reduction vs. storage-backed partial offload.",
+      "one_liner": "端侧 LLM 落地必须正视多任务：mzCache 用 SoC 统一内存做 partial eviction + 并发回填，TTFT 比 storage-backed offload 降 2.15.5",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/bf8438b4.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4fc20500",
+      "title": "SchedBlame: Who Ran While You Waited? Culprit-Attributed CPU Contention for Containers on Stock Kernels",
+      "url": "https://arxiv.org/abs/2609.02052",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hao Li, Tonghao Zhang, Honglei Wang",
+        "original_date": "2026-09-02"
+      },
+      "category": "infra",
+      "tags": [
+        "ebpf",
+        "container",
+        "cpu-contention",
+        "kernel-obserability",
+        "sched-tracing"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "容器共享 CPU 时的争用归因问题PSIper-cgroup waitRQ-latency 都是 victim-side，只能说'这个容器在等'不说'它在等谁'SchedBlame 是 eBPF tracer，在不动内核的前提下倒过来记账：测 victim 可运行期间同 CPU 上每个其他 cgroup 实际跑了的 CPU 时间机制是 per-CPU bitmap + 4 个 scheduler hook，16 字节切片同时把 competitorvictim blame matrix 写完生产 96 核 84 容器验证：Redis 吞吐开销 1%单核开销 6%",
+      "summary_en": "Existing signals (PSI, per-cgroup wait, RQ-latency) are victim-side: they say 'this container waited' but not who it waited for. SchedBlame is an eBPF tracer that flips the accounting on stock kernels measuring the CPU time every other cgroup consumed while a victim was runnable but not running on the same CPU. The mechanism is a per-CPU bitmap plus four scheduler hooks that complete a competitorvictim blame matrix in 16-byte slices. Production validation on a 96-core, 84-container host: 1% Redis throughput cost, 6% per-core overhead.",
+      "one_liner": "容器争用归因做到 culprit-side：SchedBlame 用 eBPF 倒过来记账，96 核 84 容器常开成本只有 Redis 1%单核 6%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4fc20500.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cad45e96",
+      "title": "Vertumnus: Adaptive Context Parallelism for Production LLM Serving",
+      "url": "https://arxiv.org/abs/2609.04774",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jiarui Guo, Rongle Wang, Peijun Huang et al.",
+        "original_date": "2026-09-04"
+      },
+      "category": "infra",
+      "tags": [
+        "llm-serving",
+        "context-parallelism",
+        "prefix-cache",
+        "heterogeneous-gpu",
+        "scheduling"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "LLM context window 越长，serving 算力与内存压力越大，context parallelism（CP）按序列切分到多 rank 是长上下文推理主流路径已有方案或静态 CP 或只在 active 请求/批次层面调 CP 度，跟不上异构负载也难在 cluster 层重组Vertumnus 是自适应 CP：请求层用 placement cost（预测排队延迟 + cache-aware prefill + GPU-time cost）在不同 CP 度 worker 间路由；集群层做秒级 split/merge 重组 worker；叠加全局 prefix-cache 策略跨同/异 CP 度协调放置与复制，保证 locality 不随 worker 组合变化",
+      "summary_en": "Existing CP-enabled serving systems either use static CP or adapt degree only for active requests/batches, neither of which keeps up with heterogeneous, evolving workloads. Vertumnus is an adaptive CP serving system: at the request level it routes among workers with different CP degrees using a placement cost combining predicted queuing delay, cache-aware prefill time, and GPU-time cost; at the cluster level it adapts worker composition via seconds-scale split/merge operations; and it adds a global prefix-cache policy that coordinates placement and replication across same- and cross-degree workers so locality survives worker re-composition.",
+      "one_liner": "长上下文 serving 的工程模板：Vertumnus 用 placement cost 做请求层路由 + 秒级 split/merge 重组 worker，全局 prefix-cache 跨 CP 度协调，cache locality 不崩",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cad45e96.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ee3cd5f7",
+      "title": "Same Request, Different Answer: Quantization Amplifies Cache-Induced Divergence in LLM Serving",
+      "url": "https://arxiv.org/abs/2609.04748",
+      "source": {
+        "platform": "arxiv",
+        "author": "Aditi Patodiya",
+        "original_date": "2026-09-04"
+      },
+      "category": "infra",
+      "tags": [
+        "llm-serving",
+        "prefix-cache",
+        "quantization",
+        "reproducibility",
+        "agent-eval"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Prefix caching 是开源推理引擎默认开的优化，复用相同前缀的 KV 张量但论文测出它对可复现性的代价随量化加深：固定模型解码参数种子请求顺序，串行 batch=1 跑 80 episode 的多轮 agentic tool-use 任务，开启 cache 时 16-bit 下 36.2% episode 改变 agent 轨迹，4-bit 下飙到 75.0%；关闭 cache 在所有 4 个 weight format 下 800 episode 都 bit-identical（其他非确定性源 0.5%）结论：cache state 默认不重置是 LLM serving 的隐含坑，做 agent 评估不修这个坑就会出现'同一个模型同一个 benchmark 跑出两个结论'的尴尬",
+      "summary_en": "Prefix caching reuses KV tensors across requests sharing a prompt prefix and ships enabled by default. The paper measures its reproducibility cost and finds it rises sharply with quantization: holding model, decoding, seed, and request order fixed, an 80-episode multi-turn agentic tool-use workload changed trajectory on 36.2% of episodes at 16-bit and 75.0% at 4-bit; with caching disabled, 800 episodes were bit-identical across all four weight formats (other non-determinism 0.5%). The takeaway: cache state not being reset by default is an implicit landmine in LLM serving; agent evaluators that ignore it will see 'two answers from the same model on the same benchmark'.",
+      "one_liner": "Prefix cache 默认不重置是 LLM serving 的隐含坑：4-bit 下 75% episode 改变 agent 轨迹，做 agent 评估不修这个会闹笑话",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/ee3cd5f7.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "da99e82d",
+      "title": "Trace2Tower: Transition-Aware EigenTrace Induction of Multi-Level Skills for LLM Agents",
+      "url": "https://arxiv.org/abs/2609.05261",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jiazheng Sun, Boyu Yang, Binhao Yuan, Mingxuan Li, Xin Peng",
+        "original_date": "2026-09-04"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agent",
+        "skill-hierarchy",
+        "spectral-decomposition",
+        "experience-reuse",
+        "alfworld"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "LLM agent 用执行轨迹学复杂交互任务，但当前范式卡在浅层轨迹检索 + 平铺式技能摘要忽略 agent 行为的时序依赖和结果条件拓扑Trace2Tower 是 transition-aware 框架：把 step 级交互抽象成 canonical event，构建由语义兼容transition dynamics结果证据共同约束的统一图；通过 contrastive spectral decomposition 分离稳定且对齐成功的行为模式，抑制失败倾向 shortcut；这些模式自然填进动作模板 程序套路 总体任务策略三层 skill tower，再用 verifier-guided feedback 持续打磨ALFWorld 上 87.31% 成功率平均 10.35 步0.26 次额外动作",
+      "summary_en": "LLM-agent experience learning is bottlenecked by shallow trajectory retrieval and flat skill summarization, which ignore temporal dependencies and outcome-conditioned topology. Trace2Tower abstracts step-level interactions into canonical events, builds a unified graph constrained by semantic compatibility, transition dynamics, and outcome evidence, and applies contrastive spectral decomposition to isolate success-aligned modes while suppressing failure-prone shortcuts. The modes populate a three-level skill tower (action templates procedural routines task strategies), refined by verifier-guided feedback. On ALFWorld: 87.31% success rate, 10.35 average steps, 0.26 extra actions.",
+      "one_liner": "Agent 经验复用从'字符串'变'结构'：Trace2Tower 用 transition-aware 图 + contrastive spectral 分解出三层 skill tower，ALFWorld 87.31%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/da99e82d.md",
+      "images": [],
+      "added_date": "2026-09-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-09",
-  "total_entries": 2209
+  "total_entries": 2218
 }
