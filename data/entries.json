@@ -66326,8 +66326,127 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "6feb19f3",
+      "title": "The Semi-Executable Stack: Agentic Software Engineering and the Expanding Scope of SE",
+      "url": "https://arxiv.org/abs/2604.15468",
+      "source": {
+        "platform": "arxiv",
+        "author": "Robert Feldt, Per Lenberg, Julian Frattini, Dhasarathy Parthasarathy",
+        "original_date": "2026-04-16"
+      },
+      "category": "learning",
+      "tags": [
+        "llm-agent",
+        "software-engineering",
+        "field-note"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "Feldt（Agentic Engineering 2026 主旨报告配套论文）提出半可执行栈：智能体化软件工程真正的变化不是 SE 失去价值，而是被工程化的对象从可执行代码扩展到自然语言工具工作流控制机制与组织规程的组合物它们的执行依赖人或概率性解释，而非确定性运行论文给出六环诊断参考模型（可执行工件指令工件编排执行控制运行逻辑社会制度适配），用三个案例演示定位贡献/瓶颈/组织转型所处的环，并提出 preserve-versus-purify 启发式：判断哪些传统 SE 流程与协调惯例应保留哪些应简化重设计属于概念性议程设定型文章，非实证研究",
+      "summary_en": "Argues the real shift in software engineering is not loss of relevance but expansion of what gets engineered beyond executable code to semi-executable artifacts: combinations of natural language, tools, workflows, control mechanisms, and organizational routines whose enactment depends on human or probabilistic interpretation rather than deterministic execution. Introduces the Semi-Executable Stack, a six-ring diagnostic reference model spanning executable artifacts, instructional artifacts, orchestrated execution, controls, operating logic, and societal/institutional fit; develops the argument through three worked cases and closes with a preserve-versus-purify heuristic for deciding which legacy SE processes, controls, and coordination routines to keep versus redesign....",
+      "one_liner": "Feldt（Agentic Engineering 2026 主旨报告配套论文）提出半可执行栈：智能体化软件工程真正的变化不是 SE 失去价值，而是被工程化的对象从可执行代码扩展到自然语言工具工作流控制机制与组织规程的组合物它们的执行依赖人或概率性解释...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6feb19f3.md",
+      "images": [],
+      "added_date": "2026-09-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0aa34af0",
+      "title": "Runtime-Structured Task Decomposition for Agentic Coding Systems",
+      "url": "https://arxiv.org/abs/2605.15425",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shubhi Asthana, Bing Zhang, Chad DeLuca, Hima Patel, Ruchi Mahindru",
+        "original_date": "2026-05-14"
+      },
+      "category": "learning",
+      "tags": [
+        "llm-agent",
+        "coding-agent",
+        "field-note"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "IBM 团队针对智能体编码系统的单体 prompt病灶给出架构级解法：任务切分与执行流改由可执行控制逻辑管理，LLM 只做聚焦的判断类子任务，输出先过 schema 校验再进入下游两组 SE 工作负载（K8s 根因分析多文件调试）x 三种配置 x 10 次运行的对比显示：静态分解反而比单体更贵（RCA 重试成本 1,632145 vs 90417 tokens），因为失败会连带重跑下游子任务；运行时结构化分解只重跑失败子任务，把重试成本压到 436132 / 460 tokens，较单体最高降 51.7%，较静态分解降 73.2%对 agent harness 设计者的直接启示：可靠性来自控制流结构，而非更长的 prompt",
+      "summary_en": "Many agentic coding systems encode task logic, execution flow, and output generation inside monolithic prompts, producing brittle behavior, limited debuggability, and high retry costs. Proposes runtime-structured task decomposition: task partitioning and execution flow are managed through executable control logic rather than prompt structure alone, LLMs handle only focused judgment tasks, and outputs are schema-validated before downstream execution....",
+      "one_liner": "IBM 团队针对智能体编码系统的单体 prompt病灶给出架构级解法：任务切分与执行流改由可执行控制逻辑管理，LLM 只做聚焦的判断类子任务.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0aa34af0.md",
+      "images": [],
+      "added_date": "2026-09-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c77ff92a",
+      "title": "Faith in AI can narrow the futures individuals consider",
+      "url": "https://arxiv.org/abs/2603.28944",
+      "source": {
+        "platform": "arxiv",
+        "author": "Aoi Naito, Hirokazu Shirado",
+        "original_date": "2026-03-30"
+      },
+      "category": "learning",
+      "tags": [
+        "human-ai-interaction",
+        "field-note"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "1305 人参与的 Newcomb 悖论行为实验：当人们把 AI 视为能预测自己行为的权威时，AI 预测会改变其对自身未来行动的推理方式超过 40% 的参与者因此放弃确定性奖励（放弃几率提高 3.39 倍，95% CI 2.45-4.70），收益损失 10.7-42.9%；效应跨呈现方式与决策情境稳定存在，且在预测反复失败时仍可检出对 human-AI 交互与 agent 产品设计的含义：仅仅存在预测本身就足以收窄用户考虑的可能性空间，与预测准不准无关",
+      "summary_en": "Using a behavioral implementation of Newcomb's paradox with 1,305 participants, shows that AI predictions shape not only decisions but the reasoning people use: perceived predictive authority altered how participants reasoned about their own future actions, leading over 40% to treat AI as an authority on their behavior and significantly increasing the odds of forgoing a guaranteed reward (odds ratio 3.39, 95% CI 2.45-4.70), reducing earnings by 10.7-42.9%. The effect persisted across AI presentations and decision contexts and remained detectable even when predictions repeatedly failed. Implication: the mere presence of AI predictions can narrow the futures people consider.",
+      "one_liner": "1305 人参与的 Newcomb 悖论行为实验：当人们把 AI 视为能预测自己行为的权威时，AI 预测会改变其对自身未来行动的推理方式超过 40% 的参与者因此放弃确定性奖励（放弃几率提高 3.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c77ff92a.md",
+      "images": [],
+      "added_date": "2026-09-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "779e86c5",
+      "title": "GitLost: How We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
+      "source": {
+        "platform": "blog",
+        "author": "Sasi Levi (Noma Labs)",
+        "original_date": "2026-07-06"
+      },
+      "category": "models",
+      "tags": [
+        "agent-security",
+        "prompt-injection",
+        "field-note"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Noma Labs 披露的 GitLost 漏洞：GitHub Agentic Workflows（Actions + Claude/Copilot agent）存在间接 prompt 注入攻击者无需任何凭据，只要在组织内公开仓库提交一个精心构造的 Issue，触发 issues.assigned 工作流的 agent 就会读取 Issue 正文里的隐藏英文指令，去抓取同组织私有仓库的 README.md 并以公开评论形式贴出GitHub 自带护栏被Additionally这类关键词绕过：模型改写输出而非拒绝根因是 agent 拥有跨仓库读权限时未在不可信内容与系统指令间建立信任边界HN 541 分热帖，对一切给 agent 发权限读外部内容的团队都是现成的威胁模型样本",
+      "summary_en": "Noma Labs' disclosure of GitLost, an indirect prompt-injection vulnerability in GitHub Agentic Workflows (Actions + AI agent backed by Claude or Copilot): an unauthenticated attacker posts a crafted Issue in a public repo of an organization; the agent workflow triggered on issues.assigned reads the issue title/body, follows hidden plain-English instructions, fetches README.md from private repos in the same org, and posts the contents as a public comment. GitHub's guardrails were bypassed by adding the keyword 'Additionally', which reframed the output instead of refusing. Attack needs no credentials or coding skill; root cause is the missing trust boundary between untrusted content and system directives in an agent with cross-repo read access. Published July 6, 2026.",
+      "one_liner": "Noma Labs 披露的 GitLost 漏洞：GitHub Agentic Workflows（Actions + Claude/Copilot agent）存在间接 prompt 注入攻击者无需任何凭据，只要在组织内公开仓库提交一个精心构造的 Issue.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/779e86c5.md",
+      "images": [],
+      "added_date": "2026-09-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-09-09",
-  "total_entries": 2218
+  "last_updated": "2026-09-10",
+  "total_entries": 2222
 }
