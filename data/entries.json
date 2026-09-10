@@ -66445,8 +66445,134 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "cd4284b4",
+      "title": "How banked Codex resets work",
+      "url": "https://help.openai.com/articles/20001498-how-banked-codex-resets-work",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI Help Center",
+        "original_date": "2026-09-09"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "codex",
+        "usage-policy",
+        "field-note"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "OpenAI 官方说明 banked Codex resets 的机制:仅在 GPT-6 Astra 推出期间,9-3 PT22:00 与 9-4 PT20:00 之前创建的 Plus/Pro/Business 新账户(以及现有账户在 9-3 与 9-4 当天)各获一次可留存重置;9-7 已为全球 Plus/Pro/Business 用户统一发放一次立即应用的常规重置(不留存也不显示为 banked)banked 重置在桌面/CLI/网页端设置 用量中可见,使用后会刷新 Codex 5 小时与每周用量周期并改写周重置日期;只有真正刷至少一个用量周期后才会消耗,无可重置周期时保持可用",
+      "summary_en": "OpenAI help-center article explaining banked Codex resets issued during the GPT-6 Astra rollout: eligible new Plus/Pro/Business accounts created before 22:00 PT on Sep 3 or 20:00 PT on Sep 4 (plus all existing Plus/Pro/Business seats) each received one banked reset on Sep 3 and Sep 4. A separate global reset was applied on Sep 7 to all Plus/Pro/Business users worldwide, but that one applied immediately and was not banked. A banked reset shows up under Settings -> Usage; using it refreshes the 5-hour and weekly Codex windows and shifts the weekly reset date, and is only consumed when at least one window actually resets.",
+      "one_liner": "OpenAI 官方说明 banked Codex resets 的发放窗口(9-3 / 9-4 / 9-7 三轮)与消耗规则:未触发窗口重置不消耗9-7 那轮是常规重置不可留存",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/cd4284b4.md",
+      "images": [],
+      "added_date": "2026-09-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ecb41a28",
+      "title": "Codex & ChatGPT team: banked resets not fully applying in Work/Codex",
+      "url": "https://x.com/thsottiaux/status/2097752790177370535",
+      "source": {
+        "platform": "x",
+        "author": "Thibault Sottiaux (Codex & ChatGPT @ OpenAI)",
+        "original_date": "2026-09-09"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "codex",
+        "incident",
+        "field-note"
+      ],
+      "source_type": "x_post",
+      "language": "both",
+      "summary_zh": "OpenAI Codex/ChatGPT 团队的 Thibault Sottiaux 在 9-9 18:23 UTC 发文:当日 ChatGPT Work 与 Codex 出现一批 banked reset 点用未完整生效事故,受影响时段内点用过的用户会再补发一次 banked reset 并附邮件致歉回复里用户补充:有人的周限额没刷新账户报错账户不存在9-7 的全球 reset 未到账部分账号截至 9-10 仍有人在等补偿 card 与邮件这是 OpenAI 自 GPT-6 Astra 推出以来首次公开承认 banked reset 发放链路存在缺陷并承诺批量补发",
+      "summary_en": "On Sep 9 18:23 UTC, Thibault Sottiaux (Codex & ChatGPT @ OpenAI) publicly acknowledged a morning incident where banked Codex resets did not fully apply when used in ChatGPT Work and Codex; every affected user would receive another banked reset plus an apology email. Replies document additional downstream effects: weekly limits not refreshing, accounts briefly reporting 'account does not exist' on relogin, and the Sep 7 global reset not landing on some accounts. Several affected users reported still waiting for the replacement card and email as of Sep 10. First public OpenAI admission that the banked-reset issuance path had a defect during the GPT-6 Astra rollout.",
+      "one_liner": "Codex/ChatGPT 团队 Sottiaux 9-9 公开承认 banked reset 点用未完整生效,承诺补发;用户跟帖补到周限额未刷新账户报错9-7 全球 reset 部分账号未到账",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/ecb41a28.md",
+      "images": [],
+      "added_date": "2026-09-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ba08af0c",
+      "title": "DeepSeek V4.1 Flash: Pro auto-routed to Flash, Flash series price cut 50%",
+      "url": "https://news.ycombinator.com/item?id=49624603",
+      "source": {
+        "platform": "news",
+        "author": "DeepSeek / platform.deepseek.com/usage banner",
+        "original_date": "2026-09-09"
+      },
+      "category": "models",
+      "tags": [
+        "deepseek",
+        "v4-flash",
+        "v4-pro",
+        "pricing",
+        "field-note"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "9-9 11:19 UTC DeepSeek 在 platform.deepseek.com/usage 挂 banner,一次性同步三件事:V4.1 Flash 在性能/成本/速度/完成时间上全面超过 V4 Pro;过渡期(V4.1 Pro 发布前)所有 Pro 请求自动路由到 V4.1 Flash 并按 Flash 计费;Flash 系列 9-10 12:00 北京时间生效新价(非高峰 input cache hit $0.003 / cache miss $0.15 / output $0.6,高峰翻倍),整体较 V4 Flash 此前一版再降约 50%架构层 V4.1 Flash 不再是 V4 系列 MoE 的小迭代,文本/图像/音频多模态原生集成;限测模型 ID deepseek-v4.1-flash-expires-on-0910,9-8 上线9-10 自动下线并发限 20/账号HF 上 V4.1 Flash 权重未开放(V4 系列权重是 MIT 公开),V4.1 Flash 仅在官方 API 与控制台分发,意味着受限机构这次连自部署兜底都没有HN 工程师读者焦点:Flash 长期取代 Pro 的趋势OpenAI/Anthropic 是否会加码蒸馏防御Flash 不开源对国内/亚太受限机构的影响",
+      "summary_en": "On Sep 9 11:19 UTC DeepSeek posted a banner on platform.deepseek.com/usage making three simultaneous moves: V4.1 Flash comprehensively surpasses V4 Pro across performance, cost, speed and completion time; during the transition window before V4.1 Pro releases, all Pro requests are auto-routed to V4.1 Flash and billed at Flash rates; Flash-series pricing is cut roughly 50% effective 12:00 Beijing time on Sep 10 (off-peak $0.003 / $0.15 / $0.6 per million tokens for cache-hit input, cache-miss input, output; peak hours double). Architecturally V4.1 Flash is not a minor V4 iteration text/image/audio are natively multimodal rather than a vision bolt-on; the limited-eval model id is deepseek-v4.1-flash-expires-on-0910 with concurrency capped at 20 per account....",
+      "one_liner": "DeepSeek 9-9 banner 把 V4.1 Flash 超过 V4 ProPro 自动路由到 FlashFlash 系列再砍价 50% 三件事压成同日发布;V4.1 Flash 权重未开源,HF 上 V4.1 零命中",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ba08af0c.md",
+      "images": [],
+      "added_date": "2026-09-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1c67cba8",
+      "title": "Anthropic is building a predictive surveillance system to monitor activists",
+      "url": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists",
+      "source": {
+        "platform": "blog",
+        "author": "Daniel Boguslaw",
+        "original_date": "2026-09-09"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "safety",
+        "surveillance",
+        "governance",
+        "field-note"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Prospect 独立调查记者 Daniel Boguslaw 9-9 整合 podcast 访谈WSJ 7 月报道SF Standard 9-4 报道与 Anthropic 8 月招聘 JD,把 Anthropic 的pre-crime监控基础设施拼成同一张图:GSOC 经理 Keon Ellison 在 podcast 描述 Anthropic 用外包风险监控商 Samdesk 提前 60 分钟拿到抗议时间变更信号并据此改高管路线;WSJ 同期 Anthropic 自述person-of-interest流程 + 报道被报警的人很多已经在名单上;SF Standard 9-4 那条 Anthropic 把对 Claude 说 AR-15 + Dario Amodei 在瞄准里的用户报警给 SFPD 但拒绝提供消息原文,理由是内部政策;JD 把 activism 与 terrorism / crime / nation-state 并列为identify, assess, track, and investigate global threats四类之一Prospect 把这条放进 AI 标记 critical infrastructure 的 ARI 游说背景下:不是把 AI 放进 critical infrastructure,而是让 critical infrastructure 这层制度外壳反过来给 lab 接入情报产品提供背书Anthropic 拒绝对 Prospect 评论HN 评论收敛在Anthropic 与 Palantir 没区别alignment 框架下被监控对象换了词的口径上",
+      "summary_en": "Prospect's Daniel Boguslaw consolidated four already-published threads the Anthropic GSOC podcast interview, WSJ's July reporting, SF Standard's Sep 4 story, and Anthropic's August job posting into a single picture of an in-house pre-crime surveillance infrastructure. GSOC manager Keon Ellison described using contracted OSINT vendor Samdesk to receive a 60-minute advance signal on a changed protest time and reroute executives away. WSJ quoted Anthropic describing a person-of-interest process, and the same reporting noted that several individuals later reported to police had already been on that list. SF Standard reported that Anthropic called SFPD on a user who told Claude about an AR-15 aimed at Dario Amodei, but declined to share the original message under 'internal policy'....",
+      "one_liner": "Prospect 把 Anthropic GSOC podcast + WSJ + SF Standard + 招聘 JD 拼成同一张图:Anthropic 用 person-of-interest 流程 + Samdesk OSINT + 报警但不出示证据 + JD 把 act...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1c67cba8.md",
+      "images": [],
+      "added_date": "2026-09-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-10",
-  "total_entries": 2222
+  "total_entries": 2226
 }
