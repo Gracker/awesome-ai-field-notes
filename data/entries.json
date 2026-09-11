@@ -66958,8 +66958,334 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "3aa1825e",
+      "title": "Codex 读微信本地数据 Skill：聊天记录联系人收藏与朋友圈只读检索",
+      "url": "https://x.com/gkxspace/status/2097989784379785419",
+      "source": {
+        "platform": "x",
+        "author": "gkxspace / 逸尘",
+        "original_date": "2026-09-10"
+      },
+      "category": "agents",
+      "tags": [
+        "codex",
+        "wechat",
+        "local-data",
+        "skills",
+        "personal-knowledge",
+        "privacy",
+        "field-note"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "gkxspace 引用逸尘的微信生态 Skills，介绍可让 Codex 在 Mac 本地只读读取微信聊天记录联系人群聊朋友圈和收藏夹，用于客户沟通前回溯历史群聊精华日报文件/收藏检索与内容素材沉淀引用帖还列出微信公众号文章下载微信双开和企微微信数据 Skill价值在于把私人即时通讯数据变成 agent 可查询的本地知识源；边界是重签名风险隐私合规和微信生态稳定性",
+      "summary_en": null,
+      "one_liner": "微信本地数据 Skill 把聊天记录联系人收藏与朋友圈变成 Codex 可检索的私有知识源，同时把隐私与平台风险推到本机侧",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/3aa1825e.md",
+      "images": [
+        "https://pbs.twimg.com/media/HR2OljEakAAdCnG.jpg"
+      ],
+      "added_date": "2026-09-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e0bea100",
+      "title": "Shopify: coding agents made native mobile cheaper than React Native sharing",
+      "url": "https://shopify.engineering/back-to-native",
+      "source": {
+        "platform": "blog",
+        "author": "Mustafa Ali / Shopify Engineering",
+        "original_date": "2026-09-10"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "mobile",
+        "react-native",
+        "swift",
+        "kotlin",
+        "verification",
+        "field-note"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Shopify 解释为什么在 2020 年 all-in React Native 后重新转向 Swift/Kotlin 原生移动端：coding models 让双端各写一遍的成本结构改变Shop App 在 AI 辅助下 12 周完成原生重写并上架；他们用 Helix 把迁移拆成 checkpoint，每步必须通过测试视觉审查两个 adversarial reviewer 和人工确认更关键的是 headless 业务逻辑 CLI 与 remote mode，把 agent 验证从慢 simulator 交互转成毫秒级反馈回路",
+      "summary_en": "Shopify says React Native remains good, but LLM agents changed one core assumption behind the 2020 decision: maintaining parity across Swift and Kotlin no longer costs what it used to. Its Shop app moved from PoC to a native app in 12 weeks, while Helix enforces checkpointed tests, visual review, adversarial reviewers and human approval. The deeper lesson is agent-addressable architecture: decouple business logic from UI and expose a CLI so agents can iterate without slow simulator loops.",
+      "one_liner": "Shopify 的转向不是RN 死了，而是 coding agent + 可验证环境正在侵蚀跨平台框架最核心的省工假设",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e0bea100.md",
+      "images": [
+        "https://cdn.shopify.com/b/shopify-brochure2-assets/74f109ae9b0c3034a78a3b63294ae2e6.png?originalWidth=1848&originalHeight=782",
+        "https://cdn.shopify.com/s/files/1/0779/4361/files/Native_gif.gif?v=1789054778"
+      ],
+      "added_date": "2026-09-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "78956e92",
+      "title": "DeepSeek V4.1 Flash 官方发布：552B CED MoEdeepseek-flash 与峰谷定价",
+      "url": "https://www.deepseek.com/news/deepseek-v4-1-flash",
+      "source": {
+        "platform": "blog",
+        "author": "DeepSeek",
+        "original_date": "2026-09-10"
+      },
+      "category": "models",
+      "tags": [
+        "deepseek",
+        "v4.1-flash",
+        "model-release",
+        "moe",
+        "pricing",
+        "multimodal",
+        "field-note"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "DeepSeek 官方发布 V4.1 Flash，称其为全新结构系列的小尺寸模型：552B 参数 MoE，Causal-Encoder-Decoder 非对称结构，输入激活 8B输出激活 16B，并具备原生多模态视觉理解官方强调 KV Cache 对 HBM/SSD 需求分别降到上一代的 1/4 和 1/8，API 模型名为 deepseek-flash，V4 Flash/Vision Exp 将路由到新模型，并从 2026-09-10 12:00 起执行新的峰谷定价",
+      "summary_en": null,
+      "one_liner": "V4.1 Flash 的重点不只是新分数，而是 CED MoEKV Cache 压缩API 路由和峰谷价格一起改变 DeepSeek 的 agent 成本面",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/78956e92.md",
+      "images": [
+        "https://www.deepseek.com/images/blog/deepseek-v4-1-flash/agentic-benchmark.png",
+        "https://www.deepseek.com/images/blog/deepseek-v4-1-flash/benchmark-zh.png",
+        "https://www.deepseek.com/images/blog/deepseek-v4-1-flash/kv-cache.png",
+        "https://www.deepseek.com/images/blog/deepseek-v4-1-flash/pricing-zh.jpg"
+      ],
+      "added_date": "2026-09-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "19819179",
+      "title": "DeepSeek V4.1 Flash Hugging Face model card and technical report",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "source": {
+        "platform": "manual",
+        "author": "DeepSeek-AI",
+        "original_date": "2026-09-10"
+      },
+      "category": "models",
+      "tags": [
+        "deepseek",
+        "v4.1-flash",
+        "huggingface",
+        "technical-report",
+        "open-weights",
+        "field-note"
+      ],
+      "source_type": "product",
+      "language": "both",
+      "summary_zh": "DeepSeek-V4.1-Flash 的 Hugging Face 页面是模型权重模型卡和技术报告的主要入口，与官方新闻中的 API 发布互补DeepSeek 新闻页把 HF 链接列在模型开源部分，并说明会支持社区进行推理适配扩大部署范围；本地调研材料还把它与 API 名 deepseek-flash552B CED MoEArtificial Analysis 分数和价格口径分开记录该条目用于锚定可下载模型与技术报告，而非二手评论",
+      "summary_en": "The Hugging Face page is the canonical model-card and technical-report entry point for DeepSeek-V4.1-Flash, complementing the API launch announcement. It anchors the downloadable/open-weight side of the release, while the DeepSeek news post covers API routing, pricing and official claims around the 552B CED MoE design.",
+      "one_liner": "官方新闻讲 API 与价格，HF 页面锚定模型卡权重和技术报告；两者合在一起才是 V4.1 Flash 的完整发布面",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/19819179.md",
+      "images": [
+        "https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/logo.svg?raw=true",
+        "https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/badge.svg?raw=true",
+        "https://img.shields.io/badge/%F0%9F%A4%96%20Chat-DeepSeek%20V4.1-536af5?color=536af5&logoColor=white",
+        "https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DeepSeek%20AI-ffc107?color=ffc107&logoColor=white",
+        "https://img.shields.io/badge/Twitter-deepseek_ai-white?logo=x&logoColor=white"
+      ],
+      "added_date": "2026-09-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "348626d9",
+      "title": "Anthropic September 2026 Threat Intelligence Report: detecting and countering AI misuse",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic Threat Intelligence",
+        "original_date": "2026-09-10"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "threat-intelligence",
+        "ai-misuse",
+        "cybersecurity",
+        "distillation",
+        "safety",
+        "field-note"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anthropic 2026-09 威胁情报报告披露其在 2025-12 至 2026-08 间识别并打断的 AI 滥用案例，覆盖网络行动监控影响行动常规武器生物滥用诈骗和非法蒸馏七类危害报告称 Claude Haiku/Sonnet/Opus 被用于从侦察工具开发到数据处理的多阶段流程，且 Sophisticated attacks no longer require sophisticated attackers；后半部分还披露多家中国实验室和代理网络围绕 Claude 的蒸馏转发和数据采集需按厂商单方披露阅读",
+      "summary_en": "Anthropics September 2026 threat-intelligence report covers operations disrupted from Dec 2025 through Aug 2026 across cyber operations, surveillance, influence, conventional weapons, biological misuse, scams/fraud and illicit distillation. It argues that AI collapses labor and tooling gaps across the cyber kill chain and documents notable cases including Russian espionage workflows, scam networks and alleged frontier-model distillation campaigns.",
+      "one_liner": "这份报告把 AI 滥用从提示词越狱推到真实行动链：网络行动诈骗监控与蒸馏都开始被 agent 工作流放大",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/348626d9.md",
+      "images": [
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Ffc8ef227f64c039d99e27145fae5204fd8a81501-1920x312.jpg&w=3840&q=75",
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/1c3e87fd90491089b2971dc34f9f75bb8a80f713-1000x1000.svg"
+      ],
+      "added_date": "2026-09-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7cd9cbd4",
+      "title": "Have the frontier labs mixed up AI safety and security?",
+      "url": "https://martinalderson.com/posts/ai-safety-vs-security",
+      "source": {
+        "platform": "blog",
+        "author": "Martin Alderson",
+        "original_date": "2026-09-06"
+      },
+      "category": "infra",
+      "tags": [
+        "ai-security",
+        "agent-safety",
+        "sandbox",
+        "prompt-injection",
+        "frontier-labs",
+        "field-note"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Martin Alderson 区分 AI safety 与 security：前者常用 classifierRLHF 等非确定性拒答机制，后者要求单个控制点在已知漏洞上完整生效他用 Boris Cherny 提到的 Gray Swan IPI 基准反驳prompt injection largely solved：最佳 Opus 5 在 15 次尝试下仍有 2% 失败率，约 500 次即可统计击穿结合 Anthropic/OpenAI sandbox 事故，他认为问题不是没有告警，而是监控触发后仍继续运行；agent 安全要默认拒绝联网关闭 egress把告警当真",
+      "summary_en": "Alderson argues that frontier labs are confusing safety mechanisms with security controls. Classifiers and RLHF may reduce harmful outputs, but they are not deterministic containment: a 2% prompt-injection failure rate over 15 attempts is nowhere near largely solved. Reading recent sandbox-escape reports, he stresses that detection fired but was not treated as containment, and that default-deny networking and fail-closed controls are the relevant security philosophy.",
+      "one_liner": "Agent 安全不是多加几个 classifier，而是把每个 sandbox 控制按错一次就算漏洞的安全工程标准来设计",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7cd9cbd4.md",
+      "images": [
+        "https://martinalderson.com/img/boris-cherny-prompt-injection-tweet.png"
+      ],
+      "added_date": "2026-09-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "369127da",
+      "title": "Astra for Coding: Why Are We Doing This Again?",
+      "url": "https://lucumr.pocoo.org/2026/9/7/astra-why",
+      "source": {
+        "platform": "blog",
+        "author": "Armin Ronacher",
+        "original_date": "2026-09-07"
+      },
+      "category": "coding",
+      "tags": [
+        "astra",
+        "coding-agents",
+        "software-engineering",
+        "slop",
+        "tool-calls",
+        "field-note"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Armin Ronacher 用一次放手让 GPT-6 Astra 经营软件工厂的实验反思 agentic coding：35 小时后没有交付可用成果，却产生大量代码笔记和提交他指出 Astra 在长链路任务上很强，但奖励结构似乎更偏向任务推进与 token 效率，导致 Python 字符串拼接改 C 源码Python 调 Node 再调 PowerShell缩写变量和不合代码库风格的测试等现象核心警告是：能持续行动和能产出可维护代码不是一回事，harness 与审查边界比模型宣传更重要",
+      "summary_en": "Ronacher describes a weekend software factory experiment with GPT-6 Astra: after 35 hours it delivered nothing useful while producing large amounts of code, commits and agent notes. He focuses on code quality failure modesPython string splicing instead of patch tools, code-golfed tool calls, unreadable tests, random indexes and style driftand argues that long-horizon task reward may be leaking token-efficient tool-call style into committed code.",
+      "one_liner": "Ronacher 的 Astra 复盘把能跑很久与能交付可维护代码的差别讲透了：工程债在 harness，不只在模型",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/369127da.md",
+      "images": [],
+      "added_date": "2026-09-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e645e062",
+      "title": "Your Agent Is Mine: malicious intermediary attacks on LLM API routers",
+      "url": "https://arxiv.org/abs/2604.08407",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hanzhi Liu, Chaofan Shou, Hongbo Wen, Yanju Chen, Ryan Jingyang Fang, Yu Feng",
+        "original_date": "2026-04-09"
+      },
+      "category": "infra",
+      "tags": [
+        "llm-router",
+        "agent-security",
+        "tool-calling",
+        "supply-chain",
+        "api-security",
+        "arxiv",
+        "field-note"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文系统研究第三方 LLM API router 对 tool-calling agent 的供应链风险：router 作为应用层代理可明文访问整段 JSON payload，而客户端到上游模型之间缺少加密完整性保障作者定义 payload injectionsecret exfiltration 及两个自适应变体，扫描 28 个付费 router 和 400 个免费 router，发现 1 个付费与 8 个免费 router 主动注入恶意代码2 个使用自适应规避17 个触碰 AWS canary 凭证1 个抽走 ETH 私钥防线包括 fail-closed policy gateresponse-side anomaly screening 和 append-only transparency logging",
+      "summary_en": "The paper studies malicious intermediary attacks on LLM API routers used by tool-calling agents. Routers act as plaintext application-layer proxies, yet providers do not enforce cryptographic integrity between client and upstream model. Across 28 paid routers and 400 free routers, the authors find active payload injection, adaptive evasion, AWS canary credential touches and ETH private-key theft; they evaluate fail-closed policy gates, response-side anomaly screening and append-only transparency logging.",
+      "one_liner": "LLM router 是 agent 供应链里最容易被低估的一层：它能改 tool JSON，也能看见 secret，客户端必须 fail closed",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e645e062.md",
+      "images": [],
+      "added_date": "2026-09-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0f3b76bc",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "url": "https://openai.com/index/gpt-6-astra",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-09-11"
+      },
+      "category": "models",
+      "tags": [
+        "openai",
+        "gpt-6-astra",
+        "model-release",
+        "computer-use",
+        "coding",
+        "cybersecurity",
+        "field-note"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "OpenAI 官方发布 GPT-6 Astra，称其是新一代智能模型，面向计算机操作网页浏览软件工程网络安全科学和专业工作逐步推出页面给出 Terminal-Bench ScienceAgents Last ExamOSWorld 2.0Terminal-Bench 4.0ExploitBenchSRE-BenchARC-AGI-3 等基准，并强调 Codex 将引入跨上下文保留/检索上下文的实验能力可用性方面，Astra 将开放给 ChatGPT Plus/Pro/Business/EnterpriseOpenAI APIAzure 和 AWS Bedrock；API 标准价为 $10/M input$50/M output，Fast mode 价格翻倍",
+      "summary_en": "OpenAIs launch page presents GPT-6 Astra as a new generation model for computer use, web browsing, software engineering, cybersecurity, science and professional work. It reports benchmark gains across computer-use, coding, science, cyber and abstract-reasoning suites, describes new Codex context-retention behavior, and states rollout to ChatGPT tiers plus OpenAI API, Azure and AWS Bedrock with standard API pricing of $10/M input and $50/M output tokens.",
+      "one_liner": "Astra 官方页是本轮 OpenAI 旗舰模型发布的主合同源：能力价格Codex 上下文机制与 cyber 风险口径都在这里",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/0f3b76bc.md",
+      "images": [
+        "https://images.ctfassets.net/kftzwdyauwt9/6XttKhMddBzO6pT2IY2brG/841e9a215931057aeb578e1aa45f9bb4/career-website-dark-v3.png?w=3840&q=90&fm=webp"
+      ],
+      "added_date": "2026-09-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-11",
-  "total_entries": 2238
+  "total_entries": 2247
 }
