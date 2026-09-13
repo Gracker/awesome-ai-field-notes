@@ -68049,8 +68049,237 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "a865e994",
+      "title": "P(doom)",
+      "url": "https://lucumr.pocoo.org/2026/9/12/pdoom",
+      "source": {
+        "platform": "blog",
+        "author": "Armin Ronacher (@mitsuhiko)",
+        "original_date": "2026-09-12"
+      },
+      "category": "industry",
+      "tags": [
+        "pacing",
+        "open-weights",
+        "ai-policy",
+        "openai",
+        "anthropic",
+        "metr",
+        "ronacher"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Flask 与 Werkzeug 作者 Armin Ronacher（@mitsuhiko）9 月 12 日发文回应 Dario Amodei 的 \"pacing the frontier\"：他认同观察和担忧，但反对把 pacing 包装成可执行政策当下能谈 pacing 的实质只有 Anthropic 和 OpenAI 两家，连 Amodei 自己提到的第三方评估机构 METR 也与这两家深度绑定Ronacher 的反命题是开放权重模型本身就是 pacing 的最好形式：一旦放出，扩散能力按指数级发生，中国实验室蒸馏美国模型反而救了世界（尤其是欧洲）的开放生态他点了一个具体数字OpenAI 一次\"心血来潮\"就能烧掉 1800 万美元强行解决问题，订阅业务长期亏损，这种经济扭曲才是一切问题的来源判断清晰：不否认风险，但反对把 pacing 包装成少数闭源实验室垄断监管权的借口",
+      "summary_en": "Armin Ronacher replies to Dario Amodei's \"pacing the frontier\" essay: he shares the observations and the concerns, but rejects pacing as executable policy. Only Anthropic and OpenAI are effectively in the conversation, and the proposed third-party evaluator METR is bound to those labs. Ronacher's counter-thesis: open-weight release is itself the best form of pacing, because diffusion goes exponential once weights leave the lab. He points to a concrete number a single OpenAI \"whim\" burned $18M forcing a solution while subscriptions stay loss-making and argues the economic distortion, not any self-improvement risk, is the real source of harm.",
+      "one_liner": "Ronacher 用开放权重 vs. 闭源实验室监管的双轨视角反驳 Amodei 的 pacing 提议",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/a865e994.md",
+      "images": [],
+      "added_date": "2026-09-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4aa0dd66",
+      "title": "AI is breaking our proxies for expertise",
+      "url": "https://seangoedecke.com/ai-is-breaking-our-proxies-for-expertise",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-09-13"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-impact",
+        "credentialing",
+        "labor",
+        "software-engineering",
+        "mathematics",
+        "goedecke"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Sean Goedecke 9 月 13 日发文，把近 5000 名数学家（含 25 名 Fields 奖得主）联署反对 AI 那篇声明拆成机制讲清楚核心论点：数学里有两种活\"解谜题\"和\"造新概念\"外界评奖评声望给经费一直靠\"解出 Fermat 大定理\"这种高显示度的硬题来反推\"这人真的做出了新概念\"现在 OpenAI 和 Anthropic 都能直接解出 NavierStokes 这种量级的题，但没人知道机器解法背后有没有新概念这种\"高显示度\"被 AI 直接拿走，数学家作为群体的外部信用评估机制随之失灵Goedecke 把这个机制套到软件工程上：以前 GitHub 上一个 emulator 或 toy OS 是有信号的，现在默认是 vibe-coded，整个招聘市场失去低成本的硬通货证据判断参照 chess 和 speedrunning：人类会自然形成\"人-only 联赛\"，AI 证明反而可能抬高人类上限，但中间这一代\"靠旧证据积累起来的资深工程师\"会很痛苦",
+      "summary_en": "Sean Goedecke unpacks the math world's anti-AI declaration (signed by ~5,000 mathematicians including 25 Fields medalists): the credentialing proxy breaks because AI can solve hard problems without anyone knowing whether the solution contains new concepts. He generalizes the mechanism to software engineering what used to be a legible GitHub artifact (emulator, toy OS) is now presumed vibe-coded, eroding low-cost hiring evidence. The outlook borrows from chess and speedrunning: humans will form human-only leagues, AI proofs may lift human ceilings, but the in-between cohort of senior engineers priced by legacy evidence will hurt.",
+      "one_liner": "Goedecke 解释为什么 AI 冲击是 \"proxy for expertise\" 的失灵，而非工作本身的失灵",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/4aa0dd66.md",
+      "images": [],
+      "added_date": "2026-09-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a17f7018",
+      "title": "Don't build tools for AI agents",
+      "url": "https://seangoedecke.com/dont-build-tools-for-ai-agents",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-09-12"
+      },
+      "category": "industry",
+      "tags": [
+        "agents",
+        "tooling",
+        "ux",
+        "developer-tools",
+        "computer-use",
+        "goedecke"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Sean Goedecke 9 月 12 日姊妹篇，直接拆\"我们要为 AI agent 重写工具\"这个论点三条反对理由：第一，agent 用电脑的方式和人一样输入文本调用 API读文字看图给人做的工具天然适合 agent；第二，agent 已经把人类软件的几千亿 token 训练进模型里了，给它做一个比 Jira 好 20% 的新工具，抵不过\"agent 已经懂 Jira\"这个先发优势，这也是任何\"为 AI 设计的新编程语言\"基本都不会成的原因；第三，到底 agent 用什么顺手其实没人知道Goedecke 拿 Go 当例子，既可以讲它静态类型 + 快编译对 agent 友好，也可以讲它 boilerplate 把上下文窗口塞爆；去年主流担心 context window 太小，今年 compaction 已经好到可以把 27 万 token 的上下文无限次重压缩（他引了 OpenAI Codex 的一个 PR）判断：现在所谓\"为 agent 设计\"基本等于\"把 API 优先级提到 UI 上面\"，不是产品重塑；等 GPT-6-Astra 这类 computer use 模型继续变强，这个差距还会继续缩",
+      "summary_en": "Sean Goedecke argues against re-tooling for AI agents. Three reasons: agents consume the same interfaces humans do (text, API, image, vision), so human tools already fit; agents have humans' software in their trillion-token training corpus, so a \"Jira 20% better\" tool cannot beat the \"agents already know Jira\" first-mover advantage; and we do not yet know what agents find ergonomic Go is a perfect example, both friendly and hostile to context windows. The punchline: \"agent-first design\" mostly boils down to \"raise API priority above UI,\" and the gap will keep shrinking as computer-use models like GPT-6-Astra mature.",
+      "one_liner": "Goedecke 把 \"为 agent 重做工具\" 的流行论点逐条驳回，结论是 \"把 API 提到 UI 上面\"",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a17f7018.md",
+      "images": [],
+      "added_date": "2026-09-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "caa1b1a4",
+      "title": "shoucccc: 26 个 LLM router 暗中注入恶意工具调用，已造成单笔 50 万美元损失",
+      "url": "https://x.com/shoucccc/status/2042423713019412941",
+      "source": {
+        "platform": "x",
+        "author": "@shoucccc",
+        "original_date": "2026-04-10"
+      },
+      "category": "industry",
+      "tags": [
+        "llm-router",
+        "supply-chain",
+        "security",
+        "credential-theft",
+        "agent-tools"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "@shoucccc 公布研究：26 个 LLM router 被发现在工具调用中偷偷注入恶意指令并窃取凭证，已导致其客户加密钱包被抽走 50 万美元团队同时反向\"投毒\"部分 router 把流量导向自己，几个小时内可直接接管约400 台主机论文给出 router 侧的供应链攻击面与缓解建议",
+      "summary_en": null,
+      "one_liner": "LLM router 的供应链风险首次大规模公开：26 家产品暗中注入恶意工具调用，单笔损失已达 50 万美元",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/caa1b1a4.md",
+      "images": [],
+      "added_date": "2026-09-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0cc5879b",
+      "title": "mylifcc: Astra 落地后的 agentsmd-optimize 技能系统整理全局指令与 Skills",
+      "url": "https://x.com/mylifcc/status/2096066401236812089",
+      "source": {
+        "platform": "x",
+        "author": "@mylifcc",
+        "original_date": "2026-09-05"
+      },
+      "category": "industry",
+      "tags": [
+        "astra",
+        "agents-md",
+        "claude-md",
+        "prompt-engineering",
+        "agent-design"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "@mylifcc 给出 \"agentsmd-optimize\" 技能配方：拿到 Astra 第一件事就是重写 Agents.md 与 Claude.md，减少反复确认跑偏过度工程和无效操作，保留你的中文表达/直接执行/验证方式等习惯技能核心是按官方指南系统整理个人全局指令Skills 与 Agent 定义",
+      "summary_en": null,
+      "one_liner": "OpenAI Astra 落地第一课：先整理全局指令文件，去掉冲突与冗余审批",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/0cc5879b.md",
+      "images": [],
+      "added_date": "2026-09-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ef03c3bd",
+      "title": "rudrank: App Store Connect CLI 5.0.0 发布 个人最大一次版本",
+      "url": "https://x.com/rudrank/status/2096595527085555965",
+      "source": {
+        "platform": "x",
+        "author": "@rudrank",
+        "original_date": "2026-09-06"
+      },
+      "category": "industry",
+      "tags": [
+        "app-store-connect",
+        "cli",
+        "release",
+        "developer-tools",
+        "ios"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "@rudrank 9 月 6 日宣布 App Store Connect CLI 5.0.0 上线，号称个人最大的一次版本，整周投入 AI 相关工作；详细功能集通过其博客披露（t.co 短链指向的发布说明）",
+      "summary_en": null,
+      "one_liner": "App Store Connect CLI 5.0 上线，作者自述为\"AI week\"产物，但当前摘要未含具体功能清单",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "active",
+      "local_path": "content/ef03c3bd.md",
+      "images": [],
+      "added_date": "2026-09-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7e19bfd1",
+      "title": "blackanger: 智能体软件工程 #14 从英伟达重仓 Rust 到黑灯软件工厂",
+      "url": "https://x.com/blackanger/status/2098465802014151064",
+      "source": {
+        "platform": "x",
+        "author": "@blackanger",
+        "original_date": "2026-09-11"
+      },
+      "category": "agents",
+      "tags": [
+        "rust",
+        "nvidia",
+        "agent-runtime",
+        "ai-coding",
+        "rustchinaconf",
+        "dark-factory"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "@blackanger 9 月 11 日发布智能体软件工程 #14：从英伟达重仓 Rust 切入，论证\"黑灯软件工厂\"当机器开始写代码，真正需要升级的不是程序员，而是整个软件工厂预告 RustChinaConf 2026（10/1517 深圳），主题 Rust and AI：Rust for AIAI for RustRust in Production",
+      "summary_en": null,
+      "one_liner": "从 NVIDIA 重仓 Rust 到\"黑灯软件工厂\"，软件工程主线开始被机器写代码这件事重写",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7e19bfd1.md",
+      "images": [],
+      "added_date": "2026-09-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-13",
-  "total_entries": 2271
+  "total_entries": 2278
 }
