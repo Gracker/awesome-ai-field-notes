@@ -68423,8 +68423,151 @@
       "related": [
         "62f92455"
       ]
+    },
+    {
+      "id": "bd89a194",
+      "title": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+      "url": "https://arxiv.org/abs/2609.10715",
+      "source": {
+        "platform": "arxiv",
+        "author": "The Intern-NCP Team",
+        "original_date": "2026-09-09"
+      },
+      "category": "models",
+      "tags": [
+        "ncp",
+        "next-concept-prediction",
+        "next-token-prediction",
+        "latent-space-lm",
+        "olmo-3",
+        "dolma-3",
+        "pretraining-objective",
+        "shanghai-ai-lab",
+        "sjtu-lumia",
+        "apache-2.0"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Intern-NCP（上海 AI Lab + 上海交大 LUMIA）2026-09-09 在 arXiv 公开 NCP-ArchPreview 技术报告：在 next-token prediction 之外加一条 Next Concept Prediction 通路从隐状态构造 32128 的 product-quantized 概念词表，由独立 Concept Module 预测下一组 4 token 粒度的概念，再回灌到 token decoder；NTP 与 NCP 端到端联合训练，生成接口仍保持 token 自回归模型规模约 8.9B 参数，在 Dolma-3 课程上训练约 5.73T tokens论文报告：消耗约 51.3% 的总训练 token 量即达到 OLMo-3-7B 最终预训练 loss；全量预训练后下游 macro-average +2.45GSM8K +5.99；用约 85% 的标准算力逼近同参 8.9B baseline 的训练 loss概念层还能二次利用：只更新 17M 参数的 VQ 模块可做轻量 domain adaptation；把概念表示注入 DFlash2 draft 模型使 mean accepted length +4.17%（HumanEval +7.59%）权重以 Apache-2.0 在 Hugging Face ArchSpace-Collection 开源，加载需 trust_remote_code=True训练代码仍写 coming soon，评测仓在 LUMIA-Group/ncp_olmo_eval",
+      "summary_en": "NCP-ArchPreview (Intern-NCP, Shanghai AI Lab + SJTU LUMIA, arXiv 2609.10715, 2026-09-09) adds a Next Concept Prediction objective alongside standard NTP: a product-quantized concept vocabulary (32 codebooks 128 codewords) is built from hidden states, an 8-layer Concept Module predicts the next 4-token-span concept, and predicted concepts are fed back into the 16-layer token decoder. NTP and NCP are jointly trained end-to-end; generation remains token-level autoregressive. The 8.9B-parameter model was trained on 5.73T Dolma-3 tokens. The paper reports: 51.3% of training tokens reach the OLMo-3-7B final pretraining loss; downstream macro-average +2.45 and GSM8K +5.99; 85% of standard compute approaches the parameter-aligned 8.9B baseline....",
+      "one_liner": "Intern-NCP（上海 AI Lab + 上海交大 LUMIA）2026-09-09 在 arXiv 公开 NCP-ArchPreview 技术报告：在 next-token prediction 之外加一条 Next Concept Prediction 通路从隐状态构造...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/bd89a194.md",
+      "images": [],
+      "added_date": "2026-09-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "563f8ee1",
+      "title": "google/artemis: natural-language Android automation with MCP, USB-debugging, AndroidWorld 99%+",
+      "url": "https://github.com/google/artemis",
+      "source": {
+        "platform": "github",
+        "author": "Google",
+        "original_date": "2026-09-14"
+      },
+      "category": "agents",
+      "tags": [
+        "android",
+        "artemis",
+        "mcp",
+        "ui-automation",
+        "accessibility",
+        "androidworld",
+        "google",
+        "minitap",
+        "claude-code",
+        "codex"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "google/artemis 仓库（Apache-2.0）把 Android 真机/模拟器自动化装进 coding agent：自然语言下任务跨 App 操作自带原生 MCP server，可挂到 AntigravityClaude CodeCodexCursorWindsurf设备侧装 Artemis Accessibility Helper 读布局；有元素树就优先用元素索引，自绘/Compose/Flutter/Canvas 等回退到坐标和视觉提供 Flash（35 秒/步，无计划无 Safety Net）和 Pro（1540 秒/步，Planner + Operator + Safety Net + Checker，长程 100+ 步）README 自述 AndroidWorld 99%+ 完成率（20+ App100+ 多步任务），本跑次 GitHub API 约 4635 stars / 394 forks（2026-09-14），对照 09-08 调研约 210 stars 量级约一周涨 22README 页脚包含 Minitap, Inc. 源码声明@denziideng 中文安利帖（fxtwitter 约 287 likes / 3.4 万 views）也是同一波传播机制属于ADB + 无障碍点屏轨，与 Android 系统级 AppFunctions 框架（EXECUTE_APP_FUNCTIONS）不是同一产品",
+      "summary_en": "google/artemis (Apache-2.0) puts Android device automation into coding agents: natural-language tasks, cross-app flows, a native MCP server that connects to Antigravity, Claude Code, Codex, Cursor, and Windsurf. A first-run helper (Artemis Accessibility Helper) reads the accessibility tree on-device; element-index is preferred, with coordinate/vision fallback for Compose/Flutter/Canvas surfaces. Two profiles are shipped: Flash (~35 s/step, no plan/Safety Net) and Pro (~1540 s/step with Planner + Operator + Safety Net + Checker, 100+ step long-horizon). README claims 99%+ completion on Google's AndroidWorld benchmark (20+ apps, 100+ multi-step tasks); this run's GitHub API reports ~4635 stars / 394 forks as of 2026-09-14, up from ~210 stars in a 09-08 local research note (~22 growth in ~one week). README footer notes Minitap, Inc. source-code attribution....",
+      "one_liner": "google/artemis 仓库（Apache-2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/563f8ee1.md",
+      "images": [],
+      "added_date": "2026-09-14",
+      "updated_date": null,
+      "github_stars": 4635,
+      "related": []
+    },
+    {
+      "id": "fe2816b4",
+      "title": "Android Police: Android's AI-agent permissions cage is built but the tenants have not arrived",
+      "url": "https://www.androidpolice.com/android-ai-agent-permissions-cage-built-before-agents-arrive",
+      "source": {
+        "platform": "news",
+        "author": "Android Police",
+        "original_date": "2026-09-13"
+      },
+      "category": "agents",
+      "tags": [
+        "android",
+        "appfunctions",
+        "ai-agent",
+        "permissions",
+        "android-16",
+        "gemini",
+        "android-police",
+        "privacy"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Android Police 2026-09-13 报道：Android 系统里给 AI agent 准备的 AppFunctions 框架和 EXECUTE_APP_FUNCTIONS 权限已经就位，但用户设置里几乎找不到开关，第三方 App 也几乎没声明函数Android Developers Blog（2026-07）和官方 AppFunctions 文档写明：需要 Android 16+调用方必须持有 EXECUTE_APP_FUNCTIONS与 Gemini 的集成自 2026-05 起仍是 trusted testers 的 private preview；FAQ 直接答实验阶段只有有限数量的 app 和 system agents 能走完整条流水线样本仓 android/appfunctions（本跑次约 191 stars）Android Police 的判断是这次先锁权限再放生态顺序与历史先放再补闸相反空笼子是设计选择，不是失败",
+      "summary_en": "Android Police (2026-09-13) reports that Android's AppFunctions framework and EXECUTE_APP_FUNCTIONS permission are in place for AI agents, but the user-facing settings have no obvious toggle and almost no third-party App declares functions. Official docs and the Android Developers Blog (2026-07) make the hard edges explicit: Android 16+, callers must hold EXECUTE_APP_FUNCTIONS, the Gemini integration has been a private preview for trusted testers since 2026-05, and the FAQ answers the most common question 'experimental phase, only a limited number of apps and system agents can run the full pipeline.' Sample repository android/appfunctions sits at ~191 stars (this run)....",
+      "one_liner": "Android Police 2026-09-13 报道：Android 系统里给 AI agent 准备的 AppFunctions 框架和 EXECUTE_APP_FUNCTIONS 权限已经就位，但用户设置里几乎找不到开关.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fe2816b4.md",
+      "images": [],
+      "added_date": "2026-09-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "24108ec2",
+      "title": "@HowToPrompt__: NCP-ArchPreview as 'end of the current LLM era' viral framing vs paper claims",
+      "url": "https://x.com/HowToPrompt__/status/2099186312033259653",
+      "source": {
+        "platform": "x",
+        "author": "@HowToPrompt__",
+        "original_date": "2026-09-13"
+      },
+      "category": "models",
+      "tags": [
+        "x-post",
+        "ncp",
+        "ncp-archpreview",
+        "viral-framing",
+        "next-concept-prediction",
+        "pretraining",
+        "open-weights"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "2026-09-13 17:19 UTC @HowToPrompt__ 发帖把上海 AI Lab 与上海交大 LUMIA 的 NCP-ArchPreview （8.9BDolma-3 5.73T tokensApache-2.0）写成might end the current LLM era，并抛出 51.3% 训练数据massive 6-point math/reasoning15% standard compute 等数字本跑次 fxtwitter 约 4919 likes / 296,677 views / 848 reposts论文 arXiv:2609.10715 实际写的是在 next-token prediction 之外加 Next Concept Prediction，生成接口保持 token 自回归，联合目标而非替代51.3% of the training data是 token 预算到 OLMo-3-7B 最终预训练 loss 的比例，不是 wall-clock 快一倍massive 6-point math/reasoning最贴近的是 GSM8K +5.99，Overall AVG 是 +2.45同窗 @Mischa0X 写的是alongside the next tokenStage-1 loss 在约 51% tokens 上碰到 OLMo；49.04 avg vs 46.59，更贴论文写稿或选型时把这两层分开，数字 51.3% / +2.45 / +5.99 才不会被标题带跑",
+      "summary_en": "On 2026-09-13 17:19 UTC, @HowToPrompt__ posted a viral thread framing Shanghai AI Lab + SJTU LUMIA's NCP-ArchPreview (8.9B params, Dolma-3 5.73T tokens, Apache-2.0) as 'might end the current LLM era,' citing 51.3% training data, a 6-point math/reasoning gain, and 15% standard compute. This run's fxtwitter snapshot: ~4919 likes / 296,677 views / 848 reposts. The paper (arXiv:2609.10715) actually says Next Concept Prediction is added alongside standard NTP with token-level autoregressive generation preserved a joint objective, not a replacement. '51.3% of training data' means the token budget needed to reach OLMo-3-7B's final pretraining loss, not 1.95 wall-clock speed. 'Massive 6-point math/reasoning' most closely matches GSM8K +5.99 (39.2745.26); the Overall AVG gain is +2.45....",
+      "one_liner": "2026-09-13 17:19 UTC @HowToPrompt__ 发帖把上海 AI Lab 与上海交大 LUMIA 的 NCP-ArchPreview （8.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/24108ec2.md",
+      "images": [],
+      "added_date": "2026-09-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-14",
-  "total_entries": 2282
+  "total_entries": 2286
 }
