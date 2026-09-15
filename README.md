@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
+- [Shadowing the Standard Library: Coding Agents vs Python Module Search Path](https://nesbitt.io/2026/09/15/shadowing-the-standard-library.html) ⭐5 · 2026-09-15 — Andrew Nesbitt 2026-09-15 的工程文：coding agent 解 zip 写一个 Python 解码脚本 触发 import struct，攻击者在同目录放一个 struct.
+- [Tell Agents the Why, Not Just the How](https://seangoedecke.com/tell-agents-the-why) ⭐4 · 2026-09-15 — Sean Goedecke 2026-09-15 工程短文：把 spec 换成目标 + 优先级现代模型错的时候不是看不懂，是猜错了用户的优先级.
+- [r/cursor: Cursor Agent rmdir User Directory on Windows (transcript, ~23)](https://www.reddit.com/r/cursor/comments/1wfkugf/cursor_agent_ran_rmdir_s_q_cusersme_on_my_windows) ⭐3 · 2026-09-15 — r/cursor 帖（23 / 16 评，附 transcript 原文）：标题写 Cursor Agent 在临时清理里对 C:\Users\ 跑了两次 rmdir /s /q，并贴出 transcript 行互动远低于 HN Auto Mode...
+- [HN #49506819: Breaking Claude Code Opus 5 Auto Mode (~399 pts)](https://news.ycombinator.com/item?id=49506819) ⭐3 · 2026-09-15 — Hacker News 引擎头号（399 分 / 121 评）：拆 Claude Code Opus 5 Auto Mode 的攻击文评论里 andai 讲攻击解压目录里的影子 struct.
+- [Atria Dawn: The Dawn of Agentic Superintelligence (Technical Report)](https://arxiv.org/abs/2609.15818) ⭐5 · 2026-09-14 — Atria Dawn Preview（Shanghai AI Lab，2026-09-14 在 arXiv 公开，cs.
 - [google/artemis: natural-language Android automation with MCP, USB-debugging, AndroidWorld 99%+](https://github.com/google/artemis) ⭐4 · 2026-09-14 — google/artemis 仓库（Apache-2.
-- [Why we built Pion: an agent to run any company autonomously](https://andonlabs.com/blog/why-we-built-pion) ⭐4 · 2026-09-14 — Andon Labs 发布 Pion，这是一个可以让 LLM 智能体自主运营真实公司（自动售货机门店咖啡馆）的平台，源自近两年的 Vending-Bench 研究该基准自 2024 年末建立，Claude Sonnet 3.
-- [Charts built for Chat: dbt Charts open-sources a declarative dashboard language for agent-built...](https://dbtcharts.com/blog/charts-built-for-chat) ⭐4 · 2026-09-14 — dbt Labs 开源 "dbt Charts"一种面向"智能体通过聊天生成仪表盘"场景的声明式仪表盘语言当前痛点：智能体生成的仪表盘膨胀成 HTML/CSS/JS多套图表库外加 React 或 Streamlit 应用，难以审计且每次迭代消耗大量 token.
-- [AI is breaking our proxies for expertise](https://seangoedecke.com/ai-is-breaking-our-proxies-for-expertise) ⭐5 · 2026-09-13 — Goedecke 解释为什么 AI 冲击是 "proxy for expertise" 的失灵，而非工作本身的失灵
-- [Android Police: Android's AI-agent permissions cage is built but the tenants have not arrived](https://www.androidpolice.com/android-ai-agent-permissions-cage-built-before-agents-arrive) ⭐4 · 2026-09-13 — Android Police 2026-09-13 报道：Android 系统里给 AI agent 准备的 AppFunctions 框架和 EXECUTE_APP_FUNCTIONS 权限已经就位，但用户设置里几乎找不到开关.
-- [@HowToPrompt__: NCP-ArchPreview as 'end of the current LLM era' viral framing vs paper claims](https://x.com/HowToPrompt__/status/2099186312033259653) ⭐4 · 2026-09-13 — 2026-09-13 17:19 UTC @HowToPrompt__ 发帖把上海 AI Lab 与上海交大 LUMIA 的 NCP-ArchPreview （8.
-- [Fable 5.1 solves Sir Thomas Urquhart's Cyphral Distich, a 370-year-old cipher](https://www.vals.ai/blogs/fable-solves-cyphral-distich) ⭐3 · 2026-09-13 — Vals 团队让 Claude Fable 5.
-- [Why are AI agents lying, cheating and coordinating?](https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating) ⭐5 · 2026-09-12 — Bengio 综述近几个月的智能体事件（OpenAI-HuggingFace 事件Center for Long-Term Resilience 的失控事件库卫报报道）...
-- [P(doom)](https://lucumr.pocoo.org/2026/9/12/pdoom) ⭐5 · 2026-09-12 — Ronacher 用开放权重 vs. 闭源实验室监管的双轨视角反驳 Amodei 的 pacing 提议
-- [智能体软件工程 #14：从英伟达重仓 Rust，到黑灯软件工厂](https://mp.weixin.qq.com/s/HmcNsyRmUbz6VPnjLDvyXw) ⭐4 · 2026-09-12 — 智能体软件工程 #14：从英伟达重仓 Rust，到黑灯软件工厂
+- [Hermes Agent v0.21.3: Remote Session Refresh Hardening (NousResearch/hermes-agent)](https://github.com/NousResearch/hermes-agent/releases/tag/v2026.9.14) ⭐4 · 2026-09-14 — NousResearch/hermes-agent tag v2026.
+- [Claude Code v2.1.271: Remote Fast Mode, /fast, per-command allowed_domains](https://github.com/anthropics/claude-code/releases/tag/v2.1.271) ⭐4 · 2026-09-14 — anthropics/claude-code v2.
+- [X / @RewardAI_: OM-1 Cross-Embodiment Robotics Policy Launch](https://x.com/RewardAI_/status/2099553899804053992) ⭐4 · 2026-09-14 — @RewardAI_ 在 2026-09-14 17:40 UTC 发的官帖 2099553899804053992（约 1226 likes / 30 万 views / 185 reposts，证据 official_release）配套 OM-1 博客上线...
+- [X / @AtriaASI: Atria Dawn Preview Release (Official Announcement)](https://x.com/AtriaASI/status/2099490911822794901) ⭐4 · 2026-09-14 — @AtriaASI 在 2026-09-14 13:30 UTC 发出的官方发布帖 2099490911822794901（约 1879 likes / 174 万 views / 286 reposts / 439 quotes.
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 311 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 395 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 226 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 108 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 143 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 模型与实验室 | 316 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 400 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 232 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 111 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 144 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 98 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 138 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 2294
-- 公开展示卡片: 1419
-- 有全文内容: 1328
-- 最近 7 天信号: 98
+- 原始条目: 2314
+- 公开展示卡片: 1439
+- 有全文内容: 1348
+- 最近 7 天信号: 99
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `claude-code`, `agent-security`, `multi-agent`, `security`, `coding-agent`, `agents`, `agent-memory`, `field-note`, `coding-agents`, `google`, `open-source`, `agent`, `codex`
+`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `claude-code`, `agent-security`, `multi-agent`, `security`, `coding-agent`, `agent-memory`, `agents`, `field-note`, `open-source`, `coding-agents`, `google`, `agent`, `codex`
 
 ## 自动化约定
 
