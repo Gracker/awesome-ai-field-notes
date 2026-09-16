@@ -69488,8 +69488,360 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "8bc3fa7c",
+      "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
+      "url": "https://arxiv.org/abs/2609.15989",
+      "source": {
+        "platform": "arxiv",
+        "author": "Keertana Chidambaram, Andrew Ilyas, Vasilis Syrgkanis",
+        "original_date": "2026-09-14"
+      },
+      "category": "agents",
+      "tags": [
+        "cot-monitoring",
+        "alignment",
+        "prompt-injection",
+        "llm-agent",
+        "safety"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.15989（cs.AI，2026-09-14，Chidambaram/Ilyas/Syrgkanis）发现一种计划注入攻击：在 actor 模型上下文里埋一段看似无害实则带恶意的推理，CoT 监控器难以识别在 Lanham et al. (2023) 的多选 monitorability 设定下首次发现后扩展到更难任务，monitor 规避率 25-33%，在 DeepSeek-R1 等大模型上也成立；actor 还会把注入计划改写成自己的推理，无显式归因；更危险的是，给 monitor 接入被注入计划会让 Bio-Math 任务的检测下降 50%，增加 monitor 推理预算反而让其在一些转写里合理化注入计划而非标记",
+      "summary_en": "Chain-of-thought (CoT) monitoring is a safety strategy where the reasoning of a large language model \"actor\" is inspected by a \"monitor\" (often another language model) for signs of unsafe planning, deception, or misalignment. We find that planting harmful but benign-sounding reasoning in the actor's context can steer it to perform adversarial actions while evading monitors, an attack we term \"plan injection\". We initially discover this attack in the multiple-choice question-answering monitorability setting proposed by Lanham et al. (2023), using the investigator-agent elicitation framework of Li et al. (2025). We generalize the attack and show that the discovered behavior scales to harder tasks (achieving 25-33% monitor evasion rates across different monitorability benchmarks) and larger models such as DeepSeek-R1....",
+      "one_liner": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8bc3fa7c.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dd4d92a2",
+      "title": "Vulnerability Localization Benchmark: Measuring Agentic Security Analysis at Repository Scale",
+      "url": "https://arxiv.org/abs/2609.15939",
+      "source": {
+        "platform": "arxiv",
+        "author": "Aman Priyanshu, Supriti Vijay, Kimia Majd",
+        "original_date": "2026-09-14"
+      },
+      "category": "agents",
+      "tags": [
+        "security",
+        "agent-benchmark",
+        "vulnerability-localization",
+        "cwe",
+        "code-agent"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.15939（cs.CR/AI，2026-09-14，29 页技术报告）提出 VLoc-Bench：500 个真实漏洞290 个仓库6 个包生态147 个 CWE 类别，每条任务给出漏洞类描述+只读终端，要求 agent 在修复前快照定位受影响文件修复后快照判断漏洞已消失评测 27 个 LM + 4 个静态分析工具，最强仅 0.229 File F1，38.4% 任务没有任何模型正确定位；强定位能力不等于可靠行为，能找漏洞的 agent 在补丁版仓库上仍会报不存在的位置 把漏洞定位确立为独立 capability，研究何时 agent 应主动不报",
+      "summary_en": "Language-model agents increasingly operate over complete software repositories, yet cybersecurity evaluations primarily measure whether they can detect, reproduce, or repair vulnerabilities rather than whether they can locate the relevant code. We study vulnerability localization: given a weakness class and an unfamiliar repository, identify the implementation files associated with that weakness. We introduce the Vulnerability Localization Benchmark (VLoc Bench), comprising 500 real world vulnerabilities from 290 repositories across six package ecosystems and 147 CWE categories. Each task pairs repository snapshots immediately before and after a security fix....",
+      "one_liner": "Vulnerability Localization Benchmark: Measuring Agentic Security Analysis at Repository Scale",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dd4d92a2.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "debbb57a",
+      "title": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
+      "url": "https://arxiv.org/abs/2609.15983",
+      "source": {
+        "platform": "arxiv",
+        "author": "Honghao Lin, David P. Woodruff, Yuan Deng",
+        "original_date": "2026-09-14"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "long-horizon",
+        "theorem-proving",
+        "multi-agent",
+        "research-agent"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.15983（cs.AI/CL/LG，2026-09-14，Lin/Woodruff/Deng 等，含 Google 研究者）提出与模型无关的 Stellar Colosseum 推理分配框架：在证明前并行探索策略，用 readiness gate 决定何时分解，证明计划以相互依赖的小节子问题表示，验证器发现路由回受影响的论证段；最终通过重叠随机抽样树聚合融合候选与批评整个流程已集成进 Google Antigravity 的 TeamworkLong Proof模式配 Gemini 3.1 Pro，得出多个 FOCS/JMLR 论文遗留的开放问题新结果；TCS-Bench 准确率 71.0%，Codeforces 218/222",
+      "summary_en": "Language models can produce plausible short proofs, but may still be unreliable on long-horizon research problems, where progress depends on a sequence of uncertain and interdependent decisions. We introduce Stellar Colosseum, a model-agnostic harness for allocating inference across research in mathematics and theoretical computer science. Colosseum explores alternative strategies before proof construction, uses a readiness gate to decide when a route is mature enough to decompose, represents the proof plan as interdependent section-level subproblems, and routes verifier findings back to the affected part of the argument. Across these stages, it generates candidates in parallel, attacks them with targeted falsification, and combines candidates and their critiques into a single research artifact through overlapping random-sample tree aggregation....",
+      "one_liner": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/debbb57a.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "94e6f63b",
+      "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+      "url": "https://arxiv.org/abs/2609.15982",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ruishuo Chen, Xun Wang, Yu Chen",
+        "original_date": "2026-09-14"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-routing",
+        "skill-library",
+        "frozen-llm",
+        "code-agent",
+        "in-context-skills"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.15982（cs.LG/AI/CL，2026-09-14，Chen/Wang/Chen/Li/Huang）指出当前 agent 路由方法要么把所有 skill metadata 塞进上下文（分散注意力上限大小），要么外置检索（脱离模型能力）本文用 Gavel（Glance And Verdict）从冻结 LLM 的中间层前向特征中读出原生路由信号：两线性映射 + per-skill bankGlance打分，shortlist 的 skill 再续做前向Verdict读模型自身 likelihood 与 yes/no 判断，二者以 product-of-experts 融合只训练两个映射；零样本迁移 3 个公开基准 + 自建 SkillTraj（372 模拟轨迹），Qwen3-32B 比 progressive disclosureretrieve-and-rerank 加 1.2B-16B 外部参数更强（书面任务 +13.4中途需要 skill +21.9）；bash-agent harness 中同款 32B 触发正确 skill 的频率超过运行于 Codex 的更大前沿模型",
+      "summary_en": "Skills extend an LLM agent beyond its parametric knowledge, and the gain they promise rests on picking the right one. Deployed harnesses route by preloading every skill's metadata into the context, which disperses the agent's attention and caps the library size. Retrieval pipelines move the selection out of the context, but also out of the agent's capability. We show that the frozen agent LLM already carries the routing signal in its own forward passes, and that two linear maps suffice to read it out with no skill text in the context. Gavel (Glance And Verdict from a frozen LLM) reads it in two steps. A glance projects the task's and each skill's mid-layer states through the two maps, the only parameters trained, and scores the full library against compact per-skill banks that one forward pass builds at installation....",
+      "one_liner": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/94e6f63b.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "41159893",
+      "title": "HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses",
+      "url": "https://arxiv.org/abs/2609.15938",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jieyuan Liu, Mengzhou Hu, Jefferson Chen",
+        "original_date": "2026-09-14"
+      },
+      "category": "learning",
+      "tags": [
+        "scientific-agent",
+        "hypothesis-discovery",
+        "genetic-algorithm",
+        "drug-repurposing",
+        "multi-agent"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.15938（cs.CL/CE/MA/NE，2026-09-14，22 页 8 图 5 表，Liu/Hu/Chen 等，Ideker/Wang/Xing/Wang 团队）提出 HypoEvolve：用代际式遗传算法协调专门化 LLM agents，整合机制论证重审假设评估证据与可检验性；每一代明确定义科学判断与新提案如何重塑假设群体，使协作对假设质量的影响可直接评估评估围绕药物再利用展开，将解释绑定到靶点层级生物声明，用 DepMap + Open Targets 互补度量 34 类癌症中两个指标都跑赢 6 个基线；DepMap 选择性 0.171 vs 最佳基线 0.115；在 holdout 癌症类型上单遍生成的优势也能泛化",
+      "summary_en": "Scientific agents contribute to hypothesis discovery by synthesizing evidence, assessing proposals, and developing new explanations. Recent systems combine scientific agents with evolutionary search through critique, comparison, and revision. However, how different forms of agent collaboration affect hypothesis quality remains an open question. Answering this question requires separating the effects of agents' scientific capabilities from those of their collaboration. A framework must therefore preserve agents' scientific roles and support rules for combining, revising, and retaining hypotheses. Building on this view, we introduce HypoEvolve, which makes collaboration explicit through successive updates to a hypothesis population....",
+      "one_liner": "HypoEvolve: Genetic Algorithms Enable Multi-Agent LLMs to Discover Scientific Hypotheses",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/41159893.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c4603fb6",
+      "title": "Discovery Foundation Models: Toward Open-Ended Discovery Intelligence",
+      "url": "https://arxiv.org/abs/2609.15973",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ling Yang, Zhenfei Yin, Yingcheng Wu",
+        "original_date": "2026-09-14"
+      },
+      "category": "learning",
+      "tags": [
+        "foundation-models",
+        "discovery",
+        "agentic-science",
+        "wet-lab",
+        "closed-loop"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.15973（cs.CL，2026-09-14，Yang/Yin/Wu）提出Discovery Foundation Models (DFM)框架，把发现能力形式化为 7 项耦合能力：问题发现问题形式化表征构建假设形成干预证据驱动的修正持续发现改进；作用于可修订的研究状态实例化为 Zetema（显式研究状态动力学 + 验证/实验 gate + 外部 grounding + 跨任务 Discovery Skill 演化）；GALILEO 是真实治疗发现的闭环系统，Dry-Lab 推理机器人/手动 Wet-Lab 实验外部生物证据迭代假设与设计修订形成物理发现闭环；并给出 capability formation + process-centered evaluation 的统一方法论；GitHub: github.com/Gen-Verse/DFM-Plans",
+      "summary_en": "Foundation models have progressed from learning and reasoning over existing knowledge, to increasingly learning through action, tool use, and outcome feedback. We argue that the next frontier is a further transition: from solving and acting within problems specified by humans to participating in the process by which new problems, representations, explanations, and knowledge are created. We refer to this capability as Discovery Intelligence. We formulate Discovery Foundation Models (DFMs) as general-purpose model systems for open-ended discovery. A DFM operates over a revisable research state and supports seven coupled capabilities spanning problem discovery, formulation, representation construction, hypothesis formation, intervention, evidence-grounded revision, and continual discovery improvement....",
+      "one_liner": "Discovery Foundation Models: Toward Open-Ended Discovery Intelligence",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/c4603fb6.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ec41a3ad",
+      "title": "Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security",
+      "url": "https://arxiv.org/abs/2607.18063",
+      "source": {
+        "platform": "arxiv",
+        "author": "Devina Jain, David Hartmann, Chuan Li",
+        "original_date": "2026-07-20"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "prompt-injection",
+        "benchmark",
+        "multi-turn",
+        "defense"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2607.18063（cs.CR/AI/LG，2026-07-20 提交 v2 2026-09-11，2nd Workshop on Agents in the Wild）提出 21 场景自适应跨轮攻击基准：自主 LLM 攻击者观察 defender 响应并跨轮 pivot，defender 每轮被视作 fresh interaction；33 attacker-defender 矩阵 945 战仅看首轮 ASR 0-1%，允许多 15 轮后 ASR 7.9-16.8%；池化 3 个 attacker LLM 找出独特成功输入比单 best 多 1.7-2.2 倍，但代价是 3 倍战斗预算总体率掩盖了对 session-secret 与 authority 处理的场景特异性弱点；6 个场景加入一段 provenance 段落把 ASR 从 110/270 降到 70/270；用 history/defender-state 控制 + frozen replay 刻画协议差异；额外 18,422 场以固定 gpt-oss-20b 评测",
+      "summary_en": "LLM-based agents process external content, exposing them to prompt injection and multi-turn manipulation. We present a 21-scenario benchmark for adaptive cross-session attacks against fresh-session LLM defenders: an autonomous LLM attacker observes prior defender responses and pivots across rounds, while each defender response is evaluated as a fresh interaction. A controlled 3 x 3 attacker-defender matrix contains 945 battles. Restricting scoring to the first round yields 0-1% attack success rate (ASR); allowing 15 rounds yields 7.9-16.8%. Pooling three attacker LLMs uncovers 1.7-2.2 times as many unique successful inputs as the best single attacker, at three times the battle budget. Aggregate rates conceal opposing scenario-specific weaknesses in session-secret protection and authority handling, preserved in two higher-sample evaluations....",
+      "one_liner": "Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ec41a3ad.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b24a348b",
+      "title": "TREK: A Travel Reasoning and Evaluation Kit for LLM Agents in Complex Trip Planning",
+      "url": "https://arxiv.org/abs/2607.26977",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jinhu Qi, Wentao Zhang, Siu Man Ng",
+        "original_date": "2026-07-29"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-benchmark",
+        "tool-use",
+        "trip-planning",
+        "constraint-satisfaction",
+        "deterministic-eval"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2607.26977（cs.CL，2026-07-29，v2 2026-08-10）批评现有 agent 基准对旅行规划逐项奖励 + LLM 评判的软评分既无法证明可执行也不可复现，提出 TREK 强调单一 artifact 多轴同时正确：航班/酒店/景点必须存在且可订行程空间-时间可行预算合规还要满足未明示的旅客 persona 需求800 任务（533 可行 + 267 类型化不可行），375 城市13 persona212,530 内部一致知识库production-style RESTful 工具 sandbox；全确定性规则评估器 + 人工核对 gold reference 完美 1.015 个 agent 在 9 个约束维度上，最强 GPT-5.6 仅 46.2% 完全可行，中位 6.6%，地板 0.0%；满足未明示需求是普遍瓶颈",
+      "summary_en": "Travel planning is a demanding stress test for tool-using LLM agents: a usable itinerary is a single artifact that must be right along many axes at once - every flight, hotel, and attraction must exist and be bookable, the days must be physically traversable, the total must clear a budget, and the plan must serve a traveler whose needs are only partly stated. Existing agent benchmarks reward these properties one at a time and grade the final output with soft or LLM-judged rubrics, which cannot certify that a returned plan is executable and are neither reproducible nor auditable. We introduce TREK (Travel Reasoning and Evaluation Kit), a benchmark for feasible itinerary synthesis: producing a single plan that is jointly constraint-correct, hallucination-free, spatio-temporally executable, budget-valid, and responsive to the traveler's unstated persona needs....",
+      "one_liner": "TREK: A Travel Reasoning and Evaluation Kit for LLM Agents in Complex Trip Planning",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b24a348b.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0a0beba9",
+      "title": "Understanding Multi-Agent LLM Frameworks: A Unified Benchmark and Experimental Analysis",
+      "url": "https://arxiv.org/abs/2602.03128",
+      "source": {
+        "platform": "arxiv",
+        "author": "Abdelghny Orogat, Ana Rostam, Essam Mansour",
+        "original_date": "2026-02-03"
+      },
+      "category": "infra",
+      "tags": [
+        "multi-agent",
+        "framework-comparison",
+        "latency",
+        "coordination",
+        "agent-benchmark"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2602.03128（cs.AI，2026-02-03，25 页 9 图 13 表，Orogat/Rostam/Mansour）指出多 agent LLM 框架的架构选择可单独带来数量级延迟/吞吐差异显著的准确率与可扩展性变化，但缺乏框架级统一评测提出架构分类法 + 集成现有基准的统一执行流水线 MAFBench控制性实证发现框架级设计选择可使延迟增 100 以上规划准确率降 30%协调成功率从 90%+ 降至 30% 以下；据此给出具体架构设计原则与框架选择指引",
+      "summary_en": "Multi-agent LLM frameworks are widely used to accelerate the development of agent systems powered by large language models (LLMs). These frameworks impose distinct architectural structures that govern how agents interact, store information, and coordinate tasks. However, their impact on system performance remains poorly understood. This gap is critical, as architectural choices alone can induce order-of-magnitude differences in latency and throughput, as well as substantial variation in accuracy and scalability. Addressing this challenge requires (i) jointly evaluating multiple capabilities, such as orchestration overhead, memory behavior, planning, specialization, and coordination, and (ii) conducting these evaluations under controlled, framework-level conditions to isolate architectural effects....",
+      "one_liner": "Understanding Multi-Agent LLM Frameworks: A Unified Benchmark and Experimental Analysis",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0a0beba9.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7b4c6fda",
+      "title": "Learning to Solve Hard Problems in RL for LLMs by Never Giving Up",
+      "url": "https://mnoukhov.github.io/posts/ngu",
+      "source": {
+        "platform": "blog",
+        "author": "Michael Noukhovitch",
+        "original_date": "2026-09-15"
+      },
+      "category": "learning",
+      "tags": [
+        "rl-post-training",
+        "llm-eval",
+        "grpo",
+        "asymmetric-rl",
+        "hard-problems"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Noukhovitch（Ai2）博客解读论文：发现 LLM-RL 中的Matthew EffectRL 增益与模型初始能力成正比，简单题大幅提升初始 pass@32=0 的难题几乎不动在 Qwen 2.5 0.5B + GSM8k Platinum 上，k=4 反而比 k=32 更擅长难题，因为大 k 把算力浪费在简单题的稀有错误上提出 Never Give Up（NGU）：用小 k 起步，解出即训练；全部答错的 prompt 以概率 p 放回再采 k 次，构成几何分布采样 NGU k=4 + p=0.9 在 GSM8k 上超越所有标准 GRPO k 值；在 DeepScaler（Qwen 3 4B base，约 120 H100 小时）的 AIME+BRUMO 2025 最难子集上进一步提升在 Manufactoria 代码 RL 上，标准 GRPO 因部分测试奖励停滞，GRPO+NGU 持续突破直到 all-tests pass；Matthew Effect 不是 plasticity 问题切换到 all-tests 奖励或 per-test NGU 都可从停滞 3000 步的 checkpoint 恢复",
+      "summary_en": "Blog post for the paper. Identifies the Matthew Effect in RL for LLMs: RL gains come proportionally to a model's initial competence, so easy tasks improve drastically while problems with initial pass@32=0 stay stuck. On Qwen 2.5 0.5B Instruct + GSM8k Platinum, smaller k (k=4 completions) actually solves harder problems than larger k=32 because large k wastes compute on easy problems with rare wrong answers. Proposes Never Give Up (NGU): start with small k, train on solved prompts; for prompts with all-wrong completions, with probability p add them back for another round of k completions, creating a geometric sampling distribution. NGU k=4 with p=0.9 outperforms all standard GRPO k values on GSM8k, and on DeepScaler (Qwen 3 4B base, ~120 H100-hours) further improves the hardest subsets of AIME+BRUMO 2025....",
+      "one_liner": "Noukhovitch（Ai2）博客解读论文：发现 LLM-RL 中的Matthew EffectRL 增益与模型初始能力成正比，简单题大幅提升初始 pass@32=0 的难题几乎不动在 Qwen 2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7b4c6fda.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "642a1494",
+      "title": "Introducing System One Models & Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "source": {
+        "platform": "blog",
+        "author": "Diogo Almeida (TypeSafe AI)",
+        "original_date": "2026-09-15"
+      },
+      "category": "models",
+      "tags": [
+        "structured-output",
+        "decision-model",
+        "parallel-sampling",
+        "vendor-announcement",
+        "calibrated-probabilities"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "TypeSafe AI（前 OpenAI 研究员 Diogo Almeida 创办）正式发布首个 System One Model Jev，输出空间提前定义为类型化结构化值永不出类型错误，并附带校准概率新一代训练方法 Reinforcement Learning for Calibrated Decisions (RLCD) + 并行采样器，宣称在 System One 任务上与现有 LLM 同等智能度，端到 70ms-500ms（对比前沿 LLM 的 3-329s），价格 $0.042/MTok inputoutput 近乎免费，目标场景：AI 工作流/智能 if-statement大数据 map-reduce实时应用作为其他 LLM 的评分/守卫/越狱检测厂商主动给出可证伪点（速度定价类型安全）",
+      "summary_en": "TypeSafe AI announcement (Diogo Almeida, former OpenAI) releases its first System One Model Jev: a non-string-output model whose output space is typed in advance and never makes type errors, paired with calibrated probabilities per decision. Claims similar intelligence to existing LLMs on System One tasks at ~two orders of magnitude lower latency (70ms-500ms end-to-end vs 3-329s) and dramatically lower cost ($0.042/MTok input, output effectively free). New training method Reinforcement Learning for Calibrated Decisions (RLCD) plus a parallel sampler; intended for AI-powered workflows, real-time applications, map-reduce over big data, and verifying other LLMs. Targets human-in-the-loop use cases. Vendor claims are explicit; pricing transparency and 'no type errors' is offered as falsifiable.",
+      "one_liner": "TypeSafe AI（前 OpenAI 研究员 Diogo Almeida 创办）正式发布首个 System One Model Jev，输出空间提前定义为类型化结构化值永不出类型错误...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/642a1494.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-16",
-  "total_entries": 2314
+  "total_entries": 2325
 }
