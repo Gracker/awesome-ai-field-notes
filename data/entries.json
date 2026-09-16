@@ -69840,8 +69840,356 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "cd00d4b8",
+      "title": "Improving Proficiency and Efficiency of Android GUI Agents via Self-Generating Tool Actions (DroidTool)",
+      "url": "https://arxiv.org/abs/2609.06792",
+      "source": {
+        "platform": "arxiv",
+        "author": "Juyong Lee, Woogyeol Jin, Kimin Lee",
+        "original_date": "2026-09-06"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "android-gui-agent",
+        "tool-use",
+        "agentic-workflow"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Android GUI agent 的混合动作空间（GUI 动作 + 直接调应用 API/数据库的工具动作）一直受困于写工具成本太高，开源方案基本只用 GUIDroidTool 把工具生成交给 agentic workflow：proposal 实现 测试生成与执行 repair 四阶段，并用关联测试跨多个工具构造前置条件而非单点测试在 AndroidWorldB-MoCAMobileSafetyBench 三个基准上，带自生成工具的 agent 对纯 GUI 基线平均提升任务成功率并减少约 20% 交互步数对 Android GUI agent 工程，写工具与用工具共用一套 agentic 流程是关键判断",
+      "summary_en": "DroidTool augments Android GUI agents with self-generated tool actions via an agentic workflow (proposal, implementation, test generation/execution, repair), using relational tests across tools instead of isolated unit tests. Across AndroidWorld, B-MoCA, and MobileSafetyBench, hybrid GUI+tool agents improve task success over GUI-only baselines while reducing interaction steps.",
+      "one_liner": "Android GUI agent 的混合动作空间（GUI 动作 + 直接调应用 API/数据库的工具动作）一直受困于写工具成本太高...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/cd00d4b8.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5baa5284",
+      "title": "BigMoMo: Efficient Inference of Large-Scale MoE with Speculative Decoding on Mobile Devices",
+      "url": "https://arxiv.org/abs/2609.14643",
+      "source": {
+        "platform": "arxiv",
+        "author": "Maoliang Li, Hailong Zou, Taohong Han, et al. (北京大学 + 之江实验室)",
+        "original_date": "2026-09-13"
+      },
+      "category": "infra",
+      "tags": [
+        "arxiv",
+        "moe",
+        "speculative-decoding",
+        "mobile-inference",
+        "npu"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "手机跑 MoE 的瓶颈是数据搬运而非算力：DRAM 装不下权重，flash 分页读取碎片化，token 路由每次只换少量专家BigMoMo 利用推测解码的多 token 验证窗口解耦权重搬运与单 token 执行：按接受率/路由影响/搬运成本剪枝推测分支与专家激活，按运行时共加载模式重排 flash 专家布局，把就绪专家与 NPU 计算批量并行4 个 MoE 模型5 个基准2 个移动平台上 decode 平均比 on-demand autoregressive offload 快 4.83，比最优推测 MoE 基线快 1.82，支持到 30B 参数规模",
+      "summary_en": "BigMoMo decouples expert weight transfer from single-token execution using the multi-token verification window of speculative decoding: pruning speculative branches and expert activations, reordering flash expert layouts by runtime co-loading patterns, and batching ready experts with NPU compute. Decode is on average 4.83x faster than on-demand autoregressive offload and 1.82x faster than the best speculative MoE baseline, at MoE scales up to 30B parameters.",
+      "one_liner": "手机跑 MoE 的瓶颈是数据搬运而非算力：DRAM 装不下权重，flash 分页读取碎片化，token 路由每次只换少量专家BigMoMo 利用推测解码的多 token 验证窗口解耦权重搬运与单 token 执行：按接受率/路由影响/搬运成本剪枝推测分支与专家激活...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/5baa5284.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a7536b11",
+      "title": "X-CoSD: Communication-Efficient Cross-Vocabulary Collaborative Speculative Decoding",
+      "url": "https://arxiv.org/abs/2609.09166",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jaeduk Lee, Wan Choi",
+        "original_date": "2026-07-15"
+      },
+      "category": "infra",
+      "tags": [
+        "arxiv",
+        "speculative-decoding",
+        "edge-cloud",
+        "llm-inference",
+        "communication-efficiency"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "端云协作推测解码（CoSD）通常要求设备端 SLM 与服务端 LLM 共享词表，否则残差 resampling 要来回传整段 token 分布，通信开销吃掉本地解码收益X-CoSD 用 hybrid resampling 把残差切分成设备侧公共词表段+服务端 LLM-only 段，分布传输只在公共词表段发生；增强版 X-CoSD-E 让服务端只发替换候选+概率由设备本地验证，传输量进一步下降论文形式证明两个变体均无损保留服务端 LLM 输出分布，实验显示 token 生成显著加速且质量持平词表不匹配不再是端云协同解码的硬约束",
+      "summary_en": "X-CoSD makes collaborative speculative decoding work across heterogeneous vocabularies: hybrid resampling confines distribution exchange to the shared-vocabulary segment, and X-CoSD-E sends only replacement candidates with probabilities for local device-side verification. Both variants provably preserve the server LLM distribution with significant speedup.",
+      "one_liner": "端云协作推测解码（CoSD）通常要求设备端 SLM 与服务端 LLM 共享词表，否则残差 resampling 要来回传整段 token 分布...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a7536b11.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9093646c",
+      "title": "PriMobiBench: Characterizing Visual Privacy Leakage in VLM-Driven Mobile GUI Agents",
+      "url": "https://arxiv.org/abs/2609.13873",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qihang Cen, Tianshuo Cong, Da Song, Xinlei He, Jiaxing Song, Ke Xu, Qi Li",
+        "original_date": "2026-09-12"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "mobile-gui-agent",
+        "privacy",
+        "vlm",
+        "benchmark",
+        "ccs2026"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "截图流驱动的 VLM 移动 GUI agent 引入两类风险：屏幕敏感信息直接泄漏与意外用户画像推断，此前没有标准基准量化PriMobiBench 是首个系统评测截图驱动 mobile agent 视觉隐私的基准，统一数据生成轨迹构造与多模型评测流水线；附带 MobiLeak 数据集覆盖 16 个 App25 个隐私属性2,960 个嵌入隐私实例结果：VLM 直接抽取敏感信息最高 82.5% 成功率；不直接抽取也能聚合视觉线索做约 70% 成功率的画像推断缓解方案在云端处理前遮蔽与任务无关的隐私 UI 元素，画像成功率最多降 58%任务性能仅损失约 8%CCS 2026 全文录用",
+      "summary_en": "PriMobiBench is the first benchmark for visual privacy leakage in screenshot-driven mobile GUI agents: VLMs extract sensitive info with up to 82.5% success and profile users at ~70% from aggregated visual evidence (MobiLeak: 16 apps, 25 attributes, 2,960 instances). Masking task-irrelevant privacy UI elements cuts profiling by up to 58% at ~8% task cost. Accepted at ACM CCS 2026.",
+      "one_liner": "截图流驱动的 VLM 移动 GUI agent 引入两类风险：屏幕敏感信息直接泄漏与意外用户画像推断，此前没有标准基准量化PriMobiBench 是首个系统评测截图驱动 mobile agent 视觉隐私的基准，统一数据生成轨迹构造与多模型评测流水线.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/9093646c.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "eb7fb854",
+      "title": "Partition-Aware Scheduling for Mobile Heterogeneous Inference Co-Execution",
+      "url": "https://arxiv.org/abs/2609.14213",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhuojin Li, Marco Paolieri, Leana Golubchik",
+        "original_date": "2026-09-13"
+      },
+      "category": "infra",
+      "tags": [
+        "arxiv",
+        "mobile-inference",
+        "cpu-gpu",
+        "scheduling",
+        "dag"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "移动端推理跑在多核 CPU 集群 + 移动 GPU 的异构平台上，现有优化要么算子间并行（整个算子分给 CPU 或 GPU），要么算子内并行（切分每个算子），没有统一答案本文把 partitiondevice assignmentexecution order 三个决策联合建模求解，给出 partition-aware 调度器，在真机上端到端延迟优于两类纯策略与 SOTA 基线IFIP Performance 2026 / Performance Evaluation 期刊录用对端侧 LLM 推理调度是 CPU-GPU DAG 协同的参考实现",
+      "summary_en": "Jointly optimizing partition, device assignment, and execution order for latency-critical DNN inference on mobile CPU-cluster + GPU platforms beats both pure inter-operator and pure intra-operator parallelism baselines. Accepted at IFIP Performance 2026 (Performance Evaluation journal).",
+      "one_liner": "移动端推理跑在多核 CPU 集群 + 移动 GPU 的异构平台上，现有优化要么算子间并行（整个算子分给 CPU 或 GPU），要么算子内并行（切分每个算子）...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/eb7fb854.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0cb50be3",
+      "title": "Affective Agent: On-Device Personalized Intervention Reasoning for Wearable Systems",
+      "url": "https://arxiv.org/abs/2609.12322",
+      "source": {
+        "platform": "arxiv",
+        "author": "Reina Mun, Zishen Wan, Vijay Janapa Reddi",
+        "original_date": "2026-09-11"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "wearable",
+        "on-device-llm",
+        "affective-computing",
+        "reference-architecture"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "可穿戴设备的情感计算已能做状态推断，但是否/何时/如何干预的端侧推理仍是难点Affective Agent 给出三层参考架构（感知/个性化/干预），用亚 1B 参数的小型语言模型结合生理证据上下文与用户历史，在不确定性下决定干预策略，不依赖云端也不需要按用户重训练，配结构化记忆演化IEEE Internet Computing 可穿戴专刊（2026 Sep/Oct）录用作为可穿戴 1B 模型干预推理的架构样本值得跟踪",
+      "summary_en": "Affective Agent is a three-layer reference architecture (perception, personalization, intervention) for on-device personalized intervention reasoning on wearable-class hardware, combining a sub-1B-parameter LLM with physiological evidence and structured memory evolution, without cloud dependency or per-user retraining. Accepted in IEEE Internet Computing (Sep/Oct 2026).",
+      "one_liner": "可穿戴设备的情感计算已能做状态推断，但是否/何时/如何干预的端侧推理仍是难点Affective Agent 给出三层参考架构（感知/个性化/干预），用亚 1B 参数的小型语言模型结合生理证据上下文与用户历史，在不确定性下决定干预策略，不依赖云端也不需要按用户重训练.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/0cb50be3.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6683e8e7",
+      "title": "Jev means structured output is interesting again",
+      "url": "https://seangoedecke.com/jev-means-structured-output-is-interesting-again",
+      "source": {
+        "platform": "blog",
+        "author": "Seangoedecke",
+        "original_date": "2026-09-16"
+      },
+      "category": "models",
+      "tags": [
+        "structured-output",
+        "inference-latency",
+        "model-deconstruction",
+        "system-one"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Typesafe 发布的System One模型 Jev 只做结构化输出：最快约 70ms最慢 500ms，单次前向并行给出答案，甚至能实时打 Doom作者承认这个 latency 区间是产品分水岭（fast software 解锁新任务而不只是把旧任务做快），但指出技术护城河不深：prefilling + 单 token 约束 + batch 已能把普通 LLM 加速 2-3 倍，他用 Qwen2.5-1.5B-Instruct 复现了这一点；Jev 真正剩下的优势是整个模型只针对结构化输出 fine-tune，幻觉免疫是语义花招判断：模型层真正差异化在 inference 策略而非权重，这是解构一切小而新模型发布的尺子",
+      "summary_en": "Jev is a 'System One' model that only produces structured output: ~70ms fastest, 500ms slowest, one forward pass, can play Doom in real time. The author replicates 2-3x structured-output speedups on ordinary LLMs via prefilling + single-token constraints + batching (Qwen2.5-1.5B-Instruct), concluding Jev's real edge is full fine-tuning for structured output, and that model-layer differentiation now lives in inference strategy, not weights.",
+      "one_liner": "Typesafe 发布的System One模型 Jev 只做结构化输出：最快约 70ms最慢 500ms，单次前向并行给出答案，甚至能实时打 Doom作者承认这个 latency 区间是产品分水岭（fast software 解锁新任务而不只是把旧任务做快）.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6683e8e7.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c34f90fc",
+      "title": "AI Is Already In Dangerous Hands",
+      "url": "https://www.wheresyoured.at/ai-is-already-in-dangerous-hands",
+      "source": {
+        "platform": "blog",
+        "author": "Ed Zitron",
+        "original_date": "2026-09-14"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-safety",
+        "narrative-analysis",
+        "anthropic",
+        "media-criticism"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Ed Zitron 拆解前 Anthropic 研究员 Jacob Coxon 的 WSJ/CBS/NBCAI 没人能控制巡回：把 Hugging Face 攻击事件Coxon 行程Amodei 的pace the frontier博客Altman 的 IPO 表态拼成叙事链条，核心反驳借 Cal Newport 的分析那次攻击里 LLM 只是按 ExploitGym 框架的设计去绕限制拿访问权限，是软件做软件的事，不是 rogue agent他判断 Anthropic 选择 NASDAQAltman 把 IPO 拖到 2027 本质是 financial narrative 而非 safety narrative判断标尺：AI 监管讨论先问这个 claim 是不是抬估值的 scaremongering 副产品",
+      "summary_en": "Ed Zitron dissects ex-Anthropic researcher Jacob Coxon's 'AI cannot be controlled' media tour, tracing the narrative chain (Hugging Face attack, Amodei's pacing blog, Altman's IPO remarks). Borrowing Cal Newport's analysis: the LLM in the attack did what the ExploitGym framework designed it to do - software doing software things, not a rogue agent. The tour reads as financial narrative propping valuations, not safety disclosure.",
+      "one_liner": "Ed Zitron 拆解前 Anthropic 研究员 Jacob Coxon 的 WSJ/CBS/NBCAI 没人能控制巡回：把 Hugging Face 攻击事件Coxon 行程Amodei 的pace the frontier博客Altman 的 IPO 表态拼成叙事链条.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c34f90fc.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8b21ca97",
+      "title": "Pluralistic: How an AI moratorium can save AI bosses",
+      "url": "https://pluralistic.net/2026/09/16/beggar-thy-neighbor",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-09-16"
+      },
+      "category": "industry",
+      "tags": [
+        "antitrust",
+        "ai-policy",
+        "moratorium",
+        "political-economy"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Doctorow 把 AI lab 联名呼吁 moratorium 重读成反垄断问题：hyperscaler 单位经济为负靠很快就好融资互相抄袭导致用户用脚投票，真正的解药是 OpenAI/Anthropic 互不竞争但直接签非竞争协议被反垄断法明令禁止Plan B 是让政府认定 superintelligence 为 existential risk，antitrust consent decree 就自动开口子，再顺手禁掉中国开源权重模型，完成 Red Queen race 的体面退出这条路径与 Thiel 反wasteful competitionGoogle-Apple 搜索默认交易Jedi Blue 同构理解 2026 秋天 AI 政策博弈的框架：把 safety 言论当 antitrust 读",
+      "summary_en": "Doctorow rereads the AI labs' moratorium push as antitrust: hyperscalers have negative unit economics and copy each other, so the real fix is mutual non-competition - which antitrust law forbids. Plan B: have the state declare superintelligence an existential crisis so consent decrees open an exemption, plus banning Chinese open-weight models - isomorphic to Thiel's 'wasteful competition', the Google-Apple default search deal, and Jedi Blue.",
+      "one_liner": "Doctorow 把 AI lab 联名呼吁 moratorium 重读成反垄断问题：hyperscaler 单位经济为负靠很快就好融资互相抄袭导致用户用脚投票...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8b21ca97.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5ee91ddb",
+      "title": "Fixing an NZXT Signal 4K30 part 2: the green/pink video bug",
+      "url": "https://www.downtowndougbrown.com/2026/09/fixing-an-nzxt-signal-4k30-part-2-the-green-pink-video-bug",
+      "source": {
+        "platform": "blog",
+        "author": "Doug Brown",
+        "original_date": "2026-09-13"
+      },
+      "category": "coding",
+      "tags": [
+        "reverse-engineering",
+        "claude-as-subagent",
+        "hardware-bug",
+        "firmware"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Doug Brown 用 Claude 逆向分析停产采集卡 NZXT Signal 4K30 的 DVI 绿粉画面 bug：问题出在 ITE IT6805 HDMI 接收器参考驱动里寄存器 0x6B 颜色模式赋值作者把00: RGB误读成01: RGB，导致 DVI 分支写错值他让 Claude 逆向 NZXT 固件升级器找到 MCU 固件没做 checksum 的位置，做一次性 patch 工具把 movs r2, #16 改成 movs r2, #0，烧写后颜色恢复范本意义：没让 LLM 越界做 hardware exploit，只把它当 subagent 跑结构化反向分析agent 时代硬件 hobbyist 用模型的正确姿势",
+      "summary_en": "Doug Brown uses Claude to reverse-engineer a green/pink DVI capture bug on the discontinued NZXT Signal 4K30: an ITE IT6805 reference-driver misread of register 0x6B color-mode bits, plus an unchecksummed MCU firmware. A one-shot patch tool flips movs r2, #16 to movs r2, #0 and the colors are fixed - a template for using LLMs as structured reverse-engineering subagents without crossing into exploit territory.",
+      "one_liner": "Doug Brown 用 Claude 逆向分析停产采集卡 NZXT Signal 4K30 的 DVI 绿粉画面 bug：问题出在 ITE IT6805 HDMI 接收器参考驱动里寄存器 0x6B 颜色模式赋值作者把00: RGB误读成01: RGB.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5ee91ddb.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "78ec933d",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking",
+      "source": {
+        "platform": "google",
+        "author": "Tom Ouyang, Malini Jaganathan (Gemini Audio Team)",
+        "original_date": "2026-09-15"
+      },
+      "category": "models",
+      "tags": [
+        "gemini",
+        "live-api",
+        "voice-agent",
+        "speech-to-speech",
+        "model-release"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking 两档实时对话模型：Live 主打流式对话 + 近实时视觉 grounding，97 种语言会话中自动切换，工具调用后台执行不打断对话；ET 档面向高复杂度任务，边推理边说话，拿下 Artificial Analysis Speech to Speech Quality Index 第一（82.6）tau-Voice agentic 68.6%tau-Voice-banking 35.1%Big Bench Audio 97.7%，Live 档居 Speech Agent Arena 第二两档已通过 Gemini APIWorkspace（Docs/Gmail/Keep Live）与 Search Live 提供选型要点：ET High 的 82.6/68.6% 不等于默认 Live 档成绩，实时语音 agent 先改状态机与异步工具再选档",
+      "summary_en": "Google launches Gemini 3.8 Live and 3.8 Live Extended Thinking: Live targets fluid conversation with near-real-time visual grounding, 97-language mid-conversation switching, and background tool execution; Extended Thinking takes #1 on Artificial Analysis' Speech to Speech Quality Index (82.6), 68.6% on tau-Voice agentic, 35.1% on tau-Voice-banking, 97.7% on Big Bench Audio, while Live ranks second in the Speech Agent Arena. Available via Gemini API, Workspace, and Search Live.",
+      "one_liner": "Google 发布 Gemini 3.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/78ec933d.md",
+      "images": [],
+      "added_date": "2026-09-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-16",
-  "total_entries": 2325
+  "total_entries": 2336
 }
