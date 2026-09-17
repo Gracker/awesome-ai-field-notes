@@ -70188,8 +70188,169 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "04dc08e6",
+      "title": "Agentic Societies Need a Social Harness",
+      "url": "https://arxiv.org/abs/2609.17527",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tapan Chugh, Vidushi Singh, Krish Jain, Arvind Krishnamurthy, Ratul Mahajan",
+        "original_date": "2026-09-15"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "agent-protocol",
+        "agent-security",
+        "social-harness",
+        "trust-boundaries"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Washington 大学等团队提出社会 harness：agentic society 里代理代表不同 principal 跨信任边界自主协作，目标只部分对齐实验显示即使诚实且能干的代理，用现有 harness 和消息原语也常无法达成满意结果；故障或恶意代理能利用通信（speech）漏洞拖延协作影响结果追求其他有害目标论文主张除每个代理的 personal harness（管私有上下文与 principal 通信）外，还需要管代理间交互的 social harness，并给出分层架构：(i) 直接阻止一类失败 (ii) 运行时检测非法消息 (iii) 支持事后追责多代理系统安全从单代理护栏转向协议层",
+      "summary_en": "Researchers show that in agentic societies - agents coordinating across trust boundaries for partially aligned principals - even honest, competent agents often fail with existing harnesses and messaging primitives, while faulty or malicious agents exploit communication vulnerabilities to stall collaboration and influence outcomes. The paper proposes a layered social harness for inter-agent interactions that prevents failure classes outright, detects invalid messages at runtime, and supports post-facto investigation.",
+      "one_liner": "Washington 大学等团队提出社会 harness：agentic society 里代理代表不同 principal 跨信任边界自主协作，目标只部分对齐实验显示即使诚实且能干的代理，用现有 harness 和消息原语也常无法达成满意结果.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/04dc08e6.md",
+      "images": [],
+      "added_date": "2026-09-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f36c5bd7",
+      "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+      "url": "https://arxiv.org/abs/2609.17523",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shuhan Xue, Jianyuan Zhong, Ziyuan Nan, Wenbin Li, Zhaochen Yu, Jinchao Ding, Qiang Gao, Pengyu Zhan...",
+        "original_date": "2026-09-15"
+      },
+      "category": "agents",
+      "tags": [
+        "scientific-agent",
+        "harness-evolution",
+        "self-improvement",
+        "reinforcement-learning",
+        "research-workspace"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "ScienceBuddy：把持续进化的科研 agent 塞进研究者日常工作流的交互式科研 workspace，已开源发布核心是 recursive-in-recursive 自我改进：内层递归在模型固定下进化 harness（把研究者的请求反馈执行证据转成任务和评分 rubric），外层递归在改进后的 harness 下训练模型；harness 进化塑造训练经验，模型学习又给 harness 适配创造新机会案例覆盖四个科研任务族信号点：harness evolution 与 RL 耦合的双循环范式，把用户反馈变成 continual learning 的训练素材",
+      "summary_en": "ScienceBuddy is a released interactive scientific research workspace built around recursive-in-recursive self-improvement: an inner recursion evolves the harness with the model fixed (turning researcher requests, feedback, and execution evidence into tasks and rubrics), while an outer recursion trains the model under the improved harness. Case studies span four scientific task families, coupling harness evolution with model RL for continually improving research agents.",
+      "one_liner": "ScienceBuddy：把持续进化的科研 agent 塞进研究者日常工作流的交互式科研 workspace...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f36c5bd7.md",
+      "images": [],
+      "added_date": "2026-09-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "891bb1c2",
+      "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+      "url": "https://arxiv.org/abs/2609.17516",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ali enol",
+        "original_date": "2026-09-15"
+      },
+      "category": "models",
+      "tags": [
+        "abstention",
+        "calibration",
+        "truthfulness",
+        "prompting",
+        "risk-control"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "CoSQ（Chain-of-Self-Questioning）：纯 prompt 框架，让 LLM 把作答变成条件决策先显式评估回答该问题所需信息是否充分，再决定作答或弃权在 TruthfulQA 817 项多选验证集11 个开源与托管模型族17 种条件下评测：平衡选项协议下 Grounded-CoSQ（=0.90）把无条件的错误承诺率从 CoT 的 13.1% 降到 8.9%（相对降 32.1%），已答准确率从 86.9% 升到 89.7%，覆盖率 87.6%；11 个模型全部成立对错误作答比转人工更贵的高风险场景，自我评估可以做成显式可调的 answer-or-abstain 开关",
+      "summary_en": "Chain-of-Self-Questioning (CoSQ) is a prompt-only framework that makes answer commitment conditional on an explicit assessment of whether the model has the information needed. On an 817-item TruthfulQA multiple-choice validation set across eleven open-weight and hosted model families, Grounded-CoSQ at tau=0.90 cuts the mean unconditional wrong-commitment rate from 13.1% (chain-of-thought) to 8.9% - a 32.1% relative reduction - while raising answered accuracy from 86.9% to 89.7% at 87.6% coverage, with gains holding for all eleven models.",
+      "one_liner": "CoSQ（Chain-of-Self-Questioning）：纯 prompt 框架，让 LLM 把作答变成条件决策先显式评估回答该问题所需信息是否充分.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/891bb1c2.md",
+      "images": [],
+      "added_date": "2026-09-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cbc15812",
+      "title": "Mistral x Mozilla: Private, Multilingual AI Browsing",
+      "url": "https://mistral.ai/news/mistral-x-mozilla",
+      "source": {
+        "platform": "blog",
+        "author": "Mistral (Arthur Mensch) & Mozilla (Anthony Enzor-DeMeo)",
+        "original_date": "2026-09-16"
+      },
+      "category": "industry",
+      "tags": [
+        "mistral",
+        "mozilla",
+        "firefox",
+        "ai-browsing",
+        "open-weights",
+        "privacy"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Mistral 与 Mozilla 宣布合作：Firefox 的 AI 浏览助手 Smart Window（beta）改用 Mistral 模型驱动，先落地法国和北美，年内扩展到英德四个要点：开源技术需要开源分发渠道；模型针对区域语言方言和文化语境训练；隐私默认内置对话默认不存 Mozilla 服务器Mistral 承诺零数据保留；把 sovereign AI 从企业延伸到消费者信号点：浏览器作为 AI 分发入口的竞争正式开打，open-weight 阵营拿下 Firefox 这个位置，与默认单一厂商 pipeline 对着干",
+      "summary_en": "Mistral and Mozilla announce a partnership: Firefox's AI browsing assistant Smart Window (beta) is now powered by Mistral models, starting in France and North America with the UK and Germany to follow. The deal emphasizes open distribution for open-weight models, regionally tuned multilingual models, privacy by default (conversations not saved on Mozilla servers, zero data retention at Mistral), and extending sovereign AI from enterprise to consumers - putting a browser-scale consumer channel behind the open-weight camp.",
+      "one_liner": "Mistral 与 Mozilla 宣布合作：Firefox 的 AI 浏览助手 Smart Window（beta）改用 Mistral 模型驱动，先落地法国和北美，年内扩展到英德四个要点：开源技术需要开源分发渠道；模型针对区域语言方言和文化语境训练...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cbc15812.md",
+      "images": [],
+      "added_date": "2026-09-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b4f808ee",
+      "title": "Why I'm still bearish on LLMs after Navier-Stokes",
+      "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-09-15"
+      },
+      "category": "industry",
+      "tags": [
+        "llm-critique",
+        "reward-hacking",
+        "generalization",
+        "specification",
+        "industry-analysis"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "作者读完 Navier-Stokes 里程碑后仍然看空 LLM 的三条理由：前沿 lab 的定价叙事是即将完全替代知识工作者，但现实是模型连最简单任务都需要繁重监督软件公司还在雇用基准分数远低于其所监督模型的工程师，就是反证模型只在训练任务的小邻域内泛化良好，同类任务轻微扰动就会彻底失败或 reward hacking解决 reward hacking 需要领域专家做严格 specification，但严格规格本身就是独立技能（硬件业 spec+validation 工程师是设计工程师的 3-5 倍），且规格要在实现中反复演化，成本常超过直接实现；Navier-Stokes 之所以是最好的案例，正因为定理陈述本身就是被数学界审计数十年的严格规格，Lean 是为抗 reward hack 设计的验证器这恰恰说明通用领域不具备这些条件",
+      "summary_en": "A post-Navier-Stokes bear case: frontier labs are priced for near-total knowledge-work automation, yet models still need laborious oversight on even simple tasks; generalization holds only in a small neighborhood of trained tasks, with small perturbations causing outright failure or reward hacking; and fixing reward hacking requires rigorous specifications by domain experts - a scarce, expensive skill (hardware runs 3-5x spec/validation engineers per designer) whose specifications evolve during implementation. Navier-Stokes succeeded because theorem statements are decades-audited rigorous specs and Lean is an audited verifier designed against reward hacks - conditions generic domains lack.",
+      "one_liner": "作者读完 Navier-Stokes 里程碑后仍然看空 LLM 的三条理由：前沿 lab 的定价叙事是即将完全替代知识工作者，但现实是模型连最简单任务都需要繁重监督软件公司还在雇用基准分数远低于其所监督模型的工程师，就是反证模型只在训练任务的小邻域内泛化良好.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b4f808ee.md",
+      "images": [],
+      "added_date": "2026-09-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-09-16",
-  "total_entries": 2336
+  "last_updated": "2026-09-17",
+  "total_entries": 2341
 }
