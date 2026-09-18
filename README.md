@@ -11,16 +11,16 @@
 - [Pluralistic: How an AI moratorium can save AI bosses](https://pluralistic.net/2026/09/16/beggar-thy-neighbor) ⭐4 · 2026-09-16 — Doctorow 把 AI lab 联名呼吁 moratorium 重读成反垄断问题：hyperscaler 单位经济为负靠很快就好融资互相抄袭导致用户用脚投票...
 - [Mistral x Mozilla: Private, Multilingual AI Browsing](https://mistral.ai/news/mistral-x-mozilla) ⭐4 · 2026-09-16 — Mistral 与 Mozilla 宣布合作：Firefox 的 AI 浏览助手 Smart Window（beta）改用 Mistral 模型驱动，先落地法国和北美，年内扩展到英德四个要点：开源技术需要开源分发渠道；模型针对区域语言方言和文化语境训练...
 - [Jev means structured output is interesting again](https://seangoedecke.com/jev-means-structured-output-is-interesting-again) ⭐4 · 2026-09-16 — Typesafe 发布的System One模型 Jev 只做结构化输出：最快约 70ms最慢 500ms，单次前向并行给出答案，甚至能实时打 Doom作者承认这个 latency 区间是产品分水岭（fast software 解锁新任务而不只是把旧任务做快）.
-- [Shadowing the Standard Library: Coding Agents vs Python Module Search Path](https://nesbitt.io/2026/09/15/shadowing-the-standard-library.html) ⭐5 · 2026-09-15 — Andrew Nesbitt 2026-09-15 的工程文：coding agent 解 zip 写一个 Python 解码脚本 触发 import struct，攻击者在同目录放一个 struct.
-- [When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control](https://arxiv.org/abs/2609.17516) ⭐4 · 2026-09-15 — CoSQ（Chain-of-Self-Questioning）：纯 prompt 框架，让 LLM 把作答变成条件决策先显式评估回答该问题所需信息是否充分.
-- [ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents](https://arxiv.org/abs/2609.17523) ⭐4 · 2026-09-15 — ScienceBuddy：把持续进化的科研 agent 塞进研究者日常工作流的交互式科研 workspace...
+- [Flag Game: A Toy Model for Mechanistic Swarm Interpretability](https://arxiv.org/abs/2609.19124) ⭐4 · 2026-09-16 — 多智能体信念动力学有相变：小群体崩塌大群体极化，极化就是规模化的性能税
+- [Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive...](https://arxiv.org/abs/2609.19128) ⭐4 · 2026-09-16 — SRM 执行时校验比情景记忆更先起作用：先稳住运行循环，再谈记忆增益
+- [Affora: A Design System for Agent-Friendly Interfaces](https://arxiv.org/abs/2609.19125) ⭐4 · 2026-09-16 — agent 友好界面不必另起炉灶：保住交互语义，视觉上仍可自由发挥
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
 | 模型与实验室 | 322 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 414 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| Agent 与自动化 | 417 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 234 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 115 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 148 | AI 产品、大厂战略、融资、监管、市场结构。 |
@@ -29,15 +29,15 @@
 
 ## 当前数据
 
-- 原始条目: 2349
-- 公开展示卡片: 1473
+- 原始条目: 2352
+- 公开展示卡片: 1476
 - 有全文内容: 1381
-- 最近 7 天信号: 116
+- 最近 7 天信号: 119
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `claude-code`, `agent-security`, `multi-agent`, `security`, `coding-agent`, `agent-memory`, `agents`, `field-note`, `open-source`, `coding-agents`, `google`, `agent`, `codex`
+`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `claude-code`, `agent-security`, `multi-agent`, `security`, `agent-memory`, `coding-agent`, `agents`, `field-note`, `open-source`, `coding-agents`, `google`, `agent`, `codex`
 
 ## 自动化约定
 

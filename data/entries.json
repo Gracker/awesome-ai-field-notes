@@ -70605,8 +70605,104 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "4034b88a",
+      "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
+      "url": "https://arxiv.org/abs/2609.19128",
+      "source": {
+        "platform": "arxiv",
+        "author": "Joo Meneses dos Santos, Arlindo L. Oliveira",
+        "original_date": "2026-09-16"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "self-reflection",
+        "dual-process",
+        "episodic-memory",
+        "scienceworld"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "在双过程 agent SwiftSage 上加两个模块化认知扩展：AMM 做显著性门控的情景记忆存储与触发式检索，SRM 在执行时做有界校验与纠错干预，两者都是同一执行基底上的 feature-flag 扩展，便于 controlled ablationScienceWorld 四组配置消融显示，完整系统均分 64.62成功率 43.17%19.33 步成功步效率全部最优，其中 SRM 是最强单模块贡献作者结论：该场景的主要瓶颈是执行时控制，情景记忆要在运行循环稳定后才能兑现收益",
+      "summary_en": "Extends SwiftSage, a dual-process language agent, with two modular cognitive extensions: an Adaptive Memory Module (AMM) for salience-gated episodic storage and trigger-driven retrieval, and a Self-Reflection Module (SRM) for bounded execution-time validation and corrective intervention. Controlled ablations on ScienceWorld across four configurations show the full system achieves the best mean final score (64.62), success rate (43.17%), and successful-step efficiency (19.33 steps), with SRM the strongest standalone contributor. The authors conclude execution-time control is the dominant bottleneck in this setting, while episodic memory becomes most useful once the runtime loop is stabilized.",
+      "one_liner": "SRM 执行时校验比情景记忆更先起作用：先稳住运行循环，再谈记忆增益",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4034b88a.md",
+      "images": [],
+      "added_date": "2026-09-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "052ad155",
+      "title": "Affora: A Design System for Agent-Friendly Interfaces",
+      "url": "https://arxiv.org/abs/2609.19125",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jin Gao",
+        "original_date": "2026-09-16"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use",
+        "agent-experience",
+        "design-system",
+        "human-agent-interface",
+        "ui-agents"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Affora 是一套面向人机共用界面的设计系统：保留视觉自由度与人类熟悉的工作流，同时让操作语义对计算机使用型 agent 可读三项对照实验覆盖组件实现视觉变化与交互设计原则，并附可复用实现与可执行检查在独立编写的界面上评估：有缺陷处获得增益，无缺陷或超出覆盖范围处影响有限；一个工作流案例初步显示交互成本下降核心主张：通过共享界面同时服务 UX 与 agent experience，而不是另建 agent 专用界面层",
+      "summary_en": "Affora is a design system for interfaces that serve both human users and computer-use agents, preserving visual freedom and familiar human workflows while making interaction meaning machine-readable. Three controlled studies examine component implementations, visual variation, and interaction-design principles, supported by reusable implementations and executable checks. Evaluation on independently authored interfaces shows gains where Affora addresses existing deficits, limited effects where deficits are absent or outside coverage, and a workflow case provides preliminary evidence of reduced interaction cost. The core claim: connect user experience and agent experience through one shared interface rather than a separate agent-only surface.",
+      "one_liner": "agent 友好界面不必另起炉灶：保住交互语义，视觉上仍可自由发挥",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/052ad155.md",
+      "images": [],
+      "added_date": "2026-09-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4ce2b479",
+      "title": "Flag Game: A Toy Model for Mechanistic Swarm Interpretability",
+      "url": "https://arxiv.org/abs/2609.19124",
+      "source": {
+        "platform": "arxiv",
+        "author": "Elizabeth Pavlova, Hidenori Tanaka",
+        "original_date": "2026-09-16"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "swarm-interpretability",
+        "emergent-behavior",
+        "collective-belief",
+        "ai-safety"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Flag Game 用玩具模型研究多智能体集体信念形成的机制：隐藏国旗为真值，每个有界 agent 只能看到私有裁剪，通过交换信念权衡同伴社会证据做决策模型复现了丰富的集体现象：性能随群体规模非单调变化社会感知提示与团队多样性带来增益，并发现小规模下的集体信念崩塌会随规模增长转为集体信念极化极化正是大规模性能下降的原因，同时也制造了信念多样性方法上提出 social circuit attribution 预测哪个 agent 的哪种视角对集体动态最关键，并用 agent patching 因果干预验证；对更大群体另建与经验相图吻合的统计力学理论作者称之为 mechanistic swarm interpretability 的第一步",
+      "summary_en": "Flag Game is a toy model for mechanistic swarm interpretability: a hidden country flag defines ground truth, each bounded agent observes only a private crop, and agents exchange beliefs and weigh social evidence from peers. Despite its simplicity it reproduces non-monotonic performance scaling with population size, accuracy gains from social-awareness prompting and team diversity, and a phase shift from collective belief collapse at small populations to collective belief polarization at large populations the polarization causing the decline at scale. The authors introduce social circuit attribution to predict and causally verify which agent matters most (agent patching), then develop a statistical-mechanical theory for larger populations that matches the empirical phase diagram.",
+      "one_liner": "多智能体信念动力学有相变：小群体崩塌大群体极化，极化就是规模化的性能税",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4ce2b479.md",
+      "images": [],
+      "added_date": "2026-09-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-18",
-  "total_entries": 2349
+  "total_entries": 2352
 }
