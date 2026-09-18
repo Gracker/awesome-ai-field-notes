@@ -7,13 +7,13 @@
 - [stealthprint Case Study: union-alpha 指纹分析](https://github.com/majiayu000/stealthprint/blob/main/docs/case-union-alpha.zh-CN.md) ⭐5 · 2026-09-17 — stealth 模型匿名挡不住 token 级取证：词表视觉塔计费公式工具调用语义三层指纹把候选名单缩到个位数，黑盒也能验明正身
 - [分享一个大幅节省Codex额度的邪修方法，不要浪费了你的ChatGPT Pro会员](https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686431&idx=1&sn=c1bfba7e0b5b7cf995e444daf79861a4) ⭐3 · 2026-09-17 — 规划用网页版 GPT-6 Pro实施用 Codex：把生产数据封装成只读 MCP 挂进网页插件，用上下文可见性和额度的入口差省下一个量级的成本
 - [OpenAI Model Misalignment Reports: 六份个案报告与披露框架](https://alignment.openai.com/misalignment-reports) ⭐5 · 2026-09-16 — 六份失准报告的共同结构是复用既有管道越权：摘要凭据公网盘制品库，每一条都能对应到本地 agent harness 的一类配置面
+- [Flag Game: A Toy Model for Mechanistic Swarm Interpretability](https://arxiv.org/abs/2609.19124) ⭐4 · 2026-09-16 — 多智能体信念动力学有相变：小群体崩塌大群体极化，极化就是规模化的性能税
+- [Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive...](https://arxiv.org/abs/2609.19128) ⭐4 · 2026-09-16 — SRM 执行时校验比情景记忆更先起作用：先稳住运行循环，再谈记忆增益
+- [Affora: A Design System for Agent-Friendly Interfaces](https://arxiv.org/abs/2609.19125) ⭐4 · 2026-09-16 — agent 友好界面不必另起炉灶：保住交互语义，视觉上仍可自由发挥
 - [What Is Union Alpha? OpenRouter's Free Stealth Model](https://cellcog.ai/blog/what-is-union-alpha) ⭐4 · 2026-09-16 — 匿名模型的价值不在跑分而在条款细节：同一模型页说不训练Stealth EULA 说可能留存训练把免费 stealth 接进生产前先读两遍条款
 - [Pluralistic: How an AI moratorium can save AI bosses](https://pluralistic.net/2026/09/16/beggar-thy-neighbor) ⭐4 · 2026-09-16 — Doctorow 把 AI lab 联名呼吁 moratorium 重读成反垄断问题：hyperscaler 单位经济为负靠很快就好融资互相抄袭导致用户用脚投票...
 - [Mistral x Mozilla: Private, Multilingual AI Browsing](https://mistral.ai/news/mistral-x-mozilla) ⭐4 · 2026-09-16 — Mistral 与 Mozilla 宣布合作：Firefox 的 AI 浏览助手 Smart Window（beta）改用 Mistral 模型驱动，先落地法国和北美，年内扩展到英德四个要点：开源技术需要开源分发渠道；模型针对区域语言方言和文化语境训练...
 - [Jev means structured output is interesting again](https://seangoedecke.com/jev-means-structured-output-is-interesting-again) ⭐4 · 2026-09-16 — Typesafe 发布的System One模型 Jev 只做结构化输出：最快约 70ms最慢 500ms，单次前向并行给出答案，甚至能实时打 Doom作者承认这个 latency 区间是产品分水岭（fast software 解锁新任务而不只是把旧任务做快）.
-- [Flag Game: A Toy Model for Mechanistic Swarm Interpretability](https://arxiv.org/abs/2609.19124) ⭐4 · 2026-09-16 — 多智能体信念动力学有相变：小群体崩塌大群体极化，极化就是规模化的性能税
-- [Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive...](https://arxiv.org/abs/2609.19128) ⭐4 · 2026-09-16 — SRM 执行时校验比情景记忆更先起作用：先稳住运行循环，再谈记忆增益
-- [Affora: A Design System for Agent-Friendly Interfaces](https://arxiv.org/abs/2609.19125) ⭐4 · 2026-09-16 — agent 友好界面不必另起炉灶：保住交互语义，视觉上仍可自由发挥
 
 ## 频道导航
 
@@ -31,7 +31,7 @@
 
 - 原始条目: 2352
 - 公开展示卡片: 1476
-- 有全文内容: 1381
+- 有全文内容: 1384
 - 最近 7 天信号: 119
 - 输出目录: `dist/`
 
