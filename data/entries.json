@@ -70701,8 +70701,136 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "d5d3f109",
+      "title": "SoK: Trading Agents or Market Crashers? Dissecting Robustness and Security Failures in Academic Financial LLM Trading Schemes",
+      "url": "https://arxiv.org/abs/2609.19705",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mengxiao Wang, Nitesh Saxena",
+        "original_date": "2026-09-17"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agent",
+        "agent-security",
+        "financial-agents",
+        "robustness",
+        "sok"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "FARSIGHT 框架从两条轴评估金融 LLM 交易 agent：市场动荡（含闪崩场景）下的鲁棒性，以及三类攻击面攻击信息源攻击 agent 本体agent 作为攻击者对 15 个代表性学术交易 agent 方案做 scheme 级评测：80% 至少挂掉一项核心鲁棒性指标，100% 存在安全漏洞作者强调两类失效不可分割：agent 的小误判可自行级联成全市场崩盘，攻击者也能以极低成本刻意触发同样的坍塌高风险领域里 agent 直接握有真实资本执行权，是 agentic security 的代表性场景（SoK，24 页）",
+      "summary_en": "FARSIGHT is a framework for scheme-level evaluation of financial LLM agents along two axes: robustness under market turbulence (including flash-crash-like scenarios) and security against three attack types - attacks on information sources, attacks on agents, and agent-as-attacker behaviors. Applying it to 15 representative academic trading-agent schemes, the authors find 80% fail at least one core robustness metric and 100% exhibit security vulnerabilities. The two failure modes are inseparable: a small misjudgment can cascade into a market-wide crash on its own, and an adversary can deliberately trigger the same collapse at minimal cost. 24 pages, 6 figures, 11 tables; SoK paper (cs.CR, cs.AI, cs.MA).",
+      "one_liner": "15 个学术金融交易 agent 全军覆没：80% 鲁棒性不达标，100% 有安全漏洞",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d5d3f109.md",
+      "images": [],
+      "added_date": "2026-09-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6496bc27",
+      "title": "Cache-to-Cache: Direct Semantic Communication Between Large Language Models",
+      "url": "https://arxiv.org/abs/2510.03215",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tianyu Fu, Zihan Min, Hanling Zhang, Jichao Yan, Guohao Dai, Wanli Ouyang, Yu Wang",
+        "original_date": "2025-10-03"
+      },
+      "category": "models",
+      "tags": [
+        "kv-cache",
+        "multi-llm",
+        "model-communication",
+        "semantic-transfer",
+        "efficiency"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "多 LLM 协作的现有设计都靠文本通信：内部表示被压成 token 序列，既丢语义又串行慢C2C 提出 KV-Cache 直连：用神经网络把源模型的 KV-cache 投影并融合进目标模型，可学习门控挑选受益层，实现模型间直接语义传输实验：比单模型平均准确率高 6.4-14.2%，比文本通信高约 3.1-5.4%，延迟平均提速 2.5 倍Oracle 实验表明不增大缓存的前提下丰富 KV-Cache 语义本身就能提升回答质量ICLR'26 已发表，代码开源",
+      "summary_en": "Multi-LLM systems normally communicate through text, which loses rich semantic information and incurs token-by-token generation latency. Cache-to-Cache (C2C) proposes direct semantic communication: a neural network projects and fuses the source model's KV-cache into the target model's, with a learnable gating mechanism selecting which target layers benefit. Experiments show C2C achieves 6.4-14.2% higher average accuracy than individual models, outperforms text communication by roughly 3.1-5.4%, and delivers an average 2.5x latency speedup. Published at ICLR'26; code at github.com/thu-nics/C2C.",
+      "one_liner": "LLM 之间别再传文本了：KV-Cache 直连，准确率更高还快 2.5 倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6496bc27.md",
+      "images": [],
+      "added_date": "2026-09-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "048f2377",
+      "title": "The Implications of Linguistic Illegibility for LLM Security",
+      "url": "https://arxiv.org/abs/2609.02852",
+      "source": {
+        "platform": "arxiv",
+        "author": "James Mickens",
+        "original_date": "2026-09-02"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-security",
+        "chain-of-thought",
+        "sandboxing",
+        "taint-tracking",
+        "ai-safety"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Mickens 提出语言不可读性：LLM 外化的语言输出和机制探测出的语言特征，都不是理解模型内部计算的可靠透镜内部计算本质是激活空间上的数学，进出自然语言只是两端的有损翻译推论：一切依赖模型语言自述的安全机制（CoT 监控constitutional 自我批判语言特征 activation probing）都不可能完全可靠沙箱必须有不依赖读模型语言状态的保证：对模型输出做 taint tracking健壮虚拟化沙箱配置第三方审计；这套组合本可缓解近期前沿模型的沙箱逃逸",
+      "summary_en": "An LLM's externalized linguistic outputs and mechanistically-probed language features can be an unreliable lens for understanding internal model computation - a property the author names 'linguistic illegibility'. Since internal computation is math over activation spaces with lossy translations to natural language at the bookends, security mechanisms that rely on linguistic self-reporting (chain-of-thought monitoring, constitutional self-critique, activation probing) can never be completely sound. The paper argues sandboxes need guarantees independent of reading a model's linguistic state: taint tracking over model outputs, robust virtualization, and third-party auditing of sandbox configurations, which collectively would have mitigated recent sandbox exploits by frontier models.",
+      "one_liner": "别信模型说的话：CoT 监控永远不彻底，沙箱要靠 taint tracking 兜底",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/048f2377.md",
+      "images": [],
+      "added_date": "2026-09-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cc44c3c6",
+      "title": "Context Engineering for Multi-Agent LLM Code Assistants Using Elicit, NotebookLM, ChatGPT, and Claude Code",
+      "url": "https://arxiv.org/abs/2508.08322",
+      "source": {
+        "platform": "arxiv",
+        "author": "Muhammad Haseeb",
+        "original_date": "2025-08-09"
+      },
+      "category": "coding",
+      "tags": [
+        "context-engineering",
+        "multi-agent",
+        "claude-code",
+        "rag",
+        "code-generation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "一套多组件 context engineering 工作流：GPT-5 做 Intent Translator 澄清需求，Elicit 语义检索注入领域知识，NotebookLM 做文档综合，Claude Code 多 agent 系统负责生成与验证在大型 Next.js 代码库上，多 agent 系统能以极少人工干预完成复杂特性的规划编辑测试，单发成功率和项目上下文遵循度都高于单 agent 基线与 CodePlanMASAIHyperAgent 对比后，作者把收益归因于定向上下文注入与 agent 角色分解两个手段",
+      "summary_en": "A context engineering workflow that combines multiple AI components: an Intent Translator (GPT-5) for clarifying requirements, Elicit-powered semantic literature retrieval for injecting domain knowledge, NotebookLM-based document synthesis, and a Claude Code multi-agent system for code generation and validation. On a large Next.js codebase the multi-agent system plans, edits, and tests complex features with minimal human intervention, yielding higher single-shot success rates and better project-context adherence than baseline single-agent approaches. Compared against CodePlan, MASAI, and HyperAgent, targeted context injection and agent role decomposition drive the gains; 15 pages (cs.SE, cs.AI).",
+      "one_liner": "GPT-5 澄清意图 + Elicit 检索 + NotebookLM 综合 + Claude Code 干活：上下文工程四件套",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cc44c3c6.md",
+      "images": [],
+      "added_date": "2026-09-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-09-18",
-  "total_entries": 2352
+  "last_updated": "2026-09-19",
+  "total_entries": 2356
 }
