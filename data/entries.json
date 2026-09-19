@@ -70829,8 +70829,264 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "3195ca01",
+      "title": "Qwen3.8-Omni-Flash: 全模态 Agent 型模型 + MM-Plugins 开源",
+      "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+      "source": {
+        "platform": "blog",
+        "author": "Qwen Team",
+        "original_date": "2026-09-14"
+      },
+      "category": "models",
+      "tags": [
+        "qwen",
+        "omni",
+        "multimodal-agent",
+        "mm-plugins",
+        "model-release"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Qwen 首个以 agentic 能力为核心的原生全模态模型 Qwen3.8-Omni-Flash 上线，集本地理解/推理/工具调用于一身；以音频为中心的场景包括视频剪辑音视频剪辑音视频转图文摘要与对话重点指标：WildClawBench-MM 上提升 36.5 分AgenticVBench 上提升 22.3 分UniClawBench 69.6；OmniGAIA 未使用 harness1M token 上下文环境里 OmniVideoBench 以比静态理解少 51.8% 的 token 获得更高准确率；视频输入成本相比 Qwen3.5-Omni-Plus 下降约 89%同步开源 Qwen-MM-Plugins（多模态 Skill + MCP 服务组件，已适配 Claude Code/Codex/OpenClaw/Qwen Code/Hermes Agent 等多个 harness）与 Qwen-Live Harness边界：价格依赖国际控制台，同类 WildClawBench 为厂商自测；Live Harness 官方页还可能 404",
+      "summary_en": "Qwen released Qwen3.8-Omni-Flash, its first omni-modal model built around agentic capabilities, packaging native audio-video understanding, reasoning, and tool use into one checkpoint. Key scores: +36.5 on WildClawBench-MM, +22.3 on AgenticVBench, and 69.6 on UniClawBench (OmniGAIA runs without a harness); on OmniVideoBench the 1M-token context reaches higher accuracy with 51.8% fewer tokens than static understanding, and video input cost is down ~89% versus Qwen3.5-Omni-Plus. The launch also ships Qwen-MM-Plugins (a multimodal Skill + MCP package; installer covers Claude Code, Codex, OpenClaw, Qwen Code, Hermes Agent and others) and Qwen-Live Harness. Boundaries: pricing follows the international Model Studio console; benchmark numbers come from the vendor's own evaluation; the Qwen-Live Harness official page may still 404.",
+      "one_liner": "Qwen 全模态 agent 模型上线：WildClawBench +36.5 分，视频输入成本下降 89%，同步开源 MM-Plugins",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/3195ca01.md",
+      "images": [],
+      "added_date": "2026-09-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ff916376",
+      "title": "Claude Code 2.1.277 原生读 AGENTS.md：无 CLAUDE.md 时回退到跨 harness 文件",
+      "url": "https://x.com/trq212/status/2101009392611278961",
+      "source": {
+        "platform": "x",
+        "author": "trq212 (Claude Code 工作人员)",
+        "original_date": "2026-09-18"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "agents-md",
+        "harness",
+        "codex",
+        "developer-ergonomics"
+      ],
+      "source_type": "x_post",
+      "language": "both",
+      "summary_zh": "Claude Code 从 2.1.277 起加入原生 AGENTS.md 支持：只有在本任务文件夹与上级未发现 CLAUDE.md / .claude/CLAUDE.md / CLAUDE.local.md 时才会去读 AGENTS.md，可在 /config 项中切换Codex 与 Claude Code 现在共用同一份 AGENTS.md，多 harness 同仓可少一份双重说明与 Codex 不同：Claude Code 明确不会读 AGENTS.override.md；统一优先级是项目 CLAUDE.md > 用户级 ~/.claude/CLAUDE.md 不会拦住回退 > AGENTS.md；Bedrock/Vertex/Foundry 临时没有；升级后首个会话可能还不会读，从下一次会话开始",
+      "summary_en": "Claude Code 2.1.277 adds native AGENTS.md support: when there is no CLAUDE.md / .claude/CLAUDE.md / CLAUDE.local.md in the cwd or its parents, Claude falls back to AGENTS.md; the behavior is toggleable under /config. Codex and Claude Code can now share one AGENTS.md file, so multi-harness repositories stop needing dual documentation. Differences from Codex: Claude Code explicitly does not read AGENTS.override.md; the precedence is project CLAUDE.md > ~/.claude/CLAUDE.md (which does NOT block fallback) > AGENTS.md; Bedrock/Vertex/Foundry do not have it yet; the first session after upgrade may not pick it up start counting from the next session.",
+      "one_liner": "Claude Code 2.1.277 原生读 AGENTS.md：有 CLAUDE.md 时仍只听 CLAUDE，无才回退",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ff916376.md",
+      "images": [],
+      "added_date": "2026-09-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "47b87cc2",
+      "title": "Anthropic 与 Accenture 联手嵌入式评测：合计 1B USD / 5 年",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "source": {
+        "platform": "anthropic",
+        "author": "AnthropicAI",
+        "original_date": "2026-09-18"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "accenture",
+        "alignment",
+        "evaluation",
+        "governance"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anthropic 5年内与 Accenture 各自投入至少 10 亿美元，在 Accenture Faculty 专门职业线上安排体内评测小组，负责模型对齐评估红队攻防安全护栏测试这个合作是 Dario Amodei We Must Pace the Frontier所诺嵌入评测者话语的第一步落地与传统外部评测不同：评测者能访问受评模型本体与其生产环境是位于厂商现场的驻场部署，而不是外部交卷式公告诚实指出这是新业务，运作细节仍在取弃；同不同评测者 / 出资方 / 报告收件三者是评估独立性的实质中枢",
+      "summary_en": "Anthropic is partnering with Accenture to embed independent evaluators inside the lab, with each side committing at least USD 1B over five years. The work is led by Accenture Faculty and covers alignment assessments, red-teaming, and safeguard testing. This is the first concrete step on Dario Amodei's commitment to embed evaluators at frontier labs. Unlike conventional external evaluation, the embedded model gives the evaluator access to the model under review and its production context; details of how it operates 'are still being worked out.' Open question: who funds, who evaluates, and who reads the reports is the real measure of independence.",
+      "one_liner": "Anthropic + Accenture 5 年各投 10 亿美元：评测者从交卷式转为驻场嵌入",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/47b87cc2.md",
+      "images": [],
+      "added_date": "2026-09-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9b4a2935",
+      "title": "ChatGPT 插件多账号上线：开发者可退回 MCP profile tool 打标",
+      "url": "https://x.com/mxstbr/status/2100966048132718786",
+      "source": {
+        "platform": "x",
+        "author": "Max Stoiber (@mxstbr)",
+        "original_date": "2026-09-18"
+      },
+      "category": "agents",
+      "tags": [
+        "chatgpt",
+        "mcp",
+        "multi-account",
+        "plugin",
+        "agent-tooling"
+      ],
+      "source_type": "x_post",
+      "language": "both",
+      "summary_zh": "ChatGPT 插件商店现在支持个人/工作/副业/项目多账号同会话连接，现有插件默认适配，开发者不需改代码作为增强接口，MCP 服务端可开通 profile tool，让 ChatGPT 能给每个账号打标，避免上下文中个人/工作事项串线与企业级 plug-in 租户隔离本地 agent 工具层当前账号标签设计是同一条问题的两侧部署动作：chATGPT 插件目录连两个测试账号验证，开发者在 MCP 服务端实现 profile tool",
+      "summary_en": "ChatGPT's plugin directory now lets one conversation connect personal / work / side-project accounts simultaneously, with existing plugins auto-adapted so no developer changes are required. As an enhancement hook, MCP servers can expose a profile tool so ChatGPT labels each account and avoids cross-context bleed between personal and work items. Same boundary shows up on two sides: enterprise plug-in tenant isolation and local agent tooling's 'current account' tagging. Try: connect two test accounts in the ChatGPT plug-in directory and add a profile tool to your MCP server.",
+      "one_liner": "ChatGPT 多账号插件上线：开发者退回 MCP profile tool 让 ChatGPT 给账号打标",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9b4a2935.md",
+      "images": [],
+      "added_date": "2026-09-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b827197a",
+      "title": "Dan Abramov 用 frontier 模型反正 Conway refinement 推论 (4 周 / 40B token / ~$40k)",
+      "url": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture",
+      "source": {
+        "platform": "blog",
+        "author": "Dan Abramov",
+        "original_date": "2026-09-18"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agent",
+        "math-reasoning",
+        "lean",
+        "conway",
+        "case-study"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "前 React 核心作者 Dan Abramov 入门数学不足一个月，在 frontier 模型与 Lean 的多 agent 实验室里闭环了 Conway 50 年未解的 refinement 推论（omnific integers 上的 refinement 性）：PM 协调Math 推思路Red 查漏洞Random 探索Lean 形式化；总计三周费以多 agent 的 chat log 判断进度Lean 是否编译作为唯一确认闭环信号他在文中明确警告：模型会反复用 euphemism 藏未证假设；名学审计工具链Lean skill 的工程价值是他总结的顶层 lessons learned资源面临的问题：Lean 实现与证明质量需要独立检查；$40k 主要为缓存读取",
+      "summary_en": "Dan Abramov, a math noob and former React core, spent about a month of free time and ~40B tokens (~$40k, mostly cache reads) running a multi-agent lab against Conway's 50-year-old refinement conjecture. The cast is PM / Math / Red / Random / Lean, the verdict comes from whether Lean compiles, and the post records three weeks of iteration including a full re-burn of the folder. He warns repeatedly that the models hide unproven hypotheses behind euphemisms. Take-aways worth a checklist: naming, audit tooling, model complementarity, and the engineering value of Lean Skills. Caveat: Lean proof quality warrants independent review; cost figures are cache-read heavy.",
+      "one_liner": "前 React 核心用 frontier 模型 + Lean 隐闭环了 50 年老推论：40B token ~$40k 三周",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b827197a.md",
+      "images": [],
+      "added_date": "2026-09-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3156d329",
+      "title": "Doctorow Textured：LLM 统计平滑隐藏了意识参与才是产出意外的唯一条件",
+      "url": "https://pluralistic.net/2026/09/18/surprise",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-09-18"
+      },
+      "category": "learning",
+      "tags": [
+        "llm",
+        "ai-hype",
+        "epistemics",
+        "doctorow",
+        "essays"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Doctorow 9 月 18 日的 daily links 长篇论述以一个具体反例为刃入：你能预测妻子下一句说什么 与 你了解妻子 是两件不同的事，在它说 我要离婚 时立刻失语他把全部 AI hype 叙事回溯到同一根因：大家低估了自然语句里的统计规律有多强高估了意识的稀缺性，模型只在 平整度这一项上超越；但平整之下的纹理 惊喜价值生产力才是产出下一个意外的唯一条件，训练数据本身把意外剔除他进一步指出：AI 越接近 AGI这个资本叙事所买的是 理解力叙事，实际产出里这部分为零作者是 AI 工具论支持者中最不可能不行口头禄的人，论述质量高于常见 hype 反对者",
+      "summary_en": "Cory Doctorow's 18 Sep 2026 daily links opens with a concrete counter-example: predicting your spouse's next sentence is not the same as knowing them it breaks the moment she says 'I want a divorce.' He traces every AI hype narrative to one root cause: we underestimate how much statistical regularity lives in natural language and overestimate how scarce 'consciousness' is. Models win on flatness; everything that produces surprise, value, and productivity lives below the texture, which the training data has already stripped out. He closes that 'AI is approaching AGI' is a story the AI capital narrative is buying itself the same story with zero presence in actual output. Doctorow is an AI tooling supporter; the essay reads as a coolant for people battered by weekly 'passes Turing test' headlines.",
+      "one_liner": "Doctorow：LLM 只能平整，意外在纹理里，验证意识参与才是产出下一个意外的唯一条件",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3156d329.md",
+      "images": [],
+      "added_date": "2026-09-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2752105c",
+      "title": "Package Management 周报 09-19：Rust 社工攻防YARD 文档生成执行边界Podman/CVE-2025-11395",
+      "url": "https://nesbitt.io/2026/09/19/this-week-in-package-management.html",
+      "source": {
+        "platform": "blog",
+        "author": "Andrew Nesbitt",
+        "original_date": "2026-09-19"
+      },
+      "category": "infra",
+      "tags": [
+        "supply-chain",
+        "package-management",
+        "rust",
+        "rubygems",
+        "podman"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Andrew Nesbitt 包管理器周报本期以供应链安全为主轴：Rust 团队官方警告针对 rust-lang team 及热门 crate 维护者的社工攻防，攻击者以招聘/项目/合作为由头约视频面试，诱使目标安装音频编解码器或执行剪贴板里的命令，以优质账号后续发布恶意 crate；Aaron Patterson 本人拆解 5 月 rubygems.org spam 事件：攻击者将 --load ./script.rb 塞进 gem 的 .yardopts，YARD 文档生成阶段直接执行，在 rubygems.info 容器内获得 cached API key随后批量发布恶意 gem其他实操：Podman 6.1.2/5.8.7 修 CVE-2025-11395（podman load 加载构造 layer tarball 可覆盖宿主机文件）；pnpm 12.4.2 修了 POSIX shim 重定向各包可执行文件的问题；uv 0.12.17 引入 preview minimum-libc-version，pylock.toml 里 wheel 名/版本不一致直接拒绝判断：文档生成也是执行边界从理论变为实证",
+      "summary_en": "Andrew Nesbitt's package-management weekly leads with supply-chain security. Rust team issued an official warning about a social-engineering campaign targeting rust-lang team members and popular crate maintainers: video calls framed as jobs/projects coerce the victim into installing an 'audio codec' or running a clipboard command, which later publishes malicious crates from a compromised account. Aaron Patterson walked through the May rubygems.org spam: --load ./script.rb was embedded in a gem's .yardopts, so YARD documentation generation executed arbitrary code inside rubygems.info containers and harvested cached API keys, enabling batched malicious gem publishing....",
+      "one_liner": "Nesbitt 包管周报：Rust 社工攻防 + rubygems 文档生成也是执行边界实证",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2752105c.md",
+      "images": [],
+      "added_date": "2026-09-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2148ebde",
+      "title": "OWASP Agent Memory Guard：针对 agent 记忆中毒的运行时防御项目上线",
+      "url": "https://github.com/OWASP/www-project-agent-memory-guard",
+      "source": {
+        "platform": "github",
+        "author": "OWASP Foundation (Incubator)",
+        "original_date": "2026-09-19"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "memory-poisoning",
+        "owasp",
+        "defense",
+        "mcp"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "OWASP Incubator 项目 Agent Memory Guard 以防御转化为主要定位：在上下文重置之后也能拦住记忆中毒，是运行时防御而非静态扫描现有探测器覆盖提示注入凭证/PII 泄露保护键修改存储异常与自增强循环；同时提供 vector-store 保护与实时仪表盘在 PyPI 上 agent-memory-guard 与 langchain-agent-memory-guard 两个包可用该项目与本地 agent 路径直接相关：Obsidian 记忆底层mem0 / 自研 store 都需要一份上下文重置后仍然拦住中毒的运行时护栏，而不仅仅是抽取阶段的检索过滤",
+      "summary_en": "OWASP Incubator project Agent Memory Guard is positioned as runtime defense that catches memory poisoning even after a context reset not a static scanner. Current detectors cover prompt injection, secret/PII leakage, protected-key modifications, size anomalies, and self-reinforcement loops; the project also ships vector-store protection and a real-time dashboard. Both agent-memory-guard and langchain-agent-memory-guard are available on PyPI. The relevance to local-agent paths is direct: Obsidian-backed memory, mem0, and homegrown stores all need a runtime guard that survives context resets rather than only a one-shot retrieval filter.",
+      "one_liner": "OWASP Agent Memory Guard 上线：运行时拦住上下文重置后的记忆中毒，PyPI 双包可用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2148ebde.md",
+      "images": [],
+      "added_date": "2026-09-19",
+      "updated_date": null,
+      "github_stars": 178,
+      "related": []
     }
   ],
   "last_updated": "2026-09-19",
-  "total_entries": 2356
+  "total_entries": 2364
 }
