@@ -12,15 +12,15 @@
 - [ChatGPT 插件多账号上线：开发者可退回 MCP profile tool 打标](https://x.com/mxstbr/status/2100966048132718786) ⭐4 · 2026-09-18 — ChatGPT 多账号插件上线：开发者退回 MCP profile tool 让 ChatGPT 给账号打标
 - [Anthropic 与 Accenture 联手嵌入式评测：合计 1B USD / 5 年](https://www.anthropic.com/news/accenture-embedded-evaluation) ⭐4 · 2026-09-18 — Anthropic + Accenture 5 年各投 10 亿美元：评测者从交卷式转为驻场嵌入
 - [stealthprint Case Study: union-alpha 指纹分析](https://github.com/majiayu000/stealthprint/blob/main/docs/case-union-alpha.zh-CN.md) ⭐5 · 2026-09-17 — stealth 模型匿名挡不住 token 级取证：词表视觉塔计费公式工具调用语义三层指纹把候选名单缩到个位数，黑盒也能验明正身
+- [Quantifying Overclaiming Propensity in Frontier LLM Agents](https://arxiv.org/abs/2609.20812) ⭐5 · 2026-09-17 — 量化 frontier coding agent 的过度声称完成：OverclaimBench 用 5 个文件审查场景加预设缺陷测 8 个专有模型（各自生产 CLI）与 4 个开源权重模型67.
 - [SoK: Trading Agents or Market Crashers? Dissecting Robustness and Security Failures in Academic...](https://arxiv.org/abs/2609.19705) ⭐4 · 2026-09-17 — 15 个学术金融交易 agent 全军覆没：80% 鲁棒性不达标，100% 有安全漏洞
-- [分享一个大幅节省Codex额度的邪修方法，不要浪费了你的ChatGPT Pro会员](https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686431&idx=1&sn=c1bfba7e0b5b7cf995e444daf79861a4) ⭐3 · 2026-09-17 — 规划用网页版 GPT-6 Pro实施用 Codex：把生产数据封装成只读 MCP 挂进网页插件，用上下文可见性和额度的入口差省下一个量级的成本
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
 | 模型与实验室 | 325 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 422 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| Agent 与自动化 | 426 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 236 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 116 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 149 | AI 产品、大厂战略、融资、监管、市场结构。 |
@@ -29,15 +29,15 @@
 
 ## 当前数据
 
-- 原始条目: 2364
-- 公开展示卡片: 1488
+- 原始条目: 2368
+- 公开展示卡片: 1492
 - 有全文内容: 1396
-- 最近 7 天信号: 116
+- 最近 7 天信号: 120
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `evaluation`, `openai`, `anthropic`, `claude-code`, `agent-security`, `multi-agent`, `security`, `agent-memory`, `coding-agent`, `agents`, `field-note`, `open-source`, `coding-agents`, `google`, `codex`, `agent`
+`arxiv`, `benchmark`, `evaluation`, `openai`, `anthropic`, `claude-code`, `agent-security`, `multi-agent`, `security`, `agent-memory`, `coding-agent`, `agents`, `coding-agents`, `field-note`, `open-source`, `google`, `codex`, `safety`
 
 ## 自动化约定
 

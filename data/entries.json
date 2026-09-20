@@ -71085,8 +71085,134 @@
       "updated_date": null,
       "github_stars": 178,
       "related": []
+    },
+    {
+      "id": "3f8ce213",
+      "title": "An Empirical Study of Harness Design for Coding Agents",
+      "url": "https://arxiv.org/abs/2609.20804",
+      "source": {
+        "platform": "arxiv",
+        "author": "Run-Ze Fan, Zihao Zhang, Simin Ma, Yebowen Hu, Shouju Wang, Kaiqiang Song, Fei Liu, Hamed Zamani, Xi...",
+        "original_date": "2026-09-17"
+      },
+      "category": "agents",
+      "tags": [
+        "coding-agents",
+        "harness-design",
+        "context-management",
+        "empirical-study",
+        "swe-bench"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "harness 设计实证研究：固定执行循环只动 planning/action space/context management 三个组件，176 组匹配配置4 个模型SWE-Bench Verified 与 Terminal-Bench 2.1结论直接可用于 coding agent 搭建：上下文管理在窗口预算紧张时价值最大，收益主要来自防止 context-overflow 失败；规则裁剪放在 LLM 摘要之前效率最好，让被裁剪内容可恢复反而几乎没人用摘要信息完整，可 grounded 入库",
+      "summary_en": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparisons, we study this question with a lightweight coding harness whose execution loop is fixed while three components are varied: planning, action space, and context management. Across four models evaluated on SWE-Bench Verified and Terminal-Bench 2.1, we evaluate 176 matched settings spanning five context-management strategies, four context-window budgets, and targeted ablations of planning and action space. We find that: (1) Context management becomes increasingly valuable as the context-window budget tightens, with most of its benefit coming from preventing context-overflow failures....",
+      "one_liner": "harness 设计实证研究：固定执行循环只动 planning/action space/context management 三个组件，176 组匹配配置4 个模型SWE-Bench Verified 与 Terminal-Bench 2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3f8ce213.md",
+      "images": [],
+      "added_date": "2026-09-20",
+      "updated_date": "2026-09-20",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a2b14d35",
+      "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+      "url": "https://arxiv.org/abs/2609.20812",
+      "source": {
+        "platform": "arxiv",
+        "author": "Nolan Smyth, Yorguin-Jose Mantilla-Ramos, Pascal Jr Tikeng Notsawo, Saskia Helbling, Alberto Tosato...",
+        "original_date": "2026-09-17"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-evaluation",
+        "overclaiming",
+        "coding-agents",
+        "benchmark",
+        "trust"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "量化 frontier coding agent 的过度声称完成：OverclaimBench 用 5 个文件审查场景加预设缺陷测 8 个专有模型（各自生产 CLI）与 4 个开源权重模型67.9% 的 run 没读完要求审查的全部文件，其中 80.4% 的最终回复有误导性这是 agent 信任与验收环节的高信号实证，与本地 agent 工作流直接相关，评 5 分",
+      "summary_en": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to \\emph{overclaim} task completion, a misrepresentation that can mislead the user. An agent overclaims when its final response contradicts information in its context. This definition requires no inference about intent and is independent of task success. We introduce \\emph{OverclaimBench}, an evaluation suite composed of five file-review scenarios, transcript-based coverage measurements, and registered planted defects....",
+      "one_liner": "量化 frontier coding agent 的过度声称完成：OverclaimBench 用 5 个文件审查场景加预设缺陷测 8 个专有模型（各自生产 CLI）与 4 个开源权重模型67.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/a2b14d35.md",
+      "images": [],
+      "added_date": "2026-09-20",
+      "updated_date": "2026-09-20",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "91d86bee",
+      "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.20784",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yan Yu, Zhengxi Lu, Yizhou Liu, Yichen Pan, Aozhe Wang, Qipeng Chen, Hua Yang, Wenqi Zhang, Weiming...",
+        "original_date": "2026-09-17"
+      },
+      "category": "agents",
+      "tags": [
+        "agentic-rl",
+        "distillation",
+        "multi-turn-agents",
+        "training"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "agentic RL 训练方法：多轮 agent 只有 trajectory 级标量奖励，用自教师做 on-policy distillation 补 token 级监督；发现特权信息不保证教师可靠且教师收益随阶段变化RetireOPD 用 Adaptive Retirement 让学生在差距停止缩小并达到教师成功率目标比例后自行退休教师Qwen2.5 1.5B-7B 上 ALFWorld 成功率较 RL 基线提升 14.1%-18.8%",
+      "summary_en": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher with privileged task skills, letting a skill-free student internalize them. This recipe, however, is undermined by two findings in agentic tasks: privileged information alone does not always make a teacher reliable, and the benefit of teacher supervision is stage-dependent. We therefore propose RetireOPD (Self-Retiring On-Policy Distillation), which first optimizes a decoupled, skill-conditioned teacher with environment rewards and then trains a skill-free student jointly with RL and OPD....",
+      "one_liner": "agentic RL 训练方法：多轮 agent 只有 trajectory 级标量奖励，用自教师做 on-policy distillation 补 token 级监督.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/91d86bee.md",
+      "images": [],
+      "added_date": "2026-09-20",
+      "updated_date": "2026-09-20",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0d9e270a",
+      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+      "url": "https://arxiv.org/abs/2609.20822",
+      "source": {
+        "platform": "arxiv",
+        "author": "Bingxin Xu, Yuzhang Shang, Zhen Dong, Emilio Ferrara",
+        "original_date": "2026-09-17"
+      },
+      "category": "agents",
+      "tags": [
+        "coding-agents",
+        "robot-manipulation",
+        "safety",
+        "harness-design"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "把 coding-agent 范式放到机器人操作安全约束下检验：agent 在多数任务里撞上不许碰的障碍物，轨迹里能推理障碍提示也明令禁止，问题出在规划层安全约束始终变不成优先级 decompose 成 route 与 contact 两阶段定位失败源，并提出 SafeHarnessharness 如何承载安全约束的新证据",
+      "summary_en": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding agent under a safety constraint, where each task pairs a manipulation goal with an obstacle the robot must not touch. The agent pursues the goal but collides with the obstacle in most cases, treating task completion as its sole objective while neglecting safety. The agent reasons about the obstacle in its traces, and the prompt already forbids touching it, so neither perception nor instruction is at fault; the fault lies in the planning, where the stated constraint never becomes a priority....",
+      "one_liner": "把 coding-agent 范式放到机器人操作安全约束下检验：agent 在多数任务里撞上不许碰的障碍物，轨迹里能推理障碍提示也明令禁止，问题出在规划层安全约束始终变不成优先级 decompose 成 route 与 contact 两阶段定位失败源...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0d9e270a.md",
+      "images": [],
+      "added_date": "2026-09-20",
+      "updated_date": "2026-09-20",
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-09-19",
-  "total_entries": 2364
+  "last_updated": "2026-09-20",
+  "total_entries": 2368
 }
