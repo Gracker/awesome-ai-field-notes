@@ -27494,7 +27494,7 @@
     {
       "id": "miovnhlw",
       "title": "[译] AI计算民主化 第七部分：如何看待Triton与Python eDSLs？",
-      "url": "http://mp.weixin.qq.com/mp/conference/default/share',",
+      "url": "https://www.modular.com/blog/democratizing-ai-compute-part-7-what-about-triton-and-python-edsls",
       "source": {
         "platform": "wechat",
         "author": null,
@@ -28668,7 +28668,7 @@
     {
       "id": "na4z0qvz",
       "title": "AI编程工具 System Prompt 大合集",
-      "url": "https://github.com/CreatorEdition/system-prompts-and-models-of-ai-tools-chinese*",
+      "url": "https://github.com/CreatorEdition/system-prompts-and-models-of-ai-tools-chinese",
       "source": {
         "platform": "github",
         "author": null,
@@ -28945,7 +28945,7 @@
     {
       "id": "cz2bo7ig",
       "title": "AI is about to completely change how you use compu...",
-      "url": "https://www.gatesnotes.com/AI-agents*",
+      "url": "https://www.gatesnotes.com/AI-agents",
       "source": {
         "platform": "blog",
         "author": null,
@@ -33388,7 +33388,7 @@
     {
       "id": "5hv63unh",
       "title": "5Hv63Unh",
-      "url": "https://x.com/yibie/status/2028650995153314299*",
+      "url": "https://x.com/yibie/status/2028650995153314299",
       "source": {
         "platform": "x",
         "author": null,
@@ -35821,7 +35821,7 @@
     {
       "id": "ppnqbbb5",
       "title": "做AI产品两年，我得出的实操经验",
-      "url": "https://mp.weixin.qq.com/s/HsFhXMLejsQWjTghUYdKFA*",
+      "url": "https://mp.weixin.qq.com/s/HsFhXMLejsQWjTghUYdKFA",
       "source": {
         "platform": "wechat",
         "author": null,
@@ -38681,7 +38681,7 @@
     {
       "id": "98kzc8ih",
       "title": "ChatGPT时代，我的新书智慧共生上市了. 祝你在人工智能时代，多一些轻松和愉悦，少一些烦恼和焦虑 | by Shuyi Wang | Jun, 2023 | Medium",
-      "url": "https://wshuyi.medium.com/chatgpt%E6%97%B6%E4%BB%A3-%E6%88%91%E7%9A%84%E6%96%B0%E4%B9%A6-%E6%99%BA%E6%85%A7%E5%85%B1%E7%94%9F-%E4%B8%8A%E5%B8%82%E4%BA%86-88845c1ee86*",
+      "url": "https://wshuyi.medium.com/chatgpt%E6%97%B6%E4%BB%A3-%E6%88%91%E7%9A%84%E6%96%B0%E4%B9%A6-%E6%99%BA%E6%85%A7%E5%85%B1%E7%94%9F-%E4%B8%8A%E5%B8%82%E4%BA%86-88845c1ee86",
       "source": {
         "platform": "blog",
         "author": null,
@@ -67988,7 +67988,9 @@
       "added_date": "2026-09-13",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "ae1c0b14"
+      ]
     },
     {
       "id": "16316487",
@@ -68629,7 +68631,9 @@
       "added_date": "2026-09-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "d74a7da1"
+      ]
     },
     {
       "id": "df1c0beb",
