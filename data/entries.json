@@ -71512,8 +71512,204 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "da680823",
+      "title": "On-Demand Attention: Language Models Know When to Recall",
+      "url": "https://arxiv.org/abs/2609.20734",
+      "source": {
+        "platform": "arxiv",
+        "author": "Haibo Feng, Ruiqi Liang, Hanyang Peng, Shiqi Yu",
+        "original_date": "2026-09-17"
+      },
+      "category": "infra",
+      "tags": [
+        "arxiv",
+        "paper",
+        "long-context",
+        "attention",
+        "decoding",
+        "vllm"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "提出 On-Demand Attention (ODA)：给预训练模型挂一个轻量 recall head，先用 local attention 解码，只在 recall head 预测全局收益足够时再触发 global attention；推理时只训练 recall head，原模型权重不动，完整 KV cache 保留已在 Qwen / Gemma / hybrid-attention 骨干上验证：相比纯 local attention 恢复大部分质量，并显著减少 global 读次数；已移植到 vLLM GPU 条件执行，在长上下文解码场景拿到实际加速论文 28 页，2026-09-17 提交 cs.CL",
+      "summary_en": "Reasoning and agentic workloads increasingly demand efficient long-context inference. Yet full-attention decoding reads the growing history at every step, regardless of its benefit to the next prediction. We show that a pretrained model's decoding states already contain information predictive of this benefit, before the global read. Building on this finding, we introduce On-Demand Attention (ODA), a local-first decoding method that uses a lightweight recall head to selectively invoke global attention as its predicted benefit changes during generation. ODA trains only the recall head, leaving pretrained weights unchanged and the complete historical KV cache available for future recall. We further implement GPU-side conditional execution in vLLM, translating reduced global reads into practical decoding speedups over full attention at long context lengths....",
+      "one_liner": "ODA 让 LLM 自学何时值得做 full attention：recall head 触发全局读，在长上下文解码上拿到实际 vLLM 加速",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/da680823.md",
+      "images": [],
+      "added_date": "2026-09-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3391f726",
+      "title": "AdaRepair-Mem: Adaptive Experience Orchestration for Repository-Level Program Repair",
+      "url": "https://arxiv.org/abs/2609.20130",
+      "source": {
+        "platform": "arxiv",
+        "author": "Z. C. Luo, J. C. Guo, W. J. He, S. Y. Wang, J. C. Yu, F. M. Zhao, Y. Chen, T. Cao, L. Q. Liu, N....",
+        "original_date": "2026-09-17"
+      },
+      "category": "coding",
+      "tags": [
+        "arxiv",
+        "paper",
+        "program-repair",
+        "memory-augmented",
+        "swe-bench"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "AdaRepair-Mem：仓库级程序修复里的记忆检索往往噪声大阶段错配跨仓库覆盖不足框架三件套：coverage-aware retrieval（同仓不足时回退到跨仓/类型记忆）quality-aware selection（按相关性 / 历史效用 / 特异性 / 冗余度排序）stage-aware routing（reproduction / localization / patch / refinement / validation 分阶段路由）在 SWE-Bench-Lite / Verified 上提升低覆盖仓库的修复率抑制噪声记忆，并显著加强 fail-to-fixed 的 refinement 转换结论：记忆增强修复的关键不是更多经验，而是\"对的上下文拿对的记忆\"，2026-09-17 提交 cs.SE",
+      "summary_en": "Recent memory-augmented repository-level program repair methods reuse historical repair experiences to improve LLM-based issue resolution. However, our analysis reveals three limitations in existing repository-level memory retrieval. First, episodic memory is highly imbalanced across repositories, leaving low-resource repositories with little effective support. Second, more memory does not monotonically lead to higher repair success, suggesting that relevance, quality, and redundancy matter more than raw memory volume. Third, memory accumulation is phase-misaligned: repositories may contain many reproduction experiences but few patch or refinement experiences. To address these problems, we propose an adaptive experience retrieval framework for repository-level program repair....",
+      "one_liner": "AdaRepair-Mem 把仓库级修复的记忆检索拆成 coverage / quality / stage 三层，在 SWE-Bench 上拿稳低覆盖仓库修复率",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3391f726.md",
+      "images": [],
+      "added_date": "2026-09-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3975651b",
+      "title": "Don't Mask the Environment: Observation Supervision Changes How Agents Explore Under RL",
+      "url": "https://arxiv.org/abs/2609.20715",
+      "source": {
+        "platform": "arxiv",
+        "author": "Juzheng Zhang, Disha Makhija, Manoj Ghuhan Arivazhagan, Vinayshekhar Bannihatti Kumar, Rashmi Gangad...",
+        "original_date": "2026-09-17"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "paper",
+        "agentic-rl",
+        "sft",
+        "grpo",
+        "exploration"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "ActObs：在 SFT 阶段不只监督 action token，也监督 trajectory 中已存在的 observation token模型推理时并不生成 observation，但联合监督迫使策略学会建模\"动作后果\"而不增加参数 / 数据 / 步数SFT 后两者表现相近，GRPO 后差距打开：Qwen3-4B 在 Terminal-Bench 2.0 各 pass@k 预算上都更高；Qwen3-8B 在 pass@1 上略退但 pass@16 +3.4 pp解出更多不同任务；跨域的 aider-polyglot（4B）pass@1 +4.2 pp论文 29 页 / 9 图 / 11 表，2026-09-17 提交 cs.LG",
+      "summary_en": "Agent trajectories record what an agent does and what happens next. Yet standard supervised fine-tuning (SFT) applies loss only to agent-authored action tokens, using environment observations as context but not as prediction targets. We ask whether this convention provides the best initialization for subsequent reinforcement learning. We introduce ActObs, which also supervises the observation tokens already present in each trajectory. Although deployed agents never generate observations, learning to predict them encourages the policy to model action consequences without adding data, parameters, sequence tokens, or forward passes. The methods perform similarly after SFT but diverge after GRPO. On Qwen3-4B, GRPO from ActObs achieves higher pass@k at every evaluated sampling budget than its action-only counterpart on Terminal-Bench 2.0....",
+      "one_liner": "ActObs 把 observation token 一起进 SFT loss：零额外成本，让 GRPO 在 Terminal-Bench 与 aider-polyglot 上拿到更高 pass@k",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/3975651b.md",
+      "images": [],
+      "added_date": "2026-09-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7d949d83",
+      "title": "Prompt Control-Flow Integrity: A Priority-Aware Runtime Defense Against Prompt Injection in LLM Systems",
+      "url": "https://arxiv.org/abs/2603.18433",
+      "source": {
+        "platform": "arxiv",
+        "author": "Md Takrim Ul Alam, Akif Islam, Mohd Ruhul Ameen, Abu Saleh Musa Miah, Jungpil Shin",
+        "original_date": "2026-03-19"
+      },
+      "category": "infra",
+      "tags": [
+        "arxiv",
+        "paper",
+        "prompt-injection",
+        "defense",
+        "control-flow"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "PCFI (Prompt Control-Flow Integrity)：把 prompt 视为 system / developer / user / 检索文档的有序组合，在转发到后端 LLM 之前跑三段式中间件（词法启发role-switch 检测层次化策略）实现为 FastAPI gateway，在合成 + 半真实 prompt-injection 评测上：所有带攻击标签的请求都被拦截False Positive Rate 0%中位开销仅 0.04 ms强调\"provenance + priority aware\"是部署侧实用且轻量的护栏，2026-03-19 提交 cs.CR",
+      "summary_en": "Large language models (LLMs) deployed behind APIs and retrieval-augmented generation (RAG) stacks are vulnerable to prompt injection attacks that may override system policies, subvert intended behavior, and induce unsafe outputs. Existing defenses often treat prompts as flat strings and rely on ad hoc filtering or static jailbreak detection. This paper proposes Prompt Control-Flow Integrity (PCFI), a priority-aware runtime defense that models each request as a structured composition of system, developer, user, and retrieved-document segments. PCFI applies a three-stage middleware pipeline, lexical heuristics, role-switch detection, and hierarchical policy enforcement, before forwarding requests to the backend LLM. We implement PCFI as a FastAPI-based gateway for deployed LLM APIs and evaluate it on a custom benchmark of synthetic and semi-realistic prompt-injection workloads....",
+      "one_liner": "PCFI 把 prompt 视作分层结构，三段式中间件拦截 prompt injection，中位开销 0.04 ms0% FPR",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7d949d83.md",
+      "images": [],
+      "added_date": "2026-09-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ba2fed01",
+      "title": "Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening",
+      "url": "https://arxiv.org/abs/2605.28999",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mohan Zhang, Yuqi Jia, Zhen Tan, Steven Jiang, Neil Zhenqiang Gong, Tianlong Chen, Dawn Song",
+        "original_date": "2026-05-27"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "paper",
+        "prompt-injection",
+        "real-world",
+        "measurement",
+        "resume-screening"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "USENIX Security 2026 已发表：第一份对真实 LLM 应用中 prompt injection 的系统化测量研究，对象是广泛使用的简历筛选流程底层数据约 20 万份真实简历（hireEZ 多年累积）作者先设计专用检测器并在小样本上手工验证精度优于通用检测器，再在全集上跑全量分析：约 1% 简历含隐藏 prompt injection，过去 1-2 年明显上升，且 90%+ 的注入并不用显式指令提供代码与 artifacts（UNITES-Lab/resume-injection-measurement）",
+      "summary_en": "LLMs are vulnerable to prompt injection attacks. However, this vulnerability has been primarily demonstrated conceptually in academic studies or through a few anecdotal case studies. Its prevalence and impact in real-world LLM-based applications are largely unexplored. In this work, we present the first systematic study of prompt-injection attacks in a widely used application: LLM-based resume screening. Our analysis is based on approximately 200K real-world resumes collected over multiple years by hireEZ. We first design tailored methods to detect prompt injection in resumes. Manual validation on a small-scale dataset demonstrates that our detectors achieve high precision and outperform state-of-the-art general-purpose detectors. We then apply our detector to the full resume dataset and conduct a comprehensive measurement study of real-world prompt injection attacks....",
+      "one_liner": "基于 20 万真实简历的首份 LLM 简历筛选 prompt injection 大规模测量：约 1% 中招，过去两年明显上升",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/ba2fed01.md",
+      "images": [],
+      "added_date": "2026-09-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1113080e",
+      "title": "Comparative Analysis of Large Language Model Inference Serving Systems: A Performance Study of vLLM and HuggingFace TGI",
+      "url": "https://arxiv.org/abs/2511.17593",
+      "source": {
+        "platform": "arxiv",
+        "author": "Saicharan Kolluru",
+        "original_date": "2025-11-17"
+      },
+      "category": "infra",
+      "tags": [
+        "arxiv",
+        "paper",
+        "inference-serving",
+        "vllm",
+        "tgi",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "vLLM vs HuggingFace TGI 的实证对比论文：在 LLaMA-2 7B-70B 上测吞吐量 / 端到端延迟 / GPU 显存占用 / 可扩展性结论：vLLM 在高并发批处理上凭借 PagedAttention 比 TGI 高达 24 吞吐；TGI 在交互式单用户场景下尾延迟更低论文给出按工作负载选型的具体建议10 页工程评测，2025-11-17 提交 cs.LG",
+      "summary_en": "The deployment of Large Language Models (LLMs) in production environments requires efficient inference serving systems that balance throughput, latency, and resource utilization. This paper presents a comprehensive empirical evaluation of two prominent open-source LLM serving frameworks: vLLM and HuggingFace Text Generation Inference (TGI). We benchmark these systems across multiple dimensions including throughput performance, end-to-end latency, GPU memory utilization, and scalability characteristics using LLaMA-2 models ranging from 7B to 70B parameters. Our experiments reveal that vLLM achieves up to 24x higher throughput than TGI under high-concurrency workloads through its novel PagedAttention mechanism, while TGI demonstrates lower tail latencies for interactive single-user scenarios....",
+      "one_liner": "vLLM vs TGI 实证对比：在 LLaMA-2 7B-70B 上，vLLM 高并发高 24 吞吐，TGI 交互场景尾延迟更低",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/1113080e.md",
+      "images": [],
+      "added_date": "2026-09-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-21",
-  "total_entries": 2377
+  "total_entries": 2383
 }
