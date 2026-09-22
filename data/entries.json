@@ -72159,8 +72159,170 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "ed9db07a",
+      "title": "Package Manager Threat Model, Revisited",
+      "url": "https://nesbitt.io/2026/09/22/package-manager-threat-model-revisited.html",
+      "source": {
+        "platform": "blog",
+        "author": "Andrew Nesbitt",
+        "original_date": "2026-09-22"
+      },
+      "category": "infra",
+      "tags": [
+        "supply-chain",
+        "package-manager",
+        "security",
+        "threat-model",
+        "audit"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Andrew Nesbitt 把 5 月的两份包管理器威胁模型清单（CWE 清单 + attacker-goal 设计问题）在 10 个真实包管理器上跑了四个月后的合并复盘：5 月中旬以来 126 份公告涉及 23 个客户端与注册中心，约为这些工具历史公告总量的四分之一，主要由 pnpm（20 份）Homebrew（13 份）Flatpak（10 份）三轮集中审计贡献路径遍历仍居首位（33 份），且绝大多数来自 manifest 字段而非压缩包条目；被命名为 server-controlled response header credential leakage 的模式有 9 份公告共享同一机制（Location / Link / WWW-Authenticate realm 把客户端连同凭证导向另一台主机），ORAS 3 次Renovate 4 次Cargo 与 Homebrew 各 1 次CWE 机械扫描与设计问题两类的产出几乎不重叠；对抗式复核驳回了约五分之一原始发现，每条驳回都沉淀为一条未成文的代码不变量新增设计问题包括 feature composition（两个特性的信任假设在接缝处错配，产生最高危发现，无法 grep）与 sandbox 后写回 install manifest 的 hand-off，另为 CDN/中间件缓存镜像代理工具自身发布管线LSP 集成单独立目",
+      "summary_en": "Andrew Nesbitt revisits his May package-manager CWE list and threat-model questions after four months of applying them to ten real package managers: 126 advisories against 23 clients and registries since May (about a quarter of all ever filed, driven by coordinated audits of pnpm, Homebrew and Flatpak). Path traversal still leads (33 advisories), now mostly via manifest fields rather than archive entries; a named credential-leakage pattern via server-controlled response headers (Location / Link / WWW-Authenticate realm) accounts for nine advisories across ORAS, Renovate, Cargo and Homebrew. Mechanical CWE scanning and attacker-goal design questions produce almost entirely disjoint findings; adversarial second-pass verification refuted about a fifth of raw findings, each refutation documenting an undocumented invariant....",
+      "one_liner": "四个月 126 份公告验证包管理器威胁模型：最危险的不是可 grep 的 CWE，而是两个特性在接缝处错配的信任假设",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ed9db07a.md",
+      "images": [],
+      "added_date": "2026-09-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4365ab95",
+      "title": "Writing Rust code that's faster than state-of-the-art libraries by asking agents to make the code faster",
+      "url": "https://minimaxir.com/2026/09/agentic-iteration",
+      "source": {
+        "platform": "blog",
+        "author": "Max Woolf",
+        "original_date": "2026-09-21"
+      },
+      "category": "coding",
+      "tags": [
+        "ai-coding",
+        "rust",
+        "performance",
+        "benchmark",
+        "agentic-iteration",
+        "methodology"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Max Woolf 记录用 agentic LLM 迭代 Rust 实现最终反超现成 SOTA 库的完整方法论：目标语言选 Rust 是为了经 PyO3 桥回 Python也能编译成 WASM，且约束尽量不用 unsafe关键转折是把模糊指令（\"越快越好\"，agent 只调超参就收工）改成可 pass/fail 的目标：先跑出 True Performance Baseline，再要求所有 CPU benchmark 1.2 Baseline禁止改 benchmark 代码迭代到收敛此后每代新模型（Opus 4.5 GPT-5.3 Codex Opus 4.6 GPT-6 Astra）用同一 prompt 都再拿到累计 1.5-2.0，多月累计约 7.5-32；从零实现的 UMAP 换 faer/simsimd 后反超生态库，GBDT 实现速度显著超 xgboost 且质量互有胜负针对 benchmaxxing 质疑给出两个对策：让 agent 设计多样化/对抗性输入，以及用已知正确实现做质量门文章附完整 prompt 与 criterion 基准脚本",
+      "summary_en": "Max Woolf documents his methodology for iteratively making agentic LLMs write Rust that beats state-of-the-art libraries: Rust chosen for PyO3/Python bridging and WASM compilation, with a no-unsafe constraint. The key shift was replacing vague instructions (\"as fast as possible\" the agent lazily tuned hyperparameters) with a pass/fail target: run benchmarks first to establish a True Performance Baseline, then require all CPU benchmarks to run at least 1.2x faster without touching benchmark code, iterating until convergence. Each successive frontier model (Opus 4.5, GPT-5.3 Codex, Opus 4.6, GPT-6 Astra) re-run on the same prompt delivered another cumulative 1.5x-2.0x, compounding to roughly 7.5x-32x over months; the from-scratch UMAP (faer + simsimd) beats ecosystem crates and the agent-written GBDT beats xgboost on speed with mixed quality....",
+      "one_liner": "把\"更快\"从模糊期望换成可 pass/fail 的 Baseline 目标，是 agentic 性能优化真正生效的那一步",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4365ab95.md",
+      "images": [],
+      "added_date": "2026-09-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3819577a",
+      "title": "Are LLMs still surprisingly bad at some simple tasks?",
+      "url": "https://shkspr.mobi/blog/2026/09/are-llms-still-surprisingly-bad-at-some-simple-tasks",
+      "source": {
+        "platform": "blog",
+        "author": "Terence Eden",
+        "original_date": "2026-09-22"
+      },
+      "category": "learning",
+      "tags": [
+        "evaluation",
+        "llm-failures",
+        "html",
+        "benchmark",
+        "hallucination"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Terence Eden 一年前出过一道题\"哪些 TLD 与合法 HTML5 元素同名\"当时所有模型全错；一年后复测，仍没有模型完全答对：Gemini Flash 编造 .a 与从未存在的 //，Gemini 思考模型不编造但漏掉 ///，Claude 样本漏 ccTLD 或塞入 near-misses 装充实，Perplexity 给 54 条大多错误，GPT Astra 6 全对元素并标出废弃项而 Siri 因为直接抄了作者旧网站反而全对反转在于题眼：HTML 自定义元素规则（小写开头+含连字符）使 150+ 个 TLD（含 Punycode 如 xn--vermgensberatung-pwb，作者用 customElements.define 在浏览器实测可注册）合法，加上 MathML 的 mn/mo/ms/mtr作者的落点：这不是刁难题，而是具体可复现的评测靶子模型不知道 HTML 的元素集合边界，benchmark 也不知道；默认模型不能信，唯一工程上可控的是持续抽检输出",
+      "summary_en": "Terence Eden re-runs his 2025 question which TLDs share names with valid HTML5 elements that every model failed; a year later none is fully correct. Gemini Flash invents .a and nonexistent elements; Gemini thinking omits data/map/select/search; Claude samples miss ccTLDs or pad answers with fabricated near-misses; Perplexity returns 54 mostly-wrong matches; GPT Astra 6 gets elements right and flags obsolete ones while Siri scores perfectly by copying the author's own old blog post. The twist: custom element validity rules (lowercase start, must contain a dash) make 150+ TLDs valid element names, including Punycode ones like xn--vermgensberatung-pwb, which the author verifies live via customElements.define; MathML adds mn/mo/ms/mtr....",
+      "one_liner": "同一道题一年后全行业仍无模型满分：评测缺的不是更难的题，是这种有确定答案的简单靶子",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/3819577a.md",
+      "images": [],
+      "added_date": "2026-09-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "445b166a",
+      "title": "System One models like Jev can train their own replacements",
+      "url": "https://www.seangoedecke.com/system-one-models-can-train-their-own-replacements",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-09-19"
+      },
+      "category": "models",
+      "tags": [
+        "system-one",
+        "distillation",
+        "classifiers",
+        "cost-optimization",
+        "production-ml"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Sean Goedecke 论证 System One 通用分类器（如 Jev）的实用路径：这类快而稳的通用分类器直接上生产长期跑并不划算通用性让它比专职分类器更大更慢更贵但它同时解决专职分类器的两道门槛：工程团队缺 ML 专长缺训练数据前者用 prompt 直接接入即可；后者由 Jev 自己在生产中的输入/判定数据补齐验证功能值得做之后，把积累的 (输入, 决定) 对拿来蒸馏一个小而快的专职分类器替换 Jev 实例典型场景是\"LLM 能做但太贵\"的高频判定（如 Slack 消息要不要打扰用户）与作者前文合起来构成 System One 系列的实用边界：拿来快速验证想法很值，别指望它常驻生产；成功的 Jev 用法的终点是训练出自己的替代品",
+      "summary_en": "Sean Goedecke argues the practical path for System One general classifiers like Jev: fast, consistent general classifiers are not economical to run in production long-term generality makes them larger, slower and pricier than a bespoke classifier but they remove both barriers that keep teams from building bespoke classifiers: ML expertise (just prompt Jev with criteria) and training data (collected free from Jev's own production inputs/decisions). Once a feature is validated, distill the accumulated (input, decision) pairs into a small fast task-specific classifier and replace the Jev instance. Canonical use cases are high-frequency judgments an LLM could make but too expensively (e.g. whether a Slack message should notify)....",
+      "one_liner": "System One 模型的正确用法是当探针不当常驻工：验证想法顺手攒训练集，然后蒸馏小模型替换自己",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/445b166a.md",
+      "images": [],
+      "added_date": "2026-09-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ea2b8da2",
+      "title": "Qwen-Image-2.1 Uncensored GGUF (abenzerps)",
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "source": {
+        "platform": "blog",
+        "author": "abenzerps",
+        "original_date": null
+      },
+      "category": "models",
+      "tags": [
+        "qwen-image",
+        "gguf",
+        "quantization",
+        "local-inference",
+        "comfyui",
+        "text-to-image"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "abenzerps 在 Hugging Face 发布 Qwen-Image-2.1（Qwen 8 月底发布的 T2I 模型）的 GGUF 量化包，基于上游原始权重，含\"uncensored\"版本计划：Q4_0 4.05GB 到 Q8_0 7.59GB 共五档，官方推荐 Q4_K_M（4.60GB）为大小/质量平衡点，低档可进 8GB 显存；配套 qwen3vl_8b 文本编码器（BF16 17.53GB / Int8 9.35GB）与 VAE，ComfyUI + ComfyUI-GGUF 直接可用量化档位与显存档位的细粒度对应说明 T2I 生态在向消费级硬件外溢；对本地评测者，同一权重同一 prompt 在不同量化下的纹理/手部稳定性差异是一个现成的对照实验",
+      "summary_en": "abenzerps publishes GGUF quantizations of Qwen-Image-2.1 (Qwen's T2I model released end of August) built from original upstream weights, with an 'uncensored' variant announced: five tiers from Q4_0 4.05GB to Q8_0 7.59GB, Q4_K_M (4.60GB) recommended as the size/quality balance, lowest tiers fit 8GB VRAM; companion qwen3vl_8b text encoders (BF16 17.53GB / Int8 9.35GB) and VAE are packaged for direct ComfyUI + ComfyUI-GGUF use. The fine-grained VRAM-to-quant mapping signals T2I ecosystems spilling onto consumer hardware; for local evaluation, texture/hand-stability deltas of the same weights and prompt across quantization levels make a ready comparison experiment.",
+      "one_liner": "Qwen-Image-2.1 全档 GGUF 上线：T2I 权重 + ComfyUI 配套件齐备，8GB 显存已能本地跑完整生图链",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/ea2b8da2.md",
+      "images": [],
+      "added_date": "2026-09-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-22",
-  "total_entries": 2397
+  "total_entries": 2402
 }
