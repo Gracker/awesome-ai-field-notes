@@ -72031,8 +72031,136 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "39508e48",
+      "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
+      "url": "https://arxiv.org/abs/2609.22068",
+      "source": {
+        "platform": "arxiv",
+        "author": "Bowen Ye, Lei Li, Shicheng Li, Zihao Yue, Linghao Zhang, Hanglong Lv, Yuanxin Liu, Wenhan Ma, Hao Ti...",
+        "original_date": "2026-09-18"
+      },
+      "category": "coding",
+      "tags": [
+        "rl-environments",
+        "agentic-coding",
+        "grpo",
+        "task-synthesis",
+        "verifiers"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "用 RL 训练编码 agent 需要带可靠验证器的多样任务；现有方法多依赖 issuecommit 等开发工件，任务覆盖面受限CodeMidas 是一条 agentic 流水线，仅以源码为任务特定输入，把既有代码库中已实现的功能转成可执行 RL 环境：agent 探索已实现功能并形成行为规格基于原代码执行构造测试再通过执行检查与重复解题 rollout 验证过滤候选任务产出 5545 个训练任务，覆盖 3185 个开源代码库23 种语言15 个技术领域用 GRPO 在这些任务上训练 MiMo-V2.5，在覆盖 issue 解决等五个不同基准上全面提分",
+      "summary_en": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be extracted. To better scale RL environments, we present CodeMidas, an agentic pipeline that turns implemented functionality in existing codebases into executable RL environments using source code as its only task-specific input. CodeMidas allocates agentic compute to every stage of environment construction: agents explore implemented functionality to formulate behavioral specifications, construct tests grounded in execution of the original code, and validate and filter candidate tasks through execution checks and repeated solution rollouts.",
+      "one_liner": "CodeMidas 只用源码就把既有代码库功能变成可执行 RL 环境，5545 任务/3185 仓库/23 语言，GRPO 训练全面提升",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/39508e48.md",
+      "images": [],
+      "added_date": "2026-09-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "376bb21c",
+      "title": "Value-Sensitive Delegation in Everyday AI Agent Use: Evidence from OpenClaw",
+      "url": "https://arxiv.org/abs/2609.22067",
+      "source": {
+        "platform": "arxiv",
+        "author": "Renkai Ma, Ruyuan Wan, Xuan Lu, Fan Yang, Chen Chen, Lingyao Li",
+        "original_date": "2026-09-18"
+      },
+      "category": "agents",
+      "tags": [
+        "value-sensitive-design",
+        "delegation",
+        "openclaw",
+        "user-study",
+        "reddit"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "用 Value Sensitive Design 方法，在 LLM 辅助下分析 73093 条关于使用 OpenClaw 的一手 Reddit 帖，逐条标注人的价值agent 侧面价值满足与用户结局21 个价值聚成六组：自主/可靠/可负担运行有界影响面可审查性公平获取等相对各侧面的语料占比，价值集中在用户为一次运行设定的操作条件（成本访问监督）而非 agent 产出本身；在描述 agent 交付的帖子中价值通常被满足（六组中五组），在描述监督 agent 的帖子中价值大多落空（六组全部）作者将这一模式概念化为 value-sensitive delegation：支持人的价值不仅要看 agent 完成了什么，还要看用户围绕委托设定的条件",
+      "summary_en": "Users increasingly delegate work to autonomous AI agents, yet evaluations typically measure task completion rather than the values users prioritize. Using Value Sensitive Design, we analyzed, with LLM assistance, 73,093 first-person Reddit posts about using OpenClaw, each for its human value, agent aspect, value fulfillment, and user outcome. The 21 values form six value groups, including Autonomous, Dependable, and Affordable Operation, Bounded Reach, Reviewability, and Equitable Access. Relative to each aspect's corpus share, values clustered not at the agent's outputs but at the operating conditions users set around a run. Values were usually met where users described what the agent delivered, in five of six groups, and mostly unmet where users described supervising it, in all six groups.",
+      "one_liner": "分析 73093 条 OpenClaw 用户 Reddit 帖：用户价值集中在委托运行的条件设定而非产出，监督场景的价值几乎全部落空",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/376bb21c.md",
+      "images": [],
+      "added_date": "2026-09-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dd91425d",
+      "title": "An Interpretable Memory Decision Controller for LLM Agents Based on Three-Signal Complementarity: Decoupling Confidence and Consistency",
+      "url": "https://arxiv.org/abs/2609.22043",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yiming Zhang, Jinghong Zhang, Haoran Zhao, Yiren Ma, Chunlei Zhao",
+        "original_date": "2026-09-18"
+      },
+      "category": "agents",
+      "tags": [
+        "memory-decision",
+        "rag",
+        "hallucination",
+        "interpretability",
+        "zero-parameter"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "LLM 记忆系统研究集中在高效检索，对'检索到的记忆是否该信'关注很少当记忆库中存在冲突立场时，标准 RAG 会盲目注入记忆并放大幻觉：对易受记忆注入影响的模型，冲突记忆下 RAG 幻觉率显著高于无记忆基线受前额叶皮层记忆信号机制启发，论文提出记忆决策层 MDL：一个位于检索与生成之间的零参数决策控制器，核心是三信号互补编码器，经 QR 正交子空间投影融合相关性可靠性与任务风险，加上元工作记忆信号，形成可解释的决策表示来量化记忆可信度；并显式解耦置信度与一致性论文在冲突记忆场景下验证其对幻觉放大的抑制",
+      "summary_en": "Memory systems for large language models have focused predominantly on efficient retrieval, whereas the decision of whether retrieved memories should be trusted has received comparatively little attention. When the memory store contains conflicting positions, standard retrieval-augmented generation (RAG) blindly injects memories and amplifies hallucinations: in models susceptible to memory injection, the RAG hallucination rate under conflicting memories is markedly higher than that of a memory-free baseline. Inspired by memory signaling mechanisms in the prefrontal cortex, we propose the Memory Decision Layer (MDL), a zero-parameter memory decision controller situated between the retrieval and generation stages.",
+      "one_liner": "零参数记忆决策层 MDL 融合相关性/可靠性/任务风险三信号量化记忆可信度，冲突记忆下抑制 RAG 幻觉放大",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dd91425d.md",
+      "images": [],
+      "added_date": "2026-09-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "680726bd",
+      "title": "RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
+      "url": "https://arxiv.org/abs/2609.22000",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shuai Bai, Jiayong Deng, Yikun Fu, Chang Gao, Xuhao Hu, Mianqiu Huang, Yizhen Jiang, Yuheng Jing, De...",
+        "original_date": "2026-09-18"
+      },
+      "category": "coding",
+      "tags": [
+        "computer-use",
+        "hybrid-agent",
+        "rl-environments",
+        "gui",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "计算机使用 agent（CUA）沿图形交互与写代码/命令行两条线分别发展，而真实数字工作需要两者交织论文研究混合 CUA：自主决定何时探索界面实现软件运行并以视觉方式验证产物提出 RecreationWorld，围绕'复刻'构建五平台框架（Ubuntu/macOS/Windows/Android/Web）：给定一个运行中的参考实现，agent 必须自行发现其行为并构建忠实实现，无预定工作流；统一 harness 同时提供原生 GUI 控制与编码工具运行参考充当隐藏行为测试的 oracle，提供执行接地奖励轨迹生成靠高质量开源应用扩规模；在这些轨迹上训练的模型在五个分布外编码与混合计算机使用基准上均提升，且更频繁地视觉验证自己的渲染产物",
+      "summary_en": "Computer-use agents (CUAs) have advanced along two separate lines: graphical interaction and software development through code and the command line. Real digital work requires both, interleaved rather than stacked end to end. We study hybrid CUAs that autonomously decide when to explore an interface, implement software, and run and visually verify their artifacts. We introduce RecreationWorld, a five-platform framework built around recreation: given a running reference, an agent must discover its behavior and build a faithful implementation with no prescribed workflow. RecreationWorld provides reproducible environments on Ubuntu, macOS, Windows, Android, and Web, plus a unified harness with native GUI control and coding tools. The running reference serves as an oracle for hidden behavioral tests, providing execution-grounded rewards.",
+      "one_liner": "RecreationWorld 五平台混合 CUA 环境：从运行参考逆向复刻行为，隐藏行为测试提供执行接地奖励，OOD 基准全面提分",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/680726bd.md",
+      "images": [],
+      "added_date": "2026-09-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-09-21",
-  "total_entries": 2393
+  "last_updated": "2026-09-22",
+  "total_entries": 2397
 }
