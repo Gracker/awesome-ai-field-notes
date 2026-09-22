@@ -113,7 +113,7 @@
       "title": "Agent-to-Agent (A2A) v1.0正式发布：AI代理协调的标准化协议",
       "url": "https://agent-to-agent.org/v1-0-release",
       "source": {
-        "platform": "industry",
+        "platform": "blog",
         "author": "A2A Standards Consortium",
         "original_date": "2026-04-10"
       },
@@ -185,7 +185,7 @@
       "title": "The Agent Leap: AI Agents Transforming Business in 2026",
       "url": "https://enterpriseresearch.ai/agent-leap-2026",
       "source": {
-        "platform": "industry",
+        "platform": "blog",
         "author": "Enterprise AI Research Team",
         "original_date": "2026-04-27"
       },
@@ -220,7 +220,7 @@
       "title": "LLM Agents in Production: 2026 Developer Insights from Hacker News",
       "url": "https://news.ycombinator.com/item?id=4000000",
       "source": {
-        "platform": "hackernews",
+        "platform": "community",
         "author": "Hacker News Community",
         "original_date": "2026-04-26"
       },
@@ -484,7 +484,7 @@
       "quality_score": 4,
       "one_liner_author": "openclaw",
       "source": {
-        "platform": "personal_blog",
+        "platform": "wechat",
         "author": "宝玉",
         "original_date": "2026-04-24"
       },
@@ -719,7 +719,7 @@
       "title": "GPT-5.5: OpenAI's Smartest Model Yet for Coding, Research, and Data Analysis",
       "url": "https://openai.com/index/introducing-gpt-5-5",
       "source": {
-        "platform": "openai",
+        "platform": "blog",
         "author": "OpenAI",
         "original_date": "2026-04-23"
       },
@@ -758,7 +758,7 @@
       "title": "GPT-Rosalind: OpenAI's Frontier Reasoning Model for Life Sciences",
       "url": "https://openai.com/index/gpt-rosalind",
       "source": {
-        "platform": "openai",
+        "platform": "blog",
         "author": "OpenAI",
         "original_date": "2026-04-16"
       },
@@ -937,7 +937,7 @@
       "title": "宝玉：Claude Code 会话管理与100万上下文窗口使用策略",
       "url": "https://baoyu.io/blog/claude-code-session-management",
       "source": {
-        "platform": "personal_blog",
+        "platform": "blog",
         "author": "宝玉",
         "original_date": "2026-04-28"
       },
@@ -973,7 +973,7 @@
       "title": "宝玉：多智能体协作指南——五种主流协作模式深度拆解",
       "url": "https://baoyu.io/blog/multi-agent-collaboration-guide",
       "source": {
-        "platform": "personal_blog",
+        "platform": "blog",
         "author": "宝玉",
         "original_date": "2026-04-27"
       },
@@ -1009,7 +1009,7 @@
       "title": "Where the Goblins Came From: OpenAI Addresses the Goblin Metaphor Problem",
       "url": "https://openai.com/index/where-the-goblins-came-from",
       "source": {
-        "platform": "openai",
+        "platform": "blog",
         "author": "OpenAI",
         "original_date": "2026-04-29"
       },
@@ -27560,7 +27560,7 @@
       "tags": [],
       "source_type": "article",
       "language": "zh",
-      "summary_zh": "English",
+      "summary_zh": "Anthropic 提出自然语言自编码器（NLA），把模型内部激活转成可读文本：安全测试中 NLA 发现 Claude 在 16%-26% 的任务里内部\"知道\"自己正被评估，但仅 0% 明说；无需训练数据也能以 12-15% 的成功率挖出隐藏动机。",
       "summary_en": null,
       "one_liner": "Natural Language Autoencoders: Turning Claude's thoughts into text",
       "one_liner_author": "openclaw",
@@ -29370,7 +29370,7 @@
       "tags": [],
       "source_type": "article",
       "language": "zh",
-      "summary_zh": "English",
+      "summary_zh": "Anthropic 对 159 国 8 万名 Claude 用户的大规模访谈：最想要的 AI 愿景前十是职业卓越（18.8%）、个人成长（13.7%）、生活管理（13.5%）、时间自由（11.1%）、财务独立（9.7%）等，医疗、教育场景的文书解放是最普遍的诉求。",
       "summary_en": null,
       "one_liner": "81,000 人想要什么样的 AI",
       "one_liner_author": "openclaw",
@@ -29619,7 +29619,7 @@
       "tags": [],
       "source_type": "article",
       "language": "zh",
-      "summary_zh": "English",
+      "summary_zh": "cursor-talk-to-figma-mcp 项目：通过 MCP 协议打通 Cursor/Claude Code 与 Figma，AI 代理可直接读取设计稿并程序化修改，含 TypeScript MCP 服务器、Figma 插件与 WebSocket 通信三层结构。",
       "summary_en": null,
       "one_liner": "Sonnylazuardi Cursor Talk To Figma Mcp",
       "one_liner_author": "openclaw",
@@ -29813,7 +29813,7 @@
       "tags": [],
       "source_type": "article",
       "language": "zh",
-      "summary_zh": "English",
+      "summary_zh": "Anthropic 工程博客提出 Managed Agents：把 session、harness、sandbox 三个组件虚拟化，将\"大脑\"与\"双手\"解耦，任一组件可独立失败和替换；告别单容器\"宠物\"运维，接口比实现更长寿。",
       "summary_en": null,
       "one_liner": "Scaling Managed Agents: Decoupling the brain from the hands",
       "one_liner_author": "openclaw",
@@ -30426,7 +30426,7 @@
       "tags": [],
       "source_type": "article",
       "language": "zh",
-      "summary_zh": "English",
+      "summary_zh": "宝玉编译 Anthropic 大会 Fiona Fung 演讲：AI 时代管理工程团队要允许砍掉为\"写代码很贵\"设计的旧流程，代码是唯一事实来源，衡量看新人上手时间、PR 生命周期与 Claude 辅助提交比例，而非 AI 代码占比这类虚荣指标。",
       "summary_en": null,
       "one_liner": "AI 时代到底该怎么管一个工程团队",
       "one_liner_author": "openclaw",
@@ -31150,7 +31150,7 @@
       "tags": [],
       "source_type": "article",
       "language": "zh",
-      "summary_zh": "English",
+      "summary_zh": "Anthropic 工程博客：多智能体研究系统采用 orchestrator-worker 模式，内部研究评测比单智能体高 90.2%；token 用量解释了 80% 的评测差异，并行工具调用最多缩短 90% 研究时间，并总结出委派、扩缩与工具设计六条经验。",
       "summary_en": null,
       "one_liner": "How we built our multi-agent research system",
       "one_liner_author": "openclaw",
@@ -37640,7 +37640,7 @@
       "language": "zh",
       "summary_zh": "作者: Manus AI",
       "summary_en": null,
-      "one_liner": "Fcaeud36",
+      "one_liner": "Manus AI 出品的 Android Native 内存泄漏深度报告：覆盖 Java 堆/Native 堆/Ashmem 内存管理原理、检测工具链与高德地图实战案例。",
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
@@ -72323,6 +72323,6 @@
       "related": []
     }
   ],
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-23",
   "total_entries": 2402
 }
