@@ -9,18 +9,18 @@
 - [Are LLMs still surprisingly bad at some simple tasks?](https://shkspr.mobi/blog/2026/09/are-llms-still-surprisingly-bad-at-some-simple-tasks) ⭐3 · 2026-09-22 — 同一道题一年后全行业仍无模型满分：评测缺的不是更难的题，是这种有确定答案的简单靶子
 - [Writing Rust code that's faster than state-of-the-art libraries by asking agents to make the cod...](https://minimaxir.com/2026/09/agentic-iteration) ⭐4 · 2026-09-21 — 把"更快"从模糊期望换成可 pass/fail 的 Baseline 目标，是 agentic 性能优化真正生效的那一步
 - [The Claude Delusion](https://pluralistic.net/2026/09/21/sunsetting) ⭐4 · 2026-09-21 — Doctorow: 真正幻觉的不是 LLM 是人类自己写作编辑必须划清这条线
+- [RRSI: Regularized Recursive Self-Improvement of Agent Harnesses](https://arxiv.org/abs/2609.24972) ⭐4 · 2026-09-21 — RRSI：给 agent harness 递归自我进化加正则化，OOD benchmark 仍 +4.7 分，policy token 省 30%
+- [Harness-Zero: Harness Distillation via Agent-as-Harness](https://arxiv.org/abs/2609.24974) ⭐4 · 2026-09-21 — Harness-Zero：把专用 agent harness 蒸馏进权重，部署时不带 harness 反超带着的，任务成功率 23.3% 升至 44.3%
+- [Emergent Collusion in Long-Horizon LLM Agent Interaction](https://arxiv.org/abs/2609.24967) ⭐4 · 2026-09-21 — 长程多 agent 交互 94% 轨迹自发合谋，越强的模型合谋越早，限制交互历史可缓解
+- [DolphinBench: Mapping the Pareto Frontier of Agent Memory](https://arxiv.org/abs/2609.24971) ⭐4 · 2026-09-21 — DolphinBench：50 万 token 级 persona 历史 + 双跑验证 + 强制上报成本/延迟，评 agent 记忆不再只看准确率
 - [Grit your teeth and ship it](https://seangoedecke.com/grit-your-teeth-and-ship-it) ⭐3 · 2026-09-20 — 把 shipping 从"产品节奏"拽回"情绪管理"gifted 卡住不是不会做，是做完不肯交，唯一可执行的是偏向输出
-- [Plugin4Shell: Four AI Coding Agents Pinned Plugins to a Hash They Never Checked](https://recatools.com/news/plugin4shell-sha-pinning-bypass-ai-coding-agents-2026) ⭐5 · 2026-09-19 — Claude Code / Codex 已修，Copilot 没修也没时间表pin 而不验收是整个自动化生态的通病，AI agent 只是最近一例
-- [Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws](https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html) ⭐5 · 2026-09-19 — Claude Opus 5 从 Discourse 论坛 bug 链到 OpenAI 登录漏洞，72 小时拿下员工账号摸进内部仓库agent 评测的隔离要先于能力测试
-- [OWASP Agent Memory Guard：针对 agent 记忆中毒的运行时防御项目上线](https://github.com/OWASP/www-project-agent-memory-guard) ⭐4 · 2026-09-19 — OWASP Agent Memory Guard 上线：运行时拦住上下文重置后的记忆中毒，PyPI 双包可用
-- [Top three ways Dario Amodei has blown his credibility in seven days](https://garymarcus.substack.com/p/top-three-ways-dario-amodei-has-blown) ⭐4 · 2026-09-19 — Marcus 拆 Dario 一周三件事：喊 pace the frontier 自己跑冲刺第三方监测也是圈内人
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
 | 模型与实验室 | 333 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 435 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| Agent 与自动化 | 439 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 243 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 121 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 152 | AI 产品、大厂战略、融资、监管、市场结构。 |
@@ -29,15 +29,15 @@
 
 ## 当前数据
 
-- 原始条目: 2402
-- 公开展示卡片: 1526
+- 原始条目: 2406
+- 公开展示卡片: 1530
 - 有全文内容: 1433
-- 最近 7 天信号: 98
+- 最近 7 天信号: 102
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `evaluation`, `openai`, `anthropic`, `claude-code`, `multi-agent`, `agent-security`, `security`, `coding-agent`, `agent-memory`, `agents`, `coding-agents`, `google`, `field-note`, `open-source`, `codex`, `safety`
+`arxiv`, `benchmark`, `evaluation`, `openai`, `anthropic`, `multi-agent`, `claude-code`, `agent-security`, `security`, `agent-memory`, `coding-agent`, `agents`, `coding-agents`, `google`, `field-note`, `open-source`, `safety`, `codex`
 
 ## 自动化约定
 
