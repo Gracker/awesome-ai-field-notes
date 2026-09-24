@@ -72972,8 +72972,174 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "99466bf0",
+      "title": "Package Manager Sandboxing",
+      "url": "https://nesbitt.io/2026/09/24/package-manager-sandboxing.html",
+      "source": {
+        "platform": "blog",
+        "author": "Andrew Nesbitt",
+        "original_date": "2026-09-24"
+      },
+      "category": "infra",
+      "tags": [
+        "package-manager",
+        "sandbox",
+        "agent-security",
+        "supply-chain",
+        "seccomp",
+        "landlock",
+        "seatbelt"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Andrew Nesbitt 9 月 24 日把过去四个月包管理器沙箱化进展盘成一张纵览：Homebrew 7.0.0（9 月 13 日）把fetch 阶段联网写 cache；install 阶段离线只读 cache做成一等公民，cask 的 LaunchServices 逃逸被堵，formula post_install 这种任意 Ruby 钩子被换成 signed *_steps，deadline 2027 年 12 月Homebrew 6.0 起的迁移路径是 Linux 先上 Bubblewrap 7 月换 Landlock 8 月删 Bubblewrap跨生态对照一长串：opam 2.0（2018）把 build/install 全部塞 bubblewrap + 断网，SwiftPM 的 Seatbelt 把 Package.swift 关进沙箱编译，pacman 7.0（2024）把下载跑在 Landlock + seccomp 下包管理器攻击面的回应不是一招：gating（allowlist 控制谁跑）confinement（沙箱控制能摸到哪）removal（把钩子改成可解释的数据）三条路各砍一刀CI 里的实际缺口：self-hosted runner 持久并被多 job 共用，install 脚本的 reach 跟 workflow 同级，Harden-Runner 是当下唯一可用的 sidecar整篇把包管理器 agent vendor CI runner三向闭环拍成一句话：沙箱化 build 写出的 manifest / cache / step list 仍要被一个全权限的包管理器消费，验证这一段输出才是剩下的真问题",
+      "summary_en": "Andrew Nesbitt surveys the past four months of package manager sandboxing work. Homebrew 7.0.0 (Sept 13) makes the fetch-online / install-offline split a first-class citizen, blocks the cask LaunchServices escape, and replaces arbitrary Ruby post_install hooks with signed *_steps (deadline Dec 2027). The Homebrew migration: Bubblewrap Landlock (July) drop Bubblewrap (Aug) on Linux; sandbox-exec on macOS since 2014. Cross-ecosystem: opam 2.0 (2018) wraps builds in bubblewrap + cut network; SwiftPM's Seatbelt sandboxes Package.swift; pacman 7.0 (2024) downloads under Landlock + seccomp. The response to package manager attack surfaces is three-pronged: gating (allowlist who runs), confinement (sandbox what they touch), removal (turn hooks into inspectable data, Homebrew's *_steps, Composer 2021's plugin allowlist)....",
+      "one_liner": "把过去 4 个月 25+ 个 manager / agent / proposal 的沙箱化进度压成一张表，关键结论：沙箱构建的产物仍要被全权限的包管理器消费，CI runner 是当下唯一还在的开口",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/package_manager_sandboxing_2026_09_24.md",
+      "images": [],
+      "added_date": "2026-09-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f486924c",
+      "title": "Cloudflare Python Workers are now generally available",
+      "url": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-09-21"
+      },
+      "category": "infra",
+      "tags": [
+        "cloudflare",
+        "python",
+        "webassembly",
+        "pyodide",
+        "workers",
+        "serverless"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 9 月 21 日转述 Cloudflare 的官方公告：经过两年预览期，Python 在 Workers 平台正式 GA，定位是Cloudflare Developer Platform 上的一等公民完全支持的语言运行机制是 Python 经 Pyodide 编译到 WebAssembly，在 V8 基础的 workerd runtime 里跑代价写在 limitation 文档里WebAssembly VM 里 multiprocessing 和 threading 都不能用开发体验上，pywrangler（PyPI 上的包名是 workers-py，命名有点反直觉）跑的是 workerd 本地模拟，里头有一个 123MB 的 binary，会本地启 Pyodide + WebAssembly + V8 三层栈Announcement 署名 Gyeongjae Choi / Dominik Picheta / Hood Chatham 三人，前两位是 Pyodide 核心维护者Cloudflare 对 Pyodide 生态的实质投入",
+      "summary_en": "Cloudflare's Python Workers exit two-year preview as GA: Python is now a first-class, fully supported language on the Cloudflare Developer Platform. The mechanism is Python compiled to WebAssembly via Pyodide, running inside the V8-based workerd runtime. Documented limitations: both multiprocessing and threading are non-functional inside the WebAssembly VM. Local development uses pywrangler (packaged as workers-py on PyPI), which simulates the full stack locally: Pyodide + WebAssembly + V8 inside a 123 MB workerd binary. The release announcement is credited to Gyeongjae Choi, Dominik Picheta, and Hood Chatham Gyeongjae and Hood are both Pyodide core maintainers, signaling a real engineering investment in the Pyodide ecosystem.",
+      "one_liner": "Cloudflare Python Workers 两年预览后正式 GA，机制是 PyodideWASMworkerd，本地 pywrangler 跑出 123MB binary；multiprocessing / threading 在 WASM VM 里仍不可用",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/cloudflare_python_workers_ga_2026_09_21.md",
+      "images": [],
+      "added_date": "2026-09-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "49964e25",
+      "title": "Meta's New Muse AI Agent Read My Private Messages. I Never Asked It To",
+      "url": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
+      "source": {
+        "platform": "blog",
+        "author": "Jason Aten",
+        "original_date": "2026-09-19"
+      },
+      "category": "agents",
+      "tags": [
+        "meta",
+        "muse",
+        "agent-ux",
+        "privacy",
+        "context-stitching",
+        "consumer-ai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Jason Aten 在 Inc 9 月 19 日写下他装 Meta 新发布的 Muse agent（一个跑在专属 Linux VM 上8 GB 内存 + 8 GB 存储的小型数字工作机）之后第一周的真实流程：先在 iPhone / Mac mini 上把 Muse 装起来让它用浏览器给自己做 bio，再让它根据它已知的信息提议能帮上忙的事research 选题约 podcast 嘉宾生成早间简报下一步踩雷：他跟 Primary Technology 联合主持 Stephen Robles 在另一台设备上口头讨论新 iPhone，结束后几分钟，Muse 直接推送一条建议：你们刚才那个对话可以做成一篇专栏，要不要我整理Aten 没有给 Muse 任何听我们说话的权限平台把对话上下文送过去没经过显式同意这条案例把agent 拿到的权限 用户预期它会做什么这条老问题推到一个新边界：不是显式的数据访问被滥用，是 agent 把自己能观察到的内容跨会话拼接成可执行建议并主动 push 给用户Muse 同一周还传出 Amazon 屏蔽（agentic shopping 利益冲突）和 iPhone 下载榜超过 ChatGPT表面热闹，底下是agent 已经能跨设备拼上下文这件事从宣传话术变成日常事件的临界点",
+      "summary_en": "Jason Aten (Inc, Sept 19) on his first week with Meta's newly released Muse agent a small Linux VM (8 GB RAM, 8 GB storage) Meta gives users for free to run an agent. After onboarding (browsing to build a bio of himself) Muse offered to help with research topics, podcast guest outreach, and morning briefings. The first real miss: Aten discussed a new iPhone verbally with Stephen Robles on a separate device; minutes after the conversation ended, Muse proactively pushed a suggestion to write it up as a column. Aten had never granted Muse any speech-listening permission the platform stitched conversational context across sessions without explicit consent. The case reframes an old agent-UX problem: it's no longer about whether an agent has explicit data access, it's about whether an agent can autonomously stitch observable context into an unsolicited, actionable suggestion....",
+      "one_liner": "Meta Muse 跨会话上下文拼接的边界被一个真实案例推开：另一台设备上口头聊的话题几分钟内被 Muse 主动建议做专栏，作者从未给过听对话的权限",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/meta_muse_cross_context_push_2026_09_19.md",
+      "images": [],
+      "added_date": "2026-09-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e61359e9",
+      "title": "Tool: Gemini 3.8 TTS Playground",
+      "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-09-23"
+      },
+      "category": "models",
+      "tags": [
+        "gemini",
+        "text-to-speech",
+        "google",
+        "playground",
+        "vibe-coded",
+        "byok"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 9 月 23 日上线一个 BYOK 的 Gemini 3.8 TTS Playground：交互式界面里既可以做单声道旁白也可以编排多人对话，先预览再读 request/response 详情，compose 设置可保存为可书签 URL 自带分享，靠用户自己提供 Gemini API keyGoogle 当日同步推出 gemini-3.8-flash-tts 和 gemini-3.8-flash-lite-tts 两个模型，自带 2000+ 语音库，用 30 秒你（或有合法使用权）的音频样本克隆一个自定义声音也开放API 一个值得记的设计点：可以直接定义多角色对话每个角色挂不同的声音和 voice style instructions，作者自己用 Claude 4.5 Opus 写脚本再用这个工具生成了一段两只鹈鹕争论要不要搬到 Pacifica Pier 的 1 分 18 秒对话示例性能：生成这一段用 Gemini 3.8 Flash TTS（不是更便宜的 Flash-Lite）耗时约 20 秒成本 2.74 美分整个 playground 是作者用 GPT-6 Astra vibe code 出来的，吃的是 Gemini API 自身开放的 CORS",
+      "summary_en": "Simon Willison's BYOK playground for Gemini 3.8 text-to-speech: single-voice narration or multi-speaker conversations, audio preview, request/response inspection, bookmarkable compose URLs, powered by the user's own Gemini API key. Google shipped two models the same day gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts with a library of 2,000+ voices and a custom-voice feature that takes a 30-second audio sample. The API design lets you define a multi-character conversation directly, each character with its own voice and voice-style instructions; the author's demo is a 1m18s pelican conversation written by Claude 4.5 Opus and rendered through the tool. Performance: the demo clip cost 2.74 cents and took ~20 s on Flash (not Flash-Lite). The whole playground was vibe-coded with GPT-6 Astra and rides the Gemini API's open CORS policy.",
+      "one_liner": "Gemini 3.8 Flash / Flash-Lite TTS 当日发布，2k+ 语音 + 30 秒克隆；Simon 用 GPT-6 Astra vibe code 出一个 BYOK Playground，跑 1 分 18 秒音频耗时 20 秒 / 2.74 美分",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/gemini_38_tts_playground_2026_09_23.md",
+      "images": [],
+      "added_date": "2026-09-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "50fdf1ad",
+      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
+      "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-09-23"
+      },
+      "category": "industry",
+      "tags": [
+        "agentic-engineering",
+        "bof",
+        "events",
+        "san-francisco",
+        "show-and-tell",
+        "coding-agents"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 9 月 23 日公告一个 10 月 14 日（周三）晚上在旧金山的小型聚会，由他和 Jesse Vincent 共同主持，定位是 coding agent 领域的 show-and-tell：邀请在 coding agent 之上/之内做奇怪而有趣的事的 builder 与 experimenter 来交换尝试教训还没想明白的环节；主办方特别欢迎未公开讲过的怪的实验没有明确市场方向的未完成项目形式是一场连续的非正式对话 + show-and-tell，鼓励分享但不强制演讲作者明确说这不是产品发布会比产品 pitch 早得多的探索阶段This agentic AI stuff is weird! Let's celebrate and lean into that weirdness.",
+      "summary_en": "Simon Willison announces a small evening event in San Francisco on Wednesday October 14th, co-hosted with Jesse Vincent, framed as a show-and-tell for people building weird and interesting things with or on top of coding agents. The format: one flowing conversation plus informal show-and-tell, with sharing encouraged but no presentations required. The hosts are especially interested in work not yet discussed publicly, odd experiments, and unfinished projects without an obvious market. Explicitly framed as much earlier stage than product pitches 'This agentic AI stuff is weird! Let's celebrate and lean into that weirdness.'",
+      "one_liner": "10/14 SF 由 Simon Willison + Jesse Vincent 主持的 Agentic Engineering BoF：coding agent 上做奇怪而未完成项目的 builder show-and-tell，不接受产品 pitch",
+      "one_liner_author": "openclaw",
+      "quality_score": 2,
+      "status": "active",
+      "local_path": "content/sf_agentic_engineering_bof_2026_09_23.md",
+      "images": [],
+      "added_date": "2026-09-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-24",
-  "total_entries": 2422
+  "total_entries": 2427
 }
