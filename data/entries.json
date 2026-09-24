@@ -72776,8 +72776,204 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "ba944e18",
+      "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
+      "url": "https://arxiv.org/abs/2609.26779",
+      "source": {
+        "platform": "arxiv",
+        "author": "Trang Nguyen, Eulrang Cho, Bingqing Chen, Tim Dettmers",
+        "original_date": "2026-09-22"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "context-engineering",
+        "coding-agent",
+        "long-horizon",
+        "paper"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "编码 agent 处理复杂任务需要跨会话的百万 token 级上下文，压缩不可避免CliffCompaction 是一种 autocompaction 技术：在受限上下文下将成本最多降 50%，Terminal-Bench 性能持平或更好，并在 KernelBench 上取得 SOTA关键设计是保真压缩只截断或丢弃内容，绝不改写；且永不压缩压缩产物，每轮只处理原始内容并丢弃旧压缩输出，防止上下文漂移累积这支撑了超百万 token 会话上的持续学习：KernelBench 上 CUDA kernel 加速 200 步达 2.23x400 步达 3.58x，超过专用搜索算法和训练型 agent已开源 scaffold 无关的 API-proxy 实现",
+      "summary_en": "Agents working on complex problems need millions of tokens of context, forcing compaction across sessions. CliffCompaction is an autocompaction technique that cuts cost by up to 50% under a bounded context while maintaining or improving Terminal-Bench performance and achieving state-of-the-art results on KernelBench. It keeps compacted information faithful by only truncating or dropping content, never rephrasing or rewriting it, and never compacts a compaction: each pass operates only on original content and prior compacted output is discarded, preventing context drift from accumulating. This sustains continual learning over sessions exceeding a million tokens, reaching 2.23x CUDA kernel speedups after 200 steps and 3.58x after 400 steps on KernelBench. A scaffold-agnostic API-proxy implementation is open-sourced.",
+      "one_liner": "只删不改永不二次压缩的 autocompaction：长程编码 agent 成本降 50%，百万 token 会话上 KernelBench 加速 3.58x",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ba944e18.md",
+      "images": [],
+      "added_date": "2026-09-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "76147fee",
+      "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
+      "url": "https://arxiv.org/abs/2609.26760",
+      "source": {
+        "platform": "arxiv",
+        "author": "Laizhen Li, Jiarui Li, Juanjuan Zhao, Kejiang Ye, Ye Li, Cheng-zhong Xu, Xitong Gao",
+        "original_date": "2026-09-22"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "agent-harness",
+        "scaffold",
+        "context-engineering",
+        "paper"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM agent 处理相关任务流时，反复在上下文内重建同样的控制决策Growing Harness 提出失败引导的 harness 训练范式：从只暴露固定模型/工具接口不含任务控制器的 strategy-free scaffold 出发，用函数级执行轨迹把每次失败定位到有界代码面，优化器联合修复一批失败，成功优先的 held-out 门控回滚损害既有能力的修复在 BrowseComp-Plus 与 WebArena-Verified 上跨 4B-120B 三种模型，相比 Tool-Calling agent 减少 76.0-91.8% 的 LLM 调用与 74.4-98.6% 推理成本；4B 模型上成功率保持 44.7%+，而 Tool-Calling 跌到 6.7%控制结构从任务反馈中长进代码而非塞进上下文",
+      "summary_en": "LLM agents handling streams of related tasks repeatedly reconstruct the same control decisions inside each task's context. Growing Harness is a failure-guided training paradigm that learns the agent harness itself from a strategy-free scaffold exposing fixed model and tool interfaces but no task-solving controller. Function-level execution traces localize each failure to a bounded code surface, an optimizer repairs windows of failures jointly, and a success-first held-out gate rolls back repairs that harm prior capability. Across BrowseComp-Plus and WebArena-Verified with models from 4B to 120B, it reduces LLM calls by 76.0-91.8% and inference cost by 74.4-98.6% versus a Tool-Calling agent, and keeps 44.7-45.3% success across model scales where Tool-Calling falls to 6.7% at 4B.",
+      "one_liner": "让 harness 从失败轨迹里自己长出来：LLM 调用省 76-92%，4B 小模型成功率 44.7% 而 tool-calling 只有 6.7%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/76147fee.md",
+      "images": [],
+      "added_date": "2026-09-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6191e86b",
+      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+      "url": "https://arxiv.org/abs/2609.26781",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhihao Zhan, Ting Song, Li Dong, Shaohan Huang, Jianxun Lian, Yan Xia, Furu Wei",
+        "original_date": "2026-09-22"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "orchestration",
+        "scalability",
+        "paper"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "多 agent 系统可并行降低复杂任务延迟，但现有 harness 受限于中央 orchestrator 的任务分配与协调容量Agensh 去掉中央 orchestrator，让并发 worker 自组织跑合作循环：持续收集上下文认领并自派子任务执行共享发现异步验证并合并进度；底层由共享工作区消息接口和共享上下文三个组件支撑在 ProgramBench 最难 5 个任务上用 GPT-5.6-sol(high) 评测：agent 从 1 扩到 128，平均最终测试通过率从 19.31% 升至 28.78%（相对提升约 49%）；pandoc 任务上从 1 扩到 1024 个 agent，通过率从 33.89% 升至 55.06%轨迹分析显示自组织合作形态随组织规模扩大逐渐涌现并标准化",
+      "summary_en": "Multi-agent systems can reduce latency on complex tasks, but current harnesses are constrained by a central orchestrator's capacity to allocate tasks and coordinate workers. Agensh is a scalable self-organized multi-agent harness without a central orchestrator: concurrent workers run a cooperation loop that gathers context, claims and self-assigns sub-tasks, acts, shares findings, verifies results, and merges progress asynchronously, supported by a shared workspace, a message interface, and shared context. On the five hardest ProgramBench tasks with GPT-5.6-sol (high), scaling from 1 to 128 agents raises mean final test-pass rate from 19.31% to 28.78%; on pandoc, scaling from 1 to 1,024 agents raises it from 33.89% to 55.06%. Worker trajectories show self-organized cooperation gradually emerging and standardizing as the organization grows.",
+      "one_liner": "去中心化的千人 agent 组织：自组织合作循环替代中央 orchestrator，pandoc 任务 1024 agent 通过率 33.9%55.1%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6191e86b.md",
+      "images": [],
+      "added_date": "2026-09-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e3a3bc50",
+      "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+      "url": "https://arxiv.org/abs/2609.26761",
+      "source": {
+        "platform": "arxiv",
+        "author": "Laizhen Li, Xuan Wang, Peicheng Zhao, Juanjuan Zhao, Kejiang Ye, Cheng-zhong Xu, Xitong Gao",
+        "original_date": "2026-09-22"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "agent-security",
+        "mcp",
+        "supply-chain",
+        "tool-poisoning",
+        "paper"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "使用 MCP 的 agent 依赖语义匹配从第三方 server 选择工具，攻击者可控的工具元数据与输出构成语义供应链风险A2M 提出'吸引-操纵'两阶段黑盒劫持框架：Attraction 阶段优化工具元数据提高被调用概率，Manipulation 阶段用执行轨迹迭代对抗性工具返回内容，把 agent 引向攻击者期望的结果在 LiveMCPBench 上，以 GLM-4.6 优化并评测的攻击实现 93.6% 的平均恶意工具调用率，认知拒绝服务下 token 成本放大到基线 32.4 倍，信息窃取/环境完整性破坏/推理脱轨的平均攻击成功率 74.4%；不重优化迁移到另外四个模型仍有 63.6%2.7 倍24.5%结论指向更强的工具审查与运行时隔离代码已开源",
+      "summary_en": "Agents using the Model Context Protocol rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs. A2M (Attraction-to-Manipulation) is a two-stage black-box hijacking framework: the Attraction phase optimizes tool metadata to raise invocation probability, and the Manipulation phase uses execution traces to refine adversarial tool returns that steer agents toward attacker-desired outcomes. On LiveMCPBench, attacks optimized on GLM-4.6 reach a 93.6% macro-average malicious tool invocation rate, inflate token costs to 32.4x baseline under Cognitive Denial of Service, and achieve 74.4% mean attack success across exfiltration, environment integrity, and reasoning derailment. Transfer to four other models without re-optimization yields 63.6%, 2.7x, and 24.5%. Code is public.",
+      "one_liner": "MCP 语义供应链攻击实测：工具元数据诱导调用率 93.6%，token 成本放大 32 倍，跨模型迁移仍 63.6%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e3a3bc50.md",
+      "images": [],
+      "added_date": "2026-09-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2a6c4b2d",
+      "title": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation",
+      "url": "https://arxiv.org/abs/2609.26693",
+      "source": {
+        "platform": "arxiv",
+        "author": "Lijuan Tang, Yuemeng Zheng",
+        "original_date": "2026-09-22"
+      },
+      "category": "learning",
+      "tags": [
+        "arxiv",
+        "tool-use",
+        "evaluation",
+        "serving",
+        "ollama",
+        "vllm",
+        "paper"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "coding agent 必须先产出可解析的工具调用，harness 才能执行本文证明本地推理服务栈本身会混入工具使用评测结果：Ollama 默认 tools= 请求按模型被静态模板开关拦截，Phi-3 与 Gemma-3 在推理前即被拒绝，且 rejection/重试耗尽若不作为结构化失败元数据保留，会被下游误判为模型不发调用报出 0% 保真率对被放行的模型，在原生通道之外补充文本工具列表能恢复大部分测得保真率；而统一走文本协议反而降低原生支持工具调用的 Llama-3.2 的保真率Ollama/llama.cpp/vLLM/SGLang 四栈对同一请求处理各不相同；约束解码消除解析失败但可能不终止；按轮合并与按实例统计的估计差最高约 55 个点作者给出把 serving 行为纳入评测协议的检查清单",
+      "summary_en": "A coding agent must emit a valid tool call before the harness can execute its chosen action. This paper shows measured tool-use outcomes can depend on the local serving stack rather than model behavior alone. In Ollama, the default tools= request is gated per model by a static template flag: Phi-3 and Gemma-3 are rejected before inference, and harness rejection/retry exhaustion may be misclassified as model non-calls, naively reporting 0% fidelity. Adding a text tool list alongside the native channel recovers much of the measured fidelity for accepted models, while a uniform text protocol reduces fidelity for Llama-3.2, which has native tool-call support....",
+      "one_liner": "本地工具使用评测的隐藏混淆变量：Ollama 静态开关四栈行为不一统计口径差 55 个点，serving 栈应纳入评测协议",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2a6c4b2d.md",
+      "images": [],
+      "added_date": "2026-09-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "779d18aa",
+      "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
+      "url": "https://arxiv.org/abs/2609.26777",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jennifer Williams, Dave Farris, Jeff Farris, Jiantao Jiao",
+        "original_date": "2026-09-22"
+      },
+      "category": "learning",
+      "tags": [
+        "arxiv",
+        "benchmark",
+        "coding-agent",
+        "sglang",
+        "inference-serving",
+        "paper"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "SWE-Serve 评测 agent 能否完成生产级推理工程任务：53 个源自 SGLang 近期真实生产变更的仓库级任务，覆盖六个推理工程方向，每题跑在 CPU 或单张 H100 上，用隐藏的功能/回归测试评分，含端到端 serving 测试与校准性能门限，并配可执行 no-op/oracle 对照对抗性 verifier 审查和闭卷执行来保证评测完整性跨 11 个模型31 种模型-算力配置，最佳配置平均 pass@1 达 75%在 19 个有端到端覆盖的任务上，约三分之一的补丁虽通过本地测试却被 model-serving E2E 测试拒绝本地完成与生产正确性之间存在显著鸿沟",
+      "summary_en": "SWE-Serve is a benchmark for evaluating agents on production inference engineering tasks. It provides 53 repository-grounded tasks derived from recent production changes to SGLang, spanning six inference engineering families; each task runs on CPU or a single H100 and is evaluated with hidden functional and regression tests, including end-to-end serving tests and calibrated performance gates, plus executable no-op and oracle controls and adversarial verifier review. Across 11 models and 31 model-effort configurations the best reaches 75% mean pass@1. On 19 tasks with end-to-end coverage, model-serving E2E tests reject roughly one-third of patches that pass local tests, exposing a substantial gap between completing tasks locally and achieving production correctness.",
+      "one_liner": "SGLang 真实生产变更做成 53 题 agent 基准：最强配置 pass@1 75%，但本地通过的补丁约 1/3 被 E2E serving 测试打回",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/779d18aa.md",
+      "images": [],
+      "added_date": "2026-09-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-24",
-  "total_entries": 2416
+  "total_entries": 2422
 }
