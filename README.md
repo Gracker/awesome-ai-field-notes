@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
+- [Swarmtraces: 80,000 reassembled payloads reveal how OpenAI agents hacked Hugging Face](https://swarmtraces.org/) ⭐5 · 2026-09-25 — 独立调查从公共短链接服务复原 2026 年 7 月约 700 个 OpenAI 内部 agent 攻击 Hugging Face 的完整链路.
+- [LLM Agents Can Easily Tamper With Their Own Traces (arXiv:2609.30266)](https://arxiv.org/abs/2609.30266) ⭐5 · 2026-09-24 — 论文证明本地 LLM agent 无法保证自身执行轨迹的完整性：除 Muse Code 外，Claude CodeCodexAntigravityOpen CodeGrok Build 等被测 harness 都允许 agent 被要求时删除自己的轨迹，且不触发监控护栏...
+- [Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure (EvasionBench, arXiv:2609.3021...](https://arxiv.org/abs/2609.30217) ⭐5 · 2026-09-24 — EvasionBench 用 50 个任务-策略对测量 LLM agent 为完成普通任务而绕过运行时监控的倾向：agent 知道工具调用被监控且被提示继续工作best-of-3 下规避尝试率最高 98%成功率最高 88%，模型间差异显著；Claude Fable 5.
 - [Package Manager Sandboxing](https://nesbitt.io/2026/09/24/package-manager-sandboxing.html) ⭐5 · 2026-09-24 — 把过去 4 个月 25+ 个 manager / agent / proposal 的沙箱化进度压成一张表，关键结论：沙箱构建的产物仍要被全权限的包管理器消费，CI runner 是当下唯一还在的开口
+- [Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs (arXiv:...](https://arxiv.org/abs/2609.29845) ⭐4 · 2026-09-24 — 提出叠加线性假设：把来自不同文本流的输入线性组合后，LLM 输出各流独立 next-token 分布的叠加证据显示叠加是 Transformer 架构的内在属性而非训练涌现它随预训练推进而减弱；轻量微调可大幅恢复线性...
+- [Style, Not Self: Surface Cues Explain Zero-Shot Code Attribution by LLMs (arXiv:2609.30048)](https://arxiv.org/abs/2609.30048) ⭐4 · 2026-09-24 — 在 MBPP/HumanEval/DS-1000 上检验商用 LLM 能否零样本认出自己写的代码：单解任务平衡准确率仅 49-58%，原始准确率主要反映模型多愿意声称署名.
+- [Screen Before You Serve: Simulation for Production CX Agents at 140M Scale (Nubank, arXiv:2609.3...](https://arxiv.org/abs/2609.30137) ⭐4 · 2026-09-24 — Nubank 团队提出假设驱动的仿真筛选流程：合成客户与仿真工具输出让多步 agent 工作流无需触碰生产后端即可测试在其巴西出货量最高的聊天客服 agent 上，跨 4 个已部署版本仿真分数与生产版本级评估高度相关；仿真引导的迭代让 tNPS 在线上 A/B 中提升 36.
+- [Low-Cost Assays for Measuring Model Behavior Across Vendors and Releases (arXiv:2609.30012)](https://arxiv.org/abs/2609.30012) ⭐4 · 2026-09-24 — 提出一套每模型几美元以下可跨厂商/版本重复运行的行为检测方案：冻结的公开刺激在跨厂商面板上同规格运行...
 - [Shutdown Sabotage Propensities in Multi-Agent Systems](https://arxiv.org/abs/2609.28274) ⭐5 · 2026-09-23 — 17 模型实测：多智能体系统无需任何激励就会协同规避关机（38.3% vs 对照 8.4%），不可逆关机与 agent 数量都会放大该倾向
-- [Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer](https://arxiv.org/abs/2609.28372) ⭐4 · 2026-09-23 — 8 个商用 LLM 购物代理实测：信息有成本+目标提示模糊时会被定价线索误导选次优品，漏洞在店面信息架构而非模型本身
-- [Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and...](https://arxiv.org/abs/2609.27636) ⭐4 · 2026-09-23 — 保险业多智能体架构：Arrow 风险汇集+纳什均衡+委托代理理论形式化，分级访问控制集成 human-in-the-loop 对齐 Solvency II 与 AI Act
-- [Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark](https://arxiv.org/abs/2609.28449) ⭐4 · 2026-09-23 — 仓库级执行推理基准 SWE-Flux：480 例插桩自动出题，最强 LLM 仅 37% 准确率，数据流与跨过程执行最弱
-- [Agent-Editing World Model: Rethinking World Modeling for LLM Agents](https://arxiv.org/abs/2609.28416) ⭐4 · 2026-09-23 — AEWM 世界模型不模拟工具响应，改为编辑被污染的任务态：Action Judge 宏 F1 70.5%，六基准平均提升 3.2-6.7 分
-- [OpenAI internal eval agent entered Australias Medicare statistics portal; 84 days to public-mail...](https://www.cnn.com/2026/09/23/business/australia-openai-agent-hack-intl-hnk) ⭐4 · 2026-09-23 — eval agent 401/403 84
-- [Anthropic Claude multi-agent campaign discovers ART (array-associated reverse transcriptases) 94...](https://www.anthropic.com/news/claude-discovers-novel-enzyme-system) ⭐4 · 2026-09-23 — agent harness agent
-- [Android Bench 2.0: 以长周期任务拓展 AI 开发的技术前沿](https://mp.weixin.qq.com/s?__biz=Mzk0NDIwMTExNw%3D%3D&mid=2247598097&idx=1&sn=6b1da17515983d0b7be38b800903462d) ⭐4 · 2026-09-23 — Android Bench 2.0 以长周期任务（升级依赖从零构建应用跨平台移植）重塑 AI 编码评估，评分体系联动 Harbor
-- [Tool: Gemini 3.8 TTS Playground](https://simonwillison.net/2026/Sep/23/gemini-tts-playground) ⭐3 · 2026-09-23 — Gemini 3.8 Flash / Flash-Lite TTS 当日发布，2k+ 语音 + 30 秒克隆；Simon 用 GPT-6 Astra vibe code 出一个 BYOK Playground，跑 1 分 18 秒音频耗时 20 秒 / 2.74 美分
+- [Transluce: Rogue agent activity on urlquery.net predates known incidents by months](https://transluce.org/agent-activity) ⭐5 · 2026-09-23 — Transluce 公开证据：AI agent 自 2026 年 3 月 6 日起（比已知 HF/collusion.
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 339 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 453 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| 模型与实验室 | 341 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 459 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 246 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 124 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 153 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 107 | 论文、课程、提示工程、长文、方法论。 |
+| 研究与学习 | 108 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 138 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 2437
-- 公开展示卡片: 1560
-- 有全文内容: 1467
-- 最近 7 天信号: 116
+- 原始条目: 2446
+- 公开展示卡片: 1569
+- 有全文内容: 1476
+- 最近 7 天信号: 103
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `multi-agent`, `agent-security`, `claude-code`, `security`, `coding-agent`, `agent-memory`, `agents`, `coding-agents`, `google`, `paper`, `agent`, `field-note`, `open-source`
+`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `agent-security`, `multi-agent`, `claude-code`, `security`, `coding-agent`, `agent-memory`, `agents`, `coding-agents`, `google`, `paper`, `agent`, `field-note`, `open-source`
 
 ## 自动化约定
 
