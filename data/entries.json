@@ -74427,8 +74427,238 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "7b7c973c",
+      "title": "Minimally Invasive Steering of Language Models",
+      "url": "https://arxiv.org/abs/2609.30218",
+      "source": {
+        "platform": "arxiv",
+        "author": "Taha Entesari et al.",
+        "original_date": "2026-09-24"
+      },
+      "category": "models",
+      "tags": [
+        "steering",
+        "rlhf",
+        "preference-optimization",
+        "kl-regularization",
+        "fisher-information",
+        "code-generation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.30218 提出 MISVO（Minimally Invasive Steering Vector Optimization）：在冻结语言模型的最后隐藏态上加入可学习向量做 test-time reward 适配，并用 token 分布的局部 KL 几何（Fisher quadratic）做正则，避免 steering 把输出分布拖走作者推导出序列级 KL 梯度的精确分解：一个解析 Fisher 项 + 一个后缀 score-function 项；固定生成长度时后缀项是 steering 量级的二阶，三个 Fisher 代理与全 KL 梯度一阶吻合MISVO 用 frozen-reference 代理在不更新模型参数的情况下做 position-specific steering；在 1B14B 偏好与代码生成任务上，七个 model-task 组合里六项 mean reward 最高，多样性与连贯性接近 Best-of-N",
+      "summary_en": "arXiv 2609.30218 introduces MISVO, which adapts a frozen LM at test time by adding position-specific steering vectors regularized with a Fisher-quadratic KL surrogate, decomposes the sequence-level KL gradient into an analytic Fisher term plus a second-order suffix term, and reports the highest mean reward on six of seven model-task combinations across 1B14B preference and code-generation settings without updating base parameters.",
+      "one_liner": "把 steering 当成 KL 受约束的最优化：MISVO 用 Fisher surrogate 让 pre-logit steering 不再变形",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7b7c973c.md",
+      "images": [],
+      "added_date": "2026-09-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8eff8c5c",
+      "title": "The Alignment Illusion in Multimodal Large Language Models",
+      "url": "https://arxiv.org/abs/2609.30210",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hong-Han Wang, Yuntao Wang, Hu Ding",
+        "original_date": "2026-09-24"
+      },
+      "category": "infra",
+      "tags": [
+        "multimodal",
+        "mllm",
+        "interpretability",
+        "cka",
+        "principal-angle-gap",
+        "neurips-2026"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.30210（NeurIPS 2026 接收）挑战一个流行读法：MLLM 逐层 visual-text similarity 上升并不代表视觉信息被渐进整合到共享表征空间作者在 13 个跨 0.5B72B五大家族的 MLLM 上做控制干预用高斯噪声替换 projector 输出的视觉 token 让任务精度骤降但 CKASVCCAMIR 和首主夹角余弦这四种标量相似度都无法稳定区分被破坏流与原流他们称此为 alignment illusion，溯源到共享语言模型通路：各向异性 MLP 下投影把视觉与文本 token 一起拉到公共输出方向，产生权重诱导对齐论文提出 principal-angle gap（首二主夹角余弦差）来分离权重诱导相似度与多向视觉结构，并在梯度化视觉破坏下比四种标量更稳定地跟踪任务精度",
+      "summary_en": "arXiv 2609.30210 (NeurIPS 2026) tests the assumption that layer-wise visual-text similarity in MLLMs reflects content-level cross-modal interaction: across 13 MLLMs from five families (0.5B72B), replacing projector visual tokens with Gaussian noise collapses task accuracy yet CKA, SVCCA, MIR, and top principal-angle cosine fail to separate the corrupted stream from the original. The authors trace this alignment illusion to anisotropic MLP down-projections and propose a principal-angle gap that tracks task accuracy more reliably under graded visual corruption.",
+      "one_liner": "MLLM 各层 visual-text 相似度可能是权重诱导的幻觉，PA gap 把它与真正视觉结构分开",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8eff8c5c.md",
+      "images": [],
+      "added_date": "2026-09-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c17c3706",
+      "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+      "url": "https://arxiv.org/abs/2609.30199",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ming Zhang et al.",
+        "original_date": "2026-09-24"
+      },
+      "category": "learning",
+      "tags": [
+        "benchmark",
+        "exploration",
+        "scientific-discovery",
+        "agent-evaluation",
+        "verifiable-environments"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.30199 提出 ExplorationBench，把\"科学探索能力评估\"这一 wicked problem 落到可执行的\"Alien Worlds\"上：规则可执行 每条答案可被精确验证；规则与先验知识冲突 单凭预训练召回无法解题基准包含两个沙盒 AlienCode（31 个发现目标 / 70 任务）和 AlienLogic（24 / 70），各自附带一份有缺陷的手册任务级环境反馈和专用 tool-call schema，要求系统用它们去探索沙盒并解决 held-out 任务评测 10 个 AI 系统后，最强系统确实能习得并应用陌生规则，但不同轨迹间表现差异很大，且持续探索会让早期收益停滞甚至回退，是朝向\"能真正获得新知识\"的 AI 系统迈出的一步",
+      "summary_en": "arXiv 2609.30199 turns scientific-exploration evaluation into a tractable benchmark built on verifiable Alien Worlds (rules are executable, conflicting with prior knowledge). It ships two sandboxes AlienCode (31 discovery targets / 70 tasks) and AlienLogic (24 / 70) each with a flawed manual and tool-call schema, evaluates 10 AI systems, and shows that the strongest can acquire and apply unfamiliar rules but performance varies across trajectories and continued exploration can stall or reverse earlier gains.",
+      "one_liner": "用 Alien Worlds 把\"AI 能不能做科学发现\"做成可执行可验证的基准",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c17c3706.md",
+      "images": [],
+      "added_date": "2026-09-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "193ae84c",
+      "title": "JevOut: Natural Context Can Flip Decision Models",
+      "url": "https://arxiv.org/abs/2609.30243",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zixiang Xu",
+        "original_date": "2026-09-24"
+      },
+      "category": "models",
+      "tags": [
+        "decision-models",
+        "jailbreak",
+        "adversarial-context",
+        "probabilistic-routing",
+        "tool-routing"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.30243 关注 Jev 这类把无结构语言直接映射为有限选项概率分布的决策模型（其概率输出会被直接用于路由请求选 tool触发动作）作者发现：看似自然短小的上下文补充可以把这些\"原本答对的\"决策模型拐到错误选项，即便正确答案没变他们为每个原本答对的样本固定一个错误目标选项，用模型在选项上的概率反演地优化出既流畅又保留原文/问题/选项/金标的上下文在 64 个被接受的 target 评估里，Jev 在 312/508（61.4%）原本正确的决策上被改向，其中 229 例错误选项概率 0.7；跨 7 个数据集3 个其他决策系统，针对性 flip 率 64.9%73.2%结论：当前决策模型对自然上下文的脆弱性已经不能把它们的概率输出当作可靠路由信号",
+      "summary_en": "arXiv 2609.30243 studies decision models like Jev that map language directly to option probabilities used for routing and tool selection, and shows that short natural-looking context additions can flip originally correct choices without changing the gold answer: 61.4% (312/508) of Jev's originally correct decisions were redirected in 64 evaluations, with 229 cases assigning 0.7 probability to the fixed wrong option; targeted flip rates across 7 datasets and 3 additional decision systems range 64.973.2%.",
+      "one_liner": "Jev 这类决策模型的概率输出可以被自然上下文改向：路由层 agent 的可靠性是新裂缝",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/193ae84c.md",
+      "images": [],
+      "added_date": "2026-09-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e5b2f7ab",
+      "title": "Does a model's stated reason for rejecting a candidate do any work?",
+      "url": "https://arxiv.org/abs/2609.30151",
+      "source": {
+        "platform": "arxiv",
+        "author": "Archit Rastogi",
+        "original_date": "2026-09-24"
+      },
+      "category": "learning",
+      "tags": [
+        "interpretability",
+        "explanation",
+        "contrastive-test",
+        "2wikimultihopqa",
+        "llm4xai-2026"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.30151（LLM4XAI 2026 oral）把\"模型拒绝某候选时引用的那条事实\"当作可独立检验的声明：在 2WikiMultihopQA 上挑出被模型点名的\"缺失事实\"，再把一条真实语料句子插回 rival 的 profile 重新用 greedy decoding 提问控制项同时安排同长度不相关句子插同一处以及把这两条句子插到一个模型从未点名的第三个选项上最大规模的一轮实验中，6 个开源模型在\"named 位置补回 named fact\"时对手选项被改向的幅度显著高于无关控制（odds ratio 3.57 [1.54, 8.26]，Holm p=0.0210），并对单模型 drop-out 鲁棒；而同一事实放在\"无人点名\"的选项处不再显著（Holm p=0.2428）最强信号其实是无关句的位置效应：相同无关句在 named rival 处比在第三选项处改向幅度更大（Holm p=0.0008）内容效应被协同候选提及关系模板和流畅度差异部分解释，作者主张这是一条\"以内容对比为界的效应\"",
+      "summary_en": "arXiv 2609.30151 (LLM4XAI 2026 oral) tests whether a model's stated reason for rejecting a rival is a load-bearing claim: on 2WikiMultihopQA, supplying the named fact at the profile the model named moves its choice more than an irrelevant length-matched control (OR 3.57 [1.54, 8.26], Holm p=0.0210) across 6 open models, while the same fact at a third option the model never mentioned does not clear correction. The strongest single contrast is positional rather than content the identical irrelevant sentence moves the choice more at the named rival than at the third option (Holm p=0.0008).",
+      "one_liner": "把 LLM 的拒绝理由当成可证伪命题：2WikiMultihopQA 上\"named 位置 + named fact\"显著改向，位置而非内容才是最强信号",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e5b2f7ab.md",
+      "images": [],
+      "added_date": "2026-09-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a365d26f",
+      "title": "Ember-1: a Kimi K3 reasoning model with 40% fewer tokens",
+      "url": "https://fireworks.ai/blog/ember-1",
+      "source": {
+        "platform": "blog",
+        "author": "Fireworks Research",
+        "original_date": "2026-09-23"
+      },
+      "category": "models",
+      "tags": [
+        "kimi-k3",
+        "reasoning-compression",
+        "fireworks",
+        "specialized-model",
+        "cost-quality-frontier",
+        "bedside-bench"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Fireworks Research 9 月 23 日发布 Ember-1：在 Kimi K3 基础上训练的专用模型，号称比 K3 输出 token 减少约 40%，多项外部基准两个付费客户的线上 A/B 测试与自家编码/agent 工作负载上质量持平团队观察到 K3 在生成 token 上有超过 90% 实际用于内部推理，而多轮 agent 工作流会把历史推理完整回灌，导致上下文随轮次近似二次增长Fireworks 跑了 50+ 训练实验和 200+ 评估（在 Serverless Training 平台上完成），保留必要的反思性推理并裁掉冗余循环，跨数学编码指令跟随对话搜索tool use 与软件工程任务做混合训练以让\"省 token\"行为可泛化在 Specialized Intelligence Index 的 Doxity Bedside Bench 上 Ember-1 在 cost/task 维度对开源/闭源模型（含 GPT-5.6 SolGPT-6 AstraClaude Opus 5）立起新的 Pareto 前沿；Terminal Bench 2.1 82.0%（vs K3 max 80.9%）SWE-bench Verified 92.2%（vs 93.2%）可作为\"在不大改模型结构前提下压缩推理开销\"的工业样本",
+      "summary_en": "Fireworks Research shipped Ember-1 on Sep 23, a Kimi K3-specialized model trained to cut ~40% of output tokens while preserving K3 quality across external benchmarks, two customer live A/B tests, and Fireworks' own coding/agent workloads; training used Serverless Training across math, coding, instruction following, conversation, search, tool use, and software engineering tasks. On the Doximity Bedside Bench slice of the Specialized Intelligence Index, Ember-1 sets a new cost/task Pareto frontier over GPT-5.6 Sol, GPT-6 Astra, and Claude Opus 5, with Terminal Bench 2.1 at 82.0% (vs K3-max 80.9%) and SWE-bench Verified at 92.2% (vs 93.2%).",
+      "one_liner": "Fireworks 用 K3 的\"省 token\"训练让推理成本腰斩，是工业级推理压缩的现成样本",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a365d26f.md",
+      "images": [],
+      "added_date": "2026-09-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "22159f2c",
+      "title": "Imp: declarative self-improving language-model programs for Elixir/BEAM",
+      "url": "https://github.com/deepfates/imp",
+      "source": {
+        "platform": "github",
+        "author": "deepfates",
+        "original_date": "2026-09-27"
+      },
+      "category": "coding",
+      "tags": [
+        "elixir",
+        "beam",
+        "dspy",
+        "gepa",
+        "declarative-llm",
+        "agents",
+        "optimizers",
+        "process-model"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "deepfates/imp 是把 DSPy 全量移植到 BEAM（Elixir/Erlang 虚拟机）上的项目：开发者用 signature 声明\"输入 输出字段\"（如 issue -> kind: enum[bug,feature,question], summary），由 Imp 生成 prompt解析并做字段校验，全程不需要手写提示词或解析器；predict / chain_of_thought / react 三种模块风格覆盖单次推理与多步 tool 调用；BEAM 上的 agent 是独立进程，自带 state可被 supervisor 接管优化器侧覆盖 GEPA（读失败重写指令）LabeledFewShot / BootstrapFewShot（挑样例）MIPROv2（搜索指令+样例组合）SIMBA（从自身尝试里学规则与样例）以及 fine-tuning / GRPO，且优化产物可读可存为 JSON可走 diff reviewImp.call/2 在调用者进程跑，Imp.start_run/3 把同一程序跑成独立 supervised 进程，配合 authorize 回调可以细粒度允许/拒绝每一次 tool call是声明式 LLM 编程范式向 Erlang 生态落地的代表作",
+      "summary_en": "Imp is a full port of DSPy to the BEAM: developers declare typed signatures (e.g. issue -> kind: enum[bug,feature,question], summary), Imp builds prompts and checks responses, with predict/chain_of_thought/react modules for single-call reasoning or tool-using agents that run as supervised processes. Optimizers include GEPA (read failures, rewrite instructions), LabeledFewShot/BootstrapFewShot, MIPROv2, SIMBA, fine-tuning, and GRPO, with human-readable diffable artifacts; Imp.start_run/3 exposes per-tool-call authorization callbacks for supervised execution.",
+      "one_liner": "把 DSPy 整套声明式 + 优化器范式搬到 BEAM：Elixir 生态第一次有了 process-friendly 的 LLM 编程模型",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/22159f2c.md",
+      "images": [],
+      "added_date": "2026-09-28",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-28",
-  "total_entries": 2466
+  "total_entries": 2473
 }
