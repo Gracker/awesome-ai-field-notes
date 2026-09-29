@@ -1,18 +1,18 @@
 {
   "total_entries": 2504,
-  "active_entries": 1627,
+  "active_entries": 1778,
   "active_entries_raw": 1859,
   "archived_entries": 606,
   "score_pending_entries": 39,
   "this_week_added": 108,
-  "entries_with_content": 1534,
-  "content_files_total": 2441,
+  "entries_with_content": 1691,
+  "content_files_total": 2618,
   "channel_distribution": {
     "agents": 473,
     "models": 349,
+    "tools": 289,
     "coding": 256,
     "business": 162,
-    "tools": 138,
     "infra": 137,
     "research": 112
   },
@@ -34,7 +34,7 @@
     "tweet": 17,
     "newsletter": 5
   },
-  "last_updated": "2026-09-29 23:51",
+  "last_updated": "2026-09-30 03:14",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }

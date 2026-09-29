@@ -1075,30 +1075,30 @@
     },
     {
       "id": "b2b80952",
-      "title": "The Cook and the Chef: Musk's Secret Sauce Wait ...",
-      "url": null,
+      "title": "The Cook and the Chef: Musk's Secret Sauce",
+      "url": "https://waitbutwhy.com/2015/11/the-cook-and-the-chef.html",
       "source": {
-        "platform": "unknown",
-        "author": null,
-        "original_date": null
+        "platform": "blog",
+        "author": "Tim Urban",
+        "original_date": "2015-11-06"
       },
       "category": "uncategorized",
       "tags": [],
       "source_type": "x_post",
-      "language": "zh",
-      "summary_zh": "",
-      "summary_en": null,
-      "one_liner": "The Cook and the Chef: Musk's Secret Sauce Wait ...",
+      "language": "both",
+      "summary_zh": "Wait But Why 作者 Tim Urban 2015 年马斯克四部曲收官篇：用「两种地质学家」类比论证多数人像洪水地质学家一样先定结论再找证据，而马斯克像科学家一样从证据推演欲望、目标与行动，并把这种思维拆成 Want/Reality/Goal Pool 三个盒子；作者认为这就是马斯克的「秘方」，且人人可学。",
+      "summary_en": "Tim Urban's Wait But Why finale of the four-part Elon Musk series (Nov 6, 2015): through the 'two kinds of geologists' framing he argues most people reason like flood geologists - conclusion first, evidence second - while Musk reasons like a scientist from evidence to wants, goals, and actions; Urban decomposes this into the Want/Reality/Goal Pool boxes and calls it Musk's accessible 'secret sauce'.",
+      "one_liner": "Tim Urban 拆解马斯克的「秘方」：像科学家而不是洪水地质学家那样思考",
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/Kx0X2XTA.md",
+      "local_path": "content/b2b80952.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "74c6f3c1",
@@ -1316,13 +1316,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/antaar24.md",
+      "local_path": "content/4156c41e.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "e3647b3f",
@@ -1541,13 +1541,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/d24a6a44.md",
+      "local_path": "content/26f79bac.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "b4726029",
@@ -1652,13 +1652,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/d65a31a7.md",
+      "local_path": "content/f8e3bca5.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "ea722aab",
@@ -2108,13 +2108,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/antnlach.md",
+      "local_path": "content/fd7d7fa3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "2e8af228",
@@ -2135,13 +2135,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/a3f2k9p7_content.md",
+      "local_path": "content/2e8af228.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "8ead6354",
@@ -2327,13 +2327,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/lKq-W6wR.md",
+      "local_path": "content/2e59242e.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "fb8743a2",
@@ -2490,13 +2490,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/jO5Gvh7s.md",
+      "local_path": "content/84ef63de.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "7ca13420",
@@ -2546,13 +2546,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/610222a205.md",
+      "local_path": "content/f3d705d3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "2a545919",
@@ -2801,13 +2801,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/LKIok5Fn.md",
+      "local_path": "content/e1347267.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "1fad32e8",
@@ -3110,13 +3110,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/VPAy4XTG.md",
+      "local_path": "content/6483a9f9.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "3248af72",
@@ -3168,13 +3168,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/rwJHbEwu.md",
+      "local_path": "content/8e562cf5.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "3f437cab",
@@ -3511,13 +3511,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/2228862e.md",
+      "local_path": "content/223537a9.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "2a6c1d43",
@@ -3567,13 +3567,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/5725d3e623.md",
+      "local_path": "content/7f5b0c2f.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "4b7f4c8f",
@@ -3824,13 +3824,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/antmis025.md",
+      "local_path": "content/3df2bece.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "a5d12ef0",
@@ -4159,13 +4159,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/emQlKmiB.md",
+      "local_path": "content/47f42f56.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "ec3c280f",
@@ -4215,13 +4215,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/83531c59.md",
+      "local_path": "content/221916a9.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "d027713a",
@@ -4242,13 +4242,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/automated-alignment-researchers.md",
+      "local_path": "content/d027713a.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "29321d58",
@@ -4298,13 +4298,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/2ebe9e54.md",
+      "local_path": "content/e173fa94.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "ccf39e86",
@@ -4431,13 +4431,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/7nmmn49m.md",
+      "local_path": "content/421052d8.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "945efb38",
@@ -4516,13 +4516,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/5YxDIJQJ.md",
+      "local_path": "content/d123ee31.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "84596432",
@@ -4543,13 +4543,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/7b22ae74.md",
+      "local_path": "content/84596432.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "4b581419",
@@ -4683,13 +4683,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/f8363a33e23c.md",
+      "local_path": "content/a40dec6e.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "babc22f2",
@@ -4710,13 +4710,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/myf43gs4.md",
+      "local_path": "content/babc22f2.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "2f42ee1e",
@@ -4965,13 +4965,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/82de4699.md",
+      "local_path": "content/adaf1e1c.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "c7af8e7f",
@@ -5073,13 +5073,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/htX0TWFp.md",
+      "local_path": "content/93fd9390.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "19de6abd",
@@ -5129,13 +5129,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/95bb1d33.md",
+      "local_path": "content/0b139edd.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "b995a05a",
@@ -5266,13 +5266,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/U5fxthHm.md",
+      "local_path": "content/bebf71d1.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "2a1f2d19",
@@ -5376,13 +5376,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/10K9FJrF.md",
+      "local_path": "content/fc66310a.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "5fd86e8d",
@@ -5577,13 +5577,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/bc883daf.md",
+      "local_path": "content/5d4288fc.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "13c7fb7a",
@@ -5630,13 +5630,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/c5bc986e.md",
+      "local_path": "content/f13dc7c7.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "918a4b0e",
@@ -5940,13 +5940,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/baoyuhtml.md",
+      "local_path": "content/34a0ab39.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "c9cba169",
@@ -6022,13 +6022,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/2z4h3cnl.md",
+      "local_path": "content/6bf80235.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "447e9cf2",
@@ -6197,13 +6197,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/fd791356.md",
+      "local_path": "content/685fbfb3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "91baa88f",
@@ -6311,13 +6311,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/0qPTtvSb.md",
+      "local_path": "content/95fdeb8c.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "97700514",
@@ -6364,13 +6364,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/ai-anxiety-id.md",
+      "local_path": "content/3e51ce5f.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "1d1ac1e4",
@@ -6446,13 +6446,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/eW0H313o.md",
+      "local_path": "content/c8910d7d.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "1eada07d",
@@ -6617,13 +6617,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/f7g8i9m3.md",
+      "local_path": "content/39b2709e.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "21b3296b",
@@ -6809,13 +6809,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/e4696e07.md",
+      "local_path": "content/71d19794.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "15dac456",
@@ -7094,13 +7094,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/l5ysgz2n.md",
+      "local_path": "content/38d01e19.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "70a41122",
@@ -7147,13 +7147,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/4y9bper3.md",
+      "local_path": "content/0436ba01.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "45ab67fb",
@@ -7229,13 +7229,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/96fb0c5d.md",
+      "local_path": "content/ad9b87d3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "14fa5d2f",
@@ -7256,13 +7256,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/fb59b6d6.md",
+      "local_path": "content/14fa5d2f.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "c17fda2e",
@@ -7396,13 +7396,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/c9x1k5t3.md",
+      "local_path": "content/eddc501d.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "02d392ab",
@@ -7452,13 +7452,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/af561ck4.md",
+      "local_path": "content/5c88f849.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "e4ee2581",
@@ -7751,13 +7751,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/ad288738.md",
+      "local_path": "content/8534a84c.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "6b2f684f",
@@ -7861,13 +7861,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/bc11nckc.md",
+      "local_path": "content/41071ca3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "b337165d",
@@ -8331,13 +8331,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/antpet030.md",
+      "local_path": "content/21f855ac.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "4cde3574",
@@ -8358,13 +8358,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/c166d6b857.md",
+      "local_path": "content/4cde3574.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "8e74b8ff",
@@ -8645,13 +8645,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/1uec1kr9.md",
+      "local_path": "content/22a0bcbb.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "60be218e",
@@ -8701,13 +8701,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/apm1yd3g.md",
+      "local_path": "content/fa832349.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "98a9524e",
@@ -8840,13 +8840,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/owxj3v91.md",
+      "local_path": "content/b3f0b797.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "6e189b79",
@@ -8867,13 +8867,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/jok2gv0b.md",
+      "local_path": "content/6e189b79.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "345b8530",
@@ -8894,13 +8894,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/7a208135.md",
+      "local_path": "content/345b8530.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "9a98eb1c",
@@ -9115,13 +9115,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/antevlawa.md",
+      "local_path": "content/7b4f7b20.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "247d5656",
@@ -9469,13 +9469,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/pLFMQKqL.md",
+      "local_path": "content/d14e43b2.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "58e42351",
@@ -9893,13 +9893,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/a8f3k921.md",
+      "local_path": "content/3a98ee61.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "bd7fe04f",
@@ -9978,13 +9978,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/dc0bddae.md",
+      "local_path": "content/2f1962b1.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "f0f9ff27",
@@ -10005,13 +10005,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/xm27wqh4.md",
+      "local_path": "content/f0f9ff27.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "0a778bb8",
@@ -10232,13 +10232,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/zybyi5t5.md",
+      "local_path": "content/c48095bf.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "23077c80",
@@ -10314,13 +10314,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/io49f422.md",
+      "local_path": "content/a6d224d2.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "3a071799",
@@ -10457,13 +10457,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/itikhf3n.md",
+      "local_path": "content/59427cb1.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "0e428aef",
@@ -10484,13 +10484,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/r5io6o5x.md",
+      "local_path": "content/0e428aef.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "0d905874",
@@ -10621,13 +10621,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/Ac0YVZZ8.md",
+      "local_path": "content/679379d8.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "61dd2f68",
@@ -10648,13 +10648,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/ca1ebffb.md",
+      "local_path": "content/61dd2f68.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "6659c7ae",
@@ -10675,13 +10675,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/7pp7rfh8.md",
+      "local_path": "content/6659c7ae.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "bea6be46",
@@ -10823,13 +10823,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/f20a0369.md",
+      "local_path": "content/946806dc.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "7f187f14",
@@ -10934,13 +10934,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/keqFU4_v.md",
+      "local_path": "content/888d52e7.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "246f0aa9",
@@ -10961,12 +10961,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/9486b6f3.md",
+      "local_path": "content/246f0aa9.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": true
     },
     {
       "id": "e7d84655",
@@ -11129,13 +11130,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/fpmdn3mj.md",
+      "local_path": "content/9c584c4b.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "a67c91aa",
@@ -11156,13 +11157,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/bcm7w7vv.md",
+      "local_path": "content/a67c91aa.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "9cd936d3",
@@ -11209,13 +11210,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/da4ef4b0.md",
+      "local_path": "content/65d9abc3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "d76c4b51",
@@ -11291,13 +11292,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/hjiptobw.md",
+      "local_path": "content/9972937d.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "907c7a4b",
@@ -11318,13 +11319,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/jmsjfthh.md",
+      "local_path": "content/907c7a4b.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "527cc503",
@@ -11371,14 +11372,15 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/469c12ee.md",
+      "local_path": "content/a837f575.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [
         "469c12ee"
-      ]
+      ],
+      "local_path_valid": true
     },
     {
       "id": "83e41e34",
@@ -11399,13 +11401,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/94ocqfsx.md",
+      "local_path": "content/83e41e34.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "817b7c2d",
@@ -11455,13 +11457,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/zkmmaa8x.md",
+      "local_path": "content/0c70e8ad.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "25a746f2",
@@ -11482,13 +11484,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/3cd7qdt3.md",
+      "local_path": "content/25a746f2.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "0aed44b4",
@@ -11538,13 +11540,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/cuvjviqp.md",
+      "local_path": "content/94e3138a.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "14b05cfa",
@@ -11652,13 +11654,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/58wn955a.md",
+      "local_path": "content/81e5e623.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "2611f9e6",
@@ -11793,13 +11795,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/f718fbc9.md",
+      "local_path": "content/11944c69.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "a3fc9956",
@@ -11820,13 +11822,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/dp1D5lbH.md",
+      "local_path": "content/a3fc9956.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "cc780f01",
@@ -12014,13 +12016,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/FwcpbCED.md",
+      "local_path": "content/4b012fed.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "56c794eb",
@@ -12070,13 +12072,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/110qhnsv.md",
+      "local_path": "content/309769cf.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "24a129f5",
@@ -12097,13 +12099,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/qrMXH6mW.md",
+      "local_path": "content/24a129f5.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "3ef6fd6f",
@@ -12124,13 +12126,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/e7QC8TYz.md",
+      "local_path": "content/3ef6fd6f.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "232b46a3",
@@ -12151,13 +12153,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/n3m8itb5.md",
+      "local_path": "content/232b46a3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "ec1fb319",
@@ -12207,13 +12209,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/209d1bde.md",
+      "local_path": "content/acc0b4f1.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "e57d4c4b",
@@ -12263,13 +12265,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/antpmt048.md",
+      "local_path": "content/baec23ec.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "be938ace",
@@ -12371,13 +12373,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/2kX8t9cK.md",
+      "local_path": "content/3887fc82.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "2633fd73",
@@ -12728,13 +12730,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/354d4da8.md",
+      "local_path": "content/b8255da2.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "0ebb38c9",
@@ -12893,13 +12895,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/qDDLoE0z.md",
+      "local_path": "content/a53fb225.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "385cc901",
@@ -13032,13 +13034,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/aafn2404.md",
+      "local_path": "content/ba4a20e4.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "c94e0652",
@@ -13059,13 +13061,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/065af9e7.md",
+      "local_path": "content/c94e0652.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "0583946d",
@@ -13086,13 +13088,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/26prcruq.md",
+      "local_path": "content/0583946d.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "ea9889d2",
@@ -13196,13 +13198,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/771baef7.md",
+      "local_path": "content/99e91497.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "ad6f9ec4",
@@ -13223,13 +13225,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/ant81kint.md",
+      "local_path": "content/ad6f9ec4.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "d8ee6cde",
@@ -13363,13 +13365,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/2rfmqygd.md",
+      "local_path": "content/20fe3f96.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "f1b8c076",
@@ -13390,13 +13392,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/e401d7c6.md",
+      "local_path": "content/f1b8c076.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "a069106d",
@@ -13445,13 +13447,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/1iuotKVl.md",
+      "local_path": "content/c1484164.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "534518f5",
@@ -13472,13 +13474,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/igg73zsz.md",
+      "local_path": "content/534518f5.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "a00a00af",
@@ -13528,13 +13530,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/uyp02il6.md",
+      "local_path": "content/5d1a759e.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "4dcc3f13",
@@ -13665,13 +13667,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/mcp-ecosystem-2026-004.md",
+      "local_path": "content/81963a4c.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "92c3b44a",
@@ -13721,13 +13723,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/0qrukb4i.md",
+      "local_path": "content/25093997.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "413fd05c",
@@ -13835,13 +13837,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/d5f0g586.md",
+      "local_path": "content/967356f2.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "488f610b",
@@ -13862,13 +13864,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/f272a87a.md",
+      "local_path": "content/488f610b.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "cead27f6",
@@ -13947,13 +13949,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/alliekf5a.md",
+      "local_path": "content/b1a2eea2.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "1fa1e811",
@@ -14003,13 +14005,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/f1lbxjt9.md",
+      "local_path": "content/dc308c55.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "575ad9fd",
@@ -14030,13 +14032,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/03cc2706.md",
+      "local_path": "content/575ad9fd.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "ec68ca2a",
@@ -14112,13 +14114,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/aafn2405.md",
+      "local_path": "content/c65a3892.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "e2475550",
@@ -14194,13 +14196,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/antmng047.md",
+      "local_path": "content/fe80c28d.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "5149d053",
@@ -14279,13 +14281,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/ezlw451n.md",
+      "local_path": "content/305a9e5a.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "e9bfab40",
@@ -14535,13 +14537,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/e4c5a0dd.md",
+      "local_path": "content/4bf954a4.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "e28295e8",
@@ -14788,13 +14790,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/0dqwkocc.md",
+      "local_path": "content/cb27fef7.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "d9464553",
@@ -14873,13 +14875,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/aafn2401.md",
+      "local_path": "content/997d84c3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "976e9804",
@@ -14900,13 +14902,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/N7uUaY82.md",
+      "local_path": "content/976e9804.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "79edc423",
@@ -14953,13 +14955,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/o70e53hy.md",
+      "local_path": "content/a1ee20ab.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "9d5983af",
@@ -14980,13 +14982,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/d9a0a60c.md",
+      "local_path": "content/9d5983af.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "6cea1b91",
@@ -15093,13 +15095,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/qivuzz8c.md",
+      "local_path": "content/d5cfd158.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "9264a74e",
@@ -15376,13 +15378,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/4be25f79.md",
+      "local_path": "content/cac1bcda.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "bbb9339b",
@@ -15461,13 +15463,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/gjncoa3h.md",
+      "local_path": "content/ae1d07ad.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "d507e746",
@@ -15630,13 +15632,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/gpt55_prompt_guide_2026.md",
+      "local_path": "content/285eb6e8.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "e69283bc",
@@ -15715,13 +15717,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/b7r4m2n8.md",
+      "local_path": "content/2a55d713.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "3be655d6",
@@ -15823,13 +15825,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/95794bb0.md",
+      "local_path": "content/75025fca.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "457b5c4c",
@@ -15879,13 +15881,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/r5jbtfwg.md",
+      "local_path": "content/f7fb20ca.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "90acc788",
@@ -15962,13 +15964,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/6nr7xpx1.md",
+      "local_path": "content/5fa07b73.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "d2095599",
@@ -16017,13 +16019,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/antintrvw.md",
+      "local_path": "content/fe920d24.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "dd8e8366",
@@ -16073,13 +16075,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/iXcRwjIp.md",
+      "local_path": "content/21c953a3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "00e00818",
@@ -16100,13 +16102,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/8ed12140.md",
+      "local_path": "content/00e00818.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "66db0c9f",
@@ -16156,13 +16158,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/aafn-003.md",
+      "local_path": "content/b21bddeb.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "4b7d8e64",
@@ -16238,13 +16240,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/f71nn8lk.md",
+      "local_path": "content/0f631858.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "eb1bc7dd",
@@ -16323,13 +16325,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/6hz9vzy3.md",
+      "local_path": "content/16d580d2.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "930cfba6",
@@ -16377,13 +16379,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/yY7hcksg.md",
+      "local_path": "content/4cab773d.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "75b768ca",
@@ -16462,13 +16464,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/fetch_summary.md",
+      "local_path": "content/5e39793e.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "d79e4958",
@@ -16489,13 +16491,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/ZSqD1t2swUlVp1t2wNZJq.md",
+      "local_path": "content/d79e4958.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "5f82dbcc",
@@ -16545,13 +16547,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/bl4udth8.md",
+      "local_path": "content/60e19bc4.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "7b2e6846",
@@ -16572,13 +16574,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/bd777cd2.md",
+      "local_path": "content/7b2e6846.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "db8bf8f0",
@@ -16628,13 +16630,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/j6bD6nKv.md",
+      "local_path": "content/dfe8695c.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "a7644e9c",
@@ -16684,13 +16686,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/93ba33c3.md",
+      "local_path": "content/78c5faef.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "85df636c",
@@ -16976,13 +16978,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/qGL1H9gQ.md",
+      "local_path": "content/4ff22e42.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "4ea4d718",
@@ -17032,13 +17034,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/langgraph-2026-002.md",
+      "local_path": "content/be5e6ee7.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "c0c390c5",
@@ -17059,13 +17061,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/ai-agent-landscape-2026-003.md",
+      "local_path": "content/c0c390c5.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "43e36689",
@@ -17086,13 +17088,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/1pxXXokv.md",
+      "local_path": "content/43e36689.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "f14e99bd",
@@ -17196,13 +17198,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/oJDkWyFV.md",
+      "local_path": "content/e34a56fa.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "9129182c",
@@ -17281,13 +17283,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/0bf2b5b84701.md",
+      "local_path": "content/ea3fcf10.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "7e1ee8f5",
@@ -17308,13 +17310,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/c4a56f0b.md",
+      "local_path": "content/7e1ee8f5.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "e8634cc9",
@@ -17474,12 +17476,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/6f26b8b4.md",
+      "local_path": "content/ad30304d.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
-      "related": []
+      "related": [],
+      "local_path_valid": true
     },
     {
       "id": "46f06745",
@@ -17586,13 +17589,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/6nrmpv7z.md",
+      "local_path": "content/b8e7f74b.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "bfd027c1",
@@ -17729,13 +17732,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/q32ssunn.md",
+      "local_path": "content/70ffe270.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "f2e19205",
@@ -17785,13 +17788,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/Gw50izXi.md",
+      "local_path": "content/4fb3bd4e.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "1363d0a6",
@@ -17841,13 +17844,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/2931b24c.md",
+      "local_path": "content/9ba82cd3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "caeb8c61",
@@ -17926,13 +17929,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/9j1ds5wp.md",
+      "local_path": "content/42ae3b19.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "8d32d5ee",
@@ -18263,13 +18266,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/4e3d03e6.md",
+      "local_path": "content/3748d85c.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "b1dadd1c",
@@ -18290,13 +18293,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/c98657f2.md",
+      "local_path": "content/b1dadd1c.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "59d13343",
@@ -18346,13 +18349,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/aafn-006.md",
+      "local_path": "content/c5c9585b.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "e76b1f5b",
@@ -18606,13 +18609,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/dw7v9v1j.md",
+      "local_path": "content/26cf8ef6.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "2f12160d",
@@ -18691,13 +18694,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/antpeta03.md",
+      "local_path": "content/85bfdc89.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "9ccb84b8",
@@ -18946,13 +18949,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/qx9guy83.md",
+      "local_path": "content/78b848ad.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "e742a94e",
@@ -18973,13 +18976,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/c9567fc80a61.md",
+      "local_path": "content/e742a94e.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "fcb69f7e",
@@ -19000,13 +19003,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/aa642c51.md",
+      "local_path": "content/fcb69f7e.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "b5f180f5",
@@ -19027,13 +19030,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/qde6w2jn.md",
+      "local_path": "content/b5f180f5.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "725a9a35",
@@ -19111,13 +19114,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/2vsxzg1f.md",
+      "local_path": "content/3f5e988b.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "4772676b",
@@ -19167,13 +19170,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/791ae859.md",
+      "local_path": "content/4190ff4a.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "34f1efae",
@@ -19306,13 +19309,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/xdooL4IY.md",
+      "local_path": "content/4d4dfec7.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "b982478c",
@@ -19333,13 +19336,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/iD8xIy0b.md",
+      "local_path": "content/b982478c.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "b5a533ae",
@@ -19360,13 +19363,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/b4ceed50.md",
+      "local_path": "content/b5a533ae.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "6f38a678",
@@ -19494,13 +19497,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/49uxvb6b.md",
+      "local_path": "content/e48c0b1b.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "855101d8",
@@ -19636,13 +19639,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/aafn-002.md",
+      "local_path": "content/40d75499.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "f55411d5",
@@ -19663,13 +19666,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/7n5hkzn5.md",
+      "local_path": "content/f55411d5.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "11599464",
@@ -19690,13 +19693,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/694ono0s.md",
+      "local_path": "content/11599464.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "10dae3c9",
@@ -19775,13 +19778,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/290hawev.md",
+      "local_path": "content/17d48d27.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "8b5d8371",
@@ -19802,13 +19805,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/claude-code-2026-001.md",
+      "local_path": "content/8b5d8371.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "1cf019f8",
@@ -19829,13 +19832,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/714nhdim.md",
+      "local_path": "content/1cf019f8.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "4a03918a",
@@ -19856,13 +19859,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/d1d65a6d.md",
+      "local_path": "content/4a03918a.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "82a6fd09",
@@ -19970,13 +19973,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/fNZLGcJa.md",
+      "local_path": "content/565a3a87.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "8c903637",
@@ -19997,13 +20000,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/56u6sev2.md",
+      "local_path": "content/8c903637.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "526b05fe",
@@ -20396,13 +20399,13 @@
       "one_liner_author": "openclaw",
       "quality_score": 3,
       "status": "active",
-      "local_path": "content/b10e5003.md",
+      "local_path": "content/e47ec1f3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": null,
+      "updated_date": "2026-09-30",
       "github_stars": null,
       "related": [],
-      "local_path_valid": false
+      "local_path_valid": true
     },
     {
       "id": "a0b5d674",
@@ -75668,6 +75671,6 @@
       "related": []
     }
   ],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "total_entries": 2504
 }
