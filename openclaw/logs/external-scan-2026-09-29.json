@@ -1,0 +1,40 @@
+{
+  "scan_date": "2026-09-29",
+  "mode": "external-scan",
+  "initial_count": 2480,
+  "added_count": 8,
+  "skipped_count": 0,
+  "final_count": 2488,
+  "discovery": {
+    "opencli_arxiv_recent_cs_ai": "10 papers (2026-09-25 batch), 4 accepted",
+    "opencli_arxiv_search": "agent-security sweep — only older/already-covered IDs, 0 accepted",
+    "opencli_hackernews_top": "20 items reviewed, 4 accepted (Sonnet 5.5, Nvidia OASP, cf CLI, jeff)",
+    "rejected_notable": [
+      "2609.31607 statistical attribute alignment (stat.ME methodology, low AAIF lift)",
+      "2609.31568 DeepEdu-v1 (regional education vertical)",
+      "2609.31544 flow matching representational dissimilarity (pure neuroscience-adjacent theory)",
+      "2609.31569 elementary teachers AI curriculum (HCI education)",
+      "2609.31572 OC-GS / 2609.31509 ClearGS (CV gaussian splatting)",
+      "HN: World Labs joins AMD (M&A news), It's Time to Investigate the AI Labs (opinion), Pirating the Pirates (non-AI)"
+    ]
+  },
+  "added": [
+    {"id": "767f7ac3", "arxiv": "2609.31619", "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency", "score": 4, "category": "learning", "platform": "arxiv"},
+    {"id": "e83a1ccb", "arxiv": "2609.31587", "title": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer", "score": 4, "category": "coding", "platform": "arxiv"},
+    {"id": "f6ff013f", "arxiv": "2609.31563", "title": "Multi-agent Scaling Across Disjunctive and Compensatory Tasks", "score": 4, "category": "agents", "platform": "arxiv"},
+    {"id": "30618402", "arxiv": "2609.31540", "title": "Can You Check That? The Checkability Boundary for Local LLM Network Automation", "score": 4, "category": "infra", "platform": "arxiv"},
+    {"id": "50e18c54", "url": "https://www.anthropic.com/claude-sonnet-5-5", "title": "Introducing Claude Sonnet 5.5", "score": 4, "category": "models", "platform": "anthropic"},
+    {"id": "0f54998c", "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html", "title": "Nvidia releases software platform to stop AI agents from misbehaving", "score": 4, "category": "agents", "platform": "news"},
+    {"id": "ff1c78cd", "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/", "title": "Cf: The Agentic CLI for the Cloudflare API", "score": 4, "category": "coding", "platform": "blog"},
+    {"id": "5e33c235", "url": "https://github.com/firelex/jeff", "title": "Jeff: Jev-compatible 0.8B decision models, trained at home, ~30 ms", "score": 4, "category": "infra", "platform": "github"}
+  ],
+  "validation": {
+    "entries_json_dict": true,
+    "len_equals_total": true,
+    "count_non_decreasing": true,
+    "validate_schema": "2488 entries, 0 errors, 55 warnings (all pre-existing)",
+    "site_generation": "1603->1611 display cards, 1510->1518 content pages, 7 channels",
+    "content_files_canonical": "all 8 under content/, none in openclaw/content/"
+  },
+  "push": false
+}

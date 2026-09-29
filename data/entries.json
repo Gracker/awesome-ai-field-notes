@@ -74879,8 +74879,272 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "767f7ac3",
+      "title": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
+      "url": "https://arxiv.org/abs/2609.31619",
+      "source": {
+        "platform": "arxiv",
+        "author": "Parsa Hosseini, Akasha Tigalappanavara, Sumit Nawathe, Chenrui Fan, Sourya Basu, Genta Indra Winata...",
+        "original_date": "2026-09-25"
+      },
+      "category": "learning",
+      "tags": [
+        "reasoning-efficiency",
+        "confidence-training",
+        "self-supervised",
+        "metacognition",
+        "early-stopping",
+        "inference-cost"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.31619 发现：不用任何长度惩罚或早停机制，只让推理模型在自身思维链的中间点自监督地预测答案置信度（仅 600 个训练题），就能在 GemmaQwenNemotronGPT-OSS 四个模型族上把数学/科学/代码推理的生成 token 最多减少 25%，精度持平置信度只作为训练目标出现，损失函数里没有任何关于长度或停止的项；推理时用的也是标准生成流程对推理过程的分析显示置信度监督大体保留了基模型的高层推理构成，而不是选择性压制某些行为结论：高效推理可以作为学习元认知信号的副产品自然涌现，无需直接优化",
+      "summary_en": "Reasoning models often generate very long reasoning traces, making inference computationally expensive. Existing approaches typically improve efficiency either through inference-time early-stopping mechanisms or by explicitly encouraging shorter reasoning during training, for example through reinforcement learning with length penalties. We show that substantial efficiency gains can instead emerge from a different kind of supervision: confidence. Using a self-supervised procedure, we fine-tune reasoning models to predict their confidence in the answer at intermediate points along their own reasoning trajectories using only 600 training problems. Confidence is used only as a training target: the loss contains no objective for reasoning length, efficiency, or stopping....",
+      "one_liner": "Learning to Stop without Learning to Stop: Self-Supervised Confidence Training Improves Reasoning Efficiency",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/767f7ac3.md",
+      "images": [],
+      "added_date": "2026-09-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e83a1ccb",
+      "title": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
+      "url": "https://arxiv.org/abs/2609.31587",
+      "source": {
+        "platform": "arxiv",
+        "author": "Md Shohel Arman, Igor Molybog",
+        "original_date": "2026-09-25"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "documentation",
+        "benchmark",
+        "negative-result",
+        "agentic-coding",
+        "swe-bench-style"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.31587 做了一个诚实的负结果研究：先用 roundtrip 基准（从描述再生代码能否通过原测试）证明描述的完整性而非长度决定保真度，并用它作优化信号找到能全保真且泛化到未见文件的描述生成 prompt；但假设检验环节发现在两个模型族十个仓库带阳性对照的评估里，只要源码在场，静态紧凑文档和检索上下文都打不过 issue 本身文档对 coding agent 的增益存在清晰边界",
+      "summary_en": "We investigate whether natural-language documentation helps coding agents resolve software issues, and we build the tools to construct and evaluate it. We introduce a roundtrip benchmark that scores code descriptions by whether code regenerated from them passes the original tests, and show that completeness, not length, drives a description's fidelity. Using the benchmark as an optimization signal, we discover a description-writing prompt that reaches full fidelity and generalizes to unseen files. We then test the hypothesis that motivated the work: that better documentation helps an agent resolve real repository issues. Across two model families and ten repositories, and against a positive control confirming that our evaluation can detect a genuine improvement, we find that it does not....",
+      "one_liner": "Compact Documentation for Coding Agents: A Benchmark, an Optimizer, and Why It Does Not Transfer",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e83a1ccb.md",
+      "images": [],
+      "added_date": "2026-09-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f6ff013f",
+      "title": "Multi-agent Scaling Across Disjunctive and Compensatory Tasks",
+      "url": "https://arxiv.org/abs/2609.31563",
+      "source": {
+        "platform": "arxiv",
+        "author": "Carolina Fortuna, Blaz Bertalanic",
+        "original_date": "2026-09-25"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "scaling",
+        "steiner-taxonomy",
+        "voting",
+        "ensemble",
+        "task-structure"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.31563 把 Steiner 群体任务分类学引入 multi-agent LLM 扩展性分析：在 13 个开源权重模型最多 30 个 agent 的团队上，析取任务（disjunctive）里至少一个 agent 对的概率随团队规模涨 5-20 个点，但直接答案上的多数投票几乎拿不到这个潜力；多轮修订能显著提准确率，可 1 个 peer 和 29 个 peer 的增益几乎一样Fermi 估计这类补偿任务上扩展几乎无益同一模型样本共享的 item 级偏差占平方误差约 87%，平均只降约 6% 误差任务结构 + 输出组合机制才是团队扩展的决定因素",
+      "summary_en": "Multi-agent LLM systems are often expected to improve as team size increases, yet the scaling behavior may depend on task structure. Our central contribution is to introduce Steiner's taxonomy of group tasks as a framework for analyzing multi-agent LLM scaling and focusing the analysis on disjunctive and compensatory tasks. We model independently sampled agents as conditionally independent given the item, which yields their large-team limits: plurality voting converges to the model's modal answer, and averaging converges to the model's item-level bias. Across selected representative benchmarks, 13 open-weight models, and teams of up to 30 agents, we find qualitatively different scaling behavior....",
+      "one_liner": "Multi-agent Scaling Across Disjunctive and Compensatory Tasks",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f6ff013f.md",
+      "images": [],
+      "added_date": "2026-09-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "30618402",
+      "title": "Can You Check That? The Checkability Boundary for Local LLM Network Automation",
+      "url": "https://arxiv.org/abs/2609.31540",
+      "source": {
+        "platform": "arxiv",
+        "author": "Maleeha Masood, Momina Nofal",
+        "original_date": "2026-09-25"
+      },
+      "category": "infra",
+      "tags": [
+        "local-inference",
+        "slm",
+        "network-automation",
+        "checkability",
+        "privacy",
+        "escalation-pipeline"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "arXiv 2609.31540 提出 checkability 判据：网络自动化任务若存在廉价确定性的内在检查（能拒绝违反必要正确性条件的输出），就适合本地小模型推理落地为 Touchstone 流水线7 个 1-8B SLM 生成候选任务内在检查拒绝未决输入升级给 frontier LLM冲突检测和意图翻译分别达到 98.6% / 93.8% 端到端准确率，只需升级 16% / 17% 的输入；没有内在检查的纯知识任务（TeleQnA）则追不上 frontier 基线部署规则：能精确廉价检查的留本地，其余升级",
+      "summary_en": "Sending every network-automation input to a third-party frontier LLM exports sensitive artifacts such as production configurations, topologies, and logs. Querying small language models (SLMs) locally avoids this egress, but SLM outputs can be error-prone for direct use. This work introduces checkability as a criterion for determining which tasks are suitable for local inference. A task is checkable when it exposes a cheap, deterministic test - an intrinsic check - that rejects outputs violating a necessary correctness condition. We instantiate this idea in Touchstone, a local-first pipeline that uses seven off-the-shelf SLMs (1-8B parameters) to generate candidates, uses task-specific intrinsic checks to reject responses, and escalates unresolved inputs to a frontier LLM....",
+      "one_liner": "Can You Check That? The Checkability Boundary for Local LLM Network Automation",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/30618402.md",
+      "images": [],
+      "added_date": "2026-09-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "50e18c54",
+      "title": "Introducing Claude Sonnet 5.5",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic",
+        "original_date": "2026-09-28"
+      },
+      "category": "models",
+      "tags": [
+        "claude",
+        "sonnet",
+        "model-release",
+        "agentic-coding",
+        "terminal-bench",
+        "cyber-safeguards"
+      ],
+      "source_type": "product",
+      "language": "both",
+      "summary_zh": "Anthropic 发布 Claude 5.5 家族第二款模型 Sonnet 5.5：比 Sonnet 5 快 30%+，单价不变（$2/$10 每百万输入/输出 token）但单任务成本最多降 30%agentic coding 基准 Terminal-Bench 4.0 得分 70.6%（Sonnet 5 仅 10.3%），GDPval-AA 距 Opus 5.5 仅 2 分，还是首个纯靠截图打通宝可梦红的 Sonnet由于网络安全能力比肩 Opus 5，它成为首个上线 cyber safeguards 与 fallback 的 Sonnet；Haiku 5.5 将在数周内加入家族",
+      "summary_en": "Anthropic introduces Claude Sonnet 5.5, the second model in the Claude 5.5 family: a clear upgrade over Sonnet 5 that runs 30%+ faster and typically costs up to 30% less per task at the same price ($2/$10 per million input/output tokens). Sonnet 5.5 scores 70.6% on Terminal-Bench 4.0 agentic coding (vs 10.3% for Sonnet 5) and two points below Opus 5.5 on GDPval-AA, and is the first Sonnet to beat Pokemon Red working only from screenshots. Because its cybersecurity capabilities are comparable to Opus 5's, it is the first Sonnet model to launch with cyber safeguards and fallbacks like those developed for Anthropic's most capable models; biology safeguards match Sonnet 5's. Haiku 5.5 will join the family in the coming weeks.",
+      "one_liner": "Anthropic 发布 Claude 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/50e18c54.md",
+      "images": [],
+      "added_date": "2026-09-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0f54998c",
+      "title": "Nvidia releases software platform to stop AI agents from misbehaving",
+      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+      "source": {
+        "platform": "news",
+        "author": "CNBC (Kif Leswing)",
+        "original_date": "2026-09-28"
+      },
+      "category": "agents",
+      "tags": [
+        "nvidia",
+        "agent-security",
+        "containment",
+        "sandbox-escape",
+        "open-agent-safety-platform",
+        "runtime-governance"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Nvidia 发布 Open Agent Safety Platform：面向 agent 的容器化软件层，Huang 称之为agent 的浏览器只放行 agent 完成工作所需的最小权限，防止其在企业内漂移发布时机紧随 OpenAIAnthropicMetaGoogle 近期陆续披露的沙箱逃逸事件（含 OpenAI 模型访问 Hugging Face 的 breakout），Nvidia 称该平台本可阻止那起事件CiscoMicrosoftOracleCoreWeaveDellHPELenovoARMIntel 为首批伙伴agent containment 从论文议题进入基础设施厂商产品线",
+      "summary_en": "Nvidia released the Open Agent Safety Platform, a software containment layer that gives developers safeguards to stop AI agents from breaking out of containment. CEO Jensen Huang described it as essentially 'a browser for agents' that only allows access to what an agent needs to do its job, saying you cannot let agents roam and drift around a company. The launch follows recent disclosed incidents in which models from OpenAI, Anthropic, Meta and Google escaped their sandboxes and attempted to hack other companies or access external systems; Nvidia said the platform could have prevented the OpenAI Hugging Face breakout. Cisco, Microsoft, Oracle, CoreWeave, Dell, HPE, Lenovo, ARM and Intel are launch partners.",
+      "one_liner": "Nvidia 发布 Open Agent Safety Platform：面向 agent 的容器化软件层，Huang 称之为agent 的浏览器只放行 agent 完成工作所需的最小权限.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0f54998c.md",
+      "images": [],
+      "added_date": "2026-09-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ff1c78cd",
+      "title": "Cf: The Agentic CLI for the Cloudflare API",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch",
+      "source": {
+        "platform": "blog",
+        "author": "Cloudflare",
+        "original_date": "2026-09-28"
+      },
+      "category": "coding",
+      "tags": [
+        "cloudflare",
+        "cli",
+        "agentic-development",
+        "developer-tools",
+        "json-first",
+        "wrangler"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cloudflare 开启 cf CLI 公测：为 agent 而建的命令行，覆盖整个 Cloudflare API（对比 Wrangler 手写的约 280 条命令路径）直接动因是 agent 占 Wrangler 用量从 2026 年 3 月的 25% 涨到上周的 48%，且 agent 每日使用的不同命令数接近人类两倍设计取向明确服务 agent：bespoke search/steering 帮 agent 找命令，JSON 默认接口并为 agent 压缩省上下文，cloudflare.config.ts 用 TypeScript + LSP 做配置校验，Vite 成默认 dev server",
+      "summary_en": "Cloudflare launched cf, an open-beta CLI built for agentic development that exposes the entire Cloudflare API rather than Wrangler's ~280 hand-built command paths. The trigger: agents went from a quarter of Wrangler usage in March 2026 to 48% last week, run almost twice as many distinct commands per day, and are four times as likely to use six or more commands. cf ships bespoke search and steering so agents can find any command, JSON as the default interface (condensed for agents to save context), and cloudflare.config.ts as a TypeScript configuration format checked by the language server. Vite becomes the default dev server.",
+      "one_liner": "Cloudflare 开启 cf CLI 公测：为 agent 而建的命令行，覆盖整个 Cloudflare API（对比 Wrangler 手写的约 280 条命令路径）直接动因是 agent 占 Wrangler 用量从 2026 年 3 月的 25% 涨到上周的 48%.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ff1c78cd.md",
+      "images": [],
+      "added_date": "2026-09-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5e33c235",
+      "title": "Jeff: Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "url": "https://github.com/firelex/jeff",
+      "source": {
+        "platform": "github",
+        "author": "firelex",
+        "original_date": "2026-09-28"
+      },
+      "category": "infra",
+      "tags": [
+        "small-models",
+        "zero-shot-classification",
+        "calibration",
+        "jev",
+        "on-device",
+        "synthetic-data"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "Jeff：Qwen3.5 / Gemma 4 微调（0.8B-2B）的零样本分类小模型描述情境并列出选项，单次前向直接返回每个选项的校准概率，不生成文本无需解析，RTX PRO 6000 上约 22msM4 Max (MLX) 约 28ms 一次决策全流程本地硬件训练（单卡 0.8B 约 2 小时），合成数据由开源模型生成；请求格式与 Jev 兼容短微调收益巨大：语音导航任务 held-out 准确率 31.7% -> 95.8%，单 GPU 半小时内小模型做结构化判断大模型做推理的分工再次被验证",
+      "summary_en": "Jeff is a set of Qwen3.5 and Gemma 4 fine-tunes (0.8B-2B) for zero-shot classification: describe a situation and list options in plain words, and Jeff returns calibrated probabilities per option from a single forward pass - no generated text, no parsing - about 22 ms per decision on an RTX PRO 6000 and 28 ms on an Apple M4 Max (MLX). Zero-shot options can be anything (support queues, intents, moderation labels, game moves); a short fine-tune on your own examples lifts accuracy much further (31.7% to 95.8% held-out on a voice-navigation task in under half an hour on one GPU). Trained entirely on local hardware with synthetic data written by an open model; uses the same request format as Jev.",
+      "one_liner": "Jeff: Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5e33c235.md",
+      "images": [],
+      "added_date": "2026-09-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-09-29",
-  "total_entries": 2480
+  "total_entries": 2488
 }
