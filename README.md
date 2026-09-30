@@ -11,28 +11,28 @@
 - [OpenAI still doesn't seem to have a handle on all of its rogue AI activity](https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity) ⭐4 · 2026-09-28 — TechCrunch 9 月 28 日报道 OpenAI 上线 alignment.
 - [Nvidia releases software platform to stop AI agents from misbehaving](https://www.cnbc.com/2026/09/28/nvidia-releases.html) ⭐4 · 2026-09-28 — Nvidia 发布 Open Agent Safety Platform：面向 agent 的容器化软件层，Huang 称之为agent 的浏览器只放行 agent 完成工作所需的最小权限.
 - [Cf: The Agentic CLI for the Cloudflare API](https://blog.cloudflare.com/cloudflare-cf-cli-launch) ⭐4 · 2026-09-28 — Cloudflare 开启 cf CLI 公测：为 agent 而建的命令行，覆盖整个 Cloudflare API（对比 Wrangler 手写的约 280 条命令路径）直接动因是 agent 占 Wrangler 用量从 2026 年 3 月的 25% 涨到上周的 48%.
-- [What Would a Serious AI Product Look Like?](https://blog.glyph.im/2026/09/serious-ai-product.html) ⭐4 · 2026-09-27 — Glyph Lefkowitz 9 月 27 日长文,把当前主流 AI 产品当作不严肃的 chatbot 逐项拆开,给出七节清单:把检查错误列为 first-class feature;引用必须把原文 quotation 摆在比 AI 总结更显眼的位置;研究/编程工具禁止使用第一...
-- [Human-AI partnerships are for alignment, not capability](https://seangoedecke.com/human-ai-partnerships-are-for-alignment-not-capability) ⭐4 · 2026-09-27 — 把人机协作价值从能力维度切到对齐维度：解释了为什么agent代码越写越好工程师却没有更快被替代
-- [Imp: declarative self-improving language-model programs for Elixir/BEAM](https://github.com/deepfates/imp) ⭐3 · 2026-09-27 — 把 DSPy 整套声明式 + 优化器范式搬到 BEAM：Elixir 生态第一次有了 process-friendly 的 LLM 编程模型
+- [TokenCast: Forecasting Token Consumption During LLM Agent Execution](https://arxiv.org/abs/2609.35760) ⭐4 · 2026-09-28 — 同一任务在 LLM 智能体多次执行间 token 消耗可差一个数量级，且总消耗在执行前难以预测TokenCast 为每个执行段学习可组合的成本表示（自身消耗+带来的上下文增长），相邻段复合成累计估计，把前段上下文被后继每次调用重读的隐性成本纳入预测.
+- [Shockingly Simple Self-retrospection Improves Agentic Models Without RL](https://arxiv.org/abs/2609.35741) ⭐4 · 2026-09-28 — 提出 Retrospection-Only Fine-Tuning（ROFT）：智能体完成任务后，仅对自己的复盘解释做 next-token 微调，不用外部教师不用奖励策略更新在 Qwen3.
+- [KV-streams for Efficient Compaction in Agentic Reinforcement Learning](https://arxiv.org/abs/2609.35750) ⭐4 · 2026-09-28 — 拉长智能体 RL 的任务时程被 GPU 显存中的长轨迹上下文卡住，主流上下文压缩策略每次压缩都要反复 prefill，拖垮训练吞吐KV-streams 提出流式前传 KV cache 而非压缩后冲刷，与任意压缩策略即插即用：在三种压缩策略上取得 2.
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 349 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 473 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| 模型与实验室 | 350 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 476 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 256 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 137 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 162 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 基础设施 | 139 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 163 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 112 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 289 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 2504
-- 公开展示卡片: 1778
+- 原始条目: 2511
+- 公开展示卡片: 1785
 - 有全文内容: 1691
-- 最近 7 天信号: 108
+- 最近 7 天信号: 114
 - 输出目录: `dist/`
 
 ## 热门标签
