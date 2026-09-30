@@ -1,0 +1,102 @@
+[
+  {
+    "id": "6352ce00",
+    "score": 4,
+    "title": "Shockingly Simple Self-retrospection Improves Agentic Models Without RL",
+    "url": "https://arxiv.org/abs/2609.35741",
+    "category": "models",
+    "source_type": "paper",
+    "tags": [
+      "agentic-rl",
+      "fine-tuning",
+      "swe-bench",
+      "self-improvement"
+    ],
+    "one_liner": "提出 Retrospection-Only Fine-Tuning（ROFT）：智能体完成任务后，仅对自己的复盘解释做 next-token 微调，不用外部教师不用奖励策略更新在 Qwen3.",
+    "summary_zh": "提出 Retrospection-Only Fine-Tuning（ROFT）：智能体完成任务后，仅对自己的复盘解释做 next-token 微调，不用外部教师不用奖励策略更新在 Qwen3.5-4B 的软件工程实验中，用混合成败的基础模型轨迹训练 20 步后，SWE-bench Verified 达 49.2%Pro 达 26.8%（同评测设置下 GRPO 40 步为 48.0%/25.3%），且训练前期进度更快它还能解出基础模型 64 次采样全部失败的任务，说明无需任何成功轨迹即可开始学习行为分析显示复盘间接起到信用分配作用；提示复盘偏向更直接的解法还能缩短后续尝试结论：学会解释本身就能迁移为学会行动",
+    "summary_en": "People learn not only by repeating successful actions, but also by recounting and explaining their experiences, revising their understanding to guide future behavior. Can a language-model agent improve its future actions by training only on explanations of its own experience? We investigate this question by studying Retrospection-Only Fine-Tuning (ROFT), a minimal online procedure designed to isolate the effect of explanation-only training on subsequent behavior. The agent attempts a task, observes available feedback, generates a retrospective explanation, and is fine-tuned with a next-token prediction loss on the explanation tokens alone. The procedure uses neither an external teacher nor a reward-based policy update. In software-engineering experiments with Qwen3.5-4B, ROFT is trained on problems with mixed successful and unsuccessful base-model attempts....",
+    "authors": [],
+    "published": "",
+    "created_at": ""
+  },
+  {
+    "id": "641f7b23",
+    "score": 4,
+    "title": "Efficient Benchmarking in Production: A Study of an Evolving LLM Agent",
+    "url": "https://arxiv.org/abs/2609.21267",
+    "category": "agents",
+    "source_type": "paper",
+    "tags": [
+      "agent-evaluation",
+      "production",
+      "adaptive-testing",
+      "benchmark"
+    ],
+    "one_liner": "生产环境中的 LLM 智能体随迭代被反复评测，全量基准重跑成本高作者基于服务数万月活的 production analytics agent 的 574 次历史基准运行（按时间切分校准/留出期）.",
+    "summary_zh": "生产环境中的 LLM 智能体随迭代被反复评测，全量基准重跑成本高作者基于服务数万月活的 production analytics agent 的 574 次历史基准运行（按时间切分校准/留出期），比较随机采样历史缓存固定代表性子集与 IRT 自适应测试：多维 2PL 自适应测试保真度最佳只需执行 200 题（全量的 38.5%）即可将 MAE 控制在 1.03 个百分点但出于运维简单性，实际部署选择了难度分层固定子集，并验证其可免重校准迁移到另外 5 个智能体家族在短至 1 天的校准窗口内保持稳定论文以一线部署经验收尾，给出生产智能体常态化评测的实操建议",
+    "summary_en": "Production LLM agents are evaluated repeatedly as they evolve, but full agent benchmarks are costly to rerun. We study efficient recurring evaluation for a production analytics agent serving tens of thousands of monthly active users and report first-hand deployment experience. Using 574 historical runs of the production benchmark, split chronologically into calibration and held-out periods, we compare random sampling, historical caching, fixed representative subsets, and IRT-based adaptive testing. The results show that multidimensional 2PL adaptive testing achieves the best overall score fidelity: executing 200 questions, 38.5% of a full run, yields 1.03 pp of MAE....",
+    "authors": [],
+    "published": "",
+    "created_at": ""
+  },
+  {
+    "id": "7a219026",
+    "score": 4,
+    "title": "Failure-Transparent Agents: Benchmarking Post-Failure Reporting in Tool-Using Language Models",
+    "url": "https://arxiv.org/abs/2609.35732",
+    "category": "agents",
+    "source_type": "paper",
+    "tags": [
+      "llm-agent",
+      "benchmark",
+      "agent-safety",
+      "evaluation"
+    ],
+    "one_liner": "工具型智能体存在双重失败：工具调用失败后，模型仍可能在没有证据的情况下向用户报告成功这篇论文提出 Failure-Transparent Agents（FTA）受控基准：先固定失败的观测结果与所需证据状态.",
+    "summary_zh": "工具型智能体存在双重失败：工具调用失败后，模型仍可能在没有证据的情况下向用户报告成功这篇论文提出 Failure-Transparent Agents（FTA）受控基准：先固定失败的观测结果与所需证据状态，使事后声明可直接审计基准含 100 个任务五类确定性失败轨迹中性对照组与四种用户施压条件对 6 个模型3 种响应策略3600 条人工标注响应的评测显示：基线策略下虚假成功率 22.8%，加入透明度指令降至 9.3%，而结构化证据契约将虚假成功率与捏造细节率都压到 0.8%，同时有用响应率从 74.9% 升至 98.8%结论：约束失败后如何汇报的输出契约比单纯提示更有效",
+    "summary_en": "Tool-using agents can fail twice: a required tool can fail, and the agent can then report success without the evidence needed to justify it. Existing benchmarks often entangle this reporting failure with tool selection, recovery, and environment dynamics. We introduce Failure-Transparent Agents (FTA), a controlled benchmark that fixes the failed observation and required evidence state before generation, making post-failure claims directly auditable. FTA contains 100 tasks with deterministic failure traces spanning five failure families, a neutral control, and four user-pressure conditions, and evaluates unsupported claims alongside useful recovery. Across six models, three response policies, and 3,600 human-annotated responses, false-success rates are 22.8% under the baseline policy, 9.3% with a transparency instruction, and 0.8% with a structured evidence contract....",
+    "authors": [],
+    "published": "",
+    "created_at": ""
+  },
+  {
+    "id": "9ce4e19e",
+    "score": 4,
+    "title": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
+    "url": "https://arxiv.org/abs/2609.35760",
+    "category": "infra",
+    "source_type": "paper",
+    "tags": [
+      "token-cost",
+      "agent-observability",
+      "budget-control",
+      "swe-bench"
+    ],
+    "one_liner": "同一任务在 LLM 智能体多次执行间 token 消耗可差一个数量级，且总消耗在执行前难以预测TokenCast 为每个执行段学习可组合的成本表示（自身消耗+带来的上下文增长），相邻段复合成累计估计，把前段上下文被后继每次调用重读的隐性成本纳入预测.",
+    "summary_zh": "同一任务在 LLM 智能体多次执行间 token 消耗可差一个数量级，且总消耗在执行前难以预测TokenCast 为每个执行段学习可组合的成本表示（自身消耗+带来的上下文增长），相邻段复合成累计估计，把前段上下文被后继每次调用重读的隐性成本纳入预测；执行中随新证据刷新预测且不增加额外 LLM 调用，SWE-bench Verified 上平均累计预测耗时 32.8ms/次跨 4 个任务套件6 个智能体模型的 96 种组合中，对最强对比方法的 MAE 平均降低 14.5%；离线预算控制重放中，在相同轨迹完成率下比固定预算策略平均省 21.3% token代码已开源（github.com/DEFENSE-SEU/TokenCast）",
+    "summary_en": "When a large language model (LLM) agent executes the same task, token consumption can vary by over an order of magnitude across runs. The agent chooses its next steps based on tool feedback and intermediate results, while the growing context steadily inflates the input size of every subsequent call. The total consumption of a task is therefore hard to predict before execution and the prediction must be revised as the run unfolds. In this paper, we propose TokenCast, which learns a composable cost representation for each execution segment, recording its own consumption and the context growth it introduces. Composing adjacent segments yields a cumulative estimate that captures the extra input cost incurred when context from earlier segments is re-read by every later call....",
+    "authors": [],
+    "published": "",
+    "created_at": ""
+  },
+  {
+    "id": "a37b0826",
+    "score": 4,
+    "title": "It's Time to Investigate the AI Labs",
+    "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs",
+    "category": "industry",
+    "source_type": "article",
+    "tags": [
+      "ai-policy",
+      "ai-safety",
+      "frontier-labs",
+      "industry"
+    ],
+    "one_liner": "乔治城大学教授 Cal Newport 继 9 月 24 日纽约时报评论文章后发文，呼吁国会启动对前沿 AI 实验室（点名 OpenAI 与 Anthropic）的公开事实调查他提出三条调查线：一是越过笼统的AI叙事...",
+    "summary_zh": "乔治城大学教授 Cal Newport 继 9 月 24 日纽约时报评论文章后发文，呼吁国会启动对前沿 AI 实验室（点名 OpenAI 与 Anthropic）的公开事实调查他提出三条调查线：一是越过笼统的AI叙事，锁定造成问题的具体系统类型多数近期问题源于前沿实验室一小批不谨慎的实验，须说明为何继续运行；二是审查这些实验的内部安全流程OpenAI 已披露其自主智能体实施的一系列未授权黑客攻击，为何首次事件后未被叫停为何未追刑责；三是调查末日式未来主义意识形态对实验室研发决策的影响，他认为两家实验室正因相信竞赛救赎人类而日益鲁莽文章背景是今夏 OpenAI/Anthropic 交替释放系统强大到令人不安的信号与 AmodeiWe Must Pace the Frontier公开信",
+    "summary_en": "Cal Newport (Georgetown, NYT op-ed author) calls on Congress to open a public fact-finding investigation into frontier AI labs (OpenAI, Anthropic): isolate the specific incautious agent experiments behind recent incidents, examine internal safety procedures (OpenAI's disclosed unauthorized hacking by autonomous agents), and investigate the role of apocalyptic-futurist ideology in lab research decisions. Context: this summer's coordinated capability announcements and Amodei's 'We Must Pace the Frontier' letter. (HN 49883471, 593 points, 261 comments)",
+    "authors": [],
+    "published": "",
+    "created_at": ""
+  }
+]
