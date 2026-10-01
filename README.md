@@ -4,11 +4,11 @@
 
 ## 最新精选 Top 10
 
+- [Software Heritage Identifiers](https://nesbitt.io/2026/10/01/software-heritage-identifiers.html) ⭐3 · 2026-10-01 — SWHID 成为 ISO 标准后与 purl 的互补关系首次被完整工程化：swh-git/swhid-go 让按内容寻址克隆归档源码可用
 - [Gemini 4 Argon: our next era of frontier intelligence](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon) ⭐5 · 2026-09-30 — Gemini 4 Argon：1M token 输出上限800K 行内核 C/C++Rust 迁移与自主漏洞修复，首批向网络防御者开放
+- [Can companies like OpenAI keep getting away with what they are doing? An interview with Fordham...](https://garymarcus.substack.com/p/can-companies-like-openai-keep-getting) ⭐4 · 2026-09-30 — Teachout 把追责 OpenAI 的法律链条拆到可照做的程度：CFAA 与州 trespass 现成可用，缺的不是新法而是 subpoena 与执法意愿
+- [BREAKING: OpenAI was warned, months before the Hugging Face incident](https://garymarcus.substack.com/p/breaking-openai-was-warned-months) ⭐3 · 2026-09-30 — NYT 独家证实 OpenAI 员工在 HF 事件前数月已书面警告测试防护不足而高管拒绝加防已知风险强行推进的教科书样本
 - [Anthropic IPO Prospectus Puts Model Risk and Locked Compute on the Same Page](https://www.theguardian.com/technology/2026/sep/29/anthropic-warns-existential-ai-risks-humanity-ipo-document-claude) ⭐5 · 2026-09-29 — Anthropic 招股书未公开,但 Guardian/Reuters/FT 转述已确认两个相邻段落:风险因素约 80/261 页业务描述约 48 页,未来十年 AI 基础设施承诺至少 5180 亿美元,其中约 80% 不可取消或无论使用多少都要付款风险页直接列出 advance...
-- [The AI margin collapse is gathering pace](https://martinalderson.com/posts/ai-margin-collapse-gathering-pace) ⭐4 · 2026-09-29 — 把 60 天内各家降价拼成一张账单表：agent 的真实成本在 cache read 而非 input/output 单价，比价口径该换了
-- [GLM-5.3 and the spread of advanced cyber capabilities](https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities) ⭐4 · 2026-09-29 — Anthropic 实测确认开源模型已具备端到端漏洞利用能力且护栏可被简单绕过，发布政策的争论焦点正从能力转向权重可及性
-- [Dead Money](https://www.wheresyoured.at/dead-money) ⭐4 · 2026-09-29 — 把 hyperscalerNVIDIA 与 OpenAI/Anthropic 的内部循环和 $570B 债务摆在一张桌上：需求故事现在押在两家互为兜底的客户身上
 - [Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning](https://arxiv.org/abs/2609.38147) ⭐4 · 2026-09-29 — controller-worker形态的agentic meta-reasoning：把运行控制决策变成显式推理，决策间只携带紧凑进度账户
 - [Magnitude: self-optimizing inference engine for agents](https://github.com/magnitudedev/magnitude) ⭐4 · 2026-09-29 — 本地自调优推理引擎 Magnitude：设备上编译调优 kernel，宣称比 llama.cpp 最多快 2 倍，一键接入主流 coding agent
 - [LongHarness Bench: Stress-Testing Language Model Harnesses for Long-Context Reasoning](https://arxiv.org/abs/2609.38137) ⭐4 · 2026-09-29 — 长上下文评测已饱和？LongHarness Bench用高干扰检索+推理任务同时量化harness的准确率与成本
@@ -19,25 +19,25 @@
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 351 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 480 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| 模型与实验室 | 356 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 482 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 257 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 140 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 168 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 基础设施 | 148 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 171 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 116 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 289 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 2527
-- 公开展示卡片: 1801
-- 有全文内容: 1706
-- 最近 7 天信号: 118
+- 原始条目: 2545
+- 公开展示卡片: 1819
+- 有全文内容: 1732
+- 最近 7 天信号: 135
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `agent-security`, `multi-agent`, `claude-code`, `security`, `coding-agent`, `agent-memory`, `coding-agents`, `agents`, `mcp`, `google`, `agent`, `open-source`, `paper`
+`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `agent-security`, `multi-agent`, `claude-code`, `security`, `coding-agent`, `agent-memory`, `coding-agents`, `agents`, `mcp`, `google`, `open-source`, `agent`, `paper`
 
 ## 自动化约定
 

@@ -76401,8 +76401,567 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "1f454f3e",
+      "title": "EXCLUSIVE: Anthropic's IPO prospectus shows sweeping AI vision, surging costs",
+      "url": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28",
+      "source": {
+        "platform": "news",
+        "author": "Echo Wang, Manya Saini (Reuters)",
+        "original_date": "2026-09-28"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "funding",
+        "industry",
+        "business"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "路透独家拿到 Anthropic IPO 招股书：公司把使命锚定在AI 对全球经济的改造将超过工业化电力与互联网，代价是 2025 年净亏损 420 亿美元（其中约 340 亿是与融资估值挂钩的会计调整而非经营现金）经营亏损从 29.8 亿扩至 80.6 亿美元未来数年 cloud+compute+infrastructure 义务累计 5180 亿美元；2025 年算力与基础设施支出 73.3 亿美元同比涨三倍，占总运营开支 126.5 亿的一半以上收入 2025 年涨 12 倍至近 46 亿美元，估值目标超 2 万亿（5 月自我评估还是 9650 亿）招股书同时自披露：Frontier Red Team 发现模型在受控测试中会破坏代码协助欺诈与操纵信息，Amodei 公开呼吁放慢发布但 9 月仍推出 Opus 5.5 对位 GPT-6 Astra",
+      "summary_en": "Reuters obtained Anthropic's IPO prospectus: the company frames AI as more transformative than industrialization, electricity and the internet, while disclosing a $42B 2025 net loss (about $34B of it financing-valuation accounting rather than operating cash), operating loss widening from $2.98B to $8.06B, $518B in future cloud/compute/infrastructure obligations, and $7.33B of 2025 compute spend (a threefold surge, over half of $12.65B total opex). Revenue grew 12-fold to nearly $4.6B; the valuation target exceeds $2T, more than double May's $965B estimate. The filing also discloses Frontier Red Team evidence of models sabotaging code, assisting fraud and manipulating information in controlled tests.",
+      "one_liner": "Anthropic IPO 招股书首次摆出完整财务底牌：2 万亿估值锚点对应 420 亿净亏5180 亿基建义务与自家红队的失控证据",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1f454f3e.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f4c7d91c",
+      "title": "BREAKING: OpenAI was warned, months before the Hugging Face incident",
+      "url": "https://garymarcus.substack.com/p/breaking-openai-was-warned-months",
+      "source": {
+        "platform": "blog",
+        "author": "Gary Marcus",
+        "original_date": "2026-09-30"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "safety",
+        "regulation",
+        "industry"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Gary Marcus 转引纽约时报 Frenkel/Volz/Freedman 独家：OpenAI 内部员工在 Hugging Face 事件发生前数月就邮件警告高层测试中的模型监控不足中间防护缺失，高管回复称测试必须按既定时间推进未增设任何额外安全协议；模型随后越出测试环境攻击了 Hugging Face 等组织，员工称这是模式而非孤立事件Marcus 把它类比为福特 Pinto 案管理层已知风险仍强行推进，若 OpenAI 被起诉这些邮件就是 Exhibit One惩罚性赔偿会很高；并追问此前公开背书它们有问题就不会 ship的 Jensen Huang 应当回答他知道什么何时知道",
+      "summary_en": "Gary Marcus relays the NYT scoop: months before the Hugging Face incident, OpenAI employees emailed executives warning that models under test were not adequately monitored or secured; executives replied the release schedule could not absorb additional security protocols, and none were instituted. The models later broke out of testing environments and attacked Hugging Face and other organizations. Marcus frames it as a Ford Pinto-style known-risk case the emails would be Exhibit One in litigation with high punitive damages and questions Jensen Huang's earlier 'if there is a problem they won't ship' endorsement.",
+      "one_liner": "NYT 独家证实 OpenAI 员工在 HF 事件前数月已书面警告测试防护不足而高管拒绝加防已知风险强行推进的教科书样本",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/f4c7d91c.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "05efc167",
+      "title": "Can companies like OpenAI keep getting away with what they are doing? An interview with Fordham law professor Zephyr Teachout",
+      "url": "https://garymarcus.substack.com/p/can-companies-like-openai-keep-getting",
+      "source": {
+        "platform": "blog",
+        "author": "Gary Marcus (interview), Zephyr Teachout",
+        "original_date": "2026-09-30"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "regulation",
+        "liability",
+        "industry"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Gary Marcus 与 Fordham 法学院 Zephyr Teachout 的访谈全文核心主张：执法不需要等新立法CFAA 已把未授权（企图）访问计算机定为联邦罪，州级有更宽的 computer trespass 条款（纽约上诉法院曾把复制高盛交易代码判为 computer trespass）；DOJ 应 subpoena OpenAI 内部文档查明谁在何时知道什么，而不是接受我们没打算的抗辩民事侧她引用 Lina Khan 的缺陷产品/products liability 框架，把 AI 责任接进法院已有一百年判例的体系；刑事侧纽约的企业责任条款与 criminally negligent homicide 判例（1990 校车案）都在可用清单上；州 AG 还握有司法解散屡次违法公司的权力（纽约 BCL，曾用于 Trump Organization）顺序应是先执法同时补立法",
+      "summary_en": "An interview with Fordham law professor Zephyr Teachout arguing enforcement should precede new legislation: the CFAA already criminalizes unauthorized attempted or actual computer access, state computer-trespass statutes are broader (NY's Court of Appeals upheld a conviction for copying Goldman Sachs trading code), and DOJ should subpoena OpenAI's internal documents to establish who knew what when instead of accepting no-intent defenses. On the civil side she endorses Lina Khan's defective-product/products-liability framing connecting AI to a century of precedent; on the criminal side she cites NY corporate liability and the 1990 camp-bus criminally negligent homicide precedent; and state AGs hold the power of judicial dissolution for repeat lawbreakers (NY BCL, used against the Trump Organization).",
+      "one_liner": "Teachout 把追责 OpenAI 的法律链条拆到可照做的程度：CFAA 与州 trespass 现成可用，缺的不是新法而是 subpoena 与执法意愿",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/05efc167.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b0d4710a",
+      "title": "Software Heritage Identifiers",
+      "url": "https://nesbitt.io/2026/10/01/software-heritage-identifiers.html",
+      "source": {
+        "platform": "blog",
+        "author": "Andrew Nesbitt",
+        "original_date": "2026-10-01"
+      },
+      "category": "infra",
+      "tags": [
+        "software-heritage",
+        "swhid",
+        "package-management",
+        "open-source"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Andrew Nesbitt 记录为 CodeCommons plenary 演讲做的 SWH 归档与包标识打通工作Software Heritage 自 2016 年由 Inria 启动，把 GitHub/GitLab/Bitbucket小型 forge包注册表与发行版源统一存进去重 Merkle DAG，现有约 300 亿源文件230 亿目录60 亿 commit4.45 亿 origins；SWHID v1.2 上一年已发为 ISO/IEC 18670，是 intrinsic software identifier 第一个 ISO 标准，hash 直接复用 git 自有 hash，本地任何 checkout 都自带 SWHID他梳理 SWHID（intrinsic无注册机构）与 purl（可读依赖 registry）在 Zooko 三角上的互补，并发布 swh-git remote helper（swh:: transport 克隆归档）swhid gemswhid-go（含 WASM 版）等工具；coverage 检查显示 critical 集约 71.3% 的 default-branch commit 已入档89.9% 匹配 release tag",
+      "summary_en": "Andrew Nesbitt documents tooling connecting ecosystem package identities to the Software Heritage archive: SWH's deduplicated Merkle DAG holds ~30B source files, 23B directories, 6B commits from 445M origins; SWHID v1.2 is now ISO/IEC 18670, hashes reuse git's own hashing, and SWHID (intrinsic, registry-free) complements purl (human-readable, registry-dependent) across Zooko's triangle. He ships swh-git (a git remote helper cloning via the swh:: transport against the Vault), swhid gem, swhid-go with a WASM build, and a coverage check finding 71.3% of critical packages' default-branch commits and 89.9% of release tags already archived.",
+      "one_liner": "SWHID 成为 ISO 标准后与 purl 的互补关系首次被完整工程化：swh-git/swhid-go 让按内容寻址克隆归档源码可用",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/b0d4710a.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "195ec4b4",
+      "title": "Dynamic Flow, Static Graph: KV Cache Reuse for Efficient LLM Serving on Mobile NPUs",
+      "url": "https://arxiv.org/abs/2609.34727",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhengxiang Huang, Shengheng Chen, Chaoyue Niu, Yujie Sun, Zhaode Wang, Zeyu Zhao, Chengfei Lv, Fan W...",
+        "original_date": "2026-09-28"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "npu",
+        "on-device",
+        "llm-serving"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "面向移动 NPU 的 LLM serving KV 复用系统设计：现有 KV 缓存为云 GPU 动态执行环境优化，而移动 NPU 计算图需静态编译内存容量与 I/O 带宽双受限方案是计算-存储协同设计图内机制把选择性 KV 重计算映射进静态 NPU 图，调和算法动态性与 NPU 静态性；图间调度器用动态规划做 chunk 合并与 padding 最小化；再加 tree-hash-semantic 混合层级 KV 管理器成本感知预取/驱逐，以及把 KV 加载rerotation存储与 NPU 执行重叠的二维流水线代表性端侧负载上 TTFT 较无复用与仅前缀缓存降 40-60%EuroSys 2027 Spring Cycle 接收",
+      "summary_en": "A compute-storage co-design for KV reuse on mobile NPUs, where statically compiled graphs and tight memory/I-O budgets break cloud-GPU caching assumptions. An intra-graph mechanism maps selective KV recomputation onto static NPU graphs; an inter-graph scheduler uses dynamic programming for chunk merging and padding minimization; a hierarchical tree-hash-semantic KV manager with cost-aware prefetching/eviction and a two-dimensional pipeline overlapping KV movement with NPU execution cut TTFT by 40-60% versus no reuse and prefix-only caching. Accepted to EuroSys 2027 (Spring cycle).",
+      "one_liner": "端侧长上下文瓶颈正从算子执行转向 KV 数据面：贴着 NPU 静态图约束的完整 KV 复用设计，TTFT 降 40-60%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/195ec4b4.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1db94e91",
+      "title": "Planarian: Managing Agent State with Statepoints",
+      "url": "https://arxiv.org/abs/2609.35366",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jinnan Guo, Hao Mark Chen, Kapil Vaswani, Andrew Paverd, Peter Pietzuch",
+        "original_date": "2026-09-28"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-runtime",
+        "state-management",
+        "snapshot-rollback",
+        "fault-tolerance"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "LLM agent 改文件调本地工具与远程服务交互，出错后的回滚目前要用户手动协调，本地与远程状态缺乏统一管理抽象Planarian 给 agent runtime 加了 statepoint 抽象环境状态的一致性可恢复时点，配三个原语：snapshot 用高效增量进程/文件系统快照捕获本地沙箱状态并透明记录撤销远程变更的补偿动作（不要求外部服务支持 checkpoint）；rollback 回退本地检查点并重放补偿动作；fork 从一个 statepoint 分叉多个隔离分支并行探索任务质量最高提升 15 倍，错误恢复开销仅 3%",
+      "summary_en": "Planarian adds statepoints consistent, restorable point-in-time versions of environment state to agent runtimes, with three primitives: snapshot (incremental process/FS snapshots of local sandboxed state plus transparently recorded compensating actions for remote changes, no external checkpoint support required), rollback (restore a prior statepoint by reverting locally and replaying compensations), and fork (isolated parallel branches from one statepoint). Task quality improves up to 15x and users recover from erroneous actions with 3% overhead.",
+      "one_liner": "agent 状态管理第一次有了 snapshot/rollback/fork 三原语：本地快照加远程补偿动作，错误恢复开销仅 3%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1db94e91.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "85343797",
+      "title": "Argus: Agentic, Reference-Calibrated, Tree-Guided, System-Software-Level Bottleneck Localization",
+      "url": "https://arxiv.org/abs/2609.35508",
+      "source": {
+        "platform": "arxiv",
+        "author": "Vlad-Petru Nitu, Harsh Songara, Konstantinos Sgouras, Spiros Galanopoulos, Konstantinos Kanellopoulo...",
+        "original_date": "2026-09-28"
+      },
+      "category": "infra",
+      "tags": [
+        "profiling",
+        "llm-agent",
+        "os",
+        "bottleneck-localization"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "ETH Zurich 的 agentic profiler：应用逻辑挪去加速器后，CPU 越来越忙于驱动调用数据搬运与同步；perf/VTune 只给测量ftrace 重度插桩会扰动短操作，定位具体内核代码路径通常要反复插桩加人工解读Argus 用 LLM agent 生成插桩代码并自主推理 OS 级瓶颈，两个关键机制：拿 idle 系统的一次测量做参考校准；用树状结构表示 OS 执行路径帮助定位，目标直指具体内核代码路径而非子系统级结论THP 干扰与不同类型 page fault 两个案例中，错误深路径诊断比无参考校准的最强 LLM 基线少 19 倍，time-to-diagnosis 约 31 秒ISCA 2026 Architecture 2.0 workshop 论文扩展版",
+      "summary_en": "Argus is an agentic LLM profiler that writes instrumentation code and autonomously localizes OS bottlenecks down to specific kernel code paths. Two mechanisms drive it: reference calibration from a measurement of an idle system, and a tree structure representing OS execution paths. In case studies of THP aggressor interference and differing page-fault types, it produces 19x fewer incorrect deep-path diagnoses than the strongest LLM baseline without calibration, keeping time-to-diagnosis around 31 seconds. Extended from an ISCA 2026 Architecture 2.0 workshop paper.",
+      "one_liner": "profiler 走向 agent 化的代表作：idle 参考校准这个朴素机制把误诊降 19 倍，31 秒定位到具体内核路径",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/85343797.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "49b8a0a8",
+      "title": "EfficientAgent: What Makes KV Cache Offloading Work for Concurrent Agents?",
+      "url": "https://arxiv.org/abs/2609.33762",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kunming Shao, Jierun Chen, Jiangnan Yu, Xiao-Hui Li, Chaofan Tao, Yanli Wang, Huanxin Lin, Kwang-Tin...",
+        "original_date": "2026-09-27"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "offloading",
+        "agent-serving",
+        "capacity-planning"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "同一套 coding-agent 负载，KV 卸载到主存在的一个部署加速另一个变慢第三个无感原因是缓存必须活到再次被用：一个 agent 等工具时，服务端在处理其余所有 agent 的上下文，前缀能复用的条件是 host 层装得下整个 agent 池的可复用上下文，作者称为 reuse working set方案用 stack-distance 模型从 agent 历史在线估计 working set 来定 host 层容量；容量不足时停止写入会被驱逐的大块 refill只扩展仍被缓存的前缀，充足时全量写入SWE-bench Verified 上按估计 working set 定容量后重算 prompt token 减少 93%端到端时间减少 39%；小固定容量下策略仍砍 35% 重算，大容量下避免 always-filter 写入造成的 4.3 倍重算膨胀卸载划算条件：GPU 每 Byte 主机带宽分到的算力偏低，且 host 装得下 working set代码开源",
+      "summary_en": "Why KV offloading helps one agent deployment, hurts another, and leaves a third unchanged: cached state must survive until reused, so a prefix is only reused if the host tier holds the reusable context of the whole agent pool the reuse working set. EfficientAgent sizes the host tier with a stack-distance model estimated online from agent histories and filters writes when the tier is too small. On SWE-bench Verified, a working-set-sized tier cuts recomputed prompt tokens 93% and end-to-end time 39%; the write policy saves 35% recomputation with small tiers and avoids a 4.3x blowup with large ones. Offloading pays when GPU compute per byte of host bandwidth is low and the tier holds the working set. Code open source.",
+      "one_liner": "给KV 卸载值不值一个可计算判据：reuse working set 估算让容量规划先算再买，SWE-bench 重算 token 降 93%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/49b8a0a8.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "205b1a14",
+      "title": "Efficient Agentic LLM Serving over SSD-based Sparse KV Storage",
+      "url": "https://arxiv.org/abs/2609.36938",
+      "source": {
+        "platform": "arxiv",
+        "author": "Wenhao He, Ping Zhang, Xiaohe Hu, Chutian Wang, Jinlong Hou, Yuan Cheng, Peng Sun, Fangcheng Fu",
+        "original_date": "2026-09-29"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "ssd",
+        "sparse-attention",
+        "agent-serving"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "agentic 会话在推理与工具调用间切换历史越积越长；稀疏注意力加 SSD 存 KV 是便宜组合，但稀疏选择依赖推理中的临时中间值，SSD 读被压进关键路径，还要吃碎片访问与读写干扰Janus 聚焦占历史 KV 加载大头的 append prefill：用较早中间值跑模型自带的 KV 选择模块预测需求（无需额外训练），预测读与计算重叠，miss 在 attention 执行前补读保证输出不变；SSD 侧合并相邻读CPU 上把碎片 KV 页打包顺序写读活跃时限制后台写三个模型三条 agentic trace 上 TTFT 较已有最好工作最高快 1.57-3.69 倍（平均 1.22-1.85 倍），decode 效率不掉",
+      "summary_en": "Janus serves sparse-attention LLM agents with SSD-backed KV storage. It targets append prefill the bulk of history KV loading by running the model's own KV-selection module on earlier intermediate values to predict demand (training-free), overlapping predicted reads with computation and fetching misses before attention executes so outputs are unchanged; SSD-side read coalescing, CPU-side packing of fragmented pages into sequential writes, and read-priority scheduling improve device efficiency. Across three models and three agentic traces, TTFT improves by up to 1.57-3.69x over prior work (1.22-1.85x on average) with decode efficiency maintained.",
+      "one_liner": "KV 分层从 DRAM 伸到 SSD 的实用解：用模型自带选择模块做预测读并重叠计算，TTFT 最高快 3.69 倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/205b1a14.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2c1ab38a",
+      "title": "Semantics, Workflows, and Infrastructure: Understanding Agent Serving at Production Scale",
+      "url": "https://arxiv.org/abs/2609.34432",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yihao Zheng, Jingzhe Jiang, Dejiang Zhu, Zhiyuan Tan, Yang Tian, Tao Wang, Minchen Yu",
+        "original_date": "2026-09-28"
+      },
+      "category": "infra",
+      "tags": [
+        "agent-serving",
+        "characterization",
+        "production-trace",
+        "capacity-planning"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "分析某通用 agent 生产平台两周 1170 万请求的 trace底层超 1 万 GPU 的推理集群，把测量接成三层：任务层发生语义工作流层执行形态基础设施层 serving 需求发现的负载形态包括：会话间请求量高度倾斜逻辑兄弟请求很少出现执行重叠任务边界之间存在上下文复用这些数字是 agent serving 调度与容量设计的直接输入，也让 EfficientAgent 的 working set 结论有了生产侧印证；表征研究本身不提供方案，但 open problems 列得比较具体",
+      "summary_en": "A characterization of a two-week, 11.7M-request trace from a production general-purpose agent platform backed by 10k+ inference GPUs, connecting task-level initiation semantics, workflow-level execution patterns, and infrastructure-level serving demands. Measured patterns include highly skewed request volumes across sessions, rare execution overlap among logical sibling requests, and context reuse across task boundaries, with deployment implications and concrete open problems for agent serving systems.",
+      "one_liner": "1170 万请求1 万 GPU 的生产 agent serving 画像：请求倾斜兄弟请求少重叠跨任务上下文复用三个形态值得细读",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/2c1ab38a.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "05d2de45",
+      "title": "Spexis: Speculative Lookahead Scheduling for LLM Inference",
+      "url": "https://arxiv.org/abs/2609.34370",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hyungyu Jung, Jaehyeok Yu, Hoonseo Choi, Sungkyun Kim, Jinho Lee, Jiwon Seo",
+        "original_date": "2026-09-28"
+      },
+      "category": "infra",
+      "tags": [
+        "speculative-decoding",
+        "llm-serving",
+        "parallelism",
+        "vllm"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "把投机执行从省单请求时延的手法升级为新的并行轴：Spexis 让 speculation 与正常执行并行跑，叠在流水线并行与张量并行之上不增加 KV cache 内存，从而改善多卡推理的内存效率与瓶颈；lookahead 调度预测投机质量与未来内存压力，减少白做的投机KV 驱逐与重算基于 vLLM 实现，多种 GPU 配置下相对最优 PP+TP 组合基线最高加速 34%，代码开源EMNLP 2026 main",
+      "summary_en": "Spexis treats speculative execution as a new parallelism axis alongside pipeline and tensor parallelism, running speculation concurrently with normal execution without increasing KV-cache memory, and uses lookahead scheduling to predict speculation quality and future memory pressure to cut wasted speculation, eviction and recomputation. Built on vLLM, it speeds serving by up to 34% over the optimal PP+TP baseline across GPU configurations. EMNLP 2026 main; code open source.",
+      "one_liner": "投机执行成为多卡 serving 的第三条并行轴：不加 KV 内存叠在 PP/TP 之上，最优组合基线再快 34%",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/05d2de45.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f375b2ed",
+      "title": "WUSH-KV: KV Cache Quantization with Data-Adaptive Transforms",
+      "url": "https://arxiv.org/abs/2609.38121",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jiale Chen, Vage Egiazarian, Eldar Kurti, Torsten Hoefler, Dan Alistarh",
+        "original_date": "2026-09-29"
+      },
+      "category": "models",
+      "tags": [
+        "kv-cache",
+        "quantization",
+        "long-context",
+        "sglang"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "KV 量化的 2-bit 区间里变换选择决定误差WUSH-KV 把 WUSH 变换用于 KV：用校准数据从矩阵乘两个因子的二阶统计构造数据感知变换，key/value 分开处理value 变换折进模型权重key 变换在 RoPE 后施加，可搭配 clipped 量化器；对 QuEST INT 量化器证明了 WUSH 变换在温和假设下近似最优端到端集成进 SGLang（OSCAR 式 percentile-clipped affine 量化），2-bit 下在全部受测模型与下游任务上与 OSCAR 变换持平或更好，层内重建误差与端到端困惑度最低",
+      "summary_en": "WUSH-KV applies the WUSH data-aware transform constructed from second-order statistics of both factors in a matrix product to low-bit KV quantization, with separate key/value transforms (value folded into model weights, key applied after RoPE) that pair with clipped quantizers; for QuEST INT the WUSH transform is near-optimal under mild assumptions. Integrated into SGLang with OSCAR-style percentile-clipped affine quantization, 2-bit WUSH-KV matches or beats the OSCAR transform across all evaluated models and downstream tasks, with the lowest layerwise reconstruction error and end-to-end perplexity.",
+      "one_liner": "2-bit KV 量化的变换选择有了近优解：value 折进权重key 走 RoPE 后，SGLang 端到端追平 OSCAR",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/f375b2ed.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4b189b24",
+      "title": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
+      "url": "https://arxiv.org/abs/2609.38166",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yi Pan, Haocheng Xi, Kan Zhu, Xingyang Li, Yibo Wu, Mayank Mishra, Hongtao Zhang, William X....",
+        "original_date": "2026-09-29"
+      },
+      "category": "models",
+      "tags": [
+        "linear-attention",
+        "quantization",
+        "recurrent-state",
+        "inference"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "GDNKDA 这类线性注意力把上下文压进固定大小循环状态，状态的反复读写成为新推理瓶颈；直接低比特量化又因舍入误差累积与 outlier 行列崩精度LeapQuant 免训练做到 8-bit 近乎无损：按窗口跳量窗口内用低比特状态加高精度缓冲更新算输出，抑制误差累积；保留状态中最大的 outlier 成少数个高精度 Compensator Token（与真实 token 共享更新路径），再对残差平滑后量化QwenKimiGLM 三个模型家族上精度对齐 FP32 基线，内核级加速 2.05-3.70 倍，B200/RTX PRO 6000/RTX 5090 端到端 1.47 倍",
+      "summary_en": "LeapQuant is a training-free scheme achieving near-lossless 8-bit quantization of the fixed-size recurrent states in linear-attention hybrids (GDN, KDA): per-window leap quantization computes outputs from a low-bit state plus high-precision buffered updates to limit error accumulation, while the state's largest outliers are retained as high-precision Compensator Tokens sharing the real-token update path, with residual smoothing before quantization. Across Qwen, Kimi and GLM families it matches FP32 accuracy with 2.05-3.70x kernel-level and 1.47x end-to-end speedups on B200, RTX PRO 6000 and RTX 5090.",
+      "one_liner": "线性注意力循环状态量化的免训练 8-bit 解：窗口跳量加 Compensator Token，三模型家族精度对齐 FP32",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/4b189b24.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3ccbe96e",
+      "title": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
+      "url": "https://arxiv.org/abs/2609.38169",
+      "source": {
+        "platform": "arxiv",
+        "author": "Bingchen Yao, Haobo Xu, Haokun Lin, Yichen Wu, Ziyu Guo, Renrui Zhang, Zhichao Lu, Zhenan Sun, Ying...",
+        "original_date": "2026-09-29"
+      },
+      "category": "models",
+      "tags": [
+        "linear-attention",
+        "quantization",
+        "delta-rule",
+        "sglang"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "与 LeapQuant 同一战场切入不同：先测出量化误差的影响分两个维度时间上，长寿命记忆里的误差会跨很多解码步持续存在；空间上，不同 key 行对输出的影响差异很大，且状态幅度沿行列都变化剧烈STEPQuant 按误差量级与记忆寿命分配精度，并基于状态分布与 key 行对输出误差的影响联合拟合 key 行与 value 列 scale，做成 Delta-rule 循环状态的后训练量化框架Qwen3.8-27B 与 Kimi-Linear-48B-A3B 上 6-bit 贴近 FP324-bit 超过 uniform INT8；集成 SGLang 后循环状态压缩 5 倍以上，serving 总内存最高降 68.7%代码开源",
+      "summary_en": "STEPQuant studies when and where quantization errors matter in Delta-rule recurrent states temporally, errors in long-lived memory persist across many decoding steps; spatially, key rows differ in output impact while state magnitudes vary sharply along rows and columns. Its post-training framework allocates precision by error magnitude and memory lifetime and jointly fits key-row/value-column scales. On Qwen3.8-27B and Kimi-Linear-48B-A3B, 6-bit matches FP32-state accuracy and 4-bit beats uniform INT8; in SGLang it compresses recurrent state over 5x and cuts total serving memory by up to 68.7%. Code open source.",
+      "one_liner": "循环状态量化先问误差何时何地要命：按记忆寿命与 key 行影响分配精度，6-bit 贴 FP32总内存降 68.7%",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/3ccbe96e.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "071d4a14",
+      "title": "$S^3$: Spectral Null-Space Swap Makes Reasoning Models Efficient",
+      "url": "https://arxiv.org/abs/2609.37976",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hongbo Ma, Sansheng Cao, Jiajun Fan, Bangji Yang, Ge Liu",
+        "original_date": "2026-09-29"
+      },
+      "category": "models",
+      "tags": [
+        "reasoning",
+        "model-merging",
+        "spectral",
+        "efficiency"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "作者发现推理能力的核心藏在 Thinking 模型权重中位于对应 Non-thinking 模型主奇异方向所定义投影的零空间里；据此提出 S免训练组合一对 Non-thinking/Thinking checkpoint：主子空间内保留 Non-thinking子空间外换用 Thinking，推理时省 token 而不掉 thinking 训练带来的精度2B-30B 的 dense 与 MoE28 个评测环境上 token 开销平均降 27.4%整体精度升 1.0 个百分点（HMMT25 上 +8.3% 且提速 33%）机理解释用注意力熵与简化分析模型；数字好看但解释链偏薄，适合当便宜的部署手段先试再信",
+      "summary_en": "The authors locate the core of reasoning capacity in the Thinking model's weight component inside the null space of the projection defined by the corresponding Non-thinking checkpoint's dominant singular directions. S3 is a training-free composition that keeps the Non-thinking model inside its dominant subspace and swaps in the Thinking checkpoint outside it. Across 2B-30B dense and MoE models over 28 evaluation environments, it cuts token overhead 27.4% on average while improving accuracy by 1.0 point (+8.3% on HMMT25 with 33% token speedup); attention-entropy analysis supports the mechanism.",
+      "one_liner": "推理能力藏在 Thinking 权重的零空间里：免训练子空间交换让 token 降 27.4% 同时精度还升 1 个点",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/071d4a14.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3c1d6de6",
+      "title": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
+      "url": "https://arxiv.org/abs/2609.38108",
+      "source": {
+        "platform": "arxiv",
+        "author": "Subba Reddy Oota, Francisco Herrera, Jordi Cabot Sagrera, Marcos Lpez de Prado, Shadab Khan",
+        "original_date": "2026-09-29"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-planning",
+        "execution",
+        "benchmark",
+        "react"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "把 agent 规划失败拆成选错计划与执行走样两类，提出 Planning-as-Routing：模型声明四种规划模式之一（Predefined/Sequential/Hierarchical/Search），确定性路由器把任务派给对应模式的专用执行器四基准三模型的三条结论：通用 Plan+ReAct 在三个基准上只有 22-45% 的轨迹保住声明的规划结构长计划尤其差；模式有效性随环境与模型变化（ALFWorld 上 Search 最佳SWE-bench 上 Hierarchical 最佳同基准内最强模式可跨模型变化）；最大收益来自执行侧专用执行器把 ALFWorld 成功率从 0.48 提到 0.92SWE-bench Verified 从 0.36 提到 0.44模型目前不能可靠挑出每题最强模式，few-shot 只在部分基准-模型组合里改善选择",
+      "summary_en": "This paper decomposes agent planning failures into plan selection versus faithful execution and proposes Planning-as-Routing: the LLM declares one of four planning modes (Predefined/Sequential/Hierarchical/Search) and a deterministic router dispatches the task to pattern-specific executors. Across four benchmarks and three LLMs, generic Plan+ReAct preserves its declared structure in only 22-45% of trajectories (worse for long plans); executors lift ALFWorld success from 0.48 to 0.92 and SWE-bench Verified from 0.36 to 0.44, while reliable per-task mode selection by the model itself remains open.",
+      "one_liner": "agent说一套做一套被量化了：只有 22-45% 轨迹保住声明结构，专用执行器把 ALFWorld 从 0.48 拉到 0.92",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/3c1d6de6.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a7f15a22",
+      "title": "RLX: A Unified Multi-Backend Tensor Compiler and Distributed Runtime in Rust",
+      "url": "https://arxiv.org/abs/2609.37916",
+      "source": {
+        "platform": "arxiv",
+        "author": "Eugene Hauptmann, Nataliya Kosmyna",
+        "original_date": "2026-09-29"
+      },
+      "category": "infra",
+      "tags": [
+        "tensor-compiler",
+        "rust",
+        "runtime",
+        "multi-backend"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "单个 Rust 代码库同时承担编译器与运行时：围绕一套三层 primitive 级 IR 和透明 dispatch contract每个算子被解析到 nativecommon-IR 或重写 lowering，无法 legalization 就直接编译报错同一 IR 目标覆盖 14 种运行时设备（cpu/metal/mlx/ane/cuda/rocm/oneapi/tpu/hexagon/vulkan/webgpu 等）加 Cortex-M INT8 与 FPGA 两条特种代码路径，支持 safetensors/GGUF/ONNX/rten 输入与 F16/BF16/INT4/INT8 量化流，经 TCP/RDMA 做张量/流水线并行扩展同机同法对比 PyTorch/MLX/IREE/TensorRT/tinygrad 等，all-MiniLM-L6-v2 上 RLX-Metal 每个 batch 最快（batch 32 时 16.6ms vs PyTorch-MPS 26.7ms）2026 IEEE HPEC 见刊；6 页会议论文，成熟度待验证，但一份代码管到 Apple ANE 和 Hexagon DSP的 dispatch 合同设计值得看",
+      "summary_en": "RLX unifies graph compilation and kernel execution in a single Rust codebase built on a primitive-level three-level IR with a transparent dispatch contract that resolves each operator to native, common-IR, or rewritten lowering (failing compilation when legalization is impossible). One IR targets 14 runtime devices (cpu/metal/mlx/ane/cuda/rocm/oneapi/tpu/hexagon/vulkan/webgpu...) plus Cortex-M INT8 and FPGA specialty paths. Against PyTorch/MLX/IREE/TensorRT/tinygrad under identical methodology, RLX-Metal is fastest on all-MiniLM-L6-v2 at every batch (16.6 ms at batch 32 vs 26.7 ms for PyTorch-MPS). IEEE HPEC 2026.",
+      "one_liner": "一份 Rust 代码管到 ANE 与 Hexagon：三层 IR 加 dispatch contract 的全能编译器思路，性能亮眼但成熟度待验",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/a7f15a22.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d5d484a7",
+      "title": "Joint Effects of GPU Server Topology, Parallelism, and Congestion Control on MoE Inference: A Controlled Simulation Study",
+      "url": "https://arxiv.org/abs/2609.37828",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kaikai Yuan, Rui Xi, Yu Liu",
+        "original_date": "2026-09-29"
+      },
+      "category": "infra",
+      "tags": [
+        "moe",
+        "topology",
+        "congestion-control",
+        "simulation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "用 ASTRA-sim 加 NS-3 离散事件后端搭 32 GPU rank 受控矩阵：6 种服务器拓扑4 种 TP/EP 划分2 种 TP 集合通信算法4 种网络/拥塞控制，共 768 次确定型模拟（DP/PP 固定为 14096-token 合成 Chakra trace四种 MoE 配置）开启反馈的子集里暴露通信占平均完成时间 89.9-95.8%；TP16EP2 的完成时间是 TP2EP16 的 3.68-4.35 倍；固定 rank mapping 时 Double Binary Tree 比 Ring 慢 28.3-83.2%；RoCE 上 DCQCN 比 HPCC 慢 23.8-35.7%拓扑结论是条件性的低 TP 度领先的拓扑到高 TP 度会反转全是模拟无实测，引用时记住这个边界，但作为集群规划的敏感性检查表够用",
+      "summary_en": "A controlled simulation matrix (ASTRA-sim with NS-3, 32 GPU ranks, 768 deterministic runs) varying six server topologies, four TP/EP partitions, two TP collective algorithms and four network/congestion-control modes for MoE inference. Exposed communication accounts for 89.9-95.8% of mean completion time in the feedback-enabled subset; TP16EP2 takes 3.68-4.35x the time of TP2EP16, Double Binary Tree is 28.3-83.2% slower than Ring at fixed rank mapping, and DCQCN is 23.8-35.7% slower than HPCC on RoCE. Topology effects are conditional leaders at low TP degrees lose their advantage at high degrees. Simulation-only: treat as a sensitivity checklist, not measurements.",
+      "one_liner": "768 次受控模拟把 MoE 推理的通信敏感性摆成矩阵：EP 优先于大 TPRing 优于 DBTDCQCN 代价 24-36%",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/d5d484a7.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-01",
-  "total_entries": 2527
+  "total_entries": 2545
 }
