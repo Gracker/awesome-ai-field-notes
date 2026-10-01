@@ -76144,8 +76144,265 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "008268b1",
+      "title": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
+      "url": "https://arxiv.org/abs/2609.38143",
+      "source": {
+        "platform": "arxiv",
+        "author": "Cheng Qian, Kunlun Zhu, Beibin Li, Zhenhailong Wang, Heng Ji",
+        "original_date": "2026-09-29"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "agent-harness",
+        "meta-learning",
+        "test-time-compute",
+        "ai4ai"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "研究测试时 AI4AI：在 Builder 与 Target 模型权重均冻结的前提下，让 Builder 学会为 Target 构建更好的执行环境（agent harness）核心是 Meta-Skill：从 Target 在开发集上的执行反馈中提炼出何时需要支持提供什么资源的原则库，再用冻结的技能库为未见任务构建 harness在 Harness-Bench 与 NewtonBench 上，全库 meta-skills 将 macro-average 性能较无技能构建提升 8.95 个百分点，较直接把技能库塞给 Target 提升 12.02 个百分点，说明把经验转成可执行的环境支持比直接给经验更有效",
+      "summary_en": "Studies test-time AI4AI: with both Builder and Target model weights frozen, a Builder learns to construct better execution environments (agent harnesses) for a Target. Meta-Skills are principles distilled from the Target's execution feedback on a dev set specifying when support is needed and what resources to provide; the frozen skill bank then builds harnesses for unseen tasks. On Harness-Bench and NewtonBench, full-bank meta-skills improve macro-average performance by 8.95 points over no-skill construction and 12.02 points over directly handing the bank to the Target.",
+      "one_liner": "Builder从执行反馈中提炼meta-skills为Target构建agent harness，双冻结下比直接给经验多拿12个百分点",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/008268b1.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c9bc0041",
+      "title": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning",
+      "url": "https://arxiv.org/abs/2609.38147",
+      "source": {
+        "platform": "arxiv",
+        "author": "Paras Dahal, Anton Bakhtin, Taco Cohen, Jason Weston, Anirudh Goyal, et al.",
+        "original_date": "2026-09-29"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "inference-harness",
+        "meta-reasoning",
+        "controller-worker",
+        "test-time-compute"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "提出 agentic meta-reasoning：一种推理时 harness，把接下来基于哪些部分工作是否重开何时停这些运行控制决策变成显式结构化的推理过程Worker 承担任务级计算，controller 负责汇总当前进展探索下一步选项在剩余预算下估算各选项价值并携带持久记忆中的上下文派发工作；决策之间只携带紧凑的进度账户而非重放全部历史基线覆盖生产级 coding agent 与研究 harness，并包含同 worker 同算力的 Direct Control Agent 作对照",
+      "summary_en": "Introduces agentic meta-reasoning, an inference-time harness that makes run-control choices (which partial work to build on, whether to restart, when to stop) an explicit structured reasoning process. Workers perform task-level computation while a controller consolidates progress, explores options, values each under the remaining budget, and dispatches work with context from persistent memory, carrying only a compact account of the run between decisions. Baselines span production coding agents and research harnesses plus a matched Direct Control Agent.",
+      "one_liner": "controller-worker形态的agentic meta-reasoning：把运行控制决策变成显式推理，决策间只携带紧凑进度账户",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c9bc0041.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "61105b8a",
+      "title": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
+      "url": "https://arxiv.org/abs/2609.38155",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hui Ren, Lei Fan, Han Guo, Alexander Schwing, Gang Hua, et al.",
+        "original_date": "2026-09-29"
+      },
+      "category": "learning",
+      "tags": [
+        "arxiv",
+        "video-memory",
+        "entity-grounding",
+        "long-video-qa",
+        "memory-consolidation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "针对长视频问答中同一物体跨小时/天的事件串联难题，提出 Grounded Entity Biographies（GEB）：在记忆构建阶段把跨片段的同一物理实例的视觉接地观察归组成可检索的实体生平，同时保留每个时刻的上下文问答时将生平与情节性证据一并检索，让模型能沿着记忆巩固时建立的身份链追踪实体解决了时序描述与文本实体无法解决物理身份（不同物体共享描述同一物体观察断开）的检索失效问题",
+      "summary_en": "Targets long-video QA that requires connecting events involving the same physical object across hours or days. Grounded Entity Biographies (GEB) groups visually grounded observations of the same physical instance across clips into retrievable biographies while preserving per-moment context; at QA time the biography is retrieved alongside episodic evidence so the model can follow an entity via identity links established during memory consolidation, fixing retrieval failures where different objects share a description and observations of one object stay disconnected.",
+      "one_liner": "长视频记忆新形态：按物理实例把跨片段观察归组成可检索实体生平，修补身份断链的检索失效",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/61105b8a.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "890e947f",
+      "title": "LongHarness Bench: Stress-Testing Language Model Harnesses for Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2609.38137",
+      "source": {
+        "platform": "arxiv",
+        "author": "Quang Hieu Pham, Thuy Duong Nguyen, Jocelyn Qiaochu Chen, Xi Ye",
+        "original_date": "2026-09-29"
+      },
+      "category": "learning",
+      "tags": [
+        "arxiv",
+        "benchmark",
+        "long-context",
+        "harness-evaluation",
+        "retrieval"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "指出现有长上下文评测已无法区分现代 harness（各 harness 准确率饱和评估成本相近），推出同时衡量有效性与效率的基准：任务需要词汇检索与语义匹配等多样检索策略，以及对全局/局部上下文的策略性自适应推理大量上下文语义相关但每步只有少量真正有用，既构成搜索难题也造成不同处理策略的准确率-成本权衡差异，例如用证据散点找出满足多条件的所有人物的任务",
+      "summary_en": "Argues existing long-context evaluations are saturated and cannot distinguish modern harnesses, and introduces a benchmark scoring both effectiveness and efficiency. Tasks require diverse retrieval strategies (lexical search, semantic matching) plus strategic adaptive reasoning over global and local context; much of the context is semantically relevant but only a small subset useful at each step, creating a hard search problem and distinct accuracy-cost tradeoffs across processing strategies.",
+      "one_liner": "长上下文评测已饱和？LongHarness Bench用高干扰检索+推理任务同时量化harness的准确率与成本",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/890e947f.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "22c95c70",
+      "title": "How Many Tasks Are Enough for Agent Benchmark Decisions? A Replay Analysis of Public LLM Agent Benchmarks",
+      "url": "https://arxiv.org/abs/2607.12338",
+      "source": {
+        "platform": "arxiv",
+        "author": "Wei-Jung Huang",
+        "original_date": "2026-07-14"
+      },
+      "category": "learning",
+      "tags": [
+        "arxiv",
+        "benchmark-methodology",
+        "evaluation-cost",
+        "replay-analysis",
+        "kdd-2026"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "用重放（replay）分析回答agent 基准跑多少任务才能支撑两两对比结论：基于 SWE-benchAppWorldtau-bench 的已完成任务级记录，定义部分预算足够的三条件支撑完整基准的成对结论覆盖必需任务组未决比较不超目标比例所需任务比例差异悬殊：在 5 百分点预算网格的最严 0 百分点阈值下，AppWorld 15%tau-bench 25% 即达标，SWE-bench Verified 需 90%，SWE-bench Lite 在 95% 仍不达标（KDD 2026 Workshop）",
+      "summary_en": "Replays completed public task-level records from SWE-bench, AppWorld, and tau-bench to ask whether a partial run supports the same pairwise conclusion as the completed benchmark. A partial budget counts as enough only if it supports the completed benchmark's decision, covers required task groups, and leaves at most a target fraction of comparisons unresolved. Required task fractions vary sharply: at the strict 0-point threshold on a 5-point budget grid, AppWorld first meets all targets at 15 percent, tau-bench at 25, SWE-bench Verified at 90, and SWE-bench Lite never by 95 (KDD 2026 Workshop on Agentic AI Evaluation and Trustworthiness).",
+      "one_liner": "重放SWE-bench/AppWorld/tau-bench完赛记录：部分跑多少任务才保真AppWorld 15%即够，SWE-bench Lite 95%不够",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/22c95c70.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9e57e69a",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
+      "source": {
+        "platform": "google",
+        "author": "Koray Kavukcuoglu (SVP, Google DeepMind)",
+        "original_date": "2026-09-30"
+      },
+      "category": "agents",
+      "tags": [
+        "gemini",
+        "frontier-model",
+        "coding-agents",
+        "cybersecurity",
+        "long-horizon",
+        "hn"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google 发布新一代旗舰模型 Gemini 4 Argon：输出上限从 64K 提到行业领先的 1M token，面向长时程复杂工作流（真实软件工程法律/金融知识工作网络防御）定价 $2/$10 每百万 token，缓存输入享 95% 折扣；DeepSWE v1.1 77.9%CWE-bench v1 68%（并列第一）Zapier AutomationBench 51.3%内部实例重量级：C/C++ 向 Rust 的大规模迁移（最大 800K+ 行 Fuchsia Zircon 内核）libgav1 的 32K 行 SIMD 代码重写后比 Rust 移植版快 2.7 倍agent 集群从机房遥测中自主释放 300+ TiB 内存先行安全措施包括 CoT/行为监控中止机制内部激活监控Gray Swan IPI 基准领先的注入防御，以及高风险训练/评估前封沟 sandbox；首批通过 Fairwind Program 向受信任的网络防御者开放",
+      "summary_en": "Google announces Gemini 4 Argon, its next frontier model for long-horizon professional workflows: output limit raised from 64K to an industry-leading 1M tokens; $2/$10 per million input/output tokens with 95%-off cached input. Benchmarks include DeepSWE v1.1 77.9%, CWE-bench v1 68% (tied first), Zapier AutomationBench 51.3%. Internal deployments include C/C++-to-Rust migrations up to 800K+ lines (Fuchsia Zircon), a libgav1 32K-line SIMD rewrite running 2.7x faster than the Rust port, and agent fleets freeing 300+ TiB of datacenter memory. Safeguards: CoT/action monitoring with execution stops, internal-activation monitoring, leading Gray Swan indirect-prompt-injection robustness, and sealed sandboxes before high-risk training/eval; rollout starts with trusted cyber defenders via the Fairwind Program.",
+      "one_liner": "Gemini 4 Argon：1M token 输出上限800K 行内核 C/C++Rust 迁移与自主漏洞修复，首批向网络防御者开放",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/9e57e69a.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "20b52029",
+      "title": "Magnitude: self-optimizing inference engine for agents",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "source": {
+        "platform": "github",
+        "author": "magnitudedev",
+        "original_date": "2026-09-29"
+      },
+      "category": "infra",
+      "tags": [
+        "inference-engine",
+        "local-llm",
+        "kernel-tuning",
+        "llama-cpp",
+        "hn"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "在 HN 上 Launch 的开源推理引擎：在用户设备上编译并调优 kernel，宣称开源模型比 llama.cpp 最多快 2 倍（Metal decode +92%，CUDA decode +19%），支持 Apple SiliconNVIDIAAMD 与纯 CPU桌面应用内置 magnitude CLI，一键连接 PiOpenCodeHermesCodex 等现有 agent；会话间共享前缀缓存，每 agent 内存低 27%，Apache 2.0，数据不出本机",
+      "summary_en": "Open-source inference engine launched on HN that compiles and tunes kernels on the user's device, claiming open models run up to 2x faster than llama.cpp (92% faster decode on Metal, 19% on CUDA) across Apple Silicon, NVIDIA, AMD, and plain CPU. Ships a desktop app with the magnitude CLI, one-click connections to agents like Pi, OpenCode, Hermes, and Codex, shared prefix caches across concurrent sessions, 27% less memory per agent, Apache 2.0, nothing leaves the machine.",
+      "one_liner": "本地自调优推理引擎 Magnitude：设备上编译调优 kernel，宣称比 llama.cpp 最多快 2 倍，一键接入主流 coding agent",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/20b52029.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f9d283d8",
+      "title": "You Said No MCP!",
+      "url": "https://earendil.com/posts/you-said-no-mcp",
+      "source": {
+        "platform": "blog",
+        "author": "Earendil Engineering",
+        "original_date": "2026-09-29"
+      },
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "codemode",
+        "tool-protocol",
+        "agent-harness",
+        "hn"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Pi 团队解释为什么在长期拒绝 MCP 后又把它迎进核心：一方面 MCP 本身在进化，更关键的是接入它所需的改造（工具可配置为 deferred 或 Codemode 专属更丰富的 tool loadout 元数据）对 harness 本身也普遍有用文章给出对 MCP 的当代定位带智能工具发现的 OpenAPI：工具应返回结构化数据靠文档可发现；并用一个完整的 Codemode 会话展示 JS 沙箱编排 Linear MCP 与小模型分类器，在不占用主模型上下文的情况下给 167 个 issue 做情绪分类对 tool protocol 与 harness 设计都是高信号的实战反思",
+      "summary_en": "The Pi team explains why, after long publicly refusing MCP, they brought it into the core: MCP itself evolved, and the changes needed to host it well (tools configurable as deferred or Codemode-specific, richer tool-loadout metadata) are generally useful to the harness. They frame modern MCP as 'OpenAPI with intelligent tool discovery' returning structured data, and demonstrate Codemode, a harness-side JS sandbox orchestrating the Linear MCP server plus a small classifier model to sentiment-rate 167 issues without consuming main-model context.",
+      "one_liner": "拒绝 MCP 多年后 Pi 把它迎进核心：定位带智能发现的 OpenAPI，配套 Codemode JS 沙箱编排工具调用不占主模型上下文",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f9d283d8.md",
+      "images": [],
+      "added_date": "2026-10-01",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-09-30",
-  "total_entries": 2519
+  "last_updated": "2026-10-01",
+  "total_entries": 2527
 }
