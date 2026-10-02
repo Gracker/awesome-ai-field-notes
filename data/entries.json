@@ -77644,8 +77644,298 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "1176bd48",
+      "title": "AutoCompact: Learning When to Compact Context in Long-Horizon Coding Agents",
+      "url": "https://arxiv.org/abs/2610.02163",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xuan Zhang, Longtao Zheng, Cunxiao Du, Bo An, Xin Dong",
+        "original_date": "2026-10-01"
+      },
+      "category": "agents",
+      "tags": [
+        "context-management",
+        "compaction",
+        "coding-agents",
+        "reinforcement-learning",
+        "swe-bench"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "AutoCompact 把何时压缩上下文保留什么状态如何从压缩点继续训练成编码 agent 策略的一部分：先让基础 agent 跑仓库级任务，用 judge 审查其压缩决策/摘要/后续动作，有缺陷的输出在环境中执行前替换为修正版本，轨迹从修正后的决策继续；再用这些轨迹做 SFT，随后以任务成功率为奖励做编码与压缩的联合 RLSWE-bench Verified 绝对提升 9.2%，SWE-PolyBench Verified 提升 5.0%，且在 256K 窗口从不溢出16K 窗口触发回退压缩的设置下都成立核心主张是上下文压缩不应是机械的溢出处理，而是可学习的策略行为",
+      "summary_en": "AutoCompact trains a coding agent to make context-compaction decisions (when to compact, what working state to preserve, how to continue) as part of its policy. Training data: run the base agent on coding tasks, use a judge to review compaction decisions/summaries/post-compaction actions, replace flawed outputs with corrected ones before environment execution so each trajectory continues from corrected decisions; SFT on these trajectories, then joint RL on coding and compaction with task-success rewards. Absolute pass-rate gains of 9.2% on SWE-bench Verified and 5.0% on SWE-PolyBench Verified, holding across inference budgets with a never-overflowing 256K window and a 16K window with fallback compaction.",
+      "one_liner": "AutoCompact 把上下文压缩从溢出应急变成可学习策略：judge 修正轨迹 + 联合 RL，SWE-bench 绝对 +9.2%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1176bd48.md",
+      "images": [],
+      "added_date": "2026-10-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fea3fb1c",
+      "title": "Keyword Harnesses Fail Open: A Cheap Diagnostic Ladder for Tool-Use Claims in Small Language Models",
+      "url": "https://arxiv.org/abs/2610.02142",
+      "source": {
+        "platform": "arxiv",
+        "author": "Juan S. Santillana",
+        "original_date": "2026-10-01"
+      },
+      "category": "agents",
+      "tags": [
+        "tool-use",
+        "evaluation",
+        "benchmarks",
+        "keyword-matching",
+        "diagnostics",
+        "safety"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "关键词匹配基准会给小模型记上它们从未真正执行的 tool use 分：一对共享 decoder/tokenizer 的西班牙语安全模型在宽松指标上几乎同分（B4: 0.660 vs 0.650），但逐字复现训练样本的检查把它们完全分开600M 模型在 6/6 样本上给出带泛化参数的合法工具调用，1B 模型在所有检查点上都是 0/6首 token 探针把 1B 的失败定位于 先验概率被 web 预训练阶段抹掉（10^-4~10^-5）；一个约 3.3 GPU 小时的定向 SFT 用少三个数量级的 token 修复它，269 条语料行上合法发射率 0.100 -> 0.959论文提出一套严格且便宜的阶梯式诊断（逐字复现首 token 探针嵌入漂移检查），并证明修复未移动触发 token 的绑定嵌入（97.7% bf16 表逐位相同）",
+      "summary_en": "Keyword-matching benchmarks can credit small models for tool use they never perform. A matched-architecture pair of Spanish security LMs scores almost identically on lenient tool-use metrics (B4: 0.660 vs 0.650), but verbatim-reproduction checks separate them completely: the 661.6M model emits valid generalized tool calls on 6/6 training examples, the 1,109M model on 0/6 across checkpoints. A first-token probe localizes the 1B failure to a missing prior on the tool-call trigger token (10^-4-10^-5), erased by its web-heavy training phase; a targeted SFT recipe (~3.3 GPU-hours, three orders of magnitude fewer tokens) raises valid emission from 0.100 to 0.959 on all 269 corpus rows and beats the 600M on 238 unseen prompts (0.536 vs 0.428, p=0.004). Embedding-drift checks show the repair did not move the trigger token's tied embedding (97.7% bit-identical)....",
+      "one_liner": "关键词基准会让 1B 模型的假 tool use 得高分：首 token 先验被 web 预训练抹掉，3.3 GPU 小时定向 SFT 即可修复",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fea3fb1c.md",
+      "images": [],
+      "added_date": "2026-10-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "27ff405c",
+      "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+      "url": "https://arxiv.org/abs/2610.02206",
+      "source": {
+        "platform": "arxiv",
+        "author": "Pengfei Li, Naufal Suryanto, Sicheng Zhang, Muzammal Naseer",
+        "original_date": "2026-10-01"
+      },
+      "category": "agents",
+      "tags": [
+        "cybersecurity",
+        "tool-use",
+        "benchmark",
+        "cli",
+        "verifiable-rewards",
+        "neurips-2026"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "KaliBench（NeurIPS 2026 评测与数据集 track 接收）衡量 LLM 把自然语言意图翻译成 Kali Linux 真实 CLI 命令的能力：8,504 条查询-命令对1,642 个工具23 个能力维度5 个安全阶段，经由手册锚定的构建管线加确定性规范化与别名感知评测安全运营依赖严格 CLI，小的语法错误flag-value 绑定错误或参数次序错误都会让执行失效，而这正是既有知识问答型评测测不到的部分验证管线组合 LLM 校验沙箱终端执行与人工修正；基于这些细粒度确定性信号可以构造免运行时的可验证奖励用于训练",
+      "summary_en": "KaliBench (accepted at NeurIPS 2026 Evaluations and Datasets Track) measures LLMs' natural-language-to-CLI translation on Kali Linux: 8,504 query-command pairs spanning 1,642 tools across 23 capability dimensions and 5 security phases, built via a manuscript-grounded pipeline with deterministic canonicalization and alias-aware evaluation. Security operations rely on strict CLIs where minor syntax errors, incorrect flag-value bindings, or argument misordering invalidate execution - a gap knowledge-based evaluations miss. Verification combines LLM validation, sandboxed terminal execution, and human-in-the-loop refinement; the fine-grained deterministic signals further enable runtime-free verifiable rewards for training.",
+      "one_liner": "KaliBench 用 8,504 条真实 CLI 翻译对测安全 agent 的手：语法flag 绑定参数次序，错了就执行失败",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/27ff405c.md",
+      "images": [],
+      "added_date": "2026-10-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dfde62a9",
+      "title": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
+      "url": "https://arxiv.org/abs/2610.02122",
+      "source": {
+        "platform": "arxiv",
+        "author": "Gabriel Tomitsuka, Arman Raayatsanati, Emma Xing, Duke Gand, Joseph J Ma",
+        "original_date": "2026-10-01"
+      },
+      "category": "agents",
+      "tags": [
+        "data-agents",
+        "benchmark",
+        "enterprise",
+        "text-to-sql",
+        "simulation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Argo-Bench 用模拟世界评测企业级数据 agent：以公开数据同行评审行业文献与监管文件为底，模拟一个真实规模（2024 年 8,100 万订单）的纽约外卖平台，导出为建模自 Oracle E-Business Suite schema 的 235 张表75 亿行 ERP 仓库模拟器的 ground-truth 状态对 agent 不可见，任务要求先在仓库中导航重建事实再行动；评测超越 text-to-SQLagent 要封禁欺诈账号分配骑手激励预算补发工资，评分器按动作在模拟器中的后果打分210 个任务各带可执行参考解，回应了既有 text-to-SQL 基准答案键频出错误业务事件挤在单表里的局限",
+      "summary_en": "Argo-Bench evaluates enterprise data agents against a simulated world: grounded in public data, peer-reviewed industry literature, and regulatory filings, it simulates a NYC food-delivery platform at true scale (81M orders in 2024) and exports it to an ERP warehouse of 235 tables and 7.5 billion rows modeled on the Oracle E-Business Suite schema. The simulator's ground-truth state is withheld from the agent's warehouse, so tasks require reconstructing facts by navigation before acting. Beyond text-to-SQL, agents file actions (banning fraudulent accounts, allocating courier incentives, issuing back pay) graded by their consequences in the simulator; all 210 tasks have executable reference solutions. Motivated by audits finding established text-to-SQL answer keys frequently wrong.",
+      "one_liner": "Argo-Bench 把数据 agent 扔进 75 亿行模拟 ERP：先导航重建事实，再为封号/预算/补薪等动作的后果负责",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dfde62a9.md",
+      "images": [],
+      "added_date": "2026-10-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a141568b",
+      "title": "Finetuning with Sampling: SFT Learns Better Than You Think",
+      "url": "https://arxiv.org/abs/2610.02140",
+      "source": {
+        "platform": "arxiv",
+        "author": "Aayush Karan, Sitan Chen, Yilun Du",
+        "original_date": "2026-10-01"
+      },
+      "category": "models",
+      "tags": [
+        "sft",
+        "reinforcement-learning",
+        "post-training",
+        "mcmc",
+        "generalization"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "传统观念认为 RL 泛化强且不伤已有能力，SFT 泛化弱且易灾难性遗忘；但 SFT 能用 off-policy 专家数据，RL 依赖模型自己重复采样找到成功轨迹本文不改学习目标，而是改数据分布：提出一个 MCMC 采样算法，借助参考模型把 off-policy 轨迹逐步变换得更 on-policy在科学技能习得数学推理开放域专业知识等任务上，该采样让 SFT 与主流 posttraining 技术打平，常常泛化更好遗忘更少，且微调后的模型有较强的分布性表现，能学到超越 sharpening 基座的内容",
+      "summary_en": "Conventional wisdom: RL generalizes without losing capabilities, SFT generalizes poorly and forgets catastrophically - but SFT learns from off-policy expert data while RL must find successful trajectories by repeated sampling. Rather than modifying the learning objective, the paper tailors the data distribution: an MCMC sampling algorithm progressively transforms off-policy traces to be more on-policy given a reference model. Across scientific skill acquisition, mathematical reasoning, and open-ended expertise, sampling-enabled SFT rivals prevailing posttraining techniques, often generalizing better and forgetting less than strong on-policy baselines, with strong distributional performance beyond sharpening the base model.",
+      "one_liner": "不改目标函数改数据分布：MCMC 把 off-policy 轨迹变 on-policy，让 SFT 打平 RL 且遗忘更少",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a141568b.md",
+      "images": [],
+      "added_date": "2026-10-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ccb114e8",
+      "title": "Every Ablation Is a Dose: Counterweights and the Semblance of Self-Repair",
+      "url": "https://arxiv.org/abs/2610.02173",
+      "source": {
+        "platform": "arxiv",
+        "author": "Areeb Ahmad, Pratinav Seth, Vinay Kumar Sankarapu",
+        "original_date": "2026-10-01"
+      },
+      "category": "models",
+      "tags": [
+        "interpretability",
+        "self-repair",
+        "ablation",
+        "circuits",
+        "mechanistic-interpretability"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "消融语言模型某个组件后其他组件常显得在自我修复，既往最系统的研究认为该现象嘈杂且难有单一解释本文给出一个机制：修复响应其实是消融前就存在的增益把任何干预看作反事实对比符号强度坐标轴 上的一点，常规消融只是未校准的点；细粒度单元 r 的因果修复响应服从仿射律 E_r()=own_r+_r，斜率 _r 是有无消融都一致影响模型的固定系数，符号决定该单元对抗还是强化被移除信号在 Gemma/Qwen/LLaMA/Mistral 四个家族的事实判断任务上，81 个下游方向中 68 个服从该律，且 _r 幅值可从固定权重预估；GPT-2 Small 的 IOI 电路中可达的 10 个头有 7 个服从且全是 counterweight",
+      "summary_en": "Ablating a component of a language model often makes other components appear to compensate - self-repair - previously concluded to be noisy without a single explanation. The paper argues there is one: the repair response is a gain already present before any ablation. Any intervention is a point on the axis of signed counterfactual contrast strength; conventional ablations are uncalibrated points. The causal repair response of a fine-grained unit r follows an affine law E_r(lambda)=own_r+gamma_r*lambda, where gamma_r is a fixed coefficient that influences the model with or without ablation, its sign determining counteraction vs reinforcement....",
+      "one_liner": "自修复不是消融的产物而是消融前就有的增益：修复响应服从仿射律，斜率可从固定权重直接预估",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ccb114e8.md",
+      "images": [],
+      "added_date": "2026-10-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8ae48c8d",
+      "title": "Every SaaS business will become a harness around a model",
+      "url": "https://blog.sshh.io/p/the-harness-is-the-company",
+      "source": {
+        "platform": "blog",
+        "author": "Shrivu Shankar",
+        "original_date": "2026-08-24"
+      },
+      "category": "industry",
+      "tags": [
+        "harness",
+        "saas",
+        "agentic-ai",
+        "software-engineering",
+        "business-models"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "作者把 harness 定义广义化：不只是 LangGraph 或编码 agent 框架，而是包裹无状态 LLM 的全部基础设施接口上下文与状态，可组合成 meta-harness（如一个软件工厂= 写规格写代码做评审的子 harness 加调度层）在此定义下论证 SaaS 的演进轨迹：传统卖软件服务（无 harness）-> 个人配 agent 干活（个人操作 harness）-> 核心任务迁到云端后台 agent（笔记本跑不动二十个）-> 业务本身成为围绕模型的一层 harness对 AI field notes 的意义是：harness 工程正从开发工具上升为业务形态本身",
+      "summary_en": "Shrivu Shankar broadens 'harness' to mean all infra, interfaces, context, and state wrapping a stateless LLM (composable into meta-harnesses; a 'software factory' is sub-harnesses for specs/code/review plus a scheduler). Under this definition he sketches the SaaS trajectory: traditional software services (no harness) -> individuals pairing with agents -> core tasks moving to background cloud agents (a laptop can't run twenty) -> the business itself becoming a harness around a model. Implication for field notes: harness engineering is rising from dev tooling to business form.",
+      "one_liner": "harness 的定义从开发工具扩展到业务形态：SaaS 的终点是成为包裹模型的一层 harness",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/8ae48c8d.md",
+      "images": [],
+      "added_date": "2026-10-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "90e946a5",
+      "title": "One month coding with GLM 5.3 Flash",
+      "url": "https://wagtail.org/blog/one-month-on-glm-53-flash",
+      "source": {
+        "platform": "blog",
+        "author": "wagtail.org",
+        "original_date": "2026-10"
+      },
+      "category": "coding",
+      "tags": [
+        "glm",
+        "open-models",
+        "coding-agents",
+        "cost-analysis",
+        "field-report"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Wagtail 团队挑战整个九月只用 GLM 5.3 Flash 这一个高效开源模型写代码，累计 2B token（AgentsView 统计）：前半个月成功坚持单模型，花费 $68（约 4kWh 能耗/365 克碳排放）；后半月经受不住切换，1B token 流向其他模型两个意外：一是 vibe coding 的代价MCP server 原型选错模型，一夜烧掉 450M token/$150/5kWh，虽然原型本身效果不错，但作者估计换个模型+多花点功夫能省 5 倍成本；二是推理供应商的基础设施可用性问题这是一份少见的开源模型单人月度实战成本记录",
+      "summary_en": "The Wagtail team challenged themselves to spend all of September coding only with GLM 5.3 Flash: 2B tokens total (tracked via AgentsView). First half of the month succeeded on the single model within budget ($68, ~4kWh, 365g CO2); the second half slipped, with 1B tokens going to other models. Unexpected hurdles: the cost of vibe coding - their experimental MCP server prototype burned 450M tokens / $150 / 5kWh almost overnight on the 'wrong' model (result works, but similar results were possible at ~5x less cost) - and inference-provider infrastructure availability issues. A rare month-long field report on open-model coding costs and agentic patterns.",
+      "one_liner": "整月只用 GLM 5.3 Flash 写代码的实战账本：2B token/$68，被一夜 450M token 的 vibe coding 原型打穿",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/90e946a5.md",
+      "images": [],
+      "added_date": "2026-10-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4c41d0de",
+      "title": "DeepSeek Harness Desktop for macOS and Windows",
+      "url": "https://www.deepseek.com/en/harness",
+      "source": {
+        "platform": "blog",
+        "author": "DeepSeek",
+        "original_date": "2026-10"
+      },
+      "category": "agents",
+      "tags": [
+        "deepseek",
+        "harness",
+        "agent-desktop",
+        "developer-tools",
+        "observability"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "DeepSeek 上线 Harness 桌面端（macOS/Windows），主打 agent 执行的可视化调试：轨迹视图把每一 turn 的系统提示用户消息assistant 决策工具调用（bash/read/grep 等）的输入输出调用层级时长计时（毫秒级 session 时间戳）和 schema 展开成可检查的时间线，用于排查工具调用与任务执行问题信号意义：模型厂开始把harness作为一级产品名词和独立交付物，而不只是 API+CLI 的配套",
+      "summary_en": "DeepSeek launches Harness for desktop (macOS/Windows), centered on visual debugging of agent execution: a trajectory view lays out each turn's system prompt, user messages, assistant decisions, and tool calls (bash/read/grep) with inputs, outputs, call hierarchy, millisecond-level session timing, and schema inspection for troubleshooting tool calls and task execution. Signal: a model provider shipping 'harness' as a first-class product noun and standalone deliverable, not just API+CLI wrapping.",
+      "one_liner": "DeepSeek 把 harness 做成桌面产品：轨迹视图把每轮提示决策工具调用的输入输出与毫秒计时全部摊开可查",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/4c41d0de.md",
+      "images": [],
+      "added_date": "2026-10-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-02",
-  "total_entries": 2567
+  "last_updated": "2026-10-03",
+  "total_entries": 2576
 }
