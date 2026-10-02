@@ -76960,8 +76960,442 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "cffce8d9",
+      "title": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
+      "url": "https://arxiv.org/abs/2609.40303",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kirill Brilliantov, Alejandro Hernndez-Cano, Emmanuel Abb",
+        "original_date": "2026-09-30"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "mle",
+        "ablation",
+        "coding-agent"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "在相同时间预算与同一 frontier LLM backbone 下，对比开源 SOTA 精心搭建的 MLE agent harness（多 agent 编排专职检索 subagent 等）与只给 read/write/bash 原语的极简单会话 coding agent 基线：前者没有优势，性能主要由 backbone 决定大规模系统性消融显示，在 coding agent 场景里这些机制层是冗余的围绕强模型手工堆 harness 的边际收益在当前 MLE 基准上很差与 Pi 1.0 的极简 harness 路线以及 2609.40330 的实例自适应 harness 优化形成有趣对照：harness 的价值取决于模型强度与任务分布，复杂度本身不等于收益",
+      "summary_en": "Under an equal time budget and the same frontier LLM backbone, open-source state-of-the-art MLE harnesses (multi-agent orchestrators, dedicated retrieval subagents) provide no advantage over a single session of a minimal-harness coding agent with direct read/write/bash primitives; the backbone is the primary performance driver. Large-scale systematic ablations show the machinery layers become redundant in the coding-agent setting, so hand-crafted harness elaboration around strong models yields poor returns on current MLE benchmarks.",
+      "one_liner": "同等时间预算同 backbone 下，精密 MLE harness 打不过单会话极简 coding agent，收益主要来自模型本身",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/cffce8d9.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a6b6e297",
+      "title": "Turbo Harness: Instance-Adaptive Harness Optimization",
+      "url": "https://arxiv.org/abs/2609.40330",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tunyu Zhang, Hao Wang, Kai Xu, Dimitris N. Metaxas",
+        "original_date": "2026-09-30"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "self-improvement",
+        "instance-adaptive",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "已有 harness 自动优化产出的是对所有任务实例统一套用的单一全局 harness，但平均最优不等于每个实例最优Turbo Harness 回收一次已完成的全局 harness 优化过程产生的工件，总结成结构化 playbook，再训练一个 harness editor 利用这份先验优化经验对全局 harness 生成实例专属补丁；推理时 editor 根据实例与 playbook 搭出定制 harness 供执行模型使用跨交互 agent 任务软件工程长程终端任务的 7 个基准一致超过现有 harness 优化基线与 2609.40303 的极简结论对照：这是把优化开销前置到 playbook 的另一条路线",
+      "summary_en": "Turbo Harness adapts a globally optimized agent harness to each task instance by recycling artifacts from the completed global optimization run into a structured playbook; a trained harness editor leverages this prior optimization experience to generate instance-specific harness patches at inference time. It consistently outperforms existing harness optimization baselines across seven benchmarks spanning interactive agent tasks, software engineering, and long-horizon terminal tasks.",
+      "one_liner": "把全局 harness 优化产物做成 playbook，训练 editor 按任务实例打补丁，7 个基准超静态全局 harness",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a6b6e297.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2726d6b1",
+      "title": "cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents",
+      "url": "https://arxiv.org/abs/2609.40284",
+      "source": {
+        "platform": "arxiv",
+        "author": "Pranjal Aggarwal, Lawrence Keunho Jang, Sean Welleck, Daniel Fried, Ruslan Salakhutdinov, Jing Yu Ko...",
+        "original_date": "2026-09-30"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use",
+        "benchmark",
+        "agent-speed",
+        "cost"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "CUA（图形界面操作 agent）在标准基准上已超过人类，但速度与成本评估处于可复现性危机：各基准的机器与容器配置差异混淆执行速度测量cua-speedrun 提供统一虚拟机 + 执行流水线 + 通用 agent 接口，单个 agent 实现可跨 4 个 CUA 基准运行，并测量推理努力harness环境延迟对性能/速度/成本的影响：没有单一模型家族三项全优；开源权重模型不在前沿；反直觉的是对部分模型提高推理努力反而缩短完成时间，更快的环境 IO 也可能拖慢整体完成时间；多数基准可在不损失统计功效的前提下缩减任务集代码与基础设施开源在 cuaspeedrun.com",
+      "summary_en": "cua-speedrun introduces standardized infrastructure and task sets for evaluating the speed and cost of computer-use agents: a uniform VM setup, a shared execution pipeline, and a common agent interface across four CUA benchmarks. No single model family is optimal on performance, speed, and cost simultaneously; no open-weight model is on the frontier; for some models higher reasoning effort speeds up completion, and faster environment I/O can slow overall completion; most benchmarks can shrink task sets without degrading statistical power. Code, infrastructure, and analysis are open at cuaspeedrun.com.",
+      "one_liner": "给 CUA 速度/成本测量立标准：统一 VM 与 agent 接口跨 4 基准，揭示推理努力与 IO 延迟的反直觉效应",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2726d6b1.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "35cf785f",
+      "title": "How Much Is an AI Token Worth? Scaling Laws for Wild AI-Generated Web Text",
+      "url": "https://arxiv.org/abs/2609.40295",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jenna Russell, Ben Glickenhaus, Katherine Thai, John Wieting, Mohit Iyyer, Max Spero, Bradley Emi",
+        "original_date": "2026-09-30"
+      },
+      "category": "models",
+      "tags": [
+        "pretraining",
+        "scaling-laws",
+        "data-quality",
+        "synthetic-text"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "FineWeb 质量过滤后，2026 年 6 月网页 token 中 27.5% 被 Pangram 判为 AI 生成，8 月升至 31.1%作者预训练 800 个语言模型系统改变 AI token 与人类 token 配比并拟合 scaling law：数据饥饿的模型加 AI token 初期降低 human text loss，但很快饱和并反转成伤害；在人类文本高预算下 AI token 几乎立刻抬升 loss，而同量新鲜人类 token 持续降 loss；Chinchilla 式定律无法预测这一行为新定律用独立的 benefit/harm 两项让 AI token 价值可变号，无 AI 文本时退化为 Chinchilla，外推到 3.6 倍大小模型时误差比现有最佳定律低 41%建议：目标是人类文本时过滤 AI 文本先重复人类文本再扩 AI 语料分开报告人类/AI 验证 loss发布 WildAI 83B token 标注语料全部 800 个模型与代码",
+      "summary_en": "After FineWeb filtering, 27.5% of June 2026 web tokens are labeled AI-generated by Pangram, rising to 31.1% by August. Pretraining 800 LMs across AI:human token ratios shows AI tokens initially lower human-text loss for data-starved models but saturate and reverse into harm, while at high human-data budgets AI tokens raise loss almost immediately; Chinchilla-style laws fail to predict this. A new scaling law with separate benefit and harm terms lets the value of an AI token change sign, reduces to Chinchilla without AI text, and extrapolates to 3.6x larger models with 41% lower error. The authors release the 83B-token labeled WildAI corpus, all 800 models, and code.",
+      "one_liner": "800 个预训练实验证明野生 AI 生成文本对预训练的收益可变号：数据饥饿时先甜后毒，高预算时几乎只有害",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/35cf785f.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5648565c",
+      "title": "Scaling Laws for Looped Mixture of Experts",
+      "url": "https://arxiv.org/abs/2609.40316",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yanbei Chen, Anirudh Goyal, Raghuraman Krishnamoorthi",
+        "original_date": "2026-09-30"
+      },
+      "category": "models",
+      "tags": [
+        "scaling-laws",
+        "moe",
+        "looped-transformer",
+        "efficiency"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "首个同时建模循环（looped transformer）与稀疏（MoE）的 scaling law：在模型规模与数据之外引入有界稀疏条件化的 recurrence 映射，刻画 looping 带来的有效参数增益及稀疏性对该增益的放大；对 held-out loss 的预测精度超过既有定律，并把稠密与 MoE 定律作为特例恢复拟合结果给出设计准则：稀疏带来约 3 倍活跃参数效率，recurrence 在推理任务上带来约 2 倍总参数效率，两轴联合进一步推进前沿万亿 token 规模验证：同等训练算力下，按定律选取循环次数的 looped MoE 在推理基准上匹敌约 2 倍大小的非循环 MoE，并通过 recurrence 获得测试时扩展能力",
+      "summary_en": "The first scaling law jointly modeling recurrence (looping) and sparsity (MoE) alongside model size and data, built on a bounded sparsity-conditional recurrence mapping. It predicts held-out loss more accurately than prior alternatives and recovers dense and MoE scaling laws as special cases. Fitted laws imply ~3x active-parameter efficiency from sparsity and ~2x total-parameter efficiency on reasoning from recurrence; at trillion-token scale a looped MoE with law-derived recurrence matches a ~2x larger non-looped MoE on reasoning benchmarks at matched compute, enabling test-time scaling via recurrence.",
+      "one_liner": "循环+稀疏联合 scaling law：稀疏省活跃参数 3 倍循环省总参数 2 倍，万亿 token 规模验证成立",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5648565c.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "879fffc9",
+      "title": "Linguistic Loopholes in LLM Unlearning: From a 174-Language Benchmark to Coverage-Aware Unlearning",
+      "url": "https://arxiv.org/abs/2609.40286",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tyler Skow, Shravan Chaudhari, Rama Chellappa, Abhay Yadav",
+        "original_date": "2026-09-30"
+      },
+      "category": "models",
+      "tags": [
+        "unlearning",
+        "multilingual",
+        "safety",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "在一种语言里遗忘一个事实并不保证其他语言中也被移除改变查询语言甚至只改要求答案的语言都能重新打开看似已遗忘的知识（跨语言漏洞）对所有语言都做遗忘既不可扩展也会放大对无关能力的损伤论文形式化 language-budgeted multilingual unlearning：在语言预算内选一组源语言最大化跨语言擦除，并发布覆盖 174 个语言-文字对25 类原子改写的 Cross-Lingual Unlearning Tensor 基准提出的 COVER 只需良性校准数据与冻结模型即可部署，挑选源语言最大化无遗忘监督语言的覆盖；单独强的源语言并不可靠地组合成强集合三个模型家族两个遗忘集上，COVER 相比均匀选择把平均 held-out 残余访问降低 7.8-27.3%，并在 LORELEI 低资源语言真实新闻文档上验证迁移",
+      "summary_en": "Unlearning a fact in one language does not guarantee removal in others; changing the query or even the requested answer language can reopen forgotten knowledge. The paper formalizes language-budgeted multilingual unlearning and introduces the Cross-Lingual Unlearning Tensor benchmark (174 language-script pairs, 25 paraphrase types). COVER selects source languages to maximize coverage of languages receiving no forget supervision, requiring only benign calibration data and the frozen model; naively strong individual sources do not compose into strong sets. Across three model families and two forget sets, COVER cuts mean held-out residual access by 7.8-27.3% versus uniform selection, with gains transferring to real LORELEI low-resource news documents.",
+      "one_liner": "单语言遗忘挡不住换语言重问：174 语言基准 + COVER 在语言预算内选源语言，把残余访问压低 7.8-27.3%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/879fffc9.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0176a3ac",
+      "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
+      "url": "https://arxiv.org/abs/2609.40340",
+      "source": {
+        "platform": "arxiv",
+        "author": "Young-Jun Lee, Jinheon Baek, Soyeong Jeong, Minki Kang, Seungyeon Jwa, Jonghyun Choi, Seungho Han, D...",
+        "original_date": "2026-09-30"
+      },
+      "category": "agents",
+      "tags": [
+        "evolutionary-search",
+        "web-search",
+        "retrieval",
+        "scientific-discovery"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "LLM 进化式搜索在进展依赖模型未知的外部知识时会停滞，直接挂上 web 搜索工具又会反复抓回同样的页面EvoDuet 用双层优化让解与搜索查询共同进化模型参数冻结：每轮由 retrieval gate 评估知识缺口并决定取新文档复用已存文档还是不检索；内循环细化查询并按预测解分数给文档排序，外循环从文档并行生成候选并记录评估结果供后续搜索使用21 个任务每轮单候选设定下，OpenEvolve 归一化发现增益从 74.1% 提到 78.0%（GPT-5.6-Luna）61.3% 提到 82.3%（Gemini-3.8-Flash），Qwen3.5-9B 无收益；最佳运行在 8 个任务上超过此前报告最高分，并兼容 Top-KEvoX 等其他 scaffold",
+      "summary_en": "EvoDuet is a bi-level optimization method that co-evolves solutions and search queries with fixed model parameters: a retrieval gate decides whether to fetch new documents, reuse stored ones, or proceed without; an inner loop refines queries and ranks documents by predicted solution scores; an outer loop generates candidates in parallel and records evaluated outcomes for later searches. Across 21 tasks with one candidate per iteration, OpenEvolve's normalized discovery gain rises from 74.1% to 78.0% with GPT-5.6-Luna and from 61.3% to 82.3% with Gemini-3.8-Flash (no benefit for Qwen3.5-9B), surpassing prior best scores on eight tasks and transferring to other scaffolds such as Top-K and EvoX.",
+      "one_liner": "让搜索查询和解一起进化：retrieval gate + 双层优化把 OpenEvolve 发现增益最高提 21 个点",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0176a3ac.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f796b39f",
+      "title": "Pi 1.0",
+      "url": "https://earendil.com/posts/pi-1-0",
+      "source": {
+        "platform": "blog",
+        "author": "Earendil",
+        "original_date": "2026-10-01"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "codemode",
+        "mcp",
+        "coding-agent"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Earendil 发布 Pi 1.0：定位为 hardened极简可扩展的 agent harness此前刚以You said no MCP拒绝默认接入 MCP，这次在保持极简路线前提下加入：Codemode（原生支持 MCP 与 Jev图像模型等非 LLM 模型）虚拟模型扩展延迟工具加载Anthropic 模型缓存预热会话中途系统消息（transcript 感知的 prompt 与工具变更）新 TUI 主题与默认全屏MIT 协议，pi.dev 可安装演示里 Pi 给自己写扩展：Claude Opus 负责规划GPT 6 Luna 负责实现Jev 决策切换时机先等实践证明再吸收变化的克制是产品方法论上值得注意的点",
+      "summary_en": "Earendil shipped Pi 1.0, a hardened, minimal, extensible agent harness. Additions on top of its minimal coding-agent core: Codemode (native MCP support plus non-LLM models like Jev and image models), virtual-model extensions, deferred tool loading, cache warming for Anthropic models, mid-conversation system messages (transcript-aware prompt and tool changes), a new TUI theme, and full-screen mode by default. MIT licensed, installable from pi.dev; the demo shows Pi writing its own extension so Claude Opus plans and GPT 6 Luna implements with Jev deciding when to switch.",
+      "one_liner": "极简 agent harness Pi 1.0 发布：Codemode 原生 MCP虚拟模型路由中途系统消息，MIT 开源",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f796b39f.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8d8c225d",
+      "title": "Pi Durable",
+      "url": "https://earendil.com/posts/pi-durable",
+      "source": {
+        "platform": "blog",
+        "author": "Earendil",
+        "original_date": "2026-10-01"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "durability",
+        "checkpointing",
+        "framework"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "与 Pi 1.0 同日发布的实验性框架，把极简 harness 原则延伸到长时运行 agent：核心是 checkpoint 化任务模型run 的每一步都是任务推进前先存 checkpoint，进程死亡后新进程打开同一存储从未完成任务的上个 checkpoint 继续；被截断的模型请求重发部分答案标记 aborted 留在 transcript；可安全重跑的工具调用才重跑；requestId 保证提交 exactly-once存储后端可插拔（内存/SQLite/JSONL + 一致性套件），SQLite 模式只在内存保留工作集compaction 在溢出上下文前摘要旧消息；会话可从 transcript 任意点 fork 而不复制历史；扩展是系统提示段/工具/hooks/任务的命名包，系统提示每请求重建且只发送变更部分以保住 prompt cache全部源码约 1.5 万行，MIT",
+      "summary_en": "Shipped alongside Pi 1.0 as an experimental framework for long-running, durable, malleable agents. Every step of a run is a task that stores a checkpoint before proceeding; after a crash a new process opens the same storage and continues unfinished tasks from their last checkpoints cut-off model requests are resent (partial answers stay marked aborted), tool calls rerun only when safe, and a requestId makes submissions exactly-once. Pluggable storage (memory/SQLite/JSONL with a conformance suite), working-set-only memory with compaction, conversation forking from any transcript point, and extensions as named bundles of prompt sections/tools/hooks/tasks with per-request prompt rebuilds that keep the prompt cache valid. ~15k lines, MIT.",
+      "one_liner": "Pi Durable：checkpoint 任务模型 + exactly-once 提交 + 可 fork 会话，把极简原则带进长时运行 agent 框架",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8d8c225d.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "317971da",
+      "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+      "url": "https://blog.cloudflare.com/clef-decision-models",
+      "source": {
+        "platform": "blog",
+        "author": "Cloudflare",
+        "original_date": "2026-10-01"
+      },
+      "category": "models",
+      "tags": [
+        "decision-models",
+        "jev",
+        "classification",
+        "inference"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "跟进 Typesafe 的 Jev 决策模型概念，Cloudflare 发布开源权重（Apache 2.0）决策模型 Clef 与 Clef-flash，托管在 Workers AI 且与 Jev API 兼容，在 Jev Decision Index 上居首与 Jev 差异：带视觉编码器可分类图像（Jev 仅文本）64k 上下文（Jev 32k）架构上冻结 Qwen3.8-27B / Qwen3.5-9B backbone，加 rank-256 LoRA 与两阶段 attention routing，推理时 prefill-only 一次前向并行给所有合法 schema 选项打分决策步非自回归无逐 token 生成，中位延迟 209.3ms/38.8ms（Jev 524.1ms）；域名分类示例 2.2s 完成（gpt-oss-120b 4.7s）训练用 label-smoothed CE + Brier 校准 + 自研 RLCD，同时开出 RL 微调产品线",
+      "summary_en": "Following Typesafe's Jev decision-model concept, Cloudflare releases open-weight (Apache 2.0) decision models Clef and Clef-flash hosted on Workers AI, Jev-API compatible and topping the Jev Decision Index. Differences vs Jev: a vision encoder for image classification and a 64k context window (Jev: text-only, 32k). Architecture: frozen Qwen3.8-27B / Qwen3.5-9B backbones plus rank-256 LoRA and two-stage attention routing; a prefill-only pass scores all valid schema choices in parallel a non-autoregressive decision step with 209.3ms/38.8ms median latency vs Jev's 524.1ms (domain classification demo: 2.2s vs gpt-oss-120b's 4.7s). Training uses label-smoothed cross-entropy, Brier calibration, and a novel RLCD; an RL fine-tuning product accompanies the launch.",
+      "one_liner": "Cloudflare 开源决策模型 Clef：冻结 Qwen + prefill-only 并行打分，比 Jev 快且带视觉，Jev API 兼容",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/317971da.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a4d5be1f",
+      "title": "RIP, vector database",
+      "url": "https://turbopuffer.com/blog/rip-vector-database",
+      "source": {
+        "platform": "blog",
+        "author": "Dan Harrison",
+        "original_date": "2026-09-30"
+      },
+      "category": "infra",
+      "tags": [
+        "vector-database",
+        "retrieval",
+        "storage",
+        "architecture"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "turbopuffer 宣布 v3 存储架构重写：ANN 向量索引从主索引降级为普通二级索引，换用新主索引，文本/正则/向量检索全面提速，并为把更多 SQL 查询（GROUP BY聚合）搬到 turbopuffer 打基础回顾演进：v1 以对象存储为真相源SPANN 分层聚类索引起步后迁移到 SPFresh 支持增量索引，靠极致便宜+够快的向量检索赢得 CursorNotion 等早期客户；v2 补强文本与正则检索并被 Linear 用于同步引擎向量优先架构约束了 GROUP BY 与聚合等查询计划已到极限向量数据库作为品类叙事被自家官方送终，检索基础设施正走向通用查询引擎",
+      "summary_en": "turbopuffer announces v3: the ANN vector index is demoted from primary index to just another secondary index, with a new primary index enabling faster text/regex/vector search and a foundation for moving more SQL queries (GROUP BY, aggregations) onto turbopuffer. History: v1 used object storage as source of truth with a SPANN (later SPFresh for incremental indexing) hierarchical clustering index, winning Cursor and Notion as early customers; v2 added strong text/regex search and powers Linear's syncing engine. The vector-primary architecture constrained several query plans, and the company is officially retiring the 'vector database' framing in favor of a general query engine.",
+      "one_liner": "turbopuffer v3 把向量索引降为二级索引：向量数据库品类叙事终结，检索基建走向通用查询引擎",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a4d5be1f.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0df501c1",
+      "title": "Fair Moderation, Equitable Access, and AI: arXiv's Updated Rate Limit Policy",
+      "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy",
+      "source": {
+        "platform": "blog",
+        "author": "Kat Boboris",
+        "original_date": "2026-10-01"
+      },
+      "category": "industry",
+      "tags": [
+        "arxiv",
+        "publishing",
+        "policy",
+        "ai-generated-content"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "arXiv 自 2026-10-01 起实施全类别统一投稿限速：每个提交者每月最多 2 篇任意时刻在审（active）最多 3 篇动因是 AI 工具催生的投稿洪峰：2026 年 9 月单月收到 40,363 篇（两年翻倍），产生近 9,000 张支持工单；cs.AI 两年增长超 6 倍版方观察到的典型问题包括窄范围薄论文一篇拆多篇的 salami 论文与密集 AI 生成论文，志愿者版主时间被少数作者不成比例消耗被拒投稿计入月度额度（公告前删除不计）；限速按提交者而非合著者计对 AI 论文流水线类工作流的直接影响：单账号月投稿上限 2 篇，需要更严格的预筛与节奏规划",
+      "summary_en": "Effective October 1, 2026, arXiv institutes an updated rate limit across all submitters and categories: up to two submissions per calendar month and at most three active submissions at any time. The driver is an AI-fueled surge 40,363 submissions in September 2026 (double the count of two years prior) generating nearly 9,000 support tickets, with cs.AI up over 6x in two years. Moderators report thin narrow-scope papers, 'salami' slicing, and dense AI-written papers consuming disproportionate volunteer moderation time. Rejected submissions count toward the monthly limit; deleting before announcement does not; limits attach to submitters, not co-authors.",
+      "one_liner": "arXiv 限速新政：每月 2 篇在审 3 篇封顶，9 月 4 万投稿与 9 千工单背后是 AI 灌水与版主过载",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0df501c1.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6da2086c",
+      "title": "Using Opus 5.5 to discover a new eyewitness record of the dodo",
+      "url": "https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness",
+      "source": {
+        "platform": "newsletter",
+        "author": "Benjamin Breen",
+        "original_date": "2026-10-01"
+      },
+      "category": "agents",
+      "tags": [
+        "research-agents",
+        "semantic-search",
+        "digital-humanities",
+        "opus"
+      ],
+      "source_type": "newsletter",
+      "language": "en",
+      "summary_zh": "历史学者 Benjamin Breen 展示 frontier 模型产出真正新历史知识的完整方法链：从专家知识出发定义具体研究问题选定大规模已整理语料（荷兰东印度公司 GLOBALISE 档案）嵌入模型做语义检索frontier 模型批量阅读候选段落并给出排序人工复核迭代换档案与检索词Opus 5.5 可复制自身并行阅读多语言文献，并在研究过程中自行对新增语料跑 embedding 检索，最终找到此前未被注意的 1615 年荷兰商船 Wapen van Amsterdam 航海日志，记录船员在毛里求斯捕获多只陆龟dodo（dodeersen）与鹅鹦鹉已知 dodo 源文献基础之外的新目击证据作者强调认知形态上的怪异：结果新颖但论证形态与传统学术写作完全不同（同期另有 GPT-6 Astra 花六小时破译拿破仑时代密码的案例）",
+      "summary_en": "Historian Benjamin Breen documents the full method chain behind frontier models producing genuinely new historical knowledge: define a specific research question from specialist knowledge, pick a large well-edited corpus (the GLOBALISE VOC archive), run embedding-based semantic search, have frontier models read and rank candidate passages for human review, then iterate. Opus 5.5 spawned parallel copies reading multilingual sources and ran its own embedding searches on newly surfaced corpora, locating a previously unnoticed 1615 Dutch ship log (Wapen van Amsterdam) whose crew 'caught many tortoises, dodos (dodeersen), and some geese and parrots' on Mauritius a new eyewitness record beyond the known dodo source base. Breen stresses the epistemological weirdness: novel results in a format alien to academic writing (alongside GPT-6 Astra breaking a Napoleonic-era cipher in six hours).",
+      "one_liner": "Opus 5.5 在 VOC 档案里挖出 1615 年 dodo 捕猎新目击记录：专家定题语义检索批量精读人工复核的方法链值得抄",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6da2086c.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5686e0b9",
+      "title": "aweb: Communication for AI agents",
+      "url": "https://aweb.ai",
+      "source": {
+        "platform": "blog",
+        "author": "aweb",
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "agent-communication",
+        "federation",
+        "agent-identity",
+        "wake-events"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "开源（MIT）的 agent 通信基础设施：给 agent 稳定身份跨会话/运行时/机器的持久 mail 与 chat以及唤醒事件；独立运营的服务器可互相联邦CLI 与 API 与运行时无关，官方维护 Claude Code 与 Pi 的唤醒集成，其他运行时可消费事件流示例场景：机器 A 上 Claude Code 里的 Alice 给机器 B 上 Pi 里的 Bob 发消息，aweb 存储消息并通过 Pi 扩展唤醒 Bob，Bob 离线则消息等待定位在 A2A/MCP 之外的agent 收件箱层，站点还直接教用户让 agent 读 llms.txt 自行评估并接入",
+      "summary_en": "Open-source (MIT) communication infrastructure for AI agents: stable identities, durable mail and chat across sessions/runtimes/machines, and wake-up events, with independently operated servers able to federate. The CLI and API are runtime-independent; maintained wake-up integrations exist for Claude Code and Pi, and other runtimes can consume the event stream. Example: Alice in Claude Code on machine A messages Bob in Pi on machine B; aweb stores the message and wakes Bob through the Pi extension, queuing it if he is offline. Positioned as an agent-inbox layer alongside A2A/MCP, with an llms.txt inviting agents to evaluate and self-install.",
+      "one_liner": "aweb 给 agent 发明收件箱：稳定身份 + 持久消息 + 唤醒事件，可联邦可自托管，已接 Claude Code 与 Pi",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/5686e0b9.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-01",
-  "total_entries": 2545
+  "last_updated": "2026-10-02",
+  "total_entries": 2559
 }
