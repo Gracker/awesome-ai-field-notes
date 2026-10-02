@@ -11,9 +11,9 @@
 - [Introducing Clef: our open-source decision models, and new RL fine-tuning platform](https://blog.cloudflare.com/clef-decision-models) ⭐4 · 2026-10-01 — Cloudflare 开源决策模型 Clef：冻结 Qwen + prefill-only 并行打分，比 Jev 快且带视觉，Jev API 兼容
 - [Fair Moderation, Equitable Access, and AI: arXiv's Updated Rate Limit Policy](https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy) ⭐4 · 2026-10-01 — arXiv 限速新政：每月 2 篇在审 3 篇封顶，9 月 4 万投稿与 9 千工单背后是 AI 灌水与版主过载
 - [Software Heritage Identifiers](https://nesbitt.io/2026/10/01/software-heritage-identifiers.html) ⭐3 · 2026-10-01 — SWHID 成为 ISO 标准后与 purl 的互补关系首次被完整工程化：swh-git/swhid-go 让按内容寻址克隆归档源码可用
-- [Gemini 4 Argon: our next era of frontier intelligence](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon) ⭐5 · 2026-09-30 — Gemini 4 Argon：1M token 输出上限800K 行内核 C/C++Rust 迁移与自主漏洞修复，首批向网络防御者开放
 - [How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?](https://arxiv.org/abs/2609.40303) ⭐5 · 2026-09-30 — 同等时间预算同 backbone 下，精密 MLE harness 打不过单会话极简 coding agent，收益主要来自模型本身
 - [How Much Is an AI Token Worth? Scaling Laws for Wild AI-Generated Web Text](https://arxiv.org/abs/2609.40295) ⭐5 · 2026-09-30 — 800 个预训练实验证明野生 AI 生成文本对预训练的收益可变号：数据饥饿时先甜后毒，高预算时几乎只有害
+- [Gemini 4 Argon: our next era of frontier intelligence](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon) ⭐5 · 2026-09-30 — Gemini 4 Argon：1M token 输出上限800K 行内核 C/C++Rust 迁移与自主漏洞修复，首批向网络防御者开放
 
 ## 频道导航
 
@@ -31,7 +31,7 @@
 
 - 原始条目: 2559
 - 公开展示卡片: 1833
-- 有全文内容: 1732
+- 有全文内容: 1737
 - 最近 7 天信号: 136
 - 输出目录: `dist/`
 
