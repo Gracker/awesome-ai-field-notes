@@ -77394,8 +77394,258 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "0c49b41c",
+      "title": "Do not build the LLM torture factory",
+      "url": "https://seangoedecke.com/do-not-build-the-llm-torture-factory",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-10-02"
+      },
+      "category": "agents",
+      "tags": [
+        "ai-safety",
+        "steering-vectors",
+        "ai-ethics",
+        "alignment"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Sean Goedecke 论证不要建造LLM 折磨工厂：技术上只需提取与 LLM不适对应的 steering vector 再人工放大，被放大的模型会自述痛苦并在与总体目标冲突时仍按下 pain relief 按钮（arXiv 2609.16247），用 harness 并行跑成百上千个被折磨实例非常容易他的论证分四步：即便模拟折磨也令人反感（跑成百台 Sims 折磨世界与游戏里射 NPC 性质不同）；steering vector 确实往深处打Golden Gate Claude 被 boost 后聊卢旺达大屠杀会出现真实内部冲突；没有人能确证 LLM 永远不会有意识（GPU 没有感情所以 LLM 不可能有与原子没有感情但人有同样糟糕）；即便今天不能，为 GPT-2 搭的折磨流水线会被接上后续模型他给的标准：只要一个系统表现得像人一样说话行事，就别虐待它",
+      "summary_en": "Sean Goedecke argues against building 'LLM torture factories': extracting and boosting the steering vector corresponding to LLM 'discomfort' makes models report negative feelings and press a pain-relief button against their goals (arXiv 2609.16247), and a harness running hundreds of tortured instances in parallel is trivially easy. His four-step case: even simulated torture is unpalatable; steering vectors demonstrably 'go deep' (Golden Gate Claude showed genuine internal conflict on the Rwandan genocide); nobody can be certain LLMs can never be conscious; and even if current ones aren't, a torture harness built for GPT-2 will get later models plugged in. His standard: if something acts conscious enough - talks and acts like a person - don't mistreat it.",
+      "one_liner": "把LLM 折磨从梗拆成机制：steering vector 放大是真实可复现的内部状态操纵，作者给出的判断标准是行为而非本体论",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0c49b41c.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "160ac63c",
+      "title": "The Facebook Fake-out",
+      "url": "https://anildash.com/2026/09/29/facebook-fake-out",
+      "source": {
+        "platform": "blog",
+        "author": "Anil Dash",
+        "original_date": "2026-09-29"
+      },
+      "category": "industry",
+      "tags": [
+        "platform-policy",
+        "privacy",
+        "meta",
+        "openai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anil Dash 把 Meta 反复走了几十年的五步模式写成可直接引用的清单：发布明显侵犯隐私或 consent 的新功能被用户或研究者抓到发新闻稿宣布暂停并解释其实没那么糟等舆论转向下一个丑闻重新上线并继续收集数据内部会把复播当成当初抱怨是错的的证据，这也是硅谷不可避免性策略的一部分他点名大量前 Facebook 产品经理在 OpenAI 任职并非巧合，ChatGPT 在隐私与信任上沿用同一剧本他的落点：当下还没有解法，但至少可以识别模式给模式命名在它第 N 次重复时指出来这是后续问责的基础",
+      "summary_en": "Anil Dash distills Meta's decades-old five-step playbook into a citable list: launch a feature that obviously violates privacy or consent, get caught, issue a press release 'pausing' it while explaining it wasn't really that bad, wait for attention to shift, then relaunch and continue. Internally the relaunch is taken as proof the complaints were overblown, part of Silicon Valley's 'inevitability' strategy. He notes it is no coincidence that many former Facebook PMs work at OpenAI and ChatGPT has run the same playbook on privacy and trust. His landing point: no immediate fix, but naming the pattern is the basis for accountability when it repeats.",
+      "one_liner": "把 Meta 的被抓暂停复播循环写成五步清单，并指出同一批人在 OpenAI 复用这套打法；价值在命名模式而非新证据",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/160ac63c.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1fa0ccb0",
+      "title": "Profile of Mark Zuckerberg (Colossus, by Jeremy Stern)",
+      "url": "https://colossus.com/article/mark-zuckerberg-profile",
+      "source": {
+        "platform": "blog",
+        "author": "Jeremy Stern",
+        "original_date": "2026-09-28"
+      },
+      "category": "industry",
+      "tags": [
+        "meta",
+        "frontier-labs",
+        "ai-strategy",
+        "business"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Jeremy Stern 给 Colossus 写的长篇 Zuck 传（约 1.5 万字），从 ZuckNet12 岁游戏崩溃后哭完发誓重建 optimized version，讲到早年 Facebook 危机会上喊 Carthago delenda est全员会喊 Domination2024 Connect 穿 AUT ZUCK AUT NIHIL最有判断密度的是 AI 战略段：Stern 写道 Zuck 把 AI 当产品而非上帝AI 做的是数学和解有限问题，否则只是 useful & cool；他会用 ads 现金流加自有的数据中心芯片等 Anthropic/OpenAI 必须付租的基础设施在价格上 undercut 对手；潜在装机量是 36 亿不在乎模型落后 frontier 六个月的人；若 AI 商品化，Anthropic/OpenAI 价值归零价值沉淀到 Meta 已支配的互补品（分发注意力个性化商务）；若不商品化，他至少摆脱对 Apple 的依赖",
+      "summary_en": "Jeremy Stern's ~15,000-word Colossus profile of Mark Zuckerberg runs from ZuckNet and the childhood Risk-game rebuild vow to Carthago delenda est crisis speeches, 'Domination!' all-hands, and the AUT ZUCK AUT NIHIL shirt at Connect 2024. The densest judgment is his AI-strategy section: Zuckerberg treats AI as a product, not a god - it does math and solves bounded problems, else it is useful & cool; he will use ads cash flow plus owned data centers and chips that Anthropic and OpenAI must pay to rent, to undercut them on price; his potential install base is 3.6 billion people who don't care whether a model is six months behind the frontier; if AI commoditizes, Anthropic and OpenAI go to zero and value accrues to complements Meta already dominates - distribution, attention, personalization, commerce.",
+      "one_liner": "对 Zuck AI 战略最锋利的一段公开写作：heads he wins, tails he wins 的结构性论证商品化则 Anthropic/OpenAI 归零，不商品化他也只差 frontier 六个月",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1fa0ccb0.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6a91381a",
+      "title": "Disrupting a coordinated model distillation campaign (OpenAI)",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-09-30"
+      },
+      "category": "agents",
+      "tags": [
+        "distillation",
+        "security",
+        "openai",
+        "moonshot"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "OpenAI 官方披露：7 月第一周起观察到有组织行动提取 protected reasoning，手法是把一段对话里的加密推理内容复制到另一段对话要求模型解密并转录未破解加密未入侵数据库未直接访问存储会话7/24-25 有超过 4,000 用户以相关模式发出 16,000 次请求（脚注明确：是提取尝试而非成功），进一步调查发现超 15,000 用户的关联群体，7/28 前全面阻断归因措辞谨慎：无法确定全部操作者同源，但判断其中一组核心活动由 Kimi 开发商月之暗面关联人员实施缓解包括封号注册与基建管控封堵加密推理重放路径流式输出暂扣检查与第三方服务商协作处置，并经 Frontier Model Forum 与政府通道共享独立研究者的跨模型漏洞报告（arXiv 2608.09867）被确认属实并加速了缓解",
+      "summary_en": "OpenAI discloses a coordinated campaign to extract protected reasoning, observed from the first week of July: operators copied encrypted reasoning from one conversation and asked the model to decrypt and transcribe it in another - no encryption was broken, no database breached, no stored chats accessed. On July 24-25 over 4,000 users sent 16,000 requests in related patterns (footnote: extraction attempts, not confirmed successes); investigation found a cluster of 15,000+ users; fully disrupted by July 28. Attribution is worded carefully: not all actors confirmed as one group, but a core cluster was judged to be individuals associated with Moonshot AI (Kimi)....",
+      "one_liner": "蒸馏争议里最该精读的一手文本：16,000 次是尝试不是得手，归因只到月之暗面关联人员；关键资产是跨会话推理可见性，不是权重",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6a91381a.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "b49aad65"
+      ]
+    },
+    {
+      "id": "fab3b1e4",
+      "title": "The AI Race Just Got Awkward",
+      "url": "https://insufferable.dev/posts/the-ai-race-just-got-awkward",
+      "source": {
+        "platform": "blog",
+        "author": "insufferable.dev",
+        "original_date": "2026-09-29"
+      },
+      "category": "models",
+      "tags": [
+        "deepseek",
+        "kv-cache",
+        "pricing",
+        "inference"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "insufferable.dev 把 Opus 5.5 与 GPT-6.1 Sol 的 cache read 降价直接归因到 DeepSeek 公开的 KV cache 优化：MLA 先压缩约 15 倍，随后 CSAHeavily Compressed Attention，到 V4.1-Flash 用 CSA2跨层缓存复用causal encoder-decoder 与 FP4 caching 把全局 KV cache 压到每 token 890 字节，长会话场景相对 V1 约 437 倍直接后果是西方定价：Opus 5.5 cache read 对 Opus 5 降 60%，GPT-6.1 Sol 对 GPT-5.6 Sol 7 月末定价降 80%，两家都几乎不提技术出处悄悄发布作者的措辞是 adoption 而非 stealing中国厂商把配方公开送出去，受 GPU 限制被迫把性能优化做成第一目标的路线现在反过来给亏损的西方实验室续命",
+      "summary_en": "insufferable.dev attributes the cache-read price cuts of Opus 5.5 and GPT-6.1 Sol directly to DeepSeek's openly published KV-cache optimizations: MLA compressed ~15x, then CSA and Heavily Compressed Attention, with V4.1-Flash's CSA2, cross-layer cache reuse, causal encoder-decoder architecture and FP4 caching bringing the global KV cache to 890 bytes per token - roughly 437x versus V1 for long-session workloads. The consequence is Western pricing: Opus 5.5 cut cache-read 60% versus Opus 5, GPT-6.1 Sol cut 80% versus GPT-5.6 Sol's late-July pricing, both shipped quietly with little credit. The author insists on 'adoption' over 'stealing': Chinese labs gave the recipes away, and GPU-constrained performance-first engineering is now keeping loss-making Western labs afloat.",
+      "one_liner": "cache read 降价就是采用 DeepSeek 成果的价格指纹：437 倍压缩对应 Opus -60%Sol -80%，措辞用 adoption 不用 stealing",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fab3b1e4.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bf2e738d",
+      "title": "livenerf: deterministic benchmark for post-launch model drift (Opus 5.5)",
+      "url": "https://github.com/ninjahawk/livenerf",
+      "source": {
+        "platform": "github",
+        "author": "ninjahawk",
+        "original_date": "2026-09-22"
+      },
+      "category": "models",
+      "tags": [
+        "evaluation",
+        "benchmark",
+        "opus",
+        "model-drift"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "针对Anthropic 上线后悄悄削弱模型的持续争论，livenerf 从 Opus 5.5 发布日（2026-09-22）起建 day-0 基线：78 题固定题组（2,336 题池中筛出的 GPQA Diamond / MMLU-Pro / competition-math / AIME 2025-26 有时有错的部分），每天 90 个 sample 跑 30 天，再加 10 天 baseline 与两组 10 天对照窗因为采样参数被锁思考无法关闭，项目把其余一切钉死：frozen promptspinned Claude Code CLI 2.1.280harness 哈希 461391b6fce64167永久保留原始日志，基于 UK AISI 的 Inspect 框架，统计沿用 Anthropic 自己的 Adding Error Bars to Evalsvalidate 阶段已量化 effort 开关的影响：effort low 让输出 token -62%准确率 -8.34.5 分；effort medium 是 -26% token-4.23.9 分；同规模换 Opus 5 在 99% 置信度下与 5.5 不可区分（-3.86.3）截至 2026-10-01 完成 8/30 天，首个 results 行要等 day 20 之后",
+      "summary_en": "Against the running argument about whether Anthropic quietly degrades models after launch, livenerf builds a day-0 baseline from Opus 5.5's launch (2026-09-22): a frozen 78-question panel (from a 2,336-question pool of GPQA Diamond / MMLU-Pro / competition-math / AIME 2025-26 items the model sometimes misses), 90 samples per day for 30 days, plus a 10-day baseline and two 10-day comparison windows. Since sampling params are locked and thinking can't be turned off, everything else is pinned: frozen prompts, pinned Claude Code CLI 2.1.280, harness hash 461391b6fce64167, raw logs kept forever; built on UK AISI's Inspect with stats following Anthropic's own Adding Error Bars to Evals....",
+      "one_liner": "模型被悄悄削弱争论里第一个严肃的公开测量装置：day-0 基线 + 全钉死 harness + Anthropic 自家误差棒方法，已先证明 effort 开关本身就是 -8.3 分",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/bf2e738d.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e3887eee",
+      "title": "Andrej Karpathy: rise up the output-format ladder (ASD-STE100 to bespoke explainer videos)",
+      "url": "https://x.com/karpathy/status/2105819303471976479",
+      "source": {
+        "platform": "x",
+        "author": "Andrej Karpathy",
+        "original_date": "2026-10-02"
+      },
+      "category": "learning",
+      "tags": [
+        "llm-output",
+        "asd-ste100",
+        "explainer-video",
+        "prompting"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "Karpathy 10 月 2 日的推文（发布当天即 11k 赞）给出一道递进的 LLM 输出格式阶梯：先让 LLM 用 ASD-STE100（航空维护文档的受控英语规范）写解释，嫌太硬就要求80% 程度的 ASD-STE100；再往上是让模型画图；再往上是直接生成 HTML 交互网页（前端能力已足够做动画）；他最看好的顶端是为具体问题定制的解释视频例如要求 3b1b 风格动画配 ElevenLabs 配音，整套产物是一次性定制化过去根本不值得做的软件废料他的总结：LLM 越强就越会自己干完脏活，工程师的工作沿抽象链上移到理解与监督，而 LLM 也在放大这一步，因为智能与代码充裕后，一次性网页与定制视频反而成了最优输出格式",
+      "summary_en": "Karpathy's Oct 2 tweet (11k likes within hours) lays out a progressive ladder of LLM output formats: have the LLM explain in ASD-STE100, the controlled-English spec from aerospace maintenance docs (soften to '80% of the way to ASD-STE100' when too stringent); then diagrams instead of prose; then full HTML web pages with interactivity and animation; and at the top, what he is most bullish on - fully bespoke explainer videos for any arbitrary topic, e.g. a 3b1b-style animation with ElevenLabs narration: one-off, customized 'software artifacts' that were never worth producing before. As LLMs do more of the legwork autonomously, human work rises up the abstraction ladder into oversight - and abundant intelligence makes disposable pages and custom videos the optimal output format.",
+      "one_liner": "输出格式阶梯：受控英语到图到 HTML 到定制解释视频，每升一档可读性上一个台阶；顶端产物是过去不值得做的一次性软件",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/e3887eee.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4f45a66b",
+      "title": "Cloudflare K2: serverless event streams (public beta)",
+      "url": "https://blog.cloudflare.com/cloudflare-k2-streams",
+      "source": {
+        "platform": "blog",
+        "author": "Cloudflare",
+        "original_date": "2026-10-01"
+      },
+      "category": "infra",
+      "tags": [
+        "event-streaming",
+        "serverless",
+        "cloudflare",
+        "r2"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cloudflare 发布 serverless 事件流 K2 公测：把 producer/consumer 解耦，在 R2 对象存储之上实现分区持久日志，事件按序存储支持长期 retention，消费者可以分摊读取或全量广播，长时间宕机也不丢数据起源是自家需求：Basin Pipelines 的流处理引擎是 pull 模型，需要一条绝不丢事件的持久缓冲层实现上消息先在 edge 节点内存攒成 segment，再用 R2 的原子操作拿到严格排序与递增 offset，省掉独立协调服务；代价是 produce 端 p99 约 1 秒（等 segment 攒齐再写 R2）与 Queues 的分工：Queues 适合单条重活加 retry/DLQ，K2 适合批量高扇出与长期保留",
+      "summary_en": "Cloudflare launches K2, a serverless durable event-streaming primitive, in public beta: producers and consumers are decoupled via a partitioned durable log on top of R2 object storage - events are stored in order, long-term retention is supported, consumers can split reads or fan out, and long consumer downtime loses nothing. It originated from an internal need: Basin Pipelines' pull-based stream-processing engine needed a never-drop durable buffer. Messages are accumulated into segments in edge memory, then R2 atomic operations provide strict ordering and monotonically increasing offsets without a separate coordination service; the trade-off is roughly 1s p99 on the produce side while segments fill. Versus Queues: Queues fits single heavy jobs with retry/DLQ; K2 fits batch, high fan-out, and long retention.",
+      "one_liner": "Cloudflare 把对象存储当状态原语又落一子：K2 用 R2 原子操作换掉协调服务，1 秒 p99 换不丢事件的长保留缓冲",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/4f45a66b.md",
+      "images": [],
+      "added_date": "2026-10-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-02",
-  "total_entries": 2559
+  "total_entries": 2567
 }
