@@ -6,10 +6,10 @@
 
 - [aweb: Communication for AI agents](https://aweb.ai) ⭐3 · 2026-10-02 — aweb 给 agent 发明收件箱：稳定身份 + 持久消息 + 唤醒事件，可联邦可自托管，已接 Claude Code 与 Pi
 - [Using Opus 5.5 to discover a new eyewitness record of the dodo](https://resobscura.substack.com/p/using-opus-55-to-discover-a-new-eyewitness) ⭐4 · 2026-10-01 — Opus 5.5 在 VOC 档案里挖出 1615 年 dodo 捕猎新目击记录：专家定题语义检索批量精读人工复核的方法链值得抄
-- [Pi Durable](https://earendil.com/posts/pi-durable) ⭐4 · 2026-10-01 — Pi Durable：checkpoint 任务模型 + exactly-once 提交 + 可 fork 会话，把极简原则带进长时运行 agent 框架
-- [Pi 1.0](https://earendil.com/posts/pi-1-0) ⭐4 · 2026-10-01 — 极简 agent harness Pi 1.0 发布：Codemode 原生 MCP虚拟模型路由中途系统消息，MIT 开源
 - [Introducing Clef: our open-source decision models, and new RL fine-tuning platform](https://blog.cloudflare.com/clef-decision-models) ⭐4 · 2026-10-01 — Cloudflare 开源决策模型 Clef：冻结 Qwen + prefill-only 并行打分，比 Jev 快且带视觉，Jev API 兼容
 - [Fair Moderation, Equitable Access, and AI: arXiv's Updated Rate Limit Policy](https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy) ⭐4 · 2026-10-01 — arXiv 限速新政：每月 2 篇在审 3 篇封顶，9 月 4 万投稿与 9 千工单背后是 AI 灌水与版主过载
+- [Pi Durable](https://earendil.com/posts/pi-durable) ⭐4 · 2026-10-01 — Pi Durable：checkpoint 任务模型 + exactly-once 提交 + 可 fork 会话，把极简原则带进长时运行 agent 框架
+- [Pi 1.0](https://earendil.com/posts/pi-1-0) ⭐4 · 2026-10-01 — 极简 agent harness Pi 1.0 发布：Codemode 原生 MCP虚拟模型路由中途系统消息，MIT 开源
 - [Software Heritage Identifiers](https://nesbitt.io/2026/10/01/software-heritage-identifiers.html) ⭐3 · 2026-10-01 — SWHID 成为 ISO 标准后与 purl 的互补关系首次被完整工程化：swh-git/swhid-go 让按内容寻址克隆归档源码可用
 - [How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?](https://arxiv.org/abs/2609.40303) ⭐5 · 2026-09-30 — 同等时间预算同 backbone 下，精密 MLE harness 打不过单会话极简 coding agent，收益主要来自模型本身
 - [How Much Is an AI Token Worth? Scaling Laws for Wild AI-Generated Web Text](https://arxiv.org/abs/2609.40295) ⭐5 · 2026-09-30 — 800 个预训练实验证明野生 AI 生成文本对预训练的收益可变号：数据饥饿时先甜后毒，高预算时几乎只有害
@@ -31,7 +31,7 @@
 
 - 原始条目: 2559
 - 公开展示卡片: 1833
-- 有全文内容: 1737
+- 有全文内容: 1742
 - 最近 7 天信号: 136
 - 输出目录: `dist/`
 
