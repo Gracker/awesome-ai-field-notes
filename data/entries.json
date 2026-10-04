@@ -78093,8 +78093,206 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "54c206b1",
+      "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+      "url": "https://arxiv.org/abs/2610.02202",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sohyeon Kim, Yoonho Lee, Bo Liu, et al....",
+        "original_date": "2026-10-01"
+      },
+      "category": "models",
+      "tags": [
+        "benchmark",
+        "retrieval",
+        "research-agents",
+        "agentic-search",
+        "embeddings",
+        "scholarly-search"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "ScholarCatalyst：衡量检索能启发新研究的论文这一能力的基准184 位近期 CS 论文的第一/lead 作者（覆盖 207 篇论文）通过自动化流水线标注哪些候选文献实际或可能推进了自己的项目，并给出详细理由；任务设定为在项目开始时点可用的文献范围内，给定初始研究问题检索这些论文结果：agentic search（把同一个 embedding 检索器当工具调用）Recall@20 0.42，反而不如纯 embedding 检索的 0.48；即便是训练数据里可能见过这些已完成论文的 Claude Fable 5.1 agent 也只有 0.51说明科学家式嗅探哪篇前作关键仍是 AI 系统的明显短板2026-10-01 提交，cs.AI/cs.CL/cs.IR",
+      "summary_en": "ScholarCatalyst is a retrieval benchmark built from author-provided judgments: 184 lead authors of 207 recent computer science papers labeled which candidate papers did or could have advanced their projects, each with a detailed rationale, via an automated annotation pipeline. Given an initial research question, systems must retrieve these papers from only the literature available when the project began. Agentic search that calls the same embedding retriever as a tool does no better than embedding retrieval alone (0.42 vs 0.48 Recall@20), and even an agent built on Claude Fable 5.1 - which may have seen the completed papers during training - reaches only 0.51 R@20, quantifying how far AI systems remain from scientists' ability to sense which prior idea a new problem needs.",
+      "one_liner": "ScholarCatalyst：衡量检索能启发新研究的论文这一能力的基准184 位近期 CS 论文的第一/lead 作者（覆盖 207 篇论文）通过自动化流水线标注哪些候选文献实际或可能推进了自己的项目，并给出详细理由.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/54c206b1.md",
+      "images": [],
+      "added_date": "2026-10-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a967f7c6",
+      "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
+      "url": "https://arxiv.org/abs/2610.02200",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qiushi Han, Keya Hu, Linlu Qiu, Cathy Wu, Kaiming He",
+        "original_date": "2026-10-01"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "multimodal",
+        "visual-memory",
+        "harness",
+        "arc-agi",
+        "benchmark",
+        "interactive-environments"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "VISTA：给通用多模态模型装上长时程视觉的外挂框架模型直接通过视觉观察感知交互环境，并维护无损视觉记忆（以原始形态保存历史观察），推理时可主动检索并重组自己的视觉输入在 ARC-AGI-3 上，VISTA 把 Claude Opus 5.0 的 Relative Human Action Efficiency 从 40.68 提到满分 100.00，25 个公开游戏全部通关，动作用量比首次游玩的人类少 57.4%；同一设计在另外三个视觉游戏/谜题基准上也大幅超过同底模配简单 harness 的基线作者含 Kaiming HeCathy Wu；结论指向：多模态模型本身推理能力不弱，瓶颈在外部 harness2026-10-01，cs.AI/cs.CV",
+      "summary_en": "VISTA is a visual harness that gives a general-purpose multimodal model long-horizon vision: the model perceives interactive environments directly through visual observations and maintains a lossless visual memory that preserves past observations in their original form, actively retrieving and reorganizing its visual input as it reasons. On ARC-AGI-3 it raises Claude Opus 5.0's Relative Human Action Efficiency score from 40.68 to a perfect 100.00, completing all 25 public games with 57.4% fewer actions than first-time human participants; the same simple design transfers to three more visual game/puzzle benchmarks, substantially beating the same underlying model with minimal harnesses - evidence that multimodal models already possess strong reasoning that an appropriate harness unlocks.",
+      "one_liner": "VISTA：给通用多模态模型装上长时程视觉的外挂框架模型直接通过视觉观察感知交互环境，并维护无损视觉记忆（以原始形态保存历史观察），推理时可主动检索并重组自己的视觉输入在 ARC-AGI-3 上，VISTA 把 Claude Opus 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/a967f7c6.md",
+      "images": [],
+      "added_date": "2026-10-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3d11b218",
+      "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+      "url": "https://arxiv.org/abs/2610.02204",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yen-Jen Wang, Haozhe Jiang, et al. (Pieter Abbeel, Nika Haghtalab, Haozhi Qi among authors)",
+        "original_date": "2026-10-01"
+      },
+      "category": "agents",
+      "tags": [
+        "robotics",
+        "embodied-agents",
+        "skill-library",
+        "self-improvement",
+        "simulation",
+        "manipulation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "RPG（Reconstruct, Practice, Go Real）：不更新模型权重的机器人执行系统自主改进框架从离线数据集中识别操作能力，在仿真中构造相关练习任务；练习时用执行反馈仿真器特权状态和数据集视频诊断失败，进而新增可复用符号技能改进已有技能修订系统提示词，候选改动先做跨任务评估再决定保留测试时由多模态 LLM 用最终系统提示词和技能库协调感知与控制在 22 个操作任务的 held-out 初始化上，任务成功率从第一轮练习后的 28.6% 升到 15 轮后的 95.0%，优于所有对比基线2026-10-01，cs.RO/cs.AI/eess.SY",
+      "summary_en": "RPG (Reconstruct, Practice, Go Real) autonomously improves a robot execution system without updating model weights: it identifies manipulation capabilities in an offline dataset, constructs related practice tasks in simulation, and during practice uses execution feedback, privileged simulator state, and dataset videos to diagnose failures - developing new reusable symbolic skills, refining existing ones, and revising the system prompt, with individual candidate changes and merged revisions cross-task evaluated before retention. At test time a multimodal LLM coordinates perception and robot control via the resulting system prompt and skill library. On held-out initializations of 22 manipulation tasks, success rises from 28.6% after the first practice round to 95.0% after 15 rounds, outperforming all evaluated baselines.",
+      "one_liner": "RPG（Reconstruct, Practice, Go Real）：不更新模型权重的机器人执行系统自主改进框架从离线数据集中识别操作能力，在仿真中构造相关练习任务.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3d11b218.md",
+      "images": [],
+      "added_date": "2026-10-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a650c74f",
+      "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model",
+      "source": {
+        "platform": "blog",
+        "author": "Aleph Alpha",
+        "original_date": "2026-10-03"
+      },
+      "category": "models",
+      "tags": [
+        "open-weights",
+        "moe",
+        "long-context",
+        "sovereign-ai",
+        "german",
+        "aleph-alpha"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Aleph Alpha 发布 Kolibri：面向主权场景的英德双语开放权重 MoE 模型，78B 总参数 / 3B 激活，上下文最长 1M token，完整权重挂在 Hugging Face（Kolibri-1），Apache 2.0模型来自其训练即代码流水线的持续迭代：先用 30B 总参/3B 激活65k 上下文的 Kolibri Origin 验证流水线，再跑出支持数百次消融实验硬件故障或数据连接断开时无需人工干预的稳定预训练定位受监管领域的任务关键型本地部署（公共管理工业航空航天），主打全供应链完整性与部署自由；官方称在数学编程grounding长上下文任务上对标最高 4 倍激活参数量的模型，并处于英语/德语的质量-服务成本 Pareto 前沿，附技术报告2026-10-03 发布，HN 478 分/292 评论",
+      "summary_en": "Aleph Alpha released Kolibri, a sovereign open-weight English-German Mixture-of-Experts Transformer with 78B total and 3B active parameters, context lengths up to 1M tokens, and full weights downloadable on Hugging Face (Kolibri-1) under Apache 2.0. It comes from continuous iteration of the company's model-training-as-code pipeline, validated first on Kolibri Origin (30B total/3B active, 65k context), enabling hundreds of ablation experiments and pre-training that stayed stable without human intervention when hardware failed or data connections dropped....",
+      "one_liner": "Aleph Alpha 发布 Kolibri：面向主权场景的英德双语开放权重 MoE 模型，78B 总参数 / 3B 激活，上下文最长 1M token，完整权重挂在 Hugging Face（Kolibri-1）.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a650c74f.md",
+      "images": [],
+      "added_date": "2026-10-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2ad697ea",
+      "title": "Agents Don't Need Memory. They Need Documentation.",
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "source": {
+        "platform": "blog",
+        "author": "liao.gg",
+        "original_date": "2026-10-03"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "memory",
+        "documentation",
+        "rag",
+        "context-engineering",
+        "agent-architecture"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Agents 不需要记忆，需要的是文档：对 agent memory 插件生态的系统批评作者把市面产品归纳为同一种架构读会话记录切 snippet入向量库每次 prompt 检索 top-5 注入再配一个搜索工具并指出五个结构性问题：相似度检索分不出哪条正确/最新/缺失；snippet 丢掉上下文动机与环境；把过去当真理（代码库天天在变）；agent 不知道自己不知道什么不会主动去搜；上万条 embedding 不可审计哪些存在哪些过期哪些从未被检索过都答不上来结论：知识管理应像人类团队一样以写下来的文档为准（AGENTS.md 之外要有活的文档体系），而不是把 token 预算花在更好地回忆过去2026-10-03",
+      "summary_en": "\"Agents don't need memory. They need documentation\" argues that the entire agent-memory plugin ecosystem shares one flawed architecture - go through session transcripts, generate snippets, insert into a RAG database, retrieve top-5 on every prompt, plus a search tool - and inherits the same failure modes: similarity search cannot tell which snippet is correct, current, or missing; snippets lose context, motivations, and environment; the past is treated as truth while the codebase changes daily; agents cannot search for what they do not know; and a store of thousands of embeddings is unauditable. The author's alternative is document-based memory: people handle knowledge by writing things down, so projects need real living documentation beyond a lone AGENTS.md rather than better recall over past conversations.",
+      "one_liner": "Agents 不需要记忆，需要的是文档：对 agent memory 插件生态的系统批评作者把市面产品归纳为同一种架构读会话记录切 snippet入向量库每次 prompt 检索 top-5 注入再配一个搜索工具并指出五个结构性问题：相似度检索分不出哪条正确/最新/缺失...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2ad697ea.md",
+      "images": [],
+      "added_date": "2026-10-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fc994d69",
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5",
+      "source": {
+        "platform": "blog",
+        "author": "Addy Osmani (Anthropic)",
+        "original_date": "2026-10"
+      },
+      "category": "coding",
+      "tags": [
+        "claude",
+        "claude-code",
+        "opus",
+        "prompting",
+        "agentic-coding"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 官方指南Getting the most out of Opus 5.5 in Claude and Claude Code（Addy Osmani 执笔）出发点：Opus 5.5 能更长地独立工作更清楚地汇报自己做了什么并自行决定每次回答花多少思考对应建议：把整个任务连同完成的定义一次性交给模型，写明唯一需要停下来问人的情形；中途想起的事作为新消息补发而不是重启任务；从 promptCLAUDE.mdskills 里删掉think hard/carefully类指令（官方测试中删掉后更早开始作答且质量无明显下降）；设计任务列出不要的风格清单比要现代简洁更有效；Claude Code 长跑场景在 CLAUDE.md 写清何时继续干何时停下请示，不可逆操作（如删文件）仍要先征求许可原站在当前网络环境不可直达，内容经由第三方忠实转述（gritai.studio，2026-09-23）与多源搜索结果交叉确认",
+      "summary_en": "Anthropic's official guide for getting the most out of Opus 5.5 in Claude and Claude Code, written by Addy Osmani. Premise: Opus 5.5 works longer on its own, reports more clearly on what it did, and decides for itself how much to think before each answer. Recommendations: hand over the whole task in one message with an explicit definition of done and the single reason to stop and ask; send mid-task reminders as new messages instead of restarting runs (runs are longer now, so starting over costs more); delete 'think hard/carefully' lines from prompts, project instructions, skills, and CLAUDE.md - in Anthropic's testing answers started sooner with no clear quality drop; name the design styles you do not want rather than wishing for something modern and clean...",
+      "one_liner": "Anthropic 官方指南Getting the most out of Opus 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fc994d69.md",
+      "images": [],
+      "added_date": "2026-10-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-03",
-  "total_entries": 2581
+  "last_updated": "2026-10-04",
+  "total_entries": 2587
 }
