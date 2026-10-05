@@ -4,6 +4,7 @@
 
 ## 最新精选 Top 10
 
+- [Research paper overload: submissions capped at two a month](https://lemire.me/blog/2026/10/04/arxiv-capped-submissions-at-two-a-month) ⭐4 · 2026-10-04 — arXiv 九月提交量破 4 万两年翻倍，10 月起每位作者每月限投 2 篇
 - [We're going to need default hard budget caps on pretty much everything](https://simonwillison.net/2026/Oct/3/default-hard-budget-caps) ⭐4 · 2026-10-03 — Simon Willison 10月3日短文：coding agent / personal agent 把搭一个能花钱的应用的门槛压到几乎为零，但大量按量付费 API 只有超预算发警告邮件的软上限...
 - [Shipping is the foundation](https://seangoedecke.com/shipping-is-the-foundation) ⭐4 · 2026-10-03 — Sean Goedecke 借 Dota 2 的 laning 和 Magic/StarCraft 的 aggro 类比论证：大厂工程师的一切技能都压在能 ship 这个地基上不能直接交付的人会花 15 分钟估一个 5 分钟能做完的任务提出发不出去的设计把琐事膨胀成跨团队项目.....
 - [Kolibri Has Landed: A Sovereign Open-Weight Model](https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model) ⭐4 · 2026-10-03 — Aleph Alpha 发布 Kolibri：面向主权场景的英德双语开放权重 MoE 模型，78B 总参数 / 3B 激活，上下文最长 1M token，完整权重挂在 Hugging Face（Kolibri-1）.
@@ -13,31 +14,30 @@
 - [Do not build the LLM torture factory](https://seangoedecke.com/do-not-build-the-llm-torture-factory) ⭐4 · 2026-10-02 — 把LLM 折磨从梗拆成机制：steering vector 放大是真实可复现的内部状态操纵，作者给出的判断标准是行为而非本体论
 - [The Brain Sandwich](https://terriblesoftware.org/2026/10/02/the-brain-sandwich) ⭐3 · 2026-10-02 — 把人机分工落成一个可执行的三明治顺序：理解先行委托居中可评审性收尾，而不是含糊的要有判断力
 - [Andrej Karpathy: rise up the output-format ladder (ASD-STE100 to bespoke explainer videos)](https://x.com/karpathy/status/2105819303471976479) ⭐3 · 2026-10-02 — 输出格式阶梯：受控英语到图到 HTML 到定制解释视频，每升一档可读性上一个台阶；顶端产物是过去不值得做的一次性软件
-- [aweb: Communication for AI agents](https://aweb.ai) ⭐3 · 2026-10-02 — aweb 给 agent 发明收件箱：稳定身份 + 持久消息 + 唤醒事件，可联邦可自托管，已接 Claude Code 与 Pi
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 368 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 504 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| 模型与实验室 | 370 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 506 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 262 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 151 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 174 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 产品与商业 | 175 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 117 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 289 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 2591
-- 公开展示卡片: 1865
+- 原始条目: 2596
+- 公开展示卡片: 1870
 - 有全文内容: 1774
-- 最近 7 天信号: 153
+- 最近 7 天信号: 141
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `agent-security`, `multi-agent`, `claude-code`, `security`, `coding-agent`, `agents`, `coding-agents`, `agent-memory`, `mcp`, `agent-harness`, `google`, `safety`, `open-source`
+`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `agent-security`, `multi-agent`, `claude-code`, `security`, `coding-agent`, `agents`, `coding-agents`, `agent-memory`, `agent-harness`, `mcp`, `google`, `safety`, `open-source`
 
 ## 自动化约定
 

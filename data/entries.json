@@ -78422,8 +78422,163 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "af01d638",
+      "title": "Hierarchical Continuous Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.02193",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hui Ren et al.",
+        "original_date": "2026-10-01"
+      },
+      "category": "models",
+      "tags": [
+        "diffusion-models",
+        "language-models",
+        "decoding",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文提出 HC-DLM：把离散 token 生成与连续潜变量轨迹耦合进同一个去噪过程作者指出离散扩散语言模型并行解码时，每个 token 独立从边缘分布采样，切断同时解码 token 之间的统计依赖；连续扩散模型虽共享连续状态，但去噪器只看到状态本身，直到最终解码前都与合法 token 配置没有约束联系HC-DLM 的训练目标由变分下界推导，面向双向推理与全局约束满足任务，是扩散语言模型路线上一份值得跟踪的结构性改进",
+      "summary_en": "Discrete diffusion language models sample each token independently from its marginal when decoding in parallel, severing dependencies among simultaneously decoded tokens; continuous diffusion models denoise a shared continuous state that is tied to no valid token configuration until final decoding. HC-DLM couples discrete token generation with a continuous latent trajectory in a single denoising process whose training objective is derived from a variational bound, targeting bidirectional reasoning and global constraint satisfaction as an alternative to autoregressive generation.",
+      "one_liner": "HC-DLM 把离散扩散与连续潜轨迹耦合成单一去噪过程，直指并行解码切断 token 间依赖的结构瓶颈",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/af01d638.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "227943af",
+      "title": "Raven: The Harness of Harnesses for Composable Agentic Intelligence",
+      "url": "https://arxiv.org/abs/2609.33439",
+      "source": {
+        "platform": "arxiv",
+        "author": "EverMind AI",
+        "original_date": "2026-09-27"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "multi-agent",
+        "skill-library",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "EverMind AI 发布开源多智能体生态 Raven（The Harness of Harnesses）：把每个可执行的 model-harness 组合视为可组合的智能单元，针对具体模型和领域自动构造并演进模块化 harnessHost Agent 负责目标分解把子任务匹配给专门 agent协调执行依赖并整合结果；host archive 与 EverOS 跨任务保留经验，Skill Forge 把经验沉淀为可复用技能论文把核心问题从'为单一领域造更强 harness'转为'如何自主构造按经验改进并跨域编排 harness'，是 harness 工程系统化的一份具体样本",
+      "summary_en": "Raven ('The Harness of Harnesses') is an open-source multi-agent ecosystem that automatically constructs and evolves modular harnesses per model and domain, treating each executable model-harness pair as a composable unit of intelligence. A Host Agent decomposes goals, matches subtasks to specialized agents, coordinates execution dependencies, and integrates results, while a host archive and EverOS preserve experience across tasks and Skill Forge distills that experience into reusable skills, targeting long-horizon cross-domain workflows.",
+      "one_liner": "Raven 把 model-harness 组合当作可组合智能单元，自动构造演进并跨域编排专用 harness",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/227943af.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e653d39a",
+      "title": "Generalization Dynamics of LM Pre-training",
+      "url": "https://arxiv.org/abs/2609.33150",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jiaxin Wen et al.",
+        "original_date": "2026-09-27"
+      },
+      "category": "models",
+      "tags": [
+        "pretraining",
+        "generalization",
+        "language-models",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文用一套 toy eval suite 挑战'预训练让语言模型从模式匹配稳定走向泛化智能'的常见心智模型：整个预训练过程中，模型会在鹦鹉式与智能式计算之间频繁且突然地切换（作者称为 mode-hopping）突然依赖记忆或 in-context 模式而非真正的 in-context learning，从 System 2 掉回 System 1，把'听起来对'当成'真的对'，在多跳 persona QAout-of-context reasoning 和 emergent misalignment 上失手，随后又突然恢复泛化作者证明 mode-hopping 局部稳定checkpoint 平均无法修复，并将其解释为容量受限模型中泛化电路与早期浅层电路的竞争，各预训练窗口的数据决定谁胜出",
+      "summary_en": "Using a toy eval suite, the authors show the assumption that LMs stably mature from pattern-matching parrots into generalizable intelligence during pre-training is wrong: LMs frequently and suddenly hop between parrot-like and intelligence-like computations (mode-hopping) - latching onto memorized or in-context patterns instead of in-context learning, using System 1 instead of System 2, preferring what sounds true over what is true, failing multi-hop persona QA and out-of-context reasoning - then just as suddenly revert and generalize. Mode-hopping is locally stable and cannot be fixed by checkpoint averaging; the authors frame it as capacity allocation where generalizable circuits compete with shallow circuits learned early in training.",
+      "one_liner": "预训练中的语言模型在鹦鹉式与智能式计算间反复突变（mode-hopping），checkpoint 平均修不了",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e653d39a.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "beebbd0f",
+      "title": "Research paper overload: submissions capped at two a month",
+      "url": "https://lemire.me/blog/2026/10/04/arxiv-capped-submissions-at-two-a-month",
+      "source": {
+        "platform": "blog",
+        "author": "Daniel Lemire",
+        "original_date": "2026-10-04"
+      },
+      "category": "industry",
+      "tags": [
+        "arxiv",
+        "publishing",
+        "ai-research",
+        "industry"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Daniel Lemire 记录 arXiv 的最新限流政策：自 2026-10-01 起每位作者每月最多提交 2 篇arXiv 九月提交量超过 4 万篇，两年前约 2 万篇，差不多两年翻一倍，靠志愿者人工审核已不可持续他同时点名 Google 开源漏洞赏金项目因涌入过载而停止接收新的 bug 报告，直言'问题已经写在墙上'AI 论文产出爆炸正在直接挤压预印本与同行评审基础设施，这篇文章是一手时间线记录",
+      "summary_en": "Daniel Lemire documents arXiv's new rate-limit policy: from October 1, 2026, submissions are capped at two per person per month. arXiv received over 40,000 submissions in September, roughly double the ~20,000 of two years ago, and volunteer moderation cannot sustain the growth. He notes Google also stopped accepting new bug reports in its open-source bounty program due to the influx, reading both as signs of research feedback infrastructure approaching overload.",
+      "one_liner": "arXiv 九月提交量破 4 万两年翻倍，10 月起每位作者每月限投 2 篇",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/beebbd0f.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "71fe0792",
+      "title": "Why Johnny Can't Use Agents: Industry Aspirations vs. User Realities with AI Agents",
+      "url": "https://arxiv.org/abs/2509.14528",
+      "source": {
+        "platform": "arxiv",
+        "author": "Pradyumna Shome et al.",
+        "original_date": "2025-09-18"
+      },
+      "category": "agents",
+      "tags": [
+        "human-agent-interaction",
+        "usability",
+        "evaluation",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "研究对比了'产业界如何宣传 AI agent'与'用户实际用得怎么样'：对 102 个商业 agent 的营销用例做系统综述，归纳为编排（orchestration）创造（creation）洞察（insight）三类；随后让 31 名参与者在 Operator 与 Manus 两款商业 agent 产品上完成各类别的代表性任务结果用户整体评价不错，但遇到显著的可用性障碍agent 能力与用户心智模型错位缺乏有效协作所需的元认知能力这是少见的真实用户侧 agent 评估证据",
+      "summary_en": "A systematic review of marketed use cases for 102 commercial AI agents finds three umbrella categories (orchestration, creation, insight); a usability assessment then had N=31 participants attempt representative tasks in each category on two popular commercial agent tools (Operator and Manus). Users were generally impressed but faced significant usability challenges, from agent capabilities misaligned with user mental models to agents lacking the meta-cognitive abilities necessary for effective collaboration.",
+      "one_liner": "102 个商业 agent 的宣传用例对比 31 名真实用户实测：能力错位与元认知缺失是两大可用性障碍",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/71fe0792.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-04",
-  "total_entries": 2591
+  "last_updated": "2026-10-05",
+  "total_entries": 2596
 }
