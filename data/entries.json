@@ -78577,8 +78577,297 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "c7ad9b37",
+      "title": "Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents",
+      "url": "https://arxiv.org/abs/2609.17653",
+      "source": {
+        "platform": "arxiv",
+        "author": "Bofan Chen, Boxuan Zhang, Yongliang Shen et al. (Zhejiang University)",
+        "original_date": "2026-09-15"
+      },
+      "category": "agents",
+      "tags": [
+        "gui-agents",
+        "skills",
+        "androidworld",
+        "training-free",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "浙江大学团队提出免训练的 GUI agent 技能进化框架 EvoSkill-GUI（代码已开源）针对弹窗延迟加载控件位移使执行前固定的计划失效的问题，论文把技能组织成多文件包检索元数据可执行计划备份定位失败恢复规则无障碍工具与失败案例并运行 reflect-revise-reuse 循环：执行器在 rollout 中即时修订，隔离的 critic 在信息隔离约束下诊断失败轨迹，执行器再通过受限工具接口改写具体技能文件在 MobileWorldAndroidWorldOSWorld 三个基准上，多个基座模型免训练最高分别提升 16.2%6.0%10.5%，进化出的技能库能继续服务相关任务而不是从头重建9 月 15 日提交",
+      "summary_en": "GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated widgets routinely invalidate plans fixed before execution. Recent agent-skill frameworks encapsulate reusable procedural knowledge to mitigate this, yet existing skill designs are largely developed without targeting GUI execution dynamics and treat skills as static artifacts produced before deployment rather than living procedural knowledge that improves through it. We argue that what GUI agents need is not better static skills, but skills that can be revised from execution feedback at deployment time, without additional training....",
+      "one_liner": "EvoSkill-GUI 免训练让 GUI agent 技能在部署后经执行反馈持续修订进化",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c7ad9b37.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e13a7ef7",
+      "title": "Tide: Reclaiming Phased Memory in Agent MicroVMs",
+      "url": "https://arxiv.org/abs/2609.40082",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yiyang Wu, Chengfan Liao, Jinyu Gu",
+        "original_date": "2026-09-30"
+      },
+      "category": "infra",
+      "tags": [
+        "agent-infra",
+        "memory-management",
+        "microvm",
+        "os",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "面向云上 agent MicroVM 的主动内存回收技术 Tideagent harness 等模型时近乎空闲调工具时内存上涨且大小只有运行时才知道，宿主机靠访问频率和占用量推断回收目标，会选错页定错容量或部分回收透明大页导致拆页Tide 的洞察是 harness 自己知道每个阶段的内存意图（哪块内存何时用内容是否要保留）：guest 通过用户态 arena API 表达独占意图，guest 内核分配器把这类分配聚成 huge-page 对齐的 extent，hypervisor 扩展按上报直接回收宿主侧 backing，guest 容量保持不变在录制的 agent 轨迹上超过现有回收机制且开销低9 月 30 日提交，cs.OS",
+      "summary_en": "Cloud agents run each task in an isolated MicroVM. The trouble is the harness loop inside that guest: the harness is nearly idle while it waits on the model, then usage rises on a tool whose size is known only at run time, which complicates memory management from the host. Existing approaches infer reclaim targets from access frequency and memory footprint while the guest allocator places the idle harness and the short-lived tool on the same pages. Therefore, reclamation either selects the wrong pages, fixes on an incorrect capacity, or partially reclaims a huge page, splitting its transparent huge page. This paper proposes Tide, a proactive memory reclamation technique for agent MicroVMs....",
+      "one_liner": "Tide 让 agent harness 上报分阶段内存意图，MicroVM 宿主侧直接精准回收",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e13a7ef7.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c11f7a1a",
+      "title": "Capture the lifecycle: KV Cache management in ReAct Agents with KVTether",
+      "url": "https://arxiv.org/abs/2609.39819",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kaihua Fu, Yukun Zhou, Quan Chen et al. (Shanghai Jiao Tong University)",
+        "original_date": "2026-09-30"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "serving",
+        "react-agents",
+        "lifecycle",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "上海交通大学团队提出生命周期感知的 ReAct agent KV 缓存管理框架 KVTether上下文经过消息改写工具执行与子 agent 协调后会分化为活跃永久丢弃暂时不用三种状态，而 serving 栈只能看到 KV 访问，这一语义断层使 LRU 既回收不掉死 KV，也保不住即将被复用的旧 KVKVTether 追踪 agent harness 内嵌的语义原语捕获运行时生命周期，把消息级语义翻译成 KV 级状态，驱动状态优先的缓存管理：回收死 KV 后优先保留等待复用的活跃但空闲 KV，减少复用前的过早驱逐对比 LMCache 端到端请求延迟最高降 26.3%，对比 MORI 降 17.4%；估算任务成本平均降 40.0% 和 33.2%9 月 30 日提交",
+      "summary_en": "Efficient serving of long-context reasoning-and-acting (ReAct) agents relies on KV cache reuse to reduce large language model (LLM) prefill latency and monetary cost. However, a semantic gap exists between agent harnesses and the underlying serving stack. Through context mutation, tool execution, and subagent coordination, context messages may become actively engaged, permanently discarded, and temporarily unused, while the serving stack only observes accesses to the corresponding KV cache. This lifecycle blindness prevents recency-only policies such as LRU from reclaiming dead KV promptly and from preserving older KV that will be reused sooner than newer entries. We present KVTether, a lifecycle-aware KV cache management framework for ReAct agents. By tracing semantic primitives embedded in agent harnesses, KVTether captures runtime lifecycle semantics during highly dynamic execution....",
+      "one_liner": "KVTether 从 harness 语义捕获 KV 生命周期，agent 请求延迟最高降 26.3%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c11f7a1a.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "ce1e1479"
+      ]
+    },
+    {
+      "id": "9a14422b",
+      "title": "Aleph Alpha Kolibri deep dive: UniBPE, sliding-window attention and abstention training",
+      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "source": {
+        "platform": "blog",
+        "author": "Tejas Kumar",
+        "original_date": "2026-10-03"
+      },
+      "category": "models",
+      "tags": [
+        "moe",
+        "german-llm",
+        "tokenizer",
+        "long-context",
+        "open-weights"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Tejas Kumar 基于 Aleph Alpha 189 页技术报告写的 Kolibri 开源 MoE 深度解读Kolibri 78B 总参每 token 激活约 3.5B，80% 训练 token 为德语；UniBPE 训出的 128k tokenizer 针对德语复合词，作者实测在德国基本法上比 GPT-5 的 o200k_base 省 15%（官方数据 11.2%）；40/50 层用 512 窗口的 sliding-window attention 且仅这些层带 RoPE，262k 训练上下文实测外推到 1M，RULER 得 63.2；用 Merlin-Arthur 三角色博弈训练弃答，Omniscience 测试上答不知道占 44%短板同样直白：Terminal-Bench 27.7SWE-bench Verified 66.4，78GB FP8 权重与德英双语定位10 月 3 日发布，Apache 2.0",
+      "summary_en": "A deep technical walkthrough of Kolibri, Aleph Alpha's open-weight 78B-parameter MoE (about 3.5B active per token) for German and English, released under Apache 2.0 on Oct 3, 2026. Drawing on the 189-page technical report plus the author's own tokenizer experiment: the 128k-token UniBPE vocabulary needs 15% fewer tokens than GPT-5's tokenizer on legal German (official figure 11.2%); 40 of 50 layers use 512-token sliding-window attention with RoPE only on those layers, so the 262k training context extrapolates to 1M tokens (RULER 63.2); abstention is trained via the three-role Merlin-Arthur protocol, answering 'I don't know' 44% of the time on the Omniscience test. Weaknesses are stated plainly: Terminal-Bench 27.7, SWE-bench Verified 66.4, 78GB of FP8 weights, German/English only.",
+      "one_liner": "Kolibri 深度解读：德语优化 tokenizer滑窗注意力外推 1M 上下文与弃答训练",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9a14422b.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "a650c74f"
+      ]
+    },
+    {
+      "id": "89764eae",
+      "title": "Microsoft ThinkingBox: score agent runs by terminal state, not self-reported completion",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "source": {
+        "platform": "blog",
+        "author": "Tuhin Kundu et al. (Microsoft)",
+        "original_date": "2026-10-03"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-evaluation",
+        "benchmark",
+        "terminal-state",
+        "microsoft",
+        "consistency"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "微软 ThinkingBox 基准的 HF 官方博文：agent 的完成与否取决于终态而非自我报告打分对象是 terminal backend state 与副作用，不是回复像不像完成；477/507 题只看状态，模拟用户持私有上下文被问到才提供每题独立跑 20 次，报告 pass@1pass@20 与 20/20 全过三列指标12 个模型 121,680 次有效尝试中 79,853 次可执行检查失败，其中 67.24% 的失败仍表现为干净结束调了改状态工具且无显式报错；失败检查里 database hash mismatch 占 98.95%pass@1 头名 Claude Opus 5.5 为 67.16%，但其 20/20 只有 47.53%单次成功不等于每次都对随文开源三仓（MIT 框架基准数据RL 训练）并给出本地运行路径10 月 3 日发布",
+      "summary_en": "The official HF blog post for Microsoft's ThinkingBox benchmark: agents are scored on terminal backend state and side effects rather than self-reported completion. 477 of 507 tasks check only final state; a simulated user holds private context and shares it only when asked; each task runs 20 independent times to report pass@1, pass@20, and a literal 20/20 consistency count. Across 121,680 valid trials from 12 models, 79,853 executable checks failed - and 67.24% of those failures still ended cleanly, called state-changing tools, and showed no explicit error; database hash mismatch accounts for 98.95% of failed checks. Top pass@1 is Claude Opus 5.5 at 67.16%, but its 20/20 rate is 47.53%: passing once is not passing every time. Ships as three repos (MIT framework, benchmark data, RL training) with local run instructions.",
+      "one_liner": "ThinkingBox 用 terminal state 与 20 次重复度量 agent 的真实完成与一致性",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/89764eae.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b9aee294",
+      "title": "Amplifying index: agent-attributed output on public GitHub, October 2026 edition",
+      "url": "https://amplifying.ai/research/state-of-coding-agents",
+      "source": {
+        "platform": "blog",
+        "author": "Amplifying (Jina AI)",
+        "original_date": "2026-09-28"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "market-share",
+        "claude-code",
+        "pr-review",
+        "devstats"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Amplifying 2026 年 10 月 coding agent 产出指数（基于 Jina 全文存档精读）公开 GitHub 上 166.7M 归因单位中 Claude Code 一家占 80%（132.9M），前三（Claude CodeCursorReplit Agent）合计 93%；周流量 Claude Code 1.3M（4 周 +143%）对 Codex 236K（+7%）抽样最近 1,999 条公开 PR，32.5% 带公开 agent 信号，Claude Code 独占 29.8%268 个重要仓库的已合并 agent PR 中 44% 有人类 review，且分化明显：Cursor 与 Copilot agent 几乎全走人工 review，Codex 与 Devin 多数自合并作者提醒各 agent 计数单位不同构（commitsPRcheckpoint 各异），应读作集中度信号而非同尺排名数据截至 2026-09-28",
+      "summary_en": "The October 2026 Amplifying index attributes 166.7M units of agent-attributed output on public GitHub: Claude Code alone accounts for 80% (132.9M) and the top three agents (Claude Code, Cursor, Replit Agent) for 93%. Weekly flow: Claude Code 1.3M (+143% over four weeks) vs Codex 236K (+7%). Sampling the 1,999 most recent public PRs, 32.5% carry a public agent signal (Claude Code 29.8%). Across 268 merged PRs in significant repos, 44% had a human reviewer, with sharp splits: Cursor and the Copilot agent route nearly everything past review, while Codex and Devin self-merge the majority. The author cautions that units differ per agent (commits vs PRs vs checkpoints), so read it as a concentration signal, not a like-for-like ranking. Data as of 2026-09-28.",
+      "one_liner": "Amplifying 指数：公开 PR 流 32.5% 带 agent 信号，Claude Code 一家占 80%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b9aee294.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b21cc5e4",
+      "title": "Pluralistic: Economic probabilities for our grandchildren",
+      "url": "https://pluralistic.net/2026/10/03",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-10-03"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-economics",
+        "oligarchy",
+        "capital-flows",
+        "industry"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cory Doctorow 10 月 3 日长文，把战后和平红利三要素（工业产能政治自由压抑需求）叠在 Piketty 300 年资本流向研究上关键机制：当财富向 1% 集中达到破裂点，寡头统治引发的崩溃会不成比例地摧毁寡头自己的资本90% 财富在 1% 手里时，灾难消灭的大部分正是他们的财富，二战后的辉煌三十年由此而来他判断美国正按同一节奏走向破裂，叠加气候冲击与对美元石油电信基础设施的攻击，后美国世界已在拉锯；AI 在文中被定位为寡头的最后赌注把世界猜测机器喂大到足够造出神来管理，全栈因此在抢电力铜光纤与信贷十年级别的结构性叙事，可与 AI IPO 季与数据中心债重定价的报道对照读",
+      "summary_en": "Doctorow layers the post-war 'peace dividend' (industrial capacity, political freedom, pent-up demand) on Piketty's 300-year capital-flow record: when wealth concentrates to a breaking point, an oligarchy-triggered collapse disproportionately destroys the oligarchs' own capital - if 90% of wealth belongs to 1% of people, a disaster wiping out most capital mostly destroys theirs - which is how the 'trente glorieuses' became possible. He argues the US is steaming into the same situation, compounded by climate shocks and attacks on dollar, oil and telecom infrastructure, and frames AI as the oligarchs' last bet - feeding the world-guessing machine until it wakes up a god - driving the scramble for power, copper, fiber and credit. A decade-scale structural narrative pairing well with AI-IPO-season and data-center-debt coverage.",
+      "one_liner": "Doctorow：寡头资本集中与破裂的周期叙事，AI 是寡头的最后赌注",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b21cc5e4.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "03a43a91",
+      "title": "Dear Software Makers",
+      "url": "https://blog.jim-nielsen.com/2026/dear-software-makers",
+      "source": {
+        "platform": "blog",
+        "author": "Jim Nielsen",
+        "original_date": "2026-10-01"
+      },
+      "category": "industry",
+      "tags": [
+        "software-craft",
+        "creativity",
+        "ab-testing",
+        "platform-critique"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Jim Nielsen 10 月 1 日借 Marques Brownlee 的Dear YouTube视频讨论创作与优化的张力YouTube 正在内测 A/B variant 功能，让 creator 发布同一视频的多版本比较表现；Nielsen 认同 Brownlee 的反对：创作的核心能力是找到有创造性的方式分享经验教概念探想法，views 与 retention 都是这个能力的下游；一旦聚焦优化，不会立即折算成指标的创造性部分会先被剪掉Moby Dick 不是讲这个故事最高效的方式他把这一功能归因于平台自身的不安全感花太多时间追竞争对手，不够时间做 YouTube，并把坚持做完一件学到东西再做下一件的态度推荐给软件行业",
+      "summary_en": "Nielsen riffs on Marques Brownlee's 'Dear YouTube' plea against A/B variant testing of videos: the core creator skill is finding creative ways to share experience and teach ideas, and views and retention are downstream of that. Optimizing trims out the creative parts first ('Moby Dick was not the most efficient way to tell that story'). He ties the feature to YouTube's own insecurity - 'spending way too much time chasing their competitors and not enough time being YouTube' - and recommends the make-it-then-learn-then-make-the-next-thing conviction to software makers.",
+      "one_liner": "Nielsen：创作能力是目的，指标只是下游，别把创作 A/B 化",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/03a43a91.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f54182a3",
+      "title": "Lauren (poteto) on landing 2,500 PRs in a month at SpaceX (interview)",
+      "url": "https://x.com/poteto/status/2106134336705843554",
+      "source": {
+        "platform": "x",
+        "author": "poteto (Lauren)",
+        "original_date": "2026-10-02"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "spacex",
+        "skills",
+        "pr-workflow"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "Lauren（poteto）10 月 2 日发帖：与 Matt Pocock 对谈她在 SpaceX 一个月合并 2,500 个 PR 的工作流，完整机制在视频访谈里她提到双方的 skill 插件可以组合使用，建议按自己的工作流挑选合适的 skills这是AI 编码流水线化的高热度一手样本（2.2K likes1.4K bookmarks）：agent + skill 组合把 PR 吞吐推到极限的实录案例，具体流程以视频访谈为准，本条仅收录推文本身可验证的内容",
+      "summary_en": "Lauren (poteto) announcing her interview with Matt Pocock about how she landed 2,500 merged PRs in a single month at SpaceX, noting that her and Matt's skill plugins work well together. A high-signal first-hand data point (2.2K likes / 1.4K bookmarks) on agent-plus-skill pipelines at extreme PR throughput; the mechanics live in the video interview, so this entry records only what the post itself states.",
+      "one_liner": "poteto 访谈预告：SpaceX 单月合并 2500 PR 的 agent+skill 工作流",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/f54182a3.md",
+      "images": [],
+      "added_date": "2026-10-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-05",
-  "total_entries": 2596
+  "total_entries": 2605
 }
