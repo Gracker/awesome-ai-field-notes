@@ -78777,7 +78777,7 @@
     {
       "id": "b21cc5e4",
       "title": "Pluralistic: Economic probabilities for our grandchildren",
-      "url": "https://pluralistic.net/2026/10/03",
+      "url": "https://pluralistic.net/2026/10/03/full-employment/",
       "source": {
         "platform": "blog",
         "author": "Cory Doctorow",
@@ -78998,8 +78998,241 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "78ad5381",
+      "title": "Our approach to EU text provenance rules",
+      "url": "https://openai.com/index/eu-text-provenance",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-10-05"
+      },
+      "category": "models",
+      "tags": [
+        "watermarking",
+        "text-provenance",
+        "eu-ai-act",
+        "openai",
+        "detection"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 为回应欧盟 AI Act 的文本可识别要求公布文本水印方案 textGrain：在模型选词阶段植入统计信号，检测端据此判断文本是否出自其模型，技术报告已发布并计划开源官方同时量化了局限：1% 目标假阳率下 200-token 短文检出率约 80%，更长文本约 95%；对 400 token 文本替换 10% 同义词检出率从 92% 降到 66%，25% 时只剩 17%；数学等词面自由度低的文本天然更难检测质量侧，加水印前后在 Artificial Analysis Intelligence IndexDeepSWE v1.1Terminal-Bench 4.0 等 8 项基准上差异都在噪声范围内（例 49.5749.76）落地分三步：API 全球可选开（默认关）未来几周对欧盟 ChatGPT/Codex 输出加隐形水印检测器先只开放给审核过的研究机构；图像/音频验证工具继续公开",
+      "summary_en": "OpenAI published its approach to text watermarking for EU AI Act compliance: textGrain embeds a statistical signal in the model's word choices and a detector assesses whether a passage carries an OpenAI watermark; a technical report is out and open-sourcing is planned. Limitations are quantified: at a 1% target false-positive rate, detection is about 80% on 200-token passages versus about 95% on longer text; substituting 10% of words with synonyms cuts detection from about 92% to 66%, and 25% substitution leaves 17%; math-style low-lexical-freedom text is inherently harder. Benchmark impact stays within noise across 8 evaluations (e.g. 49.57 to 49.76). Rollout: global API opt-in (off by default), invisible watermark on eligible EU ChatGPT/Codex output within weeks, detector limited to approved researchers and expert organizations; image/audio verification tools remain public.",
+      "one_liner": "textGrain 把文本水印推进监管落地，也第一次官方量化了同义词改写就能击穿的脆弱性",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/78ad5381.md",
+      "images": [],
+      "added_date": "2026-10-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3bcfe2f4",
+      "title": "Research: Qwen3.8 27B addition in words",
+      "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-10-04"
+      },
+      "category": "models",
+      "tags": [
+        "evaluation",
+        "reasoning",
+        "quantization",
+        "local-models",
+        "benchmark"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 在 DGX Spark 上复刻 Colin Frasier 两年前用 GPT-4o 做过的实验：让本地量化 Qwen3.8-27B-Q4_K_M 把两个正整数相加，答案只能写成英文单词1313 位数组合每格 30 个固定样本共 5070 题禁用推理时，数字正确率仅 23.57%，1-3 位数 97.04%，10-13 位数跌到 6.44%，但格式合规率高达 96.17%模型几乎总在输出合法英文单词，只是算错打开 medium 推理后跑 169 题试点（每格 1 采样），167 题正确，热图几乎全蓝；推理 trace 显示模型把数位对齐从右往左逐位相加并标注进位结论：本地 27B 量化模型在无工具调用时能靠链式推理跨过大数和写成英文单词的组合障碍，reasoning_effort 是这类约束型任务的实际开关",
+      "summary_en": "Simon Willison replicated Colin Frasier's two-year-old GPT-4o experiment on a DGX Spark with the locally quantized Qwen3.8-27B-Q4_K_M: add two positive integers and express the exact result solely in English words. Across 5,070 reasoning-disabled cases (30 fixed pairs per 13x13 digit-length cell), numeric accuracy was 23.57% overall - 97.04% for 1-3 digit operands falling to 6.44% at 10-13 digits - despite 96.17% format compliance. A 169-case medium-reasoning pilot (one sample per cell) scored 167/169, with traces showing column-aligned right-to-left addition with explicit carries. A local 27B quantized model can clear the words-answer compositional barrier via chain-of-thought alone; reasoning_effort is the practical switch for such constraint tasks, not raw arithmetic ability.",
+      "one_liner": "关推理 23.57%开推理 167/169：把 reasoning_effort 当约束任务的实际开关用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3bcfe2f4.md",
+      "images": [
+        "https://static.simonwillison.net/static/2026/colin-frasier-grid.webp",
+        "https://static.simonwillison.net/static/2026/qwen-words-no-reasoning.webp",
+        "https://static.simonwillison.net/static/2026/qwen-words-reasoning.png"
+      ],
+      "added_date": "2026-10-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0b942a7e",
+      "title": "Pluralistic: Scrutinized",
+      "url": "https://pluralistic.net/2026/10/05/pervert-glasses",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-10-05"
+      },
+      "category": "industry",
+      "tags": [
+        "surveillance",
+        "ai-glasses",
+        "facial-recognition",
+        "industry",
+        "political-economy"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cory Doctorow 10 月 5 日长文：Meta AI 眼镜及其仿品真正要解决的不是帮你记住对方名字，而是为 content-creator surveillance 提供基础设施常驻摄像头一旦接上面部识别，公共场合的普通人会被批量转成可消费的内容，产品变成高产量 doxing 工厂，给渴望走红的用户提供病毒式曝光通道他把 Bentham 的 panopticon 改写为 scrutiny：被看只是起点，被持续评判才让人主动放弃 authentic self监控的效力不靠惩罚，靠让人提前自我审查佐证是两件已发生的事：Larry Ellison 公开设想对非富豪阶层实施 AI 兜底supervision；Zuckerberg 一边围绕自家房产买地保隐私，一边在 Facebook 推 Real Names文章不做预测，只描述已运转的机制：scrutiny 经济对硅谷自己人之外的任何人是净损耗",
+      "summary_en": "Doctorow argues Meta's AI camera glasses and their imitators are not really about reminding you of names: coupled with facial recognition they become infrastructure for content-creator surveillance - high-volume doxing factories that convert strangers in public into consumable content and viral fame for the attention-hungry. He rewrites Bentham's panopticon as 'scrutiny': being watched is only the start; continuous judgement is what makes people abandon their authentic selves, because surveillance works through self-censorship rather than punishment. Evidence includes Larry Ellison's public vision of AI-supervised 'care' for the non-wealthy and Zuckerberg buying privacy around his own homes while enforcing Real Names on Facebook. No predictions, just mechanisms already in motion: the scrutiny economy is a net loss for anyone outside Silicon Valley.",
+      "one_liner": "AI 眼镜的终局不是记名字，是常驻摄像头加面部识别的 doxing 工厂",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0b942a7e.md",
+      "images": [
+        "https://i0.wp.com/craphound.com/images/scrutinized.jpg?w=840&ssl=1"
+      ],
+      "added_date": "2026-10-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "89fe0b16",
+      "title": "Anthropic Opus 5.5 Playbook 中文实操整理（indigox）",
+      "url": "https://x.com/indigox/status/2102614532552094112",
+      "source": {
+        "platform": "x",
+        "author": "indigox",
+        "original_date": "2026-09-23"
+      },
+      "category": "coding",
+      "tags": [
+        "claude",
+        "opus-5-5",
+        "prompting",
+        "claude-code",
+        "playbook",
+        "agents"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "indigox 基于 Anthropic 官方 Opus 5.5 Playbook 的中文实操整理新特性三点：能独立工作更长时间用直白的话汇报进度回复前自动思考（思考多少由模型自定）对应改法覆盖三块：提问一条消息写清完成定义和停止条件让它自己跑，删掉仔细想想类提示，任务运行中直接补要求，设计需求点名不想要的具体样式（米白背景01/02 编号胶囊按钮）而非不要太普通；Claude Code 长任务CLAUDE.md 写明何时停何时继续破坏性命令权限提示保持开启大任务拆 subagent 并行并先核实证据再汇总任务清单放 TASKS.md 边做边勾（上下文压缩后仍在）；检查结果先看它需要你做什么，人工审查前先让它自审，早期测试者称最低 effort 找到的 bug 比 Opus 5 高 effort 还多且误报更少",
+      "summary_en": null,
+      "one_liner": "Opus 5.5 用法重心：从一步步指挥，转向交代目标设停止规则先自审再人工审",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/89fe0b16.md",
+      "images": [],
+      "added_date": "2026-10-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1951827e",
+      "title": "从零开始理解上下文压缩：Pi 的 Compaction 工作原理（中译）",
+      "url": "https://x.com/xiaomovps/status/2106561874645111284",
+      "source": {
+        "platform": "x",
+        "author": "xiaomovps",
+        "original_date": "2026-10-04"
+      },
+      "category": "agents",
+      "tags": [
+        "context-compression",
+        "compaction",
+        "pi",
+        "coding-agents",
+        "prefix-cache"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "xiaomovps 转译并介绍 Earendil Engineering 的How Compaction Works in Pi：编程 agent 的上下文窗口装不下历史记录时，会调用一次独立的 LLM 请求，对早期历史做结构化摘要（目标进度关键决定），近期消息原样保留工程取舍是重点：压缩破坏前缀缓存（prefix cache），但让长任务得以继续；缓存命中率与上下文余量是相反方向的力理解这一点就能解释 Pi / Claude Code 长会话里上下文换了一层的现象回复区补了两条实践：压缩后先让 agent 只输出已确认事实/未完成目标/验收闸门三栏 checkpoint，缺一即停，避免恢复后重复劳动；先用确定性函数把旧读档和测试输出替换成一行占位，常常能推迟整体摘要保住前面的决策原文",
+      "summary_en": null,
+      "one_liner": "压缩=结构化摘要早期历史+原样保留近期消息：换来任务续命，付出前缀缓存",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/1951827e.md",
+      "images": [],
+      "added_date": "2026-10-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b0a49d7c",
+      "title": "When Tools Fail: Benchmarking Dynamic Replanning and Anomaly Recovery in LLM Agents",
+      "url": "https://arxiv.org/abs/2606.05806",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dongsheng Zhu, Xuchen Ma, Yucheng Shen, Xiang Li, Yukun Zhao, Shuaiqiang Wang, Lingyong Yan, Dawei Y...",
+        "original_date": "2026-06-04"
+      },
+      "category": "agents",
+      "tags": [
+        "benchmark",
+        "tool-use",
+        "error-recovery",
+        "replanning",
+        "agents",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "现有 Tool-Integrated Reasoning 基准大多跑在理想 happy path 上，百度团队的 ToolMaze 专门补工具失败这一缺口：一个维度是 DAG 依赖链的拓扑复杂度，另一个维度是 22 扰动分类（显式/隐式 瞬时/永久），把系统性重规划与盲试错分开度量主要发现：扰动几乎压低所有模型表现；隐式语义失败最尖锐返回值格式完全合法但内容已被污染，模型因系统性过度信任毒数据，Perturbation Recovery Rate 平均暴跌约 37%，复杂拓扑还会把 agent 困在无效试错循环最关键的结论是容错能力随模型规模改善的速度比基础任务执行慢 3.66 倍换更强模型买不到恢复能力，动态重规划是规模与提示都没有解决的独立瓶颈数据与代码开源于 github.com/Zhudongsheng75/ToolMaze",
+      "summary_en": "Existing benchmarks evaluate Tool-Integrated Reasoning on idealized happy paths. ToolMaze (Baidu) targets dynamic path discovery and error recovery with a two-dimensional design: DAG-based topological complexity and a 2x2 taxonomy of tool perturbations (explicit/implicit, transient/permanent), separating systematic replanning from blind trial-and-error. Perturbations degrade nearly all models, with the sharpest drops under implicit semantic failures - outputs that parse perfectly but carry corrupted content - where Perturbation Recovery Rate falls by around 37% due to systemic over-trust; complex topologies trap agents in futile trial-and-error loops. Agentic fault-tolerance improves with model scale 3.66x slower than basic task execution, making dynamic replanning a distinct bottleneck unaddressed by scaling or prompting. Data and code: github.com/Zhudongsheng75/ToolMaze.",
+      "one_liner": "工具失败恢复是独立短板：隐式毒数据 PRR -37%，规模换容错的速度慢 3.66 倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b0a49d7c.md",
+      "images": [],
+      "added_date": "2026-10-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d85a7e15",
+      "title": "PALADIN: Self-Correcting Language Model Agents to Cure Tool-Failure Cases",
+      "url": "https://arxiv.org/abs/2509.25238",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sri Vatsa Vuddanti, Aarav Shah, Satwik Kumar Chittiprolu, Tony Song, Sunishchal Dev, Kevin Zhu, Mahe...",
+        "original_date": "2025-09-25"
+      },
+      "category": "agents",
+      "tags": [
+        "tool-failure",
+        "recovery",
+        "fine-tuning",
+        "lora",
+        "agents",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "工具故障（超时API 异常输出不一致）在真实部署里会引发级联推理错误直到任务放弃，而现有 agent 训练管线只优化成功轨迹PALADIN 反其道：系统性注入故障并配专家演示，在增强版 ToolBench 上构建 5 万+ 条带恢复标注的轨迹，用 LoRA 微调在保留基础能力的同时注入恢复能力推理时三步：检测执行期错误 从按 ToolScan 分类对齐的 55+ 故障范例库检索最相似案例 执行对应恢复动作结果：对训练分布外的未见工具 API 保留 95.2% 恢复性能；ToolBench 上 Recovery Rate 从 32.76% 提到 89.68%（相对 +57%），超最强基线 CRITIC（76.34%）13.3 个点；对 vanilla agent 89.86%（相对 +66%）与 ToolMaze 的诊断互为镜像：一个证明恢复是独立短板，一个证明恢复经验可以预先灌进权重",
+      "summary_en": "Tool-augmented agents fail in deployment due to tool malfunctions - timeouts, API exceptions, inconsistent outputs - cascading into reasoning errors and task abandonment, while existing training pipelines optimize only success trajectories. PALADIN trains on 50,000+ recovery-annotated trajectories built via systematic failure injection and expert demonstrations on an enhanced ToolBench dataset, using LoRA fine-tuning to retain base capabilities while injecting recovery competence. At inference it detects execution-time errors, retrieves the most similar case from a curated bank of 55+ failure exemplars aligned with ToolScan's taxonomy, and executes the corresponding recovery action....",
+      "one_liner": "恢复能力可以预先训练：5 万+故障轨迹 LoRA 微调，RR 32.76%89.68%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d85a7e15.md",
+      "images": [],
+      "added_date": "2026-10-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-06",
-  "total_entries": 2609
+  "total_entries": 2616
 }
