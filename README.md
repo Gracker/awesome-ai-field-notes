@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
-- [Sharing AI progress in mathematics](https://openai.com/index/sharing-ai-progress-in-mathematics) ⭐4 · 2026-10-06 — 700 份 AI 数学预印本放 GitHub：Lean 形式化背书，发布流程按 IAS 独立顾问组建议制度化
-- [Introducing Mistral Large 4 (Le Chonk)](https://mistral.ai/news/mistral-large-4) ⭐4 · 2026-10-06 — 欧洲最大开源权重模型：1T/49B 激活原生多模态，权重月底放，红队先行
-- [EmbeddingGemma 2: an open, lightweight multimodal embedding model](https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2) ⭐4 · 2026-10-06 — 端侧多模态嵌入补齐：文本代码图像视频音频一个嵌入空间，Apache 2.0 跑在设备上
-- [Erdosproblems.com Succumbs to the AI Onslaught](https://www.erdosproblems.com/forum/thread/blog:9) ⭐3 · 2026-10-06 — Erdosproblems 应对 AI 证明灌水调整规则，社区分裂：防灌水与可追溯性哪个优先
-- [TasteVal: Measuring the Experimental Research Taste of AI Systems Against Human Experts](https://arxiv.org/abs/2610.06824) ⭐5 · 2026-10-05 — 实验品味乘数每 3 个月翻倍性能曲线却没变：Opus 5.5 首次越过人类专家基线 2.3x
-- [CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling](https://arxiv.org/abs/2610.06829) ⭐5 · 2026-10-05 — 把昂贵的 judge 反馈蒸馏成可复用认证问题库：训练当奖励测试时当免费裁判，一个机制吃三处
-- [Pluralistic: Scrutinized](https://pluralistic.net/2026/10/05/pervert-glasses) ⭐4 · 2026-10-05 — AI 眼镜的终局不是记名字，是常驻摄像头加面部识别的 doxing 工厂
-- [Our approach to EU text provenance rules](https://openai.com/index/eu-text-provenance) ⭐4 · 2026-10-05 — textGrain 把文本水印推进监管落地，也第一次官方量化了同义词改写就能击穿的脆弱性
-- [OpenAI rogue agent activities found on Wikimedia projects](https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects) ⭐4 · 2026-10-05 — 维基媒体官方证实 OpenAI 流浪 agent 活动：数百万级抓取或致 WDQS 部分故障
-- [T-Search: An Open Agentic Retriever and Playground for Hard Multi-Step Search](https://arxiv.org/abs/2610.06782) ⭐4 · 2026-10-05 — 检索与生成解耦的开源 agentic retriever：35B-A3B 在 7 个英俄 hard-search 基准上超过更大开源模型
+- [炸了，OpenAI一口气开源722篇论文](https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA%3D%3D&mid=2247512394&idx=1&sn=84e92f840eff92c0106afd11fdde0e0d) ⭐5 · 2026-10-07 — OpenAI 开源内部模型 722 篇数学论文：拟黎曼完整 BSDHilbert 第十在列，AGMAI 提醒公开只是理解的开始
+- [TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language...](https://arxiv.org/abs/2610.07767) ⭐4 · 2026-10-06 — FP4 rollout 追平 BF16 RL 性能是这个方向的实用门槛：5.4x rollout 加速加事后量化不如训练时对齐的对照结论，对 RL 训练基础设施的成本结构有直接参考价值
+- [Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliab...](https://arxiv.org/abs/2610.08448) ⭐4 · 2026-10-06 — HF 日榜第一（110 赞）：跨 tokenizer 蒸馏这个具体工程痛点第一次被系统测量，top-16 子集 reverse KL 是可以直接抄的配方；对做异构模型蒸馏的团队是即用型结论
+- [NeMo-DCR: Bit-Exact Delta-Compressed Refit for Scalable Agentic RL at Trillion-Parameter Scale](https://arxiv.org/abs/2610.08430) ⭐4 · 2026-10-06 — 万亿参数 agentic RL 的权重同步从分钟级压到秒级（87.5 分钟到 150 秒），且 bit-exact 而非近似重建训练-推理分离架构的实用化拼图
+- [From Evidence to Action: How Tool-Using Agents Fail](https://arxiv.org/abs/2610.07753) ⭐4 · 2026-10-06 — 工具 agent 失败分析从能不能干完推进到证据链是否闭合：SafeActBench 的 656 案例 + Evidence Ledger 提供了可复用的评估基建，也解释了为什么会行动不等于该行动
+- [What is Codemode](https://lucumr.pocoo.org/2026/10/6/codemode) ⭐4 · 2026-10-06 — Pi 1.0 把 MCP 工具调用换成沙盒写 JS：QuickJS/WASM 限死网络与文件系统，大输出结构化吞吐不灌 context
+- [Swapping money for expertise](https://pluralistic.net/2026/10/06/nonfungible) ⭐4 · 2026-10-06 — 无理论 AI 的政治经济学：解释权从专家知识换成可购买的算力，资本对劳动话语权再一次收紧
+- [Expanding the Cyber Verification Program](https://www.anthropic.com/news/cyber-verification-program) ⭐4 · 2026-10-06 — Anthropic CVP 三档化：Defense 46/50 被拦Red Team 放开授权攻击，前沿 cyber 能力按身份分档发放
+- [Credit Crunch](https://www.wheresyoured.at/credit-crunch) ⭐4 · 2026-10-06 — AI 债务侧拆账：hyperscaler 2027 单年发债 4000 亿美元，CoreWeave 利差 672-882bps，续作缺口每年 500 亿起步
+- [Advancing computer use with Ironclad](https://openai.com/index/advancing-computer-use-with-ironclad) ⭐4 · 2026-10-06 — OpenAI 拿真实合同工作流练 computer-use：11 任务上 Astra 55.0% 对 Sol 41.6%，单次用时 37 分钟降到 19.2 分钟
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 379 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 516 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 268 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 156 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 183 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 模型与实验室 | 382 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 522 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 269 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 158 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 186 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 119 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 289 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 2636
-- 公开展示卡片: 1910
-- 有全文内容: 1799
-- 最近 7 天信号: 136
+- 原始条目: 2651
+- 公开展示卡片: 1925
+- 有全文内容: 1824
+- 最近 7 天信号: 143
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `agent-security`, `multi-agent`, `claude-code`, `security`, `agents`, `coding-agent`, `coding-agents`, `agent-memory`, `agent-harness`, `mcp`, `google`, `safety`, `open-source`
+`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `agent-security`, `multi-agent`, `claude-code`, `security`, `agents`, `agent-memory`, `coding-agent`, `coding-agents`, `agent-harness`, `mcp`, `safety`, `google`, `open-source`
 
 ## 自动化约定
 

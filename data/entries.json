@@ -79871,8 +79871,497 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "7510e7f8",
+      "title": "What is Codemode",
+      "url": "https://lucumr.pocoo.org/2026/10/6/codemode",
+      "source": {
+        "platform": "blog",
+        "author": "Armin Ronacher (mitsuhiko)",
+        "original_date": "2026-10-06"
+      },
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "tool-use",
+        "sandbox",
+        "agent-harness",
+        "quickjs"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Pi 1.0 为 MCP 带来的答案 Codemode：工具调用不再把定义和输出塞进 context 让模型挑选，而是让模型在 harness 内的沙盒里写 JavaScript 来组合工具调用沙盒用 WASM 运行时里的 QuickJS，刻意限死网络文件系统和 timer内存受限，唯一出路是再调一次工具；大体量工具输出得以结构化吞吐而不必整段灌回 context，还能在一次调用里暂存状态给下一次用Codemode 在 Pi 里随 MCP 默认启用，也可用 defaultTools 的 +codemode 单独打开这是作者从 Code Is All You NeedMCP needs code 一路主张的具体工程落地",
+      "summary_en": "Armin Ronacher explains Codemode, shipped in Pi 1.0: instead of loading MCP tool definitions and outputs into context for the model to pick, the model writes JavaScript inside a harness-side sandbox - QuickJS within a WASM runtime - where network, file system, and timers are disabled and the only way out is calling another tool. Large tool outputs can be consumed structurally instead of being dumped into context. Codemode is enabled by default in Pi whenever MCP is enabled.",
+      "one_liner": "Pi 1.0 把 MCP 工具调用换成沙盒写 JS：QuickJS/WASM 限死网络与文件系统，大输出结构化吞吐不灌 context",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7510e7f8.md",
+      "images": [],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6719dd9b",
+      "title": "A Terminal Protocol for Program Status (OSC 7501)",
+      "url": "https://mitchellh.com/writing/program-status-osc7501",
+      "source": {
+        "platform": "blog",
+        "author": "Mitchell Hashimoto",
+        "original_date": "2026-10-06"
+      },
+      "category": "infra",
+      "tags": [
+        "terminal",
+        "osc",
+        "protocol",
+        "agent-observability",
+        "spec"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Mitchell Hashimoto 发布 OSC 7501 程序状态协议规范：应用通过一条终端 escape sequence 主动声明自己在 idleworking等用户输入完成还是失败，附原因与结构化元数据，例如 Terraform 报 state=blockedkind=permissionapp=terraform 加 base64 消息现有做法要么猜窗口标题要么抓屏正则要么依赖各家 agentic inbox 的私有 API，并行 agent 越多越脆；这条通用规范让任何终端或 inbox 工具用同一套语法解释程序状态规范挂在 Superlogical 的 rex docs 下，与 GhosttySuperlogical 无产品绑定，面向整个终端生态",
+      "summary_en": "Mitchell Hashimoto published OSC 7501, the Program Status Protocol: a terminal escape sequence letting any program declare its status - idle, working, blocked on the user, finished, or failed - with structured metadata such as state=blocked:kind=permission:app=terraform plus a base64 message. Window-title guessing, screen scraping, and private inbox APIs all break as parallel agents multiply; the spec is terminal-native, product-unbound, and hosted under Superlogical's rex docs.",
+      "one_liner": "OSC 7501 给程序状态定了终端原生协议：一条 escape sequence 声明 working/blocked/idle/failed，agent 并行时代不用再抓屏猜",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6719dd9b.md",
+      "images": [],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ad4924bd",
+      "title": "Credit Crunch",
+      "url": "https://www.wheresyoured.at/credit-crunch",
+      "source": {
+        "platform": "blog",
+        "author": "Ed Zitron",
+        "original_date": "2026-10-06"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-economy",
+        "debt",
+        "hyperscalers",
+        "credit-market",
+        "analysis"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Ed Zitron 把 AI 泡沫讨论从模型能力拉回债务市场：10 年期美债收益率升到 5.33% 的背景下，hyperscaler 预计 2027 年单年发债 4000 亿美元；Oracle 9 月那笔 180 亿美元数据中心债若按当前利率定价，要多付超过 70 亿美元利息；CoreWeave 的利差已经拉到 672-882bps，短端债实际收益率到两位数作者估算亏损实验室的算力承诺每年至少还需要 500 亿美元债务续作，而其信用评级大概率落在垃圾级区间文章把AI 公司在裸泳拆成到期曲线利差和续作缺口组成的证据链，比一般泡沫叙事硬",
+      "summary_en": "Ed Zitron's accounting of the AI buildout's debt side: with 10-year Treasuries at 5.33%, hyperscalers expect to issue $400B in bonds in 2027 alone; Oracle's $18B September data-center bond would carry over $7B in extra interest priced at current rates; CoreWeave's spreads sit at 672-882bps with short-end effective yields in the teens. Loss-making labs' compute commitments will need $50B+ in annual debt refinancing at likely junk-grade ratings.",
+      "one_liner": "AI 债务侧拆账：hyperscaler 2027 单年发债 4000 亿美元，CoreWeave 利差 672-882bps，续作缺口每年 500 亿起步",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ad4924bd.md",
+      "images": [],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "09f36359",
+      "title": "Swapping money for expertise",
+      "url": "https://pluralistic.net/2026/10/06/nonfungible",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-10-06"
+      },
+      "category": "industry",
+      "tags": [
+        "political-economy",
+        "ai-critique",
+        "labor",
+        "theory-free"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Doctorow 给这波 AI 的定义是无理论：不靠人写的因果模型，直接用数据加算力找统计关系，能下棋写代码也能撞出医学上不知为何 A 治 B的有效相关，代价是幻觉不连续与高成本他算了下棋那笔账：50 年代真空管计算机就能跑出合法国际象棋程序，如今理论下棋 AI 消耗的算力是那个天文倍数的级别真正重的部分在政治经济学AI 替代的与其说是工程师，不如说是世界必须由专家来解释这个前提：解释权从劳动者的专业知识换成资本可购买的算力，资本对劳动的话语权进一步收紧；他把符号系统回归（hybrid）视为无理论 AI 承认自身局限的开始",
+      "summary_en": "Doctorow defines this wave of AI as theory-free: no human causal models, just statistical relations found with data and compute - capable of chess, code, and medically useful correlations, at the price of hallucination, discontinuity, and cost. The political-economy punchline: AI replaces not engineers but the premise that the world must be interpreted by experts, swapping expert labor for capital-owned compute and tightening capital's leverage over workers; hybrid symbolic systems are where theory-free AI must confront its own limits.",
+      "one_liner": "无理论 AI 的政治经济学：解释权从专家知识换成可购买的算力，资本对劳动话语权再一次收紧",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/09f36359.md",
+      "images": [
+        "https://i0.wp.com/craphound.com/images/06Oct2026.jpg"
+      ],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "be19a4e8",
+      "title": "炸了，OpenAI一口气开源722篇论文",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA%3D%3D&mid=2247512394&idx=1&sn=84e92f840eff92c0106afd11fdde0e0d",
+      "source": {
+        "platform": "wechat",
+        "author": "PaperTody",
+        "original_date": "2026-10-07"
+      },
+      "category": "models",
+      "tags": [
+        "openai",
+        "mathematics",
+        "rsi",
+        "agmai",
+        "open-science"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "OpenAI 把内部前沿模型产出的数学成果整体开源：722 篇手稿372 个成果家族覆盖 17 个数学分支，含拟黎曼猜想（Dirichlet L 函数在 Re(s)>7/8 无零点，另附 11/12 版本替代证明）完整 BSD 公式（Selmer 余秩 0/1 情形，含 Tate-Shafarevich 有限性）有理数域希尔伯特第十问题的否定解决Catalan 常数无理性随机 3-SAT 阈值可计算等头条；平均每篇消耗约 3 小时 ChatGPT Pro 算力，仓库数小时破 4k star普林斯顿高研院旗下独立顾问组 AGMAI（GowersHairerWitten 等九人，不拿 AI 公司报酬）10 月 6 日声明：担任顾问不构成认可，评判权属于数学共同体，公开只是理解的开始，数学家必须保有提出自己问题的自由",
+      "summary_en": null,
+      "one_liner": "OpenAI 开源内部模型 722 篇数学论文：拟黎曼完整 BSDHilbert 第十在列，AGMAI 提醒公开只是理解的开始",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/be19a4e8.md",
+      "images": [],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "47b9255d"
+      ]
+    },
+    {
+      "id": "a22a6ca9",
+      "title": "Expanding the Cyber Verification Program",
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic",
+        "original_date": "2026-10-06"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "cyber",
+        "safety",
+        "access-tiers",
+        "classifiers"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 把 Cyber Verification Program 扩成三档准入：Defense Access 面向 SOC 与应急响应等防御工作，Red Team Access 叠加授权渗透测试与红队服务，各档都包含 Opus 5.5Sonnet 5.5Mythos 5.1 等旗舰模型加放宽的拦截分类器效果边界用 CyScenarioBench 摆出：通用 GA 模型 50 个任务在首个 prompt 就全被拦；Defense 档 46/50 在挑战中某一步被拦4 个任务全程未拦；Red Team 档进一步放开这是 Project Glasswing 以来前沿 cyber 能力按验证身份分层发放路线的正式化：统一开关变成分档产品",
+      "summary_en": "Anthropic expanded its Cyber Verification Program into three access tiers: Defense Access for SOC and incident-response work, Red Team Access adding authorized penetration testing and red-teaming, each bundling frontier models (Claude Opus 5.5, Sonnet 5.5, Mythos 5.1) with reduced blocking classifiers. On CyScenarioBench, GA models blocked all 50 tasks at the first prompt; the Defense Access tier blocked 46/50 at some point in the challenge; Red Team Access opens further. Frontier cyber capability is now distributed as verified tiers.",
+      "one_liner": "Anthropic CVP 三档化：Defense 46/50 被拦Red Team 放开授权攻击，前沿 cyber 能力按身份分档发放",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a22a6ca9.md",
+      "images": [],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9964af80",
+      "title": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-10-06"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use",
+        "enterprise",
+        "benchmark",
+        "contracting",
+        "openai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 与合同软件公司 Ironclad 合作，把真实合同工作流变成 computer-use agent 的训练与评测任务集：11 个研究任务上，GPT-6 Astra（Max reasoning）平均 rubric 分 55.0%，GPT-5.6 Sol（High reasoning）41.6%，平均单次用时从 37.0 分钟降到 19.2 分钟（分数高 32%用时低 48%）任务要求模型理解企业业务规则执行多步工作流并自验产出是否符合原始要求；OpenAI 表示将与少数最懂工作流的软件公司继续共建这类高价值任务垂直任务集正在成为 computer-use 评测从合成浏览器操作走向真实职业工作的路径",
+      "summary_en": "OpenAI partnered with contract-software firm Ironclad to turn real contracting workflows into training and evaluation tasks for computer-use agents. Across 11 research tasks, GPT-6 Astra (Max reasoning) averaged 55.0% rubric score vs 41.6% for GPT-5.6 Sol (High reasoning), with per-attempt time down from 37.0 to 19.2 minutes (32% higher score, 48% less time). Tasks require understanding business rules, executing multi-step workflows, and verifying output against original requirements.",
+      "one_liner": "OpenAI 拿真实合同工作流练 computer-use：11 任务上 Astra 55.0% 对 Sol 41.6%，单次用时 37 分钟降到 19.2 分钟",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9964af80.md",
+      "images": [],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ecd4573e",
+      "title": "Remote control for local agents (Cursor Changelog)",
+      "url": "https://cursor.com/changelog/remote-control-local-agents",
+      "source": {
+        "platform": "blog",
+        "author": "Cursor",
+        "original_date": "2026-10-06"
+      },
+      "category": "agents",
+      "tags": [
+        "cursor",
+        "ios",
+        "local-agents",
+        "remote-control",
+        "changelog"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cursor iOS 应用支持查看并回复电脑上正在运行的本地 agent：下载 App 登录后账户里的电脑自动出现，桌面端批准配对即可把本地 agent 列表拿到手机上，点开看状态或发消息关键边界：agent 仍在本机执行，App 只建立连接，电脑需开机联网；要离开时防睡眠需在桌面设置开 Keep this computer awake，且要接通电源保持合盖打开远程控制对除企业组织外的所有用户默认开启，企业管理员可在 Org settings 里关闭本机长任务的离开继续盯从此是产品默认形态",
+      "summary_en": "Cursor's iOS app can now view and message local agents running on your machine: pair via the desktop app, watch status, and send instructions from the phone. Agents keep executing locally - the app only connects - so the computer must stay on and awake (a Keep this computer awake setting requires power and an open lid). Remote control is on by default for everyone except enterprise orgs, where admins can disable it.",
+      "one_liner": "Cursor 把本地 agent 遥控做成默认能力：iOS 配对即看即回，机器保持通电开盖，企业组织默认关",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/ecd4573e.md",
+      "images": [
+        "https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Fchangelog%2Fremote-control-cl-pezewO3SZRrIQxMNaTzdpsP9TD1ChS.png&w=1920&q=70"
+      ],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cbac0b2d",
+      "title": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability",
+      "url": "https://arxiv.org/abs/2610.08448",
+      "source": {
+        "platform": "arxiv",
+        "author": "Bingxi Hou, Guochao Jiang, Guofeng Quan, Weiqing Li, Wenfeng Feng, Guohua Liu, Yuewei Zhang",
+        "original_date": "2026-10-06"
+      },
+      "category": "models",
+      "tags": [
+        "distillation",
+        "on-policy",
+        "tokenizer",
+        "reverse-kl",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "On-Policy Distillation（OPD）用老师对模型自己生成的反馈来训练学生，但师生 tokenizer 不同时，对齐要同时在序列层和词表层做这篇论文问的问题是：把对齐覆盖面做大，真的能改善学习吗？在三对异构师生组合数学推理与代码生成两个任务上，作者的发现是：严格的 1:1 对齐组在词表错配可观的情况下就已经覆盖了绝大部分学生生成 token；在蒸馏前从学生采样的回答上，共享词表在严格对齐位置几乎保留了老师与学生的全部概率质量由此推出的实用结论是：把 reverse KL 限制在每个严格位置的学生自选共享词表 top-16 子集上，准确率与全共享词表 OPD 相当，还优于被评测的跨 tokenizer 基线蒸馏信号的设计重点应从对齐覆盖面转向监督可靠性",
+      "summary_en": "Cross-tokenizer OPD does not need maximal alignment coverage: strict 1:1 groups already cover most student tokens, and restricting reverse KL to a student-selected top-16 shared-vocabulary subset per position matches full shared-vocab OPD while beating cross-tokenizer baselines.",
+      "one_liner": "HF 日榜第一（110 赞）：跨 tokenizer 蒸馏这个具体工程痛点第一次被系统测量，top-16 子集 reverse KL 是可以直接抄的配方；对做异构模型蒸馏的团队是即用型结论",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cbac0b2d.md",
+      "images": [],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d82f3ffa",
+      "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
+      "url": "https://arxiv.org/abs/2610.07767",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xin Wang, Hao Yu, Zhengyang Zhuge, Bochao Mao, Zheng Li, Junda Feng, Yuyan Luo, Yi Zhang, Yizhong Ca...",
+        "original_date": "2026-10-06"
+      },
+      "category": "models",
+      "tags": [
+        "quantization",
+        "fp4",
+        "reinforcement-learning",
+        "moe",
+        "rollout",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "RL 后训练的大头开销在 rollout 生成，所以低精度 rollout 是自然的省法；但现有 FP4 RL 方法的共同缺陷是把训练路径与 rollout 路径的量化精度各自独立优化，而不是直接压小两条量化执行路径之间的偏差TRACE（Train-Rollout Quantization Alignment via Compact GuidancE）的做法是 rollout 引导的量化感知训练：用 rollout 侧的量化结果指导训练侧的 FP4 舍入决策，直接缩小 train-rollout discrepancy；再用量化信息缓存方案选择性保留深层的尾数与 scale 信息，压低 rollout 指引带来的存储与通信开销在四个大规模 MoE 模型推理/编码/长程 RL 任务上：FP4 权重+激活+FP4 KV cache 的联合 rollout 达到与 BF16 rollout 相当的 RL 性能，rollout 最高 5.4x 加速，且最终 FP4 性能明显好于对 BF16 训练策略做事后 FP4 量化",
+      "summary_en": "TRACE aligns FP4 quantization across training and rollout paths via rollout-guided QAT plus quantization-information caching; on four large MoE models it matches BF16 RL performance with FP4 weights/activations/KV-cache rollout, up to 5.4x rollout speedup, and beats post-hoc FP4 quantization.",
+      "one_liner": "FP4 rollout 追平 BF16 RL 性能是这个方向的实用门槛：5.4x rollout 加速加事后量化不如训练时对齐的对照结论，对 RL 训练基础设施的成本结构有直接参考价值",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d82f3ffa.md",
+      "images": [],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d25d5c37",
+      "title": "From Evidence to Action: How Tool-Using Agents Fail",
+      "url": "https://arxiv.org/abs/2610.07753",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hongzhan Lin, Shidong Cao, Ziyang Luo, Wenhao Chai, Mong-Li Lee, Wynne Hsu",
+        "original_date": "2026-10-06"
+      },
+      "category": "agents",
+      "tags": [
+        "tool-use",
+        "agent-failure",
+        "benchmark",
+        "safeactbench",
+        "evidence",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "工具 agent 会对外部状态做出不可逆改动，而结果正确不等于动作有事先建立的证据支撑这篇论文系统刻画证据-行动链在哪里断：在十个模型-harness 配置上，静态动作判断强并不代表交互执行强；失败常在执行之前就开始调查不完整就停下，或所需证据尚未建立就动手一旦证据齐了，单动作执行通常可靠；多动作工作流则额外暴露未解决的依赖前置与执行不完整配套的 SafeActBench 含 656 个案例六个操作域五种协议，从静态动作判断查证后不动作，到单/多动作工作流递进；provenance 绑定的 Evidence Ledger 加确定性轨迹评估器记录什么信息被建立动作何时发生下游依赖是否满足结论：失败不只来自信息缺失，也来自 agent 如何使用已建立的证据",
+      "summary_en": "SafeActBench (656 cases, six domains) dissects where tool-using agents' evidence-to-action chain breaks: static judgment is strong while interactive execution lags, failures start before execution, single actions are reliable once evidence exists, and multi-action workflows leak unresolved prerequisites.",
+      "one_liner": "工具 agent 失败分析从能不能干完推进到证据链是否闭合：SafeActBench 的 656 案例 + Evidence Ledger 提供了可复用的评估基建，也解释了为什么会行动不等于该行动",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d25d5c37.md",
+      "images": [],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "69aa69fd",
+      "title": "EVISKILL: Grounding Skill Evolution in Replayable Evidence",
+      "url": "https://arxiv.org/abs/2610.05030",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yan Zhou, Yili Wang, Yiwei Dai, Qinggang Zhang, Xin Wang",
+        "original_date": "2026-10-04"
+      },
+      "category": "agents",
+      "tags": [
+        "skill-evolution",
+        "agent-memory",
+        "experience",
+        "replay",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "持续技能演化让 agent 不改参数就从交互经验里积累可复用程序性知识，但要回答的不只是改什么，还有凭什么改和什么时候该固化为持久指引现有经验驱动方法的缺陷是会丢失支撑编辑的行为证据与任务上下文；而一次全局验证结果对 constituent changes 的判断也不完整局部有证据支撑的修正可能随整个被拒修订一起丢掉，有些证据则要更多经验才能派上用场EVISKILL 把执行观察组织成可回放的 Replayable Evidence Card，让每条编辑显式链接到其支撑上下文；targeted replay 通过重执行验证编辑并给出纠错反馈；跨 epoch 保留证据临时保留有支撑的编辑继续打磨，由全局验证决定何时并入最终技能三个交互基准六个 LLM backbone 上验证有效",
+      "summary_en": "EVISKILL grounds agent skill evolution in Replayable Evidence Cards with edit-to-evidence links, verifies edits by targeted re-execution, and lets global validation govern when provisionally retained edits enter the final skill; validated on three benchmarks across six LLM backbones.",
+      "one_liner": "技能/记忆演化文献开始从改得好不好转向改动可不可信：Evidence Card + 定向重放给 agent 技能库的治理提供了最小可行结构，与 EVISKILL 同日出现的 TRACESafeActBench 一致指向证据绑定",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/69aa69fd.md",
+      "images": [],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "65b3bad7",
+      "title": "Retrieval-Driven Memory Reconsolidation for Long-Term LLM Agents",
+      "url": "https://arxiv.org/abs/2609.16053",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuanyi Song, Yukai Wang, Xinbei Ma, Zhihui Fu, Jianghao Lin, Weiwen Liu, Jun Wang, Huarong Deng, Yon...",
+        "original_date": "2026-09-13"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "reconsolidation",
+        "retrieval",
+        "cognitive-graph",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "现有 agent 记忆系统大多在新信息到达时更新记忆，把检索当作记忆访问的终点检索过程产生的反馈全被浪费REALM 借认知神经科学的记忆再巩固（reconsolidation）概念，把长期记忆建成持续生命周期：自主把记忆组织成异构认知图，用自适应组合的图搜索单元检索证据，然后基于检索反馈持续再巩固常被一起调用的记忆连得更紧，反复检索无效的路径被削弱数字：LoCoMo 平均准确率 75.97%，比最强基线高 7.17 分；LongMemEval 65.11%，高 1.31 分消融确认记忆再巩固稳定带来增益，分析显示它渐进地把相关记忆单元重组成更连贯的局部结构，供推理时集体召回",
+      "summary_en": "REALM treats retrieval feedback as a driver of memory evolution: it organizes memory as a heterogeneous cognitive graph and reconsolidates it after each retrieval, reaching 75.97% on LoCoMo (+7.17 over the strongest baseline) and 65.11% on LongMemEval (+1.31).",
+      "one_liner": "把检索从终点变成记忆演化的驱动力是这个领域的结构性新变量：LoCoMo/LongMemEval 两个主流基准上的一致增益 + 认知科学机制的清晰对应，让它成为 agent 记忆方向的有效参照",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/65b3bad7.md",
+      "images": [],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "efa56e54",
+      "title": "The Epistemics of Agent Memory: Measuring, and Governing, the Consolidation Decision in Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2609.33013",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sasank Annapureddy, Anjaneya Prasad Thamatani",
+        "original_date": "2026-09-26"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "consolidation",
+        "benchmark",
+        "governance",
+        "negative-result",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "长程 agent 要把经验变成持久记忆：记什么压缩什么抽象成什么规则忘掉什么这份四阶段研究报告的焦点问题是整理决策（consolidation decision）本身：第一阶段从轨迹按下游效用学情景边界（oracle 相关 0.691 对 0.70 门槛的诚实 near-miss，产出三道防泄漏门）；第二阶段在 token 预算下学何时把经验提升到哪层抽象，拿到经验证的 +22.7% 任务成功与 7x 压缩，但暴露退化遗忘与 lambda-prevalence coupling 两种失败；第三阶段推出 oracle-by-construction 的 ConsolidationBench，沿三条非循环轴给整理决策打分生产级检索系统能保留信息却在跨层迁移上得零分；第四阶段把整理决策包进抗污染可回滚可审计的治理外壳，治理与质量分统计独立（r^2=0.43，partial r=0.27，同质量策略的治理可差三倍）最重的结论是一个已解决的否定结果：分级复用重构去掉结构性天花板后，两基准2532 个真实答案单元的研究发现整理质量分不能预测真实迁移准确率（合并 Spearman rho=-0.24，n=12，置信区间跨零）；对抗式自批清理后无幸存过度声明",
+      "summary_en": "A four-phase program on agent memory consolidation: learns episodic boundaries, promotes experience under token budgets (+22.7% success, 7x compression), introduces ConsolidationBench, and shows governance (poison-resistance, reversibility, auditability) is statistically independent of quality scores - which themselves fail to predict real transfer accuracy (Spearman -0.24, CI spans zero).",
+      "one_liner": "给整个 agent 记忆方向泼了一盆有方法论重量的冷水：整理得好看测不出下游有没有用（rho=-0.24），而抗污染/可回滚/可审计是与质量分独立的另一根轴这会改变记忆系统该报告什么指标该配什么治理的共识",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/efa56e54.md",
+      "images": [],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3f61ae5f",
+      "title": "NeMo-DCR: Bit-Exact Delta-Compressed Refit for Scalable Agentic RL at Trillion-Parameter Scale",
+      "url": "https://arxiv.org/abs/2610.08430",
+      "source": {
+        "platform": "arxiv",
+        "author": "Songlin Jiang, Zhiyu Li, Terry Kong, Yu Yao, Youngeun Kwon, Bernard Nguyen, Ashwath Aithal, Mario Di...",
+        "original_date": "2026-10-06"
+      },
+      "category": "infra",
+      "tags": [
+        "agentic-rl",
+        "weight-sync",
+        "delta-compression",
+        "training-infra",
+        "nvidia",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Agentic RL 把训练与 rollout 分离，每次策略更新都必须在下一个 batch 之前送达 rollout 集群基准数字：跨两个 AWS 区域传一个完整 1T checkpoint 要 87.5 分钟；而 BF16 训练测量显示每步只有约 1% 的权重的存储值发生变化NeMo-DCR（Delta-Compressed Refit）只传变化但做到 bit-exact接收端拿到的参数与 buffer 位与稠密 refit 完全一致放置上用固定仿射映射把训练分片上的变化投影到 checkpoint 规范坐标，残差转换兜底其余变化，由 serving 运行时原生 loader 落位；精确性上可压缩 XOR mask 携带仿射变化，overwrite 携带其余，接收端原地应用重试覆盖半写联合提交把策略绑定到下一 delta 的基线；效率上对象存储或中继树在 delta 构建期间流式传输，不需要跨集群集合通信3% 与 5% 变化率下，30B-1T 模型的 refit 比仅传输的完整 checkpoint 参考快 12-40x：1T 中继树 refit 在 3% 变化率下 150 秒，而不再是 87.5 分钟",
+      "summary_en": "NeMo-DCR sends only per-step weight deltas (~1% change rate) yet is bit-exact on the receiver; 30B-1T refits run 12-40x faster than full-checkpoint transfer, with a 1T relay-tree refit at 3% taking 150s instead of 87.5 minutes across AWS regions.",
+      "one_liner": "万亿参数 agentic RL 的权重同步从分钟级压到秒级（87.5 分钟到 150 秒），且 bit-exact 而非近似重建训练-推理分离架构的实用化拼图",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3f61ae5f.md",
+      "images": [],
+      "added_date": "2026-10-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-07",
-  "total_entries": 2636
+  "total_entries": 2651
 }
