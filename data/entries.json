@@ -80360,8 +80360,232 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "4bb428a0",
+      "title": "Introducing Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic",
+        "original_date": "2026-10-07"
+      },
+      "category": "models",
+      "tags": [
+        "anthropic",
+        "claude",
+        "small-models",
+        "benchmarks",
+        "pricing"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 发布 Claude Haiku 5.5：史上最便宜最快的小模型，均价较 Haiku 4.5 低约 75%基准跨代提升：OSWorld 2.1 offline 72.4%（4.5 为 15.7%）Terminal-Bench 4.0 39.2%（4.5 为 0%）HLE 无工具 45.9%FrontierCode 46.4%首个带 effort 档位的 Haiku 级模型，主打子代理与浏览器使用等高频场景；同步将 Sonnet 5.5 缓存读价格减半客户实测：Asana 任务延迟降 30%+单轮推理最快 2.5 倍；AlphaSense 每周 800 万次文档问答得分 0.84 vs 0.76",
+      "summary_en": "Anthropic releases Claude Haiku 5.5, its cheapest, fastest small model, priced ~75% below Haiku 4.5 on average. Benchmarks: OSWorld 2.1 offline 72.4% (vs 15.7%), Terminal-Bench 4.0 39.2% (vs 0%), HLE 45.9% no-tools, FrontierCode 46.4%. First Haiku-class model with an adjustable effort setting, positioned as a subagent alongside Opus 5.5/Sonnet 5.5 and for browser use; Sonnet 5.5 cache-read price halved. Customer numbers: Asana -30% task latency and up to 2.5x faster per-turn inference; AlphaSense 0.84 vs 0.76 on 8M weekly doc-QA calls.",
+      "one_liner": "Claude Haiku 5.5：均价降 75%，OSWorld 72.4%/Terminal-Bench 39.2%，首个带 effort 档位的 Haiku 子代理模型",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4bb428a0.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0ca14509",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-10-07"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "gpt-6",
+        "ui",
+        "chatgpt",
+        "product"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 将 GPT-6 开放给 ChatGPT 全量用户（周活超 12 亿），主打 Intelligent UI：模型按问题自行组合文本图表与可交互元素（按钮表单地图图表），在对话里即时生成小工具格式按题选择：对比类并排呈现讲解类转为交互图简单问题仍回纯文本官方示例含可点选子系统的自行车结构拆解按人数缩放的烤肉策划产品信号：对话正从静态文本转向即时生成的交互界面",
+      "summary_en": "OpenAI brings GPT-6 to all ChatGPT users (1.2B+ weekly), headlined by Intelligent UI: the model composes answers from text, visuals, and interactive elements - charts, forms, maps, tappable tools generated on the fly. Format choice is per-query: comparisons render side by side, explanations become interactive diagrams, plain text when that is best. Examples include a 7-speed bike teardown with tappable subsystems and a Sunday-roast planner that rescales quantities by headcount. Signals a shift from chat-as-text to instant generated micro-tools inside the conversation.",
+      "one_liner": "GPT-6 全量开放 Intelligent UI：回答即界面，文本/图表/交互控件按题即时组合",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0ca14509.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "19355795",
+      "title": "Docker Agent: AI Agent Builder and Runtime by Docker Engineering",
+      "url": "https://github.com/docker/docker-agent",
+      "source": {
+        "platform": "github",
+        "author": "Docker",
+        "original_date": "2026-10-08"
+      },
+      "category": "agents",
+      "tags": [
+        "docker",
+        "agents",
+        "mcp",
+        "oci",
+        "yaml"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "Docker 推出官方 CLI 插件 docker-agent：用声明式 YAML 定义智能体（模型指令工具集），可挂任意 MCP 服务器（本地/远程/Docker 化），支持多智能体自动委派供应商无关（OpenAIAnthropicGeminiBedrockxAI 及本地 Docker Model Runner），内置 think/todo/memory 工具与可插拔 RAG（BM25向量混合检索重排），智能体可打包成 OCI 镜像推送至任意 registry 分发Docker Desktop 4.63+ 预装，另有 Homebrew 与二进制发行",
+      "summary_en": "Docker ships docker-agent, an official CLI plugin for building and running AI agents from a declarative YAML config: define model, instruction, and toolsets (any MCP server - local, remote, or Docker-based), with multi-agent teams that delegate automatically. Provider-agnostic (OpenAI, Anthropic, Gemini, Bedrock, Mistral, xAI, Docker Model Runner for local), with built-in think/todo/memory tools, pluggable RAG (BM25, embeddings, hybrid, reranking), and agents packaged as OCI images pushable to any registry. Pre-installed in Docker Desktop 4.63+; also on Homebrew and binary releases.",
+      "one_liner": "Docker Agent：YAML 声明式智能体运行时，MCP 工具 + 多后端 + OCI registry 分发，Desktop 4.63+ 预装",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/19355795.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9e679cfc",
+      "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+      "url": "https://arxiv.org/abs/2610.08775",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sonthalia et al.",
+        "original_date": "2026-10-06"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "benchmark",
+        "distillation",
+        "cost",
+        "arxiv"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "提出 bottling：LLM 智能体把通用能力转成廉价可复用工件（训练小模型写可复用程序），以摊薄百万级同构查询的成本BOTTLED 基准在固定时间/算力/API 预算下把整个无标注工作负载交给智能体自选方案10 模型 x 3 任务显示零样本强不等于会 bottling：48/60 次 run 跌破自身零样本 95% CI 下界，31/60 输给同 token 预算的小模型蒸馏基线但收益真实存在：Opus 5 在 query-product 相关性分类上以约 657 倍成本降幅保留 82% macro-F1，并以 1/4 全量成本恢复专用模型 Jev 约 94% 的 F1",
+      "summary_en": "Introduces bottling: an LLM agent's ability to convert general capabilities into task-specific, cheap, reusable artifacts (train a small model, write a reusable program) for millions of related query instances. The BOTTLED benchmark hands agents a full unlabelled workload under fixed time, compute, and API budgets to pick their own approach. Across 10 models x 3 tasks, strong zero-shot performance does not predict bottling: 48/60 runs fall below the zero-shot 95% CI lower bound and 31/60 underperform a same-budget small-model distillation baseline. But savings are real: Opus 5 keeps ~82% macro-F1 on query-product relevance at ~657x lower cost, and recovers ~94% of Jev (a purpose-built cheap inference model) at a quarter of its full-workload cost.",
+      "one_liner": "BOTTLED 基准：零样本强不等于会把能力装瓶摊薄成本，48/60 run 跌破自身零样本 CI 下界",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9e679cfc.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5895932c",
+      "title": "AdvSim2Real: Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+      "url": "https://arxiv.org/abs/2610.08773",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hashmi et al.",
+        "original_date": "2026-10-06"
+      },
+      "category": "agents",
+      "tags": [
+        "web-agents",
+        "prompt-injection",
+        "adversarial-training",
+        "world-model",
+        "security"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "网页智能体必须读取第三方页面获取任务取值，页面植入的指令因此能劫持它；现有防御在训练前固定注入样本做微调，攻击者自适应后即告失效AdvSim2Real 在冻结的网页世界模型内让任务课程注入对手智能体三方共同进化：课程以智能体约半数可解的任务为奖励目标，对手只在成功翻转（把判成功的任务翻成失败）时得分4B 智能体训练后在有/无攻击下完成率均上升，对未见过的 frontier 对手依然稳健，且能力迁移到真实浏览器：150 个网页任务上对未见对手的完成率相对提升 33.6%",
+      "summary_en": "Web agents must read third-party pages for task values, so planted instructions can hijack them; existing defenses fine-tune against injections fixed before training and adaptive attackers bypass them. AdvSim2Real co-evolves a task curriculum, an injection adversary, and the agent inside a frozen web world model: the curriculum is rewarded for tasks the agent solves ~50% of the time, the adversary only for success flips (turning a judged success into failure). Training a 4B agent raises completion with and without attacks, holds against an unseen frontier-model adversary, and transfers to a real browser: +33.6% relative completion across 150 web tasks under the unseen adversary.",
+      "one_liner": "AdvSim2Real：课程/注入对手/智能体共同进化，4B 网页智能体对未见注入对手完成率 +33.6%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5895932c.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e32fbfab",
+      "title": "VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning",
+      "url": "https://arxiv.org/abs/2610.08761",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhou et al.",
+        "original_date": "2026-10-06"
+      },
+      "category": "agents",
+      "tags": [
+        "verification",
+        "self-improvement",
+        "embodied-agents",
+        "rl",
+        "reward-models"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "自我改进的策略会不断暴露新失败模式，固定 judge 同时卡住优化反馈与新训练数据发现VeriFine 让 policy课程judge 三者共同进化：Policy Improvement Loop 用 rubric judge 诊断重复失败并构建自适应课程；进展停滞时 Judge Improvement Loop 只在信息量大的失败案例上请求人类指导，通过 coactive calibration 让人机分歧向客观物理推理 rubric 收敛在驾驶与机器人导航任务上，policy 与 judge 在 RL/SFT 两种训练下均持续改进",
+      "summary_en": "Self-improving policies keep exposing new failure patterns, and fixed judges bottleneck both optimization feedback and training-data discovery. VeriFine scales verification by co-evolving policy, curriculum, and judge: a Policy Improvement Loop uses a rubric judge to diagnose recurring failures and build an adaptive curriculum; when progress plateaus, a Judge Improvement Loop queries humans only on informative failures and refines the judge via coactive calibration, converging human-agent disagreements toward an objective physical-reasoning rubric. On driving and robot navigation, both policy and judge keep improving across RL and SFT.",
+      "one_liner": "VeriFine：judge 随 policy 共同进化的具身自我改进框架，验证成瓶颈时按信息量挑失败案例请人标定",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e32fbfab.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "98bd4d95",
+      "title": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
+      "url": "https://arxiv.org/abs/2610.08781",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chen et al.",
+        "original_date": "2026-10-06"
+      },
+      "category": "learning",
+      "tags": [
+        "research-ideation",
+        "llm-training",
+        "rl",
+        "distillation",
+        "retrieval"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "IdeaAnchor 用结构化规格说明作为特权信号训练 LLM 做文献驱动的研究构思：每个实例编码每篇输入论文应如何被综合进成功创意功能角色论文间关系与目标综合标准；实例从已发表论文中挖掘训练结合示范自蒸馏与强化学习，推理时叠加检索功能分解分析发现：anchor 训练强化创造性综合，检索强化细节展开，二者结合效果最佳",
+      "summary_en": "IdeaAnchor trains LLMs for literature-grounded research ideation using structured specifications as privileged signals: each instance encodes how every input paper should be synthesized into a successful idea - functional roles, relationships, and target synthesis criteria. Instances are mined from published papers. Training combines demonstration, self-distillation, and RL, plus retrieval at inference. Analysis finds a functional decomposition: anchor-based training strengthens creative synthesis, retrieval strengthens detail elaboration, and the combination performs best.",
+      "one_liner": "IdeaAnchor：以结构化综合规格训练 LLM 从文献生成研究创意，anchor 管综合检索管细节",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/98bd4d95.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-07",
-  "total_entries": 2651
+  "last_updated": "2026-10-08",
+  "total_entries": 2658
 }
