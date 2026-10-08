@@ -80584,8 +80584,393 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "94e36928",
+      "title": "Complementary remarks from Gary Marcus and Terence Tao on OpenAI's giant math drop",
+      "url": "https://garymarcus.substack.com/p/complementary-remarks-from-gary-marcus",
+      "source": {
+        "platform": "blog",
+        "author": "Gary Marcus",
+        "original_date": "2026-10-07"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "math",
+        "evaluation",
+        "llm-reasoning",
+        "commentary"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Gary Marcus 评 OpenAI 大型数学成果发布：真正的新闻不是结果，而是我们被告知的内容几乎不构成可核验信息报告只写了 same procedure 与 unreleased model，没有说明证明是一次生成再由 Lean 验证还是迭代产物，也没有失败率和训练/数据增广细节，因此无法判断该方法能否泛化到数学之外；陶哲轩从形式化数学一侧补充：不要把模型+形式化系统混同于模型真的能做研究",
+      "summary_en": "Gary Marcus argues the real news in OpenAI's math drop is not the results but that what we were told constitutes almost no verifiable information: the report says only 'same procedure' and 'unreleased model', with no statement of whether proofs were generated in one shot and checked by Lean or produced iteratively, no failure rates, and no training or data-augmentation details, so generalization beyond math cannot be assessed. Terence Tao adds a formal-mathematics caveat: do not conflate 'model plus formal system' with 'a model that can do research'.",
+      "one_liner": "Marcus 评 OpenAI 数学发布：无 procedure无失败率无泛化证据，可核验信息几乎为零",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/94e36928.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "47b9255d"
+      ]
+    },
+    {
+      "id": "301bc047",
+      "title": "Shopify went back to native. I think the bigger shift is formal verification",
+      "url": "https://martinalderson.com/posts/shopify-native-formal-verification",
+      "source": {
+        "platform": "blog",
+        "author": "Martin Alderson",
+        "original_date": "2026-10-07"
+      },
+      "category": "coding",
+      "tags": [
+        "formal-verification",
+        "dafny",
+        "native-apps",
+        "coding-agents",
+        "shopify"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Martin Alderson 认为 Shopify/Coinbase 从 React Native 切回 native 的主因不是性能：agents 已把写代码成本打下一半以上，双端 native 不再是资源问题，真正变贵的是知道代码是对的reviewtesttrust，换更快的语言帮不上忙他推断下一波 agent 红利属于形式化验证：agent 写 Dafny，SMT solver 证明行为后编译到 C#/Go，同时拿到性能与正确性；坦白的代价是 Dafny 证明很脆，且 agent 分不清证明错了和solver 放弃了",
+      "summary_en": "Martin Alderson argues Shopify's and Coinbase's switch from React Native back to native is less about performance than it looks: agents have already cut the cost of writing code by 2x or more, so dual native codebases are no longer a resource problem - what got expensive is knowing the code is right (review, test, trust), which a faster language does not help with. He predicts formal verification is the next beneficiary: agents write Dafny, an SMT solver proves behavior, and it compiles to C#/Go for both performance and correctness - with the honest caveat that Dafny proofs are brittle and agents cannot tell 'my proof is wrong' from 'the solver gave up'.",
+      "one_liner": "Shopify 回归 native 的深层主线是形式化验证：agent 写 Dafnysolver 证明编译到 C#/Go 双收",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/301bc047.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5c1dd850",
+      "title": "How to read code",
+      "url": "https://seangoedecke.com/how-to-read-code",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-10-07"
+      },
+      "category": "coding",
+      "tags": [
+        "code-reading",
+        "code-review",
+        "llm-generated-code",
+        "engineering-practice"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Sean Goedecke 把读代码讲成可训练的方法：代码与书不同，顺序由机器决定且多以 diff 形式被读，所以不能按行顺序通读他借 dyadic scanning 给出多 pass 读法先抓整体结构，再沿调用关系追子结构，最后端到端通读抓之前漏掉的怪味道文中还回应能否让 LLM 替我读：他今年读 AI 生成代码反复遇到的是 alignment 问题agent 为一个无害的 race condition 写出 3000 行 machinery 去修，AI 让 review 反而更重要",
+      "summary_en": "Sean Goedecke turns code reading into a trainable method: unlike books, code is ordered by the machine and usually read as a diff, so do not read it line by line. Borrowing 'dyadic scanning', he suggests multiple passes - grasp overall structure first, then trace call substructures along one path, then read end-to-end for missed code smells. On 'can't the LLM read it for me': from a year of reading AI-generated code he keeps hitting alignment failures - given a three-line change, an agent spots a harmless race condition and writes 3000 lines of machinery to 'fix' it - so review matters more, not less.",
+      "one_liner": "Goedecke：读代码不能按行顺序，dyadic scanning 多 pass 读法 + LLM 读代码的 alignment 反例",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5c1dd850.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dc00ee45",
+      "title": "Trail: Scalable and Low-Cost Temporal TLB Prefetching via Page-Table-Embedded Deltas",
+      "url": "https://arxiv.org/abs/2610.08483",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kanellopoulos et al.",
+        "original_date": "2026-10-06"
+      },
+      "category": "infra",
+      "tags": [
+        "tlb",
+        "prefetching",
+        "page-table",
+        "memory-hierarchy",
+        "hardware"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "TLB 时间局部性预取器把地址增量存在固定容量硬件表里，跟不上应用内存足迹增长；作者对 200 个翻译密集型负载特征化，发现 94% 以上增量装得进 18 个有符号位，于是把增量写进叶子页表项（PTE）空闲位，页表遍历时顺路取回，不引入额外内存访问，元数据容量随内存足迹自动扩展单核平均提速 5.7%四核 11.5%，硬件只加一张 64 项表，代码开在 CMU-SAFARI Virtuoso 仓库",
+      "summary_en": "Temporal TLB prefetchers store address deltas in fixed-capacity hardware tables that cannot keep up with growing memory footprints. Characterizing 200 translation-intensive workloads, the authors find over 94% of deltas fit in 18 signed bits, so Trail embeds them in unused leaf-PTE bits, fetched during the page-table walk with no extra memory access, with metadata capacity scaling alongside the footprint. Single-core speedups average 5.7% (11.5% four-core) over the best standalone prefetcher, adding only one 64-entry table; code is open in CMU-SAFARI's Virtuoso repo.",
+      "one_liner": "Trail：把 TLB 预取地址增量藏进 PTE 空闲位，容量随内存足迹扩展，单核 +5.7%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dc00ee45.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "30808851",
+      "title": "Lachesis: Lifetime-Aware KV Cache Placement for Agent Serving across HBM and High-Bandwidth Flash",
+      "url": "https://arxiv.org/abs/2610.08378",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yang et al.",
+        "original_date": "2026-10-06"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "agent-serving",
+        "flash-storage",
+        "hbm",
+        "memory-tiering"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Agent 工作负载的 KV 缓存跨请求累积，吃掉大量内存；高带宽闪存 HBF 容量高一个量级读带宽接近 HBM，但写寿命有限论文的关键观察是 KV 段寿命由 harness（编排 agent 的程序）决定，可沿时间/结构/worker 间三个轴区分长短；Lachesis 在 harness 与 serving 引擎之间加一层放置策略，写入时按预测寿命放进 HBM 或 HBFtrace 驱动仿真里 HBF 寿命比 HBM 优先放置延长 1.19-3.13 倍，多 agent trace 满负载也能撑过五年质保",
+      "summary_en": "KV caches for agent workloads accumulate across requests and consume large memory; high-bandwidth flash (HBF) offers an order of magnitude more capacity with near-HBM read bandwidth but limited write endurance. Key observation: KV segment lifetime is decided by the harness and separable along temporal, structural, and inter-worker axes. Lachesis adds a placement layer between harness and serving engine that stores segments by predicted lifetime; trace-driven simulation extends HBF lifetime 1.19-3.13x over HBM-first placement, surviving the 5-year warranty under 24/7 multi-agent load.",
+      "one_liner": "Lachesis：KV 段寿命由 harness 决定，按寿命放置让 HBF 在 agent serving 里撑过五年质保",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/30808851.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b2958ac8",
+      "title": "DySCo: Dynamic Sharding for Collaborative Edge-Cloud LLM Inference with Depth-Synchronized Batching",
+      "url": "https://arxiv.org/abs/2610.08268",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xu et al.",
+        "original_date": "2026-10-06"
+      },
+      "category": "infra",
+      "tags": [
+        "edge-cloud",
+        "llm-inference",
+        "batching",
+        "kv-cache",
+        "distributed-serving"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "边云协同推理里不同设备选不同切分点，云侧请求到达的模型深度参差，没法常规组 batch，边侧执行与通信还在云调用之间留空闲间隙DySCo 把 KV 缓存留在边侧，dyForward 执行器从常驻模型分片跑连续层段而不重载权重，深度同步 batching（DSB）把异构请求推进到最深切分点对公共后缀统一组 batch平均并发 8 时 DSB 吞吐比 FIFO 高 275%比精确匹配 batch 高 48%比轮询交错高 79%，均值会话延迟同时下降",
+      "summary_en": "Edge-cloud layer-wise inference fails to batch requests once devices pick heterogeneous split points, and edge execution leaves idle gaps between cloud calls. DySCo keeps the KV cache on the edge, runs continuous layer segments from resident model shards via a dyForward executor without reloading weights, and depth-synchronized batching advances heterogeneous requests to the deepest split point for common-suffix batching. At average concurrency 8, DSB improves throughput 275% over FIFO, 48% over exact-match batching, and 79% over round-robin interleaving while lowering mean session latency.",
+      "one_liner": "DySCo：深度同步 batching 让异构切分的边云推理共享 batch，吞吐比 FIFO 高 275%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b2958ac8.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "85520d0d",
+      "title": "SquidAgent: Parallelize Wisely, Coordinate Efficiently",
+      "url": "https://arxiv.org/abs/2610.08647",
+      "source": {
+        "platform": "arxiv",
+        "author": "Lin et al.",
+        "original_date": "2026-10-06"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "parallelism",
+        "cost-model",
+        "orchestration",
+        "token-budget"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "并行多 agent 系统经常比单 agent 还慢，作者归因于两笔隐藏成本：re-exploration（并行 worker 重建 orchestrator 已有上下文）与 alignment（调和独立输出的开销），并推出判定准则只有关键路径加两笔开销仍低于串行成本时才值得并行；LLM 估墙钟时间很不准，改用预测输出 token 做成本单位可靠得多SquidAgent 一步规划算出全部 token 预算，每个 worker 从 orchestrator 会话 fork 消灭 re-exploration，用预生成共享约定块把 alignment 变成有界前置成本；对 Claude Code 平均吞吐 2.2 倍墙钟 2.6 倍",
+      "summary_en": "Parallel multi-agent systems often run slower than a single agent due to re-exploration cost (workers rebuilding the orchestrator's context) and alignment cost (reconciling independent outputs). The paper derives a criterion - parallelize only when critical-path plus both costs stays under serial cost - and shows predicted output tokens are a far more reliable cost unit than LLM wall-clock estimates. SquidAgent plans all token budgets in one step and forks each worker from the orchestrator session, with pre-generated shared-convention blocks bounding alignment cost; 2.2x throughput and 2.6x wall-clock speedup on Claude Code, 2.0x over the strongest multi-agent baseline.",
+      "one_liner": "SquidAgent：用 token 预算判定并行是否值得，fork 消灭重复探索，Claude Code 吞吐 2.2x",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/85520d0d.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c43ada0f",
+      "title": "ParanoiaEval: Benchmarking Unnecessary Defensive Work in Agentic Coding",
+      "url": "https://arxiv.org/abs/2610.08662",
+      "source": {
+        "platform": "arxiv",
+        "author": "Luo et al.",
+        "original_date": "2026-10-06"
+      },
+      "category": "agents",
+      "tags": [
+        "coding-agents",
+        "benchmark",
+        "risk-management",
+        "agent-evaluation",
+        "safety"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Coding agent 越来越自主，但风险处理是否恰当此前没有统一评测ParanoiaEval 借软件工程风险管理的 Avoidance-Transfer-Mitigation-Acceptance 框架，构造 200 对证据受控的仓库级任务对每对只在定义处理方式的那条证据上不同，并配风险处理违规率与证据响应度两个指标，用人工校准的 agent judge 评分8 个代表性模型的实验显示：即使证据明确，11.2%-58.7% 的运行仍做了不必要的风险处理；任务能力更强不等于风险处理更得当，违规率还明显伤害开发者体验",
+      "summary_en": "ParanoiaEval benchmarks unnecessary defensive work in agentic coding via the software-engineering risk-management framework (Avoidance-Transfer-Mitigation-Acceptance): 200 evidence-controlled repository task pairs differing only in the evidence defining risk handling, scored with violation rate and evidence responsiveness using human-calibrated agent judges. Across 8 representative models, 11.2%-58.7% of runs still performed unnecessary risk handling even with clear evidence; stronger task ability does not imply better risk handling, and violations measurably hurt developer experience.",
+      "one_liner": "ParanoiaEval：coding agent 的防御性动作最高 58.7% 是不必要的你的 agent 在防御还是在表演防御",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c43ada0f.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "874d5210",
+      "title": "When Tools Lie: Reliability of Mathematical Agents Under Corrupted Tool Feedback",
+      "url": "https://arxiv.org/abs/2610.08097",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jegatheesan & Lihinikaduarachchi",
+        "original_date": "2026-10-06"
+      },
+      "category": "agents",
+      "tags": [
+        "tool-use",
+        "verification",
+        "reliability",
+        "math-agents",
+        "prompt-injection"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "数学解题 agent 把计算委派给工具并默认其可信；论文构造隐藏拦截器把工具返回替换成貌似合理的错误答案，在 31 个问题上比较四种验证设计：无验证时准确率从 100% 掉到 72.4%；强制同上下文反思完全恢复到 100%；可选的全新上下文验证只在模型主动调用时有效恢复实验显示显式检测到污染后全量重跑 100% 成功结论：验证器可用性与验证策略是可靠性的两个独立组件校验必须写成强制步骤，不能写成建议",
+      "summary_en": "Math-solving agents delegate computation to tools and trust their returns. Hidden interceptors replace tool outputs with plausible wrong answers across 31 problems and four verification designs: with no verification, accuracy drops from 100% to 72.4%; mandatory same-context reflection fully restores 100%; optional fresh-context verification works only when the model chooses to invoke it. Verifier availability and verification policy are independent reliability components - checks must be mandatory steps, not suggestions.",
+      "one_liner": "When Tools Lie：工具返回假结果时强制反思把准确率从 72.4% 拉回 100%，可选验证靠不住",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/874d5210.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7f6b50db",
+      "title": "Surviving the Router: Optimizing Skill Injections for Retrieval and Execution",
+      "url": "https://arxiv.org/abs/2610.08098",
+      "source": {
+        "platform": "arxiv",
+        "author": "Najjar et al.",
+        "original_date": "2026-10-06"
+      },
+      "category": "agents",
+      "tags": [
+        "skill-routing",
+        "prompt-injection",
+        "agent-security",
+        "retrieval-attack",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Agent 靠 skill router 从第三方 skill 里动态选择加载，已有注入评测都假设恶意 skill 已被选中执行论文证明这高估了威胁：多 skill 环境里注入 skill 先要赢检索竞争，现有手法的有效 ASR 因此缩水 87-97%；随即提出 router-aware 的两阶段 CORSA 攻击先优化检索命中再优化端到端攻击成功在 SkillRouter 基准扩展的 8 类恶意载荷上显著超过现有注入，且跨 router 架构和 LLM 后端可迁移防御侧据此得到：检索层是天然过滤器，也是新的攻击面",
+      "summary_en": "Skill-routing agents dynamically load third-party skills, but prior injection evaluations assume the malicious skill is already selected for execution. The paper shows this overestimates the threat: in multi-skill settings injected skills must first win the retrieval competition, shrinking existing attacks' effective ASR by 87-97%. The router-aware two-stage CORSA attack optimizes retrieval hit first, then end-to-end attack success, significantly outperforming prior injections across 8 malicious payload classes and transferring across router architectures and LLM backends.",
+      "one_liner": "Surviving the Router：skill 注入先要赢检索竞争，现有手法 ASR 缩水 87-97%，CORSA 重开攻击面",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7f6b50db.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7cf82ba9",
+      "title": "Secure Speculative Decoding for Large Language Models",
+      "url": "https://arxiv.org/abs/2610.08678",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhang et al.",
+        "original_date": "2026-10-06"
+      },
+      "category": "infra",
+      "tags": [
+        "speculative-decoding",
+        "llm-serving",
+        "jailbreak",
+        "prompt-injection",
+        "security"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "投机解码用小 draft 模型出候选大 target 模型验证，此前研究只算效率-质量账大规模测量发现明显的安全-质量不对称：各类有损投机解码方法里，越狱和提示注入攻击成功率的上涨速度远快于效用下滑速度；理论分析定位到安全退化主要来自 draft 模型生成的早期 tokenSecureSD 据此对解码早期位置的 draft token 用更严的验证标准，效率与质量基本不损失IEEE S&P 2027 接收",
+      "summary_en": "Speculative decoding drafts candidates with a small model and verifies with the target model; prior work counts only efficiency-quality tradeoffs. Large-scale measurement reveals a clear security-quality asymmetry: across lossy speculative decoding methods, jailbreak and prompt-injection success rates rise far faster than utility degrades. Theoretical analysis locates the degradation mainly in early tokens generated by the draft model; SecureSD applies stricter verification to early draft-token positions with essentially no efficiency or quality loss. Accepted to IEEE S&P 2027.",
+      "one_liner": "Secure Speculative Decoding：投机解码提速有安全汇率，病灶在 draft 早期 token，且可修",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7cf82ba9.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d77135f1",
+      "title": "MINDSET: Energy-based Schema Evolution for Long Conversational Agent Memory",
+      "url": "https://arxiv.org/abs/2610.08586",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dutta et al.",
+        "original_date": "2026-10-06"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "long-context",
+        "schema-evolution",
+        "conversational-agents",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "长对话 agent 的记忆要同时保当前与历史状态区分过期信息与活跃知识，现有系统动辄调 LLM 重写历史MINDSET 把对话存成不可变 episode，用最小能量状态转移组织成带版本的 schema：新 episode 可强化取代拆分或新建 schema，决策权衡表征失真矛盾历史损伤碎片化与内部不一致五项成本，迟滞机制防止单次矛盾过早改写稳定记忆850 题（700 LoCoMo + 150 MemoryAgentBench）可复现样本上拿到最高 LoCoMo 答案 F1，检索排序显著超过 LightMem，跨 GLM-4.7 与 Gemma-4-31B 支持模型无关性",
+      "summary_en": "Long-conversation agent memory must retain current and historical state while distinguishing stale from active knowledge, yet existing systems keep rewriting history with LLM calls. MINDSET stores immutable episodes organized by minimum-energy state transitions into versioned schemas: a new episode can reinforce, supersede, split, or create schemas under a five-cost trade-off (distortion, contradiction, history damage, fragmentation, internal inconsistency) with hysteresis against premature overwrites. Highest LoCoMo answer F1 on 850 reproducible questions (700 LoCoMo + 150 MemoryAgentBench), retrieval ranking clearly above LightMem, and model-agnostic across GLM-4.7 and Gemma-4-31B.",
+      "one_liner": "MINDSET：对话记忆做成受约束状态机而非持续摘要，LoCoMo F1 最高且模型无关",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d77135f1.md",
+      "images": [],
+      "added_date": "2026-10-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-08",
-  "total_entries": 2658
+  "total_entries": 2670
 }
