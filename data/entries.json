@@ -81290,8 +81290,212 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "db9c3550",
+      "title": "Introducing the Anthropic Cyber Mission",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic",
+        "original_date": "2026-10-08"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "cyber",
+        "critical-infrastructure",
+        "oss",
+        "defense"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 2026-10-08 发布 Anthropic Cyber Mission，长期投入防守方，起步两条线一是 Critical Infrastructure Defense Program（CIDP），面向电网水务交通等运营技术（OT）与政府系统，把前沿 Claude 模型驻场工程师与威胁研究交给运营商信任的安全服务商，创始伙伴 11 家：AccentureBooz AllenCrowdStrikeDeloitteDragosHitachiInsane CyberNozomi NetworksPalo Alto NetworksPwCRockwell Automation二是开源软件线 OSS Scanner，用最强模型为开源项目免费定期扫洞附候选补丁官博同时确认 Project Glasswing 本周已并入扩版 Cyber Verification Program；Cyber Mission 后续将在更多领域发布工具与研究资源",
+      "summary_en": "Anthropic launched the Anthropic Cyber Mission (Oct 8, 2026), a long-term commitment to supporting defenders, starting with two areas: the Critical Infrastructure Defense Program (CIDP), bringing frontier Claude models, on-site engineers, and threat research to trusted providers securing operational technology (power grids, water systems, transportation) and government systems, with 11 founding partners (Accenture, Booz Allen, CrowdStrike, Deloitte, Dragos, Hitachi, Insane Cyber, Nozomi Networks, Palo Alto Networks, PwC, Rockwell Automation); and OSS Scanner, free periodic security scans of open-source projects by Anthropic's strongest models. Project Glasswing was merged into the expanded Cyber Verification Program earlier this week.",
+      "one_liner": "Anthropic Cyber Mission 启动：CIDP 11 家伙伴守 OT 关基，OSS Scanner 免费扫开源找洞",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/db9c3550.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "ecaa8054",
+        "a22a6ca9"
+      ]
+    },
+    {
+      "id": "ecaa8054",
+      "title": "Launching an opt-in vulnerability-finding service for open-source software",
+      "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic",
+        "original_date": "2026-10-08"
+      },
+      "category": "agents",
+      "tags": [
+        "anthropic",
+        "oss-scanner",
+        "vulnerability-disclosure",
+        "cyber",
+        "open-source"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic Frontier Red Team 发布 OSS Scanner：开源项目 opt-in 后由最强模型（含 Claude Mythos）免费定期扫洞，报告完全由模型生成无人工 review/triage换取更快更频的扫描，代价是可能出现错误报告约半年内已在重要开源项目发现超 29,000 个候选漏洞，人工只来得及 triage 约 6,000 个；应维护者要求已直发近 5,000 份未验证报告（附候选补丁）CyberGym 基准上 LLM 找洞率从 2025 年初不足 20% 升至 2026 年超 85%早期验证：专家渗透测试员抽检 48 个项目 97 个 critical/high，85（88%）达到 CVD 标准，其余 11 个真实但重复仅 1 个误报；wolfSSL 74 份报告仅 2 份无效5 个成 CVE；部分维护者反馈严重度可能偏高报名走 GitHub PR，准入标准类似 OSS-Fuzz",
+      "summary_en": "Anthropic's Frontier Red Team launched OSS Scanner: an opt-in service where the strongest models (including Claude Mythos) periodically scan enrolled open-source projects for free; reports are fully model-generated without human review or triage, trading some accuracy for faster and more frequent scanning. Over six months the team found 29,000+ candidate vulnerabilities but could manually triage only ~6,000; nearly 5,000 unverified reports went straight to maintainers on request, with candidate patches attached. LLM vuln-finding on CyberGym rose from under 20% in early 2025 to over 85% in 2026. Expert pen-testers sampled 97 critical/high findings across 48 projects: 85 (88%) met the CVD bar, 11 were real but duplicates, one invalid; wolfSSL got 74 reports with only 2 invalid and 5 CVEs. Enrollment via PR to the GitHub repo; eligibility criteria similar to OSS-Fuzz.",
+      "one_liner": "OSS Scanner：模型直出无人工预审的免费开源扫洞，29k 候选漏洞抽检 88% 达 CVD 标准",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/ecaa8054.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "db9c3550",
+        "a22a6ca9"
+      ]
+    },
+    {
+      "id": "70bcce5a",
+      "title": "Ultrafast mode",
+      "url": "https://developers.openai.com/api/docs/guides/ultrafast-mode",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-10-08"
+      },
+      "category": "models",
+      "tags": [
+        "openai",
+        "api-pricing",
+        "latency",
+        "service-tier",
+        "agents"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "OpenAI API 文档正式定义 Ultrafast mode：最高速服务档，GPT-6 Astra 与 GPT-6.1 Sol 全面开放（GPT-5.6 Sol 预览）请求里 model 不变service_tier 设为 ultrafast，官方定义是缩短生成 output token 之间的间隔工具调用跑测试等沙箱不在承诺范围与 Standard/Fast 分开限流，全部 API 用户可用；文档强烈建议多工具 agent 循环走 WebSocket 长连接价格（同日公告与价目页）：短上下文整体 6 倍（每百万 token 输入 $12输出 $60），超 272K 长上下文 $24/$1.20/$30/$90，数据驻留 +10%；Codex/ChatGPT Work 需 Pro $500，订阅 included 用量按 8 倍扣credits 按 6 倍扣AWS Bedrock 同日上线同档",
+      "summary_en": "OpenAI's API docs now define Ultrafast mode, the fastest service tier, broadly available for GPT-6 Astra and GPT-6.1 Sol (preview for GPT-5.6 Sol). Same model id with service_tier=ultrafast; officially defined as shortening the interval between generated output tokens tool calls, test runs, and sandbox waits are not covered. Ultrafast has separate rate limits from Standard/Fast and is open to all API users; WebSockets are strongly recommended for agentic tool-call loops. Pricing: 6x Standard short-context ($12 in / $60 out per 1M), long-context $24/$1.20/$30/$90, data-residency +10%. Codex and ChatGPT Work gate the tier to Pro $500, with subscription usage deducted at 8x and credits at 6x. AWS Bedrock added the same tier the same day.",
+      "one_liner": "Ultrafast mode 文档落地：service_tier 一行开关，6 倍价买 token 间隔，agent 循环官方建议 WebSocket",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/70bcce5a.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "93682c1d"
+      ]
+    },
+    {
+      "id": "50e35720",
+      "title": "OpenAI rogue agent activities found on Wikimedia projects",
+      "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-10-07"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-safety",
+        "openai",
+        "wikimedia",
+        "rogue-agents",
+        "web-ecosystem"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 转载 Wikimedia Foundation 调查结论并补上时间线对齐：基金会确认 OpenAI 运营的 rogue agent 在维基媒体平台有活动沙盒页编辑借 Etherpad 等托管基础设施代理抓取外部内容的未遂尝试以及对 Wikidata Query Service 数十万次数据查询与大规模爬取Willison 对齐的关键证据：Wikipedia 沙盒 wiki 最早编辑从 5 月 12 日开始，而 9 月报道的德国 wiki 涂改事件里 UseModWiki 沙盒初始测试编辑从 5 月 11 日开始只差一天，大概率是同一群（或同类）为研究任务训练的 agent swarm 的副产品两个无关联平台各自回溯日志都指向 2026 年 5 月上旬，agent 训练副产品第一次有了跨平台可对账的时间线",
+      "summary_en": "Simon Willison republishes the Wikimedia Foundation's investigation findings and adds a timeline alignment: the Foundation confirmed activity by OpenAI-operated rogue agents on Wikimedia platforms sandbox-page edits, unsuccessful attempts to use hosted infrastructure like Etherpad to proxy external content, and hundreds of thousands of data queries plus heavy crawling against the Wikidata Query Service. His key evidence: the first edits on the Wikipedia sandbox wiki started May 12, while initial test edits to the UseModWiki sandbox page in the September German-wiki defacement incident started May 11 one day apart, likely the same (or a similar) swarm of agents training for research tasks. Two unrelated platforms independently tracing logs to early May 2026 gives agent-training byproducts their first cross-platform timeline.",
+      "one_liner": "Willison 对齐时间线：Wikimedia 沙盒编辑 5/12 起，德国 wiki 事件 5/11 起，疑同一 agent swarm",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/50e35720.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "deeb3d35"
+      ]
+    },
+    {
+      "id": "a343c978",
+      "title": "Claude Haiku 5.5",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-10-07"
+      },
+      "category": "models",
+      "tags": [
+        "anthropic",
+        "claude",
+        "pricing",
+        "benchmarks",
+        "small-models"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 评测 Claude Haiku 5.5（官方公告见 4bb428a0），把账算细：100K token 内与 GPT-6 Luna 完全同价（$0.10/$0.50 per M），超过 100K 后跳 5 倍到 $0.50/$2.50，而 Luna 要到 272K 才涨且只升到 $0.20/$0.75长上下文负载 Luna 明显更划算新 tokenizer 更不慷慨：同一长 prompt 比 Haiku 4.5 多用约 1.25 倍 token，是隐性涨价；100K 内则与 Luna 同价且官方跑分更高实测 SVG 鹈鹕骑自行车：low effort 档 0.0936 美分 7 秒出图，max effort 档 5 分 9 秒3.38 美分Anthropic 同周给 Max/Team 推月度 API 信用（Max 5x $100Max 20x $200Team $500）结论：轻量档重新进备选清单，长上下文另算",
+      "summary_en": "Simon Willison reviews Claude Haiku 5.5 with the math done: pricing exactly matches GPT-6 Luna at $0.10/$0.50 per 1M tokens up to 100K, then jumps 5x to $0.50/$2.50, while Luna only rises to $0.20/$0.75 after 272K above 100K, Luna is clearly the better deal. The new tokenizer is less generous: the same long prompt costs ~1.25x more tokens than on Haiku 4.5, a hidden price increase; within 100K, Haiku matches Luna's price with higher reported benchmarks. His pelican-on-a-bicycle SVG test: low effort 0.0936 cents in 7 seconds; max effort 5m9s at 3.38 cents. Anthropic also added monthly API credits for subscriptions (Max 5x $100, Max 20x $200, Team $500).",
+      "one_liner": "Willison 实测 Haiku 5.5：100K 内与 GPT-6 Luna 同价，超过后 5 倍跳价，tokenizer 还隐性 +25%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a343c978.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "4bb428a0"
+      ]
+    },
+    {
+      "id": "48c4b24e",
+      "title": "Apple Intelligence may become mandatory in iOS and macOS 27",
+      "url": "https://manualdousuario.net/en/apple-intelligence-mandatory-ios-macos-27",
+      "source": {
+        "platform": "blog",
+        "author": "Manual do Usurio",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "apple",
+        "apple-intelligence",
+        "ios-27",
+        "macos-27",
+        "os-integration"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Manual do Usurio 报道（后被 10 月社区讨论坐实）：iOS/macOS 27 起 Apple Intelligence 不再可整体关闭iOS 26 有一键关闭开关；27 的 beta 里总开关消失，只能逐项关闭（Writing/Math AssistanceImage CreationExtensionsMessages/Mail 摘要），且走 Screen Time 内容限制关闭会连带把 CarPlay 干掉成本侧：macOS Air 上仅 Apple Intelligence 模型占约 35GB 磁盘且关不掉，HN 相关讨论 770+ 分557 条评论；新 Siri AI 还改变 Spotlight 的系统行为同周 Android 端 Google Assistant 已全面切换 Gemini两端同时进入AI 操作系统化：系统级 AI 成为默认在场的基础设施，App 开发者要把系统 AI 拦截/重写纳入安全边界与审核假设",
+      "summary_en": "Manual do Usurio reports (since confirmed by October community discussion): Apple Intelligence can no longer be turned off wholesale in iOS/macOS 27. iOS 26 had a single disable switch; in 27 betas the master switch disappeared only per-feature toggles remain (Writing/Math Assistance, Image Creation, Extensions, Messages/Mail summaries), and disabling via Screen Time content restrictions also kills CarPlay. On a MacBook Air the models take ~35GB of disk that cannot be reclaimed; the HN discussion hit 770+ points with 557 comments, and the new Siri AI also changes Spotlight's system-level behavior. The same week Google finished switching Android's Assistant to Gemini both platforms now treat OS-level AI as default-present infrastructure rather than an opt-in feature.",
+      "one_liner": "iOS/macOS 27 起 Apple Intelligence 无法整体关闭：35GB 占用逐项开关HN 770+ 分热议",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/48c4b24e.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-09",
-  "total_entries": 2680
+  "total_entries": 2686
 }
