@@ -80969,8 +80969,329 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "4d8e3506",
+      "title": "Before They Can Solve: Predicting Post-Training Coding-Agent Performance from Base Models",
+      "url": "https://arxiv.org/abs/2610.10478",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tan Yu et al. (NVIDIA)",
+        "original_date": "2026-10-07"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agent",
+        "post-training",
+        "model-selection",
+        "swebench",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "怎么在花大钱做 agentic 后训练之前判断一个 base checkpoint 值不值？端到端 pass@K 不适合 agentic coding：很多 base 模型连格式良好的工具调用都稳定产出不了，短视野单发任务又绕开了多步状态维护这个核心能力作者把成功的后训练 agent 轨迹当作 base 模型潜力的 lookahead 信号：重放轨迹每一步代码改动后重跑测试，找到第一个让仓库从挂转过的决定性步骤，在该步骤上构造三个不需要 base 模型冷启动驱动 harness 的筛子Decisive-Action BPB（对已认证动作的概率质量）Patch MCQ（在与同一 verifier 否掉的备选之间做选择）prefix-conditioned pass@K（认可任何能过测试的续写）十个公开 base/post-trained 模型对上，三个筛子给出的排序与后训练后 SWE-bench Verified pass@1 高度一致；方法只需要基准的成功轨迹和 verifier，可把未来 agentic coding 基准直接变成 base 模型评估",
+      "summary_en": "How do you predict which base checkpoint is worth an expensive round of agentic post-training? End-to-end pass@K fits agentic coding poorly: many base checkpoints cannot reliably produce well-formed tool invocations, and single-shot tasks sidestep the core capability of maintaining coherent state over many tool-using steps. The authors treat successful post-trained agent trajectories as a lookahead signal: replay each trajectory, rerun tests after every code-changing step to find the decisive step that flips the repo from failing to passing, and build three screens there needing no cold-start harness driving - Decisive-Action BPB (probability mass on the certified action), Patch MCQ (choice between that action and verifier-rejected alternatives), and prefix-conditioned pass@K....",
+      "one_liner": "用成功轨迹的决定性步骤给 base 模型做体检，排序对齐后训练 SWE-bench",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4d8e3506.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e5f276e5",
+      "title": "A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents",
+      "url": "https://arxiv.org/abs/2610.10468",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ali Asaria, Deep Gandhi, Tony Salomone",
+        "original_date": "2026-10-07"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "research-agents",
+        "institutions",
+        "governance"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "研究型 agent 部署正在走向上千个共享同一算力池的持久个体，而多数系统仍按单项目组织或干脆放任不管作者主张：这类种群不管设计者给不给组织，它都会自己长出组织，所以应该显式设计，且多智能体社区已有现成工具他们提出 society of researchers：PI 们通过 RFP独立评审和拨款竞争算力，一个人类 governor（市长）只分配资源不指派任务，全部建立在六条原则之上在一个运行中的一万名研究者社会里，种群唯一被要求做的事是改进 LLM 预训练，其中一个实验室报告了用约 30% 更少算力达到同等预训练质量的方法但测试过它的其他实验室尚未认可这一结果文末给出面向 agents 社区的六个开放问题",
+      "summary_en": "Research-agent deployments are moving to populations of thousands sharing one compute pool, while most systems organize one project at a time or leave the population unorganized. The authors argue such a population acquires an organization whether or not designers provide one, so it should be designed explicitly: a society of researchers where principal investigators compete for compute through RFPs, independent review, and grants, while a human governor (the mayor) allocates resources and assigns no tasks, built on six principles. In a running society of ten thousand researchers asked only to improve LLM pretraining, one lab reported reaching the same quality with about 30% less compute - a result the labs that tested it do not yet agree on. Six open problems for the agents community close the paper.",
+      "one_liner": "一万个自治研究 agent 的制度设计：RFP 竞争算力，人类市长只给钱不派活",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e5f276e5.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dae6cad6",
+      "title": "RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing",
+      "url": "https://arxiv.org/abs/2610.10507",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yilun Hao et al. (MIT/Google)",
+        "original_date": "2026-10-07"
+      },
+      "category": "agents",
+      "tags": [
+        "rag",
+        "evidence-routing",
+        "context-engineering",
+        "tool-use",
+        "grpo"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "很多任务的证据不在任何单条来源里，要跨多条来源做过滤聚合甚至计算才能得到，而传统 RAG 停在相似度检索agentic 变体也仍以检索为中心RECAST 把证据构建建成异构检索与计算操作上的序贯决策过程：轻量 RouterLM 迭代选择并表述原语操作，或为冻结的 CompilerLM 定制操作再编译成可执行代码，判断证据足够后交给冻结的 AnswerLM 产出答案；RouterLM 先 SFT 再 GRPO 训练六个异构基准族平均成功率 75.6%，超最强 large-model 基线 15.9%；训练后的 Qwen3.5-9B RouterLM 反超免训练的 Gemini 3.5 Flash RouterLM 5.0%；三个 held-out 基准上平均再超最强基线 15.0%，展示跨任务跨异构来源表示的零样本泛化",
+      "summary_en": "In many tasks the evidence needed for a solution is not present in any single source item - it must be derived through filtering, aggregation, or computation across items - yet conventional RAG stays similarity-centric and agentic variants remain retrieval-centric. RECAST formulates evidence construction as a sequential decision process over heterogeneous retrieval and computation operations: a lightweight RouterLM iteratively selects and formulates primitive operations or specifies custom ones for a frozen CompilerLM to translate into executable code, then hands accepted evidence to a frozen AnswerLM; RouterLM is trained with SFT followed by GRPO....",
+      "one_liner": "证据靠算出来不靠检索出来：RouterLM 学会调度计算操作，六基准族 +15.9%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dae6cad6.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dfb77cd2",
+      "title": "Decoupling Exploration from Optimization in RLVR",
+      "url": "https://arxiv.org/abs/2610.10536",
+      "source": {
+        "platform": "arxiv",
+        "author": "Saif Punjwani, Micah Goldblum",
+        "original_date": "2026-10-07"
+      },
+      "category": "models",
+      "tags": [
+        "rlvr",
+        "exploration",
+        "distillation",
+        "reasoning",
+        "dapo"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "RLVR 的核心卖点是发现新推理策略，但实践里给 RLVR 加强新颖性激励收效有限还会掉模型质量，而 verifiable reward 只监督模型知识和行为的一小段，一旦掉下去很难恢复ExpDis（Exploration-Distillation）把探索与优化解耦：先训一个或多个 reward 里带 novelty bonus 的 explorer 策略，按正确性与质量过滤其轨迹，再蒸馏进独立的学生策略，学生训练不带 novelty bonus，多轮交替探索与优化七个数学推理基准两个模型族上，ExpDis 在相同 wall-clock 预算下超过 DAPO，且 pass@k scaling 更好，说明学生策略能生成更多样化的正确解",
+      "summary_en": "A key promise of RLVR is discovering new reasoning strategies, but in practice adding strong novelty incentives sees limited success and can degrade model quality, and because verifiable rewards supervise only a narrow slice of knowledge and behavior, such degradation is hard to recover from. Exploration-Distillation (ExpDis) decouples the two: train one or more explorer policies with a novelty bonus in the reward, filter their trajectories for correctness and quality, distill them into a separate student policy trained without the bonus, and repeat in alternating rounds. Across seven mathematical reasoning benchmarks and two model families, ExpDis outperforms DAPO at the same wall-clock budget, with improved pass@k scaling indicating the student generates more diverse correct solutions.",
+      "one_liner": "RLVR 探索别和优化搅在一起：explorer 带奖探索蒸馏给学生，同预算超 DAPO",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dfb77cd2.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1f99b9ea",
+      "title": "SciExam for ENSO: Can AI Agents Build Climate Models?",
+      "url": "https://arxiv.org/abs/2610.10513",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yinling Zhang et al. (Princeton)",
+        "original_date": "2026-10-07"
+      },
+      "category": "agents",
+      "tags": [
+        "ai-scientist",
+        "benchmark",
+        "climate-modeling",
+        "evaluation",
+        "enso"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "开放式科研 agent 的成果通常按已知答案rubric 或 LLM 评审打分，没有一种能判断新科学模型本身是否有效SciExam for ENSO 让 agent 从真实观测出发，在六小时预算内处理观测写下自己的诊断程序并冻结仅用这些诊断作反馈来构建 ENSO（El Nino-Southern Oscillation）低阶随机模型；隐藏评分者随后检验模型能否复现 ENSO 统计恢复未观测变量预测 held-out 年份，并对一个已发表模型同样打分作为对照十二个 agent 系统中六个的模型分数超过已发表模型，主要赢在重构与预报；更强模型的简化形式各自兼容 ENSO 暖冷不对称两种竞争解释之一而任务从未提及这场未决争论对顶尖系统的信息消融显示其分数并非来自背诵历史观测记录，收到的信息确实塑造了建模方式",
+      "summary_en": "Open-ended scientific agents are usually graded against known answers, rubrics, or LLM reviewers, none of which can tell whether a new scientific model is valid. SciExam for ENSO has agents build low-order stochastic models of ENSO from real observations within a six-hour budget: they process the observations, write their own diagnostics which are then frozen, and develop a model using only those diagnostics as feedback; hidden graders test whether the model reproduces ENSO statistics, recovers unobserved variables, and forecasts held-out years, scoring a published model the same way....",
+      "one_liner": "让 agent 建气候模型拿已发表论文当分数线：12 个系统里 6 个跑赢发表结果",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1f99b9ea.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0e79ce73",
+      "title": "Validity Without Ground Truth: What Stated-Preference Economics Offers the Evaluation of Language Models",
+      "url": "https://arxiv.org/abs/2610.10506",
+      "source": {
+        "platform": "arxiv",
+        "author": "Daniel Robert Kling Alexander, Catherine Louise Kling",
+        "original_date": "2026-10-07"
+      },
+      "category": "models",
+      "tags": [
+        "llm-evaluation",
+        "validity",
+        "stated-preference",
+        "survey-methodology"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "越来越多抛给 LLM 的问题没有可对分的正确答案：一项政策值多少钱用户该选哪个互相冲突的价值观怎么权衡陈述偏好经济学（stated-preference economics）几十年前就面对同样处境，发展出一套无需真值即可评判调查回答的效度框架：内容效度结构效度效标效度信度激励相容与后果性作者论证这是评估 LLM 的通用方法并逐概念落到 LLM 评估上；用 Vossler et al. 2023 已发表的水质陈述偏好调查测六个模型，效度检验变成经济学理论的预测需求应向下倾斜支付意愿应对商品范围与收入有响应模型被尖锐地分层：两个较老模型在家庭收入 7.5 万美元档连最基本的检验都过不了，两个最新模型通过全部可打分的理论效度检验却在 convergent validity 上分化通过效度检验说明回答自洽，不说明正确",
+      "summary_en": "Many questions now put to LLMs have no correct answer to score against: what a policy is worth, which option a user should choose, how to weigh competing values. Stated-preference economics has faced this for decades, judging survey responses without true values via a framework of content, construct, and criterion validity, reliability, incentive compatibility, and consequentiality. The authors argue this is a general method for evaluating language models and map each concept onto LLM evaluation, demonstrating with the published Vossler et al. 2023 water-quality stated-preference survey administered to six models, where validity tests become predictions from economic theory: demand should slope down, willingness to pay should respond to scope and income....",
+      "one_liner": "没有标准答案怎么评 LLM：借陈述偏好经济学的效度框架，六个模型被尖锐分层",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0e79ce73.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f33b64fe",
+      "title": "Why Isn't the Industry Freaking Out About DeepSeek 4.1 Flash?",
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-10-07"
+      },
+      "category": "industry",
+      "tags": [
+        "deepseek",
+        "model-economics",
+        "kv-cache",
+        "frontier-models",
+        "cost"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "作者重度使用 DeepSeek 4.1 Flash 一个月横跨十几个项目后的判断：不盯模型名时与 Opus 分不出差别工作成果对话速度都察觉不到差异而价格低几个数量级：$10/月的 OpenCode 订阅基本等于无限用，单 session 预期成本很少超过 $1全靠 DeepSeek 把 KV cache 相比 V1 压缩约 437 倍，砍掉了长编码会话最大的 GPU 显存持有成本使用方式因此改变：随手起无脑任务探索性 UI 猴测不再心疼；只有关键任务才拉 Opus 5.5 做终审 code review再让 DeepSeek 执行修复作者判断这套经济性下自托管已经回不了本，但预期缓存优化终将下放到本地部署真正的悬念是：这么能打的质量与价格之下，行业为什么还不慌",
+      "summary_en": "After a month of heavy use across a dozen projects, the author cannot tell DeepSeek 4.1 Flash from Opus when not looking at the model name - work, conversations, and speed all feel identical - at orders of magnitude lower cost: a $10/month OpenCode subscription is effectively unlimited and expected session cost rarely exceeds $1. The enabler is DeepSeek shrinking KV cache roughly 437x versus V1, cutting the dominant GPU-memory cost of long coding sessions. The workflow changes accordingly: mindless tasks and exploratory UI monkey-testing become guilt-free; only critical tasks get a final Opus 5.5 code review, with DeepSeek executing the fixes. At these economics self-hosting no longer recoups its costs, though the author expects cache optimizations to reach local deployments soon. The open question: why isn't the industry panicking at frontier-class work at this price?",
+      "one_liner": "重度用了一个月 DeepSeek 4.1 Flash：KV cache 压 437 倍，全天会话不到 1 美元",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f33b64fe.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f9a7f01f",
+      "title": "Whistle: Speech to Text in 16.9 MB",
+      "url": "https://cactuscompute.com/blog/whistle",
+      "source": {
+        "platform": "blog",
+        "author": "Jakub Mroz (Cactus Compute)",
+        "original_date": "2026-10-02"
+      },
+      "category": "infra",
+      "tags": [
+        "speech-recognition",
+        "on-device",
+        "edge-ai",
+        "whisper",
+        "efficient-inference"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cactus Compute 发布 16.9 MB 的端侧语音识别模型 Whistle：单文件纯 CPU零依赖，与 Needle 共用同一 C++ 推理引擎和量化容器支持英德法西意荷波兰语 30 秒片段转写自动语言检测（语言作为词表 token 输出）词级时间戳，以及不经解码直接产出 80ms 帧距的语音 embedding结构上 encoder/decoder 各 8 层 Simple Attention：mHC 残差 laneMonarch Hadamard MLP 替代 FFNdecoder 8 query 头对 2 KV 头第 3/7 层做 18,432 slot 的 engram lookup；每层门控 cross-attention 读 encoder，K/V 投影每片段只算一次全程复用，5 beam 只花 5 份转写缓存ladder 训练让每个深度都是独立训练的模型，加载时 --audio-depth 选择Apple M4 Pro CPU 上 10 秒音频：TTFT 11.1ms（Whisper base 73.2ms）解码 1319 tok/s（266）；LibriSpeechSPGISpeechEarnings-22FLEURS 均值上 WER 领先大 8.6 倍的 Whisper base",
+      "summary_en": "Cactus Compute released Whistle, a 16.9 MB speech-recognition model for mobiles, wearables, robots, smart home, automotive, and microcontrollers: one file, CPU-only, no dependencies, sharing Needle's C++ engine and quantisation. It transcribes up to 30-second clips in seven European languages with automatic language detection (emitted as a vocabulary token), word-level timestamps, and speech embeddings at 80 ms frame pitch without decoding. Architecture: 8-layer Simple Attention encoder and decoder with mHC residual lanes, Monarch Hadamard MLPs replacing FFNs, 8 query to 2 KV heads, engram lookups (18,432 slots) at decoder layers 3 and 7, and per-layer gated cross-attention whose K/V projections run once per clip, so five beams cost five transcript caches rather than five audio passes. Ladder training makes every depth its own trained model, selected at load via --audio-depth....",
+      "one_liner": "16.9 MB 纯 CPU 语音识别：WER 压过 8.6 倍大的 Whisper base，TTFT 11ms",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f9a7f01f.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dfc861ef",
+      "title": "OpenAI, the Partition Principle, and Mathematics",
+      "url": "https://karagila.org/2026/openai-pp",
+      "source": {
+        "platform": "blog",
+        "author": "Asaf Karagila",
+        "original_date": "2026-10-08"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "mathematics",
+        "partition-principle",
+        "ai-science",
+        "expert-reaction"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "集合论学者 Asaf Karagila 对 OpenAI 宣称 Partition Principle 不蕴含选择公理的回应：他没看庞大的 Lean 代码，只读预印本就给出 desk rejection 级评价写作混乱结构奇怪术语走调出现不该在这类论文里陈述的定理（Lemma 7.48.1），引用里至少三篇未发表未经评审的讲义（包括他自己的，且被引处的命题他确定见于已发表论文）新闻稿说 progress，媒体传成 solutions，于是数学家要么停下手头一切去核验他称之为对专家注意力的 DoS要么眼看公众与资助机构得出数学家可以被机器人取代的结论他拒绝给 Altman 寄许诺过的威士忌，也拒绝替 OpenAI 义务校对写作质量",
+      "summary_en": "Set theorist Asaf Karagila responds to OpenAI's announcement that the Partition Principle does not imply the Axiom of Choice: without touching the enormous Lean code, he rates the preprint desk-reject quality - unclear, muddled writing, strange structure, off terminology, theorems stated in ways nobody would expect (Lemmas 7.4 and 8.1), and at least three unpublished, unrefereed, non-arXiv lecture notes among the references (including his own, cited for a proposition he is certain appears in published work). The press release says progress; the media hears solutions - so mathematicians must either drop everything to verify, a Denial of Service on expert attention in his words, or watch the public and funding bodies conclude mathematicians are replaceable by bots. No whisky for Sam Altman, and no free copy-editing for OpenAI.",
+      "one_liner": "集合论学者评 OpenAI 分离原理预印本：desk rejection 水平，宣称即 DoS",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dfc861ef.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "47b9255d"
+      ]
+    },
+    {
+      "id": "1eaf0f76",
+      "title": "Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter",
+      "url": "https://openrouter.ai/stepfun/step-5-preview",
+      "source": {
+        "platform": "blog",
+        "author": "StepFun",
+        "original_date": "2026-10-08"
+      },
+      "category": "industry",
+      "tags": [
+        "stepfun",
+        "moe",
+        "long-context",
+        "agentic-models",
+        "openrouter",
+        "pricing"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "StepFun 旗舰 agentic 模型 Step 5 Preview 上架 OpenRouter：稀疏 MoE，27B 激活 / 600B 总参数，1M 上下文，定价 $1 / $2.70 每百万 token（cache 读 $0.05），2026-10-08 发布定位长任务：跨大代码库与文档工作多步工具使用与结果打磨，官方称软件工程与专业知识工作表现强金融领域尤甚当前单一 provider 直连无路由：P50 延迟 3.60s吞吐 56 tpsuptime 100%继 DeepSeekGLM 之后，又一家中国团队把超大 MoE 推向 agent 工作负载市场",
+      "summary_en": "StepFun's flagship agentic model Step 5 Preview is live on OpenRouter: a sparse Mixture-of-Experts with 27B active / 600B total parameters, 1M context, priced at $1 / $2.70 per 1M tokens ($0.05 per 1M cache reads), released October 8, 2026. Positioned for extended tasks spanning large codebases and documents, using tools and refining results over multiple steps; strong in software engineering and professional knowledge work, with particular strength in finance. Hosted by a single provider with no routing decisions: P50 latency 3.60 s, 56 tps throughput, 100% uptime. Another Chinese lab pushing a very large MoE at the agentic-workload market.",
+      "one_liner": "StepFun Step 5 Preview 上架：600B MoE / 27B 激活1M 上下文，$1/百万输入",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/1eaf0f76.md",
+      "images": [],
+      "added_date": "2026-10-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-08",
-  "total_entries": 2670
+  "last_updated": "2026-10-09",
+  "total_entries": 2680
 }
