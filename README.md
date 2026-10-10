@@ -6,21 +6,21 @@
 
 - [Apple Intelligence may become mandatory in iOS and macOS 27](https://manualdousuario.net/en/apple-intelligence-mandatory-ios-macos-27) ⭐4 · 2026-10-09 — iOS/macOS 27 起 Apple Intelligence 无法整体关闭：35GB 占用逐项开关HN 770+ 分热议
 - [Launching an opt-in vulnerability-finding service for open-source software](https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source) ⭐5 · 2026-10-08 — OSS Scanner：模型直出无人工预审的免费开源扫洞，29k 候选漏洞抽检 88% 达 CVD 标准
+- [From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Age...](https://arxiv.org/abs/2610.12463) ⭐5 · 2026-10-08 — 2026 年三大实验室的 agent 安全评估事故复盘
+- [Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff](https://arxiv.org/abs/2610.12436) ⭐5 · 2026-10-08 — 生态学视角看失控风险：协作创造种群数量阈值
 - [Ultrafast mode](https://developers.openai.com/api/docs/guides/ultrafast-mode) ⭐4 · 2026-10-08 — Ultrafast mode 文档落地：service_tier 一行开关，6 倍价买 token 间隔，agent 循环官方建议 WebSocket
-- [Introducing the Anthropic Cyber Mission](https://www.anthropic.com/news/anthropic-cyber-mission) ⭐4 · 2026-10-08 — Anthropic Cyber Mission 启动：CIDP 11 家伙伴守 OT 关基，OSS Scanner 免费扫开源找洞
 - [OpenAI, the Partition Principle, and Mathematics](https://karagila.org/2026/openai-pp) ⭐4 · 2026-10-08 — 集合论学者评 OpenAI 分离原理预印本：desk rejection 水平，宣称即 DoS
-- [Step 5 Preview, a 1M-context MoE from StepFun, shows up on OpenRouter](https://openrouter.ai/stepfun/step-5-preview) ⭐3 · 2026-10-08 — StepFun Step 5 Preview 上架：600B MoE / 27B 激活1M 上下文，$1/百万输入
-- [Docker Agent: AI Agent Builder and Runtime by Docker Engineering](https://github.com/docker/docker-agent) ⭐3 · 2026-10-08 — Docker Agent：YAML 声明式智能体运行时，MCP 工具 + 多后端 + OCI registry 分发，Desktop 4.63+ 预装
-- [炸了，OpenAI一口气开源722篇论文](https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA%3D%3D&mid=2247512394&idx=1&sn=84e92f840eff92c0106afd11fdde0e0d) ⭐5 · 2026-10-07 — OpenAI 开源内部模型 722 篇数学论文：拟黎曼完整 BSDHilbert 第十在列，AGMAI 提醒公开只是理解的开始
-- [SciExam for ENSO: Can AI Agents Build Climate Models?](https://arxiv.org/abs/2610.10513) ⭐4 · 2026-10-07 — 让 agent 建气候模型拿已发表论文当分数线：12 个系统里 6 个跑赢发表结果
-- [RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing](https://arxiv.org/abs/2610.10507) ⭐4 · 2026-10-07 — 证据靠算出来不靠检索出来：RouterLM 学会调度计算操作，六基准族 +15.9%
+- [Introducing the Anthropic Cyber Mission](https://www.anthropic.com/news/anthropic-cyber-mission) ⭐4 · 2026-10-08 — Anthropic Cyber Mission 启动：CIDP 11 家伙伴守 OT 关基，OSS Scanner 免费扫开源找洞
+- [Searching for "Harmful Refusal": A Psychometric Audit of an AI Safety Benchmark](https://arxiv.org/abs/2610.12409) ⭐4 · 2026-10-08 — 有害拒答作为可测属性成立吗：HELM Safety 心理测量审计
+- [Predicting Alignment Generalization with Value Representations](https://arxiv.org/abs/2610.12410) ⭐4 · 2026-10-08 — 用激活值表征预测对齐泛化：相关性 0.45 对 0.05
+- [On the estimation and validity of AI time horizons---a statistical look at the METR plot](https://arxiv.org/abs/2610.12466) ⭐4 · 2026-10-08 — 用 METR 数据重算 50% 时间视野：样条 + 项目反应理论
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 388 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 535 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| 模型与实验室 | 391 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 538 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 272 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 163 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 193 | AI 产品、大厂战略、融资、监管、市场结构。 |
@@ -29,10 +29,10 @@
 
 ## 当前数据
 
-- 原始条目: 2686
-- 公开展示卡片: 1960
-- 有全文内容: 1860
-- 最近 7 天信号: 149
+- 原始条目: 2692
+- 公开展示卡片: 1966
+- 有全文内容: 1864
+- 最近 7 天信号: 155
 - 输出目录: `dist/`
 
 ## 热门标签

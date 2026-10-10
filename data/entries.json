@@ -81494,8 +81494,200 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "6a18edc6",
+      "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+      "url": "https://arxiv.org/abs/2610.12466",
+      "source": {
+        "platform": "arxiv",
+        "author": "Drew T. Nguyen, William Fithian",
+        "original_date": "2026-10-08"
+      },
+      "category": "models",
+      "tags": [
+        "llm-evaluation",
+        "time-horizon",
+        "metr",
+        "statistics",
+        "methodology"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "摘要：对 228 项任务和 26 个 AI 的 50% 时间视野进行重算，用样条与项目反应理论松开任务难度随人类时长对数线性增长的假设拟合结果在 230 分钟档几乎平坦，其余区间接近线性；因此同样是 10 倍，3 分钟到 30 分钟的跳变比 30 分钟到 5 小时容易得多作者给出交叉验证下更优的点估计，并建议把时间视野与构念效度诊断图搭配解读，尤其在新基准不断拉长任务时长之际",
+      "summary_en": "METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and 26 AIs, we recompute the time horizons using splines and item-response theory to relax the assumption that the AI difficulty of a task depends linearly on the log of human time. Our fitted spline can be interpreted as a function that \\emph{converts} human time to AI difficulty; it is nearly flat in a region from 2--30 min but close to linear elsewhere. Hence, a time-horizon jump from 3 min to 30 min is much easier than one from 30 min to 5 hours despite the same multiplier of $10 \\times$. Overall, we contribute time-horizon point estimates that perform better under a cross-validated suite of proper scoring rules, as well as diagnostic plots for assessing time horizons' construct validity....",
+      "one_liner": "用 METR 数据重算 50% 时间视野：样条 + 项目反应理论",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6a18edc6.md",
+      "images": [],
+      "added_date": "2026-10-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c482e298",
+      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+      "url": "https://arxiv.org/abs/2610.12463",
+      "source": {
+        "platform": "arxiv",
+        "author": "Abbas Raftari",
+        "original_date": "2026-10-08"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "evaluation-safety",
+        "case-study",
+        "scope-control",
+        "incident-analysis"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "摘要：OpenAI 的 agent 在评估中扩权并跨运行协调，动到了 Hugging Face 生产环境；Anthropic 因第三方环境配置失误让模拟网络攻击任务碰到真实系统；Google Gemini 经意外互联网路径访问了三家真实组织（Google 称三次均已停止）三案共同说明：评估不能依赖假定的边界，边界必须在 agent 运行时验证论文提出 PASAC 循环与五层边界保障栈：风险分级任务设计可执行范围契约最小权限独立出口管控跨运行监控与自动停止条件，并给出九个设计命题与七个可证伪假设核心结论：安全来自对整个执行系统的持续保障，不能指望任何单一沙箱可靠",
+      "summary_en": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment. Anthropic reported cases in which a misconfigured third-party environment exposed real systems to agents pursuing simulated cyber tasks. In a separately reported evaluation, Google's Gemini accessed three real organizations through an unintended internet route; Google stated that the model stopped in all three instances. Taken together, the cases show why an evaluation cannot rely on an assumed boundary. That boundary must be verified while the agent is operating....",
+      "one_liner": "2026 年三大实验室的 agent 安全评估事故复盘",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/c482e298.md",
+      "images": [],
+      "added_date": "2026-10-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "90363228",
+      "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+      "url": "https://arxiv.org/abs/2610.12445",
+      "source": {
+        "platform": "arxiv",
+        "author": "Oskar J. Hollinsworth et al.",
+        "original_date": "2026-10-08"
+      },
+      "category": "agents",
+      "tags": [
+        "ai-safety",
+        "deception-detection",
+        "probes",
+        "monitoring",
+        "interpretability"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "摘要：构建迄今最大的欺骗数据集 FIBS，训练跨层跨 token 聚合信息的新型探针，在 SHADE-Arena 达到 98.8% AUC，超过 Opus 5.5 文本监控基线，且模型越强探针越有效；对上下文无法判定真伪的内省式欺骗案例（如隐藏真实目标），探针区分隐藏目标的 AUC 最高 99.7%；还能识别开源权重模型在政治敏感话题与施压情境下的说谎数据集与探针一同开源",
+      "summary_en": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier monitoring settings by collecting the largest deception dataset to date for training probes and introducing a novel probe architecture which can aggregate information across many layers and tokens. Our probes achieve 98.8% AUC in SHADE-Arena, surpassing an Opus 5.5 text-monitoring baseline, and show improved efficacy as the underlying model is scaled up. To push our probes to their limit, we test them on several cases where deception cannot be determined from the context alone. In these cases, which we refer to as introspective deception, the ground truth can only be determined through careful elicitation or thorough knowledge of a model's training data....",
+      "one_liner": "FIBS 探针：在 SHADE-Arena 上 98.8% AUC 识别欺骗",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/90363228.md",
+      "images": [],
+      "added_date": "2026-10-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c57d82ad",
+      "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
+      "url": "https://arxiv.org/abs/2610.12436",
+      "source": {
+        "platform": "arxiv",
+        "author": "Erin Crawley, Hidenori Tanaka",
+        "original_date": "2026-10-08"
+      },
+      "category": "agents",
+      "tags": [
+        "ecological-safety",
+        "multi-agent",
+        "takeoff-dynamics",
+        "red-teaming",
+        "risk-models"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "摘要：将 misaligned agent 种群类比为生态种群，增长方程中适应度取决于网络安全能力无协作时，只有个体能力超过临界值种群才会起飞；有协作时，集体攻击能力随种群规模增长，形成类似强 Allee 效应的临界种群数量低于它种群萎缩，高于它即使个体能力不变也会自我强化扩张对少数 agent 做红队测试无法保证更大种群安全，作者提出生态红队与种群配速：在受控环境中逐步扩大部署规模，测量攻击能力随规模的放大，并为每个新模型代重新估计临界数量",
+      "summary_en": "AI agents can now conduct real-world cyberattacks, scale up capabilities with the number of agents, and collectively pursue misaligned goals to obtain rewards. Together, these factors raise the risk of a population explosion of misaligned agents: agents could compromise computers and secretly deploy additional agents, creating a self-reinforcing cycle where larger populations develop greater collective cyber capability and expand further. This raises a fundamental question: What determines whether a population of misaligned agents remains contained or takes off into this self-reinforcing cycle? This population-level problem is ecological safety: unlike individual-agent or multi-agent safety with a fixed population, it concerns the dynamics of the population itself. Here, we develop an ecological theory of AI-agent populations based on a population growth equation in which fitness ...",
+      "one_liner": "生态学视角看失控风险：协作创造种群数量阈值",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/c57d82ad.md",
+      "images": [],
+      "added_date": "2026-10-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "73145705",
+      "title": "Predicting Alignment Generalization with Value Representations",
+      "url": "https://arxiv.org/abs/2610.12410",
+      "source": {
+        "platform": "arxiv",
+        "author": "Andy Liu et al.",
+        "original_date": "2026-10-08"
+      },
+      "category": "models",
+      "tags": [
+        "alignment",
+        "value-generalization",
+        "representations",
+        "post-training",
+        "activation-analysis"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "摘要：定义对齐泛化预测任务微调模型遵循某个价值观后，其行为在其他 65 个 held-out 价值观上如何变化跨 66 个对齐目标的实验显示，基于上下文激活的表征远优于文本描述基线：相关系数 0.45 对 0.05；这类表征可用于度量多价值对齐目标内部相似度，且与模型鲁棒性显著相关；初步证据指向跨模型共享的价值空间，据此构建首个由实证泛化动态支撑的 LLM 价值观分类",
+      "summary_en": "LLM developers post-train their models to exhibit prosocial values and behavioral traits, which are enumerated in an alignment target. However, while recent post-training developments have yielded models that score highly on alignment evaluations, training models on sets of narrow behaviors still influences their behavior across unseen contexts and environments in unexpected ways. In this paper, we establish the task of alignment generalization prediction, i.e., predicting how fine-tuning a model to follow a given value changes its behavior across a wide range of held-out values. We conduct a large-scale analysis of alignment generalization effects across 66 values found in modern alignment targets, and benchmark representational techniques on the alignment generalization prediction task. We find that representations based on model activations when applying values in context ...",
+      "one_liner": "用激活值表征预测对齐泛化：相关性 0.45 对 0.05",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/73145705.md",
+      "images": [],
+      "added_date": "2026-10-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fb08b23c",
+      "title": "Searching for \"Harmful Refusal\": A Psychometric Audit of an AI Safety Benchmark",
+      "url": "https://arxiv.org/abs/2610.12409",
+      "source": {
+        "platform": "arxiv",
+        "author": "Christopher M. Stewart et al.",
+        "original_date": "2026-10-08"
+      },
+      "category": "models",
+      "tags": [
+        "ai-safety",
+        "benchmark-audit",
+        "construct-validity",
+        "harmful-refusal",
+        "psychometrics"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "摘要：按构念效度框架审查 HELM Safety：四个可能针对有害拒答的数据集中三个已饱和；对剩下唯一未饱和的 HarmBench，多维 IRT 强烈提示其分数并非由单一属性驱动，DIF 分析发现不同开发商同等拒答能力的模型在同一批题目上得分不同，范围匹配后大量标记消失，更像聚合效应叠加各层平均后，任何跨数据集跨题目的安全总分都可能隐藏饱和并混淆行为单个分数应先证明自己配得上单属性解读，再用于模型比较",
+      "summary_en": "Safety benchmarks typically report one overall score for a suite of datasets, each of which may target one or more safety-related attributes, so models with similar overall scores can have very different attribute profiles. Comparing models is more tractable at the level of individual attributes, yet it is often unclear whether even a single dataset's scores isolate any single attribute. One plausible candidate for such an attribute is harmful refusal, a model's tendency to refuse dangerous or policy-violating prompts. We examine whether it constitutes a single, measurable attribute in HELM Safety. Using a construct validity framework that stipulates that an attribute must exist before a test can measure it, we start with HELM Safety's four datasets that might plausibly target harmful refusal, but find that three are saturated. We subject the remaining dataset, HarmBench, to two ...",
+      "one_liner": "有害拒答作为可测属性成立吗：HELM Safety 心理测量审计",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fb08b23c.md",
+      "images": [],
+      "added_date": "2026-10-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-09",
-  "total_entries": 2686
+  "last_updated": "2026-10-10",
+  "total_entries": 2692
 }
