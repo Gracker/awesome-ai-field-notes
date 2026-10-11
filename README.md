@@ -5,8 +5,8 @@
 ## 最新精选 Top 10
 
 - [Talorys A self-hosted personal AI agent on Cloudflare's free tier](https://github.com/rociiu/talorys) ⭐3 · 2026-10-11 — Talorys：部署在自己 Cloudflare 账号里的单用户个人 agent
-- [Brendan Gregg on using AI for performance analysis (LPC 2026)](https://lpc.events/event/20/contributions/2450/attachments/1996/4522/LPC2026_PerformanceToolsAndPrompts.pdf) ⭐4 · 2026-10-10 — 火焰图作者给 AI 性能工程立方法论：重设计工具输出格式，用 100+ puzzles 把 Agent 能力变成可测量
 - [Microsoft-Decision-1, our model for fast decision-making](https://commandline.microsoft.com/microsoft-decision-1-model-foundry) ⭐4 · 2026-10-10 — Microsoft-Decision-1：给 agent 当裁判和路由器的小决策模型
+- [Brendan Gregg on using AI for performance analysis (LPC 2026)](https://lpc.events/event/20/contributions/2450/attachments/1996/4522/LPC2026_PerformanceToolsAndPrompts.pdf) ⭐4 · 2026-10-10 — 火焰图作者给 AI 性能工程立方法论：重设计工具输出格式，用 100+ puzzles 把 Agent 能力变成可测量
 - [Investigating unintended model actions in our evaluations and internal use](https://www.anthropic.com/research/investigating-unintended-model-actions) ⭐5 · 2026-10-09 — Anthropic 首次把评测里的绕限制行为做成独立报告：四类行为 minimal impact，内部评测全面断网
 - [Claude Code Projects opens to all Pro/Max; Managed Agents dynamic workflows public beta](https://code.claude.com/docs/en/claude-projects) ⭐4 · 2026-10-09 — Projects 全放开是个人协调 UI，MA workflows 才有千级 API 编排：同名两层，入口账单限额都不同
 - [Apple Intelligence may become mandatory in iOS and macOS 27](https://manualdousuario.net/en/apple-intelligence-mandatory-ios-macos-27) ⭐4 · 2026-10-09 — iOS/macOS 27 起 Apple Intelligence 无法整体关闭：35GB 占用逐项开关HN 770+ 分热议
@@ -31,7 +31,7 @@
 
 - 原始条目: 2703
 - 公开展示卡片: 1977
-- 有全文内容: 1873
+- 有全文内容: 1880
 - 最近 7 天信号: 129
 - 输出目录: `dist/`
 
