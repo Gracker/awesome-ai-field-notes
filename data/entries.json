@@ -82048,8 +82048,71 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "43b1f0b9",
+      "title": "BrickBench: Evaluating Agentic Brick Design",
+      "url": "https://arxiv.org/abs/2610.12452",
+      "source": {
+        "platform": "arxiv",
+        "author": "Peter Kulits, Yiqing Xu, R. Kenny Jones, Cordelia Schmid, Jiajun Wu",
+        "original_date": "2026-10-08"
+      },
+      "category": "agents",
+      "tags": [
+        "benchmark",
+        "agent-evaluation",
+        "lego",
+        "constraint-reasoning"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "BrickBench 是一个面向文本条件乐高套装设计的智能体基准：给定提示词，智能体需产出既满足语义与设计标准又能被真实拼搭的组装方案，要从离散零件库中选件并同时推理局部与全局约束论文在三种规模与零件可用性不同的设置下评估有效性对齐度与设计质量，并提供 BrickAgent 环境供编码智能体构建检查和验证设计实验发现领先智能体基本能满足可验证的物理与语义要求，但仍落后于人类设计者的水平；基准与环境已在 brickben.ch 开源",
+      "summary_en": "BrickBench is a benchmark for agentic text-conditioned LEGO-set design: given a prompt, an agent must produce an assembly that satisfies semantic and design criteria and can be physically built, selecting parts from a discrete library while reasoning jointly about local and global constraints. The authors score validity, alignment, and design across three settings varying in scale and part availability, and provide BrickAgent, an environment where coding agents construct, inspect, and validate their designs. Leading agents largely satisfy verifiable physical and semantic requirements but fall short of human designs. Benchmark and environment released at brickben.ch.",
+      "one_liner": "BrickBench 是一个面向文本条件乐高套装设计的智能体基准：给定提示词，智能体需产出既满足语义与设计标准又能被真实拼搭的组装方案，要从离散零件库中选件并同时推理局部与全局约束论文在三种规模与零件可用性不同的设置下评估有效性对齐度与设计质量.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/43b1f0b9.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "92bd928e",
+      "title": "Recursive Self-Improvement through Multi-Agent Self-Supervision",
+      "url": "https://arxiv.org/abs/2610.12176",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hyunin Lee, Jinglue Xu, Jeffrey Seely, Donghyun Lee, Somayeh Sojoudi, Matei Zaharia, Yujin Tang",
+        "original_date": "2026-10-08"
+      },
+      "category": "agents",
+      "tags": [
+        "recursive-self-improvement",
+        "multi-agent",
+        "workflow-optimization",
+        "self-supervision",
+        "sft"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "MASS（Multi-Agent Self-Supervision）针对开放式研究等不可验证任务中模型输出超出人类专家可靠评估能力所导致的监督瓶颈，提出一种递归自我改进（RSI）方法：让单个基础模型交替执行演化式工作流优化与基于自生成轨迹的 SFT模型迭代提出执行并自评多智能体工作流，在结构护栏约束的演化搜索中找到最有效的角色分工与信息路由Qwen3.6-27B 经两轮 MASS 后在四个开放式公开基准上每输出 token 性能提升 1.2-1.6 倍；多智能体轨迹的训练效率也更高，学生模型用少 1.4 倍的训练 token 即可胜过单智能体学生由于改进后的模型反过来成为更好的优化器与评估器，该框架可支持持续的递归式能力自举",
+      "summary_en": "MASS (Multi-Agent Self-Supervision) is a recursive self-improvement (RSI) method for non-verifiable tasks such as open-ended research, where outputs exceed what human experts can reliably assess and the model itself becomes the best available optimizer and evaluator. MASS alternates evolutionary workflow optimization with supervised fine-tuning on self-generated trajectories: a single base model iteratively proposes, executes, and self-evaluates multi-agent workflows, with an evolutionary search under structural guardrails discovering effective roles and information routing. Over two MASS cycles with Qwen3.6-27B, the model achieves 1.2-1.6x higher performance per output token on four open-ended public benchmarks, and a student trained on multi-agent traces outperforms a single-agent student trained on 1.4x more tokens.",
+      "one_liner": "MASS（Multi-Agent Self-Supervision）针对开放式研究等不可验证任务中模型输出超出人类专家可靠评估能力所导致的监督瓶颈...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/92bd928e.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-12",
-  "total_entries": 2703
+  "total_entries": 2705
 }
