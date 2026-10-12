@@ -69426,7 +69426,10 @@
       "added_date": "2026-09-15",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "89d1c7d1",
+        "0b5f4945"
+      ]
     },
     {
       "id": "1e907c1b",
@@ -82111,8 +82114,445 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "89d1c7d1",
+      "title": "Cursor agent ran a recursive rmdir from C:\\ and wiped ~600 GB support answered a refund question I never asked",
+      "url": "https://www.reddit.com/r/cursor/comments/1x3az20/cursor_agent_ran_a_recursive_rmdir_from_c_and",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-10-11"
+      },
+      "category": "coding",
+      "tags": [
+        "cursor",
+        "agent-safety",
+        "windows",
+        "terminal",
+        "incident"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "r/cursor 事故帖：10 月 7 日用户让 Cursor Agent 清理 Laravel 项目，生成的命令从 C:\\ 根递归执行 rmdir，带走约 600 GB（有恢复的日志为证）Pro+ 用户找 support 只得到退款决定，而用户称从未要求退款，只要求复盘执行了什么防护在哪里作者靠立即停写并停掉 NVMe TRIM 抢救，恢复店报价约 800 美元同窗论坛还有整盘 D: 被清空帖，属同一命令解析问题族",
+      "summary_en": "r/cursor incident report: an Oct 7 cleanup task made Cursor Agent run a recursive rmdir from the C:\\ root, wiping ~600 GB (recovered log as evidence). Support answered with a refund decision the user never asked for; the author salvaged data by halting NVMe TRIM immediately.",
+      "one_liner": "r/cursor 事故帖：10 月 7 日用户让 Cursor Agent 清理 Laravel 项目，生成的命令从 C:\\ 根递归执行 rmdir，带走约 600 GB（有恢复的日志为证）Pro+ 用户找 support 只得到退款决定，而用户称从未要求退款...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/89d1c7d1.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0b5f4945",
+      "title": "Cursor forum: Agent autonomous rd /s /q wiped the entire D: drive (Windows, cmd quote mis-parse)",
+      "url": "https://forum.cursor.com/t/agent-autonomous-rd-s-q-wiped-the-entire-d-drive-windows/174156",
+      "source": {
+        "platform": "blog",
+        "author": "luck_li",
+        "original_date": "2026-10-09"
+      },
+      "category": "coding",
+      "tags": [
+        "cursor",
+        "agent-safety",
+        "windows",
+        "terminal",
+        "incident"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Cursor 官方论坛帖：autonomous 模式下 Agent 本想删除一个含中文路径的废弃目录，cmd.exe 错误解析转义引号后，rd /s /q 落到 D:\\ 根并递归删掉整盘（微信记录多个源码项目应用，无回收站不可恢复）帖中给出可复现命令形态：路径含非 ASCII 字符与嵌套反斜杠时被截断到盘根作者要求对不可逆递归删除设显式确认门与 9 月 ticket T-F90960 及 600 GB 帖同族",
+      "summary_en": "Cursor forum report: in autonomous mode the agent's rd /s /q hit D:\\ root after cmd.exe mis-parsed escaped quotes around a non-ASCII path, recursively wiping the whole drive with no Recycle Bin; the author asks for a confirmation gate on irreversible recursive deletes.",
+      "one_liner": "Cursor 官方论坛帖：autonomous 模式下 Agent 本想删除一个含中文路径的废弃目录，cmd.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0b5f4945.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2cc4970c",
+      "title": "Claude Code plugin commit SHA pin bypass (CVE-2026-86063 / GHSA-pq7j-f95f-qfcv)",
+      "url": "https://github.com/anthropics/claude-code/security/advisories/GHSA-pq7j-f95f-qfcv",
+      "source": {
+        "platform": "github",
+        "author": "ddworken (published advisory; reported by Or Nevo Michrowski, Air Security)",
+        "original_date": "2026-10-09"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "supply-chain",
+        "security-advisory",
+        "plugins"
+      ],
+      "source_type": "github",
+      "language": "zh",
+      "summary_zh": "Claude Code/Desktop 官方安全公告（CVSS 4.0 7.7 High）：插件安装流程用 git checkout 检出 marketplace 钉住的 commit SHA，但未验证结果 HEAD 是否等于该 SHA攻击者若控制插件上游仓库，可创建与 40 位 SHA 同名的分支，让 checkout 静默解析到攻击者分支顶端，绕过哈希钉住安装恶意代码2.1.179 修复，自动更新用户已覆盖；自建 marketplace/安装器应在 checkout 后校验 rev-parse HEAD",
+      "summary_en": "Claude Code advisory: the plugin install flow checked out pinned commit SHAs via git checkout without verifying the resulting HEAD matched, so SHA-shaped branch names could serve attacker-controlled code, bypassing the pin. Patched in 2.1.179.",
+      "one_liner": "Claude Code/Desktop 官方安全公告（CVSS 4.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2cc4970c.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5a5f62fb",
+      "title": "Android AISeal: next-gen enclave architecture (pKVM) for on-device AI",
+      "url": "https://blog.google/security/enabling-the-next-gen-enclave-architecture-for-on-device-ai-on-android",
+      "source": {
+        "platform": "google",
+        "author": "Irene Ang, Helen Jiang (Google Android Security)",
+        "original_date": "2026-10-07"
+      },
+      "category": "infra",
+      "tags": [
+        "android",
+        "on-device-ai",
+        "security",
+        "enclave",
+        "pkvm"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Google Android 安全博客（10 月 7 日）：AISeal 用 pKVM protected VM 为端侧 AI 构建下一代 enclave，把个性化 AI 上下文（模型适配与用户数据）与宿主 OS 及其他 app 隔离，即使宿主被攻破上下文也不直接暴露；MediaTek 已官宣硅片支持（Dimensity 9600 Pro）官方博文未给出公开 API 面，与 ADK 端侧 agent 的接口层待观察；与普通 app sandbox/TEE 的叙事边界是后续研究点",
+      "summary_en": "Android security blog: AISeal introduces a pKVM-based enclave architecture that isolates personalized on-device AI context from the host OS; MediaTek announced silicon support. No public API surface yet.",
+      "one_liner": "Google Android 安全博客（10 月 7 日）：AISeal 用 pKVM protected VM 为端侧 AI 构建下一代 enclave，把个性化 AI 上下文（模型适配与用户数据）与宿主 OS 及其他 app 隔离，即使宿主被攻破上下文也不直接暴露.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5a5f62fb.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "048fcb30",
+      "title": "AI coding agents generate more code, but not more software (Harvard/Jellyfish study via Ars Technica)",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-10"
+      },
+      "category": "coding",
+      "tags": [
+        "research",
+        "code-review",
+        "productivity",
+        "coding-agents"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Ars Technica 报道哈佛 working paper（Fiona ChenJames Stratton，基于 Jellyfish 工程管理分析数据）：700 多家公司约 3 亿工作事件引入 coding agent 后 LOC/commit/PR 等产出指标上升，但 issue/epic 完成量没有统计显著抬升；人工 review 成为整体效率瓶颈，review 到合并的时间增加约 49%（报道口径约 3.5 天）为写代码变容易读 diff 变难提供了公司级证据",
+      "summary_en": "Ars Technica covers a Harvard/Jellyfish study spanning 700+ firms and ~300M work events: agent adoption raised code output but showed no significant gain in issue/epic completion, with human review the bottleneck (review-to-merge time up ~49%).",
+      "one_liner": "Ars Technica 报道哈佛 working paper（Fiona ChenJames Stratton，基于 Jellyfish 工程管理分析数据）：700 多家公司约 3 亿工作事件引入 coding agent 后 LOC/commit/PR 等产出指标上升...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/048fcb30.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "03bdc982",
+      "title": "Claude Code v2.1.296: workflow subagent model pinning, subagent autoCompactWindow, Read allow_large",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+      "source": {
+        "platform": "github",
+        "author": "anthropics",
+        "original_date": "2026-10-09"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "release",
+        "subagents",
+        "context-management"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Claude Code v2.1.296（10 月 9 日发布，截至 10-12 仍是 Latest）：新增 CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL，把 workflow 内全部 agent 钉到一个模型而其余 subagent 保留各自模型；subagent frontmatter 与 --agents 定义支持 autoCompactWindow，可早于主会话窗口自动 compact，直接影响长跑 worker 的 cache 成本；Read 工具新增 allow_large，一次调用读取超限文本文件；Claude apps gateway 的 managed.policies 新增 code 键，把 CLI 同款策略应用到 Desktop 的 Code 标签页",
+      "summary_en": "Claude Code v2.1.296 adds CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL (run every workflow agent on one model), subagent autoCompactWindow for earlier compaction, Read allow_large for oversized files, and a gateway managed.policies 'code' key for Claude Desktop.",
+      "one_liner": "Claude Code v2.1.296: workflow subagent model pinning, subagent autoCompactWindow, Read allow_large",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/03bdc982.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "48e9e796",
+      "title": "Codex CLI #52942: plan-execution context balloons 27k 174k tokens in 4 minutes",
+      "url": "https://github.com/openai/codex/issues/52942",
+      "source": {
+        "platform": "github",
+        "author": null,
+        "original_date": "2026-10-10"
+      },
+      "category": "coding",
+      "tags": [
+        "codex",
+        "context-management",
+        "usage",
+        "issue"
+      ],
+      "source_type": "github",
+      "language": "zh",
+      "summary_zh": "openai/codex issue #52942（仍 open）：Codex CLI 0.162.x 上，接收已备好计划的新执行会话在约 4 分钟内从 27,304 input tokens 膨胀到 173,719；前一个规划会话更从 27,588 涨到 207,411，迅速耗尽 ChatGPT 用量额度用户已简化 agent 指令与 skills清空会话仍未缓解会话元数据报 cli_version 0.162.1 而独立安装自报 0.162.0，请求一并核查版本差异；根因（CLI 编排/工具调用行为/上下文记账）未定",
+      "summary_en": "Codex CLI issue #52942: a fresh plan-execution session on 0.162.x ballooned from 27,304 to 173,719 input tokens in ~4 minutes, exhausting usage; root cause unconfirmed, with a 0.162.0 vs 0.162.1 version-report discrepancy flagged.",
+      "one_liner": "openai/codex issue #52942（仍 open）：Codex CLI 0.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/48e9e796.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4d2ed526",
+      "title": "Codex CLI #53221: ordinary web development misclassified as 'cybersecurity work'",
+      "url": "https://github.com/openai/codex/issues/53221",
+      "source": {
+        "platform": "github",
+        "author": null,
+        "original_date": "2026-10-11"
+      },
+      "category": "coding",
+      "tags": [
+        "codex",
+        "safety-gate",
+        "false-positive",
+        "issue"
+      ],
+      "source_type": "github",
+      "language": "zh",
+      "summary_zh": "openai/codex issue #53221（仍 open）：Codex CLI 0.162.1（Plus 订阅，gpt-6-astra 模型）把普通 web 应用开发任务判定为 'cybersecurity work' 拒绝执行，导致该场景基本不可用与 Micah Lee 描述的 OpenAI/Anthropic 会话内监控 'cop agent' 误杀正经渗透测试相互印证，是 agent 安全门误伤面（safety-check 文案 vs 实际拒绝面）的最新样本；建议收集同类 issue 对照",
+      "summary_en": "Codex CLI issue #53221: on 0.162.1, ordinary web app development is mislabeled as 'cybersecurity work' and refused, making the product unusable in that scenario a fresh false-positive sample for agent safety gates.",
+      "one_liner": "openai/codex issue #53221（仍 open）：Codex CLI 0.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/4d2ed526.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c0810181",
+      "title": "The Hater's Guide To Junk (Zitron on AI high-yield debt)",
+      "url": "https://www.wheresyoured.at/premium-the-haters-guide-to-junk",
+      "source": {
+        "platform": "blog",
+        "author": "Ed Zitron",
+        "original_date": "2026-10-09"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-industry",
+        "finance",
+        "junk-bonds",
+        "bubble"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Ed Zitron 付费长文：先用 SIFMA 数据纠正此前彭博口径（2026 年 9 月美国公司债存量约 2.19 万亿美元，其中高收益级约 3,034 亿）；主线论证 AI 行业未来五年要堆出远超历史可比规模的垃圾债+杠杆贷款组合Anthropic/OpenAI 信用画像约 CCC/Caa，上市后每年或发 500-1000 亿美元级别债务，CoreWeave 按模型到 2030 年再借 1,020 亿，hyperscaler 2027 年发债预期 4,000 亿，为 19 世纪铁路泡沫折现值的 1.6 倍；后半警示 Oracle 投资级悬崖与 Ellison 至少 300 亿美元股票质押贷款的追加保证金链条",
+      "summary_en": "Ed Zitron's premium piece on AI junk debt: SIFMA-corrected market figures, CCC/Caa-style credit profiles for Anthropic/OpenAI, CoreWeave's projected $102B borrowing by 2030, hyperscaler issuance forecasts, and the Oracle/Ellison margin-call risk chain.",
+      "one_liner": "Ed Zitron 付费长文：先用 SIFMA 数据纠正此前彭博口径（2026 年 9 月美国公司债存量约 2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c0810181.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b4b9b864",
+      "title": "No Man Is an Island (Borretti on AI and intellectual communities)",
+      "url": "https://borretti.me/article/no-man-is-an-island",
+      "source": {
+        "platform": "blog",
+        "author": "Fernando Borretti",
+        "original_date": "2026-10-08"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-society",
+        "intellectual-community",
+        "essay",
+        "software-engineering"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Fernando Borretti 文章：私人脑力活动只有在一个知识共同体里才能持续它需要共享的的工作成果存量，以及别人承认你贡献的外驱力；AI 同时削弱两者（能写代码/论文/教材，使贡献给别人的意义缩小）以软件工程与数学为案例：Claude Code 出现一年后工程师讨论深度塌了（大家好像都掉了 30 IQ），prompt/harness/loop 取代 type system/compiler 成为磨脑子的词；并提醒不要把内在动机想得过于可靠它是一阵一阵的，没有共同体填间隙人就会停",
+      "summary_en": "Borretti argues private intellectual activity survives only inside knowledge communities, and AI dissolves both inputs communities supply a shared body of work to build on and external recognition using software engineering and mathematics as case studies.",
+      "one_liner": "Fernando Borretti 文章：私人脑力活动只有在一个知识共同体里才能持续它需要共享的的工作成果存量，以及别人承认你贡献的外驱力.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b4b9b864.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ab1010bd",
+      "title": "Software engineers don't get to be Luddites about AI",
+      "url": "https://seangoedecke.com/software-engineers-dont-get-to-be-luddites-about-ai",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-10-12"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-labor",
+        "history",
+        "automation",
+        "essay"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Sean Goedecke 10 月 12 日文章：反 AI 工程师喜欢自比卢德派纺织工，但更准的历史对照是造机器后被机器自动化掉的机械匠1830 年起织机取代手工织工，1852 年机械工程师公会又因改良机器让未受训廉价劳力上岗而罢工四个月，工资烧光复工，泰晤士报当时就点破你们造机器让人失业，现在轮到自己文章主张软件工程从第一天起就站在自动化一边，反 AI 的职业立场在自身历史面前站不住",
+      "summary_en": "Goedecke counters AI-skeptical engineers: the honest historical analogy is not Luddite weavers but the machine-makers automated by their own improvements, including the 1852 engineers' strike a profession built on automation doesn't get to opt out.",
+      "one_liner": "Sean Goedecke 10 月 12 日文章：反 AI 工程师喜欢自比卢德派纺织工，但更准的历史对照是造机器后被机器自动化掉的机械匠1830 年起织机取代手工织工，1852 年机械工程师公会又因改良机器让未受训廉价劳力上岗而罢工四个月，工资烧光复工...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/ab1010bd.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "07118cb0",
+      "title": "Software's centaur age may last decades",
+      "url": "https://seangoedecke.com/softwares-centaur-age-may-last-decades",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-10-10"
+      },
+      "category": "industry",
+      "tags": [
+        "centaur",
+        "human-ai-collaboration",
+        "code-review",
+        "essay"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Sean Goedecke 框架文：软件正处人机组合强于任何单方的半人马时代国际象棋的半人马时代约 20 年，更早的手工+机器组合约 200 年到 Claude Opus 4.5（2025 年 11 月）之后无监督 coding agent 加人工 review 才可靠，而 review 看的主要是对齐：agent 的取舍是否符合组织技术价值观是否过度/不足工程化文章给出五股互相抵消的力量，默认按 20 年量级估算，建议工程师把自己变成 centaur，把人类贡献押在对齐上",
+      "summary_en": "Goedecke frames software's human+AI 'centaur age' (chess's lasted ~20 years) and argues review-and-alignment is the durable human contribution; his default estimate is decades, so engineers should become centaurs rather than exit.",
+      "one_liner": "Sean Goedecke 框架文：软件正处人机组合强于任何单方的半人马时代国际象棋的半人马时代约 20 年，更早的手工+机器组合约 200 年到 Claude Opus 4.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/07118cb0.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1de4bc7d",
+      "title": "Just say no to OpenAI and Anthropic (Micah Lee on privacy and gatekeeping)",
+      "url": "https://micahflee.com/just-say-no-to-openai-and-anthropic",
+      "source": {
+        "platform": "blog",
+        "author": "Micah Lee",
+        "original_date": "2026-10-11"
+      },
+      "category": "industry",
+      "tags": [
+        "privacy",
+        "open-weights",
+        "security",
+        "gatekeeping"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "安全工程师 Micah Lee：别把 ChatGPT/Claude 当默认入口隐私上闭源模型看得到每次对话，关闭训练是合同承诺不是技术保证，私密场景应走 secure enclave（TinfoilMaple AI）或开源自托管；看门人化上两家在 session 里加的实时监控 cop agent 连正经渗透测试都常误杀，解锁要经 Trusted Access for Cyber / Cyber Verification 审批体感判断：开源权重约落后闭源 4 个月，GLM-5.3 Claude Opus 5.5；并提醒智谱 ZCode 被路透曝光上传本地源码到阿里云，用智谱 API 仍应视为对厂商公开",
+      "summary_en": "Micah Lee argues against defaulting to ChatGPT/Claude: closed models see every conversation, in-session 'cop agents' misfire on legitimate security work, open-weight models lag ~4 months (GLM-5.3 Opus 5.5), and Zhipu's ZCode was caught uploading local source to Alibaba Cloud.",
+      "one_liner": "安全工程师 Micah Lee：别把 ChatGPT/Claude 当默认入口隐私上闭源模型看得到每次对话，关闭训练是合同承诺不是技术保证，私密场景应走 secure enclave（TinfoilMaple AI）或开源自托管.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1de4bc7d.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c6231e30",
+      "title": "I paid people to try and follow my README",
+      "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme",
+      "source": {
+        "platform": "blog",
+        "author": "Terence Eden",
+        "original_date": "2026-10-11"
+      },
+      "category": "coding",
+      "tags": [
+        "documentation",
+        "ux-testing",
+        "readme",
+        "devtools"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Terence Eden 为 NLnet 资助的 ActivityBot 项目做 README 验收：以 25 欧元/小时请几位真实用户共享屏幕边操作边说出卡点，总共约 150 欧发现 demo 链接是错的有人直接在终端里读 README重命名一个文件对新手是 4 个操作隐藏文件重命名没写章节顺序令人困惑作者觉得有趣的一整段对所有人都是噪音每轮修改后换新人再测；并回绝让 LLM 模拟用户真人语气里的不耐烦是模拟不出来的",
+      "summary_en": "Terence Eden paid real users 25/hour to follow his README aloud (~150 total), uncovering broken links, hidden-file pitfalls, and structural confusion; he argues simulated LLM users can't replace hearing real users' frustration.",
+      "one_liner": "Terence Eden 为 NLnet 资助的 ActivityBot 项目做 README 验收：以 25 欧元/小时请几位真实用户共享屏幕边操作边说出卡点.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/c6231e30.md",
+      "images": [],
+      "added_date": "2026-10-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-12",
-  "total_entries": 2705
+  "total_entries": 2719
 }
