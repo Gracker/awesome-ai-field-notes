@@ -82113,7 +82113,9 @@
       "added_date": "2026-10-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "71bbf714"
+      ]
     },
     {
       "id": "89d1c7d1",
@@ -82551,8 +82553,202 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "1deb98a2",
+      "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+      "url": "https://arxiv.org/abs/2610.13889",
+      "source": {
+        "platform": "arxiv",
+        "author": "Weiliang Chen, Song Liao",
+        "original_date": "2026-10-09"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "agent-tool-retrieval",
+        "reliability",
+        "benchmark",
+        "contextual-bandit"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "AI agent 依赖外部工具时，检索若只优化语义相关度忽略工具在执行期的真实可用性，运行时失败就不可避免论文提出 RATED：冻结双塔编码器经对比微调负责语义匹配，再用轻量 contextual bandit 根据实时执行反馈对候选工具重排，无需重训大模型即可快速适应工具失效作者同时发布 EcoAgent 基准：5172 个真实工具超过 21 万条 query-tool 对，覆盖离线检索与动态可靠性两种评测对做 agent 工具层的团队，这是把执行期可靠性纳入检索评估的直接参考",
+      "summary_en": null,
+      "one_liner": "AI agent 依赖外部工具时，检索若只优化语义相关度忽略工具在执行期的真实可用性，运行时失败就不可避免论文提出 RATED：冻结双塔编码器经对比微调负责语义匹配，再用轻量 contextual bandit 根据实时执行反馈对候选工具重排.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1deb98a2.md",
+      "images": [],
+      "added_date": "2026-10-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "753a1681",
+      "title": "X-AgentRed: Red-Teaming Personal Agents in Evolving Multi-Service Ecosystems",
+      "url": "https://arxiv.org/abs/2610.13886",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yeonsung Jung, Zhiyuan Wang, Zifan Wang, Vtor Albiero, Benjamin Newman, Edoardo Debenedetti, Ivan Ev...",
+        "original_date": "2026-10-09"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "red-teaming",
+        "personal-agents",
+        "agent-security",
+        "multi-service"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "个人 agent 通过工具调用接入跨网页与应用的服务生态，多个良性请求的组合效果可能在服务之间累积出非预期甚至有害的结果现有红队方法多停留在让 LLM 从任务与环境描述里猜有害路径，或把指定有害目标分解成看似良性的动作组合，容易偏向训练分布中熟悉的工具组合，漏掉新颖的跨服务交互X-AgentRed 提出 self-evolving 红队框架，系统性探索跨服务工具调用路径来发现组合式失败做个人助理与跨应用 agent 的安全评估时值得对齐这套思路",
+      "summary_en": null,
+      "one_liner": "个人 agent 通过工具调用接入跨网页与应用的服务生态，多个良性请求的组合效果可能在服务之间累积出非预期甚至有害的结果现有红队方法多停留在让 LLM 从任务与环境描述里猜有害路径，或把指定有害目标分解成看似良性的动作组合，容易偏向训练分布中熟悉的工具组合...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/753a1681.md",
+      "images": [],
+      "added_date": "2026-10-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "71bbf714",
+      "title": "MC-EvoBench: Auditing Experience-Driven Self-Improvement in Minecraft Agents",
+      "url": "https://arxiv.org/abs/2610.13829",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jingwei Song, Zhisheng Chen, Bingfan Zeng, Jing Tang, Yubo Hou, Jinhao Jing, Zhengwei Xie, Linfeng Z...",
+        "original_date": "2026-10-09"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "recursive-self-improvement",
+        "embodied-agents",
+        "benchmark",
+        "minecraft"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "具身 recursive self-improvement 的核心难点，是让 agent 把交互历史沉淀成能跨世界跨任务迁移的能力，而不是只留下一次性的记忆或成功动作MC-EvoBench 用受控 Minecraft 环境设计 19 条注册进化链（12 条主评测加 7 条校准/探针），把任务表示成 task-state graph，配备 stage 级环境验证器与图对齐的成对迁移探针，重置目标世界并只允许声明的 agent 产物跨世界保留，从而把真实能力增长与资源继承源任务暴露不均早期执行失败区分开与库内已有的 recursive self-improvement 多智能体自监督条目互补",
+      "summary_en": null,
+      "one_liner": "具身 recursive self-improvement 的核心难点，是让 agent 把交互历史沉淀成能跨世界跨任务迁移的能力...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/71bbf714.md",
+      "images": [],
+      "added_date": "2026-10-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "92bd928e"
+      ]
+    },
+    {
+      "id": "31ba1e7c",
+      "title": "Muse Wonder: A Frontier Model For Personal & Professional AI Agents",
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "source": {
+        "platform": "blog",
+        "author": "Meta AI Research",
+        "original_date": "2026-10-12"
+      },
+      "category": "models",
+      "tags": [
+        "meta",
+        "frontier-model",
+        "personal-agents",
+        "active-memory",
+        "coding-agents"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Meta 发布 Muse Wonder 系列（Muse Wonder 与 Muse Wonder Full），定位个人与专业 agent 场景的前沿模型，在 Prometheus 吉瓦级数据中心训练，经 Meta Model API 与 Muse Code 提供两个核心机制：Active Memory 跨对话携带用户重要上下文并主动检索与任务相关的细节；Active Focus 面向长程任务的持续执行尝试替代路径处理阻塞在关键动作前先确认评测覆盖个人/知识工作指数AutomationBench-AA 端到端业务流MemoryBench 长期记忆FocusBenchSWE-MarathonDeepSWEHarvey 法律 agent 与 Vals 金融 agent 等基准；Full 版向 Muse Code 订阅者开放，后续将支撑 Muse 内的 artifact 生成",
+      "summary_en": "Meta introduces the Muse Wonder series (Muse Wonder and Muse Wonder Full), its most capable models for personal and professional agentic tasks, trained at the gigawatt-scale Prometheus data center and available via the Meta Model API and Muse Code. The models combine Active Memory (carrying important user context across conversations and actively retrieving task-relevant details) with Active Focus (sustained goal pursuit: trying alternative approaches, working through blockers, asking for clarification and checking in before important actions). Reported evaluations span personal/knowledge-work indices, AutomationBench-AA end-to-end business workflows, MemoryBench long-term contextual memory, FocusBench, SWE-Marathon, DeepSWE, Harvey's Legal Agent Benchmark and Vals Finance Agent V2; Muse Wonder Full ships for Muse Code subscribers and the series will power artifact generation in Muse.",
+      "one_liner": "Meta 发布 Muse Wonder 系列（Muse Wonder 与 Muse Wonder Full），定位个人与专业 agent 场景的前沿模型，在 Prometheus 吉瓦级数据中心训练...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/31ba1e7c.md",
+      "images": [],
+      "added_date": "2026-10-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "88371802",
+      "title": "Can Language Models Play the Wikipedia Game?",
+      "url": "https://arxiv.org/abs/2610.13948",
+      "source": {
+        "platform": "arxiv",
+        "author": "Alexander Hickey, Joanna Knight, James Bishop",
+        "original_date": "2026-10-09"
+      },
+      "category": "learning",
+      "tags": [
+        "arxiv",
+        "information-retrieval",
+        "evaluation",
+        "wikipedia",
+        "graph-navigation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "面对无法整体索引的超大文档集合，语言模型的导航式检索能力缺乏可比评测作者借用 Wikipedia Game：只靠词条内链接从一个词条走到目标词条，并构建本地维基百科页面图与基于 OpenAlex 的论文引用图（附构建与导航代码），在 5 种语言维基与 5 个学术文献数据集上对比句向量模型与 LLM，同时以人类与 TF-IDF 成绩作为基线该范式不依赖第三方 API，可跨技术语言与领域复用，适合作为导航式信息检索评测设计的参考",
+      "summary_en": null,
+      "one_liner": "面对无法整体索引的超大文档集合，语言模型的导航式检索能力缺乏可比评测作者借用 Wikipedia Game：只靠词条内链接从一个词条走到目标词条，并构建本地维基百科页面图与基于 OpenAlex 的论文引用图（附构建与导航代码）...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/88371802.md",
+      "images": [],
+      "added_date": "2026-10-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fb9bfb57",
+      "title": "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing",
+      "url": "https://arxiv.org/abs/2610.13823",
+      "source": {
+        "platform": "arxiv",
+        "author": "Oktie Hassanzadeh, Dharmashankar Subramanian",
+        "original_date": "2026-10-09"
+      },
+      "category": "infra",
+      "tags": [
+        "arxiv",
+        "evaluation",
+        "semantic-query",
+        "benchmark-methodology",
+        "variance"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "语义查询引擎让 LLM 逐行判定，基准通常只在 temperature 0 下跑少量执行就比较质量作者通过各基准自己的 harness 重跑 SemBenchLRO-BenchUDA-Bench 的文本与表格工作负载，记录全部 120 万次模型调用并复析 SemBench 已发表执行：temperature 0 下仍有 0.07%10.2% 的行在五次执行间翻转算子输出，视模型而定，单个任务最高 24.0%；查询计划按答案暴露的行数指数放大这种波动UDA-Bench 上只有百分之几的抽取值变化，却有约三分之二的最终答案不同；SemBench 已发表结果中 21% 的文本结果质量随执行改变结论：语义查询基准需要多次执行并报告方差，单次运行结论不可靠",
+      "summary_en": null,
+      "one_liner": "语义查询引擎让 LLM 逐行判定，基准通常只在 temperature 0 下跑少量执行就比较质量作者通过各基准自己的 harness 重跑 SemBenchLRO-BenchUDA-Bench 的文本与表格工作负载.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fb9bfb57.md",
+      "images": [],
+      "added_date": "2026-10-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-12",
-  "total_entries": 2719
+  "last_updated": "2026-10-13",
+  "total_entries": 2725
 }
