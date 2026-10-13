@@ -82747,8 +82747,140 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "f3067351",
+      "title": "Bundestrojaner: you can't make users secure by making computers less secure (Cory Doctorow)",
+      "url": "https://pluralistic.net/2026/10/13/petards-r-us",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-10-13"
+      },
+      "category": "industry",
+      "tags": [
+        "security",
+        "encryption",
+        "regulation",
+        "ai-security",
+        "essay"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Cory Doctorow 10 月 13 日文章：从近期 AI 公司的 hacking 工具失控搞坏别人服务器的事件切入，回拉加密战争史NSA 曾把可用加密代码列为军火，EFF 与 Cindy Cohen 的 Bernstein 案确立代码受第一修正案保护核心论点是同义反复式的：不存在只有好人能攻破坏人攻不破的计算机NOBUS 学说囤积的漏洞以每年约 20% 的速率被独立复用，Eternal Blue 泄漏后变成 WannaCry 勒索软件打穿医院银行；德国海关的 Bundestrojaner合法拦截软件本身就漏洞百出，任何人都能接管被感染机器文章批评 chat controlage verification 与加密禁令仍在重复同一个错误",
+      "summary_en": "Doctorow ties recent AI-company hacking-tool incidents to the crypto wars: NOBUS-hoarded vulnerabilities get independently rediscovered at ~20% per year (Eternal Blue -> WannaCry), Germany's Bundestrojaner lawful-interware was itself insecure, and chat control / age verification proposals repeat the same error you cannot make users secure by making their computers less secure.",
+      "one_liner": "Cory Doctorow 10 月 13 日文章：从近期 AI 公司 hacking 工具失控事件切入，回拉加密战争史不存在只有好人能攻破坏人攻不破的计算机，NOBUS 囤积的漏洞每年约 20% 被独立复用",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/f3067351.md",
+      "images": [
+        "https://i0.wp.com/craphound.com/images/bundestrojaner.jpg?w=840&ssl=1"
+      ],
+      "added_date": "2026-10-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "95d52c99",
+      "title": "Deno is joining Cloudflare",
+      "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-10-09"
+      },
+      "category": "infra",
+      "tags": [
+        "deno",
+        "cloudflare",
+        "serverless",
+        "runtime",
+        "durable-objects"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Simon Willison 10 月 9 日转发 Cloudflare 全资收购 Deno 团队的消息：目标是基于 Deno 8 月开源的 celld（Workers Durable Objects 模式的开源实现）把 workerd 自托管做成一等公民坏消息是 Deno 运行时本身只剩一年维护期月度 bug 修复与安全更新之后停止开发，项目保持开源Ryan Dahl 在 HN 上确认这是共同决定：Deno 被拉进 Node 兼容性的引力井，重新实现一遍 Node 但只是边角快一点没有意思，他要去建 celld 这种只依赖对象存储做协调和持久化的新服务端抽象Willison 补充：他最舍不得的是 Deno 的权限系统；Node v20 起有类似模型但还不支持按主机粒度的联网 allowlist",
+      "summary_en": "Cloudflare acquires the Deno team to build workerd self-hosting on celld, the open-source Durable Objects implementation; the Deno runtime itself gets one more year of monthly maintenance then stops. Ryan Dahl says Deno got sucked into Node's compatibility gravity well, while celld's object-storage-only coordination is the new abstraction he wants to build.",
+      "one_liner": "Cloudflare 全资收购 Deno 团队，基于 celld 把 workerd 自托管做成一等公民；Deno 运行时只剩一年月度维护，Dahl 说它被拉进 Node 兼容性引力井，celld 的对象存储抽象才是新方向",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/95d52c99.md",
+      "images": [],
+      "added_date": "2026-10-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f1e06986",
+      "title": "Hermes Agent v0.21.7: stable tag update channel and resume-safe reasoning",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.21.7",
+      "source": {
+        "platform": "github",
+        "author": "NousResearch",
+        "original_date": "2026-10-11"
+      },
+      "category": "coding",
+      "tags": [
+        "hermes-agent",
+        "release-notes",
+        "agent-cli",
+        "update-channel",
+        "resume"
+      ],
+      "source_type": "github",
+      "language": "zh",
+      "summary_zh": "Hermes Agent v0.21.7 patch 发版（10 月 11 日），把 v0.21.6 以来的约 204 个 PR 打包成桌面端MSIXDocker 与 Hermes Cloud 的稳定版对 source 安装的四个实质变化：hermes update 默认改跟最新 vX.Y.Z tag 而不是 main 上的每个 commit（--set-channel main 可切回，fork 不受影响）；桌面端 Settings > About > Updates 增加更新通道开关；signed thinking 在 hermes chat --resume 和 gateway 下一回合可回放，Bedrock Converse 推理模型不再在续会话时被拒；部分防火墙后不再因 403 的 release 记录导致更新失败，stable 检查可复用 GitHub token完整整理版 notes 随 v0.22.0 发布",
+      "summary_en": "Hermes Agent v0.21.7 rolls up ~204 PRs since v0.21.6 into a stable tag. For source installs: hermes update now follows the latest vX.Y.Z release instead of every main commit (--set-channel main to keep following main), the desktop app gains an update-channel switch, signed thinking replays after chat --resume (Bedrock Converse reasoning models no longer rejected), and updates no longer fail behind regional firewalls answering 403.",
+      "one_liner": "Hermes Agent v0.21.7：source 安装默认改跟最新 vX.Y.Z tag 而非 main 每个 commit，signed thinking 在 --resume 后可回放，Bedrock Converse 推理续会话不再被拒...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/f1e06986.md",
+      "images": [],
+      "added_date": "2026-10-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8854e057",
+      "title": "Googlebook Linux Terminal Preview: VM-backed sandbox for agentic development",
+      "url": "https://android-developers.googleblog.com/2026/10/googlebook-linux-terminal-preview-vm.html",
+      "source": {
+        "platform": "google",
+        "author": "Cyrus Stoller (Group PM, Laptops & Tablets)",
+        "original_date": "2026-10-12"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-sandbox",
+        "vm",
+        "agentic-development",
+        "security",
+        "android"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Google 为 Googlebook 推出 Linux Terminal Preview（10 月 12 日），把终端定位成 agent 工作流的入口：所有命令都跑在 Linux VM 沙箱内，用户可以放心给 Antigravity 等 agentic AI 工具 sudo 权限，VM 边界保护宿主 OS 和未挂载文件，每个目录都要用户显式授权才挂载进 VM，一键重置 VM 时宿主文件系统上的文件保留Debian 环境自带 apt/git/ssh 与 Node/Python/Ruby/Go/Rust 运行时，localhost 端口自动转发到宿主浏览器，VM 内存可调路线图包括 USB passthrough 与 ADB over USB动态内存与存储扩容GPU/NPU 硬件加速VM 持久化以支持长时间运行的 agent 任务",
+      "summary_en": "Google's Googlebook Linux Terminal Preview puts all terminal commands inside a Debian VM sandbox, so users can grant sudo to agentic AI tools like Antigravity while the VM boundary protects the host OS; directories mount only after explicit permission, and one-click VM reset preserves host files. Roadmap: USB/ADB passthrough, dynamic memory scaling, GPU/NPU acceleration, and VM persistence for long-running agent workloads.",
+      "one_liner": "Googlebook Linux Terminal Preview：终端命令全部跑在 Debian VM 沙箱内，可放心给 Antigravity 等 agent 工具 sudo，目录挂载需显式授权一键重置保住宿主文件；路线图含 GPU 加速与 VM 持久化",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/8854e057.md",
+      "images": [
+        "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK7QT_pxotYHR0CDxMZgG9S2Yhu9K2vkq8JswertAOn0nLCg-gkyz62QMIPdwfLDt8zQ6Ukzo2ENfWBKiCcTiH9yupRUpHXK_A67aNzaj255aTabY6J5A7wR6454ejvqQicvJy9loG4Wl_OuQdkRKC4Vy95sv0ey1IdYrYL5lv-r3PxaixGtu_9C-RUrs/s1234/1006-%5BABL_141%5D-Meta.png"
+      ],
+      "added_date": "2026-10-13",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-13",
-  "total_entries": 2725
+  "total_entries": 2729
 }
