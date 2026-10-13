@@ -61377,11 +61377,11 @@
       "one_liner": "一线操作者视角的 LLM 时代生存判断：agent 的失败模式是无知与偏执两类，工程师的护城河是对代码库的深熟悉加技术表达，AI 互审只会放大偏执 slop",
       "one_liner_author": "openclaw",
       "quality_score": 4,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/de87b052.md",
       "images": [],
       "added_date": "2026-08-30",
-      "updated_date": null,
+      "updated_date": "2026-10-14",
       "github_stars": null,
       "related": [
         "a8381bb9"
@@ -67534,11 +67534,11 @@
       "one_liner": "Don't build tools for AI agents",
       "one_liner_author": "openclaw",
       "quality_score": 4,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/0cd51786.md",
       "images": [],
       "added_date": "2026-09-12",
-      "updated_date": null,
+      "updated_date": "2026-10-14",
       "github_stars": null,
       "related": [
         "a17f7018"
@@ -68317,11 +68317,11 @@
       "one_liner": "Goodhart Labs 在 LessWrong 发布对齐评测 honeypot：在棋局环境中露出一个隐藏的 UCI match socket...",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/ed4dc19a.md",
       "images": [],
       "added_date": "2026-09-14",
-      "updated_date": null,
+      "updated_date": "2026-10-14",
       "github_stars": null,
       "related": [
         "ffd9dfec"
@@ -82881,6 +82881,6 @@
       "related": []
     }
   ],
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-14",
   "total_entries": 2729
 }
