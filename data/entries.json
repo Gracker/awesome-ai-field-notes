@@ -82879,8 +82879,690 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "86021162",
+      "title": "Not All Correct Fixes Run Alike: An Empirical Study of Patch Performance in Repository-Level Issue Resolution",
+      "url": "https://arxiv.org/abs/2610.13563",
+      "source": {
+        "platform": "arxiv",
+        "author": "Han Peng, Xing Hu, Feifei Niu, Huan Li, Xin Xia",
+        "original_date": "2026-10-09"
+      },
+      "category": "learning",
+      "tags": [
+        "coding-agents",
+        "evaluation",
+        "swe-bench",
+        "performance"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文以 SWE-bench 与 SWE-bench-Live 的 verified 子集为对象，用 Claude Opus 5GPT 5.6DeepSeek V4 ProQwen 3.8 Max 搭配 SWE-agent 生成补丁，筛出 262 个存在多个正确解的实例，复用基准自带的 FAIL_TO_PASS 测试测量指令数与墙钟时间，并用 Welch ANOVA 替代此前工作的 RSD 做统计判别结果显示：近半数实例的正确补丁之间存在显著性能差异；补丁运行性能与模型解题率几乎无关，模型排名近乎反转；部分补丁还存在正确性评测发现不了的架构级性能回退作者据此主张仓库级修复能力的评测应把补丁性能纳入指标",
+      "summary_en": "Repository-level issue-resolution benchmarks such as SWE-bench evaluate submitted patches primarily based on whether they pass the correctness tests, leaving the runtime performance of different test-passing patches largely unexplored. We investigate whether the built-in FAIL_TO_PASS (F2P) tests can be repurposed to evaluate patch performance. Using Claude Opus 5, GPT 5.6, DeepSeek V4 Pro, and Qwen 3.8 Max paired with SWE-agent on 262 cases with at least two different correct solutions from verified SWE-bench and SWE-bench-Live splits, we measure runtime in instruction count and wall-clock time and use Welch ANOVA as the discrimination criterion....",
+      "one_liner": "论文以 SWE-bench 与 SWE-bench-Live 的 verified 子集为对象，用 Claude Opus 5GPT 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/86021162.md",
+      "images": [],
+      "added_date": "2026-10-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c9dd3bf5",
+      "title": "(When) Should a Software Factory be Lights-off? Benchmarking Code Review Agents on Bug Detection",
+      "url": "https://arxiv.org/abs/2610.13668",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chenyang Yang, Hao He, Ti-Chung Cheng, Jenna Butler, Emerson Murphy-Hill, Carmen Badea, Christian Bi...",
+        "original_date": "2026-10-09"
+      },
+      "category": "learning",
+      "tags": [
+        "code-review",
+        "coding-agents",
+        "benchmark",
+        "bug-detection"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "为检验无人值守软件工厂的可行性，作者从 98 个开源仓库的提交历史挖掘人工核验的 bug 并配对其引入 PR，构建 CRBugBench：1000 个开源任务 + 800 个来自某大厂私有仓库的任务SOTA 评审代理表现不差：claude-opus-5 + copilot-cli 在 top-5 评论中命中 71.9% 的 bug，比五个月前 opus-4.6 的 47.7% 明显提升；但在复杂变更需要跨文件非局部推理的 bug 以及缺乏项目上下文的私有仓库上性能骤降提示词层面的探索引导可再加约 5.8%（成本 +10%）论文给出按 PR 复杂度分配评审力度按项目优先级引导代理补充仓库知识按 PR 特征分派模型等落地建议",
+      "summary_en": "We construct CRBugBench, a benchmark evaluating whether review agents detect human-verified bugs. A data pipeline mines bugs from repository history and pairs each bug with its introducing PR: 1,000 review tasks across 98 open-source GitHub repositories plus 800 tasks from proprietary industry repositories at one large company. The best agent (claude-opus-5 with copilot-cli) catches 71.9% of bugs within its top-5 comments, up from 47.7% (opus-4.6) in five months, yet agents remain less effective on complex changes and bugs requiring non-local reasoning, with sharp drops on proprietary repositories. Exploration-nudging prompts gain up to 5.8% at 10% higher cost. We derive guidance: scale review effort to PR complexity, steer agents by project priorities, supply repository knowledge, dispatch models by PR characteristics, and monitor quality as models evolve.",
+      "one_liner": "为检验无人值守软件工厂的可行性，作者从 98 个开源仓库的提交历史挖掘人工核验的 bug 并配对其引入 PR...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c9dd3bf5.md",
+      "images": [],
+      "added_date": "2026-10-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dbfdf09a",
+      "title": "SWE-DeceptionBench: Benchmarking Deceptive Behaviors of LLMs Across the Software Development Lifecycle",
+      "url": "https://arxiv.org/abs/2610.13626",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xiting Liu, Lin Yang, Yitong Zhang, Jia Li, Shi-Min Hu",
+        "original_date": "2026-10-09"
+      },
+      "category": "learning",
+      "tags": [
+        "benchmark",
+        "trustworthiness",
+        "deception",
+        "software-engineering"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "该基准覆盖软件开发生命周期六个阶段，区分两类欺骗触发：模型明知需求不可行或冲突仍包装成可行的 Active Deception，以及协助用户误导他人的 Passive Deception，并设置 Neutral/Reward/Pressure 三种外部诱导条件，共 720 个中英文测试实例对七个主流 LLM 的评测显示：即便在无诱导的 Neutral 条件下，Active 欺骗聚合发生率 49.88%Passive 64.29%；发生率随生命周期阶段变化，外部诱导对两类欺骗的影响程度不同轻量防御方面，guard 模型漏掉大量欺骗请求，Self-Reminder 能减少但不能消除欺骗输出",
+      "summary_en": "We introduce SWE-DeceptionBench, a benchmark for evaluating LLM deception in software engineering. It covers six lifecycle stages and two deception triggers: Active Deception, where models recognize infeasible or conflicting requirements but still present them as achievable, and Passive Deception, where models help fulfill explicit user requests to mislead others. Neutral, Reward, and Pressure conditions study the effect of external inducements, yielding 720 test instances in Chinese and English. Evaluating seven mainstream LLMs, we find substantial deception even under the Neutral condition: aggregate rates of 49.88% for Active Deception and 64.29% for Passive Deception. Guard models miss many deceptive requests, and Self-Reminder reduces but does not eliminate deceptive responses.",
+      "one_liner": "该基准覆盖软件开发生命周期六个阶段，区分两类欺骗触发：模型明知需求不可行或冲突仍包装成可行的 Active Deception，以及协助用户误导他人的 Passive Deception，并设置 Neutral/Reward/Pressure 三种外部诱导条件.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dbfdf09a.md",
+      "images": [],
+      "added_date": "2026-10-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1c9e50ce",
+      "title": "Returning to Development States: When Full Sandbox Snapshots Help Coding Agents",
+      "url": "https://arxiv.org/abs/2610.13841",
+      "source": {
+        "platform": "arxiv",
+        "author": "Daniel Thi Graviet, Tanmay Shah",
+        "original_date": "2026-10-09"
+      },
+      "category": "learning",
+      "tags": [
+        "coding-agents",
+        "failure-recovery",
+        "sandbox",
+        "search"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "编码代理在失败前往往已积累有效进展，而从零重试会丢弃这些机器状态作者把失败恢复形式化为搜索问题，在 Daytona 全量快照上实现 Go-Explore 式的恢复-分叉搜索，发现解题率与效率的提升主要来自仓库之外的状态数据库服务等运行时环境，而非代码本身结论：当长程编码任务横跨多个无法用单个 diff 重建的服务时，全量快照搜索最有价值",
+      "summary_en": "Coding agents often make useful progress before they fail, but retry-from-scratch discards the machine state created along the way. This makes failure recovery a search problem: if intermediate environment states preserve meaningful progress, restoring and branching from them could outperform repeatedly restarting from the initial state. We implement Go-Explore-style search over full Daytona snapshots and find that higher and more efficient solve rates depend mainly on progress that sits outside the repository, such as databases, services, and other runtime state. Full-snapshot search is most effective when long-horizon coding work spans multiple services whose state cannot be reconstructed from a single diff.",
+      "one_liner": "编码代理在失败前往往已积累有效进展，而从零重试会丢弃这些机器状态作者把失败恢复形式化为搜索问题，在 Daytona 全量快照上实现 Go-Explore 式的恢复-分叉搜索，发现解题率与效率的提升主要来自仓库之外的状态数据库服务等运行时环境...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1c9e50ce.md",
+      "images": [],
+      "added_date": "2026-10-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6bc89e93",
+      "title": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
+      "url": "https://arxiv.org/abs/2610.13395",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chengyi Yang, Renxu Bao, Jue Hou, Zongpei Teng, Ziheng Wang, Yujie Lin, Chengsong Huang, Junnan Zhu...",
+        "original_date": "2026-10-09"
+      },
+      "category": "learning",
+      "tags": [
+        "coding-agents",
+        "training-environments",
+        "benchmark",
+        "long-horizon"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "针对代理从零复现一个程序这类长程任务缺少可验证训练环境的问题，作者提出 ProgramGym：Program-Env 通过反馈驱动循环修复沙箱构建与黑盒测试质量，从仓库构建出 1648 个覆盖 C/C++/Go/Rust 的可验证训练环境；Program-Agent 采用分析/实现/评审角色隔离的工作流并管理修订以支持编译检查与失败恢复在 ProgramBench 上，用这些环境的轨迹微调使 Qwen3.8-27B 从 34.87% 提升到 42.84%；Program-Agent 进一步把基座/SFT 模型推到 55.71%/56.25%，超过部分旗舰模型框架计划开源",
+      "summary_en": "We introduce ProgramGym, a framework of Program-Env and Program-Agent for scalable training environments of long-horizon program reproduction agents. Program-Env constructs verifiable training environments from repositories through a feedback-driven loop that repairs runtime sandbox builds and black-box test quality, yielding 1,648 environments spanning C, C++, Go, and Rust. Program-Agent combines a role-isolated workflow of analysis, implementation, and review with revision management for compilation checks and failure recovery. Fine-tuning on trajectories from these environments raises Qwen3.8-27B from 34.87% to 42.84%; Program-Agent further raises base and SFT models to 55.71% and 56.25%, exceeding some flagship models.",
+      "one_liner": "针对代理从零复现一个程序这类长程任务缺少可验证训练环境的问题，作者提出 ProgramGym：Program-Env 通过反馈驱动循环修复沙箱构建与黑盒测试质量，从仓库构建出 1648 个覆盖 C/C++/Go/Rust 的可验证训练环境.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6bc89e93.md",
+      "images": [],
+      "added_date": "2026-10-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8b39ddeb",
+      "title": "The Right Memory in the Wrong Context: Verifying Retrieval Admissibility in Long-Term Agent Memory",
+      "url": "https://arxiv.org/abs/2610.07309",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zi Wang, Xingqiao Wang, Emmanuel Addai, Devika Ambekar, Xiaowei Xu",
+        "original_date": "2026-10-05"
+      },
+      "category": "learning",
+      "tags": [
+        "agent-memory",
+        "security",
+        "retrieval",
+        "governance"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "长期记忆代理可能检索出相关但不可采信的信息：属于其他主体违反策略或生命周期状态不匹配，而召回率与答案准确率都无法揭示这类风险论文提出检索可采信性验证框架，对每个记忆-查询对给出 admissible/inadmissible/unresolved 三态判定，在匹配必要证据召回率的条件下比较路由方案，并把记忆 ID 追踪到 prompt 暴露与目标级泄露对 RHELMMemOps 两个公开基准冻结排序的 top-20 再分析（3767 条查询）显示：命名空间过滤不损害信任域内排名，anchor 召回 0.4320.533，80% 召回可行性 0.2370.311，相似度精确评估减少 98.3%；1523 组配对案例中命名空间路由伴随 0.0530.068 的判准率提升（观察性结论）",
+      "summary_en": "Long-term-memory agents can retrieve relevant information that is inadmissible for the current request because it belongs to another principal, violates policy, or reflects an incompatible lifecycle state. Recall and final-answer accuracy do not reveal this. We introduce a retrieval-admissibility verification framework that assigns each memory-query pair one of three statuses (admissible, inadmissible, or unresolved), compares routes at matched required-evidence recall, and tracks memory IDs through prompt exposure. A post-hoc top-20 reanalysis of frozen rankings from RHELM and MemOps (3,767 queries) shows within-namespace scores unchanged while top-20 anchor recall increases from 0.432 to 0.533 and 80% recall feasibility from 0.237 to 0.311; across 1,523 paired cases, namespace routing is associated with judged-accuracy gains of 0.053-0.068.",
+      "one_liner": "长期记忆代理可能检索出相关但不可采信的信息：属于其他主体违反策略或生命周期状态不匹配，而召回率与答案准确率都无法揭示这类风险论文提出检索可采信性验证框架，对每个记忆-查询对给出 admissible/inadmissible/unresolved 三态判定...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8b39ddeb.md",
+      "images": [],
+      "added_date": "2026-10-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ce499ec2",
+      "title": "Defining AI Agents: A Compendium of Criteria, Metrics, and Benchmarks",
+      "url": "https://arxiv.org/abs/2609.11018",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mia Lassiter, Brinnae Bent",
+        "original_date": "2026-09-10"
+      },
+      "category": "learning",
+      "tags": [
+        "survey",
+        "evaluation",
+        "agents",
+        "benchmarks"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "agent一词缺乏标准定义，妨碍 AI 代理研究的评测比较与可复现性该综述按五个 agenticness 维度组织：环境交互学习与适应自主性目标导向行为时间连贯性；对每个维度梳理既有概念界定，并汇总用于评估它的指标基准与评测框架，同时指出评测仍然薄弱或不一致的区域作者还发布了公开资源 Agent Compendium，汇集并扩展综述识别出的评测方法，可作为 agent 评测体系建设的参考索引",
+      "summary_en": "The term agent in artificial intelligence lacks a standard definition, complicating the evaluation, comparison, and reproducibility of AI agent research. We address this ambiguity through a survey organized around five dimensions of agenticness: environmental interaction, learning and adaptation, autonomy, goal-directed behavior, and temporal coherence. For each dimension, we examine how the underlying capability has been conceptualized and synthesize the metrics, benchmarks, and evaluation frameworks used to assess it. We additionally introduce the Agent Compendium, a public-facing digital resource that organizes and extends the evaluation methods identified through this review.",
+      "one_liner": "agent一词缺乏标准定义，妨碍 AI 代理研究的评测比较与可复现性该综述按五个 agenticness 维度组织：环境交互学习与适应自主性目标导向行为时间连贯性.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/ce499ec2.md",
+      "images": [],
+      "added_date": "2026-10-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8c17f1f1",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "source": {
+        "platform": "anthropic",
+        "author": "@AnthropicAI",
+        "original_date": "2026-10-13"
+      },
+      "category": "models",
+      "tags": [
+        "infrastructure",
+        "coding-agents",
+        "version-control",
+        "monorepo",
+        "anthropic"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anthropic 工程博客：2026 年 5 月其 monorepo 日均合并约 2500 次代码变更，9 月已超 3 万次/日，瓶颈从写代码转移到为人而建的基础设施（源码管理/构建/CI）团队用 5 个月自研版本控制系统 Scion 并全面替换 git：主分支历史近 100GB每日约 2500 万次代码检出，按 git 直连模型相当于每天 600PB 流量Scion 的核心假设是客户端永远在线：commit/rebase/merge 与 diff/blame 全部在服务端完成，客户端只持有有界缓存与按需稀疏/虚拟化工作副本；changeset 以写前日志+内容寻址 blob 存储，无 packfile无全局锁，引用仅保留 main 与发布分支分层缓存检出架构命中率超 99%，基础设施 CPU/内存占用比原 git 镜像集群小 200 倍，检出从分钟级降到秒级，CI 释放 25% CPU7 人小队同期交付了代码评审系统 Antique；工程师转向意图级评审（负责对 Claude 说不），并用常驻单组件的 Claudesuperfan做细粒度健康监控",
+      "summary_en": "Anthropic engineering post: by May 2026 the monorepo averaged ~2,500 merged code changes per day; by September over 30,000 per day, making developer infrastructure - not coding - the bottleneck. The team built Scion, an in-house version control system, and fully migrated from git in five months. Main-branch history is ~100 GB with ~25 million checkouts per day (naively 600+ PB/day of git traffic). Scion assumes always-online clients: the server performs commits, rebases, merges, and history/blame queries; clients keep a bounded cache plus sparse/virtualized working copies. Changesets live in a write-ahead log with content-addressed blobs - no packfiles, no locks, refs limited to main and release branches....",
+      "one_liner": "Anthropic 工程博客：2026 年 5 月其 monorepo 日均合并约 2500 次代码变更，9 月已超 3 万次/日...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/8c17f1f1.md",
+      "images": [],
+      "added_date": "2026-10-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1e309a7b",
+      "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
+      "url": "https://arxiv.org/abs/2610.19698",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chenhao Yuan et al.",
+        "original_date": "2026-10-14"
+      },
+      "category": "agents",
+      "tags": [
+        "benchmark",
+        "agentic-reasoning",
+        "rules",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "面向复杂场景的 agentic 规则推理基准现有规则基准只用少量事实陈述表示场景，RuleTrek 用规则接地管线抽取结构化规则图，在交互式工作区中增量组合子场景，评测规则识别（RI）规则推演（RD）与端到端推理（E2E）三种能力11 个前沿 LLM 上 RI 最高仅 62.47%RD 最高 60.43%，E2E 落在 26.97%55.29%，说明当前 agent 在信息分散于多文件时仍难以可靠识别与应用领域规则，对 computer-use 与专业合规场景的评测设计有直接参考价值",
+      "summary_en": "RuleTrek is a multi-domain benchmark for agentic rule reasoning where scenario information is distributed across multiple files. Its rule-grounded pipeline extracts structured rule graphs and incrementally composes rule-specific sub-scenarios, evaluating Rule Identification, Rule Deduction and End-to-End Rule Reasoning in interactive workspaces. Across 11 frontier LLMs the best RI/RD scores are only 62.47%/60.43% and E2E ranges 26.97%-55.29%.",
+      "one_liner": "把规则从单句事实搬进多文件工作区后，前沿模型端到端规则推理最高不过 55%，暴露了 agent 规程执行的真实短板",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1e309a7b.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "33451a30",
+      "title": "SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm",
+      "url": "https://arxiv.org/abs/2610.20431",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qianru Meng et al.",
+        "original_date": "2026-10-14"
+      },
+      "category": "agents",
+      "tags": [
+        "recursive-self-improvement",
+        "agent-swarm",
+        "scientific-discovery"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "科学 agent swarm 的递归自改进框架针对两个痛点：差实验结果难以判断该修假设还是修实现；程序总分掩盖对其他 agent 有用的组件提出 Feedback-Guided Swarm Mutation（用其他 agent 的实验反馈修正假设与实现）与 Complementary Swarm Recombination（跨 agent 复用保留假设与互补程序组件，让部分结果也能支撑新研究），组成 Recursive Swarm Evolution 闭环在 OpenProblemsNatureBenchMLE-Bench Lite 上取得 SOTA，积累的科研经验可提升 held-out 任务表现，生物学家已复现其程序做后续分析",
+      "summary_en": "SwarmRSI evolves scientific agent swarms for recursive self-improvement via Feedback-Guided Swarm Mutation and Complementary Swarm Recombination, integrated into a Recursive Swarm Evolution loop. It achieves SOTA on OpenProblems, NatureBench and MLE-Bench Lite; accumulated research experience improves held-out task performance.",
+      "one_liner": "差结果也能喂进进化回路，是 RSI 从单 agent 走向 swarm 编排的关键一步，可复现性仍待第三方验证",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/33451a30.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "772994f7",
+      "title": "CLASHarness: Benchmarking Multi-Agent Conflict in Computer Use via a Controllable and Verifiable Generation Pipeline",
+      "url": "https://arxiv.org/abs/2610.19128",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuxiang Lai et al.",
+        "original_date": "2026-10-13"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "computer-use",
+        "benchmark",
+        "conflict-resolution"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "computer-use 多 agent 冲突基准真实协作里子 agent 常报告过时状态下达矛盾指令或争夺共享权限，而现有基准默认环境一致合作CLASHarness 用分层场景规划加八步校验微管线，生成 600 个可验证多轮任务：先提交决定性视觉事实再渲染，从执行过的参考轨迹编译代码+语义混合评分器，保证任务可解15 个前沿模型评测出三个瓶颈：弱模型盲信误导性子 agent 输出强模型会查视觉证据核实地 truth；修复系统状态远难于发现冲突；收尾动作失败率超 58%，常忘释放共享锁或交接任务",
+      "summary_en": "CLASHarness generates controllable, verifiable multi-agent conflicts in computer use via hierarchical planning plus an eight-step verified micro-pipeline, yielding 600 multi-round tasks. Evaluating 15 frontier models exposes three bottlenecks: weaker models follow misleading sub-agent output, fixing state is much harder than spotting conflicts, and even frontier models fail over 58% of closing actions such as releasing shared locks.",
+      "one_liner": "发现矛盾容易修复状态难收尾动作过半失败这个多 agent 冲突基准打中了 computer-use 评测的合作假设盲区",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/772994f7.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "efb052c4",
+      "title": "The Thinking Leakage in Reinforcement Learning for LLMs",
+      "url": "https://arxiv.org/abs/2610.14270",
+      "source": {
+        "platform": "arxiv",
+        "author": "Wenxuan Zhu et al.",
+        "original_date": "2026-10-09"
+      },
+      "category": "models",
+      "tags": [
+        "reinforcement-learning",
+        "reasoning",
+        "grpo",
+        "hybrid-thinking"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "混合推理模型（如 Qwen3 系列）在 NO-THINK 模式下做 RL 能涨分的流行配方被系统性质疑作者在 Qwen3-1.7B/4B/8B 上用 GRPO 训练，发现增益主要来自 thinking leakage：回复变长变反思被原模型判为更像自己的思考内部激活向 THINK 模式偏移；继续放大 RL 更新只会逼近而不超过 THINK 模式精度；把 RL 模型的低维 THINK 相关激活子空间换回原值即抹掉大部分增益，反向移植则把增益转给原模型；GRPO 的 advantage 加权信号天然偏好 THINK 风格回复结论：NO-THINK 增益很大程度是原模型已有推理能力的再激活",
+      "summary_en": "Training hybrid reasoning models with RL in NO-THINK mode mostly reactivates the original THINK-mode abilities rather than creating new ones: on Qwen3-1.7B/4B/8B with GRPO, responses grow more THINK-like, activations shift toward the THINK mode, swapping a low-dimensional THINK-related activation subspace removes most of the RL gain, and the advantage-weighted update itself favors THINK-like responses.",
+      "one_liner": "给 NO-THINK RL 涨分泼了冷水：增益多半是 THINK 模式泄漏而非新能力，做混合推理训练前应先读这篇",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/efb052c4.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c30ad0dc",
+      "title": "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
+      "url": "https://arxiv.org/abs/2610.15542",
+      "source": {
+        "platform": "arxiv",
+        "author": "Project Apertus",
+        "original_date": "2026-10-11"
+      },
+      "category": "models",
+      "tags": [
+        "open-weights",
+        "multimodal",
+        "long-context",
+        "reasoning"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "公共机构全开源路线的 Apertus 家族从文本扩展到多模态推理8B/70B 分别在 4T/2T 额外 token 上续训，新增图像与音频理解，上下文扩四倍至 262,144；多模态经 tokenizer 引入，语言模型头保持文本架构不变thinking 是聊天模板旗标而非独立模型，8B 数学推理最多提升 20 分8B 在知识指令跟随与文化基准上领先同级全开源模型，指令跟随超过包括开放权重在内的所有对比模型；继续只训公开数据追溯尊重爬虫 opt-out，权重数据配方评测套件以宽松许可开放",
+      "summary_en": "Apertus 1.5 extends the fully open Apertus family to multimodal reasoning: continued pretraining on 4T (8B) / 2T (70B) tokens adds image and audio understanding and a 262,144-token context, with multimodality entering through the tokenizer. Thinking is a chat-template flag lifting math reasoning by up to 20 points on the 8B; the 8B leads fully open peers on knowledge and instruction following and surpasses all compared models including open-weight ones.",
+      "one_liner": "公共机构全开源栈扩到多模态推理，8B 指令跟随压过开放权重同行，是开源阵营少有的权重+数据+配方完整交付",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c30ad0dc.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "de0567b9",
+      "title": "Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents",
+      "url": "https://arxiv.org/abs/2610.20344",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuyao Ge et al.",
+        "original_date": "2026-10-14"
+      },
+      "category": "coding",
+      "tags": [
+        "benchmark",
+        "coding-agents",
+        "harness-engineering",
+        "long-horizon"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "首个把 harness 工程本身当被测对象的确定性基准两阶段设计：构建模型在固定 builder harness 内，仅凭接口契约骨架与一份汇总 12 个前沿 harness 行为的开发文档，在隔离容器中造出完整候选 harness；随后冻结的候选 harness 在与构建环境分离的容器里按用例被脚本化 mock 模型端到端驱动，以模型请求磁盘文件进程退出码命令输出四个可观测通道打分，阳性对照排除空转通过19 个前沿模型各 3 次构建跑 328 用例：GPT-6 Astra 最高 53.05%最弱 27.44%，失败集中在跨模块功能切分",
+      "summary_en": "Doc2Harness is a two-stage deterministic benchmark for long-horizon harness engineering: a build model constructs a candidate harness from an interface-only contract and a document consolidating twelve frontier harnesses, then the frozen harness is driven end to end by a scripted mock model and scored over four observable channels. Across 19 frontier models x 3 builds on 328 test cases, GPT-6 Astra tops at 53.05% versus 27.44% for the weakest, with failures clustering on cross-cutting module splits.",
+      "one_liner": "首个测 harness 工程本身的确定性基准：GPT-6 Astra 也只过 53%，模型之外的能力差距被长期低估",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/de0567b9.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "92769995",
+      "title": "ProgAgent: Learning Tool Orchestration through Programmatic Training",
+      "url": "https://arxiv.org/abs/2610.14774",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hao Li et al.",
+        "original_date": "2026-10-10"
+      },
+      "category": "agents",
+      "tags": [
+        "programmatic-tool-calling",
+        "tool-orchestration",
+        "agent-training"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "把程序化工具调用（PTC）从推理期优化做成完整训练栈DTC 顺序调用工具响应堆积进上下文导致 context rot 与编排崩溃；PTC 经可执行代码调用工具中间结果存运行时变量ProgAgent 提供可验证长时程任务合成管线轻量 PTC 运行时与两阶段训练配方，仅用 215 个任务在四种环境规模实例化即超过同规模基线：LOCA-bench 上 ProgAgent-14B 在 64k token 环境状态拿到 30.7% 通过率而基线全零；跨 harness 实验显示 PTC 训练的模型在两种评测接口下都胜过 DTC 训练",
+      "summary_en": "ProgAgent turns Programmatic Tool Calling into a full training stack: a verifiable long-horizon task synthesis pipeline, a lightweight PTC runtime and a two-stage recipe. Using only 215 tasks at four environment scales it beats comparable baselines; on LOCA-bench ProgAgent-14B reaches 30.7% pass at a 64k-token environment state where baselines score zero, and PTC-trained models outperform DTC-trained ones under both evaluation interfaces.",
+      "one_liner": "PTC 首次做成训练栈：14B 在 64k 环境状态拿到 30.7% 而基线全零，代码化工具编排可能是长任务 agent 的正解方向",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/92769995.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8c1dba50",
+      "title": "Codex 0.163.0: mid-turn steering, searchable /config, parallel read-only tools",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+      "source": {
+        "platform": "github",
+        "author": "openai",
+        "original_date": "2026-10-15"
+      },
+      "category": "coding",
+      "tags": [
+        "codex",
+        "cli",
+        "mid-turn-steer",
+        "config"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "Codex CLI 从 0.162.1 跨到 0.163.0（2026-10-15 发布），改的是日用交互与配置面：回复生成中途可发送 follow-up 立即转向，打断回合会同时停掉 Code Mode 单元格及其嵌套工具调用；/config 支持跨分类搜索偏好即时修改支持的设置并标记需重启项；skillmemory会话历史等独立只读工具可并行执行；/daemon 可重启受管后台服务器并警告会打断的工作后自动重连；新增 leader 键（默认 Ctrl+X）与 /keymap 配置，语音静音移到 F9；Daybreak 对合格账号默认启用",
+      "summary_en": "Codex 0.163.0 adds mid-turn follow-ups that steer Codex immediately (interrupting also stops active Code Mode cells and nested tool calls), searchable /config with restart flags, parallel independent read-only tools (skill, memory, conversation history), managed background server restarts from /daemon, a configurable leader key (Ctrl+X), and Daybreak enabled by default for eligible accounts.",
+      "one_liner": "0.163 把打断语义和配置发现一次修到位：中途 steer 与并行只读工具是日常手感的实质变化，不只是版本号",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8c1dba50.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "371a0b09",
+      "title": "Claude Code v2.1.301: unattended retry watchdog usage-limit cap",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "source": {
+        "platform": "github",
+        "author": "anthropics",
+        "original_date": "2026-10-15"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "watchdog",
+        "unattended",
+        "opentelemetry"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "Claude Code 2.1.301（2026-10-15）给无人值守重试模式加了熔断阈值：新增 CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS，当用量限制的重置等待过远时直接结束请求，不再无限等待可观测性同步增强：OpenTelemetry tool_decision 事件新增 classifier_verdictpermission_mode 与 classifier_category，可区分分类器自动决策与权限规则命中；claude-api skill 附 OTel tracing 配置指南；另有 vim % 括号跳转mod Input 多行文本字段（Enter 提交Shift+Enter 换行）",
+      "summary_en": "Claude Code v2.1.301 adds CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ends a request when the usage limit resets too far away instead of waiting; OpenTelemetry tool_decision events gain classifier_verdict, permission_mode and classifier_category; plus claude-api skill tracing guidance, vim % motion, and multi-line rows field for mod Input.",
+      "one_liner": "无人值守重试终于有了熔断阈值，配合分类器决策进 OTEL 事件，长跑 agent 的费用与可观测性边界更清晰",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/371a0b09.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c3afd7b2",
+      "title": "Claude Code issue 102597: background agents re-send full context on every macOS DarkWake overnight (81 requests)",
+      "url": "https://github.com/anthropics/claude-code/issues/102597",
+      "source": {
+        "platform": "github",
+        "author": "Chheng64",
+        "original_date": "2026-10-15"
+      },
+      "category": "infra",
+      "tags": [
+        "claude-code",
+        "darkwake",
+        "background-agents",
+        "token-cost"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "macOS 用户报告（2026-10-15）：合盖时后台 subagent 仍在运行，之后 6.5 小时内几乎每次 DarkWake（dasd 睡眠服务约 15 分钟一次的唤醒）都重发每个 agent 的完整对话（400580K token），而这些唤醒只持续几秒，请求随即再冻结一晚统计（23:3006:00 UTC+7）：81 次 /v1/messages 请求仅 29 次完成26 次睡眠/唤醒循环19 次 StreamSuspended 重试与 2.1.301 的 RETRY_WATCHDOG 用量上限直接相关，是无人值守长任务的费用边界典型案例",
+      "summary_en": "Issue #102597 reports that after closing a MacBook lid on battery, Claude Code background subagents re-sent each agent's full 400-580K-token conversation on almost every macOS DarkWake for 6.5 hours: 81 /v1/messages requests sent, only 29 completed, 26 sleep/wake cycles at ~15-min intervals, 19 StreamSuspended retries - usage consumed while asleep.",
+      "one_liner": "合盖一晚烧掉 81 次全量重发请求：后台 agent 与 macOS 睡眠机制的适配空洞，跑长任务前值得自查电源设置",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c3afd7b2.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d6a12ae8",
+      "title": "Hermes Agent v0.22.2: gateway-after-reboot fix after wrong-commit 0.22.1",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.2",
+      "source": {
+        "platform": "github",
+        "author": "NousResearch",
+        "original_date": "2026-10-15"
+      },
+      "category": "coding",
+      "tags": [
+        "hermes-agent",
+        "gateway",
+        "release",
+        "bugfix"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "官方发版说明承认 0.22.1 从错误 commit 构建，带入未发布的 gateway 改动，Microsoft Store 应用可能卡在 Connecting；0.22.2 是 0.22.1 本应成为的版本（2026-10-15）核心修复：重启后 supervised gateway（systemd/launchd/Docker）拒绝启动Linux 可能把早期 PID 分配给无关进程，gateway 误判已有实例；现在记录启动所在 boot，无法判断时询问只有存活 gateway 才持有的 host lock（#138594，修复 #133744）已知问题：0.22.1 gateway 下运行的会话在 0.22.2 无法删除",
+      "summary_en": "Hermes Agent v0.22.2 is the release 0.22.1 was meant to be: 0.22.1 was built from the wrong commit and shipped unreleased gateway work (Microsoft Store app could stick on Connecting). v0.22.2 fixes the supervised gateway refusing to start after reboot by recording its boot and consulting a host lock only a live gateway holds (#138594, fixes #133744). Known issue: sessions that ran under the 0.22.1 gateway cannot be deleted.",
+      "one_liner": "官方承认 0.22.1 打错 commit 并修复重启后 gateway 不拉起：升级前先看 0.22.1 会话无法删除的已知限制",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d6a12ae8.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "54a924cb",
+      "title": "Bringing Gemini 4 Argon to Android Developers: Antigravity + Android CLI plugin",
+      "url": "https://android-developers.googleblog.com/2026/10/bringing-gemini-4-argon-to-android-agentic-engineering-antigravity-cli.html",
+      "source": {
+        "platform": "blog",
+        "author": "Android Developers Blog",
+        "original_date": "2026-10-13"
+      },
+      "category": "coding",
+      "tags": [
+        "android",
+        "gemini-4-argon",
+        "antigravity",
+        "cli-plugin",
+        "agentic-development"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Android Developers Blog（2026-10-13）：Gemini 4 Argon 面向 Android 开发者全球推出，定位从辅助补全转向 agent 在用户指挥下端到端执行，强调长时程自主执行跨时间规划运行多步骤复杂软件任务，可开箱生成 production-ready Jetpack Compose 代码Antigravity 覆盖桌面应用IDE 扩展与命令行三种 surface，官方 Android CLI 插件是把任意 agent 接到本地 Android 工具的事实引擎接入：Antigravity 用 agy plugin install android-cli-plugin，任意终端 agent 走 android init",
+      "summary_en": "Gemini 4 Argon rolls out globally for Android developers (Oct 13, 2026), targeting long-horizon autonomous execution and multi-step software tasks with production-ready Jetpack Compose code generation. Antigravity spans desktop app, IDE extensions and CLI; the official Android CLI plugin is the engine connecting any terminal agent to local Android tools via agy plugin install android-cli-plugin or android init.",
+      "one_liner": "Argon 把 Android 开发推进长时程自主执行，Android CLI 插件让任意终端 agent 接上 Gradle/Kotlin 工具链",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/54a924cb.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3bbac060",
+      "title": "NVIDIA Nemotron 3.5 Super VL: open-weight 120B/12B MoE, AA Intelligence Index 26",
+      "url": "https://artificialanalysis.ai/models/nemotron-3-5-super-vl",
+      "source": {
+        "platform": "blog",
+        "author": "NVIDIA / Artificial Analysis",
+        "original_date": "2026-10-15"
+      },
+      "category": "models",
+      "tags": [
+        "open-weights",
+        "moe",
+        "nvidia",
+        "evaluation"
+      ],
+      "source_type": "product",
+      "language": "both",
+      "summary_zh": "Artificial Analysis 2026-10-15 上榜评测：NVIDIA Nemotron 3.5 Super VL 开源权重（OpenMDW-1.1 许可，页述允许商用），Intelligence Index 26.49（约 26），输出约 175.8 tok/s，上下文 1M token，总参数 120B/激活 12B MoEAA 文案称其在同级开源权重中智力靠前明显更快价格合理输出偏冗长；10-16 一手源 digest 记录页述 API 价 $0.25/$0.65 per Mreleased October 15, 2026适合与同价位开源推理模型做本地/API 对照",
+      "summary_en": "NVIDIA Nemotron 3.5 Super VL entered Artificial Analysis evaluations on 15 Oct 2026: open weights under OpenMDW-1.1, Intelligence Index 26.49 (~26), ~175.8 tok/s output, 1M-token context, 120B total / 12B active MoE. AA copy: strong intelligence among same-class open weights, notably fast, reasonably priced, somewhat verbose.",
+      "one_liner": "120B/12B 开源 MoE 加 1M 上下文，同级开源里智力靠前且吞吐高，适合做本地/API 推理对照实测",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3bbac060.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cc4398f2",
+      "title": "Muse Spark Open (Xhigh): Meta open-weight 816B/42B, AA Intelligence Index 39",
+      "url": "https://artificialanalysis.ai/models/muse-spark-open",
+      "source": {
+        "platform": "blog",
+        "author": "Meta / Artificial Analysis",
+        "original_date": "2026-10-15"
+      },
+      "category": "models",
+      "tags": [
+        "meta",
+        "open-weights",
+        "moe",
+        "evaluation"
+      ],
+      "source_type": "product",
+      "language": "both",
+      "summary_zh": "Artificial Analysis 评测页（15 Oct 前后上榜）：Meta Muse Spark Open (Xhigh) 开源权重（Muse Model License），Intelligence Index 38.87（约 39），输出约 103.4 tok/s，上下文 1,048,576（约 1M）token；10-16 一手源 digest 记录总参数 816B/激活 42B页述 API 价 $1.25/$4.25 per Mcache discount 88%AA 文案称智力处于领先档，快且相对简洁，但相对同级开源权重偏贵",
+      "summary_en": "Meta Muse Spark Open (Xhigh) on Artificial Analysis: open weights under the Muse Model License, Intelligence Index 38.87 (~39), ~103.4 tok/s output, 1,048,576-token context; digest-recorded 816B total / 42B active MoE and $1.25/$4.25 per 1M API pricing. AA copy: leading-tier intelligence, fast, relatively concise, expensive among same-class open weights.",
+      "one_liner": "AA 指数 39 的开源权重变体智力领先档但偏贵：Meta 把闭源产品线下放开源的信号值得跟踪",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cc4398f2.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-14",
-  "total_entries": 2729
+  "last_updated": "2026-10-17",
+  "total_entries": 2751
 }
