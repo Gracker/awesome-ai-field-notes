@@ -83561,8 +83561,195 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "27463d79",
+      "title": "FDE-Gym: The Last Mile of AI Delivery",
+      "url": "https://arxiv.org/abs/2610.22350",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dongxu Yang et al.",
+        "original_date": "2026-10-15"
+      },
+      "category": "agents",
+      "tags": [
+        "benchmark",
+        "agent-evaluation",
+        "forward-deployed-engineering",
+        "customer-delivery"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "FDE-Gym 从 20 个真实客户交付场景改编出 95 个端到端任务，覆盖 18 个行业，让 agent 在带脚本化干系人和可修改客户系统的模拟环境里澄清模糊需求发现未言明约束并交付可用方案，按客户自身成功指标的归一化提升计分，并对消息试跑和等待等交互开销扣分7 家厂商 13 个模型配置里最好的平均分只有 0.56，仅 14/95 个任务完整解决；未言明约束的发现是主要瓶颈，而且即使关键信息全部问到，95 个任务里也只有 10 个达到 0.8 以上，说明解决规格明确的任务与给真实客户交付之间仍存在巨大落差",
+      "summary_en": "FDE-Gym is a benchmark of 95 end-to-end delivery tasks adapted by industry experts from 20 real customer scenarios across 18 sectors. Agents interact with scripted stakeholders and operate on production-like customer systems, scored by normalized improvement of the customer's own success metric with penalties for stakeholder interactions. Across 13 model configurations from seven providers, the best reaches a mean score of 0.56 and fully resolves only 14 of 95 tasks; discovering unstated constraints is the primary bottleneck, and even on the 23 tasks where it obtains every key fact it tops 0.8 on only 10.",
+      "one_liner": "把 agent 评测从规格明确的工单搬进真实客户交付：最强配置只完整解决 14/95，未言明约束发现是最大瓶颈",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/27463d79.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "53bd3188",
+      "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+      "url": "https://arxiv.org/abs/2610.22344",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shangheng Du et al.",
+        "original_date": "2026-10-15"
+      },
+      "category": "agents",
+      "tags": [
+        "agentic-model",
+        "machine-learning-engineering",
+        "post-training",
+        "reinforcement-learning",
+        "kaggle"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "MLExpert 是面向自主机器学习工程的 35B MoE agentic 模型，走 AI4AI 路线：Kaggle-MLE Factory 构造可执行任务并配备模型主导实验的交互 harness；分层 agentic SFT 用结果导向监督把通用工具使用与编码能力迁移到 MLE；Windowed Interaction RL 把相邻实验结果之间的多轮决策作为一个执行窗口共享结果奖励，并通过异步轨迹收集与策略修正支持轨迹结束前更新在 MLE-Bench Lite 上把基座模型平均获奖率从 37.9% 提升到 72.7%，与 Kimi-K3GLM-5.3 等更大规模前沿模型相当，且在 NatureBench Liteagent scaffold 优化和算法优化上表现出迁移增益",
+      "summary_en": "MLExpert is a 35B mixture-of-experts agentic model for autonomous machine-learning engineering, trained with hierarchical agentic SFT and Windowed Interaction RL (WIRL), which treats multi-turn decisions between successive experiment results as an execution window with a shared outcome-based reward and supports asynchronous collection and policy correction before trajectories end. On MLE-Bench Lite it lifts the base model's average medal rate from 37.9% to 72.7%, comparable to larger frontier models such as Kimi-K3 and GLM-5.3, with transfer gains on NatureBench Lite, agent scaffold optimization and algorithm optimization.",
+      "one_liner": "35B MoE 用窗口化结果奖励的 RL 学会长周期 ML 工程调优，MLE-Bench Lite 获奖率 37.9% 到 72.7%，追平更大前沿模型",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/53bd3188.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4c395c10",
+      "title": "Discovering state-of-the-art quantum circuits with large language models",
+      "url": "https://arxiv.org/abs/2610.22367",
+      "source": {
+        "platform": "arxiv",
+        "author": "Andi Gu, Alek H. Kemeny, Susanne F. Yelin, Mikhail D. Lukin",
+        "original_date": "2026-10-15"
+      },
+      "category": "learning",
+      "tags": [
+        "llm-discovery",
+        "quantum-computing",
+        "evolutionary-search",
+        "evaluator-guided"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "哈佛与 MIT 团队提出进化式框架：LLM 负责提出量子线路设计，独立评估器验证并打分，任务覆盖数值计算化学优化量子模拟与数理论8 个任务中 7 个发现的线路在 Toffoli 数与 qubit 数上都显著优于现有最优；第 8 个任务中搜索发现了一种新的素域模逆可逆架构，通过不同方式处理可逆性，使此前被认为不可行的经典 divsteps 算法变得可用，并大幅改善模逆的 Toffoli-qubit 权衡",
+      "summary_en": "The paper introduces an evolutionary framework in which LLMs propose quantum circuit designs and an independent evaluator verifies and scores them. Across tasks spanning numerical computation, chemistry, optimization, quantum simulation and number theory, the discovered circuits significantly reduce both Toffoli and qubit counts relative to the state of the art in seven of eight tasks; the eighth discovers a new reversible architecture for prime-field modular inversion that makes the classical divsteps algorithm viable and substantially improves the Toffoli-qubit trade-off.",
+      "one_liner": "LLM 提案加独立评估器打分的进化搜索，在 8 个量子线路任务里 7 个刷新 SOTA，还找到新的素域模逆可逆架构",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4c395c10.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "73a4ae93",
+      "title": "Rethinking Routing Exploration in Modern Mixture-of-Experts",
+      "url": "https://arxiv.org/abs/2610.22353",
+      "source": {
+        "platform": "arxiv",
+        "author": "Bingcong Li, Hao Ma, Michael Muehlebach, Niao He, Yi Ma",
+        "original_date": "2026-10-15"
+      },
+      "category": "models",
+      "tags": [
+        "mixture-of-experts",
+        "routing",
+        "architecture",
+        "training-dynamics"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "现代 MoE 架构普遍同时采用细粒度专家分割与共享专家论文指出两者之间存在探索困境：共享专家会降低 token 表示的变异性，让路由变得不够探索，这与细粒度分割组合性放大路由空间后对探索的更高需求相冲突，导致额外的表达力在实践中难以完全兑现MirrorMoE 通过 token 自适应抑制不必要的专家来收缩探索空间，在多个模型规模上取得一致的性能提升",
+      "summary_en": "Modern MoE architectures increasingly combine fine-grained expert segmentation with shared experts. The paper identifies an exploration dilemma: shared experts reduce the variability of token representations and make routing less exploratory, conflicting with the greater need for exploration induced by the combinatorially enlarged routing space of fine-grained segmentation, so the additional expressiveness may not be fully realized. MirrorMoE shrinks the exploration space via token-adaptive suppression of unnecessary experts and consistently improves performance across model scales.",
+      "one_liner": "共享专家在悄悄压低 MoE 路由探索性，与细粒度分割的高探索需求相冲突；token 级专家抑制让多个规模稳定涨点",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/73a4ae93.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7a6a342e",
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic Frontier Red Team",
+        "original_date": "2026-10-16"
+      },
+      "category": "models",
+      "tags": [
+        "frontier-red-team",
+        "cryptography",
+        "agent-capability",
+        "lattice-reduction"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anthropic Frontier Red Team 记录了 2026 年 10 月的一次内部追查：员工让研究模型在不给任何线索的前提下破解 NIST 椭圆曲线种子来源之谜，Claude 不到半小时确认 P-192P-224P-256P-384P-521 五个种子全部来自以 Unix 时间戳播种的 C 库 lrand48 伪随机数生成器，而不是传闻中的口令哈希方法上先滑动扫描 34 种 1990 年代生成器与输出切片组合，认出四个种子高位全零的模式（概率 1/5810），再用 LLL 格基规约从截断输出恢复状态，十个素域种子都符合 lrand48() >> 23，反推的初始化时间全部落在 1997 到 1998 年这不是密码学破绽，反而让种子含后门的猜测更不可信；六个 1997 年 5 月生成的曲线基点也被溯源到 FreeLIP 的随机数生成器",
+      "summary_en": "Anthropic's Frontier Red Team reports that in October 2026 Claude, asked to trace the NIST elliptic-curve seeds with no hints, reproduced their origins in under half an hour: the P-192 through P-521 seeds are outputs of the C library's lrand48 PRNG seeded with Unix timestamps (May 1997 - April 1998), not hashes of a humorous passphrase as lore held. Claude scanned 34 combinations of 1990s-vintage generators and output slices, spotted the all-zero top-bit signature of lrand48 (probability 1/5810), and recovered truncated-LCG state via LLL lattice reduction; all ten prime-curve seeds match lrand48() >> 23. Not a cryptographic break - it makes backdoor concerns less plausible - and the base points of six curves generated in May 1997 trace to FreeLIP's RNG.",
+      "one_liner": "Claude 半小时破解 NIST 曲线种子 25 年悬案：五个种子全是 Unix 时间戳播种的 lrand48 输出，传闻的口令哈希并不存在",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7a6a342e.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7fd7e06a",
+      "title": "How the Claude Code team does code review",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+      "source": {
+        "platform": "blog",
+        "author": "Addy Osmani",
+        "original_date": "2026-10-15"
+      },
+      "category": "agents",
+      "tags": [
+        "coding-agents",
+        "code-review",
+        "claude-code",
+        "engineering-workflow"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Claude Code 团队公开其代码评审流程：6 月到 9 月合并 PR 数量翻倍的同时，需要回退的比例下降超过 40%核心变化是把大部分阅读交给机器：PR 创建之前就让 Claude 跑测试构建或对照设计截图来自证工作，再由全新上下文的子代理审查 diff；每个 PR 都先经过 Claude 对照全仓与 PR 意图的机器评审；CLAUDE.md 讲项目约定，代码所有者维护的 REVIEW.md 告诉评审器什么算失败要求给出文件与行号证据；人只做风险导向的最后把关，目标是最多一次人工介入，用人工审批数等待时长和回退与事故率作为守门指标",
+      "summary_en": "The Claude Code team describes its code-review flow: from June to September merged PRs more than doubled while the reverted share fell over 40%. Review moved from an end-of-road gate to continuous machine-first reading - Claude verifies work by running tests/builds or comparing screenshots before a PR exists, a fresh-context subagent reviews the diff, every PR gets a Claude review against the whole repo before a human looks, CLAUDE.md and code-owner-written REVIEW.md steer the reviewer with file-and-line evidence required, and humans keep a risk-focused final pass. Human approvals per PR, comments and wait time are tracked, with revert and incident rates as guardrails.",
+      "one_liner": "Claude 写了自家九成代码之后怎么评审：机器先读人只管风险，PR 翻倍的同时回退率降四成",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7fd7e06a.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-17",
-  "total_entries": 2751
+  "total_entries": 2757
 }
