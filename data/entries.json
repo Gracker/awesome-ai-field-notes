@@ -83748,8 +83748,292 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "07db6ccc",
+      "title": "AI is driving a boom in modestly successful software projects",
+      "url": "https://seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-10-16"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-coding",
+        "software-economics",
+        "marketplaces",
+        "industry-analysis"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Sean Goedecke 用约 20 个暴露安装量的市场（NVDA 辅助功能插件HACSSteam浏览器插件Nexus 模组Blender 扩展等）对比 2022-24 与 2025-26 两个窗口：新软件总量视场景约 2-20 倍增长，头部明星项目没有同等级爆发，而有用但不大的中间层项目约翻倍NVDA 千次下载级新插件翻倍万次以上原地不动，Steam 百评级新游戏比 2024 年前多 60%他解释为何看插件/模组市场而非大公司（大公司被现有代码量卡住小项目想到就做），以及为何AI 生成自愿披露率不可靠，结论是 AI 把几百到几千人需要的小项目结构性翻倍，但产品构想本身仍是稀缺资源",
+      "summary_en": "Using ~20 marketplaces that expose install counts (NVDA plugins, HACS, Steam, browser extensions, Nexus mods, Blender addons), Sean Goedecke compares 2022-24 vs 2025-26: total new software grew 2-20x depending on the venue, with roughly 2x growth in modestly successful projects but no comparable boom in megahits thousand-download NVDA plugins doubled while 10k+ stayed flat, and Steam's 100-review new games are up 60% vs pre-2024. He argues AI structurally doubles the layer of small useful projects, while product ideas remain the scarce resource.",
+      "one_liner": "装机量数据第一次把AI 软件产量爆发去哪了讲清楚：中间层翻倍头部没动，产品构想稀缺才是真瓶颈",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/07db6ccc.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "49aae9e4",
+      "title": "Redesigning source control at Anthropic: Scion replaces Git at 30,000 changes/day",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-10-13"
+      },
+      "category": "infra",
+      "tags": [
+        "anthropic",
+        "source-control",
+        "scion",
+        "monorepo",
+        "ai-coding",
+        "infrastructure"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 工程博客宣布自研源码控制系统 Scion：agent 编码把日均合并改动从 2026 年 5 月约 2,500 推到 9 月超 30,000，主分支历史近 100 GB压缩 working copy 超 25 GB单日约 2,500 万次 CI checkout，朴素 Git 拉取等于每天 600+ PB 流量七人团队五个月完成从 Git 迁移，核心概念借鉴 Google Piper 与 Meta Sapling/Mononoke（derived data），配套的新代码审查系统叫 AntiqueSimon Willison 评价其像是集中式源码控制的再发明，并猜测 Fable/Mythos 级模型的内部落地是编码速度暴涨的关键因素",
+      "summary_en": "Anthropic built Scion, a custom source-control system, after agent-driven coding pushed daily merged changes from ~2,500 in May 2026 to 30,000+ by September with ~100 GB main-branch history, 25 GB compressed working copies, and ~25M daily CI checkouts that naive Git fetching would turn into 600+ PB/day. A seven-person team migrated off Git in five months, drawing on Google Piper and Meta Sapling/Mononoke; the companion review system is called Antique.",
+      "one_liner": "agent 改动量把 Git 顶到 600 PB/天，Anthropic 只能重造源码控制代码基础设施开始被 agent 当头号用户重塑",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/49aae9e4.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "40b611a3",
+      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-10-15"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "revenue",
+        "ipo",
+        "distillation",
+        "industry"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "FT 报道 Anthropic 上市前向投资人披露季度收入：Q1 约 $4.8bnQ2 $11.5bnQ3 $16.8bn（环比 +46%），Q3 每 $1 算力投入对应 $1.70 收入，剔除股权激励后调整经营利润率 11%蒸馏（其他实验室用 Claude 输出训练自有模型）占收入 5%-7%，Q3 已实质性压缩按 Simon Willison 的 napkin maths，以 Q2 收入反推，匿名实验室单季蒸馏花费超 $5 亿FT 文中told investors出现四次，公司正把沟通从 annualized run rate 转向真实季度披露",
+      "summary_en": "Per FT, Anthropic told investors Q1 revenue was ~$4.8bn, Q2 $11.5bn, Q3 $16.8bn (+46% QoQ), with $1.70 revenue per $1 of compute in Q3 and 11% adjusted operating margins excluding stock-based compensation. Distillation rival labs training on Claude outputs was 5-7% of revenue and was cut materially in Q3, implying other labs spent over $500M distilling in Q2 alone.",
+      "one_liner": "上市前的真实季度披露叠加主动压缩蒸馏收入，Anthropic 在把商业可用和被同行薅羊毛画成两条线",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/40b611a3.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b312ae48",
+      "title": "Claude, don't touch my lump: the lump of labor fallacy applied to AI unemployment",
+      "url": "https://www.experimental-history.com/p/claude-dont-touch-my-lump",
+      "source": {
+        "platform": "newsletter",
+        "author": "Adam Mastroianni",
+        "original_date": "2026-10-13"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-economics",
+        "unemployment",
+        "labor",
+        "essays"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Adam Mastroianni 用劳动总量谬误（lump of labor fallacy）框架正面拆解 AI 大失业叙事：71% 美国成年人认为 AI 将在 20 年内减少就业，Anthropic CEO 预测失业率将冲到 10-20%，但工业革命以来技术持续替代工作而失业率基本停在 80 年前的水平他把AI 统治一切的想象类比普林尼自然史里用狗头人填充未知领域的投射，并检查放射科医生银行柜员印度 IT 员工等最该被替代群体在 ChatGPT 发布四年后的实际数据没有出现预期中的失业抬升文章自己点破：安慰来自历史规律，不是机制保证",
+      "summary_en": "Adam Mastroianni dismantles the AI mass-unemployment narrative via the lump of labor fallacy: 71% of American adults expect AI to reduce jobs within 20 years and Anthropic's CEO predicts 10-20% unemployment, yet unemployment has stayed roughly where it was 80 years ago despite centuries of automation. He maps AI will rule everything onto Pliny's dog-headed people filling unknown lands, and checks the actual data for radiologists, bank tellers, and Indian IT workers four years after ChatGPT no expected unemployment rise.",
+      "one_liner": "500 年自动化没把失业率推高一分，AI 全面失业更像又一次狗头人式投射作者自己承认这是历史规律不是机制",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/b312ae48.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "54ea6745",
+      "title": "Annualized Enron Rate: Ed Zitron on AI's ARR accounting",
+      "url": "https://www.wheresyoured.at/annualized-enron-rate",
+      "source": {
+        "platform": "blog",
+        "author": "Ed Zitron",
+        "original_date": "2026-10-13"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-economics",
+        "arr",
+        "valuation",
+        "coreweave",
+        "harvey"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Ed Zitron 拆解 AI 行业对年度化运行率（ARR）的滥用：本应只对近 28 天经常性收入做年化的口径，被 OpenAIAnthropicCoreWeaveCognition 用来支撑估值叙事OpenAI 9 月被报 $70B ARR 实际约 $50B，差额来自云合作方销售的 gross-up；法律 AI Harvey 累计融资 $910M 后毛利率从年初约 50% 跌到 6 月的 -50%；CoreWeave 债券收益率 10 月 13 日达 15.1%文中引用的数据称 OpenAI 与 Anthropic 约 80% 收入来自 1% 的客户，多数是 AI 应用公司，允许用户在 $20 订阅上烧 $83-118 的 token与同周 Anthropic 停用 ARR 的动作对照，两边对同一份数据的判断相反",
+      "summary_en": "Ed Zitron dissects the misuse of annualized run rates: OpenAI's reported $70B ARR in September was really ~$50B once cloud-partner gross-ups are removed; Harvey, with $910M raised, saw gross margins fall from ~50% to -50% by June; CoreWeave bond yields hit 15.1% on Oct 13. Cited data says ~80% of OpenAI and Anthropic revenue comes from 1% of customers mostly AI apps letting users burn $83-118 of tokens on $20 subscriptions.",
+      "one_liner": "与 Anthropic 停用 ARR 同周发布结论相反的同一份数据：模型公司收入有多少只是 VC 资金经 AI 应用转一圈的下游回流",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/54ea6745.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7ff3cccd",
+      "title": "AI is mass decompiling games. That's both awesome and scary.",
+      "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary",
+      "source": {
+        "platform": "blog",
+        "author": "Popcar",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "decompilation",
+        "game-preservation",
+        "reverse-engineering",
+        "ai-coding"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "独立开发者 Popcar 分析 AI 反编译软件近期的爆发：过去把 Halo CE 跑进浏览器或做老游戏 WebAssembly 移植需要几十人年的逆向工程，现在模型直接吃反汇编产物输出 C 源码或 wasm，压到小时级好的面是游戏保存几乎被一次性解决因服务关停而消失的游戏理论上都能重写到现代硬件；坏的面是任何二进制都能被干净重构成源码，fork 竞品绕过授权把云端软件本地化破解都变得更容易作者自陈不喜欢 AI 但这事无法忽视，把它定性为软件分发史上不可逆的一次重组",
+      "summary_en": "Indie developer Popcar charts the recent explosion of AI-driven decompilation: reverse-engineering that once took dozens of person-years (Halo CE in a browser, WebAssembly ports) now compresses to hours as models turn disassembly output into C source or wasm. Game preservation is solved overnight, but any binary can now be cleanly reconstructed easing competitor forks, license bypasses, and local cracks of cloud software.",
+      "one_liner": "反编译从几十人年压到几小时，代码只有两份这个分发控制点正在被永久拆除游戏保存的胜利同时砸开商业软件的洞",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/7ff3cccd.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f50edeef",
+      "title": "Cursor changelog: Cloud Agent Canvases and Environment Improvements",
+      "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
+      "source": {
+        "platform": "blog",
+        "author": "Cursor",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "cursor",
+        "cloud-agents",
+        "environments-api",
+        "changelog"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "Cursor 更新云 agent 两件套：云 agent 现在可以在工作过程中构建交互式 canvas，完成后通过链接分享给团队；Environments API 进入 beta，可编程创建和管理 agent 运行的云环境；单个云 agent 环境支持的仓库上限提到 300 个，大环境加载速度提升 5 倍交付物从 diff/PR 扩展到可分享的 canvas，环境管理从 UI 配置扩展到 API 自动化",
+      "summary_en": "Cursor's changelog: cloud agents can now build interactive canvases shareable via link, the Environments API enters beta for programmatically creating and managing the cloud environments agents run in, and cloud environments now support up to 300 repositories with 5x faster loading for large environments.",
+      "one_liner": "云 agent 的交付物从 diff 扩到可分享 canvas环境管理开放 APICursor 在把多仓 agent 工作区做成产品面",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/f50edeef.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0c6e6f47",
+      "title": "Claude Code v2.1.302: fork subagents default-on, auto mode model env, idle compaction toggle",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "source": {
+        "platform": "github",
+        "author": "anthropics",
+        "original_date": "2026-10-16"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "release",
+        "fork-subagent",
+        "auto-mode",
+        "config"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "Claude Code 2.1.302（2026-10-16 发布）动了几个默认面：fork subagent（subagent_type: fork）在 claude -pAgent SDK桌面端与 VS Code 默认开启（终端此前已默认），CLAUDE_CODE_FORK_SUBAGENT=0 可关；新增 CLAUDE_CODE_AUTO_MODE_MODEL 指定客户端侧 auto mode 分类器所用模型（不影响服务端 auto mode）；/config 新增 Idle compaction 行可关闭或恢复空闲压缩；/design-sync 与 /design-login 提示独立版 Claude Design 将于 2026-12-14 关停；修复压缩会话中停轮导致的Prompt is too long，Read 工具对超过 128MB 的图像源直接拒绝以防整读入内存",
+      "summary_en": "Claude Code 2.1.302 (published 2026-10-16): fork subagents are now on by default in claude -p, the Agent SDK, desktop and VS Code (CLAUDE_CODE_FORK_SUBAGENT=0 disables); CLAUDE_CODE_AUTO_MODE_MODEL picks the client-side auto mode classifier model; /config gains an Idle compaction toggle; standalone Claude Design closes 2026-12-14; fixes include the Prompt is too long error when stopping a turn mid-compaction, and Read now refuses image sources over 128 MB instead of loading them into memory.",
+      "one_liner": "fork subagent 全端默认化是这版真正的行为变更多 agent 并行从可选项变成出厂设置，升级前先想好要不要 FORK_SUBAGENT=0",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0c6e6f47.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "38ccbac9",
+      "title": "Device Streaming and Android skills - available in Android CLI",
+      "url": "https://android-developers.googleblog.com/2026/10/android-cli-device-streaming-and-skills.html",
+      "source": {
+        "platform": "blog",
+        "author": "Android Developers",
+        "original_date": "2026-10-02"
+      },
+      "category": "coding",
+      "tags": [
+        "android",
+        "cli",
+        "device-streaming",
+        "agent-skills"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Android CLI 接入 Android Device Streaming：agent 经 ADB over SSL 连接远程真机（官方演示 Pixel 10 Pro），可完成选型开机部署构建收取日志与 trace无头截屏，全程不离开终端，支持任意 AI agent 接入Android skills 仓库扩到 20+ 个结构化 SKILL.md（含 android-cliPlay 政策合规审计Wear OS Compose Material 3 等），把 developer.android.com 的官方指南API 参考与架构模式直接注入 agent 上下文，替代模型训练截止内的旧知识，官方强调每个 skill 附带 eval",
+      "summary_en": "Android CLI now includes Android Device Streaming any AI agent can reach real devices (Pixel 10 Pro demoed) over ADB via SSL to power/boot devices, deploy builds, pull logs and traces, and capture headless screenshots, all from the terminal. The Android skills repository grows past 20 structured SKILL.md files (android-cli, Play policy auditing, Wear OS Compose Material 3, etc.) that ground agents with official developer.android.com guidance, each shipped with evals.",
+      "one_liner": "Android 官方把 agent 工作面从模拟器推进到真机从 prompt 习惯推进到带 eval 的官方 skills端侧 agent 工作流有了第一方底座",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/38ccbac9.md",
+      "images": [],
+      "added_date": "2026-10-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-17",
-  "total_entries": 2757
+  "total_entries": 2766
 }
