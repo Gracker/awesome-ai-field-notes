@@ -66480,7 +66480,9 @@
       "added_date": "2026-09-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "2e69089d"
+      ]
     },
     {
       "id": "ecb41a28",
@@ -66511,7 +66513,9 @@
       "added_date": "2026-09-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "2e69089d"
+      ]
     },
     {
       "id": "ba08af0c",
@@ -84287,8 +84291,238 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "c95c2a62",
+      "title": "Writing is no longer proof of work",
+      "url": "https://seangoedecke.com/writing-is-no-longer-proof-of-work",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-10-18"
+      },
+      "category": "industry",
+      "tags": [
+        "llm-impact",
+        "documentation",
+        "proof-of-work",
+        "org-process",
+        "writing"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "科技公司把写作当证据的机制拆成三类：合规证据（风险评估/影响评估模板）投入证据（咨询百页报告单人项目的 ticket 流水）学习证据（管理层逐级 rollup 汇报）共同点是没人真想读内容，坐下来写了本身就是工作量，类比 Bitcoin 的 proof-of-workLLM 把这条路堵死：一小时加几美元推理成本就能产出能通过审计的报告，学校与监管机构同病作者自己给出的退路（强制非 AI 生成视频/现场演示用 LLM 反向评分代码）没一条立得住，结论是处在流程还在但人人知道可绕过的 overhang 期；工程师应把精力留给真正想被读到的沟通型文档，别再手写合规证据",
+      "summary_en": "Sean Goedecke breaks corporate writing-as-evidence into three kinds compliance (risk/impact templates), effort (hundred-page consulting reports, self-run project tickets), and learning (manager rollups) all analogous to Bitcoin proof-of-work: nobody reads them, and producing them is the work. LLMs broke the scheme in 2023: an auditable report now costs an hour and a few dollars of inference tokens, and schools and regulators share the problem. His proposed counters (mandating non-AI text, video/live demos, LLM-judged code) each fail; organizations are in an overhang where processes persist but everyone knows they are bypassable, so engineers should save effort for writing actually meant to be read.",
+      "one_liner": "企业写作曾是组织里的 proof-of-work，LLM 把产出证据的成本打到近零：流程还在但人人知道可绕过，省下的精力该花在真有人读的文档上",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c95c2a62.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7288f118",
+      "title": "How the AI boom might really end: 5 scenarios",
+      "url": "https://martinalderson.com/posts/how-the-ai-boom-might-really-end",
+      "source": {
+        "platform": "blog",
+        "author": "Martin Alderson",
+        "original_date": "2026-10-18"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-bubble",
+        "capex",
+        "open-weights",
+        "margin",
+        "market-analysis"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "把AI 潮怎么收场拆成两组五场景组一（AI 不及预期或被外力掐断）：scaling 撞墙alignment 灾难数据中心被政治卡住作者逐条打折，理由是全球协同不可能：中国不会跟进美国任何一类暂停组二更可能：AI 正常运转但 capex 拿不回回报开源权重追上闭源把 margin 压塌（Haiku 5.5 短上下文降价 90%超 100K 上下文跳价 5 倍，对比 GPT-6 Luna 超 272K 只涨 1.5-2 倍）硬件/模型效率突破重演 2000 年代 DWDM 电信崩盘债务侧走火（CoreWeave CDS 本周进 distressed 区间，而 TSMC 同周仍报 AI 需求超供给）结论：泡沫若破，不是没人要 token，而是同样甚至更多 token 以更低 margin 流向更多人，被杠杆架起的一层先倒",
+      "summary_en": "Martin Alderson groups five end-of-boom scenarios into two sets. Group 1 (AI disappoints or is stopped): scaling wall, alignment catastrophe, datacentre bans each discounted, since no globally coordinated pause is plausible while China keeps building. Group 2 is the live risk: AI works but capital fails to capture the value open weights collapsing inference margins (Haiku 5.5 at 90% cheaper on short context, 5x jump past 100K tokens vs GPT-6 Luna's 1.5-2x past 272K), a DWDM-style efficiency breakthrough repeating the 2000s telecom crash, or debt-side unwinding (CoreWeave CDS hit distressed levels this week even as TSMC reports AI demand still exceeding supply). If the boom ends, it ends with the same or more tokens flowing at far lower margins, and the leveraged layer falls first.",
+      "one_liner": "把本周矛盾信号（芯片股最长连跌 vs TSMC 报供不应求）用一个 capex/margin 框架讲通：泡沫破在 margin 不在需求，杠杆层最先倒",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7288f118.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f0da17eb",
+      "title": "How to Train Your Robot",
+      "url": "https://www.construction-physics.com/p/how-to-train-your-robot",
+      "source": {
+        "platform": "blog",
+        "author": "Brian Potter",
+        "original_date": "2026-10-15"
+      },
+      "category": "models",
+      "tags": [
+        "robotics",
+        "training-data",
+        "teleoperation",
+        "sim-to-real",
+        "data-infrastructure",
+        "embodied-ai"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "LLM 的 scaling 靠的是现成的约 300T token 网络文本池（GPT-3 用了约 300B），机器人没有等价物文章逐一拆当前四条数据生成路径的取舍：teleoperation 行为克隆最贴近真实行为但贵难规模化操作员无触觉反馈，且多数采集数据最终被弃用；RL arm farm（Google 2016 范式）目前式微，但真实部署的机器人最终会成为最大数据源；simulation 便宜可扩展但 sim-to-real gap 是真问题，teacher/student 范式是缓解方向；human video（YouTubeegocentric）量大但动作空间与真实机器人不对齐数据飞轮的前提是有大量真在干活的 AI 机器人，这个数字目前还极小产业含义：未来几年 robotics 进度被数据生成方式卡住的程度可能超过模型架构，Physical Intelligence 把机器人放进巧克力工厂做实际工种正是在回答这个问题",
+      "summary_en": "LLM scaling rode an existing ~300T-token web-text pool (GPT-3 used ~300B); robotics has no equivalent. Brian Potter weighs the four current data-generation paths: teleoperation (behavior cloning closest to real behavior, but expensive, hard to scale, no operator force feedback, most collected data discarded), RL arm farms (the Google 2016 paradigm, now faded, though deployed robots may become the largest ultimate source), simulation (cheap and scalable but a real sim-to-real gap; teacher/student paradigms help), and human video (YouTube/egocentric, abundant but misaligned with robot action spaces). The much-cited data flywheel requires many AI robots already doing real work a number that is still tiny. Robotics progress will be gated by data-generation breakthroughs more than by model architectures.",
+      "one_liner": "把机器人为什么没能像 LLM 那样 scaling换成一个数据基础设施问题：四条数据来源各有硬伤，飞轮卡在还没有足够多真干活的机器人",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f0da17eb.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7cae8d88",
+      "title": "LEASH: Uncertainty-Aware Weak-to-Strong Escalation and Oversight for Computer-Use Agents",
+      "url": "https://arxiv.org/abs/2610.22280",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qingni Wang, Changdae Oh, Yuzhe Yang, Sharon Li, Jiachen Yang, Ang Li, Xin Eric Wang",
+        "original_date": "2026-10-15"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use",
+        "weak-to-strong",
+        "uncertainty",
+        "escalation",
+        "cost-efficiency"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "长程 computer-use 任务全程跑 frontier 模型太贵，纯小模型又常失败LEASH 是免训练的弱到强升级框架：默认让弱模型执行，只在需要时把控制权交给强模型，并在交接后继续拴住它三层设计共享同一个潜在不确定性信号：任务级不确定性做初始路由步级不确定性做运行时升级交接后用 shadow observer 持续监督黑盒强模型信号来自弱模型隐状态与历史成功/失败轨迹的相似度，复用动作生成时已产生的激活，无需额外前向或训练监督器OSWorld 四个当代骨干上一致优于独立弱模型，同升级率下比随机升级高 6.55-11.94 分；Qwen3.5-35B-A3B 达 73.66% 成功率$0.4117/任务，追平全程 Opus 5（72.90%）且推理成本降 19.2%",
+      "summary_en": "LEASH is a training-free weak-to-strong escalation framework for long-horizon computer-use agents: a weak open-weight model acts by default and hands control to a strong model only when needed, keeping it on a leash afterward. Three layers share one latent-uncertainty signal task-level uncertainty for initial routing, step-level uncertainty for runtime escalation, and a post-handoff shadow observer that keeps monitoring the black-box strong agent. The signal compares the weak model's hidden states against its past successful/failed trajectories, reusing activations produced during action generation, so no extra forward pass or monitor training is needed....",
+      "one_liner": "免训练的弱到强升级门：不确定性信号复用弱模型自身激活零额外前向，小模型加按需升级在 OSWorld 追平全程 Opus 5 还省 19% 成本",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7cae8d88.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "48479cd7",
+      "title": "DeepSeek Search & Fetch API",
+      "url": "https://api-docs.deepseek.com/guides/search",
+      "source": {
+        "platform": "blog",
+        "author": "DeepSeek",
+        "original_date": "2026-10-17"
+      },
+      "category": "infra",
+      "tags": [
+        "deepseek",
+        "search-api",
+        "agent-tools",
+        "rag",
+        "pricing"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "DeepSeek 开放自研搜索引擎支撑的两条 agent 工具链路：Search API（POST /v1/tools/search，query 1-128 字符，count 1-50，need_content 控制是否带正文，支持 site:/lang:/after:/before: 等运算符与 IP 本地化）与 Fetch API（抓单页直接返回 Markdown 正文）均为裸 JSON 接口沿用 DeepSeek API key 鉴权；结果带 rerank_score（0-3，1.5 视为高质量）与 authority（0-4 分级）字段计价按成功请求 $0.75/千次，空结果与失败不计费；经 DeepSeek HarnessClaude CodeCodex 的 server-side 工具调用当前免费，2026-11-01 00:00（北京时间）起开始计费账户级 QPS 各 5，Fetch 另有域名级限速",
+      "summary_en": "DeepSeek opened two agent-facing tools backed by its in-house search engine: a Search API (POST /v1/tools/search; 1-128 char queries, count 1-50, need_content toggle, site:/lang:/after:/before: operators, IP localization) and a Fetch API that returns a single page as Markdown. Both are raw JSON endpoints using DeepSeek API-key bearer auth; results carry rerank_score (0-3, >=1.5 considered high quality) and authority (0-4 tier) fields. Billing is $0.75 per 1,000 successful requests per endpoint failures, empty results, and timeouts are not billed; server-side tool calls via DeepSeek Harness, Claude Code, and Codex are currently free, with per-request billing starting 00:00 Beijing time on November 1, 2026. Account-level QPS is 5 for each API, with an additional per-domain limit on Fetch.",
+      "one_liner": "agent 外搜成本被压到 $0.75/千次：Fetch 直出 Markdown 可替掉自建正文抽取层，但 Harness/Claude Code/Codex 的免费窗 11 月 1 日硬截止，接前先测配额与失败路径",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/48479cd7.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8e2af0b3",
+      "title": "Lean Now Ships with Verified Kernels",
+      "url": "https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels",
+      "source": {
+        "platform": "blog",
+        "author": "Leonardo de Moura",
+        "original_date": "2026-10-15"
+      },
+      "category": "coding",
+      "tags": [
+        "lean",
+        "formal-verification",
+        "ai-agents",
+        "kernel",
+        "security"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "AI agent 已经能高效找出 Lean proof kernel 的漏洞（8 月 1 日8 月 24 日两份 postmortem），Leonardo de Moura 给出 v4.35.0 的结构性防御：lake check 把开发导出后交给 leanchecker（去掉外围设施的官方内核）在沙箱里重验；新增 nanodalean4leancon-lechecon-ron 四个独立内核，lake check --paranoid 全部重验一遍，外加硬化内存分配器构建的官方内核变体，把内存损坏变成受检中止而非静默错误con-leche 是首个用 Lean 写成并证明一致的内核，由 Claude（Fable 与 Opus）在 Lean FRO Joachim Breitner 重度监督下实现：全 Mathlib 指令数为官方内核 0.69 倍8 线程约 100 秒；再用 AI 翻译成 Rust 并以 Aeneas 证明精化得到 con-ron，双内核同验抵御编译器/运行时残留 bug",
+      "summary_en": "After AI agents efficiently found vulnerabilities in Lean's proof kernel (postmortems Aug 1 and Aug 24), Leonardo de Moura ships structural defenses in v4.35.0: lake check exports developments and rechecks them with leanchecker (the official kernel stripped of tooling) inside a sandbox; four independent kernels (nanoda, lean4lean, con-leche, con-ron) ship in-tree, run together via lake check --paranoid alongside a hardened-allocator official-kernel variant that turns memory corruption into a checked abort. con-leche is the first kernel written in Lean and proven consistent, implemented by Claude (Fable and Opus) under heavy supervision by Joachim Breitner at the Lean FRO 0.69x the official kernel's instructions on full Mathlib, ~100s at 8 threads; an AI-assisted Rust translation proven to refine it via Aeneas (con-ron) covers compiler/runtime residual bugs.",
+      "one_liner": "agent 能找到攻击面，就用独立实现重验加沙箱兜底：Lean 的多内核防御不依赖形式方法栈，跑 agent 写仓库的团队可直接套用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8e2af0b3.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2e69089d",
+      "title": "Codex Day 13 limit reset confirmed via staff posts",
+      "url": "https://x.com/thsottiaux/status/2111566005684289735",
+      "source": {
+        "platform": "x",
+        "author": "thsottiaux (Codex & ChatGPT @OpenAI)",
+        "original_date": "2026-10-17"
+      },
+      "category": "industry",
+      "tags": [
+        "codex",
+        "quota-reset",
+        "subscription",
+        "changelog",
+        "openai"
+      ],
+      "source_type": "x_post",
+      "language": "both",
+      "summary_zh": "OpenAI Codex 员工 thsottiaux 的Day 13/ Le limit reset帖（2026-10-17 16:20 UTC，1.58 万 likes，带截图）预告订阅限额重置，5 小时后同一账号以Done（21:12 UTC，7400+ likes）确认到账要点：Day N 重置是员工个人账号发布的订阅配额运营日历，不出现在官方 changelog功能发布（rust-v0.163.0，10-15）与配额重置是两条线，同窗另有 0.164.0-alpha.3 空 body 的 alpha tag；限额问题在 open issue #28246 跟踪读 Codex 动向时需把员工 Day 系列帖正式 releasealpha tag 三列分开，重置是否到账以客户端用量页为准证据层级：员工个人帖，非官方公告",
+      "summary_en": "OpenAI Codex staff member thsottiaux announced \"Day 13/ Le limit reset\" (2026-10-17 16:20 UTC, ~15.8K likes, with a screenshot) and confirmed \"Done\" five hours later (21:12 UTC, ~7.4K likes). The Day-N resets are a subscription-quota operations calendar published on a personal staff account they do not appear in the official changelog, where the feature release is rust-v0.163.0 (Oct 15) and an empty-body 0.164.0-alpha.3 tag rode the same window; quota issues track in open issue #28246. Reading Codex activity means separating staff Day-N posts, formal releases, and alpha tags, and verifying resets on the client usage page. Evidence level: personal staff post, not an official announcement.",
+      "one_liner": "Codex 的升级日一半是配额运营：员工 Day-N 帖与 changelog 是两条线，看重置别看更新日志，看客户端用量页",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/2e69089d.md",
+      "images": [
+        "https://pbs.twimg.com/media/HU2HXRMbsAAqviR.jpg"
+      ],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "cd4284b4",
+        "ecb41a28"
+      ]
     }
   ],
   "last_updated": "2026-10-18",
-  "total_entries": 2774
+  "total_entries": 2781
 }
