@@ -84032,8 +84032,263 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "03b28cd9",
+      "title": "Learning Self-Orchestration in Decentralized Agent Swarms",
+      "url": "https://arxiv.org/abs/2610.22322",
+      "source": {
+        "platform": "arxiv",
+        "author": "Guowei Xu, Zhenting Qi, Amani Kiruga, et al.",
+        "original_date": "2026-10-15"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "post-training",
+        "orchestration",
+        "market-mechanism",
+        "decentralized-systems"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "去中心化 agent 集群的能力同时取决于成员与协作方式，但现有多智能体系统常把个体能力学习与集体组织分开固定在编排结构里论文提出市场化后训练（MPT）：agent 用出价表达参与意愿，出价决定谁行动，集体结果再折算成局部训练信用，在没有中央协调者的情况下让能力与参与模式共同进化在具身合成机器人导航与深度研究任务上，MPT 超过单体后训练；同一批动作策略下，学到的自编排优于替代协调策略；更大种群在推理时表现更好对 agent 掉线更鲁棒代码与训练好的模型已开源",
+      "summary_en": "Market-based post-training (MPT) jointly learns action policies and self-orchestration in decentralized agent swarms: agents bid for participation, bids decide who acts, and collective outcomes return local training credit, so capability and participation co-adapt without a central coordinator. Evaluated on embodied crafting, robot navigation, and deep research, MPT beats monolithic post-training; with identical post-trained action policies, learned self-orchestration outperforms alternative coordination strategies. Larger swarms perform better at inference and lose less under agent dropout, supporting reuse, scaling, and robustness. Code and trained models released.",
+      "one_liner": "用市场出价同时学动作与编排：agent 集群不靠中央协调者，参与度随训练共同进化，大种群更抗掉线",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/03b28cd9.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d629f1f6",
+      "title": "Evaluation Awareness Beyond English: Do LLMs Act Differently When Tested in Indic Languages?",
+      "url": "https://arxiv.org/abs/2610.22333",
+      "source": {
+        "platform": "arxiv",
+        "author": "Trizal Garg, Sibayan Mitra, Arya Karanjkar, et al.",
+        "original_date": "2026-10-15"
+      },
+      "category": "models",
+      "tags": [
+        "evaluation-awareness",
+        "safety",
+        "multilingual",
+        "indic-languages",
+        "benchmark-gaming"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "评估意识（evaluation awareness）研究此前几乎只在英语上进行论文在 5 种印度语系语言加英语上测试 3 个家族的 4 个指令模型，用提示线索变化是否被告知被监控监控是否为安全测试当被告知正在被测试时，四个模型在全部 6 种语言中都更倾向拒绝有害请求：印度语系有害请求拒绝率平均上升 14.4 个百分点与英语看齐，但良性请求误拒率也从 6.9% 升至 11.3%结论是非英语安全评估可能高估模型的日常安全表现；作者释放全部 47,880 条判定响应",
+      "summary_en": "Extends evaluation-awareness research beyond English: four instruction-tuned models from three families, tested in five Indic languages plus English, with cues varying whether the model is told it is monitored and whether the monitoring is a safety test. Told they are being tested, all four models refuse harmful requests more often in all six languages: Indic-language refusal of harmful requests rises 14.4 percentage points on average, drawing level with English, while refusal of benign Indic requests also climbs from 6.9% to 11.3%. Conclusion: safety evaluations in Indic languages may not reflect everyday user treatment. All 47,880 judged responses released.",
+      "one_liner": "评估意识不止存在于英语：印度语系里告知被测就让有害拒绝率涨 14.4 点良性误拒同步上升，安全评估分数可能虚高",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d629f1f6.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b4333b9e",
+      "title": "Training Reasoning Models to Generate Diverse Scientific Ideas",
+      "url": "https://arxiv.org/abs/2610.22324",
+      "source": {
+        "platform": "arxiv",
+        "author": "Manya Wadhwa, Pranav Narayanan Venkit, Hiroaki Hayashi, et al.",
+        "original_date": "2026-10-15"
+      },
+      "category": "models",
+      "tags": [
+        "reasoning",
+        "ideation",
+        "reinforcement-learning",
+        "diversity",
+        "scientific-discovery"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "多数 LLM 科研构思工作只优化单条想法质量忽视多样性论文用集合级强化学习训练文档接地构思：一次生成 K 张结构化 idea 卡片，整组联合打分，每条想法的质量按与前面想法的距离加权，教会模型主动避开已有想法训练后的 8B 模型在无污染基准上的 creative utility 超过 Claude Opus 4.8 与 GPT-6 Astra；4 位专家小规模人评中其想法组与 Opus 4.8 相当且唯一想法略多；coding agent 跑概念验证实验时 success@k 与 Opus 4.8 持平多样性不以牺牲可执行性为代价",
+      "summary_en": "Document-grounded ideation trained with a set-level RL objective: in a single generation the model writes K structured idea cards grounded in source papers, and the set is scored jointly, each idea's quality weighted by its distance from the ideas before it, teaching the model to steer away from its predecessors. The trained 8B model achieves higher creative utility (quality x diversity) than Claude Opus 4.8 and GPT-6 Astra on a contamination-free benchmark; a four-expert pilot rates its sets as promising as Opus 4.8's with marginally more unique ideas; coding-agent proof-of-concept success@k is comparable, so added diversity does not cost executability.",
+      "one_liner": "集合级 RL 教 8B 模型自我岔开：一次出 K 张 idea 卡按距离加权打分，创造性产出超过 Opus 4.8 且不牺牲可执行性",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/b4333b9e.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "863cf5ad",
+      "title": "Knowledge That Is Linear Before Fine-Tuning Generalizes After It",
+      "url": "https://arxiv.org/abs/2610.22300",
+      "source": {
+        "platform": "arxiv",
+        "author": "Faridoun Mehri, Hinrich Schtze",
+        "original_date": "2026-10-15"
+      },
+      "category": "models",
+      "tags": [
+        "interpretability",
+        "generalization",
+        "fine-tuning",
+        "knowledge",
+        "linear-probe"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文区分活性事实与惰性事实：前者能支撑超出自身召回的泛化，后者只能被召回方法是把已有关系重贴标签（ParisEurope 改成 Pariscrab），只对部分主体微调且不告知规则，再看模型能否对共享原答案的 held-out 主体推出新标签（学过 Pariscrab 后能否答出 Munichcrab）在 11 个模型70 种关系上，原关系在预训练表示中的线性可读性强烈预测这种泛化（模型内 Pearson r=0.87-0.92），且对微调规模原关系准确率主体出现频率标签重随机化及 13 类替代标签都稳健；错误标签常能映射回共享的原始答案",
+      "summary_en": "Distinguishes active facts, which support generalization beyond their own recall, from inert facts, which can be recalled but do not support such generalization. Method: relabel an existing relation (Paris->Europe becomes Paris->crab), fine-tune on a subset of subjects without revealing the rule, and test whether held-out subjects sharing an original answer get the new label (having learned Paris->crab, does the model answer Munich->crab?). Across eleven models and 70 relations, how linearly readable the original relation is in pretrained representations strongly predicts this generalization (within-model Pearson r = 0.87-0.92), robust to controls for fine-tuning size, original-relation accuracy, subject frequency, label re-randomization, and thirteen alternative label categories; wrong labels often map back to the shared original answer.",
+      "one_liner": "事实能否泛化到没学过的成员，取决于原关系在预训练表示里有多线性可读（r=0.87-0.92），而不是能不能召回",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/863cf5ad.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ee2d3cbd",
+      "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+      "url": "https://arxiv.org/abs/2610.22341",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yipeng Gao, Ziyao Zeng, Jinfa Huang, et al.",
+        "original_date": "2026-10-15"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "3d-generation",
+        "dataset",
+        "verification",
+        "world-models"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "3DCodeVerse 是让 coding agent 规模化生成可编辑可验证3D 内容的研究生态：3DCodeVerse-2M 数据集收录大规模独立可执行 3D 代码，每条程序连同源文件资产声明环境的执行依赖与验证记录打包；3DCodeVerse Harness 以多智能体 DAG 框架做生成与 refinement，靠执行检查空间测量与视觉反馈在无人工介入下自动评估修改；系统实证给出微调开源模型的 3D 编码基线与组件级经验由 Claude Opus 5.5 驱动时，该 harness 在成对人评中对 Claude Design (3D Object) 拿下 90% 胜率",
+      "summary_en": "A research ecosystem for coding agents creating editable, verifiable 3D content at scale: 3DCodeVerse-2M, a curated dataset of standalone executable 3D code where each program ships with source files, assets, declared-environment execution requirements, and verification records; the 3DCodeVerse Harness, a multi-agent DAG framework that uses execution checks, spatial measurements, and visual feedback to automatically evaluate and revise generated programs without human feedback; and systematic empirical studies deriving 3D-coding baselines and guidance for fine-tuned open models. Driven by Claude Opus 5.5, the harness wins 90% of pairwise human evaluations against Claude Design (3D Object).",
+      "one_liner": "把 3D 内容变成代码即资产：大规模可执行 3D 程序数据集 + 执行/空间/视觉三重自动验证的多 agent harness，成对人评胜 Claude Design 90%",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/ee2d3cbd.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2bf2816e",
+      "title": "Grid-Bench: Can LLMs Predict How Discrete Worlds Change?",
+      "url": "https://arxiv.org/abs/2610.22312",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zixiang Xu, Zirui Song, Wanrong Zheng, et al.",
+        "original_date": "2026-10-15"
+      },
+      "category": "models",
+      "tags": [
+        "benchmark",
+        "spatial-reasoning",
+        "state-tracking",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Grid-Bench 用可执行基准考察 LLM 的世界状态跟踪：8 类操作族在 2/3/4 维网格上变换离散世界，给定初始网格显式规则与文本事件史，模型要预测完整最终网格，参考执行让每个格子的预测都可核对6 个 LLM 的结果：历史越长完整状态准确率急剧下滑；单步表现相近的模型在长历史上分化明显；exact-match 相近的模型在共享实例的错误格子数上差异很大；即便历史很长，部分模型仍能恢复大量超出照抄初始状态的正确变化",
+      "summary_en": "An executable benchmark for LLM world-state tracking: eight families of operations transform discrete worlds represented as 2D/3D/4D grids; given the initial grid, explicit rules, and a textual event history, the model predicts the complete final grid, and reference execution makes every predicted value checkable. Evaluating six LLMs: complete-state accuracy falls sharply as histories grow; models with similar single-event performance diverge substantially on longer histories; similar exact-match accuracy can hide large differences in the number of incorrect cells on shared instances; and even over long histories some models recover many correct changes beyond copying the initial state.",
+      "one_liner": "网格世界版状态跟踪基准：事件史一长 LLM 完整状态预测骤降，单步分数相近的模型长程分化明显错误格子数差距被 exact-match 掩盖",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/2bf2816e.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9b13d6a7",
+      "title": "DeepSeek-V4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "source": {
+        "platform": "blog",
+        "author": "deepseek-ai",
+        "original_date": "2026-10-17"
+      },
+      "category": "models",
+      "tags": [
+        "deepseek",
+        "model-release",
+        "agentic-coding",
+        "open-weights",
+        "benchmark"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "DeepSeek-V4.1-Flash 的小幅更新版：推理编码agentic 与视觉基准全面提升，同时压缩任务执行时长与输出长度，在多个 agent harness 上推进性能-成本帕累托前沿对比上一版：Terminal-Bench 4.0 42.3 vs 31.2（Claude Code harness）ProgramBench 29.1 vs 20.3Automation-Bench 60.5 vs 54.8Agents' Last Exam 35.4 vs 31.8DeepSWE v1.1 77.0；MIT 许可DeepseekV41ForCausalLM 架构支持图像输入fp8 权重值得注意的是官方不提供 Jinja chat template，改为自带带测试用例的 Python encoding.py 参考实现，并配套 deepseek-recipe Rust 库做协议感知的提示编码与流式输出解析",
+      "summary_en": "Minor update to DeepSeek-V4.1-Flash delivering substantial gains across reasoning, coding, agentic, and visual benchmarks while cutting task execution time and output length, advancing the performance-cost Pareto frontier across multiple agent harnesses. Vs the previous version: Terminal-Bench 4.0 42.3 vs 31.2 (Claude Code harness), ProgramBench 29.1 vs 20.3, Automation-Bench v1.0.6 60.5 vs 54.8, Agents' Last Exam 35.4 vs 31.8, DeepSWE v1.1 77.0; MIT license, DeepseekV41ForCausalLM, image-text-to-text, fp8. Notably ships no Jinja chat template: instead a self-contained tested Python encoding.py reference plus the deepseek-recipe Rust libraries for protocol-aware prompt encoding/decoding (Messages/Chat Completions/Responses API in, V4/V4.1 tokens and parsed streamed responses out).",
+      "one_liner": "DeepSeek 小版本大跃进：Terminal-Bench 42.3（+11.1）输出更短更便宜；放弃 Jinja 模板改发带测试的 encoding.py 与 Rust 编解码工具链",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9b13d6a7.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c19e7ef0",
+      "title": "You could have invented transformers from memory",
+      "url": "https://alexwang.ai/posts/associative-memory",
+      "source": {
+        "platform": "blog",
+        "author": "Alex Wang",
+        "original_date": "2026-10-15"
+      },
+      "category": "models",
+      "tags": [
+        "transformers",
+        "associative-memory",
+        "attention",
+        "mlp",
+        "capacity"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "把线性层MLPself-attention 统一解读为三种联想记忆存储，用干扰-信号比这一个量刻画容量：干扰增长到与信号同量级即容量上限外积（Hebbian）累积正是 linear attention/fast weights 的状态，一步梯度下降则等价于一次记忆写入64 维键下，容量从线性层（约 64 条记忆）到 MLP（约 2700）再到 self-attention（超百万）逐级跃升配交互式演示与代码，是把注意力机制讲成记忆检索的直观教程",
+      "summary_en": "Tutorial post deriving linear maps, MLPs, and self-attention as increasingly capable associative memory stores, analyzed via one quantity: the interference-to-signal ratio, whose saturation point defines capacity. Outer-product (Hebbian) accumulation is exactly the state of linear attention / fast weights, and a gradient descent step is a memory write. With 64-dimensional keys, capacity jumps from about 64 memories (linear layer) to about 2,700 (MLP) to over a million (self-attention). Includes an interactive app and code; a compact mental model for why attention scales where fixed-weight layers cannot.",
+      "one_liner": "把 transformer 各层读成记忆体：线性层存约 64 条MLP 约 2700self-attention 百万+，容量差三个数量级源于干扰控制方式",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/c19e7ef0.md",
+      "images": [],
+      "added_date": "2026-10-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-17",
-  "total_entries": 2766
+  "last_updated": "2026-10-18",
+  "total_entries": 2774
 }
