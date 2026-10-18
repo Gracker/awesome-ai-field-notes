@@ -4688,7 +4688,9 @@
       "added_date": "2026-06-07",
       "updated_date": "2026-09-30",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "3887fc82"
+      ],
       "local_path_valid": true
     },
     {
@@ -12378,7 +12380,9 @@
       "added_date": "2026-06-07",
       "updated_date": "2026-09-30",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a40dec6e"
+      ],
       "local_path_valid": true
     },
     {
@@ -71488,7 +71492,9 @@
       "added_date": "2026-09-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "a278a014"
+      ]
     },
     {
       "id": "93b15eb0",
@@ -74827,7 +74833,9 @@
       "added_date": "2026-09-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "b03e02c0"
+      ]
     },
     {
       "id": "f548c566",
@@ -84523,6 +84531,6 @@
       ]
     }
   ],
-  "last_updated": "2026-10-18",
+  "last_updated": "2026-10-19",
   "total_entries": 2781
 }
