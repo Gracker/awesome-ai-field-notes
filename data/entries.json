@@ -84718,8 +84718,146 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "ba9b6641",
+      "title": "What requirements don't you have?",
+      "url": "https://seangoedecke.com/what-requirements-dont-you-have",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-10-19"
+      },
+      "category": "coding",
+      "tags": [
+        "software-design",
+        "system-design",
+        "coding-agents",
+        "rlvr",
+        "tradeoffs"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Sean Goedecke 给出一条系统设计判断：优雅系统是主动放弃了某些需求的产品Unicorn 不支持共享可变状态换来进程级隔离无视慢客户端换来 Unix socket 直排队；S3 砍掉多 key 原子更新换来 blob 级存储与水平扩展；StatsD 默认 UDP 换来低成本；SQLite 砍掉并发写换来单文件运维难点在于\"该放弃哪条\"同时需要技术与商业判断，而工程师与 PM 激励错位难以互查工作，大公司常把设计互相堵死，独立开发者反而能砍需求落到 AI 语境：经 RLVR 调过的前沿模型极度想满足评分器又缺业务上下文，常为假设性需求加 mutexTOCTOU 检查和并发分层，他的 review 习惯是先看 diff 里多了哪些锁",
+      "summary_en": "Sean Goedecke argues elegant systems are defined by the requirements they drop: Unicorn's lack of shared state buys process isolation, S3's lack of atomic multi-key updates buys blob-level scaling, StatsD's UDP-default buys cheap aggregation, SQLite's lack of concurrent writes buys single-file simplicity. Deciding what to drop requires both technical and business judgment, which is why engineers and PMs with misaligned incentives rarely manage it, while solo developers can. With coding agents it matters more: RLVR-trained models are obsessed with satisfying the grader and lack business context, so they add mutexes, mid-request consistency checks, and concurrency layers for hypothetical requirements.",
+      "one_liner": "把\"优雅系统=主动砍需求\"写成可操作判断的设计文章，并用 RLVR 模型的讨好倾向解释了 AI 生成代码为何越写越重",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ba9b6641.md",
+      "images": [],
+      "added_date": "2026-10-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6c5635ec",
+      "title": "Premium: Venture Capital Is Killing Itself",
+      "url": "https://www.wheresyoured.at/premium-venture-capital-is-killing-itself",
+      "source": {
+        "platform": "newsletter",
+        "author": "Ed Zitron",
+        "original_date": "2026-10-16"
+      },
+      "category": "industry",
+      "tags": [
+        "venture-capital",
+        "jobs-act",
+        "ipo",
+        "valuation",
+        "anthropic",
+        "ai-bubble"
+      ],
+      "source_type": "newsletter",
+      "language": "en",
+      "summary_zh": "Ed Zitron 的 Premium 长文（39 分钟阅读）把十四年科技估值泡沫的根因钉在 2012 年 JOBS 法案上：1964 年 Section 12(g) 的\"500 股东即须按公众公司披露\"曾把 FacebookGoogleMicrosoft 逼上市，2012 年法案把门槛抬到 2000 并把员工持股排除出计算，公司从此可以长期不上市，估值交给风投自我循环标定他点名 Anthropic IPO 叫价 $2 万亿（对应远期 $2000 亿年收入与 $30 万亿 TAM），零收入 AI agent 公司 Instinct 因红杉BenchmarkCoatue 的 $1B 占 10% 被标到 $100 亿；对比 MicrosoftGoogleFacebook 上市时 $5 亿/$230 亿/$1000 亿市值，散户已无早期入口结论：当前系统激励有钱人 inflate 私人资产，他主张改革乃至直接废除 JOBS 法案",
+      "summary_en": "Ed Zitron traces the private-valuation bubble to the 2012 JOBS Act: the 1964 Section 12(g) rule (500 shareholders forced public-style reporting) once pushed Facebook, Google and Microsoft into IPOs, but the Act raised the threshold to 2,000 shareholders and stopped counting employee equity, removing any incentive to go public early. He cites Anthropic demanding a $2 trillion valuation on promises of $200 billion future annual revenue and a $30 trillion TAM, and zero-revenue AI agent startup Instinct marked to $10 billion because Sequoia, Benchmark and Coatue paid $1B for 10%. Microsoft ($500M), Google ($23B) and Facebook ($100B) IPO caps show retail investors no longer get early entry; he aggressively advocates reforms, if not outright repeal, of the JOBS Act.",
+      "one_liner": "把 AI 估值泡沫的监管根因钉在 JOBS 法案上：Anthropic $2T IPO 与 Instinct $10B 是它最锋利的两个展品",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6c5635ec.md",
+      "images": [],
+      "added_date": "2026-10-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "84b582e8",
+      "title": "字节跳动技术副总裁洪定坤：AI Coding 的实践与探索",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU1MDgyNzk5Ng%3D%3D&mid=2247493973&idx=1&sn=09a66dc79818087cf98a599bef4db6f7&chksm=fa83b14e595db270e222e99364eb59852abd3647320f01f4e862e437d582d6ff2cfaf0f98b9d&mpshare=1&scene=1&srcid=0624XSMUVqTnROKt4Nicqt8W&sharer_shareinfo=19be68f2e9d9905bc00a98dac223f04f&sharer_shareinfo_first=4b5297f1a76ab96fa015970f529d5385",
+      "source": {
+        "platform": "cubox",
+        "author": "洪定坤（字节跳动技术副总裁）",
+        "original_date": "2026-06-24"
+      },
+      "category": "coding",
+      "tags": [
+        "ai-coding",
+        "trae",
+        "harness",
+        "vibe-coding",
+        "bytedance",
+        "enterprise",
+        "metrics"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "火山引擎 Force 原动力大会演讲全文（2026-06-23）：字节 AI 代码贡献率一年增长 6 倍多tokens 消耗 5 倍合入率超 2 倍，但洪定坤坦承数字好看不等于实践成功TRAE 团队 90% 代码由 AI 编写，人均需求吞吐率只提升 60%（1.6 倍），说明单一贡献率指标严重失真豆包视频创作需求的 900 次实验（3 个主流模型 3 个 Agent 框架 各跑 100 次）显示：正确率全部超过 80%，但 UI 易用性可靠性可维护性性能等可交付性维度普遍跌到 40-60 分；接入 Harness 基建（上下文工程架构约束Memory技术债梳理）后，正确率接近 90%，可交付性升至约 80 分结论：让 Vibe Coding 走向软件工程靠的是基建而非 Agent 框架本身；TRAE 日均 token 消耗 5.6 万亿一年增长 50 倍",
+      "summary_en": null,
+      "one_liner": "字节 AI Coding 一手数据：90% AI 代码只换来 1.6x 需求吞吐，900 次实验证明可交付性要靠 Harness 基建从 40-60 分拉到 80 分",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/84b582e8.md",
+      "images": [
+        "https://image.cubox.pro/cardImg/6b52iodjell6dbd6ggnzuie5nen6gp6y6xiaro5qdgu74tbpfd?imageMogr2%2Fquality%2F90%2Fignore-error%2F1=",
+        "https://image.cubox.pro/cardImg/5v7kxxjfkz59076u2g85pq9x11gapvhcal2hvdre65diy78prq?imageMogr2%2Fquality%2F90%2Fignore-error%2F1=",
+        "https://image.cubox.pro/cardImg/1ya6n6u8l8g2wbpgev80s5y7iqq4smsaiesu2eln40jydvjwt8?imageMogr2%2Fquality%2F90%2Fignore-error%2F1=",
+        "https://image.cubox.pro/cardImg/2azzaukm5wmmmme2bo54zvlwgxkiio5q9n1lf25qtsu2a3xdse?imageMogr2%2Fquality%2F90%2Fignore-error%2F1=",
+        "https://image.cubox.pro/cardImg/142kjrfiaxz4rnh4gfw7ii4g6aa72u19evi45sxc7xh1qqee7q?imageMogr2%2Fquality%2F90%2Fignore-error%2F1="
+      ],
+      "added_date": "2026-10-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4c6c987b",
+      "title": "Investing in the public benefit",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic",
+        "original_date": "2026-10-18"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "governance",
+        "public-benefit",
+        "philanthropy",
+        "ipo",
+        "labor-market"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 官宣设立 Public Benefit Fund（2026-10-18）：经股东批准后 5% 股份即日拨入，公司价值相对基线每增长 50%，董事会可裁量追加最多 2%；基金设为全资 LLC 而非 501(c)(3)，以便在不同捐赠形态间保持调整空间，LLC 所持股权不用于美国或境外游说与政治捐赠叠加联合创始人 80% 持股捐赠承诺与约半数员工参与的股权捐赠匹配计划，公司口径约 20% 股份面向公共用途劳动市场影响被点名为优先方向：已有 $2 亿相关研究承诺，\"鉴于 AI 进展速度，可能需要更大胆的做法\"与既有结构分三层：PBC 公司体内的使命工作LTBT 治理席位本次的对外捐赠基金；估值基线与治理细则未来数月披露",
+      "summary_en": "Anthropic announces the Anthropic Public Benefit Fund: subject to stockholder approval, 5% of shares are committed today, with an additional 2% at the board's discretion for every 50% increase in company value above a set baseline. The Fund is a wholly-owned LLC (not a 501(c)(3)) for flexibility between giving forms, and none of its Anthropic equity will be used for lobbying or political giving. Combined with co-founders' 80% pledge and an equity-donation match program (about half of employees participate), roughly 20% of Anthropic shares will be dedicated to the public good. Labor market impacts are named as a priority (Anthropic has committed $200 million; \"given the pace of AI progress, bolder approaches may be needed\"). Valuation milestones and governance details come in the next few months, alongside a public benefit report.",
+      "one_liner": "IPO 前夜把 5% 股份写进可随估值追加的公共基金：Anthropic 治理结构的第三层拼图，基线与细则留给后续披露",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4c6c987b.md",
+      "images": [],
+      "added_date": "2026-10-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-19",
-  "total_entries": 2787
+  "total_entries": 2791
 }
