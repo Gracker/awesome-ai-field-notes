@@ -84529,8 +84529,197 @@
         "cd4284b4",
         "ecb41a28"
       ]
+    },
+    {
+      "id": "a074042a",
+      "title": "Agent Sociodrama: Social-Dynamics-Guided Persona Recasting for LLM Agent Teams",
+      "url": "https://arxiv.org/abs/2610.15788",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yirui Qi, Xiaoming Zhang, Jaehong Yoon",
+        "original_date": "2026-10-11"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "persona",
+        "social-dynamics",
+        "team-repair"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM agent 团队会以典型的社交方式失败：掌握信息的 agent 沉默不语，强势发言者把整个小组锚定在错误答案上，违规行为无人制止Agent Sociodrama 把团队社交动态本身变成可建模可验证的对象：persona 固定不变，由统一的外部 LLM 裁判每轮更新各 agent 的情绪状态和有向非对称关系，再影响后续交互；在 6 个骨干模型5 个社交场景上用经典社会理论模式和人类判断验证轨迹的社会保真度在此基础上提出 Trajectory-Guided Persona Recasting（TPR）：从交互记录与社会轨迹诊断群体动态层面的失败，在重跑任务前重塑 persona4 个协作基准上，TPR 对异构与随机初始化的 persona 组合最高带来 83.3 个百分点准确率提升，并在 4 组对比中的 3 组超过 SOTOPIA 与 AgentVerse（Pareto 率最高 +37.5pct），说明经过验证的社交轨迹是修复 agent 团队的可操作信号",
+      "summary_en": "LLM agent teams fail in characteristically social ways: information holders stay silent, dominant speakers anchor groups on wrong answers, and norm violations go unsanctioned. Agent Sociodrama models evolving social dynamics in agent teams: under fixed personas, a unified external LLM judge updates each agent's emotional state and directed, asymmetric relationships every round, shaping subsequent interactions. Across six LLM backbones and five social scenarios, trajectories are validated against classical social-theory patterns and human judgments. The authors then introduce Trajectory-Guided Persona Recasting (TPR), which diagnoses group-dynamic failures from interaction transcripts and social trajectories and recasts personas before rerunning....",
+      "one_liner": "Agent 团队失败先查社交轨迹再重塑 persona：4 个协作基准最高 +83.3pct，3/4 对比胜过 SOTOPIA 和 AgentVerse",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a074042a.md",
+      "images": [],
+      "added_date": "2026-10-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "410aa106",
+      "title": "MindEval2: Clinically Grounded Patients and Rubrics for Evaluating Language Models in Mental Health Support",
+      "url": "https://arxiv.org/abs/2610.22314",
+      "source": {
+        "platform": "arxiv",
+        "author": "John Mendona et al.",
+        "original_date": "2026-10-15"
+      },
+      "category": "models",
+      "tags": [
+        "evaluation",
+        "mental-health",
+        "llm-as-judge",
+        "safety"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "越来越多人向 AI 聊天机器人寻求心理支持，但现有评测里的模拟病人往往过分配合过度自省，LLM 评审又依赖语义不透明的 Likert 量表MindEval2 由两部分组成：与博士级心理学家合作制定的 Mental Health Quality Rubrics（MHQR），把回复质量拆成比现有分类法更可解释可操作的标准；以及病人模拟 harness MindSim，结合精细设计的病人画像与工具，并带有每次交互之间更新的记忆组件来建模心理支持的纵向过程对 18 个专有与开源权重模型的评测显示：前沿模型在表层质量和边界问题上已大幅改善，但 guidance calibration 仍然是所有模型的首要失败模式，贡献了大部分质量差距",
+      "summary_en": "MindEval2 is an evaluation framework for language models in mental health support. It combines Mental Health Quality Rubrics (MHQR), developed with PhD-level psychologists to break response quality into explicit operational criteria more interpretable and actionable than existing taxonomies, and MindSim, a patient-simulation harness that pairs carefully designed patient profiles with tools and a memory component updated between interactions to model the longitudinal aspect of mental health. Evaluating 18 proprietary and open-weight models, the authors find frontier models have largely improved on surface-level quality and boundary issues, but guidance calibration remains the dominant failure mode across all models, accounting for most of the quality gap.",
+      "one_liner": "18 个模型的心理支持评测：表层质量与边界已改善，guidance calibration 是所有模型的头号失败模式",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/410aa106.md",
+      "images": [],
+      "added_date": "2026-10-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "58426464",
+      "title": "Twice Upon a Time: Complementary Representations for Time-Series Reasoning",
+      "url": "https://arxiv.org/abs/2610.22327",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hedi Zisling et al.",
+        "original_date": "2026-10-15"
+      },
+      "category": "models",
+      "tags": [
+        "time-series",
+        "multimodal",
+        "representation-learning",
+        "tslm"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "时序语言模型（TSLM）通常只给语言模型喂一种时序表示，等于固定了归纳偏置这篇工作把互补表示当作设计原则：折线图视图保留绝对测量值与观测坐标系，归一化 delay embedding 则滤掉幅度缩放和平移凸显时间结构；两个视图经专用视觉编码器以 visual token 和多级特征融合进共享的 Qwen3-VL-8B双视图模型把 TSRBench 总体准确率从单折线图的 44.5% 提到 53.2%，显著超过最强专用 TSLM 基线的 36.7%；TSExam 达 89.9%，多变量 ChatTS 对齐数值准确率 86.8%消融显示两个视图的不变性特征不同，组合收益主要体现在基础感知之上的预测与推理",
+      "summary_en": "Time-series language models (TSLMs) typically expose the language model to a single representation, imposing a fixed inductive bias. The authors propose complementary representations as a design principle: a line-plot view preserves absolute measurements and the observed coordinate frame, while a normalized delay embedding factors out amplitude rescaling and offsets and exposes temporal structure; both views are encoded by dedicated visual encoders and fused into a shared Qwen3-VL-8B backbone via visual tokens and multi-level feature fusion. The dual-view model raises TSRBench overall accuracy from 44.5% with line plots alone to 53.2%, substantially above the strongest dedicated TSLM baseline at 36.7%, and reaches 89.9% on TSExam and 86.8% numerical accuracy on multivariate ChatTS alignment....",
+      "one_liner": "时序语言模型双视图设计：折线图保量纲 + delay embedding 显时间结构，TSRBench 44.5%53.2%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/58426464.md",
+      "images": [],
+      "added_date": "2026-10-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9453b739",
+      "title": "OpenCode Hacked: User credentials leaked",
+      "url": "https://news.ycombinator.com/item?id=50133401",
+      "source": {
+        "platform": "news",
+        "author": "OpenCode announcement via HN (submitted by pranshuchittora)",
+        "original_date": "2026-10-18"
+      },
+      "category": "coding",
+      "tags": [
+        "security-incident",
+        "api-keys",
+        "distillation",
+        "ai-coding-tools",
+        "opencode"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "OpenCode 安全事件的 HN 讨论帖（官方公告发于 X）：失守的是 OpenCode Console一个类似 OpenRouter代管用户 BYOK API key 的托管服务，而非开源的 OpenCode CLI/agent 本体；评论澄清只影响 Console 用户，受影响者已收到官方邮件，有人报告 Anthropic/OpenAI 账户额度被盗用OpenCode 称泄露的凭据与一场大规模 distillation 攻击有关，帖子对此争议很大：尚无详细 RCA，有人要求公开攻击者查询数据集以便独立验证；讨论还暴露了 Console/CLI/Zen/Go 的产品命名混乱，并讨论了 invalidate_api_key 一键作废接口GitHub secret scanning 自动吊销等缓解思路",
+      "summary_en": "HN discussion of the OpenCode security incident (announcement posted on X): the breach hit OpenCode Console a hosted, OpenRouter-like service where users store bring-your-own API keys not the open-source OpenCode CLI/agent; commenters clarify only Console users were affected, OpenCode emailed affected users, and some reported drained Anthropic/OpenAI credits. OpenCode attributed the leaked credentials to a large-scale distillation attack; the thread debates that claim heavily, notes no detailed RCA exists yet, and asks for public attack-query datasets for independent verification. The discussion also surfaces product-naming confusion (Console vs CLI vs Zen vs Go) and mitigation ideas such as an invalidate_api_key endpoint and GitHub secret-scanning auto-revocation.",
+      "one_liner": "OpenCode Console 被入侵：BYOK API key 泄露并称用于大规模 distillation，CLI 本体不受影响，RCA 未出",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9453b739.md",
+      "images": [],
+      "added_date": "2026-10-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dbca5928",
+      "title": "Amazon uses AI to monitor union risk in UK warehouses",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield",
+      "source": {
+        "platform": "news",
+        "author": "openDemocracy",
+        "original_date": "2026-10-16"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-surveillance",
+        "labor",
+        "amazon",
+        "forecasting",
+        "union"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "openDemocracy 披露的内部文件来自 Amazon 与一家加拿大工会的诉讼：Amazon 自研 AI 预测工具 Atlas 会汇集数百个数据点Reddit 帖子内部反馈调查职场信息与既往劳资行动给美国加拿大和英国的仓库打 100 到 900 的工会活动风险分，分数越低代表越可能工会化；仓库按五档分级，从活动迫在眉睫到无可感知风险，文件称该分级用于指导人员配置资源规划与标准动作，以缓解对 Amazon 劳资结构的威胁Leigh Day 律所合伙人认为这与 Amazon 此前不阻止员工加入工会的公开立场完全不同；Amazon 否认 Atlas 监控个别员工，只称其做整体风险预测",
+      "summary_en": "openDemocracy reports on internal documents made public in a court battle between Amazon and a Canadian union: Amazon's in-house AI forecasting tool Atlas amasses hundreds of data points Reddit posts, internal survey responses, workplace information, and previous industrial action to score warehouses in the US, Canada and the UK between 100 and 900 for likely union activity, with lower scores meaning higher perceived risk. Sites are tiered one to five, from imminent future activity to no immediate perceived risk, and the documents describe the scale as informing staffing decisions, resource planning, and standard actions to mitigate risks to Amazon's labour structure. A Leigh Day partner says this tells a very different story from Amazon's public stance; Amazon denies Atlas monitors individual employees.",
+      "one_liner": "Amazon 内部文件：Atlas AI 给英美加仓库打 100-900 工会风险分并分五档用于 staffing 决策",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dbca5928.md",
+      "images": [],
+      "added_date": "2026-10-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a709c24b",
+      "title": "Someone behind the software",
+      "url": "https://karrisaarinen.com/posts/someone-behind-the-software",
+      "source": {
+        "platform": "blog",
+        "author": "Karri Saarinen",
+        "original_date": "2026-10-15"
+      },
+      "category": "industry",
+      "tags": [
+        "product-craft",
+        "agents",
+        "ai-assisted-coding",
+        "essay",
+        "linear"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Linear CEO Karri Saarinen 谈 AI 时代的产品手艺：好产品带着制造者的视角直觉是经验长出来的观点，不是个人偏好，也不是无脸的数据他担心的是另一幅图景：每个人带着 agent 独立产出改动，各自运营一座小型软件工厂，每处改动单看都合理，合起来却是弗兰肯斯坦的怪物而不是精心雕琢的作品产品变成所有产出的平均值，能用的东西更多了，却更难感觉到背后有个人甚至有个东西在结语：我想在软件背后感觉到创造者，而不是工厂",
+      "summary_en": "Linear CEO Karri Saarinen argues good products carry the perspective of the people who make them, and that intuition is a point of view developed through experience and understanding not personal preference, and not faceless data. He contrasts this with treating software as a factory pipeline, and with what happens when individuals work with agents to produce changes independently, each operating a small software factory: every change might make sense on its own, but together they resemble Frankenstein's monster rather than a carefully shaped sculpture the product becomes an average of outputs without shared perspective, where more things work but it becomes harder to feel someone behind them. He closes: I want to feel the creator behind the software, not the factories.",
+      "one_liner": "Linear CEO：人人带 agent 开小软件工厂，产品会变成弗兰肯斯坦的怪物软件背后要能感觉到创造者",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a709c24b.md",
+      "images": [],
+      "added_date": "2026-10-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-19",
-  "total_entries": 2781
+  "total_entries": 2787
 }
