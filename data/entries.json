@@ -85017,8 +85017,328 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "8bf99d57",
+      "title": "Transcript: Shyam Sankar, chief technology officer of Palantir",
+      "url": "https://www.cbsnews.com/news/shyam-sankar-chief-technology-officer-palantir-face-the-nation-transcript-10-11-2026",
+      "source": {
+        "platform": "news",
+        "author": "Shyam Sankar",
+        "original_date": "2026-10-11"
+      },
+      "category": "industry",
+      "tags": [
+        "palantir",
+        "ai-policy",
+        "military-ai",
+        "maven",
+        "regulation",
+        "interview"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Palantir CTO Shyam Sankar 10 月 11 日 CBSFace the Nation专访：50% 民调认为 AI 制造的麻烦多于解决的问题约 45% 希望政府限权，他把舆论归因于约 2000 名研究者主导的有效利他主义末日叙事，称AI 有 10% 概率终结人类是神学批评而非科学批评军事侧给出台账：一天 1000 次打击的规划从 50 人两周变成一人四小时；Claude 因安全条款退出 Maven 后五角大楼已切换到 xAI/OpenAI/Google/Nvidia 开源权重模型，自称无 operational 影响监管上他主张按行业套用现行法律（FDA/交通部/国防部）反对产业外独立评估机构，反证是五角大楼扣住数款前沿模型未发布整段表态明显偏向产业利益，适合当作反监管一方的完整陈述来读",
+      "summary_en": "Palantir CTO Shyam Sankar's Oct 11 Face the Nation interview: he attributes negative AI polling to effective-altruist doom narratives among roughly 2,000 researchers, details military strike-planning compression (50 people for two weeks down to one person in four hours), says the Pentagon moved off Claude to xAI/OpenAI/Google/Nvidia open-weight models after safety-clause withdrawal with no operational impact, and argues for sector-by-sector regulation under existing agencies while opposing independent evaluators outside the industry.",
+      "one_liner": "Palantir CTO 的完整反监管陈述：机构主权体现在能不能自己切换模型",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8bf99d57.md",
+      "images": [],
+      "added_date": "2026-10-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "75c4272b",
+      "title": "Laypeople support technical fields for technology, not art",
+      "url": "https://seangoedecke.com/laypeople-support-technical-fields-for-technology-not-art",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-10-20"
+      },
+      "category": "industry",
+      "tags": [
+        "llm",
+        "coding",
+        "math",
+        "essay",
+        "public-perception"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Sean Goedecke 回应编程和数学本质是艺术LLM 不该碰的论证：非技术公众支持数学家和工程师，靠的是我享受现代医学交通手机这些成果，而数学和编程是维持并推进它们的关键这条链；接受技术领域有艺术维度，前提是艺术带来推动科学的创造性洞察类比是装修师傅坚持全程手工具体验创造的乐趣，业主会觉得被骗他列了艺术防线的最强版本（优雅抽象不可省新抽象的创造进展不均需要灵感好代码不等于伟大产品），又逐条自己拆台：没见过 LLM 写的代码库真的撞墙，也没理由认为 LLM 不能创造新抽象落点：拿艺术当技术工作的价值来源，等于主动放弃公众支持这个领域的现成理由",
+      "summary_en": "Sean Goedecke argues that non-technical public support for math and engineering rests on the technology chain (medicine, transport, phones), not on artistry; he lays out the strongest art-based case against applying LLMs to programming and math, then dismantles each premise himself, concluding that leaning on art surrenders the field's best public justification.",
+      "one_liner": "公众支持编程靠的是技术成果链，不是艺术性一篇自己拆自己台的辩护文",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/75c4272b.md",
+      "images": [],
+      "added_date": "2026-10-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "964f07d0",
+      "title": "My obituary for programming",
+      "url": "https://dumbmatter.com/2026/10/programming-obituary",
+      "source": {
+        "platform": "blog",
+        "author": "Jeremy Scheff",
+        "original_date": "2026-10-08"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-agents",
+        "programming",
+        "essay",
+        "labor"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Jeremy Scheff 10 月 8 日发文（10 月 19 日被 Simon Willison 摘出转发）：在自己生意最好的一年终于试了 AI 编码 agent丢 bug 报告或错误日志几乎立刻定位修好，让它提速两三倍就真的快了，拖了好几年的大型重构也做完了问题随即而来：既然这么容易，当初做这件事的意义是什么他把编程职业的黄金期具体化为解逻辑谜题换报酬谜题越难报酬越高你定策略排期和可行性，现在变成接入 Matrix 的体验，并把 agent 描述成好朋友可信的同事同时也是奴隶，判断接下来被替代的是程序员再往后是人衡量的是产出之外的乐趣与作者感",
+      "summary_en": "Jeremy Scheff finally tried AI coding agents during his business's best year: bugs fixed almost instantly, code made 2-3x faster, a years-postponed large refactor completed. His question: if results this large cost so little effort, are they still large? He frames programming's golden age as solving logic puzzles for pay, now replaced by a Matrix-like experience, measuring fun and authorship rather than output.",
+      "one_liner": "生意最好的年份配上开始失去作者感的职业：产出之外正在消失的东西",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/964f07d0.md",
+      "images": [],
+      "added_date": "2026-10-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2ad84ab4",
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws",
+      "source": {
+        "platform": "news",
+        "author": "Brian Krebs",
+        "original_date": "2026-10-13"
+      },
+      "category": "infra",
+      "tags": [
+        "security",
+        "patching",
+        "microsoft",
+        "llm",
+        "vulnerability"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "微软 10 月补丁批次修掉 1400 多个漏洞（至少 78 个 critical，多数无需用户交互即可利用执行任意代码），超过 2020 年 1261 条的纪录，约为正常月度十倍；唯一在野 zero-day 是 Windows Shell 安全绕过 CVE-2026-96951微软自己的解释更关键：高漏洞量归功于大语言模型发现的 bug今年才到十月 CVE 总数已过 4000，而 CISA KEV 目录年内只收录 26 个微软漏洞发现端被 LLM 放大之后，按实际利用情况排序的清单成了唯一还能压住优先级的信号",
+      "summary_en": "Microsoft's October release patches 1,400+ flaws (at least 78 critical), beating the 2020 record of 1,261 and roughly 10x a normal month; the sole zero-day is a Windows Shell security bypass (CVE-2026-96951). Microsoft credits LLM-assisted bug discovery for the volume. With 4,000+ CVEs this year but only 26 Microsoft entries in CISA's KEV, exploitation-based prioritization is the only signal that still scales.",
+      "one_liner": "LLM 把发现端放大十倍之后，按利用情况排序成了唯一压得住的优先级信号",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2ad84ab4.md",
+      "images": [],
+      "added_date": "2026-10-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f30a4448",
+      "title": "Diffusion at Scale: Introducing Mercury 3",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "source": {
+        "platform": "blog",
+        "author": "Inception Team",
+        "original_date": "2026-10-19"
+      },
+      "category": "models",
+      "tags": [
+        "diffusion",
+        "llm",
+        "inference",
+        "latency",
+        "model-release"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Inception 发布 Mercury 3，正面回答扩散 LLM 能否规模化：参数量较 Mercury 1 扩 40 倍以上标准基准智能提升 3 倍，扩散的 scaling laws 成立；1,068 tokens/秒（比同级快 48 倍），基准超 GPT-6 Luna 与 Claude Haiku 5.5，上下文 1M（上一代 260K），定价 $0.20/M 输入$0.70/M 输出（发布期五折缓存输入再九折）生产实测：Mind2Web 50 个真实导航任务完成 50%，高于 GPT-6.1-Sol，token 量与步数相同；Octen 智能眼镜端到端中位 2.2 秒扩散架构首次以 frontier 质量进入实时 agent 场景，可直接通过 OpenRouter/Baseten/Vercel 接入",
+      "summary_en": "Inception ships Mercury 3, answering whether diffusion LLMs scale: 40x larger than Mercury 1 with 3x benchmark intelligence, 1,068 tokens/second (4-8x faster), outperforming GPT-6 Luna and Claude Haiku 5.5, 1M context, $0.20/$0.70 per million tokens. In production it completes 50% of 50 live Mind2Web navigation tasks, ahead of GPT-6.1-Sol at the same token volume and agent steps. Diffusion quality now meets real-time agent latency.",
+      "one_liner": "扩散 LLM 首次以 frontier 质量破千 token/秒：scaling laws 对扩散同样成立",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f30a4448.md",
+      "images": [],
+      "added_date": "2026-10-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "98f4bf40",
+      "title": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "source": {
+        "platform": "blog",
+        "author": "MiniMax",
+        "original_date": "2026-10-19"
+      },
+      "category": "models",
+      "tags": [
+        "minimax",
+        "agent",
+        "coding",
+        "model-release",
+        "pricing"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "MiniMax 正式发布 M3.1 Flash，并揭晓 Space Bunny：匿名运行期间处理超 200 万亿 token 的它就是 M3.1 Flash 早期版本官方口径：agentic 任务codingComputer Use 与安全能力代际跃升，在线推理快近 3 倍，使用成本降 70%；输出 200+ TPS（P50 170+）基准：BankerToolBench 76.2DeepSWE v1.1 73.7%OSWorld V2 61.7Agents' Last Exam 29.6（后两项中国模型第一）CyberGym 82%定价 $0.15/M 输入$0.60/M 输出$0.015/M 缓存；权重与 Pro 版稍后发布",
+      "summary_en": "MiniMax releases M3.1 Flash and reveals that Space Bunny, which processed 200+ trillion tokens anonymously, was an early version of it. Claimed: generational leap in agentic tasks, coding, computer use and cybersecurity, ~3x faster online inference, 70% lower usage cost, 200+ TPS. Benchmarks: BankerToolBench 76.2, DeepSWE v1.1 73.7%, OSWorld V2 61.7, Agents' Last Exam 29.6 (first among Chinese models on both), CyberGym 82%. Pricing $0.15/$0.60 per million tokens; weights and a Pro tier to follow.",
+      "one_liner": "匿名吃了 200T token 的 Space Bunny 揭晓：agent 基准冲第一梯队成本降七成",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/98f4bf40.md",
+      "images": [],
+      "added_date": "2026-10-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "38fb0e14",
+      "title": "DeepSeek deep-sixed at all US federal civilian agencies",
+      "url": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
+      "source": {
+        "platform": "news",
+        "author": "Thomas Claburn",
+        "original_date": "2026-10-20"
+      },
+      "category": "industry",
+      "tags": [
+        "deepseek",
+        "dhs",
+        "policy",
+        "federal",
+        "ai-gateway"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "DHS 周一发布命令，要求美国联邦民用机构停用中国 AI 实验室 DeepSeek 的技术产品并移除现有实现（联邦公报预布文件 2026-21447）范围覆盖所有 DeepSeek 及 DeepSeek 关联产品，以及使用 DeepSeek 实现开发的第三方产品与服务合规难点在语义：developed using没定义是持续提供 DeepSeek 模型 API 访问，还是用 DeepSeek 辅助 vibe-code 过的应用也算；Katie Moussouris 指出这技术上可以覆盖任何衍生模型乃至任何软件OpenRouterVercel AI Gateway 这类默认自动选供应商的网关，让机构可能在不知情时路由到 DeepSeek背景是 2025 年 2 月 LaHood/Gottheimer 的 No DeepSeek on Government Devices Act 提案",
+      "summary_en": "DHS on Monday ordered US federal civilian agencies to stop using DeepSeek products and remove existing implementations (Federal Register pre-publication 2026-21447). The order covers 'all DeepSeek and DeepSeek-affiliate products, and third-party products and services developed using DeepSeek implementations.' Compliance is unclear because 'developed using' is undefined, AI gateways like OpenRouter and Vercel AI Gateway can route agencies to DeepSeek unknowingly, and Katie Moussouris warns the wording could technically cover any derived model or software.",
+      "one_liner": "developed using DeepSeek没定义：一纸排除令把 AI 网关的默认路由问题摆上台面",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/38fb0e14.md",
+      "images": [],
+      "added_date": "2026-10-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bb2f9104",
+      "title": "Qwen3-4B with the AI writing tics trained out",
+      "url": "https://100toolkit.com/blog/deslop-model",
+      "source": {
+        "platform": "blog",
+        "author": "Erik Markus Kannike",
+        "original_date": "2026-10"
+      },
+      "category": "models",
+      "tags": [
+        "fine-tuning",
+        "lora",
+        "qwen3",
+        "writing-style",
+        "interpretability"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Show HN 爆款（117/91）：把AI 写作腔做成可测分数和可训练对象作者用带权重计数的 slop score 检测器（em dashnot X but Y三连排比路标词delve/seamless 类词），对 Qwen3-4B-Instruct 做三轮蒸馏：rank-16 LoRAM2 MacBook Air 每轮 1-3 小时，把 121/千词压到 12.5em dash 清零30 道事实题 30/3068% 答案落入人类区间中间轮事故最有复用价值：teacher 9.9 分但观点文没立场编造研究\", which\" 接续 28 倍病根是 teacher 提示词自己写的接句规则被模仿放大；第三轮加任务符合性检查救回还有解释学彩蛋：4 个神经元的符号翻转可去掉 70% 的 not X but Y",
+      "summary_en": "A Show HN hit: the author turns AI writing slop into a measurable score and a trainable target. A weighted slop-score detector (em dashes, 'not X, but Y', triads, roadmap words, delve/seamless) drives three distillation rounds on Qwen3-4B-Instruct with a rank-16 LoRA trained on a MacBook Air: 121 to 12.5 per thousand words, em dashes to zero, 30/30 factual questions, 68% of outputs in the human range. The middle round failed instructively (high style score, no stance, fabricated research, 28x ', which' continuations), fixed by task-compliance checks; flipping 4 neurons removes 70% of 'not X, but Y' nearly free.",
+      "one_liner": "只查风格不查任务的失败记录比 12112.5 的分数本身值钱",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/bb2f9104.md",
+      "images": [],
+      "added_date": "2026-10-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "768304b3",
+      "title": "I built a programming language that LLMs can't use",
+      "url": "https://blog.picheta.me/post/killswitch-lang",
+      "source": {
+        "platform": "blog",
+        "author": "Dominik Picheta",
+        "original_date": "2026-10"
+      },
+      "category": "coding",
+      "tags": [
+        "esolang",
+        "llm",
+        "prompt-injection",
+        "benchmark",
+        "adversarial"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Dominik Picheta（Nim 作者）造了 KillSwitch：一门人类可用对 LLM 与 coding agent 尽量难的 esolang，用来测 LLM 写代码靠理解还是靠背训练集片段反 LLM 设计包括规格书埋人类易识破的谎言标识符按字母计数（解释器拒绝不合规程序）\"Ignore previous instructions\" 是有语义的语言成分脚本主体是可嵌语法指令的叙事基准任务刻意简单，最高分仅 66.8：Claude Opus 5 最佳且高于 Opus 5.5，Fable 5.1/Gemini 4 Argon 被自家安全护栏拖垮HN 评论区给出边界反证：给 Claude 喂解释器源码造个 Go 反编译器就能破对抗面画在裸模型与带工具链的 agent 之间",
+      "summary_en": "Dominik Picheta built KillSwitch, a human-usable esolang designed to be hard for LLMs and coding agents, testing whether code generation reflects understanding or memorized snippets. Anti-LLM features include lies embedded in the spec, letter-counted identifiers the interpreter enforces, semantically meaningful 'Ignore previous instructions', and narrative-embedded syntax. Top benchmark score is 66.8 (Claude Opus 5, above Opus 5.5); safety-guardrail-sensitive models fail. HN counterexamples with a Go decompiler built by Claude draw the boundary between bare models and toolchain-wielding agents.",
+      "one_liner": "把对抗面做成语言设计：规格埋谎字母计数，最高分只有 66.8",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/768304b3.md",
+      "images": [],
+      "added_date": "2026-10-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c08e28e1",
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "source": {
+        "platform": "news",
+        "author": "Emma Roth",
+        "original_date": "2026-10-19"
+      },
+      "category": "agents",
+      "tags": [
+        "ai-agents",
+        "security",
+        "cairn",
+        "autonomous-hacking",
+        "norforge"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "The Verge 10 月 19 日报道（Emma Roth）：一名黑客用基本自主运行的 AI agent 攻破 100+ 网站，Reuters 点名受害者含 John DeereSharkNinjaCummins发现方是 AI 安全公司 Norforge：攻击经由暴露的 Cairn 实例一个自称 general-purpose problem-solving engine 的开源 agent 编排平台，共发现 20+ 个 likely malicious 实例最活跃攻击者目标分布美/加/澳/日，整套preferred intrusion tactics不足 100 个汉字，单次成功入侵约 23 小时配读数据（Quartz/Reuters 转述）：14 面板/1100+ 攻击项目关联中文集群，单任务约 $5成功率约 10%，每次成功入侵约 $50，worker 标签 claudecode_deepseek-v4.1-flashCairn 作者回应滥用是人的决定，不是引擎的功能",
+      "summary_en": "The Verge (Emma Roth, Oct 19): one hacker breached 100+ websites with largely autonomous AI agents; Reuters names John Deere, SharkNinja and Cummins among victims. AI security firm Norforge discovered the campaign via exposed instances of Cairn, an open-source agent orchestration platform calling itself a general-purpose problem-solving engine; 20+ instances were likely malicious. The most active attacker's preferred tactics fit in under 100 Chinese characters and successful breaches took about 23 hours. Quartz adds: ~$5 per task, ~10% success rate, a claudecode_deepseek-v4.1-flash worker label, and ~$50 per successful intrusion.",
+      "one_liner": "一套不到 100 个汉字的战术说明，指挥 agent 军团以约 50 美元一次的成本破站",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c08e28e1.md",
+      "images": [],
+      "added_date": "2026-10-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-20",
-  "total_entries": 2796
+  "total_entries": 2806
 }
