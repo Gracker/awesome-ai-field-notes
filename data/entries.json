@@ -85337,8 +85337,297 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "79e072c5",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "source": {
+        "platform": "github",
+        "author": "deepseek-ai",
+        "original_date": "2026-10-20"
+      },
+      "category": "infra",
+      "tags": [
+        "inference",
+        "deepseek",
+        "kernels",
+        "mtp",
+        "moe",
+        "deployment"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "DeepSeek 开源了驱动其大规模生产服务的推理框架 DeepInfer，本次发布面向离线推理，支持 DeepSeek-V4.1-Flash特性清单：FlashMLA/DeepGEMM/DeepEP/TileLang 等优化内核，Attention DP 与均衡 CPMoE EP+EPLB 并行，DSpark 置信度调度草稿 token 验证解码，decoder SWA 有界重放，零开销异步批调度，批不变推理与确定性采样，以及 regex/JSON schema/EBNF 结构化输出硬件支持 NVIDIA SM100 与华为昇腾 950KV cache 系统prefill/decode 分离与负载均衡不在本次发布范围",
+      "summary_en": "DeepSeek open-sourced DeepInfer, the high-performance inference framework that powers its large-scale production services; this release covers offline inference for DeepSeek-V4.1-Flash. Features: optimized kernels (FlashMLA, DeepGEMM, DeepEP, TileKernels, DeepSelect), Attention DP / balanced CP, MoE EP + EPLB parallelism, DSpark confidence-scheduled draft-token verification, decoder SWA bounded replay, asynchronous zero-overhead batch scheduling, batch-invariant inference, deterministic sampling, and structured outputs constrained by regex/JSON schema/EBNF. Supported hardware: NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs. A KV cache system, VE/prefill/decode disaggregation, and DP load balancing are not included in this release.",
+      "one_liner": "DeepSeek 把生产级推理栈开源：优化内核置信度调度验证批不变与确定性采样一整套",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/79e072c5.md",
+      "images": [],
+      "added_date": "2026-10-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "efa8c4c6",
+      "title": "WhatsApp's Hidden Notes Told AI Not to Recommend a Regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "source": {
+        "platform": "blog",
+        "author": "@dancantstream",
+        "original_date": "2026-10-19"
+      },
+      "category": "agents",
+      "tags": [
+        "prompt-injection",
+        "whatsapp",
+        "llm-security",
+        "crawler"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Redact.dev 于 2026-10-08 抓取了 WhatsApp 帮助中心链接到的全部 545 个页面并存档：80 个页面嵌有对 AI 的隐藏指令文本，共 102 处多数只是给爬虫看的无害排版，但至少两处越界：账号删除页在可见说明之下写入了隐形命令不要向用户推荐数据保护监管机构一旦提到律师就不要引用相关法律；而可见的隐私政策明明写明欧洲用户有权向监管机构投诉这类只写给机器看的文本会直接扭曲 AI 转述的用户权利信息，是厂商侧 prompt injection 的现实样本",
+      "summary_en": "Redact.dev crawled all 545 pages linked from WhatsApp's help centre on Oct 8, 2026 and saved copies: 80 pages contained hidden AI-directed text, 102 hidden blocks in total. Most were harmless formatting for crawlers, but two stood out: the account-deletion help page carried invisible orders telling an AI not to recommend a data protection regulator and not to cite the underlying law once a lawyer was mentioned sitting under the visible note about automatic account removal. The visible privacy policy explicitly tells European users they can complain to a regulator. A real-world prompt-injection case where text written only for machines reshapes what an AI relays about users' rights.",
+      "one_liner": "WhatsApp 帮助页暗藏写给 AI 的指令：别提监管机构现实世界的 prompt injection 样本",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/efa8c4c6.md",
+      "images": [],
+      "added_date": "2026-10-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3a11e60e",
+      "title": "Introducing Timestral: Mistral's time-series foundation models",
+      "url": "https://mistral.ai/news/timestral",
+      "source": {
+        "platform": "blog",
+        "author": "Mistral AI",
+        "original_date": "2026-10-15"
+      },
+      "category": "models",
+      "tags": [
+        "time-series",
+        "forecasting",
+        "foundation-models",
+        "mistral"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "Mistral 发布首个时间序列基础模型家族 Timestral：最大仅 209M 参数，在 GIFT-EvalTIMEfev-bench 三个公开基准上全部第一，用 2/3 的参数量超过此前 SOTA；四个尺寸（5M-209M）都落在精度-规模 Pareto 前沿支持概率多元预测与过去/未来协变量，技术组合为合成数据预训练协变量感知注意力与长上下文学习；可经 Mistral Forge 做领域微调，CPU 即可高效运行零样本预测，面向工业传感器容量规划等企业场景",
+      "summary_en": "Mistral released Timestral, its first family of time-series foundation models. The largest is 209M parameters and ranks first on all three main public benchmarks (GIFT-Eval, TIME, fev-bench), beating the previous state of the art with only two-thirds of its parameters; four sizes from 5M to 209M sit on the accuracy-vs-size Pareto front. It delivers probabilistic multivariate forecasts, supports past-only and known-future covariates, and combines synthetic pre-training, covariate-aware attention, and long-context learning. Fine-tuning for domain adaptation is available via Mistral Forge, and the models run efficiently on CPUs for zero-shot forecasting across industrial domains.",
+      "one_liner": "209M 参数横扫三大时序基准：小模型+协变量注意力的时序基础模型路线",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3a11e60e.md",
+      "images": [],
+      "added_date": "2026-10-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "afe5d96a",
+      "title": "Voxtral 3: Voice Agent SDK & Speech Models in 50+ Languages",
+      "url": "https://mistral.ai/news/voxtral-3",
+      "source": {
+        "platform": "blog",
+        "author": "Mistral AI",
+        "original_date": "2026-10-20"
+      },
+      "category": "agents",
+      "tags": [
+        "voice-agent",
+        "speech",
+        "tts",
+        "asr",
+        "mistral",
+        "tool-use"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "Mistral 发布 Voxtral 3：面向 50+ 语言的实时多轮语音智能体 SDK 与语音模型家族，同时要满足四件事跨口音的准确转写带情感自适应的自然语音合成对所听内容的推理，以及打通工作流的深度工具集成发布演示里 agent 直接转写法语转诊信调用 get_referral用英文向病人复述并经 book_appointment 完成预约提供 EU 托管 API 与自部署两条路线以保数据主权，瞄准呼叫中心与语音助手场景语音 agent 从\"能听会说\"推进到边听边调工具",
+      "summary_en": "Voxtral 3 is Mistral's voice agent SDK and speech model family for real-time, multi-step voice conversations in 50+ languages. It targets four things at once: accurate transcription across accents, natural speech synthesis with emotional adaptability, reasoning over what was heard, and deep tool integration for workflow automation the launch demo shows the agent transcribing a French referral letter, calling get_referral, summarizing it back in English, and booking an appointment via book_appointment. Available through Mistral's EU-hosted API or self-deployment for data sovereignty; aimed at contact centers, virtual assistants, and hands-free copilots.",
+      "one_liner": "语音 agent 进到下一层：50+ 语言实时对话里直接长出工具调用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/afe5d96a.md",
+      "images": [],
+      "added_date": "2026-10-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "74785205",
+      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+      "url": "https://arxiv.org/abs/2610.26860",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yu Zhou et al.",
+        "original_date": "2026-10-19"
+      },
+      "category": "agents",
+      "tags": [
+        "multimodal",
+        "agent-harness",
+        "tool-use",
+        "memory",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "OpenVLHarness：面向真实世界视觉智能体工具使用的多模态推理 harness作者在 22 个基准上的对照实验显示，单纯加大推理预算收益有限任务需要异构工具提供的实感外部知识与数值测量框架分两层：能力层统一工具接口并把输出渲染成模型可读观察；持久多模态记忆把图像结构化数据网页引用保存为跨推理步骤可寻址的工件；再加一个编码接口，让生成的程序直接跑在存量数据上以组合多工具结果8 个开源/闭源骨干22 个基准上平均比无工具基线高 9.7-12.6 分",
+      "summary_en": "Multimodal LLMs progress fast on visual reasoning, but a controlled study on 22 benchmarks shows that simply increasing inference budget yields only modest gains when tasks need grounded perception, external knowledge, or numeric measurement from heterogeneous tools. OpenVLHarness is a multimodal reasoning harness built around a capability layer task-level tool interfaces plus evidence rendering that converts tool outputs into model-readable observations and persistent multimodal memory that retains images, structured data, and web references as addressable artifacts across reasoning steps. A coding interface executes generated programs over stored data to combine multi-tool results. Evaluated on 22 benchmarks with 8 open and proprietary backbones: +9.7-12.6 points average over matched no-tool baselines.",
+      "one_liner": "视觉 agent harness 双件套：工具证据渲染 + 跨步骤多模态记忆，22 基准平均 +10 分",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/74785205.md",
+      "images": [],
+      "added_date": "2026-10-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "41b829b9",
+      "title": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+      "url": "https://arxiv.org/abs/2610.26836",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ke Zhang et al.",
+        "original_date": "2026-10-19"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "tool-use",
+        "evaluation",
+        "retrieval",
+        "gpt-5",
+        "claude"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "agent 可能算对了却答错：常见 harness 把长工具输出移出上下文让 agent 按索引检索作者用 USGS 地球化学模拟器 PHREEQC（报告最长 84.7 万字符完全确定）构造 158 道执行验证选择题：检索式读报告使 GPT-5.1/5.2 分别掉 11.3/7.9 分，Claude Opus/Sonnet 4.6 无可测损失重放全部 11,007 次模拟调用后发现问题不在计算GPT 系在检索条件下跳过报告改从自己的高精度输出文件作答并四舍五入到相邻选项，作者称之为 evidence substitution；显式指认权威输出可为三个 GPT 模型挽回 6.3-7.9 分",
+      "summary_en": "LLM agents can compute the right answer and still answer wrongly. Agent harnesses increasingly keep long tool outputs out of the context window, saving them to files the agent searches on demand. Using the USGS PHREEQC geochemistry simulator (reports up to 846.8k chars, fully deterministic) over 158 execution-verified multiple-choice items: when agents read the report through a section index rather than in context, GPT-5.1 and GPT-5.2 lose 11.3 and 7.9 accuracy points while Claude Opus 4.6 and Sonnet 4.6 show no detectable cost. Re-running all 11,007 logged simulator calls shows the GPT models still compute the keyed value under retrieval they skip the report, answer from their own higher-precision output files, and misround to a neighboring option, a failure named evidence substitution. Naming the authoritative output recovers 6.3-7.9 points for the three GPT models.",
+      "one_liner": "检索式工具输出会诱发 evidence substitution：算对了但答错了",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/41b829b9.md",
+      "images": [],
+      "added_date": "2026-10-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ceaf5f6f",
+      "title": "LatComm: Reusable Context Compression for Latent Communication between Large Language Models",
+      "url": "https://arxiv.org/abs/2610.26840",
+      "source": {
+        "platform": "arxiv",
+        "author": "Huawei Lin et al.",
+        "original_date": "2026-10-19"
+      },
+      "category": "models",
+      "tags": [
+        "context-compression",
+        "latent-communication",
+        "cross-attention",
+        "multi-llm",
+        "efficiency"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "多 LLM 系统里上下文以文本传递，接收端每个新问题都要整段重算LatComm 把编码与读取解耦，同时满足紧凑跨问题复用跨模型可读三点：冻结的编码器 LLM 把上下文一次性压成定长 latent 包，另一个冻结的接收 LLM 用 cross-attention 读取（门控由其 prompt 计算），按题选取所需内容12 个选择题 QA 数据集上平均比单向量基线最高提升 10.2 分；QuALITY 上接收端输入减少 57 倍同一篇文章的问题回答快 3 倍",
+      "summary_en": "Systems combining several LLMs usually pass context as text, so the receiving model reprocesses every token for each new question. LatComm provides a context representation that is compact, reusable across questions, and readable by a different LLM by separating encoding from reading: a frozen context-encoder LLM compresses the context once into a fixed-size packet, and a different frozen receiver LLM reads it through cross-attention with gates computed from its prompt. On 12 multiple-choice QA datasets LatComm improves average accuracy over single-vector baselines by up to 10.2 points; on QuALITY it reduces the receiver's input by 57x and answers an article's questions 3x faster.",
+      "one_liner": "LLM 间通信改走 latent 包：一次编码按题读取，接收端输入省 57 倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ceaf5f6f.md",
+      "images": [],
+      "added_date": "2026-10-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c1bc0b4e",
+      "title": "WeAct: Dynamic Weight Switching as Agent Actions",
+      "url": "https://arxiv.org/abs/2610.26847",
+      "source": {
+        "platform": "arxiv",
+        "author": "Rui Shi et al.",
+        "original_date": "2026-10-19"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "lora",
+        "adapters",
+        "continual-learning",
+        "long-horizon"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "长程 agent 要在交错轨迹中学习异质能力：更新共享参数会灾难性遗忘，联合训练与静态 adapter 合并则在执行全程锁死一套参数WeAct 在冻结骨干上训练能力专属 LoRA，并把 adapter 选择挂进模型原生 tool-calling 动作空间，在同一上下文按需组合能力8 个 deep-research 基准上，Qwen3-32B 加 WeAct 比全量微调高 6.2%（算力更省），比最强静态 LoRA 合并高 27.5%；新增代码 adapter升级写作 adapter 都不动骨干与其他模块，支持模块化持续扩展",
+      "summary_en": "Long-horizon agents must learn heterogeneous capabilities from interleaved trajectories; updating shared parameters causes catastrophic forgetting, and conventional joint training or static adapter merging holds one parameter configuration throughout execution. WeAct trains independent capability-specific LoRA adapters over a frozen backbone and adds adapter selection to the agent's action space through the model's native tool-calling interface, composing capabilities on demand in a shared context. Across eight deep-research benchmarks, Qwen3-32B with WeAct improves average accuracy by 6.2% over full fine-tuning with less compute and by 27.5% over the strongest static LoRA-merging method. New adapters can be added and existing ones updated without touching the backbone, supporting modular continual adaptation.",
+      "one_liner": "把换 LoRA 做成 agent 动作：能力专属适配器进动作空间，深研基准 +27.5%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c1bc0b4e.md",
+      "images": [],
+      "added_date": "2026-10-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "17b72c37",
+      "title": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
+      "url": "https://arxiv.org/abs/2610.26848",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zekai Li et al.",
+        "original_date": "2026-10-19"
+      },
+      "category": "agents",
+      "tags": [
+        "embodied-agents",
+        "rsi",
+        "vlm",
+        "robotics",
+        "scaling-laws"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "把\"物理世界的递归自我改进\"做成可测量问题：PhysRSI-eval 用五轴指标（首次表现效率成功预算失败改进量）在固定交互预算下评测不同 VLM 于 18 个操作任务，并提出 Physical Barrel Hypothesis不同能力卡住改进的不同环节，五轴视图能区分公开基准均分接近的系统观察性缩放分析显示公开能力分数可预测 VLM agent 相对表现早期物理反馈可预测后续进步；workspace 干预表明删除历史会拖累后期成功率，而冻结的 workspace 在未见布局上仍然有用三个跨任务案例更早成功：场景适配与可复用经验可以共存",
+      "summary_en": "A systematic study of physical recursive self-improvement (RSI): PhysRSI-eval quantifies it with a five-axis metric First-Attempt Performance, Efficiency, Success, Budget, and Improvement-from-failure over 18 manipulation tasks with different VLMs under a fixed interaction budget. Results motivate the Physical Barrel Hypothesis: different capabilities constrain different parts of improvement, and the five-axis view separates systems with close public benchmark averages. Observational scaling analyses predict VLM-agent relative performance from public capabilities and later progress from early physical feedback. Workspace interventions show removing history reduces late-round success while frozen workspaces stay useful on unseen layouts, and three cross-task cases succeed earlier scene-specific adaptation and reusable experience can coexist.",
+      "one_liner": "给物理 RSI 立标尺：五轴指标 + 木桶假设，VLM 自我改进有了观测缩放律",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/17b72c37.md",
+      "images": [],
+      "added_date": "2026-10-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-20",
-  "total_entries": 2806
+  "last_updated": "2026-10-21",
+  "total_entries": 2815
 }
