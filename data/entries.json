@@ -86106,8 +86106,196 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "e1a68b9a",
+      "title": "Cache Engineering for Agents",
+      "url": "https://arxiv.org/abs/2610.28577",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tianyu Fu et al.",
+        "original_date": "2026-10-20"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "agent-serving",
+        "inference-optimization",
+        "cache-policy"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "LLM agent 轨迹越走越长，KV cache 的 I/O 与存储成为主导成本；裁剪或摘要历史的上下文工程会改前缀令后续缓存态失效并触发昂贵 re-prefill，保留太少又伤精度论文提出 cache engineering：agent 用 drop 把选中缓存排除出未来注意力用 repos 调整保留键的位置编码，直接控制活跃 KV 缓存，不改轨迹也不重预填充并指出服务端难题 history dependence：同一 token 序列在不同缓存操作序列下缓存态不同，前缀匹配不足以正确复用，为此 co-design AKV serving 引擎对外无状态兼容现有 serving API，对内管理有状态的复用驱逐与恢复tool-response rolling-drop 策略较阈值触发摘要平均提升 1.7 分成本降 27.7%；AKV 输出吞吐至多 1.2xP95 延迟 1.5x；缓存策略递归自我改进再省 7.1% 成本代码：github.com/thu-nics/AKV",
+      "summary_en": "LLM agent trajectories grow long enough that KV cache I/O and storage dominate cost; trimming or summarizing history invalidates cached states and triggers costly re-prefilling. Cache engineering lets agents directly control their active KV cache without modifying the trajectory: drop excludes selected cache from future attention, repos adjusts retained keys' position encodings. The paper identifies history dependence as a serving challenge (identical token sequences yield different cache states under different operation sequences, so prefix matching is insufficient for correct reuse) and co-designs the AKV serving engine: a stateless API with stateful reuse, eviction, and restoration internally....",
+      "one_liner": "Agent 轨迹 KV 缓存变成可直接操作的资源：drop/repos 免重预填充，AKV 引擎解决同前缀不同缓存态的复用，基准 +1.7 分成本 -27.7%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e1a68b9a.md",
+      "images": [],
+      "added_date": "2026-10-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6df7d1df",
+      "title": "Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation",
+      "url": "https://arxiv.org/abs/2610.28586",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shu Zhao, Tan Yu",
+        "original_date": "2026-10-20"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-training",
+        "distillation",
+        "on-policy",
+        "reward-free"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Agentic on-policy distillation 让学生在自己轨迹上训练教师逐 token 打分主流解释是 compounding error，本文证明不完整：在学生最偏离教师的状态上，教师亲自接管仍能完成任务，而按教师 token 分数训练的学生却总耗尽回合根源是 next-token 打分的短视教师看不到回合结局，容忍了 outcome RL 会以零奖励惩罚的安全拖延动作；作者称之为 rollout-scorer gapR2S 先修打分器再蒸馏：从未训练学生的轨迹挖高分歧状态从这些状态跑教师接管以共识或 LLM judge 等 reward-free 检查筛选状态再微调教师使其在没有接管上下文时也对每个 assistant token 给出接管知情的分数；修复后的教师冻结为唯一打分器，修复与训练全程不需任务奖励3 环境2 教师4 学生共 12 个组合全胜三种 SOTA agentic-OPD 方法，较各自最优平均 +12.8 成功率项目页：tree-shu-zhao.github.io/r2s",
+      "summary_en": "Agentic on-policy distillation trains a student on its own trajectories with a teacher scoring every token. The authors show the standard compounding-error explanation is incomplete: from the states where the student departs most, teacher takeovers still finish the task, yet students trained on the teacher's token scores run out of turns. The cause is next-token scoring myopia: the teacher never sees where the episode ends, letting through safe delaying moves that outcome RL would punish with zero reward (the rollout-scorer gap). R2S repairs the scorer before distillation: mine high-disagreement states from the untrained student, run teacher takeovers, keep states passing reward-free checks (consensus or LLM judge), and fine-tune the teacher to give takeover-informed scores on every assistant token without the takeover in context....",
+      "one_liner": "Agentic 蒸馏的病根是打分短视而非误差复合：R2S 先用教师接管修复打分器再蒸馏，3 环境2 教师4 学生 12 格全胜，平均 +12.8 成功率",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6df7d1df.md",
+      "images": [],
+      "added_date": "2026-10-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c2b988af",
+      "title": "OptionWorld: A Benchmark for Diagnosing Failures of LLMs as Long-Term Personal Assistants",
+      "url": "https://arxiv.org/abs/2610.28491",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ruoyu Zhang et al.",
+        "original_date": "2026-10-20"
+      },
+      "category": "agents",
+      "tags": [
+        "benchmark",
+        "long-horizon",
+        "personal-assistant",
+        "task-state"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "长期助理要跨天跟进未完成任务，但找到信息或发起行动不等于任务完成OptionWorld 在模拟日常任务中追踪信息获取判断行动与结果全链路，定位 LLM 作为长期个人助理的失败点归档决策输入的运行中，35.5% 失败实例的关键事实在截止前的最后一次输入里仍然在场三类最高频失败：所需信息未获取或未组合可用的行动机会未被使用agent 强加了任务并不要求的限制三个后续实验：补充缺失事实能挽回部分任务；行动提醒能重启工作但后续步骤仍会误期；纠正一条错误禁止联系的备忘能恢复被禁止的询问结论是短板在任务状态维护：把事实连接到未完成工作截止前跟进区分真实限制与 agent 自身假设",
+      "summary_en": "Long-term assistants must follow unfinished tasks across days, but finding information or starting an action does not ensure completion. OptionWorld traces information acquisition, judgments, actions, and outcomes in simulated daily-life tasks. In runs with archived decision inputs, key facts remain in the model's last input before the deadline in 35.5% of failed instances. The three most frequent failures: needed information not obtained or combined, available action opportunities unused, and agents imposing restrictions the task does not require. Follow-up experiments show supplying missing facts restores some successes; action reminders restart work but later steps still miss deadlines; correcting a supplied note that wrongly forbade contact restores permitted inquiry....",
+      "one_liner": "长期助理失败诊断基准 OptionWorld：35.5% 的失败里关键事实就躺在截止前的最后输入中，短板是任务状态维护而非信息获取",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c2b988af.md",
+      "images": [],
+      "added_date": "2026-10-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cae8c8f3",
+      "title": "BitMTP: When Multi-Token Prediction Meets Low-Bit Large Language Models",
+      "url": "https://arxiv.org/abs/2610.28500",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ning Zhang et al.",
+        "original_date": "2026-10-20"
+      },
+      "category": "models",
+      "tags": [
+        "multi-token-prediction",
+        "quantization",
+        "speculative-decoding",
+        "bitnet",
+        "neurips-2026"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "超低比特底座降权重存储显存流量与线性层成本，MTP 并行预测多 token 减少串行解码步数，两者互补但直接组合无法在同等质量下加速：masked drafting 缺少 next-token 训练才有的中间 token 输入，更宽的计算与因果 KV 更新会抵消步数节省BitMTP 做算法-系统 co-design：联合 next-token 与 MTP 目标让单个模型兼具 AR 生成与 block-causal drafting；confidence-onlyspeculative-onlyhybrid 三种解码提供不同质量-吞吐工作点且无需独立的 draft/verifier 模型；accepted-prefix alignment 保持已提交前缀物化因果 KV 边界与 CUDA Graph replay 状态一致，支撑宽度特化的低比特执行与共享 KV 上的图重用H20 上 hybrid 解码五任务均值加速 2.2x（BitNet b1.58-2B）2.1-2.4x（1.7B-4B Bonsai）；RTX 3090 与 Jetson Orin 上至多 2.0x 五任务吞吐MBPP+ 3.3xNeurIPS 2026 接收代码：github.com/PolyU-VCLab/BitMTP",
+      "summary_en": "Ultra-low-bit backbones cut weight storage, memory traffic, and linear-layer cost; multi-token prediction cuts sequential decoding steps. Directly combining them fails to accelerate at comparable quality: masked drafting lacks intermediate token input from next-token training, and wider compute plus causal KV updates offset step savings. BitMTP is an algorithm-system co-design: a joint next-token+MTP objective equips one model with both AR generation and block-causal drafting; confidence-only, speculative-only, and hybrid decoding give different quality-throughput operating points without separate draft/verifier models; accepted-prefix alignment keeps the committed prefix, materialized causal KV boundary, and CUDA Graph replay state consistent....",
+      "one_liner": "1.58-bit 底座直接叠 MTP 快不起来：BitMTP 单模型双目标+三种解码工作点+图重放对齐，H20 上 2.2x 提速质量持平，NeurIPS 2026",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cae8c8f3.md",
+      "images": [],
+      "added_date": "2026-10-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b8b187e5",
+      "title": "Adaptive Multi-Token Prediction: How far should we go?",
+      "url": "https://arxiv.org/abs/2610.28619",
+      "source": {
+        "platform": "arxiv",
+        "author": "Emile Anand et al.",
+        "original_date": "2026-10-20"
+      },
+      "category": "infra",
+      "tags": [
+        "multi-token-prediction",
+        "speculative-decoding",
+        "online-control",
+        "inference-optimization"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "MTP 用一次目标模型前向起草多 token 再验证来加速解码，但最佳投机视野随上下文变化：草稿长摊销好，被拒的后缀却浪费算力；且 MTP 所有头在同一次前向触发，必须在起草前定死视野，无法像 AR drafting 那样逐 token 决定停不停论文把视野选择形式化为在线控制问题，用验证反馈学习每个上下文草稿可信多远；用 acceptance survival（草稿前缀被完整接受的概率）刻画各视野的期望提交 token 数，每轮预测存活距离选期望 token/s 最高的视野理论上任何在线学习者的预测误差都转化为相对逐上下文最优视野的吞吐 regret，进而约束 wall-clock 完成时间；在线梯度下降下 regret 次线性基于 Llama-3.1-8B-Instruct（Medusa 头Meta MTPQwen3-4B-Inst-2507-MTP）的五对 draft-target 在 AIME 2025 与 GSM8K 上解码至多 4.1x 加速，10 个设定中 8 个持平或优于固定窗口，吞吐增益至多 10%；控制器轻量免重训练验证器保持不变",
+      "summary_en": "Multi-token prediction accelerates decoding by drafting several tokens verified in one target-model pass, but the best speculation horizon changes with context, and MTP must fix the horizon before drafting since all heads fire in the same forward pass. The paper formulates horizon selection as an online control problem: characterize expected committed tokens per horizon via acceptance survival, predict survival distance before each round, and pick the horizon with the highest expected tokens per second. Any online learner's prediction error translates into throughput regret against the per-context best horizon and a bound on wall-clock completion time; online gradient descent gives sublinear regret....",
+      "one_liner": "MTP 投机视野应随上下文在线调整：AMTP 用接受存活率选视野，免重训练验证器不动，Llama-3.1-8B 解码至多 4.1x",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b8b187e5.md",
+      "images": [],
+      "added_date": "2026-10-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f0e367f2",
+      "title": "Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets",
+      "url": "https://arxiv.org/abs/2610.28624",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jad Yammine et al.",
+        "original_date": "2026-10-20"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "robot-fleet",
+        "spatiotemporal-memory",
+        "pii",
+        "nvidia"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "仓储机器人机群持续观察运营状况，但把观察存成可复用语义记忆的计算通信与存储成本高解释反复的通道堵塞需要跨机器人跨班次回看视频Industrial ReMEmbR 把 NVIDIA ReMEmbR 扩展为机群共享时空记忆系统，通过只在按需取回时生成场景描述来削减服务器端计算每台 Jetson 用 Cosmos-Embed1 编码视频片段的检索 embeddingCosmos3-Edge 编码 vision tokenWan2.2 VAE 编码重建 latent，不上传原始相机帧；同一批编码模型复用于检测图像 patch 中的人并置零，支持 GDPR 合规的 PII 抽象系统在 vision-language 边界切开 Cosmos3-Edge：视觉编码器留在机器人语言解码器放在本地服务器；Nemotron agent 按内容位置与时间检索记忆，并用缓存的 vision token 查询解码器设计消除了写时 caption 生成，450 次测试解码中缓存 token 解码全部复现未切分模型的输出",
+      "summary_en": "Warehouse robot fleets continuously observe operations, but preserving observations as reusable semantic memory incurs heavy compute, communication, and storage cost explaining recurring aisle blockages can require reviewing video from multiple robots across shifts. Industrial ReMEmbR extends NVIDIA ReMEmbR to a fleet-shared spatiotemporal memory that generates scene descriptions only on demand. Each Jetson encodes video clips into retrieval embeddings (Cosmos-Embed1), vision tokens (Cosmos3-Edge), and reconstruction latents (Wan2.2 VAE) without uploading raw frames; the encoders are reused to detect people in patches and zero them out for GDPR-compliant PII abstraction....",
+      "one_liner": "NVIDIA ReMEmbR 扩到仓储机群：写时不生成描述按需缓存 token 解码，服务器计算大降，人像置零过 GDPR，450 次解码输出全复现",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f0e367f2.md",
+      "images": [],
+      "added_date": "2026-10-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-21",
-  "total_entries": 2830
+  "last_updated": "2026-10-22",
+  "total_entries": 2836
 }
