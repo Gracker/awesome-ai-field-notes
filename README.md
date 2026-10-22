@@ -4,16 +4,16 @@
 
 ## 最新精选 Top 10
 
+- [智能体手机加速爆发？换机困境端侧AI与下一代入口之争](https://mp.weixin.qq.com/s?__biz=MzA4NjUwNTI0OA%3D%3D&mid=2247500542&idx=1&sn=e8e3fde608787b50549a4985e457c186) ⭐3 · 2026-10-22 — 换机周期 4348 个月才是厂商押注智能体手机的真正推力，Agent 是下一轮换机的新故事
+- [md2wechat: 面向 AI Agent 的公众号创作发布 CLI（BSL 1.1 许可）](https://github.com/geekjourneyx/md2wechat-skill) ⭐3 · 2026-10-22 — 副作用必须显式加参数的 Agent CLI 接口设计值得抄，但 BSL 1.1 是源码可用不是开源
+- [Widespread PHP Flaw May Cause Many Site Outages Today](https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today) ⭐4 · 2026-10-21 — 潜伏几十年的 PHP RCE 把欧洲政府网站打到主动下线，前沿 AI 把 exploit 开发门槛显著拉低
+- [Pluralistic: Adversarial interoperability is a team sport](https://pluralistic.net/2026/10/21/brittle-individualism) ⭐4 · 2026-10-21 — vibe coding 站进了 Canonical 当年的位置：LLM 把对抗性互操作从极客技能变成团队运动
 - [DeepInfer: High-performance inference framework for DeepSeek models](https://github.com/deepseek-ai/DeepInfer) ⭐5 · 2026-10-20 — DeepSeek 把生产级推理栈开源：优化内核置信度调度验证批不变与确定性采样一整套
 - [Battle Drones: a vibe coded RTS with audio-based multiplayer](https://simonwillison.net/2026/Oct/20/battledrones) ⭐5 · 2026-10-20 — vibe coding 全过程档案：一句让它好玩得多加通宵多 agent 迭代，把 1200 场自对弈的僵局率从 14% 压到 0.9%
 - [Voxtral 3: Voice Agent SDK & Speech Models in 50+ Languages](https://mistral.ai/news/voxtral-3) ⭐4 · 2026-10-20 — 语音 agent 进到下一层：50+ 语言实时对话里直接长出工具调用
-- [Pluralistic: The death of history's most successful publisher](https://pluralistic.net/2026/10/20/main-character-syndrome) ⭐4 · 2026-10-20 — AI Overviews 的零点击让出版商两头流失：流量没了，30 年长尾还成了模型的免费结构化输入
-- [NixOS is making me less afraid](https://entropicthoughts.com/nixos-is-making-me-less-afraid) ⭐4 · 2026-10-20 — 9 行 Nix 配置把敢不敢开新项目的成本结构改写：业余项目多死在维护，搭建很少是瓶颈
-- [Laypeople support technical fields for technology, not art](https://seangoedecke.com/laypeople-support-technical-fields-for-technology-not-art) ⭐4 · 2026-10-20 — 公众支持编程靠的是技术成果链，不是艺术性一篇自己拆自己台的辩护文
-- [Introducing tsrs: a Port of TypeScript to Rust](https://blog.cloudflare.com/typescript-rust-port) ⭐4 · 2026-10-20 — tsc 的 Rust 移植把维护交给 agent 流水线：每天审上游 diff每晚重跑兼容矩阵，重写成本塌了之后约束是跟住上游
-- [DeepSeek deep-sixed at all US federal civilian agencies](https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010) ⭐4 · 2026-10-20 — developed using DeepSeek没定义：一纸排除令把 AI 网关的默认路由问题摆上台面
-- [ClickHouse Will Let You Be Wrong at Scale](https://matduggan.com/clickhouse-will-let-you-be-wrong-at-scale) ⭐4 · 2026-10-20 — ClickHouse 的失败模式是不报错只变慢：同一答案的读取行数可以差 84 倍，护栏与 query_log 是底线
-- [AI Had Better Work Out](https://www.wheresyoured.at/ai-had-better-work-out) ⭐4 · 2026-10-20 — AI 泡沫账的可核对版本：九家占纳指 100 近半，数据中心美元债占比一年从 16% 到 25%
+- [OptionWorld: A Benchmark for Diagnosing Failures of LLMs as Long-Term Personal Assistants](https://arxiv.org/abs/2610.28491) ⭐4 · 2026-10-20 — 长期助理失败诊断基准 OptionWorld：35.5% 的失败里关键事实就躺在截止前的最后输入中，短板是任务状态维护而非信息获取
+- [Industrial ReMEmbR: Scaling Spatiotemporal Memory to Robot Fleets](https://arxiv.org/abs/2610.28624) ⭐4 · 2026-10-20 — NVIDIA ReMEmbR 扩到仓储机群：写时不生成描述按需缓存 token 解码，服务器计算大降，人像置零过 GDPR，450 次解码输出全复现
+- [Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation](https://arxiv.org/abs/2610.28586) ⭐4 · 2026-10-20 — Agentic 蒸馏的病根是打分短视而非误差复合：R2S 先用教师接管修复打分器再蒸馏，3 环境2 教师4 学生 12 格全胜，平均 +12.8 成功率
 
 ## 频道导航
 
@@ -21,18 +21,18 @@
 |---|---:|---|
 | 模型与实验室 | 424 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
 | Agent 与自动化 | 571 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 303 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 175 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 215 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| AI 编程 | 306 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 176 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 216 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 131 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 289 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 2836
-- 公开展示卡片: 2108
-- 有全文内容: 2000
-- 最近 7 天信号: 105
+- 原始条目: 2841
+- 公开展示卡片: 2113
+- 有全文内容: 2011
+- 最近 7 天信号: 95
 - 输出目录: `dist/`
 
 ## 热门标签

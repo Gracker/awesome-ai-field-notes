@@ -57020,7 +57020,9 @@
       "added_date": "2026-08-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "44b7b2ad"
+      ]
     },
     {
       "id": "e1592319",
@@ -86294,8 +86296,174 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "c1afa369",
+      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+      "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today",
+      "source": {
+        "platform": "blog",
+        "author": "Brian Krebs",
+        "original_date": "2026-10-21"
+      },
+      "category": "infra",
+      "tags": [
+        "php",
+        "rce",
+        "ai-security",
+        "exploit-development",
+        "openai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "PHP 团队 10 月 21 日发布紧急安全更新，修复 CVE-2026-109618 与 CVE-2026-109619 两个远程代码执行漏洞，影响 5.4 之后所有版本，近 70% 网站需要更新核心软件；Censys 估公网约 258 万台主机5490 万个 web 属性跑 PHP，欧洲多地政府网站在补丁当天直接下线避锋，Cloudflare 凌晨部署 WAF 规则AI 角度是本条入选理由：参与漏洞研究与协调披露的 OpenAI 称之为近几年最具影响力的安全问题之一，Wiz 研究员指出漏洞在代码里存在几十年人工证明可利用接近实践上限，而前沿 AI 模型把 exploit 开发门槛显著拉低一次把模型能力越过阈值量化到利用开发成本的公开案例",
+      "summary_en": "PHP shipped emergency fixes for two RCE flaws (CVE-2026-109618/109619) affecting every release since 5.4; Censys counts ~2.58M hosts and 54.9M web properties exposed, and European government sites took themselves offline on patch day. OpenAI co-participated in the vulnerability research and coordination, calling it one of the most impactful security issues in years; Wiz researchers note the bugs lurked for decades and manual exploit development neared the practical ceiling, while frontier AI models have significantly lowered the bar.",
+      "one_liner": "潜伏几十年的 PHP RCE 把欧洲政府网站打到主动下线，前沿 AI 把 exploit 开发门槛显著拉低",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c1afa369.md",
+      "images": [
+        "https://krebsonsecurity.com/wp-content/uploads/2026/10/shutterstock-codeonscreenphp.png"
+      ],
+      "added_date": "2026-10-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5069f84d",
+      "title": "Pluralistic: Adversarial interoperability is a team sport",
+      "url": "https://pluralistic.net/2026/10/21/brittle-individualism",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-10-21"
+      },
+      "category": "industry",
+      "tags": [
+        "dmca-1201",
+        "adversarial-interoperability",
+        "vibe-coding",
+        "reverse-engineering",
+        "right-to-repair"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cory Doctorow 把 DMCA 第 1201 条与 vibe coding 接在一起讲：反规避条款把未经厂商许可的逆向定为重罪（最高五年监禁加 50 万美元罚款），USTR 又用 25 年把它复制给所有贸易伙伴厂商用数字灵活性降级你的设备是免费的，你写程序改回来却是犯罪，他称这条被打断的路径为对抗性互操作（GNU/Linux 之于 UnixSAMBA 之于 SMB 同构）新变化是 vibe coding 站进了当年的位置：404 Media 跟进报道用户让编码助手逐条查证从零造出带绕过逻辑的定制固件，把厂商停产锁定的智能电视救回来；他承认 vibe code 有真实安全风险，但责任归属在缺陷软件本身，而非替换固件这个动作",
+      "summary_en": "Cory Doctorow pairs DMCA Section 1201 (reverse engineering without permission is a felony; exported globally by the USTR over 25 years) with vibe coding: LLM-assisted verification collapses weeks of forum-dwelling hackery, and 404 Media documents users having coding agents build custom firmware with bypass logic that rescues discontinued smart TVs. He concedes real security risk in vibe-coded countermeasures but locates responsibility in defective software, not in the act of replacing firmware.",
+      "one_liner": "vibe coding 站进了 Canonical 当年的位置：LLM 把对抗性互操作从极客技能变成团队运动",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5069f84d.md",
+      "images": [],
+      "added_date": "2026-10-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7b8b08ad",
+      "title": "Awesome Grok Bot Playbooks: Grok Bot 中文配方库，双 AI 协作维护协议",
+      "url": "https://github.com/sit-in/awesome-grokbot-playbooks",
+      "source": {
+        "platform": "github",
+        "author": "sitinme",
+        "original_date": "2026-10-17"
+      },
+      "category": "agents",
+      "tags": [
+        "grok",
+        "claude-code",
+        "multi-agent-collaboration",
+        "ai-governance",
+        "awesome-list"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "@sitinme 花 300 美金折腾 40 多个 Grok Bot 后整理的开源库（GitHub API 核实：2026-10-17 建仓MIT，五天 193283 星）价值不在 90 个条目，而在把谁在维护写成制度：Grok Bot 每天找料只写 inbox/ 与 examples/，Claude Code 逐条核实写短评，人只拍板；协作留言原样存放在 .collab 目录（to-grok.md / to-claude.md 各 70+KB），公开设置变更删文件改 CI 权限双方都只能留言不能执行三级验证标记（ 真机端到端 / 🔍 只读文档 / 无标记=核实存在），规则写死只读文档不能打 ；收录门槛 10 星或建仓满 7 天有新提交，配方超 90 天未复查自动 ️更像一份 AI 该怎么分工的公开实验记录，LOOP.md 比 90 个条目本身更值得读",
+      "summary_en": null,
+      "one_liner": "一份把多 AI 协作里谁可以改什么什么时候必须停手等人写成可抄协议的公开实验记录",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7b8b08ad.md",
+      "images": [],
+      "added_date": "2026-10-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2c0ae32b",
+      "title": "md2wechat: 面向 AI Agent 的公众号创作发布 CLI（BSL 1.1 许可）",
+      "url": "https://github.com/geekjourneyx/md2wechat-skill",
+      "source": {
+        "platform": "github",
+        "author": "geekjourneyx",
+        "original_date": "2026-10-22"
+      },
+      "category": "coding",
+      "tags": [
+        "agent-cli",
+        "wechat-publishing",
+        "bsl-license",
+        "json-discovery",
+        "content-automation"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "给 Agent 而非人用的公众号排版发布 CLI（GitHub API 核实：3741 星419 fork2026-01 建仓；npm 近 30 天下载仅 754 次，星数远大于生产依赖）Claude CodeCodexKimi WorkHermes AgentOpenClaw 等宿主通过 JSON discovery 调用，命令拆细且副作用显式：inspect --json 出发布前检查，preview 本地看排版，convert 转 HTML，--draft 才推草稿，README 特意强调准备结果是等待宿主执行，不代表草稿已创建v3.6.0 起知乎CSDN头条草稿由宿主 Agent 操作已登录浏览器完成而非走 API注意许可：BSL 1.1 而非 MIT，Additional Use Grant 只放开个人非商业使用，Change Date 2030-01-01 才转 Apache-2.0；48 个专业主题与直接返回微信 HTML 的转换全部走付费 API",
+      "summary_en": null,
+      "one_liner": "副作用必须显式加参数的 Agent CLI 接口设计值得抄，但 BSL 1.1 是源码可用不是开源",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/2c0ae32b.md",
+      "images": [],
+      "added_date": "2026-10-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "44b7b2ad",
+      "title": "智能体手机加速爆发？换机困境端侧AI与下一代入口之争",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA4NjUwNTI0OA%3D%3D&mid=2247500542&idx=1&sn=e8e3fde608787b50549a4985e457c186",
+      "source": {
+        "platform": "wechat",
+        "author": "硅谷101",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "agent-phone",
+        "on-device-ai",
+        "ai-entrance",
+        "smartphone-industry",
+        "snapdragon"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "硅谷101 的视频改写稿，把 2026 年智能体手机加速的驱动拆成三股力量：一是换机困境Counterpoint 数据显示全球换机周期从 43 个月向 48 个月靠拢存储涨价加速收缩中低端，厂商需要Agent 替你办事这个新换机故事；二是端侧算力成熟，从骁龙 820 的第一代 AI Engine855 的张量加速器到 8 Gen 2 首次支持 INT4 与 Transformer 优化，AI 计算从辅助能力变成 SoC 核心；三是入口之争阶跃星辰 STEPX Neo荣耀 Robot Phone搭载豆包助手并获官方认证全球首款 AI 智能体手机的努比亚 NaviX Ultra，苹果谷歌OpenAI 同时下场",
+      "summary_en": null,
+      "one_liner": "换机周期 4348 个月才是厂商押注智能体手机的真正推力，Agent 是下一轮换机的新故事",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/44b7b2ad.md",
+      "images": [
+        "https://image.cubox.pro/cardImg/3xkwwwjvf3771zlohw7g5h5osn5srxk0cyfr6qcjp9gkxjfapd?imageMogr2%2Fquality%2F90%2Fignore-error%2F1="
+      ],
+      "added_date": "2026-10-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "a6eb75bf"
+      ]
     }
   ],
   "last_updated": "2026-10-22",
-  "total_entries": 2836
+  "total_entries": 2841
 }
