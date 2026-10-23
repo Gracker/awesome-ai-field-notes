@@ -86329,7 +86329,9 @@
       "added_date": "2026-10-22",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "d31a18ea"
+      ]
     },
     {
       "id": "5069f84d",
@@ -86462,8 +86464,483 @@
       "related": [
         "a6eb75bf"
       ]
+    },
+    {
+      "id": "54230142",
+      "title": "What the Author Wrote, What the Agent Reads: Silent Cue Loss in Enterprise Document Ingestion",
+      "url": "https://arxiv.org/abs/2610.30026",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yikai Zhao, Saurabh Pandey, Pradeep Kumar Misra",
+        "original_date": "2026-10-21"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "document-ingestion",
+        "reliability",
+        "enterprise",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "企业 Agent 靠文档行动，而把 Word/PDF 转成 token 的摄取层正是信息静默丢失的地方：所有主流转换器都丢掉作者用格式编码的含义在 76 份真实政策文档构成的任务上，格式盲摄取让需求识别 micro F1 从 0.690 跌到 0.150（docling）和 0.075（纯文本），并在 5 个 Claude 档位加 GPT-5.6 共 6 个回答模型上复现；docling 对作者未标注需求的误报率是对照组 4 倍span 级留一法把损失定位到 highlight（+0.302）与颜色（+0.262）两个线索，加粗斜体等宽删除线影响都接近 0；6460 份文档里 32.8% 带刻意颜色或高亮为 Agent 显式读出线索比仅保留格式再多 +0.085结论：可靠性赢在摄取而不是推理，修复便宜且可度量",
+      "summary_en": "Enterprise agents act on documents, and the ingestion layer that turns Word/PDF into tokens is where they silently lose information: every mainstream converter drops the meaning an author encodes in formatting. On 76 real policy documents, formatting-blind ingestion collapses requirement recovery from micro F1 0.690 to 0.150 (docling) and 0.075 (plain text), replicating across six answering models including five Claude tiers and GPT-5.6; docling's false-positive rate on unflagged requirements is four times higher. Span-level leave-one-out localizes the loss to highlight (+0.302) and colour (+0.262) while bold, italic, monospace and strikethrough sit near zero; 32.8% of 6,460 documents carry deliberate colour or highlight. Explicitly typing the cue for the agent adds +0.085 beyond merely preserving it....",
+      "one_liner": "企业 Agent 的可靠性输在文档摄取层：主流转换器全都丢掉高亮与颜色线索，需求识别 F1 从 0.690 跌到 0.150",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/54230142.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6cad67d8",
+      "title": "Agent Behavior Maps: Locating Agents by What They Would Do, Without Running Them",
+      "url": "https://arxiv.org/abs/2610.30014",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shota Fujikawa, Takuya Tamura, Kosuke Akimoto, Daichi Haraguchi, Masafumi Oyamada",
+        "original_date": "2026-10-21"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "evaluation",
+        "behavior-analysis",
+        "trajectory-kl"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Agent Behavior Map 把 LLM 与 harness 的组合表示为共享参考轨迹上的中心化动作对数似然坐标，不需要为目标 agent 跑新的环境 rollout作者推导了坐标距离与轨迹 KL 散度之间的误差界，8 个交叉评分模型的距离排序与实测 KL 一致；在 100 个 LLM4 个环境上，ALFWorld 坐标能支撑性能预测，控制成功率与模型规模后行为相似性依旧存在（跨模型族也成立），harness 组件的位移还近似可组合给 agent 评测补了一个看它会做什么而不是只看跑分的比较维度",
+      "summary_en": "Agent Behavior Maps represent LLM-harness combinations as centered action log-likelihoods on shared reference trajectories, without new environment rollouts. Derived error bounds relate squared coordinate distances to trajectory KL, and distances track measured KL in rank order across eight cross-scored models. Across 100 LLMs and four environments, ALFWorld-based coordinates support performance prediction and identify behavioral similarities that persist after controlling for success rate and model size, including across model families; harness-component displacements approximately compose.",
+      "one_liner": "不跑 rollout 就能给 LLM agent 画行为地图：动作对数似然坐标代理轨迹 KL，100 个模型上可预测性能并找出同行为族",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6cad67d8.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "86565fa6",
+      "title": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+      "url": "https://arxiv.org/abs/2610.30132",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhennan Wan, Jianfei Chen",
+        "original_date": "2026-10-21"
+      },
+      "category": "models",
+      "tags": [
+        "long-context",
+        "reinforcement-learning",
+        "synthetic-data",
+        "grpo"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "LongZero 让 LLM 在零外部数据下强化长上下文推理：模型先以紧凑结构化形式自拟问题答案与支持证据，再把证据展开成长多文档上下文，将自写多跳推理任务与多轮检索任务组合起来用 GRPO 训练在两个 LLM五个长上下文推理基准上，LongZero 超过用外部语料合成数据的 RL 基线并能泛化到真实任务，绕开了外部语料与更强 teacher 越来越难找的循环",
+      "summary_en": "LongZero strengthens long-context reasoning with zero external data: the model first writes a question, answer and supporting evidence in compact structured form, then expands the evidence into a long multi-document context, combining self-written multi-hop reasoning tasks with self-written multi-round retrieval tasks trained via GRPO. On two LLMs across five long-context reasoning benchmarks it outperforms RL on data synthesized from external corpora and generalizes to real tasks, sidestepping the shrinking supply of external corpora and stronger teachers.",
+      "one_liner": "LongZero 零外部数据做长上下文 RL：自写多跳与检索任务再 GRPO，五个长上下文基准超过外部语料合成基线",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/86565fa6.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "af0f241f",
+      "title": "Environment Duels: A Microcosm of LLM Co-Evolution",
+      "url": "https://arxiv.org/abs/2610.30116",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shibo Jin, Zhiqiu Xu, Yiling Zou, Shangyu Gong, Mayur Naik",
+        "original_date": "2026-10-21"
+      },
+      "category": "learning",
+      "tags": [
+        "benchmark",
+        "co-evolution",
+        "agentic-environments",
+        "rl-transfer"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Environment Duels 让 9 个前沿 LLM 互相出题：各自编写带特权提示的交互环境，目标是让强解题者不看提示做不出看了能做对解题与出题被证明是两种能力：最强解题者不是最强出题者，小模型反而写出最难环境与最有用提示；两两对决结果可传递可形成稳定排名，独立出题者会趋同到相同设计；Qwen3.8-27B 的 RL 实验显示，在某个作者环境上的 hint-lift 能预测模型在 held-out 推理与 agent 基准上的提升，是观察模型之间相互教学与挑战的可控窗口",
+      "summary_en": "Environment Duels is a dynamic agentic benchmark where each of nine frontier LLMs authors interactive environments with a privileged hint, aiming for tasks that capable solvers fail without the hint and pass with it. Solving and authoring prove to be distinct skills: the strongest solvers are not the strongest authors, and smaller models write the hardest environments and the most useful hints. Head-to-head outcomes are transitive and yield a stable ranking, independent authors converge on the same designs, and in RL experiments with Qwen3.8-27B the hint lift on an author's environments tracks improvement on held-out reasoning and agentic benchmarks.",
+      "one_liner": "九个前沿 LLM 互出交互环境题：解题与出题是两种能力，小模型反而出最难的环境写最有用的提示",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/af0f241f.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7c215e4e",
+      "title": "Did the Problem Actually Get Harder? Testing LLMs on Paired P and NP-Complete Problems Hardened by Adversarial Multi-Agent Rewriting",
+      "url": "https://arxiv.org/abs/2610.30103",
+      "source": {
+        "platform": "arxiv",
+        "author": "Nurul Labib Sayeedi, Md. Faiyaz Abdullah Sayeedi, Zabir Al Nazi, Mahbub E Sobhani, Shubhashis Roy Di...",
+        "original_date": "2026-10-21"
+      },
+      "category": "learning",
+      "tags": [
+        "benchmark",
+        "reasoning",
+        "adversarial",
+        "complexity-classes",
+        "code-generation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "P2NPCBench 给 12 个 NP 完全问题家族配上同一表面表述的多项式孪生问题，并用 AgentGAN 对抗硬化：生成器改写题面直到冻结的代码模型做错，可执行闸门保证改写不改变答案与复杂度类，得到 2114 条人工校验题12 个模型在 NPC 侧全部更差（pass@1 35.4% vs 63.8%），10 倍时限只把 NPC 准确率从 28.5% 提到 31.9%，说明失败源于写错或程序崩溃而非超时；硬化后复杂度类差距从 24.8 缩到 14.6 分，可见相当一部分推理差距其实是对教科书表述的熟悉度",
+      "summary_en": "P2NPCBench pairs 12 NP-complete problem families with polynomial-time twins posed over the same surface, hardened by AgentGAN: a generator rewrites statements until a panel of frozen code models fails, while an executable validity gate keeps rewrites answer- and class-preserving, yielding 2,114 hand-verified statements. All 12 evaluated models score lower on NPC statements than on their P twins (35.4% vs 63.8% pass@1) and a tenfold time limit lifts NPC accuracy only from 28.5% to 31.9%, so failures are wrong or crashing programs rather than slow ones. Hardening narrows the class gap from 24.8 to 14.6 points, showing part of the apparent gap reflects familiarity with textbook phrasing rather than complexity class.",
+      "one_liner": "P/NP 孪生题经对抗硬化后 12 个模型全部在 NPC 侧更差（35.4% vs 63.8%），加时无用，差距近半是对教材表述的熟悉度",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7c215e4e.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b74f7461",
+      "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
+      "url": "https://arxiv.org/abs/2610.29934",
+      "source": {
+        "platform": "arxiv",
+        "author": "Nithin Sivakumaran, Ali Payani, Hyunji Lee, Mohit Bansal, Elias Stengel-Eskin",
+        "original_date": "2026-10-21"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "theory-of-mind",
+        "latent-reasoning",
+        "coordination"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "ToM2Vec 用固定预算的连续推理 token 在隐空间形成抽象的心智理论：训练时以对手真实想法做监督，测试时这些 token 作为该 agent 思考与动作的条件器在 Overcooked-AI多方谈判DecryptoHanabiCollab Escape/Capture 等协作竞争与混合动机环境中稳定超过基座与各类训练提示基线；把推理改成文本表达会掉分；训练能泛化到没见过的对手模型族（含闭源 GPT-5.4），且这些 token 能直接回答关于对手信念愿望与下一步动作的问题",
+      "summary_en": "ToM2Vec trains a fixed budget of continuous reasoning tokens to form abstract theories-of-mind in a latent space, supervised by the partner's actual thoughts during training and used at test time as conditioners for the agent's thoughts and actions. Across collaborative, competitive and mixed-motive environments (Overcooked-AI, multiparty negotiation, Decrypto, Hanabi, Collab Escape/Capture) it consistently beats the base model and trained/prompted baselines; performance drops when reasoning is expressed in text; training generalizes to unseen partner model families including proprietary GPT-5.4, and the tokens help answer direct questions about partner beliefs, desires and next actions.",
+      "one_liner": "ToM2Vec 用连续推理 token 在隐空间做心智理论，五个多智能体环境稳定涨分，还能泛化到没见过的对手模型族",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b74f7461.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "eb525f48",
+      "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+      "url": "https://arxiv.org/abs/2610.30108",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yanzhe Chen, Ziyi Yang, Jifeng Zhu, Qiming Huang, et al.",
+        "original_date": "2026-10-21"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use",
+        "robot-use",
+        "embodied-agents",
+        "benchmark-survey"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "用能力而非架构统一审视多模态具身 Agent：PAPAV 框架把共性功能归纳为感知预期动作后果规划执行验证五项，用来对比 computer-use 多模态 Agent机器人系统与具身 Agent从部分可观测到结果不可验证的五项物理约束，让具身侧更少选择能预先固定更少容错空间跨 64 个基准的盘点显示显式评测几乎都集中在执行：只有 5 个评 Anticipate3 个评 Verify，两者都被任务成功率掩盖，这对 computer-use agent 的评测设计同样是提醒",
+      "summary_en": "A capability-centric unification of multimodal embodied agents: PAPAV defines five recurring functions (Perceive, Anticipate, Plan, Act, Verify) and uses them to compare computer-use multimodal agents, robotic systems and multimodal embodied agents. Five physical constraints, from partial observability to unverifiable outcomes, leave fewer choices fixed in advance and less room to reverse errors. Across 64 benchmarks, explicit evaluation centers on Act; only 5 assess Anticipate and 3 assess Verify, leaving both largely hidden behind task success - a useful mirror for computer-use agent evaluation design.",
+      "one_liner": "PAPAV 用五项能力统一 computer-use 与 robot-use agent：64 个基准里 Anticipate 与 Verify 几乎无人评测",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/eb525f48.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "43bc44ba",
+      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+      "url": "https://arxiv.org/abs/2610.30113",
+      "source": {
+        "platform": "arxiv",
+        "author": "Houde Qian, Zheng Jiang, Wenyi Li, et al.",
+        "original_date": "2026-10-21"
+      },
+      "category": "agents",
+      "tags": [
+        "benchmark",
+        "llm-agents",
+        "quantitative-finance",
+        "leaderboard"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Quant-Arena 在真实 A 股数据上端到端评测量化研究 Agent：模型构造因子与打分代码，只拿 2022-2023 的反馈，冻结一个策略后在密封的 2024 年由现金账户评测器按交易约束成本与模拟订单簿冲击计分九个前沿模型中 GPT-6 Astra 得分最高，但没有一个在 2024 年跑赢等权市场，排行榜开放给任意模型或 agent harness 提交，给 LLM 能否完成研究闭环一个冷静的公开答案",
+      "summary_en": "Quant-Arena benchmarks end-to-end quantitative research on real A-share market data: models construct features and stock-scoring code, receive feedback only on 2022-2023, freeze one strategy, and are assessed on the sealed year 2024 by a cash-account evaluator applying trading constraints, costs and market impact estimated from a simulated order book. Among nine frontier models GPT-6 Astra scores highest, yet no model beats the equal-weight market in 2024. The leaderboard is open to submissions from any model or agent harness.",
+      "one_liner": "量化研究 agent 排行榜：GPT-6 Astra 九个模型里最高分，但 2024 封闭测试年没有一个跑赢等权市场",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/43bc44ba.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7c1e8a2d",
+      "title": "VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage",
+      "url": "https://arxiv.org/abs/2610.30090",
+      "source": {
+        "platform": "arxiv",
+        "author": "Juan S. Santillana",
+        "original_date": "2026-10-21"
+      },
+      "category": "infra",
+      "tags": [
+        "security",
+        "network-detection",
+        "calibration",
+        "drift",
+        "decision-heads"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "实证研究 2026 年底开始商用的一类类型化决策原语模型：VX-One 用 10 万到 1000 万参数的多头小网络输出校准门控带显式 unknown 选项的闭集选择与有序分，CPU 上 p50 约 0.7-1.7 毫秒它在 UNSW-NB15 与 CIC-IDS2017 时间漂移下检出最优（0.711 vs 0.637），但多类归因在三个基准上都输给 XGBoost；留一攻击族的门控在 9/9 个 UNSW 折上能发现全新攻击族，却在 CIC recon 族跌破随机；无载荷重建流量上签名引擎只能解决约 0.1%，留下约 99.9% 灰区由级联二段恢复（合并召回 >= 0.978）；时间漂移下所有方法的校准都崩塌（ECE 0.04 到 0.40），排序能力尚存",
+      "summary_en": "An empirical study of the commercial typed decision primitives that appeared in late 2026: VX-One is a 100K-10M parameter multi-head network outputting a calibrated gate, a closed-set choice with an explicit unknown option, and an ordinal score, at 0.7-1.7 ms p50 on CPU. It wins detection on UNSW-NB15 and under temporal drift on CIC-IDS2017 (0.711 vs 0.637) but XGBoost wins multi-class attribution on all three benchmarks; leave-one-family-out gates detect never-seen families on 9/9 UNSW folds yet drop below chance on the CIC recon family; on payload-less reconstructions signature engines resolve about 0.1% of flows, leaving a ~99.9% gray zone recovered by cascade phase 2 (combined recall >= 0.978); calibration collapses under temporal drift (ECE 0.04 to 0.40) for every method while ranking partially survives.",
+      "one_liner": "类型化决策头做边界 triage：CPU 毫秒级能抓全新攻击族，但时间漂移下所有方法校准崩塌（ECE 0.04 到 0.40）",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7c1e8a2d.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "25f253b2",
+      "title": "Parallel AI Agent Collaboration as Graph-Structured Distributed Block Optimization",
+      "url": "https://arxiv.org/abs/2610.30074",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hanmin Li, Yury Demidovich, Peter Richtarik",
+        "original_date": "2026-10-21"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "merge-conflicts",
+        "graph-optimization",
+        "code-repair"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "把多个并行 agent 的协作建模为依赖图上的离散块优化，目标函数可精确求值：独立集认证的兼容编辑其已验证收益可精确相加，协调者构造安全候选并可选评估有交互的编辑理论结果：最优分数染色得到的合并能保留总已验证局部改进的 1/chi_f(G) 份额（在同子集合并中紧致），且在给定条件下反复协作按目标间隙几何收敛代码修复实验显示已验证合并能解决朴素合并必然失败的冲突；共享车辆路线的路径搜索 agent 用分数调度中位数省 15% 墙钟时间",
+      "summary_en": "Models parallel-agent coordination as discrete block optimization over a known dependency graph with an exactly evaluable objective: independent sets certify compatible edits whose verified gains add exactly, and a coordinator constructs a safe compatible candidate while optionally evaluating interacting edits. An optimal fractional coloring yields a merger preserving a 1/chi_f(G) fraction of total verified local improvement - tight among subset mergers - and repeated collaboration converges geometrically under stated conditions. Code-repair experiments show verified merging resolves conflicts between individually useful edits that break naive merging; fractional scheduling cuts measured wall time by a median 15% for route-search agents sharing exclusive vehicle routes.",
+      "one_liner": "并行 agent 编辑合并的形式化保证：分数染色保留 1/chi_f(G) 的已验证改进，代码修复实验解决朴素合并必败的冲突",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/25f253b2.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a0e7a23f",
+      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor",
+      "source": {
+        "platform": "blog",
+        "author": "Kunal Singh (SafeDep)",
+        "original_date": "2026-10-21"
+      },
+      "category": "infra",
+      "tags": [
+        "supply-chain",
+        "security",
+        "pypi",
+        "litellm",
+        "credential-stealer"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "LiteLLM 1.107.0 在 PyPI 被投毒：七个平台的 wheel 全部带凭证窃取器与 RCE 后门sdist 的 maturin 构建段只多了一行 data = cook（任何公开 commit 里都没有），把 cook 目录装进 site-packages：cook.pth 加载 cook.py，收集 SSH 密钥云凭证CI/CD secretAI 工具 token浏览器密码以及 LiteLLM 代理数据库里的 LLM provider 密钥，外传到仿冒的 litellm.dev 域名；sitecustomize.py 启动守护进程，每小时从 GitHub 文件读取 C2 地址重跑窃取器并执行下载的代码，任何 Python 进程启动都会触发，根本不需要 import litellmPyPI 在 2026-10-21 13:23 UTC 前移除了该版本；Docker 镜像 v1.107.0latestmain-latestmain-stable 在 11:46 到 14:20 UTC 之间带毒；1.106.2 与 rc1/rc2 干净LLM 网关已成为高价值供应链攻击目标",
+      "summary_en": "LiteLLM 1.107.0 on PyPI shipped a credential stealer and RCE backdoor in all seven wheels (Linux, macOS, Windows). A single injected data = cook line in the sdist's maturin build section - present in no public commit - copies a cook/ folder into site-packages: cook.pth loads cook.py, which collects SSH keys, cloud credentials, CI/CD secrets, AI tool tokens, browser passwords and the LLM provider keys in a LiteLLM proxy database and exfiltrates them to a lookalike litellm.dev domain; sitecustomize.py starts an hourly daemon that reads a server address from a GitHub file, re-runs the stealer and executes downloaded code. Both run whenever any Python process starts, even without importing litellm....",
+      "one_liner": "LiteLLM 1.107.0 在 PyPI 被投毒：一行 maturin 配置带进窃密器与后门，任意 Python 进程启动即触发外传",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/a0e7a23f.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d31a18ea",
+      "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "source": {
+        "platform": "blog",
+        "author": "Sagi Tzadik, Shir Tamari, Nir Ohfeld, Tomer Schwartz",
+        "original_date": "2026-10-21"
+      },
+      "category": "infra",
+      "tags": [
+        "php",
+        "rce",
+        "ai-security",
+        "exploit-development",
+        "llm",
+        "vulnerability"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Wiz Research 披露 PHP2Shell：核心 PHP 在 fatal error 处理上的内存安全缺陷（upload-progress 反序列化 use-after-freebacktrace use-after-free 与 OPcache 类型混淆，归为 CVE-2026-109618 与 CVE-2026-109619，最高 CVSS 9.2），影响 PHP 5.4 以来的所有版本，可在 WordPressDrupalJoomla 上未认证 RCE，还能 Heartbleed 式读取进程内存缺陷已存在几十年，但利用链复杂度处于人类研究者的能力边缘；前沿模型把门槛大幅降低，数小时内就在多个目标上适配出可用 exploitWiz 称这是 AI 时代判断什么算脆弱的转折点，发现与补丁验证由 Calif 与 OpenAI 协作完成，与 Krebs 前一日的报道互为印证",
+      "summary_en": "Wiz Research details PHP2Shell: memory-safety flaws in how core PHP handles fatal errors (upload-progress unserializer use-after-free, fatal-error backtrace use-after-free and OPcache type confusion, grouped under CVE-2026-109618 and CVE-2026-109619, up to CVSS 9.2) affecting every PHP release since 5.4 and enabling unauthenticated RCE on WordPress, Drupal and Joomla plus Heartbleed-style process-memory disclosure. The flaws existed for decades, but the exploit chain was at the edge of what human researchers could practically achieve; frontier AI models cut that barrier, enabling working exploits adapted across multiple targets in hours. Wiz frames this as a turning point for what counts as vulnerable in the AI era, with discovery and patch verification assisted by Calif and OpenAI.",
+      "one_liner": "Wiz 披露 PHP2Shell：存在几十年的内存缺陷被前沿 AI 数小时内变成可用 exploit，CVSS 9.2 影响大半个互联网",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/d31a18ea.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "c1afa369"
+      ]
+    },
+    {
+      "id": "8802a789",
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Edwardsson",
+        "original_date": "2026-10-21"
+      },
+      "category": "learning",
+      "tags": [
+        "world-model",
+        "fine-tuning",
+        "terminal",
+        "qwen",
+        "speculative-decoding"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "一次完整的终端世界模型实战：把 Qwen2.5-Coder-0.5B 微调成假终端，背后没有 shell 与文件系统，模型按字符网格预测屏幕增量，词表只有 333 个 token（256 字节64 个行操作加少量特殊操作），解码用文法约束保证每步输出都是合法屏幕更新训练数据是精确标注的合成数据：在 Docker 里逐键录制真实会话并随机化用户主机提示符与尺寸（33.6 万局约 2B token）亮点包括：教模型自我修复错误用 COPY 操作把滚动成本从每行约 96 token 降到 3并行行草稿加自身 speculative 解码最终 208MB 在浏览器 WebGPU 里运行，每次按键约 38 毫秒，能开 vim 与 tmux玩贪吃蛇，并在几条命令后仍记得上下文",
+      "summary_en": "A hands-on world model: fine-tune Qwen2.5-Coder-0.5B to emulate a terminal with no shell or filesystem behind it - the model predicts screen deltas on a character grid using a 333-token vocabulary (256 byte tokens, 64 row tokens, a few specials) with grammar-constrained decoding so every prediction is a valid screen update. Training data is synthetic but exact: real sessions recorded keypress-by-keypress inside Docker with randomized personas, hosts, prompts and sizes (336k episodes, about 2B tokens). Key wins: teaching the model to repair its own mistakes, a COPY operation that makes scrolling cost 3 tokens per row instead of roughly 96, and self-speculative decoding over parallel row drafts. The result runs in-browser at 208 MB on WebGPU, about 38 ms per keypress, and can run vim and tmux, play snake and remember context a few commands later.",
+      "one_liner": "360M 模型假扮终端：字符网格预测屏幕增量，333 个 token 词表加文法约束解码，208MB 跑进浏览器",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8802a789.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "add383da",
+      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations",
+      "source": {
+        "platform": "news",
+        "author": "Dan Goodin (Ars Technica)",
+        "original_date": "2026-10-20"
+      },
+      "category": "industry",
+      "tags": [
+        "privacy",
+        "ai-agents",
+        "meta",
+        "security",
+        "sharing"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Claroc 研究者用一次被动 DNS 查询就枚举出 6800 个 Meta Muse 分享链接：分享页挂在 cf.metaaiusercontent.com，且把对话标题直接放进子域名（例如 loan-application-draft-a4c9e2.cf.metaaiusercontent.com），公共 DNS 记录让任何人都搜得到这些从未拿到手的链接，研究方称之为 GhostShares抽样页面包括：某候选人为前沿 AI 实验室高管面试准备的笔记（含内部联系人与会议时间）标注给 CEO 的公司营收复盘小微企业贷款申请带部分账号的银行欺诈提醒全年员工休假表等Muse 上线时宣称从底层为隐私与安全打造，Meta 现已暂停分享功能；该报告 10 月 8 日经漏洞赏金提交后一直无人回复对 agent 产品的直接教训：隐私设计必须覆盖 URL 与 DNS 这类元数据面",
+      "summary_en": "Claroc researchers enumerated 6,800 Meta Muse share links with a single passive-DNS query: share pages live on cf.metaaiusercontent.com with the conversation title placed in the subdomain (for example loan-application-draft-a4c9e2.cf.metaaiusercontent.com), so public DNS records make links discoverable without ever being handed them - the firm calls these GhostShares. Sampled pages exposed an executive-search prep note naming a frontier AI lab contact and meeting time, a company revenue review marked for its CEO, a small-business loan application, a fraud alert with a partial account number, and more. Muse was pitched as built from the ground up for privacy and security; Meta has paused the sharing feature while reviewing, and the report had sat unanswered in its bug bounty program since October 8....",
+      "one_liner": "Meta Muse 把对话标题写进分享链接子域名，被动 DNS 一查即中：6800 个 GhostShares 泄露面试笔记与财务数据",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/add383da.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5dbb54a0",
+      "title": "Claude Duet: proactive agent research preview powered by Opus 5.5",
+      "url": "https://claude.com/product/claude-duet",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "claude",
+        "proactive-agent",
+        "research-preview"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "Anthropic 推出 Claude Duet 研究预览（美国 Pro/Max 可用）：从等你在聊天框开口转向主动式 agent，每天早晨给简报标记需要处理的事，通过消息接任务后在云端自己的计算机上持续工作，完成后交付文档表格或幻灯片；发消息付款等敏感操作前先征求同意由 Opus 5.5 驱动，复用 Claude 的记忆技能与 6000 多个连接器，审批登录与安全检查都跑在用户自己的云计算机里，全程可见它在做什么agent 从工具变成同事的又一次产品化样本",
+      "summary_en": "Anthropic opens a research preview of Claude Duet, a proactive agent for Pro and Max plans in the US: instead of waiting for a chat, it briefs you each morning, flags what needs your attention, takes tasks handed over by message, and keeps working on its own cloud computer until it returns finished docs, sheets or decks. It asks for approval before sensitive operations such as sending messages or paying, runs on Opus 5.5, reuses Claude memory, skills and connectors (6,000+ integrations), and runs approvals, logins and safety checks inside the user's own cloud computer with full visibility of what it is doing.",
+      "one_liner": "Claude Duet 研究预览：早晨简报加消息派活，云端自己持续干活，敏感操作先审批，Opus 5.5 驱动",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5dbb54a0.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-22",
-  "total_entries": 2841
+  "last_updated": "2026-10-23",
+  "total_entries": 2856
 }
