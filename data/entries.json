@@ -86842,7 +86842,9 @@
       "updated_date": null,
       "github_stars": null,
       "related": [
-        "c1afa369"
+        "c1afa369",
+        "cb2f457f",
+        "aab26301"
       ]
     },
     {
@@ -86939,8 +86941,401 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "24b38527",
+      "title": "Tandem: Serving Hybrid Linear-Attention GUI Agents on Mobile NPUs",
+      "url": "https://arxiv.org/abs/2610.26660",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhuomin Chen, Jingchao Ni, Xu Zheng, Yong Chen, Mo Sha, Wei Cheng, Dongsheng Luo",
+        "original_date": "2026-10-19"
+      },
+      "category": "infra",
+      "tags": [
+        "on-device-inference",
+        "npu",
+        "gui-agents",
+        "llama.cpp",
+        "inference-runtime",
+        "hybrid-linear-attention"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "手机 GUI Agent 每步都重读屏幕并向模型要下一个动作，端侧 NPU 推理把屏幕内容留在设备内，代价是延迟逐步累积；混合线性注意力省显存，但循环状态只有在正确输入位置存了 checkpoint 才能复用，为聊天续写设计的策略会漏掉 Agent 请求里可复用的前缀Tandem 基于 llama.cpp 实现：在相邻请求的分歧点保存循环状态prefill 大头留在 NPU 矩阵单元逐 token 短尾计算生成回滚状态验证 kernel 对所有候选 token 只读一次权重块，请求间歇释放 NPU power vote 而不卸载模型Snapdragon 8 Elite 上文本屏描述每步延迟降 30%截图降 16%文本步能耗降 33%，模型驻留待机功耗从 0.76 W 降到 0.22 W",
+      "summary_en": "Smartphone GUI agents keep screen contents local by running on mobile NPUs, but per-action latency accumulates, and checkpoint policies designed for chat continuation miss reusable prefixes in agent requests. Tandem, a llama.cpp runtime, saves recurrent state where consecutive prompts diverge, keeps most prefill on the NPU matrix unit, produces rollback states via a short per-token tail, reads each weight block once during verification, and releases NPU power votes between request bursts. On Snapdragon 8 Elite it cuts per-step latency by 30% for text screens and 16% for screenshots, energy per text step by 33%, and standby power with the model loaded from 0.76 to 0.22 W.",
+      "one_liner": "端侧 GUI Agent 推理运行时的完整系统解：分歧点 checkpoint 加 prefill 压矩阵单元加 power vote，待机功耗从 0.76W 压到 0.22W",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/24b38527.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aeaa8171",
+      "title": "First-Order LoRA Training with Phone NPUs",
+      "url": "https://arxiv.org/abs/2610.24816",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xu Zheng, Wei Cheng, Zhuomin Chen, Dongkuan Xu, Mo Sha, Jingchao Ni, Dongsheng Luo",
+        "original_date": "2026-10-17"
+      },
+      "category": "infra",
+      "tags": [
+        "on-device-training",
+        "npu",
+        "lora",
+        "personalization",
+        "mobile"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "端上微调让模型从用户私有数据学习而不用上传数据，LoRA 压掉可训练参数，但每个一阶训练步仍要三次乘冻结权重（前向激活重算输入梯度），而手机 NPU 的推理接口只支持前向该系统把三次冻结权重乘法全部放进 NPU，训练图adapter 和优化器留在 CPU：输入梯度 kernel 复用 NPU 驻留的权重分块和前向反量化器，免转置拷贝且保证前后向同一份有效权重；按梯度敏感度选精度，FP16 输出加逐行 range guard运行时融合剩余 CPU 算子NPU 执行与 adapter 计算重叠，支持断点续跑和热节流，训练可作后台任务过夜进行在两代 Snapdragon 上用 Qwen/Llama 四个模型对照 CPU手机 GPU仅前向与 GPU 训练基线评测",
+      "summary_en": "On-device LoRA fine-tuning still needs three frozen-weight products per first-order step (forward, activation recomputation, input gradient), and phone NPU inference interfaces do not expose input gradients. This system runs all three products on the NPU while keeping the training graph, adapters and optimizer on the CPU: input-gradient kernels reuse resident weight tiles and the forward dequantizer, precision is chosen by gradient sensitivity with a per-row range guard for FP16 outputs, and resumable execution with thermal pacing lets training run overnight as a background job. Evaluated on two Snapdragon platforms with four Qwen and Llama models against CPU, phone-GPU, forward-only and GPU-trained baselines.",
+      "one_liner": "绕开 NPU 只出不进的推理接口做端上训练：三次冻结权重乘法全进 NPU，夜间个性化训练从演示变成工程",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/aeaa8171.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "01b0f182",
+      "title": "More Memory, Worse Agents: Error Reproduction and Anti-Persistence in LLM Agent Memory",
+      "url": "https://arxiv.org/abs/2610.27406",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ruhan Wang, Kishan Panaganti, Dongruo Zhou",
+        "original_date": "2026-10-19"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "error-reproduction",
+        "experience-reuse",
+        "anti-persistence",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "经验记忆让 Agent 不改参数也能跨任务进步，常见做法是把轨迹提炼成规则摘要技能存起来复用；本文指出存下的抽象一旦有错，会经检索复用传播到后续决策，还会塑造执行轨迹再被提炼成带同样错误的新抽象，作者把这个环路命名为 error reproduction（错误再生）提出的 Anti-Persistence 只累积原始轨迹和结果，任务相关指导按需重建执行后即丢弃，自适应选择器根据历史结果决定是否合成及如何合成跨多个基准和底座模型，Anti-Persistence 拿到更高的 held-out 成功率，平均 LLM 调用成本在所有被评记忆设计里最低结论：经验积累和抽象持久化应当拆开，别把提炼出的规则当长期资产",
+      "summary_en": "Errors in stored agent-memory abstractions propagate through retrieval and reuse, and also shape execution trajectories that are re-distilled into abstractions reproducing the same errors - a feedback loop the authors term error reproduction. The proposed Anti-Persistence design accumulates raw trajectories and outcomes while reconstructing task-specific guidance on demand and discarding it after execution, with an adaptive selector deciding whether and how to synthesize guidance. Across benchmarks and backbones it achieves higher held-out success and the lowest average LLM-call cost among evaluated memory designs, supporting separation of experience accumulation from abstraction persistence.",
+      "one_liner": "Agent 记忆里的错误会自我复制：把提炼规则当长期资产是坑，只存轨迹指导用完即弃反而更准更便宜",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/01b0f182.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "563e41f1",
+      "title": "ClawMMU: Protection-Coherent Virtual Memory for Stateful LLM Agents",
+      "url": "https://arxiv.org/abs/2610.28093",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jinhao Hu, Bardia Mohammadi, Mofasshara Binte Rafique, Lars Henning Klein, Akhil Arora, Ashvin Goel...",
+        "original_date": "2026-10-20"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "memory-poisoning",
+        "access-control",
+        "prompt-injection",
+        "harness-security"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Agent 的长期记忆大量来自网页抓取和工具返回，现有 harness 不记录每段记忆谁有权对它做什么，藏在抓取页面里的指令可能被当成用户自己的指令执行ClawMMU 给每条记忆标注 ownerscope来源和 authority，在内容进入上下文写入存储从存储读回驱动工具调用四个位置做检查，核心规则是信息可以升权，但权限不能自我抬升因为检查只看内容从哪来不看内容说了什么，记忆类攻击被降级成经典保护错误，模型被骗了 harness 也能拦下6 页 workshop 论文（AgenticOS Workshop @ NeurIPS 2026，非存档），无完整系统评测，但把经典保护模型接到 Agent 记忆上的框架值得记下",
+      "summary_en": "Agent harnesses do not record who may act on long-term memory fetched from web pages and tool results, so an instruction hidden in a fetched page can be treated as the user's own. ClawMMU labels every piece of memory with owner, scope, origins and authority, and checks these labels when content enters the model's context, is written to storage, returns from storage, or drives a tool call. Its central rule: information may rise in authority, but authority never lifts itself. Because checks depend on where content came from rather than what it says, memory attacks reduce to classical protection faults the harness stops even when the model is fooled.",
+      "one_liner": "把操作系统的内存保护模型搬进 Agent 记忆：权限不能自我抬升，模型被骗了 harness 也能拦下记忆投毒",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/563e41f1.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a310e8bc",
+      "title": "HAWK: Heterogeneity-Aware KV Cache Transfer for Efficient GPU-NPU Phase-Disaggregated Inference",
+      "url": "https://arxiv.org/abs/2610.29873",
+      "source": {
+        "platform": "arxiv",
+        "author": "Junhyeok Park, Jungeun Yoon, Kyungmin Kim, Hunsoon Lee, Shinyoung Ahn, Kangho Kim",
+        "original_date": "2026-10-21"
+      },
+      "category": "infra",
+      "tags": [
+        "inference-serving",
+        "kv-cache",
+        "gpu-npu",
+        "phase-disaggregation",
+        "rdma",
+        "energy-efficiency"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "LLM 推理两阶段特性相反：prefill 吃算力，decode 受访存约束；GPU 适合 prefill 但 decode 阶段利用率低，NPU 正好相反把 prefill 放 GPUdecode 放 NPU 的难点在跨设备 KV cache 传输：两边通信机制和 KV 张量布局都不同HAWK 建 RDMA 直传路径，并在 NPU 侧按目标张量布局预分配 buffer，数据从 GPU 连续 RDMA buffer 直接写进 NPU 目标布局，传完即可消费无需重排在商用 GPU+NPU 平台上做到同等 SLO 约束下与纯 GPU 方案差距 7.88% 以内，能效最高 1.26 倍成本效率最高 1.72 倍数据中心侧的工作，但 GPU 前向加 NPU 解码的分工在手机 SoC 上同样成立，缺的只是跨处理器低开销传 KV 的机制",
+      "summary_en": "Prefill is compute-bound while decode is memory-bound, so GPUs suit prefill but idle during decode, and NPUs the reverse. HAWK enables GPU-prefill/NPU-decode disaggregation with an RDMA direct path plus tensor-layout-aware buffers pre-allocated on the NPU side, so transferred KV cache is consumed directly without rearrangement. On a system with commercially available GPUs and NPUs it stays within 7.88% of a GPU-only system under the same SLO while achieving up to 1.26x higher power efficiency and 1.72x higher cost efficiency.",
+      "one_liner": "GPU 管前向NPU 管解码的分离式推理：RDMA 直传加布局感知 buffer 解决 KV 跨设备传输，能效 1.26 倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a310e8bc.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fa7fd340",
+      "title": "Correlated Failures of AI Approval Monitors",
+      "url": "https://arxiv.org/abs/2610.29178",
+      "source": {
+        "platform": "arxiv",
+        "author": "Luca Zanolini",
+        "original_date": "2026-10-21"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-safety",
+        "oversight",
+        "approval-monitors",
+        "correlated-failures",
+        "fail-prone-systems",
+        "prompt-injection"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Agent 动手前的多监控器审批靠聚合分数或数票数合并结论，但共用基座模型或共用被污染输入的监控器会一起失灵作者借用分布式计算的 fail-prone systems 框架，用两套预注册协议测了十二个小号开源权重模型在付款审批上的表现，另在非预注册条件下测了 Claude Opus 5.5GPT-6 AstraGemini 4 Argon 和 DeepSeek-V3.2每一起稳定骗过监控器批准欺诈的操作都从某个证据来源下手只影响读该来源的监控器；骗拦截则取决于注入抗性，小模型和 DeepSeek 会照做，三个闭源模型除一例外无视，Opus 连定向说服也拒绝新数据上按来源计数误拦正确付款 0.9%，最好的计票规则 7.4%，安全性相同预注册最坏情况测试未过：把审批方压到单一来源后，十二个模型监控上没有任何规则能扛过全部实测攻击，加一条不可被说服的规则引擎才恢复 safe+live",
+      "summary_en": "Multi-monitor approval for consequential agent actions fails together when monitors share a base model or a poisoned input. Borrowing fail-prone systems from distributed computing, the study measures twelve small open-weights monitors on payment approval under two pre-registered protocols, plus Claude Opus 5.5, GPT-6 Astra, Gemini 4 Argon and DeepSeek-V3.2 without pre-registration. Every reliable approval-fooling came through an evidence source and reached only that source's readers; blocking-fooling depended on injection resistance. Counting sources instead of votes blocked 0.9% of correct payments versus 7.4% for the best vote-counting rule at equal safety. No rule over the twelve LLM monitors survives a single-source attack; an unpersuadable rule engine restores safe-and-live on the measured attacks.",
+      "one_liner": "多监控器审批会共因失效：数来源别数票（误拦 0.9% 对 7.4%），极端情况还得靠不可被说服的规则引擎兜底",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fa7fd340.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "14e02277",
+      "title": "Eight Bits of Trust; eMudhra's CA keys cracked in milliseconds",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds",
+      "source": {
+        "platform": "blog",
+        "author": "Scott Helme",
+        "original_date": "2026-10-20"
+      },
+      "category": "infra",
+      "tags": [
+        "pki",
+        "tls",
+        "ca-compromise",
+        "elliptic-curve",
+        "certificate-transparency",
+        "ai-assisted"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Scott Helme 把 eMudhra 八张中间 CA 证书的私钥从公开证书里反解出来，在笔记本上花不到一秒八张都是 P-384 椭圆曲线密钥，但私钥标量 d 只有 456115 这种量级d=4 算出的公钥仍是曲线上完全合法的点，所有结构校验都能通过，唯一发现办法是去试；一个字节只有 256 种取值，最多 255 步就撞上证书 2025 年 4 月签发，六张 TLS CA 加两张代码签名 CA，又经 Sectigo AAA 根交叉签名，暴露 17 个月Chrome 和 Firefox 封了这八张中间证书，但 curlPythonNodeGoJavagit 和容器包管理器默认信任磁盘 CA bundle不查吊销不查 CT，作者用伪造 api.stripe.com 证书在 Linux/macOS 直接拿到验证通过成因是仪式脚本 bug 加人工挑错密钥对；Helme 后来只让 Claude 敲了一个 prompt 就把私钥全部恢复固件冻结到 2039 年的设备更新不了根证书包",
+      "summary_en": "Scott Helme recovered the private keys of eight eMudhra intermediate CA certificates from the public certificates in under a second on his laptop. All eight are P-384 keys whose scalar d is tiny (4, 56, 115...), producing perfectly valid curve points that pass every structural check - brute force needs at most 255 tries per byte. Issued April 2025 and cross-signed by Sectigo's AAA root, they went undiscovered for 17 months. Chrome and Firefox blocked them, but curl, Python, Node, Go, Java, git and container package managers trust on-disk CA bundles with no revocation or CT checks, so a forged api.stripe.com certificate verified cleanly on his Linux and macOS machines. Root cause: a ceremony-script bug plus hand-picking the wrong keypair. Helme later recovered all keys with a single Claude prompt; devices with firmware frozen to 2039 cannot update their root stores.",
+      "one_liner": "CA 私钥可以是个位数：八张 P-384 中间证书一秒反解，浏览器封得住，信任磁盘 CA bundle 的命令行世界全暴露",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/14e02277.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cb2f457f",
+      "title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot",
+      "source": {
+        "platform": "blog",
+        "author": "CJ Moses",
+        "original_date": "2026-10-21"
+      },
+      "category": "infra",
+      "tags": [
+        "php2shell",
+        "threat-intelligence",
+        "honeypot",
+        "patch-to-exploit",
+        "vulnerability-management"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "AWS MadPot 蜜罐在 10 月 17 日PHP2Shell 公开披露前四天就观测到利用尝试，来源 IP 属商业匿名化网络；embargo 期间打蜜罐加匿名来源指向威胁 actor 行为，actor 如何提前获得利用信息不明披露日最早 PoC 出现在 02:00 UTC，比 embargo 解除（14:00 UTC）早 12 小时；02:00-08:00 UTC 多批利用尝试来自不同匿名基础设施payload 各异，指向多个 actor补丁发布后数小时新 PoC 上线并立刻打到蜜罐，官方结论已在野外广泛利用防守含义：调查起点从披露日前移到最早观测（至少 10-17）面向互联网的关键漏洞补丁按小时计 SLA投资不依赖 CVE 签名的检测AI 让补丁 diff 到可用 exploit变便宜，patch-to-exploit 时间缩短是结构性的文末附六个 IOC IP",
+      "summary_en": "AWS MadPot honeypot telemetry observed a PHP2Shell exploitation attempt on Oct 17, 2026 - four days before public disclosure of CVE-2026-109618/109619 - from an IP on a commercial anonymization network. On disclosure day the earliest PoC appeared at 02:00 UTC, twelve hours before embargo lift; further attempts from 02:00-08:00 UTC came via different anonymized infrastructure with varied payloads, suggesting multiple actors. Hours after the patch shipped, new PoCs appeared and immediately hit AWS sensors: PHP2Shell is now broadly exploited in the wild. Defender lessons: investigate from the earliest observed exploitation (at least Oct 17), measure patch SLAs for internet-facing critical vulns in hours, and invest in detection that does not rely on CVE signatures - AI-assisted analysis has structurally shortened patch-to-exploit time. Six IOC IPs included.",
+      "one_liner": "PHP2Shell 披露前四天蜜罐就看到真实利用：AI 把补丁 diff 变 exploit 的时间压到小时级，调查起点和补丁 SLA 都得跟着改",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cb2f457f.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "d31a18ea"
+      ]
+    },
+    {
+      "id": "aab26301",
+      "title": "There isn't an easy exploit for this PHP vulnerability",
+      "url": "https://eliastaylor.com/noexploit",
+      "source": {
+        "platform": "blog",
+        "author": "Elias Taylor",
+        "original_date": "2026-10-21"
+      },
+      "category": "infra",
+      "tags": [
+        "php2shell",
+        "exploitability",
+        "fake-poc",
+        "llm",
+        "vulnerability-reading"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "PHP2Shell 漏洞真实且重要，但作者认为它远没有传播说的那么好打，与 Log4Shell/Heartbleed/RoR YAML 完全不同级那些是单请求触发，他逐条对照观察：GitHub 上字面意义上几千个PoC 仓库，没有一个能打穿 vanilla PHP 实例；他邀请读者自起 Docker 亲手验证（别让 LLM 代跑）归因：五年前大家能分清可利用性，现在人被自己的 LLM 骗了LLM 说你有 exploit，其实没有置顶编辑强调该打补丁还是要打与 Wiz 一周利用链AWS 真实遥测并读才完整：可利用性是分层分布的，顶级研究员的成果不等于每个攻击者手里都有现成武器，假 PoC 海还会让按 PoC 数量评估风险的防守方系统性失真",
+      "summary_en": "The PHP2Shell vulnerability is real and matters, but Elias Taylor argues it is nowhere near as easy to exploit as the coverage suggests - unlike Log4Shell, Heartbleed or RoR YAML, which need no more than a single request. He observes literally thousands of PoC repos on GitHub, none of which defeat a vanilla PHP instance, and invites readers to verify by hand against their own Docker setup rather than letting an LLM run it. His diagnosis: people are being fooled by their own LLMs, which deliver 'you have an exploit' when they do not. Read alongside Wiz's week-long chain and AWS's telemetry, exploitability is layered - and the fake-PoC flood systematically distorts risk assessment by PoC count.",
+      "one_liner": "几千个 GitHub PoC 没一个能打穿 vanilla PHP：LLM 说你有 exploit正在制造假 PoC 海，按 PoC 数量定风险会失真",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/aab26301.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "d31a18ea"
+      ]
+    },
+    {
+      "id": "49bb5128",
+      "title": "Jailbreaking the Switch 2 (ns2jb)",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb",
+      "source": {
+        "platform": "blog",
+        "author": "Sammy Hajhamid",
+        "original_date": "2026-10-18"
+      },
+      "category": "infra",
+      "tags": [
+        "jailbreak",
+        "switch-2",
+        "exploit-chain",
+        "ai-assisted-security",
+        "trust-chain"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Switch 2 当前最新固件 23.0.1 上的首个软件越狱（作者自称），software-onlytethered：能以普通 sysmodule 和内置 fs sysmodule 身份跑任意原生代码用户态入口弃 WebKit n-day 线（XOM+PAC+CFI 挡住浏览器 RW 到任意 IPC），改打 Switch 1 游戏 SmileBASIC 的解释器：Codex 找到 REMOVE 命令 32 位整数下溢，memmove 三参数全部回绕，把数组前 8 字节拉进数组SmileBASIC 数组前 8 字节恰是自身指针，越界读写到手再升级 ROP提权走 fs sysmodule 路径规范化的 0x301 字节堆溢出，受害分配是 BufferedStorage 缓存条目，改 PID 为 1 拿 FullPermission信任链断点在fs 自己保证内容与 NCA 头哈希一致：fs 内任意读写后在 ldr 与 fs 之间把域表 ExeFS 对象换掉，签名校验用的仍是原文件系统哈希人机分工记录诚实：越狱本体约两周人力，agent 找到关键整数下溢与受害分配双线并行，一天 vibecode 出 Mario Kart World 模组",
+      "summary_en": "ns2jb is the first software-only jailbreak for Switch 2 on the latest firmware 23.0.1, enabling arbitrary native code as any ordinary sysmodule including the built-in fs sysmodule. The WebKit n-day entry dies against XOM+PAC+CFI; the working path exploits a 32-bit integer underflow in the SmileBASIC interpreter's REMOVE command (found by Codex), turning an underflowed memmove into arbitrary read/write via the array's self-pointer, then ROP. Privilege escalation abuses a path-normalization heap overflow in the fs sysmodule with a BufferedStorage cache entry as the victim allocation; the trust chain falls because fs guarantees its own content consistency - with fs compromised, the domain-table ExeFS object is swapped between ldr and fs, so signature checks still validate against the original filesystem hash....",
+      "one_liner": "Switch 2 首个软件越狱的诚实人机分工：结构性信任链断点还是人找的，模式化适配和旁支工程 agent 已经能接",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/49bb5128.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2f990e26",
+      "title": "TorchTPU: PyTorch backend for Google TPUs (google-pytorch/torch_tpu)",
+      "url": "https://github.com/google-pytorch/torch_tpu",
+      "source": {
+        "platform": "github",
+        "author": "google-pytorch",
+        "original_date": null
+      },
+      "category": "infra",
+      "tags": [
+        "pytorch",
+        "tpu",
+        "open-source",
+        "training",
+        "inference",
+        "torch-compile"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "Google 开源的 PyTorch TPU 原生后端：提供 ATen kernel 实现XLA 计算的编译缓存torch.compile() 图模式执行数据并行/张量并行分布式训练支持，附 LlamaQwenResNetDLRMminGPTUNet 等模型示例和调试基准工具截至 2026-10-23 有 682 星与 DeepInfer 等同属训练/推理栈开源竞争组：PyTorch 生态有了 Google 官方维护的 TPU 后端，框架绑定硬件的格局在训练侧也开始松动README 未给性能数字，实际可用性待跑分验证",
+      "summary_en": "A PyTorch backend for Google TPUs, open-sourced under google-pytorch: custom ATen kernels, a compilation cache for XLA computations, torch.compile() graph-mode execution, data- and tensor-parallel distributed training, and examples spanning Llama, Qwen, ResNet, DLRM, minGPT and UNet, plus debugging and benchmarking utilities (682 stars as of 2026-10-23). The README ships no performance numbers yet.",
+      "one_liner": "Google 官方开源 PyTorch TPU 后端：ATen kernel 加 XLA 编译缓存加 torch.compile，训练/推理栈开源竞争再加一子",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/2f990e26.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": 682,
+      "related": []
+    },
+    {
+      "id": "245d155a",
+      "title": "反正也没时间活：51 年 4 个月的寿命，真正能自己决定的只有 21 天 7 小时",
+      "url": "https://x.com/xiaojingcanxue/status/2113291512394244572",
+      "source": {
+        "platform": "x",
+        "author": "xiaojingcanxue",
+        "original_date": "2026-10-22"
+      },
+      "category": "industry",
+      "tags": [
+        "aigc",
+        "video-generation",
+        "content-production",
+        "ai-workflow",
+        "short-film"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "三分多钟 AI 短片反正也没时间活在抖音破 3 亿播放1700 余万点赞设定是一个 29 岁负债青年遇到高价回收寿命的外星人，对方不收能活多久，只收真正属于你的时间51 年 4 个月剩余寿命里能自己决定的只有 21 天 7 小时：上班通勤睡觉都不算，无意识刷手机也不算导演栗澳杰科班影视出身，把执行环节换成 AI 但流程一点没省：一句话核心问题大纲剧本镜头拆解人物/场景/道具设定图，最后多视频生成模型协同出画面，ChatGPT 用在前期讨论和修改对白，全程一人约两周他承认 21 天是戏剧化数字，并给出后浪研究所 2.69 小时/天统计局周均 48.1 小时等真实数据价值不在片子而在它演示的 AIGC 视频生产位置：剧本先行视觉系统先稳住再生成，关键在取舍不在模型",
+      "summary_en": null,
+      "one_liner": "AIGC 视频的工业化样本：剧本先行镜头拆解多模型协同，一人两周做出 3 亿播放短片，关键在取舍不在模型",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/245d155a.md",
+      "images": [],
+      "added_date": "2026-10-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-23",
-  "total_entries": 2856
+  "total_entries": 2868
 }
