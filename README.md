@@ -6,38 +6,38 @@
 
 - [Introducing Kimi K3.1 Pro](https://www.kimi.ai/blog/kimi-k3-1-pro) ⭐4 · 2026-10-24 — Kimi K3.1 Pro：最强 3T 级开源权重模型，1M 上下文；开源版主动清除网络攻击数据，攻击能力被刻意压到前沿之下
 - [Claude Duet: proactive agent research preview powered by Opus 5.5](https://claude.com/product/claude-duet) ⭐4 · 2026-10-23 — Claude Duet 研究预览：早晨简报加消息派活，云端自己持续干活，敏感操作先审批，Opus 5.5 驱动
+- [Software is slow because of bad design, not slow languages](https://seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages) ⭐4 · 2026-10-23 — 软件慢在设计不在语言：让 agent profile 找热点改设计，比翻译成 Rust 有用
+- [RMSNorm](https://www.gilesthomas.com/2026/10/rmsnorm) ⭐4 · 2026-10-23 — RMSNorm 省 3d-1 次加减只快 2.5%，大头是融合 kernel 的 10-11%
+- [One Small Bug](https://nesbitt.io/2026/10/23/one-small-bug.html) ⭐4 · 2026-10-23 — Claude Code 自审仓库挖出 Miri 缓存泄密与 .claude/settings.json 注入，作者结论是先收回 agent 提交权
+- [Kimi K3.1 Pro: Simon Willison's first look at pricing and benchmarks](https://simonwillison.net/2026/Oct/23/kimi-k31-pro) ⭐4 · 2026-10-23 — Kimi K3.1 Pro API 首测：$2/$10 定价对齐 GPT-6.1 Sol，AA 55 分为开放权重模型新高
 - [TorchTPU: PyTorch backend for Google TPUs (google-pytorch/torch_tpu)](https://github.com/google-pytorch/torch_tpu) ⭐3 · 2026-10-23 — Google 官方开源 PyTorch TPU 后端：ATen kernel 加 XLA 编译缓存加 torch.compile，训练/推理栈开源竞争再加一子
+- [AudioScript: local real-time bilingual captions with sherpa-onnx](https://x.com/GitHub_Daily/status/2113601349330055221) ⭐3 · 2026-10-23 — AudioScript：sherpa-onnx+CTranslate2 全本机双语字幕，稳态 70ms 但冷启动 2 秒超预算
 - [EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence](https://arxiv.org/abs/2610.31650) ⭐4 · 2026-10-22 — 证据缺失让"每句都真"的代理照样执行禁令动作：300 对任务的可执行基准测安全边界与证据恢复，十模型差异显著
 - [Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation](https://arxiv.org/abs/2610.31639) ⭐4 · 2026-10-22 — CoT 解释可能是事后合理化：把推理拆成隔离上下文的 DAG每节点只看因果父节点，因果敏感度 +12~21pp
-- [Beyond Accuracy: Disentangling Decomposition from Typed-State Quality Assurance in Multi-Agent L...](https://arxiv.org/abs/2610.31280) ⭐4 · 2026-10-22 — 多代理管线收益归因：F1 提升主要来自专门化提示而非类型化契约，但类型化状态能在边界拦住越界输出避免晚失败丢数据
-- [BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing](https://arxiv.org/abs/2610.31633) ⭐4 · 2026-10-22 — 循环模型推理内存线性增长的解法：随机深度预训练 + KV 缓存跨深度共享，命中率 +31%p90 TTFT 降 84%
-- [Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery](https://arxiv.org/abs/2610.31461) ⭐4 · 2026-10-22 — 编码代理的技能粒度应当运行时路由：宏失败自动回退微级恢复，技能库从检索资源升级为可控执行抽象
-- [Introducing 1Password for Agents](https://1password.com/blog/1password-for-ai-agents) ⭐4 · 2026-10-22 — 1Password for Agents：代理登录时向密码库请求凭据用户批准后由 1Password 直接代填，密码不进代理上下文
-- [智能体手机加速爆发？换机困境端侧AI与下一代入口之争](https://mp.weixin.qq.com/s?__biz=MzA4NjUwNTI0OA%3D%3D&mid=2247500542&idx=1&sn=e8e3fde608787b50549a4985e457c186) ⭐3 · 2026-10-22 — 换机周期 4348 个月才是厂商押注智能体手机的真正推力，Agent 是下一轮换机的新故事
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 431 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 582 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 308 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 模型与实验室 | 433 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 583 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 310 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 185 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 220 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 产品与商业 | 222 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 133 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 289 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 2876
-- 公开展示卡片: 2148
-- 有全文内容: 2037
-- 最近 7 天信号: 118
+- 原始条目: 2883
+- 公开展示卡片: 2155
+- 有全文内容: 2052
+- 最近 7 天信号: 125
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `multi-agent`, `agent-security`, `claude-code`, `security`, `coding-agents`, `agents`, `agent-memory`, `coding-agent`, `agent-harness`, `agent-safety`, `kv-cache`, `prompt-injection`, `safety`
+`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `multi-agent`, `agent-security`, `claude-code`, `security`, `coding-agents`, `agents`, `agent-memory`, `coding-agent`, `prompt-injection`, `agent-harness`, `agent-safety`, `kv-cache`, `open-weights`
 
 ## 自动化约定
 
