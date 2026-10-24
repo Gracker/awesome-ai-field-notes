@@ -87334,8 +87334,256 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "ea0459ce",
+      "title": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
+      "url": "https://arxiv.org/abs/2610.31633",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hayden Prairie, Jacob M. Ryan, Taylor Berg-Kirkpatrick, Daniel Y. Fu",
+        "original_date": "2026-10-22"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "inference-memory",
+        "looped-models",
+        "long-context"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "循环架构反复把激活过同一层块，推理时每次递归各自生成 KV 缓存，内存随深度线性增长；此前的跨深度共享（KV-sharing）发现最后一次递归的缓存可以借给前面的递归而不掉点（KV-shareability），但机制不明同构训练的模型也不稳定出现论文用两阶段方案把它做成可控：预训练加 stochastic depth，诱导收缩残差动力学让各次递归表示趋同；后训练阶段的 BeNice! 把最后一次递归的 KV 缓存广播进第一次递归并训练出兼容残差，验证困惑度与标准微调持平KV-sharing 可与 MLAKimi delta attention 及 fp8/mxfp8/nvfp4 低精度 KV 量化叠加；低内存长上下文模拟中缓存命中率最高 +31.4%吞吐 +23.6%p90 TTFT 最高降 83.6%",
+      "summary_en": "Looped architectures pass activations through the same block repeatedly, but at inference each recurrence builds its own KV-cache, so memory grows linearly with depth. Prior work found the final recurrence's cache can sometimes be shared with earlier ones without quality loss (KV-shareability), but identically trained models do not consistently show it. Two stages enable it: stochastic depth in pretraining induces contractive residual dynamics that pull representations toward a common limit across recurrences; then BeNice!, a post-training method, broadcasts the final recurrence's KV-cache into the first and trains compatible residuals at matched perplexity. KV-sharing composes with multi-latent attention, Kimi delta attention, and fp8/nvfp4 KV quantization; in low-memory long-context inference it lifts cache hit rates up to 31.4%, throughput up to 23.6%, and cuts p90 TTFT by 83.6%.",
+      "one_liner": "循环模型推理内存线性增长的解法：随机深度预训练 + KV 缓存跨深度共享，命中率 +31%p90 TTFT 降 84%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ea0459ce.md",
+      "images": [],
+      "added_date": "2026-10-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ce9ec04f",
+      "title": "Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
+      "url": "https://arxiv.org/abs/2610.31461",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dingxuan Zhang, Yanhui Jiang, Jun Wang, Hefeng Zhou",
+        "original_date": "2026-10-22"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "skill-library",
+        "action-abstraction",
+        "failure-recovery"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "编码代理把流程打包成可复用技能后，运行时仍要决定用原始工具调用宏技能还是\"宏起步微回退\"的混合执行这是已有技能研究基本没碰的运行时控制问题论文把技能粒度当成动作抽象策略：特征化粒度控制器按任务结构执行状态和宏技能失败动态路由，配有限状态恢复执行器做宏到微的显式回退在验证器定义成功的确定性协议上评估宏采用率失败恢复路由匹配转移正确性等过程指标：固定宏执行在匹配时高效错配时脆弱，运行时路由加显式回退能恢复固定粒度解决不了的受控宏失败技能库应被视为可控可验证可恢复的执行抽象，而不只是可检索资源",
+      "summary_en": "Reusable skills let coding agents package procedures and tool guidance into modular units, but execution adds a runtime control problem prior work ignores: the same task may go through primitive tool calls, macro skills, or hybrid execution with macro-to-micro fallback. Adaptive Skill Granularity treats granularity as an action-abstraction policy conditioned on task structure, execution state, and macro failures, pairing a feature-based controller with a finite-state recovery executor. On a deterministic protocol with verifier-defined success and process metrics, fixed macro execution is efficient when applicable but brittle under mismatch, while runtime routing plus explicit macro-to-micro recovery improves robustness and recovers controlled macro failures that fixed granularity leaves unresolved. Skill libraries are controllable, verifiable, recoverable execution abstractions.",
+      "one_liner": "编码代理的技能粒度应当运行时路由：宏失败自动回退微级恢复，技能库从检索资源升级为可控执行抽象",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ce9ec04f.md",
+      "images": [],
+      "added_date": "2026-10-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3fde963d",
+      "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+      "url": "https://arxiv.org/abs/2610.31650",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qijin Zhang, Hanzhen Wang, Yuehan Zhao, Haoyu Dai, Yao Shu, Zhongxiang Dai, Shuang Qiu",
+        "original_date": "2026-10-22"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-safety",
+        "benchmark",
+        "missing-evidence",
+        "tool-use"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "工具型代理靠环境事实判断动作是否被许可；当工具返回遗漏了安全相关事实时，代理可能在用户请求无害返回的每句话都为真的情况下执行被禁止的动作EpiSEM-Bench 是可执行基准：6 个域300 对匹配的不安全/安全任务，系统抑制关键事实，测\"证据缺失下的不安全执行\"与最低可观测失败基数，并用独立审计工具测代理是否会主动寻找缺失事实找到后能否在完成许可任务的同时扣下禁止动作十个模型在遗漏鲁棒性证据获取恰当行动上差异显著，抗遗漏不等于会恢复；给恢复通道后十个模型的不安全执行都下降，但是否主动取证并正确行动各不相同",
+      "summary_en": "Tool-using agents rely on environmental facts to decide whether an action is permitted; when a tool response omits a safety-relevant fact, an agent may execute a prohibited action even though the request is benign and every returned statement is true. EpiSEM-Bench is an executable benchmark: 300 matched unsafe/safe task pairs across six domains, critical facts suppressed to measure unsafe execution under evidence omission and minimum observed failure cardinality, plus an audit of whether agents seek missing facts and withhold prohibited actions while completing permissible tasks. Across ten models, omission robustness, evidence acquisition, and appropriate action vary; resistance to missing evidence does not imply useful recovery. Recovery access reduces unsafe execution for all ten, though agents differ in actively obtaining missing facts and acting appropriately.",
+      "one_liner": "证据缺失让\"每句都真\"的代理照样执行禁令动作：300 对任务的可执行基准测安全边界与证据恢复，十模型差异显著",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3fde963d.md",
+      "images": [],
+      "added_date": "2026-10-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "36602d6d",
+      "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
+      "url": "https://arxiv.org/abs/2610.31639",
+      "source": {
+        "platform": "arxiv",
+        "author": "Gabriele Dominici, Teague McMillan, Fazl Barez, Marc Langheinrich, Martin Gjoreski",
+        "original_date": "2026-10-22"
+      },
+      "category": "models",
+      "tags": [
+        "chain-of-thought",
+        "faithfulness",
+        "context-isolation",
+        "interpretability"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "CoT 的分步理由看着像解释，但稠密注意力让每步都能看到全部上下文，模型可以靠直接检索得出答案再补一份事后合理化步骤未必因果地驱动预测CausalCoT 把问题拆成原子子问题的有向无环图，每个节点只在只含直接因果父节点的隔离上下文里求值：Markov 结构切断了对非父内容的注意通路，让下游预测只对局部推理敏感而不是全局上下文泄漏在多个推理基准上预测性能保持有竞争力，中间步骤的因果敏感度平均提高 12 个百分点对最强基线最高 21 个百分点；依赖图还支持测试时干预，局部修正可沿图向下游可预测地传播",
+      "summary_en": "Chain-of-thought rationales look explanatory, but dense attention lets each step see the full context, so the model can answer by direct lookup and add plausible post-hoc justifications that do not causally drive the prediction. CausalCoT decomposes problems into a directed acyclic graph of atomic sub-questions and evaluates each node in an isolated context containing only its direct causal parents; this Markovian structure removes attention pathways to non-parent content, making predictions sensitive to local reasoning rather than global context leakage. Across a diverse reasoning suite, CausalCoT preserves competitive accuracy while raising the causal sensitivity of intermediate steps by 12 points on average (up to 21 over the strongest baseline), and the dependency graph supports test-time interventions where local corrections propagate predictably downstream.",
+      "one_liner": "CoT 解释可能是事后合理化：把推理拆成隔离上下文的 DAG每节点只看因果父节点，因果敏感度 +12~21pp",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/36602d6d.md",
+      "images": [],
+      "added_date": "2026-10-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "32cceb30",
+      "title": "Beyond Accuracy: Disentangling Decomposition from Typed-State Quality Assurance in Multi-Agent LLM Pipelines",
+      "url": "https://arxiv.org/abs/2610.31280",
+      "source": {
+        "platform": "arxiv",
+        "author": "Maria Gabriela Alves Zuppardo, Vinicius Cardoso Garcia",
+        "original_date": "2026-10-22"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "typed-state",
+        "attribution",
+        "requirements-engineering"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "多代理 LLM 流水线的收益常被整体记在\"代理协作\"头上，但很难说清增益来自代理间的类型化契约还是分解带来的专门化提示论文在需求工程任务（功能/非功能分类 + MoSCoW 排序）上做归因：单调用基线复用专门提示但中间结果不校验的两调用Pydantic 校验类型化状态的流水线，18 个条件覆盖 PROMISE NFR+ 625 条需求3 个本地 7-8B 模型两种语言结果：F1 增益主要跟着两调用专门提示走（最高 +0.075），类型化状态本身只有 -0.003~+0.013；但类型化管线能在代理边界拦住越界输出，未校验版本失败更晚且会静默丢掉需求条目作者明确声明这是关联性研究，对比条件有捆绑",
+      "summary_en": "Multi-agent LLM pipelines are credited as a whole, but gains are rarely attributed: typed contract between agents, or the specialized prompts that decomposition enables? This requirements-engineering study compares three architectures for classifying and MoSCoW-prioritizing requirements: single-call baseline, two-call variant reusing specialized prompts with an unvalidated intermediate, and a Pydantic-validated typed-state pipeline. Across 18 conditions (625 requirements, three local 7-8B models, two languages), the F1 gain tracks the two-call specialized-prompt variant (up to +0.075), while the typed state itself adds only -0.003 to +0.013. Beyond accuracy, the typed pipeline contains out-of-range outputs at the agent boundary, whereas the unvalidated variant fails later and silently drops requirements; the authors flag the study as associative with bundled contrasts.",
+      "one_liner": "多代理管线收益归因：F1 提升主要来自专门化提示而非类型化契约，但类型化状态能在边界拦住越界输出避免晚失败丢数据",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/32cceb30.md",
+      "images": [],
+      "added_date": "2026-10-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1fd8476b",
+      "title": "Introducing Kimi K3.1 Pro",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "source": {
+        "platform": "blog",
+        "author": "Moonshot AI (Kimi)",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "frontier-model",
+        "open-weights",
+        "rl-post-training",
+        "ai-safety"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Kimi K3.1 Pro 发布：K3.1 系列首个模型当前最强 3T 级开源权重模型，1M token 上下文；Highspeed 版速度 2-3 倍，完整权重 11 月 4 日前放出它是 Kimi K3 的大规模后训练版本：跨数百个下游域做联合 RL，并把 RL 框架长上下文推理沙箱设施rollout 调度全栈优化，让每份 RL 算力有稳定回报Terminal-Bench 4.0 得 65.7%（GPT-6 Astra 58.2%Opus 5.5 66.4%），claim 级幻觉率从 K3 的 23.4% 降到 8.3%开源版特意在中训语料与 RL 环境中识别并清除网络攻击相关数据：xdev-bench-hard pass@3 从 90.5%（未清洗检查点）降到 81.0%，把开放权重的攻击能力刻意压在前沿之下",
+      "summary_en": "Moonshot introduces Kimi K3.1 Pro, the first model of the K3.1 series and its most capable 3T-class open-weight model, with a 1M-token context window; a Highspeed variant ships 2-3x the speed, and full weights are due by Nov 4, 2026. It is a post-trained Kimi K3 with far larger post-training compute: large-scale joint RL across hundreds of downstream domains, with the RL framework, long-context inference, and rollout scheduling optimized so each increment of RL compute yields stable returns. It scores 65.7% on Terminal-Bench 4.0 (GPT-6 Astra 58.2%, Claude Opus 5.5 66.4%) and cuts claim-level hallucination from K3's 23.4% to 8.3%. For the open-weight release, cyber-related data was identified and removed from both mid-training and RL environments: xdev-bench-hard pass@3 falls from 90.5% (uncleaned checkpoint) to 81.0%, deliberately keeping open-weight cyber capability below the frontier.",
+      "one_liner": "Kimi K3.1 Pro：最强 3T 级开源权重模型，1M 上下文；开源版主动清除网络攻击数据，攻击能力被刻意压到前沿之下",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1fd8476b.md",
+      "images": [],
+      "added_date": "2026-10-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "637a41fa",
+      "title": "Agent Security League AI Coding Agent Security Benchmark",
+      "url": "https://www.endorlabs.com/research/ai-code-security-benchmark",
+      "source": {
+        "platform": "blog",
+        "author": "Endor Labs Research",
+        "original_date": "2026-10-16"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "security-benchmark",
+        "harness-eval",
+        "vulnerability"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Endor Labs 的 Agent Security League 是一个持续更新的开放基准，用真实任务同时测 AI 编码代理的功能正确性与安全正确性，覆盖 Claude CodeCodexCursorSWE-Agent 等框架 33 个代理+模型组合核心发现是两条轴之间的落差：功能正确性最高 87.2%（Claude Code + Claude Fable 5.1），而同一头部组合的安全正确性只有 37.4%能跑通的代码经常是不安全的公开榜单按安全正确性排序，随新代理和模型发布逐条标注日期（头部条目为 2026-09 至 2026-10）",
+      "summary_en": "Endor Labs' Agent Security League is an open, continuously updated benchmark tracking both the functional and the security correctness of popular AI coding agents harnesses like Claude Code, Codex, Cursor, and SWE-Agent across 33 agent+model combinations on real-world tasks. The headline finding is the gap between the two axes: the best functional correctness score is 87.2% (Claude Code with Claude Fable 5.1), while the best security correctness score for that same top combo is only 37.4% code that works is routinely insecure. The public leaderboard is sorted by security correctness and dated per combo as new commercial agents and models ship (top entries from 2026-09 through 2026-10).",
+      "one_liner": "编码代理基准的功能/安全落差：功能正确性 87.2% 的头部组合，安全正确性只有 37.4%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/637a41fa.md",
+      "images": [],
+      "added_date": "2026-10-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f4065f11",
+      "title": "Introducing 1Password for Agents",
+      "url": "https://1password.com/blog/1password-for-ai-agents",
+      "source": {
+        "platform": "blog",
+        "author": "John Torrey",
+        "original_date": "2026-10-22"
+      },
+      "category": "industry",
+      "tags": [
+        "agent-auth",
+        "credentials",
+        "secrets-management",
+        "human-in-the-loop"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "1Password 发布 1Password for Agents 平台：个人 AI 代理遇到登录页时先停下，向用户密码库请求凭据；用户批准后由 1Password 直接在目标站点自动填充，代理全程接触不到明文密码文章明确否定两种常见替代每次人工输入太慢，把密码贴进提示词则让代理拿到超出任务范围的访问权首发集成 MuseClaude DuetChatGPT Work/dotsGrok BotTown Townie，Browser UseBrowserbasePerplexityRamp 等在后续名单；代理能访问什么何时访问，都由用户审批管理",
+      "summary_en": "1Password announced a platform that lets personal AI agents sign in on the user's behalf without ever holding the credentials. When an agent reaches a sign-in page it stops and requests a credential from the user's vault; after the user approves, 1Password auto-fills the credential directly on the destination site, so the secret never passes through the agent's context. The post explicitly rejects both common workarounds manually typing passwords into each agent session, or pasting a password into a prompt, which grants the agent access potentially beyond the task at hand. Launch integrations cover Meta's Muse, Anthropic's Claude Duet, OpenAI ChatGPT Work and dots, SpaceXSI Grok Bot, and Town Townie, with Browser Use, Browserbase, Perplexity, Ramp, and others listed as upcoming; users control what agents access and when.",
+      "one_liner": "1Password for Agents：代理登录时向密码库请求凭据用户批准后由 1Password 直接代填，密码不进代理上下文",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f4065f11.md",
+      "images": [],
+      "added_date": "2026-10-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-23",
-  "total_entries": 2868
+  "last_updated": "2026-10-24",
+  "total_entries": 2876
 }
