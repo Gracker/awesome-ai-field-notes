@@ -87805,8 +87805,135 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "eb8709ba",
+      "title": "Direct Pass@k Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+      "url": "https://arxiv.org/abs/2610.31667",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mahdi Salmani, Adel Javanmard, Devansh Gupta, Meisam Razaviyayn",
+        "original_date": "2026-10-22"
+      },
+      "category": "models",
+      "tags": [
+        "test-time-compute",
+        "reasoning",
+        "pass-at-k",
+        "pruning",
+        "inference-optimization"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "测试时扩展让模型生成大量候选解答，全部跑完代价高昂，近期工作在短前缀阶段剪枝，分为质量导向与多样性导向两类，两者存在探索-利用矛盾，鲜有工作直接优化这一权衡SalmaniJavanmard 等（2026-10-22，cs.AI + cs.CL）提出直接以候选池的 pass@k 为优化目标：选择使至少一个部分解续写后正确的概率最大化的候选池该目标同时奖励高质量部分解并惩罚冗余，质量与多样性由准则本身自然平衡在八个开源权重推理模型上，该方法优于现有质量类与多样性类剪枝策略，保留中等数量部分解时增益最明显",
+      "summary_en": "Test-time scaling generates many candidate solutions, and running all to completion is costly, so recent work prunes the pool after a short prefix with quality-based or diversity-based scores, an exploration/exploitation tension prior pruning work rarely optimizes directly. Salmani, Javanmard, Gupta and Razaviyayn (2026-10-22, cs.AI + cs.CL) instead choose the pool to directly maximize pass@k: the probability that at least one partial solution continued to completion is correct. The objective rewards high-quality partial solutions while penalizing redundancy, so quality and diversity are balanced by the criterion itself. On eight open-weight reasoning models it outperforms existing quality- and diversity-based pruning strategies, with gains most pronounced when keeping a moderate number of partial solutions.",
+      "one_liner": "Directly optimizes pass@k when pruning partial reasoning traces, balancing quality and diversity in one objective for test-time scaling.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/eb8709ba.md",
+      "images": [],
+      "added_date": "2026-10-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "268e3f8b",
+      "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
+      "url": "https://arxiv.org/abs/2610.31636",
+      "source": {
+        "platform": "arxiv",
+        "author": "Marek Suppa, Ivan Vykopal, Jaroslav Kopcan",
+        "original_date": "2026-10-22"
+      },
+      "category": "agents",
+      "tags": [
+        "agentic-auditing",
+        "data-quality",
+        "fineweb",
+        "multilingual",
+        "llm-pipelines"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "FineWeb2 这类多语言流水线用同一配方处理上千种语言，个别语言的失败模式难以预见SuppaVykopal 与 Kopcan（2026-10-22，cs.CL，EMNLP 2026 WaC Workshop）把 LLM 当一次性的语料库调试器使用：工具型智能体通过只读限额 API 探索语料，把发现编译成可执行测试，再由母语者验证在 2650 万文档的斯洛伐克 FineWeb2 上，三次运行（每次 $2.21-2.84）发现 4 类现象共 7 项问题，最大一项是 140.8 万文档（5.32%）的机器生成内容农场，能通过流水线过滤盲测支持 6/7 项发现；编译后的测试套件 0.7 秒即可全量复扫（无 GPU），而一次 LLM 分类要 $12k-90k；作者也指出最好的静态抽样基线以不到一半成本验证了更多选择器",
+      "summary_en": "Multilingual pipelines like FineWeb2 apply one recipe across a thousand languages, leaving per-language failure modes unanticipated. Suppa, Vykopal and Kopcan (2026-10-22, cs.CL, EMNLP 2026 WaC Workshop) use an LLM once as a corpus debugger: a tool-using agent explores the corpus through a read-only, budgeted API and compiles findings into executable tests validated by a native speaker. On the 26.5M-document Slovak FineWeb2 portion, three runs ($2.21-2.84 each) found seven findings over four phenomena, the largest a 1,408,437-document (5.32%) machine-generated content farm that passed the pipeline's filters. Blinded labels support six of seven findings; the compiled suite rescans the full corpus in 0.7s without a GPU versus $12k-90k per LLM classification pass, while the best static sampling baseline validated more selectors at under half the cost.",
+      "one_liner": "Uses a tool-using LLM agent as a one-shot corpus debugger, surfacing a 1.4M-document machine-generated slice in Slovak FineWeb2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/268e3f8b.md",
+      "images": [],
+      "added_date": "2026-10-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "68259bbe",
+      "title": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
+      "url": "https://arxiv.org/abs/2610.31624",
+      "source": {
+        "platform": "arxiv",
+        "author": "Baris Alparslan, Sandy Tanwisuth, Caleb Petterson",
+        "original_date": "2026-10-22"
+      },
+      "category": "models",
+      "tags": [
+        "rlvr",
+        "post-training",
+        "safety",
+        "instrumental-convergence",
+        "olmo"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "工具性趋同常被用来论证强模型会自发出现权力寻求类子目标AlparslanTanwisuth 与 Petterson（2026-10-22，cs.LG + cs.AI）把问题改写成检查点条件下的行为轨迹：用 InstrumentalEval 评估 OLMo-3-7B-Think 的 SFTDPO13 个中间 RLVR 检查点与最终模型轨迹非单调：工具性比率从 SFT 的 25.0% 升到 RLVR 第 200 步附近的 46.1%，最终 checkpoint 降到 11.8%；配对 item 级检验与逐步回归支持 SFT 到最终的下降提示框架效应解释不了该模式，32B 端点初步结果同向（35.53% 降到 22.37%）作者强调该结果仅限此模型家族与基准，judge 一致率中等，绝对比率需谨慎解读",
+      "summary_en": "Instrumental convergence is often invoked to expect capable agents to acquire power-seeking subgoals. Alparslan, Tanwisuth and Petterson (2026-10-22, cs.LG + cs.AI) treat the question as a checkpoint-conditioned behavioral trajectory, using InstrumentalEval on OLMo-3-7B-Think across SFT, DPO, 13 intermediate RLVR checkpoints and the final RLVR model. The trajectory is nonmonotonic: the instrumental rate rises from 25.0% at SFT to 46.1% near RLVR step 200, then falls to 11.8% at the final checkpoint; paired item-level tests and step-wise regression support the SFT-to-final reduction. Prompt framing does not explain the pattern, and preliminary 32B endpoints move the same direction (35.53% to 22.37%). The authors caution the result is specific to this model family and benchmark, with moderate judge agreement, so absolute rates should be read cautiously.",
+      "one_liner": "OLMo-3 checkpoints show RLVR first raises then lowers instrumental-convergence behavior: 25% at SFT, 46% mid, 12% at final.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/68259bbe.md",
+      "images": [],
+      "added_date": "2026-10-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3c745c9f",
+      "title": "Diffusion Language Models for Perplexity-Aware Black-Box Attacks",
+      "url": "https://arxiv.org/abs/2610.31558",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ali Al-Lawati, Elsayed Eshra, Dongwon Lee, Suhang Wang",
+        "original_date": "2026-10-22"
+      },
+      "category": "models",
+      "tags": [
+        "llm-security",
+        "black-box-attacks",
+        "diffusion-language-model",
+        "perplexity"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "连续空间黑盒攻击通过在低维高斯潜空间采样或优化再经随机映射与最近 token 查找解码，寻找能触发 overthinking 等恶意行为的提示；这类提示往往不自然易被输入护栏检出，风险估计也不基于自然提示Al-LawatiEshraLee 与 Wang（2026-10-22，cs.LG + cs.CL + stat.ML）把同一潜空间框架直接接到连续扩散语言模型（dLLM）这一学到的生成分布上，去掉人工随机映射而保留高斯潜空间形式：采样式 RareTrap 的字符级困惑度从 10^3-10^7 降到 3-5，优化式 ThinkTrap 从 20-28 降到 4.3-5.4；两种映射下模型风险估计可相差一个数量级",
+      "summary_en": "Continuous-space attacks find prompts that trigger malicious behaviors such as overthinking in black-box LLMs by sampling or optimizing a low-dimensional Gaussian latent space decoded through a random mapping and nearest-token lookup; the resulting prompts can be highly unnatural, easily caught by input guardrails, and yield risk estimates not grounded in natural prompts. Al-Lawati, Eshra, Lee and Wang (2026-10-22, cs.LG + cs.CL + stat.ML) couple the same latent-space framework directly to a continuous diffusion language model (dLLM), removing the artificial random mapping while keeping the Gaussian latent formulation. Character-level perplexity drops from 10^3-10^7 to 3-5 in sampling-based RareTrap and from 20-28 to 4.3-5.4 in optimization-based ThinkTrap, and model risk estimates differ by an order of magnitude across the two mappings.",
+      "one_liner": "Couples latent-space attack search to a diffusion LM, producing natural-looking attack prompts with character perplexity dropping to 3-5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/3c745c9f.md",
+      "images": [],
+      "added_date": "2026-10-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-24",
-  "total_entries": 2883
+  "last_updated": "2026-10-25",
+  "total_entries": 2887
 }
