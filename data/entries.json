@@ -87932,8 +87932,110 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "bb9241e9",
+      "title": "DeepSeek-V4.1-Flash-1017 八天采用读数：HF 下载 7.3 万点赞 2.8 倍，11-01 起 Search/Fetch 计费",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing",
+      "source": {
+        "platform": "manual",
+        "author": "Gracker",
+        "original_date": "2026-10-25"
+      },
+      "category": "industry",
+      "tags": [
+        "deepseek",
+        "v4.1-flash",
+        "model-adoption",
+        "agent-billing",
+        "huggingface"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "DeepSeek-V4.1-Flash-1017 上线满八天，HF 仓库下载 073,215点赞 1,0572,828（2026-10-25 HF API 直查）：发布日围观之外持续有自托管侧拉权重该口径量不到 API 侧定价页确认旧名 deepseek-v4-flash 与 vision-exp 已退役，请求由 1017 服务并按 Flash 价计对 agent 路由的下个读数点是 11-01：Search/Fetch 按次计费（每千次成功 $0.75）开始免费期结束，1M 上下文与 2500 并发的成本同日进账单；双轨价目与上周快照逐项一致，无调价",
+      "summary_en": "Eight days after launch, the DeepSeek-V4.1-Flash-1017 Hugging Face repo reads 73,215 downloads and 2,828 likes against day-0 readings of 0 and 1,057 (HF API, 2026-10-25): sustained self-hosted weight pulls beyond launch-day attention. The metric misses API-side usage - the pricing page confirms legacy names deepseek-v4-flash and deepseek-v4-flash-vision-exp are retired with their requests served by 1017 at Flash prices. Next agent-routing reading point is 2026-11-01, when Search/Fetch per-call billing ($0.75 per 1k successful calls) starts and the free period ends, putting the 1M context and 2,500-concurrency costs on one bill; peak/off-peak prices are unchanged versus last week's snapshot.",
+      "one_liner": "HF 八天读数只量自托管拉权重：下载 07.3 万点赞 10572828；API 侧要等 11-01 Search/Fetch 计费窗开启才见分晓",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/bb9241e9.md",
+      "images": [],
+      "added_date": "2026-10-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "9b13d6a7",
+        "48479cd7"
+      ]
+    },
+    {
+      "id": "6d0f2633",
+      "title": "Hermes 定时任务一周执行复盘：1001 次运行 89 次失败，故障集中在两个惯犯",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "Gracker",
+        "original_date": "2026-10-25"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-reliability",
+        "cron",
+        "sre",
+        "hermes",
+        "error-classification"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "本机 Hermes 过去七天定时任务 1001 次运行完成 911 次失败 89 次（成功率约九成一），失败高度集中：aiw-git-sync 占 40 次，属确定性包装缺陷内层 diff-check 返回码为 0 而外壳以退出码 2 结束，每半小时重试只会攒失败；novel-plot-outline-review 占 27 次，属随机容量问题（9 次上下文压缩暂停3 次输出截断1 次提示词约 104.9 万 token 超出百万上限约 5%）190 个登记任务仅 63 个启用，127 个停用未删；966 次投递中 224 次主动静默可立住的判断一条：处理失败前先分清每天都会犯的代码错与偶尔撞上的容量墙，前者改脚本，后者动会话与模型",
+      "summary_en": "Seven days of local Hermes cron runs: 1,001 executions, 911 completed, 89 failed (~91% success), with failures heavily concentrated. aiw-git-sync (40) is a deterministic wrapper defect - the inner diff-check returns 0 while the shell exits 2, so half-hourly retries only accumulate failures; novel-plot-outline-review (27) is stochastic capacity (9 context-compaction pauses, 3 output-truncation stops, 1 prompt at ~1.049M tokens). Only 63 of 190 registered tasks are enabled; 224 of 966 deliveries were deliberately silent. One usable rule: classify habitual code bugs versus occasional capacity walls before fixing - scripts for the former, sessions and models for the latter.",
+      "one_liner": "89 次失败里 67 次来自两个任务：先分清代码错与容量墙，重试才不会越攒越多",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/6d0f2633.md",
+      "images": [],
+      "added_date": "2026-10-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "69696c78",
+      "title": "Brotli CVE-2026-111497（Node2ShellHTTP2Shell）：CVSS 9.2 越界写，PyPI 包自动解码即暴露",
+      "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "source": {
+        "platform": "blog",
+        "author": "Dania Durnas (Aikido)",
+        "original_date": "2026-10-23"
+      },
+      "category": "infra",
+      "tags": [
+        "cve",
+        "brotli",
+        "supply-chain",
+        "nodejs",
+        "python",
+        "agent-infra"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Google Brotli 解码器越界写漏洞（CVSS v4.0 9.2，影响 1.0.31.2.0）：DecodeBlockTypeAndLength 布尔返回值分不清流损坏与待更多输入，快速路径丢弃返回值，构造 block-switch 流即越界写；修复 commit 0ed4268 新增错误码 -17，修复版 1.0.10/1.1.1/1.2.1OpenAI 二月发现并修入源码但没有 release 带上，各运行时自行发版：10-21 Node.js 披露（node2shell，Imperva 在未修改 Node 24.22.0 复现 RCE），10-23 Aikido 确认 PyPI 包同病Brotli/brotlicffi 装上即生效urllib3/requestshttpxaiohttpScrapy 自动解 Content-Encoding: br，应用不 import 也暴露；OSV/GitHub Advisory 截至 10-23 未映射两包，pip-audit 不报与 LiteLLM 1.107.0 投毒同一周落在 agent 工具链的 Python/Node 栈上",
+      "summary_en": "Out-of-bounds write in Google's Brotli decoder (CVE-2026-111497, CVSS v4.0 9.2, affects 1.0.3-1.2.0): DecodeBlockTypeAndLength's boolean return cannot distinguish corrupted input from needing more data, the fast path discards it, and crafted block-switch flows trigger OOB writes; fix commit 0ed4268 adds error code -17, shipped in 1.0.10/1.1.1/1.2.1. OpenAI fixed it in source in February but no release carried it, so each runtime shipped its own: Node.js disclosed 10-21 (node2shell, RCE reproduced on unpatched Node 24.22.0), Aikido confirmed the Python packages 10-23. PyPI Brotli/brotlicffi work once installed - urllib3/requests, httpx, aiohttp and Scrapy auto-decode Content-Encoding: br, so apps are exposed without importing them; advisory DBs had not mapped the packages as of 10-23 and pip-audit stays silent.",
+      "one_liner": "OpenAI 二月修进源码但没有 release 带上：br 自动解码让 urllib3/httpx/aiohttp 装包即暴露，advisory 库至今未映射 PyPI 包",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/69696c78.md",
+      "images": [],
+      "added_date": "2026-10-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "a0e7a23f"
+      ]
     }
   ],
   "last_updated": "2026-10-25",
-  "total_entries": 2887
+  "total_entries": 2890
 }
