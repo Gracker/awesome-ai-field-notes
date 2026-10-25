@@ -560,7 +560,9 @@
       "added_date": "2026-04-30",
       "updated_date": "2026-08-19",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "221916a9"
+      ],
       "local_path_valid": false,
       "content_generated": true,
       "content_file": "content/gemini_3_flash_cli_2026_001.md"
@@ -708,7 +710,8 @@
       "updated_date": "2026-08-31",
       "github_stars": null,
       "related": [
-        "3d923e32"
+        "3d923e32",
+        "e1347267"
       ],
       "local_path_valid": false,
       "content_file": "content/claude_opus_47_mythos_2026_001.md",
@@ -1315,13 +1318,15 @@
       "one_liner": "自动对齐研究员：使用大语言模型扩展可扩展监督",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/4156c41e.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "60d9c4aa"
+      ],
       "local_path_valid": true
     },
     {
@@ -1540,13 +1545,15 @@
       "one_liner": "AI提示词工程：2026年全新课程",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/26f79bac.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "digest_2026-06-16_01"
+      ],
       "local_path_valid": true
     },
     {
@@ -1651,13 +1658,15 @@
       "one_liner": "Allie K. Miller：免费 5 日课带你从用 AI 进阶到用 AI 搭建",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/f8e3bca5.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a09cdbbd"
+      ],
       "local_path_valid": true
     },
     {
@@ -2107,13 +2116,15 @@
       "one_liner": "自然语言自编码器：将 Claude 的思维转化为文字",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/fd7d7fa3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "natural-language-autoencoders"
+      ],
       "local_path_valid": true
     },
     {
@@ -2800,13 +2811,15 @@
       "one_liner": "Anthropic 发布 Claude Opus 4.7，性能如何？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/e1347267.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "claude_opus_47_mythos_2026_001"
+      ],
       "local_path_valid": true
     },
     {
@@ -3510,13 +3523,15 @@
       "one_liner": "Allie K. Miller：免费 5 天课程，从用 AI升级到构建 AI",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/223537a9.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a09cdbbd"
+      ],
       "local_path_valid": true
     },
     {
@@ -4214,13 +4229,15 @@
       "one_liner": "Gemini 3 Flash is now available in Gemini CLI",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/221916a9.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "gemini_3_flash_cli_2026_001"
+      ],
       "local_path_valid": true
     },
     {
@@ -4241,13 +4258,15 @@
       "one_liner": "Automated Alignment Researchers",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/d027713a.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "60d9c4aa"
+      ],
       "local_path_valid": true
     },
     {
@@ -5130,13 +5149,15 @@
       "one_liner": "Gemini 3.1 Flash TTS 登陆 Google Vids，支持一键脚本转专业旁白",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/0b139edd.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "b37b2087"
+      ],
       "local_path_valid": true
     },
     {
@@ -5578,13 +5599,15 @@
       "one_liner": "What 81,000 People Want from AI",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/5d4288fc.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "7e5d8972"
+      ],
       "local_path_valid": true
     },
     {
@@ -5631,13 +5654,15 @@
       "one_liner": "原文: There's a difference between using AI and building with it.",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/f13dc7c7.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a09cdbbd"
+      ],
       "local_path_valid": true
     },
     {
@@ -6810,13 +6835,15 @@
       "one_liner": "原文: Last week, we made Gemini Embedding 2, our first natively multimodal embedding model, available to the general public.",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/71d19794.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "ivt6f9u6"
+      ],
       "local_path_valid": true
     },
     {
@@ -7095,13 +7122,15 @@
       "one_liner": "This is a great report that provides a thoughtful analysis of AI risks",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/38d01e19.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "bengiaf07"
+      ],
       "local_path_valid": true
     },
     {
@@ -7397,13 +7426,15 @@
       "one_liner": "Farzapedia：用日记+笔记训练个人 Wikipedia，LLM 个性化的最佳实践",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/eddc501d.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "62057772"
+      ],
       "local_path_valid": true
     },
     {
@@ -8338,7 +8369,9 @@
       "added_date": "2026-06-07",
       "updated_date": "2026-09-30",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "65f18ea8"
+      ],
       "local_path_valid": true
     },
     {
@@ -8567,7 +8600,9 @@
       "updated_date": "2026-08-31",
       "github_stars": null,
       "related": [
-        "abea8210"
+        "abea8210",
+        "345b8530",
+        "0b139edd"
       ],
       "local_path_valid": false,
       "content_generated": true,
@@ -8895,13 +8930,15 @@
       "one_liner": "Gemini 3.1 Flash TTS：最强表现力语音合成模型，70语言覆盖",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/345b8530.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "b37b2087"
+      ],
       "local_path_valid": true
     },
     {
@@ -9213,7 +9250,18 @@
       "updated_date": "2026-08-31",
       "github_stars": null,
       "related": [
-        "db85d2ef"
+        "db85d2ef",
+        "223537a9",
+        "997d84c3",
+        "f8e3bca5",
+        "f13dc7c7",
+        "65d9abc3",
+        "3a98ee61",
+        "b1a2eea2",
+        "75025fca",
+        "00e00818",
+        "b21bddeb",
+        "78c5faef"
       ],
       "local_path_valid": false,
       "content_file": "content/a09cdbbd.md",
@@ -9392,7 +9440,10 @@
       "added_date": "2026-06-07",
       "updated_date": "2026-06-25",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "b8255da2",
+        "99e91497"
+      ],
       "local_path_valid": false,
       "content_generated": true,
       "content_file": "content/cca27327.md"
@@ -9894,13 +9945,15 @@
       "one_liner": "Allie K. Miller 推出免费 5 天 AI 入门课程：超越 ChatGPT 提示词复制",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/3a98ee61.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a09cdbbd"
+      ],
       "local_path_valid": true
     },
     {
@@ -9979,13 +10032,15 @@
       "one_liner": "Gemini 3.1 Flash TTS - 最新的文本转语音模型",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/2f1962b1.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "kc757q9l"
+      ],
       "local_path_valid": true
     },
     {
@@ -10772,7 +10827,13 @@
       "added_date": "2026-06-07",
       "updated_date": "2026-06-25",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "eddc501d",
+        "246f0aa9",
+        "ba4a20e4",
+        "4bf954a4",
+        "4190ff4a"
+      ],
       "local_path_valid": false,
       "content_generated": true,
       "content_file": "content/62057772.md"
@@ -10962,13 +11023,15 @@
       "one_liner": "Farzapedia：用 LLM 把个人笔记变成可浏览的私人百科全书",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/246f0aa9.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "62057772"
+      ],
       "local_path_valid": true
     },
     {
@@ -11211,13 +11274,15 @@
       "one_liner": "AI Fast Track: 5天邮件课程从入门到实战",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/65d9abc3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a09cdbbd"
+      ],
       "local_path_valid": true
     },
     {
@@ -11655,13 +11720,15 @@
       "one_liner": "AI Prompting for Everyone",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/81e5e623.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "digest_2026-06-16_01"
+      ],
       "local_path_valid": true
     },
     {
@@ -12210,13 +12277,15 @@
       "one_liner": "MiniMax M2.7 开源模型发布",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/acc0b4f1.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "kzfvoq4f"
+      ],
       "local_path_valid": true
     },
     {
@@ -12733,13 +12802,15 @@
       "one_liner": "Anthropic 关于亚记忆学习的联合研究发布",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/b8255da2.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "cca27327"
+      ],
       "local_path_valid": true
     },
     {
@@ -13037,13 +13108,15 @@
       "one_liner": "Andrej Karpathy：Farzapedia用LLM把个人数据变成个人维基",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/ba4a20e4.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "62057772"
+      ],
       "local_path_valid": true
     },
     {
@@ -13201,13 +13274,15 @@
       "one_liner": "Anthropic 等 Nature 论文：LLM 可通过无关数据传递隐藏偏好",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/99e91497.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "cca27327"
+      ],
       "local_path_valid": true
     },
     {
@@ -13840,13 +13915,15 @@
       "one_liner": "GPT-5.5 + GPT-Image-2 组合：开发者用它做应用获得了极大乐趣",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/967356f2.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "3a6ca5b0"
+      ],
       "local_path_valid": true
     },
     {
@@ -13867,13 +13944,15 @@
       "one_liner": "LangGraph: Build resilient language agents as graphs",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/488f610b.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "096adf05"
+      ],
       "local_path_valid": true
     },
     {
@@ -13952,13 +14031,15 @@
       "one_liner": "双语Allie Miller 推出免费 5 日 AI 课程：从使用 AI到用 AI 构建",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/b1a2eea2.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a09cdbbd"
+      ],
       "local_path_valid": true
     },
     {
@@ -14008,13 +14089,15 @@
       "one_liner": "AI 之父 Hinton 推荐国际 AI 安全报告 2026：AI 风险领域最全面的循证评估 作者： @GeoffreyHinton（\"AI 之父\"图灵奖得主） 原文推文： --- \"This is a great report that provides a thoughtfu...",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/dc308c55.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "bengiaf07"
+      ],
       "local_path_valid": true
     },
     {
@@ -14035,13 +14118,15 @@
       "one_liner": "Gemini 3.1 Flash TTS：支持自然语言音频标签控制的语音合成 API",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/575ad9fd.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "kc757q9l"
+      ],
       "local_path_valid": true
     },
     {
@@ -14117,13 +14202,15 @@
       "one_liner": "Google DeepMind：Gemini 3.1 Flash TTS用自然语言控制语音风格",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/c65a3892.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "kc757q9l"
+      ],
       "local_path_valid": true
     },
     {
@@ -14431,7 +14518,9 @@
       "github_stars": null,
       "related": [
         "3496861c",
-        "b3802f09"
+        "b3802f09",
+        "4156c41e",
+        "d027713a"
       ],
       "local_path_valid": false
     },
@@ -14540,13 +14629,15 @@
       "one_liner": "Farzapedia：用 LLM 把日记笔记变成个人维基的完整工作流",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/4bf954a4.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "62057772"
+      ],
       "local_path_valid": true
     },
     {
@@ -14878,13 +14969,15 @@
       "one_liner": "Allie Miller：免费5天课程，从用AI升级到构建AI产品",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/997d84c3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a09cdbbd"
+      ],
       "local_path_valid": true
     },
     {
@@ -14985,13 +15078,15 @@
       "one_liner": "Google Gemini Embedding 2 多模态嵌入模型",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/9d5983af.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "ivt6f9u6"
+      ],
       "local_path_valid": true
     },
     {
@@ -15635,13 +15730,15 @@
       "one_liner": "GPT-5.5 官方提示词指南核心要点",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/285eb6e8.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "jnaqutdjulvp1t2swszqd"
+      ],
       "local_path_valid": true
     },
     {
@@ -15828,13 +15925,15 @@
       "one_liner": "AI Fast Track免费5天课程 - 从基础到构建个人AI工具",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/75025fca.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a09cdbbd"
+      ],
       "local_path_valid": true
     },
     {
@@ -16105,13 +16204,15 @@
       "one_liner": "Allie K. Miller 推出免费 5 天课程：AI Fast Track",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/00e00818.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a09cdbbd"
+      ],
       "local_path_valid": true
     },
     {
@@ -16161,13 +16262,15 @@
       "one_liner": "Allie Miller: 用 AI 与构建 AI 产品的区别",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/b21bddeb.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a09cdbbd"
+      ],
       "local_path_valid": true
     },
     {
@@ -16494,13 +16597,15 @@
       "one_liner": "正式开源 open claude design 🚀 超 95% 以上的还原度！",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/d79e4958.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "05v1ff6t"
+      ],
       "local_path_valid": true
     },
     {
@@ -16689,13 +16794,15 @@
       "one_liner": "Allie Miller 推出免费 5 天课程：从 AI 用户进化为 AI 建造者",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/78c5faef.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "a09cdbbd"
+      ],
       "local_path_valid": true
     },
     {
@@ -17797,7 +17904,9 @@
       "added_date": "2026-06-07",
       "updated_date": "2026-09-30",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "efaw158d"
+      ],
       "local_path_valid": true
     },
     {
@@ -18269,13 +18378,15 @@
       "one_liner": "AutoGen: A programming framework for agentic AI",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/3748d85c.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "3ad225aa"
+      ],
       "local_path_valid": true
     },
     {
@@ -18296,13 +18407,15 @@
       "one_liner": "Gemini 视觉推理能力升级：图表生成图像理解边界框绘制",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/b1dadd1c.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "5sbgmacr"
+      ],
       "local_path_valid": true
     },
     {
@@ -18505,7 +18618,10 @@
       "added_date": "2026-06-07",
       "updated_date": "2026-06-25",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "85bfdc89",
+        "21f855ac"
+      ],
       "local_path_valid": false,
       "content_generated": true,
       "content_file": "content/65f18ea8.md"
@@ -18697,13 +18813,15 @@
       "one_liner": "Anthropic 开源对齐工具 Petri 捐赠给 Meridian Labs，继续独立发展",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/85bfdc89.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "65f18ea8"
+      ],
       "local_path_valid": true
     },
     {
@@ -19006,13 +19124,15 @@
       "one_liner": "原文: Course is free on about 3 hours.",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/fcb69f7e.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "digest_2026-06-16_01"
+      ],
       "local_path_valid": true
     },
     {
@@ -19173,13 +19293,15 @@
       "one_liner": "Farzapedia：用日记+笔记打造个人 AI 维基",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/4190ff4a.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "62057772"
+      ],
       "local_path_valid": true
     },
     {
@@ -19642,13 +19764,15 @@
       "one_liner": "Andrew Ng: Coding Agents 加速软件工作的程度差异",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/40d75499.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "b7e2m384"
+      ],
       "local_path_valid": true
     },
     {
@@ -20402,13 +20526,15 @@
       "one_liner": "Gemini 3.1 Flash TTS：用自然语言精准控制语音风格",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/e47ec1f3.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-10-26",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "kc757q9l"
+      ],
       "local_path_valid": true
     },
     {
@@ -22661,7 +22787,9 @@
       "added_date": "2026-06-12",
       "updated_date": "2026-08-26",
       "github_stars": null,
-      "related": []
+      "related": [
+        "b10a3315"
+      ]
     },
     {
       "id": "ab9c9a67",
@@ -23820,7 +23948,9 @@
       "added_date": "2026-06-15",
       "updated_date": "2026-06-25",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "d0fd8a1b"
+      ],
       "local_path_valid": false,
       "content_generated": true,
       "content_file": "content/b10a3315.md"
@@ -24041,7 +24171,11 @@
       "added_date": "2026-06-16",
       "updated_date": "2026-06-17",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "26f79bac",
+        "81e5e623",
+        "fcb69f7e"
+      ],
       "content_file": "content/digest_2026-06-16_01.md",
       "local_path_valid": false
     },
@@ -27579,7 +27713,8 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
-        "09b905e4"
+        "09b905e4",
+        "fd7d7fa3"
       ]
     },
     {
@@ -28251,7 +28386,8 @@
       "updated_date": "2026-08-31",
       "github_stars": null,
       "related": [
-        "3f437cab"
+        "3f437cab",
+        "4fb3bd4e"
       ]
     },
     {
@@ -29389,7 +29525,8 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
-        "45c7a3b0"
+        "45c7a3b0",
+        "5d4288fc"
       ]
     },
     {
@@ -29528,7 +29665,9 @@
       "github_stars": null,
       "related": [
         "19de6abd",
-        "585edf58"
+        "585edf58",
+        "dc308c55",
+        "38d01e19"
       ]
     },
     {
@@ -29725,7 +29864,7 @@
     },
     {
       "id": "784b2c06",
-      "title": "丢掉沉重的记忆：CodexClaude Code 与 OpenCode 的上下文压缩术 | Justin3go",
+      "title": "丢掉沉重的记忆：Codex、Claude Code 与 OpenCode 的上下文压缩术 | Justin3go",
       "url": "https://cubox.pro/web/card/7442911565721897000",
       "source": {
         "platform": "blog",
@@ -29748,7 +29887,8 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
-        "8f2313d8"
+        "8f2313d8",
+        "ad4e5293"
       ]
     },
     {
@@ -29970,7 +30110,8 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
-        "baea2666"
+        "baea2666",
+        "285eb6e8"
       ]
     },
     {
@@ -30222,7 +30363,11 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
-        "91baa88f"
+        "91baa88f",
+        "2f1962b1",
+        "575ad9fd",
+        "c65a3892",
+        "e47ec1f3"
       ]
     },
     {
@@ -30305,7 +30450,9 @@
       "added_date": "2026-06-23",
       "updated_date": "2026-10-07",
       "github_stars": null,
-      "related": []
+      "related": [
+        "967356f2"
+      ]
     },
     {
       "id": "c1kv8lly",
@@ -30388,7 +30535,8 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
-        "daec3555"
+        "daec3555",
+        "40d75499"
       ]
     },
     {
@@ -30697,7 +30845,8 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
-        "f932321f"
+        "f932321f",
+        "488f610b"
       ]
     },
     {
@@ -31281,7 +31430,8 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
-        "35a4e7c3"
+        "35a4e7c3",
+        "b1dadd1c"
       ]
     },
     {
@@ -32024,11 +32174,11 @@
       "one_liner": "Claude刚登顶，OpenAI就放出24小时不休息的编程AI，谁才是最强？",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/qhnleufw.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-17",
+      "updated_date": "2026-10-26",
       "github_stars": null,
       "related": [
         "d0308d0c",
@@ -32610,7 +32760,9 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
-        "0a778bb8"
+        "0a778bb8",
+        "71d19794",
+        "9d5983af"
       ]
     },
     {
@@ -33139,7 +33291,9 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
-        "46b52fb2"
+        "46b52fb2",
+        "acc0b4f1",
+        "7bf35471"
       ]
     },
     {
@@ -33893,7 +34047,8 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
-        "ec1fb319"
+        "ec1fb319",
+        "d79e4958"
       ]
     },
     {
@@ -34799,7 +34954,7 @@
     {
       "id": "7bf35471",
       "title": "MiniMax M2.7 正式开源：代码编辑 SOTA，权重已上线 Hugging Face",
-      "url": "https://abs.twimg.com/responsive-web/client-web/Chirp-Regular.80fda27a.woff2",
+      "url": "https://x.com/MiniMax_AI/status/2043132047397659000",
       "source": {
         "platform": "blog",
         "author": null,
@@ -34814,14 +34969,15 @@
       "one_liner": "MiniMax M2.7 正式开源：代码编辑 SOTA，权重已上线 Hugging Face",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/7bf35471.md",
       "images": [],
       "added_date": "2026-06-23",
-      "updated_date": "2026-08-17",
+      "updated_date": "2026-10-26",
       "github_stars": null,
       "related": [
-        "1fa1e811"
+        "1fa1e811",
+        "kzfvoq4f"
       ]
     },
     {
@@ -36239,7 +36395,8 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
-        "66db0c9f"
+        "66db0c9f",
+        "3748d85c"
       ]
     },
     {
@@ -38791,7 +38948,9 @@
       "added_date": "2026-06-23",
       "updated_date": "2026-08-26",
       "github_stars": null,
-      "related": []
+      "related": [
+        "784b2c06"
+      ]
     },
     {
       "id": "2g8km7k7",
@@ -88036,6 +88195,6 @@
       ]
     }
   ],
-  "last_updated": "2026-10-25",
+  "last_updated": "2026-10-26",
   "total_entries": 2890
 }
