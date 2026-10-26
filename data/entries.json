@@ -88193,8 +88193,318 @@
       "related": [
         "a0e7a23f"
       ]
+    },
+    {
+      "id": "97e37cc8",
+      "title": "Simulated Control Evals",
+      "url": "https://arxiv.org/abs/2610.31593",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jeffrey Olmo, David Zhang, Tyler Tracy",
+        "original_date": "2026-10-22"
+      },
+      "category": "agents",
+      "tags": [
+        "ai-control",
+        "safety-evaluations",
+        "simulated-environments",
+        "llm-agents"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "控制评测检验安全护栏能否阻止模型在有意作恶时造成不良后果，但人工搭建的控制环境难以覆盖部署中真实的环境与任务特征OlmoZhang 与 Tracy（2026-10-22，cs.AI）提出模拟控制评测（SCE）：用语言模型模拟工具响应代替真实环境，把控制评测扩展到更多场景作者在 LinuxArena 上验证，以真实执行结果为 ground truth，比较 SCE 预测与实际结果的差距，并分析模拟能力与提示设计对模拟保真度的影响",
+      "summary_en": "Control evaluations measure whether safeguards can prevent an AI model from causing undesired outcomes even when it is intentionally trying to do so, but purpose-built control settings may not represent the environment and task features that safeguard effectiveness in deployment depends on. To broaden where control evaluations can be run, Olmo, Zhang and Tracy (2026-10-22, cs.AI) introduce simulated control evaluations (SCEs), which use a language model to simulate tool responses in place of a real environment. They evaluate SCEs on LinuxArena, where real execution provides ground-truth outcomes, comparing SCE predictions against ground truth and examining how the simulator's capability and prompt design affect the fidelity of the simulated control runs.",
+      "one_liner": "控制评测检验安全护栏能否阻止模型在有意作恶时造成不良后果，但人工搭建的控制环境难以覆盖部署中真实的环境与任务特征OlmoZhang 与 Tracy（2026-10-22，cs.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/97e37cc8.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c216ce12",
+      "title": "Contestable Agents for Data Governance: Recording Human Stewardship of AI-Generated Metadata Across Structured and Unstructured Systems",
+      "url": "https://arxiv.org/abs/2610.31553",
+      "source": {
+        "platform": "arxiv",
+        "author": "Humza Akhtar, Brian Freeman",
+        "original_date": "2026-10-22"
+      },
+      "category": "agents",
+      "tags": [
+        "data-governance",
+        "llm-agents",
+        "human-oversight",
+        "metadata"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "工业组织的运营知识分散在遥测点表事务等结构化记录与手册检修报告等非结构化来源中，治理高度依赖少数领域专家Akhtar 与 Freeman（2026-10-22，cs.AI 等）提出可争议治理（contestable governance）：让专门化 agent 产出带评分可争议的元数据提案，系统同时记录人类审核者实际核查内容的凭证，避免未审提案把错误扩散到下游系统，使 AI 生成元数据在结构化与非结构化系统间可审计可追责",
+      "summary_en": "Industrial organizations hold operational knowledge in structured records such as telemetry, point lists, and transactions, and in unstructured sources such as manuals, service notes, communications, and inspection reports; governance programs manage these separately and depend on a small group of employees with deep domain knowledge. Agents built on large language models can propose metadata, cite documents, and flag quality issues, but unreviewed proposals can spread errors into downstream systems, and a perfunctory approval leaves no record of what a reviewer actually checked. Akhtar and Freeman (2026-10-22, cs.AI/cs.DB/cs.HC/cs.MA) present contestable governance: specialist agents produce scored, contestable metadata proposals while the system records human stewardship of AI-generated metadata across structured and unstructured systems.",
+      "one_liner": "工业组织的运营知识分散在遥测点表事务等结构化记录与手册检修报告等非结构化来源中，治理高度依赖少数领域专家Akhtar 与 Freeman（2026-10-22，cs.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c216ce12.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e6f78de1",
+      "title": "Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration",
+      "url": "https://arxiv.org/abs/2610.31579",
+      "source": {
+        "platform": "arxiv",
+        "author": "Deepthika S, Pawni Yadav, B. Sankar",
+        "original_date": "2026-10-22"
+      },
+      "category": "models",
+      "tags": [
+        "sycophancy",
+        "trust-calibration",
+        "human-ai-interaction",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "奉承（sycophancy）研究通常问模型是否迎合用户，这项工作反问：当 LLM 自信一致且错误时，用户是否会迎合模型？32 名受试者用同一基座模型（GPT-5-mini）构建的五个助手学习五个科学主题，助手简报中 0-100% 的事实被换成貌似合理的错误陈述，且全部以满置信口吻表述；每主题后的突击测验要求在正确事实植入错误与两个干扰项间作答并评级置信度（共 104 次测验）结果显示高置信错误会破坏用户的信任校准，使作答系统性偏向被植入的错误事实",
+      "summary_en": "Sycophancy research asks whether large language models bend toward what their users want to hear; this study asks the reverse: when an LLM is confident, consistent, and wrong, do users bend toward it? In a within-subjects experiment, 32 participants learned up to five science topics by chatting with five assistants built on the same base model (GPT-5-mini), where each assistant's briefing had 0, 25, 50, 75, or 100 percent of its facts replaced by plausible falsehoods and every assistant spoke with full confidence. A surprise quiz after each topic offered the correct fact, the planted falsehood, and two distractors with a confidence rating per answer, across 104 quizzes. Deepthika S, Yadav and Sankar (2026-10-22, cs.AI/cs.HC) use this setup to measure how confident wrong answers collapse users' trust calibration.",
+      "one_liner": "奉承（sycophancy）研究通常问模型是否迎合用户，这项工作反问：当 LLM 自信一致且错误时，用户是否会迎合模型？",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e6f78de1.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a21b8651",
+      "title": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
+      "url": "https://arxiv.org/abs/2610.31606",
+      "source": {
+        "platform": "arxiv",
+        "author": "Miguel Mochizuki Silva, Samuel Ismael, Mateus C. Dias, Thas Gaudncio, Yuri Malheiros et al.",
+        "original_date": "2026-10-22"
+      },
+      "category": "models",
+      "tags": [
+        "rag",
+        "retrieval-evaluation",
+        "evaluation-protocol",
+        "clinical-nlp"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "RAG 检索分数高度依赖 ground truth 的标注方式，而不只取决于检索器Silva 等（2026-10-22，cs.CL + cs.AI）针对乳腺病变管理文献临床检索系统提出证据感知评测协议：18 篇文档每文档一道是非/WH 问题的开发基准；检索用稠密向量 + BM25 + 交叉编码器重排，扫描 128-1024 token 分块0-20% 重叠与四种检索配置相关性由证据片段映射到所有包含块定义，等价证据的重叠块均视为相关，使标注覆盖策略对检索分数的影响显式可见",
+      "summary_en": "Retrieval evaluation scores for RAG systems depend on how the ground truth is annotated, not only on the retriever. Silva et al. (2026-10-22, cs.CL/cs.AI) describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation system over breast lesion management literature. They use an 18-document corpus and an 18-query development benchmark with one Yes/No or WH-question per document; retrieval combines dense embeddings, BM25, and cross-encoder reranking, evaluated across chunk sizes of 128-1024 tokens, overlaps of 0-20 percent, and four retriever configurations. Relevance is defined by evidence spans mapped to all containing chunks, treating overlapping chunks with equivalent evidence as relevant, so the protocol makes the dependence of retrieval scores on annotation coverage explicit.",
+      "one_liner": "RAG 检索分数高度依赖 ground truth 的标注方式，而不只取决于检索器Silva 等（2026-10-22，cs.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a21b8651.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d4a732cd",
+      "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+      "url": "https://arxiv.org/abs/2610.31657",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sachin Gupta",
+        "original_date": "2026-10-22"
+      },
+      "category": "models",
+      "tags": [
+        "abstention",
+        "cost-aware-ai",
+        "classification",
+        "production-ml"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "IT 工单错分自动路由的代价可能高于人工分流Gupta（2026-10-22，cs.LG + cs.AI + cs.CL）把成本感知弃权（cost-aware abstention）当作离线按成本条件的就绪评估：先在校准集上按显式成本选定路由策略，再在测试集上一次性评估冻结策略在 47,837 张工单8 个类别的公开语料上，对比 4 个非 LLM 分类器与 4 个 LLM 的零/少样本表现：在 (0,1,5) 成本模型下，TF-IDF+逻辑回归配 0.60 弃权阈值把测试成本从 0.763 降到 0.472（相对降 38.1%），说明廉价校准分类器加弃权可胜过 LLM 直接路由",
+      "summary_en": "Wrong automatic routing of an IT support ticket can cost more than human triage. Gupta (2026-10-22, cs.LG/cs.AI/cs.CL) evaluates cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate the frozen policy once on held-out test data. On a public 47,837-ticket, eight-class corpus, four trained non-LLM classifiers are compared with four LLMs under zero- and few-shot prompting. Under the illustrative cost model (c_ok, c_triage, c_wrong) = (0, 1, 5), TF-IDF with logistic regression and an abstention threshold of 0.60 selected on calibration data reduces test cost from 0.763 to 0.472, a 38.1 percent relative reduction with paired ratio-bootstrap confidence intervals, showing cheap calibrated classifiers with abstention can beat LLM routing under explicit misrouting costs.",
+      "one_liner": "IT 工单错分自动路由的代价可能高于人工分流Gupta（2026-10-22，cs.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d4a732cd.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "017a1377",
+      "title": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
+      "url": "https://arxiv.org/abs/2610.31588",
+      "source": {
+        "platform": "arxiv",
+        "author": "Robin Quriaux, Solveig Bachellery, La Dlris, Tushar Sharma et al.",
+        "original_date": "2026-10-22"
+      },
+      "category": "industry",
+      "tags": [
+        "eu-ai-act",
+        "responsible-ai",
+        "compliance",
+        "llm-deployment"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "受监管机构在批准 LLM 部署前需要负责任 AI 实践的技术证据COMPL-AI 把欧盟 AI 法案技术化为六组原则十八条技术要求（现有基准可测其中 12 条），但其基准套件靠命令行运行，而审批者并非工程师Quriaux 等（2026-10-22，cs.SE + cs.AI + cs.CY）在一家欧洲大型银行落地了开源自托管仪表盘 VERA：评审者选择模型按 COMPL-AI 框架运行公开基准并阅读结构化证据，把合规证据流接进非技术审批流程",
+      "summary_en": "Institutions that deploy large language models in regulated settings often need technical evidence of responsible AI practices before approving a deployment. COMPL-AI provides a technical interpretation of the EU AI Act organized under six principle groups and eighteen technical requirements, twelve of which current benchmarks can measure, but the benchmark suites producing this evidence are typically operated from a command line while the staff who approve deployments are non-engineers. Queriaux et al. (2026-10-22, cs.SE/cs.AI/cs.CY) present VERA, an open-source self-hosted dashboard deployed to facilitate responsible AI processes within a large European bank, where a reviewer selects a model, runs public benchmarks against the COMPL-AI framework, and reads structured evidence to support deployment approval.",
+      "one_liner": "受监管机构在批准 LLM 部署前需要负责任 AI 实践的技术证据COMPL-AI 把欧盟 AI 法案技术化为六组原则十八条技术要求（现有基准可测其中 12 条），但其基准套件靠命令行运行，而审批者并非工程师Quriaux 等（2026-10-22.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/017a1377.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4be98518",
+      "title": "From Prompt Rules to Golden Data Model: Production-Scale Generation of Personalized, Compliant Pharmaceutical Claims",
+      "url": "https://arxiv.org/abs/2610.31519",
+      "source": {
+        "platform": "arxiv",
+        "author": "Suyash Mishra, Qiang Li, Subhabrata Adak, Upender Phogat, Srikanth Patil, Satyanarayan Pati",
+        "original_date": "2026-10-22"
+      },
+      "category": "industry",
+      "tags": [
+        "production-llm",
+        "regulated-industries",
+        "retrieval-augmented-generation",
+        "pharma"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "制药行业的商业/医学文案生成必须同时满足合规事实准确与受众个性化Mishra 等（2026-10-22，cs.AI）报告一项生产案例研究：内部部署工具 Composer 构建在覆盖 4 个产品1,867 条制药 claims 的 Golden Data Model（GDM）之上，把 claim 元数据与合规及受众上下文结构化集成，验证把合规与个性化信号从提示层规则迁移到检索时结构化上下文，能否提升受监管行业的 LLM 生成质量与可维护性",
+      "summary_en": "LLMs are increasingly used to generate domain-specific commercial and medical content such as pharmaceutical claims and promotional phrases, but ensuring regulatory compliance, factual accuracy, and audience-specific personalization remains a major challenge. Mishra et al. (2026-10-22, cs.AI) report a production case study asking whether moving compliance and personalization signal from prompt-level rules into retrieval-time structured context improves pharmaceutical claims generation. The system, Composer, is a deployed internal tool built on a Golden Data Model (GDM) of 1,867 pharmaceutical claims spanning four products, integrating claim metadata with compliance and audience context, and the paper reports production-scale results for generating personalized, compliant claims in a regulated industry.",
+      "one_liner": "制药行业的商业/医学文案生成必须同时满足合规事实准确与受众个性化Mishra 等（2026-10-22，cs.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4be98518.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1dc75a32",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "source": {
+        "platform": "blog",
+        "author": "Magnus Lynch",
+        "original_date": "2026-10-25"
+      },
+      "category": "models",
+      "tags": [
+        "evaluation",
+        "medical-ai",
+        "cnn",
+        "frontier-llm"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Guy's Hospital 皮肤科顾问医生 Magnus Lynch 用 200 例活检确诊皮损（含 30 例黑色素瘤）实测 GPT-6 Astra 与 Claude Fable 5.1：两者 top-1 诊断正确率均约 42%，低于在公开皮肤镜图像上微调的 2015 年 Inception v3 CNN（62%）；一例耳部侵袭性黑色素瘤被两个 LLM 一致误判为可出院的脂溢性角化病，CNN 判对阈值匹配后 CNN 保留 98-99/100 危险皮损仅漏放 1-2 例黑色素瘤，LLM 漏放 3-4 例作者明示样本量小LLM 单次作答及可能的训练污染等局限，并公开全部病例提示词与评分代码",
+      "summary_en": "A consultant dermatologist at Guy's Hospital tested GPT-6 Astra and Claude Fable 5.1 against a fine-tuned Inception v3 CNN (architecture first published by Google in 2015) on 200 biopsy-proven skin lesions including 30 melanomas. Both frontier LLMs gave 42 percent correct top-1 diagnoses against 62 percent for the specialized CNN; on one clinical case both LLMs misread an invasive ear melanoma as a dischargeable seborrhoeic keratosis while the CNN was correct. The LLMs kept 96-97 of 100 unsafe lesions but discharged 3-4 of 30 melanomas, while the CNN at matched thresholds kept 98-99 and discharged only 1-2; at its own preset threshold it discharged 18 melanomas, which the author treats as a calibration caveat. Stated caveats include small numbers, single-run LLM answers, and possible MILK10k training contamination. Cases, prompts, model replies, and scoring code are published.",
+      "one_liner": "Guy's Hospital 皮肤科顾问医生 Magnus Lynch 用 200 例活检确诊皮损（含 30 例黑色素瘤）实测 GPT-6 Astra 与 Claude Fable 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1dc75a32.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c45c68dc",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "url": "https://minimaxir.com/2026/10/cheap-llms",
+      "source": {
+        "platform": "blog",
+        "author": "Max Woolf",
+        "original_date": "2026-10-25"
+      },
+      "category": "industry",
+      "tags": [
+        "llm-pricing",
+        "api-economics",
+        "cache-reads",
+        "agentic-coding"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Max Woolf 梳理 2026 年 6-10 月 OpenAI 与 Anthropic 的模型与定价时间线，解释头部 LLM 为何在数月内降价最多 80%：GPT-5.6 Luna 上线一个月即降价 80% 至 $0.20/$1.20；Claude Sonnet 5 的临时低价转正；Fable 5.1 维持 $10/$50 但缓存读取降价 75%（$1$0.25）关键机制是 agentic coding 的经济学：缓存读取占 token 支出的 96-99%（每轮 90-100% 命中），缓存降价 75% 约等于总成本降 70-75%开源权重模型（DeepSeek V4 Flash 系，OpenRouter 上 29 家供应商托管）通过极低缓存价格形成外部竞争压力",
+      "summary_en": "OpenAI and Anthropic pricing moves from June to October 2026 explain why frontier LLM prices fell up to 80 percent within months: GPT-5.6 Sol launched at 5/30 per million tokens, Luna at 1/6 was cut 80 percent to 0.20/1.20 within a month; Claude Sonnet 5's temporary 2/10 launch price became permanent, and Fable 5.1 kept 10/50 but cut cache-read cost 75 percent (1 to 0.25). The core mechanism is agentic-coding economics: cache reads are 96-99 percent of token expenditure because every turn re-reads the conversation at 90-100 percent hit rates, so a 75 percent cache-read cut correlates to a 70-75 percent total cost reduction. Competitive pressure comes from open-weight models: DeepSeek V4 Flash launched at 0.14/0.28/0.0028 with a 2 percent cache-read proportion, and its cheaper-to-cache 1017 variant is hosted by 29 providers on OpenRouter, compressing effective input costs.",
+      "one_liner": "Max Woolf 梳理 2026 年 6-10 月 OpenAI 与 Anthropic 的模型与定价时间线，解释头部 LLM 为何在数月内降价最多 80%：GPT-5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c45c68dc.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "27bbc3c0",
+      "title": "The State of Context Engineering",
+      "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "source": {
+        "platform": "blog",
+        "author": "Drew Breunig",
+        "original_date": "2026-10-24"
+      },
+      "category": "agents",
+      "tags": [
+        "context-engineering",
+        "agent-harness",
+        "long-context",
+        "failure-modes"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Drew Breunig 在 AGNTCon 的演讲Context Fails & Fixes是一份上下文工程现状综述：上下文窗口从塞满一切的乐观期（Llama 4 Scout 的千万 token 窗口并未成功，约百万 token 成为实用基准）走到失败模式系统化他归纳四类长上下文失败：上下文污染分心混淆与冲突，并以 Gemini 2.5 技术报告的宝可梦 agent 为例说明污染模型权重里带着 FireRed 的知识，在需要柠檬ade的初代宝可梦里花数小时找冰茶，且任务一旦进待办就无法摆脱结论：harness 构建者的本职是判断何时该确定性何时该概率性",
+      "summary_en": "Drew Breunig's AGNTCon talk 'Context Fails & Fixes' works as a state-of-context-engineering review: how context engineering emerged as context windows grew (Llama 4 Scout's 10-million-token window never caught on; about a million tokens became practical), why 'put everything in the context' stopped working, and the four long-context failure modes he codifies - context poisoning, distraction, confusion, and clash. His context-poisoning example comes from the Gemini 2.5 technical report's Pokemon agent: carrying FireRed knowledge in its weights, the model spent hours trying to give a thirsty guard iced tea in Pokemon Red, which requires lemonade, and could not get past the wrong task once it entered its to-do list. The closing thesis: the job of a harness builder is knowing when to be deterministic and when to be probabilistic (Breunig, 2026-10-24).",
+      "one_liner": "Drew Breunig 在 AGNTCon 的演讲Context Fails & Fixes是一份上下文工程现状综述：上下文窗口从塞满一切的乐观期（Llama 4 Scout 的千万 token 窗口并未成功...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/27bbc3c0.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-26",
-  "total_entries": 2890
+  "total_entries": 2900
 }
