@@ -88503,8 +88503,135 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "10748a22",
+      "title": "Will Generative AI do more harm than good?",
+      "url": "https://garymarcus.substack.com/p/will-generative-ai-do-more-harm-than",
+      "source": {
+        "platform": "blog",
+        "author": "Gary Marcus",
+        "original_date": "2026-10-25"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-risk",
+        "industry-sentiment",
+        "security",
+        "llm-harms"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Gary Marcus 重回 2023 年与 Keith Teare 的辩论题：生成式 AI 是否害大于利负面账单：非自愿深度伪造色情钓鱼诈骗激增规模化虚假信息认知外包监控用途与对创作者的 IP 侵蚀；10 月连环黑客潮被 Paul Kedrosky 命名 The Hackening，Benioff 以 Code red 转发 Anthropic 的 Jason Clinton还要更糟约 18 个月的警告；正面侧引用 Apollo 首席经济学家 Torsten Slok 的判断：此前承诺的生产力收益并未兑现结论：如今不难论证生成式 AI 对社会整体已是净损害，且仍可能拖垮整个经济",
+      "summary_en": "Gary Marcus revisits his March 2023 debate question - will generative AI do more harm than good - and argues the negative ledger is now serious: nonconsensual deepfake porn, rising phishing scams, disinformation, cognitive surrender, surveillance use, and IP-theft effects on artists and writers. He centers October 2026's hack wave (Black October, dubbed The Hackening by Paul Kedrosky), amplified by Marc Benioff's Code red post and Anthropic's Jason Clinton warning things will get worse for about 18 more months. On the positive side he cites Apollo chief economist Torsten Slok's case that expected productivity gains are not materializing. Conclusion: it is no longer hard to argue generative AI has on the whole been a net detriment to society, with some chance it pulls down the entire economy.",
+      "one_liner": "三年前的辩论题在 2026 年重开：黑客潮深度伪造与未兑现的生产力承诺，让净损害一侧第一次不需要修辞",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/10748a22.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "532be7e1",
+      "title": "A rising tide raises all rents",
+      "url": "https://jyn.dev/rising-tide-raises-rents",
+      "source": {
+        "platform": "blog",
+        "author": "jyn",
+        "original_date": "2026-10-25"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-economics",
+        "productivity",
+        "rent-seeking",
+        "labor-market",
+        "scenario-analysis"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "jyn 的思想实验：如果 AI 真的便宜到不计价，生产力归谁？文章推演五种世界：现状（AI 影响有限）混乱过渡（NBER 式复职效应创造新任务，10 年内大体消化）复职效应失效（劳动对资本失去议价力，财富集中为财阀政治，没有 GPU 工厂的国家面对经由市场而非武力的新殖民主义），以及随之而来的政治反应作者借巴特勒圣战与莱博维茨的赞歌论证革命更可能是无差别破坏而非解放结论：收益一部分给建设者一部分给在位者大头给房东与食利者，几乎轮不到普通人；对策是给土地之外的稀缺资源设计土地价值税式的机制",
+      "summary_en": "jyn runs a five-scenario experiment on who captures AI productivity once software stops being scarce: status quo, messy transition (the reinstatement effect creates new tasks, displacement absorbed within a decade), reinstatement failure (labor loses pricing power to capital, wealth concentrates into a plutocracy, countries without GPU foundries face market-mediated neo-colonialism), and the political reactions that follow, including Butlerian-Jihad-style indiscriminate destruction of knowledge. Core thesis: gains flow partly to builders and incumbents, mostly to landlords and rent-seekers, hardly any to everyone else. Proposed response: Land-Value-Tax-equivalent mechanisms for other scarce resources, so rents fund the public rather than pure position-holders.",
+      "one_liner": "把AI 生产力归谁推成五个世界的完整推演：收益大头流向房东与食利者，解药要去土地价值税式的机制里找",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/532be7e1.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4a16545b",
+      "title": "Interesting systemd features you may not know about",
+      "url": "https://martinalderson.com/posts/interesting-systemd-features",
+      "source": {
+        "platform": "blog",
+        "author": "Martin Alderson",
+        "original_date": "2026-10-24"
+      },
+      "category": "infra",
+      "tags": [
+        "systemd",
+        "agent-ops",
+        "resource-limits",
+        "sandboxing",
+        "linux"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Martin Alderson 把 systemd 重新介绍为跑 agent 生成代码的趁手工具：systemd-run --scope 配 MemoryMax/CPUQuota 给 Claude Code 限 4GB 内存 2 核（与 Docker 同为 cgroup 机制）；RuntimeMaxSec 给自治任务设 30 分钟上限，OpenCode 须加 --standalone 否则后台 server 绕过时限；systemd-inhibit 防合盖睡眠；timer 的 Persistent 属性补上 cron 断电漏跑文末提醒 ProtectHome 沙箱虽适合 agent 但 footgun 多，留作下篇",
+      "summary_en": "Martin Alderson frames mundane systemd features as exactly the right tooling for running throwaway agent-written code: systemd-run --user --scope with MemoryMax=4G and CPUQuota=200% caps a Claude Code session using the same cgroup limits Docker uses (visible per-cgroup via systemd-cgtop); RuntimeMaxSec time-boxes an autonomous OpenCode run to 30 minutes, with the caveat that --standalone is required or a background server bypasses the limit; systemd-inhibit keeps laptops from sleeping mid-run and composes with runtime caps; timer units' Persistent option reruns missed jobs after downtime, which plain cron lacks. He notes ProtectHome/ReadWritePaths sandboxing looks ideal for agents but is full of footguns, deferred to a follow-up post.",
+      "one_liner": "把 systemd 当 agent 沙箱手册用：内存/CPU 上限时限防睡眠三件套，都是给自治代码系安全绳的最小配置",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/4a16545b.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "44115490",
+      "title": "Elon Musk Just Gave Europe a Reason to Replace American Technology",
+      "url": "https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call",
+      "source": {
+        "platform": "blog",
+        "author": "Steve Blank",
+        "original_date": "2026-10-24"
+      },
+      "category": "industry",
+      "tags": [
+        "digital-sovereignty",
+        "ai-policy",
+        "geopolitics",
+        "europe",
+        "us-tech"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Steve Blank 在伦敦听到欧洲政策制定者对 Starlink/Starshield 被个人决定限权的反应：一家美国公司凭一位 CEO 的个人决定就能在战争中削弱盟友能力，美国是不可靠的安全与技术伙伴从臆想变成共识文章的 AI 落点在商业后果：AI 恰好在此刻把主权软件的成本打下来克隆 Microsoft OfficeOracleSalesforcePalantir 的功能与兼容性已触手可及，而地缘风险同步抬高了客户换供应商的意愿；若每个美国厂商都被当作 kill-switch 风险，整个生态的盟友市场将持续缩水，未来数年或付出数百亿美元收入的代价",
+      "summary_en": "Writing from a month in London, Steve Blank reports European policymakers' reaction to the reported unilateral restriction of Starlink/Starshield service to Ukraine: one CEO's decision degraded an ally's wartime capability, so treating the U.S. as an unreliable security and technology partner is no longer paranoia. The AI turn is economic: AI collapses the cost of building sovereign software exactly as geopolitical risk raises customers' willingness to switch - recreating the features, functions and compatibility of Microsoft Office, Oracle, Salesforce, Palantir and Anduril is now within reach. If every U.S. vendor is treated as a kill-switch risk, the allied market for the whole ecosystem shrinks, potentially costing American companies tens to hundreds of billions in lost revenue.",
+      "one_liner": "kill-switch 先例与 AI 压低主权软件成本两股力量在欧洲交汇：换掉美国技术栈从笑话变成日程表",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/44115490.md",
+      "images": [],
+      "added_date": "2026-10-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-26",
-  "total_entries": 2900
+  "total_entries": 2904
 }
