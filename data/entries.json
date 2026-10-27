@@ -88630,8 +88630,327 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "cafe4eb2",
+      "title": "Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations",
+      "url": "https://arxiv.org/abs/2610.32891",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sadra Emami, Benjamin Weigell, Mohammad Reza Mousavi, et al.",
+        "original_date": "2026-10-23"
+      },
+      "category": "coding",
+      "tags": [
+        "llm-code-optimization",
+        "energy-efficiency",
+        "sustainability",
+        "effibench",
+        "icse2027"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文实测LLM 把代码改快了，但未必更省电：在 EffiBench 全部 1000 题上，对 11 个开源模型 x 4 种解码配置做硬件级能耗测量，单次推理能耗 0.79-8.68 MJ（约合 250-2800 次 GPT-4.1 查询）；限制最大输出 token 可降能耗最多 69%执行侧 44 个配置中 42 个生成的更快代码单位问题能耗反而高于人类参考实现（+4% 到 +886%），仅有的 2 个例外也要 10^6-10^7 次执行才回本同等规模下 MoE 架构比稠密模型推理能耗低得多且不损正确率，架构选择比解码参数更是可持续性杠杆ICSE 2027 接收，工件已开源",
+      "summary_en": "LLM self-refinement pipelines optimize code for speed, but faster code is not automatically greener. The authors measure hardware-level energy across 11 open-source models under four decoding configurations on all 1,000 EffiBench problems, comparing LLM-optimized solutions against canonical human references. Inference energy spans 0.79-8.68 MJ per model-variant pair (roughly 250-2,800 GPT-4.1 queries); capping max output tokens cuts energy by up to 69%. On the execution side, 42 of 44 configurations produce code that consumes more energy per problem than the human reference (+4% to +886%); the two exceptions only break even after 10^6-10^7 executions. Mixture-of-Experts models use substantially less inference energy than equal-size dense models at equal correctness, making architecture a bigger sustainability lever than decoding parameters. Accepted at ICSE 2027; artifacts on Zenodo.",
+      "one_liner": "实测 44 个配置里 42 个的 LLM 优化代码比人类参考更耗能：快不等于省电",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cafe4eb2.md",
+      "images": [],
+      "added_date": "2026-10-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5126c05b",
+      "title": "NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding",
+      "url": "https://arxiv.org/abs/2610.32881",
+      "source": {
+        "platform": "arxiv",
+        "author": "Nilesh Prasad Pandey, Jangseon Park, Jason Kong, et al.",
+        "original_date": "2026-10-23"
+      },
+      "category": "infra",
+      "tags": [
+        "rl-post-training",
+        "speculative-decoding",
+        "rollout-acceleration",
+        "efficiency"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "RL 后训练成本大头是自回归 rollout 生成（可占训练时间 70%+），现有投机解码不适配：模型 drafter 占显存且随策略漂移，免模型方法忽略跨 epoch 重复NgramRL 用同一 prompt 近期 rollout 历史构建 per-prompt n-gram 草稿源：无辅助模型无需训练无 GPU 常驻状态，目标模型验证保证 rollout 分布不变，自适应 fan-out 预取器预测验证结果三类负载上热缓存态每次目标前向提交 3.60-7.77 token，最高 1.99 倍于 SuffixDecoding7.0 倍于 prompt-lookup；Spider 上预取覆盖 96.6% 结局，rollout 吞吐 1.38 倍",
+      "summary_en": "RL post-training cost is dominated by autoregressive rollout generation (over 70% of training time), and existing speculative decoding fits poorly: model-based drafters consume GPU memory and drift as the policy evolves; model-free methods ignore repetition across epochs. NgramRL builds a per-prompt n-gram drafter from bounded recent rollout history - no auxiliary model, no drafter training, no GPU-resident state - with target-model verification preserving the rollout distribution, plus an adaptive fan-out prefetcher predicting outcomes (accepted length j, continuation token b). Across two model families and three reasoning/structured-generation workloads, it commits 3.60-7.77 tokens per target forward pass warm-cache, up to 1.99x SuffixDecoding and 7.0x prompt-lookup; on Spider the prefetcher covers 96.6% of Qwen3-8B outcomes and lifts rollout throughput 1.38x vs a 1.40x ceiling.",
+      "one_liner": "用近期 rollout 当 n-gram 草稿源加速 RL 后训练：不占显存分布不变，rollout 吞吐 1.38 倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5126c05b.md",
+      "images": [],
+      "added_date": "2026-10-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "61b19ab9",
+      "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+      "url": "https://arxiv.org/abs/2610.32945",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuhang Ji, Fasheng Xu, Tianjun Feng",
+        "original_date": "2026-10-23"
+      },
+      "category": "industry",
+      "tags": [
+        "llm-platforms",
+        "advertising",
+        "subscription",
+        "market-design",
+        "economics"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "给 LLM 平台引入广告的经济学分析：垄断平台同时选择服务质量广告强度与订阅定价，广告降低用户价值但更好的服务能提高广告回报三个结论：混合档位并存时，广告可以补贴出纯订阅制下不存在的真实服务，但中档质量被压低会削弱高档用户的备选项，反而支撑更高的免广告定价接入扩大与效用极化并存；中等强度的广告上限可能最大化消费者剩余，既保留补贴服务的收入又限制质量降级；算力降价通常会提质减广告，但降幅足够大时总广告收入反而可能超过初始水平，因为服务变好抬高了剩余广告互动的价值扩展结论：广告资助的升级可把各档位拉到同等能力与曝光，抹平差别定价的基础作者强调评估 LLM 广告不能只看看到广告的用户，菜单设计影响所有人",
+      "summary_en": "An economic model of LLM platforms adding advertising: a monopolist jointly chooses response quality, ad intensity and subscription prices, with ads reducing user value but better service raising ad returns. First, when partly-ad-supported and ad-free plans coexist, ads can finance real service for users who would get none under pure subscription, yet weaker middle tiers narrow premium users' alternatives and support higher ad-free prices - broader access coexists with utility polarization. Second, an intermediate ad cap can maximize consumer surplus by keeping service-financing revenue while limiting degradation. Third, cheaper compute can raise quality and cut ad intensity, yet large cost cuts can push aggregate ad revenue above its initial level, as better service raises the value of remaining advertised interactions.",
+      "one_liner": "LLM 平台广告经济学：广告能补贴免费服务，但中档质量降级会反过来抬高免广告定价",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/61b19ab9.md",
+      "images": [],
+      "added_date": "2026-10-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d989551d",
+      "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+      "url": "https://arxiv.org/abs/2610.32978",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuhan Liu, Lianhui Qin, Shenji Wan",
+        "original_date": "2026-10-23"
+      },
+      "category": "agents",
+      "tags": [
+        "embodied-ai",
+        "scene-generation",
+        "diffusion-priors",
+        "simulation",
+        "agentic-framework"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "训练可泛化的具身智能体需要真实多样可直接进仿真器的室内场景：语言引导方法难以精确空间接地，视觉生成模型的输出需要几何推理才能变成物理有效的 3D 场景SceneBloom 用视觉布局采样 + 契约引导 3D 编译的 agentic 框架补齐两头：层级采样器用扩散先验在功能区内生成家具排布，编译器再从提案中抽取空间关系引导几何拟合与局部位姿修正五类房间上取得对比方法中最好的视觉质量与物理稳定性，是唯一无网格碰撞无越界物体的方法，布局分布也更接近真实房间；在这些场景中训练的物体导航策略，在保留真实扫描上的成功率高于用同等数量真实扫描训练的策略代码已开源",
+      "summary_en": "Training generalizable embodied agents needs realistic, varied, simulation-ready indoor scenes, but language-guided methods struggle with precise spatial grounding and visual generative outputs need geometric reasoning to become valid 3D. SceneBloom combines visual layout sampling with contract-guided 3D compilation: a hierarchical sampler uses diffusion priors to generate furniture arrangements within functional zones, then a compiler uses relations extracted from each proposal to guide geometric fitting and local pose correction. Across five room types it attains the highest visual quality and physical stability among compared methods, is the only method with no mesh collisions or out-of-bounds objects, with layouts closer to the real-room distribution than all baselines. Navigation policies trained in its scenes beat those trained on an equal number of real scans in held-out scans.",
+      "one_liner": "扩散先验采样 + 契约引导编译生成可仿真室内场景：合成场景训出的导航策略胜过等量真实扫描",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/d989551d.md",
+      "images": [],
+      "added_date": "2026-10-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1758535a",
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-10-26"
+      },
+      "category": "models",
+      "tags": [
+        "openai",
+        "gpt-6.1-terra",
+        "model-release",
+        "computer-use",
+        "pricing"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "OpenAI 10 月 26 日发布 GPT-6.1 Terra，刷新 GPT-6 家族（Luna/Terra/Sol/Astra）中档位，取代 GPT-5.6 Terra标准 API 定价每百万输入 $1输出 $5（缓存 $0.05），约为上代 $2/$12 与旗舰 Sol 的一半；105 万 token 上下文12.8 万最大输出文本+图像输入知识截止 2026-06-01，不支持微调主打视觉推理与电脑操作：Terminal-Bench 4.0 最高强度 50.3%（上代 21.5%），内部高难提示事实错误率降至 4.3%面向 ChatGPT WorkCodexAPI 与 GitHub Copilot 推送",
+      "summary_en": "OpenAI shipped GPT-6.1 Terra on October 26, 2026, refreshing the mid tier of the GPT-6 lineup (Luna/Terra/Sol/Astra) and replacing GPT-5.6 Terra. Standard API pricing drops to $1 per million input and $5 per million output tokens (cached input $0.05/M) - about half of GPT-5.6 Terra's $2/$12 and half of flagship GPT-6.1 Sol. Docs: 1,050,000-token context, 128K max output, text+image input, June 1, 2026 cutoff, Responses-API tool calling; no fine-tuning. The release targets visual reasoning, computer use and natural writing: OpenAI reports 50.3% on Terminal-Bench 4.0 at max effort versus 21.5% for GPT-5.6 Terra, and a 4.3% factual-error rate on internal difficult prompts at max effort (low-effort error rate: 53.6% -> 16.7%). Rolling out in ChatGPT Work and Codex for paid plans, the API at Build tier and up, and GitHub Copilot (corroborated by multiple outlets).",
+      "one_liner": "GPT-6.1 Terra 补齐 GPT-6 中档：电脑操作升级定价减半，$1/$5 每百万 token",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1758535a.md",
+      "images": [],
+      "added_date": "2026-10-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d7b6b5fc",
+      "title": "Anthropic, PBC Form S-1 Registration Statement (Nasdaq: ANT)",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "source": {
+        "platform": "news",
+        "author": "Anthropic PBC",
+        "original_date": "2026-10-26"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "s-1",
+        "business-of-ai",
+        "nasdaq"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anthropic 向 SEC 递交 S-1，申请 Class A 普通股在纳斯达克以ANT上市招股书披露：营收 2023 年 $4100 万2024 年 $3.86 亿2025 年 $46 亿（同比 +841%+1088%），2026 上半年 $163 亿（同比 +1300%）；成立以来年年净亏损，2023-2025 分别净亏 $15 亿$83 亿$420 亿2026Q2 营收同比 +1368%，同期算力与基础设施支出仅增 300%文件还量化内部 AI 杠杆：2026 年 9 月代码库超 90% 的贡献由 Claude 完成，Q3 工程师人均日代码量超过 2024 年均值的 45 倍",
+      "summary_en": "Anthropic's S-1 registration statement applies to list Class A common stock on the Nasdaq Global Select Market under symbol 'ANT', filed with the SEC on October 26, 2026. Prospectus financials: revenue of $41M (2023), $386M (2024) and $4.6B (2025) - YoY growth of 841% and 1,088% - and $16.3B for the six months ended June 30, 2026, up 1,300% YoY. Net losses since founding: $1.5B (2023), $8.3B (2024) and $42.0B (2025). Q2 2026 revenue grew 1,368% YoY while compute and infrastructure expenses grew 300%; TTM revenue (Sep 30, 2025 to Sep 30, 2026) rose about 1,200%. The filing also quantifies internal AI leverage: over 90% of September 2026 codebase contributions were written by Claude, and average daily code volume per engineer in Q3 2026 exceeded 45x the 2024 average. Frontier models cited include Mythos 5, Fable 5 and Opus 5; products include Claude Cowork and Claude Design.",
+      "one_liner": "Anthropic S-1：2025 营收 $46 亿2026 上半年 $163 亿，9 成代码由 Claude 写成",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d7b6b5fc.md",
+      "images": [],
+      "added_date": "2026-10-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d1a3b4fa",
+      "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "source": {
+        "platform": "blog",
+        "author": "Sebastian Raschka",
+        "original_date": "2026-10-24"
+      },
+      "category": "learning",
+      "tags": [
+        "reasoning-models",
+        "pytorch",
+        "course",
+        "rl-vr",
+        "distillation",
+        "qwen3"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Sebastian Raschka 发布免费视频课：8 集超 11 小时，从零用 Python/PyTorch 手写一个推理模型，配套其新书Build a Reasoning Model (From Scratch)课程从一个小型预训练 Qwen3 出发，亲手实现评估推理时扩展可验证奖励强化学习与蒸馏；前段 CPU 可跑，训练部分建议 GPU他用引擎类比定位概念：推理模型是引擎（经 RL 后训练与可选推理扩展升级的 LLM），agent harness 是外围机械，负责上下文管理与工具接入理解现代 LLM 智能体仍要从推理模型入手材料自成体系，不强制先修他的 Build an LLM 课程",
+      "summary_en": "Sebastian Raschka published a free 8-video, 11+ hour course that builds a reasoning model from the ground up in Python/PyTorch, accompanying his book 'Build a Reasoning Model (From Scratch)'. Starting from a small pre-trained Qwen3 model, the videos implement evaluation, inference-time scaling, reinforcement learning with verifiable rewards, and distillation by hand, with early examples runnable on CPU and later training practical on a GPU. He frames the stack with an engine analogy: the reasoning model is the engine (an LLM upgraded via RL post-training and optional inference scaling), while the agent harness is the machinery around it handling context management and tool access - so reasoning models remain the core of understanding modern LLM agents. Prerequisites are Python and PyTorch; the materials stand alone from his earlier 'Build a Large Language Model (From Scratch)' course.",
+      "one_liner": "Raschka 免费 11 小时视频课：从 Qwen3 手写推理模型的评估推理扩展RL 与蒸馏",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d1a3b4fa.md",
+      "images": [],
+      "added_date": "2026-10-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0fe639e3",
+      "title": "IBM CEO says open weight models are now irresistibly good and cheap on-prem",
+      "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "source": {
+        "platform": "news",
+        "author": "Simon Sharwood",
+        "original_date": "2026-10-22"
+      },
+      "category": "infra",
+      "tags": [
+        "open-weight",
+        "on-prem",
+        "ibm",
+        "enterprise-ai",
+        "earnings-call"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "IBM CEO Arvind Krishna 在 Q3 财报电话会上力推本地部署开源权重模型：2024 年闭源前沿模型宽基准约 70 分开源只有 20-30 分，如今开源模型已做到约 90% 的效果token 成本仅为前沿模型的 10-25%他的算术是：总结邮件审合同接客服这类任务，为最后 10% 的效果付 10 倍价格不划算，而企业级本地 AI 两三个机柜就能装下他点出真正的瓶颈是技能而非硬件内核工程师GPU 网络邻近性缓存优化没人做，IBM 将出软件降低部署门槛，并预计需求会带动 Spyre 主机加速卡销售IBM 基础设施营收同比 +5% 至 $37 亿；z17 上市后比任何前代主机多赚 $10 亿",
+      "summary_en": "On IBM's Q3 earnings call, CEO Arvind Krishna argued open weight models now make irresistible sense for on-prem enterprise AI: in 2024 a broad benchmark might put the top closed model at 70 versus 20-30 for open ones, but open models now deliver about 90% of frontier effectiveness at 'anywhere from 25 percent to 10 percent of the token cost.' His arithmetic: for most enterprise tasks - summarizing email, examining contracts, answering calls - paying 10x more for the last 10% makes no sense, and useful on-prem AI fits in two or three racks. He flagged the real blocker as skills (kernel engineers, GPU network proximity, caching) rather than hardware, said IBM will ship software to ease deployment, and expects demand to lift sales of Spyre mainframe accelerator cards. Infrastructure revenue grew 5% YoY to $3.7B; z17 has out-earned every prior mainframe model by $1B.",
+      "one_liner": "IBM CEO：开源权重模型 90% 效果10-25% 成本，企业本地 AI 两三个机柜就够",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0fe639e3.md",
+      "images": [],
+      "added_date": "2026-10-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2325af33",
+      "title": "How we deploy Trillion-parameter frontier models on Cerebras",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "source": {
+        "platform": "blog",
+        "author": "Sarah Chieng",
+        "original_date": "2026-10-22"
+      },
+      "category": "infra",
+      "tags": [
+        "cerebras",
+        "waferscale",
+        "inference",
+        "distributed-serving",
+        "kimi-k3"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Cerebras 工程博客拆解万亿参数前沿模型如何在晶圆级芯片上部署：单片 WSE-3T 只有 44 GB 片上内存，而万亿参数模型光权重就需要 TB 级，做法是把模型切分到多片晶圆上，以 1000-2000+ token/s 服务多万亿参数模型文章以开源 Kimi K3（约 3T 参数，69 层线性注意力 + 24 层稠密层；Cerebras 引用其 Terminal-Bench 2.1 得 88.3%对标 GPT-5.6 Sol 的 88.8%，BrowseComp 91.2% 对 90.4%）为例，讲清三件事：整个模型如何装进片上内存各层如何映射到多芯片高并发请求如何处理",
+      "summary_en": "A Cerebras engineering post explains how trillion-parameter frontier models run on wafer-scale hardware: a single WSE-3T wafer carries 44 GB of on-chip memory while trillion-parameter models need terabytes for weights alone, so the model is split across multiple wafers to serve multi-trillion-parameter models at 1,000-2,000+ tokens per second. The walkthrough uses open-source Kimi K3 (~3T parameters, 69 linear-attention layers plus 24 dense layers) as the worked example - a model Cerebras cites at 88.3% on Terminal-Bench 2.1 (vs GPT-5.6 Sol's 88.8%) and 91.2% on BrowseComp (vs 90.4%) - covering how the full model fits in on-chip memory, how layers map across chips, and how high request concurrency is handled.",
+      "one_liner": "Cerebras 拆解万亿参数部署：多晶圆切分 + 1000-2000 token/s，以 Kimi K3 为例",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2325af33.md",
+      "images": [],
+      "added_date": "2026-10-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8f5707e9",
+      "title": "AI and the Fall? of the Creative Class",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "source": {
+        "platform": "blog",
+        "author": "Joseph Politano",
+        "original_date": "2026-09-27"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-economics",
+        "labor-market",
+        "creative-industries",
+        "employment"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Apricitas 经济简报量化美国创意产业就业收缩：四年流失超 20 万个岗位，仅过去一年就约 5 万，强度与持续时间上只有 20012008 两次衰退可比而当下并没有普遍衰退，时间上恰与能批量产出小说逼真图像仿制音乐的 AI 系统崛起重合归因很难：媒体公司讳言 AI 使用（舆论与版权双重动机），好莱坞整合内容外包社交媒体替代都在搅浑水最像 AI 指纹的是结构性信号：数字艺术各子行业全线流失，线下娱乐却在健康增长影视与录音业占近半损失（10 万+，约全行业三分之一，就业处于 30 年低点），出版流失 7 万+，年流失维持约 5 万且近月还在加速",
+      "summary_en": "Apricitas Economics quantifies the US creative-industry downturn: 200k+ jobs lost in 'creative' industries over four years, about 50k in the last year alone - among the worst stretches for media employment in modern US history, matched only by the 2001 and 2008 recessions. It coincides with the rise of AI that can produce wholesale novels, photorealistic images and soundalike music at extremely low cost. Attribution is hard: firms are coy about AI use (backlash, copyright preservation), while consolidation, offshoring and social-media displacement confound the signal. The clearest AI fingerprint is compositional - every digital-arts subsector loses jobs while in-person entertainment keeps growing. Movie & sound recording takes nearly half the losses (100k+, a third of the sector, at 30-year lows), publishing is down 70k+, and losses run ~50k a year, still accelerating.",
+      "one_liner": "美国创意产业四年流失 20 万+ 岗位：数字艺术全线收缩线下娱乐照涨，AI 归因难但结构信号清晰",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8f5707e9.md",
+      "images": [],
+      "added_date": "2026-10-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-26",
-  "total_entries": 2904
+  "last_updated": "2026-10-27",
+  "total_entries": 2914
 }
