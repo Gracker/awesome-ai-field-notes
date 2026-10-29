@@ -90029,8 +90029,280 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "d6316526",
+      "title": "The October inflection point for vibe game development",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-10-28"
+      },
+      "category": "coding",
+      "tags": [
+        "vibe-coding",
+        "game-development",
+        "claude-opus",
+        "claude-code",
+        "inflection-point"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 判断 2026 年 10 月是继 2025 年 11 月编码 agent 之后的新拐点，这次落在 vibe 编码游戏：Claude Opus 5.5 在 3D 建模音乐生成游戏设计上同时实质提升，而游戏设计最关键模型早能做出像游戏的画面，做不好玩他让 Opus 5.5 把自己的 RTS 游戏 Battle Drones 改成好玩得多的版本，带多人联机奖牌回放与随机地图生成；近周不读代码做出四个自己真愿意玩的游戏，每个投入不超过四小时同串提示词给 GPT-6 Pro 画面好但可玩性差一截判断：模型第一次在玩家愿意反复玩这个手艺维度给出可用结果",
+      "summary_en": "Simon Willison argues October 2026 marks a new inflection point, this time for vibe coding computer games, following November 2025's inflection for coding agents. Claude Opus 5.5 showed substantive gains in 3D modeling, music generation, and game design; the last mattered most, because models could already produce game-looking output that was not fun. He had Opus 5.5 rebuild his real-time strategy game Battle Drones into a far more playable version with 2-4 player multiplayer, medals, replays, seven maps, random map generation, rule variants, and model-vs-model matches. Over recent weeks he vibe-coded four games he genuinely wants to play with under four hours of personal effort each, the smallest shaped by a single prompt naming three.js; the same prompts on GPT-6 Pro gave good-looking but less playable results, so he judges GPT-6 Astra still behind Opus 5.5.",
+      "one_liner": "Simon Willison 判断 2026 年 10 月是继 2025 年 11 月编码 agent 之后的新拐点，这次落在 vibe 编码游戏：Claude Opus 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d6316526.md",
+      "images": [
+        "https://static.simonwillison.net/static/2026/tree-appreciator.webp",
+        "https://static.simonwillison.net/static/2026/emberwick-v1.webp",
+        "https://static.simonwillison.net/static/2026/emberwick-v2.webp",
+        "https://static.simonwillison.net/static/2026/emberwick-title.webp",
+        "https://static.simonwillison.net/static/2026/agent-v-agent.jpg"
+      ],
+      "added_date": "2026-10-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "39c9eb11",
+      "title": "The Exponential Time Hypothesis is False",
+      "url": "https://www.johndcook.com/blog/2026/10/27/eth-false",
+      "source": {
+        "platform": "blog",
+        "author": "John D. Cook",
+        "original_date": "2026-10-27"
+      },
+      "category": "models",
+      "tags": [
+        "complexity-theory",
+        "3-sat",
+        "ai-for-math",
+        "lean4",
+        "anthropic",
+        "openai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "John D. Cook 梳理 3-SAT 复杂度的转折：Anthropic 与 OpenAI 各自发布推翻指数时间假设（ETH）的证明，P=NP 仍悬而未决：3-SAT 已不需要指数时间，但尚无已知多项式算法谱系从 1985 年 MonienSpeckenmeyer 分支算法到这次 2^o(n) 确定性算法；Shiva Kintali 随后给出合并稀疏化谱替换与有理插值的简化证明Anthropic 论文写明核心算法由内部 Claude 研究模型独立找到与研究员共同整理并在 Lean 4 形式化判断：机器独立发现人类参与表述形式化验证三者齐备，成为核对这类成果的硬指标",
+      "summary_en": "John D. Cook explains recent refutations of the Exponential Time Hypothesis (ETH): Anthropic and OpenAI have both published proofs that ETH is false, i.e. a deterministic 2^o(n) algorithm for 3-SAT exists, while P vs NP remains open since sub-exponential is still super-polynomial as far as anyone knows. He traces the lineage from the 1985 Monien-Speckenmeyer branching algorithm, O(|F|*phi^n), to the new results, and notes Shiva Kintali's Oct 26 simplified proof combining sparsification, bounded occurrences, spectral replacement, and rational interpolation. The Anthropic paper states its core algorithm was found by an internal Claude research model with no human input, then formalized in Lean 4 together with researchers - a first frontier-lab claim of a model-discovered complexity result.",
+      "one_liner": "The Exponential Time Hypothesis is False",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/39c9eb11.md",
+      "images": [],
+      "added_date": "2026-10-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6c6f8132",
+      "title": "Pluralistic: Agents vs ecommerce",
+      "url": "https://pluralistic.net/2026/10/28/principle-agent-problem",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-10-28"
+      },
+      "category": "agents",
+      "tags": [
+        "ai-agents",
+        "ecommerce",
+        "price-transparency",
+        "agent-economy",
+        "platform-blocking"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cory Doctorow 分析 agent 与电商的结构性冲突：电商网站并不想被 agent 读懂，透明度对它们是负担利润增长集中在监控定价drip pricing垃圾费与最惠国条款，共同前提是价格不透明，与 agent 自动比价正好相反；这些手段多次被起诉甚至认定违法，但被真正约束的成本仍高于违法收益，平台没有动机欢迎比价机器人站点已在封堵第三方 agent：表层原因是 agent 滥用暂时保留占住二手商品，根本原因是自动化直接打在最赚钱也最难看的手段上判断：能被稳定解析的商品与价格接口才是稀缺资源，而这类接口不会由平台方自愿提供",
+      "summary_en": "Cory Doctorow argues ecommerce sites do not want to be readable by agents - transparency is a cost to them. E-commerce profit growth concentrates in surveillance pricing, drip pricing, junk fees, and most-favored-nation clauses, all premised on price opacity, the exact opposite of what comparison-shopping agents need. These practices have been prosecuted and ruled unlawful in multiple jurisdictions, yet real enforcement remains rarer than the offense is profitable, so platforms have no incentive to welcome comparison bots. Sites already block third-party agents at scale - partly because agents abuse temporary holds to tie up secondhand goods, more fundamentally because automation strikes their most profitable and least presentable practices. He ties this to his 2001 Metacrap critique of the Semantic Web.",
+      "one_liner": "Cory Doctorow 分析 agent 与电商的结构性冲突：电商网站并不想被 agent 读懂，透明度对它们是负担利润增长集中在监控定价drip pricing垃圾费与最惠国条款，共同前提是价格不透明，与 agent 自动比价正好相反.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6c6f8132.md",
+      "images": [
+        "https://i0.wp.com/craphound.com/images/28Oct2026.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/bot-shop.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/heylookatthis3.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/worlds-famous-events.png?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/appearances3.jpg?w=840&ssl=1"
+      ],
+      "added_date": "2026-10-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4b72cd91",
+      "title": "Scattered thoughts on how doing math feels these days",
+      "url": "https://dynomight.net/math",
+      "source": {
+        "platform": "blog",
+        "author": "dynomight",
+        "original_date": "2026-10-26"
+      },
+      "category": "learning",
+      "tags": [
+        "ai-assisted-math",
+        "human-ai-collaboration",
+        "workflow",
+        "research-practice"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "dynomight 把 2024 到 2026 年初用 AI 做数学的体感排成一条线：2024 年是玩具，2025 年秋是有时候有用，2026 年初变成我的天他给自己的效率数字是约 50%，低于直觉，因为做数学含提想法试证明写下来重组织多个环节，模型只在部分环节有用短板很具体：证明从简单起点滑向复杂度失控，拆成独立引理后每条要占一整页，正是新手式意大利面数学反复追问摸到轮廓后让模型重写，常能削掉复杂度，有时还换来更强结论他的分工判断：模型仍不擅长构造抽象，人构造的抽象仍然有用判断：模型眼下放大的是熟练者的产出，价值集中在有领域积累的人身上",
+      "summary_en": "Dynomight charts how AI-assisted math has felt from 2024 to early 2026: a toy in 2024, sometimes useful in autumn 2025, and by early 2026 'oh my god'. He estimates roughly 50% efficiency gain, less than intuition suggests, because doing math involves proposing conjectures, attempting proofs, writing up, and reorganizing - models help in parts but not the whole. Failure modes are specific: proofs slide from simple starts into runaway complexity, and splitting into standalone lemmas yields page-long statements - spaghetti mathematics scattered through long documents with unclear dependencies. Iterative probing followed by model-rewritten passages can cut complexity and occasionally strengthen results. His division of labor: models are still objectively bad at constructing abstractions; human-built abstractions remain useful. He also notes AI-generated papers flooding arXiv.",
+      "one_liner": "dynomight 把 2024 到 2026 年初用 AI 做数学的体感排成一条线：2024 年是玩具，2025 年秋是有时候有用，2026 年初变成我的天他给自己的效率数字是约 50%，低于直觉，因为做数学含提想法试证明写下来重组织多个环节...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4b72cd91.md",
+      "images": [],
+      "added_date": "2026-10-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1d39b7dc",
+      "title": "Getting good at AI takes time and practice",
+      "url": "https://seangoedecke.com/getting-good-at-ai-takes-time-and-practice",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-10-28"
+      },
+      "category": "learning",
+      "tags": [
+        "ai-skills",
+        "context-supply",
+        "code-review",
+        "durable-skills",
+        "practice"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Sean Goedecke 反驳用 AI 没什么可学说清需求就行的流行说法：就算每代技巧会被下一代作废，连学都不学的推论依然不成立他给出四项耐久技能：一是补齐上下文，新手让模型读心，熟练者讲清目标背后的理由；二是判断模型能做什么不能做什么，能要架构点子不能要新功能，写 PR 描述这类任务能被提示到做好，且新模型通常在原本强的任务上更强，这条判断力耐久；三是识别模型惯犯错误，AI 代码 off-by-one 少但会过度设计为无意义边界引入新 mutex，详尽注释和测试反而让审阅者过度信任；四是快速略读冗长输出判断：练习对象应是这四块，不是具体技巧",
+      "summary_en": "Sean Goedecke pushes back on the claim that there is nothing to learn about using AI - that stating what you want suffices. Even if each generation's tricks become obsolete, skipping learning entirely does not follow. He names four durable skills: supplying context (novices make the model read minds; experts explain the reasons behind goals); judging what models can and cannot do (ask agents for service-architecture ideas, not new features; some tasks models do poorly but can be prompted into doing well, like PR descriptions - durable because new models get better where they were already strong); recognizing models' habitual mistakes (AI code has fewer off-by-one errors but over-engineers and adds unneeded mutexes for pointless edge cases, and thorough comments and tests bias reviewers toward over-trust); and skimming AI's verbose output fast.",
+      "one_liner": "Sean Goedecke 反驳用 AI 没什么可学说清需求就行的流行说法：就算每代技巧会被下一代作废，连学都不学的推论依然不成立他给出四项耐久技能：一是补齐上下文，新手让模型读心，熟练者讲清目标背后的理由...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1d39b7dc.md",
+      "images": [],
+      "added_date": "2026-10-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a53ccdee",
+      "title": "You can just ask AI to do things",
+      "url": "https://seangoedecke.com/you-can-just-ask-ai-to-do-things",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-10-29"
+      },
+      "category": "agents",
+      "tags": [
+        "ai-agents",
+        "delegation",
+        "workflow-automation",
+        "agency",
+        "sub-agents"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Sean Goedecke 阐释他说的 agency：愿意把原来手做的活交给模型；多数人的瓶颈不在模型能力，而在没注意到 agent 已能接哪些活清单很具体：起本地开发服务器修环境问题；代跑 curl 检查主要路径；生产变更前后按小时轮询指标和日志一整天；开子 agent 问 GPT-6-Astra 和 Gemini Argon 的意见；每天六点的定时任务通读未读消息挑出需要他的部分并做初步调研；让 agent 自建日志指标与 Slack MCP；清理旧会话边界同样清楚：消息报告自己写设计决策自己做代码自己审判断：每条都是可自动化却没人动手的重复劳动，他二十条里只挑零到一条",
+      "summary_en": "Sean Goedecke describes what he means by agency: the willingness to hand tasks you would have done yourself to models. Most people's bottleneck is not model capability but not noticing what agents can already take over. His concrete list: have an agent start your local dev server and fix environment problems; run curl through main paths and check outputs; poll metrics and logs around production changes, even for a full day; spawn sub-agents for second opinions from GPT-6 Astra and Gemini Argon; a 6am scheduled task that reads unread messages, picks what needs him, and does preliminary research; agents that build their own logging, metrics, Slack MCP, and skills; and tidying old sessions. His boundaries: he writes his own messages, makes design decisions, reviews his own code, and accepts roughly zero-to-one agent suggestions per twenty.",
+      "one_liner": "Sean Goedecke 阐释他说的 agency：愿意把原来手做的活交给模型；多数人的瓶颈不在模型能力，而在没注意到 agent 已能接哪些活清单很具体：起本地开发服务器修环境问题；代跑 curl 检查主要路径；生产变更前后按小时轮询指标和日志一整天...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a53ccdee.md",
+      "images": [],
+      "added_date": "2026-10-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "94bdedac",
+      "title": "GitHub Octoverse 2026",
+      "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-10-28"
+      },
+      "category": "industry",
+      "tags": [
+        "github",
+        "developer-ecosystem",
+        "metrics",
+        "agentic-engineering",
+        "octoverse"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 在 GitHub Universe 现场记录 Octoverse 2026 三个数字：每月合并 PR 2.2 亿提交 73.8 亿新建仓库 3030 万；合并量不到一年涨到三倍，提交增量集中在 2026 下半年，新仓库增速翻倍，他读作 agentic engineering 的直接冲击；提交与合并的落差说明大量工作没落到主干方法学交代口径：用 LLM 分类从用户资料抽 ISO 国家码校正 VPN 偏差，用微调多语言 embedding 模型打 NAICS 行业，另设逆向工程仓库专项统计判断：报告的计量基础正被 AI 从数据和归类两端同时改动",
+      "summary_en": "Reporting live from GitHub Universe, Simon Willison notes three Octoverse 2026 numbers: 220 million merged PRs per month, 7.38 billion commits per month, and 30.3 million new repos per month. Merged PRs tripled in under a year; commits more than tripled, with most of the increase in the second half of 2026; the new-repo rate doubled. He reads this as a stark representation of agentic engineering's impact on GitHub. The methodology section shows AI is embedded in the report's own measurement: LLM classification extracts ISO country codes from profiles to adjust for VPN bias, and a fine-tuned multilingual embedding model sorts repositories into NAICS sectors using names, descriptions, topics, and READMEs; the report also breaks out interoperability and reverse-engineering repos.",
+      "one_liner": "Simon Willison 在 GitHub Universe 现场记录 Octoverse 2026 三个数字：每月合并 PR 2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/94bdedac.md",
+      "images": [
+        "https://static.simonwillison.net/static/2026/github-numbers.jpg"
+      ],
+      "added_date": "2026-10-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "796912dc",
+      "title": "Siri AI is available in more languages starting today",
+      "url": "https://nr.apple.com/Du9G9W8Nq1",
+      "source": {
+        "platform": "blog",
+        "author": "Apple Newsroom",
+        "original_date": "2026-10-26"
+      },
+      "category": "industry",
+      "tags": [
+        "apple",
+        "siri",
+        "apple-intelligence",
+        "localization",
+        "product"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "Apple 随 27.2 系统更新把全新重构的 Siri AI 推向更多语言，新增法语日语韩语葡萄牙语和西班牙语官方称这版 Siri 在能力对话性与个性化上全面重做，是基于 Apple Intelligence 的新一代助手，可利用个人上下文理解且不妥协隐私判断：这是重构版 Siri 第一轮大规模语言扩展，助手本地化的推进节奏第一次跟上了模型重构本身，也意味着多语言个人上下文处理进入消费级默认功能",
+      "summary_en": "With the 27.2 software updates released October 26, 2026, Siri AI - Apple's entirely new version of Siri described as profoundly more capable, conversational, and personal - expands beyond English to French, Japanese, Korean, Portuguese, and Spanish. Built on Apple Intelligence, it draws on personal context understanding to help without compromising users' privacy, marking the first major linguistic expansion of the rearchitected assistant.",
+      "one_liner": "Siri AI is available in more languages starting today",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/796912dc.md",
+      "images": [
+        "https://www.apple.com/newsroom/images/logos/quick-reads-logos/Apple-Siri.jpg.square_social.jpg"
+      ],
+      "added_date": "2026-10-29",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-28",
-  "total_entries": 2947
+  "last_updated": "2026-10-29",
+  "total_entries": 2955
 }
