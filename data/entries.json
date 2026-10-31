@@ -91367,8 +91367,333 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "c8600569",
+      "title": "JANUS: Agentic Cross-Language Fuzzing Harness Generation for Android Native Libraries",
+      "url": "https://arxiv.org/abs/2610.30218",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xiangyu Zhang, Yucheng Su, Lingling Fan, Yinan Li, Sen Chen",
+        "original_date": "2026-10-21"
+      },
+      "category": "agents",
+      "tags": [
+        "android",
+        "jni",
+        "fuzzing",
+        "harness-generation",
+        "llm-agent",
+        "native-libraries"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "JANUS 用 agent 工作流给 Android native 库自动生成 JNI 感知的 fuzzing harness：JNI 把内存安全的 ART 暴露给不安全的 C/C++，该攻击面多次被利用导致整机沦陷现有工具跨 JNI 边界的精确分析跑不动轻量近似又漏调用模式，也处理不了 JNI 方法消费的组合对象；JANUS 迭代解析显式与隐式跨语言调用依赖自底向上组装参数对象在 44 个流行 App（21,386 个 JNI 方法）上生成 6,094 个有效 harness，是 SOTA 自动工具的 5.9 倍以上，并在五家厂商预装库里发现 6 个未知漏洞",
+      "summary_en": "JANUS is the first agentic approach to synthesizing cross-language JNI-aware fuzzing harnesses for Android native libraries. It iteratively resolves both explicit and implicit cross-language call dependencies to recover app-specific runtime context, and recursively assembles cross-language argument objects in a bottom-up manner, reducing reliance on hand-crafted heuristics while capturing hidden API usage knowledge embedded in closed-source native libraries. Evaluation on 44 popular real-world apps (such as Google and YouTube Music, covering 21,386 JNI methods) shows JANUS produces over 5.9 times as many valid harnesses (6,094) as state-of-the-art automatic harnessing tools, and it further discovered six unknown vulnerabilities in closed-source native libraries of preinstalled apps from five mainstream Android vendors (e.g., Xiaomi, vivo, Samsung).",
+      "one_liner": "agent 工作流跨 JNI 边界造 harness：44 个 App 6,094 个有效样本五家厂商预装库 6 个未知漏洞，Android native 安全测试的新上限",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c8600569.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "445020b9",
+      "title": "Hiding Tool Latency in On-Device Cascaded Voice Agent through Speculative Execution",
+      "url": "https://arxiv.org/abs/2610.07641",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kyudan Jung, Hyunsin Park, Yoonhyung Lee, Jinhwan Park, Jinhyeok Yang, KiHyun Nam, Jaegul Choo, Jink...",
+        "original_date": "2026-10-06"
+      },
+      "category": "agents",
+      "tags": [
+        "voice-agent",
+        "speculative-execution",
+        "on-device",
+        "latency",
+        "asr"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "端侧级联语音助手的串行链路是 ASR LLM 工具执行，工具请求要等用户说完话LLM 定完要调哪个工具才能发起，延迟全落在尾部论文加一个 Predictor 从 ASR 部分假设预测工具调用，边收音边投机执行并缓存结果注入 prompt；针对用户说到一半自我纠正的场景用规则校验，只注入仍然有效的缓存；LLM 同时保留直接发起工具调用的能力，最坏情况退回串行基线，延迟有上界在完整实现的 Android 语音助手上实测：中位 time-to-first-audio 从 5.79s 降到 4.60s，标准差从 3.49s 降到 2.81s，响应更可预期",
+      "summary_en": "Tool-augmented speech assistants typically serialize ASR, LLM inference, and external tool execution, so tool latency is incurred only after the user finishes speaking and the LLM has identified the tool calls. The paper introduces speculative tool execution for on-device cascaded voice agents: a Predictor module anticipates tool requests from partial ASR hypotheses, executes them speculatively while speech is still being received, and caches results for injection into the LLM prompt. A rule-based validation mechanism mitigates user self-corrections by selectively injecting only valid cached results, and the LLM retains the ability to issue tool calls directly, so worst-case latency is upper-bounded by the baseline. A fully implemented Android voice assistant shows median time-to-first-audio dropping from 5.79s to 4.60s and standard deviation from 3.49s to 2.81s.",
+      "one_liner": "从部分 ASR 假设投机执行工具调用：Android 语音助手首音频延迟 5.79s4.60s，兜底结构保证最坏不慢于串行基线",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/445020b9.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "10e7e211",
+      "title": "Rimuru: Unified Memory Management for Modern LLM Serving via Elastic Expert Offloading",
+      "url": "https://arxiv.org/abs/2610.40305",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhiyuan Fang, Dingyang Li, Jianfeng Zhong, Bin Wang, Weixi Zhu, Cunshu Ni, Zicong Hong, Wuhui Chen...",
+        "original_date": "2026-10-29"
+      },
+      "category": "infra",
+      "tags": [
+        "llm-serving",
+        "memory-management",
+        "moe",
+        "vllm",
+        "expert-offloading"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "现有 LLM serving 给模型权重和注意力状态各划固定内存：重负载下状态容量不足压并发，轻负载下一边空着一边不够Rimuru 建在 vLLM 上，用共享页池统一管理异构张量：memory views 让每种张量按自己的页大小和页表解释同一块内存，大页对齐加多级页分配器做拆分合并，页表感知的 fused MoE kernel 直接访问不连续专家权重省掉拷贝，负载感知调节器按运行时需求跨类型搬页评测最高 19.03 倍基线吞吐，TTFT 平均降 98.1%；固定分区换共享池加按类型视图的取舍，与端侧受限内存管理同构",
+      "summary_en": "Rimuru is an LLM serving system that unifies memory management for heterogeneous tensors via elastic expert offloading, built on vLLM. It establishes a shared page pool so memory can elastically move across model weights and attention states; memory views let each tensor type interpret the shared space with its own page size and page table; huge-page alignment plus a multi-level page allocator split and merge pages for cross-type capacity reuse; a page-table-aware fused MoE kernel accesses non-contiguous expert weights without copies; and a workload-aware adjuster reallocates pages across tensor types by runtime demand. Evaluations show up to 19.03x baseline throughput and 98.1% average TTFT reduction. The fixed-partition-to-shared-pool tradeoff is structurally similar to memory management on memory-constrained edge devices.",
+      "one_liner": "vLLM 上的共享页池统一调度权重与状态内存：最高 19.03x 吞吐TTFT 平均降 98.1%，异构张量内存管理的系统化解法",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/10e7e211.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cd8a9e41",
+      "title": "How I work with Agents",
+      "url": "https://x.com/thorstenball/status/2114386050638336082",
+      "source": {
+        "platform": "x",
+        "author": "@thorstenball",
+        "original_date": "2026-10-25"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-workflows",
+        "prompting",
+        "agentic-coding",
+        "evaluation",
+        "amp"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "Amp 成员 Thorsten Ball 把 agent 协作经验压成 15 条（X Article，6.8k 赞/15.5k 收藏）：只描述 What 不描述 How，典型指令是\"把字节码编译器和 VM 提速两倍，别停\"；评测 agent 知识用盲测：同任务开五个 agent，一组给 AGENTS.md 一组不给；不要来回迭代，让它生成 20 个变体配页面挑诊断慢问题先给四个假说再逐个验证；要不可反驳的证据（端到端跑通录屏before/after 数字），AGENTS.md 里写死 this is not evidence；review 只看承重代码；一线程一任务，线程就是公司记忆",
+      "summary_en": "Thorsten Ball (Amp) distills his agent-working rules to 15 points: use the latest models, since a model wrong 10% of the time forces repeated attempts; prompt the What, not the How (\"make the bytecode compiler and VM 2x faster, do not stop\"); make the whole SDLC legible to the agent via tool calls; eval agentic knowledge with blind tests (five agents, with and without AGENTS.md); don't iterate with the agent - make it build tools to iterate (20 variations plus a test page; four theories on slowness, then check all four); ask for irrefutable proof (walkthroughs, demo videos, before/after numbers; put \"this is not evidence\" in AGENTS.md); use schedules and heartbeats; one thread = one task; threads are company memory tied to git commits; don't let agents write for humans; review only code with high blast radius (<5 central files, database migrations).",
+      "one_liner": "Amp 成员的 15 条 agent 实操规则：只说 What 不说 How盲测 AGENTS.md要不可反驳的证据review 只看承重代码",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/cd8a9e41.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "89c029a7"
+      ]
+    },
+    {
+      "id": "89c029a7",
+      "title": "中文圈把 Thorsten BallHow I work with Agents提炼成 15 条图后的讨论",
+      "url": "https://x.com/YuLin807/status/2114643578266005516",
+      "source": {
+        "platform": "x",
+        "author": "@YuLin807",
+        "original_date": "2026-10-26"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-workflows",
+        "prompting",
+        "chinese-community",
+        "discussion"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "@YuLin807 把How I work with Agents交给 agent 提炼成 15 条法则图，并配自己的实践感受：15 条大半已在用，但对第三条（只说 What 不说 How）有保留过去效果不好会直接说\"用 xx 去实现\"，看完原文觉得这是经验与知识的禁锢，指令写成 SOP 只会锁死自己评论区补回被提炼图丢掉的工程约束：@lilinqi2 指出 agent 只做能被验证的那一段（生成加自动校验），人工判断留在定义目标与验收不留在过程里；@Younik4we 的办法是每条法则补一句反例，\"图对但逻辑没对原文\"就暴露了",
+      "summary_en": null,
+      "one_liner": "15 条法则图的中文圈读法：只说 What 的成立条件是任务有客观验收点，盲测 AGENTS.md 是最便宜的可证伪实验",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/89c029a7.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "cd8a9e41"
+      ]
+    },
+    {
+      "id": "ec6a0a4e",
+      "title": "Black October for AI Developer Platforms",
+      "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+      "source": {
+        "platform": "blog",
+        "author": "Benjamin Read, Rami McCarthy (Wiz)",
+        "original_date": "2026-10-30"
+      },
+      "category": "industry",
+      "tags": [
+        "security",
+        "credential-theft",
+        "llmjacking",
+        "ai-platforms",
+        "agent-swarm",
+        "supply-chain"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Wiz 报告 10 月内至少 9 家 AI 开发者平台披露安全事件：Fireworks AIAndromedaZeaburLightning AIOpenCodeRailwayWarpCommandCodeNorthflank没有单一漏洞串联，共同模式是定向利用后翻找存储的环境变量优先拿 AI 访问凭证；三家报告 agent swarm 攻击特征，两家把动机归到蒸馏的算力需求变现端是 LLMJacking：Railway 约 37.1 万美元加密货币被用平台 key 转走，Zeabur 已因事件关停",
+      "summary_en": "Wiz researchers Benjamin Read and Rami McCarthy report that at least nine AI developer platforms disclosed incidents in October 2026: Fireworks AI, Andromeda, Zeabur, Lightning AI, OpenCode, Railway, Warp, CommandCode, and Northflank (Oct 6-30). No single vulnerability or dependency links them, but the pattern is aligned: targeted exploitation hunting stored environment variables with a focus on AI access credentials. Fireworks, OpenCode, and Warp reported agent-swarm indications; OpenCode and CommandCode attributed motives to distillation's cheap-compute demand. Monetization runs through LLMJacking and LLM Broker infrastructure: roughly $371,000 in cryptocurrency allegedly stolen via crypto keys stored on Railway, downstream abuse of enterprise keys observed within 30 minutes of vendor credential access, and Zeabur is shutting down due to its incident.",
+      "one_liner": "一个月 9 家 AI 平台被打的共同点：信任边界止步于环境变量加密存储，攻击者直接打平台侧解密路径第三方平台上的 AI key 应轮换",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/ec6a0a4e.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4001ba3a",
+      "title": "Agentic and Flexible: A next era of Android development",
+      "url": "https://developer.android.com/blog/posts/build-it-your-way-a-next-era-of-android-development",
+      "source": {
+        "platform": "blog",
+        "author": "Android Developers (Google)",
+        "original_date": "2026-10-28"
+      },
+      "category": "coding",
+      "tags": [
+        "android-studio",
+        "byoa",
+        "acp",
+        "android-cli",
+        "perfetto",
+        "agent-skills"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Android Dev Summit 2026（10-28）：Android Studio Rabbit 2 转稳定，Bring Your Own Agent 转正经开放 ACP 协议接 40+ 编码 agent，agent 继承 IDE 全套工具（项目结构构建Compose Preview模拟器Logcat），新增 Change Review 扫描 agent 改动Android CLI 新增设备流送Compose 预览渲染生产级 Perfetto 跟踪采集，30+ 官方 skills 覆盖 20+ 领域，Claude Code 与 Codex 官方插件同期发布",
+      "summary_en": "At the Android Dev Summit (Oct 28, 2026), Android Studio Rabbit 2 went stable with Bring Your Own Agent: over 40 ACP-compliant coding agents (Claude Agent, Codex, Antigravity, and more) plug in through the open Agent Client Protocol and inherit the IDE's full toolset - project structure and build, symbol resolution, Compose Preview, the Emulator, and Logcat - installable side by side, with a new Change Review scanning pending agent changes. The Android CLI works in any terminal, harness, or CI pipeline, adding device streaming, agent-rendered Compose previews, and production-grade Perfetto trace capture for cold-start latency, UI jank, and background wakeups. Google ships 30+ official Android skills covering 20+ areas, plus official plugins for Claude Code and Codex.",
+      "one_liner": "IDE 把全套工具开放给 40+ ACP agent：Perfetto 采集Compose 预览30+ skills 官方化，\"agent 抓 trace查询结论\"有了官方入口",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4001ba3a.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f72111f2",
+      "title": "Mika: An on-device AI agent for Android that operates apps and the web",
+      "url": "https://github.com/wangzan101/Mika",
+      "source": {
+        "platform": "github",
+        "author": "wangzan101 (GitHub)",
+        "original_date": "2026-10-29"
+      },
+      "category": "agents",
+      "tags": [
+        "mobile-agent",
+        "on-device",
+        "android",
+        "gui-agent"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "Mika 是跑在 Android 本机的私人 AI 助理：替用户操作 App上网把事办成，仓库 2026-10-29 创建，数日内 2.4k 星386 fork，Kotlin + Jetpack Compose 实现，Apache-2.0 开源它与 DeepSeek Harness 装进手机可遥控电脑的 dsh-Go（约 3.0k 星）同周先后破千星：手机当 agent 终端的需求端信号明确本机执行加遥控开发机，是把 agent 从 IDE 里解放出来的最小可用形态，与 Rabbit 2 的 IDE-agent 路线正好两端",
+      "summary_en": "Mika is an on-device AI agent for Android that operates apps and the web to get things done for the user. The repo was created Oct 29, 2026 and reached ~2.4k stars / 386 forks within days; implemented in Kotlin with Jetpack Compose around an LLM core, Apache-2.0. It broke 1k stars the same week as dsh-Go (~3.0k stars), which runs a DeepSeek harness on the phone and can remote-control a computer - a demand-side signal for the phone-as-agent-terminal form factor: local execution plus remote control of a dev machine is the minimal viable way to take agents out of the IDE, the opposite end of Rabbit 2's IDE-agent route.",
+      "one_liner": "Android 本机 GUI agent 一周破 2.4k 星：替用户操作 App上网办事，手机作为 agent 终端的需求端信号",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/f72111f2.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": 2394,
+      "related": []
+    },
+    {
+      "id": "b6f3b95d",
+      "title": "Anthropic renames Max 20x to Ultra: 5-hour window dropped for weekly quota",
+      "url": "https://www.anthropic.com/pricing",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "claude",
+        "pricing",
+        "subscription",
+        "usage-limits",
+        "weekly-quota"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "Anthropic 定价页显示订阅档位改名与计量重构：原 Max 20x（$200/月）更名 Ultra，权益改为\"无 5 小时限制\"加每周 10x Pro 用量，API credits 从 $100 翻倍到 $200/月；原 Max 5x（$100/月）更名 Max，保持每 5 小时和每周 5x Pro 用量$100/月 API credits实质变化在计量结构：从 5 小时滚动窗口转向以周为单位的总量管理长会话不再被窗口打断，但周总量要自己规划X 上 10-31 有人注意到改名，官方暂无单独公告文",
+      "summary_en": "Anthropic's pricing page shows the subscription tiers renamed and re-metered: the former Max 20x ($200/mo) is now Ultra with \"No 5-hour limit\" plus \"10x Pro usage every week\" and $200/month in API credits, up from $100 on Max; the former Max 5x ($100/mo) is now Max, keeping \"5x Pro usage every 5 hours and every week\" with $100/month in API credits. The substantive change is the metering structure - from a rolling 5-hour window to weekly quota management: long Claude Code sessions no longer get interrupted by the window, but the weekly total needs planning. The rename was noticed on X on Oct 31 with no separate official announcement post yet.",
+      "one_liner": "订阅计量从 5 小时窗口转向周配额：Ultra 无 5 小时限制加 $200 API credits，跑长任务的 Claude Code 用户要按周折算用量",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/b6f3b95d.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e8e21e51",
+      "title": "Deprecation notice: Agent Builder",
+      "url": "https://community.openai.com/t/deprecation-notice-agent-builder/1382650",
+      "source": {
+        "platform": "community",
+        "author": "che.kulhan (OpenAI)",
+        "original_date": "2026-06-04"
+      },
+      "category": "agents",
+      "tags": [
+        "openai",
+        "agent-builder",
+        "agents-sdk",
+        "deprecation",
+        "visual-orchestration"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 发布 Agent Builder 弃用通知：AgentKit 发布时主打的拖拽式可视化编排画布，2026-06-03 通知弃用，11 月 30 日正式关停，从发布到宣布关停不到八个月；官方去向是代码优先的 Agents SDK 与 ChatGPT Workspace Agents，ChatKit 保留，导出不转换工作流图也不保证行为不变这是可视化编排 agent 路线的标志性收缩：第一个全力做的厂商自己撤了；同期微软合并 AutoGen 与 Semantic KernelAutoGen 进维护模式，框架共识收敛到模型循环加 MCP",
+      "summary_en": "OpenAI posted a deprecation notice for Agent Builder, the drag-and-drop visual canvas marketed at AgentKit's launch: developers were notified on June 3, 2026 that the product is deprecated and it is scheduled to shut down on November 30, 2026 - under eight months from release to deprecation notice. Existing users can continue during the transition window; the supported destinations are the code-first Agents SDK (with an export) and ChatGPT Workspace Agents, while ChatKit remains available. Third-party migration coverage notes the export does not convert the workflow graph nor guarantee unchanged behavior. The signal: visual agent orchestration's flagship proponent is retreating to code, consolidating the framework layer around model loops plus MCP.",
+      "one_liner": "可视化 agent 编排的旗舰不到八个月就撤：Agent Builder 11-30 关停去处是代码值得留下的在代码和协议里，画布留不住",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e8e21e51.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-10-31",
-  "total_entries": 2989
+  "total_entries": 2999
 }
