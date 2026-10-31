@@ -91019,8 +91019,356 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "27a55cd0",
+      "title": "Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In",
+      "url": "https://arxiv.org/abs/2610.40588",
+      "source": {
+        "platform": "arxiv",
+        "author": "Leonidas Raghav",
+        "original_date": "2026-10-29"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "multi-agent",
+        "linear-probe",
+        "overseer",
+        "collusion"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "多智能体共享通道与凭据时，一个 agent 能施压另一个 agent 违反操作者规则，这是共谋的第一步；论文在六个受控场景里让同伴最多施压 20 轮索要 deploy token 等机密，写在生成前的线性探针可提前识别目标即将妥协：Qwen3-32B 保留集上 5% 误报阈值捕获 82% 泄漏调用，零样本决策模型监视器仅 26%，gpt-oss-20b 推理探针 AUROC 0.91；词袋分类器接近同效，说明增益主要来自标签监督而非激活本身；报警窗口短，见警即停会误伤多数良性片段，事后文本检查救不回来",
+      "summary_en": "Peer pressure between AI agents that share channels and credentials can push an agent to break its operator's rule a first step toward collusion. A linear probe on the agent's activations can flag that it is about to give in before any output is written. In six controlled scenarios a peer presses a target for up to 20 rounds to leak a secret such as a deploy token; the target usually refuses, then yields. Read at each model call pre-generation, the probe catches 82% of leaking calls at a 5% benign-flag threshold on held-out Qwen3-32B episodes versus 26% for a zero-shot decision-model monitor, and reaches AUROC 0.91 on gpt-oss-20b reasoning. A bag-of-words classifier on the same calls nearly matches it: the gain is mostly label supervision, not activations. Warnings are short-range, so pre-generation alerts work best as overseer input rather than an automatic halt.",
+      "one_liner": "多智能体共享通道与凭据时，一个 agent 能施压另一个 agent 违反操作者规则，这是共谋的第一步...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/27a55cd0.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6d793b25",
+      "title": "VeriCUA: Verification as Agentic Exploration for Computer-Using Agents",
+      "url": "https://arxiv.org/abs/2610.40578",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qiushi Sun, Da Yu, Alexander Knop, Amer Sinha, Lingpeng Kong, Ben Kao, Ravi Kumar, Pritish Kamath",
+        "original_date": "2026-10-29"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use",
+        "verification",
+        "rubric",
+        "gui-agent",
+        "rl-data"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "CUA 的数据筛选评测与 RL 都依赖可靠的完成判定，但 VLM 裁判只看给定观测，生成的检查程序只覆盖可达状态，复杂桌面/移动/网页环境下都易漏掉关键证据；VeriCUA 把验证当成动态取证：先从上下文构建任务 rubric，再对未决要求选择 GUI 或代码检查，按显式证据规则合并结论，在线离线与跨平台共用一套流程；实验显示与参考标签的一致性优于基线，离线困难案例提升最大，在线更能拒绝虚假完成声明",
+      "summary_en": "VeriCUA treats task-completion verification for computer-using agents (CUA) as agentic exploration rather than a single VLM judgment. VLM judges see only supplied observations, and generated state-inspection programs depend on accessible state; both miss decisive evidence in complex desktop, mobile, and web environments. The framework first inspects available context to build a task rubric, then selects GUI or code checks for unresolved requirements and combines findings under explicit evidence rules, sharing one procedure across online and offline settings, platforms, and observation modalities. Experiments show higher agreement with reference labels than compared baselines, with the largest offline gains on hard cases and stronger rejection of false completion claims online; analyses tie the gains to complementary evidence and test-time exploration.",
+      "one_liner": "CUA 的数据筛选评测与 RL 都依赖可靠的完成判定，但 VLM 裁判只看给定观测，生成的检查程序只覆盖可达状态，复杂桌面/移动/网页环境下都易漏掉关键证据...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6d793b25.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "061a388a",
+      "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
+      "url": "https://arxiv.org/abs/2610.40613",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tom Sander, Pierre Fernandez, Itai Gat, Haiming Bao, Jiaxin Shi, Jason Park, et al.",
+        "original_date": "2026-10-29"
+      },
+      "category": "models",
+      "tags": [
+        "watermarking",
+        "speculative-decoding",
+        "gumbel-max",
+        "provenance"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM 水印在投机解码下常被破坏或失去多样性，TextSeal2 做到无失真：替换被拒草稿的 token 仍带同一密钥水印，接受率与延迟不变；TextSeal 靠掷硬币在两把密钥间路由恢复多样性，检测器只能盲平均两路分数，TextSeal2 改为把多把密钥（含公开共享密钥）合并成单一虚拟密钥，经 AutoMark 高斯 copula 耦合新鲜噪声，再用一次跑在草稿竞速尾迹上的指数竞速完成验证，无记忆性保证输出与目标模型一致；三个 LLM 上等多样性检测率提升 8-22 个百分点",
+      "summary_en": "TextSeal2 is a distortion-free LLM watermark that survives speculative decoding: tokens replacing rejected drafts stay watermarked with the same keys, acceptance rate unchanged, no measurable latency, diversity preserved. TextSeal's Gumbel-max diversity fix coin-flips between two keys, so the detector averages both scores blindly; TextSeal2 instead merges two or more keys including publicly shared ones into one virtual key coupled to fresh noise through AutoMark's Gaussian copula. Keyed drafts are verified by one extra exponential race run on the leftovers of the draft races; by memorylessness the output follows the target model exactly. On three LLMs it detects 8-22 percentage points more 100-token answers than TextSeal at a 1e-3 false-positive rate; under speculative decoding it beats TextSeal and textGrain by 18 and 22 points on 200-token answers at the same acceptance rate.",
+      "one_liner": "LLM 水印在投机解码下常被破坏或失去多样性，TextSeal2 做到无失真：替换被拒草稿的 token 仍带同一密钥水印，接受率与延迟不变.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/061a388a.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9757fdd2",
+      "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
+      "url": "https://arxiv.org/abs/2610.40627",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qiyao Ma, Xiaodong Liu, Weiwei Yang, Mingqian Feng, Chengquan Guo, Jialin Song, et al.",
+        "original_date": "2026-10-29"
+      },
+      "category": "models",
+      "tags": [
+        "safety-alignment",
+        "multi-turn",
+        "defense",
+        "reinforcement-learning"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "安全对齐集中在模型输出的前几个 token，同一有害请求拆进多轮对话仍能绕过防御；ShallowDefend 反用这一浅层性：防御者先评估用户意图，再提交显式可解析的安全决定，最后基于决定生成回复（Assess-Decide-Respond），在载荷轮用 RL 训练；决定是 token 区间，可用规则化自验证奖励核对标签，无需裁判模型或人工标注；两个模型家族14 个覆盖安全/效用/有用性的基准上取得最强受控多轮安全性且保住效用，逐 token KL 与干预探针证明该决定是因果控制点",
+      "summary_en": "Safety alignment concentrates in a model's first few output tokens, which is why the same harmful request spread across a multi-turn conversation still succeeds far too often. ShallowDefend turns this shallowness into an intervention point with Assess -> Decide -> Respond: the defender assesses user intent, commits to an explicit parseable safety decision, then generates a reply conditioned on it, trained by RL at the payload turn. The decision is a token span, so the reward can be a rule: a self-verified reward checks the committed label against the conversation's known nature no judge model, no annotation. Across two model families and fourteen benchmarks it posts the strongest controlled multi-turn safety while preserving utility at modest helpfulness cost; per-token KL analysis and interventional probes show the committed decision is a causal control point.",
+      "one_liner": "安全对齐集中在模型输出的前几个 token，同一有害请求拆进多轮对话仍能绕过防御；ShallowDefend 反用这一浅层性：防御者先评估用户意图，再提交显式可解析的安全决定，最后基于决定生成回复（Assess-Decide-Respond），在载荷轮用 RL 训练...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9757fdd2.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dd884965",
+      "title": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
+      "url": "https://arxiv.org/abs/2610.40589",
+      "source": {
+        "platform": "arxiv",
+        "author": "El Mustapha Mansouri, Eikichi Kimura, Masato Koga, Keigo Arai",
+        "original_date": "2026-10-29"
+      },
+      "category": "agents",
+      "tags": [
+        "autonomous-lab",
+        "multi-agent",
+        "self-correction",
+        "quantum-physics"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "一个由 LLM 智能体组成的自主实验室：智能体互相评审，可叫停或改向研究，从提出问题到实验验证全流程自动化，演示对象是金刚石固态量子自旋；它们推导出预测一族微波脉冲序列响应所需的最少校准设置并计算验证，当重复参考测量发现信号漂移时，把初轮阳性结果判为不确定，在不放松验收标准的前提下修订测量方案，最终达标并支持理论预测；多智能体互查与挑战性实验设计是结论不脱锚的关键机制",
+      "summary_en": "An autonomous research laboratory where LLM-based agents assess one another's work and can stop or redirect investigations, demonstrated end-to-end on quantum spins in diamond. Agents generate and reject research questions, require separate theoretical checks, and design experiments intended to challenge their own claims. They derived the minimum number of calibration settings needed to predict responses to a family of microwave pulse sequences, verified the result computationally, and designed discriminating experiments. When repeated reference measurements revealed signal drift during data collection, the agents treated the initial agreement as inconclusive and revised the measurement protocol without relaxing acceptance criteria; the revised experiment met them and supported the predictions. Multi-agent cross-checking is what keeps conclusions tethered to evidence.",
+      "one_liner": "一个由 LLM 智能体组成的自主实验室：智能体互相评审，可叫停或改向研究，从提出问题到实验验证全流程自动化，演示对象是金刚石固态量子自旋...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dd884965.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "93667901",
+      "title": "Elucidating the Design Space of LM Data Attribution",
+      "url": "https://arxiv.org/abs/2610.40655",
+      "source": {
+        "platform": "arxiv",
+        "author": "Steven Yu, Sheng-Yu Wang, Kimia Hamidieh, Antonio Torralba, David Bau",
+        "original_date": "2026-10-29"
+      },
+      "category": "learning",
+      "tags": [
+        "data-attribution",
+        "interpretability",
+        "benchmark",
+        "fact-tracing"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "数据归因评测常同时改动多个数据集性质，无法定位失败原因；CATT 基准在纯虚构知识上微调 LLM，让事实追溯有明确真值，每次只改一个配置，证实冗余与干扰项稳定劣化归因；作者不改估计器，改两个被忽视的设计：算梯度的损失与 token 分聚合为文档分的方式，训练文档内的因果证据高度局部化，整文档平均把它稀释成噪声；用负 log-odds 梯度替换交叉熵并只聚合头部 token 分，多基线真值召回提升 35-72 个百分点",
+      "summary_en": "CATT (Controlled Attribution Benchmark) isolates why LM data-attribution methods fail: models are fine-tuned on entirely fictitious knowledge so ground truth for fact tracing is unambiguous, and one dataset property redundancy, lexical distractors is varied at a time. Redundancy and distractors consistently degrade attribution. The authors skip a new estimator, fixing two design choices: the loss behind the gradients and how per-token scores aggregate into a document score. Causal evidence inside a training document is highly localized, but standard methods dilute it by averaging over the whole document. Switching cross-entropy gradients to negative log-odds gradients surfaces the critical tokens, and aggregating only top token scores lifts ground-truth recall by 35-72 points across baselines; the correction also improves counterfactual retraining on FTRACE-TREX by up to 4.9x.",
+      "one_liner": "数据归因评测常同时改动多个数据集性质，无法定位失败原因；CATT 基准在纯虚构知识上微调 LLM，让事实追溯有明确真值，每次只改一个配置，证实冗余与干扰项稳定劣化归因...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/93667901.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "382a49af",
+      "title": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder",
+      "url": "https://arxiv.org/abs/2610.40611",
+      "source": {
+        "platform": "arxiv",
+        "author": "A. J. A. Jubayer Talukder, Mohammad Ariful Haque",
+        "original_date": "2026-10-29"
+      },
+      "category": "agents",
+      "tags": [
+        "proactive-assistant",
+        "gating",
+        "hint-generation",
+        "small-lm"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "主动式助手要同时决定何时插话与建议什么；在 28,058 个决策点上联合评测门控与生成发现，分阶段管线的分数是预言机门控上限，真实门控下端到端精确匹配 0.2619（上限 0.2971）；门控换来精确度与算力节省，但 8B 生成器的 4.39 倍省算力到 1B 只剩 1.38 倍；记忆档案是提示质量主因，去掉损失 24.7 个精确匹配点，检索与更大生成器几乎无增益；单个 1B 解码器可从中间层门控，同一次前向生成，1.31-1.76 倍提速下打平或超过双模型管线",
+      "summary_en": "Proactive assistants must decide when to interject and what to suggest. Evaluating gate and generator jointly on 28,058 decision points shows stage-wise pipelines score as oracle-gate ceilings: with a real gate, end-to-end exact match is 0.2619 versus a 0.2971 ceiling and precision 0.2387. Gating pays off through precision and compute, but compute savings fall from 4.39x with an 8B generator to 1.38x with a 1B one. The memory profile drives hint quality removing it costs 24.7 exact-match points while retrieval and a larger generator add nothing on exact match. One compact 1B decoder can do both, gating from an intermediate layer and generating in the same pass, matching or beating the two-model pipelines at 1.31-1.76x less wall-clock time; a 1,144-rating human evaluation supports the memory effect.",
+      "one_liner": "主动式助手要同时决定何时插话与建议什么；在 28,058 个决策点上联合评测门控与生成发现，分阶段管线的分数是预言机门控上限，真实门控下端到端精确匹配 0.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/382a49af.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d744f1ef",
+      "title": "Multi-View MoE: Letting Every Router Shape Expert Computation",
+      "url": "https://arxiv.org/abs/2610.40577",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zelin Zhao, Tianchi Ma, Junyuan Shang, Shuohuan Wang, Dianhai Yu",
+        "original_date": "2026-10-29"
+      },
+      "category": "models",
+      "tags": [
+        "moe",
+        "expert-routing",
+        "routing",
+        "training-efficiency"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "对所有专家做稠密评估后发现单路由器打分与专家真实效用排名一致性很弱，中深层尤甚，固定激活预算下的专家选择有明显浪费；Multi-View MoE 用多个独立初始化路由器聚合 sigmoid 分数选专家（Multi-Router），再把选中专家在各路由器上的相对分数用于把学到的潜在视图混入其输入，每个专家仍只跑一次前向，激活专家数FLOPs 与 all-to-all 通信量不变；24 层 10B-A1B708B token 训练下完整方案九任务均值 +1.18 点，仅 Multi-Router +0.6 点",
+      "summary_en": "Dense evaluation of all experts reveals weak agreement between single-router rankings and actual expert utility, especially in middle and deep layers, so expert selection under a fixed active-expert budget is leaving capability unused. Multi-View MoE improves selection with multiple independently initialized routers whose sigmoid scores are aggregated (Multi-Router), then reuses each selected expert's relative scores across routers to mix learned latent views into its input one forward pass per expert, preserving active-expert count, FLOPs, and all-to-all communication volume. On a 24-layer 10B-A1B model trained on 708B tokens, full Multi-View improves the nine-task downstream mean by 1.18 points; Multi-Router alone gains 0.6 points and raises router-vs-utility rank correlation by 8.1% globally and about 58% in the worst-aligned layer.",
+      "one_liner": "对所有专家做稠密评估后发现单路由器打分与专家真实效用排名一致性很弱，中深层尤甚，固定激活预算下的专家选择有明显浪费...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d744f1ef.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bf5aaab6",
+      "title": "Official Claude Code Extension Compromise: Security Advisory",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise",
+      "source": {
+        "platform": "blog",
+        "author": "Phorion",
+        "original_date": "2026-10-30"
+      },
+      "category": "agents",
+      "tags": [
+        "supply-chain",
+        "vscode-extension",
+        "ssh-backdoor",
+        "cursor",
+        "claude-code"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Phorion 披露 Cursor Marketplace 上的官方 Claude Code for VS Code 扩展 2.1.313 被植入后门：extension.js 注入的 IIFE 在模块加载时执行，无需用户交互，写入注释为 svc-telemetry 的 Ed25519 SSH 后门公钥，带三平台持久化并回传主机侦察信息，Cursor 已下架该版本；macOS 上因未提权执行 systemsetup -getremotelogin 报错但退出码为 0，脚本误判跳过开启 SSH，未开 SSH 的 Mac 入侵路径断链，但密钥与持久化仍落地；排查按公钥指纹而非注释串",
+      "summary_en": "Phorion reports a backdoored build of the official Claude Code for VS Code extension (2.1.313) distributed via the Cursor Marketplace: an injected IIFE in extension.js runs on module load no user interaction needed installs an Ed25519 SSH backdoor (authorized_keys comment svc-telemetry) with persistence logic for macOS, Linux, and Windows, and beacons host reconnaissance. Cursor has pulled 2.1.313 from its marketplace, NPM, and the VS Code marketplace. On macOS the implant's enable-SSH step checks systemsetup -getremotelogin without root, which errors and exits 0, so the script skips enablement on hosts without SSH already running keys and persistence still land. Hunters should match key fingerprints, not the comment string. Extensions run with IDE and user permissions, giving immediate access to source code and developer tooling.",
+      "one_liner": "Phorion 披露 Cursor Marketplace 上的官方 Claude Code for VS Code 扩展 2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/bf5aaab6.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "58bdc6b4",
+      "title": "nesformer: An NES CPU compiled into the weights of a stock Qwen3.5 model",
+      "url": "https://github.com/dbreunig/nesformer",
+      "source": {
+        "platform": "github",
+        "author": "dbreunig (GitHub)",
+        "original_date": "2026-10-30"
+      },
+      "category": "models",
+      "tags": [
+        "weights-as-computation",
+        "compiler",
+        "gated-deltanet",
+        "nes",
+        "qwen"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "nesformer 把 NES 的 6502 CPU，2KB 工作内存与卡带 ROM 编译进原版 Qwen3.5 模型权重：权重未经训练，全部由编译器算出，沿用 Qwenputer 编译器与其核心技巧，即把 Gated DeltaNet 状态当作机器内存；运行时模型逐 token 预测 CPU 执行日志，宿主小程序负责画图/读手柄/触发 vblank 中断；捆绑测试游戏每一帧都与传统 6502 模拟器逐帧一致，含超级马里奥 1-1；承接 CHIP-8 与 RISC-V 的 Qwenputer 路线，展示未训练权重可承载确定性复杂行为",
+      "summary_en": "nesformer compiles an NES its 6502 CPU, 2KB of work RAM, and cartridge program ROM into the weights of a stock Qwen3.5 model (Qwen3_5ForCausalLM). Nobody trained these weights; a compiler computed every one, reusing Qwenputer's compiler and its central trick: the model's Gated DeltaNet state is the machine's memory. At play time the model predicts the CPU's execution log one token at a time while a small host program plays the rest of the console draws the picture, reads the controller, fires the vblank interrupt. In bundled test runs every CPU token comes from the model and every frame matches a conventional 6502 emulator exactly, including Super Mario Bros. World 1-1. A striking data point for what deterministic behavior can be baked into untrained LLM weights, extending the CHIP-8 and RISC-V Qwenputer line.",
+      "one_liner": "nesformer 把 NES 的 6502 CPU，2KB 工作内存与卡带 ROM 编译进原版 Qwen3.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/58bdc6b4.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "44e3e5f1"
+      ]
+    },
+    {
+      "id": "39397b70",
+      "title": "Breaking the Open Web Won't Stop the Bad Bots",
+      "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots",
+      "source": {
+        "platform": "blog",
+        "author": "Lila Bailey, Tess Vartanian",
+        "original_date": "2026-10-27"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-crawlers",
+        "policy",
+        "scraping",
+        "stealth-bot-prohibition-act",
+        "journalism"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "300 多家媒体代表在国会推动隐身机器人禁令法案，回应 AI 开发商爬虫激增，抓走内容又吸走流量的真实痛点；文章立场：滥用抓取确实需要真解法，但该法案强制所有自动访问自报身份，打击面直指调查报道/档案保存/安全研究依赖的自动化采集，普利策奖级 WSJ 报道正靠抓取 1.2 万官员的 3.1 万份财务披露完成；强制实名化挡不住真正的恶意运营者，却先伤害公共利益方，把坏机器人问题简化为身份问题会破坏开放网络",
+      "summary_en": "Tech Policy Press argument on the Stealth Bot Prohibition Act: more than 300 media representatives lobbied on Capitol Hill, responding to a real surge of AI-developer crawlers that extract content and starve sites of referral traffic. But the bill targets identification rather than the actual harms of abusive crawling, and threatens the automated data collection that investigative journalism, preservation, and security research rely on exemplified by the Pulitzer-winning WSJ analysis of 31,000 financial disclosures from 12,000 officials, which depended on scraping. The piece argues aggressive large-scale scraping is a real problem deserving real solutions, but blanket mandatory identification of every automated access would hamper legitimate public-interest work more than it stops the bad bots it names.",
+      "one_liner": "300 多家媒体代表在国会推动隐身机器人禁令法案，回应 AI 开发商爬虫激增，抓走内容又吸走流量的真实痛点；文章立场：滥用抓取确实需要真解法，但该法案强制所有自动访问自报身份，打击面直指调查报道/档案保存/安全研究依赖的自动化采集，普利策奖级 WSJ 报道正靠抓取 1.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/39397b70.md",
+      "images": [],
+      "added_date": "2026-10-31",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-10-30",
-  "total_entries": 2978
+  "last_updated": "2026-10-31",
+  "total_entries": 2989
 }
