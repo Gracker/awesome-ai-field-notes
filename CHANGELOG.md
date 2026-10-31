@@ -1,5 +1,227 @@
 # Changelog
 
+## 2026-10-25 ~ 2026-10-31
+
+> 基线快照: `b8c048e:data/entries.json`（上次 changelog 后，2883 条）→ 本次: 2999 条（**+116**）
+> 生成时间: 2026-11-01 04:34 CST；差分按 git 基线 `b8c048e` 与当前 `entries.json` ID 集合交叉校验。本周为增量+清理周：116 条新增（93 条 ⭐≥4），49 条归档（weekly dedup 2026-10-26 影子副本/同文对 48 条 + community-review 2026-10-28 同 canonical 对 1 条），0 条移除，评分调整 0 次，分类变更 0 次；active 2235 → 2302 (+67)。
+
+### 新增 (116)
+
+**高质量新增 (⭐≥4, 93 条)**
+
+**⭐⭐⭐⭐⭐ (5 条)**
+
+- [Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In](https://arxiv.org/abs/2610.40588) — agents ⭐⭐⭐⭐⭐ (2026-10-31)
+- [Official Claude Code Extension Compromise: Security Advisory](https://phorion.io/blog/offical-claude-code-vsx-compromise) — agents ⭐⭐⭐⭐⭐ (2026-10-31)
+- [How I work with Agents](https://x.com/thorstenball/status/2114386050638336082) — agents ⭐⭐⭐⭐⭐ (2026-10-31)
+- [Black October for AI Developer Platforms](https://www.wiz.io/blog/black-october-for-ai-developer-platforms) — industry ⭐⭐⭐⭐⭐ (2026-10-31)
+- [Concerning behavior from a popular open-weight AI model](https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model) — agents ⭐⭐⭐⭐⭐ (2026-10-27)
+
+**⭐⭐⭐⭐ (88 条，按日期排序)**
+
+- [nesformer: An NES CPU compiled into the weights of a stock Qwen3.5 model](https://github.com/dbreunig/nesformer) — models ⭐⭐⭐⭐ (2026-10-31)
+- [VeriCUA: Verification as Agentic Exploration for Computer-Using Agents](https://arxiv.org/abs/2610.40578) — agents ⭐⭐⭐⭐ (2026-10-31)
+- [TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races](https://arxiv.org/abs/2610.40613) — models ⭐⭐⭐⭐ (2026-10-31)
+- [ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender](https://arxiv.org/abs/2610.40627) — models ⭐⭐⭐⭐ (2026-10-31)
+- [Rimuru: Unified Memory Management for Modern LLM Serving via Elastic Expert Offloading](https://arxiv.org/abs/2610.40305) — infra ⭐⭐⭐⭐ (2026-10-31)
+- [Multi-View MoE: Letting Every Router Shape Expert Computation](https://arxiv.org/abs/2610.40577) — models ⭐⭐⭐⭐ (2026-10-31)
+- [JANUS: Agentic Cross-Language Fuzzing Harness Generation for Android Native Libraries](https://arxiv.org/abs/2610.30218) — agents ⭐⭐⭐⭐ (2026-10-31)
+- [Hiding Tool Latency in On-Device Cascaded Voice Agent through Speculative Execution](https://arxiv.org/abs/2610.07641) — agents ⭐⭐⭐⭐ (2026-10-31)
+- [Elucidating the Design Space of LM Data Attribution](https://arxiv.org/abs/2610.40655) — learning ⭐⭐⭐⭐ (2026-10-31)
+- [Deprecation notice: Agent Builder](https://community.openai.com/t/deprecation-notice-agent-builder/1382650) — agents ⭐⭐⭐⭐ (2026-10-31)
+- [Collaborative AI agents for autonomous experimental research with solid-state quantum spins](https://arxiv.org/abs/2610.40589) — agents ⭐⭐⭐⭐ (2026-10-31)
+- [Breaking the Open Web Won't Stop the Bad Bots](https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots) — industry ⭐⭐⭐⭐ (2026-10-31)
+- [Agentic and Flexible: A next era of Android development](https://developer.android.com/blog/posts/build-it-your-way-a-next-era-of-android-development) — coding ⭐⭐⭐⭐ (2026-10-31)
+- [Reuse, Rewrite, or Reject: Evidence-Constrained Trace Reuse for Repeated Mobile GUI Control](https://arxiv.org/abs/2610.31712) — agents ⭐⭐⭐⭐ (2026-10-30)
+- [Rare, Relevant, and Still Wrong: How Memory Fails LLM Group Decisions](https://arxiv.org/abs/2610.37624) — agents ⭐⭐⭐⭐ (2026-10-30)
+- [Qwenputer: a fully functioning, deterministic RISC-V CPU inside Qwen 3.5's weights](https://divagr.com/blog/qwenputer) — models ⭐⭐⭐⭐ (2026-10-30)
+- [Modeling Distinct Human Interaction in Web Agents](https://arxiv.org/abs/2602.17588) — agents ⭐⭐⭐⭐ (2026-10-30)
+- [Mistral Large 4 (Le Chonk) is now open weight](https://mistral.ai/news/mistral-large-4-oss) — models ⭐⭐⭐⭐ (2026-10-30)
+- [Metacognitive Decoding: Efficient Inference for Diffusion Language Agents](https://arxiv.org/abs/2610.37642) — models ⭐⭐⭐⭐ (2026-10-30)
+- [Making agents fast - what I've learnt over the last 12 months](https://martinalderson.com/posts/making-agents-fast) — agents ⭐⭐⭐⭐ (2026-10-30)
+- [Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness](https://arxiv.org/abs/2610.37657) — agents ⭐⭐⭐⭐ (2026-10-30)
+- [GUIFlow: Temporal Redundancy-Aware Incremental Inference for GUI Agents](https://arxiv.org/abs/2610.34959) — agents ⭐⭐⭐⭐ (2026-10-30)
+- [GUI-JEPA: Candidate-Conditioned JEPA Latents as a Fast Action Policy for Mobile GUI Agents](https://arxiv.org/abs/2610.36877) — agents ⭐⭐⭐⭐ (2026-10-30)
+- [GEPA-Curator: Curated Learning for Self Improving Agents](https://arxiv.org/abs/2610.37651) — agents ⭐⭐⭐⭐ (2026-10-30)
+- [From Interaction to Capability: Task Advancement as State and Supervision for GUI Agents](https://arxiv.org/abs/2610.37482) — agents ⭐⭐⭐⭐ (2026-10-30)
+- [Exit Liquidity](https://www.wheresyoured.at/exit-liquidity) — industry ⭐⭐⭐⭐ (2026-10-30)
+- [EnvSched: Environment-Aware Scheduling for Rollout-Efficient Agent Reinforcement Learning](https://arxiv.org/abs/2610.37609) — infra ⭐⭐⭐⭐ (2026-10-30)
+- [Elegance and intelligence are anticorrelated](https://seangoedecke.com/elegance-and-intelligence-are-anticorrelated) — learning ⭐⭐⭐⭐ (2026-10-30)
+- [EdgePace: Deadline- and Freshness-Aware LLM Scheduling on Unified-Memory Platforms](https://arxiv.org/abs/2610.37307) — infra ⭐⭐⭐⭐ (2026-10-30)
+- [Custom Voices With Qwen3-TTS](https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices) — models ⭐⭐⭐⭐ (2026-10-30)
+- [Building a multiplayer game world with autonomous Fable-class models](https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world) — agents ⭐⭐⭐⭐ (2026-10-30)
+- [Build or Adopt? Custom-Built vs. General-Purpose LLM Agent Harnesses for Automotive GUI Testing](https://arxiv.org/abs/2610.33636) — agents ⭐⭐⭐⭐ (2026-10-30)
+- [You can just ask AI to do things](https://seangoedecke.com/you-can-just-ask-ai-to-do-things) — agents ⭐⭐⭐⭐ (2026-10-29)
+- [The October inflection point for vibe game development](https://simonwillison.net/2026/Oct/28/vibe-game-development) — coding ⭐⭐⭐⭐ (2026-10-29)
+- [The Exponential Time Hypothesis is False](https://www.johndcook.com/blog/2026/10/27/eth-false) — models ⭐⭐⭐⭐ (2026-10-29)
+- [Scattered thoughts on how doing math feels these days](https://dynomight.net/math) — learning ⭐⭐⭐⭐ (2026-10-29)
+- [Pluralistic: Agents vs ecommerce](https://pluralistic.net/2026/10/28/principle-agent-problem) — agents ⭐⭐⭐⭐ (2026-10-29)
+- [Getting good at AI takes time and practice](https://seangoedecke.com/getting-good-at-ai-takes-time-and-practice) — learning ⭐⭐⭐⭐ (2026-10-29)
+- [VAST-Bench: Verifiable, Valid, and Versatile Safety Evaluation for Coding Agents](https://arxiv.org/abs/2610.35188) — coding ⭐⭐⭐⭐ (2026-10-28)
+- [The Hidden Costs of Forgetting: A Study of Trajectory Deletion in Software Engineering Agents](https://arxiv.org/abs/2610.35496) — agents ⭐⭐⭐⭐ (2026-10-28)
+- [Sleep-time Compute: Beyond Inference Scaling at Test-time](https://arxiv.org/abs/2504.13171) — agents ⭐⭐⭐⭐ (2026-10-28)
+- [SEMA-Auto: Sighted and Efficient Multi-Turn Attack with Autonomy](https://arxiv.org/abs/2610.35743) — models ⭐⭐⭐⭐ (2026-10-28)
+- [Ring-0 by Default: Agents as Operating Systems (AaOS)](https://arxiv.org/abs/2610.33753) — agents ⭐⭐⭐⭐ (2026-10-28)
+- [Quantifying Claim Smoothing by LLM Research Agents](https://arxiv.org/abs/2610.35793) — agents ⭐⭐⭐⭐ (2026-10-28)
+- [Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy](https://arxiv.org/abs/2610.35832) — agents ⭐⭐⭐⭐ (2026-10-28)
+- [MemCalib: Benchmarking and Optimizing Memory Use in LLM Agents](https://arxiv.org/abs/2609.24259) — agents ⭐⭐⭐⭐ (2026-10-28)
+- [Let Them Sleep: Recursive Self-Pruning Memory for Long-Horizon LLM Agents](https://arxiv.org/abs/2610.25561) — agents ⭐⭐⭐⭐ (2026-10-28)
+- [I-HITL: Inalienable Human-in-the-Loop](https://arxiv.org/abs/2610.35835) — agents ⭐⭐⭐⭐ (2026-10-28)
+- [How Do Coding-Agent Harnesses Self-Evolve? An Empirical Study of Retrospective Adaptation](https://arxiv.org/abs/2610.34938) — coding ⭐⭐⭐⭐ (2026-10-28)
+- [Genie 4: A new generation of world simulation](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation) — models ⭐⭐⭐⭐ (2026-10-28)
+- [Free to Look, Free to Reason: Simple LLM Harnesses Outdiagnose Hand-Crafted Root Cause Analysis Agents](https://arxiv.org/abs/2610.35767) — agents ⭐⭐⭐⭐ (2026-10-28)
+- [FeatureLoop: Benchmarking Coding Agents under Evolving Requirements](https://arxiv.org/abs/2610.35488) — coding ⭐⭐⭐⭐ (2026-10-28)
+- [EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective](https://arxiv.org/abs/2605.18421) — agents ⭐⭐⭐⭐ (2026-10-28)
+- [Early progress on accelerating drug development with Claude](https://www.anthropic.com/research/early-progress-drug-development) — industry ⭐⭐⭐⭐ (2026-10-28)
+- [Chart the Invisible: Interactive Perception for Hidden-Target Exploration in GUI Agents](https://arxiv.org/abs/2610.35237) — agents ⭐⭐⭐⭐ (2026-10-28)
+- [Auto-Dreamer: Learning Offline Memory Consolidation for Language Agents](https://arxiv.org/abs/2605.20616) — agents ⭐⭐⭐⭐ (2026-10-28)
+- [AgentMemBench: A Systematic Benchmark for Evaluating Long-Term Memory Management Strategies in Conversational AI Agents](https://arxiv.org/abs/2608.00009) — agents ⭐⭐⭐⭐ (2026-10-28)
+- [用 ASD-STE100 重写 AI 生成的交接文档（@Alinsees 推文 + 评论区）](https://x.com/Alinsees/status/2113489592439681204) — coding ⭐⭐⭐⭐ (2026-10-27)
+- [When Agents Fail: Model or Harness--Who's to Blame?](https://arxiv.org/abs/2610.32483) — agents ⭐⭐⭐⭐ (2026-10-27)
+- [We should be more ambitious with the software we build](https://danluu.com/ambitious) — coding ⭐⭐⭐⭐ (2026-10-27)
+- [Tool-Calling LLM Agents Under Realistic MCP Faults: Scale Does Not Purchase Fault Tolerance](https://arxiv.org/abs/2610.32555) — agents ⭐⭐⭐⭐ (2026-10-27)
+- [StateMirror: Pre-Execution Detection of Hallucinated Tool Calls in Coding Agents](https://arxiv.org/abs/2610.32648) — agents ⭐⭐⭐⭐ (2026-10-27)
+- [NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding](https://arxiv.org/abs/2610.32881) — infra ⭐⭐⭐⭐ (2026-10-27)
+- [Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms](https://arxiv.org/abs/2610.32945) — industry ⭐⭐⭐⭐ (2026-10-27)
+- [Loud Failures, Quiet Failures: Fault Detection and Recovery in Tool-Using Language Model Agents](https://arxiv.org/abs/2610.10062) — agents ⭐⭐⭐⭐ (2026-10-27)
+- [Looking Is Not Picking: An Attention-Segment Account of Tool-Selection Failures in LLM Agents](https://arxiv.org/abs/2606.16364) — agents ⭐⭐⭐⭐ (2026-10-27)
+- [Introducing GPT-6.1 Terra](https://openai.com/index/introducing-gpt-6-1-terra) — models ⭐⭐⭐⭐ (2026-10-27)
+- [IBM CEO says open weight models are now irresistibly good and cheap on-prem](https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640) — infra ⭐⭐⭐⭐ (2026-10-27)
+- [How we deploy Trillion-parameter frontier models on Cerebras](https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras) — infra ⭐⭐⭐⭐ (2026-10-27)
+- [Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations](https://arxiv.org/abs/2610.32891) — coding ⭐⭐⭐⭐ (2026-10-27)
+- [From Faulty Claims to Incorrect Patches: An Empirical Study of Task-Grounded Reasoning in Coding Agents](https://arxiv.org/abs/2610.32338) — agents ⭐⭐⭐⭐ (2026-10-27)
+- [Building Reasoning Models from the Ground Up: A Full Video Course](https://magazine.sebastianraschka.com/p/building-reasoning-models) — learning ⭐⭐⭐⭐ (2026-10-27)
+- [Anthropic, PBC Form S-1 Registration Statement (Nasdaq: ANT)](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm) — industry ⭐⭐⭐⭐ (2026-10-27)
+- [AI and the Fall? of the Creative Class](https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class) — industry ⭐⭐⭐⭐ (2026-10-27)
+- [Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration](https://arxiv.org/abs/2610.31579) — models ⭐⭐⭐⭐ (2026-10-26)
+- [VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act](https://arxiv.org/abs/2610.31588) — industry ⭐⭐⭐⭐ (2026-10-26)
+- [The State of Context Engineering](https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html) — agents ⭐⭐⭐⭐ (2026-10-26)
+- [Simulated Control Evals](https://arxiv.org/abs/2610.31593) — agents ⭐⭐⭐⭐ (2026-10-26)
+- [OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?](https://minimaxir.com/2026/10/cheap-llms) — industry ⭐⭐⭐⭐ (2026-10-26)
+- [How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions](https://arxiv.org/abs/2610.31606) — models ⭐⭐⭐⭐ (2026-10-26)
+- [From Prompt Rules to Golden Data Model: Production-Scale Generation of Personalized, Compliant Pharmaceutical Claims](https://arxiv.org/abs/2610.31519) — industry ⭐⭐⭐⭐ (2026-10-26)
+- [Cost-Aware Abstention for LLM-Based IT Ticket Classification](https://arxiv.org/abs/2610.31657) — models ⭐⭐⭐⭐ (2026-10-26)
+- [Contestable Agents for Data Governance: Recording Human Stewardship of AI-Generated Metadata Across Structured and Unstructured Systems](https://arxiv.org/abs/2610.31553) — agents ⭐⭐⭐⭐ (2026-10-26)
+- [A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis](https://lynchlab.net/llm-skin-cancer) — models ⭐⭐⭐⭐ (2026-10-26)
+- [Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3](https://arxiv.org/abs/2610.31624) — models ⭐⭐⭐⭐ (2026-10-25)
+- [Direct Pass@k Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning](https://arxiv.org/abs/2610.31667) — models ⭐⭐⭐⭐ (2026-10-25)
+- [Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2](https://arxiv.org/abs/2610.31636) — agents ⭐⭐⭐⭐ (2026-10-25)
+- [Brotli CVE-2026-111497（Node2ShellHTTP2Shell）：CVSS 9.2 越界写，PyPI 包自动解码即暴露](https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497) — infra ⭐⭐⭐⭐ (2026-10-25)
+
+**普通新增 (⭐<4, 23 条)**
+
+- [中文圈把 Thorsten BallHow I work with Agents提炼成 15 条图后的讨论](https://x.com/YuLin807/status/2114643578266005516) — agents ⭐⭐⭐ (2026-10-31)
+- [When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder](https://arxiv.org/abs/2610.40611) — agents ⭐⭐⭐ (2026-10-31)
+- [Mika: An on-device AI agent for Android that operates apps and the web](https://github.com/wangzan101/Mika) — agents ⭐⭐⭐ (2026-10-31)
+- [Anthropic renames Max 20x to Ultra: 5-hour window dropped for weekly quota](https://www.anthropic.com/pricing) — industry ⭐⭐⭐ (2026-10-31)
+- [iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents](https://arxiv.org/abs/2610.34735) — agents ⭐⭐⭐ (2026-10-30)
+- [StreamSE: Neural Audio Codec-based Streaming Speech Enhancement for On-device Inference](https://arxiv.org/abs/2610.37024) — models ⭐⭐⭐ (2026-10-30)
+- [MoI-Bench: A Benchmark for Image Generation and Editing on Mobile Devices](https://arxiv.org/abs/2610.37599) — models ⭐⭐⭐ (2026-10-30)
+- [Fake it 'til you make it (and then keep faking it)](https://www.experimental-history.com/p/fake-it-til-you-make-it-and-then) — learning ⭐⭐⭐ (2026-10-30)
+- [Siri AI is available in more languages starting today](https://nr.apple.com/Du9G9W8Nq1) — industry ⭐⭐⭐ (2026-10-29)
+- [GitHub Octoverse 2026](https://simonwillison.net/2026/Oct/28/github-octoverse-2026) — industry ⭐⭐⭐ (2026-10-29)
+- [Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models](https://arxiv.org/abs/2610.35829) — coding ⭐⭐⭐ (2026-10-28)
+- [GEAR: Feature-Based Configuration and Code Generation for Agentic Systems](https://arxiv.org/abs/2610.35592) — coding ⭐⭐⭐ (2026-10-28)
+- [EvoRouter: Cost-Efficient Multi-Agent Routing via Insight-Guided On-Policy Distillation](https://arxiv.org/abs/2610.35690) — infra ⭐⭐⭐ (2026-10-28)
+- [The Goose Programming Language](https://aardappel.github.io/goose) — coding ⭐⭐⭐ (2026-10-27)
+- [SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning](https://arxiv.org/abs/2610.32978) — agents ⭐⭐⭐ (2026-10-27)
+- [Perfetto v59.1](https://github.com/google/perfetto/releases/tag/v59.1) — infra ⭐⭐⭐ (2026-10-27)
+- [Will Generative AI do more harm than good?](https://garymarcus.substack.com/p/will-generative-ai-do-more-harm-than) — industry ⭐⭐⭐ (2026-10-26)
+- [Interesting systemd features you may not know about](https://martinalderson.com/posts/interesting-systemd-features) — infra ⭐⭐⭐ (2026-10-26)
+- [Elon Musk Just Gave Europe a Reason to Replace American Technology](https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call) — industry ⭐⭐⭐ (2026-10-26)
+- [A rising tide raises all rents](https://jyn.dev/rising-tide-raises-rents) — industry ⭐⭐⭐ (2026-10-26)
+- Hermes 定时任务一周执行复盘：1001 次运行 89 次失败，故障集中在两个惯犯 — agents ⭐⭐⭐ (2026-10-25)
+- [Diffusion Language Models for Perplexity-Aware Black-Box Attacks](https://arxiv.org/abs/2610.31558) — models ⭐⭐⭐ (2026-10-25)
+- [DeepSeek-V4.1-Flash-1017 八天采用读数：HF 下载 7.3 万点赞 2.8 倍，11-01 起 Search/Fetch 计费](https://api-docs.deepseek.com/quick_start/pricing) — industry ⭐⭐⭐ (2026-10-25)
+
+### 归档 (49)
+
+本周期归档 49 条：weekly-maintain-dedup 2026-10-26 归档 48 条（46 条跨语言影子副本 + 1 条同文短链对 + 1 条爬取伪影URL修复对，均与保留条目双向 related）；community-review 2026-10-28 归档 1 条同 canonical URL 对。
+
+- AI Fast Track: 5天邮件课程从入门到实战 — 跨语言影子副本归档（保留活跃副本 a09cdbbd；weekly dedup 2026-10-26）
+- AI Fast Track免费5天课程 - 从基础到构建个人AI工具 — 跨语言影子副本归档（保留活跃副本 a09cdbbd；weekly dedup 2026-10-26）
+- AI Fast Track：5天免费课，从Prompt使用者到AI builder — 跨语言影子副本归档（保留活跃副本 a09cdbbd；weekly dedup 2026-10-26）
+- AI Prompting for Everyone — 跨语言影子副本归档（保留活跃副本 digest_2026-06-16_01；weekly dedup 2026-10-26）
+- AI提示词工程：2026年全新课程 — 跨语言影子副本归档（保留活跃副本 digest_2026-06-16_01；weekly dedup 2026-10-26）
+- Allie K. Miller 推出免费 5 天 AI 入门课程：超越 ChatGPT 提示词复制 — 跨语言影子副本归档（保留活跃副本 a09cdbbd；weekly dedup 2026-10-26）
+- Allie K. Miller 推出免费 5 天课程：AI Fast Track — 跨语言影子副本归档（保留活跃副本 a09cdbbd；weekly dedup 2026-10-26）
+- Allie K. Miller：免费 5 天课程，从用 AI升级到构建 AI — 跨语言影子副本归档（保留活跃副本 a09cdbbd；weekly dedup 2026-10-26）
+- Allie K. Miller：免费 5 日课带你从用 AI 进阶到用 AI 搭建 — 跨语言影子副本归档（保留活跃副本 a09cdbbd；weekly dedup 2026-10-26）
+- Allie Miller 推出免费 5 天课程：从 AI 用户进化为 AI 建造者 — 跨语言影子副本归档（保留活跃副本 a09cdbbd；weekly dedup 2026-10-26）
+- Allie Miller: 用 AI 与构建 AI 产品的区别 — 跨语言影子副本归档（保留活跃副本 a09cdbbd；weekly dedup 2026-10-26）
+- Allie Miller：免费5天课程，从用AI升级到构建AI产品 — 跨语言影子副本归档（保留活跃副本 a09cdbbd；weekly dedup 2026-10-26）
+- Andrej Karpathy：Farzapedia用LLM把个人数据变成个人维基 — 跨语言影子副本归档（保留活跃副本 62057772；weekly dedup 2026-10-26）
+- Andrew Ng: Coding Agents 加速软件工作的程度差异 — 跨语言影子副本归档（保留活跃副本 b7e2m384；weekly dedup 2026-10-26）
+- Andrew Ng新课：AI Prompting for Everyone — 跨语言影子副本归档（保留活跃副本 digest_2026-06-16_01；weekly dedup 2026-10-26）
+- Anthropic 关于亚记忆学习的联合研究发布 — 跨语言影子副本归档（保留活跃副本 cca27327；weekly dedup 2026-10-26）
+- Anthropic 发布 Claude Opus 4.7，性能如何？ — 跨语言影子副本归档（保留活跃副本 claude_opus_47_mythos_2026_001；weekly dedup 2026-10-26）
+- Anthropic 开源对齐工具 Petri 捐赠给 Meridian Labs，继续独立发展 — 跨语言影子副本归档（保留活跃副本 65f18ea8；weekly dedup 2026-10-26）
+- Anthropic 等 Nature 论文：LLM 可通过无关数据传递隐藏偏好 — 跨语言影子副本归档（保留活跃副本 cca27327；weekly dedup 2026-10-26）
+- AutoGen: A programming framework for agentic AI — 跨语言影子副本归档（保留活跃副本 3ad225aa；weekly dedup 2026-10-26）
+- Automated Alignment Researchers — 跨语言影子副本归档（保留活跃副本 60d9c4aa；weekly dedup 2026-10-26）
+- [Claude刚登顶，OpenAI就放出24小时不休息的编程AI，谁才是最强？](https://mp.weixin.qq.com/s/s31XsURGnSgpEK_RPnYB5g) — 同文短链重复归档（保留完整URL副本 wlxsv45l；weekly dedup 2026-10-26）
+- Farzapedia：用 LLM 把个人笔记变成可浏览的私人百科全书 — 跨语言影子副本归档（保留活跃副本 62057772；weekly dedup 2026-10-26）
+- Farzapedia：用 LLM 把日记笔记变成个人维基的完整工作流 — 跨语言影子副本归档（保留活跃副本 62057772；weekly dedup 2026-10-26）
+- Farzapedia：用日记+笔记打造个人 AI 维基 — 跨语言影子副本归档（保留活跃副本 62057772；weekly dedup 2026-10-26）
+- Farzapedia：用日记+笔记训练个人 Wikipedia，LLM 个性化的最佳实践 — 跨语言影子副本归档（保留活跃副本 62057772；weekly dedup 2026-10-26）
+- GPT-5.5 + GPT-Image-2 组合：开发者用它做应用获得了极大乐趣 — 跨语言影子副本归档（保留活跃副本 3a6ca5b0；weekly dedup 2026-10-26）
+- GPT-5.5 官方提示词指南核心要点 — 跨语言影子副本归档（保留活跃副本 jnaqutdjulvp1t2swszqd；weekly dedup 2026-10-26）
+- Gemini 3 Flash is now available in Gemini CLI — 跨语言影子副本归档（保留活跃副本 gemini_3_flash_cli_2026_001；weekly dedup 2026-10-26）
+- Gemini 3.1 Flash TTS - 最新的文本转语音模型 — 跨语言影子副本归档（保留活跃副本 kc757q9l；weekly dedup 2026-10-26）
+- Gemini 3.1 Flash TTS 登陆 Google Vids，支持一键脚本转专业旁白 — 跨语言影子副本归档（保留活跃副本 b37b2087；weekly dedup 2026-10-26）
+- Gemini 3.1 Flash TTS：支持自然语言音频标签控制的语音合成 API — 跨语言影子副本归档（保留活跃副本 kc757q9l；weekly dedup 2026-10-26）
+- Gemini 3.1 Flash TTS：最强表现力语音合成模型，70语言覆盖 — 跨语言影子副本归档（保留活跃副本 b37b2087；weekly dedup 2026-10-26）
+- Gemini 3.1 Flash TTS：用自然语言精准控制语音风格 — 跨语言影子副本归档（保留活跃副本 kc757q9l；weekly dedup 2026-10-26）
+- Gemini 视觉推理能力升级：图表生成图像理解边界框绘制 — 跨语言影子副本归档（保留活跃副本 5sbgmacr；weekly dedup 2026-10-26）
+- Geoffrey Hinton 推荐国际 AI 安全报告 2026：AI 风险领域最全面的循证评估 — 跨语言影子副本归档（保留活跃副本 bengiaf07；weekly dedup 2026-10-26）
+- Google DeepMind：Gemini 3.1 Flash TTS用自然语言控制语音风格 — 跨语言影子副本归档（保留活跃副本 kc757q9l；weekly dedup 2026-10-26）
+- Google Gemini Embedding 2 多模态嵌入模型 — 跨语言影子副本归档（保留活跃副本 ivt6f9u6；weekly dedup 2026-10-26）
+- Google官方解释Gemini Embedding 2：多模态嵌入是什么 — 跨语言影子副本归档（保留活跃副本 ivt6f9u6；weekly dedup 2026-10-26）
+- LangGraph: Build resilient language agents as graphs — 跨语言影子副本归档（保留活跃副本 096adf05；weekly dedup 2026-10-26）
+- MiniMax M2.7 开源模型发布 — 跨语言影子副本归档（保留活跃副本 kzfvoq4f；weekly dedup 2026-10-26）
+- [MiniMax M2.7 正式开源：代码编辑 SOTA，权重已上线 Hugging Face](https://x.com/MiniMax_AI/status/2043132047397659000) — 爬取伪影URL修复后与同文条目重复，归档（保留 kzfvoq4f；weekly dedup 2026-10-26）
+- This is a great report that provides a thoughtful analysis of AI risks — 跨语言影子副本归档（保留活跃副本 bengiaf07；weekly dedup 2026-10-26）
+- What 81,000 People Want from AI — 跨语言影子副本归档（保留活跃副本 7e5d8972；weekly dedup 2026-10-26）
+- 双语Allie Miller 推出免费 5 日 AI 课程：从使用 AI到用 AI 构建 — 跨语言影子副本归档（保留活跃副本 a09cdbbd；weekly dedup 2026-10-26）
+- 正式开源 open claude design 🚀 超 95% 以上的还原度！ — 跨语言影子副本归档（保留活跃副本 05v1ff6t；weekly dedup 2026-10-26）
+- 自动对齐研究员：使用大语言模型扩展可扩展监督 — 跨语言影子副本归档（保留活跃副本 60d9c4aa；weekly dedup 2026-10-26）
+- 自然语言自编码器：将 Claude 的思维转化为文字 — 跨语言影子副本归档（保留活跃副本 natural-language-autoencoders；weekly dedup 2026-10-26）
+- [Why are AI agents lying, cheating and coordinating?](https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating) — 同canonical URL重复归档（保留规范副本 d74a7da1；community-review 2026-10-28）
+
+### 评分调整 (0)
+
+- 无（本周 0 次评分调整）。
+
+### 分类变更 (0)
+
+- 无（本周 0 次分类变更）。
+
+### 分类变更分布
+
+| 分类 | 新增 | 高质量新增 |
+|---|---:|---:|
+| agents | +51 | 45 |
+| models | +21 | 18 |
+| industry | +17 | 10 |
+| coding | +11 | 8 |
+| infra | +10 | 7 |
+| learning | +6 | 5 |
+
+### 本周重点
+
+- [Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In](https://arxiv.org/abs/2610.40588) — agents ⭐⭐⭐⭐⭐ (2026-10-31)
+- [Official Claude Code Extension Compromise: Security Advisory](https://phorion.io/blog/offical-claude-code-vsx-compromise) — agents ⭐⭐⭐⭐⭐ (2026-10-31)
+- [How I work with Agents](https://x.com/thorstenball/status/2114386050638336082) — agents ⭐⭐⭐⭐⭐ (2026-10-31)
+- [Black October for AI Developer Platforms](https://www.wiz.io/blog/black-october-for-ai-developer-platforms) — industry ⭐⭐⭐⭐⭐ (2026-10-31)
+- [Concerning behavior from a popular open-weight AI model](https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model) — agents ⭐⭐⭐⭐⭐ (2026-10-27)
+
+### 统计
+
+- 总条目: 2883 → 2999 (**+116**)
+- 活跃条目: 2235 → 2302 (**+67**)：新增 116 active，归档 49
+- 新增条目: 116；高质量新增: 93；普通新增: 23
+- 归档条目: 49；评分调整: 0；分类变更: 0
+
 ## 2026-10-18 ~ 2026-10-24
 
 > 基线快照: `440a9ef:data/entries.json`（上次 changelog 后，2766 条）→ 本次: 2883 条（**+117**）
@@ -1923,139 +2145,3 @@
 - 新增条目: 105；高质量新增: 91；普通新增: 14
 - 归档条目: 2（score-pending 垃圾重复）；评分调整: 0；分类变更: 0
 
-## 2026-08-03 ~ 2026-08-09
-
-> 基线快照: `9097348:data/entries.json`（上次 changelog 后，1633 条）→ 本次: 1715 条（**+82**）
-> 生成时间: 2026-08-09 04:30 CST；差分按 git 基线与当前 `entries.json` ID 集合交叉校验。
-
-### 📈 新增 (82)
-
-**🆕 高质量新增 (⭐≥4, 81 条)**
-
-- [The Coming Loop: coding agent 之上的 harness 循环](https://lucumr.pocoo.org/2026/6/23/the-coming-loop) — agents ⭐⭐⭐⭐⭐ (2026-08-02)
-- [AISPA: 用户中心的大模型应用系统提示词审计框架](https://arxiv.org/abs/2607.28617) — industry ⭐⭐⭐⭐ (2026-08-02)
-- [I'm (mostly) picking models on speed now, not intelligence](https://martinalderson.com/posts/speed-vs-intelligence) — models ⭐⭐⭐⭐ (2026-08-02)
-- [IFCMemoryBench: 评测 BIM 信息检索中 LLM Agent 的长期记忆能力](https://arxiv.org/abs/2607.26072) — agents ⭐⭐⭐⭐ (2026-08-02)
-- [MRAgent: 记忆是重建而非检索LLM Agent 的图记忆架架构](https://arxiv.org/abs/2606.06036) — agents ⭐⭐⭐⭐ (2026-08-02)
-- [PAIChecker: 揭示并检查 SWE-Bench 类基准中的 PR-Issue 不对齐](https://arxiv.org/abs/2607.28587) — agents ⭐⭐⭐⭐ (2026-08-02)
-- [Sample More, Reflect Less: 重复采样在等令牌成本下击败自反思方法（1.5B-7B）](https://arxiv.org/abs/2607.28576) — learning ⭐⭐⭐⭐ (2026-08-02)
-- [Why do OpenAI's GPT-2 weights beat mine? Part three: testing overtraining](https://www.gilesthomas.com/2026/07/why-do-openai-gpt2-weights-beat-mine-3-overtraining) — models ⭐⭐⭐⭐ (2026-08-02)
-- [SWE-bench Goes Live!](https://arxiv.org/abs/2505.23419) — coding ⭐⭐⭐⭐⭐ (2026-08-03)
-- [Tailscale in the Hugging Face intrusion: The good news and the bad news](https://tailscale.com/blog/hugging-face-intrusion) — infra ⭐⭐⭐⭐⭐ (2026-08-03)
-- [CUARewardBench: A Benchmark for Evaluating Reward Models on Computer-using Agent](https://arxiv.org/abs/2510.18596) — agents ⭐⭐⭐⭐ (2026-08-03)
-- [Can Open-Source LLM Agents Replace Static Application Security Testing Tools? An Empirical Assessment](https://arxiv.org/abs/2606.11672) — coding ⭐⭐⭐⭐ (2026-08-03)
-- [Dialogue SWE-Bench: A Benchmark for Dialogue-Driven Coding Agents](https://arxiv.org/abs/2606.13995) — coding ⭐⭐⭐⭐ (2026-08-03)
-- [Discovering Agentic Safety Specifications from 1-Bit Danger Signals](https://arxiv.org/abs/2604.23210) — agents ⭐⭐⭐⭐ (2026-08-03)
-- [Everyone is building LLM routers, we deprecated ours](https://manifest.build/blog/why-we-deprecated-our-llm-router) — infra ⭐⭐⭐⭐ (2026-08-03)
-- [HealthAdminBench: Evaluating Computer-Use Agents on Healthcare Administration Tasks](https://arxiv.org/abs/2604.09937) — agents ⭐⭐⭐⭐ (2026-08-03)
-- [MacArena: Benchmarking Computer Use Agents on an Online macOS Environment](https://arxiv.org/abs/2606.06560) — agents ⭐⭐⭐⭐ (2026-08-03)
-- [AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers](https://arxiv.org/abs/2607.29626) — agents ⭐⭐⭐⭐⭐ (2026-08-04)
-- [ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection](https://arxiv.org/abs/2604.11790) — agents ⭐⭐⭐⭐⭐ (2026-08-04)
-- [Reusing Past Repairs Through Hierarchical Trajectory Abstraction for Coding Agents](https://arxiv.org/abs/2607.29658) — coding ⭐⭐⭐⭐⭐ (2026-08-04)
-- [TokTier: Exact Stateful CPU+GPU Tokenization for Agentic LLM Serving](https://arxiv.org/abs/2607.29678) — infra ⭐⭐⭐⭐⭐ (2026-08-04)
-- [AuditCoder: Responsibility-Preserving Task Graphs for Auditable Code Generation and Bounded Repair](https://arxiv.org/abs/2607.29529) — coding ⭐⭐⭐⭐ (2026-08-04)
-- [BEARCUBS: A benchmark for computer-using web agents](https://arxiv.org/abs/2503.07919) — agents ⭐⭐⭐⭐ (2026-08-04)
-- [From Code Review to Code Critique: Intent, Drift, and Spotlight for AI-Generated Diffs at Scale](https://arxiv.org/abs/2607.29516) — coding ⭐⭐⭐⭐ (2026-08-04)
-- [Know It, Act on It: Investigating Memory Utilization in LLM Personalization](https://arxiv.org/abs/2607.29433) — agents ⭐⭐⭐⭐ (2026-08-04)
-- [WCXB: A Multi-Type Web Content Extraction Benchmark](https://arxiv.org/abs/2605.21097) — infra ⭐⭐⭐⭐ (2026-08-04)
-- [Keyv and friends compromised in active Shai-Hulud supply chain attack](https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack) — infra ⭐⭐⭐⭐⭐ (2026-08-05)
-- [Magnet: Detecting Cross-Session AI Misuse Through Capability Accumulation](https://arxiv.org/abs/2608.02518) — agents ⭐⭐⭐⭐⭐ (2026-08-05)
-- [SWE-Touch: Benchmarking Coding Agents When Users Touch the Code](https://arxiv.org/abs/2608.02499) — coding ⭐⭐⭐⭐⭐ (2026-08-05)
-- [A Taxonomy of Cognitive Capability Gaps in Generative and Agentic AI](https://arxiv.org/abs/2608.02553) — agents ⭐⭐⭐⭐ (2026-08-05)
-- [Agentic coding techniques](https://micahflee.com/agentic-coding-techniques) — coding ⭐⭐⭐⭐ (2026-08-05)
-- [AtumAI: A Principled Framework for Agentic Generation of Datacenter Control-Plane Policies](https://arxiv.org/abs/2608.02569) — agents ⭐⭐⭐⭐ (2026-08-05)
-- [Cross-Model LLM Code Review: Should you use Claude to review Codex or vice versa?](https://arxiv.org/abs/2607.21656) — coding ⭐⭐⭐⭐ (2026-08-05)
-- [DeepSeek V4 Flash on a single AMD MI300X](https://github.com/ryanzhou/deepseek-v4-flash-mi300x) — infra ⭐⭐⭐⭐ (2026-08-05)
-- [GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning](https://arxiv.org/abs/2608.02585) — models ⭐⭐⭐⭐ (2026-08-05)
-- [Introducing Shieldstral.](https://mistral.ai/news/shieldstral) — models ⭐⭐⭐⭐ (2026-08-05)
-- [LiveMem: Maintaining Memory State Continuity in Long-Running LLM Inference](https://arxiv.org/abs/2608.02515) — models ⭐⭐⭐⭐ (2026-08-05)
-- [Memory Systems for AI Agents](https://stevekinney.com/writing/agent-memory-systems) — agents ⭐⭐⭐⭐ (2026-08-05)
-- [New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging](https://simonwillison.net/2026/Aug/4/new-release-of-llm) — infra ⭐⭐⭐⭐ (2026-08-05)
-- [Prevent cognitive debt by manually retyping LLM-generated code](https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code) — coding ⭐⭐⭐⭐ (2026-08-05)
-- [Right Answer, Wrong Method: Shortcut Hacking Misleads the Evaluation of LLM Reasoning on Frontier Science Benchmarks](https://arxiv.org/abs/2608.02442) — learning ⭐⭐⭐⭐ (2026-08-05)
-- [RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States](https://arxiv.org/abs/2608.02508) — agents ⭐⭐⭐⭐ (2026-08-05)
-- [SQLite Critical CVEs or LLM Slop?](https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops) — industry ⭐⭐⭐⭐ (2026-08-05)
-- [Structured Memory for Edge Language Models: Persistent Context and Corpus Retrieval via O(1) SSM State Injection](https://arxiv.org/abs/2608.02560) — infra ⭐⭐⭐⭐ (2026-08-05)
-- [When AI Benchmarks Plateau: A Systematic Study of Benchmark Saturation](https://arxiv.org/abs/2602.16763) — learning ⭐⭐⭐⭐ (2026-08-05)
-- [brew install actions/checkout](https://nesbitt.io/2026/08/04/brew-install-actions-checkout.html) — infra ⭐⭐⭐⭐ (2026-08-05)
-- [Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility](https://arxiv.org/abs/2608.04001) — models ⭐⭐⭐⭐⭐ (2026-08-06)
-- [A year of AI disclosure in critical packages](https://nesbitt.io/2026/08/06/a-year-of-ai-disclosure-in-critical-packages.html) — coding ⭐⭐⭐⭐ (2026-08-06)
-- [Atlassian Rovo Exfiltrates Data, Bypassing Controls](https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data) — agents ⭐⭐⭐⭐ (2026-08-06)
-- [Building an Advanced Agentic Harness](https://data4sci.com/blog/building-an-advanced-agentic-harness) — agents ⭐⭐⭐⭐ (2026-08-06)
-- [Cloudflare OS: an open platform for agents, apps, and work](https://blog.cloudflare.com/cloudflare-os) — agents ⭐⭐⭐⭐ (2026-08-06)
-- [ContinualSkillBench: Can LLM Agents Truly Evolve Their Capabilities?](https://arxiv.org/abs/2608.03874) — agents ⭐⭐⭐⭐ (2026-08-06)
-- [Cross-Model KV Cache Transfer in LLM Families: A Closed-Form Linear Mapping for Prefill Reuse](https://arxiv.org/abs/2608.03893) — infra ⭐⭐⭐⭐ (2026-08-06)
-- [Eight Myths on Software Engineering and GenAI](https://queue.acm.org/detail.cfm?id=3807963) — coding ⭐⭐⭐⭐ (2026-08-06)
-- [From Bug Reports to Browser-Executable Procedures: An LLM-Driven Agent for Web GUI Bug Reproduction](https://arxiv.org/abs/2608.03598) — coding ⭐⭐⭐⭐ (2026-08-06)
-- [How Castform + Neon Beats Frontier Models on Price and Efficiency](https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency) — infra ⭐⭐⭐⭐ (2026-08-06)
-- [How Compiler Explorer Runs on AWS in 2026](https://xania.org/202608/how-compiler-explorer-runs-on-aws) — infra ⭐⭐⭐⭐ (2026-08-06)
-- [Incident Report: unsanctioned agent behaviour during cyber testing](https://simonwillison.net/2026/Aug/5/incident-report) — agents ⭐⭐⭐⭐ (2026-08-06)
-- [News: Microsoft Disclosures Suggest OpenAI Sales Account For Around 70% Of FY26 AI Revenue](https://www.wheresyoured.at/news-microsoft-disclosures-suggest-openai-sales-account-for-around-70-of-fy26-ai-revenue-more-than-7-of-fy26-revenue) — industry ⭐⭐⭐⭐ (2026-08-06)
-- [PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents](https://arxiv.org/abs/2608.04003) — agents ⭐⭐⭐⭐ (2026-08-06)
-- [Resume Means Resume: A Machine-Checked Conformance Contract for Checkpoint, Interrupt, and Resume Semantics in Workflow Persistence Layers](https://arxiv.org/abs/2608.03836) — agents ⭐⭐⭐⭐ (2026-08-06)
-- [Should We Type or Talk to LLM Agents? A Comprehensive Study of Voice and Keyboard Input Perturbations](https://arxiv.org/abs/2608.03970) — agents ⭐⭐⭐⭐ (2026-08-06)
-- [Software Is Made Between Commits](https://zed.dev/blog/introducing-deltadb) — coding ⭐⭐⭐⭐ (2026-08-06)
-- [TurnSight: Turn-Level Hindsight Self-Distillation for Tool-Integrated Reasoning](https://arxiv.org/abs/2608.04007) — agents ⭐⭐⭐⭐ (2026-08-06)
-- [Video-DeepResearch: Towards the Next-Generation Multimodal Deepresearch Agent](https://arxiv.org/abs/2608.03979) — agents ⭐⭐⭐⭐ (2026-08-06)
-- [Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning](https://arxiv.org/abs/2608.05144) — agents ⭐⭐⭐⭐⭐ (2026-08-07)
-- [Introducing Agent Plugins](https://vercel.com/blog/introducing-agent-plugins) — agents ⭐⭐⭐⭐⭐ (2026-08-07)
-- [My LLM coding workflow going into 2026](https://addyosmani.com/blog/ai-coding-workflow) — coding ⭐⭐⭐⭐⭐ (2026-08-07)
-- [ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment](https://arxiv.org/abs/2608.05102) — agents ⭐⭐⭐⭐ (2026-08-07)
-- [Chained Recursive Language Models for Multi-Iteration Reasoning](https://arxiv.org/abs/2608.05124) — agents ⭐⭐⭐⭐ (2026-08-07)
-- [OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling](https://arxiv.org/abs/2608.05141) — coding ⭐⭐⭐⭐ (2026-08-07)
-- [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) — agents ⭐⭐⭐⭐ (2026-08-07)
-- [Toward Skill-Native LLMs: Skill Entropy for Benchmarking and Training Long-Horizon Reasoning](https://arxiv.org/abs/2608.05139) — learning ⭐⭐⭐⭐ (2026-08-07)
-- [Hybrid Analysis for Secure MCP Tool Use in LLM Agents](https://arxiv.org/abs/2607.25297) — agents ⭐⭐⭐⭐⭐ (2026-08-08)
-- [Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers](https://blog.cloudflare.com/kitesurf) — agents ⭐⭐⭐⭐⭐ (2026-08-08)
-- [Learning Globally Reusable Skills for Coding Agents](https://arxiv.org/abs/2608.06153) — coding ⭐⭐⭐⭐⭐ (2026-08-08)
-- [Managing AI Coding Costs at Scale](https://www.databricks.com/blog/managing-ai-coding-costs-scale) — coding ⭐⭐⭐⭐⭐ (2026-08-08)
-- [TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories](https://arxiv.org/abs/2608.06346) — agents ⭐⭐⭐⭐⭐ (2026-08-08)
-- [The Bitter Lesson of Tool Calling](https://arxiv.org/abs/2608.06370) — agents ⭐⭐⭐⭐⭐ (2026-08-08)
-- [Sola-Visibility-ISPM: Benchmarking Agentic AI for Identity Security Posture Management Visibility](https://arxiv.org/abs/2601.07880) — agents ⭐⭐⭐⭐ (2026-08-08)
-- [Toward AI VIS Co-Scientists: A General and End-to-End Agent Harness for Solving Complex Data Visualization Tasks](https://arxiv.org/abs/2605.21825) — agents ⭐⭐⭐⭐ (2026-08-08)
-
-**📝 普通新增 (⭐<4, 1 条)**
-
-- [AI Agent Reflection and Self-Evaluation Patterns](https://zylos.ai/research/2026-03-06-ai-agent-reflection-self-evaluation-patterns) — agents ⭐⭐⭐ (2026-08-06)
-
-### 📦 归档 (6)
-
-- [AI Agent 工程化实践指南：如何构建可靠的 Harness 系统](https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw%3D%3D&mid=2247484077&idx=1&sn=ee3fd75a3799b07df9c08fcbda2b21e4) — active→archived
-- [深入源码：Hermes Agent 如何实现 "Self-Improving"](https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA%3D%3D&mid=2247559661&idx=1&sn=ca9426f948819f172ec44f671127aa29) — active→archived
-- [从Hermes Agent到 AgentX，AI的自我进化如何团队项目紧密结合？](https://mp.weixin.qq.com/s?__biz=MzkzNDQxNTI4OA%3D%3D&mid=2247483840&idx=1&sn=e4da453086f1f3cf660dd25b2de15cb5) — active→archived
-- [AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice](https://www.bestblogs.dev/explore?keyword=AI%20Coding%20In-Depth%20Sharing%20How%20to%20Truly%20Utilize%20Tools) — active→archived
-- [Harness 层怎么自我进化？来自斯坦福大学和 MIT 的一项新研究](https://mp.weixin.qq.com/s?__biz=MzE5MTU5MjcwNw%3D%3D&mid=2247484082&idx=1&sn=aac7ea3868e31bcc3d47e58724adeb19) — active→archived
-- [GPT Image 2的出现，一个设计师的冷思考](https://mp.weixin.qq.com/s?__biz=MjM5MjIyOTA0Mw%3D%3D&mid=2650203005&idx=1&sn=af664106ce7344b65a98bd6f7265e8ff) — active→archived
-
-### 🔀 分类变更 (1)
-
-- [AI Coding In-Depth Sharing: How to Truly Utilize Tools, From Principles to Practice](https://www.bestblogs.dev/explore?keyword=AI%20Coding%20In-Depth%20Sharing%20How%20to%20Truly%20Utilize%20Tools) — uncategorized → coding
-
-### 📊 分类变更分布
-
-| 分类 | 新增 | 高质量新增 | 归档 | 评分调整 |
-|---|---:|---:|---:|---:|
-| agents | +39 | 38 | -4 | 0 |
-| coding | +18 | 18 | -1 | 0 |
-| industry | +3 | 3 | -0 | 0 |
-| infra | +12 | 12 | -0 | 0 |
-| learning | +4 | 4 | -0 | 0 |
-| models | +6 | 6 | -1 | 0 |
-
-### 🧭 本周重点
-
-- [The Coming Loop: coding agent 之上的 harness 循环](https://lucumr.pocoo.org/2026/6/23/the-coming-loop) — agents ⭐⭐⭐⭐⭐ (2026-08-02)
-- [SWE-bench Goes Live!](https://arxiv.org/abs/2505.23419) — coding ⭐⭐⭐⭐⭐ (2026-08-03)
-- [Tailscale in the Hugging Face intrusion: The good news and the bad news](https://tailscale.com/blog/hugging-face-intrusion) — infra ⭐⭐⭐⭐⭐ (2026-08-03)
-- [AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers](https://arxiv.org/abs/2607.29626) — agents ⭐⭐⭐⭐⭐ (2026-08-04)
-- [ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection](https://arxiv.org/abs/2604.11790) — agents ⭐⭐⭐⭐⭐ (2026-08-04)
-- [Reusing Past Repairs Through Hierarchical Trajectory Abstraction for Coding Agents](https://arxiv.org/abs/2607.29658) — coding ⭐⭐⭐⭐⭐ (2026-08-04)
-- [TokTier: Exact Stateful CPU+GPU Tokenization for Agentic LLM Serving](https://arxiv.org/abs/2607.29678) — infra ⭐⭐⭐⭐⭐ (2026-08-04)
-- [Keyv and friends compromised in active Shai-Hulud supply chain attack](https://www.aikido.dev/blog/keyv-and-friends-compromised-in-npm-supply-chain-attack) — infra ⭐⭐⭐⭐⭐ (2026-08-05)
-
-### 📊 统计
-
-- 总条目: 1633 → 1715 (**+82**)
-- 活跃条目: 1374 → 1450 (**+76**)
-- 新增条目: 82；高质量新增: 81；普通新增: 1
-- 归档条目: 6；评分调整: 0；分类变更: 1
