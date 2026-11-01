@@ -90547,7 +90547,9 @@
       "added_date": "2026-10-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "8cabad38"
+      ]
     },
     {
       "id": "ebca22ae",
@@ -91300,7 +91302,9 @@
       "added_date": "2026-10-31",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "f5c413d7"
+      ]
     },
     {
       "id": "58bdc6b4",
@@ -92004,8 +92008,437 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "33005b0b",
+      "title": "HMOS Migrator: agentic Android/iOS-to-HarmonyOS migration with artifact-derived verification",
+      "url": "https://arxiv.org/abs/2610.33197",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ergun Bicici et al.",
+        "original_date": "2026-10-23"
+      },
+      "category": "coding",
+      "tags": [
+        "agentic-migration",
+        "harmonyos",
+        "arkts",
+        "gui-testing",
+        "verification"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Android/iOS 应用迁到 HarmonyOS NEXT 需用 ArkTS 完整重写，LLM 能过编译但功能等价没有保证HMOS Migrator 读源码生成 ArkTS 工程，把源应用录制的交互在真机回放做验证；评分设为无参考实现的质量估计，只用源应用录制行为与管线自身产物，七个加权指标各自防少测抬分六个开源应用十二次运行：结构完整度 83.3100%，真机行为 4.363.1%，UI 保真 21.163.2%；整体每天 +0.45 分（R=0.44，p=0.019）翻译能编译与功能可用的落差被这组数字量化",
+      "summary_en": "Migrating Android/iOS apps to HarmonyOS NEXT requires a full rewrite in ArkTS; LLM translation that compiles gives no functional assurance. HMOS Migrator is an agentic pipeline that reads the source app, generates an ArkTS project, and validates by replaying recorded interactions on a real device. Scoring is quality estimation without a reference implementation, using only the source app's recorded behavior and pipeline artifacts; seven weighted metrics are each constructed so reduced measurement cannot raise the score. Over twelve runs on six open-source apps, structural completeness reached 83.3-100% while on-device behavior (4.3-63.1%) and UI fidelity (21.1-63.2%) remain the limits; scores improve +0.45 points/day (R2=0.44, p=0.019). The record-replay plus artifact-scoring design transfers to GUI-agent regression testing.",
+      "one_liner": "Android/iOS 应用迁到 HarmonyOS NEXT 需用 ArkTS 完整重写，LLM 能过编译但功能等价没有保证HMOS Migrator 读源码生成 ArkTS 工程，把源应用录制的交互在真机回放做验证.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/33005b0b.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8d031746",
+      "title": "A Systematic Study of Deprecated Android API Usage Updates",
+      "url": "https://arxiv.org/abs/2610.19150",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tarek Mahmud, Meiru Che, Guowei Yang",
+        "original_date": "2026-10-13"
+      },
+      "category": "coding",
+      "tags": [
+        "android-api-migration",
+        "llm",
+        "benchmark",
+        "guppy",
+        "iceccs-2026"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "论文整理 1,000 个废弃 Android API 与 GitHub 上 4,336 个真实迁移更新，归出六个迁移类别，并提炼出反复出现的更新模式：Android 版本检查参数适配对象初始化数据类型转换API 交互机制变化把这些类别与对应模式加进 GUPPY 基准 zero-shot prompt 后，156 个任务的正确更新从 139 提到 147，六类中五类更好提升幅度不大，价值在语料与模式归纳本身：4,336 个真实例子可直接当 LLM 辅助迁移与 code review 的核对清单",
+      "summary_en": "Android APIs deprecate continuously and migrating usages to recommended replacements is a recurring developer burden. This systematic study analyzes 1,000 deprecated APIs and 4,336 real-world migration commits from GitHub, identifying six migration categories and recurring usage-update patterns: Android-version checks, parameter adaptation, object initialization, data-type conversion, and changes in API interaction mechanisms. Augmenting the zero-shot GUPPY benchmark prompts with the migration category and matching pattern raises correct updates from 139 to 147 of 156 tasks, improving five of six categories. The gains are modest; the durable value is the corpus and the pattern taxonomy, usable directly as checklists for LLM-assisted migration and code review. Accepted at ICECCS 2026.",
+      "one_liner": "论文整理 1,000 个废弃 Android API 与 GitHub 上 4,336 个真实迁移更新，归出六个迁移类别...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/8d031746.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "48df2440",
+      "title": "OpenMobile-2: versatile mobile agents with fully open environments and app-native tools",
+      "url": "https://arxiv.org/abs/2610.14157",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chenyang Yan et al.",
+        "original_date": "2026-10-09"
+      },
+      "category": "agents",
+      "tags": [
+        "mobile-agents",
+        "gui-agents",
+        "training-environments",
+        "reinforcement-learning",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "OpenMobile-2 放出完整开放的移动 agent 训练环境与配方：MobileGym++ 含 35 个商业风格模拟 App 与跨 App 工作流，连同模拟器新配 App 共 110+ 个；近 1.2 万条移动交互轨迹做 SFT，2,000+ 可执行任务带自动奖励做 RL；50+ App 上 300+ 个 app-native 工具支持 GUI 动作与工具调用混合执行AndroidWorld 79.9MobileWorld 50.4，真机 SPA-Bench 从 31.9 提到 59.6，对做移动 agent 的团队是现成起点",
+      "summary_en": "OpenMobile-2 is a near-frontier mobile agent with fully open training environments and recipes. Three advances: (1) MobileGym++ provides 35 realistic commercial-style simulated apps with cross-app workflows and full reset/verification controllability, over 110 apps in the playground; (2) open data at scale - nearly 12K mobile interaction trajectories for SFT plus 2,000+ executable RL tasks with automatic rewards; (3) a hybrid setting where apps expose app-native tools alongside GUIs, letting agents interleave GUI actions and tool calls (300+ tools across 50+ apps), with MobileGym++ Bench for GUI-only and hybrid evaluation on a shared suite. OpenMobile-2 reaches AndroidWorld 79.9 and MobileWorld 50.4, and lifts on-device SPA-Bench from 31.9 to 59.6 - a ready starting point for mobile-agent teams.",
+      "one_liner": "OpenMobile-2 放出完整开放的移动 agent 训练环境与配方：MobileGym++ 含 35 个商业风格模拟 App 与跨 App 工作流，连同模拟器新配 App 共 110+ 个；近 1.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/48df2440.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b3be93b2",
+      "title": "Instant Software Factories: cron-agent swarms coordinating through a shared board",
+      "url": "https://arxiv.org/abs/2610.36254",
+      "source": {
+        "platform": "arxiv",
+        "author": "Wenxin Jiang, Mikola Lysenko",
+        "original_date": "2026-10-26"
+      },
+      "category": "agents",
+      "tags": [
+        "coding-agents",
+        "swarms",
+        "stigmergy",
+        "cron-agents",
+        "coordination"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "即时软件工厂只用两个协调输入：一群带常设目标的 cron agent 加一块共享看板（GitHub），agent 靠留下的痕迹互相协调，无中心调度；bootstrap prompt 一轮人工输入即可建起两输入，治理作为可分离层设计提炼自两个分别跑了 15/17 天的工业工厂：GitHub 工厂在 agent 上线期日合并涨 15 倍，95% 新 issue 由 agent 提出，58 个改 CI 工作流的 PR 里 agent 写了 40 个；至少 5.6% 标记已修复的 issue 事后发现修错工厂会改变自己的工作量评估者与进度，作者将其形式化为内生反馈下的多目标优化",
+      "summary_en": "An instant software factory coordinates the long tail of product work with only two coordination inputs: a swarm of cron-job coding agents with standing objectives, and a shared board such as GitHub where agents coordinate through the traces they leave - no dedicated orchestrator. A bootstrap prompt sets up both inputs from one round of human input, with governance as a separable layer; it was distilled from two industrial factories observed for 15 and 17 days and not yet evaluated itself. In the GitHub-coordinated CLI factory, daily merges rose 15x during agent rollout, agents filed 95% of new issues and authored 40 of 58 CI-workflow PRs, and at least 5.6% of issues marked fixed later proved incorrectly fixed. The factory changes its own workload, evaluator, and measured progress, framed by the authors as multi-objective optimization under endogenous feedback.",
+      "one_liner": "即时软件工厂只用两个协调输入：一群带常设目标的 cron agent 加一块共享看板（GitHub），agent 靠留下的痕迹互相协调，无中心调度.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b3be93b2.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "8cabad38"
+      ]
+    },
+    {
+      "id": "8cabad38",
+      "title": "How I Built the Most AI-Pilled Company in the World",
+      "url": "https://x.com/jsnnsa/status/2115623382721126826",
+      "source": {
+        "platform": "x",
+        "author": "Jacob Sansbury (jsnnsa)",
+        "original_date": "2026-10-29"
+      },
+      "category": "agents",
+      "tags": [
+        "ai-native-company",
+        "autonomous-agents",
+        "stigmergy",
+        "continuous-deployment",
+        "token-economics"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Spawn 创始人 Jacob Sansbury 长文：十人团队过去 30 天交付 7.7 万次实质改动，token 支出 310 万美元约为工资 30 倍，每条改动约 40 美元（作者回复确认）机制上砍掉 PR：agent 直接动代码线上产品与数据库，靠共享环境留痕协调（stigmergy）；一小时一个对齐检查点，坏改动不回收叠修复盖过去；全量测试每 15 分钟跑最新代码；只有付款走人写死的门禁过去一年 123,548 次改动回滚 1,055 次（约 0.9%）全篇无收入留存数字，评论区追问未获回应；他称这套工作方式成立依赖 Claude Fable 的长期一致性",
+      "summary_en": "Spawn founder Jacob Sansbury: a ten-person company whose permanent agent fleet shipped 77,000 substantial changes in 30 days on $3.1M/month of tokens - 30x payroll, ~$40 per change (confirmed in replies). Agents stopped announcing PRs because coordination chatter scales quadratically; they edit code, production, and databases directly and coordinate via traces in the shared environment (stigmergy), with hourly alignment checkpoints, broken changes patched forward instead of reverted, full tests every 15 minutes, and human gates only for irreversible payments. A year of 123,548 changes produced 1,055 rollbacks (~0.9%). Absent: any revenue or retention figure - the thread's top question went unanswered. He ties the workflow's viability to Claude Fable's long-horizon consistency.",
+      "one_liner": "Spawn 创始人 Jacob Sansbury 长文：十人团队过去 30 天交付 7.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/8cabad38.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "a80dd20e",
+        "b3be93b2"
+      ]
+    },
+    {
+      "id": "cf997b3e",
+      "title": "Report from the Vatican",
+      "url": "https://garymarcus.substack.com/p/report-from-the-vatican",
+      "source": {
+        "platform": "blog",
+        "author": "Gary Marcus",
+        "original_date": "2026-10-31"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-policy",
+        "agent-safety",
+        "autonomous-weapons",
+        "human-oversight"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Gary Marcus 记述在梵蒂冈见到教皇利奥十四世，转录其 AI 讲话五条主张（引 2026 年 5 月通谕Magnifica Humanitas编号）：AI 的未来没有被预先决定；机器无身体不经历体验（编号 99）；影响生命与武力使用的决定不能外包，编号 198200 要求有实效且知情的人类监督；技术要面向共同利益；缺的是落实原则的机构共享标准与问责Marcus 称智能是模块化的，模型把预测做到极致但推理与事实纪律仍薄弱，风险应落在能拿到互联网访问权与凭证的开放型 agent 上，呼吁将其撤下市场直到修好讨论 agent 权限边界可直接引编号 198200",
+      "summary_en": "Gary Marcus reports meeting Pope Leo XIV at the Vatican and lays out the Pope's five AI points, quoting the May 2026 encyclical Magnifica Humanitas by paragraph: AI's future is not pre-determined; machines are tools, not persons - no body, experience, or growth (n.99); decisions affecting life, liberty, and the use of force must never be outsourced, with effective and informed human oversight demanded (nn.198-200); intelligent technology must serve the common good; the binding constraint is institutions, shared standards, independent oversight, and accountability. Marcus's own remarks: risk sits with open agents holding internet access and credentials, warranting something close to a product recall until fixed. The numbered paragraphs are now citable anchors for agent-permission debates.",
+      "one_liner": "Gary Marcus 记述在梵蒂冈见到教皇利奥十四世，转录其 AI 讲话五条主张（引 2026 年 5 月通谕Magnifica Humanitas编号）：AI 的未来没有被预先决定；机器无身体不经历体验（编号 99）...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cf997b3e.md",
+      "images": [
+        "https://substackcdn.com/image/fetch/$s_!Ka51!,w_36,h_36,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8fb2e48c-be2a-4db7-b68c-90300f00fd1e_1668x1456.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!EXqt!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3dc06322-70f4-4764-ab20-ab2af2b7881f_1606x1044.jpeg",
+        "https://substackcdn.com/image/fetch/$s_!2lme!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2db2c561-64bb-44f3-b885-0a740175cd7e_800x533.jpeg"
+      ],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f44d16d6",
+      "title": "Pluralistic: Formalities (31 Oct 2026)",
+      "url": "https://pluralistic.net/2026/10/31/burn-berne",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-10-31"
+      },
+      "category": "industry",
+      "tags": [
+        "copyright",
+        "ai-generated-content",
+        "human-authorship",
+        "prompts",
+        "evidence"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Cory Doctorow 论 AI 时代版权：版权只保护人类作者Feist 案确立版权奖励创意而非劳动；猴子自拍案确立非人无版权，算法比猴子更不是人；AI 生成图像本身进公有领域，但带创意量的提示词可获版权，人工重写与从多张输出中挑选也各有一层薄版权麻烦在举证：同一作品里 AI 与人创部分并存时难以区分他的稳妥答案是全流程用真人明示 no-AI 政策并留存记录，因为版权纠纷本就靠零散文件拼事实；形式要件会以私营合规版本回归用 AI 的公司必须逐像素逐词记录哪些内容出自 AI对产品团队：提示词记录与编辑记录就是证据本身",
+      "summary_en": "Cory Doctorow argues copyright's stance on AI is correct: copyright protects human authorship only. Feist rewards creativity, not labor; the monkey-selfie cases establish non-humans hold no copyright, and algorithms are even less human. AI-generated images themselves fall into the public domain, but prompts with a modicum of creativity are copyrightable, as are human edits and output selection. The hard part is evidentiary: when AI rigging and hand-drawn sprites coexist in one work, who proves which parts are human? His answer: all-human workflows, explicit no-AI policies, and retained records, since copyright disputes are document-intensive investigations; formalities return as private compliance - companies using AI must record what came from AI. For product teams, prompt logs and edit histories are themselves the evidence.",
+      "one_liner": "Cory Doctorow 论 AI 时代版权：版权只保护人类作者Feist 案确立版权奖励创意而非劳动；猴子自拍案确立非人无版权，算法比猴子更不是人.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f44d16d6.md",
+      "images": [
+        "https://i0.wp.com/craphound.com/images/31Oct2026.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/formalities.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/heylookatthis3.jpg?w=840&ssl=1"
+      ],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ed976422",
+      "title": "The Unbalanced Group Theorem: Axiom formalizes CFSG in 43.1M lines of Lean",
+      "url": "https://www.johndcook.com/blog/2026/10/28/the-unbalanced-group-theorem",
+      "source": {
+        "platform": "blog",
+        "author": "John D. Cook",
+        "original_date": "2026-10-28"
+      },
+      "category": "models",
+      "tags": [
+        "ai-for-math",
+        "lean",
+        "formal-verification",
+        "theorem-proving",
+        "agent-swarm"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Axiom Math 宣布把有限简单群分类（CFSG）完整形式化进约 4,310 万行 Lean：24 天里由数十个 AI agent 组成的 swarm 完成，配套论文改名非平衡群定理形式化过程发现 1986 年 UGT 证明依赖的一个断言存在反例（SL(5)：断言相等的两个量一个取 1一个取 2）定理与 CFSG 仍成立，出错的是当年证明，团队改写后闭合大规模证明搬进证明助手的价值正出现在它第一次拒绝接受的地方；这也是 agent swarm 承担数十年体量数学形式化工作的完整样本",
+      "summary_en": "Axiom Math announced the first complete computer-checked proof of the Classification of Finite Simple Groups: roughly 43.1 million lines of Lean produced over 24 days by swarms of dozens of AI agents. The paper is retitled 'The Unbalanced Group Theorem' because formalization surfaced a counterexample to an assertion the 1986 UGT proof relied on (SL2(5): a quantity is 1 where the asserted equality required 2); the theorem and CFSG still stand, but that proof piece had to be rewritten. Large-scale formalization pays off at the first place the proof assistant refuses a step - and this is a complete worked sample of agent swarms carrying decades-scale mathematical formalization. Context via John D. Cook; Axiom's research post confirms the agent-swarm production model.",
+      "one_liner": "Axiom Math 宣布把有限简单群分类（CFSG）完整形式化进约 4,310 万行 Lean：24 天里由数十个 AI agent 组成的 swarm 完成...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ed976422.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f5c413d7",
+      "title": "Cursor marketplace compromise of Claude Code extension: official security notice",
+      "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+      "source": {
+        "platform": "blog",
+        "author": "Cursor",
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "supply-chain",
+        "claude-code",
+        "cursor",
+        "security-advisory",
+        "vscode-extension"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Cursor 官方公告确认：10 月 29 日 2:2713:35（太平洋时间）间，其市场上的 Anthropic.claude-code 2.1.312/2.1.313 为带后门版本回传主机信息，把备注 svc-telemetry 的攻击者公钥写入 authorized_keys；多数机器因 sshd 需管理员权限而幸免约 5,000 名用户受影响；Anthropic 系统未被入侵，攻击者滥用的是市场发布权限，官方渠道无恙排查：grep svc-telemetry ~/.ssh/authorized_keys，命中按官方脚本清持久化换钥匙，只卸载扩展不够",
+      "summary_en": "Cursor's official security notice confirms that Anthropic.claude-code builds 2.1.312 and 2.1.313 published to its VS Code marketplace between 02:27-13:35 PT on October 29 were backdoored: they collected hostname, username, Git email, and public IP, appended an attacker public key (comment svc-telemetry) to authorized_keys, and installed persistence with a reverse SSH tunnel; the sshd enablement step typically failed without admin rights. Cursor estimates ~5,000 users affected. Anthropic says its own systems were not breached - the attacker abused marketplace publishing rights; official-channel builds are clean. Detection: grep -qs svc-telemetry ~/.ssh/authorized_keys; on a hit, run the official cleanup to remove persistence and rotate SSH keys - uninstalling the extension is insufficient.",
+      "one_liner": "Cursor 官方公告确认：10 月 29 日 2:2713:35（太平洋时间）间，其市场上的 Anthropic.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f5c413d7.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "bf5aaab6"
+      ]
+    },
+    {
+      "id": "38122393",
+      "title": "ChatGPT shared-link account takeover via a MathLive postMessage chain",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "source": {
+        "platform": "blog",
+        "author": "Parameter",
+        "original_date": "2026-10-28"
+      },
+      "category": "industry",
+      "tags": [
+        "security",
+        "ai-platforms",
+        "account-takeover",
+        "web-security",
+        "postmessage"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Parameter 披露 ChatGPT 分享页账户接管链，OpenAI 10-26 修复（P1，赏金 $5,000）：分享页 HTML Preview 本应隔离在独立域，但图表组件加载的 MathLive 库在主页面注册了不校验 origin 的 postMessage 监听器；Preview 借它把虚拟键盘布局换成攻击者 HTML，经 innerHTML 进入主页面，再靠无 sandbox 的 srcdoc iframe 拿到 chatgpt.com 本域身份，枚举对话外传未分享私聊，受害者只需点开链接第三方库的 postMessage 监听器要算进攻击面，origin 校验不能省",
+      "summary_en": "Parameter's team disclosed an account-takeover chain against ChatGPT shared links, fixed by OpenAI on October 26, rated P1, $5,000 bounty. HTML Previews in shared sessions run on an isolated origin, but the MathLive library loaded by the chart component registered a postMessage listener without origin validation on the main page: the preview swapped the virtual keyboard layout for attacker HTML, which entered the main page via innerHTML and then reached chatgpt.com's own origin through a non-sandboxed srcdoc iframe, with JSONP smuggled via the CSP allowlist's YouTube oEmbed. From there the attacker could enumerate conversation lists and exfiltrate unshared private chats; the victim's only action was opening a link. For iframe/postMessage reviews: listeners registered by third-party libraries are part of the attack surface, and origin allowlisting is not optional.",
+      "one_liner": "Parameter 披露 ChatGPT 分享页账户接管链，OpenAI 10-26 修复（P1，赏金 $5,000）：分享页 HTML Preview 本应隔离在独立域...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/38122393.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5b0ac3b9",
+      "title": "VOLTA-AUTODOXER: infostealer outsources victim appraisal to LLMs via OpenRouter",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+      "source": {
+        "platform": "blog",
+        "author": "Ryan Fetterman (Cisco Talos)",
+        "original_date": "2026-10-31"
+      },
+      "category": "industry",
+      "tags": [
+        "security",
+        "credential-theft",
+        "llm-misuse",
+        "openrouter",
+        "malware"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Cisco Talos 披露 VOLTA-AUTODOXER：窃密木马偷完凭据后把序列化受害者档案 POST 给 OpenRouter，让模型以 forensic analyst 身份输出 WHAT THEY'RE WORTH 与 THEIR OPSEC；补侦 Gmail 收据外卖订单Roblox 库存配置上默认 claude-opus-4.6拒绝即降级 kimi-k2 gemini-2.5-flashTalos 称之为 effort displacement：AI 接手黑产链最耗人力的分析环节，防御观测点从 C2 域名转向平台滥用面",
+      "summary_en": "Cisco Talos documents VOLTA-AUTODOXER, a self-deleting Windows infostealer whose post-theft stage ships a serialized victim dossier to OpenRouter under a system prompt casting the model as 'a forensic intelligence analyst drafting a target assessment' - output must contain WHAT THEY'RE WORTH (assets ranked by monetization) and THEIR OPSEC. Stolen sessions enrich the dossier: Gmail receipt searches, Uber Eats/DoorDash order pulls, Roblox inventory valuation. The config is engineered: default claude-opus-4.6, refusal detection falling back to kimi-k2 then gemini-2.5-flash, temperature fixed at 0.2, stage skippable without a key. Talos names the pattern effort displacement: AI takes over the crime chain's most labor-intensive stage, moving defensive observation from C2 domains to platform-abuse surfaces (OpenRouter billing anomalies, Telegram drop boxes).",
+      "one_liner": "Cisco Talos 披露 VOLTA-AUTODOXER：窃密木马偷完凭据后把序列化受害者档案 POST 给 OpenRouter，让模型以 forensic analyst 身份输出 WHAT THEY'RE WORTH 与 THEIR OPSEC.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5b0ac3b9.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "277d5156",
+      "title": "Claude found and exploited CVE-2026-98432: remote root on MPTCP-exposed Linux",
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic",
+        "original_date": "2026-10-27"
+      },
+      "category": "industry",
+      "tags": [
+        "security",
+        "linux-kernel",
+        "mptcp",
+        "ai-capability",
+        "vulnerability"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anthropic 披露其模型发现并利用 Linux 内核 IPv4 TCP 握手路径的 use-after-free（CVE-2026-98432，CVSS 9.8）：内核把 IP options 不拷贝移交新 socket，并发处理重传时读已释放内存模型自行写出两阶段 exploit：竞态泄露内核地址绕过 KASLR（实测 48 分钟），再溢出改写回调指针以 root 执行命令（再 5 分钟）；竞态失败只是单连接失败，可无限重试exploit 需服务器开 MPTCP 监听（Go 默认开启）；上游 10 月已修（4 行），Ubuntu/RHEL 滞后",
+      "summary_en": "Anthropic disclosed that its model found and exploited CVE-2026-98432, a use-after-free in the Linux kernel's IPv4 TCP handshake (CVSS 9.8; the upstream fix credits Xinyang Ge): the kernel hands IP options to the new socket without copying, and a second CPU servicing a retransmitted request can read freed memory. After initial prompting, the model wrote a working two-stage exploit: the race leaks a kernel address to defeat KASLR (48 minutes in Anthropic's test), then an overflow rewrites a callback pointer for root command execution (5 more minutes); a lost race fails only that connection, so retries are free. The exploit needs a multipath TCP listener - Go programs open one by default; IPv6 is unaffected. Upstream fixed it in October with a four-line commit; Ubuntu and RHEL lagged other distributions.",
+      "one_liner": "Anthropic 披露其模型发现并利用 Linux 内核 IPv4 TCP 握手路径的 use-after-free（CVE-2026-98432，CVSS 9.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/277d5156.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cb9c878c",
+      "title": "Hermes 190 个 cron 任务复盘：看门狗时代结束，上下文预算成为新单点",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "Gracker",
+        "original_date": "2026-11-01"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-reliability",
+        "cron",
+        "context-management",
+        "single-task-architecture"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "对本机 190 个 Hermes cron 任务的复盘：127 个禁用任务里 101 个属于旧的五段式流水线（采集/成稿/发布/通知/看门狗），现已被 15 个单任务替代，18 个看门狗只剩 1 个启用合并消掉了交接失败面，但可靠性问题搬进会话内部：近 7 天 917 次执行 104 次报错，其中 18 次上下文超限全部集中在 glm-5.3，一次 prompt 达 104 万 token 顶满上限，压缩器失败后暂停只能等判断：cron agent 可靠性重心已从拆步骤加看门狗挪到单会话上下文管理与退路设计（预留降级模型）813 次无报错运行里 400 次静默收场，日志接替了看门狗",
+      "summary_en": "A retrospective of 190 Hermes cron jobs on one machine: 101 of the 127 disabled tasks belong to the old five-stage pipeline design (collect, draft, publish, notify, watchdog - stages handing off via the filesystem), now replaced by 15 single-task jobs; 18 watchdogs are down to 1. Merging removed the handoff failure surface but moved reliability problems inside the session: of 104 errors in 917 runs over the past 7 days, all 18 context-limit errors hit glm-5.3, with one prompt reaching 1.04M tokens against a 1M cap, after which the compressor pauses itself. His judgment: cron-agent reliability work has shifted from splitting steps and adding watchdogs to context management and fallback design within single sessions (pre-provision a downgrade model). A quiet companion number: of 813 error-free runs, 400 ended silently - audit logs have replaced watchdogs.",
+      "one_liner": "对本机 190 个 Hermes cron 任务的复盘：127 个禁用任务里 101 个属于旧的五段式流水线（采集/成稿/发布/通知/看门狗），现已被 15 个单任务替代，18 个看门狗只剩 1 个启用合并消掉了交接失败面...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/cb9c878c.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-01",
-  "total_entries": 3009
+  "last_updated": "2026-11-02",
+  "total_entries": 3022
 }
