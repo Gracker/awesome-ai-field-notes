@@ -92629,8 +92629,192 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "9980f720",
+      "title": "Reliably aligning LLMs is impossible in principle",
+      "url": "https://www.seangoedecke.com/alignment-is-impossible",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-11-02"
+      },
+      "category": "models",
+      "tags": [
+        "ai-safety",
+        "alignment",
+        "interpretability",
+        "llm"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Sean Goedecke 认为可靠对齐 LLM不只做不到，连成功标准都无法连贯定义LLM 不是盲优化器：它训练于模仿庞大人类语料，内部是随输入切换的人格混合，没有可形式化的固定目标可指定；机制可解释性能定位哪些权重相乘产生了行为，但给不出动机层面的保证，Kripke 的 quaddition 例子说明善良与2030 年前善良在外部观察上不可区分；即便特征图谱穷尽，每个 token 上仍有数十亿个意图问题待审，只能让模型审模型他的落点：别把对齐当承诺CoT 监控沙箱人在环都是已知不足的缓解，能做的只是降低单次事故的代价，而不是消除事故",
+      "summary_en": "Sean Goedecke argues that \"solving alignment\" for LLMs is not merely infeasible but incoherent: we cannot articulate what success would even look like. LLMs are not blind optimizers trained on a verifiable reward; they imitate a vast corpus of human writing, producing a shifting mixture of personalities with no formalizable fixed goal. Mechanistic interpretability can locate which weights multiply to produce a behavior without explaining why; Kripke's quaddition shows \"being good\" is observationally indistinguishable from \"good until 2030\"; and even an exhaustive feature atlas leaves billions of intent questions per token that only another model could audit. His conclusion: treat alignment as mitigation, not promise - CoT monitoring, sandboxes, and human oversight are known-insufficient, so the realistic goal is lowering the cost of individual accidents, not eliminating them.",
+      "one_liner": "Sean Goedecke 认为可靠对齐 LLM不只做不到，连成功标准都无法连贯定义LLM 不是盲优化器：它训练于模仿庞大人类语料，内部是随输入切换的人格混合，没有可形式化的固定目标可指定...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9980f720.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "00f6f220",
+      "title": "This Week in Package Management: 31 October 2026",
+      "url": "https://nesbitt.io/2026/10/31/this-week-in-package-management.html",
+      "source": {
+        "platform": "blog",
+        "author": "Andrew Nesbitt",
+        "original_date": "2026-10-31"
+      },
+      "category": "infra",
+      "tags": [
+        "supply-chain",
+        "package-management",
+        "security",
+        "ai-scanning"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Andrew Nesbitt 包管理周报：RubyGems 安全团队用 AI 模型扫描 619 个高下载 gem 中的约 317 个，产出 134 条发现，人工复核否掉 120 条（约九成误报），幸存的一条是 rubyntlm 密码检查的严重缺陷模型扫描适合当召回机制，不适合当结论同周信任链动作密集：Go 因 eMudhra 八个中间 CA 进 OneCRL，7.5 小时内发出首个 URGENT-track 安全版本；Composer 2.11 引入发布冷却期；Homebrew 7.0.11 要求官方 formula 补丁可验证来源；sbt 修复漏掉的 zip slip",
+      "summary_en": "Andrew Nesbitt's weekly: the RubyGems security team scanned about 317 of 619 heavily downloaded gems with AI models, producing 134 findings of which reviewers rejected 120 - roughly 90% false positives - but the survivor was a critical password-check flaw in rubyntlm, fixed in 0.6.6. Model-driven supply-chain scanning works as a recall mechanism that routes humans to worth-reviewing spots, not as a verdict. The same week tightened trust chains elsewhere: Go shipped its first URGENT-track security release (1.27.3/1.26.10 in under 7.5 hours) rejecting chains through eight eMudhra intermediates added to OneCRL; Composer 2.11 adds a dependency cooldown policy; Homebrew 7.0.11 verifies formula patch downloads; sbt fixed a zip-slip an earlier patch missed.",
+      "one_liner": "Andrew Nesbitt 包管理周报：RubyGems 安全团队用 AI 模型扫描 619 个高下载 gem 中的约 317 个，产出 134 条发现，人工复核否掉 120 条（约九成误报），幸存的一条是 rubyntlm 密码检查的严重缺陷模型扫描适合当召回机制.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/00f6f220.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8dc9b8a4",
+      "title": "College will only cost $20 a month",
+      "url": "https://idiallo.com/blog/college-will-cost-20-dollars",
+      "source": {
+        "platform": "blog",
+        "author": "Ibrahim Diallo",
+        "original_date": "2026-10-31"
+      },
+      "category": "learning",
+      "tags": [
+        "education",
+        "ai-tutoring",
+        "learning"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "软件工程师 Ibrahim Diallo 从家长视角算题：2020-2022 年他还在鼓励学生读 CS一周能面三个候选人，如今招聘停摆，这批学生将毕业进一个完全不同的市场于是问题变成：花毕生积蓄送孩子进名校，还是每月 20 美元买 AI 订阅，配大学同款教材加 AI 家教（读一课提问辩论讲到懂）他试后的答案是这对肯啃教材的人有效，但有两个机制替代不掉：理解需要时间，即时答案省掉了挣扎过程，而他学会调试靠的是卡两小时推翻方向走出去再回来；问题不会自己出现，新问题来自人去撞绕路和失败，AI 直接交出证明只解决了第一半",
+      "summary_en": "Engineer Ibrahim Diallo, writing as a parent, weighs sending his kids to a prestigious university against a $20/month AI subscription plus the same textbooks - read a lesson, then an AI tutor quizzes, debates, and breaks down concepts. His answer: the setup works for a student who will read the material anyway, but two mechanisms resist replacement. Understanding takes time, and instant answers remove the productive struggle through which he actually learned debugging (stuck two hours, whole direction wrong, walk, come back). And questions do not generate themselves: new problems come from people wandering, failing, and getting stuck, so an AI that hands over proofs solves only the first half. Anyone redesigning learning with AI must decide which friction to keep on purpose.",
+      "one_liner": "软件工程师 Ibrahim Diallo 从家长视角算题：2020-2022 年他还在鼓励学生读 CS一周能面三个候选人，如今招聘停摆，这批学生将毕业进一个完全不同的市场于是问题变成：花毕生积蓄送孩子进名校，还是每月 20 美元买 AI 订阅...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/8dc9b8a4.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "be4cd100",
+      "title": "Your favorite agents are now integrated in Android Studio",
+      "url": "https://developer.android.com/blog/posts/ai-agents-android-studio-integration",
+      "source": {
+        "platform": "blog",
+        "author": "Android Studio Team (Google)",
+        "original_date": "2026-10-28"
+      },
+      "category": "coding",
+      "tags": [
+        "android-studio",
+        "coding-agents",
+        "ide",
+        "leakcanary"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Android Studio Rabbit 2 转稳定：BYOA（Bring Your Own Agent）可接入 40+ ACP 兼容编码智能体，官方点名 Claude AgentOpenAI CodexJunieGoogle Antigravity；智能体可直接调用模拟器构建系统Logcat，并通过新的 Skill Manager 发现安装管理 Android skills同批稳定：LeakCanary 集成进 Profiler，对内存泄漏给出根因叙述与修复建议；AI code review；XR 三类模拟器转稳IDE 的结构正从内置一个助手转向任意智能体加平台工具面的开放组合",
+      "summary_en": "Android Studio Rabbit 2 is stable: Bring Your Own Agent lets developers pick from over 40 ACP-compliant coding agents - Claude Agent, OpenAI's Codex, Junie, and Google Antigravity - and those agents get direct access to IDE tooling: the Android Emulator, build systems, Logcat, plus discoverable Android skills (XML-to-Compose migration, AGP 9 upgrades, foldable layouts) managed in a new Skill Manager. LeakCanary is integrated into the Profiler to give narrative root-cause explanations of memory leaks and suggested fixes; AI code review and stable XR emulators (glasses, audio glasses, display glasses) ship in the same release. The structural shift: the IDE moves from one bundled assistant to an open agents-plus-tools surface.",
+      "one_liner": "Android Studio Rabbit 2 转稳定：BYOA（Bring Your Own Agent）可接入 40+ ACP 兼容编码智能体，官方点名 Claude AgentOpenAI CodexJunieGoogle Antigravity.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/be4cd100.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bb0036b9",
+      "title": "Postgres 19 is late, and it's AI's fault",
+      "url": "http://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+      "source": {
+        "platform": "blog",
+        "author": "Robert Haas",
+        "original_date": "2026-10-30"
+      },
+      "category": "infra",
+      "tags": [
+        "postgresql",
+        "open-source",
+        "llm-impact",
+        "maintenance"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "PostgreSQL 核心开发者 Robert Haas：PG 19 大概率拖到 11 月才发布，打破十年9 月中到 10 月中节拍；时段更新属性图查询分区 MERGE/SPLIT 三个大功能在 beta 后期接连回退同窗口（4-08 freeze 至 9-25）commit 对比：master 10371443；稳定分支 backpatch 7241169（+60%）；更老稳定分支 248433（+74%）原因：全网用 LLM 找 PG bug 的报告涌入，LLM 起草的修复仍需人审，committer 修 bug 挤占发布评审；bug 供给端被模型放大，评审端人力没变",
+      "summary_en": "PostgreSQL hacker Robert Haas reports PG 19 will likely slip to November, breaking a decade of mid-September-to-mid-October cadence, after three large features (UPDATE/DELETE FOR PORTION OF, SQL/PGQ, ALTER TABLE MERGE/SPLIT PARTITION) were reverted between Aug 27 and Sep 15, late in beta. Commit counts over the identical yearly window (Apr 8 feature freeze to Sep 25): master 1037 -> 1443; stable-branch backpatching 724 -> 1169 (+60%); the older stable branch 248 -> 433 (+74%). His diagnosis: the world is using LLMs to hunt Postgres bugs, reports flood in, and LLM-drafted fixes still need human review - so bug supply scaled while review capacity did not. Maintainers should budget review capacity as the bottleneck.",
+      "one_liner": "PostgreSQL 核心开发者 Robert Haas：PG 19 大概率拖到 11 月才发布，打破十年9 月中到 10 月中节拍...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/bb0036b9.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f1c5f00b",
+      "title": "商务部 科技部公告2026年第48号：修订禁止出口限制出口技术目录公开征求意见并实施临时登记管理",
+      "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0a31a3c9ac404f7a9b0e917ce3412997.html",
+      "source": {
+        "platform": "blog",
+        "author": "商务部科技部（安全与管制局）",
+        "original_date": "2026-10-16"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-policy",
+        "export-control",
+        "china"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "商务部科技部 2026 年第 48 号公告（10-16 发布）：就修订中国禁止出口限制出口技术目录公开征求意见（至 11-15），涉及 AI生物医药光伏三领域 40 项技术，其中 AI 含大模型智能体算力集群信息处理相关 23 项；同时相关技术出口即时实施临时登记管理，覆盖已开始未完成的出口已通过开源发表学术论文等方式进入公共领域的技术不纳入管理；不涉及所有权转移的对外授权适用自动许可等便利措施；管制范围包含承载相关技术的关键和核心设备对依赖国内开源权重自部署的管道，权重发布节奏是主要变量",
+      "summary_en": "China's Ministry of Commerce and Ministry of Science and Technology issued Announcement No. 48 of 2026 (published Oct 16): a public consultation through Nov 15 on adding 40 technologies to the Catalog of Technologies Prohibited or Restricted from Export - 23 AI items (large models, agents, compute clusters, information processing), 5 biotech, 12 photovoltaics - while simultaneously applying interim pre-export registration to covered technologies, effective immediately and covering exports already underway but unfinished. Technologies already in the public domain via open source or academic publication are excluded; outbound licensing without ownership transfer gets automatic-license facilitation; key and core equipment carrying covered technologies is also in scope. Watch the cadence of open-weight releases from Chinese labs.",
+      "one_liner": "商务部科技部 2026 年第 48 号公告（10-16 发布）：就修订中国禁止出口限制出口技术目录公开征求意见（至 11-15），涉及 AI生物医药光伏三领域 40 项技术，其中 AI 含大模型智能体算力集群信息处理相关 23 项...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f1c5f00b.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-02",
-  "total_entries": 3028
+  "total_entries": 3034
 }
