@@ -19,9 +19,9 @@
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 458 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 640 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 326 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 模型与实验室 | 462 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 641 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 327 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 197 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 243 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 139 | 论文、课程、提示工程、长文、方法论。 |
@@ -29,15 +29,15 @@
 
 ## 当前数据
 
-- 原始条目: 3022
-- 公开展示卡片: 2248
+- 原始条目: 3028
+- 公开展示卡片: 2254
 - 有全文内容: 2138
-- 最近 7 天信号: 116
+- 最近 7 天信号: 122
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `multi-agent`, `agent-security`, `claude-code`, `security`, `coding-agents`, `agent-memory`, `agents`, `coding-agent`, `agent-safety`, `prompt-injection`, `agent-harness`, `open-weights`, `kv-cache`
+`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `multi-agent`, `agent-security`, `claude-code`, `coding-agents`, `security`, `agent-memory`, `agents`, `coding-agent`, `agent-safety`, `prompt-injection`, `agent-harness`, `open-weights`, `safety`
 
 ## 自动化约定
 

@@ -92437,8 +92437,200 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "4e8afe1d",
+      "title": "Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation",
+      "url": "https://arxiv.org/abs/2610.40574",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yifu Luo, Chuang Ma, Zeyu Chen, Enkelejda Kasneci, Qi Chen, Gjergji Kasneci",
+        "original_date": "2026-10-29"
+      },
+      "category": "models",
+      "tags": [
+        "post-training",
+        "self-distillation",
+        "token-level",
+        "teacher-selection",
+        "math-reasoning"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "OPSD（在线策略自蒸馏）用特权参考构造 teacher 做后训练，但现有方法要么全程固定 teacher，要么只在响应间调整参考暴露作者用 teacher 干预预实验证明：同一响应内每个 token 的 teacher 偏好不同，可通过多数投票加 KL 选择为每个 token 找到更优 teacherMTA-OPSD 首次做 token 级自适应：维护候选 teacher 池，训练中每个 token 自选偏好 teacherQwen3 在数学推理上平均较基座最高 +5.9，稳定超过既有 OPSD 变体，代码已开源",
+      "summary_en": "Multi-teacher Adaptive On-policy Self-Distillation (MTA-OPSD) extends on-policy self-distillation for LLM post-training by letting every token pick its own teacher. OPSD builds a teacher conditioned on privileged references, but prior methods keep the teacher fixed either across training or only across responses. A teacher-intervention pilot study shows teacher preference actually varies token by token within a single response, and a preferred teacher can be identified per token via majority voting and KL-based selection. MTA-OPSD maintains a pool of candidate teachers and lets each token adaptively select its preferred teacher during training. On mathematical reasoning with Qwen3 models it consistently outperforms existing OPSD approaches, with average gains of up to +5.9 over the base model. Code is released on GitHub.",
+      "one_liner": "OPSD（在线策略自蒸馏）用特权参考构造 teacher 做后训练，但现有方法要么全程固定 teacher，要么只在响应间调整参考暴露作者用 teacher 干预预实验证明：同一响应内每个 token 的 teacher 偏好不同.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4e8afe1d.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b43cb44d",
+      "title": "MuonGS: Pretraining LLMs with Relaxed Weight-Norm Control",
+      "url": "https://arxiv.org/abs/2610.37647",
+      "source": {
+        "platform": "arxiv",
+        "author": "Athanasios Glentis, Dawei Li, Mingyi Hong",
+        "original_date": "2026-10-27"
+      },
+      "category": "models",
+      "tags": [
+        "muon",
+        "optimizer",
+        "pretraining",
+        "norm-control",
+        "moe"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "Muon 类优化器的权重范数控制为何有效、需要多强，此前缺统一解释。用累积有效学习率 C_T=Ση_t/||W_t||_F 分析整条训练轨迹：有界更新方向下 C_T 累积约束相对权重位移；vanilla Muon 只能对数累积，限制探索，可解释其经验进度偏慢；MuonW/MuonH 保证至少线性累积。据此提出 MuonGS：Gram-Schmidt 投影去掉每次更新的径向分量但不固定范数，范数至多按 √t 增长、C_T=Ω(√T)。160M-1B MoE 预训练中长程困惑度低于 MuonH，dense 等损失约 15% token 等效加速。",
+      "summary_en": "MuonGS analyzes why weight-norm control helps Muon-style optimizers in LLM pretraining, via the accumulated effective learning rate C_T = sum eta_t/||W_t||_F. With bounded update directions, vanilla Muon accumulates only logarithmically, limiting exploration and helping explain its slower progress, while MuonW and MuonH guarantee at least linear accumulation. Since sufficiently slow norm growth already beats the logarithmic worst case, MuonGS uses Gram-Schmidt projection to remove the radial component of each update without fixing the weight norm: norm growth is bounded at O(sqrt(t)) and C_T = Omega(sqrt(T)), with O(T^-1/2) stationarity on smooth scale-invariant objectives. On 160M/400M dense and a 135M-active/1B-total MoE pretraining, MuonGS beats MuonH on validation perplexity at long horizons, about 15% token-equivalent speedup for the dense model at matched loss.",
+      "one_liner": "Muon 类优化器的权重范数控制为何有效需要多强，此前缺统一解释论文用累积有效学习率 C_T=_t/||W_t||_F 分析整条训练轨迹：有界更新方向下 C_T 累积约束相对权重位移；vanilla Muon 只能对数累积，限制探索，可解释其经验进度偏慢.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b43cb44d.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4b5951e5",
+      "title": "What Improves During Pretraining? Tracking Knowledge Acquisition with Point-in-Time Models",
+      "url": "https://arxiv.org/abs/2610.37631",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chang Su, Bin Wu, Emine Yilmaz, Yao Lu",
+        "original_date": "2026-10-27"
+      },
+      "category": "models",
+      "tags": [
+        "pretraining",
+        "point-in-time-models",
+        "knowledge-acquisition",
+        "diagnostics",
+        "aacl-2026"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "用不同年份网络快照训练的 point-in-time 模型可以探测知识在预训练中如何习得论文提出时间变异分数 TVS：同一条目在各年模型上负对数似然的变异系数，越高说明该知识在多年网页文本中越不一致6 个开源家族 6 个模型 6 个基准显示：低/高 TVS 条目早期学习速度相近，后期高 TVS 提升更快；预训练结束时高 TVS 条目在 36 个模型-基准组合中 34 个占优，平均 +7.3 的 chance 归一化准确率，知识密集型任务上最稳TVS 提供了超越聚合基准分数的预训练学习动态诊断",
+      "summary_en": "Language models pretrained on multi-year web corpora learn general and domain-specific knowledge at different points in training. Using point-in-time models trained on yearly web snapshots, the paper proposes a temporal variability score (TVS): the coefficient of variation of an item's negative log-likelihood across models, where a higher score means the knowledge is less consistently represented across years of web text. Evaluating six benchmarks with six open-source model families shows low- and high-TVS items are learned similarly early in training, but high-TVS items improve faster later; by the end of pretraining, high-TVS items win in 34 of 36 model-benchmark settings with an average +7.3 chance-normalized accuracy advantage, most robustly on knowledge-intensive tasks. TVS is a diagnostic of pretraining learning dynamics beyond aggregate benchmark scores.",
+      "one_liner": "用不同年份网络快照训练的 point-in-time 模型可以探测知识在预训练中如何习得论文提出时间变异分数 TVS：同一条目在各年模型上负对数似然的变异系数，越高说明该知识在多年网页文本中越不一致6 个开源家族 6 个模型 6 个基准显示：低/高 TVS 条目早期学习速度相近...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4b5951e5.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "75ea53f9",
+      "title": "Follow the Gradient: Tracing Safety Degradation Back to Training Data",
+      "url": "https://arxiv.org/abs/2610.37481",
+      "source": {
+        "platform": "arxiv",
+        "author": "Saket Reddy, Amro Abbas, Anshuman Suri, Ari Morcos, David Schwab, Pratyush Maini",
+        "original_date": "2026-10-27"
+      },
+      "category": "models",
+      "tags": [
+        "safety",
+        "data-filtering",
+        "gradient-attribution",
+        "emergent-misalignment",
+        "fine-tuning"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "在指令数据上微调可能在没有任何显式有害样本的情况下悄悄侵蚀安全，内容过滤器难以发现。SimpleLoRIF 用可扩展梯度嵌入找出与不安全行为梯度对齐的训练样本：简化低秩归因，反向传播只到最后 4 个 transformer 块，可嵌入百万级样本。emergent misalignment 上梯度把不安全代码数据与微调后的广泛危害行为关联，AUC 最高 0.865。SafeTulu（Tulu 3 去掉最对齐不安全响应的 20% 样本）在 Qwen/Llama/Olmo 上 GCG 攻击成功率最高降 22%，优于 LLM-as-a-judge 与既有梯度过滤，能力基本保持；并识别出工具执行失败、叙事算术等被低估的安全退化来源。",
+      "summary_en": "Fine-tuning LLMs on instruction data can quietly erode safety even when no training example looks harmful, so content filters miss it. SimpleLoRIF is a scalable gradient-embedding method that identifies fine-tuning examples whose gradients align with unsafe behavior: it simplifies low-rank attribution, restricts backpropagation to the final four transformer blocks, and scales to million-example datasets. On emergent misalignment, gradients connect insecure-code data to broadly harmful post-fine-tuning behavior (AUC up to 0.865). SafeTulu, Tulu 3 minus the 20% of examples most gradient-aligned with unsafe responses, cuts GCG attack success rate by up to 22% across Qwen, Llama and Olmo, beating LLM-as-a-judge and prior gradient filtering while largely preserving capability. Tool-execution failures and narrative arithmetic emerge as under-studied safety-degradation sources.",
+      "one_liner": "在指令数据上微调可能在没有任何显式有害样本的情况下悄悄侵蚀安全，内容过滤器难以发现SimpleLoRIF 是可扩展梯度嵌入方法：简化低秩归因并把反向传播限制到最后 4 个 transformer 块，可嵌入百万级样本...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/75ea53f9.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "67ad963d",
+      "title": "From extreme weather to agricultural consequences with agentic AI",
+      "url": "https://arxiv.org/abs/2610.40641",
+      "source": {
+        "platform": "arxiv",
+        "author": "Minghan Yu, Mengyu Dai, Yixin Wen, Haizhao Yang",
+        "original_date": "2026-10-29"
+      },
+      "category": "agents",
+      "tags": [
+        "agentic-ai",
+        "agriculture",
+        "decision-support",
+        "causal-analysis",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "WxCrop 把极端天气预报转成可核查的农业损失评估：基于物理可解释的天气指数并用因果分析检验，首次联合天气与农业信息，对历史与预报日期预测作物损失在佛罗里达验证飓风霜冻干热三类灾害，损失模型分别按灾种用保险记录校准，流程可迁移到其他灾害与地区三项可靠性检验：飓风指数识别历史气旋日 AUC 0.98；留出年份损失复现误差在 2% 以内；独立产量记录验证县级排序（秩相关 0.63）用户按作物组查询损失占预期季度价值的比例，每个数字都有出处，服务于政府农户与科研人员的灾害响应",
+      "summary_en": "WxCrop is an agentic AI system that turns extreme-weather forecasts into agricultural loss estimates. It is the first agent to judge agricultural hazards from physically interpretable weather indices examined by causal analysis, and the first to combine weather and agricultural information to predict crop loss for both past and forecast dates. Demonstrated in Florida on hurricanes, freezes and dry heat, with a loss model calibrated per hazard on insurance records. Three reliability checks: the hurricane index detects recorded cyclone days with AUC 0.98, losses in held-out years are reproduced within 2%, and independent production records confirm county rankings with rank correlation 0.63. Users can ask for each crop group's loss as a fraction of expected season value, with every number sourced, supporting governments, growers and scientists in disaster response.",
+      "one_liner": "WxCrop 把极端天气预报转成可核查的农业损失评估：基于物理可解释的天气指数并用因果分析检验，首次联合天气与农业信息，对历史与预报日期预测作物损失在佛罗里达验证飓风霜冻干热三类灾害，损失模型分别按灾种用保险记录校准...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/67ad963d.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "761e5e0b",
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+      "source": {
+        "platform": "blog",
+        "author": "Nolan Lawson",
+        "original_date": "2026-10-28"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "benchmark",
+        "web-frameworks",
+        "lighthouse",
+        "cost"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Nolan Lawson 用统一基准检验 agent 时代的框架选型：让 Opus 5.5（Claude Code）用 12 个 JS 框架各 5 次构建同一份 Pokémon 应用，以规格套件防作弊，比成本、token、代码量与 Lighthouse。成本差异真实：Hono+htmx 最便宜（$2.67/次），SvelteKit/Gracile+Lit/Angular 最贵（Angular $4.97）；Lighthouse 性能/可访问性接近饱和，区分度落在 JS 字节数（0–142 KiB）、TBT 与 LCP，MPA 普遍占优；代码量 1370（Hono+htmx）到 2009 行（Angular），影响后续修改成本。",
+      "summary_en": "Nolan Lawson tests whether JavaScript framework choice in the agentic era can be evidence-based: Opus 5.5 in Claude Code built the same non-trivial Pokmon app 5 times per framework across 12 frameworks/meta-frameworks, using each tool's official MCP/skills where available, checked by a spec-conformance suite and evaluated on cost, tokens, LOC and Lighthouse. Build cost differences are real: Hono+htmx was cheapest at a $2.67 median per run, while SvelteKit, Gracile+Lit and Angular were most expensive (Angular $4.97, 17.2 min, 9.76M tokens). Lighthouse performance/accessibility were nearly saturated, so signal moved to JS bytes (Astro ~0 KiB vs Next.js ~142 KiB), TBT and LCP, which favor MPAs. LOC ranged from ~1370 (Hono+htmx) to ~2009 (Angular), and code size feeds the token cost of future edits. He suspects current MCPs/skills may do more harm than good.",
+      "one_liner": "Nolan Lawson 用统一基准回答agent 时代选框架还要靠氛围吗：让 Opus 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/761e5e0b.md",
+      "images": [],
+      "added_date": "2026-11-02",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-02",
-  "total_entries": 3022
+  "total_entries": 3028
 }
