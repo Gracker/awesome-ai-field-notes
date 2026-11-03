@@ -92813,8 +92813,286 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "44de35dd",
+      "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
+      "url": "https://arxiv.org/abs/2610.42147",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ales Kubicek, Andrea Caciolai, Liangzu Peng, Sukrit Sumant, Benjamin Hoover, Fraser Greenlee, Ruairi...",
+        "original_date": "2026-10-30"
+      },
+      "category": "models",
+      "tags": [
+        "long-context",
+        "sparse-attention",
+        "efficiency",
+        "inference-optimization"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "智能体长程任务推动上下文进入百万 token 量级，全注意力开销不可行，现有稀疏索引器要么仍是平方复杂度要么在超长上下文掉精度LSA 将 key 在学习到的隐空间中分层聚类，query 只对簇层级打分而非逐 key 打分，同时加速 prefilldecode 与训练；提供蒸馏适配预训练模型的 D-LSA 与仅用下一 token 损失原生训练的 N-LSA在 GLM-5.3-FLASH（QWEN-3.8-27B）10M token 下，D-LSA 单层注意力 prefill 提速 22.7 倍（对比全注意力 72.4 倍）decode 4.6 倍（42.5 倍）且任务精度相当；N-LSA 在 128k token 以 1.6 倍单层训练提速匹配全注意力精度",
+      "summary_en": "Agentic long-horizon workloads push contexts past 1M tokens, where full attention is prohibitively expensive and existing sparse-attention indexers either stay quadratic or lose accuracy at that scale. Latent Sparse Attention (LSA) hierarchically clusters keys in a learned latent space so queries score cluster hierarchies instead of every key, accelerating prefill, decode and training. Distilled-LSA adapts pre-trained models via distillation; Native-LSA trains natively on next-token loss alone. On GLM-5.3-FLASH (QWEN-3.8-27B) at 10M tokens, D-LSA speeds one attention layer 22.7x (72.4x) in prefill and 4.6x (42.5x) in decode over the original sparse (full) attention with similar accuracy across tasks; N-LSA matches full-attention accuracy with 1.6x per-layer training speedup at 128k tokens.",
+      "one_liner": "LSA 隐空间分层聚类稀疏注意力：10M token 下 prefill 单层提速 22.7 倍且精度不掉",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/44de35dd.md",
+      "images": [],
+      "added_date": "2026-11-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b0ba02d9",
+      "title": "Hierarchical World Models with Implicit Dynamics",
+      "url": "https://arxiv.org/abs/2610.42146",
+      "source": {
+        "platform": "arxiv",
+        "author": "Gaoyue Zhou, Yvonne Wu, Zichen Jeff Cui, Nicolas Ballas, Mido Assran, Lerrel Pinto, Yann LeCun",
+        "original_date": "2026-10-30"
+      },
+      "category": "agents",
+      "tags": [
+        "world-models",
+        "planning",
+        "embodied-agents",
+        "hierarchical-control"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "世界模型规划能让具身智能体测试时自适应，但长程任务受累计误差与搜索复杂度制约，现有分层方法多用僵硬宏动作或隐技能，表征脆弱ID-WM 把状态空间可达性与局部控制解耦：高层模型在状态流形上采样可行转移，低层世界模型作为逆动力学求解器把转移落地为精确动作；规划器据此不被底层执行细节束缚地识别可达子目标，优先局部物理可行性，用短片段合成训练分布外的长程规划三个导航与操作套件上较 SOTA 策略与扩散规划器提升 38.5%，较单层世界模型 MPC 在复杂未见配置上提升 135%",
+      "summary_en": "Planning with world models lets embodied agents adapt at test time, but long-horizon tasks suffer cumulative errors and search complexity, and existing hierarchical methods use rigid macro-actions or latent skills. ID-WM (Implicit Dynamics World Models) decouples state-space reachability from local control: a high-level model samples feasible transitions across the state manifold, and a low-level world model acts as an inverse dynamics solver grounding transitions into precise actions. The planner identifies reachable subgoals without low-level execution detail, prioritizing local physical feasibility over global behavioral patterns and synthesizing novel long-horizon plans from short segments. Across three navigation and manipulation suites it improves 38.5% over SOTA policy and diffusion planners, and 135% over single-level world-model MPC on unseen long-horizon configurations.",
+      "one_liner": "ID-WM 分层世界模型：高层采样可行转移+逆动力学落地，长程规划较扩散规划器 +38.5%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b0ba02d9.md",
+      "images": [],
+      "added_date": "2026-11-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c17a67a2",
+      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+      "url": "https://arxiv.org/abs/2610.42141",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shengguang Wu, Suning Huang, Cherie Ho, Ria Doshi, Hao Zhu, Serena Yeung-Levy",
+        "original_date": "2026-10-30"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "robotics",
+        "persistent-memory",
+        "automation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "冻结策略放进 agent harness（决定何时调用策略查视觉工具或直接指令机械臂的控制代码）后表现大幅提升，但这类 harness 目前靠人工按机器人/基准重设计RoboArchitect 用编码模型观察 rollout诊断失败并迭代改写冻结策略外围的 harness，在优化 episode 上演化在留出场景与任务上评估不改任何模型权重：未见场景平均成功率 9.7% 到 43.3%（4.5 倍），未见任务 12.7% 到 40.2%（3.2 倍）；包住通用策略的演化 harness 常胜过微调版自动设计出的策略包括把卡住的臂抬起遇上方障碍改横向接近；harness 还自主演化持久记忆，把抓取深度等经验带入后续决策",
+      "summary_en": "A frozen robot policy performs far better inside an agent harness - control code deciding when to call the policy, vision tools, or the arm directly - but harnesses are hand-built and redesigned per robot and benchmark. RoboArchitect automates harness design: a coding model observes rollouts, diagnoses failures, and iteratively revises it around the frozen policy; the harness evolves on optimization episodes and is evaluated on held-out scenes and tasks. With no weight updates, average success rises from 9.7% to 43.3% on unseen scenes (4.5x) and 12.7% to 40.2% on unseen tasks (3.2x); wrapping a general-purpose policy, the evolved harness often outperforms the finetuned variant. Evolved strategies include lifting a jammed arm clear or reaching horizontally past obstacles, and the harness evolves persistent memory carrying learned experience like grasp depths into later decisions.",
+      "one_liner": "RoboArchitect 自动演化机器人 agent harness：零权重更新，未见场景成功率 9.7% 到 43.3%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c17a67a2.md",
+      "images": [],
+      "added_date": "2026-11-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3d92be45",
+      "title": "CRoS: Causality Reward on Scrambled CoTs Improves Accuracy and Reasoning Faithfulness",
+      "url": "https://arxiv.org/abs/2610.42054",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xiao Yu, Justin Chih-Yao Chen, Zaid Khan, Hyunji Lee, Mohit Bansal",
+        "original_date": "2026-10-30"
+      },
+      "category": "models",
+      "tags": [
+        "rlvr",
+        "reasoning",
+        "chain-of-thought",
+        "faithfulness"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "RLVR 只奖励结果正确性，不能保证 CoT 因果地支撑答案；现有因果性度量靠删步骤或注错误来扰动 CoT，会同时改变每步信息，高分可能只是对信息变化的敏感而非真因果，用作训练奖励还会诱发低信息量 CoT抑制探索与自我纠错CRoS 只打乱推理步骤顺序不改内容来度量因果性Reasoning Gym + Gemma-3-4B 上，CRoS 在分布外精度CoT 质量与忠实度全面超过现有因果/结果奖励：五个未见逻辑与游戏数据集 46.8%（最强基线 43.8%），CoT-Pass@K（K=1 到 128）平均 43.4% 对 41.4%，hint 承认率 34.0% 对 20.2%",
+      "summary_en": "RLVR trains reasoning models on outcome correctness alone, which does not guarantee the CoT causally contributes to the answer. Perturbation-based causality metrics (deleting steps, injecting errors) alter per-step information, so high causality scores may reflect sensitivity to information change rather than true causality; as training rewards they induce less informative CoTs and reduce exploration and self-correction. CRoS perturbs only the order of reasoning steps, preserving each step's content. On Reasoning Gym with Gemma-3-4B it beats existing causality and outcome rewards on out-of-domain accuracy, CoT quality and faithfulness: 46.8% accuracy on five unseen logic and games datasets vs 43.8% for the strongest baseline, better CoT-Pass@K from K=1 to 128 (43.4% vs 41.4% average), and hint-acknowledgment faithfulness of 34.0% vs 20.2%.",
+      "one_liner": "CRoS：只乱序不改内容的 CoT 因果奖励，Gemma-3-4B 分布外精度与忠实度双超基线",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3d92be45.md",
+      "images": [],
+      "added_date": "2026-11-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "134bf8de",
+      "title": "Same Question, Different Answers: Auditing Persona-Dependent Variation in Six LLMs on Smoking-Cessation Advice",
+      "url": "https://arxiv.org/abs/2610.42039",
+      "source": {
+        "platform": "arxiv",
+        "author": "Artin Yousefi, Aizierjiang Aiersilan, Lorien C Abroms, David A Broniatowski",
+        "original_date": "2026-10-30"
+      },
+      "category": "models",
+      "tags": [
+        "evaluation",
+        "persona-dependence",
+        "llm-safety",
+        "health-advice"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "聊天机器人用户得到的健康建议是否相同？对四家厂商六个部署中 LLM 的戒烟建议审计，把同样四个问题发给人生阶段自述专业度吸烟史不同的 12 类用户画像，共 2,880 条回答模型说什么取决于谁在问：所有模型对青少年画像提及 FDA 处方戒烟药的比例比成人低 32-67 个百分点；六个模型中五个对自称医疗专业者的画像给出的医学事实反而更少可部署干预是系统提示词设定事实底线语气措辞自由适配：每个模型的画像差异都收窄，但幅度和方向因模型而异，在一个系统上验证过的提示词不能假设可迁移；且提及率均等并非总是临床目标（未成年人不推荐处方药物），事实底线须按年龄区分全部回答与分析代码已开源",
+      "summary_en": "Do chatbot users get the same health advice? An audit of six widely deployed LLMs from four providers on smoking cessation put the same four questions to twelve personas differing in life stage, expertise and smoking history - 2,880 responses. What models say depends on who appears to be asking: every model named FDA-approved prescription cessation medications less often to teen personas than adults (32-67pp), and in five of six models a healthcare-expertise persona received fewer facts than one with none. A factual-floor system prompt narrows persona differences in every model, but effect size and direction vary across models, so a prompt validated on one system may not transfer. Equal mention rates are not always the clinical target (pharmacotherapy is not recommended for minors), so a factual floor must be age-aware. All 2,880 responses and analysis code are released.",
+      "one_liner": "六模型戒烟建议审计：青少年画像获处方药提及少 32-67pp，事实底线提示词不能跨模型迁移",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/134bf8de.md",
+      "images": [],
+      "added_date": "2026-11-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e407f55b",
+      "title": "RangeSWA: Training-Free Length Extrapolation for Continuous Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.42084",
+      "source": {
+        "platform": "arxiv",
+        "author": "Guangfu Guo, Xiaoqian Lu, Linsey Pang, Weiran Yao, Haolin Chen, Long Cheng, Kunpeng Liu",
+        "original_date": "2026-10-30"
+      },
+      "category": "models",
+      "tags": [
+        "diffusion-lm",
+        "length-extrapolation",
+        "training-free"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "连续扩散语言模型在生成长度超过训练长度时出现重复语义漂移与质量退化RangeSWA 是免训练的长度外推方法：局部滑窗注意力加远端块摘要加动态内容检索，兼顾局部细节与长程访问；再用位置重映射条件注意力校正按去噪阶段自适应的窗口调度抑制退化多个连续扩散语言模型实验显示长文本生成的困惑度与重复率均下降",
+      "summary_en": "Continuous diffusion language models degrade when generation length exceeds the training length, showing text repetition, semantic drift and quality loss. RangeSWA is a training-free length extrapolation method combining local sliding-window attention, remote block summaries and dynamic content retrieval to preserve local detail while supporting long-range context access; generation degradation is further mitigated through positional remapping, conditioning-attention correction, and denoising-stage-adaptive window scheduling. Experiments on multiple continuous diffusion language models show reduced generative perplexity and repetition rates in long-text generation.",
+      "one_liner": "RangeSWA：免训练让连续扩散语言模型外推更长生成长度，滑窗+块摘要+位置重映射",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/e407f55b.md",
+      "images": [],
+      "added_date": "2026-11-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "38c41eb0",
+      "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming",
+      "source": {
+        "platform": "blog",
+        "author": "Rikiya Takehi, Jayden Teoh, Alex Zhang, Omar Khattab (MIT CSAIL)",
+        "original_date": "2026-11-02"
+      },
+      "category": "models",
+      "tags": [
+        "weight-space-programming",
+        "interpretability",
+        "weight-editing",
+        "qwen"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "MIT CSAIL（TakehiTeohZhangKhattab）发现前沿 LLM 能原生读写原始网络权重，无需训练循环或环境反馈GPT-6 Astra 仅凭 17,253 个原始权重就以 99% 置信度判断网络训练于哪款游戏；一次性改 3.5% 权重把 0% 成功率策略修到 100%让它在无梯度下提升 Qwen3.5-0.8B 数学能力时，它定位到模型卡警告的推理循环对应的权重缺陷，在 Python 内核里原生编辑 0.016% 权重：MATH-500 从 7.9% 升到 48.1%，IFEval 提升 3 倍并开箱泛化到指令遵循作者称之为权重空间编程：由会推理权重的 LLM 原生优化权重，而非 Adam/Muon 这类符号优化器",
+      "summary_en": "MIT CSAIL researchers report that frontier LLMs can natively read and write raw neural network weights without training loops or environment feedback. GPT-6 Astra identifies from 17,253 raw weights alone which game a network was trained to play (Breakout, 99% confident), and one-shot edits of 3.5% of weights turn a 0%-success policy into 100%. Asked to improve Qwen3.5-0.8B at math without gradients, it locates a weight-level defect behind the reasoning loops Qwen's own model card warns about and fixes it by natively editing 0.016% of the weights in a Python kernel: MATH-500 rises from 7.9% to 48.1% and IFEval improves 3x, generalizing out of the box to instruction following. The authors call this weight-space programming: weights natively optimized by an LLM that reasons about what each part should compute, rather than by symbolic optimizers like Adam or Muon.",
+      "one_liner": "Astra 权重空间编程：LLM 原生读写权重，改 0.016% 权重把 Qwen3.5-0.8B MATH-500 从 7.9% 提到 48.1%",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/38c41eb0.md",
+      "images": [],
+      "added_date": "2026-11-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "28063093",
+      "title": "Mathematics has changed. Let's act like it",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it",
+      "source": {
+        "platform": "blog",
+        "author": "Frank Calegari (guest post on Terence Tao's blog)",
+        "original_date": "2026-11-01"
+      },
+      "category": "industry",
+      "tags": [
+        "mathematics",
+        "ai-for-research",
+        "publishing",
+        "openai"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Calegari 在 Tao 博客的客座文章回应 OpenAI 10 月 6 日发布 700 多篇数学论文：这是数学史分水岭，AI 已能跨领域作出突破性贡献，但论文写作糟糕违反署名规范部分有错针对学科被掏空的担忧，他以有限单群分类为先例：解决中心问题不是终结而是打开新游乐场；并引 Duminil-Copin 的感叹他公开提过的所有大开放问题都在这批论文中被宣称解决具体建议：把所有工作按 AI 辅助评审招聘更重当面交流对期刊提更高要求研究生教育重广度办更好的研讨会对 AI 结果负起所有权；选题能力可能比产出证明更重要",
+      "summary_en": "Guest post by Frank Calegari on Terence Tao's blog responding to OpenAI's October 6 release of 700+ research papers, which he calls a watershed in the history of mathematics: AI is now undeniably capable of groundbreaking contributions across many areas, yet the papers are atrociously written, violate community attribution expectations, and some are wrong. Against 'hollowing out' fears he uses the classification of finite simple groups as precedent: solving central problems opens new playgrounds rather than ending a field, quoting Hugo Duminil-Copin's lament that every major open problem he mentioned publicly was claimed in the dump. Proposals: evaluate all work as if AI-assisted, hire via in-person interaction, demand more from journals, emphasize breadth in graduate education, give better seminars, take ownership of AI results - and reward problem choice over proof production.",
+      "one_liner": "Calegari 客座 Tao 博客：OpenAI 700 篇论文是数学分水岭，社区该改评审/招聘/期刊机制而非悲伤",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/28063093.md",
+      "images": [],
+      "added_date": "2026-11-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2a10a176",
+      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing",
+      "source": {
+        "platform": "blog",
+        "author": "Patrick E. Zeller (JetStream Security)",
+        "original_date": "2026-07-01"
+      },
+      "category": "agents",
+      "tags": [
+        "prompt-injection",
+        "agent-security",
+        "legal",
+        "governance"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "巴西帕拉州 Parauapebas 第 3 劳动法院处罚两家律所：他们在诉状里用白底白字隐藏提示词注入指令，意图让法院或对方的 AI 系统给出表面化回应不出质疑巴西国家司法委员会全国统一的生成式 AI 审查工具 Galileu 识别出隐藏文字并告警自动阻断处理法院认定该行为违反民事诉讼法第 5 条诚信义务与第 77 条禁止妨害诉讼，按 84.2 万雷亚尔诉请金额的 10% 罚款（约 1.6 万美元），可能是全球首例针对故意操纵法院 AI 的裁决要点：诉讼文件完整性延伸到机器可读内容；摄取外部文档的企业 AI 系统需要持续的提示词注入监测",
+      "summary_en": "A Brazilian labor court censured and fined two law firms for embedding a hidden prompt-injection command in a court filing - possibly the first judicial ruling globally addressing intentional manipulation of a court AI system. Review via Galileu (the National Justice Council's nationwide generative AI tool) flagged white-font-on-white-background text telling the AI to respond superficially and not challenge the documents. The court found intent to bias AI responses or draft judgments and fined the firms 10% of the R$842,000 claim (~$16,000) under good-faith and anti-obstruction duties in Civil Procedure Code Articles 5 and 77; Galileu alerted and blocked processing. The ruling affirms that a filing's integrity extends to its machine-readable content and underlines continuous prompt-injection monitoring on externally ingested documents.",
+      "one_liner": "巴西法院全球首例处罚诉状提示词注入：白字藏指令被 Galileu 识破，律所被罚诉请额 10%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2a10a176.md",
+      "images": [],
+      "added_date": "2026-11-03",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-02",
-  "total_entries": 3034
+  "last_updated": "2026-11-03",
+  "total_entries": 3043
 }
