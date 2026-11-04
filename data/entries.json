@@ -93490,8 +93490,316 @@
       "related": [
         "38c41eb0"
       ]
+    },
+    {
+      "id": "d94c9f77",
+      "title": "Progress on provable inference for large language models",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic Frontier Red Team",
+        "original_date": "2026-11-02"
+      },
+      "category": "infra",
+      "tags": [
+        "zksnark",
+        "provable-inference",
+        "inference-verification",
+        "cryptography",
+        "model-provenance",
+        "lean",
+        "anthropic"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic Frontier Red Team 发布 FlashProve：用 zkSNARK 证明回复确实来自声明的权重，防路由层偷换模型与 token 流篡改。Llama 4 Maverick（约400B MoE、4-bit）单张 H100 约 110 tok/s 出证明，每 1024-token 请求约 19MB，GPU 开销约为 vLLM 原生推理的 70–95 倍，验证只需 CPU。prover 与 C++/Lean 双 verifier、Lean 安全声明等全量开源。硬边界：上下文 ≤1024、只证明整数 greedy、架构不隐藏，仓库标注 Not maintained。",
+      "summary_en": "Anthropic's Frontier Red Team released FlashProve, a zkSNARK-based system for provable inference: a provider commits to a set of weights and proves each response was produced by that model, countering silent model substitution by routing services or token-stream tampering. For Llama 4 Maverick (~400B-parameter MoE, 4-bit quantized, integer prefill), a single H100 generates proofs at ~110 tokens/second with ~19MB per 1,024-token request - roughly 70-95x the GPU time of native vLLM inference - while verification runs on a plain CPU. Five artifacts are open-sourced under Apache-2.0: blog, technical report, protocol spec, a prover with fast C++ and provably-correct Lean verifiers, and Lean top-level soundness statements. Hard limits: 1,024-token context cap, integer model with greedy decoding only, architecture not hidden, repo marked Not maintained.",
+      "one_liner": "可验证推理从论文走向可用原型：110 tok/s 出证明加 CPU 秒级验证是真的，但 1k 上下文与 7095 开销说明它离产品化还有距离",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d94c9f77.md",
+      "images": [],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "62ae9381",
+      "title": "Make long-running agents faster with message threads",
+      "url": "https://claude.com/resources/articles/message-threads",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic",
+        "original_date": "2026-11-02"
+      },
+      "category": "infra",
+      "tags": [
+        "message-threads",
+        "prompt-caching",
+        "ttft",
+        "context-management",
+        "api",
+        "anthropic"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Anthropic 推出 Messages API Message Threads 公测：长会话 agent 首轮传全文，之后只传新消息加前次 response id，Claude 每轮仍读全史，token 用量与账单不变。50 万–100 万 token 请求中位 TTFT 约 −35%，请求体中位 800KB→1.8KB；Claude Code 多数用户默认开启。线程存加密内存不落盘，闲置 5 分钟过期、最长保留 1 小时；不自动做 prompt cache，二者是两套时钟；无 list/read/delete API，不适用 ZDR/HIPAA。",
+      "summary_en": "Anthropic's Messages API Message Threads entered public beta (2026-11-02): long-running agents send the full conversation once, then only new messages plus the previous response id, while Claude still reads the full thread each turn - token usage and billing unchanged. Anthropic reports median TTFT down about 35% for 500k-1M token requests and median request bodies shrinking from ~800KB to ~1.8KB; Claude Code enables it by default for most users. Threads live in encrypted memory (not disk), expire 5 minutes after the last request, are kept at most 1 hour, do not automatically create prompt-cache entries (two separate clocks), lack list/read/delete APIs, and are not offered under ZDR or HIPAA terms. Available on the native API, AWS, Microsoft Foundry and GCP Anthropic managed at standard rates.",
+      "one_liner": "Threads 把长 agent 的重复上下文传输挪到服务端，TTFT 35% 是官方实测口径；但它与 prompt cache 是两套时钟，过期重放仍是应用自己的活",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/62ae9381.md",
+      "images": [],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fc64f6c4",
+      "title": "auth.md Open Protocol for Agent Registration",
+      "url": "https://workos.com/auth-md",
+      "source": {
+        "platform": "blog",
+        "author": "WorkOS",
+        "original_date": "2026-11-02"
+      },
+      "category": "agents",
+      "tags": [
+        "auth.md",
+        "agent-registration",
+        "oauth",
+        "identity",
+        "open-protocol",
+        "security"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "WorkOS 发布开放协议 auth.md：应用在自家域名放一个 Markdown 文件，声明 agent 如何代用户注册——支持哪些流程、scope 与凭证签发。两条流程：agent verified 由身份提供方担保（无人在环），user claimed 由用户输确认码认领。凭证为短时效、可撤销的 scoped access token，走标准 OAuth（PRM + ID-JAG），不绑定 WorkOS。Cloudflare、Neon、Firecrawl、Resend 等已上线。agent 代注册从模拟填表走向机器可读协议。",
+      "summary_en": "WorkOS published auth.md, an open protocol for agent registration: apps host a Markdown file at their domain telling agents which flows, scopes and credentials they support for registering users on a user's behalf. Two flows: agent verified (the agent's identity provider vouches for the user, no human in the loop) and user claimed (the agent shows a code, the user confirms sign-in; no provider needed). Agents receive short-lived, revocable scoped access tokens over standard OAuth, composing Protected Resource Metadata and ID-JAG identity assertions; the protocol is not tied to WorkOS infrastructure - any app can publish and any agent can read one. Cloudflare, Neon, Firecrawl, Resend, Parallel and monday.com already serve auth.md at their domains.",
+      "one_liner": "agent 代注册有了开放协议而不是各家私有 API：auth.md 复用 OAuth 而非另起炉灶，Cloudflare/Neon/Firecrawl 已上线，值得 agent 平台跟进",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fc64f6c4.md",
+      "images": [],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e27c3e7e",
+      "title": "Building fine-grained version control for agents with Rust and Durable Objects",
+      "url": "https://delta.dev/blog/fine-grained-version-control-for-agents",
+      "source": {
+        "platform": "blog",
+        "author": "Antonio Scandurra (Delta)",
+        "original_date": "2026-10-29"
+      },
+      "category": "coding",
+      "tags": [
+        "version-control",
+        "agents",
+        "crdt",
+        "durable-objects",
+        "git",
+        "zed"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Zed 团队（Delta）介绍 DeltaDB：为 agent 并发设计的细粒度版本控制。每个 agent thread 是一棵存于客户端 SQLite、同步到单个 Cloudflare Durable Object 的 CRDT delta DAG；worktree 分层建于 git 之上，编辑记为 delta，commit 时链回 git 历史；subagent 在独立时间线工作再合回，协作无需 git commit。与 OpenAI Pando 互补：Pando 改服务端 push/fetch，DeltaDB 改客户端状态模型。",
+      "summary_en": "Delta (the team behind Zed) describes DeltaDB, a fine-grained version control system designed for concurrent agents. Each agent thread is a DAG of CRDT deltas stored in client-side SQLite and synced to one Cloudflare Durable Object per thread. Worktrees layer on top of git: edits are recorded as deltas starting from a commit, and creating a commit links the delta DAG back into git history. Subagents work on separate timelines in the same DAG and merge back into it, so coordinating agents requires no git commits. It complements OpenAI's Pando: Pando reworks server-side push/fetch for agent-scale monorepos with packfiles and causal consistency, while DeltaDB reworks the client-side state model.",
+      "one_liner": "agent 的每次编辑是 CRDT delta 而不是 git commit：Zed 团队把 subagent 协作做进了版本控制数据模型，与 Pando 的服务端改造互补",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e27c3e7e.md",
+      "images": [],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dc6c7ef2",
+      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "source": {
+        "platform": "blog",
+        "author": "Jay Peters (The Verge)",
+        "original_date": "2026-11-02"
+      },
+      "category": "industry",
+      "tags": [
+        "copyright",
+        "ai-scraping",
+        "lawsuit",
+        "brave",
+        "paywall",
+        "new-york-times"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "《纽约时报》联合 Daily News、Chicago Tribune、Orlando Sentinel 起诉 Brave：诉状指其把抓取索引货币化，向 AI 公司出售 Brave Index 付费访问，点名 Anthropic、Perplexity、Mistral、xAI、Cohere；浏览器 Paywall blocker 还让用户绕过数百家出版商付费墙。原告律师定性为「为 AI 行业销赃」。AI 数据供应链第一次以索引商而非模型厂商为被告。",
+      "summary_en": "The New York Times, New York Daily News, Chicago Tribune and Orlando Sentinel sued Brave Software over alleged unlawful scraping to train AI and for letting users bypass paywalls. The complaint says Brave monetized its index of scraped websites by selling AI companies paid access to 'real-time online content from the Brave Index', naming Anthropic, Perplexity, Mistral, xAI and Cohere among customers using the index to train models or answer queries; Brave also promotes 'hundreds of top publishers' as accessible through its Paywall blocker. NYT's spokesperson says the suit seeks accountability for 'stealing our content' to power Brave's own products and to provide it to prominent generative AI companies; the plaintiffs' attorney calls it 'laundering pirated reporting for the AI industry'.",
+      "one_liner": "被告不是模型厂商而是索引商：NYT 等把 Brave 的抓取索引定性为给 AI 公司销赃，AI 训练数据的中间层第一次坐上被告席",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/dc6c7ef2.md",
+      "images": [
+        "https://a5867.casalemedia.com/impression/v2/560950/85/dblhumm7gq44c835h8l0/9016605a-3954-46e6-9d6c-0d1096c52f01?verifieD=1&userID=ae9ZxdHM4JQABOM0AKnLMQAA&cmpro=446&deviceType=2&expiryTime=1793794482&profileIDs=&creativeID=3c4b94e&pubID=183789&format=banner&channel=site&ee=1",
+        "https://k8s1-event-tracker-la.lb.indexww.com/event/ci?bi=9016605a-3954-46e6-9d6c-0d1096c52f01&bs=300x250&c=63224142&campid=8543998&cid=699337089&d=85&dab=www.theverge.com&ec=31&ee=1&f=1&i=%2F8352%2Fverge%2Ftheverge.com%2Ftech%23div-gpt-ad-medium_rectangle_variable&p=183789&pr=1.14&s=560950&tx=dblhumm7gq44c835h8l0",
+        "https://pagead2.googlesyndication.com/pagead/gen_204?id=xbid&dbm_b=AKAmf-CUVw7fpHEonmvzz1mfm-lQp_jZf5DZq39-bIFIvgPSZtU79R1jezh3t5lPvTX6kIjpoPC4O2hLDdDqh5Cps3mXHUaA519US1FqLziCckidJXO3Xf4",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/JAY_BLURPLE.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=96",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2289911637.jpg?quality=90&strip=all&crop=0.6295907660021%2C0%2C98.740818467996%2C100&w=2400"
+      ],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f8f82185",
+      "title": "Pluralistic: The AI fatfinger economy has come for my receipts app",
+      "url": "https://pluralistic.net/2026/11/04/genius-scan-is-neither",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-11-04"
+      },
+      "category": "industry",
+      "tags": [
+        "ui-dark-patterns",
+        "reward-hacking",
+        "goodhart",
+        "ai-strategy",
+        "enshittification"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cory Doctorow 以自己的扫描应用 Genius Scan 命名「AI fatfinger 经济」：为把 AI 使用量做成给投资人的 KPI，产品把最常用按钮换成「无用的 AI 精灵」，用户用误触买单。机制类比 reward hacking：管理层 KPI 即目标函数，员工像模型一样找捷径——Google Plus 奖金挂按钮点击是同构（Goodhart 定律）。UI 层强制是当下最普遍的 AI 伤害，UI fuckery 早于 AI，AI 只是新借口。",
+      "summary_en": "Cory Doctorow names the 'AI fatfinger economy' via his receipts app Genius Scan: to make AI usage look good as an investor KPI, products replace the most-used buttons with 'a useless AI genie', and users pay with mis-taps. He maps the mechanism to reward hacking: a manager's KPI is an objective function, so employees - like models - find perverse shortcuts that make the number go up; Google Plus tying bonuses to button clicks was the same structure under Goodhart's law. He separates three meanings of 'AI being shoved down our throats' - bosses demanding reckless workplace AI, shareholder capture (SpaceX joining index funds), and the most visible UI-level conscription - arguing UI-level Goodhart failure is today's most widespread form of AI harm. UI fuckery predates AI; AI is just the new excuse.",
+      "one_liner": "KPI 变成目标函数后，员工和模型一样学会 reward hacking：Doctorow 给每个按钮都换成 AI的 UI 现象起了名字",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f8f82185.md",
+      "images": [
+        "https://i0.wp.com/craphound.com/images/04Nov2026.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/appearances3.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/by.svg.png?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/colophon2.jpg?w=840&ssl=1",
+        "https://i0.wp.com/craphound.com/images/fatfinger-ai-2.jpg?w=840&ssl=1"
+      ],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3b2537f6",
+      "title": "Running Dry",
+      "url": "https://www.wheresyoured.at/running-dry",
+      "source": {
+        "platform": "blog",
+        "author": "Ed Zitron",
+        "original_date": "2026-11-03"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-bubble",
+        "openai",
+        "anthropic",
+        "funding",
+        "unit-economics"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Ed Zitron 用融资与财报数据论证 AI 资本面转弱：OpenAI 原以 1.4 万亿估值募 300 亿，一个月后只以 1.25 万亿拿到 110 亿，主权基金与私募信贷「已给到上限」，下一轮转向 family office；这笔钱不够覆盖一个季度算力成本（Q1 营收成本加研发 121 亿美元）。Anthropic IPO 预期从 2 万亿回落到 1.4–1.5 万亿，350 亿 Broadcom 担保 TPU 租约已评 BB+；S-1/A 显示 8950 亿支出承诺、四年内至少 3199 亿到期。",
+      "summary_en": "Ed Zitron tracks the AI capital downturn with funding and filing data: OpenAI targeted $30B at a $1.4T valuation but closed $11B at $1.25T 'after receiving tepid interest from some large investors', now aiming at family offices and high-net-worth individuals - and the round will not cover one quarter of its compute burn ($12.1B in Q1 2026 cost of revenue plus R&D). Anthropic's expected IPO valuation fell from $2T toward $1.4-1.5T; Blackstone told investors it may not receive an investment-grade rating after listing, and its $35B Broadcom-backstopped TPU lease was rated BB+ by KBRA. Anthropic's amended S-1/A shows $895B in spending commitments with at least $319.9B due within four years. His thesis stands: it all ends when the money runs out, and the money is running dry.",
+      "one_liner": "OpenAI 降估值半价募资Anthropic IPO 预期缩水加 BB+ 租约评级：两大实验室的资本面第一次同时亮黄灯",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3b2537f6.md",
+      "images": [
+        "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2026/11/data-src-image-0a2d2b23-9448-4404-9acb-d4ce9d0de62b.png",
+        "https://storage.ghost.io/c/24/d8/24d8fcec-dfba-4f40-a467-823d2941ae46/content/images/2026/11/data-src-image-1ca52419-9ada-4357-96ca-1f6b27140bc2.png"
+      ],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1388d062",
+      "title": "Pluralistic: Separable",
+      "url": "https://pluralistic.net/2026/11/03/nobody-is-home",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-11-03"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-culture",
+        "turing-test",
+        "mathematics",
+        "centaur",
+        "authorship"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cory Doctorow 从 Edison 留声机 tone test 讲起：观众把唱片当现场演奏，因为「演奏必有演奏者」此前无需分辨。AI 正迫使社会完成同样的分离——没有作家的文字、没有画家的画、没有数学家的数学。chatbot 能过图灵测试不是它像人，而是我们还没学会听「唱片的底噪」；学会后同样的模型开始不过测试。引 Tanswell 与 Scarciotti：模型给七桥问题的路线图，不产生图论式脚手架——有解无洞见；Tao 是 centaur，行业推销 reverse centaur。人才供给会因「AI 取代」叙事真的枯竭。",
+      "summary_en": "Cory Doctorow opens with Edison's 1915-1925 phonograph 'tone tests': audiences took recordings for live music because the intuition that 'a performance implies a performer' had never needed challenging. AI forces the same separation - words without writers, paintings without painters, mathematics without mathematicians. Chatbots passed the Turing Test at launch not because they were human-like but because we had not yet learned to hear the needle hiss; once we do, the same models flunk it. On mathematics, citing Tanswell and Scarciotti: models deliver a route map for the Seven Bridges problem, not graph-theoretic scaffolding - solutions without insights. Tao-style collaboration is a centaur; what AI companies sell is the reverse centaur, humans marking the machine's homework. Convince students the profession is dying, and the supply of future mathematicians and radiologists dies with it.",
+      "one_liner": "不是模型变差了，是我们学会了分辨：Doctorow 用表演者分离解释图灵测试失效，把 AI 数学的真相概括为有解无洞见",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1388d062.md",
+      "images": [],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "eb366117",
+      "title": "Just a little AI resistance, as a treat",
+      "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat",
+      "source": {
+        "platform": "blog",
+        "author": "Terence Eden",
+        "original_date": "2026-11-03"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-resistance",
+        "customer-service",
+        "sycophancy",
+        "ai-slop"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Terence Eden 记录一次小型「AI 抵抗」：向英国生鲜电商 Ocado 反馈日历邀请 bug 后，收到典型 AI 客服回复——谄媚认同开场、英式英语罕见的 em-dash、没人真读技术分析。他在满意度调查全项一星，抗议「用 AI 回复真实投诉是不尊重」；几天后收到真人客服亲自道歉，确认诊断已转技术团队。他的立场：AI 分诊、摘要、统计合理，但用 AI 回信给活人是说客户时间不值钱；坚持要人处理是普通用户少有的有效杠杆。",
+      "summary_en": "Terence Eden documents a small act of AI resistance: after reporting a calendar-invite bug to UK grocer Ocado, he received a classic AI customer-service reply - sycophantic agreement, an em-dash rare in British style guides, and no sign anyone had read his technical analysis. He scored the satisfaction survey 1-star across the board and complained that using AI to reply to a human complaint is disrespectful. Days later a real person replied personally, apologizing and confirming the detailed diagnostic had reached the engineering team. His line is measured: AI for triage, summarization and theme-counting is fine, but replying to humans with AI says their time matters less than yours - loudly calling out bad AI and insisting on a human is a rare effective lever (the AI Resist List practice from EMFCamp).",
+      "one_liner": "谄媚开场em-dash空洞转交认出 AI 客服的指纹后一星抗议，真的换来了真人道歉：一次低成本高回报的抵抗样本",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/eb366117.md",
+      "images": [],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-04",
-  "total_entries": 3055
+  "total_entries": 3064
 }
