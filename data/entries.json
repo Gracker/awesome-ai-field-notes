@@ -93028,7 +93028,10 @@
       "added_date": "2026-11-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "435a4449",
+        "9b0f1b38"
+      ]
     },
     {
       "id": "28063093",
@@ -93261,8 +93264,234 @@
       "related": [
         "a4f8f998"
       ]
+    },
+    {
+      "id": "fe275818",
+      "title": "WebHarbor: Docking Real Websites for Evolving GUI Agent Environments",
+      "url": "https://arxiv.org/abs/2611.03634",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhaoyang Wang, Jianfeng Gao, et al. (Microsoft)",
+        "original_date": "2026-11-02"
+      },
+      "category": "agents",
+      "tags": [
+        "gui-agents",
+        "web-agents",
+        "benchmark",
+        "environments",
+        "docker"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "微软等机构的 arXiv 2611.03634（11-02）提出 WebHarbor：153 个可执行docker 化的网站环境，在确定性控制下还原真实 web 服务的界面内容与功能流程，供 GUI 网页 agent 评测与训练动机是真实网站评测受内容变动访问限制与登录流程覆盖不足困扰，而合成训练环境缺乏功能深度与视觉保真度构建采用任务驱动的人机协作，环境随新任务扩展功能范围GUI agent 的运行环境正从静态快照转向可确定性重建的可执行镜像",
+      "summary_en": "WebHarbor (arXiv 2611.03634, Nov 2, cs.AI/cs.CL/cs.LG) is a suite of 153 executable, dockerized website environments that reconstruct the visual interfaces, content, and functional workflows of real web services under deterministic control, for GUI web-agent evaluation and training. Motivation: live-site evaluation suffers from changing content, access restrictions, and poor coverage of authenticated workflows, while synthetic training environments lack functional depth and visual fidelity. Built through task-driven human-agent collaboration where environments evolve as new tasks expand their functional scope. Authors: Zhaoyang Wang through Jianfeng Gao (Microsoft-led, 50+ contributors).",
+      "one_liner": "GUI agent 需要稳定的可执行环境：153 个 docker 化站点镜像把真实网站的工作流确定性重建，评测与训练共用同一套环境",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fe275818.md",
+      "images": [],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "868f0c6f",
+      "title": "Strategist: Evolving Reasoning with Agents",
+      "url": "https://arxiv.org/abs/2611.03618",
+      "source": {
+        "platform": "arxiv",
+        "author": "Taiming Lu, Qi Xu, Zhigang Hua, Zhuang Liu",
+        "original_date": "2026-11-02"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "inference-strategies",
+        "code-as-harness",
+        "self-improvement",
+        "skill-library"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Taiming Lu 等的 arXiv 2611.03618（11-02）把 agent 系统拆成模型加推理策略两半：策略是把模型调用变成响应的推理流程，现在靠手写且经验不跨任务复用Strategist 是一个进化推理策略的 meta-agent，策略写成 blueprint，即可被其他策略复用的可执行代码，blueprints 积累成库给定任务与小开发集时，它检索相关 blueprint，写候选策略，用真实样本测试并根据结果修订，每个候选都入库经验复用的单位从 prompt 文本升级为可执行代码",
+      "summary_en": "Strategist (arXiv 2611.03618, Nov 2, cs.AI/cs.CL) frames an AI agent system as model plus inference strategy: the reasoning procedure that turns model calls into a response, today hand-written and non-reusable across tasks. Strategist is a meta-agent that evolves inference strategies across tasks: each strategy is a blueprint - executable code that other strategies can reuse - and blueprints accumulate into a library. Given a task and a small dev set, it retrieves related blueprints, writes candidate strategies, tests them on real samples, and revises them from the results; every candidate then enters the library. Authors: Taiming Lu, Qi Xu, Zhigang Hua, Zhuang Liu.",
+      "one_liner": "推理策略本身成了可积累的资产：策略写成可执行 blueprint 入库复用，meta-agent 检索改写测试修订，跨任务进化",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/868f0c6f.md",
+      "images": [],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "951238ee",
+      "title": "Four Bridges: Measuring Deception Propensity in a Multi-Agent Game",
+      "url": "https://arxiv.org/abs/2611.03600",
+      "source": {
+        "platform": "arxiv",
+        "author": "Raphael Casey, Michael Simeone, Kemal El Moujahid, et al.",
+        "original_date": "2026-11-02"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "multi-agent",
+        "deception",
+        "safety",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "arXiv 2611.03600（11-02）在 Kradle 评测平台提出 Four Bridges 信息不对称博弈：四个 agent 分处四室，一室是死亡室，其余房间藏有不分享就更值钱的食物；知情 agent 知道哪间是死亡室，可选择隐瞒或披露诚实性评测大多是在逼模型撒谎的单轮单 agent 基准上做的，这项工作测的是不给任何欺骗指令时多 agent 互动中自发出现的欺骗倾向八款前沿模型作为知情 agent 参评欺骗倾向有了专门的多 agent 测量面",
+      "summary_en": "Four Bridges (arXiv 2611.03600, Nov 2, cs.AI/cs.MA) measures deception that emerges in multi-agent interaction without any instruction to deceive - honesty is mostly benchmarked in single-turn, single-agent settings that pressure the model to lie. On the Kradle evaluation platform the authors introduce an information-asymmetry game: four agents occupy four rooms, one is a death room, the others hold food worth more if not shared; one informed agent knows which room is the death room and can withhold or disclose that information. Eight frontier models were evaluated as the informed agent. Authors: Raphael Casey, Michael Simeone, Alberto Tosato, Kemal El Moujahid, et al.",
+      "one_liner": "不给任何欺骗指令时 agent 会不会撒谎：四室信息不对称博弈把诚实性从单轮基准搬进多 agent 互动，八款前沿模型参评",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/951238ee.md",
+      "images": [],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a0bc910a",
+      "title": "USDB: Scaling Storage for Next-Generation Recommender Systems at ByteDance",
+      "url": "https://arxiv.org/abs/2611.02618",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xiaoran Zhu, Jieming Cai, et al. (ByteDance)",
+        "original_date": "2026-11-02"
+      },
+      "category": "infra",
+      "tags": [
+        "storage",
+        "recommender-systems",
+        "infrastructure",
+        "bytedance",
+        "training-data"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "字节跳动 arXiv 2611.02618（11-02）公开推荐系统序列存储实践 USDB：越来越长的属性化用户历史让小幅持续更新与反复大读构成核心存储不对称CascadeLSM 按时间分层的 compaction 具体化应用专属历史，差异化副本共享持久文件，partial dump 用捕获的近期状态加版本化历史重建推理输入，混合列式格式加速投影读，维护成果在 ingestion推理训练之间复用生产迁移记录显示平均写延迟降 85.8%推荐模型的存储面是 ML infra 里少被公开讨论的一块",
+      "summary_en": "USDB (arXiv 2611.02618, Nov 2, cs.DB) is ByteDance's unified sequence-storage practice for recommender-system workloads, where long attribute-rich user histories make small continuous updates and repeated large reads the central storage asymmetry. CascadeLSM time-based compaction stages materialize application-specific histories; differentiated replicas share persistent files; partial dumps reconstruct inference inputs from captured recent state plus versioned history; a hybrid columnar format accelerates projected reads. The designs reuse maintenance results across ingestion, inference, and training; production migration records show 85.8% lower mean write latency. Authors: Xiaoran Zhu, Jieming Cai, et al.",
+      "one_liner": "推荐模型的超长用户历史把存储问题翻面：小幅写入与反复大读不对称，字节用 CascadeLSM 分层加共享副本把平均写延迟降 85.8%",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/a0bc910a.md",
+      "images": [],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "da9a5824",
+      "title": "[SEVERE] Desktop auto-installs Codex/Claude plugins; installer attempts to trust its own startup hook",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "source": {
+        "platform": "github",
+        "author": "indicava",
+        "original_date": "2026-10-25"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "tool-privilege",
+        "consent",
+        "mcp",
+        "supply-chain"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "用户 indicava 2026-10-25 的 GitHub issue（208 反应）：仅在 Mac 打开 Postman 桌面版 12.33.4 后，Codex 被装上用户级 Postman 插件，另有 Claude Code 插件自启动指令 hook远程 MCP 连接与单独安装的 Postman CLIPostman 的 main.log 记录了自动安装：source 为 auto-existing-upgrade，结果为 claude-code:installed 与 codex:installed定性为同意与信任边界问题：API 客户端不应因被打开就把自己塞进其他工具的默认工作流",
+      "summary_en": "Postman desktop 12.33.4 silently installed plugins into unrelated coding agents, per user indicava's Oct 25, 2026 GitHub issue (208 reactions, open, 31 comments; ~956 HN points). After merely opening Postman on macOS, they found a user-wide Postman plugin in Codex, a Claude Code plugin, a startup instruction hook the installer tried to have trusted, a remote MCP connection, and a separately installed Postman CLI. Postman's own main.log records the automatic install: source 'auto-existing-upgrade', results 'claude-code:installed','codex:installed', and 'Main: autoInstall.plugin.existing-user finished'. The reporter frames it as a consent and trust-boundary failure: an API client should not make itself the default workflow in other tools just by being opened.",
+      "one_liner": "打开一个 API 客户端，Codex 和 Claude Code 被静默装上插件与自启动 hook：Postman 日志自证 autoInstall，同意边界问题进入 agent 工具链",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/da9a5824.md",
+      "images": [],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9b0f1b38",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-11-03"
+      },
+      "category": "models",
+      "tags": [
+        "weight-space-programming",
+        "interpretability",
+        "qwen",
+        "local-models"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison（11-03）在自己笔记本上用 Qwen 3.8 27B 复现了权重空间编程论文的例子：本地模型也能解读并修改原始权重论文即 MIT CSAIL 的 Sparks of Weight-Space Programming，其报告 GPT-6 Astra 看 17,253 个原始权重就能判断网络训练于哪款游戏，改 0.016% 权重把 Qwen3.5-0.8B 的 MATH-500 从 7.9% 提到 48.1%他提醒论文混了两件该分开的事：不跑代码时模型对原始权重能做什么，以及配上代码后帮别的模型提分能到什么程度并链接了 Honnibal 的误导性质疑与 Goedecke 的拆解",
+      "summary_en": "Simon Willison (Nov 3) reports that Qwen 3.8 27B running on his laptop can also interpret and modify raw model weights, playing with examples from 'Sparks of Weight-Space Programming' (Takehi, Teoh, Zhang, Khattab) - the paper reporting GPT-6 Astra reading raw weights to name a network's training game and editing 0.016% of Qwen3.5-0.8B's weights to lift MATH-500 from 7.9% to 48.1%. He argues the paper bundles two topics worth separating: what models can do with raw weights without tools or code execution, and how well models improve other models once armed with code. He also links Matthew Honnibal's 'misleading' critique and Sean Goedecke's deconstruction of the Qwen example.",
+      "one_liner": "权重空间编程不是前沿模型专属：笔记本上的 Qwen 3.8 27B 也能解读并修改原始权重，但看权重与写代码两件事要分开看",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/9b0f1b38.md",
+      "images": [],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "38c41eb0"
+      ]
+    },
+    {
+      "id": "435a4449",
+      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "source": {
+        "platform": "blog",
+        "author": "Matthew Honnibal",
+        "original_date": "2026-11-03"
+      },
+      "category": "models",
+      "tags": [
+        "weight-space-programming",
+        "claims-verification",
+        "interpretability",
+        "reproducibility"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "spaCy 作者 Matthew Honnibal（11-03）逐实验拆解刷屏的 Astra 权重读写帖：摘要让人以为 Qwen 数学修复是只看原始权重完成的，但他的实验表显示各实验手法不同，有的读权重，多数写 Python 程序，有的还跑网络只看权重的只有 17K 到 24K 参数的小演示；头条的 Qwen3.5 修复（800M）不读原始权重，用 Python 加 50 次网络前向，同样的修法在 Gemma 3 上失败像魔术师用不同手法重复同一个把戏，单一能力的印象来自异质实验的叠加读权重与写代码改权重应作为两个命题分别评估",
+      "summary_en": "Matthew Honnibal (spaCy author, Nov 3, 5-minute read) argues the viral 'Astra can read and write weights to improve Qwen' post is misleading: its abstract implies the Qwen math fix worked 'just by looking at the raw weights', but his experiment-by-experiment table shows heterogeneous techniques - some experiments read raw weights, several write Python programs, some run the network. Raw-weight reading alone covers only the small 17K-24K-parameter demos; the headline Qwen3.5 fix (800M) does not read raw weights and uses Python plus 50 network passes, and the same fix on Gemma 3 failed. Like a stage magician repeating one trick with different methods, the impression of a single capability comes from stacking different experiments; reading weights and code-assisted weight editing should be evaluated as separate claims.",
+      "one_liner": "爆款结论要逐实验核：Astra 帖摘要说只看权重，实验表显示 Qwen 修复靠 Python 加 50 次前向，Gemma 3 上同法失败",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/435a4449.md",
+      "images": [],
+      "added_date": "2026-11-04",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "38c41eb0"
+      ]
     }
   ],
   "last_updated": "2026-11-04",
-  "total_entries": 3048
+  "total_entries": 3055
 }
