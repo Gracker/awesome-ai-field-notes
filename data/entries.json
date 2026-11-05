@@ -93033,7 +93033,8 @@
       "github_stars": null,
       "related": [
         "435a4449",
-        "9b0f1b38"
+        "9b0f1b38",
+        "60d45b51"
       ]
     },
     {
@@ -93130,7 +93131,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [
-        "411a7697"
+        "411a7697",
+        "3a06f84c"
       ]
     },
     {
@@ -93458,7 +93460,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [
-        "38c41eb0"
+        "38c41eb0",
+        "60d45b51"
       ]
     },
     {
@@ -93491,7 +93494,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [
-        "38c41eb0"
+        "38c41eb0",
+        "60d45b51"
       ]
     },
     {
@@ -93559,7 +93563,9 @@
       "added_date": "2026-11-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "080b2b11"
+      ]
     },
     {
       "id": "fc64f6c4",
@@ -94059,8 +94065,539 @@
         "d31a18ea",
         "cb2f457f"
       ]
+    },
+    {
+      "id": "aeb4fec4",
+      "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
+      "url": "https://arxiv.org/abs/2611.05275",
+      "source": {
+        "platform": "arxiv",
+        "author": "Pengfei Zhou et al.",
+        "original_date": "2026-11-03"
+      },
+      "category": "models",
+      "tags": [
+        "model-routing",
+        "orchestration",
+        "cost-efficiency",
+        "benchmarks",
+        "omni-modal",
+        "agents"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Route Anything 把模型与策略路由放进统一框架：覆盖语言图像视频语音生成编程与办公 agent机器人操作的 25 个基准452 种候选配置374,401 次计分运行构成 omni-modal 轨迹矩阵，理论上刻画质量成本权衡下的最优路由并证明路由器可得信息决定性能上限逐输入 oracle 比最佳固定候选高 5.4 分；学习路由在 16 个基准上仅高 0.3 分，视频生成 +2.1机器人操作 +1.1 且策略时间省 24%；相对参考模型平均效率提升 8.82 倍知道哪个候选最好与学会选它之间的差距是本文最值得读的结论",
+      "summary_en": "Route Anything studies model and policy routing as one problem: an omni-modal trajectory matrix spans 25 benchmarks (language, image, video, speech generation, coding and workplace agents, robot manipulation) with 374,401 scored runs from 452 candidate configurations, plus a theory of optimal routing under quality-cost trade-offs showing attainable performance is bounded by the information available to the router. Per-input oracle routing beats the best fixed candidate by 5.4 points; learned routers beat it by only 0.3 points across 16 benchmarks (+2.1 video generation, +1.1 robot manipulation with 24% less policy time). Routing raises efficiency 8.82x on average versus the reference model - an advantage that depends on the reference model and per-task cost definitions.",
+      "one_liner": "37 万次计分运行把路由研究拉回地面：oracle 与学习路由差 5 分，8.82 倍效率收益依赖参考模型与成本定义，不能当通用加速比",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/aeb4fec4.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "674ce9f3",
+      "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+      "url": "https://arxiv.org/abs/2611.04814",
+      "source": {
+        "platform": "arxiv",
+        "author": "Muyao Yuan et al.",
+        "original_date": "2026-11-03"
+      },
+      "category": "models",
+      "tags": [
+        "reasoning-compression",
+        "overthinking",
+        "dpo",
+        "preference-learning",
+        "efficiency"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "LoCo 处理推理模型信息已足够仍继续深思的过度思考问题：从模型自身轨迹检测候选过度思考状态，冻结对应推理前缀，从同一状态再生更短且经验证的续写，用状态条件偏好对做 DPO，教会模型何时继续何时收尾，而非单纯鼓励更短轨迹训练数据全部来自自生成数学轨迹；五个数学基准上 completion 长度降 41.7%45.4%，三个代码基准降 23.4%36.3%，准确率维持或提高且代码 AUC 全部最佳，仅数学训练即可迁移到代码生成作者将开源代码与模型",
+      "summary_en": "LoCo targets overthinking in large reasoning models: it detects candidate overthinking states from the model's own traces, freezes the reasoning prefixes, regenerates shorter verified continuations from the same states, and trains on state-conditioned preference pairs with DPO - teaching when to continue and when to conclude rather than merely shortening trajectories. Built entirely from self-generated math traces, LoCo cuts completion length 41.7-45.4% on five math benchmarks and 23.4-36.3% on three code benchmarks while maintaining or improving accuracy (best AUC on all code benchmarks), transferring to code despite math-only training.",
+      "one_liner": "在要不要继续想这个局部决策上做 DPO，比全局压缩轨迹更对症；长度降幅不能直接换算成墙钟时间或能耗",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/674ce9f3.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2be6aba3",
+      "title": "You don't need long context",
+      "url": "https://arxiv.org/abs/2611.05306",
+      "source": {
+        "platform": "arxiv",
+        "author": "Peter Belcak et al. (NVIDIA)",
+        "original_date": "2026-11-03"
+      },
+      "category": "models",
+      "tags": [
+        "long-context",
+        "context-compaction",
+        "efficiency",
+        "semantic-state-space",
+        "agent-systems"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "NVIDIA 团队 31 页技术报告质疑长上下文模型的必要性：前沿开源权重模型上，靠后 token 的生成成本最高可达靠前的 7 倍；通过频繁压缩上下文，模型在广泛的长程与长输入任务上几乎不损失精度甚至在长程软件工程任务上每个上下文只执行一个动作，性能也不崩，由此提出语义状态空间模型（SSSM）概念阅读时的关键问题是压缩摘要保留了哪些状态哪些任务丢了分需要精确回查原始信息的任务仍依赖完整上下文，报告并未证明所有任务都不再需要长上下文窗口",
+      "summary_en": "Later tokens cost more to generate than earlier ones - up to 7x on frontier open-weight models. This NVIDIA technical report (31 pages) shows that with frequent context compaction, frontier LLMs sacrifice little to no accuracy across a broad range of long-horizon and long-input tasks, and that performance does not collapse on long-horizon software engineering even when taking at most one action per context. From this they outline semantic state space models (SSSMs), questioning the need for long-context language models. Open question: which state survives compaction and which tasks lose points - tasks requiring exact retrieval of earlier raw context still need it.",
+      "one_liner": "7 倍 token 成本差加频繁压缩几乎不掉点，直接质疑长上下文模型的必要性；精确回查原始信息类任务仍是例外",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2be6aba3.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "07d7977e",
+      "title": "ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2611.05036",
+      "source": {
+        "platform": "arxiv",
+        "author": "Guanting Dong et al.",
+        "original_date": "2026-11-03"
+      },
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "tool-use",
+        "environment-synthesis",
+        "long-horizon-agents",
+        "benchmarks"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "ToolSpace 反转 MCP 环境合成的数据为中心路线：用确定性规则（而非 LLM 判断）从真实 MCP 服务执行轨迹挖掘相邻调用间的数据状态重试依赖，聚类成环境；只对状态变更环境合成数据库，查询工具回放录制返回；带回滚的状态感知随机游走生成带断言的任务，只保留能从初始状态成功重放的样本AutomationBench 与 tau3-Bench 的 Pro 版让七个前沿模型最多降 38.2 个百分点；Qwen3.6-35B-A3B 七个长程工具基准平均 23.041.0，接 RL 43.2",
+      "summary_en": "ToolSpace reverses data-centric MCP environment synthesis: deterministic rules (not LLM judgment) mine data, state, and retry dependencies from adjacent calls in execution traces of real MCP services and open agent corpora, clustering the weighted tool-composition graph into environments. Databases are synthesized only for state-mutating environments; query and stateless tools replay recorded returns. State-aware random walks with rollback produce natural-language tasks with assertion checks, keeping only samples that replay successfully from the initial state. Harder Pro versions of AutomationBench and tau3-Bench Banking drop seven frontier models by up to 38.2 points; Qwen3.6-35B-A3B rises 23.0 to 41.0 across seven long-horizon tool benchmarks, 43.2 after RL.",
+      "one_liner": "从真实 MCP 调用轨迹反推环境合成，评测难度与训练收益都建立在可重放上；38.2 个百分点降幅是七模型上限口径",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/07d7977e.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0962f523",
+      "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
+      "url": "https://arxiv.org/abs/2611.03233",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuqi Jia et al.",
+        "original_date": "2026-11-02"
+      },
+      "category": "agents",
+      "tags": [
+        "open-models",
+        "agent-foundation-model",
+        "sft",
+        "reinforcement-learning",
+        "reproducibility"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Axion 1.0 是完全开放的 agent 基础模型，配方刻意简单：两次轻量 SFT 加 RL，没有专门 mid-trainingDPO 或 OPD第一阶段 SFT 用模型感知数据构造建立独立推理合成难题并基于基座自身成功解法做对抗强化；第二阶段经可扩展管线扩展到依赖工具的推理，任务源于真实数据源与确定性计算可自动验证；RL 强化长程推理与外部工具环境交互在广泛的 agent 基准上表现强，若干基准与领先商业模型竞争开放不止权重：数据构造生成过滤验证提示词与训练代码全部发布，整个开发过程可复现可扩展",
+      "summary_en": "Axion 1.0 is a fully open agent foundation model with a deliberately simple recipe: two lightweight SFT stages followed by RL, without dedicated mid-training, DPO, or on-policy distillation. Stage one builds self-contained reasoning via model-aware data construction (synthesizing hard problems adversarially strengthened from the base model's own successful strategies); stage two extends to tool-dependent reasoning through a scalable pipeline grounded in real-world data and deterministic computation; RL then strengthens long-horizon reasoning and tool interaction. It is competitive with leading commercial models on several agentic benchmarks, and openness extends beyond weights to data construction, filtering, verification, prompts, and training code.",
+      "one_liner": "开放+简单是它的卖点：三段式配方可复现；但完全开放是作者表述，权重/数据/许可需逐项核对后再引用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0962f523.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9bc15d28",
+      "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
+      "url": "https://arxiv.org/abs/2611.04916",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kling Team (Kuaishou)",
+        "original_date": "2026-11-03"
+      },
+      "category": "models",
+      "tags": [
+        "video-generation",
+        "multimodal-understanding",
+        "captioning",
+        "prompt-enhancement",
+        "dit"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Kling 团队的 observations 报告判断视频生成瓶颈正从渲染转向语义控制：生成质量是多模态理解经数据条件对齐评估链路的投影Kling-MLLM 作为共享基础模型统一图像视频音频音视频同步与交错输入，按下游模块特化因 DiT 训练样本远少于语言模型，团队把 captioning 当作最大化描述密度的语义契约，扩展出显式绑定参考物的 reference-grounded captioning；提示词增强把用户意图翻译成 caption 分布，基础版用文本级与生成器在环 RL 精化，agentic 版做故事精化与样例检索",
+      "summary_en": "The Kling team argues the video-generation bottleneck is shifting from rendering to semantic control: generation quality is the projection of multimodal understanding through the whole data-conditioning-alignment-evaluation chain. A shared foundation model (Kling-MLLM) unifies image, video, audio, synchronized audio-video, and interleaved inputs, specialized per downstream module. Because a DiT sees far fewer training samples than an LLM, captioning is treated as a semantic contract maximizing description density, extended to reference-grounded captioning that makes reference bindings explicit; prompt enhancement translates user intent into the caption distribution, with basic PE refined via text-level and generator-in-the-loop RL and agentic PE refining stories and retrieving compelling examples.",
+      "one_liner": "把生成质量=理解的投影讲成方法论：caption 是语义契约PE 是意图翻译器；属团队经验报告，完整训练配方未核验",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9bc15d28.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9f0404e8",
+      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "url": "https://arxiv.org/abs/2611.05377",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jisoo Kim et al.",
+        "original_date": "2026-11-03"
+      },
+      "category": "models",
+      "tags": [
+        "latent-actions",
+        "video-diffusion",
+        "robot-learning",
+        "cross-embodiment"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "DreamX 把预训练视频扩散模型改造成通用潜在动作学习器：从视频模型的时空特征提取紧凑潜在动作，每帧压缩 300 倍（12004 token）；利用生成先验让潜在动作捕捉与外观解耦的动作相关动力学所得潜在空间可作为跨本体（人与机器人）跨环境跨动作参数化的共享动作接口，在 LARY-Bench 上取得潜在动作模型中的 SOTA，一个设置下编码的动作在另一设置仍然有效能否迁移到实际设备不同相机与控制频率仍待完整实验验证",
+      "summary_en": "DreamX repurposes a pretrained video diffusion model as a universal latent action learner: compact latent actions are extracted from the model's spatiotemporal features, compressing each latent video frame 300x (1,200 to 4 tokens); the generative prior helps capture action-relevant dynamics disentangled from visual appearance. The resulting latent space serves as a shared action interface across embodiments (human and robot), environments, and action parameterizations, achieving state-of-the-art among latent action models on LARY-Bench with actions encoded in one setting remaining effective in another. Transfer to real devices, camera variation, and control frequencies remains to be fully validated.",
+      "one_liner": "视频扩散先验拿来当动作表示，300 倍压缩与外观解耦是两个可记住的数字；离真机迁移还有距离",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/9f0404e8.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "810faf01",
+      "title": "Jepsen: ParticleDB 1.1.4",
+      "url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "source": {
+        "platform": "blog",
+        "author": "Jepsen",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "jepsen",
+        "llm-generated-code",
+        "databases",
+        "correctness",
+        "llm-tradeoffs",
+        "documentation-trust"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Jepsen 发布 Orkes ParticleDB 1.1.4 分析：LLM 让小团队极短时间内写出规模惊人的分布式 SQL 数据库（五年前需数百人年），但质量塌了它是正确性错误的分形，LLM 工具链反复声称 bug 已修而实际未修；Orkes 能详释 Conductor 的问题，却说不清 ParticleDB 任何问题的成因与修法，新版本凭空出现没有 changelog硬事实：WAL 损坏致数据丢失谓词在事务内静默失配主键可被更新为 NULL快 PostgreSQL 1087 倍实测远不是深层判断：LLM 侵蚀对文档软件与组织的信任",
+      "summary_en": "Jepsen's analysis of Orkes ParticleDB 1.1.4: LLMs let a handful of engineers produce a distributed SQL database of staggering scope in remarkably short time (hundreds of person-years five years ago), but quality suffered - 'ParticleDB was a fractal of correctness errors,' and LLM tooling repeatedly claimed bugs were fixed when they were not. Orkes engineers explained Conductor bugs in detail yet could not explain the cause or resolution of nearly any ParticleDB issue; new builds materialized without changelogs. Hard facts: WAL corruption loses data, predicates silently fail to match inside transactions, primary keys could be updated to NULL, and the claimed '1087x faster than PostgreSQL' did not hold. LLM use erodes trust in documentation, software, and the organizations producing them.",
+      "one_liner": "Jepsen 把LLM 写的数据库钉在案板上：产出速度换来解释并修掉问题能力的退化，而文档这个替代品也由模型生成",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/810faf01.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "758cfd79",
+      "title": "Pluralistic: Without CDA 230, Facebook will own the internet forever",
+      "url": "https://pluralistic.net/2026/11/05/see-you-in-court",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-11-05"
+      },
+      "category": "industry",
+      "tags": [
+        "cda-230",
+        "scraping",
+        "platform-regulation",
+        "ai-moderation",
+        "content-moderation",
+        "doctorow"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cory Doctorow 论证废除 CDA 230 正中大科技下怀其一，禁止抓取是糟糕政策：搜索引擎靠抓取建立，临时复制也要许可的规则只有 Google 买得起全网授权；想看清 Zuck 与 Musk 的算法如何推送虚假信息Amazon 如何用监控数据定价Uber 如何压低司机报酬，同样依赖抓取；保护创作者生计的正道是劳工组织而非更多版权其二，230 让用户为自己言论负责平台免于连带责任；大平台有律师团与 AI 审核撑得住诉讼，真正怕的是用户大规模迁往小型独立服务他以自己三十年的邮件列表组织因一场撤诉仍烧掉大半资产的实例作证：没有中介的有限责任，就没有独立网络",
+      "summary_en": "Cory Doctorow argues that killing Section 230 is exactly what big tech wants. Banning scraping is terrible policy: search engines are built on scraping, and a licensing regime for transient copies is one only Google could afford; understanding how algorithms peddle disinformation, how Amazon price-gouges from surveillance data, or how Uber lowballs desperate drivers depends on scraping, and protecting creative livelihoods calls for labor organizing, not more copyright. CDA 230 makes users responsible for their speech and platforms non-liable for carrying it; large platforms with lawyer armies and AI moderation can survive litigation - what they fear is users mass-migrating to small independent services. His 30-year-old mailing-list organization burned much of its assets on one withdrawn lawsuit: without limited liability for intermediaries, there is no independent web.",
+      "one_liner": "反直觉但论证扎实：废 230 利好 Meta 不利好用户；禁抓取与AI 审核两个议程都被点名为大科技的护城河",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/758cfd79.md",
+      "images": [
+        "https://i0.wp.com/craphound.com/images/05Nov2026.jpg?w=840&ssl=1"
+      ],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "46934368",
+      "title": "Goodhart's Law, but We Already Spent All Our Money",
+      "url": "https://idiallo.com/blog/we-spent-all-our-money-goodharts-law",
+      "source": {
+        "platform": "blog",
+        "author": "iDiallo",
+        "original_date": "2026-11-04"
+      },
+      "category": "industry",
+      "tags": [
+        "goodharts-law",
+        "ai-economics",
+        "metrics",
+        "valuation",
+        "enterprise-ai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "iDiallo 用古德哈特定律拆解 AI 行业的度量困境：当一件事的重要性只按挣钱衡量，人们就会想办法多挣钱而不管事情本身生成式 AI 自 ChatGPT 以来号称挣了几十亿美元，但花得更多；AI 被判好是因为被期待挣大钱，实际没挣回来，只能靠抬高的估值撑住货币价值披萨店比喻：目标一百万个披萨却没有面粉番茄，就用 AI 生成高清披萨照片印上空盒，把盒子的故事卖掉，等融资到位再交付真披萨更硬的问题：AI 抢走工作后，每月付企业版订阅的神秘客户是谁目前主要消费者是企业互相倒卖的企业级 AI，钱来自期待无限回报的风投；他请过的四位顾问构成行业情绪的完整曲线",
+      "summary_en": "iDiallo reads the AI industry through Goodhart's Law: when a thing's importance is measured only by money, people optimize for money regardless of the thing. Generative AI has supposedly earned billions since ChatGPT launched, but vastly more was spent; AI is deemed good because it is expected to make money it has not yet made, so its worth rests on inflated valuations. His pizzeria analogy: the goal is a million pizzas, but without flour and tomatoes you print AI-generated pizza photos on empty boxes and sell the story until funding arrives. Harder question: if AI takes jobs, who is the mystery customer paying for enterprise subscriptions? Today's main consumers are enterprises selling enterprise AI to each other, funded by venture capital expecting infinite returns; four waves of consultants trace the industry's mood from panic to forced adoption to budget fear.",
+      "one_liner": "AI 重要，是因为我们在它身上花了太多钱古德哈特定律版行业批判，四骑士顾问序列是现成的行业情绪测量仪",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/46934368.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0e2c81b5",
+      "title": "Critical thinking when agents do the work",
+      "url": "https://x.com/addyosmani/status/2117512471930167377",
+      "source": {
+        "platform": "x",
+        "author": "Addy Osmani",
+        "original_date": "2026-11-03"
+      },
+      "category": "agents",
+      "tags": [
+        "agentic-workflows",
+        "critical-thinking",
+        "cognitive-offloading",
+        "accountability",
+        "ai-coding"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "Addy Osmani 支持智能体工作流，但警告认知卸载的滑坡：问答空隙已从数天缩到几秒，模型越好明显错误越少，产出写得很好且大体正确到不再值得第二眼，人就从认知卸载滑向认知投降（Wharton 的 Steven Shaw 与 Gideon Nave 的术语）AI 输出悄悄变成自己的观点，不再觉得需要检查并行多个 agent 也只有一双眼睛操作清单：跑非平凡任务前先写下假设；问什么为真时它会错并做真实测试而非信模型自评；让多个模型辩反方再自己下判断；敢不敢在维护者面前押注是可答性标准；低风险事务全权委托，高风险决策保留推理绿勾与更好的模型都带不走问责",
+      "summary_en": "Addy Osmani is a big fan of agentic workflows - and warns that nothing in the day-to-day forces critical thinking anymore. The space between question and answer shrank from days to seconds; as models improve, obvious errors fall and most outputs look well-written and mostly correct without demanding a second look. He describes a spectrum from cognitive offloading through deferral (the tool's output becomes your new input, no longer a hypothesis) to cognitive surrender (Steven Shaw and Gideon Nave's term: the AI's output quietly becomes your own). His list: write your hypothesis before running an agent; ask what would have to be true for this to be wrong and run a real test rather than trusting self-assessed confidence; have multiple models argue the other side; and 'would I bet on this in front of the maintainer' is the answerability bar.",
+      "one_liner": "把卸载延迟投降谱系和一套可执行自检问题讲清楚了；核心判断：模型越好越要人为设置检查点，问责卸不掉",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0e2c81b5.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a4f4c423",
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-11-04"
+      },
+      "category": "agents",
+      "tags": [
+        "autonomous-security",
+        "vulnerability-discovery",
+        "linux-kernel",
+        "lpe",
+        "agent-pipeline",
+        "cost"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 发布自主漏洞研究流水线：原型在受控环境审计 Linux 内核Scout 扫 5,034 个目标花 $3,426；Analyst 产出 2,308 个去重候选花 $316,549；验证复现 1,724 个（74.7%）；ExploitDev 产出 948 个去重 LPE 利用，端到端 $1,213,430（约 $1,279/个）；7 月 GPT-5.6 Sol 对照跑仅 166 个早期 200 次 root 中 20 次走了别的 0-day，后加独立校验；61 个已上游修复官方判断：未打齐补丁的系统上低权限账号应视为功能上等价于 root",
+      "summary_en": "OpenAI's autonomous security pipeline report: a prototype audited the Linux kernel in a controlled research environment. Scout scanned 5,034 audit targets (~2.8M LOC, ~7% of the kernel) for $3,426; Analyst produced 2,308 deduplicated candidate findings for $316,549; dynamic validation reproduced 1,724 (74.7%); exploit development yielded 948 distinct local privilege escalation (LPE) exploits at an end-to-end API cost of $1,213,430 - about $1,279 per unique LPE. A late-July run on GPT-5.6 Sol produced 166 LPEs for $513,690. Early runs had 20 of 200 'root' results exploiting different 0-days than assigned; independent verification was added; 61 LPEs are already fixed upstream. OpenAI's judgment: on systems without the latest patches, an unprivileged local account should be treated as functionally equivalent to root, and automated patch generation becomes necessary to keep pace.",
+      "one_liner": "948 个 LPE约 $1,279/个的单价表把 agent 攻防从演示推进到流水线经济学；低权限root是未打补丁系统的新默认假设",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/a4f4c423.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "080b2b11",
+      "title": "Background subagents in Claude Code now use less of your usage limit",
+      "url": "https://x.com/ClaudeDevs/status/2118063143167693011",
+      "source": {
+        "platform": "x",
+        "author": "Anthropic ClaudeDevs",
+        "original_date": "2026-11-04"
+      },
+      "category": "infra",
+      "tags": [
+        "claude-code",
+        "subagents",
+        "session-economics",
+        "haiku",
+        "prompt-cache",
+        "usage-limits"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "Claude Code 后台子 agent 状态行改由 Haiku 5.5 依短笔记撰写：此前每 30 秒刷新并重读整段对话；新路径单次更新成本约降 99%，干活模型不变官方口径：带后台子 agent 的会话少占约 5% 限额多跑约 6% prompts；多数 Pro/Max/Ultra 与全部 Team/Enterprise 生效，CLI 门槛 v2.1.316+此前 HN 企业遥测测到 agent_summary 占周花费约 16.4%；Anthropic 工程师回应官方遥测约成本 2%请求 4%，承认对状态行仍偏贵，2.1.311 已修打不中 prompt cache 的贵路径",
+      "summary_en": "Claude Code background subagents now write their 30-second status-line updates from short notes via Haiku 5.5 instead of re-reading the whole subagent conversation each time - about 99% less per update, with the subagent's working model unchanged. Anthropic reports sessions with background subagents use about 5% less of the usage limit and fit about 6% more prompts; available on most Pro/Max/Ultra and all Team/Enterprise plans, CLI v2.1.316+. Context: an HN thread (50284255) had measured via enterprise OTEL telemetry that agent_summary traffic was ~16.4% of estimated weekly spend and ~19.7% of API requests for heavy teams; an Anthropic engineer answered that official telemetry shows ~2% of cost and ~4% of requests for reporting users, admitted status lines were still too expensive, and noted v2.1.311 had already fixed the most expensive cache-missing summary path.",
+      "one_liner": "心跳路径换小模型是账单小幅改善而非砍 99% 会话开销；HN 16.4% 与官方 26% 是不同总体，两边都要看",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/080b2b11.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "62ae9381"
+      ]
+    },
+    {
+      "id": "0a437d67",
+      "title": "Introducing Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-11-04"
+      },
+      "category": "models",
+      "tags": [
+        "image-generation",
+        "gpt-image-2-6",
+        "gif",
+        "api",
+        "chatgpt",
+        "codex"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "OpenAI 发布 Images 2.6，落地 ChatGPTCodex 与 API：新增 GIF 动图（吉祥物表情包故事板草图转动图角色），生成比此前快 50%；API 提供 Flare（low 档最快 6 秒版式更好）与 Sunburst（medium/high 档细节与跨编辑一致性更强）双模型API 新增 image markup（精确定位改动位置）SVG 导出与 complexity 参数（控制规划量，低档快编多元素用中高档）官方称每周三端生成 40 亿张图；对 agent 工作流的直接影响是 Codex 内出图与改图门禁变化",
+      "summary_en": "OpenAI ships Images 2.6 across ChatGPT, Codex, and the API: GIF generation (brand mascots, memes, animated storyboards, sketches turned into expressive animated characters), 50% faster generation, and two API models - GPT-Image-2.6 Flare (as fast as six seconds at low quality, improved layout for posters and product imagery) and GPT-Image-2.6 Sunburst (higher fidelity and cross-edit consistency at medium/high quality). New API controls: image markup for pinpointing edit locations (previously ChatGPT-only), SVG exports, and a complexity parameter that adjusts how much planning the model does (low for quick edits, medium/high for scenes with many elements or constraints). OpenAI says 4 billion images per week are now created across the three surfaces; a system card documents safety evaluations.",
+      "one_liner": "Flare 抢速度Sunburst 抢一致性加 complexity 参数，API 侧选型轴变清晰；40 亿张/周的量级是真正的新基本面",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/0a437d67.md",
+      "images": [
+        "https://images.ctfassets.net/kftzwdyauwt9/7xC8whl4xN2cOTxQSLMfQ8/60b25185d53ca63f000341f0acbfba7a/owl-sketch-square.png?w=3840&q=90&fm=webp"
+      ],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3a06f84c",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-11-04"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "acquisition",
+        "pierre",
+        "code-storage",
+        "git",
+        "codex",
+        "developer-tools"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 宣布收购 Pierre Computer CompanyCode Storage 与一族开源开发者工具背后的公司；Codex 应用里的文件浏览与变更审阅已用着 Pierre 的 Trees 与 Diffs 库公告把交易放进 agent 时代源码平面：本周早些时候刚发布自研源码后端 Pando，Pierre 的审阅能力拼出从 agent 第一个分支到部署链路细节：Diffs 的 Edit 模式支持就地改行；新发布的 Highlights 高亮随键入或 agent 流式输出实时更新开源项目保持开源；交易待监管审批",
+      "summary_en": "OpenAI announces it will acquire Pierre Computer Company, Inc., the company behind Code Storage and a family of open-source developer tools; the Trees and Diffs libraries used for file browsing and change review in the Codex app are Pierre's. The announcement frames the deal in the agentic era's source-control plane: earlier the same week OpenAI described scaling Git internally with Pando, its in-house source backend for engineers and agents, and Pierre adds careful code review - from an agent's first branch to deployment. Details: Diffs' Edit mode lets reviewers fix a line where they spot the problem; the new Highlights syntax highlighter updates as developers type or agents stream code. Open-source projects remain open-source; Code Storage customers can keep using the service while its features move into Codex. Closing is subject to regulatory approvals.",
+      "one_liner": "收购 Pierre 加自研 Pando 组成 agent 时代源码平面的一套动作：审阅层与存储层都收进 Codex 版图，开源承诺待观察",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3a06f84c.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "de4cf53f"
+      ]
+    },
+    {
+      "id": "60d45b51",
+      "title": "Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
+      "url": "https://www.latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai",
+      "source": {
+        "platform": "newsletter",
+        "author": "Latent Space (smol.ai)",
+        "original_date": "2026-11-04"
+      },
+      "category": "industry",
+      "tags": [
+        "weight-space-programming",
+        "correction",
+        "reproducibility",
+        "ai-news",
+        "benchmarks"
+      ],
+      "source_type": "newsletter",
+      "language": "en",
+      "summary_zh": "Latent Space/smol.ai 的 AI News 日刊（覆盖 11/0211/03）编辑承认上日 Weight Space Programming 报道呈现得过于有利，掩盖了论文更扎实的发现，因已有多次独立复现不撤稿，并把复现到了什么与是否构成递归自我改进分开讨论转述的关键解释：Qwen 权重编辑案例中不少被修正答案原本因推理循环撞上 token 上限，收益应解释为减少循环让已有推理完成，而非自主改进证据这是 AAIF 已跟踪权重解读争议（WillisonHonnibalGoedecke）的编辑侧更新",
+      "summary_en": "The Latent Space/smol.ai AI News daily (covering 11/02-11/03) admits its previous Weight Space Programming coverage was framed too favorably and obscured the paper's more solid findings, but keeps the piece up citing multiple independent replications, separating 'what replicated' from 'whether this constitutes recursive self-improvement.' A key relayed explanation: in the Qwen weight-editing case, many corrected answers had originally hit the token limit due to reasoning loops, so the gains are better explained as loop reduction letting existing reasoning finish rather than evidence of self-directed improvement. The issue also lists provable inference and evaluation-audit threads as follow-ups. This is the editorial-side update to the weight-interpretation controversy AAIF already tracks (Willison, Honnibal, Goedecke).",
+      "one_liner": "争议故事的编辑侧认错样本：标题过于有利但不撤稿复现与外推被明确切开，权重编辑叙事回到循环修复解释",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/60d45b51.md",
+      "images": [],
+      "added_date": "2026-11-05",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "9b0f1b38",
+        "435a4449",
+        "38c41eb0"
+      ]
     }
   ],
   "last_updated": "2026-11-05",
-  "total_entries": 3072
+  "total_entries": 3088
 }
