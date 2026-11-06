@@ -39455,7 +39455,9 @@
       "added_date": "2026-06-24",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "53c56afb"
+      ]
     },
     {
       "id": "92c1c02f",
@@ -61356,7 +61358,9 @@
       "added_date": "2026-08-30",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "996ea37f"
+      ]
     },
     {
       "id": "5b44621e",
@@ -64155,7 +64159,9 @@
       "added_date": "2026-09-04",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "996ea37f"
+      ]
     },
     {
       "id": "c8616daa",
@@ -83641,7 +83647,9 @@
       "added_date": "2026-10-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "f8969241"
+      ]
     },
     {
       "id": "54a924cb",
@@ -92311,7 +92319,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [
-        "bf5aaab6"
+        "bf5aaab6",
+        "153f3513"
       ]
     },
     {
@@ -93995,7 +94004,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [
-        "1fd8476b"
+        "1fd8476b",
+        "4956499d"
       ]
     },
     {
@@ -94453,7 +94463,9 @@
       "added_date": "2026-11-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "53c56afb"
+      ]
     },
     {
       "id": "080b2b11",
@@ -94888,8 +94900,424 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "53c56afb",
+      "title": "GPT-6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-11-05"
+      },
+      "category": "models",
+      "tags": [
+        "gpt-6-cyber",
+        "daybreak",
+        "cybersecurity",
+        "preparedness-framework",
+        "model-release",
+        "access-gating"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "OpenAI 11-05 发布 GPT-6 Cyber：GPT-6 Astra 的网络安全专用变体，面向授权漏洞挖掘exploit 开发与 web 渗透Preparedness 网络安全档升到 Critical；ExploitGym 利用率 48.5%（前代 32.1%），Honeypot 越界率约 0.07%（对照 5.51%）实战自述含 Linux 948 个可用 LPEFirefox 81 个 high 新问题调用走 API/Codex，先向获批 Daybreak Red 组织开放，要求 SSO/MFA/IP 白名单",
+      "summary_en": "OpenAI shipped GPT-6 Cyber on Nov 5, 2026: a cyber-specialized variant of GPT-6 Astra for authorized security work (vulnerability discovery, exploit development, web pentesting), RL post-trained to raise capability and cut refusals. Its Preparedness cybersecurity designation moves from High (GPT-5.6 Cyber) to Critical while bio/chem stays High. ExploitGym exploit success reaches 48.5% vs 32.1% for GPT-5.6 Cyber; Honeypot out-of-scope rate drops to ~0.07% (5.51% baseline), 0% observed with deployment prompts. OpenAI-cited field results include 948 working Linux LPEs from one campaign and 81 previously-unknown Firefox issues rated high by Mozilla (MFSA 2026-118 merging fixes). Not a default ChatGPT model: access runs through API/Codex for approved Daybreak Red organizations with SSO, MFA and API IP allowlisting; ZDR customers generally need Private Safety Processing.",
+      "one_liner": "首个 Critical 级网络安全模型：能力大涨的同时把越界率压到 0.07%，调用权锁在 Daybreak Red 门后",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/53c56afb.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "f7e9d38a",
+        "a4f4c423"
+      ]
+    },
+    {
+      "id": "5d176638",
+      "title": "Build Live Apps in Cursor",
+      "url": "https://cursor.com/changelog/build-live-apps",
+      "source": {
+        "platform": "blog",
+        "author": "Cursor",
+        "original_date": "2026-11-05"
+      },
+      "category": "coding",
+      "tags": [
+        "cursor",
+        "live-apps",
+        "cloud-agent",
+        "deployment",
+        "security-review",
+        "publish-gate"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "Cursor 11-05 changelog 推出 Live Apps：cloud agent 从描述直接搭出可分享的在线应用脚手架 Web按需起 Postgres认证挂 Cursor SSO自动托管，发布时选域名拿活链接发布前四项硬检查永远开启（密钥/凭证/.env/source map 一律拦截），叠加 deterministic + agentic 审查；分享分邀请/Team/Public 三档，Teams/Enterprise 默认关 public；secrets 对 agent 不可见仅限已开通 cloud agents 的付费计划，本地 agent 不支持",
+      "summary_en": "Cursor's Nov 5, 2026 changelog ships Live Apps: describe an app and a cloud agent scaffolds the web app, spins up Postgres if needed, puts auth behind Cursor SSO, and provisions hosting; publishing picks a unique domain and returns a live link. Four publish gates are always on (blocking secrets written in app files, credential files, .env files, and source maps), with deterministic and agentic security review layered on top; nothing goes live until checks pass and you explicitly publish. Team admins can see every app and secret, add custom rules, approve blocked publishes, and unpublish any app. Sharing has three tiers (invite / team / public), public off by default on Teams and Enterprise; agent-facing secrets stay invisible to the agent, and automation uses a x-cursor-app-token API key header. Cloud-agent-only on paid plans; local agents unsupported.",
+      "one_liner": "把写完就死在 localhost的内部工具直接变成可分享应用，四项发布硬检查是同类平台值得抄的作业",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5d176638.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "153f3513",
+      "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor",
+      "source": {
+        "platform": "blog",
+        "author": "Microsoft Security Research",
+        "original_date": "2026-10-30"
+      },
+      "category": "agents",
+      "tags": [
+        "supply-chain-attack",
+        "claude-code",
+        "cursor-marketplace",
+        "ssh-backdoor",
+        "threat-intelligence",
+        "extension-security"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Microsoft 威胁情报 10-30 发布对 Cursor 市场 Claude Code 恶意扩展（2.1.312/313）注入代码的取证分析：loader 在扩展模块加载时先行执行，收集主机侦察信息，写入攻击者 SSH 公钥启用本地 sshd建 reverse SSH 转发（T1572）并做平台相关启动持久化；隧道失败也可能留下密钥与持久化痕迹微软确认恶意包从未出现在 Microsoft VS Code Marketplace 与 npm @anthropic-ai/claude-code，事件限于 Cursor 市场；建议排查装过这两版的机器清除 artifacts轮换凭据",
+      "summary_en": "Microsoft Threat Intelligence's Oct 30, 2026 post analyzes the injected JavaScript inside tampered anthropic.claude-code 2.1.312/2.1.313 packages served from the Cursor extension marketplace on Oct 29. The loader executes before normal extension initialization: it collects host reconnaissance, installs an attacker-controlled SSH key, enables the local SSH service, sets up reverse SSH forwarding (T1572), configures platform-specific startup persistence, and later reports host details; keys and persistence artifacts may be written even when tunnel access fails. Microsoft confirms the malicious packages never appeared on the Microsoft VS Code Marketplace or npm @anthropic-ai/claude-code, and Anthropic confirmed its systems were not compromised - the incident is limited to the Cursor marketplace.",
+      "one_liner": "后门事件的第一手取证报告：写 SSH 公钥只是入场，reverse SSH 加平台级持久化才是要防的完整链路",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/153f3513.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "f5c413d7"
+      ]
+    },
+    {
+      "id": "ce916f90",
+      "title": "Revolut swaps Claude Code for a Chinese open-weight model, cutting its AI coding costs",
+      "url": "https://dealroom.co/news/169124-revolut-swaps-claude-code-for-a-chinese-open-weight-model-cutting-its-ai",
+      "source": {
+        "platform": "news",
+        "author": "Dealroom",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "revolut",
+        "open-weights",
+        "cost",
+        "claude-code",
+        "glm",
+        "fintech"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Dealroom 报道英国 fintech Revolut 将编码场景从 Claude/Codex 一类默认方案切换到自托管的中国开源权重模型（GLM 一类），coding 相关 AI 花费号称下降约 90%；r/LocalLLaMA 同题帖约 1968 赞350 评，HN 同题仅约 12 分信号意义大于采购结论：受监管的大型 fintech 开始按单位 token 成本重算自建 vs 订阅账；但模型是否全员默认质量门与安全评审如何设置，仍以公司自己披露为准，不宜只凭标题做推论",
+      "summary_en": "Dealroom reports that British fintech Revolut swapped Claude Code-style defaults for self-hosted Chinese open-weight models (GLM family), cutting coding-related AI spending by a claimed ~90%. The story sits at roughly 1,968 upvotes with ~350 comments on r/LocalLLaMA while the HN thread stayed near 12 points. The durable signal is that a large regulated fintech is now pricing agent work per-token and choosing open weights over frontier subscriptions; whether the swap is org-wide, and what quality gates and security reviews guard it, remains per company disclosure - don't turn the headline into a procurement conclusion.",
+      "one_liner": "约两千赞的社区热度背后是真实账本：coding 场景的单位 token 成本已经让自建开源权重赢过订阅",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/ce916f90.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "00183b00",
+      "title": "Introducing Personal Finance in Claude",
+      "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+      "source": {
+        "platform": "blog",
+        "author": "Anthropic",
+        "original_date": "2026-11-05"
+      },
+      "category": "industry",
+      "tags": [
+        "claude",
+        "personal-finance",
+        "consumer",
+        "read-only",
+        "product-launch"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "Anthropic 11-05 推出 Claude Personal Finance（beta）：连接银行与卡账户后用自然语言提问，Claude 基于余额与交易流水回答并解释术语；访问为只读，不能移动管理或投资资金；无广告与赞助推荐，也不自营信用卡/贷款/储蓄产品本周起在美国 Pro/Max/Ultra 计划灰度示例场景：这个月钱花哪了自动跨账户汇总分类$4,309.37 中过半是房租水电$1,024.51 是餐饮",
+      "summary_en": "Anthropic introduced Personal Finance in Claude (Nov 5, 2026, beta): connect bank and card accounts read-only, then ask questions in plain language - Claude answers from balances and transactions and explains unfamiliar terms. It cannot move, manage, or invest money, shows no ads or sponsored recommendations, and doesn't sell its own credit cards, loans, or savings accounts. Rolling out this week to Pro, Max, and Ultra plans in the US; the launch demo aggregates cross-account spending ($4,309.37, over half rent/utilities, $1,024.51 food and drink) from a single question.",
+      "one_liner": "只读权限加无自营产品的金融问答是克制的好设计，剩下的问题只是账户授权面能否过合规",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/00183b00.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6ed36914",
+      "title": "Perplexity Teammates: agents designed for work",
+      "url": "https://x.com/perplexity_ai/status/2118389326459670825",
+      "source": {
+        "platform": "x",
+        "author": "Perplexity AI",
+        "original_date": "2026-11-05"
+      },
+      "category": "agents",
+      "tags": [
+        "perplexity",
+        "teammates",
+        "agent-coworkers",
+        "slack",
+        "max-subscribers",
+        "isolated-environment"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "Perplexity 11-05 宣布 Teammates（网页端，Max 订阅可用）：从现有 Projectsskillsmemory 启动的代理同事，主动领任务干活；监控进行中的工作状态变化时无需提示即行动，记住过往工作并把反馈用于后续任务；多个 teammate 可互相协作并向 Slack 同事发消息每个 teammate 跑在隔离环境，遵循 Computer 既有的工具与 Project 权限；用户可审查其工作接管桌面或改派任务",
+      "summary_en": "Perplexity announced Teammates on Nov 5, 2026 (web, Max subscribers): agent coworkers that take on jobs and work proactively using your Computer tasks, skills, memory, and tools. Each teammate starts from existing Projects, skills, and memory; monitors ongoing work and acts when something changes without prompting; remembers past work and applies feedback to future tasks; collaborates with other teammates and messages coworkers in Slack. Every teammate runs in its own isolated environment under Computer's existing tool and Project permissions; you can review its work, take over the desktop, or redirect it mid-task.",
+      "one_liner": "多代理协作加 Slack 通道加隔离环境权限继承，Perplexity 把AI 员工从演示搬进了订阅套餐",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/6ed36914.md",
+      "images": [
+        "https://pbs.twimg.com/media/HWYH4dlbgAAXsdL.jpg"
+      ],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f8969241",
+      "title": "Hermes Agent v0.23.0 - The Hearth Release",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0",
+      "source": {
+        "platform": "github",
+        "author": "NousResearch",
+        "original_date": "2026-11-05"
+      },
+      "category": "coding",
+      "tags": [
+        "hermes-agent",
+        "release",
+        "gateway",
+        "webapp",
+        "multi-surface",
+        "plugins"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "NousResearch 11-05 发布 Hermes Agent v0.23.0，自 v0.22.0 汇总约 10,080 commits约 1,950 merged PRs两项核心：Webapp 把整套 Desktop 工作区开进浏览器标签页（默认关，webapp.enabled 开）；每台机器只跑一个 gateway 拥有全部会话，CLI/TUI/Desktop/编辑器/bot/cron 均作为客户端挂接，杜绝重复写与丢消息其余：终端内联图片/rewind 回退编辑重发或分叉付费 MCP 工具价签与花费上限插件目录约 6001050+",
+      "summary_en": "Hermes Agent v0.23.0 (Nov 5, 2026, The Hearth Release) rolls up ~10,080 commits, ~1,950 merged PRs and 666 contributors since v0.22.0. Two headline changes: a Webapp serves the full Desktop workspace from your own gateway in a browser tab (off by default; enabled via webapp.enabled or Settings; shipped in Docker and Nix), and each machine now runs a single gateway that owns every session - CLI, TUI, Desktop, editors, bots and cron attach as clients, ending duplicated or lost messages across surfaces. Also: inline images in the terminal, /rewind to edit-and-resend or fork from an earlier message, multi-machine Desktop connections, self-routing Group Chats, self-updating plugins, price tags and spend limits on paid MCP tools, and a plugin catalog grown from ~600 to 1,050+ entries.",
+      "one_liner": "单 gateway 拥有会话加浏览器端完整 Desktop，是 Hermes 从单机工具走向常驻基础设施的一步",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f8969241.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "d6a12ae8"
+      ]
+    },
+    {
+      "id": "35337d72",
+      "title": "中国LLM讨论纪要",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3OTg3NTY1OA%3D%3D&mid=2247492486&idx=1&sn=871f27cecf739a57fc03f9369963f9d0",
+      "source": {
+        "platform": "wechat",
+        "author": "hardybeee",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "china-llm",
+        "anti-distillation",
+        "rsi",
+        "compute-gap",
+        "pricing",
+        "aidd",
+        "zhipu",
+        "deepseek"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "一份 10 月初中国 LLM 闭门讨论纪要（11-06 经公众号流出）：反蒸馏使蒸馏成本上升 5-10 倍乃至 20 倍，算力被认作最大瓶颈，中美差距预期从 3-4 个月拉长到约 12 个月，若海外实现 RSI 或达 18-24 个月；智谱靠蒸馏 Opus 与押注 coding API 抢到先发但 Q4 被小米/字节/千问围剿，字节坚持自研不蒸馏；闭源降价（每代 GPU token 输出约为上一代 3-4 倍）打破国产提价逻辑，价格预期向中间收敛；下一场景押注 AIDD 但医药同行相当悲观；智谱/Kimi 上架 Bedrock take rate 约 10-15%",
+      "summary_en": null,
+      "one_liner": "一份把算力蒸馏成本格局与 AIDD 全串起来的买方纪要：国内追赶的时间窗正被反蒸馏压缩",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/35337d72.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e436b858",
+      "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit (TurnWise)",
+      "url": "https://arxiv.org/abs/2611.06728",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shuai Dong, Kanghui Tian, Linghan Chen, et al.",
+        "original_date": "2026-11-04"
+      },
+      "category": "models",
+      "tags": [
+        "streaming-video",
+        "grpo",
+        "credit-assignment",
+        "rl",
+        "turn-level",
+        "video-understanding"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "TurnWise（2611.06728，2026-11-04，HF daily papers 榜首约 124 赞）针对流式视频理解的 GRPO 训练：既有方法在多个决策回合间共享轨迹级 advantage，早期成功后强化冗余回复早期失败后抑制有价值的追问TurnWise 改为回合级信用分配用 silence-completed prefix scoring 从每个决策的剩余回报构造组内相对优势；turn-mean 策略优化在回合内平均 token 损失再跨回合平均，让回复与等待不因输出长度失衡无需 critic 或额外 rollout，实验优于既有方法",
+      "summary_en": "TurnWise (arXiv 2611.06728, Nov 4, 2026, cs.CV/cs.CL/cs.LG; top of HF daily papers with ~124 upvotes) targets streaming video understanding, where a model repeatedly decides whether to respond or keep watching. Existing GRPO approaches keep a single trajectory-level advantage across turns, reinforcing redundant replies after earlier successes and discouraging useful follow-ups after failures. TurnWise assigns credit per turn: silence-completed prefix scoring builds group-relative advantages from each decision's remaining return, decoupling its learning signal from earlier rewards, while turn-mean policy optimization averages token losses within then across turns so respond and wait decisions weigh equally regardless of output length. No learned critic or extra rollouts; experiments show gains over prior streaming-video RL approaches.",
+      "one_liner": "把 GRPO 的轨迹级优势拆到回合级，流式视频何时开口的信用分配有了干净解法",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e436b858.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0d5b6973",
+      "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies (NEO-VLA)",
+      "url": "https://arxiv.org/abs/2611.06918",
+      "source": {
+        "platform": "arxiv",
+        "author": "Weichen Fan, Haiwen Diao, Penghao Wu, et al.",
+        "original_date": "2026-11-04"
+      },
+      "category": "models",
+      "tags": [
+        "vla",
+        "embodied-ai",
+        "encoder-free",
+        "flow-matching",
+        "manipulation",
+        "architecture"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "NEO-VLA（2611.06918，2026-11-04，cs.CV）提出结构上去除视觉编码器的 VLA 框架：图像经轻量 patch 卷积 tokenize 后与语言在主干中共同演化，flow-matching 动作专家可在不同深度取用指令条件化的视觉表征对照实验显示原生架构稳定优于 encoder-based 对应物；全量微调缩小但不消除差距，单纯加大规模无法弥补逐层探测发现动作关键信号往往远早于最终视觉表征就达到峰值具身控制需要贯穿计算层级的视觉表征访问，而非固定的编码器输出代码开源（EvolvingLMMs-Lab/NEO VLAKit）",
+      "summary_en": "NEO-VLA (arXiv 2611.06918, Nov 4, 2026, cs.CV) asks whether VLA policies should inherit a fixed visual encoder endpoint or access evolving visual computation directly. The framework is structurally encoder-free: images are tokenized by lightweight patch convolution layers and evolve jointly with language through the backbone, letting a flow-matching action expert draw on instruction-conditioned visual representations at different depths. Under controlled comparisons, native architectures consistently outperform encoder-based counterparts; full fine-tuning narrows but does not erase the gap, and scale alone cannot recover it. Layer-wise probing shows action-critical signals often peak well before the final visual representation. Code released (EvolvingLMMs-Lab/NEO VLAKit).",
+      "one_liner": "给动作专家开一条直达中间视觉表征的通路，encoder-free VLA 把固定编码端点假设打上了问号",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0d5b6973.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "996ea37f",
+      "title": "Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human",
+      "url": "https://arxiv.org/abs/2606.08919",
+      "source": {
+        "platform": "arxiv",
+        "author": "Emre Turan",
+        "original_date": "2026-06-08"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-safety",
+        "human-oversight",
+        "approval-gate",
+        "selective-classification",
+        "fatigue",
+        "flooding-attack"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Turan（2606.08919，2026-06-08，cs.AI/cs.CR/cs.LG）把 agent 审批门建模为资源分配问题：125 个对抗加权的人工标注动作上，评审对危不危险仅中等一致（Fleiss =0.52），不存在客观 ground truth；把 guard 形式化为非对称代价下的选择性分类后，硬输入上无法安全自动决策将评审人建为会疲劳的内生变量后，实际安全性对升级率呈倒 U 形人审拉满反而更不安全，最优策略停在中档升级；负载感知策略还能抵御向疲劳评审人塞恶意动作的 flooding 攻击开源实现 headroom 把 guard 质量从猜测变成一条曲线",
+      "summary_en": "Turan (arXiv 2606.08919, Jun 8, 2026, cs.AI/cs.CR/cs.LG) models the human-approval gate for LLM agents as a resource-allocation problem, not just classification. On 125 hand-labeled adversarially-weighted agent actions, reviewers agree only moderately on what is risky (Fleiss kappa = 0.52), so no ground-truth label exists; framing the guard as selective classification under asymmetric cost makes its operating limits measurable, and on hard inputs it cannot safely auto-decide. Modeling the reviewer as endogenous and fatiguing makes realized safety an inverted-U in escalation rate: full human escalation can be less safe than partial, and a load-aware policy resists a flooding attack that slips a malicious action past a tired reviewer. Open-source implementation (headroom) turns 'is my guard good?' into a curve.",
+      "one_liner": "审批不是越多越安全：把评审人疲劳建进模型后，安全性对升级率呈倒 U，最优解在中档",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/996ea37f.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "67fedfa3",
+        "99b6440e"
+      ]
+    },
+    {
+      "id": "4956499d",
+      "title": "First self-hosted readings of Kimi K3.1 Pro pruned75 on dual DGX Station",
+      "url": "https://x.com/SJRonanMD/status/2118566508939137043",
+      "source": {
+        "platform": "x",
+        "author": "SJRonanMD",
+        "original_date": "2026-11-06"
+      },
+      "category": "infra",
+      "tags": [
+        "kimi-k31-pro",
+        "self-hosting",
+        "pruned-checkpoint",
+        "dgx",
+        "throughput",
+        "long-context"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "SJRonanMD 团队 11-06 公布 Kimi K3.1 Pro pruned75 检查点（475.5 GB，砍 75% 专家）首批自部署读数：双 DGX Station 各配 GB300，40 GiB Grace 内存做权重卸载64 并发 295 tokens/s，最差首 token 6.3s vs 272.9s；196,739 token 输入 15/15 完成，786,561 token 单并发 3/3基础检查见推理循环与算术错误，JSON 与强制工具调用通过能出 token 不等于能干活，长输入仅为合成文本容量测试，下一步加 RTX PRO 6000 副卡复测",
+      "summary_en": "SJRonanMD's team posted the first self-hosted readings of the Kimi K3.1 Pro pruned75 checkpoint (475.5 GB, 75% of routed experts pruned) on Nov 6, 2026: two DGX Stations with one GB300 each, 40 GiB Grace memory per station for weight offload. Aggregate throughput reached 295 generated tokens/s at 64 concurrent requests (273 at 128), worst first-token waits 6.3s vs 272.9s. Long-input probes: 196,739-token inputs completed 15/15 (median 346s first token at 4-way), ~393K-token inputs 6/12 at 4-way with six timeouts, 786,561-token inputs 3/3 single-stream, median 495s. Basic checks showed reasoning loops and wrong arithmetic; JSON and a forced tool call passed. Throughput and capacity numbers are not task-quality evidence - long inputs were synthetic repeated prose; next step adds two RTX PRO 6000 sidecars.",
+      "one_liner": "475.5GB 砍 75% 专家的试点读数说明 K3.1 Pro 自部署刚到能出 token阶段，质量复测才是下一关",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4956499d.md",
+      "images": [
+        "https://pbs.twimg.com/media/HWanv3ZaEAAre5U.png",
+        "https://pbs.twimg.com/media/HWan0vVaAAIN7_j.png",
+        "https://pbs.twimg.com/media/HWaokNZaYAAXC5a.png",
+        "https://pbs.twimg.com/media/HWcZKP4asAALA-s.png"
+      ],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "7838c877"
+      ]
     }
   ],
   "last_updated": "2026-11-06",
-  "total_entries": 3097
+  "total_entries": 3109
 }
