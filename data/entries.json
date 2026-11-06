@@ -94596,8 +94596,300 @@
         "435a4449",
         "38c41eb0"
       ]
+    },
+    {
+      "id": "0ffa6911",
+      "title": "On Turn-Level Best-of-N Sampling for Scaling LLM Agents",
+      "url": "https://arxiv.org/abs/2611.06868",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jalaj Bhandari, Dhawal Gupta, Hongli Zhan, et al.",
+        "original_date": "2026-11-04"
+      },
+      "category": "agents",
+      "tags": [
+        "llm-agents",
+        "inference-time-scaling",
+        "best-of-n",
+        "generator-selector",
+        "long-horizon-tasks"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "在长程智能体任务上评估回合级 best-of-N 采样这一简单的推理时扩展方法：每回合由生成器模型给出 N 个候选动作，选择器模型挑一个交给环境执行；与以往 critic 引导搜索的工作不同，作者检验现成的开源权重 LLM 能否直接比较候选动作长程终端任务实验显示准确率提升 510%，多次尝试的一致性也更好；轨迹分析表明智能体行为向更优模式转变：解题尝试次数减少指令遵循更好调试与测试更充分",
+      "summary_en": "Evaluates turn-level best-of-N sampling as a simple inference-time scaling method for LLM agents on complex long-horizon tasks, instantiated as a generator-selector framework: at each turn a generator model proposes N candidate actions and a selector model picks one for execution in the environment. Unlike prior critic-guided search work, the study tests whether off-the-shelf open-weight LLMs can compare candidate actions directly. Experiments on long-horizon terminal tasks show significant performance improvements - 5-10% accuracy gains and better consistency across repeated attempts - and trajectory analysis reveals shifts toward desirable behavior: fewer attempts to solve tasks, improved instruction following, and more debugging and testing.",
+      "one_liner": "在长程智能体任务上评估回合级 best-of-N 采样这一简单的推理时扩展方法：每回合由生成器模型给出 N 个候选动作，选择器模型挑一个交给环境执行...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0ffa6911.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d9360ce0",
+      "title": "CompressionBench: How can your coding agents compress LLMs?",
+      "url": "https://arxiv.org/abs/2611.06858",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xinrui Zhong, Zhifeng Li, Zhiming Wang, et al.",
+        "original_date": "2026-11-04"
+      },
+      "category": "models",
+      "tags": [
+        "coding-agents",
+        "model-compression",
+        "recursive-self-improvement",
+        "benchmark",
+        "perplexity"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "把压缩预训练模型当作编码智能体递归自我改进的可测组件：智能体拿到源 checkpoint存储上限推理环境与时间预算，自主决定算法与实验，生成压缩权重和可执行推理代码，困惑度反馈引导搜索，最终模型由独立验证检查六个智能体 六组模型规模设置中 36 次提交 29 次通过验证；逐任务选最低困惑度设计平均困惑度较 BF16 增加 3.4%，下游准确率 77.33%（BF16 为 79.56%）记录显示智能体在 21/24 次修订中近恒定存储下降低 PPL，完整模型反馈能反转 17/79 个局部排序，生成与推理测试可发现纯似然指标漏掉的失败",
+      "summary_en": "Asks whether coding agents can autonomously execute a concrete step of recursive self-improvement: compressing a pretrained LLM into a smaller storage budget while preserving behavior. Compression is posed as a terminal task - the agent receives a source checkpoint, storage limit, inference environment, and time budget, then constructs compressed weights and executable inference code, guided by perplexity feedback with independent verification of the final model. Across six agents and six model-size settings, 29 of 36 submissions pass verification; lowest-perplexity-per-task designs average a 3.4% perplexity increase over BF16 at 77.33% downstream accuracy vs 79.56% for BF16. Recorded experiments show agents lower PPL in 21 of 24 revisions at nearly fixed storage, and generation/inference tests expose failures likelihood alone misses.",
+      "one_liner": "把压缩预训练模型当作编码智能体递归自我改进的可测组件：智能体拿到源 checkpoint存储上限推理环境与时间预算，自主决定算法与实验，生成压缩权重和可执行推理代码，困惑度反馈引导搜索，最终模型由独立验证检查六个智能体 六组模型规模设置中 36 次提交 29 次通过验证.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d9360ce0.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "7bb1a3b7"
+      ]
+    },
+    {
+      "id": "7bb1a3b7",
+      "title": "ServerBench: How can your coding agents design specialized LLM serving systems?",
+      "url": "https://arxiv.org/abs/2611.06841",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xinrui Zhong, Zhiming Wang, Yongqi Liu, et al.",
+        "original_date": "2026-11-04"
+      },
+      "category": "infra",
+      "tags": [
+        "coding-agents",
+        "llm-serving",
+        "benchmark",
+        "systems-design",
+        "gpu-cost"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "ServerBench 让编码智能体为自身运行设计完整的专用 LLM serving 系统，统一目标为dollars per dollar：每美元 GPU 成本产出的达时延门槛 token 价值；有状态回放保持会话依赖，独立验证检查提交的系统11 个编码智能体模型 3 种部署中，Claude Sonnet 5.5 在 Gemma E4B 上达到 2.97，是 vLLM 参考实现的 4.87 倍；33 次运行 22 次产出通过验证的系统分析发现：高价值设计会把容量提升与负载选择协同优化，智能体通过与工作负载相关的实验解读性能反馈，而可靠交付必须验证优化所引入的执行路径",
+      "summary_en": "Introduces ServerBench, a benchmark for agentic design of complete, specialized LLM serving systems: coding agents experiment toward one objective - dollars per dollar, latency-qualified token value per dollar of GPU cost - under session dependencies, latency constraints, and correctness requirements. Stateful replay preserves session dependencies and independent verification checks submitted systems. Across 11 coding-agent models and three deployments, Claude Sonnet 5.5 reaches 2.97 dollars per dollar on Gemma E4B, 4.87x the vLLM reference; 22 of 33 runs yield verified systems and 13 exceed the strongest baseline. Analysis finds high-value designs coordinate capacity improvements with load selection, agents interpret performance feedback through workload-relevant experiments, and reliable delivery requires verifying the execution paths that optimizations introduce.",
+      "one_liner": "ServerBench 让编码智能体为自身运行设计完整的专用 LLM serving 系统，统一目标为dollars per dollar：每美元 GPU 成本产出的达时延门槛 token 价值.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7bb1a3b7.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "d9360ce0"
+      ]
+    },
+    {
+      "id": "49477a3f",
+      "title": "SpecCompact: Accelerating LLM Agent Context Compaction with Slot-Parallel Semantic Speculative Verification",
+      "url": "https://arxiv.org/abs/2611.06876",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yulu An, Yifei Feng, Xiangyang Yin",
+        "original_date": "2026-11-04"
+      },
+      "category": "agents",
+      "tags": [
+        "context-compaction",
+        "speculative-execution",
+        "agent-memory",
+        "latency",
+        "drafter-verifier"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "针对智能体上下文压缩的时延问题：用大模型摘要长交互历史会引入明显延迟，信息保留与延迟需要权衡SpecCompact 基于结构化摘要槽位可独立生成且不丢信息的观察，用槽位并行语义推测加速压缩微调小模型起草器并行生成槽位，目标模型逐行验证并修复被拒内容，后续起草使用更新后的槽位前缀；系统层优化进一步减少重复上下文处理与模型调用在 AppWorld 与 tau 系基准两个目标模型上，相对 Hermes 式摘要取得 2.045.63 倍压缩加速（下游表现随模型和任务有取舍）；Hermes 内用户研究中位加速 8.68 倍",
+      "summary_en": "Targets the latency cost of LLM agent context compaction: summarizing long interaction histories with large models introduces substantial delays, forcing a trade-off between information retention and latency. SpecCompact builds on the observation that structured summary slots can retain information when generated independently, accelerating compaction via slot-parallel semantic speculation - a fine-tuned small drafter proposes slots in parallel, the target model verifies each proposed line and repairs rejected content, and subsequent drafting uses the updated slot prefix; system optimizations further reduce repeated context processing and model calls. Across AppWorld and tau-family benchmarks with two target models it achieves 2.04-5.63x compaction speedups over Hermes-style summarization; a user study within Hermes shows an 8.68x median compaction speedup.",
+      "one_liner": "针对智能体上下文压缩的时延问题：用大模型摘要长交互历史会引入明显延迟，信息保留与延迟需要权衡SpecCompact 基于结构化摘要槽位可独立生成且不丢信息的观察，用槽位并行语义推测加速压缩微调小模型起草器并行生成槽位，目标模型逐行验证并修复被拒内容，后续起草使用更新后的槽位前缀.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/49477a3f.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "18b453b0",
+      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "url": "https://arxiv.org/abs/2611.06910",
+      "source": {
+        "platform": "arxiv",
+        "author": "Bingran You, Wenjun Ke, Ria Rosenauer, et al.",
+        "original_date": "2026-11-04"
+      },
+      "category": "agents",
+      "tags": [
+        "research-agents",
+        "benchmark",
+        "physics",
+        "expert-rubrics",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "端到端物理科研智能体基准 FrontierPhysics：42 位物理学家基于自己的研究出 56 道任务，覆盖理论计算与实验物理共九个领域；每题要求查文献制定研究计划开展研究与实验，产出结构化结果和科学手稿，用确定性验证器加专家 rubric 评判研究是否正确可发表22 个模型 26 种配置中，没有配置在 168 次 rollout 中通过超过 46 次；人工审查轨迹显示前沿智能体的主要短板是推理不够严谨专家直觉有限，而非物理知识缺口或执行错误",
+      "summary_en": "An end-to-end benchmark for AI agents doing physics research: 56 tasks authored by 42 physicists based on their own research, spanning nine domains across theoretical, computational, and experimental physics. Each task requires literature review, a research plan, experiments, and structured outputs plus scientific manuscripts; deterministic verifiers combined with expert-authored rubrics judge whether agent research is correct and publishable, going beyond fixed questions, isolated sub-tasks, or paper reproduction with given solutions. Across 22 models in 26 configurations, no configuration passes more than 46 of its 168 rollouts; manual trajectory review attributes frontier agents' main weaknesses to insufficiently rigorous reasoning and limited expert intuition rather than gaps in physics knowledge or execution errors.",
+      "one_liner": "端到端物理科研智能体基准 FrontierPhysics：42 位物理学家基于自己的研究出 56 道任务，覆盖理论计算与实验物理共九个领域...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/18b453b0.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a0165377",
+      "title": "Persona Perspectives: Adopting Viewpoints Reorganizes Representations in LLMs",
+      "url": "https://arxiv.org/abs/2611.06848",
+      "source": {
+        "platform": "arxiv",
+        "author": "Austin C. Kozlowski, Avital Mintz, Madison Lee",
+        "original_date": "2026-11-04"
+      },
+      "category": "models",
+      "tags": [
+        "interpretability",
+        "sparse-autoencoders",
+        "linear-probes",
+        "persona",
+        "safety-monitoring"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "检验特征监测的常用前提：线性探针与 SAE 假设特征跨上下文保持一致表征让模型采用自由派/保守派政治 persona 后，作者提取 9000+ 常用词与 33 条语义轴的表征并与两个中性基线对比，发现 persona 条件化系统性地改变词在语义轴上的投影及轴间对齐，方向与指定意识形态一致安全含义：未经 persona 训练的探针SAE 分类器与人工选词分类器，在 persona 条件化模型上对争议陈述给出分歧且带政治倾向的真伪/道德评分，常规监测手段可能因此失效",
+      "summary_en": "Tests a core assumption of LLM feature monitoring - that linear probes and sparse autoencoders (SAEs) read features with consistent representations across contexts - by asking whether prompting a model to adopt a persona alters its latent-space geometry. Extracting representations of 9,000+ common words and 33 semantic axes under liberal and conservative political personas versus two neutral baselines, the authors find persona conditioning systematically shifts word projections onto semantic axes and the alignments among the axes themselves. Consequence for safety monitoring: probes, SAE-based classifiers, and manually-built classifiers trained without a persona produce divergent, politically slanted truthfulness/morality ratings on persona-conditioned models - conventional monitoring can be undermined by persona adoption.",
+      "one_liner": "检验特征监测的常用前提：线性探针与 SAE 假设特征跨上下文保持一致表征让模型采用自由派/保守派政治 persona 后，作者提取 9000+ 常用词与 33 条语义轴的表征并与两个中性基线对比，发现 persona 条件化系统性地改变词在语义轴上的投影及轴间对齐.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/a0165377.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3b58ffb3",
+      "title": "Claude Code sends your email address to websites via User-Agent header",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "source": {
+        "platform": "github",
+        "author": "taylor-edwards",
+        "original_date": "2026-11-05"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "privacy",
+        "claude-code",
+        "user-agent",
+        "agent-harness"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "一份针对 claude-code v2.1.318 的公开 bug 报告（2026-11-05 提交，HN 250+ 分）称：CLI 在执行网页搜索发起请求时，把用户邮箱地址放进 User-Agent 请求头，暴露给任意第三方网站；报告者称由此每天收到几十封诈骗邮件，并主张应从 harness 中彻底移除该标识，而不是做成 opt-in/opt-out 设置评论区基本在讨论隐私处理而非反驳报告本身；在上游确认前应视为未经证实的报告这是智能体 harness 流量向其触碰的每个网站标识用户身份的典型案例，涉及智能体隐私设计指纹识别与企业部署",
+      "summary_en": "An open bug report against claude-code v2.1.318 (filed 2026-11-05, 250+ points on Hacker News) alleges the CLI includes the user's email address in the User-Agent header of requests made during web searches, exposing it to arbitrary third-party sites; the reporter links this to dozens of scam emails per day and argues the identifier should be removed from the harness entirely rather than offered as an opt-in/opt-out setting. Comments largely debate the privacy handling rather than dispute the report; treat as unconfirmed until acknowledged upstream. A concrete instance of agent-harness traffic identifying users to every site an agent touches - relevant to agent privacy design, fingerprinting, and enterprise deployment.",
+      "one_liner": "一份针对 claude-code v2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3b58ffb3.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "394d8279",
+      "title": "Tencent Hunyuan releases Hy4, entering the top rank of open-source models",
+      "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models",
+      "source": {
+        "platform": "blog",
+        "author": "Tencent Hunyuan",
+        "original_date": "2026-11-04"
+      },
+      "category": "models",
+      "tags": [
+        "open-source-models",
+        "hunyuan",
+        "multimodal",
+        "computer-use",
+        "hallucination"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "腾讯混元 2026-11-04 发布 Hy4，首次跻身最强开源模型行列，权重近期开源并附系统卡片相比 Hy4 preview 显著扩展预训练和后训练数据，首次引入视觉理解与 Computer Use（针对 BlenderCAD 等专业软件与跨应用长程任务专项训练），指令遵循长文理解与长程智能体能力大幅提升官方数据：专项搜索优化后幻觉率从 12.95% 降至 7.2%；579 项真实金融任务专家众测综合 3.04 分居开源第一（Kimi K3.1 Pro/GLM-5.3 为 2.68）网络安全训练数据仅保留 PoC 生成与漏洞修复等防御性内容，并为下一阶段递归自我改进做准备",
+      "summary_en": "Tencent's Hunyuan lab released Hy4 on 2026-11-04, claiming its first entry into the top rank of open-source models; weights will be open-sourced shortly with a system card. Compared to Hy4-preview it significantly scales pre/post-training data, adds visual understanding and Computer Use for the first time, and improves instruction following and long-horizon agent performance, with targeted training for professional tools (Blender, CAD) and cross-app tasks. Reported numbers: hallucination rate cut from 12.95% to 7.2% after dedicated search optimization; top open-source score in a 579-task finance expert review (3.04 vs Kimi K3.1 Pro 2.68, GLM-5.3 2.68, DeepSeek-V4.1-Flash-1017 2.97). Cyber-security training data is defensive-only (PoC generation, vulnerability fixing); the team says Hy4 is being prepared for next-stage recursive self-improvement with the Hyra 2.0 scaffold.",
+      "one_liner": "腾讯混元 2026-11-04 发布 Hy4，首次跻身最强开源模型行列，权重近期开源并附系统卡片相比 Hy4 preview 显著扩展预训练和后训练数据，首次引入视觉理解与 Computer Use（针对 BlenderCAD 等专业软件与跨应用长程任务专项训练）.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/394d8279.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "764fc197",
+      "title": "Training a Text-to-Image Model for $21K (Linum P-JiT, Apache 2.0)",
+      "url": "https://www.linum.ai/field-notes/pjit-21k",
+      "source": {
+        "platform": "blog",
+        "author": "Sahil Chopra, Manu Chopra (Linum)",
+        "original_date": "2026-11-04"
+      },
+      "category": "models",
+      "tags": [
+        "text-to-image",
+        "pixel-space",
+        "open-weights",
+        "training-cost",
+        "diffusion"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "两人实验室 Linum 以 2.1 万美元算力把像素空间文生图模型 Pyramid-JiT 训练到 6.6 亿样本，并以 Apache 2.0 开源模型代码与权重，作为通往视频模型的中间验证P-JiT 不用独立 VAE 压缩：让扩散模型学习为自己用途定制的潜空间，采用 3232 token 缩减（Linum v2/FLUX-2 等 Wan VAE+DiT 为 1616），用原先表示 256 图的 token 预算表示 512 图，注意力窗口缩减 4 倍，收敛样本减少 11 倍文中公开训练设置249 张样图与模型局限，是小团队低成本训练生成模型的一个透明成本/质量数据点",
+      "summary_en": "Two-person lab Linum trains its Pyramid-JiT pixel-space text-to-image model for 660M samples at $21K total compute and releases model code and weights under Apache 2.0 as a stepping stone toward its next video model. P-JiT drops the separate VAE compressor: the diffusion model learns a latent space purpose-built for its own use case, with 32x32 token reduction (vs the 16x16 of Wan VAE + DiT setups like Linum v2 and FLUX-2), representing 512x512 images in the token budget previously used for 256x256 - a 4x smaller attention context window - and converging with 11x fewer training samples. The post documents the training regime, pressure testing with a gallery of 249 outputs, and stated model limitations: a transparent cost/quality data point for small-team generative model training.",
+      "one_liner": "Training a Text-to-Image Model for $21K (Linum P-JiT, Apache 2.0)",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/764fc197.md",
+      "images": [],
+      "added_date": "2026-11-06",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-05",
-  "total_entries": 3088
+  "last_updated": "2026-11-06",
+  "total_entries": 3097
 }
