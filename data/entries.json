@@ -95316,8 +95316,295 @@
       "related": [
         "7838c877"
       ]
+    },
+    {
+      "id": "ed744972",
+      "title": "Scientist World: Grow a Research World for AI-Scientists",
+      "url": "https://arxiv.org/abs/2611.08478",
+      "source": {
+        "platform": "arxiv",
+        "author": "Taiming Lu, Sachin Konan, Zhuang Liu",
+        "original_date": "2026-11-05"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "ai-scientist",
+        "benchmark",
+        "research-automation",
+        "training-environment"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "AI 科学家有了，但供其成长的世界还没有Scientist World 把每篇论文变成可执行环境：自动流水线抽取论文的开放研究问题，并把论文提出的方法复现为基线；进入环境的 AI 科学家以人类作者的实测结果为评分基准首批发布 1000 个经过验证的环境作为评测，前沿 AI 科学家已在 74% 的任务上超过人类作者；作为记录，它保存了 6400 小时研究轨迹（含想法实验失败与成功）；作为训练场，小模型借此能力提升 158%，在研究构思上追平前沿模型",
+      "summary_en": "AI-Scientists lack a runnable world to grow in: the literature is readable but not executable. Scientist World turns every research paper into an environment: an autonomous pipeline extracts each paper's open-ended research question and reproduces its proposed method as the baseline, and an entering AI-Scientist is evaluated against what the human authors achieved. The first release contains 1,000 verified environments. As an evaluation, frontier AI-Scientists already surpass the human researchers 74% of the time. As a record of how AI does science, it contains 6,400 hours of research traces with every idea, experiment, failure, and success. As a training ground, a small model raised on it (+158%) matches frontier models in research ideation.",
+      "one_liner": "把论文变成可执行环境：首批 1000 个验证环境让 AI 科学家以人类作者结果为基准被评测与训练",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/ed744972.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "46198a1a",
+      "title": "XStack: A Benchmark for ML Repo Migration",
+      "url": "https://arxiv.org/abs/2611.08472",
+      "source": {
+        "platform": "arxiv",
+        "author": "Linrong Cai, Taiming Lu, Haozhe Chen, Zhuang Liu",
+        "original_date": "2026-11-05"
+      },
+      "category": "coding",
+      "tags": [
+        "arxiv",
+        "coding-agent",
+        "benchmark",
+        "repo-migration",
+        "jax"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "ML 代码主要活在 PyTorch/NVIDIA 与 JAX/TPU 两个生态里，跨仓迁移既是解锁不同硬件的实际需求，也是天然的整仓长程基准XStack 给智能体一个 PyTorch 仓库和一台干净的 TPU 机器，要求交付 JAX 仓库，评分标准锚定源仓已发表结果并由作者认证校准实测迁移仍不可靠：Claude Opus 5 通过 75%，GPT-5.6-sol 45%，其余智能体最高 40%",
+      "summary_en": "ML code lives mainly in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs; migrating repositories between them unlocks different hardware and is a natural long-horizon benchmark spanning whole repositories. XStack gives each agent a PyTorch repository and a clean TPU machine and requires it to deliver a JAX repository; the output passes only if it meets grading criteria anchored on the source repository's published results, authenticated and calibrated by the authors. Migration by agents remains unreliable: Claude Opus 5 passes 75%, GPT-5.6-sol 45%, and every other agent at most 40%.",
+      "one_liner": "XStack 用 PyTorch 到 JAX 的整仓迁移测 coding agent：最强模型通过率仅 75%，跨生态迁移远未可靠",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/46198a1a.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "30217b36",
+      "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
+      "url": "https://arxiv.org/abs/2611.08483",
+      "source": {
+        "platform": "arxiv",
+        "author": "Qile Jiang, George Em Karniadakis",
+        "original_date": "2026-11-05"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "evolutionary-search",
+        "kv-cache",
+        "latent-space"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM 引导的进化搜索每轮都要解码长思维链，慢且贵SwarmEvolve 让每轮数百个低成本智能体组成蜂群：在潜空间推理不解码为文本，靠传递 KV 缓存共享信息；新颖性过滤器直接度量隐状态向量距离来保留最不同的想法，总结智能体接收全体成员合并的 KV 缓存，实现潜空间中的思路交叉在 21 个数学发现与科学计算问题上，其他 SOTA 框架 60 分钟达到的最高分，它中位数 3-8 分钟达到；Qwen3 8B 版还在若干问题上改进了 AlphaEvolve 用前沿模型得到的解",
+      "summary_en": "LLM-guided evolutionary search is slow because the LLM decodes a long chain of thought every round and must repeat it to keep population diversity. SwarmEvolve instead runs hundreds of low-cost agents per round as swarms that reason in latent space without decoding to text and share information by passing KV caches. Each swarm studies the problem from a different angle; a novelty filter keeps the most distinct ideas by measuring distances between hidden-state vectors, and a summarizer agent receives the combined KV caches of all members, so ideas crossover naturally in latent space. On 21 mathematical-discovery and scientific-computing problems, SwarmEvolve reaches in a median of 3-8 minutes the best scores that state-of-the-art frameworks need 60 minutes for, and with Qwen3 8B it improves on several AlphaEvolve solutions found with frontier LLMs.",
+      "one_liner": "SwarmEvolve 用数百个潜空间蜂群代理传 KV 缓存做进化搜索：3-8 分钟达到 SOTA 60 分钟的分数",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/30217b36.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "41341649",
+      "title": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
+      "url": "https://arxiv.org/abs/2611.08438",
+      "source": {
+        "platform": "arxiv",
+        "author": "Fazl Barez, Tung-Yu Wu, Hunar Batra, et al.",
+        "original_date": "2026-11-05"
+      },
+      "category": "learning",
+      "tags": [
+        "arxiv",
+        "mechanistic-interpretability",
+        "ai-safety",
+        "survey",
+        "circuits"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "机制可解释性综述：通过研究模型内部表示与计算来评估预测并控制行为，核心问题是理解机制是否真的让模型更安全文章把机制可解释性放进更广的可解释性研究版图，比较机制证据与行为评测；覆盖特征多义性transformer 计算与线路等基础，梳理特征抽取与分析线路发现与因果验证中间表示的自然语言解释学习动力学训练数据归因等方法；并提出统一框架来评估机制可解释性论断，按目标假设与代价刻画六种研究取向",
+      "summary_en": "Mechanistic interpretability studies neural networks' internal representations and computations with the aim of evaluating, predicting, and controlling behavior. This survey asks whether understanding how models work actually makes them safer. It places mechanistic interpretability in the broader interpretability landscape and compares mechanistic evidence with behavioral evaluation; covers foundations including features, polysemanticity, transformer computation, and circuits; and surveys methods for feature extraction and analysis, circuit discovery and causal verification, explaining intermediate representations in natural language, learning dynamics, and training-data attribution. Beyond surveying methods, it proposes a unified framework for evaluating mechanistic interpretability claims and characterises six research orientations by goals, assumptions, and trade-offs.",
+      "one_liner": "机制可解释性安全综述：提出统一框架评估机制论断，刻画六种研究取向，回答懂机制是否就更安全",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/41341649.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2d8e067b",
+      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+      "url": "https://arxiv.org/abs/2611.08452",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yubo Wang, Rui Meng, Jaehyun Nam, et al.",
+        "original_date": "2026-11-05"
+      },
+      "category": "coding",
+      "tags": [
+        "arxiv",
+        "reproducibility",
+        "coding-agent",
+        "benchmark",
+        "ml-artifacts"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "复现 ML 实验要从论文代码产物里拼出流程，coding agent 的成败因此取决于补全缺失细节的能力ReproBridge 定义了标准化产物设计（精炼代码库环境配置实验启动器复现指南），并给出构建可复现产物的 agent 工作流；ReproBridge-Bench 含 36 篇论文 387 个实验共 1029 个任务，每任务锚定 5 个人工核对参考分，另设 Auditor 检查执行证据四个模型上，精炼产物把平均复现成功率从 76.4% 提到 92.6%，下游 API 开销平均降 19.7%，跨模型差距从 21.6 收窄到 3.9 个百分点",
+      "summary_en": "Reproducing ML experiments requires reconstructing procedures scattered across papers, code, and artifacts, so coding agents' success depends on filling in missing details. ReproBridge defines a standardized artifact design (refined codebase, environment setup, experiment launchers, reproduction guide) and an agent workflow for constructing refined reproducible artifacts. ReproBridge-Bench provides 1,029 tasks from 387 experiments across 36 papers, anchored by five human-verified reference scores per task; agents attempt tasks in fresh sessions with raw code or refined artifacts, and a separate Auditor checks execution evidence. Across four evaluated models, refined artifacts raise mean reproduction success from 76.4% to 92.6% and cut downstream API spending by 19.7% on average; the cross-model success spread narrows from 21.6 to 3.9 percentage points.",
+      "one_liner": "ReproBridge：把执行知识固化进 ML 产物，agent 复现成功率 76.4% 升到 92.6%，API 成本降 19.7%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2d8e067b.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f03cfc23",
+      "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
+      "url": "https://arxiv.org/abs/2611.08433",
+      "source": {
+        "platform": "arxiv",
+        "author": "Donghua Zhang, Zizheng Wang, Ze Dong, et al.",
+        "original_date": "2026-11-05"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "agent-memory",
+        "graph-memory",
+        "medical-dialogue",
+        "longitudinal"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "跨就诊追踪患者的医疗助手需要随病情变化保持临床状态正确的记忆作者分析五个记忆系统在纵向医疗对话中的错误，归纳三类根因：检索到的证据是过期状态混入他人的健康事实缺少答案依赖的安全事实MedGraph 图记忆针对这三类构建：每次会话抽取带日期的事实并归属到具体个人，把用药诊断测量记录连成保留历史状态的链；检索单位是患者链，读取提问所指时点的状态，患者档案随每个问题列出全部安全事实MedMemoryBench 上，GPT 与 Qwen 两种骨干都取得最高总体准确率，领先最强基线 10 点以上",
+      "summary_en": "LLM medical assistants that follow a patient across visits need memory that keeps clinical state correct as it changes. Studying five memory systems on longitudinal medical dialogue reveals three recurring failure causes: the retrieved evidence gives an outdated state, includes another person's health facts, or lacks a safety fact the answer depends on. MedGraph is a graph memory built for these cases: it extracts dated facts per session, attributes each fact to the person it describes, and links medication, diagnosis, and measurement records into chains that keep earlier states. Retrieval ranks the patient's chains as units, reads each chain at the asked-about time, and a patient profile lists every recorded safety fact with every question. On MedMemoryBench, MedGraph has the highest overall accuracy with both GPT and Qwen backbones, over 10 points above the strongest of five baselines.",
+      "one_liner": "MedGraph 用患者级链式图记忆治理医疗对话三类记忆错误：过期状态他人事实安全事实缺失",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f03cfc23.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "86099069",
+      "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
+      "url": "https://arxiv.org/abs/2611.08417",
+      "source": {
+        "platform": "arxiv",
+        "author": "E. Kelly Buchanan, Crystal Zhou, Scott W. Linderman, Christopher R",
+        "original_date": "2026-11-05"
+      },
+      "category": "coding",
+      "tags": [
+        "arxiv",
+        "benchmark",
+        "terminal-bench",
+        "coding-agent",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "精心校验过的 agent 基准也会过期：模型变强后能找到被现有验证器误判的有效解，评测设施变更也会让任务内嵌假设失效，论文称之为基准维护债作者提出持续验证工作流：社区报告任务产物agent 轨迹自动 oracle 检查加人工把关修复对 Terminal-Bench 2.0 的审计发现约 30% 的任务有问题，修复版 2.1 使准确率上升超 10 个百分点，榜单名次最多移动三位资源预算也属于测量规范的一部分：放宽墙钟时间可在 GPT 5.4 上抹平 20 分的 harness 差距，把 5.4 mini 的 30 分差距缩到 5 分",
+      "summary_en": "Coding agents are among the most economically consequential LLM deployments, yet even carefully validated benchmarks go stale: as models improve they find valid solutions existing verifiers reject, and infrastructure changes invalidate assumptions embedded in tasks and tests. The paper names this benchmark maintenance debt and introduces a continuous-validation workflow combining community reports, task artifacts, agent traces, automated oracle checks, and human-gated repairs. Applied to Terminal-Bench 2.0, the audit finds issues in roughly 30% of the benchmark; repairs ship as Terminal-Bench 2.1 and shift results by over 10 accuracy points, moving leaderboard positions by up to three ranks. Resource budgets are part of the measurement specification: extending wall-clock closes a 20-point harness gap on GPT 5.4 and shrinks a 30-point gap on GPT 5.4 mini to 5.",
+      "one_liner": "Terminal-Bench 审计发现约 30% 任务有基准维护债；修复版 2.1 让准确率涨超 10 分榜单最多重排三位",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/86099069.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2755621b",
+      "title": "please do not escape: A Dataset of Sandboxes for AI Coding Agents",
+      "url": "https://pleasedonotescape.com/",
+      "source": {
+        "platform": "blog",
+        "author": "pjlsergeant",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "sandbox",
+        "coding-agent",
+        "dataset",
+        "container-security"
+      ],
+      "source_type": "dataset",
+      "language": "en",
+      "summary_zh": "面向 AI coding agent 的沙箱数据集：从 Show HN 讨论串与社区投稿起步，每条记录都注明一手来源，数据维护在 GitHub 仓库 pjlsergeant/ai-sandboxes，支持按需筛选并可提 PR 补充修正站点与作者另一个项目 byre（一个克制大小的容器围栏）同源，可作为让 agent 执行代码时选择隔离方案的实用索引",
+      "summary_en": "A curated dataset of sandboxes for AI coding agents, collected from a Show HN thread and community submissions. Every entry traces to a primary source, with data maintained in the public GitHub repository pjlsergeant/ai-sandboxes; visitors can browse quick picks and non-product alternative approaches, filter entries, and contribute corrections or additions via pull request. Built by the author of byre, a constrained container box for coding agents, the site works as a practical index for choosing containment when letting agents run code.",
+      "one_liner": "please do not escape：给 AI coding agent 挑沙箱的数据集，每条记录锚定一手来源",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/2755621b.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "71aaa294",
+      "title": "GoLand's Profiler Now Works with AI Agents",
+      "url": "https://blog.jetbrains.com/go/2026/11/06/we-gave-ai-agents-goland-s-profiler-they-found-the-same-bottlenecks-with-half-the-tokens",
+      "source": {
+        "platform": "blog",
+        "author": "JetBrains",
+        "original_date": "2026-11-06"
+      },
+      "category": "coding",
+      "tags": [
+        "profiler",
+        "goland",
+        "claude-code",
+        "mcp",
+        "performance"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "GoLand 2026.3 把内置 Go profiler 交给 AI agent 使用：用户只描述症状（如 POST /reindex 索引重建慢得离谱，帮我 profile），agent 负责带 profiler 启动应用挑选匹配问题的 profile读结果并定位到具体代码，用户无需懂 mutex profile 或 pprof 参数通过捆绑的 goland-profiler skill 加一组 MCP 工具，Claude CodeCodexJunie 都能接入；skill 明确禁止注入 net/http/pprof 或临时插桩代码，保持源码不动JetBrains 称 agent 能用约一半 token 找到相同瓶颈",
+      "summary_en": "GoLand 2026.3 lets your AI agent drive the built-in Go profiler: you describe the symptom (for example, reindexing through POST /reindex takes much longer than it should, profile it), and the agent runs your app with the profiler, picks the profiles that fit the problem, reads the results, and points you to the responsible code, without needing to know mutex profiles or pprof flags. It works with Claude Code, Codex, and Junie through a bundled goland-profiler skill plus MCP tools; the skill tells the agent when to reach for the profiler (slow execution, high CPU, excessive allocations, memory growth, lock contention, goroutine leaks) and explicitly forbids adding net/http/pprof or temporary profiling code, so sources stay untouched. JetBrains reports the agents found the same bottlenecks with about half the tokens.",
+      "one_liner": "GoLand 2026.3 让 Claude Code/Codex/Junie 通过 skill+MCP 直接驱动 Go profiler，同一瓶颈只用一半 token",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/71aaa294.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-06",
-  "total_entries": 3109
+  "last_updated": "2026-11-07",
+  "total_entries": 3118
 }
