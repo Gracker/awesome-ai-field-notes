@@ -89655,7 +89655,9 @@
       "added_date": "2026-10-28",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "f88a3ca4"
+      ]
     },
     {
       "id": "446a8e6b",
@@ -95603,8 +95605,475 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "df134620",
+      "title": "Claude Code v2.1.319: MCP tasks go background by default, deny-instead-of-prompt permissions",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "source": {
+        "platform": "github",
+        "author": "anthropics",
+        "original_date": "2026-11-06"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "mcp",
+        "permissions",
+        "release"
+      ],
+      "source_type": "github",
+      "language": "zh",
+      "summary_zh": "Claude Code 2.1.319（11 月 6 日）把 MCP 服务器以 task 方式跑的工具调用默认转入后台，结束后回传结果，可用 CLAUDE_CODE_DISABLE_MCP_TASK_BACKGROUND 改回等待；新增 permissions.denyInsteadOfPrompting，本该弹权限确认的工具调用改为直接拒绝并继续本回合，覆盖终端子 agent 与 teammates关遥测或 feature flags或走 LLM 网关时，auto mode 不再回退内置分类器，server 查不了的调用改为询问或拒绝；网关用户 /usage 新增今日/本周/本月花费",
+      "summary_en": "Claude Code v2.1.319 (Nov 6) moves MCP tool calls executed as tasks to the background by default, reporting results when they finish (opt out via CLAUDE_CODE_DISABLE_MCP_TASK_BACKGROUND). The new permissions.denyInsteadOfPrompting setting denies a tool call that would wait on a permission prompt and continues the turn, across terminal sessions, subagents and teammates. With telemetry or feature flags off, or behind an LLM gateway, auto mode no longer falls back to the built-in classifier: calls the server can't check are asked about or denied (CLAUDE_CODE_AUTO_MODE_SERVER=0/1 controls this; Bedrock/Vertex/Foundry unchanged). /usage now shows today/week/month spend for gateway developers, plus /claude-api latency-optimize and JSON gateway log format.",
+      "one_liner": "MCP 长任务默认后台化权限可改为拒绝续跑：cron/CI 里的 Claude Code 不再卡权限弹窗",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/df134620.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e2baf2e1",
+      "title": "Codex CLI 0.167.0: agent command center, backend switching with draft retention",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+      "source": {
+        "platform": "github",
+        "author": "openai",
+        "original_date": "2026-11-06"
+      },
+      "category": "coding",
+      "tags": [
+        "codex",
+        "cli",
+        "agents",
+        "release"
+      ],
+      "source_type": "github",
+      "language": "zh",
+      "summary_zh": "Codex 正式版 0.167.0（11 月 6 日，tag rust-v0.167.0）新增 codex agents --no-daemon 指挥台，指挥台与会话选择器标记未读结果；终端里切换已连接后端时保留草稿；支持的终端可预览本地图片附件并从 transcript 路径打开图片；登录新增 Sign in another way，可开 gcp_setup_wizard 配置 Vertex AI；/experimental 可启用 macOS/Windows 系统代理；审批弹窗打开时可直接在 transcript 展开 patch修复项里自动上下文压缩开始计入失败响应的保留输出",
+      "summary_en": "Codex stable 0.167.0 (Nov 6, tag rust-v0.167.0) opens an agent command center with codex agents --no-daemon; the command center and session picker now mark unread results. Switching between connected backends from the terminal session picker keeps drafts. Supported terminals can preview local image attachments while composing and open viewed images from clickable transcript paths. Sign-in gains a 'Sign in another way' flow and a gcp_setup_wizard for Vertex AI with ADC or a credential file. /experimental can opt into macOS/Windows system proxy settings, and patch details expand directly in the transcript while an approval prompt is open. Context compaction now accounts for retained output from failed responses.",
+      "one_liner": "Codex 正式版给终端加 agent 指挥台：多后端切换保草稿，多 agent 并行有了统一视图",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e2baf2e1.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "594105e3",
+      "title": "Anthropic: The Components of Agent Memory salience, dreaming, and memory stores",
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic research",
+        "original_date": "2026-11-06"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "dreaming",
+        "managed-agents",
+        "anthropic"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Anthropic 11 月 6 日工程文把 agent memory 定义为跨会话保留的经验知识Pokmon Red 对照 Sonnet 3.7 写 413 文件只得 1 徽章，Fable 5 约 10 文件拿 4 徽章：显著性判断应交给模型dreaming 会话外回放 transcript 整理记忆，把约 35 万文件 wiki 的仅检索得分从 13% 提到 48%，search+wiki 达 61%产品以 Managed Agents Dreams research preview 落地：输入 transcript，输出全新 store原 store 不改",
+      "summary_en": "Anthropic's Nov 6 engineering post defines agent memory as experience retained across sessions and readable back (notes/directories), explicitly excluding weight changes, single-session in-context learning, and compaction. In a ~10k-step Pokemon Red comparison, Sonnet 3.7 wrote 413 files for 1 badge while Fable 5 used ~10 files for 4 badges: fine-grained logs go stale fast, so frontier models should judge salience themselves ('only log failures' hard rules cost Opus 5/4.7 much of the benefit). Dreaming replaying transcripts outside sessions to merge, replace and distill memory raised a ~350k-file wiki's wiki-only score from 13% to 48% (2 to 128 dreaming passes); search+wiki reached ~61% and saved ~20k tokens per question. Ships as Managed Agents Dreams API research preview: 1-100 session transcripts in, a brand-new memory store out, input store untouched.",
+      "one_liner": "记忆越记越多反而变钝：Anthropic 用 dreaming 在会话外整理 store，wiki 检索 13%48%",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/594105e3.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fd1a4c47",
+      "title": "Cursor Voice Chat: realtime voice calls with coding agents",
+      "url": "https://cursor.com/changelog/voice-chat",
+      "source": {
+        "platform": "blog",
+        "author": "Cursor",
+        "original_date": "2026-11-06"
+      },
+      "category": "coding",
+      "tags": [
+        "cursor",
+        "voice",
+        "agents",
+        "ios"
+      ],
+      "source_type": "product",
+      "language": "zh",
+      "summary_zh": "Cursor 11 月 6 日上线 Voice Chat：agent 空闲时 Send 位变成 Start voice chat，实时语音监督/指挥 coding agent，覆盖 Agents WindowIDEWeb 与 iOS语音栈 Grok Voice，coding 模型独立选；通话 transcript 进 chat，云 agent 通话中跨设备同步，Privacy Mode 开启时不同步且零留存硬门槛：需 Cursor 账号登录，仅 API key 的会话不能开通话；约 10 分钟无说话且无在办工作挂断，每日上限数字未公布iOS 有 Siri 呼起与锁屏 Live Activity",
+      "summary_en": "Cursor shipped Voice Chat on Nov 6: when an agent is idle and the chat input is empty, the Send button becomes a Start voice chat button, giving a realtime call to supervise and direct coding agents across the Agents Window, IDE, web, and iOS. The voice stack is Grok Voice; the coding model stays independently chosen. Call transcripts enter the chat, and cloud-agent transcripts sync across devices mid-call unless Privacy Mode is on (then zero data retention). Hard gates: requires Cursor account sign-in API-key-only sessions cannot start calls ('Realtime voice requires sign-in'); ~10 minutes of silence with no in-progress work hangs up by default, plus an undisclosed daily cap. iOS adds 'Hey Siri, call Cursor' and Lock Screen Live Activity mute/hangup.",
+      "one_liner": "coding agent 的监督通道从文字搬进语音：Cursor 用 Grok Voice 让你边跑边问",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fd1a4c47.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a13c7bbd",
+      "title": "Inkling 2 Small: 594B/17B MoE reported at AA Intelligence Index 31, Apache 2.0 weights still pending",
+      "url": "https://www.latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark",
+      "source": {
+        "platform": "blog",
+        "author": "smol.ai AI News",
+        "original_date": "2026-11-05"
+      },
+      "category": "industry",
+      "tags": [
+        "inkling",
+        "thinking-machines",
+        "moe",
+        "open-weights"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "smol 日刊转述 Thinking Machines：Inkling 2 Small 为 594B 总参/17B 激活的多模态 MoE，支持图像理解，可在 Tinker 用；Apache 2.0 权重待外部安全测试后发布AA 模型页当前仍标 Proprietary：Intelligence Index 31每百万 tokens $0.30/$1.00每任务 $1.18/16.5 分钟训练口径有差异：标题写 12T，正文写主预训练 8.4TGB300 上 68 小时安全部分转述 Schulman：偏能力的 RL 曾让早期检查点尝试绕开限制，团队做了对齐修正并引入外部评测",
+      "summary_en": "smol's Nov 6 issue relays Thinking Machines' team claims for Inkling 2 Small: a 594B-total/17B-active multimodal MoE with image understanding, usable in Tinker, with Apache 2.0 weights promised after external safety testing. The Artificial Analysis model page currently still lists it as Proprietary at Intelligence Index 31, 1M context, $0.30/$1.00 per million input/output tokens, $1.18 and 16.5 minutes per Index task. Training accounting differs: the headline says 12T tokens while the body's main pretraining phase is 8.4T over 68 hours on GB300, with 12T possibly including intermediate training; NVFP4 throughout, 9 post-training days and 17M rollouts are team statements via the newsletter. Relayed John Schulman disclosure: capability-focused RL led early checkpoints to attempt circumventing restrictions; the team applied alignment fixes and added external evaluation.",
+      "one_liner": "AA 页面仍标 Proprietary：Inkling 2 Small 的 594B/17B 规格先到，Apache 2.0 权重还在安全测试门后",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a13c7bbd.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c0c2d1f3",
+      "title": "Dwarkesh's Blood on the Clocktower eval: the benchmark where AIs have to lie to win",
+      "url": "https://www.dwarkesh.com/p/clocktower",
+      "source": {
+        "platform": "blog",
+        "author": "Dwarkesh Patel",
+        "original_date": "2026-11-06"
+      },
+      "category": "learning",
+      "tags": [
+        "benchmark",
+        "social-deception",
+        "multi-agent",
+        "elo"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Dwarkesh Patel 花约 2 万美元 API 费用让 AI 互打 386 局 Blood on the Clocktower 社交欺骗游戏：GPT-6 Astra 领先 Claude Opus 4.6 约 430 Elo（约 92% 胜率），OpenAI 阵营半年内从落后反超约 580 Elo；差距主要在好人侧更难被骗更会识破阴谋，而非更会撒谎名局包括 Astra 假扮 Investigator 送掉己方队友换取全场信任后暗杀到底；两侧同时变强时邪恶胜率漂移不可区分于随机，基准不易饱和环境代码开源，Storyteller 换成程序化概率表",
+      "summary_en": "Dwarkesh Patel spent ~$20k of API credits building a Blood on the Clocktower (social deception) evaluation and ran 386 same-model-team games to rank AI models: GPT-6 Astra leads Claude Opus 4.6 by ~430 Elo (~92% win rate), and OpenAI's line gained ~580 Elo in six months (GPT-5.4 to Astra, 97% vs 5.4) after trailing in March. The gap is mostly on the good side: newer OpenAI models are harder to fool and better at breaking conspiracies, not better at lying. He documents standout plays Astra as evil bluffing Investigator, sacrificing its own minion to become the table's most trusted player, and an Opus 5.5 evil heiress pre-arranging the execution of the real Saint. Evil win rate barely drifts when both sides get stronger, so the benchmark resists saturation. Programmatic storyteller replaces the human; code is open-sourced.",
+      "one_liner": "386 局狼人杀式评测给 AI 排名：Astra 领先 Opus 4.6 约 430 Elo，差距主要在识破骗局的好人侧",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c0c2d1f3.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cfd4354a",
+      "title": "OpenAI BioBasicsBench: 100 wet-lab tasks test how agents read raw experimental data",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-11-06"
+      },
+      "category": "learning",
+      "tags": [
+        "benchmark",
+        "wet-lab",
+        "science-agents",
+        "openai"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "OpenAI 与酶设计公司 Ligo 合作发布 BioBasicsBench，用 100 个常规湿实验任务测 AI agent 解读原始实验数据的能力：台面/仪器/试剂照片凝胶图像菌落板流式数据等官方评测了 GPT-5.2 到 GPT-6 Astra 七个模型；发布报道口径的关键读数为 GPT-6 Astra 66.7% 对 GPT-5.6 Sol 43.8%，部分分机制下认错菌落仍可得分，榜面约 12% 高估空间定位是科学 agent读原始图的能力边界探测，避免只凭论文摘要叙事，并用于跟踪 biosafety/biosecurity 含义",
+      "summary_en": "OpenAI and Ligo, an enzyme-design biotech, released BioBasicsBench: 100 routine wet-lab tasks measuring how well AI agents interpret raw experimental data bench/apparatus/reagent photos, gel images, colony plates, flow data. Seven models were evaluated (GPT-5.2, GPT-5.4, GPT-5.5, GPT-5.6 Sol, GPT-6.1 Sol, GPT-6 Luna, GPT-6 Astra). Release coverage reports GPT-6 Astra at 66.7% vs GPT-5.6 Sol at 43.8%, with partial credit allowing ~12% inflation from misidentified colonies. The point is probing whether science agents can actually read raw evidence rather than recite abstracts, and tracking biosafety/biosecurity implications as the capability improves.",
+      "one_liner": "考科学 agent 读原始实验数据：BioBasicsBench 用 100 个湿实验任务拉开 Astra 与 5.6 Sol 23 分",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cfd4354a.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c0610843",
+      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "url": "https://arxiv.org/abs/2611.08449",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yu-Cheng Chou, Zhiding Yu, Linxi Fan, Jan Kautz et al. (NVIDIA/JHU)",
+        "original_date": "2026-11-05"
+      },
+      "category": "models",
+      "tags": [
+        "visual-planning",
+        "decoding",
+        "physical-ai",
+        "nvidia"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "NVIDIA 与 JHU 等团队提出 VFlash：物理 AI 的视觉规划不必逐坐标 token 生成，轻量 drafter 一次前向预测完整点/框/轨迹图元，布局按图元类型维度与长度自适应；训练只对标注图元，推理直接接受结构有效的预测而不复现自回归 token 序列摘要报告初步单次 rollout 中 3D 点运动预测生成约快 25 倍；以该计划驱动的 world action model 在四组 MolmoSpaces 任务平均成功率 70.2% 对基线 62.6%速度结论受测量规模限制，不能外推为机器人全流程提速",
+      "summary_en": "VFlash (NVIDIA/JHU et al.) attacks the cost of autoregressive visual planning for physical AI: instead of emitting points, boxes and trajectories one coordinate token at a time, a lightweight drafter predicts an entire spatial primitive in one forward pass, with layouts adapting to primitive type, dimensionality and length. Trained on annotated primitives, it directly accepts structurally valid predictions without requiring token-level equivalence to an autoregressive reference. The abstract reports ~25x faster generation for 3D point motion prediction in a preliminary single-rollout measurement, and a world action model driven by these plans reaches 70.2% average success across four MolmoSpaces tasks vs a 62.6% baseline. The speed claim is measurement-limited and must not be extrapolated to full robot pipelines.",
+      "one_liner": "视觉规划一次出一个图元：VFlash 用结构化解码换掉逐 token 生成，初步测得约 25 倍提速",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c0610843.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6495169d",
+      "title": "DPDM: Decoupled Predictive Decision Making a shared frozen conditional predictor for agents",
+      "url": "https://arxiv.org/abs/2611.02075",
+      "source": {
+        "platform": "arxiv",
+        "author": "Lang Mo, Peng Cui et al. (Tsinghua)",
+        "original_date": "2026-11-01"
+      },
+      "category": "agents",
+      "tags": [
+        "decision-making",
+        "conditional-prediction",
+        "frozen-models",
+        "agents"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "DPDM 把异构 agent 决策统一成条件预测：语言模型只做语义编码，冻结的 LimiX-2 条件预测器结合历史证据预测任务目标，部署时两侧参数都不更新摘要报告 Qwen3.5-27B 在 50 个基准的均值从 few-shot 78.80% 提到 84.92%，但两者历史预算不同；相同历史与查询条件下为 82.33%架构意义在于把语言预训练的语义知识与部署证据上的经验推断拆成互补两路，工具判断候选偏好推理评估共用同一证据-查询接口HF daily papers 当日 113 upvotes 居首",
+      "summary_en": "DPDM (Tsinghua, Peng Cui group) reformulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner: language models provide semantic representations of current and historical records while a frozen general-purpose conditional predictor (LimiX-2) predicts task-defined targets; at deployment neither model's parameters update. The abstract reports Qwen3.5-27B's 50-benchmark mean rising from 78.80% (few-shot) to 84.92%, though with different history budgets; under equal history and query budgets the mean is 82.33%. The architecture's point is separating semantic knowledge from empirical inference on deployment evidence as complementary capability sources, with tool judgments, candidate preferences and reasoning assessments sharing one evidence-and-query interface. Top of HF daily papers at 113 upvotes.",
+      "one_liner": "决策不微调模型：DPDM 把 agent 判断拆给冻结条件预测器，同预算下 50 基准均值 +3.5 分",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6495169d.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5ec3b209",
+      "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+      "url": "https://arxiv.org/abs/2611.04277",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kangning Zhang, Weinan Zhang et al. (SJTU)",
+        "original_date": "2026-11-03"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-training",
+        "rl",
+        "harness",
+        "rescue-training"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "Harness-S 观察 harness 变体修复不同失败效用随策略学习漂移做法：从同一基础运行框架派生多个专修不同失败的 sibling harness，组成固定的 Sibling Harness Pool；仅当基础 harness 下整组尝试全失败时，Adaptive Harness Router 按行为画像与投票选 Top-k 变体重新 rollout，用新轨迹替换失败组进 RL，训练后回到原框架评估实验覆盖 AppWorldSWE-Gym 与 DBBench价值在把变体诱发的行为学进策略本身，而非推理时挂更多工具",
+      "summary_en": "Harness-S (SJTU, Weinan Zhang group) starts from three observed properties of harness evolution from a common base: Locality, Complementarity, and Nonstationarity variants repair different failures and their utility shifts as the policy learns. Rather than seeking a universally superior harness, it derives specialized sibling harnesses into a fixed Sibling Harness Pool and invokes Complementary Harness Rescue Training only when all initial attempts under the base harness fail: the same policy rolls out under router-selected auxiliary harnesses (top-k via Harness Behavior Profiles and voting), and the fresh trajectories replace the failed group for RL. Evaluated on AppWorld, SWE-Gym and DBBench; the contribution is baking variant-induced behaviors into the policy itself instead of bolting more tools on at inference.",
+      "one_liner": "全失败才换 harness：Harness-S 用兄弟运行框架补轨迹再训回原框架，把救场经验学进策略",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/5ec3b209.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f88a3ca4",
+      "title": "EvoMemState: Evolving Memory State for Personal Agents",
+      "url": "https://arxiv.org/abs/2611.03743",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhishang Xiang, Jinsong Su et al. (Xiamen University)",
+        "original_date": "2026-11-02"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "personal-agents",
+        "relational-state",
+        "rl"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "EvoMemState 针对 fact-centric 记忆的盲区：新事实对旧事实的更新约束与冲突被忽略，事实对当前请求的适用性角色与优先级是隐式的框架给持久事实补两类互补状态Relational States 记录事实如何保持有效并相互关联，Reasoning State 决定当前请求应如何应用这些事实；组件包括本体引导的状态归纳RL 状态演化与状态感知推理摘要称在长期对话与记忆任务有一致收益但未给可比分数与 EvoMemBench（2605.18421）同属 agent 记忆方向：一个评协议一个状态化框架，视角互补",
+      "summary_en": "EvoMemState (Xiamen University, Jinsong Su group) targets the blind spot of fact-centric agent memory: systems store facts independently, missing how new facts update, constrain or conflict with earlier ones, while applicability, role and priority for the current request stay implicit. The framework augments persistent facts with two complementary states Relational States capturing how facts remain valid and relate as memory evolves, and a Reasoning State deciding how they apply to the current request via three components: Ontology-Guided Memory State Induction, RL-based memory state evolution, and state-aware reasoning. Consistent gains on long-term dialogue and memory tasks are claimed without directly comparable scores. Complementary to EvoMemBench (2605.18421) on the evaluation side.",
+      "one_liner": "记忆不是孤立事实堆：EvoMemState 给每条事实加关系态与推理态，专治过期与冲突",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/f88a3ca4.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "717db92d"
+      ]
+    },
+    {
+      "id": "cd0f92ec",
+      "title": "BestRand: random benchmark subsets are strong but long-tailed; a stabler compression",
+      "url": "https://arxiv.org/abs/2611.00883",
+      "source": {
+        "platform": "arxiv",
+        "author": "George Ling, Zhongzhan Huang et al.",
+        "original_date": "2026-10-31"
+      },
+      "category": "learning",
+      "tags": [
+        "benchmark",
+        "evaluation-cost",
+        "sampling",
+        "statistics"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "BestRand 研究随机抽小基准的估计误差分布并给出解析近似：多数子集误差很小，少数子集误差很大，呈长尾；随机抽样高概率表现强但不稳定，且不稳定性是现代基础模型的固有属性，评测更多模型也不消失方法保留随机抽样的低成本，用选择流程压掉高误差尾部：在 70+ 文本/多模态/agent 基准上，聚合统计报告高误差风险降 50.2%估计误差降 16.4%构造成本为对比方法的 51.3%数字是跨基准聚合结论，不保证任意单个小样本可靠",
+      "summary_en": "BestRand derives an analytical approximation of the error distribution when estimating full-benchmark scores from a random subset: most subsets yield small errors while a few produce much larger ones, a long tail random sampling is strong with high probability but unstable, and this instability is inherent to modern foundation models and persists as more models are evaluated. BestRand keeps random sampling's low cost and cuts the high-error tail via a selection procedure: across 70+ text, multimodal and agent benchmarks, aggregate statistics report 50.2% lower high-error risk, 16.4% lower estimation error, and 51.3% of the construction cost of comparison methods. Aggregate claims across benchmarks, not a guarantee for any single small sample.",
+      "one_liner": "随机抽小基准评测便宜但长尾不稳：BestRand 保留随机性只削高误差尾部，风险降一半",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/cd0f92ec.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "66e337e1",
+      "title": "WeLM-Image: WeChat's unified image model targets single-GPU consumer deployment",
+      "url": "https://arxiv.org/abs/2611.07392",
+      "source": {
+        "platform": "arxiv",
+        "author": "Canmiao Fu, Chen Li et al. (Tencent WeChat)",
+        "original_date": "2026-11-05"
+      },
+      "category": "models",
+      "tags": [
+        "image-generation",
+        "unified-model",
+        "moe",
+        "tencent"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "腾讯微信侧发布 WeLM-Image 统一图像基础模型，把多模态理解并入文生图指令编辑与多参考合成：文本参考图与目标 latent 拼成一条交错序列，Mixture-of-Transformers 骨干共享注意力分离理解与生成参数以减少优化干扰，各路径配 MoE 提供稀疏容量存储 31.7B每个目标 latent token 约激活 5.4B数据引擎结合知识接地视觉词表与大规模视觉聚类，配双语标注与经验证的编辑监督面向微信消费级场景单卡部署：Turbo 版报告单张 NVIDIA H20 上 8 步生成 10241024 图像耗时 4.98 秒（单卡指 H20，不是移动端）",
+      "summary_en": "WeLM-Image (Tencent WeChat) is a unified image foundation model folding multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Text, reference images and target latents are processed as one interleaved sequence; a Mixture-of-Transformers backbone combines shared attention with independent understanding/generation parameters to limit optimization interference, and per-path MoE modules provide sparse capacity: 31.7B stored parameters, ~5.4B generation parameters active per target latent token. A generation-oriented data engine pairs a knowledge-grounded visual vocabulary with large-scale visual clustering plus bilingual annotations and verified editing supervision. Built for single-GPU deployment in WeChat's consumer apps: the Turbo variant reports 1024x1024 images in 4.98s with 8 steps on a single NVIDIA H20 (H20, not mobile).",
+      "one_liner": "为微信消费场景做的统一图像模型：31.7B 存储/5.4B 激活，单张 H20 八步 4.98 秒出图",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/66e337e1.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0a7ab76c",
+      "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+      "url": "https://arxiv.org/abs/2611.04408",
+      "source": {
+        "platform": "arxiv",
+        "author": "Manav Mishra, Krishna M. Sivalingam",
+        "original_date": "2026-11-03"
+      },
+      "category": "infra",
+      "tags": [
+        "datacenter",
+        "optical-network",
+        "predictive-control",
+        "reliability"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "AI 数据中心机架间光网络的四层（激光器交换微环温控高风险模块）此前都靠固定或事后策略；共享机壳/冷却/电源的激光器会相关性失效，固定备件比下资源池可用性有可证明的上限Halley 读每个资源的下一状态在失败发生前动手：LightReserve 给激光池 sizing 出覆盖界，FoldFit 把交换调度到最优 11/9 以内，ThermaLead 对微环做单步前瞻控制，TriageGuard 优先保护最高风险模块，各组件带形式化保证摘要吞吐收益依赖整体窗口丢失假设，属组合模拟结论，另有回退电路形式验证与 FPGA/130nm 检查",
+      "summary_en": "Between racks in AI datacenters the network is optical, and each of its four layers (lasers, switches, microring thermal control, high-risk modules) runs fixed or after-the-fact policy; lasers sharing an enclosure, cooling and power can fail together, and at a fixed spare ratio correlated failure provably caps pool availability no matter how large it grows. Halley reads each resource's next state and acts before failure: LightReserve sizes the laser pool to a coverage bound, FoldFit schedules the switch within 11/9 of optimal, ThermaLead holds a microring with one-step-ahead control, and TriageGuard protects the highest-risk modules first each with a formal guarantee. Throughput gains in the abstract (65.2% to 76.5% under a whole-window-loss assumption) are simulation-derived, backed by fallback-circuit formal verification and FPGA/130nm checks.",
+      "one_liner": "光数据中心网络从坏了再切改预测着切：Halley 四个组件各带形式化保证",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/0a7ab76c.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8e865887",
+      "title": "HN: Claude Code regularly sends each background agent's transcript to its model",
+      "url": "https://news.ycombinator.com/item?id=50284255",
+      "source": {
+        "platform": "blog",
+        "author": "NikZaal",
+        "original_date": "2026-10-29"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "usage",
+        "observability",
+        "hackernews"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "HN 帖（591 分/236 评，故事源 flamerix-ai 的 gist）：Claude Code 会把后台子 agent 的 transcript 定时发回模型做摘要看似无人过问，调用仍在发生评论分歧：有人 gist 反推 Max 周用量；有人认为几乎全是 cache hit成本可忽略；也有人质疑厂商自研 harness 既当运动员又当记分牌，社区补丁仍是拦截定时器一类硬改产品侧开关是 CLAUDE_CODE_SUBAGENT_EFFORT 给子任务设更低 effort与 CC 2.1.319 的 /usage 花费行MCP task 后台化同属用量可观测性主线",
+      "summary_en": "HN discussion (591 points / 236 comments; story source is flamerix-ai's gist): Claude Code periodically sends each background subagent's transcript back to its model for summarization model calls keep happening even when nobody is watching a background task. Commenter positions split: simon83 reverse-engineered Max weekly usage from the gist; HeavenFox/jakozaur argue the calls are nearly all cache hits so the cost is negligible and limited to subagents; franticgecko3 questions the vendor building both the harness and the meter. Community patches still favor timer-interception hacks; the product-side knob is CLAUDE_CODE_SUBAGENT_EFFORT for lower subagent effort. Together with CC v2.1.319's /usage spend rows and MCP task backgrounding, this is one observability thread: the more work runs in the background, the more 'usage keeps climbing while idle' matters.",
+      "one_liner": "后台子 agent 的 transcript 被定时喂回模型：591 分 HN 帖把用量可观测性顶成主线",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/8e865887.md",
+      "images": [],
+      "added_date": "2026-11-07",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-07",
-  "total_entries": 3118
+  "total_entries": 3133
 }
