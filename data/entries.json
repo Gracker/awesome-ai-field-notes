@@ -82454,7 +82454,9 @@
       "added_date": "2026-10-12",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "c12d78f0"
+      ]
     },
     {
       "id": "03bdc982",
@@ -87692,7 +87694,8 @@
       "github_stars": null,
       "related": [
         "6c51129e",
-        "7838c877"
+        "7838c877",
+        "317a771e"
       ]
     },
     {
@@ -96509,8 +96512,264 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "c12d78f0",
+      "title": "Artificial Intelligence in the Firm: Bottlenecks in Software Production (JMP, 2026-11-07 版)",
+      "url": "https://fion.ac/jellyfish.pdf",
+      "source": {
+        "platform": "blog",
+        "author": "Fiona Chen, James Stratton (Harvard)",
+        "original_date": "2026-11-07"
+      },
+      "category": "coding",
+      "tags": [
+        "research",
+        "coding-agents",
+        "code-review",
+        "economics",
+        "productivity"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "哈佛 Chen & Stratton JMP 2026-11-07 修订版：Jellyfish 平台 445M 事件720,542 工程师655 家企业，按企业层采用时点识别效应agents 采用约 12 个月后 commits +36.0%PR opened +35.7% 显著，但 merged 仅 +26.0%，新增 PR 合并率 62.7% vs 基线 86.1%；提交到合并 +1.99 天（+56.1%）；Jira issues +13.7% 不显著结构估计 coding 生产力 +73.7%review 7.0%较 10 月旧版系数已更新（LOC +44.0%）",
+      "summary_en": "November 7, 2026 revision of Chen & Stratton's Harvard Job Market Paper, built on Jellyfish platform data: 445M work events, 720,542 workers, 655 firms (2021-01 to 2026-08), identified off firm-level adoption timing of AI coding assistants vs agents. About 12 months after agent adoption: commits +36.0% and PRs opened +35.7% (significant), but merged PRs only +26.0%, implying a ~62.7% merge rate on new PRs vs an 86.1% baseline; PR submission-to-merge time rises +1.99 days (+56.1%); Jira issues +13.7% and epics +18.0% stay marginally insignificant. Structural estimates put coding productivity +73.7% against review productivity -7.0%, with labor reallocation toward review (coding -22.7%, review +43.4%). Supersedes the October version covered via Ars Technica (AAIF 048fcb30): updated sample window through 2026-08 and revised coefficients (agent LOC +44.0%, review time +56.1%).",
+      "one_liner": "哈佛 Chen & Stratton JMP 2026-11-07 修订版：Jellyfish 平台 445M 事件720,542 工程师655 家企业，按企业层采用时点识别效应agents 采用约 12 个月后 commits +36.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/c12d78f0.md",
+      "images": [],
+      "added_date": "2026-11-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "048fcb30"
+      ]
+    },
+    {
+      "id": "7d448a81",
+      "title": "A year after the 100% AI mandate nobody understands our code (r/ClaudeCode)",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": "2026-11-07"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "code-review",
+        "maintainability",
+        "community",
+        "reddit"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "r/ClaudeCode 高热帖（约 2932 赞／842 评，2026-11-07）：作者团队约一年前要求几乎一切代码走 agent，手写需给理由前 6 个月交付明显变快；约一年后 codebase 膨胀到约 3 倍，没人能解释大部分代码如何工作，agent 自己也重复造 helper两位会把关 PR 的资深工程师离开后，CodeRabbit 留的评论无人判断重要性被直接 resolve管理层本月开始悄悄要求多写手写代码，而作者半年未写非平凡代码后，以前一下午的活现在要两天属个案时间线，不代表行业平均，但与企业层审查瓶颈数据同向",
+      "summary_en": "High-engagement r/ClaudeCode thread (~2932 upvotes, 842 comments, 2026-11-07): the author's team mandated near-100% agent-written code about a year ago, with handwritten code requiring justification. Shipping accelerated for the first ~6 months; a year later the codebase is ~3x larger, nobody can explain how most of it works, and agents keep reimplementing existing helpers (\"4 versions of everything\"). After two senior engineers who used to read every PR and push back left, CodeRabbit comments get resolved without anyone judging which matter. Management has quietly started asking for more hand-written code; the author, half a year without writing non-trivial code, now needs two days for what used to take an afternoon. A single-team anecdote, not an industry average, but directionally consistent with firm-level review-bottleneck evidence (AAIF Harvard JMP entry).",
+      "one_liner": "r/ClaudeCode 高热帖（约 2932 赞／842 评，2026-11-07）：作者团队约一年前要求几乎一切代码走 agent，手写需给理由前 6 个月交付明显变快.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7d448a81.md",
+      "images": [],
+      "added_date": "2026-11-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "317a771e",
+      "title": "Moonshot AI Kimi K3.1 Pro (Highspeed) is now available on Amazon Bedrock",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/moonshot-ai-kimi-k3-1-pro-on-amazon-bedrock",
+      "source": {
+        "platform": "blog",
+        "author": "Amazon Web Services",
+        "original_date": "2026-11-06"
+      },
+      "category": "infra",
+      "tags": [
+        "open-weights",
+        "serving",
+        "aws-bedrock",
+        "kimi",
+        "inference"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "AWS What's New 公告（2026-11-06 22:47 GMT）：Kimi K3.1 Pro 的 Highspeed 版本上线 Amazon Bedrock，主打输出吞吐，提供 100 万 token 上下文显式 prompt caching 与跨区推理，被 AWS 归入自家 open weight model portfolio，与闭源模型同处一个安全边界权重放出约两天多即完成云上架对照自托管侧现实：1.56 TB 权重仍需 DGX 级硬件跑剪枝检查点，消费级硬件只有约 4 token/s 的实验读数\"云上可得\"与\"本地可验证\"的差距仍在：独立复测一周无人交卷",
+      "summary_en": "Per the AWS What's New announcement (2026-11-06 22:47 GMT), Kimi K3.1 Pro (Highspeed) is now served on Amazon Bedrock: a throughput-focused variant with 1M-token context, explicit prompt caching, and cross-region inference, placed in AWS's open-weight model portfolio under the same security boundary as closed models. The cloud listing landed roughly two days after the weights dropped, while self-hosting remains heavy: the 1.56 TB checkpoint targets DGX-class hardware, and consumer-GPU experiments run at roughly 4 tokens/s (single source). A week after release, no independent replication of the reported internal agentic-coding numbers has surfaced - what you can rent and what you can verify still diverge.",
+      "one_liner": "AWS What's New 公告（2026-11-06 22:47 GMT）：Kimi K3.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/317a771e.md",
+      "images": [],
+      "added_date": "2026-11-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "1fd8476b"
+      ]
+    },
+    {
+      "id": "ba30d0a5",
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "url": "https://arxiv.org/abs/2611.05376",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hao Fei",
+        "original_date": "2026-11-03"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "human-ai-interaction",
+        "position-paper",
+        "cognitive-assistance"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "NUS Hao Fei 的 59 页概念论文（cs.CL/cs.AI，HF 86 热度）：主张与 AGI 并列提出 AI-augmented human intelligence（AHI）衡量机器能让特定人多聪明，而非机器自身多聪明提出 cognitive symbiont 系统形态：终身嵌入实时私密低摩擦主动，经外部设备感知人的感知跨年保留情境参与思考并代行任务；概念核心是\"认知鸿沟\"，设计空间组织为感知/保存/理解/共处/代行/共同思考/成长的共生循环点名新风险考试暗中辅助与被迫采用，治理内置于范式属设计论述，无统一实测增益",
+      "summary_en": "A 59-page concept paper (cs.CL/cs.AI) arguing that, alongside AGI, the Physical AI era should equally value AI-augmented human intelligence (AHI): how much intelligence a machine can enable in a particular person. It proposes the cognitive symbiont - a lifelong, embedded, real-time, private, low-friction, proactive companion that senses through the person's devices, keeps context across years, models their situation and mind, joins their thinking at the right moment, and acts with their context. The design space forms a symbiosis loop (sensing, keeping, understanding, living alongside, acting for, thinking with, growing) bounded by a personal runtime and trust. It also names new risks - covert exam assistance and pressure to adopt - treating governance as part of the paradigm. A design discourse; abstract reports no unified measured gains.",
+      "one_liner": "NUS Hao Fei 的 59 页概念论文（cs.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/ba30d0a5.md",
+      "images": [],
+      "added_date": "2026-11-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fec68045",
+      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "url": "https://arxiv.org/abs/2611.08373",
+      "source": {
+        "platform": "arxiv",
+        "author": "Fuhao Li, Wenxuan Song, et al.",
+        "original_date": "2026-11-05"
+      },
+      "category": "models",
+      "tags": [
+        "vla",
+        "robotics",
+        "continual-pretraining",
+        "spatial-understanding"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "空间-语言-动作模型工作（cs.RO，HF 81 热度）：从预训练 pi05 策略初始化，把隐式空间对齐扩展进持续预训练并在下游后训练中保持动作预测与中间视觉嵌入对齐冻结 3D 感知模型空间表征同时优化统一异构机器人数据支持跨本体/任务/场景；引入特征依赖门控，自适应聚合多层视觉嵌入供空间监督；教师利用部分可用的深度与相机标定，兼容异构几何标注；概率状态丢弃鼓励依赖视觉线索降低对示范轨迹过拟合所有辅助组件仅训练期使用，可直接复用预训练 VLA 权重保持原推理架构摘要未给出可引用的统一成功率",
+      "summary_en": "A spatial-language-action (VLA) model paper (cs.RO): initialized from a pretrained pi05 policy, SLA scales implicit spatial alignment into continual pre-training and maintains it during downstream post-training, jointly optimizing action prediction and alignment between intermediate visual embeddings and spatial representations from a frozen 3D perception model. Heterogeneous robot datasets are curated for cross-embodiment, cross-task, cross-scene spatial learning; feature-dependent gates adaptively aggregate multi-layer visual embeddings for spatial supervision; the teacher exploits partially available depth and camera calibration alongside RGB. All auxiliary components are training-only, so pretrained VLA weights are directly reusable and the inference architecture is unchanged. The abstract reports no unified success-rate number.",
+      "one_liner": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/fec68045.md",
+      "images": [],
+      "added_date": "2026-11-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a7344723",
+      "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+      "url": "https://arxiv.org/abs/2611.06741",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ruikang Li, et al.",
+        "original_date": "2026-11-04"
+      },
+      "category": "models",
+      "tags": [
+        "image-editing",
+        "diffusion",
+        "multi-turn",
+        "drift"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "多轮图像编辑漂移问题（cs.CV，HF 39 热度）：编辑输出被反复复用时，微小意外改动累积成严重视觉漂移TailSteer 是末段训练框架：早期去噪动力学贴近基模型，把保持性修正集中到轨迹尾部压制细粒度偏差；修正从编辑器自身 on-policy 去噪 rollout 学习，以未修改内容为保持参照，无需人工标注的编辑对，也不改动预训练先验FLUX/SenseNova/Qwen 系列上，15-20 轮编辑的累积漂移显著下降，同时文生图与单图编辑基准性能基本保留结论：长程编辑鲁棒可以在基础模型训练完成之后解锁，而非重学已有能力",
+      "summary_en": "On multi-turn image editing drift (cs.CV): when edited outputs are repeatedly reused, small unintended changes accumulate into severe visual drift. TailSteer is a final-stage training framework: keep early denoising dynamics close to the base model and concentrate preservation corrections near the trajectory tail, where fine-grained deviations are suppressed. Corrections are learned from the editor's own on-policy denoising rollouts, using unchanged source content as the preservation reference - no curated editing pairs, no perturbation of pretrained priors. Across the FLUX, SenseNova, and Qwen families it substantially reduces cumulative drift over 15-20 editing turns while largely preserving text-to-image and single-image editing benchmark performance. Takeaway: long-horizon editing robustness can be unlocked after foundation-model training rather than by relearning it.",
+      "one_liner": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/a7344723.md",
+      "images": [],
+      "added_date": "2026-11-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "88d57104",
+      "title": "Artificial Analysis Endpoint Accuracy Index v1.1: same model, different API endpoints",
+      "url": "https://artificialanalysis.ai/methodology/endpoint-accuracy-index",
+      "source": {
+        "platform": "blog",
+        "author": "Artificial Analysis",
+        "original_date": null
+      },
+      "category": "learning",
+      "tags": [
+        "evaluation",
+        "api-endpoints",
+        "inference",
+        "benchmark-methodology"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Artificial Analysis 端点精度指数 v1.1 方法页：对同一开放模型在不同 serverless 端点的表现差异给出可核验口径BFCL v4 的 500 任务子集重复 3 次HLE 的 250 题子集重复 10 次AA-LCR 的 25 题子集重复 25 次，三项等权；以自托管部署为参照（100%＝与参照相当），每条结果带 95% 置信区间；各端点用其最高推理档位最大上下文与输出上限，工具调用 auto优先 streaming页面明示结果是带日期快照而非持续监控smol 日刊转述\"超 100 端点中近四分之一低于自托管参照\"，未独立复核",
+      "summary_en": "Artificial Analysis' Endpoint Accuracy Index v1.1 methodology page: a verifiable protocol for how the same open model differs across serverless endpoints - BFCL v4 (500-task subset, 3 repeats), HLE (250-question subset, 10 repeats), and AA-LCR (25-question subset, 25 repeats), equal-weighted, with ~100k-token long-context items; a self-hosted deployment is the reference (100% = parity) and every result carries a 95% confidence interval; each endpoint runs its highest supported reasoning tier, max context and output limit, tool calling on auto with streaming preferred. The page states results are dated snapshots, not continuous monitoring. A smol relay claims roughly a quarter of 100+ endpoints score below the self-hosted reference (not re-verified here). Useful when reading eval numbers after moving one model across API providers.",
+      "one_liner": "Artificial Analysis 端点精度指数 v1.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/88d57104.md",
+      "images": [],
+      "added_date": "2026-11-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2b28f965",
+      "title": "每日 Agent 实践 2026-11-08：Hermes cron 七天可靠性账本与两类失败形状",
+      "url": null,
+      "source": {
+        "platform": "manual",
+        "author": "Gracker",
+        "original_date": "2026-11-08"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "cron",
+        "reliability",
+        "operations",
+        "failure-analysis"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "作者翻自己 Hermes cron 执行库与错误日志，用七天数据拆解自动化可靠性：约 1000 次执行959 次完成（约 96%），过半运行设计为静默投递41 次失败几乎不含网络抖动，只有两种形状预算型：单次超 200 万 token 的长工具循环七天 156 次，跑满上限前写交接说明；配额型：深夜批量任务挤同一提供商用量管子，首个 429 后八十分钟内连倒三个失败处理是可靠性工作的主体：被记录有形状能分类（283 条事件246 已解决27 挂告警）架构也在收敛：206 个任务停用 127 个，五件套流水线合并为 16 个 -single 任务",
+      "summary_en": null,
+      "one_liner": "作者翻自己 Hermes cron 执行库与错误日志，用七天数据拆解自动化可靠性：约 1000 次执行959 次完成（约 96%），过半运行设计为静默投递41 次失败几乎不含网络抖动，只有两种形状预算型：单次超 200 万 token 的长工具循环七天 156 次...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2b28f965.md",
+      "images": [],
+      "added_date": "2026-11-08",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-08",
-  "total_entries": 3147
+  "total_entries": 3155
 }

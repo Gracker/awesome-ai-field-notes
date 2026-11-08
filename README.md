@@ -4,35 +4,35 @@
 
 ## 最新精选 Top 10
 
+- [每日 Agent 实践 2026-11-08：Hermes cron 七天可靠性账本与两类失败形状](https://godofgpt.com/entry/2b28f965/) ⭐4 · 2026-11-08 — 作者翻自己 Hermes cron 执行库与错误日志，用七天数据拆解自动化可靠性：约 1000 次执行959 次完成（约 96%），过半运行设计为静默投递41 次失败几乎不含网络抖动，只有两种形状预算型：单次超 200 万 token 的长工具循环七天 156 次...
+- [Artificial Analysis Endpoint Accuracy Index v1.1: same model, different API endpoints](https://artificialanalysis.ai/methodology/endpoint-accuracy-index) ⭐3 · 2026-11-08 — Artificial Analysis 端点精度指数 v1.
+- [Artificial Intelligence in the Firm: Bottlenecks in Software Production (JMP, 2026-11-07 版)](https://fion.ac/jellyfish.pdf) ⭐5 · 2026-11-07 — 哈佛 Chen & Stratton JMP 2026-11-07 修订版：Jellyfish 平台 445M 事件720,542 工程师655 家企业，按企业层采用时点识别效应agents 采用约 12 个月后 commits +36.
+- [A year after the 100% AI mandate nobody understands our code (r/ClaudeCode)](https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody) ⭐4 · 2026-11-07 — r/ClaudeCode 高热帖（约 2932 赞／842 评，2026-11-07）：作者团队约一年前要求几乎一切代码走 agent，手写需给理由前 6 个月交付明显变快.
 - [please do not escape: A Dataset of Sandboxes for AI Coding Agents](https://pleasedonotescape.com/) ⭐3 · 2026-11-07 — please do not escape：给 AI coding agent 挑沙箱的数据集，每条记录锚定一手来源
 - [Anthropic: The Components of Agent Memory salience, dreaming, and memory stores](https://www.anthropic.com/research/components-of-agent-memory) ⭐5 · 2026-11-06 — 记忆越记越多反而变钝：Anthropic 用 dreaming 在会话外整理 store，wiki 检索 13%48%
 - [Cursor Voice Chat: realtime voice calls with coding agents](https://cursor.com/changelog/voice-chat) ⭐4 · 2026-11-06 — coding agent 的监督通道从文字搬进语音：Cursor 用 Grok Voice 让你边跑边问
 - [Codex CLI 0.167.0: agent command center, backend switching with draft retention](https://github.com/openai/codex/releases/tag/rust-v0.167.0) ⭐4 · 2026-11-06 — Codex 正式版给终端加 agent 指挥台：多后端切换保草稿，多 agent 并行有了统一视图
 - [Claude Code v2.1.319: MCP tasks go background by default, deny-instead-of-prompt permissions](https://github.com/anthropics/claude-code/releases/tag/v2.1.319) ⭐4 · 2026-11-06 — MCP 长任务默认后台化权限可改为拒绝续跑：cron/CI 里的 Claude Code 不再卡权限弹窗
 - [中国LLM讨论纪要](https://mp.weixin.qq.com/s?__biz=Mzg3OTg3NTY1OA%3D%3D&mid=2247492486&idx=1&sn=871f27cecf739a57fc03f9369963f9d0) ⭐4 · 2026-11-06 — 一份把算力蒸馏成本格局与 AIDD 全串起来的买方纪要：国内追赶的时间窗正被反蒸馏压缩
-- [OpenAI BioBasicsBench: 100 wet-lab tasks test how agents read raw experimental data](https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science) ⭐4 · 2026-11-06 — 考科学 agent 读原始实验数据：BioBasicsBench 用 100 个湿实验任务拉开 Astra 与 5.6 Sol 23 分
-- [GoLand's Profiler Now Works with AI Agents](https://blog.jetbrains.com/go/2026/11/06/we-gave-ai-agents-goland-s-profiler-they-found-the-same-bottlenecks-with-half-the-tokens) ⭐4 · 2026-11-06 — GoLand 2026.3 让 Claude Code/Codex/Junie 通过 skill+MCP 直接驱动 Go profiler，同一瓶颈只用一半 token
-- [First self-hosted readings of Kimi K3.1 Pro pruned75 on dual DGX Station](https://x.com/SJRonanMD/status/2118566508939137043) ⭐4 · 2026-11-06 — 475.5GB 砍 75% 专家的试点读数说明 K3.1 Pro 自部署刚到能出 token阶段，质量复测才是下一关
-- [Dwarkesh's Blood on the Clocktower eval: the benchmark where AIs have to lie to win](https://www.dwarkesh.com/p/clocktower) ⭐4 · 2026-11-06 — 386 局狼人杀式评测给 AI 排名：Astra 领先 Opus 4.6 约 430 Elo，差距主要在识破骗局的好人侧
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 495 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 672 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 351 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 209 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 模型与实验室 | 497 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 674 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 353 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 210 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 256 | AI 产品、大厂战略、融资、监管、市场结构。 |
-| 研究与学习 | 145 | 论文、课程、提示工程、长文、方法论。 |
+| 研究与学习 | 146 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 245 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 3147
-- 公开展示卡片: 2373
-- 有全文内容: 2243
-- 最近 7 天信号: 160
+- 原始条目: 3155
+- 公开展示卡片: 2381
+- 有全文内容: 2261
+- 最近 7 天信号: 156
 - 输出目录: `dist/`
 
 ## 热门标签
