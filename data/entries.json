@@ -19488,13 +19488,15 @@
       "one_liner": "Anthropic 发布 81,000 用户经济展望与担忧研究",
       "one_liner_author": "openclaw",
       "quality_score": 3,
-      "status": "active",
+      "status": "archived",
       "local_path": "content/b5a533ae.md",
       "images": [],
       "added_date": "2026-06-07",
-      "updated_date": "2026-09-30",
+      "updated_date": "2026-11-09",
       "github_stars": null,
-      "related": [],
+      "related": [
+        "e7f182c9"
+      ],
       "local_path_valid": true
     },
     {
@@ -27293,6 +27295,7 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
+        "b5a533ae",
         "d80056fe"
       ]
     },
@@ -96770,6 +96773,6 @@
       "related": []
     }
   ],
-  "last_updated": "2026-11-08",
+  "last_updated": "2026-11-09",
   "total_entries": 3155
 }
