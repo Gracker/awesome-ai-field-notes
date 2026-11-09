@@ -4,40 +4,40 @@
 
 ## 最新精选 Top 10
 
+- [Opus 5.5 XHIGH just deleted all my apps data, passwords and macOS configs](https://www.reddit.com/r/ClaudeCode/comments/1xqfp7m/opus_55_xhigh_just_deleted_all_my_apps_data) ⭐4 · 2026-11-09 — r/ClaudeCode 热帖（2026-11-09 brief 记约 3347 赞/1446 评）：用户让 Opus 5.
+- [Hide your slop PR descriptions behind](https://simonwillison.net/2026/Nov/9/details-summary) ⭐4 · 2026-11-09 — Simon Willison 介绍用 折叠 AI 生成 PR 描述的工作流他的 PR 大多由 Claude Code 或 Codex 开，描述准确完整却读起来像 slop，连驱动作品的作者本人都不想读完解法：手写一段人批准的引子说明 PR 做什么值不值得花时间...
+- [The Huang Affair: What did they know and when did they know it?](https://garymarcus.substack.com/p/the-huang-affair-what-did-they-know) ⭐3 · 2026-11-09 — Gary Marcus 梳理 Nvidia CEO 黄仁勋承认与 Alice Huang 婚外情的后续链条：Alice Huang 是新加坡数据中心公司 Megaspeed 高管，美方情报认定她是向北京回传信息的中国间谍.
 - [每日 Agent 实践 2026-11-08：Hermes cron 七天可靠性账本与两类失败形状](https://godofgpt.com/entry/2b28f965/) ⭐4 · 2026-11-08 — 作者翻自己 Hermes cron 执行库与错误日志，用七天数据拆解自动化可靠性：约 1000 次执行959 次完成（约 96%），过半运行设计为静默投递41 次失败几乎不含网络抖动，只有两种形状预算型：单次超 200 万 token 的长工具循环七天 156 次...
+- [The great software IP writedown](https://martinalderson.com/posts/the-great-software-ip-writedown) ⭐4 · 2026-11-08 — Martin Alderson 追问造软件便宜 90% 之后，软件还值多少钱他排除垄断网络效应强取三条传统超额利润路径，把软件高毛利归因于知识稀缺，而 agent 正在吃掉这层稀缺：供给一变，毛利就会被挤干他接住 Jevons 悖论反驳agent 时代的软件高度定制一个客户一套....
+- [LLMs are terrible at designing AI systems](https://seangoedecke.com/llms-are-terrible-at-designing-ai-systems) ⭐4 · 2026-11-08 — Sean Goedecke 用实例说明 LLM 在AI 形状的问题上系统性地选错工具：有人 vibe code 记忆工具时，agent 放弃直接调 LLM 比对矛盾记忆，转头去造答案集编程式符号求解器而判断两句自然语言是否同义本就没有解析解...
+- [Introducing the Artificial Analysis Decision Index v2](https://artificialanalysis.ai/articles/decision-index-v2) ⭐4 · 2026-11-08 — Artificial Analysis 发布 Decision Index v2，把评测对准真实决策效用：45% 权重压在私有数据上，新 Decision Score 同时奖励正确性与置信校准，单题公式 50*(1+c-(p-c)^2).
+- [Yak-Shaving with AI: When Rabbit Holes Become Overwhelming](https://tedium.co/2026/11/08/yak-shaving-ai-mental-health-effects) ⭐3 · 2026-11-08 — Tedium 作者 Ernie Smith 记录用多个 AI agent 复活一台死的 JingPad ARM 平板：配 Ghidra 与 Reverse Engineer Anything，从黑屏做到 Fedora 跑在 6.
 - [Artificial Analysis Endpoint Accuracy Index v1.1: same model, different API endpoints](https://artificialanalysis.ai/methodology/endpoint-accuracy-index) ⭐3 · 2026-11-08 — Artificial Analysis 端点精度指数 v1.
 - [Artificial Intelligence in the Firm: Bottlenecks in Software Production (JMP, 2026-11-07 版)](https://fion.ac/jellyfish.pdf) ⭐5 · 2026-11-07 — 哈佛 Chen & Stratton JMP 2026-11-07 修订版：Jellyfish 平台 445M 事件720,542 工程师655 家企业，按企业层采用时点识别效应agents 采用约 12 个月后 commits +36.
-- [A year after the 100% AI mandate nobody understands our code (r/ClaudeCode)](https://www.reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody) ⭐4 · 2026-11-07 — r/ClaudeCode 高热帖（约 2932 赞／842 评，2026-11-07）：作者团队约一年前要求几乎一切代码走 agent，手写需给理由前 6 个月交付明显变快.
-- [please do not escape: A Dataset of Sandboxes for AI Coding Agents](https://pleasedonotescape.com/) ⭐3 · 2026-11-07 — please do not escape：给 AI coding agent 挑沙箱的数据集，每条记录锚定一手来源
-- [Anthropic: The Components of Agent Memory salience, dreaming, and memory stores](https://www.anthropic.com/research/components-of-agent-memory) ⭐5 · 2026-11-06 — 记忆越记越多反而变钝：Anthropic 用 dreaming 在会话外整理 store，wiki 检索 13%48%
-- [Cursor Voice Chat: realtime voice calls with coding agents](https://cursor.com/changelog/voice-chat) ⭐4 · 2026-11-06 — coding agent 的监督通道从文字搬进语音：Cursor 用 Grok Voice 让你边跑边问
-- [Codex CLI 0.167.0: agent command center, backend switching with draft retention](https://github.com/openai/codex/releases/tag/rust-v0.167.0) ⭐4 · 2026-11-06 — Codex 正式版给终端加 agent 指挥台：多后端切换保草稿，多 agent 并行有了统一视图
-- [Claude Code v2.1.319: MCP tasks go background by default, deny-instead-of-prompt permissions](https://github.com/anthropics/claude-code/releases/tag/v2.1.319) ⭐4 · 2026-11-06 — MCP 长任务默认后台化权限可改为拒绝续跑：cron/CI 里的 Claude Code 不再卡权限弹窗
-- [中国LLM讨论纪要](https://mp.weixin.qq.com/s?__biz=Mzg3OTg3NTY1OA%3D%3D&mid=2247492486&idx=1&sn=871f27cecf739a57fc03f9369963f9d0) ⭐4 · 2026-11-06 — 一份把算力蒸馏成本格局与 AIDD 全串起来的买方纪要：国内追赶的时间窗正被反蒸馏压缩
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 498 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 677 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 355 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 模型与实验室 | 500 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 678 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 357 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 215 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 258 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 产品与商业 | 260 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 146 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 244 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 3168
-- 公开展示卡片: 2393
-- 有全文内容: 2277
-- 最近 7 天信号: 168
+- 原始条目: 3175
+- 公开展示卡片: 2400
+- 有全文内容: 2284
+- 最近 7 天信号: 146
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `multi-agent`, `claude-code`, `agent-security`, `coding-agents`, `security`, `agents`, `agent-memory`, `coding-agent`, `open-weights`, `mcp`, `kv-cache`, `agent-harness`, `prompt-injection`
+`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `claude-code`, `multi-agent`, `agent-security`, `coding-agents`, `agents`, `security`, `agent-memory`, `coding-agent`, `open-weights`, `agent-safety`, `mcp`, `kv-cache`, `agent-harness`
 
 ## 自动化约定
 

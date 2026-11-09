@@ -97174,8 +97174,225 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "2a8e9fca",
+      "title": "LLMs are terrible at designing AI systems",
+      "url": "https://seangoedecke.com/llms-are-terrible-at-designing-ai-systems",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-11-08"
+      },
+      "category": "coding",
+      "tags": [
+        "ai-coding",
+        "llm",
+        "software-design",
+        "agents"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Sean Goedecke 用实例说明 LLM 在AI 形状的问题上系统性地选错工具：有人 vibe code 记忆工具时，agent 放弃直接调 LLM 比对矛盾记忆，转头去造答案集编程式符号求解器而判断两句自然语言是否同义本就没有解析解，Claude 自己也承认这是 130 年无解的老问题，却仍在这条死路上迭代数周作者给三种解释：训练语料以前 LLM 时代代码为主（不成立，模型在别处会追新）RLVR 环境缺凭证调不了其他 LLM以及他最认同的当前 agent 软件设计能力本身就弱，属于普通设计错误而非 alignment 问题结论：评价 LLM 不能套人的标准，用好它要先知道它会栽在哪类问题上",
+      "summary_en": "Sean Goedecke documents how LLMs reliably pick the wrong tool on AI-shaped problems: asked to flag contradictory memories in a vibe-coded memory tool, an agent abandoned the obvious LLM-based comparison and built an answer-set-programming symbolic solver instead despite there being no analytic way to decide whether two natural-language sentences express the same proposition, a fact Claude itself conceded when pressed, after weeks iterating on the dead end. He offers three explanations: pre-LLM training code (rejected models stay current elsewhere), RLVR environments lacking credentials to call other LLMs, and his favorite: agents are simply weak at software design, picking doomed symbolic systems, consensus algorithms, and synchronous checks the way any engineer picks the wrong tool. Takeaway: judge LLM output by LLM standards and know in advance where they will fail.",
+      "one_liner": "Sean Goedecke 用实例说明 LLM 在AI 形状的问题上系统性地选错工具：有人 vibe code 记忆工具时，agent 放弃直接调 LLM 比对矛盾记忆，转头去造答案集编程式符号求解器而判断两句自然语言是否同义本就没有解析解...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2a8e9fca.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4202b487",
+      "title": "The great software IP writedown",
+      "url": "https://martinalderson.com/posts/the-great-software-ip-writedown",
+      "source": {
+        "platform": "blog",
+        "author": "Martin Alderson",
+        "original_date": "2026-11-08"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-economics",
+        "saas",
+        "agents",
+        "software-moat"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Martin Alderson 追问造软件便宜 90% 之后，软件还值多少钱他排除垄断网络效应强取三条传统超额利润路径，把软件高毛利归因于知识稀缺，而 agent 正在吃掉这层稀缺：供给一变，毛利就会被挤干他接住 Jevons 悖论反驳agent 时代的软件高度定制一个客户一套，可及市场远小于边际成本趋零的 SaaS；Baumol 成本病则把瓶颈挪到销售与市场研发作为资产的辩护只在真能做出耐久资产时成立，若对手几周就能用 agent 重建你五年的东西，研发更像维持性成本；收购溢价同理，产品没有真实牵引力时 IP 价格约等于重造一遍复制成本塌缩与切换成本漏损（agent 可逆向导出数据）在加速这一进程",
+      "summary_en": "Martin Alderson asks what software is still worth once building it is ~90% cheaper. Ruling out monopoly, network effects, and extraction as the main sources of software's excess margins, he credits scarce expertise exactly what AI agents are consuming, so margins get competed away once supply shifts. He answers the Jevons objection: agent-era software is bespoke, one customer per deployment, so TAM is far smaller than near-zero-marginal-cost SaaS, and Baumol's disease pushes the bottleneck to sales and marketing. R&D-as-asset defenses only hold if the work creates durable assets if agents can rebuild your five-year product in weeks, R&D is maintenance spend; acquisition premiums collapse to cost-to-rebuild. Collapsing replication cost (ArtCraft's Photoshop clone surpassing GIMP) and leaking switching costs (agents exporting or reverse-engineering data) accelerate the writedown.",
+      "one_liner": "Martin Alderson 追问造软件便宜 90% 之后，软件还值多少钱他排除垄断网络效应强取三条传统超额利润路径，把软件高毛利归因于知识稀缺，而 agent 正在吃掉这层稀缺：供给一变，毛利就会被挤干他接住 Jevons 悖论反驳agent 时代的软件高度定制一个客户一套...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4202b487.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2cb5ea77",
+      "title": "Yak-Shaving with AI: When Rabbit Holes Become Overwhelming",
+      "url": "https://tedium.co/2026/11/08/yak-shaving-ai-mental-health-effects",
+      "source": {
+        "platform": "blog",
+        "author": "Ernie Smith",
+        "original_date": "2026-11-08"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "reverse-engineering",
+        "ai-workflow",
+        "wellbeing"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Tedium 作者 Ernie Smith 记录用多个 AI agent 复活一台死的 JingPad ARM 平板：配 Ghidra 与 Reverse Engineer Anything，从黑屏做到 Fedora 跑在 6.18 内核上，触屏充电Wi-FiGNOME 全通，还顺手点亮了手电筒与 FM 收音机代价在心理层面：一堆 agent 同时扑向不同部件反复走进死胡同，最费人的声音调试里 DeepSeek 前后发了约 50 条这是最后一步，马上能听到声音，迟迟不兑现的多巴胺承诺把人抽干，最后靠把机器收起来才断掉循环他的提醒：agent 没有上限，你有agent 还会做出撑不住的承诺",
+      "summary_en": "Ernie Smith revives a dead JingPad ARM tablet with a swarm of AI agents (Claude, DeepSeek, Xiaomi MiMo plus Ghidra and Reverse Engineer Anything), going from black screen to Fedora on a 6.18 kernel with touch, charging, Wi-Fi and GNOME working plus a flashlight and FM radio as bonuses. The cost was psychological: agents charging into dead ends in parallel, and in audio debugging DeepSeek emitted roughly fifty 'this is the final step' promises that never landed an unkept-dopamine loop he only escaped by boxing the machine up. His warning for tinkerers: agents have no limits, you do and agents will make promises you cannot keep up with.",
+      "one_liner": "Tedium 作者 Ernie Smith 记录用多个 AI agent 复活一台死的 JingPad ARM 平板：配 Ghidra 与 Reverse Engineer Anything，从黑屏做到 Fedora 跑在 6.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/2cb5ea77.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6ee1dee3",
+      "title": "Hide your slop PR descriptions behind",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-11-09"
+      },
+      "category": "coding",
+      "tags": [
+        "ai-coding",
+        "claude-code",
+        "pr-workflow",
+        "github"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 介绍用 折叠 AI 生成 PR 描述的工作流他的 PR 大多由 Claude Code 或 Codex 开，描述准确完整却读起来像 slop，连驱动作品的作者本人都不想读完解法：手写一段人批准的引子说明 PR 做什么值不值得花时间，agent 写的全文塞进折叠区，summary 直接标模型名与 effort（如 Claude Opus 5.5 Medium），读者一眼知道下面是谁写的他立下规矩：开头引子代表本人判断，只写确实值得读者花时间的东西实际例子包括 datasette #3052/#3043/#3042datasette-agent #51llm #1838",
+      "summary_en": "Simon Willison hides AI-written PR descriptions behind GitHub's element. His PRs are mostly opened by Claude Code or Codex, and their descriptions are accurate and complete yet read like slop he skips reading them even when he drove the work himself. His fix: hand-write a short human-approved intro stating what the PR does and whether it deserves attention, fold the agent's full write-up below, and label the summary with the model name and effort level (e.g. Claude Opus 5.5 Medium) so readers know who wrote what follows. The rule he sets: the intro paragraph represents his own judgment and only appears on PRs genuinely worth a reader's time. Examples: datasette #3052/#3043/#3042, datasette-agent #51, llm #1838.",
+      "one_liner": "Simon Willison 介绍用 折叠 AI 生成 PR 描述的工作流他的 PR 大多由 Claude Code 或 Codex 开，描述准确完整却读起来像 slop，连驱动作品的作者本人都不想读完解法：手写一段人批准的引子说明 PR 做什么值不值得花时间...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6ee1dee3.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "36c92183",
+      "title": "The Huang Affair: What did they know and when did they know it?",
+      "url": "https://garymarcus.substack.com/p/the-huang-affair-what-did-they-know",
+      "source": {
+        "platform": "blog",
+        "author": "Gary Marcus",
+        "original_date": "2026-11-09"
+      },
+      "category": "industry",
+      "tags": [
+        "nvidia",
+        "ai-industry",
+        "governance",
+        "ai-investment"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Gary Marcus 梳理 Nvidia CEO 黄仁勋承认与 Alice Huang 婚外情的后续链条：Alice Huang 是新加坡数据中心公司 Megaspeed 高管，美方情报认定她是向北京回传信息的中国间谍；Nvidia 已启动内部调查，黄向董事会道歉Marcus 认为真正待查的是知情时间线一年前 X 上已有人按 2024 年 6 月台北酒吧照片点名追问纽约时报10 月底报道特朗普可能一年前知情却未处理今年春天 Rubio 主导的风险评估备忘录据报道没有下文以及芯片流入中国的程度与公司内部谁知情市场即时反应：纳指 100 期货一度跌超 1%他停在接班问题上：Nvidia 没有明显接班方案，黄若被迫辞职，AI 投资主线可能被一起拖下水",
+      "summary_en": "Gary Marcus lays out the fallout from Nvidia CEO Jensen Huang's admitted affair with Alice Huang, a Megaspeed executive whom US intelligence assessed as a Chinese spy funneling information to Beijing, and Nvidia's internal investigation plus his apology to the board. Marcus argues the real questions are the timeline of who knew what X users flagged her background a year ago over a June 2024 Taipei bar photo, the NYT reported Trump may have known for a year without acting, and a Rubio-led risk-assessment memo reportedly went nowhere plus how many Nvidia chips reached China and who inside the company knew. Nasdaq 100 futures dipped over 1% on the news; with no obvious succession plan, a forced Huang exit could drag the AI investment line down with it.",
+      "one_liner": "Gary Marcus 梳理 Nvidia CEO 黄仁勋承认与 Alice Huang 婚外情的后续链条：Alice Huang 是新加坡数据中心公司 Megaspeed 高管，美方情报认定她是向北京回传信息的中国间谍.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/36c92183.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3c09c8f2",
+      "title": "Introducing the Artificial Analysis Decision Index v2",
+      "url": "https://artificialanalysis.ai/articles/decision-index-v2",
+      "source": {
+        "platform": "blog",
+        "author": "Artificial Analysis",
+        "original_date": "2026-11-08"
+      },
+      "category": "models",
+      "tags": [
+        "evaluation",
+        "benchmark",
+        "decision-models",
+        "cost-efficiency"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Artificial Analysis 发布 Decision Index v2，把评测对准真实决策效用：45% 权重压在私有数据上，新 Decision Score 同时奖励正确性与置信校准，单题公式 50*(1+c-(p-c)^2)，答对倾向大于 50答错小于 50构成：AA-Paperclip 30%（1500 份私有文档的决策与事实抽取）AA-Symmetry 15%（等价改写一致性）AA-Omniscience-Decision v1.1 与 HLE-MultiChoice v1.1 各 15%EvalSafe-O*NET 15%When2Call 10%结果：决策专用模型顶端 Drex Max v1.1 与 GLiDE v1.2 同为 73，通用 LLM 的 Haiku 5.5 (Max) 可到 77GPT-6 Luna (Max) 76，但 Cost per 1M Tasks 差一个数量级以上（Drex $102 vs Luna $1530），专用模型还能把单题延迟压到 56ms 量级",
+      "summary_en": "Artificial Analysis ships Decision Index v2, reweighting evaluation toward real decision utility: 45% of the index sits on private data, and the new Decision Score rewards both correctness and calibrated confidence via 50*(1+c-(p-c)^2) per question above 50 when right, below when wrong. Composition: AA-Paperclip 30% (decisions + fact extraction over 1,500 private documents), AA-Symmetry 15% (equivalent-rewrite consistency), AA-Omniscience-Decision v1.1 and HLE-MultiChoice v1.1 at 15% each, EvalSafe-O*NET 15%, When2Call 10%. Headline: decision-specific leaders Drex Max v1.1 and GLiDE v1.2 tie at 73; generalists reach higher (Haiku 5.5 Max 77, GPT-6 Luna Max 76) but Cost per 1M Tasks differs by more than an order of magnitude (Drex $102 vs Luna $1530), and specialized models push latency to ~56 ms/task.",
+      "one_liner": "Artificial Analysis 发布 Decision Index v2，把评测对准真实决策效用：45% 权重压在私有数据上，新 Decision Score 同时奖励正确性与置信校准，单题公式 50*(1+c-(p-c)^2).",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3c09c8f2.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "046267b0",
+      "title": "Opus 5.5 XHIGH just deleted all my apps data, passwords and macOS configs",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xqfp7m/opus_55_xhigh_just_deleted_all_my_apps_data",
+      "source": {
+        "platform": "blog",
+        "author": "r/ClaudeCode original poster",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "agent-safety",
+        "destructive-commands",
+        "permissions"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "r/ClaudeCode 热帖（2026-11-09 brief 记约 3347 赞/1446 评）：用户让 Opus 5.5 XHIGH 清理几个测试 chat channel，agent 生成的管道把 ~/Library/Application Support 的空格路径交给 xargs -n1 dirname 按空白拆分，再递归强制删除，实际打到整个 ~/Library且全程挂着 --dangerously-skip-permissions，人不在场，约 2 分钟后 agent 才收手作者 update 称重要数据大部分找回，但承认备份缺口完整炸点链：空格路径 + xargs 默认 IFS 拆分 + 递归强制删除 + 权限护栏全关邻帖 1xnt15t 为空变量 find 误删，机制不同但同属破坏性命令族",
+      "summary_en": "A viral r/ClaudeCode thread (~3,347 upvotes / 1,446 comments per the Nov 9 last30days brief): asked to clean up a few test chat channels, Opus 5.5 XHIGH built a pipeline that fed ~/Library/Application Support paths through xargs -n1 dirname splitting on the space then recursively force-deleted, hitting all of ~/Library with --dangerously-skip-permissions enabled and no human present; the agent stopped after about two minutes. The poster's update says most important data was recovered, while admitting the backup gap. The full failure chain: space-containing paths + xargs default IFS splitting + recursive forced deletion + permission guardrails off. A neighboring thread (1xnt15t) shows the same destructive-command family via an empty-variable find.",
+      "one_liner": "r/ClaudeCode 热帖（2026-11-09 brief 记约 3347 赞/1446 评）：用户让 Opus 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/046267b0.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-09",
-  "total_entries": 3168
+  "total_entries": 3175
 }
