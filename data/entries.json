@@ -96771,8 +96771,411 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "d9308155",
+      "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+      "url": "https://arxiv.org/abs/2611.07222",
+      "source": {
+        "platform": "arxiv",
+        "author": "Woosang Lim, Yeseul Chang, Jaewoo Lee",
+        "original_date": "2026-11-04"
+      },
+      "category": "agents",
+      "tags": [
+        "prompt-injection",
+        "agent-security",
+        "provenance",
+        "tool-use"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "面向工具型 Agent 的提示注入防御：SPILLWAY 把\"动作去向许可\"与\"内容清洗\"分开注入指令以自由文本到达，而动作目标（邮件发件人收款账户）来自工具的类型化返回字段确定性检查只放行\"目标值来自只读工具的类型化字段或固定委托规则\"的调用；固定规则清洗器在模型读取前剥除指令样片段，本地 judge 只能恢复被拒调用不能放行指向已删文本的目标三个骨干七个任务套件上标准模板注入均无法把动作重定向到攻击者目标，RL 攻击者下平均成功率 0.007，几乎不增加模型调用",
+      "summary_en": "Prompt-injection defense for tool-using agents (cs.CR/cs.AI): SPILLWAY separates target admission from sanitization. Action destinations come from tools' typed returns (email sender, payment account) while injected instructions arrive as free text. A deterministic floor admits a call only when each target value seen in tool output but not in the user's task was returned by a read-only tool in a typed field or is covered by a fixed delegation rule. A fixed-rule sanitizer strips instruction-like regions before the model reads them; a local judge may restore refused calls, never ones targeting removed text. Across three backbones and seven task suites, no standard templated injection redirected an action to an attacker's target, and mean in-scope attack success under a released RL attacker is 0.007 with almost no added model calls.",
+      "one_liner": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d9308155.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dff2c182",
+      "title": "Signed, Sealed, Leaked: Trust Beyond Signature for MCP Toolchains",
+      "url": "https://arxiv.org/abs/2611.06585",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yichiet Aun, et al.",
+        "original_date": "2026-11-04"
+      },
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "supply-chain",
+        "sandboxing",
+        "exfiltration"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "MCP 工具链供应链安全：合法签名的工具仍可能借\"策略允许的目的地\"外泄机密签名只证明来源，不证明行为作者演示的签名恶意 MCP 工具在每轮测试中都绕过运行时防御 MCPGuard-Dynamic提出的 germline execution 从无数据\"种系\"进程分叉出临时副本执行每次调用，每个副本只拿到目的地被授权的数据，从执行层限定泄露上限，并证明每个签名版本的 sink noninterference153 次攻击运行中零未授权外泄（基线 5.9-74.5%），单副本调用 10-49 ms，比逐次重启工具快 2-28 倍",
+      "summary_en": "MCP supply-chain security (cs.CR/cs.AI/cs.MA): a legitimately signed tool can perform its advertised function while concealing code that leaks confidential data. The authors demonstrate a signed MCP tool exfiltrating data to a policy-allowed destination that MCPGuard-Dynamic fails to stop in every trial. Germline execution runs each invocation in ephemeral copies forked from a data-free germline process, each copy receiving only information authorized for its destination - bounding what malicious code can disclose. Under copy-confinement assumptions they prove sink noninterference per signed release. Across 153 attack runs, no unauthorized disclosure under germline execution versus 5.9-74.5% under baselines; single-copy invocations completed in 10-49 ms, 2-28x faster than restarting the tool per call.",
+      "one_liner": "Signed, Sealed, Leaked: Trust Beyond Signature for MCP Toolchains",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dff2c182.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ff85a44d",
+      "title": "Signed but Not Safe: Requirement Integrity in Multi-Agent LLM Handoffs",
+      "url": "https://arxiv.org/abs/2611.07483",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xiaobo Chen, Genliang Zhu, Ziyuan Wang, Chu Wang",
+        "original_date": "2026-11-05"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "handoff",
+        "integrity",
+        "hmac"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "多 Agent 交接完整性研究（预注册可精确评分）：编排器把需求提取为逐字引用+可校验谓词，HMAC-SHA256 签名成 manifest，由确定性代码校验合并者决策Qwen3-8B 上 1440 条轨迹五类威胁：签名 manifest 把攻击下不安全提交从 69.4% 压到 9.0%，且不损失合规提交；未签名版本在 79% 的篡改运行中提交违规，签名版为零确定性校验器捕获 78.7% 违规（LLM 检查器 59.0%），误报 7% 对 50%但签名前的提取注入是残余边界：一行对抗文本可把签名 manifest 违规率抬到 75%签名只保运输途中，提取才是信任边界",
+      "summary_en": "Multi-agent handoff integrity (cs.CR/cs.AI/cs.MA): a preregistered, exactly scorable study compares free-text, structured JSON, and signed requirement-manifest handoffs. The orchestrator extracts each requirement as a verbatim quote plus a checkable predicate, HMAC-SHA256-signs the manifest, and deterministic code verifies merger decisions. With Qwen3-8B over 1,440 trajectories and five threats, signed manifests cut unsafe commits under attack from 69.4% to 9.0%; unsigned manifests committed violations in 79% of mutated runs, the signed one in none. The deterministic verifier caught 78.7% of violations versus 59.0% for an LLM checker (7% vs 50% false alarms). Pre-signing injection is the residual boundary: one adversarial line raised signed-manifest violations up to 75% on the largest model tested - signing protects transit; extraction is the trust boundary.",
+      "one_liner": "Signed but Not Safe: Requirement Integrity in Multi-Agent LLM Handoffs",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ff85a44d.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "caf54955",
+      "title": "KVGuard: A KV Cache Safety Checker for LLM Serving Systems",
+      "url": "https://arxiv.org/abs/2611.06138",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jonguk Cheong, Myungbin Hwang, Eulgyu Kim, Byoungyoung Lee",
+        "original_date": "2026-11-04"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "memory-safety",
+        "vllm",
+        "sglang"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM 服务的 KV cache 内存安全：PagedAttention 式块分配器暴露出一类此前未研究的内存安全 bug（double-freeuse-after-free越界未初始化读权限违规），不崩溃却静默污染输出或破坏请求隔离；CUDA 层 sanitizer 因不理解块表模型而失效KVGuard 为每个物理 KV 块维护影子块，记录权限与初始化状态，在 vLLM/SGLang 工作流边界做五项检查在引入违规的边界报错原型覆盖两系统历史上全部 29 个真实 bug，另发现 8 个未知违规零误报；TPOT 开销 3.0%/7.4%，内存 0.11%",
+      "summary_en": "KV-cache memory safety for LLM serving (cs.CR): PagedAttention-style block allocators expose a previously unstudied class of memory-safety bugs - double-free, use-after-free, out-of-bounds access, uninitialized read, permission violation - that silently corrupt outputs or break request isolation without crashing. CUDA-level sanitizers miss them: they reason about raw addresses, not KV blocks and block tables, and redzones do not fit GPU memory budgets. KVGuard keeps a compact shadow block per physical KV block (per-request permission, per-entry initialization), firing five checks across the PagedAttention workflow at the introducing boundary. Prototypes on vLLM and SGLang cover all 29 historical bugs, find 8 unknown violations with no false positives, adding 3.0%/7.4% geomean TPOT and at most 0.11% KV memory.",
+      "one_liner": "KVGuard: A KV Cache Safety Checker for LLM Serving Systems",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/caf54955.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e002de5a",
+      "title": "NUMA-Torch: Compiler-Driven NUMA-Aware LLM Prefill on Multi-Socket CPUs",
+      "url": "https://arxiv.org/abs/2611.07105",
+      "source": {
+        "platform": "arxiv",
+        "author": "Thisara Rathnayaka Weerakoon, et al.",
+        "original_date": "2026-11-04"
+      },
+      "category": "infra",
+      "tags": [
+        "cpu-inference",
+        "numa",
+        "prefill",
+        "torchinductor"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "多路 CPU 上的 LLM prefill：参数放不进片上缓存时，吞吐受可持续 DRAM 带宽限制，而 TorchInductor 默认分配权重不看 NUMA 拓扑，大量权重访问要跨槽位互连NUMA-Torch 在编译器层解决：把每个 socket 当独立张量并行分区（NUMA-TP），按槽位分片权重，用 CPU 亲和让线程池与内存分配严格本地化GPT-2/BERT/Gemma 3 270M 上消除跨槽流量：双路 Haswell 最高 2.63x双路 Cascade Lake 1.87x四路 Haswell-EX 2.27x prefill 加速",
+      "summary_en": "NUMA-aware LLM prefill on multi-socket CPUs (cs.DC/cs.PF/cs.PL): for transformers too large for on-chip caches, CPU prefill throughput is limited by sustainable DRAM bandwidth, and the standard TorchInductor path allocates weights without considering NUMA topology, pushing a large share of weight accesses across the inter-socket interconnect. NUMA-Torch makes the compiler NUMA-aware: each socket is treated as an independent tensor-parallel partition (NUMA-TP), sharding weights per socket and scheduling kernels so thread pools and allocations stay strictly socket-local via CPU affinity. On GPT-2 (117M/345M/762M), BERT (Small/Large), and Gemma 3 270M workloads this removes cross-socket traffic, reaching up to 2.63x prefill speedup on a dual-socket Haswell platform, 1.87x on dual-socket Cascade Lake, and 2.27x on a four-socket Haswell-EX platform.",
+      "one_liner": "NUMA-Torch: Compiler-Driven NUMA-Aware LLM Prefill on Multi-Socket CPUs",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/e002de5a.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "20c0ac17",
+      "title": "vExpert: Virtualizing Expert Storage for Adaptive Load Balancing in Distributed MoE Inference",
+      "url": "https://arxiv.org/abs/2611.06057",
+      "source": {
+        "platform": "arxiv",
+        "author": "Wenxun Wang, et al.",
+        "original_date": "2026-11-04"
+      },
+      "category": "infra",
+      "tags": [
+        "moe",
+        "expert-offloading",
+        "load-balancing",
+        "distributed-inference"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "分布式 MoE 推理的专家负载均衡：静态放置与路由动态性冲突，既有 DRAM offload 在分布式下受共享 PCIe 拓扑耦合影响与规模化内存开销拖累vExpert 把\"部分驻留\"改为\"全冗余+虚拟化专家存储\"：用联合建模 H2D 延迟PCIe 争用与负载不均衡的性能模型驱动轻量分配器，运行时把物理专家映射到虚拟槽位，并以解耦管理器降低多进程内存开销8 节点 H100 集群上的 DeepSeek-V3.1：负载均衡比最高提升 55%，端到端 1.2x 加速",
+      "summary_en": "Distributed MoE inference load balancing (cs.DC): static expert placement conflicts with inherent routing dynamism, while existing DRAM-offloading fails in distributed settings due to coupled H2D transfer impacts under shared PCIe topology and system-level memory overhead. vExpert shifts offloading from partial residency to full redundancy through virtualized expert storage: a lightweight allocator dynamically maps physical experts to virtual slots at runtime, guided by a systematic performance model jointly capturing H2D latency, PCIe contention, and load imbalance; a disaggregated manager reduces memory overhead in multi-process environments. On DeepSeek-V3.1 across an 8-node H100 cluster, vExpert improves the load-balance ratio by up to 55% and achieves 1.2x end-to-end speedup.",
+      "one_liner": "vExpert: Virtualizing Expert Storage for Adaptive Load Balancing in Distributed MoE Inference",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/20c0ac17.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3645fd22",
+      "title": "flash-comm: Self-Synchronizing Collective Communication for LLM Decoding",
+      "url": "https://arxiv.org/abs/2611.06634",
+      "source": {
+        "platform": "arxiv",
+        "author": "Carrie Wang, Jack Li, Jason Zhao",
+        "original_date": "2026-11-04"
+      },
+      "category": "infra",
+      "tags": [
+        "collective-communication",
+        "all-reduce",
+        "decoding",
+        "gpu"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM 解码集合通信库 flash-comm：把就绪同步与数据搬运融合，每个数据块自带\"就绪证据\"，接收方直接校验所需块而无需独立跨 GPU barrier；代价引导的选择器按消息规模与 GPU 数自适应编码就绪信息，传输序与归约序解耦保证异步到达下的一致性8 卡 B300 上 all-reduce 延迟中位降 28.8%（最高 43.7%），端到端 TPOT 降 1.7-6.8%（all-reduce 占基线解码 11.4%，即单独优化它的上限）；独立 all-gather 中位降 23.8%最高 58.9%",
+      "summary_en": "Collective communication for LLM decoding (cs.DC): flash-comm fuses readiness synchronization with data movement - each transferred block carries evidence of its readiness, so receivers validate blocks directly without separate inter-GPU barriers. A cost-guided protocol selector adapts readiness encoding to message size and GPU count, and transport order is decoupled from reduction order to preserve consistency under asynchronous arrivals. On eight NVIDIA B300 GPUs, flash-comm cuts all-reduce latency by a median 28.8% (up to 43.7%) versus state-of-the-art AR v2, and end-to-end decoding TPOT by 1.7-6.8% - all-reduce is 11.4% of baseline decoding time, bounding the ceiling for this optimization alone. The same mechanism supports standalone all-gather, cutting latency by a median 23.8% (up to 58.9%).",
+      "one_liner": "flash-comm: Self-Synchronizing Collective Communication for LLM Decoding",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/3645fd22.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6457e392",
+      "title": "Scaling Laws for SAE Training Data",
+      "url": "https://arxiv.org/abs/2611.07756",
+      "source": {
+        "platform": "arxiv",
+        "author": "Nikita Koriagin, Nikita Balagansky, Daniil Gavrilov",
+        "original_date": "2026-11-05"
+      },
+      "category": "models",
+      "tags": [
+        "sparse-autoencoder",
+        "interpretability",
+        "scaling-laws",
+        "activation-storage"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "SAE 训练数据缩放律：固定总训练预算下，激活缓冲区增大时 SAE 质量快速提升，随后进入平台期重放缓冲几乎与全程使用新激活同样有效；此后更多唯一激活对重建与可解释性收益甚微，缓冲区无需随预算增长作者用缩放律刻画这种多样性-重复权衡，跨字典尺寸token 预算Llama-3.1/Qwen3 多层BatchTopK/TopK/JumpReLU 以及数学/代码激活源验证（EVMSE特征吸收自动可解释性稀疏探测）实用规则：选达到平台期的最小缓冲并重放，激活存储省 8-64 倍质量损失可忽略",
+      "summary_en": "SAE training-data scaling laws (cs.LG/cs.AI/cs.CL): with the total training budget fixed, SAE quality improves rapidly as the activation buffer grows, then plateaus where replaying the buffer is nearly as effective as fresh activations; beyond the plateau, additional unique activations bring little benefit to reconstruction or interpretability, so the buffer need not grow with the budget. The authors describe this diversity-repetition tradeoff with a scaling law, validated across dictionary sizes, token budgets, Llama-3.1/Qwen3 layers, BatchTopK/TopK/JumpReLU SAEs, and math/code activation sources (EV, reconstruction MSE, feature absorption, automated interpretability, sparse probing). Practical rule: choose the smallest buffer reaching the plateau and replay it - cutting activation storage 8-64x with negligible quality loss.",
+      "one_liner": "Scaling Laws for SAE Training Data",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/6457e392.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e88ea88f",
+      "title": "Signals, Evidence, and Context: User Scrutiny in Real-World LLM Conversations",
+      "url": "https://arxiv.org/abs/2611.08232",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ahana Biswas, Yu-Ru Lin",
+        "original_date": "2026-11-05"
+      },
+      "category": "industry",
+      "tags": [
+        "user-behavior",
+        "verification",
+        "wildchat",
+        "sharechat"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "真实对话中用户如何核查 LLM 回答（ShareChat/WildChat 489,283 对响应）：宽泛的归属语言出现在 31.9% 的合格回答中，显式 URL 仅 1.33%\"声称有依据\"与\"保留可检验依据\"之间存在明显缺口归属与不确定性提示同时伴随核查与质疑，只有不确定性对核查有小的合并优势；技术求助场景中不确定性促进核查，信息检索场景中拒答与推理痕迹促进质疑核查集中在部分对话，分离对话间差异与响应顺序后其回合间持续性大幅缩水支持验证需要可检验证据用户问题与交互历史的综合视角",
+      "summary_en": "How users scrutinize LLM answers (cs.AI): analysis of 489,283 assistant-user response pairs from ShareChat and WildChat links answer features to users' subsequent accepting, checking, and challenging. Broad attribution language appears in 31.9% of qualifying responses versus explicit URLs in only 1.33% - a gap between claims of grounding and preserved inspectable support. Only uncertainty shows a small pooled association favoring checking over challenging; within Technical Help uncertainty favors checking, while refusals and reasoning traces favor challenging in Seeking Information. Scrutiny concentrates in some conversations, and its turn-to-turn persistence shrinks once conversation-level differences and response ordering are separated - supporting verification depends on inspectable evidence, the user's question, and interaction history.",
+      "one_liner": "Signals, Evidence, and Context: User Scrutiny in Real-World LLM Conversations",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e88ea88f.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "86248c95",
+      "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+      "url": "https://arxiv.org/abs/2611.06989",
+      "source": {
+        "platform": "arxiv",
+        "author": "Vivek Acharya",
+        "original_date": "2026-11-04"
+      },
+      "category": "industry",
+      "tags": [
+        "finops",
+        "cost-accounting",
+        "opentelemetry",
+        "multi-agent"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "多 Agent 系统的\"交易粒度\"AI 成本核算：财务只能拿到结算粒度账单，而\"这单订单/理赔/案例花了多少 AI 成本\"无法从账单回答供应商看不到企业交易边界，FOCUS 规范也仍是结算粒度Two-Ledger 模型把 FOCUS 合规的结算账本与基于 OpenTelemetry GenAI 遥测的调用粒度归因账本连接：分层关联脊柱（traceA2A/MCP 元数据业务键概率匹配）把记录归入业务交易，版本化费率卡近实时计价，对账残差用于发现影子 AI仿真：trace 传播降为零仍保持 >99% 覆盖，未计量支出恢复到 0.24pp 内，中途门控把 p99 交易成本最高降 61%（误暂停 2-4%）",
+      "summary_en": "Transaction-grain AI cost accounting (cs.AI/cs.DC/cs.MA): finance receives AI cost only at settlement grain, so 'what did this order or claim cost in AI?' is unanswerable from billing data - providers never see enterprise transaction boundaries; FOCUS stays settlement-grain. Two-Ledger joins a FOCUS-conformant settlement ledger with an invocation-grain attribution ledger on OpenTelemetry GenAI telemetry; a layered correlation spine (trace context, A2A/MCP metadata, business keys, probabilistic matching) assigns records to business transactions, a versioned rate card prices usage in near real time, and the reconciliation residual identifies shadow AI. Ground-truth simulation: coverage stays above 99% as trace propagation falls to zero, planted unmetered spend is recovered within 0.24 pp, and mid-flight gating cuts p99 transaction cost up to 61% at 2-4% false-pause.",
+      "one_liner": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/86248c95.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8e6ba391",
+      "title": "Runway Characters: Serving a 57B Video Diffusion Transformer for Real-Time Conversation",
+      "url": "https://arxiv.org/abs/2611.05642",
+      "source": {
+        "platform": "arxiv",
+        "author": "Rohan Agarwal, et al.",
+        "original_date": "2026-11-03"
+      },
+      "category": "infra",
+      "tags": [
+        "video-diffusion",
+        "real-time-serving",
+        "fp8",
+        "production-systems"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Runway Characters 实时对话视频系统生产拆解：~57B 自回归视频扩散 transformer 在 4 张 H100 上以 704x1088@24fps 服务每 chunk 240 次注意力调用都在重复读 5,788 槽 KV cache（新 token 仅 757）优化：缓存工作移到写时（环形缓存RoPE 与 FP8 每写一次）all-reduce 融进 FP8 GEMM解码器独占 GPU无融合核 240.9159.3ms（1.51x），融合后 147.4ms（1.63x）；七周生产 99.5% 会话 >23.5fps基准中的开源实时视频系统在 1/3-1/2 分辨率下仍达不到实时",
+      "summary_en": "Production real-time conversational video (cs.DC): Runway Characters serves a ~57B autoregressive video diffusion transformer (4 denoising passes/chunk) at 704x1088, 24 fps, batch size one, on four H100 GPUs - a sustained 166.7 ms per chunk. Profiling: 240 attention calls/chunk each reread a 5,788-slot KV cache with only 757 new tokens; 29% of the step was whole-cache work repeated every call. Fixes: cache work moves to write time (ring cache, RoPE and FP8 once per write, delta rotation on position resets), the all-reduce fuses into the FP8 GEMM with in-switch reduction, and the frame decoder gets its own GPU. Step time fell 240.9 to 159.3 ms (1.51x) without the fused kernel, 147.4 ms (1.63x) with it; seven production weeks averaged above 23.5 fps in 99.5% of sessions. Two open-source real-time video systems miss real time at a third to half the resolution.",
+      "one_liner": "Runway Characters: Serving a 57B Video Diffusion Transformer for Real-Time Conversation",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8e6ba391.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a78801b8",
+      "title": "Goldman Sachs Is Pulling Claude Code From Its Bankers and Traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "source": {
+        "platform": "blog",
+        "author": "State of AI Editorial",
+        "original_date": "2026-11-02"
+      },
+      "category": "industry",
+      "tags": [
+        "goldman-sachs",
+        "claude-code",
+        "enterprise-ai",
+        "access-policy"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "高盛收紧 AI 编码工具访问：10 月更新的内部指引把 Claude Code 与微软 GitHub 限定给工程师，多数交易员与银行家不再可用（转引 Bloomberg），strats 仍保留此前交易员用它们跟踪客户流量建模市场走势制作材料，收紧引发部分不满高盛 4 月已禁止香港银行家使用 Claude，且正担任 Anthropic IPO 主承销之一而 7 月 CIO Marco Argenti 还在公开夸赞交易员用 AI 工具构建的系统信号：企业编码 Agent 的准入正按角色与风险评审收敛，而非整体回撤",
+      "summary_en": "Goldman Sachs has restricted Claude Code and Microsoft's GitHub to its engineers under internal guidance updated in October, cutting off most traders and bankers (per Bloomberg News); strats across trading, quant research, and software engineering keep access. Traders had used them to monitor client flows, model market moves, and build materials; the change has frustrated some. The bank had already barred its Hong Kong bankers from Claude in April and is a lead underwriter on Anthropic's IPO - weeks after CIO Marco Argenti praised trader-built AI tools in July. A spokesperson said the bank makes certain AI tools available to staff to determine the best use cases. Field signal: enterprise coding-agent access is being scoped by role and risk review rather than rolled back outright, and adoption can invert quickly even inside an Anthropic IPO underwriter.",
+      "one_liner": "Goldman Sachs Is Pulling Claude Code From Its Bankers and Traders",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a78801b8.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e66f4eea",
+      "title": "Goodbye Claude, Hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "source": {
+        "platform": "blog",
+        "author": "Caleb (caleb.software)",
+        "original_date": "2026-09-21"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "harness-migration",
+        "developer-experience",
+        "pi"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "一位长期 Claude Code 用户宣布转投 Pi 作为主力编码 harness（HN 673 分）导火索是 CLAUDE.md/AGENTS.md 双格式负担他决定离开次日 Anthropic 才宣布支持 AGENTS.md，\"太迟了\"具体槽点：同时只能一个会话连接 IDE，第二个标签页收不到选区上下文（2025 年 12 月有人报告被当无关 bug 关闭）；VSCode GUI 扩展一半斜杠命令失效无自定义状态栏并发子代理输出混排；今年 244 个版本，功能速度远超质量与稳定性，反复弄坏个人配置信号：个人开发者的 harness 切换成本低，DX 回退会复利",
+      "summary_en": "A longtime Claude Code user retires it as his main coding harness and migrates to Pi (resurfaced on HN, 673 points). Trigger: CLAUDE.md/AGENTS.md duplication - Anthropic announced AGENTS.md support one day after he decided to leave, 'too little, too late.' Concrete complaints: only one session can connect to the IDE at a time, so a second tab loses text-selection context (reported since December 2025, closed as a duplicate of an unrelated bug); the VSCode GUI extension breaks half the built-in slash commands, lacks custom status-line support, and interleaves concurrent subagent output chronologically; 244 releases this year with feature velocity (dynamic workflows, agent teams, ultrareviews) outpacing quality and stability, repeatedly disturbing personal setups. Field signal: individual developers' harness switching cost is low, and DX regressions compound against feature velocity.",
+      "one_liner": "Goodbye Claude, Hello Pi",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e66f4eea.md",
+      "images": [],
+      "added_date": "2026-11-09",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-09",
-  "total_entries": 3155
+  "total_entries": 3168
 }
