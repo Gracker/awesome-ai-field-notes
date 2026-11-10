@@ -4,6 +4,7 @@
 
 ## 最新精选 Top 10
 
+- [llama-modchip: CPU-First Inference for 284B & 30B MoE Models on 16-64 GB RAM](https://github.com/synchopate/llama-modchip) ⭐4 · 2026-11-10 — llama-modchip 是一组 ggml/llama.
 - [Opus 5.5 XHIGH just deleted all my apps data, passwords and macOS configs](https://www.reddit.com/r/ClaudeCode/comments/1xqfp7m/opus_55_xhigh_just_deleted_all_my_apps_data) ⭐4 · 2026-11-09 — r/ClaudeCode 热帖（2026-11-09 brief 记约 3347 赞/1446 评）：用户让 Opus 5.
 - [Hide your slop PR descriptions behind](https://simonwillison.net/2026/Nov/9/details-summary) ⭐4 · 2026-11-09 — Simon Willison 介绍用 折叠 AI 生成 PR 描述的工作流他的 PR 大多由 Claude Code 或 Codex 开，描述准确完整却读起来像 slop，连驱动作品的作者本人都不想读完解法：手写一段人批准的引子说明 PR 做什么值不值得花时间...
 - [The Huang Affair: What did they know and when did they know it?](https://garymarcus.substack.com/p/the-huang-affair-what-did-they-know) ⭐3 · 2026-11-09 — Gary Marcus 梳理 Nvidia CEO 黄仁勋承认与 Alice Huang 婚外情的后续链条：Alice Huang 是新加坡数据中心公司 Megaspeed 高管，美方情报认定她是向北京回传信息的中国间谍.
@@ -13,31 +14,30 @@
 - [Introducing the Artificial Analysis Decision Index v2](https://artificialanalysis.ai/articles/decision-index-v2) ⭐4 · 2026-11-08 — Artificial Analysis 发布 Decision Index v2，把评测对准真实决策效用：45% 权重压在私有数据上，新 Decision Score 同时奖励正确性与置信校准，单题公式 50*(1+c-(p-c)^2).
 - [Yak-Shaving with AI: When Rabbit Holes Become Overwhelming](https://tedium.co/2026/11/08/yak-shaving-ai-mental-health-effects) ⭐3 · 2026-11-08 — Tedium 作者 Ernie Smith 记录用多个 AI agent 复活一台死的 JingPad ARM 平板：配 Ghidra 与 Reverse Engineer Anything，从黑屏做到 Fedora 跑在 6.
 - [Artificial Analysis Endpoint Accuracy Index v1.1: same model, different API endpoints](https://artificialanalysis.ai/methodology/endpoint-accuracy-index) ⭐3 · 2026-11-08 — Artificial Analysis 端点精度指数 v1.
-- [Artificial Intelligence in the Firm: Bottlenecks in Software Production (JMP, 2026-11-07 版)](https://fion.ac/jellyfish.pdf) ⭐5 · 2026-11-07 — 哈佛 Chen & Stratton JMP 2026-11-07 修订版：Jellyfish 平台 445M 事件720,542 工程师655 家企业，按企业层采用时点识别效应agents 采用约 12 个月后 commits +36.
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
 | 模型与实验室 | 500 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 678 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| Agent 与自动化 | 680 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 357 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 215 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 260 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 基础设施 | 219 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 产品与商业 | 261 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 146 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 244 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 3175
-- 公开展示卡片: 2400
+- 原始条目: 3182
+- 公开展示卡片: 2407
 - 有全文内容: 2284
-- 最近 7 天信号: 146
+- 最近 7 天信号: 140
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `claude-code`, `multi-agent`, `agent-security`, `coding-agents`, `agents`, `security`, `agent-memory`, `coding-agent`, `open-weights`, `agent-safety`, `mcp`, `kv-cache`, `agent-harness`
+`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `claude-code`, `multi-agent`, `agent-security`, `coding-agents`, `agents`, `security`, `agent-memory`, `coding-agent`, `open-weights`, `kv-cache`, `agent-safety`, `mcp`, `agent-harness`
 
 ## 自动化约定
 

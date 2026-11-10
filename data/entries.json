@@ -97391,8 +97391,228 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "9cdd0754",
+      "title": "A Controlled Experimental Evaluation of Configuration and Cache Architecture in LLM Serving Engines",
+      "url": "https://arxiv.org/abs/2611.05991",
+      "source": {
+        "platform": "arxiv",
+        "author": "Muhammad Faizan Anwar, Sina Keshvadi",
+        "original_date": "2026-11-04"
+      },
+      "category": "infra",
+      "tags": [
+        "llm-serving",
+        "vllm",
+        "sglang",
+        "chunked-prefill",
+        "benchmarking"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "多智能体 LLM 应用请求间重复大量 prompt token，vLLM 与 SGLang 在不同粒度复用前缀缓存，但默认配置对比常把性能差距归因于缓存，未控制 chunked prefill 这类配置差异作者在 Kubernetes 测试床上用带种子的多智能体负载对比两引擎：默认配置下 vLLM 中位首 token 时间最高达 SGLang 的 64 倍；仅对齐 chunked prefill 即消除最大 78% 的容量差距和 3067% 的延迟差距匹配后保留的是同等吞吐下 SGLang 2.46.4 倍尾延迟优势，与缓存感知请求排序一致",
+      "summary_en": "Multi-agent workloads repeat most prompt tokens across requests; vLLM and SGLang reuse cached prefix state at different granularities. Default-deployment benchmarks blame large gaps on the cache without controlling chunked prefill, which each engine sets differently. With a Kubernetes testbed and a seeded multi-agent workload, the authors compare the engines under vendor defaults and with chunked prefill matched; SGLang's identical setup in both arms serves as an internal control. Under defaults, vLLM's median time to first token reaches 64x SGLang's; matching that setting removes 78% of the largest capacity gap and 30-67% of the latency gap, and a fluid queue model driven by a 4.4% throughput shortfall reproduces the queue growth. What survives matching is a 2.4-6.4x SGLang tail-latency advantage at equal throughput, consistent with cache-aware request ordering.",
+      "one_liner": "多智能体 LLM 应用请求间重复大量 prompt token，vLLM 与 SGLang 在不同粒度复用前缀缓存，但默认配置对比常把性能差距归因于缓存...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9cdd0754.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7bbe24f8",
+      "title": "AI Exposure and the Changing Responsibilities in Job Postings",
+      "url": "https://arxiv.org/abs/2611.09870",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dora Zhao, Lin Ai, Pranav Khadpe, Siddharth Suri, Scott Counts",
+        "original_date": "2026-11-06"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-exposure",
+        "labor-market",
+        "job-postings",
+        "work-activities"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "作者从 20232025 年 33 家公司的 5 万条招聘广告中抽取岗位职责，映射到 O*NET 的中间工作活动（IWA）分类，并用 Copilot 与 Claude 使用数据推导的活动级 AI 暴露度进行关联发现：招聘文案中 AI 显性提及增长 66%，但多半落在实际工作活动描述之外；暴露度较高的工作活动在岗位职责中的占比仅轻度下降，同时越来越多地与显性 AI 相关职责并存雇主想招的是能用 AI 完成这类工作的人",
+      "summary_en": "How is employer demand for work activities changing with AI adoption? The authors extract responsibilities from 50,000 job advertisements across 33 firms (2023-2025), map them onto O*NET's Intermediate Work Activities taxonomy, and associate activities with AI-exposure measures derived from Copilot and Claude usage. Explicit AI mentions in postings rose 66%, though much of that growth sits outside descriptions of actual work activities. Among advertised responsibilities, activities with higher AI exposure decline in prevalence, but only mildly as a share of total responsibilities, while increasingly co-occurring with explicitly AI-related duties - suggesting employers seek people who can perform AI-exposed work with AI.",
+      "one_liner": "作者从 20232025 年 33 家公司的 5 万条招聘广告中抽取岗位职责，映射到 O*NET 的中间工作活动（IWA）分类，并用 Copilot 与 Claude 使用数据推导的活动级 AI 暴露度进行关联发现：招聘文案中 AI 显性提及增长 66%...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7bbe24f8.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7ee3888d",
+      "title": "Test-Time Compute Scales Better with Parallel Agent Teams",
+      "url": "https://arxiv.org/abs/2611.09798",
+      "source": {
+        "platform": "arxiv",
+        "author": "Junlin Wang, Haozhe Chen, Ang Li, Rahul Chalamala, Zhuang Liu",
+        "original_date": "2026-11-06"
+      },
+      "category": "agents",
+      "tags": [
+        "test-time-compute",
+        "agent-teams",
+        "best-of-n",
+        "scaling"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "测试时算力在智能体上的两种花法各有瓶颈：best-of-N 独立采样很快饱和，单个大团队协作则随规模停止提升parallel agent teams 并行采样许多小团队保留最佳团队结果在 GPU kernel形式化证明漏洞利用开发等 12 个长程任务上，用 27B 模型和 100 个智能体预算，十人小团队在 12 项任务中的 10 项胜过等量独立智能体，并在所有可对比任务上胜过百人单团队；等美元成本下在半数任务上胜过前沿模型统计模型解释了原因：独立样本均值低，大团队吃不到方差收益，多个小团队兼顾高均值与方差收益",
+      "summary_en": "Test-time scaling for agents can spend budget on many independent attempts (best-of-N, which saturates quickly) or on one large collaborating team (which stops improving as it grows). Parallel agent teams instead sample many small teams in parallel and keep the best team's result. On 12 long-horizon tasks - GPU kernels, formal proofs, exploit development - with a 27B model and a 100-agent budget, teams of ten beat parallel independent agents on 10 of 12 tasks and beat one 100-agent team on all four tasks where such teams were run; at equal dollar cost they beat a frontier model on half the tasks. A statistical model explains the result: many independent samples have a low mean, one large team gets no gain from variance, and many small teams balance a high mean with the gain from variance.",
+      "one_liner": "测试时算力在智能体上的两种花法各有瓶颈：best-of-N 独立采样很快饱和，单个大团队协作则随规模停止提升parallel agent teams 并行采样许多小团队保留最佳团队结果在 GPU kernel形式化证明漏洞利用开发等 12 个长程任务上...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7ee3888d.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9c3a2d89",
+      "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
+      "url": "https://arxiv.org/abs/2611.09825",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dayou Du, Woon Yee Ng, Guangming Sheng, Nick Lau, Jianyi Cheng, Luo Mai",
+        "original_date": "2026-11-06"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "fp4",
+        "quantization",
+        "inference-serving",
+        "co-design"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "FP4 微缩格式能压缩 KV cache，但现有 FP4 KV 系统的朴素量化精度损失大，高精度算法又被码表查表拖慢BitDecoding-FP4 用算法-系统协同设计实现原生 FP4 KV 解码：双残差 query 量化把 query logit 误差从 60% 降到 1%；下溢感知概率缩放避免长上下文概率被舍入为零；离群感知 key 量化压制 key 离群值；转置 softmax 加融合概率量化消除系统瓶颈在 GQA/MLA 的稠密与 MoE 模型上精度距 BF16 KV 不超过 0.5 点，B300 上服务 Qwen3 模型峰值吞吐提升 2.43.0 倍",
+      "summary_en": "FP4 microscaling formats shrink the KV cache, but existing FP4 KV systems rely on vanilla quantization with big accuracy drops, while accuracy-oriented 4-bit algorithms carry codebook lookup overhead. BitDecoding-FP4 is an algorithm-system co-design for native FP4 KV decoding: Dual-Residual Query Quantization cuts query logit error from 60% to 1%; Underflow-Aware Probability Scaling prevents E4M3 scales rounding long-context probabilities to zero; Outlier-Aware Key Quantization combines smoothing, Hadamard rotation, and scale search to suppress key outliers. Transposed softmax with fused probability quantization and stacked query MMA removes the softmax bottleneck. Across dense and MoE models with GQA and MLA, accuracy stays within 0.5 points of BF16 KV, and on NVIDIA B300 serving Qwen3-4B and Qwen3-30B-A3B, it delivers 2.4-3.0x higher peak throughput than BF16 KV.",
+      "one_liner": "FP4 微缩格式能压缩 KV cache，但现有 FP4 KV 系统的朴素量化精度损失大，高精度算法又被码表查表拖慢BitDecoding-FP4 用算法-系统协同设计实现原生 FP4 KV 解码：双残差 query 量化把 query logit 误差从 60% 降到 1%...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9c3a2d89.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8a670d38",
+      "title": "MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory",
+      "url": "https://arxiv.org/abs/2611.09721",
+      "source": {
+        "platform": "arxiv",
+        "author": "David H. Yang, Blake Bullwinkel, Amanda Minnich, Mohammad Mohammadi Amiri, Giorgio Severi",
+        "original_date": "2026-11-06"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-memory",
+        "memory-poisoning",
+        "benchmark",
+        "agent-security"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "记忆系统能提升智能体在长程多会话任务上的表现，但也带来新的攻击面：某一会话遇到的恶意指令可被存入记忆，随后在后续会话被检索执行MemoryDojo 基准追踪被投毒信息在智能体记忆中的完整生命周期并量化其对后续行为的影响：155 条覆盖四个域的多会话长程轨迹支持五种记忆系统易于扩展评估显示所有被测记忆系统都可被投毒，下游影响差异显著；作者还提出记忆感知的投毒优化流程，可放大攻击效果，凸显不同记忆架构之间的差异",
+      "summary_en": "Agent memory systems improve long-horizon, multi-session performance but introduce a critical attack surface: malicious instructions encountered in one session can be stored and propagated through memory, then retrieved and acted upon in later sessions. MemoryDojo is a benchmark for tracing the lifecycle of poisoned information through agent memory and measuring its influence on subsequent agent behavior. It consists of 155 multi-session long-horizon trajectories covering four domains and supports five different memory systems. The evaluation finds all tested memory systems susceptible to poisoning, with substantial variation in downstream effects across architectures, and a memory-aware poison optimization process increases efficacy, highlighting architecture-specific differences.",
+      "one_liner": "记忆系统能提升智能体在长程多会话任务上的表现，但也带来新的攻击面：某一会话遇到的恶意指令可被存入记忆...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8a670d38.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f1f285c7",
+      "title": "Hybrid Spark: Adaptive Speculative Decoding That Lets the Content Choose the Drafter",
+      "url": "https://arxiv.org/abs/2611.05611",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ekagra Ranjan, Bharat Venkitesh",
+        "original_date": "2026-11-03"
+      },
+      "category": "infra",
+      "tags": [
+        "speculative-decoding",
+        "vllm",
+        "inference-serving",
+        "drafters"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "投机解码收益取决于负载形态与内容：模型 drafter 只能给短块，n-gram 等无模型 drafter 在输出复用输入时几乎零成本给长拷贝自适应验证只支持单一模型 drafter，无模型 drafter 缺逐 token 置信度，部署方只能二选一或拆 GPUHybrid Spark 每步同时运行两类 drafter，为每个请求择优链条，全程单 GPU；核心是给草稿 token 按槽位别处的期望 goodput定价，一次校准后两类链条同尺度比较vLLM 实现下，代码编辑 batch=4 时吞吐达模型 drafter 的 1.101.62 倍，batch=128 时 1.041.27 倍，chat 保持 0.971.01 倍",
+      "summary_en": "Speculative decoding gains depend on workload shape and content: a model-based drafter proposes short blocks anywhere, while an n-gram drafter proposes long copies nearly free when output repeats input. Adaptive verification supports only one model-based drafter, and model-free drafters lack per-token confidence, so deployments fix one drafter or split GPUs between drafters. Hybrid Spark runs a model-based and a model-free drafter on every step and gives each request the better chain within adaptive verification, entirely on the GPU. The key idea prices each verified draft token at the goodput that slot would earn elsewhere; calibrated acceptance estimates fit once on general text put both chains on one scale. In vLLM with an n-gram drafter, it reaches 1.10-1.62x the model-based drafter's throughput on code editing at batch 4 and 1.04-1.27x at batch 128, and 0.97-1.01x on chat.",
+      "one_liner": "投机解码收益取决于负载形态与内容：模型 drafter 只能给短块，n-gram 等无模型 drafter 在输出复用输入时几乎零成本给长拷贝自适应验证只支持单一模型 drafter，无模型 drafter 缺逐 token 置信度...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f1f285c7.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5e9d3fd0",
+      "title": "llama-modchip: CPU-First Inference for 284B & 30B MoE Models on 16-64 GB RAM",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "source": {
+        "platform": "github",
+        "author": "synchopate",
+        "original_date": null
+      },
+      "category": "infra",
+      "tags": [
+        "cpu-inference",
+        "moe",
+        "quantization",
+        "llama-cpp",
+        "avx-512"
+      ],
+      "source_type": "github",
+      "language": "zh",
+      "summary_zh": "llama-modchip 是一组 ggml/llama.cpp 内核补丁量化转码器与运行时工具，让稀疏 MoE 检查点完全跑在系统内存里：x86_64 与 ARM64 均无需 GPU1.71 bpw 定制转码把 DeepSeek-V4-Flash（284.33B 总参13.17B 激活）连同 256K KV cache 压进约 57.6 GiB RSS，64 GB 内存零 swap 运行；16 核 Zen 5 prefill 达 44.36 tok/sCPU SIMD 补丁报告带来 77% prefill 与 53% decode 提升；另配 n-gram 投机 drafter 与 /dev/shm KV 快照，智能体上下文约 13 ms 恢复",
+      "summary_en": "llama-modchip is a set of ggml/llama.cpp kernel patches, quantization transcoders, and runtime tools that run sparse MoE checkpoints entirely in system RAM on x86_64 (AVX-512/AVX2) and ARM64 (NEON/SVE, Apple Metal), with no GPU. A custom 1.71 bpw transcode of DeepSeek-V4-Flash (284.33B total, 13.17B active, 256 routed experts) fits the model plus a 256K KV cache in about 57.6 GiB RSS on a 64 GB Linux machine with zero swap. CPU cache and SIMD kernel patches (ZMM register tiling, register-stationary MQA8 FlashAttention, non-temporal MoE streaming) are reported to add 77% prefill and 53% decode, reaching 44.36 tok/s prefill on a 16-core Zen 5; 30B-class MoE models decode at 25-111.6 tok/s. A 1.64 MB n-gram speculative drafter pairs with /dev/shm KV snapshots that restore agent contexts in about 13 ms.",
+      "one_liner": "llama-modchip 是一组 ggml/llama.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5e9d3fd0.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-09",
-  "total_entries": 3175
+  "last_updated": "2026-11-10",
+  "total_entries": 3182
 }
