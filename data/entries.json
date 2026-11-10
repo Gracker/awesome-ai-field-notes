@@ -97611,8 +97611,414 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "13932435",
+      "title": "Claude Code v2.1.321 makes Fable 5.2 the default model and ships sandbox and permission fixes",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+      "source": {
+        "platform": "github",
+        "author": "anthropics",
+        "original_date": "2026-11-09"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "release-notes",
+        "permissions",
+        "sandbox",
+        "model-default"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "anthropics/claude-code 正式版从 2.1.319 升到 2.1.321（2026-11-09）：默认 Fable 模型换成 Claude Fable 5.2（1M 上下文，$8/$40 per Mtok，cache 读 $0.20）；remote-control 新增 --settings 可给每个会话套用同一份 settings 文件，变更后需重启生效。同批修了多处安全问题：MCP OAuth 重定向时把 refresh token 等密钥发到错误主机、只读 Bash 未进沙箱就执行、cp/mv 写入目录时 deny 规则没盖到目标文件。",
+      "summary_en": "anthropics/claude-code shipped v2.1.321 (Nov 9, 2026), promoting Claude Fable 5.2 (claude-fable-5-2) to the default Fable model with 1M context at $8/$40 per Mtok and $0.20 cache reads. claude remote-control gains --settings to apply one settings file to every session it starts (changes require a restart). Security-relevant fixes in the same release: MCP OAuth no longer sends refresh tokens and other secrets to a different host on redirect; a read-only Bash command that previously ran outside the sandbox without a permission prompt is fixed; deny rules and protected-file prompts now cover files written by cp/mv into a directory; plus fixes for a misleading usage-credits note on Enterprise Fable seats and fallback-model edge cases.",
+      "one_liner": "anthropics/claude-code 正式版从 2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/13932435.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": "2026-11-10",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6001ee7e",
+      "title": "Codex CLI's persistent self-updating background daemon faces an opt-in demand (issue #48195)",
+      "url": "https://github.com/openai/codex/issues/48195",
+      "source": {
+        "platform": "github",
+        "author": "openai/codex community (issue by WSL2 user)",
+        "original_date": "2026-09-25"
+      },
+      "category": "coding",
+      "tags": [
+        "codex",
+        "daemon",
+        "auto-update",
+        "disk-usage",
+        "permissions"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "openai/codex issue #48195 要求把 daemon_auto_start 改为 opt-in：从 0.157.0 起只要打开交互式 codex 会话就启动常驻后台守护进程，无 TTY、窗口全关后仍挂在 PID 1 下，直到手动 stop 或重启；并把约 374MB 平台包复制到 ~/.codex/packages/app-server-daemon/releases/ 后从副本运行，后端版本与 npm 解耦。2026-11-10 被 HN 头条（约 610 分/294 评）放大：评论给出 config.toml 关闭法，也有用户报磁盘堆积约 12GB、更新损坏权限。",
+      "summary_en": "openai/codex issue #48195 (opened Sep 25, 2026, still open) asks to make daemon_auto_start opt-in: since 0.157.0, merely opening an interactive codex session starts a persistent background daemon (codex app-server --managed-daemon) with no TTY that reparents to PID 1 after every window closes, until daemon stop or a reboot. It also copies the whole ~374MB platform package into ~/.codex/packages/app-server-daemon/releases// and runs from that copy, decoupling the backend version from npm. Amplified on Nov 10, 2026 by an HN front page (~610 points / 294 comments): comments share daemon_auto_start = false in config.toml as the workaround, report old-version disk piles around 12GB, and claim auto-updates have broken permissions.",
+      "one_liner": "openai/codex issue #48195 要求把 daemon_auto_start 改为 opt-in：从 0.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6001ee7e.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": "2026-11-10",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d5f14a62",
+      "title": "Which Claude model should you build with? Fable, Opus, Sonnet, or Haiku",
+      "url": "https://claude.dev/blog/which-claude-model-should-you-build-with",
+      "source": {
+        "platform": "blog",
+        "author": "Addy Osmani",
+        "original_date": "2026-11-09"
+      },
+      "category": "learning",
+      "tags": [
+        "model-selection",
+        "claude",
+        "pricing",
+        "playbook"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "claude.dev 发布选型 playbook（Addy Osmani，2026-11-09）：当前 GA 模型为 Haiku 5.5、Sonnet 5.5、Opus 5.5 与 Fable 5.2，Mythos 5.2 面向网络安全与生命科学、走验证计划。按任务选型：Fable 5.2 是 1M 上下文重活档（$8/$40 per Mtok），Opus 5.5 日常主力，Sonnet/Haiku 控成本；建议跨 effort 档实测 token 与墙钟，迁移前做兼容性检查，以自有负载为准。与官方口径一致：日常留 Opus，重活上 Fable 先调 effort。",
+      "summary_en": "claude.dev published a model-selection playbook by Addy Osmani (Nov 9, 2026): the generally available lineup is Haiku 5.5, Sonnet 5.5, Opus 5.5, and Fable 5.2, while Mythos 5.2 targets cybersecurity and life-sciences research via verification programs. It frames picking by task: Fable 5.2 as the 1M-context heavy-work tier ($8/$40 per Mtok), Opus 5.5 as the daily default, Sonnet/Haiku for cost control. It recommends measuring tokens and wall-clock per task across effort levels, checking compatibility before migrating, and trusting your own workload measurements over benchmarks or sentiment. Aligns with the ClaudeDevs guidance: keep daily work on Opus, move heavy tasks to Fable with effort tuned first.",
+      "one_liner": "Which Claude model should you build with? Fable, Opus, Sonnet, or Haiku",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d5f14a62.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": "2026-11-10",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5e5d6491",
+      "title": "K-EXAONE 2.5 API goes free: LG AI Research opens an agentic Korean frontier validator",
+      "url": "https://www.lgresearch.ai/news/view?seq=755",
+      "source": {
+        "platform": "blog",
+        "author": "LG AI Research",
+        "original_date": "2026-11-09"
+      },
+      "category": "models",
+      "tags": [
+        "k-exaone",
+        "lg",
+        "free-api",
+        "agentic-benchmarks"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "LG AI Research 宣布 K-EXAONE 2.5 API 免费开放（2026-11-09）：docs.exaone.ai 申请 key 即可用于开发与研究。模型是 8 月版本的追加训练技术验证版，主打 agentic；厂商自测 AutomationBench-Openset 74.6、SWE-Bench Pro 59.2、BrowseComp 78.0、Claw-Eval 77.3，自称与 DeepSeek-V4.1-Flash、GLM-5.3 相当。分数为内部评估、未经第三方复核；免费 OpenAI 兼容入口适合低成本试用 agentic 工作流，商用/训练条款需自行核对。",
+      "summary_en": "LG AI Research made the K-EXAONE 2.5 API free (Nov 9, 2026): obtain a key at docs.exaone.ai for service development and research, open to developers, startups, enterprises, and research institutions. The model is a technical-validation version with additional training on the August release, positioned on agentic capability; vendor-internal benchmarks report AutomationBench-Openset 74.6, SWE-Bench Pro 59.2, BrowseComp 78.0, and Claw-Eval 77.3, with claimed parity against Chinese frontier models like DeepSeek-V4.1-Flash and GLM-5.3. All scores are internal evaluations without third-party verification; the free OpenAI-compatible entry is practically useful for trialing agentic workflows at zero cost, but license terms (commercial use, training, key lifetime) need checking.",
+      "one_liner": "LG AI Research 宣布 K-EXAONE 2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5e5d6491.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": "2026-11-10",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f7f21186",
+      "title": "LowRAM: low-rank keys and amortised values for composable KV cache compression at test-time",
+      "url": "https://arxiv.org/abs/2611.07025",
+      "source": {
+        "platform": "arxiv",
+        "author": "Teresa Delgado, Hugo Hazard, Martin Benfeghoul, Jun Wang, Zafeirios Fountas",
+        "original_date": "2026-11-04"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "inference",
+        "memory",
+        "test-time"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "自回归解码的 KV cache 随上下文线性增长，限制批大小与吞吐LowRAM 找到互补于现有稀疏化/量化路线的一条轴：每个注意力头内的 value 大部分可由对应 key 预测出来方法是 value cache amortisation测试时为每个头拟合一个轻量预测器，只对重构最差的 token 存残差，得到约 4 倍近无损 value 压缩；预测器可用 meta-learning 初始化以显著降低 prefill 开销，并可与低秩 key 等已有压缩手段组合使用",
+      "summary_en": "The KV cache grows linearly with context and caps batch size and throughput. LowRAM identifies an axis complementary to sparsity and quantization: within each attention head, values are largely predictable from their keys. Its value cache amortisation fits a lightweight per-head predictor at test time and stores residuals only for tokens it reconstructs worst, giving about 4x near-lossless value compression; meta-learned initialization cuts prefill overhead, and the method composes with low-rank keys and other post-training compression. Test-time, per-head, composable - orthogonal to quantization routes like FP4 KV caches (BitDecoding), and worth scheduling into a long-context inference stack.",
+      "one_liner": "自回归解码的 KV cache 随上下文线性增长，限制批大小与吞吐LowRAM 找到互补于现有稀疏化/量化路线的一条轴：每个注意力头内的 value 大部分可由对应 key 预测出来方法是 value cache amortisation测试时为每个头拟合一个轻量预测器...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f7f21186.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c2aaea20",
+      "title": "The Last Mile to the Real World: agent-native primitives as reusable building blocks",
+      "url": "https://arxiv.org/abs/2611.07461",
+      "source": {
+        "platform": "arxiv",
+        "author": "Haibo Jin, Peng Kuang, Xiaopeng Yuan, et al.",
+        "original_date": "2026-11-05"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "terminal-bench",
+        "primitives",
+        "real-world-tasks"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "前沿模型配上自家 harness 在真实任务基准上仍吃力：Terminal-Bench 4.0 上 GPT-5.6 Sol+Codex 37.3%Claude Opus 5+Claude Code 51.8%论文把失败集中点命名为最后一公里资源够到了，却用不上：现有方案只把资源放进可达范围，把应用能力留给调用方，每个 harness 都重造一遍提出 agent-native primitives：给资源配上驻留 LLM，在上下文里完成应用并与其他 primitive 通信，作为可复用积木，配套 HEELO harness 框架",
+      "summary_en": "Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% and Claude Opus 5 with Claude Code 51.8%. The paper names the failure concentration the last mile: tasks fail at the step from reaching a resource to applying it. Existing approaches put the resource within reach but leave the competence to apply it with the caller, so every harness rebuilds it. Agent-native primitives attach a resident LLM to a resource that applies it in context and communicates with other primitives as reusable building blocks, with the HEELO harness framework. Complementary to parallel-agent-teams findings: real-task gains come from structure, not just bigger models.",
+      "one_liner": "前沿模型配上自家 harness 在真实任务基准上仍吃力：Terminal-Bench 4.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c2aaea20.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "296c4d84",
+      "title": "PCBRouteAgent: how close are LLM agents to becoming PCB routing engineers?",
+      "url": "https://arxiv.org/abs/2611.08175",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yue Zhang, Jilei Sun, Liqiang Jing, Yijie Wei, Ruohan Yang",
+        "original_date": "2026-11-05"
+      },
+      "category": "agents",
+      "tags": [
+        "pcb",
+        "eda",
+        "multimodal-agent",
+        "kicad"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "PCB 布线要在严格设计规则下协调板级连接决策与几何执行PCBRouteAgent 模仿人类工程师全局策略+局部执行的分工：Global Routing Planner 结合板图与结构化电气/几何信息给出连接拓扑布线顺序走廊与换层；Detailed Routing Executor 用 KiCad 原生布线引擎落实并做有界迭代修正论文同时度量 LLM agent 距布线工程师的差距对 EDA 自动化与具身工程类 agent 是一个具体的分层样板：语义规划交给模型，几何执行交给领域工具",
+      "summary_en": "PCB routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. PCBRouteAgent mirrors how human engineers pair global strategy with local execution: a Global Routing Planner combines board images with structured electrical and geometric data to specify connection topology, routing order, corridors, and layer transitions; a Detailed Routing Executor realizes these through KiCad's native routing engine with bounded iterative refinement. The paper also measures how close LLM agents are to routing engineers. A concrete layered template for EDA automation and embodied engineering agents: semantic planning to the model, geometric execution to domain tools.",
+      "one_liner": "PCB 布线要在严格设计规则下协调板级连接决策与几何执行PCBRouteAgent 模仿人类工程师全局策略+局部执行的分工：Global Routing Planner 结合板图与结构化电气/几何信息给出连接拓扑布线顺序走廊与换层.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/296c4d84.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c3f81809",
+      "title": "P2-MOPD: accelerating multi-teacher on-policy distillation via parameter priors",
+      "url": "https://arxiv.org/abs/2611.03953",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sinuo Wang, Jiacheng Lu, Zeyu Zhang, et al.",
+        "original_date": "2026-11-02"
+      },
+      "category": "models",
+      "tags": [
+        "distillation",
+        "multi-teacher",
+        "task-arithmetic",
+        "on-policy"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "多教师 on-policy 蒸馏靠专家监督学生自采样轨迹来聚合能力，task arithmetic 则免训练地线性组合参数P2-MOPD 把学生+专家参数的线性组合整体视为一个可微模型，在同一 on-policy 蒸馏目标下联合优化混合系数与学生权重：学生保持可训练，专家成为参数先验而非把学生困在冻结参数张成的空间里",
+      "summary_en": "Multi-teacher on-policy distillation consolidates expert capabilities by supervising student-generated trajectories, while task arithmetic offers a training-free alternative through linear parameter combinations. P2-MOPD views the linear combination of student and expert parameters as a single differentiable model and jointly optimizes mixing coefficients and student weights under the same on-policy objective: the student stays trainable, so experts act as parameter priors rather than confining it to the span of frozen parameters. A practical route for compute-limited distillation teams: keep the data pipeline, change only how the parameter space is optimized.",
+      "one_liner": "多教师 on-policy 蒸馏靠专家监督学生自采样轨迹来聚合能力，task arithmetic 则免训练地线性组合参数P2-MOPD 把学生+专家参数的线性组合整体视为一个可微模型，在同一 on-policy 蒸馏目标下联合优化混合系数与学生权重：学生保持可训练...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/c3f81809.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7aedfa73",
+      "title": "OpenAI Chromatic Codex Edition goes on sale: a $200 Codex-tied handheld device",
+      "url": "https://openai.com/supply/co-lab/chromatic",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI x ModRetro",
+        "original_date": "2026-11-09"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "chromatic",
+        "hardware",
+        "codex",
+        "modretro"
+      ],
+      "source_type": "product",
+      "language": "both",
+      "summary_zh": "OpenAI 与 ModRetro 合作的 Chromatic Codex Edition 于 2026-11-09 上架 openai.com/supply/co-lab/chromatic/，定价 $200，是 11-08 teaser 的正式落地；官方经 @OpenAIDevs 与 @modretro 宣发，页面含 restock 字段，商店页 curl 抓取 403（浏览器可开）二手市场 DevDay 机型与公售价的差价成为社区讨论点，Codex plugin 的实际 ROM/联动路径待核这条线的信号是 Codex 生态开始长出实体载体，值得跟踪补货与开发者实际用法",
+      "summary_en": "The Chromatic Codex Edition, an OpenAI x ModRetro handheld, went on sale Nov 9, 2026 at $200 on openai.com/supply/co-lab/chromatic/, materializing the Nov 8 teaser; announced via the official @OpenAIDevs and @modretro accounts. The store page carries a restock field and blocks curl (403; opens in a browser). Resale premiums for DevDay units versus the public sale price became an immediate community topic, and the Codex plugin's actual ROM path remains to be verified. The signal worth tracking: the Codex ecosystem is growing physical hardware carriers - follow restock cadence and real developer usage rather than specs.",
+      "one_liner": "OpenAI 与 ModRetro 合作的 Chromatic Codex Edition 于 2026-11-09 上架 openai.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/7aedfa73.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d776a0d2",
+      "title": "Codex dots can now connect multiple local computers and pick which one runs a task",
+      "url": "https://x.com/OpenAIDevs/status/2119883176726409645",
+      "source": {
+        "platform": "x",
+        "author": "OpenAIDevs",
+        "original_date": "2026-11-09"
+      },
+      "category": "coding",
+      "tags": [
+        "codex",
+        "multi-machine",
+        "workflow",
+        "dot"
+      ],
+      "source_type": "x_post",
+      "language": "both",
+      "summary_zh": "OpenAIDevs 官宣（2026-11-09，帖约 4100 赞）：Codex 的 dot 现在可以连接多台本地计算机，并按任务指定用哪台执行；官方演示是一台专机 build/test 应用，笔记本继续写码这把工作站拓扑变成产品开关，与 Claude Code remote-control 的 --settings 共享配置同属单入口多执行面方向；对 iOS/Xcode 专机构建隔离等场景直接可用官方演示级，暂无文档页，会话归属与并发语义待核",
+      "summary_en": "The official OpenAIDevs account announced (Nov 9, 2026, about 4100 likes) that Codex dots can now connect multiple local computers and choose which one handles a task; the demo shows a dedicated machine building and testing the app while coding continues on a laptop. Workstation topology becomes a product switch, matching the single-entry/multiple-execution direction of Claude Code remote-control's shared --settings file; directly useful for iOS/Xcode build boxes and build isolation. Official demo level with no docs page yet - session ownership and concurrency semantics need verification.",
+      "one_liner": "OpenAIDevs 官宣（2026-11-09，帖约 4100 赞）：Codex 的 dot 现在可以连接多台本地计算机，并按任务指定用哪台执行...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/d776a0d2.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3808f698",
+      "title": "oh-my-pi v18.18.3-6: ask tool switches to one HTML form; Fable 5.2 catalog lands release-day",
+      "url": "https://github.com/can1357/oh-my-pi/releases",
+      "source": {
+        "platform": "github",
+        "author": "can1357",
+        "original_date": "2026-11-09"
+      },
+      "category": "coding",
+      "tags": [
+        "oh-my-pi",
+        "breaking-change",
+        "model-catalog",
+        "litellm"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "oh-my-pi 连发 v18.18.3-6（2026-11-08/09）：v18.18.3 破坏性变更——ask 工具从 questions[] 改为单 HTML 表单，模型自己写表单控件并预选推荐项，旧脚本传 questions[] 直接挂；v18.18.5 在 Anthropic 发布当天把 Fable 5.2 与 Mythos 5.2（$8/$40 per MTok，1M 上下文）加进目录并修复误标纯文本/错价；v18.18.6 修 LiteLLM 只列当前 key 可调用模型，/v1/models 失败列空而非全量。发版日 catalog 跟进速度决定多路由工具能否当天切新模型。",
+      "summary_en": "oh-my-pi shipped v18.18.3-6 (Nov 8-9, 2026): v18.18.3 is a breaking change - the ask tool now takes one HTML form ({ html }) instead of questions[], with the model writing the form controls, preselecting its recommendation, and receiving submitted form data as JSON; scripts still passing questions[] break. v18.18.5 added Claude Fable 5.2 and Mythos 5.2 ($8/$40 per MTok, $0.20 cache reads, 1M context) to the catalog the same day Anthropic released them, fixing the new models showing as text-only, non-reasoning, and mispriced, plus a Mythos 5.1 thinking prefix-binding fix; v18.18.6 makes LiteLLM list only models the configured key can call (authenticated /v1/models), listing nothing instead of everything when it fails (#18601). Catalog day-of follow-through decides whether multi-router tools can switch to a new model on release day.",
+      "one_liner": "oh-my-pi v18.18.3-6: ask tool switches to one HTML form; Fable 5.2 catalog lands release-day",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/3808f698.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": "2026-11-10",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3a2d4a97",
+      "title": "Fable 5.2 just landed (r/ClaudeAI)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "fable-5-2",
+        "reddit",
+        "community",
+        "claude-code"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "r/ClaudeAIFable 5.2 just landed落地帖约 1198 赞（2026-11-10 观察）：Claude Code 2.1.321 把默认 Fable 模型换成 Fable 5.2 后，社区开始第一手尝鲜反馈；同窗 r/ClaudeCode 官方介绍帖约 999 赞WhichAICoder 记录 Fable 5.2 需要 Claude Code >= 2.1.321与同日nerf 是真的（约 2691 赞）Opus 5.5 近两周体感（约 3195 赞）并存：新模型落地与老模型体感争议同窗出现换不换模型以本机 eval 与账户配额为准",
+      "summary_en": "\"Fable 5.2 just landed\" on r/ClaudeAI reached about 1198 upvotes (observed Nov 10, 2026) as first hands-on reactions after Claude Code 2.1.321 made Fable 5.2 the default Fable model; the r/ClaudeCode official intro thread sits near 999. WhichAICoder notes Fable 5.2 requires Claude Code >= 2.1.321. Same window as \"The nerf is real\" (~2691) and \"Opus 5.5 in the past two weeks\" (~3195): new-model landing and old-model perceived-degradation debates co-occur. Direct Reddit fetch blocked; figures from the same-day vault community brief. Switch decisions should come from your own evals and account quotas.",
+      "one_liner": "r/ClaudeAIFable 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/3a2d4a97.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "787cd925",
+      "title": "The nerf is real: Opus 5.5 perceived-degradation debate (r/ClaudeCode)",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xr9x5y/the_nerf_is_real_thank_you_uwum1ha1nho",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "opus-5-5",
+        "model-quality",
+        "reddit",
+        "community"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "r/ClaudeCodeThe nerf is real帖约 2691 赞（2026-11-10 观察），同期Opus 5.5 in the past two weeks约 3195 赞：用户集中反馈 Opus 5.5 近两周体感变差，与 Fable 5.2 落地帖（约 1198 赞）同窗厂商不公开 deployed-model 变更日志时，社区体感帖是最快的漂移信号，但单帖样本偏置强，需要与自家 eval 交叉验证；对依赖固定行为的工作流，建议把模型版本+行为快照纳入监控而不是只追社区情绪",
+      "summary_en": "\"The nerf is real\" on r/ClaudeCode reached about 2691 upvotes (observed Nov 10, 2026), with the companion \"Opus 5.5 in the past two weeks\" thread near 3195: users report perceived degradation of Opus 5.5 over recent weeks, co-occurring with the Fable 5.2 landing thread (~1198). When vendors ship no public changelog for deployed-model changes, community sentiment threads are the fastest drift signal - but single-thread samples are strongly biased and need cross-checking against your own evals. For workflows that depend on fixed behavior (review, regression tests), monitor model version plus behavior snapshots rather than sentiment alone.",
+      "one_liner": "r/ClaudeCodeThe nerf is real帖约 2691 赞（2026-11-10 观察），同期Opus 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/787cd925.md",
+      "images": [],
+      "added_date": "2026-11-10",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-10",
-  "total_entries": 3182
+  "total_entries": 3195
 }
