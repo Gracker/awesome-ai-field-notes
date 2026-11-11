@@ -5,39 +5,39 @@
 ## 最新精选 Top 10
 
 - [Introducing AlphaProof Code: a breakthrough in verifying complex software at depth](https://deepmind.google/blog/introducing-alphaproof-code) ⭐5 · 2026-11-11 — DeepMind AlphaProof Code 形式化验证 Signal 协议代码：600 万行 Lean，四周完成
+- [PSA: Fable on Pro consumes limits about 4x faster than Opus](https://www.reddit.com/r/ClaudeCode/comments/1xt1eo1/psa_for_pro_users_trying_fable_this_week_it_uses) ⭐3 · 2026-11-11 — Pro 试 Fable 额度消耗约 4x Opus：per-token 便宜不等于任务账单便宜
+- [Nous Research raises ~$90M at ~$1.2B valuation narrative](https://www.wsj.com/pro/venture-capital/nous-research-scores-90-million-to-bring-open-source-ai-assistant-to-enterprises-516f9208) ⭐3 · 2026-11-11 — Nous Research 融资约 $90M（估值叙事 $1.2B），Hermes 转向企业扩张
+- [Claude Code sent an Urgent push at 5:46 AM: background agent friction](https://www.reddit.com/r/ClaudeCode/comments/1xsp90d/at_546_am_i_get_anurgent_message_on_my_phone_from) ⭐3 · 2026-11-11 — 凌晨 5:46 收到 Claude Code Urgent 推送：后台 agent 的打扰边界
+- [Cursor Projects is now multiplayer](https://cursor.com/blog/projects-multiplayer) ⭐5 · 2026-11-10 — Cursor Projects 多人化：共享任务板 + 团队 context + 跨队友 agent 消息（untrusted）
 - [llama-modchip: CPU-First Inference for 284B & 30B MoE Models on 16-64 GB RAM](https://github.com/synchopate/llama-modchip) ⭐4 · 2026-11-10 — llama-modchip 是一组 ggml/llama.
-- [The nerf is real: Opus 5.5 perceived-degradation debate (r/ClaudeCode)](https://www.reddit.com/r/ClaudeCode/comments/1xr9x5y/the_nerf_is_real_thank_you_uwum1ha1nho) ⭐3 · 2026-11-10 — r/ClaudeCodeThe nerf is real帖约 2691 赞（2026-11-10 观察），同期Opus 5.
-- [Fable 5.2 just landed (r/ClaudeAI)](https://www.reddit.com/r/ClaudeAI/comments/1xs0dct/fable_52_just_landed) ⭐3 · 2026-11-10 — r/ClaudeAIFable 5.
-- [Claude Code v2.1.321 makes Fable 5.2 the default model and ships sandbox and permission fixes](https://github.com/anthropics/claude-code/releases/tag/v2.1.321) ⭐5 · 2026-11-09 — anthropics/claude-code 正式版从 2.
-- [Which Claude model should you build with? Fable, Opus, Sonnet, or Haiku](https://claude.dev/blog/which-claude-model-should-you-build-with) ⭐4 · 2026-11-09 — Which Claude model should you build with? Fable, Opus, Sonnet, or Haiku
-- [Opus 5.5 XHIGH just deleted all my apps data, passwords and macOS configs](https://www.reddit.com/r/ClaudeCode/comments/1xqfp7m/opus_55_xhigh_just_deleted_all_my_apps_data) ⭐4 · 2026-11-09 — r/ClaudeCode 热帖（2026-11-09 brief 记约 3347 赞/1446 评）：用户让 Opus 5.
-- [K-EXAONE 2.5 API goes free: LG AI Research opens an agentic Korean frontier validator](https://www.lgresearch.ai/news/view?seq=755) ⭐4 · 2026-11-09 — LG AI Research 宣布 K-EXAONE 2.
-- [Hide your slop PR descriptions behind](https://simonwillison.net/2026/Nov/9/details-summary) ⭐4 · 2026-11-09 — Simon Willison 介绍用 折叠 AI 生成 PR 描述的工作流他的 PR 大多由 Claude Code 或 Codex 开，描述准确完整却读起来像 slop，连驱动作品的作者本人都不想读完解法：手写一段人批准的引子说明 PR 做什么值不值得花时间...
-- [Shortcuts and Boundaries: Verifiable RL Misalignment and Contextual Safety Learning](https://arxiv.org/abs/2611.12865) ⭐4 · 2026-11-09 — 可验证的奖励-上下文冲突：少数冲突暴露即可致 97.9% 认证违规，二元惩罚可修复
+- [MCP Apps bring full-screen interactive connectors to Claude](https://x.com/ClaudeDevs/status/2120227980672901180) ⭐4 · 2026-11-10 — MCP Apps 全屏化：SaaS UI 进对话，白名单即开，自建 public preview
+- [Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins](https://www.latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins) ⭐4 · 2026-11-10 — Fable 5.2 复盘：榜上回顶，但任务账单 +31%max effort 反而掉分
+- [Claude full reset: one free reset across all models and limits](https://x.com/ClaudeDevs/status/2120275296637321476) ⭐4 · 2026-11-10 — Claude 全量重置：Pro/Max/Ultra/Team 每人一次全模型全限额，12-10 截止
+- [Claude Code v2.1.322 adds fast mode on Vertex](https://github.com/anthropics/claude-code/releases/tag/v2.1.322) ⭐3 · 2026-11-10 — Claude Code 2.1.322：Vertex 三区域 fast mode，拒绝则回落标准速度
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 505 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 686 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 364 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 模型与实验室 | 510 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 692 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 368 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 220 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 263 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 产品与商业 | 265 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 147 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 244 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 3204
-- 公开展示卡片: 2429
-- 有全文内容: 2304
-- 最近 7 天信号: 153
+- 原始条目: 3221
+- 公开展示卡片: 2446
+- 有全文内容: 2330
+- 最近 7 天信号: 170
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `openai`, `evaluation`, `anthropic`, `claude-code`, `multi-agent`, `agent-security`, `coding-agents`, `security`, `agents`, `agent-memory`, `coding-agent`, `kv-cache`, `open-weights`, `agent-harness`, `agent-safety`, `mcp`
+`arxiv`, `benchmark`, `openai`, `evaluation`, `claude-code`, `anthropic`, `multi-agent`, `agent-security`, `coding-agents`, `security`, `agents`, `agent-memory`, `coding-agent`, `kv-cache`, `open-weights`, `mcp`, `agent-safety`, `agent-harness`
 
 ## 自动化约定
 

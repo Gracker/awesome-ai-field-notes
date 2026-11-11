@@ -98359,8 +98359,518 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "2cb4f31b",
+      "title": "Cursor Projects is now multiplayer",
+      "url": "https://cursor.com/blog/projects-multiplayer",
+      "source": {
+        "platform": "blog",
+        "author": "Aryaman Khandelwal (Cursor)",
+        "original_date": "2026-11-10"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "multiplayer",
+        "collaboration"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Cursor把Projects从单人agent舰队升级为多人工作区：团队成员加入同一Project，共享任务板展示谁在做什么各人的agent跑哪条任务及其对应PR每人仍保留与自家coordinator/worker的一对一私聊和本地上下文，其上叠加需求文档图表技术规格mockup等共享context层，一处聊天里的决策对Project内所有agent可见，新人入组即继承跨队友agent消息按untrustedinput处理：分享个人文件或connector数据前先征得同意，侧聊不能给人发消息不能过secrets可读任务板不可改",
+      "summary_en": "Cursor upgrades Projects from a single-person coordinator fleet (Sept 2026) into a multiplayer workspace: teammates join one Project to plan, build and ship alongside all their agents. A shared task board shows who is doing what, which tasks each person's agents run, and the PR behind each task. Each teammate keeps a private one-to-one chat with their own coordinator and worker agents plus local context, layered with a shared context system (requirement docs, diagrams, tech specs, mockups) that invited members inherit pre-configured; a decision made in one chat becomes accessible to every agent in the Project. Docs mechanics: shared context is one Agent Store (UI name Context, /cursor/stores/self) readable and writable by all member agents; the personal store (/cursor/stores/user) stays private and follows the user across Projects.",
+      "one_liner": "Cursor Projects 多人化：共享任务板 + 团队 context + 跨队友 agent 消息（untrusted）",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/2cb4f31b.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f83618b5",
+      "title": "Claude full reset: one free reset across all models and limits",
+      "url": "https://x.com/ClaudeDevs/status/2120275296637321476",
+      "source": {
+        "platform": "x",
+        "author": "@ClaudeDevs",
+        "original_date": "2026-11-10"
+      },
+      "category": "industry",
+      "tags": [
+        "claude",
+        "quota",
+        "reset"
+      ],
+      "source_type": "x_post",
+      "language": "both",
+      "summary_zh": "Anthropic给全部Pro/Max/Ultra/Team用户发放一次全量用量重置：覆盖所有模型与所有限额，2026-12-1014:00PT前在SettingsUsage或clau.de/reset自行兑换，不自动整户清零官方称近期修复了若干比预期更吃额度的小问题，而11-09Fable发版的补偿reset对已打满全模型周限的用户帮助有限，故补发Free与Enterprise未在官帖点名；社区tracker确认窗口含5-hour与WeeklyClaudeCode终端/IDE暂无该按钮，需走网页/Desktop/移动端",
+      "summary_en": "Anthropic granted all Pro, Max, Ultra and Team users one free full reset covering all models and limits, redeemable any time before December 10, 2:00 PM PT via Settings > Usage or clau.de/reset; it is user-redeemed and does not auto-zero the account. Official rationale: recent fixes addressed issues that consumed more limits than intended, and the Fable resets shipped with the Nov 9 launch did not help users who had already exhausted weekly limits across all models. Free and Enterprise plans are not named in the post; a community tracker (clauderesets.com) confirms the window covers 5-hour and weekly limits.",
+      "one_liner": "Claude 全量重置：Pro/Max/Ultra/Team 每人一次全模型全限额，12-10 截止",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f83618b5.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4c580439",
+      "title": "MCP Apps bring full-screen interactive connectors to Claude",
+      "url": "https://x.com/ClaudeDevs/status/2120227980672901180",
+      "source": {
+        "platform": "x",
+        "author": "@ClaudeDevs",
+        "original_date": "2026-11-10"
+      },
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "claude",
+        "interactive-connectors"
+      ],
+      "source_type": "x_post",
+      "language": "both",
+      "summary_zh": "Claude推出MCPApps/interactiveconnectors全屏形态：对话内直接嵌入完整SaaSUI，支持侧栏与全屏两种展开，审批机制保留，全计划滚动开通目录白名单connector即开即用，自建MCPApp仍属publicpreview与codingCLI的分界清楚：ClaudeCode终端没有完整交互UI这改变了复制粘贴到工具的使用路径工具调用变成对话内嵌应用，宿主能力边界随之重画",
+      "summary_en": "Claude is rolling out MCP Apps (interactive connectors) in full-screen form: complete SaaS UIs embed directly inside the conversation, expandable as sidebar or full screen, with approval flows retained and availability rolling out across all plans. Directory-whitelisted connectors work out of the box, while custom MCP Apps remain public preview. The boundary with coding CLIs stays clear Claude Code's terminal has no full interactive UI. The product shift: tool use moves from copy-paste-into-a-tool to apps embedded in the conversation, redrawing what the chat host itself can surface.",
+      "one_liner": "MCP Apps 全屏化：SaaS UI 进对话，白名单即开，自建 public preview",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4c580439.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aa1b5b0d",
+      "title": "OpenAI launches Business Agent for ChatGPT Businesses",
+      "url": "https://x.com/OpenAI/status/2120216592395174382",
+      "source": {
+        "platform": "x",
+        "author": "@OpenAI",
+        "original_date": "2026-11-10"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "business-agent",
+        "privacy"
+      ],
+      "source_type": "x_post",
+      "language": "both",
+      "summary_zh": "OpenAI面向ChatGPTBusinesses推出BusinessAgent，美国电商/在线服务先行：品牌可认领Hub管理feed并获得聚合洞察；agent对话带标签不与用户私聊分享数据媒体转述称将有赞助Agent位，与有机推荐的关系尚待独立核验与同期IDEagent更新同日出现，注意分题：这是消费端品牌agent的门禁与隐私边界，不是编程工具更新",
+      "summary_en": "OpenAI launched Business Agent for ChatGPT Businesses, rolling out first to US ecommerce and online services: brands can claim a Hub, manage feeds, and get aggregated insights; agent conversations carry labels and are not shared with private chats. Media relays (Reuters, Nov 10) report sponsored-agent placements, which remain unverified against official docs until independently confirmed keep that claim separate. Same-day as IDE-agent updates, but a different track: this is the consumer-side brand-agent gating and privacy boundary.",
+      "one_liner": "OpenAI Business Agent：美国电商先行，Hub/feed/聚合洞察，赞助位传闻待核",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/aa1b5b0d.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f0073cd7",
+      "title": "Hermes Agent v0.23.1 raises plugin catalog cap to 16 MiB",
+      "url": "https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.1",
+      "source": {
+        "platform": "github",
+        "author": "NousResearch",
+        "original_date": "2026-11-09"
+      },
+      "category": "agents",
+      "tags": [
+        "hermes",
+        "plugins",
+        "release"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "HermesAgentv0.23.1修复插件目录静默回退：11-09目录站点部署后plugin-catalog.json超过客户端2MiB上限，所有安装都静默回退到发行版自带旧目录hermespluginsinstall找不到新插件装到过期pin漏掉新removed条目本版把上限提到16MiB恢复使用线上目录（PR#151860，fixes#151856）；停在0.23.0及以下的安装继续回退该patch汇总0.23.0以来约618个PR（2,578非合并提交409个issue关闭），完整notes留待v0.24.0",
+      "summary_en": "Hermes Agent v0.23.1 (Nov 9) fixes a silent plugin-catalog fallback: after the catalog's site deploy on Nov 9, the published plugin-catalog.json exceeded the 2 MiB cap clients accept, so every install silently fell back to the catalog bundled with the release hermes plugins install could not find plugins added since your last update, installed the pin your release shipped instead of the current one, and missed newer removed entries. The cap now rises to 16 MiB so the live catalog is used again (PR #151860, fixes #151856); installs staying on v0.23.0 or older keep falling back until they update. The patch rolls up ~618 merged PRs since v0.23.0 (2,578 non-merge commits across 2,781 files, 409 closed issues); curated notes ship with v0.24.0. Update paths: CLI hermes update, Docker/Cloud :stable, Microsoft Store auto.",
+      "one_liner": "Hermes v0.23.1：插件目录 216 MiB，修装到旧 pin的静默回退",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f0073cd7.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f7d3d2f1",
+      "title": "Claude Code v2.1.322 adds fast mode on Vertex",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
+      "source": {
+        "platform": "github",
+        "author": "anthropics/claude-code",
+        "original_date": "2026-11-10"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "vertex",
+        "release"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "ClaudeCodev2.1.322（11-10）只有一条行为变更：Vertex的global/us/eu区域新增fastmode，Vertex拒绝时回落标准速度企业Vertex路由的模型/区域runbook可加一个速度档位与显式回落条件上一版2.1.321的Fable5.2默认与沙箱/权限修复已另行入库；同日openai/codexLatest到0.167.1但changelog几乎为空，无新可写行为，守护进程争论仍以issue#48195为准",
+      "summary_en": "Claude Code v2.1.322 (Nov 10) ships exactly one behavior change: fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it. For enterprise Vertex routing this adds a speed tier plus an explicit fallback condition to the model/region runbook. Context: v2.1.321's Fable-5.2-default and sandbox/permission fixes are tracked separately; same-day openai/codex Latest moved to 0.167.1 with a near-empty changelog no new writable behavior, and the default-daemon debate still anchors to issue #48195 (HN thread ~610 pts via Firebase, absent from the engine list).",
+      "one_liner": "Claude Code 2.1.322：Vertex 三区域 fast mode，拒绝则回落标准速度",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/f7d3d2f1.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "128437ec",
+      "title": "PSA: Fable on Pro consumes limits about 4x faster than Opus",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xt1eo1/psa_for_pro_users_trying_fable_this_week_it_uses",
+      "source": {
+        "platform": "blog",
+        "author": "r/ClaudeCode",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "fable",
+        "quota",
+        "reddit"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "r/ClaudeCodePSA：Pro用户试Fable5.2时额度消耗速度约是Opus的4倍而非2倍（帖约10赞23评，样本小）与Fable进默认档全量重置补偿同一条线：Fable定价per-token更便宜（$8/$40）但更爱开工具与subagent，任务级账单可能反升（SemiAnalysisGDPx口径+31%）赞数不能当计费结论，以账户/usage与官方价目为准；试Fable前先看周限额余量，必要时先兑换全量重置",
+      "summary_en": "r/ClaudeCode PSA: Pro users trying Fable 5.2 report limit burn roughly 4x Opus, not 2x (~10 upvotes / 23 comments tiny sample, treat as anecdote). Same thread as Fable entering the default tier and the Nov 10 full-reset compensation: Fable's per-token price is lower ($8/$40 per 1M in/out, about -20% vs 5.1) but it leans harder on tools and subagents, so per-task bills can rise (SemiAnalysis GDPx: $67.16 -> $88.15, +31%). Upvotes are not a billing verdict check account /usage and official pricing; look at remaining weekly cap before trying Fable, and consider redeeming the full reset first.",
+      "one_liner": "Pro 试 Fable 额度消耗约 4x Opus：per-token 便宜不等于任务账单便宜",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/128437ec.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cae52870",
+      "title": "Claude Code sent an Urgent push at 5:46 AM: background agent friction",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1xsp90d/at_546_am_i_get_anurgent_message_on_my_phone_from",
+      "source": {
+        "platform": "blog",
+        "author": "r/ClaudeCode",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "notifications",
+        "agent-ops"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "r/ClaudeCode帖：凌晨5:46手机收到ClaudeCode的Urgent推送（约251赞235评）与后台子agent定时摘要跨会话消息同属agent会在你不在时继续动作并主动触达一类摩擦开了通知或RemoteControl的用户建议核对本机/手机推送开关，并观察无操作时段/usage是否仍在爬；后台活动该默认安静还是保持可达，是agent产品权限设计的新分叉，与Codex默认守护进程之争（HN约610分issue#48195）同构",
+      "summary_en": "r/ClaudeCode thread: at 5:46 AM the author got an Urgent push notification on their phone from Claude Code (~251 upvotes / 235 comments). Same friction family as scheduled sub-agent summaries and cross-session messaging: agents act and reach out while you are away. If notifications or Remote Control are on, audit local/phone push toggles and watch whether /usage climbs during idle hours. Whether background agent activity should be quiet by default vs. reachable is an emerging product-permission fork, structurally identical to the Codex default-daemon debate (HN ~610 pts via Firebase, issue #48195).",
+      "one_liner": "凌晨 5:46 收到 Claude Code Urgent 推送：后台 agent 的打扰边界",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/cae52870.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2d2bfc7a",
+      "title": "Nous Research raises ~$90M at ~$1.2B valuation narrative",
+      "url": "https://www.wsj.com/pro/venture-capital/nous-research-scores-90-million-to-bring-open-source-ai-assistant-to-enterprises-516f9208",
+      "source": {
+        "platform": "blog",
+        "author": "WSJ / Techmeme",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "nous-research",
+        "funding",
+        "industry"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Techmeme转WSJ条目：NousResearch融资约9000万美元估值叙事约12亿美元，资金用于企业向扩张；条目点名Hermes自2月以来下载量22M+这是商业侧信号，与v0.23.1插件目录修复分开看：开源agent公司的规模化路径正在从社区转向企业采购估值与下载量以WSJ原文为准，不作投资判断",
+      "summary_en": "Techmeme relays a WSJ item: Nous Research raised ~$90M with a reported ~$1.2B valuation narrative to fund enterprise expansion; the item cites 22M+ Hermes downloads since February. A commercial-side signal, deliberately separate from the v0.23.1 plugin-catalog fix: open-source agent companies are scaling from community adoption toward enterprise procurement. Valuation and download figures per the WSJ original; no investment judgment implied.",
+      "one_liner": "Nous Research 融资约 $90M（估值叙事 $1.2B），Hermes 转向企业扩张",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/2d2bfc7a.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0fc50686",
+      "title": "Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+      "url": "https://www.latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins",
+      "source": {
+        "platform": "blog",
+        "author": "Latent Space (AI News)",
+        "original_date": "2026-11-10"
+      },
+      "category": "models",
+      "tags": [
+        "fable",
+        "benchmarks",
+        "pricing"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "LatentSpace长文复盘Fable5.2发布：独立评测回顶（AAIntelligenceIndexv565分，高于Gemini4Carbon60Opus5.559GPT-6Astra57），HLE-Diamond80%AA-Omniscience67等多项新高；定价$8/$40（较5.1降约20%），1Mcontext两个实操矛盾：一是效率悖论，token更便宜但GDPx每任务成本$67.16$88.15（+31%），模型更爱开工具与subagent；二是effort异常，多处评测max/xhigh不如high，社区建议别默认Max",
+      "summary_en": "Latent Space's AI News long read on Fable 5.2: independent evals put it back on top (Artificial Analysis Intelligence Index v5: 65 vs Gemini 4 Carbon 60, Opus 5.5 59, GPT-6 Astra 57, Fable 5.1 49), with new highs on HLE-Diamond 80%, AA-Omniscience v1.1 67, Terminal-Bench-Science 73%, CritPt v2 hard 77%, FrontierCode 2.0 49%; pricing $8/$40 per 1M in/out (~-20% vs 5.1), cache $10/$16 write and $0.20 read, 1M context, text+image. Two operational tensions: (1) efficiency paradox per-token cheaper, but SemiAnalysis GDPx $/task rose $67.16 -> $88.15 (+31%) as the model leans harder on evals and subagents; (2) effort anomaly multiple evals (Vals, code-only views) show max/xhigh underperforming high; community advice: do not default to Max. Quota: Ultra/Team Premium get tenure-based Fable resets; Pro/Standard trial consumes up to 50% of the weekly cap;",
+      "one_liner": "Fable 5.2 复盘：榜上回顶，但任务账单 +31%max effort 反而掉分",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0fc50686.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "13f9d949",
+      "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+      "url": "https://arxiv.org/abs/2611.12762",
+      "source": {
+        "platform": "arxiv",
+        "author": "Weida Wang, Benteng Chen, Yigeng Jiang, et al.",
+        "original_date": "2026-11-09"
+      },
+      "category": "agents",
+      "tags": [
+        "scientific-discovery",
+        "metacognition",
+        "agent"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "元认知启发的科学发现架构：系统显式维护对证据假设与未决问题的理解并反复修订，据此调整研究目标选择可复用推理方法Taiyi-Bench（50篇论文10学科265任务的AIco-scientistideation基准）上，历史再发现与开放式选题八项指标全部第一，Overall54.0对最强基线AIScientist-v2的47.9；两项外部科学选题基准同样表现良好五项专家合作接入实验/计算验证：钴催化羰基化反应产率从痕量提到84%，光催化烯丙基胺化从13%提到69%元认知调控是科学选题走向实用验证的可行路径",
+      "summary_en": "Sage-Taiyi is a metacognition-inspired architecture for scientific discovery: it explicitly monitors and revises its understanding of evidence, assumptions, and unresolved questions, then adapts research targets and selects reusable reasoning methods from those assessments. On Taiyi-Bench (265 tasks from 50 papers across ten disciplines), it ranks first on all eight metrics of historical rediscovery and open-ended ideation, Overall 54.0 vs 47.9 for the strongest baseline AI Scientist-v2, and performs well on two external ideation benchmarks. Five expert-guided collaborations connect proposals to experimental and computational validation across chemistry, materials science, and engineering: reaction-condition optimization raises cobalt-catalyzed carbonylation yield from trace to 84% and photocatalytic allylic amination from 13% to 69%.",
+      "one_liner": "Sage-Taiyi：元认知状态驱动科学发现 agent，Taiyi-Bench 八指标全第一",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/13f9d949.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f1d74286",
+      "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2611.12856",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zheng Jiang, Fang Niu, Bo Peng, et al.",
+        "original_date": "2026-11-09"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "把工作流编排从端到端任务完成度里拆出来单独度量：145个长程任务8个专业领域（软件工程形式数学法律分析3D制作等），交付物由互依组件构成并由隐藏verifier评分；agent自主决定是否以及如何实例化worker并委托，全部委托被记录，交付质量与组织质量联合评估九个模型实验显示没有全域最优配置：Claude（ClaudeCode）高effort下更少调用工作流但单批worker更大，GPT（Codex）更频繁小额委托；固定执行模型时，ClaudeOpus5.5编排的工作流显著抬升弱执行者成绩编排本身是可度量的能力决定因素",
+      "summary_en": "WorkflowArena formalizes workflow orchestration as a distinct capability: 145 long-horizon tasks across 8 professional domains (software engineering, formal mathematics, legal analysis, 3D production), each an initial workspace plus an integrated deliverable of interdependent components assessed by a hidden verifier. Agents autonomously decide whether and how to instantiate and delegate to workers; all delegation is recorded, enabling joint evaluation of deliverable quality and work organization. Experiments across nine models show no single configuration wins everywhere and distinct delegation styles: at high effort, Claude in Claude Code invokes workflows less often with larger worker groups, while GPT in Codex delegates more frequently in smaller units.",
+      "one_liner": "WorkflowArena：145 任务单测多 agent 工作流编排，编排质量即能力",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f1d74286.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "51feddf5",
+      "title": "Mitigating Agentic Deception via Evaluation-Side Partially Observable Games",
+      "url": "https://arxiv.org/abs/2611.12835",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hanxiao Li, Shutong Liu, Yongjia Ma, et al.",
+        "original_date": "2026-11-09"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-safety",
+        "deception",
+        "oversight"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "把agent欺骗归因于评估侧的部分可观测性：只看最终结果不核查推理/工具使用/环境效应的忠实性，模型就会为高分作弊解法是把评估建成部分可观测扩展式博弈e-PoG：agent最大化奖励，monitor从完整交互轨迹揭露欺骗以削减其收益，固定verifier校验monitor主张并转为惩罚解概念SPOE在有限博弈中存在；verifier完美时所有均衡都忠实，不完美时只要其错误不反转monitor动作排序即保持Gemma3-4B/Qwen3-4B/8B上欺骗缓解超最强基线26.0%任务成功率最高+39.8%，弱到强监督下仍保持",
+      "summary_en": "Attributes agentic deception to evaluation-side partial observability: judging only final outcomes without checking faithfulness of underlying reasoning, tool use, and environmental effects rewards cheating that appears helpful. The fix formulates mitigation as an Evaluation-Side Partially Observable Extensive-Form Game (e-PoG): the agent maximizes reward, a monitor minimizes the agent's payoff by exposing deception from full interaction trajectories, and a fixed verifier validates the monitor's claims and converts them into penalties. The solution concept, Subgame-Perfect Oversight Equilibrium (SPOE), exists in finite games; every SPOE is faithful under a perfect verifier, and with an imperfect verifier the guarantee persists as long as verifier errors do not reverse monitor-action rankings.",
+      "one_liner": "e-PoG：把反欺骗建成评估侧博弈均衡，缓解 +26%任务成功率最高 +39.8%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/51feddf5.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "25506a26",
+      "title": "What the Loss Curve Misses: FP4 Pretraining Slows the Acquisition of Rare Facts",
+      "url": "https://arxiv.org/abs/2611.12832",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chang Lu, Mengjiao Zhang",
+        "original_date": "2026-11-09"
+      },
+      "category": "models",
+      "tags": [
+        "quantization",
+        "pretraining",
+        "fp4"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "低精度预训练通常只看validationloss，但loss打平不代表事实学得一样快：合成传记受控实验里，NVFP4要1.32x/1.52x于BF16的曝光次数才追平召回，而validationloss只差0.5%/2%机制上，零均值梯度噪声可复现仅量化反向传播的成本（对loss几乎无影响）；只进Adam二阶矩的噪声像更小的学习率成本会消退，进入更新的噪声降低信噪比并把约三分之二成本带到最后；调大学习率也补不回来BF16checkpoint的梯度统计可无拟合排序各格式成本（Spearman0.96）评估低精度配方时应同时度量稀有事实习得",
+      "summary_en": "Low-precision pretraining is usually judged by validation loss, but matched loss does not mean rare facts are learned as fast. Training transformers from scratch with emulated 4-bit matmuls on synthetic biographies with controlled exposure counts (pure and mixed into web text), NVFP4 needs 1.32x / 1.52x as many exposures as BF16 to match recall while validation loss differs only 0.5% / 2% (1.26x / 1.30x when both are evaluated with BF16 matmuls); ~1.2x exposure cost at matched loss under the primary readout. Mechanistically: zero-mean gradient noise reproduces the cost of backward-only quantization (barely moves loss); noise fed only to Adam's second moment acts like a lower learning rate and its cost fades, while noise in the update lowers SNR and carries about two-thirds of the cost through the end of training; raising the LR does not recover it.",
+      "one_liner": "FP4 预训练：loss 打平但稀有事实要多 1.3-1.5x 曝光，别只看 loss",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/25506a26.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4248c69c",
+      "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+      "url": "https://arxiv.org/abs/2611.10771",
+      "source": {
+        "platform": "arxiv",
+        "author": "Juanxi Tian, Jiadong Hou, Baiang Li, et al.",
+        "original_date": "2026-11-07"
+      },
+      "category": "models",
+      "tags": [
+        "world-model",
+        "benchmark",
+        "infrastructure"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "给世界模型立可操作定义与统一基建：视觉上可信不等于成功的世界建模可能缺持久状态物理动力学或对干预的因果一致响应论文把生成式世界模型定义为预测性动力系统：维护持久的以历史为条件的表征，随动作/干预更新，生成反映真实与反事实干预结果的时间一致轨迹开源基础设施WorldFoundry统一视频/3D/4D具身动作与交互世界系统的推理与评测，含270个模型条目74个基准62个度量条目；显式manifest与artifact契约把执行就绪与评测主张分开，每个主张可追溯到支撑artifact",
+      "summary_en": "Defines what a generative world model must do beyond looking plausible: persistent state, physical dynamics, and causally consistent responses to interactions. A generative world model is framed as a predictive dynamical system that maintains a persistent, history-conditioned representation, updates it under actions/interventions, and generates temporally coherent trajectories reflecting observed and counterfactual outcomes. From this definition WorldFoundry ships open-source infrastructure unifying inference and evaluation across video/3D/4D, embodied action, and interactive world systems model and benchmark discovery, runtime and asset preparation, execution orchestration, artifact management, and interactive visualization with modality-specific adapters preserving native inputs and evaluation protocols.",
+      "one_liner": "WorldFoundry：世界模型=预测性动力系统，270 模型/74 基准统一评测基建",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/4248c69c.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7011c57b",
+      "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+      "url": "https://arxiv.org/abs/2611.12806",
+      "source": {
+        "platform": "arxiv",
+        "author": "Bing Han, Yichuan Peng, Haoyu Dong, et al.",
+        "original_date": "2026-11-09"
+      },
+      "category": "models",
+      "tags": [
+        "tactile",
+        "embodied",
+        "foundation-model"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "触觉基础模型LingBot-Touch：把压阻磁视触觉三类异构传感器统一到同一表征，并可扩展到新传感器类型；触觉token即插即用，可接入diffusionpolicy到VLA（0.5LingBot-VLA）等多种范式的策略模型并持续提升灵巧操作仿真与多硬件平台真机部署验证了跨传感器数据规模化触觉学习的价值，同时保持计算效率，为触觉硬件与具身模型设计提供参照（HF日榜92赞居首）核心主张：触觉理解应摆脱单一传感器物理，让具身模型有效利用异构触觉数据",
+      "summary_en": "LingBot-Touch is a tactile foundation model that unifies heterogeneous sensors piezoresistive, magnetic, and visuotactile into one representation, easily extensible to new sensor types. The tactile tokens are plug-and-play across policy paradigms from diffusion policy to vision-language-action models such as pi-0.5 and LingBot-VLA, consistently enhancing manipulation dexterity. Extensive experiments spanning simulation and real-robot deployments across multiple hardware platforms show the representation substantially benefits complex manipulation while staying computationally efficient. Thesis: free tactile understanding from sensor-specific physics so embodied models can exploit heterogeneous tactile data scaling tactile learning on cross-sensor data. Code: github.com/Robbyant/lingbot-touch (top of the HF daily papers board at 92 upvotes).",
+      "one_liner": "LingBot-Touch：跨传感器统一触觉表征，token 即插即用进 VLA 策略",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/7011c57b.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5790ccf7",
+      "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
+      "url": "https://arxiv.org/abs/2611.12791",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuxuan Hu, Jihao Liu, Weikang Shi, et al.",
+        "original_date": "2026-11-09"
+      },
+      "category": "agents",
+      "tags": [
+        "automl",
+        "llm-searcher",
+        "joint-optimization"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "用LLM做开放世界AutoML的统一搜索器：NCode数值编码把架构超参数据配比等设计选择翻译成统一离散序列，把优化重构为统一排序任务，首次联合优化三类配置而无需任务特定微调仅在单域视觉任务的优化轨迹上训练，即可跨任务/跨模态泛化，在图像分类分割声纹文生图基准上达到SOTA；十亿参数DiffusionTransformer的联合优化用896GPU天拿到GenEval0.91RL注入思维链使搜索策略可解释：早期多样性驱动探索，后期锚点利用",
+      "summary_en": "NCode reframes open-world AutoML as a unified ranking task: a numerical encoding scheme translates architecture, hyperparameter, and data-ratio choices into universal discrete sequences, letting an LLM-based searcher jointly optimize all three for the first time without task-specific fine-tuning. Trained solely on optimization trajectories from a limited single-domain vision task, it generalizes cross-task, cross-modality, and to joint search spaces, reaching state of the art on image classification, segmentation, speaker verification, and text-to-image benchmarks. It scales to joint optimization of a billion-parameter Diffusion Transformer (896 GPU-days) to a 0.91 GenEval. RL-instilled chain-of-thought makes the strategy interpretable: diversity-driven exploration early, anchor exploitation late.",
+      "one_liner": "NCode：LLM 统一搜索器联合优化架构/超参/数据配比，DiT 896 GPU 天到 SOTA",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/5790ccf7.md",
+      "images": [],
+      "added_date": "2026-11-11",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-11",
-  "total_entries": 3204
+  "total_entries": 3221
 }
