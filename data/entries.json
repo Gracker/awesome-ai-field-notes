@@ -98869,8 +98869,325 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "d8eb7a8e",
+      "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+      "url": "https://arxiv.org/abs/2611.14492",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kaiyuan Hou, Yang Ping Kuo, Indranil Bhattacharya et al.",
+        "original_date": "2026-11-10"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "workflow",
+        "sop-automation",
+        "agent-distillation",
+        "cost"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "ReTrace 研究如何把 LLM agent 执行 SOP 的过程固化成可复用工作流：从 agent 每步写下的推理说明中提取步骤触发条件，跨多次运行合并成规则文档，再编译为由代码选择下一步的可执行工作流，免去每步调用 LLM生产平台 79 个流程上完成率 93.8%（agent 为 96.8%），单任务成本降 24%；tau2-Bench 成功率 75.8%（agent 80.6%），耗时从 170 秒降到 1.3 秒；SOP-Bench 上经失败修复轮可达 87.8%0.40 秒/任务结论：对确定性流程，用代码化工作流替代逐步 LLM 决策能大幅压时延与成本",
+      "summary_en": "LLM agents can follow natural-language SOPs but call an LLM at every step, adding latency and cost at scale. ReTrace turns an SOP plus a few logged agent runs into a reusable workflow where code, not an LLM, selects the next step: it extracts the condition behind each step from the agent's written reasoning, merges conditions across runs into a compact rule document, and compiles that document into executable workflows for different orchestration platforms. On 79 procedures from a production platform, ReTrace reaches 93.8% completion (agent: 96.8%) at 24% lower cost per task; on tau2-Bench 75.8% task success (agent: 80.6%) running in 1.3s instead of 170s; on SOP-Bench, repair rounds lift it to 87.8% at 0.40s per task vs 85.5% at 46.6s for the agent.",
+      "one_liner": "ReTrace 研究如何把 LLM agent 执行 SOP 的过程固化成可复用工作流：从 agent 每步写下的推理说明中提取步骤触发条件，跨多次运行合并成规则文档，再编译为由代码选择下一步的可执行工作流，免去每步调用 LLM生产平台 79 个流程上完成率 93.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d8eb7a8e.md",
+      "images": [],
+      "added_date": "2026-11-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7c93d9f0",
+      "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
+      "url": "https://arxiv.org/abs/2611.14493",
+      "source": {
+        "platform": "arxiv",
+        "author": "Howard Zhang, Chuck Arvin, Logan Brown et al.",
+        "original_date": "2026-11-10"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "evaluation",
+        "llm-judging",
+        "red-teaming",
+        "enterprise"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "企业环境的三阶段对比研究：在两个 LLM 数据分析 agent 的冻结执行轨迹上，比较轨迹级 LLM 评审纯文本 LLM 评审加红队确定性启发式三种评测范式97% 的评测配置达到稳定性阈值；72 个真值用例上轨迹级评审 F1=0.90 最佳，纯文本评审召回相当但误报多 5 倍；未知风险发现阶段挖出 24 个新失败，功能测试与安全红队零重叠作者建议功能评估用轨迹级评测安全验证用对抗红队的双框架策略，并强调评测质量取决于 harness 能看到的信息",
+      "summary_en": "A three-phase comparative study of three evaluation paradigms - trace-based LLM judging, text-only LLM judging with red-teaming, and deterministic heuristics - applied to two enterprise analytics agents using frozen execution traces. Phase 1: 97% of evaluation configurations meet the stability threshold. Phase 2 on 72 ground-truth cases: trace-based judging achieves the best precision-recall balance (F1=0.90); text-only judging matches on recall but generates 5x more false alarms. Phase 3: 24 novel failures discovered, with zero overlap between functional testing and security red-teaming. Takeaways: evaluation quality depends on the information the harness sees, and functional and security evaluation are complementary; the authors recommend trace-based evaluation for functional assessment plus adversarial red-teaming for security validation.",
+      "one_liner": "企业环境的三阶段对比研究：在两个 LLM 数据分析 agent 的冻结执行轨迹上，比较轨迹级 LLM 评审纯文本 LLM 评审加红队确定性启发式三种评测范式97% 的评测配置达到稳定性阈值；72 个真值用例上轨迹级评审 F1=0.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7c93d9f0.md",
+      "images": [],
+      "added_date": "2026-11-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6d4db3be",
+      "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+      "url": "https://arxiv.org/abs/2611.14515",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zijian Zhang, Rizhen Hu, Jiangweizhi Peng et al.",
+        "original_date": "2026-11-10"
+      },
+      "category": "models",
+      "tags": [
+        "rlvr",
+        "scaffolding",
+        "llm-training",
+        "teacher-student"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "AutoScaffold 把 RLVR 训练中浪费掉的过程信息变成自适应脚手架：冻结的 teacher 周期性检查学生的训练经历，诊断瓶颈后生成两类脚手架跨任务策略与针对个别难题的提示，并随学生进步调整支持量，评测时全部移除同一框架零改动跑 ALFWorld搜索式 QA数学推理GPU kernel 生成四个域，去脚手架评测均超过对应 RL 基线：ALFWorld +7.2QA 精确匹配 +4.0GPU kernel 超过 PyTorch 参考实现最多 +5.0，数学上用约三分之一学生训练步数超过 QuestA分析显示 teacher 会随学生成长把流程教学转向针对性修补",
+      "summary_en": "RL with verifiable rewards (RLVR) reduces each attempt to a single outcome number, and training-time scaffolds - strategies or hints injected into prompts - are still designed by humans per domain. AutoScaffold is an AI-for-AI framework where a frozen teacher periodically examines the student's training experience, diagnoses bottlenecks, and designs two scaffold forms - cross-task strategies and hints for individual hard tasks - adapting support as the student improves; scaffolds come off at evaluation. Applied unchanged to ALFWorld, search-based QA, mathematical reasoning, and GPU kernel generation beats corresponding RL baselines in all four domains evaluated scaffold-free: +7.2 ALFWorld success, +4.0 QA exact match, up to +5.0 on GPU kernels faster than the PyTorch reference, and math accuracy above QuestA with roughly one-third the student training steps.",
+      "one_liner": "AutoScaffold 把 RLVR 训练中浪费掉的过程信息变成自适应脚手架：冻结的 teacher 周期性检查学生的训练经历，诊断瓶颈后生成两类脚手架跨任务策略与针对个别难题的提示，并随学生进步调整支持量...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6d4db3be.md",
+      "images": [],
+      "added_date": "2026-11-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f9ca76a2",
+      "title": "REAL Loss: Optimizing Real Expected Acceptance Length for Speculative Decoding",
+      "url": "https://arxiv.org/abs/2611.14399",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yu Tian",
+        "original_date": "2026-11-10"
+      },
+      "category": "infra",
+      "tags": [
+        "speculative-decoding",
+        "inference",
+        "training-loss",
+        "serving"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "投机解码的加速由期望接受长度（EAL）决定，但交叉熵KLTV 目标只做分布匹配或单步重叠，近期块级目标也仍是 EAL 的代理：有的在 target 分布的续写上平均接受率，而非被接受 token 实际选中的验证分支，产生可能反转梯度的协方差间隙论文推导出 REAL真正的 EAL 训练损失，用路径权重做无偏估计Rao-Blackwell 化降方差在 Qwen3.6-35B-A3B 加 Domino drafter 的受控对比中，REAL 在 9 个任务子集5 个种子上超过 WTVVSDDBLast 与静态 LK 基线；只需改训练损失，不动 drafter 结构与推理流程",
+      "summary_en": "Speculative decoding speedup is governed by the expected acceptance length (EAL), but standard objectives (cross-entropy, KL, total variation) only match distributions or single-step overlap, and recent block-level objectives are still surrogates: some average later acceptance over target-distributed continuations rather than the verification branches selected by accepted tokens, a covariance gap that can reverse the gradient direction. The paper analyzes this gap and derives REAL, a true EAL training loss using path weights for unbiased estimation and Rao-Blackwellization for variance reduction. With a Qwen3.6-35B-A3B target and Domino drafter, REAL outperforms WTV, VSD, DBLast and the static LK baseline on probabilistic-serving acceptance length across 9 task subsets and 5 seeds - a training-loss-only change (no drafter or inference modifications).",
+      "one_liner": "投机解码的加速由期望接受长度（EAL）决定，但交叉熵KLTV 目标只做分布匹配或单步重叠，近期块级目标也仍是 EAL 的代理：有的在 target 分布的续写上平均接受率，而非被接受 token 实际选中的验证分支...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f9ca76a2.md",
+      "images": [],
+      "added_date": "2026-11-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "63d1654f",
+      "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
+      "url": "https://arxiv.org/abs/2611.14413",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mohammed Nayeem Khan, Logesh L, Aliyas Ahmad Misri",
+        "original_date": "2026-11-10"
+      },
+      "category": "models",
+      "tags": [
+        "quantization",
+        "local-models",
+        "option-order",
+        "qwen3",
+        "edge"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "本地小模型的固定预算该花在更低 bit 权重还是答案选项顺序平均上？在 Qwen3-0.6B/1.7B 上模拟 round-to-nearest 量化（8/6/4/3 bit 对 fp16），从 A-D 字母 logits 读 ARC-Easy/ChallengeMMLUHellaSwag 答案：6-bit 无精度损失；4-bit 时答案槽位偏斜从 0.15 升到 0.53（0.6B）0.07 升到 0.12（1.7B）4-bit 下平均四个循环顺序可找回 +12.6 分（0.6B）以权重字节读取乘以次数统一计价后结论很简单：用 6-bit 权重，剩余预算花在最多四个顺序上",
+      "summary_en": "For small local language models, is a fixed budget better spent on fewer-bit weights or on averaging reordered answer options? On Qwen3-0.6B/1.7B with simulated round-to-nearest quantization (8/6/4/3 bits vs fp16), from A-D letter logits on ARC-Easy, ARC-Challenge, MMLU and HellaSwag: 6-bit weights lose no accuracy against fp16; at 4 bits, answer-slot skew rises from 0.15 to 0.53 (0.6B) and from 0.07 to 0.12 (1.7B), while flip rates stay below an accuracy-matched independent-error baseline. Averaging four cyclic orders recovers +12.6 points at 4 bits on the 0.6B model. Pricing bits and passes in one unit - weight bytes read times passes - extra orders beat extra bits only when weights carry 6 or more bits, yielding a simple rule: use 6-bit weights and spend the remaining budget on up to four orders, one pass each.",
+      "one_liner": "本地小模型的固定预算该花在更低 bit 权重还是答案选项顺序平均上？",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/63d1654f.md",
+      "images": [],
+      "added_date": "2026-11-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "baab05ce",
+      "title": "Continual-ARC: Measuring Skill Acquisition over a Working Lifetime",
+      "url": "https://arxiv.org/abs/2611.14505",
+      "source": {
+        "platform": "arxiv",
+        "author": "Daniel Lenton",
+        "original_date": "2026-11-10"
+      },
+      "category": "agents",
+      "tags": [
+        "continual-learning",
+        "agent-harness",
+        "arc-agi",
+        "benchmark",
+        "memory"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Continual-ARC 用三个 ARC-AGI 版本构成终身任务流，让记忆型（agent harness）与权重型学习在同一尺度比较：旧任务间隔后带新实例回归，学习者可付费购买示例提交答案，按反馈预算消耗计分；流结束后冻结测试旧任务新实例（记忆）与未见任务（泛化）在 Qwen3.5-9B 与 GLM-5.3 Flash 上的实验显示：没有显式专家指导时 harness 持久化几乎不改善记忆；多数 harness 方法不如简单缓存示例的下限；没有任何 harness 方法在未见任务上获益，而权重学习有显著增益指向未来教模型驱动 harness 的权重型持续学习",
+      "summary_en": "Continual-learning benchmarks assume one domain, one-shot instances, and one learner family, so memory-based agent harnesses and weight-based learners are rarely compared on the same scale. Continual-ARC is a lifelong stream built from the three ARC-AGI editions: tasks return after dormant gaps while new tasks keep arriving; learners may pay for demonstrations or submit answers with paid retries, each scored by feedback budget consumed. After the stream, learners are frozen and tested on fresh instances of seen tasks (memorization) and on unseen tasks (generalization). Experiments with frozen-weight harnesses on Qwen3.5-9B and GLM-5.3 Flash: persistence rarely improves memorization without expert guidance, most harness methods learn less than a simple demonstration-caching floor, and none gains on unseen tasks while weight-based learning shows substantial gains.",
+      "one_liner": "Continual-ARC 用三个 ARC-AGI 版本构成终身任务流，让记忆型（agent harness）与权重型学习在同一尺度比较：旧任务间隔后带新实例回归，学习者可付费购买示例提交答案，按反馈预算消耗计分.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/baab05ce.md",
+      "images": [],
+      "added_date": "2026-11-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "872cf8e0",
+      "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+      "url": "https://arxiv.org/abs/2611.14419",
+      "source": {
+        "platform": "arxiv",
+        "author": "Souhaila Djaffal, Amna Jamal, Gagana Madhugiri Devaraja et al.",
+        "original_date": "2026-11-10"
+      },
+      "category": "models",
+      "tags": [
+        "world-models",
+        "neuro-symbolic",
+        "llm-evaluation",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "能否让 LLM 从自然语言场景生成可执行的形式化世界模型（部分可观测随机游戏）？44 个场景基准5 个 LLM410 个首次生成结果显示：机械有效性远不等于忠实表征参考对齐的游戏赛道中 134/135 通过严格机械审计，但置换不变结构 F1 均值仅 0.366，仅 28/134 与人工参考完全一致；文化赛道中显式给出国家名会改变多数 LLM 的结构表征，而自动语义分数变化很小结论：可执行是 LLM 生成世界模型的必要而非充分标准，下游神经符号推理与规划依赖的结构可能大相径庭",
+      "summary_en": "Can five LLMs generate formal world models - partially observable stochastic games - from open-ended natural language, and does mechanical validity imply faithful representation. A 44-scenario benchmark (game, situational, cultural) evaluates generations on mechanical validity, reference-relative structural agreement, and semantic criteria, across 410 first-pass generations. In the reference-backed game track, 134/135 generated models pass a strict mechanical audit, yet mean permutation-invariant structural F1 is only 0.366 and just 28/134 exactly match the authored reference; in the cultural track, naming the country changes the structure for most LLMs while semantic scores move little. Executability is necessary but insufficient - mechanically valid world models can still differ substantially in the structure downstream reasoning and planning rely on.",
+      "one_liner": "能否让 LLM 从自然语言场景生成可执行的形式化世界模型（部分可观测随机游戏）？",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/872cf8e0.md",
+      "images": [],
+      "added_date": "2026-11-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cce71481",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "source": {
+        "platform": "google",
+        "author": "Min Choi, Felix Yu (Google DeepMind)",
+        "original_date": "2026-11-11"
+      },
+      "category": "models",
+      "tags": [
+        "gemini",
+        "api",
+        "classification",
+        "multimodal",
+        "google"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google 推出 Gemini Decisions API，由新模型 gemini-decision-1 驱动，面向封闭集决策原语：工具选择策略检查模型路由上下文分级单次多模态输入（文本/图像/音频/视频/PDF，最高 256K token）最多带 1000 个独立的是非选项或量规评分问题，模型不逐 token 生成答案文本，而是一次性给候选选项打分并输出置信度，定位为查询路由内容分级合规检查的低成本方案，已在 Google AI Studio 开放，提供 Python/JavaScript/REST 文档平台层正在把决策从生成任务里拆出来做成专门端点",
+      "summary_en": "Google launched the Gemini Decisions API, a new endpoint for fast, closed-set decisions powered by the Gemini Decision 1 model (gemini-decision-1), available in Google AI Studio. Purpose-built primitives target bounded choices such as tool selection, policy checks, model routing, and context grading: one multimodal input across text, images, audio, video, and PDFs (up to 256K tokens) plus up to 1,000 independent yes/no, choice, or rubric-scoring questions answered in a single pass. Instead of generating answer text token by token, the model scores candidate options and computes confidence scores, positioned as a cost-effective way to route queries, grade content, or check policy rules. Python, JavaScript, and REST guides are available.",
+      "one_liner": "Google 推出 Gemini Decisions API，由新模型 gemini-decision-1 驱动，面向封闭集决策原语：工具选择策略检查模型路由上下文分级单次多模态输入（文本/图像/音频/视频/PDF...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/cce71481.md",
+      "images": [],
+      "added_date": "2026-11-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7a69c1b8",
+      "title": "Faster Retrieval for Better, More Efficient RAG",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "source": {
+        "platform": "blog",
+        "author": "Apple Machine Learning Research",
+        "original_date": "2026-11-05"
+      },
+      "category": "infra",
+      "tags": [
+        "rag",
+        "mips",
+        "retrieval",
+        "icnn",
+        "inference"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Apple 介绍其 ICML 2026 论文：MIPS（RAG 检索核心）的传统聚类路由按质心几何近似，隐含查询分布与键分布相似的假设，而 RAG 里短问题和长文档差异巨大论文把查询到最大内积的映射识别为键集合的支撑函数它是凸函数（可用输入凸神经网络 ICNN 逼近），且其在查询处的梯度恰好返回最佳匹配键做法是按固定键库离线一次性训练小型 ICNN 回归支撑函数，把开销前置摊销，换取推理期更快更准的检索对查询分布稳定的 RAG 服务，利用查询分布先验是明确的优化方向",
+      "summary_en": "Maximum inner product search (MIPS) underpins recommendation, search and RAG, but clustering-based approximations route queries by centroid geometry and assume queries look like keys - problematic for RAG, where short user questions differ sharply from long curated key documents, and for production systems with a stable query distribution that generic query-agnostic methods ignore. Apple's ICML 2026 paper Amortizing Maximum Inner Product Search with Learned Support Functions exploits the fact that the query-to-best-inner-product map is the support function of the key set: it is convex, hence approximable by input-convex neural networks, and its gradient at a query returns the best-matching key. Small ICNNs trained offline, once per fixed database, mimic the support function, amortizing an upfront cost into faster, more accurate retrieval at inference.",
+      "one_liner": "Apple 介绍其 ICML 2026 论文：MIPS（RAG 检索核心）的传统聚类路由按质心几何近似，隐含查询分布与键分布相似的假设，而 RAG 里短问题和长文档差异巨大论文把查询到最大内积的映射识别为键集合的支撑函数它是凸函数（可用输入凸神经网络 ICNN 逼近）.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7a69c1b8.md",
+      "images": [],
+      "added_date": "2026-11-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "645f1651",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+      "source": {
+        "platform": "news",
+        "author": "CBS News",
+        "original_date": "2026-11-11"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-agents",
+        "policy",
+        "booking",
+        "airlines",
+        "security"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "美联航宣布禁止第三方个人 AI agent 代旅客订票：共享账户凭证（含支付信息）会暴露敏感数据可能造成误购改账户或误用里程，且 agent 代办值机等操作可能违反联邦规定（如行李需旅客本人当面确认无违禁品）美联航在自有数字平台并经旅行社与聚合渠道限制未授权 AI agent，但票价仍可通过 KayakHopperGoogle Flights 搜索预订分析师认为此举意在保住订票入口并规避 AI 爬虫搜索成本；反例是西南航空向 ChatGPT 用户开放航班查询这是 agent 现实部署遇阻的标志性案例",
+      "summary_en": "United Airlines announced it is banning third-party personal AI agents from booking flights on behalf of travelers, citing security risks and potential violations of federal rules. The airline says sharing account credentials - including payment information - with personal AI assistants can expose sensitive data, cause unintended purchases, account changes, or MileagePlus misuse, and that agent-performed check-in could conflict with federal rules such as in-person luggage verification. United is restricting access on its own platforms and via agencies and aggregators; fares stay searchable through Kayak, Hopper, and Google Flights. Analyst Henry Harteveldt reads the move as retaining control of the booking funnel and avoiding the cost of surging AI bot searches; Southwest, by contrast, exposes its flight inventory to ChatGPT users.",
+      "one_liner": "美联航宣布禁止第三方个人 AI agent 代旅客订票：共享账户凭证（含支付信息）会暴露敏感数据可能造成误购改账户或误用里程，且 agent 代办值机等操作可能违反联邦规定（如行李需旅客本人当面确认无违禁品）美联航在自有数字平台并经旅行社与聚合渠道限制未授权 AI agent.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/645f1651.md",
+      "images": [],
+      "added_date": "2026-11-12",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-11",
-  "total_entries": 3221
+  "last_updated": "2026-11-12",
+  "total_entries": 3231
 }
