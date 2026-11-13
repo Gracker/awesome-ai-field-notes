@@ -1,41 +1,41 @@
 {
-  "total_entries": 3262,
-  "active_entries": 2487,
-  "active_entries_raw": 2564,
+  "total_entries": 3280,
+  "active_entries": 2505,
+  "active_entries_raw": 2582,
   "archived_entries": 659,
   "score_pending_entries": 39,
-  "this_week_added": 206,
-  "entries_with_content": 2357,
-  "content_files_total": 3332,
+  "this_week_added": 205,
+  "entries_with_content": 2385,
+  "content_files_total": 3360,
   "channel_distribution": {
-    "agents": 704,
-    "models": 522,
-    "coding": 376,
-    "business": 269,
+    "agents": 708,
+    "models": 524,
+    "coding": 379,
+    "business": 274,
     "tools": 244,
-    "infra": 225,
-    "research": 147
+    "infra": 226,
+    "research": 150
   },
   "raw_category_distribution": {
-    "agents": 742,
+    "agents": 744,
     "models": 469,
-    "coding": 326,
-    "industry": 318,
+    "coding": 331,
+    "industry": 324,
     "uncategorized": 284,
-    "infra": 258,
-    "learning": 167
+    "infra": 260,
+    "learning": 170
   },
   "source_type_distribution": {
-    "article": 1212,
-    "paper": 885,
+    "article": 1227,
+    "paper": 887,
     "x_post": 305,
-    "github": 97,
+    "github": 98,
     "product": 38,
     "tweet": 17,
     "newsletter": 9,
     "dataset": 1
   },
-  "last_updated": "2026-11-13 08:31",
+  "last_updated": "2026-11-13 23:46",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }
