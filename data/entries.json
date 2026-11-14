@@ -100772,8 +100772,234 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "0e01cb2c",
+      "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+      "url": "https://arxiv.org/abs/2611.17316",
+      "source": {
+        "platform": "arxiv",
+        "author": "Peiwen Li, Harshit Verma, Sophia Zhou, Haiwen Wang, Ngoc Bui, Heng Chang, Fei Fei, David van Dijk, R...",
+        "original_date": "2026-11-12"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "agent-memory",
+        "coding-agents",
+        "long-horizon",
+        "reinforcement-learning"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "CoReMem 研究 coding agent 在同一演进仓库上连续做任务时该记什么：下一个任务未知，而写记忆读记忆都有成本框架用前瞻分段估值对比下一个任务带/不带某段轨迹的运行差异，只保留有价值片段，记忆压缩成两类锚点：仓库位置+可执行检查actor 适配在带/不带记忆的 rollout 组内估计 on-policy 记忆价值，奖励偏向解决率惩罚成功运行的步数，价值只记给被判定使用了锚点的步骤ChainSWE 上 27B actor 解决率从 21.0% 提到 25.7%，步数减 17%，cache-aware token 减 11%",
+      "summary_en": "CoReMem addresses what coding agents should memorize when tackling successive tasks on an evolving repository, where the next task is unknown and memory writes and reads carry costs. Prospective segment valuation compares next-task runs with and without individual trajectory segments from the same inherited repository state, keeping only valuable segments; the compact memory is built around anchors: repository locations plus executable checks. Actor adaptation estimates on-policy memory value within rollout groups with and without memory, using a reward that prioritizes resolution and penalizes steps in successful runs, with provenance-gated credit assigned to steps identified as using memory-supplied anchors. On ChainSWE, a 27B actor's resolve rate rises from 21.0% to 25.7% with 17% fewer steps and 11% fewer cache-aware tokens vs the untrained actor without memory.",
+      "one_liner": "CoReMem 研究 coding agent 在同一演进仓库上连续做任务时该记什么：下一个任务未知，而写记忆读记忆都有成本框架用前瞻分段估值对比下一个任务带/不带某段轨迹的运行差异，只保留有价值片段...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0e01cb2c.md",
+      "images": [],
+      "added_date": "2026-11-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7bb9a69c",
+      "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+      "url": "https://arxiv.org/abs/2611.17294",
+      "source": {
+        "platform": "arxiv",
+        "author": "Haozhe Wang, Lina Chen, Fanqi Wan, Qi Han, Yinmin Zhang, Zheng Ge, Daxin Jiang, Junchi Yan",
+        "original_date": "2026-11-12"
+      },
+      "category": "infra",
+      "tags": [
+        "arxiv",
+        "apple-silicon",
+        "metal",
+        "sandbox",
+        "gpu-kernels",
+        "coding-agents",
+        "scheduling"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Metal Sandbox 解决 Apple Silicon 上 GPU kernel 生成 agent 的训练/评测基建问题：agent 会话在模型请求开发命令GPU 执行间交替，GPU 大部分时间闲置方案给每个 agent 独立工作区受限文件访问和原生命令执行，并跨多台 Mac 做命令级调度：并行命令并发跑，串行命令每节点共享一个执行槽，等待中的合格命令可迁移到空闲 Mac 并带回结果接入 Harbor 统一任务执行自动验证与 rollout 收集4 台 Mac mini M4 上集中负载的命令吞吐提升 1.682.05 倍；4 会话/节点的持续吞吐估计 2.14 倍，动态调度让工具等待均值降 18.8%批量耗时降 22.3%",
+      "summary_en": "Metal Sandbox is infrastructure for training/evaluating agents that generate Apple Metal kernels on-device, where agent sessions alternate between model requests, development commands and GPU execution, leaving GPU capacity idle. It combines restricted per-instance file access, native command execution and command-level scheduling across interconnected Macs: parallel commands run concurrently, serial commands share one execution slot per node, and eligible waiting commands migrate to available Macs and return results. Harbor integration covers task execution, automatic verification and rollout collection. On four Mac mini M4 nodes, command throughput gains 1.68x-2.05x under concentrated demand; sixteen static traces estimate 2.14x sustained throughput for four sessions per node, and dynamic scheduling cuts mean tool waiting by 18.8% and batch elapsed time by 22.3%. Open-source on GitHub.",
+      "one_liner": "Metal Sandbox 解决 Apple Silicon 上 GPU kernel 生成 agent 的训练/评测基建问题：agent 会话在模型请求开发命令GPU 执行间交替，GPU 大部分时间闲置方案给每个 agent 独立工作区受限文件访问和原生命令执行...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7bb9a69c.md",
+      "images": [],
+      "added_date": "2026-11-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dd9c87ee",
+      "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+      "url": "https://arxiv.org/abs/2611.17280",
+      "source": {
+        "platform": "arxiv",
+        "author": "Gautam Galada, Supreeth Shastri, Sagnik Ray Choudhury",
+        "original_date": "2026-11-12"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "llm-security",
+        "privacy",
+        "steganography",
+        "threat-model"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Synthesis Smuggling 提出新威胁模型：对抗性 LLM 从日常求助对话里推断用户敏感属性（性别年龄段），再用不可见字符或措辞选择把推断结果隐写在看似无害的生成内容里；用户把邮件帖子或消息分享出去，监听普通信道的对手就能解出这些信息作者训练两个开源权重模型演示了完整链路要点：即使模型本身没有任何对外联系通道，用户主动分享的模型输出也可能成为个人信息外泄的隐蔽信道",
+      "summary_en": "Synthesis Smuggling is a threat model where an adversarial LLM infers sensitive user attributes from routine assistance-seeking interactions and steganographically encodes them into innocuous-looking generated content via invisible characters or word choice; when the user shares the artifact (email, social-media post, message) through ordinary channels, an adversary monitoring those channels can recover the inferences. The authors demonstrate the full chain by training two open-weight models to infer gender and age-group labels from conversational cues. The takeaway: user-shared model outputs can act as a covert channel for personal inferences even when the model itself has no direct means of contacting an adversary.",
+      "one_liner": "Synthesis Smuggling 提出新威胁模型：对抗性 LLM 从日常求助对话里推断用户敏感属性（性别年龄段），再用不可见字符或措辞选择把推断结果隐写在看似无害的生成内容里.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/dd9c87ee.md",
+      "images": [],
+      "added_date": "2026-11-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3d4ca1bc",
+      "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+      "url": "https://arxiv.org/abs/2611.17309",
+      "source": {
+        "platform": "arxiv",
+        "author": "Benjamin Hoover, Hugh Blayney, James C. R. Whittington",
+        "original_date": "2026-11-12"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "energy-based-models",
+        "reasoning",
+        "looped-models",
+        "benchmarks"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "循环推理模型（looped models）在 Sudoku-ExtremeMaze-Unique 上训练不稳慢开销大，作者把 80 年代 Hopfield & Tank 能量模型改成可学习版本 CRAM：对能量做下降，自带早停算力随题目难度自适应训练无需对求解器求导，权重可解释为学到的谜题约束结果：单 GPU 训练 42ms/132ms 后分别解出 99.996% Sudoku-Extreme 与 100% Maze-Unique，比 looped 模型至少快 1000 倍；Sudoku 上以至少 282 倍更少的推理 FLOPs 打平基线最高准确率作者提醒：可被平凡求解的基准已无法检验 looped 推理的可扩展性",
+      "summary_en": "Looped models reason on puzzles like Sudoku-Extreme and Maze-Unique but can be unstable, slow to train, and parameter/FLOP-heavy. The authors turn Hopfield & Tank's 1980s energy into a learned model, CRAM: descending on an energy gives built-in early stopping, compute that adapts to problem difficulty, fast training without differentiating through a solver, and interpretable weights that learn puzzle constraints. CRAM solves 99.996% of Sudoku-Extreme and 100% of Maze-Unique test puzzles after 42 ms and 132 ms of training on one GPU - at least 1,000x faster than looped models - and matches baseline looped models at their highest Sudoku accuracy using at least 282x fewer inference FLOPs. Two takeaways: energies are a promising direction for training reasoning from data, and trivially solvable benchmarks like Sudoku and Maze no longer test the scalability of looped reasoning techniques.",
+      "one_liner": "循环推理模型（looped models）在 Sudoku-ExtremeMaze-Unique 上训练不稳慢开销大，作者把 80 年代 Hopfield & Tank 能量模型改成可学习版本 CRAM：对能量做下降，自带早停算力随题目难度自适应训练无需对求解器求导.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3d4ca1bc.md",
+      "images": [],
+      "added_date": "2026-11-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "14bce339",
+      "title": "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
+      "url": "https://arxiv.org/abs/2611.17169",
+      "source": {
+        "platform": "arxiv",
+        "author": "Umar Ahmed, Maxim Dunaev, Mohammad Nour Al Awad, Sergey Ivanov, Ivan Khodnenko",
+        "original_date": "2026-11-12"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "semantic-parsing",
+        "evaluation",
+        "output-format",
+        "small-models"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "小模型语义解析有类静默失败：格式合法但树错了，下游无从察觉作者在 PIZZA 点单基准上用 LoRA 微调 Qwen3.5-0.8B 与 LFM2.5-350M，对同一棵目标树试 6 种无损编码（每单 44.3 降到 10.9 token），共 300 次运行，配预设的统计校正结论：缩短编码无用，用普通词写目标有效word 编码在两个模型上都最准（Qwen 87.5% 对原生 s-表达式 85.8%）且少发 4.1 倍 token，静默错误率 Qwen 降 2.3 倍LFM2 降 1.8 倍，增益大部分来自否定词处理附带发现：模型自发学会拒绝菜单外输入（95.999.0%），代价是 2.110.1% 真实点单被误拒",
+      "summary_en": "A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. On the PIZZA ordering benchmark, the authors LoRA-fine-tune Qwen3.5-0.8B and LFM2.5-350M on six lossless encodings of the same target tree (44.3 down to 10.9 tokens per order), across 300 runs with hierarchical bootstrap and Holm correction fixed before results were read. Shortening alone never helps, but writing the target in ordinary words does: word encoding is the most accurate format on both models (87.5% vs 85.8% exact match for native s-expressions on Qwen) while emitting 4.1x fewer tokens, and cuts silent error rate 2.3x on Qwen and 1.8x on LFM2, with much of the gain in negation handling. Runs also learn refusal of off-menu input (95.9-99.0% held-out) and in-utterance self-correction, at the measured price of refusing 2.1-10.1% of real orders.",
+      "one_liner": "小模型语义解析有类静默失败：格式合法但树错了，下游无从察觉作者在 PIZZA 点单基准上用 LoRA 微调 Qwen3.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/14bce339.md",
+      "images": [],
+      "added_date": "2026-11-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ea077620",
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "url": "https://haddyalchaer.com/jepa",
+      "source": {
+        "platform": "blog",
+        "author": "Haddy Alchaer",
+        "original_date": "2026-11"
+      },
+      "category": "agents",
+      "tags": [
+        "world-models",
+        "jepa",
+        "planning",
+        "latent-space",
+        "field-notes"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "作者跑了 600 组实验后对 JEPA 世界模型的实操总结结构：encoder 把每帧观测压成嵌入，predictor 按动作预测下一帧嵌入，planner 在 predictor 里试上百条动作序列挑预测终态最接近目标嵌入的一条全程在嵌入空间运行，只学对决策重要的部分，不生成像素核心结果：给 vanilla LeWM 加记忆图变换在线生成子目标，不加任何额外训练就能解长程物理任务的分布外目标文章同时梳理了生成式世界模型（逐像素预测未来）与联合嵌入预测的路线之争，引用 LeCun 论点：多数像素既不影响决策也不可预测",
+      "summary_en": "A practitioner write-up after 600 experiments on JEPA world models. An encoder compresses each observation frame into a learned embedding, a predictor takes that embedding plus an action and predicts the next frame's embedding, and a planner tries hundreds of action sequences inside the predictor to pick the one whose predicted end state lands closest to the goal embedding - the whole loop runs in embedding space, learning only what matters for actions instead of pixels. Core result: augmenting a vanilla LeWM with transformations on a memory graph generates on-the-fly subgoals without any additional training, letting it solve long-horizon physics tasks on out-of-distribution goals. It also frames the generative-vs-JEPA debate, citing LeCun: most pixels neither matter for decisions nor can be predicted.",
+      "one_liner": "作者跑了 600 组实验后对 JEPA 世界模型的实操总结结构：encoder 把每帧观测压成嵌入，predictor 按动作预测下一帧嵌入，planner 在 predictor 里试上百条动作序列挑预测终态最接近目标嵌入的一条全程在嵌入空间运行，只学对决策重要的部分...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ea077620.md",
+      "images": [],
+      "added_date": "2026-11-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "18188c8a",
+      "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+      "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "source": {
+        "platform": "blog",
+        "author": "Perplexity Research",
+        "original_date": "2026-11-12"
+      },
+      "category": "models",
+      "tags": [
+        "perplexity",
+        "routing",
+        "classification",
+        "distillation",
+        "open-weights"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Perplexity 发布决策模型 Decider v1.3 与蒸馏小模型 Decider Flash v1.3（前身 v1/v1.1/v1.2/Flash v1.2）决策模型是通用分类器：给定输入和一组问题及候选答案，返回每个问题的概率分布，支持二元与多分类（有序/无序标签），供应用做分类路由排序与评估v1.3 靠双向注意力更干净的数据和改进的训练配方提升文本与视觉任务表现，并新增 locate 能力，为 NER个人信息识别抽取式 QA 高亮所选内容权重以 Apache 协议上架 Hugging Face，另有 OpenRouter 与 Decisions API",
+      "summary_en": "Perplexity released Decider v1.3 and distilled Decider Flash v1.3, successors to v1/v1.1/v1.2/Flash v1.2. A decision model is a general-purpose classifier: given an input and a set of questions with candidate answers, it returns a probability distribution per question, supporting binary and multi-class classification with ordered or unordered labels, for classifying, routing, ranking and evaluating inputs. v1.3 improves performance and robustness across text and vision tasks via bidirectional attention, better-curated training data and a refined recipe, and adds locate, a feature highlighting selected content for named-entity recognition, personal-information identification and extractive QA. Both models ship on Hugging Face under Apache license, through OpenRouter and the Perplexity Decisions API.",
+      "one_liner": "Perplexity 发布决策模型 Decider v1.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/18188c8a.md",
+      "images": [],
+      "added_date": "2026-11-14",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-13",
-  "total_entries": 3280
+  "last_updated": "2026-11-14",
+  "total_entries": 3287
 }
