@@ -101832,8 +101832,503 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "62504a28",
+      "title": "AWS Emulator and the engineer's job when agents write the code",
+      "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+      "source": {
+        "platform": "blog",
+        "author": "Werner Vogels",
+        "original_date": "2026-11-11"
+      },
+      "category": "agents",
+      "tags": [
+        "agents-write-code",
+        "emulator",
+        "testing",
+        "developer-experience"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "AWS 11 月 11 日放出 AWS Emulator：装在本地就能跑的 AWS 服务模拟器，代码全部由 agent 写出（github.com/aws/aws-emulator）机制是把公开 Smithy API 模型当行为规格：agent 先编端到端客户场景在真实 AWS 上跑通以记录真实行为，再照测试写模拟器，失败处即缺口清单；已覆盖 400+ API 模型200+ 服务，前三周 29,684 次提交Vogels 复述 Kiro 重写 Alf 复制引擎：给足规格与测试环境后，四个月的手工工作约两小时完成，瓶颈从写代码挪到可验证性",
+      "summary_en": "AWS released AWS Emulator on Nov 11, 2026: a local simulator whose code was written entirely by agents (github.com/aws/aws-emulator). The fidelity loop treats public Smithy API models as behavioral specs: agents generate end-to-end customer scenarios, run them against real AWS to record actual behavior, then write the emulator against those tests, with remaining failures forming the gap list. It covers 400+ API models and 200+ services, with 29,684 commits in the first three weeks (32,502 total by Nov 14). Vogels frames the engineering shift via his Alf replication-engine story: four months of hand-built work in 2004 was rewritten with Kiro in roughly two hours once specs and a test environment were supplied - the bottleneck has moved from writing code to verifiability.",
+      "one_liner": "AWS 11 月 11 日放出 AWS Emulator：装在本地就能跑的 AWS 服务模拟器，代码全部由 agent 写出（github.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/62504a28.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9df33fcd",
+      "title": "Taking AI Seriously",
+      "url": "https://borretti.me/article/taking-ai-seriously",
+      "source": {
+        "platform": "blog",
+        "author": "Fernando Borretti",
+        "original_date": "2026-11-14"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-timelines",
+        "agi",
+        "epistemics",
+        "essays"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Borretti 11 月 14 日正面处理认真对待 AI到底指什么他把程序员建议的时间线从补全有用但你要懂仓库一路排到cron job 每天把 spec 编译成 x86 汇编，判断这条曲线像正在输掉战争国家的战报；再拆掉 AGI-pilled 这个捆绑说法时间线短与后果颠覆是证据强度完全不同的两个命题他给的可证伪定义：认真对待 AI 就是认为进展可能按过去几年的速度继续，这是一个能被数据推翻的猜想；断言进展停下所需的支持反而更弱",
+      "summary_en": "Fernando Borretti's Nov 14 essay pins down what taking AI seriously should mean. He arranges programmers' advice into a timeline from 'completion is useful but you must understand the whole codebase' to 'a cron job compiles the spec to x86 assembly every morning', and judges the trajectory reads like dispatches from a country losing a war. He then untangles 'AGI-pilled', which bundles two claims with very different evidence bases: short timelines and disruptive consequences. His falsifiable definition: taking AI seriously means believing progress may continue at recent-years rates - a conjecture data can overturn - while asserting progress will stop requires strictly weaker support.",
+      "one_liner": "Borretti 11 月 14 日正面处理认真对待 AI到底指什么他把程序员建议的时间线从补全有用但你要懂仓库一路排到cron job 每天把 spec 编译成 x86 汇编，判断这条曲线像正在输掉战争国家的战报.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/9df33fcd.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fa7499a5",
+      "title": "Of Course People Hate Data Centres",
+      "url": "https://hugotunius.se/2026/11/14/of-course-people-hate-data-centres.html",
+      "source": {
+        "platform": "blog",
+        "author": "Hugo Tunius",
+        "original_date": "2026-11-14"
+      },
+      "category": "industry",
+      "tags": [
+        "data-centers",
+        "politics",
+        "energy",
+        "public-opinion"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Tunius 11 月 14 日解释 2026 年最激烈的政治议题为何是钢筋水泥的数据中心：人们恨的其实是 AI 及其鼓吹者，数据中心只是敌意落地最显眼的石头数字很硬：美国中期选举 44 项数据中心投票仅 1 项对开发商有利，出口民调 76% 反对本地建设，57% 认为 AI 弊大于利；11 月欧洲组织 92 场抗议；美国在运营或在建数据中心 1835 座，十年前仅 352 座机制两层：收益分配错位（仅 62% 家庭持股能源成本本地化）与程序不透明（保密协议绑住地方政客）",
+      "summary_en": "Hugo Tunius argues people hate data centres because they hate AI and its promoters; the buildings are where the hostility lands. The numbers: of 44 US midterm data-centre ballot measures only 1 favored developers; exit polls put 76% against local construction and 57% saying AI harms more than helps; Europe saw 92 anti-data-centre protests in November alone; Cleanview counts 1,835 US data centres operating or under construction versus 352 a decade ago, ~60% more than last year and each bigger. Two mechanisms: distribution (62% of households own stock; energy costs are local, with self-built gas turbines bypassing the grid) and opaque process (NDAs bind local politicians to unknown developers and customers).",
+      "one_liner": "Tunius 11 月 14 日解释 2026 年最激烈的政治议题为何是钢筋水泥的数据中心：人们恨的其实是 AI 及其鼓吹者，数据中心只是敌意落地最显眼的石头数字很硬：美国中期选举 44 项数据中心投票仅 1 项对开发商有利，出口民调 76% 反对本地建设...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/fa7499a5.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f2c1dfde",
+      "title": "The Android lockdown seems under-theorized",
+      "url": "https://dynomight.net/android",
+      "source": {
+        "platform": "blog",
+        "author": "dynomight",
+        "original_date": "2026-11-09"
+      },
+      "category": "industry",
+      "tags": [
+        "android",
+        "security",
+        "platform-policy",
+        "google"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "dynomight 11 月 9 日评 Google 将给 Android 加的应用安装限制，认为讨论理论不足：连支持方也承认分析不够任何可信分析要承认三件事：安全问题真实改动确实有帮助95% 用户几乎不受影响（点几下等 24 小时）规模对比：去 Google 化变体约 300500 万用户（占 0.1%），商店外装机者 35 亿，Linux 手机主力不足 10 万他推演若彻底封死独立应用，部分外部装机者将转投 Lineage/Graphene 并可能逼出欧洲政策介入；给出可检验预测：这次收紧不会升级成全面封锁",
+      "summary_en": "Dynomight's Nov 9 essay on Google's upcoming Android sideloading restrictions finds the debate under-theorized: even supporters concede the analysis is thin. Any credible account must grant that scams are real, the change helps, and 95% of users are barely affected. Scale: de-Googled forks serve ~3-5M users (0.1% of Android); 300-500M install outside the Play Store; fewer than 100k run Linux phones daily. If Google fully blocked independent installs, a share of those users would migrate to Lineage/Graphene, vendors would adapt, and EU-level policy intervention could follow - a downside far larger than the upside. His testable prediction: this tightening will not escalate into a full lockdown.",
+      "one_liner": "dynomight 11 月 9 日评 Google 将给 Android 加的应用安装限制...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/f2c1dfde.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5e83f07e",
+      "title": "AI and Irontown",
+      "url": "https://lucumr.pocoo.org/2026/11/9/irontown",
+      "source": {
+        "platform": "blog",
+        "author": "Armin Ronacher",
+        "original_date": "2026-11-09"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-ethics",
+        "essays",
+        "society"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Ronacher 11 月 9 日借幽灵公主钢铁镇给 AI 找一个不失真的比喻：Eboshi 的钢铁镇收留被社会排斥的人，给他们工作与尊严，代价是毁掉森林招来野猪反抗她不是反派，同时真的在伤害周围他强调电影真正的驱动力是怕别人先赢：没人必须杀掉森林之神，但有人愿意为不必要的事杀神，帮手并不明白会放出什么；只想看清真相的 Ashitaka 被两边打死他的落点克制：每天用 AI 也觉得更有力量，同时承认代价可观，且很多代价由拿不到好处的人承担",
+      "summary_en": "Armin Ronacher's Nov 9 essay borrows Irontown from Princess Mononoke as an AI metaphor: Lady Eboshi shelters society's outcasts and gives them work and dignity while destroying the forest and provoking the boar uprising - she is no villain, yet genuinely harms her surroundings. The film's real driver is fear that someone else wins first: nobody needed to kill the forest spirit, yet someone would for an unnecessary prize, with helpers blind to what they would unleash; Ashitaka, who only wants to see clearly, is shot by both sides. His own stance is restrained: he uses AI daily and feels empowered, while conceding the costs are real and largely borne by people who receive none of the benefits.",
+      "one_liner": "Ronacher 11 月 9 日借幽灵公主钢铁镇给 AI 找一个不失真的比喻：Eboshi 的钢铁镇收留被社会排斥的人，给他们工作与尊严，代价是毁掉森林招来野猪反抗她不是反派，同时真的在伤害周围他强调电影真正的驱动力是怕别人先赢：没人必须杀掉森林之神...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/5e83f07e.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b29a8afd",
+      "title": "Possible Futures",
+      "url": "https://borretti.me/article/possible-futures",
+      "source": {
+        "platform": "blog",
+        "author": "Fernando Borretti",
+        "original_date": "2026-11-11"
+      },
+      "category": "industry",
+      "tags": [
+        "agi",
+        "forecasting",
+        "scenarios",
+        "essays"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Borretti 11 月 11 日给 AI 未来画分叉地图：会不会到 ASI对齐解的是意图还是价值失配致命度最后剩一个单体还是一个生态每种结局配机制：Misuse Doom 走不失控的正路，AI 只是把危险研究做得更快；Enduring Complementarity 承认 AGI 的 G 从来不真，人往管理岗搬；其阴面 Permanent Underclass 里劳动归零收入只剩资本与福利；The Singleton 是对齐成功后的枢纽行动加星海纪元；MAD World 靠相互毁灭维持和平，而毁掉地球的门槛远低于造防灭绝文明把不可讨论的大问题拆成可分别打分的子问题",
+      "summary_en": "Borretti's Nov 11 essay maps AI futures as separately scorable sub-questions: does ASI arrive, does alignment solve intent or values, how lethal is misalignment, and does a singleton or an ecosystem remain. Scenarios come with mechanisms: Misuse Doom keeps control intact while AI merely accelerates dangerous research; Enduring Complementarity admits the G was never real, humans move to management as junior roles shrink; its shadow, Permanent Underclass, zeroes labor income into capital ownership and welfare; The Singleton pairs successful alignment with a pivotal act like permanent surveillance before a ten-trillion-year starfaring era; MAD World distributes aligned ASIs whose mutual destruction keeps the peace, noting wrecking the planet is far easier than building a survival-capable civilization.",
+      "one_liner": "Borretti 11 月 11 日给 AI 未来画分叉地图：会不会到 ASI对齐解的是意图还是价值失配致命度最后剩一个单体还是一个生态每种结局配机制：Misuse Doom 走不失控的正路，AI 只是把危险研究做得更快...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/b29a8afd.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3d10e08e",
+      "title": "Ops needs friction",
+      "url": "https://www.jeffgeerling.com/blog/2026/ops-needs-friction",
+      "source": {
+        "platform": "blog",
+        "author": "Jeff Geerling",
+        "original_date": "2026-11-14"
+      },
+      "category": "infra",
+      "tags": [
+        "operations",
+        "sre",
+        "devops",
+        "culture"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Geerling 11 月 14 日从微软连续宕机与 FAA 全国地面停飞讲起：运维思维与开发项目管理思维根本不同，核心是系统出问题时保持镇定，在没准备过的条件下调试别人写的代码案例：某团队为生产环境用真实数据调试长期开 debug 级日志，每天多约一万行无用日志塞满网络包缓冲区；他不禁止调试，只要求有目标和时限，最终折中是扩容高峰自动降日志级别他要团队里有个人为可测量的劣化不高兴并能在被嫌烦时把改动推下去系统需要这种摩擦力，agent 写代码规模越大这条越吃重",
+      "summary_en": "Jeff Geerling's Nov 14 post starts from Microsoft's back-to-back outages and the FAA ground stop: ops thinking differs fundamentally from dev and PM thinking - staying calm while debugging someone else's code under conditions it was never prepared for. His example: a team left debug logging on to test with real data in production, adding ~10k useless lines a day that filled network packet buffers; rather than banning it he required a short-term plan with explicit goals, and the compromise auto-lowers log level on peak-traffic scale-out. He wants a resident critic unhappy about measurable degradation who can push changes through while being called annoying - systems need that friction, and with agents writing code at scale it matters more.",
+      "one_liner": "Geerling 11 月 14 日从微软连续宕机与 FAA 全国地面停飞讲起：运维思维与开发项目管理思维根本不同，核心是系统出问题时保持镇定，在没准备过的条件下调试别人写的代码案例：某团队为生产环境用真实数据调试长期开 debug 级日志...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/3d10e08e.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1afd9e57",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-11-10"
+      },
+      "category": "models",
+      "tags": [
+        "meta",
+        "pricing",
+        "small-models",
+        "agents"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Meta 11 月 10 日发布最小模型 Muse Ember，定位 agent 高频任务：工具调用编码子任务路由抽取长文档解析Willison 的价目：短提示词下与 GPT-6 LunaClaude Haiku 5.5 同价（每百万输入 0.10输出 0.50 美元），缓存输入 0.004 美元仅四折；长提示词阈值后 Ember 20 万 token 起跳 0.30/1.50Artificial Analysis 单任务成本：Ember xhigh 约 34 分0.12 美元，max 约 36 分0.14 美元，均在帕累托线上；Haiku 5.5 xhigh 同档 34.5 分要 0.25 美元每天几万次工具调用的 agent 按 Ember max 选型更省",
+      "summary_en": "Meta shipped Muse Ember on Nov 10, its smallest model aimed at high-frequency agent work: tool calls, coding subtasks, routing, extraction, long-document parsing. Simon Willison's price table: at short prompts it matches GPT-6 Luna and Claude Haiku 5.5 at $0.10/M input and $0.50/M output, with cached input at $0.004/M - a quarter of the others; past long-prompt thresholds Ember jumps at 200k tokens to $0.30/$1.50 (Luna at 272k, Haiku 5.5 at 100k). Artificial Analysis per-task costs put Ember xhigh at ~34 points for $0.12 and max at ~36 for $0.14, both on the Pareto line, while Haiku 5.5 xhigh scores ~34.5 for $0.25, pushed off the curve. For agents making tens of thousands of tool calls daily, Ember max undercuts Haiku xhigh by ~40% at near-equal intelligence.",
+      "one_liner": "Meta 11 月 10 日发布最小模型 Muse Ember，定位 agent 高频任务：工具调用编码子任务路由抽取长文档解析Willison 的价目：短提示词下与 GPT-6 LunaClaude Haiku 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1afd9e57.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "624a305a",
+      "title": "Gemini Decisions API",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-11-11"
+      },
+      "category": "models",
+      "tags": [
+        "gemini",
+        "decision-models",
+        "api",
+        "routing"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Willison 11 月 11 日记录 Google Gemini Decision 1：继 9 月 Jev10 月 OpenAI 之后第三家决策模型API，三家接口形状几乎一致，支持是/否选择与 rubric 打分价格：Jev 每百万输入 4.2 美分仍最便宜，OpenAI 与 Gemini 均 10 美分输出免费差异在模态与输出：Jev 只吃文本和 JSON，OpenAI 加图片，Gemini 覆盖文本图片音频视频和 PDF；Jev/OpenAI 返回 0/1 硬答案，Gemini 返回概率（画面有机器人 0.9234有龙 0.0498），阈值可自定决策模型已从三家做法变成一个独立门类",
+      "summary_en": "Simon Willison logs Google's Gemini Decision 1 on Nov 11 - the third decision-model API after September's Jev and October's OpenAI release, with near-identical shapes: yes/no, multiple choice, and rubric scoring. Pricing: Jev stays cheapest at $0.042/M input; OpenAI and Gemini both charge $0.10 with free output. The real differences are modality and output form: Jev takes text+JSON only, OpenAI adds images, while Gemini Decision 1 covers text, images, audio, video, and PDF. Jev and OpenAI return hard 1.0/0.0 answers; Gemini returns probabilities (0.9234 robot present, 0.9230 in the US, 0.0833 in France, 0.0498 dragon), letting integrators set their own thresholds. Decision models are now a distinct category across three providers.",
+      "one_liner": "Willison 11 月 11 日记录 Google Gemini Decision 1：继 9 月 Jev10 月 OpenAI 之后第三家决策模型API，三家接口形状几乎一致，支持是/否选择与 rubric 打分价格：Jev 每百万输入 4.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/624a305a.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3c4fcc55",
+      "title": "Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices",
+      "url": "https://arxiv.org/abs/2611.14848",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yifei Wang, Tsun-yu Yang, Yechen Xu, Hancheng Ye, Qinsi Wang, Baijun Zhou, Tingjun Chen, Hai Helen L...",
+        "original_date": "2026-11-10"
+      },
+      "category": "infra",
+      "tags": [
+        "moe-inference",
+        "memory-management",
+        "consumer-devices",
+        "llm-serving"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "想在消费级设备本地跑大 MoE 模型，权重必然在 GPU VRAM主机内存与 SSD 之间溢出；现有系统把这几层当独立缓存各自管理，推理时反复抖动Tideway 把主机 RAM 与 GPU VRAM 当一个统一内存池：内存布局按 prefill 与 decode 两阶段的访问模式分别适配，执行引擎再针对专家分页下的 CUDA Graph 执行优化在代表性消费级硬件与前沿 MoE 模型上，对最快基线端到端延迟平均加速 1.97TTFT 2.40decode 吞吐 1.61代码已开源（github.com/Afterglow231/Tideway）",
+      "summary_en": "Deploying large MoE models on consumer PCs forces weights to spill across GPU VRAM, host RAM, and SSD, and existing systems treat these tiers as independent caches, thrashing during inference. Tideway manages host RAM and GPU VRAM as one unified memory pool: memory layouts adapt separately to the distinct access patterns of prefill and decode, and the execution engine optimizes CUDA Graph execution under expert paging. On representative consumer hardware with frontier MoE models it achieves 1.97x average end-to-end latency speedup, 2.40x TTFT speedup, and 1.61x higher decode throughput over the fastest baseline. Source code is public at github.com/Afterglow231/Tideway.",
+      "one_liner": "想在消费级设备本地跑大 MoE 模型，权重必然在 GPU VRAM主机内存与 SSD 之间溢出...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3c4fcc55.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "27f5c3df",
+      "title": "Fewer Expert Transfers Without Changing Routing: Expert Eviction for MoE Offloading",
+      "url": "https://arxiv.org/abs/2611.15842",
+      "source": {
+        "platform": "arxiv",
+        "author": "Pierre-Luc Bacon, Diego Calanzone, Jean-Maxime Larouche",
+        "original_date": "2026-11-11"
+      },
+      "category": "infra",
+      "tags": [
+        "moe-offloading",
+        "expert-eviction",
+        "caching",
+        "inference-efficiency"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "MoE 每 token 只激活少数专家，服务端把大部分专家权重留在 CPU 内存路由要谁就往 GPU 拷谁；近期方法训练 router 让同一批专家连用几个 token，把路由切换少当拷贝少的代理作者用真实计时 CPUGPU 拷贝的 harness 直接量这个取舍（OLMoE-1B-7B + L40S）：所有固定专家集合且 decode 快过 LRU 的策略，next-token loss 至少 +0.067 nats保持路由不变的另一条路更好：淘汰下次使用最远的专家拷贝比 LRU 少 2.1零质量损失距理论最优 3.5%；往后看 16 个 token 收回 96% 收益，历史计数仅 27%",
+      "summary_en": "MoE models activate a few experts per token, so servers keep most expert weights in CPU memory and copy on demand. Recent methods train the router to reuse experts across tokens, treating fewer routing switches as a proxy for fewer copies. The authors measure the trade-off directly with a harness that performs and times real CPU-to-GPU copies for OLMoE-1B-7B on an L40S: every policy that holds an expert set fixed and decodes faster than LRU raises next-token loss by at least 0.067 nats. The alternative leaves routing intact and evicts the expert whose next use lies farthest in the future: 2.1x fewer copies than LRU at no quality loss, within 3.5% of the fewest possible copies; lookahead of just 16 future tokens recovers 96% of the reduction versus 27% for past-request counting.",
+      "one_liner": "MoE 每 token 只激活少数专家，服务端把大部分专家权重留在 CPU 内存路由要谁就往 GPU 拷谁；近期方法训练 router 让同一批专家连用几个 token.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/27f5c3df.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e1b85496",
+      "title": "The Storage View Of KV Cache: Characterizing Cache Behavior Across LLM Workloads",
+      "url": "https://arxiv.org/abs/2611.10178",
+      "source": {
+        "platform": "arxiv",
+        "author": "Talia Q. Chen, Daniel Waddington, Narangerelt Batsoyol, Vijay Chidambaram",
+        "original_date": "2026-11-06"
+      },
+      "category": "infra",
+      "tags": [
+        "kv-cache",
+        "storage",
+        "llm-serving",
+        "workload-characterization"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "KV cache 正从 GPU 显存溢出到主机 DRAMSSD 与远端存储，但这些存储层大多还在用 LRU固定 TTL 这类不看负载的策略作者在块粒度上刻画 KV 复用生命周期与占用，覆盖聊天API 服务RAGcoding agent多 lineage 工作流共 11 条 traceKV 状态呈两种形态：单会话状态会话内复用会话结束失效；多会话状态跨会话复现活得更久负载标识会话标识会话完成三个通用信号暴露了存储管理所需的大部分结构：负载级复用估计多保住最多 22% 会话内命中少留最多 40% 死状态；会话感知分类识别共享状态的选择性比请求级计数高 4700",
+      "summary_en": "KV caches increasingly extend beyond GPU memory into host DRAM, SSDs, and remote storage, yet these stores remain governed by workload-agnostic policies like LRU and fixed TTLs. The authors characterize KV reuse, lifetime, and footprint at block granularity across 11 production and public traces spanning chat, API serving, RAG, coding agents, and multi-lineage workflows. KV state takes two forms: single-session state reused within one execution and worthless at completion; multi-session state recurring across sessions, across hot prefixes and an infrequent tail. Three generic signals - workload ID, session ID, session completion - expose most of the needed structure: workload-level recurrence estimates retain up to 22% more within-session hits and cut dead state by up to 40%; session-aware classification identifies shared state 4-700x more selectively than request-level counts.",
+      "one_liner": "KV cache 正从 GPU 显存溢出到主机 DRAMSSD 与远端存储，但这些存储层大多还在用 LRU固定 TTL 这类不看负载的策略作者在块粒度上刻画 KV 复用生命周期与占用...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e1b85496.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "09e5e801",
+      "title": "Kitesurf: Cloudflare open-sources its agent-first browser runtime",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source",
+      "source": {
+        "platform": "blog",
+        "author": "Cloudflare",
+        "original_date": "2026-11-13"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-browser",
+        "cdp",
+        "cloudflare-workers",
+        "open-source"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Cloudflare 11 月 13 日把 Kitesurf（agent 专用浏览器运行时）以 Apache-2.0 开源（github.com/cloudflare/kitesurf）它不跑 Chromium 容器直接讲 CDP：Engine/PageScript/Renderer 加 SandboxOutbound 出口控制；Dynamic Workers 属付费层，自建默认无鉴权需自行加固厂商口径：对 Chromium 容器 CPU/内存省 37wall time 慢 1.71.8；视频/WebGL/bot TLS/长登录暂不支持classmethod 实测（n=1）agent 用它步数更多更慢但 9 题对 8CDP 兼容意味着 Playwright 类工具链的切换成本主要在失败站点清单与登录态",
+      "summary_en": "Cloudflare open-sourced Kitesurf, its agent-first browser runtime, on Nov 13 under Apache-2.0 (github.com/cloudflare/kitesurf). It drops the Chromium container and speaks CDP directly: Engine/PageScript/Renderer components plus a SandboxOutbound egress-control layer; Dynamic Workers are a paid tier and self-hosted deployments ship without auth, flagged in README warnings. Vendor docs claim 3-7x lower CPU/memory versus Chromium containers at 1.7-1.8x slower wall time; video/WebGL/bot-TLS/long-lived logins are not yet supported. An n=1 classmethod test found agents slower with more steps but 8/9 tasks correct. For Playwright/Browser Use style toolchains, CDP compatibility concentrates the switching cost in the unsupported-sites list and login state.",
+      "one_liner": "Cloudflare 11 月 13 日把 Kitesurf（agent 专用浏览器运行时）以 Apache-2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/09e5e801.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a15f664e",
+      "title": "Claude Code Projects: coordinator goes proactive across parallel threads",
+      "url": "https://x.com/ClaudeDevs/status/2121375309287301360",
+      "source": {
+        "platform": "x",
+        "author": "ClaudeDevs (Anthropic)",
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "claude-code",
+        "projects",
+        "multi-agent",
+        "orchestration"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "Anthropic 大改 Claude Code 的 Projects：项目内由协调器跨并行线程调度任务，协调器更主动在项目聊天里答问主动汇报各线程状态（官帖 18k likes）核对口径：/btw 开旁路提问/fork 分支线程；线程可对已登录 Claude 用户只读分享（本机权限线程除外）；套餐 Pro/Max（docs 另有 Ultra），无 Team/Enterprise；每账户全项目日新建线程 500 上限；默认模型 Opuseffort 偏高；限额恢复后自动续跑默认开；入口 web/desktop/mobile，无 CLI/IDE多 agent 编排的云线程 vs 本机权限线程边界有了官方默认值可对照",
+      "summary_en": "Anthropic shipped major Claude Code Projects updates (announced via @ClaudeDevs, ~18k likes): a project-level coordinator schedules work across parallel threads and is now much more proactive, answering questions in project chat and reporting ongoing thread status unprompted. Defaults per official docs and the announcement: /btw asks side questions and /fork branches a thread (terminal semantics differ); threads share read-only to signed-in Claude users while local-permission threads are excluded; plans are Pro/Max/Ultra per docs with no Team/Enterprise; 500 new threads per account per day across projects; default thread model Opus with high effort; auto-resume after rate-limit recovery is on by default; entry points are web/desktop/mobile with no CLI or IDE.",
+      "one_liner": "Anthropic 大改 Claude Code 的 Projects：项目内由协调器跨并行线程调度任务，协调器更主动在项目聊天里答问主动汇报各线程状态（官帖 18k likes）核对口径：/btw 开旁路提问/fork 分支线程...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a15f664e.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5175b6a2",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "source": {
+        "platform": "github",
+        "author": "paulirish (GoogleChrome)",
+        "original_date": "2026-03-23"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "skills",
+        "web-platform",
+        "best-practices"
+      ],
+      "source_type": "github",
+      "language": "zh",
+      "summary_zh": "Google Chrome 团队的 modern-web-guidance 仓库把让 coding agent 用现代 Web 原语做成可安装 skills 包（Apache-2.0，17,032 stars）：提示 agent 少写 2019 年式 DOM/CSS 样板，改用 CSS.highlightsdialog+showModalfield-sizing 等原生能力Show HN 11 月 10 日上到约 446 分/146 评评论区分歧：部分推荐 API 仅 Chrome 稳定Firefox/Safari 未齐，有人反对 agent 帮推 Chrome 单文化；simonw 建议补可 grep 的 markdown 索引给 agent 写前端前先对照自家浏览器矩阵",
+      "summary_en": "GoogleChrome/modern-web-guidance (Apache-2.0, 17,032 stars) packages 'get your coding agent off ~2019 JavaScript onto modern web primitives' as installable skills: CSS.highlights for range highlighting without span soup, dialog/showModal for backdrops and focus management, field-sizing for auto-growing textareas. The Show HN by paulirish reached ~446 points/146 comments on Nov 10. Comment friction: many recommended APIs are Chrome-only stable (Firefox/Safari lag), drawing pushback against agents pushing Chrome monoculture; simonw suggests a greppable markdown index alongside. Check the covered API surface against your target browser matrix before adopting.",
+      "one_liner": "Google Chrome 团队的 modern-web-guidance 仓库把让 coding agent 用现代 Web 原语做成可安装 skills 包（Apache-2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5175b6a2.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": 17032,
+      "related": []
+    },
+    {
+      "id": "9abfa6ea",
+      "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+      "url": "https://arxiv.org/abs/2610.14224",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ruiyao Xu, Yanfei Chen, et al.",
+        "original_date": "2026-10-09"
+      },
+      "category": "agents",
+      "tags": [
+        "recursive-self-improvement",
+        "agent-harness",
+        "tool-use",
+        "open-world"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "LLM agent 的能力不只取决于模型，也取决于执行 harness递归自改进（RSI）可以自动演化 harness，但开放世界部署有两难：任务在设计期未见测试期新颖，没有 ground-truth verifier 可靠指导在线改动；RSI 过程又高度任务特化难以泛化Harness 用两级递归应对：任务级递归用对比式 Propose-Probe-Compose 在无 verifier 下可靠引导 harness 编辑，可并行或串行扩展；harnessing 级递归从编辑记录中提取经验更新一个持续改进 harness三个专业基准四个模型-harness 配置上，单步即让 GLM-5 与 Gemini 3.5 Flash 超基线：WorkBuddy-Bench 最高 +11.5 分JobBench +4.5 分LAB +11.8 pp",
+      "summary_en": "LLM agent capability depends on execution harnesses as much as models. Recursive self-improvement (RSI) can evolve harnesses automatically, but open-world deployment faces two gaps: tasks unseen at design time leave no ground-truth verifiers to guide online edits, and RSI remains task-specific. Harness^2 answers with two recursion levels: task-level recursion refines the harness via a contrastive Propose-Probe-Compose step that guides edits without verifiers, scalable by parallel or sequential recursion; harnessing-level recursion distills experience from those edits into a continual-improvement harness. Across three professional benchmarks and four model-harness configs, one step lifts GLM-5 and Gemini 3.5 Flash over base harnesses: up to +11.5 points on WorkBuddy-Bench, +4.5 on JobBench, +11.8 pp on LAB.",
+      "one_liner": "LLM agent 的能力不只取决于模型，也取决于执行 harness递归自改进（RSI）可以自动演化 harness，但开放世界部署有两难：任务在设计期未见测试期新颖，没有 ground-truth verifier 可靠指导在线改动.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/9abfa6ea.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-15",
-  "total_entries": 3313
+  "total_entries": 3329
 }
