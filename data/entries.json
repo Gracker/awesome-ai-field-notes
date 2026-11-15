@@ -101645,8 +101645,195 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "9152d872",
+      "title": "Evidence-Governed Adoption of Self-Generated Updates in Autonomous AI Agents",
+      "url": "https://arxiv.org/abs/2611.16378",
+      "source": {
+        "platform": "arxiv",
+        "author": "Subodh Lonkar",
+        "original_date": "2026-11-12"
+      },
+      "category": "agents",
+      "tags": [
+        "self-improvement",
+        "governance",
+        "agent-memory",
+        "safety"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "自治 agent 会用交互历史改写自己的 prompt记忆工具与策略，但看起来有效不等于值得持久采纳EGE 把候选生成与确认采纳分离：冻结候选在新鲜配对审计上评估，须在预定主目标上有实质改进，用参考相对非劣性测试保护已声明能力，再经治理约束进入有界金丝雀部署；并给出评估器校准的同步下界构造与版本化参考沿线的累计退化界",
+      "summary_en": "Autonomous agents modify their prompts, memories, tools, workflows, and policies from interaction histories, but a plausible modification is not necessarily suitable for persistent adoption: candidate selection is adaptive, evaluators are imperfect, and local gains can hide degradation against an earlier baseline. Evidence-Governed Evolution (EGE) separates candidate generation from confirmatory adoption: frozen candidates are evaluated on fresh paired audits, must show meaningful improvement on a prespecified primary objective, declared capabilities are protected by reference-relative non-inferiority tests, and governance constraints gate bounded canary deployment. It contributes an evaluator-calibrated lower bound for adaptive candidate sequences, bridge tests for reference replacement, and a cumulative degradation bound.",
+      "one_liner": "自治 agent 会用交互历史改写自己的 prompt记忆工具与策略，但看起来有效不等于值得持久采纳EGE 把候选生成与确认采纳分离：冻结候选在新鲜配对审计上评估，须在预定主目标上有实质改进，用参考相对非劣性测试保护已声明能力，再经治理约束进入有界金丝雀部署...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9152d872.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9260fdb7",
+      "title": "MULTILOOP: Evolving Multi-Agent Harnesses for Complex Information-Seeking Tasks",
+      "url": "https://arxiv.org/abs/2611.15754",
+      "source": {
+        "platform": "arxiv",
+        "author": "Daniela Gottesman, Gal Yona, Ori Ram, et al.",
+        "original_date": "2026-11-11"
+      },
+      "category": "agents",
+      "tags": [
+        "harness",
+        "multi-agent",
+        "information-seeking",
+        "optimization"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "把编码 agent 自动优化 harness的循环从单智能体推广到多智能体：在 DeepSearchQA 信息检索任务上仅用 10 个训练样本，演化后的 harness 比基础版准确率高 4.6%，比最佳单智能体高 3.2%但失败模式分类显示多智能体特有的编排类失败在优化后依然大面积存在，说明现有方法还改不动任务如何委派与信息如何共享的结构问题",
+      "summary_en": "LLM agent performance depends on the harness (prompts, tools, orchestration), and recent work automates harness optimization with coding agents that analyze traces, diagnose failures, and edit harness code, but only for single-agent systems. MULTILOOP studies whether the loop transfers to multi-agent harnesses on complex information-seeking tasks from DeepSearchQA: a coding agent iteratively analyzes, evaluates, and edits the harness. With only 10 training samples, the evolved harness improves accuracy 4.6% over the base harness and 3.2% over the best single-agent system. Yet a failure-mode taxonomy shows multi-agent orchestration failures largely persist after optimization, motivating methods that push structural changes to how agents delegate and share information.",
+      "one_liner": "把编码 agent 自动优化 harness的循环从单智能体推广到多智能体：在 DeepSearchQA 信息检索任务上仅用 10 个训练样本，演化后的 harness 比基础版准确率高 4.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9260fdb7.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6d63d510",
+      "title": "From Delegation to Coordination: Learning Efficient Multi-Agent Deep Research",
+      "url": "https://arxiv.org/abs/2611.17041",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuyang Wu, Yang Liu, Zequn Xie, et al.",
+        "original_date": "2026-11-12"
+      },
+      "category": "agents",
+      "tags": [
+        "deep-research",
+        "multi-agent",
+        "credit-assignment",
+        "reinforcement-learning"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "多智能体深度研究系统的瓶颈在委派协调：主流训练要么只优化主 agent，要么把团队优势平摊给所有成员，会奖励误导性子报告LEAD-RL 引入贡献感知的信用分配训练期 rubric 评估每个 subagent 报告的研究效用并门控其继承的团队优势，最终答案正确性仍是唯一团队奖励五个基准两个模型家族均提升质量：BrowseComp 准确率 +2.49 点关键路径成本 -24.5%",
+      "summary_en": "Multi-agent deep-research systems delegate to parallelize search and keep long tool traces out of the main agent's context, but delegation only helps when the main agent issues useful subtasks and subagents return reliable evidence. Existing training optimizes only the main agent or broadcasts the same team advantage to every agent, which can reward misleading subagent reports and penalize useful ones. LEAD-RL is a joint main-agent-subagent framework with contribution-aware credit assignment: a training-time rubric evaluates the research utility of each subagent report and gates its inherited team advantage, while final-answer correctness remains the only team reward. Across five benchmarks and two model families it improves answer quality; on BrowseComp it adds 2.49 points of accuracy and cuts critical-path cost 24.5% over shared-team-credit joint training.",
+      "one_liner": "多智能体深度研究系统的瓶颈在委派协调：主流训练要么只优化主 agent，要么把团队优势平摊给所有成员，会奖励误导性子报告LEAD-RL 引入贡献感知的信用分配训练期 rubric 评估每个 subagent 报告的研究效用并门控其继承的团队优势.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6d63d510.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a6b7063e",
+      "title": "Where LLM Agents Get Stuck Debugging Databases: Access More Than Reasoning",
+      "url": "https://arxiv.org/abs/2611.17304",
+      "source": {
+        "platform": "arxiv",
+        "author": "Gustavo Pinto",
+        "original_date": "2026-11-12"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "debugging",
+        "databases",
+        "field-study"
+      ],
+      "source_type": "paper",
+      "language": "zh",
+      "summary_zh": "对 Claude Code 排查生产消息分发引擎 8 起数据库事故的实地观察：凡根因依赖运行时并发的事故，agent 都先宣布结论上线修复再撤回，每次误判消耗一轮部署-观察最普遍的瓶颈是拿不到生产状态实时锁视图未截断的死锁报告只读执行环境上下文；5 起并发事故全部存在访问缺口作者主张为生产调试 agent 建一层取证设施：安全询问 API锁/死锁黑匣子生产回放",
+      "summary_en": "A field observation of Claude Code diagnosing eight database incidents in a production message-dispatch engine. In every incident whose root cause depended on runtime concurrency, the agent announced a cause, shipped a fix, and later walked it back, each wrong guess costing a deploy-and-observe cycle. Mapping incidents to what the agent lacked, access to production state was the most pervasive bottleneck: live lock views, untruncated deadlock reports, read-only execution, and explicit environment context; an access gap existed in all five concurrency-dependent incidents, four combined with reasoning errors like anchoring or misread transaction semantics. Wrong hypotheses were consistent with visible evidence, not fabrications. They argue for a forensics layer within existing security controls: safe interrogation API, lock/deadlock flight recorder, production replay harness.",
+      "one_liner": "对 Claude Code 排查生产消息分发引擎 8 起数据库事故的实地观察：凡根因依赖运行时并发的事故，agent 都先宣布结论上线修复再撤回，每次误判消耗一轮部署-观察最普遍的瓶颈是拿不到生产状态实时锁视图未截断的死锁报告只读执行环境上下文.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a6b7063e.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9f394f52",
+      "title": "Lovable: Many Apps Built on the Platform Expose Sensitive Data",
+      "url": "https://www.crissyfield.de/research/lovable-en",
+      "source": {
+        "platform": "blog",
+        "author": "Crissy Field GmbH",
+        "original_date": "2026-11-02"
+      },
+      "category": "industry",
+      "tags": [
+        "security",
+        "supabase",
+        "vibe-coding",
+        "data-exposure",
+        "lovable"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Crissy Field 与 Handelsblatt 合作分析了 159041 个 Lovable 项目，聚焦其最常用的 Supabase 数据库：许多应用的个人与机密数据未登录即可访问，既包括首屏加载即暴露的内容，也包括用同一 API key 追加只读请求可取回的数据报告指出平台无需技术背景的宣传与条款里安全责任归客户之间存在落差",
+      "summary_en": "A security analysis of 159,041 Lovable projects by Crissy Field GmbH, in collaboration with Handelsblatt (reporting by Lina Knees, November 2, 2026), examined whether sensitive data in AI-built applications is accessible without logging in, focusing on Supabase as the most widely used database service among Lovable projects. Researchers separately inspected data exposed at first page load and additional content reachable via further read-only requests with the same API key, and found many clear examples of unprotected personal and confidential data. The report contrasts Lovable's no-code-required marketing with Terms & Conditions that place responsibility for application security and data handling on customers themselves.",
+      "one_liner": "Crissy Field 与 Handelsblatt 合作分析了 159041 个 Lovable 项目，聚焦其最常用的 Supabase 数据库：许多应用的个人与机密数据未登录即可访问，既包括首屏加载即暴露的内容...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9f394f52.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "be81354d",
+      "title": "Advancing science & engineering with Antigravity's /teamwork",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature",
+      "source": {
+        "platform": "google",
+        "author": "Vahab Mirrokni (Google Research)",
+        "original_date": "2026-11-13"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "long-horizon",
+        "verification",
+        "research"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "Google Research 公布 Antigravity /teamwork 多智能体系统成果：配合 Gemini 4 系列模型，在数学化学系统软件与 ML 工程的开放问题上与人类专家协作，报告信息论形式化验证分子结构发现与 kernel 优化方面的进展设计针对两个模型局限：单次生成不可预测，以并行探索配专属证伪器（Lean 4 证明检查器原样测试套件执行模拟器等）；多天任务注意力发散，以按构造分区上下文让每个专项 agent 保持有界范围",
+      "summary_en": "Google Research shares results from Antigravity's /teamwork multiagent systems, built on Gemini 4 models (Argon, Carbon, Hydrogen), for human-AI collaboration on open problems in mathematics, chemistry, systems software, and ML engineering, reporting advances in information theory, formal verification, molecular structure discovery, and kernel optimization. Two model limits motivate the design: unpredictable single-attempt generation, bridged by pairing parallel exploration with dedicated falsifiers (Lean 4 proof checker, unmodified test suites, execution simulators, web search, hardware counters), and attention dispersal over multi-day tasks, addressed by partitioning context by construction so each specialized agent keeps a bounded scope. The tools are being made available externally to researchers and developers.",
+      "one_liner": "Google Research 公布 Antigravity /teamwork 多智能体系统成果：配合 Gemini 4 系列模型，在数学化学系统软件与 ML 工程的开放问题上与人类专家协作...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/be81354d.md",
+      "images": [],
+      "added_date": "2026-11-15",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-14",
-  "total_entries": 3307
+  "last_updated": "2026-11-15",
+  "total_entries": 3313
 }
