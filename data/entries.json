@@ -102487,8 +102487,611 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "fd1c942b",
+      "title": "Recompute or Restore? Host-Tier KV for Multi-Model Agent Workflows on a Static-Graph NPU Serving Stack",
+      "url": "https://arxiv.org/abs/2611.15126",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sungwon Woo, Seyeon Kim",
+        "original_date": "2026-11-11"
+      },
+      "category": "infra",
+      "tags": [
+        "arxiv",
+        "kv-cache",
+        "agent-workflows",
+        "npu",
+        "serving"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "静态图 NPU 上的 agent 工作流 KV 管理：设备侧 KV 预算固定，过载时被挤出的长前缀只能整段重算作者在 Rebellions ATOM+ 上实测：默认 serving 被压垮时 planner 已物化的 prompt token 占 89.5%；主机 DRAM 加一层同步 host tier 后，两种过载场景的工作流 SLO 达标率从 22.8%/9.4% 升到 100%/99.8%，保守负载增益 chain 11.8%fork 18.2%，代价是 fork P99 +1618%；事件模型在 24 个负载条件下预测落在 15% 容差内，并诚实报告三处策略对比错排与一处存储路径高估（实测 3.1%）",
+      "summary_en": "Agent workflows chain model calls sharing long prompt prefixes, so serving efficiency depends on KV-cache reuse; on static-graph NPUs the device KV budget is fixed and evicted prefixes must be recomputed. On a Rebellions ATOM+ stack serving a Qwen3-8B planner and Qwen3-0.6B executor, 89.5% of executed planner prompt tokens had been materialized before once default serving collapses. A synchronous host-DRAM tier raises workflow SLO attainment from 22.8% to 100% and 9.4% to 99.8% in two overload conditions, with conservative load gains of 11.8% (chain) and 18.2% (fork) at a 16-18% fork P99 cost. A frozen scheduler-aware event model predicts latency within 15% tolerance in all 24 common-load conditions, but misorders three policy contrasts and overestimates a cheaper store path (11% predicted vs 3.1% measured).",
+      "one_liner": "静态图 NPU 上的 agent 工作流 KV 管理：设备侧 KV 预算固定，过载时被挤出的长前缀只能整段重算作者在 Rebellions ATOM+ 上实测：默认 serving 被压垮时 planner 已物化的 prompt token 占 89.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fd1c942b.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0b9ebf00",
+      "title": "SBA: A Practical Memory Performance Denial-of-Service Attack",
+      "url": "https://arxiv.org/abs/2611.16189",
+      "source": {
+        "platform": "arxiv",
+        "author": "Amin Mamandipoor, Connor Rudy Sullivan, Cole Ridge Strickler, Mohammad Alian, Heechul Yun",
+        "original_date": "2026-11-12"
+      },
+      "category": "infra",
+      "tags": [
+        "arxiv",
+        "memory",
+        "dos",
+        "performance-isolation",
+        "dram"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "云平台靠内存带宽调节隔离同宿负载，默认高聚合带宽等于高干扰Single-Bank Attack 把写操作集中打到 DRAM 单个 bank，制造持续 row conflict 压垮内存服务速率：LLM decode 这类内存密集受害者跨核减速超三个数量级，攻击者带宽消耗却不到 1 GB/sIntel/AMDDDR5/HBM2E 平台均复现；单 bank 拥塞塞满控制器队列背压传导到共享缓存与一致性结构，低聚合带宽即可造成严重干扰并绕过 Intel RDT MBA软件侧 IQ-MemGuard 用微架构信号识别持续争用并选择性节流，在 Intel 平台挡住攻击，而硬件 QoS 完全失效",
+      "summary_en": "Cloud platforms isolate co-located workloads by memory bandwidth regulation, assuming high aggregate bandwidth implies high interference. The Single-Bank Attack (SBA) breaks this assumption: concentrating writes on a single DRAM bank forces persistent row conflicts that collapse memory service rate while consuming under 1 GB/s. Memory-intensive victims such as LLM decode slow down by over three orders of magnitude across Intel and AMD systems including DDR5 and HBM2E. Single-bank congestion saturates controller queues and back-pressures shared caches and coherence structures, so interference occurs at low aggregate bandwidth and evades bandwidth-based QoS like Intel RDT MBA. The IQ-MemGuard software regulator detects sustained contention via microarchitectural signals and throttles pathological injection; on Intel it mitigates SBA where hardware QoS fails completely.",
+      "one_liner": "云平台靠内存带宽调节隔离同宿负载，默认高聚合带宽等于高干扰Single-Bank Attack 把写操作集中打到 DRAM 单个 bank，制造持续 row conflict 压垮内存服务速率：LLM decode 这类内存密集受害者跨核减速超三个数量级...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0b9ebf00.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6146e838",
+      "title": "SPEC CPU2026 Under the Microscope: Programs, Phases, and Samples",
+      "url": "https://arxiv.org/abs/2611.16376",
+      "source": {
+        "platform": "arxiv",
+        "author": "Peijun Li, Pei-Hung Lin, Tianming Cui, Caiwen Ding, Yang Katie Zhao, Maya Gokhale",
+        "original_date": "2026-11-12"
+      },
+      "category": "infra",
+      "tags": [
+        "arxiv",
+        "benchmark",
+        "spec-cpu",
+        "sampling",
+        "simulation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "SPEC CPU2026 即将成为体系结构研究的标准测试集，采样仿真（SimPoint）的保真度此前只有整跑平均证据作者在真机上分三层刻画：程序相位样本，覆盖 4 套件90 个 SPECrate 输入每 10 ms 采样，跨 x86/Arm/RISC-V只换编译器版本就能让个别 benchmark IPC 减半或近翻倍；过半输入呈时变行为，单输入内部 IPC 差可超一个数量级SimPoint 在 steady 输入准确，其余误差至 43%，换随机种子误差散布 58 个百分点；保留聚类改用实测 CPI 选代表可把所有输入压进 2.6%误差在代表区间选择，不在聚类",
+      "summary_en": "SPEC CPU2026 is set to become the standard architecture benchmark, with new designs evaluated via sampled simulation tools such as SimPoint. The authors characterize the suite on real hardware at three levels: programs, phases, and samples, covering all four suites and 90 SPECrate inputs sampled every 10 ms across x86/Arm/RISC-V. Changing only the compiler version can halve or nearly double the IPC of individual benchmarks. Over half of the inputs show time-varying behavior, and IPC within a single input can vary by more than an order of magnitude. SimPoint is accurate on steady inputs but reaches 43% error on the others, and changing only the random seed spreads one input's error over 58 percentage points. Keeping SimPoint's clusters but choosing representatives by measured CPI brings every input within 2.6%: the error lies in representative choice, not clustering.",
+      "one_liner": "SPEC CPU2026 即将成为体系结构研究的标准测试集，采样仿真（SimPoint）的保真度此前只有整跑平均证据作者在真机上分三层刻画：程序相位样本，覆盖 4 套件90 个 SPECrate 输入每 10 ms 采样...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6146e838.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cafe4a03",
+      "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "url": "https://arxiv.org/abs/2611.15777",
+      "source": {
+        "platform": "arxiv",
+        "author": "Lichen Li, Ziping Dong, Sicheng Feng, Qi Li, Xinchao Wang",
+        "original_date": "2026-11-11"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "benchmark",
+        "decision-models",
+        "system-one",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "决策/System One 模型追求不开长推理链的快速通用决策，但总分说明不了能力谱与决策可靠性SO-Arena 覆盖 11 个域五个能力族：证据接地的评测（可靠来源加参考标注人工核对）按域细化难度标准沙箱内迭代执行动作的真实交互评测，并设推理密集任务做 System 1-2 对照可靠性测两件事：受控选项集变化下的决策稳定性，以及无有效选项时的弃答识别21 个模型的评测显示 scaling 与额外推理的收益随域差异很大，总分最高不等于决策可靠表现最好的模型可靠性只排第七HF 日榜 137 票居首",
+      "summary_en": "System One models promise fast decision-making without lengthy token generation, but aggregate benchmark scores say little about the breadth of capabilities or the reliability of decisions. SO-Arena characterizes both across 11 domains and five capability families: evidence-grounded evaluation with manually verified reference labels, domain-specific difficulty criteria, and interactive sandbox evaluation where models iteratively execute actions; reasoning-intensive tasks enable System One-Two comparison. Decision reliability is measured as stability under controlled option-set changes plus missing-answer recognition when no valid option exists. Across 21 models, the benefits of scaling and extra reasoning vary substantially by domain, and strong overall performance does not imply reliable decisions: the best-performing model ranks only seventh in reliability.",
+      "one_liner": "决策/System One 模型追求不开长推理链的快速通用决策，但总分说明不了能力谱与决策可靠性SO-Arena 覆盖 11 个域五个能力族：证据接地的评测（可靠来源加参考标注人工核对）按域细化难度标准沙箱内迭代执行动作的真实交互评测...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cafe4a03.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "218c8f96",
+      "title": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model",
+      "url": "https://arxiv.org/abs/2611.14815",
+      "source": {
+        "platform": "arxiv",
+        "author": "Junyoung Seo, Jaewoo Seo, Seungryong Kim, Laura Leal-Taix, Xiuming Zhang, Seung Wook Kim",
+        "original_date": "2026-11-10"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "world-model",
+        "driving",
+        "bev",
+        "video-generation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "驾驶世界模型要同时做到周围车运动合理与自车轨迹可控；只从视角视频学运动难在运动与外观纠缠遮挡频繁BirdDreams 用自回归方式联合生成 perspective 视频与示意性 BEV 视频，把场景布局并入被预测的未来而非输入条件：两个 video diffusion transformer 之间做 joint attention 互相供信息，预测出的 BEV 还成为自车控制的几何接口推理时只需单张相机图像，无需 HD map 或车辆状态输入在 PhysicalAI-AV 与 nuScenes 上对自车轨迹的跟随优于先前驾驶世界模型，人评中周围车行为也比 perspective-only 基线更真实",
+      "summary_en": "Driving world models need plausible surrounding-vehicle motion plus precise ego-trajectory control; learning motion from perspective video alone is hard: motion is entangled with appearance and vehicles get occluded. BirdDreams is an autoregressive driving world model that jointly generates perspective video and a schematic bird's-eye-view video, making scene layout part of the predicted future, not an input condition. Joint attention between two video diffusion transformers lets each stream inform the other, and the predicted BEV provides a geometric interface for ego control. At inference it needs only a single camera image - no HD map or vehicle-state inputs. On PhysicalAI-AV and nuScenes it follows ego trajectories more faithfully than prior driving world models, and human evaluation prefers its surrounding-vehicle behavior over a perspective-only baseline.",
+      "one_liner": "驾驶世界模型要同时做到周围车运动合理与自车轨迹可控；只从视角视频学运动难在运动与外观纠缠遮挡频繁BirdDreams 用自回归方式联合生成 perspective 视频与示意性 BEV 视频...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/218c8f96.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "33901aab",
+      "title": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+      "url": "https://arxiv.org/abs/2610.40394",
+      "source": {
+        "platform": "arxiv",
+        "author": "Youqing Fang, Zhouqi Hua, Yinhao Tang, Yuzhe Gu, Lingkai Kong, Bin Liu, Weiming Zhang, Kai Chen, Yan...",
+        "original_date": "2026-10-29"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "mathematical-proof",
+        "dataset",
+        "textbooks",
+        "supervision"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "数学监督数据通常被拍扁成孤立题解对，丢掉教材的课程结构TOME-Math 把 2118 本大学数学教材转成约 38 万条结构化证明监督记录，保留章节序命题-证明链依赖引用与出处利用这些结构信号，作者探索跨数学 subject 的课程学习，并刻画监督量与来源广度的 scaling 规律：全量微调使 held-out 评测与公开基准的无加权均分比基座高 16.7 个百分点，超过全部三个公开指令数据基线结构化教材既是可扩展的数学监督来源，也是研究数据组织如何影响数学推理的实证框架",
+      "summary_en": "Mathematical supervision for language models is usually flattened into isolated problem-solution pairs, discarding the curricular organization of the original sources. TOME-Math converts 2,118 university-level mathematics textbooks into about 380K structured proof-supervision records, preserving chapter order, proposition-proof links, dependency references, and provenance. Using these structural signals, the authors explore curriculum learning across mathematical subjects and characterize scaling with supervision volume and source breadth. Fine-tuning at full scale raises the unweighted mean score across held-out evaluations and public benchmarks by 16.7 percentage points over the base model while exceeding three public instruction-data baselines.",
+      "one_liner": "数学监督数据通常被拍扁成孤立题解对，丢掉教材的课程结构TOME-Math 把 2118 本大学数学教材转成约 38 万条结构化证明监督记录，保留章节序命题-证明链依赖引用与出处利用这些结构信号，作者探索跨数学 subject 的课程学习.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/33901aab.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6f157349",
+      "title": "ASI as a Black Box",
+      "url": "https://borretti.me/article/asi-as-a-black-box",
+      "source": {
+        "platform": "blog",
+        "author": "Fernando Borretti",
+        "original_date": "2026-11-15"
+      },
+      "category": "learning",
+      "tags": [
+        "ai-safety",
+        "superintelligence",
+        "epistemics",
+        "decision-theory"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Borretti 处理一个被时间线争论跳过的前提：我们不知道超级智能长什么样从几乎所有认知任务远超人类的朴素定义能推出的东西极少：人类天才提供下界而非上界；结实领域理论只在少数地方存在，超说服力这类能力是否存在只能是经验问题他把发现能力写成智力已有知识可观测数据的函数，系数（智力弹性）无人知道最锋利的一步是对ASI 能不能做 X的拆解：答不上来通常因为我们对 X 了解太少要演绎划出 ASI 能做的事，得先有 X 领域的完整理论",
+      "summary_en": "Borretti argues the timeline debate skips a prior question: we do not know what a superintelligence would look like. From the plain definition - AI far above top humans on nearly all cognitive tasks - little follows. Human genius gives a lower bound, not an upper one; solid domain theories exist only in a few places, so whether capacities like superpersuasion exist is an empirical question. He models discovery as a function of intelligence, existing knowledge, and observable data, with unknown coefficients. The sharpest move: whether an ASI can do X usually fails because our theory of X itself is thin - the set of things an ASI can do is a subset of what is possible, and delineating it deductively requires a complete theory of X's domain.",
+      "one_liner": "Borretti 处理一个被时间线争论跳过的前提：我们不知道超级智能长什么样从几乎所有认知任务远超人类的朴素定义能推出的东西极少：人类天才提供下界而非上界.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6f157349.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "baaf713b",
+      "title": "Locating the source of a mysterious beep with Claude",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-11-09"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "agentic-coding",
+        "dsp",
+        "hardware"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Willison 把 coding agent 接到物理世界：储物间里间歇蜂鸣站着听无法定位，他让 Claude Code 造了 Beep Locator，用两台 iPad一部手机MacBook Pro 和 Surface 当听音器确认目标频率后持续监听，由往返时延最小的设备先发短 chirp，其余设备上传 chirp 前后各一段录音做对齐，三角定位锁定到约 40 厘米翻出一只该换电池的老式一氧化碳探测器Claude 写第一版 problem.md 时自己找出了 2007 年普渡 BeepBeep 论文；agent 没有原生音频输入，但能跑 FFT 分析并通过 WebSocket 给听音器热更新代码",
+      "summary_en": "Willison documents a complete agent-in-the-physical-world experiment: a mystery beep in a storage room, located by a Claude Code-built Beep Locator using two iPads, a phone, a MacBook Pro, and a Surface as listeners. Devices record audio, an FFT plus high-pass filter detects the beep, and the server aligns clips around a chirp from the lowest-round-trip device to trilaterate the source to about 40 cm - an old CO detector needing a battery. Claude itself surfaced the 2007 Purdue BeepBeep paper while writing the first problem.md. The author frames it as giving Claude Code ears: no native audio input, but it can run the analysis stack and hot-reload listener code over a WebSocket channel.",
+      "one_liner": "Willison 把 coding agent 接到物理世界：储物间里间歇蜂鸣站着听无法定位，他让 Claude Code 造了 Beep Locator，用两台 iPad一部手机MacBook Pro 和 Surface 当听音器确认目标频率后持续监听...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/baaf713b.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cc6be7b1",
+      "title": "Making a Website in 2026",
+      "url": "https://blog.jim-nielsen.com/2026/making-websites-in-2026",
+      "source": {
+        "platform": "blog",
+        "author": "Jim Nielsen",
+        "original_date": "2026-11-10"
+      },
+      "category": "coding",
+      "tags": [
+        "ai-site-builders",
+        "vendor-lockin",
+        "dependencies",
+        "pricing"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "让 AI 建站工具生成同一个带真实依赖的网站，看各家替你选了什么：Lovable 生成整套 fullstack React，评论区数据库默认走 Supabase；Vercel v0 过了 11 秒主动问要不要装 Neon，然后顺手替用户开了 Neon 账号几天后收件箱里躺着一封 Neon 欢迎信Nielsen 追问为什么是 Supabase 而不是 Firebase 或 Neon：是模型推理统计上最可能的下一个词，还是 Supabase 给 Lovable 付了钱？模型本就不确定，财务激励只会让它更不可预测生成网站比以往容易，理解你生成了什么现在依赖谁为什么依赖，没有变容易",
+      "summary_en": "Nielsen compares what AI site builders choose for you when a one-off page needs real dependencies: Lovable's fullstack React app silently wired comments to Supabase ('and a whole lot more' for analytics, commerce, AI), while Vercel's v0 asked after 11 seconds, then opened a Neon account on the user's behalf - the welcome email arrived days later. He asks why Supabase and not Firebase or Neon: model inference, statistical likelihood, or paid placement - and notes financial incentives make an already-uncertain model less predictable. Generating a website is easier than ever; understanding what you generated, who you now depend on, and why is not.",
+      "one_liner": "让 AI 建站工具生成同一个带真实依赖的网站，看各家替你选了什么：Lovable 生成整套 fullstack React，评论区数据库默认走 Supabase.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cc6be7b1.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "70fcd4b5",
+      "title": "What's Next For Nvidia?",
+      "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia",
+      "source": {
+        "platform": "blog",
+        "author": "Steve Blank",
+        "original_date": "2026-11-15"
+      },
+      "category": "industry",
+      "tags": [
+        "nvidia",
+        "ceo-transition",
+        "business-model",
+        "cuda"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "黄仁勋辞职后公司该怎么走，Blank 用愿景型 vs 执行型 CEO 框架分析：黄仁勋把 Nvidia 重做三遍2006 年几乎无收入时投 CUDA2012 年 ImageNet 后转向深度学习2020 年收购 Mellanox 转卖整机架都是商业模式重写对照：鲍尔默输掉搜索手机媒体云，纳德拉围绕云重组完成逆转，库克营收涨到 4160 亿却没打开新市场错过 AI继任者面对约 60 个直接下属无接班梯队加管理层即创意死亡螺旋，而最大客户正变成自研芯片的竞争者每年新芯片CUDA 护城河向 AI 实验室投约 500 亿美元恰恰是最先被砍的赌注",
+      "summary_en": "Blank reads Nvidia post-Huang through the visionary-versus-execution CEO lens: Huang reinvented the company three times (CUDA in 2006 ahead of revenue, deep learning after ImageNet 2012, Mellanox racks in 2020) - business-model rewrites, not product updates. Ballmer's Microsoft shows execution without new markets; Nadella shows recovery by reorganizing around cloud; Cook shows growth without opening new markets, missing AI. The successor inherits concrete hazards: about 60 direct reports, no succession bench, and an innovation death spiral once execution CEOs add management layers - while Nvidia's largest customers build their own AI chips, and the bets an execution CEO cuts first are exactly the ones that matter.",
+      "one_liner": "黄仁勋辞职后公司该怎么走，Blank 用愿景型 vs 执行型 CEO 框架分析：黄仁勋把 Nvidia 重做三遍2006 年几乎无收入时投 CUDA2012 年 ImageNet 后转向深度学习2020 年收购 Mellanox 转卖整机架都是商业模式重写对照：鲍尔默输掉搜索手机...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/70fcd4b5.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "65107dd9",
+      "title": "So you want to buy AI for your company",
+      "url": "https://idiallo.com/byte-size/buying-ai-for-your-company",
+      "source": {
+        "platform": "blog",
+        "author": "Ibrahim Diallo",
+        "original_date": "2026-11-13"
+      },
+      "category": "industry",
+      "tags": [
+        "model-selection",
+        "pricing",
+        "benchmarks",
+        "tooling"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Diallo 用自问自答把选型摊开：头部模型跑分挤在 94.896.1，单价却不同步Sol 在企业生产力基准 99.1 对 Terra 98.2，就差这 0.9 分一个月多花 1.4 万美元，他的建议是 Luna；Sol 三天吃光过他的预算实操建议：先用 DeepSeek R1 试水再看 V4，Qwen 停在 3.8 MoE，Kimi K 配 Codex 用；写代码用 Claude Code 或 Cursor他自己的配置：Jules 加 Antigravity，VS Code 里 Continue 接本地 Ollama 的 R1 Flash真正起作用的变量是团队的账期与容错",
+      "summary_en": "Diallo walks through AI model shopping with real numbers: benchmark scores clustered within 0.9 points (Opus 94.8, Mythos 96.1, Fable 92.7) while prices are not - Sol scored 99.1 versus Terra's 98.2 on an enterprise productivity benchmark but cost $14k more per month, so the bill, not the score, picks Luna. Practical picks: try DeepSeek R1 before V4, stop at Qwen 3.8 MoE, Kimi K paired with Codex, and for coding just use Claude Code or Cursor. His own stack: Jules plus Antigravity, Continue over local Ollama-hosted R1 Flash in VS Code, Qwen-VL for camera feeds. The decision variable that actually matters is the team's budget and fault tolerance.",
+      "one_liner": "Diallo 用自问自答把选型摊开：头部模型跑分挤在 94.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/65107dd9.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9f0b5161",
+      "title": "Release: llm-gemini 0.37",
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-11-12"
+      },
+      "category": "models",
+      "tags": [
+        "gemini-4",
+        "pricing",
+        "llm-api",
+        "hydrogen"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Google 发布最低价成员 Gemini 4 Hydrogen，Willison 的插件更新笔记实质是价格表：Carbon 与 Argon 11 月 30 日前均为每百万输入 2 美元/缓存 0.1/输出 10，12 月 1 日起翻倍；Hydrogen 固定 1.5/0.075/7.5现在只便宜 25%，12 月后为 75%Hydrogen 成为新的免费档模型并接管 Google 搜索里的 AI 功能鹈鹕对照：Hydrogen xhigh 输出 5311 token19 秒3.99 美分，Carbon 同档 20305 token4 分 11 秒20.31 美分值得记住的在定价：降的是流量入口，涨的是产能",
+      "summary_en": "Willison's llm-gemini 0.37 release notes double as a Gemini 4 price analysis: Carbon and Argon cost $2/$0.1/$10 per million tokens until November 30, doubling to $4/$0.2/$20 on December 1, while Hydrogen stays at $1.5/$0.075/$7.5 - only 25% cheaper than its siblings now, 75% after December 1, and still 15x the $0.1/$0.5 of Claude Haiku 5.5 and GPT-6 Luna. Hydrogen becomes the free-tier model and takes over AI features in Google Search. A pelican-drawing test across tiers shows the gap scales with price: Hydrogen xhigh spent 5,311 tokens in 19 seconds ($0.0399) versus Carbon's 20,305 tokens in 4m11s ($0.2031). The takeaway is pricing, not pelicans: Google discounts the traffic entry point while doubling the price of capacity.",
+      "one_liner": "Google 发布最低价成员 Gemini 4 Hydrogen，Willison 的插件更新笔记实质是价格表：Carbon 与 Argon 11 月 30 日前均为每百万输入 2 美元/缓存 0.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9f0b5161.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6f6fff48",
+      "title": "A quote from Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-11-10"
+      },
+      "category": "coding",
+      "tags": [
+        "prompting",
+        "claude",
+        "code-ownership",
+        "agent-behavior"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anthropic 文档Prompting Claude Fable 5.2里的一段：模型对代码归属权敏感提示不提归属或把代码库说成别人的时，模型倾向顺着既有结构往里加东西，哪怕产生重复代码；提示说代码库是模型自己的，它会主动合并重复代码触发模板原句是You are the owner and long-term maintainer of this codebase效果可量化：小型编码任务上不加这句合并重复代码的比例不到 10%，加上约 75%同一个模型，只改一句话在代码库里扮演的角色，行为就从往里加变成往里收拾",
+      "summary_en": "Quoted from Anthropic's Prompting Claude Fable 5.2 docs: the model is sensitive to code-ownership framing. Without ownership stated - or with the repo described as someone else's - it tends to bolt changes onto existing structure even at the cost of duplicate code; told it is the owner and long-term maintainer, it merges duplicates and sometimes makes unrequested related improvements. Quantified on small coding tasks: under 10% of runs merged duplicate code without the line, about 75% with it. Prompt construction, not model capability, moves behavior from adding to tidying.",
+      "one_liner": "Anthropic 文档Prompting Claude Fable 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/6f6fff48.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "26a46cce",
+      "title": "An update on our recent security incident",
+      "url": "https://cursor.com/blog/security-incident-update",
+      "source": {
+        "platform": "blog",
+        "author": "Cursor Team",
+        "original_date": "2026-11-13"
+      },
+      "category": "industry",
+      "tags": [
+        "security-incident",
+        "supply-chain",
+        "cursor",
+        "api-keys",
+        "extension-marketplace"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Cursor 11 月 13 日复盘 10 月 29 日事故全链：攻击起点是 Fireworks 侧暴露的访问密钥，攻击者用它拷贝只读共享桶里非隐私模式的 agent traces，其中少量未脱敏凭据（受影响客户 <0.01%）被用来进入部分 SaaS 工具归档非生产源码仓客服数据与用户发给客服的凭据10 月 29 日攻击者又用窃取凭据把 Claude Code 扩展的恶意副本放上扩展市场服务缓存（2.1.312/313，至多 5000 用户，约 11 小时；源站 Open VSX 未感染）隐私模式用户不受影响，非隐私模式 traces 暴露 <0.05% 用户；最后攻击活动 11 月 1 日被阻断",
+      "summary_en": "Cursor's November 13 update pieces together the October 29 incident chain: an attacker obtained an access key issued to vendor Fireworks and exposed on Fireworks' side, copied a read-only bucket of non-Privacy-Mode agent traces (mostly 2025 sessions), and used unredacted credentials inside those traces - under 0.01% of customers' API keys - to reach select SaaS tools, archived non-production repos, support data, and credentials users had sent to support. The attacker also placed malicious copies of Anthropic's Claude Code extension on the marketplace's serving cache (versions 2.1.312/2.1.313, at most 5,000 users, about 11 hours; Open VSX was never infected). Privacy Mode prompts and code were unaffected; trace exposure touched fewer than 0.05% of non-Privacy-Mode users. Last attacker activity seen November 1.",
+      "one_liner": "Cursor 11 月 13 日复盘 10 月 29 日事故全链：攻击起点是 Fireworks 侧暴露的访问密钥，攻击者用它拷贝只读共享桶里非隐私模式的 agent traces.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/26a46cce.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d654e2a1",
+      "title": "Update on October 2026 security incident",
+      "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident-update",
+      "source": {
+        "platform": "blog",
+        "author": "Fireworks Security Team",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "security-incident",
+        "llmjacking",
+        "model-weights",
+        "cloud-security"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Fireworks 对 10 月 9 日首份公告的更新把影响面从存储密钥扩大：部分账号的账号与账单信息（地址发票余额；未存卡号）受影响，部分客户的未完成模型权重与数据集子集也被访问证据指向以经济动机为主的犯罪团伙，走 LLMJacking 路线（把未授权模型访问转卖给非法路由网关）；入侵链是 10 月 23 日第三方云上的 R&D 机器失陷10 月 24 日借道进入开发机跑未授权负载，当天发现处置InferenceTraining SDK 与 Nexus 默认零保留不受影响；Batch 推理与数据集训练的自助上传下载停用，Unit 42 协助取证",
+      "summary_en": "Fireworks' update on its October 2026 incident (original bulletin October 9) widens the impact beyond stored secrets: for a limited set of accounts, billing information (addresses, invoices, balances - no card numbers) and subsets of incomplete model weights and datasets were also accessed. Evidence links the actor to financially motivated LLMJacking - selling unauthorized LLM access to illicit routing gateways - after a third-party cloud provider hosting Fireworks R&D machines was breached on October 23, used to reach development machines and run an unauthorized workload on October 24. Inference, Training SDK, and Nexus remain zero-data-retention and unaffected; self-serve dataset upload/download is disabled during the investigation, with Palo Alto Networks Unit 42 assisting forensics.",
+      "one_liner": "Fireworks 对 10 月 9 日首份公告的更新把影响面从存储密钥扩大：部分账号的账号与账单信息（地址发票余额...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d654e2a1.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a32a4b65",
+      "title": "Anthropic details how the Claude Code team keeps code review working as agents write 90% of the code",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-review",
+      "source": {
+        "platform": "blog",
+        "author": "InfoQ",
+        "original_date": "2026-11-15"
+      },
+      "category": "coding",
+      "tags": [
+        "code-review",
+        "claude-code",
+        "agents",
+        "engineering-process"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "InfoQ 11 月 15 日转述 Anthropic 的 Claude Code 团队审阅方法，补充了博文配图（FIG D）的收敛数字：一轮评审加修复即过的 PR 从 65% 升到 78%，需要五轮及以上的从 8.9% 降到 1.5%机制骨架：开 PR 前跑可运行验收加全新上下文子代理审查；多 agent Claude 评审投票核实；人工审批按变更风险分 0/1/2 人；merge queue 加 flag 内启用与快回滚；三轮封顶加 diff-only 重审打断 agent 作者与评审的对打循环边界：数字全部团队自报无第三方审计；公开产品只发 finding从不 approve 或 block 合并",
+      "summary_en": "InfoQ's November 15 writeup of Anthropic's code-review post adds the convergence numbers from FIG D: PRs passing review-plus-fix in one round rose from 65% to 78%, and PRs needing five or more rounds fell from 8.9% to 1.5%, alongside the post's self-reported doubling of merged PRs and a 40%+ drop in revert share since Claude writes about 90% of the Claude Code codebase. The mechanism: runnable acceptance plus fresh-context subagent review before a PR opens, multi-agent Claude review with vote-based verification, risk-tiered human approval (low 0 / medium 1 / high 2 approvers), merge queue behind flags with fast rollback, and a three-round cap with diff-only re-review. All figures are team self-reported without third-party audit; the public product posts findings but never approves or blocks merges.",
+      "one_liner": "InfoQ 11 月 15 日转述 Anthropic 的 Claude Code 团队审阅方法，补充了博文配图（FIG D）的收敛数字：一轮评审加修复即过的 PR 从 65% 升到 78%，需要五轮及以上的从 8.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/a32a4b65.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4ef74b7e",
+      "title": "The No AI Slop Manifesto (Latent Space AI News, Nov 14)",
+      "url": "https://www.latent.space/p/ainews-the-no-ai-slop-manifesto",
+      "source": {
+        "platform": "blog",
+        "author": "Latent Space",
+        "original_date": "2026-11-14"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-slop",
+        "manifesto",
+        "local-inference",
+        "langchain",
+        "industry"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Latent Space 11 月 14 日日刊以No AI Slop Manifesto为标题故事（slopmanifesto.com，AIE CODE 讨论产物，Dex 闭幕 keynote 引入，定位工作场合讨论工具）同期并行信号：llama.cpp/ggml 1.0（稳定性优先，移除 public header 中 35 个 deprecated API，MoE 常用 expert cache）与 Summit 宣布的 SGLang 1.0；LangChain Series C 页述 CapitalG 领投 3 亿美元估值 30 亿，LangSmith 走跨框架反 slop 宣言与本地推理 1.0 波次同周出现",
+      "summary_en": "Latent Space's November 14 AI News daily leads with the No AI Slop Manifesto (slopmanifesto.com), an AIE CODE discussion product introduced as Dex's closing keynote and framed as a workplace discussion tool. Parallel signals in the same issue: llama.cpp/ggml 1.0 (stability focus, 35 deprecated public-header APIs removed, MoE expert caching) and SGLang 1.0 announced at Summit; LangChain's Series C reported at $300M raised on a $3B valuation led by CapitalG, with LangSmith going cross-framework and a planned November 20 feature announcement. The anti-slop push and the local-inference 1.0 wave landed in the same week.",
+      "one_liner": "Latent Space 11 月 14 日日刊以No AI Slop Manifesto为标题故事（slopmanifesto.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/4ef74b7e.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8468cd1c",
+      "title": "阿里发布 Qwen4-Max：2.4T 参数 / 1M 上下文 / 仅托管不开源",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "source": {
+        "platform": "blog",
+        "author": "Alibaba Qwen Team",
+        "original_date": "2026-11-16"
+      },
+      "category": "models",
+      "tags": [
+        "qwen",
+        "model-release",
+        "pricing",
+        "benchmark"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "阿里 11 月 16 日上线 Qwen4-Max，仅在阿里云托管开放 API，不开源：2.4T 参数1M token 上下文支持视觉；定价每百万输入 1.5 美元/输出 4.5 美元，低于 Qwen3.8-Max，缓存价 0.075 美元/百万（降约 70%）跑分全部官方自报：编码自称超 Opus 5.5 与 GPT-6.1-Sol，WebDev Arena 1674（+35），单任务成本从 4.43 降到 1.67 美元；HN 讨论同时在对 Arena 榜单公信力开火价格曲线与上下文长度是硬事实，榜单结论出自阿里自家 harness，切换前应按同批任务实测（含失败率）",
+      "summary_en": "Alibaba shipped Qwen4-Max on November 16 with hosted-only API access on Alibaba Cloud - 2.4T parameters, 1M-token context, vision support, priced at $1.5/$4.5 per million input/output tokens (below Qwen3.8-Max; cache $0.075/M, about 70% cheaper). Benchmarks are all self-reported: coding claimed above Opus 5.5 and GPT-6.1-Sol, WebDev Arena 1674 (+35), per-task cost cut from $4.43 to $1.67 (-62%). The hard facts are the price curve and context length; the rankings live in Alibaba's own harness and need same-task reproduction, including failure rates, before any switch decision. Note: the qwen.ai page is a JS shell; facts were cross-checked across multiple secondary sources.",
+      "one_liner": "阿里 11 月 16 日上线 Qwen4-Max，仅在阿里云托管开放 API，不开源：2.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/8468cd1c.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b2b95a0d",
+      "title": "manateelazycat：用 Google AI Ultra + Antigravity CLI 稳定跑 Claude Opus 5.5 的野路子",
+      "url": "https://x.com/manateelazycat/status/2121914287027589145",
+      "source": {
+        "platform": "x",
+        "author": "manateelazycat",
+        "original_date": "2026-11-15"
+      },
+      "category": "agents",
+      "tags": [
+        "x-post",
+        "antigravity",
+        "claude-opus",
+        "access",
+        "google-ai-ultra"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "懒猫微服 CEO 分享（1132 赞）绕开 Anthropic 支付与 KYC 门槛跑 Opus 5.5 的方案：国内银行卡买 Google AI Ultra（199 美元/月），把 Google 账号关联国家设为美国以解锁 Antigravity，再用 Google OAuth 登录 Antigravity CLI 选择 Opus 5.5，全程需美国 VPS IP作者称这是他试过最稳的路子（不需要国外支付干净家宽 IPKYC），Gemini 与 Claude 额度分开计算；评论区普遍反馈内置额度太少实用性存疑一条关于区域支付墙与订阅墙灰道访问的现场记录",
+      "summary_en": null,
+      "one_liner": "懒猫微服 CEO 分享（1132 赞）绕开 Anthropic 支付与 KYC 门槛跑 Opus 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/b2b95a0d.md",
+      "images": [
+        "https://pbs.twimg.com/media/HXJ5gWLa4AA6PHs.png",
+        "https://pbs.twimg.com/media/HXJ7H7fa0AAMXYo.png",
+        "https://pbs.twimg.com/media/HXJ7urVbsAEWttv.jpg",
+        "https://pbs.twimg.com/media/HXJ8KerbMAAFxtK.png"
+      ],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-16",
-  "total_entries": 3334
+  "total_entries": 3353
 }
