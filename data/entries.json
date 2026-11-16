@@ -102327,8 +102327,168 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "8cf28cb8",
+      "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+      "url": "https://arxiv.org/abs/2611.17267",
+      "source": {
+        "platform": "arxiv",
+        "author": "Pengcheng Zhou, Xuanyu Liu, Yanchen Yin, Tianjie Ju, Bobo Li, Shengqiong Wu, Hao Fei, Mong-Li Lee, W...",
+        "original_date": "2026-11-12"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "benchmark",
+        "agents",
+        "world-model",
+        "planning"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "GeoWorld 是面向 LLM agent 的可控持续演化地理环境平台，LiveGeo 在其上评测可靠决策：世界状态沿自身时间进程演化并保留可验证历史，任务要求 agent 主动获取信息检验既有证据是否仍成立必要时修订计划结果显示前沿模型连静态任务都吃力，没有模型全面领先，静态强表现难以迁移到演化环境",
+      "summary_en": "GeoWorld is a controllable, continuously evolving geographic environment platform for LLM agents, and LiveGeo is its benchmark for reliable decision-making in real-world geographic settings. Unlike evaluations that reason over fixed geographic states, GeoWorld grounds tasks in real-world geographic structure, lets external world states evolve along their own temporal processes, and preserves verifiable state histories. Tasks require agents to actively acquire task-relevant information, check whether evidence supporting earlier decisions still holds, and revise plans when the world has moved. Reported results show even frontier LLMs struggle with static tasks, no model consistently excels across tasks, and strong static performance does not translate into reliable behavior in the evolving world.",
+      "one_liner": "GeoWorld 是面向 LLM agent 的可控持续演化地理环境平台，LiveGeo 在其上评测可靠决策：世界状态沿自身时间进程演化并保留可验证历史，任务要求 agent 主动获取信息检验既有证据是否仍成立必要时修订计划结果显示前沿模型连静态任务都吃力，没有模型全面领先...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8cf28cb8.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4a3b8a11",
+      "title": "Goal Encoding in LLMs",
+      "url": "https://arxiv.org/abs/2611.17297",
+      "source": {
+        "platform": "arxiv",
+        "author": "Arnab Sen Sharma, Eric Todd, Sheridan Feucht, Andy Arditi, Rohit Gandikota, Natalie Shapira, Gabriel...",
+        "original_date": "2026-11-12"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "interpretability",
+        "attention-heads",
+        "goals",
+        "causality"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "可解释性研究：LLM 会把下一子目标编码进稀疏注意力头的输出，同一组头还能用自然语言解码模型未来的动作；该编码对下一步动作有因果性，且可移植换到另一种编程语言的环境，同一目标会以不同 token 序列实现同一操作，并在整个执行过程中持续维持",
+      "summary_en": "The authors investigate whether LLMs encode goals: internal neural representations that precede and guide action yet are flexible enough to be realized through many different execution paths. In a coding setting with multiple sub-tasks, they localize an encoding of the next sub-goal in the outputs of a sparse set of attention heads, and the same heads decode the model's future actions in natural language (e.g., 'I'm checking if a word is a palindrome'). The encoding is causal for the next action and plastic: transplanting it into a different environment, such as another programming language, triggers the same operation realized with a different token sequence. The model also sustains the encoding throughout the action's execution.",
+      "one_liner": "可解释性研究：LLM 会把下一子目标编码进稀疏注意力头的输出，同一组头还能用自然语言解码模型未来的动作；该编码对下一步动作有因果性，且可移植换到另一种编程语言的环境，同一目标会以不同 token 序列实现同一操作，并在整个执行过程中持续维持",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4a3b8a11.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ebb40664",
+      "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+      "url": "https://arxiv.org/abs/2611.17323",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ethan Lin, Akanksha Sarkar, Ziang Liu, Kristin Branson, Jennifer J. Sun",
+        "original_date": "2026-11-12"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "mle-agents",
+        "semi-supervised-learning",
+        "program-search",
+        "neurips-2026"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "AgentSSL（NeurIPS 2026）把半监督学习视为程序搜索问题，考察 MLE agent 在标注稀缺无标注充足的现实条件下的表现：即便只有弱反馈与同等算力，agent 也能综合并改造成熟 SSL 技术，在 12 个设置中的 8 个超过最强人工基线，最高提升 21.8%；程序选择是当前主要瓶颈",
+      "summary_en": "AgentSSL (NeurIPS 2026) studies MLE agents in realistic semi-supervised regimes: labeled data is scarce while unlabeled data is abundant, but prior MLE-agent work was studied almost exclusively in fully supervised settings. The paper frames SSL as a program-search problem and studies how agents navigate that space under limited supervision. Findings: even under weak feedback and matched compute, agents can synthesize code that combines and adapts established SSL techniques, exceeding the strongest human-engineered baselines in 8 of 12 settings by up to +21.8%. The paper identifies program selection as the critical bottleneck in AgentSSL.",
+      "one_liner": "AgentSSL（NeurIPS 2026）把半监督学习视为程序搜索问题，考察 MLE agent 在标注稀缺无标注充足的现实条件下的表现：即便只有弱反馈与同等算力，agent 也能综合并改造成熟 SSL 技术，在 12 个设置中的 8 个超过最强人工基线，最高提升 21.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ebb40664.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c6caa4d4",
+      "title": "NVIDIA Allegedly Engineered Scarcity By Funding AI Startups To Buy Its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "source": {
+        "platform": "news",
+        "author": "TechPowerUp (WSJ report via Wccftech)",
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "nvidia",
+        "gpu-supply",
+        "ai-infra",
+        "circular-financing",
+        "industry"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "TechPowerUp 转述华尔街日报（经 Wccftech）报道：NVIDIA 被指通过投资 AI 创业公司再由后者采购 GPU 建数据中心的方式人为加剧本轮 GPU 与显存短缺，属循环融资式需求预支报道为指控性质，时间点紧接 Jensen Huang 离任与 GPU 高价争议，HN 讨论达 1098 分646 条评论",
+      "summary_en": "TechPowerUp relays a Wall Street Journal report (via Wccftech) alleging that NVIDIA artificially inflated the ongoing GPU and memory shortage by investing in AI startups that would go on to buy NVIDIA GPUs and build data centers circular financing in which vendor-backed investment becomes GPU demand. The report is framed as an allegation and lands in the weeks after the departure of now-former NVIDIA CEO Jensen Huang, amid ongoing controversy over high GPU prices. The story drew a large Hacker News discussion (1098 points, 646 comments).",
+      "one_liner": "TechPowerUp 转述华尔街日报（经 Wccftech）报道：NVIDIA 被指通过投资 AI 创业公司再由后者采购 GPU 建数据中心的方式人为加剧本轮 GPU 与显存短缺，属循环融资式需求预支报道为指控性质...",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/c6caa4d4.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "de1b04ae",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source",
+      "source": {
+        "platform": "blog",
+        "author": "Jakub T. Jankiewicz",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "ai-generated-code",
+        "open-source",
+        "copyright",
+        "licensing",
+        "opinion"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Jankiewicz 主张 AI 生成的代码都应开源：模型语料取自未经许可抓取的开源代码与按 CC 协议要求署名的 Stack Exchange 内容，把这份集体知识变成专有输出近乎许可证洗白；纯 AI 生成代码没有人类作者不应享有版权（猴子自拍判例已被美国版权局援引），建议用开源许可证或 CC0 发布，尤其是只写 prompt 几乎不复核的代码HN 热议 1048 分",
+      "summary_en": "Jakub T. Jankiewicz argues that all AI-generated code should be open source. His case: today's models were trained on a massive corpus of scraped open-source code and on Stack Overflow/Stack Exchange content whose Creative Commons licenses legally require attribution, so turning that collective knowledge into proprietary, closed-source output amounts to license laundering. Legally, purely AI-generated code has no human author and should not be copyrightable he cites the Monkey Selfie precedent later referenced by the U.S. Copyright Office on AI works, and Wikimedia Commons' practice of tagging purely AI-generated images as public domain. He recommends releasing AI-generated code under open-source licenses or CC0, especially output shipped with little more than prompt writing and no review.",
+      "one_liner": "Jankiewicz 主张 AI 生成的代码都应开源：模型语料取自未经许可抓取的开源代码与按 CC 协议要求署名的 Stack Exchange 内容，把这份集体知识变成专有输出近乎许可证洗白.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/de1b04ae.md",
+      "images": [],
+      "added_date": "2026-11-16",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-15",
-  "total_entries": 3329
+  "last_updated": "2026-11-16",
+  "total_entries": 3334
 }

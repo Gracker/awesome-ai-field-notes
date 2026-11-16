@@ -4,6 +4,8 @@
 
 ## 最新精选 Top 10
 
+- [NVIDIA Allegedly Engineered Scarcity By Funding AI Startups To Buy Its GPUs](https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus) ⭐3 · 2026-11-16 — TechPowerUp 转述华尔街日报（经 Wccftech）报道：NVIDIA 被指通过投资 AI 创业公司再由后者采购 GPU 建数据中心的方式人为加剧本轮 GPU 与显存短缺，属循环融资式需求预支报道为指控性质...
+- [All AI-generated code should be Open Source](https://jakub.jankiewicz.org/blog/ai-code-open-source) ⭐3 · 2026-11-16 — Jankiewicz 主张 AI 生成的代码都应开源：模型语料取自未经许可抓取的开源代码与按 CC 协议要求署名的 Stack Exchange 内容，把这份集体知识变成专有输出近乎许可证洗白.
 - [Claude Code Projects: coordinator goes proactive across parallel threads](https://x.com/ClaudeDevs/status/2121375309287301360) ⭐4 · 2026-11-15 — Anthropic 大改 Claude Code 的 Projects：项目内由协调器跨并行线程调度任务，协调器更主动在项目聊天里答问主动汇报各线程状态（官帖 18k likes）核对口径：/btw 开旁路提问/fork 分支线程...
 - [Terminal-Bench 4.1: verifier hardening against reward hacking, $0 artifact regrade](https://www.tbench.ai/news/terminal-bench-4-1) ⭐4 · 2026-11-14 — 基准方防 reward hacking 的可抄作业：Worker 隔离加产物消毒加存工件 0 成本重评
 - [Artificial Analysis Coding Agent Index v2.1: three-way tie at 58, 30x per-task cost spread](https://artificialanalysis.ai/agents/coding-agents) ⭐4 · 2026-11-14 — 读榜纪律：测的是模型+harness+effort 组合，榜首并列 58 但单任务成本差 30 倍，先看 Pareto 再看名次
@@ -12,27 +14,25 @@
 - [Of Course People Hate Data Centres](https://hugotunius.se/2026/11/14/of-course-people-hate-data-centres.html) ⭐3 · 2026-11-14 — Tunius 11 月 14 日解释 2026 年最激烈的政治议题为何是钢筋水泥的数据中心：人们恨的其实是 AI 及其鼓吹者，数据中心只是敌意落地最显眼的石头数字很硬：美国中期选举 44 项数据中心投票仅 1 项对开发商有利，出口民调 76% 反对本地建设...
 - [How to find meaning in large tech companies](https://seangoedecke.com/how-to-find-meaning-in-large-tech-companies) ⭐3 · 2026-11-14 — 大厂意义的具体化：不辩解不劝退，把修一个 bug 省下的用户月当有量级之事来算
 - [The avalanche that hit math is coming for AI development](https://www.dwarkesh.com/p/rsi) ⭐4 · 2026-11-13 — 判断可以改口，但这次给了三个可查锚点：组织内占比人均日花费进展速度翻倍
-- [The Hater's Guide to Megaspeed](https://www.wheresyoured.at/hg-megaspeed) ⭐4 · 2026-11-13 — 关键不是八卦是口径：若走私占 Nvidia 年收入两成，出口管制下的需求要重新对账
-- [Securing persistent agents like OpenClaw at OpenAI](https://developers.openai.com/blog/securing-persistent-agents-like-openclaw-at-openai) ⭐4 · 2026-11-13 — 500+ 生产持久 agent 的控制面清单：控制面分离schema 化 allowlist凭证代理LLM 二审独立身份
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 533 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 723 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| 模型与实验室 | 535 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 725 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
 | AI 编程 | 388 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 231 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 284 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 产品与商业 | 285 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 151 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 244 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 3329
-- 公开展示卡片: 2554
+- 原始条目: 3334
+- 公开展示卡片: 2559
 - 有全文内容: 2435
-- 最近 7 天信号: 197
+- 最近 7 天信号: 166
 - 输出目录: `dist/`
 
 ## 热门标签
