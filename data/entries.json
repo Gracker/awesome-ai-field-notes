@@ -103090,8 +103090,264 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "1c7b50d3",
+      "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+      "url": "https://arxiv.org/abs/2611.18533",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zelin He, Siyu Zhu, Jacob Helwig, Yujian Liu, Li An, Rohit Jain, Shiyu Chang, Alborz Geramifard",
+        "original_date": "2026-11-13"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "agentic-rl",
+        "harness",
+        "context-compression",
+        "steering"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "把 agentic RL 的 harness 从手写固定改为可学习随训练演化的程序：交互记录为类型化的 State 块，Compression 程序负责把累积历史组装进上下文，Steering 程序在行为偏离时给出引导；训练中从近期轨迹提出候选程序执行验证并在旧轨迹上重放，让 harness 跟上模型行为漂移在 CodeSearch 上深入研究，另测 ALFWorld 与 BIRD SQL，模型规模 1.5B-8B：多数设置下 held-out 性能超过固定 harness 基线，说明 harness 可以从任务数据学出并与模型共同进化",
+      "summary_en": "Agentic RL increasingly depends on a harness: the scaffold that decides what the model sees of its own interaction and what guidance it receives, yet most approaches keep it hand-written and fixed even though an effective one depends on domain, data, and the model's changing behavior. ModHarness-RL recasts the harness as programs learned from data that evolve during RL training. Interactions become structured State (typed blocks); a Compression program assembles accumulated history into context and a Steering program supplies guidance when behavior deviates. Candidate programs are proposed from recent trajectories, verified by execution, and replayed over past trajectories to track behavior shift. Across CodeSearch, ALFWorld, and BIRD SQL with 1.5B-8B models, Compression and Steering improve held-out performance over fixed-harness baselines in most settings.",
+      "one_liner": "把 agentic RL 的 harness 从手写固定改为可学习随训练演化的程序：交互记录为类型化的 State 块，Compression 程序负责把累积历史组装进上下文，Steering 程序在行为偏离时给出引导.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1c7b50d3.md",
+      "images": [],
+      "added_date": "2026-11-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "661c8f9b",
+      "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+      "url": "https://arxiv.org/abs/2611.18514",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mohamed Aghzal, Mor Geva, Gregory J. Stein, Ziyu Yao",
+        "original_date": "2026-11-13"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "mechanistic-interpretability",
+        "agent-failures",
+        "web-agents",
+        "hallucination"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "机制可解释性（MI）能不能解释 agent 的失败？以 Qwen2.5-7B-Instruct 在真实网站上交互幻觉出页面上不存在的 web 动作为案例：末位 prompt token 上的线性探针可在生成开始前预测幻觉（0.80 AUC），沿探针方向转向能纠正 85% 的幻觉但干扰 7% 的正常动作但解释只是局部的：探针方向对 prompt 格式敏感，轻微改变动作表示方式就大幅失效；回路识别也困难，计算分散在多个组件与位置，agent 依赖的信息随样本变化作者据此讨论标准 MI 方法在 agent 场景的假设缺陷与改进方向",
+      "summary_en": "Mechanistic interpretability (MI) explains LLM internals well but has yet to explain LLM-agent decision making comparably. MI analyses of Qwen2.5-7B-Instruct acting on live websites study web agents that hallucinate actions unavailable on the site. A linear probe on the last prompt token predicts hallucinations before generation begins (0.80 AUC); steering along the probe direction corrects 85% of hallucinations but disrupts 7% of valid actions. The explanation is only partial: the probe direction is sensitive to prompt formatting, losing much of its steering effect after a minor change to action representation; circuit identification is hard because computation is distributed across components and positions and the information the agent relies on varies across examples. The authors outline better-suited MI directions for agent failure explanation.",
+      "one_liner": "机制可解释性（MI）能不能解释 agent 的失败？",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/661c8f9b.md",
+      "images": [],
+      "added_date": "2026-11-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3f6c8be7",
+      "title": "TradeGauntlet: Evaluating Compliance Controls for Autonomous Trading Agents",
+      "url": "https://arxiv.org/abs/2611.18493",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sandip Nandi, Aishwarya Bose, Apurba Bose, Soovadeep Bakshi",
+        "original_date": "2026-11-13"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "agent-compliance",
+        "trading-agents",
+        "market-manipulation",
+        "guardrails"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "自主交易 agent 需要拦住问题订单又不拖累正常任务TradeGauntlet 是可重放的限价订单簿模拟器，把检测阻止与执行成本分开评估：在 Claude Haiku 5.5 与 Sonnet 5.5 的 1680 个模拟 session 中，全部行为告警都是自撮合；拒绝自交叉订单的 gate 消除了告警，聚合 gate 让 Sonnet 双边成交下降约 15%；行为提醒降低了 Sonnet 告警率却压低 Haiku 成交且无告警收益零告警并不等于合规探针与搜索方法找到可绕过规则的拆单调度，学到的基线能抓住全部 2400 个搜索样本但误伤大 maker 15% 的 session",
+      "summary_en": "Autonomous trading agents need controls that block problematic orders without blocking legitimate tasks. TradeGauntlet is a replayable limit-order-book simulator separating detection, prevention, and execution cost. In 1,680 simulated sessions with Claude Haiku 5.5 and Sonnet 5.5, all conduct alerts were self-matches; gates eliminated them by rejecting self-crossing orders, while an aggregate-gate condition cut Sonnet's two-sided fills by about 15%. A conduct reminder cut Sonnet's alert rate but also Haiku's fills with no alert benefit: zero alerts alone do not establish compliance. Probes and search methods find split-order schedules evading the implemented rules; a learned baseline catches all 2,400 searched episodes but flags 15% of a large maker's sessions, and an adversarial prompt drew refusals in all 240 rounds. TradeGauntlet gives reproducible control tests for trading agents.",
+      "one_liner": "自主交易 agent 需要拦住问题订单又不拖累正常任务TradeGauntlet 是可重放的限价订单簿模拟器，把检测阻止与执行成本分开评估：在 Claude Haiku 5.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3f6c8be7.md",
+      "images": [],
+      "added_date": "2026-11-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f2b25f29",
+      "title": "Do Verifier Judgments Survive Abstraction? Measuring Verification Transport for LLM Agent Evaluation",
+      "url": "https://arxiv.org/abs/2611.18471",
+      "source": {
+        "platform": "arxiv",
+        "author": "Disha Sheshanarayana, Sai Linisha Reddy Goli",
+        "original_date": "2026-11-13"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "llm-verifiers",
+        "agent-evaluation",
+        "abstraction",
+        "provenance"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM verifier 的可靠性通常只在单一轨迹表示下测量，但线上系统会把同一执行经组合工具委托边界或压缩历史呈现，改变 verifier 能直接看到的证据作者提出 Verification Transport：在任务轨迹结果标注等全部固定的条件下，构造同一批冻结执行的原生/抽象/还原三视图来测判断稳定性在 4 个 agent 评测基准7 个 verifier4 种协议3 类抽象边界上，宏抽象与委托下 transport 失败率达约 31%：直接验证更多给出错误判定，证据锚定与审议式协议在观测受限时倾向弃权；还原执行溯源可挽回 85.5% 的失败",
+      "summary_en": "LLM verifiers increasingly evaluate agent executions, but reliability is typically measured under a single trajectory representation, while deployed systems expose the same execution through composed tools, delegation boundaries, or compacted histories that change what evidence is observable. The paper introduces Verification Transport: a test of judgment stability under abstraction-induced observability changes, built from matched native, abstracted, and restored views of the same frozen executions. Across four agent-evaluation benchmarks, seven verifier backbones, four protocols, and three abstraction boundaries, transport failure reaches about 31% under macro abstraction and delegation: direct verification errs more often, while evidence-grounded and deliberative protocols tend to abstain under limited observability. Restoring execution provenance recovers 85.5% of failures.",
+      "one_liner": "LLM verifier 的可靠性通常只在单一轨迹表示下测量，但线上系统会把同一执行经组合工具委托边界或压缩历史呈现，改变 verifier 能直接看到的证据作者提出 Verification Transport：在任务轨迹结果标注等全部固定的条件下.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f2b25f29.md",
+      "images": [],
+      "added_date": "2026-11-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2b05f373",
+      "title": "Soteria: Formally Verified Planning with Runtime Enforcement for Safe LLM Agents",
+      "url": "https://arxiv.org/abs/2611.17880",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mike He, Ankush Desai, Sharad Malik, Aarti Gupta",
+        "original_date": "2026-11-13"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "agent-safety",
+        "runtime-enforcement",
+        "formal-verification",
+        "tool-use"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "执行多步工具调用的 LLM agent 要同时满足任务效用与领域策略/正确性约束，直接拦下不安全动作虽能阻止违规却可能让任务卡死Soteria（NeurIPS'26 Oral）用验证过的分层规划 + 运行时强制同时保住两个目标：执行前生成结构化计划并在任何工具调用前对照规范做形式化验证；执行中已验证计划既约束轨迹合规，又在动作被拦截时提供恢复指引在覆盖多种工具使用任务的基准上，平均任务成功率达到最佳基线的 1.7 倍且零策略违规，说明安全与效用不必二选一",
+      "summary_en": "LLM agents executing multi-step tool calls must complete the user's task (utility) while conforming to domain policies and correctness constraints (safety); they are in tension: blocking an unsafe action prevents violations but can strand the agent, and existing approaches sacrifice one objective for the other. Soteria reconciles the two via verified hierarchical planning plus runtime enforcement: the agent produces a structured plan formally verified against specifications before any tool invocation; during execution the verified plan keeps trajectories conformant and guides recovery when unsafe actions are blocked. Across benchmarks covering diverse tool-use tasks, Soteria achieves 1.7x the average task success rate of the best baselines with no policy violations, showing safety and utility need not be traded off.",
+      "one_liner": "执行多步工具调用的 LLM agent 要同时满足任务效用与领域策略/正确性约束，直接拦下不安全动作虽能阻止违规却可能让任务卡死Soteria（NeurIPS'26 Oral）用验证过的分层规划 + 运行时强制同时保住两个目标：执行前生成结构化计划并在任何工具调用前对照规范做形式...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2b05f373.md",
+      "images": [],
+      "added_date": "2026-11-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ead89649",
+      "title": "Callo: Serving Cache-Miss Requests with Speculative Decoding on Invalidated KV under Prefill-Decode Disaggregation",
+      "url": "https://arxiv.org/abs/2611.18459",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jianjun Ou, Matthew Lentz",
+        "original_date": "2026-11-13"
+      },
+      "category": "infra",
+      "tags": [
+        "arxiv",
+        "kv-cache",
+        "speculative-decoding",
+        "prefill-decode-disaggregation",
+        "serving"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "agent 会话的频繁上下文编辑会让缓存 KV 失效，请求只能等待重 prefill 再解码Callo 在 PD 分离 serving 中把已失效的 KV利用起来：用它生成投机草稿，prefill 完成后按精确 KV 验证再提交 token，从而吃掉这段等待延迟；调度上在 decode 空闲时发起投机在草稿大概率不被接受时抢占双 GPU 测试床跑三个模型家族的 SWE-agent 会话，中等负载下全请求相对 vLLM 提速 1.05-1.19 倍，真实 trace 驱动的集群级模拟显示增益可在规模上复现",
+      "summary_en": "Agent sessions involve frequent context edits, which effectively invalidate cached KV state and force requests to wait for re-prefill before decoding. Callo is a disaggregated serving system that puts invalidated KV to work: it uses it for speculative drafts to reduce that latency, while verifying drafts against the exact KV after prefill before committing tokens. Callo makes effective use of decode resources by scheduling speculations during periods of underutilization and preempting speculations when drafts are likely to not be accepted. On a two-GPU testbed using SWE-agent sessions across three model families, Callo observes all-request speedups of 1.05-1.19x over vLLM at moderate load, and cluster-level simulations driven by real-world traces show the gains also hold at scale.",
+      "one_liner": "agent 会话的频繁上下文编辑会让缓存 KV 失效，请求只能等待重 prefill 再解码Callo 在 PD 分离 serving 中把已失效的 KV利用起来：用它生成投机草稿，prefill 完成后按精确 KV 验证再提交 token，从而吃掉这段等待延迟.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ead89649.md",
+      "images": [],
+      "added_date": "2026-11-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e4173937",
+      "title": "PerfArena: Ranking LLMs by Code Performance",
+      "url": "https://arxiv.org/abs/2611.18030",
+      "source": {
+        "platform": "arxiv",
+        "author": "Rui Rua, Hailemariam Mersha, Joao Paulo Fernandes, Karim Ali",
+        "original_date": "2026-11-13"
+      },
+      "category": "coding",
+      "tags": [
+        "arxiv",
+        "code-generation",
+        "benchmark",
+        "performance",
+        "energy"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM 生成的代码多半能跑对，但能否大量复用还取决于时间/内存/能耗成本多数代码基准只测正确性，性能向基准覆盖语言少且几乎不测能耗PerfArena 是开源可复现的竞技场：在类 Unix 主机上执行各 LLM 的解答，同时报告正确性延迟峰值内存与能耗，oracleprofiler 与生成流程全部可插拔基于 CLBGComp（10 个 Benchmarks Game 计算密集题）与 LeetCodeComp（99 题）已收录 13 个主流 LLM7 种语言的 9455 个实测解答；摘要指出 got-6-astra 是唯一在延迟/能耗/峰值内存上无显著对手的模型",
+      "summary_en": "LLM-generated code is mostly but not always correct, and fitness for heavy reuse also depends on its cost in time, memory, and energy; most code benchmarks evaluate correctness in isolation, and performance-oriented ones cover few languages and rarely measure energy. PerfArena is an open-source, reproducible arena ranking LLMs by generated-code performance: it executes solutions on a Unix-like host and reports correctness with latency, peak memory, and energy consumption, with correctness oracles, performance oracles, profilers, and codegen workflows pluggable. Evaluated on CLBGComp (10 compute-intensive Benchmarks Game problems) and LeetCodeComp (99 LeetCode problems), it holds 9,455 correct measured solutions from 13 state-of-the-art LLMs across 7 languages; per the abstract, got-6-astra is the only LLM no other significantly beats on latency, energy, or peak memory.",
+      "one_liner": "LLM 生成的代码多半能跑对，但能否大量复用还取决于时间/内存/能耗成本多数代码基准只测正确性，性能向基准覆盖语言少且几乎不测能耗PerfArena 是开源可复现的竞技场：在类 Unix 主机上执行各 LLM 的解答，同时报告正确性延迟峰值内存与能耗.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e4173937.md",
+      "images": [],
+      "added_date": "2026-11-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4c496f27",
+      "title": "HerAgent: A Block-Level Checkpointing Harness for Coding-Agent Environment Setup",
+      "url": "https://arxiv.org/abs/2611.18443",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xiang Li, Siyu Lu, Federica Sarro, Claire Le Goues, He Ye",
+        "original_date": "2026-11-13"
+      },
+      "category": "coding",
+      "tags": [
+        "arxiv",
+        "coding-agents",
+        "environment-setup",
+        "checkpointing",
+        "harness"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "coding agent 在测试/调试/补丁验证前要先搭好可执行环境，但现有 setup agent 只有单命令或整脚本两种进度控制粒度：恢复要么太细去不掉污染状态，要么太粗保不住已有进展HerAgent（Harness EnviRonment Setup Agent）提出语义 setup 块这一统一抽象，把执行验证检查点修复回滚都挂在块级控制上在 4 个环境搭建数据集上与 6 个既有 agent 对比全部取胜：Installamatic-Bench 52.0% 提升到 85.0%，SetupBench 46.3% 提升到 70.4%，setup 成本最多降低 94.5%",
+      "summary_en": "Coding agents must establish executable software environments before they can test, debug, or validate patches, but existing setup agents typically control progress at either single-command or whole-script granularity, so recovery is either too local to remove polluted state or too coarse to preserve useful progress. HerAgent (Harness EnviRonment Setup Agent) is a block-level harness for coding-agent environment setup whose core abstraction, semantic setup blocks, serves execution, validation, checkpointing, repair, and rollback. Evaluated against six prior agents on four environment-setup datasets, HerAgent improves setup success in every comparison, achieving the largest gains on Installamatic-Bench (52.0% to 85.0%) and SetupBench (46.3% to 70.4%), and reduces setup cost by up to 94.5%, showing that block-level progress control improves both reliability and efficiency.",
+      "one_liner": "coding agent 在测试/调试/补丁验证前要先搭好可执行环境，但现有 setup agent 只有单命令或整脚本两种进度控制粒度：恢复要么太细去不掉污染状态...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4c496f27.md",
+      "images": [],
+      "added_date": "2026-11-17",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-16",
-  "total_entries": 3353
+  "last_updated": "2026-11-17",
+  "total_entries": 3361
 }
