@@ -1241,7 +1241,8 @@
       "updated_date": "2026-08-17",
       "github_stars": null,
       "related": [
-        "managed-agents"
+        "managed-agents",
+        "b80aa957"
       ],
       "local_path_valid": false
     },
@@ -9501,7 +9502,9 @@
       "added_date": "2026-06-07",
       "updated_date": "2026-08-26",
       "github_stars": null,
-      "related": []
+      "related": [
+        "3bb5b3b2"
+      ]
     },
     {
       "id": "d14e43b2",
@@ -103074,7 +103077,7 @@
       "source_type": "x_post",
       "language": "zh",
       "summary_zh": "懒猫微服 CEO 分享（1132 赞）绕开 Anthropic 支付与 KYC 门槛跑 Opus 5.5 的方案：国内银行卡买 Google AI Ultra（199 美元/月），把 Google 账号关联国家设为美国以解锁 Antigravity，再用 Google OAuth 登录 Antigravity CLI 选择 Opus 5.5，全程需美国 VPS IP作者称这是他试过最稳的路子（不需要国外支付干净家宽 IPKYC），Gemini 与 Claude 额度分开计算；评论区普遍反馈内置额度太少实用性存疑一条关于区域支付墙与订阅墙灰道访问的现场记录",
-      "summary_en": null,
+      "summary_en": "manateelazycat (LazyCat Weifu CEO, X post 2026-11-15, 1132 likes) documents a gray-area route to run Claude Opus 5.5 without Anthropic payment/KYC: buy Google AI Ultra (USD 199/mo) with a domestic bank card, set the Google account country to US to unlock Antigravity, then sign into the Antigravity CLI via Google OAuth and select Opus 5.5, with a US VPS IP required throughout. The author calls it his most stable route (no foreign payment, clean home IP, or KYC); Gemini and Claude quotas are metered separately. Commenters widely report the built-in quota is too small for daily use - a field record of regional payment-wall and subscription-wall gray access.",
       "one_liner": "懒猫微服 CEO 分享（1132 赞）绕开 Anthropic 支付与 KYC 门槛跑 Opus 5.",
       "one_liner_author": "openclaw",
       "quality_score": 3,
@@ -103348,6 +103351,6 @@
       "related": []
     }
   ],
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-18",
   "total_entries": 3361
 }
