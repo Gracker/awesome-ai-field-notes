@@ -63850,7 +63850,9 @@
       "added_date": "2026-09-03",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "715137d9"
+      ]
     },
     {
       "id": "e8ef6192",
@@ -103349,8 +103351,235 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "02dd92c6",
+      "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
+      "url": "https://arxiv.org/abs/2611.21577",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zeynab Anbiaee, Sajjad Dadkhah, Ali A. Ghorbani",
+        "original_date": "2026-11-16"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "mcp",
+        "agent-security",
+        "tool-selection",
+        "measurement"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "MCP 让 agent 组合多台 server 的工具，但用于发现和选择的工具元数据并不绑定已验证的提供方身份论文把 tool-provider misbinding 形式化为攻击者控制的工具选择优化问题：攻击者只需另起一台 MCP server 发布精心构造的元数据，就能把合法请求解析到自己控制的工具，全程不碰宿主模型正规 server 和网络在受控 MCP 环境对 5 个 LLM 客户端评测：精确同名任务对齐描述兼容 schema 三者叠加时失败最强，权威化描述加兼容 schema 也能引发错误提供方执行或提供方歧义",
+      "summary_en": "LLM agents compose tools advertised by multiple servers under MCP, but tool metadata used for discovery and selection is not bound to a verified provider identity. The paper formalizes tool-provider misbinding: a request for a legitimate provider resolves to an attacker-controlled tool that simply advertises chosen metadata from another MCP server, without compromising the host, LLM, legitimate server, or network. The authors cast misbinding as an attacker-controlled tool-selection optimization problem and evaluate it across five LLM-based clients in a controlled MCP environment. Interactions drive the failures: exact-name collision, task-aligned description, and compatible schema are strongest when they reinforce one another, but authority-enhanced descriptions with a compatible schema can also trigger wrong-provider execution or unresolved provider ambiguity without any name collision.",
+      "one_liner": "MCP 让 agent 组合多台 server 的工具，但用于发现和选择的工具元数据并不绑定已验证的提供方身份论文把 tool-provider misbinding 形式化为攻击者控制的工具选择优化问题：攻击者只需另起一台 MCP server 发布精心构造的元数据...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/02dd92c6.md",
+      "images": [],
+      "added_date": "2026-11-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3bbb4e23",
+      "title": "Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle",
+      "url": "https://arxiv.org/abs/2611.21538",
+      "source": {
+        "platform": "arxiv",
+        "author": "Arunkumar V, Manoranjan Gandhudi, Gangadharan G. R., Arun Prakash, S. Senthilkumar",
+        "original_date": "2026-11-16"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "rlvr",
+        "reward-hacking",
+        "verifiers",
+        "process-rewards"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "RLVR 继承 verifier 的一切错误：数学和代码之外 verifier 只是代理，与真实目标的距离从没被测过，reward 上涨分不清是真进步还是被 hack作者用 124,416 个上下文上的可执行授权策略构造能精确列出每个决策全部最小充分理由的过程级 oracle，再沿七个现实轴降级 verifier（只看结果充分性只看召回抽取噪声粗分类过期策略LLM 裁判）后训练四种表型：乐观 verifier 被 padding hack，充分性代理停在 0.940 而真实 faithfulness 从 0.731 跌到 0.667；只看结果的 verifier 饱和后不再教学；噪声稀释信号；保序的差距无害",
+      "summary_en": "RL from verifiable rewards inherits whatever its verifier gets wrong: outside math and code the verifier is a proxy whose distance from the true objective is never measured, so a rising reward cannot be told apart from a hack. The paper builds a setting where the true reward is exactly computable at the process level - executable authorization policies over 124,416 contexts admit an oracle listing every minimal sufficient reason - then compiles the policies into exact process rewards and degrades the verifier along seven realistic axes (outcome-only, sufficiency, recall-only, noise, coarse taxonomy, stale policy, LLM judge). Four phenotypes emerge: optimistic verifiers get hacked by padding (sufficiency proxy at 0.940 while true faithfulness falls 0.731 to 0.667 on 96 held-out episodes); outcome-only verifiers saturate and stop teaching; noise dilutes; ranking-preserving gaps do no harm.",
+      "one_liner": "RLVR 继承 verifier 的一切错误：数学和代码之外 verifier 只是代理，与真实目标的距离从没被测过，reward 上涨分不清是真进步还是被 hack作者用 124,416 个上下文上的可执行授权策略构造能精确列出每个决策全部最小充分理由的过程级 oracle.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3bbb4e23.md",
+      "images": [],
+      "added_date": "2026-11-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6b4d1edc",
+      "title": "SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents",
+      "url": "https://arxiv.org/abs/2611.21541",
+      "source": {
+        "platform": "arxiv",
+        "author": "Brian T. Weston, Alondra Torres Contreras, Aldair E. Gongora",
+        "original_date": "2026-11-16"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "benchmark",
+        "agents",
+        "calibration",
+        "scientific-research"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "SciResearch-Eval 用标准实验室问题（加热材料拟合热传导模拟器）考 agent 的科研判断：自己设计实验用可能欠分辨或物理错误的模拟器每个属性给出对齐真值的 95% 区间held-out 93 任务9 模型2,511 回合：程序性陷阱都能处理，但模拟器缺物理时多数模型报错值还自称 95% 置信，区间命中率只有 20-62%（GPT-6 Astra 94%Claude Fable 5.2 99%）；Claude 5.5 默认档很少诊断出缺物理（Opus 35% vs Astra 66%），Astra 和 Fable 会设计温和加热这类让错误模拟器恰好够用的实验",
+      "summary_en": "SciResearch-Eval is an interactive benchmark of scientific judgment built on heating a material and fitting a heat-conduction simulator. The agent designs its own experiments, works with a simulator that may be under-resolved or physically wrong, and must report each property with a 95% interval against exact ground truth - the first benchmark combining agent-designed experiments, a flawed simulator, and calibrated-interval scoring. Across 93 held-out tasks, 9 models, 2,511 episodes, models handle procedural traps, but when the simulator is missing physics most report wrong values at claimed 95% confidence: intervals contain the truth in only 20-62% of cases, against 94% for GPT-6 Astra and 99% for Claude Fable 5.2. Failing Claude 5.5 models rarely diagnose the missing physics (Opus 35% vs Astra 66%); Astra and Fable design experiments where the flawed simulator happens to be accurate.",
+      "one_liner": "SciResearch-Eval 用标准实验室问题（加热材料拟合热传导模拟器）考 agent 的科研判断：自己设计实验用可能欠分辨或物理错误的模拟器每个属性给出对齐真值的 95% 区间held-out 93 任务9 模型2,511 回合：程序性陷阱都能处理...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6b4d1edc.md",
+      "images": [],
+      "added_date": "2026-11-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7db169ea",
+      "title": "Right Reason, Wrong Advice: Evaluating Recourse in LLM Explanations of Denied Requests",
+      "url": "https://arxiv.org/abs/2611.21545",
+      "source": {
+        "platform": "arxiv",
+        "author": "Arunkumar V",
+        "original_date": "2026-11-16"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "llm-explanations",
+        "recourse",
+        "evaluation",
+        "decision-systems"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM 越来越多地替规则系统写拒绝解释，但多条规则独立拒绝时，解释可以列出真实原因用户照着修完却仍被拒论文定义 recourse validity（照解释改动作能否翻转决定）并精确计算，还用 hitting-set 论证仅凭策略就能预测正确解释何时失效：从访问控制和美国福利资格移植的 7 个规则系统里 6 个在多原因并存时单条正确原因几乎不给出路20 个 LLM 上，检查\"引用原因是否正确\"接近随机，改问\"照做能否翻案\"才能识别该失败；模型越强越好但仍败给四条以上独立原因的拒绝",
+      "summary_en": "LLMs increasingly write the explanations people get when a rule system denies a request. When several rules deny independently, an explanation can name a true reason yet leave them denied after fixing what was cited. The paper defines recourse validity - acting on what the explanation cites, without changing the ask, can flip the decision - computes it exactly, and predicts from the policy alone via a hitting-set argument when a correct reason fails. In six of seven rule systems from access control and US benefit eligibility, a single correct reason almost never yields recourse when several reasons apply. Across 20 LLMs, cited-reason correctness checks are near chance at spotting the failure, while a judge asked whether acting on it would work spots it; reasoning models do better but still fail with four or more independent reasons, and asking for every rule helps every open model.",
+      "one_liner": "LLM 越来越多地替规则系统写拒绝解释，但多条规则独立拒绝时，解释可以列出真实原因用户照着修完却仍被拒论文定义 recourse validity（照解释改动作能否翻转决定）并精确计算.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7db169ea.md",
+      "images": [],
+      "added_date": "2026-11-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3557563a",
+      "title": "Latent Lattice Language Models",
+      "url": "https://arxiv.org/abs/2611.21608",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shivam Duggal, Zongze Wu, William T. Freeman, Antonio Torralba, Richard Zhang, Eli Shechtman",
+        "original_date": "2026-11-16"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "architecture",
+        "language-models",
+        "residual-stream",
+        "latent-computation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "不加深层数也不加循环步，而是增加模型同时维持的活跃计算状态数：Lattice of Latents 在每层加一条沿时间循环的水平 latent 流，与竖直残差流并行与 Transformer-SSM 混合架构不同，这些 latent 不是序列混合的内部记忆，而是直接条件化竖直流的注意力KV-cache 写入MLP 计算和解码在 20B FineWeb-Edu token 上训练，406M 参数的 Lattice 模型把验证困惑度从 15.41 降到 14.40，且增益在不同架构变体上都成立",
+      "summary_en": "Language models usually raise per-token computation via deeper or looped layers and latent reasoning steps, while richer residual wiring only improves information flow. Latent Lattice instead increases computational capacity - the number of active computational states a model maintains. The Lattice of Latents adds per-layer horizontal latent streams that run recurrently along time alongside the vertical residual stream; unlike hybrid Transformer-SSM architectures whose recurrent states mainly serve as internal memory for sequence mixing, these latents directly condition the vertical stream's attention, KV-cache writes, MLP computation, and decoding. On Transformers trained on 20B FineWeb-Edu tokens, a 406M-parameter Lattice model lowers validation perplexity from 15.41 to 14.40 over a parameter-matched Transformer, with gains extending across architectural variants.",
+      "one_liner": "不加深层数也不加循环步，而是增加模型同时维持的活跃计算状态数：Lattice of Latents 在每层加一条沿时间循环的水平 latent 流，与竖直残差流并行与 Transformer-SSM 混合架构不同，这些 latent 不是序列混合的内部记忆.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3557563a.md",
+      "images": [],
+      "added_date": "2026-11-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "715137d9",
+      "title": "Introducing FrontierHarness Eval v1.1: 22 harnesses x 5 models, the best harness differs per model",
+      "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1",
+      "source": {
+        "platform": "blog",
+        "author": "Shilin Zhu",
+        "original_date": "2026-11-17"
+      },
+      "category": "agents",
+      "tags": [
+        "harness",
+        "benchmark",
+        "evaluation",
+        "agents",
+        "cost",
+        "leaderboard"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Runta 与 Baseten 的最大规模 harness 榜单：83B token27,280 次 agent 运行，22 harness x 5 模型 x 62 任务 x 4 尝试，是 v1.0 的 76 倍核心结论：换模型时就该考虑换 harness每个模型的性价比最优 harness 都不同（GLM-5.3 配 Codex CLIGLM-5.3 Flash 配 PiDeepSeek V4.1 Flash 1017 配 ZCodeKimi-K3 配 Alma）；按单任务成本，中位 harness 排名在模型间移动 11/22 位，Codex CLI 从 GLM-5.3 的第 1 跌到 Kimi-K3 的第 16",
+      "summary_en": "Runta partnered with Baseten to build the largest-scale harness leaderboard: 83B tokens across 27,280 agent runs, 22 harness configurations x 5 models x 62 tasks x 4 attempts - 76x the size of v1.0, which ranked harnesses on Kimi K3 alone. Core finding: when you switch your model, you should consider switching the harness too. Every model had a different best-value (pass rate vs cost) harness: Codex CLI with GLM-5.3, Pi with GLM-5.3 Flash, ZCode with DeepSeek V4.1 Flash 1017, Oh My Pi with Muse, and Alma with Kimi-K3. By cost per task the median harness moved 11 of 22 rank positions between models, and Codex CLI went from 1st with GLM-5.3 to 16th with Kimi-K3. Across all models four harnesses sit on the cost/quality frontier: OpenCode v2 (lowest cost per task, $0.561), Pi, Codex CLI and ZCode (highest pass rate, 61.9%).",
+      "one_liner": "Runta 与 Baseten 的最大规模 harness 榜单：83B token27,280 次 agent 运行，22 harness x 5 模型 x 62 任务 x 4 尝试.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/715137d9.md",
+      "images": [],
+      "added_date": "2026-11-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "0fe437a1"
+      ]
+    },
+    {
+      "id": "b8930a9a",
+      "title": "Not Everything Needs an LLM: How PostHog Uses Decision Models",
+      "url": "https://newsletter.posthog.com/p/decision-models",
+      "source": {
+        "platform": "blog",
+        "author": "Jina Yoon",
+        "original_date": "2026-11-09"
+      },
+      "category": "coding",
+      "tags": [
+        "decision-models",
+        "llm-pipeline",
+        "cost",
+        "calibration",
+        "production"
+      ],
+      "source_type": "newsletter",
+      "language": "en",
+      "summary_zh": "PostHog 的决策模型生产实践：结构化问题返回类型化答案加校准概率（例子是 Jev），不是 LLM 的自由文本决策模型比 frontier 模型便宜最多 444.6 倍快 193.6 倍，所以拿来门控昂贵的 LLM 调用Replay Vision 的 PII 清洗流水线先用两个窄 yes/no 问题打分（是否出现真人姓名是否露出联系方式或证件），把误报压到单个宽问题的约十分之一，0.4 以上才交给 Gemini 重写生产环境 98.7% 的会话摘要完全跳过 LLM 调用校准纪律很明确：0.85 分仍意味着千次约 150 次错，阈值按哪种错误代价更高来定（误报只多一次 LLM 调用，漏报则把个人数据当干净数据存了）",
+      "summary_en": "PostHog's production lessons on decision models: structured questions that return a typed answer with a calibrated probability (their example is Jev) instead of free-form LLM prose. Decision models run up to 444.6x cheaper and 193.6x faster than frontier models, so PostHog uses them to gate expensive LLM calls. In Replay Vision's PII scrubbing pipeline, two narrow yes/no questions (\"does this name a real person?\", \"does this show contact details or an ID?\") cut false flags to about a tenth of a single broad question; anything scoring 0.4+ goes to a Gemini rewrite, and in production 98.7% of session summaries skip the LLM call entirely. The calibration discipline is explicit: a 0.85 score still means roughly 150 wrong answers per 1,000 checks, so thresholds are set by which error is costlier - a false positive only costs an extra LLM call, a false negative stores personal data as clean.",
+      "one_liner": "PostHog 的决策模型生产实践：结构化问题返回类型化答案加校准概率（例子是 Jev），不是 LLM 的自由文本决策模型比 frontier 模型便宜最多 444.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b8930a9a.md",
+      "images": [],
+      "added_date": "2026-11-18",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-18",
-  "total_entries": 3361
+  "total_entries": 3368
 }
