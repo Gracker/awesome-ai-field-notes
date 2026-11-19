@@ -13,31 +13,31 @@
 - [Introducing GPT-6.2 Astra and Sol (OpenAI announcement)](https://openai.com/index/introducing-gpt-6-2-astra-sol) ⭐4 · 2026-11-17 — Introducing GPT-6.2 Astra and Sol (OpenAI announcement)
 - [Introducing FrontierHarness Eval v1.1: 22 harnesses x 5 models, the best harness differs per mod...](https://runta.com/blog/introducing-frontierharness-eval-v1-1) ⭐4 · 2026-11-17 — Runta 与 Baseten 的最大规模 harness 榜单：83B token27,280 次 agent 运行，22 harness x 5 模型 x 62 任务 x 4 尝试.
 - [GPT6.2 Astra and GPT6.2 Sol (Willison review)](https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol) ⭐4 · 2026-11-17 — Simon Willison 实测 OpenAI 新发的 GPT-6.
-- [microsoft/onnxruntime and related repos vanish from GitHub; PyPI/NuGet binaries still installabl...](https://github.com/microsoft/onnxruntime) ⭐3 · 2026-11-17 — 22,328 star 的 microsoft/onnxruntime 11-17 从 GitHub 消失：main 连同 onnxruntime-genai-training-inference-examples-extensions 等（报道称至少七个仓库）全部 404.
+- [Stopping Is Not the Limit: Understanding and Eliciting Agent Capability in Long-Horizon Vulnerab...](https://arxiv.org/abs/2611.22888) ⭐4 · 2026-11-17 — 长程漏洞利用能力研究：测试考察 LLM agent 能否从已知软件缺陷做出可用 exploit；顺序测试时扩展能提分，但预算加大不保证持续探索，agent 常在预算未尽时就停.
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 547 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 739 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 397 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
-| 基础设施 | 236 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
+| 模型与实验室 | 550 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 743 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 398 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 基础设施 | 237 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
 | 产品与商业 | 293 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 152 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 244 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 3384
-- 公开展示卡片: 2608
+- 原始条目: 3393
+- 公开展示卡片: 2617
 - 有全文内容: 2487
-- 最近 7 天信号: 190
+- 最近 7 天信号: 199
 - 输出目录: `dist/`
 
 ## 热门标签
 
-`arxiv`, `benchmark`, `openai`, `evaluation`, `claude-code`, `anthropic`, `multi-agent`, `agents`, `coding-agents`, `agent-security`, `security`, `agent-memory`, `kv-cache`, `mcp`, `coding-agent`, `prompt-injection`, `codex`, `open-weights`
+`arxiv`, `benchmark`, `openai`, `evaluation`, `claude-code`, `anthropic`, `multi-agent`, `agents`, `agent-security`, `coding-agents`, `security`, `agent-memory`, `kv-cache`, `mcp`, `coding-agent`, `prompt-injection`, `agent-safety`, `codex`
 
 ## 自动化约定
 

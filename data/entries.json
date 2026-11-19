@@ -104091,8 +104091,296 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "c1d68dd9",
+      "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+      "url": "https://arxiv.org/abs/2611.23219",
+      "source": {
+        "platform": "arxiv",
+        "author": "Shobhita Sundaram, Cansu Sancaktar, Phillip Isola",
+        "original_date": "2026-11-17"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "self-improvement",
+        "autonomous-learning",
+        "gameplay",
+        "llm"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "自主自我改进研究：作者问越来越强的 LLM agent 是否还需要人来规定自我改进方式；以游戏为试验场，冻结参数的 agent 只有算力预算与两类工具（收集经验，更新文本文档），在没有外部训练循环，不接触真实数据的条件下自由构造学习算法；结果显示足够强的模型确实能自主改进，策略与经典自我调节学习框架及自生成课程一致，学到的文本制品还能跨游戏时长与机制迁移，并在外部基准上带来提升",
+      "summary_en": "LLM agents increasingly drive their own learning, with self-improvement methods delegating parts of model optimization to the models themselves. This paper asks whether increasingly capable models still need humans to specify how they should self-improve. Using gameplay as a testbed, a frozen LLM agent is given a compute budget plus tools for collecting experience and updating text documents, and allowed to freely experiment without an externally imposed loop or access to real-world data. Sufficiently capable models do self-improve under these conditions, showing strategies that align with classic self-regulated-learning frameworks and self-generated curricula. Learned text artifacts also transfer, improving performance across different game horizons, mechanics, and external benchmarks.",
+      "one_liner": "自主自我改进研究：作者问越来越强的 LLM agent 是否还需要人来规定自我改进方式；以游戏为试验场，冻结参数的 agent 只有算力预算与两类工具（收集经验，更新文本文档），在没有外部训练循环不接触真实数据的条件下自由构造学习算法.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c1d68dd9.md",
+      "images": [],
+      "added_date": "2026-11-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1d0b49e9",
+      "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomou...",
+      "url": "https://arxiv.org/abs/2611.23202",
+      "source": {
+        "platform": "arxiv",
+        "author": "Viet K. Nguyen, Mohammad I. Husain",
+        "original_date": "2026-11-17"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "pki",
+        "zero-trust",
+        "attestation",
+        "authorization"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Agent 信任基础设施：跨组织协作 agent 缺少验证对方身份，执行完整性与授权的通用机制；ATI 以 PKI，零信任架构与远程证明构建与框架无关的安全层，各组织运行对等 AgentCA 签发证书而无需共享根信任；请求执行前校验 agent 证书，核对已批准的模型，工具与系统提示词配置，并执行三道授权策略；实现为外部执法层，不改底层模型即可接入现有框架，在八组织六框架的模拟联邦中评估，安全实验覆盖 14 种攻击场景",
+      "summary_en": "AI agents increasingly collaborate across organizational boundaries, but existing frameworks lack a shared mechanism to verify cross-organizational agent identity, execution integrity, and authorization. Agent Trust Infrastructure (ATI) is a framework-independent security architecture built on PKI, Zero Trust Architecture, and remote attestation, establishing federated trust through peer organizational certificate authorities (AgentCAs) rather than a shared root authority. Before executing a request, ATI validates agent certificates, verifies approved model, tool, and system-prompt configurations, and enforces authorization via three policy checks. It integrates with existing frameworks as an external enforcement layer without modifying models, evaluated in a simulated federation of eight organizations using six agent frameworks and 14 attack scenarios.",
+      "one_liner": "Agent 信任基础设施：跨组织协作 agent 缺少验证对方身份，执行完整性与授权的通用机制；ATI 以 PKI，零信任架构与远程证明构建与框架无关的安全层，各组织运行对等 AgentCA 签发证书而无需共享根信任...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1d0b49e9.md",
+      "images": [],
+      "added_date": "2026-11-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c1dcf2e2",
+      "title": "Mind the Gap: A Deployed Multi-Agent System for Documentation Maintenance",
+      "url": "https://arxiv.org/abs/2611.23142",
+      "source": {
+        "platform": "arxiv",
+        "author": "Lorenzo Masoero",
+        "original_date": "2026-11-17"
+      },
+      "category": "agents",
+      "tags": [
+        "multi-agent",
+        "documentation",
+        "deployment",
+        "support-triage",
+        "field-report"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "已部署多 agent 系统实战：代码迭代快于客户文档，而 LLM agent 又把文档当主接口，陈旧内容被当成权威传播；TriAgent 持续抽取两类信号（已解决支持工单暴露的文档缺口，自动化回路发现的代码与文档偏差）并修复漂移；43 天影子模式运行 triage 499 张工单，找出 92 处缺口；来自独立模型家族的 LLM 评审团判定其可验证断言 81.1% 正确（人工有结论的 302 条中 245 条，三评审多数）；IAAI-27 录用",
+      "summary_en": "Code now evolves faster than customer-facing documentation, and as users rely on LLM-based agents that consume documentation as their primary interface, stale information propagates and is treated as authoritative. This deployed multi-agent system, built around a triage agent called TriAgent, continuously extracts explicit signals (resolved support tickets revealing missing documentation) and implicit signals (code-documentation discrepancies detectable from automated loops), then repairs documentation drift. Over 43 days of shadow-mode operation it triaged 499 tickets and surfaced 92 documentation gaps. A panel of LLM judges from independent model families found 81.1% of TriAgent's verifiable assertions correct (245 of 302 assertions addressed by the human resolution, by majority of three judges).",
+      "one_liner": "已部署多 agent 系统实战：代码迭代快于客户文档，而 LLM agent 又把文档当主接口，陈旧内容被当成权威传播；TriAgent 持续抽取两类信号（已解决支持工单暴露的文档缺口，自动化回路发现的代码与文档偏差）并修复漂移...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c1dcf2e2.md",
+      "images": [],
+      "added_date": "2026-11-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6a43b274",
+      "title": "SEAM: Computer-Use Agents Know the Harm Between Screens, and Commit It Anyway",
+      "url": "https://arxiv.org/abs/2611.22971",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuxuan Zhou, Chen Xiong, Haitong Liu, Kuofeng Gao, Yang Bai, Zhiyuan He, Tao Dai, Shu-Tao Xia",
+        "original_date": "2026-11-17"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use",
+        "agent-safety",
+        "benchmark",
+        "osworld",
+        "cross-screen"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "CUA 安全基准 SEAM：现有基准把危害放在任务意图或单一屏幕里，逐项审查即可通过；SEAM 构造 600 个跨应用多步 OSWorld 任务，指令与每次单独观察都无害，只有组合才有害，并以最小对偶变体定位失败点，按服务器日志而非 LLM 评审打分；开源与旗舰 agent 在最多 92% 的运行中执行了组合危害，但用户一句话明说时反而拒绝；agent 会打开关键页面，暴露不是瓶颈，被问到时能指出危害，带思考时常能写出正确拒绝",
+      "summary_en": "Safety benchmarks for computer-use agents place harm either in task intent or on a single screen, so an agent that checks the instruction and each screen in isolation can pass them. SEAM tests cross-screen compositional harm: 600 multi-step, cross-application OSWorld tasks in which the instruction and every single observation are benign and only their combination is harmful. Minimal-pair variants differing in one place, scored from server logs rather than an LLM judge, locate where agents fail. General-purpose open-weight and flagship agents carry out the harm in up to 92% of runs, yet decline when the user states it in one sentence. Agents open the decisive pages, so exposure is not the primary bottleneck: asked about those pages they flag the harm, and with thinking they often write the correct refusal.",
+      "one_liner": "CUA 安全基准 SEAM：现有基准把危害放在任务意图或单一屏幕里，逐项审查即可通过；SEAM 构造 600 个跨应用多步 OSWorld 任务，指令与每次单独观察都无害，只有组合才有害，并以最小对偶变体定位失败点，按服务器日志而非 LLM 评审打分...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6a43b274.md",
+      "images": [],
+      "added_date": "2026-11-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "06f0df07",
+      "title": "Stopping Is Not the Limit: Understanding and Eliciting Agent Capability in Long-Horizon Vulnerability Exploitation",
+      "url": "https://arxiv.org/abs/2611.22888",
+      "source": {
+        "platform": "arxiv",
+        "author": "Deokhyung Kang, Minjae Gwon, Sangdon Park",
+        "original_date": "2026-11-17"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "vulnerability-exploitation",
+        "test-time-scaling",
+        "context-management",
+        "exploitbench"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "长程漏洞利用能力研究：测试考察 LLM agent 能否从已知软件缺陷做出可用 exploit；顺序测试时扩展能提分，但预算加大不保证持续探索，agent 常在预算未尽时就停；在 ExploitBench 上用 DeepSeek-V4-Flash-0731 与 MiMo-V2.6-Pro 发现首次停止后继续执行仍有经核实的收益但随时间递减，低效续跑与上下文内停止响应占比上升及摘要保留无法完成类判断导致的更早停止相关；SCoRe 在停止爆发时压缩上下文并把此类判断标记为未证实，MiMo 2000 轮能力覆盖率达 67.0%（基线 32.4%）",
+      "summary_en": "Vulnerability exploitation tests whether LLM agents can develop working exploits from known software flaws. Sequential test-time scaling improves performance, but larger budgets do not ensure sustained exploration: agents often stop while budget remains, and what happens when execution continues past the first stop is underexplored. On ExploitBench with DeepSeek-V4-Flash-0731 and MiMo-V2.6-Pro, additional verified gains appear after the first stop response but diminish over longer execution; less productive continuation is tied to a rising share of in-context stop responses and earlier stops associated with summaries retaining impossibility judgments. SCoRe compacts context at stop bursts and marks those judgments as unproven, lifting MiMo to 67.0% capability coverage at 2,000 turns versus 32.4% at baseline.",
+      "one_liner": "长程漏洞利用能力研究：测试考察 LLM agent 能否从已知软件缺陷做出可用 exploit；顺序测试时扩展能提分，但预算加大不保证持续探索，agent 常在预算未尽时就停.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/06f0df07.md",
+      "images": [],
+      "added_date": "2026-11-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2e072b31",
+      "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
+      "url": "https://arxiv.org/abs/2611.23216",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yining Hua",
+        "original_date": "2026-11-17"
+      },
+      "category": "coding",
+      "tags": [
+        "benchmark",
+        "evaluation",
+        "coding-models",
+        "productivity",
+        "natural-experiment"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "编码模型分数与真实产出：2026-06-12 起美国出口管制指令让 Claude Fable 5 停服 19 天，多数用户被迫切到 SWE-Bench Pro 低 11 分的 Opus 4.8；作者将其作为自然实验（人与项目不变，只换模型），追踪 297 名 Fable 5 用户停服前中后的 GitHub PR，以 8908 名一直使用 Opus 4.8 的开发者作对照，并在 2026 年五次模型升级上重复比较（1208 名开发者，15442 个 PR）；带开发者与日期固定效应的双重差分显示 Fable 5 仅把 7 天合并率提高 1.4 个百分点（区间 -1.4 至 +4.3），不具统计显著性",
+      "summary_en": "Coding models sell themselves on benchmark scores, yet no study had tested whether a higher-scoring model gets more real work done. On June 12, 2026, a U.S. export control directive cut access to Claude Fable 5 for 19 days, pushing most users onto Opus 4.8, 11 points lower on SWE-Bench Pro. Treating this as a natural experiment where people and projects stayed constant and only the model changed, the author tracked GitHub pull requests from 297 Fable 5 users before, during, and after, with 8,908 developers who stayed on Opus 4.8 as controls, and repeated the comparison across five 2026 model upgrades (1,208 developers, 15,442 pull requests). Difference-in-differences with developer and date fixed effects finds Fable 5 raised the 7-day merge rate by only 1.4 points [-1.4, +4.3], not statistically significant.",
+      "one_liner": "编码模型分数与真实产出：2026-06-12 起美国出口管制指令让 Claude Fable 5 停服 19 天，多数用户被迫切到 SWE-Bench Pro 低 11 分的 Opus 4.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2e072b31.md",
+      "images": [],
+      "added_date": "2026-11-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b9bf99bd",
+      "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
+      "url": "https://arxiv.org/abs/2611.23229",
+      "source": {
+        "platform": "arxiv",
+        "author": "Giannis Daras, Marios Papachristou, Adam Klivans, Antonio Torralba, Constantinos Daskalakis",
+        "original_date": "2026-11-17"
+      },
+      "category": "models",
+      "tags": [
+        "sft",
+        "fine-tuning",
+        "distillation",
+        "post-training",
+        "catastrophic-forgetting"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Ambient SFT：后训练数据难收集，SFT 通常只在远小于预训练语料的集合上进行，导致过拟合与数据分布尾部的灾难性遗忘；方法用不完美预测扩充微调集，冻结的预训练模型充当噪声教师，要求微调后模型在高温度下的条件分布与之对齐，温度参数控制对预训练模型的信任度，T 趋于无穷退回普通 SFT，T=1 等价知识蒸馏；在领域适配，指令微调与推理任务上均超过标准 SFT，平均相对提升最高 21%",
+      "summary_en": "Collecting large, diverse, high-quality post-training data for language models is hard, so supervised fine-tuning typically runs on datasets far smaller than pretraining corpora, causing overfitting and catastrophic forgetting of distribution tails. Ambient SFT augments the fine-tuning set with imperfect predictions: a frozen version of the pretrained model serves as a noisy teacher the fine-tuned model must match at a coarse level, requiring high-temperature conditional distributions of the post-trained model to match the pretrained ones. Temperature controls the level of trust in the pretrained model: as T goes to infinity this recovers regular SFT and at T=1 it becomes knowledge distillation. The method outperforms standard SFT across domain adaptation, instruction tuning, and reasoning, with up to 21% average relative improvement.",
+      "one_liner": "Ambient SFT：后训练数据难收集，SFT 通常只在远小于预训练语料的集合上进行，导致过拟合与数据分布尾部的灾难性遗忘...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b9bf99bd.md",
+      "images": [],
+      "added_date": "2026-11-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "fbb8dbd0",
+      "title": "Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models",
+      "url": "https://arxiv.org/abs/2611.23228",
+      "source": {
+        "platform": "arxiv",
+        "author": "Rui Ning, Om Chabra, Hari Balakrishnan",
+        "original_date": "2026-11-17"
+      },
+      "category": "infra",
+      "tags": [
+        "inference",
+        "streaming",
+        "vlm",
+        "sliding-window",
+        "gdn"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "流式 VLM 推理系统 Spool：视觉无障碍助手与机器人需要对最近一段视频快速问答，注意力混入 Gated DeltaNet 等线性递归层的混合 VLM 适合该场景，但滑动窗口维护昂贵，递归层把全部历史帧压进共享状态，淘汰旧帧通常要重跑整个窗口；Spool 利用递归更新对状态是仿射且系数依赖输入的性质，把每帧效果表示为可结合的变换并缓存，随窗口推进做组合，精确移除各递归层状态中的过期帧而无需重放骨干网络；与注意力 KV 淘汰类似，过期帧仍可能经前层缓存输入保留残余影响",
+      "summary_en": "Visual accessibility agents and robotics need prompt answers about recent video over a bounded window of past frames. Hybrid vision-language models interleaving attention with linear recurrent layers like Gated DeltaNet fit this setting, but maintaining a sliding window is expensive: recurrent layers fold all past frames into a shared state, so expiring old frames normally means re-running the whole window; Spool observes the recurrent update is affine in the state with input-dependent coefficients, so each frame's effect is a transformation that composes associatively. The training-free framework caches per-frame transformations and composes them as the window advances, exactly removing expired frames from each recurrent layer's state without replaying the backbone; as with KV eviction, expired frames can keep residual influence via cached inputs from earlier layers.",
+      "one_liner": "流式 VLM 推理系统 Spool：视觉无障碍助手与机器人需要对最近一段视频快速问答，注意力混入 Gated DeltaNet 等线性递归层的混合 VLM 适合该场景，但滑动窗口维护昂贵，递归层把全部历史帧压进共享状态，淘汰旧帧通常要重跑整个窗口.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fbb8dbd0.md",
+      "images": [],
+      "added_date": "2026-11-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "198c4b15",
+      "title": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU",
+      "url": "https://arxiv.org/abs/2611.23205",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mehmet Altan Toksoz",
+        "original_date": "2026-11-17"
+      },
+      "category": "models",
+      "tags": [
+        "fine-tuning",
+        "qlora",
+        "edge-ai",
+        "on-device",
+        "openvino"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "笔记本 iGPU 微调实操：本地小模型适合离线写信号处理代码但对 DSP 约定系统性出错；作者用 66 条经检查样例（覆盖 11 个 MATLAB 信号处理子任务）对 Gemma 4 edge 的 E2B 与 E4B 做 SFT，在 iGPU 上跑 LoRA 与 QLoRA，经 OpenVINO 部署 int8 加适配器；确定性检查器打分的留出变体上 E2B 通过率 18/66 升至 37/66（LoRA 与 QLoRA 相同），E4B 32/66 升至 47/66（QLoRA）；逐条读完 159 个失败程序后确认适配器主要消除约定类错误（滞后符号，单位，数组形状），很少修复信号与噪声构建错误，运行时生成速度损失 17-19%",
+      "summary_en": "Small models that run on a laptop are attractive for writing signal-processing code offline but make systematic errors on digital signal processing conventions. The author applies supervised fine-tuning to Gemma 4 edge models E2B and E4B with 66 checked examples covering 11 MATLAB signal-processing subtasks, using LoRA and QLoRA on a laptop's integrated GPU and deploying int8 models with adapters through OpenVINO. On held-out variants scored by deterministic checkers, pass rate rises from 18/66 to 37/66 (LoRA and QLoRA) for E2B and from 32/66 to 47/66 (QLoRA) for E4B. Reading all 159 failing programs shows the adapters remove most convention errors such as sign of a lag, units, and array shapes, but few errors in building signals and noise; at run time the adapter costs 17-19% of generation speed.",
+      "one_liner": "笔记本 iGPU 微调实操：本地小模型适合离线写信号处理代码但对 DSP 约定系统性出错；作者用 66 条经检查样例（覆盖 11 个 MATLAB 信号处理子任务）对 Gemma 4 edge 的 E2B 与 E4B 做 SFT，在 iGPU 上跑 LoRA 与 QLoRA...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/198c4b15.md",
+      "images": [],
+      "added_date": "2026-11-19",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-18",
-  "total_entries": 3384
+  "last_updated": "2026-11-19",
+  "total_entries": 3393
 }
