@@ -104929,8 +104929,168 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "b034d9ec",
+      "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+      "url": "https://arxiv.org/abs/2611.24924",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jiahang Lin, Jiahao Chen, Yiding Wang, et al.",
+        "original_date": "2026-11-18"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "agents",
+        "harness-engineering",
+        "code-agents",
+        "requirement-driven"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "现有 harness 进化方法常用单个进化代理加基准分数筛选改动，容易产生窄补丁并陷入基准特定的局部最优AHE-Beta 提出以需求为中心的进化闭环：模拟用户在多轮协作中以 issue 形式提出需求；团队把需求实现为可泛化改动而非任务特定补丁；仅解决已验证需求并通过评审的改动才会合并留出任务上 pass@1 从 21.9% 升至 33.3%，token 减少 40.8%，超过 Claude CodeMeta-Harness 和 AHE；真人盲测 48 对中 31 对偏好它收益还能不加改动地迁移到 GLM-5.3（pass@1 +15.8%）和 DeepSeek-V4.1-Flash（+5.3%）",
+      "summary_en": "Existing harness-evolution methods typically use a single evolution agent and benchmark-score selection, overlooking implicit user requirements, which produces narrow patches and benchmark-specific local optima. AHE-Beta is a requirement-centered evolution loop: simulated users raise requirements as issues while working with the harness over multiple turns; a team implements them as generalizable changes rather than task-specific patches; selection merges a change only when it resolves a verified requirement and passes review. On held-out tasks it raises pass@1 from 21.9% to 33.3% with 40.8% fewer tokens than Base Harness, outperforming Claude Code, Meta-Harness, and AHE; real users preferred it in 31 of 48 blind A/B pairs. Gains transfer without further evolution to GLM-5.3 (+15.8% pass@1) and DeepSeek-V4.1-Flash (+5.3%).",
+      "one_liner": "现有 harness 进化方法常用单个进化代理加基准分数筛选改动，容易产生窄补丁并陷入基准特定的局部最优AHE-Beta 提出以需求为中心的进化闭环：模拟用户在多轮协作中以 issue 形式提出需求；团队把需求实现为可泛化改动而非任务特定补丁.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b034d9ec.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "88225b01",
+      "title": "General progress substitutes for specific training data in language models",
+      "url": "https://arxiv.org/abs/2611.24844",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mark Marosi, Peter Antal",
+        "original_date": "2026-11-18"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "training-data",
+        "data-filtering",
+        "capability-delay",
+        "scaling"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "开发者常通过扣留训练数据阻止模型学到可能被滥用的能力，但这样能延迟多久事后补回需要多少数据，此前并不清楚作者在棋类Othello分子串括号语言和网页文本上扣留单项技能训练信号做对照：模型在其余数据上的通用进步可以替代被扣留的数据从未显式训练过应将的棋模型，排序合法应将的水平几乎不输训练过的模型；大模型的延迟时长可由小模型预测；事后补回数据时，找回技能所需数据量远小于从零训练，且模型越强需要的越少一个被扣留编程语言的 70 亿参数模型也以同样方式找回该语言结论：数据过滤只是延迟能力，而非阻止能力",
+      "summary_en": "Developers withhold training data to keep models from acquiring dangerous capabilities, but how long this delays a capability and how much data is needed to regain it was unknown. Training models on chess, Othello, and web text while withholding the signal for individual skills, the authors show that general progress on the rest of the data substitutes for the withheld data: a chess model never explicitly trained to respond to check ranked legal responses nearly as well as a trained one; the delay of a withheld skill in larger models is predictable from smaller ones; and when withheld data is reintroduced, the skill is regained with a small fraction of the data needed from initialization, a fraction that shrinks as models progress. A programming language withheld from a 7B model's training text was regained the same way. Data filtering delays capabilities rather than preventing them.",
+      "one_liner": "开发者常通过扣留训练数据阻止模型学到可能被滥用的能力，但这样能延迟多久事后补回需要多少数据，此前并不清楚作者在棋类Othello分子串括号语言和网页文本上扣留单项技能训练信号做对照：模型在其余数据上的通用进步可以替代被扣留的数据从未显式训练过应将的棋模型...",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/88225b01.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6c636408",
+      "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+      "url": "https://arxiv.org/abs/2611.24927",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sarah H. Cen, Lindsey A. Gailmard, Joohan Kim, Rishi Bommasani, Daniel E. Ho, Percy Liang",
+        "original_date": "2026-11-18"
+      },
+      "category": "industry",
+      "tags": [
+        "arxiv",
+        "ai-supply-chain",
+        "market-concentration",
+        "ecosystem",
+        "dataset"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "AI 系统由众多组织共同构建，模型数据算力资本人才分属不同层级的不同主体，但跨层级的组织间关系长期缺乏系统记录这篇 80 页的研究论证了审视组织级 AI 供应链的意义集中度权力卡脖子节点级联失败问责碎片化并给出映射流水线，产出大规模多层关系数据集，为行动者与关系标注日期描述类型和标签，刻画模型数据芯片基础设施资本与人才在组织间的流动示例分析识别了最中心的行动者测算了网络集中度找出了社区与咽喉点数据集已在 Hugging Face 公开（sarahcen/ai-supply-chain），配套 aisupplychains.org 交互浏览；作者也指出公开文档无法覆盖私下交易",
+      "summary_en": "AI systems are built across many organizations contributing models, data, compute, capital, and talent, but cross-layer relationships between actors remain sparsely documented. This 80-page study motivates examining the organizational AI supply chainconcentration, power, chokepoints, cascading failures, fragmented accountabilitythen describes a pipeline for mapping it. The main contribution is a large-scale, multilayered dataset of actors and relationships annotated with dates, descriptions, types, and tags, cataloging how models, data, chips, infrastructure, capital, and talent flow between organizations. Analyses identify the most central actors, measure concentration, and surface communities and chokepoints. The dataset is public on Hugging Face (sarahcen/ai-supply-chain) with an interactive explorer at aisupplychains.org; public documents omit private deals.",
+      "one_liner": "AI 系统由众多组织共同构建，模型数据算力资本人才分属不同层级的不同主体，但跨层级的组织间关系长期缺乏系统记录这篇 80 页的研究论证了审视组织级 AI 供应链的意义集中度权力卡脖子节点级联失败问责碎片化并给出映射流水线，产出大规模多层关系数据集...",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/6c636408.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "04702621",
+      "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+      "url": "https://arxiv.org/abs/2611.24932",
+      "source": {
+        "platform": "arxiv",
+        "author": "Priyanka Sinha, Sugam Pandey",
+        "original_date": "2026-11-18"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "human-ai-teams",
+        "calibration",
+        "review-quality",
+        "telemetry"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "当强模型与人类评审就同一决策协作时，哪些人仍在创造价值？论文把评审价值归结为单一认知特质元认知校准，即行为自信与判断实际正确程度的对齐：决定价值的是校准而非活跃度速度附和率或资历；校准会在行为遥测中留下痕迹，但单独看不可诊断，须由结果门控；人的校准与模型的自我认知是同一构念，联合系统应逐项听从更校准的一方证据来自 AI 辅助会计系统六个月生产数据（54.1 万条评审事件483 名评审）：纯行为画像会颠倒是非，把过度自信群体（纠正存活率 5.2%）排在真专家（99.2%）之上；评审质量与资历无关；同一校准逻辑用于模型时，把 92.5% 的人力集中到真实错误上获 ACS 2026 杰出论文奖",
+      "summary_en": "When a capable model and a human review the same decision, which humans still add value? Reviewer value reduces to one trait: metacognitive calibration, the alignment of behavioral confidence with actual correctness. Calibration, not activity, speed, agreement, or tenure, governs value; telemetry traces are non-diagnostic until gated by outcomes; human calibration and a model's self-knowledge are the same construct, so systems should defer to the better-calibrated agent per item. Evidence from six months of an AI-assisted accounting system (541,621 events, 483 reviewers): purely behavioral profiles inverted ground truth, ranking an overconfident cohort (5.2% correction survival) above genuine experts (99.2%); reviewer quality was flat across tenure; the same logic applied to the model concentrated 92.5% of human effort on genuine errors. ACS 2026 excellent-paper awardee.",
+      "one_liner": "当强模型与人类评审就同一决策协作时，哪些人仍在创造价值？",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/04702621.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "122be7cf",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "source": {
+        "platform": "anthropic",
+        "author": "Anthropic Science",
+        "original_date": "2026-11-17"
+      },
+      "category": "agents",
+      "tags": [
+        "anthropic",
+        "claude",
+        "multi-agent",
+        "research-automation",
+        "formal-verification"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anthropic 报告 Claude 解决了两个黑洞/量子引力公开问题其一：完成 2003 年提出的计算，证明 HawkingPage 型有限温相变在 N=4 超 Yang-Mills 理论的弱耦合端（引力描述失效处）仍是突变；该计算此前从未被手工完成其二：Claude Fable 5.2 找到并证明 3D 引力中最简版 modular bootstrap 黑洞质量上限的精确极限，一半证明沿用 OpenAI 的策略；结果均在 Lean 中形式化验证工程细节：非单次提示产物研究者让 22 个后台 agent 各领一题跑约六周互读进度，HawkingPage 计算几乎每步都由独立 agent 副本重复两遍互校",
+      "summary_en": "Anthropic reports Claude solved two open problems in theoretical physics concerning black holes and quantum gravity. First, it completed a calculation posed in 2003: the Hawking-Page-type finite-temperature transition stays abrupt even at weak coupling in N=4 super Yang-Mills theory, where gravity loses definite spacetime shape; the thousands-of-diagrams calculation had never been finished by hand. Second, Claude Fable 5.2 found and proved the exact limit of the simplest version of the modular-bootstrap ceiling on black-hole mass in 3D gravity; half the proof follows an OpenAI proof strategy, and the results were formally verified in Lean. Neither came from a single prompt: a researcher spun up 22 background agents on candidate problems that ran about six weeks, and nearly every piece of the Hawking-Page calculation was done twice by independent agent copies.",
+      "one_liner": "Anthropic 报告 Claude 解决了两个黑洞/量子引力公开问题其一：完成 2003 年提出的计算，证明 HawkingPage 型有限温相变在 N=4 超 Yang-Mills 理论的弱耦合端（引力描述失效处）仍是突变.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/122be7cf.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-19",
-  "total_entries": 3410
+  "last_updated": "2026-11-20",
+  "total_entries": 3415
 }
