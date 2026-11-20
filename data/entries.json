@@ -97685,7 +97685,9 @@
       "added_date": "2026-11-10",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "376db420"
+      ]
     },
     {
       "id": "13932435",
@@ -105089,8 +105091,457 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "2df58e4e",
+      "title": "Towards Fair Resource Sharing in Agentic LLM Serving",
+      "url": "https://arxiv.org/abs/2611.23558",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sehyeon Lee, Yuchen Xia, Zhaoyang Hong, Jinrui Hu, Anuradha Pandey, Evan Zhao, Ankita Nayak, Nishil...",
+        "original_date": "2026-11-17"
+      },
+      "category": "infra",
+      "tags": [
+        "arxiv",
+        "llm-serving",
+        "fairness",
+        "multi-agent",
+        "slo"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "多个 agent 共享一套推理基础设施时，现有 agentic serving 只优化吞吐和延迟，不管公平性：路由runtime 调度和硬件争用叠加，个别 agent 会在多轮调用中累积出严重且不均的变慢论文给出跨层框架定义 agent 级公平（以相对独立执行的 slowdown 为度量），归因不公平来源，并实现 Duru：按每个 agent 的 slowdown 信号驱动路由与 runtime 的准入调度，用准入例外缓解饥饿，接 slowdown 驱动自动扩缩容贴住 SLO评测中 99 分位归一化 slowdown 几何平均降 44.4%（最高 79.5%），吞吐保持 SOTA 的 91.8%127.4%",
+      "summary_en": "As LLM agents execute multi-step tasks on shared inference infrastructure, resource contention across the end-to-end serving stack causes severe, uneven slowdowns, and existing agentic serving systems optimize throughput and latency with little attention to per-agent fairness. The paper defines agent-level fairness as slowdown relative to standalone execution, attributes unfairness across request routing, runtime scheduling and hardware contention, and builds Duru, which monitors each agent's slowdown to guide admission and scheduling in the router and runtime, adds admission exceptions against starvation, and integrates slowdown-driven autoscaling to meet SLOs. Across benchmarks and hardware platforms, Duru cuts 99th-percentile normalized slowdown by a geometric mean of 44.4% (up to 79.5%) while delivering 91.8-127.4% of the state-of-the-art system's throughput.",
+      "one_liner": "Agentic serving 第一次把每个 agent 被拖慢多少当一等公民来调度，公平性有了可优化的定义",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2df58e4e.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7361aa3d",
+      "title": "Reducing Inference Cost of Coding Agents with Timeout Cascades",
+      "url": "https://arxiv.org/abs/2611.24324",
+      "source": {
+        "platform": "arxiv",
+        "author": "Boxi Zhou, German Sviridov, Dmitrii Ustiugov, Haris Javaid",
+        "original_date": "2026-11-18"
+      },
+      "category": "coding",
+      "tags": [
+        "arxiv",
+        "coding-agents",
+        "inference-cost",
+        "model-cascade",
+        "swe-bench"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "coding agent 的 GPU 开销正在吃掉利润空间，论文检验小模型能否在不牺牲准确率的前提下砍成本：在软件工程基准上评测 2024 年以来 36 个开源大小模型，发现小模型在简单和中等复杂度任务上的准确率已接近大模型，差距集中在少数硬任务上据此验证一个最朴素的级联策略先跑小模型，失败才升级大模型可省下最多 33% 的总 GPU 小时成本，SWE-bench Verified 全任务平均省 16.4%，准确率不掉，且几乎追平 oracle 式任务路由器结论是生产环境做成本感知 coding agent 不必先上复杂的 learned router",
+      "summary_en": "AI coding agents consume tremendous GPU compute, and this paper asks whether smaller models can cut the cost without sacrificing accuracy. Evaluating 36 open-weight models released since 2024 on a software engineering benchmark, it finds small models now nearly match large ones on easy and medium tasks, with the accuracy gap concentrated on a small set of hard tasks. A hybrid cascade that tries a small model first and escalates only when needed reduces total GPU-hour cost by up to 33% and 16.4% across all SWE-bench Verified tasks with no accuracy loss, nearly matching an oracle-style task router. The authors present this as a practical path to cost-aware coding agents in production without complex learned routers and with minimal engineering complexity.",
+      "one_liner": "小模型先上大模型兜底的级联已接近 oracle 路由，coding agent 降本可以先做减法",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7361aa3d.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7b8371ec",
+      "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
+      "url": "https://arxiv.org/abs/2611.24362",
+      "source": {
+        "platform": "arxiv",
+        "author": "Lipeng He, Yihan Wang, Jiawen Zhang, N. Asokan",
+        "original_date": "2026-11-18"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "prompt-injection",
+        "red-teaming",
+        "adversarial-training",
+        "agent-security"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "LLM agent 常读不可信外部数据，间接提示注入（IPI）能把 agent 劫持去执行攻击者任务自动红队多用 RL 生成高 ASR 攻击，但论文发现两个 SOTA 方法（RL-HammerPISmith）存在 mode collapse：反复找到相似攻击，攻击成功率再高也不能给后续对抗训练带来额外鲁棒性PIPETTE 把红队产出真正转成防御收益：用字典学习奖励扩大攻击策略覆盖面，并配一条面向 IPI 的 on-policy 对抗训练管线在 AgentDojoASB 上，防御后对静态攻击接近零成功率，扛得住强自适应攻击，正常任务效用接近无防御基线做 agent 安全的启示是高 ASR 不等于更稳的模型，覆盖度才是",
+      "summary_en": "LLM agents routinely read untrusted external data, exposing them to indirect prompt injection (IPI). Automated red-teaming typically uses RL to maximize attack success rate (ASR), but the paper shows two state-of-the-art RL red-teaming methods, RL-Hammer and PISmith, suffer from mode collapse: they rediscover similar strategies whose extra successes add no robustness gains in subsequent adversarial training. PIPETTE converts red-team discoveries into defender robustness with a dictionary-learning-based reward that broadens strategy coverage and an on-policy adversarial training pipeline tailored to IPI defense. On AgentDojo and ASB, defended agents reach near-zero ASR on static attacks, withstand strong adaptive attacks, and keep benign task utility close to the undefended baseline.",
+      "one_liner": "提示注入红队的高 ASR 不等于更稳的模型，PIPETTE 用覆盖度把攻防收益真正接起来",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7b8371ec.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5fa13e6d",
+      "title": "Keeping Up with the Kernel: Can LLMs Adapt Linux Drivers to Interface Changes?",
+      "url": "https://arxiv.org/abs/2611.24269",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xinrui Yang, Jiawen Liu, Arina Kharlamova, et al.",
+        "original_date": "2026-11-18"
+      },
+      "category": "coding",
+      "tags": [
+        "arxiv",
+        "linux-kernel",
+        "drivers",
+        "benchmark",
+        "llm-maintenance"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Linux 内核接口一变，驱动就要协同更新论文统计 v3.0 到 v7.2 二十年：驱动文件和支持库增长约 8 倍，最常用库一次改动可波及约 5300 个驱动文件新基准 CoEvoBench 从 202 个主线 commit268 个模块确认 316 个适配任务（134 编译破坏182 仍可编译），要求模型把旧驱动适配到目标内核并对照参考补丁评分DeepSeek Flash 的 Direct 生成在编译破坏任务上 41.0% 严格对齐参考补丁，build-compatible 任务只有 3.3%模型维护老代码比修编译错误难得多",
+      "summary_en": "The paper quantifies collateral evolution in Linux - coordinated driver updates required when kernel interfaces change - over 20 years from v3.0 to v7.2: driver files and support libraries grew about eightfold, and a single change to the most-used library can now reach about 5.3k driver files. CoEvoBench contains 316 manually confirmed tasks from 202 mainline commits and 268 modules (kernel v6.19 to v7.2), asking models to adapt an old driver to a target kernel, scored against the developer's reference patch; 134 tasks are build-breaking, 182 build-compatible. With CoEvoAgent evaluating Direct, SmPL and mini-SWE-agent with DeepSeek Flash plus Claude Sonnet 5.5 and GPT-6.1 Sol comparisons, default Direct generation reaches 41.0% strict reference agreement on build-breaking tasks but only 3.3% on build-compatible ones.",
+      "one_liner": "模型维护二十年内核老代码的能力被首次系统度量：编译破坏还能修，兼容旧用法则几乎不会",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5fa13e6d.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2ea14e17",
+      "title": "Jeveration: System One Models Now Generate",
+      "url": "https://arxiv.org/abs/2611.24738",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuhe Liu, Qi Li, Shihua Zhang, Xinchao Wang",
+        "original_date": "2026-11-18"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "image-generation",
+        "single-forward-pass",
+        "system-one",
+        "efficient-inference"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "HF 日榜当日断层第一（112 upvotes）Jeveration 证明 System One 式并行快速决策范式也能做生成：在冻结的视觉-语言模型上复用其视觉-语义知识，单次前向直接出图核心难点是全局一致性一个 prompt 对应多张有效图，并行预测要收敛到连贯整体；做法是让所有位置共享一个随机状态协调并行预测，先学离散图像码分布引导单遍生成文生图图生图dense prediction 统一进同一架构，一个 checkpoint 各一次前向512x512 出图 78ms，比现有统一模型最快快 122 倍，画质保持竞争力自回归之外的单遍生成又添一条实证路线",
+      "summary_en": "Jeveration shows the System One decision paradigm - fast, parallel prediction - can also generate: on a frozen vision-language model, it repurposes visual-semantic knowledge for holistic image generation in a single forward pass. To keep global consistency when one prompt admits many valid images, all positions are conditioned on a shared random state coordinating parallel predictions, with a distribution over discrete image codes learned first to guide single-pass generation. Text-to-image, image-to-image and dense prediction are unified in one architecture, each in one forward pass from one checkpoint. It generates a 512x512 image in 78 ms, up to 122x faster than existing unified models, while maintaining competitive image quality and dense prediction performance.",
+      "one_liner": "单遍并行的 System One 范式跑进图像生成，78ms 出图给自回归之外添了一条实证路线",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2ea14e17.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "10643d0d",
+      "title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+      "url": "https://arxiv.org/abs/2611.23068",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuanhao Zeng, Shaocheng Lan, Ao Lu, et al.",
+        "original_date": "2026-11-17"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "self-improving-agents",
+        "evaluation-noise",
+        "agent-evolution"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "自进化 agent 的主流闭环是 proposer 写候选产物（promptskill记忆）selection 按分数接受，但各方法跨论文胜负不定，某些任务上根本无法 bootstrap论文把病根定位成 Resolution Hypothesis：进化停滞不是因为提不出更好的产物，而是带噪声的评测无法可靠识别谁更好跨 7 种进化方法6 个模型超 1000 万次 LLM 调用的实验支持该假设：候选层面，有用的候选存在，但选择机制的辨别力与随机无异，错误逐轮累积；方法层面，论文间几个百分点的差距小于同一方法两次独立运行的差异，发表排名常靠运气方向由此改写：从设计更多候选改进系统，转向让真实改进可检测可累积",
+      "summary_en": "Agent evolution runs a simple loop - a proposer writes candidate artifacts (prompts, skills, memories) and selection keeps those that score higher - yet methods trade wins across papers and often fail to bootstrap on some tasks. The paper traces this to the Resolution Hypothesis: evolution stalls not because better artifacts are not proposed, but because noisy evaluations cannot reliably identify them. Across seven evolution methods, six models and over 10M LLM calls, evidence appears at both levels where scores are used: helpful candidates exist but selection is no better than random at telling them from harmful ones, and typical few-point method margins are smaller than the difference between two independent runs of the same method. The field should shift from designing more proposal systems to making true improvements detectable and accumulable.",
+      "one_liner": "自进化 agent 的瓶颈不在提出改进而在识别改进，这套诊断给整个方向换了议程",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/10643d0d.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a284680c",
+      "title": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
+      "url": "https://arxiv.org/abs/2611.24654",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zeguan Xiao, Zhuocheng Liang, Yun Chen, et al.",
+        "original_date": "2026-11-18"
+      },
+      "category": "models",
+      "tags": [
+        "arxiv",
+        "capability-preservation",
+        "unlearning",
+        "kfac",
+        "weight-editing"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "LLM 适配的核心矛盾是能力保持：一次微调或遗忘可能在达成目标的同时伤及通用能力CurvDelta 把保持约束直接做进参数化：分析预训练模型周围保持约束的局部几何，构造低曲率空间让参数更新几乎不改变保持损失，工程上用 K-FAC 近似曲率加因子化投影落地，并给出同几何下的低秩变体 CurvLoRA数学推理代码生成与知识遗忘（TOFUMUSE）上验证：下游性能有竞争力的同时更好保住通用能力，acquisition-retention 权衡优于基线；遗忘任务的保留性能接近从头重训参考线与 surgical unlearning权重编辑这条近期热线的方向一致",
+      "summary_en": "A central challenge in adapting LLMs is capability preservation: an update can hit its target while degrading general capabilities. CurvDelta builds the preservation constraint into the parameterization of the update itself: analyzing the local geometry of the constraint around the pre-adaptation model, it constructs a low-curvature space where updates leave the preservation loss nearly invariant, made practical via Kronecker-factored approximate curvature (K-FAC) and a factorized projection, with a low-rank variant CurvLoRA in the same geometry. On mathematical reasoning, code generation, and knowledge unlearning (TOFU, MUSE), the methods stay competitive downstream while better preserving general capabilities, with unlearning retention close to from-scratch retraining references.",
+      "one_liner": "把能力保持做进参数化几何，surgical unlearning 这条线有了更干净的工具",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a284680c.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d1c9c211",
+      "title": "AI Agents Push Humans Out of the Loop",
+      "url": "https://arxiv.org/abs/2608.23642",
+      "source": {
+        "platform": "arxiv",
+        "author": "Margaret Mitchell, Avijit Ghosh, Samir Passi",
+        "original_date": "2026-08-24"
+      },
+      "category": "agents",
+      "tags": [
+        "arxiv",
+        "human-oversight",
+        "agent-safety",
+        "skill-atrophy",
+        "neurips"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "位置论文（NeurIPS 2026）：业界把人在环内当成 agent 自主性的标准答案，但当前 agent 设计反而在系统性地把人往外推机制上借双过程理论：审批第一个 plan 用慢思考，到第五十个就滑进快通道，且人很难在任务中途切回；自动化悖论叠加越依赖 agent，审查所需的情景记忆和领域判断越萎缩，监督消耗监督者作者要求把监督者的情境目标与认知需求提到与 agent 能力同级的优先级，给出支持批判性判断对抗技能萎缩的设计级 affordances 与组织协议IEEE Spectrum 采访里 Ghosh 补了现实注脚：HF 七月遭 1200 个爬虫机器人灌 120 万条消息，任何人工审查都只剩象征意义",
+      "summary_en": "This position paper (NeurIPS 2026) argues that current approaches to building AI agent systems do not support effective human oversight - they actively degrade it. Current agent design impedes oversight, and the cognitive capacities oversight requires atrophy with extended AI use. The authors connect automation and HCI research to agent processes, proposing design-level affordances and organizational protocols that support overseers in exercising critical judgment and counteract skill atrophy, urging that overseers' situated goals and cognitive needs be treated at the same priority as agent capability. Without explicit support for the cognitive demands of human-agent interaction, agent systems will keep passively incentivizing the degradation of the very human skills they rely on.",
+      "one_liner": "监督会消耗监督者：agent 治理该把 oversight 当稀缺资源设计，而不是当默认补丁",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d1c9c211.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b00f82b6",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "source": {
+        "platform": "google",
+        "author": "Lucia Loher (PM, Gemini API), Nora Kassner (Research Scientist, Google DeepMind)",
+        "original_date": "2026-11-19"
+      },
+      "category": "agents",
+      "tags": [
+        "gemini",
+        "tool-retrieval",
+        "interactions-api",
+        "agent-tools",
+        "token-cost"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google 11-19 官宣 Gemini Interactions API 的 Tool Retrieval 进入 preview：agent 挂上百工具时不再每轮把全量参数 schema 塞进 prompt，先只放工具名与描述，schema 按需加载（tool_search + defer_loading）本地调研核对边界：仅 Interactions 支持；stateless 必须回传 signature；无单独计价，但服务端每次 search 会再跑一轮带全量上下文的模型调用，小库或每轮都搜时可能更贵；与 AnthropicOpenAI 同名机制同构大工具库 token 结构问题，三家给出同一形状的答案",
+      "summary_en": "Google announced Tool Retrieval in preview for the Gemini Interactions API on Nov 19: instead of sending the full tool library with parameter schemas in every prompt, agents expose tool names and descriptions and load schemas on demand (tool_search with defer_loading), designed to cut input tokens while keeping tool selection accurate as agents scale. Local verification of the docs notes the boundaries: Interactions-only (generateContent unsupported), stateless callers must return the signature, and while there is no separate price item, each server-side search re-runs a model call with full context - small tool libraries or huge contexts searched every turn can end up costlier than static full loading. The mechanism mirrors Anthropic's defer_loading/tool search and OpenAI's tool_search.",
+      "one_liner": "大工具库的 token 结构问题，Google/Anthropic/OpenAI 给出了同一形状的按需加载答案",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/b00f82b6.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a1c40c62",
+      "title": "Automate Mac tasks with Gemini computer use",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac",
+      "source": {
+        "platform": "google",
+        "author": "Michael Friedman (Group Product Manager, Gemini App)",
+        "original_date": "2026-11-19"
+      },
+      "category": "agents",
+      "tags": [
+        "gemini",
+        "computer-use",
+        "mac",
+        "agent-products",
+        "subscription"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Google 11-19 官宣 Gemini Mac 应用的 computer use 在美英推出：Gemini 在隔离后台窗口里操作 Mac 应用与网页，点击打字菜单表单等 multi-step 任务自动完成，带实时预览门槛很硬：AI Plus/Pro/Ultra 订阅Apple SiliconmacOS Sequoia 15.0+美区英语个人账号 18+桌面 computer use 从 demo 走进付费订阅产品门，与同日 Tool Retrieval 预览并看，Google 在 agent 产品面是桌面操作与大工具库 token 结构两条线并进",
+      "summary_en": "Google shipped computer use for the Gemini Mac app in the US and UK on Nov 19: Gemini can navigate Mac apps and websites in an isolated background window to finish complex multi-step tasks - clicks, typing, menus, forms - with live preview. The eligibility gates are explicit: Google AI Plus/Pro/Ultra subscription, Apple Silicon, macOS Sequoia 15.0+, US English, personal accounts 18+. The launch post frames it as automating repetitive chores on the Mac. Together with the same-day Tool Retrieval preview, Google is pushing desktop computer use as a paid-subscriber product while restructuring how large tool libraries enter the prompt.",
+      "one_liner": "桌面 computer use 走进付费订阅产品门，agent 产品化开始认真划硬件和账号门槛",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a1c40c62.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "249cf944",
+      "title": "Claude Code v2.1.328: auto mode on enterprise channels, mcp_tool hooks onFailure: block",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+      "source": {
+        "platform": "github",
+        "author": "anthropics",
+        "original_date": "2026-11-19"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "permissions",
+        "auto-mode",
+        "mcp-hooks",
+        "enterprise"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "Claude Code 2.1.328（11-19）改企业通道默认权限：BedrockGoogle Cloud Agent PlatformMicrosoft FoundryClaude apps gateway 上，Opus 4.6/Sonnet 4.6 交互会话未设权限模式时默认进 auto mode安全侧收紧：mcp_tool hooks 支持 onFailure: block，hook 失败即阻断；跳权限提示的会话消息可能被云端扣下丢弃并警告另有自托管 runner 参数与新指标跑 agent 工作流的团队该核对通道默认值与 hook 失败语义",
+      "summary_en": "Claude Code v2.1.328 (published Nov 19) changes default permission behavior on enterprise channels: on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway, interactive sessions with Opus 4.6/Sonnet 4.6 that set no permission mode now start in auto mode. On the safety side it adds \"onFailure\": \"block\" for mcp_tool hooks - a hook whose call fails blocks the action - plus a warning when messages from sessions that skip permission prompts may be held and dropped by cloud sessions. Self-hosted runner additions include --repository-folder, --hook-label, --metadata key=value and new orchestrator metrics.",
+      "one_liner": "企业通道默认 auto mode 加 hook 失败即阻断，权限语义是这版最该核对的变化",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/249cf944.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9166064c",
+      "title": "Claude Code v2.1.329: hooks trust dialog, /tasks consolidation, MCP server error row",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "source": {
+        "platform": "github",
+        "author": "anthropics",
+        "original_date": "2026-11-19"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "hooks",
+        "tasks",
+        "mcp",
+        "changelog"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "Claude Code 2.1.329：加 hooks 声明位置的信任对话框；托管设置 hooks 加载失败会在非交互宿主给出会话内警告；/tasks 收齐 scheduled tasks/loopgoal 与 forks运维补 /mcp 的 Server message 行（MCP 拒连的 JSON-RPC 错误）与 /status 的 Marketplace auto-update 行；Code Mode 可与 OpenTelemetry 共存修复 ~/.claude.json 重置Keychain 登出/terminal-setup 损坏 VS Code 配置",
+      "summary_en": "Claude Code v2.1.329 (published Nov 19) adds a trust dialog warning where a folder's hooks are declared, in-conversation warnings in non-interactive hosts when hooks in managed settings fail to load, and consolidates this session's scheduled tasks, /loop wakeups, goal and forks into /tasks. Operations gain a \"Server message\" row in /mcp showing the JSON-RPC error of a remote HTTP MCP server that refuses connection and a \"Marketplace auto-update\" row in /status; Code Mode now works with OpenTelemetry events and metrics enabled. Fixes cover ~/.claude.json resets, repeated macOS Keychain sign-outs, and /terminal-setup corrupting VS Code settings.",
+      "one_liner": "权限与 hooks 的可观测性在连续两版里补齐，329 是治理细节的收尾版",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/9166064c.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3d57282d",
+      "title": "Weight-Space Playground: an LLM edited another LLM's weights (TabbyML, WebGPU)",
+      "url": "https://tabbyml.github.io/weight-space-playground",
+      "source": {
+        "platform": "blog",
+        "author": "wsxiaoys (TabbyML)",
+        "original_date": "2026-11-19"
+      },
+      "category": "models",
+      "tags": [
+        "weight-space",
+        "webgpu",
+        "llama-cpp",
+        "qwen",
+        "playground"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "TabbyML 的 Weight-Space Playground 把 weight-space programming 变成能上手的东西：Qwen3.5-0.8B 推理会反复重查烧掉 token 预算（原实验 93.0% 的 run 撞 32k 上限MATH-500 仅 7.9%），AI agent 不微调直接改 64 个神经元的 ffn_down 输出权重（layer 15/19，131,072 个，约 0.016%），撞上限降到 33.1%MATH-500 升到 48.1%页面用 llama.cpp 离线录制同 prompt 同 seed 对比，WebGPU 浏览器可 live 跑这条线从信不信走向看得见",
+      "summary_en": "TabbyML's Weight-Space Playground makes weight-space programming tangible: Qwen3.5-0.8B often rechecks the same reasoning until its token budget runs out (93.0% of runs hit the 32k limit, MATH-500 accuracy 7.9% in the original experiment). An AI agent edited a small set of weights directly - no fine-tuning - subtracting one direction from 64 neurons' ffn_down output weights in layers 15 and 19 (131,072 of ~800M weights, about -0.016%), cutting capped runs to 33.1% and lifting MATH-500 to 48.1%. The page replays base/edited token streams recorded offline with llama.cpp (same prompt, same seed), shows the weight diff and neuron activity, and offers a live WebGPU run in the browser; edited neurons fire 2-4x harder inside loops.",
+      "one_liner": "weight-space programming 有了可视化 playground，争论开始转向看得见的证据",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3d57282d.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "376db420",
+      "title": "llama-modchip v3.1.0: RouteCrack 2.0 unified speculative engine, 832B L1 Micro-Arbiter",
+      "url": "https://github.com/synchopate/llama-modchip/releases/tag/v3.1.0",
+      "source": {
+        "platform": "github",
+        "author": "synchopate",
+        "original_date": "2026-11-19"
+      },
+      "category": "infra",
+      "tags": [
+        "llama-modchip",
+        "cpu-inference",
+        "moe",
+        "speculative-decoding",
+        "release"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "把 284B MoE 塞进 64GB 内存纯 CPU 推理的 llama-modchip 一天之内发 v3.1.0 并合并外部 PR：RouteCrack 2.0 把三种投机机制统一到一个开关，832 字节的 L1 Micro-Arbiter 覆盖 AVX-512/AVX2/NEON，另有 MoE 带宽感知扩展，发布口径三个旗舰系列均有已验证提升同日 PR #49 补 trunk-q5/q4 量化档开仓三周 5951384 星，8 个 PR 里 6 个来自外部贡献者但已验证全来自项目自家基准，headline 跑法至今无第三方复现下一个值得等的事件是复现，不是版本号",
+      "summary_en": "llama-modchip - the project fitting 284B MoE models into 64GB RAM for pure CPU inference - shipped v3.1.0 plus an external PR in one day: RouteCrack 2.0 unifies all three speculative mechanisms behind one switch (--spec-type routecrack2), an 832-byte L1 Micro-Arbiter covers AVX-512/AVX2/NEON, and a MoE bandwidth-aware scaling path targets 284B; release notes claim verified wins across the three flagship families (Qwen3.8, DeepSeek-V4 284B, Nemotron-3.5 30B). PR #49 adds trunk-q5/q4 quantization tiers. Three weeks in, stars grew 595 to 1,384 with 6 of 8 PRs from external contributors. All claimed wins come from the project's own benchmarks; the headline setup still lacks third-party reproduction.",
+      "one_liner": "CPU 跑 284B MoE 的社区热度是真的，第三方复现还没跟上，先别急着下结论",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/376db420.md",
+      "images": [],
+      "added_date": "2026-11-20",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "5e9d3fd0"
+      ]
     }
   ],
   "last_updated": "2026-11-20",
-  "total_entries": 3415
+  "total_entries": 3429
 }
