@@ -105846,8 +105846,367 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "76881166",
+      "title": "Re: Riemann",
+      "url": "https://borretti.me/article/re-riemann",
+      "source": {
+        "platform": "blog",
+        "author": "Fernando Borretti",
+        "original_date": "2026-11-21"
+      },
+      "category": "industry",
+      "tags": [
+        "riemann",
+        "anthropic",
+        "claude",
+        "mathematics",
+        "research-testimony"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Fernando Borretti 记下看到黎曼猜想证明声明的时刻：消息源是 Anthropic 数学家 Levent Alpge 的说明文档，称自己与 Claude 合作发现证明，方法可外推到广义黎曼猜想，论证也在 Claude 协助下完成无假设形式化；他把关键一步描述为把两条思路放进玩具设定由 Claude 接手推进，Claude far outpaced me near the finish lineBorretti 的重点不在数学而在研究者如何看待被工具超越：他把公告比作遗书，并质疑 AI 安全圈多数人想做的只是旁观状态：证明未经独立验证，Anthropic 未公开表态",
+      "summary_en": "Fernando Borretti's essay on the moment the Riemann proof claim arrived: Anthropic mathematician Levent Alpge's notes describe proving the Riemann hypothesis with Claude, with the method extending to the generalized hypothesis and the argument formalized without hypotheses under Claude's assistance. Borretti focuses on how a researcher processes being outpaced by his own tool \"Claude far outpaced me near the finish line\" comparing the announcement to a farewell letter and questioning what the AI-safety mainstream actually wants. Status caveat: the proof is not independently verified and Anthropic has not publicly commented.",
+      "one_liner": "与其说是数学新闻，不如说是一份研究者被自己工具超越的第一人称证词证明未经独立验证，先当立场文献读",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/76881166.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a39e38e1",
+      "title": "What is the Generalized Riemann Hypothesis?",
+      "url": "https://www.johndcook.com/blog/2026/11/20/grh",
+      "source": {
+        "platform": "blog",
+        "author": "John D. Cook",
+        "original_date": "2026-11-20"
+      },
+      "category": "learning",
+      "tags": [
+        "grh",
+        "riemann",
+        "mathematics",
+        "number-theory"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "John D. Cook 为同一天出现的两份黎曼猜想证明声明（一份由 AI 生成一份由人完成，都声称证明更强的广义黎曼猜想）补上坐标：RH 说 (s) 在临界带内的零点全部落在 Re(s)=1/2 中线上；GRH 把 (s) 换成模 m 狄利克雷特征对应的 L 函数族，结论不变，其中常数特征 (n)=1 恰好对应 (s)，所以 RH 是 GRH 的特例短文把强度阶梯和特例-推广的包含关系一次讲清，正是当天刷屏声明最缺的两样背景",
+      "summary_en": "A short explainer giving coordinates for the same-day Riemann proof claims (one AI-generated, one human): RH says every zero of the zeta function in the critical band lies on the Re(s)=1/2 line; GRH replaces zeta with the family of Dirichlet L-functions modulo m and keeps the conclusion. The constant character chi(n)=1 corresponds to zeta, so RH is the special case of GRH. It supplies the strength ladder and the special-case/generalization containment that most coverage of the announcement lacked.",
+      "one_liner": "给当天的 AI 证明声明配上强度阶梯：RH 只是 GRH 取常数特征的特例，读声明前先看这篇",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/a39e38e1.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4e8c756f",
+      "title": "Why output caching doesn't work",
+      "url": "https://seangoedecke.com/why-output-caching-doesnt-work",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-11-21"
+      },
+      "category": "infra",
+      "tags": [
+        "llm-inference",
+        "caching",
+        "cost",
+        "tokens",
+        "amdahl"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Sean Goedecke 把缓存 LLM 输出省钱的直觉算了账：动机成立（agent 会重复贴代码片段引用证据文档，输出 token 比输入贵得多），但他统计自己的 agent 历史发现输出 token 约 50% 是推理 token44% 是工具调用，真正可见输出只占 6%；即便乐观省掉三分之二可见输出，按 Amdahl 定律也只省 4% 总量真正可省的是那 94% 不可见部分，取决于模型能力由此解释了更贵的模型反而更便宜：单价 5 倍但所需 token 少 6 倍，总账更低替代方向是让模型输出引用由 harness 展开，只能优化可见层",
+      "summary_en": "Sean Goedecke runs the numbers on caching LLM outputs: the motive is real (agents repeat code snippets and quote evidence docs; output tokens cost far more than input), but in his agent histories about 50% of output tokens are reasoning tokens and 44% are tool calls visible output is only ~6%. Even saving two-thirds of visible output saves ~4% of total output tokens by Amdahl's law. The reducible 94% depends on model capability, which explains why pricier models can be cheaper overall (5x per-token price, 6x fewer tokens). Alternatives like having the model emit references the harness expands only optimize the visible layer.",
+      "one_liner": "把缓存输出的收益上限算成个位数百分比，顺带解释了强模型为什么总账更便宜做 token 选型直接可用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4e8c756f.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d9755fd0",
+      "title": "Breaking: Anthropic stock is crashing, and AI stocks have lost over 50% in 5 months",
+      "url": "https://garymarcus.substack.com/p/breaking-anthropic-stock-is-crashing",
+      "source": {
+        "platform": "blog",
+        "author": "Gary Marcus",
+        "original_date": "2026-11-20"
+      },
+      "category": "industry",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "ai-stocks",
+        "market",
+        "openai"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Gary Marcus 记录 Anthropic 上市首日行情：面向普通投资者的开盘价 111收于 97，盘前再跌约 9% 至 88 附近；SpaceX 也将低于发行价开盘，SoftBank 一夜跌 14.5%，日经本周跌 6.8%台湾加权指数本周跌 16%他算的时间账是 AI 股票 5 个月跌超 50%，下杀速度被比作快于 2000 年互联网泡沫，并判断 OpenAI 难以在当前环境以 1 万亿美元估值 IPO同日 Daring Fireball 的质疑在另一层：LLM 没有永久护城河两种反对估值太贵与生意本身不成立后者更难反驳",
+      "summary_en": "Gary Marcus logs Anthropic's IPO day: opened at 111 for retail investors, closed at 97, pre-market down another ~9% toward 88; SpaceX opened below its issue price, SoftBank fell 14.5% overnight, the Nikkei lost 6.8% on the week and Taiwan 16%. His longer ledger: AI stocks down over 50% in 5 months, falling faster than the 2000 dot-com bust, and he judges OpenAI cannot IPO at a $1T valuation in this environment. Daring Fireball's same-day skepticism cuts differently: LLMs have no permanent moat. Two kinds of opposition overpriced versus broken business and the second is harder to rebut.",
+      "one_liner": "首日破发叠加 5 个月腰斩的行情账本，价值在于把估值贵和生意不成立两种看空分开了",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/d9755fd0.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "72284a47",
+      "title": "Google's Spark AI agent becomes 'Tasks' and now it's free",
+      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "source": {
+        "platform": "blog",
+        "author": "Emma Roth / The Verge",
+        "original_date": "2026-11-18"
+      },
+      "category": "agents",
+      "tags": [
+        "google",
+        "gemini",
+        "agent",
+        "tasks",
+        "agentic-commerce"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "The Verge 报道 Google 把 Spark AI agent 改名 Tasks 并对所有用户免费：此前仅限 AI Pro/Ultra 订阅，现覆盖美加日韩澳印，入口在 Gemini 首页；底层换成 Gemini 4 Hydrogen，可生成餐食计划管理日历从邮件找可退的重复扣费；美国用户还能让 agent 打电话给商家比价查库存用 Google Pay 代付下单登录支持 Password Manager 的账号，任务可发到 gemini@google.com 或短信指派执行环境是账号专属硬件隔离的虚拟机，购买类敏感动作会停下等确认",
+      "summary_en": "Google renamed its Spark AI agent to Tasks and made it free for all: previously limited to AI Pro/Ultra subscribers, now available in the US, Canada, Japan, Korea, Australia and India from the Gemini home. It runs on the new Gemini 4 Hydrogen model, builds meal plans, manages calendars, and finds refundable duplicate charges in email; US users additionally get agent calls to merchants for price/stock checks, Google Pay checkout, and sign-in to sites using Google Password Manager, with tasks assignable via gemini@google.com or SMS. Tasks execute in a hardware-isolated per-account VM that pauses for confirmation on purchases. The name collides with Google's own Tasks to-do app.",
+      "one_liner": "agent 替人打电话比价和代付的分水岭不在模型能力，而在出错后谁担责Google 用隔离 VM 加人工确认来兜底",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/72284a47.md",
+      "images": [
+        "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Tasks-in-Gemini.png?quality=90&strip=all&crop=7.8125%2C0%2C84.375%2C100&w=2400",
+        "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/author_profile_images/195810/EMMA_ROTH.0.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=96",
+        "https://a5860.casalemedia.com/impression/v2/560948/85/dc0oh0kkoecoerucmj1g/48ee586e-2883-46e0-807f-42823e3b91ef?verifieD=1&userID=ae9ZxdHM4JQABOM0AKnLMQAA&cmpro=446&deviceType=2&expiryTime=1795263194&profileIDs=&creativeID=396ab67&pubID=183789&format=banner&channel=site&ee=1",
+        "https://pagead2.googlesyndication.com/pagead/gen_204?id=xbid&dbm_b=AKAmf-DSZzk_Nuax33WyMGRbwDVEnvn19dsS2M0xZtTy1dC2u-QnihY1nVSe3UwvKZeKPXs6_e0iR3S_ZPorEqVg8S31WTZuvoP-5riXe6cCeJI2Z6XWRqA",
+        "https://static.googleadsserving.cn/pagead/images/cn/google_ad_cccccc_08.png"
+      ],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "e486efe8",
+      "title": "Token fraud is here and it's BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-11-20"
+      },
+      "category": "industry",
+      "tags": [
+        "token-fraud",
+        "abuse",
+        "chatprd",
+        "model-fingerprinting",
+        "openrouter"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 转述 ChatPRD 遇到的 token 盗用：试用额度被成建制滥用，有人转卖 token，有人在她的 agent 上跑 Roblox/Fortnite 地图工作室的活，靠免费试用和促销码循环套取并把请求隧道进她的 agent，CEO Claire Vo 的应对是彻底关闭免费试用Willison 单独点出的细节是盗用者最常跑鹈鹕骑自行车 SVG这类提示词不同模型家族的输出带可辨认签名，他自己就用这招猜 OpenRouter 上隐身预览模型的身份免费额度一旦成为可转售商品，平台要么改产品形态要么自己承担成本",
+      "summary_en": "Simon Willison relays ChatPRD's token-fraud story: trial credits were abused at scale resold, cycled through free trials and promo codes, even used to run a Roblox/Fortnite map studio by tunneling requests into her agent and CEO Claire Vo's response was to kill the free tier entirely. The detail Willison singles out: abusers' favorite prompts include pelican-riding-a-bicycle SVGs, because model families leave recognizable output signatures he has used before to identify stealth preview models on OpenRouter. Once free credits become a resellable commodity, a platform must either change its product shape or absorb the cost.",
+      "one_liner": "免费额度变成可倒卖商品的直接后果：关掉试用层，而盗用提示词顺手成了模型指纹的采样源",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/e486efe8.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4bbf408a",
+      "title": "Pluralistic: How to forfeit one of copyright's best labor policies",
+      "url": "https://pluralistic.net/2026/11/19/loan-out-companies",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-11-19"
+      },
+      "category": "industry",
+      "tags": [
+        "copyright",
+        "termination-of-transfers",
+        "loan-out-company",
+        "ai-training",
+        "labor"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Cory Doctorow 讲美国版权法的终止转让权：1976 年版权法允许创作者在转让满 35 年后单方面取消，且不能用合同预先放弃；2021 年的终止通知实证研究显示这项权利确实让艺人更富，对被合同压住的音乐人尤其明显工作室的对策是 loan-out company 结构创作者设 LLC 再被借给片场，作品变成 work made for hire，终止转让不再适用；Michael Mann 为Heat版权的官司是现成样本文章把法律工具接到 AI 时代：训练方要一次授权长期使用，创作者的对抗杠杆恰好是这种可单方撤回的转让安排，而它正被公司结构架空",
+      "summary_en": "Cory Doctorow explains termination of transfers in US copyright: the 1976 Act lets creators unilaterally cancel assignments after 35 years, and the right cannot be waived by contract; a 2021 study of termination notices in the Journal of Empirical Legal Studies shows it genuinely enriches artists, especially those locked into bad early contracts. Studios counter with loan-out companies the creator forms an LLC that lends them to the studio, making the work a work made for hire and ending termination rights; Michael Mann's Heat litigation is the live sample. The AI tie-in: trainers want one blanket license forever, and creators' strongest counterweight is exactly this revocable assignment now being hollowed out by corporate structure.",
+      "one_liner": "把版权终止权讲成 AI 训练授权谈判里创作者仅存的撤回杠杆，也解释了它正被 loan-out 结构架空",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4bbf408a.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "31863867",
+      "title": "Codex CLI 0.171.0: GPT-6.2 Sol becomes default, TUI workspace on by default",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+      "source": {
+        "platform": "github",
+        "author": "openai",
+        "original_date": "2026-11-20"
+      },
+      "category": "coding",
+      "tags": [
+        "codex",
+        "openai",
+        "tui",
+        "default-model",
+        "workspace",
+        "release-notes"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "OpenAI Codex CLI 0.171.0：GPT-6.2 Sol 与 Astra 进 model catalogs，Sol 成为默认选项；TUI workspace 默认启用，文档/图片预览与 subagent transcripts 与主对话并排；非 Vim composer 支持可配置 undo/redo；新增 codex exec --remote 在已有 app server 上启动/恢复非交互会话；/rc 与 /remote 管理远程控制与设备配对；修复切换会话丢草稿改目录丢 permission profile 等工程问题",
+      "summary_en": "Codex CLI 0.171.0 adds GPT-6.2 Sol and Astra to model catalogs with Sol as the default catalog selection, and enables the TUI workspace by default searchable document previews, image previews, and subagent transcripts alongside the main conversation. Also: configurable undo/redo in the non-Vim composer (restoring attachments and large pastes), codex exec --remote to start/resume noninteractive sessions on an existing app server, /rc and /remote for local remote control and device pairing, custom MCP status lines via /statusline, and fixes for lost drafts on session switch, dropped permission profiles on cwd changes, and late completions cancelling newer-turn approvals.",
+      "one_liner": "默认模型与默认 UI 信息架构同时切换的版本升级后审批面和上下文可见性都会变，值得升级前后各截一张默认项",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/31863867.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7ce40af7",
+      "title": "Claude Code v2.1.330: Enterprise Admin Console sign-in and easel",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "source": {
+        "platform": "github",
+        "author": "anthropics",
+        "original_date": "2026-11-20"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "enterprise",
+        "admin-console",
+        "settings",
+        "release-notes"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "Claude Code v2.1.330：claude auth login 后套用 Enterprise Admin Console 托管组织的 settings 并使用其 cloud provider/gateway（已有 managed settings 的机器仍忽略控制台）；新增 easel 内置 mod，在被要求或 MCP metrics 结果下画图，/config 可关闭；self-hosted runner 新增两个 /metrics 指标；修复长对话 compact 后冻结WebFetch 卡死并发保存丢用户 settings 等问题",
+      "summary_en": "Claude Code v2.1.330: after claude auth login, Claude Code applies settings from organizations managed in Anthropic's Enterprise Admin Console and uses its cloud provider or gateway (docs confirm the 2.1.330+ version gate; a machine with any managed settings still ignores the console). Adds easel, a built-in mod that draws charts when asked and under MCP metric results (Pro/Max and, where available, Team/Enterprise on macOS/Linux; off via /config). Self-hosted runner gains order-to-registered and order-to-first-session /metrics. Fixes include multi-minute freezes after compacting very long conversations, WebFetch hangs, and lost user settings under concurrent multi-process writes.",
+      "one_liner": "企业 admin 登录与本地 hooks/CLAUDE.md 的冲突面第一次被官方串起来managed settings 的优先级坑值得先读文档再升级",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/7ce40af7.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f1feff31",
+      "title": "MedChemBench: a benchmark for AI reasoning in medicinal chemistry",
+      "url": "https://x.com/OpenAI/status/2123856316187975756",
+      "source": {
+        "platform": "x",
+        "author": "OpenAI",
+        "original_date": "2026-11-20"
+      },
+      "category": "models",
+      "tags": [
+        "benchmark",
+        "medchem",
+        "openai",
+        "evaluation",
+        "gpt-6.2"
+      ],
+      "source_type": "x_post",
+      "language": "en",
+      "summary_zh": "OpenAI 发布 MedChemBench，定位为药物化学中的 AI 推理基准，展示前沿模型帮科学家筛选候选药物的能力进展官方帖与讨论给出的边界同样重要：xhigh 档 GPT-6.2 Astra 得分 84.5%，仅比 GPT-6 Astra 高 1.2 分；每题单次尝试不给工具不做新实验，且官方承认无法排除对已发表论文的先验记忆；分项覆盖结构重建推理候选选型与性质预测，结构重建强而选型与数值预测弱读数时避免AI 制药式外推，它测的是受约束的推理而非药物发现",
+      "summary_en": "OpenAI introduced MedChemBench, a benchmark for AI reasoning in medicinal chemistry, to track how far frontier models help scientists identify promising drug candidates. The caveats matter as much as the headline: GPT-6.2 Astra at xhigh scores 84.5%, only 1.2 points above GPT-6 Astra; each item is a single attempt with no tools and no new experiments, and OpenAI acknowledges prior exposure to the published papers cannot be ruled out. Component coverage spans structure reconstruction, reasoning, candidate selection and property prediction strong on reconstruction, weaker on selection and numeric prediction. Read it as constrained reasoning, not drug discovery.",
+      "one_liner": "官方自己把先验污染和单次无工具边界写清了的科学基准分子选型与数值预测仍是最弱分项",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/f1feff31.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3ea993db",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": {
+        "platform": "blog",
+        "author": "OpenAI",
+        "original_date": "2026-11-20"
+      },
+      "category": "models",
+      "tags": [
+        "openai",
+        "safety",
+        "distillation",
+        "reasoning",
+        "red-teaming",
+        "gpt-6.2"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 说明对抗蒸馏防御：GPT-6.2 Astra/Sol 把受保护推理绑定到产生它的对话历史，改写早期消息即丢弃其后推理，并禁止旧模型家族读取；输入/输出分类器覆盖助手消息与 tool-call 参数，防止推理从工具参数泄漏；API 层限制加密推理跨用户/组织/模型家族复用自适应黑盒红队测得从早期请求提取受保护推理成功率从 GPT-6 Astra 原 safeguard 的 54.0% 降到 0.2%，当前请求从 22.9% 到 0.9%内部研究显示精确推理轨迹蒸馏比只用摘要迁移出更强 cyber 能力第三方评注：数字均为自测，无外部复现",
+      "summary_en": "OpenAI details its anti-adversarial-distillation stack: GPT-6.2 Astra/Sol tie protected reasoning to the conversation that produced it (rewriting an earlier message drops subsequent reasoning) and block older model families from reading it; input/output classifiers cover assistant messages and tool-call arguments; API rules restrict encrypted-reasoning reuse across users, orgs and model families. In adaptive black-box red-teaming, average extraction ASR fell from 54.0% (GPT-6 Astra) to 0.2% (GPT-6.2 Astra) for earlier-request reasoning, and 22.9% to 0.9% for the current request. An internal study shows students distilled on exact reasoning traces transfer more cyber capability than those trained on summaries. Third-party commentary notes every number is OpenAI-tested with no external replication, and model and safeguards changed together.",
+      "one_liner": "54.0%0.2% 的提取成功率是自家红队自测数字，工程细节（tool-call 参数覆盖推理绑定会话）比结论更可复用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3ea993db.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-21",
-  "total_entries": 3439
+  "total_entries": 3450
 }
