@@ -105540,8 +105540,314 @@
       "related": [
         "5e9d3fd0"
       ]
+    },
+    {
+      "id": "9fe3e937",
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jiajun Fan, Neil He, Changyi Yang, Andy Mao, Xi Zhu, Chaoran Cheng, Kaiqu Liang, Shuaike Shen, Zetia...",
+        "original_date": "2026-11-16"
+      },
+      "category": "models",
+      "tags": [
+        "self-improving",
+        "weights",
+        "llm"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "这篇 cs.AI 论文提出 self-rewriting：无需梯度无需训练，模型通过自身推理改写自己的权重一个开源 27B 模型在拿到自身权重带评分的回答和自运行能力后，先诊断自身失败再改写对应权重，在从未见过的题目上提升 6.6 个百分点；它还会在练习题上测试每次修改只保留有效的修改，连续八轮会话准确率持续上升实验还显示它能不读原始权重，把一个损坏副本修复回原图像任务准确率的 80% 以上，且该能力随模型规模涌现，同家族小模型几乎不做有效修改",
+      "summary_en": "A language model is trained once and frozen. Making it better takes another training run, or a prompt, a harness or extra computation at inference that is gone once the task ends. We show a third way: to our knowledge for the first time, a language model rewrites its own weights by its own reasoning and becomes better, with no gradients and no training. We call this self-rewriting: the model is its own optimizer. In earlier work, a frontier model edited a much smaller one; here an open 27B model, given its weights, its graded answers and the ability to run itself, diagnoses its own failure and rewrites the weights behind it. It surpasses itself: its own edit makes it 6.6 points more accurate on problems it never saw.",
+      "one_liner": "27B开源模型用推理改写自身权重：无梯度自优化，八轮会话准确率持续上升",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9fe3e937.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f4dc2206",
+      "title": "MemFolder: Structure-Guided Memory Folding for Efficient Agent Memory Management",
+      "url": "https://arxiv.org/abs/2611.26427",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xuyang Liu, Chenwen Lu, Junxi Wang, Siyu Ren, Xinying Lin, Siteng Huang, Hongli Sun, Linfeng Zhang...",
+        "original_date": "2026-11-19"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "memory",
+        "efficiency"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "长程智能体的外部记忆库会随交互膨胀，检索开销与 prefill 计算同步上升MemFolder 提出结构引导的折叠框架：RecordFolder 通过实体提及锚点，结合语义/实体亲和与时间链，把兼容记录合并成更少检索单元；ContextFolder 把组内原始记录编码成紧凑文本，并用校验反馈修正丢失关键事实的编码论文在 LoCoMoPersonaMemLongMemEval 三个文本记忆基准和多模态基准上评测，同步降低记录数与上下文长度，避免单纯剪枝丢证据或合并后检索单元过长",
+      "summary_en": "Long-term agents accumulate large external memory stores as interactions unfold, increasing the costs of storage, retrieval, and response generation. Efficiency is constrained by two coupled factors: a growing record count increases retrieval overhead, while longer retrieved contexts increase prefill computation and decoding-time attention costs. Existing methods prune or consolidate records, but pruning can discard useful evidence, whereas consolidation may produce fewer yet longer retrieval units. We introduce MemFolder, a structure-guided memory folding framework that sequentially reduces record count and context length. The framework comprises two core components that share memory groups, using cross-record structure to guide both evidence consolidation and compact representation.",
+      "one_liner": "MemFolder用实体锚点与紧凑编码折叠智能体长期记忆，记录数与上下文长度同步下降",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f4dc2206.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bd055369",
+      "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
+      "url": "https://arxiv.org/abs/2611.26601",
+      "source": {
+        "platform": "arxiv",
+        "author": "Amine Lbath, Manan Suri, Aurelien Delaitre, Vadim Okun, Massih-Reza Amini, Dinesh Manocha",
+        "original_date": "2026-11-19"
+      },
+      "category": "coding",
+      "tags": [
+        "security",
+        "vulnerability",
+        "sok",
+        "coding"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "这篇 SoK 用类驾驶自动化的自主性分级框架，按正确性可得性与证据强度系统化梳理 LLM 在漏洞挖掘/验证/修补上的公开证据：在 2026 年受限前沿模型之前，已有智能体在真实软件中无人工干预完成发现验证与修补，随后开源权重模型在发现与验证上达到可比自主性作者进一步用十年公开漏洞记录通告与利用数据量化后果：2026 年披露漏洞数量翻倍以上，critical/high 占比上升，存活十年以上的老 bug 被报出的频率提高数倍",
+      "summary_en": "LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These claims, however, are scattered across papers, vendor reports and disclosures and are rarely comparable. We introduce a framework that rates these capabilities on an autonomy scale modeled on the levels of driving automation, and qualifies each claim by its correctness, its availability and the strength of its evidence. We use this framework to systematize the published evidence on LLM capability in vulnerability research.",
+      "one_liner": "SoK按自动驾驶式自主性分级评估LLM漏洞挖掘能力：2026年披露漏洞翻倍以上",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/bd055369.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "48c31b12",
+      "title": "AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher",
+      "url": "https://arxiv.org/abs/2611.26510",
+      "source": {
+        "platform": "arxiv",
+        "author": "Guoxin Chen, Shuang Sun, Fanzhe Meng, Xinyu Tang, Ruihua Song, Wayne Xin Zhao",
+        "original_date": "2026-11-19"
+      },
+      "category": "models",
+      "tags": [
+        "post-training",
+        "sft",
+        "skills"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "任务成功并不说明哪些行为值得强化：成功的教师轨迹里也可能有臆断前提无效重复或表面验证Skill-FT 用自然语言技能在教师 rollout 中抑制坏习惯引出欠表示的有效行为，再对目标模型做 SFT；AutoMaster 进一步让 LLM 智能体通过轨迹分析技能设计数据选择与反馈闭环自主开发这些干预在 TerminalSearch 与软件工程任务上，4B/9B 目标模型相对固定教师下的 Vanilla SFT 平均提升 1.42-8.99 个百分点；SFT 期间保留技能指令还在全部六个设置中取得更高均值",
+      "summary_en": "Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to suppress undesirable habits and elicit underrepresented effective behaviors during teacher rollouts, then fine-tunes a target model on the resulting trajectories. We introduce AutoMaster, an autonomous post-training system in which an LLM agent develops these interventions through trajectory analysis, skill design, data selection, and feedback from rollouts and target-model evaluation.",
+      "one_liner": "AutoMaster让智能体自设计Skill-FT干预，把同一教师模型变成更好的SFT老师",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/48c31b12.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ad8a29a0",
+      "title": "The Only Edge Was Memorized in Training: LLM Trading Agents Around Earnings and Bad News",
+      "url": "https://arxiv.org/abs/2611.22177",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jackson Wang",
+        "original_date": "2026-11-17"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "trading",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "新闻数分钟内就反映进股价，按发布时间重放头条的基准测不到 alpha论文改测两个尚有空间的时刻：598 次已知日期的财报前与 409 次大盘股坏消息超跌后，构建 look-ahead-free 基准，所有输入在决策收盘时截断，对比分阶段智能体单次调用简单规则与逻辑回归，且每项决策分别在隐去/给出股票名下做出四个厂商五个模型无一跑赢简单下注：财报前基本等于每次都买，坏消息后 Gemini 系智能体几乎把每次下跌都当超跌，选股并不比全买更好；唯一收益来自训练时记住的信息",
+      "summary_en": "Large language model (LLM) trading agents are tested on news, but news reaches stock prices within minutes, and a benchmark that replays headlines at their publication time finds no alpha in trading on them. Money can then remain in two places, before news whose date is known, such as earnings announcements, and after bad news, if the market's fall went too far. However, studies of LLMs and earnings read documents published with or after the announcement, and studies of reversal sort monthly portfolios, so neither tells whether an agent can trade these moments after costs. In this paper, we test LLM agents at both moments on the same look-ahead-free benchmark, before 598 earnings announcements and after 409 bad-news drops of large US stocks.",
+      "one_liner": "无前瞻泄漏基准实测：五个LLM交易智能体在财报前与坏消息后都跑不赢简单规则",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ad8a29a0.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a0ebc9ee",
+      "title": "Inkling 2 Mini: a fast, powerful model that runs on your laptop",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini",
+      "source": {
+        "platform": "blog",
+        "author": "Thinking Machines",
+        "original_date": "2026-11-21"
+      },
+      "category": "models",
+      "tags": [
+        "open-weights",
+        "looped-transformer",
+        "moe",
+        "models"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Thinking Machines 发布 Inkling 2 Mini：可在笔记本上运行的 looped transformer MoE，26.4B 总参数、3.4B 激活、计及循环后每 token 5.4B 权重激活；24 层分四块，两个中间块每 token 循环三次并用门控合并上一轮消息。官方报告其在 DeepSWE v1.1、SWE-bench Pro v2 等 agentic coding 基准领先同规模开源权重模型，长程智能体任务最强；但 MultiChallenge 50.0%、ComplexConstraints 33.4% 落后 Qwen3.8-27B。模型以开放权重发布并上架 Tinker。",
+      "summary_en": "Thinking Machines released Inkling 2 Mini, a looped-transformer Mixture-of-Experts model small enough to run on a laptop: 26.4B total parameters, 3.4B active, and 5.4B weight activations per token counting looping. Its 24 layers are split into four blocks; the two middle blocks run three times per token (48 layer applications from 24 stored layers) with a learned gate merging the previous pass's message. The release reports best-in-class open-weights results among similar-size models on agentic coding benchmarks such as DeepSWE v1.1 and SWE-bench Pro v2, with long-horizon agentic work its strongest suit, while it trails Qwen3.8-27B on MultiChallenge (50.0%) and ComplexConstraints v1.1 (33.4%), and its factuality tracks total parameter count. Inkling 2 Mini ships with open weights and is available on Tinker for inference and customization.",
+      "one_liner": "Thinking Machines发布Inkling 2 Mini：循环中间层的26.4B MoE，开放权重可本地跑",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/a0ebc9ee.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "00002822",
+      "title": "Introducing Frostbite: A new CPU architecture discovered, designed, and verified end-to-end by AI",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "source": {
+        "platform": "blog",
+        "author": "Architect Labs",
+        "original_date": null
+      },
+      "category": "infra",
+      "tags": [
+        "hardware",
+        "cpu",
+        "interaction-nets",
+        "ai-agents"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Architect Labs 发布 Frostbite：由 AI 端到端发现设计验证的通用 CPU，指令集基于 interaction nets 全新构建程序是节点图，计算只做局部端口重写，依赖显式，并行性直接来自程序本身智能体集群自主迭代编译器ISA架构微架构RTL验证到 GDS，全程零架构先验；以 ASL 形式化契约作为唯一事实源，31 个模块都有 Lean 契约，Arcmodel 全芯片仿真比 RTL 快 660 倍支撑跨栈优化上层语言 Vine（类 Rust 语法）编译到 Ivy IR，生成的 ISA 含宽 bundle硬件循环计数与流操作",
+      "summary_en": "Architect Labs introduced Frostbite, a general-purpose CPU with a brand-new instruction set that was discovered, designed, and verified end-to-end by its AI systems with zero architectural priors. Frostbite builds on interaction nets: programs are graphs rewritten through local port rewrites with explicit dependencies, so parallelism comes directly from the program. Agent swarms iterated compiler, ISA, architecture, microarchitecture, RTL, verification, and final GDS, keeping a formally backed ASL contract as the single source of truth, with Lean contracts for all 31 blocks and an Arcmodel simulation that runs 660x faster than RTL. Programs are written in Vine (Rust-like syntax), compiled to the Ivy IR encoding interaction-net structure.",
+      "one_liner": "Architect Labs的AI零先验端到端设计出interaction nets ISA的通用CPU Frostbite",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/00002822.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "00dcab6d",
+      "title": "OpenComputer: An open-source, faster Devin alternative",
+      "url": "https://github.com/diggerhq/opencomputer",
+      "source": {
+        "platform": "github",
+        "author": "Digger HQ",
+        "original_date": "2025-12-09"
+      },
+      "category": "coding",
+      "tags": [
+        "open-source",
+        "coding-agent",
+        "slack",
+        "self-hosting"
+      ],
+      "source_type": "github",
+      "language": "both",
+      "summary_zh": "diggerhq 开源 OpenComputer：定位为更快可自托管的 Devin 替代品编码智能体跑在自己的电脑上，团队在 Slack 里协作派活，支持官方云或自托管，Apache-2.0 协议，TypeScript 实现仓库创建于 2025-12-09，登上 HN 首页时约 726 stars，配套 docs.opencomputer.dev 文档与自托管指南，并给出云端智能体速度对标本地的 benchmark 页",
+      "summary_en": "diggerhq open-sourced OpenComputer, an Apache-2.0 TypeScript coding agent positioned as an open-source, faster alternative to Devin: the agent works on its own computers while the team collaborates with it in Slack, deployable in the vendor's cloud or self-hosted. The repo was created 2025-12-09 and had about 726 stars when it hit the Hacker News front page on 2026-11-21, with docs at docs.opencomputer.dev covering self-hosting and a benchmark page claiming cloud agents as fast as local ones.",
+      "one_liner": "OpenComputer开源：Slack协作+自有电脑的Devin替代品，Apache-2.0，约726 stars",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/00dcab6d.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": 726,
+      "related": []
+    },
+    {
+      "id": "4a5d64a1",
+      "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+      "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+      "source": {
+        "platform": "blog",
+        "author": "Mickey Petersen",
+        "original_date": "2026-11-20"
+      },
+      "category": "coding",
+      "tags": [
+        "coding",
+        "ide",
+        "harness",
+        "emacs"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Mastering Emacs 作者 Mickey Petersen 时隔 15 个月发布 DreamCoder：一个带平铺窗口管理器跑在浏览器里的前沿编码 harness/IDE，支持三大平台文章的出发点是对终端优先编码智能体的反思Claude Code 之类把主要交互模态锁在鞋架大小的终端窗口里，多行复制粘贴等基本操作都很别扭；文中还回顾了 McCarthyLISP 与 Emacs 在 AI 历史中的位置，把它们与新一代 harness 设计联系起来",
+      "summary_en": "Mickey Petersen, author of Mastering Emacs, released DreamCoder after 15 months of work: a frontier coding harness with a tiling window manager that runs in the browser on all three platforms. The post's core critique is that terminal-first coding agents like Claude Code lock the primary interaction modality into a shoe-rack-sized terminal window where even multi-line copy-paste is awkward; the article also traces the history of AI, LISP, and Emacs and connects that lineage to harness design.",
+      "one_liner": "Mastering Emacs作者发布DreamCoder：浏览器平铺WM的编码harness，反思终端优先",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/4a5d64a1.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3e30621e",
+      "title": "Vibecoding an inference chip",
+      "url": "https://ankitg.me/blog/vibecoding-inference-chip",
+      "source": {
+        "platform": "blog",
+        "author": null,
+        "original_date": null
+      },
+      "category": "infra",
+      "tags": [
+        "fpga",
+        "inference",
+        "vibe-coding",
+        "hardware"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "作者用编码智能体（Codex）在 AWS F2 FPGA 实例上从零搭出 Qwen 风格 MoE 的 LLM 推理：2-bit 权重驱动 3:1 mux、无乘法器，激活分组 INT12/INT16、FP32 累加；权重 2-bit 打包从 HBM 直通计算 lanes，激活缓存在核旁复用，8 核两簇并行投影。实测 tokens/s 从基线 6.43 一路优化到 213（约 33 倍），序列含 burst attention、draft model、prompt speculation 等十余步。DeepGrove 创始人直言几个月前模型还做不到这件事。",
+      "summary_en": "The author vibe-coded FPGA-based LLM inference on AWS F2 instances with coding agents (Codex): a Qwen-style MoE with 2-bit weights driving 3:1 muxes instead of multipliers, grouped INT12/INT16 activations with FP32 accumulation, weights streamed from HBM straight into compute lanes, and 8 cores in two clusters. Measured throughput went from a 6.43 tokens/s baseline to 213 tokens/s (about 33x) across a long optimization sequence including burst attention, parallel router, glue engine, prompt speculation, router relay, head shadow, draft model, and memory-port work. The author notes coding agents opened up an entirely new hardware domain DeepGrove founders replied that a few months earlier the models were not good enough for this.",
+      "one_liner": "Codex智能体在AWS F2 FPGA上搭出Qwen风格MoE推理，实测6.43->213 tokens/s",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3e30621e.md",
+      "images": [],
+      "added_date": "2026-11-21",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-20",
-  "total_entries": 3429
+  "last_updated": "2026-11-21",
+  "total_entries": 3439
 }
