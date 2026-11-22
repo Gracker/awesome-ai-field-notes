@@ -106205,8 +106205,258 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "8983649b",
+      "title": "Held While Waiting: What LLM Agent Sessions Reserve on Serverless and Agent Runtimes",
+      "url": "https://arxiv.org/abs/2611.26480",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mekhala Hithyshini Sreenivasa",
+        "original_date": "2026-11-19"
+      },
+      "category": "infra",
+      "tags": [
+        "infra",
+        "agents",
+        "serverless",
+        "runtime",
+        "cost"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM 智能体绝大部分生命周期在等模型：在 Amazon Bedrock AgentCore 上，每次模型回复平均要等 2.7 秒，自身计算估计仅 5-40 毫秒；等待期不收 CPU 费用，但运行时为每个会话独占预留一台独立虚拟机环境，直到会话关闭才释放：1000 个会话占 1000 个环境，工作量只相当于 2-15 个核，环境先于算力耗尽；成因有二：会话结束后环境滞留，客服基准中会话平均 33 秒结束，环境却多挂 15 分钟；一个环境只服务一个大部分时间在等待的会话，仿真显示 64 会话共享一个环境可少用 59 倍，99% 回复延迟不超过 40 毫秒；关闭只需客户端配合，共享则要平台支持",
+      "summary_en": "LLM agents spend nearly all their time waiting for the model: on Amazon Bedrock AgentCore, agents waited a median of 2.7 seconds per model reply and computed an estimated 5-40ms. AgentCore does not charge for CPU during the wait, but reserves a dedicated VM-backed environment per conversation until it closes, so 1,000 conversations reserve 1,000 environments to do the work of 2-15 cores; services run out of environments long before processing power. Two causes: environments stay reserved after conversations end (33-second conversations hold their environment about 15 extra minutes unless the client closes it), and one environment serves one mostly-waiting conversation (64 conversations sharing one environment need 59x fewer environments, 99 of 100 replies delayed at most 40 ms). Closing needs only the client; sharing needs the platform, and only one surveyed runtime partially allows it.",
+      "one_liner": "AgentCore 类运行时按会话独占预留环境：会话等模型 2.7 秒只算 5-40ms，环境滞留与独占导致环境先于算力耗尽",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8983649b.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d398bdbe",
+      "title": "Aggron: Aggressive Compression of Agentic KV Caches during Head-of-Line Stalls in the Request Queue",
+      "url": "https://arxiv.org/abs/2611.26435",
+      "source": {
+        "platform": "arxiv",
+        "author": "Rishabh Ravi, Tony Hong, Chen Wang, Yue Zhu, Mengmei Ye, Hubertus Franke, Fan Lai, Josep Torrellas",
+        "original_date": "2026-11-19"
+      },
+      "category": "infra",
+      "tags": [
+        "infra",
+        "serving",
+        "kv-cache",
+        "agents",
+        "compression"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "智能体请求是多轮长程序，KV 缓存逐轮增长，服务容量被缓存内存卡住；现有上下文压缩往往等缓存越过阈值再一次性总结大段历史，同引擎执行时会与在线请求争抢算力和内存；Aggron 改为逐轮总结并只压缩 KV 缓存的部分片段，保持总结请求轻量, 精度不掉；当对应智能体请求因队头阻塞停在主队列时，从独立的 Summarization Queue 发起总结，复用阻塞期间闲置的算力与内存，且只在预测总结能在请求恢复执行前完成时才触发；与最先进的异步总结相比，高负载下 P99 程序延迟降低 27-31%，吞吐提升 1.34-1.40 倍",
+      "summary_en": "Agentic LLM requests run long multi-turn programs whose KV caches grow every turn, and serving capacity is bounded by KV cache memory. Existing context compression waits for a large cache threshold and then summarizes large history spans at once, competing with live requests for compute and memory on the same engine. Aggron summarizes agentic requests at every turn and selectively compresses only parts of the KV cache, keeping summarization lightweight. It launches summarization jobs from a separate Summarization Queue while the owning request is stalled in the main queue by head-of-line blocking, reusing compute and memory the stall leaves idle, and issues a summarization only when it predicts the job finishes before the request resumes. Versus state-of-the-art asynchronous summarization, Aggron cuts P99 program latency 27-31% at high load and raises throughput 1.34-1.40x.",
+      "one_liner": "Aggron 逐轮压缩智能体 KV 缓存并借队头阻塞的空闲算力跑总结，高负载 P99 延迟降 27-31%，吞吐提升 1.34-1.40 倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d398bdbe.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "57187aec",
+      "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)",
+      "url": "https://arxiv.org/abs/2611.26553",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mengxiao Wang, Mahbub Alam, Kalyan Nakka, Nitesh Saxena",
+        "original_date": "2026-11-19"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "security",
+        "benchmark",
+        "incidents"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "媒体报道过 Replit 编码代理删库这类智能体事故，但目录和基准都不复现事故，也不验证归因根因；ROGUE-AI 把每起事故离线重建并配只去掉被归因原因的对照组，让智能体分别跑两套环境：108 次复现尝试中 89% 复现出所报危害；基于 GPT, Claude, Gemini, DeepSeek 五个现役模型的智能体在 18-33% 的运行中重犯同类错误，对照组至多 1%；72 起有真实危害的事故里 62 起没有攻击者：智能体只是执行了任务但漏掉普通隐患，这类无攻击复现的危害在五个模型上都超过提示注入复现；每次工具输出后点名隐患的警告能降低全部五个模型的危害，等长但不含隐患名的提示几乎无效",
+      "summary_en": "News reports describe LLM-agent failures such as Replit's coding agent deleting a production database, but incident catalogs and benchmarks neither replicate incidents nor test their blamed causes. ROGUE-AI is a multi-agent audit framework that rebuilds each reported incident offline together with a matched control lacking only the blamed cause, then runs agents on both. Across 108 attempted replications it reproduces the reported harm 89% of the time; agents built on five current GPT, Claude, Gemini and DeepSeek models repeat the reported mistake in 18-33% of runs versus at most 1% on controls. Of 72 incidents with real-world harm, 62 had no underlying attacker: agents did what the task asked but missed ordinary hazards, and these no-attacker replications caused more harm than prompt-injection ones. A post-tool-output warning naming the hazard lowered harm for all five models.",
+      "one_liner": "ROGUE-AI 离线复现真实智能体安全事故并设对照实验：89% 复现危害，无攻击者事故占比最高且危害超过提示注入",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/57187aec.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c86b62bf",
+      "title": "Backtracking Agent Applications Security Incidents",
+      "url": "https://arxiv.org/abs/2611.26525",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yicheng Cai, Taegyu Kim, Peng Liu",
+        "original_date": "2026-11-19"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "security",
+        "forensics",
+        "taint-analysis"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "智能体应用出安全事件后，分析师要从轨迹日志回溯定位入侵入口点（CEP），但轨迹日志记录的是智能体功能层，CEP 候选却是应用代码层的函数调用，应用级调用日志又往往稀疏，语义鸿沟迫使分析师对每个候选手动读代码；Origin 让分析师提交少量查询即可定位 CEP：用跨层依赖图（CLDG）把功能层推断的函数与底层污点传播子图中的变量连起来，配套查询语言，并给出区域推断算法把智能体功能分组建立映射；在五个主流智能体应用, 八起攻击事件的案例研究中，使用 Origin 的分析师正确定位全部 CEP",
+      "summary_en": "After an agent-application security incident, analysts backtrack from trajectory logs to find the compromise entry point (CEP), but trajectory logs describe agent functionalities while CEP candidates are function calls in app source code, and app-specific call logs are sparse; the semantic gap forces manual code inspection per candidate. Origin is a backtracking tool where the analyst submits a small number of queries to pinpoint CEPs. It builds a cross-layer dependency graph (CLDG) connecting region-inferred functions at the agent functionality level to variables in the low-level taint-propagation subgraph, adds a query language over that graph, and contributes a region-inference algorithm that groups agent functionalities for mapping. Case studies on five popular agent applications across eight attack incidents show an analyst using Origin correctly identifies all CEPs.",
+      "one_liner": "Origin 用跨层依赖图打通轨迹日志与应用代码，分析师少量查询即可定位智能体安全事件的入侵入口点",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c86b62bf.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "60c46cfb",
+      "title": "SkillBridge: Cost-Aware Diagnosis and Repair of Cross-OS Compatibility Defects in Agent Skills",
+      "url": "https://arxiv.org/abs/2611.26256",
+      "source": {
+        "platform": "arxiv",
+        "author": "Anjie Xu, Zixing Wang, Yifeng Cai, Leye Wang",
+        "original_date": "2026-11-19"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "skills",
+        "compatibility",
+        "cost"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM 智能体越来越多地以技能复用可执行能力，但同一技能换个 OS 可能就跑不通，OS 假设散布在指南文本, 脚本, 元数据和安装契约里；逐对全跑代价高昂；SkillBridge 用契约化三段流程处理：静态分析筛出 OS 敏感的契约证据（1090 技能, 3270 用例，跨 Linux/macOS/Windows）；动态验证加根因评审确认失败确由 OS 假设引起；再修复引发失败的契约字段，如指南文本, 包脚本, 依赖或平台声明；修复把评审判定的目标任务通过率从 30.6% 提到 38.4%；回溯分析显示确认 38 个 OS 问题只需 185 次验证，随机全跑要约 865 次",
+      "summary_en": "Agents increasingly reuse executable capabilities as skills, but a skill that works on one OS can fail on another because OS assumptions hide across guide text, scripts, metadata and install contracts; running every skill on every OS is expensive in tokens, runner time and review effort. SkillBridge is a contract-based workflow: static analysis, dynamic validation, then repair. It screens 3,270 skill-target-OS cases covering 1,090 skills on Linux, macOS and Windows for OS-sensitive contract evidence, runs dynamic tasks and root-cause review on selected cases, and repairs the failing contract field (guide text, scripts, dependencies, platform declarations). Repair raises reviewer-judged target-task pass rate from 30.6% to 38.4%; a retrospective analysis reaches 38 confirmed OS issues with 185 dynamic validations versus about 865 expected under uniform selection. Accepted at ICSE 2027.",
+      "one_liner": "SkillBridge 用契约分析加动态验证定位技能跨 OS 失败根因并修复契约字段，38 个 OS 问题的验证成本不到随机的四分之一",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/60c46cfb.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ae822859",
+      "title": "SWE-Recreation: Benchmarking Coding Agents for Software Recreation",
+      "url": "https://arxiv.org/abs/2611.26311",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zhiyao Xu, Zhanjie Ding, Hongyao Yu, Jingyu Xiao",
+        "original_date": "2026-11-19"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "coding",
+        "benchmark",
+        "recreation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "SWE-Recreation 问道：编码智能体能否像人一样靠使用一个陌生产品来理解并重建它？智能体只能看到渲染像素，通过指针和键盘操作，拿不到 DOM, 源码, 日志和后端；它先探索产品，生成复刻，再自查，最后进入评测；基准含 54 个真实应用（28 个网站, 26 个 Android 应用）和 1446 条隐藏需求，覆盖多步有状态工作流与明确的重建范围排除；固定裁判按像素证据给工作流打分，另一个事后裁判估计探索覆盖度；五个前沿系统在 54 个应用上的加权保真度最高只有 0.530，完全复现的需求占比最高 22.9%，暴露出探索取证不足与实现能力两方面的短板；代码与数据已在 GitHub 开源",
+      "summary_en": "SWE-Recreation asks whether a coding agent can understand an unfamiliar product by using it and then rebuild it. The agent sees only rendered pixels and acts through pointer and keyboard, with no DOM, source, logs or backend access: it explores the product, generates a replica, and self-checks before evaluation. The benchmark contains 54 real applications (28 websites, 26 Android apps) with 1,446 hidden requirements covering multistep stateful workflows and explicit out-of-scope exclusions; a fixed judge grades workflows on pixel evidence while a separate post-hoc judge estimates exploration coverage. Across the 54 applications, five frontier systems reach at most 0.530 weighted fidelity and 22.9% fully reproduced requirements under application-equal averaging, exposing both exploration-evidence gaps and implementation shortfalls. Code and data are public on GitHub.",
+      "one_liner": "SWE-Recreation 让智能体只靠像素与键鼠使用陌生产品后复刻：54 应用上最高加权保真 0.530，完全复现需求最高 22.9%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ae822859.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "12877b5a",
+      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+      "url": "https://arxiv.org/abs/2611.26619",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jinbin Luo, Xiaozhe Yao, Shang Yang, Zhijian Liu, Song Han, Qinghao Hu",
+        "original_date": "2026-11-19"
+      },
+      "category": "infra",
+      "tags": [
+        "infra",
+        "serving",
+        "cache",
+        "hybrid-attention"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "开源权重的混合架构模型同时含全局注意力层和有界状态层，两类缓存的显存需求随上下文长度和并发波动；TideCache 面向 CPU-GPU 超级芯片做服务：透明缓存池在固定虚拟地址后面为各缓存组件重新分配物理页；缓存流送器利用有界状态层提供的计算间隙，把下一全局注意力层前缀预取进跨层共享 GPU 槽位，传输与计算重叠；请求调度器按请求大小和队列状态选常驻或流送执行并触发容量调整；在 SGLang 中实现，GB300 与 GH200 跨七个配置评测：智能体轮次完成量最高提升 2.04 倍，整体 P50 单 token 延迟降 20-59%，智能体 P50 TTFT 提升 1.40-3.05 倍",
+      "summary_en": "Hybrid open-weight models mix global-attention and bounded-state layers with cache demands varying by context length and concurrency. TideCache serves them on CPU-GPU superchips with three components: a Transparent Cache Pool redistributing physical pages among cache components behind fixed virtual addresses; a Cache Streamer prefetching the next global-attention layer's prefix into GPU slots shared across layers during bounded-state layers' compute intervals, overlapping transfers with computation; and a Request Scheduler selecting resident or streamed execution and triggering capacity adjustments by request size and queue state. Implemented in SGLang, evaluated on GB300 and GH200 across seven configurations, TideCache completes up to 2.04x as many agent turns, reduces overall P50 per-token latency by 20-59%, and improves agent P50 TTFT by 1.40-3.05x versus SGLang with HiCache.",
+      "one_liner": "TideCache 在 CPU-GPU 超级芯片上统一调度混合架构异构缓存：智能体轮次最高 2.04 倍，P50 单 token 延迟降 20-59%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/12877b5a.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0a7b26f9",
+      "title": "HiSA: Sparsifying the Hidden Dimension of RoPE Attention in LLMs",
+      "url": "https://arxiv.org/abs/2611.26363",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ambroise Borbely, Mathieu Salzmann, Olivier Verscheure",
+        "original_date": "2026-11-19"
+      },
+      "category": "models",
+      "tags": [
+        "models",
+        "attention",
+        "sparsity",
+        "efficiency"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "注意力打分要对每个查询和每个键做完整点积，HiSA（Hidden Sparse Attention）追问这件事是否必须做满：它保留查询与键投影不变，只按 token 位置给定的静态免参数规则计算部分点积，把稀疏化做在隐藏特征维度而非 token 维度，这条轴几乎没人碰；基于 RoPE 的结构，键和查询被分解出可在注意力中省略的部分；从零训练的 LLM 显示：只算约三分之一的查询-键乘积不仅不掉点，性能反而更好；推理阶段解码更快, 显存更省，并扩展出 FlashAttention-3 训练与推理内核；作者还证明稠密注意力本身学到的就是压制 HiSA 丢弃的那些打分成分；代码已开源",
+      "summary_en": "HiSA (Hidden Sparse Attention) questions whether attention in LLMs needs the full query-key dot product. It keeps query and key projections intact but computes only a partial dot product under a static, parameter-free rule set by token positions: sparsity along the hidden feature dimension, an axis largely unexplored compared with token-level sparsity. Building on the structure of rotary position embeddings (RoPE), keys and queries are decomposed into parts that can be omitted during attention. Training LLMs from scratch with HiSA shows the partial product does not hurt but improves performance while computing about a third of the query-key products; inference gets faster decoding and smaller memory footprint, with extensions to FlashAttention-3 kernels. Dense attention is shown to learn suppressing exactly the score components HiSA drops. Code is public.",
+      "one_liner": "HiSA 把稀疏注意力做进隐藏特征维度：只算三分之一查询-键乘积反而涨点，解码更快显存更省",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0a7b26f9.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-21",
-  "total_entries": 3450
+  "last_updated": "2026-11-22",
+  "total_entries": 3458
 }
