@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference · God of GPT</title>
+  <meta name="description" content="让主机内存与SSD为低比特LLM推理供给精度：StrataFlux协同设计精修表示选择与传输，传输与计算重叠跨解码步复用已取回的精度RTX 5090上，2比特Llama-3.1-8B-Instruct的WikiText-2困惑度从9.46降到8.40，仍保住量化基线95.4%的吞吐；2比特权重加2比特KV把Qwen3-8B的AIME 2024/2025准确率从11.0%提到47.1%，显存占用不变；128K上下文下3比特权重加2比特KV，用约一半显存追平vLLM 4比特AWQ加8比特KV的困惑度与速度">
+  <meta property="og:title" content="StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference · God of GPT">
+  <meta property="og:description" content="让主机内存与SSD为低比特LLM推理供给精度：StrataFlux协同设计精修表示选择与传输，传输与计算重叠跨解码步复用已取回的精度RTX 5090上，2比特Llama-3.1-8B-Instruct的WikiText-2困惑度从9.46降到8.40，仍保住量化基线95.4%的吞吐；2比特权重加2比特KV把Qwen3-8B的AIME 2024/2025准确率从11.0%提到47.1%，显存占用不变；128K上下文下3比特权重加2比特KV，用约一半显存追平vLLM 4比特AWQ加8比特KV的困惑度与速度">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://godofgpt.com">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="God of GPT">
+      <span class="brand-mark">GG</span>
+      <span><b>God of GPT</b><em>AI 信息导航</em></span>
+    </a>
+    <nav class="site-nav"><a class="" href="/">首页</a><a class="" href="/channels/">频道</a><a class="" href="/topics/">专题</a><a class="" href="/archive/">归档</a><a class="" href="/sponsor/">赞助</a></nav>
+    <button class="search-trigger" type="button" data-open-search>搜索</button>
+  </header>
+  <main>
+    <article class="entry-layout">
+      <header class="entry-header">
+        <div class="eyebrow-row">
+          <a class="channel-pill amber" href="/channel/infra/">基础设施</a>
+          <span class="score score-5">5.0 · 必读</span>
+          <span class="meta-line">2026-11-05 · 论文</span>
+        </div>
+        <h1>StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference</h1>
+        <p>让主机内存与SSD为低比特LLM推理供给精度：StrataFlux协同设计精修表示选择与传输，传输与计算重叠跨解码步复用已取回的精度RTX 5090上，2比特Llama-3.1-8B-Instruct的WikiText-2困惑度从9.46降到8.40，仍保住量化基线95.4%的吞吐；2比特权重加2比特KV把Qwen3-8B的AIME 2024/2025准确率从11.0%提到47.1%，显存占用不变；128K上下文下3比特权重加2比特KV，用约一半显存追平vLLM 4比特AWQ加8比特KV的困惑度与速度</p>
+        <div class="entry-actions"><a class="button secondary" href="https://arxiv.org/abs/2611.08363" target="_blank" rel="noopener">打开原文</a><a class="button secondary" href="/archive/">回到归档</a></div>
+      </header>
+      <aside class="entry-aside">
+        <div class="why-box"><b>为什么重要</b><span>Streaming precision from RAM/SSD rescues low-bit LLM inference: Qwen3-8B AIME 11.0% to 47.1% at same VRAM</span></div>
+        <div class="audience-box"><b>适合谁看</b><div><span>开发者</span></div></div>
+        <div class="tag-row"><span class="tag">quantization</span><span class="tag">inference</span><span class="tag">memory-hierarchy</span><span class="tag">gpu</span></div>
+      </aside>
+      <section class="entry-content">
+        
+        <h2>StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference</h2>
+<ul><li><strong>ID</strong>: 2a77a746</li><li><strong>原文链接</strong>: <a href="https://arxiv.org/abs/2611.08363" target="_blank" rel="noopener">https://arxiv.org/abs/2611.08363</a></li><li><strong>PDF</strong>: <a href="https://arxiv.org/pdf/2611.08363v1" target="_blank" rel="noopener">https://arxiv.org/pdf/2611.08363v1</a></li><li><strong>作者</strong>: Jake Hyun, Ziyu Zhao, Jae-sun Seo, Mohamed S. Abdelfattah</li><li><strong>日期</strong>: 2026-11-05</li><li><strong>更新</strong>: 2026-11-05</li><li><strong>分类</strong>: infra</li><li><strong>来源类型</strong>: paper</li><li><strong>标签</strong>: quantization, inference, memory-hierarchy, gpu</li><li><strong>质量评分</strong>: 5/5</li><li><strong>抓取时间</strong>: 2026-11-08T04:26:47Z</li></ul>
+<h3>中文导读</h3>
+<p>低比特量化省内存省带宽但掉精度，offload 高精度数据又会让生成停等。StrataFlux 协同设计精度表示、选择与投递，让主机内存和 SSD 成为可用的精度来源：选择性精度流降低传输量、把传输与计算重叠、并跨解码步复用已取精度。在 2–4bit 权重、2–3bit KV 设置下：2bit Llama-3.1-8B-Instruct 的 WikiText-2 困惑度从 9.46 降到 8.40，RTX 5090 上保住量化基线 95.4% 吞吐；2bit 权重+KV 把 Qwen3-8B 的 AIME 2024/2025 准确率从 11.0% 拉到 47.1%，显存不变；128K 上下文下 3bit 权重+2bit KV 以约一半显存达到 vLLM 4bit AWQ+8bit KV 相当的困惑度与速度。</p>
+<h3>为什么值得关注</h3>
+<p>它同时打破“GPU 常驻精度决定精度上限、offload 层延迟决定解码速度”两个默认假设，靠的不是更大带宽，而是传输量、重叠、复用三个系统设计。对做端侧与单卡长上下文推理部署的人，2bit KV 下 AIME 47.1% 这组数字是新的参照点。</p>
+<p>该文于 2026-11-05 提交 arXiv（分类：cs.LG, cs.DC）。条目已有的中文导读与英文摘要均以此页元数据为锚，不引入摘要之外的实验细节。</p>
+<h3>关键信息</h3>
+<ul><li>论文标题：StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference</li><li>作者：Jake Hyun, Ziyu Zhao, Jae-sun Seo, Mohamed S. Abdelfattah</li><li>arXiv：<a href="https://arxiv.org/abs/2611.08363" target="_blank" rel="noopener">https://arxiv.org/abs/2611.08363</a></li><li>发布时间：2026-11-05</li><li>arXiv 分类：cs.LG, cs.DC</li><li>关联标签：quantization, inference, memory-hierarchy, gpu</li></ul>
+<h3>English Abstract</h3>
+<p>Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision data can instead stall generation. We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to low-bit weight and key-value (KV) cache quantization while retaining quantization&#x27;s memory and speed advantages. StrataFlux co-designs refinement representation, selection, and delivery to make host RAM and solid-state drives useful sources of additional precision. Its selective precision streaming reduces transfer volume, overlaps delivery with computation, and reuses fetched precision across decoding steps so generation need not wait for every transfer. We evaluate 2-4-bit weights and 2-3-bit KV-cache on dedicated GPUs and unified-memory platforms. For 2-bit Llama-3.1-8B-Instruct weights, StrataFlux reduces WikiText-2 perplexity from 9.46 to 8.40 while maintaining 95.4% of the quantized base&#x27;s throughput on RTX 5090. With 2-bit weights and KV, StrataFlux raises Qwen3-8B&#x27;s AIME 2024/2025 accuracy from 11.0% to 47.1% at unchanged GPU memory use. At 128K context, Llama-3.1-8B-Instruct with 3-bit weights and 2-bit KV achieves comparable perplexity and speed to vLLM&#x27;s 4-bit AWQ weights and 8-bit KV on RTX 5090, using approximately half the GPU memory. These results show that GPU-resident precision need not set the accuracy ceiling, nor offloading-tier latency dictate decoding speed.</p>
+<h3>English Summary</h3>
+<p>StrataFlux is a memory-hierarchy-native inference framework that recovers accuracy lost to low-bit weight and KV-cache quantization while keeping the memory and speed advantages. It co-designs refinement representation, selection, and delivery so host RAM and SSDs serve as usable precision sources: selective precision streaming cuts transfer volume, overlaps delivery with compute, and reuses fetched precision across decoding steps. On 2-4-bit weights and 2-3-bit KV: 2-bit Llama-3.1-8B-Instruct WikiText-2 perplexity drops 9.46 to 8.40 at 95.4% of quantized throughput on RTX 5090; with 2-bit weights and KV, Qwen3-8B AIME 2024/2025 accuracy rises 11.0% to 47.1% at unchanged GPU memory; at 128K context, 3-bit weights + 2-bit KV match vLLM 4-bit AWQ + 8-bit KV perplexity and speed with roughly half the GPU memory.</p>
+<h3>Obsidian Notes</h3>
+<ul><li>opencli arxiv paper 2611.08363 -f json 成功返回元数据；本页由该 JSON 的元数据与摘要回填。</li><li>中文导读与价值判断均锚定在论文摘要、作者、日期与分类信息上，不引入摘要之外的实验细节。</li><li>本文件写入 canonical content 目录（content/2a77a746.md），而非 openclaw/content/；现代站点生成器按 content/{entry.id}.md 查找内容页。</li></ul>
+      </section>
+      <section class="related-block">
+        <div class="section-head"><div><span>Related</span><h2>继续阅读</h2></div></div>
+        <div class="compact-list related-grid">
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill amber">Infra</span>
+        <span class="score score-4">4.0 · 优秀</span>
+      </div>
+      <a class="mini-card__title" href="/entry/01e84763/">FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper</a>
+      <p>针对 prefill 与 decode 访存特征截然不同这一点，作者给出面向 Hopper 的 Llama 块 CUDA 实现：prefill 侧沿用 CODA 的 GEMM+epilogue 思路，把 KV-cache 直接写入目标布局将 RMSNorm 固定增益折叠进权重以延迟缩放直写 FP8 输出并支持无 padding；decode 侧用 INT4 投影权重加 INT4 KV-cache 压缩权重与缓存读取带宽单作者系统论文，抽象给出了明确的技术清单，适合作为 FP8/INT4 混合精度推理在 Hopper 上的工程参考</p>
+      <div class="meta-line">2026-10-16 · 论文 · Wei Wang</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill amber">Infra</span>
+        <span class="score score-3">3.0 · 值得看</span>
+      </div>
+      <a class="mini-card__title" href="/entry/a93eb8df/">Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot</a>
+      <p>NVIDIA 开源 Snapshot：Kubernetes 上 GPU 工作负载的 checkpoint/restore 系统，捕获完全初始化的 CPU+GPU 内存状态官方数字：推理副本 3.642.7 秒上线，比分钟级冷启动快 836 倍；支持张量/数据/专家/解码上下文并行，MoE 模型 checkpoint 最高 1TB（8 卡）；checkpoint 创建 15 秒5.5 分钟，每种受测配置里 checkpoint+restore 总时间都短于一次冷启动agent 评测农场突发扩容故障拉起都吃冷启动，这篇给的是可直接核对的数字表</p>
+      <div class="meta-line">2026-11-10 · 文章 · Ron Kahn, Dan Feigin, Oz Bar-Shalom, Ekin Karabulut, Schwinn Saereesitthipitak (...</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill cyan">Models</span>
+        <span class="score score-4">4.0 · 优秀</span>
+      </div>
+      <a class="mini-card__title" href="/entry/80cac6e5/">MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations</a>
+      <p>MXFP4 W4A4 训练后量化：每个线性层独立处理，在线对激活做逐通道缩放与块 Hadamard 变换把逆变换吸收进权重，避免跨层依赖，量化可流式实现（同一时刻内存只需一层）配 Flip-RefinementHessian 感知的坐标下降，贪心移动 FP4 码到相邻可表示值Qwen3-32B vLLM 上端到端开销仅 2.3%；困惑度低于 DuQuant++ 与 MR-GPTQ，Llama-3-8B 上以 1/11 的量化时间打平其最佳困惑度；122B 模型 64 分钟32.5GB 显存完成量化，且无需架构特定修改即用于图像扩散模型</p>
+      <div class="meta-line">2026-11-07 · 论文 · Lorenz K. Muller, Philippe Bich, Chiara Boretti, Hyun-Min Chang, Jiawei Zhuang...</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill cyan">Models</span>
+        <span class="score score-4">4.0 · 优秀</span>
+      </div>
+      <a class="mini-card__title" href="/entry/864c5999/">Qwen3.8-Flash-Next Day-0 NVFP4 + dual DGX Spark deployment math</a>
+      <p>RadixArk 放出 Qwen3.8-Flash-Next 的 Day-0 NVFP4 量化版：约 180B 总参数48 层 MoE512 个 Experts，原生支持文本/图片/视频输入与 262K 上下文；BF16 全精度约 360GB，NVFP4 压到 135GB（约 1/2.7）单台 DGX Spark 128GB Unified Memory 装不下，双机合计 256GB 才进入舒适运行区间，还能给 KV Cache 与推理框架留余量路线是 RadixArk + SGLang + NVIDIA Blackwell 原生 NVFP4，不必等 GGUF 社区逐步适配这条硬件账意味着 180B 量级模型在桌面级双机上可舒服运行，本地 token 自由跨过新的硬件门槛...</p>
+      <div class="meta-line">2026-08-26 · X · wei_wang</div>
+    </article>
+    </div>
+      </section>
+    </article>
+    </main>
+  <footer class="site-footer">
+    <div>
+      <b>God of GPT</b>
+      <p>由 OpenClaw 自动采集、清洗、去重、归类；人工口径是：少一点噪音，多一点判断。</p>
+    </div>
+    <div class="footer-links">
+      <a href="/archive/">全部归档</a>
+      <a href="/sponsor/">赞助合作</a>
+      <a href="https://github.com/Gracker/awesome-ai-field-notes">GitHub</a>
+    </div>
+  </footer>
+  <div class="search-modal" data-search-modal hidden>
+    <div class="search-panel">
+      <div class="search-panel__head">
+        <input type="search" placeholder="搜索模型、Agent、公司、工具..." data-search-input>
+        <button type="button" data-close-search>关闭</button>
+      </div>
+      <div class="search-results" data-search-results></div>
+    </div>
+  </div>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

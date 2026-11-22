@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trail: Scalable and Low-Cost Temporal TLB Prefetching via Page-Table-Embedded Deltas · God of GPT</title>
+  <meta name="description" content="TLB 时间局部性预取器把地址增量存在固定容量硬件表里，跟不上应用内存足迹增长；作者对 200 个翻译密集型负载特征化，发现 94% 以上增量装得进 18 个有符号位，于是把增量写进叶子页表项（PTE）空闲位，页表遍历时顺路取回，不引入额外内存访问，元数据容量随内存足迹自动扩展单核平均提速 5.7%四核 11.5%，硬件只加一张 64 项表，代码开在 CMU-SAFARI Virtuoso 仓库">
+  <meta property="og:title" content="Trail: Scalable and Low-Cost Temporal TLB Prefetching via Page-Table-Embedded Deltas · God of GPT">
+  <meta property="og:description" content="TLB 时间局部性预取器把地址增量存在固定容量硬件表里，跟不上应用内存足迹增长；作者对 200 个翻译密集型负载特征化，发现 94% 以上增量装得进 18 个有符号位，于是把增量写进叶子页表项（PTE）空闲位，页表遍历时顺路取回，不引入额外内存访问，元数据容量随内存足迹自动扩展单核平均提速 5.7%四核 11.5%，硬件只加一张 64 项表，代码开在 CMU-SAFARI Virtuoso 仓库">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://godofgpt.com">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="God of GPT">
+      <span class="brand-mark">GG</span>
+      <span><b>God of GPT</b><em>AI 信息导航</em></span>
+    </a>
+    <nav class="site-nav"><a class="" href="/">首页</a><a class="" href="/channels/">频道</a><a class="" href="/topics/">专题</a><a class="" href="/archive/">归档</a><a class="" href="/sponsor/">赞助</a></nav>
+    <button class="search-trigger" type="button" data-open-search>搜索</button>
+  </header>
+  <main>
+    <article class="entry-layout">
+      <header class="entry-header">
+        <div class="eyebrow-row">
+          <a class="channel-pill amber" href="/channel/infra/">基础设施</a>
+          <span class="score score-4">4.0 · 优秀</span>
+          <span class="meta-line">2026-10-06 · 论文</span>
+        </div>
+        <h1>Trail: Scalable and Low-Cost Temporal TLB Prefetching via Page-Table-Embedded Deltas</h1>
+        <p>TLB 时间局部性预取器把地址增量存在固定容量硬件表里，跟不上应用内存足迹增长；作者对 200 个翻译密集型负载特征化，发现 94% 以上增量装得进 18 个有符号位，于是把增量写进叶子页表项（PTE）空闲位，页表遍历时顺路取回，不引入额外内存访问，元数据容量随内存足迹自动扩展单核平均提速 5.7%四核 11.5%，硬件只加一张 64 项表，代码开在 CMU-SAFARI Virtuoso 仓库</p>
+        <div class="entry-actions"><a class="button secondary" href="https://arxiv.org/abs/2610.08483" target="_blank" rel="noopener">打开原文</a><a class="button secondary" href="/archive/">回到归档</a></div>
+      </header>
+      <aside class="entry-aside">
+        <div class="why-box"><b>为什么重要</b><span>Trail：把 TLB 预取地址增量藏进 PTE 空闲位，容量随内存足迹扩展，单核 +5.7%</span></div>
+        <div class="audience-box"><b>适合谁看</b><div><span>开发者</span></div></div>
+        <div class="tag-row"><span class="tag">tlb</span><span class="tag">prefetching</span><span class="tag">page-table</span><span class="tag">memory-hierarchy</span><span class="tag">hardware</span></div>
+      </aside>
+      <section class="entry-content">
+        
+        <h2>Trail: Scalable and Low-Cost Temporal TLB Prefetching via Page-Table-Embedded Deltas</h2>
+<ul><li><strong>ID</strong>: dc00ee45</li><li><strong>原文链接</strong>: <a href="https://arxiv.org/abs/2610.08483" target="_blank" rel="noopener">https://arxiv.org/abs/2610.08483</a></li><li><strong>PDF</strong>: <a href="https://arxiv.org/pdf/2610.08483" target="_blank" rel="noopener">https://arxiv.org/pdf/2610.08483</a></li><li><strong>作者</strong>: Konstantinos Kanellopoulos, Konstantinos Sgouras, Harsh Songara, Rahul Bera, Onur Mutlu</li><li><strong>日期</strong>: 2026-10-06</li><li><strong>更新</strong>: 2026-10-06</li><li><strong>分类</strong>: infra</li><li><strong>arXiv 分类</strong>: cs.AR, cs.OS, cs.PF</li><li><strong>来源类型</strong>: paper</li><li><strong>标签</strong>: tlb, prefetching, page-table, memory-hierarchy, hardware</li><li><strong>质量评分</strong>: 4/5</li><li><strong>抓取时间</strong>: 2026-10-08T15:41:20Z</li></ul>
+<h3>中文导读</h3>
+<p>TLB 时间局部性预取器把地址增量存在固定容量硬件表里，跟不上应用内存足迹增长；作者对 200 个翻译密集型负载特征化，发现 94% 以上增量装得进 18 个有符号位，于是把增量写进叶子页表项（PTE）空闲位，页表遍历时顺路取回，不引入额外内存访问，元数据容量随内存足迹自动扩展。单核平均提速 5.7%、四核 11.5%，硬件只加一张 64 项表，代码开在 CMU-SAFARI Virtuoso 仓库。</p>
+<h3>为什么值得关注</h3>
+<p>把元数据藏进已有结构、让容量跟着数据规模走，对任何受困于固定容量硬件表的设计都有参考价值。</p>
+<h3>关键信息</h3>
+<ul><li>论文标题：Trail: Scalable and Low-Cost Temporal TLB Prefetching via Page-Table-Embedded Deltas</li><li>作者：Konstantinos Kanellopoulos, Konstantinos Sgouras, Harsh Songara, Rahul Bera, Onur Mutlu</li><li>arXiv：<a href="https://arxiv.org/abs/2610.08483" target="_blank" rel="noopener">https://arxiv.org/abs/2610.08483</a></li><li>发布时间：2026-10-06</li><li>arXiv 分类：cs.AR, cs.OS, cs.PF</li><li>关联标签：tlb, prefetching, page-table, memory-hierarchy, hardware</li></ul>
+<h3>English Abstract</h3>
+<p>Address translation is a major bottleneck in data-intensive workloads. TLB prefetching can hide translation latency, but existing spatial prefetchers struggle with irregular accesses, while temporal prefetchers store address deltas in fixed-capacity hardware that cannot scale with application memory footprints. Our characterization of 200 translation-intensive workloads reveals that each virtual memory region has a small, recurring set of deltas, and over 94% of deltas fit in 18 signed bits. We introduce Trail, a temporal TLB prefetcher that stores deltas in unused bits of leaf page table entries (PTEs). When a region triggers a page table walk, Trail identifies the region that last triggered a walk from the same instruction and records their delta in that source region&#x27;s PTE. When a later walk fetches the source region&#x27;s PTE cache block, Trail retrieves its deltas without additional memory accesses and prefetches translations for likely destination regions into the TLBs and cache hierarchy. Storing multiple deltas per PTE cache block improves coverage, while using existing PTE bits allows metadata capacity to scale with the application&#x27;s memory footprint without additional metadata storage. Across 200 workloads and 100 multiprogrammed mixes, Trail improves single-core (four-core) performance by 5.7% (11.5%) on average over a baseline without TLB prefetching, outperforming the best prior standalone TLB prefetcher by 1.7% (2.5%). Trail requires only a 64-entry hardware table to track per-instruction page table walk history. Trail is freely available at <a href="https://github.com/CMU-SAFARI/Virtuoso/tree/trail-artifact-release." target="_blank" rel="noopener">https://github.com/CMU-SAFARI/Virtuoso/tree/trail-artifact-release.</a></p>
+<h3>English Summary</h3>
+<p>Temporal TLB prefetchers store address deltas in fixed-capacity hardware tables that cannot keep up with growing memory footprints. Characterizing 200 translation-intensive workloads, the authors find over 94% of deltas fit in 18 signed bits, so Trail embeds them in unused leaf-PTE bits, fetched during the page-table walk with no extra memory access, with metadata capacity scaling alongside the footprint. Single-core speedups average 5.7% (11.5% four-core) over the best standalone prefetcher, adding only one 64-entry table; code is open in CMU-SAFARI&#x27;s Virtuoso repo.</p>
+<h3>Obsidian Notes</h3>
+<ul><li>内容由 <code>opencli arxiv paper 2610.08483 -f json</code> 拉取 arXiv 元数据与摘要生成（opencli-first 成功）。</li><li>中文导读与价值判断锚定在论文摘要、作者、日期与分类信息上；未补充摘要之外的实验细节。</li></ul>
+      </section>
+      <section class="related-block">
+        <div class="section-head"><div><span>Related</span><h2>继续阅读</h2></div></div>
+        <div class="compact-list related-grid">
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill amber">Infra</span>
+        <span class="score score-5">5.0 · 必读</span>
+      </div>
+      <a class="mini-card__title" href="/entry/2a77a746/">StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference</a>
+      <p>让主机内存与SSD为低比特LLM推理供给精度：StrataFlux协同设计精修表示选择与传输，传输与计算重叠跨解码步复用已取回的精度RTX 5090上，2比特Llama-3.1-8B-Instruct的WikiText-2困惑度从9.46降到8.40，仍保住量化基线95.4%的吞吐；2比特权重加2比特KV把Qwen3-8B的AIME 2024/2025准确率从11.0%提到47.1%，显存占用不变；128K上下文下3比特权重加2比特KV，用约一半显存追平vLLM 4比特AWQ加8比特KV的困惑度与速度</p>
+      <div class="meta-line">2026-11-05 · 论文 · Jake Hyun, Ziyu Zhao, Jae-sun Seo, Mohamed S. Abdelfattah</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill amber">Infra</span>
+        <span class="score score-4">4.0 · 优秀</span>
+      </div>
+      <a class="mini-card__title" href="/entry/a6ca7db7/">MAServeBench: Benchmarking Multi-Agent LLM Serving Systems with Hierarchical Collaboration Workl...</a>
+      <p>多 agent 系统把一次用户请求变成相互依赖的模型与工具操作：就绪时间不同上下文随协作演化，并发计算与显存需求模式随之改变，暴露 serving 硬件的不同瓶颈MAServeBench 把多 agent 协作作为可配置的 serving 工作负载维度：可组合阶段刻画文档化 MAS 工作流的协作规则，输入与工具不变也能生成不同负载；Hierarchical Semantic Traces 保留实际操作与依赖以便同工作量下复现比较；任务级测量把负载接到 serving 执行与 GPU/NPU 硬件行为，解释为何 serving 效率并不总等于任务按时完成</p>
+      <div class="meta-line">2026-10-29 · 论文 · Shengxuan Qiu, Haochen Huang, Shuzhang Zhong, Zizhuo Fu, Zebin Yang, Jianming To...</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill green">Coding</span>
+        <span class="score score-4">4.0 · 优秀</span>
+      </div>
+      <a class="mini-card__title" href="/entry/baaf713b/">Locating the source of a mysterious beep with Claude</a>
+      <p>Willison 把 coding agent 接到物理世界：储物间里间歇蜂鸣站着听无法定位，他让 Claude Code 造了 Beep Locator，用两台 iPad一部手机MacBook Pro 和 Surface 当听音器确认目标频率后持续监听，由往返时延最小的设备先发短 chirp，其余设备上传 chirp 前后各一段录音做对齐，三角定位锁定到约 40 厘米翻出一只该换电池的老式一氧化碳探测器Claude 写第一版 problem.md 时自己找出了 2007 年普渡 BeepBeep 论文；agent 没有原生音频输入，但能跑 FFT 分析并通过 WebSocket 给听音器热更新代码</p>
+      <div class="meta-line">2026-11-09 · 文章 · Simon Willison</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill green">Coding</span>
+        <span class="score score-3">3.0 · 值得看</span>
+      </div>
+      <a class="mini-card__title" href="/entry/7aedfa73/">OpenAI Chromatic Codex Edition goes on sale: a $200 Codex-tied handheld device</a>
+      <p>OpenAI 与 ModRetro 合作的 Chromatic Codex Edition 于 2026-11-09 上架 openai.com/supply/co-lab/chromatic/，定价 $200，是 11-08 teaser 的正式落地；官方经 @OpenAIDevs 与 @modretro 宣发，页面含 restock 字段，商店页 curl 抓取 403（浏览器可开）二手市场 DevDay 机型与公售价的差价成为社区讨论点，Codex plugin 的实际 ROM/联动路径待核这条线的信号是 Codex 生态开始长出实体载体，值得跟踪补货与开发者实际用法</p>
+      <div class="meta-line">2026-11-09 · 产品 · OpenAI x ModRetro</div>
+    </article>
+    </div>
+      </section>
+    </article>
+    </main>
+  <footer class="site-footer">
+    <div>
+      <b>God of GPT</b>
+      <p>由 OpenClaw 自动采集、清洗、去重、归类；人工口径是：少一点噪音，多一点判断。</p>
+    </div>
+    <div class="footer-links">
+      <a href="/archive/">全部归档</a>
+      <a href="/sponsor/">赞助合作</a>
+      <a href="https://github.com/Gracker/awesome-ai-field-notes">GitHub</a>
+    </div>
+  </footer>
+  <div class="search-modal" data-search-modal hidden>
+    <div class="search-panel">
+      <div class="search-panel__head">
+        <input type="search" placeholder="搜索模型、Agent、公司、工具..." data-search-input>
+        <button type="button" data-close-search>关闭</button>
+      </div>
+      <div class="search-results" data-search-results></div>
+    </div>
+  </div>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

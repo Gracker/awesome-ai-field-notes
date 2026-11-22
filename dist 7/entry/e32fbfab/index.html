@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning · God of GPT</title>
+  <meta name="description" content="自我改进的策略会不断暴露新失败模式，固定 judge 同时卡住优化反馈与新训练数据发现VeriFine 让 policy课程judge 三者共同进化：Policy Improvement Loop 用 rubric judge 诊断重复失败并构建自适应课程；进展停滞时 Judge Improvement Loop 只在信息量大的失败案例上请求人类指导，通过 coactive calibration 让人机分歧向客观物理推理 rubric 收敛在驾驶与机器人导航任务上，policy 与 judge 在 RL/SFT 两种训练下均持续改进">
+  <meta property="og:title" content="VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning · God of GPT">
+  <meta property="og:description" content="自我改进的策略会不断暴露新失败模式，固定 judge 同时卡住优化反馈与新训练数据发现VeriFine 让 policy课程judge 三者共同进化：Policy Improvement Loop 用 rubric judge 诊断重复失败并构建自适应课程；进展停滞时 Judge Improvement Loop 只在信息量大的失败案例上请求人类指导，通过 coactive calibration 让人机分歧向客观物理推理 rubric 收敛在驾驶与机器人导航任务上，policy 与 judge 在 RL/SFT 两种训练下均持续改进">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://godofgpt.com">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="God of GPT">
+      <span class="brand-mark">GG</span>
+      <span><b>God of GPT</b><em>AI 信息导航</em></span>
+    </a>
+    <nav class="site-nav"><a class="" href="/">首页</a><a class="" href="/channels/">频道</a><a class="" href="/topics/">专题</a><a class="" href="/archive/">归档</a><a class="" href="/sponsor/">赞助</a></nav>
+    <button class="search-trigger" type="button" data-open-search>搜索</button>
+  </header>
+  <main>
+    <article class="entry-layout">
+      <header class="entry-header">
+        <div class="eyebrow-row">
+          <a class="channel-pill violet" href="/channel/agents/">Agent 与自动化</a>
+          <span class="score score-4">4.0 · 优秀</span>
+          <span class="meta-line">2026-10-06 · 论文</span>
+        </div>
+        <h1>VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning</h1>
+        <p>自我改进的策略会不断暴露新失败模式，固定 judge 同时卡住优化反馈与新训练数据发现VeriFine 让 policy课程judge 三者共同进化：Policy Improvement Loop 用 rubric judge 诊断重复失败并构建自适应课程；进展停滞时 Judge Improvement Loop 只在信息量大的失败案例上请求人类指导，通过 coactive calibration 让人机分歧向客观物理推理 rubric 收敛在驾驶与机器人导航任务上，policy 与 judge 在 RL/SFT 两种训练下均持续改进</p>
+        <div class="entry-actions"><a class="button secondary" href="https://arxiv.org/abs/2610.08761" target="_blank" rel="noopener">打开原文</a><a class="button secondary" href="/archive/">回到归档</a></div>
+      </header>
+      <aside class="entry-aside">
+        <div class="why-box"><b>为什么重要</b><span>VeriFine：judge 随 policy 共同进化的具身自我改进框架，验证成瓶颈时按信息量挑失败案例请人标定</span></div>
+        <div class="audience-box"><b>适合谁看</b><div><span>开发者</span></div></div>
+        <div class="tag-row"><span class="tag">verification</span><span class="tag">self-improvement</span><span class="tag">embodied-agents</span><span class="tag">rl</span><span class="tag">reward-models</span></div>
+      </aside>
+      <section class="entry-content">
+        
+        <h2>VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning</h2>
+<ul><li><strong>ID</strong>: e32fbfab</li><li><strong>原文链接</strong>: <a href="https://arxiv.org/abs/2610.08761" target="_blank" rel="noopener">https://arxiv.org/abs/2610.08761</a></li><li><strong>PDF</strong>: <a href="https://arxiv.org/pdf/2610.08761" target="_blank" rel="noopener">https://arxiv.org/pdf/2610.08761</a></li><li><strong>作者</strong>: Zewei Zhou, Rachel Luo, Yulong Cao, Chaowei Xiao, Chensheng Peng, Boyi Li, Thomas Tian, Zheng Lian, Yan Wang, Jiaqi Ma, Boris Ivanovic, Marco Pavone, Wenhao Ding</li><li><strong>日期</strong>: 2026-10-06</li><li><strong>更新</strong>: 2026-10-06</li><li><strong>分类</strong>: agents</li><li><strong>来源类型</strong>: paper</li><li><strong>标签</strong>: verification, self-improvement, embodied-agents, rl, reward-models</li><li><strong>质量评分</strong>: 4/5</li><li><strong>抓取时间</strong>: 2026-10-08T12:22:39Z</li></ul>
+<h3>中文导读</h3>
+<p>自我改进的策略会不断暴露新失败模式，固定 judge 同时卡住优化反馈与新训练数据发现VeriFine 让 policy课程judge 三者共同进化：Policy Improvement Loop 用 rubric judge 诊断重复失败并构建自适应课程；进展停滞时 Judge Improvement Loop 只在信息量大的失败案例上请求人类指导，通过 coactive calibration 让人机分歧向客观物理推理 rubric 收敛在驾驶与机器人导航任务上，policy 与 judge 在 RL/SFT 两种训练下均持续改进</p>
+<h3>为什么值得关注</h3>
+<p>自我改进系统的瓶颈正从『会做事』移到『会验证』：固定 judge 同时卡住优化反馈与新训练数据发现。VeriFine 让 policy、课程、judge 三方共同进化，进展停滞时只在信息量大的失败案例上请求人类指导，通过 coactive calibration 让人机分歧向客观物理推理 rubric 收敛；在驾驶与机器人导航任务上展示了 RL 与 SFT 两种训练下 policy 与 judge 的持续改进。</p>
+<h3>关键信息</h3>
+<ul><li>论文标题：VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning</li><li>作者：Zewei Zhou, Rachel Luo, Yulong Cao, Chaowei Xiao, Chensheng Peng, Boyi Li, Thomas Tian, Zheng Lian, Yan Wang, Jiaqi Ma, Boris Ivanovic, Marco Pavone, Wenhao Ding</li><li>arXiv：<a href="https://arxiv.org/abs/2610.08761" target="_blank" rel="noopener">https://arxiv.org/abs/2610.08761</a></li><li>发布时间：2026-10-06</li><li>arXiv 分类：cs.AI, cs.RO</li><li>关联标签：verification, self-improvement, embodied-agents, rl, reward-models</li></ul>
+<h3>English Abstract</h3>
+<p>Self-improving policies continually expose new failure patterns, changing what their judges must be able to verify. However, current fixed judges constrain both optimization feedback and the discovery of useful training examples, limiting further self-improvement. This challenge is even more acute in embodied reasoning, where reliable evaluation must account for spatial grounding, causal reasoning, and safety-aware decision-making. We introduce VeriFine, an agent harness framework that scales verification through the co-evolution of the policy, training curriculum, and judge. The Policy Improvement Loop uses a rubric judge to diagnose recurring failures, construct an adaptive curriculum, and optimize the policy. When progress plateaus and verification becomes a bottleneck, the Judge Improvement Loop selectively queries human guidance on informative failure cases and refines the judge through coactive calibration, in which humans and agents resolve disagreements and converge toward the objective rubric of physical reasoning. The revised judge then guides the next stage of data selection and policy optimization. Experiments on driving and robot navigation tasks demonstrate continuous self-improvement in both policy and judge capability across reinforcement and supervised fine-tuning. These results show how scaling verification supports continuous self-improvement as policy failure patterns evolve.</p>
+<h3>English Summary</h3>
+<p>Self-improving policies keep exposing new failure patterns, and fixed judges bottleneck both optimization feedback and training-data discovery. VeriFine scales verification by co-evolving policy, curriculum, and judge: a Policy Improvement Loop uses a rubric judge to diagnose recurring failures and build an adaptive curriculum; when progress plateaus, a Judge Improvement Loop queries humans only on informative failures and refines the judge via coactive calibration, converging human-agent disagreements toward an objective physical-reasoning rubric. On driving and robot navigation, both policy and judge keep improving across RL and SFT.</p>
+<h3>Obsidian Notes</h3>
+<ul><li>内容由 <code>opencli arxiv paper</code> 拉取 arXiv 元数据与摘要生成。</li><li>中文导读与价值判断均锚定在条目已有摘要、论文摘要、作者、日期与分类信息上；未补充论文摘要之外的实验细节。</li></ul>
+      </section>
+      <section class="related-block">
+        <div class="section-head"><div><span>Related</span><h2>继续阅读</h2></div></div>
+        <div class="compact-list related-grid">
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill violet">Agents</span>
+        <span class="score score-4">4.0 · 优秀</span>
+      </div>
+      <a class="mini-card__title" href="/entry/3d11b218/">Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents</a>
+      <p>RPG（Reconstruct, Practice, Go Real）：不更新模型权重的机器人执行系统自主改进框架从离线数据集中识别操作能力，在仿真中构造相关练习任务；练习时用执行反馈仿真器特权状态和数据集视频诊断失败，进而新增可复用符号技能改进已有技能修订系统提示词，候选改动先做跨任务评估再决定保留测试时由多模态 LLM 用最终系统提示词和技能库协调感知与控制在 22 个操作任务的 held-out 初始化上，任务成功率从第一轮练习后的 28.6% 升到 15 轮后的 95.0%，优于所有对比基线2026-10-01，cs.RO/cs.AI/eess.SY</p>
+      <div class="meta-line">2026-10-01 · 论文 · Yen-Jen Wang, Haozhe Jiang, et al. (Pieter Abbeel, Nika Haghtalab, Haozhi Qi amo...</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill cyan">Models</span>
+        <span class="score score-5">5.0 · 必读</span>
+      </div>
+      <a class="mini-card__title" href="/entry/592cecd9/">Test-Time Scaling in the Wild: Why Exploitation, Not Exploration, Is the Bottleneck</a>
+      <p>首个在医学/法律/金融/通用对话/创意写作五个开放生成基准上做计算量归一化对比的测试时扩展（TTS）研究，覆盖五类方法核心发现：探索侧没有问题候选池里最好样本随算力持续变好；瓶颈在利用侧（从池里挑出最终答案）SOTA 奖励模型与真实质量相关性仅 0.12，选择近乎随机；树搜索会因多样性坍缩放大这个失败；跨候选融合（Fusion）是唯一稳定优于单样本基线的方法，但也只回收约 40% 可用质量对做 agent 评测RLVRbest-of-N 管线的人是必读的负结果</p>
+      <div class="meta-line">2026-08-19 · 论文 · Davide Romano, Kanak Raj, Jerrod Parker, Daniele Giofr</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill violet">Agents</span>
+        <span class="score score-5">5.0 · 必读</span>
+      </div>
+      <a class="mini-card__title" href="/entry/16a1f622/">The Same Zero: Why Identical ASR Can Imply Different Guarantees in LLM-Agent Security</a>
+      <p>agent 安全防御密集落地但没人说得清某个防御到底承诺什么保证本文用 Verification Autonomy Levels（L0 自我声明到 L5 不可判定）给 22 个 agent 安全防御分级，分类学可证伪：对冻结卡片 10/10 预测命中并做首个受控部署价值对比：同等预算下 VAL 引导栈（confirmation gate + schema sandbox）对主流直觉栈（prompt hardening + 关键词过滤），50 场景 12 攻击变体约 7000 testbed 调用；直觉栈同样压到 0 ASR 但把所有良性动作全部杀死靠模型行为运气而非结构获得安全...</p>
+      <div class="meta-line">2026-10-03 · 论文 · YaJie Yin</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill violet">Agents</span>
+        <span class="score score-5">5.0 · 必读</span>
+      </div>
+      <a class="mini-card__title" href="/entry/958a9b26/">Agent Lightning v1.0: Towards Harnessed Agentic RL</a>
+      <p>Agent Lightning v1.0 用约 3500 行代码把部署时的 agent harness 直接接入 RL 后训练，提出 harnessed agentic RL 范式：环境交互循环由 harness 持有，训练器只观察 LLM 请求-响应对序列论文系统处理了重分词样本合并优势计算损失归一化与后端调度五个工程问题，覆盖指令跟随搜索编码三类 agent，并提供完整可复现的编码 agent RL 管线只用 6K 训练样本与中等算力，Qwen3.5-9B 在 SWE-bench Verified 上从 41.8% 提升到 56.4%，绝对提升 14.6 个点该架构思路已被 verl Uni-AgentAReaL 2.0slimePolar 等框架采用</p>
+      <div class="meta-line">2026-08-18 · 论文 · Zhiyuan He, Siwei Zhang, Zhiwen Zhou, Yuqing Yang, Yu Kang, Yuge Zhang, Luna K.....</div>
+    </article>
+    </div>
+      </section>
+    </article>
+    </main>
+  <footer class="site-footer">
+    <div>
+      <b>God of GPT</b>
+      <p>由 OpenClaw 自动采集、清洗、去重、归类；人工口径是：少一点噪音，多一点判断。</p>
+    </div>
+    <div class="footer-links">
+      <a href="/archive/">全部归档</a>
+      <a href="/sponsor/">赞助合作</a>
+      <a href="https://github.com/Gracker/awesome-ai-field-notes">GitHub</a>
+    </div>
+  </footer>
+  <div class="search-modal" data-search-modal hidden>
+    <div class="search-panel">
+      <div class="search-panel__head">
+        <input type="search" placeholder="搜索模型、Agent、公司、工具..." data-search-input>
+        <button type="button" data-close-search>关闭</button>
+      </div>
+      <div class="search-results" data-search-results></div>
+    </div>
+  </div>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

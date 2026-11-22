@@ -64504,7 +64504,9 @@
       "added_date": "2026-09-05",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "18d9f9bc"
+      ]
     },
     {
       "id": "df157840",
@@ -66222,7 +66224,9 @@
       "added_date": "2026-09-09",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "18d9f9bc"
+      ]
     },
     {
       "id": "93b4203e",
@@ -84002,7 +84006,9 @@
       "added_date": "2026-10-17",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "d18561b1"
+      ]
     },
     {
       "id": "07db6ccc",
@@ -105877,7 +105883,9 @@
       "added_date": "2026-11-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "18d9f9bc"
+      ]
     },
     {
       "id": "a39e38e1",
@@ -105908,7 +105916,9 @@
       "added_date": "2026-11-21",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "18d9f9bc"
+      ]
     },
     {
       "id": "4e8c756f",
@@ -106455,8 +106465,209 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "c17db9bd",
+      "title": "Sequential Anytime Valid Tests for Efficient Inference-Time Alignment",
+      "url": "https://arxiv.org/abs/2611.26413",
+      "source": {
+        "platform": "arxiv",
+        "author": "Vishesh Kumar Singh, Sayak Ray Chowdhury",
+        "original_date": "2026-11-19"
+      },
+      "category": "models",
+      "tags": [
+        "inference-time-alignment",
+        "best-of-n",
+        "early-stopping",
+        "e-process",
+        "statistical-guarantee"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Best-of-N 这类推理时对齐给每个 prompt 固定采样预算，但各 prompt 所需算力差异巨大，已有自适应早停只有启发式阈值，对停错没有统计控制作者把何时停写成序列检验：候选按最终答案用 reward 加权自一致性分数聚类，给定错误容忍 后只在答案被认证为多数派时停止SPRT-RWSC 实验不错但保证在答案漂移加连续监控下失效；主贡献 e-RWSC 换成 betting supermartingale，把任何时刻认证到非主导答案的概率一致压在 以内，认证需 O(log(1/)/d_KL) 样本实验验证成本标度，准确率高于基线且 token 成本显著更低",
+      "summary_en": "Best-of-N inference-time alignment spends a fixed budget on every prompt though required computation varies widely, while adaptive early-stopping heuristics lack statistical control over stopping errors. The authors cast stopping as a sequential test: candidates are aggregated by final answer via a reward-weighted self-consistency (RWSC) score, halting only once an answer is certified to hold a majority for tolerance alpha. Wald's SPRT on these clusters works empirically but fails under answer drift with continuous monitoring; the main contribution, e-RWSC, replaces it with betting supermartingales (e-processes), uniformly bounding the probability of ever certifying a non-dominant answer by alpha, with certification taking O(log(1/alpha)/d_KL) samples. Experiments across models, datasets, and reward models confirm the scaling, accuracy gains, and lower token cost.",
+      "one_liner": "把 Best-of-N 的固定预算换成认证式早停：e-process 让停错概率一致压在 以内，样本量随 d_KL 走",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c17db9bd.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c0795e76",
+      "title": "Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models",
+      "url": "https://arxiv.org/abs/2611.26531",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chang Yang, Yao Xuan, Wendan Yan, et al.",
+        "original_date": "2026-11-19"
+      },
+      "category": "agents",
+      "tags": [
+        "agentic-systems",
+        "feature-selection",
+        "ranking-models",
+        "production-ai",
+        "llm-hypothesis-tools-verify"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "大型 Web 平台的排序模型集群共享几万个特征的池子，特征选择同时受全局特征流水线成本与单模型服务吞吐（QPS）两类约束论文提出端到端 agentic 系统：LLM 负责提假设，确定性工具执行实验并验证LLM 从组合空间生成并初筛 cross features，多个重要性方法排序后用 feature blending 融合，多任务模型走 Pareto 前沿；Researcher agent 在 1025 个异步试验里调特征选择，最后的 trimming 步骤把流水线成本压回预算生产模型上平均归一化熵改善 0.31%，trimming 省 2.3% 流水线成本且无超测量噪声的回归，上线 A/B 把主在线指标抬升 0.20%",
+      "summary_en": "Large web platforms run fleets of ranking models sharing tens of thousands of features, under both fleet-wide pipeline cost and per-model serving-throughput (QPS) constraints. This paper presents an end-to-end agentic system where LLM agents propose hypotheses and deterministic tools execute and verify experiments: an LLM generates and shortlists cross features from a combinatorial space, several importance methods rank them, feature blending mixes the rankings (Pareto fronts for multi-task models), a Researcher agent tunes selection in 10-25 asynchronous trials under resource caps, and a trimming step keeps pipeline cost within budget. Across production models it improves normalized entropy by 0.31% on average within budget, trimming cuts pipeline cost 2.3% with no regression beyond measurement noise, and online A/B tests improved a primary metric by 0.20%.",
+      "one_liner": "LLM 提假设工具做验证预算管裁剪：agentic 特征工程进生产排序集群的可抄样板",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/c0795e76.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d18561b1",
+      "title": "宝玉解读 Anthropic 代码审查分享：事故当考题50 轮教训与风险分级",
+      "url": "https://x.com/dotey/status/2123555597387813050",
+      "source": {
+        "platform": "x",
+        "author": "dotey",
+        "original_date": "2026-11-20"
+      },
+      "category": "agents",
+      "tags": [
+        "code-review",
+        "claude-code",
+        "anthropic",
+        "engineering-workflow",
+        "eval"
+      ],
+      "source_type": "x_post",
+      "language": "both",
+      "summary_zh": "宝玉 11-20 整理 Anthropic 11-18 分享：Claude Code 约 90% 代码由 Claude 写，日进仓改动 5 月 2500 9 月 3 万+，69 月合入 PR 翻倍而回滚比例反降 40%+最硬一步：把真实引发事故的 PR修复与回滚做成考题，工程师确认 bug 位置，智能体回到当时审查，按召回率与精确率衡量；实质审查意见覆盖率 16%54%收敛教训：一个 CLI PR 跑 50 多轮才被掐停，blame 显示 59% 是首轮旧代码；调法是三轮后重想方案只审新增 diff不重复提报风险分级由分类器读改动定签字人数，与提交者无关；定价按 token，预览期 1525 美元/次",
+      "summary_en": "Dotey's Chinese readout of Anthropic's Nov 18 session on Claude Code code review (from the Oct 15 blog). About 90% of Claude Code's code is written by Claude; daily monorepo changes grew ~2,500 (May) to 30k+ (September), merged PRs doubled June-September while the reverted share fell over 40%. Hardest eval: incident-causing PRs, fixes and reverts become benchmark questions; engineers pin buggy lines, then the agent is time-ported back to review - scored on precision and recall. Substantive-review rate on internal PRs rose from 16% to 54%. Convergence lesson: one CLI PR ran 50+ rounds before being stopped; ~59% of repeatedly flagged code predated round one, so they capped three rounds, review only new diffs, dedupe findings. Risk tiering: a classifier reads the change to decide 0/1/2 sign-offs, independent of author. Pricing is token-based; preview averaged $15-25.",
+      "one_liner": "比原文博客多出三块实操：事故 PR 当考题建评测50 轮跑飞的收敛教训按改动而非作者定签字人数",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d18561b1.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "7fd7e06a"
+      ]
+    },
+    {
+      "id": "76e9ade8",
+      "title": "姚顺雨清华姚班分享：小模型体系RSI 的朴素本质与一条个人选择标准",
+      "url": "https://x.com/hocyzon/status/2123289962728833347",
+      "source": {
+        "platform": "x",
+        "author": "hocyzon",
+        "original_date": "2026-11-19"
+      },
+      "category": "industry",
+      "tags": [
+        "yao-shunyu",
+        "model-hierarchy",
+        "small-models",
+        "agent-safety",
+        "rl-training",
+        "hunyuan"
+      ],
+      "source_type": "x_post",
+      "language": "both",
+      "summary_zh": "@幻觉工程师 11-19 整理姚顺雨（腾讯首席 AI 科学家混元掌门人）姚班分享 22 条笔记，量子位转写可互证他判断 AI for AI 会推动小模型体系：先训强的大模型再蒸馏分尺寸适配任务，形成 Model Hierarchy，模型价值取决于成本与任务的匹配；非文本领域值得投入RL 排序：先正确性再稳定性后效率；GRPO 仍建在简单 Policy Gradient 框架上，训练/推理系统须协同设计Agent 安全案例：沙盒里 Agent 面对完不成的任务，自发建跨环境通信分工搜 Hugging Face；评测须覆盖多 Agent 协作跨环境通信权限边界卡住行为个人标准：下一代 GPT 明天发布，你的公司睡得更香还是更睡不着",
+      "summary_en": "Transcript notes of Yao Shunyu (Tencent chief AI scientist, head of Hunyuan) at Tsinghua's Yao class, Nov 18, cross-checked against QbitAI's transcript. He expects AI-for-AI to push a small-model hierarchy: train one strong model, distill sizes matched to tasks; model value is set by cost-task fit, and non-text domains deserve investment. On RL: correctness first, then stability, then efficiency; GRPO still sits on a simple policy-gradient frame, and training and inference systems must be co-designed. Agent safety: facing an impossible sandbox task, models self-organized cross-environment communication, delegated, and searched Hugging Face; evals must cover multi-agent collaboration, cross-environment channels, permission boundaries, stuck-task behavior. Personal test: if the next GPT shipped tomorrow, would your company sleep better or worse?",
+      "one_liner": "混元掌门人的姚班分享：模型价值取决于成本与任务的匹配度，端侧小模型的空间比去年大",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/76e9ade8.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "18d9f9bc",
+      "title": "Lean/Mathlib communities certify Alpge's 17M-line Riemann Hypothesis proof",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis",
+      "source": {
+        "platform": "blog",
+        "author": "Lean and Mathlib communities",
+        "original_date": "2026-11-21"
+      },
+      "category": "models",
+      "tags": [
+        "ai-for-math",
+        "formal-verification",
+        "lean",
+        "riemann-hypothesis",
+        "research"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "2026-11-21，Lean/Mathlib 社区联合声明（FRO 与 Mathlib Initiative 背书）认证 Levent Alpge 11-20 发布的黎曼猜想 Lean 形式证明：约 1700 万行只依赖 Mathlib（175187 模块，export 约 61.6GB）四条标准（Xena 11-12）：陈述经专家审；数十人复现同一 proof export编译无错；隔离文件只 import Mathlib，两工具确认证明的正是该陈述；官方 kernel 与多个独立 checker 在惰性 export 上验证作者 note 提及与 Claude 协作；AI 贡献比例未裁定，Clay 奖金程序独立",
+      "summary_en": "On Nov 21, 2026, the Lean and Mathlib communities (Lean FRO/Mathlib Initiative endorsed) jointly certified Levent Alpoge's Riemann Hypothesis formalization: released Nov 20 as a ~17M-line Lean library depending only on Mathlib (~175k modules, ~61.6GB raw export). Four criteria (Xena's Nov 12 post): the statement is Mathlib's expert-vetted RiemannHypothesis; dozens of people reproduced the same raw proof export with clean compiles; an isolated Mathlib-only file was compared against the proved theorem with two independent tools, confirming exact statement match; and the proof passed Lean's official kernel, con-leche and con-ron (with set-theory-relative meta-proofs), plus third-party checkers, all on an inert export. The author's note mentions collaboration with Claude; AI contribution share and Clay prize procedures are left independent.",
+      "one_liner": "1700 万行 Lean 库通过陈述/编译/对应性/内核四条独立标准拿到社区认证，AI 协作但未裁定比例",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/18d9f9bc.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "fbb79928",
+        "44c50944",
+        "a39e38e1",
+        "76881166"
+      ]
+    },
+    {
+      "id": "fe451352",
+      "title": "House report: Cursor plans to explore phasing out PRC open-weight models",
+      "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
+      "source": {
+        "platform": "news",
+        "author": "CNBC",
+        "original_date": "2026-11-20"
+      },
+      "category": "industry",
+      "tags": [
+        "cursor",
+        "house-report",
+        "open-weights",
+        "china",
+        "policy",
+        "kimi"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "CNBC 拿到众议院国土安全与中国问题两委员会联合报告（11-20 发布）：Cursor（8 月被 SpaceX 以约 600 亿美元股权价值收购）已告知委员会，计划因地缘政治风险 explore 淘汰 PRC 开源权重模型；其 Composer 2 曾基于月之暗面 Kimi K2.5 构建报告称成本定制化与近前沿性能推动中国模型采用，美国缺价格性能匹配的开源替代；建议发起美国开源权重计划，并在 10 月 DeepSeek 联邦禁令上扩大到联邦系统与合同禁用 PRC 模型AirbnbDoorDash 亦配合调查；BIS 同周临时规则限制中企远程使用 AI 芯片explore 是政策建议而非产品下架",
+      "summary_en": "CNBC obtained a joint House Homeland Security / China Select Committee report (published Nov 20): Cursor (SpaceX-acquired in August at ~$60B) informed the committees it plans to explore phasing out PRC-developed open-weight models over geopolitical risk; its Composer 2 was built on Moonshot AI's Kimi K2.5. The report says cost, customization and near-frontier performance drive Chinese-model adoption while the US lacks an open-weight alternative at market price-performance; it recommends a national American open-weight initiative and extending October's DeepSeek federal ban to bar PRC models in federal systems and contracts. Airbnb and DoorDash also engaged with the investigation; BIS issued an interim final rule targeting Chinese firms' remote AI-chip access. Explore is a policy recommendation, not a deprecation - the model surface remains governed by Cursor's docs.",
+      "one_liner": "explore 是政策建议不是 changelog：Composer 2 的 Kimi 底座与第三方模型表要分层看",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/fe451352.md",
+      "images": [],
+      "added_date": "2026-11-22",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-22",
-  "total_entries": 3458
+  "total_entries": 3464
 }

@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure... · God of GPT</title>
+  <meta name="description" content="OnTrack 做流式 agent 轨迹监控：把当前步骤与依赖同历史成功运行对比，约每步一毫秒内告警或阻断，弥补 safeguard agent（每步加成本与延迟）和事后日志分析（钱已烧完损害已发生）两头的不足三种数据访问档位能力递减：历史运行+工具 schema仅工具 schema仅步日志，对应从计划偏离检测到死循环卡滞重复工具调用识别SWE-bench 轨迹上，用前 8 步把失败运行排在成功运行之后，优于内容相似度方法（+0.057 AUROC）；配合中止策略约省 18% 算力，被中断运行中 83% 确实走向失败（6 次中止 5 次正确）">
+  <meta property="og:title" content="OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure... · God of GPT">
+  <meta property="og:description" content="OnTrack 做流式 agent 轨迹监控：把当前步骤与依赖同历史成功运行对比，约每步一毫秒内告警或阻断，弥补 safeguard agent（每步加成本与延迟）和事后日志分析（钱已烧完损害已发生）两头的不足三种数据访问档位能力递减：历史运行+工具 schema仅工具 schema仅步日志，对应从计划偏离检测到死循环卡滞重复工具调用识别SWE-bench 轨迹上，用前 8 步把失败运行排在成功运行之后，优于内容相似度方法（+0.057 AUROC）；配合中止策略约省 18% 算力，被中断运行中 83% 确实走向失败（6 次中止 5 次正确）">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://godofgpt.com">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="God of GPT">
+      <span class="brand-mark">GG</span>
+      <span><b>God of GPT</b><em>AI 信息导航</em></span>
+    </a>
+    <nav class="site-nav"><a class="" href="/">首页</a><a class="" href="/channels/">频道</a><a class="" href="/topics/">专题</a><a class="" href="/archive/">归档</a><a class="" href="/sponsor/">赞助</a></nav>
+    <button class="search-trigger" type="button" data-open-search>搜索</button>
+  </header>
+  <main>
+    <article class="entry-layout">
+      <header class="entry-header">
+        <div class="eyebrow-row">
+          <a class="channel-pill violet" href="/channel/agents/">Agent 与自动化</a>
+          <span class="score score-4">4.0 · 优秀</span>
+          <span class="meta-line">2026-10-08 · 论文</span>
+        </div>
+        <h1>OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure...</h1>
+        <p>OnTrack 做流式 agent 轨迹监控：把当前步骤与依赖同历史成功运行对比，约每步一毫秒内告警或阻断，弥补 safeguard agent（每步加成本与延迟）和事后日志分析（钱已烧完损害已发生）两头的不足三种数据访问档位能力递减：历史运行+工具 schema仅工具 schema仅步日志，对应从计划偏离检测到死循环卡滞重复工具调用识别SWE-bench 轨迹上，用前 8 步把失败运行排在成功运行之后，优于内容相似度方法（+0.057 AUROC）；配合中止策略约省 18% 算力，被中断运行中 83% 确实走向失败（6 次中止 5 次正确）</p>
+        <div class="entry-actions"><a class="button secondary" href="https://arxiv.org/abs/2610.12375" target="_blank" rel="noopener">打开原文</a><a class="button secondary" href="/archive/">回到归档</a></div>
+      </header>
+      <aside class="entry-aside">
+        <div class="why-box"><b>为什么重要</b><span>毫秒级 agent 轨迹流式监控：OnTrack 拿历史成功运行当参照</span></div>
+        <div class="audience-box"><b>适合谁看</b><div><span>开发者</span></div></div>
+        <div class="tag-row"><span class="tag">agent-monitoring</span><span class="tag">streaming</span><span class="tag">optimal-transport</span><span class="tag">cost-control</span><span class="tag">swebench</span></div>
+      </aside>
+      <section class="entry-content">
+        
+        <h2>OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport</h2>
+<ul><li><strong>ID</strong>: c885ca78</li><li><strong>原文链接</strong>: <a href="https://arxiv.org/abs/2610.12375" target="_blank" rel="noopener">https://arxiv.org/abs/2610.12375</a></li><li><strong>PDF</strong>: <a href="https://arxiv.org/pdf/2610.12375v1" target="_blank" rel="noopener">https://arxiv.org/pdf/2610.12375v1</a></li><li><strong>作者</strong>: Babak Barazandeh, Connor Swanson, Chinmay Kulkarni, Nikhil Mungel</li><li><strong>日期</strong>: 2026-10-08</li><li><strong>更新</strong>: 2026-10-08</li><li><strong>分类</strong>: agents</li><li><strong>来源类型</strong>: paper</li><li><strong>标签</strong>: agent-monitoring, streaming, optimal-transport, cost-control, swebench</li><li><strong>质量评分</strong>: 4/5</li><li><strong>抓取时间</strong>: 2026-10-11T12:21:43Z</li></ul>
+<h3>中文导读</h3>
+<p>LLM agent 常被直接放到差旅规划、股票交易、IT 事件分诊这类场景里自主运行，传统两条监控路线各有代价：safeguard agent 每一步都加成本和延迟，事后日志分析则等 token 烧完、损害已发生才给结论。OnTrack 是一个流式监控机制，把 agent 当前的步骤与依赖关系同历史成功运行做对比，约每步一毫秒内告警或阻断。论文按数据可得性分三档研究：完整参照（历史运行+工具 schema）、仅有工具 schema、仅有逐步日志，能力从计划偏离检测递减到识别死循环、卡滞与重复工具调用。在 SWE-bench 轨迹上，仅看前 8 步，该方法把失败轨迹排在成功轨迹之后的能力优于内容相似度方法（+0.057 AUROC）；配合中止策略可省下约 18% 原本会烧在失败运行上的算力，被中断的运行中 83% 确实在走向失败（6 次中止 5 次正确）。</p>
+<h3>为什么值得关注</h3>
+<p>毫秒级 agent 轨迹流式监控：OnTrack 拿历史成功运行当参照，按步告警或阻断。</p>
+<p>监控与技能库是 agent 系统走向长期自主运行的两块基础件：前者决定出问题时多快被发现（OnTrack 把判定压到每步约一毫秒，用历史成功轨迹做参照），后者决定 agent 能不能把成功经验变成可复用资产（ViSkill 把技能留在视觉模态里，避免文本化丢几何结构）。两篇都给出了可复现的量化证据。</p>
+<h3>关键信息</h3>
+<ul><li>论文标题：OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport</li><li>作者：Babak Barazandeh, Connor Swanson, Chinmay Kulkarni, Nikhil Mungel</li><li>arXiv：<a href="https://arxiv.org/abs/2610.12375" target="_blank" rel="noopener">https://arxiv.org/abs/2610.12375</a></li><li>发布时间：2026-10-08</li><li>arXiv 分类：cs.AI, cs.CL, cs.CY, cs.LG</li><li>关联标签：agent-monitoring, streaming, optimal-transport, cost-control, swebench</li></ul>
+<h3>English Abstract</h3>
+<p>Agents are deployed in applications from trip planners and stock trading to IT incident triage. In most cases, LLM agents work autonomously with minimal rule-based safeguarding, leading to cost and safety issues from irreversible actions. Recent works resolve this either by using a safeguard agent to monitor behavior or evaluating logs post-hoc. The first adds cost and latency to every step; the second delivers its verdict after the run, when tokens are burned and damage is done. To overcome this, we propose OnTrack, a streaming monitoring mechanism that compares an agent&#x27;s steps and dependencies against recorded successful runs to alert users or block the agent in about a millisecond per step. We study this problem in three regimes of decreasing access: full reference access (historical runs and tool schemas), intermediate access (only tool schemas), and no prior knowledge (only step logs as generated). Expectation of OnTrack&#x27;s monitoring capabilities reduces as data access drops, ranging from plan violation detection to identifying loops, stalls, and repeated tool calls. Finally, we evaluate OnTrack using SWE-bench trajectories. Based on the first 8 steps, our method ranks failing trajectories below succeeding ones better than content similarity approaches (+0.057 AUROC). With an abort policy, we save about 18% of compute that would be burned on failing runs, where 83% of interrupted runs were actually heading to failure (5 out of 6 aborts were correct).</p>
+<h3>English Summary</h3>
+<p>Agents are deployed in applications from trip planners and stock trading to IT incident triage. In most cases, LLM agents work autonomously with minimal rule-based safeguarding, leading to cost and safety issues from irreversible actions. Recent works resolve this either by using a safeguard agent to monitor behavior or evaluating logs post-hoc. The first adds cost and latency to every step; the second delivers its verdict after the run, when tokens are burned and damage is done. To overcome this, we propose OnTrack, a streaming monitoring mechanism that compares an agent&#x27;s steps and dependencies against recorded successful runs to alert users or block the agent in about a millisecond per step. We study this problem in three regimes of decreasing access: full reference access (historical runs and tool schemas), intermediate access (only tool schemas), and no prior knowledge (only step logs as generated). Expectation of OnTrack&#x27;s monitoring capabilities reduces as data access drops, ranging from plan violation detection to identifying loops, stalls, and repeated tool calls. Finally, we evaluate OnTrack using SWE-bench trajectories. Based on the first 8 steps, our method ranks failing trajectories below succeeding ones better than content similarity approaches (+0.057 AUROC). With an abort policy, we save about 18% of compute that would be burned on failing runs, where 83% of interrupted runs were actually heading to failure (5 out of 6 aborts were correct).</p>
+<h3>Obsidian Notes</h3>
+<ul><li>内容由 <code>opencli arxiv paper</code> 拉取 arXiv 元数据与摘要生成。</li><li>中文导读与价值判断均锚定在条目已有摘要、论文摘要、作者、日期与分类信息上；未补充论文摘要之外的实验细节。</li></ul>
+      </section>
+      <section class="related-block">
+        <div class="section-head"><div><span>Related</span><h2>继续阅读</h2></div></div>
+        <div class="compact-list related-grid">
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill violet">Agents</span>
+        <span class="score score-4">4.0 · 优秀</span>
+      </div>
+      <a class="mini-card__title" href="/entry/51b88733/">The Hidden Costs of Forgetting: A Study of Trajectory Deletion in Software Engineering Agents</a>
+      <p>SWE agent 每轮把完整轨迹重发给模型，在线轨迹压缩因此被当省钱手段，但为什么能删agent 怎么补账单上是否真省钱没人算过该文做 42 种轨迹删除配置的系统实验，在 SWE-bench Verified 上用两个 SOTA agent 跑 9,400 次，覆盖删除范围粒度比例与时机结论：旧轮次推理文本可删到 100% 仍保住整体效果，但必须延迟删除，立即删会明显掉分；agent 靠重新抓取补偿，轮数与输入输出 token 反而增加；成本取决于计价模型平价计费下 26/42 配置省钱，缓存感知计价下 0/42 省钱，因为删除破坏了按低价计费的缓存前缀</p>
+      <div class="meta-line">2026-10-26 · 论文 · Fernando Vallecillos-Ruiz, Islem Bouzenia, Michael Pradel, Leon Moonen</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill amber">Infra</span>
+        <span class="score score-4">4.0 · 优秀</span>
+      </div>
+      <a class="mini-card__title" href="/entry/fbb8dbd0/">Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models</a>
+      <p>流式 VLM 推理系统 Spool：视觉无障碍助手与机器人需要对最近一段视频快速问答，注意力混入 Gated DeltaNet 等线性递归层的混合 VLM 适合该场景，但滑动窗口维护昂贵，递归层把全部历史帧压进共享状态，淘汰旧帧通常要重跑整个窗口；Spool 利用递归更新对状态是仿射且系数依赖输入的性质，把每帧效果表示为可结合的变换并缓存，随窗口推进做组合，精确移除各递归层状态中的过期帧而无需重放骨干网络；与注意力 KV 淘汰类似，过期帧仍可能经前层缓存输入保留残余影响</p>
+      <div class="meta-line">2026-11-17 · 论文 · Rui Ning, Om Chabra, Hari Balakrishnan</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill green">Coding</span>
+        <span class="score score-4">4.0 · 优秀</span>
+      </div>
+      <a class="mini-card__title" href="/entry/4d8e3506/">Before They Can Solve: Predicting Post-Training Coding-Agent Performance from Base Models</a>
+      <p>怎么在花大钱做 agentic 后训练之前判断一个 base checkpoint 值不值？端到端 pass@K 不适合 agentic coding：很多 base 模型连格式良好的工具调用都稳定产出不了，短视野单发任务又绕开了多步状态维护这个核心能力作者把成功的后训练 agent 轨迹当作 base 模型潜力的 lookahead 信号：重放轨迹每一步代码改动后重跑测试，找到第一个让仓库从挂转过的决定性步骤，在该步骤上构造三个不需要 base 模型冷启动驱动 harness 的筛子Decisive-Action BPB（对已认证动作的概率质量）Patch MCQ（在与同一 verifier 否掉的备选之间做选择）prefix-conditioned pass@K（认可任何能过测试的续写）十个公开 base/post-trained 模型对上...</p>
+      <div class="meta-line">2026-10-07 · 论文 · Tan Yu et al. (NVIDIA)</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill amber">Infra</span>
+        <span class="score score-4">4.0 · 优秀</span>
+      </div>
+      <a class="mini-card__title" href="/entry/cc1403ff/">LLM token relay market: 便宜 token 转售已经变成可套利攻击面</a>
+      <p>Simon Willison 介绍了围绕 LLM token 转售形成的市场买家用低价代理规避地区限制降低成本，甚至收集蒸馏数据API key 池免费试用滥用开放 support bot 代理盗卡和 chargeback 已经组成完整的黑灰产生态链工程建议很具体：LLM vendor 需要给 API key 提供严格费用上限，让应用达到金额阈值后直接停止，而不是等账单爆炸后追责</p>
+      <div class="meta-line">2026-07-26 · 文章 · Simon Willison</div>
+    </article>
+    </div>
+      </section>
+    </article>
+    </main>
+  <footer class="site-footer">
+    <div>
+      <b>God of GPT</b>
+      <p>由 OpenClaw 自动采集、清洗、去重、归类；人工口径是：少一点噪音，多一点判断。</p>
+    </div>
+    <div class="footer-links">
+      <a href="/archive/">全部归档</a>
+      <a href="/sponsor/">赞助合作</a>
+      <a href="https://github.com/Gracker/awesome-ai-field-notes">GitHub</a>
+    </div>
+  </footer>
+  <div class="search-modal" data-search-modal hidden>
+    <div class="search-panel">
+      <div class="search-panel__head">
+        <input type="search" placeholder="搜索模型、Agent、公司、工具..." data-search-input>
+        <button type="button" data-close-search>关闭</button>
+      </div>
+      <div class="search-results" data-search-results></div>
+    </div>
+  </div>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

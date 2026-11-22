@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apple Silicon and macOS VMs: 11-16x Faster LLM Inference with llama.cpp · God of GPT</title>
+  <meta name="description" content="Cua 在 Apple 的 Virtualization.framework 之上做了一层进程级 Metal capability shim，让 macOS guest 里的 llama.cpp 报出 Apple family 9 和 64 KB threadgroup memory，从而选到 SIMD-group matrix / bfloat16 路径，吞吐追到裸金属的 99%M1 Ultra 上 TinyLlama 1.1B Q4_K_M prompt 处理 11.08 倍token 生成 16.36 倍；Gemma 4 12B QAT Q4_0 7.20 倍 / 14.54 倍...">
+  <meta property="og:title" content="Apple Silicon and macOS VMs: 11-16x Faster LLM Inference with llama.cpp · God of GPT">
+  <meta property="og:description" content="Cua 在 Apple 的 Virtualization.framework 之上做了一层进程级 Metal capability shim，让 macOS guest 里的 llama.cpp 报出 Apple family 9 和 64 KB threadgroup memory，从而选到 SIMD-group matrix / bfloat16 路径，吞吐追到裸金属的 99%M1 Ultra 上 TinyLlama 1.1B Q4_K_M prompt 处理 11.08 倍token 生成 16.36 倍；Gemma 4 12B QAT Q4_0 7.20 倍 / 14.54 倍...">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://godofgpt.com">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="God of GPT">
+      <span class="brand-mark">GG</span>
+      <span><b>God of GPT</b><em>AI 信息导航</em></span>
+    </a>
+    <nav class="site-nav"><a class="" href="/">首页</a><a class="" href="/channels/">频道</a><a class="" href="/topics/">专题</a><a class="" href="/archive/">归档</a><a class="" href="/sponsor/">赞助</a></nav>
+    <button class="search-trigger" type="button" data-open-search>搜索</button>
+  </header>
+  <main>
+    <article class="entry-layout">
+      <header class="entry-header">
+        <div class="eyebrow-row">
+          <a class="channel-pill amber" href="/channel/infra/">基础设施</a>
+          <span class="score score-4">4.0 · 优秀</span>
+          <span class="meta-line">2026-08-12 · 文章</span>
+        </div>
+        <h1>Apple Silicon and macOS VMs: 11-16x Faster LLM Inference with llama.cpp</h1>
+        <p>Cua 在 Apple 的 Virtualization.framework 之上做了一层进程级 Metal capability shim，让 macOS guest 里的 llama.cpp 报出 Apple family 9 和 64 KB threadgroup memory，从而选到 SIMD-group matrix / bfloat16 路径，吞吐追到裸金属的 99%M1 Ultra 上 TinyLlama 1.1B Q4_K_M prompt 处理 11.08 倍token 生成 16.36 倍；Gemma 4 12B QAT Q4_0 7.20 倍 / 14.54 倍...</p>
+        <div class="entry-actions"><a class="button secondary" href="https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md" target="_blank" rel="noopener">打开原文</a><a class="button secondary" href="/archive/">回到归档</a></div>
+      </header>
+      <aside class="entry-aside">
+        <div class="why-box"><b>为什么重要</b><span>macOS guest 里加一层 Metal shim 让 llama.cpp 走对路径：吞吐追到裸金属 99%</span></div>
+        <div class="audience-box"><b>适合谁看</b><div><span>开发者</span></div></div>
+        <div class="tag-row"><span class="tag">apple-silicon</span><span class="tag">llama-cpp</span><span class="tag">inference</span><span class="tag">macos-vm</span><span class="tag">metal</span></div>
+      </aside>
+      <section class="entry-content">
+        
+        <h2>Apple Silicon and macOS VMs: 11-16x Faster LLM Inference with llama.cpp</h2>
+<ul><li><strong>ID</strong>: 800ebb0d</li><li><strong>Original</strong>: <a href="https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md" target="_blank" rel="noopener">https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md</a></li><li><strong>Added</strong>: 2026-08-12</li><li><strong>Source</strong>: github / trycua</li><li><strong>Original Date</strong>: 2026-08-12</li><li><strong>AAIF Category</strong>: infra</li><li><strong>Quality Score</strong>: 4</li><li><strong>Status</strong>: active</li><li><strong>Source Type</strong>: article</li><li><strong>Language</strong>: en</li><li><strong>Tags</strong>: apple-silicon, llama-cpp, inference, macos-vm, metal</li></ul>
+<h3>中文摘要</h3>
+<p>Cua 在 Apple 的 Virtualization.framework 之上做了一层进程级 Metal capability shim，让 macOS guest 里的 llama.cpp 报出 Apple family 9 和 64 KB threadgroup memory，从而选到 SIMD-group matrix / bfloat16 路径，吞吐追到裸金属的 99%M1 Ultra 上 TinyLlama 1.1B Q4_K_M prompt 处理 11.08 倍token 生成 16.36 倍；Gemma 4 12B QAT Q4_0 7.20 倍 / 14.54 倍；Meta Muse Glimmer 30B Q4_K-M 7.55 倍 / 8.87 倍机制是 paravirtualized GPU 在 guest 里报 Apple 5 家族 + 32 KB threadgroup，llama.cpp 因此走老路径；shim 只动 supportsFamily 和 threadgroup 上限两个返回值，工作仍在 Apple 的虚拟图形路径里执行</p>
+<h3>English Summary</h3>
+<p>Cua layers a process-level Metal capability shim atop Apple&#x27;s Virtualization.framework so llama.cpp inside a macOS guest reports Apple family 9 and 64 KB threadgroup memory, unlocking the SIMD-group matrix / bfloat16 path and recovering ~99% of bare-metal throughput. On M1 Ultra: TinyLlama 1.1B Q4_K_M sees 11.08x prompt / 16.36x token; Gemma 4 12B QAT Q4_0 hits 7.20x / 14.54x; Meta Muse Glimmer 30B Q4_K-M 7.55x / 8.87x. The mechanism is paravirtualized GPU reporting Apple family 5 + 32 KB threadgroup in the guest, forcing llama.cpp onto an older path; only supportsFamily and the threadgroup cap return values are overridden, and execution still rides Apple&#x27;s virtualized graphics stack.</p>
+<h3>来源 / Obsidian 引用</h3>
+<ul><li>本机 Obsidian 同日 digest 落地（ClawFeed 24h / AK-RSS-Digest 89 源 / X-Hot-Brief / 内容选题编排）</li><li>评分依据：原文正文（不靠标题/摘要/源声誉）</li></ul>
+      </section>
+      <section class="related-block">
+        <div class="section-head"><div><span>Related</span><h2>继续阅读</h2></div></div>
+        <div class="compact-list related-grid">
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill amber">Infra</span>
+        <span class="score score-4">4.0 · 优秀</span>
+      </div>
+      <a class="mini-card__title" href="/entry/7bb9a69c/">Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon</a>
+      <p>Metal Sandbox 解决 Apple Silicon 上 GPU kernel 生成 agent 的训练/评测基建问题：agent 会话在模型请求开发命令GPU 执行间交替，GPU 大部分时间闲置方案给每个 agent 独立工作区受限文件访问和原生命令执行，并跨多台 Mac 做命令级调度：并行命令并发跑，串行命令每节点共享一个执行槽，等待中的合格命令可迁移到空闲 Mac 并带回结果接入 Harbor 统一任务执行自动验证与 rollout 收集4 台 Mac mini M4 上集中负载的命令吞吐提升 1.682.05 倍；4 会话/节点的持续吞吐估计 2.14 倍，动态调度让工具等待均值降 18.8%批量耗时降 22.3%</p>
+      <div class="meta-line">2026-11-12 · 论文 · Haozhe Wang, Lina Chen, Fanqi Wan, Qi Han, Yinmin Zhang, Zheng Ge, Daxin Jiang...</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill amber">Infra</span>
+        <span class="score score-5">5.0 · 必读</span>
+      </div>
+      <a class="mini-card__title" href="/entry/2a77a746/">StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference</a>
+      <p>让主机内存与SSD为低比特LLM推理供给精度：StrataFlux协同设计精修表示选择与传输，传输与计算重叠跨解码步复用已取回的精度RTX 5090上，2比特Llama-3.1-8B-Instruct的WikiText-2困惑度从9.46降到8.40，仍保住量化基线95.4%的吞吐；2比特权重加2比特KV把Qwen3-8B的AIME 2024/2025准确率从11.0%提到47.1%，显存占用不变；128K上下文下3比特权重加2比特KV，用约一半显存追平vLLM 4比特AWQ加8比特KV的困惑度与速度</p>
+      <div class="meta-line">2026-11-05 · 论文 · Jake Hyun, Ziyu Zhao, Jae-sun Seo, Mohamed S. Abdelfattah</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill amber">Infra</span>
+        <span class="score score-5">5.0 · 必读</span>
+      </div>
+      <a class="mini-card__title" href="/entry/79e072c5/">DeepInfer: High-performance inference framework for DeepSeek models</a>
+      <p>DeepSeek 开源了驱动其大规模生产服务的推理框架 DeepInfer，本次发布面向离线推理，支持 DeepSeek-V4.1-Flash特性清单：FlashMLA/DeepGEMM/DeepEP/TileLang 等优化内核，Attention DP 与均衡 CPMoE EP+EPLB 并行，DSpark 置信度调度草稿 token 验证解码，decoder SWA 有界重放，零开销异步批调度，批不变推理与确定性采样，以及 regex/JSON schema/EBNF 结构化输出硬件支持 NVIDIA SM100 与华为昇腾 950KV cache 系统prefill/decode 分离与负载均衡不在本次发布范围</p>
+      <div class="meta-line">2026-10-20 · GitHub · deepseek-ai</div>
+    </article>
+    
+    <article class="mini-card">
+      <div class="mini-card__top">
+        <span class="channel-pill amber">Infra</span>
+        <span class="score score-4">4.0 · 优秀</span>
+      </div>
+      <a class="mini-card__title" href="/entry/fbb8dbd0/">Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models</a>
+      <p>流式 VLM 推理系统 Spool：视觉无障碍助手与机器人需要对最近一段视频快速问答，注意力混入 Gated DeltaNet 等线性递归层的混合 VLM 适合该场景，但滑动窗口维护昂贵，递归层把全部历史帧压进共享状态，淘汰旧帧通常要重跑整个窗口；Spool 利用递归更新对状态是仿射且系数依赖输入的性质，把每帧效果表示为可结合的变换并缓存，随窗口推进做组合，精确移除各递归层状态中的过期帧而无需重放骨干网络；与注意力 KV 淘汰类似，过期帧仍可能经前层缓存输入保留残余影响</p>
+      <div class="meta-line">2026-11-17 · 论文 · Rui Ning, Om Chabra, Hari Balakrishnan</div>
+    </article>
+    </div>
+      </section>
+    </article>
+    </main>
+  <footer class="site-footer">
+    <div>
+      <b>God of GPT</b>
+      <p>由 OpenClaw 自动采集、清洗、去重、归类；人工口径是：少一点噪音，多一点判断。</p>
+    </div>
+    <div class="footer-links">
+      <a href="/archive/">全部归档</a>
+      <a href="/sponsor/">赞助合作</a>
+      <a href="https://github.com/Gracker/awesome-ai-field-notes">GitHub</a>
+    </div>
+  </footer>
+  <div class="search-modal" data-search-modal hidden>
+    <div class="search-panel">
+      <div class="search-panel__head">
+        <input type="search" placeholder="搜索模型、Agent、公司、工具..." data-search-input>
+        <button type="button" data-close-search>关闭</button>
+      </div>
+      <div class="search-results" data-search-results></div>
+    </div>
+  </div>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>
