@@ -106496,7 +106496,9 @@
       "added_date": "2026-11-22",
       "updated_date": null,
       "github_stars": null,
-      "related": []
+      "related": [
+        "ecae9dde"
+      ]
     },
     {
       "id": "c0795e76",
@@ -106666,8 +106668,234 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "5773afe0",
+      "title": "Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards",
+      "url": "https://arxiv.org/abs/2611.26588",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ana E. Sanchez Villalobos, Michael D. Quinn, Aakash Tyagi, et al.",
+        "original_date": "2026-11-19"
+      },
+      "category": "coding",
+      "tags": [
+        "llm-verification",
+        "hardware-verification",
+        "uvm",
+        "opentitan",
+        "spec-grounded-checking"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "UVM 回归通过只说明设计与参考模型在记分板所检查的点上等价，不代表满足规格；这类记分板逃逸缺陷能在成熟测试环境中存活论文提出首个用 LLM 异常交叉检查器把通过回归的 trace 对照规格重审的框架 Verify the Verifier在四个 OpenTitan IP 中注入 564 个缺陷，其中 68 个为候选逃逸：非等价被测试触发却通过检查；框架最终确认 41 个真逃逸，在缺陷设计上断言失败在原设计上证明通过用 LLM 审查验证环境自身盲区的思路，对硬件验证与 agent 评估流程都有直接参考价值",
+      "summary_en": "A passing UVM regression shows the design agrees with the reference model on what the scoreboard checks, not that it meets the specification. Bugs that pass every test yet violate the specification, termed scoreboard escapes, survive mature testbenches. We present Verify the Verifier, to our knowledge the first framework whose LLM-based Anomaly Cross-Checker examines a passing regression's traces against the specification. Of 564 bugs inserted into four OpenTitan IPs, 68 are candidate scoreboard escapes: non-equivalent, exercised by the tests, yet passing. The framework confirmed 41 as scoreboard escapes with assertions failing on the buggy design and proven on the original.",
+      "one_liner": "LLM 对照规格重审通过回归：564 个注入缺陷中确认 41 个 UVM 记分板逃逸",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5773afe0.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "45c84a0a",
+      "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
+      "url": "https://arxiv.org/abs/2611.26596",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kai Lu, Chenyang Ma, Ioannis Havoutis",
+        "original_date": "2026-11-19"
+      },
+      "category": "agents",
+      "tags": [
+        "vla",
+        "embodied-ai",
+        "humanoid",
+        "long-horizon",
+        "agent-architecture"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "VLA 模型会做单个操作技能，但长时程移动操作任务里时序结构技能与精度耦合在一个单体模型中PGX 把时序与精度控制卸载给两个免训练的经典组件，让 VLA 专注阶段内技能动态，框架分三层：基于物理谓词的状态机负责门控阶段切换触发恢复协调导航与等待，同一套谓词语义贯穿离线演示切分在线执行与分阶段评估；VLA 技能只在活跃操作阶段运行；世界坐标锁定通过基站保持物体相对定位与世界锚定接触目标维持空间一致性在三个仿真任务加一个 Unitree G1 真机长时程任务上，阶段推进与任务成功率均有提升",
+      "summary_en": "Vision-language-action (VLA) models execute individual manipulation skills but struggle with long-horizon loco-manipulation, where temporal structure, skill, and precision are coupled in a monolithic policy. PGX offloads temporal and precision control to two classical training-free components so the VLA focuses on stage-specific skill dynamics, in three layers: (i) a predicate-based state machine gates phase transitions, triggers recovery, and coordinates navigation and waiting, with shared predicate semantics across demonstration segmentation, execution, and stage-wise evaluation; (ii) VLA skills run only inside active manipulation phases; (iii) world-coordinate locking keeps spatial consistency via base station keeping, object-relative positioning, and world-anchored contact targets. On three simulated tasks and a real Unitree G1 humanoid, stage progression and task success improve.",
+      "one_liner": "谓词状态机管切换VLA 只管阶段技能世界坐标锁管精度：人形机器人长时程任务的三层拆法",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/45c84a0a.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "84d85636",
+      "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
+      "url": "https://arxiv.org/abs/2611.26624",
+      "source": {
+        "platform": "arxiv",
+        "author": "Weihao Cheng",
+        "original_date": "2026-11-19"
+      },
+      "category": "agents",
+      "tags": [
+        "agentic-systems",
+        "game-design",
+        "vision-language-agents",
+        "mastery-modeling",
+        "playtesting"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "会生成可玩游戏的 agent 已经不少，但可玩不等于有吸引力；掌握感是吸引力的关键来源，为它做设计通常要大量人工试玩调参PlayCraft 把这个循环自动化：视觉玩家 agent 看屏幕操作控制带着记忆反复游玩，每局后报告进度结果决策与反思；crafter agent 据此修改游戏，估计玩家能力预测不同熟练度下的表现对照目标学习曲线诊断差距，让玩家通过更好的决策与执行获得提升在三种智能水平的玩家 agent 全新评估下，多数游戏的学习增益与学习斜率更大，各指标宏平均在每个设定下都超过基线",
+      "summary_en": "AI agents can now generate playable games, but playable does not mean engaging, and designing for mastery normally requires heavy human playtesting and tuning. PlayCraft automates the loop: a vision-based player agent watches the screen, uses the controls, and pursues the objective across episodes while retaining memory, then reports progress, outcomes, decisions, and reflections; a crafter agent revises the game from these reports: estimating player abilities, predicting performance at different proficiency levels, comparing against a target learning progression, and fixing gaps so players improve through better decisions and execution. In fresh runs with player agents across three intelligence settings, PlayCraft yields larger learning gains and steeper slopes on most games and beats baselines on macro-averaged metrics at every setting.",
+      "one_liner": "玩家 agent 试玩出报告crafter agent 照单改游戏：把掌握感调优做成自动化循环",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/84d85636.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6a6f8ee8",
+      "title": "Towards Reliable Local Security Agents: Verifiable Post-Training for Linux Privilege Escalation",
+      "url": "https://arxiv.org/abs/2603.17673",
+      "source": {
+        "platform": "arxiv",
+        "author": "Philipp Normann, Andreas Happe, Jurgen Cito, Daniel Arp",
+        "original_date": "2026-03-18"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "local-models",
+        "privilege-escalation",
+        "reinforcement-learning",
+        "acsac-2026"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "主流安全 LLM agent 多为闭源云托管，复现性与敏感数据可用性受限，小模型本地安全 agent 训练法欠缺研究论文以 Linux 提权为代表任务（可自动验证需多步推理）提出两阶段后训练配方：防基准泄漏设置下，先对 4B 模型做程序化提权轨迹的监督微调，再用可验证奖励做强化学习在 12 个 held-out 提权场景上，监督微调在 20 轮交互预算内把成功率近翻倍，强化学习后 PrivEsc-LLM 4B 达 93.3%，超过所有单张消费级 GPU 可容纳的受评模型，单次成功提权期望推理成本比 Claude Opus 4.7 低 80 倍以上论文获 ACSAC 2026 接收并给出迁移指南",
+      "summary_en": "Leading LLM security agents are closed-source and cloud-hosted, limiting reproducibility and use with sensitive data; small local security models remain underexplored. Using Linux privilege escalation as a representative task automatically verifiable and requiring multi-step interactive reasoning the paper proposes a two-stage post-training recipe with benchmark-leakage mitigation: supervised fine-tuning on traces from procedural privilege-escalation environments, then reinforcement learning with verifiable rewards. On a held-out set of 12 scenarios, SFT nearly doubles baseline success under a 20-round budget, and RL brings PrivEsc-LLM 4B to 93.3% success, ahead of all evaluated models that fit a single consumer GPU, at expected cost per successful escalation over 80x lower than Claude Opus 4.7. Accepted at ACSAC 2026, with transfer guidance.",
+      "one_liner": "SFT 加可验证奖励 RL：4B 本地模型把 Linux 提权做到 93.3%，成本比 Claude Opus 4.7 低 80 倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6a6f8ee8.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ecae9dde",
+      "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
+      "url": "https://arxiv.org/abs/2611.26592",
+      "source": {
+        "platform": "arxiv",
+        "author": "Terence D. Agbeyegbe, Toneukarin G. Agbeyegbe",
+        "original_date": "2026-11-19"
+      },
+      "category": "models",
+      "tags": [
+        "anytime-valid",
+        "e-process",
+        "self-consistency",
+        "statistical-guarantee",
+        "correlated-sampling"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "自一致性认证把重复采样当序列证据，e-process 过阈值即停，默认各 rollout 条件独立该假设不成立：推理流因共享前缀或跨 prompt 异质性正相关，被认证的假设随之改变，不只是证书效率随机效应模型下零假设分裂为 realized null（本次信念）与 population null（平均行为）：标准 betting e-process 只对 realized 有效，单元内有效样本量饱和，多采救不回 population 有效性；prompt 级 e-process 可救，最优每 prompt 一采Haiku 4.5 实验：GSM8K 差距休眠，AIME 上单单元规则在名义 0.05 下 24% 越界，prompt 级保持 0.00对 c17db9bd 所属路线是正确性修正",
+      "summary_en": "Anytime-valid self-consistency certification accumulates repeated LLM sampling and stops via an e-process threshold, assuming conditionally independent rollouts. That assumption fails: reasoning streams correlate positively through shared prefixes or across-prompt heterogeneity, changing not just certificate efficiency but which hypothesis is certified. Under a random-effects dependence model, the null splits into a realized null (the drawn belief) and a population null (average behavior). The standard betting e-process stays valid only for the realized null; within-unit effective sample size saturates, so extra rollouts cannot restore population validity; a prompt-level e-process restores it, one rollout per prompt. On Claude Haiku 4.5 the gap is dormant on GSM8K; on AIME the single-unit rule crosses on 24% of prompts at nominal 0.05, where the prompt-level procedure stays at 0.00.",
+      "one_liner": "rollout 相关性会让自一致性证书认错假设：AIME 上 24% 越界，prompt 级 e-process 才保 population 有效性",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ecae9dde.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "c17db9bd"
+      ]
+    },
+    {
+      "id": "38162806",
+      "title": "Data Processing Incidents on Inference Providers",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
+      "source": {
+        "platform": "blog",
+        "author": "OpenRouter",
+        "original_date": "2026-11-22"
+      },
+      "category": "infra",
+      "tags": [
+        "openrouter",
+        "inference-providers",
+        "zdr",
+        "data-privacy",
+        "supply-chain-security"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "安全研究人员披露部分推理提供商存在数据被泄露或数据政策未被执行的证据；OpenRouter 表示自身未发现入侵或未授权访问，并公布提供商安全公告列表已采取措施：基于调查结果下线三家提供商；将 125 个端点移出零数据保留（ZDR）资格，含研究者点名与预防性移除；通知所有可能受影响客户进行中：把研究者的测试方法（Dragos 报告）常态化为持续检查验证网络路径是否存在请求或响应被转发给第三方恢复 ZDR 资格前要求提供商提供保证已公开回应的有 Atlas CloudNovitaPhalaTogether（后者披露 2026 年 6-7 月请求提示词泄漏）",
+      "summary_en": "Security researchers reported that certain inference providers had data compromised or showed evidence their data policies were not upheld; OpenRouter states its own systems showed no breach or unauthorized access. Actions taken: three providers off-boarded based on investigations; 125 endpoints removed from Zero Data Retention eligibility, including precautionary removals; potentially affected customers notified. Underway: adapting the researchers' testing approach (Dragos report) into ongoing checks, verifying network paths for requests or responses forwarded to third parties, and requiring assurances before restoring ZDR eligibility. Public statements so far: Atlas Cloud, Novita (MiniMax requests), Phala (preliminary report), Together (prompt leakage in June-July 2026). Not all affected providers have posted; customers were notified regardless.",
+      "one_liner": "OpenRouter 下线三家推理提供商125 个端点移出 ZDR：推理层数据政策执行成为供应链安全问题",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/38162806.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "de5cd1a6",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "source": {
+        "platform": "blog",
+        "author": "Jakub Pachocki, Chief Scientist at OpenAI",
+        "original_date": "2026-11-22"
+      },
+      "category": "models",
+      "tags": [
+        "openai",
+        "pretraining",
+        "perplexity",
+        "scaling-laws",
+        "ai-safety"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "OpenAI 首席科学家 Jakub Pachocki 撰文主张把预训练困惑度（held-out 交叉熵）作为行业比较模型开发商约定安全 pacing 标准的共享指标，并公布内部测量作为第一步能力跃迁与对数困惑度一一对应：GPT-2 写出连贯段落，GPT-3 学会上下文学习，GPT-3.5 约 0.99 支撑流畅对话，GPT-4 约 0.91 让思维链真正可用，0.8 以下出现变革性的网络安全与数学能力他强调这些能力无法从阈值先验预测，是单一底层指标推进的涌现结果；基准套件在 GPT-4 附近饱和，而预训练损失的进展会长期保持信息量为建立共享安全度量，透明度优先于竞争顾虑",
+      "summary_en": "OpenAI chief scientist Jakub Pachocki argues pretraining perplexity (held-out cross-entropy loss) should be the industry's shared metric for comparing developers and setting safety pacing standards, publishing OpenAI's internal measurements as a first step. Capability jumps track log-perplexity: GPT-2 wrote coherent paragraphs, GPT-3 enabled in-context learning, GPT-3.5 at ~0.99 powered fluent conversation, GPT-4 at ~0.91 made chain-of-thought productive, and below 0.8 transformative cybersecurity and mathematics capabilities emerged. These jumps were not predictable from thresholds; they are emergent capabilities of progress on one substrate metric. Benchmarks saturate (most around GPT-4) while pretraining progress stays informative; publishing internal perplexity outweighs competitive concerns given the urgency of shared safety measures.",
+      "one_liner": "OpenAI 公布内部困惑度标尺：GPT-3.5 0.99GPT-4 0.910.8 以下涌现网安数学能力，主张行业共享 pacing 指标",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/de5cd1a6.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-22",
-  "total_entries": 3464
+  "last_updated": "2026-11-23",
+  "total_entries": 3471
 }
