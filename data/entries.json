@@ -106894,8 +106894,269 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "e3ffb276",
+      "title": "Notes on OpenAI's perplexity reveal",
+      "url": "https://seangoedecke.com/notes-on-openais-perplexity-reveal",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-11-23"
+      },
+      "category": "models",
+      "tags": [
+        "openai",
+        "perplexity",
+        "pretraining",
+        "scaling",
+        "gpt"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Sean Goedecke 评 OpenAI 首次公开的训练困惑度曲线：前沿实验室第一次把自家预训练指标摆上台面，数值越接近 1 越好图中可见几乎没有模型共用基座，实际共享基座的是 o1 与 o3；GPT-4.5 曲线与 GPT-5.3-Codex 几乎一样平但实用度差距巨大，说明预训练水平不等于能力强；GPT-5.2 之后曲线下降明显加速作者保留意见是困惑度只衡量对留出文本的拟合只对预训练说话，看不到 RL 那一半，其他能力度量也未必同步判断：这张图第一次把预训练还是 RL 更管用变成可查数据，但只有 OpenAI 自己能看出未发布模型的曲线异常",
+      "summary_en": "Sean Goedecke reviews OpenAI's first public training-metric disclosure: perplexity curves for released models, where lower (closer to 1) is better. Notable details: almost no two models share a base; the shared-base pair is o1/o3; GPT-4.5's curve is nearly as flat as GPT-5.3-Codex's despite far worse practicality, so pretraining level does not equal capability; curve decline accelerates after GPT-5.2. Caveats: perplexity only measures fit to held-out text, speaks only for pretraining (RL stays invisible), and other capability metrics need not move in sync. The chart turns the pretraining-vs-RL debate into checkable data, but only OpenAI can see curve anomalies for unreleased models unless it keeps publishing.",
+      "one_liner": "首次可查的前沿预训练对比数据，但曲线看不到 RL 那一半，别把困惑度直接读成能力排名",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/e3ffb276.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bdd04ea5",
+      "title": "Here's Why Data Breach Disclosure is so Hard: Lessons from Hundreds of Emails with Hacked Companies",
+      "url": "https://www.troyhunt.com/heres-why-data-breach-disclosure-is-so-hard-lessons-from-hundreds-of-emails-with-hacked-companies",
+      "source": {
+        "platform": "blog",
+        "author": "Troy Hunt",
+        "original_date": "2026-11-23"
+      },
+      "category": "industry",
+      "tags": [
+        "security",
+        "breach-disclosure",
+        "haveibeenpwned",
+        "claude",
+        "incident-response",
+        "llm-analysis"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Troy Hunt 把 Have I Been Pwned 十三年里 2018-2026 年发出的 73 封泄露通知信一次性交给 Claude 分析，总结出泄露披露难的四幕剧本：公司没有安全报告入口，通知信在客服邮箱间流转六跳才到法务；在看到数据之前就回复未发现证据，或用只是涂改要样本把举证责任推回报告者；还在调查没有截止日期；律师进场后问题从事实变成法律义务，还有律所要求延迟或不要公开判断：成本结构不对称拖延的代价全落在数据里的人身上；更值得存的是方法本身，把八年信箱一次性交给模型，能把凭印象的总结变成可逐条核对的清单",
+      "summary_en": "Troy Hunt gave Claude the mailbox containing all 73 breach-disclosure emails he sent from March 2018 to November 2026 and distilled the recurring playbook: companies with no security reporting channel (notifications bouncing through support/returns/info inboxes, one chain taking six hops to reach legal); 'no evidence found' replies issued before the data was even reviewed; burden-shifting demands for samples or specific formats; open-ended 'still investigating'; and lawyers reframing the issue from facts to legal duty, including requests to delay or suppress publication. The asymmetry is stark: each day of delay costs the exposed people, not the company. The method itself - handing 8.5 years of correspondence to a model - turns impressions into a checkable pattern list.",
+      "one_liner": "泄露披露难不在技术而在组织剧本；把八年通知信交给 Claude 提模式这个方法本身值得抄走",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/bdd04ea5.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "a37b564b",
+      "title": "Levent Alpge has solved the Riemann Hypothesis with help of Claude! What does it mean?",
+      "url": "https://garymarcus.substack.com/p/levent-alpoge-has-solved-the-riemann",
+      "source": {
+        "platform": "blog",
+        "author": "Gary Marcus",
+        "original_date": "2026-11-22"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-mathematics",
+        "riemann-hypothesis",
+        "claude",
+        "lean",
+        "mathlib",
+        "industry-reaction"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Gary Marcus 评 Alpge 与 Claude 合作声明证明黎曼猜想的事件，分三层：现在的 AI 自己做不到这件事，整件事靠懂 AI 的数学家带着模型做了几个月；25 万页的成果谈不上优雅，也没有总结出通用方法，不等于 AGI；最关键的是这套解法依赖别的领域没有的资源Lean 形式化验证系统加上成百上千人多年建成的 mathlib他引述 Kahn 与 Krier 的判断：解出 RH 不会改变企业价值叙事判断：这篇给出的可复用判据是看AI 解出大问题案例依赖的专用栈有多专用，市场盘后对 Anthropic 股价的反应也印证了这个读法",
+      "summary_en": "Gary Marcus reads the announced Alpoge-Claude Riemann Hypothesis proof in three layers: today's AI could not do this alone - a mathematician fluent in AI steered the model for months; the 250,000-page result is not elegant and yields no general method, so it is not AGI; and the solution leans on resources unique to mathematics - the Lean verifier plus mathlib's two-million-plus lines built by hundreds of people over years. Quoting Jeremy Kahn and DeepMind's Sebastien Krier: solving RH does not change enterprise value narratives. Reusable criterion: for any 'AI solves a grand problem' story, first ask how domain-specific the verification stack it depends on is.",
+      "one_liner": "AI 数学突破先看依赖的验证栈多专用：Lean+mathlib 只服务数学，别急着外推到企业价值",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/a37b564b.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7d3496de",
+      "title": "To code well, avoid blunders",
+      "url": "https://seangoedecke.com/to-code-well-avoid-blunders",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-11-22"
+      },
+      "category": "coding",
+      "tags": [
+        "software-engineering",
+        "code-review",
+        "coding-agents",
+        "requirements",
+        "blunders"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Sean Goedecke 主张写出好代码的关键是避免灾难性失误而非寻找天才洞见，如同棋类不送子就能赢多数业余对手他列出五种失误：另起并行系统引入第二真相源把安全的同步改成脆弱异步增加隐蔽失败点把关键接口搞复杂；罪魁是不一致与不必要的需求，后者会粘住代码库并组合爆炸，是大代码库难做的根本原因脚注直指 agent：现在的编码 agent 保持一致性与人相当，但在避免不必要需求上差得多判断：对 agent 改动审阅最有用agent 的补丁通常不是逻辑改错，而是顺手多加没人要求的需求，审阅清单应压在新增了什么要求上而不是逐行找 bug",
+      "summary_en": "Sean Goedecke argues good code comes from avoiding catastrophic blunders, not finding genius insights, like chess players who simply don't hang pieces. His five blunders: building a parallel system for the same job, adding a second source of truth, turning safe synchronous operations into fragile async ones, adding new hidden failure points, and complicating critical interfaces. Root causes: inconsistency and unnecessary requirements - the latter stick because requirements look necessary by default and combinatorics grows with each one. Footnote on agents: current coding agents match humans at consistency but are much worse at avoiding unnecessary requirements, so review should focus on 'what new requirement did this add' rather than line-by-line bug hunting.",
+      "one_liner": "编码 agent 的短板是顺手加需求：审阅清单应问新增了什么要求而不是逐行找 bug",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7d3496de.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "21bd1d48",
+      "title": "Muru",
+      "url": "https://simonwillison.net/2026/Nov/21/muru",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-11-21"
+      },
+      "category": "coding",
+      "tags": [
+        "ai-assisted-development",
+        "rust",
+        "asgi",
+        "wsgi",
+        "python",
+        "build-log"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 推荐 Graham Dumpleton 的新项目 Muru：一个用 AI 辅助写出的 Rust 服务器，让 ASGI 与 WSGI 的 Python 应用共用开发与生产环境运行方式Dumpleton 二十年前写出 mod_wsgi，这次把开发过程公开成文档：2026 年 11 月连发 19 篇，覆盖 worker 内部结构发版代替重启无服务网格的 canary缩容到零与工具栏链路追踪分工很清楚：AI 负责把面铺开，什么还不够好的判断仍由他的二十年经验决定判断：那 19 篇连载本身就是一份带取舍记录的公开开发过程样本，比成品代码更难复制",
+      "summary_en": "Simon Willison points to Muru, Graham Dumpleton's new AI-assisted Rust server giving ASGI and WSGI Python apps unified development and production hosting. Dumpleton, author of mod_wsgi twenty years ago, is publishing the build as documentation: 19 posts from Nov 4 to Nov 22, 2026 covering worker internals, import-once-fork-many, dev HTTPS, deploys instead of restarts, canary without a service mesh, scale-to-zero, and per-page toolbar tracing. His division of labor: AI does the broad mechanical work, but deciding what is not yet good enough still takes his twenty years of scar tissue. The series itself is a public, trade-off-annotated development-process sample harder to replicate than the code.",
+      "one_liner": "AI 辅助开发的公开样本：AI 铺面人拍板，19 篇连载比成品代码更难复制",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/21bd1d48.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3eb66db4",
+      "title": "Apple Documents Extra Apple Intelligence Usage Limits Per iCloud+ Paid Tier",
+      "url": "https://support.apple.com/en-us/127901",
+      "source": {
+        "platform": "blog",
+        "author": "Apple",
+        "original_date": "2026-11-16"
+      },
+      "category": "industry",
+      "tags": [
+        "apple-intelligence",
+        "icloud",
+        "usage-limits",
+        "siri",
+        "private-cloud-compute",
+        "pricing"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Apple 支持文档给出 Apple Intelligence 与 Siri AI 的用量规则：2027 系软件起基础功能免费，但依赖服务端大模型的功能有每日用量上限，从 27.3 版本起靠升级 iCloud+ 套餐提高：200 GB 两倍2 TB 五倍6 TB 十倍12 TB 二十倍限流覆盖 Siri AI图像编辑Shortcuts 云端模型与经私有云计算调用基础模型的第三方应用；额度按设备按类别计，每日同一时点重置不累积判断：Apple 给服务端推理做了硬配额并挂在存储档位上，第三方调用吃同一份日预算，功能设计前要先回答这个能力在用户额度里排第几",
+      "summary_en": "Apple's support document (updated Nov 16, 2026, surfaced by Daring Fireball) sets Apple Intelligence and Siri AI usage rules: from the 2027 software releases the basics are free, but server-model-backed features have daily caps, raisable from OS 27.3 by upgrading iCloud+ tiers (200GB = 2x, 2TB = 5x, 6TB = 10x, 12TB = 20x; AFM Cloud Pro in Shortcuts opens at 200GB). Quotas cover Siri AI, image editing tools and Image Playground, Shortcuts cloud models, and third-party apps calling foundation models via Private Cloud Compute; budgets are per-device, per-category, reset daily at one time, non-cumulative. Effectively Apple has put a hard quota on server inference and tied it to storage tiers - features must now justify their place in a shared daily budget.",
+      "one_liner": "Apple 把服务端推理做成挂在 iCloud 档位上的硬配额，第三方 PCC 调用吃同一份日预算",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/3eb66db4.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "c9db62b2",
+      "title": "When in doubt, flail about",
+      "url": "https://seangoedecke.com/when-in-doubt-flail-about",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-11-23"
+      },
+      "category": "learning",
+      "tags": [
+        "engineering-practice",
+        "career",
+        "feedback",
+        "exploration",
+        "agents"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Sean Goedecke 讲一个反直觉做法：处在不清楚的处境里时，最好的动作往往就是乱试一通多试几种不同的事紧盯反馈毫不留情砍掉没有正向反馈的方案；多试是关键，因为没能力预判哪件好，只能靠反馈敏感度兜底他把乱试分三类：产品乱试（GitHub Models 上一个意外粘住的功能成了 Continuous AI 的种子）工程乱试（先做投机性改动看效果再挖原因）组织乱试（自动化手工活主动揽活提长期方案）判断：真正给的是什么时候该乱什么时候该等的判断标准乱试被限定在缺信息的前提下，反馈敏感度才是那条安全绳，而不是乱试本身",
+      "summary_en": "Sean Goedecke's contrarian advice: when you don't understand a situation, the best move is often to flail - try several different things, watch feedback closely, cut whatever shows no positive signal. Trying many things is the key, because you can't yet judge quality and must lean on feedback sensitivity. Three varieties: product flailing (a GitHub Models feature that unexpectedly stuck seeded 'Continuous AI'), engineering flailing (speculative changes over read-everything-first), and organizational flailing (automating manual work, volunteering, proposing long-term plans). The real standard offered is when to flail versus wait: flailing is licensed only under missing information, and feedback sensitivity - not flailing itself - is the safety rope.",
+      "one_liner": "缺信息时乱试是对的，但安全绳是反馈敏感度不是乱试本身",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/c9db62b2.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d6312fa3",
+      "title": "把 Fable 5.2 挂成 Claude Code 的顾问模型，周限额面板不动这件事被实测过",
+      "url": "https://x.com/mylifcc/status/2124669510430974129",
+      "source": {
+        "platform": "x",
+        "author": "mylifcc",
+        "original_date": "2026-11-23"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "fable-5-2",
+        "advisor",
+        "usage-limits",
+        "billing",
+        "verification"
+      ],
+      "source_type": "x_post",
+      "language": "zh",
+      "summary_zh": "X 用户 @mylifcc 实测把 Fable 5.2 设为 Claude Code 顾问模型后 Fable 周限额面板不动，社区主流解释是 /advisor 不强制咨询模型没调顾问独立实测（paddo.dev）给出机制：advisor 是服务端工具，顾问每次调用重读完整对话且不吃缓存，调用确实发生（API 记录是 claude-fable-5-2），但订阅套餐下顾问用量计入套餐额度而非 Fable 周限额换掉的是计数器，额度总量没变判断：面板截图证明不了额度去向，强制调用加读 API 记录才算数；性价比取决于上下文长度，尽早问才省",
+      "summary_en": null,
+      "one_liner": "Fable 顾问换掉的是计数器不是预算：面板截图证明不了额度去向，看 API 记录才算数",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d6312fa3.md",
+      "images": [],
+      "added_date": "2026-11-23",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-23",
-  "total_entries": 3471
+  "total_entries": 3479
 }
