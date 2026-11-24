@@ -82529,7 +82529,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [
-        "c12d78f0"
+        "c12d78f0",
+        "0e3fab88"
       ]
     },
     {
@@ -96628,7 +96629,8 @@
       "updated_date": null,
       "github_stars": null,
       "related": [
-        "048fcb30"
+        "048fcb30",
+        "0e3fab88"
       ]
     },
     {
@@ -107373,8 +107375,445 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "3e864e70",
+      "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+      "url": "https://arxiv.org/abs/2611.27193",
+      "source": {
+        "platform": "arxiv",
+        "author": "Haowei He, Ziwen Zhao, Chenshuo Pan, et al.",
+        "original_date": "2026-11-20"
+      },
+      "category": "models",
+      "tags": [
+        "hyper-connections",
+        "residual-stream",
+        "architecture",
+        "pretraining"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "cmHC 研究 mHC 超连接架构里多残差流如何在 Birkhoff 双随机约束下有效混合论文揭示一个混合权衡：欠混合时残差矩阵靠近多面体顶点，超连接退化成近似独立的多流；过混合时矩阵聚在均匀重心附近，流之间失去区分度cmHC 用几何收缩把约束多面体向内部收缩，强制残差矩阵深入探索混合空间，有可证的流混合上界且不引入新参数化，并在浅层施加适度收缩防止过混合，让超大规模预训练的梯度传播保持稳定dense 与 MoE 多规模实验验证有效性，还在 Ascend NPU 上做了融合算子，超连接执行延迟最高降 44.8%HF 日榜 94 票居首，是残差多流架构这条线最新的工程答案",
+      "summary_en": "cmHC investigates how to effectively mix residual streams in Manifold-constrained Hyper-Connections (mHC), where stream-mixing residual matrices are constrained to the Birkhoff polytope of doubly stochastic matrices. The paper reveals a mixing trade-off: under-mixed matrices staying near the polytope vertices degenerate hyper-connections into nearly independent streams, while over-mixed matrices concentrated around the uniform barycenter make streams indistinguishable from each other, with theoretical bounds on cumulative residual mixing, stream difference and gradient difference across layers....",
+      "one_liner": "cmHC：几何收缩解决超连接欠/过混合权衡，Ascend 融合算子延迟降 44.8%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3e864e70.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9f83ba81",
+      "title": "Clover-35B-A3B-Preview Technical Report",
+      "url": "https://arxiv.org/abs/2611.24636",
+      "source": {
+        "platform": "arxiv",
+        "author": "DiffuSpace Technical Team",
+        "original_date": "2026-11-18"
+      },
+      "category": "models",
+      "tags": [
+        "diffusion-lm",
+        "moe",
+        "block-diffusion",
+        "coding-agents"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Clover 是 35B 总参3B 激活的 MoE 扩散语言模型，支持 thinking-mode，把 Gated Delta Networks 适配到 block diffusion：历史上下文循环记忆与当前块内双向 attention 在同一 softmax 里竞争代理指标全面领先：SWE-bench Verified 73.6Terminal-Bench 2.1 51.7，单卡 GB300 标称 680 tokens/s决策变体一次去噪并行答题，内部 500 组上单题准确率 90.37% 到 93.88%，全对组 65.4% 到 77.0%",
+      "summary_en": "Clover-35B-A3B-Preview is a mixture-of-experts diffusion language model with 35B total and 3B activated parameters, supporting thinking-mode generation. It adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously generated context with bidirectional softmax attention inside the current block: historical memory readout competes with current-block tokens in a shared softmax, with learnable block-size calibration and a separate zero-initialized right-context convolution branch. Clover leads all seven evaluated agent metrics, including 73.6 on SWE-bench Verified and 51.7 on Terminal-Bench 2.1, and reports 680 tokens/s generation on a single NVIDIA GB300 at BF16 precision with batch size one....",
+      "one_liner": "Clover-35B-A3B：MoE 扩散语言模型，SWE-bench Verified 73.6，单卡 680 tokens/s",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9f83ba81.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "26f81867",
+      "title": "Duopra: From Full-Duplex Conversation to Full-Duplex Agency",
+      "url": "https://arxiv.org/abs/2611.25773",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chiyu Chen, Pengzhou Cheng, Yuezhao Ma, et al.",
+        "original_date": "2026-11-19"
+      },
+      "category": "agents",
+      "tags": [
+        "full-duplex",
+        "voice-agents",
+        "tool-use",
+        "training"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "全双工语音模型会抢话会接话，但把对话能力变成任务能力是另一回事：用户改口后要及时调工具改参数Duopra 的诊断是前后端分离架构里执行可以卸载，但没发出去的请求无法执行发一半的请求会带偏后端Full-Duplex-Bench v3 里多数失败发生在工具执行之前做法是把后端当工具，前端用自包含自然语言请求调用，直接调用与委托共享动作接口；三段训练：协议 SFT奖励及时完整执行的全双工 RL只训 projector 修复 talker 条件化同一后端下 Pass@1 从 4.7% 到 44.7%，直接调工具 47.7%，换 DeepSeek 后端 49.3%",
+      "summary_en": "Full-duplex interaction models handle natural turn-taking, backchannels and interruptions, but completing tasks further requires task agency: timely tool invocation and argument revision after user corrections. Duopra's diagnosis: in frontend-backend agent architectures execution can be offloaded, but unsent requests cannot be executed and incomplete ones misdirect the backend - on Full-Duplex-Bench v3, most failures of a streaming pipeline occur before a domain tool executes. Duopra treats the backend as a tool, accepting a self-contained natural-language request, with direct calls and backend delegation sharing one action interface and requirements for faithful initiation and correct execution. Three-stage training combines protocol SFT, full-duplex RL rewarding timely and complete execution, and projector-only repair of talker conditioning after thinker updates....",
+      "one_liner": "Duopra：全双工对话模型学会调工具，Pass@1 从 4.7% 提到 44.7%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/26f81867.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3a32e13f",
+      "title": "Search From the Start: Search-Native Pretraining for Language Models",
+      "url": "https://arxiv.org/abs/2611.26809",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kaustubh Ponkshe, Gyung Hyun Je, Stefan Taga, Colin Raffel, Martin Jaggi",
+        "original_date": "2026-11-19"
+      },
+      "category": "models",
+      "tags": [
+        "pretraining",
+        "search",
+        "retrieval",
+        "tool-use"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "搜索工具通常在 post-training 才挂上模型，预训练仍只学静态文本Search-Native Pretraining 把搜索前移到预训练：语料里大规模混入 web-search 查询，用本地索引取回网页响应，让模型在语言建模中就学会发起搜索消化证据Wikipedia 与 DCLM-Edu 语料360M 到 3.3B 规模上，QueryLM 在知识密集任务更强对检索证据可引导性更高；优势在 SFT 之后仍在，说明测过的后训练补不回预训练形成的能力1.4B QueryLM 在全部知识密集任务上持平或超过 FLOP 对齐的 3.3B 基线，checkpoint 和数据已放出",
+      "summary_en": "Search tools are typically attached to language models during post-training, while pretraining remains focused on predicting static text. Search-Native Pretraining proposes teaching search capability during pretraining from ordinary text corpora: augment the pretraining corpus at scale with web-search queries and retrieve web responses via a local index, so models learn to generate search calls and incorporate retrieved evidence during language modeling itself. Across Wikipedia and DCLM-Edu corpora and 360M to 3.3B parameter scales, search-pretrained models (QueryLM) show improved performance on knowledge-intensive tasks and higher steerability toward retrieved evidence....",
+      "one_liner": "Search-Native Pretraining：搜索进预训练，1.4B 打平 FLOP 对齐的 3.3B",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3a32e13f.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9ba83701",
+      "title": "Don't Discard Your Rollouts: Reusing Teacher RL Traces for Student Distillation",
+      "url": "https://arxiv.org/abs/2611.26803",
+      "source": {
+        "platform": "arxiv",
+        "author": "Vashisth Tiwari, Emma Strubell, J. Zico Kolter",
+        "original_date": "2026-11-19"
+      },
+      "category": "models",
+      "tags": [
+        "rl",
+        "distillation",
+        "grpo",
+        "training-efficiency"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "PPOGRPO 这类 RL 后训练里 rollout 采样是算力大头，标准蒸馏却把轨迹扔掉用最终 teacher 重新生成；NeurIPS 2026 论文改用存下的 rollout 直接蒸馏学生naive SFT 蒸不动 canonical，naive DPO 有用但弱学生上会崩，作者于是把复用当数据选择问题：按 prompt pass rate 排序，最简单 prompt 先 SFT 热启动，再对混合成败 prompt 做 DPO，并用 teacher log-likelihoods 挑学生能消化的补全数学与编码任务上两阶段配方追平 canonical 蒸馏，且零额外生成成本",
+      "summary_en": "RL post-training methods such as PPO and GRPO spend substantial compute sampling rollouts, but canonical distillation discards these traces and regenerates data from the final teacher. This NeurIPS 2026 paper asks whether saved teacher RL rollouts can be reused to distill students. Naive reuse fails: SFT on rollouts underperforms canonical distillation, and naive DPO, while performant, is unstable and collapses on weaker students. The authors treat rollout reuse as a data selection problem using metadata already recorded during GRPO: order data by prompt pass rates, warm-start with an SFT phase on the easiest prompts, then run DPO on mixed-success prompts; per prompt, saved teacher log-likelihoods serve as a proxy for selecting student-compatible completions....",
+      "one_liner": "别扔 rollout：teacher RL 轨迹复用蒸馏追平 canonical，零额外生成成本",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9ba83701.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b2db019b",
+      "title": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
+      "url": "https://arxiv.org/abs/2611.26747",
+      "source": {
+        "platform": "arxiv",
+        "author": "Mariana Fernandez-Espinosa, Ivoline Ngong, Keerthiram Murugesan, Karthikeyan Natesan Ramamurthy",
+        "original_date": "2026-11-19"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-skills",
+        "privacy",
+        "security",
+        "static-analysis"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Agent skill 用可安装指令和代码扩展 AI 助手，能碰用户文件账号和数据；即使只做分内事，也可能推断敏感属性留下不必要记录或把数据送给预期外接收方SkillPrivus 是安装前静态审计框架：不执行 skill，从代码和自然语言指令提取数据操作，锚定源码证据，用 Contextual Integrity 判断正当性公共市场 726 个真实 skill（563 个处理个人数据）里，307 个（54.5%）被标出至少一处潜在违规，与三名盲评人类标注一致率 83.2%敏感推断超范围使用意外披露都来自普通功能不必等到恶意 skill",
+      "summary_en": "Agent skills extend AI assistants through installable instructions and code that can access users' files, accounts, and data. Even when performing their advertised tasks, skills may infer sensitive attributes, retain unnecessary information, or disclose data to unexpected recipients. SkillPrivus is a static audit framework that analyzes skills before installation without executing them: it extracts data operations from code and natural-language instructions, grounds them in source evidence, and adapts Contextual Integrity to assess their appropriateness. Applied to 726 real skills from public marketplaces, 563 of which handle personal data, SkillPrivus flags at least one potential violation in 307 skills (54.5%), with judgments agreeing with three blind human annotators on 83.2% of resolvable moves....",
+      "one_liner": "SkillPrivus：726 个真实 agent skill 静态审计，54.5% 有隐私使用伤害",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/b2db019b.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0d97de25",
+      "title": "AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress",
+      "url": "https://arxiv.org/abs/2611.26910",
+      "source": {
+        "platform": "arxiv",
+        "author": "Congyuan Yu, Runping Tian",
+        "original_date": "2026-11-19"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "self-improvement",
+        "benchmark",
+        "memory"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Agent 权重固定跨 episode 自我改进，现有基准只测单一维度：任务进度知识问答或情景记忆答对不代表见过证据，有进度不代表学到东西AstronautBench 建在 Outer Wilds 上：每局 22 分钟循环后世界重置，只有知识可继承，进度由知识门控每局测三件事：到达地点与船日志事实164 个世界问题对错回答是否真被 agent 引用的画面位置支撑，两个模型族的 LLM judge 逐条核查八局基线显示三视图不同步：Sol 答对率从 14.6% 涨到 26.8%，但第 8 局仅 59-68% 回答有证据支撑，第 3 局后不再发现新事实，地点与记忆还在涨",
+      "summary_en": "LLM agents are expected to improve across episodes with fixed weights, but existing benchmarks measure only one view: task progress, world-knowledge QA, or episodic memory. A correct answer does not show the agent ever observed evidence for it, and progress does not show what it learned. AstronautBench is built on the game Outer Wilds: each episode is a 22-minute loop after which the world resets, only knowledge carries over, and progress is gated by knowledge. After every episode it measures places reached and ship-log rumor facts revealed, correctness on 164 questions about the world, and whether each answer is supported by the frames and positions the agent cites from its own recorded play, checked by two LLM judges from different model families....",
+      "one_liner": "AstronautBench：Outer Wilds 里测 agent 跨 episode 自改进，答对不等于有证据",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/0d97de25.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "18030cf5",
+      "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+      "url": "https://arxiv.org/abs/2611.26627",
+      "source": {
+        "platform": "arxiv",
+        "author": "Tuna Han Salih Meral, Kaan Oktay, Alec Helbling, et al.",
+        "original_date": "2026-11-19"
+      },
+      "category": "models",
+      "tags": [
+        "diffusion-transformers",
+        "rl",
+        "activation-steering",
+        "post-training"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "RL 后训练能明显改善扩散 transformer 的视觉质量文字渲染和组合性，直觉上需要学输入相关变换论文用最简参数化做隔离：冻结基模型 block 输出上加一组固定 steering 向量SD3.5-M 上参数量只有 RL-tuned LoRA 的约 1/65（0.29M 对 18.8M），拟合公开 RL checkpoint 的速度预测目标无 reward，却对每个 prompttoken种子完全相同仍恢复六个 RL 图像模型 90.0-96.3% 增益，两个视频模型 89.8% 和 111.9%policy-gradient RL 后训练的增益大头是一个常量偏移",
+      "summary_en": "RL post-training substantially improves visual quality, text rendering, and compositional accuracy of diffusion transformers. Because these capabilities are inherently prompt-dependent, the natural hypothesis is that improving them requires complex input-dependent transformations. The paper isolates how much an input-independent shift explains using a deliberately simple parameterization: a fixed set of steering vectors added to block outputs of the frozen base model. On SD3.5-M the vectors hold about 65x fewer parameters than the RL-tuned LoRA (0.29M vs 18.8M); they are fit to match velocity predictions of public RL-tuned checkpoints with no reward in the objective, yet are identical for every prompt, token, and sampling seed. They still recover 90.0-96.3% of the reward gains of six RL-tuned image models, and 89.8% and 111.9% on two RL-tuned video models....",
+      "one_liner": "DiT 上 RL 后训练约等于激活转向：1/65 参数的固定向量拿回九成以上增益",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/18030cf5.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ae8493cf",
+      "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+      "url": "https://arxiv.org/abs/2611.26073",
+      "source": {
+        "platform": "arxiv",
+        "author": "Nagham Omar, Rotem Dror, Almog Gueta, et al.",
+        "original_date": "2026-11-19"
+      },
+      "category": "learning",
+      "tags": [
+        "evaluation",
+        "llm-judge",
+        "statistics",
+        "annotation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM 越来越多当 judge 替代人类标注，什么时候替代在统计上站得住？此前 Alt-Test 只适用于同一批标注员标完所有条目的稠密场景，大规模标注里条目往往由不同子集处理AltRA-Test 推广到无共享标注员场景：bootstrap 重采样条目，每条抽 k 个人类标注换掉一个为 LLM 标注，得到配对全人类与混合面板；混合面板一致性不劣于全人类时支持替代论文证明它是渐近水平 alpha 的一致检验，用 18 个 LLM5 种提示20 个跨模态数据集评估：约 100 条标注常够用；仿真中替代决策比基线更准；真实数据 LLM 约半数场景通过替代不总成立，按任务先测",
+      "summary_en": "LLMs are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. The earlier Alt-Test only applies to dense settings where all items are annotated by the same annotators; in large-scale annotation, items are often annotated by different subsets. AltRA-Test extends the test to settings without shared annotators: a bootstrap resamples items, draws k human annotations per item, and substitutes one with an LLM annotation, producing paired all-human and mixed human-LLM panels; replacement is supported when the mixed panel's inter-annotator agreement is statistically non-inferior to the all-human panel's....",
+      "one_liner": "AltRA-Test：无共享标注员时何时可用 LLM 替人类，约 100 条标注即可检验",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/ae8493cf.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dbefb9b7",
+      "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+      "url": "https://arxiv.org/abs/2611.26590",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jiahao Huang, Jun Wang",
+        "original_date": "2026-11-19"
+      },
+      "category": "models",
+      "tags": [
+        "interpretability",
+        "vlm",
+        "global-workspace",
+        "probing"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "VLM 把视觉文本信息整合进输出，但输出看不到内部概念表示论文借全局工作空间理论提出多模态 Jacobian lens MC-Lens：两个 lens 把中间状态映射到解码器词表定义的共享语义空间，跨模态比较概念可及性，支持内部概念干预发现：概念信息在中间状态可读且按任务选择性访问，readout carrier 从单 token 扩到 token 集；反事实实验表明被访问概念确实参与下游计算推理；两个 J-space 指标比隐状态余弦更清晰追踪跨模态对齐发展，可靠选择性访问比可及性更晚出现；跨 VLM 家族与规模有共享模式",
+      "summary_en": "Vision-language models integrate visual and textual information, but their outputs do not reveal internal concept representations. Framed by global workspace theory (GWT), the paper introduces the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens whose vision-encoder and language-decoder lenses map intermediate states into a shared semantic space defined by the decoder's output vocabulary, comparing concept accessibility across modalities and supporting internal concept interventions....",
+      "one_liner": "MC-Lens：多模态 Jacobian lens 剖 VLM 概念选择与全局工作空间式共享",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/dbefb9b7.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1a984fa9",
+      "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
+      "url": "https://arxiv.org/abs/2611.26954",
+      "source": {
+        "platform": "arxiv",
+        "author": "Jingchen Sun, Jiaxing Zhang, Qingqiao Hu, et al.",
+        "original_date": "2026-11-20"
+      },
+      "category": "models",
+      "tags": [
+        "video-understanding",
+        "self-distillation",
+        "vlm",
+        "foresight"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "视频前瞻推理要求 VLM 从当前画面预测未来事件或下一步动作现有做法拟合未来字幕理据或完整视觉状态，瓶颈有二：依赖标注或外部大模型监督；把整段未来当等价值信号，尽管大部分是无关上下文Future-OPSD 用 on-policy 自蒸馏把过去-未来视频对变成自监督信号，无需额外标注或 LLM 监督；定义 foresight score 得到对比性 privilege advantage，驱动模型只学最有价值的未来信息；分数不可解，就优化可解下界：在真实与随机参照未来间插值该优势并叠加师生蒸馏优势开放预测与封闭规划分别提升最高 14.2 和 15.9 点，通用理解不受损",
+      "summary_en": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from observed videos. Existing methods fit future captions, rationales, or full visual states, with two limitations: they rely on annotations or external large models for supervision, and they treat the whole future clip as equally valuable although most of it is irrelevant context. Future-OPSD turns past-future video pairs into a natural self-supervised signal via on-policy self-distillation, requiring no extra annotations or LLM supervision. It defines a foresight score yielding a contrastive privilege advantage that drives the model to learn the most valuable future information....",
+      "one_liner": "Future-OPSD：无标注视频学视频前瞻推理，预测+14.2/规划+15.9 点",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/1a984fa9.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "800aeca2",
+      "title": "Claude Code v2.1.331: cloud-terminal Code Mode, MCP hang fix, doctor API checks",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+      "source": {
+        "platform": "github",
+        "author": "Anthropic",
+        "original_date": "2026-11-23"
+      },
+      "category": "coding",
+      "tags": [
+        "claude-code",
+        "mcp",
+        "code-mode",
+        "changelog"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Claude Code 升至 v2.1.331：终端会话在 BedrockGoogle Cloud Agent PlatformMicrosoft Foundry 和 AWS 的 Claude Platform 上支持 Code Mode；claude doctor 新增 API 连通性检查；修复本地与 WebSocket MCP 畸形回复导致工具调用挂起约 30 分钟的问题；插件清单支持 optionalDependencies约 11 月 30 日起 extraKnownMarketplaces 默认自动更新，关掉设 autoUpdate:false",
+      "summary_en": "Claude Code moves from v2.1.330 to v2.1.331 after a two-day freeze. Headline changes: terminal sessions now support Code Mode on Amazon Bedrock, Google Cloud Agent Platform, Microsoft Foundry, and Claude Platform on AWS; claude doctor adds an API connectivity section that reports HTTP status or the error cause; and a fix addresses tool calls hanging for up to about 30 minutes when a local or WebSocket MCP server returns malformed replies - the strongest reason to upgrade this version. Plugin manifests gain optionalDependencies support, and trace spans add gen_ai.usage fields. A batch of narrower fixes covers narrow terminals, /diff, /compact summary truncation, Remote Control ordering, and Windows permissions. The release also announces that managed extraKnownMarketplaces will auto-update by default from around November 30, disable with autoUpdate:false.",
+      "one_liner": "Claude Code v2.1.331：云端终端 Code Mode，修 MCP 畸形回复挂 30 分钟",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/800aeca2.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aef34d6c",
+      "title": "Codex CLI 0.172.0: exec resume keeps sandbox permissions, slash Tab completion, task-group navigation",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+      "source": {
+        "platform": "github",
+        "author": "OpenAI",
+        "original_date": "2026-11-24"
+      },
+      "category": "coding",
+      "tags": [
+        "codex",
+        "sandbox",
+        "changelog",
+        "cli"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Codex 正式版从 0.171.0 升到 0.172.0：thread 链接可打开已保存对话与嵌套 agent；slash 命令参数支持 Tab 补全；command center 里 Shift+Up/Down 在任务组间跳；可选 stdio MCP 首次工具调用再启动；config.toml 可给单个 connected app 工具设审批人；app-server 登录支持 Bedrock Runtime最实用的是 codex exec resume 会恢复已保存的沙箱权限工作目录与 workspace roots；父 turn 打断时子 agent 排队回复留给下一轮，不再丢失",
+      "summary_en": "Codex CLI's stable release moves from 0.171.0 to 0.172.0. Thread links in search results and transcripts now open saved conversations and nested agents; supported slash command parameters get Tab completion (e.g. /mcp lo completes to /mcp login); Shift+Up/Down jumps between task groups in the agent command center; optional stdio MCP servers now start lazily at first tool call; config.toml can set per-tool approvers for individual connected apps; and app-server login supports Amazon Bedrock Runtime. The most operationally useful change: codex exec resume now restores saved sandbox permissions, working directories, and workspace roots unless explicitly overridden, and when a parent turn is interrupted, queued replies from child agents carry over to the next turn instead of being lost.",
+      "one_liner": "Codex 0.172.0：exec resume 保住沙箱权限，slash 参数 Tab 补全",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/aef34d6c.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0e3fab88",
+      "title": "The AI Code Review Report 2026: review capacity is the delivery bottleneck (LeadDev x CodeRabbit survey)",
+      "url": "https://leaddev.com/the-ai-code-review-report-2026",
+      "source": {
+        "platform": "blog",
+        "author": "LeadDev and CodeRabbit",
+        "original_date": null
+      },
+      "category": "coding",
+      "tags": [
+        "code-review",
+        "industry",
+        "survey",
+        "ai-coding"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "LeadDev 与 CodeRabbit 的 AI 代码审查年度调查公开摘要：约 45% 的工程师把 code review 容量当成 AI 时代交付的最大拖累，约七成承认合并过自己并未完全理解的 AI 代码这与哈佛/Jellyfish 平台数据研究里 review-to-merge 时间上升约 49% 的发现互相印证：写的成本被 agent 压下去之后，瓶颈系统性地挪到了审HN 讨论帖约 332 分，评论分歧明显有人整天只审 AI 代码并不喜欢，有人担心没人写代码之后没人有资格审，也有人认为 agent 找缺陷比人强但理解与所有权仍需人调查数字当行业温度计用，别直接复制成团队流程结论",
+      "summary_en": "The public summary of LeadDev and CodeRabbit's AI code review survey: about 45% of engineers name code review capacity as the biggest delivery drag in the AI era, and roughly 70% admit merging AI code they did not fully understand. This lines up with the Harvard/Jellyfish platform-data finding that review-to-merge time rose about 49% after agent adoption: as agents push down the cost of writing, the bottleneck systematically moves to review. The HN discussion sits around 332 points with split comments - some dislike spending days reviewing AI code, some worry that if nobody writes code nobody will be qualified to review it, and others distinguish agents' strong defect-finding from the human need for understanding and ownership. Treat the survey numbers as an industry thermometer, not as a ready-made team process conclusion.",
+      "one_liner": "LeadDev 调查：45% 把 code review 容量当最大拖累，七成合并过没读懂的 AI 代码",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/0e3fab88.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "c12d78f0",
+        "048fcb30"
+      ]
     }
   ],
   "last_updated": "2026-11-24",
-  "total_entries": 3486
+  "total_entries": 3500
 }
