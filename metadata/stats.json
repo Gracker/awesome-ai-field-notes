@@ -35,7 +35,7 @@
     "newsletter": 13,
     "dataset": 1
   },
-  "last_updated": "2026-11-24 23:44",
+  "last_updated": "2026-11-25 03:04",
   "generator": "openclaw/scripts/generate-modern-site.py",
   "output_dir": "dist"
 }

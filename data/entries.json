@@ -104895,7 +104895,7 @@
       "source_type": "article",
       "language": "zh",
       "summary_zh": "Jake Wharton 接受 JetBrains 访谈谈 2026 年的 Kotlin 与 AI：大厂裁员 70% 并宣称 AI 提效，在他看是资本 Playbook 的重演VC 补贴培育使用习惯后转向价值榨取；'LLMs are statistical tools, not reasoning systems'，生成的代码看起来对不等于真的对，AI 的位置是提速助手而非决策者，程序员核心价值在抽象建模边界条件判断复杂系统设计与业务洞察访谈另回顾 Kotlin 借 Java 停滞期破局成为第一语言的历史",
-      "summary_en": null,
+      "summary_en": "JetBrains interview with Jake Wharton on Kotlin and AI in 2026: big-tech layoffs of 70% marketed as AI-efficiency gains read, in his view, as a replay of the capital playbook - VC money subsidizes usage to build habits, then value extraction follows. He argues LLMs are statistical tools, not reasoning systems: generated code looking right is not being right, AI belongs as an acceleration assistant rather than the decision-maker, and a programmer's core value lies in abstraction modeling, boundary-condition judgment, complex-system design, and business insight. The interview also traces how Kotlin broke out during Java's stagnation to become a top language. Chinese translation on Juejin.",
       "one_liner": "Jake Wharton 接受 JetBrains 访谈谈 2026 年的 Kotlin 与 AI：大厂裁员 70% 并宣称 AI 提效，在他看是资本 Playbook 的重演VC 补贴培育使用习惯后转向价值榨取.",
       "one_liner_author": "openclaw",
       "quality_score": 3,
@@ -104928,7 +104928,7 @@
       "source_type": "article",
       "language": "zh",
       "summary_zh": "本机 Agent 实践笔记读四篇工作得出同一判断：把经验写成技能本身不产生收益，收益来自准入验证EMNLP 2026 GRASP 在 MedAgentBench 把 gpt-oss-120b 从 40.6% 拉到 88.8%，消融显示功劳在接受门控与回归预算，'不经验证的技能写作不比不用好'；Assay 用随机掩码算单技能因果贡献，全局指标看不出正负抵消；SkillAxe 测出人类技能平均 +16.2ppLLM 自写技能无可测提升；Skill-V 把技能做成可证伪契约，ALFWorld 95.3%反思找错评估确认有效回归确认没弄坏别的，缺一环就退化为随机扰动",
-      "summary_en": null,
+      "summary_en": "Local agent-practice note drawing one verdict from four pieces of work: encoding experience into skills yields nothing by itself - the payoff comes from admission validation. EMNLP 2026 GRASP lifts gpt-oss-120b from 40.6% to 88.8% on MedAgentBench, ablations crediting acceptance gating and the regression budget ('unvalidated skill writing is no better than none'); Assay uses random masking to isolate per-skill causal contribution since global metrics hide offsetting effects; SkillAxe finds human-authored skills average +16.2pp while LLM-written skills show no measurable gain; Skill-V turns skills into falsifiable contracts, reaching 95.3% on ALFWorld - reflection-based error finding plus regression checks confirm each skill works and breaks nothing else, and missing either stage degrades skills into random perturbation.",
       "one_liner": "本机 Agent 实践笔记读四篇工作得出同一判断：把经验写成技能本身不产生收益，收益来自准入验证EMNLP 2026 GRASP 在 MedAgentBench 把 gpt-oss-120b 从 40.",
       "one_liner_author": "openclaw",
       "quality_score": 4,
@@ -107146,7 +107146,7 @@
       "source_type": "x_post",
       "language": "zh",
       "summary_zh": "X 用户 @mylifcc 实测把 Fable 5.2 设为 Claude Code 顾问模型后 Fable 周限额面板不动，社区主流解释是 /advisor 不强制咨询模型没调顾问独立实测（paddo.dev）给出机制：advisor 是服务端工具，顾问每次调用重读完整对话且不吃缓存，调用确实发生（API 记录是 claude-fable-5-2），但订阅套餐下顾问用量计入套餐额度而非 Fable 周限额换掉的是计数器，额度总量没变判断：面板截图证明不了额度去向，强制调用加读 API 记录才算数；性价比取决于上下文长度，尽早问才省",
-      "summary_en": null,
+      "summary_en": "X user @mylifcc measured that pointing Claude Code's advisor model at Fable 5.2 leaves Fable's weekly-limit panel untouched. The common community explanation - /advisor never actually consults the model - is wrong: an independent measurement (paddo.dev) shows advisor is a server-side tool whose consultant re-reads the full conversation each call with no cache, so calls do happen (API records show claude-fable-5-2), but on subscription plans consultant usage is billed to the plan quota rather than Fable's weekly limit. What changes is the counter, not the total budget. Panel screenshots cannot prove where quota went; forced invocation plus API records are the evidence, and cost-effectiveness depends on context length - ask early to save.",
       "one_liner": "Fable 顾问换掉的是计数器不是预算：面板截图证明不了额度去向，看 API 记录才算数",
       "one_liner_author": "openclaw",
       "quality_score": 4,
@@ -107814,6 +107814,6 @@
       ]
     }
   ],
-  "last_updated": "2026-11-24",
+  "last_updated": "2026-11-25",
   "total_entries": 3500
 }
