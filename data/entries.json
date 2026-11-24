@@ -107155,8 +107155,226 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "9965f17e",
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+      "url": "https://arxiv.org/abs/2611.27973",
+      "source": {
+        "platform": "arxiv",
+        "author": "Chang Nie, Chaoyou Fu, Songlin Liu, Yiqing Hu, Caifeng Shan",
+        "original_date": "2026-11-20"
+      },
+      "category": "infra",
+      "tags": [
+        "memory",
+        "kv-cache",
+        "long-context",
+        "architecture"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "MemOnce 针对长程持续交互里 KV cache 线性增长计算二次膨胀的问题，提出可学习的记忆状态架构：只缓存少量末层隐状态作为压缩记忆，按需解码回 KV cache，并用跨层只算一次的稀疏索引做记忆检索在 Qwen3.5-4B 上改造后，1M 上下文下记忆状态缓存缩小 1313 倍prefill 延迟降 6.9 倍，吞吐提升 3.5 倍，记忆任务成绩反升 5.77%对关注长上下文推理成本与 agent 记忆系统设计的人，这是一篇值得对照的架构论文",
+      "summary_en": "MemOnce is a foundation architecture that learns scalable memory states for long-horizon and continual LLM interactions. A memory encoder-decoder caches only a small subset of final-layer hidden states as compact memory representations and dynamically decodes them back into KV caches for attention layers, while memory sparse attention retrieves relevant memories per input with sparse indices computed only once across layers. Adapting Qwen3.5-4B with MemOnce reduces the memory-state cache by 1313x and prefill latency by 6.9x at 1M context, improves throughput 3.5x and overall memory performance by +5.77%, outperforming standard Transformers and linear-time architectures across model sizes, context lengths, and both pretraining and post-training adaptation.",
+      "one_liner": "MemOnce：可学习记忆状态架构，1M 上下文缓存缩小 1313 倍吞吐提升 3.5 倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9965f17e.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "afce0036",
+      "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
+      "url": "https://arxiv.org/abs/2611.27895",
+      "source": {
+        "platform": "arxiv",
+        "author": "Marcio Andre de Souza Estevam",
+        "original_date": "2026-11-20"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "benchmark",
+        "evaluation",
+        "healthcare"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "TEA-Bench-BR 用巴西自闭症早期筛查流程考 coding agent：葡萄牙语书写的分支规格多科室转诊流FHIR R4 导出，144 个任务配 6798 个能杀死全部 1955 个变异体的隐藏用例Gemma 4 的 12B 只解出 38% 单仪器任务FHIR 级全挂；31B 三级通过率 77.8%-85.2%，但同样任务换成英文后 level 3 掉到 57.4%，暴露 agent 对规格语言的敏感代码能跑却悄悄出错正是 agent 编码落地最贵的坑，这个 benchmark 把它量化了",
+      "summary_en": "TEA-Bench-BR tests whether coding agents can turn a branching clinical specification into correct code, built on the Brazilian early autism (TEA) screening pathway: three fictitious screening instruments, a multi-professional referral flow, and FHIR R4 export with national RNDS profiles, all specified in Portuguese. A generator samples 144 tasks with 6,798 hidden cases that kill all 1,955 non-equivalent mutants of the reference implementation. With Gemma 4 agents, the 12B model solves 38.0% of single-instrument tasks and none at the FHIR level; the 31B solves 77.8-85.2% across three levels and passes over 99% of hidden cases, failing mostly at input validation. Switching the same tasks to English drops the 31B to 57.4% at level 3, exposing sensitivity to specification language; the 31B misses 0.02% of referral-required cases versus 10.10% for the 12B.",
+      "one_liner": "TEA-Bench-BR：用临床分支规格量化 coding agent 的静默 bug，规格换语言即掉 20 分",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/afce0036.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0d817fb6",
+      "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+      "url": "https://arxiv.org/abs/2611.27962",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kaden Zheng, Pratyusha Sharma",
+        "original_date": "2026-11-20"
+      },
+      "category": "models",
+      "tags": [
+        "architecture",
+        "training",
+        "pruning",
+        "transformer"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Model Carving 把选架构并进训练本身：给每个子层加可学习标量门，让训练损失在训练中删掉模型自己的组件，从大网络里雕出一个更小更快的异构网络140M-2.7B 预训练实验中，同等训练算力下胜过用 1.7 倍算力训练的稠密模型，也强于事后剪枝或蒸馏出的同等大小模型；被删子层不再运行，每 token FLOP 省 34%，解码快 1.6 倍结论直白：架构应当像权重一样被学习，边缘小模型最好在训练中雕出来，而不是训练后再压缩",
+      "summary_en": "Model Carving learns a Transformer's weights and its architecture in a single training run. Learnable scalar gates on each sublayer let the training loss remove the model's own components during training, freeing a smaller heterogeneous network inside instead of compressing a large model afterwards. Pre-training standard Transformers from 140M to 2.7B and looped Transformers from 140M to 1.3B, carved models reach lower validation loss than dense models trained with up to 1.7x more compute at equal training compute, and outperform size-matched models from pruning or distillation. Removed sublayers no longer run, so carved models cost up to 34% fewer FLOPs per token and decode up to 1.6x faster, with the advantage growing with scale and carrying over to few-shot and generation tasks.",
+      "one_liner": "Model Carving：训练中学会删自己的子层，等算力胜过 1.7 倍算力稠密模型，解码快 1.6 倍",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0d817fb6.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "aee69ca9",
+      "title": "AutoOntologyBench: A Task-Grounded Benchmark for Agentic Knowledge Engineering",
+      "url": "https://arxiv.org/abs/2611.27734",
+      "source": {
+        "platform": "arxiv",
+        "author": "Minye Shao, Chenghao Xiao, Xingyue Zhao, Yang Long",
+        "original_date": "2026-11-20"
+      },
+      "category": "agents",
+      "tags": [
+        "agents",
+        "benchmark",
+        "knowledge-graph",
+        "ontology"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "AutoOntologyBench 把 agent 能否自建可用知识变成可测的题：19947 个经审计任务，覆盖 7 个领域 18 个真实知识源，带源生校验，在统一知识表示下对比 9 个前沿模型 agent检索之上叠加 agent 自建本体可加 6.1 分任务成功率，但比专家本体仍差 13 分，说明自主知识获取才是科研 agent 规模化的瓶颈做 agent 知识层或记忆系统的人，值得把这 13 分差距当成自己的标尺",
+      "summary_en": "AutoOntologyBench asks whether autonomous agents can construct ontologies that measurably help them solve real tasks, and whether they beat alternative knowledge representations. The benchmark contains 19,947 audited tasks grounded in 18 real-world knowledge sources across 7 domains, with source-native verification, comparing nine frontier-model agents under matched knowledge representations. Layered on retrieval, agent-built ontologies add 6.1 points of task success, yet trail an expert-derived reference by 13.0 points, identifying autonomous knowledge acquisition as the bottleneck for scalable autonomous scientific research. Code and resources are available on GitHub.",
+      "one_liner": "AutoOntologyBench：agent 自建本体加 6.1 分但落后专家本体 13 分，知识获取成科研 agent 瓶颈",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/aee69ca9.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4802bb1e",
+      "title": "DistDNA: Language Model Fingerprinting under Stochastic Decoding",
+      "url": "https://arxiv.org/abs/2611.27831",
+      "source": {
+        "platform": "arxiv",
+        "author": "Lifan Hu, Qian Yu, Zhaomin Wu, Bingsheng He",
+        "original_date": "2026-11-20"
+      },
+      "category": "models",
+      "tags": [
+        "fingerprinting",
+        "model-verification",
+        "security",
+        "decoding"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "DistDNA 解决部署侧模型验真的现实难题：温度或 top-p 一换，同一个模型的回答差异能赶上换 checkpoint它用 prompt 条件下的响应分布表示模型，按 prompt 算 MMD 距离，对照多组解码设置采集的参考指纹就近归类，无需训练分类器，并给出按 O(1/R) 收敛的采样方差界115 个 checkpoint 条目上识别准确率比最强基线 LLM DNA 高 10.36%做模型审计与合规验证的人可以直接参考这套指纹方案",
+      "summary_en": "DistDNA fingerprints LLMs under stochastic decoding, where an unknown temperature or top-p setting can change responses as much as swapping the checkpoint. It represents a model by its prompt-conditional response distributions, compares models with promptwise maximum mean discrepancy (MMD), and assigns the examined model to the known checkpoint whose reference fingerprints, collected at several decoding settings, lie nearest, without training a classifier. The paper shows finite sampling adds variance-dependent terms to the expected squared fingerprint distance, decreasing as O(1/R) for R responses per prompt. Across 115 model checkpoint entries, DistDNA improves identification accuracy over the strongest baseline LLM DNA by 10.36%, enabling verification that a deployed model corresponds to the checkpoint it claims.",
+      "one_liner": "DistDNA：随机解码下按响应分布做 LLM 指纹识别，115 个 checkpoint 上超基线 10.36%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4802bb1e.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "9833cac2",
+      "title": "Non-penetrating World Models",
+      "url": "https://arxiv.org/abs/2611.27963",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuhang Dai, Yinwei Wu, Ziyue Lin, Han Ji, Xingyi Yang",
+        "original_date": "2026-11-20"
+      },
+      "category": "models",
+      "tags": [
+        "world-models",
+        "video",
+        "physics",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "NoPeWorld 盯住交互式视频世界模型的穿模问题：NoPeBench 显示没有开源模型能可靠阻止穿模，但 DiT 隐状态其实已经编码了候选动作是否会穿墙的信息方法很轻：只在冻结的 DiT 上训一个小预测头判断动作安全性，把不安全动作替换成最保留原意图的安全动作，6 个视频世界模型平均物理违例率从 74% 降到 16%，还对开放域图像第三人称视角和移动障碍零样本泛化是世界模型物理一致性的低成本补丁",
+      "summary_en": "Non-penetrating World Models tackle object penetration failures in interactive video world models. NoPeBench evaluates how world models respond to physical obstacles and reveals that no open-source model reliably prevents such failures, yet their hidden states already encode the information needed to predict violations. NoPeWorld trains a small prediction head on top of a frozen diffusion transformer's hidden states to read out whether a candidate action is safe, then replaces unsafe actions with safe ones that best preserve the original intent. Averaged over six video world models, it cuts the physical violation rate from 74% to 16%, with zero-shot generalization to open-domain imagery, third-person viewpoints, and moving obstacles.",
+      "one_liner": "NoPeWorld：用 DiT 隐状态小预测头拦穿模，6 个世界模型物理违例率 74% 降到 16%",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/9833cac2.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5094532b",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://z.ai/blog/glm-5.4",
+      "source": {
+        "platform": "blog",
+        "author": "Z.ai",
+        "original_date": "2026-11-23"
+      },
+      "category": "models",
+      "tags": [
+        "loop-transformer",
+        "glm",
+        "architecture",
+        "kv-cache",
+        "coding-agents"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Z.ai 的 GLM-5.4 是首个基于 Loop Transformer 的旗舰模型：GLM-5 底座 28 层权重共享跑两轮迭代，750B 规模宣称对标 2T-3T 参数模型三个工程改动撑住规模化：每轮独立 per-token 门的渐进更新稳定激活尺度；跨循环 KV 共享加独立滑窗，多跑一圈只多一份滑窗 KV，1M 上下文成本可控；第二轮直接复用第一轮稀疏索引30B 同参数消融显示约 10% 额外算力换数学科研推理长上下文显著收益，思考 token 反而省 10-14%；闲时吞吐 200 tokens/s，权重计划安全加固后开源用计算深度换参数规模这条路线值得持续跟踪",
+      "summary_en": "Z.ai's GLM-5.4 is its first flagship model built on a Loop Transformer: 28 layers of the GLM-5 base run for two weight-shared iterations at 750B scale, claimed to reach intelligence comparable to 2T-3T parameter models without adding parameters. Three changes stabilize looping at scale: gated progressive updates (per-token gates keep activation scales stable across passes), a hybrid KV cache (cross-loop KV sharing plus an independent sliding window, so an extra loop costs one window rather than a full context cache at 1M context), and sparse attention index reuse from the first pass. A 30B iso-parameter ablation with about 10% more training compute shows the largest gains on math, scientific reasoning, and long-context tasks, with thinking outputs 10-14% shorter; throughput reaches 200 tokens/s off-peak, and open weights are planned after safety hardening.",
+      "one_liner": "GLM-5.4：28 层权重共享跑两轮的 Loop Transformer，750B 规模对标 2T-3T 模型",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5094532b.md",
+      "images": [],
+      "added_date": "2026-11-24",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
-  "last_updated": "2026-11-23",
-  "total_entries": 3479
+  "last_updated": "2026-11-24",
+  "total_entries": 3486
 }
