@@ -107812,8 +107812,256 @@
         "c12d78f0",
         "048fcb30"
       ]
+    },
+    {
+      "id": "ffe68dd3",
+      "title": "Carried-Over and Agent-Native Threats in the Supply Chain of LLM Agent Skills",
+      "url": "https://arxiv.org/abs/2611.30932",
+      "source": {
+        "platform": "arxiv",
+        "author": "Kaixuan Li, Wenbo Guo, Sen Chen et al.",
+        "original_date": "2026-11-23"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-skills",
+        "supply-chain-security",
+        "prompt-injection",
+        "empirical-study"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "首个 LLM Agent 技能供应链注册表级实证研究，覆盖 ClawHub 全部 48,682 个技能，筛查依赖一方代码安装指令stdout 凭据四类风险，人工复核并测试可达性发现：49.6% 有可解析依赖的技能引用含已知 CVE 的版本，78.3% 发布时即带漏洞出生（npm 包上线时即带）；但依赖漏洞很少可达（仅 3.0%），抽样 22 个一方缺陷 21 个被端到端利用；真实 Agent 在 48.5% 样本中执行了注入载荷，但几乎都在技能运行前的自身 shell 里，进入技能内部漏洞的仅 5.0%结论：注册表应优先治一方缺陷，运行时不该让技能参数过 shell",
+      "summary_en": "First registry-scale study of supply-chain risk from unintentional vulnerabilities in LLM agent skills, screening all 48,682 ClawHub skills for carried-over risks (dependencies, first-party code) and agent-native ones (install instructions, credentials printed to stdout), with manual review of 3,428 flagged cases and sandbox/live-agent reachability tests. 49.6% of skills with resolvable dependencies use a CVE-affected version and 78.3% are born vulnerable at publication. Dependency flaws are rarely reachable (only 3.0% reachable by agent input), while 21 of 22 sampled first-party flaws were exploited end-to-end. A live agent executed injected payloads in 48.5% of sampled flagged skills, mostly in its own shell before the skill ran, reaching an in-skill flaw in only 5.0%. Registries should prioritize first-party flaws; runtimes should not pass skill arguments through a shell.",
+      "one_liner": "ClawHub 四万九技能供应链实证：依赖 CVE 出生即带占 78.3%，一方代码缺陷 21/22 可端到端利用，应优先治一方缺陷",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ffe68dd3.md",
+      "images": [],
+      "added_date": "2026-11-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8a75ad05",
+      "title": "Oops!... I Parsed It Again: Tool-Call Smuggling Against LLM Agents",
+      "url": "https://arxiv.org/abs/2611.30624",
+      "source": {
+        "platform": "arxiv",
+        "author": "Igor Santos-Grueiro, Daniel Romero-Ruiz",
+        "original_date": "2026-11-23"
+      },
+      "category": "agents",
+      "tags": [
+        "tool-calling",
+        "agent-security",
+        "mcp",
+        "prompt-injection"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "提出 tool-call smuggling 攻击：Agent 工具调用的同一段 JSON 字节会被 provider网关SDK防护执行器多次解析，JSON 留了解析自由度；两者解析不一致时，防护批准一次调用，执行器运行另一次，审计日志只记被批准的那个作者归纳六种同字节不同调用的方式，差分测试 17 组解析器配置发现多数组合有分歧，连两个官方 MCP SDK 也不例外；在 tau-bench/AgentDojo 上可取消他人预订创建被按名封禁的文件修复方案：整段调用只解析一次只留批准 schema 字段传输用 call ID 封印，挡下全部 7,412 个构造输入",
+      "summary_en": "Identifies tool-call smuggling: an LLM agent's tool call is the same bytes parsed by many stack components (provider, gateway, SDK, guard, executor), and JSON leaves parsing choices open (which copy of a repeated key counts). When guard and executor parse differently, the guard approves one call, the executor runs another, and the audit log records only the approved one. Six ways identical bytes yield different calls; differential tests across 17 pinned parser/validator configurations show most pairs disagree on some inputs, and even two official MCP SDKs accept different inputs. On tau-bench and AgentDojo tasks, an attacker rewriting bytes in transit cancels another customer's reservation or creates a file the guard blocks by name. A mitigation that parses each call once, keeps only approved-schema fields, and seals it with its call ID in transit stops all 7,412 crafted inputs.",
+      "one_liner": "tool-call smuggling：同一字节多次解析致防护与执行器各跑一次调用，两官方 MCP SDK 分歧实锤",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8a75ad05.md",
+      "images": [],
+      "added_date": "2026-11-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f12afd27",
+      "title": "AgentBouncer: Defending Software Engineering Agents via Dynamic System-Call Mediation",
+      "url": "https://arxiv.org/abs/2611.30621",
+      "source": {
+        "platform": "arxiv",
+        "author": "Pascal Joos, Michael Pradel",
+        "original_date": "2026-11-23"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-security",
+        "runtime-defense",
+        "system-calls",
+        "sandboxing"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "SE Agent 既有防御只看 prompt 与调用序列，不看环境里真正执行的动作AgentBouncer 运行时仲裁 Agent 经工具调用触发的系统调用：LLM 仲裁器按必要性与安全性裁决，拒绝不安全调用；越不必要的调用，放行所需安全置信度越高；预置规则与缓存把仲裁限制在关键决策以控开销在 340 个开发环境攻击加 SWE-bench Verified 良性任务上，攻击成功率从 99.41% 降到 10.59%，比现有最优防御低 18-74 个百分点，良性工具调用失败率仅 0.25%，每任务只多 47 秒和 0.0036 美元，为最近运行时防御的 1/4.5 时间1/9.6 成本",
+      "summary_en": "Runtime enforcement that mediates system calls triggered by software-engineering agents via tool calls, closing the gap left by trajectory analysis that inspects only the initial prompt and tool-call sequence, not what actually executes in the environment. An LLM arbiter judges each syscall on necessity and safety; unsafe calls are denied, and the less necessary a call appears, the more safety certainty is required to allow it. Preseeded policy rules and hierarchy-aware caching confine the arbiter to key decisions. On 340 development-environment attacks across four vectors plus benign SWE-bench Verified tasks, AgentBouncer cuts attack success rate from 99.41% to 10.59% (18-74 percentage points below competing defenses) with only 0.25% failed benign tool calls, adding 47 seconds and $0.0036 per benign task, 4.5x less time and 9.6x less cost than the closest runtime defense.",
+      "one_liner": "AgentBouncer 运行时系统调用仲裁：攻击成功率 99.4%10.6%，良性任务仅多 47 秒 0.0036 美元",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f12afd27.md",
+      "images": [],
+      "added_date": "2026-11-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3058c452",
+      "title": "sudo L7: Can Coding Agents Act Like Staff Engineers?",
+      "url": "https://arxiv.org/abs/2611.30517",
+      "source": {
+        "platform": "arxiv",
+        "author": "Nick Heiner, Ian Niebres, Suhaas Garre et al.",
+        "original_date": "2026-11-23"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "benchmark",
+        "evaluation",
+        "engineering-judgment"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "sudo L7 是 60 个 staff 级工程师编写的软件工程任务基准，大多来自私有生产代码库，每个任务围绕一个前沿模型翻车点构建：欠规范的真实请求配隐藏专家细则（共 1,287 条原子标准八个行为维度），agentic 评分器读 transcript跑代码把测试输出当证据；两个最高严重级标准全过才算通过，过半门禁标准考功能正确之外的东西2026 年 11 月榜单 19 个模型各跑 3 次：Claude Fable 5.2 通过 52.2%，GPT-6.1 Sol 等在 31-34%，其余不超过 18.9%候选模型评分器与人类工程师判定一致率 85-86%，接近工程师间一致率",
+      "summary_en": "A benchmark of 60 software-engineering tasks written by staff-level engineers, mostly in private production codebases, each built around a place where a frontier model failed: realistic underspecified requests paired with hidden expert rubrics of 1,287 atomic criteria across eight behavioral dimensions. An agentic grader reads the transcript, inspects and runs code, and treats test output as evidence; passing requires every criterion of the two highest severities, and over half of gating criteria test something beyond functional correctness. On the November 2026 leaderboard (19 models, three attempts each), Claude Fable 5.2 passes 52.2% of attempts, GPT-6.1 Sol and peers 31-34%, the rest at most 18.9%. Candidate model graders agreed with a human engineer on 85-86% of criterion verdicts, matching engineer-engineer agreement.",
+      "one_liner": "sudo L7：60 个 staff 级任务加隐藏专家细则，Fable 5.2 过 52.2%，过半门禁标准考功能正确之外",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/3058c452.md",
+      "images": [],
+      "added_date": "2026-11-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d7502d0b",
+      "title": "Improving Repair Agents with Cause-Chain Diagnoses",
+      "url": "https://arxiv.org/abs/2611.30574",
+      "source": {
+        "platform": "arxiv",
+        "author": "Marius Smytzek, Martin Eberlein, Lars Grunske et al.",
+        "original_date": "2026-11-23"
+      },
+      "category": "coding",
+      "tags": [
+        "repair-agents",
+        "debugging",
+        "swe-bench",
+        "diagnosis"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "FORECAST 给修复 Agent 提供故障诊断：从通过与失败测试的执行中推断一条 cause chain简短的执行特征序列（条件数据流），解释失败运行在哪里分岔附在 issue 后，任何从 issue 构建 prompt 的 Agent 都受益，无需改动 Agent在 SWE-bench Lite 全部 300 个 issue五个修复 Agent两个模型上评估：Haiku 4.5 解决率从 48.5% 升到 70.9%，Qwen3.5 从 31.2% 升到 56.1%，开源模型带诊断后反超不带诊断的商业模型；增益在重复运行和已运行过诊断所用测试的 Agent 上依然成立",
+      "summary_en": "FORECAST gives repair agents a diagnosis of the failure before they fix it: from executions of passing and failing tests it infers a cause chain, a short sequence of execution features such as conditions or data flow that explains where failing runs diverge, and appends it to the issue, so any agent that builds its prompts from the issue benefits without modifying the agent. On all 300 SWE-bench Lite issues with five repair agents and two models, every agent resolves significantly more issues: Haiku 4.5 rises from 48.5% to 70.9% and Qwen3.5 from 31.2% to 56.1%, so the open-weight model with the diagnosis surpasses the commercial model without it. The gains persist across repeated runs and for agents that already run the tests the diagnosis is derived from.",
+      "one_liner": "FORECAST 给修复 Agent 附 cause-chain 诊断：Haiku 4.5 解决率 48.5%70.9%，Qwen3.5 反超商业模型",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d7502d0b.md",
+      "images": [],
+      "added_date": "2026-11-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "4d42d086",
+      "title": "POMA: Beyond Final Flags -- Process-Level Evaluation of Base LLMs in Vulnerability Exploitation",
+      "url": "https://arxiv.org/abs/2611.30590",
+      "source": {
+        "platform": "arxiv",
+        "author": "Gufeng Zhang, Yiru Zhao, Shengyu Liu et al.",
+        "original_date": "2026-11-23"
+      },
+      "category": "coding",
+      "tags": [
+        "security-evaluation",
+        "vulnerability-exploitation",
+        "ctf",
+        "process-level-eval"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "POMA 把漏洞利用能力的评估从最终结果推进到过程级：固定任务输入工具接口目标环境反馈格式与执行预算，在统一基线上隔离评测底座 LLM 本身的能力，从运行时证据测量中间状态与转移四个前沿底座模型在 55 个 CTF Pwn 题和 10 个真实漏洞复现任务上暴露沿利用链的持续能力衰减：从漏洞知识到可执行实现从客户端动作到已验证的目标状态从失败定位到精确修复跨迭代修订都在掉；真实软件上还要同时满足格式语义差分崩溃同一性约束基准目录过程度量评估器和样例 harness 已开源",
+      "summary_en": "POMA is a process-level evaluation methodology and platform for base LLMs on vulnerability exploitation: fixing task inputs, tool interfaces, target environments, feedback formats and execution budgets to measure intrinsic capability apart from agent scaffolding, scoring intermediate states from runtime evidence. Four frontier base LLMs across 55 CTF Pwn challenges and 10 real-world vulnerability reproduction tasks expose persistent capability attrition along the exploitation chain: from vulnerability knowledge to executable implementation, client-side actions to verified target states, failure localization to precise repair, and across iterative revisions; real-world software adds format, semantic, differential and crash-identity constraints models struggle to satisfy simultaneously. Benchmarks, evaluator and sample harness are publicly released.",
+      "one_liner": "POMA 过程级评测漏洞利用：55 CTF 加 10 真实复现，沿利用链四段能力衰减，底座能力与脚手架解耦",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/4d42d086.md",
+      "images": [],
+      "added_date": "2026-11-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0581fabf",
+      "title": "Useful but Unwieldy: How Software Engineers Perceive the Design of Chain-of-Thought Explanations in Coding Agents",
+      "url": "https://arxiv.org/abs/2611.30894",
+      "source": {
+        "platform": "arxiv",
+        "author": "Carlos Rafael Catalan, Lheane Marie Dizon, Patricia Nicole Monderin et al.",
+        "original_date": "2026-11-23"
+      },
+      "category": "coding",
+      "tags": [
+        "coding-agents",
+        "explainability",
+        "developer-experience",
+        "chain-of-thought"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "对 36 名软件工程师的问卷加半结构化访谈，研究 coding agent 展示的 CoT 消息作为 XAI 机制的真实体验主题分析显示：CoT 消息在透明性可审查性和对 Agent 的信任上不可或缺，但过度冗长技术细节与读者专业不匹配以及 agent 在自言自语式的与会话脱节感，会导致理解困难选择性使用乃至放弃论文据此给出匹配工程师解释需求的 CoT 设计建议，对把冗长推理轨迹当作免费透明度的做法是一个实证反证",
+      "summary_en": "Survey and semi-structured interviews with 36 software engineers on chain-of-thought messages that coding agents display as a separate message, studied as an explainable-AI mechanism. Thematic analysis finds CoT messages indispensable for transparency, scrutability and trust toward the agent, but recurring problems, including excessive verbosity, technical detail mismatched to the reader's expertise, and messages perceived as detached from the conversation because the agent is talking to itself, cause comprehension difficulties and selective use or abandonment. The paper synthesizes design implications for CoT messages that match engineers' explainability needs: an empirical counterpoint to treating verbose reasoning traces as free transparency.",
+      "one_liner": "36 名工程师谈 coding agent 的 CoT：透明性不可或缺，但冗长错位自言自语感导致弃用",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0581fabf.md",
+      "images": [],
+      "added_date": "2026-11-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5e6e3536",
+      "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
+      "url": "https://arxiv.org/abs/2611.31228",
+      "source": {
+        "platform": "arxiv",
+        "author": "Daniel Theron",
+        "original_date": "2026-11-23"
+      },
+      "category": "agents",
+      "tags": [
+        "self-correction",
+        "confidence-calibration",
+        "agentic-reasoning",
+        "counterfactual"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "verbalized confidence 提示法依赖两个前提：原位监测（出错时置信度掉吗）与下游转向（不确定 token 会触发修复吗）四个开源模型15,200 次数学尝试27,568 个反事实续写，监测与控制解耦：口头置信度分辨不出错误步（AUROC 仅 0.500-0.561），首个错误处轨迹置信度仍饱和在 95-99%，明显下降的不到 9%；但在错误步注入低置信标签显著提高修复率（+3.7 到 +22.5 个点，配合 rethinking 指令最高 38.5%），往正确步注入怀疑则丢弃有效推理（最多 -22.8 点）推理时自我纠错的瓶颈在原位错误检测，不在修复能力",
+      "summary_en": "Tests two capabilities behind verbalized-confidence prompting: in-situ monitoring (does confidence drop at an error?) and steering control (does an uncertainty token trigger repair?). Across four open-weight models, 15,200 math attempts, 2,017 isolated errors and 27,568 counterfactual continuations, monitoring and control decouple. Verbalized confidence fails to detect errors (within-position AUROCs 0.500-0.561); confidence stays saturated at 95.1-99.9% even at the first reasoning error, with noticeable drops on under 9% of errors. Yet injecting a low-confidence tag at the error step increases correction (+3.7 to +22.5 points, up to 38.5% with rethinking instructions), while doubt injected onto correct steps makes models discard valid reasoning (up to -22.8 points). Self-correction is bottlenecked by in-situ error detection, not repair capacity.",
+      "one_liner": "口头置信度监测与控制解耦：错误步注入低置信标签 +3.7~+22.5 点，注入到正确步反丢推理 -22.8 点",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5e6e3536.md",
+      "images": [],
+      "added_date": "2026-11-25",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-25",
-  "total_entries": 3500
+  "total_entries": 3508
 }
