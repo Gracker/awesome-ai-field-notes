@@ -108285,8 +108285,349 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "3aa248a7",
+      "title": "Delegent: A Multi-Agent Harness That Reduces Cost without Sacrificing Performance",
+      "url": "https://arxiv.org/abs/2611.33098",
+      "source": {
+        "platform": "arxiv",
+        "author": "Lingwei Gu, Jimmy Lin",
+        "original_date": "2026-11-24"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-harness",
+        "claude-code",
+        "slm",
+        "cost-optimization"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "滑铁卢大学 castorini 组在 Claude Code 之上构建 Delegent，验证一个省钱思路：前沿模型始终主导执行，只把查代码跑测试语料检索等简单子任务委派给本地小模型子代理，不做级联或路由器式整任务分流，也不训练任何模型，两侧都可自由替换实验显示搭配本地 27B FP8 小模型，长程编码的前沿模型成本降 67%，代理式检索降 59%，任务表现无损；2B 小模型也能省 66%节省幅度随前沿模型原本要亲自跑腿的工作量增长，而一条把主编码留给前沿模型的简短指令贡献了大部分节省，还避免 2B 模型丢任务",
+      "summary_en": "Delegent is a multi-agent harness built on Claude Code testing a simple thesis: frontier agents waste cost re-reading full context and executing trivial subtasks. Unlike cascades or model routers that pick which model owns a whole task, the frontier model always leads execution and hands focused subtasks - code investigation, running tests, corpus search - to small local SLM subagents; nothing is trained, so either side swaps freely. With a locally hosted 27B FP8 SLM it cuts frontier-model cost 67% on long-horizon coding and 59% on agentic search with no loss in task performance; a 2B laptop-sized SLM still cuts coding cost 66%. Savings grow with the legwork the frontier model would otherwise do itself, and a short instruction keeping main coding with the frontier model accounts for most of the saving and keeps the 2B SLM from dropping tasks.",
+      "one_liner": "Claude Code harness lets the frontier model delegate easy subtasks to local SLMs, cutting long-horizon coding cost 67%",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/3aa248a7.md",
+      "images": [],
+      "added_date": "2026-11-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2fb481c9",
+      "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+      "url": "https://arxiv.org/abs/2611.33093",
+      "source": {
+        "platform": "arxiv",
+        "author": "Guangyuan Wang, Chengran Li, et al.",
+        "original_date": "2026-11-24"
+      },
+      "category": "agents",
+      "tags": [
+        "benchmark",
+        "coding-agents",
+        "rtl",
+        "hardware"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "AIChipBench 让编码智能体用可综合 RTL 实现量化版 Qwen3.5Gemma 3/4 与 Llama 3.2 解码器，对照逐步固定输出与存储状态的整数参考实现，预算内对公开测试调试，再接受留出序列复位访存停顿与综合检查四个智能体共 9136 次尝试表明难点在存储状态：错误的状态更新可以让输出测试通过，却在数步后污染结果把首个状态失配位置反馈给智能体后，全部 12 个智能体-任务组合的接受率比仅输出反馈提高 25.0-46.9 个百分点，每个被接受设计的智能体工时减半；但 69 个已接受设计在新序列重评时 45 个失败，说明硬件智能体基准必须使用远超开发用例的最终测试",
+      "summary_en": "AIChipBench asks what LLM coding agents need to implement AI-accelerator hardware correctly. Agents write synthesizable RTL for quantized Qwen3.5, Gemma 3/4, and Llama 3.2 decoder blocks against an executable integer reference pinning outputs and stored state at every decoding step, debug against public tests under fixed budgets, then face held-out sequences, resets, memory stalls, synthesis checks, and a near-fixed-area speedup track. Across 9,136 attempts by four coding agents the core difficulty is stored state: a wrong state update can pass output tests yet corrupt tokens several steps later. Feedback pointing to the first state mismatch lifts acceptance 25.0-46.9 percentage points over output-only feedback in all 12 agent-task cells; 45 of 69 accepted designs fail when regraded on new sequences: hardware-agent benchmarks need final tests well beyond the development cases.",
+      "one_liner": "Benchmark of coding agents writing RTL for real decoder chips: stored state, not output tests, is where designs break",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/2fb481c9.md",
+      "images": [],
+      "added_date": "2026-11-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7805514c",
+      "title": "Draft Calibration for Speculative Decoding: Accelerating LLM Serving by Matching Draft and Target Distributions",
+      "url": "https://arxiv.org/abs/2611.33111",
+      "source": {
+        "platform": "arxiv",
+        "author": "Yuxing Liu, Wei Zuo, et al.",
+        "original_date": "2026-11-24"
+      },
+      "category": "infra",
+      "tags": [
+        "inference",
+        "speculative-decoding",
+        "serving"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "投机解码的加速取决于目标分布与草稿分布的距离作者观察到开源草稿模型普遍学对了 top 候选，但相对目标模型系统性欠自信，存在一致的分布失配对草稿分布做事后校准的实验表明，仅施加标准温度缩放即可在各任务上将接受长度提升约 10%，几乎零额外成本，吞吐分析证实服务效率收益；逐 token 校准等更一般的方法仍有提升空间结论是近乎免费的服务优化：重新校准草稿模型，而不是重新训练它",
+      "summary_en": "Speculative decoding speedup is governed by the gap between target and draft distributions, and the authors observe that open-source draft models generally learn the top candidate correctly but stay underconfident relative to the target model, a consistent distribution mismatch. Studying post-hoc draft calibration, they find standard temperature scaling applied to the draft distribution raises acceptance length by up to about 10% across tasks at almost no additional cost, with throughput analysis confirming the serving-efficiency gain; token-wise calibration and more general methods show further headroom. The takeaway is a nearly free serving win: recalibrate the draft model rather than retrain it.",
+      "one_liner": "Temperature-scale the draft model to close the target-distribution gap and spec-decoding acceptance length rises ~10% for free",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7805514c.md",
+      "images": [],
+      "added_date": "2026-11-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "dde555db",
+      "title": "A Bias in Disguise: Tiny Gradient Edits Stop a Small Language Model's Thinking Loops and Complement a Frontier Model's Weight Edit",
+      "url": "https://arxiv.org/abs/2611.33133",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hussamuddin Syed",
+        "original_date": "2026-11-24"
+      },
+      "category": "models",
+      "tags": [
+        "weight-edit",
+        "reasoning",
+        "qwen",
+        "math"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "Qwen3.5-0.8B 在思考模式下极少闭合 think 块：4k token 预算内 MATH-500 仅 1-2 题完成，准确率 15.4%本文为 GPT-6 Astra 无梯度改 13.1 万权重的演示补上梯度基线，并将两种编辑组合：只微调梯度最大的 140-139750 个权重（50 条样本即可，单卡数分钟），4k 预算思考模式成绩提到 39.0-45.5%梯度集中在前三层最近平常的通道；模型无偏置项，编辑等效于向残差流加三个固定向量Astra 编辑复现 52.1%；梯度编辑在 16k 以内各预算更优；两者半强度叠加达 62.2%，比单用 Astra 高 10 分",
+      "summary_en": "Qwen3.5-0.8B rarely closes its think block in thinking mode: within a 4,096-token budget only 1-2 of 500 MATH-500 answers finish, at 15.4% accuracy. It supplies the missing gradient baseline to the widely discussed demo where GPT-6 Astra edited 131,072 weights without gradients, then combines both edits. Fine-tuning only the 140-139,750 largest-gradient weights on the model's own correct answers lifts 4k thinking-mode MATH-500 to 39.0-45.5% after minutes on one GPU; 50 examples suffice while 1,398 random positions give only 16.3%. The gradient concentrates on the most nearly constant channel of the first three layers, so with no bias terms the edit acts as three fixed vectors added to the residual stream. The Astra edit reproduces at 52.1%; stacked at half strength with the gradient edits they reach 62.2% at 32k tokens, 10 points above the Astra edit alone.",
+      "one_liner": "Top-gradient weight edits fix Qwen3.5-0.8B thinking loops and stack with a frontier model's weight edit to 62.2% MATH-500",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/dde555db.md",
+      "images": [],
+      "added_date": "2026-11-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2b05320a",
+      "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
+      "url": "https://arxiv.org/abs/2611.33148",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dawid J. Kopiczko, Tijmen Blankevoort, Yuki M. Asano",
+        "original_date": "2026-11-24"
+      },
+      "category": "models",
+      "tags": [
+        "distillation",
+        "agents",
+        "appworld",
+        "closed-teacher"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "闭源教师的思维链藏在 API 后，本文证明仅用其动作轨迹即可蒸馏长程策略：学生在推理块留空的轨迹上训练，用回放缓冲 KL 约束限制漂移出人意料，空推理块学到的策略能迁移到开启思考的推理阶段：学生按自己的风格思考按教师的方式行动，即跨格式迁移蒸馏 Qwen3.6-27B 动作让 Qwen3-4B 在 AppWorld 从 7% 升到 18%Qwen3-32B 从 12% 到 25%；加 CoT-proxy（教师推理摘要）后达 35%；用 GPT-5.6 Luna 的可见输出与 API 推理摘要蒸馏则达 AppWorld 48%SWE-bench Verified 28%",
+      "summary_en": "The strongest reasoning teachers are closed models whose chain-of-thought stays behind an API, but this paper shows the hidden CoT can be dropped entirely: long-horizon policies distill from teacher actions alone. Students train on trajectories with the reasoning block left empty, plus a KL loss on a replay buffer of their own generations to limit drift. Surprisingly, the policy learned with empty reasoning transfers to inference with thinking enabled, where the student reasons in its own style while acting like the teacher, called cross-format transfer. Distilling Qwen3.6-27B actions lifts Qwen3-4B on AppWorld from 7% to 18% and Qwen3-32B from 12% to 25%; adding CoT-proxies, short summaries of teacher reasoning, raises Qwen3-4B to 35%. Distilling GPT-5.6 Luna from visible outputs and API reasoning summaries reaches 48% on AppWorld and 28% on SWE-bench Verified.",
+      "one_liner": "Distill long-horizon agent policy from teacher actions alone - no hidden CoT needed; Qwen3-4B hits 48% AppWorld",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/2b05320a.md",
+      "images": [],
+      "added_date": "2026-11-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "990a1137",
+      "title": "Auditing the Judge: Human-Derived Bias Discovery, Quantification, and Mitigation in LLM Judges",
+      "url": "https://arxiv.org/abs/2611.33065",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hamin Koo, Jaehyung Kim, et al.",
+        "original_date": "2026-11-24"
+      },
+      "category": "infra",
+      "tags": [
+        "llm-judge",
+        "bias",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "LLM 评审正大量进入评测与训练管线，但已有偏见研究依赖预先整理的偏见清单忽视偏见强度，矫正手段也昂贵HUB-J 用人类偏好反推偏见因素：从人类与模型评判不一致的案例中自动挖掘可解释的偏见因子，再借助一致案例和受控输入改动，通过模型判决的翻转幅度量化每个因子的强度；缓解环节免训练，用回归估计各因子对判决的影响并扣除其效应实验显示 HUB-J 既找回已知偏见也发现新因子，揭示不同模型易感性的差异，并一致地减少偏见驱动的判决翻转，可跨模型泛化",
+      "summary_en": "LLM-as-a-Judge systems increasingly sit inside evaluation and training pipelines, but prior bias work leans on pre-discovered bias lists, ignores bias strength, and needs costly interventions. HUB-J is an integrated framework built on human-derived bias factors: it mines human-LLM judgement disagreement cases to automatically discover interpretable bias factors, then uses agreement cases with controlled input modifications to quantify each factor's strength through resulting shifts in model decisions. Mitigation is lightweight and training-free: a regression estimates each factor's influence on judgments and corrects bias-influenced decisions by removing its estimated effect. Empirically HUB-J uncovers both known and novel bias factors, reveals meaningful differences in model susceptibility, and consistently reduces bias-driven decision flips while generalizing across models.",
+      "one_liner": "HUB-J mines human-LLM judge disagreements to discover, quantify, and correct judge biases with training-free regression",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/990a1137.md",
+      "images": [],
+      "added_date": "2026-11-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "cf1b67ac",
+      "title": "MetaFORGE: A Meta-Learning Framework for Harness Optimization in Automated Code Generation for Parallel Computing",
+      "url": "https://arxiv.org/abs/2611.33119",
+      "source": {
+        "platform": "arxiv",
+        "author": "Scott Piersall, Liqiang Wang, et al.",
+        "original_date": "2026-11-24"
+      },
+      "category": "coding",
+      "tags": [
+        "meta-learning",
+        "code-generation",
+        "mpi",
+        "skill-optimization"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "MetaFORGE 面向 MPI C 并行代码生成，把提示工程做成执行驱动的元学习：正确性测试编译诊断静态分析运行时与进程级负载不均衡数据折叠成标量奖励，驱动对持久化自然语言技能规格的文本梯度精炼；外部记忆跨轮次沉淀并检索被奖励验证过的优化知识六个 MPI 任务三种负载规模上，其静态分析质量运行时与负载均衡均优于零样本生成，总体超过 TextGrad 迭代基线；精炼模型降到 gpt-4o 优势仍在防泄漏的留出与零更新实验支持优化知识确实留存在技能与外部记忆中",
+      "summary_en": "LLM-generated parallel programs live or die on the instructions guiding generation. MetaFORGE iteratively optimizes persistent natural-language skill specifications for MPI C code generation with execution-grounded meta-learning: correctness tests, compiler diagnostics, static analysis, runtime and rank-level load-imbalance data fold into a scalar reward driving textual-gradient refinement; an external memory distills and retrieves reward-supported optimization knowledge across runs. Across six MPI tasks and three workload sizes it improves static-analysis quality, runtime, and load balance over zero-shot generation, generally exceeding the TextGrad baseline; the advantage persists with the refinement model reduced to gpt-4o. Leakage-controlled held-out and zero-update experiments support that optimization knowledge persists in both the transferred skill and the external memory.",
+      "one_liner": "Execution-grounded meta-learning evolves persistent skill specs for MPI C codegen, beating TextGrad with external memory",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/cf1b67ac.md",
+      "images": [],
+      "added_date": "2026-11-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0452d68d",
+      "title": "Latency doesn't lie: Jev is (probably) Qwen3.5-35B-A3B",
+      "url": "https://modaic.dev/blog/latency-doesnt-lie",
+      "source": {
+        "platform": "blog",
+        "author": "Tyrin-Ian Todd, Farouk Adeleke",
+        "original_date": "2026-11-24"
+      },
+      "category": "models",
+      "tags": [
+        "model-fingerprinting",
+        "qwen",
+        "moe",
+        "system-one"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "TypeSafe 的 System One 判决模型 Jev 不公开底座：官方训练模型隐藏身份，接口隐藏真实 token 数Modaic 用性能与行为指纹反推：输入增大时 p99 延迟紧贴中位数，稀疏 MoE 特征明显；Decision Index 66 分更像强开源底座微调匹配串行压测中 Jev 吞吐与自托管 Qwen3.5-35B-A3B 最接近，差距随输入从 22% 缩到 7%；稠密 27B 方案远落后Vals AI 的中国议题对齐与 22 组自我身份提问也都指向 Qwen结论：Qwen3.5-35B-A3B 是最可能底座，但仅凭吞吐无法与同架构的 Qwen3.6-35B-A3B 区分",
+      "summary_en": "TypeSafe's System One model Jev trains to conceal its identity and its endpoint hides true input token counts; Modaic fingerprints the backbone via behavior and performance instead. Jev's p99 latency hugs its median (47-58 ms band) as median latency grows from 77 to 155 ms with input length - a sparse-MoE signature - and a Decision Index score of 66 at that latency and price suggests a strong existing base. Matched serial benchmarks show throughput tracking self-hosted Qwen3.5-35B-A3B most closely, the gap narrowing from 22% at 3.2K to 7% at 8.8K input tokens; a dense 27B alternative plateaus far below. Vals AI found Qwen-like alignment on China/Taiwan questions and 22 self-identification variants lean Qwen. Verdict: Qwen3.5-35B-A3B is the most plausible backbone, though throughput alone cannot separate it from same-architecture Qwen3.6-35B-A3B.",
+      "one_liner": "Modaic fingerprints TypeSafe's Jev as a Qwen3.5-35B-A3B fine-tune via latency, throughput, and behavioral probes",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0452d68d.md",
+      "images": [],
+      "added_date": "2026-11-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "17cce572",
+      "title": "Agentic Algorithm Engineering (AAE): optimize code with falsifiable hypotheses",
+      "url": "https://chszlab.github.io/AgenticAlgorithmEngineering",
+      "source": {
+        "platform": "blog",
+        "author": "Algorithm Engineering Group, Heidelberg University",
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "agent-skill",
+        "performance-engineering",
+        "claude-code",
+        "correctness"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "海德堡大学算法工程组把设计-分析-实现-实验循环交给自主代理：AAE 是 Claude Code/Codex 技能，约定基准指标断言与预算后自动运行，每个实验先给可证伪假设与预测效应量，改动以最小提交落地，只在变快且仍正确时保留开源代码上的结果：VieCut 提速 8.9 倍且割不变，KaHIP kaffpa 3.9 倍且分割质量不降，伪流最大流 3.0 倍，FREIGHT 1.82 倍输出逐位一致，ParHIP 1.61 倍分区字节级一致；每个改动附编号补丁与逐假设 PDF 报告，配套论文 arXiv 2609.07204对智能体工程更有参考价值的是基准指标断言预算前置约定的可复用契约",
+      "summary_en": "Agentic Algorithm Engineering (AAE), a Claude Code and Codex skill from Heidelberg's Algorithm Engineering Group, hands the design-analyze-implement-experiment cycle to an autonomous agent: every experiment starts from a falsifiable hypothesis with predicted effect size, correctness assertions are agreed during setup, changes land as minimal commits, and only changes that get faster while staying correct are kept. On established open-source codes: VieCut 8.9x faster with cuts unchanged, KaHIP kaffpa 3.9x faster with partition quality preserved, pseudoflow max-flow 3.0x, FREIGHT 1.82x with bit-identical output, ParHIP 1.61x byte-identical. Each accepted change ships as a numbered patch plus a per-hypothesis PDF report (paper: arXiv 2609.07204). For agent builders the interesting part is the reusable contract: benchmark, metric, assertions, budget fixed upfront, then the agent runs alone.",
+      "one_liner": "Heidelberg's AAE skill makes Claude Code optimize C like an algorithm engineer: falsifiable hypothesis, one patch per win",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/17cce572.md",
+      "images": [],
+      "added_date": "2026-11-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8ee50572",
+      "title": "Porting Rockbox to an undocumented $9 AliExpress YP3 MP3 player with LLMs",
+      "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+      "source": {
+        "platform": "blog",
+        "author": "Jayden Milne",
+        "original_date": "2026-11-14"
+      },
+      "category": "coding",
+      "tags": [
+        "reverse-engineering",
+        "embedded",
+        "rockbox",
+        "agent"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Jayden Milne 买了一台 9 美元的无牌 YP3 MP3 播放器（512KiBSoC 无文档），在包月 token 计划下让前沿编码代理为它移植 Rockbox，仅借助 ilyakurdyukov 的 flash 读写工具进入 ROM 下载模式结果代理几乎独立完成移植；他随后让代理把有效经验沉淀成可复用的 auto-rockbox 工具集，再用它把第二台相似设备（TS47，4MiB PSRAM）在约 4 小时内跑稳这是代理驱动逆向工程的完整案例：持久产出不是单次移植，而是移植方法论本身",
+      "summary_en": "Jayden Milne bought a 9-dollar AliExpress YP3 MP3 player (512 KiB, undocumented SoC) and aimed a frontier coding agent, on a subsidized token plan, at porting Rockbox to it, building on ilyakurdyukov's flash dump/write utility for ROM download mode. The agent landed the port with the author barely involved; he then had it distill what worked into a reusable toolkit (auto-rockbox) with skills for future ports, and with that toolkit the agent got Rockbox booting and stable on a second similar player (TS47, 4 MiB PSRAM) in about 4 hours. A worked example of agent-driven reverse engineering where the durable artifact is not one port but the porting playbook.",
+      "one_liner": "Agent ported Rockbox to an undocumented 512KiB MP3 player, then reused its toolkit to port a second device in 4 hours",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/8ee50572.md",
+      "images": [],
+      "added_date": "2026-11-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "bb5e4139",
+      "title": "HOLY SHIT HOLY SHIT HOLY SHIT HOLY SHIT",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "source": {
+        "platform": "blog",
+        "author": "Scott Aaronson",
+        "original_date": "2026-11-25"
+      },
+      "category": "industry",
+      "tags": [
+        "openai",
+        "anthropic",
+        "mathematics",
+        "ai-progress"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Scott Aaronson 试图补上对当下局势的描述：OpenAI 与 Anthropic 先后给出 VP!=VNP 证明，Alpoge/Anthropic 黎曼假设证明之后，OpenAI 又发预印本声称矩阵乘法指数 omega 恰为 9/4：下界与其 10 月 6 日证明的上界吻合，Strassen 时代以来的核心问题就此有了有理数答案他认为更大的震撼不是数值，而是 AI 能证明任何 omega>2 型下界，这在他预期里不见得比 P!=NP 容易多少；多年来同事对 omega=2 的自信并无论证另一份 OpenAI 预印本证明有限傅里叶变换的对数指数，整波结果仍在消化中",
+      "summary_en": "Scott Aaronson tries to convey the magnitude of the late-November 2026 mathematics drop. OpenAI and Anthropic posted proofs of VP!=VNP, hot on the heels of the Alpoge/Anthropic Riemann Hypothesis proof, and a new OpenAI preprint claims the matrix-multiplication exponent omega is exactly 9/4: a lower bound matching the upper bound OpenAI proved in the October 6 Mathocalypse release, so the central Strassen-era question finally has a rational answer. Aaronson stresses the deeper shock is not the value but that AI proved any lower bound of the form omega>2 at all, something he never expected to be much easier than P!=NP, after decades of colleagues' unargued confidence in omega=2. A further OpenAI release proves the logarithmic exponent of finite Fourier transforms; he frames the wave as still sinking in.",
+      "one_liner": "Aaronson on the math drop: OpenAI claims omega=9/4 exactly, plus VP!=VNP proofs from OpenAI and Anthropic",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/bb5e4139.md",
+      "images": [],
+      "added_date": "2026-11-26",
+      "updated_date": null,
+      "github_stars": null,
+      "related": [
+        "a37b564b"
+      ]
     }
   ],
-  "last_updated": "2026-11-25",
-  "total_entries": 3515
+  "last_updated": "2026-11-26",
+  "total_entries": 3526
 }
