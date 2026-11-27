@@ -4,35 +4,35 @@
 
 ## 最新精选 Top 10
 
+- [Omnigent: an open-source meta-harness that orchestrates Claude Code, Codex, Cursor and 15+ other...](https://github.com/omnigent-ai/omnigent) ⭐4 · 2026-11-27 — 多 harness 编排层把换工具不重写做成公共底座：15+ harness统一策略与沙箱会话跨设备同步，alpha 期先小规模验证
+- [Who gets to decide if something is written by AI?](https://seangoedecke.com/who-gets-to-decide-if-something-is-written-by-ai) ⭐4 · 2026-11-27 — AI 检测器之争的正确切面是权力：检测准不准与该不该由它来判是两件事，后者需要规则与申诉路径
 - [Google Will Make AI Agents Use Its Workspace MCP Servers. The Gmail One Can't Send Email](https://techstackups.com/articles/google-workspace-ai-agents-mcp) ⭐5 · 2026-11-26 — Google mandates Workspace MCP for AI agents from 2027-02-01; Gmail MCP still can't send
+- [Qwen-Audio-3.1: ASR with 30 languages / 16 Chinese dialects, plus Realtime spoken reasoning and...](https://qwenaudio.github.io/) ⭐4 · 2026-11-26 — Qwen 语音栈 3.1 把方言 ASR 与口语推理 agent 拉到同一页面：30 语言 16 方言加实时工具调用，选型可直接听 demo 对比
+- [OpenAI may be in cost control mode](https://micjm.com/blog/openai-is-in-cost-control-mode) ⭐4 · 2026-11-26 — Arena data: GPT-6.2 Astra/Sol tuned for cost; reasoning tokens down, p<=0.0064
+- [Have You Tried Using Your Agent?](https://blog.jim-nielsen.com/2026/have-you-tried-your-agent) ⭐4 · 2026-11-26 — 给机器用的路径不能替代给人用的路径：agent 路径更便宜也更少投诉，正在一点点吃掉人的那条路
 - [Don't Ask Again writes plaintext keys into Claude Code settings.local.json](https://news.ycombinator.com/item?id=50407882) ⭐4 · 2026-11-26 — Claude Code's Don't Ask Again stores whole commands with plaintext keys in settings.local.json; ~1122 public copies have keys
 - [Agentic Algorithm Engineering (AAE): optimize code with falsifiable hypotheses](https://chszlab.github.io/AgenticAlgorithmEngineering) ⭐4 · 2026-11-26 — Heidelberg's AAE skill makes Claude Code optimize C like an algorithm engineer: falsifiable hypothesis, one patch per win
-- [OpenAI may be in cost control mode](https://micjm.com/blog/openai-is-in-cost-control-mode) ⭐4 · 2026-11-26 — Arena data: GPT-6.2 Astra/Sol tuned for cost; reasoning tokens down, p<=0.0064
 - [AMD-specific fork of llama.cpp, and the vibe-coded inference engine wave](https://devnull.land/amd-specific-llama-cpp) ⭐4 · 2026-11-26 — Bespoke vibe-coded inference engine wave; AMD llama.cpp patchset lifts 35 to 55 tok/s
 - [GPT-6.2 usage accounting corrected: Astra 40% / Sol 25% faster quota exhaustion](https://x.com/thsottiaux/status/2125784147889393806) ⭐3 · 2026-11-26 — OpenAI corrects GPT-6.2 usage accounting: quotas exhaust 40% (Astra) / 25% (Sol) sooner; banked reset compensation issued
-- [AI made self-hosting fun again](https://janlukas.blog/posts/ai-self-hosting) ⭐3 · 2026-11-26 — AI agents working on Git-managed infra made self-hosting experimentation fun again
-- [Migrating our Messages API to Rust](https://www.anthropic.com/research/migrating-api-to-rust) ⭐5 · 2026-11-25 — Anthropic's Rust migration needed production as oracle: 98% test-green matched only ~25% of production traffic
-- [How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Unneeded Edits in Repository...](https://arxiv.org/abs/2611.34875) ⭐5 · 2026-11-25 — Coding agents' extra edits are mostly tests/docs; code necessity rivals human patches
-- [Attack Policy Selection can Mislead Monitor Evaluators](https://arxiv.org/abs/2611.34934) ⭐5 · 2026-11-25 — Monitor evals mislead: false-negative rates swing 0.5%-23% with attack-policy choice
 
 ## 频道导航
 
 | 频道 | 展示条目 | 说明 |
 |---|---:|---|
-| 模型与实验室 | 595 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
-| Agent 与自动化 | 784 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
-| AI 编程 | 435 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
+| 模型与实验室 | 600 | GPT、Claude、Gemini、开源模型、模型能力边界。 |
+| Agent 与自动化 | 788 | Agent 框架、MCP、A2A、工具调用、长期任务。 |
+| AI 编程 | 439 | IDE、CLI、代码审查、工程工作流、开发者效率。 |
 | 基础设施 | 252 | 推理、RAG、微调、评测、多模态、芯片和端侧部署。 |
-| 产品与商业 | 307 | AI 产品、大厂战略、融资、监管、市场结构。 |
+| 产品与商业 | 313 | AI 产品、大厂战略、融资、监管、市场结构。 |
 | 研究与学习 | 155 | 论文、课程、提示工程、长文、方法论。 |
 | 工具与项目 | 244 | 可直接尝试的工具、开源项目、产品更新和资源库。 |
 
 ## 当前数据
 
-- 原始条目: 3548
-- 公开展示卡片: 2772
-- 有全文内容: 2638
-- 最近 7 天信号: 179
+- 原始条目: 3567
+- 公开展示卡片: 2791
+- 有全文内容: 2667
+- 最近 7 天信号: 181
 - 输出目录: `dist/`
 
 ## 热门标签

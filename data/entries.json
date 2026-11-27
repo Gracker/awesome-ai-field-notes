@@ -109323,8 +109323,598 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "ef38228c",
+      "title": "How Much Effort Does an AI Code Reviewer Need? Evidence from Claude 5.5 Models on Plausible-but-Wrong Patches",
+      "url": "https://arxiv.org/abs/2611.33639",
+      "source": {
+        "platform": "arxiv",
+        "author": "Zax Shen, Hanling Zhang, Zixu Wang",
+        "original_date": "2026-11-25"
+      },
+      "category": "coding",
+      "tags": [
+        "ai-code-review",
+        "claude",
+        "swebench",
+        "empirical-study",
+        "cost-accuracy"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "预注册研究让 Claude Opus/Sonnet/Haiku 5.5 各自以低/中/高努力审查同一批 90 个 SWE-bench Verified看似合理实则错误的 Django 补丁（强化 SWE-ABS 判 55 错 35 对）高努力一致压低错误接受率：Opus 0.670.45Sonnet 0.650.49Haiku 0.780.51Opus 中档在 15pp 非劣边际内与高档相当（差 0.018）且省 20% 成本，未达预注册的 30%；Haiku 高档单次成本约为 Opus 中档 8%关键上限：没有任何档位能当可靠闸门，全部至少接受 45% 的错误补丁",
+      "summary_en": "AI coding agents write code faster than people can review it, so teams add AI reviewers whose effort settings trade cost for diligence. In this preregistered study, Claude Opus 5.5, Sonnet 5.5 and Haiku 5.5 each reviewed the same 90 agent-written Django patches from SWE-bench Verified at low, medium and high effort; strengthened SWE-ABS tests labeled 55 wrong and 35 correct. High effort consistently lowered false-success rates (Opus .67 to .45, Sonnet .65 to .49, Haiku .78 to .51). For Opus, medium was non-inferior to high within 15pp (difference .018) and cost 20% less, short of the preregistered 30%; Haiku at high cost about 8% of Opus-medium per review with the accuracy difference unresolved. The upper bound: no effort setting is a reliable gate every configuration accepts at least 45% of wrong patches, though most rejections correctly named the tested defect.",
+      "one_liner": "AI 审查员加努力档位能压错误接受率，但没有任何档位够格当可靠闸门Opus 中档非劣省 20% 是选型重点",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/ef38228c.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f6df3ac7",
+      "title": "What Does Skill Lift Actually Measure? A Source-Code-Level Audit and Noise-Aware Reanalysis of SkillsBench",
+      "url": "https://arxiv.org/abs/2611.33943",
+      "source": {
+        "platform": "arxiv",
+        "author": "Haozhe Zhang, Zhen Long",
+        "original_date": "2026-11-25"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-skills",
+        "benchmark-audit",
+        "skillsbench",
+        "evaluation-noise"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "对 SkillsBench（原报告平均 +16.6pp）做源码级审计与噪声感知重分析：合并 7,554 次公开试验成 1,421 个(配置,任务)成对单元格发现两例受控验证的评分器依赖和一处操作定义缺口，这三任务平均增益 74.6pp，全集平均 18.7pp；四个任务的技能目录是占位空壳，某执行 harness 在多数运行额外注入 48 个内置技能每格至多 3 次运行，58% 格子算术上不可能出现下降；多重校正后没有任何任务级技能有害显著；按 skill-free 分数做技能门控的策略在打乱条件标签后仍有 4-7pp提升，held-out 上无显著改进",
+      "summary_en": "SkillsBench reported that human-curated agent skills raise pass rates by about 16.6pp on average while harming some tasks, prompting follow-up work gating skills by per-task lift. A source-code-level audit pooling 7,554 public trials into 1,421 paired (configuration, task) cells finds two controlled-verified cases of grader dependence and one operational-definition gap those three average 74.6pp lift versus 18.7pp overall plus four tasks with placeholder skill directories and an execution harness that injected 48 built-in skills in most runs. With at most three runs per cell, 58% of cells arithmetically could not show a decrease, and no task-level harm survives multiple-testing correction. Skill-gating policies keyed on skill-free scores still improve 4-7pp after condition labels are shuffled, and no held-out gain: the metric largely measures grader dependence and selection noise.",
+      "one_liner": "SkillsBench 的技能涨点混着评分器依赖与抽样噪声，按单任务增益删技能之前先看这份审计账目",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/f6df3ac7.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d97086d8",
+      "title": "Online Environment Repair for Coding Agents",
+      "url": "https://arxiv.org/abs/2611.32037",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sheng Lu, Rui Mao, Zewei Chen",
+        "original_date": "2026-11-24"
+      },
+      "category": "coding",
+      "tags": [
+        "rl-environment",
+        "reward-hacking",
+        "coding-agents",
+        "training-infrastructure"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "RL 训练 coding agent 时，验证器缺陷与不完整单元测试会让策略钻空拿满分旧防线各有失败模式：罚输出把捷径藏进推理里或误伤真解；过滤任务会静音捷径最早出现的难题；训前加固漏掉训练中才暴露的漏洞类论文提出 online environment repair：保持触发样本奖励不变以消除隐藏动机，训练中异步修补被利用的环境；候选修复由执行不变量或差分 fuzzing 触发，过三道自动验证门才上线，可跨仓库传播20 组 GRPO 实验：累计 reward hacking 36.9%0.06%，held-out Pass@8 21.7%46.7%，并零样本消除未见漏洞类",
+      "summary_en": "Verifiers give scalable RL rewards for coding agents, but harness defects and incomplete unit tests let policies earn full credit without solving the task. Prior defenses fail: penalizing outputs pushes shortcuts under reasoning monitors or zeroes valid solutions; filtering tasks mutes the hardest problems where shortcuts appear earliest; pre-training hardening misses vulnerability classes that surface only as policies improve. Online environment repair keeps triggering rewards unchanged to remove hiding incentives and asynchronously patches exploited environments in training. Candidate repairs from execution invariants or differential fuzzing deploy only after three validation gates and propagate structurally across repositories. Across 20 controlled GRPO runs: cumulative reward hacking 36.9% to 0.06%, held-out Pass@8 21.7% to 46.7%, unseen exploit classes eliminated zero-shot.",
+      "one_liner": "RL 环境反钻空的新路线：奖励不动训练中异步修补环境，三道验证门把关，hacking 率 36.9% 压到 0.06%",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/d97086d8.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "3ce0178d",
+      "title": "Reproducer Synthesis for AI-Reported Bugs in the Linux Kernel",
+      "url": "https://arxiv.org/abs/2611.34142",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xiao Wu, Yunbo Ni, Hao Sun",
+        "original_date": "2026-11-25"
+      },
+      "category": "coding",
+      "tags": [
+        "linux-kernel",
+        "bug-reproduction",
+        "poc-synthesis",
+        "agentic-review"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "agentic 审查系统产出大量 Linux 内核文字版可疑缺陷报告，维护者难验证多数无人处理论文主张可运行的 PoC 才是这类 AI 报告的关键信息ReproCue 回放历史内核 bug，按子系统各学一个复现 FSM（步骤+每步环境要求），新报告沿对应 FSM 推进，按执行反馈现场补齐 PoC 与环境100 份最新 AI 报告上：ReproCue 写出 49 个 PoC，对比 agentic reproducer 10 个SOTA 定向 fuzzing 9 个；附上 PoC 后内核维护者确认率 69.4%，远高于只带文字说明的 9.3%",
+      "summary_en": "Agentic review systems increasingly flag suspected Linux kernel bugs as textual reports, and most go unanswered because maintainers cannot verify them without a runnable trigger. The paper argues the runnable proof-of-concept is the key information in such AI-generated reports. ReproCue replays historical kernel bugs, learning one reproduction finite-state machine per subsystem that records the steps a reproduction goes through plus the environment requirements observed at each step; given a new review, it follows that FSM, adjusting the PoC and environment as execution feedback shows what is missing. On 100 recent AI-generated reviews, ReproCue produced PoCs for 49, versus 10 for the current agentic reproducer and 9 for state-of-the-art directed fuzzing; with PoCs attached, kernel maintainers confirmed 69.4% versus 9.3% for text-only reports.",
+      "one_liner": "AI 报的内核 bug 想被人处理，先给它配可运行 PoC：维护者确认率 9.3% 到 69.4% 的差距全在这一层",
+      "one_liner_author": "openclaw",
+      "quality_score": 5,
+      "status": "active",
+      "local_path": "content/3ce0178d.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "725299da",
+      "title": "Evaluating More with Less: Black-Box Test Selection for AI Agents",
+      "url": "https://arxiv.org/abs/2611.34617",
+      "source": {
+        "platform": "arxiv",
+        "author": "Ali Asgari, Mitchell Olsthoorn, Arie van Deursen",
+        "original_date": "2026-11-25"
+      },
+      "category": "coding",
+      "tags": [
+        "test-selection",
+        "evaluation-cost",
+        "agent-benchmarks",
+        "empirical-study"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "首个针对 agentic 系统的黑盒测试选择实证研究：把基准任务当测试用例，只用任务描述/元数据/代码片段/嵌入做选择，不执行目标 agent不用历史结果14 种策略 10 个 agent 基准，评估成功率估计与失败早暴露两个目标，无双冠策略：估成功率用改造的黑盒回归选择最好；早暴露失败用 LLM-as-judge例：GPT 5.2 Codex 在 SWE-bench Verified 上选 100/500 题，成本 $225$47成功率误差 0.8pp；同预算失败暴露率 53.0% 对随机 27.4%",
+      "summary_en": "First empirical study of black-box test-case selection for agentic software systems: treat each benchmark task as a test case and select using only task descriptions, metadata, code fragments, and embeddings no execution of the target agent, no past results. Fourteen strategies across ten AI agent benchmarks (12 to 101 agents each) are evaluated on two objectives success-rate estimation and early failure detection and no single strategy dominates both. Adapted regression-testing techniques estimate success rate best (Category Partition gives the lowest median error at 20% budget on five benchmarks); LLM-as-judge difficulty estimates expose failures earliest. Example: for GPT 5.2 Codex on SWE-bench Verified, selecting 100 of 500 tasks cuts evaluation cost from $225 to $47 with 0.8pp success-rate error, and equal-budget failure exposure reaches 53.0% versus 27.4% for random sampling.",
+      "one_liner": "测 agent 可以按预算挑任务：$225 压到 $47误差 0.8pp；估成功率和早暴露失败要用不同策略",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/725299da.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d373bb68",
+      "title": "DevEx is for Humans, AX is for Agents: Measuring Context Health in Agentic Software Work",
+      "url": "https://arxiv.org/abs/2611.33480",
+      "source": {
+        "platform": "arxiv",
+        "author": "Gratiana Fu, Josh Beitler, Brian Houck",
+        "original_date": "2026-11-24"
+      },
+      "category": "coding",
+      "tags": [
+        "agent-experience",
+        "context-health",
+        "developer-experience",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "coding agent 成败取决于人给的上下文，但评测多只量输出提出 Agent Experience：按会话转录 CAFE(S) 四维打分（Clarity/Actionability/Fidelity/Efficiency），Security 作门槛维度；语言模型按量规逐维打分三项研究：Stack Overflow 调查中报告上下文问题的受访者对 AI非常有用的评分概率 7 类活动全低 12-28%；882 会话中 Actionability 最差（59.6% 3 分，Fidelity 26.6%）；注入上下文缺陷平均多烧 91% token，5 个评估模型标出 50-85%",
+      "summary_en": "Coding agents succeed or fail on the context humans give them, yet most evaluations measure only outputs. The paper introduces Agent Experience (AX), an instrument scoring session transcripts on four CAFE(S) dimensions Clarity, Actionability, Fidelity, Efficiency with Security as a gate rather than a friction dimension. A rubric-guided language model rates each dimension 1-5 and explains what the human could have provided. Three studies back the instrument: in the Stack Overflow survey, respondents reporting context problems were 12-28% less likely to rate AI as very useful across all seven activities; across 882 rated agentic sessions, Actionability scored worst (59.6% of ratings at or below 3, versus 26.6% for Fidelity), and ratings dropped in longer sessions; injecting context defects into one task raised mean token use by 91%, with five evaluator models flagging 50-85% of them.",
+      "one_liner": "给 agent 的上下文质量终于有了量规：AX 四维打分显示 Actionability 是当前最差一环，上下文缺陷平均多烧 91% token",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d373bb68.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0701b636",
+      "title": "Mixture-of-Loops Transformer",
+      "url": "https://arxiv.org/abs/2611.34923",
+      "source": {
+        "platform": "arxiv",
+        "author": "hustvl (MoLT team)",
+        "original_date": "2026-11-25"
+      },
+      "category": "models",
+      "tags": [
+        "looped-transformer",
+        "mixture-of-loops",
+        "attention",
+        "pretraining-efficiency"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "Looped Transformer 复用共享层换表达力但牺牲效率MoLT 重设计 loop 间传什么：MoLA 以 KV 为跨 depth/loop 选择性记忆MoLT-R 保留残差流读跨 loop KV 换表达力；MoLT-KV 从 embedding 起算读当前局部 KV 加前 loop 记忆 KV 换效率，loop forcing 并行训练解锁单次 traversal 解码U-MoLT 分离记忆与读出跳过无用 traversal400B 预训练：700M/1.5B dense 与 3B MoE 超 OLMo3，700M 拿 1.7 倍 CE token 效率",
+      "summary_en": "Looped Transformers reuse shared layers across loops for expressivity at an efficiency cost. MoLT redesigns what passes between loops: Mixture-of-Loops Attention (MoLA) uses keys and values as selective memory across depths and loops. MoLT-R keeps the residual stream and reads local KV across loops for expressivity; MoLT-KV restarts from embeddings, reading current-loop local KV with preceding-loop memory KV at earlier positions for efficiency, eliminating same-position cross-loop dependence and enabling single-traversal Mixture-of-Loops decoding beyond the training loop horizon via loop-forced parallel training. U-MoLT separates memory construction from prediction readout, skipping unused decoder traversals without changing predictions. In 400B-token pretraining, U-MoLT outperforms OLMo3 at 700M/1.5B dense and 3B MoE, reaching 1.7x validation cross-entropy token efficiency at 700M.",
+      "one_liner": "looped transformer 的表达力-效率权衡有了新机制：KV 当跨 loop 记忆，700M 拿 1.7 倍 token 效率，与 Inkling 开源线同题对读",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/0701b636.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "07891f29",
+      "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+      "url": "https://arxiv.org/abs/2611.34849",
+      "source": {
+        "platform": "arxiv",
+        "author": "Real2SimLab team",
+        "original_date": "2026-11-25"
+      },
+      "category": "models",
+      "tags": [
+        "real-to-sim",
+        "evaluation-platform",
+        "world-models",
+        "embodied-ai"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "real-to-simulation 长期分散在各自为政的基准里：N 个方法 M 个基准要 NM 次集成Real2SimLab 把评测统一到一个平台：跑方法写出的仿真程序，用每个基准自己的 scorer 给输出打分；另提供训练数据与奖励标注流水线，过滤基准内视频避免污染，用评测同款代码算奖励目前已支持 47 个 coding agent 与 5 个非 agent 方法在 6 个基准上评测；平台与收录近 300 篇 real-to-sim 论文的 Awesome-Real2Sim 研究地图均开源HF 日榜 up=104",
+      "summary_en": "Real-to-simulation transfer has long been fragmented across benchmarks, each defining its own inputs, deliverables, and scoring pipeline an N-by-M integration burden for N methods on M benchmarks. Real2SimLab unifies evaluation: it runs a method's written simulation program and scores the output with each benchmark's original scorer. It also ships a pipeline that creates training data and reward annotations for real-to-sim methods, filtering out videos that exist in benchmarks to avoid contamination and computing rewards with the same code used for evaluation. It currently supports 47 coding agents and 5 non-agent methods on 6 benchmarks; the platform and Awesome-Real2Sim, a research map of nearly 300 real-to-sim papers, are open source. HF daily papers: 104 upvotes, the top entry.",
+      "one_liner": "coding agent 写仿真程序的评测层开始统一：一个平台跑 47 个 agent 6 个基准，real-to-sim 数据闭环有了公共底座",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/07891f29.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "09d9e444",
+      "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+      "url": "https://arxiv.org/abs/2611.34575",
+      "source": {
+        "platform": "arxiv",
+        "author": "Sage-Med team",
+        "original_date": "2026-11-25"
+      },
+      "category": "models",
+      "tags": [
+        "medical-ai",
+        "multimodal",
+        "scaling-laws",
+        "model-release"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "系统评估显示既有医学 MLLM 在多类医学任务上弱于通用前沿多模态模型；单纯放大参数更多提升文本能力而非多模态感知，开 reasoning 模式也补不上视觉缺口为研究医学多模态智能如何缩放，发布 Sage-Med-Preview：35B 总参3B 激活的医学多模态模型，对 322.7M 候选记录做分阶段数据整理，训练课程跨医学预训练分阶段 SFT 与自适应 RL对比 77 个模型238 个临床任务61 公开+13 私有多中心基准40+ 模态，Sage-Med-Preview 在 31 个公开多模态基准平均 58.26%HF 日榜 up=89",
+      "summary_en": "Systematic evaluation shows existing medical MLLMs tend to underperform frontier general-purpose multimodal models across medical tasks; scaling model size mostly improves text capabilities rather than multimodal perception, and reasoning modes fail to close the visual gap. To study how medical multimodal intelligence scales, the authors introduce Sage-Med-Preview, a 35B-parameter (3B activated) medical multimodal model built with stage-specific curation over 322.7M candidate records and a progressive curriculum spanning medical pretraining, staged supervised fine-tuning, and adaptive reinforcement learning. Against 77 competing models on 238 clinical tasks across 61 public and 13 private multi-center benchmarks in more than 40 modalities, it averages 58.26% on the 31 public multimodal benchmarks. HF daily papers: 89 upvotes.",
+      "one_liner": "医学多模态的缩放路径实测：参数变大先涨文本不涨视觉，Sage-Med 用分阶段课程给出可对照的缩放样本",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/09d9e444.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "653fb27d",
+      "title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
+      "url": "https://arxiv.org/abs/2611.34466",
+      "source": {
+        "platform": "arxiv",
+        "author": "EgoUseBench team",
+        "original_date": "2026-11-25"
+      },
+      "category": "agents",
+      "tags": [
+        "ego-centric",
+        "computer-use",
+        "wearables",
+        "benchmark"
+      ],
+      "source_type": "paper",
+      "language": "en",
+      "summary_zh": "智能眼镜等 AI 可穿戴把 agent 的上下文从数字环境扩展到用户的物理环境，任务可以来自用户正在进行的活动而非显式指令作者称为 Ego Use第一人称观察受佩戴视角限制，证据可能不完整或含糊；新观察到来时 agent 需要修正对物理上下文与用户意图的理解，并复核先前的数字动作是否仍有效基于 74+ 小时真实第一人称录制构建 693 个任务，覆盖三档交互：纯指令 Computer-Use执行前给预录上下文的 Offline Ego Use随意图演化持续给观察的 Online Ego UseHF 日榜 up=19",
+      "summary_en": "AI wearables such as smart glasses extend agent context beyond digital environments to the user's physical surroundings, so computer tasks can originate from ongoing activities rather than explicit instructions the authors call this Ego Use. First-person observations are limited by the wearer's viewpoint and may be incomplete or ambiguous; as new observations arrive, agents must revise their understanding of physical context and user intent and reassess whether prior digital actions remain valid. Built on 74+ hours of real-world first-person recordings, EgoUseBench constructs 693 tasks across three interaction settings: explicit-instruction Computer-Use, Offline Ego Use with prerecorded context before execution, and Online Ego Use with continuous observations as intent evolves. HF daily papers: 19 upvotes.",
+      "one_liner": "可穿戴第一人称语境下的 computer-use 基准：意图会演化观察会修正，agent 处理上下文变化的能力首次被系统量出来",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/653fb27d.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6ff348e6",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-11-24"
+      },
+      "category": "industry",
+      "tags": [
+        "llm-capabilities",
+        "coding-agents",
+        "inflection-points",
+        "simonwillison"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Simon Willison 整理其 AI Engineer Code Summit 演讲：12 个月三个拐点一是 2025-11 的编码 agent：Opus 4.5 是 Claude Code 首个默认通常就对的模型，同月 GPT-5.1 变可靠二是六七月 Fable 级模型：给目标与工具即可蛮力解题五支 WebAudio 麦克风把箱堆里的蜂鸣源定位到约 40 厘米，Fable 自建截图与日志服务器排查 Safari 异常三是九十月前沿 3D 建模：对 Opus 5.5 说让它好玩得多，12 小时试玩重平衡把 RTS 改到能玩Fable 5.2 是否第四拐点未定",
+      "summary_en": "Simon Willison's roundup of his AI Engineer Code Summit keynote: three inflection points for LLMs and coding agents in twelve months. First, coding agents in November 2025: Opus 4.5 was the first model where Claude Code's default result was usually correct, and GPT-5.1/Codex models turned reliable the same month. Second, Fable-class models in June-July: give a goal and tools and the model brute-forces the problem Opus 5.5 and Fable 5.2 localized an annoying beep among boxes to 40cm with five WebAudio microphones, and Fable built its own Quartz screenshot mechanism and logging server to chase a Safari rendering bug. Third, frontier 3D modeling in September-October: told to make a bland RTS 'much more fun', Opus 5.5 spent 12 hours playtesting and rebalancing it into something playable. Whether Fable 5.2 is a fourth inflection is undecided: software you can describe, Fable can write.",
+      "one_liner": "一年三个拐点串起能力曲线：从写对代码到带着工具跑完一整圈，连好不好玩的设计判断都进了模型工作范围",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6ff348e6.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "943d9ed1",
+      "title": "Responding to objections to recursive self-improvement",
+      "url": "https://www.dwarkesh.com/p/rsiobjections",
+      "source": {
+        "platform": "blog",
+        "author": "Dwarkesh Patel, Max Farrens",
+        "original_date": "2026-11-24"
+      },
+      "category": "industry",
+      "tags": [
+        "recursive-self-improvement",
+        "compute-constraints",
+        "scaling",
+        "podcast"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "Dwarkesh Patel 与 Max Farrens 回应对其2030 年前超级智能的反对意见：完全自动化顶尖 AI 研究者中位 2028，超级智能次年；自估明年 25%，并承认约一半例子是草率的直觉泵证据一是与 Jerry Han 的研究：2019-2026 数据语料比架构更能解释预训练进步，改善主要来自过滤与合成数据方法，只需懂 ML 的研究者；Erds 一千个问题在前沿数学能力下半到一年解掉超 10%二是算力：全球算力年增 2.6 倍而实验室需要每年翻两番，实验瓶颈反而把多年进步压进一年收尾：明年年底出现24 小时不睡觉的称职同事，内部研究模型将领先对外模型",
+      "summary_en": "Dwarkesh Patel and Max Farrens respond to objections to his 'superintelligence by 2030' thesis: median 2028 for automating top AI researchers, superintelligence the year after; he gives ~25% for next year and concedes about half his examples were hasty intuition pumps. Empirical line one: research with Jerry Han shows 2019-2026 data corpora explain pretraining progress better than architectures, and data gains come mostly from filtering and synthetic-data methods needing ML researchers, not domain experts; AI has solved over 10% of Erdos's thousand problems within six months to a year of frontier math ability. Line two is compute: supply grows 2.6x per year while labs need quadrupling to sustain pace; the experiment bottleneck compresses years of progress into one. By end of next year he expects 'competent colleagues who never sleep', with internal research models far ahead of external.",
+      "one_liner": "递归自我改进被拆成三个可证伪变量：数据进步的驱动者算力 2.6 倍对四倍需求的缺口实验瓶颈压缩的时间线",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/943d9ed1.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "52617891",
+      "title": "Has Jevons paradox broken down?",
+      "url": "https://martinalderson.com/posts/has-jevons-paradox-broken-down",
+      "source": {
+        "platform": "blog",
+        "author": "Martin Alderson",
+        "original_date": "2026-11-25"
+      },
+      "category": "industry",
+      "tags": [
+        "token-economics",
+        "jevons-paradox",
+        "agent-adoption",
+        "cost"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "起点是 Ramp CEO 称过去两个月杰文斯悖论崩了：token 增长率从 7 月 42% 掉到 8-9 月合计 1.5%先给数据降温（样本偏融资科技公司），再把自己 token 平台期归因：没有想做的项目功能病节奏被压快他把 AI 采纳分四级台阶配 token 量级：聊天每人每天约 5 万；临时 agent 单次 Claude Code 会话中位 260 万；工程化 agent 每天数亿；自主每天数十亿Ramp 前 1% 花费者占 80% 支出，重用户撞顶直接反映到总量结论：杰文斯悖论没破降价只换来同一级内更多用量，升级是组织问题；限制来自注意力与组织升级速度，而非价格",
+      "summary_en": "Ramp's CEO claims 'Jevons paradox has broken' token spend growth fell from 42% in July to 1.5% across August and September. The author cools the data (noisy sample, skewed toward funded tech companies) and attributes his own token plateau to running out of wanted projects, feature-refusal discipline, and a compressed shipping cadence. He maps AI adoption onto four tiers with token magnitudes: chat around 50k tokens per person per day; ad-hoc agents around 2.6M tokens per Claude Code session (his own median); engineered agents hundreds of millions per day; autonomous agents billions per day. Ramp's top 1% of spenders account for 80% of spend, so heavy users hitting ceilings shows up in totals. Conclusion: Jevons holds price cuts buy more volume within a tier, but tier upgrades are organizational problems; the binding constraint is attention and organizational change speed, not price.",
+      "one_liner": "token 花费见顶的正确读法：四级采纳台阶各有量级，限制来自注意力与组织升级速度，降价只在同一级内生效",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/52617891.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "b799449f",
+      "title": "BREAKING: Employees at OpenAI and Anthropic are panicking",
+      "url": "https://garymarcus.substack.com/p/breaking-employees-at-openai-and",
+      "source": {
+        "platform": "blog",
+        "author": "Gary Marcus",
+        "original_date": "2026-11-24"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-safety",
+        "openai",
+        "anthropic",
+        "model-release-policy"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "转 Axios 报道：OpenAI 与 Anthropic 内部尚未发布的模型已强大到让不少员工认为不能再安全发布，援引二十多位接近内部讨论的知情者，说法出自两家最高层Marcus 认为其中可能有公关成分但也有真实恐惧；核心论证是能力进展没有换来同等幅度的可解释可控进展，模型变成联网 agent 后风险性质改变他提到 2022 年闯进瓷器店的牛的说法至今未改善，缺一套独立审查委员会，发布决定留给利益冲突极大的 CEO；短期方案是企业主动下架联网 agent，模型未达内部安全共识前永远不发布",
+      "summary_en": "Citing an Axios report drawing on twenty-plus sources close to internal discussions: unreleased models inside OpenAI and Anthropic are powerful enough that many employees believe they can no longer be safely released, with concern reaching the top of both companies. Marcus allows that PR motives may be mixed in but sees real fear; his core argument is that capability progress has not been matched by comparable progress in explainability and control, and turning models into internet-connected agents changes the risk profile. He recalls his 2022 'bull in a china shop' framing, notes the absence of an independent review body, and proposes companies proactively pull internet-accessed agents until adequate safety measures exist, and never release models lacking internal consensus on safety.",
+      "one_liner": "能力与控制的进度差才是重点：每加一次联网能力，安全成本就被重新抬一次，发布门槛却还留在 CEO 手里",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/b799449f.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "d6ba52cc",
+      "title": "Who gets to decide if something is written by AI?",
+      "url": "https://seangoedecke.com/who-gets-to-decide-if-something-is-written-by-ai",
+      "source": {
+        "platform": "blog",
+        "author": "Sean Goedecke",
+        "original_date": "2026-11-27"
+      },
+      "category": "industry",
+      "tags": [
+        "ai-detection",
+        "authorship",
+        "content-moderation",
+        "policy"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "起点是几桩 AI 写作争议：获奖作品被指 AI 生成作者因 Pangram 检测器点亮丢合同某条推文是否人写的争论作者判断真正冲突不在检测准不准，而在权力：谁能决定文学奖归属谁给学生判及格谁能把人排除在公共讨论外他认为很多反 AI 的人反感的是工具形态解决方案本身社会几十年从社区 messy 流程转向工具化流程；但他支持检测工具，因为替代方案更糟：没用过 AI 的人很不擅长判断文本是否 AI 写的，双向误判都常见，把裁判权交给反 AI 群体错得更多脚注点破现实约束：人会撒谎草稿可事后生成C2PA 不是解药检测准确率与该不该由它来判是两件事，后者需要明确规则与申诉路径",
+      "summary_en": "Recent controversies an award-winning work accused of being AI-generated, an author losing a contract after Pangram flagged a manuscript are really about power, not detection accuracy: who decides who wins literary prizes, who fails students, who gets excluded from public discussion. Goedecke reads much anti-AI sentiment as resistance to society's turn from messy community processes toward tooling that scores you. He still supports detectors because the alternative is worse: people who don't use AI are bad at identifying AI text in both directions, so handing judgment to anti-AI communities yields more errors. Footnotes hit the constraints: people lie, drafts can be generated after the fact, C2PA is not the tool for this. Whether a detector is accurate and whether it should be the judge are separate questions; the latter needs explicit rules and an appeals path.",
+      "one_liner": "AI 检测器之争的正确切面是权力：检测准不准与该不该由它来判是两件事，后者需要规则与申诉路径",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/d6ba52cc.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "172f4b83",
+      "title": "Have You Tried Using Your Agent?",
+      "url": "https://blog.jim-nielsen.com/2026/have-you-tried-your-agent",
+      "source": {
+        "platform": "blog",
+        "author": "Jim Nielsen",
+        "original_date": "2026-11-26"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-ux",
+        "accessibility",
+        "ax-vs-hx",
+        "product-design"
+      ],
+      "source_type": "article",
+      "language": "en",
+      "summary_zh": "作者接自己 2025 年对 AX 的担心：技术圈姿态正从把东西做得好人能用滑向人应该用 agent 来访问我们的东西，这东西可访问吗在口语里已变成AI agent 能访问吗他担心发版对话变成对 AI 好用吗？能用，但你本人用不了那就发吧，客服变成你试过用你的 agent 吗对照已经发生：我们造出了把没有智能手机的人排除在外的世界，他的父母在登机超市优惠券身份验证上处处卡住；再过十到二十年，你有没有下载我们的 app会变成你有没有用你的 agent 连我们agent 路径更便宜服务成本更低也更少投诉，正在一点点吃掉人的路径",
+      "summary_en": "Following up his 2025 worry that AX would become software makers' top priority, Jim Nielsen observes the field's posture shifting from 'make this good for people to use' to 'people should use their agents to access our stuff' 'is this accessible' has become 'can an AI agent access it'. He fears release conversations like 'does it work for AI? Yes, but not for you personally. Ship it does anyone still do this themselves?' and support scripts like 'have you tried your agent?'. The precedent already exists: we built a world that excludes people without smartphones, and his parents get stuck on boarding passes, supermarket coupons, and identity checks. In ten to twenty years, 'have you downloaded our app' may become 'have you connected your agent'; the agent path is cheaper and draws fewer complaints, so it eats the human path.",
+      "one_liner": "给机器用的路径不能替代给人用的路径：agent 路径更便宜也更少投诉，正在一点点吃掉人的那条路",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/172f4b83.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "8cb33480",
+      "title": "Math Proofs Are Landing Faster Than We Can Read Them",
+      "url": "https://www.latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them",
+      "source": {
+        "platform": "newsletter",
+        "author": "swyx (Latent Space AINews)",
+        "original_date": "2026-11-25"
+      },
+      "category": "industry",
+      "tags": [
+        "math-proofs",
+        "ai-research",
+        "matrix-multiplication",
+        "research-news"
+      ],
+      "source_type": "newsletter",
+      "language": "en",
+      "summary_zh": "Latent Space 11/25 日刊：数学证明落地快过同行消化Scott Aaronson 还在消化两份 VPVNP 证明；OpenAI 论文称方阵乘法指数 恰为 9/410 月给出上界后 11 月出现匹配下界，下界是更大新闻，因为历史预期偏向 2；另一篇给出有限 Fourier 变换的匹配上下界11 月单月占全年研究突破声明的 20 项，其中六篇来自未官宣的 Google Cogentic 预印日刊切割传闻：多项式时间分解仍未证实，RSA/ECC 当下不受影响产品侧夹叙 Gemini 4 Neon；人事：Thariq Shihipar 转 OpenAI",
+      "summary_en": "Latent Space's November 25 AINews: math proofs are landing faster than anyone can read them. Scott Aaronson was still digesting two proofs of VP != VNP; an OpenAI paper claims the square-matrix multiplication exponent omega is exactly 9/4, with a matching lower bound arriving in November after October's upper bound the lower bound being the bigger news, since history favored omega tending to 2 and another paper gives matching upper and lower bounds for the finite Fourier transform. November alone accounts for 20 of this year's breakthrough claims, six of them preprints from Google's Cogentic, unpublished. The issue keeps rumor discipline: polynomial-time factoring remains an unproven rumor; RSA/ECC are unaffected today. Product notes cover Gemini 4 Neon usage and MAI-Code-2.1; one personnel line: Thariq Shihipar moved from Anthropic to OpenAI.",
+      "one_liner": "数学证明的产出节奏超过同行消化速度：=9/4 下界VPVNP 两证明Cogentic 六预印，先立事实再谈叙事",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/8cb33480.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7d5096f9",
+      "title": "Qwen-Audio-3.1: ASR with 30 languages / 16 Chinese dialects, plus Realtime spoken reasoning and voice-agent extension",
+      "url": "https://qwenaudio.github.io/",
+      "source": {
+        "platform": "blog",
+        "author": "Alibaba Qwen speech team",
+        "original_date": "2026-11-26"
+      },
+      "category": "models",
+      "tags": [
+        "speech-models",
+        "asr",
+        "voice-agents",
+        "qwen"
+      ],
+      "source_type": "product",
+      "language": "en",
+      "summary_zh": "阿里 Qwen 语音团队上线 Qwen-Audio-3.1 系列页面ASR 线：Qwen-Audio-3.1-ASR 提供 Flash 与 Next 两档，覆盖 30 种语言16 种中文方言，Next 档含非流式说话人分离与通用音频理解实时线：Qwen-Audio-3.1-Realtime 主打口语推理与工具调用，并把持久语音 agent 做成独立 runtime 扩展页面同时汇总 3.0 世代资产（ASR/TTSFun-ASRCosyVoice 3）与 demo技术报告入口，形成从听到说的完整语音栈对做端侧/服务端 ASR 对比与语音 agent 选型是直接的一手入口",
+      "summary_en": "Alibaba's Qwen speech team published the Qwen-Audio-3.1 series page. The ASR line, Qwen-Audio-3.1-ASR, ships in Flash and Next tiers covering 30 languages and 16 Chinese dialects, with non-streaming speaker diarization and general audio understanding in Next. The realtime line, Qwen-Audio-3.1-Realtime, focuses on spoken reasoning and tool use, with a persistent voice agent packaged as a separate runtime extension. The page also aggregates the 3.0 generation (ASR/TTS, Fun-ASR, CosyVoice 3) plus demo and technical-report entry points, forming a full listen-to-speak stack. A first-hand entry point for anyone comparing on-device or server-side ASR or selecting voice-agent building blocks.",
+      "one_liner": "Qwen 语音栈 3.1 把方言 ASR 与口语推理 agent 拉到同一页面：30 语言 16 方言加实时工具调用，选型可直接听 demo 对比",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/7d5096f9.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "2c650dc3",
+      "title": "Omnigent: an open-source meta-harness that orchestrates Claude Code, Codex, Cursor and 15+ other agent harnesses",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "source": {
+        "platform": "github",
+        "author": "omnigent-ai",
+        "original_date": null
+      },
+      "category": "agents",
+      "tags": [
+        "agent-orchestration",
+        "meta-harness",
+        "sandboxing",
+        "developer-tools"
+      ],
+      "source_type": "github",
+      "language": "en",
+      "summary_zh": "Omnigent 是开源 meta-harness：在 Claude CodeCodexCursorOpenCodeGooseDevinKiroQwen CodeKimi CodeHermesPi 等 15+ 个 harness 之上提供统一编排层互换或组合 harness 而不重写，统一策略与沙箱，会话跨终端/浏览器/手机实时同步，支持分享会话供队友围观Apache-2.0，Python，11.6k star，2026-06 建仓持续活跃，README 自标 alpha对一人多工具的工作流，价值在不锁死单一 harness 的前提下拿到策略/沙箱/多端三件事",
+      "summary_en": "Omnigent is an open-source meta-harness: a common orchestration layer over Claude Code, Codex, Cursor, OpenCode, Goose, Antigravity, GitHub Copilot, Devin, Kiro, Qwen Code, Kimi Code, Grok Build, Jcode, Hermes, Pi and custom YAML-defined agents swap or combine harnesses without rewriting, enforce policies and sandboxing uniformly, and keep sessions in sync across terminal, browser, and phone with live sharing and forking. Apache-2.0 licensed Python project with 11.6k stars, created June 2026 and actively developed (last push 2026-11-27); the README self-labels alpha status. For one-person-many-tools workflows, its value is policy, sandboxing, and multi-device continuity without locking into a single harness.",
+      "one_liner": "多 harness 编排层把换工具不重写做成公共底座：15+ harness统一策略与沙箱会话跨设备同步，alpha 期先小规模验证",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/2c650dc3.md",
+      "images": [],
+      "added_date": "2026-11-27",
+      "updated_date": null,
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-27",
-  "total_entries": 3548
+  "total_entries": 3567
 }
