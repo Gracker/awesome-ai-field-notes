@@ -110195,8 +110195,380 @@
       "updated_date": null,
       "github_stars": null,
       "related": []
+    },
+    {
+      "id": "ee98a806",
+      "title": "AI researchers debate what we should do next Daniel Kokotajlo and Ege Erdil",
+      "url": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+      "source": {
+        "platform": "blog",
+        "author": "Dwarkesh Patel",
+        "original_date": "2026-11-27"
+      },
+      "category": "industry",
+      "tags": [
+        "intelligence-explosion",
+        "forecasting",
+        "ai-2027",
+        "china-ai"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Dwarkesh 发布 Daniel Kokotajlo（AI 2027 主要作者）与 Ege Erdil 的长谈播客并附全文逐字稿原以为是辩论，实际共识多于分歧：对 2029 年前出现超越人类专家的智能爆炸，Erdil 给约 20%，Kokotajlo 认为高于 50%；但两人都认为无论落在哪个数字，局面都已足够疯狂，文明必须开始认真应对并拿出靠谱的计划回顾 AI 2027 的预测，Kokotajlo 承认最大误差是中国觉醒的时点与规模：2026 年夏前后生存风险与对齐讨论确有升温，但没到预测的程度",
+      "summary_en": "Dwarkesh hosts Daniel Kokotajlo (lead author of AI 2027) and Ege Erdil for an episode expected to be a debate that turned into substantial agreement. The core disagreement is the probability of an intelligence explosion producing AI more competent than any human expert before 2029: Erdil puts it around 20%, Kokotajlo above 50% - and both agree that either way the situation is crazy enough that civilization must grapple with transformation and needs a plan that makes sense. Reviewing AI 2027's predictions against late-2026 reality, Kokotajlo flags the biggest miss: the forecast said China wakes up in summer 2026; a lot of wake-up has happened - x-risk, alignment and superintelligence discourse grew - but not at the predicted scale. The full transcript is posted with the episode.",
+      "one_liner": "Kokotajlo and Erdil agree more than they clash: >50% vs ~20% on pre-2029 superhuman AI, and both say civilization needs a real plan now.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ee98a806.md",
+      "images": [],
+      "added_date": "2026-11-28",
+      "updated_date": "2026-11-28",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "5ff1d368",
+      "title": "The agent tax has arrived: Google Workspace's MCP pricing",
+      "url": "https://martinalderson.com/posts/the-agent-tax-has-arrived",
+      "source": {
+        "platform": "blog",
+        "author": "Martin Alderson",
+        "original_date": "2026-11-27"
+      },
+      "category": "agents",
+      "tags": [
+        "mcp",
+        "google-workspace",
+        "agent-economics",
+        "api-pricing"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Google 对 Workspace（GmailDocs 等）宣布两项变化：agent 一律走 MCP 而非 API，且 MCP 调用进入按量计费档位Martin Alderson 算账：MCP 读 1000 封邮件约 0.2 美元，免费额度每天 5000 次且按整个 GCP 项目合并计算，个人够用规模化就是大成本真正的不对称在：第一方应用近乎无限免费，agent 按请求付费，规模堪比 2018 年 Google Maps 定价反转他称这是第一个明确对 agentic 用法征税的主流产品，并怀疑 MCP-only 的强制根本难以执行",
+      "summary_en": "Google announced two changes to Workspace (Gmail, Docs and related apps): agents are expected to interact via MCP rather than API, and MCP usage moves to metered pricing tiers. Alderson walks the numbers: roughly $0.20 to read 1,000 emails via MCP, with a free tier of 5,000 calls per day pooled across an entire Google Cloud project - fine for solo use or small internal tooling, a major cost beyond that. The asymmetry is the point: first-party apps keep effectively unlimited free access while agents pay per request, which he likens to the 2018 Google Maps pricing reversal at greater scale. He argues this is the first major product explicitly taxing agentic use cases, suspects MCP-only enforcement is hard to pull off, and is not sure it will work.",
+      "one_liner": "Google Workspace moves agents onto MCP with per-request pricing while apps stay free - the first major agent tax, and Alderson doubts it.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/5ff1d368.md",
+      "images": [],
+      "added_date": "2026-11-28",
+      "updated_date": "2026-11-28",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "7d5bb309",
+      "title": "Pluralistic: Taylorism and AI's shared sales-pitch",
+      "url": "https://pluralistic.net/2026/11/27/taylor-made",
+      "source": {
+        "platform": "blog",
+        "author": "Cory Doctorow",
+        "original_date": "2026-11-27"
+      },
+      "category": "industry",
+      "tags": [
+        "taylorism",
+        "deskilling",
+        "labor",
+        "ai-critique"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Cory Doctorow 在 Pluralistic 长文里把今天的 AI 推销术与一个世纪前的泰勒制科学管理并置：泰勒向最富有的老板们出售昂贵的优化咨询，派穿白大褂拿秒表的年轻科学家进厂测每个工位每项动作，却拒绝与被观测的工人交流半句；这些人的真正职能，是把工人的手艺转化成管理层的财产Doctorow 认为 AI 的销售话术复刻了同一结构，这也是这类管理时尚屡屡失败却长盛不衰的原因",
+      "summary_en": "Cory Doctorow's Pluralistic essay puts today's AI vendors beside Frederick Winslow Taylor's scientific management a century ago. Taylor sold the world's wealthiest men expensive consulting, dispatched unqualified young men in scientist drag with stopwatches to time every task on the factory floor, and refused to discuss findings with the workers they observed - the job of these scientists was to transform the workers' knowledge into something management owned. Doctorow argues the AI sales pitch repeats that structure, which is why such management fashions survive their own failures. The essay is the November 27, 2026 Pluralistic entry.",
+      "one_liner": "Doctorow: the AI pitch is Taylorism rerun - sell bosses optimization, never ask workers, turn their knowledge into management property.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/7d5bb309.md",
+      "images": [],
+      "added_date": "2026-11-28",
+      "updated_date": "2026-11-28",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "ccfc3416",
+      "title": "Opus 5.5 and Fable 5.2 made my overoptimized Rust code even more overoptimized",
+      "url": "https://minimaxir.com/2026/11/opus-fable",
+      "source": {
+        "platform": "blog",
+        "author": "Max Woolf",
+        "original_date": "2026-11-28"
+      },
+      "category": "coding",
+      "tags": [
+        "agentic-coding",
+        "rust",
+        "claude-opus-5-5",
+        "performance-optimization"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Max Woolf 重跑他那套用 agent 把 Rust 代码优化到超越 SOTA 库的迭代管线，模型从 OpenAI 系换成 Claude Opus 5.5 与 Fable 5.2结论：此前已过度优化的代码还能再快，Opus 5.5 对 agentic 任务是台阶式提升，能完成 OpenAI 与 Anthropic 其他模型都拿不下的硬活文中还给出 Claude Code 桌面版实操：后台任务侧栏会话与每周用量直接可见agent 读图时内联显示，Remote Control 也意外好用",
+      "summary_en": "Max Woolf follows up his earlier piece on using agentic LLMs to push Rust code faster than state-of-the-art libraries, this time running the iteration pipeline on Claude Opus 5.5 and Fable 5.2 after originally using OpenAI models. Opus 5.5 turned out to be a step-change for agentic capability, completing difficult technical tasks that neither OpenAI's nor Anthropic's other models could, and pushing his already-overoptimized code further against hardware limits. He also reviews Claude Code inside the new desktop app: background tasks listed in a sidebar, current session and weekly usage visible without shelling out, images appearing inline when the agent reads them, and a surprisingly useful Remote Control.",
+      "one_liner": "Woolf re-runs his agentic Rust optimization pipeline on Opus 5.5 and Fable 5.2 - overoptimized code gets faster, plus desktop-app notes.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/ccfc3416.md",
+      "images": [],
+      "added_date": "2026-11-28",
+      "updated_date": "2026-11-28",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "0ff8bb10",
+      "title": "Defective Accelerationism",
+      "url": "https://www.wheresyoured.at/defective-accelerationism",
+      "source": {
+        "platform": "blog",
+        "author": "Ed Zitron",
+        "original_date": "2026-11-25"
+      },
+      "category": "industry",
+      "tags": [
+        "nvidia",
+        "circular-financing",
+        "ai-economy",
+        "market-critique"
+      ],
+      "source_type": "newsletter",
+      "language": "both",
+      "summary_zh": "Ed Zitron 把 NVIDIA 定义为 AI 经济的最后贷款人与最后买家：据 WSJ，2023 年以来 NVIDIA 已向 293 笔 AI 行业交易投入超 1000 亿美元；据 FT，担保与供应商融资安排合计接近 7000 亿美元他称之为资产负债表即服务替本已撑不住的客户填补资金缺口，把软件业风投退休与保险资金集中输送到极少数人手中，并断言这套循环金融一旦反转，损害将极为惨重",
+      "summary_en": "Ed Zitron argues NVIDIA now functions as the AI economy's lender and buyer of last resort. Citing WSJ reporting that NVIDIA has pumped over $100 billion into 293 AI industry deals since 2023, and FT reporting that backstops and vendor financing schemes amount to a little under $700 billion, he describes a balance-sheet-as-a-service model that fills the financial gaps of an industry that would otherwise collapse - while funneling money out of software, venture capital, retirement and insurance funds into very few hands, with horrendous damage expected when it unwinds. The piece centers on Jensen Huang's beat-and-raise machine as the mechanism holding the buildout together.",
+      "one_liner": "Zitron on NVIDIA's balance-sheet-as-a-service: $100B+ across 293 deals since 2023 and ~$700B in backstops propping up AI demand.",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/0ff8bb10.md",
+      "images": [],
+      "added_date": "2026-11-28",
+      "updated_date": "2026-11-28",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "f796e127",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+      "source": {
+        "platform": "blog",
+        "author": "Simon Willison",
+        "original_date": "2026-11-24"
+      },
+      "category": "models",
+      "tags": [
+        "gpt-6-2",
+        "historical-research",
+        "agentic-research",
+        "deep-blue-moment"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Simon Willison 转引历史学者 Mark Humphries 在 Generative History 的案例：GPT-6.2 Astra 在几乎最少提示下，仅用约 22 分钟就自主锁定了耶鲁 Beinecke 图书馆一册 1808 年匿名速写本的作者，全程只用公开的一手与二手材料过程中它在纸质档案里挖出一处鲜为人知的来源，预判查证它即可证实假设并最终命中该来源本身就是一项重要发现Willison 问历史学界是否等来了自己的深蓝时刻，Humphries 则认为冲击温和",
+      "summary_en": "Simon Willison links a case study by history professor Mark Humphries on the Generative History substack: with only minimal prompting, GPT-6.2 Astra autonomously identified the creator of an anonymous 1808 sketchbook held at Yale's Beinecke Library, working extremely quickly - about 22 minutes - from publicly available primary and secondary sources. Along the way it discovered a little-known source in a paper archive, predicted that examining it would prove its hypothesis, and did; that source turns out to be a major find on its own. Willison asks whether historians are due for a round of Deep Blue; Humphries expects the impact to be mild.",
+      "one_liner": "GPT-6.2 Astra cracked an anonymous 1808 Yale sketchbook's authorship in 22 minutes of archive work - historians' Deep Blue moment?",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/f796e127.md",
+      "images": [],
+      "added_date": "2026-11-28",
+      "updated_date": "2026-11-28",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "51103117",
+      "title": "Google Orchestrator, llama.cpp 1.0, The 'Token Tax,' and Agent Messaging",
+      "url": "https://www.deeplearning.ai/the-batch/issue-381",
+      "source": {
+        "platform": "blog",
+        "author": "DeepLearning.AI",
+        "original_date": "2026-11-27"
+      },
+      "category": "industry",
+      "tags": [
+        "google-antigravity",
+        "orchestrator",
+        "llama-cpp",
+        "token-tax",
+        "agent-messaging"
+      ],
+      "source_type": "newsletter",
+      "language": "both",
+      "summary_zh": "The Batch 第 381 期：头条是 Google Antigravity 的 Orchestrator同一个 agent同一份上下文内按阶段切换后台模型：规划端用 Carbon/Neon/Argon 读代码写计划，执行端 Hydrogen 改代码构建跑测试，检查连续失败则交回规划端改计划，页述上下文合计约 1M同期：llama.cpp 正式发布 1.0；CLEAR 量化多语言Token Tax；Sheffield 的 StateBridge 解决同模型 agent 间状态传递Andrew Ng 的信强调可验证任务与不可验证判断的能力落差",
+      "summary_en": "DeepLearning.AI's Issue 381 leads with Google Antigravity's Orchestrator: a single agent in a single context that switches backend models by phase - the planner (Carbon/Neon/Argon) reads code and writes plans, executor Hydrogen modifies code, builds and tests, and repeated check failures hand control back to the planner to revise the plan. Listed API pricing runs Hydrogen $1.50/$7.50 and Neon $3.00/$15.00 per million tokens, context up to about 1M. Also in the issue: llama.cpp formally ships 1.0; CLEAR quantifies the multilingual Token Tax (non-English tokens cost more); and Sheffield's StateBridge addresses state messaging between agents built on the same model. Andrew Ng's letter contrasts verifiable tasks, where models shine, with unverifiable judgment calls where the capability gap persists.",
+      "one_liner": "The Batch #381: Google Orchestrator swaps planner/executor models in one agent context, llama.cpp ships 1.0, CLEAR quantifies the Token Tax.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/51103117.md",
+      "images": [],
+      "added_date": "2026-11-28",
+      "updated_date": "2026-11-28",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "1468e19c",
+      "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+      "url": "https://arxiv.org/abs/2611.34051",
+      "source": {
+        "platform": "arxiv",
+        "author": "Xichong Zhang, Xixuan Hao, Zhichen Liu, Le Zhou, Zeyu Zhang, Boyu Chen, Mingfei Lu, Zehao Lin, Bo Ta...",
+        "original_date": "2026-11-25"
+      },
+      "category": "models",
+      "tags": [
+        "linear-attention",
+        "recurrent-state",
+        "training-stability",
+        "long-context"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "线性注意力以线性复杂度和定长循环状态支撑长序列建模Gated DeltaNet-2（GDN-2）为擦除与写入引入逐通道独立控制，提升状态更新表达力与上下文检索，却在长上下文训练中反复失败论文把失败定位到擦除阶段读取与修改方向的不对称：由此产生的非正规擦除算子让方向性增益随 token 累积，即使不再写入也会触发状态指数膨胀修复方案采用对称擦除，使状态更新保持非扩张性，从而稳住长上下文训练cs.CL/cs.LG，2026-11-25 提交，为 HF 日榜 128 赞热度的第一名",
+      "summary_en": "Linear attention offers long-sequence modeling at linear complexity with fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, improving state-update expressiveness and in-context retrieval, but it suffers training failures during long-context training. The authors trace the failures to an asymmetry between reading and modification directions during erasure: this yields non-normal erase operators whose directional gains accumulate across tokens, triggering exponential state growth even without new writes. The proposed remedy employs symmetric erasure so that state updates remain non-expansive. Categories cs.CL, cs.LG; submitted 2026-11-25. HF daily-papers context: top upvoted paper (128) in the 2026-11-28 brief.",
+      "one_liner": "GDN-2 training failures traced to non-normal erase operators whose directional gains snowball; symmetric erasure restores stability.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/1468e19c.md",
+      "images": [],
+      "added_date": "2026-11-28",
+      "updated_date": "2026-11-28",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "81c7402b",
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "url": "https://arxiv.org/abs/2611.34232",
+      "source": {
+        "platform": "arxiv",
+        "author": "Hui Shen, Yunta Hsieh, Jianing Ma, Zhuoran Yin, Zhuhan Bao, Ziyuan Liu, Qi Han, Xiuqi Xu, Xianbang W...",
+        "original_date": "2026-11-25"
+      },
+      "category": "agents",
+      "tags": [
+        "computer-use-agents",
+        "benchmark",
+        "cross-platform",
+        "long-horizon"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "现有 computer-use 基准大多把 web移动桌面环境隔开测试，难以回答同一个通用 agent 能否跨操作系统完成长程工作流OS-Omni 给出覆盖 WindowsUbuntumacOSiOSAndroid 与 Web 的实时跨平台基准与执行环境，按版本波次发布每波 300 个任务；论文聚焦首个版本 v1：每平台 48 个任务加 12 个跨平台任务，考核 agent 在持久应用状态下的多系统长程执行能力cs.CV，2026-11-25 提交，HF 日榜 103 赞",
+      "summary_en": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions, but existing benchmarks typically isolate web, mobile or desktop environments, leaving unclear whether a single generalist agent can execute long-horizon workflows spanning multiple operating systems and persistent application states. OS-Omni is a live cross-platform benchmark and execution environment covering Windows, Ubuntu, macOS, iOS, Android and Web. It releases in versioned waves of 300 tasks each; the paper focuses on the first release, v1, containing 48 tasks per platform plus 12 cross-platform tasks. Category cs.CV; submitted 2026-11-25; second-highest upvote count (103) in the 2026-11-28 HF daily brief.",
+      "one_liner": "OS-Omni: cross-platform benchmark for computer-using agents spanning Windows/macOS/Ubuntu/iOS/Android/Web, 300 tasks per versioned wave.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/81c7402b.md",
+      "images": [],
+      "added_date": "2026-11-28",
+      "updated_date": "2026-11-28",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "86b16d1b",
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "url": "https://arxiv.org/abs/2611.34813",
+      "source": {
+        "platform": "arxiv",
+        "author": "Dezhi Luo, Fengyuan Yu, Haotian Zhang, Zehong Zhao, Ran Ji, Siyuan An, Huayi Qin, Qingying Gao, Zhon...",
+        "original_date": "2026-11-25"
+      },
+      "category": "models",
+      "tags": [
+        "visual-reasoning",
+        "coding-agents",
+        "video-models",
+        "evaluation"
+      ],
+      "source_type": "paper",
+      "language": "both",
+      "summary_zh": "视频生成模型正被当作视觉推理器评测：给首帧和自然语言指令，让模型生成任务完成的视频，卖点是推理原生发生在画面里而非语言或代码中但这条原生路线从未与符号路线在同条件下对测论文把相同任务相同输入相同输出规范与评测器同时交给两种介质：一个继续去噪像素，另一个由编程 agent 写程序直接构造出指定结果结论如标题所示在这组对齐设定下，写代码的 agent 是比视频模型更强的视觉推理者cs.CV/cs.AI/cs.LG/cs.MM，2026-11-25 提交",
+      "summary_en": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, produce the video in which the specified task is carried out. The paradigm is considered advantageous because reasoning is native to the visual medium, unfolding directly in frames rather than through language or code. But this native route had not been tested against a symbolic alternative under the same conditions. The paper poses the same tasks, with identical inputs, output specification and evaluator, to both media: rather than denoising pixels, a coding agent writes a program that produces the specified result. As the title states, coding agents prove stronger visual reasoners than video models on these matched tasks. Categories cs.CV, cs.AI, cs.LG, cs.MM; submitted 2026-11-25.",
+      "one_liner": "Same tasks, same evaluator: coding agents that write programs beat video generation models at visual reasoning - the symbolic route wins.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/86b16d1b.md",
+      "images": [],
+      "added_date": "2026-11-28",
+      "updated_date": "2026-11-28",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "91c4dc9a",
+      "title": "后 AI 时代最重要的问题",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzY4MjUyNDUzOA%3D%3D&mid=2247483682&idx=1&sn=43f7fec0c876ef263c318214d917572d&chksm=f26bd7438ed53ab812241009ac099ec48e8b8a0546dbcf857901edc0a5b742c5acb11bfba6f5&mpshare=1&scene=1&srcid=1128k4hHqLVij5rCsrjSuHnw&sharer_shareinfo=922c1dc59b1bcae57818bdbf47004b6e&sharer_shareinfo_first=922c1dc59b1bcae57818bdbf47004b6e",
+      "source": {
+        "platform": "wechat",
+        "author": null,
+        "original_date": null
+      },
+      "category": "industry",
+      "tags": [
+        "post-ai-society",
+        "labor-economics",
+        "content-industry"
+      ],
+      "source_type": "article",
+      "language": "zh",
+      "summary_zh": "作者提出后 AI 时代最重要的问题是：当 AI 在生产端大规模替代人类劳动后，社会应如何看待人的价值文中给出几个判断：与流行想象相反，AI 对世界的控制可能四年前就已开始；算力攻占的是脑力本身，我们身后并没有更高一层的超脑力工种可供几亿人转移，若新增需求主要由 AI 承接，普通人靠劳动分享增长的通道会变窄甚至倒退；以 GTA6 产能上云与 Fable 5.2 降低创制门槛为例，文娱行业将空前两极分化创作工具平权，分发入口算力分配与分钱方式都没有平权，不能只看幸存者",
+      "summary_en": "A roughly 8,000-character Chinese essay arguing that the most important question of the post-AI era is how society values human beings once AI replaces labor at production scale. The author claims AI may effectively have been controlling the world for about four years already; that compute is now attacking brain-work itself, and there is no higher super-mental job tier for hundreds of millions to migrate into, so if new demand is absorbed mainly by AI, ordinary people's channel to share growth through labor may narrow or even reverse. Using GTA6 pushing AAA production ceilings into the cloud and Fable 5.2 lowering the floor of game-making as a paired case, it argues cultural industries face extreme polarization: creation tools democratized, but distribution gateways, compute allocation and revenue-sharing did not - do not count only the winners.",
+      "one_liner": "8000 字中文长文：AI 替代生产劳动后，社会如何看待人的价值创作工具平权了，分发入口算力分配与分钱方式都没有",
+      "one_liner_author": "openclaw",
+      "quality_score": 3,
+      "status": "active",
+      "local_path": "content/91c4dc9a.md",
+      "images": [],
+      "added_date": "2026-11-28",
+      "updated_date": "2026-11-28",
+      "github_stars": null,
+      "related": []
+    },
+    {
+      "id": "6d403bbe",
+      "title": "Building agents: When to fold subagents into your main agent loop",
+      "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+      "source": {
+        "platform": "blog",
+        "author": "Diane Sarkis",
+        "original_date": "2026-10-22"
+      },
+      "category": "agents",
+      "tags": [
+        "agent-architecture",
+        "subagents",
+        "skills",
+        "agent-evals"
+      ],
+      "source_type": "article",
+      "language": "both",
+      "summary_zh": "Anthropic Applied AI 工程指南（2026-10-22）：带 skills 的单循环 agent 常跑赢单提示与多 subagent 架构，成本与延迟更低有客户折回单循环后运行时间快约一倍失败模式：有损交接subagent 蔓延规则打架的 Frankenprompt无人负责的评测保留 subagent：上下文膨胀可丢弃上下文的并行黑盒验证迁移方法：先建任务完成度评测，再逐个把 subagent 折叠成 skills 与 MCP 工具；工具定义超约 30-50 个后选择准确度下滑配套仓库 anthropics/single-agent-loop-kit",
+      "summary_en": "Anthropic Applied AI's guide (Diane Sarkis, Oct 22, 2026) reports that a single agent with skills often scored higher than both a one-prompt design and a subagent design, at lower cost and latency per task - one customer ran about 2x faster after folding its multi-agent orchestration into a single loop. It catalogs orchestrator-on-top failure modes: lossy handoffs, subagent sprawl, a Frankenprompt of conflicting rules, unowned evals. Subagents remain worth keeping for context bloat, parallel work with discardable context, and black-box verification. The migration playbook: build task-completion evals first (10 golden examples suffice), merge subagents that chain or share data, then fold one at a time into skills and MCP tools, checking which tasks flipped. Tool choice degrades past roughly 30-50 tool definitions; companion repo: anthropics/single-agent-loop-kit.",
+      "one_liner": "Anthropic's field guide: a single loop with skills often beats subagent harnesses - fold them in one at a time, evals first.",
+      "one_liner_author": "openclaw",
+      "quality_score": 4,
+      "status": "active",
+      "local_path": "content/6d403bbe.md",
+      "images": [],
+      "added_date": "2026-11-28",
+      "updated_date": "2026-11-28",
+      "github_stars": null,
+      "related": []
     }
   ],
   "last_updated": "2026-11-28",
-  "total_entries": 3576
+  "total_entries": 3588
 }
